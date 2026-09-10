@@ -21,6 +21,14 @@ before anything is written:
                    front matter gains spec_map); front matter still parses
                    as YAML; existing FM keys untouched
   G6  idempotent — a spec_map block already present is replaced cleanly
+  G7  promotion  — optional per-mapping `validation` blocks in the decisions
+                   JSON are validated (status exactly HUMAN_VALIDATED,
+                   non-empty validated_by, validated_date as YYYY-MM-DD) and
+                   carried into the front matter. Promotions live in the
+                   decisions files, NEVER as hand-edits on note front matter
+                   (the applier regenerates front matter from decisions and
+                   would silently revert hand edits). Without a validation
+                   block a mapping stays validation_status: SUGGESTED.
 
 Cross-subsection mappings (a note mapping to a point outside its PROVIDER
 slug-anchored subsection) are ALLOWED but recorded and reported for PR
@@ -131,19 +139,38 @@ def strip_existing_spec_map(fm_lines):
     return out
 
 
+RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def valid_validation_block(val):
+    """G7: a decisions-side promotion block must be exactly this shape."""
+    return (isinstance(val, dict)
+            and val.get("validation_status") == "HUMAN_VALIDATED"
+            and str(val.get("validated_by", "")).strip() != ""
+            and RE_ISO_DATE.match(str(val.get("validated_date", ""))))
+
+
 def build_spec_map(sub_code, group_slug, mappings):
     sps = []
     for m in mappings:
+        prov = {
+            "tier": "AI_SUGGESTED",
+            "confidence": m["confidence"],
+            "model_version": MODEL_VERSION,
+            "evidence": m["evidence"],
+            "rationale": m["rationale"],
+            "validation_status": "SUGGESTED",
+        }
+        val = m.get("validation")
+        if val is not None:
+            # G7 gates the shape; here we just carry it through.
+            if valid_validation_block(val):
+                prov["validation_status"] = "HUMAN_VALIDATED"
+                prov["validated_by"] = str(val["validated_by"])
+                prov["validated_date"] = str(val["validated_date"])
         sps.append({
             "code": m["code"],
-            "provenance": {
-                "tier": "AI_SUGGESTED",
-                "confidence": m["confidence"],
-                "model_version": MODEL_VERSION,
-                "evidence": m["evidence"],
-                "rationale": m["rationale"],
-                "validation_status": "SUGGESTED",
-            },
+            "provenance": prov,
         })
     block = {
         "spec_map": {
@@ -222,6 +249,14 @@ def main():
                 failures.append(f"G4 empty evidence: {rel} {m.get('code')}")
             if not m.get("rationale"):
                 failures.append(f"G4 empty rationale: {rel} {m.get('code')}")
+            # ---- G7 promotion block shape (carried by build_spec_map)
+            if m.get("validation") is not None \
+                    and not valid_validation_block(m["validation"]):
+                failures.append(
+                    f"G7 invalid validation block: {m.get('code')} :: {rel} "
+                    "(need validation_status HUMAN_VALIDATED + validated_by "
+                    "+ validated_date YYYY-MM-DD; anything else must be "
+                    "omitted, leaving the mapping SUGGESTED)")
         # ---- G2 registry
         for c in codes:
             if c not in code2sub:
@@ -292,10 +327,14 @@ def main():
             print(f"  ... and {len(failures) - 60} more")
         sys.exit(1)
 
+    promoted = sum(1 for d in decisions.values() for m in d["mappings"]
+                   if m.get("validation", {}).get("validation_status")
+                   == "HUMAN_VALIDATED")
     print(f"{'DRY-RUN ' if args.dry_run else ''}ALL GATES GREEN")
     print(f"notes mapped: {stats['notes']}  mappings: {stats['mappings']} "
           f"(high {stats['by_conf']['high']} / medium {stats['by_conf']['medium']} "
-          f"/ low {stats['by_conf']['low']})")
+          f"/ low {stats['by_conf']['low']}; promoted HUMAN_VALIDATED: "
+          f"{promoted})")
     print(f"cross-subsection mappings (PR-review flags): {stats['cross_sub']}")
     for rel, c, note_sub, pt_sub in flags:
         print(f"  FLAG {c}: note anchored {note_sub} but point in {pt_sub} :: {Path(rel).name}")
@@ -323,6 +362,9 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
             point_notes.setdefault(m["code"], []).append(
                 (m["confidence"], Path(n["path"]).stem))
     covered = len(point_notes)
+    promoted = sum(1 for d in decisions.values() for m in d["mappings"]
+                   if m.get("validation", {}).get("validation_status")
+                   == "HUMAN_VALIDATED")
 
     lines = ["# Phase 2 (T-C10) — Revision-Note to Spec-Point Mapping Coverage",
              "",
@@ -356,6 +398,8 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
              f"low {stats['by_conf']['low']})",
              f"- Spec points with ≥1 direct note mapping: **{covered} / 182**",
              f"- Cross-subsection mappings (flagged for PR attention): {stats['cross_sub']}",
+             f"- Promoted to HUMAN_VALIDATED so far: **{promoted} / {stats['mappings']}** "
+             "(PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)",
              "",
              "## 3. Zero-coverage queue (points with no direct note mapping)",
              "",
@@ -397,7 +441,10 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
     lines += ["", "## 6. PR review guide", "",
               "1. Review the front-matter diff of this commit — each note's `spec_map:` "
               "block is a small, self-contained review unit (code + confidence + evidence "
-              "quote + rationale).",
+              "quote + rationale). The full work order in the operator's stated "
+              "priority order is `graph/reports/PHASE2_PR_REVIEW_GUIDE.md` "
+              "(remapped 4.15 first, then the low/medium set, then the semantic "
+              "completeness and diagram-verification scans).",
               "2. Start with **medium/low** confidence mappings and the cross-subsection "
               "flags below — they are the ones where the mapping judgment is least "
               "mechanical.",
@@ -406,8 +453,14 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
               "19 confirmed (1 of them after machine visual verification of the "
               "metallic-lattice diagram), 1 rejected and remapped (4CH1-4.15, see the "
               "sheet's review record).",
-              "4. Approve/adjust via the PR; `validation_status: SUGGESTED` is promoted to "
-              "HUMAN_VALIDATED per mapping as diffs are accepted.",
+              "4. Approve/adjust via the PR: a confirmed mapping is promoted by adding "
+              "a `validation` block (HUMAN_VALIDATED + validated_by + validated_date) "
+              "to its entry in `scripts/c10_decisions/S*.json` and re-running the "
+              "gated applier — `scripts/c10_promote.py` batches this. The note front "
+              "matter is then regenerated carrying `validation_status: "
+              "HUMAN_VALIDATED`. NEVER hand-edit the front matter for promotion: the "
+              "applier regenerates it from decisions and would silently revert the "
+              "edit on the next rework re-run.",
               "5. **Evidence-existence is not semantic validity.** The automated G3 gate "
               "proves a mapping's evidence quote exists verbatim in the note; it cannot "
               "prove the quote covers the spec point's semantics. The 4.15 case is the "

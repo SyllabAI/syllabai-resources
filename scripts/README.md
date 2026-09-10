@@ -39,8 +39,13 @@
   matter as `spec_map:` blocks (PROVIDER subsection anchor + AI_SUGGESTED
   point mappings with evidence/confidence/model_version/rationale). HARD
   gates: evidence-verbatim-in-note (anti-hallucination), codes ∈ 182-point
-  registry, ≥1 mapping per note, body byte-identical, idempotent re-run.
-  Also regenerates `graph/reports/PHASE2_MAPPING_COVERAGE.md`; the spot-check
+  registry, ≥1 mapping per note, body byte-identical, idempotent re-run,
+  G7 promotion-block shape (see `c10_promote.py`). Promotions live in the
+  decisions JSON as optional per-mapping `validation` blocks and are
+  carried into the front matter as `validation_status: HUMAN_VALIDATED` +
+  `validated_by` + `validated_date` — NEVER hand-edit note front matter for
+  promotion (the applier regenerates it from decisions). Also regenerates
+  `graph/reports/PHASE2_MAPPING_COVERAGE.md`; the spot-check
   sheet is only regenerated if absent (an issued sheet carrying an operator
   review record is preserved — `--regen-spot-check` discards it deliberately):
   `python3 scripts/c10_map_notes.py [--dry-run] [--regen-spot-check]`
@@ -54,11 +59,30 @@
   (2026-09-11 chat review) onto the issued sheet: per-entry verdict lines
   with attribution + appended review record + lock marker. Idempotent:
   `python3 scripts/c10_spotcheck_verdicts.py`
-- `c10_negative_test.py` — T-C10 validator negative tests: 8 corruption
+- `c10_negative_test.py` — T-C10 validator negative tests: 10 corruption
   classes (spec_map removal, invented codes, emptied evidence, corrupted
   anchor, emptied mappings, foreign 4CH0 code, deleted note, premature
-  HUMAN_VALIDATED) injected into a throwaway copy; all must be caught:
+  HUMAN_VALIDATED tier, promotion without validated_by/date, stray
+  validated_by on a SUGGESTED mapping) injected into a throwaway copy; all
+  must be caught, plus a positive control proving a COMPLETE HUMAN_VALIDATED
+  block passes:
   `python3 scripts/c10_negative_test.py`
+- `c10_promote.py` — T-C10 PR-review promotion helper (2026-09-11): marks
+  confirmed mappings as HUMAN_VALIDATED in the decisions JSON (source of
+  truth) and re-runs the gated applier in one step, so the front matter
+  carries the promotion. `--map CODE` (unique) or `--map CODE@FRAGMENT`
+  (disambiguate multi-note codes), `--by/--date` recorded on the promotion,
+  `--no-apply` for decisions-only. Idempotent (re-promoting is a no-op):
+  `python3 scripts/c10_promote.py --map 4CH1-4.15 --map '4CH1-1.10@chromatography'`
+- `c10_pr_review_guide.py` — T-C10 PR front-matter review guide generator
+  (2026-09-11): emits `graph/reports/PHASE2_PR_REVIEW_GUIDE.md`, the work
+  order for the remaining operator gate in their stated priority order
+  (remapped 4.15; the 1 low; the 34 medium — cross-note-deferral-flagged
+  first; the 1.17 cross-subsection flag; cross-note deferral candidates;
+  diagram-dependent mappings incl. the 3 figure-missing notes). Deterministic
+  (decisions JSON + registry + note image-resolution scan); reflects the
+  current promotion state when regenerated mid-review:
+  `python3 scripts/c10_pr_review_guide.py`
 - `graph_check.py` group 6 (`c10-notes-mapping`) — persistent-state check of
   the applied T-C10 mapping (schema, registry membership, provenance
   vocabulary, anchor-vs-slug, foreign codes, totals 112/211/182). Runs as

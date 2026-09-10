@@ -15,6 +15,7 @@ Generated 2026-09-11 by `scripts/c10_map_notes.py` from `scripts/c10_decisions/S
 - Total mappings: **211** (high 176 · medium 34 · low 1)
 - Spec points with ≥1 direct note mapping: **182 / 182**
 - Cross-subsection mappings (flagged for PR attention): 1
+- Promoted to HUMAN_VALIDATED so far: **0 / 211** (PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)
 
 ## 3. Zero-coverage queue (points with no direct note mapping)
 
@@ -242,10 +243,10 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 
 ## 6. PR review guide
 
-1. Review the front-matter diff of this commit — each note's `spec_map:` block is a small, self-contained review unit (code + confidence + evidence quote + rationale).
+1. Review the front-matter diff of this commit — each note's `spec_map:` block is a small, self-contained review unit (code + confidence + evidence quote + rationale). The full work order in the operator's stated priority order is `graph/reports/PHASE2_PR_REVIEW_GUIDE.md` (remapped 4.15 first, then the low/medium set, then the semantic completeness and diagram-verification scans).
 2. Start with **medium/low** confidence mappings and the cross-subsection flags below — they are the ones where the mapping judgment is least mechanical.
 3. Spot-check status (2026-09-11): the 20-sample sheet (`graph/reports/PHASE2_SPOT_CHECK_SHEET.md`) was operator-reviewed — 19 confirmed (1 of them after machine visual verification of the metallic-lattice diagram), 1 rejected and remapped (4CH1-4.15, see the sheet's review record).
-4. Approve/adjust via the PR; `validation_status: SUGGESTED` is promoted to HUMAN_VALIDATED per mapping as diffs are accepted.
+4. Approve/adjust via the PR: a confirmed mapping is promoted by adding a `validation` block (HUMAN_VALIDATED + validated_by + validated_date) to its entry in `scripts/c10_decisions/S*.json` and re-running the gated applier — `scripts/c10_promote.py` batches this. The note front matter is then regenerated carrying `validation_status: HUMAN_VALIDATED`. NEVER hand-edit the front matter for promotion: the applier regenerates it from decisions and would silently revert the edit on the next rework re-run.
 5. **Evidence-existence is not semantic validity.** The automated G3 gate proves a mapping's evidence quote exists verbatim in the note; it cannot prove the quote covers the spec point's semantics. The 4.15 case is the canonical example: a true quote (fuel sulfur impurities) that never established the impurity -> combustion -> sulfur-dioxide causal chain the point demands. Read every mapping as *does this note teach what the point asks*, not as *does this sentence exist*.
 
 ### Cross-subsection mappings (flagged)

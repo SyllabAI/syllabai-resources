@@ -698,9 +698,26 @@ def check_notes_mapping(data, point_codes, sub_codes, notes_root=None):
             for key in ("model_version", "evidence", "rationale"):
                 if not prov.get(key):
                     chk.fail(f"c10.3 missing {key} for {c}: {rel}")
-            if prov.get("validation_status") != "SUGGESTED":
-                chk.fail(f"c10.3 validation_status {prov.get('validation_status')!r} "
+            # validation state: SUGGESTED (clean, no stray promotion fields)
+            # or HUMAN_VALIDATED (validated_by + ISO date required; tier must
+            # still be AI_SUGGESTED — origin is immutable, checked above)
+            vs = prov.get("validation_status")
+            if vs == "HUMAN_VALIDATED":
+                if not prov.get("validated_by"):
+                    chk.fail(f"c10.3 HUMAN_VALIDATED missing validated_by "
+                             f"for {c}: {rel}")
+                if not re.fullmatch(r"\d{4}-\d{2}-\d{2}",
+                                    str(prov.get("validated_date", ""))):
+                    chk.fail(f"c10.3 bad validated_date "
+                             f"{prov.get('validated_date')!r} for {c}: {rel}")
+            elif vs != "SUGGESTED":
+                chk.fail(f"c10.3 validation_status {vs!r} "
                          f"for {c}: {rel}")
+            else:
+                for key in ("validated_by", "validated_date"):
+                    if prov.get(key):
+                        chk.fail(f"c10.3 stray {key} on SUGGESTED mapping "
+                                 f"{c}: {rel}")
             if c in point_codes:
                 covered.add(c)
                 total_maps += 1

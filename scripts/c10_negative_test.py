@@ -2,7 +2,7 @@
 """
 T-C10 — negative tests for the c10-notes-mapping check group in graph_check.py.
 
-Eight corruption classes are injected into a throwaway copy of the notes tree
+Ten corruption classes are injected into a throwaway copy of the notes tree
 (markdown files only; assets are skipped by the checker anyway). Each class
 MUST be caught by check_notes_mapping; a missing catch fails this script.
 
@@ -15,6 +15,12 @@ Classes:
   6. foreign-curriculum code (4CH0) planted in front matter
   7. a note file deleted
   8. tier flipped to HUMAN_VALIDATED (premature authority)
+  9. validation_status promoted WITHOUT the required validated_by/date
+ 10. stray validated_by on a still-SUGGESTED mapping
+
+A positive control then verifies the promotion pathway: a COMPLETE
+HUMAN_VALIDATED block (validated_by + ISO date, tier still AI_SUGGESTED)
+must PASS the validator — otherwise the promotion pathway would be unusable.
 
 Usage: python3 scripts/c10_negative_test.py
 """
@@ -136,6 +142,46 @@ def t8(root):
     edit_fm(pick_note(root), corrupt)
 
 
+@test("promotion without validated_by/date", ["c10.3 HUMAN_VALIDATED missing validated_by"])
+def t9(root):
+    def corrupt(fm):
+        prov = fm["spec_map"]["spec_points"][0]["provenance"]
+        prov["validation_status"] = "HUMAN_VALIDATED"
+        return fm
+    edit_fm(pick_note(root), corrupt)
+
+
+@test("stray validated_by on SUGGESTED mapping", ["c10.3 stray validated_by"])
+def t10(root):
+    def corrupt(fm):
+        fm["spec_map"]["spec_points"][0]["provenance"]["validated_by"] = "operator"
+        return fm
+    edit_fm(pick_note(root), corrupt)
+
+
+def positive_control() -> bool:
+    """A COMPLETE HUMAN_VALIDATED block (tier still AI_SUGGESTED) must pass
+    the validator — otherwise the promotion pathway would be unusable."""
+    with tempfile.TemporaryDirectory(dir=HERE) as td:
+        root = clone_notes(Path(td))
+
+        def promote(fm):
+            prov = fm["spec_map"]["spec_points"][0]["provenance"]
+            prov["validation_status"] = "HUMAN_VALIDATED"
+            prov["validated_by"] = "operator"
+            prov["validated_date"] = "2026-09-11"
+            return fm
+        edit_fm(pick_note(root), promote)
+        chk = run_check(root)
+    if chk.ok:
+        print("POSITIVE CONTROL OK: complete HUMAN_VALIDATED block passes")
+        return True
+    print("POSITIVE CONTROL FAILED: legitimate promotion rejected:")
+    for m in chk.failures[:5]:
+        print("  -", m)
+    return False
+
+
 def main():
     failures = []
     for name, fn, expects in TESTS:
@@ -157,7 +203,10 @@ def main():
         for f in failures:
             print("  -", f)
         sys.exit(1)
-    print(f"c10_negative_test: ALL {len(TESTS)} CORRUPTION CLASSES CAUGHT")
+    if not positive_control():
+        sys.exit(1)
+    print(f"c10_negative_test: ALL {len(TESTS)} CORRUPTION CLASSES CAUGHT "
+          f"(+ positive control passing)")
 
 
 if __name__ == "__main__":
