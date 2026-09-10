@@ -24,7 +24,7 @@ author:
 
 #### Thermal decomposition of copper(II) carbonate
 
-![Thermal Decomposition of Metal Carbonates, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.3.4-Thermal-Decomposition-of-Metal-Carbonates.png)
+![Thermal Decomposition of Metal Carbonates, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.3.4-Thermal-Decomposition-of-Metal-Carbonates.png)
 
 _**The thermal decomposition of copper(II)carbonate produces copper(II) oxide and carbon dioxide**_
 

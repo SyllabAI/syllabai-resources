@@ -30,7 +30,7 @@ author:
 
 #### The difference between an open and closed system
 
-![Equilibrium in open & closed systems](%7BpageTitle%7D/Equilibrium-in-open-closed-systems.png)
+![Equilibrium in open & closed systems](../../assets/Equilibrium-in-open-closed-systems.png)
 
 _**Equilibrium can only be reached in a closed container**_
 
@@ -55,6 +55,6 @@ _**Equilibrium can only be reached in a closed container**_
 
 #### The rate of the forward and reverse reaction during the progress of a reaction
 
-![Graph to show dynamic equilibrium](%7BpageTitle%7D/Dynamic-Equilibrium.png)
+![Graph to show dynamic equilibrium](../../assets/Dynamic-Equilibrium.png)
 
 _**At equilibrium, the rate of the forward reaction is equal to the rate of the reverse reaction**_

@@ -74,7 +74,7 @@ _**The extraction method depends on the position of a metal in the reactivity se
 
 #### The blast furnace
 
-![The blast furnace ](%7BpageTitle%7D/Diagram-Showing-the-Carbon-Extraction-of-Iron.png)
+![The blast furnace ](../../assets/Diagram-Showing-the-Carbon-Extraction-of-Iron.png)
 
 _**There are three main zones in the blast furnace**_
 
@@ -154,7 +154,7 @@ _**There are three main zones in the blast furnace**_
 -   Instead, aluminium is extracted by **electrolysis**  
     
 
-![extraction-of-al](%7BpageTitle%7D/extraction-of-al.png)
+![extraction-of-al](../../assets/extraction-of-al.png)
 
 _**Diagram showing the extraction of aluminium by electrolysis**_
 

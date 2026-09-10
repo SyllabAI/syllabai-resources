@@ -59,7 +59,7 @@ author:
 
 #### Displacement reaction between magnesium and copper(II) sulfate
 
-![Magnesium-copper displacement, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/magnesium-copper-displacement-igcse-and-gcse-chemistry-revision-notes.png)
+![Magnesium-copper displacement, IGCSE & GCSE Chemistry revision notes](../../assets/magnesium-copper-displacement-igcse-and-gcse-chemistry-revision-notes.png)
 
 _**Diagram showing the colour change when magnesium displaces copper from copper(II) sulfate**_
 

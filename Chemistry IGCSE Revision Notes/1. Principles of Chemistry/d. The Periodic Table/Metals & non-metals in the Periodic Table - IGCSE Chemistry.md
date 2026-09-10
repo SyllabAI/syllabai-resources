@@ -42,7 +42,7 @@ author:
     Another thing that is striking, is that you can see that the vast majority of elements are metals
     
 
-![The periodic table showing the location of metals and non metals](%7BpageTitle%7D/The-Periodic-table_2.png)
+![The periodic table showing the location of metals and non metals](../../assets/The-Periodic-table_2.png)
 
 _**Metals are on the left of the Periodic Table and non-metals on the right**_
 

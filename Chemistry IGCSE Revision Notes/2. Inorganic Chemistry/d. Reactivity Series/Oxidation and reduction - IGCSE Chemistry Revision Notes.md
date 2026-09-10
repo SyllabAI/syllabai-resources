@@ -80,11 +80,11 @@ author:
 
 #### The redox reaction between Fe and Cu<sup>2+</sup>
 
-![oxidation-and-reduction-electrons](%7BpageTitle%7D/oxidation-and-reduction-electrons.png)
+![oxidation-and-reduction-electrons](../../assets/oxidation-and-reduction-electrons.png)
 
 _**The Fe atom is oxidised (loses electrons) and the Cu**_<sup><i><b>2+</b></i></sup> _**ion is reduced (gains electrons). Cu**_<sup><i><b>2+ </b></i></sup> _**is the oxidising agent**_
 
-![OILRIG, downloadable AS & A Level Biology revision notes](%7BpageTitle%7D/OILRIG.png)
+![OILRIG, downloadable AS & A Level Biology revision notes](../../assets/OILRIG.png)
 
 _**'OIL RIG' is a useful mnemonic to help remember the definitions of oxidation and reduction**_
 

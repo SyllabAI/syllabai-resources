@@ -20,7 +20,7 @@ author:
 
 #### The reaction between methane and bromine in the presence of ultraviolet radiation
 
-![Substitution-Alkanes-&-Halogens, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Substitution-Alkanes-Halogens.png)
+![Substitution-Alkanes-&-Halogens, IGCSE & GCSE Chemistry revision notes](../../assets/Substitution-Alkanes-Halogens.png)
 
 _**In the presence of ultraviolet (UV) radiation, methane reacts with bromine in a substitution reaction**_
 

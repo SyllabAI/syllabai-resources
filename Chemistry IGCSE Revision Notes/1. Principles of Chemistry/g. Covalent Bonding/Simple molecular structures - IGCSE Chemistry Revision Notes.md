@@ -28,7 +28,7 @@ author:
 -   As the molecules increase in size, the melting and boiling points generally increase because the strength of these intermolecular forces increases and so more energy is needed to break them 
     
 
-![Intermolecular Forces Vs Covalent Bonds, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.2.5-Intermolecular-Forces-Vs-Covalent-Bonds.png)
+![Intermolecular Forces Vs Covalent Bonds, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.2.5-Intermolecular-Forces-Vs-Covalent-Bonds.png)
 
 _**Covalent bonds are strong but intermolecular forces are weak**_
 
@@ -61,7 +61,7 @@ _**Covalent bonds are strong but intermolecular forces are weak**_
 
 #### C<sub>60</sub> fullerene
 
-![The structure of Buckminsterfullerene](%7BpageTitle%7D/4.1.11-The-structure-of-Buckminsterfullerene-1.png)
+![The structure of Buckminsterfullerene](../../assets/4.1.11-The-structure-of-Buckminsterfullerene-1.png)
 
 _**The structure and bonding in C60 fullerene - the football shaped molecule**_
 
@@ -82,7 +82,7 @@ _**The structure and bonding in C60 fullerene - the football shaped molecule**_
 
 #### The relationship between molecular mass and boiling point 
 
-![Alkanes Boiling Point](%7BpageTitle%7D/10.1.1-Alkanes-Boiling-Point-Graph.png)
+![Alkanes Boiling Point](../../assets/10.1.1-Alkanes-Boiling-Point-Graph.png)
 
 _**As the molecular mass increases, so does the boiling point**_
 
@@ -97,7 +97,7 @@ Simple molecular structures are **poor conductors** of electricity (even when 
 -   Common insulators include the plastic coating around household electrical wiring, rubber and wood
     
 
-![Electrical wire insulator, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Electrical-wire-insulator.png)
+![Electrical wire insulator, IGCSE & GCSE Chemistry revision notes](../../assets/Electrical-wire-insulator.png)
 
 _**The plastic coating around electrical wires is made from covalent substances that do not allow a flow of charge**_
 

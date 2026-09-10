@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -54,11 +54,11 @@ Start guided study
 
 | **Displayed formula** | **Name** | **Molecular formula** |
 |-------------------|---------|-------------------|
-| ![methane](%7BpageTitle%7D/methane.png) | methane | CH4 |
-| ![ethane](%7BpageTitle%7D/ethane.png) | ethane | C2H6 |
-| ![propane](%7BpageTitle%7D/propane.png) | propane | C3H8 |
-| ![butane](%7BpageTitle%7D/butane.png) | butane | C4H10 |
-| ![pentane](%7BpageTitle%7D/pentane.png) | pentane | C5H12 |
+| ![methane](../../assets/methane.png) | methane | CH4 |
+| ![ethane](../../assets/ethane.png) | ethane | C2H6 |
+| ![propane](../../assets/propane.png) | propane | C3H8 |
+| ![butane](../../assets/butane.png) | butane | C4H10 |
+| ![pentane](../../assets/pentane.png) | pentane | C5H12 |
 
 _**The first five members of the alkane homologous series**_
 
@@ -78,6 +78,6 @@ Previous:Cracking](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revisi
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-3-alkanes/4-3-2-halogens-and-alkanes/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Alkanes

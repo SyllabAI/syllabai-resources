@@ -42,7 +42,7 @@ author:
 
 #### Example of cracking
 
-![Cracking-Decane, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Cracking-Decane_.png)
+![Cracking-Decane, IGCSE & GCSE Chemistry revision notes](../../assets/Cracking-Decane_.png)
 
 _**Decane is cracked to produce octane for petrol and ethene for ethanol synthesis**_
 
@@ -63,7 +63,7 @@ _**Decane is cracked to produce octane for petrol and ethene for ethanol synthes
 
 #### Supply & demand of crude oil fractions
 
-![Supply & Demand of Crude oil Fractions](%7BpageTitle%7D/4.2.4-Supply-_-Demand-of-Crude-oil-Fractions.png)
+![Supply & Demand of Crude oil Fractions](../../assets/4.2.4-Supply-_-Demand-of-Crude-oil-Fractions.png)
 
 _**Demand for short chain hydrocarbon molecules such as petrol, kerosene and diesel is greater than the supply, while demand for long chain hydrocarbons such as fuel oil is less than the supply**_
 

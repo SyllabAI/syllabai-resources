@@ -21,7 +21,7 @@ To determine the percentage of oxygen in air using the oxidation of iron
 
 #### Apparatus to measure the percentage of oxygen in the atmosphere
 
-![Investigating-Percentage-of-Oxygen-in-Air, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Investigating-Percentage-of-Oxygen-in-Air.png)
+![Investigating-Percentage-of-Oxygen-in-Air, IGCSE & GCSE Chemistry revision notes](../../assets/Investigating-Percentage-of-Oxygen-in-Air.png)
 
 _**Apparatus to determine the percentage of oxygen in the air**_
 

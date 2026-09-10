@@ -30,7 +30,7 @@ author:
 
 **Forming polymers from monomers** 
 
-![Diagram of monomers forming a polymer](%7BpageTitle%7D/Polymers-Basic-.png)
+![Diagram of monomers forming a polymer](../../assets/Polymers-Basic-.png)
 
 _**Diagram showing how lots of monomers bond together to form a polymer**_
 
@@ -55,7 +55,7 @@ _**Diagram showing how lots of monomers bond together to form a polymer**_
 
 #### Drawing polymers and repeat units from the monomer
 
-![1,2,-dichloroethene and the formation of its polymer](%7BpageTitle%7D/7.7-Polymerisation-Polymers-From-One-Alkene-Monomer.png)
+![1,2,-dichloroethene and the formation of its polymer](../../assets/7.7-Polymerisation-Polymers-From-One-Alkene-Monomer.png)
 
 ## Deducing monomers and repeat units
 
@@ -78,7 +78,7 @@ _**Diagram showing how lots of monomers bond together to form a polymer**_
 
 #### The monomer & repeat unit
 
-![Diagram showing how to draw the repeat unit from a monomer](%7BpageTitle%7D/Drawing-repeating-units.png)
+![Diagram showing how to draw the repeat unit from a monomer](../../assets/Drawing-repeating-units.png)
 
 _**Diagram showing the concept of drawing a repeat unit of a monomer**_
 
@@ -93,6 +93,6 @@ _**Diagram showing the concept of drawing a repeat unit of a monomer**_
 
 #### The repeat unit & monomer
 
-![Deducing monomer structure from repeat units](%7BpageTitle%7D/Deducing-monomer-structure-from-repeat-units.png)
+![Deducing monomer structure from repeat units](../../assets/Deducing-monomer-structure-from-repeat-units.png)
 
 _**Diagram showing the monomer of the repeat unit of polymer**_

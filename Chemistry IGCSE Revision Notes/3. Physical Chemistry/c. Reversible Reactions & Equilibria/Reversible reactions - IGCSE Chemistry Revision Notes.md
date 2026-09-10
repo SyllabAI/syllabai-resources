@@ -85,6 +85,6 @@ author:
 
 #### The dehydration of hydrated copper(II) sulfate
 
-![Energy Changes & Reversible Reactions, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/6.2.2-Energy-Changes-_-Reversible-Reactions.png)
+![Energy Changes & Reversible Reactions, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/6.2.2-Energy-Changes-_-Reversible-Reactions.png)
 
 _**The dehydration of hydrated salts is often a reversible reaction**_

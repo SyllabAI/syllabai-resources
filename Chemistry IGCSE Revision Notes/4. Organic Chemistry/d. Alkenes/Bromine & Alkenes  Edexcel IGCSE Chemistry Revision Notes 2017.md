@@ -26,7 +26,7 @@ author:
 
 #### Addition of bromine to ethene
 
-![Bromine-Addition-to-Ethene, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Bromine-Addition-to-Ethene.png)
+![Bromine-Addition-to-Ethene, IGCSE & GCSE Chemistry revision notes](../../assets/Bromine-Addition-to-Ethene.png)
 
 _**Bromine atoms add across the C=C in the addition reaction of ethene and bromine**_
 
@@ -58,7 +58,7 @@ _**Bromine atoms add across the C=C in the addition reaction of ethene and bromi
 
 #### Bromine water test
 
-![Chemical reaction diagram showing bromine reacting with ethene at room temperature to form 1,2-dibromoethane, decolourising bromine water.](%7BpageTitle%7D/using-bromine-water-to-test-for-unsaturation.webp)
+![Chemical reaction diagram showing bromine reacting with ethene at room temperature to form 1,2-dibromoethane, decolourising bromine water.](../../assets/using-bromine-water-to-test-for-unsaturation.png)
 
 _**Diagram showing the result of the test using bromine water with alkanes and alkenes**_
 

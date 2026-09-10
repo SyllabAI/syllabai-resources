@@ -24,7 +24,7 @@ author:
 
 #### Pure substance v mixture
 
-![Pure V Impure](%7BpageTitle%7D/pure-v-impure.png)
+![Pure V Impure](../../assets/pure-v-impure.png)
 
 _**Pure water consists of only H**_<sub><i><b>2</b></i></sub>_**O molecules whereas tap water is a mixture**_ 
 

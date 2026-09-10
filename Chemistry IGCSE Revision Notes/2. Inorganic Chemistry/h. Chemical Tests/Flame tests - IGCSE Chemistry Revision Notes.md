@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -56,7 +56,7 @@ Start guided study
     -   One colour could mask another colour and you will not be able to identify the ion
         
 
-![Identifying Metal Cations, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Identifying-Metal-Cations.png)
+![Identifying Metal Cations, IGCSE & GCSE Chemistry revision notes](../../assets/Identifying-Metal-Cations.png)
 
 _**Diagram showing the technique for carrying out a flame test**_
 
@@ -71,7 +71,7 @@ _**Diagram showing the technique for carrying out a flame test**_
 | Ca2+ | Orange-red |
 | Cu2+ | Blue-green |
 
-![Colours of metal cations, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Colours-of-metal-cations.png)
+![Colours of metal cations, IGCSE & GCSE Chemistry revision notes](../../assets/Colours-of-metal-cations.png)
 
 _**Diagram showing the colours formed in the flame test for metal ions**_
 
@@ -91,6 +91,6 @@ Previous:Tests for Gases](https://www.savemyexams.com/igcse/chemistry/edexcel/19
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-3-tests-for-cations/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Flame Tests

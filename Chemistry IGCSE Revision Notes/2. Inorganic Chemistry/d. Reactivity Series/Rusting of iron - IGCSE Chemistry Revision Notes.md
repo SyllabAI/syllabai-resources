@@ -24,7 +24,7 @@ author:
 
 #### Investigating rusting
 
-![Investigating the conditions for rusting ](%7BpageTitle%7D/Conditions-for-rusting.png)
+![Investigating the conditions for rusting ](../../assets/Conditions-for-rusting.png)
 
 _**Diagram showing how the conditions for rusting can be investigated**_
 
@@ -78,7 +78,7 @@ _**Diagram showing how the conditions for rusting can be investigated**_
 
 #### Zinc bars on the side of steel ships
 
-![VleRzCAu_9-2-4-sacrificial-protection](%7BpageTitle%7D/VleRzCAu_9-2-4-sacrificial-protection.png)
+![VleRzCAu_9-2-4-sacrificial-protection](../../assets/VleRzCAu_9-2-4-sacrificial-protection.png)
 
 _**Diagram to show the use of zinc bars on the sides of steel ships as a method of sacrificial protection**_
 

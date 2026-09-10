@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -72,6 +72,6 @@ Previous:Practical: Investigate Metals Reacting with Acids](https://www.savemyex
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-5-extraction-and-uses-of-metals/2-5-2-extracting-metals/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Sources of Metals

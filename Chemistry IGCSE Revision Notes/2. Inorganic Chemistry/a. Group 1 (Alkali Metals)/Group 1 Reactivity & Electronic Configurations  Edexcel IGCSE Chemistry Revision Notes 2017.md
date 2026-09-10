@@ -32,6 +32,6 @@ author:
 
 #### Electronic configuration of Group 1 elements
 
-![Electronic configuration of Li, Na and K, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Electronic-configuration-of-Li-Na-and-K.png)
+![Electronic configuration of Li, Na and K, IGCSE & GCSE Chemistry revision notes](../../assets/Electronic-configuration-of-Li-Na-and-K.png)
 
 _**These electron shell diagrams of the first 3 alkali metals show that the Group 1 metals have 1 electron in their outer shell**_

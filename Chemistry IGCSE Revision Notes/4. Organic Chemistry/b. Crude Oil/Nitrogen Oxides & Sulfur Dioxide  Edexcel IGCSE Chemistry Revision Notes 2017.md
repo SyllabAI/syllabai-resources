@@ -61,6 +61,6 @@ author:
 
 #### The formation of acid rain
 
-![How acid rain is produced, downloadable IGCSE & GCSE Biology revision notes](%7BpageTitle%7D/How-acid-rain-is-produced.png)
+![How acid rain is produced, downloadable IGCSE & GCSE Biology revision notes](../../assets/How-acid-rain-is-produced.png)
 
 _**Formation of acid rain from nitrogen and sulfur oxides**_

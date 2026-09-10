@@ -18,7 +18,7 @@ author:
 -   These are what hold the ionic compound together 
     
 
-![Oppositely charged ions attraction due to electrostatic attraction, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Oppositely-charged-ions-attraction-due-to-electrostatic-attraction.png.png)
+![Oppositely charged ions attraction due to electrostatic attraction, IGCSE & GCSE Chemistry revision notes](../../assets/Oppositely-charged-ions-attraction-due-to-electrostatic-attraction.png.png)
 
 _**Electrostatic forces of attraction exist between the oppositely charged ions**_
 
@@ -31,7 +31,7 @@ _**Electrostatic forces of attraction exist between the oppositely charged ions*
 
 #### Giant ionic lattice of sodium chloride
 
-![NaCl Lattice_ Ball + Ball & Stick, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/NaCl-Lattice_-Ball-Ball-Stick.png)
+![NaCl Lattice_ Ball + Ball & Stick, IGCSE & GCSE Chemistry revision notes](../../assets/NaCl-Lattice_-Ball-Ball-Stick.png)
 
 _**Strong electrostatic forces act in all directions in an ionic solid such as sodium chloride**_
 
@@ -63,7 +63,7 @@ _**Strong electrostatic forces act in all directions in an ionic solid such as s
     -   When the ionic compound is melted or dissolved in water, the ions are able to move and carry a charge
         
 
-![Molten ionic substances conduct electricity, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Molten-ionic-substances-conduct-electricity-1.png)
+![Molten ionic substances conduct electricity, IGCSE & GCSE Chemistry revision notes](../../assets/Molten-ionic-substances-conduct-electricity-1.png)
 
 _**Molten or aqueous particles move and conduct electricity but cannot in the solid state**_
 

@@ -72,7 +72,7 @@ author:
 
 #### The noble gases
 
-![The-Periodic-Table-of-noble-gases, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/The-Periodic-Table-of-noble-gases.png)
+![The-Periodic-Table-of-noble-gases, IGCSE & GCSE Chemistry revision notes](../../assets/The-Periodic-Table-of-noble-gases.png)
 
 _**Noble gases are located in the last group on the right hand side of the Periodic Table**_
 

@@ -26,7 +26,7 @@ author:
 
 #### Metallic bonding
 
-![Structure & bonding in a metal, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Metallic-lattice-structure_.png)
+![Structure & bonding in a metal, IGCSE & GCSE Chemistry revision notes](../../assets/Metallic-lattice-structure_.png)
 
 _**Metallic bonds exist between positive metal ions and delocalised electrons**_
 
@@ -49,7 +49,7 @@ _**Metallic bonds exist between positive metal ions and delocalised electrons**_
 
 #### The malleability of metals
 
-![Diagram showing rows of atoms moving over each other in a pure metal](%7BpageTitle%7D/sdy1M7M0_malleability.png)
+![Diagram showing rows of atoms moving over each other in a pure metal](../../assets/sdy1M7M0_malleability.png)
 
 _**The atoms are able to slide over each other as they are arranged in layers**_
 

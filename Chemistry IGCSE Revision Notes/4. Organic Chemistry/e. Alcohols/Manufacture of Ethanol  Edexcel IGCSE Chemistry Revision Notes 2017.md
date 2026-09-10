@@ -40,7 +40,7 @@ author:
 
 #### Hydration of ethene
 
-![Equation showing the hydration of ethene with steam to form ethanol](%7BpageTitle%7D/Addition-Water-to-Ethene.png)
+![Equation showing the hydration of ethene with steam to form ethanol](../../assets/Addition-Water-to-Ethene.png)
 
 _**A water molecule adds across the C=C in the hydration of ethene to produce ethanol**_
 

@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -92,6 +92,6 @@ Previous:Formation of Ions](https://www.savemyexams.com/igcse/chemistry/edexcel/
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-6-ionic-bonding/1-6-3-formulae-for-ionic-compounds/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Common Ions

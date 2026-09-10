@@ -26,14 +26,14 @@ author:
 -   From the molar gas volume the following formula triangle can be derived:
     
 
-![Molar Volume dm3 (decimetre) Formula Triangle, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Molar-Volume-dm3-decimetre-Formula-Triangle.png)
+![Molar Volume dm3 (decimetre) Formula Triangle, IGCSE & GCSE Chemistry revision notes](../../assets/Molar-Volume-dm3-decimetre-Formula-Triangle.png)
 
 _**Formula triangle showing the relationship between moles of gas, volume in dm**_<sup><i><b>3</b></i></sup> _**and the molar volume**_
 
 -   If the volume is given in cm<sup>3</sup> instead of dm<sup>3</sup>, then divide by 24,000 instead of 24:
     
 
-![Molar Volume cm3 Formula Triangle, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Molar-Volume-cm3-Formula-Triangle.png)
+![Molar Volume cm3 Formula Triangle, IGCSE & GCSE Chemistry revision notes](../../assets/Molar-Volume-cm3-Formula-Triangle.png)
 
 _**Formula triangle showing the relationship between moles of gas, volume in cm**_<sup><i><b>3&nbsp;</b></i></sup> _**and the molar volume**_
 

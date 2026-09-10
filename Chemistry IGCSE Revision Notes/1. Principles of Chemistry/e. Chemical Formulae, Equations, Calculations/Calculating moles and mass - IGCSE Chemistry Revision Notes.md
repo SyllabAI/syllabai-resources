@@ -62,7 +62,7 @@ You need to appreciate that the measurement of amounts in moles can apply to ato
 -   We can use the following formula to convert between moles, mass in grams and the molar mass:
     
 
-![The Moles & Mass Formula Triangle](%7BpageTitle%7D/1.1.5-The-Moles-Mass-Formula-Triangle.png)
+![The Moles & Mass Formula Triangle](../../assets/1.1.5-The-Moles-Mass-Formula-Triangle.png)
 
 _**Formula triangle for moles, mass and molar mass**_
 

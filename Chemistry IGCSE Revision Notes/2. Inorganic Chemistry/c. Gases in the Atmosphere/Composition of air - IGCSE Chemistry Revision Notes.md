@@ -28,7 +28,7 @@ author:
 
 #### The composition of the atmosphere
 
-![Pie chart showing composition of the atmosphere](%7BpageTitle%7D/Pie-chart-showing-composition-of-air.png)
+![Pie chart showing composition of the atmosphere](../../assets/Pie-chart-showing-composition-of-air.png)
 
 _**The atmosphere mainly consists of nitrogen and oxygen**_
 
@@ -47,7 +47,7 @@ Although the proportion of carbon dioxide is very small, it plays a substantial 
 
 #### Finding the percentage of oxygen
 
-![Oxygen in air using combustion, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Oxygen-in-air-using-combustion.png)
+![Oxygen in air using combustion, IGCSE & GCSE Chemistry revision notes](../../assets/Oxygen-in-air-using-combustion.png)
 
 _**The percentage of oxygen in air can be determined by burning phosphorus in air and measuring the volume change**_
 

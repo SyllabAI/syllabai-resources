@@ -24,7 +24,7 @@ author:
 
 #### Simple distillation
 
-![Diagram showing the distillation apparatus used to separate a mixture of salt and water](%7BpageTitle%7D/Simple-distillation-of-saltwater.png)
+![Diagram showing the distillation apparatus used to separate a mixture of salt and water](../../assets/Simple-distillation-of-saltwater.png)
 
 _**Diagram showing the distillation of a mixture of salt and water**_
 
@@ -53,7 +53,7 @@ If asked to draw or label a diagram of simple distillation, make sure that the w
 
 #### Fractional distillation apparatus
 
-![Fractional distillation of a mixture of ethanol and water, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Fractional-distillation-of-a-mixture-of-ethanol-and-water.png)
+![Fractional distillation of a mixture of ethanol and water, IGCSE & GCSE Chemistry revision notes](../../assets/Fractional-distillation-of-a-mixture-of-ethanol-and-water.png)
 
 _**Fractional distillation of a mixture of ethanol and water**_
 
@@ -74,7 +74,7 @@ _**Fractional distillation of a mixture of ethanol and water**_
 
 #### The filtration process
 
-![Filtration of sand & water, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/1.1.5-Filtration-of-sand-water_1.png)
+![Filtration of sand & water, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/1.1.5-Filtration-of-sand-water_1.png)
 
 _**Filtration of a mixture of sand and water**_
 
@@ -97,7 +97,7 @@ _**Filtration of a mixture of sand and water**_
 
 #### The process of crystallisation
 
-![Diagram, to show the process of crystalisation ](%7BpageTitle%7D/Process-Of-Crystallisation.png)
+![Diagram, to show the process of crystalisation ](../../assets/Process-Of-Crystallisation.png)
 
 _**Diagram showing the process of crystallisation**_
 
@@ -124,7 +124,7 @@ _**Diagram showing the process of crystallisation**_
 -   This will show the different components of the ink / dye
     
 
-![Diagram to show the method of chromatography](%7BpageTitle%7D/Using-paper-chromatography-to-separate-soluble-mixtures.png)
+![Diagram to show the method of chromatography](../../assets/Using-paper-chromatography-to-separate-soluble-mixtures.png)
 
 _**Analysis of the composition of ink using paper chromatography**_
 

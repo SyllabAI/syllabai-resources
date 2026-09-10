@@ -18,7 +18,7 @@ author:
 
 #### Carboxylic acid functional group
 
-![Diagram of the general structure of a carboxylic acid](%7BpageTitle%7D/28940_carboxylic-acid-functional-group.png)
+![Diagram of the general structure of a carboxylic acid](../../assets/28940_carboxylic-acid-functional-group.png)
 
 _**Diagram of the general structure of a carboxylic acid. The R- represents a varying hydrocarbon chain**_
 
@@ -84,7 +84,7 @@ Use the general formula to find the molecular formula for pentanoic acid.
 -   Vinegar is an aqueous solution of ethanoic acid and contains about 5% of the acid by volume.
     
 
-![Diagram showing the displayed formula of the first four carboxylic acids](%7BpageTitle%7D/Carboxylic-Acids-The-First-Four-1.png)
+![Diagram showing the displayed formula of the first four carboxylic acids](../../assets/Carboxylic-Acids-The-First-Four-1.png)
 
 _**The structures and formulae of the first four carboxylic acids**_
 

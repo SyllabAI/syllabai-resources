@@ -28,7 +28,7 @@ author:
     
 -   The complete combustion of ethanol is as follows:
     
-    ![Equation to show the complete combustion of ethanol ](%7BpageTitle%7D/3.4-Hydroxy-Compounds-Combustion-of-Alcohols.png)
+    ![Equation to show the complete combustion of ethanol ](../../assets/3.4-Hydroxy-Compounds-Combustion-of-Alcohols.png)
     
 
 -   Ethanol burns readily with an almost invisible blue flame
@@ -68,6 +68,6 @@ author:
 
 #### The oxidation of ethanol
 
-![Equipment showing ethanol being heated under reflux](%7BpageTitle%7D/10.2.10-Heating-under-Reflux-1.png)
+![Equipment showing ethanol being heated under reflux](../../assets/10.2.10-Heating-under-Reflux-1.png)
 
 _**Ethanol can be oxidised by heating it with potassium dichromate in sulfuric acid. The solution turns  from orange to green during the reaction**_

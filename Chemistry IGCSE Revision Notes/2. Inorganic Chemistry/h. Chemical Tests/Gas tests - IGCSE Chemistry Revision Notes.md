@@ -39,7 +39,7 @@ author:
 
 #### Testing for ammonia gas
 
-![The diagram shows a solution being heated to release ammonia gas, which turns damp red litmus paper blue](%7BpageTitle%7D/31024_9-1-3-test-for-ammonia.png)
+![The diagram shows a solution being heated to release ammonia gas, which turns damp red litmus paper blue](../../assets/31024_9-1-3-test-for-ammonia.png)
 
 _**Damp red litmus paper turns blue in the presence of ammonia**_
 
@@ -61,7 +61,7 @@ Make sure you understand the difference between ammonium and ammonia.
 
 #### Testing for carbon dioxide gas
 
-![Test for Carbon Dioxide showing limewater turning cloudy](%7BpageTitle%7D/Test-for-Carbon-Dioxide.png)
+![Test for Carbon Dioxide showing limewater turning cloudy](../../assets/Test-for-Carbon-Dioxide.png)
 
 _**Limewater turns cloudy white in the presence of carbon dioxide**_
 
@@ -88,7 +88,7 @@ So, the test is not definitive and should not be given as an exam answer.
 
 #### Testing for chlorine gas
 
-![The diagram shows damp blue litmus paper being placed into chlorine gas and then turning red before bleaching to a final white colour](%7BpageTitle%7D/40918_test-for-chlorine.png)
+![The diagram shows damp blue litmus paper being placed into chlorine gas and then turning red before bleaching to a final white colour](../../assets/40918_test-for-chlorine.png)
 
 _**Chlorine bleaches damp blue litmus paper white**_
 
@@ -107,7 +107,7 @@ You should distinguish between properties of gases and tests for gases. Chlorine
 
 #### Testing for hydrogen gas
 
-![The diagram shows a lit splint being placed at the neck of a test-tube of gas, and giving a sqeuaky pop sound for the presence of hydrogen](%7BpageTitle%7D/24375_test-for-hydrogen-1.png)
+![The diagram shows a lit splint being placed at the neck of a test-tube of gas, and giving a sqeuaky pop sound for the presence of hydrogen](../../assets/24375_test-for-hydrogen-1.png)
 
 _**A burning splint gives a 'squeaky pop' sound**_
 
@@ -126,7 +126,7 @@ Try to remember that a lig**H**ted splint has an **H** for Hydrogen, while a g
 
 #### Testing for oxygen gas
 
-![The diagram shows a glowing splint being added to a test-tube of oxygen, and the spling relights to confirm the presence of oxygen](%7BpageTitle%7D/7265_test-for-oxygen-1.png)
+![The diagram shows a glowing splint being added to a test-tube of oxygen, and the spling relights to confirm the presence of oxygen](../../assets/7265_test-for-oxygen-1.png)
 
 _**A glowing splint will relight in the presence of oxygen**_
 

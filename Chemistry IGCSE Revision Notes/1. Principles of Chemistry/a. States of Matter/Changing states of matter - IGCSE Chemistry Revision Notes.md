@@ -32,7 +32,7 @@ author:
 
 |  | Solid | Liquid | Gas |
 |--------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| **Diagram** | ![Diagram showing the regular arrangement of a solid in rows and columns](%7BpageTitle%7D/solid.png) | ![Diagram showing how the particles in a liquid are arranged randomly and close together but not all touching](%7BpageTitle%7D/liquid.png) | ![Diagram showing how the particles in a  gas are far apart and moving quickly and randomly ](%7BpageTitle%7D/gas.png) |
+| **Diagram** | ![Diagram showing the regular arrangement of a solid in rows and columns](../../assets/solid.png) | ![Diagram showing how the particles in a liquid are arranged randomly and close together but not all touching](../../assets/liquid.png) | ![Diagram showing how the particles in a  gas are far apart and moving quickly and randomly ](../../assets/gas.png) |
 | **Arrangement of particles** | Regular arrangement | Randomly arranged | Randomly arranged |
 | **Movement of particles** | Vibrate about a fixed position | Move around each other | Move quickly in all directions |
 | **Closeness of particles** | Very close | Close | Far apart |
@@ -111,6 +111,6 @@ author:
 
 #### Changing states of matter
 
-![Diagram showing the changes of state](%7BpageTitle%7D/changing-state-igcse-and-gcse-chemistry-revision-notes.png)
+![Diagram showing the changes of state](../../assets/changing-state-igcse-and-gcse-chemistry-revision-notes.png)
 
 _**State changes require a change in the energy of the particles**_

@@ -1,4 +1,27 @@
-<div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260910190757d1f12eb18cd74a85%2Fcrop_1_1789038536011.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=uno2ltAlNxrNB0o%2BGo81NeyPc9c%3D&Expires=1789643336' alt='OCR图片'/></div>
+---
+source_type: specification
+board: Pearson Edexcel
+qualification: International GCSE (9-1)
+subject: Chemistry
+subject_code: 4CH1
+doc_title: "International GCSE in Chemistry (4CH1) specification"
+issue: 3
+first_teaching: 2017-09
+first_examination: 2019-06
+source_file: international-gcse-chemistry-2017-specification.pdf
+source_pages: 1-53
+ocr:
+  tool: ocr.z.ai
+  date: 2026-09-10
+  operator: human
+status: raw_ocr
+notes: >
+  Single-file full-document OCR of the Issue 3 specification. Spec-point tables
+  captured as raw HTML tables; chemistry notation partially degraded (see
+  CORPUS_REVIEW_2026-09-10.md). Not yet reviewed or validated; do not ingest
+  as-is. Images recovered from expiring signed URLs to local assets/.
+---
+<div style='text-align: center;'><img src='assets/fig-cover.png' alt='Front cover of the Pearson Edexcel International GCSE in Chemistry (4CH1) specification, Issue 3'/></div>
 
 <div align="center">
 
@@ -173,7 +196,7 @@ The course gives students the opportunity to experience chemistry within the con
 
 How assessment relates to the qualifications available is shown below.
 
-<div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260910190757d1f12eb18cd74a85%2Fcrop_1_1789038536065.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=Ezml9pyI72Y564Pt0oG%2BteT5ATo%3D&Expires=1789643336' alt='OCR图片'/></div>
+<div style='text-align: center;'><img src='assets/fig-qualification-structure.png' alt='Diagram of the qualification structure: relationship of Papers 1C/2C to the International GCSE in Chemistry award and the Science (Single/Double Award) pathway'/></div>
 
 A Pearson Edexcel International GCSE in Science (Single Award) qualification is also available. This will cover approximately 50% of the Pearson Edexcel International GCSE in Science (Double Award) specification, while still having a comparable level of rigour and demand.
 
@@ -785,7 +808,7 @@ Chemistry Paper 2:4CH1/2C</td></tr></table>
 
 Pearson's World Class Qualification design principles mean that all Edexcel qualifications are developed to be rigorous, demanding, inclusive and empowering.
 
-<div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260910190757d1f12eb18cd74a85%2Fcrop_1_1789038536105.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=b%2ByWuc9lE30fKr8JuFqFmrdQIPA%3D&Expires=1789643336' alt='OCR图片'/></div>
+<div style='text-align: center;'><img src='assets/fig-wcqc-framework.png' alt='Pearson World Class Qualification design principles framework diagram'/></div>
 
 We work collaboratively to gain approval from an external panel of educational thought leaders and assessment experts from across the globe. This is to ensure that Edexcel qualifications are globally relevant, represent world-class best practice in qualification and assessment design, maintain a consistent standard and support learner progression in today's fast-changing world.
 
@@ -869,7 +892,7 @@ To support the design of our qualifications, the Pearson Research Team selected 
 
 The framework includes cognitive, intrapersonal skills and interpersonal skills.
 
-<div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260910190757d1f12eb18cd74a85%2Fcrop_1_1789038536112.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=1l4ktBaNa1n6YRzyU%2FUO5XTaSO0%3D&Expires=1789643336' alt='OCR图片'/></div>
+<div style='text-align: center;'><img src='assets/fig-transferable-skills.png' alt='Transferable skills framework diagram (cognitive, intrapersonal, interpersonal skills)'/></div>
 
 The skills have been interpreted for this specification to ensure they are appropriate for the subject. All of the skills listed are evident or accessible in the teaching, learning and/or assessment of the qualification. Some skills are directly assessed. Pearson materials will support you in identifying these skills and developing these skills in students.
 
@@ -1157,4 +1180,4 @@ VAT Reg No GB 278 537121
 
 Getty Images: Alex Belmonlinsky
 
-<div style='text-align: center;'><img src='https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260910190757d1f12eb18cd74a85%2Fcrop_1_1789038536123.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=wWGbisJ8Qg6KVDeEgjzZXNtk7sk%3D&Expires=1789643336' alt='OCR图片'/></div>
+<div style='text-align: center;'><img src='assets/fig-back-cover.png' alt='Back cover artwork of the specification document'/></div>

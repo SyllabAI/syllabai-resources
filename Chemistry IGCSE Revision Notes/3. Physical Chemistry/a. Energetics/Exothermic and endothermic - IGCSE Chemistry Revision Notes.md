@@ -37,7 +37,7 @@ author:
 
 #### Exothermic reaction diagram
 
-![Exothermic- reaction, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Exothermic-reaction.png)
+![Exothermic- reaction, IGCSE & GCSE Chemistry revision notes](../../assets/Exothermic-reaction.png)
 
 _**In exothermic reactions, the temperature of the surroundings increases and the heat content of the system falls**_
 
@@ -52,7 +52,7 @@ _**In exothermic reactions, the temperature of the surroundings increases and th
 
 #### Endothermic reaction diagram
 
-![Endothermic- reaction, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Endothermic-reaction.png)
+![Endothermic- reaction, IGCSE & GCSE Chemistry revision notes](../../assets/Endothermic-reaction.png)
 
 _**In endothermic reactions, the temperature of the surroundings falls and the heat content of the system increases**_
 

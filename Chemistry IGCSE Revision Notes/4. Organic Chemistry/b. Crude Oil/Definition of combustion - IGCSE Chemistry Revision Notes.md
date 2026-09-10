@@ -128,7 +128,7 @@ You don't need to learn these equations, but you do need to be able to predict t
 -   This process prevents haemoglobin molecules from binding to oxygen and transporting it around the body
     
 
-![Diagram showing haemoglobin in red blood cells carrying oxygen and carbon dioxide. Carbon monoxide binds tightly, preventing oxygen transport.](%7BpageTitle%7D/3.2-Hydrocarbons-Toxic-Effect-CO_1.png)
+![Diagram showing haemoglobin in red blood cells carrying oxygen and carbon dioxide. Carbon monoxide binds tightly, preventing oxygen transport.](../../assets/3.2-Hydrocarbons-Toxic-Effect-CO_1.png)
 
 _**The high affinity of carbon monoxide to haemoglobin prevents it from binding to oxygen**_
 

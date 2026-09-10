@@ -2,7 +2,7 @@
 created: 2026-09-10T17:09:08 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-2-group-7-halogens/2-2-1-group-7-halogens/
-author: 
+author:
 ---
 
 # Group 7 properties - IGCSE Chemistry Revision Notes
@@ -14,20 +14,20 @@ author:
 ## Physical properties of Group 7 elements
 
 -   The elements in Group 7 are known as the halogens
-    
+
     -   These are fluorine, chlorine, bromine, iodine and astatine
-        
+
 -   These elements are non-metals that are **poisonous**
-    
+
 -   All halogens have similar reactions as they each have seven electrons in their outermost shell
-    
+
 -   Halogens are **diatomic**, meaning they form molecules made of pairs of atoms sharing electrons (forming a single covalent bond between the two halogen atoms)
-    
+
 
 ### Trends in physical properties
 
 -   At room temperature, the halogens exist in different states and colours, with different characteristics
-    
+
 
 **The properties of the Group 7 elements**
 
@@ -39,95 +39,93 @@ author:
 | Iodine | Grey solid | Shimmery, crystalline solid that sublimes to form a purple vapour | Dark brown |
 
 -   The melting and boiling points of the halogens **increase** as you go down the group
-    
+
 -   This is due to increasing intermolecular forces as the atoms become larger, so more energy is required to overcome these forces
-    
+
 
 #### Graph to show the melting and boiling points of Group 7 elements
 
-![Melting & boiling points of the Halogens, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Melting-boiling-points-of-the-Halogens.png)
+![Melting & boiling points of the Halogens, IGCSE & GCSE Chemistry revision notes](../../assets/Melting-boiling-points-of-the-Halogens.png)
 
 _**This graph shows the melting and boiling points of the Group 7 halogens**_ 
 
 -   At room temperature (20 °C), the physical state of the halogens changes as you go down the group
-    
+
     -   Fluorine and chlorine are **gases**, bromine is a **liquid** and iodine is crumbly **solid**
-        
+
 -   The colours of the halogens also change as you descend the group - they become darker
-    
+
 
 #### Appearance of Group 7 elements
 
-![States of the Halogens, IGCE & GCSE Chemistry revision notes](%7BpageTitle%7D/States-of-the-Halogens.png)
+![States of the Halogens, IGCE & GCSE Chemistry revision notes](../../assets/States-of-the-Halogens.png)
 
 _**The physical states and colours of chlorine, bromine and iodine at room temperature**_ 
 
 ## Predicting properties in Group 7
 
 -   Chlorine, bromine and iodine react with metals and non-metals to form compounds
-    
+
 
 ### Metal halides
 
 -   The halogens react with some metals to form **ionic compounds** which are **metal** **halide** **salts**
-    
+
 -   The halide ion carries a -1 charge so the ionic compound formed will have different numbers of halogen atoms, depending on the **valency** of the metal
-    
+
 -   E.g., sodium is a group 1 metal:
-    
+
     -   2 Na + Cl<sub>2</sub> → 2 NaCl
-        
+
 -   Calcium is a group 2 metal:
-    
+
     -   Ca + Br<sub>2</sub> → CaBr<sub>2</sub>
-        
+
 -   The halogens **decrease** in **reactivity** moving down the group, but they still form halide salts with some metals including iron
-    
+
 -   The rate of reaction is **slower** for halogens which are **further** down the group such as bromine and iodine
-    
+
 
 #### Formation of sodium chloride
 
-![Ionic bonding – Sodium Chloride, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Ionic-bonding-%25E2%2580%2593-Sodium-Chloride.png)
-
-_**Sodium donates its single outer electron to a chlorine atom and an ionic bond is formed between the positive sodium ion and the negative chloride ion**_
+![Ionic bonding – Sodium Chloride, IGCSE & GCSE Chemistry revision notes](../../assets/Ionic-bonding-–-Sodium-Chloride.png)_**Sodium donates its single outer electron to a chlorine atom and an ionic bond is formed between the positive sodium ion and the negative chloride ion**_
 
 ### Non-metal halides
 
 -   The halogens react with non-metals to form simple molecular covalent structures
-    
+
 -   For example, the halogens react with hydrogen to form **hydrogen halides** (e.g., hydrogen chloride)
-    
+
 -   Reactivity decreases down the group, so iodine reacts less vigorously with hydrogen than chlorine (which requires light or a high temperature to react with hydrogen)
-    
+
 -   Fluorine is the most reactive (reacting with hydrogen at low temperatures in the absence of light)
-    
+
 
 ## Displacement reactions
 
 ### Displacement reactions
 
 -   A **halogen displacement reaction** occurs when a more reactive halogen displaces a less reactive halogen from an aqueous solution of its halide
-    
+
 -   The reactivity of Group 7 elements decreases as you move down the group
-    
+
 -   You only need to learn the displacement reactions with chlorine, bromine and iodine
-    
+
     -   Chlorine is the most reactive and iodine is the least reactive
-        
+
 
 ### Chlorine with bromides & iodides
 
 -   If you add chlorine solution to colourless potassium bromide or potassium iodide solution a displacement reaction occurs:
-    
+
     -   The solution becomes orange as bromine is formed or
-        
+
     -   The solution becomes brown as iodine is formed
-        
+
 -   Chlorine is **above** bromine and iodine in Group 7 so it is more reactive
-    
+
 -   Chlorine will **displace** bromine or iodine from an aqueous solution of the metal halide
-    
+
 
 **Cl**<sub><b>2</b></sub> **+ 2KBr → 2KCl + Br**<sub><b>2</b></sub>
 
@@ -140,9 +138,9 @@ chlorine + potassium iodide **→**  potassium chloride + iodine
 ### Bromine with iodides
 
 -   Bromine is above iodine in group 7 so it is **more** reactive
-    
+
 -   Bromine will displace iodine from an aqueous solution of the metal iodide
-    
+
 
 **bromine + potassium iodide →  potassium bromide + iodine**
 

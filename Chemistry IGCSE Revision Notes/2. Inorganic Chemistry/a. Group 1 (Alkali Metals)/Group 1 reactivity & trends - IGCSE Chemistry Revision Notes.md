@@ -32,7 +32,7 @@ author:
 
 #### Group 1 elements in the Periodic Table
 
-![Group 1 metals in Periodic Table, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Group-1-metals-in-Periodic-Table.png)
+![Group 1 metals in Periodic Table, IGCSE & GCSE Chemistry revision notes](../../assets/Group-1-metals-in-Periodic-Table.png)
 
 _**The alkali metals lie on the far left of the periodic table, in the very first group**_ 
 
@@ -126,7 +126,7 @@ where **M** is Li, Na, K, Rb or Cs
 
 #### Graph to show the physical trends in Group 1
 
-![Graph MP Group 1, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Graph-MP-Group-1.png)
+![Graph MP Group 1, IGCSE & GCSE Chemistry revision notes](../../assets/Graph-MP-Group-1.png)
 
 _**The melting point of the Group 1 metals decreases as you descend the group**_
 

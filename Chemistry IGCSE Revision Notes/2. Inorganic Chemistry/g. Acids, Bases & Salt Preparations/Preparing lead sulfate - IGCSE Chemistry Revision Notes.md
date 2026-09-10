@@ -24,13 +24,13 @@ author:
 
 #### Preparation of an insoluble salt via precipitation
 
-![Preparation of lead(II)sulfate 1, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.7.9-Preparation-of-leadIIsulfate-1.png)
+![Preparation of lead(II)sulfate 1, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.7.9-Preparation-of-leadIIsulfate-1.png)
 
-![Preparation of lead(II)sulfate 2, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.7.9-Preparation-of-leadIIsulfate-2.png)
+![Preparation of lead(II)sulfate 2, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.7.9-Preparation-of-leadIIsulfate-2.png)
 
-![Preparation of lead(II)sulfate 3, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.7.9-Preparation-of-leadIIsulfate-3.png)
+![Preparation of lead(II)sulfate 3, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.7.9-Preparation-of-leadIIsulfate-3.png)
 
-![Preparation of lead(II)sulfate 4, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.7.9-Preparation-of-leadIIsulfate-4.png)
+![Preparation of lead(II)sulfate 4, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.7.9-Preparation-of-leadIIsulfate-4.png)
 
 _**The preparation of lead(II)sulfate by precipitation from two soluble salts**_
 

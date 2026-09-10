@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -78,6 +78,6 @@ Previous:Prepare a Soluble Salt II](https://www.savemyexams.com/igcse/chemistry/
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-8-practical-prepare-copperiisulfate/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Prepare an Insoluble Salt

@@ -19,7 +19,7 @@ To investigate the reactions between dilute hydrochloric and sulfuric acids with
 
 #### Mg, Fe and Zn reacting with acid
 
-![Investigating Acids with Metals Diagram, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/2.4.6-Investigating-Acids-with-Metals-Diagram.png)
+![Investigating Acids with Metals Diagram, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/2.4.6-Investigating-Acids-with-Metals-Diagram.png)
 
 _**Investigating the reactions of dilute acids with metals**_
 

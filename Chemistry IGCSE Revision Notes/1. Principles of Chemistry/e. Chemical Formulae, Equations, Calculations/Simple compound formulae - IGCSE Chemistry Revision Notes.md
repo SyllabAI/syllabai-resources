@@ -33,7 +33,7 @@ author:
 
 #### Diagram:
 
-![Water of Crystallisation, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/1.5.6-Water-of-Crystallisation.png)
+![Water of Crystallisation, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/1.5.6-Water-of-Crystallisation.png)
 
 _**Heating a hydrated salt to remove the water of crystallisation**_
 

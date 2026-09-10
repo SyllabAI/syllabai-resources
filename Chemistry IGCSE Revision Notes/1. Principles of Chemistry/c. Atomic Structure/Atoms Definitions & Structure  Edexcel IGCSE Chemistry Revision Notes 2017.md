@@ -38,7 +38,7 @@ author:
 
 #### Atomic structure
 
-![Diagram to show the atomic structure of a carbon atom](%7BpageTitle%7D/carbon-atom-structure-igcse-and-gcse-as-and-a-level-chemistry-revision-notescarbon-atom-structure-igcse-and-gcse-as-and-a-level-chemistry-revision-notes.png)
+![Diagram to show the atomic structure of a carbon atom](../../assets/carbon-atom-structure-igcse-and-gcse-as-and-a-level-chemistry-revision-notescarbon-atom-structure-igcse-and-gcse-as-and-a-level-chemistry-revision-notes.png)
 
 _**Protons and neutrons are in the nucleus, and electrons in shells orbiting the nucleus**_
 
@@ -98,7 +98,7 @@ The mass of an electron can just be stated as 'negligible' or 'very small' in an
     -   4 neutrons
         
 
-![Mass and atomic number, downloadable AS & A Level Physics revision notes](%7BpageTitle%7D/11.1.3-Mass-and-atomic-number.png)
+![Mass and atomic number, downloadable AS & A Level Physics revision notes](../../assets/11.1.3-Mass-and-atomic-number.png)
 
 #### Worked Example
 

@@ -38,7 +38,7 @@ Investigate how paper chromatography can be used to separate and identify a mixt
 
 #### Diagram of the apparatus needed for paper chromatography
 
-![paper-chromatography-new](%7BpageTitle%7D/paper-chromatography-new.png)
+![paper-chromatography-new](../../assets/paper-chromatography-new.png)
 
 ### Method:
 

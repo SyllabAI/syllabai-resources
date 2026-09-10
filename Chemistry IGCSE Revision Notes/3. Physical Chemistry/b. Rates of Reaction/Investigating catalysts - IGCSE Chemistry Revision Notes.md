@@ -19,7 +19,7 @@ To investigate the effect of different solids on the catalytic decomposition of 
 
 ### Diagram:
 
-![Apparatus for Investigating effect of catalyst on rate reaction](%7BpageTitle%7D/Investigating-effect-of-catalyst-on-rate-reaction.png)
+![Apparatus for Investigating effect of catalyst on rate reaction](../../assets/Investigating-effect-of-catalyst-on-rate-reaction.png)
 
 _**Diagram showing the apparatus needed to investigate the effect of a catalyst on the rate of reaction**_
 

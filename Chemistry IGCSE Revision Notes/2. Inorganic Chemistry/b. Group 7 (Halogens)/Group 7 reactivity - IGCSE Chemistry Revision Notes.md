@@ -20,7 +20,7 @@ author:
 
 #### Electronic configuration of Group 7 elements
 
-![Group 7 element electronic configurations, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Group-7-element-electronic-configurations.png)
+![Group 7 element electronic configurations, IGCSE & GCSE Chemistry revision notes](../../assets/Group-7-element-electronic-configurations.png)
 
 _**The atoms of the elements of Group 7 all have 7 electrons in their outer shell**_
 

@@ -40,7 +40,7 @@ To prepare a pure, dry sample of hydrated copper(II) sulfate crystals
 
 #### Preparation of a soluble salt from an insoluble base and acid
 
-![IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Preparing-Soluble-Salts-1.png)
+![IGCSE & GCSE Chemistry revision notes](../../assets/Preparing-Soluble-Salts-1.png)
 
 _**The preparation of copper(II) sulfate by the insoluble base method**_
 

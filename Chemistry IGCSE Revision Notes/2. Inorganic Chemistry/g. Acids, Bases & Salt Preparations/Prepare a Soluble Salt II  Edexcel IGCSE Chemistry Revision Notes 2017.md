@@ -20,7 +20,7 @@ author:
 
 #### Preparation of a soluble salt using a titration
 
-![Using-titration-to-prepare-a-salt1, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/40620-50944-using-titration-to-prepare-a-salt.png)
+![Using-titration-to-prepare-a-salt1, IGCSE & GCSE Chemistry revision notes](../../assets/40620-50944-using-titration-to-prepare-a-salt.png)
 
 _**Diagram showing the apparatus needed to prepare a salt by titration**_
 

@@ -51,7 +51,7 @@ author:
 
 $\mathrm{concentration}\text{}(\mathrm{mol}/\mathrm{dm}^{3})\text{}=\text{}\frac{\mathrm{number}\text{}\mathrm{of}\text{}\mathrm{moles}\text{}\mathrm{of}\text{}\mathrm{solute}\text{}(\mathrm{mol})}{\mathrm{volume}\text{}\mathrm{of}\text{}\mathrm{solution}\text{}(\mathrm{dm}^{3})}$
 
-![Concentration moles formula triangle, downloadable IB Chemistry revision notes](%7BpageTitle%7D/1.2.7-Concentration-moles-formula-triangle.png)
+![Concentration moles formula triangle, downloadable IB Chemistry revision notes](../../assets/1.2.7-Concentration-moles-formula-triangle.png)
 
 _**The concentration-moles formula triangle**_ 
 
@@ -62,7 +62,7 @@ _**The concentration-moles formula triangle**_ 
     -   To convert dm<sup>3</sup> to cm<sup>3</sup>, multiply by 1000
         
 
-![How to convert from cm3 to dm3 and back](%7BpageTitle%7D/57403_unit-conversion.png)
+![How to convert from cm3 to dm3 and back](../../assets/57403_unit-conversion.png)
 
 _**Converting between cm**_<sup><i><b>3</b></i></sup> _**and dm**_<sup><i><b>3</b></i></sup>
 

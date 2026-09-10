@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -58,7 +58,7 @@ Start guided study
 
 #### The periodic table
 
-![new-periodic-table-2](%7BpageTitle%7D/new-periodic-table-2.png)
+![new-periodic-table-2](../../assets/new-periodic-table-2.png)
 
 _**The Periodic Table of the Elements**_
 
@@ -80,6 +80,6 @@ Previous:Calculate Relative Atomic Mass](https://www.savemyexams.com/igcse/chemi
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-4-the-periodic-table/1-4-2-electronic-configurations/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Periodic Table: Basics

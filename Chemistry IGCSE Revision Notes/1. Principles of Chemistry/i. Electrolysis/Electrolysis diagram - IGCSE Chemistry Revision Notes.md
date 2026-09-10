@@ -41,7 +41,7 @@ author:
 
 #### Diagram showing the electrolysis of lead(II) bromide
 
-![Electrolysis of Lead Bromide, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Electrolysis-of-Lead-Bromide.png)
+![Electrolysis of Lead Bromide, IGCSE & GCSE Chemistry revision notes](../../assets/Electrolysis-of-Lead-Bromide.png)
 
 _**Lead ions are attracted to the cathode, and bromide ions to the anode**_
 
@@ -135,7 +135,7 @@ Therefore, the positive ions will be attracted to the negative electrode and the
 
 #### The electrolysis of aqueous solutions
 
-![The basic set-up of an electrolytic cell](%7BpageTitle%7D/60569_basics-of-electrolysis.png)
+![The basic set-up of an electrolytic cell](../../assets/60569_basics-of-electrolysis.png)
 
 -   The apparatus can be modified for the collection of gases by using inverted test tubes over the electrodes
     

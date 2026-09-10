@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -49,7 +49,7 @@ Start guided study
 
 **CuSO**<sub><b>4 </b></sub> **(s) + 5H**<sub><b>2</b></sub>**O (l) → CuSO**<sub><b>4</b></sub>**.5H**<sub><b>2</b></sub>**O (s)**
 
-![](%7BpageTitle%7D/Copper-Sulfate-Crystals.png)
+![](../../assets/Copper-Sulfate-Crystals.png)
 
 _**Copper sulfate turns a light blue colour in the presence of water**_
 
@@ -80,6 +80,6 @@ Previous:Tests for Anions](https://www.savemyexams.com/igcse/chemistry/edexcel/1
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-1-energetics/3-1-1-exothermic-and-endothermic/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Tests for Water

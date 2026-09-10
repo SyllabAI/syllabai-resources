@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -69,7 +69,7 @@ Start guided study
 
 #### Naming isomers 
 
-![An Introduction to AS Level Organic Chemistry Chain Isomerism, downloadable AS & A Level Chemistry revision notes](%7BpageTitle%7D/3.1-An-Introduction-to-AS-Level-Organic-Chemistry-Chain-Isomerism.png)
+![An Introduction to AS Level Organic Chemistry Chain Isomerism, downloadable AS & A Level Chemistry revision notes](../../assets/3.1-An-Introduction-to-AS-Level-Organic-Chemistry-Chain-Isomerism.png)
 
 _**Isomers can be distinguished by following the naming rules**_
 
@@ -91,6 +91,6 @@ Previous:Organic Compounds](https://www.savemyexams.com/igcse/chemistry/edexcel/
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-1-introduction/4-1-3-classifying-organic-reactions/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Naming Organic Compounds

@@ -33,9 +33,9 @@ SO<sub>2</sub> (g) + O<sub>2</sub> (g) $\overset{450\text{}^\circC}{\underset
     -   The alternative pathway has a **lower activation energy**
         
 
-![Diagram showing how iron acts as a catalyst for the Haber process](%7BpageTitle%7D/5.6-Reaction-Kinetics-Iron-Catalyst-1.png)
+![Diagram showing how iron acts as a catalyst for the Haber process](../../assets/5.6-Reaction-Kinetics-Iron-Catalyst-1.png)
 
-![Reaction Kinetics - Iron Catalyst (2), downloadable AS & A Level Chemistry revision notes](%7BpageTitle%7D/5.6-Reaction-Kinetics-Iron-Catalyst-2.png)
+![Reaction Kinetics - Iron Catalyst (2), downloadable AS & A Level Chemistry revision notes](../../assets/5.6-Reaction-Kinetics-Iron-Catalyst-2.png)
 
 _**Catalysts work by attracting reactant molecules on to the surface and so providing an alternate reaction pathway of lower energy**_
 

@@ -23,11 +23,11 @@ author:
 
 ### Effect of surface area of a solid on the rate of reaction
 
-![Effect of Surface Area on a Reaction Rate ](%7BpageTitle%7D/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-1.png)
+![Effect of Surface Area on a Reaction Rate ](../../assets/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-1.png)
 
-![Effect of Surface Area on a Reaction Rate](%7BpageTitle%7D/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-2.png)
+![Effect of Surface Area on a Reaction Rate](../../assets/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-2.png)
 
-![Effect of Surface Area on a Reaction Rate](%7BpageTitle%7D/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-3.png)
+![Effect of Surface Area on a Reaction Rate](../../assets/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-3.png)
 
 _**The process of downwards displacement to investigate the effect of the surface area of a solid on the rate of reaction**_
 
@@ -46,7 +46,7 @@ _**The process of downwards displacement to investigate the effect of the surfac
 
 ### Effect of concentration of a solution on the rate of reaction
 
-![Investigating effect of concentration on rate reaction](%7BpageTitle%7D/Investigating-effect-of-concentration-on-rate-reaction.png)
+![Investigating effect of concentration on rate reaction](../../assets/Investigating-effect-of-concentration-on-rate-reaction.png)
 
 _**The apparatus needed to investigate the effect of concentration on the rate of reaction**_
 
@@ -74,7 +74,7 @@ _**The apparatus needed to investigate the effect of concentration on the rate o
 
 ### Effect of temperature on the rate of reaction
 
-![Investigating the effect of temperature on rate of reaction](%7BpageTitle%7D/7-1-2-investigating-effect-of-te.png)
+![Investigating the effect of temperature on rate of reaction](../../assets/7-1-2-investigating-effect-of-te.png)
 
 _**Diagram showing the apparatus needed to investigate the effect of temperature on the rate of reaction**_
 
@@ -100,7 +100,7 @@ _**Diagram showing the apparatus needed to investigate the effect of temperature
 
 ### Effect of a catalyst on the rate of reaction
 
-![Investigating effect of catalyst on rate reaction](%7BpageTitle%7D/Investigating-effect-of-catalyst-on-rate-reaction.png)
+![Investigating effect of catalyst on rate reaction](../../assets/Investigating-effect-of-catalyst-on-rate-reaction.png)
 
 _**Diagram showing the apparatus needed to investigate the effect of a catalyst on the rate of reaction**_
 
@@ -138,7 +138,7 @@ _**Diagram showing the apparatus needed to investigate the effect of a catalyst 
 
 #### Graph showing the effect of concentration on rate of reaction
 
-![How pressure and concentration affect the rate of reaction](%7BpageTitle%7D/concentration-of-solution-igcse-and-gcse-chemistry-revision-notes.png)
+![How pressure and concentration affect the rate of reaction](../../assets/concentration-of-solution-igcse-and-gcse-chemistry-revision-notes.png)
 
 _**Increasing the concentration of a solution or gas pressure increases the rate of reaction**_
 
@@ -159,7 +159,7 @@ _**Increasing the concentration of a solution or gas pressure increases the rate
 
 #### Graph showing the effect of temperature on rate of reaction
 
-![How temperature affects the rate of reaction](%7BpageTitle%7D/temperature-graph.png)
+![How temperature affects the rate of reaction](../../assets/temperature-graph.png)
 
 _**Increasing the temperature increases the rate of reaction**_
 
@@ -181,7 +181,7 @@ _**Increasing the temperature increases the rate of reaction**_
 
 #### Graph showing the effect of surface area on rate of reaction
 
-![How surface area affects the rate of reaction](%7BpageTitle%7D/surface-area-graph.png)
+![How surface area affects the rate of reaction](../../assets/surface-area-graph.png)
 
 _**Increasing the surface area increases the rate of reaction**_
 
@@ -202,7 +202,7 @@ _**Increasing the surface area increases the rate of reaction**_
 
 #### Surface area and particle size
 
-![Surface Area of a Solid Reactant, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Surface-Area-of-a-Solid-Reactant.png)
+![Surface Area of a Solid Reactant, IGCSE & GCSE Chemistry revision notes](../../assets/Surface-Area-of-a-Solid-Reactant.png)
 
 _**Surface area increases as particle size decreases. A 2 cm**_<sup><i><b>3&nbsp;</b></i></sup> _**cube has a surface area of 24 cm**_<sup><i><b>2&nbsp;</b></i></sup> _**and the same cube cut up into 8 cubes has a surface area of 48 cm**_<sup><i><b>2</b></i></sup>
 

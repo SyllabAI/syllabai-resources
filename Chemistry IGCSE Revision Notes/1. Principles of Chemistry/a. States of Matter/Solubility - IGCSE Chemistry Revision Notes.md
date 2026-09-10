@@ -43,7 +43,7 @@ author:
 
 #### Solubility curve for three salts
 
-![A graph to show the solubility curves of three different salts](%7BpageTitle%7D/salt-solubility-curves.png)
+![A graph to show the solubility curves of three different salts](../../assets/salt-solubility-curves.png)
 
 _**While most salts become more soluble as temperature increases, sodium chloride (common salt) shows very little change.**_
 

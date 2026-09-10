@@ -16,7 +16,7 @@ author:
     This makes addition polymers unreactive and chemically **inert** so don’t easily biodegrade
     
 
-![Disposal of polymers, Edexcel IGCSE Chemistry](%7BpageTitle%7D/Disposal-of-polymers.png)
+![Disposal of polymers, Edexcel IGCSE Chemistry](../../assets/Disposal-of-polymers.png)
 
 _**Disposal of addition polymers is an environmental problem**_
 

@@ -56,7 +56,7 @@ author:
 
 #### A simple calorimeter 
 
-![Apparatus used to find the energy released when two solutions are mixed together ](%7BpageTitle%7D/18446_1-5-chemical-energetics-calorime.png)
+![Apparatus used to find the energy released when two solutions are mixed together ](../../assets/18446_1-5-chemical-energetics-calorime.png)
 
 _**A polystyrene cup can act as a calorimeter to find enthalpy changes in a chemical reaction**_
 
@@ -91,7 +91,7 @@ _**A polystyrene cup can act as a calorimeter to find enthalpy changes in a chem
 
 #### Diagram to show the set up of calorimetry equipment
 
-![Simple Calorimeter_1, downloadable IB Chemistry revision notes](%7BpageTitle%7D/50507_5-1-4-simple-calorimeter-1.png)
+![Simple Calorimeter_1, downloadable IB Chemistry revision notes](../../assets/50507_5-1-4-simple-calorimeter-1.png)
 
 _**A lid is used to prevent heat loss**_
 

@@ -24,51 +24,51 @@ author:
 
 ### Diatomic Molecules
 
-![Dot-&-cross-Hydrogen_, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Hydrogen_.png)
+![Dot-&-cross-Hydrogen_, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Hydrogen_.png)
 
 _**Dot & cross representation of a molecule of hydrogen**_
 
-![Dot-&-cross-Chlorine_, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Chlorine_.png)
+![Dot-&-cross-Chlorine_, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Chlorine_.png)
 
 _**Dot & cross representation of a molecule of chlorine**_
 
-![Dot & Cross Oxygen, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-Cross-Oxygen.png)
+![Dot & Cross Oxygen, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-Cross-Oxygen.png)
 
 _**Dot & cross representation of a molecule of oxygen**_
 
-![Dot & cross Nitrogen, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Nitrogen_.png)
+![Dot & cross Nitrogen, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Nitrogen_.png)
 
 _**Dot & cross representation of a molecule of nitrogen**_
 
-![Dot & cross Hydrochloric-Acid, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Hydrochloric-Acid_.png)
+![Dot & cross Hydrochloric-Acid, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Hydrochloric-Acid_.png)
 
 _**Dot & cross representation of a molecule of hydrogen chloride**_
 
 #### Inorganic Molecules
 
-![Dot & cross Water, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Water_.png)
+![Dot & cross Water, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Water_.png)
 
 _**Dot & cross representation of a molecule of water**_
 
-![Dot & cross Ammonia, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Ammonia_.png)
+![Dot & cross Ammonia, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Ammonia_.png)
 
 _**Dot & cross representation of a molecule of ammonia**_
 
-![Dot-&-cross-Carbon-Dioxide_, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Carbon-Dioxide_.png)
+![Dot-&-cross-Carbon-Dioxide_, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Carbon-Dioxide_.png)
 
 _**Dot & cross representation of a molecule of carbon dioxide**_
 
 ### Organic Molecules
 
-![Dot & cross Methane, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Methane_.png)
+![Dot & cross Methane, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Methane_.png)
 
 _**Dot & cross representation of a molecule of methane**_
 
-![Ethane Dot & Cross Diagram, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/1.7.2-Ethane-Dot-Cross-Diagram.png)
+![Ethane Dot & Cross Diagram, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/1.7.2-Ethane-Dot-Cross-Diagram.png)
 
 _**Dot & cross representation of a molecule of ethane**_
 
-![Dot-&-cross-Ethene_, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Dot-cross-Ethene_.png)
+![Dot-&-cross-Ethene_, IGCSE & GCSE Chemistry revision notes](../../assets/Dot-cross-Ethene_.png)
 
 _**Dot & cross representation of a molecule of ethene**_
 

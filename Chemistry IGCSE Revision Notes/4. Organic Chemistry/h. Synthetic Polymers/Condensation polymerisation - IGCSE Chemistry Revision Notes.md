@@ -36,7 +36,7 @@ author:
 -   An ester linkage is formed with the subsequent loss of **one** water molecule per link
     
 
-![Condensation polymerisation](%7BpageTitle%7D/Forming-Terylene.png)
+![Condensation polymerisation](../../assets/Forming-Terylene.png)
 
 _**The condensation reaction in which the polyester terylene is produced**_
 
@@ -45,7 +45,7 @@ _**The condensation reaction in which the polyester terylene is produced**_
 -   This can be done for all polyesters
     
 
-![The repeat unit terylene](%7BpageTitle%7D/Terylene_.png)
+![The repeat unit terylene](../../assets/Terylene_.png)
 
 _**Diagram showing a section of the polyester terylene**_
 
@@ -66,7 +66,7 @@ _**Diagram showing a section of the polyester terylene**_
 -   Take the polyester, polybutylene terephthalate (PBT), as an example:
     
 
-![deducing-monomers-from-a-polyester-image-1-2](%7BpageTitle%7D/deducing-monomers-from-a-polyester-image-1-2.png)
+![deducing-monomers-from-a-polyester-image-1-2](../../assets/deducing-monomers-from-a-polyester-image-1-2.png)
 
 _**Diagram showing a section of the polyester polybutylene terephthalate, PBT**_
 
@@ -75,12 +75,12 @@ _**Diagram showing a section of the polyester polybutylene terephthalate, PBT**_
 -   Separate the polymer into its two component monomers by breaking the C-O single bond in the ester linkage
     
 
-![Deducing monomers from a polyester](%7BpageTitle%7D/deducing-monomers-from-a-polyester-image-2-2.png)
+![Deducing monomers from a polyester](../../assets/deducing-monomers-from-a-polyester-image-2-2.png)
 
 -   This leaves 2 different structures:
     
 
-![deducing-monomers-from-a-polyester-image-3-2](%7BpageTitle%7D/deducing-monomers-from-a-polyester-image-3-2.png)
+![deducing-monomers-from-a-polyester-image-3-2](../../assets/deducing-monomers-from-a-polyester-image-3-2.png)
 
 -   Water is used to complete the molecules
     
@@ -95,7 +95,7 @@ _**Diagram showing a section of the polyester polybutylene terephthalate, PBT**_
 -   The resulting molecules are the two monomers that are used to form polybutylene terephthalate, PBT
     
 
-![deducing-monomers-from-a-polyester-image-4-2](%7BpageTitle%7D/deducing-monomers-from-a-polyester-image-4-2.png)
+![deducing-monomers-from-a-polyester-image-4-2](../../assets/deducing-monomers-from-a-polyester-image-4-2.png)
 
 _**A diagram to show the two monomers used to form the polyester**_ _**polybutylene terephthalate, PBT**_
 
@@ -108,6 +108,6 @@ _**A diagram to show the two monomers used to form the polyester**_ _**polybuty
 -   The polymers are synthetically made, consisting of ester, amide and ether functional groups which gives them the characteristic of being biodegradable
     
 
-![Diagram of biopolysters](%7BpageTitle%7D/biopolyesters.png)
+![Diagram of biopolysters](../../assets/biopolyesters.png)
 
 _**The biodegradation of a bottle made of biopolyesters**_

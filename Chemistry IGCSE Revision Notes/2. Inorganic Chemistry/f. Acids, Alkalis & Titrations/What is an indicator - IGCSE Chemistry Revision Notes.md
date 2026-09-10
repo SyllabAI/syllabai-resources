@@ -72,7 +72,7 @@ author:
     Universal indicator colours vary slightly between manufacturer so colour charts are usually provided for a specific indicator formulation
     
 
-![Universal-indicator-and-the-pH-scale2, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Universal-indicator-and-the-pH-scale2.png)
+![Universal-indicator-and-the-pH-scale2, IGCSE & GCSE Chemistry revision notes](../../assets/Universal-indicator-and-the-pH-scale2.png)
 
 _**pH scale with the Universal Indicator colours used to determine the pH of a solution**_
 

@@ -19,7 +19,7 @@ To determine the empirical formula of magnesium oxide by combustion of magnesium
 
 ### Diagram:
 
-![Diagram of apparatus needed to find the formula of magnesium oxide](%7BpageTitle%7D/1.5.7-Finding-the-Formula-of-Magnesium-Oxide.png)
+![Diagram of apparatus needed to find the formula of magnesium oxide](../../assets/1.5.7-Finding-the-Formula-of-Magnesium-Oxide.png)
 
 ### Method:
 
@@ -70,7 +70,7 @@ To determine the formula of copper(II)oxide by reduction with methane
 
 ### Diagram:
 
-![Diagram to show the apparatus needed to determine the formula of copper(II) oxide](%7BpageTitle%7D/1.5.7-Finding-the-Formula-of-CopperIIOxide.png)
+![Diagram to show the apparatus needed to determine the formula of copper(II) oxide](../../assets/1.5.7-Finding-the-Formula-of-CopperIIOxide.png)
 
 ### Method:
 

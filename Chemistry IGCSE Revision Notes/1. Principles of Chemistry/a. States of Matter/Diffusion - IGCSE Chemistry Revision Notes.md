@@ -31,7 +31,7 @@ author:
 
 ### Diffusion in gases
 
-![Diffusion of bromine gas](%7BpageTitle%7D/1.1.2-Diffusion-of-bromine-gas.png)
+![Diffusion of bromine gas](../../assets/1.1.2-Diffusion-of-bromine-gas.png)
 
 _**Diffusion of red-brown bromine gas**_
 
@@ -51,7 +51,7 @@ _**Diffusion of red-brown bromine gas**_
 
 ### Diffusion in liquids
 
-![Diagram to show the diffusion of potassium manganate in water](%7BpageTitle%7D/Diffusion-of-Potassium-Manganate-VI-in-water.png)
+![Diagram to show the diffusion of potassium manganate in water](../../assets/Diffusion-of-Potassium-Manganate-VI-in-water.png)
 
 _**Diffusion of potassium manganate(VII) in water over time**_
 
@@ -86,7 +86,7 @@ _**Diffusion of potassium manganate(VII) in water over time**_
     -   It **spreads them out** more
         
 
-![Diagram to show the dilution of potassium manganate in water.](%7BpageTitle%7D/1.1.2-Dilution-of-potassium-managanteVII.png)
+![Diagram to show the dilution of potassium manganate in water.](../../assets/1.1.2-Dilution-of-potassium-managanteVII.png)
 
 _**Dissolving potassium manganate (VII) in water**_
 

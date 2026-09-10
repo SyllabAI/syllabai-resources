@@ -38,7 +38,7 @@ author:
 
 #### Copper sulfate crystals
 
-![copper-sulfate-crystals](%7BpageTitle%7D/copper-sulfate-crystals.jpg)
+![copper-sulfate-crystals](../../assets/copper-sulfate-crystals.jpg)
 
 _**After filtering and heating copper sulfate crystals will form. Larger crystals will form if the water in the solution is left to evaporate slowly**_
 

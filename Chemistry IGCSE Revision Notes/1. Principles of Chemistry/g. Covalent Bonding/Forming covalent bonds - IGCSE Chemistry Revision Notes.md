@@ -32,7 +32,7 @@ author:
 
 #### Covalent bonding
 
-![Covalent bonding in non-metals, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Covalent-bonding-in-non-metals.png)
+![Covalent bonding in non-metals, IGCSE & GCSE Chemistry revision notes](../../assets/Covalent-bonding-in-non-metals.png)
 
 _**Two chlorine atoms share one electron each to form a covalent bond with a shared pair of electrons**_
 
@@ -45,7 +45,7 @@ A key difference between covalent bonds and ionic bonds is that in covalent bond
 -   There is a strong electrostatic attraction between the shared pair of electrons and the nuclei of the atoms involved, since the electrons are negatively charged and the nuclei are positively charged
     
 
-![Hydrogen molecular orbital, downloadable IB Chemistry revision notes](%7BpageTitle%7D/4.1.4-hydrogen-molecular-orbital.png)
+![Hydrogen molecular orbital, downloadable IB Chemistry revision notes](../../assets/4.1.4-hydrogen-molecular-orbital.png)
 
 _**The attraction between the shared pair of electrons and the nuclei of the atoms involved in a covalent bond**_
 

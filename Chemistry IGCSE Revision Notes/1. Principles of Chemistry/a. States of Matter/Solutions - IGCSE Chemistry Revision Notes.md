@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -49,7 +49,7 @@ Start guided study
 | **Soluble** | Describes a substance that will dissolve | Salt is soluble in water |
 | **Insoluble** | Describes a substance that will not dissolve | Sand is insoluble in water |
 
-![](%7BpageTitle%7D/high-five.svg)
+![](../../assets/high-five.svg)
 
 ### Get unlimited access
 
@@ -91,7 +91,7 @@ the (exam) results speak for themselves:
 
 Excellent
 
-![Our rating represented in Trustpilot stars](%7BpageTitle%7D/trustpilot.svg)
+![Our rating represented in Trustpilot stars](../../assets/trustpilot.svg)
 
 [Read more reviews](https://www.trustpilot.com/review/www.savemyexams.co.uk)
 
@@ -111,6 +111,6 @@ Previous:Diffusion & Dilution](https://www.savemyexams.com/igcse/chemistry/edexc
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-4-solubility/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Solutions

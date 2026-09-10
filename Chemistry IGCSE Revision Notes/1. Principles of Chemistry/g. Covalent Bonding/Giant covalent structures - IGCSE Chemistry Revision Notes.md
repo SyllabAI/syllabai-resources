@@ -74,7 +74,7 @@ The opposite of saying a material is hard is to describe it as **soft**.
 
 #### The bonding and structure in diamond
 
-![Diamond structure, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Diamond-structure.png)
+![Diamond structure, IGCSE & GCSE Chemistry revision notes](../../assets/Diamond-structure.png)
 
 _**Each carbon atom is bonded to four other carbon atoms**_
 
@@ -116,7 +116,7 @@ The word graphite derives from the Greek word ‘grapho’ meaning ‘I write’
 
 #### Bonding and structure in graphite
 
-![Diagram of graphite structure showing layers with carbon atoms forming three covalent bonds each, weak attraction forces, and delocalised electrons.](%7BpageTitle%7D/13344_graphite-structure.jpg)
+![Diagram of graphite structure showing layers with carbon atoms forming three covalent bonds each, weak attraction forces, and delocalised electrons.](../../assets/13344_graphite-structure.jpg)
 
 _**Structure of graphite showing weak forces between the planes**_
 

@@ -48,7 +48,7 @@ author:
 
 #### Testing for carbonate ions
 
-![The diagram shows carbon dioxide being bubbled through limewater, and the limewater turning milky / cloudy to confirm the presence of carbon dioxide](%7BpageTitle%7D/40058_test-for-carbon-dioxide.png)
+![The diagram shows carbon dioxide being bubbled through limewater, and the limewater turning milky / cloudy to confirm the presence of carbon dioxide](../../assets/40058_test-for-carbon-dioxide.png)
 
 _**Limewater turns milky in the presence of carbon dixoide caused by the formation of insoluble calcium carbonate**_
 
@@ -91,7 +91,7 @@ _**Limewater turns milky in the presence of carbon dixoide caused by the formati
 
 #### Testing for halide ions
 
-![The diagram shows chloride ions forming a whilte precipitate, bromide ions forming a cream precipitate and iodide ions forming a yellow precipitate](%7BpageTitle%7D/45106_the-silver-halide-precipitates.png)
+![The diagram shows chloride ions forming a whilte precipitate, bromide ions forming a cream precipitate and iodide ions forming a yellow precipitate](../../assets/45106_the-silver-halide-precipitates.png)
 
 _**Each silver halide produces a precipitate of a different colour**_
 
@@ -115,6 +115,6 @@ _**Each silver halide produces a precipitate of a different colour**_
 
 #### Testing for sulfate ions 
 
-![The diagram shows barium chloride solution being added to a sample, which forms a white precipitate if sulfate ions are present](%7BpageTitle%7D/12032_sulfate-ion-test.png)
+![The diagram shows barium chloride solution being added to a sample, which forms a white precipitate if sulfate ions are present](../../assets/12032_sulfate-ion-test.png)
 
 _**A white precipitate of barium sulfate is a positive result for the presence of sulfate ions**_

@@ -32,7 +32,7 @@ author:
 
 #### Covalent compounds are used as insulating materials
 
-![Diagram of an insulated electrical wire](%7BpageTitle%7D/Electrical-Wire-Insulated.png)
+![Diagram of an insulated electrical wire](../../assets/Electrical-Wire-Insulated.png)
 
 _**Covalent compounds are unable to conduct due to having no freely moving charged particles**_
 
@@ -44,7 +44,7 @@ _**Covalent compounds are unable to conduct due to having no freely moving charg
     
 -   They cannot conduct electricity in the solid state as the ions are in fixed positions within the lattice and are unable to move
     
-    ![Molten ionic substances conduct electricity, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Molten-ionic-substances-conduct-electricity-1.png)
+    ![Molten ionic substances conduct electricity, IGCSE & GCSE Chemistry revision notes](../../assets/Molten-ionic-substances-conduct-electricity-1.png)
     
 
 _**Molten or aqueous particles move and conduct electricity but cannot in solid form**_
@@ -69,7 +69,7 @@ _**Molten or aqueous particles move and conduct electricity but cannot in solid 
 
 #### Diagram showing the direction of movement of electrons and ions in the electrolysis of NaCl
 
-![Electrolysis apparatus set up ](%7BpageTitle%7D/Transfer-of-Charge.png)
+![Electrolysis apparatus set up ](../../assets/Transfer-of-Charge.png)
 
 _**Cations are attracted to the cathode and anions to the anode due to their opposite charges**_
 

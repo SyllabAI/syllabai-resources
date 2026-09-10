@@ -39,7 +39,7 @@ author:
 -   For example, when hydrochloric acid is neutralised a sodium chloride and water are produced:
     
 
-![Equilibria Neutralisation Reaction of HCl and NaOH, downloadable AS & A Level Chemistry revision notes](%7BpageTitle%7D/1.7-Equilibria-Neutralisation-Reaction-of-HCl-and-NaOH.png)
+![Equilibria Neutralisation Reaction of HCl and NaOH, downloadable AS & A Level Chemistry revision notes](../../assets/1.7-Equilibria-Neutralisation-Reaction-of-HCl-and-NaOH.png)
 
 -   The net ionic equation of **all acid-base neutralisations** and is what leads to a neutral solution, since water has a pH of 7:
     

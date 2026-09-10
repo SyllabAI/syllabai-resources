@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -62,7 +62,7 @@ Start guided study
 
 #### Alloy structure
 
-![Diagram to show the structure of an alloy](%7BpageTitle%7D/Structure-of-alloy.png)
+![Diagram to show the structure of an alloy](../../assets/Structure-of-alloy.png)
 
 _**The regular arrangement of a metal lattice structure is distorted in alloys**_
 
@@ -82,6 +82,6 @@ Previous:Using Metals](https://www.savemyexams.com/igcse/chemistry/edexcel/19/re
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-6-acids-alkalis-and-titrations/2-6-1-indicators/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Alloys

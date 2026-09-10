@@ -20,7 +20,7 @@ author:
 -   A few drops of NaOH is added at first and any colour changes or precipitates formed are noted
     
 
-![testing-for-positive-metal-ions](%7BpageTitle%7D/testing-for-positive-metal-ions.png)
+![testing-for-positive-metal-ions](../../assets/testing-for-positive-metal-ions.png)
 
 _**The addition of sodium hydroxide to the metal ions forms precipitates of different colours**_
 

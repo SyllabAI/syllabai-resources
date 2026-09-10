@@ -19,11 +19,11 @@ To investigate the effect of changing [surface area](https://www.savemyexams.com
 
 ### Diagram:
 
-![Effect of Surface Area on a Reaction Rate 1, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-1.png)
+![Effect of Surface Area on a Reaction Rate 1, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-1.png)
 
-![Effect of Surface Area on a Reaction Rate 2, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-2.png)
+![Effect of Surface Area on a Reaction Rate 2, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-2.png)
 
-![Effect of Surface Area on a Reaction Rate 3, downloadable IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-3.png)
+![Effect of Surface Area on a Reaction Rate 3, downloadable IGCSE & GCSE Chemistry revision notes](../../assets/3.2.1-Effect-of-Surface-Area-on-a-Reaction-Rate-3.png)
 
 _**Investigating the effect of different size marble chips on the rate of reaction between calcium carbonate and hydrochloric acid**_
 

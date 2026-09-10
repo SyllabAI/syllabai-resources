@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -54,13 +54,13 @@ Start guided study
 
 #### Formation of cations
 
-![1-6-1-formation-of-ions-1](%7BpageTitle%7D/1-6-1-formation-of-ions-1.png)
+![1-6-1-formation-of-ions-1](../../assets/1-6-1-formation-of-ions-1.png)
 
 _**Diagram showing the formation of the sodium ion**_
 
 #### Formation of anions
 
-![1-6-1-formation-of-ions-2](%7BpageTitle%7D/1-6-1-formation-of-ions-2.png)
+![1-6-1-formation-of-ions-2](../../assets/1-6-1-formation-of-ions-2.png)
 
 _**Diagram showing the formation of the chloride ion**_
 
@@ -82,6 +82,6 @@ Previous:Calculate Volumes of Gases](https://www.savemyexams.com/igcse/chemistry
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-6-ionic-bonding/1-6-2-common-ions/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Formation of Ions

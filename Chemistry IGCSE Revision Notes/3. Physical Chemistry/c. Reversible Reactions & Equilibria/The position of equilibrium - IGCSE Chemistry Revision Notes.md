@@ -137,7 +137,7 @@ When the conditions at equilibrium are changed, the system always responds by do
 
 #### Diagram showing the effect of catalyst on equilibrium position
 
-![Graph to show a catalyst increasing the rate of the forward and reverse reaction](%7BpageTitle%7D/Effect-catalyst-on-equilibrium-position.png)
+![Graph to show a catalyst increasing the rate of the forward and reverse reaction](../../assets/Effect-catalyst-on-equilibrium-position.png)
 
 _**A catalyst increases the rate of the forwards and reverse reaction but does not alter the position of equilibrium**_
 

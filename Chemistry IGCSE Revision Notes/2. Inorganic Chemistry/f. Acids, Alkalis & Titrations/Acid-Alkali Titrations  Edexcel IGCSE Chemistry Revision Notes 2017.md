@@ -26,9 +26,9 @@ author:
 
 #### How to carry out a titration
 
-![Diagram showing a titration setup. A conical flask, pipette, and burette on a stand are labelled, illustrating the process of adding a solution.](%7BpageTitle%7D/39888_titration-setup1.png)
+![Diagram showing a titration setup. A conical flask, pipette, and burette on a stand are labelled, illustrating the process of adding a solution.](../../assets/39888_titration-setup1.png)
 
-![Titration apparatus, downloadable AS & A Level Chemistry revision notes](%7BpageTitle%7D/Titration-apparatus.png)
+![Titration apparatus, downloadable AS & A Level Chemistry revision notes](../../assets/Titration-apparatus.png)
 
 _**Performing a titration**_
 

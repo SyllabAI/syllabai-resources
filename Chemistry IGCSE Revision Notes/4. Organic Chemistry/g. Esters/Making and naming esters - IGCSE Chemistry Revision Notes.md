@@ -19,7 +19,7 @@ author:
     
 -   Esters are compounds with the functional group R-COO-R  
     
-    ![Diagram to show the ester functional group](%7BpageTitle%7D/8218_ester-functional-group.png)
+    ![Diagram to show the ester functional group](../../assets/8218_ester-functional-group.png)
     
 -   Esters are sweet-smelling oily liquids used in **food flavourings** and **perfumes**
     
@@ -30,7 +30,7 @@ author:
 
 #### Diagram showing the formation of ethyl ethanoate
 
-![Diagram to show the formation of ethyl ethanoate from ethanoic acid and ethanol](%7BpageTitle%7D/Preparing-Ethyl-Ethanoate_.png)
+![Diagram to show the formation of ethyl ethanoate from ethanoic acid and ethanol](../../assets/Preparing-Ethyl-Ethanoate_.png)
 
 _**During this esterification reaction, a molecule of water is also produced**_
 
@@ -45,7 +45,7 @@ _**During this esterification reaction, a molecule of water is also produced**_
     -   E.g. The ester formed from **pent**anol and **butan**oic acid is called **pent**yl **butan**oate
         
 
-![Diagram showing parts of an ester](%7BpageTitle%7D/Parts-of-an-Ester_.png)
+![Diagram showing parts of an ester](../../assets/Parts-of-an-Ester_.png)
 
 _**Diagram showing the origin of each carbon chain in ester**_
 
@@ -54,4 +54,4 @@ _**Diagram showing the origin of each carbon chain in ester**_
 
 #### Examples of Esters Table
 
-![Table showing the esters formed from different alcohols and carboxylic acids](%7BpageTitle%7D/updated-ester-table.png)
+![Table showing the esters formed from different alcohols and carboxylic acids](../../assets/updated-ester-table.png)

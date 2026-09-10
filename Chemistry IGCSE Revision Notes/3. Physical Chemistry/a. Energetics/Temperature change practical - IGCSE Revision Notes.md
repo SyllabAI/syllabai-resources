@@ -33,7 +33,7 @@ author:
 
 #### Simple calorimeter 
 
-![Calorimetry equipment set up ](%7BpageTitle%7D/Calorimeter-Styrofoam-Cup.png)
+![Calorimetry equipment set up ](../../assets/Calorimeter-Styrofoam-Cup.png)
 
 _**A lid is required to prevent heat loss**_
 

@@ -54,7 +54,7 @@ The **empirical formula** shows the **simplest possible ratio** of the atoms
 
 #### Molecular formula of butane
 
-![The Molecular Formulae of Butane and Butene, downloadable IB Chemistry revision notes](%7BpageTitle%7D/10.1.2-The-Molecular-Formulae-of-Butane-and-Butene-1.png)
+![The Molecular Formulae of Butane and Butene, downloadable IB Chemistry revision notes](../../assets/10.1.2-The-Molecular-Formulae-of-Butane-and-Butene-1.png)
 
 _**The molecular formula shows the actual number of atoms in a molecule**_
 
@@ -74,7 +74,7 @@ _**The molecular formula shows the actual number of atoms in a molecule**_
 
 #### Displayed formula of 2-methylbutane
 
-![The Structural Formulae of-2-methylbutane, downloadable IB Chemistry revision notes](%7BpageTitle%7D/10.1.2-The-Structural-Formulae-of-2-methylbutane-1.png)
+![The Structural Formulae of-2-methylbutane, downloadable IB Chemistry revision notes](../../assets/10.1.2-The-Structural-Formulae-of-2-methylbutane-1.png)
 
 _**The displayed formula must show every bond in the molecule**_
 
@@ -91,7 +91,7 @@ _**The displayed formula must show every bond in the molecule**_
 
 #### Structural formula of pentane
 
-![Representing Condensed Structrual Formulae of Straight Chains, downloadable IB Chemistry revision notes](%7BpageTitle%7D/10.1.2-Representing-Condensed-Structrual-Formulae-of-Straight-Chains.png)
+![Representing Condensed Structrual Formulae of Straight Chains, downloadable IB Chemistry revision notes](../../assets/10.1.2-Representing-Condensed-Structrual-Formulae-of-Straight-Chains.png)
 
 _**The structural formula of pentane makes it clear that there are five carbon atoms in the chain and no other functional groups**_
 
@@ -130,7 +130,7 @@ For defining a hydrocarbon, you must specify that they are compounds which conta
 
 #### Structures and Names of Common Functional Groups
 
-![Names and structures of the functional groups table, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/14.1.3-Names-and-structures-of-the-functional-groups-table.png)
+![Names and structures of the functional groups table, IGCSE & GCSE Chemistry revision notes](../../assets/14.1.3-Names-and-structures-of-the-functional-groups-table.png)
 
 ### Isomerism
 
@@ -141,6 +141,6 @@ For defining a hydrocarbon, you must specify that they are compounds which conta
 
 #### Isomers of C<sub>3</sub>H<sub>6</sub>
 
-![An Introduction to AS Level Organic Chemistry Propene and Cyclopropane, downloadable AS & A Level Chemistry revision notes](%7BpageTitle%7D/3.1-An-Introduction-to-AS-Level-Organic-Chemistry-Propene-and-Cyclopropane.png)
+![An Introduction to AS Level Organic Chemistry Propene and Cyclopropane, downloadable AS & A Level Chemistry revision notes](../../assets/3.1-An-Introduction-to-AS-Level-Organic-Chemistry-Propene-and-Cyclopropane.png)
 
 _**Isomers of C**_<sub><i><b>3</b></i></sub>_**H**_<sub><i><b>6 </b></i></sub> _**show the same molecular formula but different structures. Isomers can show similar physical and chemical properties or if they have different functional groups, the properties can be different.**_

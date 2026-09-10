@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -46,7 +46,7 @@ Start guided study
 
 #### A molecule of ethanol
 
-![Diagram to show the OH functional group of an alcohol](%7BpageTitle%7D/Alcohol-Functional-Group-1.png)
+![Diagram to show the OH functional group of an alcohol](../../assets/Alcohol-Functional-Group-1.png)
 
 _**Diagram of the side chain and -OH group in ethanol which characterises its chemistry**_
 
@@ -57,10 +57,10 @@ _**Diagram of the side chain and -OH group in ethanol which characterises its ch
 
 | **Name** | **Formula** | **Displayed formula** |
 |-------------|---------|------------------------------|
-| Methanol | CH3OH | ![methanol-](%7BpageTitle%7D/methanol-.png) |
-| Ethanol | C2H5OH | ![screenshot-2024-02-18-191221](%7BpageTitle%7D/screenshot-2024-02-18-191221.png) |
-| Propan-1-ol | C3H7OH | ![propanol-displayed](%7BpageTitle%7D/propanol-displayed.png) |
-| Butan-1-ol | C4H9OH | ![butanol](%7BpageTitle%7D/butanol.png) |
+| Methanol | CH3OH | ![methanol-](../../assets/methanol-.png) |
+| Ethanol | C2H5OH | ![screenshot-2024-02-18-191221](../../assets/screenshot-2024-02-18-191221.png) |
+| Propan-1-ol | C3H7OH | ![propanol-displayed](../../assets/propanol-displayed.png) |
+| Butan-1-ol | C4H9OH | ![butanol](../../assets/butanol.png) |
 
 #### Examiner Tips and Tricks
 
@@ -80,6 +80,6 @@ Previous:Bromine & Alkenes](https://www.savemyexams.com/igcse/chemistry/edexcel/
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-5-alcohols/4-5-2-oxidation-of-ethanol/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on Alcohols

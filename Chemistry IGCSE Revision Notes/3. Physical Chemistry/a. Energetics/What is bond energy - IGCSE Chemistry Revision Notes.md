@@ -35,7 +35,7 @@ author:
     -   Therefore an exothermic reaction has a **negative** **Δ**_**H**_ value
         
 
-![Bond making exothermic reaction](%7BpageTitle%7D/Bond-making-exothermic-reaction.png)
+![Bond making exothermic reaction](../../assets/Bond-making-exothermic-reaction.png)
 
 _**Making new bonds gives off heat from the reaction to the surroundings**_
 
@@ -50,7 +50,7 @@ _**Making new bonds gives off heat from the reaction to the surroundings**_
     -   Therefore an endothermic reaction has a **positive** Δ_H_ value
         
 
-![Bond breaking endothermic reaction](%7BpageTitle%7D/Bond-breaking-endothermic-reaction.png)
+![Bond breaking endothermic reaction](../../assets/Bond-breaking-endothermic-reaction.png)
 
 #### Examiner Tips and Tricks
 

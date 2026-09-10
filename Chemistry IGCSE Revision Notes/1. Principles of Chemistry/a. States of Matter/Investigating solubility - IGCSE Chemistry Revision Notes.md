@@ -48,7 +48,7 @@ author:
 11.  Calculate the solubility of copper(II) sulfate in water at 30°C using the masses recorded
     
 
-![Practical: Investigate the Solubility of a Solid in Water at a Specific Temperature](%7BpageTitle%7D/23078-practical--investigate-the-solubility-of-a-solid-in-water-at-a-specific-temperature.png)
+![Practical: Investigate the Solubility of a Solid in Water at a Specific Temperature](../../assets/23078-practical--investigate-the-solubility-of-a-solid-in-water-at-a-specific-temperature.png)
 
 _**Practical: Investigate the Solubility of a Solid in Water at a Specific Temperature**_
 

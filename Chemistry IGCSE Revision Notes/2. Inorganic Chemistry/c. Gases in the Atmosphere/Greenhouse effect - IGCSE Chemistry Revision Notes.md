@@ -19,9 +19,9 @@ author:
 
 Download PDF
 
-![Lucy Kirkham](%7BpageTitle%7D/lucy-2.jpg)
+![Lucy Kirkham](../../assets/lucy-2.jpg)
 
-![Stewart Hird](%7BpageTitle%7D/Stewart-BW-300x300-1.jpg)
+![Stewart Hird](../../assets/Stewart-BW-300x300-1.jpg)
 
 **Written by:** [Stewart Hird](https://www.savemyexams.com/authors/stewart-hird/)
 
@@ -63,7 +63,7 @@ Start guided study
 
 #### The greenhouse effect 
 
-![The Greenhouse effect, IGCSE & GCSE Biology revision notes](%7BpageTitle%7D/The-Greenhouse-effect.png)
+![The Greenhouse effect, IGCSE & GCSE Biology revision notes](../../assets/The-Greenhouse-effect.png)
 
 _**Greenhouse gases trap some of the Sun's radiation causing the Earth to warm up**_
 
@@ -96,6 +96,6 @@ Previous:Carbon Dioxide from Thermal Decomposition](https://www.savemyexams.com/
 
 ](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-4-reactivity-series/2-4-1-metals-reacting-with-water-and-acids/)
 
-Ask about this![](%7BpageTitle%7D/male_teacher_avatar.png)
+Ask about this![](../../assets/male_teacher_avatar.png)
 
 Download notes on The Greenhouse Effect

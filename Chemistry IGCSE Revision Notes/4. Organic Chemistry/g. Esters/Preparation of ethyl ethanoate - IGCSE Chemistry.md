@@ -19,7 +19,7 @@ To prepare a small sample of ethyl ethanoate
 
 ### Diagram:
 
-![Equipment for the preparation of ethyl ethanoate](%7BpageTitle%7D/4.7.2-Preparation-of-Ethyl-Ethanoate.png)
+![Equipment for the preparation of ethyl ethanoate](../../assets/4.7.2-Preparation-of-Ethyl-Ethanoate.png)
 
 _**The preparation of ethyl ethanoate**_
 

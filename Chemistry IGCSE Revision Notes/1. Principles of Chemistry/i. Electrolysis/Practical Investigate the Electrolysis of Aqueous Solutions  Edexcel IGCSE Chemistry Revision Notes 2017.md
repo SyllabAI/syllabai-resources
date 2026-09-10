@@ -21,7 +21,7 @@ To electrolyse aqueous solutions of sodium chloride, sulfuric acid and copper(II
 
 #### Electrolysis cell for collecting gaseous products from aqueous solutions
 
-![Diagram showing electrolysis equipment with inverted test tubes above the electrodes to collect the gases](%7BpageTitle%7D/Electrolysis-Apparatus-Inverted-Test-Tubes.png)
+![Diagram showing electrolysis equipment with inverted test tubes above the electrodes to collect the gases](../../assets/Electrolysis-Apparatus-Inverted-Test-Tubes.png)
 
 ### Method:
 

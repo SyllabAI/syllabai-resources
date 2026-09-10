@@ -53,6 +53,6 @@ author:
 
 #### Particle diagram showing elements, compounds and mixtures 
 
-![A diagram to show the difference between elements, compounds and mixtures](%7BpageTitle%7D/Elements-compounds-mixtures.png)
+![A diagram to show the difference between elements, compounds and mixtures](../../assets/Elements-compounds-mixtures.png)
 
 _**All substances can be classified as an element, compound or mixture**_

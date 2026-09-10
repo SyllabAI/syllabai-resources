@@ -30,10 +30,10 @@ author:
 
 | **Displayed formula** | **Name** | **Molecular formula** |
 |-------------------|------------|-------------------|
-| ![ethene](%7BpageTitle%7D/ethene.png) | ethene | C2H4 |
-| ![propene](%7BpageTitle%7D/propene.png) | propene | C3H6 |
-| ![but-1-ene](%7BpageTitle%7D/but-1-ene.png) | but-1-ene | C4H8 |
-| ![pent-1-ene](%7BpageTitle%7D/pent-1-ene.png) | pent-1-ene | C5H10 |
+| ![ethene](../../assets/ethene.png) | ethene | C2H4 |
+| ![propene](../../assets/propene.png) | propene | C3H6 |
+| ![but-1-ene](../../assets/but-1-ene.png) | but-1-ene | C4H8 |
+| ![pent-1-ene](../../assets/pent-1-ene.png) | pent-1-ene | C5H10 |
 
 _**The first four members of the alkene homologous series**_
 
@@ -46,6 +46,6 @@ _**The first four members of the alkene homologous series**_
 -   This makes them much more reactive than alkanes
     
 
-![Double Bond Opening, IGCSE & GCSE Chemistry revision notes](%7BpageTitle%7D/Double-Bond-Opening.png)
+![Double Bond Opening, IGCSE & GCSE Chemistry revision notes](../../assets/Double-Bond-Opening.png)
 
 _**A carbon-carbon double can break and form a single bond, allowing more atoms to attach to the carbon atoms**_

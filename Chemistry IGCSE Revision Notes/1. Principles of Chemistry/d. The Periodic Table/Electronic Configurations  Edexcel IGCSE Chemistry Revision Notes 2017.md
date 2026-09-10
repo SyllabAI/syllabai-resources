@@ -34,7 +34,7 @@ author:
 
 #### Electron shell diagram
 
-![Diagram showing that the first (innermost) shell holds a maximum of 2 electrons, the second shell holds a maximum of 8 electrons and the third shell holds a maximum of 8 electrons](%7BpageTitle%7D/25377_rules-of-electron-shell-filling.png)
+![Diagram showing that the first (innermost) shell holds a maximum of 2 electrons, the second shell holds a maximum of 8 electrons and the third shell holds a maximum of 8 electrons](../../assets/25377_rules-of-electron-shell-filling.png)
 
 _**A simplified model showing the electron shells**_
 
@@ -101,7 +101,7 @@ _**A simplified model showing the electron shells**_
 
 #### The relationship between the electronic configurations and periodic table
 
-![The diagram shows that a chlorine atom has 2 electrons in its first shell, 8 electrons in its second shell and 7 electrons in its third / outermost shell](%7BpageTitle%7D/57740_two-ways-to-represent-electronic.png)
+![The diagram shows that a chlorine atom has 2 electrons in its first shell, 8 electrons in its second shell and 7 electrons in its third / outermost shell](../../assets/57740_two-ways-to-represent-electronic.png)
 
 _**The electronic configuration for chlorine**_
 
@@ -120,6 +120,6 @@ _**The electronic configuration for chlorine**_
 
 #### The position of chlorine on the periodic table
 
-![Simplified periodic table showing that chlorine is in Group 7, Period 3](%7BpageTitle%7D/59464_position-of-chlorine-in-periodic.png)
+![Simplified periodic table showing that chlorine is in Group 7, Period 3](../../assets/59464_position-of-chlorine-in-periodic.png)
 
 _**Chlorine is in Group 7, Period 3**_

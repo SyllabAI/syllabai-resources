@@ -32,7 +32,7 @@ author:
 
 #### Reaction profiles of exothermic and endothermic reactions
 
-![Reaction profiles for exothermic and endothermic reactions](%7BpageTitle%7D/o-W7kaP~_2-graphs-2-v2.png)
+![Reaction profiles for exothermic and endothermic reactions](../../assets/o-W7kaP~_2-graphs-2-v2.png)
 
 _**Reaction profiles show enthalpy change and activation energy for the reaction**_
 
@@ -47,6 +47,6 @@ _**Reaction profiles show enthalpy change and activation energy for the reaction
 
 #### Diagram showing the effect of a catalyst on activation energy
 
-![Reaction profile showing the effect of a catalyst on activation energy](%7BpageTitle%7D/exo-reaction-profile-with-catalyst.png)
+![Reaction profile showing the effect of a catalyst on activation energy](../../assets/exo-reaction-profile-with-catalyst.png)
 
 _**Catalysts lower the activation energy**_
