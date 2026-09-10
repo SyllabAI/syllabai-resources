@@ -6,5 +6,10 @@
   if a future conversion embeds expiring URLs.
 - `c05_repair_clipper_refs.py` — re-runnable: repairs the Obsidian Web
   Clipper `{pageTitle}` image-reference bug across `Chemistry IGCSE Revision
-  Notes/`. Run it after every new clip batch:
+  Notes/`. Run after every new clip batch:
   `python3 scripts/c05_repair_clipper_refs.py`
+- `c05_book_ocr.py` — Student Book conversion driver (baidu/Unlimited-OCR).
+  Two backends: `--backend vllm` (full 383-page run against the official
+  vLLM docker image — see ../BOOK_OCR_RUNBOOK.md) and `--backend space`
+  (HF demo Space; pilots/small batches only — ZeroGPU quota). Resumable via
+  `manifest.json`; outputs CMC-shaped per-page markdown with front matter.
