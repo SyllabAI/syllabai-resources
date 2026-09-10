@@ -3,6 +3,36 @@ created: 2026-09-10T17:29:55 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-2-explaining-rates/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-2-rates-of-reaction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.11
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: We can use collision theory to explain why these factors influence the reaction rate
+      rationale: Particle-collision explanations with diagrams for concentration, pressure, temperature
+        and surface area.
+      validation_status: SUGGESTED
+  - code: 4CH1-3.10
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Increasing the concentration of a solution increases the rate of reaction
+      rationale: Describes the factor effects (the full effect descriptions are also in the rate-of-reaction
+        note).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Explaining Rates | Edexcel IGCSE Chemistry Revision Notes 2017

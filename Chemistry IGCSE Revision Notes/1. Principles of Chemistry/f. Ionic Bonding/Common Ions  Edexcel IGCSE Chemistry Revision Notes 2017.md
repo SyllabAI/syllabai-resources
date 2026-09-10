@@ -3,6 +3,36 @@ created: 2026-09-10T16:54:35 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-6-ionic-bonding/1-6-2-common-ions/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-f
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-6-ionic-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.38
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Common ions with a positive charge
+      rationale: 'Charges table for the specified ions: Groups 1/2/3 metals, Groups 5/6/7 non-metals,
+        the named metal ions, and the compound ions incl. OH-, NH4+, CO32-, NO3-, SO42- (quoted section
+        heading).'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.37
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Find out if it is easier for the atom to gain electron or to donate electron
+      rationale: Charge-deduction rule via outer-electron loss or gain supports the 1.37 mechanism.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Common Ions | Edexcel IGCSE Chemistry Revision Notes 2017

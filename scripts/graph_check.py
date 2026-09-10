@@ -22,9 +22,17 @@ Validates, with zero core-repo dependencies:
                         unique and contiguous; damage flags and skill tags
                         come from the declared vocabularies; the official
                         PDF cross-check has zero mismatches
+  6. notes-mapping    — T-C10 state: all 112 SME notes carry a spec_map
+                        front-matter block (PROVIDER subsection anchor from
+                        the source-URL slug + AI_SUGGESTED point mappings with
+                        complete provenance); every mapped code is in the
+                        182-point registry; every note has >=1 mapping; no
+                        foreign curriculum codes in front matter; all 182
+                        points covered; totals match the T-C10 baseline
 
 Exit code 0 = all checks pass; 1 = failures (listed).
 Usage: python3 scripts/graph_check.py [--graph DIR]
+       python3 scripts/graph_check.py [--notes-root DIR]  (negative tests)
 """
 from __future__ import annotations
 
@@ -35,8 +43,12 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from c10_worksheets import parse_slug, SECTION_LETTERS  # noqa: E402
+
 REPO = Path(__file__).resolve().parent.parent
 GRAPH_DEFAULT = REPO / "graph"
+NOTES_ROOT_DEFAULT = REPO / "Chemistry IGCSE Revision Notes"
 
 FILES = ["specification_points.yaml", "topics.yaml", "relationships.yaml",
          "command_words.yaml", "practicals.yaml", "assessment_objectives.yaml"]
@@ -44,6 +56,11 @@ FILES = ["specification_points.yaml", "topics.yaml", "relationships.yaml",
 GENERATOR = "scripts/c09_spec_graph_extract.py"
 SOURCE_MD = "international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md"
 SOURCE_PDF = "international-gcse-chemistry-2017-specification.pdf"
+
+# --- T-C10 baseline (Phase 2 mapping state, 2026-09-11) -----------------------
+C10_COUNTS = {"notes": 112, "mappings": 211, "points_covered": 182}
+C10_CONFIDENCE = {"high", "medium", "low"}
+C10_TIERS = {"PROVIDER", "AI_SUGGESTED"}
 
 # --- expected counts (Phase-1 amended baseline) -------------------------------
 COUNTS = {
@@ -604,9 +621,109 @@ def check_namespace_prose(data):
     return chk
 
 
+def check_notes_mapping(data, point_codes, sub_codes, notes_root=None):
+    """Check group 6 — T-C10 note->spec-point mapping state (front matter)."""
+    chk = Check("c10-notes-mapping")
+    notes_root = Path(notes_root) if notes_root else NOTES_ROOT_DEFAULT
+
+    note_files = sorted(p for p in notes_root.rglob("*.md")
+                        if "assets" not in p.parts)
+    if len(note_files) != C10_COUNTS["notes"]:
+        chk.fail(f"note count {len(note_files)} != {C10_COUNTS['notes']}")
+
+    total_maps, covered = 0, set()
+    n_notes = 0
+    for path in note_files:
+        rel = path.relative_to(notes_root.parent)
+        text = path.read_text(encoding="utf-8")
+        lines = text.splitlines()
+        if not lines or lines[0].strip() != "---":
+            chk.fail(f"c10.1 no front matter: {rel}")
+            continue
+        try:
+            close = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+            fm = yaml.safe_load("\n".join(lines[1:close])) or {}
+        except (StopIteration, yaml.YAMLError):
+            chk.fail(f"c10.1 unparseable front matter: {rel}")
+            continue
+        sm = fm.get("spec_map")
+        if not isinstance(sm, dict):
+            chk.fail(f"c10.1 missing spec_map: {rel}")
+            continue
+        n_notes += 1
+        # c10.1 schema
+        for key in ("curriculum_code", "phase", "subsection", "spec_points",
+                    "mapped_date", "mapper"):
+            if key not in sm:
+                chk.fail(f"c10.1 spec_map missing key {key}: {rel}")
+        if sm.get("curriculum_code") != "4CH1-2017":
+            chk.fail(f"c10.1 wrong curriculum_code {sm.get('curriculum_code')!r}: {rel}")
+        # c10.4 PROVIDER anchor vs slug
+        sub = sm.get("subsection")
+        if sub not in sub_codes:
+            chk.fail(f"c10.4 unknown subsection {sub!r}: {rel}")
+        sp = sm.get("subsection_provenance", {})
+        for key in ("tier", "signal", "slug", "validation_status"):
+            if key not in sp:
+                chk.fail(f"c10.4 subsection_provenance missing {key}: {rel}")
+        if sp.get("tier") != "PROVIDER" or sp.get("signal") != "source-url-slug":
+            chk.fail(f"c10.4 bad subsection provenance tier/signal: {rel}")
+        url = fm.get("source") or ""
+        parsed = parse_slug(url) if url else None
+        if parsed:
+            sec, grp, group_slug, _, _ = parsed
+            want_sub = f"4CH1-S{sec}-{SECTION_LETTERS[grp - 1]}"
+            if sub != want_sub:
+                chk.fail(f"c10.4 anchor {sub} != slug-derived {want_sub}: {rel}")
+            if sp.get("slug") != group_slug:
+                chk.fail(f"c10.4 provenance slug {sp.get('slug')!r} != URL group "
+                         f"{group_slug!r}: {rel}")
+        # c10.5 mappings present, unique
+        sps = sm.get("spec_points") or []
+        if not sps:
+            chk.fail(f"c10.5 zero mappings: {rel}")
+        codes = [m.get("code") for m in sps]
+        if len(codes) != len(set(codes)):
+            chk.fail(f"c10.5 duplicate codes: {rel}")
+        # c10.2 registry + c10.3 provenance completeness
+        for m in sps:
+            c = m.get("code")
+            if c not in point_codes:
+                chk.fail(f"c10.2 code not in 182-registry: {c} ({rel})")
+            prov = m.get("provenance", {})
+            if prov.get("tier") != "AI_SUGGESTED":
+                chk.fail(f"c10.3 wrong tier {prov.get('tier')!r} for {c}: {rel}")
+            if prov.get("confidence") not in C10_CONFIDENCE:
+                chk.fail(f"c10.3 bad confidence {prov.get('confidence')!r} for {c}: {rel}")
+            for key in ("model_version", "evidence", "rationale"):
+                if not prov.get(key):
+                    chk.fail(f"c10.3 missing {key} for {c}: {rel}")
+            if prov.get("validation_status") != "SUGGESTED":
+                chk.fail(f"c10.3 validation_status {prov.get('validation_status')!r} "
+                         f"for {c}: {rel}")
+            if c in point_codes:
+                covered.add(c)
+                total_maps += 1
+        # c10.6 foreign codes in front matter (Wxx unit codes, 4CH0, IAL)
+        fm_text = "\n".join(lines[1:close])
+        for m in re.finditer(r"\b(W[A-Z]{2}\d{1,2}|4CH0|IAL|4SC0)\b", fm_text):
+            chk.fail(f"c10.6 foreign curriculum code {m.group(1)!r} in front matter: {rel}")
+
+    # c10.7 totals
+    if n_notes != C10_COUNTS["notes"]:
+        chk.fail(f"c10.7 notes with spec_map {n_notes} != {C10_COUNTS['notes']}")
+    if total_maps != C10_COUNTS["mappings"]:
+        chk.fail(f"c10.7 total mappings {total_maps} != {C10_COUNTS['mappings']}")
+    if len(covered) != C10_COUNTS["points_covered"]:
+        chk.fail(f"c10.7 covered points {len(covered)} != "
+                 f"{C10_COUNTS['points_covered']}")
+    return chk
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--graph", default=str(GRAPH_DEFAULT))
+    ap.add_argument("--notes-root", default=str(NOTES_ROOT_DEFAULT))
     args = ap.parse_args()
     graph_dir = Path(args.graph)
 
@@ -623,6 +740,8 @@ def main():
     results.append(check_practicals(data, point_codes))
     results.append(check_assessment(data))
     results.append(check_namespace_prose(data))
+    results.append(check_notes_mapping(data, point_codes, sub_codes,
+                                       notes_root=args.notes_root))
 
     total_fail = 0
     for chk in results:

@@ -3,6 +3,28 @@ created: 2026-09-10T17:14:00 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-1-tests-for-gases/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-8-chemical-tests
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.44
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ammonia is a gas with a characteristic sharp choking smell that turns damp red litmus
+        paper blue
+      rationale: 'Dedicated test sections for all five gases: hydrogen (pop), oxygen (relights splint),
+        carbon dioxide (limewater), ammonia (damp red litmus), chlorine (bleaches litmus).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Gas tests - IGCSE Chemistry Revision Notes

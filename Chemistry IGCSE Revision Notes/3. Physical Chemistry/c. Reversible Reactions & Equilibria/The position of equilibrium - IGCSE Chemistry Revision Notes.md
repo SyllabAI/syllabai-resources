@@ -3,6 +3,37 @@ created: 2026-09-10T17:30:50 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-3-reversible-reactions-and-equilibria/3-3-3-the-position-of-equilibrium/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-3-reversible-reactions-and-equilibria
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.22C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: if pressure is increased, the position of equilibrium moves in the direction which has
+        the smallest amount of gaseous molecules
+      rationale: Temperature and pressure effects on equilibrium position with worked examples (Le Chatelier
+        used as teaching frame, not required language).
+      validation_status: SUGGESTED
+  - code: 4CH1-3.21C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: catalyst does not affect the position of equilibrium but it does increase the rate at
+        which equilibrium is reached
+      rationale: Dedicated catalysts-and-equilibrium section with the equal-rate-increase mechanism diagram.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # The position of equilibrium - IGCSE Chemistry Revision Notes

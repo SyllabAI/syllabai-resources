@@ -3,6 +3,36 @@ created: 2026-09-10T17:30:02 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-3-catalysts/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-2-rates-of-reaction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.12
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Catalysts are substances which speed up the rate of a reaction without themselves being
+        altered or consumed in the reaction
+      rationale: Catalyst definition (mass unchanged, not in the equation) with industrial examples (iron,
+        V2O5).
+      validation_status: SUGGESTED
+  - code: 4CH1-3.13
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: alternative pathway has a lower activation energy
+      rationale: 'Catalyst mechanism: alternative pathway at lower activation energy.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Catalysts in Chemistry - IGCSE Chemistry Revision Notes

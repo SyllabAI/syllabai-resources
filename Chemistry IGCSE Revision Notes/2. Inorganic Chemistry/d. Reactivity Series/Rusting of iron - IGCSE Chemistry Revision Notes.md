@@ -3,6 +3,36 @@ created: 2026-09-10T17:11:12 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-4-reactivity-series/2-4-4-rusting-of-iron/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-4-reactivity-series
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.18
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Oxygen and water must be present for rust to occur
+      rationale: Rusting-conditions investigation with the three control tubes (air+water, no air, no
+        water).
+      validation_status: SUGGESTED
+  - code: 4CH1-2.19
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: barriers that prevent the iron from coming into contact with water and oxygen
+      rationale: Rust prevention by barrier methods, sacrificial protection (zinc bars on ships) and galvanising
+        — the three 2.19 methods.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Rusting of iron - IGCSE Chemistry Revision Notes

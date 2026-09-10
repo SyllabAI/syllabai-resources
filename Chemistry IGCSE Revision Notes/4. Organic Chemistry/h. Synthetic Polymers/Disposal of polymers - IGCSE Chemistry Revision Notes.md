@@ -3,6 +3,28 @@ created: 2026-09-10T17:41:36 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-8-synthetic-polymers/4-8-2-disposal-of-addition-polymers/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-8-synthetic-polymers
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.47
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: addition polymers are non-biodegradable so micro-organisms such as decomposers cannot
+        break them down
+      rationale: 'Disposal problems: inertness/non-biodegradability in landfill plus toxic gases on burning
+        (PVC to hydrogen chloride, carbon monoxide from incomplete combustion).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Disposal of polymers - IGCSE Chemistry Revision Notes

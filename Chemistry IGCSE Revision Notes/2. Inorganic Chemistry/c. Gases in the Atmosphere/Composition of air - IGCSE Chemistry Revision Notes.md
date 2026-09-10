@@ -3,6 +3,37 @@ created: 2026-09-10T17:09:33 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-3-gases-in-the-atmosphere/2-3-1-composition-of-air/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-3-gases-in-the-atmosphere
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.9
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: About four-fifths (approximately 80%) nitrogen
+      rationale: 'Atmosphere composition with pie chart: N2 approx 80%, O2 approx 20%, plus the smaller
+        proportions (CO2, noble gases).'
+      validation_status: SUGGESTED
+  - code: 4CH1-2.10
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The percentage of oxygen in air can be found by reacting a metal or non-metal with the
+        oxygen in a fixed volume of air
+      rationale: Describes the phosphorus-in-bell-jar determination (the 2.10 non-metal example) with
+        volume readings.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Composition of air - IGCSE Chemistry Revision Notes

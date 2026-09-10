@@ -3,6 +3,37 @@ created: 2026-09-10T17:37:46 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-2-crude-oil/4-2-4-cracking/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-2-crude-oil
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.17
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Catalytic cracking involves heating the hydrocarbon molecules to around 600 – 700 °C to
+        vaporise them
+      rationale: Catalytic cracking with alumina catalyst, 600-700 C range, and the shorter-alkanes-plus-alkenes
+        products.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.18
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Cracking is an industrial process used to break low demand, long chain hydrocarbon molecules
+        into more useful, small chain hydrocarbon molecules
+      rationale: Supply-and-demand section explaining why cracking is necessary for the fraction balance.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # What is cracking? - IGCSE Chemistry Revision Notes

@@ -3,6 +3,35 @@ created: 2026-09-10T17:40:19 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-5-alcohols/4-5-1-alcohols/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-5-alcohols
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.29C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: All alcohols contain the hydroxyl (-OH) functional group
+      rationale: The -OH functional group as the reactive part of alcohols, with the ethanol molecule
+        diagram.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.30C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The first four alcohols are commonly used as fuels
+      rationale: Methanol, ethanol, propanol and butanol with displayed formulae and names.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Alcohols | Edexcel IGCSE Chemistry Revision Notes 2017

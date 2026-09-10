@@ -3,6 +3,27 @@ created: 2026-09-10T17:13:32 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-7-prepare-an-insoluble-salt/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-7-acids-bases-and-salt-preparations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.41C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Insoluble salts can be prepared using a precipitation reaction
+      rationale: Precipitation method from two soluble reactants with filtration, washing and drying to
+        a pure dry insoluble salt.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Prepare an Insoluble Salt | Edexcel IGCSE Chemistry Revision Notes 2017

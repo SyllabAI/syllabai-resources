@@ -3,6 +3,53 @@ created: 2026-09-10T17:34:29 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-1-introduction/4-1-1-organic-compounds/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-1-introduction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.1
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: A compound that contains only hydrogen and carbon atoms
+      rationale: Hydrocarbon definition (What is a hydrocarbon? section) with the inorganic-carbon exclusions.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.2
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Organic compounds can be represented in a number of ways
+      rationale: Dedicated sections with worked examples for empirical, molecular, general, structural
+        and displayed formulae.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.3
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: homologous series, functional group and isomerism
+      rationale: Organic terminology sections defining all three terms, with the functional-group structures/names
+        table and the C3H6 isomers.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.5
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Isomers of C3H6
+      rationale: Isomerism section writes alternative structural/displayed formulae from a molecular formula
+        (the 4.5 skill); the naming side lives in the dedicated naming note.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Introduction to Organic Chemistry - IGCSE Revision Notes

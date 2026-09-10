@@ -3,6 +3,35 @@ created: 2026-09-10T17:38:37 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-4-alkenes/4-4-2-bromine-and-alkenes/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-4-alkenes
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.27
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: When bromine is reacted with an alkene a dibromoalkane is formed
+      rationale: Bromination of ethene to dibromoethane with the addition mechanism across C=C.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.28
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Bromine water is used in the test for alkenes as it is safer and easier to handle than
+        bromine
+      rationale: Bromine-water test distinguishing alkenes (decolorisation) from alkanes.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Bromine & Alkenes | Edexcel IGCSE Chemistry Revision Notes 2017

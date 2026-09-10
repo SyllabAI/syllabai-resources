@@ -3,6 +3,44 @@ created: 2026-09-10T16:46:18 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-7-practical-determine-the-formula-of-a-metal-oxide/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.36
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To determine the empirical formula of magnesium oxide by combustion of magnesium
+      rationale: 'This IS the named practical: Mg combustion AND copper(II) oxide reduction variants with
+        method, results, calculations.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.31
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To determine the empirical formula of magnesium oxide by combustion of magnesium
+      rationale: Experimental formula determination for the metal-oxide family named in 1.31 (same note,
+        same evidence, different point).
+      validation_status: SUGGESTED
+  - code: 4CH1-1.33
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To determine the empirical formula of magnesium oxide by combustion of magnesium
+      rationale: The results tables feed empirical-formula calculations from experimental data.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Investigating metal oxide formulas - IGCSE Revision Notes

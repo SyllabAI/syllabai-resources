@@ -3,6 +3,45 @@ created: 2026-09-10T16:45:49 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-4-calculate-reacting-masses/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.29
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Calculate the mass of magnesium oxide that can be made by completely burning 6.0 g of
+        magnesium in oxygen in the following reaction
+      rationale: Reacting-mass calculations via balanced-equation ratios with multiple worked examples.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.28
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Once the moles have been determined they can then be converted into grams using the relative
+        atomic or relative formula masses
+      rationale: The mole-to-gram bridge using Ar/Mr is the note's core computational tool.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.25
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Balancing Equations using Reacting Masses
+      rationale: Dedicated section (quoted heading) on deducing balanced equations from reacting-mass
+        data.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Reacting mass calculations - IGCSE Chemistry Revision Notes

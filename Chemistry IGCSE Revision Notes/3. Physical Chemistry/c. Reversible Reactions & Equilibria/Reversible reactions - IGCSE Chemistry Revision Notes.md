@@ -3,6 +3,35 @@ created: 2026-09-10T17:30:36 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-3-reversible-reactions-and-equilibria/3-3-1-reversible-reactions/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-3-reversible-reactions-and-equilibria
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.17
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: When writing chemical equations for reversible reactions, two opposing arrows are used
+      rationale: Reversible-reaction concept and the half-arrowhead symbol notation.
+      validation_status: SUGGESTED
+  - code: 4CH1-3.18
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Thermal decomposition of ammonium chloride
+      rationale: Dedicated sections (quoted heading + Dehydration of hydrated copper(II) sulfate) covering
+        both named reversible reactions.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Reversible reactions - IGCSE Chemistry Revision Notes

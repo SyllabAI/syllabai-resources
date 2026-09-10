@@ -3,6 +3,53 @@ created: 2026-09-10T17:35:37 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-2-crude-oil/4-2-1-crude-oil-and-fractional-distillation/
 author:
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-2-crude-oil
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.7
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: the different hydrocarbons that make up the mixture, called fractions
+      rationale: Crude oil presented as a mixture of hydrocarbons separated into fractions.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.8
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The fractions in petroleum are separated from each other in a process called fractional
+        distillation
+      rationale: 'Industrial fractional distillation: how it works, chain-length/boiling-point basis,
+        column diagram.'
+      validation_status: SUGGESTED
+  - code: 4CH1-4.9
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Refinery gas | Domestic heating & cooking
+      rationale: Main-fractions table (refinery gases, gasoline, kerosene, diesel, fuel oil, bitumen)
+        with uses (quoted row).
+      validation_status: SUGGESTED
+  - code: 4CH1-4.10
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: darker as it gets thicker and more viscous
+      rationale: Colour, viscosity and boiling-point trend sections for the main fractions.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Fractional distillation - IGCSE Chemistry Revision Notes

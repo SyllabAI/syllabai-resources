@@ -3,6 +3,45 @@ created: 2026-09-10T17:08:27 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-1-group-1-alkali-metals/2-1-1-group-1-alkali-metals/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-1-group-1-alkali-metals
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.1
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: They form alkaline solutions when they react with water
+      rationale: Reaction-with-water section showing the shared alkaline-product behaviour that marks
+        Group 1 as a family.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.2
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Lithium moves on the surface of the water
+      rationale: Water-reaction observations graded down the group plus a Reactions-with-oxygen section
+        — the differences evidencing the reactivity trend.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.3
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Predicting properties in Group 1
+      rationale: Dedicated section (quoted heading) on predicting properties of other alkali metals from
+        the trends; full member list Li-Fr given.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Group 1 reactivity & trends - IGCSE Chemistry Revision Notes

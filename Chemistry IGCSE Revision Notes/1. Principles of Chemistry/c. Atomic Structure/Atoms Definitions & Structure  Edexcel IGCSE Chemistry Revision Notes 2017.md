@@ -3,6 +3,44 @@ created: 2026-09-10T16:40:47 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-3-atomic-structure/1-3-1-atoms-definitions-and-structure/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-3-atomic-structure
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.14
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The smallest particle of an element that contains electrons surrounding a nucleus that
+        contains protons and neutrons
+      rationale: 'Atom and molecule definitions table (quoted: Atom row); Molecule row also present.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.15
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The protons and neutrons are located at the centre of the atom, which is called the nucleus
+      rationale: Subatomic particle positions plus the mass/charge table; includes calculating protons/neutrons/electrons.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.16
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: It is equal to 1/12th the mass of an atom of carbon-12
+      rationale: 'Terms table includes atomic number, mass number, isotope and relative atomic mass (quoted:
+        Ar row); the dedicated RAM note carries the calculation side.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Atoms: Definitions & Structure | Edexcel IGCSE Chemistry Revision Notes 2017

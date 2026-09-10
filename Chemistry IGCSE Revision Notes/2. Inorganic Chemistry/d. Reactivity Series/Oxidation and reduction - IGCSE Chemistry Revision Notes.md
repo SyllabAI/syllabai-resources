@@ -3,6 +3,27 @@ created: 2026-09-10T17:11:18 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-4-reactivity-series/2-4-5-oxidation-and-reduction/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-4-reactivity-series
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.20
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Oxidation is any reaction in which a substance gains oxygen
+      rationale: All five 2.20 terms defined in both oxygen and electron frameworks, with oxidising/reducing
+        agent identification in worked redox examples.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Oxidation and reduction - IGCSE Chemistry Revision Notes

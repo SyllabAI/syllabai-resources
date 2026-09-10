@@ -3,6 +3,37 @@ created: 2026-09-10T16:58:44 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-7-covalent-bonding/1-7-4-giant-covalent-structures/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-7-covalent-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.49
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Giant covalent structures are solids with high melting points
+      rationale: Explains high m.p. of giant covalent lattices via strong covalent bonds requiring much
+        energy.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.50
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Diamond is the hardest naturally occurring mineral
+      rationale: Structure-to-properties for diamond (rigid network, hard, high m.p.) and graphite (layers,
+        free electron, soft/slippery, conducts) — the 1.50 core content; C60 fullerene handled in the
+        simple-molecular note.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Giant covalent structures - IGCSE Chemistry Revision Notes

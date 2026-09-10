@@ -3,6 +3,37 @@ created: 2026-09-10T16:26:36 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-1-the-three-states-of-matter/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-1-states-of-matter
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.1
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The three states of matter are solids, liquids and gases
+      rationale: Note teaches the three states and their particle model (arrangement/movement/energy table
+        for solid/liquid/gas).
+      validation_status: SUGGESTED
+  - code: 4CH1-1.2
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: State changes occur at the melting point (solid to liquid, liquid to solid) and at the
+        boiling point (liquid to gas and gas to liquid)
+      rationale: 'Full interconversion set: melting, boiling/evaporation, freezing, condensation, sublimation
+        with how each is achieved.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Changing states of matter - IGCSE Chemistry Revision Notes

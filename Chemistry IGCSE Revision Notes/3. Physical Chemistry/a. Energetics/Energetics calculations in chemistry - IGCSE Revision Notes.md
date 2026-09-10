@@ -3,6 +3,36 @@ created: 2026-09-10T17:29:21 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-1-energetics/3-1-3-energetics-calculations/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-1-energetics
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.3
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: 'State the equation: Q = m x c x ΔT'
+      rationale: Heat-energy-change calculation from measured temperature change with a fully worked displacement-reaction
+        example.
+      validation_status: SUGGESTED
+  - code: 4CH1-3.4
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Calculating molar enthalpy change
+      rationale: Dedicated section (quoted heading) converting Q into molar enthalpy change with worked
+        examples and sign conventions.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Energetics calculations in chemistry - IGCSE Revision Notes

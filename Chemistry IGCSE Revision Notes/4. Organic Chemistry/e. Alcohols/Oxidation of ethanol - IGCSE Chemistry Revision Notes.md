@@ -3,6 +3,27 @@ created: 2026-09-10T17:40:30 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-5-alcohols/4-5-2-oxidation-of-ethanol/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-5-alcohols
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.31C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ethanol can undergo oxidation in three different ways
+      rationale: 'All three 4.31C oxidation routes: combustion, microbial/aerobic oxidation to ethanoic
+        acid, and oxidising-agent treatment (dichromate).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Oxidation of ethanol - IGCSE Chemistry Revision Notes

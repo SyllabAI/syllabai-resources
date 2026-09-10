@@ -3,6 +3,27 @@ created: 2026-09-10T16:33:16 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-3-solutions/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-1-states-of-matter
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.4
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: A solution with the maximum concentration of solute dissolved in the solvent
+      rationale: 'Terms table defining solvent, solute, solution and saturated solution (quoted row: saturated
+        solution).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Solutions - IGCSE Chemistry Revision Notes

@@ -3,6 +3,35 @@ created: 2026-09-10T16:56:52 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-7-covalent-bonding/1-7-1-formation-of-covalent-bonds/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-7-covalent-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.44
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: When atoms share pairs of electrons, they form covalent bonds
+      rationale: Covalent bond as a shared electron pair between non-metals; bonding vs lone-pair electrons.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.45
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: electrostatic attraction between the shared pair of electrons and the nuclei of the atoms
+        involved
+      rationale: Dedicated Electrostatic attractions section explaining the covalent bond in those terms.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Forming covalent bonds - IGCSE Chemistry Revision Notes

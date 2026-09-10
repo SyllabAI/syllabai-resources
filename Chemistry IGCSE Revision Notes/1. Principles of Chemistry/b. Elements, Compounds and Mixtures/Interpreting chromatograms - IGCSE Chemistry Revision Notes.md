@@ -3,6 +3,37 @@ created: 2026-09-10T16:37:59 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/1-2-4-interpreting-chromatograms/
 author:
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-2-elements-compounds-and-mixtures
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.11
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: We can use a chromatogram to compare the substances present in a mixture to known substances
+        and make assumptions
+      rationale: 'Whole note is chromatogram interpretation: pure vs impure spots, reference compounds,
+        number of components.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.12
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: 'retention factor, Rf, is calculated by the equation:'
+      rationale: Dedicated Rf Values section with the defining equation and a worked example used to identify
+        components.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Interpreting chromatograms - IGCSE Chemistry Revision Notes

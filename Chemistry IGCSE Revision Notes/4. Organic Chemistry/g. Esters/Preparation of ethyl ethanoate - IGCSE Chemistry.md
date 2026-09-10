@@ -3,6 +3,35 @@ created: 2026-09-10T17:41:17 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-7-esters/4-7-2-practical-preparation-of-ethyl-ethanoate/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-7-esters
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.43C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To prepare a small sample of ethyl ethanoate
+      rationale: 'This IS the named practical: water-bath heating, distillation of the volatile ester,
+        purification.'
+      validation_status: SUGGESTED
+  - code: 4CH1-4.39C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: A mixture of ethanoic acid, ethanol and concentrated sulfuric acid is gently heated
+      rationale: The practical instantiates the ethanol + ethanoic acid / acid-catalyst esterification.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Preparation of ethyl ethanoate - IGCSE Chemistry

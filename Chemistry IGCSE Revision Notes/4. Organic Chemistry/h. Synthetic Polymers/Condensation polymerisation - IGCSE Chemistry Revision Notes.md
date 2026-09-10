@@ -3,6 +3,45 @@ created: 2026-09-10T17:41:46 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-8-synthetic-polymers/4-8-3-condensation-polymers/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-8-synthetic-polymers
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.48C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: For every ester linkage formed in condensation polymerisation, one molecule of water is
+        formed
+      rationale: Dicarboxylic acid + diol condensation producing polyester and water (terylene example).
+      validation_status: SUGGESTED
+  - code: 4CH1-4.49C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Deducing the monomers from a polyester
+      rationale: Dedicated section (quoted heading) on writing polyester repeat-unit formulae from monomer
+        formulae and vice versa.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.50C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Biopolyesters are a specific type of polymers that are synthesised from sugars and plant
+        oils
+      rationale: 'Biopolyesters section: the biodegradable polyester subclass.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Condensation polymerisation - IGCSE Chemistry Revision Notes

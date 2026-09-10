@@ -3,6 +3,56 @@ created: 2026-09-10T16:58:34 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-7-covalent-bonding/1-7-3-simple-molecular-structures/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-7-covalent-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.47
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Simple molecular structures have covalent bonds joining the atoms together, but intermolecular
+        forces that act between neighbouring molecules are weak
+      rationale: Weak intermolecular forces explain gases/liquids/solids-with-low-mp for simple molecular
+        substances.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.48
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: As the molecules increase in size, the melting and boiling points generally increase because
+        the strength of these intermolecular forces increases
+      rationale: Dedicated Melting and boiling point patterns section relating m.p./b.p. to relative molecular
+        mass.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.50
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Fullerenes are a group of carbon allotropes
+      rationale: C60 fullerene section of 1.50 lives here (hollow cage, does not conduct); diamond/graphite
+        are in the giant-covalent note.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.51
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: cannot migrate from one buckyball to another, so C60 does not conduct electricity
+      rationale: Conductivity section states simple molecular/covalent substances do not conduct (no mobile
+        charged particles).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Simple molecular structures - IGCSE Chemistry Revision Notes

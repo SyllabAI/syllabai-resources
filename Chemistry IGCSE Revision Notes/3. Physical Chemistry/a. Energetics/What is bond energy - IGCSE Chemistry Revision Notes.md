@@ -3,6 +3,36 @@ created: 2026-09-10T17:29:33 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-1-energetics/3-1-5-bond-energy/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-1-energetics
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.6C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: During a chemical reaction energy must be taken in to break bonds
+      rationale: Bond-breaking endothermic / bond-making exothermic with the net-difference rule for overall
+        reaction type.
+      validation_status: SUGGESTED
+  - code: 4CH1-3.7C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Bond energy calculations
+      rationale: Dedicated section (quoted heading) using bond energies to calculate reaction enthalpy
+        changes with two worked examples.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # What is bond energy? - IGCSE Chemistry Revision Notes

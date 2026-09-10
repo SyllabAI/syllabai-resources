@@ -3,6 +3,46 @@ created: 2026-09-10T17:05:20 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-8-metallic-bonding/1-8-1-metallic-bonding/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-8-metallic-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.53C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The metallic bond is the strong force of attraction between the positive metal ions and
+        the delocalised electrons
+      rationale: Metallic bonding as electrostatic attraction between positive ions and delocalised electrons;
+        alloys included.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.54C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: layers which can slide over each other when a force is applied
+      rationale: 'Typical metal properties: malleability (layers slide), high m.p./b.p., electrical conductivity
+        via delocalised electrons (sea of electrons).'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.52C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Metals consist of giant structures of atoms arranged in a regular pattern
+      rationale: The lattice diagram and regular-pattern description support the 2-D metallic lattice
+        representation.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Metallic bonding - IGCSE Chemistry Revision Notes

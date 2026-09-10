@@ -3,6 +3,45 @@ created: 2026-09-10T16:44:19 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-4-the-periodic-table/1-4-4-electronic-configuration-and-reactivity/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-4-the-periodic-table
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.23
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Elements in the same group in the Periodic Table will have similar chemical properties
+      rationale: Explains same-group similarity via identical outer-electron counts and gives the group-reactivity
+        prediction rule.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.24
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Why are noble gases unreactive?
+      rationale: Dedicated section (quoted heading) on Group 0 having full outer shells and thus low reactivity;
+        helium exception discussed.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.22
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The group number of an element which is given on the Periodic Table indicates the number
+        of electrons in the outer shell
+      rationale: Group-number-to-outer-electrons rule links main-group position to electronic configuration.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Electronic Configuration & Reactivity | Edexcel IGCSE Chemistry Revision Notes 2017

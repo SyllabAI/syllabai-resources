@@ -3,6 +3,45 @@ created: 2026-09-10T16:33:41 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-4-solubility/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-1-states-of-matter
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.5C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Solubility can be expressed in g per 100 g of solvent
+      rationale: Defines solubility in the g-per-100g unit and its dependence on temperature/pressure
+        for solids vs gases.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.6C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Solubility graphs or curves represent solubility in g per 100 g of water plotted against
+        temperature
+      rationale: Dedicated section on solubility curves with worked example on plotting/interpreting.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.4
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: low
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The liquid is called the solvent
+      rationale: Uses the solvent/saturated-solution vocabulary in context; the dedicated terminology
+        note covers 1.4 fully.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Solubility - IGCSE Chemistry Revision Notes
