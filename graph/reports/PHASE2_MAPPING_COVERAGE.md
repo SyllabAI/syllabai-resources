@@ -195,7 +195,7 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 - **4CH1-4.12**: 1 note(s) — Definition of combustion - IGCSE Chemistry Revision Notes (high)
 - **4CH1-4.13**: 1 note(s) — Definition of combustion - IGCSE Chemistry Revision Notes (high)
 - **4CH1-4.14**: 1 note(s) — Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
-- **4CH1-4.15**: 1 note(s) — Definition of combustion - IGCSE Chemistry Revision Notes (medium)
+- **4CH1-4.15**: 1 note(s) — Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 (medium)
 - **4CH1-4.16**: 1 note(s) — Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
 - **4CH1-4.17**: 1 note(s) — What is cracking - IGCSE Chemistry Revision Notes (high)
 - **4CH1-4.18**: 1 note(s) — What is cracking - IGCSE Chemistry Revision Notes (high)
@@ -244,8 +244,9 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 
 1. Review the front-matter diff of this commit — each note's `spec_map:` block is a small, self-contained review unit (code + confidence + evidence quote + rationale).
 2. Start with **medium/low** confidence mappings and the cross-subsection flags below — they are the ones where the mapping judgment is least mechanical.
-3. Spot-check 20 sampled mappings against the notes using `graph/reports/PHASE2_SPOT_CHECK_SHEET.md`.
+3. Spot-check status (2026-09-11): the 20-sample sheet (`graph/reports/PHASE2_SPOT_CHECK_SHEET.md`) was operator-reviewed — 19 confirmed (1 of them after machine visual verification of the metallic-lattice diagram), 1 rejected and remapped (4CH1-4.15, see the sheet's review record).
 4. Approve/adjust via the PR; `validation_status: SUGGESTED` is promoted to HUMAN_VALIDATED per mapping as diffs are accepted.
+5. **Evidence-existence is not semantic validity.** The automated G3 gate proves a mapping's evidence quote exists verbatim in the note; it cannot prove the quote covers the spec point's semantics. The 4.15 case is the canonical example: a true quote (fuel sulfur impurities) that never established the impurity -> combustion -> sulfur-dioxide causal chain the point demands. Read every mapping as *does this note teach what the point asks*, not as *does this sentence exist*.
 
 ### Cross-subsection mappings (flagged)
 

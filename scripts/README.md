@@ -40,9 +40,20 @@
   point mappings with evidence/confidence/model_version/rationale). HARD
   gates: evidence-verbatim-in-note (anti-hallucination), codes ∈ 182-point
   registry, ≥1 mapping per note, body byte-identical, idempotent re-run.
-  Also regenerates `graph/reports/PHASE2_MAPPING_COVERAGE.md` and
-  `graph/reports/PHASE2_SPOT_CHECK_SHEET.md`:
-  `python3 scripts/c10_map_notes.py [--dry-run]`
+  Also regenerates `graph/reports/PHASE2_MAPPING_COVERAGE.md`; the spot-check
+  sheet is only regenerated if absent (an issued sheet carrying an operator
+  review record is preserved — `--regen-spot-check` discards it deliberately):
+  `python3 scripts/c10_map_notes.py [--dry-run] [--regen-spot-check]`
+- `c10_rework_415.py` — T-C10 operator-review rework (2026-09-11): moves the
+  4CH1-4.15 mapping rejected in the operator spot-check (sheet entry #7) from
+  the combustion note to the S4-b sibling Nitrogen Oxides & Sulfur Dioxide
+  note whose evidence states the causal relationship in-note. Idempotent;
+  preserves the decisions files' compact JSON style:
+  `python3 scripts/c10_rework_415.py`
+- `c10_spotcheck_verdicts.py` — records the operator's 20 spot-check verdicts
+  (2026-09-11 chat review) onto the issued sheet: per-entry verdict lines
+  with attribution + appended review record + lock marker. Idempotent:
+  `python3 scripts/c10_spotcheck_verdicts.py`
 - `c10_negative_test.py` — T-C10 validator negative tests: 8 corruption
   classes (spec_map removal, invented codes, emptied evidence, corrupted
   anchor, emptied mappings, foreign 4CH0 code, deleted note, premature

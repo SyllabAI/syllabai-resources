@@ -35,7 +35,13 @@ Outputs:
   - graph/reports/PHASE2_MAPPING_COVERAGE.md (coverage + PR review guide)
   - graph/reports/PHASE2_SPOT_CHECK_SHEET.md (20 sampled mappings)
 
-Usage: python3 scripts/c10_map_notes.py [--dry-run]
+The spot-check sheet is an ISSUED review artifact: once it carries an
+operator review record it is NOT regenerated on re-runs (the operator's
+verdicts are keyed to its numbered entries). Force regeneration only with
+`--regen-spot-check` (this discards the review record - a fresh sheet must
+then be re-issued and re-reviewed).
+
+Usage: python3 scripts/c10_map_notes.py [--dry-run] [--regen-spot-check]
 """
 from __future__ import annotations
 
@@ -164,6 +170,9 @@ def build_spec_map(sub_code, group_slug, mappings):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--regen-spot-check", action="store_true",
+                    help="force regeneration of PHASE2_SPOT_CHECK_SHEET.md "
+                         "(discards any operator review record on it)")
     args = ap.parse_args()
 
     code2sub, sub_titles = load_registry()
@@ -292,12 +301,14 @@ def main():
         print(f"  FLAG {c}: note anchored {note_sub} but point in {pt_sub} :: {Path(rel).name}")
 
     if not args.dry_run:
-        write_reports(stats, flags, decisions, code2sub, sub_titles, notes)
-        print("reports written: graph/reports/PHASE2_MAPPING_COVERAGE.md, "
-              "graph/reports/PHASE2_SPOT_CHECK_SHEET.md")
+        write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
+                      regen_spot_check=args.regen_spot_check)
+        print("reports written: graph/reports/PHASE2_MAPPING_COVERAGE.md; "
+              "spot-check sheet written or preserved (see notice above)")
 
 
-def write_reports(stats, flags, decisions, code2sub, sub_titles, notes):
+def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
+                  regen_spot_check=False):
     REPORTS.mkdir(parents=True, exist_ok=True)
     # coverage per point
     point_notes = {}
@@ -390,10 +401,20 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes):
               "2. Start with **medium/low** confidence mappings and the cross-subsection "
               "flags below — they are the ones where the mapping judgment is least "
               "mechanical.",
-              "3. Spot-check 20 sampled mappings against the notes using "
-              "`graph/reports/PHASE2_SPOT_CHECK_SHEET.md`.",
+              "3. Spot-check status (2026-09-11): the 20-sample sheet "
+              "(`graph/reports/PHASE2_SPOT_CHECK_SHEET.md`) was operator-reviewed — "
+              "19 confirmed (1 of them after machine visual verification of the "
+              "metallic-lattice diagram), 1 rejected and remapped (4CH1-4.15, see the "
+              "sheet's review record).",
               "4. Approve/adjust via the PR; `validation_status: SUGGESTED` is promoted to "
               "HUMAN_VALIDATED per mapping as diffs are accepted.",
+              "5. **Evidence-existence is not semantic validity.** The automated G3 gate "
+              "proves a mapping's evidence quote exists verbatim in the note; it cannot "
+              "prove the quote covers the spec point's semantics. The 4.15 case is the "
+              "canonical example: a true quote (fuel sulfur impurities) that never "
+              "established the impurity -> combustion -> sulfur-dioxide causal chain the "
+              "point demands. Read every mapping as *does this note teach what the point "
+              "asks*, not as *does this sentence exist*.",
               ""]
     if flags:
         lines.append("### Cross-subsection mappings (flagged)")
@@ -406,7 +427,17 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes):
     (REPORTS / "PHASE2_MAPPING_COVERAGE.md").write_text("\n".join(lines) + "\n",
                                                         encoding="utf-8")
 
-    # spot-check sheet: 20 random mappings
+    # spot-check sheet: 20 random mappings. An issued sheet carrying an
+    # operator review record is an immutable review artifact - never
+    # silently regenerated (verdicts are keyed to its numbered entries).
+    sheet = REPORTS / "PHASE2_SPOT_CHECK_SHEET.md"
+    if sheet.exists() and not regen_spot_check:
+        existing = sheet.read_text(encoding="utf-8")
+        if "operator-review-locked" in existing:
+            print("NOTICE: PHASE2_SPOT_CHECK_SHEET.md carries an operator "
+                  "review record - preserved (use --regen-spot-check to "
+                  "discard and re-issue)")
+            return
     rng = random.Random(20260911)
     all_maps = []
     for n in notes:
@@ -429,8 +460,7 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes):
         sl.append(f"- AI rationale: {m['rationale']}")
         sl.append(f"- verdict: ☐ CONFIRMED ☐ REJECT (edit front matter) ☐ UNSURE")
         sl.append("")
-    (REPORTS / "PHASE2_SPOT_CHECK_SHEET.md").write_text("\n".join(sl) + "\n",
-                                                        encoding="utf-8")
+    sheet.write_text("\n".join(sl) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

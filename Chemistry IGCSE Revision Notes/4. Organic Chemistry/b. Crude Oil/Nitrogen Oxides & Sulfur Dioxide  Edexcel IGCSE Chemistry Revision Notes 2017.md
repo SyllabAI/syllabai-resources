@@ -22,6 +22,17 @@ spec_map:
         and temperature conditions of internal combustion engines
       rationale: Engine-temperature formation of nitrogen oxides with catalytic-converter context.
       validation_status: SUGGESTED
+  - code: 4CH1-4.15
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The sulfur dioxide produced from the combustion of fossil fuels
+      rationale: Remapped after the operator spot-check (2026-09-11) rejected the combustion-note mapping,
+        whose evidence proved only the fuel-impurity premise. This note states the 4.15 causal relationship
+        directly - combustion of fossil fuels producing sulfur dioxide - while the acid-rain consequences
+        are carried separately by the 4.16 mapping.
+      validation_status: SUGGESTED
   - code: 4CH1-4.16
     provenance:
       tier: AI_SUGGESTED

@@ -38,15 +38,6 @@ spec_map:
       rationale: Carbon monoxide danger explained via reduced oxygen transport capacity of blood (haemoglobin-free
         framing available).
       validation_status: SUGGESTED
-  - code: 4CH1-4.15
-    provenance:
-      tier: AI_SUGGESTED
-      confidence: medium
-      model_version: GLM (Super Z agent, z.ai)
-      evidence: All these fuels contain carbon, hydrogen and small quantities of sulfur
-      rationale: Links the sulfur impurity in fuels to the sulfur dioxide released on burning (formation
-        detail continues in the acid-rain note).
-      validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
