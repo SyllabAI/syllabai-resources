@@ -16,7 +16,7 @@ Read-only audit executing the operator-advisor's condition (round 3, re-targeted
 | C6 | store shape: 112 notes / 209 mappings / 176 high / 32 medium / 1 low | **PASS** | 112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1} |
 | C7 | corpus stat: 68/112 notes carry 2+ codes (contributory many-to-many is the corpus shape) | **PASS** | 68/112 |
 | C8 | VLM archive: 21 verdict JSONs with codes matching the P6a queue exactly | **PASS** | 21 files; sym-diff: none |
-| C9 | git provenance: HEAD 49a0478… (round-4 rework commit), tree clean | **PASS** | HEAD 49a0478, tree clean |
+| C9 | git provenance: HEAD 9efd5b5… (pushed round-4 state), tree clean | **PASS** | HEAD 9efd5b5, tree clean |
 
 ## The 59 exact ratification identities
 
@@ -93,6 +93,6 @@ Every pair below is an AI-reviewed CONFIRM that survived the round-4 supersessio
 
 The staged 59-spec c10_promote.py batch in PHASE2_PR_REVIEW_SHEET.md §12 promotes exactly the 59 round-4-surviving AI-reviewed CONFIRM mappings — exact (note, code) identity proven, zero unreviewed or code-wide promotions, zero ambiguity, both round-4 REJECTs proven removed from the store and absent from the command, store pre-state 0 promoted / 209 SUGGESTED. The operator may execute the §12 batch as staged.
 
-Provenance: repo HEAD `49a0478` (the round-4 rework commit, carrying the two removals and the green gates); tree clean before this audit's report files.
+Provenance: repo HEAD `9efd5b5` (the round-4 rework commit, carrying the two removals and the green gates); tree clean before this audit's report files.
 
 After the operator runs the §12 command, those 59 mappings become HUMAN_VALIDATED (validated_by `operator`) — a distinct state from this AI CONFIRM, per the provenance chain. The 150 mappings outside the reviewed set remain SUGGESTED (risk-tiered validation state, guide §7), and 4CH1-4.15 remains an honest zero-coverage corpus gap (T-C11 input).

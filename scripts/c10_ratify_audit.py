@@ -14,7 +14,7 @@ batch is run, re-targeted after the fourth review round:
      these two mappings, regenerate the gates, and then we can do the
      final exact-target reconciliation before ratification." (round 4)
 
-The round-4 rework (commit 49a0478, `scripts/c10_round4_rejects.py`)
+The round-4 rework (rebased to `bc52c93`, `scripts/c10_round4_rejects.py`)
 removed the two rejected mappings; the staged batch is now the 59-spec
 command in PHASE2_PR_REVIEW_SHEET.md §12 (§11 is ON HOLD). This audit
 proves that batch is exactly the round-4-surviving reviewed set.
@@ -58,8 +58,9 @@ Checks:
       low 1
   C7  corpus-architecture stat: 68/112 notes carry 2+ codes
   C8  VLM archive: 21 verdict JSONs, codes exactly matching the P6a queue
-  C9  git provenance: HEAD is the round-4 rework commit (49a0478),
-      tree clean
+  C9  git provenance: HEAD is the pushed round-4 state (9efd5b5 — the
+      rework + audit rebased over the operator's concurrent PMT-notes
+      push), tree clean
 
 Read-only: nothing in c10_decisions/, notes/ or the sheet is modified.
 Writes graph/reports/C10_RATIFICATION_AUDIT.json + .md only.
@@ -86,7 +87,8 @@ REPORTS = HERE.parent / "graph" / "reports"
 SHEET = REPORTS / "PHASE2_PR_REVIEW_SHEET.md"
 JSON_OUT = REPORTS / "C10_RATIFICATION_AUDIT.json"
 MD_OUT = REPORTS / "C10_RATIFICATION_AUDIT.md"
-EXPECTED_HEAD = "49a0478"
+EXPECTED_HEAD = "9efd5b5"  # pushed round-4 state (rework bc52c93 + audit 9efd5b5,
+# rebased over the operator's concurrent PMT-notes push)
 
 checks = []
 
@@ -352,7 +354,7 @@ try:
     dirty = "clean" if not foreign else f"dirty ({len(foreign)} foreign files: {[ln[3:].strip() for ln in foreign]})"
 except Exception as e:  # git not decisive — don't fail the audit on it
     dirty = f"unavailable ({e})"
-check("C9", f"git provenance: HEAD {EXPECTED_HEAD}… (round-4 rework commit), "
+check("C9", f"git provenance: HEAD {EXPECTED_HEAD}… (pushed round-4 state), "
       f"tree clean",
       head.startswith(EXPECTED_HEAD) and dirty == "clean",
       f"HEAD {head or 'unknown'}, tree {dirty}")
