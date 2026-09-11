@@ -20,8 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: For the first 20 elements, once the third shell has 8 electrons, the fourth shell begins
         to fill
-      rationale: Full first-20 configurations section (shell-filling rules, electron shell diagrams, configurations
-        table).
+      rationale: Shell-filling rules, electron shell diagrams and the first-20 configurations table, plus
+        the position-to-configuration relationship section (period = occupied shells, group = outer electrons,
+        chlorine worked example) that carries the deduction-from-position skill.
       validation_status: SUGGESTED
   - code: 4CH1-1.22
     provenance:

@@ -19,8 +19,9 @@ spec_map:
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
       evidence: The three states of matter are solids, liquids and gases
-      rationale: Note teaches the three states and their particle model (arrangement/movement/energy table
-        for solid/liquid/gas).
+      rationale: Teaches the three states with a properties table (arrangement, movement, closeness per
+        state) and the particle model; energy of particles is taught in the state-change sections (energy
+        changes on melting/boiling).
       validation_status: SUGGESTED
   - code: 4CH1-1.2
     provenance:
