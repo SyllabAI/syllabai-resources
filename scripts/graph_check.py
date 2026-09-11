@@ -58,7 +58,10 @@ SOURCE_MD = "international-gcse-chemistry-2017-specification-2026-09-10_12-18-50
 SOURCE_PDF = "international-gcse-chemistry-2017-specification.pdf"
 
 # --- T-C10 baseline (Phase 2 mapping state, 2026-09-11) -----------------------
-C10_COUNTS = {"notes": 112, "mappings": 211, "points_covered": 182}
+# Round-4 (2026-09-11): 2 mappings rejected & removed (4CH1-4.15 @ NOx,
+# 4CH1-1.17 @ Calculate Relative Mass) — 211 -> 209 mappings, 182 -> 181
+# covered points (4.15 = honest zero-coverage corpus gap; review sheet §12).
+C10_COUNTS = {"notes": 112, "mappings": 209, "points_covered": 181}
 C10_CONFIDENCE = {"high", "medium", "low"}
 C10_TIERS = {"PROVIDER", "AI_SUGGESTED"}
 

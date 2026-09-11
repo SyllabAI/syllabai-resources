@@ -76,6 +76,22 @@ REPORTS = GRAPH / "reports"
 MODEL_VERSION = "GLM (Super Z agent, z.ai)"
 MAPPED_DATE = "2026-09-11"
 CONFIDENCE_VOCAB = {"high", "medium", "low"}
+# Round-4 (2026-09-11) annotated corpus gap: a spec point whose mapping was
+# rejected with no corpus note teaching the demanded substance (review
+# sheet §12 / guide §8 command-kind rule). Rendered in the coverage
+# report's zero-coverage queue so the gap is described, not just listed.
+GAP_ANNOTATIONS = {
+    "4CH1-4.15": (
+        "Round-4 corpus gap (2026-09-11, review sheet §12): no SME note "
+        "teaches the formation explanation this point demands — the impurity "
+        "premise lives in the Definition of combustion note; the oxidation "
+        "chemistry (S + O2 -> SO2) appears only in element-combustion "
+        "contexts (Combustion [2.11], Writing chemical equations); the "
+        "stated result is a premise clause in Nitrogen Oxides & Sulfur "
+        "Dioxide (4.16's note). The connective teaching is absent "
+        "corpus-wide — T-C11 content-gap candidate (pieces exist, "
+        "explanation does not)."),
+}
 RE_4CH1_CODE = re.compile(r"^4CH1-S\d(\.\d{1,2}C?)?$|^4CH1-\d\.\d{1,2}C?$")
 
 # ----------------------------------------------------------------- helpers --
@@ -411,6 +427,8 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
     if zero:
         for c in zero:
             lines.append(f"- {c} ({sub_titles.get(code2sub[c], '')})")
+            if c in GAP_ANNOTATIONS:
+                lines.append(f"  - {GAP_ANNOTATIONS[c]}")
     else:
         lines.append("- **EMPTY — all 182 points have ≥1 AI_SUGGESTED note mapping.** "
                      "Phase 3/4 enrichment should still review *quality* (e.g. "
@@ -468,6 +486,14 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
               "established the impurity -> combustion -> sulfur-dioxide causal chain the "
               "point demands. Read every mapping as *does this note teach what the point "
               "asks*, not as *does this sentence exist*.",
+              "6. **Round-4 rejections (2026-09-11, external advisor + Z.ai "
+              "concurrence):** two round-3 confirms were rejected under the "
+              "command-kind rule (guide §8): 4CH1-4.15 (removed — no corpus "
+              "note teaches the impurity -> SO2 formation explanation; see "
+              "the §3 gap annotation) and 1.17@Calculate Relative Mass "
+              "(removed — a calculate point needs the calculation; 1.17 "
+              "stays covered by the S1-c note). Ratification batch: 59 "
+              "specs (review sheet §12).",
               ""]
     if flags:
         lines.append("### Cross-subsection mappings (flagged)")

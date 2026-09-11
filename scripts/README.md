@@ -55,6 +55,17 @@
   note whose evidence states the causal relationship in-note. Idempotent;
   preserves the decisions files' compact JSON style:
   `python3 scripts/c10_rework_415.py`
+- `c10_round4_rejects.py` — T-C10 round-4 rework (2026-09-11): executes the
+  external advisor's two fourth-round rejections (Z.ai concurred, repo-
+  verified) — REMOVES 4CH1-4.15 from the NOx note (no corpus note teaches
+  the impurity -> SO2 formation explanation; 4.15 becomes an annotated
+  zero-coverage corpus gap) and 4CH1-1.17 from Calculate Relative Mass
+  (a calculate-point needs the calculation; 1.17 keeps its S1-c mapping);
+  appends review-sheet §12 (59 CONFIRM / 2 REJECT + the 59-spec staged
+  batch derived mechanically from §11, which it marks ON HOLD) and guide
+  §8 (issue 3 — the command-kind substance rule, frozen); exposes
+  `ROUND4_REJECTS` for the audit. Idempotent:
+  `python3 scripts/c10_round4_rejects.py && python3 scripts/c10_map_notes.py`
 - `c10_spotcheck_verdicts.py` — records the operator's 20 spot-check verdicts
   (2026-09-11 chat review) onto the issued sheet: per-entry verdict lines
   with attribution + appended review record + lock marker. Idempotent:
@@ -100,6 +111,9 @@
   the sheet is the review, NOT the promotion (everything stays SUGGESTED
   on disk until the operator runs it). Idempotent:
   `python3 scripts/c10_pr_review_verdicts.py`
+  (Round 4, same day: the advisor + Z.ai review rejected 2 of the 61 — see
+  `c10_round4_rejects.py`; sheet §12 supersedes §1/§11 and the batch is 59
+  specs.)
 - `c10_rework_rationales.py` — T-C10 review rework (2026-09-11): rewrites
   six confirmed mappings' rationales for honest contributory wording
   (4.15, 1.4, 1.16@Atoms, 2.29, 3.10, 1.17@S1-e). Evidence, confidence,
@@ -110,18 +124,21 @@
   diagram-dependent mappings (incl. the prior 1.52C check). Evidence
   artifact backing the review sheet §7; one JSON per mapping.
 - `c10_ratify_audit.py` — T-C10 pre-ratification reconciliation audit
-  (2026-09-11, READ-ONLY): the machine-verifiable check that the staged
-  §11 batch promotes exactly the 61 reviewed CONFIRM mappings. Resolves
-  the sheet's `--map` specs with the PRODUCTION `c10_promote.py` resolver
-  (so ambiguity / code-wide promotion would fail as in real execution) and
-  proves bijection review-record ↔ command (61/61 both directions), zero
-  unreviewed targets, pre-state 0 promoted / 211 SUGGESTED, store shape
-  112/211/176-34-1, 69/112 multi-point notes, 21 VLM files, git HEAD
-  provenance. Writes `graph/reports/C10_RATIFICATION_AUDIT.{json,md}`;
-  mutates nothing else. Verdict PASS on 2026-09-11:
+  (2026-09-11, READ-ONLY; re-targeted at sheet §12 after round 4): the
+  machine-verifiable check that the staged 59-spec batch promotes exactly
+  the round-4-surviving reviewed CONFIRM mappings. Resolves the sheet's
+  §12 `--map` specs with the PRODUCTION `c10_promote.py` resolver (so
+  ambiguity / code-wide promotion would fail as in real execution) and
+  proves bijection review-record ↔ command (59/59 both directions), zero
+  unreviewed targets, both round-4 REJECTs absent from the store AND the
+  command (imported from `c10_round4_rejects.ROUND4_REJECTS`), pre-state
+  0 promoted / 209 SUGGESTED, store shape 112/209/176-32-1, 68/112
+  multi-point notes, 21 VLM files, git HEAD provenance. Writes
+  `graph/reports/C10_RATIFICATION_AUDIT.{json,md}`; mutates nothing else:
   `python3 scripts/c10_ratify_audit.py`
 - `graph_check.py` group 6 (`c10-notes-mapping`) — persistent-state check of
   the applied T-C10 mapping (schema, registry membership, provenance
-  vocabulary, anchor-vs-slug, foreign codes, totals 112/211/182). Runs as
+  vocabulary, anchor-vs-slug, foreign codes, totals 112/209/181 — round-4
+  baseline after the 2 rejections). Runs as
   part of the normal `graph_check.py` invocation; `--notes-root` points it
   at an alternative tree for testing.

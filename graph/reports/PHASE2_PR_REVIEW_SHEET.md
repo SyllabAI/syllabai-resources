@@ -156,6 +156,9 @@ Six rationales were rewritten for honest contributory wording (the deferral phra
 
 ## 11. Staged operator ratification
 
+> <!-- round4-on-hold -->
+> **ON HOLD — round 4 (2026-09-11):** two of these 61 confirms were **REJECTED** by the external advisor's fourth-round review (Z.ai concurred; §12 below). This 61-spec block is retained as the round-3 record — **do NOT run it**. The current staged batch is §12's 59-spec command.
+
 All 61 reviewed mappings are CONFIRM. To ratify (promote exactly the reviewed set to HUMAN_VALIDATED), the operator runs:
 
 ```bash
@@ -189,3 +192,73 @@ python3 scripts/c10_promote.py \
 
 Alternatively the operator may ratify in tranches (e.g. P1+P2 first, or everything except the weakest confirm — the S1-e 1.17) by trimming the `--map` list; or ask Z.ai to apply it verbatim.
 
+<!-- round4-rejects-2026-09-11 -->
+
+## 12. Round 4 — advisor rejections and the 59-spec staged batch (2026-09-11)
+
+The operator forwarded the executed review to the external advisor (ChatGPT), whose fourth-round pass re-read the two flagged notes against the spec wording and rejected two of the 61 confirms. Z.ai's concurrence assessment (same day) verified every cited fact against the repo — note texts, spec wordings, the corpus-wide sulfur sweep, the sheet's own round-3 findings — and accepted both rejections. This section is the supersession record; the §1 tally (61/0/0) is superseded by **59 CONFIRM / 2 REJECT / 0 HOLD**.
+
+| | Reviewed | CONFIRM | REJECT | HOLD |
+|---|---:|---:|---:|---:|
+| Round 3 (§1) | 61 | 61 | 0 | 0 |
+| **Round 4 (this section)** | 61 | **59** | **2** | 0 |
+
+### The governing rule (guide issue 3, frozen)
+
+A contributory mapping still needs to contain the **kind of instructional substance the spec point's command verb demands**. Distributed coverage may aggregate explicit contributions across notes, but a premise or a stated consequence is not a contribution of the demanded kind, and aggregating premise + consequence constructs the missing teaching by inference — which the §0.0 contract forbids. The rule is the per-command-verb operationalization of "distributed ≠ inferred"; full table: `PHASE2_PR_REVIEW_GUIDE.md` §8.
+
+### 4CH1-4.15 @ Nitrogen Oxides & Sulfur Dioxide — REJECT (removed)
+
+- spec: “explain how the combustion of some impurities in hydrocarbon fuels results in the formation of sulfur dioxide”
+- round-3 evidence: “The sulfur dioxide produced from the combustion of fossil fuels”
+- verdict: **REJECT** — external advisor round 4; Z.ai concurrence, repo-verified (2026-09-11)
+- finding: Premise-framed consequence, not the demanded explanation: the evidence clause is a truncation of the 4.16 evidence sentence; the impurity premise lives only in the sibling combustion note and the S + O2 -> SO2 chemistry only in element-combustion contexts; the impurity -> oxidation -> SO2 connective teaching exists in no note (corpus-wide sweep, 112 notes). Round-3 CONFIRM aggregated premise + stated result = inferred coverage, which the guide's own §0.0 forbids.
+- disposition: removed from decisions S4.json (note keeps 4.14 / 4.16); 4.15 -> zero-coverage corpus gap, annotated in PHASE2_MAPPING_COVERAGE.md §3 for T-C11
+
+### 4CH1-1.17 @ Calculate Relative Mass (S1-e) — REJECT (removed)
+
+- spec: “be able to calculate the relative atomic mass of an element Ar from isotopic abundances”
+- round-3 evidence: “This is calculated from the mass number and relative abundances of all the isotopes of a particular element”
+- verdict: **REJECT** — external advisor round 4; Z.ai concurrence, repo-verified (2026-09-11)
+- finding: Definitional sentence, not calculation substance: the note states what Ar is calculated from, then moves wholly to Mr; no Ar equation, no isotopic-abundance numbers, no worked example; the derivation-basis sentence is duplicated verbatim in the dedicated S1-c note. A calculate-point needs the calculation (command-kind rule); round 3 had pre-registered removal as the strict-reading branch.
+- disposition: removed from decisions S1.json (note keeps 1.26); 1.17 remains covered by its high-confidence in-subsection S1-c mapping; the 1.17@S1-e cross-subsection flag is retired with the mapping
+
+### Store impact and gates
+
+- 211 → **209** mappings (high 176 / medium 32 / low 1); 69 → **68** notes carrying 2+ codes; 182 → **181** covered points; the zero-coverage queue gains 4.15 as an **annotated corpus gap** (pieces exist, connective teaching does not — T-C11 input), not a mapping defect.
+- Gates re-run after the removals: applier ALL GREEN (209), `graph_check.py` 9/9 (C10 counts updated), `c10_negative_test.py` 10 classes + positive control.
+- `scripts/c10_round4_rejects.py` executed the removals + this section (idempotent); the round-4 REJECT data is importable (`ROUND4_REJECTS`) for the re-targeted audit.
+
+### The 59-spec staged batch (supersedes §11)
+
+To ratify, the operator promotes exactly the 59 surviving reviewed CONFIRM mappings (derived mechanically from the §11 command by removing the two rejected specs):
+
+```bash
+cd work/syllabai-resources && \
+python3 scripts/c10_promote.py \
+    --map '4CH1-1.4@Solubility - IGCSE Chemistry Revision No' --map '4CH1-1.10@Paper chromatography - IGCSE Chemistry R' --map '4CH1-1.16@Atoms Definitions & Structure  Edexcel I' \
+    --map '4CH1-1.50@Simple molecular structures - IGCSE Chem' --map '4CH1-2.17@Metals Reacting with Water & Acids  Edex' --map '4CH1-2.29@Acids, Alkalis & Neutralisation - IGCSE ' \
+    --map '4CH1-3.10@Explaining Rates  Edexcel IGCSE Chemistr' --map 4CH1-4.5 --map '4CH1-1.16@Relative atomic mass - IGCSE Chemistry R' \
+    --map '4CH1-1.22@Electronic Configuration & Reactivity  E' --map '4CH1-1.25@Reacting mass calculations - IGCSE Chemi' --map '4CH1-1.28@Reacting mass calculations - IGCSE Chemi' \
+    --map '4CH1-1.31@Empirical & Molecular Formulae  Edexcel ' --map '4CH1-1.33@Investigating metal oxide formulas - IGC' --map '4CH1-1.33@Simple compound formulae - IGCSE Chemist' \
+    --map '4CH1-1.37@Common Ions  Edexcel IGCSE Chemistry Rev' --map '4CH1-1.37@Ionic bonding diagrams - IGCSE Chemistry' --map '4CH1-1.5C@Investigating solubility - IGCSE Chemist' \
+    --map 4CH1-1.51 --map 4CH1-1.52C --map '4CH1-1.56C@Electrolysis diagram - IGCSE Chemistry R' \
+    --map '4CH1-1.58C@Practical Investigate the Electrolysis o' --map '4CH1-1.8@Pure substances - IGCSE Chemistry Revisi' --map '4CH1-2.10@Oxygen percentage in air - IGCSE Chemist' \
+    --map '4CH1-2.15@Metals reacting with acids - IGCSE Chemi' --map 4CH1-2.24C --map '4CH1-2.39@Preparing copper sulfate - IGCSE Chemist' \
+    --map '4CH1-2.41C@Preparing lead sulfate - IGCSE Chemistry' --map '4CH1-3.2@Temperature change practical - IGCSE Rev' --map '4CH1-3.9@How surface area affects rate - IGCSE Re' \
+    --map '4CH1-3.9@Investigating catalysts - IGCSE Chemistr' --map '4CH1-4.39C@Preparation of ethyl ethanoate - IGCSE C' --map 4CH1-4.40C \
+    --map '4CH1-1.17@Relative atomic mass - IGCSE Chemistry R' --map 4CH1-1.41 --map 4CH1-1.60C \
+    --map 4CH1-2.21 --map 4CH1-2.26C --map 4CH1-2.33C \
+    --map 4CH1-2.5 --map 4CH1-2.9 --map 4CH1-3.19C \
+    --map '4CH1-3.2@Calorimetry - IGCSE Chemistry Revision N' --map 4CH1-3.21C --map 4CH1-4.2 \
+    --map 4CH1-4.21 --map 4CH1-4.29C --map 4CH1-4.30C \
+    --map 4CH1-4.34C --map 4CH1-4.35C --map 4CH1-4.38C \
+    --map 4CH1-4.44 --map 4CH1-1.11 --map 4CH1-1.12 \
+    --map 4CH1-1.39 --map 4CH1-4.7 --map 4CH1-4.8 \
+    --map 4CH1-4.9 --map 4CH1-4.10 \
+    --by operator --date 2026-09-11
+```
+
+(codes appearing on several notes are disambiguated with `CODE@FRAGMENT` per the promoter's resolver; ambiguous specs fail rather than promote wholesale. After the command: gates re-run automatically — applier ALL GREEN, `graph_check.py` 9/9, then `c10_negative_test.py`. The pre-execution reconciliation audit `scripts/c10_ratify_audit.py` is re-targeted at §12 and must PASS — its report `C10_RATIFICATION_AUDIT.md` is the machine-verification that the 59 staged targets are exactly the round-4-surviving reviewed pairs and that both rejected mappings are absent from both the store and the command.)
+
+Alternatively the operator may ratify in tranches by trimming the `--map` list; or ask Z.ai to apply it verbatim.

@@ -212,3 +212,26 @@ The PR review passes when every mapping designated for human review in this guid
 
 **What T-C10 closure means — stated honestly.** Mappings OUTSIDE this guide's review set were validated deterministically (applier hard gates + `graph_check.py`) and sampled by the operator's 20-mapping spot-check (19/20 confirmed, 1 reworked). They remain `tier: AI_SUGGESTED` / `validation_status: SUGGESTED` and MUST NOT be represented as human-validated. T-C10 therefore closes as: **risk-prioritized human validation of the mapping corpus complete — reviewed set HUMAN_VALIDATED, remainder AI_SUGGESTED in force.** It is a mapping-validity gate, not a claim that all 211 mappings were individually human-inspected; specification-point-level coverage adequacy across the aggregate is a separate corpus audit, deliberately deferred to the coverage checks ahead of T-C11 (Phase 3 concept/prerequisite/misconception graph — see `TODO.md`).
 
+<!-- guide-issue3-2026-09-11 -->
+
+## 8. Issue 3 — command-kind substance rule (2026-09-11, round 4; FROZEN)
+
+Appended by `scripts/c10_round4_rejects.py` after the external advisor's fourth-round review (Z.ai concurrence, repo-verified). This rule completes the §0.0 contributory contract and is **canonical from here on** — including T-C11, where each specification point should be tagged with its command kind so this check is mechanical.
+
+**Rule.** A contributory mapping still needs to contain the *kind of instructional substance demanded by the specification point's command verb*. Distributed coverage may aggregate explicit contributions across notes, but at least one mapped note must carry substance **of the demanded kind**; a premise or a stated consequence is not such a contribution, and aggregating premise + consequence constructs the missing causal teaching by inference — which §0.0 forbids ("premises and consequences may live in sibling notes, the explanation may not").
+
+| Spec command type | Weak mapping (REJECT) | Valid contribution (CONFIRM) |
+|---|---|---|
+| **define / know terms** | mention of the term | definition or meaningful instructional use |
+| **explain how / why** | premise or consequence | the causal/mechanistic explanation itself |
+| **calculate** | statement of formula/basis | calculation procedure and/or worked example |
+| **describe experiment** | mention of an experiment | actual method/procedure |
+| **represent with diagram** | text saying a diagram exists | the relevant diagram (VLM-verified) |
+| **understand relationship** | isolated fact | the relationship/mechanism taught |
+
+Retroactive application to the round-3 review set rejects exactly two mappings and preserves the other 59 (see `PHASE2_PR_REVIEW_SHEET.md` §12):
+
+- **4CH1-4.15 @ Nitrogen Oxides & Sulfur Dioxide** — an "explain how" point: the formation mechanism is stated in no note (premise in the combustion note, stated result as a premise clause in the acid-rain note). Removed; 4.15 is an honest zero-coverage corpus gap.
+- **4CH1-1.17 @ Calculate Relative Mass** — a "calculate" point: the note carries no Ar calculation, only the definitional derivation basis (duplicated in the S1-c note). Removed; 1.17 keeps its S1-c mapping.
+
+Amendment to §7's pass criteria: the coverage contract is now **181/182 points with the zero-coverage queue carrying 4.15 as an annotated corpus gap** — an honest representation, not a mapping failure. All other §7 criteria stand.
