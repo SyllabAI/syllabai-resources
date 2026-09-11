@@ -3,6 +3,36 @@ created: 2026-09-10T16:37:26 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/1-2-2-pure-substance-vs-mixture/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-2-elements-compounds-and-mixtures
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.9
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Pure substances melt and boil at specific and sharp temperatures
+      rationale: Pure vs mixture distinguished by sharp vs ranged melting/boiling points, with the water
+        example.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.8
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: In chemistry, a pure substance may consist of a single element or compound which contains
+        no other substances
+      rationale: Reinforces element/compound/mixture classification from the purity angle.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Pure substances - IGCSE Chemistry Revision Notes

@@ -3,6 +3,36 @@ created: 2026-09-10T16:54:56 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-6-ionic-bonding/1-6-4-ionic-bonds-dot-and-cross-diagrams/
 author:
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-f
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-6-ionic-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.40
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ionic bonds can be represented diagrammatically using dot-and-cross diagrams
+      rationale: Dot-and-cross diagrams for ionic formation by electron transfer (NaCl, MgO; Groups 1/2
+        with 6/7), brackets and charges, outer electrons only.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.37
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Sodium is a Group 1 metal so will lose one outer electron to another atom to gain a full
+        outer shell of electrons
+      rationale: Electron-transfer narration reinforces ion formation by loss/gain.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Ionic bonding diagrams - IGCSE Chemistry Revision Notes

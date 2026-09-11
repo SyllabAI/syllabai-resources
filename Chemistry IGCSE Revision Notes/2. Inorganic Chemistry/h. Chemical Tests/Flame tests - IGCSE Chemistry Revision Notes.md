@@ -3,6 +3,35 @@ created: 2026-09-10T17:14:08 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-2-flame-tests/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-8-chemical-tests
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.45
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The flame test is used to identify the positive metal ion (cations) by the colour of the
+        flame they produce
+      rationale: 'How to carry out a flame test: clean wire loop, dip, observe — the 2.45 procedure.'
+      validation_status: SUGGESTED
+  - code: 4CH1-2.46
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ions from different metals produce different colours
+      rationale: Flame colour table for Li (red), Na (yellow), K (lilac), Ca (orange-red), Cu (blue-green).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Flame tests - IGCSE Chemistry Revision Notes

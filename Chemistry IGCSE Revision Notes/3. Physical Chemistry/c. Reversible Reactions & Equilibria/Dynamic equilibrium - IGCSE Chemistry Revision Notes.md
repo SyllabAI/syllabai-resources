@@ -3,6 +3,36 @@ created: 2026-09-10T17:30:42 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-3-reversible-reactions-and-equilibria/3-3-2-dynamic-equilibrium/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-3-reversible-reactions-and-equilibria
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.19C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Equilibrium can only be reached in a closed container
+      rationale: Dynamic equilibrium in a sealed/closed container with the open-vs-closed system comparison
+        and rate-vs-progress graph.
+      validation_status: SUGGESTED
+  - code: 4CH1-3.20C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: When the rate of the forward reaction equals the rate of the reverse reaction, the overall
+        reaction is said to be in a state of equilibrium
+      rationale: 'Both 3.20C characteristics: equal forward/reverse rates and constant concentrations.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Dynamic equilibrium - IGCSE Chemistry Revision Notes

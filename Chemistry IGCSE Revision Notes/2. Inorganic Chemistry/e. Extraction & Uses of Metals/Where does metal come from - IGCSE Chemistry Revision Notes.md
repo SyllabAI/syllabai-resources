@@ -3,6 +3,28 @@ created: 2026-09-10T17:11:39 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-5-extraction-and-uses-of-metals/2-5-1-sources-of-metals/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-5-extraction-and-uses-of-metals
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.22C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Unreactive metals do not have to be extracted chemically as they are often found as the
+        uncombined element
+      rationale: Ores in the Earth's crust, definition of ore, and the unreactive-metals-as-elements rule
+        (both 2.22C clauses).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Where does metal come from? - IGCSE Chemistry Revision Notes

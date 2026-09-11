@@ -3,6 +3,37 @@ created: 2026-09-10T17:29:47 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-1-measuring-rates/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-2-rates-of-reaction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.9
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: You should be able to describe experiments to investigate the effect of surface area,
+        concentration, temperature and a catalyst on a rate of reaction
+      rationale: Experimental methods (downward displacement etc.) for all four 3.9 factors with methods
+        and results.
+      validation_status: SUGGESTED
+  - code: 4CH1-3.10
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Factors affecting rates of reaction
+      rationale: Dedicated section (quoted heading) with graphs for concentration/pressure, temperature
+        and surface-area effects on rate.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Rate of reaction - IGCSE Chemistry Revision Notes

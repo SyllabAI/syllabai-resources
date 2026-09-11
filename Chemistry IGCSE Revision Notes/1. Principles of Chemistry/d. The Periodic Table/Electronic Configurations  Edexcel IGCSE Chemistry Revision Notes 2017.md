@@ -3,6 +3,37 @@ created: 2026-09-10T16:43:59 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-4-the-periodic-table/1-4-2-electronic-configurations/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-4-the-periodic-table
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.19
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: For the first 20 elements, once the third shell has 8 electrons, the fourth shell begins
+        to fill
+      rationale: Full first-20 configurations section (shell-filling rules, electron shell diagrams, configurations
+        table).
+      validation_status: SUGGESTED
+  - code: 4CH1-1.22
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Electronic configurations and the periodic table
+      rationale: Dedicated section (quoted heading) relating configuration to Periodic Table position,
+        incl. the worked chlorine-position example.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Electronic Configurations | Edexcel IGCSE Chemistry Revision Notes 2017

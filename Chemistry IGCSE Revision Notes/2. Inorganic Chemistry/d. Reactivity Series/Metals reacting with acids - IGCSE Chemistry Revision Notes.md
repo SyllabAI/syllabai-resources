@@ -3,6 +3,36 @@ created: 2026-09-10T17:11:25 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-4-reactivity-series/2-4-6-practical-investigate-metals-reacting-with-acids/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-4-reactivity-series
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.21
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To investigate the reactions between dilute hydrochloric and sulfuric acids with the metals
+        magnesium, iron and zinc
+      rationale: This IS the named practical (aim, diagram, method, observations table, conclusion).
+      validation_status: SUGGESTED
+  - code: 4CH1-2.15
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To investigate the reactions between dilute hydrochloric and sulfuric acids with the metals
+        magnesium, iron and zinc
+      rationale: Observations of acid reactivity differences feed the reactivity-series ordering.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Metals reacting with acids - IGCSE Chemistry Revision Notes

@@ -3,6 +3,45 @@ created: 2026-09-10T16:55:51 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-6-ionic-bonding/1-6-5-ionic-compounds-bonds-structure-and-properties/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-f
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-6-ionic-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.41
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Between positive and negative ions are strong electrostatic forces of attraction which
+        act in all directions
+      rationale: Ionic bonding as electrostatic attraction, giant lattice description, NaCl lattice diagram.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.42
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Compounds with giant ionic lattice have high melting points
+      rationale: High m.p./b.p. of giant ionic lattices explained by strong electrostatic forces needing
+        much energy.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.43
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: ionic compounds have high melting points and conduct electricity when molten or in solution
+      rationale: 'Conductivity section: poor conductors when solid, conduct when molten or in aqueous
+        solution.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Ionic bonding and lattices - IGCSE Chemistry Revision Notes

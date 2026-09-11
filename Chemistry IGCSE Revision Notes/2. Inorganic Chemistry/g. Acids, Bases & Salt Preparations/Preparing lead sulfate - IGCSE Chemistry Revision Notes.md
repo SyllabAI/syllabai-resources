@@ -3,6 +3,35 @@ created: 2026-09-10T17:13:47 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-9-practical-prepare-leadiisulfate/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-7-acids-bases-and-salt-preparations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.43C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To prepare a dry sample of lead(II) sulfate
+      rationale: 'This IS the named practical: precipitation from lead(II) nitrate + potassium sulfate,
+        filtration, washing, drying.'
+      validation_status: SUGGESTED
+  - code: 4CH1-2.41C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The preparation of lead(II)sulfate by precipitation from two soluble salts
+      rationale: Concrete instance of the general insoluble-salt precipitation method.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Preparing lead sulfate - IGCSE Chemistry Revision Notes

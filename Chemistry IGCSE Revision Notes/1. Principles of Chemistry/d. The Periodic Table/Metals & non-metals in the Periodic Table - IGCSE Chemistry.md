@@ -3,6 +3,36 @@ created: 2026-09-10T16:44:08 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-4-the-periodic-table/1-4-3-classify-metals-and-non-metals/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-4-the-periodic-table
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.20
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: We can use properties such as electrical conductivity and acid-base character to classify
+        elements as metals or non-metals
+      rationale: 'Properties comparison table: electrical conductivity, oxide acid-base character, plus
+        bonding and acid reactions.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.21
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Metals are on the left of the Periodic Table and non-metals on the right
+      rationale: Position-based identification of metals vs non-metals with the left/right rule.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Metals & non-metals in the Periodic Table - IGCSE Chemistry

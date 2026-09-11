@@ -3,6 +3,44 @@ created: 2026-09-10T17:40:49 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-6-carboxylic-acids/4-6-1-carboxylic-acids/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-f
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-6-carboxylic-acids
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.34C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Carboxylic acids is the name given to compounds containing the functional group carboxyl,
+        -COOH
+      rationale: The -COOH functional group with structure diagram and general formula.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.35C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Use the general formula to find the molecular formula for propanoic acid
+      rationale: Naming section with worked examples and displayed formulae for the unbranched-chain acids
+        up to four carbons.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.37C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Vinegar is an aqueous solution of ethanoic acid
+      rationale: Vinegar composition (approx 5% ethanoic acid).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Carboxylic Acids | Edexcel IGCSE Chemistry Revision Notes 2017

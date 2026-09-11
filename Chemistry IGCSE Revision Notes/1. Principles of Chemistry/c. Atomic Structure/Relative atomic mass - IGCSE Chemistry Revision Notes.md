@@ -3,6 +3,37 @@ created: 2026-09-10T16:41:21 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-3-atomic-structure/1-3-2-calculate-relative-atomic-mass/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-3-atomic-structure
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.17
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The relative atomic mass of each element is calculated from the mass number and relative
+        abundances of all the isotopes of a particular element
+      rationale: Ar-from-isotopic-abundances equation with multi-isotope worked examples.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.16
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The relative atomic mass of each element is calculated from the mass number and relative
+        abundances of all the isotopes of a particular element
+      rationale: Explains the meaning of the relative atomic mass term (1.16 vocabulary) in the course
+        of the calculation note.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Relative atomic mass - IGCSE Chemistry Revision Notes

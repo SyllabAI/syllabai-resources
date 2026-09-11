@@ -3,6 +3,43 @@ created: 2026-09-10T17:05:32 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-9-electrolysis/1-9-1-explaining-conductivity/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-i
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-9-electrolysis
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.55C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Most covalent compounds do not conduct electricity as they have no freely moving charged
+        particles to carry the current
+      rationale: Covalent compounds as insulators (solid/liquid/gas) — the 1.55C content.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.56C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ionic compounds can conduct electricity in the molten state or in solution
+      rationale: Ionic conductivity limited to molten/aqueous states with the ion-mobility explanation.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.57C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Anions are negatively charged ions
+      rationale: 'Cations and anions section defines both terms (quoted: anions row).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Electronic conductivity - IGCSE Chemistry Revision Notes

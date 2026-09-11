@@ -3,6 +3,37 @@ created: 2026-09-10T17:40:37 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-5-alcohols/4-5-3-manufacture-of-ethanol/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-5-alcohols
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.32C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The hydration reaction is very important industrially for the production of alcohols and
+        it occurs using the following conditions
+      rationale: 'Both 4.32C routes: ethene + steam with phosphoric acid catalyst at ~300 C / 60-70 atm,
+        and fermentation of glucose with yeast.'
+      validation_status: SUGGESTED
+  - code: 4CH1-4.33C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: enzymes that break down sugar to alcohol
+      rationale: 'Fermentation conditions explained: yeast enzymes (optimum ~30 C, denature if hotter)
+        and absence of oxygen preventing aerobic oxidation.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Manufacture of Ethanol | Edexcel IGCSE Chemistry Revision Notes 2017

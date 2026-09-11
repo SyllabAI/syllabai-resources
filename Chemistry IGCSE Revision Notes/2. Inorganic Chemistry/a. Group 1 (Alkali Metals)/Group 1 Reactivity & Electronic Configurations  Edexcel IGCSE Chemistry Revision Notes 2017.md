@@ -3,6 +3,27 @@ created: 2026-09-10T17:08:38 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-1-group-1-alkali-metals/2-1-2-group-1-reactivity-and-electronic-configurations/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-1-group-1-alkali-metals
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.4C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The reactivity of the Group 1 metals increases as you go down the group
+      rationale: 'Reactivity trend explained via electronic configuration: outer-electron distance from
+        nucleus, weakening attraction, easier electron loss (the 2.4C mechanism).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Group 1: Reactivity & Electronic Configurations | Edexcel IGCSE Chemistry Revision Notes 2017

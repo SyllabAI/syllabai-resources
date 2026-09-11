@@ -3,6 +3,46 @@ created: 2026-09-10T17:09:08 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-2-group-7-halogens/2-2-1-group-7-halogens/
 author:
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-2-group-7-halogens
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.5
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: At room temperature, the halogens exist in different states and colours
+      rationale: Physical properties table (state, appearance, colour in solution) and the melting/boiling-point
+        trend graph.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.6
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Predicting properties in Group 7
+      rationale: Dedicated section (quoted heading) plus metal/non-metal halide sections for predicting
+        other halogens' properties.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.7
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: A halogen displacement reaction occurs when a more reactive halogen displaces a less reactive
+        halogen from an aqueous solution of its halide
+      rationale: 'Displacement sections: chlorine with bromides/iodides and bromine with iodides — the
+        exact 2.7 evidence set.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Group 7 properties - IGCSE Chemistry Revision Notes

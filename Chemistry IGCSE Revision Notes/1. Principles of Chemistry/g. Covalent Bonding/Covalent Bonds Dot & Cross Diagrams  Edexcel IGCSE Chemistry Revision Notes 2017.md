@@ -3,6 +3,27 @@ created: 2026-09-10T16:57:21 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-7-covalent-bonding/1-7-2-covalent-bonds-dot-and-cross-diagrams/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-7-covalent-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.46
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Small covalent molecules can be represented by dot and cross diagrams
+      rationale: 'Covers the full 1.46 molecule list by section: diatomics (H2, O2, N2, halogens, HCl),
+        inorganic (H2O, NH3, CO2) and organics up to two carbons (methane, ethane, ethene, halogenated).'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Covalent Bonds: Dot & Cross Diagrams | Edexcel IGCSE Chemistry Revision Notes 2017

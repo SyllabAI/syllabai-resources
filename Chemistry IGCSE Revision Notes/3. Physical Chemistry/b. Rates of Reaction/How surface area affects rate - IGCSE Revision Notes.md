@@ -3,6 +3,37 @@ created: 2026-09-10T17:30:17 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-5-practical-effect-of-surface-area-on-rate-of-reaction/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-2-rates-of-reaction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.15
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Investigating the effect of different size marble chips on the rate of reaction between
+        calcium carbonate and hydrochloric acid
+      rationale: 'This IS the named practical (surface-area strand): marble chips + dilute HCl with method,
+        results, conclusion.'
+      validation_status: SUGGESTED
+  - code: 4CH1-3.9
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Investigating the effect of different size marble chips on the rate of reaction between
+        calcium carbonate and hydrochloric acid
+      rationale: A surface-area rate experiment of the 3.9 family.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # How surface area affects rate - IGCSE Revision Notes

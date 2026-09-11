@@ -3,6 +3,46 @@ created: 2026-09-10T17:41:28 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-8-synthetic-polymers/4-8-1-addition-polymers/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-8-synthetic-polymers
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.44
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Polymers are large molecules of high relative molecular mass and are made by linking together
+        large numbers of smaller molecules called monomers
+      rationale: Addition polymerisation from monomers, with the monomer-to-polymer diagram.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.45
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The polymer polyethene is formed by the addition polymerisation of ethene monomers
+      rationale: 'Drawing polymers and repeat units from the monomer (polyethene, polypropene, chloroethene
+        examples). Note for PR review: poly(tetrafluoroethene) is not among the worked examples in this
+        note.'
+      validation_status: SUGGESTED
+  - code: 4CH1-4.46
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Deducing the monomer from the polymer
+      rationale: Both directions covered by dedicated sections (quoted heading + Deducing the polymer
+        from the monomer).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Addition Polymers | Edexcel IGCSE Chemistry Revision Notes 2017

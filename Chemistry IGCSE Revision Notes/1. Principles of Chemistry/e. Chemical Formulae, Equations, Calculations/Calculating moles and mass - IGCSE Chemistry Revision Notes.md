@@ -3,6 +3,35 @@ created: 2026-09-10T16:45:39 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-3-moles-mass-and-rfm/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.27
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Chemical amounts are measured in moles
+      rationale: 'The mole as the unit of amount: mol symbol, Avogadro constant, particles-per-mole examples.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.28
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The mass of 1 mole of a substance is known as the molar mass
+      rationale: 'Amount-of-substance calculations: molar mass from Ar/Mr, mole-mass conversions, multiple
+        worked examples.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Calculating moles and mass - IGCSE Chemistry Revision Notes

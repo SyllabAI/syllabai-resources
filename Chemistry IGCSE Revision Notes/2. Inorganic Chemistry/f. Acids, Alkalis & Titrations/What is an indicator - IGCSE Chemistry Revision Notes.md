@@ -3,6 +3,46 @@ created: 2026-09-10T17:12:13 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-6-acids-alkalis-and-titrations/2-6-1-indicators/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-f
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-6-acids-alkalis-and-titrations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.28
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Phenolphthalein and methyl orange are synthetic indicators frequently used in acid-alkali
+        titrations
+      rationale: Litmus, phenolphthalein and methyl orange with the two-colour indicator table distinguishing
+        acid vs alkali colours.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.30
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Universal indicator is a wide range indicator and can give only an approximate value for
+        pH
+      rationale: Universal indicator section on measuring approximate pH of aqueous solutions.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.29
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The pH scale goes from 0 – 14
+      rationale: pH scale section with the 0-14 classification (acids below 7, alkalis above 7, bands
+        by strength).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # What is an indicator? - IGCSE Chemistry Revision Notes

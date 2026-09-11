@@ -3,6 +3,26 @@ created: 2026-09-10T16:43:47 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-4-the-periodic-table/1-4-1-periodic-table-basics/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-4-the-periodic-table
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.18
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Elements are arranged on the Periodic table in order of increasing atomic number
+      rationale: Arrangement in atomic-number order and in columns called groups and rows called periods.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Periodic Table: Basics | Edexcel IGCSE Chemistry Revision Notes 2017

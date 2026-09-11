@@ -3,6 +3,27 @@ created: 2026-09-10T17:35:18 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-1-introduction/4-1-3-classifying-organic-reactions/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-1-introduction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.6
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: A substitution reaction takes place when one functional group is replaced by another
+      rationale: 'All three 4.6 classes defined with examples: substitution (methane + bromine), addition
+        (ethene + bromine), combustion.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Classifying Organic Reactions | Edexcel IGCSE Chemistry Revision Notes 2017

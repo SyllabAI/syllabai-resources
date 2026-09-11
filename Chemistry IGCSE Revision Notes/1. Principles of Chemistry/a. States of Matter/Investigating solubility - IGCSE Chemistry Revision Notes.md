@@ -3,6 +3,37 @@ created: 2026-09-10T16:34:11 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-5-practical-investigate-the-solubility-of-a-solid-in-water-at-a-specific-temperature/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-1-states-of-matter
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.7C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To find the solubility of a solid in water at a given temperature by preparing a saturated
+        solution
+      rationale: 'This IS the named practical: saturated solution preparation, temperature control, evaporation,
+        mass measurement.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.5C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: evaporating the solvent, and measuring the mass of the solid obtained
+      rationale: Practical's calculation section converts measured masses into solubility in g per 100
+        g of water.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Investigating solubility - IGCSE Chemistry Revision Notes

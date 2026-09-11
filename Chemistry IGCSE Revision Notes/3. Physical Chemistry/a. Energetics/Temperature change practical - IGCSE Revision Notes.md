@@ -3,6 +3,35 @@ created: 2026-09-10T17:29:40 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-1-energetics/3-1-6-practical-investigating-temperature-changes/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-a
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-1-energetics
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.8
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To perform a calorimetry study of the reaction between HCl and NaOH
+      rationale: 'This IS the named practical (neutralisation strand): styrofoam calorimeter, method,
+        results table, conclusion.'
+      validation_status: SUGGESTED
+  - code: 4CH1-3.2
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To perform a calorimetry study of the reaction between HCl and NaOH
+      rationale: Concrete simple-calorimetry experiment for the neutralisation reaction class.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Temperature change practical - IGCSE Revision Notes

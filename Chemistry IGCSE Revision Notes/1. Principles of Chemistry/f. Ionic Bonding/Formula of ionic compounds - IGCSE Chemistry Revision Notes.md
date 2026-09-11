@@ -3,6 +3,28 @@ created: 2026-09-10T16:54:42 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-6-ionic-bonding/1-6-3-formulae-for-ionic-compounds/
 author:
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-f
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-6-ionic-bonding
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.39
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The formula of an ionic compound can be determined by directly comparing the charges of
+        the ions
+      rationale: Direct-comparison and swap-and-drop methods for writing formulae from the listed ions
+        (Fe2+, sulfate etc.).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Formula of ionic compounds - IGCSE Chemistry Revision Notes

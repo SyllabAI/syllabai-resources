@@ -3,6 +3,28 @@ created: 2026-09-10T17:30:10 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-4-activation-energy/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-2-rates-of-reaction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.14C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The difference in height between the energy of reactants and products represents the overall
+        enthalpy change of a reaction
+      rationale: Reaction profiles showing ΔH and activation energy for both reaction types, plus the
+        catalyst's effect on the activation-energy peak.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # What is activation energy?- IGCSE Revision Notes

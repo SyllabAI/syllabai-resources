@@ -3,6 +3,42 @@ created: 2026-09-10T17:38:01 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-3-alkanes/4-3-1-alkanes/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-3-alkanes
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.19
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The general formula of the alkanes is CnH2n+2
+      rationale: General formula stated and linked to the homologous-series concept.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.20
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The term saturated means that they only have single carbon-carbon bonds
+      rationale: 'Alkanes as saturated hydrocarbons: single-bond reasoning.'
+      validation_status: SUGGESTED
+  - code: 4CH1-4.21
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Table of alkanes
+      rationale: Table and displayed formulae (methane through pentane) with the unbranched names.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Alkanes | Edexcel IGCSE Chemistry Revision Notes 2017

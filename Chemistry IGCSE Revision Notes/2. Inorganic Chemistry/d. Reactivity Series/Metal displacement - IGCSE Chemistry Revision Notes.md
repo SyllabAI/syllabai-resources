@@ -3,6 +3,27 @@ created: 2026-09-10T17:10:52 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-4-reactivity-series/2-4-2-metal-displacement-reactions/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-d
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-4-reactivity-series
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.16
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: a more reactive metal will displace a less reactive metal from its compounds
+      rationale: 'Both 2.16 strands: metal + metal oxide (thermite, Zn + CuO) and metal + aqueous metal
+        salt (Mg + CuSO4) with tables.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Metal displacement - IGCSE Chemistry Revision Notes

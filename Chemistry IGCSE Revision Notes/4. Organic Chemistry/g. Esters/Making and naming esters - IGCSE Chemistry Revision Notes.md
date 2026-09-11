@@ -3,6 +3,61 @@ created: 2026-09-10T17:41:08 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-7-esters/4-7-1-esters/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S4-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 4-7-esters
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-4.38C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Esters are compounds with the functional group R-COO-R
+      rationale: Ester functional group with structure diagram.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.39C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Ethanoic acid will react with ethanol in the presence of concentrated sulfuric acid (catalyst)
+        to form the ester, ethyl ethanoate
+      rationale: The named esterification with the acid catalyst and water by-product.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.40C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: CH3COOH + C2H5OH → CH3COOC2H5 + H2O
+      rationale: Structural/displayed formulae of ethyl ethanoate shown via the formation equation and
+        diagram.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.41C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: An ester is made from an alcohol and carboxylic acid
+      rationale: Naming-esters system mapping alcohol + acid to the ester name and formula (both directions),
+        with the examples table.
+      validation_status: SUGGESTED
+  - code: 4CH1-4.42C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Esters are sweet-smelling oily liquids used in food flavourings and perfumes
+      rationale: Volatility, distinctive smells and the flavouring/perfume uses.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Making and naming esters - IGCSE Chemistry Revision Notes

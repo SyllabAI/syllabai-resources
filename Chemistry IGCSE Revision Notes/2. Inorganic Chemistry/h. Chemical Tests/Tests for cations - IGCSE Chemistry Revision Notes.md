@@ -3,6 +3,28 @@ created: 2026-09-10T17:14:15 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-3-tests-for-cations/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-h
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-8-chemical-tests
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.47
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Metal cations in aqueous solution can be identified by the colour of the precipitate formed
+        when sodium hydroxide (NaOH) is added
+      rationale: NaOH precipitate colours for Cu2+/Fe2+/Fe3+ plus the ammonium-ion test (heating with
+        NaOH, ammonia gas identified).
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Tests for cations - IGCSE Chemistry Revision Notes

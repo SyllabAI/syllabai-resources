@@ -3,6 +3,27 @@ created: 2026-09-10T16:46:45 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-10-calculate-volumes-of-gases/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.35C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: This is known as the molar gas volume at RTP
+      rationale: Molar volume 24 dm3 / 24000 cm3 at RTP, Avogadro's Law, mole-to-volume and volume-to-mole
+        conversions with worked examples.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Calculate Gas Volumes - IGCSE Chemistry Revision Notes

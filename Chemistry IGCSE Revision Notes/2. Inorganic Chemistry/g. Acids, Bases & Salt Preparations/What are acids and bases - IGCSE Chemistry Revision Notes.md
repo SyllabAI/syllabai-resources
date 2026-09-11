@@ -3,6 +3,35 @@ created: 2026-09-10T17:12:54 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/2-7-2-acids-bases-and-protons/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-g
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-7-acids-bases-and-salt-preparations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.35
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: In terms of proton transfer, we can further define each substance in how they interact
+        with protons
+      rationale: Proton-transfer framework with HCl and NaOH ionisation examples.
+      validation_status: SUGGESTED
+  - code: 4CH1-2.36
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Acids are proton donors as they ionize in solution producing protons
+      rationale: Explicit donor/acceptor definitions for acid and base with ionisation equations.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # What are acids and bases? - IGCSE Chemistry Revision Notes

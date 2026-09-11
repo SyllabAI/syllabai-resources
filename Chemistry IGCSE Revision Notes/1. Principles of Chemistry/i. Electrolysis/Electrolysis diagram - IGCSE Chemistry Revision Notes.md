@@ -3,6 +3,37 @@ created: 2026-09-10T17:05:40 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-9-electrolysis/1-9-2-electrolysis-experiments/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-i
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-9-electrolysis
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.58C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Add lead(II) bromide into a crucible and heat so it will turn molten, allowing ions to
+        be free to move and conduct an electric charge
+      rationale: Electrolysis of molten lead(II) bromide with inert electrodes, plus aqueous sections
+        covering sodium chloride, dilute sulfuric acid and copper(II) sulfate with product prediction.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.56C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: When these compounds are heated beyond their melting point, they become molten and can
+        conduct electricity as their ions can move freely and carry the charge
+      rationale: Molten-conductivity mechanism is the note's opening principle.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Electrolysis diagram - IGCSE Chemistry Revision Notes

@@ -3,6 +3,45 @@ created: 2026-09-10T16:46:26 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-8-empirical--molecular-formulae/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.32
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The empirical formula is the simplest whole number ratio of the atoms of each element
+        present in one molecule or formula unit of the compound
+      rationale: Defines both terms with the ethanoic-acid worked contrast and ionic-compound note.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.33
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Use a table and the following steps to complete an empirical formula calculation
+      rationale: Step-by-step empirical formula determination from mass/percentage data plus molecular
+        formula from Mr, with worked examples.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.31
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Deducing formulae of hydrated salts
+      rationale: Dedicated section (quoted heading) on deducing formulae of salts containing water of
+        crystallisation — the 1.31 content strand.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Empirical & Molecular Formulae | Edexcel IGCSE Chemistry Revision Notes 2017

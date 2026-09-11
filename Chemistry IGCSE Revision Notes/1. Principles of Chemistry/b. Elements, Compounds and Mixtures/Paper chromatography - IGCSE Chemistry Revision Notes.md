@@ -3,6 +3,38 @@ created: 2026-09-10T16:38:13 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/1-2-5-practical-investigating-paper-chromatography/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-2-elements-compounds-and-mixtures
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.13
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Investigate how paper chromatography can be used to separate and identify a mixture of
+        food colourings
+      rationale: 'This IS the named practical (inks/food colourings): aim, apparatus, method, errors,
+        results.'
+      validation_status: SUGGESTED
+  - code: 4CH1-1.10
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Investigate how paper chromatography can be used to separate and identify a mixture of
+        food colourings
+      rationale: Paper chromatography is one of the five separation techniques listed in 1.10; the technique
+        note is the generic one, this is the practical instance.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Paper chromatography - IGCSE Chemistry Revision Notes

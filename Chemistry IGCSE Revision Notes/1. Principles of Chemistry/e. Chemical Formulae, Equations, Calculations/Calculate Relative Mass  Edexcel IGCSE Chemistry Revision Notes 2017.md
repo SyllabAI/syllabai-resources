@@ -3,6 +3,39 @@ created: 2026-09-10T16:45:30 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-2-calculate-relative-mass/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.26
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To calculate the Mr of a substance, you have to add up the relative atomic masses of all
+        the atoms present in the formula
+      rationale: Ar/Mr symbols and Mr calculation by summing atomic masses, with the worked table of substances.
+      validation_status: SUGGESTED
+  - code: 4CH1-1.17
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: This is calculated from the mass number and relative abundances of all the isotopes of
+        a particular element
+      rationale: 'Cross-subsection contributory mapping: the note opens with the Ar derivation basis (Ar
+        calculated from the mass number and relative abundances of all the isotopes) before moving to
+        Mr; the 1.17 calculation skill - equation and worked examples - is carried by the dedicated relative-atomic-mass
+        note in S1-c.'
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Calculate Relative Mass | Edexcel IGCSE Chemistry Revision Notes 2017

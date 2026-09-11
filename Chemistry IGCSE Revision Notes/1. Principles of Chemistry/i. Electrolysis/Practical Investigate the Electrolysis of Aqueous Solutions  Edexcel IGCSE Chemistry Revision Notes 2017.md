@@ -3,6 +3,38 @@ created: 2026-09-10T17:05:56 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-9-electrolysis/1-9-4-practical-investigate-the-electrolysis-of-aqueous-solutions/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-i
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-9-electrolysis
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.60C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To electrolyse aqueous solutions of sodium chloride, sulfuric acid and copper(II)sulfate,
+        and to collect and identify the products at each electrode
+      rationale: This IS the named practical (aim, apparatus diagram, method, product testing, results,
+        conclusions).
+      validation_status: SUGGESTED
+  - code: 4CH1-1.58C
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To electrolyse aqueous solutions of sodium chloride, sulfuric acid and copper(II)sulfate,
+        and to collect and identify the products at each electrode
+      rationale: The practical describes exactly the 1.58C experiments (inert electrodes, the three named
+        solutions) and their products.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Practical: Investigate the Electrolysis of Aqueous Solutions | Edexcel IGCSE Chemistry Revision Notes 2017

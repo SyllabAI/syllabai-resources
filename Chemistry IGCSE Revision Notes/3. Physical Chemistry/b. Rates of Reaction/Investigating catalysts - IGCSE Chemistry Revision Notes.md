@@ -3,6 +3,36 @@ created: 2026-09-10T17:30:24 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-6-practical-effect-of-catalysts-on-rate-of-reaction/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S3-b
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 3-2-rates-of-reaction
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-3.16
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To investigate the effect of different solids on the catalytic decomposition of hydrogen
+        peroxide
+      rationale: 'This IS the named practical: gas-collection method, comparing MnO2/other solids, results.'
+      validation_status: SUGGESTED
+  - code: 4CH1-3.9
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: medium
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: To investigate the effect of different solids on the catalytic decomposition of hydrogen
+        peroxide
+      rationale: A catalyst-effect rate experiment of the 3.9 family.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Investigating catalysts - IGCSE Chemistry Revision Notes

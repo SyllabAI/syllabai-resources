@@ -3,6 +3,28 @@ created: 2026-09-10T17:10:19 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-3-gases-in-the-atmosphere/2-3-4-carbon-dioxide-from-thermal-decomposition/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S2-c
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 2-3-gases-in-the-atmosphere
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-2.12
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: The thermal decomposition of copper(II)carbonate produces copper(II) oxide and carbon
+        dioxide
+      rationale: Metal-carbonate decomposition to CO2 with the named copper(II) carbonate example and
+        gas test.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Thermal decomposition - IGCSE Chemistry Revision Notes

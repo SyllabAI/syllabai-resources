@@ -3,6 +3,27 @@ created: 2026-09-10T16:45:20 (UTC +06:00)
 tags: []
 source: https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/1-5-1-word-and-chemical-equations/
 author: 
+spec_map:
+  curriculum_code: 4CH1-2017
+  phase: 2
+  subsection: 4CH1-S1-e
+  subsection_provenance:
+    tier: PROVIDER
+    signal: source-url-slug
+    slug: 1-5-chemical-formulae-equations-calculations
+    validation_status: SUGGESTED
+  spec_points:
+  - code: 4CH1-1.25
+    provenance:
+      tier: AI_SUGGESTED
+      confidence: high
+      model_version: GLM (Super Z agent, z.ai)
+      evidence: Write word equations for reactions outlined in these notes
+      rationale: Word equations, formulae and balanced chemical equations (with state symbols in worked
+        examples), conservation of mass.
+      validation_status: SUGGESTED
+  mapped_date: '2026-09-11'
+  mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
 
 # Writing chemical equations - IGCSE Chemistry Revision Notes
