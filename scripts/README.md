@@ -142,3 +142,24 @@
   baseline after the 2 rejections). Runs as
   part of the normal `graph_check.py` invocation; `--notes-root` points it
   at an alternative tree for testing.
+- `c10_round5_enumerate.py` — T-C10 round-5 enumeration + dossier builder
+  (2026-09-11, READ-ONLY): computes the exact 150 unreviewed (note, code)
+  pairs (store 209 minus the 59 round-4-surviving ratification targets;
+  both rejected pairs proven absent) and writes the review dossiers used
+  for the exhaustive pass (heading outline + the evidence-enclosing
+  markdown section + preceding-section context; image lines compressed).
+  Dossiers and targets live OUTSIDE the repo
+  (`/home/z/my-project/scripts/round5/`); the mapping store is untouched:
+  `python3 scripts/c10_round5_enumerate.py`
+- `c10_round5_assemble.py` — T-C10 round-5 artifact assembler (2026-09-11,
+  READ-ONLY): merges the 8 batch verdict files (150 verdicts) with the
+  enumeration into `graph/reports/C10_ROUND5_REVIEW.json` + the exhaustive
+  150-row `graph/reports/PHASE2_ROUND5_REVIEW_SHEET.md` (counts, VLM table,
+  REJECT/HOLD records — none —, corrected rationales, coverage impact,
+  adversarial observations, pre-review SHA). Hard-completeness asserts
+  (idx 1..150, code/note identity, verdict vocabulary); mutates nothing:
+  `python3 scripts/c10_round5_assemble.py`
+- `c10_vlm_results/round5-*.json` — archived raw VLM (glm-5v) verdict
+  JSONs for the 8 diagram-dependent mappings among the 150 (1.40, 1.46,
+  3.5C, 3.14C, 4.26, 4.41C, 4.45, 4.49C). Evidence artifact backing the
+  round-5 review sheet §5.
