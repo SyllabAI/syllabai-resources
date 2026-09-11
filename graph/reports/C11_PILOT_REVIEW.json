@@ -1,0 +1,432 @@
+{
+  "task": "T-C11",
+  "stage": "pilot-review",
+  "generated": "2026-09-11",
+  "pass1": {
+    "extraction_pass": "c11-pilot-pass-1",
+    "decision_record": "scripts/c11_pilot_decisions.yaml",
+    "nodes": 29,
+    "authored_edges": 33
+  },
+  "pass2": {
+    "reviewer": "GLM (Super Z agent, z.ai)",
+    "pass": "c11-pilot-review-2",
+    "verdicts_file": "scripts/c11_pilot_review_pass2.yaml",
+    "nodes_confirm": 29,
+    "edges_confirm": 31,
+    "edges_hold": 1,
+    "edges_reject": 1
+  },
+  "agreement": {
+    "metric": "RAW AGREEMENT (pass-2 vs pass-1 emission)",
+    "explicitly_not": "Cohen's kappa (single human rater; see architecture §12)",
+    "nodes": 1.0,
+    "edges_asserted": {
+      "confirmed": 31,
+      "total_asserted": 31,
+      "rate": 1.0
+    },
+    "edges_uncertain_concordant_nonassertion": 2,
+    "edges_open_operator_decision": [
+      "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW"
+    ]
+  },
+  "reviewed_nodes": [
+    {
+      "code": "4CH1-CON-EQ-WORD",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-EQ-SYMBOL",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-EQ-STATE-SYM",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-CONSERVATION-MASS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-AR",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-MR",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-AVOGADRO-CONST",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "ENRICHMENT role is right: 1.27 wording demands only the unit; the constant is taught enrichment. Keep node for expansion (mole deepening)."
+    },
+    {
+      "code": "4CH1-CON-MOLAR-MASS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-MOLE-MASS-CONV",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-MOLAR-RATIO",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "CORE under 1.29 is right; consider also SUPPORTING under 1.28 in expansion (the 1.28 note mentions molar ratios but does not demand them). Not a pilot change."
+    },
+    {
+      "code": "4CH1-CON-REACTING-MASS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-YIELD",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Split-first policy honored; merge candidate with CON-THEOR-YIELD if the operator judges the split too fine (aliases make the merge trivial)."
+    },
+    {
+      "code": "4CH1-CON-THEOR-YIELD",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Merge candidate with CON-YIELD (see above); distinct derivation basis justifies the split at pilot granularity."
+    },
+    {
+      "code": "4CH1-CON-PERCENT-YIELD",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-YIELD-FACTORS",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "ENRICHMENT role correct (SP demands calculation only); the five enumerated causes are substantive teaching. Retain for recommendation use."
+    },
+    {
+      "code": "4CH1-CON-EMPIRICAL-FORMULA",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-MOLECULAR-FORMULA",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-EMP-MOL-CALC",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-EXP-FORMULA-DEDUCTION",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-WATER-CRYST",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-CONCENTRATION",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-CONC-CALC",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-VOL-CONVERSION",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The split is validated independently by the mark-scheme wrong-answer pattern (MS Q4a) — keep as its own mastery unit."
+    },
+    {
+      "code": "4CH1-CON-MOLAR-GAS-VOL",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-GAS-VOL-CALC",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-CON-AVOGADRO-LAW",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "ENRICHMENT role right; the law grounds but is not demanded by 1.35C."
+    },
+    {
+      "code": "4CH1-MIS-EQ-SUBSCRIPT",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "code": "4CH1-MIS-CONC-UNIT",
+      "verdict": "CONFIRM",
+      "note": null
+    }
+  ],
+  "reviewed_edges": [
+    {
+      "edge": "4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Both Ar and Mr edges are real (element vs compound definitions are adjacent bullets); not double-counting."
+    },
+    {
+      "edge": "4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Granularity note: the operative dependency is on *interpreting* a given balanced equation; CON-EQ-SYMBOL also covers writing/balancing. Right at the available concept granularity; note for expansion."
+    },
+    {
+      "edge": "4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Split artifact: if the yield nodes are merged, this edge disappears. CONFIRM at current granularity."
+    },
+    {
+      "edge": "4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "Split artifact (same anchor quote as the THEOR-YIELD edge): both components of the one taught comparison. Merge candidate alongside the node merges."
+    },
+    {
+      "edge": "4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AR",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-EXP-FORMULA-DEDUCTION REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "REJECT",
+      "note": "Subsumed transitively via PR-03 -> EXP-FORMULA-DEDUCTION -> MOLE; the \"moles\" table-row label is implicit use only. Pass-1 emitted as REVIEW_REQUIRED; pass 2 would not emit at all. Left in the graph as REVIEW_REQUIRED for the operator to settle."
+    },
+    {
+      "edge": "4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-VOL-CONVERSION",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-GAS-VOL",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW",
+      "verdict": "HOLD",
+      "note": "The worked example applies volume-ratios-track-mole-ratios without naming the law; the dependency may be on CON-MOLAR-RATIO instead (which has no direct edge here). Pass-1 already emitted as REVIEW_REQUIRED; pass 2 holds the same doubt. Operator to settle."
+    },
+    {
+      "edge": "4CH1-CON-EQ-SYMBOL EXPLAINED_BY 4CH1-CON-CONSERVATION-MASS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "FP-concern finding: the anchored quote (\"From the molar gas volume the following formula triangle can be derived\") supports molar-volume->formula, not law->molar-volume; the law->molar-volume link is section order + semantics (\"was found to be\" is empirical phrasing). CONFIRM at confidence medium; the medium band already encodes this weakness."
+    },
+    {
+      "edge": "4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "The tip itself argues substance identity (\"it changes what the substance is\"); conservation is the section grounding for coefficient-balancing. Alternative: mint a coefficients-vs-subscripts concept in expansion. CONFIRM at medium."
+    },
+    {
+      "edge": "4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC",
+      "verdict": "CONFIRM",
+      "note": null
+    },
+    {
+      "edge": "4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION",
+      "verdict": "CONFIRM",
+      "note": null
+    }
+  ],
+  "held_review": {
+    "HELD-01": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: examiner tip implies practice, not a documented error. Revisit only if a mark scheme documents the rounding error."
+    },
+    "HELD-02": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: colloquial-usage statement, target out of slice."
+    },
+    "HELD-03": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: relation-class genuinely undecidable from the corpus."
+    },
+    "HELD-04": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: transitively subsumed."
+    },
+    "HELD-05": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: density control."
+    },
+    "HELD-06": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: taught-inline (the exact mention-vs-dependency distinction the tasking demands)."
+    },
+    "HELD-07": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: taught-inline + boundary."
+    },
+    "HELD-08": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: residual-class discipline."
+    },
+    "HELD-09": {
+      "verdict": "AGREE_REJECT",
+      "note": "Right call: the 4.15 negative control — premise+consequence aggregation is exactly the forbidden inference."
+    },
+    "HELD-10": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: application-of vs requires is undecidable; good REVIEW-required-style candidate for the expansion round."
+    },
+    "HELD-11": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: garbled PDF-table extraction is not load-bearing evidence; revisit with the paired question paper (T-C06)."
+    },
+    "HELD-12": {
+      "verdict": "AGREE_HOLD",
+      "note": "Right call: exam-technique guidance, not an erroneous belief."
+    }
+  },
+  "findings": [
+    {
+      "id": "FP-1",
+      "kind": "false-positive-concern",
+      "detail": "MOLAR-GAS-VOL EXPLAINED_BY AVOGADRO-LAW: the evidence anchor supports the molar-volume->formula link, not law->molar-volume; mitigated by confidence=medium and the derivation note. Kept; flagged."
+    },
+    {
+      "id": "FP-2",
+      "kind": "split-artifact",
+      "detail": "The PERCENT-YIELD -> {YIELD, THEOR-YIELD} edge pair is an artifact of the three-way yield split; both vanish under an operator merge. Identity-policy decision, not a defect."
+    },
+    {
+      "id": "FP-3",
+      "kind": "granularity",
+      "detail": "REACTING-MASS -> EQ-SYMBOL: operative dependency is on interpreting (not writing) equations; the slice has one concept covering both. Granularity note for the expansion round."
+    },
+    {
+      "id": "FN-1",
+      "kind": "false-negative-concern",
+      "detail": "HELD-01 (non-integer ratio mishandling) is plausibly a real, high-frequency misconception; the corpus simply does not document it. Mitigation path: deeper mark-scheme mining (17 Unit-1 MS files exist; only 2 pinned) or question-distractor mining in Phase 4 (T-C06)."
+    },
+    {
+      "id": "FN-2",
+      "kind": "false-negative-concern",
+      "detail": "Boundary concepts (chemical-formulae interpretation for Mr; solute/solvent for concentration; isotope abundance for Ar) are real prerequisites outside the slice; deliberately not minted (pilot scope). The expansion MUST define the boundary-minting policy or cross-slice prerequisites will be structurally missing."
+    },
+    {
+      "id": "FN-3",
+      "kind": "coverage",
+      "detail": "Mark-scheme evidence mining was deliberately minimal (2 of ~17 Unit-1 mark schemes pinned) — the wrong-answer-pattern inventory is certainly incomplete; expansion round should mine all Unit-1/2 MS files for the slice's SPs."
+    }
+  ],
+  "operator_gate": "Review every §2/§3 row; then a promotion command (staged batch, c10_promote-style) may be built for the confirmed set. Nothing is promoted by this document."
+}
