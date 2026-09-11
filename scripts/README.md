@@ -109,6 +109,17 @@
 - `c10_vlm_results/` — archived raw VLM (glm-5v) verdict JSONs for the 21
   diagram-dependent mappings (incl. the prior 1.52C check). Evidence
   artifact backing the review sheet §7; one JSON per mapping.
+- `c10_ratify_audit.py` — T-C10 pre-ratification reconciliation audit
+  (2026-09-11, READ-ONLY): the machine-verifiable check that the staged
+  §11 batch promotes exactly the 61 reviewed CONFIRM mappings. Resolves
+  the sheet's `--map` specs with the PRODUCTION `c10_promote.py` resolver
+  (so ambiguity / code-wide promotion would fail as in real execution) and
+  proves bijection review-record ↔ command (61/61 both directions), zero
+  unreviewed targets, pre-state 0 promoted / 211 SUGGESTED, store shape
+  112/211/176-34-1, 69/112 multi-point notes, 21 VLM files, git HEAD
+  provenance. Writes `graph/reports/C10_RATIFICATION_AUDIT.{json,md}`;
+  mutates nothing else. Verdict PASS on 2026-09-11:
+  `python3 scripts/c10_ratify_audit.py`
 - `graph_check.py` group 6 (`c10-notes-mapping`) — persistent-state check of
   the applied T-C10 mapping (schema, registry membership, provenance
   vocabulary, anchor-vs-slug, foreign codes, totals 112/211/182). Runs as
