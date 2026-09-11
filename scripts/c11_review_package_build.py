@@ -713,7 +713,24 @@ verdicts = {
                       "note": "informational only — all 13 decisions preserved; "
                               "no reopening, no promotion"},
 }
-(HERE / "c11_review_verdicts.yaml").write_text(
+# Session-44 guard: the verdict record is OPERATOR-OWNED and has been filled
+# with actual operator verdicts (session 44, 2026-09-12). Rebuilding the
+# package must never silently clobber them. If a rebuild is genuinely
+# required, the operator verdict record must be moved aside explicitly.
+_vf = HERE / "c11_review_verdicts.yaml"
+if _vf.exists():
+    _vd = yaml.safe_load(_vf.read_text(encoding="utf-8"))
+    _v_filled = any(
+        row.get("verdict") for row in
+        (_vd or {}).get("od_ratifications", []) + (_vd or {}).get("edge_verdicts", [])
+        + (_vd or {}).get("node_verdicts", []))
+    if _v_filled:
+        raise SystemExit(
+            "FAIL-CLOSED: scripts/c11_review_verdicts.yaml already carries "
+            "recorded operator verdicts (session 44) — refusing to overwrite "
+            "the operator-owned verdict record with an empty template. A "
+            "package rebuild requires explicitly preserving/moving that file.")
+_vf.write_text(
     "# T-C11 operator review verdicts — session 43 package. OPERATOR-OWNED.\n"
     "# Vocabulary and pathway: see the meta.instructions block.\n"
     + yaml.safe_dump(verdicts, sort_keys=False, allow_unicode=True, width=100),

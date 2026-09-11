@@ -161,8 +161,10 @@ fp_categories = [
      "detail": "HELD-08 (residual-class discipline) is unassigned in the §19 / "
                "§16-item-6 failure-class distributions (2+4+5+1 = 12 of 13 "
                "entries counted); it belongs to FC-2",
-     "current_state": "flagged in the session-43 package appendix; §19 text "
-                      "unchanged (documentation-only finding)",
+     "current_state": "remediated session 44 (operator-directed, report-only): "
+                     "HELD-08 assigned FC-2 in architecture §19 and the §16 "
+                     "report item 6 — the distributions now count 13 of 13 "
+                     "entries; HELD-08's verdict unchanged (HELD)",
      "mitigation": "machine-counted failure_class fields in expansion-round "
                    "held entries (§19 already mandates this for expansion)"},
 ]

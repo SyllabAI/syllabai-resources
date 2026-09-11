@@ -675,11 +675,21 @@ REVIEW_REQUIRED edges instantiate the same classes (emitted-and-quarantined
 instead of abstained). Expansion rounds must treat these classes as first-class
 generation rules, not per-candidate judgment calls.
 
+*(Session-44 accounting completion, operator-directed, report-only: the
+member lists below originally counted 11 of the 12 session-40 entries —
+HELD-08 (residual-class discipline) was unassigned — and the session-41
+operator rejection HELD-13 postdated this section. Both are now listed:
+HELD-08 under FC-2, HELD-13 under FC-3 (its decision-record reason already
+carries "FC-3 ... with FC-1 evidence basis"). The distribution now accounts
+for all 13 held/rejected entries; no verdict, status, or decision-record
+content changed. The same accounting fix is applied in
+C11_S16_GATE_REPORT.md item 6.)*
+
 | class | definition | members | enforcement |
 |---|---|---|---|
 | **FC-1 evidence-sufficiency** | the candidate's evidence does not meet the bar its relation class demands (missing, implicit, or ambiguous) | HELD-01 (tip prescribes practice, documents no error), HELD-11 (garbled extraction context); RR-edges: both rest on IMPLICIT_USE evidence | derivation caps (IMPLICIT_USE→medium, EXAMINER_TIP_IMPLIED→low), G03/G11 byte-verification; implicit-use evidence must be quarantined (REVIEW_REQUIRED) or abstained, never asserted at high confidence |
-| **FC-2 relation-class misfit** | evidence exists but no single relation class is defensible, or the chosen class is the wrong family | HELD-02 (weak class + no node), HELD-03 / HELD-10 (class undecidable), HELD-12 (exam technique ≠ misconception); RR-edge 2 (prerequisite vs application vs grounding) | G08 structure rules, frozen §8A.11 triple distinction, RELATED_TO relation_class_rationale requirement; residual-class discipline |
-| **FC-3 redundancy / normalization** | the relation would be true but adds no reviewable information (density control) | HELD-04 / HELD-05 (transitively subsumed), HELD-06 / HELD-07 (taught inline / boundary); RR-edge 1 (subsumed via PR-03 → EXP-FORMULA-DEDUCTION → MOLE) | deliberately NOT machine-enforced: MOLAR-MASS → {MR, AR} proves transitively-reachable edges can be semantically distinct (element vs compound definitions); subsumption is a per-edge semantic judgment — review-enforced; an expansion-round pre-filter that FLAGS already-connected candidates is candidate tooling |
+| **FC-2 relation-class misfit** | evidence exists but no single relation class is defensible, or the chosen class is the wrong family | HELD-02 (weak class + no node), HELD-03 / HELD-10 (class undecidable), HELD-12 (exam technique ≠ misconception), **HELD-08 (residual-class discipline — RELATED_TO would duplicate the pair's existing dependency edge; added session 44, verdict unchanged)**; RR-edge 2 (prerequisite vs application vs grounding) | G08 structure rules, frozen §8A.11 triple distinction, RELATED_TO relation_class_rationale requirement; residual-class discipline |
+| **FC-3 redundancy / normalization** | the relation would be true but adds no reviewable information (density control) | HELD-04 / HELD-05 (transitively subsumed), HELD-06 / HELD-07 (taught inline / boundary), **HELD-13 (operator-REJECTED, session 41 — the former RR-edge 1, transitively subsumed with FC-1 evidence basis; added to this list session 44)**; RR-edge 1 (subsumed via PR-03 → EXP-FORMULA-DEDUCTION → MOLE) | deliberately NOT machine-enforced: MOLAR-MASS → {MR, AR} proves transitively-reachable edges can be semantically distinct (element vs compound definitions); subsumption is a per-edge semantic judgment — review-enforced; an expansion-round pre-filter that FLAGS already-connected candidates is candidate tooling |
 | **FC-4 negative-control enforcement** | manufactured coverage assembled from premise + consequence across notes | HELD-09 (rejected — the 4.15 cluster) | fully machine-enforced: G05 attachment rule, G07/c11.6 anchor admissibility through T-C10 coverage, c11.5, negative-test classes 10–11 + the three task-4 variants (spec-wording lure, topical-similarity lure, uncovered-remediation lure — scripts/c11_task4_variants.py) |
 
 Emit-or-abstain policy for the expansion round (derived from the pilot's

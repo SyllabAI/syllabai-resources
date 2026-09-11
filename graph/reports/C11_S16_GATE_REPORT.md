@@ -81,9 +81,16 @@ generator-level G13 refusal of a forged promotion for it).
 | class | candidates | count |
 |---|---|---|
 | FC-1 evidence-sufficiency | HELD-01, HELD-11 | 2 |
-| FC-2 relation-class misfit | HELD-02, HELD-03, HELD-10, HELD-12; + the open RR edge (FC-2 with FC-1 evidence) | 4 (+1 quarantined) |
+| FC-2 relation-class misfit | HELD-02, HELD-03, HELD-10, HELD-12, **HELD-08 (residual-class discipline; added session 44, verdict unchanged)**; + the open RR edge (FC-2 with FC-1 evidence) | 5 (+1 quarantined) |
 | FC-3 redundancy/normalization | HELD-04, HELD-05, HELD-06, HELD-07, **HELD-13 (operator-REJECTED)** | 5 |
 | FC-4 negative-control enforcement | HELD-09 (rejected) | 1 |
+
+*(Session-44 accounting completion, operator-directed, report-only: this
+distribution previously counted 12 of 13 entries — HELD-08 was unassigned.
+HELD-08 is now listed under FC-2 (residual-class discipline), matching the
+session-43 review-package appendix assignment; architecture §19 carries the
+same fix. The distribution now accounts for all 13 held/rejected entries;
+HELD-08's verdict is unchanged (HELD).)*
 
 The rejected RR edge is the first FC-3 instance carried to a permanent
 operator rejection — the taxonomy now has one fully-executed precedent per
