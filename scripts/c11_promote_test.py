@@ -63,7 +63,8 @@ CHECKER = "scripts/graph_check.py"
 C11_FILES = ["concepts.yaml", "concept_edges.yaml", "spec_command_kinds.yaml"]
 
 EDGE_A = "4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE"          # SUGGESTED
-EDGE_RR = "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE"                  # REVIEW_REQUIRED
+EDGE_RR = "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW"  # REVIEW_REQUIRED (operator HOLD, session 41)
+EDGE_REJ = "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE"                  # operator-REJECTED session 41 -> HELD-13
 HELD_04 = "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE"       # held
 PART_OF_EDGE = "4CH1-CON-AR PART_OF 4CH1-1.26"                              # derived
 
@@ -186,7 +187,7 @@ def main2():
             others = {k: v for k, v in canon(edges).items() if k != a}
             ok("T01b edge HUMAN_VALIDATED + attribution",
                st == ("HUMAN_VALIDATED", "test-operator", "2026-09-11"), str(st))
-            ok("T01c other 65 edges byte-identical (non-validation fields)",
+            ok("T01c other 64 edges byte-identical (non-validation fields)",
                others == {k: v for k, v in pristine_edges.items() if k != a})
             ok("T01d decision record byte-untouched",
                (sb / "scripts" / "c11_pilot_decisions.yaml").read_bytes()
@@ -211,17 +212,20 @@ def main2():
                        ["promotions"]) == 1)
 
         # ---- T02 positive: promote a REVIEW_REQUIRED edge --------------------
+        # (the remaining RR edge — GAS-VOL-CALC -> AVOGADRO-LAW, operator HOLD:
+        # promotion here proves the RR pathway mechanically; the live operator
+        # HOLD means it is never exercised on the real store)
         restore(sb)
         r = run_tool(sb, "--edge", EDGE_RR, "--by", "operator",
                      "--date", "2026-09-11")
         edges = read_edges(sb)
         rr_st = state_of(edges, *rr)
         c = check(sb)
-        ok("T02 RR-edge promotion pathway (RR 2->1, promoted=1, checker green)",
+        ok("T02 RR-edge promotion pathway (RR 1->0, promoted=1, checker green)",
            r.returncode == 0
            and rr_st[0] == "HUMAN_VALIDATED"
            and sum(1 for e in edges
-                   if e["validation_status"] == "REVIEW_REQUIRED") == 1
+                   if e["validation_status"] == "REVIEW_REQUIRED") == 0
            and c.returncode == 0 and "1 HUMAN_VALIDATED" in c.stdout,
            f"rc={r.returncode} st={rr_st} err={r.stderr[:200]}")
 
@@ -244,6 +248,9 @@ def main2():
             ("T07 bad date",
              ("--edge", EDGE_A, "--date", "2026/09/11"),
              "YYYY-MM-DD"),
+            ("T19 operator-REJECTED identity not promotable (HELD-13, permanent)",
+             ("--edge", EDGE_REJ, "--date", "2026-09-11"),
+             "HELD-13"),
         ]
         for name, args, expect in neg_cases:
             restore(sb)
@@ -294,6 +301,17 @@ def main2():
                and (sb / "graph" / "concept_edges.yaml").read_bytes()
                == (LIVE_GRAPH / "concept_edges.yaml").read_bytes(),
                f"rc={g.returncode} err={g.stderr[:250]}")
+
+        # T20: forged promotion of the OPERATOR-REJECTED identity — G13 must
+        # fail closed with the rejected-candidate diagnosis (permanence guard)
+        restore(sb)
+        _write_promotions(sb, _forge(EDGE_REJ))
+        g = gen(sb)
+        ok("T20 forged promotion of the operator-rejected identity fails closed",
+           g.returncode != 0 and "HELD-13" in g.stderr
+           and (sb / "graph" / "concept_edges.yaml").read_bytes()
+           == (LIVE_GRAPH / "concept_edges.yaml").read_bytes(),
+           f"rc={g.returncode} err={g.stderr[:250]}")
 
         # T14: forged HUMAN_VALIDATED in the graph (no promotion record)
         restore(sb)

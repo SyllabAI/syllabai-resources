@@ -1,0 +1,188 @@
+{
+  "task": "T-C11",
+  "stage": "operator-decision-round",
+  "session": 41,
+  "generated": "2026-09-11",
+  "baseline": {
+    "resources": "4eba8ea",
+    "syllabai": "bbf4e08"
+  },
+  "decisions_executed": [
+    {
+      "edge": "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "verdict": "REJECT",
+      "decided_by": "operator",
+      "decided_date": "2026-09-11",
+      "execution": "decision-record re-authoring: removed from the authored set; preserved as rejected candidate HELD-13",
+      "graph_effect": "removed (66 -> 65 edges; RP 26 -> 25; RR 2 -> 1)",
+      "permanent": true,
+      "promotable": false,
+      "reasons_verbatim": [
+        "\"moles\" appears only as a table-row label in the practical note.",
+        "It is not substantively taught in the note body.",
+        "The claimed dependency is also transitively subsumed through the existing formula-deduction → mole path.",
+        "Do not treat table labels or incidental terminology as instructional evidence."
+      ]
+    },
+    {
+      "edge": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW",
+      "verdict": "HOLD",
+      "decided_by": "operator",
+      "decided_date": "2026-09-11",
+      "execution": "operator_decision block on the edge in the decision record; rendered into the review sheet",
+      "graph_effect": "remains REVIEW_REQUIRED in the graph",
+      "promotable": false,
+      "reasons_verbatim": [
+        "The gas-volume worked example does not explicitly teach or invoke Avogadro's Law.",
+        "The operative calculation skill is molar-ratio reasoning.",
+        "An Avogadro-Law prerequisite may eventually be architecturally defensible, but the current evidence does not establish it.",
+        "Do NOT convert this HOLD into either ACCEPT or REJECT merely to complete the pilot."
+      ]
+    }
+  ],
+  "medium_confidence_presented_pending": [
+    {
+      "edge": "4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW",
+      "confidence": "medium",
+      "evidence_quote": "From the molar gas volume the following formula triangle can be derived",
+      "flag": "FP-1 (session-40 Task 3): anchor supports molar-volume->formula, not law->molar-volume",
+      "recommendation": "HOLD — not promotable on current evidence; operator must explicitly accept the adjacency-grounding weakness or reject/defer",
+      "promotable": false
+    },
+    {
+      "edge": "4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS",
+      "confidence": "medium",
+      "evidence_quote": "You cannot do this because it changes what the substance is",
+      "flag": "tip's own corrective argument is substance-identity; CON-CONSERVATION-MASS is the best available in-slice target (approximation); exact corrective concept is a boundary gap",
+      "recommendation": "HOLD — promotable only if the operator explicitly accepts the approximation; cleaner fix = mint the coefficients-vs-subscripts concept in expansion",
+      "promotable": false
+    }
+  ],
+  "ontology_decisions": [
+    {
+      "id": "OD-1",
+      "ruling": "yield triple stays split (CON-YIELD / CON-THEOR-YIELD / CON-PERCENT-YIELD remain three concept nodes; no merge)",
+      "recorded_in": "C11_ARCHITECTURE.md §20",
+      "generalized_rule": "one procedure concept + one concept per distinctly-taught operand definition; one DEFINITIONAL_DEPENDENCY prerequisite per operand; same-anchor multiplicity expected"
+    },
+    {
+      "id": "OD-2",
+      "ruling": "operator rule, verbatim: 'Do not treat table labels or incidental terminology as instructional evidence.'",
+      "recorded_in": "C11_ARCHITECTURE.md §20",
+      "generalized_rule": "IMPLICIT_USE evidence alone can never ground promotion; quarantine-or-abstain per FC-1"
+    }
+  ],
+  "promotion_audit": {
+    "promoted_count": 0,
+    "ratified_identities": 0,
+    "interpretation": "no edge identity was explicitly ratified (REJECT + HOLD + 2 PENDING + 31 unconfirmed SUGGESTED), so nothing was promoted",
+    "guards_exercised": [
+      "c11_promote_test 27/27 (incl. new T19 tool-level rejection of the operator-rejected identity, T20 generator-level G13 rejection of a forged promotion for it)",
+      "graph_check c11.10/c11.13 two-way graph<->promotions audit green",
+      "held candidates categorically non-promotable (not edges)"
+    ]
+  },
+  "final_state": {
+    "nodes": 29,
+    "concepts": 27,
+    "misconceptions": 2,
+    "edges_total": 65,
+    "edges_by_relation": {
+      "EXPLAINED_BY": 3,
+      "MISCONCEPTION_OF": 1,
+      "PART_OF": 33,
+      "REMEDIATED_BY": 2,
+      "REQUIRES_PREREQUISITE": 25,
+      "WRONG_ANSWER_PATTERN": 1
+    },
+    "authored_edges": 32,
+    "part_of_edges": 33,
+    "validation_states": {
+      "SUGGESTED": 64,
+      "REVIEW_REQUIRED": 1,
+      "HUMAN_VALIDATED": 0
+    },
+    "operator_decisions": {
+      "REJECT": 1,
+      "HOLD": 1,
+      "PENDING": 2
+    },
+    "held_candidates": 13,
+    "held_candidates_status": {
+      "held": 11,
+      "rejected": 2
+    },
+    "confidence_distribution": {
+      "nodes": {
+        "high": 29
+      },
+      "authored_edges": {
+        "high": 29,
+        "medium": 3
+      },
+      "all_edges_including_part_of": {
+        "high": 62,
+        "medium": 3
+      }
+    },
+    "negative_control_4_15": "0 concepts, 0 edges, 0 coverage (uncovered)"
+  },
+  "verification": {
+    "graph_check": "ALL PASS (11/11 groups; 29 nodes / 65 edges / 0 HUMAN_VALIDATED / 4.15 uncovered)",
+    "c11_negative_test": "14/14 PASS",
+    "c11_task4_variants": "3/3 PASS",
+    "c11_promote_test": "27/27 PASS",
+    "deterministic_regeneration": "byte-identical at the 65-edge state",
+    "graph_diff_vs_e218259": "the rejected edge block removed + meta counts updated; all other 65 edges byte-identical"
+  },
+  "recorded_defects": [
+    "CON-THEOR-YIELD.aliases contains corrupted entry 'aximum yield' (truncation of 'maximum yield'; also unevidenced — the source note does not contain 'maximum yield'). Fix at the next decision-record revision; the session-41 re-author stayed surgical."
+  ],
+  "operator_decision_blocks": [
+    {
+      "record": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW",
+      "record_kind": "authored_edge",
+      "verdict": "HOLD",
+      "decided_by": "operator",
+      "decided_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)",
+      "reasons": [
+        "The gas-volume worked example does not explicitly teach or invoke Avogadro's Law.",
+        "The operative calculation skill is molar-ratio reasoning.",
+        "An Avogadro-Law prerequisite may eventually be architecturally defensible, but the current evidence does not establish it.",
+        "Do NOT convert this HOLD into either ACCEPT or REJECT merely to complete the pilot."
+      ],
+      "note": "Operator HOLD recorded 2026-09-11. The edge REMAINS in the graph as REVIEW_REQUIRED (evidence-complete, semantics uncertain) and is NOT eligible for promotion. Pass-2 (HOLD), session-40 pass-3 review (HOLD) and the operator verdict are concordant."
+    },
+    {
+      "record": "4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW",
+      "record_kind": "authored_edge",
+      "verdict": "PENDING",
+      "presented_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)",
+      "note": "Medium-confidence judgment flagged review-gated by session-40 Task 3 (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law->molar-volume link rests on section adjacency). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides."
+    },
+    {
+      "record": "4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS",
+      "record_kind": "authored_edge",
+      "verdict": "PENDING",
+      "presented_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)",
+      "note": "Medium-confidence judgment flagged review-gated by session-40 Task 3 (the tip's own corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS is the best available in-slice target, an approximation). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides."
+    },
+    {
+      "record": "HELD-13",
+      "record_kind": "held_candidate",
+      "verdict": "REJECT",
+      "decided_by": "operator",
+      "decided_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)",
+      "reasons": [
+        "\"moles\" appears only as a table-row label in the practical note.",
+        "It is not substantively taught in the note body.",
+        "The claimed dependency is also transitively subsumed through the existing formula-deduction → mole path.",
+        "Do not treat table labels or incidental terminology as instructional evidence."
+      ]
+    }
+  ]
+}

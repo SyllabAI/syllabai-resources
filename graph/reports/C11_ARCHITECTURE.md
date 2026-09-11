@@ -343,8 +343,18 @@ States (graph-as-code superset; V2 projection §13):
 Machine rules: generation may emit only SUGGESTED/REVIEW_REQUIRED; the generator
 hard-fails if the decision record contains any HUMAN_VALIDATED (anti-forgery);
 checkers reject HUMAN_VALIDATED unless a complete validated_by/date block exists
-(promotion pathway is reserved and will be built in the post-pilot round, mirroring
-c10_promote.py).
+(promotion pathway: scripts/c11_promote.py + scripts/c11_promotions.yaml, §18).
+
+**Operator review verdicts (session 41+)**: REJECT / HOLD / PENDING decisions
+are recorded as `operator_decision` blocks inside the decision record (and on
+its held candidates), re-authored per the §8 operator-decision precedent — with
+decided_by / decided_date / review_reference and the operator's reasons
+verbatim. These blocks are review state, NOT validation state: they are never
+emitted into graph/*.yaml (the generator emits only its fixed key schema), and
+they can never carry HUMAN_VALIDATED — promotion remains exclusively the
+promotions-file pathway (§18). An operator REJECT is applied by re-authoring:
+the edge leaves the authored set and is preserved as a rejected candidate
+(REJECTED is not a graph state; HELD-13 is the first instance).
 
 Two abstention channels, deliberately distinct:
 
@@ -599,6 +609,8 @@ Until then: no mass generation, no DB writes, no promotion.
 | — | pilot report (nodes, edges by type, accepted/rejected/held, evidence/provenance coverage, confidence distribution, FP/FN, integrity tests, regeneration, remaining gaps) | graph/reports/C11_PILOT_REPORT.md |
 | — | review round (operator tasking: RR-edge reviews, held audit, semantics review, negative-control variants) | graph/reports/C11_PILOT_REVIEW_RESPONSE.md + .json (session 40) |
 | — | promotion mechanism (§18) + held-candidate failure taxonomy (§19) | this round's additions |
+| — | operator-decision round (RR verdicts executed, medium-confidence presentations, ontology rulings, zero-promotion audit) | graph/reports/C11_OPERATOR_DECISIONS.md + .json (session 41) |
+| — | ontology decisions register (OD-1 yield triple, OD-2 incidental-terminology rule) | §20 (this file) |
 
 ---
 
@@ -676,4 +688,83 @@ REVIEW_REQUIRED with an ambiguity_note naming the class; FC-3 candidates are
 held with the subsumption path named; FC-4 candidates are REJECTED outright.
 Held-list entries must cite their class (`failure_class: FC-n`) so the
 taxonomy is machine-countable in the expansion reports.
+
+---
+
+## 20. Ontology decisions (recorded rulings)
+
+Session 41 (2026-09-11). Ontology decisions are identity-policy rulings that
+generalize beyond a single candidate: recorded here so the §16 expansion
+inherits them as generation rules, cross-referenced from the review sheet.
+A ruling never changes validation state and never promotes anything; merges
+remain operator-only (§8). Operator rulings are recorded verbatim.
+
+### OD-1 — The yield triple stays split (three concept nodes)
+
+**Question** (pass-2 flag; finding FP-2): should CON-YIELD (actual yield),
+CON-THEOR-YIELD (theoretical yield) and CON-PERCENT-YIELD (percentage yield)
+merge into one yield concept? The two PERCENT-YIELD → {YIELD, THEOR-YIELD}
+prerequisite edges share one anchor sentence, and FP-2 noted both "vanish
+under an operator merge".
+
+**Ruling (recorded for the operator; agent-derived from the frozen identity
+policy, exercising the operator's delegated session-41 instruction to resolve
+the question as an ontology decision): NO MERGE — the three nodes stay
+split.**
+
+1. Minting rule (§8): the triple is two definitions + one calculation
+   procedure — "a definition, a law, a constant, a calculation procedure, an
+   experimental method are distinct concepts". Each node carries distinct
+   taught substance: two distinct definition sentences in the 1.30-mapped
+   note plus the SPEC-demanded comparison procedure.
+2. Definition-vs-procedure split (§8; the 1.32 know-terms vs 1.33-calculate
+   precedent) applies directly: 4CH1-1.30 demands a calculation, and the
+   operand definitions and the procedure are separate node kinds by frozen
+   rule.
+3. Mastery attribution: the three are independently assessable (a candidate
+   can define theoretical yield without executing the percentage computation
+   and vice versa — this very unit separates KNOW_TERM from CALCULATE
+   demands, e.g. 1.27 vs 1.28). A merge would credit definitional knowledge
+   from procedural mastery and vice versa — exactly the "over-merging
+   corrupts mastery attribution" failure; over-splitting is recoverable, the
+   reverse is not.
+4. The same-anchor edge pair is not a split artifact: "The percentage yield
+   compares the actual yield to the theoretical yield" names BOTH operands
+   of the one taught comparison — one sentence can ground two distinct
+   dependencies (numerator object, denominator object). Edge multiplicity
+   mirroring the formula's operand structure is the honest representation,
+   not a defect to be normalized away.
+
+**Generalized rule for §16** (why this is an ontology decision, not a mapping
+tweak): where an SP demands a calculation procedure whose formula operates on
+distinctly-defined operands, mint ONE procedure concept and ONE concept per
+distinctly-taught operand definition, and emit one DEFINITIONAL_DEPENDENCY
+prerequisite per operand; same-anchor multiplicity is expected and correct.
+Directly applicable ahead to 1.34C (concentration vs amount/volume operands)
+and every future formula-driven SP.
+
+A future merge remains an operator-only identity decision, recorded on the
+review sheet with nodes re-versioned.
+
+### OD-2 — Incidental terminology is not instructional evidence (operator rule)
+
+Operator ruling, recorded verbatim with the REJECT of
+`4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` (preserved as rejected
+candidate HELD-13, session 41):
+
+> "Do not treat table labels or incidental terminology as instructional
+> evidence."
+
+Codified effect: IMPLICIT_USE evidence (table-row labels, incidental
+terminology, unnamed concept use) can never ground promotion of an edge on
+its own. Such candidates are quarantined (REVIEW_REQUIRED) or abstained
+(HELD) per the FC-1 policy (§19); promotion of any implicit-use edge requires
+the operator to explicitly accept the weakness. This upgrades the §6
+derivation cap (IMPLICIT_USE caps at medium) from a confidence statement to
+an operator-confirmed evidence-admissibility rule for the expansion round.
+
+Rulings pending operator input: none currently queued beyond the two PENDING
+medium-confidence presentations (MOLAR-GAS-VOL EXPLAINED_BY AVOGADRO-LAW;
+MIS-EQ-SUBSCRIPT REMEDIATED_BY CONSERVATION-MASS — see
+C11_OPERATOR_DECISIONS.md).
 

@@ -37,16 +37,16 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    edges: 66
+    edges: 65
     commonly_confused_with_edges: 0
     explained_by_edges: 3
     misconception_of_edges: 1
     part_of_edges: 33
     related_to_edges: 0
     remediated_by_edges: 2
-    requires_prerequisite_edges: 26
+    requires_prerequisite_edges: 25
     wrong_answer_pattern_edges: 1
-    review_required_edges: 2
+    review_required_edges: 1
 edges:
 - source: 4CH1-CON-AR
   relation: PART_OF
@@ -1430,31 +1430,6 @@ edges:
     generated_date: '2026-09-11'
   confidence: high
   validation_status: SUGGESTED
-  version: 1
-  created_at: '2026-09-11'
-- source: 4CH1-PR-03
-  relation: REQUIRES_PREREQUISITE
-  target: 4CH1-CON-MOLE
-  evidence:
-  - kind: NOTE
-    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating
-      metal oxide formulas - IGCSE Revision Notes.md
-    quote: '| moles | a / Ar | a / Ar |'
-  provenance:
-    tier: AI_SUGGESTED
-    model_version: GLM (Super Z agent, z.ai)
-    extraction_pass: c11-pilot-pass-1
-    derivation_method: IMPLICIT_USE
-    derivation_notes: The practical's results tables label the mass/Ar quotient as "moles" — the concept
-      is used implicitly (never named in prose). Medium confidence by the derivation cap; held for review
-      because the dependency may be subsumed by the PR-03 -> EXP-FORMULA-DEDUCTION edge (which itself
-      requires the mole).
-    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.36 @ Investigating metal oxide formulas (2026-09-11)
-    generated_date: '2026-09-11'
-  confidence: medium
-  validation_status: REVIEW_REQUIRED
-  ambiguity_note: Implicit concept use only (table row label). Genuine prerequisite on CON-MOLE, or transitively
-    subsumed via PR-03 -> CON-EXP-FORMULA-DEDUCTION -> CON-MOLE? Semantic judgment reserved for review.
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-EQ-SYMBOL

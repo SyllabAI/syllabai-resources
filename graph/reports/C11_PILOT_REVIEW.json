@@ -6,7 +6,7 @@
     "extraction_pass": "c11-pilot-pass-1",
     "decision_record": "scripts/c11_pilot_decisions.yaml",
     "nodes": 29,
-    "authored_edges": 33
+    "authored_edges": 32
   },
   "pass2": {
     "reviewer": "GLM (Super Z agent, z.ai)",
@@ -26,9 +26,8 @@
       "total_asserted": 31,
       "rate": 1.0
     },
-    "edges_uncertain_concordant_nonassertion": 2,
+    "edges_uncertain_concordant_nonassertion": 1,
     "edges_open_operator_decision": [
-      "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
       "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW"
     ]
   },
@@ -276,11 +275,6 @@
       "note": null
     },
     {
-      "edge": "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
-      "verdict": "REJECT",
-      "note": "Subsumed transitively via PR-03 -> EXP-FORMULA-DEDUCTION -> MOLE; the \"moles\" table-row label is implicit use only. Pass-1 emitted as REVIEW_REQUIRED; pass 2 would not emit at all. Left in the graph as REVIEW_REQUIRED for the operator to settle."
-    },
-    {
       "edge": "4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
       "verdict": "CONFIRM",
       "note": null
@@ -428,5 +422,53 @@
       "detail": "Mark-scheme evidence mining was deliberately minimal (2 of ~17 Unit-1 mark schemes pinned) — the wrong-answer-pattern inventory is certainly incomplete; expansion round should mine all Unit-1/2 MS files for the slice's SPs."
     }
   ],
-  "operator_gate": "Review every §2/§3 row; then a promotion command (staged batch, c10_promote-style) may be built for the confirmed set. Nothing is promoted by this document."
+  "operator_decisions": [
+    {
+      "record": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW",
+      "verdict": "HOLD",
+      "decided_by": "operator",
+      "decided_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)",
+      "reasons": [
+        "The gas-volume worked example does not explicitly teach or invoke Avogadro's Law.",
+        "The operative calculation skill is molar-ratio reasoning.",
+        "An Avogadro-Law prerequisite may eventually be architecturally defensible, but the current evidence does not establish it.",
+        "Do NOT convert this HOLD into either ACCEPT or REJECT merely to complete the pilot."
+      ],
+      "note": "Operator HOLD recorded 2026-09-11. The edge REMAINS in the graph as REVIEW_REQUIRED (evidence-complete, semantics uncertain) and is NOT eligible for promotion. Pass-2 (HOLD), session-40 pass-3 review (HOLD) and the operator verdict are concordant."
+    },
+    {
+      "record": "4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW",
+      "verdict": "PENDING",
+      "presented_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)",
+      "note": "Medium-confidence judgment flagged review-gated by session-40 Task 3 (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law->molar-volume link rests on section adjacency). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides."
+    },
+    {
+      "record": "4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS",
+      "verdict": "PENDING",
+      "presented_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)",
+      "note": "Medium-confidence judgment flagged review-gated by session-40 Task 3 (the tip's own corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS is the best available in-slice target, an approximation). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides."
+    },
+    {
+      "record": "HELD-13 (held candidate: REQUIRES_PREREQUISITE(PR-03, CON-MOLE))",
+      "verdict": "REJECT",
+      "decided_by": "operator",
+      "decided_date": "2026-09-11",
+      "review_reference": "graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)",
+      "reasons": [
+        "\"moles\" appears only as a table-row label in the practical note.",
+        "It is not substantively taught in the note body.",
+        "The claimed dependency is also transitively subsumed through the existing formula-deduction → mole path.",
+        "Do not treat table labels or incidental terminology as instructional evidence."
+      ]
+    }
+  ],
+  "operator_decisions_summary": {
+    "decided": 2,
+    "pending": 2,
+    "note": "Operator review verdicts recorded as operator_decision blocks in the decision record (session 41, 2026-09-11; re-authored per architecture §8). REJECT of PR-03 -> CON-MOLE applied by re-authoring: preserved as rejected candidate HELD-13. None of these is a promotion — HUMAN_VALIDATED remains exclusively the c11_promotions.yaml pathway."
+  },
+  "operator_gate": "Review every §2/§3 row; verdicts are recorded as operator_decision blocks (re-authored into the decision record); promotion of an exact ratified identity runs via scripts/c11_promote.py (§18). Nothing is promoted by this document."
 }

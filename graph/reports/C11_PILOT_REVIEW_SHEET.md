@@ -2,7 +2,7 @@
 
 Slice 4CH1-1.25–1.36 · generated 2026-09-11 · decision record `scripts/c11_pilot_decisions.yaml` (pass 1: `c11-pilot-pass-1`) · adversarial pass 2: `scripts/c11_pilot_review_pass2.yaml`
 
-**NOTHING in the graph is authoritative.** All 29 nodes / 66 edges are AI_SUGGESTED (SUGGESTED or REVIEW_REQUIRED). HUMAN_VALIDATED is reachable only by your promotion command — the promotion pathway will be built in the next round (c10_promote-style, decisions-side) after this review.
+**NOTHING in the graph is authoritative.** All 29 nodes / 65 edges are AI_SUGGESTED (SUGGESTED or REVIEW_REQUIRED). HUMAN_VALIDATED is reachable only by your promotion command — the pathway is BUILT and inert: `scripts/c11_promote.py` (exact-edge-identity only, architecture §18), currently **zero promotions recorded**. Operator review verdicts are recorded as `operator_decision` blocks in the decision record (§8 below).
 
 How to review: for each row check the quoted evidence actually appears in the cited file and actually says what the record claims; then rule on the relation CLASS and direction, not just existence. Verdict vocabulary: CONFIRM / REJECT / HOLD / MERGE (identity) / SPLIT (identity). Machine state: `graph_check.py` groups 10–11 + `c11_negative_test.py` are green; every quote is machine-verified byte-for-byte against its source file.
 
@@ -10,10 +10,10 @@ How to review: for each row check the quoted evidence actually appears in the ci
 
 | | nodes | authored edges | |
 |---|---|---|
-| pass-1 (extraction) | 29 | 33 (+33 derived PART_OF) |
+| pass-1 (extraction) | 29 | 32 (+33 derived PART_OF) |
 | pass-2 verdicts | 29 CONFIRM(+note) | 31 CONFIRM(+note) · 1 HOLD · 1 REJECT |
 
-Raw agreement (NOT κ — single human rater, architecture §12): nodes 29/29 = 100.0%; edges — of the 31 edges pass-1 asserted (SUGGESTED), pass-2 confirmed 31 (100.0%); the 2 edges pass-1 emitted as REVIEW_REQUIRED were concordantly NOT asserted by pass 2 (HOLD/REJECT) — keep-vs-drop is left to you (§3.1). No pass-2 verdict contradicts a pass-1 assertion.
+Raw agreement (NOT κ — single human rater, architecture §12): nodes 29/29 = 100.0%; edges — of the 31 edges pass-1 asserted (SUGGESTED), pass-2 confirmed 31 (100.0%); pass-1 emitted 2 edges as REVIEW_REQUIRED, both concordantly NOT asserted by pass 2 (HOLD/REJECT). Operator session 41: the first (PR-03 → CON-MOLE) **REJECTED** and re-authored out of the graph (preserved as HELD-13); the second (GAS-VOL-CALC → AVOGADRO-LAW) **HOLD** — remains open as REVIEW_REQUIRED. No pass-2 verdict contradicts a pass-1 assertion.
 
 ## 2. Concept & misconception nodes (29)
 
@@ -51,18 +51,21 @@ Raw agreement (NOT κ — single human rater, architecture §12): nodes 29/29 = 
 
 Identity-policy notes (split-first; merges are operator-only): pass-2 flags the yield triple (CON-YIELD / CON-THEOR-YIELD / CON-PERCENT-YIELD) and reminds that all aliases are merge inputs. No pass-2 merge recommendations beyond §3.1 notes.
 
-## 3. Authored semantic edges (33)
+## 3. Authored semantic edges (32)
 
 Direction conventions: REQUIRES_PREREQUISITE source=dependent → target=prerequisite; EXPLAINED_BY explained → explainer; REMEDIATED_BY misconception → concept.
 
-### 3.1 REVIEW_REQUIRED (operator must settle these two first)
+### 3.1 REVIEW_REQUIRED (open operator decisions)
+
+Pass-1 emitted two REVIEW_REQUIRED edges; session 41 settled both — the first (PR-03 → CON-MOLE) was REJECTED by the operator and re-authored out of the graph (see HELD-13 in §4), the second remains open under an operator HOLD. Full decision records in §8.
 
 | edge | conf | evidence | ambiguity (pass-1) | pass-2 | operator |
 |---|---|---|---|---|---|
-| `4CH1-PR-03` **REQUIRES_PREREQUISITE** `4CH1-CON-MOLE` | medium | “| moles | a / Ar | a / Ar |” | Implicit concept use only (table row label). Genuine prerequisite on CON-MOLE, or transitively subsumed via PR-03 -> CON-EXP-FORMULA-DEDUCTION -> CON-MOLE? Semantic judgment reserved for review. | REJECT: Subsumed transitively via PR-03 -> EXP-FORMULA-DEDUCTION -> MOLE; the "moles" table-row label is implicit use only. Pass-1 emitted as REVIEW_REQUIRED; pass 2 would not emit at all. Left in the graph a | ☐ |
-| `4CH1-CON-GAS-VOL-CALC` **REQUIRES_PREREQUISITE** `4CH1-CON-AVOGADRO-LAW` | medium | “Therefore, the volume of oxygen needed would be = 5 moles x 150 cm3” | The worked example relies on volume-ratios-track-mole-ratios without naming Avogadro's Law. Genuine dependency on CON-AVOGADRO-LAW, or merely an application of CON-MOLAR-RATIO (which has no node-to-node edge here)? Seman | HOLD: The worked example applies volume-ratios-track-mole-ratios without naming the law; the dependency may be on CON-MOLAR-RATIO instead (which has no direct edge here). Pass-1 already emitted as REVIEW_RE | ☐ |
+| `4CH1-CON-GAS-VOL-CALC` **REQUIRES_PREREQUISITE** `4CH1-CON-AVOGADRO-LAW` | medium | “Therefore, the volume of oxygen needed would be = 5 moles x 150 cm3” | The worked example relies on volume-ratios-track-mole-ratios without naming Avogadro's Law. Genuine dependency on CON-AVOGADRO-LAW, or merely an application of CON-MOLAR-RATIO (which has no node-to-node edge here)? Seman | HOLD: The worked example applies volume-ratios-track-mole-ratios without naming the law; the dependency may be on CON-MOLAR-RATIO instead (which has no direct edge here). Pass-1 already emitted as REVIEW_RE | **HOLD** (operator, 2026-09-11) |
 
 ### 3.2 SUGGESTED edges (31)
+
+Two of these are medium-confidence judgments formally gated on operator review (PENDING — session-41 presentations, §8): MOLAR-GAS-VOL EXPLAINED_BY AVOGADRO-LAW and MIS-EQ-SUBSCRIPT REMEDIATED_BY CONSERVATION-MASS. They are NOT promotable until the operator decides.
 
 | edge | method | conf | evidence (quote) | upstream | pass-2 | operator |
 |---|---|---|---|---|---|---|
@@ -91,10 +94,10 @@ Direction conventions: REQUIRES_PREREQUISITE source=dependent → target=prerequ
 | `4CH1-CON-GAS-VOL-CALC` **REQUIRES_PREREQUISITE** `4CH1-CON-MOLAR-GAS-VOL` | DEFINITIONAL_DEPENDENCY | high | “Volume = Moles x Molar Volume” | T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11) | CONFIRM | ☐ |
 | `4CH1-CON-GAS-VOL-CALC` **REQUIRES_PREREQUISITE** `4CH1-CON-MOLE-MASS-CONV` | USED_WITHOUT_RETEACHING | high | “To answer these type of questions you must first convert grams to moles and then calculate the volum” | T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11) | CONFIRM | ☐ |
 | `4CH1-CON-EQ-SYMBOL` **EXPLAINED_BY** `4CH1-CON-CONSERVATION-MASS` | SINGLE_SOURCE_CAUSAL_TEACHING | high | “The Law of Conservation of Mass enables us to balance chemical equations, since no atoms can be lost” | T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11) | CONFIRM | ☐ |
-| `4CH1-CON-MOLAR-GAS-VOL` **EXPLAINED_BY** `4CH1-CON-AVOGADRO-LAW` | SINGLE_SOURCE_CAUSAL_TEACHING | medium | “From the molar gas volume the following formula triangle can be derived” | T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11) | CONFIRM_WITH_NOTE | ☐ |
+| `4CH1-CON-MOLAR-GAS-VOL` **EXPLAINED_BY** `4CH1-CON-AVOGADRO-LAW` | SINGLE_SOURCE_CAUSAL_TEACHING | medium | “From the molar gas volume the following formula triangle can be derived” | T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11) | CONFIRM_WITH_NOTE | PENDING (presented 2026-09-11) |
 | `4CH1-CON-YIELD` **EXPLAINED_BY** `4CH1-CON-YIELD-FACTORS` | SINGLE_SOURCE_CAUSAL_TEACHING | high | “In practice, you never get 100% yield in a chemical process for several reasons” | T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11) | CONFIRM | ☐ |
 | `4CH1-MIS-EQ-SUBSCRIPT` **MISCONCEPTION_OF** `4CH1-CON-EQ-SYMBOL` | EXAMINER_TIP_EXPLICIT | high | “A common mistake when balancing symbol equations is to add, change or remove small numbers in the ch” | T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11) | CONFIRM | ☐ |
-| `4CH1-MIS-EQ-SUBSCRIPT` **REMEDIATED_BY** `4CH1-CON-CONSERVATION-MASS` | EXAMINER_TIP_EXPLICIT | medium | “You cannot do this because it changes what the substance is” | T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11) | CONFIRM_WITH_NOTE | ☐ |
+| `4CH1-MIS-EQ-SUBSCRIPT` **REMEDIATED_BY** `4CH1-CON-CONSERVATION-MASS` | EXAMINER_TIP_EXPLICIT | medium | “You cannot do this because it changes what the substance is” | T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11) | CONFIRM_WITH_NOTE | PENDING (presented 2026-09-11) |
 | `4CH1-MIS-CONC-UNIT` **WRONG_ANSWER_PATTERN** `4CH1-CON-CONC-CALC` | ASSESSMENT_DOCUMENTED | high | “an answer of 10(.0) for 1 mark (i.e. failing to divide by 1000)” | PMT Unit-1 Paper-1 MS "Chemical Formulae, Equations, Calculations 2" Q4(a) (pinned extr... | CONFIRM | ☐ |
 | `4CH1-MIS-CONC-UNIT` **REMEDIATED_BY** `4CH1-CON-VOL-CONVERSION` | EXAMINER_TIP_EXPLICIT | high | “Don't forget your unit conversions” | T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11) | CONFIRM | ☐ |
 
@@ -102,9 +105,9 @@ Direction conventions: REQUIRES_PREREQUISITE source=dependent → target=prerequ
 
 Derived deterministically from node attachments (concepts.yaml); each carries the attachment's evidence anchors and the node's provenance. Not re-listed here — review them via the §2 node rows. Machine-verified: the PART_OF set must exactly equal the declared attachments (c11.7).
 
-## 4. Held / rejected candidates (12) — the abstention record
+## 4. Held / rejected candidates (13) — the abstention record
 
-These were considered and NOT drawn. The pilot's success criterion includes correct abstention; review that each hold reason is right (pass-2 already did — column below). Overriding a hold = re-authoring the decision record, never hand-editing the graph.
+These were considered and NOT drawn. The pilot's success criterion includes correct abstention; review that each hold reason is right (pass-2 already did — column below). Overriding a hold = re-authoring the decision record, never hand-editing the graph. HELD-13 is the operator-REJECTED former REVIEW_REQUIRED edge (session 41) — permanently non-promotable.
 
 | id | status | candidate | failing rule | pass-2 | operator |
 |---|---|---|---|---|---|
@@ -120,6 +123,7 @@ These were considered and NOT drawn. The pilot's success criterion includes corr
 | HELD-10 | held | REQUIRES_PREREQUISITE(CON-EXP-FORMULA-DEDUCTION, CON-EMP-MOL-CALC) | RELATION_CLASS_AMBIGUOUS | AGREE_HOLD | ☐ |
 | HELD-11 | held | WRONG_ANSWER_PATTERN node from CFEC1 MS Q4(a)(ii)-(iii) ("0.44 for 1 mark only" / "0.0004") | EVIDENCE_AMBIGUOUS_EXTRACTION | AGREE_HOLD | ☐ |
 | HELD-12 | held | MISCONCEPTION node "products written first confuses word-equation construction" MISCONCEPTION_OF CON-EQ-WORD | EXAM_TECHNIQUE_NOT_MISCONCEPTION | AGREE_HOLD | ☐ |
+| HELD-13 | rejected | REQUIRES_PREREQUISITE(PR-03, CON-MOLE) | OPERATOR_REJECT (2026-09-11) | — | **REJECT** (operator, 2026-09-11) |
 
 ## 5. Findings (pass-2, for the pilot report)
 
@@ -151,11 +155,24 @@ These were considered and NOT drawn. The pilot's success criterion includes corr
 
 Zero concepts, zero edges, zero coverage for 4.15. The premise (“All these fuels contain carbon, hydrogen and small quantities of sulfur”, Definition-of-combustion note, mapped 4.11–4.13) and the stated consequence (“The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater”, Nitrogen-Oxides-&-Sulfur-Dioxide note, mapped 4.14/4.16) were both present — the machine rules (attachment rule §2 + anchor admissibility §11 + negative test class 11) make the premise+consequence edge structurally impossible. Remediation is a corpus decision (new note / student-book OCR), never a graph-side inference. Operator: acknowledge ☐
 
-## 8. After review
+## 8. Operator decisions recorded (session 41, 2026-09-11)
 
-1. Record verdicts above (CONFIRM/REJECT/HOLD/MERGE/SPLIT per row).
-2. On request, a staged promotion batch command will be derived mechanically from your confirms (c10_promote pattern: decisions-side validation blocks, gated applier, pre/post audit).
-3. Expansion to the full 4CH1 graph requires the §16 criteria (all gates green + this review recorded + scoped expansion plan).
+Verdicts are operator-side review decisions, recorded as `operator_decision` blocks in `scripts/c11_pilot_decisions.yaml` (re-authored per architecture §8; never emitted into the graph; never HUMAN_VALIDATED — promotion remains exclusively `c11_promote.py` + `c11_promotions.yaml`, §18). Reasons are verbatim from the operator.
+
+| record | verdict | decided/presented | reasons / note |
+|---|---|---|---|
+| `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW` | **HOLD** | operator, 2026-09-11 | The gas-volume worked example does not explicitly teach or invoke Avogadro's Law. · The operative calculation skill is molar-ratio reasoning. · An Avogadro-Law prerequisite may eventually be architecturally defensible, but the current evidence does not establish it. · Do NOT convert this HOLD into either ACCEPT or REJECT merely to complete the pilot. |
+| `4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW` | **PENDING** | presented, 2026-09-11 | Medium-confidence judgment flagged review-gated by session-40 Task 3 (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law->molar-volume link rests on section adjacency). Presented to the operator session 41 with full source/target/evidence/rationale — |
+| `4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS` | **PENDING** | presented, 2026-09-11 | Medium-confidence judgment flagged review-gated by session-40 Task 3 (the tip's own corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS is the best available in-slice target, an approximation). Presented to the operator session 41 with full source/target/evidence/ratio |
+| `HELD-13 (held candidate: REQUIRES_PREREQUISITE(PR-03, CON-MOLE))` | **REJECT** | operator, 2026-09-11 | "moles" appears only as a table-row label in the practical note. · It is not substantively taught in the note body. · The claimed dependency is also transitively subsumed through the existing formula-deduction → mole path. · Do not treat table labels or incidental terminology as instructional evidence. |
+
+Open after this round: the two PENDING medium-confidence judgments (§3.2) and the per-row verdicts on the remaining SUGGESTED edges and nodes. Ontology ruling OD-1 (yield triple stays split) is recorded in `C11_ARCHITECTURE.md` §20.
+
+## 9. After review
+
+1. Record further verdicts — they are re-authored into the decision record as `operator_decision` blocks (REJECT/HOLD/PENDING; merges/splits remain operator-only identity decisions).
+2. Promote exact ratified edge identities via `scripts/c11_promote.py` (--edge 'SOURCE RELATION TARGET'); a staged batch command can be derived mechanically from your confirms (c10_promote pattern).
+3. Expansion to the full 4CH1 graph requires the §16 criteria (all gates green + this review recorded + scoped expansion plan) and explicit operator authorization — see `C11_S16_GATE_REPORT.md`.
 
 ---
 Machine artifacts: `graph/concepts.yaml`, `graph/concept_edges.yaml`, `graph/spec_command_kinds.yaml` (generated, gated) · `C11_PILOT_REVIEW.json` (this sheet's machine record) · contract: `C11_ARCHITECTURE.md`

@@ -13,6 +13,18 @@
 # collapse whitespace) — verified byte-verbatim by the generator.
 # Anchor kinds: NOTE (T-C10-mapped revision note), SPEC (specification_points.yaml
 # official wording), MARK_SCHEME (pinned PMT extraction).
+#
+# OPERATOR DECISIONS (session 41, 2026-09-11): review verdicts (REJECT / HOLD /
+# PENDING) are recorded as `operator_decision` blocks on edges and held
+# candidates, with decided_by / decided_date / review_reference and the
+# operator's reasons VERBATIM. Per architecture §8 (merges/re-authoring are
+# operator-only decisions recorded on the review sheet and re-authored here),
+# the operator REJECT of `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` was
+# applied by re-authoring: the edge left the authored set and is preserved as
+# rejected candidate HELD-13 (REJECTED is not a graph state, §7). These blocks
+# are NEVER emitted into graph/*.yaml (the generator emits only its fixed
+# EDGE_KEYS/NODE_KEYS schema) and can NEVER carry HUMAN_VALIDATED — promotion
+# remains exclusively the c11_promotions.yaml / c11_promote.py pathway (§18).
 
 meta:
   task: T-C11
@@ -1284,26 +1296,6 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
-- source: 4CH1-PR-03
-  relation: REQUIRES_PREREQUISITE
-  target: 4CH1-CON-MOLE
-  evidence:
-  - kind: NOTE
-    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md"
-    quote: "| moles | a / Ar | a / Ar |"
-  provenance:
-    tier: AI_SUGGESTED
-    model_version: GLM (Super Z agent, z.ai)
-    extraction_pass: c11-pilot-pass-1
-    derivation_method: IMPLICIT_USE
-    derivation_notes: 'The practical''s results tables label the mass/Ar quotient as "moles" — the concept is used implicitly (never named in prose). Medium confidence by the derivation cap; held for review because the dependency may be subsumed by the PR-03 -> EXP-FORMULA-DEDUCTION edge (which itself requires the mole).'
-    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.36 @ Investigating metal oxide formulas (2026-09-11)'
-    generated_date: '2026-09-11'
-  confidence: medium
-  validation_status: REVIEW_REQUIRED
-  ambiguity_note: 'Implicit concept use only (table row label). Genuine prerequisite on CON-MOLE, or transitively subsumed via PR-03 -> CON-EXP-FORMULA-DEDUCTION -> CON-MOLE? Semantic judgment reserved for review.'
-  version: 1
-  created_at: '2026-09-11'
 - source: 4CH1-CON-CONC-CALC
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-MOLE
@@ -1424,6 +1416,17 @@ edges:
   ambiguity_note: 'The worked example relies on volume-ratios-track-mole-ratios without naming Avogadro''s Law. Genuine dependency on CON-AVOGADRO-LAW, or merely an application of CON-MOLAR-RATIO (which has no node-to-node edge here)? Semantic judgment reserved for review.'
   version: 1
   created_at: '2026-09-11'
+  operator_decision:
+    verdict: HOLD
+    decided_by: operator
+    decided_date: '2026-09-11'
+    review_reference: 'graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)'
+    reasons:
+    - 'The gas-volume worked example does not explicitly teach or invoke Avogadro''s Law.'
+    - 'The operative calculation skill is molar-ratio reasoning.'
+    - 'An Avogadro-Law prerequisite may eventually be architecturally defensible, but the current evidence does not establish it.'
+    - 'Do NOT convert this HOLD into either ACCEPT or REJECT merely to complete the pilot.'
+    note: 'Operator HOLD recorded 2026-09-11. The edge REMAINS in the graph as REVIEW_REQUIRED (evidence-complete, semantics uncertain) and is NOT eligible for promotion. Pass-2 (HOLD), session-40 pass-3 review (HOLD) and the operator verdict are concordant.'
 - source: 4CH1-CON-EQ-SYMBOL
   relation: EXPLAINED_BY
   target: 4CH1-CON-CONSERVATION-MASS
@@ -1464,6 +1467,11 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  operator_decision:
+    verdict: PENDING
+    presented_date: '2026-09-11'
+    review_reference: 'graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)'
+    note: 'Medium-confidence judgment flagged review-gated by session-40 Task 3 (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law->molar-volume link rests on section adjacency). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides.'
 - source: 4CH1-CON-YIELD
   relation: EXPLAINED_BY
   target: 4CH1-CON-YIELD-FACTORS
@@ -1524,6 +1532,11 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  operator_decision:
+    verdict: PENDING
+    presented_date: '2026-09-11'
+    review_reference: 'graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)'
+    note: 'Medium-confidence judgment flagged review-gated by session-40 Task 3 (the tip''s own corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS is the best available in-slice target, an approximation). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides.'
 - source: 4CH1-MIS-CONC-UNIT
   relation: WRONG_ANSWER_PATTERN
   target: 4CH1-CON-CONC-CALC
@@ -1631,6 +1644,19 @@ held:
   candidate: 'MISCONCEPTION node "products written first confuses word-equation construction" MISCONCEPTION_OF CON-EQ-WORD'
   evidence: 'Writing chemical equations worked example 2: "Careful: This question has all the required information but the products are written first"'
   reason: 'EXAM_TECHNIQUE_NOT_MISCONCEPTION — the Careful annotation is question-reading guidance (parse the given information), not a documented erroneous belief about chemistry. §8A.11 evidence classes do not cover it.'
-
-
-
+- id: HELD-13
+  status: rejected
+  candidate: 'REQUIRES_PREREQUISITE(PR-03, CON-MOLE)'
+  evidence: 'Investigating metal oxide formulas results tables: "| moles | a / Ar | a / Ar |" (MgO) and the parallel "| moles | b / Mr | b / Mr |" row (CuO) — the ONLY occurrences of "mole(s)" in the note, never in prose (Aim/Method/Steps).'
+  reason: 'OPERATOR_REJECT (2026-09-11) — failure classes FC-3 (transitively subsumed via PR-03 -> CON-EXP-FORMULA-DEDUCTION -> CON-MOLE) with FC-1 evidence basis (IMPLICIT_USE: table-row label only, never substantively taught in the note body). Per the operator rule: do not treat table labels or incidental terminology as instructional evidence.'
+  operator_decision:
+    verdict: REJECT
+    decided_by: operator
+    decided_date: '2026-09-11'
+    review_reference: 'graph/reports/C11_PILOT_REVIEW_SHEET.md §3.1 + graph/reports/C11_OPERATOR_DECISIONS.md (session 41)'
+    reasons:
+    - '"moles" appears only as a table-row label in the practical note.'
+    - 'It is not substantively taught in the note body.'
+    - 'The claimed dependency is also transitively subsumed through the existing formula-deduction → mole path.'
+    - 'Do not treat table labels or incidental terminology as instructional evidence.'
+  history: 'pass-1 (c11-pilot-pass-1) emitted REVIEW_REQUIRED (IMPLICIT_USE, medium); pass-2 verdict REJECT; session-40 pass-3 review REJECT (concordant); operator REJECT 2026-09-11 — applied by decision-record re-authoring (architecture §7: REJECTED is not a graph state — the record is preserved here and in the review artifacts; §10: the decision record is the single source of truth). PERMANENT: the identity is not an authored edge, so G13 / c11.13 / c11_promote.py categorically refuse any promotion of it (held/rejected candidates are not edges). Not eligible for promotion; do not re-add without an explicit operator decision and a new extraction pass.'

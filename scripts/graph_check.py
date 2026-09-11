@@ -775,11 +775,15 @@ C11_PILOT_SPS = ["4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28",
                  "4CH1-1.29", "4CH1-1.30", "4CH1-1.31", "4CH1-1.32",
                  "4CH1-1.33", "4CH1-1.34C", "4CH1-1.35C", "4CH1-1.36"]
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-C11_COUNTS = {"nodes": 29, "concepts": 27, "misconceptions": 2, "edges": 66,
-              "part_of": 33, "requires_prerequisite": 26, "explained_by": 3,
+C11_COUNTS = {"nodes": 29, "concepts": 27, "misconceptions": 2, "edges": 65,
+              "part_of": 33, "requires_prerequisite": 25, "explained_by": 3,
               "related_to": 0, "commonly_confused_with": 0,
               "misconception_of": 1, "wrong_answer_pattern": 1,
-              "remediated_by": 2, "review_required": 2, "command_kinds": 12}
+              "remediated_by": 2, "review_required": 1, "command_kinds": 12}
+# Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
+# `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
+# the decision record (preserved as rejected candidate HELD-13; architecture
+# §7: REJECTED is not a graph state). 66->65 edges, RP 26->25, RR 2->1.
 C11_FAMILIES = {"CONCEPT", "MISCONCEPTION"}
 C11_PATTERN_CLASSES = {"ERRONEOUS_BELIEF", "WRONG_ANSWER_PATTERN"}
 C11_ROLES = {"CORE", "SUPPORTING", "ENRICHMENT"}
