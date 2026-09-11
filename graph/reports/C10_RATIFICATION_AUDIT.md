@@ -10,7 +10,7 @@ Read-only audit executing the operator-advisor's condition (rounds 3-5) over BOT
 | E3 | store shape unchanged by promotion: 112 / 209 / 176-32-1 | **PASS** | 112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1} |
 | E4 | round-5 text reconciliation: all 150 evidence quotes retained exactly; 148 rationales byte-identical; the 2 recorded corrections (4CH1-1.1, 4CH1-1.19) applied verbatim | **PASS** | 2 corrections verified |
 | E5 | VLM archive: 29 verdict JSONs as in the pre-execution audit | **PASS** | 29 files; sym-diff: none |
-| E6 | git provenance: HEAD descends from the round-5 state; only expected execution paths are dirty (decisions / note front matter / coverage report) + this audit's own artifacts | **PASS** | HEAD 25a24b8; unexpected: none |
+| E6 | git provenance: HEAD descends from the round-5 state; only expected execution paths are dirty (decisions / note front matter / coverage report) + this audit's own artifacts | **PASS** | HEAD 047856b; unexpected: none |
 | E7 | note bodies byte-identical to the round-5 review state c90f5ae (promotion touches front matter only) | **PASS** | 112 notes compared |
 
 ## The 59 §12 ratification identities (round-4 survivors)
@@ -245,6 +245,6 @@ Every pair below is a round-5 exhaustive-review CONFIRM (150 CONFIRM / 0 REJECT 
 
 Execution verified: the store now carries 209/209 HUMAN_VALIDATED mappings (validated_by operator, 2026-09-11), the promoted set is exactly §12 ∪ §13, store shape is unchanged, all 150 round-5 evidence quotes are retained, the 2 recorded rationale corrections are applied verbatim, and all 112 note bodies are byte-identical to the round-5 review state. T-C10's human-validation gate is discharged.
 
-Provenance: repo HEAD `25a24b8` (descends from the round-5 review state `c90f5ae`; round-5 pre-review SHA `c6454c9`).
+Provenance: repo HEAD `047856b` (descends from the round-5 review state `c90f5ae`; round-5 pre-review SHA `c6454c9`).
 
 Post-execution verification complete: the promotion-only invariant holds (note bodies byte-identical, evidence retained, shape unchanged) and the human-validation gate for the whole 209-mapping store is discharged. 4CH1-4.15 remains an honest zero-coverage corpus gap (T-C11 input).
