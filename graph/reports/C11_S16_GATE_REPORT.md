@@ -170,10 +170,15 @@ preserved verbatim.
    the wrong-answer-pattern inventory is deliberately minimal. Expansion
    should pin and mine all Unit-1/2 MS files per batch. HELD-01 and HELD-11
    both await better assessment-side evidence.
-4. **Recorded defect**: `CON-THEOR-YIELD.aliases` carries the corrupted
-   entry `"aximum yield"` (unevidenced truncation of "maximum yield") —
-   scheduled for the next decision-record revision; the session-41
-   re-author stayed surgical.
+4. **Recorded defect (CORRECTED session 43, 2026-09-12 — report/data
+   drift):** the previously reported "corrupted `aximum yield`" alias never
+   existed in any data revision — the store has carried `maximum yield`
+   byte-stably in both the decision record and `graph/concepts.yaml`. The
+   genuine issue is that the alias is **unevidenced by the corpus** (the
+   phrase appears nowhere in the pilot corpus — see the session-43 alias
+   audit, `C11_REVIEW_PACKAGE.md` §7); disposition (drop / re-evidence /
+   keep) is an operator decision. Report text corrected 2026-09-12; the
+   concept alias itself was not modified.
 5. **Review gap (not corpus, listed for completeness)**: 31 SUGGESTED
    authored edges + 29 nodes await operator per-row verdicts.
 

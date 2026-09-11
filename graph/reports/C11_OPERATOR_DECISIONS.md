@@ -125,10 +125,16 @@ codified as an evidence-admissibility rule for the expansion round.
 
 ## 6. Recorded defects / observations (for the expansion round, not fixed here)
 
-- `4CH1-CON-THEOR-YIELD.aliases` contains the corrupted entry
-  `"aximum yield"` (a truncation of "maximum yield"; the source note does not
-  contain "maximum yield" either, so the alias is also unevidenced). The
-  re-author stayed surgical (operator decisions only); fix with a dedicated
-  correction at the next decision-record revision.
+- **CORRECTED (session 43, 2026-09-12 — report/data drift):** the defect
+  previously recorded here ("corrupted entry `"aximum yield"`") misdescribed
+  the store. The alias has been `maximum yield` (byte-stable) in both
+  `scripts/c11_pilot_decisions.yaml` and `graph/concepts.yaml` across all
+  committed revisions; the string `aximum yield` never existed in any data
+  file — it existed only in report text (this document, the `.json`, the
+  §16 gate report, and the renderer literal), all corrected 2026-09-12. The
+  genuine open issue is that the alias `maximum yield` is **unevidenced** —
+  the phrase appears nowhere in the pilot corpus (see the session-43 alias
+  audit, `C11_REVIEW_PACKAGE.md` §7); disposition (drop / re-evidence / keep)
+  awaits the operator. The concept alias itself was not modified.
 - HELD-13's history field records that re-adding the rejected identity
   requires an explicit operator decision and a new extraction pass.

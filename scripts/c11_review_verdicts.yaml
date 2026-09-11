@@ -1,0 +1,367 @@
+# T-C11 operator review verdicts — session 43 package. OPERATOR-OWNED.
+# Vocabulary and pathway: see the meta.instructions block.
+meta:
+  task: T-C11
+  stage: operator-review-package
+  session: 43
+  file: OPERATOR-OWNED verdict record for C11_REVIEW_PACKAGE (session 43).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    OD vocabulary: RATIFY | RATIFY_WITH_MODIFICATION | REJECT | DEFER. Alias policy: EVIDENCE_REQUIRED_ALL
+    | EVIDENCE_REQUIRED_SPECIAL | RETRIEVAL_EXEMPT. Alias disposition: DROP | RE_EVIDENCE | KEEP | RENAME.
+    Hand-edits HERE are the sanctioned pathway; graph/*.yaml are never hand-edited. The next session applies
+    verdicts via the §18 promotion pathway / §7 decision-record re-authoring. Held appendix: informational
+    only — no reopening, no promotion of held candidates.'
+od_ratifications:
+- id: OD-1
+  question: yield triple stays split
+  verdict: ''
+  notes: ''
+  decided_date: ''
+- id: OD-2
+  question: incidental-terminology evidence rule codified
+  verdict: ''
+  notes: ''
+  decided_date: ''
+edge_verdicts:
+- id: E-01
+  triple: 4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-02
+  triple: 4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-03
+  triple: 4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-04
+  triple: 4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR
+  pretriage: LIKELY_SAFE (transitively-reachable; §19 semantic-distinctness precedent — pass-2 addressed
+    the pair)
+  verdict: ''
+  notes: ''
+- id: E-05
+  triple: 4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-06
+  triple: 4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-07
+  triple: 4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-08
+  triple: 4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL
+  pretriage: LIKELY_AMBIGUOUS (granularity note)
+  verdict: ''
+  notes: ''
+- id: E-09
+  triple: 4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD
+  pretriage: FC-3 (OD-1-linked)
+  verdict: ''
+  notes: ''
+- id: E-10
+  triple: 4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD
+  pretriage: FC-3 (OD-1-linked)
+  verdict: ''
+  notes: ''
+- id: E-11
+  triple: 4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-12
+  triple: 4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-13
+  triple: 4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-14
+  triple: 4CH1-CON-EMP-MOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AR
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-15
+  triple: 4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-16
+  triple: 4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-17
+  triple: 4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-18
+  triple: 4CH1-CON-EXP-FORMULA-DEDUCTION REQUIRES_PREREQUISITE 4CH1-CON-MOLE
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-19
+  triple: 4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-20
+  triple: 4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-21
+  triple: 4CH1-CON-CONC-CALC REQUIRES_PREREQUISITE 4CH1-CON-VOL-CONVERSION
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-22
+  triple: 4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-23
+  triple: 4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-GAS-VOL
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-24
+  triple: 4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-25
+  triple: 4CH1-CON-EQ-SYMBOL EXPLAINED_BY 4CH1-CON-CONSERVATION-MASS
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-26
+  triple: 4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW
+  pretriage: FC-1+FC-2 (PENDING judgment)
+  verdict: ''
+  notes: ''
+- id: E-27
+  triple: 4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-28
+  triple: 4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-29
+  triple: 4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS
+  pretriage: FC-1+FC-2 (PENDING judgment)
+  verdict: ''
+  notes: ''
+- id: E-30
+  triple: 4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: E-31
+  triple: 4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+node_verdicts:
+- id: N-01
+  code: 4CH1-CON-EQ-WORD
+  title: Word equation
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-02
+  code: 4CH1-CON-EQ-SYMBOL
+  title: Balanced symbol (chemical) equation
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-03
+  code: 4CH1-CON-EQ-STATE-SYM
+  title: State symbols (s), (l), (g), (aq)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-04
+  code: 4CH1-CON-CONSERVATION-MASS
+  title: Law of Conservation of Mass
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-05
+  code: 4CH1-CON-AR
+  title: Relative atomic mass (Ar)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-06
+  code: 4CH1-CON-MR
+  title: Relative formula mass (Mr)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-07
+  code: 4CH1-CON-MOLE
+  title: The mole (unit of amount of substance)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-08
+  code: 4CH1-CON-AVOGADRO-CONST
+  title: Avogadro constant
+  pretriage: LIKELY_SAFE (pass-2 note)
+  verdict: ''
+  notes: ''
+- id: N-09
+  code: 4CH1-CON-MOLAR-MASS
+  title: Molar mass
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-10
+  code: 4CH1-CON-MOLE-MASS-CONV
+  title: Mole-mass conversion
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-11
+  code: 4CH1-CON-MOLAR-RATIO
+  title: Molar ratio from balanced equations
+  pretriage: LIKELY_SAFE (pass-2 note)
+  verdict: ''
+  notes: ''
+- id: N-12
+  code: 4CH1-CON-REACTING-MASS
+  title: Reacting mass calculation
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-13
+  code: 4CH1-CON-YIELD
+  title: Yield (actual yield)
+  pretriage: FC-2 identity (OD-1-linked)
+  verdict: ''
+  notes: ''
+- id: N-14
+  code: 4CH1-CON-THEOR-YIELD
+  title: Theoretical yield
+  pretriage: FC-2 identity (OD-1-linked)
+  verdict: ''
+  notes: ''
+- id: N-15
+  code: 4CH1-CON-PERCENT-YIELD
+  title: Percentage yield
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-16
+  code: 4CH1-CON-YIELD-FACTORS
+  title: Factors reducing yield
+  pretriage: LIKELY_SAFE (pass-2 note)
+  verdict: ''
+  notes: ''
+- id: N-17
+  code: 4CH1-CON-EMPIRICAL-FORMULA
+  title: Empirical formula
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-18
+  code: 4CH1-CON-MOLECULAR-FORMULA
+  title: Molecular formula
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-19
+  code: 4CH1-CON-EMP-MOL-CALC
+  title: Empirical and molecular formula calculation
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-20
+  code: 4CH1-CON-EXP-FORMULA-DEDUCTION
+  title: Experimental formula deduction (mass-difference method)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-21
+  code: 4CH1-CON-WATER-CRYST
+  title: Water of crystallisation and hydrated salts
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-22
+  code: 4CH1-CON-CONCENTRATION
+  title: Concentration of a solution
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-23
+  code: 4CH1-CON-CONC-CALC
+  title: Concentration calculation (mol/dm3)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-24
+  code: 4CH1-CON-VOL-CONVERSION
+  title: Volume unit conversion (cm3/dm3)
+  pretriage: LIKELY_SAFE (pass-2 note)
+  verdict: ''
+  notes: ''
+- id: N-25
+  code: 4CH1-CON-MOLAR-GAS-VOL
+  title: Molar gas volume at RTP (24 dm3)
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-26
+  code: 4CH1-CON-GAS-VOL-CALC
+  title: Gas volume calculation
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-27
+  code: 4CH1-CON-AVOGADRO-LAW
+  title: Avogadro's Law
+  pretriage: LIKELY_SAFE (pass-2 note)
+  verdict: ''
+  notes: ''
+- id: N-28
+  code: 4CH1-MIS-EQ-SUBSCRIPT
+  title: Balancing equations by altering subscripts
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+- id: N-29
+  code: 4CH1-MIS-CONC-UNIT
+  title: Failing to convert cm3 to dm3 in concentration calculations
+  pretriage: LIKELY_SAFE
+  verdict: ''
+  notes: ''
+alias_policy:
+  verdict: ''
+  notes: ''
+alias_dispositions:
+- node: 4CH1-CON-THEOR-YIELD
+  alias: maximum yield
+  disposition: ''
+  notes: ''
+held_appendix:
+  acknowledged: false
+  note: informational only — all 13 decisions preserved; no reopening, no promotion
