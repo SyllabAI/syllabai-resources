@@ -4,7 +4,7 @@
   "phase": "pre",
   "operator_instruction": "Ratify the 59 and promote 150 (2026-09-11)",
   "operator_advisor_condition": "round 3: machine-verifiable reconciliation of the ratification targets against the review sheet — exact note->SpecificationPoint identity, no unreviewed mapping promoted. Round 4 added: remove/rework the two rejected mappings, regenerate the gates, then the final exact-target reconciliation before ratification. Round 5 added: the 150-spec §13 batch staged from C10_ROUND5_REVIEW.json must reconcile identically before execution, and the executed state must verify afterwards (--phase post).",
-  "repo_head": "4f22934",
+  "repo_head": "0db00e8",
   "sheet": "graph/reports/PHASE2_PR_REVIEW_SHEET.md",
   "verdict": "PASS",
   "checks": [
@@ -108,7 +108,7 @@
       "id": "C9",
       "name": "git provenance: HEAD descends from the pushed round-5 state c90f5ae, tree clean apart from this change-set",
       "status": "PASS",
-      "detail": "HEAD 4f22934; dirty-foreign: none"
+      "detail": "HEAD 0db00e8; dirty-foreign: none"
     }
   ],
   "stats": {

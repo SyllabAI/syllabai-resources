@@ -21,7 +21,7 @@ Read-only audit executing the operator-advisor's condition (rounds 3-5) over BOT
 | C6 | store shape: 112 notes / 209 mappings / 176 high / 32 medium / 1 low | **PASS** | 112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1} |
 | C7 | corpus stat: 68/112 notes carry 2+ codes (contributory many-to-many is the corpus shape) | **PASS** | 68/112 |
 | C8 | VLM archive: 29 verdict JSONs (21 round-3/4 + 8 round-5) with codes matching the P6a queue and the round-5 set exactly | **PASS** | 29 files; sym-diff: none |
-| C9 | git provenance: HEAD descends from the pushed round-5 state c90f5ae, tree clean apart from this change-set | **PASS** | HEAD 4f22934; dirty-foreign: none |
+| C9 | git provenance: HEAD descends from the pushed round-5 state c90f5ae, tree clean apart from this change-set | **PASS** | HEAD 0db00e8; dirty-foreign: none |
 
 ## The 59 §12 ratification identities (round-4 survivors)
 
@@ -255,6 +255,6 @@ Every pair below is a round-5 exhaustive-review CONFIRM (150 CONFIRM / 0 REJECT 
 
 Both staged batches are exactly the AI-reviewed sets: §12 promotes exactly the 59 round-4-surviving CONFIRMs (both round-4 REJECTs proven removed from the store and absent from the command), §13 promotes exactly the 150 round-5 CONFIRMs, the two batches are disjoint and cover the whole 209-mapping store exactly once, and the pre-state is 0 promoted / 209 SUGGESTED. The operator may execute §12 then §13 as staged.
 
-Provenance: repo HEAD `4f22934` (descends from the round-5 review state `c90f5ae`; round-5 pre-review SHA `c6454c9`).
+Provenance: repo HEAD `0db00e8` (descends from the round-5 review state `c90f5ae`; round-5 pre-review SHA `c6454c9`).
 
 After the operator runs §12 then §13, all 209 mappings become HUMAN_VALIDATED (validated_by `operator`, 2026-09-11) — re-run this audit with `--phase post` to machine-verify the executed state (identity bijection, store shape, evidence retention, note-body integrity).

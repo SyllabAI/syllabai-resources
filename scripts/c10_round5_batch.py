@@ -91,9 +91,11 @@ def parse_sheet_specs(text: str, heading: str) -> list[str]:
 
 
 def wrap_command(specs: list[str]) -> str:
-    """Render the promoter invocation: 3 --map flags per continuation line,
-    exactly the §12 layout the audit's shlex parser expects."""
-    lines = ["cd work/syllabai-resources && \\"]
+    """Render the promoter invocation: cd line, python3 invocation line,
+    then 3 --map flags per continuation line — exactly the §12 layout the
+    audit's shlex parser and a verbatim copy-paste both expect."""
+    lines = ["cd work/syllabai-resources && \\",
+             "python3 scripts/c10_promote.py \\"]
     for i in range(0, len(specs), 3):
         chunk = specs[i:i + 3]
         lines.append("    " + " ".join(f"--map {shlex.quote(s)}" for s in chunk)
@@ -115,14 +117,8 @@ def main() -> int:
     store = c10_promote.load_all()
     all_pairs = {(m["code"], n) for n, d in store.items()
                  for m in d["mappings"]}
-    promoted = [1 for n, d in store.items() for m in d["mappings"]
-                if m.get("validation", {}).get("validation_status")
-                == "HUMAN_VALIDATED"]
     if len(all_pairs) != 209:
         sys.exit(f"FAIL: store is {len(all_pairs)} mappings, expected 209")
-    if promoted:
-        sys.exit(f"FAIL: store already carries {len(promoted)} promoted "
-                 f"mappings — the staged batch is pre-execution")
 
     # every round-5 pair must exist in the store by exact identity
     r5_pairs = [(p["code"], p["note"]) for p in pairs]
@@ -139,13 +135,26 @@ def main() -> int:
     if sorted(staged) != sorted(r5_pairs):
         sys.exit("FAIL: resolver drifted from the round-5 pairs")
 
-    # reconcile against the staged §12 batch: disjoint + union = store
+    # reconcile against the staged §12 batch: disjoint + union = store.
+    # §12 may already have been executed (its 59 targets promoted); the
+    # §13 targets themselves must still be un-promoted so the staged
+    # command remains exactly 150 promotions.
     sheet = SHEET.read_text(encoding="utf-8")
     s12 = parse_sheet_specs(sheet, "## 12. Round 4")
     t12 = c10_promote.resolve_targets(store, s12)
     staged12 = {(m["code"], n) for n, m in t12}
     if len(staged12) != 59:
         sys.exit(f"FAIL: §12 stages {len(staged12)} targets, expected 59")
+    promoted = {k for n, d in store.items() for m in d["mappings"]
+                if m.get("validation", {}).get("validation_status")
+                == "HUMAN_VALIDATED" for k in [(m["code"], n)]}
+    if not promoted <= staged12:
+        sys.exit(f"FAIL: store carries promotions outside the §12 batch "
+                 f"({len(promoted - staged12)} pairs) — §13 staging is "
+                 f"pre-execution only")
+    promoted13 = len(set(r5_pairs) & promoted)
+    if promoted13:
+        sys.exit(f"FAIL: {promoted13} round-5 targets already promoted")
     inter = staged12 & set(staged)
     if inter:
         sys.exit(f"FAIL: §12/§13 overlap: {sorted(inter)[:3]}")

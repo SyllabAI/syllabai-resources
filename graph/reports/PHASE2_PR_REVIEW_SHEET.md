@@ -269,6 +269,7 @@ The round-5 exhaustive review (`graph/reports/C10_ROUND5_REVIEW.json` + `PHASE2_
 
 ```bash
 cd work/syllabai-resources && \
+python3 scripts/c10_promote.py \
     --map 4CH1-1.1 --map 4CH1-1.2 --map 4CH1-1.3 \
     --map 4CH1-1.7C --map '4CH1-1.5C@a. States of Matter/Solubility - IGCSE Chemistry Revision Notes' --map 4CH1-1.6C \
     --map '4CH1-1.4@Solutions - IGCSE Chemistry Revision Notes' --map '4CH1-1.8@Element, Compound or Mixture  Edexcel IGCSE Chemistry Revision Notes 2017' --map 4CH1-1.13 \

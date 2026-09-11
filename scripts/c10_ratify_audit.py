@@ -249,6 +249,15 @@ def parse_sheet_specs(text: str, heading: str):
     specs = [t for i, t in enumerate(tokens) if i > 0 and tokens[i - 1] == "--map"]
     by = tokens[tokens.index("--by") + 1] if "--by" in tokens else None
     date = tokens[tokens.index("--date") + 1] if "--date" in tokens else None
+    # the block must be a verbatim-executable promoter invocation (guards
+    # against a mangled/missing invocation line — the round-4 line-
+    # continuation bug class)
+    invocation_ok = tokens[:5] == ["cd", "work/syllabai-resources", "&&",
+                                   "python3", "scripts/c10_promote.py"]
+    if not invocation_ok:
+        sys.exit(f"FAIL: {heading!r} bash block is not a well-formed "
+                 f"c10_promote.py invocation (got leading tokens: "
+                 f"{tokens[:5]})")
     return specs, by, date
 
 
