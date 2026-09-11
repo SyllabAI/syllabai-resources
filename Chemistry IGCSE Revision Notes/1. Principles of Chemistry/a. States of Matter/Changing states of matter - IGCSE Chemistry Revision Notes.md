@@ -22,7 +22,9 @@ spec_map:
       rationale: Teaches the three states with a properties table (arrangement, movement, closeness per
         state) and the particle model; energy of particles is taught in the state-change sections (energy
         changes on melting/boiling).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.2
     provenance:
       tier: AI_SUGGESTED
@@ -32,7 +34,9 @@ spec_map:
         boiling point (liquid to gas and gas to liquid)
       rationale: 'Full interconversion set: melting, boiling/evaporation, freezing, condensation, sublimation
         with how each is achieved.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

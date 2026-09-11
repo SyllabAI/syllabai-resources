@@ -21,7 +21,9 @@ spec_map:
       evidence: Ethanol can undergo oxidation in three different ways
       rationale: 'All three 4.31C oxidation routes: combustion, microbial/aerobic oxidation to ethanoic
         acid, and oxidising-agent treatment (dichromate).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

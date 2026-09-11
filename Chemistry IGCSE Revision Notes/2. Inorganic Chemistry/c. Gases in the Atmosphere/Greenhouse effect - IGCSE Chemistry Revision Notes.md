@@ -21,7 +21,9 @@ spec_map:
       evidence: Greenhouse gases maintain the temperatures on Earth high enough to support life
       rationale: Names carbon dioxide among the greenhouse gases with a dedicated Carbon dioxide section
         linking rising amounts to global warming/climate change.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

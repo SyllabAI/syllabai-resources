@@ -22,7 +22,9 @@ spec_map:
         forces that act between neighbouring molecules are weak
       rationale: Weak intermolecular forces explain gases/liquids/solids-with-low-mp for simple molecular
         substances.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.48
     provenance:
       tier: AI_SUGGESTED
@@ -32,7 +34,9 @@ spec_map:
         the strength of these intermolecular forces increases
       rationale: Dedicated Melting and boiling point patterns section relating m.p./b.p. to relative molecular
         mass.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.50
     provenance:
       tier: AI_SUGGESTED
@@ -41,7 +45,9 @@ spec_map:
       evidence: Fullerenes are a group of carbon allotropes
       rationale: C60 fullerene section of 1.50 lives here (hollow cage, does not conduct); diamond/graphite
         are in the giant-covalent note.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.51
     provenance:
       tier: AI_SUGGESTED
@@ -50,7 +56,9 @@ spec_map:
       evidence: cannot migrate from one buckyball to another, so C60 does not conduct electricity
       rationale: Conductivity section states simple molecular/covalent substances do not conduct (no mobile
         charged particles).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

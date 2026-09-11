@@ -21,7 +21,9 @@ spec_map:
       evidence: To investigate the effect of different solids on the catalytic decomposition of hydrogen
         peroxide
       rationale: 'This IS the named practical: gas-collection method, comparing MnO2/other solids, results.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.9
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: To investigate the effect of different solids on the catalytic decomposition of hydrogen
         peroxide
       rationale: A catalyst-effect rate experiment of the 3.9 family.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

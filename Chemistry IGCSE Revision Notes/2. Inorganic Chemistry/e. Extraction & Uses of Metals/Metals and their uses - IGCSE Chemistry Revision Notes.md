@@ -21,7 +21,9 @@ spec_map:
       evidence: The uses of aluminium, copper and steel are summarised in these tables
       rationale: Use-property tables for aluminium, copper, iron and steel (low-carbon, high-carbon, stainless
         distinguished).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

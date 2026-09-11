@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: A compound that contains only hydrogen and carbon atoms
       rationale: Hydrocarbon definition (What is a hydrocarbon? section) with the inorganic-carbon exclusions.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.2
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       evidence: Organic compounds can be represented in a number of ways
       rationale: Dedicated sections with worked examples for empirical, molecular, general, structural
         and displayed formulae.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.3
     provenance:
       tier: AI_SUGGESTED
@@ -38,7 +42,9 @@ spec_map:
       evidence: homologous series, functional group and isomerism
       rationale: Organic terminology sections defining all three terms, with the functional-group structures/names
         table and the C3H6 isomers.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.5
     provenance:
       tier: AI_SUGGESTED
@@ -47,7 +53,9 @@ spec_map:
       evidence: Isomers of C3H6
       rationale: Isomerism section writes alternative structural/displayed formulae from a molecular formula
         (the 4.5 skill); the naming side lives in the dedicated naming note.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

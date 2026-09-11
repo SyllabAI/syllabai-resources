@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: An alloy is a mixture of two or more metals or metal with a non-metal such as carbon
       rationale: Alloy definition with steel (iron + carbon) example and alloy-structure diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.27C
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       evidence: 'harder than pure metals because:'
       rationale: Explains the hardness of alloys vs pure metals via the disrupted lattice layers (quoted
         section).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

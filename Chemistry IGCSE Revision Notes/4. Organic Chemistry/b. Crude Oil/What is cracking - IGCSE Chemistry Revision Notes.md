@@ -22,7 +22,9 @@ spec_map:
         vaporise them
       rationale: Catalytic cracking with alumina catalyst, 600-700 C range, and the shorter-alkanes-plus-alkenes
         products.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.18
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: Cracking is an industrial process used to break low demand, long chain hydrocarbon molecules
         into more useful, small chain hydrocarbon molecules
       rationale: Supply-and-demand section explaining why cracking is necessary for the fraction balance.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

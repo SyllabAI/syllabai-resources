@@ -21,7 +21,9 @@ spec_map:
       evidence: 'State the equation: Q = m x c x ΔT'
       rationale: Heat-energy-change calculation from measured temperature change with a fully worked displacement-reaction
         example.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.4
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Calculating molar enthalpy change
       rationale: Dedicated section (quoted heading) converting Q into molar enthalpy change with worked
         examples and sign conventions.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

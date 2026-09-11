@@ -21,7 +21,9 @@ spec_map:
       evidence: Insoluble salts can be prepared using a precipitation reaction
       rationale: Precipitation method from two soluble reactants with filtration, washing and drying to
         a pure dry insoluble salt.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

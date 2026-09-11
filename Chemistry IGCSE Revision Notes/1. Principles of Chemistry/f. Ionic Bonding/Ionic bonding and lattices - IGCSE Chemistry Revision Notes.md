@@ -21,7 +21,9 @@ spec_map:
       evidence: Between positive and negative ions are strong electrostatic forces of attraction which
         act in all directions
       rationale: Ionic bonding as electrostatic attraction, giant lattice description, NaCl lattice diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.42
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Compounds with giant ionic lattice have high melting points
       rationale: High m.p./b.p. of giant ionic lattices explained by strong electrostatic forces needing
         much energy.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.43
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: ionic compounds have high melting points and conduct electricity when molten or in solution
       rationale: 'Conductivity section: poor conductors when solid, conduct when molten or in aqueous
         solution.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

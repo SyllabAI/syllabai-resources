@@ -22,7 +22,9 @@ spec_map:
         the delocalised electrons
       rationale: Metallic bonding as electrostatic attraction between positive ions and delocalised electrons;
         alloys included.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.54C
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: layers which can slide over each other when a force is applied
       rationale: 'Typical metal properties: malleability (layers slide), high m.p./b.p., electrical conductivity
         via delocalised electrons (sea of electrons).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.52C
     provenance:
       tier: AI_SUGGESTED
@@ -40,7 +44,9 @@ spec_map:
       evidence: Metals consist of giant structures of atoms arranged in a regular pattern
       rationale: The lattice diagram and regular-pattern description support the 2-D metallic lattice
         representation.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

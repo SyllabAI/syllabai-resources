@@ -21,7 +21,9 @@ spec_map:
       evidence: To determine the percentage of oxygen in air using the oxidation of iron
       rationale: 'This IS the named practical: iron-filings/burette setup, method, results, calculation,
         conclusion.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.10
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: To determine the percentage of oxygen in air using the oxidation of iron
       rationale: The iron route is the metal half of 2.10's determination methods.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

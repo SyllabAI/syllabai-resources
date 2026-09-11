@@ -21,7 +21,9 @@ spec_map:
       evidence: A substitution reaction takes place when one functional group is replaced by another
       rationale: 'All three 4.6 classes defined with examples: substitution (methane + bromine), addition
         (ethene + bromine), combustion.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

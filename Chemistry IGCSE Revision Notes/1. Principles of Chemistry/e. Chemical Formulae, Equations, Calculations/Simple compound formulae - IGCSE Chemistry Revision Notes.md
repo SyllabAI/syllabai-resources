@@ -22,7 +22,9 @@ spec_map:
         measurements of mass changes
       rationale: Experimental formula determination principle plus the hydrated-copper-sulfate heating
         experiment (water of crystallisation named in 1.31).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.33
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: Using the moles of reactants and products it is possible to deduce molar ratios and hence
         an empirical formula
       rationale: Mass-change-to-mole-to-empirical-formula deduction chain.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

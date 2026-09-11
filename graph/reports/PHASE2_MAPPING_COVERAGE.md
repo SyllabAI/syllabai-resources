@@ -7,7 +7,7 @@ Generated 2026-09-11 by `scripts/c10_map_notes.py` from `scripts/c10_decisions/S
 1. **PROVIDER anchor (deterministic, zero-LLM):** each note's Save My Exams source URL embeds a spec-aligned topic-group slug (`…/1-5-chemical-formulae-equations-calculations/…`) which maps 1:1 onto the 28 4CH1 subsections (verified programmatically: 28/28 groups, ordering exact). This subsection anchor is a source fact stored at PROVIDER tier.
 2. **AI_SUGGESTED point-level mapping:** an LLM pass (GLM, Super Z agent) read each note's headings/excerpt/body against the full 182-point registry and proposed point-level mappings, each carrying an evidence quote, a confidence (high/medium/low), a rationale, and the model version.
 3. **Hard gates (all green):** every mapped code is in the 182-point registry (hence no foreign/4CH0 codes possible); every evidence quote was verified to appear verbatim in the note (anti-hallucination); every note has ≥1 mapping; the note BODY was left byte-identical (front matter only).
-4. **Human validation:** nothing here is authoritative. Every mapping carries `validation_status: SUGGESTED`. The git PR review of the front-matter diff IS the HUMAN_VALIDATED gate (operator workflow, §8A.4 four tiers).
+4. **Human validation:** promoted mappings carry `validation_status: HUMAN_VALIDATED` (validation block in the decisions store, applied by `c10_promote.py`); review trail: `PHASE2_PR_REVIEW_SHEET.md` rounds 3-5 + `C10_RATIFICATION_AUDIT.md`; the remainder stay SUGGESTED pending review.
 
 ## 2. Totals
 
@@ -15,7 +15,7 @@ Generated 2026-09-11 by `scripts/c10_map_notes.py` from `scripts/c10_decisions/S
 - Total mappings: **209** (high 176 · medium 32 · low 1)
 - Spec points with ≥1 direct note mapping: **181 / 182**
 - Cross-subsection mappings (flagged for PR attention): 0
-- Promoted to HUMAN_VALIDATED so far: **0 / 209** (PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)
+- Promoted to HUMAN_VALIDATED so far: **209 / 209** (ratification complete — see `PHASE2_PR_REVIEW_SHEET.md` §12/§13 + `C10_RATIFICATION_AUDIT.md`)
 
 ## 3. Zero-coverage queue (points with no direct note mapping)
 

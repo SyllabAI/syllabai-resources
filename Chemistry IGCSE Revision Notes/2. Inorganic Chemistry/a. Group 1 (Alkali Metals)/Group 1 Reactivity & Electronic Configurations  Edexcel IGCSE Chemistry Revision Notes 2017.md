@@ -21,7 +21,9 @@ spec_map:
       evidence: The reactivity of the Group 1 metals increases as you go down the group
       rationale: 'Reactivity trend explained via electronic configuration: outer-electron distance from
         nucleus, weakening attraction, easier electron loss (the 2.4C mechanism).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

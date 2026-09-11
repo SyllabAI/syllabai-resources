@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Anhydrous copper(II) sulfate turns from white to blue on the addition of water
       rationale: The named chemical test with its equation.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.50
     provenance:
       tier: AI_SUGGESTED
@@ -28,7 +30,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: physical test to see if a sample of water is pure is to check its boiling point
       rationale: Physical purity test section (boiling point of pure water).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: When atoms share pairs of electrons, they form covalent bonds
       rationale: Covalent bond as a shared electron pair between non-metals; bonding vs lone-pair electrons.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.45
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       evidence: electrostatic attraction between the shared pair of electrons and the nuclei of the atoms
         involved
       rationale: Dedicated Electrostatic attractions section explaining the covalent bond in those terms.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -21,7 +21,9 @@ spec_map:
       evidence: Write word equations for reactions outlined in these notes
       rationale: Word equations, formulae and balanced chemical equations (with state symbols in worked
         examples), conservation of mass.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

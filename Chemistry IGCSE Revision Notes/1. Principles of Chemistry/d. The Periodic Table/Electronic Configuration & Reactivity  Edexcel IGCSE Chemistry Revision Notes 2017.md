@@ -21,7 +21,9 @@ spec_map:
       evidence: Elements in the same group in the Periodic Table will have similar chemical properties
       rationale: Explains same-group similarity via identical outer-electron counts and gives the group-reactivity
         prediction rule.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.24
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Why are noble gases unreactive?
       rationale: Dedicated section (quoted heading) on Group 0 having full outer shells and thus low reactivity;
         helium exception discussed.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.22
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: The group number of an element which is given on the Periodic Table indicates the number
         of electrons in the outer shell
       rationale: Group-number-to-outer-electrons rule links main-group position to electronic configuration.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -22,7 +22,9 @@ spec_map:
       rationale: 'Charges table for the specified ions: Groups 1/2/3 metals, Groups 5/6/7 non-metals,
         the named metal ions, and the compound ions incl. OH-, NH4+, CO32-, NO3-, SO42- (quoted section
         heading).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.37
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Find out if it is easier for the atom to gain electron or to donate electron
       rationale: Charge-deduction rule via outer-electron loss or gain supports the 1.37 mechanism.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

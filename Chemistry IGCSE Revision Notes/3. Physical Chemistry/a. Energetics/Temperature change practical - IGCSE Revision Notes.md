@@ -21,7 +21,9 @@ spec_map:
       evidence: To perform a calorimetry study of the reaction between HCl and NaOH
       rationale: 'This IS the named practical (neutralisation strand): styrofoam calorimeter, method,
         results table, conclusion.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.2
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: To perform a calorimetry study of the reaction between HCl and NaOH
       rationale: Concrete simple-calorimetry experiment for the neutralisation reaction class.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

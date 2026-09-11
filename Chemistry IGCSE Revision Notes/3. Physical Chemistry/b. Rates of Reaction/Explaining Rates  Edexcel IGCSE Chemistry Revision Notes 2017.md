@@ -21,7 +21,9 @@ spec_map:
       evidence: We can use collision theory to explain why these factors influence the reaction rate
       rationale: Particle-collision explanations with diagrams for concentration, pressure, temperature
         and surface area.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.10
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Increasing the concentration of a solution increases the rate of reaction
       rationale: Collision-theory sections explaining the concentration, pressure, temperature and surface-area
         effects on rate; the catalyst factor of 3.10 is taught in the rate-of-reaction and catalysts notes.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

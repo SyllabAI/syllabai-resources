@@ -21,7 +21,9 @@ spec_map:
       evidence: Pure substances melt and boil at specific and sharp temperatures
       rationale: Pure vs mixture distinguished by sharp vs ranged melting/boiling points, with the water
         example.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.8
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: In chemistry, a pure substance may consist of a single element or compound which contains
         no other substances
       rationale: Reinforces element/compound/mixture classification from the purity angle.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

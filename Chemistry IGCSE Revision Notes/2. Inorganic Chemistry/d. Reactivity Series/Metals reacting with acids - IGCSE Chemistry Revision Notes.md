@@ -21,7 +21,9 @@ spec_map:
       evidence: To investigate the reactions between dilute hydrochloric and sulfuric acids with the metals
         magnesium, iron and zinc
       rationale: This IS the named practical (aim, diagram, method, observations table, conclusion).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.15
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: To investigate the reactions between dilute hydrochloric and sulfuric acids with the metals
         magnesium, iron and zinc
       rationale: Observations of acid reactivity differences feed the reactivity-series ordering.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: When bromine is reacted with an alkene a dibromoalkane is formed
       rationale: Bromination of ethene to dibromoethane with the addition mechanism across C=C.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.28
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       evidence: Bromine water is used in the test for alkenes as it is safer and easier to handle than
         bromine
       rationale: Bromine-water test distinguishing alkenes (decolorisation) from alkanes.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

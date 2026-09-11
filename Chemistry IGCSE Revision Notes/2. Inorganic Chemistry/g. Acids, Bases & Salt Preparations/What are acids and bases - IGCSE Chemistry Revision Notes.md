@@ -21,7 +21,9 @@ spec_map:
       evidence: In terms of proton transfer, we can further define each substance in how they interact
         with protons
       rationale: Proton-transfer framework with HCl and NaOH ionisation examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.36
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Acids are proton donors as they ionize in solution producing protons
       rationale: Explicit donor/acceptor definitions for acid and base with ionisation equations.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -21,7 +21,9 @@ spec_map:
       evidence: Solubility can be expressed in g per 100 g of solvent
       rationale: Defines solubility in the g-per-100g unit and its dependence on temperature/pressure
         for solids vs gases.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.6C
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Solubility graphs or curves represent solubility in g per 100 g of water plotted against
         temperature
       rationale: Dedicated section on solubility curves with worked example on plotting/interpreting.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.4
     provenance:
       tier: AI_SUGGESTED
@@ -41,7 +45,9 @@ spec_map:
         and uses solute / saturated solution operationally in the solubility-curve discussion; the Solutions
         note carries the four 1.4 term definitions as a separate mapping - contributory coverage, not
         sole coverage.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

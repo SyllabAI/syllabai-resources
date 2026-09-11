@@ -21,7 +21,9 @@ spec_map:
       evidence: To prepare a dry sample of lead(II) sulfate
       rationale: 'This IS the named practical: precipitation from lead(II) nitrate + potassium sulfate,
         filtration, washing, drying.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.41C
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The preparation of lead(II)sulfate by precipitation from two soluble salts
       rationale: Concrete instance of the general insoluble-salt precipitation method.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

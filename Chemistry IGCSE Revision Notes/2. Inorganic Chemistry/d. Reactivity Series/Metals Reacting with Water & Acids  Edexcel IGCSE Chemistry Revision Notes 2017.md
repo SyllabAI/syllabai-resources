@@ -21,7 +21,9 @@ spec_map:
       evidence: The series can be used to place a group of metals in order of reactivity based on the
         observations of their reactions with water and acids
       rationale: Water-reaction table plus dilute HCl/H2SO4 reaction tables building the reactivity series.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.17
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
         observations of their reactions with water and acids
       rationale: The tables order K through Cu; the dedicated reactivity-series note carries the full
         2.17 list.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

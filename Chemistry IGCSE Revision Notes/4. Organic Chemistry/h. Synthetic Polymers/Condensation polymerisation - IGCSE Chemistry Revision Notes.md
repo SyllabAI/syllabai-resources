@@ -21,7 +21,9 @@ spec_map:
       evidence: For every ester linkage formed in condensation polymerisation, one molecule of water is
         formed
       rationale: Dicarboxylic acid + diol condensation producing polyester and water (terylene example).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.49C
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Deducing the monomers from a polyester
       rationale: Dedicated section (quoted heading) on writing polyester repeat-unit formulae from monomer
         formulae and vice versa.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.50C
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: Biopolyesters are a specific type of polymers that are synthesised from sugars and plant
         oils
       rationale: 'Biopolyesters section: the biodegradable polyester subclass.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

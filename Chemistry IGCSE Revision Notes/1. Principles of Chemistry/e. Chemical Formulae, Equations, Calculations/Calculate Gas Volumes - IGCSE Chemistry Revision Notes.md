@@ -21,7 +21,9 @@ spec_map:
       evidence: This is known as the molar gas volume at RTP
       rationale: Molar volume 24 dm3 / 24000 cm3 at RTP, Avogadro's Law, mole-to-volume and volume-to-mole
         conversions with worked examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -122,6 +122,7 @@ SELF_ARTIFACTS = {
     "scripts/c10_round5_rework.py",
     "scripts/c10_round5_batch.py",
     "scripts/c10_map_notes.py",
+    "scripts/c10_negative_test.py",
     "scripts/README.md",
     "graph/reports/C10_RATIFICATION_AUDIT.json",
     "graph/reports/C10_RATIFICATION_AUDIT.md",
@@ -296,6 +297,13 @@ def git_status() -> str:
         return git("status", "--porcelain").stdout
     except Exception:
         return ""
+
+
+def unquote_path(p: str) -> str:
+    """git status --porcelain quotes paths containing spaces."""
+    if len(p) >= 2 and p.startswith('"') and p.endswith('"'):
+        return p[1:-1]
+    return p
 
 
 def body_of(text: str) -> str:
@@ -520,8 +528,8 @@ def run_pre() -> None:
 
     # C9. git provenance
     st = git_status()
-    foreign = [ln[3:].strip() for ln in st.splitlines()
-               if ln[3:].strip() not in SELF_ARTIFACTS]
+    foreign = [unquote_path(ln[3:].strip()) for ln in st.splitlines()
+               if unquote_path(ln[3:].strip()) not in SELF_ARTIFACTS]
     check("C9", f"git provenance: HEAD descends from the pushed round-5 "
           f"state {ROUND5_BASE}, tree clean apart from this change-set",
           git_descends(ROUND5_BASE) and not foreign,
@@ -603,7 +611,7 @@ def run_post() -> None:
 
     # E6. git provenance — only expected execution paths may be dirty
     st = git_status()
-    dirty = [ln[3:].strip() for ln in st.splitlines()]
+    dirty = [unquote_path(ln[3:].strip()) for ln in st.splitlines()]
     unexpected = []
     for p in dirty:
         if p in SELF_ARTIFACTS:

@@ -21,7 +21,9 @@ spec_map:
       evidence: Concentration refers to the amount of solute there is in a specific volume of the solvent
       rationale: Concentration in g/dm3 and mol/dm3, cm3-to-dm3 conversions, and amount-of-substance/volume/concentration
         calculations with worked examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

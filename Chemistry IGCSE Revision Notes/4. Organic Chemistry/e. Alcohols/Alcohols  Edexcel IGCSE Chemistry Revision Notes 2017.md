@@ -21,7 +21,9 @@ spec_map:
       evidence: All alcohols contain the hydroxyl (-OH) functional group
       rationale: The -OH functional group as the reactive part of alcohols, with the ethanol molecule
         diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.30C
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The first four alcohols are commonly used as fuels
       rationale: Methanol, ethanol, propanol and butanol with displayed formulae and names.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

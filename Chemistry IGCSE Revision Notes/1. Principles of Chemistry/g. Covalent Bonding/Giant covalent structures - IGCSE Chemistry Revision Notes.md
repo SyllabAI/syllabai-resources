@@ -21,7 +21,9 @@ spec_map:
       evidence: Giant covalent structures are solids with high melting points
       rationale: Explains high m.p. of giant covalent lattices via strong covalent bonds requiring much
         energy.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.50
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       rationale: Structure-to-properties for diamond (rigid network, hard, high m.p.) and graphite (layers,
         free electron, soft/slippery, conducts) — the 1.50 core content; C60 fullerene handled in the
         simple-molecular note.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -22,7 +22,9 @@ spec_map:
         dioxide
       rationale: Metal-carbonate decomposition to CO2 with the named copper(II) carbonate example and
         gas test.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

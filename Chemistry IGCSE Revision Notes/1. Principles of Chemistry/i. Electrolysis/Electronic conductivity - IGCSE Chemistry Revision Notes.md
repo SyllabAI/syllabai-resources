@@ -21,7 +21,9 @@ spec_map:
       evidence: Most covalent compounds do not conduct electricity as they have no freely moving charged
         particles to carry the current
       rationale: Covalent compounds as insulators (solid/liquid/gas) — the 1.55C content.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.56C
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Ionic compounds can conduct electricity in the molten state or in solution
       rationale: Ionic conductivity limited to molten/aqueous states with the ion-mobility explanation.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.57C
     provenance:
       tier: AI_SUGGESTED
@@ -37,7 +41,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Anions are negatively charged ions
       rationale: 'Cations and anions section defines both terms (quoted: anions row).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

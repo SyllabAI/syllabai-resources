@@ -147,6 +147,11 @@ def t9(root):
     def corrupt(fm):
         prov = fm["spec_map"]["spec_points"][0]["provenance"]
         prov["validation_status"] = "HUMAN_VALIDATED"
+        # strip any legit promotion fields: the block must be INCOMPLETE
+        # (state-agnostic — works whether the baseline mapping is SUGGESTED
+        # or already HUMAN_VALIDATED after the round-5 ratification)
+        prov.pop("validated_by", None)
+        prov.pop("validated_date", None)
         return fm
     edit_fm(pick_note(root), corrupt)
 
@@ -154,7 +159,12 @@ def t9(root):
 @test("stray validated_by on SUGGESTED mapping", ["c10.3 stray validated_by"])
 def t10(root):
     def corrupt(fm):
-        fm["spec_map"]["spec_points"][0]["provenance"]["validated_by"] = "operator"
+        prov = fm["spec_map"]["spec_points"][0]["provenance"]
+        prov["validated_by"] = "operator"
+        # demote the status so the attribution is stray (state-agnostic —
+        # works whether the baseline mapping is SUGGESTED or already
+        # HUMAN_VALIDATED after the round-5 ratification)
+        prov["validation_status"] = "SUGGESTED"
         return fm
     edit_fm(pick_note(root), corrupt)
 

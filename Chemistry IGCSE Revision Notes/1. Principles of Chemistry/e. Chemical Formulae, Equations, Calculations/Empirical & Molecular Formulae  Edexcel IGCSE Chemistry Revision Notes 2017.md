@@ -21,7 +21,9 @@ spec_map:
       evidence: The empirical formula is the simplest whole number ratio of the atoms of each element
         present in one molecule or formula unit of the compound
       rationale: Defines both terms with the ethanoic-acid worked contrast and ionic-compound note.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.33
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Use a table and the following steps to complete an empirical formula calculation
       rationale: Step-by-step empirical formula determination from mass/percentage data plus molecular
         formula from Mr, with worked examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.31
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: Deducing formulae of hydrated salts
       rationale: Dedicated section (quoted heading) on deducing formulae of salts containing water of
         crystallisation — the 1.31 content strand.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

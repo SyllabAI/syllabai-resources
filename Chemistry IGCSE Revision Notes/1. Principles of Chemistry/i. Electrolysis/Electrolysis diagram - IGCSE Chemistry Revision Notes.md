@@ -22,7 +22,9 @@ spec_map:
         be free to move and conduct an electric charge
       rationale: Electrolysis of molten lead(II) bromide with inert electrodes, plus aqueous sections
         covering sodium chloride, dilute sulfuric acid and copper(II) sulfate with product prediction.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.56C
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: When these compounds are heated beyond their melting point, they become molten and can
         conduct electricity as their ions can move freely and carry the charge
       rationale: Molten-conductivity mechanism is the note's opening principle.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

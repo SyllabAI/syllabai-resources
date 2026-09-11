@@ -21,7 +21,9 @@ spec_map:
       evidence: When acids react with metals they form a salt and hydrogen gas
       rationale: HCl/H2SO4/HNO3 with metals, bases/oxides/hydroxides and carbonates, all with salt-forming
         equation tables (nitric-acid-metal exclusion respected).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

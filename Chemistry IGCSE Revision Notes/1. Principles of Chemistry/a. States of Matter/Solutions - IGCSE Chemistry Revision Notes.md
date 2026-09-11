@@ -21,7 +21,9 @@ spec_map:
       evidence: A solution with the maximum concentration of solute dissolved in the solvent
       rationale: 'Terms table defining solvent, solute, solution and saturated solution (quoted row: saturated
         solution).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

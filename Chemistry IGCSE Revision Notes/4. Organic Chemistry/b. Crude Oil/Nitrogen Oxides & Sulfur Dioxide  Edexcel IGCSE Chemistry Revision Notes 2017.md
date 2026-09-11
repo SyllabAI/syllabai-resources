@@ -21,7 +21,9 @@ spec_map:
       evidence: These compounds (NO and NO2) are formed when nitrogen and oxygen react in the high pressure
         and temperature conditions of internal combustion engines
       rationale: Engine-temperature formation of nitrogen oxides with catalytic-converter context.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.16
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater
         droplets to form sulfuric acid
       rationale: Acid rain formation from both sulfur dioxide and nitrogen dioxide with equations.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

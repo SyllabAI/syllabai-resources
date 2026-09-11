@@ -22,7 +22,9 @@ spec_map:
         food colourings
       rationale: 'This IS the named practical (inks/food colourings): aim, apparatus, method, errors,
         results.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.10
     provenance:
       tier: AI_SUGGESTED
@@ -32,7 +34,9 @@ spec_map:
         food colourings
       rationale: Paper chromatography is one of the five separation techniques listed in 1.10; the technique
         note is the generic one, this is the practical instance.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

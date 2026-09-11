@@ -21,7 +21,9 @@ spec_map:
       evidence: An exothermic reaction releases heat energy into the surroundings
       rationale: Exothermic and endothermic definitions with temperature-change measurement, conservation
         of energy, and examples of each.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

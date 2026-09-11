@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The general formula of the alkanes is CnH2n+2
       rationale: General formula stated and linked to the homologous-series concept.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.20
     provenance:
       tier: AI_SUGGESTED
@@ -28,7 +30,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The term saturated means that they only have single carbon-carbon bonds
       rationale: 'Alkanes as saturated hydrocarbons: single-bond reasoning.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.21
     provenance:
       tier: AI_SUGGESTED
@@ -36,7 +40,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Table of alkanes
       rationale: Table and displayed formulae (methane through pentane) with the unbranched names.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

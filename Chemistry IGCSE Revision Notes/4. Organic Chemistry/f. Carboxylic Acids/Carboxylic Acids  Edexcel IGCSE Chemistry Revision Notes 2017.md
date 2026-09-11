@@ -21,7 +21,9 @@ spec_map:
       evidence: Carboxylic acids is the name given to compounds containing the functional group carboxyl,
         -COOH
       rationale: The -COOH functional group with structure diagram and general formula.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.35C
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Use the general formula to find the molecular formula for propanoic acid
       rationale: Naming section with worked examples and displayed formulae for the unbranched-chain acids
         up to four carbons.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.37C
     provenance:
       tier: AI_SUGGESTED
@@ -38,7 +42,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Vinegar is an aqueous solution of ethanoic acid
       rationale: Vinegar composition (approx 5% ethanoic acid).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

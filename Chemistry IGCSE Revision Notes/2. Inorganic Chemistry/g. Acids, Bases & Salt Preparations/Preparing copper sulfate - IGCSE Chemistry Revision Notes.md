@@ -21,7 +21,9 @@ spec_map:
       evidence: To prepare a pure, dry sample of hydrated copper(II) sulfate crystals
       rationale: 'This IS the named practical: copper(II) oxide + dilute sulfuric acid, excess base, filtration,
         crystallisation.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.39
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The preparation of copper(II) sulfate by the insoluble base method
       rationale: Concrete instance of the general soluble-salt-from-insoluble-reactant method.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

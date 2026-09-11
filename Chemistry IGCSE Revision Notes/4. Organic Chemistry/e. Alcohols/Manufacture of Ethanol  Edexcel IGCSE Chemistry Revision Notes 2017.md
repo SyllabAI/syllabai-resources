@@ -22,7 +22,9 @@ spec_map:
         it occurs using the following conditions
       rationale: 'Both 4.32C routes: ethene + steam with phosphoric acid catalyst at ~300 C / 60-70 atm,
         and fermentation of glucose with yeast.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.33C
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: enzymes that break down sugar to alcohol
       rationale: 'Fermentation conditions explained: yeast enzymes (optimum ~30 C, denature if hotter)
         and absence of oxygen preventing aerobic oxidation.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

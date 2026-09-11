@@ -21,7 +21,9 @@ spec_map:
       evidence: An ion is an electrically charged atom or group of atoms formed by the loss or gain of
         electrons
       rationale: Cation/anion formation by electron loss/gain for Groups 1-3 and 5-7.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -21,7 +21,9 @@ spec_map:
       evidence: Reactivity of Group 7 non-metals decreases as you go down the group
       rationale: 'Trend explained via electronic configuration: seven outer electrons, halide-ion formation,
         increasing shell distance weakening electron gain.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

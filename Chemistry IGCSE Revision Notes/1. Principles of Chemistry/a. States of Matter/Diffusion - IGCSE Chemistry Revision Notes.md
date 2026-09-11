@@ -21,7 +21,9 @@ spec_map:
       evidence: Diffusion occurs in gases and liquids, due to the random motion of their particles
       rationale: 'Covers diffusion experiments in gases and liquids AND the dilution of coloured solutions
         (note title/headings: Diffusion and dilution) with kinetic-theory explanations.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

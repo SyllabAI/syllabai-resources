@@ -21,7 +21,9 @@ spec_map:
       evidence: To determine the empirical formula of magnesium oxide by combustion of magnesium
       rationale: 'This IS the named practical: Mg combustion AND copper(II) oxide reduction variants with
         method, results, calculations.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.31
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: To determine the empirical formula of magnesium oxide by combustion of magnesium
       rationale: Experimental formula determination for the metal-oxide family named in 1.31 (same note,
         same evidence, different point).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.33
     provenance:
       tier: AI_SUGGESTED
@@ -38,7 +42,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: To determine the empirical formula of magnesium oxide by combustion of magnesium
       rationale: The results tables feed empirical-formula calculations from experimental data.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

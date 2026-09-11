@@ -1,27 +1,17 @@
 <!-- c10-ratify-audit-2026-09-11 -->
-# T-C10 — Ratification Reconciliation Audit (2026-09-11, phase: pre) — **PASS**
+# T-C10 — Ratification Reconciliation Audit (2026-09-11, phase: post) — **PASS**
 
 Read-only audit executing the operator-advisor's condition (rounds 3-5) over BOTH staged batches — §12 (59-spec, round-4 survivors) and §13 (150-spec, round-5 CONFIRMs, staged from `C10_ROUND5_REVIEW.json`); generator `scripts/c10_ratify_audit.py` (machine record: `C10_RATIFICATION_AUDIT.json`). Operator instruction: "Ratify the 59 and promote 150" (2026-09-11).
 
 | # | check | status | detail |
 |---|---|---|---|
-| C1 | review record: 61 round-3 pairs, 2 round-4 REJECTs -> 59 distinct CONFIRM pairs | **PASS** | 59 CONFIRM pairs; superseded: 2 (== R4.ROUND4_REJECTS); verdicts scanned: 33 + 1 P4 + 21 P6a + 7 P6b |
-| C1b | round-4 REJECTs well-formed and REMOVED from the store (both notes keep >= 1 mapping) | **PASS** | Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-4.14', '4CH1-4.16']; Calculate Relative Mass  Edexcel IGCSE Chemistry |
-| C1c | round-5 record: 150 pairs, idx 1..150, all CONFIRM, distinct, all in store by exact identity; pre-review SHA c6454c9 an ancestor of HEAD | **PASS** | 150 pairs (150); distinct True; in-store True; pre-review ancestor True; 2 corrections referenced |
-| C2 | sheet §12 stages exactly 59 distinct --map specs | **PASS** | 59 specs, 59 distinct; --by 'operator' --date '2026-09-11' |
-| C2b | sheet §13 stages exactly 150 distinct --map specs | **PASS** | 150 specs, 150 distinct; --by 'operator' --date '2026-09-11' |
-| C3 | production resolver resolves all 59 specs unambiguously (no code-wide promotion) | **PASS** | 29 bare CODE specs (each code on exactly one note), 30 CODE@FRAGMENT specs; 59 distinct (code, note) targets |
-| C3b | production resolver resolves all 150 specs unambiguously (bare CODE only where the code lives on exactly one note) | **PASS** | 127 bare CODE specs, 23 CODE@FRAGMENT specs; 150 distinct (code, note) targets |
-| C4a | every surviving reviewed pair is staged by §12 (completeness) | **PASS** | 59/59 staged |
-| C4b | every §12 staged target is a reviewed pair (no unreviewed promotion) | **PASS** | 59/59 reviewed |
-| C4c | no round-4 REJECTed pair is staged (both live outside the batch) | **PASS** | staged ∩ rejected = ∅ |
-| C4d | §13 staged pairs == exactly the 150 round-5 CONFIRM pairs (bijection) | **PASS** | 150/150 round-5 pairs staged |
-| C4e | §12 ∩ §13 = ∅ and §12 ∪ §13 = the whole 209-mapping store (each mapping staged exactly once) | **PASS** | union 209/209; overlap 0 |
-| C5 | pre-state: 0 promoted / all 209 SUGGESTED — the batches are exactly 209 promotions, 0 no-ops | **PASS** | promoted on disk: 0; all 209 targets in SUGGESTED state: True |
-| C6 | store shape: 112 notes / 209 mappings / 176 high / 32 medium / 1 low | **PASS** | 112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1} |
-| C7 | corpus stat: 68/112 notes carry 2+ codes (contributory many-to-many is the corpus shape) | **PASS** | 68/112 |
-| C8 | VLM archive: 29 verdict JSONs (21 round-3/4 + 8 round-5) with codes matching the P6a queue and the round-5 set exactly | **PASS** | 29 files; sym-diff: none |
-| C9 | git provenance: HEAD descends from the pushed round-5 state c90f5ae, tree clean apart from this change-set | **PASS** | HEAD 0db00e8; dirty-foreign: none |
+| E1 | executed state: 209/209 HUMAN_VALIDATED, every block validated_by 'operator' + '2026-09-11', zero SUGGESTED | **PASS** | promoted 209/209 |
+| E2 | promoted set == §12 ∪ §13 staged targets (exact bijection) | **PASS** | staged union 209; promoted 209; sym-diff 0 |
+| E3 | store shape unchanged by promotion: 112 / 209 / 176-32-1 | **PASS** | 112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1} |
+| E4 | round-5 text reconciliation: all 150 evidence quotes retained exactly; 148 rationales byte-identical; the 2 recorded corrections (4CH1-1.1, 4CH1-1.19) applied verbatim | **PASS** | 2 corrections verified |
+| E5 | VLM archive: 29 verdict JSONs as in the pre-execution audit | **PASS** | 29 files; sym-diff: none |
+| E6 | git provenance: HEAD descends from the round-5 state; only expected execution paths are dirty (decisions / note front matter / coverage report) + this audit's own artifacts | **PASS** | HEAD bb4ee63; unexpected: none |
+| E7 | note bodies byte-identical to the round-5 review state c90f5ae (promotion touches front matter only) | **PASS** | 112 notes compared |
 
 ## The 59 §12 ratification identities (round-4 survivors)
 
@@ -253,8 +243,8 @@ Every pair below is a round-5 exhaustive-review CONFIRM (150 CONFIRM / 0 REJECT 
 | 4CH1-4.15 | Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 | **REJECT (round 4, 2026-09-11)** | removed from decisions S4.json (note keeps 4.14 / 4.16); 4.15 -> zero-coverage corpus gap, annotated in PHASE2_MAPPING_C |
 | 4CH1-1.17 | Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017 | **REJECT (round 4, 2026-09-11)** | removed from decisions S1.json (note keeps 1.26); 1.17 remains covered by its high-confidence in-subsection S1-c mapping |
 
-Both staged batches are exactly the AI-reviewed sets: §12 promotes exactly the 59 round-4-surviving CONFIRMs (both round-4 REJECTs proven removed from the store and absent from the command), §13 promotes exactly the 150 round-5 CONFIRMs, the two batches are disjoint and cover the whole 209-mapping store exactly once, and the pre-state is 0 promoted / 209 SUGGESTED. The operator may execute §12 then §13 as staged.
+Execution verified: the store now carries 209/209 HUMAN_VALIDATED mappings (validated_by operator, 2026-09-11), the promoted set is exactly §12 ∪ §13, store shape is unchanged, all 150 round-5 evidence quotes are retained, the 2 recorded rationale corrections are applied verbatim, and all 112 note bodies are byte-identical to the round-5 review state. T-C10's human-validation gate is discharged.
 
-Provenance: repo HEAD `0db00e8` (descends from the round-5 review state `c90f5ae`; round-5 pre-review SHA `c6454c9`).
+Provenance: repo HEAD `bb4ee63` (descends from the round-5 review state `c90f5ae`; round-5 pre-review SHA `c6454c9`).
 
-After the operator runs §12 then §13, all 209 mappings become HUMAN_VALIDATED (validated_by `operator`, 2026-09-11) — re-run this audit with `--phase post` to machine-verify the executed state (identity bijection, store shape, evidence retention, note-body integrity).
+Post-execution verification complete: the promotion-only invariant holds (note bodies byte-identical, evidence retained, shape unchanged) and the human-validation gate for the whole 209-mapping store is discharged. 4CH1-4.15 remains an honest zero-coverage corpus gap (T-C11 input).

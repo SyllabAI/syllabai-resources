@@ -22,7 +22,9 @@ spec_map:
         into the conical flask
       rationale: 'Full titration description: apparatus diagram, step-by-step method, titration results
         table (the 2.33C content).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

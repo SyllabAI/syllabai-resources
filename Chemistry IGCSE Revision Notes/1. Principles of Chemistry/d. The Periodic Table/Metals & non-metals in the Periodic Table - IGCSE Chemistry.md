@@ -22,7 +22,9 @@ spec_map:
         elements as metals or non-metals
       rationale: 'Properties comparison table: electrical conductivity, oxide acid-base character, plus
         bonding and acid reactions.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.21
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Metals are on the left of the Periodic Table and non-metals on the right
       rationale: Position-based identification of metals vs non-metals with the left/right rule.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

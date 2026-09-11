@@ -21,7 +21,9 @@ spec_map:
       evidence: Calculate the mass of magnesium oxide that can be made by completely burning 6.0 g of
         magnesium in oxygen in the following reaction
       rationale: Reacting-mass calculations via balanced-equation ratios with multiple worked examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.28
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Once the moles have been determined they can then be converted into grams using the relative
         atomic or relative formula masses
       rationale: The mole-to-gram bridge using Ar/Mr is the note's core computational tool.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.25
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: Balancing Equations using Reacting Masses
       rationale: Dedicated section (quoted heading) on deducing balanced equations from reacting-mass
         data.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

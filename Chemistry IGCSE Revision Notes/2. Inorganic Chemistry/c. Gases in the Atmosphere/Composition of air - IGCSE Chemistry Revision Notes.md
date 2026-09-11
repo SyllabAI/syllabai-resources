@@ -21,7 +21,9 @@ spec_map:
       evidence: About four-fifths (approximately 80%) nitrogen
       rationale: 'Atmosphere composition with pie chart: N2 approx 80%, O2 approx 20%, plus the smaller
         proportions (CO2, noble gases).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.10
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
         oxygen in a fixed volume of air
       rationale: Describes the phosphorus-in-bell-jar determination (the 2.10 non-metal example) with
         volume readings.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

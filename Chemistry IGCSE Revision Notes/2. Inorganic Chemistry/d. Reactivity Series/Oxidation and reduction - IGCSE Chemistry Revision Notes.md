@@ -21,7 +21,9 @@ spec_map:
       evidence: Oxidation is any reaction in which a substance gains oxygen
       rationale: All five 2.20 terms defined in both oxygen and electron frameworks, with oxidising/reducing
         agent identification in worked redox examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

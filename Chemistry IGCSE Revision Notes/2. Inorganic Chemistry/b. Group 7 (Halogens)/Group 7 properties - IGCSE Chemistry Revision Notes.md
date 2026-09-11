@@ -21,7 +21,9 @@ spec_map:
       evidence: At room temperature, the halogens exist in different states and colours
       rationale: Physical properties table (state, appearance, colour in solution) and the melting/boiling-point
         trend graph.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.6
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Predicting properties in Group 7
       rationale: Dedicated section (quoted heading) plus metal/non-metal halide sections for predicting
         other halogens' properties.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.7
     provenance:
       tier: AI_SUGGESTED
@@ -40,7 +44,9 @@ spec_map:
         halogen from an aqueous solution of its halide
       rationale: 'Displacement sections: chlorine with bromides/iodides and bromine with iodides — the
         exact 2.7 evidence set.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

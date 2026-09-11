@@ -22,7 +22,9 @@ spec_map:
         titrations
       rationale: Litmus, phenolphthalein and methyl orange with the two-colour indicator table distinguishing
         acid vs alkali colours.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.30
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: Universal indicator is a wide range indicator and can give only an approximate value for
         pH
       rationale: Universal indicator section on measuring approximate pH of aqueous solutions.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.29
     provenance:
       tier: AI_SUGGESTED
@@ -40,7 +44,9 @@ spec_map:
       evidence: The pH scale goes from 0 – 14
       rationale: pH scale section with the 0-14 classification (acids below 7, alkalis above 7, bands
         by strength).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

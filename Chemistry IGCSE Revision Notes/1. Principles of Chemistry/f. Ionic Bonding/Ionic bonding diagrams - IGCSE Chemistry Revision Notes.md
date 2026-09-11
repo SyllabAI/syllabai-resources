@@ -21,7 +21,9 @@ spec_map:
       evidence: Ionic bonds can be represented diagrammatically using dot-and-cross diagrams
       rationale: Dot-and-cross diagrams for ionic formation by electron transfer (NaCl, MgO; Groups 1/2
         with 6/7), brackets and charges, outer electrons only.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.37
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Sodium is a Group 1 metal so will lose one outer electron to another atom to gain a full
         outer shell of electrons
       rationale: Electron-transfer narration reinforces ion formation by loss/gain.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

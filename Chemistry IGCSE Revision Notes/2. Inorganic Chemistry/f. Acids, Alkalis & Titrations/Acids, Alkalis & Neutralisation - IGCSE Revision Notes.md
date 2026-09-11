@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: When acids are added to water, they form positively charged hydrogen ions
       rationale: Acids as H+ source and alkalis as OH- source in aqueous solution (both 2.31 halves).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.32
     provenance:
       tier: AI_SUGGESTED
@@ -28,7 +30,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: A neutralisation reaction occurs when an acid reacts with an alkali
       rationale: Neutralisation definition with the H+ + OH- to water ionic equation and scope limits.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.29
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       rationale: Introduces the pH scale itself - a numerical scale showing how acidic or alkaline a solution
         is, measuring the hydrogen ions present - the conceptual foundation of 2.29; the 0-14 classification
         bands are taught in the indicator note's 2.29 mapping.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

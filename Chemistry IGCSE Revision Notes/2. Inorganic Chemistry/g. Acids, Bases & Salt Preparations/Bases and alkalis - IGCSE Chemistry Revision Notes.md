@@ -21,7 +21,9 @@ spec_map:
       evidence: A base which is water-soluble is referred to as an alkali
       rationale: Metal oxides/hydroxides and ammonia as bases (ammonia producing hydroxide ions is in
         the alkalis table) with the base/alkali distinction.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -22,7 +22,9 @@ spec_map:
         and products in chemical reactions
       rationale: Drawing and explaining energy level diagrams for exothermic and endothermic reactions,
         including the enthalpy-change arrows.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

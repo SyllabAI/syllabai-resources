@@ -22,7 +22,9 @@ spec_map:
         altered or consumed in the reaction
       rationale: Catalyst definition (mass unchanged, not in the equation) with industrial examples (iron,
         V2O5).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.13
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: alternative pathway has a lower activation energy
       rationale: 'Catalyst mechanism: alternative pathway at lower activation energy.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

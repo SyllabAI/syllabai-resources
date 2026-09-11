@@ -21,7 +21,9 @@ spec_map:
       evidence: They form alkaline solutions when they react with water
       rationale: Reaction-with-water section showing the shared alkaline-product behaviour that marks
         Group 1 as a family.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.2
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Lithium moves on the surface of the water
       rationale: Water-reaction observations graded down the group plus a Reactions-with-oxygen section
         — the differences evidencing the reactivity trend.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.3
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: Predicting properties in Group 1
       rationale: Dedicated section (quoted heading) on predicting properties of other alkali metals from
         the trends; full member list Li-Fr given.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

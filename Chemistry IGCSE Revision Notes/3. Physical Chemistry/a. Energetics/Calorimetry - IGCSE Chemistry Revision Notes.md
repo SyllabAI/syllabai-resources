@@ -21,7 +21,9 @@ spec_map:
       evidence: There are two types of calorimetry experiments you need to know
       rationale: Simple calorimetry for reactions in solution (neutralisation, dissolving, displacement)
         and combustion, with apparatus diagram and error analysis.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: the different hydrocarbons that make up the mixture, called fractions
       rationale: Crude oil presented as a mixture of hydrocarbons separated into fractions.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.8
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
         distillation
       rationale: 'Industrial fractional distillation: how it works, chain-length/boiling-point basis,
         column diagram.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.9
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       evidence: Refinery gas | Domestic heating & cooking
       rationale: Main-fractions table (refinery gases, gasoline, kerosene, diesel, fuel oil, bitumen)
         with uses (quoted row).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.10
     provenance:
       tier: AI_SUGGESTED
@@ -47,7 +53,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: darker as it gets thicker and more viscous
       rationale: Colour, viscosity and boiling-point trend sections for the main fractions.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

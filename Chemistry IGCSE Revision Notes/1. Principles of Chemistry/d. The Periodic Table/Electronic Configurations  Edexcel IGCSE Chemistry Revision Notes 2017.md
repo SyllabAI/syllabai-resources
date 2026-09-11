@@ -23,7 +23,9 @@ spec_map:
       rationale: Shell-filling rules, electron shell diagrams and the first-20 configurations table, plus
         the position-to-configuration relationship section (period = occupied shells, group = outer electrons,
         chlorine worked example) that carries the deduction-from-position skill.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.22
     provenance:
       tier: AI_SUGGESTED
@@ -32,7 +34,9 @@ spec_map:
       evidence: Electronic configurations and the periodic table
       rationale: Dedicated section (quoted heading) relating configuration to Periodic Table position,
         incl. the worked chlorine-position example.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

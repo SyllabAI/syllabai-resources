@@ -22,7 +22,9 @@ spec_map:
         uncombined element
       rationale: Ores in the Earth's crust, definition of ore, and the unreactive-metals-as-elements rule
         (both 2.22C clauses).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

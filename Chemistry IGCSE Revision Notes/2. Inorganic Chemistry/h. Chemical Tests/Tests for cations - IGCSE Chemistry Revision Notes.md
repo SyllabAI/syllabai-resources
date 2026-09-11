@@ -22,7 +22,9 @@ spec_map:
         when sodium hydroxide (NaOH) is added
       rationale: NaOH precipitate colours for Cu2+/Fe2+/Fe3+ plus the ammonium-ion test (heating with
         NaOH, ammonia gas identified).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

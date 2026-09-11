@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Chemical amounts are measured in moles
       rationale: 'The mole as the unit of amount: mol symbol, Avogadro constant, particles-per-mole examples.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.28
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       evidence: The mass of 1 mole of a substance is known as the molar mass
       rationale: 'Amount-of-substance calculations: molar mass from Ar/Mr, mole-mass conversions, multiple
         worked examples.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

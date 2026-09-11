@@ -21,7 +21,9 @@ spec_map:
       evidence: At the anode, negatively charged ions lose electrons and are thus oxidised
       rationale: Half-equations for the named systems (molten PbBr2, aqueous NaCl, dilute H2SO4, aqueous
         CuSO4) with oxidation/reduction classification by electron loss/gain.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

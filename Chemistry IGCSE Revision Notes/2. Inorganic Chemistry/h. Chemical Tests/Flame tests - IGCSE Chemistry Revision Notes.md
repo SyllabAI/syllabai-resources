@@ -21,7 +21,9 @@ spec_map:
       evidence: The flame test is used to identify the positive metal ion (cations) by the colour of the
         flame they produce
       rationale: 'How to carry out a flame test: clean wire loop, dip, observe — the 2.45 procedure.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.46
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Ions from different metals produce different colours
       rationale: Flame colour table for Li (red), Na (yellow), K (lilac), Ca (orange-red), Cu (blue-green).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

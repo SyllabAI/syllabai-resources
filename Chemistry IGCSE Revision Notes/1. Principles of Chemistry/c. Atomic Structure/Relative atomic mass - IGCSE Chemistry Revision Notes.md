@@ -21,7 +21,9 @@ spec_map:
       evidence: The relative atomic mass of each element is calculated from the mass number and relative
         abundances of all the isotopes of a particular element
       rationale: Ar-from-isotopic-abundances equation with multi-isotope worked examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.16
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
         abundances of all the isotopes of a particular element
       rationale: Explains the meaning of the relative atomic mass term (1.16 vocabulary) in the course
         of the calculation note.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

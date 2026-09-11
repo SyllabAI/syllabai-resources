@@ -22,7 +22,9 @@ spec_map:
         the ions
       rationale: Direct-comparison and swap-and-drop methods for writing formulae from the listed ions
         (Fe2+, sulfate etc.).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

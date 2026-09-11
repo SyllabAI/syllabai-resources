@@ -21,7 +21,9 @@ spec_map:
       evidence: A soluble salt can be made from the reaction of an acid with an insoluble base
       rationale: 'The complete pure-dry-soluble-salt method: excess insoluble reactant, filtration, evaporation,
         crystallisation.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

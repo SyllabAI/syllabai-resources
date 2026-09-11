@@ -21,7 +21,9 @@ spec_map:
       evidence: The position of the metal on the reactivity series determines the method of extraction
       rationale: Extraction-method table including electrolysis of aluminium and the carbon/blast-furnace
         route for iron with its zone chemistry.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.24C
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: The position of the metal on the reactivity series determines the method of extraction
       rationale: The worked blast-furnace description is the worked example a student comments on for
         2.24C.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

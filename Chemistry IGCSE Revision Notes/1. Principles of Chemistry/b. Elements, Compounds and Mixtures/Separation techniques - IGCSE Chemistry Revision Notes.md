@@ -21,7 +21,9 @@ spec_map:
       evidence: Simple distillation is used to separate a liquid and soluble solid from a solution
       rationale: 'All five named techniques have dedicated sections: simple distillation, fractional distillation,
         filtration, crystallisation, paper chromatography.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

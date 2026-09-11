@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Esters are compounds with the functional group R-COO-R
       rationale: Ester functional group with structure diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.39C
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       evidence: Ethanoic acid will react with ethanol in the presence of concentrated sulfuric acid (catalyst)
         to form the ester, ethyl ethanoate
       rationale: The named esterification with the acid catalyst and water by-product.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.40C
     provenance:
       tier: AI_SUGGESTED
@@ -38,7 +42,9 @@ spec_map:
       evidence: CH3COOH + C2H5OH → CH3COOC2H5 + H2O
       rationale: Structural/displayed formulae of ethyl ethanoate shown via the formation equation and
         diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.41C
     provenance:
       tier: AI_SUGGESTED
@@ -47,7 +53,9 @@ spec_map:
       evidence: An ester is made from an alcohol and carboxylic acid
       rationale: Naming-esters system mapping alcohol + acid to the ester name and formula (both directions),
         with the examples table.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.42C
     provenance:
       tier: AI_SUGGESTED
@@ -55,7 +63,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Esters are sweet-smelling oily liquids used in food flavourings and perfumes
       rationale: Volatility, distinctive smells and the flavouring/perfume uses.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

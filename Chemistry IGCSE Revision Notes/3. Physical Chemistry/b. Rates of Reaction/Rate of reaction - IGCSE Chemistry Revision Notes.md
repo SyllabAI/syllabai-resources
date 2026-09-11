@@ -22,7 +22,9 @@ spec_map:
         concentration, temperature and a catalyst on a rate of reaction
       rationale: Experimental methods (downward displacement etc.) for all four 3.9 factors with methods
         and results.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.10
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: Factors affecting rates of reaction
       rationale: Dedicated section (quoted heading) with graphs for concentration/pressure, temperature
         and surface-area effects on rate.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

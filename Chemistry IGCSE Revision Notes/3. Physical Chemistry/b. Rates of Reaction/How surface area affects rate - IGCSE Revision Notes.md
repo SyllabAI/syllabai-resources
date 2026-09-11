@@ -22,7 +22,9 @@ spec_map:
         calcium carbonate and hydrochloric acid
       rationale: 'This IS the named practical (surface-area strand): marble chips + dilute HCl with method,
         results, conclusion.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.9
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: Investigating the effect of different size marble chips on the rate of reaction between
         calcium carbonate and hydrochloric acid
       rationale: A surface-area rate experiment of the 3.9 family.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

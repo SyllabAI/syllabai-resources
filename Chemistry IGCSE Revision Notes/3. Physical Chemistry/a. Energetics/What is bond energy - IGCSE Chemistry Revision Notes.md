@@ -21,7 +21,9 @@ spec_map:
       evidence: During a chemical reaction energy must be taken in to break bonds
       rationale: Bond-breaking endothermic / bond-making exothermic with the net-difference rule for overall
         reaction type.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.7C
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: Bond energy calculations
       rationale: Dedicated section (quoted heading) using bond energies to calculate reaction enthalpy
         changes with two worked examples.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

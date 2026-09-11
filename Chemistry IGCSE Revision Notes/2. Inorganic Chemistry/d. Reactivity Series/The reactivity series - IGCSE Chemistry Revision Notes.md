@@ -21,7 +21,9 @@ spec_map:
       evidence: Please send lions, cats, monkeys and cute zebras into hot countries signed Gordon
       rationale: The full 2.17 order K-Na-Li-Ca-Mg-Al-Zn-Fe-Cu-Ag-Au (plus carbon/hydrogen context) with
         the mnemonic table.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

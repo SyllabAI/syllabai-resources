@@ -22,7 +22,9 @@ spec_map:
         method for the preparation of salts
       rationale: 'The complete solubility table: Na/K/NH4 all soluble, nitrates all, chlorides except
         Ag/Pb, sulfates except Ba/Ca/Pb, carbonates except Na/K/NH4, hydroxides except Na/K/Ca.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

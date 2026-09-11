@@ -22,7 +22,9 @@ spec_map:
         solution
       rationale: 'This IS the named practical: saturated solution preparation, temperature control, evaporation,
         mass measurement.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.5C
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: evaporating the solvent, and measuring the mass of the solid obtained
       rationale: Practical's calculation section converts measured masses into solubility in g per 100
         g of water.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

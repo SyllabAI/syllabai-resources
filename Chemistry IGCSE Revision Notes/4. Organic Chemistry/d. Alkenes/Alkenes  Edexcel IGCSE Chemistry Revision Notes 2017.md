@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: All alkenes contain a double carbon bond, which is the functional group
       rationale: C=C as the alkene functional group.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.24
     provenance:
       tier: AI_SUGGESTED
@@ -28,7 +30,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The general formula of an alkene is CnH2n
       rationale: General formula stated.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.25
     provenance:
       tier: AI_SUGGESTED
@@ -36,7 +40,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: Alkenes are unsaturated hydrocarbons
       rationale: Unsaturated classification via the C=C double bond.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.26
     provenance:
       tier: AI_SUGGESTED
@@ -45,7 +51,9 @@ spec_map:
       evidence: The names and structure of the first four alkenes are shown below
       rationale: Displayed-formulae table for ethene, propene, but-1-ene (and pent-1-ene) with names —
         the 4.26 set.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

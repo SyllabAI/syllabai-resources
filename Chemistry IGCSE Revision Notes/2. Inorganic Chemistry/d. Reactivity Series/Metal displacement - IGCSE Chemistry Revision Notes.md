@@ -21,7 +21,9 @@ spec_map:
       evidence: a more reactive metal will displace a less reactive metal from its compounds
       rationale: 'Both 2.16 strands: metal + metal oxide (thermite, Zn + CuO) and metal + aqueous metal
         salt (Mg + CuSO4) with tables.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

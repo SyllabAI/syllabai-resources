@@ -22,7 +22,9 @@ spec_map:
         and make assumptions
       rationale: 'Whole note is chromatogram interpretation: pure vs impure spots, reference compounds,
         number of components.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.12
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: 'retention factor, Rf, is calculated by the equation:'
       rationale: Dedicated Rf Values section with the defining equation and a worked example used to identify
         components.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

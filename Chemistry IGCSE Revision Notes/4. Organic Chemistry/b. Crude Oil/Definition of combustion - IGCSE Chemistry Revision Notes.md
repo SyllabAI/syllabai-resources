@@ -20,7 +20,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: A fuel is a substance that, when burned, releases heat energy
       rationale: Fuel definition and the fossil-fuel family context.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.12
     provenance:
       tier: AI_SUGGESTED
@@ -28,7 +30,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: incomplete combustion of the fuels gives rise to unburned hydrocarbons and carbon particulates
       rationale: Complete-combustion and incomplete-combustion sections with the product sets for each.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.13
     provenance:
       tier: AI_SUGGESTED
@@ -37,7 +41,9 @@ spec_map:
       evidence: capacity of blood to transport oxygen
       rationale: Carbon monoxide danger explained via reduced oxygen transport capacity of blood (haemoglobin-free
         framing available).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

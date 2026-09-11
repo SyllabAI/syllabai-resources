@@ -21,7 +21,9 @@ spec_map:
       evidence: To prepare a small sample of ethyl ethanoate
       rationale: 'This IS the named practical: water-bath heating, distillation of the volatile ester,
         purification.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.39C
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: A mixture of ethanoic acid, ethanol and concentrated sulfuric acid is gently heated
       rationale: The practical instantiates the ethanol + ethanoic acid / acid-catalyst esterification.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

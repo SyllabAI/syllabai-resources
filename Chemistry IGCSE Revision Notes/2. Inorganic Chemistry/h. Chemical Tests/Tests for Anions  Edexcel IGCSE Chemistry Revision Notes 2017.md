@@ -21,7 +21,9 @@ spec_map:
       evidence: Limewater turns cloudy if the carbonate ion is present
       rationale: Tests for carbonate (dilute acid + limewater), halides (acidified silver nitrate) and
         sulfate (acidified barium chloride) with equations and results.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

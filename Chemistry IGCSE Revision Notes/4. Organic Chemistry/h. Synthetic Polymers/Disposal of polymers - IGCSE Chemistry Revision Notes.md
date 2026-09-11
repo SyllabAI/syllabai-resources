@@ -22,7 +22,9 @@ spec_map:
         break them down
       rationale: 'Disposal problems: inertness/non-biodegradability in landfill plus toxic gases on burning
         (PVC to hydrogen chloride, carbon monoxide from incomplete combustion).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

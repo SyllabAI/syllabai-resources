@@ -22,7 +22,9 @@ spec_map:
         and to collect and identify the products at each electrode
       rationale: This IS the named practical (aim, apparatus diagram, method, product testing, results,
         conclusions).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.58C
     provenance:
       tier: AI_SUGGESTED
@@ -32,7 +34,9 @@ spec_map:
         and to collect and identify the products at each electrode
       rationale: The practical describes exactly the 1.58C experiments (inert electrodes, the three named
         solutions) and their products.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -21,7 +21,9 @@ spec_map:
       evidence: Polymers are large molecules of high relative molecular mass and are made by linking together
         large numbers of smaller molecules called monomers
       rationale: Addition polymerisation from monomers, with the monomer-to-polymer diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.45
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       rationale: 'Drawing polymers and repeat units from the monomer (polyethene, polypropene, chloroethene
         examples). Note for PR review: poly(tetrafluoroethene) is not among the worked examples in this
         note.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-4.46
     provenance:
       tier: AI_SUGGESTED
@@ -40,7 +44,9 @@ spec_map:
       evidence: Deducing the monomer from the polymer
       rationale: Both directions covered by dedicated sections (quoted heading + Deducing the polymer
         from the monomer).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

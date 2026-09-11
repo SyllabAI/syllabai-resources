@@ -21,7 +21,9 @@ spec_map:
       evidence: Equilibrium can only be reached in a closed container
       rationale: Dynamic equilibrium in a sealed/closed container with the open-vs-closed system comparison
         and rate-vs-progress graph.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.20C
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: When the rate of the forward reaction equals the rate of the reverse reaction, the overall
         reaction is said to be in a state of equilibrium
       rationale: 'Both 3.20C characteristics: equal forward/reverse rates and constant concentrations.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

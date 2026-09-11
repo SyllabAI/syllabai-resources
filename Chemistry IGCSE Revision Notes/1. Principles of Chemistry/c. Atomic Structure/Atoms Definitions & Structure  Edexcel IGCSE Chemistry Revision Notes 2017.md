@@ -21,7 +21,9 @@ spec_map:
       evidence: The smallest particle of an element that contains electrons surrounding a nucleus that
         contains protons and neutrons
       rationale: 'Atom and molecule definitions table (quoted: Atom row); Molecule row also present.'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.15
     provenance:
       tier: AI_SUGGESTED
@@ -29,7 +31,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The protons and neutrons are located at the centre of the atom, which is called the nucleus
       rationale: Subatomic particle positions plus the mass/charge table; includes calculating protons/neutrons/electrons.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-1.16
     provenance:
       tier: AI_SUGGESTED
@@ -39,7 +43,9 @@ spec_map:
       rationale: The terms table defines all four 1.16 terms - atomic number, mass number, isotope and
         relative atomic mass (the quoted Ar row, incl. the carbon-12 standard); the calculation of Ar
         from isotopic abundances is 1.17's content in the dedicated RAM note.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

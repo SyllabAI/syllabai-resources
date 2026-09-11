@@ -21,7 +21,9 @@ spec_map:
       evidence: Small covalent molecules can be represented by dot and cross diagrams
       rationale: 'Covers the full 1.46 molecule list by section: diatomics (H2, O2, N2, halogens, HCl),
         inorganic (H2O, NH3, CO2) and organics up to two carbons (methane, ethane, ethene, halogenated).'
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

@@ -21,7 +21,9 @@ spec_map:
       evidence: Oxygen and water must be present for rust to occur
       rationale: Rusting-conditions investigation with the three control tubes (air+water, no air, no
         water).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-2.19
     provenance:
       tier: AI_SUGGESTED
@@ -30,7 +32,9 @@ spec_map:
       evidence: barriers that prevent the iron from coming into contact with water and oxygen
       rationale: Rust prevention by barrier methods, sacrificial protection (zinc bars on ships) and galvanising
         — the three 2.19 methods.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

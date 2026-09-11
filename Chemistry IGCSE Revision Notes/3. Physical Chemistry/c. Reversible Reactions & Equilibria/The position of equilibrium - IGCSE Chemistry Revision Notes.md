@@ -22,7 +22,9 @@ spec_map:
         the smallest amount of gaseous molecules
       rationale: Temperature and pressure effects on equilibrium position with worked examples (Le Chatelier
         used as teaching frame, not required language).
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   - code: 4CH1-3.21C
     provenance:
       tier: AI_SUGGESTED
@@ -31,7 +33,9 @@ spec_map:
       evidence: catalyst does not affect the position of equilibrium but it does increase the rate at
         which equilibrium is reached
       rationale: Dedicated catalysts-and-equilibrium section with the equal-rate-increase mechanism diagram.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

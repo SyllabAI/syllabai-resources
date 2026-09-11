@@ -1,114 +1,54 @@
 {
-  "audit": "T-C10 ratification reconciliation (read-only; round-5 dual-batch edition, phase=pre)",
+  "audit": "T-C10 ratification reconciliation (read-only; round-5 dual-batch edition, phase=post)",
   "generated": "2026-09-11",
-  "phase": "pre",
+  "phase": "post",
   "operator_instruction": "Ratify the 59 and promote 150 (2026-09-11)",
   "operator_advisor_condition": "round 3: machine-verifiable reconciliation of the ratification targets against the review sheet — exact note->SpecificationPoint identity, no unreviewed mapping promoted. Round 4 added: remove/rework the two rejected mappings, regenerate the gates, then the final exact-target reconciliation before ratification. Round 5 added: the 150-spec §13 batch staged from C10_ROUND5_REVIEW.json must reconcile identically before execution, and the executed state must verify afterwards (--phase post).",
-  "repo_head": "0db00e8",
+  "repo_head": "bb4ee63",
   "sheet": "graph/reports/PHASE2_PR_REVIEW_SHEET.md",
   "verdict": "PASS",
   "checks": [
     {
-      "id": "C1",
-      "name": "review record: 61 round-3 pairs, 2 round-4 REJECTs -> 59 distinct CONFIRM pairs",
+      "id": "E1",
+      "name": "executed state: 209/209 HUMAN_VALIDATED, every block validated_by 'operator' + '2026-09-11', zero SUGGESTED",
       "status": "PASS",
-      "detail": "59 CONFIRM pairs; superseded: 2 (== R4.ROUND4_REJECTS); verdicts scanned: 33 + 1 P4 + 21 P6a + 7 P6b"
+      "detail": "promoted 209/209"
     },
     {
-      "id": "C1b",
-      "name": "round-4 REJECTs well-formed and REMOVED from the store (both notes keep >= 1 mapping)",
+      "id": "E2",
+      "name": "promoted set == §12 ∪ §13 staged targets (exact bijection)",
       "status": "PASS",
-      "detail": "Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-4.14', '4CH1-4.16']; Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-1.26']"
+      "detail": "staged union 209; promoted 209; sym-diff 0"
     },
     {
-      "id": "C1c",
-      "name": "round-5 record: 150 pairs, idx 1..150, all CONFIRM, distinct, all in store by exact identity; pre-review SHA c6454c9 an ancestor of HEAD",
-      "status": "PASS",
-      "detail": "150 pairs (150); distinct True; in-store True; pre-review ancestor True; 2 corrections referenced"
-    },
-    {
-      "id": "C2",
-      "name": "sheet §12 stages exactly 59 distinct --map specs",
-      "status": "PASS",
-      "detail": "59 specs, 59 distinct; --by 'operator' --date '2026-09-11'"
-    },
-    {
-      "id": "C2b",
-      "name": "sheet §13 stages exactly 150 distinct --map specs",
-      "status": "PASS",
-      "detail": "150 specs, 150 distinct; --by 'operator' --date '2026-09-11'"
-    },
-    {
-      "id": "C3",
-      "name": "production resolver resolves all 59 specs unambiguously (no code-wide promotion)",
-      "status": "PASS",
-      "detail": "29 bare CODE specs (each code on exactly one note), 30 CODE@FRAGMENT specs; 59 distinct (code, note) targets"
-    },
-    {
-      "id": "C3b",
-      "name": "production resolver resolves all 150 specs unambiguously (bare CODE only where the code lives on exactly one note)",
-      "status": "PASS",
-      "detail": "127 bare CODE specs, 23 CODE@FRAGMENT specs; 150 distinct (code, note) targets"
-    },
-    {
-      "id": "C4a",
-      "name": "every surviving reviewed pair is staged by §12 (completeness)",
-      "status": "PASS",
-      "detail": "59/59 staged"
-    },
-    {
-      "id": "C4b",
-      "name": "every §12 staged target is a reviewed pair (no unreviewed promotion)",
-      "status": "PASS",
-      "detail": "59/59 reviewed"
-    },
-    {
-      "id": "C4c",
-      "name": "no round-4 REJECTed pair is staged (both live outside the batch)",
-      "status": "PASS",
-      "detail": "staged ∩ rejected = ∅"
-    },
-    {
-      "id": "C4d",
-      "name": "§13 staged pairs == exactly the 150 round-5 CONFIRM pairs (bijection)",
-      "status": "PASS",
-      "detail": "150/150 round-5 pairs staged"
-    },
-    {
-      "id": "C4e",
-      "name": "§12 ∩ §13 = ∅ and §12 ∪ §13 = the whole 209-mapping store (each mapping staged exactly once)",
-      "status": "PASS",
-      "detail": "union 209/209; overlap 0"
-    },
-    {
-      "id": "C5",
-      "name": "pre-state: 0 promoted / all 209 SUGGESTED — the batches are exactly 209 promotions, 0 no-ops",
-      "status": "PASS",
-      "detail": "promoted on disk: 0; all 209 targets in SUGGESTED state: True"
-    },
-    {
-      "id": "C6",
-      "name": "store shape: 112 notes / 209 mappings / 176 high / 32 medium / 1 low",
+      "id": "E3",
+      "name": "store shape unchanged by promotion: 112 / 209 / 176-32-1",
       "status": "PASS",
       "detail": "112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1}"
     },
     {
-      "id": "C7",
-      "name": "corpus stat: 68/112 notes carry 2+ codes (contributory many-to-many is the corpus shape)",
+      "id": "E4",
+      "name": "round-5 text reconciliation: all 150 evidence quotes retained exactly; 148 rationales byte-identical; the 2 recorded corrections (4CH1-1.1, 4CH1-1.19) applied verbatim",
       "status": "PASS",
-      "detail": "68/112"
+      "detail": "2 corrections verified"
     },
     {
-      "id": "C8",
-      "name": "VLM archive: 29 verdict JSONs (21 round-3/4 + 8 round-5) with codes matching the P6a queue and the round-5 set exactly",
+      "id": "E5",
+      "name": "VLM archive: 29 verdict JSONs as in the pre-execution audit",
       "status": "PASS",
       "detail": "29 files; sym-diff: none"
     },
     {
-      "id": "C9",
-      "name": "git provenance: HEAD descends from the pushed round-5 state c90f5ae, tree clean apart from this change-set",
+      "id": "E6",
+      "name": "git provenance: HEAD descends from the round-5 state; only expected execution paths are dirty (decisions / note front matter / coverage report) + this audit's own artifacts",
       "status": "PASS",
-      "detail": "HEAD 0db00e8; dirty-foreign: none"
+      "detail": "HEAD bb4ee63; unexpected: none"
+    },
+    {
+      "id": "E7",
+      "name": "note bodies byte-identical to the round-5 review state c90f5ae (promotion touches front matter only)",
+      "status": "PASS",
+      "detail": "112 notes compared"
     }
   ],
   "stats": {
@@ -119,7 +59,7 @@
       "medium": 32,
       "low": 1
     },
-    "promoted": 0,
+    "promoted": 209,
     "notes_with_2plus_codes": 68,
     "vlm_files": 29,
     "s12_specs": 59,
@@ -1674,5 +1614,5 @@
       "disposition": "removed from decisions S1.json (note keeps 1.26); 1.17 remains covered by its high-confidence in-subsection S1-c mapping; the 1.17@S1-e cross-subsection flag is retired with the mapping"
     }
   ],
-  "conclusion": "Both staged batches are exactly the AI-reviewed sets: §12 promotes exactly the 59 round-4-surviving CONFIRMs (both round-4 REJECTs proven removed from the store and absent from the command), §13 promotes exactly the 150 round-5 CONFIRMs, the two batches are disjoint and cover the whole 209-mapping store exactly once, and the pre-state is 0 promoted / 209 SUGGESTED. The operator may execute §12 then §13 as staged."
+  "conclusion": "Execution verified: the store now carries 209/209 HUMAN_VALIDATED mappings (validated_by operator, 2026-09-11), the promoted set is exactly §12 ∪ §13, store shape is unchanged, all 150 round-5 evidence quotes are retained, the 2 recorded rationale corrections are applied verbatim, and all 112 note bodies are byte-identical to the round-5 review state. T-C10's human-validation gate is discharged."
 }

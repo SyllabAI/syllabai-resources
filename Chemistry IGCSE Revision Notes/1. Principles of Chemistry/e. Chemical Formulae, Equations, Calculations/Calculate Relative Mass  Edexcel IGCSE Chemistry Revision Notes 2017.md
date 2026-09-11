@@ -21,7 +21,9 @@ spec_map:
       evidence: To calculate the Mr of a substance, you have to add up the relative atomic masses of all
         the atoms present in the formula
       rationale: Ar/Mr symbols and Mr calculation by summing atomic masses, with the worked table of substances.
-      validation_status: SUGGESTED
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---
