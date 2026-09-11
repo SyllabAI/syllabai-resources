@@ -1,58 +1,70 @@
 {
-  "audit": "T-C10 pre-ratification reconciliation (read-only)",
+  "audit": "T-C10 pre-ratification reconciliation (read-only; round 4)",
   "generated": "2026-09-11",
-  "operator_advisor_condition": "machine-verifiable reconciliation of the 61 ratification targets against the review sheet: exact note->SpecificationPoint identity, no unreviewed mapping promoted",
-  "repo_head": "0ec4c89",
+  "operator_advisor_condition": "round 3: machine-verifiable reconciliation of the ratification targets against the review sheet — exact note->SpecificationPoint identity, no unreviewed mapping promoted. Round 4 added: remove/rework the two rejected mappings, regenerate the gates, then the final exact-target reconciliation before ratification — both discharged here against the 59-spec sheet §12 batch",
+  "repo_head": "49a0478",
   "sheet": "graph/reports/PHASE2_PR_REVIEW_SHEET.md",
   "verdict": "PASS",
   "checks": [
     {
       "id": "C1",
-      "name": "review record resolves to 61 distinct reviewed pairs, all CONFIRM",
+      "name": "review record: 61 round-3 pairs, 2 round-4 REJECTs -> 59 distinct CONFIRM pairs",
       "status": "PASS",
-      "detail": "61 pairs; verdicts scanned: 36 + 21 P6a + 7 P6b"
+      "detail": "59 CONFIRM pairs; superseded: 2 (== R4.ROUND4_REJECTS); verdicts scanned: 33 + 1 P4 + 21 P6a + 7 P6b"
+    },
+    {
+      "id": "C1b",
+      "name": "round-4 REJECTs well-formed and REMOVED from the store (both notes keep >= 1 mapping)",
+      "status": "PASS",
+      "detail": "Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-1.26']; Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-4.14', '4CH1-4.16']"
     },
     {
       "id": "C2",
-      "name": "sheet §11 stages exactly 61 distinct --map specs",
+      "name": "sheet §12 stages exactly 59 distinct --map specs",
       "status": "PASS",
-      "detail": "61 specs, 61 distinct; --by 'operator' --date '2026-09-11'"
+      "detail": "59 specs, 59 distinct; --by 'operator' --date '2026-09-11'"
     },
     {
       "id": "C3",
-      "name": "production resolver resolves all 61 specs unambiguously (no code-wide promotion)",
+      "name": "production resolver resolves all 59 specs unambiguously (no code-wide promotion)",
       "status": "PASS",
-      "detail": "30 bare CODE specs (each code on exactly one note), 31 CODE@FRAGMENT specs; 61 distinct (code, note) targets"
+      "detail": "29 bare CODE specs (each code on exactly one note), 30 CODE@FRAGMENT specs; 59 distinct (code, note) targets"
     },
     {
       "id": "C4a",
-      "name": "every reviewed pair is staged by the command (completeness)",
+      "name": "every surviving reviewed pair is staged by the command (completeness)",
       "status": "PASS",
-      "detail": "61/61 staged"
+      "detail": "59/59 staged"
     },
     {
       "id": "C4b",
       "name": "every staged target is a reviewed pair (no unreviewed promotion)",
       "status": "PASS",
-      "detail": "61/61 reviewed"
+      "detail": "59/59 reviewed"
+    },
+    {
+      "id": "C4c",
+      "name": "no round-4 REJECTed pair is staged (both live outside the batch)",
+      "status": "PASS",
+      "detail": "staged ∩ rejected = ∅"
     },
     {
       "id": "C5",
-      "name": "pre-state: 0 promoted / all 211 SUGGESTED — batch = exactly 61 promotions, 0 no-ops",
+      "name": "pre-state: 0 promoted / all 209 SUGGESTED — batch = exactly 59 promotions, 0 no-ops",
       "status": "PASS",
-      "detail": "promoted on disk: 0; all 61 targets in SUGGESTED state: True"
+      "detail": "promoted on disk: 0; all 59 targets in SUGGESTED state: True"
     },
     {
       "id": "C6",
-      "name": "store shape: 112 notes / 211 mappings / 176 high / 34 medium / 1 low",
+      "name": "store shape: 112 notes / 209 mappings / 176 high / 32 medium / 1 low",
       "status": "PASS",
-      "detail": "112 notes / 211 mappings / {'high': 176, 'medium': 34, 'low': 1}"
+      "detail": "112 notes / 209 mappings / {'high': 176, 'medium': 32, 'low': 1}"
     },
     {
       "id": "C7",
-      "name": "corpus stat: 69/112 notes carry 2+ codes (contributory many-to-many is the corpus shape)",
+      "name": "corpus stat: 68/112 notes carry 2+ codes (contributory many-to-many is the corpus shape)",
       "status": "PASS",
-      "detail": "69/112"
+      "detail": "68/112"
     },
     {
       "id": "C8",
@@ -62,27 +74,28 @@
     },
     {
       "id": "C9",
-      "name": "git provenance: HEAD 0ec4c89…, tree clean",
+      "name": "git provenance: HEAD 49a0478… (round-4 rework commit), tree clean",
       "status": "PASS",
-      "detail": "HEAD 0ec4c89, tree clean"
+      "detail": "HEAD 49a0478, tree clean"
     }
   ],
   "stats": {
     "notes": 112,
-    "mappings": 211,
+    "mappings": 209,
     "confidence": {
       "high": 176,
-      "medium": 34,
+      "medium": 32,
       "low": 1
     },
     "promoted_before": 0,
-    "notes_with_2plus_codes": 69,
+    "notes_with_2plus_codes": 68,
     "vlm_files": 21,
-    "command_specs": 61,
-    "bare_code_specs": 30,
-    "fragment_specs": 31,
+    "command_specs": 59,
+    "bare_code_specs": 29,
+    "fragment_specs": 30,
     "command_by": "operator",
-    "command_date": "2026-09-11"
+    "command_date": "2026-09-11",
+    "round4_rejected": 2
   },
   "reviewed_pairs": [
     {
@@ -91,7 +104,7 @@
       "note_stem": "Paper chromatography - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.11",
@@ -99,7 +112,7 @@
       "note_stem": "Interpreting chromatograms - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.12",
@@ -107,7 +120,7 @@
       "note_stem": "Interpreting chromatograms - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.16",
@@ -115,7 +128,7 @@
       "note_stem": "Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.16",
@@ -123,7 +136,7 @@
       "note_stem": "Relative atomic mass - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.17",
@@ -131,15 +144,7 @@
       "note_stem": "Relative atomic mass - IGCSE Chemistry Revision Notes",
       "queue": "P4 S1-c high",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
-    },
-    {
-      "code": "4CH1-1.17",
-      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
-      "note_stem": "Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017",
-      "queue": "P1/P2/P5/P3",
-      "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.22",
@@ -147,7 +152,7 @@
       "note_stem": "Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.25",
@@ -155,7 +160,7 @@
       "note_stem": "Reacting mass calculations - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.28",
@@ -163,7 +168,7 @@
       "note_stem": "Reacting mass calculations - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.31",
@@ -171,7 +176,7 @@
       "note_stem": "Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.33",
@@ -179,7 +184,7 @@
       "note_stem": "Investigating metal oxide formulas - IGCSE Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.33",
@@ -187,7 +192,7 @@
       "note_stem": "Simple compound formulae - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.37",
@@ -195,7 +200,7 @@
       "note_stem": "Common Ions  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.37",
@@ -203,7 +208,7 @@
       "note_stem": "Ionic bonding diagrams - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.39",
@@ -211,7 +216,7 @@
       "note_stem": "Formula of ionic compounds - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.4",
@@ -219,7 +224,7 @@
       "note_stem": "Solubility - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "low",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.41",
@@ -227,7 +232,7 @@
       "note_stem": "Ionic bonding and lattices - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.50",
@@ -235,7 +240,7 @@
       "note_stem": "Simple molecular structures - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.51",
@@ -243,7 +248,7 @@
       "note_stem": "Simple molecular structures - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.52C",
@@ -251,7 +256,7 @@
       "note_stem": "Metallic bonding - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.56C",
@@ -259,7 +264,7 @@
       "note_stem": "Electrolysis diagram - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.58C",
@@ -267,7 +272,7 @@
       "note_stem": "Practical Investigate the Electrolysis of Aqueous Solutions  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.5C",
@@ -275,7 +280,7 @@
       "note_stem": "Investigating solubility - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.60C",
@@ -283,7 +288,7 @@
       "note_stem": "Practical Investigate the Electrolysis of Aqueous Solutions  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-1.8",
@@ -291,7 +296,7 @@
       "note_stem": "Pure substances - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.10",
@@ -299,7 +304,7 @@
       "note_stem": "Oxygen percentage in air - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.15",
@@ -307,7 +312,7 @@
       "note_stem": "Metals reacting with acids - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.17",
@@ -315,7 +320,7 @@
       "note_stem": "Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.21",
@@ -323,7 +328,7 @@
       "note_stem": "Metals reacting with acids - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.24C",
@@ -331,7 +336,7 @@
       "note_stem": "Extraction of metals from ores - IGCSE Chemistry",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.26C",
@@ -339,7 +344,7 @@
       "note_stem": "Alloys - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.29",
@@ -347,7 +352,7 @@
       "note_stem": "Acids, Alkalis & Neutralisation - IGCSE Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.33C",
@@ -355,7 +360,7 @@
       "note_stem": "Acid-Alkali Titrations  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.39",
@@ -363,7 +368,7 @@
       "note_stem": "Preparing copper sulfate - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.41C",
@@ -371,7 +376,7 @@
       "note_stem": "Preparing lead sulfate - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.5",
@@ -379,7 +384,7 @@
       "note_stem": "Group 7 properties - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-2.9",
@@ -387,7 +392,7 @@
       "note_stem": "Composition of air - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.10",
@@ -395,7 +400,7 @@
       "note_stem": "Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.19C",
@@ -403,7 +408,7 @@
       "note_stem": "Dynamic equilibrium - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.2",
@@ -411,7 +416,7 @@
       "note_stem": "Calorimetry - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.2",
@@ -419,7 +424,7 @@
       "note_stem": "Temperature change practical - IGCSE Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.21C",
@@ -427,7 +432,7 @@
       "note_stem": "The position of equilibrium - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.9",
@@ -435,7 +440,7 @@
       "note_stem": "How surface area affects rate - IGCSE Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-3.9",
@@ -443,7 +448,7 @@
       "note_stem": "Investigating catalysts - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.10",
@@ -451,15 +456,7 @@
       "note_stem": "Fractional distillation - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
-    },
-    {
-      "code": "4CH1-4.15",
-      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md",
-      "note_stem": "Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017",
-      "queue": "P1/P2/P5/P3",
-      "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.2",
@@ -467,7 +464,7 @@
       "note_stem": "Introduction to Organic Chemistry - IGCSE Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.21",
@@ -475,7 +472,7 @@
       "note_stem": "Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.29C",
@@ -483,7 +480,7 @@
       "note_stem": "Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.30C",
@@ -491,7 +488,7 @@
       "note_stem": "Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.34C",
@@ -499,7 +496,7 @@
       "note_stem": "Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.35C",
@@ -507,7 +504,7 @@
       "note_stem": "Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.38C",
@@ -515,7 +512,7 @@
       "note_stem": "Making and naming esters - IGCSE Chemistry Revision Notes",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.39C",
@@ -523,7 +520,7 @@
       "note_stem": "Preparation of ethyl ethanoate - IGCSE Chemistry",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.40C",
@@ -531,7 +528,7 @@
       "note_stem": "Making and naming esters - IGCSE Chemistry Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.44",
@@ -539,7 +536,7 @@
       "note_stem": "Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017",
       "queue": "P6a diagram queue",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.5",
@@ -547,7 +544,7 @@
       "note_stem": "Introduction to Organic Chemistry - IGCSE Revision Notes",
       "queue": "P1/P2/P5/P3",
       "confidence": "medium",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.7",
@@ -555,7 +552,7 @@
       "note_stem": "Fractional distillation - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.8",
@@ -563,7 +560,7 @@
       "note_stem": "Fractional distillation - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     },
     {
       "code": "4CH1-4.9",
@@ -571,8 +568,24 @@
       "note_stem": "Fractional distillation - IGCSE Chemistry Revision Notes",
       "queue": "P6b missing figures",
       "confidence": "high",
-      "verdict": "CONFIRM (AI review pass 2026-09-11)"
+      "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     }
   ],
-  "conclusion": "The staged 61-spec c10_promote.py batch in PHASE2_PR_REVIEW_SHEET.md §11 promotes exactly the 61 AI-reviewed CONFIRM mappings — exact (note, code) identity proven, zero unreviewed or code-wide promotions, zero ambiguity, store pre-state 0 promoted / 211 SUGGESTED. The operator may execute the batch as staged."
+  "rejected_pairs": [
+    {
+      "code": "4CH1-4.15",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "verdict": "REJECT (round 4, 2026-09-11)",
+      "disposition": "removed from decisions S4.json (note keeps 4.14 / 4.16); 4.15 -> zero-coverage corpus gap, annotated in PHASE2_MAPPING_COVERAGE.md §3 for T-C11"
+    },
+    {
+      "code": "4CH1-1.17",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "verdict": "REJECT (round 4, 2026-09-11)",
+      "disposition": "removed from decisions S1.json (note keeps 1.26); 1.17 remains covered by its high-confidence in-subsection S1-c mapping; the 1.17@S1-e cross-subsection flag is retired with the mapping"
+    }
+  ],
+  "conclusion": "The staged 59-spec c10_promote.py batch in PHASE2_PR_REVIEW_SHEET.md §12 promotes exactly the 59 round-4-surviving AI-reviewed CONFIRM mappings — exact (note, code) identity proven, zero unreviewed or code-wide promotions, zero ambiguity, both round-4 REJECTs proven removed from the store and absent from the command, store pre-state 0 promoted / 209 SUGGESTED. The operator may execute the §12 batch as staged."
 }
