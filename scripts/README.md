@@ -123,19 +123,24 @@
 - `c10_vlm_results/` — archived raw VLM (glm-5v) verdict JSONs for the 21
   diagram-dependent mappings (incl. the prior 1.52C check). Evidence
   artifact backing the review sheet §7; one JSON per mapping.
-- `c10_ratify_audit.py` — T-C10 pre-ratification reconciliation audit
-  (2026-09-11, READ-ONLY; re-targeted at sheet §12 after round 4): the
-  machine-verifiable check that the staged 59-spec batch promotes exactly
-  the round-4-surviving reviewed CONFIRM mappings. Resolves the sheet's
-  §12 `--map` specs with the PRODUCTION `c10_promote.py` resolver (so
-  ambiguity / code-wide promotion would fail as in real execution) and
-  proves bijection review-record ↔ command (59/59 both directions), zero
-  unreviewed targets, both round-4 REJECTs absent from the store AND the
-  command (imported from `c10_round4_rejects.ROUND4_REJECTS`), pre-state
-  0 promoted / 209 SUGGESTED, store shape 112/209/176-32-1, 68/112
-  multi-point notes, 21 VLM files, git HEAD provenance. Writes
+- `c10_ratify_audit.py` — T-C10 ratification reconciliation audit
+  (2026-09-11, READ-ONLY; round-5 dual-batch edition): the
+  machine-verifiable check over BOTH staged batches — sheet §12 (59-spec,
+  round-4 survivors) and sheet §13 (150-spec, round-5 CONFIRMs, staged by
+  `c10_round5_batch.py`). `--phase pre` (default) is the pre-execution
+  reconciliation: resolves each section's `--map` specs with the PRODUCTION
+  `c10_promote.py` resolver, proves bijection review-record ↔ command for
+  both batches (59/59 and 150/150), disjointness (§12 ∩ §13 = ∅) and
+  exact-once coverage of the whole 209-mapping store, both round-4 REJECTs
+  absent, pre-state 0 promoted / 209 SUGGESTED, store shape, 29 VLM
+  files, HEAD descending from the pushed round-5 state. `--phase post`
+  verifies the executed state: 209/209 HUMAN_VALIDATED (operator /
+  2026-09-11) == §12 ∪ §13 exactly, shape unchanged, all 150 evidence
+  quotes retained + the 2 recorded rationale corrections applied
+  verbatim, and all 112 note bodies byte-identical to the round-5 review
+  state (promotion touches front matter only). Writes
   `graph/reports/C10_RATIFICATION_AUDIT.{json,md}`; mutates nothing else:
-  `python3 scripts/c10_ratify_audit.py`
+  `python3 scripts/c10_ratify_audit.py [--phase pre|post]`
 - `graph_check.py` group 6 (`c10-notes-mapping`) — persistent-state check of
   the applied T-C10 mapping (schema, registry membership, provenance
   vocabulary, anchor-vs-slug, foreign codes, totals 112/209/181 — round-4
@@ -163,3 +168,21 @@
   JSONs for the 8 diagram-dependent mappings among the 150 (1.40, 1.46,
   3.5C, 3.14C, 4.26, 4.41C, 4.45, 4.49C). Evidence artifact backing the
   round-5 review sheet §5.
+- `c10_round5_rework.py` — T-C10 round-5 rationale rework (2026-09-11):
+  applies the two rationale corrections recorded (not applied) by the
+  round-5 review — 4CH1-1.1 overstatement repair, 4CH1-1.19
+  under-description repair — verbatim from `C10_ROUND5_REVIEW.json`
+  `corrected_rationales` (byte-for-byte; evidence + confidence +
+  validation unchanged; note bodies byte-identical, front-matter
+  rationale lines only). Idempotent; followed by the gated applier re-run:
+  `python3 scripts/c10_round5_rework.py`
+- `c10_round5_batch.py` — T-C10 round-5 promotion stager (2026-09-11):
+  derives the §13 150-spec staged batch command mechanically from
+  `C10_ROUND5_REVIEW.json` (operator instruction "Ratify the 59 and
+  promote 150" — one controlled promotion, no risk/section split) and
+  rewrites the sheet's machine region idempotently (END marker preserves
+  any execution record). Every spec is proven against the production
+  resolver before writing: bare CODE only where the code lives on one
+  note, else `CODE@FRAGMENT` via the stem -> parent/stem -> full-path
+  ladder; §12 ∩ §13 = ∅ and §12 ∪ §13 = the whole store:
+  `python3 scripts/c10_round5_batch.py`

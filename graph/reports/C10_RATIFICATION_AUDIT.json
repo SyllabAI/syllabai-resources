@@ -1,8 +1,10 @@
 {
-  "audit": "T-C10 pre-ratification reconciliation (read-only; round 4)",
+  "audit": "T-C10 ratification reconciliation (read-only; round-5 dual-batch edition, phase=pre)",
   "generated": "2026-09-11",
-  "operator_advisor_condition": "round 3: machine-verifiable reconciliation of the ratification targets against the review sheet — exact note->SpecificationPoint identity, no unreviewed mapping promoted. Round 4 added: remove/rework the two rejected mappings, regenerate the gates, then the final exact-target reconciliation before ratification — both discharged here against the 59-spec sheet §12 batch",
-  "repo_head": "9efd5b5",
+  "phase": "pre",
+  "operator_instruction": "Ratify the 59 and promote 150 (2026-09-11)",
+  "operator_advisor_condition": "round 3: machine-verifiable reconciliation of the ratification targets against the review sheet — exact note->SpecificationPoint identity, no unreviewed mapping promoted. Round 4 added: remove/rework the two rejected mappings, regenerate the gates, then the final exact-target reconciliation before ratification. Round 5 added: the 150-spec §13 batch staged from C10_ROUND5_REVIEW.json must reconcile identically before execution, and the executed state must verify afterwards (--phase post).",
+  "repo_head": "4f22934",
   "sheet": "graph/reports/PHASE2_PR_REVIEW_SHEET.md",
   "verdict": "PASS",
   "checks": [
@@ -16,7 +18,13 @@
       "id": "C1b",
       "name": "round-4 REJECTs well-formed and REMOVED from the store (both notes keep >= 1 mapping)",
       "status": "PASS",
-      "detail": "Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-1.26']; Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-4.14', '4CH1-4.16']"
+      "detail": "Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-4.14', '4CH1-4.16']; Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017 keeps ['4CH1-1.26']"
+    },
+    {
+      "id": "C1c",
+      "name": "round-5 record: 150 pairs, idx 1..150, all CONFIRM, distinct, all in store by exact identity; pre-review SHA c6454c9 an ancestor of HEAD",
+      "status": "PASS",
+      "detail": "150 pairs (150); distinct True; in-store True; pre-review ancestor True; 2 corrections referenced"
     },
     {
       "id": "C2",
@@ -25,20 +33,32 @@
       "detail": "59 specs, 59 distinct; --by 'operator' --date '2026-09-11'"
     },
     {
+      "id": "C2b",
+      "name": "sheet §13 stages exactly 150 distinct --map specs",
+      "status": "PASS",
+      "detail": "150 specs, 150 distinct; --by 'operator' --date '2026-09-11'"
+    },
+    {
       "id": "C3",
       "name": "production resolver resolves all 59 specs unambiguously (no code-wide promotion)",
       "status": "PASS",
       "detail": "29 bare CODE specs (each code on exactly one note), 30 CODE@FRAGMENT specs; 59 distinct (code, note) targets"
     },
     {
+      "id": "C3b",
+      "name": "production resolver resolves all 150 specs unambiguously (bare CODE only where the code lives on exactly one note)",
+      "status": "PASS",
+      "detail": "127 bare CODE specs, 23 CODE@FRAGMENT specs; 150 distinct (code, note) targets"
+    },
+    {
       "id": "C4a",
-      "name": "every surviving reviewed pair is staged by the command (completeness)",
+      "name": "every surviving reviewed pair is staged by §12 (completeness)",
       "status": "PASS",
       "detail": "59/59 staged"
     },
     {
       "id": "C4b",
-      "name": "every staged target is a reviewed pair (no unreviewed promotion)",
+      "name": "every §12 staged target is a reviewed pair (no unreviewed promotion)",
       "status": "PASS",
       "detail": "59/59 reviewed"
     },
@@ -49,10 +69,22 @@
       "detail": "staged ∩ rejected = ∅"
     },
     {
-      "id": "C5",
-      "name": "pre-state: 0 promoted / all 209 SUGGESTED — batch = exactly 59 promotions, 0 no-ops",
+      "id": "C4d",
+      "name": "§13 staged pairs == exactly the 150 round-5 CONFIRM pairs (bijection)",
       "status": "PASS",
-      "detail": "promoted on disk: 0; all 59 targets in SUGGESTED state: True"
+      "detail": "150/150 round-5 pairs staged"
+    },
+    {
+      "id": "C4e",
+      "name": "§12 ∩ §13 = ∅ and §12 ∪ §13 = the whole 209-mapping store (each mapping staged exactly once)",
+      "status": "PASS",
+      "detail": "union 209/209; overlap 0"
+    },
+    {
+      "id": "C5",
+      "name": "pre-state: 0 promoted / all 209 SUGGESTED — the batches are exactly 209 promotions, 0 no-ops",
+      "status": "PASS",
+      "detail": "promoted on disk: 0; all 209 targets in SUGGESTED state: True"
     },
     {
       "id": "C6",
@@ -68,15 +100,15 @@
     },
     {
       "id": "C8",
-      "name": "VLM archive: 21 verdict JSONs with codes matching the P6a queue exactly",
+      "name": "VLM archive: 29 verdict JSONs (21 round-3/4 + 8 round-5) with codes matching the P6a queue and the round-5 set exactly",
       "status": "PASS",
-      "detail": "21 files; sym-diff: none"
+      "detail": "29 files; sym-diff: none"
     },
     {
       "id": "C9",
-      "name": "git provenance: HEAD 9efd5b5… (pushed round-4 state), tree clean",
+      "name": "git provenance: HEAD descends from the pushed round-5 state c90f5ae, tree clean apart from this change-set",
       "status": "PASS",
-      "detail": "HEAD 9efd5b5, tree clean"
+      "detail": "HEAD 4f22934; dirty-foreign: none"
     }
   ],
   "stats": {
@@ -87,15 +119,18 @@
       "medium": 32,
       "low": 1
     },
-    "promoted_before": 0,
+    "promoted": 0,
     "notes_with_2plus_codes": 68,
-    "vlm_files": 21,
-    "command_specs": 59,
-    "bare_code_specs": 29,
-    "fragment_specs": 30,
-    "command_by": "operator",
-    "command_date": "2026-09-11",
-    "round4_rejected": 2
+    "vlm_files": 29,
+    "s12_specs": 59,
+    "s13_specs": 150,
+    "s12_by": "operator",
+    "s12_date": "2026-09-11",
+    "s13_by": "operator",
+    "s13_date": "2026-09-11",
+    "round4_rejected": 2,
+    "round5_pairs": 150,
+    "round5_corrections": 2
   },
   "reviewed_pairs": [
     {
@@ -571,6 +606,1058 @@
       "verdict": "CONFIRM (AI review pass 2026-09-11; round-4 survivor)"
     }
   ],
+  "round5_pairs": [
+    {
+      "code": "4CH1-1.1",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Changing states of matter - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.2",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Changing states of matter - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.3",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Diffusion - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Diffusion - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.7C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Investigating solubility - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Investigating solubility - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.5C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Solubility - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Solubility - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.6C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Solubility - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Solubility - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.4",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Solutions - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Solutions - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.8",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Element, Compound or Mixture  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Element, Compound or Mixture  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.13",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Paper chromatography - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Paper chromatography - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.9",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Pure substances - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Pure substances - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.10",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Separation techniques - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Separation techniques - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.14",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.15",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.23",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.24",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.19",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.22",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.20",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md",
+      "note_stem": "Metals & non-metals in the Periodic Table - IGCSE Chemistry",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.21",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md",
+      "note_stem": "Metals & non-metals in the Periodic Table - IGCSE Chemistry",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.18",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.35C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Calculate Gas Volumes - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.26",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.30",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate percentage yield - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Calculate percentage yield - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.27",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Calculating moles and mass - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.28",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating moles and mass - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Calculating moles and mass - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.32",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.33",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.36",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+      "note_stem": "Investigating metal oxide formulas - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.31",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md",
+      "note_stem": "Investigating metal oxide formulas - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.29",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Reacting mass calculations - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.31",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Simple compound formulae - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Simple compound formulae - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.34C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution concentration - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Solution concentration - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.25",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing chemical equations - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Writing chemical equations - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.38",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Common Ions  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Common Ions  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.37",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formation of ions - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Formation of ions - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.42",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Ionic bonding and lattices - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.43",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Ionic bonding and lattices - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.40",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding diagrams - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Ionic bonding diagrams - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.46",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Covalent Bonds Dot & Cross Diagrams  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Covalent Bonds Dot & Cross Diagrams  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.44",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent bonds - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Forming covalent bonds - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.45",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent bonds - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Forming covalent bonds - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.49",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent structures - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Giant covalent structures - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.50",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent structures - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Giant covalent structures - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.47",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular structures - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Simple molecular structures - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.48",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular structures - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Simple molecular structures - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.53C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Metallic bonding - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.54C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Metallic bonding - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.58C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Electrolysis diagram - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.55C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Electronic conductivity - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.56C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Electronic conductivity - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.57C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Electronic conductivity - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-1.59C",
+      "note": "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Half equations - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.4C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.1",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Group 1 reactivity & trends - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.2",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Group 1 reactivity & trends - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.3",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Group 1 reactivity & trends - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.6",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Group 7 properties - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.7",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Group 7 properties - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.8C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Group 7 reactivity - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.11",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Combustion  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.10",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Composition of air - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.13",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Greenhouse effect - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Greenhouse effect - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.14",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Oxygen percentage in air - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.12",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Thermal decomposition - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.16",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Metal displacement - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.15",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.20",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Oxidation and reduction - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.18",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Rusting of iron - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.19",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Rusting of iron - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.17",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/The reactivity series - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "The reactivity series - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.27C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Alloys - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.23C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md",
+      "note_stem": "Extraction of metals from ores - IGCSE Chemistry",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.25C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Metals and their uses - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.22C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Where does metal come from - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Where does metal come from - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.31",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md",
+      "note_stem": "Acids, Alkalis & Neutralisation - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.32",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids, Alkalis & Neutralisation - IGCSE Revision Notes.md",
+      "note_stem": "Acids, Alkalis & Neutralisation - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.28",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is an indicator - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.30",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is an indicator - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.29",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/What is an indicator - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is an indicator - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.38",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases and alkalis - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Bases and alkalis - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.39",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Making soluble salts - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Making soluble salts - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.40C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Prepare a Soluble Salt II  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.41C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.42",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing copper sulfate - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Preparing copper sulfate - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.43C",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Preparing lead sulfate - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Preparing lead sulfate - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.37",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions of acids - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Reactions of acids - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.34",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Solubility Rules  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.35",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What are acids and bases - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.36",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/What are acids and bases - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What are acids and bases - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.49",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for water - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Chemical test for water - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.50",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for water - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Chemical test for water - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.45",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Flame tests - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.46",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Flame tests - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.44",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Gas tests - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.48",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Tests for Anions  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-2.47",
+      "note": "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Tests for cations - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.3",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md",
+      "note_stem": "Energetics calculations in chemistry - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.4",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md",
+      "note_stem": "Energetics calculations in chemistry - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.5C",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energy level diagrams - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Energy level diagrams - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.1",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Exothermic and endothermic - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Exothermic and endothermic - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.8",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Temperature change practical - IGCSE Revision Notes.md",
+      "note_stem": "Temperature change practical - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.6C",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is bond energy - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.7C",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is bond energy - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.12",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Catalysts in Chemistry - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.13",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Catalysts in Chemistry - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.11",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.15",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/How surface area affects rate - IGCSE Revision Notes.md",
+      "note_stem": "How surface area affects rate - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.16",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Investigating catalysts - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Investigating catalysts - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.9",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Rate of reaction - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Rate of reaction - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.10",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Rate of reaction - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Rate of reaction - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.14C",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md",
+      "note_stem": "What is activation energy- IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.20C",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Dynamic equilibrium - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.17",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Reversible reactions - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.18",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Reversible reactions - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-3.22C",
+      "note": "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "The position of equilibrium - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.6",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Classifying Organic Reactions  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Classifying Organic Reactions  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.1",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic Chemistry - IGCSE Revision Notes.md",
+      "note_stem": "Introduction to Organic Chemistry - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.3",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic Chemistry - IGCSE Revision Notes.md",
+      "note_stem": "Introduction to Organic Chemistry - IGCSE Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.4",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Naming Organic Compounds  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Naming Organic Compounds  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.11",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Definition of combustion - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.12",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Definition of combustion - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.13",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Definition of combustion - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.14",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.16",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.17",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is cracking - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.18",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "What is cracking - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.19",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.20",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.22",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Halogens & Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.23",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.24",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.25",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.26",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.27",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.28",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.32C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.33C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.31C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Oxidation of ethanol - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Oxidation of ethanol - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.37C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.36C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Reactions of Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Reactions of Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.39C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Making and naming esters - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.41C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Making and naming esters - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.42C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Making and naming esters - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.43C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Preparation of ethyl ethanoate - IGCSE Chemistry.md",
+      "note_stem": "Preparation of ethyl ethanoate - IGCSE Chemistry",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.45",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.46",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md",
+      "note_stem": "Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.48C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Condensation polymerisation - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.49C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Condensation polymerisation - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.50C",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Condensation polymerisation - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    },
+    {
+      "code": "4CH1-4.47",
+      "note": "Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Disposal of polymers - IGCSE Chemistry Revision Notes.md",
+      "note_stem": "Disposal of polymers - IGCSE Chemistry Revision Notes",
+      "confidence": "high",
+      "verdict": "CONFIRM (round-5 exhaustive review, 2026-09-11)"
+    }
+  ],
   "rejected_pairs": [
     {
       "code": "4CH1-4.15",
@@ -587,5 +1674,5 @@
       "disposition": "removed from decisions S1.json (note keeps 1.26); 1.17 remains covered by its high-confidence in-subsection S1-c mapping; the 1.17@S1-e cross-subsection flag is retired with the mapping"
     }
   ],
-  "conclusion": "The staged 59-spec c10_promote.py batch in PHASE2_PR_REVIEW_SHEET.md §12 promotes exactly the 59 round-4-surviving AI-reviewed CONFIRM mappings — exact (note, code) identity proven, zero unreviewed or code-wide promotions, zero ambiguity, both round-4 REJECTs proven removed from the store and absent from the command, store pre-state 0 promoted / 209 SUGGESTED. The operator may execute the §12 batch as staged."
+  "conclusion": "Both staged batches are exactly the AI-reviewed sets: §12 promotes exactly the 59 round-4-surviving CONFIRMs (both round-4 REJECTs proven removed from the store and absent from the command), §13 promotes exactly the 150 round-5 CONFIRMs, the two batches are disjoint and cover the whole 209-mapping store exactly once, and the pre-state is 0 promoted / 209 SUGGESTED. The operator may execute §12 then §13 as staged."
 }

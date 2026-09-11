@@ -262,3 +262,66 @@ python3 scripts/c10_promote.py \
 (codes appearing on several notes are disambiguated with `CODE@FRAGMENT` per the promoter's resolver; ambiguous specs fail rather than promote wholesale. After the command: gates re-run automatically — applier ALL GREEN, `graph_check.py` 9/9, then `c10_negative_test.py`. The pre-execution reconciliation audit `scripts/c10_ratify_audit.py` is re-targeted at §12 and must PASS — its report `C10_RATIFICATION_AUDIT.md` is the machine-verification that the 59 staged targets are exactly the round-4-surviving reviewed pairs and that both rejected mappings are absent from both the store and the command.)
 
 Alternatively the operator may ratify in tranches by trimming the `--map` list; or ask Z.ai to apply it verbatim.
+
+## 13. Round 5 — the 150-spec staged batch (2026-09-11)
+
+The round-5 exhaustive review (`graph/reports/C10_ROUND5_REVIEW.json` + `PHASE2_ROUND5_REVIEW_SHEET.md`, pre-review SHA `c6454c9`, artifacts committed at `c90f5ae`) reviewed the remaining 150 mappings — 209 store minus the 59 §12 ratification targets, both round-4 REJECT pairs excluded — and returned **150 CONFIRM / 0 REJECT / 0 HOLD** under the frozen guide §0.0 contributory contract + §8 command-kind rule. The operator has now resolved §11's option (b) with the instruction **"Ratify the 59 and promote 150"** (2026-09-11): one controlled promotion of all 150, no risk/section split. This section stages that command, derived mechanically from the machine record (nothing hand-typed).
+
+```bash
+cd work/syllabai-resources && \
+    --map 4CH1-1.1 --map 4CH1-1.2 --map 4CH1-1.3 \
+    --map 4CH1-1.7C --map '4CH1-1.5C@a. States of Matter/Solubility - IGCSE Chemistry Revision Notes' --map 4CH1-1.6C \
+    --map '4CH1-1.4@Solutions - IGCSE Chemistry Revision Notes' --map '4CH1-1.8@Element, Compound or Mixture  Edexcel IGCSE Chemistry Revision Notes 2017' --map 4CH1-1.13 \
+    --map 4CH1-1.9 --map '4CH1-1.10@Separation techniques - IGCSE Chemistry Revision Notes' --map 4CH1-1.14 \
+    --map 4CH1-1.15 --map 4CH1-1.23 --map 4CH1-1.24 \
+    --map 4CH1-1.19 --map '4CH1-1.22@Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017' --map 4CH1-1.20 \
+    --map 4CH1-1.21 --map 4CH1-1.18 --map 4CH1-1.35C \
+    --map 4CH1-1.26 --map 4CH1-1.30 --map 4CH1-1.27 \
+    --map '4CH1-1.28@Calculating moles and mass - IGCSE Chemistry Revision Notes' --map 4CH1-1.32 --map '4CH1-1.33@Empirical & Molecular Formulae  Edexcel IGCSE Chemistry Revision Notes 2017' \
+    --map 4CH1-1.36 --map '4CH1-1.31@Investigating metal oxide formulas - IGCSE Revision Notes' --map 4CH1-1.29 \
+    --map '4CH1-1.31@Simple compound formulae - IGCSE Chemistry Revision Notes' --map 4CH1-1.34C --map '4CH1-1.25@Writing chemical equations - IGCSE Chemistry Revision Notes' \
+    --map 4CH1-1.38 --map '4CH1-1.37@Formation of ions - IGCSE Chemistry Revision Notes' --map 4CH1-1.42 \
+    --map 4CH1-1.43 --map 4CH1-1.40 --map 4CH1-1.46 \
+    --map 4CH1-1.44 --map 4CH1-1.45 --map 4CH1-1.49 \
+    --map '4CH1-1.50@Giant covalent structures - IGCSE Chemistry Revision Notes' --map 4CH1-1.47 --map 4CH1-1.48 \
+    --map 4CH1-1.53C --map 4CH1-1.54C --map '4CH1-1.58C@Electrolysis diagram - IGCSE Chemistry Revision Notes' \
+    --map 4CH1-1.55C --map '4CH1-1.56C@Electronic conductivity - IGCSE Chemistry Revision Notes' --map 4CH1-1.57C \
+    --map 4CH1-1.59C --map 4CH1-2.4C --map 4CH1-2.1 \
+    --map 4CH1-2.2 --map 4CH1-2.3 --map 4CH1-2.6 \
+    --map 4CH1-2.7 --map 4CH1-2.8C --map 4CH1-2.11 \
+    --map '4CH1-2.10@Composition of air - IGCSE Chemistry Revision Notes' --map 4CH1-2.13 --map 4CH1-2.14 \
+    --map 4CH1-2.12 --map 4CH1-2.16 --map '4CH1-2.15@Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017' \
+    --map 4CH1-2.20 --map 4CH1-2.18 --map 4CH1-2.19 \
+    --map '4CH1-2.17@The reactivity series - IGCSE Chemistry Revision Notes' --map 4CH1-2.27C --map 4CH1-2.23C \
+    --map 4CH1-2.25C --map 4CH1-2.22C --map 4CH1-2.31 \
+    --map 4CH1-2.32 --map 4CH1-2.28 --map 4CH1-2.30 \
+    --map '4CH1-2.29@What is an indicator - IGCSE Chemistry Revision Notes' --map 4CH1-2.38 --map '4CH1-2.39@Making soluble salts - IGCSE Chemistry Revision Notes' \
+    --map 4CH1-2.40C --map '4CH1-2.41C@Prepare an Insoluble Salt  Edexcel IGCSE Chemistry Revision Notes 2017' --map 4CH1-2.42 \
+    --map 4CH1-2.43C --map 4CH1-2.37 --map 4CH1-2.34 \
+    --map 4CH1-2.35 --map 4CH1-2.36 --map 4CH1-2.49 \
+    --map 4CH1-2.50 --map 4CH1-2.45 --map 4CH1-2.46 \
+    --map 4CH1-2.44 --map 4CH1-2.48 --map 4CH1-2.47 \
+    --map 4CH1-3.3 --map 4CH1-3.4 --map 4CH1-3.5C \
+    --map 4CH1-3.1 --map 4CH1-3.8 --map 4CH1-3.6C \
+    --map 4CH1-3.7C --map 4CH1-3.12 --map 4CH1-3.13 \
+    --map 4CH1-3.11 --map 4CH1-3.15 --map 4CH1-3.16 \
+    --map '4CH1-3.9@Rate of reaction - IGCSE Chemistry Revision Notes' --map '4CH1-3.10@Rate of reaction - IGCSE Chemistry Revision Notes' --map 4CH1-3.14C \
+    --map 4CH1-3.20C --map 4CH1-3.17 --map 4CH1-3.18 \
+    --map 4CH1-3.22C --map 4CH1-4.6 --map 4CH1-4.1 \
+    --map 4CH1-4.3 --map 4CH1-4.4 --map 4CH1-4.11 \
+    --map 4CH1-4.12 --map 4CH1-4.13 --map 4CH1-4.14 \
+    --map 4CH1-4.16 --map 4CH1-4.17 --map 4CH1-4.18 \
+    --map 4CH1-4.19 --map 4CH1-4.20 --map 4CH1-4.22 \
+    --map 4CH1-4.23 --map 4CH1-4.24 --map 4CH1-4.25 \
+    --map 4CH1-4.26 --map 4CH1-4.27 --map 4CH1-4.28 \
+    --map 4CH1-4.32C --map 4CH1-4.33C --map 4CH1-4.31C \
+    --map 4CH1-4.37C --map 4CH1-4.36C --map '4CH1-4.39C@Making and naming esters - IGCSE Chemistry Revision Notes' \
+    --map 4CH1-4.41C --map 4CH1-4.42C --map 4CH1-4.43C \
+    --map 4CH1-4.45 --map 4CH1-4.46 --map 4CH1-4.48C \
+    --map 4CH1-4.49C --map 4CH1-4.50C --map 4CH1-4.47 \
+    --by operator --date 2026-09-11
+```
+
+(127 bare `CODE` specs — each code on exactly one note — and 23 `CODE@FRAGMENT` disambiguations, the fragment ladder preferring the note stem and falling back to `parent/stem` where one carrier's stem is a case-insensitive substring of a sibling's path. Section spread S1:52 / S2:44 / S3:19 / S4:35. After the command: gates re-run automatically — applier ALL GREEN with `promoted HUMAN_VALIDATED: 209`, `graph_check.py` 9/9, `c10_negative_test.py` 10 classes + positive control. The pre-execution reconciliation audit `scripts/c10_ratify_audit.py` (round-5 edition) must PASS on both staged batches BEFORE either command runs; re-run with `--phase post` after execution to verify the final state.)
+
+<!-- c10-round5-batch-end -->

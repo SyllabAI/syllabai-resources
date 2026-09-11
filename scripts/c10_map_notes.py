@@ -402,9 +402,18 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
              "(hence no foreign/4CH0 codes possible); every evidence quote was verified to "
              "appear verbatim in the note (anti-hallucination); every note has ≥1 mapping; "
              "the note BODY was left byte-identical (front matter only).",
-             "4. **Human validation:** nothing here is authoritative. Every mapping carries "
-             "`validation_status: SUGGESTED`. The git PR review of the front-matter diff IS "
-             "the HUMAN_VALIDATED gate (operator workflow, §8A.4 four tiers).",
+             "4. **Human validation:** " + (
+                 "nothing here is authoritative. Every mapping carries "
+                 "`validation_status: SUGGESTED`. The git PR review of the "
+                 "front-matter diff IS the HUMAN_VALIDATED gate (operator "
+                 "workflow, §8A.4 four tiers)."
+                 if promoted == 0 else
+                 "promoted mappings carry `validation_status: "
+                 "HUMAN_VALIDATED` (validation block in the decisions "
+                 "store, applied by `c10_promote.py`); review trail: "
+                 "`PHASE2_PR_REVIEW_SHEET.md` rounds 3-5 + "
+                 "`C10_RATIFICATION_AUDIT.md`; the remainder stay "
+                 "SUGGESTED pending review."),
              "",
              "## 2. Totals",
              "",
@@ -415,7 +424,10 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
              f"- Spec points with ≥1 direct note mapping: **{covered} / 182**",
              f"- Cross-subsection mappings (flagged for PR attention): {stats['cross_sub']}",
              f"- Promoted to HUMAN_VALIDATED so far: **{promoted} / {stats['mappings']}** "
-             "(PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)",
+             + ("(PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)"
+                if promoted < stats["mappings"] else
+                "(ratification complete — see `PHASE2_PR_REVIEW_SHEET.md` "
+                "§12/§13 + `C10_RATIFICATION_AUDIT.md`)"),
              "",
              "## 3. Zero-coverage queue (points with no direct note mapping)",
              "",
