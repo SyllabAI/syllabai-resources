@@ -81,8 +81,34 @@
   first; the 1.17 cross-subsection flag; cross-note deferral candidates;
   diagram-dependent mappings incl. the 3 figure-missing notes). Deterministic
   (decisions JSON + registry + note image-resolution scan); reflects the
-  current promotion state when regenerated mid-review:
+  current promotion state when regenerated mid-review. Issue 2 (same day)
+  states the mapping contract in §0.0 — mappings are CONTRIBUTORY
+  many-to-many relationships (SME notes group and split spec points; measured
+  69/112 notes carry 2+ points, 25/182 points covered by 2-3 notes), with
+  the reject conditions and the honest §7 closure criterion (risk-prioritized
+  validation; unreviewed mappings stay AI_SUGGESTED and must never be
+  represented as human-validated):
   `python3 scripts/c10_pr_review_guide.py`
+- `c10_pr_review_verdicts.py` — T-C10 PR review EXECUTION sheet generator
+  (2026-09-11): renders `graph/reports/PHASE2_PR_REVIEW_SHEET.md` — the
+  AI review pass over the whole issued queue (61 distinct mappings: 4.15,
+  1.4, all 34 mediums, both 1.17s, the 21-mapping diagram queue, the 7
+  missing-figure mappings). Per-mapping verdicts with what was actually
+  read (whole notes, sibling checks, VLM image verdicts archived in
+  `scripts/c10_vlm_results/`). 61 CONFIRM / 0 REJECT / 0 HOLD; the staged
+  operator ratification command (§11) promotes exactly the reviewed set —
+  the sheet is the review, NOT the promotion (everything stays SUGGESTED
+  on disk until the operator runs it). Idempotent:
+  `python3 scripts/c10_pr_review_verdicts.py`
+- `c10_rework_rationales.py` — T-C10 review rework (2026-09-11): rewrites
+  six confirmed mappings' rationales for honest contributory wording
+  (4.15, 1.4, 1.16@Atoms, 2.29, 3.10, 1.17@S1-e). Evidence, confidence,
+  tier, validation state and mapping sets unchanged; note bodies stay
+  byte-identical (front-matter-only regen via the applier). Idempotent:
+  `python3 scripts/c10_rework_rationales.py && python3 scripts/c10_map_notes.py`
+- `c10_vlm_results/` — archived raw VLM (glm-5v) verdict JSONs for the 21
+  diagram-dependent mappings (incl. the prior 1.52C check). Evidence
+  artifact backing the review sheet §7; one JSON per mapping.
 - `graph_check.py` group 6 (`c10-notes-mapping`) — persistent-state check of
   the applied T-C10 mapping (schema, registry membership, provenance
   vocabulary, anchor-vs-slug, foreign codes, totals 112/211/182). Runs as

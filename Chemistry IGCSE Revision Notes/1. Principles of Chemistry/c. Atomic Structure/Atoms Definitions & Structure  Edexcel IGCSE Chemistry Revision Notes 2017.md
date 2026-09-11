@@ -36,8 +36,9 @@ spec_map:
       confidence: medium
       model_version: GLM (Super Z agent, z.ai)
       evidence: It is equal to 1/12th the mass of an atom of carbon-12
-      rationale: 'Terms table includes atomic number, mass number, isotope and relative atomic mass (quoted:
-        Ar row); the dedicated RAM note carries the calculation side.'
+      rationale: The terms table defines all four 1.16 terms - atomic number, mass number, isotope and
+        relative atomic mass (the quoted Ar row, incl. the carbon-12 standard); the calculation of Ar
+        from isotopic abundances is 1.17's content in the dedicated RAM note.
       validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'

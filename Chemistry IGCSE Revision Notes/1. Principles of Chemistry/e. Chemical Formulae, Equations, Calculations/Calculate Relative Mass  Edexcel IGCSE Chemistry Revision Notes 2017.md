@@ -29,8 +29,10 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: This is calculated from the mass number and relative abundances of all the isotopes of
         a particular element
-      rationale: 'Cross-subsection: the note''s opening defines Ar via isotopic abundances (the 1.17 calculation)
-        before moving to Mr. Flagged for PR attention as an out-of-subsection mapping.'
+      rationale: 'Cross-subsection contributory mapping: the note opens with the Ar derivation basis (Ar
+        calculated from the mass number and relative abundances of all the isotopes) before moving to
+        Mr; the 1.17 calculation skill - equation and worked examples - is carried by the dedicated relative-atomic-mass
+        note in S1-c.'
       validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'

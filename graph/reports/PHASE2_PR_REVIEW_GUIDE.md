@@ -6,8 +6,9 @@ Generated 2026-09-11 by `scripts/c10_pr_review_guide.py` (deterministic: decisio
 
 ## 0. Review mechanics and promotion protocol
 
+0. **The mapping contract (what a `spec_map` mapping asserts).** The source corpus is Save My Exams Revision Notes: a note page covers at least one subtopic and often groups several specification points, and one point's content can equally be split across pages. The T-C10 graph is therefore **many-to-many by design** (measured: 69/112 notes carry 2+ spec points; 25/182 spec points are covered by 2–3 notes). A mapping asserts: *this note provides substantive instructional coverage contributing to that specification point* — NOT that this note independently teaches the entire point. The aggregate set of mappings for a point establishes the point's coverage. Reject a mapping only when: (a) the note does not substantively support the mapped point (e.g. it supplies only a premise where the point demands a causal relationship); (b) the cited evidence does not support the claimed relationship; (c) the mapping is outside the 4CH1 scope; or (d) the rationale materially misrepresents the note. Contributory is not a free pass: where the spec wording IS an explanatory relationship (4.15: *explain how combustion of impurities results in SO₂*), the mapped note must itself carry the relationship — premises and consequences may live in sibling notes, the explanation may not.
 1. **Unit of review** = one `spec_map.spec_points[]` entry in a note's front matter: `code` + `provenance.confidence` + `provenance.evidence` + `provenance.rationale`. Open the note, read the block, open the spec wording (below or `graph/specification_points.yaml`).
-2. **The two standing lessons** (from the operator's spot-check): (a) *evidence-existence is not semantic validity* — the quote existing in the note does not show the note teaches what the point demands (the 4.15 case); (b) *diagram-dependent mappings need eyes on the diagram*, not just the text (the 1.52C case).
+2. **The three standing lessons**: (a) *evidence-existence is not semantic validity* — the quote existing in the note does not show the note teaches what the point demands (the 4.15 case, operator spot-check); (b) *diagram-dependent mappings need eyes on the diagram*, not just the text (the 1.52C case, operator spot-check); (c) *contributory ≠ free pass* — distributed coverage is legitimate, but the substantive content of the mapped point must be in THIS note, not merely its premise or consequence elsewhere (the mapping contract, §0.0; operator's SME-architecture clarification, 2026-09-11).
 3. **CONFIRMED → promotion (decisions-side, never note hand-edits):** add a `validation` block to that mapping's entry in `scripts/c10_decisions/S*.json`:
    ```
    "validation": {"validation_status": "HUMAN_VALIDATED",
@@ -25,9 +26,9 @@ The one mapping changed by the spot-check rework. Verify the note now teaches th
 - note: `Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md`
 - spec: “explain how the combustion of some impurities in hydrocarbon fuels results in the formation of sulfur dioxide”
 - evidence: “The sulfur dioxide produced from the combustion of fossil fuels”
-- rationale: Remapped after the operator spot-check (2026-09-11) rejected the combustion-note mapping, whose evidence proved only the fuel-impurity premise. This note states the 4.15 causal relationship directly - combustion of foss…
+- rationale: Remapped after the operator spot-check (2026-09-11) rejected the combustion-note mapping, whose evidence proved only the fuel-impurity premise. The note's 'From sulfur dioxide' subsection teaches the 4.15 relationship i…
 
-Review question: does the evidence sentence establish **combustion of fossil fuels → sulfur dioxide** in this note (the impurity premise is contextual)? The rejected combustion-note mapping proved only the premise; this remap must prove the causal claim.
+Review question: read the **whole note**, not just the evidence sentence. The note's “From sulfur dioxide” subsection carries the 4.15 relationship in-note (**combustion of fossil fuels → sulfur dioxide**); the impurity premise (“All these fuels contain … small quantities of sulfur”) is NOT in this note — it lives in the sibling combustion note (same subsection 4CH1-S4-b). Under the mapping contract (§0.0) that is a legitimate distributed coverage: the point's explanation is here, its premise is one page away. Confirm if (a) the causal relationship is genuinely taught in this note, and (b) the rationale honestly names where the premise lives. The rejected combustion-note mapping failed exactly the mirror-image test: it had the premise without the relationship — under §0.0 that is a rejection, not a partial pass.
 
 ## 2. Priority 2 — the 1 low-confidence mapping
 
@@ -35,8 +36,8 @@ Review question: does the evidence sentence establish **combustion of fossil fue
 - note: `Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Solubility - IGCSE Chemistry Revision Notes.md`
 - spec: “know what is meant by the terms: • solvent • solute • solution • saturated solution.”
 - evidence: “The liquid is called the solvent”
-- rationale: Uses the solvent/saturated-solution vocabulary in context; the dedicated terminology note covers 1.4 fully.
-- ⚠ also a priority-5 flag: the rationale itself defers to “the dedicated terminology note” — decide whether THIS note teaches 1.4 or only uses its vocabulary (the 4.15 pattern).
+- rationale: Teaches the solvent term definitionally in context ('the liquid is called the solvent') and uses solute / saturated solution operationally in the solubility-curve discussion; the Solutions note carries the four 1.4 term…
+- ⚠ also a priority-5 flag: the rationale's “the dedicated terminology note covers 1.4 fully” wording misframes the mapping as a deferral. Under the mapping contract (§0.0) the question is whether THIS note's own teaching — it defines “the liquid is called the solvent” and uses solute / saturated solution operationally in its solubility-curve discussion — is substantive contributory coverage of 1.4 (the Solutions note carries the four-term definitions table as a separate 1.4 mapping, also in S1-a). If yes, confirm and rework the rationale to contributory wording; reject only if the note merely used the vocabulary without teaching any of the four terms.
 
 ## 3. Priority 3 — the 34 medium-confidence mappings
 
@@ -46,36 +47,36 @@ Ordered: priority-5-flagged first, then the cross-subsection flag (1.17), then r
 |---|---|---|---|---|
 | 1 | 4CH1-1.10 | Paper chromatography - IGCSE Chemistry Revis… | Investigate how paper chromatography can be used to separat… | P5 |
 | 2 | 4CH1-1.16 | Atoms Definitions & Structure  Edexcel IGCSE… | It is equal to 1/12th the mass of an atom of carbon-12 | P5 |
-| 3 | 4CH1-1.50 | Simple molecular structures - IGCSE Chemistr… | Fullerenes are a group of carbon allotropes | P5 |
-| 4 | 4CH1-2.17 | Metals Reacting with Water & Acids  Edexcel … | The series can be used to place a group of metals in order … | P5 |
-| 5 | 4CH1-2.29 | Acids, Alkalis & Neutralisation - IGCSE Revi… | The pH scale is a numerical scale which is used to show how… | P5 |
-| 6 | 4CH1-3.10 | Explaining Rates  Edexcel IGCSE Chemistry Re… | Increasing the concentration of a solution increases the ra… | P5 |
-| 7 | 4CH1-4.5 | Introduction to Organic Chemistry - IGCSE Re… | Isomers of C3H6 | P5, P6 |
-| 8 | 4CH1-4.15 | Nitrogen Oxides & Sulfur Dioxide  Edexcel IG… | The sulfur dioxide produced from the combustion of fossil f… | P5 |
-| 9 | 4CH1-1.17 | Calculate Relative Mass  Edexcel IGCSE Chemi… | This is calculated from the mass number and relative abunda… | XSUB |
-| 10 | 4CH1-1.16 | Relative atomic mass - IGCSE Chemistry Revis… | The relative atomic mass of each element is calculated from… | — |
-| 11 | 4CH1-1.22 | Electronic Configuration & Reactivity  Edexc… | The group number of an element which is given on the Period… | — |
-| 12 | 4CH1-1.25 | Reacting mass calculations - IGCSE Chemistry… | Balancing Equations using Reacting Masses | — |
-| 13 | 4CH1-1.28 | Reacting mass calculations - IGCSE Chemistry… | Once the moles have been determined they can then be conver… | — |
-| 14 | 4CH1-1.31 | Empirical & Molecular Formulae  Edexcel IGCS… | Deducing formulae of hydrated salts | — |
-| 15 | 4CH1-1.33 | Investigating metal oxide formulas - IGCSE R… | To determine the empirical formula of magnesium oxide by co… | — |
-| 16 | 4CH1-1.33 | Simple compound formulae - IGCSE Chemistry R… | Using the moles of reactants and products it is possible to… | — |
-| 17 | 4CH1-1.37 | Common Ions  Edexcel IGCSE Chemistry Revisio… | Find out if it is easier for the atom to gain electron or t… | — |
-| 18 | 4CH1-1.37 | Ionic bonding diagrams - IGCSE Chemistry Rev… | Sodium is a Group 1 metal so will lose one outer electron t… | — |
-| 19 | 4CH1-1.5C | Investigating solubility - IGCSE Chemistry R… | evaporating the solvent, and measuring the mass of the soli… | — |
-| 20 | 4CH1-1.51 | Simple molecular structures - IGCSE Chemistr… | cannot migrate from one buckyball to another, so C60 does n… | — |
-| 21 | 4CH1-1.52C | Metallic bonding - IGCSE Chemistry Revision … | Metals consist of giant structures of atoms arranged in a r… | P6 |
-| 22 | 4CH1-1.56C | Electrolysis diagram - IGCSE Chemistry Revis… | When these compounds are heated beyond their melting point,… | — |
-| 23 | 4CH1-1.58C | Practical Investigate the Electrolysis of Aq… | To electrolyse aqueous solutions of sodium chloride, sulfur… | — |
-| 24 | 4CH1-1.8 | Pure substances - IGCSE Chemistry Revision N… | In chemistry, a pure substance may consist of a single elem… | — |
-| 25 | 4CH1-2.10 | Oxygen percentage in air - IGCSE Chemistry R… | To determine the percentage of oxygen in air using the oxid… | — |
-| 26 | 4CH1-2.15 | Metals reacting with acids - IGCSE Chemistry… | To investigate the reactions between dilute hydrochloric an… | — |
-| 27 | 4CH1-2.24C | Extraction of metals from ores - IGCSE Chemi… | The position of the metal on the reactivity series determin… | — |
-| 28 | 4CH1-2.39 | Preparing copper sulfate - IGCSE Chemistry R… | The preparation of copper(II) sulfate by the insoluble base… | — |
-| 29 | 4CH1-2.41C | Preparing lead sulfate - IGCSE Chemistry Rev… | The preparation of lead(II)sulfate by precipitation from tw… | — |
-| 30 | 4CH1-3.2 | Temperature change practical - IGCSE Revisio… | To perform a calorimetry study of the reaction between HCl … | — |
-| 31 | 4CH1-3.9 | How surface area affects rate - IGCSE Revisi… | Investigating the effect of different size marble chips on … | — |
-| 32 | 4CH1-3.9 | Investigating catalysts - IGCSE Chemistry Re… | To investigate the effect of different solids on the cataly… | — |
+| 3 | 4CH1-1.17 | Calculate Relative Mass  Edexcel IGCSE Chemi… | This is calculated from the mass number and relative abunda… | P5, XSUB |
+| 4 | 4CH1-1.50 | Simple molecular structures - IGCSE Chemistr… | Fullerenes are a group of carbon allotropes | P5 |
+| 5 | 4CH1-2.17 | Metals Reacting with Water & Acids  Edexcel … | The series can be used to place a group of metals in order … | P5 |
+| 6 | 4CH1-4.5 | Introduction to Organic Chemistry - IGCSE Re… | Isomers of C3H6 | P5, P6 |
+| 7 | 4CH1-1.16 | Relative atomic mass - IGCSE Chemistry Revis… | The relative atomic mass of each element is calculated from… | — |
+| 8 | 4CH1-1.22 | Electronic Configuration & Reactivity  Edexc… | The group number of an element which is given on the Period… | — |
+| 9 | 4CH1-1.25 | Reacting mass calculations - IGCSE Chemistry… | Balancing Equations using Reacting Masses | — |
+| 10 | 4CH1-1.28 | Reacting mass calculations - IGCSE Chemistry… | Once the moles have been determined they can then be conver… | — |
+| 11 | 4CH1-1.31 | Empirical & Molecular Formulae  Edexcel IGCS… | Deducing formulae of hydrated salts | — |
+| 12 | 4CH1-1.33 | Investigating metal oxide formulas - IGCSE R… | To determine the empirical formula of magnesium oxide by co… | — |
+| 13 | 4CH1-1.33 | Simple compound formulae - IGCSE Chemistry R… | Using the moles of reactants and products it is possible to… | — |
+| 14 | 4CH1-1.37 | Common Ions  Edexcel IGCSE Chemistry Revisio… | Find out if it is easier for the atom to gain electron or t… | — |
+| 15 | 4CH1-1.37 | Ionic bonding diagrams - IGCSE Chemistry Rev… | Sodium is a Group 1 metal so will lose one outer electron t… | — |
+| 16 | 4CH1-1.5C | Investigating solubility - IGCSE Chemistry R… | evaporating the solvent, and measuring the mass of the soli… | — |
+| 17 | 4CH1-1.51 | Simple molecular structures - IGCSE Chemistr… | cannot migrate from one buckyball to another, so C60 does n… | — |
+| 18 | 4CH1-1.52C | Metallic bonding - IGCSE Chemistry Revision … | Metals consist of giant structures of atoms arranged in a r… | P6 |
+| 19 | 4CH1-1.56C | Electrolysis diagram - IGCSE Chemistry Revis… | When these compounds are heated beyond their melting point,… | — |
+| 20 | 4CH1-1.58C | Practical Investigate the Electrolysis of Aq… | To electrolyse aqueous solutions of sodium chloride, sulfur… | — |
+| 21 | 4CH1-1.8 | Pure substances - IGCSE Chemistry Revision N… | In chemistry, a pure substance may consist of a single elem… | — |
+| 22 | 4CH1-2.10 | Oxygen percentage in air - IGCSE Chemistry R… | To determine the percentage of oxygen in air using the oxid… | — |
+| 23 | 4CH1-2.15 | Metals reacting with acids - IGCSE Chemistry… | To investigate the reactions between dilute hydrochloric an… | — |
+| 24 | 4CH1-2.24C | Extraction of metals from ores - IGCSE Chemi… | The position of the metal on the reactivity series determin… | — |
+| 25 | 4CH1-2.29 | Acids, Alkalis & Neutralisation - IGCSE Revi… | The pH scale is a numerical scale which is used to show how… | — |
+| 26 | 4CH1-2.39 | Preparing copper sulfate - IGCSE Chemistry R… | The preparation of copper(II) sulfate by the insoluble base… | — |
+| 27 | 4CH1-2.41C | Preparing lead sulfate - IGCSE Chemistry Rev… | The preparation of lead(II)sulfate by precipitation from tw… | — |
+| 28 | 4CH1-3.10 | Explaining Rates  Edexcel IGCSE Chemistry Re… | Increasing the concentration of a solution increases the ra… | — |
+| 29 | 4CH1-3.2 | Temperature change practical - IGCSE Revisio… | To perform a calorimetry study of the reaction between HCl … | — |
+| 30 | 4CH1-3.9 | How surface area affects rate - IGCSE Revisi… | Investigating the effect of different size marble chips on … | — |
+| 31 | 4CH1-3.9 | Investigating catalysts - IGCSE Chemistry Re… | To investigate the effect of different solids on the cataly… | — |
+| 32 | 4CH1-4.15 | Nitrogen Oxides & Sulfur Dioxide  Edexcel IG… | The sulfur dioxide produced from the combustion of fossil f… | — |
 | 33 | 4CH1-4.39C | Preparation of ethyl ethanoate - IGCSE Chemi… | A mixture of ethanoic acid, ethanol and concentrated sulfur… | — |
 | 34 | 4CH1-4.40C | Making and naming esters - IGCSE Chemistry R… | CH3COOH + C2H5OH → CH3COOC2H5 + H2O | P6 |
 
@@ -94,29 +95,25 @@ Ordered: priority-5-flagged first, then the cross-subsection flag (1.17), then r
 - note: `Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md`
 - spec: “be able to calculate the relative atomic mass of an element $ A_{r} $ from isotopic abundances”
 - evidence: “This is calculated from the mass number and relative abundances of all the isotopes of a particular element”
-- rationale: Cross-subsection: the note's opening defines Ar via isotopic abundances (the 1.17 calculation) before moving to Mr. Flagged for PR attention as an out-of-subsection mapping.
+- rationale: Cross-subsection contributory mapping: the note opens with the Ar derivation basis (Ar calculated from the mass number and relative abundances of all the isotopes) before moving to Mr; the 1.17 calculation skill - equat…
 - subsections: note anchored **4CH1-S1-e** but point sits in **4CH1-S1-c** — **the cross-subsection flag**: the note is anchored by its source-URL slug to its own subsection, yet opens by teaching this point's content before moving on; legitimate but the least mechanical mapping in the batch.
 
 ## 5. Priority 5 — cross-note deferral candidates (semantic completeness)
 
-Computed scan: rationales containing explicit deferral language (“the dedicated … note carries …”, “lives in”, “are in the”, “carried separately”, …). For each, the review question is the operator's: **does this note independently teach the mapped point, or does the point's substance live in the other note?** (the 4.15 pattern). A split across two notes is sometimes legitimate content architecture — the reviewer decides, mapping by mapping.
+Computed scan: rationales containing explicit deferral language (“the dedicated … note carries …”, “lives in”, “are in the”, “carried separately”, …). For each, the review question (mapping contract, §0.0): **does this note provide substantive instructional coverage of the mapped point, with evidence that accurately represents that coverage?** Coverage may be distributed across multiple notes; another note providing additional or complementary coverage is not itself a reason to reject this mapping. Reject only when the note does not substantively support the mapped point, the evidence does not support the claimed relationship, the mapping is outside the 4CH1 scope, or the rationale materially misrepresents the note. The 4.15 lesson still applies inside this test: a mapping that supplies only the premise of a point whose spec wording is an explanatory relationship is NOT substantive coverage of that relationship. A deliberate split across two notes (definition here, calculation there; table here, bands there) is usually legitimate content architecture — the reviewer decides, mapping by mapping.
 
 - **4CH1-1.10** [medium] — `Paper chromatography - IGCSE Chemistry Revision Notes`
   - rationale: Paper chromatography is one of the five separation techniques listed in 1.10; the technique note is the generic one, this is the practical instance.
 - **4CH1-1.16** [medium] — `Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017`
-  - rationale: Terms table includes atomic number, mass number, isotope and relative atomic mass (quoted: Ar row); the dedicated RAM note carries the calculation side.
+  - rationale: The terms table defines all four 1.16 terms - atomic number, mass number, isotope and relative atomic mass (the quoted Ar row, incl. the carbon-12 standard); the calculation of Ar from isotopic abund…
+- **4CH1-1.17** [medium] — `Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017`
+  - rationale: Cross-subsection contributory mapping: the note opens with the Ar derivation basis (Ar calculated from the mass number and relative abundances of all the isotopes) before moving to Mr; the 1.17 calcu…
 - **4CH1-1.4** [low] — `Solubility - IGCSE Chemistry Revision Notes` **(low — priority 2)**
-  - rationale: Uses the solvent/saturated-solution vocabulary in context; the dedicated terminology note covers 1.4 fully.
+  - rationale: Teaches the solvent term definitionally in context ('the liquid is called the solvent') and uses solute / saturated solution operationally in the solubility-curve discussion; the Solutions note carri…
 - **4CH1-1.50** [medium] — `Simple molecular structures - IGCSE Chemistry Revision Notes`
   - rationale: C60 fullerene section of 1.50 lives here (hollow cage, does not conduct); diamond/graphite are in the giant-covalent note.
 - **4CH1-2.17** [medium] — `Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017`
   - rationale: The tables order K through Cu; the dedicated reactivity-series note carries the full 2.17 list.
-- **4CH1-2.29** [medium] — `Acids, Alkalis & Neutralisation - IGCSE Revision Notes`
-  - rationale: pH scale introduced; the indicator note carries the full 0-14 classification bands.
-- **4CH1-3.10** [medium] — `Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017`
-  - rationale: Describes the factor effects (the full effect descriptions are also in the rate-of-reaction note).
-- **4CH1-4.15** [medium] — `Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017` **(the 4.15 remap — priority 1; 'carried separately' refers to 4.16's acid-rain content, not to 4.15)**
-  - rationale: Remapped after the operator spot-check (2026-09-11) rejected the combustion-note mapping, whose evidence proved only the fuel-impurity premise. This note states the 4.15 causal relationship directly …
 - **4CH1-4.5** [medium] — `Introduction to Organic Chemistry - IGCSE Revision Notes`
   - rationale: Isomerism section writes alternative structural/displayed formulae from a molecular formula (the 4.5 skill); the naming side lives in the dedicated naming note.
 
@@ -161,16 +158,16 @@ Computed scan: mappings whose rationale leans on a diagram / graph / pie chart /
   - images: `Effect-catalyst-on-equilibrium-position.png`
 - **4CH1-4.2** [high] — `Introduction to Organic Chemistry - IGCSE Revision Notes` 
   - rationale: Dedicated sections with worked examples for empirical, molecular, general, structural and displayed formulae.
-  - images: `10.1.2-The-Molecular-Formulae-of-Butane-and-Butene-1.png`, `10.1.2-The-Structural-Formulae-of-2-methylbutane-1.png`, `10.1.2-Representing-Condensed-Structrual-Formulae-of-Straight-Chains.png`, `14.1.3-Names-and-structures-of-the-functional-groups-table.png`
+  - images: `10.1.2-The-Molecular-Formulae-of-Butane-and-Butene-1.png`, `10.1.2-The-Structural-Formulae-of-2-methylbutane-1.png`, `10.1.2-Representing-Condensed-Structrual-Formulae-of-Straight-Chains.png`, `14.1.3-Names-and-structures-of-the-functional-groups-table.png`, `3.1-An-Introduction-to-AS-Level-Organic-Chemistry-Propene-and-Cyclopropane.png`
 - **4CH1-4.21** [high] — `Alkanes  Edexcel IGCSE Chemistry Revision Notes 2017` 
   - rationale: Table and displayed formulae (methane through pentane) with the unbranched names.
-  - images: `methane.png`, `ethane.png`, `propane.png`, `butane.png`
+  - images: `methane.png`, `ethane.png`, `propane.png`, `butane.png`, `pentane.png`
 - **4CH1-4.29C** [high] — `Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017` 
   - rationale: The -OH functional group as the reactive part of alcohols, with the ethanol molecule diagram.
-  - images: `Alcohol-Functional-Group-1.png`, `methanol-.png`, `screenshot-2024-02-18-191221.png`, `propanol-displayed.png`
+  - images: `Alcohol-Functional-Group-1.png`, `methanol-.png`, `screenshot-2024-02-18-191221.png`, `propanol-displayed.png`, `butanol.png`
 - **4CH1-4.30C** [high] — `Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017` 
   - rationale: Methanol, ethanol, propanol and butanol with displayed formulae and names.
-  - images: `Alcohol-Functional-Group-1.png`, `methanol-.png`, `screenshot-2024-02-18-191221.png`, `propanol-displayed.png`
+  - images: `Alcohol-Functional-Group-1.png`, `methanol-.png`, `screenshot-2024-02-18-191221.png`, `propanol-displayed.png`, `butanol.png`
 - **4CH1-4.34C** [high] — `Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017` 
   - rationale: The -COOH functional group with structure diagram and general formula.
   - images: `28940_carboxylic-acid-functional-group.png`, `Carboxylic-Acids-The-First-Four-1.png`
@@ -188,11 +185,15 @@ Computed scan: mappings whose rationale leans on a diagram / graph / pie chart /
   - images: `Polymers-Basic-.png`, `7.7-Polymerisation-Polymers-From-One-Alkene-Monomer.png`, `Drawing-repeating-units.png`, `Deducing-monomer-structure-from-repeat-units.png`
 - **4CH1-4.5** [medium] — `Introduction to Organic Chemistry - IGCSE Revision Notes` 
   - rationale: Isomerism section writes alternative structural/displayed formulae from a molecular formula (the 4.5 skill); the naming side lives in the dedicated n…
-  - images: `10.1.2-The-Molecular-Formulae-of-Butane-and-Butene-1.png`, `10.1.2-The-Structural-Formulae-of-2-methylbutane-1.png`, `10.1.2-Representing-Condensed-Structrual-Formulae-of-Straight-Chains.png`, `14.1.3-Names-and-structures-of-the-functional-groups-table.png`
+  - images: `10.1.2-The-Molecular-Formulae-of-Butane-and-Butene-1.png`, `10.1.2-The-Structural-Formulae-of-2-methylbutane-1.png`, `10.1.2-Representing-Condensed-Structrual-Formulae-of-Straight-Chains.png`, `14.1.3-Names-and-structures-of-the-functional-groups-table.png`, `3.1-An-Introduction-to-AS-Level-Organic-Chemistry-Propene-and-Cyclopropane.png`
 
 ### 6b. Missing figures — mapping leans on a visual that is NOT in the corpus
 
-Three notes carry `figure-missing` markers (download failed during clipping; tracked since the corpus-repair pass). Their mappings must be decided on the surviving text alone, downgraded, or held for image recovery.
+Three notes carry `figure-missing` markers (download failed during clipping; tracked since the corpus-repair pass). Classify each mapping deterministically:
+
+- **PASS** — the surviving text alone provides substantive coverage of the point; the figure was supplementary reinforcement. Promote on the textual evidence.
+- **HOLD** — the figure is necessary to verify the claimed instructional content (e.g. the point requires interpreting a specific visual, or the mapping's rationale leans on the diagram). The mapping is NOT validated until the image is recovered; leave it `SUGGESTED` and list it in the image-recovery queue.
+- **REJECT/REWORK** — the surviving text does not actually support the point and the missing figure was carrying the mapping: remove or re-map.
 
 - **`Interpreting chromatograms - IGCSE Chemistry Revision Notes`** — missing: `../../assets/.jpeg`
   - 4CH1-1.11 [high] (textual evidence) — evidence: “We can use a chromatogram to compare the substances present in a mixture to known substan…”
@@ -207,5 +208,7 @@ Three notes carry `figure-missing` markers (download failed during clipping; tra
 
 ## 7. Pass criteria and what follows
 
-The PR review passes when every mapping in this guide is either **confirmed** (promoted to HUMAN_VALIDATED via the §0.3 protocol — `scripts/c10_promote.py` batches it) or **rejected-and-reworked** (decisions edit + gated re-run, §0.4), and the gate suite is green afterwards (`graph_check.py` 9/9, `c10_negative_test.py` 10 classes + positive control, applier ALL GREEN). Then T-C11 (Phase 3 concept/prerequisite/misconception graph) legitimately begins — see `TODO.md`.
+The PR review passes when every mapping designated for human review in this guide has a **terminal decision** — **confirmed** (promoted to HUMAN_VALIDATED via the §0.3 protocol; `scripts/c10_promote.py` batches it), **rejected-and-reworked** (decisions edit + gated re-run, §0.4), or **held** (§6b image-recovery queue) — and the gate suite is green afterwards (`graph_check.py` 9/9, `c10_negative_test.py` 10 classes + positive control, applier ALL GREEN, coverage contract intact: 182/182 points, zero-coverage queue EMPTY).
+
+**What T-C10 closure means — stated honestly.** Mappings OUTSIDE this guide's review set were validated deterministically (applier hard gates + `graph_check.py`) and sampled by the operator's 20-mapping spot-check (19/20 confirmed, 1 reworked). They remain `tier: AI_SUGGESTED` / `validation_status: SUGGESTED` and MUST NOT be represented as human-validated. T-C10 therefore closes as: **risk-prioritized human validation of the mapping corpus complete — reviewed set HUMAN_VALIDATED, remainder AI_SUGGESTED in force.** It is a mapping-validity gate, not a claim that all 211 mappings were individually human-inspected; specification-point-level coverage adequacy across the aggregate is a separate corpus audit, deliberately deferred to the coverage checks ahead of T-C11 (Phase 3 concept/prerequisite/misconception graph — see `TODO.md`).
 

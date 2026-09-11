@@ -37,8 +37,10 @@ spec_map:
       confidence: low
       model_version: GLM (Super Z agent, z.ai)
       evidence: The liquid is called the solvent
-      rationale: Uses the solvent/saturated-solution vocabulary in context; the dedicated terminology
-        note covers 1.4 fully.
+      rationale: Teaches the solvent term definitionally in context ('the liquid is called the solvent')
+        and uses solute / saturated solution operationally in the solubility-curve discussion; the Solutions
+        note carries the four 1.4 term definitions as a separate mapping - contributory coverage, not
+        sole coverage.
       validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'

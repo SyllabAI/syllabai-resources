@@ -28,8 +28,8 @@ spec_map:
       confidence: medium
       model_version: GLM (Super Z agent, z.ai)
       evidence: Increasing the concentration of a solution increases the rate of reaction
-      rationale: Describes the factor effects (the full effect descriptions are also in the rate-of-reaction
-        note).
+      rationale: Collision-theory sections explaining the concentration, pressure, temperature and surface-area
+        effects on rate; the catalyst factor of 3.10 is taught in the rate-of-reaction and catalysts notes.
       validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'

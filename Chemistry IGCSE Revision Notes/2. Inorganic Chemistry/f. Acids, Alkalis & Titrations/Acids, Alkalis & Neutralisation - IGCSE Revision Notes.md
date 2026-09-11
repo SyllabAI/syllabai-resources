@@ -36,7 +36,9 @@ spec_map:
       model_version: GLM (Super Z agent, z.ai)
       evidence: The pH scale is a numerical scale which is used to show how acidic or alkaline a solution
         is
-      rationale: pH scale introduced; the indicator note carries the full 0-14 classification bands.
+      rationale: Introduces the pH scale itself - a numerical scale showing how acidic or alkaline a solution
+        is, measuring the hydrogen ions present - the conceptual foundation of 2.29; the 0-14 classification
+        bands are taught in the indicator note's 2.29 mapping.
       validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
