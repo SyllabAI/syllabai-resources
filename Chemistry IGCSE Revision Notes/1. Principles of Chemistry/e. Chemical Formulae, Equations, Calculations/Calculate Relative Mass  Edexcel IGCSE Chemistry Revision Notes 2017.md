@@ -22,18 +22,6 @@ spec_map:
         the atoms present in the formula
       rationale: Ar/Mr symbols and Mr calculation by summing atomic masses, with the worked table of substances.
       validation_status: SUGGESTED
-  - code: 4CH1-1.17
-    provenance:
-      tier: AI_SUGGESTED
-      confidence: medium
-      model_version: GLM (Super Z agent, z.ai)
-      evidence: This is calculated from the mass number and relative abundances of all the isotopes of
-        a particular element
-      rationale: 'Cross-subsection contributory mapping: the note opens with the Ar derivation basis (Ar
-        calculated from the mass number and relative abundances of all the isotopes) before moving to
-        Mr; the 1.17 calculation skill - equation and worked examples - is carried by the dedicated relative-atomic-mass
-        note in S1-c.'
-      validation_status: SUGGESTED
   mapped_date: '2026-09-11'
   mapper: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
 ---

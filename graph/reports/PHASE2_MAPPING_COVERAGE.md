@@ -12,16 +12,17 @@ Generated 2026-09-11 by `scripts/c10_map_notes.py` from `scripts/c10_decisions/S
 ## 2. Totals
 
 - Notes mapped: **112 / 112**
-- Total mappings: **211** (high 176 · medium 34 · low 1)
-- Spec points with ≥1 direct note mapping: **182 / 182**
-- Cross-subsection mappings (flagged for PR attention): 1
-- Promoted to HUMAN_VALIDATED so far: **0 / 211** (PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)
+- Total mappings: **209** (high 176 · medium 32 · low 1)
+- Spec points with ≥1 direct note mapping: **181 / 182**
+- Cross-subsection mappings (flagged for PR attention): 0
+- Promoted to HUMAN_VALIDATED so far: **0 / 209** (PR review in progress; see `PHASE2_PR_REVIEW_GUIDE.md`)
 
 ## 3. Zero-coverage queue (points with no direct note mapping)
 
 The Phase 3/4 enrichment queue handed to the Student Book / question-mapping phases. If this list is empty, the 112 SME notes cover every 4CH1 spec point at point level.
 
-- **EMPTY — all 182 points have ≥1 AI_SUGGESTED note mapping.** Phase 3/4 enrichment should still review *quality* (e.g. poly(tetrafluoroethene) is not among the addition-polymer note's worked examples — see the note's rationale).
+- 4CH1-4.15 (Crude oil)
+  - Round-4 corpus gap (2026-09-11, review sheet §12): no SME note teaches the formation explanation this point demands — the impurity premise lives in the Definition of combustion note; the oxidation chemistry (S + O2 -> SO2) appears only in element-combustion contexts (Combustion [2.11], Writing chemical equations); the stated result is a premise clause in Nitrogen Oxides & Sulfur Dioxide (4.16's note). The connective teaching is absent corpus-wide — T-C11 content-gap candidate (pieces exist, explanation does not).
 
 ## 4. Per-subsection mapping table
 
@@ -31,7 +32,7 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 | 4CH1-S1-b Elements, compounds and mixtures | `1-2-elements-compounds-and-mixtures` | 5 | 8 | 6 |
 | 4CH1-S1-c Atomic structure | `1-3-atomic-structure` | 2 | 5 | 4 |
 | 4CH1-S1-d The Periodic Table | `1-4-the-periodic-table` | 4 | 8 | 7 |
-| 4CH1-S1-e Chemical formulae, equations and calculations | `1-5-chemical-formulae-equations-calculations` | 10 | 19 | 13 |
+| 4CH1-S1-e Chemical formulae, equations and calculations | `1-5-chemical-formulae-equations-calculations` | 10 | 18 | 12 |
 | 4CH1-S1-f Ionic bonding | `1-6-ionic-bonding` | 5 | 9 | 7 |
 | 4CH1-S1-g Covalent bonding | `1-7-covalent-bonding` | 4 | 9 | 8 |
 | 4CH1-S1-h Metallic bonding | `1-8-metallic-bonding` | 1 | 3 | 3 |
@@ -48,7 +49,7 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 | 4CH1-S3-b Rates of reaction | `3-2-rates-of-reaction` | 6 | 11 | 8 |
 | 4CH1-S3-c Reversible reactions and equilibria | `3-3-reversible-reactions-and-equilibria` | 3 | 6 | 6 |
 | 4CH1-S4-a Introduction | `4-1-introduction` | 3 | 6 | 6 |
-| 4CH1-S4-b Crude oil | `4-2-crude-oil` | 4 | 12 | 12 |
+| 4CH1-S4-b Crude oil | `4-2-crude-oil` | 4 | 11 | 11 |
 | 4CH1-S4-c Alkanes | `4-3-alkanes` | 2 | 4 | 4 |
 | 4CH1-S4-d Alkenes | `4-4-alkenes` | 2 | 6 | 6 |
 | 4CH1-S4-e Alcohols | `4-5-alcohols` | 3 | 5 | 5 |
@@ -66,7 +67,7 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 - **4CH1-1.14**: 1 note(s) — Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
 - **4CH1-1.15**: 1 note(s) — Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
 - **4CH1-1.16**: 2 note(s) — Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017 (medium), Relative atomic mass - IGCSE Chemistry Revision Notes (medium)
-- **4CH1-1.17**: 2 note(s) — Relative atomic mass - IGCSE Chemistry Revision Notes (high), Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017 (medium)
+- **4CH1-1.17**: 1 note(s) — Relative atomic mass - IGCSE Chemistry Revision Notes (high)
 - **4CH1-1.18**: 1 note(s) — Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
 - **4CH1-1.19**: 1 note(s) — Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
 - **4CH1-1.2**: 1 note(s) — Changing states of matter - IGCSE Chemistry Revision Notes (high)
@@ -196,7 +197,6 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 - **4CH1-4.12**: 1 note(s) — Definition of combustion - IGCSE Chemistry Revision Notes (high)
 - **4CH1-4.13**: 1 note(s) — Definition of combustion - IGCSE Chemistry Revision Notes (high)
 - **4CH1-4.14**: 1 note(s) — Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
-- **4CH1-4.15**: 1 note(s) — Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 (medium)
 - **4CH1-4.16**: 1 note(s) — Nitrogen Oxides & Sulfur Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017 (high)
 - **4CH1-4.17**: 1 note(s) — What is cracking - IGCSE Chemistry Revision Notes (high)
 - **4CH1-4.18**: 1 note(s) — What is cracking - IGCSE Chemistry Revision Notes (high)
@@ -248,7 +248,6 @@ The Phase 3/4 enrichment queue handed to the Student Book / question-mapping pha
 3. Spot-check status (2026-09-11): the 20-sample sheet (`graph/reports/PHASE2_SPOT_CHECK_SHEET.md`) was operator-reviewed — 19 confirmed (1 of them after machine visual verification of the metallic-lattice diagram), 1 rejected and remapped (4CH1-4.15, see the sheet's review record).
 4. Approve/adjust via the PR: a confirmed mapping is promoted by adding a `validation` block (HUMAN_VALIDATED + validated_by + validated_date) to its entry in `scripts/c10_decisions/S*.json` and re-running the gated applier — `scripts/c10_promote.py` batches this. The note front matter is then regenerated carrying `validation_status: HUMAN_VALIDATED`. NEVER hand-edit the front matter for promotion: the applier regenerates it from decisions and would silently revert the edit on the next rework re-run.
 5. **Evidence-existence is not semantic validity.** The automated G3 gate proves a mapping's evidence quote exists verbatim in the note; it cannot prove the quote covers the spec point's semantics. The 4.15 case is the canonical example: a true quote (fuel sulfur impurities) that never established the impurity -> combustion -> sulfur-dioxide causal chain the point demands. Read every mapping as *does this note teach what the point asks*, not as *does this sentence exist*.
+6. **Round-4 rejections (2026-09-11, external advisor + Z.ai concurrence):** two round-3 confirms were rejected under the command-kind rule (guide §8): 4CH1-4.15 (removed — no corpus note teaches the impurity -> SO2 formation explanation; see the §3 gap annotation) and 1.17@Calculate Relative Mass (removed — a calculate point needs the calculation; 1.17 stays covered by the S1-c note). Ratification batch: 59 specs (review sheet §12).
 
-### Cross-subsection mappings (flagged)
-
-- `4CH1-1.17` — note anchored in 4CH1-S1-e (slug), point sits in 4CH1-S1-c: Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md
+No cross-subsection mappings in this batch.
