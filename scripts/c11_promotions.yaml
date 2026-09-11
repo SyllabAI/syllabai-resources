@@ -1,0 +1,33 @@
+# T-C11 promotion record — operator ratifications of exact edge identities.
+#
+# CONTRACT: graph/reports/C11_ARCHITECTURE.md §18 (promotion mechanism).
+#
+# This file is the OPERATOR-side half of the validation-state model. The AI
+# decision record (scripts/c11_pilot_decisions.yaml) is frozen and may never
+# carry HUMAN_VALIDATED (anti-forgery G10 / c11.10). HUMAN_VALIDATED on an
+# authored edge is reachable ONLY through an entry in this file, and this file
+# is written ONLY by scripts/c11_promote.py executing an explicit operator
+# command that names the exact (source_node, relation, target_node) identity.
+#
+# Rules (machine-enforced by the generator G13 gate and graph_check c11.10/13):
+#   - one entry == one exact authored-edge identity (no wildcards, no
+#     promotion by node or relation type alone, no PART_OF — derived edges)
+#   - held/rejected candidates are not promotable (they are not edges)
+#   - validated_by must be a human/operator identity (AI attribution fails
+#     closed); validated_date is ISO YYYY-MM-DD
+#   - review_reference must name the review artifact that ratified the edge
+#   - promotion is idempotent; evidence/provenance/confidence of the edge are
+#     preserved verbatim (the generator only adds the validation fields)
+#   - removal of an entry is a git revert, never a hand-edit of the graph
+meta:
+  task: T-C11
+  stage: pilot-promotion
+  contract: 'graph/reports/C11_ARCHITECTURE.md §18'
+  decision_record: scripts/c11_pilot_decisions.yaml
+  tool: scripts/c11_promote.py
+  generated_date: '2026-09-11'
+  note: >-
+    Zero promotions recorded — the T-C11 pilot review (session 40) ratified no
+    edges: the two REVIEW_REQUIRED edges received REJECT / HOLD verdicts and
+    the 31 SUGGESTED edges await operator confirmation.
+promotions: []

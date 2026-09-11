@@ -41,9 +41,18 @@ Gates (each hard-fails, naming the record and the violated rule):
                       byte-verified (100% of misconceptions source-quoted)
   G12 command-kinds — exactly the 12 pilot SPs; guide_class in vocabulary; verb
                       matches the registry's leading_verb
+  G13 promotions    — the operator-side promotion record
+                      (scripts/c11_promotions.yaml, written only by
+                      scripts/c11_promote.py) is schema-validated and each
+                      entry must resolve to EXACTLY one authored edge identity;
+                      AI self-attribution fails closed; held candidates and
+                      PART_OF are not promotable. Matched edges are emitted
+                      HUMAN_VALIDATED + validated_by/validated_date (evidence,
+                      provenance and confidence preserved verbatim).
 
 Determinism: pinned dates, sorted emission, no clock reads, no git reads, no
-randomness. A second run over unchanged decisions is byte-identical.
+randomness. A second run over unchanged decisions AND an unchanged promotions
+file is byte-identical (zero promotions emits the exact pre-promotion bytes).
 
 Usage: python3 scripts/c11_concept_pilot.py [--dry-run]
 Exit 0 = all gates green + files written (unless --dry-run).
@@ -62,6 +71,10 @@ REPO = HERE.parent
 GRAPH = REPO / "graph"
 NOTES = REPO / "Chemistry IGCSE Revision Notes"
 DECISIONS = HERE / "c11_pilot_decisions.yaml"
+PROMOTIONS = HERE / "c11_promotions.yaml"
+RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
+                        r"|llm|agent|model|bot", re.I)
 
 PILOT_SPS = ["4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28", "4CH1-1.29",
              "4CH1-1.30", "4CH1-1.31", "4CH1-1.32", "4CH1-1.33", "4CH1-1.34C",
@@ -150,6 +163,11 @@ def load_yaml(path: Path):
 dec = load_yaml(DECISIONS)
 sp_data = load_yaml(GRAPH / "specification_points.yaml")
 pr_data = load_yaml(GRAPH / "practicals.yaml")
+# Operator-side promotion record (§18): written ONLY by scripts/c11_promote.py.
+# Missing file = zero promotions = byte-identical pre-promotion output.
+promo_raw = (load_yaml(PROMOTIONS) if PROMOTIONS.exists()
+             else {"promotions": []})
+promotions = (promo_raw or {}).get("promotions") or []
 
 spec_by_code = {sp["code"]: sp for sp in sp_data["specification_points"]}
 practical_by_code = {p["code"]: p for p in pr_data["practicals"]}
@@ -490,6 +508,72 @@ for h in dec.get("held", []):
         G.fail(f"G01 held {h.get('id')}: status must be held|rejected")
 
 # ---------------------------------------------------------------------------
+# G13 promotions — the operator-side promotion record (architecture §18).
+# Written ONLY by scripts/c11_promote.py; this gate is the fail-closed merge
+# point. Zero promotions => emission is byte-identical to the pre-promotion
+# contract (frozen pilot snapshot).
+promo_index = {}
+for i, p in enumerate(promotions):
+    where = f"G13 promotion[{i}]"
+    if not isinstance(p, dict):
+        G.fail(f"{where}: entry must be a mapping, got {type(p).__name__}")
+        continue
+    edge = p.get("edge")
+    if not isinstance(edge, dict):
+        G.fail(f"{where}: 'edge' must be a mapping {{source, relation, target}}")
+        continue
+    src, rel, tgt = edge.get("source"), edge.get("relation"), edge.get("target")
+    for k, v in (("source", src), ("relation", rel), ("target", tgt)):
+        if not isinstance(v, str) or not v.strip():
+            G.fail(f"{where}: edge.{k} missing/empty — exact identity required")
+    if not (isinstance(src, str) and isinstance(rel, str) and isinstance(tgt, str)):
+        continue
+    key = (src, rel, tgt)
+    if rel not in RELATIONS:
+        G.fail(f"{where}: unknown relation {rel!r}")
+        continue
+    if rel == "PART_OF":
+        G.fail(f"{where}: PART_OF is derived — not promotable via this pathway")
+        continue
+    if key in promo_index:
+        G.fail(f"{where}: duplicate promotion for {src} {rel} {tgt}")
+        continue
+    by, dt = p.get("validated_by"), p.get("validated_date")
+    if not isinstance(by, str) or not by.strip():
+        G.fail(f"{where}: validated_by missing — promotion is operator-only")
+    elif AI_NAME_RE.search(by):
+        G.fail(f"{where}: validated_by {by!r} fails the attribution gate — "
+               f"AI cannot promote (anti-forgery; G10's operator-only rule)")
+    if not isinstance(dt, str) or not RE_ISO_DATE.match(dt or ""):
+        G.fail(f"{where}: validated_date must be YYYY-MM-DD, got {dt!r}")
+    ref = p.get("review_reference")
+    if not isinstance(ref, str) or not ref.strip():
+        G.fail(f"{where}: review_reference must name the ratifying review "
+               f"artifact")
+    else:
+        first = ref.split()[0]
+        if first.endswith((".md", ".json", ".yaml")) and not (REPO / first).exists():
+            G.fail(f"{where}: review_reference file not found: {first}")
+    if key not in edge_seen:
+        # precise diagnosis for identities that are not authored edges
+        # (held-candidate texts use the compact no-prefix form)
+        s_, t_ = src.removeprefix("4CH1-"), tgt.removeprefix("4CH1-")
+        hit = next((h.get("id") for h in dec.get("held", [])
+                    if s_ in str(h.get("candidate", ""))
+                    and t_ in str(h.get("candidate", ""))
+                    and rel in str(h.get("candidate", ""))), None)
+        if hit:
+            G.fail(f"{where}: {src} {rel} {tgt} is held candidate {hit} — "
+                   f"held/rejected candidates are not promotable (they are "
+                   f"not edges; re-author the decision record instead)")
+        else:
+            G.fail(f"{where}: no authored edge matches the exact identity "
+                   f"{src} {rel} {tgt} — promotion operates on existing "
+                   f"authored-edge identities only")
+        continue
+    promo_index[key] = p
+
+# ---------------------------------------------------------------------------
 # Emit
 def emit(path: Path, meta: dict, key: str, records: list, header: str):
     lines = [header]
@@ -501,7 +585,7 @@ def emit(path: Path, meta: dict, key: str, records: list, header: str):
 
 def build_meta(kind: str, counts: dict) -> dict:
     m = dec["meta"]
-    return {
+    meta = {
         "task": "T-C11",
         "stage": "pilot",
         "curriculum_code": "4CH1-2017",
@@ -524,6 +608,12 @@ def build_meta(kind: str, counts: dict) -> dict:
                             "V2 projection documented in C11_ARCHITECTURE.md §13)",
         "counts": counts,
     }
+    if promo_index and kind == "edges":
+        # present ONLY on the edges file and ONLY when promotions exist —
+        # zero promotions keeps the emission byte-identical to the frozen
+        # pilot snapshot; nodes/command-kinds are never promotable here
+        meta["promotion_record"] = "scripts/c11_promotions.yaml"
+    return meta
 
 
 def node_out(n):
@@ -533,10 +623,20 @@ def node_out(n):
 
 def edge_out(e, role=None):
     rec = {}
+    promo = promo_index.get((e.get("source"), e.get("relation"), e.get("target")))
     for k in EDGE_KEYS:
         if k == "role":
             if role:
                 rec["role"] = role
+        elif k == "validation_status":
+            if promo:
+                # §18: promotion adds ONLY the validation fields; evidence,
+                # provenance, confidence, ambiguity_note are preserved verbatim
+                rec["validation_status"] = "HUMAN_VALIDATED"
+                rec["validated_by"] = promo["validated_by"]
+                rec["validated_date"] = promo["validated_date"]
+            elif e.get(k) is not None:
+                rec["validation_status"] = e.get(k)
         elif e.get(k) is not None:
             rec[k] = e.get(k)
     return rec
@@ -589,6 +689,10 @@ counts_edges = {
     "review_required_edges": sum(1 for e in all_edges
                                  if e["validation_status"] == "REVIEW_REQUIRED"),
 }
+if promo_index:
+    counts_edges["promoted_edges"] = sum(
+        1 for e in all_edges if e["validation_status"] == "HUMAN_VALIDATED")
+    counts_edges["human_validated_edges"] = counts_edges["promoted_edges"]
 counts_ck = {"spec_points": len(cks)}
 
 dry = "--dry-run" in sys.argv
@@ -613,7 +717,10 @@ if not dry:
 
 print(f"ALL GATES GREEN ({len(nodes)} nodes / {len(all_edges)} edges "
       f"[{len(part_of)} PART_OF + {len(authored)} semantic] / "
-      f"{len(cks)} command kinds / {len(dec.get('held', []))} held)")
+      f"{len(cks)} command kinds / {len(dec.get('held', []))} held)"
+      + (f" / {len(promo_index)} promoted edge(s) HUMAN_VALIDATED (operator "
+         f"promotions, §18)" if promo_index else
+         " / 0 promoted (HUMAN_VALIDATED is operator-only)"))
 print(f"T-C10 crosscheck: 209/209 HUMAN_VALIDATED mappings indexed; "
       f"negative control {NEGATIVE_CONTROL}: 0 attachments"
       + ("" if dry else f"\nwrote graph/concepts.yaml, graph/concept_edges.yaml, "

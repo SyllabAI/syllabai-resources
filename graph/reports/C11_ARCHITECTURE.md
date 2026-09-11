@@ -597,4 +597,83 @@ Until then: no mass generation, no DB writes, no promotion.
 | 11 | explicit ambiguous/unsafe candidate list | review sheet §held + C11_PILOT_REVIEW.json |
 | 12 | coverage-gap report | graph/reports/C11_COVERAGE_GAP_REPORT.md |
 | — | pilot report (nodes, edges by type, accepted/rejected/held, evidence/provenance coverage, confidence distribution, FP/FN, integrity tests, regeneration, remaining gaps) | graph/reports/C11_PILOT_REPORT.md |
+| — | review round (operator tasking: RR-edge reviews, held audit, semantics review, negative-control variants) | graph/reports/C11_PILOT_REVIEW_RESPONSE.md + .json (session 40) |
+| — | promotion mechanism (§18) + held-candidate failure taxonomy (§19) | this round's additions |
+
+---
+
+## 18. Promotion mechanism (operator-only, exact-edge-identity)
+
+Added in the session-40 review round. The tasking properties and their
+machine tests:
+
+| property | enforcement |
+|---|---|
+| explicit and auditable | every promotion is an entry in `scripts/c11_promotions.yaml` (the operator-side record) with validated_by / validated_date / review_reference; the generated edge carries the same attribution; c11.13 audits BOTH directions (graph ⟷ record) |
+| operates on exact edge identity | each entry / `--edge` spec is `(source_node, relation, target_node)`; G13 + c11.13 + the tool require an exact match to one authored edge |
+| never promote by node or relation type alone | 3-token exact spec is the only accepted syntax; partial/wildcard specs are rejected at parse (T03); PART_OF and held candidates are categorically rejected (T05/T06) |
+| preserve evidence / provenance / confidence | the generator adds ONLY validation fields; T01c asserts all other edge fields byte-identical, T01d the decision record untouched |
+| idempotent | re-promoting an identity is a reported no-op; entries keyed by triple; T01h |
+| preserve candidate/held records | promotions live in a separate file; the decision record (including `held:`) is never mutated by promotion |
+| support HUMAN_VALIDATED state | emitted as `validation_status: HUMAN_VALIDATED` + `validated_by` + `validated_date` (schema §7 extension, operator-only tier) |
+| fail closed on malformed or missing evidence | tool pre-verifies every anchor quote (T-C10 norm byte-verification) before writing (T08/T09); generator G13 re-validates the record (T10–T13); checker c11.10/c11.13 re-validates against the real repo files |
+| positive and negative tests | scripts/c11_promote_test.py — 25/25 (T01–T18) in a sandbox repo copy; live store untouched |
+| preserve deterministic regeneration | promotion state is a pure function of (decision record, promotions file); zero promotions emits the exact pre-promotion bytes (verified live); N>0 promotions re-generate byte-identically (T01g) |
+
+Pathway (c10_promote pattern, decisions-side):
+
+```
+operator command (exact identity)          [operator]
+        └─> scripts/c11_promote.py          [tool: pre-verify evidence,
+             writes scripts/c11_               schema, held/PART_OF checks,
+             promotions.yaml                   idempotence]
+                  └─> scripts/c11_concept_pilot.py   [gated generator: G13
+                       re-run, byte-deterministic     validates + applies]
+                        └─> graph/concept_edges.yaml  [HUMAN_VALIDATED +
+                                                   validated_by/date; nothing
+                                                   else changes]
+```
+
+Anti-forgery closure (three layers):
+
+1. The AI decision record may never carry HUMAN_VALIDATED (G10; c11.13
+   independently scans the real decision record — T15).
+2. The promotions record may never carry AI attribution
+   (`validated_by` matching AI-name patterns fails closed in G13 and c11.13 —
+   T10).
+3. The generated graph may carry HUMAN_VALIDATED ONLY on an exact triple with
+   a matching promotion entry and exact attribution (c11.10; stale graphs and
+   attribution drift are caught — T14/T16/T17).
+
+Scope limits (deliberate, pilot round): only AUTHORED semantic edges are
+promotable. PART_OF edges are derived from node attachments and follow node
+authority (node promotion is a separate identity decision deferred to the
+expansion round). Removal of a promotion is a git revert of the promotions
+file + generator re-run — never a hand-edit of the graph. The V2 projection of
+HUMAN_VALIDATED + attribution fields is `VALIDATED` + validator columns
+(§13, deferred to the DB task).
+
+---
+
+## 19. Held-candidate failure taxonomy (stable classes)
+
+Session-40 finding: the 12 held/rejected candidates are NOT 12 individual
+exceptions — they cluster into four stable failure classes, and the two
+REVIEW_REQUIRED edges instantiate the same classes (emitted-and-quarantined
+instead of abstained). Expansion rounds must treat these classes as first-class
+generation rules, not per-candidate judgment calls.
+
+| class | definition | members | enforcement |
+|---|---|---|---|
+| **FC-1 evidence-sufficiency** | the candidate's evidence does not meet the bar its relation class demands (missing, implicit, or ambiguous) | HELD-01 (tip prescribes practice, documents no error), HELD-11 (garbled extraction context); RR-edges: both rest on IMPLICIT_USE evidence | derivation caps (IMPLICIT_USE→medium, EXAMINER_TIP_IMPLIED→low), G03/G11 byte-verification; implicit-use evidence must be quarantined (REVIEW_REQUIRED) or abstained, never asserted at high confidence |
+| **FC-2 relation-class misfit** | evidence exists but no single relation class is defensible, or the chosen class is the wrong family | HELD-02 (weak class + no node), HELD-03 / HELD-10 (class undecidable), HELD-12 (exam technique ≠ misconception); RR-edge 2 (prerequisite vs application vs grounding) | G08 structure rules, frozen §8A.11 triple distinction, RELATED_TO relation_class_rationale requirement; residual-class discipline |
+| **FC-3 redundancy / normalization** | the relation would be true but adds no reviewable information (density control) | HELD-04 / HELD-05 (transitively subsumed), HELD-06 / HELD-07 (taught inline / boundary); RR-edge 1 (subsumed via PR-03 → EXP-FORMULA-DEDUCTION → MOLE) | deliberately NOT machine-enforced: MOLAR-MASS → {MR, AR} proves transitively-reachable edges can be semantically distinct (element vs compound definitions); subsumption is a per-edge semantic judgment — review-enforced; an expansion-round pre-filter that FLAGS already-connected candidates is candidate tooling |
+| **FC-4 negative-control enforcement** | manufactured coverage assembled from premise + consequence across notes | HELD-09 (rejected — the 4.15 cluster) | fully machine-enforced: G05 attachment rule, G07/c11.6 anchor admissibility through T-C10 coverage, c11.5, negative-test classes 10–11 + the three task-4 variants (spec-wording lure, topical-similarity lure, uncovered-remediation lure — scripts/c11_task4_variants.py) |
+
+Emit-or-abstain policy for the expansion round (derived from the pilot's
+behavior): FC-1/FC-2 candidates are HELD (abstain) or emitted as
+REVIEW_REQUIRED with an ambiguity_note naming the class; FC-3 candidates are
+held with the subsumption path named; FC-4 candidates are REJECTED outright.
+Held-list entries must cite their class (`failure_class: FC-n`) so the
+taxonomy is machine-countable in the expansion reports.
 

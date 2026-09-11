@@ -1,0 +1,130 @@
+{
+  "task": "T-C11",
+  "stage": "pilot-review-response",
+  "round": "session-40 operator review tasking (Tasks 1-6)",
+  "generated": "2026-09-11",
+  "reviewer": "GLM (Super Z agent, z.ai) — pass 3 (independent semantic review of the pilot review sheet)",
+  "baseline_verified": {
+    "resources_head": "e218259",
+    "syllabai_head": "afb1d99",
+    "trees_clean": true,
+    "graph_check": "11/11 PASS",
+    "c11_negative_test": "14/14 PASS",
+    "deterministic_regeneration": "byte-identical",
+    "negative_control_4_15": "zero manufactured coverage",
+    "human_validated_t_c11_edges": 0
+  },
+  "task1_review_required_edges": [
+    {
+      "edge": "4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE",
+      "source_node": "4CH1-PR-03 (pilot practical: determine the formula of a metal oxide; 4CH1-1.36)",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target_node": "4CH1-CON-MOLE (the mole, unit of amount of substance; CORE @ 4CH1-1.27)",
+      "exact_evidence": "| moles | a / Ar | a / Ar |",
+      "additional_evidence_occurrence": "| moles | a / Mr | b / Mr | (CuO table) — the only two mole mentions in the note; prose never names the concept",
+      "evidence_source": "NOTE: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Investigating metal oxide formulas - IGCSE Revision Notes.md (T-C10 HUMAN_VALIDATED @ 1.36/1.31/1.33)",
+      "evidence_byte_verified": true,
+      "rationale_pass1": "IMPLICIT_USE (medium cap): results tables label the mass/Ar quotient as moles; possibly subsumed via PR-03 -> EXP-FORMULA-DEDUCTION -> MOLE",
+      "pass2_verdict": "REJECT",
+      "why_automation_could_not_resolve": "implicit-use evidence class (table-row label, capped at medium) + a semantic judgment on transitive subsumption that the machine rules deliberately do not make (MOLAR-MASS->{MR,AR} proves transitively-reachable edges can be distinct)",
+      "independent_semantic_assessment": "The practical's analysis procedure IS the EXP-FORMULA-DEDUCTION method (already an asserted dependency); the mole enters only inside that method as an implicit label. A learner mastering the deduction method can execute the practical without the named 1.27 concept. Direct edge redundant with the transitive path (same failure class as HELD-04) on weaker evidence.",
+      "recommended_decision": "REJECT",
+      "action_taken": "none — operator settles; edge remains REVIEW_REQUIRED in the graph"
+    },
+    {
+      "edge": "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW",
+      "source_node": "4CH1-CON-GAS-VOL-CALC (gas volume calculation; CORE @ 4CH1-1.35C)",
+      "relation": "REQUIRES_PREREQUISITE",
+      "target_node": "4CH1-CON-AVOGADRO-LAW (Avogadro's Law; ENRICHMENT @ 4CH1-1.35C)",
+      "exact_evidence": "Therefore, the volume of oxygen needed would be = 5 moles x 150 cm3",
+      "additional_evidence_occurrence": "preceding line: 'The balanced equation shows that 5 moles of oxygen are needed...' — ratio scaling; the note names the law only in its own section, never in a worked example",
+      "evidence_source": "NOTE: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md (T-C10 HUMAN_VALIDATED @ 1.35C)",
+      "evidence_byte_verified": true,
+      "rationale_pass1": "IMPLICIT_USE (medium cap): propane worked example applies volume-ratios-track-mole-ratios without naming the law; target is an ENRICHMENT concept",
+      "pass2_verdict": "HOLD",
+      "why_automation_could_not_resolve": "three defensible representations (genuine prerequisite on the law / application of CON-MOLAR-RATIO / grounding-only via the existing EXPLAINED_BY edge); corpus cannot arbitrate; making an ENRICHMENT concept prerequisite to a CORE calculation is an operator-level architecture decision",
+      "independent_semantic_assessment": "HOLD is correct: the named-prerequisite reading fails the genuine-learning-dependency test as evidenced; the ratio-skill reading requires a different edge identity (GAS-VOL-CALC -> CON-MOLAR-RATIO, cross-SP 1.35C->1.29) that was correctly not smuggled in; the law's contribution is already carried by the medium-confidence EXPLAINED_BY edge into MOLAR-GAS-VOL.",
+      "recommended_decision": "HOLD",
+      "action_taken": "none — operator settles; resolution paths recorded (author MOLAR-RATIO edge at expansion, or find corpus evidence invoking the law in a calculation)"
+    }
+  ],
+  "task1_concordance": "pass-3 agrees with both pass-2 verdicts (REJECT / HOLD); no verdict contradicts any pass-1 emission or pass-2 verdict; neither edge resolved silently; neither promoted",
+  "task2_held_audit": [
+    {"id": "HELD-01", "relation": "MISCONCEPTION_OF (would-be)", "hold_reason": "INSUFFICIENT_EVIDENCE_MISCONCEPTION", "evidence_weakness": "tip prescribes practice, documents no error", "disposition": "CONFIRM_HOLD (FN-1: revisit with MS/QP evidence)"},
+    {"id": "HELD-02", "relation": "COMMONLY_CONFUSED_WITH", "hold_reason": "NO_TARGET_NODE_PLUS_WEAK_CLASS", "evidence_weakness": "colloquial usage, not a confusion pair; no slice node", "disposition": "CONFIRM_HOLD"},
+    {"id": "HELD-03", "relation": "EXPLAINED_BY", "hold_reason": "RELATION_CLASS_AMBIGUOUS", "evidence_weakness": "class undecidable from corpus", "disposition": "CONFIRM_HOLD"},
+    {"id": "HELD-04", "relation": "REQUIRES_PREREQUISITE", "hold_reason": "TRANSITIVELY_SUBSUMED", "evidence_weakness": "covered by GAS-VOL-CALC -> MOLAR-GAS-VOL -> MOLE", "disposition": "CONFIRM_HOLD -> recommend REJECTED at revision"},
+    {"id": "HELD-05", "relation": "REQUIRES_PREREQUISITE", "hold_reason": "TRANSITIVELY_SUBSUMED_PLUS_DEFENSIONAL", "evidence_weakness": "REACTING-MASS already carries both dependencies", "disposition": "CONFIRM_HOLD -> recommend REJECTED at revision"},
+    {"id": "HELD-06", "relation": "REQUIRES_PREREQUISITE", "hold_reason": "TAUGHT_INLINE", "evidence_weakness": "mention != dependency (procedure re-teaches)", "disposition": "CONFIRM_HOLD -> recommend REJECTED at revision"},
+    {"id": "HELD-07", "relation": "REQUIRES_PREREQUISITE", "hold_reason": "TAUGHT_INLINE_PLUS_BOUNDARY", "evidence_weakness": "re-taught inline + out-of-slice concepts", "disposition": "CONFIRM_HOLD (expansion: boundary-minting policy)"},
+    {"id": "HELD-08", "relation": "RELATED_TO", "hold_reason": "RESIDUAL_CLASS_DISCIPLINE", "evidence_weakness": "pair already carries a dependency edge", "disposition": "CONFIRM_HOLD -> recommend REJECTED at revision"},
+    {"id": "HELD-09", "relation": "EXPLAINED_BY (+ companions)", "hold_reason": "NEGATIVE_CONTROL_4_15 (status: rejected)", "evidence_weakness": "premise+consequence in different notes; mechanism taught nowhere", "disposition": "CONFIRM_REJECT"},
+    {"id": "HELD-10", "relation": "REQUIRES_PREREQUISITE", "hold_reason": "RELATION_CLASS_AMBIGUOUS", "evidence_weakness": "application-of vs requires undecidable", "disposition": "CONFIRM_HOLD (expansion REVIEW_REQUIRED-style candidate)"},
+    {"id": "HELD-11", "relation": "WRONG_ANSWER_PATTERN", "hold_reason": "EVIDENCE_AMBIGUOUS_EXTRACTION", "evidence_weakness": "garbled PDF-table context; needs the paired QP", "disposition": "CONFIRM_HOLD (T-C06)"},
+    {"id": "HELD-12", "relation": "MISCONCEPTION_OF", "hold_reason": "EXAM_TECHNIQUE_NOT_MISCONCEPTION", "evidence_weakness": "question-reading guidance, not an erroneous belief", "disposition": "CONFIRM_HOLD -> recommend REJECTED at revision"}
+  ],
+  "task2_failure_classes": {
+    "clusters_into_stable_classes": true,
+    "documented_in": "C11_ARCHITECTURE.md §19",
+    "classes": {
+      "FC-1": {"name": "evidence-sufficiency", "members": ["HELD-01", "HELD-11"]},
+      "FC-2": {"name": "relation-class misfit", "members": ["HELD-02", "HELD-03", "HELD-10", "HELD-12"]},
+      "FC-3": {"name": "redundancy/normalization", "members": ["HELD-04", "HELD-05", "HELD-06", "HELD-07"]},
+      "FC-4": {"name": "negative-control enforcement", "members": ["HELD-09"]}
+    },
+    "rr_edge_instantiation": "Edge 1 = FC-3 (+FC-1 evidence); Edge 2 = FC-2 (+FC-1 evidence) — held list and RR quarantine are the same discipline at different pipeline points"
+  },
+  "task3_relation_semantics": {
+    "rule_1_prerequisite_genuine_dependency": "UPHELD (24 SUGGESTED RP edges evidenced by definitional/procedural/sequence anchors; RR pair resolved REJECT/HOLD; HELD-02/04/05/06/07 abstention)",
+    "rule_2_related_to_not_weak_substitute": "UPHELD by total abstention (0 RELATED_TO, 0 COMMONLY_CONFUSED_WITH; HELD-08 discipline)",
+    "rule_3_misconception_evidence": "UPHELD (1 MISCONCEPTION_OF on an examiner tip naming the mistake; HELD-01/12 abstention; G11 + negative test 12)",
+    "rule_4_explained_by_evidence": "UPHELD with 1 flagged edge (FP-1: MOLAR-GAS-VOL EXPLAINED_BY AVOGADRO-LAW — anchor supports molar-volume->formula; kept at medium; review-gated, not recommended for promotion without operator scrutiny)",
+    "rule_5_remediated_by_addresses_need": "UPHELD with 1 medium-confidence judgment flagged (MIS-EQ-SUBSCRIPT REMEDIATED_BY CONSERVATION-MASS argues identity, not conservation; cleaner fix in expansion)",
+    "rule_6_part_of_structurally_distinct": "UPHELD (machine-enforced: derived attachments vs authored dependencies; c11.7; promotion pathway excludes PART_OF)",
+    "rule_7_premise_consequence_no_causal_edge": "UPHELD (machine-tested: G05/G07/c11.6 + negative tests 10-11 + task-4 variants; HELD-09 the live rejection)"
+  },
+  "task4_negative_control": {
+    "canonical": "4CH1-4.15",
+    "frozen_suite": "c11_negative_test 14/14 PASS (classes 10-11 = the 4.15 attachment + premise/consequence corruptions)",
+    "new_variants": "c11_task4_variants 3/3 PASS — V1 spec-wording anchor, V2 topical-similarity combustion note, V3 remediation path from byte-true uncovered-note quotes",
+    "live_state": "0 concepts / 0 edges / 0 coverage for 4.15; remediation remains a corpus decision"
+  },
+  "task5_promotion_tooling": {
+    "built": ["scripts/c11_promote.py", "scripts/c11_promotions.yaml (0 entries)", "c11_concept_pilot.py G13 + promoted emission", "graph_check.py c11.10/c11.13 two-way audit", "scripts/c11_promote_test.py"],
+    "tests": "25/25 PASS (T01-T18) in a sandbox repo copy; live store untouched",
+    "promoted_this_round": 0,
+    "interpretation_note": "tasking conditioned promoting the RR edges on ACCEPT; verdicts were REJECT/HOLD so nothing was promoted; the mechanism itself was built and tested because the §16 gate list requires 'promotion mechanism tested' — an inert operator-command-gated tool promotes nothing (fail-safe reading; revertible without touching any promoted state, since there is none)"
+  },
+  "task6_s16_gate": {
+    "ready_for_authorization": false,
+    "self_authorized": false,
+    "report": "graph/reports/C11_S16_GATE_REPORT.md",
+    "operator_list": {
+      "two_RR_edges_resolved": "PARTIAL — recommendations recorded (REJECT/HOLD); operator settlement pending",
+      "held_taxonomy_documented": "DONE (C11_ARCHITECTURE.md §19)",
+      "promotion_mechanism_tested": "DONE (25/25)",
+      "pilot_promotion_audited": "PENDING — nothing promoted to audit (no operator ratification exists)",
+      "graph_check_passes": "DONE (11/11)",
+      "negative_tests_pass": "DONE (14/14 frozen + 25/25 promotion + 3/3 variants)",
+      "regeneration_byte_identical": "DONE (graph/ unchanged vs e218259)",
+      "provenance_100_for_promoted": "VACUOUSLY TRUE (0 promoted) / PENDING per-edge audit at first promotion",
+      "no_4_15_false_coverage": "DONE (machine-tested)",
+      "human_review_record_committed": "AGENT REVIEW COMMITTED; OPERATOR RECORD PENDING (sheet checkboxes open)",
+      "pilot_snapshot_frozen": "DONE (graph YAML byte-identical to e218259)"
+    },
+    "remaining_blockers": [
+      "operator settlement of the two REVIEW_REQUIRED edges (REJECT / HOLD recommendations)",
+      "operator review-sheet verdicts (per-row CONFIRM/REJECT/HOLD/MERGE/SPLIT, incl. yield-triple identity decisions)",
+      "operator ratification of specific edge identities + first promotion + audit",
+      "scoped expansion plan (architecture §16 criterion 6) not yet authored"
+    ]
+  },
+  "machine_state_at_close": {
+    "graph_check": "11/11 PASS — 29 nodes / 66 edges (33 PART_OF + 33 semantic) / 0 HUMAN_VALIDATED / 4.15 uncovered",
+    "c11_negative_test": "14/14 PASS",
+    "c11_task4_variants": "3/3 PASS",
+    "c11_promote_test": "25/25 PASS",
+    "deterministic_regeneration": "byte-identical at zero promotions",
+    "live_promotions": []
+  }
+}

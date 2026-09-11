@@ -46,8 +46,13 @@ Validates, with zero core-repo dependencies:
                         acyclicity, PART_OF set == declared attachments,
                         anchor admissibility (NOTE anchors must resolve
                         through T-C10 HUMAN_VALIDATED coverage; MARK_SCHEME
-                        anchors misconception-class only), anti-forgery (no
-                        HUMAN_VALIDATED from generation)
+                        anchors misconception-class only), anti-forgery
+                        (no HUMAN_VALIDATED from generation; promoted edges
+                        must match the operator-side promotion record
+                        scripts/c11_promotions.yaml exactly — c11.13
+                        validates that record and the frozen decision
+                        record, always reading the REAL repo files so the
+                        negative-test graph copies cannot cheat them)
 
 Exit code 0 = all checks pass; 1 = failures (listed).
 Usage: python3 scripts/graph_check.py [--graph DIR]
@@ -785,6 +790,11 @@ C11_MISCONCEPTION_RELATIONS = {"MISCONCEPTION_OF", "WRONG_ANSWER_PATTERN",
                                "REMEDIATED_BY"}
 C11_ANCHOR_KINDS = {"NOTE", "SPEC", "MARK_SCHEME"}
 C11_STATES = {"SUGGESTED", "REVIEW_REQUIRED"}
+C11_EDGE_STATES = {"SUGGESTED", "REVIEW_REQUIRED", "HUMAN_VALIDATED"}
+C11_PROMOTIONS_FILE = REPO / "scripts" / "c11_promotions.yaml"
+C11_DECISIONS_FILE = REPO / "scripts" / "c11_pilot_decisions.yaml"
+_C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
+                             r"|llm|agent|model|bot", re.I)
 C11_BANDS = {"high", "medium", "low"}
 C11_DERIVATION_CAPS = {
     "SPEC_VERBATIM": "high", "DEFINITIONAL_DEPENDENCY": "high",
@@ -833,6 +843,127 @@ def load_c11(graph_dir):
 
 
 _C11_TC10_INDEX = None
+_C11_PROMO_STATE = None
+
+
+def c11_promotion_state():
+    """Operator-side promotion state, read from the REAL repo files (the
+    negative-test graph copies cannot cheat them, same guarantee as the
+    T-C10 notes crosscheck). Returns (promo_entries, problems, authored):
+      promo_entries: {(src, rel, tgt): entry} from scripts/c11_promotions.yaml
+      problems:      c11.13 failures (schema/anti-forgery/resolution)
+      authored:      {(src, rel, tgt): validation_status} from the frozen
+                     decision record (drift detection vs the generated graph)
+    """
+    global _C11_PROMO_STATE
+    if _C11_PROMO_STATE is not None:
+        return _C11_PROMO_STATE
+    problems, entries, authored, dec = [], {}, {}, {}
+
+    # decision record: authored-edge identities + statuses + anti-forgery
+    if not C11_DECISIONS_FILE.exists():
+        problems.append("c11.13 decision record missing: "
+                        f"{C11_DECISIONS_FILE}")
+    else:
+        try:
+            dec = yaml.safe_load(C11_DECISIONS_FILE.read_text(encoding="utf-8")) or {}
+        except yaml.YAMLError as e:
+            dec = {}
+            problems.append(f"c11.13 decision record does not parse: {e}")
+        for e in dec.get("edges", []):
+            key = (e.get("source"), e.get("relation"), e.get("target"))
+            authored[key] = e.get("validation_status")
+            if e.get("validation_status") == "HUMAN_VALIDATED":
+                problems.append(
+                    f"c11.13 decision record carries HUMAN_VALIDATED on "
+                    f"{key[0]} {key[1]} {key[2]} — the AI decision record may "
+                    f"never carry it (anti-forgery; promotion is operator-only "
+                    f"via scripts/c11_promotions.yaml)")
+        for n in dec.get("nodes", []):
+            if n.get("validation_status") == "HUMAN_VALIDATED":
+                problems.append(
+                    f"c11.13 decision record carries HUMAN_VALIDATED on node "
+                    f"{n.get('code')} — anti-forgery (node promotion pathway "
+                    f"not built; nodes are SUGGESTED/REVIEW_REQUIRED only)")
+
+    # promotions file: schema + attribution + resolution
+    if C11_PROMOTIONS_FILE.exists():
+        try:
+            data = yaml.safe_load(C11_PROMOTIONS_FILE.read_text(encoding="utf-8")) or {}
+        except yaml.YAMLError as e:
+            data = {}
+            problems.append(f"c11.13 promotions file does not parse: {e}")
+        for i, p in enumerate(data.get("promotions") or []):
+            where = f"c11.13 promotion[{i}]"
+            if not isinstance(p, dict):
+                problems.append(f"{where}: entry must be a mapping")
+                continue
+            edge = p.get("edge")
+            if not isinstance(edge, dict):
+                problems.append(f"{where}: 'edge' must be a mapping "
+                                f"{{source, relation, target}}")
+                continue
+            src, rel, tgt = edge.get("source"), edge.get("relation"), \
+                edge.get("target")
+            if not all(isinstance(x, str) and x.strip() for x in (src, rel, tgt)):
+                problems.append(f"{where}: exact identity missing/empty — "
+                                f"promotion by node or relation type alone is "
+                                f"forbidden")
+                continue
+            key = (src, rel, tgt)
+            if rel not in C11_RELATIONS:
+                problems.append(f"{where}: unknown relation {rel!r}")
+                continue
+            if rel == "PART_OF":
+                problems.append(f"{where}: PART_OF is derived — not promotable "
+                                f"via this pathway")
+                continue
+            if key in entries:
+                problems.append(f"{where}: duplicate promotion for "
+                                f"{src} {rel} {tgt}")
+                continue
+            by, dt = p.get("validated_by"), p.get("validated_date")
+            if not isinstance(by, str) or not by.strip():
+                problems.append(f"{where}: validated_by missing — promotion is "
+                                f"operator-only")
+            elif _C11_AI_NAME_RE.search(by):
+                problems.append(f"{where}: validated_by {by!r} fails the "
+                                f"attribution gate — AI cannot promote")
+            if not isinstance(dt, str) or not re.match(r"^\d{4}-\d{2}-\d{2}$",
+                                                       dt or ""):
+                problems.append(f"{where}: validated_date must be "
+                                f"YYYY-MM-DD, got {dt!r}")
+            ref = p.get("review_reference")
+            if not isinstance(ref, str) or not ref.strip():
+                problems.append(f"{where}: review_reference must name the "
+                                f"ratifying review artifact")
+            else:
+                first = ref.split()[0]
+                if first.endswith((".md", ".json", ".yaml")) \
+                        and not (REPO / first).exists():
+                    problems.append(f"{where}: review_reference file not "
+                                    f"found: {first}")
+            if key not in authored:
+                # held-candidate texts use the compact no-prefix form
+                s_, t_ = src.removeprefix("4CH1-"), tgt.removeprefix("4CH1-")
+                hit = next((h.get("id") for h in dec.get("held", [])
+                            if s_ in str(h.get("candidate", ""))
+                            and t_ in str(h.get("candidate", ""))
+                            and rel in str(h.get("candidate", ""))), None)
+                if hit:
+                    problems.append(f"{where}: {src} {rel} {tgt} is held "
+                                    f"candidate {hit} — held/rejected "
+                                    f"candidates are not promotable")
+                else:
+                    problems.append(f"{where}: no authored edge matches the "
+                                    f"exact identity {src} {rel} {tgt} — "
+                                    f"promotion operates on existing "
+                                    f"authored-edge identities only")
+                continue
+            entries[key] = p
+
+    _C11_PROMO_STATE = (entries, problems, authored)
+    return _C11_PROMO_STATE
 
 
 def tc10_index():
@@ -1032,6 +1163,12 @@ def check_c11_concept_edges(c11, c09_data):
     prs = {p["code"]: p for p in c09_data["practicals.yaml"]["practicals"]}
     idx = tc10_index()
     nodes = {n["code"]: n for n in c11["concepts.yaml"]["nodes"]}
+    # §18 promotion crosscheck state — always read from the REAL repo files
+    # (promotions record + frozen decision record), corruption-proof for the
+    # negative-test graph copies
+    promo_entries, promo_problems, authored_states = c11_promotion_state()
+    for msg in promo_problems:
+        chk.fail(msg)
 
     for k in ("counts",):
         if k not in meta:
@@ -1050,9 +1187,14 @@ def check_c11_concept_edges(c11, c09_data):
         want = C11_COUNTS[r.lower()]
         if by_rel.get(r, 0) != want:
             chk.fail(f"c11.2 {r} edges {by_rel.get(r, 0)} != {want}")
+    # REVIEW_REQUIRED is decision-record state minus promotions settled on the
+    # two RR edges (derived, not frozen: promotion of an RR edge consumes it)
+    expected_rr = sum(1 for k, st in authored_states.items()
+                      if st == "REVIEW_REQUIRED" and k not in promo_entries)
     if sum(1 for e in edges if e.get("validation_status") == "REVIEW_REQUIRED") \
-            != C11_COUNTS["review_required"]:
-        chk.fail("c11.2 REVIEW_REQUIRED edge count mismatch")
+            != expected_rr:
+        chk.fail(f"c11.2 REVIEW_REQUIRED edge count mismatch (expected "
+                 f"{expected_rr} from decisions-promotions)")
 
     universe = set(nodes) | set(C11_PILOT_SPS) | set(prs)
     seen = set()
@@ -1074,9 +1216,47 @@ def check_c11_concept_edges(c11, c09_data):
             if end not in universe:
                 chk.fail(f"c11.7 {where}: endpoint {end!r} not in the pilot "
                          f"node universe")
-        if e.get("validation_status") not in C11_STATES:
+        if e.get("validation_status") not in C11_EDGE_STATES:
             chk.fail(f"c11.10 {where}: validation_status "
                      f"{e.get('validation_status')!r} (operator-only promotion)")
+        else:
+            status = e.get("validation_status")
+            promo = promo_entries.get(key)
+            if status == "HUMAN_VALIDATED":
+                if rel == "PART_OF":
+                    chk.fail(f"c11.10 {where}: PART_OF cannot be "
+                             f"HUMAN_VALIDATED (derived edge; node promotion "
+                             f"pathway not built)")
+                elif not promo:
+                    chk.fail(f"c11.10 {where}: HUMAN_VALIDATED without a "
+                             f"matching promotion record in "
+                             f"scripts/c11_promotions.yaml (operator-only "
+                             f"promotion; graph/promotions mismatch)")
+                elif (e.get("validated_by") != promo.get("validated_by")
+                      or e.get("validated_date") != promo.get("validated_date")):
+                    chk.fail(f"c11.10 {where}: attribution mismatch vs the "
+                             f"promotion record (graph: "
+                             f"{e.get('validated_by')!r}/"
+                             f"{e.get('validated_date')!r}; record: "
+                             f"{promo.get('validated_by')!r}/"
+                             f"{promo.get('validated_date')!r})")
+            elif promo and rel != "PART_OF":
+                chk.fail(f"c11.10 {where}: promotion recorded but edge not "
+                         f"promoted (stale graph — re-run "
+                         f"scripts/c11_concept_pilot.py)")
+            # status drift vs the frozen decision record + promotions
+            if rel != "PART_OF":
+                if key not in authored_states:
+                    chk.fail(f"c11.10 {where}: not authored in the decision "
+                             f"record scripts/c11_pilot_decisions.yaml "
+                             f"(hand-injected edge)")
+                else:
+                    want_status = ("HUMAN_VALIDATED" if promo
+                                   else authored_states[key])
+                    if status != want_status:
+                        chk.fail(f"c11.10 {where}: status drift — decision "
+                                 f"record+promotions say {want_status!r}, "
+                                 f"graph says {status!r}")
         if e.get("validation_status") == "REVIEW_REQUIRED" \
                 and not e.get("ambiguity_note"):
             chk.fail(f"c11.1 {where}: REVIEW_REQUIRED requires ambiguity_note")
@@ -1177,6 +1357,34 @@ def check_c11_concept_edges(c11, c09_data):
                  f"(missing {sorted(declared - part_of_derived)[:3]}, "
                  f"extra {sorted(part_of_derived - declared)[:3]})")
 
+    # §18 promotions are audited BOTH ways: every promotion entry must appear
+    # in the graph as HUMAN_VALIDATED with the exact recorded attribution
+    # (catches stale graphs after a promotion was recorded or a removal)
+    for key, p in sorted(promo_entries.items()):
+        if key not in seen:
+            chk.fail(f"c11.13 promotion for {key[0]} {key[1]} {key[2]} has no "
+                     f"edge in the graph (stale or corrupted promotion record)")
+            continue
+        ge = next(e for e in edges if (e.get("source"), e.get("relation"),
+                                       e.get("target")) == key)
+        if ge.get("validation_status") != "HUMAN_VALIDATED":
+            chk.fail(f"c11.13 promotion for {key[0]} {key[1]} {key[2]} not "
+                     f"reflected in the graph (status "
+                     f"{ge.get('validation_status')!r} — regenerate)")
+    n_promoted = sum(1 for e in edges
+                     if e.get("validation_status") == "HUMAN_VALIDATED")
+    if promo_entries:
+        if meta.get("promotion_record") != "scripts/c11_promotions.yaml":
+            chk.fail("c11.13 edges meta.promotion_record must be "
+                     "scripts/c11_promotions.yaml when promotions exist")
+        if counts.get("promoted_edges") != n_promoted:
+            chk.fail(f"c11.13 meta.counts.promoted_edges "
+                     f"{counts.get('promoted_edges')} != actual {n_promoted}")
+        if counts.get("human_validated_edges") != n_promoted:
+            chk.fail(f"c11.13 meta.counts.human_validated_edges "
+                     f"{counts.get('human_validated_edges')} != actual "
+                     f"{n_promoted}")
+
     # acyclicity of REQUIRES_PREREQUISITE
     color = {}
 
@@ -1247,6 +1455,8 @@ def main():
               f"{sum(1 for c in results if not c.ok)} check group(s).")
         sys.exit(1)
     n_points = len(point_codes)
+    c11_promoted = sum(1 for e in c11["concept_edges.yaml"]["edges"]
+                       if e.get("validation_status") == "HUMAN_VALIDATED")
     print(f"graph_check: ALL PASS — {n_points} spec points, "
           f"{len(topic_codes)} topics, {len(sub_codes)} subtopics, "
           f"{COUNTS['edges']} edges, {COUNTS['command_words']} command words, "
@@ -1255,8 +1465,8 @@ def main():
           f"{C11_COUNTS['edges']} concept edges "
           f"({C11_COUNTS['part_of']} PART_OF + "
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
-          f"0 HUMAN_VALIDATED (generation), negative control "
-          f"{C11_NEGATIVE_CONTROL} uncovered.")
+          f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
+          f"generation), negative control {C11_NEGATIVE_CONTROL} uncovered.")
 
 
 if __name__ == "__main__":
