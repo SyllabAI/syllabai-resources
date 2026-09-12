@@ -150,8 +150,8 @@ scope limits.
 | operator HOLD verdicts | session-45: **4** — the RR edge (session 41, below) + E-08/E-26/E-29 (session 44, rationale verbatim); session-41 snapshot: **1** |
 | operator PENDING (presented, undecided) | session-45: **0** — both settled HOLD (session 44); session-41 snapshot: **2** — the medium-confidence judgments (§5 below) |
 | held candidates (abstention record) | **11 held + 2 rejected = 13** (HELD-01…12 + HELD-13; HELD-09 was already rejected as the negative control; HELD-13 is the operator rejection) |
-| graph edges by state | session-51: **79 HUMAN_VALIDATED** (unchanged — batch-3 authoring promotes nothing) + 42 SUGGESTED semantic (3 pilot operator HOLDs + 39 batch-3 edges awaiting that batch's operator gate) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
-| authored SUGGESTED edges awaiting per-row confirmation | session-51: **39** (the batch-3 gate — 39 clean SUGGESTED edges awaiting per-row verdicts; 14 held untouched; zero RR authored); session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
+| graph edges by state | session-52: **118 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50 + 39 batch-3 §18 session-52, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-51: **79 HUMAN_VALIDATED** (unchanged — batch-3 authoring promotes nothing) + 42 SUGGESTED semantic (3 pilot operator HOLDs + 39 batch-3 edges awaiting that batch's operator gate) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
+| authored SUGGESTED edges awaiting per-row confirmation | session-52: **0** (batch-3 verdicts applied — 39 promoted, 14 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-51: **39** (the batch-3 gate — 39 clean SUGGESTED edges awaiting per-row verdicts; 14 held untouched; zero RR authored); session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
 
 ### 4. Promoted count
 
@@ -194,6 +194,27 @@ equality (verdict CONFIRM set == live batch-2 HUMAN_VALIDATED set == store
 batch-2 entries); graph_check c11.10/c11.13 green at 79 promoted;
 deterministic regeneration re-proven byte-identical with the 79-entry
 store.
+
+**Session-52 update (2026-09-13): 118.** The batch-3 operator gate settled
+(the practical-review policy, `scripts/c11_batch3_verdicts.yaml`: CONFIRM
+where the evidence clearly supports the authored relationship;
+HOLD/REJECT only for genuine evidence insufficiency or an
+architectural/semantic problem; ordinary ontology imperfection, wording
+preferences, enrichment opportunities and theoretical alternative
+interpretations are NOT blockers): 39 edge CONFIRM / 24 node CONFIRM / 7
+identity decisions KEEP_AS_IS / 14 held acknowledged (clean quarantine).
+The same §18 pathway applied 39 more operator promotions over
+operator-confirmed identities (bundle
+`graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md`; the pilot, B1 and B2
+bundles preserved byte-intact at their own paths; zero RR authored in
+batch 3, so nothing was left un-promotable by settlement). The §7
+application is the header note only (no RR settlement block, no
+ENRICHMENT node, no MERGE/SPLIT — all identity decisions KEEP_AS_IS);
+generator re-run byte-identical. The standing `c11_batch3_verdict_check.py`
+(32 checks) proves the three-way set equality (verdict CONFIRM set ==
+live batch-3 HUMAN_VALIDATED set == store batch-3 entries); graph_check
+c11.10/c11.13 green at 118 promoted; deterministic regeneration re-proven
+byte-identical with the 118-entry store.
 
 ### 5. All remaining REVIEW_REQUIRED edges
 
@@ -509,3 +530,33 @@ before phase 2 (S3).)
 > front-end lists the 39 batch-3 SUGGESTED edges as the pending actionable
 > surface (39 / 5 not-actionable / promo_count=79). Section 1 coverage is
 > now COMPLETE (pilot + batches 1–3 = all 60 S1 SPs).
+> **Session-52 update (2026-09-13): batch 3 GATE SETTLED — verdicts recorded
+> and applied; store total 118.** The operator authorized moving forward
+> rather than reopening another prolonged review cycle and applied the
+> practical-review policy per row (verbatim policy fragments recorded in
+> `scripts/c11_batch3_verdicts.yaml` meta.operator_ruling; "My verdict file
+> is that operator authorization."): 39 edge CONFIRM / 24 node CONFIRM /
+> 7 identity decisions KEEP_AS_IS / 14 held acknowledged (clean quarantine —
+> "A clean quarantine is preferable to inventing evidence"). Encoded
+> fail-closed (`scripts/c11_verdict_encode_batch3.py` — pre-state
+> reconciliation: 39 SUGGESTED triples, zero RR, 24 node codes, 14 held,
+> 79-HV frozen pre-verdict store, §16 AUTHORIZED, all-operator attribution),
+> then applied through the exact session-48/50 sanctioned shape: §7
+> re-authoring (header note only — no RR settlement, no ENRICHMENT node, no
+> MERGE/SPLIT; generator re-run byte-identical) + §18 (bundle
+> `graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md` → approve --all --by
+> operator → ONE c11_promote.py invocation → 39 promotions, all operator,
+> 2026-09-13). The store now carries 118 HUMAN_VALIDATED (28 pilot + 28
+> batch-1 + 23 batch-2 + 39 batch-3), every promoted identity tracing to an
+> operator verdict row; the only SUGGESTED semantic edges left are the 3
+> pilot operator HOLDs; both RR edges keep their operator settlements; the
+> frozen pilot + batch-1 + batch-2 dispositions are byte-intact; the full
+> gate suite is green at the 118-promotion state, including the new standing
+> checker `scripts/c11_batch3_verdict_check.py` (32 checks). No unratified
+> promotion occurred. SECTION 1 IS FULLY SETTLED: coverage complete (60/60
+> SPs) and all three expansion batches gated + applied. Next: batch 4 =
+> Section 3 Physical Chemistry (22 SPs, 15 T-C10-validated notes; the
+> cross-slice boundary ruling recorded before/alongside its authoring);
+> T-C11 no longer gates the broader SyllabAI development — phase 2 /
+> learner-facing KG behavior / misconception-aware recommendations / pilot
+> readiness proceed per the operator's exit directive.)

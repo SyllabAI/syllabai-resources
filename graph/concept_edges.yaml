@@ -113,8 +113,8 @@ meta:
     requires_prerequisite_edges: 91
     wrong_answer_pattern_edges: 8
     review_required_edges: 2
-    promoted_edges: 79
-    human_validated_edges: 79
+    promoted_edges: 118
+    human_validated_edges: 118
   promotion_record: scripts/c11_promotions.yaml
 edges:
 - source: 4CH1-CON-ANODE-CATHODE
@@ -3068,7 +3068,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.57C @ Electronic Conductivity (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-AQUEOUS-DISCHARGE
@@ -3091,7 +3093,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-AR
@@ -3311,7 +3315,9 @@ edges:
       by the batch-2 record (4CH1-1.14)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-COVALENT-BOND
@@ -3335,7 +3341,9 @@ edges:
       by the batch-2 record (4CH1-1.19/1.22)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-COVALENT-CONDUCTION
@@ -3363,7 +3371,9 @@ edges:
       4CH1-1.55C @ Electronic Conductivity (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-CRYSTALLISATION
@@ -3438,7 +3448,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.49/1.50 @ Giant Covalent Structures (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-DOT-CROSS-COVALENT
@@ -3460,7 +3472,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.46 @ Covalent Bonds: Dot & Cross Diagrams (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-DOT-CROSS-COVALENT
@@ -3484,7 +3498,9 @@ edges:
       node owned by the batch-2 record (4CH1-1.14)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-DOT-CROSS-IONIC
@@ -3507,7 +3523,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37/1.40 @ Ionic Bonding Diagrams (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
@@ -3531,7 +3549,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.59C @ Half Equations (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
@@ -3554,7 +3574,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.59C @ Half Equations (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTROLYSIS
@@ -3577,7 +3599,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTROLYSIS
@@ -3602,7 +3626,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTROLYSIS
@@ -3625,7 +3651,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTRONIC-CONFIGURATION
@@ -3938,7 +3966,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.49 @ Giant Covalent Structures (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-GROUP-SIMILARITY
@@ -3986,7 +4016,9 @@ edges:
       batch-2 record (4CH1-1.14)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ION
@@ -4009,7 +4041,9 @@ edges:
       batch-2 record (4CH1-1.19/1.22)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ION-CHARGE-RULES
@@ -4032,7 +4066,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37/1.38 @ Common Ions (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-IONIC-BOND
@@ -4055,7 +4091,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-IONIC-CONDUCTION
@@ -4078,7 +4116,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-IONIC-CONDUCTION
@@ -4100,7 +4140,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-IONIC-FORMULA
@@ -4122,7 +4164,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.39 @ Formula of Ionic Compounds (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-IONIC-LATTICE
@@ -4146,7 +4190,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41/1.42 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ISOTOPES
@@ -4265,7 +4311,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.53C @ Metallic Bonding (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MIXTURE
@@ -4862,7 +4910,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-SIMPLE-MOLECULAR
@@ -4886,7 +4936,9 @@ edges:
       owned by the batch-2 record (4CH1-1.14)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-SOLUBILITY
@@ -5205,7 +5257,9 @@ edges:
       Solutions (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-PR-04
@@ -5228,7 +5282,9 @@ edges:
       Solutions (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-CRYSTALLISATION
@@ -5387,7 +5443,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.54C @ Metallic Bonding (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MOLAR-GAS-VOL
@@ -5488,7 +5546,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.50 @ Simple Molecular Structures (2026-09-11)
     generated_date: '2026-09-12'
   confidence: medium
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   ambiguity_note: First RELATED_TO deployment in the store; the relation is genuinely residual (the C60
     content could alternatively attach the 1.50 SP to CON-SIMPLE-MOLECULAR — an operator identity decision
     on the sheet).
@@ -5557,7 +5617,9 @@ edges:
       IONIC_MS_P2/COVALENT_MS_P2 (pinned 4ccfc377514a/ed012522d306)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   ambiguity_note: One-directional storage of a symmetric relation (source ionic, target covalent — the
     batch-2 CCW convention); the MS cross-REJECTs are assessment context only, not CCW evidence (G07 admits
     MARK_SCHEME anchors for misconception-family relations only).
@@ -5608,7 +5670,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-CONC-UNIT
@@ -5654,7 +5718,9 @@ edges:
       sha1 ed012522d306)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
@@ -5723,7 +5789,9 @@ edges:
       sha1 ed012522d306)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-IONIC-BOND-ATOMS
@@ -5745,7 +5813,9 @@ edges:
       sha1 4ccfc377514a)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
@@ -5840,7 +5910,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
@@ -5937,7 +6009,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.50 @ Giant Covalent Structures (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-IONIC-BOND-ATOMS
@@ -5959,7 +6033,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
@@ -5982,7 +6058,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-13'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS

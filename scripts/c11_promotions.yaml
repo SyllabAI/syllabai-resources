@@ -11,6 +11,20 @@ meta:
     edges received REJECT / HOLD verdicts and the 31 SUGGESTED edges await operator confirmation.'
 promotions:
 - edge:
+    source: 4CH1-CON-ANODE-CATHODE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-AQUEOUS-DISCHARGE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELECTROLYSIS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
     source: 4CH1-CON-AR
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-ISOTOPES
@@ -74,6 +88,27 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-COVALENT-BOND
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ATOM
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-COVALENT-BOND
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-COVALENT-CONDUCTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SIMPLE-MOLECULAR
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
     source: 4CH1-CON-CRYSTALLISATION
     relation: EXPLAINED_BY
     target: 4CH1-CON-SOLUBILITY
@@ -88,6 +123,20 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-CON-DIAMOND-GRAPHITE
+    relation: RELATED_TO
+    target: 4CH1-CON-SIMPLE-MOLECULAR
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-DIAMOND-GRAPHITE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-GIANT-COVALENT
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
     source: 4CH1-CON-DIFFUSION
     relation: EXPLAINED_BY
     target: 4CH1-CON-STATE-PARTICLE-MODEL
@@ -101,6 +150,62 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-DOT-CROSS-COVALENT
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COVALENT-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-DOT-CROSS-COVALENT
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLECULE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-DOT-CROSS-IONIC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELECTROLYSIS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REDOX-ELECTRONS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ELECTROLYSIS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ANODE-CATHODE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ELECTROLYSIS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-IONIC-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ELECTROLYSIS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-IONIC-CONDUCTION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
 - edge:
     source: 4CH1-CON-ELECTRONIC-CONFIGURATION
     relation: REQUIRES_PREREQUISITE
@@ -186,6 +291,13 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-GIANT-COVALENT
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COVALENT-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
     source: 4CH1-CON-GROUP-SIMILARITY
     relation: EXPLAINED_BY
     target: 4CH1-CON-ELECTRONIC-CONFIGURATION
@@ -199,6 +311,69 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ATOM
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-ION-CHARGE-RULES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-IONIC-BOND
+    relation: COMMONLY_CONFUSED_WITH
+    target: 4CH1-CON-COVALENT-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-IONIC-BOND
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-IONIC-CONDUCTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-IONIC-CONDUCTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-IONIC-LATTICE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-IONIC-FORMULA
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION-CHARGE-RULES
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-IONIC-LATTICE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-IONIC-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
 - edge:
     source: 4CH1-CON-ISOTOPES
     relation: REQUIRES_PREREQUISITE
@@ -227,6 +402,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-METAL-PROPERTIES
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-METALLIC-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-METALLIC-BOND
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
 - edge:
     source: 4CH1-CON-MIXTURE
     relation: REQUIRES_PREREQUISITE
@@ -396,6 +585,20 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-CON-SIMPLE-MOLECULAR
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COVALENT-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-SIMPLE-MOLECULAR
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLECULE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
     source: 4CH1-CON-SOLUBILITY
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-SATURATED-SOLUTION
@@ -466,6 +669,20 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-MIS-COVALENT-BONDS-BROKEN
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-SIMPLE-MOLECULAR
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-COVALENT-BONDS-BROKEN
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-SIMPLE-MOLECULAR
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
     source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
     relation: REMEDIATED_BY
     target: 4CH1-CON-SATURATED-SOLUTION
@@ -500,6 +717,48 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-GRAPHITE-LAYER-BONDS
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-DIAMOND-GRAPHITE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-GRAPHITE-LAYER-BONDS
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-DIAMOND-GRAPHITE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-IONIC-BOND-ATOMS
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-IONIC-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-IONIC-BOND-ATOMS
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-IONIC-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
+    relation: MISCONCEPTION_OF
+    target: 4CH1-CON-IONIC-CONDUCTION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-IONIC-CONDUCTION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
 - edge:
     source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
     relation: REMEDIATED_BY
@@ -563,3 +822,17 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-PR-04
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-AQUEOUS-DISCHARGE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-PR-04
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELECTROLYSIS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md

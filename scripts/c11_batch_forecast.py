@@ -205,8 +205,12 @@ out = {
     # session-50 (2026-09-12): batch-2 operator gate SETTLED — verdicts
     # recorded (ruling "CONFIRM all") and applied through §18 (23
     # promotions, operator); baselines unchanged.
-    "session": 50,
-    "generated": "2026-09-12",
+    # session-52 (2026-09-13): batch-3 operator gate SETTLED — verdicts
+    # recorded (the practical-review policy: 39 edge CONFIRM / 24 node
+    # CONFIRM / 7 KEEP_AS_IS / 14 held acknowledged) and applied through
+    # §18 (39 promotions, operator; store total 118); baselines unchanged.
+    "session": 52,
+    "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
                "batches. The pilot is batch 0 (baseline). Each authorized §16 "
@@ -259,6 +263,12 @@ out = {
         # (scripts/c11_batch2_verdicts.yaml) and applied (23 edge CONFIRM
         # promoted via §18; zero RR authored, so no settlement row; 4
         # identity decisions KEEP_AS_IS; B2-N-08 enrichment scoping).
+        # Session-52 (2026-09-13): batch 3 SETTLED — the operator's
+        # practical-review policy applied (CONFIRM where evidence clearly
+        # supports; ordinary ontology imperfection not a blocker); verdicts
+        # recorded (scripts/c11_batch3_verdicts.yaml) and applied (39 edge
+        # CONFIRM promoted via §18; zero RR authored; 7 identity decisions
+        # KEEP_AS_IS; 14 held preserved — clean quarantine).
         "status": ("§16 AUTHORIZED 2026-09-12 (session 46, operator — "
                    "scripts/c11_s16_authorization.yaml); batch 1 AUTHORED "
                    "2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored "
@@ -277,8 +287,14 @@ out = {
                    "4CH1-1.37-1.60C, 24 SPs / 24 nodes / 39 authored "
                    "edges / 14 held / 0 RR, 6 cross-boundary edges + 3 "
                    "Paper-2 MS pins — FN-B2-1 closed; awaiting its operator "
-                   "gate; Section 1 coverage complete), SETTLED pending; "
-                   "batches 4-14 not started"),
+                   "gate; Section 1 coverage complete), SETTLED 2026-09-13 "
+                   "(session 52: the operator's practical-review policy — "
+                   "39 edge CONFIRM promoted via §18, store total 118; "
+                   "zero RR authored; 7 identity decisions KEEP_AS_IS; "
+                   "14 held preserved — clean quarantine; verdict record "
+                   "scripts/c11_batch3_verdicts.yaml); batch 4 (S3 "
+                   "Physical) COMMISSIONED, not yet authored; batches "
+                   "5-14 not started"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,
@@ -425,9 +441,10 @@ out = {
             "rates": {
                 "held_rate": 0.2642,
                 "rejection_rate": 0.0,
-                # session-51: gate PENDING — 39 authored edges await the
-                # batch-3 operator verdicts; nothing promoted yet
-                "promotion_rate": 0.0,
+                # session-52: gate SETTLED — 39 authored edges CONFIRMed and
+                # promoted via §18 (zero RR authored, so every authored
+                # edge was promotable post-verdict)
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -440,7 +457,7 @@ out = {
                 "FP-B3-3/4 (first RELATED_TO + second COMMONLY_CONFUSED_WITH "
                 "deployments)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 39, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -58.3% / edges -40.9% vs the "
                            "2.4/2.75 model — the deltas are the boundary "
@@ -460,12 +477,18 @@ out = {
                            "layout-verified). FN-B2-1 CLOSED: 3 Paper-2 pins "
                            "(IONIC/COVALENT/CFEC); coverage fact — PMT "
                            "publishes no metallic-bonding/electrolysis MS "
-                           "(B3-H-11/H-12). operator_verdicts all zero: the "
-                           "per-batch operator gate is PENDING (sheet: "
-                           "C11_BATCH3_REVIEW_SHEET.md; template: "
-                           "scripts/c11_batch3_verdicts_template.yaml). "
-                           "Section 1 coverage COMPLETE (pilot + batches "
-                           "1-3 = all 60 S1 SPs)."),
+                           "(B3-H-11/H-12). "
+                           "Session-52 (2026-09-13): operator gate SETTLED — "
+                           "the practical-review policy applied per row "
+                           "(scripts/c11_batch3_verdicts.yaml: 39 edge "
+                           "CONFIRM / 24 node CONFIRM / 7 identity decisions "
+                           "KEEP_AS_IS / 14 held acknowledged — a clean "
+                           "quarantine) and applied through §18 (39 "
+                           "promotions, operator, review_ref = the B3 "
+                           "diff-review bundle; promotion_rate 1.0 — zero RR "
+                           "authored, so every authored edge was promotable "
+                           "post-verdict). Section 1 coverage COMPLETE "
+                           "(pilot + batches 1-3 = all 60 S1 SPs)."),
         },
     ],
     "future_batch_record_schema": {

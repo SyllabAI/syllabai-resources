@@ -51,6 +51,28 @@
 # negative control. No batch-3 node attaches to 4.15; no batch-3 edge
 # re-uses an earlier-record identity.
 
+#
+# OPERATOR DECISIONS (session 52, applied session 52, 2026-09-13): the
+# operator's batch-3 verdicts live in scripts/c11_batch3_verdicts.yaml
+# (operator-owned; the session-52 practical-review policy: CONFIRM where
+# the evidence clearly supports the authored relationship; HOLD/REJECT only
+# for genuine evidence insufficiency or an architectural/semantic problem;
+# ordinary ontology imperfection, wording preferences, enrichment
+# opportunities and theoretical alternative interpretations are NOT
+# blockers; the verdict file is the operator authorization for promotion):
+# 39 edge CONFIRM / 0 HOLD / 0 REJECT; 24 node CONFIRM; 7 identity
+# decisions KEEP_AS_IS; no RR settlement (this batch authored no
+# REVIEW_REQUIRED edge); the held appendix (14) acknowledged — a clean
+# quarantine, no rescue attempts. Session 52 applied them: the 39
+# confirmed edges flow through the §18 pathway
+# (scripts/c11_promotions.yaml — the ONLY HUMAN_VALIDATED source; never
+# this record). This batch needs NO operator_decision blocks: no RR
+# settlement, no ENRICHMENT-scoped node, and every identity decision is
+# KEEP_AS_IS (the authored representation stands — no merge, no split, no
+# boundary re-scope). Node CONFIRMs are review state only (no §18 node
+# pathway), recorded in the verdict file. This note is never emitted into
+# graph/*.yaml and can never carry HUMAN_VALIDATED.
+
 meta:
   task: T-C11
   stage: s16-batch-3

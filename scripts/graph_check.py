@@ -800,18 +800,20 @@ C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS \
     + C11_BATCH3_SPS
 C11_STAGE = "pilot+s16-batch-1+s16-batch-2+s16-batch-3"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-# State after the session-51 batch-3 authoring (to its operator gate): 91
-# nodes (29 pilot + 24 batch-1 + 14 batch-2 + 24 batch-3), 220 edges (97
-# PART_OF + 123 semantic), 79 HUMAN_VALIDATED (28 pilot session-45 + 28
-# batch-1 session-48 + 23 batch-2 session-50 — all operator §18 promotions;
-# unchanged by batch 3: authoring promotes nothing). The SUGGESTED semantic
-# edges are the 3 pilot operator HOLDs PLUS the 39 batch-3 authored edges
-# awaiting this batch's operator gate; batch nodes stay SUGGESTED (nodes have
-# no §18 pathway). 2 REVIEW_REQUIRED (the frozen pilot RR operator-HOLD edge
-# + the settled batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 3 authored
-# no new RR — every doubt was held at authoring: 14 held candidates).
+# State after the session-52 batch-3 verdict application: 91 nodes (29
+# pilot + 24 batch-1 + 14 batch-2 + 24 batch-3), 220 edges (97 PART_OF +
+# 123 semantic), 118 HUMAN_VALIDATED (28 pilot session-45 + 28 batch-1
+# session-48 + 23 batch-2 session-50 + 39 batch-3 session-52 — all
+# operator §18 promotions). The SUGGESTED semantic edges are the 3 pilot
+# operator HOLDs (the batch-3 edges were promoted by the session-52
+# verdicts); batch nodes stay SUGGESTED (nodes have no §18 pathway).
+# 2 REVIEW_REQUIRED (the frozen pilot RR operator-HOLD edge + the settled
+# batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 3 authored no new RR —
+# every doubt was held at authoring: 14 held candidates).
 # (Session-51 note: the store was 67/156 at the session-50 state; batch 3
-# adds 24 nodes + 25 PART_OF + 39 authored semantic edges.)
+# adds 24 nodes + 25 PART_OF + 39 authored semantic edges.
+# Session-52 note: counts unchanged by the verdict application — statuses
+# only: 39 SUGGESTED -> HUMAN_VALIDATED.)
 C11_COUNTS = {"nodes": 91, "concepts": 81, "misconceptions": 10, "edges": 220,
               "part_of": 97, "requires_prerequisite": 91, "explained_by": 9,
               "related_to": 1, "commonly_confused_with": 2,
@@ -1546,8 +1548,8 @@ def main():
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
           f"generation; batch-1 verdicts applied session 48; batch-2 "
-          f"verdicts applied session 50; batch 3 authored to its operator "
-          f"gate session 51 — nodes have no §18 pathway), "
+          f"verdicts applied session 50; batch-3 verdicts applied session 52 "
+          f"— nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "
           f"uncovered.")

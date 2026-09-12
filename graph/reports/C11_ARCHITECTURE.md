@@ -699,6 +699,37 @@ force for everything not covered by a batch's sanctioned pathway —
 including DB writes and hand-edited graphs, which no batch pathway
 sanctions.)*
 
+*(Session-52, 2026-09-13: the batch-3 operator gate was settled under the
+operator's practical-review directive — "Where the evidence clearly
+supports the authored relationship: CONFIRM. Where there is genuine
+evidence insufficiency or an architectural/semantic problem: HOLD or
+REJECT, as appropriate. However, do not turn ordinary ontology
+imperfection, wording preferences, enrichment opportunities, or
+theoretical alternative interpretations into blockers." — and applied
+immediately through this section's sanctioned pathway ("My verdict file
+is that operator authorization."): verdicts encoded fail-closed
+(`scripts/c11_verdict_encode_batch3.py` → the operator-owned
+`scripts/c11_batch3_verdicts.yaml` — 39 edge CONFIRM / 24 node CONFIRM /
+7 identity decisions KEEP_AS_IS / 14 held acknowledged, clean quarantine;
+the template consumed per the gate pathway), §7 re-authoring
+(`scripts/c11_verdict_apply_batch3.py` — the header note ONLY: no RR
+settlement, no ENRICHMENT node, no MERGE/SPLIT; the generator re-run was
+byte-identical, proving operator decisions never reach graph/*.yaml), and
+§18 (bundle `graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md` →
+approve --all --by operator → ONE c11_promote.py invocation → 39 operator
+promotions → gated G13 re-run ALL GATES GREEN). The store stands at 118
+HUMAN_VALIDATED (28 pilot + 28 batch-1 + 23 batch-2 + 39 batch-3, all
+operator; the new standing checker `scripts/c11_batch3_verdict_check.py`
+— 32 checks — proves the three-way set equality for the batch-3 slice).
+SECTION 1 IS FULLY SETTLED: coverage complete (60/60 SPs) and every
+expansion batch gated + applied. Per the operator's exit directive, T-C11
+no longer gates the broader SyllabAI development; the next slice is
+batch 4 = Section 3 Physical Chemistry (the cross-slice boundary ruling
+is recorded alongside it — duplicate/conflict prevention only, not an
+ontology exercise). The restrictions above remain in force for everything
+not covered by a batch's sanctioned pathway — including DB writes and
+hand-edited graphs, which no batch pathway sanctions.)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

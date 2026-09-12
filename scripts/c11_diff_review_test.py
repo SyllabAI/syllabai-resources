@@ -22,12 +22,11 @@ Negative (all fail closed, nothing written):
                                            N11 status drift decisions<->graph
 
 Real-repo smoke (read-only):
-  R1  `list` exits 0 on the live store state and reports the session-51
-      surface (39 batch-3 actionable / 5 not-actionable / 79 promotions
-      recorded) — the operator's batch-2 verdicts were applied (session 50,
-      ruling "CONFIRM all") and batch 3 was authored to its operator gate
-      (session 51), so the actionable §18 surface is exactly the 39
-      batch-3 SUGGESTED edges awaiting that batch's verdicts (the 5
+  R1  `list` exits 0 on the live store state and reports the session-52
+      surface (0 actionable / 5 not-actionable / 118 promotions
+      recorded) — the operator's batch-3 verdicts were applied (session 52,
+      the practical-review policy) and the §18 actionable surface is
+      empty again until the next batch's gate
       not-actionable rows are the 3 pilot operator HOLDs + the pilot RR +
       the settled batch-1 RR).
 
@@ -440,15 +439,15 @@ def main() -> int:
         r = subprocess.run([sys.executable, str(HERE / "c11_diff_review.py"),
                             "list"], cwd=T.REPO, capture_output=True, text=True)
         check("R1 list exits 0", r.returncode == 0, r.stderr[:200])
-        # session-51: batch 3 was authored to its operator gate (39 SUGGESTED
-        # edges, zero RR); the actionable surface is exactly the 39 batch-3
-        # edges awaiting that batch's verdicts; the 5 not-actionable rows =
-        # 3 pilot operator HOLDs + the pilot RR + the settled batch-1 RR;
-        # promo_count stays 79 (batch-3 authoring promotes nothing).
-        check("R1 reports 39 actionable / 5 not-actionable / 79 promotions",
-              "actionable: 39  (clean 39 / pending-flagged 0)" in r.stdout
+        # session-52: the batch-3 operator verdicts were applied (39 §18
+        # promotions, c11_batch3_verdicts) — the actionable surface is
+        # EMPTY again until the next batch's gate; the 5 not-actionable rows
+        # = 3 pilot operator HOLDs + the pilot RR + the settled batch-1 RR;
+        # promo_count stays 118 (28+28+23+39, all operator).
+        check("R1 reports 0 actionable / 5 not-actionable / 118 promotions",
+              "actionable: 0" in r.stdout
               and "not-actionable: 5" in r.stdout
-              and "promo_count=79" in r.stdout)
+              and "promo_count=118" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
