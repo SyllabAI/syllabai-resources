@@ -22,11 +22,12 @@ Negative (all fail closed, nothing written):
                                            N11 status drift decisions<->graph
 
 Real-repo smoke (read-only):
-  R1  `list` exits 0 on the live store state and reports the session-50
-      surface (0 batch-2 actionable / 5 not-actionable / 79 promotions
+  R1  `list` exits 0 on the live store state and reports the session-51
+      surface (39 batch-3 actionable / 5 not-actionable / 79 promotions
       recorded) — the operator's batch-2 verdicts were applied (session 50,
-      ruling "CONFIRM all"), so no actionable §18 surface remains until
-      the next sanctioned batch is authored to its gate (the 5
+      ruling "CONFIRM all") and batch 3 was authored to its operator gate
+      (session 51), so the actionable §18 surface is exactly the 39
+      batch-3 SUGGESTED edges awaiting that batch's verdicts (the 5
       not-actionable rows are the 3 pilot operator HOLDs + the pilot RR +
       the settled batch-1 RR).
 
@@ -234,6 +235,21 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-51: the registry grows by the (empty) batch-3 member
+    (base / "scripts" / "c11_batch3_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-3",
+                                   "extraction_pass": "c11-s16-batch-3",
+                                   "generated_date": "2026-09-12",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
 
 
 # NOTE: the fixture decision-record edges carry an extra key
@@ -424,13 +440,13 @@ def main() -> int:
         r = subprocess.run([sys.executable, str(HERE / "c11_diff_review.py"),
                             "list"], cwd=T.REPO, capture_output=True, text=True)
         check("R1 list exits 0", r.returncode == 0, r.stderr[:200])
-        # session-50: the batch-2 verdicts were applied (23 §18 promotions,
-        # all operator, review_ref = the B2 bundle) — the actionable surface
-        # is empty until the next batch is authored to its gate; the 5
-        # not-actionable rows = 3 pilot operator HOLDs + the pilot RR + the
-        # settled batch-1 RR; promo_count 56 -> 79.
-        check("R1 reports 0 actionable / 5 not-actionable / 79 promotions",
-              "actionable: 0  (clean 0 / pending-flagged 0)" in r.stdout
+        # session-51: batch 3 was authored to its operator gate (39 SUGGESTED
+        # edges, zero RR); the actionable surface is exactly the 39 batch-3
+        # edges awaiting that batch's verdicts; the 5 not-actionable rows =
+        # 3 pilot operator HOLDs + the pilot RR + the settled batch-1 RR;
+        # promo_count stays 79 (batch-3 authoring promotes nothing).
+        check("R1 reports 39 actionable / 5 not-actionable / 79 promotions",
+              "actionable: 39  (clean 39 / pending-flagged 0)" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=79" in r.stdout)
     finally:

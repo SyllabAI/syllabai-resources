@@ -669,6 +669,36 @@ are byte-intact (3 pilot operator HOLDs SUGGESTED, both RR edges
 REVIEW_REQUIRED, HELD-01..13 + B1-H-01..12 + B2-H-01..10 untouched,
 4.15 uncovered; nodes have no §18 pathway).)*
 
+*(Session-51, 2026-09-12: batch 3 was commissioned (the operator's
+move-forward directive: "Preferred next scope: Batch 3: 4CH1-1.37–1.60C +
+Paper 2 mark schemes. Reuse the established Batch 1/Batch 2 machinery.")
+and authored under this section's sanctioned pathway — extraction_pass
+`c11-s16-batch-3`, decision record `scripts/c11_batch3_decisions.yaml`
+(the §8 mechanism: expansion passes add nodes via new decision records
+with their own extraction_pass id), gated generation through the
+registry-aware `c11_concept_pilot.py`, pass-2 adversarial review
+(`scripts/c11_batch3_review_pass2.yaml`), and the batch review sheet
+`graph/reports/C11_BATCH3_REVIEW_SHEET.md` + operator verdict template
+`scripts/c11_batch3_verdicts_template.yaml`. The commissioned scope is the
+FULL S1 remainder (24 SPs + PR-04) — a double-size batch by explicit
+operator instruction, recorded in the decision record's commissioned_by.
+The merged store stands at 91 nodes / 220 edges (79 operator promotions
+unchanged + frozen dispositions intact; 4.15 uncovered). NOTHING from
+batch 3 is promoted: its 39 edges are SUGGESTED pending the per-batch
+operator gate and the §18 pathway; no RR was authored (the abstention
+landed as 14 held candidates); 6 cross-boundary edges into batch-2 nodes
+(CON-ATOM ×2, CON-ELECTRONIC-CONFIGURATION ×2, CON-MOLECULE ×2) are
+sanctioned (FN-B1-2/FN-B2-2) and no duplicate concept was minted. FN-B2-1
+is closed: the Paper-2 topic MS set for the slice is pinned
+(IONIC/COVALENT/CFEC_MS_P2.txt), with the coverage fact that PMT Unit 1
+publishes no metallic-bonding or electrolysis MS (held candidates
+B3-H-11/H-12 record the refused misconception mining — the gap is
+explicit, not silent). Section 1 coverage is now COMPLETE (pilot +
+batches 1–3 = all 60 S1 spec points). The restrictions above remain in
+force for everything not covered by a batch's sanctioned pathway —
+including DB writes and hand-edited graphs, which no batch pathway
+sanctions.)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

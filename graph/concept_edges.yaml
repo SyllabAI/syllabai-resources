@@ -3,12 +3,13 @@
 #   scripts/c11_pilot_decisions.yaml (extraction_pass c11-pilot-pass-1)
 #   scripts/c11_batch1_decisions.yaml (extraction_pass c11-s16-batch-1)
 #   scripts/c11_batch2_decisions.yaml (extraction_pass c11-s16-batch-2)
+#   scripts/c11_batch3_decisions.yaml (extraction_pass c11-s16-batch-3)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
 # Generation dates pinned per record; store date 2026-09-12 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -51,20 +52,47 @@ meta:
   - 4CH1-1.22
   - 4CH1-1.23
   - 4CH1-1.24
+  - 4CH1-1.37
+  - 4CH1-1.38
+  - 4CH1-1.39
+  - 4CH1-1.40
+  - 4CH1-1.41
+  - 4CH1-1.42
+  - 4CH1-1.43
+  - 4CH1-1.44
+  - 4CH1-1.45
+  - 4CH1-1.46
+  - 4CH1-1.47
+  - 4CH1-1.48
+  - 4CH1-1.49
+  - 4CH1-1.50
+  - 4CH1-1.51
+  - 4CH1-1.52C
+  - 4CH1-1.53C
+  - 4CH1-1.54C
+  - 4CH1-1.55C
+  - 4CH1-1.56C
+  - 4CH1-1.57C
+  - 4CH1-1.58C
+  - 4CH1-1.59C
+  - 4CH1-1.60C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
   - 4CH1-PR-02
+  - 4CH1-PR-04
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
   - scripts/c11_pilot_decisions.yaml
   - scripts/c11_batch1_decisions.yaml
   - scripts/c11_batch2_decisions.yaml
+  - scripts/c11_batch3_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
   - c11-s16-batch-2
+  - c11-s16-batch-3
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
   generated: '2026-09-12'
@@ -75,20 +103,98 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    edges: 156
-    commonly_confused_with_edges: 1
-    explained_by_edges: 8
-    misconception_of_edges: 1
-    part_of_edges: 72
-    related_to_edges: 0
-    remediated_by_edges: 6
-    requires_prerequisite_edges: 63
-    wrong_answer_pattern_edges: 5
+    edges: 220
+    commonly_confused_with_edges: 2
+    explained_by_edges: 9
+    misconception_of_edges: 2
+    part_of_edges: 97
+    related_to_edges: 1
+    remediated_by_edges: 10
+    requires_prerequisite_edges: 91
+    wrong_answer_pattern_edges: 8
     review_required_edges: 2
     promoted_edges: 79
     human_validated_edges: 79
   promotion_record: scripts/c11_promotions.yaml
 edges:
+- source: 4CH1-CON-ANODE-CATHODE
+  relation: PART_OF
+  target: 4CH1-1.57C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Anions are negatively charged ions
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Cations are positively charged ions
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Cations within the electrolyte migrate towards the negatively charged electrode which is the
+      cathode
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: anion and cation are terms used to refer to negative and positive ions respectively
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.57C term demand: the anion/cation term pair as one terminology unit (the term-pair
+      granularity of CON-SUBATOMIC-PARTICLES) plus the migration rule that uses them (cations to cathode,
+      anions to anode). The Formation-of-ions note carries the same terms via the 1.37 attachment of CON-ION
+      — no duplicate mint.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.57C @ Electronic Conductivity (2026-09-11); spec 4CH1-1.57C
+      official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-AQUEOUS-DISCHARGE
+  relation: PART_OF
+  target: 4CH1-1.58C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: Which ions get discharged and at which electrode depends on the relative reactivity of the
+      elements involved
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: If halide ions (Cl-, Br-, I-) and OH- are present then the halide ion is discharged at the
+      anode, loses electrons and forms a halogen (chlorine, bromine or iodine)
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: Therefore at the cathode, hydrogen gas will be produced unless the positive ions from the ionic
+      compound are less reactive than hydrogen, in which case the metal is produced
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: and to predict the products
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.58C second node (the "and to predict the products" demand): the aqueous selective-discharge
+      rules — H+/OH- from water competing with the compound ions, halide-over-OH- at the anode, hydrogen-vs-metal
+      by reactivity at the cathode, the three named solutions. Independently assessable from the process
+      node; both attach 1.58C.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11); spec 4CH1-1.58C official
+      wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-AR
   relation: PART_OF
   target: 4CH1-1.26
@@ -442,6 +548,139 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-COVALENT-BOND
+  relation: PART_OF
+  target: 4CH1-1.44
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent
+      bonds - IGCSE Chemistry Revision Notes.md
+    quote: Non-metal atoms can share electrons with other non-metal atoms to obtain a full outer shell
+      of electrons
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent
+      bonds - IGCSE Chemistry Revision Notes.md
+    quote: When atoms share pairs of electrons, they form covalent bonds
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: a covalent bond is formed between atoms by the sharing of a pair of electrons
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.44 (know: sharing) + 1.45 (understand: electrostatic attraction between the shared
+      pair and the nuclei) are the definition and the mechanism of ONE term — dual attachment (the 1.43/1.56C
+      pattern in this batch). Splitting definition-vs-mechanism into two nodes is an operator identity
+      decision offered on the sheet.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.44 @ Forming Covalent Bonds (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.45 @ Forming Covalent Bonds (2026-09-11); specs 4CH1-1.44 + 4CH1-1.45 official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-COVALENT-BOND
+  relation: PART_OF
+  target: 4CH1-1.45
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent
+      bonds - IGCSE Chemistry Revision Notes.md
+    quote: There is a strong electrostatic attraction between the shared pair of electrons and the nuclei
+      of the atoms involved
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: covalent bonds in terms of electrostatic attractions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.44 (know: sharing) + 1.45 (understand: electrostatic attraction between the shared
+      pair and the nuclei) are the definition and the mechanism of ONE term — dual attachment (the 1.43/1.56C
+      pattern in this batch). Splitting definition-vs-mechanism into two nodes is an operator identity
+      decision offered on the sheet.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.44 @ Forming Covalent Bonds (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.45 @ Forming Covalent Bonds (2026-09-11); specs 4CH1-1.44 + 4CH1-1.45 official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-COVALENT-CONDUCTION
+  relation: PART_OF
+  target: 4CH1-1.51
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Simple molecular structures are poor conductors of electricity (even when molten)
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: There are no free ions or electrons to move and carry the charge
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Most covalent compounds do not conduct at all in the solid state and are thus insulators
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: covalent compounds do not usually conduct electricity
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: 1.51 (know) + 1.55C (understand why) are the covalent mirror of the ionic 1.43/1.56C
+      pair — dual attachment, same pattern. The no-mobile-charged-particle mechanism is the shared content;
+      the insulator applications are supporting.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.51 @ Simple Molecular Structures (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.55C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.51 + 4CH1-1.55C official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-COVALENT-CONDUCTION
+  relation: PART_OF
+  target: 4CH1-1.55C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Most covalent compounds do not conduct electricity as they have no freely moving charged particles
+      to carry the current
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Covalent substances are used as electrical insulators in solid, liquid and gaseous form
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: why covalent compounds do not conduct electricity
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: 1.51 (know) + 1.55C (understand why) are the covalent mirror of the ionic 1.43/1.56C
+      pair — dual attachment, same pattern. The no-mobile-charged-particle mechanism is the shared content;
+      the insulator applications are supporting.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.51 @ Simple Molecular Structures (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.55C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.51 + 4CH1-1.55C official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-CRYSTALLISATION
   relation: PART_OF
   target: 4CH1-1.10
@@ -465,6 +704,54 @@ edges:
       mark-scheme-documented method errors exist (ECM2 MS Q1(d)).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.10 @ Separation techniques (2026-09-11); spec 4CH1-1.10 official
       wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DIAMOND-GRAPHITE
+  relation: PART_OF
+  target: 4CH1-1.50
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Diamond and graphite are allotropes of carbon
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: In diamond, each carbon atom bonds with four other carbons, forming a tetrahedron
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Each carbon atom in graphite is bonded to three others forming layers of hexagons, leaving
+      one free electron per carbon atom
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: The layers are free to slide over each other because there are only weak forces between the
+      layers, not covalent bonds
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: C60 is a simple molecular structure
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: the structures of diamond, graphite and C60 fullerene influence their physical properties
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.50 demand: the three named allotropes as one SP unit (the spec lists them together;
+      the two notes split diamond/graphite vs C60). One node per SP (the batch-1 solution-triple granularity);
+      the cross-class fact (C60 is simple molecular while diamond/graphite are giant covalent) is carried
+      by the RELATED_TO edge to CON-SIMPLE-MOLECULAR. A diamond/graphite/C60 term-level split is an operator
+      identity decision offered on the sheet.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.50 @ Giant Covalent Structures + Simple Molecular Structures
+      (2026-09-11); spec 4CH1-1.50 official wording
     generated_date: '2026-09-12'
   confidence: high
   validation_status: SUGGESTED
@@ -526,6 +813,151 @@ edges:
       demanded experiment types): the dilution procedure, the fading-colour observation, and the particle-size
       inference it licenses.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.3 @ Diffusion (2026-09-11); spec 4CH1-1.3 official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DOT-CROSS-COVALENT
+  relation: PART_OF
+  target: 4CH1-1.46
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Covalent Bonds
+      Dot & Cross Diagrams  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    quote: Small covalent molecules can be represented by dot and cross diagrams
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Covalent Bonds
+      Dot & Cross Diagrams  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    quote: Each covalent bond represents one shared pair of electrons
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: use dot-and-cross diagrams to represent covalent bonds
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.46 representation demand: the covalent dot-and-cross convention over the named
+      molecule set (H2/Cl2/O2/N2/HCl; H2O/NH3/CO2; CH4/C2H6/C2H4) — one shared pair per bond.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.46 @ Covalent Bonds: Dot & Cross Diagrams (2026-09-11); spec
+      4CH1-1.46 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DOT-CROSS-IONIC
+  relation: PART_OF
+  target: 4CH1-1.40
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding diagrams
+      - IGCSE Chemistry Revision Notes.md
+    quote: Ionic bonds can be represented diagrammatically using dot-and-cross diagrams
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding diagrams
+      - IGCSE Chemistry Revision Notes.md
+    quote: One electron will be transferred from the outer shell of the sodium atom to the outer shell
+      of the chlorine atom
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding diagrams
+      - IGCSE Chemistry Revision Notes.md
+    quote: For exam purposes you need only show the outer electrons in dot & cross diagrams
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: dot-and-cross diagrams to show the formation of ionic compounds by electron transfer
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.40 representation demand: the ionic dot-and-cross convention (outer electrons
+      only, brackets, superscript charges, NaCl and MgO worked examples). Representation node per the
+      frozen guide REPRESENT_DIAGRAM class.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.40 @ Ionic Bonding Diagrams (2026-09-11); spec 4CH1-1.40 official
+      wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+  relation: PART_OF
+  target: 4CH1-1.59C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: This can be illustrated using half equations which describe the movement of electrons at each
+      electrode
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: At the anode, negatively charged ions lose electrons and are thus oxidised
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: In electrode half equations the charges on each side of the equation should always balance
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: write ionic half-equations representing the reactions at the electrodes during electrolysis
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.59C procedure demand: writing the half-equations (Pb2+ + 2e- -> Pb; 2Br- -> Br2
+      + 2e-; the four worked solutions) with balanced charges. The oxidation/reduction classification
+      is the sibling node CON-REDOX-ELECTRONS (the "understand why" half of the same SP); both attach
+      1.59C.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.59C @ Half Equations (2026-09-11); spec 4CH1-1.59C official
+      wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTROLYSIS
+  relation: PART_OF
+  target: 4CH1-1.58C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: These compounds undergo electrolysis and always produce their corresponding element
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: The positive ion will migrate towards the cathode and the negative ion will migrate towards
+      the anode
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: Add lead(II) bromide into a crucible and heat so it will turn molten, allowing ions to be free
+      to move and conduct an electric charge
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: describe experiments to investigate electrolysis, using inert electrodes
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.58C core (shared with CON-AQUEOUS-DISCHARGE): the molten-electrolysis process
+      — identify the ions, predict the products (metal at cathode, non-metal at anode), the lead(II) bromide
+      method with inert graphite electrodes. The aqueous selective-discharge rules are the sibling node;
+      both attach 1.58C (dual node attachment mirrors the spec wording covering both).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11); spec 4CH1-1.58C official
+      wording
     generated_date: '2026-09-12'
   confidence: high
   validation_status: SUGGESTED
@@ -958,6 +1390,43 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-GIANT-COVALENT
+  relation: PART_OF
+  target: 4CH1-1.49
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Giant covalent structures are solids with high melting points
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: These structures can also be called giant lattices and have a fixed ratio of atoms in the overall
+      structure
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: There are strong covalent bonds between atoms
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: substances with giant covalent structures are solids with high melting and boiling points
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.49 demand: giant covalent structures (also called macromolecules/giant lattices)
+      and the high-mp/bp explanation (many strong covalent bonds, lots of energy). The specific allotropes
+      are the 1.50 node.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.49 @ Giant Covalent Structures (2026-09-11); spec 4CH1-1.49
+      official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-GROUP-SIMILARITY
   relation: PART_OF
   target: 4CH1-1.23
@@ -1012,6 +1481,252 @@ edges:
       note names and teaches it as a method step + examiner tip (reheat/cool/reweigh until two consecutive
       masses match).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.7C @ Investigating solubility (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ION
+  relation: PART_OF
+  target: 4CH1-1.37
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formation of ions
+      - IGCSE Chemistry Revision Notes.md
+    quote: An ion is an electrically charged atom or group of atoms formed by the loss or gain of electrons
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formation of ions
+      - IGCSE Chemistry Revision Notes.md
+    quote: This loss or gain of electrons takes place to obtain a full outer shell of electrons
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formation of ions
+      - IGCSE Chemistry Revision Notes.md
+    quote: All metals lose electrons to other atoms to become positively charged ions
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: how ions are formed by electron loss or gain
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.37 term demand: the ion definition (charged atom or group of atoms, electron
+      loss/gain, full-outer-shell motive, metal/non-metal direction). One terminology unit mirroring the
+      batch-2 CON-ATOM pattern; the charge table itself is the 1.38 node.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37 @ Formation of Ions (2026-09-11); spec 4CH1-1.37 official
+      wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ION-CHARGE-RULES
+  relation: PART_OF
+  target: 4CH1-1.38
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Common Ions  Edexcel
+      IGCSE Chemistry Revision Notes 2017.md
+    quote: Find the number of electrons in the outer electron shell
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Common Ions  Edexcel
+      IGCSE Chemistry Revision Notes 2017.md
+    quote: You also need to learn the formula of compound ions, that is, ions made from more than one
+      element
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Common Ions  Edexcel
+      IGCSE Chemistry Revision Notes 2017.md
+    quote: You must know the charges of all the ions shown in the above tables
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: the charges of these ions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.38 demand: the common-ion tables (positive: Groups 1/2/3, Ag+, Cu2+, Fe2+, Fe3+,
+      Pb2+, Zn2+, H+, NH4+; negative: Groups 5/6/7, OH-, CO3 2-, NO3-, SO4 2-) plus the deduction rule
+      (outer-electron count, gain vs donate). One learnable unit — the note and the examiner tip treat
+      the tables as one memorization demand (the batch-1 solution-triple granularity).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.38 @ Common Ions (2026-09-11); spec 4CH1-1.38 official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-BOND
+  relation: PART_OF
+  target: 4CH1-1.41
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Between positive and negative ions are strong electrostatic forces of attraction which act
+      in all directions
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: These are what hold the ionic compound together
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: ionic bonding in terms of electrostatic attractions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.41 demand: ionic bonding as strong electrostatic forces of attraction between
+      oppositely charged ions acting in all directions. The lattice consequence (1.42) and the conduction
+      states (1.43/1.56C) are separate nodes.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41 @ Ionic Bonding and Lattices (2026-09-11); spec 4CH1-1.41
+      official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-CONDUCTION
+  relation: PART_OF
+  target: 4CH1-1.43
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Ionic compounds are poor conductors in the solid state
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Ionic compounds are good conductors of electricity in the molten state or in solution
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: ionic compounds do not conduct electricity when solid
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.43 (know) + 1.56C (understand why) are the same learnable fact pair at two depths
+      — dual attachment mirrors CON-ELECTRONIC-CONFIGURATION 1.19+1.22 and CON-METAL-NONMETAL 1.20+1.21:
+      fixed ions in the solid lattice vs free-moving ions when molten/dissolved. An operator identity
+      decision on the sheet may split know-vs-understand later.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.56C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.43 + 4CH1-1.56C official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-CONDUCTION
+  relation: PART_OF
+  target: 4CH1-1.56C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Ionic compounds can conduct electricity in the molten state or in solution
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: This is because they have ions that can move and carry charge
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: why ionic compounds conduct electricity only when molten or in aqueous solution
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.43 (know) + 1.56C (understand why) are the same learnable fact pair at two depths
+      — dual attachment mirrors CON-ELECTRONIC-CONFIGURATION 1.19+1.22 and CON-METAL-NONMETAL 1.20+1.21:
+      fixed ions in the solid lattice vs free-moving ions when molten/dissolved. An operator identity
+      decision on the sheet may split know-vs-understand later.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.56C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.43 + 4CH1-1.56C official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-FORMULA
+  relation: PART_OF
+  target: 4CH1-1.39
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formula of ionic
+      compounds - IGCSE Chemistry Revision Notes.md
+    quote: Ionic compounds typically have no overall charge
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formula of ionic
+      compounds - IGCSE Chemistry Revision Notes.md
+    quote: The formulae of simple ionic compounds can be determined if you know the charge on the ions
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formula of ionic
+      compounds - IGCSE Chemistry Revision Notes.md
+    quote: When the ions in the ionic compound have different charges, it can be easier to use the swap-and-drop
+      method
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: formulae for compounds formed between the ions listed above
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.39 procedure demand: charge cancellation (direct comparison) and the swap-and-drop
+      method, with brackets for compound ions (the Mg(OH)2 tip). Procedure-node pattern per the CON-CONC-CALC
+      pilot precedent.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.39 @ Formula of Ionic Compounds (2026-09-11); spec 4CH1-1.39
+      official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-LATTICE
+  relation: PART_OF
+  target: 4CH1-1.42
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Thousands of positive and negative ions in an ionic compound form a giant lattice structure
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Compounds with giant ionic lattice have high melting points
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: The greater the charge on the ions, the stronger the electrostatic forces and the higher the
+      melting point will be
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: compounds with giant ionic lattices have high melting and boiling points
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.42 demand: the giant lattice structure and the high-mp/bp explanation (strong
+      electrostatic forces in all directions, lots of thermal energy, the MgO-vs-NaCl charge-magnitude
+      comparison).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.42 @ Ionic Bonding and Lattices (2026-09-11); spec 4CH1-1.42
+      official wording
     generated_date: '2026-09-12'
   confidence: high
   validation_status: SUGGESTED
@@ -1177,6 +1892,106 @@ edges:
       concept — the same note teaches both demands as one block.
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.20/1.21 @ Metals & non-metals in the Periodic Table (2026-09-11);
       spec 4CH1-1.20/1.21 official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-METAL-PROPERTIES
+  relation: PART_OF
+  target: 4CH1-1.54C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: Metals conduct electricity
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: There are delocalised electrons available to move and carry charge
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: This is because the atoms/ions are arranged in layers which can slide over each other when
+      a force is applied
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: typical physical properties of metals, including electrical conductivity and malleability
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.54C demand: the property set (conductivity via delocalised electrons, malleability
+      via sliding layers, high mp/bp) explained BY the metallic bonding — the EXPLAINED_BY edge to CON-METALLIC-BOND
+      carries the causal link. The examiner tip (must say atoms/ions, not just particles) is terminology
+      guidance recorded on the note, not a misconception node (no documented wrong answer).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.54C @ Metallic Bonding (2026-09-11); spec 4CH1-1.54C official
+      wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-METALLIC-BOND
+  relation: PART_OF
+  target: 4CH1-1.52C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: Metals consist of giant structures of atoms arranged in a regular pattern
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: represent a metallic lattice by a 2-D diagram
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: 1.52C (represent the lattice) + 1.53C (understand the bonding) are the representation
+      and the mechanism of ONE structure — dual attachment (the know/understand pair pattern of this batch;
+      the 1.52C diagram content is the same lattice the 1.53C attraction lives in).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.52C @ Metallic Bonding (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.53C @ Metallic Bonding (2026-09-11); specs 4CH1-1.52C + 4CH1-1.53C official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-METALLIC-BOND
+  relation: PART_OF
+  target: 4CH1-1.53C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: Within the metal lattice, the atoms lose their outer electrons and become positively charged
+      metal ions
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: The metallic bond is the strong force of attraction between the positive metal ions and the
+      delocalised electrons
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: metallic bonding in terms of electrostatic attractions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: 1.52C (represent the lattice) + 1.53C (understand the bonding) are the representation
+      and the mechanism of ONE structure — dual attachment (the know/understand pair pattern of this batch;
+      the 1.52C diagram content is the same lattice the 1.53C attraction lives in).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.52C @ Metallic Bonding (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.53C @ Metallic Bonding (2026-09-11); specs 4CH1-1.52C + 4CH1-1.53C official wording
     generated_date: '2026-09-12'
   confidence: high
   validation_status: SUGGESTED
@@ -1656,6 +2471,39 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-REDOX-ELECTRONS
+  relation: PART_OF
+  target: 4CH1-1.59C
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: Oxidation is when a substance loses electrons
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: Reduction is when a substance gains electrons
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: why these reactions are classified as oxidation or reduction
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.59C second node (the "understand why these reactions are classified as oxidation
+      or reduction" demand): the electron-transfer definitions of oxidation and reduction, applied at
+      anode (loss) and cathode (gain). Independently assessable term pair; no earlier-record node covers
+      it (searched the merged store: the 1.25 equation nodes carry balancing, not redox terms).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.59C @ Half Equations (2026-09-11); spec 4CH1-1.59C official
+      wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-RF-VALUE
   relation: PART_OF
   target: 4CH1-1.12
@@ -1763,6 +2611,73 @@ edges:
       the technique its own section with apparatus description and examiner tip.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.10 @ Separation techniques (2026-09-11); spec 4CH1-1.10 official
       wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-SIMPLE-MOLECULAR
+  relation: PART_OF
+  target: 4CH1-1.47
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Simple molecular structures have covalent bonds joining the atoms together, but intermolecular
+      forces that act between neighbouring molecules are weak
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: There are weak intermolecular forces between the molecules
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: substances with a simple molecular structures are gases or liquids
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.47 + 1.48 are one structure-and-explanation unit in the note (the low-mp/bp explanation
+      and the Mr trend are consecutive sections of the same argument): dual attachment. The IMF-vs-covalent-bond
+      distinction is also the remediation content for MIS-COVALENT-BONDS-BROKEN.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.48 @ Simple Molecular Structures (2026-09-11); specs 4CH1-1.47 + 4CH1-1.48 official wording
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-SIMPLE-MOLECULAR
+  relation: PART_OF
+  target: 4CH1-1.48
+  role: CORE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: As the molecules increase in size, the melting and boiling points generally increase because
+      the strength of these intermolecular forces increases
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: As the relative molecular mass of a substance increases, the melting and boiling point will
+      increase as well
+  - kind: SPEC
+    file: graph/specification_points.yaml
+    quote: the melting and boiling points of substances with simple molecular structures increase
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.47 + 1.48 are one structure-and-explanation unit in the note (the low-mp/bp explanation
+      and the Mr trend are consecutive sections of the same argument): dual attachment. The IMF-vs-covalent-bond
+      distinction is also the remediation content for MIS-COVALENT-BONDS-BROKEN.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.48 @ Simple Molecular Structures (2026-09-11); specs 4CH1-1.47 + 4CH1-1.48 official wording
     generated_date: '2026-09-12'
   confidence: high
   validation_status: SUGGESTED
@@ -2135,6 +3050,50 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-ANODE-CATHODE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity
+      - IGCSE Chemistry Revision Notes.md
+    quote: Anions are negatively charged ions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The 1.57C terms are defined IN TERMS OF ions ("Anions are negatively charged ions;
+      Cations are positively charged ions") — the ion is the definitional operand of both terms.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.57C @ Electronic Conductivity (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-AQUEOUS-DISCHARGE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTROLYSIS
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: We now have an electrolyte that contains ions from the compound plus ions from the water
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The aqueous discharge rules extend the electrolysis process to mixed-ion electrolytes
+      — the note builds on the already-taught process ("We NOW have an electrolyte...") and the Examiner
+      Tip presupposes the whole setup ("first write down all of the ions present first, only then start
+      comparing their reactivity").
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-AR
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-ISOTOPES
@@ -2332,6 +3291,81 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-COVALENT-BOND
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ATOM
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent
+      bonds - IGCSE Chemistry Revision Notes.md
+    quote: When atoms share pairs of electrons, they form covalent bonds
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Cross-boundary edge (target = the batch-2 CON-ATOM node, sanctioned): the covalent
+      bond is defined as sharing BETWEEN atoms — the atom is the definitional operand (the MOLECULE ->
+      ATOM pattern).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.44 @ Forming Covalent Bonds (2026-09-11); target node owned
+      by the batch-2 record (4CH1-1.14)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-COVALENT-BOND
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent
+      bonds - IGCSE Chemistry Revision Notes.md
+    quote: Non-metal atoms can share electrons with other non-metal atoms to obtain a full outer shell
+      of electrons
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Cross-boundary edge (target = the batch-2 CON-ELECTRONIC-CONFIGURATION node, sanctioned):
+      the sharing motive is stated as obtaining a FULL OUTER SHELL — the configuration concept is the
+      operand of why covalent bonds form (the ION -> CONFIG pattern applied to the covalent side).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.44 @ Forming Covalent Bonds (2026-09-11); target node owned
+      by the batch-2 record (4CH1-1.19/1.22)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-COVALENT-CONDUCTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-SIMPLE-MOLECULAR
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Simple molecular structures are poor conductors of electricity (even when molten)
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: There are no free ions or electrons to move and carry the charge
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The 1.51/1.55C no-conduction statements are ABOUT simple molecular structures (the
+      note section is titled Conductivity of simple molecular structures) — the classification is the
+      operand the conductivity explanation presupposes; the direct COVALENT-BOND dependency is transitively
+      covered via SIMPLE-MOLECULAR -> COVALENT-BOND.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.51 @ Simple Molecular Structures (2026-09-11); T-C10 HUMAN_VALIDATED
+      4CH1-1.55C @ Electronic Conductivity (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-CRYSTALLISATION
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-SATURATED-SOLUTION
@@ -2382,6 +3416,216 @@ edges:
   ambiguity_note: Transitively subsumed via CRYSTALLISATION -> SATURATED-SOLUTION -> SOLUTION; the load-bearing
     prerequisite (saturation) is already emitted — this vocabulary-level edge adds density without new
     reviewable information unless the operator wants an explicit solution link for every 1.10 technique.
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DIAMOND-GRAPHITE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-GIANT-COVALENT
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Examples include diamond and graphite
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The 1.50 allotrope properties are explained in terms of the giant covalent structure
+      (diamond: each carbon bonded to four others; graphite: high mp "because it has a giant covalent
+      structure") — the note uses the 1.49 structure class as given ground for two of the three allotropes
+      (the C60 half is simple molecular, carried by the RELATED_TO edge).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.49/1.50 @ Giant Covalent Structures (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DOT-CROSS-COVALENT
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-COVALENT-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Covalent Bonds
+      Dot & Cross Diagrams  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    quote: Each covalent bond represents one shared pair of electrons
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The covalent dot-and-cross convention is legible only in terms of the shared-pair
+      bond it represents ("each covalent bond represents one shared pair of electrons") — the note presupposes
+      the 1.44 bond concept while teaching the 1.46 representation (the DOT-CROSS-IONIC -> ION pattern).
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.46 @ Covalent Bonds: Dot & Cross Diagrams (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DOT-CROSS-COVALENT
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-MOLECULE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Covalent Bonds
+      Dot & Cross Diagrams  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    quote: Dot & cross representation of a molecule of hydrogen
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Cross-boundary edge (target = the batch-2 CON-MOLECULE node, sanctioned): the covalent
+      diagrams are diagrams OF molecules ("representation of a molecule of hydrogen/chlorine/oxygen...")
+      — the molecule is the definitional operand of what the 1.46 diagrams depict (every caption in the
+      note).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.46 @ Covalent Bonds: Dot & Cross Diagrams (2026-09-11); target
+      node owned by the batch-2 record (4CH1-1.14)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-DOT-CROSS-IONIC
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding diagrams
+      - IGCSE Chemistry Revision Notes.md
+    quote: A chlorine atom will gain an electron to form a negatively charged chloride ion with a charge
+      of 1-
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The ionic dot-and-cross convention represents the formation of IONS by electron
+      transfer (brackets, superscript charges) — the note narrates ion formation without re-teaching the
+      ion concept (the 1.37 ground), and the diagram is unreadable without it.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37/1.40 @ Ionic Bonding Diagrams (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTROLYSIS
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: As the ions come into contact with the electrode, electrons are either lost or gained and they
+      form neutral substances
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The half equations describe the electrode reactions of the already-established electrolysis
+      process (the note opens with "In electrochemistry we are mostly concerned with the transfer of electrons"
+      and every worked example is one of the 1.58C solutions) — the process is the operand the equations
+      are written about.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.59C @ Half Equations (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REDOX-ELECTRONS
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Half equations - IGCSE
+      Chemistry Revision Notes.md
+    quote: hence the definitions of oxidation and reduction are applied in terms of electron loss or gain
+      rather than the addition or removal of oxygen
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: Classifying each half-equation as oxidation or reduction is defined IN TERMS OF
+      the electron loss/gain definitions — the 1.59C "understand why these reactions are classified" demand
+      is the definitional operand relation between the two sibling nodes.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.59C @ Half Equations (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTROLYSIS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ANODE-CATHODE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: The positive ion will migrate towards the cathode and the negative ion will migrate towards
+      the anode
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The electrolysis product rules are stated IN TERMS OF the electrode terms (cathode/anode
+      and their polarities) — the 1.57C terms are used throughout the 1.58C note without re-teaching them
+      (the Worked Example: "Copper ions have a positive charge so are attracted to the cathode").'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTROLYSIS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-IONIC-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: Binary ionic compound are compounds consisting of just two elements joined together by ionic
+      bonding
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The 1.58C electrolysis content opens by taking IONIC compounds as its subject without
+      re-teaching the bonding ("Binary ionic compound are compounds consisting of just two elements joined
+      together by ionic bonding" — the note names the 1.41 concept as given ground). Not subsumed by the
+      emitted conduction chain (transitively reachable but carrying different information: the composition
+      of what is electrolysed — the §19 MOLAR-MASS reachable-ne-redundant precedent).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTROLYSIS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-IONIC-CONDUCTION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram
+      - IGCSE Chemistry Revision Notes.md
+    quote: When these compounds are heated beyond their melting point, they become molten and can conduct
+      electricity as their ions can move freely and carry the charge
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: Electrolysis presupposes the molten-conduction mechanism — the note states it as
+      given ground ("they become molten and can conduct electricity as their ions can move freely") in
+      its opening section; the 1.43/1.56C concept is the operand the whole process runs on.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.58C @ Electrolysis Diagram (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTRONIC-CONFIGURATION
@@ -2674,6 +3918,29 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-GIANT-COVALENT
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-COVALENT-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: They have a huge number of non-metal atoms bonded to other non-metal atoms via strong covalent
+      bonds
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The giant covalent structure is defined IN TERMS OF atoms bonded via strong covalent
+      bonds (the whole 1.49 explanation is "strong covalent bonds between atoms... lots of energy to overcome")
+      — the 1.44 bond is the definitional operand of the 1.49 structure.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.49 @ Giant Covalent Structures (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-GROUP-SIMILARITY
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-PERIODIC-TABLE
@@ -2697,6 +3964,189 @@ edges:
   validation_status: HUMAN_VALIDATED
   validated_by: operator
   validated_date: '2026-09-12'
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ATOM
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formation of ions
+      - IGCSE Chemistry Revision Notes.md
+    quote: An ion is an electrically charged atom or group of atoms formed by the loss or gain of electrons
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Cross-boundary edge (target = the batch-2 CON-ATOM node, sanctioned per FN-B1-2/FN-B2-2
+      — no duplicate atom mint): the ion definition is stated IN TERMS OF the atom ("an electrically charged
+      atom or group of atoms") — the atom is the definitional operand (the batch-2 MOLECULE -> ATOM pattern).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37 @ Formation of Ions (2026-09-11); target node owned by the
+      batch-2 record (4CH1-1.14)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formation of ions
+      - IGCSE Chemistry Revision Notes.md
+    quote: This loss or gain of electrons takes place to obtain a full outer shell of electrons
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Cross-boundary edge (target = the batch-2 CON-ELECTRONIC-CONFIGURATION node, sanctioned):
+      the ion-formation mechanism is defined BY the full-outer-shell configuration goal — the outer-shell
+      concept is the definitional operand of why ions form.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37 @ Formation of Ions (2026-09-11); target node owned by the
+      batch-2 record (4CH1-1.19/1.22)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ION-CHARGE-RULES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Common Ions  Edexcel
+      IGCSE Chemistry Revision Notes 2017.md
+    quote: Atoms that gain electrons become negative ions and atoms that donate electron forms positive
+      ion
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The 1.38 charge tables and the deduction rule are charges OF ions — the note states
+      the gain/donate-to-charge rule without re-teaching what an ion is (the 1.37 ground), and the examiner
+      tip presupposes it ("the charges of all the ions shown in the above tables").
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.37/1.38 @ Common Ions (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-BOND
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Between positive and negative ions are strong electrostatic forces of attraction which act
+      in all directions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: Ionic bonding is defined as attraction BETWEEN oppositely charged IONS — the ion
+      is the definitional operand of the bond concept (the batch-2 MOLECULE -> ATOM pattern at the bonding
+      level).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-CONDUCTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: When the ionic compound is melted or dissolved in water, the ions are able to move and carry
+      a charge
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The conduction mechanism is stated IN TERMS OF the ions ("the ions are able to move
+      and carry a charge") — the ion is the operand of the conduction explanation in both the 1.43 and
+      1.56C note sections.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-CONDUCTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-IONIC-LATTICE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: The ions are in fixed positions in the lattice
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The 1.56C why-only-when-molten explanation is stated IN TERMS OF the lattice ("the
+      ions are in fixed positions in the lattice and are unable to move") — the lattice is the operand
+      of the solid-state half of the conduction story.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-FORMULA
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION-CHARGE-RULES
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Formula of ionic
+      compounds - IGCSE Chemistry Revision Notes.md
+    quote: The formulae of simple ionic compounds can be determined if you know the charge on the ions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The formula-writing procedure is defined IN TERMS OF the ion charges (the explicit
+      conditional "if you know the charge on the ions") — the charge table is the procedural operand of
+      every method taught in the note (direct comparison and swap-and-drop).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.39 @ Formula of Ionic Compounds (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-LATTICE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-IONIC-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: There are strong electrostatic forces of attraction between oppositely charged ions in all
+      directions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The lattice is the structure held together BY the ionic bonding ("Between positive
+      and negative ions are strong electrostatic forces of attraction... These are what hold the ionic
+      compound together") — the high-mp/bp explanation of 1.42 is stated in terms of the 1.41 forces (the
+      emitted sentence is the lattice section caption).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41/1.42 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ISOTOPES
@@ -2793,6 +4243,29 @@ edges:
   validation_status: HUMAN_VALIDATED
   validated_by: operator
   validated_date: '2026-09-12'
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-METALLIC-BOND
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: Within the metal lattice, the atoms lose their outer electrons and become positively charged
+      metal ions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: Metallic bonding is defined as attraction between positive metal IONS and delocalised
+      electrons — the ion concept is the definitional operand of the 1.53C bond (the note states the atoms-become-ions
+      step as given, presupposing the 1.37 ground).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.53C @ Metallic Bonding (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MIXTURE
@@ -3369,6 +4842,53 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
+- source: 4CH1-CON-SIMPLE-MOLECULAR
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-COVALENT-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: Simple molecular structures have covalent bonds joining the atoms together, but intermolecular
+      forces that act between neighbouring molecules are weak
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: The simple molecular structure is defined IN TERMS OF covalent bonds joining the
+      atoms (with the intermolecular forces between the molecules as the contrast operand) — the 1.44
+      bond is the definitional operand of the 1.47 structure.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-SIMPLE-MOLECULAR
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-MOLECULE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: intermolecular forces that act between neighbouring molecules are weak
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Cross-boundary edge (target = the batch-2 CON-MOLECULE node, sanctioned): "simple
+      MOLECULAR" names molecule-based structures and every explanation sentence in the note is about forces
+      between molecules / molecules increasing in size — the molecule is the definitional operand of the
+      structure class.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11); target node
+      owned by the batch-2 record (4CH1-1.14)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-SOLUBILITY
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-SATURATED-SOLUTION
@@ -3665,6 +5185,52 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-PR-04
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-AQUEOUS-DISCHARGE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Practical Investigate
+      the Electrolysis of Aqueous Solutions  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    quote: Sodium chloride solutions produces hydrogen at the cathode and chlorine at the anode
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The practical conclusions are the discharge-rule outcomes for the three named solutions
+      (hydrogen not sodium at the cathode of NaCl; copper at the cathode of CuSO4) — the practical note
+      demonstrates the rules without re-teaching them (the PR-02 -> CON-RF-VALUE pattern).
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.58C/1.60C @ Practical: Investigate the Electrolysis of Aqueous
+      Solutions (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-PR-04
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTROLYSIS
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Practical Investigate
+      the Electrolysis of Aqueous Solutions  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    quote: To electrolyse aqueous solutions of sodium chloride, sulfuric acid and copper(II)sulfate, and
+      to collect and identify the products at each electrode
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: The 1.60C practical is an investigation OF electrolysis (its Aim sentence) — the
+      process concept is the practical ground (the batch-2 PR-02 -> CON-CHROMATOGRAPHY pattern).
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.58C/1.60C @ Practical: Investigate the Electrolysis of Aqueous
+      Solutions (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-CRYSTALLISATION
   relation: EXPLAINED_BY
   target: 4CH1-CON-SOLUBILITY
@@ -3789,6 +5355,41 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
+- source: 4CH1-CON-METAL-PROPERTIES
+  relation: EXPLAINED_BY
+  target: 4CH1-CON-METALLIC-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: This is because the atoms/ions are arranged in layers which can slide over each other when
+      a force is applied
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: There are delocalised electrons available to move and carry charge
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding
+      - IGCSE Chemistry Revision Notes.md
+    quote: There are strong electrostatic forces of attraction between the positive metal ions and the
+      negative delocalised electrons within the metal lattice structure
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING
+    derivation_notes: 1.54C is an explicit explain-demand and the note teaches each property with an explicit
+      causal statement — malleability ("This is BECAUSE the atoms/ions are arranged in layers which can
+      slide"), conductivity ("delocalised electrons available to move and carry charge"), high mp/bp ("strong
+      electrostatic forces... need lots of energy") — all operands of the metallic-bonding structure.
+      The EXPLAINED_BY class per the batch-2 GROUP-SIMILARITY pattern (one relation per pair; no prereq
+      edge on this pair).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.54C @ Metallic Bonding (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-MOLAR-GAS-VOL
   relation: EXPLAINED_BY
   target: 4CH1-CON-AVOGADRO-LAW
@@ -3861,6 +5462,38 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-CON-DIAMOND-GRAPHITE
+  relation: RELATED_TO
+  target: 4CH1-CON-SIMPLE-MOLECULAR
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: C60 is a simple molecular structure
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: RELATED_RESIDUAL
+    derivation_notes: 'The 1.50 allotrope set spans BOTH structure classes: diamond and graphite are giant
+      covalent (the prereq edge) while C60 fullerene is simple molecular with weak intermolecular forces
+      between the buckyballs — the note states the class assignment directly. A residual association (not
+      a dependency: the diamond/graphite content does not presuppose the simple-molecular concept; not
+      a confusion statement: the corpus documents no term-pair confusability for the two structure classes).'
+    relation_class_rationale: The evidence sentence assigns C60 to the simple molecular class — a cross-class
+      structural fact within one spec point (1.50), not a learning dependency (REQUIRES_PREREQUISITE),
+      not a causal explanation (EXPLAINED_BY), and not a documented confusability statement (COMMONLY_CONFUSED_WITH).
+      RELATED_TO is the frozen relation for residual concept-to-concept associations; the first RELATED_TO
+      deployment in the store (the batch-2 first-CCW precedent for a first-class deployment).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.50 @ Simple Molecular Structures (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: medium
+  validation_status: SUGGESTED
+  ambiguity_note: First RELATED_TO deployment in the store; the relation is genuinely residual (the C60
+    content could alternatively attach the 1.50 SP to CON-SIMPLE-MOLECULAR — an operator identity decision
+    on the sheet).
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-CON-ATOMIC-NUMBER
   relation: COMMONLY_CONFUSED_WITH
   target: 4CH1-CON-MASS-NUMBER
@@ -3894,6 +5527,42 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
+- source: 4CH1-CON-IONIC-BOND
+  relation: COMMONLY_CONFUSED_WITH
+  target: 4CH1-CON-COVALENT-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent
+      bonds - IGCSE Chemistry Revision Notes.md
+    quote: A key difference between covalent bonds and ionic bonds is that in covalent bonds the electrons
+      are shared between the atoms, they are not transferred (donated or gained) and no ions are formed
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: EXAMINER_TIP_EXPLICIT
+    derivation_notes: The corpus itself documents the bond-type contrast as a key learning difference
+      (the Examiner Tips block states the share-vs-transfer distinction explicitly) and both pinned Paper-2
+      MS document the cross-referenced REJECTs (ionic answers rejected for mentioning covalent, covalent
+      answers capped for mentioning ionic/metallic — inadmissible as CCW evidence per G07 but recorded
+      here as assessment context). The second CCW edge in the store (the batch-2 ATOMIC-NUMBER/MASS-NUMBER
+      precedent).
+    relation_class_rationale: 'The corpus statement is an explicit DIFFERENCE-between-term-pairs tip ("A
+      key difference between covalent bonds and ionic bonds...") — the transfer-vs-sharing distinction
+      the examiner tip warns students to keep straight: term-pair confusability documentation, not a causal
+      explanation (EXPLAINED_BY), not a learning dependency (REQUIRES_PREREQUISITE), and not a mark-scheme
+      wrong answer (that class is carried by MIS-IONIC-BOND-ATOMS and the potential transfer/sharing WAP
+      family). COMMONLY_CONFUSED_WITH is the frozen §8A.11 relation for exactly this evidence class.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.44 @ Forming Covalent Bonds (2026-09-11); assessment context
+      IONIC_MS_P2/COVALENT_MS_P2 (pinned 4ccfc377514a/ed012522d306)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: One-directional storage of a symmetric relation (source ionic, target covalent — the
+    batch-2 CCW convention); the MS cross-REJECTs are assessment context only, not CCW evidence (G07 admits
+    MARK_SCHEME anchors for misconception-family relations only).
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-MIS-EQ-SUBSCRIPT
   relation: MISCONCEPTION_OF
   target: 4CH1-CON-EQ-SYMBOL
@@ -3919,6 +5588,29 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
+  relation: MISCONCEPTION_OF
+  target: 4CH1-CON-IONIC-CONDUCTION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: A common mistake students make in exams is to say that ionic compounds conduct electricity
+      because 'electrons' move and carry a charge, when they should say the ions can move and carry a
+      charge
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: EXAMINER_TIP_EXPLICIT
+    derivation_notes: The misconception is ABOUT the ionic conduction mechanism (the target concept) —
+      the note documents the wrong carrier (electrons) vs the correct carrier (ions).
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-MIS-CONC-UNIT
   relation: WRONG_ANSWER_PATTERN
   target: 4CH1-CON-CONC-CALC
@@ -3943,6 +5635,28 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-MIS-COVALENT-BONDS-BROKEN
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-SIMPLE-MOLECULAR
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/COVALENT_MS_P2.txt
+    quote: Any reference to bonds between molecules
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: The wrong answer manifests in simple-molecular melting/boiling question contexts
+      (the Q1(d) fullerene-vs-diamond comparison rejects bonds-between-molecules answers and caps covalent-bonds-broken
+      mentions) — the pattern corrupts the 1.47 explanation.
+    upstream: PMT Unit-1 Paper-2 MS "Covalent Bonding" Q1(d) (pinned scripts/c11_evidence/COVALENT_MS_P2.txt
+      sha1 ed012522d306)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
   relation: WRONG_ANSWER_PATTERN
   target: 4CH1-CON-CRYSTALLISATION
@@ -3989,6 +5703,49 @@ edges:
   validation_status: HUMAN_VALIDATED
   validated_by: operator
   validated_date: '2026-09-12'
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-GRAPHITE-LAYER-BONDS
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-DIAMOND-GRAPHITE
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/COVALENT_MS_P2.txt
+    quote: Any reference to bonds between layers / molecules
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: The wrong answer manifests in graphite-property question contexts (the Q1(b) why-is-graphite-soft
+      question rejects bonds-between-layers answers) — the pattern corrupts the 1.50 graphite explanation.
+    upstream: PMT Unit-1 Paper-2 MS "Covalent Bonding" Q1(b) (pinned scripts/c11_evidence/COVALENT_MS_P2.txt
+      sha1 ed012522d306)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-IONIC-BOND-ATOMS
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-IONIC-BOND
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/IONIC_MS_P2.txt
+    quote: If any reference to attraction between atoms/molecul es/electrons scores 0/3
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: The wrong answer manifests in ionic-bonding question contexts (the Q2(a)(iii) explain-high-mp
+      question zeroes atom/molecule/electron attraction answers; the Q1(a) REJECT column rejects intermolecular
+      forces) — the pattern corrupts the 1.41 concept.
+    upstream: PMT Unit-1 Paper-2 MS "Ionic Bonding" Q1(a)/Q2(a)(iii) (pinned scripts/c11_evidence/IONIC_MS_P2.txt
+      sha1 4ccfc377514a)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
@@ -4064,6 +5821,28 @@ edges:
   validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
+- source: 4CH1-MIS-COVALENT-BONDS-BROKEN
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-SIMPLE-MOLECULAR
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: it is not the covalent bonds between the atoms which are broken, but the weak intermolecular
+      forces
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the WAP target (the B1-E-25 pattern): the corrective content
+      is the IMF-vs-covalent-bond distinction — the note states it as an explicit Remember tip.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.47 @ Simple Molecular Structures (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
 - source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
   relation: REMEDIATED_BY
   target: 4CH1-CON-SATURATED-SOLUTION
@@ -4136,6 +5915,74 @@ edges:
   validation_status: HUMAN_VALIDATED
   validated_by: operator
   validated_date: '2026-09-12'
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-GRAPHITE-LAYER-BONDS
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-DIAMOND-GRAPHITE
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Giant covalent
+      structures - IGCSE Chemistry Revision Notes.md
+    quote: The layers are free to slide over each other because there are only weak forces between the
+      layers, not covalent bonds
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the WAP target (the B1-E-25 pattern): the corrective content
+      is the layers-are-held-by-weak-forces-not-bonds statement (the note states it directly in the softness
+      explanation).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.50 @ Giant Covalent Structures (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-IONIC-BOND-ATOMS
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-IONIC-BOND
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: Between positive and negative ions are strong electrostatic forces of attraction which act
+      in all directions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the WAP target (the B1-E-25 pattern): the corrective content
+      is the correct definition — attraction between oppositely charged IONS, not atoms/molecules/IMF.'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.41 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-IONIC-CONDUCTION
+  evidence:
+  - kind: NOTE
+    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and
+      lattices - IGCSE Chemistry Revision Notes.md
+    quote: When the ionic compound is melted or dissolved in water, the ions are able to move and carry
+      a charge
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-3
+    derivation_method: EXAMINER_TIP_EXPLICIT
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25/batch-2 pattern): the
+      corrective content IS the ions-as-carriers conduction statement (plus the metal-electrons/solution-ions
+      contrast tip of the conductivity note, quoted in the node remediation_evidence).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-1.43 @ Ionic Bonding and Lattices (2026-09-11)
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS

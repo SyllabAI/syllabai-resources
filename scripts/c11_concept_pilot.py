@@ -84,8 +84,13 @@ PROMOTIONS = HERE / "c11_promotions.yaml"
 # Session-49 (§16 batch 2, 2026-09-12): the registry grows by the batch-2
 # record (extraction_pass c11-s16-batch-2, commissioned by the operator's
 # 'run batch 2') — same fail-closed contract, same disjoint-slice rule.
+# Session-51 (§16 batch 3, 2026-09-12): the registry grows by the batch-3
+# record (extraction_pass c11-s16-batch-3, commissioned by the operator's
+# session-51 move-forward directive — the full S1 remainder 1.37–1.60C in
+# one batch, 24 SPs + PR-04) — same fail-closed contract, same
+# disjoint-slice rule.
 DECISION_RECORDS = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
-                    "c11_batch2_decisions.yaml"]
+                    "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml"]
 RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                         r"|llm|agent|model|bot", re.I)

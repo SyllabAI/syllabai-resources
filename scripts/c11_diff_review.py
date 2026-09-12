@@ -79,8 +79,10 @@ REPO = HERE.parent
 # authored-edge surface: the operator's batch-1 approval surface is exactly
 # the batch-1 SUGGESTED edges.
 # Session-49 (batch 2): the registry grows by c11_batch2_decisions.yaml
+# Session-51 (batch 3): the registry grows by c11_batch3_decisions.yaml
+# (the full S1 remainder batch, operator-commissioned session 51)
 DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
-                  "c11_batch2_decisions.yaml"]
+                  "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 GRAPH_EDGES = REPO / "graph" / "concept_edges.yaml"
 GRAPH_NODES = REPO / "graph" / "concepts.yaml"

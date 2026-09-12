@@ -199,6 +199,9 @@ out = {
     # session-46 authorization state they anchor.
     # session-49 (2026-09-12): batch-2 AUTHORED to its operator gate
     # (future_batch_records[1]); baselines unchanged.
+    # session-51 (2026-09-12): batch-3 AUTHORED to its operator gate
+    # (future_batch_records[2]; the full S1 remainder — operator-commissioned
+    # 24-SP batch); baselines unchanged.
     # session-50 (2026-09-12): batch-2 operator gate SETTLED — verdicts
     # recorded (ruling "CONFIRM all") and applied through §18 (23
     # promotions, operator); baselines unchanged.
@@ -269,8 +272,13 @@ out = {
                    "2026-09-12 (session 50: operator ruling 'CONFIRM all' — "
                    "23 edge CONFIRM promoted via §18, store total 79; zero "
                    "RR authored, so no settlement row; verdict record "
-                   "scripts/c11_batch2_verdicts.yaml); batches 3-14 not "
-                   "started"),
+                   "scripts/c11_batch2_verdicts.yaml); batch 3 AUTHORED "
+                   "2026-09-12 (session 51: the full S1 remainder "
+                   "4CH1-1.37-1.60C, 24 SPs / 24 nodes / 39 authored "
+                   "edges / 14 held / 0 RR, 6 cross-boundary edges + 3 "
+                   "Paper-2 MS pins — FN-B2-1 closed; awaiting its operator "
+                   "gate; Section 1 coverage complete), SETTLED pending; "
+                   "batches 4-14 not started"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,
@@ -399,6 +407,65 @@ out = {
                            "(ATOM1-3, PT, ECM1/ECM3 — the ECM pins close "
                            "the batch-1 FN-B1-1 remainder); Paper-2 variants "
                            "remain (FN-B2-1)."),
+        },
+        {
+            "batch_id": "c11-s16-batch-3",
+            "session": 51,
+            "commissioned": "operator (session-51 move-forward directive, 2026-09-12)",
+            "scope": "the FULL S1 remainder, 24 SPs (4CH1-1.37-1.60C) + PR-04",
+            "spec_points": 24,
+            "notes": 14,
+            "mark_schemes_pinned": 3,
+            "predicted": {"nodes": 57.6, "authored_edges": 66.0,
+                          "held_candidates": 24.0},
+            "actual": {"nodes": 24, "authored_edges": 39,
+                       "held_candidates": 14},
+            "delta_pct": {"nodes": -58.3, "authored_edges": -40.9,
+                          "held_candidates": -41.7},
+            "rates": {
+                "held_rate": 0.2642,
+                "rejection_rate": 0.0,
+                # session-51: gate PENDING — 39 authored edges await the
+                # batch-3 operator verdicts; nothing promoted yet
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B3-1 (know/understand dual-attachment split candidates: "
+                "1.43+1.56C, 1.44+1.45, 1.51+1.55C, 1.52C+1.53C — operator "
+                "identity decisions)",
+                "FP-B3-2 (relation-class choices: the EXPLAINED_BY "
+                "metal-properties edge + the ELECTROLYSIS->IONIC-BOND "
+                "reachable-ne-redundant density flag)",
+                "FP-B3-3/4 (first RELATED_TO + second COMMONLY_CONFUSED_WITH "
+                "deployments)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -58.3% / edges -40.9% vs the "
+                           "2.4/2.75 model — the deltas are the boundary "
+                           "discipline AND the commissioned 24-SP scope: no "
+                           "batch-2 identity re-minted (ATOM / "
+                           "ELECTRONIC-CONFIGURATION / MOLECULE reached via 6 "
+                           "sanctioned boundary edges); the spec's own "
+                           "know/understand pairs merged as dual attachments "
+                           "(4 pairs); the bonding families mint one node "
+                           "per SP-family rather than per term (the "
+                           "solution-triple granularity); 1.60C attaches no "
+                           "concept node (the practical owns it — the 1.13 "
+                           "precedent). Zero RR authored (every doubt held "
+                           "or resolved on explicit evidence); 14 held; four "
+                           "misconceptions (1 examiner-tip erroneous belief + "
+                           "3 mark-scheme wrong answers, REJECT columns "
+                           "layout-verified). FN-B2-1 CLOSED: 3 Paper-2 pins "
+                           "(IONIC/COVALENT/CFEC); coverage fact — PMT "
+                           "publishes no metallic-bonding/electrolysis MS "
+                           "(B3-H-11/H-12). operator_verdicts all zero: the "
+                           "per-batch operator gate is PENDING (sheet: "
+                           "C11_BATCH3_REVIEW_SHEET.md; template: "
+                           "scripts/c11_batch3_verdicts_template.yaml). "
+                           "Section 1 coverage COMPLETE (pilot + batches "
+                           "1-3 = all 60 S1 SPs)."),
         },
     ],
     "future_batch_record_schema": {

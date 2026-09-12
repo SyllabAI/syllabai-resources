@@ -150,8 +150,8 @@ scope limits.
 | operator HOLD verdicts | session-45: **4** — the RR edge (session 41, below) + E-08/E-26/E-29 (session 44, rationale verbatim); session-41 snapshot: **1** |
 | operator PENDING (presented, undecided) | session-45: **0** — both settled HOLD (session 44); session-41 snapshot: **2** — the medium-confidence judgments (§5 below) |
 | held candidates (abstention record) | **11 held + 2 rejected = 13** (HELD-01…12 + HELD-13; HELD-09 was already rejected as the negative control; HELD-13 is the operator rejection) |
-| graph edges by state | session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
-| authored SUGGESTED edges awaiting per-row confirmation | session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
+| graph edges by state | session-51: **79 HUMAN_VALIDATED** (unchanged — batch-3 authoring promotes nothing) + 42 SUGGESTED semantic (3 pilot operator HOLDs + 39 batch-3 edges awaiting that batch's operator gate) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
+| authored SUGGESTED edges awaiting per-row confirmation | session-51: **39** (the batch-3 gate — 39 clean SUGGESTED edges awaiting per-row verdicts; 14 held untouched; zero RR authored); session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
 
 ### 4. Promoted count
 
@@ -489,3 +489,23 @@ No unratified promotion occurred: every promoted identity traces to an
 operator verdict row. Batch 3 (S1 remainder 4CH1-1.37–1.60C) is the next
 commissionable batch; the consolidated cross-slice boundary ruling comes
 before phase 2 (S3).)
+> **Session-51 update (2026-09-12): batch 3 AUTHORED to its operator gate —
+> the full S1 remainder.** Commissioned by the operator's move-forward
+> directive (batch 3 = 4CH1-1.37–1.60C + the Paper-2 mark schemes; "Reuse
+> the established Batch 1/Batch 2 machinery"): extraction_pass
+> c11-s16-batch-3 (24 SPs + practical PR-04), decision record
+> `scripts/c11_batch3_decisions.yaml` — 24 nodes (20 CONCEPT + 4
+> misconception: 1 examiner-tip ERRONEOUS_BELIEF + 3 mark-scheme
+> WRONG_ANSWER_PATTERN), 39 authored edges (all SUGGESTED, zero RR; 6
+> cross-boundary edges into batch-2 nodes; the store's FIRST RELATED_TO +
+> second COMMONLY_CONFUSED_WITH deployments), 14 held candidates; 3
+> Paper-2 MS pinned (IONIC/COVALENT/CFEC — FN-B2-1 closed; PMT publishes no
+> metallic-bonding/electrolysis MS, recorded not silent). Merged store:
+> 91 nodes / 220 edges (97 PART_OF + 123 semantic) / 60 command kinds /
+> 79 HUMAN_VALIDATED unchanged (authoring promotes nothing). The review
+> gate: `graph/reports/C11_BATCH3_REVIEW_SHEET.md` + the verdict template
+> `scripts/c11_batch3_verdicts_template.yaml`; NOTHING from batch 3 is
+> promoted, promotable-before-verdicts, or HUMAN_VALIDATED. The §18
+> front-end lists the 39 batch-3 SUGGESTED edges as the pending actionable
+> surface (39 / 5 not-actionable / promo_count=79). Section 1 coverage is
+> now COMPLETE (pilot + batches 1–3 = all 60 S1 SPs).

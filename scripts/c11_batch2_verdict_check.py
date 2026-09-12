@@ -234,10 +234,14 @@ check("D8 no PART_OF edge promoted (node pathway not built)",
 check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D10 live store shape 67 nodes / 156 edges (72 PART_OF + 84 semantic)",
-      len(nodes_doc["nodes"]) == 67 and len(edges_doc["edges"]) == 156
+# session-51 re-anchor (dated, protective intent unchanged): batch 3 grew
+# the merged store to 91/220/97 (24 batch-3 nodes + 25 PART_OF + 39 authored
+# semantic edges, all SUGGESTED awaiting the batch-3 operator gate); the
+# batch-2 slice below is preserved exactly inside the grown store.
+check("D10 live store shape 91 nodes / 220 edges (97 PART_OF + 123 semantic)",
+      len(nodes_doc["nodes"]) == 91 and len(edges_doc["edges"]) == 220
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 72)
+              if e["relation"] == "PART_OF") == 97)
 
 # ---------------------------------------------------------------------------
 print()

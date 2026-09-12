@@ -3,12 +3,13 @@
 #   scripts/c11_pilot_decisions.yaml (extraction_pass c11-pilot-pass-1)
 #   scripts/c11_batch1_decisions.yaml (extraction_pass c11-s16-batch-1)
 #   scripts/c11_batch2_decisions.yaml (extraction_pass c11-s16-batch-2)
+#   scripts/c11_batch3_decisions.yaml (extraction_pass c11-s16-batch-3)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
 # Generation dates pinned per record; store date 2026-09-12 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -51,20 +52,47 @@ meta:
   - 4CH1-1.22
   - 4CH1-1.23
   - 4CH1-1.24
+  - 4CH1-1.37
+  - 4CH1-1.38
+  - 4CH1-1.39
+  - 4CH1-1.40
+  - 4CH1-1.41
+  - 4CH1-1.42
+  - 4CH1-1.43
+  - 4CH1-1.44
+  - 4CH1-1.45
+  - 4CH1-1.46
+  - 4CH1-1.47
+  - 4CH1-1.48
+  - 4CH1-1.49
+  - 4CH1-1.50
+  - 4CH1-1.51
+  - 4CH1-1.52C
+  - 4CH1-1.53C
+  - 4CH1-1.54C
+  - 4CH1-1.55C
+  - 4CH1-1.56C
+  - 4CH1-1.57C
+  - 4CH1-1.58C
+  - 4CH1-1.59C
+  - 4CH1-1.60C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
   - 4CH1-PR-02
+  - 4CH1-PR-04
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
   - scripts/c11_pilot_decisions.yaml
   - scripts/c11_batch1_decisions.yaml
   - scripts/c11_batch2_decisions.yaml
+  - scripts/c11_batch3_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
   - c11-s16-batch-2
+  - c11-s16-batch-3
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
   generated: '2026-09-12'
@@ -75,7 +103,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 36
+    spec_points: 60
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -218,15 +246,137 @@ command_kinds:
   verb: know
   guide_class: DESCRIBE_EXPERIMENT
   demanded_substance: practical method for determining the formula of a metal oxide by combustion or reduction
+- code: 4CH1-1.37
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how ions are formed by electron loss or gain (the full-outer-shell motive; metals
+    lose electrons to become cations, non-metals gain electrons to become anions)
+- code: 4CH1-1.38
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the charges of the listed ions (Group 1/2/3 metals, Group 5/6/7 non-metals, Ag+,
+    Cu2+, Fe2+, Fe3+, Pb2+, Zn2+, H+, OH-, NH4+, CO3 2-, NO3-, SO4 2-) and the charge-deduction rule from
+    outer electrons
+- code: 4CH1-1.39
+  verb: write
+  guide_class: PRODUCE_EQUATION
+  demanded_substance: writing formulae for compounds formed between the listed ions (charge cancellation,
+    direct comparison and swap-and-drop, brackets around compound ions)
 - code: 4CH1-1.4
   verb: know
   guide_class: KNOW_TERM
   demanded_substance: definitions of the terms solvent, solute, solution and saturated solution
+- code: 4CH1-1.40
+  verb: draw
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: dot-and-cross diagrams showing the formation of ionic compounds by electron transfer
+    (Group 1/2/3 with Group 5/6/7 combinations, outer electrons only, bracketed charges)
+- code: 4CH1-1.41
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: ionic bonding in terms of electrostatic attraction between oppositely charged ions
+    acting in all directions
+- code: 4CH1-1.42
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why compounds with giant ionic lattices have high melting and boiling points (strong
+    electrostatic forces between oppositely charged ions, large amounts of thermal energy, charge-magnitude
+    effect)
+- code: 4CH1-1.43
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that ionic compounds do not conduct electricity when solid but do conduct when molten
+    and in aqueous solution
+- code: 4CH1-1.44
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that a covalent bond is formed between atoms by the sharing of a pair of electrons
+- code: 4CH1-1.45
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: covalent bonds in terms of electrostatic attraction between the shared pair of electrons
+    and the nuclei of the atoms involved
+- code: 4CH1-1.46
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: using dot-and-cross diagrams to represent covalent bonds in diatomic molecules (H2,
+    O2, N2, halogens, hydrogen halides), inorganic molecules (H2O, NH3, CO2) and organic molecules (CH4,
+    C2H6, C2H4)
+- code: 4CH1-1.47
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why substances with simple molecular structures are gases or liquids, or solids
+    with low melting and boiling points (weak intermolecular forces between molecules)
+- code: 4CH1-1.48
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why the melting and boiling points of simple molecular substances generally increase
+    with increasing relative molecular mass (more electrons, stronger intermolecular forces)
+- code: 4CH1-1.49
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why substances with giant covalent structures are solids with high melting and boiling
+    points (huge numbers of strong covalent bonds requiring lots of energy)
+- code: 4CH1-1.50
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how the structures of diamond, graphite and C60 fullerene influence their physical
+    properties, including electrical conductivity and hardness
+- code: 4CH1-1.51
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that covalent compounds do not usually conduct electricity
+- code: 4CH1-1.52C
+  verb: know
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: representing a metallic lattice by a 2-D diagram (regular pattern of positive metal
+    ions with delocalised electrons)
+- code: 4CH1-1.53C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: metallic bonding in terms of electrostatic attraction between positive metal ions
+    and delocalised electrons
+- code: 4CH1-1.54C
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: typical physical properties of metals (electrical conductivity, malleability) explained
+    by metallic bonding and the layer structure
+- code: 4CH1-1.55C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why covalent compounds do not conduct electricity (no freely moving charged particles
+    in solid, liquid or gas)
+- code: 4CH1-1.56C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why ionic compounds conduct electricity only when molten or in aqueous solution
+    (ions fixed in the solid lattice, free to move when molten or dissolved)
+- code: 4CH1-1.57C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that anion and cation are the terms for negative and positive ions respectively
+    (and their migration to anode/cathode during electrolysis)
+- code: 4CH1-1.58C
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: experiments to investigate electrolysis with inert electrodes, of molten compounds
+    (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric acid
+    and copper(II) sulfate), with prediction of the products
+- code: 4CH1-1.59C
+  verb: write
+  guide_class: PRODUCE_EQUATION
+  demanded_substance: ionic half-equations representing the reactions at the electrodes during electrolysis
+    and why these reactions are classified as oxidation or reduction
 - code: 4CH1-1.5C
   verb: know
   guide_class: KNOW_TERM
   demanded_substance: solubility in the units g per 100 g of solvent and its dependence on temperature
     (solids, gases) and pressure (gases)
+- code: 4CH1-1.60C
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the electrolysis-of-aqueous-solutions practical (electrolysis cell, collection and
+    identification of the products at each electrode via gas tests)
 - code: 4CH1-1.6C
   verb: understand
   guide_class: REPRESENT_DIAGRAM

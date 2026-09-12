@@ -1,0 +1,362 @@
+# T-C11 §16 batch 3 — OPERATOR verdict template (session-51 package).
+# OPERATOR-OWNED: fill verdict per row (empty verdict = not decided).
+# Hand-edits HERE are the sanctioned pathway; graph/*.yaml are never
+# hand-edited. The next session encodes + applies the filled record via
+# the §18 promotion pathway / §7 decision-record re-authoring. Verdicts
+# are RECORDED, not applied: filling this file promotes nothing.
+meta:
+  task: T-C11
+  stage: s16-batch-3-verdicts
+  batch: 3
+  session: 51
+  file: OPERATOR-OWNED verdict record for C11_BATCH3_REVIEW_SHEET (session 51) — verdicts recorded by operator decision (pending).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT. This batch authored
+    NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-3
+    extraction_pass is c11-s16-batch-3; its 14 held candidates are informational only (no reopening,
+    no promotion of held candidates). Six edges are cross-boundary into earlier-record nodes
+    (CON-ATOM x2, CON-ELECTRONIC-CONFIGURATION x2, CON-MOLECULE x2 — sanctioned, no duplicate mint).
+    The next session applies verdicts via the §18 promotion pathway /
+    §7 decision-record re-authoring; nothing here is HUMAN_VALIDATED.'
+edge_verdicts:
+- id: B3-E-01
+  triple: 4CH1-CON-ANODE-CATHODE REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-02
+  triple: 4CH1-CON-AQUEOUS-DISCHARGE REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-03
+  triple: 4CH1-CON-COVALENT-BOND REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-04
+  triple: 4CH1-CON-COVALENT-BOND REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-05
+  triple: 4CH1-CON-COVALENT-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-06
+  triple: 4CH1-CON-DIAMOND-GRAPHITE RELATED_TO 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: FLAGGED
+  verdict:
+  notes: 'first RELATED_TO deployment in the store (FP-B3-3; B3-ID-07)'
+- id: B3-E-07
+  triple: 4CH1-CON-DIAMOND-GRAPHITE REQUIRES_PREREQUISITE 4CH1-CON-GIANT-COVALENT
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-08
+  triple: 4CH1-CON-DOT-CROSS-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-09
+  triple: 4CH1-CON-DOT-CROSS-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-MOLECULE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-10
+  triple: 4CH1-CON-DOT-CROSS-IONIC REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-11
+  triple: 4CH1-CON-ELECTRODE-HALF-EQUATIONS REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-12
+  triple: 4CH1-CON-ELECTRODE-HALF-EQUATIONS REQUIRES_PREREQUISITE 4CH1-CON-REDOX-ELECTRONS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-13
+  triple: 4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-ANODE-CATHODE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-14
+  triple: 4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-IONIC-BOND
+  pretriage: FLAGGED
+  verdict:
+  notes: 'density flag: transitively reachable, different information (FP-B3-2)'
+- id: B3-E-15
+  triple: 4CH1-CON-ELECTROLYSIS REQUIRES_PREREQUISITE 4CH1-CON-IONIC-CONDUCTION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-16
+  triple: 4CH1-CON-GIANT-COVALENT REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-17
+  triple: 4CH1-CON-ION REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-18
+  triple: 4CH1-CON-ION REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-19
+  triple: 4CH1-CON-ION-CHARGE-RULES REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-20
+  triple: 4CH1-CON-IONIC-BOND COMMONLY_CONFUSED_WITH 4CH1-CON-COVALENT-BOND
+  pretriage: FLAGGED
+  verdict:
+  notes: 'second COMMONLY_CONFUSED_WITH deployment (FP-B3-4)'
+- id: B3-E-21
+  triple: 4CH1-CON-IONIC-BOND REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-22
+  triple: 4CH1-CON-IONIC-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-23
+  triple: 4CH1-CON-IONIC-CONDUCTION REQUIRES_PREREQUISITE 4CH1-CON-IONIC-LATTICE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-24
+  triple: 4CH1-CON-IONIC-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-25
+  triple: 4CH1-CON-IONIC-LATTICE REQUIRES_PREREQUISITE 4CH1-CON-IONIC-BOND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-26
+  triple: 4CH1-CON-METAL-PROPERTIES EXPLAINED_BY 4CH1-CON-METALLIC-BOND
+  pretriage: FLAGGED
+  verdict:
+  notes: 'relation-class choice (prereq reading equally real; FP-B3-2)'
+- id: B3-E-27
+  triple: 4CH1-CON-METALLIC-BOND REQUIRES_PREREQUISITE 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-28
+  triple: 4CH1-CON-SIMPLE-MOLECULAR REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-29
+  triple: 4CH1-CON-SIMPLE-MOLECULAR REQUIRES_PREREQUISITE 4CH1-CON-MOLECULE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'vocabulary-level operand class + cross-boundary target (FP-B1-4 class)'
+- id: B3-E-30
+  triple: 4CH1-MIS-COVALENT-BONDS-BROKEN REMEDIATED_BY 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target (the B1-E-25 pattern)'
+- id: B3-E-31
+  triple: 4CH1-MIS-COVALENT-BONDS-BROKEN WRONG_ANSWER_PATTERN 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-32
+  triple: 4CH1-MIS-GRAPHITE-LAYER-BONDS REMEDIATED_BY 4CH1-CON-DIAMOND-GRAPHITE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'family overlap + B1-E-25 pattern (B3-ID-06 merge question)'
+- id: B3-E-33
+  triple: 4CH1-MIS-GRAPHITE-LAYER-BONDS WRONG_ANSWER_PATTERN 4CH1-CON-DIAMOND-GRAPHITE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'family overlap with MIS-COVALENT-BONDS-BROKEN (B3-ID-06 merge question)'
+- id: B3-E-34
+  triple: 4CH1-MIS-IONIC-BOND-ATOMS REMEDIATED_BY 4CH1-CON-IONIC-BOND
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target (the B1-E-25 pattern)'
+- id: B3-E-35
+  triple: 4CH1-MIS-IONIC-BOND-ATOMS WRONG_ANSWER_PATTERN 4CH1-CON-IONIC-BOND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-36
+  triple: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS MISCONCEPTION_OF 4CH1-CON-IONIC-CONDUCTION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-37
+  triple: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS REMEDIATED_BY 4CH1-CON-IONIC-CONDUCTION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = MO target (the batch-1 B1-E-25 pattern)'
+- id: B3-E-38
+  triple: 4CH1-PR-04 REQUIRES_PREREQUISITE 4CH1-CON-AQUEOUS-DISCHARGE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-E-39
+  triple: 4CH1-PR-04 REQUIRES_PREREQUISITE 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+node_verdicts:
+- id: B3-N-01
+  code: 4CH1-CON-ANODE-CATHODE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'term pair + migration rule in one node (FP-B1-1 class)'
+- id: B3-N-02
+  code: 4CH1-CON-AQUEOUS-DISCHARGE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'second node on 1.58C (dual node attachment, B3-ID-05 class)'
+- id: B3-N-03
+  code: 4CH1-CON-COVALENT-BOND
+  pretriage: FLAGGED
+  verdict:
+  notes: 'definition-vs-mechanism dual attachment 1.44+1.45 (B3-ID-02)'
+- id: B3-N-04
+  code: 4CH1-CON-COVALENT-CONDUCTION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'know/understand dual attachment 1.51+1.55C (B3-ID-01 class)'
+- id: B3-N-05
+  code: 4CH1-CON-DIAMOND-GRAPHITE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'three-allotrope block + first RELATED_TO edge (B3-ID-04)'
+- id: B3-N-06
+  code: 4CH1-CON-DOT-CROSS-COVALENT
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-07
+  code: 4CH1-CON-DOT-CROSS-IONIC
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-08
+  code: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-09
+  code: 4CH1-CON-ELECTROLYSIS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-10
+  code: 4CH1-CON-GIANT-COVALENT
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-11
+  code: 4CH1-CON-ION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-12
+  code: 4CH1-CON-ION-CHARGE-RULES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'deduction-rule vs named-ion-table split option (FP-B1-1 class)'
+- id: B3-N-13
+  code: 4CH1-CON-IONIC-BOND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-14
+  code: 4CH1-CON-IONIC-CONDUCTION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'know/understand dual attachment 1.43+1.56C (B3-ID-01)'
+- id: B3-N-15
+  code: 4CH1-CON-IONIC-FORMULA
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-16
+  code: 4CH1-CON-IONIC-LATTICE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-17
+  code: 4CH1-CON-METAL-PROPERTIES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-18
+  code: 4CH1-CON-METALLIC-BOND
+  pretriage: FLAGGED
+  verdict:
+  notes: 'representation-vs-mechanism dual attachment 1.52C+1.53C (B3-ID-05)'
+- id: B3-N-19
+  code: 4CH1-CON-REDOX-ELECTRONS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B3-N-20
+  code: 4CH1-CON-SIMPLE-MOLECULAR
+  pretriage: FLAGGED
+  verdict:
+  notes: 'structure node vs IMF term node split (B3-ID-03)'
+- id: B3-M-01
+  code: 4CH1-MIS-COVALENT-BONDS-BROKEN
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict:
+  notes: ''
+- id: B3-M-02
+  code: 4CH1-MIS-GRAPHITE-LAYER-BONDS
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict:
+  notes: 'family overlap with MIS-COVALENT-BONDS-BROKEN (B3-ID-06)'
+- id: B3-M-03
+  code: 4CH1-MIS-IONIC-BOND-ATOMS
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict:
+  notes: 'mark-scheme quote preserves the pinned line-wrap artifact (FP-B3-5)'
+- id: B3-M-04
+  code: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS
+  pretriage: LIKELY_SAFE (note- / mark-scheme-documented)
+  verdict:
+  notes: ''
+identity_decisions:
+- id: B3-ID-01
+  question: split the know/understand dual-attachment pairs into separate nodes (CON-IONIC-CONDUCTION 1.43/1.56C; CON-COVALENT-CONDUCTION 1.51+1.55C)
+  verdict:
+- id: B3-ID-02
+  question: split CON-COVALENT-BOND into the 1.44 sharing-definition node and the 1.45 electrostatic-mechanism node
+  verdict:
+- id: B3-ID-03
+  question: split CON-SIMPLE-MOLECULAR into a structure node and a separate intermolecular-forces term node (the spec names the term)
+  verdict:
+- id: B3-ID-04
+  question: split CON-DIAMOND-GRAPHITE into diamond/graphite/C60 term-level nodes (one SP, two notes)
+  verdict:
+- id: B3-ID-05
+  question: split CON-METALLIC-BOND (1.52C 2-D representation vs 1.53C bonding) and/or fold CON-AQUEOUS-DISCHARGE into CON-ELECTROLYSIS (dual node attachment on 1.58C)
+  verdict:
+- id: B3-ID-06
+  question: merge MIS-GRAPHITE-LAYER-BONDS into MIS-COVALENT-BONDS-BROKEN (one bonds-vs-forces family, two documented surfaces) or keep separate for per-concept remediation targeting
+  verdict:
+- id: B3-ID-07
+  question: replace the RELATED_TO(DIAMOND-GRAPHITE, SIMPLE-MOLECULAR) edge with a direct 1.50 attachment on CON-SIMPLE-MOLECULAR (the alternative C60 modeling)
+  verdict:
+held_appendix_acknowledgment:
+  acknowledged:
+  notes: ''
