@@ -785,10 +785,12 @@ C11_BATCH1_SPS = ["4CH1-1.1", "4CH1-1.2", "4CH1-1.3", "4CH1-1.4", "4CH1-1.5C",
 C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS
 C11_STAGE = "pilot+s16-batch-1"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-# State after the session-47 batch-1 authoring: 53 nodes (29 pilot + 24
-# batch-1), 118 edges (57 PART_OF + 61 semantic), 28 HUMAN_VALIDATED (the
-# session-45 operator promotions, pilot only — batch-1 edges are SUGGESTED
-# pending the per-batch operator gate), 1 REVIEW_REQUIRED (the frozen RR edge).
+# State after the session-48 batch-1 verdict application: 53 nodes (29 pilot
+# + 24 batch-1), 118 edges (57 PART_OF + 61 semantic), 56 HUMAN_VALIDATED
+# (28 pilot session-45 + 28 batch-1 session-48 — operator §18 promotions
+# over operator-confirmed verdicts; batch-1 nodes stay SUGGESTED: nodes
+# have no §18 pathway), 2 REVIEW_REQUIRED (the frozen pilot RR operator-
+# HOLD edge + the settled batch-1 RR quarantine HOLD_REVIEW_REQUIRED).
 C11_COUNTS = {"nodes": 53, "concepts": 49, "misconceptions": 4, "edges": 118,
               "part_of": 57, "requires_prerequisite": 47, "explained_by": 6,
               "related_to": 0, "commonly_confused_with": 0,
@@ -1520,8 +1522,9 @@ def main():
           f"({C11_COUNTS['part_of']} PART_OF + "
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
-          f"generation; batch-1 edges SUGGESTED pending the per-batch "
-          f"operator gate), negative control {C11_NEGATIVE_CONTROL} "
+          f"generation; batch-1 verdicts applied session 48 — batch-1 "
+          f"nodes stay SUGGESTED, no node §18 pathway), negative control "
+          f"{C11_NEGATIVE_CONTROL} "
           f"uncovered.")
 
 

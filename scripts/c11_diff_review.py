@@ -743,6 +743,12 @@ def cmd_export(st: dict, args) -> int:
     date = args.date
     out = Path(args.out) if args.out else \
         st["base"] / "graph" / "reports" / f"C11_DIFF_REVIEW_{date}.md"
+    # session-48 fix: a relative --out is resolved against the repo root (the
+    # default path's convention). Previously a relative --out crashed the
+    # bundle render at the --review-ref line (relative_to mismatch) — the
+    # flag had only ever been exercised via the default absolute path.
+    if not out.is_absolute():
+        out = st["base"] / out
     pend = pending_items(st)
     act = actionable_edges(st)
     by = "operator"

@@ -163,6 +163,9 @@ def mut_07_forged_promotion(g: Path):
     # from the sanctioned state. Forging on a SUGGESTED edge (the operator-HOLD
     # surface) reproduces the original corruption class exactly: an unbacked
     # HUMAN_VALIDATED that c11.10 must catch.
+    # session-48 note: after the batch-1 §18 application the only SUGGESTED
+    # semantic edges left are the 3 pilot operator HOLDs — the first one is
+    # targeted; the corruption class is unchanged (unbacked HUMAN_VALIDATED).
     d = load(g, "concept_edges.yaml")
     e = next(e for e in d["edges"]
              if e["relation"] != "PART_OF"

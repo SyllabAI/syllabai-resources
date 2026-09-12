@@ -219,8 +219,16 @@ tpl.append("  verdict:")
 tpl.append("held_appendix_acknowledgment:")
 tpl.append("  acknowledged:")
 tpl.append("  notes: ''")
-(HERE / "c11_batch1_verdicts_template.yaml").write_text("\n".join(tpl) + "\n",
-                                                        encoding="utf-8")
+# session-48 (2026-09-12): the verdict round is RECORDED — the template was
+# filled and renamed per the gate pathway (scripts/c11_batch1_verdicts.yaml).
+# Re-emitting an empty template beside the filled verdict record would
+# fabricate a pending gate; fail-closed guard instead of clobbering context.
+if (HERE / "c11_batch1_verdicts.yaml").exists():
+    print("template NOT re-emitted: scripts/c11_batch1_verdicts.yaml exists "
+          "(verdict round recorded, session 48)")
+else:
+    (HERE / "c11_batch1_verdicts_template.yaml").write_text(
+        "\n".join(tpl) + "\n", encoding="utf-8")
 
 # --- review sheet --------------------------------------------------------------
 L = []
@@ -426,7 +434,13 @@ A(f"Machine artifacts: `graph/concepts.yaml`, `graph/concept_edges.yaml`, "
                                                    encoding="utf-8")
 print(f"wrote {REPORTS / 'C11_BATCH1_REVIEW_SHEET.md'}")
 print(f"wrote {REPORTS / 'C11_BATCH1_REVIEW.json'}")
-print(f"wrote {HERE / 'c11_batch1_verdicts_template.yaml'}")
+# session-48: the template print is state-dependent (guard above decides
+# whether it is actually written)
+if (HERE / "c11_batch1_verdicts.yaml").exists():
+    print(f"verdict record present: {HERE / 'c11_batch1_verdicts.yaml'} "
+          f"(template intentionally not re-emitted)")
+else:
+    print(f"wrote {HERE / 'c11_batch1_verdicts_template.yaml'}")
 print(f"raw agreement (NOT kappa): nodes {raw_agreement_nodes:.1%}; edges "
       f"{agree}/{asserted} asserted confirmed; {uncert_concordant} RR edge "
       f"concordantly held (open: {open_uncertain})")

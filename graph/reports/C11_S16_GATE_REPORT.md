@@ -55,6 +55,27 @@ medium-confidence judgments are presented-pending; nothing else is confirmed).
 > promoted, promotable-before-verdicts, or HUMAN_VALIDATED. The §18 front-end
 > now lists the 28 batch-1 SUGGESTED edges as the pending actionable surface.
 
+> **Session-48 update (2026-09-12): batch 1 GATE SETTLED — verdicts recorded
+> and applied.** The operator ruled on the batch-1 gate with the verbatim
+> ruling **"CONFIRM all"**. Recorded in the operator-owned verdict record
+> `scripts/c11_batch1_verdicts.yaml` (the template, filled + renamed per the
+> gate pathway): 28 edge CONFIRM / 24 node CONFIRM (B1-N-08/B1-N-11 keep
+> ENRICHMENT scoping) / 4 identity decisions KEEP_AS_IS / RR settlement
+> HOLD_REVIEW_REQUIRED / held appendix acknowledged. Applied through the
+> exact session-44/45 shape: §7 re-authoring (the RR settlement + the two
+> enrichment-scoping operator_decision blocks in
+> `scripts/c11_batch1_decisions.yaml`) then §18 (`c11_diff_review.py
+> approve --all` over the B1 bundle → one `c11_promote.py` invocation →
+> gated G13 re-run; 28 new promotion entries, all `operator`, 2026-09-12,
+> review_reference the B1 diff-review bundle). **Store total: 56 HUMAN_VALIDATED
+> (28 pilot + 28 batch-1); the RR quarantine stays REVIEW_REQUIRED
+> (operator-settled); batch-1 nodes stay SUGGESTED (no node §18 pathway).**
+> The standing checker `scripts/c11_batch1_verdict_check.py` (33 checks)
+> validates the verdict layer + three-way set equality (verdict CONFIRM set
+> == live batch-1 HUMAN_VALIDATED set == store batch-1 entries). Batch 2
+> (S1 remainder 1.13–1.24) is commissionable; the cross-slice boundary
+> ruling comes before phase 2 (S3).
+
 ## The 14 required readiness items
 
 ### 1. Final pilot node count
@@ -87,8 +108,8 @@ scope limits.
 | operator HOLD verdicts | session-45: **4** — the RR edge (session 41, below) + E-08/E-26/E-29 (session 44, rationale verbatim); session-41 snapshot: **1** |
 | operator PENDING (presented, undecided) | session-45: **0** — both settled HOLD (session 44); session-41 snapshot: **2** — the medium-confidence judgments (§5 below) |
 | held candidates (abstention record) | **11 held + 2 rejected = 13** (HELD-01…12 + HELD-13; HELD-09 was already rejected as the negative control; HELD-13 is the operator rejection) |
-| graph edges by state | session-45: **28 HUMAN_VALIDATED** (the §18 promotions) + 3 SUGGESTED semantic (the operator HOLDs) + 33 PART_OF (SUGGESTED, derived) + 1 REVIEW_REQUIRED; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
-| authored SUGGESTED edges awaiting per-row confirmation | session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
+| graph edges by state | session-48: **56 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs) + 33+24 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine); session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
+| authored SUGGESTED edges awaiting per-row confirmation | session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
 
 ### 4. Promoted count
 
@@ -110,12 +131,29 @@ review_reference = the regenerated diff-review bundle), graph_check
 c11.10/c11.13 green at 28 promoted, deterministic regeneration re-proven
 byte-identical WITH the promotions file present.
 
+**Session-48 update (2026-09-12): 56.** The batch-1 operator gate settled
+(ruling "CONFIRM all", `scripts/c11_batch1_verdicts.yaml`): the same §18
+pathway applied 28 more operator promotions over operator-confirmed
+identities (bundle `graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md`; the
+session-45 bundle preserved byte-intact at its own path). The standing
+`c11_batch1_verdict_check.py` (33 checks) proves the three-way set equality
+(verdict CONFIRM set == live batch-1 HUMAN_VALIDATED set == store batch-1
+entries); graph_check c11.10/c11.13 green at 56 promoted; deterministic
+regeneration re-proven byte-identical with the 56-entry store.
+
 ### 5. All remaining REVIEW_REQUIRED edges
 
 > Session-45 (2026-09-12): the two PENDING judgments under 2 below were
 > settled HOLD by the operator in session 44 (verbatim rationale in
 > `scripts/c11_review_verdicts.yaml` rows E-26/E-29; §7 operator_decision
 > blocks in the decision record); they stay SUGGESTED and are not promotable.
+
+> Session-48 (2026-09-12): the batch-1 RR quarantine edge
+> `4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION`
+> (authored session 47, subsumption class) was settled by the operator:
+> HOLD_REVIEW_REQUIRED (ruling "CONFIRM all" — `scripts/c11_batch1_verdicts.yaml`
+> row B1-RR-01; §7 operator_decision block in the batch-1 decision record).
+> It stays REVIEW_REQUIRED and is not promotable.
 
 1. `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW` —
    **operator HOLD** (2026-09-11; reasons recorded verbatim; not eligible for
@@ -361,3 +399,16 @@ them — flow through exactly the session-44/45 shape: verdict record → §18
 approve → one `c11_promote.py` invocation → gated G13 re-run. The
 forecast instrument carries the batch-1 predicted-vs-actual record
 (`C11_BATCH_FORECAST.json` future_batch_records).)
+
+(Session-48 note: the batch-1 verdicts ARE now recorded and applied — the
+operator's ruling "CONFIRM all", encoded verbatim in
+`scripts/c11_batch1_verdicts.yaml` and settled exactly through the
+session-44/45 shape described above (§7 blocks + §18 approve → promote →
+gated re-run; bundle `graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md`).
+The 28 batch-1 CONFIRM edges are HUMAN_VALIDATED with operator
+attribution; the RR quarantine is operator-settled HOLD_REVIEW_REQUIRED and
+stays un-promoted; the frozen pilot dispositions are byte-intact; the
+full gate suite is green at the 56-promotion state, including the new
+standing checker `scripts/c11_batch1_verdict_check.py`. No unratified
+promotion occurred: every promoted identity traces to an operator verdict
+row.)

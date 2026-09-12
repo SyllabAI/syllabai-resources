@@ -1,0 +1,339 @@
+# T-C11 §16 batch 1 — OPERATOR verdict record (session-47 package), FILLED by operator decision session 48 (2026-09-12). OPERATOR-OWNED.
+# Ruling verbatim: "CONFIRM all" — see meta.operator_ruling for the recorded mapping.
+# Vocabulary and pathway: see the meta.instructions block. Verdicts are RECORDED; the application state lives in scripts/c11_promotions.yaml (§18) and the decision record's §7 blocks — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-1-verdicts
+  batch: 1
+  session: 48
+  file: OPERATOR-OWNED verdict record for C11_BATCH1_REVIEW_SHEET (session 47 package) — verdicts recorded
+    by operator decision, session 48 (2026-09-12).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    RR settlement vocabulary: KEEP_AS_SUGGESTED | PRUNE_TO_HELD | HOLD_REVIEW_REQUIRED. Identity-decision
+    vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-1 extraction_pass is c11-s16-batch-1;
+    its 12 held candidates are informational only (no reopening, no promotion of held candidates). The
+    next session applies verdicts via the §18 promotion pathway / §7 decision-record re-authoring; nothing
+    here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: CONFIRM all
+    session: 48
+    decided_by: operator
+    decided_date: '2026-09-12'
+    mapping: 'The ruling confirms the authored batch-1 package as presented on the session-47 review sheet:
+      every edge row CONFIRM, every node row CONFIRM (B1-N-08/B1-N-11 keep their ENRICHMENT scoping),
+      each identity decision KEEP_AS_IS (the authored representation confirmed as-is — no merge, no split,
+      no symmetric-pair re-emission), the RR settlement confirms the authored quarantine (HOLD_REVIEW_REQUIRED
+      — stays REVIEW_REQUIRED, not promotable), and the held appendix stays held. Verdicts recorded session
+      48; the application state lives in scripts/c11_promotions.yaml (the §18 pathway is the only HUMAN_VALIDATED
+      source) and in the §7 decision-record re-authoring — this file never carries promotion payload or
+      promoted status. Changing a recorded verdict requires an explicit operator decision.'
+edge_verdicts:
+- id: B1-E-01
+  triple: 4CH1-CON-CHROMATOGRAM-INTERPRETATION REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAPHY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-02
+  triple: 4CH1-CON-CHROMATOGRAM-INTERPRETATION REQUIRES_PREREQUISITE 4CH1-CON-PURE-SUBSTANCE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-03
+  triple: 4CH1-CON-CHROMATOGRAPHY REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-04
+  triple: 4CH1-CON-COMPOUND REQUIRES_PREREQUISITE 4CH1-CON-ELEMENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-05
+  triple: 4CH1-CON-CRYSTALLISATION EXPLAINED_BY 4CH1-CON-SOLUBILITY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-06
+  triple: 4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE 4CH1-CON-SATURATED-SOLUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-07
+  triple: 4CH1-CON-DIFFUSION EXPLAINED_BY 4CH1-CON-STATE-PARTICLE-MODEL
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — the causal evidence class
+    stands (EXPLAINED_BY; the prerequisite reading stays parked in held B1-H-04: one relation per pair).'
+- id: B1-E-08
+  triple: 4CH1-CON-DILUTION EXPLAINED_BY 4CH1-CON-STATE-PARTICLE-MODEL
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-09
+  triple: 4CH1-CON-EVAPORATION-BOILING REQUIRES_PREREQUISITE 4CH1-CON-STATE-CHANGES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-10
+  triple: 4CH1-CON-FILTRATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — vocabulary-level solution
+    link kept (FP-B1-4; filtration''s only solution link, not transitively subsumed).'
+- id: B1-E-11
+  triple: 4CH1-CON-FRACTIONAL-DISTILLATION REQUIRES_PREREQUISITE 4CH1-CON-SIMPLE-DISTILLATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-12
+  triple: 4CH1-CON-MIXTURE REQUIRES_PREREQUISITE 4CH1-CON-COMPOUND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — chain representative kept
+    (ID-04 KEEP_AS_IS; B1-H-01 stays held).'
+- id: B1-E-13
+  triple: 4CH1-CON-PURE-SUBSTANCE REQUIRES_PREREQUISITE 4CH1-CON-COMPOUND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — chain representative kept
+    (ID-04 KEEP_AS_IS; B1-H-10 stays held).'
+- id: B1-E-14
+  triple: 4CH1-CON-PURE-SUBSTANCE REQUIRES_PREREQUISITE 4CH1-CON-STATE-CHANGES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-15
+  triple: 4CH1-CON-RF-VALUE REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAM-INTERPRETATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-16
+  triple: 4CH1-CON-SATURATED-SOLUTION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-17
+  triple: 4CH1-CON-SIMPLE-DISTILLATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — vocabulary-level solution
+    link kept (FP-B1-4; simple distillation''s only solution link, not transitively subsumed).'
+- id: B1-E-18
+  triple: 4CH1-CON-SIMPLE-DISTILLATION REQUIRES_PREREQUISITE 4CH1-CON-STATE-CHANGES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-19
+  triple: 4CH1-CON-SOLUBILITY REQUIRES_PREREQUISITE 4CH1-CON-SATURATED-SOLUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-20
+  triple: 4CH1-CON-SOLUBILITY-CURVE REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-21
+  triple: 4CH1-CON-STATE-CHANGES REQUIRES_PREREQUISITE 4CH1-CON-STATE-PARTICLE-MODEL
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-22
+  triple: 4CH1-CON-STATE-PARTICLE-MODEL REQUIRES_PREREQUISITE 4CH1-CON-STATES-THREE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — the edge depends on ID-01
+    KEEP_AS_IS (states classification and particle model stay separate nodes).'
+- id: B1-E-23
+  triple: 4CH1-MIS-CRYSTALLISATION-DRYNESS REMEDIATED_BY 4CH1-CON-SATURATED-SOLUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-24
+  triple: 4CH1-MIS-CRYSTALLISATION-DRYNESS WRONG_ANSWER_PATTERN 4CH1-CON-CRYSTALLISATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-25
+  triple: 4CH1-MIS-GAS-PARTICLES-TOUCH REMEDIATED_BY 4CH1-CON-STATE-PARTICLE-MODEL
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — remediation target equals
+    the WAP target; kept for misconception-recommendation queries (node remediation_evidence also carries
+    the corrective text).'
+- id: B1-E-26
+  triple: 4CH1-MIS-GAS-PARTICLES-TOUCH WRONG_ANSWER_PATTERN 4CH1-CON-STATE-PARTICLE-MODEL
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-27
+  triple: 4CH1-PR-01 REQUIRES_PREREQUISITE 4CH1-CON-SATURATED-SOLUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-E-28
+  triple: 4CH1-PR-01 REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+rr_settlement:
+- id: B1-RR-01
+  triple: 4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION
+  pretriage: QUARANTINED (subsumption class; pass-1 self-review + pass-2 HOLD)
+  verdict: HOLD_REVIEW_REQUIRED
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): HOLD_REVIEW_REQUIRED — the authored quarantine
+    is confirmed (subsumption via CRYSTALLISATION -> SATURATED-SOLUTION -> SOLUTION; pass-1 self-quarantine
+    + pass-2 concordant HOLD). The edge stays REVIEW_REQUIRED and is not promotable.'
+node_verdicts:
+- id: B1-N-01
+  code: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-02
+  code: 4CH1-CON-CHROMATOGRAPHY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-03
+  code: 4CH1-CON-COMPOUND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-04
+  code: 4CH1-CON-CRYSTALLISATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-05
+  code: 4CH1-CON-DIFFUSION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-06
+  code: 4CH1-CON-DILUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-07
+  code: 4CH1-CON-ELEMENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-08
+  code: 4CH1-CON-EVAPORATION-BOILING
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as ENRICHMENT-scoped (mirrors the pilot
+    N-27 pattern). Do not convert this enrichment scoping into a stronger syllabus-authority claim.'
+- id: B1-N-09
+  code: 4CH1-CON-FILTRATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-10
+  code: 4CH1-CON-FRACTIONAL-DISTILLATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-11
+  code: 4CH1-CON-HEATING-CONSTANT-MASS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as ENRICHMENT-scoped (mirrors the pilot
+    N-08 pattern; leaf node, no authored edges). Do not convert this enrichment scoping into a stronger
+    syllabus-authority claim.'
+- id: B1-N-12
+  code: 4CH1-CON-MIXTURE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-13
+  code: 4CH1-CON-PURE-SUBSTANCE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — definition + fixed melting/boiling
+    criterion stay one node (ID-03 KEEP_AS_IS).'
+- id: B1-N-14
+  code: 4CH1-CON-RF-VALUE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-15
+  code: 4CH1-CON-SATURATED-SOLUTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-16
+  code: 4CH1-CON-SIMPLE-DISTILLATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-17
+  code: 4CH1-CON-SOLUBILITY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-18
+  code: 4CH1-CON-SOLUBILITY-CURVE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-19
+  code: 4CH1-CON-SOLUTION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — the solute/solvent/solution
+    triple stays one node (ID-02 KEEP_AS_IS).'
+- id: B1-N-20
+  code: 4CH1-CON-STATE-CHANGES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-21
+  code: 4CH1-CON-STATE-PARTICLE-MODEL
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B1-N-22
+  code: 4CH1-CON-STATES-THREE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): CONFIRM as authored — separate from CON-STATE-PARTICLE-MODEL
+    (ID-01 KEEP_AS_IS).'
+- id: B1-M-01
+  code: 4CH1-MIS-CRYSTALLISATION-DRYNESS
+  pretriage: LIKELY_SAFE (mark-scheme documented)
+  verdict: CONFIRM
+  notes: ''
+- id: B1-M-02
+  code: 4CH1-MIS-GAS-PARTICLES-TOUCH
+  pretriage: LIKELY_SAFE (mark-scheme documented)
+  verdict: CONFIRM
+  notes: ''
+identity_decisions:
+- id: B1-ID-01
+  question: merge CON-STATES-THREE into CON-STATE-PARTICLE-MODEL (1.1 pair)
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): KEEP_AS_IS — the states-classification and particle-model
+    nodes stay separate; B1-E-22 / B1-N-22 confirmed as authored.'
+- id: B1-ID-02
+  question: split CON-SOLUTION into term-level nodes (solvent/solute/solution)
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): KEEP_AS_IS — the solution triple stays one node;
+    B1-N-19 confirmed as authored.'
+- id: B1-ID-03
+  question: split CON-PURE-SUBSTANCE (definition vs fixed-point criterion)
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): KEEP_AS_IS — the definition and the fixed-point
+    criterion stay one node; B1-N-13 confirmed as authored.'
+- id: B1-ID-04
+  question: emit the symmetric operand pairs MIXTURE->{COMPOUND, ELEMENT} and PURE->{COMPOUND, ELEMENT}
+    instead of the chain representatives
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): KEEP_AS_IS — the chain representatives stay; the
+    symmetric operand pairs stay held (B1-H-01 / B1-H-10); B1-E-12 / B1-E-13 confirmed as authored.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator ruling ''CONFIRM all'' (session 48): the 12 held candidates (B1-H-01..12) stay held
+    — no reopening, no promotion.'

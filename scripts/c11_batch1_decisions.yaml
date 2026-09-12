@@ -28,6 +28,19 @@
 # HOLD session 41), HELD-01..13, and the 4CH1-4.15 negative control. No batch-1
 # node attaches to 4.15; no batch-1 edge re-uses a pilot identity.
 
+#
+# OPERATOR DECISIONS (session 48, applied session 48, 2026-09-12): the
+# operator's batch-1 verdicts live in scripts/c11_batch1_verdicts.yaml
+# (operator-owned; ruling verbatim "CONFIRM all"): 28 edge CONFIRM /
+# 0 HOLD / 0 REJECT; 24 node CONFIRM; 4 identity decisions KEEP_AS_IS;
+# RR settlement HOLD_REVIEW_REQUIRED; held appendix acknowledged. Session
+# 48 applied them: the 28 confirmed edges flow through the §18 pathway
+# (scripts/c11_promotions.yaml — the ONLY HUMAN_VALIDATED source; never
+# this record); the RR settlement and the B1-N-08/B1-N-11 enrichment
+# scoping are recorded below as operator_decision blocks. Node CONFIRMs
+# are review state only (no §18 node pathway). These blocks are never
+# emitted into graph/*.yaml and can never carry HUMAN_VALIDATED.
+
 meta:
   task: T-C11
   stage: s16-batch-1
@@ -248,6 +261,14 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+  operator_decision:
+    verdict: CONFIRM
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_batch1_verdicts.yaml (session 48, row B1-N-08)'
+    reasons:
+    - 'CONFIRM as an enrichment concept: the corpus substantively teaches the boiling-vs-evaporation distinction, while the 1.2 wording names the interconversions without demanding it.'
+    note: 'Operator enrichment scoping (session 48, 2026-09-12, ruling "CONFIRM all"): the node keeps its ENRICHMENT role @ 4CH1-1.2 (the pilot N-27 pattern). Do NOT convert this enrichment note into a stronger syllabus-authority claim. Node confirmation is review state only (nodes have no §18 promotion pathway) and this block is never emitted into graph/*.yaml. Applied session 48 via the sanctioned §7 re-authoring pathway.'
 - code: 4CH1-CON-DIFFUSION
   family: CONCEPT
   title: Diffusion in gases and liquids
@@ -455,6 +476,14 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+  operator_decision:
+    verdict: CONFIRM
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_batch1_verdicts.yaml (session 48, row B1-N-11)'
+    reasons:
+    - 'CONFIRM as an enrichment concept: a named technique taught as a method step + examiner tip, not demanded by the 1.7C wording.'
+    note: 'Operator enrichment scoping (session 48, 2026-09-12, ruling "CONFIRM all"): the node keeps its ENRICHMENT role @ 4CH1-1.7C (the pilot N-08 leaf pattern; no authored edges). Do NOT convert this enrichment note into a stronger syllabus-authority claim. Node confirmation is review state only (nodes have no §18 promotion pathway) and this block is never emitted into graph/*.yaml. Applied session 48 via the sanctioned §7 re-authoring pathway.'
 - code: 4CH1-CON-ELEMENT
   family: CONCEPT
   title: Element
@@ -1230,6 +1259,15 @@ edges:
   ambiguity_note: 'Transitively subsumed via CRYSTALLISATION -> SATURATED-SOLUTION -> SOLUTION; the load-bearing prerequisite (saturation) is already emitted — this vocabulary-level edge adds density without new reviewable information unless the operator wants an explicit solution link for every 1.10 technique.'
   version: 1
   created_at: '2026-09-12'
+  operator_decision:
+    verdict: HOLD_REVIEW_REQUIRED
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_batch1_verdicts.yaml (session 48, row B1-RR-01)'
+    reasons:
+    - 'Subsumption: the dependency is transitively covered via CRYSTALLISATION -> SATURATED-SOLUTION -> SOLUTION; the load-bearing prerequisite (saturation) is already emitted.'
+    - 'Pass-1 self-quarantined the edge to REVIEW_REQUIRED at authoring; pass-2 concordantly HOLD.'
+    note: 'Operator RR settlement (session 48, 2026-09-12, ruling "CONFIRM all"): the authored quarantine is confirmed — HOLD_REVIEW_REQUIRED. The edge stays REVIEW_REQUIRED in the graph and is NOT eligible for promotion. Applied session 48 via the sanctioned §7 re-authoring pathway.'
 - source: 4CH1-CON-CRYSTALLISATION
   relation: EXPLAINED_BY
   target: 4CH1-CON-SOLUBILITY

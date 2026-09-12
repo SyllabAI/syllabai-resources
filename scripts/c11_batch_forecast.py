@@ -194,7 +194,10 @@ fp_categories = [
 out = {
     "task": "T-C11",
     "instrument": "batch-forecast",
-    "session": 47,
+    # session-48 (2026-09-12): instrument advanced — batch-1 operator gate
+    # SETTLED (verdicts recorded + applied); baselines stay pinned to the
+    # session-46 authorization state they anchor.
+    "session": 48,
     "generated": "2026-09-12",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -238,11 +241,19 @@ out = {
         # c11-s16-batch-1, commissioned by the operator's 'run batch 1');
         # its content is SUGGESTED/REVIEW_REQUIRED pending the per-batch
         # operator gate — no batch-1 promotion yet; 13 batches remain.
+        # Session-48 (2026-09-12): batch 1 SETTLED — the operator ruled
+        # 'CONFIRM all' on the review sheet; verdicts recorded
+        # (scripts/c11_batch1_verdicts.yaml) and applied (28 edge CONFIRM
+        # promoted via §18; RR quarantine settled HOLD_REVIEW_REQUIRED;
+        # 4 identity decisions KEEP_AS_IS).
         "status": ("§16 AUTHORIZED 2026-09-12 (session 46, operator — "
                    "scripts/c11_s16_authorization.yaml); batch 1 AUTHORED "
                    "2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored "
-                   "edges / 12 held / 1 RR quarantine), awaiting its operator "
-                   "review gate before any promotion; batches 2-14 not "
+                   "edges / 12 held / 1 RR quarantine), SETTLED 2026-09-12 "
+                   "(session 48: operator ruling 'CONFIRM all' — 28 edge "
+                   "CONFIRM promoted via §18, store total 56; RR settled "
+                   "HOLD_REVIEW_REQUIRED; verdict record "
+                   "scripts/c11_batch1_verdicts.yaml); batches 2-14 not "
                    "started"),
         "scope_sp": 170,
         "batches": s16_batches,
@@ -275,7 +286,9 @@ out = {
             "rates": {
                 "held_rate": 0.2927,
                 "rejection_rate": 0.0,
-                "promotion_rate": 0.0,
+                # session-48: 28 of the 29 authored edges promoted via §18
+                # (the 29th is the RR quarantine, settled HOLD_REVIEW_REQUIRED)
+                "promotion_rate": 0.9655,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -287,7 +300,7 @@ out = {
                 "FP-4 (quarantine discipline applied at authoring: "
                 "CRYSTALLISATION->SOLUTION RR, subsumption class)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 28, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: the slice is terminology/technique-"
                            "heavy rather than calculation-heavy — fewer "
@@ -304,7 +317,14 @@ out = {
                            "scripts/c11_batch1_verdicts_template.yaml). "
                            "Mark-scheme mining: 2 of 4 slice-relevant "
                            "Unit-1-P1 MS files pinned (SOM, ECM2); ECM1/ECM3 "
-                           "+ Paper-2 remain for later passes (FN-B1-1)."),
+                           "+ Paper-2 remain for later passes (FN-B1-1). "
+                           "Session-48 (2026-09-12): gate SETTLED — operator "
+                           "ruling 'CONFIRM all' recorded in "
+                           "scripts/c11_batch1_verdicts.yaml (28 edge "
+                           "CONFIRM / 24 node CONFIRM / 4 KEEP_AS_IS / RR "
+                           "HOLD_REVIEW_REQUIRED / held acknowledged) and "
+                           "applied through §18 (28 promotions, operator; "
+                           "the RR quarantine stays un-promoted)."),
         },
     ],
     "future_batch_record_schema": {

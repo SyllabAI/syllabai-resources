@@ -187,13 +187,25 @@ check("B3 no PART_OF row on the verdict surface (derived edges carry no verdicts
 # operator-unset quarantine awaiting the batch-1 review gate
 BATCH1_RR_TRIPLE = ("4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE "
                     "4CH1-CON-SOLUTION")
+# session-48 (2026-09-12): the batch-1 RR quarantine was settled by the
+# operator (HOLD_REVIEW_REQUIRED, scripts/c11_batch1_verdicts.yaml row
+# B1-RR-01) — it stays REVIEW_REQUIRED in the graph, so the check below is
+# unchanged; only the session-47 comment's "operator-unset" phrasing is
+# superseded (the settlement is recorded in the batch-1 decision record's
+# operator_decision block).
 check("B4 RR edge excluded from the surface and still exactly the operator-HOLD edge (batch-1 quarantine RR separate)",
       RR_TRIPLE not in tmpl_triples
       and RR_TRIPLE in {triple(e) for e in rr}
       and sorted(triple(e) for e in rr)
       == sorted([RR_TRIPLE, BATCH1_RR_TRIPLE]))
-check("B5 28 HUMAN_VALIDATED in the store = exactly the 28 CONFIRM verdicts (session-45 §18 application)",
-      len(hv) == 28 and {triple(e) for e in hv} == confirms)
+# session-48: B5 re-anchored to the PILOT SLICE — the store now also carries
+# the 28 batch-1 §18 promotions (session-48 application, ruling "CONFIRM
+# all"; validated by c11_batch1_verdict_check.py C1-C4). The pilot invariant
+# is that its 28 CONFIRM identities remain EXACTLY the pilot-slice
+# HUMAN_VALIDATED set (permanence; nothing else in the pilot slice moved).
+pilot_hv_all = [t for t in (triple(e) for e in hv) if t in pilot_triples]
+check("B5 the 28 pilot CONFIRM verdicts remain exactly the pilot-slice HUMAN_VALIDATED set (session-45 §18 application; session-48 re-anchor)",
+      len(pilot_hv_all) == 28 and set(pilot_hv_all) == confirms)
 
 node_codes = [n["code"] for n in nodes_doc["nodes"]]
 # session-47: the store's node set = pilot 29 + batch-1 24; the verdict
@@ -266,16 +278,25 @@ check("C11 held appendix acknowledged",
 # D. application invariants (session 45: the 28 CONFIRM edges were promoted
 #    through the §18 pathway; everything else must have stayed out)
 promo_entries = promo.get("promotions") or []
-check("D1 promotion store = exactly the 28 CONFIRM entries (operator, 2026-09-12, ratified artifact on disk)",
-      len(promo_entries) == 28
+# session-48: D1 re-anchored to the PILOT SLICE of the store — the store now
+# also carries the 28 batch-1 §18 promotions (validated by
+# c11_batch1_verdict_check.py C1-C4). The pilot invariant: the 28 pilot
+# CONFIRM entries remain present with operator attribution and the ratified
+# artifact on disk; nothing outside the pilot decision set is attributed to
+# the pilot round.
+pilot_store = [p for p in promo_entries
+               if f"{p['edge']['source']} {p['edge']['relation']} "
+               f"{p['edge']['target']}" in pilot_triples]
+check("D1 promotion store = the 28 pilot CONFIRM entries, operator-attributed, ratified artifact on disk (session-48 re-anchor; batch-1 slice separate)",
+      len(pilot_store) == 28
       and {f"{p['edge']['source']} {p['edge']['relation']} {p['edge']['target']}"
-           for p in promo_entries} == confirms
+           for p in pilot_store} == confirms
       and all(p.get("validated_by") == "operator"
               and p.get("validated_date") == "2026-09-12"
               and bool(p.get("review_reference"))
               and (REPO / str(p["review_reference"]).split()[0]).exists()
-              for p in promo_entries),
-      f"entries={len(promo_entries)}")
+              for p in pilot_store),
+      f"pilot entries={len(pilot_store)}, store total={len(promo_entries)}")
 rr_dec = next(e for e in dec["edges"] if triple(e) == RR_TRIPLE)
 check("D2 RR edge keeps its standing operator HOLD in the decision record",
       rr_dec.get("operator_decision", {}).get("verdict") == "HOLD")

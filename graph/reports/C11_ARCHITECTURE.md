@@ -607,14 +607,31 @@ authored under this section's sanctioned pathway — extraction_pass
 (the §8 mechanism: expansion passes add nodes via new decision records with
 their own extraction_pass id), gated generation through the registry-aware
 `c11_concept_pilot.py`, pass-2 adversarial review, and the batch review
-sheet `graph/reports/C11_BATCH1_REVIEW_SHEET.md`. The merged store stands at
+sheet `graph/reports/C11_BATCH1_REVIEW_SHEET.md`. The merged store stood at
 53 nodes / 118 edges (28 operator promotions + frozen pilot dispositions
-intact; 4.15 uncovered). NOTHING from batch 1 is promoted: its edges are
-SUGGESTED (plus one subsumption-class REVIEW_REQUIRED quarantine) pending
-the per-batch operator gate and the §18 pathway. The restrictions above
-remain in force for everything not covered by a batch's sanctioned
-pathway — including DB writes and hand-edited graphs, which no batch
-pathway sanctions.)*
+intact; 4.15 uncovered). NOTHING from batch 1 was promoted at that point:
+its edges were SUGGESTED (plus one subsumption-class REVIEW_REQUIRED
+quarantine) pending the per-batch operator gate and the §18 pathway. The
+restrictions above remain in force for everything not covered by a batch's
+sanctioned pathway — including DB writes and hand-edited graphs, which no
+batch pathway sanctions.)*
+
+*(Session-48, 2026-09-12: the batch-1 operator gate is SETTLED — the
+operator's ruling "CONFIRM all", recorded verbatim in the operator-owned
+`scripts/c11_batch1_verdicts.yaml` (28 edge CONFIRM / 24 node CONFIRM /
+4 identity decisions KEEP_AS_IS / RR settlement HOLD_REVIEW_REQUIRED /
+held appendix acknowledged). Application followed the session-44/45 shape
+exactly: §7 re-authoring (the RR settlement + the two enrichment-scoping
+operator_decision blocks in the batch-1 decision record) then §18
+(`c11_diff_review.py approve --all` over the bundle
+`graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md` → one
+`scripts/c11_promote.py` invocation → gated G13 re-run). The store now
+carries 56 HUMAN_VALIDATED edges (28 pilot + 28 batch-1, all
+operator-attributed; batch-1 nodes remain SUGGESTED — no node §18
+pathway). The standing checker `scripts/c11_batch1_verdict_check.py`
+validates the verdict layer and the three-way set equality. The
+restrictions remain in force for everything outside a batch's sanctioned
+pathway: no DB writes, no unratified promotion, no hand-edited graph.)*
 
 ---
 

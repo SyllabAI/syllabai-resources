@@ -11,6 +11,34 @@ meta:
     edges received REJECT / HOLD verdicts and the 31 SUGGESTED edges await operator confirmation.'
 promotions:
 - edge:
+    source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CHROMATOGRAPHY
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-PURE-SUBSTANCE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-CHROMATOGRAPHY
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SOLUBILITY
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-COMPOUND
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELEMENT
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
     source: 4CH1-CON-CONC-CALC
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-MOLE
@@ -24,6 +52,34 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-CRYSTALLISATION
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-SOLUBILITY
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-CRYSTALLISATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SATURATED-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-DIFFUSION
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-STATE-PARTICLE-MODEL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-DILUTION
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-STATE-PARTICLE-MODEL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
     source: 4CH1-CON-EMP-MOL-CALC
     relation: REQUIRES_PREREQUISITE
@@ -53,12 +109,33 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-EVAPORATION-BOILING
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-STATE-CHANGES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
     source: 4CH1-CON-EXP-FORMULA-DEDUCTION
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-MOLE
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-FILTRATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-FRACTIONAL-DISTILLATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SIMPLE-DISTILLATION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
     source: 4CH1-CON-GAS-VOL-CALC
     relation: REQUIRES_PREREQUISITE
@@ -73,6 +150,13 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MIXTURE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COMPOUND
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
     source: 4CH1-CON-MOLAR-GAS-VOL
     relation: REQUIRES_PREREQUISITE
@@ -144,6 +228,20 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-PURE-SUBSTANCE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COMPOUND
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-PURE-SUBSTANCE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-STATE-CHANGES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
     source: 4CH1-CON-REACTING-MASS
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-MOLAR-RATIO
@@ -157,6 +255,62 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-RF-VALUE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-SATURATED-SOLUTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-SIMPLE-DISTILLATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-SIMPLE-DISTILLATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-STATE-CHANGES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-SOLUBILITY
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SATURATED-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-SOLUBILITY-CURVE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SOLUBILITY
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-STATE-CHANGES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-STATE-PARTICLE-MODEL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-STATE-PARTICLE-MODEL
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-STATES-THREE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
     source: 4CH1-CON-THEOR-YIELD
     relation: REQUIRES_PREREQUISITE
@@ -193,12 +347,54 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-SATURATED-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-CRYSTALLISATION-DRYNESS
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-CRYSTALLISATION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
     source: 4CH1-MIS-EQ-SUBSCRIPT
     relation: MISCONCEPTION_OF
     target: 4CH1-CON-EQ-SYMBOL
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-GAS-PARTICLES-TOUCH
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-STATE-PARTICLE-MODEL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-GAS-PARTICLES-TOUCH
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-STATE-PARTICLE-MODEL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-PR-01
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SATURATED-SOLUTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-PR-01
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SOLUBILITY
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
     source: 4CH1-PR-03
     relation: REQUIRES_PREREQUISITE
