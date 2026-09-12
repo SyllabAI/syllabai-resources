@@ -782,20 +782,26 @@ C11_PILOT_SPS = ["4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28",
 C11_BATCH1_SPS = ["4CH1-1.1", "4CH1-1.2", "4CH1-1.3", "4CH1-1.4", "4CH1-1.5C",
                    "4CH1-1.6C", "4CH1-1.7C", "4CH1-1.8", "4CH1-1.9",
                    "4CH1-1.10", "4CH1-1.11", "4CH1-1.12"]
-C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS
-C11_STAGE = "pilot+s16-batch-1"
+# session-49: batch-2 slice (paper-chromatography practical + atomic
+# structure + the Periodic Table)
+C11_BATCH2_SPS = ["4CH1-1.13", "4CH1-1.14", "4CH1-1.15", "4CH1-1.16",
+                   "4CH1-1.17", "4CH1-1.18", "4CH1-1.19", "4CH1-1.20",
+                   "4CH1-1.21", "4CH1-1.22", "4CH1-1.23", "4CH1-1.24"]
+C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS
+C11_STAGE = "pilot+s16-batch-1+s16-batch-2"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-# State after the session-48 batch-1 verdict application: 53 nodes (29 pilot
-# + 24 batch-1), 118 edges (57 PART_OF + 61 semantic), 56 HUMAN_VALIDATED
-# (28 pilot session-45 + 28 batch-1 session-48 — operator §18 promotions
-# over operator-confirmed verdicts; batch-1 nodes stay SUGGESTED: nodes
-# have no §18 pathway), 2 REVIEW_REQUIRED (the frozen pilot RR operator-
-# HOLD edge + the settled batch-1 RR quarantine HOLD_REVIEW_REQUIRED).
-C11_COUNTS = {"nodes": 53, "concepts": 49, "misconceptions": 4, "edges": 118,
-              "part_of": 57, "requires_prerequisite": 47, "explained_by": 6,
-              "related_to": 0, "commonly_confused_with": 0,
-              "misconception_of": 1, "wrong_answer_pattern": 3,
-              "remediated_by": 4, "review_required": 2, "command_kinds": 24}
+# State after the session-49 batch-2 authoring: 67 nodes (29 pilot + 24
+# batch-1 + 14 batch-2), 156 edges (72 PART_OF + 84 semantic), 56 HUMAN_VALIDATED
+# (28 pilot session-45 + 28 batch-1 session-48 — operator §18 promotions;
+# batch-2 edges are SUGGESTED pending the per-batch operator gate; batch-2
+# nodes stay SUGGESTED: nodes have no §18 pathway), 2 REVIEW_REQUIRED (the
+# frozen pilot RR operator-HOLD edge + the settled batch-1 RR quarantine
+# HOLD_REVIEW_REQUIRED; batch 2 authored no new RR).
+C11_COUNTS = {"nodes": 67, "concepts": 61, "misconceptions": 6, "edges": 156,
+              "part_of": 72, "requires_prerequisite": 63, "explained_by": 8,
+              "related_to": 0, "commonly_confused_with": 1,
+              "misconception_of": 1, "wrong_answer_pattern": 5,
+              "remediated_by": 6, "review_required": 2, "command_kinds": 36}
 # Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
 # `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
 # the decision record (preserved as rejected candidate HELD-13; architecture
@@ -815,7 +821,8 @@ C11_PROMOTIONS_FILE = REPO / "scripts" / "c11_promotions.yaml"
 # Session-47: the decision-record REGISTRY (pilot + each authorized §16 batch
 # record). The generator's registry and this list must stay in lockstep.
 C11_DECISIONS_FILES = [REPO / "scripts" / "c11_pilot_decisions.yaml",
-                       REPO / "scripts" / "c11_batch1_decisions.yaml"]
+                       REPO / "scripts" / "c11_batch1_decisions.yaml",
+                       REPO / "scripts" / "c11_batch2_decisions.yaml"]
 C11_DECISIONS_FILE = C11_DECISIONS_FILES[0]
 _C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                              r"|llm|agent|model|bot", re.I)
@@ -1516,14 +1523,15 @@ def main():
           f"{len(topic_codes)} topics, {len(sub_codes)} subtopics, "
           f"{COUNTS['edges']} edges, {COUNTS['command_words']} command words, "
           f"{COUNTS['practicals']} practicals, {COUNTS['papers']} papers; "
-          f"T-C11 store (pilot + §16 batch 1): {C11_COUNTS['nodes']} concept "
+          f"T-C11 store (pilot + §16 batches 1-2): {C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
           f"({C11_COUNTS['part_of']} PART_OF + "
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
-          f"generation; batch-1 verdicts applied session 48 — batch-1 "
-          f"nodes stay SUGGESTED, no node §18 pathway), negative control "
+          f"generation; batch-1 verdicts applied session 48; batch-2 edges "
+          f"SUGGESTED pending the per-batch operator gate — nodes have no "
+          f"§18 pathway), negative control "
           f"{C11_NEGATIVE_CONTROL} "
           f"uncovered.")
 

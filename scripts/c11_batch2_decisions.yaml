@@ -1,0 +1,1148 @@
+# T-C11 §16 expansion — BATCH 2 decision record — the AI candidate graph for
+# the 4CH1-1.13–1.24 slice (paper-chromatography practical PR-02, atomic
+# structure, the Periodic Table).
+# Authored 2026-09-12 by GLM (Super Z agent, z.ai), extraction_pass
+# c11-s16-batch-2, commissioned by the operator's "run batch 2" under the
+# session-46 §16 authorization (scripts/c11_s16_authorization.yaml; the
+# item-14 batching shape — phase 1, second 12 S1-remainder SPs).
+# This file is the batch-2 input to the SAME gated generation contract as the
+# pilot (graph/reports/C11_ARCHITECTURE.md §10): scripts/c11_concept_pilot.py
+# reads the decision-record registry (pilot, batch 1, then this record) and
+# emits graph/concepts.yaml, graph/concept_edges.yaml and
+# graph/spec_command_kinds.yaml deterministically (fail-closed). NOTHING in
+# this record is authoritative: every record is AI_SUGGESTED with
+# validation_status SUGGESTED. HUMAN_VALIDATED is unreachable from generation
+# (anti-forgery gate). Batch-2 content becomes promotable ONLY through the
+# §18 pathway AFTER the operator records per-row verdicts on this batch's
+# review sheet (per-batch operator gate) — this record ends at that gate; it
+# authorizes nothing.
+#
+# Evidence quotes are whitespace-normalized substrings of the cited file under
+# the T-C10 norm() convention (NFC; strip markdown emphasis/HTML tags/links;
+# collapse whitespace) — verified byte-verbatim by the generator (G03) and by
+# graph_check (c11.4). Anchor kinds: NOTE (T-C10-mapped revision note), SPEC
+# (specification_points.yaml official wording), MARK_SCHEME (pinned PMT
+# extraction — misconception-class evidence only, per G07/G11).
+#
+# Cross-batch boundary discipline (FN-B1-2, sanctioned): boundary EDGES to
+# nodes minted by earlier records are allowed (no boundary minting of
+# duplicate concepts): this record's edges target the pilot's CON-AR
+# (relative atomic mass — 1.26/1.28 owner), batch 1's CON-ELEMENT,
+# CON-CHROMATOGRAPHY and CON-RF-VALUE, and the practical PR-02. The Ar TERM
+# is NOT re-minted here (the 1.16/1.17 definitional and isotopic-abundance
+# demands attach to CON-ISOTOPES and the boundary edge CON-AR ->
+# CON-ISOTOPES; an operator identity decision on the sheet may re-scope
+# later). 1.13 attaches no batch-2 concept node — its concept content is the
+# batch-1 chromatography triplet reached via the sanctioned PR-02 boundary
+# edges (the practical method itself is procedure, not concept).
+#
+# The frozen pilot and batch-1 dispositions are untouched by this record:
+# E-08/E-26/E-29 (operator HOLD edges), both RR edges (pilot operator HOLD +
+# batch-1 operator-settled HOLD_REVIEW_REQUIRED), HELD-01..13,
+# B1-H-01..12, the 56 operator promotions, and the 4CH1-4.15 negative
+# control. No batch-2 node attaches to 4.15; no batch-2 edge re-uses an
+# earlier-record identity.
+
+meta:
+  task: T-C11
+  stage: s16-batch-2
+  extraction_pass: c11-s16-batch-2
+  generated_date: '2026-09-12'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  scope:
+    spec_points:
+    - 4CH1-1.13
+    - 4CH1-1.14
+    - 4CH1-1.15
+    - 4CH1-1.16
+    - 4CH1-1.17
+    - 4CH1-1.18
+    - 4CH1-1.19
+    - 4CH1-1.20
+    - 4CH1-1.21
+    - 4CH1-1.22
+    - 4CH1-1.23
+    - 4CH1-1.24
+    practicals:
+    - 4CH1-PR-02
+    negative_control: 4CH1-4.15
+    notes:
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Paper chromatography - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Relative atomic mass - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md"
+    - "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    mark_scheme_evidence:
+    - file: scripts/c11_evidence/ATOM1_MS_P1.txt
+      sha1_12: 9b943e58cce1
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 1/Mark Schemes/Paper 1/Atomic Structure 1 MS.pdf"
+    - file: scripts/c11_evidence/ATOM2_MS_P1.txt
+      sha1_12: 6c60d4721ea0
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 1/Mark Schemes/Paper 1/Atomic Structure 2 MS.pdf"
+    - file: scripts/c11_evidence/ATOM3_MS_P1.txt
+      sha1_12: 59a666306b02
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 1/Mark Schemes/Paper 1/Atomic Structure 3 MS.pdf"
+    - file: scripts/c11_evidence/PT_MS_P1.txt
+      sha1_12: fd6352a38077
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 1/Mark Schemes/Paper 1/The Periodic Table MS.pdf"
+    - file: scripts/c11_evidence/ECM1_MS_P1.txt
+      sha1_12: bb33cf992b1c
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 1/Mark Schemes/Paper 1/Elements, Compounds, Mixtures 1 MS.pdf"
+    - file: scripts/c11_evidence/ECM3_MS_P1.txt
+      sha1_12: 4ef3bd02ce8f
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 1/Mark Schemes/Paper 1/Elements, Compounds, Mixtures 3 MS.pdf"
+  contract: graph/reports/C11_ARCHITECTURE.md
+  authorization: scripts/c11_s16_authorization.yaml
+
+# ---------------------------------------------------------------------------
+# Command-kind tags (frozen guide §8) — batch-2 slice only (registry of record:
+# graph/spec_command_kinds.yaml, merged with the earlier tags by the generator).
+command_kinds:
+- code: 4CH1-1.13
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the paper-chromatography practical using inks/food colourings (pencil baseline, small spots, solvent below the start line, distances and Rf values, comparison with known colourings)
+- code: 4CH1-1.14
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: definitions of the terms atom and molecule
+- code: 4CH1-1.15
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the structure of an atom in terms of the positions, relative masses and relative charges of protons, neutrons and electrons
+- code: 4CH1-1.16
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: definitions of the terms atomic number, mass number, isotopes and relative atomic mass
+- code: 4CH1-1.17
+  verb: be
+  guide_class: CALCULATE
+  demanded_substance: calculation of the relative atomic mass of an element from isotopic abundances (percentage-weighted average of isotopic mass numbers)
+- code: 4CH1-1.18
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how elements are arranged in the Periodic Table (in order of increasing atomic number, in groups and periods)
+- code: 4CH1-1.19
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: deducing the electronic configurations of the first 20 elements (shell filling 2, 8, 8 then the fourth shell) from their Periodic Table positions
+- code: 4CH1-1.20
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: using electrical conductivity and the acid-base character of oxides to classify elements as metals or non-metals
+- code: 4CH1-1.21
+  verb: identify
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: identifying an element as a metal or a non-metal according to its position in the Periodic Table (metals left, non-metals right of the zig-zag dividing line)
+- code: 4CH1-1.22
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: relating the electronic configuration of a main group element to its Periodic Table position (period = occupied shells, group = outer electrons)
+- code: 4CH1-1.23
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why elements in the same group of the Periodic Table have similar chemical properties (same number of outer electrons)
+- code: 4CH1-1.24
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why the noble gases (Group 0) do not readily react (full outer shells of electrons)
+
+# ---------------------------------------------------------------------------
+# Nodes — CONCEPT family (split-first identity policy, §8; OD-1 operand rule
+# applied; the Ar term is NOT re-minted — see the boundary note above).
+nodes:
+- code: 4CH1-CON-ATOM
+  family: CONCEPT
+  title: Atom (definition and subatomic composition)
+  aliases: [atom, atoms]
+  spec_points:
+  - code: 4CH1-1.14
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The smallest particle of an element that contains electrons surrounding a nucleus that contains protons and neutrons"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "All substances are made of tiny particles of matter called atoms which are the building blocks of all matter"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the terms atom and molecule"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.14 term demand: the atom row of the Atoms and molecules definitions table, plus the atomic-structure bullet that all matter is made of atoms.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.14 @ Atoms: Definitions & Structure (2026-09-11); spec 4CH1-1.14 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-MOLECULE
+  family: CONCEPT
+  title: Molecule
+  aliases: [molecule, molecules]
+  spec_points:
+  - code: 4CH1-1.14
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "A group of two or more atoms chemically combined to form an identifiable unit which retains the properties and composition of the substance"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the terms atom and molecule"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.14 term demand: the molecule row of the definitions table (atoms chemically combined into an identifiable unit).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.14 @ Atoms: Definitions & Structure (2026-09-11); spec 4CH1-1.14 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-SUBATOMIC-PARTICLES
+  family: CONCEPT
+  title: Subatomic particles (proton, neutron, electron — positions, relative masses, relative charges)
+  aliases: [subatomic particle, protons, neutrons, electrons]
+  spec_points:
+  - code: 4CH1-1.15
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Each atom is made of subatomic particles called protons, neutrons, and electrons"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The protons and neutrons are located at the centre of the atom, which is called the nucleus"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Protons and neutrons have a very similar mass, so each is assigned a relative mass of 1"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Electrons are 2000 times smaller than a proton and neutron, and so their mass is often described as being negligible"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "positions, relative masses and relative charges of sub-atomic particles"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.15 demand: the three named particles, their nucleus/shells positions and the relative mass/charge table (proton 1/+1, neutron 1/0, electron negligible/-1) as one terminology unit, mirroring the batch-1 solution-triple granularity.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.15 @ Atoms: Definitions & Structure (2026-09-11); spec 4CH1-1.15 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-ATOMIC-NUMBER
+  family: CONCEPT
+  title: Atomic number
+  aliases: [atomic number, proton number]
+  spec_points:
+  - code: 4CH1-1.16
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The number of protons in the nucleus of an atom"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The atomic number is equal to the number of protons in an atom"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "atomic number, mass number, isotopes"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.16 term demand: the atomic-number row of the terms table plus the worked protons/electrons equality (atoms neutral).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11); spec 4CH1-1.16 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-MASS-NUMBER
+  family: CONCEPT
+  title: Mass number
+  aliases: [mass number]
+  spec_points:
+  - code: 4CH1-1.16
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The number of protons and neutrons in the nucleus of an atom"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The mass number of lithium is 7, so it has 7 - 3 = 4 neutrons"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Think MASS = MASSIVE, as the mass number is always the bigger of the two numbers"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "atomic number, mass number, isotopes"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.16 term demand: the mass-number row of the terms table, the lithium neutron calculation and the examiner mnemonic for distinguishing the two Periodic-Table numbers.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11); spec 4CH1-1.16 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-ISOTOPES
+  family: CONCEPT
+  title: Isotopes and relative atomic mass from isotopic abundances
+  aliases: [isotope, isotopes]
+  spec_points:
+  - code: 4CH1-1.16
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Atoms of the same element which have the same number of protons but a different number of neutrons"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "atomic number, mass number, isotopes"
+  - code: 4CH1-1.17
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Relative atomic mass - IGCSE Chemistry Revision Notes.md"
+      quote: "The relative atomic mass of each element is calculated from the mass number and relative abundances of all the isotopes of a particular element"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Relative atomic mass - IGCSE Chemistry Revision Notes.md"
+      quote: "Isotopes are easy to recognise from their notation as they have the same symbol but different mass numbers"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "relative atomic mass of an element"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.16 isotope term + 1.17 isotopic-abundance calculation: the isotope definition row and the dedicated RAM note (weighted average over isotopic mass numbers, rubidium worked example, isotope notation). The Ar TERM itself is owned by the pilot CON-AR node (1.26/1.28, boundary discipline — no duplicate mint); this node carries the 1.16/1.17 isotope-side demands and the boundary edge CON-AR -> CON-ISOTOPES records the dependency. An operator identity decision on the review sheet may re-scope.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16/1.17 @ Atoms: Definitions & Structure + Relative atomic mass (2026-09-11); spec 4CH1-1.16/1.17 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-PERIODIC-TABLE
+  family: CONCEPT
+  title: Periodic Table arrangement (atomic-number order, groups and periods)
+  aliases: [Periodic Table, group, period]
+  spec_points:
+  - code: 4CH1-1.18
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Elements are arranged on the Periodic table in order of increasing atomic number"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The table is arranged in vertical columns called groups and in rows called periods"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Period: These are the horizontal rows that show the number of shells of electrons an atom has and are numbered from 1 - 7"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Group: These are the vertical columns that show how many outer electrons each atom has and are numbered from 1 - 7, with a final group called Group 0 (instead of group 8)"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "in order of atomic number"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.18 demand: atomic-number ordering, groups (vertical, outer electrons) and periods (horizontal, shells) as one arrangement concept — the group/period definitions stay inside the node (the batch-1 pure-substance one-block granularity precedent; a split is an operator identity decision).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.18 @ Periodic Table: Basics (2026-09-11); spec 4CH1-1.18 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  family: CONCEPT
+  title: Electronic configuration of the first 20 elements (shells 2, 8, 8; configuration and Periodic Table position)
+  aliases: [electronic configuration, electronic structure, electron shells]
+  spec_points:
+  - code: 4CH1-1.19
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "For the first 20 elements, once the third shell has 8 electrons, the fourth shell begins to fill"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "You should be able to write the electron configuration for the first twenty elements"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the electronic configurations of the first 20 elements"
+  - code: 4CH1-1.22
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "There is a clear relationship between the electronic configuration and how the Periodic Table is designed"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The last notation shows the number of outer electrons the atom has"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The group number of an element which is given on the Periodic Table indicates the number of electrons in the outer shell"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "related to its position in the Periodic Table"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.19 + 1.22 (the bidirectional position-configuration relationship): shell-filling rules, the first-20 configurations table, the notations->period and last-notation->group rules, and the chlorine worked example.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.19/1.22 @ Electronic Configurations + Electronic Configuration & Reactivity (2026-09-11); spec 4CH1-1.19/1.22 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-METAL-NONMETAL
+  family: CONCEPT
+  title: Classifying elements as metals or non-metals (by properties and by Periodic Table position)
+  aliases: [metal, non-metal, metals and non-metals]
+  spec_points:
+  - code: 4CH1-1.20
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md"
+      quote: "We can use properties such as electrical conductivity and acid-base character to classify elements as metals or non-metals"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "electrical conductivity and the acid-base character of oxides"
+  - code: 4CH1-1.21
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md"
+      quote: "Metals are on the left of the Periodic Table and non-metals on the right"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md"
+      quote: "A zig-zag line between the blue and purple elements separates the metals on the left, from the non-metals on the right"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "according to its position in the Periodic Table"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.20 property-based classification (conductivity, oxide acid-base character, full properties table) + 1.21 position-based identification (left/right rule, zig-zag line) as one classification concept — the same note teaches both demands as one block.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.20/1.21 @ Metals & non-metals in the Periodic Table (2026-09-11); spec 4CH1-1.20/1.21 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-METALLOID
+  family: CONCEPT
+  title: Semi-metals (metalloids) — elements bordering the metal/non-metal divide
+  aliases: [semi-metal, metalloid]
+  spec_points:
+  - code: 4CH1-1.21
+    role: ENRICHMENT
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md"
+      quote: "Elements which border the line are hard to classify as they have characteristics of both sides, so the term semi-metal or metalloid is used"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: 'ENRICHMENT role (mirrors the pilot N-08/N-27 and batch-1 B1-N-08/B1-N-11 patterns): the 1.21 wording demands a binary metal/non-metal identification, but the mapped note names and teaches the boundary class (semi-metal/metalloid) as an examiner tip. Leaf node, no authored edges. Operator scoping decision: keep as enrichment vs drop.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.21 @ Metals & non-metals in the Periodic Table (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-GROUP-SIMILARITY
+  family: CONCEPT
+  title: Why elements in the same group have similar chemical properties
+  aliases: [same group, similar chemical properties]
+  spec_points:
+  - code: 4CH1-1.23
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Elements in the same group in the Periodic Table will have similar chemical properties"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "This is because they have the same number of outer electrons so will react and bond similarly"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "same group of the Periodic Table have similar chemical properties"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.23 demand: the same-outer-electrons explanation of group similarity, incl. the group-number rule and the group-reactivity prediction examples (Group 1 with Group 7).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.23 @ Electronic Configuration & Reactivity (2026-09-11); spec 4CH1-1.23 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-NOBLE-GAS-INERTNESS
+  family: CONCEPT
+  title: Why the noble gases (Group 0) do not readily react
+  aliases: [noble gases, Group 0, inert gases]
+  spec_points:
+  - code: 4CH1-1.24
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Group 0 elements do not do this because they have full outer shells of electrons"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "They are therefore unreactive (inert) and do not form molecules easily"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Most noble gases have 8 electrons in their outer shell, except helium which has 2"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the noble gases"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '1.24 demand: the full-outer-shell explanation of Group 0 inertness, incl. the monatomic/colourless descriptions and the helium 2-electron exception.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.24 @ Electronic Configuration & Reactivity (2026-09-11); spec 4CH1-1.24 official wording'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Believing isotopes of an element differ in their number of protons
+  aliases: [isotopes differ in protons]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ATOM2_MS_P1.txt
+    quote: "different number of protons"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ATOM3_MS_P1.txt
+    quote: "Ignore references to protons and neutrons unless incorrect, eg different numbers of protons, same number of neutrons"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Atoms of the same element which have the same number of protons but a different number of neutrons"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The atomic number is equal to the number of protons in an atom"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Mark-scheme evidence class: the pinned Atomic Structure 2 MS (Q1(b), layout-verified column assignment) REJECTS "different number of protons" as the explanation of isotope chemical identity, and Atomic Structure 3 MS (Q1(a)/Q7(a)) documents "different numbers of protons" as an incorrect answer class on the isotope table questions — a documented wrong-answer pattern, NOT an asserted belief (pattern_class WRONG_ANSWER_PATTERN, kept distinct from MISCONCEPTION_OF per the frozen triple distinction). Remediation = the isotope definition (same protons, different neutrons) and the proton/atomic-number identity.'
+    upstream: 'PMT Unit-1 Paper-1 MS "Atomic Structure 2" Q1(b) + "Atomic Structure 3" Q1(a) (pinned scripts/c11_evidence/ATOM2_MS_P1.txt sha1 6c60d4721ea0, ATOM3_MS_P1.txt sha1 59a666306b02); remediation from T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-MIS-RAM-MASS-NUMBER
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Calling the Periodic Table relative atomic mass the mass number
+  aliases: [mass number for relative atomic mass]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/PT_MS_P1.txt
+    quote: "Reject mass number"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The relative atomic mass of every element is given on the Periodic Table. It is the larger of the two numbers."
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The average mass of one atom of an element, taking into account the abundance of all the isotopes for the element. It is equal to 1/12th the mass of an atom of carbon-12."
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Mark-scheme evidence class: the pinned Periodic Table MS (Q1(b), layout-verified column assignment — "which number increases from 9 to 226 in Group 2?") expects "(relative) atomic mass" and REJECTS "mass number" — the documented wrong answer of naming the Periodic Table column value a mass number (it is the abundance-weighted average, not the mass number of any single atom). Remediation = the Ar-on-the-Periodic-Table rule (Calculate Relative Mass note, 1.26-mapped) plus the Ar definition (Atoms note, 1.16-mapped).'
+    upstream: 'PMT Unit-1 Paper-1 MS "The Periodic Table" Q1(b) (pinned scripts/c11_evidence/PT_MS_P1.txt sha1 fd6352a38077); remediation from T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass + 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-12'
+  damage_flags: []
+
+# ---------------------------------------------------------------------------
+# Edges — semantic relations (batch 2). PART_OF edges are NOT authored here
+# (derived from node attachments by the generator). Direction conventions as
+# the earlier records: REQUIRES_PREREQUISITE source=dependent, target=prerequisite;
+# EXPLAINED_BY source=explained, target=explainer; COMMONLY_CONFUSED_WITH is a
+# symmetric term-pair relation; WRONG_ANSWER_PATTERN / REMEDIATED_BY
+# source=misconception, target=concept. Cross-boundary edges into
+# earlier-record nodes are sanctioned (FN-B1-2): CON-AR (pilot), CON-ELEMENT,
+# CON-CHROMATOGRAPHY, CON-RF-VALUE (batch 1), and the practical PR-02.
+edges:
+- source: 4CH1-CON-AR
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ISOTOPES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Relative atomic mass - IGCSE Chemistry Revision Notes.md"
+    quote: "The relative atomic mass of each element is calculated from the mass number and relative abundances of all the isotopes of a particular element"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Cross-boundary edge (source = the pilot CON-AR node, sanctioned per FN-B1-2 — no duplicate Ar mint in this batch): the Mr-calculation context uses relative atomic masses whose ground is the isotope/abundance structure taught in the 1.16/1.17 notes; the Calculate-Relative-Mass context presupposes that ground without re-teaching it.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.17 @ Relative atomic mass (2026-09-11); source node owned by the pilot record (4CH1-1.26/1.28)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-PERIODIC-TABLE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ATOMIC-NUMBER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Elements are arranged on the Periodic table in order of increasing atomic number"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The arrangement is defined BY the atomic number (increasing order; each element has one proton more than the preceding one) — the atomic-number concept is the definitional operand of the arrangement.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.18 @ Periodic Table: Basics (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-PERIODIC-TABLE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELEMENT
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Periodic Table Basics  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "There are over 100 chemical elements which have been isolated and identified"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Cross-boundary edge (target = the batch-1 CON-ELEMENT node, sanctioned per FN-B1-2): the Periodic Table is a table of elements and the 1.18 note uses the element term throughout without re-teaching it (the 1.8 definitions are that term''s ground). This is the Periodic Table concept''s only element link — not subsumed by any emitted chain (the batch-1 HELD-02/12 vocabulary-level discipline notes this class).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.18 @ Periodic Table: Basics (2026-09-11); target node owned by the batch-1 record (4CH1-1.8)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-MOLECULE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ATOM
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "A group of two or more atoms chemically combined to form an identifiable unit which retains the properties and composition of the substance"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The molecule definition is stated IN TERMS OF atoms ("a group of two or more atoms chemically combined") — the atom is the definitional operand (the batch-1 SATURATED-SOLUTION -> SOLUTION pattern).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.14 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-SUBATOMIC-PARTICLES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ATOM
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Each atom is made of subatomic particles called protons, neutrons, and electrons"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The subatomic-particle description is stated IN TERMS OF the atom ("each atom is made of...") — knowing what the particles are positions presupposes the atom term (definitional operand).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.15 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ATOMIC-NUMBER
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-SUBATOMIC-PARTICLES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The number of protons in the nucleus of an atom"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The atomic number is defined as the number of PROTONS — the proton is a subatomic particle, so the 1.16 term is stated in terms of the 1.15 particle set (definitional operand; the batch-1 DEFINITIONAL_DEPENDENCY pattern).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-MASS-NUMBER
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-SUBATOMIC-PARTICLES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The number of protons and neutrons in the nucleus of an atom"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The mass number is defined as protons + neutrons — the two nucleons are the definitional operand set (the 1.16 term presupposes the 1.15 particle set).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-MASS-NUMBER
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ATOMIC-NUMBER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The number of neutrons can thus be calculated by subtracting the atomic number from the mass number"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Using the mass number (neutron calculations, lithium/X worked examples) presupposes the atomic number without re-teaching it — the subtraction rule and every worked example use both terms together. Not subsumed by the SUBATOMIC chain (no emitted path MASS-NUMBER -> SUBATOMIC -> ATOMIC-NUMBER; the subatomic edge points the same direction).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ISOTOPES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-SUBATOMIC-PARTICLES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Atoms of the same element which have the same number of protons but a different number of neutrons"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The isotope definition is stated IN TERMS OF protons and neutrons — the nucleon pair is the definitional operand set (same class as ATOMIC-NUMBER -> SUBATOMIC).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ATOMIC-NUMBER
+  relation: COMMONLY_CONFUSED_WITH
+  target: 4CH1-CON-MASS-NUMBER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Both the atomic number and the mass number are given on the Periodic Table, but it can be easy to confuse them"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: EXAMINER_TIP_EXPLICIT
+    derivation_notes: 'First COMMONLY_CONFUSED_WITH edge in the store: the corpus itself documents the term-pair confusability (the examiner tip states it outright and gives the MASS = MASSIVE mnemonic), and the pinned PT/ATOM MS document the confusion being assessed (the same family as MIS-RAM-MASS-NUMBER on the Ar side). Symmetric term-pair relation, distinct from wrong-answer patterns per the frozen §8A.11 triple distinction.'
+    relation_class_rationale: 'The corpus statement is about TERM CONFUSABILITY ("it can be easy to confuse them"), not a causal explanation (EXPLAINED_BY), not a learning dependency (REQUIRES_PREREQUISITE), and not a documented wrong-answer pattern (WRONG_ANSWER_PATTERN — that class is reserved for mark-scheme REJECT entries, carried separately by MIS-RAM-MASS-NUMBER on the Ar side of the confusion family). COMMONLY_CONFUSED_WITH is the frozen §8A.11 relation for exactly this evidence class.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11); assessment context PT_MS_P1 Q1 (pinned fd6352a38077)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-PERIODIC-TABLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The number of notations in the electronic configuration tells us the number of occupied shells"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The 1.19/1.22 skill (deduce configurations FROM Periodic Table positions) uses the period/group structure without re-teaching it — the notations-to-period and last-notation-to-group rules presuppose the 1.18 arrangement concept (the chlorine worked example reads position off the table).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.19/1.22 @ Electronic Configurations (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-SUBATOMIC-PARTICLES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Electrons orbit the nucleus in shells (or energy levels) and each shell has a different amount of energy associated with it"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The electronic configuration is the arrangement OF ELECTRONS in shells — the electron (a subatomic particle, whose shells-around-the-nucleus position is the 1.15 ground taught in the Atoms note) is the definitional operand of the configuration concept.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.19 @ Electronic Configurations + 4CH1-1.15 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-METAL-NONMETAL
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-PERIODIC-TABLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table - IGCSE Chemistry.md"
+    quote: "Metals are on the left of the Periodic Table and non-metals on the right"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The 1.21 position-based identification reads the metals/non-metals regions off the Periodic Table without re-teaching the arrangement — the left/right and zig-zag-line rules presuppose the 1.18 concept.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.20/1.21 @ Metals & non-metals in the Periodic Table (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-GROUP-SIMILARITY
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-PERIODIC-TABLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Elements in the same group in the Periodic Table will have similar chemical properties"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The same-group statement uses the group concept (the 1.18 arrangement) without re-teaching it — this is the group-similarity concept''s only direct Periodic Table link (the electronic-configuration pair carries the explanatory relation instead; not transitively subsumed because the emitted CONFIG -> PT chain runs the other direction from this node''s EB edge).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.23 @ Electronic Configuration & Reactivity (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-GROUP-SIMILARITY
+  relation: EXPLAINED_BY
+  target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "This is because they have the same number of outer electrons so will react and bond similarly"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING
+    derivation_notes: 'The 1.23 "understand WHY" demand with an explicit causal sentence ("This is because they have the same number of outer electrons so will react and bond similarly") — the outer-electron count is the taught mechanism. The prerequisite reading of the same pair is HELD (B2-H-05, one relation per pair, the batch-1 B1-H-04/DIFFUSION discipline).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.23 @ Electronic Configuration & Reactivity (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-NOBLE-GAS-INERTNESS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-PERIODIC-TABLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The elements in Group 0 of the Periodic Table are called the noble gases"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The Group 0 statement uses the group/arrangement concept without re-teaching it — the noble-gas concept''s only direct Periodic Table link (the electronic-configuration pair carries the explanatory relation; not subsumed — same non-chain shape as the GROUP-SIMILARITY -> PT edge).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.24 @ Electronic Configuration & Reactivity (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-CON-NOBLE-GAS-INERTNESS
+  relation: EXPLAINED_BY
+  target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Group 0 elements do not do this because they have full outer shells of electrons"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING
+    derivation_notes: 'The 1.24 "understand why" demand with an explicit causal sentence ("...because they have full outer shells of electrons") — the full-outer-shell structure is the taught mechanism. The prerequisite reading of the same pair is HELD (B2-H-06, one relation per pair).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.24 @ Electronic Configuration & Reactivity (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-PR-02
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-CHROMATOGRAPHY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Paper chromatography - IGCSE Chemistry Revision Notes.md"
+    quote: "Investigate how paper chromatography can be used to separate and identify a mixture of food colourings"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Cross-boundary edge (target = the batch-1 CON-CHROMATOGRAPHY node, sanctioned per FN-B1-2): the 1.13 practical runs the paper-chromatography technique (its aim IS the technique applied to food colourings) without re-teaching the technique''s ground — the practical note assumes the 1.10 separation concept.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.13 @ Paper chromatography (2026-09-11); target node owned by the batch-1 record (4CH1-1.10)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-PR-02
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-RF-VALUE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Paper chromatography - IGCSE Chemistry Revision Notes.md"
+    quote: "The Rf values of food colours A, B, C and D should be compared to that for the unknown sample as well as a visual comparison being made"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Cross-boundary edge (target = the batch-1 CON-RF-VALUE node, named explicitly by FN-B1-2 for this batch): the practical''s results section uses Rf values and the solvent-front/spot-distance measurements without re-teaching the Rf concept (the 1.12 ground).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.13 @ Paper chromatography (2026-09-11); target node owned by the batch-1 record (4CH1-1.12)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-ISOTOPES
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ATOM2_MS_P1.txt
+    quote: "different number of protons"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer is documented against the isotope questions (ATOM2 MS Q1(b) REJECT column — "why the isotopes have the same chemical properties"; ATOM3 MS Q1(a) documents "different numbers of protons" as an incorrect answer class on the isotope tables); the concept being tested is the isotope structure.'
+    upstream: 'PMT Unit-1 Paper-1 MS "Atomic Structure 2" Q1(b) (pinned scripts/c11_evidence/ATOM2_MS_P1.txt sha1 6c60d4721ea0)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-ISOTOPES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Atoms of the same element which have the same number of protons but a different number of neutrons"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: 'Remediation = the isotope definition itself (same protons, different neutrons) — the corrective concept IS the WAP target (the batch-1 B1-E-25 pattern: no deeper in-slice concept exists below the isotope definition; the node''s remediation_evidence also carries the proton/atomic-number identity). Operator may drop the edge and keep the node-level evidence.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-RAM-MASS-NUMBER
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-AR
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/PT_MS_P1.txt
+    quote: "Reject mass number"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer is documented against the Periodic Table reading question (PT MS Q1(b): "which number increases from 9 to 226 in Group 2?" — expected "(relative) atomic mass", REJECT "mass number"); the concept being tested is what the Periodic Table value means, i.e. the relative atomic mass. Cross-boundary target: the pilot CON-AR node (sanctioned per FN-B1-2).'
+    upstream: 'PMT Unit-1 Paper-1 MS "The Periodic Table" Q1(b) (pinned scripts/c11_evidence/PT_MS_P1.txt sha1 fd6352a38077)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+- source: 4CH1-MIS-RAM-MASS-NUMBER
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-AR
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The relative atomic mass of every element is given on the Periodic Table. It is the larger of the two numbers."
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-2
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: 'Remediation = the Ar-on-the-Periodic-Table rule (which of the two numbers it is), plus the node-level remediation_evidence carrying the full Ar definition (abundance-weighted average, 1/12 carbon-12) — the corrective concept is the WAP target (the batch-1 B1-E-25 pattern). Cross-boundary target: the pilot CON-AR node.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass (2026-09-11)'
+    generated_date: '2026-09-12'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-12'
+
+# ---------------------------------------------------------------------------
+# Held candidates (session-49 batch 2) — NOT emitted; every candidate the
+# extraction considered and refused, with the rule that refused it. Same
+# contract as the earlier records: the held list demonstrates abstention;
+# statuses held|rejected only; nothing here is promotable (not edges).
+held:
+- id: B2-H-01
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-ISOTOPES, CON-ATOMIC-NUMBER)'
+  evidence: 'Atoms note: "Atoms of the same element which have the same number of protons" (the isotope definition names the proton count — the atomic-number concept)'
+  reason: 'VOCABULARY_OPERAND_DUPLICATION — the proton operand is already carried by the emitted definitional edge ISOTOPES -> SUBATOMIC-PARTICLES (and ATOMIC-NUMBER -> SUBATOMIC-PARTICLES); a direct isotope->atomic-number edge adds a vocabulary-level dependency with no independently reviewable information beyond the emitted pair (the batch-1 B1-H-01/H-12 density discipline).'
+- id: B2-H-02
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-MASS-NUMBER, CON-ATOM)'
+  evidence: 'Atoms note: the mass-number row "The number of protons and neutrons in the nucleus of an atom" (the atom is the grammatical subject of the definition)'
+  reason: 'TRANSITIVELY_SUBSUMED — covered by MASS-NUMBER -> SUBATOMIC-PARTICLES -> ATOM; the direct edge adds nothing reviewable (density control).'
+- id: B2-H-03
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-ELECTRONIC-CONFIGURATION, CON-ATOM)'
+  evidence: 'Electronic Configurations note: "We can represent the structure of the atom in two ways" (the configuration describes the atom)'
+  reason: 'TRANSITIVELY_SUBSUMED — covered by ELECTRONIC-CONFIGURATION -> SUBATOMIC-PARTICLES -> ATOM (density control).'
+- id: B2-H-04
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-METAL-NONMETAL, CON-ELECTRONIC-CONFIGURATION)'
+  evidence: 'Metals note properties table, first row: "Electron arrangement | 1-3 outer shell electrons | 4-7 outer shell electrons" (the classification table uses electron arrangement vocabulary)'
+  reason: 'OD_2_TABLE_LABEL — ratified operator rule (session 44, OD-2): incidental terminology / table labels are NOT sufficient instructional evidence; the electron-arrangement row is a table label, and the 1.20 wording classifies by conductivity and oxide character, not by configuration. The 1.23/1.24 outer-electron explanations are emitted on their own causal evidence instead.'
+- id: B2-H-05
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-GROUP-SIMILARITY, CON-ELECTRONIC-CONFIGURATION) — "understanding group similarity presupposes the configuration concept"'
+  evidence: 'ECR note: the same-group statement is explained via outer electrons, so a prerequisite reading is equally real'
+  reason: 'RELATION_CLASS_PAIR_CONFLICT — the same pair carries the emitted EXPLAINED_BY edge on the explicit "This is because they have the same number of outer electrons" causal evidence; one relation per pair (the batch-1 B1-H-04/DIFFUSION discipline). The prereq reading is noted for the operator.'
+- id: B2-H-06
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-NOBLE-GAS-INERTNESS, CON-ELECTRONIC-CONFIGURATION) — "the full-outer-shell explanation presupposes the configuration concept"'
+  evidence: 'ECR note: the Group 0 inertness is explained via full outer shells, so a prerequisite reading is equally real'
+  reason: 'RELATION_CLASS_PAIR_CONFLICT — the same pair carries the emitted EXPLAINED_BY edge on the explicit "because they have full outer shells of electrons" causal evidence; one relation per pair. The prereq reading is noted for the operator.'
+- id: B2-H-07
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(CON-NOBLE-GAS-INERTNESS, CON-GROUP-SIMILARITY)'
+  evidence: 'ECR note: both are taught in the same note — Group 0 inertness is the group-similarity story applied to Group 0'
+  reason: 'RELATION_CLASS_AMBIGUITY_PLUS_DENSITY — neither a clean prerequisite (noble-gas inertness does not presuppose the general similarity rule) nor an explanation of it; the pair''s semantics are already carried by the two nodes'' shared electronic-configuration/Periodic-Table edges (one relation per pair, density control).'
+- id: B2-H-08
+  status: held
+  candidate: 'REQUIRES_PREREQUISITE(PR-02, CON-SOLUTION)'
+  evidence: 'Paper chromatography note: "The bottom edge of the paper should dip into the solvent" (the method uses solvent vocabulary throughout)'
+  reason: 'TRANSITIVELY_SUBSUMED — carried by PR-02 -> CHROMATOGRAPHY -> SOLUBILITY -> SATURATED-SOLUTION -> SOLUTION (the batch-1 B1-H-12 discipline, applied to the boundary practical).'
+- id: B2-H-09
+  status: held
+  candidate: 'MISCONCEPTION node "the Periodic Table is arranged in order of (relative) atomic mass" MISCONCEPTION_OF CON-PERIODIC-TABLE'
+  evidence: 'PT MS Q2(a): expected "(increasing) atomic number(s)", notes "IGNORE references to electrons / electronic configurations" — no REJECT column entry for a mass-based arrangement answer in any pinned MS'
+  reason: 'INSUFFICIENT_EVIDENCE — the historic Mendeleev mass-arrangement belief is real chemistry-teaching lore, but the pinned mark schemes do not REJECT a mass-ordering answer anywhere, and the corpus teaches the atomic-number rule without documenting the wrong pattern; minting would assert an assessment pattern that is not documented (the ASSESSMENT_DOCUMENTED discipline; revisit with deeper MS mining).'
+- id: B2-H-10
+  status: held
+  candidate: 'MISCONCEPTION node "the solvent-level rule explained as the solvent reacting with the dyes" MISCONCEPTION_OF CON-CHROMATOGRAPHY'
+  evidence: 'ECM3 MS Q1(a): correct answer "to stop the dyes from {dissolving / running / going / mixing} into water / smudging", with "Reject ref to reaction" in the notes column'
+  reason: 'EVIDENCE_CLASS_WEAK — the REJECT entry is terse ("ref to reaction") without a reconstructible wrong-answer text, and the corpus note documents the correct rule (solvent below the start line) plus the ink-line error rather than a reaction belief; the pilot''s ASSESSMENT_DOCUMENTED discipline requires the exact pattern to be reconstructible (the batch-1 B1-H-07 precedent).'

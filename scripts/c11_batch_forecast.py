@@ -197,7 +197,9 @@ out = {
     # session-48 (2026-09-12): instrument advanced — batch-1 operator gate
     # SETTLED (verdicts recorded + applied); baselines stay pinned to the
     # session-46 authorization state they anchor.
-    "session": 48,
+    # session-49 (2026-09-12): batch-2 AUTHORED to its operator gate
+    # (future_batch_records[1]); baselines unchanged.
+    "session": 49,
     "generated": "2026-09-12",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -253,7 +255,11 @@ out = {
                    "(session 48: operator ruling 'CONFIRM all' — 28 edge "
                    "CONFIRM promoted via §18, store total 56; RR settled "
                    "HOLD_REVIEW_REQUIRED; verdict record "
-                   "scripts/c11_batch1_verdicts.yaml); batches 2-14 not "
+                   "scripts/c11_batch1_verdicts.yaml); batch 2 AUTHORED "
+                   "2026-09-12 (session 49: 12 SPs / 14 nodes / 23 authored "
+                   "edges / 10 held / 0 RR; 5 cross-boundary edges; awaiting "
+                   "its operator review gate; verdict record will be "
+                   "scripts/c11_batch2_verdicts.yaml); batches 3-14 not "
                    "started"),
         "scope_sp": 170,
         "batches": s16_batches,
@@ -325,6 +331,60 @@ out = {
                            "HOLD_REVIEW_REQUIRED / held acknowledged) and "
                            "applied through §18 (28 promotions, operator; "
                            "the RR quarantine stays un-promoted)."),
+        },
+        {
+            "batch_id": "c11-s16-batch-2",
+            "session": 49,
+            "commissioned": "operator ('run batch 2', 2026-09-12)",
+            "scope": "S1 remainder, second 12 SPs (4CH1-1.13-1.24) + PR-02",
+            "spec_points": 12,
+            "notes": 7,
+            "mark_schemes_pinned": 6,
+            "predicted": {"nodes": 28.8, "authored_edges": 33.0,
+                          "held_candidates": 13.0},
+            "actual": {"nodes": 14, "authored_edges": 23,
+                       "held_candidates": 10},
+            "delta_pct": {"nodes": -51.4, "authored_edges": -30.3,
+                          "held_candidates": -23.1},
+            "rates": {
+                "held_rate": 0.3030,
+                "rejection_rate": 0.0,
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-2 (split-artifact candidates: subatomic particle triple, "
+                "periodic-table arrangement+group+period, metal/non-metal "
+                "1.20/1.21 — operator identity decisions)",
+                "FP-B2-2 (relation-class choices: the two EXPLAINED_BY "
+                "edges + the CON-AR->CON-ISOTOPES boundary reading)",
+                "FP-B2-3 (first COMMONLY_CONFUSED_WITH deployment)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -51.4% / edges -30.3% vs the "
+                           "2.4/2.75 model — the delta is the BOUNDARY "
+                           "DISCIPLINE, not thin coverage: the Ar term was "
+                           "not re-minted (the pilot CON-AR owns it; 1.16's "
+                           "Ar definition reached via the CON-ISOTOPES "
+                           "attachment + the boundary edge), and 1.13 "
+                           "attaches no batch-2 node (its concept content is "
+                           "the batch-1 chromatography triplet reached via "
+                           "the sanctioned PR-02 boundary edges). 5 "
+                           "cross-boundary edges into earlier-record nodes; "
+                           "zero RR authored (every doubt held or resolved "
+                           "on explicit evidence); 10 held; two "
+                           "mark-scheme-documented misconceptions (isotopes-"
+                           "differ-in-protons, RAM-vs-mass-number — both "
+                           "REJECT-column layout-verified). "
+                           "operator_verdicts all zero: the per-batch "
+                           "operator gate is PENDING (sheet: "
+                           "C11_BATCH2_REVIEW_SHEET.md; template: "
+                           "scripts/c11_batch2_verdicts_template.yaml). "
+                           "Mark-scheme mining: 6 pins (ATOM1-3, PT, "
+                           "ECM1/ECM3 — the ECM pins close the batch-1 "
+                           "FN-B1-1 remainder); Paper-2 variants remain "
+                           "(FN-B2-1)."),
         },
     ],
     "future_batch_record_schema": {

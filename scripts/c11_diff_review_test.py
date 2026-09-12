@@ -22,12 +22,12 @@ Negative (all fail closed, nothing written):
                                            N11 status drift decisions<->graph
 
 Real-repo smoke (read-only):
-  R1  `list` exits 0 on the live store state and reports the session-48
-      surface (0 actionable — the batch-1 verdicts are applied / 5
-      not-actionable / 56 promotions recorded) — the batch-1 §18
-      application completed the per-batch operator gate (28 batch-1
-      CONFIRM edges promoted session 48; the 5 not-actionable rows are
-      the 3 pilot operator HOLDs + the pilot RR + the settled batch RR).
+  R1  `list` exits 0 on the live store state and reports the session-49
+      surface (23 batch-2 actionable / 5 not-actionable / 56 promotions
+      recorded) — the batch-2 SUGGESTED edges are the operator's pending
+      §18 approval surface awaiting the per-batch review-sheet verdicts
+      (the 5 not-actionable rows are the 3 pilot operator HOLDs + the
+      pilot RR + the settled batch-1 RR).
 
 Usage: python3 scripts/c11_diff_review_test.py
 """
@@ -207,6 +207,21 @@ def make_fixture(base: Path):
     (base / "scripts" / "c11_batch1_decisions.yaml").write_text(
         yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-1",
                                    "extraction_pass": "c11-s16-batch-1",
+                                   "generated_date": "2026-09-12",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-49: the registry grows by the (empty) batch-2 member
+    (base / "scripts" / "c11_batch2_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-2",
+                                   "extraction_pass": "c11-s16-batch-2",
                                    "generated_date": "2026-09-12",
                                    "model_version": "GLM (Super Z agent, z.ai)",
                                    "curriculum_code": "4CH1-2017",
@@ -408,14 +423,13 @@ def main() -> int:
         r = subprocess.run([sys.executable, str(HERE / "c11_diff_review.py"),
                             "list"], cwd=T.REPO, capture_output=True, text=True)
         check("R1 list exits 0", r.returncode == 0, r.stderr[:200])
-        # session-48 expectation: the batch-1 operator gate is SETTLED —
-        # the "CONFIRM all" verdict round (scripts/c11_batch1_verdicts.yaml)
-        # was applied through §18 (28 batch-1 edges promoted, store total
-        # 56). The actionable surface is now empty; the 5 not-actionable
-        # rows = 3 pilot operator HOLDs + the pilot RR + the settled
-        # batch-1 RR (HOLD_REVIEW_REQUIRED).
-        check("R1 reports 0 actionable / 5 not-actionable / 56 promotions",
-              "actionable: 0  (clean 0 / pending-flagged 0)" in r.stdout
+        # session-49 expectation: batch 2 is AUTHORED to its operator gate
+        # (23 clean SUGGESTED edges awaiting verdicts; no RR authored this
+        # batch). The 5 not-actionable rows = 3 pilot operator HOLDs + the
+        # pilot RR + the settled batch-1 RR; promo_count stays 56 until the
+        # batch-2 verdicts are applied.
+        check("R1 reports 23 actionable / 5 not-actionable / 56 promotions",
+              "actionable: 23  (clean 23 / pending-flagged 0)" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=56" in r.stdout)
     finally:

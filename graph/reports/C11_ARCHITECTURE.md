@@ -633,6 +633,23 @@ validates the verdict layer and the three-way set equality. The
 restrictions remain in force for everything outside a batch's sanctioned
 pathway: no DB writes, no unratified promotion, no hand-edited graph.)*
 
+*(Session-49, 2026-09-12: batch 2 was commissioned ("run batch 2") and
+authored under this section's sanctioned pathway — extraction_pass
+`c11-s16-batch-2`, decision record `scripts/c11_batch2_decisions.yaml`
+(the §8 mechanism: expansion passes add nodes via new decision records
+with their own extraction_pass id), gated generation through the
+registry-aware `c11_concept_pilot.py`, pass-2 adversarial review, and the
+batch review sheet `graph/reports/C11_BATCH2_REVIEW_SHEET.md`. The merged
+store stands at 67 nodes / 156 edges (56 operator promotions + frozen
+dispositions intact; 4.15 uncovered). NOTHING from batch 2 is promoted:
+its 23 edges are SUGGESTED pending the per-batch operator gate and the
+§18 pathway; no RR was authored (the abstention landed as 10 held
+candidates); 5 cross-boundary edges into earlier-record nodes are
+sanctioned (FN-B1-2) and no duplicate concept was minted — the Ar term
+stays with the pilot's CON-AR. The restrictions above remain in force for
+everything not covered by a batch's sanctioned pathway — including DB
+writes and hand-edited graphs, which no batch pathway sanctions.)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

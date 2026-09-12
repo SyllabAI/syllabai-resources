@@ -223,10 +223,31 @@ e415 = [e for e in edges_doc["edges"]
 check("D5 negative control 4CH1-4.15: zero node/edge attachments",
       len(n415) == 0 and len(e415) == 0,
       f"nodes = {len(n415)}, edges = {len(e415)}")
-check("D6 store shape: 53 nodes / 118 edges (57 PART_OF + 61 semantic)",
-      len(nodes_doc["nodes"]) == 53 and len(edges_doc["edges"]) == 118
-      and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 57)
+# session-49: D6 re-anchored to SLICE PRESERVATION inside the grown store —
+# the batch-2 authoring (sanctioned per-batch growth) extends the store
+# beyond the batch-1 numbers; the invariant is that the pilot+batch-1 slices
+# are preserved exactly (29+24 node codes, 33+24 PART_OF, 61+1 semantic from
+# the earlier records) inside whatever the sanctioned total has become.
+C_PILOT_SPS_SET = {"4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28",
+                   "4CH1-1.29", "4CH1-1.30", "4CH1-1.31", "4CH1-1.32",
+                   "4CH1-1.33", "4CH1-1.34C", "4CH1-1.35C", "4CH1-1.36"}
+B1_NODE_CODES = {n["code"] for n in yaml.safe_load(
+    (HERE / "c11_batch1_decisions.yaml").read_text(encoding="utf-8")
+)["nodes"]}
+B1_SPS = {a["code"] for n in yaml.safe_load(
+    (HERE / "c11_batch1_decisions.yaml").read_text(encoding="utf-8")
+)["nodes"] for a in n.get("spec_points", [])}
+live_codes = {n["code"] for n in nodes_doc["nodes"]}
+live_earlier_partof = sum(
+    1 for e in edges_doc["edges"]
+    if e["relation"] == "PART_OF"
+    and e["target"] in (B1_SPS | C_PILOT_SPS_SET))
+check("D6 pilot+batch-1 slices preserved inside the grown store (29+24 nodes, 33+24 PART_OF; store total grows only by sanctioned batches)",
+      {c["code"] for c in nodes_doc["nodes"]} >= (
+          {n["code"] for n in dec["nodes"]} | B1_NODE_CODES)
+      and live_codes >= B1_NODE_CODES
+      and live_earlier_partof == 57
+      and len(nodes_doc["nodes"]) >= 53 and len(edges_doc["edges"]) >= 118)
 check("D7 no PART_OF edge promoted (node pathway not built)",
       not any(e["relation"] == "PART_OF"
               and e["validation_status"] == "HUMAN_VALIDATED"

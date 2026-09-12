@@ -1,0 +1,223 @@
+# T-C11 §16 batch 2 — OPERATOR verdict template (session-49 package).
+# OPERATOR-OWNED: fill verdict per row (empty verdict = not decided).
+# Hand-edits HERE are the sanctioned pathway; graph/*.yaml are never
+# hand-edited. The next session encodes + applies the filled record via
+# the §18 promotion pathway / §7 decision-record re-authoring. Verdicts
+# are RECORDED, not applied: filling this file promotes nothing.
+meta:
+  task: T-C11
+  stage: s16-batch-2-verdicts
+  batch: 2
+  session: 49
+  file: OPERATOR-OWNED verdict record for C11_BATCH2_REVIEW_SHEET (session 49) — verdicts recorded by operator decision (pending).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT. This batch authored
+    NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-2
+    extraction_pass is c11-s16-batch-2; its 10 held candidates are informational only (no reopening,
+    no promotion of held candidates). Five edges are cross-boundary into earlier-record nodes
+    (CON-AR x2, CON-ELEMENT, CON-CHROMATOGRAPHY, CON-RF-VALUE — sanctioned, no duplicate mint).
+    The next session applies verdicts via the §18 promotion pathway /
+    §7 decision-record re-authoring; nothing here is HUMAN_VALIDATED.'
+edge_verdicts:
+- id: B2-E-01
+  triple: 4CH1-CON-AR REQUIRES_PREREQUISITE 4CH1-CON-ISOTOPES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'relation-class choice + cross-boundary source (FP-B2-2; pilot node)'
+- id: B2-E-02
+  triple: 4CH1-CON-ATOMIC-NUMBER COMMONLY_CONFUSED_WITH 4CH1-CON-MASS-NUMBER
+  pretriage: FLAGGED
+  verdict:
+  notes: 'first COMMONLY_CONFUSED_WITH deployment in the store (FP-B2-3)'
+- id: B2-E-03
+  triple: 4CH1-CON-ATOMIC-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-04
+  triple: 4CH1-CON-ELECTRONIC-CONFIGURATION REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-05
+  triple: 4CH1-CON-ELECTRONIC-CONFIGURATION REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-06
+  triple: 4CH1-CON-GROUP-SIMILARITY EXPLAINED_BY 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'relation-class choice (prereq reading held, B2-H-05)'
+- id: B2-E-07
+  triple: 4CH1-CON-GROUP-SIMILARITY REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-08
+  triple: 4CH1-CON-ISOTOPES REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-09
+  triple: 4CH1-CON-MASS-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-ATOMIC-NUMBER
+  pretriage: FLAGGED
+  verdict:
+  notes: 'density flag: pair also carries the CCW edge (different class)'
+- id: B2-E-10
+  triple: 4CH1-CON-MASS-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-11
+  triple: 4CH1-CON-METAL-NONMETAL REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-12
+  triple: 4CH1-CON-MOLECULE REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-13
+  triple: 4CH1-CON-NOBLE-GAS-INERTNESS EXPLAINED_BY 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'relation-class choice (prereq reading held, B2-H-06)'
+- id: B2-E-14
+  triple: 4CH1-CON-NOBLE-GAS-INERTNESS REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-15
+  triple: 4CH1-CON-PERIODIC-TABLE REQUIRES_PREREQUISITE 4CH1-CON-ATOMIC-NUMBER
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-16
+  triple: 4CH1-CON-PERIODIC-TABLE REQUIRES_PREREQUISITE 4CH1-CON-ELEMENT
+  pretriage: FLAGGED
+  verdict:
+  notes: 'vocabulary-level dependency class + cross-boundary target (FP-B1-4 class)'
+- id: B2-E-17
+  triple: 4CH1-CON-SUBATOMIC-PARTICLES REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-18
+  triple: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS REMEDIATED_BY 4CH1-CON-ISOTOPES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target (the batch-1 B1-E-25 pattern)'
+- id: B2-E-19
+  triple: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS WRONG_ANSWER_PATTERN 4CH1-CON-ISOTOPES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-20
+  triple: 4CH1-MIS-RAM-MASS-NUMBER REMEDIATED_BY 4CH1-CON-AR
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target + cross-boundary target (B1-E-25 pattern)'
+- id: B2-E-21
+  triple: 4CH1-MIS-RAM-MASS-NUMBER WRONG_ANSWER_PATTERN 4CH1-CON-AR
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-22
+  triple: 4CH1-PR-02 REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAPHY
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-E-23
+  triple: 4CH1-PR-02 REQUIRES_PREREQUISITE 4CH1-CON-RF-VALUE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+node_verdicts:
+- id: B2-N-01
+  code: 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-N-02
+  code: 4CH1-CON-ATOMIC-NUMBER
+  pretriage: FLAGGED
+  verdict:
+  notes: 'carries the first CCW edge (FP-B2-3)'
+- id: B2-N-03
+  code: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-N-04
+  code: 4CH1-CON-GROUP-SIMILARITY
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-N-05
+  code: 4CH1-CON-ISOTOPES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'Ar-boundary identity decision (FP-B2-1; B2-ID-01)'
+- id: B2-N-06
+  code: 4CH1-CON-MASS-NUMBER
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-N-07
+  code: 4CH1-CON-METAL-NONMETAL
+  pretriage: FLAGGED
+  verdict:
+  notes: '1.20/1.21 split option (B1-N-13/ID-03 class)'
+- id: B2-N-08
+  code: 4CH1-CON-METALLOID
+  pretriage: FLAGGED
+  verdict:
+  notes: 'enrichment scoping (mirrors pilot N-08/N-27 pattern)'
+- id: B2-N-09
+  code: 4CH1-CON-MOLECULE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-N-10
+  code: 4CH1-CON-NOBLE-GAS-INERTNESS
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B2-N-11
+  code: 4CH1-CON-PERIODIC-TABLE
+  pretriage: FLAGGED
+  verdict:
+  notes: 'arrangement+group+period split option (FP-B1-1 class)'
+- id: B2-N-12
+  code: 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'particle-triple split option (FP-B1-1 class)'
+- id: B2-M-01
+  code: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+  pretriage: LIKELY_SAFE (mark-scheme documented)
+  verdict:
+  notes: ''
+- id: B2-M-02
+  code: 4CH1-MIS-RAM-MASS-NUMBER
+  pretriage: LIKELY_SAFE (mark-scheme documented)
+  verdict:
+  notes: ''
+identity_decisions:
+- id: B2-ID-01
+  question: fold 1.16's Ar-term definition into the pilot CON-AR via §7 re-authoring (vs keeping the CON-ISOTOPES/CON-AR boundary split)
+  verdict:
+- id: B2-ID-02
+  question: split CON-SUBATOMIC-PARTICLES into term-level proton/neutron/electron nodes
+  verdict:
+- id: B2-ID-03
+  question: split CON-PERIODIC-TABLE (arrangement vs group vs period term nodes)
+  verdict:
+- id: B2-ID-04
+  question: split CON-METAL-NONMETAL (1.20 property-based vs 1.21 position-based classification)
+  verdict:
+held_appendix_acknowledgment:
+  acknowledged:
+  notes: ''

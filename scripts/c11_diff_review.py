@@ -78,7 +78,9 @@ REPO = HERE.parent
 # generator's. The §18 front-end enumerates pending items over the MERGED
 # authored-edge surface: the operator's batch-1 approval surface is exactly
 # the batch-1 SUGGESTED edges.
-DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml"]
+# Session-49 (batch 2): the registry grows by c11_batch2_decisions.yaml
+DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
+                  "c11_batch2_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 GRAPH_EDGES = REPO / "graph" / "concept_edges.yaml"
 GRAPH_NODES = REPO / "graph" / "concepts.yaml"
