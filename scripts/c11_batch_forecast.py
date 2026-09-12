@@ -2,8 +2,8 @@
 """T-C11 session 43 — batch forecasting instrumentation.
 
 Emits graph/reports/C11_BATCH_FORECAST.json: the machine-computed pilot
-baseline, the §16 documented projection (C11_S16_GATE_REPORT.md item 14,
-PROPOSAL — not executed), a predicted-vs-actual calibration of the projection
+baseline, the §16 documented projection (C11_S16_GATE_REPORT.md item 14),
+a predicted-vs-actual calibration of the projection
 model against the pilot's own actuals, the review rates with documented
 formulas, the false-positive categories observed across the pilot's review
 history, and the empty future-batch record list that §16 batches append to.
@@ -11,6 +11,11 @@ history, and the empty future-batch record list that §16 batches append to.
 READ-ONLY with respect to the graph: writes only its own report. No
 promotion, no graph modification, no §16 action (the projection figures are
 referenced, never executed).
+
+Session-46 (2026-09-12): §16 is now AUTHORIZED by explicit operator decision
+(scripts/c11_s16_authorization.yaml) — the projection below is the sanctioned
+execution shape, still not executed: no batch has run; future_batch_records
+stays empty until the first authorized batch completes.
 """
 from __future__ import annotations
 
@@ -47,9 +52,12 @@ n_hv = sum(1 for e in graph_edges if e["validation_status"] == "HUMAN_VALIDATED"
 # excluded from the per-row surface — it already carries an operator verdict).
 suggested_authored = [e for e in edges if e["validation_status"] == "SUGGESTED"]
 
-# --- §16 documented projection (PROPOSAL — referenced, never executed) ------
+# --- §16 documented projection (referenced, never executed) ----------------
+# Session-46 (2026-09-12): §16 AUTHORIZED (scripts/c11_s16_authorization.yaml) —
+# the item-14 proposal is now the sanctioned execution shape. Still not executed.
 S16_SOURCE = ("graph/reports/C11_S16_GATE_REPORT.md item 14 "
-              "(PROPOSAL — not executed; §16 not authorized)")
+              "(the sanctioned §16 execution shape — authorized 2026-09-12, "
+              "session 46, scripts/c11_s16_authorization.yaml; not yet executed)")
 s16_model = {"nodes_per_sp": 2.4, "authored_edges_per_sp": 2.75, "held_per_sp": 1.0}
 s16_totals = {"nodes": [380, 450], "authored_edges": [420, 510], "held": [160, 180]}
 s16_batches = {"count": 14, "approx_sp_per_batch": 12,
@@ -88,8 +96,15 @@ rates = {
         "value": round(n_promoted / n_total, 4) if n_total else 0.0,
         "formula": "promoted / total_edges",
         "inputs": f"{n_promoted} / {n_total}",
-        "meaning": "0 by design this round: nothing is ratified until the "
-                   "operator records verdicts (this package's purpose)",
+        # Session-46 (2026-09-12): the meaning text is state-dependent — 0 at the
+        # session-43 pre-verdict state by design; 28/65 since the session-45 §18
+        # promotions. The rate is a pure function of the live store (the §18
+        # channel is the only sanctioned way it moves).
+        "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by "
+                   "design at the session-43 pre-verdict state (nothing is "
+                   "ratified until the operator records verdicts); since session "
+                   "45 it is the §18 promotion fraction (operator-ratified "
+                   "identities only, never batch/node/relation-wide)",
     },
     "operator_review_rate": {
         "value": round(operator_rows / (n_authored + len(nodes)), 4),
@@ -210,7 +225,10 @@ out = {
     },
     "s16_projection": {
         "source": S16_SOURCE,
-        "status": "PROPOSAL ONLY — §16 NOT authorized; nothing executed",
+        # Session-46 (2026-09-12): §16 AUTHORIZED (operator, session 46) — status
+        # updated from the pre-authorization proposal wording; nothing executed yet.
+        "status": ("§16 AUTHORIZED 2026-09-12 (session 46, operator — "
+                   "scripts/c11_s16_authorization.yaml); no batch executed yet"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,

@@ -588,6 +588,19 @@ The full T-C11 build is authorized only when the pilot report shows ALL of:
 
 Until then: no mass generation, no DB writes, no promotion.
 
+*(Session-46, 2026-09-12: all six criteria above are met — see
+C11_S16_GATE_REPORT.md (operator gate list 14/14 DONE; blockers 4/4 settled
+across sessions 44/45/46) — and the operator has explicitly authorized §16,
+verbatim "Okay, I authorize", recorded in the operator-owned
+`scripts/c11_s16_authorization.yaml` and validated by
+`scripts/c11_s16_authorization_check.py`. The expansion proceeds in the
+item-14 batches (C11_S16_GATE_REPORT.md) with a per-batch operator gate
+before any promotion. The restrictions in this section held until that date
+and remain in force for everything not covered by a batch's own sanctioned
+pathway: no DB writes, no unratified promotion, no hand-edited graph. The
+authorization commands no generation by itself — batch execution is
+separately commissioned.)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

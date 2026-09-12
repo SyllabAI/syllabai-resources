@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 0,
-    "human_validated": 0,
+    "promoted": 28,
+    "human_validated": 28,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -37,8 +37,8 @@
     }
   },
   "s16_projection": {
-    "source": "graph/reports/C11_S16_GATE_REPORT.md item 14 (PROPOSAL — not executed; §16 not authorized)",
-    "status": "PROPOSAL ONLY — §16 NOT authorized; nothing executed",
+    "source": "graph/reports/C11_S16_GATE_REPORT.md item 14 (the sanctioned §16 execution shape — authorized 2026-09-12, session 46, scripts/c11_s16_authorization.yaml; not yet executed)",
+    "status": "§16 AUTHORIZED 2026-09-12 (session 46, operator — scripts/c11_s16_authorization.yaml); no batch executed yet",
     "scope_sp": 170,
     "batches": {
       "count": 14,
@@ -109,10 +109,10 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.0,
+      "value": 0.4308,
       "formula": "promoted / total_edges",
-      "inputs": "0 / 65",
-      "meaning": "0 by design this round: nothing is ratified until the operator records verdicts (this package's purpose)"
+      "inputs": "28 / 65",
+      "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
       "value": 0.9836,
