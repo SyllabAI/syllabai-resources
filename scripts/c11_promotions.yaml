@@ -46,6 +46,34 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
+    source: 4CH1-CON-BOND-BREAKING-MAKING
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EXO-ENDO
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-BOND-ENERGY-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-BOND-BREAKING-MAKING
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-BOND-ENERGY-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COVALENT-BOND
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-CATALYST
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ACTIVATION-ENERGY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
     source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-CHROMATOGRAPHY
@@ -172,6 +200,13 @@ promotions:
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
 - edge:
+    source: 4CH1-CON-DYNAMIC-EQUILIBRIUM
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REVERSIBLE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
     source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-ELECTROLYSIS
@@ -242,6 +277,34 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EXO-ENDO
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-EQ-POSITION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CATALYST
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-EQ-POSITION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-DYNAMIC-EQUILIBRIUM
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-EQ-POSITION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EXO-ENDO
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
     source: 4CH1-CON-EQ-SYMBOL
     relation: EXPLAINED_BY
     target: 4CH1-CON-CONSERVATION-MASS
@@ -311,6 +374,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-HEAT-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CALORIMETRY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-HEAT-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EXO-ENDO
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
 - edge:
     source: 4CH1-CON-ION
     relation: REQUIRES_PREREQUISITE
@@ -423,6 +500,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLAR-ENTHALPY
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HEAT-CALC
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-MOLAR-ENTHALPY
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
 - edge:
     source: 4CH1-CON-MOLAR-GAS-VOL
     relation: REQUIRES_PREREQUISITE
@@ -543,6 +634,20 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-CON-RATE-FACTORS
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-COLLISION-THEORY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-RATE-FACTORS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CONCENTRATION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
     source: 4CH1-CON-REACTING-MASS
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-MOLAR-RATIO
@@ -556,6 +661,41 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-REACTION-PROFILE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ACTIVATION-ENERGY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-REACTION-PROFILE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-REVERSIBLE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EQ-SYMBOL
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-REVERSIBLE-EXAMPLES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REVERSIBLE
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-REVERSIBLE-EXAMPLES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-WATER-CRYST
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
 - edge:
     source: 4CH1-CON-RF-VALUE
     relation: REQUIRES_PREREQUISITE
@@ -655,6 +795,34 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-MIS-BOND-ENERGY-COUNT
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-BOND-ENERGY-CALC
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-BOND-ENERGY-COUNT
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-BOND-ENERGY-CALC
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-CATALYST
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-CATALYST
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
     source: 4CH1-MIS-CONC-UNIT
     relation: REMEDIATED_BY
     target: 4CH1-CON-VOL-CONVERSION
@@ -697,12 +865,54 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-MIS-ENTHALPY-UNIT-J
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-MOLAR-ENTHALPY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-ENTHALPY-UNIT-J
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-MOLAR-ENTHALPY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-EQ-PRESSURE-FEWER
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-EQ-POSITION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-EQ-PRESSURE-FEWER
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-EQ-POSITION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
     source: 4CH1-MIS-EQ-SUBSCRIPT
     relation: MISCONCEPTION_OF
     target: 4CH1-CON-EQ-SYMBOL
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-EQ-TEMP-EXO
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-EQ-POSITION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-MIS-EQ-TEMP-EXO
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-EQ-POSITION
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
 - edge:
     source: 4CH1-MIS-GAS-PARTICLES-TOUCH
     relation: REMEDIATED_BY
@@ -836,3 +1046,38 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-PR-09
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CALORIMETRY
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-PR-10
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-RATE-EXPERIMENTS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-PR-10
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-RATE-FACTORS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-PR-11
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CATALYST
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-PR-11
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-RATE-EXPERIMENTS
+  validated_by: operator
+  validated_date: '2026-09-13'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md

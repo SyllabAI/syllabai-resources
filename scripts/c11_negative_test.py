@@ -176,6 +176,14 @@ def mut_07_forged_promotion(g: Path):
     # session-52 note: after the batch-3 §18 application (39 promotions) the
     # state is unchanged in kind — the only SUGGESTED semantic edges are
     # again the 3 pilot operator HOLDs — same corruption class.
+    # session-53 note: after the batch-4 authoring the first SUGGESTED
+    # semantic edge is a batch-4 edge (sorted order: CON-BOND-BREAKING-MAKING
+    # -> CON-EXO-ENDO, clean SUGGESTED awaiting the batch-4 operator gate) —
+    # same corruption class.
+    # session-54 note: after the batch-4 §18 application (35 promotions) the
+    # only SUGGESTED semantic edges are again the 3 pilot operator HOLDs
+    # (session-48/session-50/session-52 notes apply once more) — same
+    # corruption class (unbacked HUMAN_VALIDATED on a SUGGESTED edge).
     d = load(g, "concept_edges.yaml")
     e = next(e for e in d["edges"]
              if e["relation"] != "PART_OF"

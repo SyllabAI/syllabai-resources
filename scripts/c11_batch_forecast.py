@@ -213,7 +213,12 @@ out = {
     # (future_batch_records[3]; Section 3 Physical Chemistry 3.1-3.22C, 22
     # SPs + PR-09/10/11, under the session-52 cross-slice boundary ruling);
     # baselines unchanged.
-    "session": 53,
+    # session-54 (2026-09-13): batch-4 operator gate SETTLED — verdicts
+    # recorded (the practical verdict policy: 35 edge CONFIRM / 22 node
+    # CONFIRM / 6 KEEP_AS_IS / 14 held acknowledged; FP-B4-1 + FP-B4-2
+    # special attention, evidence inspected) and applied through §18 (35
+    # promotions, operator; store total 153); baselines unchanged.
+    "session": 54,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -301,8 +306,16 @@ out = {
                    "cross-slice boundary ruling recorded + machine-checked; "
                    "the S3 Paper-2 MS set pinned: ENERGETICS/RATES/RRE_MS_P2 "
                    "— all three families covered, zero unpinned Paper-2 "
-                   "family; authoring to the operator gate is the next "
-                   "session's extraction); batches 5-14 not started"),
+                   "family), AUTHORED to its operator gate 2026-09-13 "
+                   "(session 53: 22 SPs / 22 nodes / 35 authored edges / "
+                   "14 held / 0 RR, 5 sanctioned cross-section boundary "
+                   "edges), SETTLED 2026-09-13 (session 54: the operator's "
+                   "practical verdict policy — 35 edge CONFIRM promoted "
+                   "via §18, store total 153; zero RR authored; 6 identity "
+                   "decisions KEEP_AS_IS; 14 held preserved — quarantined; "
+                   "verdict record scripts/c11_batch4_verdicts.yaml; "
+                   "Section 3 coverage settled — S1 60 + S3 22 = 82 of 182 "
+                   "SPs); batches 5-14 not started"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,
@@ -519,9 +532,11 @@ out = {
             "rates": {
                 "held_rate": 0.2857,
                 "rejection_rate": 0.0,
-                # gate PENDING: zero promotions until the operator records
-                # batch-4 verdicts (this record is authored-to-gate only)
-                "promotion_rate": 0.0,
+                # session-54: gate SETTLED — the operator's batch-4 verdicts
+                # applied through §18 (35 promotions, operator); zero RR
+                # authored, so every authored edge was promotable
+                # post-verdict
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -539,7 +554,7 @@ out = {
                 "experiment/describe/explain triple minted as three nodes "
                 "with one EXPLAINED_BY and no prereqs among them; B4-ID-05/06)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 35, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -58.3% / edges -42.1% vs "
                            "the 2.4/2.75 model — the same per-SP yield band "
@@ -569,10 +584,26 @@ out = {
                            "deduction + tip). FULL S3 Paper-2 MS coverage "
                            "for the first time (all three families pinned; "
                            "the RATES and RRE pins overlap — recorded). "
-                           "Operator gate PENDING: verdicts to be recorded "
-                           "in scripts/c11_batch4_verdicts.yaml (template "
-                           "scripts/c11_batch4_verdicts_template.yaml; sheet "
-                           "C11_BATCH4_REVIEW_SHEET.md)."),
+                           "Session-54 (2026-09-13): operator gate SETTLED — "
+                           "the practical verdict policy applied with the "
+                           "two §3 special-attention rulings recorded "
+                           "(FP-B4-1: the bond-energy -> covalent-bond "
+                           "boundary row's evidence inspected and found "
+                           "sufficient — the note's own dependency "
+                           "statement + all-covalent worked examples + the "
+                           "displayed-formula tip + the session-52 ruling; "
+                           "FP-B4-2: both medium-confidence misconception "
+                           "rows' MS evidence inspected — the per-mistake "
+                           "deduction + tip naming, the byte-verified "
+                           "reject entry) in scripts/c11_batch4_verdicts.yaml "
+                           "(35 edge CONFIRM / 22 node CONFIRM / 6 identity "
+                           "decisions KEEP_AS_IS / 14 held acknowledged — "
+                           "quarantined, a held record is a valid outcome) "
+                           "and applied through §18 (35 promotions, "
+                           "operator, review_ref = the B4 diff-review "
+                           "bundle; promotion_rate 1.0; store total 153). "
+                           "Section 3 coverage SETTLED (S1 60 + S3 22 = 82 "
+                           "of 182 SPs)."),
         },
     ],
     "future_batch_record_schema": {

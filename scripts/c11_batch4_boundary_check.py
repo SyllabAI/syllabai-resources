@@ -140,7 +140,11 @@ check("C every sanctioned target is also non-mint protected",
 # scripts/c11_batch4_decisions.yaml, extraction_pass c11-s16-batch-4, the
 # record this ruling governs; the ruling itself still mints nothing and the
 # growth is exactly the batch-4 authoring shape: 22 nodes + 20 PART_OF + 35
-# authored semantic edges, ZERO promotions — 118 HV unchanged.)
+# authored semantic edges, ZERO promotions — 118 HV unchanged.
+# session-54 re-anchor, dated, protective intent unchanged: the 35 batch-4
+# edges were promoted to HUMAN_VALIDATED by the operator's sanctioned
+# verdicts (c11_batch4_verdicts, §18) — HV 118 -> 153, graph shape
+# unchanged; the ruling still mints nothing.)
 # ---------------------------------------------------------------------------
 check("D1 the ruling mints no node (store node set = 91 + the sanctioned "
       "22 batch-4 nodes)",
@@ -152,9 +156,10 @@ check("D2 the ruling mints no edge (store edge set = 220 + the sanctioned "
               if e["relation"] == "PART_OF") == 117)
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED")
-check("D3 store at the session-53 authored-to-gate shape (118 HV "
-      "unchanged — batch 4 authoring promotes nothing)",
-      hv == 118)
+check("D3 store at the session-54 post-verdict shape (153 HV — the 35 "
+      "batch-4 edges promoted by the operator's verdicts; the ruling "
+      "itself still mints nothing)",
+      hv == 153)
 check("D4 non_goals recorded (no ontology redesign / no re-scope / no "
       "promotion authority)",
       len(rul.get("non_goals", [])) >= 4)
@@ -168,5 +173,6 @@ print("c11_batch4_boundary_check: ALL PASS — the cross-slice boundary "
       "ruling (session 52) is schema-valid, its zero-conflict audit "
       "reproduces on the live store, every sanctioned boundary target "
       "exists with exact ownership, and the ruling mints nothing "
-      "(113/275/117 at the session-53 batch-4 authored-to-gate state, "
-      "118 HV unchanged).")
+      "(113/275/117 at the session-54 post-verdict state, 153 HV — the "
+      "35 batch-4 edges operator-promoted; the ruling itself authored "
+      "none of them).")

@@ -1,0 +1,468 @@
+# T-C11 §16 batch 4 — OPERATOR verdict record (session-53 package), FILLED by operator decision session 54 (2026-09-13). OPERATOR-OWNED.
+# Operator verdict policy (session-54 directive, §2 Practical verdict policy): CONFIRM when
+# the existing evidence substantively supports the relationship/node and the modeling choice
+# is reasonable; HOLD/REJECT only for genuine evidence insufficiency or a materially wrong
+# relationship/classification; normal ontology ambiguity is NOT a blocker — see
+# meta.operator_ruling for the recorded mapping (incl. the §3 special-attention rulings on
+# FP-B4-1 and FP-B4-2, evidence inspected).
+# Vocabulary and pathway: see the meta.instructions block. Verdicts are RECORDED; the application state lives in
+# scripts/c11_promotions.yaml (§18) — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-4-verdicts
+  batch: 4
+  session: 54
+  file: OPERATOR-OWNED verdict record for C11_BATCH4_REVIEW_SHEET (session-53 package) — verdicts recorded
+    by operator decision, session 54 (2026-09-13).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-4 extraction_pass
+    is c11-s16-batch-4 (Section 3 Physical Chemistry, 22 SPs 4CH1-3.1-3.22C); its 14 held candidates are
+    informational only (no reopening, no promotion of held candidates — B4-H-08..11 record the four classic
+    misconceptions refused for missing documentation; revisit only with new MS evidence). Five edges are
+    cross-section boundary edges into the ruled S1 owners (CON-MOLE, CON-COVALENT-BOND, CON-CONCENTRATION,
+    CON-EQ-SYMBOL, CON-WATER-CRYST — sanctioned, no duplicate mint; the bond-energy->covalent-bond row
+    is the medium-confidence one to eyeball). The next session applies verdicts via the §18 promotion
+    pathway / §7 decision-record re-authoring; nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: Use CONFIRM when the existing evidence substantively supports the relationship/node and
+      the modeling choice is reasonable. Use HOLD when evidence is insufficient or the relationship is
+      plausible but not adequately demonstrated by the supplied corpus. Use REJECT when the evidence does
+      not support the relationship or the relationship/classification is materially wrong. Do not turn
+      normal ontology ambiguity into a blocking issue. This is an iterative graph. We are no longer trying
+      to achieve theoretical perfection before the system can proceed.
+    session: 54
+    decided_by: operator
+    decided_date: '2026-09-13'
+    mapping: 'The operator ruled verdicts and immediate promotion in one session (''Once the verdict file
+      is complete and validated: apply the accepted Batch-4 decisions immediately through the existing
+      operator-only promotion mechanism. Do not create another approval cycle... The operator verdict
+      file itself is the authorization.''). Special attention was paid as directed (§3): FP-B4-1 — the
+      bond-energy -> covalent-bond boundary row''s evidence was actually inspected (the note''s own ''necessary
+      to know the bonds present'' dependency statement, the all-covalent worked-example bond set, the
+      displayed-formula examiner tip, and the authoritative session-52 boundary ruling sanctioning exactly
+      this target) — the existing evidence is sufficient for the authored relationship and relation class;
+      FP-B4-2 — both medium-confidence misconception rows'' mark-scheme evidence was actually inspected
+      (the ENERGETICS MS per-mistake deduction rule on the bond-sum rows + the tip naming the mistake
+      class; the RRE MS byte-verified REJECT entry ''shifts to the side with fewer (gas) moles/molecules''
+      with the antonym-pairing attribution recorded) — both really are documented wrong-answer patterns.
+      Applied per row: every edge row CONFIRM (the existing evidence substantively supports each authored
+      relationship and the modeling choice is reasonable — 128/128 quote anchors machine-verified G03/c11.4;
+      pass-2 adversarial review 35/35 with zero demotions; the FLAGGED rows carry boundary-evidence-asymmetry
+      / relation-class / medium-confidence flags, the normal-ontology-ambiguity class the operator explicitly
+      refuses to treat as a blocker); every node row CONFIRM (no duplicate canonical mint; the five cross-section
+      boundary edges reuse the ruled S1 owners; pass-2 verified 22/22); each identity decision KEEP_AS_IS
+      (prefer the existing canonical concept; avoid unnecessary splitting or merging; do not redesign
+      the S3 ontology — no merge, no split, no boundary re-scope); and the held appendix stays quarantined
+      (a held record is a valid outcome — no rescue merely to increase graph coverage). This batch authored
+      NO REVIEW_REQUIRED edge, so no RR settlement row exists. Verdicts recorded session 54; the application
+      state lives in scripts/c11_promotions.yaml (the §18 pathway is the only HUMAN_VALIDATED source)
+      — this file never carries promotion payload or promoted status. Changing a recorded verdict requires
+      an explicit operator decision.'
+edge_verdicts:
+- id: B4-E-01
+  triple: 4CH1-CON-BOND-BREAKING-MAKING REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-02
+  triple: 4CH1-CON-BOND-ENERGY-CALC REQUIRES_PREREQUISITE 4CH1-CON-BOND-BREAKING-MAKING
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-03
+  triple: 4CH1-CON-BOND-ENERGY-CALC REQUIRES_PREREQUISITE 4CH1-CON-COVALENT-BOND
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54, §3 special attention): CONFIRM as authored — the FP-B4-1 evidence
+    was actually inspected: the note''s own dependency statement (''To do this it is necessary to know
+    the bonds present in both the reactants and products''), the all-covalent worked-example bond set
+    (H-H, Cl-Cl, H-Cl, H-Br, Br-Br — the 1.44/1.46 diatomic set), and the examiner tip''s displayed-formula-first
+    strategy (the S1 covalent-bond representation) substantively support the prerequisite; the session-52
+    boundary ruling sanctions exactly this target (batch-3 CON-COVALENT-BOND, no duplicate mint); the
+    note''s ''chemical bond'' wording caveat is honestly recorded in derivation_notes with confidence
+    medium — normal ontology wording, not a blocker.'
+- id: B4-E-04
+  triple: 4CH1-CON-CATALYST REQUIRES_PREREQUISITE 4CH1-CON-ACTIVATION-ENERGY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-05
+  triple: 4CH1-CON-DYNAMIC-EQUILIBRIUM REQUIRES_PREREQUISITE 4CH1-CON-REVERSIBLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-06
+  triple: 4CH1-CON-ENERGY-LEVEL-DIAGRAM REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-07
+  triple: 4CH1-CON-EQ-POSITION REQUIRES_PREREQUISITE 4CH1-CON-CATALYST
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-08
+  triple: 4CH1-CON-EQ-POSITION REQUIRES_PREREQUISITE 4CH1-CON-DYNAMIC-EQUILIBRIUM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-09
+  triple: 4CH1-CON-EQ-POSITION REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-10
+  triple: 4CH1-CON-HEAT-CALC REQUIRES_PREREQUISITE 4CH1-CON-CALORIMETRY
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the teach-sequence reading (the 3.2 note
+    teaches the formula inside the method; the spec''s own order 3.2 -> 3.3) matches the established EXPLICIT_TEACH_SEQUENCE
+    pattern (MOLAR-ENTHALPY -> HEAT-CALC, operator-CONFIRMED in batch 3); normal ontology reading, not
+    a blocker.'
+- id: B4-E-11
+  triple: 4CH1-CON-HEAT-CALC REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the sign step is the note''s own teaching
+    and the spec 3.3 demand (''Exothermic reactions have a negative enthalpy change'' — quote-verified);
+    the MS ''Ignore sign'' leniency is a marking fact, not a modeling defect; the dependency is real and
+    note-evidenced.'
+- id: B4-E-12
+  triple: 4CH1-CON-MOLAR-ENTHALPY REQUIRES_PREREQUISITE 4CH1-CON-HEAT-CALC
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-13
+  triple: 4CH1-CON-MOLAR-ENTHALPY REQUIRES_PREREQUISITE 4CH1-CON-MOLE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — OD-1 operand rule (Delta-H = Q/n uses n),
+    the note''s per-mole statement, session-52 sanctioned target CON-MOLE (pilot), no duplicate mint.'
+- id: B4-E-14
+  triple: 4CH1-CON-RATE-FACTORS EXPLAINED_BY 4CH1-CON-COLLISION-THEORY
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — EXPLAINED_BY stands on the note''s own causal
+    sentence (''We can use collision theory to explain why these factors influence the reaction rate'');
+    the weaker prerequisite reading is a theoretical alternative interpretation, not a blocker; one relation
+    per pair per the ratified discipline.'
+- id: B4-E-15
+  triple: 4CH1-CON-RATE-FACTORS REQUIRES_PREREQUISITE 4CH1-CON-CONCENTRATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the concentration rate-factor uses the S1
+    concept without re-teaching; session-52 sanctioned target CON-CONCENTRATION (pilot), no duplicate
+    mint.'
+- id: B4-E-16
+  triple: 4CH1-CON-REACTION-PROFILE REQUIRES_PREREQUISITE 4CH1-CON-ACTIVATION-ENERGY
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the profile''s peak IS the activation energy
+    (''The initial increase in energy, from the reactants to the peak of the curve, represents the activation
+    energy'' — quote-verified); the dual-node companion shape on 3.14C is B4-ID-04 KEEP_AS_IS (the B3-ID-05
+    1.58C precedent).'
+- id: B4-E-17
+  triple: 4CH1-CON-REACTION-PROFILE REQUIRES_PREREQUISITE 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-18
+  triple: 4CH1-CON-REVERSIBLE REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the reversible-notation statement is the
+    S1 eq-symbol usage; session-52 sanctioned target CON-EQ-SYMBOL (pilot), no duplicate mint.'
+- id: B4-E-19
+  triple: 4CH1-CON-REVERSIBLE-EXAMPLES REQUIRES_PREREQUISITE 4CH1-CON-REVERSIBLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-20
+  triple: 4CH1-CON-REVERSIBLE-EXAMPLES REQUIRES_PREREQUISITE 4CH1-CON-WATER-CRYST
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — 3.18 owns the reversible behaviour of the
+    hydrated-copper(II)-sulfate example, NOT the hydration term (session-52 ruling recorded exactly this
+    ownership split); sanctioned target CON-WATER-CRYST (pilot), no duplicate mint.'
+- id: B4-E-21
+  triple: 4CH1-MIS-BOND-ENERGY-COUNT REMEDIATED_BY 4CH1-CON-BOND-ENERGY-CALC
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — remediation target equals the WAP target
+    (the batch-1 B1-E-25 pattern, operator-CONFIRMED in batches 1-3); kept for misconception-recommendation
+    queries (node remediation_evidence also carries the corrective text).'
+- id: B4-E-22
+  triple: 4CH1-MIS-BOND-ENERGY-COUNT WRONG_ANSWER_PATTERN 4CH1-CON-BOND-ENERGY-CALC
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54, §3 special attention): CONFIRM as authored — the FP-B4-2 evidence
+    was actually inspected: the pinned ENERGETICS Paper-2 MS carries the per-mistake deduction rule twice
+    on the bond-sum rows (''Deduct 1 mark for each mistake'' on (4 x C-H) + (2 x O=O) and (2 x C=O) +
+    (4 x H-O)), and the note''s examiner tip names the exact mistake class (''Don''t forget to take into
+    account the balancing numbers when working out how many of each type of bond is being broken/formed'').
+    Two partial sources together document the wrong-answer pattern with assessment consequences; the honest
+    medium confidence records the derivation, not a defect.'
+- id: B4-E-23
+  triple: 4CH1-MIS-CATALYST-PARTICLE-ENERGY REMEDIATED_BY 4CH1-CON-CATALYST
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — remediation target equals the WAP target
+    (the B1-E-25 pattern); the corrective text (''The alternative pathway has a lower activation energy'')
+    is note-verified.'
+- id: B4-E-24
+  triple: 4CH1-MIS-CATALYST-PARTICLE-ENERGY WRONG_ANSWER_PATTERN 4CH1-CON-CATALYST
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-25
+  triple: 4CH1-MIS-ENTHALPY-UNIT-J REMEDIATED_BY 4CH1-CON-MOLAR-ENTHALPY
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — remediation target equals the WAP target
+    (the B1-E-25 pattern); the J-to-kJ conversion rule is note-verified.'
+- id: B4-E-26
+  triple: 4CH1-MIS-ENTHALPY-UNIT-J WRONG_ANSWER_PATTERN 4CH1-CON-MOLAR-ENTHALPY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-27
+  triple: 4CH1-MIS-EQ-PRESSURE-FEWER REMEDIATED_BY 4CH1-CON-EQ-POSITION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — remediation target equals the WAP target
+    (the B1-E-25 pattern); both directions of the molecule-count rule are note-verified.'
+- id: B4-E-28
+  triple: 4CH1-MIS-EQ-PRESSURE-FEWER WRONG_ANSWER_PATTERN 4CH1-CON-EQ-POSITION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54, §3 special attention): CONFIRM as authored — the FP-B4-2 evidence
+    was actually inspected: the pinned RRE Paper-2 MS REJECT column carries the byte-verified entry ''shifts
+    to the side with fewer (gas) moles/molecules''; a Reject-column entry is by definition a recorded
+    wrong answer students give; the antonym-pairing attribution (three reject entries -> three sub-questions)
+    is sound and recorded in derivation_notes; the remediation quotes are note-verified. The honest medium
+    confidence records the column attribution method, not a defect.'
+- id: B4-E-29
+  triple: 4CH1-MIS-EQ-TEMP-EXO REMEDIATED_BY 4CH1-CON-EQ-POSITION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — remediation target equals the WAP target
+    (the B1-E-25 pattern); the endothermic-direction shift rule is note-verified.'
+- id: B4-E-30
+  triple: 4CH1-MIS-EQ-TEMP-EXO WRONG_ANSWER_PATTERN 4CH1-CON-EQ-POSITION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-31
+  triple: 4CH1-PR-09 REQUIRES_PREREQUISITE 4CH1-CON-CALORIMETRY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-32
+  triple: 4CH1-PR-10 REQUIRES_PREREQUISITE 4CH1-CON-RATE-EXPERIMENTS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-33
+  triple: 4CH1-PR-10 REQUIRES_PREREQUISITE 4CH1-CON-RATE-FACTORS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-34
+  triple: 4CH1-PR-11 REQUIRES_PREREQUISITE 4CH1-CON-CATALYST
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-E-35
+  triple: 4CH1-PR-11 REQUIRES_PREREQUISITE 4CH1-CON-RATE-EXPERIMENTS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+node_verdicts:
+- id: B4-N-01
+  code: 4CH1-CON-ACTIVATION-ENERGY
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the dual node attachment on 3.14C stands
+    (B4-ID-04 KEEP_AS_IS: concept vs representation, the B3-ID-05 1.58C precedent; both independently
+    assessable).'
+- id: B4-N-02
+  code: 4CH1-CON-BOND-BREAKING-MAKING
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-03
+  code: 4CH1-CON-BOND-ENERGY-CALC
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-04
+  code: 4CH1-CON-CALORIMETRY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-05
+  code: 4CH1-CON-CATALYST
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the know+know dual attachment (3.12 definition
+    + 3.13 mechanism) stays one node (B4-ID-01 KEEP_AS_IS: the ratified 1.19/1.20 + B3-ID-01 know-pair
+    precedents; one note teaches both).'
+- id: B4-N-06
+  code: 4CH1-CON-COLLISION-THEORY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-07
+  code: 4CH1-CON-DYNAMIC-EQUILIBRIUM
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the know+know dual attachment (3.19C sealed-container
+    reach + 3.20C characteristics) stays one node (B4-ID-02 KEEP_AS_IS; one note teaches both).'
+- id: B4-N-08
+  code: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-09
+  code: 4CH1-CON-EQ-POSITION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the know+understand dual attachment (3.21C
+    catalyst rule + 3.22C temperature/pressure shifts) stays one node (B4-ID-03 KEEP_AS_IS; Le Chatelier
+    stays a corpus-evidenced alias while the spec de-scopes the name — FN-B4-3 records the gap explicitly).'
+- id: B4-N-10
+  code: 4CH1-CON-EXO-ENDO
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-11
+  code: 4CH1-CON-HEAT-CALC
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-12
+  code: 4CH1-CON-MOLAR-ENTHALPY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-13
+  code: 4CH1-CON-RATE-EXPERIMENTS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the 3.9 experiments node stays separate
+    (B4-ID-06 KEEP_AS_IS: distinct spec demands — describe the experiments vs describe the factors; two
+    notes cover them).'
+- id: B4-N-14
+  code: 4CH1-CON-RATE-FACTORS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the 3.10 factors node stays separate (B4-ID-06
+    KEEP_AS_IS); its EXPLAINED_BY edge (B4-E-14 CONFIRM) carries the 3.11 causal link; the directionless
+    experiments-vs-factors edge stays held (B4-H-03).'
+- id: B4-N-15
+  code: 4CH1-CON-REACTION-PROFILE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the representation node on 3.14C stays separate
+    from the concept node (B4-ID-04 KEEP_AS_IS; the dual-node attachment precedent).'
+- id: B4-N-16
+  code: 4CH1-CON-REVERSIBLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B4-N-17
+  code: 4CH1-CON-REVERSIBLE-EXAMPLES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the named-examples node (3.18) stays separate
+    from the concept/notation node (3.17) (B4-ID-05 KEEP_AS_IS: distinct spec demands, distinct learning
+    surfaces).'
+- id: B4-M-01
+  code: 4CH1-MIS-BOND-ENERGY-COUNT
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54, §3 special attention): CONFIRM as authored — the mark-scheme evidence
+    really establishes the misconception as a documented wrong-answer pattern: the ENERGETICS Paper-2
+    MS per-mistake deduction rule (twice, on the bond-sum rows) + the examiner tip naming the mistake
+    class (ignoring balancing numbers in bond counting); honest medium confidence recorded, not a defect.'
+- id: B4-M-02
+  code: 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: ''
+- id: B4-M-03
+  code: 4CH1-MIS-ENTHALPY-UNIT-J
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: ''
+- id: B4-M-04
+  code: 4CH1-MIS-EQ-PRESSURE-FEWER
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54, §3 special attention): CONFIRM as authored — the mark-scheme evidence
+    really establishes the misconception as a documented wrong-answer pattern: the RRE Paper-2 MS REJECT
+    entry ''shifts to the side with fewer (gas) moles/molecules'' (byte-verified) records that students
+    give this wrong answer; the antonym-pairing column attribution is recorded in derivation_notes; honest
+    medium confidence recorded, not a defect.'
+- id: B4-M-05
+  code: 4CH1-MIS-EQ-TEMP-EXO
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator policy (session 54): CONFIRM as authored — the reject/accept antonym pair (''moves
+    in the exothermic direction'' rejected for the endothermic-direction answer) is layout-robust; the
+    corrective rule is note-verified.'
+identity_decisions:
+- id: B4-ID-01
+  question: split the catalyst know+know dual attachment into separate 3.12 (definition) and 3.13 (mechanism)
+    nodes
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 54, §4): KEEP_AS_IS — the catalyst know+know dual attachment (3.12
+    definition + 3.13 mechanism) stays one node: the ratified 1.19/1.20 + B3-ID-01 know-pair precedents;
+    the simplest representation that preserves the distinction without a duplicate canonical concept.
+    B4-N-05 confirmed as authored.'
+- id: B4-ID-02
+  question: split CON-DYNAMIC-EQUILIBRIUM into the 3.19C (reach in a sealed container) and 3.20C (characteristics)
+    nodes
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 54, §4): KEEP_AS_IS — CON-DYNAMIC-EQUILIBRIUM keeps the 3.19C sealed-container
+    reach and 3.20C characteristics as one node (same know-pair precedents; one note teaches both). B4-N-07
+    confirmed as authored.'
+- id: B4-ID-03
+  question: split CON-EQ-POSITION into the 3.21C catalyst rule and the 3.22C temperature/pressure shift
+    rules
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 54, §4): KEEP_AS_IS — CON-EQ-POSITION keeps the 3.21C catalyst rule
+    and 3.22C temperature/pressure shift rules as one node (know+understand dual attachment, the ratified
+    precedent; one note covers both). B4-N-09 confirmed as authored.'
+- id: B4-ID-04
+  question: merge CON-ACTIVATION-ENERGY and CON-REACTION-PROFILE (the dual node attachment on 3.14C —
+    the concept vs its representation)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 54, §4): KEEP_AS_IS — CON-ACTIVATION-ENERGY (the concept) and CON-REACTION-PROFILE
+    (the representation) stay separate nodes on 3.14C: concept vs representation is a meaningful distinction,
+    independently assessable (the B3-ID-05 1.58C dual-node precedent). No merge: merging would fold a
+    draw-skill into a definition. B4-N-01 / B4-N-15 confirmed as authored.'
+- id: B4-ID-05
+  question: fold CON-REVERSIBLE-EXAMPLES into CON-REVERSIBLE (one 3.17+3.18 node) instead of the separate
+    examples node
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 54, §4): KEEP_AS_IS — CON-REVERSIBLE-EXAMPLES stays a separate 3.18
+    node (the named reversible reactions are a distinct describe demand with distinct learning surfaces);
+    no fold into CON-REVERSIBLE. B4-N-17 confirmed as authored.'
+- id: B4-ID-06
+  question: fold CON-RATE-EXPERIMENTS and CON-RATE-FACTORS into one rate node (the spec's 3.9/3.10 experiment/describe
+    pair)
+  verdict: KEEP_AS_IS
+  notes: 'Operator policy (session 54, §4): KEEP_AS_IS — CON-RATE-EXPERIMENTS (3.9) and CON-RATE-FACTORS
+    (3.10) stay separate nodes: distinct spec demands (describe the experiments vs describe the factors),
+    two notes; the directionless prerequisite between them stays held (B4-H-03). No fold. B4-N-13 / B4-N-14
+    confirmed as authored.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator policy (session 54, §5): the 14 held candidates (B4-H-01..14) stay held — quarantined,
+    no reopening, no rescue. A held record is a valid outcome; held candidates are not rescued merely
+    to increase graph coverage. The four CLASSIC misconceptions (B4-H-08..11 — static equilibrium, consumed
+    catalyst, catalyst-shifts-position, bond-breaking exo/endo swap) revisit only with new mark-scheme
+    evidence documenting the wrong answers; the unaudited sixth boundary edge (B4-H-14) stays outside
+    the five-target session-52 ruling.'

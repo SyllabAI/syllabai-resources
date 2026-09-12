@@ -459,10 +459,14 @@ def main() -> int:
         # not-actionable rows = 3 pilot operator HOLDs + the pilot RR + the
         # settled batch-1 RR; promo_count stays 118 (28+28+23+39, all
         # operator — batch 4 adds zero promotions at authoring).
-        check("R1 reports 35 actionable / 5 not-actionable / 118 promotions",
-              "actionable: 35" in r.stdout
+        # session-54: the batch-4 verdicts were APPLIED (35 §18 promotions,
+        # c11_batch4_verdicts) — the actionable surface is empty again
+        # until the next batch's gate; promo_count 118 -> 153 (28+28+23+39
+        # +35, all operator).
+        check("R1 reports 0 actionable / 5 not-actionable / 153 promotions",
+              "actionable: 0" in r.stdout
               and "not-actionable: 5" in r.stdout
-              and "promo_count=118" in r.stdout)
+              and "promo_count=153" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

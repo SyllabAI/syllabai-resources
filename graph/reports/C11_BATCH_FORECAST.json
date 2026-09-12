@@ -1,7 +1,7 @@
 {
   "task": "T-C11",
   "instrument": "batch-forecast",
-  "session": 53,
+  "session": 54,
   "generated": "2026-09-13",
   "baselines": {
     "resources": "9ce37bc",
@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 118,
-    "human_validated": 118,
+    "promoted": 153,
+    "human_validated": 153,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -38,7 +38,7 @@
   },
   "s16_projection": {
     "source": "graph/reports/C11_S16_GATE_REPORT.md item 14 (the sanctioned §16 execution shape — authorized 2026-09-12, session 46, scripts/c11_s16_authorization.yaml; batch 1 authored session 47, pending its operator review gate)",
-    "status": "§16 AUTHORIZED 2026-09-12 (session 46, operator — scripts/c11_s16_authorization.yaml); batch 1 AUTHORED 2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored edges / 12 held / 1 RR quarantine), SETTLED 2026-09-12 (session 48: operator ruling 'CONFIRM all' — 28 edge CONFIRM promoted via §18, store total 56; RR settled HOLD_REVIEW_REQUIRED; verdict record scripts/c11_batch1_verdicts.yaml); batch 2 AUTHORED 2026-09-12 (session 49: 12 SPs / 14 nodes / 23 authored edges / 10 held / 0 RR; 5 cross-boundary edges), SETTLED 2026-09-12 (session 50: operator ruling 'CONFIRM all' — 23 edge CONFIRM promoted via §18, store total 79; zero RR authored, so no settlement row; verdict record scripts/c11_batch2_verdicts.yaml); batch 3 AUTHORED 2026-09-12 (session 51: the full S1 remainder 4CH1-1.37-1.60C, 24 SPs / 24 nodes / 39 authored edges / 14 held / 0 RR, 6 cross-boundary edges + 3 Paper-2 MS pins — FN-B2-1 closed; awaiting its operator gate; Section 1 coverage complete), SETTLED 2026-09-13 (session 52: the operator's practical-review policy — 39 edge CONFIRM promoted via §18, store total 118; zero RR authored; 7 identity decisions KEEP_AS_IS; 14 held preserved — clean quarantine; verdict record scripts/c11_batch3_verdicts.yaml); batch 4 (S3 Physical) COMMISSIONED + STARTED session 52 (the cross-slice boundary ruling recorded + machine-checked; the S3 Paper-2 MS set pinned: ENERGETICS/RATES/RRE_MS_P2 — all three families covered, zero unpinned Paper-2 family; authoring to the operator gate is the next session's extraction); batches 5-14 not started",
+    "status": "§16 AUTHORIZED 2026-09-12 (session 46, operator — scripts/c11_s16_authorization.yaml); batch 1 AUTHORED 2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored edges / 12 held / 1 RR quarantine), SETTLED 2026-09-12 (session 48: operator ruling 'CONFIRM all' — 28 edge CONFIRM promoted via §18, store total 56; RR settled HOLD_REVIEW_REQUIRED; verdict record scripts/c11_batch1_verdicts.yaml); batch 2 AUTHORED 2026-09-12 (session 49: 12 SPs / 14 nodes / 23 authored edges / 10 held / 0 RR; 5 cross-boundary edges), SETTLED 2026-09-12 (session 50: operator ruling 'CONFIRM all' — 23 edge CONFIRM promoted via §18, store total 79; zero RR authored, so no settlement row; verdict record scripts/c11_batch2_verdicts.yaml); batch 3 AUTHORED 2026-09-12 (session 51: the full S1 remainder 4CH1-1.37-1.60C, 24 SPs / 24 nodes / 39 authored edges / 14 held / 0 RR, 6 cross-boundary edges + 3 Paper-2 MS pins — FN-B2-1 closed; awaiting its operator gate; Section 1 coverage complete), SETTLED 2026-09-13 (session 52: the operator's practical-review policy — 39 edge CONFIRM promoted via §18, store total 118; zero RR authored; 7 identity decisions KEEP_AS_IS; 14 held preserved — clean quarantine; verdict record scripts/c11_batch3_verdicts.yaml); batch 4 (S3 Physical) COMMISSIONED + STARTED session 52 (the cross-slice boundary ruling recorded + machine-checked; the S3 Paper-2 MS set pinned: ENERGETICS/RATES/RRE_MS_P2 — all three families covered, zero unpinned Paper-2 family), AUTHORED to its operator gate 2026-09-13 (session 53: 22 SPs / 22 nodes / 35 authored edges / 14 held / 0 RR, 5 sanctioned cross-section boundary edges), SETTLED 2026-09-13 (session 54: the operator's practical verdict policy — 35 edge CONFIRM promoted via §18, store total 153; zero RR authored; 6 identity decisions KEEP_AS_IS; 14 held preserved — quarantined; verdict record scripts/c11_batch4_verdicts.yaml; Section 3 coverage settled — S1 60 + S3 22 = 82 of 182 SPs); batches 5-14 not started",
     "scope_sp": 170,
     "batches": {
       "count": 14,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.4291,
+      "value": 0.5564,
       "formula": "promoted / total_edges",
-      "inputs": "118 / 275",
+      "inputs": "153 / 275",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -333,7 +333,7 @@
       "rates": {
         "held_rate": 0.2857,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -343,13 +343,13 @@
         "FP-B4-4 (family shape: the 3.9/3.10/3.11 experiment/describe/explain triple minted as three nodes with one EXPLAINED_BY and no prereqs among them; B4-ID-05/06)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 35,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -58.3% / edges -42.1% vs the 2.4/2.75 model — the same per-SP yield band as batch 3 (nodes/SP 1.0, edges/SP 1.6): the boundary discipline and SP-family granularity again, not thin coverage. No S1 identity re-minted — the FIVE ruled targets (CON-MOLE, CON-COVALENT-BOND, CON-CONCENTRATION, CON-EQ-SYMBOL, CON-WATER-CRYST) reached via exactly 5 sanctioned cross-section boundary edges (a considered sixth — the gas-molecule counting operand — held as B4-H-14 for the operator, not silently authored); 3.8/3.15/3.16 attach no concept node (the practicals own them — the 1.13/1.60C precedent); the spec's know pairs merged as dual attachments (3.12+3.13, 3.19C+3.20C, 3.21C+3.22C). Zero RR authored; 14 held (including the four CLASSIC misconceptions refused for missing documentation — static equilibrium, consumed catalyst, catalyst-shifts-position, bond-breaking exo/endo swap — the session-53 Step-3 rule); five misconceptions minted, all mark-scheme-documented (the catalyst particle-energy cap in BOTH S3 Paper-2 MS; the equilibrium reject/accept antonym pairs; the J-to-kJ partial-credit rule; the bond-count deduction + tip). FULL S3 Paper-2 MS coverage for the first time (all three families pinned; the RATES and RRE pins overlap — recorded). Operator gate PENDING: verdicts to be recorded in scripts/c11_batch4_verdicts.yaml (template scripts/c11_batch4_verdicts_template.yaml; sheet C11_BATCH4_REVIEW_SHEET.md)."
+      "notes_text": "pred-vs-act: nodes -58.3% / edges -42.1% vs the 2.4/2.75 model — the same per-SP yield band as batch 3 (nodes/SP 1.0, edges/SP 1.6): the boundary discipline and SP-family granularity again, not thin coverage. No S1 identity re-minted — the FIVE ruled targets (CON-MOLE, CON-COVALENT-BOND, CON-CONCENTRATION, CON-EQ-SYMBOL, CON-WATER-CRYST) reached via exactly 5 sanctioned cross-section boundary edges (a considered sixth — the gas-molecule counting operand — held as B4-H-14 for the operator, not silently authored); 3.8/3.15/3.16 attach no concept node (the practicals own them — the 1.13/1.60C precedent); the spec's know pairs merged as dual attachments (3.12+3.13, 3.19C+3.20C, 3.21C+3.22C). Zero RR authored; 14 held (including the four CLASSIC misconceptions refused for missing documentation — static equilibrium, consumed catalyst, catalyst-shifts-position, bond-breaking exo/endo swap — the session-53 Step-3 rule); five misconceptions minted, all mark-scheme-documented (the catalyst particle-energy cap in BOTH S3 Paper-2 MS; the equilibrium reject/accept antonym pairs; the J-to-kJ partial-credit rule; the bond-count deduction + tip). FULL S3 Paper-2 MS coverage for the first time (all three families pinned; the RATES and RRE pins overlap — recorded). Session-54 (2026-09-13): operator gate SETTLED — the practical verdict policy applied with the two §3 special-attention rulings recorded (FP-B4-1: the bond-energy -> covalent-bond boundary row's evidence inspected and found sufficient — the note's own dependency statement + all-covalent worked examples + the displayed-formula tip + the session-52 ruling; FP-B4-2: both medium-confidence misconception rows' MS evidence inspected — the per-mistake deduction + tip naming, the byte-verified reject entry) in scripts/c11_batch4_verdicts.yaml (35 edge CONFIRM / 22 node CONFIRM / 6 identity decisions KEEP_AS_IS / 14 held acknowledged — quarantined, a held record is a valid outcome) and applied through §18 (35 promotions, operator, review_ref = the B4 diff-review bundle; promotion_rate 1.0; store total 153). Section 3 coverage SETTLED (S1 60 + S3 22 = 82 of 182 SPs)."
     }
   ],
   "future_batch_record_schema": {

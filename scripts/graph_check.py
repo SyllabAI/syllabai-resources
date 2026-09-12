@@ -810,20 +810,21 @@ C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS \
     + C11_BATCH3_SPS + C11_BATCH4_SPS
 C11_STAGE = "pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-# State after the session-53 batch-4 authoring (to its operator gate): 113
+# State after the session-54 batch-4 verdict application: 113
 # nodes (29 pilot + 24 batch-1 + 14 batch-2 + 24 batch-3 + 22 batch-4), 275
-# edges (117 PART_OF + 158 semantic), 118 HUMAN_VALIDATED (28 pilot
+# edges (117 PART_OF + 158 semantic), 153 HUMAN_VALIDATED (28 pilot
 # session-45 + 28 batch-1 session-48 + 23 batch-2 session-50 + 39 batch-3
-# session-52 — all operator §18 promotions; UNCHANGED by batch 4:
-# authoring promotes nothing). The SUGGESTED semantic edges are the 3 pilot
-# operator HOLDs PLUS the 35 batch-4 authored edges awaiting this batch's
-# operator gate; batch nodes stay SUGGESTED (nodes have no §18 pathway).
+# session-52 + 35 batch-4 session-54 — all operator §18 promotions). The
+# SUGGESTED semantic edges are again ONLY the 3 pilot operator HOLDs
+# (frozen); batch nodes stay SUGGESTED (nodes have no §18 pathway).
 # 2 REVIEW_REQUIRED (the frozen pilot RR operator-HOLD edge + the settled
 # batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 4 authored no new RR —
 # every doubt was held at authoring: 14 held candidates).
 # (Session-53 note: the store was 91/220/97 at the session-52 state; batch 4
 # adds 22 nodes + 20 PART_OF + 35 authored semantic edges — statuses only,
-# zero promotions.)
+# zero promotions. Session-54 note: the 35 batch-4 SUGGESTED edges were
+# promoted to HUMAN_VALIDATED by the operator's batch-4 verdicts via §18;
+# counts 118 -> 153, graph shape unchanged.)
 C11_COUNTS = {"nodes": 113, "concepts": 98, "misconceptions": 15,
               "edges": 275,
               "part_of": 117, "requires_prerequisite": 115,
@@ -1563,9 +1564,9 @@ def main():
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
           f"generation; batch-1 verdicts applied session 48; batch-2 "
-          f"verdicts applied session 50; batch-3 verdicts applied session 52 "
-          f"— nodes have no §18 pathway; batch-4 edges SUGGESTED, awaiting "
-          f"this batch's operator gate), "
+          f"verdicts applied session 50; batch-3 verdicts applied session 52; "
+          f"batch-4 verdicts applied session 54 "
+          f"— nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "
           f"uncovered.")

@@ -197,7 +197,11 @@ for e in sorted(edges, key=ekey):
     tpl.append(f"  triple: {k}")
     tpl.append(f"  pretriage: {'FLAGGED' if flag else 'LIKELY_SAFE'}")
     tpl.append("  verdict:")
-    tpl.append(f"  notes: '{flag}'")
+    # session-54 fix: YAML single-quote escaping for embedded apostrophes
+    # (the session-53 emission wrote the B4-E-03 note's inner quotes raw,
+    # producing an unparseable template — genuine blocking defect at the
+    # operator gate; fixed at the source, content byte-preserved).
+    tpl.append(f"  notes: '{flag.replace("'", "''")}'")
 tpl.append("node_verdicts:")
 NODE_NOTES = {
     "4CH1-CON-CATALYST": "know+know dual attachment 3.12+3.13 (B4-ID-01)",
@@ -220,7 +224,8 @@ for n in sorted(nodes, key=lambda x: x["code"]):
     tpl.append(f"  code: {n['code']}")
     tpl.append(f"  pretriage: {'FLAGGED' if flag else 'LIKELY_SAFE'}")
     tpl.append("  verdict:")
-    tpl.append(f"  notes: '{flag}'")
+    # session-54 fix: same YAML single-quote escaping (defensive).
+    tpl.append(f"  notes: '{flag.replace("'", "''")}'")
 i = 0
 for n in sorted(nodes, key=lambda x: x["code"]):
     if n["family"] != "MISCONCEPTION":
@@ -237,7 +242,8 @@ for n in sorted(nodes, key=lambda x: x["code"]):
     tpl.append(f"  code: {n['code']}")
     tpl.append("  pretriage: LIKELY_SAFE (mark-scheme-documented)")
     tpl.append("  verdict:")
-    tpl.append(f"  notes: '{note}'")
+    # session-54 fix: same YAML single-quote escaping (defensive).
+    tpl.append(f"  notes: '{note.replace("'", "''")}'")
 tpl.append("identity_decisions:")
 tpl.append("- id: B4-ID-01")
 tpl.append("  question: split the catalyst know+know dual attachment into separate 3.12 (definition) and 3.13 (mechanism) nodes")
@@ -268,6 +274,17 @@ if (HERE / "c11_batch4_verdicts.yaml").exists():
 else:
     (HERE / "c11_batch4_verdicts_template.yaml").write_text(
         "\n".join(tpl) + "\n", encoding="utf-8")
+    # session-54 fix: fail-closed post-write parseability check for the
+    # emitted template (the session-53 emission shipped an unparseable
+    # notes scalar; this check makes that class of defect impossible to
+    # re-ship silently).
+    _tpl_doc = yaml.safe_load(
+        (HERE / "c11_batch4_verdicts_template.yaml")
+        .read_text(encoding="utf-8"))
+    assert _tpl_doc is not None and "edge_verdicts" in _tpl_doc
+    assert len(_tpl_doc["edge_verdicts"]) == 35
+    assert len(_tpl_doc["node_verdicts"]) == 22
+    assert len(_tpl_doc["identity_decisions"]) == 6
 
 # --- review sheet --------------------------------------------------------------
 L = []

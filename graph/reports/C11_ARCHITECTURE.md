@@ -775,6 +775,56 @@ above remain in force for everything not covered by a batch's sanctioned
 pathway — including DB writes and hand-edited graphs, which no batch
 pathway sanctions.)*
 
+> **Session-54 amendment (2026-09-13):** Batch 4 (Section 3 — Physical
+> Chemistry) OPERATOR GATE SETTLED + APPLIED per the operator's
+> session-54 directive ("verdicts → promotion → verification →
+> continuation"; "The operator verdict file itself is the authorization"
+> — no other approval cycle). The operator-owned
+> `scripts/c11_batch4_verdicts.yaml` (template filled + renamed by
+> `scripts/c11_verdict_encode_batch4.py`, fail-closed) records: 35 edge
+> CONFIRM / 22 node CONFIRM / 6 identity decisions KEEP_AS_IS / 14 held
+> acknowledged (quarantined — a held record is a valid outcome) / zero RR
+> settlement (none authored). The §3 special-attention rows were ruled
+> with evidence inspected: FP-B4-1 CONFIRM (the bond-energy →
+> covalent-bond boundary edge: the note's own dependency statement + the
+> all-covalent worked-example set + the displayed-formula tip + the
+> session-52 ruling) and FP-B4-2 CONFIRM (both medium-confidence
+> misconception rows really are documented wrong-answer patterns: the MS
+> per-mistake deduction + tip naming; the byte-verified REJECT entry with
+> antonym-pairing attribution). Application through the same §18 pathway
+> as batches 1-3: the B4 diff-review bundle → `approve --all --by
+> operator` → ONE `c11_promote.py` invocation → 35 promotions, gated G13
+> re-run ALL GATES GREEN. STORE TOTAL 153 HUMAN_VALIDATED (28 + 28 + 23 +
+> 39 + 35, all operator; the merged store shape is UNCHANGED at 113/275
+> [117 PART_OF + 158 semantic] — promotion changes statuses, not shape).
+> No §7 re-authoring sanctioned (all identity KEEP_AS_IS, zero RR, zero
+> ENRICHMENT/MERGE/SPLIT). New standing gate
+> `scripts/c11_batch4_verdict_check.py` ALL PASS (35 checks incl. the
+> three-way set equality + zero ruled-S1-owner re-mint). One genuine
+> blocking defect found + fixed at the source this session: the
+> session-53 review-build emission shipped an UNPARSEABLE verdict template
+> (raw inner quotes in a single-quoted YAML scalar, row B4-E-03); fixed
+> in `scripts/c11_batch4_review_build.py` with proper YAML escaping + a
+> new fail-closed post-write template parseability check (one template
+> line changed, content byte-preserved; sheet + JSON byte-identical).
+> State-anchored expectations re-anchored with dated session-54 comments
+> only (graph_check, batch-1/2/3 verdict-check store rows, diff-review
+> R1 0/5/153, boundary-check D3 153, negative-test mut_07, forecast batch-4
+> record SETTLED) — protective intent unchanged, no test weakened.
+> Determinism re-proven (generator + review-build + forecast re-runs
+> sha256-byte-identical; the template re-issue guard held). FULL GATE
+> SUITE GREEN at the final state; invariants held (frozen pilot +
+> batch-1/2/3 dispositions byte-intact; both RR edges REVIEW_REQUIRED; 63
+> held candidates quarantined across the five slices; nodes stay
+> SUGGESTED; 4.15 uncovered; AI attribution forbidden; graph/*.yaml never
+> hand-edited). SECTION 3 SETTLED: the concept graph now covers S1 60/60 +
+> S3 22/22 = 82 of 182 SPs. Per the operator's §8 exit directive T-C11
+> does NOT gate Phase 2 / learner-facing KG behavior /
+> misconception-aware recommendations / teacher-side KG work / pilot
+> readiness; the next T-C11 slice (S2 Inorganic, batch 5 — needs its own
+> cross-slice ruling S1↔S2 + S3↔S2) proceeds alongside the broader
+> SyllabAI roadmap, not as its gate. Batch 4 is CLOSED — do not reopen.
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)
