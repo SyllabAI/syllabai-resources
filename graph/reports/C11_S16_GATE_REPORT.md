@@ -98,6 +98,26 @@ medium-confidence judgments are presented-pending; nothing else is confirmed).
 > front-end lists the 23 batch-2 SUGGESTED edges as the pending actionable
 > surface (23 / 5 not-actionable / promo_count=56).
 
+> **Session-50 update (2026-09-12): batch 2 GATE SETTLED — verdicts recorded
+> and APPLIED.** The operator ruled on the session-49 review sheet, verbatim:
+> "CONFIRM all" — recorded in the operator-owned
+> `scripts/c11_batch2_verdicts.yaml` (23 edge CONFIRM / 14 node CONFIRM
+> [B2-N-08 keeps ENRICHMENT scoping] / 4 identity decisions KEEP_AS_IS /
+> held appendix of 10 acknowledged; NO RR settlement row — batch 2 authored
+> zero REVIEW_REQUIRED edge), encoded fail-closed by
+> `scripts/c11_verdict_encode_batch2.py`, applied session 50: §7
+> re-authoring (`scripts/c11_verdict_apply_batch2.py` — the B2-N-08
+> enrichment-scoping operator_decision block + header note; generator re-run
+> byte-identical, the blocks never reach graph/*.yaml) + §18 promotion
+> (bundle `graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md` →
+> `c11_diff_review.py approve --all --by operator` → ONE `c11_promote.py`
+> invocation → 23 promotions, all operator) → **79 HUMAN_VALIDATED total
+> (28 pilot + 28 batch-1 + 23 batch-2)**. The §18 surface is empty again
+> (0 / 5 not-actionable / promo_count=79). New standing gate
+> `scripts/c11_batch2_verdict_check.py` ALL PASS (three-way set equality:
+> verdict CONFIRM set == live batch-2 HV set == store batch-2 entries;
+> pilot + batch-1 slices intact; 4.15 uncovered).
+
 ## The 14 required readiness items
 
 ### 1. Final pilot node count
@@ -130,8 +150,8 @@ scope limits.
 | operator HOLD verdicts | session-45: **4** — the RR edge (session 41, below) + E-08/E-26/E-29 (session 44, rationale verbatim); session-41 snapshot: **1** |
 | operator PENDING (presented, undecided) | session-45: **0** — both settled HOLD (session 44); session-41 snapshot: **2** — the medium-confidence judgments (§5 below) |
 | held candidates (abstention record) | **11 held + 2 rejected = 13** (HELD-01…12 + HELD-13; HELD-09 was already rejected as the negative control; HELD-13 is the operator rejection) |
-| graph edges by state | session-49: **56 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs) + **23 batch-2 SUGGESTED** (pending the per-batch operator gate) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
-| authored SUGGESTED edges awaiting per-row confirmation | session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
+| graph edges by state | session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
+| authored SUGGESTED edges awaiting per-row confirmation | session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
 
 ### 4. Promoted count
 
@@ -163,6 +183,18 @@ session-45 bundle preserved byte-intact at its own path). The standing
 entries); graph_check c11.10/c11.13 green at 56 promoted; deterministic
 regeneration re-proven byte-identical with the 56-entry store.
 
+**Session-50 update (2026-09-12): 79.** The batch-2 operator gate settled
+(ruling "CONFIRM all", `scripts/c11_batch2_verdicts.yaml`): the same §18
+pathway applied 23 more operator promotions over operator-confirmed
+identities (bundle `graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md`; the
+pilot and B1 bundles preserved byte-intact at their own paths; zero RR
+authored in batch 2, so nothing was left un-promotable by settlement). The
+standing `c11_batch2_verdict_check.py` (32 checks) proves the three-way set
+equality (verdict CONFIRM set == live batch-2 HUMAN_VALIDATED set == store
+batch-2 entries); graph_check c11.10/c11.13 green at 79 promoted;
+deterministic regeneration re-proven byte-identical with the 79-entry
+store.
+
 ### 5. All remaining REVIEW_REQUIRED edges
 
 > Session-45 (2026-09-12): the two PENDING judgments under 2 below were
@@ -176,6 +208,10 @@ regeneration re-proven byte-identical with the 56-entry store.
 > HOLD_REVIEW_REQUIRED (ruling "CONFIRM all" — `scripts/c11_batch1_verdicts.yaml`
 > row B1-RR-01; §7 operator_decision block in the batch-1 decision record).
 > It stays REVIEW_REQUIRED and is not promotable.
+>
+> Session-50 (2026-09-12): batch 2 authored ZERO REVIEW_REQUIRED edges
+> (every doubt was held or resolved on explicit evidence), so no RR
+> settlement arose; the two RR edges below are unchanged.
 
 1. `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW` —
    **operator HOLD** (2026-09-11; reasons recorded verbatim; not eligible for
@@ -434,3 +470,22 @@ full gate suite is green at the 56-promotion state, including the new
 standing checker `scripts/c11_batch1_verdict_check.py`. No unratified
 promotion occurred: every promoted identity traces to an operator verdict
 row.)
+
+(Session-50 note: the batch-2 verdicts are likewise recorded and applied —
+the operator's ruling "CONFIRM all", encoded verbatim in
+`scripts/c11_batch2_verdicts.yaml` (23 edge CONFIRM / 14 node CONFIRM /
+4 KEEP_AS_IS / held 10 acknowledged; zero RR authored, so no settlement
+row) and settled through the same sanctioned shape: §7 re-authoring
+(`c11_verdict_apply_batch2.py` — the B2-N-08 enrichment block; generator
+re-run byte-identical) + §18 (bundle
+`graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md` → approve --all → one
+`c11_promote.py` invocation → 23 operator promotions). The store now
+carries 79 HUMAN_VALIDATED, all operator; the only SUGGESTED semantic
+edges left are the 3 pilot operator HOLDs; both RR edges keep their
+operator settlements; the frozen pilot + batch-1 dispositions are
+byte-intact; the full gate suite is green at the 79-promotion state,
+including the new standing checker `scripts/c11_batch2_verdict_check.py`.
+No unratified promotion occurred: every promoted identity traces to an
+operator verdict row. Batch 3 (S1 remainder 4CH1-1.37–1.60C) is the next
+commissionable batch; the consolidated cross-slice boundary ruling comes
+before phase 2 (S3).)

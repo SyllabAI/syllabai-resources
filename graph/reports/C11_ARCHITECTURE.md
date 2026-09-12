@@ -650,6 +650,25 @@ stays with the pilot's CON-AR. The restrictions above remain in force for
 everything not covered by a batch's sanctioned pathway — including DB
 writes and hand-edited graphs, which no batch pathway sanctions.)*
 
+*(Session-50, 2026-09-12: the batch-2 operator gate is SETTLED — the
+operator's ruling "CONFIRM all" was recorded verbatim in
+`scripts/c11_batch2_verdicts.yaml` (23 edge CONFIRM / 14 node CONFIRM
+[B2-N-08 keeps ENRICHMENT scoping] / 4 identity decisions KEEP_AS_IS /
+held 10 acknowledged; zero RR authored, so no settlement row) and applied
+through the sanctioned shape: §7 re-authoring
+(`scripts/c11_verdict_apply_batch2.py`) + the §18 pathway (bundle
+`graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md` → approve --all → one
+`c11_promote.py` invocation → 23 operator promotions → gated G13 re-run).
+The store stands at 79 HUMAN_VALIDATED (28 pilot + 28 batch-1 + 23
+batch-2, all operator; standing checkers c11_batch1_verdict_check +
+c11_batch2_verdict_check prove the three-way set equality per slice).
+The 4 identity decisions confirmed the authored representation — in
+particular B2-ID-01 KEEP_AS_IS keeps the CON-ISOTOPES/CON-AR boundary
+split with NO §7 re-scope of the pilot's CON-AR. The frozen dispositions
+are byte-intact (3 pilot operator HOLDs SUGGESTED, both RR edges
+REVIEW_REQUIRED, HELD-01..13 + B1-H-01..12 + B2-H-01..10 untouched,
+4.15 uncovered; nodes have no §18 pathway).)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

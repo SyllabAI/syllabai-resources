@@ -790,13 +790,15 @@ C11_BATCH2_SPS = ["4CH1-1.13", "4CH1-1.14", "4CH1-1.15", "4CH1-1.16",
 C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS
 C11_STAGE = "pilot+s16-batch-1+s16-batch-2"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-# State after the session-49 batch-2 authoring: 67 nodes (29 pilot + 24
-# batch-1 + 14 batch-2), 156 edges (72 PART_OF + 84 semantic), 56 HUMAN_VALIDATED
-# (28 pilot session-45 + 28 batch-1 session-48 — operator §18 promotions;
-# batch-2 edges are SUGGESTED pending the per-batch operator gate; batch-2
-# nodes stay SUGGESTED: nodes have no §18 pathway), 2 REVIEW_REQUIRED (the
-# frozen pilot RR operator-HOLD edge + the settled batch-1 RR quarantine
-# HOLD_REVIEW_REQUIRED; batch 2 authored no new RR).
+# State after the session-50 batch-2 verdict application: 67 nodes (29 pilot
+# + 24 batch-1 + 14 batch-2), 156 edges (72 PART_OF + 84 semantic), 79
+# HUMAN_VALIDATED (28 pilot session-45 + 28 batch-1 session-48 + 23 batch-2
+# session-50 — all operator §18 promotions; the only SUGGESTED semantic edges
+# left are the 3 pilot operator HOLDs; batch-2 nodes stay SUGGESTED: nodes
+# have no §18 pathway), 2 REVIEW_REQUIRED (the frozen pilot RR operator-HOLD
+# edge + the settled batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 2
+# authored no new RR). (Session-49 note: the counts were 56 HV at the batch-2
+# authoring gate; session 50 applied the operator's batch-2 verdicts.)
 C11_COUNTS = {"nodes": 67, "concepts": 61, "misconceptions": 6, "edges": 156,
               "part_of": 72, "requires_prerequisite": 63, "explained_by": 8,
               "related_to": 0, "commonly_confused_with": 1,
@@ -1529,9 +1531,9 @@ def main():
           f"({C11_COUNTS['part_of']} PART_OF + "
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
-          f"generation; batch-1 verdicts applied session 48; batch-2 edges "
-          f"SUGGESTED pending the per-batch operator gate — nodes have no "
-          f"§18 pathway), negative control "
+          f"generation; batch-1 verdicts applied session 48; batch-2 "
+          f"verdicts applied session 50 — nodes have no §18 pathway), "
+          f"negative control "
           f"{C11_NEGATIVE_CONTROL} "
           f"uncovered.")
 

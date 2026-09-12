@@ -43,6 +43,19 @@
 # control. No batch-2 node attaches to 4.15; no batch-2 edge re-uses an
 # earlier-record identity.
 
+#
+# OPERATOR DECISIONS (session 50, applied session 50, 2026-09-12): the
+# operator's batch-2 verdicts live in scripts/c11_batch2_verdicts.yaml
+# (operator-owned; ruling verbatim "CONFIRM all"): 23 edge CONFIRM /
+# 0 HOLD / 0 REJECT; 14 node CONFIRM; 4 identity decisions KEEP_AS_IS;
+# no RR settlement (this batch authored no REVIEW_REQUIRED edge); the
+# held appendix (10) acknowledged. Session 50 applied them: the 23
+# confirmed edges flow through the §18 pathway (scripts/c11_promotions.yaml
+# — the ONLY HUMAN_VALIDATED source; never this record); the B2-N-08
+# enrichment scoping is recorded below as an operator_decision block.
+# Node CONFIRMs are review state only (no §18 node pathway). These blocks
+# are never emitted into graph/*.yaml and can never carry HUMAN_VALIDATED.
+
 meta:
   task: T-C11
   stage: s16-batch-2
@@ -493,6 +506,14 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+  operator_decision:
+    verdict: CONFIRM
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_batch2_verdicts.yaml (session 50, row B2-N-08)'
+    reasons:
+    - 'CONFIRM as an enrichment concept: the 1.21 wording demands a binary metal/non-metal identification, while the mapped note names and teaches the boundary class (semi-metal / metalloid) as an examiner tip.'
+    note: 'Operator enrichment scoping (session 50, 2026-09-12, ruling "CONFIRM all"): the node keeps its ENRICHMENT role @ 4CH1-1.21 (the pilot N-08/N-27 and batch-1 B1-N-08/B1-N-11 leaf pattern; no authored edges). Do NOT convert this enrichment note into a stronger syllabus-authority claim. Node confirmation is review state only (nodes have no §18 promotion pathway) and this block is never emitted into graph/*.yaml. Applied session 50 via the sanctioned §7 re-authoring pathway.'
 - code: 4CH1-CON-GROUP-SIMILARITY
   family: CONCEPT
   title: Why elements in the same group have similar chemical properties

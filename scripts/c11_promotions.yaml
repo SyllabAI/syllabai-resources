@@ -11,6 +11,27 @@ meta:
     edges received REJECT / HOLD verdicts and the 31 SUGGESTED edges await operator confirmation.'
 promotions:
 - edge:
+    source: 4CH1-CON-AR
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ISOTOPES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ATOMIC-NUMBER
+    relation: COMMONLY_CONFUSED_WITH
+    target: 4CH1-CON-MASS-NUMBER
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ATOMIC-NUMBER
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SUBATOMIC-PARTICLES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
     source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-CHROMATOGRAPHY
@@ -80,6 +101,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ELECTRONIC-CONFIGURATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-PERIODIC-TABLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ELECTRONIC-CONFIGURATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SUBATOMIC-PARTICLES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
     source: 4CH1-CON-EMP-MOL-CALC
     relation: REQUIRES_PREREQUISITE
@@ -151,6 +186,48 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-GROUP-SIMILARITY
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-GROUP-SIMILARITY
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-PERIODIC-TABLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ISOTOPES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SUBATOMIC-PARTICLES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MASS-NUMBER
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ATOMIC-NUMBER
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MASS-NUMBER
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-SUBATOMIC-PARTICLES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-METAL-NONMETAL
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-PERIODIC-TABLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
     source: 4CH1-CON-MIXTURE
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-COMPOUND
@@ -207,12 +284,33 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-MOLECULE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ATOM
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
     source: 4CH1-CON-MR
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-AR
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-NOBLE-GAS-INERTNESS
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-NOBLE-GAS-INERTNESS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-PERIODIC-TABLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
     source: 4CH1-CON-PERCENT-YIELD
     relation: REQUIRES_PREREQUISITE
@@ -227,6 +325,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-PERIODIC-TABLE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ATOMIC-NUMBER
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-PERIODIC-TABLE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELEMENT
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
     source: 4CH1-CON-PURE-SUBSTANCE
     relation: REQUIRES_PREREQUISITE
@@ -312,6 +424,13 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-CON-SUBATOMIC-PARTICLES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ATOM
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
     source: 4CH1-CON-THEOR-YIELD
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-REACTING-MASS
@@ -382,6 +501,34 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-ISOTOPES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-ISOTOPES
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-RAM-MASS-NUMBER
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-AR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-RAM-MASS-NUMBER
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-AR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
     source: 4CH1-PR-01
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-SATURATED-SOLUTION
@@ -395,6 +542,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-PR-02
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CHROMATOGRAPHY
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-PR-02
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-RF-VALUE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
     source: 4CH1-PR-03
     relation: REQUIRES_PREREQUISITE

@@ -85,8 +85,8 @@ meta:
     requires_prerequisite_edges: 63
     wrong_answer_pattern_edges: 5
     review_required_edges: 2
-    promoted_edges: 56
-    human_validated_edges: 56
+    promoted_edges: 79
+    human_validated_edges: 79
   promotion_record: scripts/c11_promotions.yaml
 edges:
 - source: 4CH1-CON-AR
@@ -2157,7 +2157,9 @@ edges:
       the pilot record (4CH1-1.26/1.28)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ATOMIC-NUMBER
@@ -2179,7 +2181,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
@@ -2400,7 +2404,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.19/1.22 @ Electronic Configurations (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ELECTRONIC-CONFIGURATION
@@ -2424,7 +2430,9 @@ edges:
       & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-EMP-MOL-CALC
@@ -2686,7 +2694,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.23 @ Electronic Configuration & Reactivity (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-ISOTOPES
@@ -2707,7 +2717,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MASS-NUMBER
@@ -2731,7 +2743,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MASS-NUMBER
@@ -2752,7 +2766,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-METAL-NONMETAL
@@ -2774,7 +2790,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.20/1.21 @ Metals & non-metals in the Periodic Table (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MIXTURE
@@ -2986,7 +3004,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.14 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MR
@@ -3032,7 +3052,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.24 @ Electronic Configuration & Reactivity (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-PERCENT-YIELD
@@ -3101,7 +3123,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.18 @ Periodic Table: Basics (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-PERIODIC-TABLE
@@ -3126,7 +3150,9 @@ edges:
       by the batch-1 record (4CH1-1.8)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-PURE-SUBSTANCE
@@ -3459,7 +3485,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.15 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-THEOR-YIELD
@@ -3581,7 +3609,9 @@ edges:
       the batch-1 record (4CH1-1.10)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-PR-02
@@ -3605,7 +3635,9 @@ edges:
       the batch-1 record (4CH1-1.12)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-PR-03
@@ -3752,7 +3784,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.23 @ Electronic Configuration & Reactivity (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-MOLAR-GAS-VOL
@@ -3798,7 +3832,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.24 @ Electronic Configuration & Reactivity (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-CON-YIELD
@@ -3853,7 +3889,9 @@ edges:
       context PT_MS_P1 Q1 (pinned fd6352a38077)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-EQ-SUBSCRIPT
@@ -3973,7 +4011,9 @@ edges:
       sha1 6c60d4721ea0)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-RAM-MASS-NUMBER
@@ -3996,7 +4036,9 @@ edges:
       sha1 fd6352a38077)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-CONC-UNIT
@@ -4116,7 +4158,9 @@ edges:
     upstream: 'T-C10 HUMAN_VALIDATED 4CH1-1.16 @ Atoms: Definitions & Structure (2026-09-11)'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'
 - source: 4CH1-MIS-RAM-MASS-NUMBER
@@ -4140,6 +4184,8 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-12'

@@ -20,8 +20,10 @@ Checks (all fail-closed; every group must pass):
                        promoted
   D. invariants      — the pilot slice is intact (28 pilot HUMAN_VALIDATED
                        + 3 pilot operator-HOLD SUGGESTED + the pilot RR
-                       REVIEW_REQUIRED); store total 56; held appendix 12;
-                       4.15 negative control uncovered; no PART_OF promoted
+                       REVIEW_REQUIRED); store total grows only by
+                       sanctioned batches (79 at session 50); held appendix
+                       12; 4.15 negative control uncovered; no PART_OF
+                       promoted
 
 Usage: python3 scripts/c11_batch1_verdict_check.py
 """
@@ -212,8 +214,13 @@ pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
       len(pilot_rr) == 1
       and pilot_rr[0]["validation_status"] == "REVIEW_REQUIRED")
-check("D4 store total 56 (28 pilot + 28 batch-1), all operator",
-      len(store_map) == 56
+# session-50: D4 re-anchored — the store grew to 79 by the SANCTIONED
+# batch-2 §18 application (23 operator promotions, c11_batch2_verdicts).
+# The batch-1 verdict layer's protective intent is unchanged: its 28
+# promotions stay exact, operator-attributed, and nothing outside a
+# recorded CONFIRM set ever enters the store.
+check("D4 store total 79 (28 pilot + 28 batch-1 + 23 batch-2), all operator",
+      len(store_map) == 79
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]
@@ -265,4 +272,5 @@ print(f"c11_batch1_verdict_check: ALL PASS — batch-1 operator verdict layer "
       f"(28+24+4+RR rows, ruling 'CONFIRM all' session 48) schema-valid, "
       f"record-reconciled, application-reconciled (28 §18 promotions = the "
       f"CONFIRM set; RR settlement HOLD_REVIEW_REQUIRED; pilot slice "
-      f"intact; 56 store entries total).")
+      f"intact; store total 79 at session 50 — the batch-1 slice "
+      f"preserved exactly inside the grown store).")

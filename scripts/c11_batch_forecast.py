@@ -199,7 +199,10 @@ out = {
     # session-46 authorization state they anchor.
     # session-49 (2026-09-12): batch-2 AUTHORED to its operator gate
     # (future_batch_records[1]); baselines unchanged.
-    "session": 49,
+    # session-50 (2026-09-12): batch-2 operator gate SETTLED — verdicts
+    # recorded (ruling "CONFIRM all") and applied through §18 (23
+    # promotions, operator); baselines unchanged.
+    "session": 50,
     "generated": "2026-09-12",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -248,6 +251,11 @@ out = {
         # (scripts/c11_batch1_verdicts.yaml) and applied (28 edge CONFIRM
         # promoted via §18; RR quarantine settled HOLD_REVIEW_REQUIRED;
         # 4 identity decisions KEEP_AS_IS).
+        # Session-50 (2026-09-12): batch 2 SETTLED — the operator ruled
+        # 'CONFIRM all' on the session-49 review sheet; verdicts recorded
+        # (scripts/c11_batch2_verdicts.yaml) and applied (23 edge CONFIRM
+        # promoted via §18; zero RR authored, so no settlement row; 4
+        # identity decisions KEEP_AS_IS; B2-N-08 enrichment scoping).
         "status": ("§16 AUTHORIZED 2026-09-12 (session 46, operator — "
                    "scripts/c11_s16_authorization.yaml); batch 1 AUTHORED "
                    "2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored "
@@ -257,8 +265,10 @@ out = {
                    "HOLD_REVIEW_REQUIRED; verdict record "
                    "scripts/c11_batch1_verdicts.yaml); batch 2 AUTHORED "
                    "2026-09-12 (session 49: 12 SPs / 14 nodes / 23 authored "
-                   "edges / 10 held / 0 RR; 5 cross-boundary edges; awaiting "
-                   "its operator review gate; verdict record will be "
+                   "edges / 10 held / 0 RR; 5 cross-boundary edges), SETTLED "
+                   "2026-09-12 (session 50: operator ruling 'CONFIRM all' — "
+                   "23 edge CONFIRM promoted via §18, store total 79; zero "
+                   "RR authored, so no settlement row; verdict record "
                    "scripts/c11_batch2_verdicts.yaml); batches 3-14 not "
                    "started"),
         "scope_sp": 170,
@@ -349,7 +359,7 @@ out = {
             "rates": {
                 "held_rate": 0.3030,
                 "rejection_rate": 0.0,
-                "promotion_rate": 0.0,
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -360,7 +370,7 @@ out = {
                 "edges + the CON-AR->CON-ISOTOPES boundary reading)",
                 "FP-B2-3 (first COMMONLY_CONFUSED_WITH deployment)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 23, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -51.4% / edges -30.3% vs the "
                            "2.4/2.75 model — the delta is the BOUNDARY "
@@ -377,14 +387,18 @@ out = {
                            "mark-scheme-documented misconceptions (isotopes-"
                            "differ-in-protons, RAM-vs-mass-number — both "
                            "REJECT-column layout-verified). "
-                           "operator_verdicts all zero: the per-batch "
-                           "operator gate is PENDING (sheet: "
-                           "C11_BATCH2_REVIEW_SHEET.md; template: "
-                           "scripts/c11_batch2_verdicts_template.yaml). "
-                           "Mark-scheme mining: 6 pins (ATOM1-3, PT, "
-                           "ECM1/ECM3 — the ECM pins close the batch-1 "
-                           "FN-B1-1 remainder); Paper-2 variants remain "
-                           "(FN-B2-1)."),
+                           "Session-50 (2026-09-12): operator gate SETTLED — "
+                           "ruling \"CONFIRM all\" recorded in "
+                           "scripts/c11_batch2_verdicts.yaml (23 edge "
+                           "CONFIRM / 14 node CONFIRM / 4 KEEP_AS_IS / held "
+                           "acknowledged) and applied through §18 (23 "
+                           "promotions, operator, review_ref = the B2 "
+                           "diff-review bundle; promotion_rate 1.0 — zero RR "
+                           "authored, so every authored edge was promotable "
+                           "post-verdict). Mark-scheme mining: 6 pins "
+                           "(ATOM1-3, PT, ECM1/ECM3 — the ECM pins close "
+                           "the batch-1 FN-B1-1 remainder); Paper-2 variants "
+                           "remain (FN-B2-1)."),
         },
     ],
     "future_batch_record_schema": {

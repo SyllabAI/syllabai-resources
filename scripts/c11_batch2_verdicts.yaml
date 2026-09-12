@@ -1,0 +1,265 @@
+# T-C11 §16 batch 2 — OPERATOR verdict record (session-49 package), FILLED by operator decision session 50 (2026-09-12). OPERATOR-OWNED.
+# Ruling verbatim: "CONFIRM all" — see meta.operator_ruling for the recorded mapping.
+# Vocabulary and pathway: see the meta.instructions block. Verdicts are RECORDED; the application state lives in scripts/c11_promotions.yaml (§18) and the decision record's §7 blocks — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-2-verdicts
+  batch: 2
+  session: 50
+  file: OPERATOR-OWNED verdict record for C11_BATCH2_REVIEW_SHEET (session 49 package) — verdicts recorded
+    by operator decision, session 50 (2026-09-12).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-2 extraction_pass
+    is c11-s16-batch-2; its 10 held candidates are informational only (no reopening, no promotion of held
+    candidates). Five edges are cross-boundary into earlier-record nodes (CON-AR x2, CON-ELEMENT, CON-CHROMATOGRAPHY,
+    CON-RF-VALUE — sanctioned, no duplicate mint). The next session applies verdicts via the §18 promotion
+    pathway / §7 decision-record re-authoring; nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: CONFIRM all
+    session: 50
+    decided_by: operator
+    decided_date: '2026-09-12'
+    mapping: 'The ruling confirms the authored batch-2 package as presented on the session-49 review sheet:
+      every edge row CONFIRM, every node row CONFIRM (B2-N-08 keeps its ENRICHMENT scoping), each identity
+      decision KEEP_AS_IS (the authored representation confirmed as-is — no merge, no split, no boundary
+      re-scope), and the held appendix stays held. This batch authored NO REVIEW_REQUIRED edge, so no
+      RR settlement row exists. Verdicts recorded session 50; the application state lives in scripts/c11_promotions.yaml
+      (the §18 pathway is the only HUMAN_VALIDATED source) and in the §7 decision-record re-authoring
+      — this file never carries promotion payload or promoted status. Changing a recorded verdict requires
+      an explicit operator decision.'
+edge_verdicts:
+- id: B2-E-01
+  triple: 4CH1-CON-AR REQUIRES_PREREQUISITE 4CH1-CON-ISOTOPES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the USED_WITHOUT_RETEACHING
+    relation class stands (FP-B2-2); the Ar TERM stays with the pilot''s CON-AR (B2-ID-01 KEEP_AS_IS);
+    the cross-boundary source is sanctioned per FN-B1-2 (no duplicate mint).'
+- id: B2-E-02
+  triple: 4CH1-CON-ATOMIC-NUMBER COMMONLY_CONFUSED_WITH 4CH1-CON-MASS-NUMBER
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the store''s FIRST COMMONLY_CONFUSED_WITH
+    deployment stands on the explicit corpus confusability statement + assessed confusion family (FP-B2-3;
+    relation_class_rationale recorded per G08).'
+- id: B2-E-03
+  triple: 4CH1-CON-ATOMIC-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-04
+  triple: 4CH1-CON-ELECTRONIC-CONFIGURATION REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-05
+  triple: 4CH1-CON-ELECTRONIC-CONFIGURATION REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-06
+  triple: 4CH1-CON-GROUP-SIMILARITY EXPLAINED_BY 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the causal evidence class
+    stands (EXPLAINED_BY; the prerequisite reading stays parked in held B2-H-05: one relation per pair).'
+- id: B2-E-07
+  triple: 4CH1-CON-GROUP-SIMILARITY REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-08
+  triple: 4CH1-CON-ISOTOPES REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-09
+  triple: 4CH1-CON-MASS-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-ATOMIC-NUMBER
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the pair keeps both edges
+    in their distinct classes (the confusability link is B2-E-02 COMMONLY_CONFUSED_WITH; density flag
+    acknowledged, different relation class).'
+- id: B2-E-10
+  triple: 4CH1-CON-MASS-NUMBER REQUIRES_PREREQUISITE 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-11
+  triple: 4CH1-CON-METAL-NONMETAL REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-12
+  triple: 4CH1-CON-MOLECULE REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-13
+  triple: 4CH1-CON-NOBLE-GAS-INERTNESS EXPLAINED_BY 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the causal evidence class
+    stands (EXPLAINED_BY; the prerequisite reading stays parked in held B2-H-06: one relation per pair).'
+- id: B2-E-14
+  triple: 4CH1-CON-NOBLE-GAS-INERTNESS REQUIRES_PREREQUISITE 4CH1-CON-PERIODIC-TABLE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-15
+  triple: 4CH1-CON-PERIODIC-TABLE REQUIRES_PREREQUISITE 4CH1-CON-ATOMIC-NUMBER
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-16
+  triple: 4CH1-CON-PERIODIC-TABLE REQUIRES_PREREQUISITE 4CH1-CON-ELEMENT
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — vocabulary-level element
+    link kept (FP-B1-4 class; the cross-boundary target is sanctioned per FN-B1-2, no duplicate mint).'
+- id: B2-E-17
+  triple: 4CH1-CON-SUBATOMIC-PARTICLES REQUIRES_PREREQUISITE 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-18
+  triple: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS REMEDIATED_BY 4CH1-CON-ISOTOPES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — remediation target equals
+    the WAP target (the batch-1 B1-E-25 pattern); kept for misconception-recommendation queries (node
+    remediation_evidence also carries the corrective text).'
+- id: B2-E-19
+  triple: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS WRONG_ANSWER_PATTERN 4CH1-CON-ISOTOPES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-20
+  triple: 4CH1-MIS-RAM-MASS-NUMBER REMEDIATED_BY 4CH1-CON-AR
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — remediation target equals
+    the WAP target + cross-boundary target (the batch-1 B1-E-25 pattern; CON-AR owned by the pilot; kept
+    for misconception-recommendation queries).'
+- id: B2-E-21
+  triple: 4CH1-MIS-RAM-MASS-NUMBER WRONG_ANSWER_PATTERN 4CH1-CON-AR
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-22
+  triple: 4CH1-PR-02 REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAPHY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-E-23
+  triple: 4CH1-PR-02 REQUIRES_PREREQUISITE 4CH1-CON-RF-VALUE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+node_verdicts:
+- id: B2-N-01
+  code: 4CH1-CON-ATOM
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-N-02
+  code: 4CH1-CON-ATOMIC-NUMBER
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the node carries the store''s
+    first CCW edge (FP-B2-3; B2-E-02 confirmed).'
+- id: B2-N-03
+  code: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-N-04
+  code: 4CH1-CON-GROUP-SIMILARITY
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-N-05
+  code: 4CH1-CON-ISOTOPES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the CON-ISOTOPES/CON-AR
+    boundary split stands (FP-B2-1; B2-ID-01 KEEP_AS_IS: the Ar TERM stays with the pilot''s CON-AR, the
+    1.26/1.28 owner).'
+- id: B2-N-06
+  code: 4CH1-CON-MASS-NUMBER
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-N-07
+  code: 4CH1-CON-METAL-NONMETAL
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the 1.20 property-based
+    + 1.21 position-based classification stays one node (B2-ID-04 KEEP_AS_IS; the B1-N-13/ID-03 pattern).'
+- id: B2-N-08
+  code: 4CH1-CON-METALLOID
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as ENRICHMENT-scoped (mirrors the pilot
+    N-08/N-27 and batch-1 B1-N-08/B1-N-11 patterns; leaf node, no authored edges). Do not convert this
+    enrichment scoping into a stronger syllabus-authority claim.'
+- id: B2-N-09
+  code: 4CH1-CON-MOLECULE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-N-10
+  code: 4CH1-CON-NOBLE-GAS-INERTNESS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B2-N-11
+  code: 4CH1-CON-PERIODIC-TABLE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — arrangement + group + period
+    stay one node (B2-ID-03 KEEP_AS_IS).'
+- id: B2-N-12
+  code: 4CH1-CON-SUBATOMIC-PARTICLES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): CONFIRM as authored — the proton/neutron/electron
+    particle triple stays one node (B2-ID-02 KEEP_AS_IS).'
+- id: B2-M-01
+  code: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS
+  pretriage: LIKELY_SAFE (mark-scheme documented)
+  verdict: CONFIRM
+  notes: ''
+- id: B2-M-02
+  code: 4CH1-MIS-RAM-MASS-NUMBER
+  pretriage: LIKELY_SAFE (mark-scheme documented)
+  verdict: CONFIRM
+  notes: ''
+identity_decisions:
+- id: B2-ID-01
+  question: fold 1.16's Ar-term definition into the pilot CON-AR via §7 re-authoring (vs keeping the CON-ISOTOPES/CON-AR
+    boundary split)
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): KEEP_AS_IS — the CON-ISOTOPES/CON-AR boundary
+    split stands; the Ar TERM stays with the pilot''s CON-AR (the 1.26/1.28 owner); no §7 re-scope. B2-E-01
+    / B2-N-05 confirmed as authored.'
+- id: B2-ID-02
+  question: split CON-SUBATOMIC-PARTICLES into term-level proton/neutron/electron nodes
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): KEEP_AS_IS — the proton/neutron/electron particle
+    triple stays one node; B2-N-12 confirmed as authored.'
+- id: B2-ID-03
+  question: split CON-PERIODIC-TABLE (arrangement vs group vs period term nodes)
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): KEEP_AS_IS — arrangement + group + period stay
+    one node; B2-N-11 confirmed as authored.'
+- id: B2-ID-04
+  question: split CON-METAL-NONMETAL (1.20 property-based vs 1.21 position-based classification)
+  verdict: KEEP_AS_IS
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): KEEP_AS_IS — the 1.20 property-based and 1.21
+    position-based classification stays one node; B2-N-07 confirmed as authored.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator ruling ''CONFIRM all'' (session 50): the 10 held candidates (B2-H-01..10) stay held
+    — no reopening, no promotion.'
