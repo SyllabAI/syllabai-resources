@@ -150,8 +150,8 @@ scope limits.
 | operator HOLD verdicts | session-45: **4** — the RR edge (session 41, below) + E-08/E-26/E-29 (session 44, rationale verbatim); session-41 snapshot: **1** |
 | operator PENDING (presented, undecided) | session-45: **0** — both settled HOLD (session 44); session-41 snapshot: **2** — the medium-confidence judgments (§5 below) |
 | held candidates (abstention record) | **11 held + 2 rejected = 13** (HELD-01…12 + HELD-13; HELD-09 was already rejected as the negative control; HELD-13 is the operator rejection) |
-| graph edges by state | session-52: **118 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50 + 39 batch-3 §18 session-52, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-51: **79 HUMAN_VALIDATED** (unchanged — batch-3 authoring promotes nothing) + 42 SUGGESTED semantic (3 pilot operator HOLDs + 39 batch-3 edges awaiting that batch's operator gate) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
-| authored SUGGESTED edges awaiting per-row confirmation | session-52: **0** (batch-3 verdicts applied — 39 promoted, 14 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-51: **39** (the batch-3 gate — 39 clean SUGGESTED edges awaiting per-row verdicts; 14 held untouched; zero RR authored); session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
+| graph edges by state | session-53: **118 HUMAN_VALIDATED** (UNCHANGED — batch-4 authoring promotes nothing; 275 edges = 117 PART_OF + 158 semantic, the 35 batch-4 authored edges SUGGESTED awaiting the batch-4 gate) + 2 REVIEW_REQUIRED (frozen); session-52: **118 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50 + 39 batch-3 §18 session-52, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-51: **79 HUMAN_VALIDATED** (unchanged — batch-3 authoring promotes nothing) + 42 SUGGESTED semantic (3 pilot operator HOLDs + 39 batch-3 edges awaiting that batch's operator gate) + 33+24+15+25 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (frozen); session-50: **79 HUMAN_VALIDATED** (28 pilot §18 session-45 + 28 batch-1 §18 session-48 + 23 batch-2 §18 session-50, all operator) + 3 SUGGESTED semantic (the pilot operator HOLDs — the only SUGGESTED semantic edges left) + 33+24+15 PART_OF (SUGGESTED, derived) + 2 REVIEW_REQUIRED (the pilot RR operator-HOLD + the settled batch-1 RR quarantine; batch 2 authored no RR); session-49: 56 HUMAN_VALIDATED + 3 SUGGESTED + 23 batch-2 SUGGESTED + 57 PART_OF + 2 RR; session-48: 56 HUMAN_VALIDATED + 3 SUGGESTED + 57 PART_OF + 2 RR; session-45: 28 HUMAN_VALIDATED + 3 SUGGESTED + 33 PART_OF + 1 RR; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
+| authored SUGGESTED edges awaiting per-row confirmation | session-53: **35** (the batch-4 gate — 35 clean SUGGESTED edges awaiting per-row verdicts; 14 held untouched; zero RR authored); session-52: **0** (batch-3 verdicts applied — 39 promoted, 14 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-51: **39** (the batch-3 gate — 39 clean SUGGESTED edges awaiting per-row verdicts; 14 held untouched; zero RR authored); session-50: **0** (batch-2 verdicts applied — 23 promoted, 10 held untouched; no RR was authored, so nothing settled to a non-promotable state); session-49: **23** (the batch-2 gate — 23 clean SUGGESTED edges awaiting per-row verdicts; 10 held untouched); session-48: **0** (batch-1 verdicts applied — 28 promoted, RR settled, 12 held untouched); session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
 
 ### 4. Promoted count
 
@@ -586,3 +586,62 @@ before phase 2 (S3).)
 > c11-s16-batch-4 → decision record → registry extension → pass-2 → the
 > operator gate) is the NEXT session's commission, with this ruling as its
 > standing boundary constraint.
+
+> **Session-53 update (2026-09-13): batch 4 (Section 3 — Physical Chemistry)
+> AUTHORED TO ITS OPERATOR GATE — zero promotions, the gate is the next
+> operator action.** Per the operator's session-53 batch-4 directive
+> ("Execute Batch 4 using the established Batch-1/2/3 machinery." + "The
+> purpose of this session is to get Batch 4 authored cleanly to the operator
+> gate."): extraction_pass `c11-s16-batch-4`, decision record
+> `scripts/c11_batch4_decisions.yaml` (22 SPs 4CH1-3.1–3.22C + practicals
+> PR-09/PR-10/PR-11; the 15 T-C10 HUMAN_VALIDATED-mapped notes read in
+> full; all 3 pinned S3 Paper-2 MS mined for misconception evidence — the
+> first slice with full-family Paper-2 coverage). Authoring discipline:
+> every planned quote probed pre-authoring (`scripts/c11_batch4_quote_probe.py`
+> — 78 note/MS + 20 SPEC probes green), then 128 quote anchors pre-verified
+> fail-closed BEFORE the registry grew (`scripts/c11_batch4_preverify.py`),
+> then the registry-aware generator ALL GATES GREEN. The record mints 22
+> nodes (17 CONCEPT — the S3 families of the session-52 mint ruling: 7
+> energetics + 6 rates + 4 reversibility/equilibria; 3.8/3.15/3.16 attach
+> no concept node, the practicals own them) + 5 mark-scheme-documented
+> WRONG_ANSWER_PATTERN misconceptions (the catalyst particle-energy cap
+> rule documented in BOTH S3 Paper-2 MS; the equilibrium reject/accept
+> antonym pairs — temperature exo-direction and pressure fewer-moles
+> direction; the J-to-kJ molar-enthalpy partial-credit rule; the
+> bond-count deduction + examiner tip), and 35 authored edges (all
+> SUGGESTED; zero RR authored; 14 held candidates — including the four
+> CLASSIC misconceptions honestly refused for missing documentation:
+> static equilibrium, consumed catalyst, catalyst-shifts-position,
+> bond-breaking exo/endo swap — the session-53 Step-3 rule "Do not infer a
+> misconception merely because an incorrect answer is theoretically
+> possible" applied exactly). The cross-slice boundary ruling applied
+> EXACTLY: 5 sanctioned boundary edges, one per ruled S1 owner (CON-MOLE,
+> CON-COVALENT-BOND, CON-CONCENTRATION, CON-EQ-SYMBOL, CON-WATER-CRYST),
+> no S1 identity re-minted, a considered sixth held for the operator
+> (B4-H-14); the re-anchored `c11_batch4_boundary_check.py` re-verifies
+> the zero-conflict audit against the pre-batch-4 store state. Pass-2
+> adversarial review (`scripts/c11_batch4_review_pass2.yaml`): ZERO
+> demotions, raw agreement nodes 100% / edges 35/35, flags enumerated
+> (FP-B4-1..5, FN-B4-1..3). Review gate:
+> `graph/reports/C11_BATCH4_REVIEW_SHEET.md` + `C11_BATCH4_REVIEW.json` +
+> the OPERATOR-OWNED template `scripts/c11_batch4_verdicts_template.yaml`
+> (35 edge rows B4-E-01..35 / 17 node rows B4-N-01..17 / 5 misconception
+> rows B4-M-01..05 / 6 identity decisions B4-ID-01..06 / held
+> acknowledgment). Merged store: 113 nodes / 275 edges (117 PART_OF + 158
+> semantic) / 82 command kinds / **118 HUMAN_VALIDATED UNCHANGED**
+> (authoring promotes nothing) / 4.15 uncovered. State-anchored
+> expectations re-anchored with dated session-53 comments only (graph_check,
+> batch-2/3 verdict-check live-shape rows, diff-review-test R1 35/5/118,
+> boundary-check D-block) — no test weakened. Determinism re-proven
+> (generator + review-build + forecast re-runs sha256-byte-identical); the
+> full gate suite green at the authored-to-gate state (graph_check ALL
+> PASS; verdict checks 4× ALL PASS; boundary check ALL PASS; s16 auth
+> check ALL PASS; negative test 14/14; promote test 27/27; task4 variants
+> 3/3; diff-review test ALL PASS). Forecast instrument: the batch-4 record
+> appended (predicted 52.8/60.5/22.0 vs actual 22/35/14 — the batch-3
+> per-SP yield band; promotion 0.0 pending the gate). NEXT: the operator's
+> batch-4 verdict session — fill + rename
+> `scripts/c11_batch4_verdicts_template.yaml`; a later session encodes +
+> applies the verdicts through §18. Per the §16 phase order the slice
+> after the gate settles is S2 Inorganic (batch 5), which will need its
+> own cross-slice boundary ruling (S1↔S2 and S3↔S2).)

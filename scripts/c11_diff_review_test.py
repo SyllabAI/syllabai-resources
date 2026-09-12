@@ -249,6 +249,21 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-53: the registry grows by the (empty) batch-4 member
+    (base / "scripts" / "c11_batch4_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-4",
+                                   "extraction_pass": "c11-s16-batch-4",
+                                   "generated_date": "2026-09-13",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
 
 
 # NOTE: the fixture decision-record edges carry an extra key
@@ -439,13 +454,13 @@ def main() -> int:
         r = subprocess.run([sys.executable, str(HERE / "c11_diff_review.py"),
                             "list"], cwd=T.REPO, capture_output=True, text=True)
         check("R1 list exits 0", r.returncode == 0, r.stderr[:200])
-        # session-52: the batch-3 operator verdicts were applied (39 §18
-        # promotions, c11_batch3_verdicts) — the actionable surface is
-        # EMPTY again until the next batch's gate; the 5 not-actionable rows
-        # = 3 pilot operator HOLDs + the pilot RR + the settled batch-1 RR;
-        # promo_count stays 118 (28+28+23+39, all operator).
-        check("R1 reports 0 actionable / 5 not-actionable / 118 promotions",
-              "actionable: 0" in r.stdout
+        # session-53: batch 4 is AUTHORED to its operator gate — the
+        # actionable surface is the 35 batch-4 SUGGESTED edges; the 5
+        # not-actionable rows = 3 pilot operator HOLDs + the pilot RR + the
+        # settled batch-1 RR; promo_count stays 118 (28+28+23+39, all
+        # operator — batch 4 adds zero promotions at authoring).
+        check("R1 reports 35 actionable / 5 not-actionable / 118 promotions",
+              "actionable: 35" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=118" in r.stdout)
     finally:

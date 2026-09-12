@@ -102,6 +102,9 @@ def make_sandbox(root: Path) -> Path:
     # session-51: stage the whole decision-record registry (batch 3)
     shutil.copy2(LIVE_SCRIPTS / "c11_batch3_decisions.yaml",
                  sb / "scripts" / "c11_batch3_decisions.yaml")
+    # session-53: stage the whole decision-record registry (batch 4)
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch4_decisions.yaml",
+                 sb / "scripts" / "c11_batch4_decisions.yaml")
     if (LIVE_SCRIPTS / "c11_evidence").exists():
         shutil.copytree(LIVE_SCRIPTS / "c11_evidence", sb / "scripts" / "c11_evidence")
     for f in LIVE_GRAPH.glob("*.yaml"):
@@ -136,6 +139,9 @@ def restore(sb: Path):
     # session-51: stage the whole decision-record registry (batch 3)
     shutil.copy2(LIVE_SCRIPTS / "c11_batch3_decisions.yaml",
                  sb / "scripts" / "c11_batch3_decisions.yaml")
+    # session-53: stage the whole decision-record registry (batch 4)
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch4_decisions.yaml",
+                 sb / "scripts" / "c11_batch4_decisions.yaml")
     prom = sb / "scripts" / "c11_promotions.yaml"
     if prom.exists():
         prom.unlink()

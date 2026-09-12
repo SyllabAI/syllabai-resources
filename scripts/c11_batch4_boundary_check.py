@@ -70,22 +70,42 @@ check("A2 ruling attribution (session 52, operator-commissioned, 2026-09-13)",
 
 # ---------------------------------------------------------------------------
 # B. conflict audit re-run against the LIVE store
+# (session-53 re-anchor, dated, protective intent unchanged: the S3 terms
+# now legitimately live in the batch-4 MINT the ruling authorized — so the
+# zero-conflict audit is re-run against the PRE-batch-4 store, reconstructed
+# from the decision-record registry minus the batch-4 record (the state the
+# ruling was recorded against at session 52). The claim it protects: no
+# NON-batch-4 node or edge anywhere in the store carries an S3 term.)
 # ---------------------------------------------------------------------------
+pre_b4_nodes = []
+for name in ("c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
+             "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml"):
+    _d = yaml.safe_load((HERE / name).read_text(encoding="utf-8"))
+    pre_b4_nodes.extend(_d.get("nodes") or [])
 blob = []
-for x in nodes_doc["nodes"]:
+for x in pre_b4_nodes:
     blob.append(x["code"])
     blob.append(x["title"])
     blob.extend(x.get("aliases", []))
 store_blob = " || ".join(blob).lower()
+pre_b4_codes = {x["code"] for x in pre_b4_nodes}
+b4_codes = {x["code"] for x in nodes_doc["nodes"]} - pre_b4_codes
+pre_b4_edges = [e for e in edges_doc["edges"]
+                if e["source"] not in b4_codes
+                and e["target"] not in b4_codes]
 endpoints = " ".join(f"{e['source']} {e['target']}"
-                     for e in edges_doc["edges"]).lower()
+                      for e in pre_b4_edges).lower()
 terms = rul["conflict_audit"]["s3_candidate_terms"]
 conflicts = [t for t in terms if t in store_blob or t in endpoints]
-check("B1 zero canonical conflicts re-verified on the live store",
+check("B1 zero canonical conflicts re-verified on the pre-batch-4 store "
+      "(the 91-node registry state the ruling was recorded against)",
       conflicts == [], f"conflicts = {conflicts}")
-check("B2 the ruling's recorded result matches the live re-run",
+check("B2 the ruling's recorded result matches the re-run (and the batch-4 "
+      "mint is exactly the 22 new nodes / 55 new edges)",
       rul["conflict_audit"].get("result", "").startswith("ZERO canonical")
-      and not conflicts)
+      and not conflicts
+      and len(b4_codes) == 22
+      and len(edges_doc["edges"]) - len(pre_b4_edges) == 55)
 
 # ---------------------------------------------------------------------------
 # C. boundary targets exist + ownership exact
@@ -115,16 +135,25 @@ check("C every sanctioned target is also non-mint protected",
 
 # ---------------------------------------------------------------------------
 # D. discipline invariants
+# (session-53 re-anchor, dated, protective intent unchanged: the store grew
+# to 113/275/117 by the SANCTIONED batch-4 authored-to-gate record —
+# scripts/c11_batch4_decisions.yaml, extraction_pass c11-s16-batch-4, the
+# record this ruling governs; the ruling itself still mints nothing and the
+# growth is exactly the batch-4 authoring shape: 22 nodes + 20 PART_OF + 35
+# authored semantic edges, ZERO promotions — 118 HV unchanged.)
 # ---------------------------------------------------------------------------
-check("D1 the ruling mints no node (store node set unchanged)",
-      len(live_codes) == 91)
-check("D2 the ruling mints no edge (store edge set unchanged)",
-      len(edges_doc["edges"]) == 220
+check("D1 the ruling mints no node (store node set = 91 + the sanctioned "
+      "22 batch-4 nodes)",
+      len(live_codes) == 113)
+check("D2 the ruling mints no edge (store edge set = 220 + the sanctioned "
+      "55 batch-4 edges)",
+      len(edges_doc["edges"]) == 275
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 97)
+              if e["relation"] == "PART_OF") == 117)
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED")
-check("D3 store at the session-52 post-application shape (118 HV)",
+check("D3 store at the session-53 authored-to-gate shape (118 HV "
+      "unchanged — batch 4 authoring promotes nothing)",
       hv == 118)
 check("D4 non_goals recorded (no ontology redesign / no re-scope / no "
       "promotion authority)",
@@ -139,4 +168,5 @@ print("c11_batch4_boundary_check: ALL PASS — the cross-slice boundary "
       "ruling (session 52) is schema-valid, its zero-conflict audit "
       "reproduces on the live store, every sanctioned boundary target "
       "exists with exact ownership, and the ruling mints nothing "
-      "(91/220/97/123, 118 HV unchanged).")
+      "(113/275/117 at the session-53 batch-4 authored-to-gate state, "
+      "118 HV unchanged).")

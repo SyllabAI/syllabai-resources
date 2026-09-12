@@ -89,8 +89,14 @@ PROMOTIONS = HERE / "c11_promotions.yaml"
 # session-51 move-forward directive — the full S1 remainder 1.37–1.60C in
 # one batch, 24 SPs + PR-04) — same fail-closed contract, same
 # disjoint-slice rule.
+# Session-53 (§16 batch 4, 2026-09-13): the registry grows by the batch-4
+# record (extraction_pass c11-s16-batch-4, commissioned by the operator's
+# session-53 batch-4 directive — Section 3 Physical Chemistry 3.1–3.22C,
+# 22 SPs + PR-09/PR-10/PR-11, under the session-52 cross-slice boundary
+# ruling) — same fail-closed contract, same disjoint-slice rule.
 DECISION_RECORDS = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
-                    "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml"]
+                    "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
+                    "c11_batch4_decisions.yaml"]
 RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                         r"|llm|agent|model|bot", re.I)

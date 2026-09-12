@@ -243,10 +243,15 @@ check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # the merged store to 91/220/97 (24 batch-3 nodes + 25 PART_OF + 39 authored
 # semantic edges, all SUGGESTED awaiting the batch-3 operator gate); the
 # batch-2 slice below is preserved exactly inside the grown store.
-check("D10 live store shape 91 nodes / 220 edges (97 PART_OF + 123 semantic)",
-      len(nodes_doc["nodes"]) == 91 and len(edges_doc["edges"]) == 220
+# session-53 re-anchor (dated, protective intent unchanged): batch 4 grew
+# the merged store to 113/275/117 (22 batch-4 nodes + 20 PART_OF + 35
+# authored semantic edges, all SUGGESTED awaiting the batch-4 operator
+# gate); the batch-2 slice below is still preserved exactly.
+check("D10 live store shape 113 nodes / 275 edges (117 PART_OF + 158 "
+      "semantic)",
+      len(nodes_doc["nodes"]) == 113 and len(edges_doc["edges"]) == 275
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 97)
+              if e["relation"] == "PART_OF") == 117)
 
 # ---------------------------------------------------------------------------
 print()

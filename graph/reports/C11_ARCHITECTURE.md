@@ -730,6 +730,51 @@ ontology exercise). The restrictions above remain in force for everything
 not covered by a batch's sanctioned pathway — including DB writes and
 hand-edited graphs, which no batch pathway sanctions.)*
 
+*(Session-53, 2026-09-13: batch 4 (Section 3 — Physical Chemistry) was
+commissioned by the operator's batch-4 directive ("Execute Batch 4 using
+the established Batch-1/2/3 machinery." + "Batch 4 should therefore be
+executed efficiently and pragmatically.") and AUTHORED TO ITS OPERATOR
+GATE under this section's sanctioned pathway — extraction_pass
+`c11-s16-batch-4`, decision record `scripts/c11_batch4_decisions.yaml`
+(22 SPs 4CH1-3.1–3.22C + practicals PR-09/PR-10/PR-11; 15 T-C10
+HUMAN_VALIDATED-mapped notes read in full; all 3 S3 Paper-2 MS pinned —
+the first slice with full-family MS coverage; 128 quote anchors
+pre-verified fail-closed BEFORE the registry grew via
+`scripts/c11_batch4_preverify.py`, with every quote additionally probed
+pre-authoring by `scripts/c11_batch4_quote_probe.py`), gated generation
+through the registry-aware `c11_concept_pilot.py` (ALL GATES GREEN),
+pass-2 adversarial review (`scripts/c11_batch4_review_pass2.yaml` — zero
+demotions; 14 held candidates absorbed every doubt; zero RR authored),
+and the batch review gate `graph/reports/C11_BATCH4_REVIEW_SHEET.md` +
+machine record `C11_BATCH4_REVIEW.json` + the OPERATOR-OWNED verdict
+template `scripts/c11_batch4_verdicts_template.yaml` (35 edge rows +
+17 node rows + 5 misconception rows + 6 identity decisions B4-ID-01..06 +
+held acknowledgment). The record mints 22 nodes (17 CONCEPT + 5
+mark-scheme-documented WRONG_ANSWER_PATTERN misconceptions) and 35
+authored edges (24 REQUIRES_PREREQUISITE + 1 EXPLAINED_BY + 5 WAP + 5
+REMEDIATED_BY), all SUGGESTED. The session-52 cross-slice boundary
+ruling was applied EXACTLY: all five ruled S1 owners reached via exactly
+5 sanctioned boundary edges (CON-MOLE, CON-COVALENT-BOND,
+CON-CONCENTRATION, CON-EQ-SYMBOL, CON-WATER-CRYST — one each; a
+considered sixth into the mole/molar-ratio held as B4-H-14 for the
+operator, not silently authored) and no S1 identity re-minted (the
+re-anchored `c11_batch4_boundary_check.py` re-verifies the zero-conflict
+audit against the pre-batch-4 store state). The merged store stands at
+113 nodes / 275 edges (117 PART_OF + 158 semantic) / 82 command kinds /
+118 HUMAN_VALIDATED UNCHANGED (authoring promotes nothing) / 4.15
+uncovered. State-anchored expectations re-anchored with dated
+session-53 comments only (graph_check C11_* constants, the batch-2/3
+verdict-check live-shape rows, diff-review-test R1, the boundary-check
+D-block) — protective intent unchanged, no test weakened. Determinism
+re-proven: generator + review-build + forecast re-runs all
+sha256-byte-identical; the full gate suite is green at the
+authored-to-gate state. NOTHING from batch 4 is promoted: the batch ends
+at its operator gate, awaiting the operator's verdict session (fill +
+rename `scripts/c11_batch4_verdicts_template.yaml`). The restrictions
+above remain in force for everything not covered by a batch's sanctioned
+pathway — including DB writes and hand-edited graphs, which no batch
+pathway sanctions.)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

@@ -4,12 +4,13 @@
 #   scripts/c11_batch1_decisions.yaml (extraction_pass c11-s16-batch-1)
 #   scripts/c11_batch2_decisions.yaml (extraction_pass c11-s16-batch-2)
 #   scripts/c11_batch3_decisions.yaml (extraction_pass c11-s16-batch-3)
+#   scripts/c11_batch4_decisions.yaml (extraction_pass c11-s16-batch-4)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
-# Generation dates pinned per record; store date 2026-09-12 (deterministic contract; byte-identical re-runs).
+# Generation dates pinned per record; store date 2026-09-13 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -76,11 +77,36 @@ meta:
   - 4CH1-1.58C
   - 4CH1-1.59C
   - 4CH1-1.60C
+  - 4CH1-3.1
+  - 4CH1-3.2
+  - 4CH1-3.3
+  - 4CH1-3.4
+  - 4CH1-3.5C
+  - 4CH1-3.6C
+  - 4CH1-3.7C
+  - 4CH1-3.8
+  - 4CH1-3.9
+  - 4CH1-3.10
+  - 4CH1-3.11
+  - 4CH1-3.12
+  - 4CH1-3.13
+  - 4CH1-3.14C
+  - 4CH1-3.15
+  - 4CH1-3.16
+  - 4CH1-3.17
+  - 4CH1-3.18
+  - 4CH1-3.19C
+  - 4CH1-3.20C
+  - 4CH1-3.21C
+  - 4CH1-3.22C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
   - 4CH1-PR-02
   - 4CH1-PR-04
+  - 4CH1-PR-09
+  - 4CH1-PR-10
+  - 4CH1-PR-11
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
@@ -88,14 +114,16 @@ meta:
   - scripts/c11_batch1_decisions.yaml
   - scripts/c11_batch2_decisions.yaml
   - scripts/c11_batch3_decisions.yaml
+  - scripts/c11_batch4_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
   - c11-s16-batch-2
   - c11-s16-batch-3
+  - c11-s16-batch-4
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
-  generated: '2026-09-12'
+  generated: '2026-09-13'
   provenance_default: AI_SUGGESTED
   validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;
     batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED
@@ -103,7 +131,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 60
+    spec_points: 82
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -397,3 +425,121 @@ command_kinds:
   guide_class: UNDERSTAND_RELATION
   demanded_substance: fixed and sharp melting/boiling points of pure substances vs ranges for mixtures,
     and using melting/boiling data to distinguish them
+- code: 4CH1-3.1
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the exothermic/endothermic classification (heat energy given out = exothermic with
+    a temperature rise; heat energy taken in = endothermic with a temperature fall; conservation of energy;
+    neutralisation and combustion always exothermic, displacement either)
+- code: 4CH1-3.10
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the effects of changes in surface area, concentration or pressure, temperature and
+    catalyst on the rate of reaction (steeper initial gradient, horizontal sooner, same final amount of
+    product — a recall demand per the note's own examiner tip)
+- code: 4CH1-3.11
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'the rate-factor effects in terms of particle collision theory (concentration/pressure:
+    more particles per volume; surface area: more exposed particles; temperature: more kinetic energy
+    — each yielding more frequent successful collisions per second)'
+- code: 4CH1-3.12
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the catalyst definition (a substance that increases the rate but is chemically unchanged
+    at the end — not altered, not consumed, same mass before and after, not part of the equation)
+- code: 4CH1-3.13
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: how a catalyst works (it provides an alternative pathway with a lower activation
+    energy)
+- code: 4CH1-3.14C
+  verb: draw
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: reaction profile diagrams showing ΔH and activation energy (the peak as the activation
+    energy, the reactant-to-product energy difference as ΔH, the catalyst's lowered peak)
+- code: 4CH1-3.15
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the marble-chips practical (the effect of chip size and of acid concentration on
+    the rate of the calcium carbonate + hydrochloric acid reaction, gas volume in a fixed time)
+- code: 4CH1-3.16
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the catalytic-decomposition practical (the effect of different solids on the rate
+    of hydrogen peroxide decomposition, comparing gas volumes and relative rates on one graph)
+- code: 4CH1-3.17
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that some reactions are reversible, indicated by the ⇌ symbol in equations (forward
+    and reverse reactions occurring at the same time)
+- code: 4CH1-3.18
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the named reversible reactions (thermal decomposition of ammonium chloride with
+    recombination on cooling; the dehydration of hydrated copper(II) sulfate to the white anhydrous salt
+    and its rehydration, with the colour changes)
+- code: 4CH1-3.19C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that a reversible reaction can reach dynamic equilibrium in a sealed container (a
+    closed system in which nothing enters or leaves)
+- code: 4CH1-3.2
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: simple calorimetry experiments (polystyrene-cup solution calorimetry for neutralisation,
+    dissolving and displacement; spirit-burner combustion calorimetry; the assumptions and the main sources
+    of error)
+- code: 4CH1-3.20C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the characteristics of a reaction at dynamic equilibrium (forward and reverse reactions
+    occur at the same rate; concentrations of reactants and products remain constant)
+- code: 4CH1-3.21C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why a catalyst does not affect the position of equilibrium (it increases the rates
+    of the forward and reverse reactions equally via the lower-activation-energy pathway, so equilibrium
+    is reached faster with the same concentrations)
+- code: 4CH1-3.22C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the effect of temperature and pressure changes on the position of equilibrium (temperature
+    increase shifts to the endothermic direction; pressure increase shifts to the side producing fewer
+    gas molecules; no effect when the gas-molecule counts are equal)
+- code: 4CH1-3.3
+  verb: calculate
+  guide_class: CALCULATE
+  demanded_substance: the heat energy change Q = mcΔT from a measured temperature change (solution mass
+    from volume, c = 4.18 J/g/°C, the J-to-kJ conversion and the sign application)
+- code: 4CH1-3.4
+  verb: calculate
+  guide_class: CALCULATE
+  demanded_substance: the molar enthalpy change ΔH = Q/n in kJ/mol (and the energy released per gram)
+    with the exothermic-negative sign convention
+- code: 4CH1-3.5C
+  verb: draw
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: energy level diagrams for exothermic and endothermic reactions (relative reactant/product
+    energies on the y-axis, the up/down enthalpy-change arrows, identifying the reaction type from its
+    diagram)
+- code: 4CH1-3.6C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: bond-breaking as an endothermic process and bond-making as an exothermic process,
+    and the overall reaction type from the break-versus-form energy difference
+- code: 4CH1-3.7C
+  verb: use
+  guide_class: CALCULATE
+  demanded_substance: bond energies to calculate the enthalpy change of a reaction (sum the reactant bonds
+    broken, sum the product bonds formed, energy in minus energy out; balancing numbers counted per bond)
+- code: 4CH1-3.8
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the temperature-changes practical (a calorimetry study of salts dissolving, neutralisation,
+    displacement and combustion; plotting results to find the biggest temperature change)
+- code: 4CH1-3.9
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: rate experiments (gas collection by downward displacement for surface area and catalyst
+    effects, the disappearing-cross thiosulfate method for concentration, magnesium-acid timing for temperature)

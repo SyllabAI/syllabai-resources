@@ -60,8 +60,12 @@ REPO = HERE.parent
 # Session-49 (batch 2): the registry grows by c11_batch2_decisions.yaml
 # Session-51 (batch 3): the registry grows by c11_batch3_decisions.yaml
 # (the full S1 remainder batch, operator-commissioned session 51)
+# Session-53 (batch 4): the registry grows by c11_batch4_decisions.yaml
+# (Section 3 Physical Chemistry, operator-commissioned session 53; under
+# the session-52 cross-slice boundary ruling)
 DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
-                  "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml"]
+                  "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
+                  "c11_batch4_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 
 RELATIONS = {"PART_OF", "REQUIRES_PREREQUISITE", "RELATED_TO", "MISCONCEPTION_OF",

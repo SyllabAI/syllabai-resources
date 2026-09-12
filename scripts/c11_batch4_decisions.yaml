@@ -1,0 +1,1769 @@
+# T-C11 §16 expansion — BATCH 4 decision record — the AI candidate graph for
+# the 4CH1-3.1–3.22C slice (Section 3 — Physical Chemistry: a Energetics /
+# b Rates of Reaction / c Reversible Reactions & Equilibria) + practicals PR-09
+# (3.8 temperature changes), PR-10 (3.15 marble-chips rate) and PR-11
+# (3.16 catalytic decomposition).
+# Authored 2026-09-13 by GLM (Super Z agent, z.ai), extraction_pass
+# c11-s16-batch-4, commissioned by the operator's session-53 batch-4
+# directive ("Execute Batch 4 using the established Batch-1/2/3 machinery."
+# + "T-C11 Batch 4 = Section 3 — Physical Chemistry.") under the session-46
+# §16 authorization (scripts/c11_s16_authorization.yaml). Batch-4
+# preparation (session 52) is already complete and machine-checked: the
+# cross-slice boundary ruling (scripts/c11_batch4_boundary_ruling.yaml —
+# the S1↔S3 conflict audit found ZERO canonical conflicts; Section 3 mints
+# an entirely new concept vocabulary) and the pinned S3 Paper-2 mark-scheme
+# set (ENERGETICS / RATES / RRE — PMT Unit 3 publishes exactly one Paper-2
+# MS per S3 family, all three pinned, so unlike batch 3 there is NO
+# unpinned S3 family; Paper-1 variants remain unpinned by the established
+# Paper-2-first convention — recorded in meta.ms_coverage_note, not silent).
+# This file is the batch-4 input to the SAME gated generation contract as
+# the pilot (graph/reports/C11_ARCHITECTURE.md §10):
+# scripts/c11_concept_pilot.py reads the decision-record registry (pilot,
+# batches 1, 2, 3, then this record) and emits graph/concepts.yaml,
+# graph/concept_edges.yaml and graph/spec_command_kinds.yaml deterministically
+# (fail-closed). NOTHING in this record is authoritative: every record is
+# AI_SUGGESTED with validation_status SUGGESTED. HUMAN_VALIDATED is
+# unreachable from generation (anti-forgery gate). Batch-4 content becomes
+# promotable ONLY through the §18 pathway AFTER the operator records
+# per-row verdicts on this batch's review sheet (per-batch operator gate) —
+# this record ends at that gate; it authorizes nothing.
+#
+# Evidence quotes are whitespace-normalized substrings of the cited file under
+# the T-C10 norm() convention (NFC; strip markdown emphasis/HTML tags/links;
+# collapse whitespace) — verified byte-verbatim by the generator (G03) and by
+# graph_check (c11.4). Anchor kinds: NOTE (T-C10-mapped revision note), SPEC
+# (specification_points.yaml official wording), MARK_SCHEME (pinned PMT
+# extraction — misconception-family evidence only, per G07/G11). Mark-scheme
+# quotes from the pinned pdftotext artifacts preserve the artifact's layout
+# (the batch-2/batch-3 convention); where the pdftotext column order scrambles
+# the answer/accept/reject blocks, the attribution is by accept/reject antonym
+# pairing and is recorded in the affected node's derivation_notes (explicit,
+# not silent).
+#
+# Cross-section boundary discipline (the session-52 ruling, ratified): this
+# record mints an entirely new S3 vocabulary (the machine-verified zero-overlap
+# audit) and sanctions boundary EDGES into EXACTLY the five ruled S1 owners —
+# CON-MOLE (pilot, molar enthalpy 3.4), CON-COVALENT-BOND (batch-3, bond
+# energies 3.6C/3.7C), CON-CONCENTRATION (pilot, the concentration-rate factor
+# 3.9-3.11), CON-EQ-SYMBOL (pilot, the reversible notation 3.17) and
+# CON-WATER-CRYST (pilot, the 3.18 hydrated-CuSO4 example — 3.18 owns the
+# reversible behaviour, NOT the hydration term). Boundary MINTING is
+# forbidden: no S1 identity is re-created, re-scoped or re-owned here (5
+# boundary edges in total, one per sanctioned target, exactly as ruled; a
+# considered sixth — EQ-POSITION into the pilot's mole/molar-ratio for the
+# gas-molecule counting — is held, B4-H-14, recorded for the operator rather
+# than silently authored beyond the audited set).
+#
+# The frozen pilot, batch-1, batch-2 and batch-3 dispositions are untouched by
+# this record: E-08/E-26/E-29 (operator HOLD edges), both RR edges (pilot
+# operator HOLD + batch-1 operator-settled HOLD_REVIEW_REQUIRED), HELD-01..13,
+# B1-H-01..12, B2-H-01..10, B3-H-01..14, the 118 operator promotions, and the
+# 4CH1-4.15 negative control. No batch-4 node attaches to 4.15; no batch-4
+# edge re-uses an earlier-record identity.
+
+meta:
+  task: T-C11
+  stage: s16-batch-4
+  extraction_pass: c11-s16-batch-4
+  generated_date: '2026-09-13'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  commissioned_by: 'operator session-53 batch-4 directive (verbatim: "Execute Batch 4 using the established Batch-1/2/3 machinery." + "T-C11 Batch 4 = Section 3 — Physical Chemistry." + "Batch 4 should therefore be executed efficiently and pragmatically.")'
+  scope:
+    spec_points:
+    - 4CH1-3.1
+    - 4CH1-3.2
+    - 4CH1-3.3
+    - 4CH1-3.4
+    - 4CH1-3.5C
+    - 4CH1-3.6C
+    - 4CH1-3.7C
+    - 4CH1-3.8
+    - 4CH1-3.9
+    - 4CH1-3.10
+    - 4CH1-3.11
+    - 4CH1-3.12
+    - 4CH1-3.13
+    - 4CH1-3.14C
+    - 4CH1-3.15
+    - 4CH1-3.16
+    - 4CH1-3.17
+    - 4CH1-3.18
+    - 4CH1-3.19C
+    - 4CH1-3.20C
+    - 4CH1-3.21C
+    - 4CH1-3.22C
+    practicals:
+    - 4CH1-PR-09
+    - 4CH1-PR-10
+    - 4CH1-PR-11
+    negative_control: 4CH1-4.15
+    notes:
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Exothermic and endothermic - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Calorimetry - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energy level diagrams - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Temperature change practical - IGCSE Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Rate of reaction - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/How surface area affects rate - IGCSE Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Investigating catalysts - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    mark_scheme_evidence:
+    - file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+      sha1_12: 0288d7d15006
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 3/Mark Schemes/Paper 2/Energetics MS.pdf"
+    - file: scripts/c11_evidence/RATES_MS_P2.txt
+      sha1_12: 97876cf4ffe7
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 3/Mark Schemes/Paper 2/Rates of Reaction MS.pdf"
+    - file: scripts/c11_evidence/RRE_MS_P2.txt
+      sha1_12: 7d50fc44586b
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 3/Mark Schemes/Paper 2/Reversible Reactions and Equilibria MS.pdf"
+  ms_coverage_note: 'Full S3 Paper-2 coverage: PMT Unit 3 publishes exactly one Paper-2 MS per S3 family (Energetics, Rates of Reaction, Reversible Reactions and Equilibria) and ALL THREE are pinned, so — unlike batch 3 — there is no S3 family without pinned mark-scheme evidence. Paper-1 variants (Energetics, Rates 1/2/3, RRE) exist and remain unpinned per the Paper-2-first convention batches 2-3 established; a future evidence pass can extend them. The pinned MS overlap heavily (both RATES_MS_P2 and RRE_MS_P2 carry the same catalyst-mechanism question and cap rule), which is recorded here, not silently assumed away.'
+  contract: graph/reports/C11_ARCHITECTURE.md
+  authorization: scripts/c11_s16_authorization.yaml
+
+# ---------------------------------------------------------------------------
+# Command-kind tags (frozen guide §8) — batch-4 slice only (registry of record:
+# graph/spec_command_kinds.yaml, merged with the earlier tags by the generator).
+command_kinds:
+- code: 4CH1-3.1
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the exothermic/endothermic classification (heat energy given out = exothermic with a temperature rise; heat energy taken in = endothermic with a temperature fall; conservation of energy; neutralisation and combustion always exothermic, displacement either)
+- code: 4CH1-3.2
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: simple calorimetry experiments (polystyrene-cup solution calorimetry for neutralisation, dissolving and displacement; spirit-burner combustion calorimetry; the assumptions and the main sources of error)
+- code: 4CH1-3.3
+  verb: calculate
+  guide_class: CALCULATE
+  demanded_substance: the heat energy change Q = mcΔT from a measured temperature change (solution mass from volume, c = 4.18 J/g/°C, the J-to-kJ conversion and the sign application)
+- code: 4CH1-3.4
+  verb: calculate
+  guide_class: CALCULATE
+  demanded_substance: the molar enthalpy change ΔH = Q/n in kJ/mol (and the energy released per gram) with the exothermic-negative sign convention
+- code: 4CH1-3.5C
+  verb: draw
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: energy level diagrams for exothermic and endothermic reactions (relative reactant/product energies on the y-axis, the up/down enthalpy-change arrows, identifying the reaction type from its diagram)
+- code: 4CH1-3.6C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: bond-breaking as an endothermic process and bond-making as an exothermic process, and the overall reaction type from the break-versus-form energy difference
+- code: 4CH1-3.7C
+  verb: use
+  guide_class: CALCULATE
+  demanded_substance: bond energies to calculate the enthalpy change of a reaction (sum the reactant bonds broken, sum the product bonds formed, energy in minus energy out; balancing numbers counted per bond)
+- code: 4CH1-3.8
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the temperature-changes practical (a calorimetry study of salts dissolving, neutralisation, displacement and combustion; plotting results to find the biggest temperature change)
+- code: 4CH1-3.9
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: rate experiments (gas collection by downward displacement for surface area and catalyst effects, the disappearing-cross thiosulfate method for concentration, magnesium-acid timing for temperature)
+- code: 4CH1-3.10
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the effects of changes in surface area, concentration or pressure, temperature and catalyst on the rate of reaction (steeper initial gradient, horizontal sooner, same final amount of product — a recall demand per the note's own examiner tip)
+- code: 4CH1-3.11
+  verb: explain
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: "the rate-factor effects in terms of particle collision theory (concentration/pressure: more particles per volume; surface area: more exposed particles; temperature: more kinetic energy — each yielding more frequent successful collisions per second)"
+- code: 4CH1-3.12
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the catalyst definition (a substance that increases the rate but is chemically unchanged at the end — not altered, not consumed, same mass before and after, not part of the equation)
+- code: 4CH1-3.13
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: how a catalyst works (it provides an alternative pathway with a lower activation energy)
+- code: 4CH1-3.14C
+  verb: draw
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: reaction profile diagrams showing ΔH and activation energy (the peak as the activation energy, the reactant-to-product energy difference as ΔH, the catalyst's lowered peak)
+- code: 4CH1-3.15
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the marble-chips practical (the effect of chip size and of acid concentration on the rate of the calcium carbonate + hydrochloric acid reaction, gas volume in a fixed time)
+- code: 4CH1-3.16
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the catalytic-decomposition practical (the effect of different solids on the rate of hydrogen peroxide decomposition, comparing gas volumes and relative rates on one graph)
+- code: 4CH1-3.17
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that some reactions are reversible, indicated by the ⇌ symbol in equations (forward and reverse reactions occurring at the same time)
+- code: 4CH1-3.18
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the named reversible reactions (thermal decomposition of ammonium chloride with recombination on cooling; the dehydration of hydrated copper(II) sulfate to the white anhydrous salt and its rehydration, with the colour changes)
+- code: 4CH1-3.19C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that a reversible reaction can reach dynamic equilibrium in a sealed container (a closed system in which nothing enters or leaves)
+- code: 4CH1-3.20C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the characteristics of a reaction at dynamic equilibrium (forward and reverse reactions occur at the same rate; concentrations of reactants and products remain constant)
+- code: 4CH1-3.21C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why a catalyst does not affect the position of equilibrium (it increases the rates of the forward and reverse reactions equally via the lower-activation-energy pathway, so equilibrium is reached faster with the same concentrations)
+- code: 4CH1-3.22C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the effect of temperature and pressure changes on the position of equilibrium (temperature increase shifts to the endothermic direction; pressure increase shifts to the side producing fewer gas molecules; no effect when the gas-molecule counts are equal)
+
+# ---------------------------------------------------------------------------
+# Nodes — CONCEPT family (split-first identity policy, §8; OD-1 operand rule
+# applied; no earlier-record identity re-minted — the session-52 cross-slice
+# boundary ruling's zero-overlap audit; 3.8/3.15/3.16 attach NO concept node:
+# the practicals own their investigation SPs, the 1.13/1.60C precedent).
+nodes:
+- code: 4CH1-CON-EXO-ENDO
+  family: CONCEPT
+  title: Exothermic and endothermic reactions (heat energy given out or taken in)
+  aliases: [exothermic, endothermic, exothermic reaction, endothermic reaction, heat energy change]
+  spec_points:
+  - code: 4CH1-3.1
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Exothermic and endothermic - IGCSE Chemistry Revision Notes.md"
+      quote: "An exothermic reaction releases heat energy into the surroundings"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Exothermic and endothermic - IGCSE Chemistry Revision Notes.md"
+      quote: "An endothermic reaction takes heat energy in from the surroundings"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "heat energy is given out are described as exothermic"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.1 term demand: the exothermic/endothermic classification (heat out = exo with a temperature rise; heat in = endo with a temperature fall) plus the example classes (neutralisation and combustion always out; displacement either). One terminology unit — both terms are the two halves of ONE classification demand on one SP, so a single node owns the pair (the CON-ANODE-CATHODE term-pair granularity; the split question is recorded as held B4-H-12, not minted).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.1 @ Exothermic and Endothermic (2026-09-11); spec 4CH1-3.1 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-CALORIMETRY
+  family: CONCEPT
+  title: Simple calorimetry experiments (reactions in solution and combustion)
+  aliases: [calorimetry, calorimeter, simple calorimetry, solution calorimetry, combustion calorimetry]
+  spec_points:
+  - code: 4CH1-3.2
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Calorimetry - IGCSE Chemistry Revision Notes.md"
+      quote: "There are two types of calorimetry experiments you need to know"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Calorimetry - IGCSE Chemistry Revision Notes.md"
+      quote: "The solutions need to be mixed together in an insulated container to prevent heat loss"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Temperature change practical - IGCSE Revision Notes.md"
+      quote: "To perform a calorimetry study of the reaction between HCl and NaOH"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.2 experiment demand: the two calorimetry families (solution reactions in an insulated cup; combustion heating water in a copper can), the apparatus (polystyrene cup / vacuum flask / metal can, lid, shielding), the assumptions (c of solution = water, density = water, container ignored, complete reaction, negligible losses) and the error sources (heat loss, incomplete combustion). One SP-family node at the ratified granularity — the experimental method, not the calculation (3.3 owns that).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.2 @ Calorimetry (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.2 @ Temperature Change Practical (2026-09-11); spec 4CH1-3.2 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-HEAT-CALC
+  family: CONCEPT
+  title: Heat energy change calculation (Q = mcΔT)
+  aliases: [Q=mcΔT, heat energy calculation, specific heat capacity calculation, temperature change calculation]
+  spec_points:
+  - code: 4CH1-3.3
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+      quote: "Q = m x c x ΔT"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+      quote: "Excess iron powder was added to 100.0 cm"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "calculate the heat energy change from a measured temperature change"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.3 calculation demand: the Q = mcΔT procedure (state the equation, m from solution volume at water density, c = 4.18 J/g/°C, substitute, solve, apply the sign, convert J to kJ). One procedural unit; the specific-heat-capacity operand is taught inline and stays an operand (OD-1 — held B4-H-06 records the refused standalone split).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.3 @ Energetics Calculations in Chemistry (2026-09-11); spec 4CH1-3.3 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-MOLAR-ENTHALPY
+  family: CONCEPT
+  title: Molar enthalpy change (ΔH = Q/n)
+  aliases: [molar enthalpy change, enthalpy change per mole, ΔH, energy released per mole, enthalpy change in kJ/mol]
+  spec_points:
+  - code: 4CH1-3.4
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+      quote: "The energy released per mole is also known as the molar enthalpy change"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+      quote: "We can compare the amount of energy released per gram and per mole for different fuels"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "calculate the molar enthalpy change"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.4 calculation demand: converting the heat energy change Q into the molar enthalpy change (energy per mole = Q/n; also the per-gram comparison) with the kJ/mol units and the exothermic-negative sign. The dedicated section of the 3.3/3.4 note (its quoted heading was the T-C10 mapping evidence).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.4 @ Energetics Calculations in Chemistry (2026-09-11); spec 4CH1-3.4 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+  family: CONCEPT
+  title: Energy level diagrams for exothermic and endothermic reactions
+  aliases: [energy level diagram, energy level diagrams, energy diagram, reaction energy level diagram]
+  spec_points:
+  - code: 4CH1-3.5C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energy level diagrams - IGCSE Chemistry Revision Notes.md"
+      quote: "Energy level diagrams are graphical representations of the relative energies of the reactants and products in chemical reactions"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energy level diagrams - IGCSE Chemistry Revision Notes.md"
+      quote: "Arrows on the diagrams indicate whether the reaction is exothermic (downwards pointing) or endothermic (upwards pointing)"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "draw and explain energy level diagrams to represent exothermic and endothermic reactions"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.5C representation demand: the level diagram (y-axis energies, x-axis progress, products higher/lower than reactants, the up/down enthalpy-change arrows) and its reading (identify exo/endo from the diagram). One SP-family node; the ΔH magnitude shown is the qualitative energy difference (the molar-calculation link is deliberately held, B4-H-04).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.5C @ Energy Level Diagrams (2026-09-11); spec 4CH1-3.5C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-BOND-BREAKING-MAKING
+  family: CONCEPT
+  title: Bond-breaking endothermic, bond-making exothermic
+  aliases: [bond breaking, bond making, bond-breaking, bond-making, endothermic bond breaking, exothermic bond making]
+  spec_points:
+  - code: 4CH1-3.6C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+      quote: "During a chemical reaction energy must be taken in to break bonds"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+      quote: "During a chemical reaction, energy is released when new bonds are formed"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "bond-breaking is an endothermic process and that bond-making is an exothermic process"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.6C term demand: the direction rule (breaking takes energy in — endothermic; forming releases energy out — exothermic) and the net rule (overall type depends on the break-vs-form difference). One term-pair unit on one SP (the CON-EXO-ENDO granularity class).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.6C @ What is Bond Energy (2026-09-11); spec 4CH1-3.6C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-BOND-ENERGY-CALC
+  family: CONCEPT
+  title: Bond energy calculations (enthalpy change from bond energies)
+  aliases: [bond energy, bond energies, bond energy calculation, bond energy table]
+  spec_points:
+  - code: 4CH1-3.7C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+      quote: "Each chemical bond has a specific bond energy associated with it"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+      quote: "This is the amount of energy required to break the bond or the amount of energy given out when the bond is formed"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "use bond energies to calculate the enthalpy change during a chemical reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.7C use-demand: the bond-energy definition (energy to break / given out on forming), the bond-energy calculation procedure (sum bonds in reactants = energy in, sum bonds in products = energy out, ΔH = in − out, counting balancing numbers) and the two worked examples (H2 + Cl2; 2HBr decomposition with the unknown-bond inverse). One procedural unit — the definition and the calculation are one SP-family.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.7C @ What is Bond Energy (2026-09-11); spec 4CH1-3.7C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-RATE-EXPERIMENTS
+  family: CONCEPT
+  title: Rate-of-reaction experiments (gas collection, disappearing cross, timing methods)
+  aliases: [rate experiments, measuring rates of reaction, investigating rate of reaction, downward displacement, disappearing cross]
+  spec_points:
+  - code: 4CH1-3.9
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Rate of reaction - IGCSE Chemistry Revision Notes.md"
+      quote: "You should be able to describe experiments to investigate the effect of surface area, concentration, temperature and a catalyst on a rate of reaction"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/How surface area affects rate - IGCSE Revision Notes.md"
+      quote: "Investigating the effect of different size marble chips on the rate of reaction between calcium carbonate and hydrochloric acid"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Investigating catalysts - IGCSE Chemistry Revision Notes.md"
+      quote: "To investigate the effect of different solids on the catalytic decomposition of hydrogen peroxide"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "describe experiments to investigate the effects of changes in surface area of a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.9 experiment demand: the measurement methods — fixed-time gas volume by downward displacement (surface area, catalyst), the disappearing-cross sodium thiosulfate method (concentration), magnesium-dissolves timing (temperature). One experiment-family node per SP (the describe-experiments class; the 3.9/3.10 pair split is recorded as B4-ID-06, not silently decided).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.9 @ Rate of Reaction (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.9 @ How Surface Area Affects Rate (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.9 @ Investigating Catalysts (2026-09-11); spec 4CH1-3.9 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-RATE-FACTORS
+  family: CONCEPT
+  title: Factors affecting the rate of reaction (surface area, concentration and pressure, temperature, catalyst)
+  aliases: [rate of reaction, factors affecting rate, rate factors, effect of concentration on rate, effect of temperature on rate]
+  spec_points:
+  - code: 4CH1-3.10
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Rate of reaction - IGCSE Chemistry Revision Notes.md"
+      quote: "Factors that can affect the rate of a reaction are"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Rate of reaction - IGCSE Chemistry Revision Notes.md"
+      quote: "With an increase in the concentration of a solution, the rate of reaction will increase"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Increasing the concentration of a solution increases the rate of reaction"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "describe the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas, temperature and the use of a catalyst on the rate of a reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.10 recall demand: the four factor-effect rules (surface area up, concentration/pressure up, temperature up, catalyst present -> rate up) and their rate-graph signatures (steeper initial gradient, horizontal sooner, same final product amount). The note''s own examiner tip frames it as recall ("You should be able to recall how changing the concentration, pressure, temperature, and surface area affect the rate") — the effects, not the explanations (3.11 owns those). The rate-of-reaction term itself lives here (the family node owns it).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.10 @ Rate of Reaction (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.10 @ Explaining Rates (2026-09-11); spec 4CH1-3.10 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-COLLISION-THEORY
+  family: CONCEPT
+  title: Collision-theory explanations of rate changes (frequency and success of collisions)
+  aliases: [collision theory, particle collision theory, successful collisions, effective collision, collision frequency]
+  spec_points:
+  - code: 4CH1-3.11
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "We can use collision theory to explain why these factors influence the reaction rate"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Increasing the concentration means that there are more reactant particles in a given volume"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "explain the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.11 explain-demand: the particle-collision mechanism for each factor (concentration: more particles per given volume; pressure: same particles in a smaller volume; temperature: more kinetic energy -> more collisions per second AND more successful; surface area: more exposed particles), the collisions-proportional-to-particles rule and the 10-degrees-roughly-doubles rule of thumb. One mechanism family on one SP.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.11 @ Explaining Rates (2026-09-11); spec 4CH1-3.11 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-CATALYST
+  family: CONCEPT
+  title: Catalysts (increase rate, chemically unchanged; alternative pathway at lower activation energy)
+  aliases: [catalyst, catalysts, catalysis, alternative pathway]
+  spec_points:
+  - code: 4CH1-3.12
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+      quote: "Catalysts are substances which speed up the rate of a reaction without themselves being altered or consumed in the reaction"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "a catalyst is a substance that increases the rate of a reaction, but is chemically unchanged at the end of the reaction"
+  - code: 4CH1-3.13
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+      quote: "The alternative pathway has a lower activation energy"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "a catalyst works by providing an alternative pathway with lower activation energy"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.12+3.13 know/know dual attachment (one note, one term, two depths: the definition then the mechanism) — the ratified 1.19/1.20 + B3-ID-01 precedent. The definition facts (not altered or consumed; same mass before and after; not in the equation though sometimes over/under the arrow; small amounts suffice) plus the mechanism (alternative pathway, lower activation energy). The split question is B4-ID-01 for the operator; keep is defensible.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.12 @ Catalysts in Chemistry (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.13 @ Catalysts in Chemistry (2026-09-11); spec 4CH1-3.12/3.13 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-ACTIVATION-ENERGY
+  family: CONCEPT
+  title: Activation energy (minimum energy for reaction; Ea)
+  aliases: [activation energy, Ea, minimum amount of energy, activation energy barrier]
+  spec_points:
+  - code: 4CH1-3.14C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+      quote: "Activation energy is the minimum amount of energy that reacting particles must have in order for a reaction to occur"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+      quote: "Catalysts provide the reactants with an alternative pathway for the reaction which has a lower activation energy"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "and activation energy"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: 'The activation-energy concept (the minimum energy reacting particles must have; the initial rise to the peak of the reaction profile; the quantity a catalyst lowers). Minted as its own node because 3.13 (catalyst mechanism) and 3.14C (profiles) both presuppose it — the Ea concept is cross-cutting within S3-b. Dual node attachment with CON-REACTION-PROFILE on 3.14C (the B3-ID-05 1.58C precedent; the merge/split question is B4-ID-04 for the operator).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.14C @ What is Activation Energy (2026-09-11); spec 4CH1-3.14C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-REACTION-PROFILE
+  family: CONCEPT
+  title: Reaction profile diagrams (showing ΔH and activation energy)
+  aliases: [reaction profile, reaction profiles, reaction profile diagram, energy profile]
+  spec_points:
+  - code: 4CH1-3.14C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+      quote: "Reaction profiles are similar to energy level diagrams seen in a previous topic"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+      quote: "The initial increase in energy, from the reactants to the peak of the curve, represents the activation energy"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "draw and explain reaction profile diagrams showing"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.14C representation demand: the reaction profile (like an energy level diagram but also showing how energy changes as the reaction progresses — the curve, the peak, the ΔH arrow and the Ea rise) plus the catalyst''s lowered peak. The representation node — distinct from the Ea concept it displays (the same 1.58C dual-node precedent; B4-ID-04 records the merge question).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.14C @ What is Activation Energy (2026-09-11); spec 4CH1-3.14C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-REVERSIBLE
+  family: CONCEPT
+  title: Reversible reactions and the ⇌ notation
+  aliases: [reversible reaction, reversible reactions, forward and reverse reactions, reversible arrow, half-arrowhead symbol]
+  spec_points:
+  - code: 4CH1-3.17
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+      quote: "In reversible reactions, the product molecules can themselves react with each other or decompose and form the reactant molecules again"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+      quote: "When writing chemical equations for reversible reactions, two opposing arrows are used to indicate the forward and reverse reactions occurring at the same time"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know that some reactions are reversible and this is indicated by the symbol"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.17 term demand: the reversibility concept (products can react/decompose back to reactants; both directions; completion-vs-reversible contrast) and the ⇌ notation (two opposing half-arrowheads — right on top, left below; conditions can change the direction). One terminology unit on one SP.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.17 @ Reversible Reactions (2026-09-11); spec 4CH1-3.17 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-REVERSIBLE-EXAMPLES
+  family: CONCEPT
+  title: Named reversible reactions (ammonium chloride; hydrated copper(II) sulfate)
+  aliases: [dehydration of hydrated copper(II) sulfate, thermal decomposition of ammonium chloride, hydrated copper(II) sulfate, anhydrous copper(II) sulfate]
+  spec_points:
+  - code: 4CH1-3.18
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+      quote: "Heating ammonium chloride produces ammonia and hydrogen chloride gases"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+      quote: "The hydrated salt can be heated / dehydrated to form anhydrous copper(II) sulfate"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "describe reversible reactions such as the dehydration of hydrated copper(II) sulfate and the effect of heat on ammonium chloride"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.18 example demand: the two named reversible reactions — NH4Cl heated to NH3 + HCl with recombination on cooling, and hydrated CuSO4·5H2O (blue) dehydrated to anhydrous CuSO4 (white) with the highly exothermic rehydration. A separate examples node per the ruling''s family list (3.18 owns the reversible BEHAVIOUR of these examples, not the hydration term — the pilot CON-WATER-CRYST owns that, boundary edge B4-E-18); the fold-into-CON-REVERSIBLE question is B4-ID-05 for the operator.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.18 @ Reversible Reactions (2026-09-11); spec 4CH1-3.18 official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-DYNAMIC-EQUILIBRIUM
+  family: CONCEPT
+  title: Dynamic equilibrium (sealed container; equal forward and reverse rates; constant concentrations)
+  aliases: [dynamic equilibrium, equilibrium, state of equilibrium, closed system, sealed container]
+  spec_points:
+  - code: 4CH1-3.19C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md"
+      quote: "It only occurs in a closed system"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know that a reversible reaction can reach dynamic equilibrium in a sealed container"
+  - code: 4CH1-3.20C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md"
+      quote: "When the rate of the forward reaction equals the rate of the reverse reaction, the overall reaction is said to be in a state of equilibrium"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md"
+      quote: "The concentration of reactants and products remains constant"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the forward and reverse reactions occur at the same rate"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.19C+3.20C know/know dual attachment (one note, one concept, the reach-then-characteristics pair — the ratified dual-attachment precedent; split question B4-ID-02): equilibrium is dynamic (molecules changing into each other constantly and at the same rate), occurs only in a closed system (nothing enters or leaves), with equal forward/reverse rates and constant concentrations; the Haber example and the rate-vs-progress graph are the note''s illustrations.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.19C @ Dynamic Equilibrium (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.20C @ Dynamic Equilibrium (2026-09-11); spec 4CH1-3.19C/3.20C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-EQ-POSITION
+  family: CONCEPT
+  title: Position of equilibrium (temperature and pressure effects; catalyst does not affect it)
+  aliases: [position of equilibrium, equilibrium position, shifts to the right, shifts to the left, Le Chatelier's principle]
+  spec_points:
+  - code: 4CH1-3.21C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+      quote: "The presence of a catalyst does not affect the position of equilibrium but it does increase the rate at which equilibrium is reached"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "understand why a catalyst does not affect the position of equilibrium in a reversible reaction"
+  - code: 4CH1-3.22C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+      quote: "To make this prediction it is necessary to know whether the reaction is exothermic or endothermic"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know the effect of changing either temperature or pressure on the position of equilibrium in a reversible reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '3.21C+3.22C know/understand dual attachment (one note, the position concept and its rules — the ratified dual-attachment precedent; split question B4-ID-03): the position vocabulary (shift right = forward favoured = more products; shift left = reverse favoured), the temperature rule (increase -> endothermic direction; decrease -> exothermic direction), the pressure rule (increase -> fewer gas molecules; decrease -> more; no effect when counts equal), and the catalyst fact (rates raised equally, position and concentrations unchanged). The note frames the rules with Le Chatelier''s Principle as a teaching frame (the spec does not require the name — it stays a corpus-evidenced alias, not demanded vocabulary).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.21C @ The Position of Equilibrium (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-3.22C @ The Position of Equilibrium (2026-09-11); spec 4CH1-3.21C/3.22C official wording'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+
+# --- MISCONCEPTION family (all five mark-scheme-documented WRONG_ANSWER_PATTERN
+# --- nodes; every node carries source-quoted evidence + remediation evidence;
+# --- no misconception was inferred from theoretical possibility alone — the
+# --- considered-and-refused candidates are in the held appendix (B4-H-08..11).
+- code: 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Explaining a catalyst's effect as particles gaining energy or moving more quickly
+  aliases: [catalyst gives particles more energy, catalyst speeds up particles, particles move faster because of the catalyst]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RATES_MS_P2.txt
+    quote: "MAX 1 if any reference to particles gaining energy or moving more quickly"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "MAX 1 if any reference to particles gaining energy or moving more quickly"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+    quote: "The alternative pathway has a lower activation energy"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+    quote: "Catalysts provide the reactants with an alternative pathway for the reaction which has a lower activation energy"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'BOTH pinned S3 Paper-2 mark schemes carry the same cap rule on the catalyst-mechanism question ("MAX 1 if any reference to particles gaining energy or moving more quickly") — the documented wrong answer explains catalysis as an energy input to the particles (a temperature-style mechanism) instead of the alternative-pathway/lower-activation-energy mechanism. The wrong-answer pattern corrupts the 3.13 mechanism; the corrective content is the alternative-pathway statement (quoted in remediation_evidence from both the catalysts note and the activation-energy note).'
+    upstream: 'PMT Unit-3 Paper-2 MS "Rates of Reaction" + "Reversible Reactions and Equilibria" (pinned scripts/c11_evidence/RATES_MS_P2.txt sha1 97876cf4ffe7 + RRE_MS_P2.txt sha1 7d50fc44586b)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-MIS-EQ-TEMP-EXO
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Predicting that raising the temperature shifts equilibrium in the exothermic direction
+  aliases: [temperature increase favours the exothermic reaction, heating shifts equilibrium the wrong way]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "moves in the exothermic direction"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "The equilibrium will shift in the direction of the endothermic reaction"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "moves in the endothermic direction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned RRE Paper-2 MS REJECT column rejects "moves in the exothermic direction" for the temperature-shift question — the documented wrong answer reverses the 3.22C temperature rule (a temperature increase shifts the position of equilibrium in the direction of the ENDOthermic reaction). The paired Accept entry ("moves in the endothermic direction") is the assessment-side corrective; the note''s Temperature section supplies the remediation quote. Layout caveat (explicit, not silent): the pdftotext pin scrambles the answer/accept/reject column order; the reject attribution is by the accept/reject ANTONYM pairing on the same question — the batch-2/batch-3 REJECT-column convention applied to a layout-verified pin.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Reversible Reactions and Equilibria" (pinned scripts/c11_evidence/RRE_MS_P2.txt sha1 7d50fc44586b)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-MIS-EQ-PRESSURE-FEWER
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Predicting that a pressure change shifts equilibrium to the side with fewer gas molecules in the wrong direction
+  aliases: [pressure shifts to the fewer-moles side, fewer molecules side on pressure decrease]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "shifts to the side with fewer (gas) moles/molecules"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "An increase in pressure will favour the reaction that produces the least number of molecules"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "A decrease in pressure will favour the reaction that produces the greatest number of molecules"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned RRE Paper-2 MS REJECT column rejects "shifts to the side with fewer (gas) moles/molecules" for the pressure-shift question — the documented wrong answer picks the wrong side of the molecule-count rule (a pressure DECREASE favours the side with MORE gas molecules; the rejected answer selects the fewer-molecules side). Both directions of the corrective rule are quoted in remediation_evidence. Layout caveat (explicit): the pdftotext pin scrambles the answer/accept/reject columns; the attribution is by the antonym pairing — hence confidence medium, the pattern itself solidly documented as a rejected answer.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Reversible Reactions and Equilibria" (pinned scripts/c11_evidence/RRE_MS_P2.txt sha1 7d50fc44586b)'
+    generated_date: '2026-09-13'
+  confidence: medium
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-MIS-ENTHALPY-UNIT-J
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Quoting the molar enthalpy change as the unconverted joule value (e.g. 50 000) instead of kilojoules
+  aliases: [molar enthalpy in J instead of kJ, forgetting the J to kJ conversion, 50 000 instead of 50]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+    quote: "Award 1 mark for 50 000"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+    quote: "Award 2 marks for 50 000 if units changed to J/mol on answer line"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "Convert from J to kJ (divide by 1000)"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "The units are kJ / mol"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned ENERGETICS Paper-2 MS documents the unit-magnitude wrong answer exactly: the correct molar enthalpy is 50 (kJ/mol); "50 000" — the raw joule value carried into the kJ answer — scores only 1 of 2, and only earns full credit if the units are changed to J/mol on the answer line. The pattern corrupts the 3.4 unit conversion (the pilot MIS-CONC-UNIT cm3-to-dm3 class applied to J-to-kJ); the remediation is the note''s explicit conversion step ("Convert from J to kJ (divide by 1000)") and the kJ/mol units statement.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Energetics" (pinned scripts/c11_evidence/ENERGETICS_MS_P2.txt sha1 0288d7d15006)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-MIS-BOND-ENERGY-COUNT
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Counting the wrong number or type of bonds in bond-energy calculations (ignoring balancing numbers)
+  aliases: [wrong number of bonds, ignoring balancing numbers, bond-counting mistakes]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+    quote: "Deduct 1 mark for each mistake"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "Don't forget to take into account the balancing numbers when working out how many of each type of bond is being broken/formed"
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "For bond energy questions, it is helpful to write down a displayed formula equation for the reaction before identifying the type and number of bonds"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "Don't forget to take into account the balancing numbers when working out how many of each type of bond is being broken/formed"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Two-source documentation: the pinned ENERGETICS Paper-2 MS deducts one mark per mistake in the bond-sum expressions ("(4 × C-H) + (2 × O=O)" / "Deduct 1 mark for each mistake" — the bond-counting step of Q2(c)), and the note''s Examiner Tips and Tricks block names the mistake class ("Don''t forget to take into account the balancing numbers when working out how many of each type of bond is being broken/formed... to avoid making mistakes"). The pattern corrupts the 3.7C bond-sum; the remediation is the tip''s displayed-formula-first strategy plus the balancing-numbers rule. Confidence medium because the MS quote documents the deduction without naming the mistake type — the naming comes from the tip (recorded, not silent).'
+    upstream: 'PMT Unit-3 Paper-2 MS "Energetics" (pinned scripts/c11_evidence/ENERGETICS_MS_P2.txt sha1 0288d7d15006); T-C10 HUMAN_VALIDATED 4CH1-3.7C @ What is Bond Energy (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: medium
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-13'
+  damage_flags: []
+
+# ---------------------------------------------------------------------------
+# Authored semantic edges — ALL SUGGESTED (zero REVIEW_REQUIRED this batch:
+# every doubt was either resolved on explicit evidence or sent to held —
+# the 14-row appendix below; the batch-2/batch-3 authoring discipline).
+# Direction conventions: REQUIRES_PREREQUISITE source=dependent -> target=
+# prerequisite; EXPLAINED_BY explained -> explainer; WRONG_ANSWER_PATTERN /
+# REMEDIATED_BY misconception -> concept. Five edges are CROSS-SECTION
+# boundary edges into the ruled S1 owners (B4-E-04/07/09/18/19 — sanctioned
+# per the session-52 cross-slice boundary ruling; no duplicate mint).
+edges:
+- source: 4CH1-CON-HEAT-CALC
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-CALORIMETRY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Calorimetry - IGCSE Chemistry Revision Notes.md"
+    quote: "The energy released would be calculated using"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "Excess iron powder was added to 100.0 cm"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: 'The 3.2 calorimetry note teaches the Q calculation INSIDE the experimental method (each method ends "The energy released would be calculated using: Q = m x c x ΔT"), and the 3.3 note''s worked example then runs on calorimetry data (set "in a calorimeter", temperature rise measured) — the 3.3 calculation operates on the measured temperature change the 3.2 experiments produce (the spec''s own "from a measured temperature change").'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.2 @ Calorimetry + 4CH1-3.3 @ Energetics Calculations (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-HEAT-CALC
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EXO-ENDO
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "Exothermic reactions have a negative enthalpy change"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The sign-application step of the 3.3 procedure uses the 3.1 exo/endo classification without re-teaching it (the worked example: "Apply the sign: The temperature increased... So, the reaction is exothermic... Exothermic reactions have a negative enthalpy change") — the classification is the operand of the sign step.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.3 @ Energetics Calculations (2026-09-11); target node owned by this record (4CH1-3.1)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-MOLAR-ENTHALPY
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-HEAT-CALC
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "In both cases, the energy released (Q) is calculated first"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: 'The note teaches the sequence explicitly: Q is calculated FIRST, then the per-gram/per-mole conversion — the 3.4 molar enthalpy is computed FROM the 3.3 heat energy change (ΔH = Q/n; the spec''s own 3.3-then-3.4 order).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.3/3.4 @ Energetics Calculations (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-MOLAR-ENTHALPY
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-MOLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "We can compare the amount of energy released per gram and per mole for different fuels"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "The energy released per mole is also known as the molar enthalpy change"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (B4-E-04), sanctioned by the session-52 cross-slice boundary ruling ("molar enthalpy calculation (3.4) presupposes the mole (Q/n)"): the mole is the denominator operand of the molar enthalpy expression (OD-1 operand rule — the pilot''s yield-triple operand class); the note''s per-gram/per-mole comparison and the worked example''s mol-to-mass machinery (mass = moles × Mr) use the mole without re-teaching it. No S1 identity is re-minted.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.4 @ Energetics Calculations (2026-09-11); target node owned by the pilot record (4CH1-1.26); session-52 cross-slice boundary ruling sanctioned target'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-BOND-BREAKING-MAKING
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EXO-ENDO
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "Because energy is being taken in, bond breaking is an endothermic process"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The bond-energy note classifies bond breaking and bond making BY the 3.1 exo/endo classification (each statement hyperlinks back to the exothermic/endothermic note rather than re-teaching it) — the classification terms are the operands of the 3.6C rule.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.6C @ What is Bond Energy (2026-09-11); target node owned by this record (4CH1-3.1)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-BOND-ENERGY-CALC
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-BOND-BREAKING-MAKING
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "This is the amount of energy required to break the bond or the amount of energy given out when the bond is formed"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Bond energy is DEFINED over the 3.6C breaking/making energetics ("the amount of energy required to break the bond or... given out when the bond is formed"): the 3.7C calculation''s operands are exactly the 3.6C breaking/making energies, and the spec''s own order is know-then-use (3.6C -> 3.7C).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.6C/3.7C @ What is Bond Energy (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-BOND-ENERGY-CALC
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-COVALENT-BOND
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "Each chemical bond has a specific bond energy associated with it"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "To do this it is necessary to know the bonds present in both the reactants and products"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (B4-E-07), sanctioned by the session-52 cross-slice boundary ruling ("bond-energy work (3.6C/3.7C) presupposes the covalent bond the energies are measured over"): the calculation presupposes identifying the bonds present in reactants and products, and every bond-energy operand in the note''s worked examples (H-H, Cl-Cl, H-Cl, H-Br, Br-Br — the 1.46 diatomic set) is a covalent bond of the S1 concept universe; the covalent-bond concept is used without re-teaching. Confidence medium, recorded not silent: the note''s own text says "chemical bond" (not "covalent bond") — the covalent-bond attribution rests on the worked-example bond set plus the ruling, not on the term itself.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.7C @ What is Bond Energy (2026-09-11); target node owned by the batch-3 record (4CH1-1.44/1.45); session-52 cross-slice boundary ruling sanctioned target'
+    generated_date: '2026-09-13'
+  confidence: medium
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EXO-ENDO
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energy level diagrams - IGCSE Chemistry Revision Notes.md"
+    quote: "Arrows on the diagrams indicate whether the reaction is exothermic (downwards pointing) or endothermic (upwards pointing)"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energy level diagrams - IGCSE Chemistry Revision Notes.md"
+    quote: "The difference in height between the energy of reactants and products represents the overall enthalpy change of a reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The diagram''s semantics are defined BY the 3.1 classification: which level sits higher, which way the arrow points (down = exo, up = endo), and the sign of the energy change — drawing and reading a 3.5C diagram presupposes the exo/endo distinction it encodes.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.5C @ Energy Level Diagrams (2026-09-11); target node owned by this record (4CH1-3.1)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-RATE-FACTORS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-CONCENTRATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Increasing the concentration of a solution increases the rate of reaction"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Increasing the concentration means that there are more reactant particles in a given volume"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (B4-E-09), sanctioned by the session-52 cross-slice boundary ruling ("the concentration-rate factor (3.9-3.11) presupposes the concentration-of-solution concept"): the concentration factor is stated over the pilot''s concentration-of-solution concept ("concentration of a solution", "more reactant particles in a given volume") without re-teaching it. No S1 identity is re-minted.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.10/3.11 @ Explaining Rates (2026-09-11); target node owned by the pilot record (4CH1-1.35C); session-52 cross-slice boundary ruling sanctioned target'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-CATALYST
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ACTIVATION-ENERGY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+    quote: "The alternative pathway has a lower activation energy"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The 3.13 mechanism is stated in activation-energy terms without defining activation energy (the 3.14C concept — the two notes cross-reference each other): the catalyst mechanism presupposes the Ea quantity it lowers.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.13 @ Catalysts in Chemistry (2026-09-11); target node owned by this record (4CH1-3.14C)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-REACTION-PROFILE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+    quote: "Reaction profiles are similar to energy level diagrams seen in a previous topic"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The corpus itself states the dependency: profiles are "similar to energy level diagrams seen in a previous topic, but in addition... they also show how the energy changes as the reaction progresses" — the 3.14C representation extends the 3.5C one and presupposes its reading (levels, axes, the ΔH arrow).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.14C @ What is Activation Energy (2026-09-11); target node owned by this record (4CH1-3.5C)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-REACTION-PROFILE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ACTIVATION-ENERGY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md"
+    quote: "The initial increase in energy, from the reactants to the peak of the curve, represents the activation energy"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The profile''s defining feature IS the activation energy (the initial rise to the peak of the curve) plus the ΔH difference — drawing and labelling a 3.14C profile presupposes the Ea concept the peak represents. Companion to the profile -> level-diagram edge (different claims: the representation lineage vs the quantity displayed).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.14C @ What is Activation Energy (2026-09-11); target node owned by this record (4CH1-3.14C)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-DYNAMIC-EQUILIBRIUM
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REVERSIBLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "A reversible reaction is one which occurs in both directions"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Dynamic equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "When the rate of the forward reaction equals the rate of the reverse reaction, the overall reaction is said to be in a state of equilibrium"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Dynamic equilibrium is defined OVER the reversible reaction (the note opens by re-using the 3.17 definition verbatim, then defines equilibrium as the equal-rates state of that reversible reaction) — the 3.19C/3.20C concept presupposes the 3.17 concept it is a state of.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.19C/3.20C @ Dynamic Equilibrium (2026-09-11); target node owned by this record (4CH1-3.17)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-EQ-POSITION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-DYNAMIC-EQUILIBRIUM
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "The relative amounts of all the reactants and products at equilibrium depend on the conditions of the reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The position of equilibrium is defined as the relative amounts of reactants and products AT equilibrium — the 3.21C/3.22C rules are about a property of the 3.19C/3.20C equilibrium state, which they presuppose.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.21C/3.22C @ The Position of Equilibrium (2026-09-11); target node owned by this record (4CH1-3.19C/3.20C)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-EQ-POSITION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-CATALYST
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "The presence of a catalyst does not affect the position of equilibrium but it does increase the rate at which equilibrium is reached"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: '3.21C is stated over the catalyst concept (the sentence is about the catalyst''s effect on the equilibrium) without re-teaching what a catalyst is — the 3.12/3.13 concept is the operand of the 3.21C rule.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.21C @ The Position of Equilibrium (2026-09-11); target node owned by this record (4CH1-3.12/3.13)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-EQ-POSITION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EXO-ENDO
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "To make this prediction it is necessary to know whether the reaction is exothermic or endothermic"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The corpus states the prerequisite explicitly: applying the 3.22C temperature rule "is necessary to know whether the reaction is exothermic or endothermic" — the 3.1 classification is the operand of the temperature-shift rule (the strongest possible used-without-reteaching evidence: the note itself declares the dependency).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.22C @ The Position of Equilibrium (2026-09-11); target node owned by this record (4CH1-3.1)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-REVERSIBLE-EXAMPLES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REVERSIBLE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+    quote: "Reversible reactions can be seen in some hydrated salts"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+    quote: "Heating ammonium chloride produces ammonia and hydrogen chloride gases"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The 3.18 examples are presented as instances OF reversible reactions (the note re-uses the 3.17 concept and its ⇌ notation to write both named equations); the spec''s own order is know-reversible (3.17) then describe-examples (3.18).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.17/3.18 @ Reversible Reactions (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-REVERSIBLE-EXAMPLES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-WATER-CRYST
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+    quote: "These are salts that contain water of crystallisation which affects their shape and colour"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+    quote: "The hydrated salt can be heated / dehydrated to form anhydrous copper(II) sulfate"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (B4-E-18), sanctioned by the session-52 cross-slice boundary ruling ("the 3.18 dehydration-of-hydrated-copper(II)-sulfate example presupposes water of crystallisation (the pilot node owns the term; 3.18 owns the reversible behaviour, NOT the hydration term)"): the example uses the water-of-crystallisation and hydrated/anhydrous-salt concepts without re-teaching them. No S1 identity is re-minted; 3.18 owns the reversible behaviour.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.18 @ Reversible Reactions (2026-09-11); target node owned by the pilot record (4CH1-1.44/1.45 of the pilot slice); session-52 cross-slice boundary ruling sanctioned target'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-REVERSIBLE
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EQ-SYMBOL
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/Reversible reactions - IGCSE Chemistry Revision Notes.md"
+    quote: "When writing chemical equations for reversible reactions, two opposing arrows are used to indicate the forward and reverse reactions occurring at the same time"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (B4-E-19), sanctioned by the session-52 cross-slice boundary ruling ("reversible-reaction notation (3.17, the ⇌ symbol) presupposes balanced symbol equations"): the 3.17 demand is the reversible notation "in equations" — a variation on the pilot''s symbol-equation skill, used without re-teaching equation-writing or balancing. No S1 identity is re-minted.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.17 @ Reversible Reactions (2026-09-11); target node owned by the pilot record (4CH1-1.18); session-52 cross-slice boundary ruling sanctioned target'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-PR-09
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-CALORIMETRY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Temperature change practical - IGCSE Revision Notes.md"
+    quote: "To perform a calorimetry study of the reaction between HCl and NaOH"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical edge (the PR-01/PR-02/PR-03/PR-04 pattern: the practical''s Aim sentence names the target concept): the 3.8 practical IS a calorimetry study (styrofoam calorimeter + lid, thermometer, stirrer) — the 3.2 method deployed as the named practical.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.8 @ Temperature Change Practical (2026-09-11); target node owned by this record (4CH1-3.2)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-PR-10
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-RATE-EXPERIMENTS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/How surface area affects rate - IGCSE Revision Notes.md"
+    quote: "Investigating the effect of different size marble chips on the rate of reaction between calcium carbonate and hydrochloric acid"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical edge (the PR-02 -> CHROMATOGRAPHY pattern): the 3.15 practical deploys the 3.9 fixed-time gas-collection family (conical flask + delivery tube + inverted measuring cylinder, gas volume in a fixed time) — the aim and method are the 3.9 experiment family applied to marble chips.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.15 @ How Surface Area Affects Rate (2026-09-11); target node owned by this record (4CH1-3.9)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-PR-10
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-RATE-FACTORS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/How surface area affects rate - IGCSE Revision Notes.md"
+    quote: "Increasing the surface area of the marble chip, increases the rate of reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical edge (the PR-02 -> RF-VALUE pattern: the practical''s conclusion states the factor rule it investigates): the 3.15 practical''s conclusion is the surface-area factor rule — the 3.10 effects are the practical''s explanatory frame, used without re-teaching.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.15 @ How Surface Area Affects Rate (2026-09-11); target node owned by this record (4CH1-3.10)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-PR-11
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-RATE-EXPERIMENTS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Investigating catalysts - IGCSE Chemistry Revision Notes.md"
+    quote: "Use a delivery tube to connect this flask to a measuring cylinder upside down in water trough"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical edge (the PR-02 pattern): the 3.16 practical deploys the same 3.9 fixed-time gas-collection family (delivery tube to an inverted measuring cylinder in a water trough, gas volume in a fixed time) for the catalyst comparison.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.16 @ Investigating Catalysts (2026-09-11); target node owned by this record (4CH1-3.9)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-PR-11
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-CATALYST
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Investigating catalysts - IGCSE Chemistry Revision Notes.md"
+    quote: "To investigate the effect of different solids on the catalytic decomposition of hydrogen peroxide"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Investigating catalysts - IGCSE Chemistry Revision Notes.md"
+    quote: "Repeat experiment with different catalysts and compare results"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical edge (the PR-04 -> ELECTROLYSIS pattern): the 3.16 practical''s independent variable IS the catalyst (different solids — MnO2, PbO, Fe2O3, CuO — on the catalytic decomposition); the 3.12/3.13 concept is the practical''s subject, used without re-teaching.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.16 @ Investigating Catalysts (2026-09-11); target node owned by this record (4CH1-3.12/3.13)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-CON-RATE-FACTORS
+  relation: EXPLAINED_BY
+  target: 4CH1-CON-COLLISION-THEORY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "We can use collision theory to explain why these factors influence the reaction rate"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Increasing the concentration means that there are more reactant particles in a given volume"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING
+    derivation_notes: '3.11 is an explicit explain-demand and the note teaches each 3.10 factor effect with an explicit particle-collision cause (concentration/pressure: more particles per volume or same particles in a smaller volume; temperature: more kinetic energy; surface area: more exposed particles — each "causes more collisions per second, leading to more frequent and successful collisions"). The EXPLAINED_BY class per the batch-2/3 pattern (one relation per pair; no prereq edge on this pair — the factors are described before they are explained, but the dependency that matters is explanatory).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.10/3.11 @ Explaining Rates (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-CATALYST
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RATES_MS_P2.txt
+    quote: "MAX 1 if any reference to particles gaining energy or moving more quickly"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "MAX 1 if any reference to particles gaining energy or moving more quickly"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer manifests in catalyst-mechanism question contexts (both pinned S3 Paper-2 MS cap the answer at 1 mark when it references particles gaining energy or moving more quickly) — the pattern corrupts the 3.13 mechanism held by CON-CATALYST.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Rates of Reaction" + "Reversible Reactions and Equilibria" (pinned RATES_MS_P2.txt sha1 97876cf4ffe7 + RRE_MS_P2.txt sha1 7d50fc44586b)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-CATALYST-PARTICLE-ENERGY
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-CATALYST
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+    quote: "They provide an alternative pathway for the reaction to occur"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Catalysts in Chemistry - IGCSE Chemistry Revision Notes.md"
+    quote: "The alternative pathway has a lower activation energy"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25/batch-2/batch-3 pattern): the corrective content IS the alternative-pathway/lower-activation-energy mechanism statement (plus the activation-energy note''s catalyst paragraph quoted in the node''s remediation_evidence).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.12/3.13 @ Catalysts in Chemistry (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-EQ-TEMP-EXO
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-EQ-POSITION
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "moves in the exothermic direction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer manifests in equilibrium-shift question contexts (the pinned RRE Paper-2 MS rejects "moves in the exothermic direction" on the temperature question — its Accept column takes the antonym) — the pattern corrupts the 3.22C temperature rule held by CON-EQ-POSITION.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Reversible Reactions and Equilibria" (pinned scripts/c11_evidence/RRE_MS_P2.txt sha1 7d50fc44586b)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-EQ-TEMP-EXO
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-EQ-POSITION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "The equilibrium will shift in the direction of the endothermic reaction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25 pattern): the corrective content IS the endothermic-direction rule for a temperature increase (the note''s Temperature section; the MS Accept entry is the same statement in assessment form).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.22C @ The Position of Equilibrium (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-EQ-PRESSURE-FEWER
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-EQ-POSITION
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/RRE_MS_P2.txt
+    quote: "shifts to the side with fewer (gas) moles/molecules"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer manifests in equilibrium-shift question contexts (the pinned RRE Paper-2 MS rejects "shifts to the side with fewer (gas) moles/molecules" on the pressure question) — the pattern reverses the molecule-count direction of the 3.22C pressure rule held by CON-EQ-POSITION. Layout caveat: the pdftotext column scrambling makes the reject attribution antonym-based (recorded in the node derivation_notes) — hence medium confidence on this row.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Reversible Reactions and Equilibria" (pinned scripts/c11_evidence/RRE_MS_P2.txt sha1 7d50fc44586b)'
+    generated_date: '2026-09-13'
+  confidence: medium
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-EQ-PRESSURE-FEWER
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-EQ-POSITION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "An increase in pressure will favour the reaction that produces the least number of molecules"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/c. Reversible Reactions & Equilibria/The position of equilibrium - IGCSE Chemistry Revision Notes.md"
+    quote: "A decrease in pressure will favour the reaction that produces the greatest number of molecules"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25 pattern): the corrective content IS the both-directions molecule-count rule (increase -> fewest molecules; decrease -> most molecules; no effect when the counts are equal — the note''s Pressure section).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.22C @ The Position of Equilibrium (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-ENTHALPY-UNIT-J
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-MOLAR-ENTHALPY
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+    quote: "Award 1 mark for 50 000"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+    quote: "Award 2 marks for 50 000 if units changed to J/mol on answer line"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer manifests in molar-enthalpy question contexts (the pinned ENERGETICS Paper-2 MS awards 1/2 for the unconverted 50 000 answer, full credit only with J/mol units on the line) — the pattern corrupts the 3.4 unit conversion held by CON-MOLAR-ENTHALPY.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Energetics" (pinned scripts/c11_evidence/ENERGETICS_MS_P2.txt sha1 0288d7d15006)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-ENTHALPY-UNIT-J
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-MOLAR-ENTHALPY
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "Convert from J to kJ (divide by 1000)"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md"
+    quote: "The units are kJ / mol"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25 pattern): the corrective content IS the explicit J-to-kJ conversion step and the kJ/mol units statement of the molar-enthalpy section.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.4 @ Energetics Calculations in Chemistry (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-BOND-ENERGY-COUNT
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-BOND-ENERGY-CALC
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt
+    quote: "Deduct 1 mark for each mistake"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "Don't forget to take into account the balancing numbers when working out how many of each type of bond is being broken/formed"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The wrong answer manifests in bond-energy question contexts (the pinned ENERGETICS Paper-2 MS deducts a mark per mistake in the bond-sum expressions "(4 × C-H) + (2 × O=O)" / "(2 × C=O) + (4 × H-O)"; the examiner tip names the mistake class — balancing numbers ignored in the bond count) — the pattern corrupts the 3.7C bond-sum held by CON-BOND-ENERGY-CALC.'
+    upstream: 'PMT Unit-3 Paper-2 MS "Energetics" (pinned scripts/c11_evidence/ENERGETICS_MS_P2.txt sha1 0288d7d15006); T-C10 HUMAN_VALIDATED 4CH1-3.7C @ What is Bond Energy (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: medium
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+- source: 4CH1-MIS-BOND-ENERGY-COUNT
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-BOND-ENERGY-CALC
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "For bond energy questions, it is helpful to write down a displayed formula equation for the reaction before identifying the type and number of bonds"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE Chemistry Revision Notes.md"
+    quote: "Don't forget to take into account the balancing numbers when working out how many of each type of bond is being broken/formed"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-4
+    derivation_method: EXAMINER_TIP_EXPLICIT
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25 pattern): the corrective content IS the note''s Examiner Tips and Tricks strategy — write the displayed-formula equation first, then identify the type and number of bonds, counting the balancing numbers.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-3.7C @ What is Bond Energy (2026-09-11)'
+    generated_date: '2026-09-13'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-13'
+
+# ---------------------------------------------------------------------------
+# Held / rejected candidates — the abstention record (considered and NOT
+# drawn; overriding a hold = re-authoring this record, never hand-editing the
+# graph). Every misconception candidate refused for lack of documented
+# wrong-answer evidence is recorded here per the session-53 directive ("Do
+# not infer a misconception merely because an incorrect answer is
+# theoretically possible").
+held:
+- id: B4-H-01
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-CALORIMETRY, CON-EXO-ENDO)
+  evidence: 'Calorimetry note: "We can experimentally determine the relative amounts of energy released by a fuel" (combustion framing; the exo/endo terms never appear in the calorimetry note)'
+  reason: 'INSUFFICIENT_EVIDENCE — the calorimetry note never uses the exothermic/endothermic classification terms ("energy released by a fuel" is combustion framing); OD-2 applied in reverse: no term-level instructional evidence, so the edge is not authored (the temperature-change measurement link is carried by the practical PR-09 -> CALORIMETRY edge and HEAT-CALC -> EXO-ENDO).'
+- id: B4-H-02
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-COLLISION-THEORY, CON-ACTIVATION-ENERGY)
+  evidence: 'Explaining Rates note (3.11): "Increasing the temperature means that the particles have more kinetic energy. This causes more collisions per second" — frequency-based explanations only; the activation-energy term never appears in the 3.11 note'
+  reason: 'DOUBLE-COUNTING — the 3.11 explanations are collision-frequency statements that never use the activation-energy term; the Ea-collision link lives in the 3.13/3.14C content (the "greater proportion of molecules... sufficient energy for an effective collision" statement of the activation-energy note) and is already carried by CATALYST -> ACTIVATION-ENERGY + REACTION-PROFILE -> ACTIVATION-ENERGY; a direct edge would double-count the same corpus surface (the B2-H-01 density discipline).'
+- id: B4-H-03
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-RATE-EXPERIMENTS, CON-RATE-FACTORS) — or the reverse direction
+  evidence: 'Rate of reaction note: the factor effects appear BOTH as experiment results ("With an increase in the concentration of a solution, the rate of reaction will increase") and as the general "Factors affecting rates of reaction" section; the spec sequences 3.9 (experiments) -> 3.10 (describe effects) -> 3.11 (explain)'
+  reason: 'NO_DIRECTIONAL_EVIDENCE — the spec''s experiment/describe/explain triple is one topic family at three command levels; the corpus states the factor effects as both experiment results and general rules with no directional dependency verbalized (the experiments can be described without the general rules and vice versa); authoring either direction would manufacture a dependency — the B4-ID-06 identity question records the fold option instead.'
+- id: B4-H-04
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-ENERGY-LEVEL-DIAGRAM or CON-REACTION-PROFILE, CON-MOLAR-ENTHALPY)
+  evidence: 'Energy level diagrams note: "The difference in height between the energy of reactants and products represents the overall enthalpy change of a reaction" (the ΔH shown on the diagrams)'
+  reason: 'GRANULARITY/OD-1 — the ΔH displayed on the 3.5C/3.14C diagrams is the qualitative reactants-vs-products energy difference (already carried by the EXO-ENDO prerequisite edges: the sign and direction of that difference IS the classification); the 3.4 molar-enthalpy calculation (ΔH = Q/n in kJ/mol) is a different demand — minting the edge would conflate the qualitative diagram-ΔH with the quantitative molar calculation.'
+- id: B4-H-05
+  status: held
+  candidate: CONCEPT node "law of conservation of energy"
+  evidence: 'Exothermic and endothermic note: "the overall amount of energy does not change as energy is conserved in reactions. This is known as the law of conservation of energy"'
+  reason: 'ENRICHMENT_BEYOND_SPEC — no S3 SP demands the principle (3.1 asks for the exo/endo classification); the conservation framing is the note''s own context (OD-2: incidental note content is not a spec demand). The store''s CON-CONSERVATION-MASS is a different concept (mass, pilot-owned) — no boundary issue; simply not demanded here.'
+- id: B4-H-06
+  status: held
+  candidate: CONCEPT node "specific heat capacity" (standalone)
+  evidence: 'Calorimetry note: "The specific heat capacity, c, is the energy needed to raise the temperature of 1 g of a substance by 1 °C"; Energetics calculations note: c = 4.18 J/g/°C as a known value'
+  reason: 'GRANULARITY — c is an operand of the Q = mcΔT triple (OD-1: the yield-triple operand rule — m, c and ΔT are one procedural unit); the pilot/batch granularity keeps operands inside the calculation node. CON-HEAT-CALC owns the term (its alias list carries the calculation phrasing).'
+- id: B4-H-07
+  status: held
+  candidate: CONCEPT node "transition metals as catalysts" / "enzymes as biological catalysts"
+  evidence: 'Catalysts note: "The transition metals are used widely as catalysts as they have variable oxidation states" + "Enzymes act as catalysts in biological systems"'
+  reason: 'ENRICHMENT_BEYOND_SPEC — 3.12/3.13 demand the catalyst definition and mechanism only; the industrial examples (iron in the Haber process, V2O5 in SO2 oxidation) and the biological framing are note context. Transition-metal chemistry is S2 territory (a future batch owns it); minting here would pre-empt S2 scope.'
+- id: B4-H-08
+  status: held
+  candidate: MISCONCEPTION node "equilibrium means the reaction has stopped / equal amounts of reactants and products"
+  evidence: 'Dynamic equilibrium note asserts the corrective facts ("Equilibrium is dynamic i.e. the molecules... are changing into each other... constantly and at the same rate"; "The concentration of reactants and products remains constant") but NO pinned source documents the static-equilibrium or equal-amounts wrong answer (no REJECT column entry, no cap rule, no examiner-tip mistake statement)'
+  reason: 'INSUFFICIENT_EVIDENCE — a classic misconception, but the session-53 directive is explicit ("Only create misconception nodes where the source actually documents a wrong-answer pattern... Do not infer a misconception merely because an incorrect answer is theoretically possible"); the pinned S3 MS carry no rejection of a static/equals answer. Revisit only with new MS evidence (the B3-H-11 convention).'
+- id: B4-H-09
+  status: held
+  candidate: MISCONCEPTION node "a catalyst is consumed / used up by the reaction"
+  evidence: 'Catalysts note asserts the corrective fact ("without themselves being altered or consumed"; "The mass of a catalyst at the beginning and end of a reaction is the same") but no pinned source documents the consumed-catalyst wrong answer'
+  reason: 'INSUFFICIENT_EVIDENCE — the assertion of a corrective fact is not documentation of the wrong answer occurring (the §8A.11 triple distinction: a misconception node needs source-documented wrong-answer/belief evidence, not just an opposing true statement); no REJECT/cap/tip documents this wrong answer in the pinned set.'
+- id: B4-H-10
+  status: held
+  candidate: MISCONCEPTION node "a catalyst changes the position of equilibrium"
+  evidence: 'Position of equilibrium note asserts the corrective fact ("The presence of a catalyst does not affect the position of equilibrium but it does increase the rate at which equilibrium is reached"); the pinned RRE MS catalyst question takes the pathway/lower-Ea answer with NO rejection of a shift-position answer'
+  reason: 'INSUFFICIENT_EVIDENCE — the existence of 3.21C shows the curriculum guards this confusion, but the pinned MS documents no rejected shift answer for the catalyst question and the note contains no examiner-tip mistake statement; asserting the misconception would exceed the documented evidence (the session-53 Step-3 rule).'
+- id: B4-H-11
+  status: held
+  candidate: MISCONCEPTION node "bond breaking is exothermic / bond making is endothermic (the direction swap)"
+  evidence: 'What is bond energy note, Examiner Tips: "Remember bond breaking is ENDothermic and results in the END of the bond" (a mnemonic, not a mistake statement); the pinned ENERGETICS MS says "Ignore signs" on the bond-energy answers (sign errors unpenalized there) and documents no rejection of the swapped direction'
+  reason: 'INSUFFICIENT_EVIDENCE — the mnemonic implies the swap is a known difficulty but documents no wrong-answer occurrence (no REJECT/cap names the swapped direction); the MS explicitly ignores signs on the relevant answers. The classic-candidate discipline of B3-H-11: hold, revisit with new MS evidence.'
+- id: B4-H-12
+  status: held
+  candidate: COMMONLY_CONFUSED_WITH(exothermic, endothermic) — the term-pair confusion edge
+  evidence: 'The two terms are taught as one classification pair in the 3.1 note with no difference-tip or mistake documentation; both terms are aliases of the single node CON-EXO-ENDO'
+  reason: 'SELF-EDGE / ONE-NODE — the exothermic/endothermic pair is one SP-family node (the CON-ANODE-CATHODE term-pair granularity), so a CCW edge between the terms would be a self-edge (G08 forbids); a two-node split purely to host a CCW is not supported by the corpus (no confusability statement exists — the B3-H-13 rule). Recorded so the option is explicit, not silent.'
+- id: B4-H-13
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-REVERSIBLE, CON-MOLECULE)
+  evidence: 'Reversible reactions note: "In reversible reactions, the product molecules can themselves react with each other or decompose and form the reactant molecules again" (the definition mentions molecules)'
+  reason: 'OD-2 INCIDENTAL_TERMINOLOGY — "product molecules" is incidental vocabulary in the reversibility definition, not a definitional operand (the 3.17 demand is the direction-reversal concept and its notation); the batch-3 CON-REVERSIBLE-EXAMPLES -> CON-WATER-CRYST boundary edge is the only term-level dependency the ruling sanctions for this family. The batch-2 OD-2 ruling applied directly.'
+- id: B4-H-14
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-EQ-POSITION, CON-MOLE or CON-MOLAR-RATIO) — the gas-molecule counting operand
+  evidence: 'Position of equilibrium note: "An increase in pressure will favour the reaction that produces the least number of molecules" (molecule-counting language); pinned RRE MS accepts "more moles/molecules (of gas) on RHS" and "Accept 2 mol on LHS and 4 mol on RHS" (molar phrasing optional)'
+  reason: 'OD-2 + UNAUDITED BOUNDARY EDGE — the note counts gas MOLECULES via equation coefficients without invoking the mole or molar-ratio concepts (the MS accepts molar phrasing but never requires it; OD-2: optional assessment phrasing is not instructional evidence); and the session-52 boundary ruling sanctioned exactly five audited boundary targets — a sixth boundary edge into the pilot''s CON-MOLE/CON-MOLAR-RATIO was not audited, so it is recorded here for the operator rather than silently authored beyond the ruled set (the ruling''s "floor, not a ceiling" note is the operator''s call, not the extractor''s).'

@@ -25,7 +25,9 @@ Checks (all fail-closed; every group must pass):
                        SUGGESTED; both RR edges REVIEW_REQUIRED); store
                        total 118; 4.15 negative control uncovered; no
                        PART_OF promoted; no batch-3 node HUMAN_VALIDATED;
-                       live store shape 91/220/97/123
+                       live store shape 113/275/117/158 (session-53
+                       re-anchor: batch 4 authored-to-gate growth; the
+                       batch-3 slice is preserved exactly)
 
 Usage: python3 scripts/c11_batch3_verdict_check.py
 """
@@ -249,11 +251,15 @@ check("D9 no PART_OF edge promoted (node pathway not built)",
 check("D10 no batch-3 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D11 live store shape 91 nodes / 220 edges (97 PART_OF + 123 "
+check("D11 live store shape 113 nodes / 275 edges (117 PART_OF + 158 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 91 and len(edges_doc["edges"]) == 220
+      len(nodes_doc["nodes"]) == 113 and len(edges_doc["edges"]) == 275
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 97)
+              if e["relation"] == "PART_OF") == 117)
+# session-53 re-anchor (dated, protective intent unchanged): batch 4
+# authored-to-gate growth (22 nodes + 20 PART_OF + 35 authored semantic
+# edges, all SUGGESTED); the batch-3 slice above — all 39 promotions intact
+# — is preserved exactly inside the grown store.
 
 # ---------------------------------------------------------------------------
 print()

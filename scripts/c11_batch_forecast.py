@@ -209,7 +209,11 @@ out = {
     # recorded (the practical-review policy: 39 edge CONFIRM / 24 node
     # CONFIRM / 7 KEEP_AS_IS / 14 held acknowledged) and applied through
     # §18 (39 promotions, operator; store total 118); baselines unchanged.
-    "session": 52,
+    # session-53 (2026-09-13): batch-4 AUTHORED to its operator gate
+    # (future_batch_records[3]; Section 3 Physical Chemistry 3.1-3.22C, 22
+    # SPs + PR-09/10/11, under the session-52 cross-slice boundary ruling);
+    # baselines unchanged.
+    "session": 53,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -493,6 +497,82 @@ out = {
                            "authored, so every authored edge was promotable "
                            "post-verdict). Section 1 coverage COMPLETE "
                            "(pilot + batches 1-3 = all 60 S1 SPs)."),
+        },
+        {
+            "batch_id": "c11-s16-batch-4",
+            "session": 53,
+            "commissioned": ("operator (session-53 batch-4 directive, "
+                             "2026-09-13: 'Execute Batch 4 using the "
+                             "established Batch-1/2/3 machinery.'"),
+            "scope": ("Section 3 — Physical Chemistry, 22 SPs "
+                      "(4CH1-3.1-3.22C: Energetics / Rates of Reaction / "
+                      "Reversibility & Equilibria) + PR-09/PR-10/PR-11"),
+            "spec_points": 22,
+            "notes": 15,
+            "mark_schemes_pinned": 3,
+            "predicted": {"nodes": 52.8, "authored_edges": 60.5,
+                          "held_candidates": 22.0},
+            "actual": {"nodes": 22, "authored_edges": 35,
+                       "held_candidates": 14},
+            "delta_pct": {"nodes": -58.3, "authored_edges": -42.1,
+                          "held_candidates": -36.4},
+            "rates": {
+                "held_rate": 0.2857,
+                "rejection_rate": 0.0,
+                # gate PENDING: zero promotions until the operator records
+                # batch-4 verdicts (this record is authored-to-gate only)
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B4-1 (boundary-evidence asymmetry: the bond-energy -> "
+                "covalent-bond edge rests on the worked-example bond set + "
+                "the ruling, the note says 'chemical bond' — confidence "
+                "medium, flagged for the operator)",
+                "FP-B4-2 (evidence-strength: two medium-confidence "
+                "misconception rows — the antonym-attributed pressure reject "
+                "+ the two-source bond-count tip/MS pair)",
+                "FP-B4-3 (dual attachments: 3.12+3.13, 3.19C+3.20C, "
+                "3.21C+3.22C know pairs + the 3.14C dual node attachment — "
+                "operator identity decisions B4-ID-01..04)",
+                "FP-B4-4 (family shape: the 3.9/3.10/3.11 "
+                "experiment/describe/explain triple minted as three nodes "
+                "with one EXPLAINED_BY and no prereqs among them; B4-ID-05/06)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -58.3% / edges -42.1% vs "
+                           "the 2.4/2.75 model — the same per-SP yield band "
+                           "as batch 3 (nodes/SP 1.0, edges/SP 1.6): the "
+                           "boundary discipline and SP-family granularity "
+                           "again, not thin coverage. No S1 identity "
+                           "re-minted — the FIVE ruled targets (CON-MOLE, "
+                           "CON-COVALENT-BOND, CON-CONCENTRATION, "
+                           "CON-EQ-SYMBOL, CON-WATER-CRYST) reached via "
+                           "exactly 5 sanctioned cross-section boundary "
+                           "edges (a considered sixth — the gas-molecule "
+                           "counting operand — held as B4-H-14 for the "
+                           "operator, not silently authored); 3.8/3.15/3.16 "
+                           "attach no concept node (the practicals own "
+                           "them — the 1.13/1.60C precedent); the spec's "
+                           "know pairs merged as dual attachments (3.12+3.13, "
+                           "3.19C+3.20C, 3.21C+3.22C). Zero RR authored; 14 "
+                           "held (including the four CLASSIC misconceptions "
+                           "refused for missing documentation — static "
+                           "equilibrium, consumed catalyst, catalyst-shifts-"
+                           "position, bond-breaking exo/endo swap — the "
+                           "session-53 Step-3 rule); five misconceptions "
+                           "minted, all mark-scheme-documented (the catalyst "
+                           "particle-energy cap in BOTH S3 Paper-2 MS; the "
+                           "equilibrium reject/accept antonym pairs; the "
+                           "J-to-kJ partial-credit rule; the bond-count "
+                           "deduction + tip). FULL S3 Paper-2 MS coverage "
+                           "for the first time (all three families pinned; "
+                           "the RATES and RRE pins overlap — recorded). "
+                           "Operator gate PENDING: verdicts to be recorded "
+                           "in scripts/c11_batch4_verdicts.yaml (template "
+                           "scripts/c11_batch4_verdicts_template.yaml; sheet "
+                           "C11_BATCH4_REVIEW_SHEET.md)."),
         },
     ],
     "future_batch_record_schema": {
