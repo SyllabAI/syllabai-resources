@@ -22,9 +22,11 @@ Negative (all fail closed, nothing written):
                                            N11 status drift decisions<->graph
 
 Real-repo smoke (read-only):
-  R1  `list` exits 0 on the live pilot state and reports the session-45
-      post-application surface (0 actionable / 4 not-actionable / 28
-      promotions recorded).
+  R1  `list` exits 0 on the live store state and reports the session-47
+      surface (28 batch-1 actionable / 5 not-actionable / 28 promotions
+      recorded) — the batch-1 SUGGESTED edges are the operator's pending
+      §18 approval surface, awaiting the per-batch review-sheet verdicts
+      (the 5th not-actionable is the batch-1 RR quarantine edge).
 
 Usage: python3 scripts/c11_diff_review_test.py
 """
@@ -197,6 +199,23 @@ def make_fixture(base: Path):
     (base / "scripts").mkdir(parents=True)
     (base / "scripts" / "c11_pilot_decisions.yaml").write_text(
         yaml.safe_dump(dec, allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-47: the decision-record registry requires the batch-1 member to
+    # exist; the fixture stages an EMPTY batch record (no batch content in
+    # this fixture — the fixture graph IS the registry's full output)
+    (base / "scripts" / "c11_batch1_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-1",
+                                   "extraction_pass": "c11-s16-batch-1",
+                                   "generated_date": "2026-09-12",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
 
 
@@ -388,12 +407,13 @@ def main() -> int:
         r = subprocess.run([sys.executable, str(HERE / "c11_diff_review.py"),
                             "list"], cwd=T.REPO, capture_output=True, text=True)
         check("R1 list exits 0", r.returncode == 0, r.stderr[:200])
-        # session-45 expectation: the 28 CONFIRM verdicts are applied (28 §18
-        # promotions) and the 3 operator HOLDs + the RR edge are decided —
-        # nothing is actionable any more; not-actionable = 4, promo_count=28
-        check("R1 reports 0 actionable / 4 not-actionable / 28 promotions",
-              "actionable: 0  (clean 0 / pending-flagged 0)" in r.stdout
-              and "not-actionable: 4" in r.stdout
+        # session-47 expectation: the pilot's 28 CONFIRM verdicts are applied
+        # (28 §18 promotions; 3 HOLDs + RR decided, not-actionable = 4) and
+        # the §16 batch-1 authored edges are all SUGGESTED pending the
+        # per-batch operator gate — actionable = 29 (batch-1 edges only)
+        check("R1 reports 28 actionable / 5 not-actionable / 28 promotions",
+              "actionable: 28  (clean 28 / pending-flagged 0)" in r.stdout
+              and "not-actionable: 5" in r.stdout
               and "promo_count=28" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)

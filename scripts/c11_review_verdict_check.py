@@ -48,6 +48,10 @@ VERDICTS = HERE / "c11_review_verdicts.yaml"
 EDGES = GRAPH / "concept_edges.yaml"
 NODES = GRAPH / "concepts.yaml"
 DECISIONS = HERE / "c11_pilot_decisions.yaml"
+# session-47: the live store spans the decision-record REGISTRY (pilot +
+# §16 batch 1); the verdict record is PILOT-slice — reconciliation is
+# anchored on the pilot record's own authored surface
+pilot_dec = yaml.safe_load(DECISIONS.read_text(encoding="utf-8"))
 PROMOTIONS = HERE / "c11_promotions.yaml"
 
 EDGE_VOCAB = {"CONFIRM", "REJECT", "HOLD", "MERGE", "SPLIT"}
@@ -55,6 +59,9 @@ OD_VOCAB = {"RATIFY", "RATIFY_WITH_MODIFICATION", "REJECT", "DEFER"}
 ALIAS_POLICY_VOCAB = {"EVIDENCE_REQUIRED_ALL", "EVIDENCE_REQUIRED_SPECIAL",
                       "RETRIEVAL_EXEMPT"}
 ALIAS_DISP_VOCAB = {"DROP", "RE_EVIDENCE", "KEEP", "RENAME"}
+C_PILOT_SPS = {"4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28",
+               "4CH1-1.29", "4CH1-1.30", "4CH1-1.31", "4CH1-1.32",
+               "4CH1-1.33", "4CH1-1.34C", "4CH1-1.35C", "4CH1-1.36"}
 RR_TRIPLE = "4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW"
 
 fails = []
@@ -155,23 +162,47 @@ tmpl_triples = [r["triple"] for r in ev]
 graph_triples = [triple(e) for e in suggested + hv]  # session-45: the 31-row surface is now HV(28)+SUGGESTED(3)
 confirms = {r["triple"] for r in ev if r["verdict"] == "CONFIRM"}
 
-check("B1 store frozen: 65 edges (33 PART_OF + 32 semantic)",
-      len(edges_doc["edges"]) == 65 and len(semantic) == 32
-      and sum(1 for e in edges_doc["edges"] if e["relation"] == "PART_OF") == 33)
-check("B2 verdict surface = the applied surface exactly: 28 HUMAN_VALIDATED (CONFIRM, promoted session 45) + 3 SUGGESTED (operator HOLDs)",
-      sorted(tmpl_triples) == sorted(graph_triples)
-      and len(set(tmpl_triples)) == 31 and len(suggested) == 3 and len(hv) == 28)
+# session-47: the store also carries the §16 batch-1 SUGGESTED layer (118
+# edges total) — a separate sanctioned surface pending its own operator
+# gate. The PILOT verdict surface is therefore the pilot decision record's
+# authored semantic edges as they appear in the grown store (the pilot CONFIRM
+# set promoted session 45; the pilot HOLDs un-promoted).
+pilot_triples = {triple(e) for e in pilot_dec.get("edges", [])}
+pilot_suggested = [t for t in (triple(e) for e in suggested)
+                   if t in pilot_triples]
+pilot_hv = [t for t in (triple(e) for e in hv) if t in pilot_triples]
+check("B1 pilot slice preserved inside the grown store: 32 pilot semantic edges + 33 pilot PART_OF present",
+      {triple(e) for e in semantic} >= pilot_triples
+      and sum(1 for e in edges_doc["edges"] if e["relation"] == "PART_OF"
+              and e["target"] in C_PILOT_SPS) == 33)
+check("B2 verdict surface = the applied PILOT surface exactly: 28 HUMAN_VALIDATED (CONFIRM, promoted session 45) + 3 SUGGESTED (operator HOLDs)",
+      sorted(tmpl_triples) == sorted(pilot_suggested + pilot_hv)
+      and len(set(tmpl_triples)) == 31 and len(pilot_suggested) == 3
+      and len(pilot_hv) == 28)
 check("B3 no PART_OF row on the verdict surface (derived edges carry no verdicts)",
       not any(" PART_OF " in t for t in tmpl_triples))
-check("B4 RR edge excluded from the surface and still exactly the operator-HOLD edge",
-      RR_TRIPLE not in tmpl_triples and len(rr) == 1 and triple(rr[0]) == RR_TRIPLE)
+# session-47: the batch-1 quarantine edge (CRYSTALLISATION -> SOLUTION,
+# subsumption-class RR) also carries REVIEW_REQUIRED — the pilot RR edge
+# must remain exactly the operator-HOLD edge; the batch RR is a separate,
+# operator-unset quarantine awaiting the batch-1 review gate
+BATCH1_RR_TRIPLE = ("4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE "
+                    "4CH1-CON-SOLUTION")
+check("B4 RR edge excluded from the surface and still exactly the operator-HOLD edge (batch-1 quarantine RR separate)",
+      RR_TRIPLE not in tmpl_triples
+      and RR_TRIPLE in {triple(e) for e in rr}
+      and sorted(triple(e) for e in rr)
+      == sorted([RR_TRIPLE, BATCH1_RR_TRIPLE]))
 check("B5 28 HUMAN_VALIDATED in the store = exactly the 28 CONFIRM verdicts (session-45 §18 application)",
       len(hv) == 28 and {triple(e) for e in hv} == confirms)
 
 node_codes = [n["code"] for n in nodes_doc["nodes"]]
-check("B6 verdict node codes = the store's 29 codes, exactly",
-      sorted(r["code"] for r in nv) == sorted(node_codes)
-      and len(set(node_codes)) == 29 and len(nodes_doc["nodes"]) == 29)
+# session-47: the store's node set = pilot 29 + batch-1 24; the verdict
+# node codes cover the pilot 29 exactly (a subset relation, not equality)
+pilot_node_codes = [n["code"] for n in pilot_dec.get("nodes", [])]
+check("B6 verdict node codes = the pilot record's 29 codes, all present in the grown store",
+      sorted(r["code"] for r in nv) == sorted(pilot_node_codes)
+      and len(set(pilot_node_codes)) == 29
+      and set(pilot_node_codes) <= set(node_codes))
 
 held = dec["held"]
 statuses = {h["id"]: h["status"] for h in held}

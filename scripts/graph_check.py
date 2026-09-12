@@ -771,15 +771,29 @@ def check_notes_mapping(data, point_codes, sub_codes, notes_root=None):
 # scripts/c11_concept_pilot.py from scripts/c11_pilot_decisions.yaml.
 C11_FILES = ["concepts.yaml", "concept_edges.yaml", "spec_command_kinds.yaml"]
 C11_GENERATOR = "scripts/c11_concept_pilot.py"
+# Session-47 (§16 batch 1, 2026-09-12): the store covers the pilot slice PLUS
+# the first authorized expansion batch (4CH1-1.1-1.12, decision record
+# scripts/c11_batch1_decisions.yaml, extraction_pass c11-s16-batch-1) per the
+# §16 authorization (scripts/c11_s16_authorization.yaml). Batch-1 content is
+# SUGGESTED until its own operator review gate + §18 promotion.
 C11_PILOT_SPS = ["4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28",
                  "4CH1-1.29", "4CH1-1.30", "4CH1-1.31", "4CH1-1.32",
                  "4CH1-1.33", "4CH1-1.34C", "4CH1-1.35C", "4CH1-1.36"]
+C11_BATCH1_SPS = ["4CH1-1.1", "4CH1-1.2", "4CH1-1.3", "4CH1-1.4", "4CH1-1.5C",
+                   "4CH1-1.6C", "4CH1-1.7C", "4CH1-1.8", "4CH1-1.9",
+                   "4CH1-1.10", "4CH1-1.11", "4CH1-1.12"]
+C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS
+C11_STAGE = "pilot+s16-batch-1"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-C11_COUNTS = {"nodes": 29, "concepts": 27, "misconceptions": 2, "edges": 65,
-              "part_of": 33, "requires_prerequisite": 25, "explained_by": 3,
+# State after the session-47 batch-1 authoring: 53 nodes (29 pilot + 24
+# batch-1), 118 edges (57 PART_OF + 61 semantic), 28 HUMAN_VALIDATED (the
+# session-45 operator promotions, pilot only — batch-1 edges are SUGGESTED
+# pending the per-batch operator gate), 1 REVIEW_REQUIRED (the frozen RR edge).
+C11_COUNTS = {"nodes": 53, "concepts": 49, "misconceptions": 4, "edges": 118,
+              "part_of": 57, "requires_prerequisite": 47, "explained_by": 6,
               "related_to": 0, "commonly_confused_with": 0,
-              "misconception_of": 1, "wrong_answer_pattern": 1,
-              "remediated_by": 2, "review_required": 1, "command_kinds": 12}
+              "misconception_of": 1, "wrong_answer_pattern": 3,
+              "remediated_by": 4, "review_required": 2, "command_kinds": 24}
 # Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
 # `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
 # the decision record (preserved as rejected candidate HELD-13; architecture
@@ -796,7 +810,11 @@ C11_ANCHOR_KINDS = {"NOTE", "SPEC", "MARK_SCHEME"}
 C11_STATES = {"SUGGESTED", "REVIEW_REQUIRED"}
 C11_EDGE_STATES = {"SUGGESTED", "REVIEW_REQUIRED", "HUMAN_VALIDATED"}
 C11_PROMOTIONS_FILE = REPO / "scripts" / "c11_promotions.yaml"
-C11_DECISIONS_FILE = REPO / "scripts" / "c11_pilot_decisions.yaml"
+# Session-47: the decision-record REGISTRY (pilot + each authorized §16 batch
+# record). The generator's registry and this list must stay in lockstep.
+C11_DECISIONS_FILES = [REPO / "scripts" / "c11_pilot_decisions.yaml",
+                       REPO / "scripts" / "c11_batch1_decisions.yaml"]
+C11_DECISIONS_FILE = C11_DECISIONS_FILES[0]
 _C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                              r"|llm|agent|model|bot", re.I)
 C11_BANDS = {"high", "medium", "low"}
@@ -856,26 +874,35 @@ def c11_promotion_state():
     T-C10 notes crosscheck). Returns (promo_entries, problems, authored):
       promo_entries: {(src, rel, tgt): entry} from scripts/c11_promotions.yaml
       problems:      c11.13 failures (schema/anti-forgery/resolution)
-      authored:      {(src, rel, tgt): validation_status} from the frozen
-                     decision record (drift detection vs the generated graph)
+      authored:      {(src, rel, tgt): validation_status} merged across
+                     the decision-record registry (drift detection vs the
+                     generated graph)
     """
     global _C11_PROMO_STATE
     if _C11_PROMO_STATE is not None:
         return _C11_PROMO_STATE
-    problems, entries, authored, dec = [], {}, {}, {}
+    problems, entries, authored = [], {}, {}
+    dec = {"held": []}
 
-    # decision record: authored-edge identities + statuses + anti-forgery
-    if not C11_DECISIONS_FILE.exists():
-        problems.append("c11.13 decision record missing: "
-                        f"{C11_DECISIONS_FILE}")
-    else:
+    # decision-record REGISTRY (session-47: pilot + each authorized §16 batch
+    # record): authored-edge identities + statuses + anti-forgery + held
+    # candidates, MERGED across records
+    for dec_file in C11_DECISIONS_FILES:
+        if not dec_file.exists():
+            problems.append(f"c11.13 decision record missing: {dec_file}")
+            continue
         try:
-            dec = yaml.safe_load(C11_DECISIONS_FILE.read_text(encoding="utf-8")) or {}
+            d = yaml.safe_load(dec_file.read_text(encoding="utf-8")) or {}
         except yaml.YAMLError as e:
-            dec = {}
-            problems.append(f"c11.13 decision record does not parse: {e}")
-        for e in dec.get("edges", []):
+            problems.append(f"c11.13 decision record does not parse: "
+                            f"{dec_file}: {e}")
+            continue
+        for e in d.get("edges", []):
             key = (e.get("source"), e.get("relation"), e.get("target"))
+            if key in authored:
+                problems.append(f"c11.13 registry: edge identity {key} "
+                                f"duplicated across decision records")
+                continue
             authored[key] = e.get("validation_status")
             if e.get("validation_status") == "HUMAN_VALIDATED":
                 problems.append(
@@ -883,12 +910,13 @@ def c11_promotion_state():
                     f"{key[0]} {key[1]} {key[2]} — the AI decision record may "
                     f"never carry it (anti-forgery; promotion is operator-only "
                     f"via scripts/c11_promotions.yaml)")
-        for n in dec.get("nodes", []):
+        for n in d.get("nodes", []):
             if n.get("validation_status") == "HUMAN_VALIDATED":
                 problems.append(
                     f"c11.13 decision record carries HUMAN_VALIDATED on node "
                     f"{n.get('code')} — anti-forgery (node promotion pathway "
                     f"not built; nodes are SUGGESTED/REVIEW_REQUIRED only)")
+        dec.setdefault("held", []).extend(d.get("held") or [])
 
     # promotions file: schema + attribution + resolution
     if C11_PROMOTIONS_FILE.exists():
@@ -1012,16 +1040,19 @@ def check_c11_concepts(c11, c09_data):
                   "validation_gate", "edge_vocabulary", "counts"):
             if k not in m:
                 chk.fail(f"c11.1 {kind}: meta missing {k!r}")
-        if m.get("task") != "T-C11" or m.get("stage") != "pilot":
-            chk.fail(f"c11.1 {kind}: not the T-C11 pilot")
+        # session-47: merged store (pilot + §16 batch 1); stage is the
+        # registry-joined value emitted by the generator
+        if m.get("task") != "T-C11" or m.get("stage") != C11_STAGE:
+            chk.fail(f"c11.1 {kind}: not the T-C11 {C11_STAGE} store")
         if m.get("curriculum_code") != "4CH1-2017" or m.get("phase") != 3:
             chk.fail(f"c11.1 {kind}: curriculum/phase wrong")
         if m.get("generator") != C11_GENERATOR:
             chk.fail(f"c11.1 {kind}: generator {m.get('generator')!r}")
         if m.get("negative_control") != C11_NEGATIVE_CONTROL:
             chk.fail(f"c11.1 {kind}: negative_control must be 4CH1-4.15")
-        if sorted(m.get("spec_points") or []) != sorted(C11_PILOT_SPS):
-            chk.fail(f"c11.1 {kind}: meta.spec_points != the 12 pilot SPs")
+        if sorted(m.get("spec_points") or []) != sorted(C11_SCOPE_SPS):
+            chk.fail(f"c11.1 {kind}: meta.spec_points != the 24 registry SPs "
+                     f"(pilot + batch 1)")
         if m.get("provenance_default") != "AI_SUGGESTED":
             chk.fail(f"c11.1 {kind}: provenance_default must be AI_SUGGESTED")
 
@@ -1104,8 +1135,9 @@ def check_c11_concepts(c11, c09_data):
                 if att.get("code") == C11_NEGATIVE_CONTROL:
                     chk.fail(f"c11.5 {aw}: NEGATIVE CONTROL — no node may "
                              f"attach to 4CH1-4.15")
-                elif att.get("code") not in C11_PILOT_SPS:
-                    chk.fail(f"c11.5 {aw}: outside the frozen pilot scope")
+                elif att.get("code") not in C11_SCOPE_SPS:
+                    chk.fail(f"c11.5 {aw}: outside the decision-record "
+                             f"registry scope (pilot + batch 1)")
                 if att.get("role") not in C11_ROLES:
                     chk.fail(f"c11.1 {aw}: role {att.get('role')!r}")
                 _c11_attachment_check(chk, att, aw, idx, sps)
@@ -1115,9 +1147,10 @@ def check_c11_concepts(c11, c09_data):
     meta_checks(ck["meta"], "command_kinds")
     cks = ck["command_kinds"]
     if len(cks) != C11_COUNTS["command_kinds"]:
-        chk.fail(f"c11.12 {len(cks)} command-kind tags != 12")
-    if sorted(c.get("code") for c in cks) != sorted(C11_PILOT_SPS):
-        chk.fail("c11.12 command-kind codes != the 12 pilot SPs")
+        chk.fail(f"c11.12 {len(cks)} command-kind tags != "
+                 f"{C11_COUNTS['command_kinds']}")
+    if sorted(c.get("code") for c in cks) != sorted(C11_SCOPE_SPS):
+        chk.fail("c11.12 command-kind codes != the pilot + batch-1 SPs")
     for c in cks:
         where = f"command_kind {c.get('code')}"
         if c.get("guide_class") not in C11_GUIDE_CLASSES:
@@ -1215,7 +1248,7 @@ def check_c11_concept_edges(c11, c09_data):
         chk.fail(f"c11.2 REVIEW_REQUIRED edge count mismatch (expected "
                  f"{expected_rr} from decisions-promotions)")
 
-    universe = set(nodes) | set(C11_PILOT_SPS) | set(prs)
+    universe = set(nodes) | set(C11_SCOPE_SPS) | set(prs)
     seen = set()
     prereq = {}
     part_of_derived = set()
@@ -1266,8 +1299,8 @@ def check_c11_concept_edges(c11, c09_data):
             # status drift vs the frozen decision record + promotions
             if rel != "PART_OF":
                 if key not in authored_states:
-                    chk.fail(f"c11.10 {where}: not authored in the decision "
-                             f"record scripts/c11_pilot_decisions.yaml "
+                    chk.fail(f"c11.10 {where}: not authored in any "
+                             f"decision record of the registry "
                              f"(hand-injected edge)")
                 else:
                     want_status = ("HUMAN_VALIDATED" if promo
@@ -1300,8 +1333,9 @@ def check_c11_concept_edges(c11, c09_data):
         if rel == "PART_OF":
             if not (sn and sn.get("family") == "CONCEPT"):
                 chk.fail(f"c11.8 {where}: PART_OF source must be a CONCEPT")
-            if tgt not in C11_PILOT_SPS:
-                chk.fail(f"c11.5 {where}: PART_OF target must be a pilot SP")
+            if tgt not in C11_SCOPE_SPS:
+                chk.fail(f"c11.5 {where}: PART_OF target must be an "
+                         f"in-scope SP (pilot or batch 1)")
             if e.get("role") not in C11_ROLES:
                 chk.fail(f"c11.1 {where}: PART_OF role {e.get('role')!r}")
             part_of_derived.add((src, tgt, e.get("role")))
@@ -1480,12 +1514,15 @@ def main():
           f"{len(topic_codes)} topics, {len(sub_codes)} subtopics, "
           f"{COUNTS['edges']} edges, {COUNTS['command_words']} command words, "
           f"{COUNTS['practicals']} practicals, {COUNTS['papers']} papers; "
-          f"T-C11 pilot: {C11_COUNTS['nodes']} concept nodes, "
+          f"T-C11 store (pilot + §16 batch 1): {C11_COUNTS['nodes']} concept "
+          f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
           f"({C11_COUNTS['part_of']} PART_OF + "
           f"{C11_COUNTS['edges'] - C11_COUNTS['part_of']} semantic), "
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
-          f"generation), negative control {C11_NEGATIVE_CONTROL} uncovered.")
+          f"generation; batch-1 edges SUGGESTED pending the per-batch "
+          f"operator gate), negative control {C11_NEGATIVE_CONTROL} "
+          f"uncovered.")
 
 
 if __name__ == "__main__":

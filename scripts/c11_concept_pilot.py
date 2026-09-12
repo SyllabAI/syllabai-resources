@@ -4,12 +4,15 @@ T-C11 — c11_concept_pilot.py: deterministic, gated generator for the pilot
 concept / prerequisite / misconception graph (4CH1 Section 1, slice 1.25–1.36).
 
 Contract: graph/reports/C11_ARCHITECTURE.md (§10 Deterministic generation
-contract). Single source of truth: scripts/c11_pilot_decisions.yaml (the AI
-decision record). Emits, fail-closed, after ALL gates pass:
+contract). Single sources of truth: the decision-record REGISTRY — the pilot
+record scripts/c11_pilot_decisions.yaml first, then each authorized §16
+expansion-batch record with its own extraction_pass id (session-47, batch 1:
+scripts/c11_batch1_decisions.yaml; architecture §8: expansion passes add
+nodes via new decision records). Emits, fail-closed, after ALL gates pass:
 
-  graph/concepts.yaml          — 27 CONCEPT + 2 MISCONCEPTION nodes
+  graph/concepts.yaml          — CONCEPT + MISCONCEPTION nodes (all records)
   graph/concept_edges.yaml     — derived PART_OF + authored semantic edges
-  graph/spec_command_kinds.yaml — frozen-guide §8 command-kind tags (12 SPs)
+  graph/spec_command_kinds.yaml — frozen-guide §8 command-kind tags (24 SPs)
 
 Gates (each hard-fails, naming the record and the violated rule):
 
@@ -19,10 +22,11 @@ Gates (each hard-fails, naming the record and the violated rule):
   G04 attachment    — every spec_points entry has a SPEC-anchor (quote ⊆
                       official wording of that SP) or a NOTE-anchor whose file
                       HUMAN_VALIDATED-maps to that SP (T-C10 crosscheck)
-  G05 scope         — attachments/practicals inside the frozen pilot scope;
-                      no node attaches to 4CH1-4.15 (negative control rule 1)
-  G06 endpoints     — every edge endpoint resolves in the pilot node universe
-                      (concepts ∪ pilot SPs ∪ pilot practicals)
+  G05 scope         — attachments/practicals inside the OWNING record's scope
+                      (registry slices are disjoint); no node attaches to
+                      4CH1-4.15 (negative control rule 1)
+  G06 endpoints     — every edge endpoint resolves in the merged node universe
+                      (all-record concepts ∪ all-record SPs ∪ practicals)
   G07 edge-anchors  — every authored edge has an admissible anchor: NOTE whose
                       file HUMAN_VALIDATED-maps to an SP attached to the source
                       (or the source practical's SP) or to the target concept;
@@ -39,8 +43,9 @@ Gates (each hard-fails, naming the record and the violated rule):
                       REVIEW_REQUIRED only (with ambiguity_note)
   G11 misconception — pattern_class present; remediation_evidence present and
                       byte-verified (100% of misconceptions source-quoted)
-  G12 command-kinds — exactly the 12 pilot SPs; guide_class in vocabulary; verb
-                      matches the registry's leading_verb
+  G12 command-kinds — exactly the union of all record scopes (each SP tagged
+                      exactly once across records); guide_class in vocabulary;
+                      verb matches the registry's leading_verb
   G13 promotions    — the operator-side promotion record
                       (scripts/c11_promotions.yaml, written only by
                       scripts/c11_promote.py) is schema-validated and each
@@ -70,16 +75,17 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 GRAPH = REPO / "graph"
 NOTES = REPO / "Chemistry IGCSE Revision Notes"
-DECISIONS = HERE / "c11_pilot_decisions.yaml"
 PROMOTIONS = HERE / "c11_promotions.yaml"
+# Session-47 (§16 batch 1, 2026-09-12): the decision-record REGISTRY. The
+# pilot record is first; each authorized §16 expansion batch appends its own
+# record with its own extraction_pass id. All listed records are MANDATORY —
+# a missing registry member is a fail-closed abort (the graph must
+# regenerate from its full registry; test sandboxes must stage it whole).
+DECISION_RECORDS = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml"]
 RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                         r"|llm|agent|model|bot", re.I)
 
-PILOT_SPS = ["4CH1-1.25", "4CH1-1.26", "4CH1-1.27", "4CH1-1.28", "4CH1-1.29",
-             "4CH1-1.30", "4CH1-1.31", "4CH1-1.32", "4CH1-1.33", "4CH1-1.34C",
-             "4CH1-1.35C", "4CH1-1.36"]
-PILOT_PRACTICALS = ["4CH1-PR-03"]
 NEGATIVE_CONTROL = "4CH1-4.15"
 
 FAMILIES = {"CONCEPT", "MISCONCEPTION"}
@@ -160,8 +166,53 @@ def load_yaml(path: Path):
 
 
 # ---------------------------------------------------------------------------
-# Load inputs
-dec = load_yaml(DECISIONS)
+# Load inputs (session-47: the decision-record REGISTRY — pilot first, then
+# each authorized §16 batch record; fail-closed if any member is missing)
+_missing = [n for n in DECISION_RECORDS if not (HERE / n).exists()]
+if _missing:
+    print(f"FATAL: decision record(s) missing from the registry: {_missing} "
+          f"(registry: {DECISION_RECORDS})", file=sys.stderr)
+    sys.exit(1)
+recs = []
+for _name in DECISION_RECORDS:
+    _d = load_yaml(HERE / _name) or {}
+    _m = _d.get("meta") or {}
+    for _k in ("task", "stage", "extraction_pass", "generated_date",
+               "model_version", "curriculum_code", "scope", "contract"):
+        if not _m.get(_k):
+            print(f"FATAL: scripts/{_name}: meta.{_k} missing", file=sys.stderr)
+            sys.exit(1)
+    _sc = _m["scope"] or {}
+    if not _sc.get("spec_points"):
+        print(f"FATAL: scripts/{_name}: meta.scope.spec_points empty",
+              file=sys.stderr)
+        sys.exit(1)
+    recs.append({"name": _name, "path": f"scripts/{_name}", "dec": _d,
+                 "stage": _m["stage"], "pass": _m["extraction_pass"],
+                 "date": _m["generated_date"],
+                 "sps": list(_sc["spec_points"]),
+                 "practicals": list(_sc.get("practicals") or [])})
+
+# registry discipline (session-47): slices are DISJOINT — no SP and no
+# practical may be claimed by two records (overlap would double-cover a
+# spec point and double-derive its PART_OF set)
+_sps_owner, _pr_owner = {}, {}
+for _r in recs:
+    for _sp in _r["sps"]:
+        if _sp in _sps_owner:
+            G.fail(f"G05 registry: spec point {_sp} claimed by both "
+                   f"{_sps_owner[_sp]} and {_r['name']}")
+        _sps_owner[_sp] = _r["name"]
+    for _p in _r["practicals"]:
+        if _p in _pr_owner:
+            G.fail(f"G05 registry: practical {_p} claimed by both "
+                   f"{_pr_owner[_p]} and {_r['name']}")
+        _pr_owner[_p] = _r["name"]
+
+ALL_SPS = [sp for r in recs for sp in r["sps"]]
+ALL_PRACTICALS = [p for r in recs for p in r["practicals"]]
+dec = recs[0]["dec"]  # pilot record (historical references below)
+
 sp_data = load_yaml(GRAPH / "specification_points.yaml")
 pr_data = load_yaml(GRAPH / "practicals.yaml")
 # Operator-side promotion record (§18): written ONLY by scripts/c11_promote.py.
@@ -244,8 +295,14 @@ def note_maps_to(rel: str, sp_code: str) -> bool:
 
 
 # ---------------------------------------------------------------------------
-# G01/G02 schema + namespace on nodes
-nodes = dec["nodes"]
+# G01/G02 schema + namespace on nodes (session-47: merged over the record
+# registry; per-record determinism fields — version/created_at/extraction_pass
+# are validated against the OWNING record's meta)
+nodes = [n for r in recs for n in (r["dec"].get("nodes") or [])]
+node_rec = {}
+for r in recs:
+    for n in (r["dec"].get("nodes") or []):
+        node_rec[n.get("code")] = r
 node_codes = set()
 for n in nodes:
     where = f"node {n.get('code', '?')}"
@@ -280,9 +337,10 @@ for n in nodes:
         if overlap:
             G.fail(f"G14 {where}: dual-track violation — {sorted(overlap)} "
                    f"present in BOTH aliases and retrieval_only_aliases")
-    if n.get("version") != 1 or n.get("created_at") != dec["meta"]["generated_date"]:
-        G.fail(f"G01 {where}: version/created_at must be 1/{dec['meta']['generated_date']!r} "
-               f"(determinism)")
+    r = node_rec.get(n.get("code"))
+    if n.get("version") != 1 or n.get("created_at") != r["date"]:
+        G.fail(f"G01 {where}: version/created_at must be 1/{r['date']!r} "
+               f"(determinism, record {r['name']})")
     prov = n.get("provenance") or {}
     for k in ("tier", "model_version", "extraction_pass", "derivation_method",
               "derivation_notes", "upstream", "generated_date"):
@@ -290,8 +348,9 @@ for n in nodes:
             G.fail(f"G01 {where}: provenance.{k} missing")
     if prov.get("tier") != "AI_SUGGESTED":
         G.fail(f"G01 {where}: provenance.tier must be AI_SUGGESTED")
-    if prov.get("extraction_pass") != dec["meta"]["extraction_pass"]:
-        G.fail(f"G01 {where}: extraction_pass mismatch with meta")
+    if prov.get("extraction_pass") != r["pass"]:
+        G.fail(f"G01 {where}: extraction_pass mismatch with meta "
+               f"(record {r['name']})")
     if prov.get("derivation_method") not in DERIVATION_CAPS:
         G.fail(f"G01 {where}: derivation_method {prov.get('derivation_method')!r} "
                f"not in the controlled vocabulary")
@@ -324,6 +383,7 @@ for n in nodes:
     if n.get("family") != "CONCEPT":
         continue
     where = f"node {n['code']}"
+    r = node_rec[n["code"]]
     atts = n.get("spec_points") or []
     if not atts:
         G.fail(f"G01 {where}: CONCEPT without spec_points attachment")
@@ -331,12 +391,13 @@ for n in nodes:
         aw = f"{where} @ {att.get('code')}"
         sp_code = att.get("code")
         role = att.get("role")
-        if sp_code not in PILOT_SPS:
+        if sp_code not in r["sps"]:
             if sp_code == NEGATIVE_CONTROL:
                 G.fail(f"G05 {aw}: NEGATIVE CONTROL — no node may attach to "
                        f"4CH1-4.15 (no validated T-C10 coverage exists)")
             else:
-                G.fail(f"G05 {aw}: spec point outside the frozen pilot scope")
+                G.fail(f"G05 {aw}: spec point outside the owning record's "
+                       f"scope ({r['name']})")
         if role not in ROLES:
             G.fail(f"G01 {aw}: role {role!r} not in {sorted(ROLES)}")
         anchors = att.get("evidence") or []
@@ -360,11 +421,25 @@ for n in nodes:
                    f"inside its official wording or a NOTE whose T-C10 mapping to "
                    f"this SP is HUMAN_VALIDATED")
 
-# command kinds G12
-cks = dec["command_kinds"]
+# command kinds G12 (session-47: merged over the record registry; the union
+# of all record scopes must be tagged exactly once across records)
+cks = [c for r in recs for c in (r["dec"].get("command_kinds") or [])]
 ck_codes = [c.get("code") for c in cks]
-if sorted(ck_codes) != sorted(PILOT_SPS):
-    G.fail(f"G12 command-kind tags must cover exactly the 12 pilot SPs")
+if sorted(ck_codes) != sorted(ALL_SPS):
+    G.fail(f"G12 command-kind tags must cover exactly the union of all "
+           f"record scopes ({len(ALL_SPS)} SPs)")
+ck_rec = {}
+for r in recs:
+    for c in (r["dec"].get("command_kinds") or []):
+        if c.get("code") in ck_rec:
+            G.fail(f"G12 registry: command-kind tag for {c.get('code')} is "
+                   f"duplicated across {ck_rec[c.get('code')]['name']} and "
+                   f"{r['name']}")
+        ck_rec[c.get("code")] = r
+for c in cks:
+    where = f"command_kind {c.get('code')}"
+    if c.get("code") not in ck_rec[c.get("code")]["sps"]:
+        G.fail(f"G12 {where}: tag outside its own record's scope")
 for c in cks:
     where = f"command_kind {c.get('code')}"
     if c.get("guide_class") not in GUIDE_CLASSES:
@@ -376,9 +451,15 @@ for c in cks:
             G.fail(f"G12 {where}: missing {k!r}")
 
 # ---------------------------------------------------------------------------
-# G06/G07/G08 on authored edges
-edges = dec["edges"]
-universe = node_codes | set(PILOT_SPS) | set(PILOT_PRACTICALS)
+# G06/G07/G08 on authored edges (session-47: merged over the record
+# registry; per-record determinism + extraction_pass; the universe spans all
+# records' nodes, SPs and practicals)
+edges = [e for r in recs for e in (r["dec"].get("edges") or [])]
+edge_rec = {}
+for r in recs:
+    for e in (r["dec"].get("edges") or []):
+        edge_rec[(e.get("source"), e.get("relation"), e.get("target"))] = r
+universe = node_codes | set(ALL_SPS) | set(ALL_PRACTICALS)
 node_by_code = {n["code"]: n for n in nodes}
 
 
@@ -409,16 +490,18 @@ for e in edges:
     edge_seen.add(key)
     for end in (src, tgt):
         if end not in universe:
-            G.fail(f"G06 {where}: endpoint {end!r} not in the pilot node universe")
+            G.fail(f"G06 {where}: endpoint {end!r} not in the merged node "
+                   f"universe")
     if e.get("validation_status") not in STATES:
         G.fail(f"G10 {where}: validation_status {e.get('validation_status')!r}")
     if e.get("validation_status") == "REVIEW_REQUIRED" and not e.get("ambiguity_note"):
         G.fail(f"G01 {where}: REVIEW_REQUIRED requires ambiguity_note")
     if e.get("confidence") not in BANDS:
         G.fail(f"G01 {where}: confidence {e.get('confidence')!r}")
-    if e.get("version") != 1 or e.get("created_at") != dec["meta"]["generated_date"]:
-        G.fail(f"G01 {where}: version/created_at must be 1/"
-               f"{dec['meta']['generated_date']!r} (determinism)")
+    er = edge_rec.get(key)
+    if e.get("version") != 1 or e.get("created_at") != er["date"]:
+        G.fail(f"G01 {where}: version/created_at must be 1/{er['date']!r} "
+               f"(determinism, record {er['name']})")
     prov = e.get("provenance") or {}
     for k in ("tier", "model_version", "extraction_pass", "derivation_method",
               "derivation_notes", "upstream", "generated_date"):
@@ -426,6 +509,9 @@ for e in edges:
             G.fail(f"G01 {where}: provenance.{k} missing")
     if prov.get("tier") != "AI_SUGGESTED":
         G.fail(f"G01 {where}: provenance.tier must be AI_SUGGESTED")
+    if prov.get("extraction_pass") != er["pass"]:
+        G.fail(f"G01 {where}: extraction_pass mismatch with meta "
+               f"(record {er['name']})")
     cap = DERIVATION_CAPS.get(prov.get("derivation_method"))
     if prov.get("derivation_method") not in DERIVATION_CAPS:
         G.fail(f"G01 {where}: derivation_method {prov.get('derivation_method')!r} "
@@ -450,7 +536,7 @@ for e in edges:
                 and tgt_n.get("family") == "CONCEPT"):
             G.fail(f"G08 {where}: EXPLAINED_BY must be CONCEPT -> CONCEPT")
     elif rel == "REQUIRES_PREREQUISITE":
-        if src not in node_codes and src not in PILOT_PRACTICALS:
+        if src not in node_codes and src not in ALL_PRACTICALS:
             G.fail(f"G08 {where}: source must be a concept or a practical")
         if not (tgt_n and tgt_n.get("family") == "CONCEPT"):
             G.fail(f"G08 {where}: target must be a CONCEPT (prerequisites are concepts)")
@@ -515,8 +601,16 @@ cycles = has_cycle(prereq_adj)
 if cycles:
     G.fail(f"G08 REQUIRES_PREREQUISITE cycle detected: {cycles[0]}")
 
-# held list sanity (rendered into review artifacts, not the graph)
-for h in dec.get("held", []):
+# held list sanity (rendered into review artifacts, not the graph) —
+# session-47: merged across the registry, ids unique across records
+held = [h for r in recs for h in (r["dec"].get("held") or [])]
+_held_owner = {}
+for h in held:
+    if h.get("id") in _held_owner:
+        G.fail(f"G01 registry: held id {h.get('id')!r} duplicated across "
+               f"records")
+    _held_owner[h.get("id")] = True
+for h in held:
     for k in ("id", "status", "candidate", "evidence", "reason"):
         if not h.get(k):
             G.fail(f"G01 held {h.get('id', '?')}: missing {k!r}")
@@ -574,7 +668,7 @@ for i, p in enumerate(promotions):
         # precise diagnosis for identities that are not authored edges
         # (held-candidate texts use the compact no-prefix form)
         s_, t_ = src.removeprefix("4CH1-"), tgt.removeprefix("4CH1-")
-        hit = next((h.get("id") for h in dec.get("held", [])
+        hit = next((h.get("id") for h in held
                     if s_ in str(h.get("candidate", ""))
                     and t_ in str(h.get("candidate", ""))
                     and rel in str(h.get("candidate", ""))), None)
@@ -600,25 +694,33 @@ def emit(path: Path, meta: dict, key: str, records: list, header: str):
 
 
 def build_meta(kind: str, counts: dict) -> dict:
-    m = dec["meta"]
+    # session-47: the emitted store meta is a pure function of the record
+    # registry (pilot first, then each authorized §16 batch). stage/scope
+    # describe the merged store; extraction_pass + decision_record list
+    # every contributing record; generated = the newest record date.
     meta = {
         "task": "T-C11",
-        "stage": "pilot",
+        "stage": "+".join(r["stage"] for r in recs),
         "curriculum_code": "4CH1-2017",
         "phase": 3,
-        "scope": "PILOT_SLICE_1_25_1_36 (architecture §14; expansion needs §16 authorization)",
-        "spec_points": PILOT_SPS,
-        "practicals": PILOT_PRACTICALS,
+        "scope": ("PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 "
+                  "SLICE_1_1_1_12 (architecture §16; authorized 2026-09-12, "
+                  "scripts/c11_s16_authorization.yaml; per-batch operator "
+                  "gate before any promotion)"),
+        "spec_points": ALL_SPS,
+        "practicals": ALL_PRACTICALS,
         "negative_control": NEGATIVE_CONTROL,
         "generator": "scripts/c11_concept_pilot.py",
-        "decision_record": "scripts/c11_pilot_decisions.yaml",
-        "extraction_pass": m["extraction_pass"],
-        "model_version": m["model_version"],
+        "decision_record": [r["path"] for r in recs],
+        "extraction_pass": [r["pass"] for r in recs],
+        "model_version": recs[0]["dec"]["meta"]["model_version"],
         "contract": "graph/reports/C11_ARCHITECTURE.md",
-        "generated": m["generated_date"],
+        "generated": max(r["date"] for r in recs),
         "provenance_default": "AI_SUGGESTED",
-        "validation_gate": "operator review of graph/reports/C11_PILOT_REVIEW_SHEET.md "
-                           "(no promotion from generation; HUMAN_VALIDATED is operator-only)",
+        "validation_gate": "operator review (pilot: graph/reports/"
+                           "C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/"
+                           "C11_BATCH1_REVIEW_SHEET.md) — no promotion from "
+                           "generation; HUMAN_VALIDATED is operator-only",
         "edge_vocabulary": "V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + "
                             "WRONG_ANSWER_PATTERN (frozen §8A.11 triple distinction; "
                             "V2 projection documented in C11_ARCHITECTURE.md §13)",
@@ -680,7 +782,7 @@ for n in sorted([n for n in nodes if n.get("family") == "CONCEPT"],
             "validation_status": n["validation_status"],
             "ambiguity_note": None,
             "version": 1,
-            "created_at": dec["meta"]["generated_date"],
+            "created_at": node_rec[n["code"]]["date"],
         })
 
 authored = [edge_out(e) for e in edges]
@@ -712,14 +814,16 @@ if promo_index:
 counts_ck = {"spec_points": len(cks)}
 
 dry = "--dry-run" in sys.argv
-HDR = ("# SyllabAI 4CH1 concept graph (pilot) — T-C11, graph-as-code "
-       "(KNOWLEDGE_GRAPH_CONTEXT.md §8A.14, C11_ARCHITECTURE.md §10)\n"
-       "# Generated by scripts/c11_concept_pilot.py from "
-       "scripts/c11_pilot_decisions.yaml (the AI decision record).\n"
-       f"# DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; "
-       f"validation gate = operator review (see meta.validation_gate).\n"
-       f"# Generation date pinned {dec['meta']['generated_date']} (deterministic "
-       f"contract; byte-identical re-runs).\n")
+HDR = ("# SyllabAI 4CH1 concept graph (pilot + §16 batch 1) — T-C11, "
+       "graph-as-code (KNOWLEDGE_GRAPH_CONTEXT.md §8A.14, C11_ARCHITECTURE.md §10)\n"
+       "# Generated by scripts/c11_concept_pilot.py from the decision-record "
+       "registry:\n"
+       + "".join(f"#   {r['path']} (extraction_pass {r['pass']})\n" for r in recs)
+       + "# DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; "
+       "validation gate = operator review (see meta.validation_gate).\n"
+       f"# Generation dates pinned per record; store date "
+       f"{max(r['date'] for r in recs)} (deterministic contract; "
+       "byte-identical re-runs).\n")
 
 if not dry:
     emit(GRAPH / "concepts.yaml", build_meta("nodes", counts_nodes), "nodes",
@@ -731,9 +835,11 @@ if not dry:
          "command_kinds",
          sorted(cks, key=lambda x: x["code"]), HDR)
 
+_rec_sum = ", ".join(f"{r['name']} ({len(r['dec'].get('nodes') or [])} nodes)"
+                     for r in recs)
 print(f"ALL GATES GREEN ({len(nodes)} nodes / {len(all_edges)} edges "
       f"[{len(part_of)} PART_OF + {len(authored)} semantic] / "
-      f"{len(cks)} command kinds / {len(dec.get('held', []))} held)"
+      f"{len(cks)} command kinds / {len(held)} held; records: {_rec_sum})"
       + (f" / {len(promo_index)} promoted edge(s) HUMAN_VALIDATED (operator "
          f"promotions, §18)" if promo_index else
          " / 0 promoted (HUMAN_VALIDATED is operator-only)"))

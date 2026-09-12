@@ -1,11 +1,11 @@
 {
   "task": "T-C11",
   "instrument": "batch-forecast",
-  "session": 43,
+  "session": 47,
   "generated": "2026-09-12",
   "baselines": {
-    "resources": "3b70dde",
-    "syllabai": "6d36fb0"
+    "resources": "9ce37bc",
+    "syllabai": "26adfee"
   },
   "purpose": "predicted-vs-actual instrumentation for the §16 expansion batches. The pilot is batch 0 (baseline). Each authorized §16 batch appends a record to future_batch_records so forecast error, rates and false-positive categories are measured, not assumed. This file never authorizes anything.",
   "pilot_baseline": {
@@ -37,8 +37,8 @@
     }
   },
   "s16_projection": {
-    "source": "graph/reports/C11_S16_GATE_REPORT.md item 14 (the sanctioned §16 execution shape — authorized 2026-09-12, session 46, scripts/c11_s16_authorization.yaml; not yet executed)",
-    "status": "§16 AUTHORIZED 2026-09-12 (session 46, operator — scripts/c11_s16_authorization.yaml); no batch executed yet",
+    "source": "graph/reports/C11_S16_GATE_REPORT.md item 14 (the sanctioned §16 execution shape — authorized 2026-09-12, session 46, scripts/c11_s16_authorization.yaml; batch 1 authored session 47, pending its operator review gate)",
+    "status": "§16 AUTHORIZED 2026-09-12 (session 46, operator — scripts/c11_s16_authorization.yaml); batch 1 AUTHORED 2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored edges / 12 held / 1 RR quarantine), awaiting its operator review gate before any promotion; batches 2-14 not started",
     "scope_sp": 170,
     "batches": {
       "count": 14,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.4308,
+      "value": 0.2373,
       "formula": "promoted / total_edges",
-      "inputs": "28 / 65",
+      "inputs": "28 / 118",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -177,7 +177,51 @@
       "mitigation": "machine-counted failure_class fields in expansion-round held entries (§19 already mandates this for expansion)"
     }
   ],
-  "future_batch_records": [],
+  "future_batch_records": [
+    {
+      "batch_id": "c11-s16-batch-1",
+      "session": 47,
+      "commissioned": "operator ('run batch 1', 2026-09-12)",
+      "scope": "S1 remainder, first 12 SPs (4CH1-1.1-1.12) + PR-01",
+      "spec_points": 12,
+      "notes": 10,
+      "mark_schemes_pinned": 2,
+      "predicted": {
+        "nodes": 28.8,
+        "authored_edges": 33.0,
+        "held_candidates": 12.0
+      },
+      "actual": {
+        "nodes": 24,
+        "authored_edges": 29,
+        "held_candidates": 12
+      },
+      "delta_pct": {
+        "nodes": -16.7,
+        "authored_edges": -12.1,
+        "held_candidates": 0.0
+      },
+      "rates": {
+        "held_rate": 0.2927,
+        "rejection_rate": 0.0,
+        "promotion_rate": 0.0,
+        "operator_review_rate": 1.0
+      },
+      "false_positive_categories_observed": [
+        "FP-2 (split-artifact candidates: states/particle-model pair, solution triple, pure-substance granularity — operator identity decisions)",
+        "FP-3 (granularity notes: pure-substance node, 1.1 energy boundary)",
+        "FP-4 (quarantine discipline applied at authoring: CRYSTALLISATION->SOLUTION RR, subsumption class)"
+      ],
+      "operator_verdicts": {
+        "confirm": 0,
+        "reject": 0,
+        "hold": 0,
+        "merge": 0,
+        "split": 0
+      },
+      "notes_text": "pred-vs-act: the slice is terminology/technique-heavy rather than calculation-heavy — fewer separable procedures than the pilot's mole/stoichiometry backbone, hence nodes -16.7% / edges -12.1% vs the 2.4/2.75 model; held exactly on model (12). 1 pass-1 self-quarantine (subsumption-class RR) + 1 pass-2 concordant HOLD on it; zero pass-2 demotions of asserted edges (abstention landed at authoring). operator_verdicts all zero: the per-batch operator gate is PENDING (sheet: C11_BATCH1_REVIEW_SHEET.md; template: scripts/c11_batch1_verdicts_template.yaml). Mark-scheme mining: 2 of 4 slice-relevant Unit-1-P1 MS files pinned (SOM, ECM2); ECM1/ECM3 + Paper-2 remain for later passes (FN-B1-1)."
+    }
+  ],
   "future_batch_record_schema": {
     "batch_id": "c11-s16-batch-N (extraction_pass id)",
     "spec_points": "count in the batch scope",

@@ -1,0 +1,113 @@
+# T-C11 §16 batch 1 — adversarial second-pass review verdicts (pass 2 of 2).
+# Independent re-review of every batch-1 node/edge/held under the attack
+# rubric (§12): (a) is the evidence load-bearing for THIS record? (b) does the
+# dependent note use-without-reteaching? (prerequisites) (c) is the relation
+# CLASS right, not just existence? (d) is the direction right? (e) is the
+# confidence honest? (f) would you hold it?
+# Verdicts: CONFIRM | CONFIRM_WITH_NOTE | HOLD | REJECT
+# Reviewer: GLM (Super Z agent, z.ai), pass c11-batch1-review-2 (separate
+# re-read of the 10 mapped notes + the 2 pinned mark schemes from the pass-1
+# extraction). Agreement statistics computed by the renderer against the
+# pass-1 decisions; reported as RAW AGREEMENT, explicitly NOT Cohen's kappa
+# (one human rater only — the operator remains the sole validator).
+#
+# Pass-2 outcome summary: ZERO demotions — but this is NOT a soft review: the
+# pass-1 authoring quarantined its own weakest emission (CRYSTALLISATION ->
+# SOLUTION demoted to REVIEW_REQUIRED at authoring, subsumption class) and
+# sent 12 candidates to held BEFORE emission. The attacks below therefore
+# land as CONFIRM_WITH_NOTE flags for the operator gate (merge candidates,
+# relation-class choices, density concerns), enumerated in `findings`.
+
+nodes:
+  4CH1-CON-STATES-THREE: {verdict: CONFIRM_WITH_NOTE, note: 'Merge candidate (FP-2 class): the 1.1 wording demands the particle-level description, not the bare state names — if the operator judges the split too fine, folding this node into CON-STATE-PARTICLE-MODEL is a one-record re-author (aliases make the merge trivial; mirrors the pilot yield-triple presentation).'}
+  4CH1-CON-STATE-PARTICLE-MODEL: {verdict: CONFIRM_WITH_NOTE, note: 'The "energy" operand of 1.1 is taught largely inside the state-change sections (thermal -> kinetic energy); the arrangement/movement/closeness table is the clean core. Boundary note: if merged with CON-STATES-THREE (see above) the node covers 1.1 fully.'}
+  4CH1-CON-STATE-CHANGES: {verdict: CONFIRM}
+  4CH1-CON-EVAPORATION-BOILING: {verdict: CONFIRM_WITH_NOTE, note: 'ENRICHMENT scoping decision mirrors pilot N-27 (Avogadro-Law): the 1.2 wording names the interconversions without demanding the boiling-vs-evaporation distinction, but the note teaches it substantively and SOM MS Q4(c) assesses particle-level evaporation understanding. Operator decides keep-as-enrichment vs drop; evidence supports keeping.'}
+  4CH1-CON-DIFFUSION: {verdict: CONFIRM}
+  4CH1-CON-DILUTION: {verdict: CONFIRM}
+  4CH1-CON-SOLUTION: {verdict: CONFIRM_WITH_NOTE, note: 'The solvent/solute/solution triple is one node (one terminology table, always co-taught, assessed together). If the operator wants term-level nodes (OD-1 operand rule cuts BOTH ways), splitting is a re-author; the corpus gives no evidence they are independently learnable.'}
+  4CH1-CON-SATURATED-SOLUTION: {verdict: CONFIRM}
+  4CH1-CON-SOLUBILITY: {verdict: CONFIRM}
+  4CH1-CON-SOLUBILITY-CURVE: {verdict: CONFIRM}
+  4CH1-CON-HEATING-CONSTANT-MASS: {verdict: CONFIRM_WITH_NOTE, note: 'ENRICHMENT leaf (mirrors pilot N-08 Avogadro-constant): named technique, taught as a method step + examiner tip, not demanded by the 1.7C wording. No emitted edges — same leaf shape as the pilot N-08. Operator scoping decision.'}
+  4CH1-CON-ELEMENT: {verdict: CONFIRM}
+  4CH1-CON-COMPOUND: {verdict: CONFIRM}
+  4CH1-CON-MIXTURE: {verdict: CONFIRM}
+  4CH1-CON-PURE-SUBSTANCE: {verdict: CONFIRM_WITH_NOTE, note: 'One node carries both the purity definition AND the fixed-m.p./b.p. criterion. Split candidate (definition vs criterion, the 1.32/1.33 pattern) — but the note teaches them as one block and the 1.11 spot-count rule needs the criterion directly. Operator decision; keep is defensible.'}
+  4CH1-CON-SIMPLE-DISTILLATION: {verdict: CONFIRM}
+  4CH1-CON-FRACTIONAL-DISTILLATION: {verdict: CONFIRM}
+  4CH1-CON-FILTRATION: {verdict: CONFIRM}
+  4CH1-CON-CRYSTALLISATION: {verdict: CONFIRM}
+  4CH1-CON-CHROMATOGRAPHY: {verdict: CONFIRM}
+  4CH1-CON-CHROMATOGRAM-INTERPRETATION: {verdict: CONFIRM}
+  4CH1-CON-RF-VALUE: {verdict: CONFIRM}
+  4CH1-MIS-GAS-PARTICLES-TOUCH: {verdict: CONFIRM}
+  4CH1-MIS-CRYSTALLISATION-DRYNESS: {verdict: CONFIRM}
+
+edges:
+  '4CH1-CON-STATE-PARTICLE-MODEL REQUIRES_PREREQUISITE 4CH1-CON-STATES-THREE': {verdict: CONFIRM_WITH_NOTE, note: 'Vanishes under a states/particle-model node merge (see node note) — identity-policy dependent, not a defect.'}
+  '4CH1-CON-STATE-CHANGES REQUIRES_PREREQUISITE 4CH1-CON-STATE-PARTICLE-MODEL': {verdict: CONFIRM}
+  '4CH1-CON-EVAPORATION-BOILING REQUIRES_PREREQUISITE 4CH1-CON-STATE-CHANGES': {verdict: CONFIRM}
+  '4CH1-CON-DIFFUSION EXPLAINED_BY 4CH1-CON-STATE-PARTICLE-MODEL': {verdict: CONFIRM_WITH_NOTE, note: 'Relation-class choice flagged (B1-H-04): the "due to the random motion" sentence is genuinely causal (EXPLAINED_BY evidence class), and the learning-prerequisite reading is equally real. One relation per pair forced the choice; the operator may want the prereq instead (or a future dual-relation ruling). CONFIRM at high on the causal evidence.'}
+  '4CH1-CON-DILUTION EXPLAINED_BY 4CH1-CON-STATE-PARTICLE-MODEL': {verdict: CONFIRM}
+  '4CH1-CON-SATURATED-SOLUTION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION': {verdict: CONFIRM}
+  '4CH1-CON-SOLUBILITY REQUIRES_PREREQUISITE 4CH1-CON-SATURATED-SOLUTION': {verdict: CONFIRM}
+  '4CH1-CON-SOLUBILITY-CURVE REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY': {verdict: CONFIRM}
+  '4CH1-PR-01 REQUIRES_PREREQUISITE 4CH1-CON-SATURATED-SOLUTION': {verdict: CONFIRM}
+  '4CH1-PR-01 REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY': {verdict: CONFIRM}
+  '4CH1-CON-COMPOUND REQUIRES_PREREQUISITE 4CH1-CON-ELEMENT': {verdict: CONFIRM}
+  '4CH1-CON-MIXTURE REQUIRES_PREREQUISITE 4CH1-CON-COMPOUND': {verdict: CONFIRM_WITH_NOTE, note: 'Symmetric-operand flag (B1-H-01): the mixture definition names elements AND compounds; the emitted edge takes compound as the chain representative and the element edge is held as subsumed. The pilot MOLAR-MASS->{MR,AR} precedent EMITTED both symmetric edges — the operator may want mixture->{compound, element} as an emitted pair instead. Identity decision, not a defect.'}
+  '4CH1-CON-PURE-SUBSTANCE REQUIRES_PREREQUISITE 4CH1-CON-COMPOUND': {verdict: CONFIRM_WITH_NOTE, note: 'Same symmetric-operand flag (B1-H-10) on "a single element or compound": element held as subsumed. Operator may want the emitted pair.'}
+  '4CH1-CON-PURE-SUBSTANCE REQUIRES_PREREQUISITE 4CH1-CON-STATE-CHANGES': {verdict: CONFIRM}
+  '4CH1-CON-SIMPLE-DISTILLATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION': {verdict: CONFIRM_WITH_NOTE, note: 'Vocabulary-level dependency (FP-B1-4 class): this is distillation''s ONLY solution link (not subsumed), so density discipline does not prune it — but the operator may judge the 1.10 technique sentences self-contained (the mention-vs-dependency line). Flagged, not doubted.'}
+  '4CH1-CON-SIMPLE-DISTILLATION REQUIRES_PREREQUISITE 4CH1-CON-STATE-CHANGES': {verdict: CONFIRM}
+  '4CH1-CON-FRACTIONAL-DISTILLATION REQUIRES_PREREQUISITE 4CH1-CON-SIMPLE-DISTILLATION': {verdict: CONFIRM_WITH_NOTE, note: 'Teach-sequence derivation (the fractional section re-describes the same evaporate->condense->collect process rather than referencing simple by name); SOM/ECM2 MS data shows students DO misclassify the two techniques (Q4(a)(ii)/Q4(b)iii-iv technique-choice items) — the dependency is real. CONFIRM.'}
+  '4CH1-CON-FILTRATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION': {verdict: CONFIRM_WITH_NOTE, note: 'Filtration''s only solution link (not subsumed) — same vocabulary-level flag as the distillation edge.'}
+  '4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE 4CH1-CON-SATURATED-SOLUTION': {verdict: CONFIRM}
+  '4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION': {verdict: HOLD, note: 'Pass-1 already quarantined this to REVIEW_REQUIRED at authoring (subsumption class: CRYSTALLISATION -> SATURATED-SOLUTION -> SOLUTION). Pass 2 agrees with the doubt and would not emit it as SUGGESTED: keep REVIEW_REQUIRED, operator settles keep/prune at the batch gate.'}
+  '4CH1-CON-CRYSTALLISATION EXPLAINED_BY 4CH1-CON-SOLUBILITY': {verdict: CONFIRM}
+  '4CH1-CON-CHROMATOGRAPHY REQUIRES_PREREQUISITE 4CH1-CON-SOLUBILITY': {verdict: CONFIRM}
+  '4CH1-CON-CHROMATOGRAM-INTERPRETATION REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAPHY': {verdict: CONFIRM}
+  '4CH1-CON-CHROMATOGRAM-INTERPRETATION REQUIRES_PREREQUISITE 4CH1-CON-PURE-SUBSTANCE': {verdict: CONFIRM}
+  '4CH1-CON-RF-VALUE REQUIRES_PREREQUISITE 4CH1-CON-CHROMATOGRAM-INTERPRETATION': {verdict: CONFIRM}
+  '4CH1-MIS-GAS-PARTICLES-TOUCH WRONG_ANSWER_PATTERN 4CH1-CON-STATE-PARTICLE-MODEL': {verdict: CONFIRM}
+  '4CH1-MIS-GAS-PARTICLES-TOUCH REMEDIATED_BY 4CH1-CON-STATE-PARTICLE-MODEL': {verdict: CONFIRM_WITH_NOTE, note: 'Remediation target = the SAME concept the wrong answer misrepresents (the pilot''s remediation edges targeted different, deeper concepts; there is no deeper in-slice concept below the particle model). Alternative: drop the edge and let the node''s remediation_evidence carry it. Operator decision; kept for misconception-recommendation queries.'}
+  '4CH1-MIS-CRYSTALLISATION-DRYNESS WRONG_ANSWER_PATTERN 4CH1-CON-CRYSTALLISATION': {verdict: CONFIRM}
+  '4CH1-MIS-CRYSTALLISATION-DRYNESS REMEDIATED_BY 4CH1-CON-SATURATED-SOLUTION': {verdict: CONFIRM}
+
+held_review:
+  B1-H-01: {verdict: AGREE_HOLD, note: 'Right call: subsumed via MIXTURE -> COMPOUND -> ELEMENT; note the symmetric-pair alternative flagged on the emitted edge.'}
+  B1-H-02: {verdict: AGREE_HOLD, note: 'Right call: subsumed via the solubility chain.'}
+  B1-H-03: {verdict: AGREE_HOLD, note: 'Right call: subsumed via the chromatogram chain.'}
+  B1-H-04: {verdict: AGREE_HOLD, note: 'Right call: one relation per pair; the EXPLAINED_BY reading is evidenced, the prereq reading is real — flagged for the operator either way.'}
+  B1-H-05: {verdict: AGREE_HOLD, note: 'Right call: everyday-vs-technical usage shift, not a confusion pair (HELD-02 precedent).'}
+  B1-H-06: {verdict: AGREE_HOLD, note: 'Right call at pilot ratio; the ECM2 Q2(d) REJECT-column evidence ("references to freezing", "ionic lattice forms") is decent — a strong candidate for batch 2 or an operator-directed second misconception on CON-CRYSTALLISATION.'}
+  B1-H-07: {verdict: AGREE_HOLD, note: 'Right call: rejected answer class without a reconstructible wrong-answer text; revisit with deeper MS mining.'}
+  B1-H-08: {verdict: AGREE_HOLD, note: 'Right call: trend-without-mechanism; constructing the kinetic explanation is exactly the forbidden inference.'}
+  B1-H-09: {verdict: AGREE_HOLD, note: 'Right call: excerpt-blurb evidence, not method-body evidence (OD-2 admissibility).'}
+  B1-H-10: {verdict: AGREE_HOLD, note: 'Right call: subsumed; same symmetric-pair flag as B1-H-01.'}
+  B1-H-11: {verdict: AGREE_HOLD, note: 'Right call: prerequisite edges into an ENRICHMENT node would inflate its centrality beyond its role.'}
+  B1-H-12: {verdict: AGREE_HOLD, note: 'Right call: subsumed via the solubility chain.'}
+
+findings:
+- id: FP-B1-1
+  kind: split-artifact
+  detail: 'The CON-STATES-THREE / CON-STATE-PARTICLE-MODEL pair (both CORE @ 1.1) and the CON-SOLUTION triple-node are operator merge/split decisions — the same FP-2 class as the pilot yield triple. All flagged with merge notes; no defect.'
+- id: FP-B1-2
+  kind: relation-class-choice
+  detail: 'CON-DIFFUSION EXPLAINED_BY CON-STATE-PARTICLE-MODEL: causal evidence ("due to the random motion") chosen over the equally-real prerequisite reading (B1-H-04). One relation per pair forced the choice; the operator may rule differently (an OD-class decision).'
+- id: FP-B1-3
+  kind: granularity
+  detail: 'CON-PURE-SUBSTANCE carries definition + fixed-point criterion in one node; the 1.1 "energy" operand straddles the particle-model/state-changes boundary. Operator granularity notes, FP-3 class.'
+- id: FP-B1-4
+  kind: density (vocabulary-level prereqs)
+  detail: 'Three 1.10 technique -> CON-SOLUTION edges (distillation, filtration, crystallisation): the first two are each their technique''s only solution link (kept SUGGESTED), the third is subsumed (quarantined REVIEW_REQUIRED at authoring). Operator may prune the class further at the gate.'
+- id: FN-B1-1
+  kind: false-negative-concern
+  detail: 'Mark-scheme mining covered 2 of the 4 slice-relevant Unit-1 Paper-1 MS files (States of Matter, ECM2; ECM1/ECM3 unpinned) and no Paper-2 variants — the wrong-answer-pattern inventory for this slice is incomplete. Mirrors the pilot FN-3; batch 2 should pin the remainder.'
+- id: FN-B1-2
+  kind: boundary
+  detail: 'PR-02 (4CH1-1.13, paper-chromatography practical) is batch-2 scope: its edges to CON-CHROMATOGRAPHY / CON-RF-VALUE will be authored in batch 2 — cross-batch boundary edges to EXISTING nodes are sanctioned (no boundary minting needed).'
+- id: FN-B1-3
+  kind: vocabulary-coverage
+  detail: '"Miscible" (fractional distillation) and "filtrate/residue" are taught inline without concepts — deliberate non-minting at pilot granularity; recorded so the coverage gap is explicit, not silent.'

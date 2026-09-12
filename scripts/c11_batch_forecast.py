@@ -40,7 +40,13 @@ sps = dec["meta"]["scope"]["spec_points"]
 
 n_nodes = len(nodes)
 n_authored = len(edges)
-n_part_of = sum(1 for e in graph_edges if e["relation"] == "PART_OF")
+# session-47: the live store spans the decision-record REGISTRY (pilot +
+# §16 batches). The pilot_baseline counts are PILOT-scoped (batch 0's own
+# actuals — the calibration baseline); store-wide counts feed the live rates.
+PILOT_SPS = set(sps)
+pilot_edges = [e for e in graph_edges
+               if e["relation"] == "PART_OF" and e["target"] in PILOT_SPS]
+n_part_of = len(pilot_edges)
 n_total = len(graph_edges)
 n_held = sum(1 for h in held if h["status"] == "held")
 n_rejected = sum(1 for h in held if h["status"] == "rejected")
@@ -57,7 +63,8 @@ suggested_authored = [e for e in edges if e["validation_status"] == "SUGGESTED"]
 # the item-14 proposal is now the sanctioned execution shape. Still not executed.
 S16_SOURCE = ("graph/reports/C11_S16_GATE_REPORT.md item 14 "
               "(the sanctioned §16 execution shape — authorized 2026-09-12, "
-              "session 46, scripts/c11_s16_authorization.yaml; not yet executed)")
+              "session 46, scripts/c11_s16_authorization.yaml; batch 1 "
+              "authored session 47, pending its operator review gate)")
 s16_model = {"nodes_per_sp": 2.4, "authored_edges_per_sp": 2.75, "held_per_sp": 1.0}
 s16_totals = {"nodes": [380, 450], "authored_edges": [420, 510], "held": [160, 180]}
 s16_batches = {"count": 14, "approx_sp_per_batch": 12,
@@ -187,9 +194,9 @@ fp_categories = [
 out = {
     "task": "T-C11",
     "instrument": "batch-forecast",
-    "session": 43,
+    "session": 47,
     "generated": "2026-09-12",
-    "baselines": {"resources": "3b70dde", "syllabai": "6d36fb0"},
+    "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
                "batches. The pilot is batch 0 (baseline). Each authorized §16 "
                "batch appends a record to future_batch_records so forecast "
@@ -204,7 +211,7 @@ out = {
         "misconceptions": sum(1 for n in nodes if n["family"] == "MISCONCEPTION"),
         "authored_edges": n_authored,
         "part_of_edges": n_part_of,
-        "total_edges": n_total,
+        "total_edges": n_authored + n_part_of,
         "held_candidates": len(held),
         "held": n_held,
         "rejected": n_rejected,
@@ -227,8 +234,16 @@ out = {
         "source": S16_SOURCE,
         # Session-46 (2026-09-12): §16 AUTHORIZED (operator, session 46) — status
         # updated from the pre-authorization proposal wording; nothing executed yet.
+        # Session-47 (2026-09-12): batch 1 AUTHORED (extraction_pass
+        # c11-s16-batch-1, commissioned by the operator's 'run batch 1');
+        # its content is SUGGESTED/REVIEW_REQUIRED pending the per-batch
+        # operator gate — no batch-1 promotion yet; 13 batches remain.
         "status": ("§16 AUTHORIZED 2026-09-12 (session 46, operator — "
-                   "scripts/c11_s16_authorization.yaml); no batch executed yet"),
+                   "scripts/c11_s16_authorization.yaml); batch 1 AUTHORED "
+                   "2026-09-12 (session 47: 12 SPs / 24 nodes / 29 authored "
+                   "edges / 12 held / 1 RR quarantine), awaiting its operator "
+                   "review gate before any promotion; batches 2-14 not "
+                   "started"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,
@@ -242,7 +257,56 @@ out = {
     },
     "rates": rates,
     "false_positive_categories": fp_categories,
-    "future_batch_records": [],
+    "future_batch_records": [
+        {
+            "batch_id": "c11-s16-batch-1",
+            "session": 47,
+            "commissioned": "operator ('run batch 1', 2026-09-12)",
+            "scope": "S1 remainder, first 12 SPs (4CH1-1.1-1.12) + PR-01",
+            "spec_points": 12,
+            "notes": 10,
+            "mark_schemes_pinned": 2,
+            "predicted": {"nodes": 28.8, "authored_edges": 33.0,
+                          "held_candidates": 12.0},
+            "actual": {"nodes": 24, "authored_edges": 29,
+                       "held_candidates": 12},
+            "delta_pct": {"nodes": -16.7, "authored_edges": -12.1,
+                          "held_candidates": 0.0},
+            "rates": {
+                "held_rate": 0.2927,
+                "rejection_rate": 0.0,
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-2 (split-artifact candidates: states/particle-model pair, "
+                "solution triple, pure-substance granularity — operator "
+                "identity decisions)",
+                "FP-3 (granularity notes: pure-substance node, 1.1 energy "
+                "boundary)",
+                "FP-4 (quarantine discipline applied at authoring: "
+                "CRYSTALLISATION->SOLUTION RR, subsumption class)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: the slice is terminology/technique-"
+                           "heavy rather than calculation-heavy — fewer "
+                           "separable procedures than the pilot's "
+                           "mole/stoichiometry backbone, hence nodes "
+                           "-16.7% / edges -12.1% vs the 2.4/2.75 model; "
+                           "held exactly on model (12). 1 pass-1 self-"
+                           "quarantine (subsumption-class RR) + 1 pass-2 "
+                           "concordant HOLD on it; zero pass-2 demotions of "
+                           "asserted edges (abstention landed at authoring). "
+                           "operator_verdicts all zero: the per-batch "
+                           "operator gate is PENDING (sheet: "
+                           "C11_BATCH1_REVIEW_SHEET.md; template: "
+                           "scripts/c11_batch1_verdicts_template.yaml). "
+                           "Mark-scheme mining: 2 of 4 slice-relevant "
+                           "Unit-1-P1 MS files pinned (SOM, ECM2); ECM1/ECM3 "
+                           "+ Paper-2 remain for later passes (FN-B1-1)."),
+        },
+    ],
     "future_batch_record_schema": {
         "batch_id": "c11-s16-batch-N (extraction_pass id)",
         "spec_points": "count in the batch scope",

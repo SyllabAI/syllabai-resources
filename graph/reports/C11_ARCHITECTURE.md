@@ -601,6 +601,21 @@ pathway: no DB writes, no unratified promotion, no hand-edited graph. The
 authorization commands no generation by itself — batch execution is
 separately commissioned.)*
 
+*(Session-47, 2026-09-12: batch 1 was commissioned ("run batch 1") and
+authored under this section's sanctioned pathway — extraction_pass
+`c11-s16-batch-1`, decision record `scripts/c11_batch1_decisions.yaml`
+(the §8 mechanism: expansion passes add nodes via new decision records with
+their own extraction_pass id), gated generation through the registry-aware
+`c11_concept_pilot.py`, pass-2 adversarial review, and the batch review
+sheet `graph/reports/C11_BATCH1_REVIEW_SHEET.md`. The merged store stands at
+53 nodes / 118 edges (28 operator promotions + frozen pilot dispositions
+intact; 4.15 uncovered). NOTHING from batch 1 is promoted: its edges are
+SUGGESTED (plus one subsumption-class REVIEW_REQUIRED quarantine) pending
+the per-batch operator gate and the §18 pathway. The restrictions above
+remain in force for everything not covered by a batch's sanctioned
+pathway — including DB writes and hand-edited graphs, which no batch
+pathway sanctions.)*
+
 ---
 
 ## 17. Deliverables map (tasking → artifacts)

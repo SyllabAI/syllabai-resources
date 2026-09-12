@@ -91,8 +91,11 @@ def make_sandbox(root: Path) -> Path:
     (sb / "graph").mkdir()
     for f in LIVE_SCRIPTS.glob("*.py"):
         shutil.copy2(f, sb / "scripts" / f.name)
+    # session-47: stage the WHOLE decision-record registry (pilot + batch-1)
     shutil.copy2(LIVE_SCRIPTS / "c11_pilot_decisions.yaml",
                  sb / "scripts" / "c11_pilot_decisions.yaml")
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch1_decisions.yaml",
+                 sb / "scripts" / "c11_batch1_decisions.yaml")
     if (LIVE_SCRIPTS / "c11_evidence").exists():
         shutil.copytree(LIVE_SCRIPTS / "c11_evidence", sb / "scripts" / "c11_evidence")
     for f in LIVE_GRAPH.glob("*.yaml"):
@@ -116,8 +119,11 @@ def restore(sb: Path):
     the frozen pilot snapshot (semantic edges SUGGESTED/REVIEW_REQUIRED),
     concepts.yaml + spec_command_kinds.yaml regenerate byte-identically.
     """
+    # session-47: stage the WHOLE decision-record registry (pilot + batch-1)
     shutil.copy2(LIVE_SCRIPTS / "c11_pilot_decisions.yaml",
                  sb / "scripts" / "c11_pilot_decisions.yaml")
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch1_decisions.yaml",
+                 sb / "scripts" / "c11_batch1_decisions.yaml")
     prom = sb / "scripts" / "c11_promotions.yaml"
     if prom.exists():
         prom.unlink()
@@ -235,11 +241,16 @@ def main2():
         edges = read_edges(sb)
         rr_st = state_of(edges, *rr)
         c = check(sb)
-        ok("T02 RR-edge promotion pathway (RR 1->0, promoted=1, checker green)",
+        # session-47: the sandbox registry also stages the batch-1 record,
+        # whose subsumption-class quarantine edge (CRYSTALLISATION ->
+        # SOLUTION) stays REVIEW_REQUIRED — the pilot RR edge's promotion
+        # consumes only itself. Expected RR after T02: 1 (the batch
+        # quarantine), not 0.
+        ok("T02 RR-edge promotion pathway (pilot RR 1->0, promoted=1, batch quarantine RR stays, checker green)",
            r.returncode == 0
            and rr_st[0] == "HUMAN_VALIDATED"
            and sum(1 for e in edges
-                   if e["validation_status"] == "REVIEW_REQUIRED") == 0
+                   if e["validation_status"] == "REVIEW_REQUIRED") == 1
            and c.returncode == 0 and "1 HUMAN_VALIDATED" in c.stdout,
            f"rc={r.returncode} st={rr_st} err={r.stderr[:200]}")
 

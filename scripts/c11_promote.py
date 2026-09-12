@@ -53,7 +53,11 @@ import yaml
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
-DECISIONS = HERE / "c11_pilot_decisions.yaml"
+# Session-47 (§16 batch 1, 2026-09-12): the decision-record REGISTRY (same
+# list as the generator's) — promotion resolves exact authored-edge
+# identities and held-candidate rejections over the MERGED surface, so §18
+# promotions work identically for pilot and batch edges.
+DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 
 RELATIONS = {"PART_OF", "REQUIRES_PREREQUISITE", "RELATED_TO", "MISCONCEPTION_OF",
@@ -145,9 +149,11 @@ def main() -> int:
     if not args.review_ref:
         die("--review-ref must name the review artifact that ratified the edge")
 
-    dec = load_yaml(DECISIONS)
-    edges = dec["edges"]
-    held = dec.get("held", [])
+    edges, held = [], []
+    for name in DECISION_FILES:
+        d = load_yaml(HERE / name)
+        edges.extend(d.get("edges") or [])
+        held.extend(d.get("held") or [])
 
     authored = {(e["source"], e["relation"], e["target"]): e for e in edges}
 

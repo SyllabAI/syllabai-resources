@@ -73,7 +73,12 @@ import yaml
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 
-DECISIONS = HERE / "c11_pilot_decisions.yaml"
+# Session-47 (§16 batch 1, 2026-09-12): the decision-record REGISTRY (pilot
+# first, then each authorized §16 batch record) — same list as the
+# generator's. The §18 front-end enumerates pending items over the MERGED
+# authored-edge surface: the operator's batch-1 approval surface is exactly
+# the batch-1 SUGGESTED edges.
+DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 GRAPH_EDGES = REPO / "graph" / "concept_edges.yaml"
 GRAPH_NODES = REPO / "graph" / "concepts.yaml"
@@ -126,15 +131,23 @@ def load_state(base: Path = REPO) -> dict:
     g_edges = base / "graph" / "concept_edges.yaml"
     g_nodes = base / "graph" / "concepts.yaml"
     g_spec = base / "graph" / "specification_points.yaml"
-    decisions = base / "scripts" / "c11_pilot_decisions.yaml"
+    # session-47: the decision-record REGISTRY (fail closed if any member is
+    # missing — the graph must be reconcilable against its full registry)
+    decisions_list = [base / "scripts" / f for f in DECISION_FILES]
     promotions = base / "scripts" / "c11_promotions.yaml"
 
     missing = [str(p.relative_to(base)) for p in
-               (g_edges, g_nodes, g_spec, decisions) if not p.exists()]
+               [g_edges, g_nodes, g_spec, *decisions_list] if not p.exists()]
     if missing:
         die(f"required inputs missing: {', '.join(missing)}")
 
-    dec = yaml.safe_load(decisions.read_text(encoding="utf-8"))
+    dec = {"edges": [], "nodes": [], "held": [], "meta": {}}
+    for dp in decisions_list:
+        d = yaml.safe_load(dp.read_text(encoding="utf-8")) or {}
+        dec.setdefault("edges", []).extend(d.get("edges") or [])
+        dec.setdefault("nodes", []).extend(d.get("nodes") or [])
+        dec.setdefault("held", []).extend(d.get("held") or [])
+        dec.setdefault("meta", {})[str(dp.name)] = d.get("meta") or {}
     graph = yaml.safe_load(g_edges.read_text(encoding="utf-8"))
     nodes_doc = yaml.safe_load(g_nodes.read_text(encoding="utf-8"))
     spec = yaml.safe_load(g_spec.read_text(encoding="utf-8"))
@@ -409,6 +422,18 @@ def edge_hunk_manual(st: dict, identity: str, by: str, date: str,
                      body, old_lines, first)
 
 
+def meta_hunk_delta(st: dict) -> int:
+    """Net new-file line delta of the meta hunk for the CURRENT state:
+    3 in the pre-promotion state (two counts + promotion_record inserted),
+    0 in the post-promotion state (counts changed in place 28 -> 28+k; the
+    promotion_record already exists). Session-47 fix: the edge hunks'
+    new-file offsets must match the meta hunk's real net delta."""
+    old_lines = st["graph_text"].splitlines(keepends=True)
+    has_promoted = any(l.rstrip("\n").startswith("    promoted_edges: ")
+                       for l in old_lines)
+    return 0 if has_promoted else 3
+
+
 def meta_hunk_manual(st: dict, k_batch: int) -> list:
     """Git-style hunk for the file-level changes: counts.promoted_edges /
     human_validated_edges after review_required_edges, and
@@ -422,7 +447,34 @@ def meta_hunk_manual(st: dict, k_batch: int) -> list:
     if j <= i:
         die("unexpected graph layout: `edges:` precedes counts — refusing "
             "to render the meta preview")
-    # git: exactly CTX context lines ending at the insertion point
+    # session-47 fix: the live graph may ALREADY carry promotions (the
+    # session-45 state: counts.promoted_edges=28 + meta.promotion_record).
+    # In that state the generator's G13 re-run OVERWRITES the counts (one
+    # occurrence each) and keeps the existing promotion_record — so the
+    # preview must be a CHANGE hunk, not an insertion (the old code rendered
+    # duplicate keys, which is not what the gated apply writes).
+    old_n = next((int(l.split(":")[1]) for l in old_lines
+                  if l.rstrip("\n").startswith("    promoted_edges: ")), None)
+    if old_n is not None:
+        # post-promotion state: change 28 -> 28 + k_batch (promotion_record
+        # already present — nothing inserted for it)
+        k2 = next(kk for kk, l in enumerate(old_lines)
+                  if l.rstrip("\n") == f"    human_validated_edges: {old_n}")
+        lo, hi = min(i, k2), max(i, k2) + 1
+        before = old_lines[lo - CTX:lo] or old_lines[:lo]
+        after = old_lines[hi:hi + CTX]
+        first = lo - len(before)
+        body = [" " + l for l in before]
+        body.append(f"-    promoted_edges: {old_n}\n")
+        body.append(f"-    human_validated_edges: {old_n}\n")
+        body.append(f"+    promoted_edges: {old_n + k_batch}\n")
+        body.append(f"+    human_validated_edges: {old_n + k_batch}\n")
+        body += [" " + l for l in after]
+        a_count = len(before) + 2 + len(after)
+        return _fmt_hunk(first + 1, a_count, first + 1, a_count + 2,
+                         body, old_lines, first)
+
+    # pre-promotion state (original behavior): insert the promotion keys
     before = old_lines[max(0, i - CTX + 1):i + 1]
     mid = old_lines[i + 1:j]                       # (normally empty)
     after = old_lines[j:j + CTX]
@@ -442,7 +494,8 @@ def edge_hunks(st: dict, identity: str, by: str, date: str):
     """(edge hunks, meta hunks) for a single promotion. The meta hunk is
     positioned earlier in the file and always precedes the edge hunk, so the
     edge hunk carries the +3 new-file offset the meta hunk introduces."""
-    return edge_hunk_manual(st, identity, by, date, offset=3), \
+    return edge_hunk_manual(st, identity, by, date,
+                            offset=meta_hunk_delta(st)), \
         meta_hunk_manual(st, 1)
 
 
@@ -460,7 +513,7 @@ def batch_hunks(st: dict, batch: list, by: str, date: str) -> list:
         located.append((j, ident))
     located.sort()
     out = list(meta_hunk_manual(st, len(set(batch))))
-    off = 3
+    off = meta_hunk_delta(st)
     for _j, ident in located:
         out += edge_hunk_manual(st, ident, by, date, offset=off)
         off += 2
@@ -607,7 +660,10 @@ def resolve_ids(st: dict, ids: list) -> list:
 # ---------------------------------------------------------------------------
 def cmd_list(st: dict, args) -> int:
     if st["failures"]:
-        die(*st["failures"])
+        # session-47 fix: pass the LIST (die wraps single strings itself);
+        # unpacking multiple failures crashed with TypeError instead of
+        # printing the refusal reasons — fail-closed behavior restored
+        die(st["failures"])
     act = actionable_edges(st)
     pend = [it for it in act if it["actionable"]]
     print(f"T-C11 pending §18 promotions — state {fingerprint(st)} "
@@ -634,7 +690,10 @@ def cmd_list(st: dict, args) -> int:
 
 def cmd_show(st: dict, args) -> int:
     if st["failures"]:
-        die(*st["failures"])
+        # session-47 fix: pass the LIST (die wraps single strings itself);
+        # unpacking multiple failures crashed with TypeError instead of
+        # printing the refusal reasons — fail-closed behavior restored
+        die(st["failures"])
     roundtrip_guard(st)
     if args.all:
         idents = [it["identity"] for it in pending_items(st)]
@@ -676,7 +735,10 @@ def cmd_show(st: dict, args) -> int:
 
 def cmd_export(st: dict, args) -> int:
     if st["failures"]:
-        die(*st["failures"])
+        # session-47 fix: pass the LIST (die wraps single strings itself);
+        # unpacking multiple failures crashed with TypeError instead of
+        # printing the refusal reasons — fail-closed behavior restored
+        die(st["failures"])
     roundtrip_guard(st)
     date = args.date
     out = Path(args.out) if args.out else \
@@ -783,7 +845,10 @@ def cmd_export(st: dict, args) -> int:
 
 def cmd_approve(st: dict, args) -> int:
     if st["failures"]:
-        die(*st["failures"])
+        # session-47 fix: pass the LIST (die wraps single strings itself);
+        # unpacking multiple failures crashed with TypeError instead of
+        # printing the refusal reasons — fail-closed behavior restored
+        die(st["failures"])
     roundtrip_guard(st)
     if not args.by:
         die("approve requires --by <operator identity> (attribution gate; "

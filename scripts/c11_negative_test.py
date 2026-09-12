@@ -135,13 +135,25 @@ def mut_05_duplicate_edge(g: Path):
 
 
 def mut_06_confidence_cap(g: Path):
+    # session-47: the corruption class is "confidence EXCEEDS the
+    # derivation_method's cap". The first medium-confidence RP edge is now
+    # the batch-1 quarantine (USED_WITHOUT_RETEACHING — cap high, so
+    # medium->high is legal and c11.9 correctly catches nothing). Target an
+    # edge whose method is actually capped at medium (the pilot RR edge's
+    # IMPLICIT_USE class) so the violation is real.
+    cap_medium = {"IMPLICIT_USE", "TEACH_SEQUENCE_WITHIN_NOTE",
+                  "RELATED_RESIDUAL", "EXAMINER_TIP_IMPLIED"}
     d = load(g, "concept_edges.yaml")
     for e in d["edges"]:
-        if e["relation"] == "REQUIRES_PREREQUISITE" and e["confidence"] == "medium":
+        if (e["relation"] == "REQUIRES_PREREQUISITE"
+                and e["confidence"] == "medium"
+                and (e.get("provenance") or {}).get("derivation_method")
+                in cap_medium):
             e["confidence"] = "high"
             save(g, "concept_edges.yaml", d)
             return
-    raise SystemExit("no medium-confidence prerequisite edge to corrupt")
+    raise SystemExit("no medium-confidence capped prerequisite edge to "
+                     "corrupt")
 
 
 def mut_07_forged_promotion(g: Path):
