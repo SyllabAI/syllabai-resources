@@ -145,9 +145,19 @@ def mut_06_confidence_cap(g: Path):
 
 
 def mut_07_forged_promotion(g: Path):
+    # session-45 note: target a NON-promoted SUGGESTED semantic edge — since
+    # the 28 CONFIRM verdicts were applied (§18), the first REQUIRES_PREREQUISITE
+    # edge is legitimately HUMAN_VALIDATED; forging HV there is indistinguishable
+    # from the sanctioned state. Forging on a SUGGESTED edge (the operator-HOLD
+    # surface) reproduces the original corruption class exactly: an unbacked
+    # HUMAN_VALIDATED that c11.10 must catch.
     d = load(g, "concept_edges.yaml")
-    e = next(e for e in d["edges"] if e["relation"] == "REQUIRES_PREREQUISITE")
+    e = next(e for e in d["edges"]
+             if e["relation"] != "PART_OF"
+             and e["validation_status"] == "SUGGESTED")
     e["validation_status"] = "HUMAN_VALIDATED"
+    e["validated_by"] = "operator"
+    e["validated_date"] = "2026-09-12"
     save(g, "concept_edges.yaml", d)
 
 

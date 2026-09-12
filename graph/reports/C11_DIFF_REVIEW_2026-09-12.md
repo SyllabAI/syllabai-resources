@@ -1,8 +1,8 @@
 # C11 Diff Review Bundle — pending §18 edge promotions (generated 2026-09-12)
 
-- baseline commit: `b38ea52`
+- baseline commit: `5715396`
 - state fingerprint: `3cefbe260722` (promo_count=0)
-- actionable: 31 edges (clean 29 / pending-flagged 2); not-actionable: 1; nodes awaiting a pathway: 29
+- actionable: 28 edges (clean 28 / pending-flagged 0); not-actionable: 4; nodes awaiting a pathway: 29
 - preview fidelity: simulator re-emits graph/concept_edges.yaml under the generator's own serialization contract with a byte-identity guard — what you read is what G13 will write.
 
 ## Batch approval
@@ -28,7 +28,6 @@ cd work/syllabai-resources && python3 scripts/c11_diff_review.py approve \
   '4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR' \
   '4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD' \
   '4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD' \
-  '4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL' \
   '4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO' \
   '4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV' \
   '4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS' \
@@ -56,28 +55,25 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
 | 7 | `4CH1-CON-EXP-FORMULA-DEDUCTION REQUIRES_PREREQUISITE 4CH1-CON-MOLE` | high |  |
 | 8 | `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-GAS-VOL` | high |  |
 | 9 | `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV` | high |  |
-| 10 | `4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW` | medium | PENDING |
-| 11 | `4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE` | high |  |
-| 12 | `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR` | high |  |
-| 13 | `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE` | high |  |
-| 14 | `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR` | high |  |
-| 15 | `4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS` | high |  |
-| 16 | `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA` | high |  |
-| 17 | `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR` | high |  |
-| 18 | `4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR` | high |  |
-| 19 | `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD` | high |  |
-| 20 | `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD` | high |  |
-| 21 | `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL` | high |  |
-| 22 | `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO` | high |  |
-| 23 | `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV` | high |  |
-| 24 | `4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS` | high |  |
-| 25 | `4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC` | high |  |
-| 26 | `4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS` | high |  |
-| 27 | `4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION` | high |  |
-| 28 | `4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC` | high |  |
-| 29 | `4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL` | high |  |
-| 30 | `4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS` | medium | PENDING |
-| 31 | `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION` | high |  |
+| 10 | `4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE` | high |  |
+| 11 | `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR` | high |  |
+| 12 | `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE` | high |  |
+| 13 | `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR` | high |  |
+| 14 | `4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS` | high |  |
+| 15 | `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA` | high |  |
+| 16 | `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR` | high |  |
+| 17 | `4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR` | high |  |
+| 18 | `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD` | high |  |
+| 19 | `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD` | high |  |
+| 20 | `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO` | high |  |
+| 21 | `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV` | high |  |
+| 22 | `4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS` | high |  |
+| 23 | `4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC` | high |  |
+| 24 | `4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS` | high |  |
+| 25 | `4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION` | high |  |
+| 26 | `4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC` | high |  |
+| 27 | `4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL` | high |  |
+| 28 | `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION` | high |  |
 
 ## Pending items — the exact diff each approval applies
 
@@ -292,31 +288,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLAR-GAS-VOL
 ```
 
-### 10. `4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW` [medium, PENDING]
-
-- node 4CH1-CON-MOLAR-GAS-VOL — Molar gas volume at RTP (24 dm3) (CONCEPT)
--   spec 4CH1-1.35C [CORE]: understand how to carry out calculations involving gas volumes and the molar volume of a gas(...
-- node 4CH1-CON-AVOGADRO-LAW — Avogadro's Law (CONCEPT)
--   spec 4CH1-1.35C [ENRICHMENT]: understand how to carry out calculations involving gas volumes and the molar volume of a gas(...
-- derivation: SINGLE_SOURCE_CAUSAL_TEACHING — The same note section teaches the law ("equal amounts of gases occupy the same volume of space") and then the molar volume and its formula triangle; the law grounds why one fixed volume per mole exists at given conditions. Medium confidence: the note presents the 24 dm3 value as measured ("was found to be") rather than derived from the law — the explanatory link is tight but not stated as a derivation.
-- `NOTE` Calculate Gas Volumes - IGCSE Chemistry Revision Notes.md — "From the molar gas volume the following formula triangle can be derived"
-- operator_decision: **PENDING** — Medium-confidence judgment flagged review-gated by session-40 Task 3 (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law->molar-volume link rests on section adjacency). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides.
-
-```diff
-@@ -1476,7 +1479,9 @@ edges:
-     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)
-     generated_date: '2026-09-11'
-   confidence: medium
--  validation_status: SUGGESTED
-+  validation_status: HUMAN_VALIDATED
-+  validated_by: operator
-+  validated_date: '2026-09-12'
-   version: 1
-   created_at: '2026-09-11'
- - source: 4CH1-CON-YIELD
-```
-
-### 11. `4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE` [high]
+### 10. `4CH1-CON-MOLAR-GAS-VOL REQUIRES_PREREQUISITE 4CH1-CON-MOLE` [high]
 
 - node 4CH1-CON-MOLAR-GAS-VOL — Molar gas volume at RTP (24 dm3) (CONCEPT)
 -   spec 4CH1-1.35C [CORE]: understand how to carry out calculations involving gas volumes and the molar volume of a gas(...
@@ -339,7 +311,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLAR-MASS
 ```
 
-### 12. `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR` [high]
+### 11. `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-AR` [high]
 
 - node 4CH1-CON-MOLAR-MASS — Molar mass (CONCEPT)
 -   spec 4CH1-1.28 [CORE]: understand how to carry out calculations involving amount of substance, relative atomic mass ...
@@ -363,7 +335,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLAR-MASS
 ```
 
-### 13. `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE` [high]
+### 12. `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE` [high]
 
 - node 4CH1-CON-MOLAR-MASS — Molar mass (CONCEPT)
 -   spec 4CH1-1.28 [CORE]: understand how to carry out calculations involving amount of substance, relative atomic mass ...
@@ -386,7 +358,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLAR-MASS
 ```
 
-### 14. `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR` [high]
+### 13. `4CH1-CON-MOLAR-MASS REQUIRES_PREREQUISITE 4CH1-CON-MR` [high]
 
 - node 4CH1-CON-MOLAR-MASS — Molar mass (CONCEPT)
 -   spec 4CH1-1.28 [CORE]: understand how to carry out calculations involving amount of substance, relative atomic mass ...
@@ -410,7 +382,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLE-MASS-CONV
 ```
 
-### 15. `4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS` [high]
+### 14. `4CH1-CON-MOLE-MASS-CONV REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-MASS` [high]
 
 - node 4CH1-CON-MOLE-MASS-CONV — Mole-mass conversion (CONCEPT)
 -   spec 4CH1-1.28 [CORE]: understand how to carry out calculations involving amount of substance, relative atomic mass ...
@@ -433,7 +405,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLECULAR-FORMULA
 ```
 
-### 16. `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA` [high]
+### 15. `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA` [high]
 
 - node 4CH1-CON-MOLECULAR-FORMULA — Molecular formula (CONCEPT)
 -   spec 4CH1-1.32 [CORE]: know what is meant by the terms empirical formula and molecular formula
@@ -458,7 +430,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MOLECULAR-FORMULA
 ```
 
-### 17. `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR` [high]
+### 16. `4CH1-CON-MOLECULAR-FORMULA REQUIRES_PREREQUISITE 4CH1-CON-MR` [high]
 
 - node 4CH1-CON-MOLECULAR-FORMULA — Molecular formula (CONCEPT)
 -   spec 4CH1-1.32 [CORE]: know what is meant by the terms empirical formula and molecular formula
@@ -483,7 +455,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-MR
 ```
 
-### 18. `4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR` [high]
+### 17. `4CH1-CON-MR REQUIRES_PREREQUISITE 4CH1-CON-AR` [high]
 
 - node 4CH1-CON-MR — Relative formula mass (Mr) (CONCEPT)
 -   spec 4CH1-1.26 [CORE]: calculate relative formula masses(including relative molecular masses) $ (M_{r}) $ from relat...
@@ -508,7 +480,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-PERCENT-YIELD
 ```
 
-### 19. `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD` [high]
+### 18. `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-THEOR-YIELD` [high]
 
 - node 4CH1-CON-PERCENT-YIELD — Percentage yield (CONCEPT)
 -   spec 4CH1-1.30 [CORE]: calculate percentage yield
@@ -531,7 +503,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-PERCENT-YIELD
 ```
 
-### 20. `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD` [high]
+### 19. `4CH1-CON-PERCENT-YIELD REQUIRES_PREREQUISITE 4CH1-CON-YIELD` [high]
 
 - node 4CH1-CON-PERCENT-YIELD — Percentage yield (CONCEPT)
 -   spec 4CH1-1.30 [CORE]: calculate percentage yield
@@ -554,30 +526,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-REACTING-MASS
 ```
 
-### 21. `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL` [high]
-
-- node 4CH1-CON-REACTING-MASS — Reacting mass calculation (CONCEPT)
--   spec 4CH1-1.29 [CORE]: calculate reacting masses using experimental data and chemical equations
-- node 4CH1-CON-EQ-SYMBOL — Balanced symbol (chemical) equation (CONCEPT)
--   spec 4CH1-1.25 [CORE]: write word equations and balanced chemical equations(including state symbols):for reactions s...
-- derivation: USED_WITHOUT_RETEACHING — The procedure presupposes the ability to read a balanced equation (provided ready-made in both worked examples); equation writing/balancing is the 1.25 note's job.
-- `NOTE` Reacting mass calculations - IGCSE Chemistry Revision Notes.md — "Then, the ratio between the substances is identified using the balanced chemical equation"
-
-```diff
-@@ -1319,7 +1322,9 @@ edges:
-     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.29 @ Reacting mass calculations (2026-09-11)
-     generated_date: '2026-09-11'
-   confidence: high
--  validation_status: SUGGESTED
-+  validation_status: HUMAN_VALIDATED
-+  validated_by: operator
-+  validated_date: '2026-09-12'
-   version: 1
-   created_at: '2026-09-11'
- - source: 4CH1-CON-REACTING-MASS
-```
-
-### 22. `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO` [high]
+### 20. `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLAR-RATIO` [high]
 
 - node 4CH1-CON-REACTING-MASS — Reacting mass calculation (CONCEPT)
 -   spec 4CH1-1.29 [CORE]: calculate reacting masses using experimental data and chemical equations
@@ -600,7 +549,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-REACTING-MASS
 ```
 
-### 23. `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV` [high]
+### 21. `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-MOLE-MASS-CONV` [high]
 
 - node 4CH1-CON-REACTING-MASS — Reacting mass calculation (CONCEPT)
 -   spec 4CH1-1.29 [CORE]: calculate reacting masses using experimental data and chemical equations
@@ -623,7 +572,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-THEOR-YIELD
 ```
 
-### 24. `4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS` [high]
+### 22. `4CH1-CON-THEOR-YIELD REQUIRES_PREREQUISITE 4CH1-CON-REACTING-MASS` [high]
 
 - node 4CH1-CON-THEOR-YIELD — Theoretical yield (CONCEPT)
 -   spec 4CH1-1.30 [CORE]: calculate percentage yield
@@ -646,7 +595,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-CON-WATER-CRYST
 ```
 
-### 25. `4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC` [high]
+### 23. `4CH1-CON-WATER-CRYST REQUIRES_PREREQUISITE 4CH1-CON-EMP-MOL-CALC` [high]
 
 - node 4CH1-CON-WATER-CRYST — Water of crystallisation and hydrated salts (CONCEPT)
 -   spec 4CH1-1.31 [CORE]: understand how the formulae of simple compounds can be obtained experimentally, including met...
@@ -669,7 +618,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-PR-03
 ```
 
-### 26. `4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS` [high]
+### 24. `4CH1-CON-YIELD EXPLAINED_BY 4CH1-CON-YIELD-FACTORS` [high]
 
 - node 4CH1-CON-YIELD — Yield (actual yield) (CONCEPT)
 -   spec 4CH1-1.30 [CORE]: calculate percentage yield
@@ -692,7 +641,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-MIS-EQ-SUBSCRIPT
 ```
 
-### 27. `4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION` [high]
+### 25. `4CH1-MIS-CONC-UNIT REMEDIATED_BY 4CH1-CON-VOL-CONVERSION` [high]
 
 - node 4CH1-MIS-CONC-UNIT — Failing to convert cm3 to dm3 in concentration calculations (MISCONCEPTION)
 - node 4CH1-CON-VOL-CONVERSION — Volume unit conversion (cm3/dm3) (CONCEPT)
@@ -714,7 +663,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-MIS-EQ-SUBSCRIPT
 ```
 
-### 28. `4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC` [high]
+### 26. `4CH1-MIS-CONC-UNIT WRONG_ANSWER_PATTERN 4CH1-CON-CONC-CALC` [high]
 
 - node 4CH1-MIS-CONC-UNIT — Failing to convert cm3 to dm3 in concentration calculations (MISCONCEPTION)
 - node 4CH1-CON-CONC-CALC — Concentration calculation (mol/dm3) (CONCEPT)
@@ -736,7 +685,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-MIS-CONC-UNIT
 ```
 
-### 29. `4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL` [high]
+### 27. `4CH1-MIS-EQ-SUBSCRIPT MISCONCEPTION_OF 4CH1-CON-EQ-SYMBOL` [high]
 
 - node 4CH1-MIS-EQ-SUBSCRIPT — Balancing equations by altering subscripts (MISCONCEPTION)
 - node 4CH1-CON-EQ-SYMBOL — Balanced symbol (chemical) equation (CONCEPT)
@@ -758,30 +707,7 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
  - source: 4CH1-MIS-CONC-UNIT
 ```
 
-### 30. `4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS` [medium, PENDING]
-
-- node 4CH1-MIS-EQ-SUBSCRIPT — Balancing equations by altering subscripts (MISCONCEPTION)
-- node 4CH1-CON-CONSERVATION-MASS — Law of Conservation of Mass (CONCEPT)
--   spec 4CH1-1.25 [CORE]: write word equations and balanced chemical equations(including state symbols):for reactions s...
--   spec 4CH1-1.26 [SUPPORTING]: calculate relative formula masses(including relative molecular masses) $ (M_{r}) $ from relat...
-- derivation: EXAMINER_TIP_EXPLICIT — The corrective content: balance with coefficients because atoms (not substances) are conserved. Medium confidence — the tip's own argument is substance-identity ("it changes what the substance is"); mapping the remediation to CON-CONSERVATION-MASS (vs. keeping the remediation note-local) is a judgment flagged for review.
-- `NOTE` Writing chemical equations - IGCSE Chemistry Revision Notes.md — "You cannot do this because it changes what the substance is"
-- operator_decision: **PENDING** — Medium-confidence judgment flagged review-gated by session-40 Task 3 (the tip's own corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS is the best available in-slice target, an approximation). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides.
-
-```diff
-@@ -1587,6 +1590,8 @@ edges:
-     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11)
-     generated_date: '2026-09-11'
-   confidence: medium
--  validation_status: SUGGESTED
-+  validation_status: HUMAN_VALIDATED
-+  validated_by: operator
-+  validated_date: '2026-09-12'
-   version: 1
-   created_at: '2026-09-11'
-```
-
-### 31. `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION` [high]
+### 28. `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-EXP-FORMULA-DEDUCTION` [high]
 
 - node 4CH1-CON-EXP-FORMULA-DEDUCTION — Experimental formula deduction (mass-difference method) (CONCEPT)
 -   spec 4CH1-1.31 [CORE]: understand how the formulae of simple compounds can be obtained experimentally, including met...
@@ -810,8 +736,8 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
      requires_prerequisite_edges: 25
      wrong_answer_pattern_edges: 1
      review_required_edges: 1
-+    promoted_edges: 31
-+    human_validated_edges: 31
++    promoted_edges: 28
++    human_validated_edges: 28
 +  promotion_record: scripts/c11_promotions.yaml
  edges:
  - source: 4CH1-CON-AR
@@ -821,6 +747,9 @@ Pending-flagged (PENDING operator_decision) edges are excluded from the command 
 ## Not actionable (decided or ineligible)
 
 - `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW` [DECIDED] decided: operator HOLD (2026-09-11) — stays REVIEW_REQUIRED, not promotable (§18)
+- `4CH1-CON-MOLAR-GAS-VOL EXPLAINED_BY 4CH1-CON-AVOGADRO-LAW` [DECIDED] operator HOLD (2026-09-12)
+- `4CH1-CON-REACTING-MASS REQUIRES_PREREQUISITE 4CH1-CON-EQ-SYMBOL` [DECIDED] operator HOLD (2026-09-12)
+- `4CH1-MIS-EQ-SUBSCRIPT REMEDIATED_BY 4CH1-CON-CONSERVATION-MASS` [DECIDED] operator HOLD (2026-09-12)
 
 ## Nodes awaiting verdicts — no §18 pathway yet (informational)
 

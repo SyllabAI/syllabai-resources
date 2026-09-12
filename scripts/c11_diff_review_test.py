@@ -22,7 +22,9 @@ Negative (all fail closed, nothing written):
                                            N11 status drift decisions<->graph
 
 Real-repo smoke (read-only):
-  R1  `list` exits 0 on the live pilot state and reports 31 actionable.
+  R1  `list` exits 0 on the live pilot state and reports the session-45
+      post-application surface (0 actionable / 4 not-actionable / 28
+      promotions recorded).
 
 Usage: python3 scripts/c11_diff_review_test.py
 """
@@ -386,8 +388,13 @@ def main() -> int:
         r = subprocess.run([sys.executable, str(HERE / "c11_diff_review.py"),
                             "list"], cwd=T.REPO, capture_output=True, text=True)
         check("R1 list exits 0", r.returncode == 0, r.stderr[:200])
-        check("R1 reports 31 actionable / 29 clean / 2 pending",
-              "actionable: 31  (clean 29 / pending-flagged 2)" in r.stdout)
+        # session-45 expectation: the 28 CONFIRM verdicts are applied (28 §18
+        # promotions) and the 3 operator HOLDs + the RR edge are decided —
+        # nothing is actionable any more; not-actionable = 4, promo_count=28
+        check("R1 reports 0 actionable / 4 not-actionable / 28 promotions",
+              "actionable: 0  (clean 0 / pending-flagged 0)" in r.stdout
+              and "not-actionable: 4" in r.stdout
+              and "promo_count=28" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

@@ -1,33 +1,208 @@
 # T-C11 promotion record — operator ratifications of exact edge identities.
-#
-# CONTRACT: graph/reports/C11_ARCHITECTURE.md §18 (promotion mechanism).
-#
-# This file is the OPERATOR-side half of the validation-state model. The AI
-# decision record (scripts/c11_pilot_decisions.yaml) is frozen and may never
-# carry HUMAN_VALIDATED (anti-forgery G10 / c11.10). HUMAN_VALIDATED on an
-# authored edge is reachable ONLY through an entry in this file, and this file
-# is written ONLY by scripts/c11_promote.py executing an explicit operator
-# command that names the exact (source_node, relation, target_node) identity.
-#
-# Rules (machine-enforced by the generator G13 gate and graph_check c11.10/13):
-#   - one entry == one exact authored-edge identity (no wildcards, no
-#     promotion by node or relation type alone, no PART_OF — derived edges)
-#   - held/rejected candidates are not promotable (they are not edges)
-#   - validated_by must be a human/operator identity (AI attribution fails
-#     closed); validated_date is ISO YYYY-MM-DD
-#   - review_reference must name the review artifact that ratified the edge
-#   - promotion is idempotent; evidence/provenance/confidence of the edge are
-#     preserved verbatim (the generator only adds the validation fields)
-#   - removal of an entry is a git revert, never a hand-edit of the graph
+# Written ONLY by scripts/c11_promote.py; see graph/reports/C11_ARCHITECTURE.md §18. Hand-editing is forbidden.
 meta:
   task: T-C11
   stage: pilot-promotion
-  contract: 'graph/reports/C11_ARCHITECTURE.md §18'
+  contract: graph/reports/C11_ARCHITECTURE.md §18
   decision_record: scripts/c11_pilot_decisions.yaml
   tool: scripts/c11_promote.py
   generated_date: '2026-09-11'
-  note: >-
-    Zero promotions recorded — the T-C11 pilot review (session 40) ratified no
-    edges: the two REVIEW_REQUIRED edges received REJECT / HOLD verdicts and
-    the 31 SUGGESTED edges await operator confirmation.
-promotions: []
+  note: 'Zero promotions recorded — the T-C11 pilot review (session 40) ratified no edges: the two REVIEW_REQUIRED
+    edges received REJECT / HOLD verdicts and the 31 SUGGESTED edges await operator confirmation.'
+promotions:
+- edge:
+    source: 4CH1-CON-CONC-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-CONC-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-VOL-CONVERSION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-EMP-MOL-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-AR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-EMP-MOL-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EMPIRICAL-FORMULA
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-EMP-MOL-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-EQ-SYMBOL
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-CONSERVATION-MASS
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-EXP-FORMULA-DEDUCTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-GAS-VOL-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLAR-GAS-VOL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-GAS-VOL-CALC
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE-MASS-CONV
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLAR-GAS-VOL
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLAR-MASS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-AR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLAR-MASS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLAR-MASS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLE-MASS-CONV
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLAR-MASS
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLECULAR-FORMULA
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EMPIRICAL-FORMULA
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MOLECULAR-FORMULA
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-MR
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-AR
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-PERCENT-YIELD
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-THEOR-YIELD
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-PERCENT-YIELD
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-YIELD
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-REACTING-MASS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLAR-RATIO
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-REACTING-MASS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLE-MASS-CONV
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-THEOR-YIELD
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACTING-MASS
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-WATER-CRYST
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EMP-MOL-CALC
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-YIELD
+    relation: EXPLAINED_BY
+    target: 4CH1-CON-YIELD-FACTORS
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-CONC-UNIT
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-VOL-CONVERSION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-CONC-UNIT
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-CONC-CALC
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-EQ-SUBSCRIPT
+    relation: MISCONCEPTION_OF
+    target: 4CH1-CON-EQ-SYMBOL
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-PR-03
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EXP-FORMULA-DEDUCTION
+  validated_by: operator
+  validated_date: '2026-09-12'
+  review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md

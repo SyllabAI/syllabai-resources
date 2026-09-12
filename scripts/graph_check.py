@@ -1056,6 +1056,21 @@ def check_c11_concepts(c11, c09_data):
                      f"operator-only, promotion pathway not yet built)")
         if n.get("confidence") not in C11_BANDS:
             chk.fail(f"c11.1 {where}: confidence {n.get('confidence')!r}")
+        # c11.14 dual-track alias discipline (operator alias policy
+        # RETRIEVAL_EXEMPT, session 44, applied session 45): a term may sit on
+        # exactly one track — aliases (corpus-evidenced / merge input) or
+        # retrieval_only_aliases (marked unevidenced) — never both.
+        ro = n.get("retrieval_only_aliases")
+        if ro is not None:
+            if not isinstance(ro, list) or not all(
+                    isinstance(a, str) and a.strip() for a in ro):
+                chk.fail(f"c11.14 {where}: retrieval_only_aliases must be a "
+                         f"list of non-empty strings")
+            overlap = {str(a).casefold() for a in ro} \
+                & {str(a).casefold() for a in (n.get("aliases") or [])}
+            if overlap:
+                chk.fail(f"c11.14 {where}: dual-track violation — "
+                         f"{sorted(overlap)} on BOTH alias tracks")
         prov = n.get("provenance") or {}
         for k in ("tier", "model_version", "extraction_pass", "derivation_method",
                   "derivation_notes", "upstream", "generated_date"):

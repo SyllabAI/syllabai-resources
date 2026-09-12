@@ -172,8 +172,22 @@ def consistency_failures(st: dict) -> list:
                      f"{sorted(g_ids - a_ids)})")
     status_dec = {ekey(e): e["validation_status"] for e in authored}
     status_g = {ekey(e): e["validation_status"] for e in g_authored}
-    drifted = {k: (status_dec[k], status_g[k]) for k in a_ids & g_ids
-               if status_dec[k] != status_g[k]}
+    # session-45 fix: model the §18 sanctioned transition. The decision
+    # record is FROZEN and keeps SUGGESTED (anti-forgery G10/c11.13 — it can
+    # never carry HUMAN_VALIDATED); the graph carries HUMAN_VALIDATED ONLY
+    # through a promotion-store entry (st["promoted"], §18). Therefore
+    # (dec=SUGGESTED, graph=HUMAN_VALIDATED, promoted) is CONSISTENT, not
+    # drift. The forgery direction — graph HUMAN_VALIDATED with NO promotion
+    # entry — still fails (as does any HUMAN_VALIDATED in the decisions).
+    drifted = {}
+    for k in a_ids & g_ids:
+        sd, sg = status_dec[k], status_g[k]
+        if sd == sg:
+            continue
+        if (sd == "SUGGESTED" and sg == "HUMAN_VALIDATED"
+                and tuple(k.split()) in st["promoted"]):
+            continue
+        drifted[k] = (sd, sg)
     if drifted:
         fails.append(f"validation_status drifted decisions-vs-graph: {drifted}")
     n_dec, n_graph = len(st["dec"].get("nodes", [])), len(st["nodes"])
@@ -465,6 +479,24 @@ def preverify(st: dict, items: list, include_pending: bool) -> list:
         ident, e = it["identity"], it["edge"]
         where = f"edge {ident}"
         if ident not in authored:
+            # held-candidate diagnosis ONLY for non-authored identities —
+            # exactly c11_promote.py's / G13's structure (session-45 fix:
+            # the substring hint fired on AUTHORED edges too, where it can
+            # only produce false positives — an identity is either authored
+            # or a held candidate, never both; e.g. CONFIRM edge
+            # CON-EMP-MOL-CALC -> CON-MOLE was mis-flagged as HELD-06 because
+            # 'CON-MOLE' is a substring of HELD-06's 'CON-MOLE-MASS-CONV')
+            s_, t_ = (e["source"].removeprefix("4CH1-"),
+                      e["target"].removeprefix("4CH1-"))
+            hit = next((h.get("id") for h in held
+                        if s_ in str(h.get("candidate", ""))
+                        and t_ in str(h.get("candidate", ""))
+                        and e["relation"] in str(h.get("candidate", ""))),
+                       None)
+            if hit:
+                fails.append(f"{where}: is held candidate {hit} — "
+                             f"held/rejected candidates are not promotable")
+                continue
             fails.append(f"{where}: not an authored edge")
             continue
         if e["relation"] == "PART_OF":
@@ -482,14 +514,6 @@ def preverify(st: dict, items: list, include_pending: bool) -> list:
             fails.append(f"{where}: operator_decision PENDING — excluded by "
                          f"default; pass --include-pending to record the "
                          f"explicit operator decision")
-        s_, t_ = e["source"].removeprefix("4CH1-"), e["target"].removeprefix("4CH1-")
-        hit = next((h.get("id") for h in held
-                    if s_ in str(h.get("candidate", ""))
-                    and t_ in str(h.get("candidate", ""))
-                    and e["relation"] in str(h.get("candidate", ""))), None)
-        if hit:
-            fails.append(f"{where}: is held candidate {hit} — held/rejected "
-                         f"candidates are not promotable")
         anchors = e.get("evidence") or []
         if not anchors:
             fails.append(f"{where}: no evidence — fail closed")

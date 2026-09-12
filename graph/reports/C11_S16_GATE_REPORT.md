@@ -15,6 +15,18 @@ Ratification/promotion state at the close of this round: **0 promoted, 0
 ratified identities** (the two RR decisions are REJECT and HOLD; the two
 medium-confidence judgments are presented-pending; nothing else is confirmed).
 
+> **Session-45 update (2026-09-12):** the session-44 verdict round has since
+> recorded the operator's full decision set (28 edge CONFIRM / 3 HOLD @
+> E-08/E-26/E-29 / 0 REJECT; 29 node CONFIRM; OD-1/OD-2 RATIFIED —
+> `scripts/c11_review_verdicts.yaml`), and the authorized application round
+> promoted the 28 CONFIRM edges through the §18 pathway
+> (`c11_diff_review.py approve --all` → one `c11_promote.py` invocation →
+> gated G13 re-run; `scripts/c11_promotions.yaml` now carries 28 entries,
+> `operator`, 2026-09-12). The verdict counts and state rows below are the
+> session-41 snapshot they were decided against, annotated where they moved.
+> **§16 remains NOT ready / NOT authorized** — the explicit authorization is
+> still a separate operator action.
+
 ## The 14 required readiness items
 
 ### 1. Final pilot node count
@@ -42,13 +54,13 @@ scope limits.
 
 | category | count |
 |---|---|
-| operator ACCEPT verdicts | **0** (no identity ratified) |
+| operator ACCEPT verdicts | session-45: **28 CONFIRM** ratified (session 44) and promoted via §18; session-41 snapshot: **0** (no identity ratified) |
 | operator REJECT verdicts | **1** — `PR-03 REQUIRES_PREREQUISITE CON-MOLE`, executed (HELD-13, permanent) |
-| operator HOLD verdicts | **1** — `GAS-VOL-CALC REQUIRES_PREREQUISITE AVOGADRO-LAW`, stays REVIEW_REQUIRED |
-| operator PENDING (presented, undecided) | **2** — the medium-confidence judgments (§5 below) |
+| operator HOLD verdicts | session-45: **4** — the RR edge (session 41, below) + E-08/E-26/E-29 (session 44, rationale verbatim); session-41 snapshot: **1** |
+| operator PENDING (presented, undecided) | session-45: **0** — both settled HOLD (session 44); session-41 snapshot: **2** — the medium-confidence judgments (§5 below) |
 | held candidates (abstention record) | **11 held + 2 rejected = 13** (HELD-01…12 + HELD-13; HELD-09 was already rejected as the negative control; HELD-13 is the operator rejection) |
-| graph edges by state | 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
-| authored SUGGESTED edges awaiting per-row confirmation | 31 (29 unmarked + 2 PENDING-gated) |
+| graph edges by state | session-45: **28 HUMAN_VALIDATED** (the §18 promotions) + 3 SUGGESTED semantic (the operator HOLDs) + 33 PART_OF (SUGGESTED, derived) + 1 REVIEW_REQUIRED; session-41 snapshot: 64 SUGGESTED + 1 REVIEW_REQUIRED + 0 HUMAN_VALIDATED |
+| authored SUGGESTED edges awaiting per-row confirmation | session-45: **0** (28 promoted, 3 HOLD); session-41 snapshot: 31 (29 unmarked + 2 PENDING-gated) |
 
 ### 4. Promoted count
 
@@ -60,7 +72,22 @@ audit ran at zero with every guard exercised
 permanence guards (T19: tool-level refusal of the rejected identity; T20:
 generator-level G13 refusal of a forged promotion for it).
 
+**Session-45 update (2026-09-12): 28.** The operator commanded the batch
+promotion of the 28 CONFIRM verdicts through the §18 pathway (the
+pre-verified batch-approve front-end invoked `c11_promote.py` once — a
+single gated G13 re-run). The per-edge audit ran for real: every promotion's
+evidence byte-verified before any write, provenance preserved verbatim,
+`scripts/c11_promotions.yaml` = 28 entries (`operator`, 2026-09-12,
+review_reference = the regenerated diff-review bundle), graph_check
+c11.10/c11.13 green at 28 promoted, deterministic regeneration re-proven
+byte-identical WITH the promotions file present.
+
 ### 5. All remaining REVIEW_REQUIRED edges
+
+> Session-45 (2026-09-12): the two PENDING judgments under 2 below were
+> settled HOLD by the operator in session 44 (verbatim rationale in
+> `scripts/c11_review_verdicts.yaml` rows E-26/E-29; §7 operator_decision
+> blocks in the decision record); they stay SUGGESTED and are not promotable.
 
 1. `4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE 4CH1-CON-AVOGADRO-LAW` —
    **operator HOLD** (2026-09-11; reasons recorded verbatim; not eligible for
@@ -101,9 +128,10 @@ quarantine channel (abstain: HELD-09; emit-then-reject: HELD-13).
 **100%** of all 29 nodes and 65 edges carry complete provenance blocks
 (tier/model_version/extraction_pass/derivation_method/derivation_notes/
 upstream/generated_date) — machine-checked (G01, c11.3). For promoted edges:
-vacuously 100% at zero promotions; the mechanism preserves provenance
-verbatim (T01c byte-preservation test) and will be re-audited per edge at
-the first promotion.
+vacuously 100% at zero promotions (session-41 snapshot); session-45: **28
+promoted, provenance preserved verbatim** — the §18 transformation adds only
+the validation fields (machine-checked c11.10/c11.13 + the promote test's
+byte-preservation guard T01c).
 
 ### 8. Evidence coverage
 
@@ -159,7 +187,11 @@ promotion state remains a pure function of (decision record, promotions
 file). The graph diff vs the `e218259` pilot snapshot is exactly the
 operator REJECT: the rejected edge block removed and meta counts updated;
 all 65 remaining edges byte-identical with evidence/provenance/confidence
-preserved verbatim.
+preserved verbatim. Session-45 re-proof: the re-run at the post-application
+state (29/65/13 with 28 promotions) is again byte-identical — the graph
+diff vs the session-41 snapshot is exactly the 28 §18 promotions (status +
+validated_by/date + meta counts + promotion_record), all evidence /
+provenance / confidence / ambiguity blocks byte-identical.
 
 ### 13. Remaining corpus gaps
 
@@ -236,29 +268,39 @@ authorization itself.
 | 1 | two REVIEW_REQUIRED edges resolved | **DONE** — REJECT executed (HELD-13, permanent, machine-guarded T19/T20); HOLD recorded with verbatim reasons |
 | 2 | held-candidate taxonomy documented | **DONE** — §19; distribution in item 6 above |
 | 3 | promotion mechanism tested | **DONE** — 27/27 |
-| 4 | pilot promotion audited | **DONE at zero** — complete promotion audit run with 0 promotions; guards exercised; per-edge audit runs at first promotion |
+| 4 | pilot promotion audited | **DONE** — complete promotion audit at zero (session 41, every guard exercised); session-45: the per-edge audit ran for real at 28 promotions (evidence byte-verified pre-write, provenance preserved, c11.10/c11.13 green) |
 | 5 | graph_check passes | **DONE** — 11/11 at the 65-edge state |
 | 6 | all negative tests pass | **DONE** — 14/14 + 3/3 + 27/27 |
-| 7 | deterministic regeneration byte-identical | **DONE** — at the post-decision state (item 12) |
-| 8 | provenance coverage for promoted edges | **VACUOUS (0 promoted)**; mechanism preserves verbatim (T01c) |
+| 7 | deterministic regeneration byte-identical | **DONE** — post-decision state (session 41) and post-application state (session-45 re-proof, item 12) |
+| 8 | provenance coverage for promoted edges | **DONE (28 promoted)** — provenance preserved verbatim by the §18 transformation (T01c + c11.10/c11.13); session-41 snapshot: VACUOUS (0 promoted) |
 | 9 | no 4.15 false coverage | **DONE** — machine-tested (item 11) |
-| 10 | human review record committed | **PARTIAL** — the RR decisions, the medium-confidence presentations and the ontology rulings are committed; the operator's per-row verdicts on the 31 SUGGESTED edges + 29 nodes are still open, and the two PENDING judgments await decisions |
+| 10 | human review record committed | **DONE** — session-44 verdict record (`scripts/c11_review_verdicts.yaml`: 28 CONFIRM / 3 HOLD / 29 nodes / OD-1+OD-2 RATIFIED) + session-45 §18 application (28 promotions) + §7 decision-record blocks; the two PENDING judgments are settled HOLD; session-41 snapshot: PARTIAL |
 | 11 | T-C11 pilot snapshot frozen | **DONE (moved legitimately)** — the frozen 29/66/12 snapshot became 29/65/13 by the operator's own REJECT; reproducibility re-proven byte-identical |
 
 ## What still blocks §16 (operator actions, in order)
 
+> **Session-45 update (2026-09-12): items 1-3 are DONE.** The two PENDING
+> judgments are settled HOLD (session 44, rows E-26/E-29); the per-row
+> verdicts are recorded in the operator-owned verdict record (session 44);
+> the 28 CONFIRM identities are ratified and promoted through §18 with the
+> per-edge promotion audit green (session 45). What remains is item 4 alone.
+
 1. Rule on the two PENDING medium-confidence judgments (recommendations:
-   HOLD both — C11_OPERATOR_DECISIONS.md §2).
+   HOLD both — C11_OPERATOR_DECISIONS.md §2). *— DONE session 44 (HOLD both).*
 2. Record per-row verdicts on the 31 SUGGESTED authored edges and 29 nodes
    (CONFIRM / REJECT / HOLD / MERGE / SPLIT; a batch-confirmation shape can
    be proposed on request), including the yield-triple ruling
-   acknowledgment.
+   acknowledgment. *— DONE session 44 (`scripts/c11_review_verdicts.yaml`).*
 3. Ratify and command the first promotion identities (exact triples via
    `scripts/c11_promote.py`; a staged batch command derives mechanically
-   from the confirms), then run the promotion audit.
+   from the confirms), then run the promotion audit. *— DONE session 45
+   (28 §18 promotions, audit green).*
 4. Explicitly authorize §16 (or commission the full scoped expansion plan
-   from the proposal in item 14).
+   from the proposal in item 14). *— REMAINS THE SOLE BLOCKER.*
 
-Until then: no mass generation, no DB writes, no promotion — and no §16
-authorization. This round did not self-authorize and did not expand the
+Until then: no mass generation, no DB writes, no unratified promotion — and
+no §16 authorization. (Session-45 note: the 28 §18 promotions were the
+operator's own command over session-44-ratified identities — exactly the
+sanctioned channel; nothing else was promoted and nothing outside the pilot
+slice was touched.) This round did not self-authorize and did not expand the
 graph.

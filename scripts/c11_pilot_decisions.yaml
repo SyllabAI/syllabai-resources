@@ -26,6 +26,22 @@
 # EDGE_KEYS/NODE_KEYS schema) and can NEVER carry HUMAN_VALIDATED — promotion
 # remains exclusively the c11_promotions.yaml / c11_promote.py pathway (§18).
 
+#
+# OPERATOR DECISIONS (session 44, applied session 45, 2026-09-12): the
+# operator's review verdicts for the pilot surface live in
+# scripts/c11_review_verdicts.yaml (operator-owned): 28 edge CONFIRM /
+# 3 HOLD @ E-08 / E-26 / E-29 / 0 REJECT; 29 node CONFIRM; OD-1 + OD-2
+# RATIFIED; alias policy RETRIEVAL_EXEMPT; 'maximum yield' KEEP
+# retrieval-only/unevidenced. Session 45 applied them: the 28 confirmed
+# edges were promoted via the §18 pathway (scripts/c11_promotions.yaml —
+# the ONLY HUMAN_VALIDATED source; never this record); the 3 HOLDs are
+# recorded below as operator_decision HOLD blocks (E-08 added; E-26/E-29
+# updated from the session-41 PENDING presentations); the N-08/N-27
+# enrichment scoping and the THEOR-YIELD alias disposition (maximum yield
+# -> retrieval_only_aliases) are recorded as operator_decision blocks.
+# Node CONFIRMs are review state only (no §18 node pathway). These blocks
+# are never emitted into graph/*.yaml and can never carry HUMAN_VALIDATED.
+
 meta:
   task: T-C11
   stage: pilot
@@ -353,6 +369,14 @@ nodes:
   version: 1
   created_at: '2026-09-11'
   damage_flags: []
+  operator_decision:
+    verdict: CONFIRM
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_review_verdicts.yaml (session 44, row N-08)'
+    reasons:
+    - 'CONFIRM as an enrichment concept: useful to the concept model but not itself necessarily an explicit demanded concept in 4CH1-1.27.'
+    note: 'Operator enrichment scoping (session 44, 2026-09-12): the node keeps its ENRICHMENT role @ 4CH1-1.27. Do NOT convert this enrichment note into a stronger syllabus-authority claim. Node confirmation is review state only (nodes have no §18 promotion pathway — deferred to the expansion round) and this block is never emitted into graph/*.yaml. Applied session 45 via the sanctioned §7 re-authoring pathway.'
 - code: 4CH1-CON-MOLAR-MASS
   family: CONCEPT
   title: Molar mass
@@ -482,7 +506,8 @@ nodes:
 - code: 4CH1-CON-THEOR-YIELD
   family: CONCEPT
   title: Theoretical yield
-  aliases: [maximum yield]
+  aliases: []
+  retrieval_only_aliases: [maximum yield]
   spec_points:
   - code: 4CH1-1.30
     role: CORE
@@ -503,6 +528,15 @@ nodes:
   version: 1
   created_at: '2026-09-11'
   damage_flags: []
+  operator_decision:
+    verdict: CONFIRM
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_review_verdicts.yaml (session 44, node N-14 + alias_dispositions)'
+    reasons:
+    - 'CONFIRM the node under ratified OD-1 (yield triple stays split).'
+    - 'Alias disposition KEEP: maximum yield is NOT present in the source corpus phrase evidence (0 occurrences — session-43 alias audit); it remains only as a retrieval-only synonym/alias, explicitly marked retrieval-only / unevidenced.'
+    note: 'Operator alias disposition (session 44, 2026-09-12), applied session 45 via the sanctioned §7 re-authoring pathway: the alias moved from aliases (the corpus-evidenced / merge-input track) to retrieval_only_aliases (the marked retrieval-only track — the RETRIEVAL_EXEMPT dual-track alias policy). Do NOT claim that the corpus teaches or uses the phrase; do NOT add it to evidence quotes; do NOT alter the source note; not data corruption; the alias must never be used as evidence for a graph relationship. Re-evidencing or dropping the alias is an operator-only decision.'
 - code: 4CH1-CON-PERCENT-YIELD
   family: CONCEPT
   title: Percentage yield
@@ -848,6 +882,14 @@ nodes:
   version: 1
   created_at: '2026-09-11'
   damage_flags: []
+  operator_decision:
+    verdict: CONFIRM
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_review_verdicts.yaml (session 44, row N-27)'
+    reasons:
+    - 'CONFIRM as an enrichment concept: the corpus substantively teaches the idea, while the exact 1.35C wording does not necessarily explicitly demand the named law.'
+    note: 'Operator enrichment scoping (session 44, 2026-09-12): the node keeps its ENRICHMENT role @ 4CH1-1.35C. Do NOT convert this enrichment note into a stronger syllabus-authority claim. Node confirmation is review state only (nodes have no §18 promotion pathway — deferred to the expansion round) and this block is never emitted into graph/*.yaml. Applied session 45 via the sanctioned §7 re-authoring pathway.'
 # ---------------------------------------------------------------------------
 # Nodes — MISCONCEPTION family (§8A.11; explicit named-source evidence only)
 - code: 4CH1-MIS-EQ-SUBSCRIPT
@@ -1076,6 +1118,14 @@ edges:
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  operator_decision:
+    verdict: HOLD
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_review_verdicts.yaml (session 44, row E-08)'
+    reasons:
+    - 'Granularity problem: evidence supports interpreting/using a balanced equation, but does not necessarily support the broader EQ-SYMBOL concept as currently modeled, particularly if that node includes writing/balancing the equation.'
+    note: 'Operator HOLD (session 44, 2026-09-12), recorded verbatim in scripts/c11_review_verdicts.yaml row E-08; applied here session 45 via the sanctioned §7 re-authoring pathway. The edge stays SUGGESTED in the graph and is NOT eligible for promotion.'
 - source: 4CH1-CON-PERCENT-YIELD
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-THEOR-YIELD
@@ -1468,10 +1518,14 @@ edges:
   version: 1
   created_at: '2026-09-11'
   operator_decision:
-    verdict: PENDING
-    presented_date: '2026-09-11'
-    review_reference: 'graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)'
-    note: 'Medium-confidence judgment flagged review-gated by session-40 Task 3 (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law->molar-volume link rests on section adjacency). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides.'
+    verdict: HOLD
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_review_verdicts.yaml (session 44, row E-26)'
+    reasons:
+    - 'Do not promote the EXPLAINED_BY -> AVOGADRO-LAW relationship merely from general scientific knowledge.'
+    - 'The current evidence does not establish that explanatory relationship strongly enough.'
+    note: 'Operator HOLD (session 44, 2026-09-12), settling the session-41 PENDING medium-confidence presentation (FP-1: the anchored quote supports molar-volume -> formula-triangle, not law -> molar-volume; the law -> molar-volume link rests on section adjacency). The edge stays SUGGESTED in the graph and is NOT eligible for promotion. Block updated from PENDING to HOLD session 45 via the sanctioned §7 re-authoring pathway.'
 - source: 4CH1-CON-YIELD
   relation: EXPLAINED_BY
   target: 4CH1-CON-YIELD-FACTORS
@@ -1533,10 +1587,14 @@ edges:
   version: 1
   created_at: '2026-09-11'
   operator_decision:
-    verdict: PENDING
-    presented_date: '2026-09-11'
-    review_reference: 'graph/reports/C11_OPERATOR_DECISIONS.md (session 41 — 10-field presentation)'
-    note: 'Medium-confidence judgment flagged review-gated by session-40 Task 3 (the tip''s own corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS is the best available in-slice target, an approximation). Presented to the operator session 41 with full source/target/evidence/rationale — operator decision PENDING. NOT promotable until the operator explicitly decides.'
+    verdict: HOLD
+    decided_by: operator
+    decided_date: '2026-09-12'
+    review_reference: 'scripts/c11_review_verdicts.yaml (session 44, row E-29)'
+    reasons:
+    - 'Do not promote REMEDIATED_BY -> CONSERVATION-MASS merely because conservation of mass is conceptually relevant.'
+    - 'The source evidence does not explicitly establish that remediation relationship strongly enough.'
+    note: 'Operator HOLD (session 44, 2026-09-12), settling the session-41 PENDING medium-confidence presentation (the tip corrective argument is substance-identity, not conservation; CON-CONSERVATION-MASS was the best available in-slice approximation). The edge stays SUGGESTED in the graph and is NOT eligible for promotion. Block updated from PENDING to HOLD session 45 via the sanctioned §7 re-authoring pathway.'
 - source: 4CH1-MIS-CONC-UNIT
   relation: WRONG_ANSWER_PATTERN
   target: 4CH1-CON-CONC-CALC

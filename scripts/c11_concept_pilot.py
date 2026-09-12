@@ -107,7 +107,8 @@ DERIVATION_CAPS = {
 GUIDE_CLASSES = {"KNOW_TERM", "EXPLAIN_HOW", "CALCULATE", "DESCRIBE_EXPERIMENT",
                  "REPRESENT_DIAGRAM", "UNDERSTAND_RELATION", "PRODUCE_EQUATION"}
 STATES = {"SUGGESTED", "REVIEW_REQUIRED"}
-NODE_KEYS = ["code", "family", "pattern_class", "title", "aliases", "spec_points",
+NODE_KEYS = ["code", "family", "pattern_class", "title", "aliases",
+             "retrieval_only_aliases", "spec_points",
              "evidence", "remediation_evidence", "provenance", "confidence",
              "validation_status", "version", "created_at", "damage_flags"]
 NODE_MANDATORY = ["code", "family", "title", "aliases", "provenance", "confidence",
@@ -264,6 +265,21 @@ for n in nodes:
                f"(generation may emit SUGGESTED/REVIEW_REQUIRED only)")
     if n.get("confidence") not in BANDS:
         G.fail(f"G01 {where}: confidence {n.get('confidence')!r} not in {sorted(BANDS)}")
+    # G14 dual-track alias discipline (operator alias policy RETRIEVAL_EXEMPT,
+    # session 44, applied session 45): retrieval_only_aliases is the marked
+    # unevidenced track — a term may sit on exactly one track, never both,
+    # and never as corpus-evidenced terminology.
+    ro = n.get("retrieval_only_aliases")
+    if ro is not None:
+        if not isinstance(ro, list) or not all(
+                isinstance(a, str) and a.strip() for a in ro):
+            G.fail(f"G14 {where}: retrieval_only_aliases must be a list of "
+                   f"non-empty strings")
+        overlap = {str(a).casefold() for a in ro} \
+            & {str(a).casefold() for a in (n.get("aliases") or [])}
+        if overlap:
+            G.fail(f"G14 {where}: dual-track violation — {sorted(overlap)} "
+                   f"present in BOTH aliases and retrieval_only_aliases")
     if n.get("version") != 1 or n.get("created_at") != dec["meta"]["generated_date"]:
         G.fail(f"G01 {where}: version/created_at must be 1/{dec['meta']['generated_date']!r} "
                f"(determinism)")

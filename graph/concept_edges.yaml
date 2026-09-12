@@ -47,6 +47,9 @@ meta:
     requires_prerequisite_edges: 25
     wrong_answer_pattern_edges: 1
     review_required_edges: 1
+    promoted_edges: 28
+    human_validated_edges: 28
+  promotion_record: scripts/c11_promotions.yaml
 edges:
 - source: 4CH1-CON-AR
   relation: PART_OF
@@ -909,7 +912,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-CONC-CALC
@@ -931,7 +936,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11); PMT CFEC2 MS Q4(a)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-EMP-MOL-CALC
@@ -952,7 +959,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-EMP-MOL-CALC
@@ -973,7 +982,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.32 + 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-EMP-MOL-CALC
@@ -994,7 +1005,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-EXP-FORMULA-DEDUCTION
@@ -1016,7 +1029,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.31 @ Simple compound formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-GAS-VOL-CALC
@@ -1062,7 +1077,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-GAS-VOL-CALC
@@ -1084,7 +1101,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLAR-GAS-VOL
@@ -1106,7 +1125,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLAR-MASS
@@ -1127,7 +1148,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLAR-MASS
@@ -1148,7 +1171,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLAR-MASS
@@ -1169,7 +1194,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLE-MASS-CONV
@@ -1190,7 +1217,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLECULAR-FORMULA
@@ -1212,7 +1241,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.32 + 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLECULAR-FORMULA
@@ -1233,7 +1264,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MR
@@ -1255,7 +1288,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-PERCENT-YIELD
@@ -1276,7 +1311,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-PERCENT-YIELD
@@ -1298,7 +1335,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-REACTING-MASS
@@ -1340,7 +1379,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.29 @ Reacting mass calculations (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-REACTING-MASS
@@ -1361,7 +1402,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.29 @ Reacting mass calculations (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-THEOR-YIELD
@@ -1383,7 +1426,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-WATER-CRYST
@@ -1406,7 +1451,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.31 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-PR-03
@@ -1429,7 +1476,9 @@ edges:
       node 4CH1-PR-03 (T-C09 RULE_DERIVED)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-EQ-SYMBOL
@@ -1452,7 +1501,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-CON-MOLAR-GAS-VOL
@@ -1498,7 +1549,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-MIS-EQ-SUBSCRIPT
@@ -1521,7 +1574,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.25 @ Writing chemical equations (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-MIS-CONC-UNIT
@@ -1543,7 +1598,9 @@ edges:
       scripts/c11_evidence/CFEC2_MS_P1.txt sha1 6c63a9e02b71)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-MIS-CONC-UNIT
@@ -1564,7 +1621,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-12'
   version: 1
   created_at: '2026-09-11'
 - source: 4CH1-MIS-EQ-SUBSCRIPT

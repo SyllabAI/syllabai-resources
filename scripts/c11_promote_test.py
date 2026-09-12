@@ -6,7 +6,11 @@ identity promotion mechanism (architecture §18).
 Runs in a throwaway SANDBOX copy of the repository (scripts + graph + notes
 tree minus assets; ~2 MB): the sandbox's c11_promote.py, c11_concept_pilot.py
 and graph_check.py operate on sandbox-local files, so the live store is never
-touched and the live repo keeps ZERO promotions.
+touched. Session-45 note: the LIVE store now carries the 28 operator §18
+promotions (the session-44 CONFIRM verdicts, applied 2026-09-12); this suite
+tests the mechanism on a sandbox reset to the PRE-promotion pristine state
+(restore() drops the sandbox promotions file and regenerates), which is the
+state every case below was designed against.
 
 Positive (the mechanism works, minimum contract):
   T01 promote one exact SUGGESTED edge -> promotions entry; generator green;
@@ -102,7 +106,16 @@ def make_sandbox(root: Path) -> Path:
 
 
 def restore(sb: Path):
-    """Reset the mutable files to pristine (after a test mutated the sandbox)."""
+    """Reset the mutable files to pristine (after a test mutated the sandbox).
+
+    Session-45: the live graph now carries 28 §18 promotions; simply copying
+    it while dropping the promotions file would leave the sandbox in an
+    INCONSISTENT state (graph HV with no store). The tests are designed
+    against the PRE-promotion pristine state, so after resetting the files we
+    re-run the sandbox generator with an empty store: the graph returns to
+    the frozen pilot snapshot (semantic edges SUGGESTED/REVIEW_REQUIRED),
+    concepts.yaml + spec_command_kinds.yaml regenerate byte-identically.
+    """
     shutil.copy2(LIVE_SCRIPTS / "c11_pilot_decisions.yaml",
                  sb / "scripts" / "c11_pilot_decisions.yaml")
     prom = sb / "scripts" / "c11_promotions.yaml"
@@ -110,6 +123,7 @@ def restore(sb: Path):
         prom.unlink()
     for fn in C11_FILES:
         shutil.copy2(LIVE_GRAPH / fn, sb / "graph" / fn)
+    gen(sb)
 
 
 def run(sb: Path, script: str, *args: str):
@@ -295,22 +309,24 @@ def main2():
         for name, entries, expect in forged:
             restore(sb)
             _write_promotions(sb, entries)
+            pre = (sb / "graph" / "concept_edges.yaml").read_bytes()
             g = gen(sb)
             # the generator must fail closed AND leave the graph untouched
+            # (byte-equal to its pre-attempt state — session-45: no longer
+            # the LIVE file, which now carries the 28 real promotions)
             ok(name, g.returncode != 0 and expect in g.stderr
-               and (sb / "graph" / "concept_edges.yaml").read_bytes()
-               == (LIVE_GRAPH / "concept_edges.yaml").read_bytes(),
+               and (sb / "graph" / "concept_edges.yaml").read_bytes() == pre,
                f"rc={g.returncode} err={g.stderr[:250]}")
 
         # T20: forged promotion of the OPERATOR-REJECTED identity — G13 must
         # fail closed with the rejected-candidate diagnosis (permanence guard)
         restore(sb)
         _write_promotions(sb, _forge(EDGE_REJ))
+        pre = (sb / "graph" / "concept_edges.yaml").read_bytes()
         g = gen(sb)
         ok("T20 forged promotion of the operator-rejected identity fails closed",
            g.returncode != 0 and "HELD-13" in g.stderr
-           and (sb / "graph" / "concept_edges.yaml").read_bytes()
-           == (LIVE_GRAPH / "concept_edges.yaml").read_bytes(),
+           and (sb / "graph" / "concept_edges.yaml").read_bytes() == pre,
            f"rc={g.returncode} err={g.stderr[:250]}")
 
         # T14: forged HUMAN_VALIDATED in the graph (no promotion record)

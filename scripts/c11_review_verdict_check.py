@@ -7,7 +7,9 @@ Fail-closed gate for the verdict layer. Validates:
   A. schema: required sections, exact row surfaces (OD-1/OD-2; E-01..E-31;
      N-01..N-29), vocabulary conformance, decided_by/decided_date on OD rows;
   B. reconciliation against the live store: the 31 edge triples are exactly
-     the 31 SUGGESTED semantic edges (no drift, no invented ID); the 29 node
+     the 31 pre-promotion SUGGESTED semantic edges, realized since session 45
+     as 28 HUMAN_VALIDATED (the CONFIRM verdicts, promoted via §18) + 3
+     SUGGESTED (the operator HOLDs) — no drift, no invented ID; the 29 node
      codes are exactly the store's codes; the RR edge (operator HOLD,
      session 41) is NOT a verdict row; the 13 held entries are 11 HOLD +
      2 REJECT (HELD-09 / HELD-13);
@@ -16,8 +18,11 @@ Fail-closed gate for the verdict layer. Validates:
      enrichment notes exactly on N-08 and N-27; alias policy RETRIEVAL_EXEMPT
      with the four-rule discipline; 'maximum yield' = KEEP marked
      retrieval-only/unevidenced; held appendix acknowledged;
-  D. zero-action invariants: promotion store empty; 0 HUMAN_VALIDATED; the
-     RR edge still REVIEW_REQUIRED with its operator HOLD block intact;
+  D. application invariants (session 45): the promotion store carries
+     EXACTLY the 28 CONFIRM entries (operator, 2026-09-12, ratified bundle
+     present) and nothing else; the live HUMAN_VALIDATED set equals the
+     CONFIRM set; the RR edge still REVIEW_REQUIRED with its operator HOLD
+     block intact;
   E. evidence integrity behind the note-carrying rows (E-08/E-26/E-29,
      N-08/N-27): every evidence quote re-byte-verified against the corpus
      under the T-C10 norm — verdicts must not rest on reinterpreted quotes.
@@ -147,19 +152,21 @@ suggested = [e for e in semantic if e["validation_status"] == "SUGGESTED"]
 rr = [e for e in semantic if e["validation_status"] == "REVIEW_REQUIRED"]
 hv = [e for e in semantic if e["validation_status"] == "HUMAN_VALIDATED"]
 tmpl_triples = [r["triple"] for r in ev]
-graph_triples = [triple(e) for e in suggested]
+graph_triples = [triple(e) for e in suggested + hv]  # session-45: the 31-row surface is now HV(28)+SUGGESTED(3)
+confirms = {r["triple"] for r in ev if r["verdict"] == "CONFIRM"}
 
 check("B1 store frozen: 65 edges (33 PART_OF + 32 semantic)",
       len(edges_doc["edges"]) == 65 and len(semantic) == 32
       and sum(1 for e in edges_doc["edges"] if e["relation"] == "PART_OF") == 33)
-check("B2 verdict surface = the 31 SUGGESTED semantic edges, exactly",
+check("B2 verdict surface = the applied surface exactly: 28 HUMAN_VALIDATED (CONFIRM, promoted session 45) + 3 SUGGESTED (operator HOLDs)",
       sorted(tmpl_triples) == sorted(graph_triples)
-      and len(set(tmpl_triples)) == 31 and len(suggested) == 31)
+      and len(set(tmpl_triples)) == 31 and len(suggested) == 3 and len(hv) == 28)
 check("B3 no PART_OF row on the verdict surface (derived edges carry no verdicts)",
       not any(" PART_OF " in t for t in tmpl_triples))
 check("B4 RR edge excluded from the surface and still exactly the operator-HOLD edge",
       RR_TRIPLE not in tmpl_triples and len(rr) == 1 and triple(rr[0]) == RR_TRIPLE)
-check("B5 0 HUMAN_VALIDATED in the store", len(hv) == 0)
+check("B5 28 HUMAN_VALIDATED in the store = exactly the 28 CONFIRM verdicts (session-45 §18 application)",
+      len(hv) == 28 and {triple(e) for e in hv} == confirms)
 
 node_codes = [n["code"] for n in nodes_doc["nodes"]]
 check("B6 verdict node codes = the store's 29 codes, exactly",
@@ -225,10 +232,19 @@ check("C11 held appendix acknowledged",
       vd["held_appendix"].get("acknowledged") is True)
 
 # ---------------------------------------------------------------------------
-# D. zero-action invariants
-# ---------------------------------------------------------------------------
-check("D1 live promotion store empty (0 entries)",
-      not promo.get("promotions"), f"entries={len(promo.get('promotions', []))}")
+# D. application invariants (session 45: the 28 CONFIRM edges were promoted
+#    through the §18 pathway; everything else must have stayed out)
+promo_entries = promo.get("promotions") or []
+check("D1 promotion store = exactly the 28 CONFIRM entries (operator, 2026-09-12, ratified artifact on disk)",
+      len(promo_entries) == 28
+      and {f"{p['edge']['source']} {p['edge']['relation']} {p['edge']['target']}"
+           for p in promo_entries} == confirms
+      and all(p.get("validated_by") == "operator"
+              and p.get("validated_date") == "2026-09-12"
+              and bool(p.get("review_reference"))
+              and (REPO / str(p["review_reference"]).split()[0]).exists()
+              for p in promo_entries),
+      f"entries={len(promo_entries)}")
 rr_dec = next(e for e in dec["edges"] if triple(e) == RR_TRIPLE)
 check("D2 RR edge keeps its standing operator HOLD in the decision record",
       rr_dec.get("operator_decision", {}).get("verdict") == "HOLD")
@@ -275,5 +291,6 @@ if fails:
     sys.exit(1)
 print("c11_review_verdict_check: ALL PASS — operator verdict layer "
       "(31+29 rows, 2 OD ratifications, alias policy + disposition, held "
-      "appendix) schema-valid, store-reconciled, shape-exact, zero-action, "
+      "appendix) schema-valid, store-reconciled, shape-exact, "
+      "application-reconciled (28 §18 promotions = the CONFIRM set), "
       "evidence-verified.")
