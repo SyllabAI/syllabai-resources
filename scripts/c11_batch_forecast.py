@@ -293,8 +293,12 @@ out = {
                    "zero RR authored; 7 identity decisions KEEP_AS_IS; "
                    "14 held preserved — clean quarantine; verdict record "
                    "scripts/c11_batch3_verdicts.yaml); batch 4 (S3 "
-                   "Physical) COMMISSIONED, not yet authored; batches "
-                   "5-14 not started"),
+                   "Physical) COMMISSIONED + STARTED session 52 (the "
+                   "cross-slice boundary ruling recorded + machine-checked; "
+                   "the S3 Paper-2 MS set pinned: ENERGETICS/RATES/RRE_MS_P2 "
+                   "— all three families covered, zero unpinned Paper-2 "
+                   "family; authoring to the operator gate is the next "
+                   "session's extraction); batches 5-14 not started"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,

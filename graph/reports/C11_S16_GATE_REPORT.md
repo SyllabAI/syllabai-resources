@@ -560,3 +560,29 @@ before phase 2 (S3).)
 > T-C11 no longer gates the broader SyllabAI development — phase 2 /
 > learner-facing KG behavior / misconception-aware recommendations / pilot
 > readiness proceed per the operator's exit directive.)
+> **Session-52 addendum (2026-09-13): batch 4 COMMISSIONED + STARTED — the
+> cross-slice boundary ruling recorded.** Per the operator's directive
+> ("Batch 4 = Section 3 — Physical Chemistry. Use the established
+> machinery." + "Resolve only the boundary decisions necessary to prevent
+> duplicate or conflicting concepts between the completed Section 1 graph
+> and Section 3. Do not turn this into another large ontology exercise."):
+> `scripts/c11_batch4_boundary_ruling.yaml` records the scoped ruling —
+> the machine-verified conflict audit (the S3 candidate term vocabulary
+> vs the whole merged S1 store: ZERO canonical conflicts), the mint
+> discipline for S3's new families, the 5 sanctioned boundary-edge targets
+> (CON-MOLE, CON-COVALENT-BOND, CON-CONCENTRATION, CON-EQ-SYMBOL,
+> CON-WATER-CRYST — ownership exact, boundary MINTING forbidden), and the
+> explicit non-goals (no ontology redesign, no re-scope, no promotion
+> authority). Standing checker `scripts/c11_batch4_boundary_check.py` ALL
+> PASS (the zero-conflict audit re-runs on the live store; targets exist
+> with exact ownership; the ruling mints nothing). The S3 Paper-2 mark
+> schemes are pinned (`scripts/c11_ms_pin_batch4.py` →
+> ENERGETICS_MS_P2.txt 6 pp / RATES_MS_P2.txt 2 pp / RRE_MS_P2.txt 3 pp —
+> all three S3 families have Paper-2 MS, so unlike batches 1-3 no family
+> is left without MS coverage; the pins carry Reject/Ignore
+> misconception-evidence classes). Evidence base inventoried: 15 T-C10
+> HUMAN_VALIDATED-mapped notes covering all 22 S3 SPs (energetics 6,
+> rates 6, equilibria 3). The batch-4 authoring (extraction_pass
+> c11-s16-batch-4 → decision record → registry extension → pass-2 → the
+> operator gate) is the NEXT session's commission, with this ruling as its
+> standing boundary constraint.
