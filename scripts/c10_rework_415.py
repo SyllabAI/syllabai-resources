@@ -32,6 +32,7 @@ compact mapping objects, trailing newline).
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -97,7 +98,11 @@ def main() -> int:
         nox.sort(key=lambda m: float(m["code"].split("-")[1].rstrip("C")))
         changed.append(f"added 4CH1-4.15 to NOx note ({len(nox)} mappings)")
 
-    S4.write_text(dump_decisions(data), encoding="utf-8")
+    _text = dump_decisions(data)
+    json.loads(_text)  # fail-closed: never replace a decisions file with unreadable output
+    _tmp = S4.with_suffix(".json.tmp")
+    _tmp.write_text(_text, encoding="utf-8")
+    os.replace(_tmp, S4)  # atomic write
     for c in changed:
         print("-", c)
     print("S4.json updated:", S4)

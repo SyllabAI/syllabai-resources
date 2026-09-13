@@ -167,7 +167,7 @@ for e in sorted(edges, key=ekey):
     tpl.append(f"  triple: {k}")
     tpl.append(f"  pretriage: {'FLAGGED' if flag else 'LIKELY_SAFE'}")
     tpl.append("  verdict:")
-    tpl.append(f"  notes: '{flag}'")
+    tpl.append(f"  notes: '{flag.replace("'", "''")}'")
 tpl.append("rr_settlement:")
 tpl.append("- id: B1-RR-01")
 tpl.append("  triple: 4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE 4CH1-CON-SOLUTION")
@@ -192,7 +192,7 @@ for n in sorted(nodes, key=lambda x: x["code"]):
     tpl.append(f"  code: {n['code']}")
     tpl.append(f"  pretriage: {'FLAGGED' if flag else 'LIKELY_SAFE'}")
     tpl.append("  verdict:")
-    tpl.append(f"  notes: '{flag}'")
+    tpl.append(f"  notes: '{flag.replace("'", "''")}'")
 i = 0
 for n in sorted(nodes, key=lambda x: x["code"]):
     if n["family"] != "MISCONCEPTION":
@@ -229,6 +229,17 @@ if (HERE / "c11_batch1_verdicts.yaml").exists():
 else:
     (HERE / "c11_batch1_verdicts_template.yaml").write_text(
         "\n".join(tpl) + "\n", encoding="utf-8")
+    # session-54 backport (from the batch-4 fix): fail-closed post-write
+    # parseability check — a template the operator cannot load must never
+    # ship silently (the raw-apostrophe notes class of defect).
+    _tpl_doc = yaml.safe_load(
+        (HERE / "c11_batch1_verdicts_template.yaml")
+        .read_text(encoding="utf-8"))
+    assert _tpl_doc is not None and "edge_verdicts" in _tpl_doc
+    assert len(_tpl_doc["edge_verdicts"]) == 28
+    assert len(_tpl_doc["rr_settlement"]) == 1
+    assert len(_tpl_doc["node_verdicts"]) == 24
+    assert len(_tpl_doc["identity_decisions"]) == 4
 
 # --- review sheet --------------------------------------------------------------
 L = []

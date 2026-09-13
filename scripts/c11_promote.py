@@ -43,6 +43,7 @@ from __future__ import annotations
 
 import argparse
 import datetime
+import os
 import re
 import subprocess
 import sys
@@ -252,12 +253,15 @@ def main() -> int:
             "tool": "scripts/c11_promote.py",
             "generated_date": meta.get("generated_date") or args.date,
         })
-        PROMOTIONS.write_text(
+        promo_text = (
             "# T-C11 promotion record — operator ratifications of exact edge "
             "identities.\n# Written ONLY by scripts/c11_promote.py; see "
             "graph/reports/C11_ARCHITECTURE.md §18. Hand-editing is forbidden.\n"
-            + yaml.safe_dump(promo, allow_unicode=True, sort_keys=False, width=100),
-            encoding="utf-8")
+            + yaml.safe_dump(promo, allow_unicode=True, sort_keys=False, width=100))
+        yaml.safe_load(promo_text)  # fail-closed: parse before replacing the record
+        _tmp = PROMOTIONS.with_suffix(".yaml.tmp")
+        _tmp.write_text(promo_text, encoding="utf-8")
+        os.replace(_tmp, PROMOTIONS)  # atomic: no truncated promotion record on crash
         print(f"promotions recorded: {PROMOTIONS.name}")
         for m in promoted:
             print("PROMOTED", m)

@@ -42,6 +42,7 @@ Usage: python3 scripts/c10_round5_batch.py
 from __future__ import annotations
 
 import json
+import os
 import shlex
 import sys
 from pathlib import Path
@@ -197,7 +198,9 @@ The round-5 exhaustive review (`graph/reports/C10_ROUND5_REVIEW.json` + `PHASE2_
         body = head.rstrip("\n") + "\n" + section.rstrip("\n") + tail
     else:
         body = body + "\n" + section.rstrip("\n") + "\n"
-    SHEET.write_text(body + "\n", encoding="utf-8")
+    _tmp = SHEET.with_suffix(".md.tmp")
+    _tmp.write_text(body + "\n", encoding="utf-8")
+    os.replace(_tmp, SHEET)  # atomic write: no partial review sheet on crash
 
     print(f"staged §13: 150 specs ({n_bare} bare / {n_frag} fragment), "
           f"--by {BY} --date {DATE}")

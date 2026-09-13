@@ -24,6 +24,7 @@ c10_rework_415.py / c10_promote.py.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -120,7 +121,11 @@ def main() -> int:
         # hard invariants: only the rationale may change
         assert mapping["evidence"] == old_ev and mapping["confidence"] == old_conf
         assert "validation" not in mapping
-        path.write_text(dump_decisions(data), encoding="utf-8")
+        _text = dump_decisions(data)
+        json.loads(_text)  # fail-closed: never replace a decisions file with unreadable output
+        _tmp = path.with_suffix(path.suffix + ".tmp")
+        _tmp.write_text(_text, encoding="utf-8")
+        os.replace(_tmp, path)  # atomic write
         print(f"- {code} @ {note_key.split('/')[-1][:60]}: rationale reworked "
               f"({len(old_conf)} -> conf unchanged, evidence unchanged)")
         changed_any = True

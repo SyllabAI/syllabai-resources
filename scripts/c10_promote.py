@@ -35,6 +35,7 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import os
 import re
 import subprocess
 import sys
@@ -61,6 +62,15 @@ def dump_decisions(data: dict) -> str:
         out.append("  }" + ("," if i < len(keys) - 1 else ""))
     out.append("}")
     return "\n".join(out) + "\n"
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    """Write via same-dir temp file + os.replace: a crash mid-write can never
+    leave a truncated decisions record behind (fail-closed charter applies to
+    our own writes too)."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
 
 
 def load_all() -> dict:
@@ -157,7 +167,9 @@ def main() -> int:
     for f in sorted(changed_files):
         data = next(d["file_data"] for d in decisions.values()
                     if d["file"] == f)
-        f.write_text(dump_decisions(data), encoding="utf-8")
+        text = dump_decisions(data)
+        json.loads(text)  # fail-closed: never replace a decisions file with unreadable output
+        atomic_write_text(f, text)
         print("decisions updated:", f.name)
     print("next: front matter carries the promotion after the gated applier "
           "re-run (G7 validates every validation block)")
