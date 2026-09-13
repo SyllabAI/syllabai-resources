@@ -293,6 +293,15 @@ VERDICTS.write_text(
 # ---------------------------------------------------------------------------
 # Post-write verification (re-parse + counts)
 # ---------------------------------------------------------------------------
+
+def _require(cond: bool, msg: str) -> None:
+    """Fail-closed gate that survives `python -O` (assert is stripped
+    under -O, which would turn this gate fail-open — MD-33)."""
+    if not cond:
+        raise RuntimeError(msg)
+# ---------------------------------------------------------------------------
+# Post-write verification (re-parse + counts)
+# ---------------------------------------------------------------------------
 chk = yaml.safe_load(VERDICTS.read_text(encoding="utf-8"))
 ec = {}
 for r in chk["edge_verdicts"]:
@@ -301,14 +310,21 @@ nc = {}
 for r in chk["node_verdicts"]:
     nc[r["verdict"]] = nc.get(r["verdict"], 0) + 1
 
-assert [r["verdict"] for r in chk["od_ratifications"]] == ["RATIFY", "RATIFY"]
-assert ec == {"CONFIRM": 28, "HOLD": 3}, ec
-assert nc == {"CONFIRM": 29}, nc
-assert chk["alias_policy"]["verdict"] == "RETRIEVAL_EXEMPT"
-assert chk["alias_dispositions"][0]["disposition"] == "KEEP"
-assert chk["held_appendix"]["acknowledged"] is True
+_require([r["verdict"] for r in chk["od_ratifications"]] == ["RATIFY", "RATIFY"],
+         "post-write: OD ratifications drifted")
+_require(ec == {"CONFIRM": 28, "HOLD": 3},
+         f"post-write: edge verdict counts drifted: {ec}")
+_require(nc == {"CONFIRM": 29},
+         f"post-write: node verdict counts drifted: {nc}")
+_require(chk["alias_policy"]["verdict"] == "RETRIEVAL_EXEMPT",
+         "post-write: alias_policy verdict drifted")
+_require(chk["alias_dispositions"][0]["disposition"] == "KEEP",
+         "post-write: alias disposition drifted")
+_require(chk["held_appendix"]["acknowledged"] is True,
+         "post-write: held appendix acknowledgment missing")
 hold_ids = [r["id"] for r in chk["edge_verdicts"] if r["verdict"] == "HOLD"]
-assert hold_ids == ["E-08", "E-26", "E-29"], hold_ids
+_require(hold_ids == ["E-08", "E-26", "E-29"],
+         f"post-write: HOLD ids drifted: {hold_ids}")
 
 print("wrote", VERDICTS)
 print("OD ratifications: OD-1 RATIFY, OD-2 RATIFY (decided_by operator, "

@@ -159,8 +159,11 @@ def main() -> int:
         die("--review-ref must name the review artifact that ratified the edge")
 
     edges, held = [], []
+    edge_source = {}   # authored-edge identity -> decision record it came from
     for name in DECISION_FILES:
         d = load_yaml(HERE / name)
+        for _e in (d.get("edges") or []):
+            edge_source[(_e["source"], _e["relation"], _e["target"])] = name
         edges.extend(d.get("edges") or [])
         held.extend(d.get("held") or [])
 
@@ -249,7 +252,11 @@ def main() -> int:
         meta.update({
             "task": "T-C11", "stage": "pilot-promotion",
             "contract": "graph/reports/C11_ARCHITECTURE.md §18",
-            "decision_record": "scripts/c11_pilot_decisions.yaml",
+            # provenance: the decision record(s) the promoted edges actually
+            # came from (pilot + batch1-4 all feed DECISION_FILES) — MD-34
+            "decision_record": ", ".join(sorted(
+                {f"scripts/{edge_source[tuple(p.split())]}" for p in promoted}
+                | {r.strip() for r in str(meta.get("decision_record") or "").split(",") if r.strip()})),
             "tool": "scripts/c11_promote.py",
             "generated_date": meta.get("generated_date") or args.date,
         })

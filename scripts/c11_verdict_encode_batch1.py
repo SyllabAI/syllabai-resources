@@ -296,6 +296,15 @@ TEMPLATE.unlink()  # the sheet's gate pathway: fill + RENAME
 # ---------------------------------------------------------------------------
 # Post-write verification (re-parse + counts)
 # ---------------------------------------------------------------------------
+
+def _require(cond: bool, msg: str) -> None:
+    """Fail-closed gate that survives `python -O` (assert is stripped
+    under -O, which would turn this gate fail-open — MD-33)."""
+    if not cond:
+        raise RuntimeError(msg)
+# ---------------------------------------------------------------------------
+# Post-write verification (re-parse + counts)
+# ---------------------------------------------------------------------------
 chk = yaml.safe_load(VERDICTS.read_text(encoding="utf-8"))
 ec = {}
 for r in chk["edge_verdicts"]:
@@ -304,14 +313,20 @@ nc = {}
 for r in chk["node_verdicts"]:
     nc[r["verdict"]] = nc.get(r["verdict"], 0) + 1
 
-assert ec == {"CONFIRM": 28}, ec
-assert nc == {"CONFIRM": 24}, nc
-assert [r["verdict"] for r in chk["identity_decisions"]] == \
-    ["KEEP_AS_IS"] * 4
-assert chk["rr_settlement"][0]["verdict"] == "HOLD_REVIEW_REQUIRED"
-assert chk["held_appendix_acknowledgment"]["acknowledged"] is True
-assert chk["meta"]["operator_ruling"]["statement"] == OPERATOR_STATEMENT
-assert not TEMPLATE.exists()
+_require(ec == {"CONFIRM": 28},
+         f"post-write: edge verdict counts drifted: {ec}")
+_require(nc == {"CONFIRM": 24},
+         f"post-write: node verdict counts drifted: {nc}")
+_require([r["verdict"] for r in chk["identity_decisions"]] == ["KEEP_AS_IS"] * 4,
+         "post-write: identity decisions drifted")
+_require(chk["rr_settlement"][0]["verdict"] == "HOLD_REVIEW_REQUIRED",
+         "post-write: rr settlement verdict drifted")
+_require(chk["held_appendix_acknowledgment"]["acknowledged"] is True,
+         "post-write: held appendix acknowledgment missing")
+_require(chk["meta"]["operator_ruling"]["statement"] == OPERATOR_STATEMENT,
+         "post-write: operator ruling text drifted")
+_require(not TEMPLATE.exists(),
+         "post-write: verdict template was not consumed")
 
 print("wrote", VERDICTS)
 print(f"operator ruling (verbatim): {OPERATOR_STATEMENT!r} "

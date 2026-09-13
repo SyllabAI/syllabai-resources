@@ -32,6 +32,12 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 REPORTS = REPO / "graph" / "reports"
 
+def _require(cond: bool, msg: str) -> None:
+    """Fail-closed gate that survives `python -O` (assert is stripped
+    under -O, which would turn this gate fail-open — MD-33)."""
+    if not cond:
+        raise RuntimeError(msg)
+
 dec = yaml.safe_load((HERE / "c11_batch2_decisions.yaml").read_text(encoding="utf-8"))
 p2 = yaml.safe_load((HERE / "c11_batch2_review_pass2.yaml").read_text(encoding="utf-8"))
 
@@ -234,10 +240,14 @@ else:
     _tpl_doc = yaml.safe_load(
         (HERE / "c11_batch2_verdicts_template.yaml")
         .read_text(encoding="utf-8"))
-    assert _tpl_doc is not None and "edge_verdicts" in _tpl_doc
-    assert len(_tpl_doc["edge_verdicts"]) == 23
-    assert len(_tpl_doc["node_verdicts"]) == 14
-    assert len(_tpl_doc["identity_decisions"]) == 4
+    _require(_tpl_doc is not None and "edge_verdicts" in _tpl_doc,
+             "post-write: written template is unparseable or missing edge_verdicts")
+    _require(len(_tpl_doc["edge_verdicts"]) == 23,
+             "post-write: written template edge_verdicts count drifted")
+    _require(len(_tpl_doc["node_verdicts"]) == 14,
+             "post-write: written template node_verdicts count drifted")
+    _require(len(_tpl_doc["identity_decisions"]) == 4,
+             "post-write: written template identity_decisions count drifted")
 
 # --- review sheet --------------------------------------------------------------
 L = []
