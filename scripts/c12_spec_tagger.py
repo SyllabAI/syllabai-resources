@@ -555,7 +555,7 @@ def _finalize(records, raw_trace, reg, args, model_label, pass_id) -> dict:
             "generated_date": args.date,
             "model_version": model_label,
             "high_confidence_threshold": args.threshold,
-            "source_questions": str(Path(args.questions).resolve()),
+            "source_questions": source_questions_ref(Path(args.questions)),
             "registries": {"spec_points": len(reg["points"]),
                            "command_words": len(reg["command_words"]),
                            "graph_dir": str(reg["graph_dir"])},
@@ -574,6 +574,14 @@ def _demote_or_keep(rec, errs):
         rec.validation_status = "REVIEW_REQUIRED"
         rec.ambiguity_note = ("registry validation: %s" % "; ".join(errs))[:400]
     return rec
+
+
+def source_questions_ref(p: Path) -> str:
+    """Repo-relative when possible (portable across machines/CI); absolute otherwise."""
+    try:
+        return str(p.resolve().relative_to(REPO))
+    except ValueError:
+        return str(p.resolve())
 
 
 def _write_out(text: str, out: str | None) -> None:

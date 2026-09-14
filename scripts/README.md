@@ -214,3 +214,27 @@
   replayed and check-clean; the committed trace preserves the model's
   abstention on the physics control, a demoted non-registry command word,
   and the 4.15-style bait-taking for reviewer evidence.
+- `c12_review_render.py` — T-C12 operator review-sheet renderer (2026-09-14,
+  zero-LLM, zero-network, deterministic): turns a decisions file into the
+  human half of the §7 gate. Per record it prints the verbatim question
+  (hash-bound), the AI proposal beside the real registry wording of every
+  proposed point (incl. C-point paper applicability), the deterministic
+  prefilter view, and computed checkpoints (registry membership, threshold,
+  demotion status). `graph/reports/C12_SMOKE_REVIEW_SHEET.md` is the
+  rendered sheet for the demo pass.
+- `c12_promote.py` — T-C12 operator-only promotion (the §7 review gate,
+  c11_promote pattern; the ONLY writer of `c12_promotions.yaml`).
+  `promote --verdicts FILE --by <operator>` records accept / amend /
+  accept-exclusion / reject rulings: the AI decisions file is never
+  touched; accept requires a clean SUGGESTED record (or an abstention WITH
+  an exclusion note); amend re-validates the operator mapping against the
+  full registry set and must differ from the AI suggestion; rejections are
+  recorded, never dropped; text-hash binding re-verifies every question;
+  AI self-attribution is refused; re-runs are idempotent and conflicting
+  re-verdicts are refused. `check` re-validates the promotions record
+  standalone (CI gate). Negative-tested by `c12_review_test.py` (22
+  checks, sandboxed).
+- `c12_review_test.py` — T-C12 tests for the review gate: 7 positive +
+  15 negative sandbox cases (attribution, unknown ids, demoted-accept
+  block, exclusion-note requirement, registry gates on amendments,
+  hash binding, idempotence, forged promotions records).

@@ -18,3 +18,12 @@ review gate downstream (C11_ARCHITECTURE.md §7).
   the bait on the 4CH1-4.15-style premise+consequence negative control —
   exactly the failure mode the operator review queue exists to catch.
   `check` passes on this file; CI re-checks it as a positive control.
+
+## Promotion path (what happens after review)
+
+These files are INPUTS to operator review, never its output. The review
+flow lives in `graph/reports/C12_SMOKE_REVIEW_SHEET.md` (rendered by
+`scripts/c12_review_render.py`) and rulings are recorded by
+`scripts/c12_promote.py` into `scripts/c12_promotions.yaml` — the only
+place HUMAN_VALIDATED question mappings may exist. This directory is never
+modified after a pass lands.
