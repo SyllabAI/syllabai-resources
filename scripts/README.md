@@ -186,3 +186,23 @@
   note, else `CODE@FRAGMENT` via the stem -> parent/stem -> full-path
   ladder; §12 ∩ §13 = ∅ and §12 ∪ §13 = the whole store:
   `python3 scripts/c10_round5_batch.py`
+- `c12_spec_tagger.py` — T-C12 (2026-09-14): hybrid question<->spec-point
+  tagger (Gemini improvement #5, approved backlog). Three stages:
+  `prefilter` (deterministic, zero-LLM, zero-network: IDF token overlap
+  ranks top-K registry candidates per question unit, marks sub-anchor
+  candidate sets `weak`), `verify` (scripted GLM structured-output pass,
+  needs ZAI_API_KEY; strict Pydantic schema revalidated against the SP and
+  command-word registries) and `check` (the §7 machine rules: generation
+  emits SUGGESTED/REVIEW_REQUIRED only, HUMAN_VALIDATED is an anti-forgery
+  hard-fail, unmatched questions land in the manual-review queue with an
+  ambiguity note — coverage is never manufactured). Input: generic
+  questions JSON, or `from-paper` to convert a syllabai-parser atomizer
+  `paper.json` (one unit per part via its self-contained `renderedPrompt`).
+  The REAL June-2025 WPH11 physics question is the committed
+  out-of-curriculum abstention control. Offline negative-tested (14
+  corruption classes): `python3 scripts/c12_negative_test.py`
+- `c12_fixtures/` — T-C12 smoke fixtures: `smoke_questions.json`
+  (chemistry units anchored on real registry wordings + physics
+  abstention control + the documented 4CH1-4.15-style premise+consequence
+  negative control) and `sample_paper.json` (synthetic atomizer-shape
+  paper for the adapter tests).

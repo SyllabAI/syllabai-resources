@@ -1,0 +1,35 @@
+{
+  "_comment": "T-C12 smoke fixture. Chemistry units are anchored on real 4CH1 registry wordings (c09 spec_points.yaml) and MUST hit their anchors in prefilter (weak=false, anchor codes in top-3). q-physics-newtons-cradle is the REAL June-2025 WPH11 question (out-of-curriculum) and MUST be marked weak=true (sub-anchor candidates only) and must never reach the high-confidence queue — the adversarial control for AGENT.md rule 3 (never manufacture coverage through semantic similarity). q-fuels-sulfur-negative-control is the documented 4.15-style premise+consequence aggregation (C11_ARCHITECTURE.md negative control); it may surface candidates but must never bypass the review queue.",
+  "questions": [
+    {
+      "id": "smoke-q-fractional-distillation",
+      "text": "Describe how the industrial process of fractional distillation separates crude oil into fractions, and state that crude oil is a mixture of hydrocarbons.",
+      "marks": 4,
+      "source": "c12 smoke fixture (anchored on 4CH1-4.7/4.8 wordings)"
+    },
+    {
+      "id": "smoke-q-ionic-conduction",
+      "text": "Explain why an ionic compound does not conduct electricity when solid, but does conduct electricity when molten and in aqueous solution, referring to its giant ionic lattice and high melting and boiling points.",
+      "marks": 5,
+      "source": "c12 smoke fixture (anchored on 4CH1-1.42/1.43 wordings)"
+    },
+    {
+      "id": "smoke-q-acid-rain",
+      "text": "Understand how sulfur dioxide and oxides of nitrogen contribute to acid rain. In car engines the temperature reached is high enough to allow nitrogen and oxygen from air to react, forming oxides of nitrogen.",
+      "marks": 3,
+      "source": "c12 smoke fixture (anchored on 4CH1-4.14/4.16 wordings)"
+    },
+    {
+      "id": "smoke-q-physics-newtons-cradle",
+      "text": "A 'Newton's cradle' has five identical steel spheres, A, B, C, D and E. Each sphere hangs on string. Each sphere has a radius of 7.0 x 10^-3 m. The density of steel is 8030 kg/m^3. Calculate the mass of one sphere.",
+      "marks": 3,
+      "source": "REAL June-2025 WPH11-01 Q18(a) — out-of-curriculum abstention control"
+    },
+    {
+      "id": "smoke-q-fuels-sulfur-negative-control",
+      "text": "All these fuels contain carbon, hydrogen and small quantities of sulfur. The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater. Explain how this leads to acid rain.",
+      "marks": 2,
+      "source": "4CH1-4.15-style premise+consequence aggregation — the documented negative control"
+    }
+  ]
+}

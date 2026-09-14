@@ -1,0 +1,72 @@
+{
+  "tool": "glmocr-atomize",
+  "schemaVersion": "1.0",
+  "reviewRequired": true,
+  "paper": {"code": "SYN-4CH1-P1", "title": "Synthetic sample (c12 fixture)"},
+  "totals": {"paperTotal": 7, "sumOfQuestionTotals": 7, "questionTotals": {"1": 4, "2": 3}},
+  "unmatched": {"msEntries": []},
+  "warnings": {"qp": [], "ms": [], "atomize": []},
+  "questions": [
+    {
+      "questionId": "SYN-4CH1-P1-Q1",
+      "number": 1,
+      "numberingStyle": "arabic",
+      "section": null,
+      "stem": "This question is about separating mixtures.",
+      "mcq": null,
+      "options": [],
+      "qwc": null,
+      "figures": [],
+      "tableElementIds": [],
+      "marks": 4,
+      "marksKnown": true,
+      "confidence": "high",
+      "markScheme": null,
+      "parts": [
+        {
+          "partId": "SYN-Q1-a",
+          "label": "a",
+          "msLabel": "(a)",
+          "text": "Describe how paper chromatography separates a mixture of dyes.",
+          "renderedPrompt": "This question is about separating mixtures.\n\nDescribe how paper chromatography separates a mixture of dyes.",
+          "marks": 2,
+          "qwc": null,
+          "figures": [],
+          "answerPrompts": [],
+          "confidence": "high",
+          "markScheme": {"label": "1(a)", "answerText": "...", "markPoints": [], "guidance": [], "marks": 2, "confidence": "high"}
+        },
+        {
+          "partId": "SYN-Q1-b",
+          "label": "b",
+          "msLabel": "(b)",
+          "text": "Describe how simple distillation separates pure water from salt solution.",
+          "renderedPrompt": "This question is about separating mixtures.\n\nDescribe how simple distillation separates pure water from salt solution.",
+          "marks": 2,
+          "qwc": null,
+          "figures": [],
+          "answerPrompts": [],
+          "confidence": "high",
+          "markScheme": null
+        }
+      ]
+    },
+    {
+      "questionId": "SYN-4CH1-P1-Q2",
+      "number": 2,
+      "numberingStyle": "arabic",
+      "section": null,
+      "stem": "Which particle has the same number of protons as electrons? A) atom B) anion C) cation D) electron",
+      "mcq": {"answer": "A", "answerText": "atom"},
+      "options": ["atom", "anion", "cation", "electron"],
+      "qwc": null,
+      "figures": [],
+      "tableElementIds": [],
+      "marks": 3,
+      "marksKnown": true,
+      "confidence": "high",
+      "markScheme": {"label": "2", "answerText": "The only correct answer is A", "markPoints": [], "guidance": [], "marks": 3, "confidence": "high"},
+      "parts": []
+    }
+  ]
+}
