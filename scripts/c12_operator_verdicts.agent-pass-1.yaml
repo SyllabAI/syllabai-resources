@@ -1,0 +1,45 @@
+# T-C12 operator verdicts — agent-pass-1 (first real section-7 ruling).
+# Transcribed VERBATIM from the operator's chat verdicts (R1-R5) on
+# 2026-09-15. Input to scripts/c12_promote.py — the only writer of
+# scripts/c12_promotions.yaml. The AI decisions file ruled on here
+# (smoke-demo.agent-pass-1.yaml) is never modified.
+#
+# R3 encoding: the operator amended command=Explain only ("content mapping
+# kept"), so the mapping below carries the AI proposal's primary/secondary/
+# confidence unchanged; the rationale is the operator's own note.
+meta:
+  task: T-C12
+  stage: operator-verdicts
+  reviewed_by: Nawaf Al Hussain Khondokar
+  review_reference: graph/reports/C12_SMOKE_REVIEW_SHEET.md
+  review_date: '2026-09-15'
+  source: scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+  transcription: operator chat verdicts R1-R5, verbatim
+verdicts:
+  smoke-q-fractional-distillation:
+    decision: accept
+  smoke-q-ionic-conduction:
+    decision: accept
+    note: >-
+      endorse 1.56C primary: 'explain why' matches its 'understand why';
+      1.43 kept secondary; 2C-only accepted
+  smoke-q-acid-rain:
+    decision: amend
+    mapping:
+      primary_spec_point: 4CH1-4.16
+      secondary_spec_points:
+      - 4CH1-4.14
+      command_word: Explain
+      confidence: 1.0
+      rationale: >-
+        'Understand' is not a registry command word; content mapping kept
+    note: >-
+      'Understand' is not a registry command word; content mapping kept
+  smoke-q-physics-newtons-cradle:
+    decision: accept
+    note: confirmed out-of-curriculum WPH11 physics
+  smoke-q-fuels-sulfur-negative-control:
+    decision: accept
+    note: >-
+      4.16 is the demanded consequence; 4.15 premise captured as secondary
+      only
