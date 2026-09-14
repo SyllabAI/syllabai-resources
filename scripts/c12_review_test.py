@@ -37,6 +37,8 @@ Negative (fail closed — the tool refuses, nothing half-written):
   T20 hand-forged: validated_by "GLM" -> check fails (attribution)
   T21 hand-forged: primary 4CH1-4.99 -> check fails (registry)
   T22 hand-forged: same question promoted AND rejected -> check fails
+  T23 --questions override is wired: a bogus path dies (regression — the
+      flag used to be accepted and silently ignored)
 
 Usage: python3 scripts/c12_review_test.py   (no network, no key)
 """
@@ -383,6 +385,15 @@ def main() -> int:
     sb2 = forge(both)
     expect_fail(sb2, "T22 promoted+rejected", *check_argv(sb2), marker="both promoted and rejected")
     ok("T22 question both promoted and rejected caught by check")
+
+    # ── T23: --questions override is wired (it used to be silently ignored) ──
+    sb = make_sandbox()
+    v = write_verdicts(sb, "v_t23.yaml",
+                       {"smoke-q-fractional-distillation": {"decision": "accept"}})
+    expect_fail(sb, "T23 questions override", *promote_argv(
+        sb, "--verdicts", v, "--questions", "scripts/c12_fixtures/does-not-exist.json",
+        "--date", "2026-09-14"), marker="questions file not found")
+    ok("T23 --questions override honored (bogus path dies instead of being ignored)")
 
     print(f"\nc12_review_test: {PASS} checks passed")
     return 0

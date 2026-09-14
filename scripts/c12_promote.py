@@ -124,7 +124,8 @@ def human_identity(name: str, where: str) -> str:
     return name.strip()
 
 
-def load_source(path: Path) -> tuple[dict, dict, Path]:
+def load_source(path: Path,
+                questions_override: str | None = None) -> tuple[dict, dict, Path]:
     """source decisions YAML -> (doc, {qid: record}, resolved questions path)."""
     if not path.exists():
         die(f"source decisions file not found: {path}")
@@ -132,7 +133,9 @@ def load_source(path: Path) -> tuple[dict, dict, Path]:
     records = {r["question_id"]: r for r in (doc.get("decisions") or [])}
     if not records:
         die(f"source decisions file {path.name} has no records")
-    raw = str((doc.get("meta") or {}).get("source_questions") or "").strip()
+    # explicit --questions wins; otherwise the decisions file's own meta
+    raw = str(questions_override or "").strip() \
+        or str((doc.get("meta") or {}).get("source_questions") or "").strip()
     if not raw:
         die("source decisions meta.source_questions is empty — pass --questions")
     p = Path(raw)
@@ -246,7 +249,7 @@ def promote(args) -> int:
         die(f"meta.review_date must be YYYY-MM-DD, got {vmeta['review_date']!r}")
 
     source = Path(args.source or vmeta.get("source") or "")
-    doc, records, qpath = load_source(source)
+    doc, records, qpath = load_source(source, getattr(args, "questions", None))
     hashes = bind_hashes(records, qpath)
     reg = tagger.load_registries(Path(args.graph)) if args.graph else tagger.load_registries()
     threshold = float((doc.get("meta") or {}).get("high_confidence_threshold")
