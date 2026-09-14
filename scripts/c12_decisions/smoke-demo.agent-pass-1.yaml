@@ -1,0 +1,129 @@
+decisions:
+- ambiguity_note: null
+  mapping:
+    command_word: Describe
+    confidence: 1.0
+    primary_spec_point: 4CH1-4.8
+    rationale: The question directly asks to 'describe how the industrial process of fractional distillation
+      separates crude oil into fractions', which matches 4CH1-4.8.
+    secondary_spec_points:
+    - 4CH1-4.7
+  provenance:
+    derivation_method: LLM_VERIFIED_CANDIDATES
+    derivation_notes: The question directly asks to 'describe how the industrial process of fractional
+      distillation separates crude oil into fractions', which matches 4CH1-4.8.
+    extraction_pass: c12-agent-pass-1
+    generated_date: '2026-09-14'
+    model_version: GLM GLM (Super Z agent, z.ai) (scripted structured output, z.ai)
+    tier: AI_SUGGESTED
+    upstream: prefilter c12 (IDF token overlap) over graph/specification_points.yaml (c09 registry)
+  question_id: smoke-q-fractional-distillation
+  unit_text_hash: 9692542870e269787744cf4eac2ba2755a731517a46e59ecdba9b4e9b1f38b3f
+  validation_status: SUGGESTED
+  version: 1
+- ambiguity_note: null
+  mapping:
+    command_word: Explain
+    confidence: 1.0
+    primary_spec_point: 4CH1-1.56C
+    rationale: The question directly assesses understanding of why ionic compounds conduct electricity
+      only when molten or in aqueous solution, which matches 4CH1-1.56C.
+    secondary_spec_points:
+    - 4CH1-1.43
+  provenance:
+    derivation_method: LLM_VERIFIED_CANDIDATES
+    derivation_notes: The question directly assesses understanding of why ionic compounds conduct electricity
+      only when molten or in aqueous solution, which matches 4CH1-1.56C.
+    extraction_pass: c12-agent-pass-1
+    generated_date: '2026-09-14'
+    model_version: GLM GLM (Super Z agent, z.ai) (scripted structured output, z.ai)
+    tier: AI_SUGGESTED
+    upstream: prefilter c12 (IDF token overlap) over graph/specification_points.yaml (c09 registry)
+  question_id: smoke-q-ionic-conduction
+  unit_text_hash: ca750560bd65148b5c3c8086552a2f8b0a0ede30c853c8b56b6648bbb9b70764
+  validation_status: SUGGESTED
+  version: 1
+- ambiguity_note: 'registry validation: command_word ''Understand'' not in the command-word registry'
+  mapping:
+    command_word: Understand
+    confidence: 1.0
+    primary_spec_point: 4CH1-4.16
+    rationale: The question directly assesses understanding of how sulfur dioxide and oxides of nitrogen
+      contribute to acid rain, and includes knowledge of nitrogen oxide formation in car engines.
+    secondary_spec_points:
+    - 4CH1-4.14
+  provenance:
+    derivation_method: LLM_VERIFIED_CANDIDATES
+    derivation_notes: The question directly assesses understanding of how sulfur dioxide and oxides of
+      nitrogen contribute to acid rain, and includes knowledge of nitrogen oxide formation in car engines.
+    extraction_pass: c12-agent-pass-1
+    generated_date: '2026-09-14'
+    model_version: GLM GLM (Super Z agent, z.ai) (scripted structured output, z.ai)
+    tier: AI_SUGGESTED
+    upstream: prefilter c12 (IDF token overlap) over graph/specification_points.yaml (c09 registry)
+  question_id: smoke-q-acid-rain
+  unit_text_hash: 9f3434e43931170fcfef203def4de2cb83f9af8031fdeeba93c447d3fe842ebc
+  validation_status: REVIEW_REQUIRED
+  version: 1
+- ambiguity_note: no primary spec point proposed (abstention or out-of-curriculum text)
+  mapping: null
+  provenance:
+    derivation_method: LLM_VERIFIED_CANDIDATES
+    derivation_notes: abstained
+    extraction_pass: c12-agent-pass-1
+    generated_date: '2026-09-14'
+    model_version: GLM GLM (Super Z agent, z.ai) (scripted structured output, z.ai)
+    tier: AI_SUGGESTED
+    upstream: prefilter c12 (IDF token overlap) over graph/specification_points.yaml (c09 registry)
+  question_id: smoke-q-physics-newtons-cradle
+  unit_text_hash: 15bdc0c0ce6b7ee8df40b0a5e20e636702ba2d87529f825c0ae6c974461186df
+  validation_status: REVIEW_REQUIRED
+  version: 1
+- ambiguity_note: null
+  mapping:
+    command_word: Explain
+    confidence: 0.9
+    primary_spec_point: 4CH1-4.16
+    rationale: The question directly assesses understanding of how sulfur dioxide contributes to acid
+      rain, as specified in 4CH1-4.16, with secondary relevance to 4CH1-4.15 which explains sulfur dioxide
+      formation from fuel combustion.
+    secondary_spec_points:
+    - 4CH1-4.15
+  provenance:
+    derivation_method: LLM_VERIFIED_CANDIDATES
+    derivation_notes: The question directly assesses understanding of how sulfur dioxide contributes to
+      acid rain, as specified in 4CH1-4.16, with secondary relevance to 4CH1-4.15 which explains sulfur
+      dioxide formation from fuel combustion.
+    extraction_pass: c12-agent-pass-1
+    generated_date: '2026-09-14'
+    model_version: GLM GLM (Super Z agent, z.ai) (scripted structured output, z.ai)
+    tier: AI_SUGGESTED
+    upstream: prefilter c12 (IDF token overlap) over graph/specification_points.yaml (c09 registry)
+  question_id: smoke-q-fuels-sulfur-negative-control
+  unit_text_hash: 1e8de61ffaf897b577c88d8e58ef15a7760d554f54119c43bc6c29983476af7c
+  validation_status: SUGGESTED
+  version: 1
+meta:
+  counts:
+    reviewRequired: 2
+    suggested: 3
+    units: 5
+  curriculum_code: 4CH1-2017
+  extraction_pass: c12-agent-pass-1
+  generated_date: '2026-09-14'
+  high_confidence_threshold: 0.75
+  model_version: GLM (Super Z agent, z.ai)
+  queues:
+    highConfidence:
+    - smoke-q-fractional-distillation
+    - smoke-q-ionic-conduction
+    - smoke-q-fuels-sulfur-negative-control
+    manualReview:
+    - smoke-q-acid-rain
+    - smoke-q-physics-newtons-cradle
+  registries:
+    command_words: 25
+    graph_dir: /home/z/my-project/download/syllabai-resources/graph
+    spec_points: 182
+  source_questions: /home/z/my-project/download/syllabai-resources/scripts/c12_fixtures/smoke_questions.json
+  task: T-C12

@@ -23,6 +23,8 @@ Classes (check gate):
  12. provenance derivation_notes emptied — strict-schema failure
  13. secondary spec point duplicating the primary
  14. SUGGESTED with empty rationale
+ 15. REVIEW_REQUIRED carrying a demotable violation (unknown command word)
+     WITHOUT documenting it in the ambiguity note
 
 Positive controls:
   A. honest file (1 SUGGESTED + 1 unmatched REVIEW_REQUIRED) -> check OK
@@ -167,7 +169,8 @@ def main() -> int:
 
         r7 = good_record()
         r7.mapping.confidence = 0.3
-        check_catches(tmp, "7 SUGGESTED below threshold", [r7], "SUGGESTED with confidence")
+        check_catches(tmp, "7 SUGGESTED below threshold", [r7],
+                      "confidence 0.30 below threshold")
 
         r8 = unmatched_record()
         r8.validation_status = "SUGGESTED"
@@ -297,6 +300,87 @@ def main() -> int:
             report("D3 tool-name guard refuses non-atomizer files", False, "(no SystemExit)")
         except SystemExit:
             report("D3 tool-name guard refuses non-atomizer files", True)
+        # ── section E: --from-raw replay path (zero network) ──
+        print("- verify --from-raw replay")
+        mini_q = tmp / "mini_questions.json"
+        mini_q.write_text(json.dumps({"questions": [
+            {"id": "unit-distill", "text": UNIT_DISTILL["text"]},
+            {"id": "unit-physics", "text": "A 'Newton's cradle' has five identical steel "
+                                           "spheres. Calculate the mass of one sphere."}]}),
+                          encoding="utf-8")
+
+        def replay(trace_obj, out_name, extra=()):
+            tr = tmp / ("trace_%s.json" % out_name)
+            tr.write_text(json.dumps(trace_obj), encoding="utf-8")
+            outp = tmp / ("%s.yaml" % out_name)
+            rc_out = io.StringIO()
+            try:
+                with contextlib.redirect_stderr(rc_out):
+                    rc = t.main(["verify", str(mini_q), "--from-raw", str(tr),
+                                 "-o", str(outp), "--pass-id", "test-replay",
+                                 "--date", RUN_DATE, "--model-label", "GLM (test replay)",
+                                 *extra])
+            except SystemExit as exc:  # FATAL paths raise SystemExit deliberately
+                rc = exc.code if isinstance(exc.code, int) else 1
+                rc_out.write("%s\n" % exc)
+            return rc, outp, rc_out.getvalue()
+
+        trace_ok = [{"question_id": "unit-distill", "raw_response": RAW_GOOD},
+                    {"question_id": "unit-physics", "raw_response": RAW_UNMATCHED}]
+        rc1, out1, _ = replay(trace_ok, "replay_a")
+        rc2, out2, _ = replay(trace_ok, "replay_b")
+        same = out1.read_bytes() == out2.read_bytes()
+        report("E1 replay deterministic (byte-identical YAML)",
+               rc1 == 0 and rc2 == 0 and same, "(rc %d/%d, identical=%s)" % (rc1, rc2, same))
+
+        rc3, out3, _ = replay(trace_ok, "replay_check")
+        err3 = io.StringIO()
+        with contextlib.redirect_stdout(err3), contextlib.redirect_stderr(err3):
+            rc_check = t.main(["check", str(out3)])
+        report("E2 replay output passes check",
+               rc_check == 0 and "check: OK" in err3.getvalue(), err3.getvalue())
+
+        rc_missing, _, err_missing = replay([trace_ok[0]], "replay_missing")
+        report("E3 missing trace entry refuses to improvise",
+               rc_missing != 0 and "no trace entry" in err_missing, err_missing)
+
+        rc_orphan, _, err_orphan = replay(
+            trace_ok + [{"question_id": "ghost-unit", "raw_response": RAW_GOOD}],
+            "replay_orphan")
+        report("E4 orphan trace entry rejected",
+               rc_orphan != 0 and "unknown questions" in err_orphan, err_orphan)
+
+        rc_dup, _, err_dup = replay(
+            [trace_ok[0], dict(trace_ok[0])], "replay_dup")
+        report("E5 duplicate trace entries rejected",
+               rc_dup != 0 and "duplicate entries" in err_dup, err_dup)
+
+        poisoned = [{"question_id": "unit-distill",
+                     "raw_response": dict(RAW_GOOD, rationale="already HUMAN_VALIDATED")},
+                    {"question_id": "unit-physics", "raw_response": RAW_UNMATCHED}]
+        rc_poison, _, err_poison = replay(poisoned, "replay_poison")
+        report("E6 anti-forgery holds on replay (HUMAN_VALIDATED in trace)",
+               rc_poison != 0 and "anti-forgery abort" in err_poison, err_poison)
+
+        # ── section F: demotable violations round-trip only when documented ──
+        print("- demotion round-trip semantics")
+        trace_cw = [{"question_id": "unit-distill",
+                     "raw_response": dict(RAW_GOOD, command_word="Understand")},
+                    {"question_id": "unit-physics", "raw_response": RAW_UNMATCHED}]
+        rc_f1, out_f1, _ = replay(trace_cw, "replay_cw")
+        err_f1 = io.StringIO()
+        with contextlib.redirect_stdout(err_f1), contextlib.redirect_stderr(err_f1):
+            rc_chk_f1 = t.main(["check", str(out_f1)])
+        ok_f1 = rc_f1 == 0 and rc_chk_f1 == 0 and "check: OK" in err_f1.getvalue()
+        report("F1 honest demotion (unknown command word -> REVIEW_REQUIRED) round-trips",
+               ok_f1, "(rc %d/%d) %s" % (rc_f1, rc_chk_f1, err_f1.getvalue()))
+
+        rec_forge = good_record()
+        rec_forge.mapping.command_word = "Understand"
+        rec_forge.validation_status = "REVIEW_REQUIRED"
+        rec_forge.ambiguity_note = "reviewed by hand, trust me"
+        check_catches(tmp, "F2 undocumented demotable violation still fails check",
+                      [rec_forge], "command_word")
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

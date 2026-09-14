@@ -206,3 +206,11 @@
   abstention control + the documented 4CH1-4.15-style premise+consequence
   negative control) and `sample_paper.json` (synthetic atomizer-shape
   paper for the adapter tests).
+- `c12_decisions/` — T-C12 decision-record directory (see its README.md).
+  `verify --from-raw TRACE.json` replays a recorded raw model trace through
+  the same assembly + gates with zero network and no key (audit/replay
+  path — usable with any LLM source). First real pass:
+  `smoke-demo.agent-pass-1.yaml` — a GLM agent pass over the smoke fixture,
+  replayed and check-clean; the committed trace preserves the model's
+  abstention on the physics control, a demoted non-registry command word,
+  and the 4.15-style bait-taking for reviewer evidence.

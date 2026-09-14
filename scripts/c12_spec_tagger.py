@@ -15,6 +15,9 @@ registry, then a machine-checked decision file:
      registries and a strict Pydantic schema; every emitted record is
      AI_SUGGESTED + SUGGESTED/REVIEW_REQUIRED, never HUMAN_VALIDATED
      (anti-forgery hard-fail, C11_ARCHITECTURE.md section 7).
+     `verify --from-raw TRACE.json` replays a recorded raw trace through the
+     same assembly + gates with zero network and no key (audit/replay path —
+     usable with any LLM source, including offline or local models).
   3. `check` (validator): schema, registry membership, provenance
      completeness, queue consistency and the section-7 machine rules for a
      decisions file. Negative-tested by c12_negative_test.py.
@@ -41,6 +44,8 @@ Usage:
   python3 scripts/c12_spec_tagger.py prefilter questions.json -o prefilter.json
   python3 scripts/c12_spec_tagger.py verify questions.json -o decisions.yaml \
       [--pass-id pass-1] [--model glm-4.6] [--threshold 0.75] [--date 2026-09-14]
+  python3 scripts/c12_spec_tagger.py verify questions.json --from-raw trace.json \
+      -o decisions.yaml [--model-label "GLM (Super Z agent, z.ai)"]
   python3 scripts/c12_spec_tagger.py check decisions.yaml
 """
 from __future__ import annotations
@@ -451,8 +456,9 @@ def assemble_record(unit: dict, raw: dict, model: str, pass_id: str, run_date: s
         version=1)
 
 
-def registry_errors(record: DecisionRecord, reg: dict, threshold: float) -> list[str]:
-    """The section-7 machine rules + registry membership. Order-stable."""
+def hard_errors(record: DecisionRecord, reg: dict) -> list[str]:
+    """Violations that make a record unacceptable in ANY emitted file (check always
+    fails): anti-forgery, tier/status rules, referential integrity, missing notes."""
     errs = []
     if record.provenance.tier != "AI_SUGGESTED":
         errs.append("tier must be AI_SUGGESTED, got %r" % record.provenance.tier)
@@ -473,19 +479,33 @@ def registry_errors(record: DecisionRecord, reg: dict, threshold: float) -> list
         for s in m.secondary_spec_points:
             if s not in reg["points"]:
                 errs.append("secondary %s not in the %s registry" % (s, CURRICULUM))
-            if s == m.primary_spec_point:
-                errs.append("secondary %s duplicates primary" % s)
-        if _norm_word(m.command_word) not in reg["command_words"]:
-            errs.append("command_word %r not in the command-word registry" % m.command_word)
-        if record.validation_status == "SUGGESTED":
-            if m.confidence < threshold:
-                errs.append("SUGGESTED with confidence %.2f < threshold %.2f"
-                            % (m.confidence, threshold))
-            if not m.rationale.strip():
-                errs.append("SUGGESTED needs a non-empty rationale")
     if record.validation_status == "REVIEW_REQUIRED" and not record.ambiguity_note:
         errs.append("REVIEW_REQUIRED needs ambiguity_note")
     return errs
+
+
+def demotable_errors(record: DecisionRecord, reg: dict, threshold: float) -> list[str]:
+    """Violations that disqualify SUGGESTED but may stand in a REVIEW_REQUIRED
+    record WHEN the ambiguity_note documents them verbatim (the demotion path
+    writes these exact strings, so honest demotion round-trips through check)."""
+    errs = []
+    if record.mapping is not None:
+        m = record.mapping
+        if _norm_word(m.command_word) not in reg["command_words"]:
+            errs.append("command_word %r not in the command-word registry" % m.command_word)
+        if m.confidence < threshold:
+            errs.append("confidence %.2f below threshold %.2f" % (m.confidence, threshold))
+        for s in m.secondary_spec_points:
+            if s == m.primary_spec_point:
+                errs.append("secondary %s duplicates primary" % s)
+        if record.validation_status == "SUGGESTED" and not m.rationale.strip():
+            errs.append("SUGGESTED needs a non-empty rationale")
+    return errs
+
+
+def registry_errors(record: DecisionRecord, reg: dict, threshold: float) -> list[str]:
+    """All violations for a record as-emitted (hard + demotable)."""
+    return hard_errors(record, reg) + demotable_errors(record, reg, threshold)
 
 
 # ── stages ────────────────────────────────────────────────────────────────────
@@ -523,38 +543,17 @@ def stage_prefilter(args) -> int:
     return 0
 
 
-def stage_verify(args) -> int:
-    reg = load_registries(Path(args.graph)) if args.graph else load_registries()
-    units = load_questions(Path(args.questions))
-    api_key = resolve_api_key(args.api_key)
-    model = args.model
-    run_date = args.date
-    pass_id = "c12-%s" % args.pass_id
-    pf = Prefilter(reg)
-
-    records, raw_trace = [], []
-    for u in units:
-        cand = pf.rank(u["text"])
-        raw, raw_text = call_llm(u, cand, reg, api_key, model)
-        rec = assemble_record(u, raw, "GLM %s" % model, pass_id, run_date, args.threshold)
-        errs = registry_errors(rec, reg, args.threshold)
-        if errs:
-            print("record %s failed registry validation (%s) -> demoting to REVIEW_REQUIRED"
-                  % (rec.question_id, "; ".join(errs)), file=sys.stderr)
-            rec.validation_status = "REVIEW_REQUIRED"
-            rec.ambiguity_note = ("registry validation: %s" % "; ".join(errs))[:400]
-        records.append(rec)
-        raw_trace.append({"question_id": u["id"], "raw_response": raw})
-
+def _finalize(records, raw_trace, reg, args, model_label, pass_id) -> dict:
+    """Queue split + decisions doc assembly shared by live and replay paths."""
     high = [r.question_id for r in records if r.validation_status == "SUGGESTED"]
     review = [r.question_id for r in records if r.validation_status != "SUGGESTED"]
-    doc = {
+    return {
         "meta": {
             "task": "T-C12",
             "extraction_pass": pass_id,
             "curriculum_code": CURRICULUM,
-            "generated_date": run_date,
-            "model_version": "GLM %s (scripted structured output, z.ai)" % model,
+            "generated_date": args.date,
+            "model_version": model_label,
             "high_confidence_threshold": args.threshold,
             "source_questions": str(Path(args.questions).resolve()),
             "registries": {"spec_points": len(reg["points"]),
@@ -566,15 +565,77 @@ def stage_verify(args) -> int:
         },
         "decisions": [r.model_dump() for r in records],
     }
-    out = yaml.safe_dump(doc, sort_keys=True, allow_unicode=True, width=100)
-    if args.out:
-        Path(args.out).write_text(out, encoding="utf-8")
+
+
+def _demote_or_keep(rec, errs):
+    if errs:
+        print("record %s failed registry validation (%s) -> demoting to REVIEW_REQUIRED"
+              % (rec.question_id, "; ".join(errs)), file=sys.stderr)
+        rec.validation_status = "REVIEW_REQUIRED"
+        rec.ambiguity_note = ("registry validation: %s" % "; ".join(errs))[:400]
+    return rec
+
+
+def _write_out(text: str, out: str | None) -> None:
+    if out:
+        Path(out).write_text(text, encoding="utf-8")
     else:
-        sys.stdout.write(out)
+        sys.stdout.write(text)
+
+
+def stage_verify(args) -> int:
+    reg = load_registries(Path(args.graph)) if args.graph else load_registries()
+    units = load_questions(Path(args.questions))
+    run_date = args.date
+    pass_id = "c12-%s" % args.pass_id
+    pf = Prefilter(reg)
+    replay = bool(getattr(args, "from_raw", None))
+    model_label = args.model_label or "GLM %s (scripted structured output, z.ai)" % args.model
+
+    records, raw_trace = [], []
+    if replay:
+        # Replay: re-assemble decisions from a recorded raw trace (audit path,
+        # zero network). Same assembly, same gates, same demotion rules as live.
+        trace_path = Path(args.from_raw)
+        trace = json.loads(trace_path.read_text(encoding="utf-8"))
+        by_qid = {}
+        for entry in trace:
+            qid = entry.get("question_id")
+            if qid not in by_qid:
+                by_qid[qid] = entry.get("raw_response")
+            else:
+                raise SystemExit("FATAL: trace has duplicate entries for %s" % qid)
+        orphans = sorted(set(by_qid) - {u["id"] for u in units})
+        if orphans:
+            raise SystemExit("FATAL: trace entries for unknown questions: %s" % orphans)
+        for u in units:
+            if u["id"] not in by_qid:
+                raise SystemExit("FATAL: no trace entry for %s — refusing to improvise" % u["id"])
+        for u in units:
+            raw = by_qid[u["id"]]
+            rec = assemble_record(u, raw, model_label, pass_id, run_date, args.threshold)
+            _demote_or_keep(rec, registry_errors(rec, reg, args.threshold))
+            records.append(rec)
+            raw_trace.append({"question_id": u["id"], "raw_response": raw})
+    else:
+        api_key = resolve_api_key(args.api_key)
+        for u in units:
+            cand = pf.rank(u["text"])
+            raw, raw_text = call_llm(u, cand, reg, api_key, args.model)
+            rec = assemble_record(u, raw, model_label, pass_id, run_date, args.threshold)
+            _demote_or_keep(rec, registry_errors(rec, reg, args.threshold))
+            records.append(rec)
+            raw_trace.append({"question_id": u["id"], "raw_response": raw})
+
+    doc = _finalize(records, raw_trace, reg, args, model_label, pass_id)
+    out = yaml.safe_dump(doc, sort_keys=True, allow_unicode=True, width=100)
+    _write_out(out, args.out)
     if args.raw_trace:
         Path(args.raw_trace).write_text(
             json.dumps(raw_trace, indent=2, ensure_ascii=False), encoding="utf-8")
-    print("verify: %d SUGGESTED, %d REVIEW_REQUIRED" % (len(high), len(review)), file=sys.stderr)
+    print("verify%s: %d SUGGESTED, %d REVIEW_REQUIRED" %
+          (" (replay)" if replay else "", len(doc["meta"]["queues"]["highConfidence"]),
+           len(doc["meta"]["queues"]["manualReview"])), file=sys.stderr)
     return 0
 
 
@@ -592,8 +653,16 @@ def stage_check(args) -> int:
         if rec.question_id in seen:
             errs.append("duplicate question_id %s" % rec.question_id)
         seen.add(rec.question_id)
-        errs += ["%s: %s" % (rec.question_id, e)
-                 for e in registry_errors(rec, reg, doc.meta.high_confidence_threshold)]
+        # hard violations always fail; demotable ones fail on SUGGESTED and are
+        # tolerated on REVIEW_REQUIRED only when the ambiguity note documents
+        # them (the demotion path writes these exact strings).
+        rec_errs = hard_errors(rec, reg)
+        if rec.validation_status == "SUGGESTED":
+            rec_errs += demotable_errors(rec, reg, doc.meta.high_confidence_threshold)
+        else:
+            rec_errs += [d for d in demotable_errors(rec, reg, doc.meta.high_confidence_threshold)
+                         if d not in (rec.ambiguity_note or "")]
+        errs += ["%s: %s" % (rec.question_id, e) for e in rec_errs]
     # queue consistency
     high = [r.question_id for r in doc.decisions if r.validation_status == "SUGGESTED"]
     review = [r.question_id for r in doc.decisions if r.validation_status == "REVIEW_REQUIRED"]
@@ -638,13 +707,17 @@ def main(argv=None) -> int:
     p.add_argument("--graph", help="alternate graph dir (default: repo graph/)")
     p.set_defaults(fn=stage_prefilter)
 
-    p = sub.add_parser("verify", help="LLM structured-output pass -> decisions YAML (needs key)")
+    p = sub.add_parser("verify", help="LLM structured-output pass -> decisions YAML (key OR --from-raw)")
     p.add_argument("questions"); p.add_argument("-o", "--out")
     p.add_argument("--graph"); p.add_argument("--model", default=DEFAULT_MODEL)
     p.add_argument("--api-key"); p.add_argument("--pass-id", default="pass-1")
     p.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD)
     p.add_argument("--date", help="pinned run date (default: today UTC)")
     p.add_argument("--raw-trace", help="write raw model responses here for audit")
+    p.add_argument("--from-raw", metavar="TRACE.json",
+                   help="replay a recorded raw trace through assembly + gates instead of "
+                        "calling the API (zero network, no key; audit/replay path)")
+    p.add_argument("--model-label", help="override the provenance model_version string")
     p.set_defaults(fn=stage_verify)
 
     p = sub.add_parser("check", help="validate a decisions YAML against registries + rules")
