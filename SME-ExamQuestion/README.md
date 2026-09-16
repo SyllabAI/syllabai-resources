@@ -16,6 +16,12 @@ that provenance (per-part `source_paper`).
 
     SME-ExamQuestion/
       manifest.json                     course-level index + totals
+      spec_point_index.json             SME spec-point ids -> name + definition
+                                        (harvested from all 112 note pages)
+      spec_point_resolution.json        spcpt_ -> official 4CH1 code table
+                                        (AI_VALIDATED, operator-delegated;
+                                        see VALIDATION.md)
+      VALIDATION.md                     validation record for the resolution
       <section-slug>/<topic-slug>/
         topic.json    structured corpus: questions -> parts -> problem/solution
         questions.md  human-readable question paper (images inline)
@@ -28,7 +34,10 @@ that provenance (per-part `source_paper`).
 - `questions[].parts[]`:
   - `marks`, `command_word`, `question_type` (`structured` | `multiple_choice`)
   - `source_paper`: `{date, number, question_number, question_part}` (provenance)
-  - `spec_point_ids`: SME spec-point ids (raw; resolution to 4CH1 codes is downstream)
+  - `spec_point_ids`: SME spec-point ids (raw)
+  - `spec_point_codes`: resolved official 4CH1 codes (e.g. `4CH1-1.25`),
+    ordered by the registry's global order — see `VALIDATION.md`
+    (AI_VALIDATED under operator delegation 2026-09-17)
   - `problem_md` / `solution_md`: Markdown render of the TipTap docs
   - `choices[]` (MCQ): `label`, `is_correct`, `text_md`
   - `equations[]`: KaTeX `latex` + raw Wiris `mathml` (lossless re-processing)
@@ -49,9 +58,25 @@ that provenance (per-part `source_paper`).
 
 - topics: 28 · questions: 524 · parts: 1404
 - marks: 3708 · assets: 585 · equations (KaTeX): 461
+- spec points resolved: 162 (SME) -> 154 distinct 4CH1 codes in use;
+  1404/1404 parts tagged (parts without SME ids: 46)
 
 ## Regeneration
 
     scripts/sme_examq_scrape.py --out SME-ExamQuestion
+    python3 scripts/sme_spcpt_harvest.py          # needs network; cached
+    python3 scripts/sme_spcpt_resolve.py --apply  # offline; deterministic
+    python3 scripts/sme_spcpt_verify.py           # offline gates + spot-check
 
 (public pages only; no credentials needed; idempotent per topic)
+
+## Question <-> revision-note linkage
+
+Two layers, both present in the data:
+
+1. **Subtopic layer** (SME-native): `topic.json.subtopics[]` carries each
+   subtopic's `revision_note_id` and `related_revision_notes_folder` points
+   at the matching notes folder.
+2. **Spec-point layer** (resolved): each part's `spec_point_codes` intersect
+   with the notes' `spec_map` codes in `../Chemistry IGCSE Revision Notes/`,
+   giving note-level links even when SME groups statements differently.

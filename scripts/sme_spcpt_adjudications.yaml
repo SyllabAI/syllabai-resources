@@ -1,0 +1,83 @@
+# T-SME-EQ-1 — AI adjudication record for SME spec-point resolution
+#
+# Operator delegation (2026-09-17, IM instruction verbatim): "let AI self-validate
+# this time. I wont be manually approving" — scope: SME spcpt_ -> 4CH1 code
+# resolution only. Statuses are emitted as AI_VALIDATED, never HUMAN_VALIDATED
+# (Master Spec section 7 vocabulary is preserved; see SME-ExamQuestion/VALIDATION.md).
+#
+# This file records the AI (GLM, Super Z agent) review of every non-trivial case
+# in the auto-resolution run of 2026-09-17. All auto resolutions were CONFIRMED;
+# no overrides were required. Keep entries append-only.
+schema: syllabai.sme-spcpt-adjudications/1.0
+reviewed_utc: 2026-09-17
+reviewer: "GLM (Super Z agent, z.ai) — operator-delegated AI validation"
+input: SME-ExamQuestion/spec_point_resolution.json
+
+decisions:
+  - group: note-spec_map-gap
+    id: spcpt_HRX72xfw5n8X3QYy
+    sme_name: Formation of Sulfur Dioxide
+    code: 4CH1-4.15
+    action: confirm
+    similarity: 1.0
+    rationale: >
+      SME definition is verbatim the official wording of 4CH1-4.15 ("explain how
+      the combustion of some impurities in hydrocarbon fuels results in the
+      formation of sulfur dioxide"). The containing notes' spec_map lists
+      4CH1-4.14/4CH1-4.16 but omits 4CH1-4.15; that is a note-side mapping gap,
+      not a resolver error. Cross-check disagreement documented, resolver wins.
+
+  - group: empty-definition-name-match
+    id: spcpt_msKxhyRzxt7pz78K
+    sme_name: Redox reactions
+    code: 4CH1-2.20
+    action: confirm
+    similarity: 0.5636
+    rationale: >
+      SME provides no definition for this spec point; match is name-based.
+      Context confirms it: it lives on SME page 2-4-5-oxidation-and-reduction
+      alongside "Oxidation & Reduction" (spcpt_fhFyVJC52gfymzCF, similarity 1.0
+      to 4CH1-2.20), and the containing note's spec_map code is 4CH1-2.20.
+      It is SME's summary twin of the same statement and is not referenced by
+      any exam-question part (index-only id), so question tagging is unaffected.
+
+  - group: sme-split-of-one-statement
+    code: 4CH1-1.10
+    ids: [spcpt_CVFdn2XWGD4B8frn, spcpt_JkcwTsbfJxsMt2Jt, spcpt_j872rwWVXXtXpdST,
+          spcpt_kXdX76GTHCRfmgjJ, spcpt_p598W9QRczWFN29G]
+    action: confirm
+    rationale: >
+      Official 1.10 lists five separation techniques in one statement; SME
+      models each technique as its own spec point (filtration, crystallisation,
+      paper chromatography, simple distillation, fractional distillation), all
+      carrying the shared statement prefix at similarity 1.0. One official
+      statement -> five SME spec points is a legitimate SME split, mirrored
+      1:1 onto the same code.
+
+  - group: sme-split-of-one-statement
+    code: 4CH1-1.36
+    ids: [spcpt_XsTdsrB5567G2Mdm, spcpt_yy6NpHxzCg22djFV]
+    action: confirm
+    rationale: >
+      Official 1.36 covers determining a metal oxide formula by combustion OR
+      by reduction; SME splits by worked example (Magnesium Oxide / Copper(II)
+      Oxide practical pages), both quoting the full statement verbatim (1.0).
+
+  - group: sme-split-of-one-statement
+    code: 4CH1-1.58C
+    ids: [spcpt_6xCnwPWhpR5CttNr, spcpt_pFfscNwwwXbrfgbM]
+    action: confirm
+    rationale: >
+      Official 1.58C covers electrolysis of molten compounds AND aqueous
+      solutions; SME splits into "Electrolysis of Molten Compounds" and
+      "Electrolysis of Aqueous Solutions", each quoting the full statement
+      (1.0). Both are Chemistry-only (C-suffix) content; code retained as
+      C-suffixed 4CH1-1.58C.
+
+  - group: sme-split-of-one-statement
+    code: 4CH1-2.20
+    ids: [spcpt_fhFyVJC52gfymzCF, spcpt_msKxhyRzxt7pz78K]
+    action: confirm
+    rationale: >
+      Covered by the empty-definition entry above; both SME spec points are
+      the same official statement 2.20.

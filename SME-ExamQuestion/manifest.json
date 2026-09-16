@@ -588,5 +588,26 @@
    "reused": true
   }
  ],
- "failures": []
+ "failures": [],
+ "spec_point_resolution": {
+  "schema": "syllabai.sme-spec-point-resolution/1.0",
+  "validated": "AI_VALIDATED (operator-delegated 2026-09-17); see VALIDATION.md",
+  "index_file": "spec_point_index.json",
+  "resolution_file": "spec_point_resolution.json",
+  "counts": {
+   "sme_spec_points": 162,
+   "distinct_codes_in_use": 154,
+   "parts_total": 1404,
+   "parts_with_codes": 1358,
+   "parts_without_sme_ids": 46,
+   "cross_check_agree_with_notes": 161
+  },
+  "pipeline": [
+   "scripts/sme_spcpt_harvest.py",
+   "scripts/sme_spcpt_resolve.py --apply",
+   "scripts/sme_spcpt_verify.py"
+  ],
+  "adjudications": "scripts/sme_spcpt_adjudications.yaml"
+ },
+ "updated_utc": "2026-09-16T22:10:56Z"
 }
