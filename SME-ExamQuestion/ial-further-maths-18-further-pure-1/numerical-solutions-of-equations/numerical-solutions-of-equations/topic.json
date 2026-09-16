@@ -1,0 +1,1404 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-16T22:48:27Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/topic-questions/numerical-solutions-of-equations/numerical-solutions-of-equations/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Further Maths",
+  "exam_code": "YFM01",
+  "sme_course_id": "crs_rdsFbKfPg4WXnt6h",
+  "syllabus_version": "2018",
+  "sme_alias_path": "18/further-pure-1"
+ },
+ "section": {
+  "slug": "numerical-solutions-of-equations",
+  "name": "Numerical Solutions of Equations"
+ },
+ "topic": {
+  "id": "top_VfngsPQFZhtP6qQq",
+  "slug": "numerical-solutions-of-equations",
+  "name": "Numerical Solutions of Equations",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "roots-in-intervals",
+   "name": "Roots in Intervals",
+   "revision_note_id": "rn_rMr3xRvgJH727Dcv"
+  },
+  {
+   "slug": "interval-bisection",
+   "name": "Interval Bisection",
+   "revision_note_id": "rn_KnR42njGpmYbrQbP"
+  },
+  {
+   "slug": "linear-interpolation",
+   "name": "Linear Interpolation",
+   "revision_note_id": "rn_nnBDSgNV7PRX4wQF"
+  },
+  {
+   "slug": "newton-raphson-method",
+   "name": "Newton-Raphson Method",
+   "revision_note_id": "rn_R2xX85Wf2ywFM8hq"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_vP9fPCnMJwyXh4jj",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 11
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/03/43044-1a.png": "001-mathematical-solution-showing-function-values-f-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/58579-1a-notes.png": "002-instructions-for-accuracy-marks-in-calculations-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/21255-1b.png": "003-mathematical-notes-showing-calculations-for-func.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/23169-1b-notes.png": "004-instructions-for-rounding-values-of-f-at-0-4-and.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/3402-1ia.png": "005-math-problem-analysing-the-function-f-x-x-3-4x-6.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/41424-1ib.png": "006-mathematical-workings-for-newton-raphson-method-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/12326-1ii.png": "007-mathematical-table-showing-linear-interpolation-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/11645-screenshot-2026-03-28-170247.png": "008-mathematical-table-with-function-calculations-fo.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/59557-screenshot-2026-03-28-170553.png": "009-mathematical-derivation-with-function-f-x-x-3-fr.png",
+   "https://cdn.savemyexams.com/uploads/2026/04/15217-screenshot-2026-04-03-114242.png": "010-mathematical-expression-with-notes-on-acceptable.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/43763-screenshot-2026-03-28-170853.png": "011-mathematical-solution-using-newton-raphson-metho.png",
+   "https://cdn.savemyexams.com/uploads/2026/04/4187-screenshot-2026-04-03-120221.png": "012-table-showing-a-note-indicating-a-common-error-i.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/62524-screenshot-2026-03-28-120450.png": "013-mathematics-marking-scheme-equations-and-evaluat.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/25719-screenshot-2026-03-28-120630.png": "014-maths-table-showing-calculations-for-f-1-5-and-f.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/22992-screenshot-2026-03-28-122014.png": "015-derivative-f-x-equals-three-halves-x-3-2-plus-on.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/7230-screenshot-2026-03-28-122155.png": "016-mathematical-solution-using-the-newton-raphson-f.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/62584-screenshot-2026-03-28-130106.png": "017-mathematical-table-detailing-steps-for-solving-e.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/17299-screenshot-2026-03-26-113944.png": "018-mathematical-solution-table-with-equations-and-c.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/38697-screenshot-2026-03-26-114334.png": "019-mathematical-solution-table-for-a-straight-line-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/17405-screenshot-2026-03-26-114653.png": "020-derivative-solution-f-x-3x-5-2-x-1-4-4-marks-m1-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/20481-screenshot-2026-03-26-114937.png": "021-mathematical-solution-using-newton-raphson-metho.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/33657-screenshot-2026-03-25-182059.png": "022-mathematical-table-analysing-function-f-x-10-2x-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/12374-screenshot-2026-03-25-182526.png": "023-mathematical-function-f-x-includes-terms-with-po.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/38456-screenshot-2026-03-25-182747.png": "024-newton-raphson-calculation-shows-x-1-0-494-using.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/54889-screenshot-2026-03-25-182932.png": "025-mathematical-interpolation-method-showing-beta-c.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/38423-screenshot-2026-03-25-183032.png": "026-mathematical-solution-featuring-interpolation-me.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/18760-screenshot-2026-03-25-183135.png": "027-equation-solving-with-gradient-calculation-line-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/47299-2a.png": "028-mathematical-table-showing-the-function-f-x-calc.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/8115-2bi.png": "029-derivative-calculation-with-f-x-7-2x-1-2-3-2x-2-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/22055-2bii.png": "030-newton-raphson-method-applied-x-1-2-8-frac-f-2-8.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/27890-2c.png": "031-mathematical-solution-sheet-showing-linear-inter.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/32017-screenshot-2026-03-25-132338.png": "032-mathematical-solution-steps-with-derivative-calc.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/8286-screenshot-2026-03-25-132717.png": "033-notes-with-guidelines-on-differentiation-and-the.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/25363-screenshot-2026-03-25-133132.png": "034-mathematical-calculations-involving-functions-di.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/15116-screenshot-2026-03-25-133459.png": "035-maths-instructions-for-interpolation-strategy-us.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/46036-screenshot-2026-03-25-134425.png": "036-text-reads-a1-accept-awrt-0-233-following-correc.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/55452-8a.png": "037-table-with-values-x-from-1-to-5-f-x-values-range.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/49043-8a-notes.png": "038-text-discussing-the-acceptance-of-open-or-closed.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/31688-8b-.png": "039-table-with-text-explaining-a-mathematical-concep.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/15926-8b-notes.png": "040-m1-and-a1-criteria-for-identifying-intervals-wit.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/10852-8c-.png": "041-table-showing-calculations-f-3-5-0-064-f-3-75-0-.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/1785-8c-notes.png": "042-criteria-for-awarding-marks-in-a-mathematical-ev.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/40859-8d.png": "043-mathematical-calculation-in-a-table-with-steps-t.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/581-8d-notes.png": "044-grading-criteria-detail-interpolation-strategy-f.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/52919-screenshot-2026-03-24-115819.png": "045-mathematical-solution-image-functions-and-calcul.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/62374-screenshot-2026-03-24-120120.png": "046-notes-section-with-instructions-for-solving-part.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/44700-screenshot-2026-03-24-120458.png": "047-mathematical-calculations-in-a-table-part-ii-has.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/34590-screenshot-2026-03-24-120736.png": "048-maths-exam-marking-scheme-detailing-criteria-for.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/13694-screenshot-2026-03-23-131553.png": "049-mathematics-problem-on-differentiation-and-newto.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/3128-screenshot-2026-03-23-131712.png": "050-text-discussing-incorrect-differentiation-numeri.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/19156-screenshot-2026-03-23-131933.png": "051-mathematical-solution-table-for-finding-a-root-u.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/30044-screenshot-2026-03-23-132520.png": "052-table-showing-application-of-newton-raphson-meth.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/1322-screenshot-2026-03-23-132649.png": "053-a1-solution-notes-correct-approach-with-sign-cha.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/64706-screenshot-2026-03-23-132844.png": "054-text-excerpt-with-instructions-for-solving-a-mat.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_3bbyTXGZhV8wdmsY",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_hSfyR6gpR9MP6Mxn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "WFM01/01",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=x^{2}+\\frac{3}{x}-1,x<0$\n\nThe only real root, $α$ , of the equation $f(x)=0$ lies in the interval `left square bracket negative 2 comma   minus 1 right square bracket`.\n\nTaking $-1.5$ as a first approximation to $α$, apply the Newton-Raphson procedure once to \n$f(x)$ to find a second approximation to $α$, giving your answer to 2 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematics problem on differentiation and Newton-Raphson method, showing equations, steps, and corresponding marks criteria for finding roots of a function.](assets/049-mathematics-problem-on-differentiation-and-newto.png)\n> \n> ![Text discussing incorrect differentiation, numerical expressions for \\( f(-1.5) \\) and \\( f'(-1.5) \\), and scoring convention for applying the Newton-Raphson formula.](assets/050-text-discussing-incorrect-differentiation-numeri.png)",
+     "equations": [
+      {
+       "latex": "f(x)=x^{2}+\\frac{3}{x}-1,x<0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>3</mn><mi>x</mi></mfrac><mo>-</mo><mn>1</mn><mo>,</mo><mo>&#160;&#160;</mo><mi>x</mi><mo>&#60;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis equals x squared plus 3 over x minus 1 comma    x less than 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "-1.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 1.5"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_47F4fvpyWQJzRYVS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "WFM01/01",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "Show that your answer to part (a) gives $α$ correct to 2 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution table for finding a root using sign change method with function values f(-1.675) and f(-1.665), with method notes and criteria.](assets/051-mathematical-solution-table-for-finding-a-root-u.png)\n> \n> ![Table showing application of Newton-Raphson method with calculations for α values: -1.67, -1.673, or 87/52. Final result: α = -1.67 (2 dp).](assets/052-table-showing-application-of-newton-raphson-meth.png)\n> \n> **Notes**\n> \n> ![A1 solution notes: Correct approach with sign change reference and minimal conclusion like α = -1.67. Root correctness and QED accepted. 0.015 for f(-1.675) valid.](assets/053-a1-solution-notes-correct-approach-with-sign-cha.png)\n> \n> ![Text excerpt with instructions for solving a math problem to 2 decimal places, alongside a table of x values and corresponding f(x) results.](assets/054-text-excerpt-with-instructions-for-solving-a-mat.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ShJ4fJnVg7zbHxWb",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_qcJscQ3dYcsM4rPf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "WFM01/01",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "`straight f left parenthesis x right parenthesis equals x cubed minus 5 square root of x minus 4 x plus 7      x greater-than or slanted equal to 0`\n\nThe equation $f(x)=0$ has a root $α$ in the interval `left square bracket 0.25 comma space 1 right square bracket`\n\nUse linear interpolation once on the interval `left square bracket 0.25 comma space 1 right square bracket` to determine an approximation to $α$ , giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution table with equations and calculations for solving \\( f(x) = x^3 - 5\\sqrt{x} - 4x + 7 \\); correct solutions noted at the bottom.](assets/018-mathematical-solution-table-with-equations-and-c.png)\n> \n> ![Mathematical solution table for a straight line equation with two columns: calculation steps in left column; method explanation and marks (M1, A1) in the right column.](assets/019-mathematical-solution-table-for-a-straight-line-.png)",
+     "equations": [
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4zd72yq97kpBzbvh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "WFM01/01",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation $f(x)=0$ has another root $β$ in the interval `left square bracket 1.5 comma space 2.5 right square bracket`\n\nDetermine $f'(x)$",
+     "solution_md": "> **[mark-scheme]**\n> ![Derivative solution: f'(x) = 3x² - 5/2 x^(-1/4) - 4. Marks: M1 for two correct terms, A1 for fully correct simplified derivative, allowing unsimplified forms.](assets/020-derivative-solution-f-x-3x-5-2-x-1-4-4-marks-m1-.png)",
+     "equations": [
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "f'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f apostrophe left parenthesis x right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5PspnGWbmrPx9ZzX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "WFM01/01",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Hence, using $x_{0}=1.75$ as a first approximation to $β$, apply the Newton–Raphson process once to $f(x)$ to determine a second approximation to $β$ , giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution using Newton-Raphson method for \\( x_1 \\) with \\( x_0 = 1.75 \\). Calculations and notes including actual root, with steps shown.](assets/021-mathematical-solution-using-newton-raphson-metho.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=1.75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>75</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1.75"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8298W3hGYPFkPQ4y",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_H974zVVbZJhkjHXW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2024",
+      "number": "WFM01/01",
+      "question_number": 6,
+      "question_part": "i(a),i(b)"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75",
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "`straight f left parenthesis x right parenthesis equals x minus 4 minus cos blank space open parentheses 5 square root of x close parentheses      x greater than 0`\n\n(a) Show that the equation $f(x)=0$ has a root $α$ in the interval `left square bracket 2.5 comma space 3.5 right square bracket`\n\n(b) Use linear interpolation once on the interval  `left square bracket 2.5 comma space 3.5 right square bracket` to find an approximation to $α$, giving your answer to 2 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution image: Functions and calculations to find root α, with sign change noted. Iterative method estimates α as approximately 3.24.](assets/045-mathematical-solution-image-functions-and-calcul.png)\n> \n> **Notes**\n> \n> ![Notes section with instructions for solving parts (i)(a) and (b) of a math problem. Details interpolation method and criteria for evaluating solutions.](assets/046-notes-section-with-instructions-for-solving-part.png)",
+     "equations": [
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_g696YbKYFk3rdNCC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2024",
+      "number": "WFM01/01",
+      "question_number": 6,
+      "question_part": "ii(a),ii(b)"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "$g(x)=\\frac{1}{10}x^{2}-\\frac{1}{2x^{2}}+x-11x>0$\n\n(a) Determine $g'(x)$.\n\nThe equation $g(x)=0$ has a root $β$ in the interval `left square bracket 6 comma space 7 right square bracket`\n\n(b) Using $x_{0}=6$ as a first approximation to $β$, apply the Newton–Raphson procedure once to $g(x)$ to find a second approximation to $β$, giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical calculations in a table. Part (ii) has function g(x); part (a) shows its derivative, g'(x); part (b) calculates a value for x1 using these.](assets/047-mathematical-calculations-in-a-table-part-ii-has.png)\n> \n> **Notes**\n> \n> ![Maths exam marking scheme detailing criteria for applying the Newton-Raphson method. Includes steps and notes for obtaining correct values.](assets/048-maths-exam-marking-scheme-detailing-criteria-for.png)",
+     "equations": [
+      {
+       "latex": "g(x)=\\frac{1}{10}x^{2}-\\frac{1}{2x^{2}}+x-11x>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mi>x</mi><mo>-</mo><mn>11</mn><mo>&#160;&#160;&#160;&#160;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight g left parenthesis x right parenthesis equals 1 over 10 x squared minus fraction numerator 1 over denominator 2 x squared end fraction plus x minus 11      x greater than 0"
+      },
+      {
+       "latex": "g'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight g apostrophe left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "g(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight g left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "x_{0}=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 6"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "g(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight g left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PffVrydVCmMKwhVc",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_tzfsM7PxsMVTPgYz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "WFM01/01",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=x^{\\frac{3}{2}}+x-3$\n\nShow that the equation $f(x)=0$ has a root, $α$, in the interval `left square bracket 1 comma space 2 right square bracket`",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematics marking scheme: equations and evaluations for finding f(x) roots; includes f(x) calculations, sign change criteria, intervals, and scoring annotations.](assets/013-mathematics-marking-scheme-equations-and-evaluat.png)",
+     "equations": [
+      {
+       "latex": "f(x)=x^{\\frac{3}{2}}+x-3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>x</mi><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals x to the power of 3 over 2 end exponent plus x minus 3"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_yqnXMDsnkNdCKFJS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "WFM01/01",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rS66jWdV6BtkFBXm"
+     ],
+     "part_tier": null,
+     "problem_md": "Starting with the interval `left square bracket 1 comma space 2 right square bracket`, use interval bisection twice to show that $α$ lies in the interval `left square bracket 1.25 comma space 1.5 right square bracket`",
+     "solution_md": "> **[mark-scheme]**\n> ![Maths table showing calculations for f(1.5) and f(1.25) with conditions and criteria for marks M1, dM1, and A1. Warning against certain notations.](assets/014-maths-table-showing-calculations-for-f-1-5-and-f.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qxGP99rNYRr9PTQR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "WFM01/01",
+      "question_number": 7,
+      "question_part": "ci,cii"
+     },
+     "spec_point_ids": [
+      "spcpt_rS66jWdV6BtkFBXm"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Determine$f'(x)$.\n\n[1]\n\n(ii) Using $1.375$ as a first approximation for $α$, apply the Newton-Raphson process once to $f(x)$ to determine a second approximation for $α$, giving your answer to 3 decimal places.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> ![Derivative f'(x) equals three-halves x^(-3/2) plus one. Correct differentiation example given as 1.5 over square root of x plus 1. B1 mark.](assets/015-derivative-f-x-equals-three-halves-x-3-2-plus-on.png)\n> \n> (ii)\n> \n> ![Mathematical solution using the Newton-Raphson formula with detailed steps, exact values, and notes on accuracy requirements in a tabular format.](assets/016-mathematical-solution-using-the-newton-raphson-f.png)",
+     "equations": [
+      {
+       "latex": "f'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f apostrophe left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "1.375",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>375</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.375"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YCFMwFncRsMqs3fZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "WFM01/01",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "Use linear interpolation once on the interval `left square bracket 1.25 comma space 1.5 right square bracket` to obtain a different approximation for $α$, giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical table detailing steps for solving equations, including values, formulae, and instructions. Mark schemes appear on the right.](assets/017-mathematical-table-detailing-steps-for-solving-e.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_77sKdky9987rvqfx",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_XrMNWjQyhyfx3MXy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WFM01/01",
+      "question_number": 4,
+      "question_part": "ai,aii,aiii"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=1-\\frac{1}{8x^{4}}+\\frac{2}{7\\sqrt{x^{7}}}x>0$\n\nThe equation $f(x)=0$ has a single root, $α$, that lies in the interval `left square bracket 0.15 comma space 0.25 right square bracket`\n\n(i) Determine $f'(x)$\n\n[2]\n\n(ii) Explain why 0.25 cannot be used as an initial approximation for $α$ in the Newton-Raphson process.\n\n[1]\n\n(iii) Taking 0.15 as a first approximation to $α$ apply the Newton-Raphson process once to $f(x)$ to obtain a second approximation to $α$ \nGive your answer to 3 decimal places.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution steps with derivative calculations and results for α using given values, with notes on division by zero and numerical result to 3 d.p.](assets/032-mathematical-solution-steps-with-derivative-calc.png)\n> \n> ![Notes with guidelines on differentiation and the Newton-Raphson method, including criteria for awarding marks and required justifications for answers.](assets/033-notes-with-guidelines-on-differentiation-and-the.png)",
+     "equations": [
+      {
+       "latex": "f(x)=1-\\frac{1}{8x^{4}}+\\frac{2}{7\\sqrt{x^{7}}}x>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><mn>8</mn><msup><mi>x</mi><mn>4</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mn>2</mn><mrow><mn>7</mn><msqrt><msup><mi>x</mi><mn>7</mn></msup></msqrt></mrow></mfrac><mo>&#160;&#160;&#160;&#160;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 1 minus fraction numerator 1 over denominator 8 x to the power of 4 end fraction plus fraction numerator 2 over denominator 7 square root of x to the power of 7 end root end fraction      x greater than 0"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f apostrophe left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_45TCVKStKZsDqtZD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WFM01/01",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "Use linear interpolation once on the interval `left square bracket 0.15 comma space 0.25 right square bracket` to find another approximation to $α$\nGive your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical calculations involving functions, differences, and constants, showing step-by-step solutions, with approximations to three decimal places.](assets/034-mathematical-calculations-involving-functions-di.png)\n> \n> **Notes**\n> \n> ![Maths instructions for interpolation strategy, using variable α. Details steps for finding α, allowing for any correct working or statement.](assets/035-maths-instructions-for-interpolation-strategy-us.png)\n> \n> ![Text reads: \"A1: Accept awrt 0.233 following correct working\" in a bordered box, indicating a grading note or instruction.](assets/036-text-reads-a1-accept-awrt-0-233-following-correc.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CSDkQNykNtXNpcs8",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_3RjBZ4MttnrtGB8r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2022",
+      "number": "WFM01/01",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=10-2x-\\frac{1}{2\\sqrt{x}}-\\frac{1}{x^{3}}x>0$\n\nShow that the equation $f(x)=0$ has a root $α$ in the interval [0.4, 0.5]",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical table analysing function \\( f(x) = 10 - 2x - \\frac{1}{2\\sqrt{x}} - \\frac{1}{x^3} \\), for \\( x > 0 \\), showing calculations and conditions for roots.](assets/022-mathematical-table-analysing-function-f-x-10-2x-.png)",
+     "equations": [
+      {
+       "latex": "f(x)=10-2x-\\frac{1}{2\\sqrt{x}}-\\frac{1}{x^{3}}x>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>10</mn><mo>-</mo><mn>2</mn><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>-</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>&#160;&#160;&#160;&#160;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 10 minus 2 x minus fraction numerator 1 over denominator 2 square root of x end fraction minus 1 over x cubed      x greater than 0"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_wmsGccqPKs9WctSV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2022",
+      "number": "WFM01/01",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Determine $f'(x)$.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical function f'(x) includes terms with powers of x. A table alongside shows criteria for partial and complete correctness.](assets/023-mathematical-function-f-x-includes-terms-with-po.png)",
+     "equations": [
+      {
+       "latex": "f'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f apostrophe left parenthesis x right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Y3Bf8rdDbK3CHYSV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2022",
+      "number": "WFM01/01",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Using $x_{0}=0.5$ as a first approximation to $α$, apply the Newton-Raphson procedure once to $f(x)$ to find a second approximation to $α$ , giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Newton-Raphson calculation shows \\(x_1 = 0.494\\) using \\(f(0.5)\\) and its derivative, with marks for correct method (M1) and accuracy (A1).](assets/024-newton-raphson-calculation-shows-x-1-0-494-using.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 0.5"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_78byGSJtyXmcHcXM",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2022",
+      "number": "WFM01/01",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation $f(x)=0$ has another root $β$ in the interval [4.8, 4.9]\n\nUse linear interpolation once on the interval [4.8, 4.9] to find an approximation to $β$ , giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical interpolation method showing \\( \\beta \\) calculation, resulting in \\( \\beta = 4.883 \\); notes on correct method and value with annotations M1, A1.](assets/025-mathematical-interpolation-method-showing-beta-c.png)\n> \n> **Alt 1**\n> \n> ![Mathematical solution featuring interpolation method, β calculation with fractions and constants, final value 4.883. Accompanying text notes method and accuracy.](assets/026-mathematical-solution-featuring-interpolation-me.png)\n> \n> **Alt 2**\n> \n> ![Equation solving with gradient calculation, line equation formation, and value substitution; notes include correctness criteria and penalty warnings.](assets/027-equation-solving-with-gradient-calculation-line-.png)",
+     "equations": [
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 0"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PpN5kz9WMB9HHH3Z",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_Dsj5bYGCVTtQJN36",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Jan 2022",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=2x^{-\\frac{2}{3}}+\\frac{1}{2}x-\\frac{1}{3x-5}-\\frac{5}{2}x\\neq\\frac{5}{3}$\n\nThe table below shows values of $f(x)$ for some values of $x$ , with values of $f(x)$ given to 4 decimal places where appropriate.\n\n| x | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| f(x) | 0.5 |   | −0.2885 |   | 0.5834 |\n\nComplete the table giving the values to 4 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Table with values: x from 1 to 5; f(x) values range from 0.5 to 0.5840. Two conditions on the right with \"B1\" marked for each.](assets/037-table-with-values-x-from-1-to-5-f-x-values-range.png)\n> \n> **Notes:**\n> \n> ![Text discussing the acceptance of open or closed intervals in answers, specifying B1 mark criteria for providing one or both correct missing values.](assets/038-text-discussing-the-acceptance-of-open-or-closed.png)",
+     "equations": [
+      {
+       "latex": "f(x)=2x^{-\\frac{2}{3}}+\\frac{1}{2}x-\\frac{1}{3x-5}-\\frac{5}{2}x\\neq\\frac{5}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mrow><mo>-</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>x</mi><mo>-</mo><mn>5</mn></mrow></mfrac><mo>-</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>&#160;&#160;&#160;&#160;</mo><mi>x</mi><mo>&#8800;</mo><mfrac><mn>5</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis equals 2 x to the power of negative 2 over 3 end exponent plus 1 half x minus fraction numerator 1 over denominator 3 x minus 5 end fraction minus 5 over 2      x not equal to 5 over 3"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_yWkZx2ywYtB6nPWw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Jan 2022",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation $f(x)=0$ has exactly one positive root, $α$\n\ndetermine an interval of width one that contains $α$",
+     "solution_md": "> **[mark-scheme]**\n> ![Table with text explaining a mathematical concept: identify interval [3,4] where a function is continuous, noting change in sign. Marks: M1, A1, total (2).](assets/039-table-with-text-explaining-a-mathematical-concep.png)\n> \n> **Notes:**\n> \n> ![M1 and A1 criteria for identifying intervals with sign changes. Includes conditions for function definition and asymptote at x = 5/3.](assets/040-m1-and-a1-criteria-for-identifying-intervals-wit.png)",
+     "equations": [
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MmXFWjqBXrCPYw4r",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Jan 2022",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_rS66jWdV6BtkFBXm"
+     ],
+     "part_tier": null,
+     "problem_md": "Hence use interval bisection twice to obtain an interval of width 0.25 that contains  $α$",
+     "solution_md": "> **[mark-scheme]**\n> ![Table showing calculations: f(3.5) = -0.064, f(3.75) = 0.0435, indicating a root in the interval [3.5, 3.75]. Marks M1, M1, A1, total (3).](assets/041-table-showing-calculations-f-3-5-0-064-f-3-75-0-.png)\n> \n> **Notes:**\n> \n> ![Criteria for awarding marks in a mathematical evaluation, specifying conditions involving midpoint evaluation, interval selection, and accuracy requirements.](assets/042-criteria-for-awarding-marks-in-a-mathematical-ev.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4zx4qXqxpK9Nwvxx",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Jan 2022",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "Given also that the equation $f(x)=0$ has a negative root, $β$ , in the interval `left square bracket negative 1 comma space minus 0.5 right square bracket`\n\nuse linear interpolation once on this interval to find an approximation for $β$\n\nGive your answer to 3 significant figures.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical calculation in a table with steps to find β, using different derived expressions. Includes evaluations and adjustments of the value of β.](assets/043-mathematical-calculation-in-a-table-with-steps-t.png)\n> \n> **Notes:**\n> \n> ![Grading criteria detail interpolation strategy, formula accuracy, finding β, and accepting rounded result -0.699 for correct working.](assets/044-grading-criteria-detail-interpolation-strategy-f.png)",
+     "equations": [
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FyK9XqsqD9CrR2zC",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_gYpFt7NTm2y6kxhC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "Paper 1",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=7\\sqrt{x}-\\frac{1}{2}x^{3}-\\frac{5}{3x}x>0$\n\nShow that the equation $f(x)=0$ has a root, $α$, in the interval `left square bracket 2.8 comma   2.9 right square bracket`",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical table showing the function \\( f(x) \\), calculations for \\( f(2.8) \\) and \\( f(2.9) \\), and the conclusion on the sign change indicating a root.](assets/028-mathematical-table-showing-the-function-f-x-calc.png)",
+     "equations": [
+      {
+       "latex": "f(x)=7\\sqrt{x}-\\frac{1}{2}x^{3}-\\frac{5}{3x}x>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>7</mn><msqrt><mi>x</mi></msqrt><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mfrac><mn>5</mn><mrow><mn>3</mn><mi>x</mi></mrow></mfrac><mo>&#160;&#160;&#160;&#160;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis equals 7 square root of x minus 1 half x cubed minus fraction numerator 5 over denominator 3 x end fraction      x greater than 0"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hRx9Tq795f6MmbGZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "Paper 1",
+      "question_number": 2,
+      "question_part": "b(i)(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Find $f'(x)$\n\n(ii) Hence, using $x_{0}=2.8$ as a first approximation to $α$ , apply the Newton–Raphson procedure once to $f(x)$ to calculate a second approximation to $α$ , giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> ![Derivative calculation with f'(x) = 7/2x^(-1/2) - 3/2x^2 + 5/3x^2. Marks M1 for x^n to x^(n-1) step, A1 for correct derivative.](assets/029-derivative-calculation-with-f-x-7-2x-1-2-3-2x-2-.png)\n> \n> (ii)\n> \n> ![Newton-Raphson method applied: \\( x_1 = 2.8 - \\frac{f(2.8)}{f'(2.8)} = 2.815 \\). Includes notes on method and derivative use.](assets/030-newton-raphson-method-applied-x-1-2-8-frac-f-2-8.png)",
+     "equations": [
+      {
+       "latex": "f'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f apostrophe left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x_{0}=2.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 2.8"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hWbd6VPy4YcNKdFW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2021",
+      "number": "Paper 1",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "Use linear interpolation once on the interval `left square bracket 2.8 comma   2.9 right square bracket` to find another approximation to $α$. Give your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution sheet showing linear interpolation equations, calculations for variables α and x, and scoring annotations in columns labelled B1, M1, A1.](assets/031-mathematical-solution-sheet-showing-linear-inter.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BYzcdRfPcdXn5pbS",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_hDVgnkYPWsyCkWYC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 1",
+      "question_number": 1,
+      "question_part": "i(a(b)"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ",
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=x^{3}+4x-6$\n\n(a) Show that the equation $f(x)=0$ has a root $α$ in the interval `left square bracket 1 comma space 1.5 right square bracket`\n\n[2]\n\n(b) Taking $1.5$ as a first approximation, apply the Newton–Raphson process twice to $f(x)$ to obtain an approximate value of $α$.Give your answer to 3 decimal places. Show your working clearly.\n\n[4]",
+     "solution_md": "> **[mark-scheme]**\n> (a)\n> \n> ![Math problem analysing the function \\(f(x)=x^3+4x-6\\) with evaluations at x=1 and x=1.5, showing sign change and continuity, in a table format.](assets/005-math-problem-analysing-the-function-f-x-x-3-4x-6.png)\n> \n> (b)\n> \n> ![Mathematical workings for Newton-Raphson method, including derivatives, calculations for x-values, and final approximation α ≈ 1.136 in a tabular format.](assets/006-mathematical-workings-for-newton-raphson-method-.png)",
+     "equations": [
+      {
+       "latex": "f(x)=x^{3}+4x-6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis equals x cubed plus 4 x minus 6"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "1.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.5"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_v57K4cddVS8hhFzn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2021",
+      "number": "Paper 1",
+      "question_number": 1,
+      "question_part": "ii"
+     },
+     "spec_point_ids": [
+      "spcpt_vywmYvX3FQXf7n75"
+     ],
+     "part_tier": null,
+     "problem_md": "$g(x)=4x^{2}+x-\\mathrm{tan}x$\n\nwhere $x$ is measured in radians.\n\nThe equation $g(x)=0$ has a single root $β$ in the interval `left square bracket 1.4 comma space 1.5 right square bracket`.\n\nUse linear interpolation on the values at the end points of this interval to obtain an approximation to $β$. Give your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical table showing linear interpolation, equations, notations, and assessment criteria with instructions for evaluating a correct statement.](assets/007-mathematical-table-showing-linear-interpolation-.png)",
+     "equations": [
+      {
+       "latex": "g(x)=4x^{2}+x-\\mathrm{tan}x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>-</mo><mi>tan</mi><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "g left parenthesis x right parenthesis equals 4 x squared plus x minus tan x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "g(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "g left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      },
+      {
+       "latex": "β",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#946;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "beta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_r2N5D5nWygNRkM2j",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_YCnJ2WzJYq6FsmVG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Jan 2021",
+      "number": "Paper 1",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "Show that the equation $4x-2\\mathrm{sin}x-1=0$, where $x$is in radians, has a root  in $α$ the interval`left square bracket 0.2 comma space 0.6 right square bracket`",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution showing function values f(0.2)=-0.5973, f(0.6)=0.2707, indicating a sign change and root in the interval; marks M1, A1, and 2.](assets/001-mathematical-solution-showing-function-values-f-.png)\n> \n> **Notes**\n> \n> ![Instructions for accuracy marks in calculations, emphasising correct values, sign changes, continuity, and method marks using examples f(0.2) and f(0.6).](assets/002-instructions-for-accuracy-marks-in-calculations-.png)",
+     "equations": [
+      {
+       "latex": "4x-2\\mathrm{sin}x-1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>x</mi><mo>-</mo><mn>2</mn><mi>sin</mi><mi>x</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 x minus 2 sin x minus 1 equals 0"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FjVBGnZYWJFBWXPW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Jan 2021",
+      "number": "Paper 1",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rS66jWdV6BtkFBXm"
+     ],
+     "part_tier": null,
+     "problem_md": "Starting with the interval `left square bracket 0.2 comma space 0.6 right square bracket`,use interval bisection twice to find an interval of width $0.1$ in which $α$ lies.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical notes showing calculations for function f at 0.4 and 0.5, indicating the range 0.4 ≤ α ≤ 0.5. Marginal codes: B1, M1, A1 (3).](assets/003-mathematical-notes-showing-calculations-for-func.png)\n> \n> ** Notes**\n> \n> ![Instructions for rounding values of f at 0.4 and 0.5 and providing intervals. Accept various interval notations and attempt values for calculations.](assets/004-instructions-for-rounding-values-of-f-at-0-4-and.png)",
+     "equations": [
+      {
+       "latex": "0.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.1"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TGpcJ8TqjKnN6cXR",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_6vVBD5qKx8Qnhfsz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "October 2020",
+      "number": "WFM01/01",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cB4gPQXjPVyXhqv2"
+     ],
+     "part_tier": null,
+     "problem_md": "$f(x)=x^{3}-\\frac{10\\sqrt{x}-4x}{x^{2}}x>0$\n\nShow that the equation $f(x)=0$ has a root $α$ in the interval `left square bracket 1.4 comma space 1.5 right square bracket`",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical table with function, calculations for f(1.4) and f(1.5), and notes on sign change indicating a root between x=1.4 and x=1.5.](assets/008-mathematical-table-with-function-calculations-fo.png)",
+     "equations": [
+      {
+       "latex": "f(x)=x^{3}-\\frac{10\\sqrt{x}-4x}{x^{2}}x>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mfrac><mrow><mn>10</mn><msqrt><mi>x</mi></msqrt><mo>-</mo><mn>4</mn><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>&#160;&#160;&#160;&#160;</mo><mi>x</mi><mo>&#62;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals x cubed minus fraction numerator 10 square root of x minus 4 x over denominator x squared end fraction      x greater than 0"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis space equals space 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_HRnYrcR7MJx3kb9M",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "October 2020",
+      "number": "WFM01/01",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Determine $f'(x)$.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical derivation with function \\( f(x) = x^3 - \\frac{10\\sqrt{x} - 4x}{x^2} \\), differentiating to \\( f'(x) = 3x^2 + 15x^{-\\frac{1}{2}} - 4x^{-2} \\).](assets/009-mathematical-derivation-with-function-f-x-x-3-fr.png)\n> \n> ![Mathematical expression with notes on acceptable unsimplified forms, errors, and scoring guidance for parts (b) and (c) of a problem.](assets/010-mathematical-expression-with-notes-on-acceptable.png)",
+     "equations": [
+      {
+       "latex": "f'(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f apostrophe left parenthesis x right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XZW7CcRjMRskjpdG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "October 2020",
+      "number": "WFM01/01",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_fm8GnX9jBsbsyZFJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Using $x_{0}=1.4$ as a first approximation to $α$, apply the Newton-Raphson procedure once to $f(x)$ to calculate a second approximation to $α$, giving your answer to 3 decimal places.",
+     "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution using Newton-Raphson method shown, with commentary on mark allocation, including correct procedure proof and numerical answer.](assets/011-mathematical-solution-using-newton-raphson-metho.png)\n> \n> ![Table showing a note indicating a common error in part (b) with +4x^-2 instead of -4x^-2, resulting in 1.430 in part (c); scoring guidance provided.](assets/012-table-showing-a-note-indicating-a-common-error-i.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=1.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1.4"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#945;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

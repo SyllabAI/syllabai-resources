@@ -92,6 +92,14 @@ _MO_MAP = {
     "\u2211": r"\sum", "\u2206": r"\Delta", "\u2261": r"\equiv", "\u2260": r"\neq",
     "\u221a": r"\sqrt{}", "\u00b1": r"\pm", "\u2032": "'", "\u223f": r"\sim",
     "\u00b0": r"^{\circ}", "\u2736": r"\star", "\u22c5": r"\cdot",
+    # A-level maths operators (IAL pages use these; missing entries used to
+    # fail the whole equation into spoken-text fallback)
+    "*": r"\ast", "\u2218": r"\circ", "\u2208": r"\in", "\u2209": r"\notin",
+    "\u2229": r"\cap", "\u222a": r"\cup", "\u2282": r"\subset",
+    "\u2286": r"\subseteq", "\u2205": r"\emptyset", "\u221d": r"\propto",
+    "\u2026": r"\dots", "\u22ef": r"\cdots", "\u21d0": r"\Leftarrow",
+    "\u22ee": r"\vdots", "\u2033": "''", "\u00ac": r"\neg",
+    "\u2234": r"\therefore", "\u2235": r"\because", "\u2016": r"\|",
 }
 
 
