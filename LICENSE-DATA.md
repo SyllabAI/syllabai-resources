@@ -28,10 +28,13 @@ their permission. (in fact they will be sponsoring me)".
 Consequences of this amendment:
 
 - The "redistribution is not authorized" position above is **amended for
-  Save My Exams material only**: use and redistribution of the SME-derived
-  revision-note corpus inside SyllabAI surfaces (including this repository
-  and the authenticated product) is covered by the rights holder's
-  authorization as attested above.
+  Save My Exams material only**: use and redistribution of SME-derived
+  corpora inside SyllabAI surfaces (including this repository and the
+  authenticated product) is covered by the rights holder's authorization
+  as attested above. Covered corpora: the revision-note corpus
+  (`Chemistry IGCSE Revision Notes/`) and the exam-questions corpus
+  (`SME-ExamQuestion/`, scraped 2026-09-17 under the same attestation —
+  questions, mark schemes, and question images).
 - Pearson (Edexcel) examination material is **unaffected** — the attestation
   covers Save My Exams material only; the ADR-013 license-wall posture stays
   for exam-board content.
