@@ -14,8 +14,32 @@ The RAG revision-note corpus: SME-authored IGCSE Chemistry (4CH1) revision notes
 
 ## Licensing position
 
-- Internal pilot use under institution/own-use terms (ADR-013 posture). Re-check terms before any redistribution — redistribution is **not** authorized by this notice.
+- Internal pilot use under institution/own-use terms (ADR-013 posture). Re-check terms before any redistribution — redistribution is **not** authorized by this notice. *(Amended 2026-09-17 for Save My Exams material — see the amendment section below.)*
 - Takedown / correction requests: open an issue on this repository or contact the repository owner via GitHub; affected material will be removed promptly.
+
+## Amendment 2026-09-17 — Save My Exams authorization (operator attestation)
+
+The operator (Nawaf Al Hussain Khondokar) attests that Save My Exams Ltd has
+granted SyllabAI permission to use the SME-derived revision-note corpus in the
+SyllabAI product, and that Save My Exams will sponsor the project. Recorded
+verbatim in-session, 2026-09-17: "there is no licensing issue with SME, I have
+their permission. (in fact they will be sponsoring me)".
+
+Consequences of this amendment:
+
+- The "redistribution is not authorized" position above is **amended for
+  Save My Exams material only**: use and redistribution of the SME-derived
+  revision-note corpus inside SyllabAI surfaces (including this repository
+  and the authenticated product) is covered by the rights holder's
+  authorization as attested above.
+- Pearson (Edexcel) examination material is **unaffected** — the attestation
+  covers Save My Exams material only; the ADR-013 license-wall posture stays
+  for exam-board content.
+- Operator follow-ups (not blockers): retain the written permission /
+  sponsorship agreement on file; decide whether to surface a sponsor credit
+  ("Revision notes in partnership with Save My Exams") in the product UI.
+- Provenance (front-matter source URLs, SHA-256 ledgers) remains in force
+  unchanged; takedown / correction handling remains as stated above.
 
 ## Related internal policy
 
