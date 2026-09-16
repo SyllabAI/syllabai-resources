@@ -1,613 +1,572 @@
 {
- "schema": "syllabai.sme-exam-questions/1.0",
- "generated_utc": "2026-09-16T21:24:16Z",
+ "schema": "syllabai.sme-exam-questions-registry/1.0",
+ "generated_utc": "2026-09-16T22:36:27Z",
  "source": {
   "provider": "Save My Exams",
-  "landing_url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/",
-  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
- },
- "course": {
   "board": "Edexcel",
-  "level": "IGCSE",
-  "subject": "Chemistry",
-  "code": "4CH1",
-  "syllabus_version": "2017",
-  "sme_syllabus_id": "19"
+  "registry_builder": "scripts/sme_examq_courses.py",
+  "license": "operator-authorized; see LICENSE-DATA.md (SME attestation 2026-09-17, covers all SME corpora in this repo)"
  },
- "totals": {
-  "topics": 28,
-  "questions": 524,
-  "parts": 1404,
-  "marks": 3708,
-  "assets": 585,
-  "asset_failures": 0,
-  "missing_questions": 1,
-  "equations": 461
- },
- "topics": [
+ "course_count": 39,
+ "scraped_courses": 1,
+ "courses": [
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-1-states-of-matter/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-1-states-of-matter",
-   "topic_name": "States of Matter",
-   "questions": 23,
-   "parts": 53,
-   "total_marks": 120,
-   "assets": 25,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 9,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-biology-18",
+   "level": "international-a-level",
+   "subject": "biology",
+   "mid": "18",
+   "landing_url": "https://www.savemyexams.com/international-a-level/biology/edexcel/18/topic-questions/",
+   "page_count": 28,
+   "leaf_types": {
+    "exam-questions": 28
+   },
+   "sections": 8,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-2-elements-compounds-and-mixtures",
-   "topic_name": "Elements, Compounds & Mixtures",
-   "questions": 25,
-   "parts": 67,
-   "total_marks": 187,
-   "assets": 31,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 25,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-chemistry-17",
+   "level": "international-a-level",
+   "subject": "chemistry",
+   "mid": "17",
+   "landing_url": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/topic-questions/",
+   "page_count": 72,
+   "leaf_types": {
+    "exam-questions": 1,
+    "structured-questions": 36,
+    "multiple-choice-questions": 35
+   },
+   "sections": 7,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-3-atomic-structure/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-3-atomic-structure",
-   "topic_name": "Atomic Structure",
-   "questions": 18,
-   "parts": 44,
-   "total_marks": 104,
-   "assets": 11,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 5,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-further-maths-18-further-pure-1",
+   "level": "international-a-level",
+   "subject": "further-maths",
+   "mid": "18/further-pure-1",
+   "landing_url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/topic-questions/",
+   "page_count": 9,
+   "leaf_types": {
+    "exam-questions": 9
+   },
+   "sections": 7,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-4-the-periodic-table/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-4-the-periodic-table",
-   "topic_name": "The Periodic Table",
-   "questions": 17,
-   "parts": 40,
-   "total_marks": 89,
-   "assets": 10,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 1,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-decision-1",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/decision-1",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/topic-questions/",
+   "page_count": 9,
+   "leaf_types": {
+    "exam-questions": 9
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-5-chemical-formulae-equations-calculations/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-5-chemical-formulae-equations-calculations",
-   "topic_name": "Chemical Formulae, Equations, Calculations",
-   "questions": 34,
-   "parts": 89,
-   "total_marks": 262,
-   "assets": 26,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 110,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-mechanics-1",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/mechanics-1",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-1/topic-questions/",
+   "page_count": 10,
+   "leaf_types": {
+    "exam-questions": 10
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-6-ionic-bonding/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-6-ionic-bonding",
-   "topic_name": "Ionic Bonding",
-   "questions": 19,
-   "parts": 54,
-   "total_marks": 137,
-   "assets": 15,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 1,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-mechanics-2",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/mechanics-2",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-2/topic-questions/",
+   "page_count": 8,
+   "leaf_types": {
+    "exam-questions": 8
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-7-covalent-bonding/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-7-covalent-bonding",
-   "topic_name": "Covalent Bonding",
-   "questions": 19,
-   "parts": 55,
-   "total_marks": 136,
-   "assets": 28,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 13,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-pure-1",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/pure-1",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-1/topic-questions/",
+   "page_count": 13,
+   "leaf_types": {
+    "exam-questions": 13
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-8-metallic-bonding/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-8-metallic-bonding",
-   "topic_name": "Metallic Bonding",
-   "questions": 15,
-   "parts": 45,
-   "total_marks": 97,
-   "assets": 10,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 0,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-pure-2",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/pure-2",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/topic-questions/",
+   "page_count": 12,
+   "leaf_types": {
+    "exam-questions": 12
+   },
+   "sections": 8,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-9-electrolysis/exam-questions/",
-   "section_slug": "1-principles-of-chemistry",
-   "section_name": "1. Principles of Chemistry",
-   "topic_slug": "1-9-electrolysis",
-   "topic_name": "Electrolysis",
-   "questions": 17,
-   "parts": 46,
-   "total_marks": 132,
-   "assets": 26,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 7,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-pure-3",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/pure-3",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/topic-questions/",
+   "page_count": 12,
+   "leaf_types": {
+    "exam-questions": 12
+   },
+   "sections": 6,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-1-group-1-alkali-metals/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-1-group-1-alkali-metals",
-   "topic_name": "Group 1 (Alkali Metals)",
-   "questions": 18,
-   "parts": 47,
-   "total_marks": 139,
-   "assets": 7,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 13,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-pure-4",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/pure-4",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/topic-questions/",
+   "page_count": 12,
+   "leaf_types": {
+    "exam-questions": 12
+   },
+   "sections": 7,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-2-group-7-halogens/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-2-group-7-halogens",
-   "topic_name": "Group 7 (Halogens)",
-   "questions": 18,
-   "parts": 50,
-   "total_marks": 123,
-   "assets": 4,
-   "asset_failures": [],
-   "missing_questions": [
-    "qstn_sQ7YrR5g4TkZryHN"
-   ],
-   "equations": 1,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-statistics-1",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/statistics-1",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/topic-questions/",
+   "page_count": 7,
+   "leaf_types": {
+    "exam-questions": 7
+   },
+   "sections": 3,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-3-gases-in-the-atmosphere/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-3-gases-in-the-atmosphere",
-   "topic_name": "Gases in the Atmosphere",
-   "questions": 18,
-   "parts": 49,
-   "total_marks": 121,
-   "assets": 16,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 8,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-maths-20-statistics-2",
+   "level": "international-a-level",
+   "subject": "maths",
+   "mid": "20/statistics-2",
+   "landing_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/topic-questions/",
+   "page_count": 7,
+   "leaf_types": {
+    "exam-questions": 7
+   },
+   "sections": 2,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-4-reactivity-series/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-4-reactivity-series",
-   "topic_name": "Reactivity Series",
-   "questions": 19,
-   "parts": 46,
-   "total_marks": 119,
-   "assets": 14,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 5,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "ial-physics-19",
+   "level": "international-a-level",
+   "subject": "physics",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/international-a-level/physics/edexcel/19/topic-questions/",
+   "page_count": 67,
+   "leaf_types": {
+    "structured-questions": 36,
+    "multiple-choice-questions": 31
+   },
+   "sections": 6,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-5-extraction-and-uses-of-metals/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-5-extraction-and-uses-of-metals",
-   "topic_name": "Extraction & Uses of Metals",
-   "questions": 16,
-   "parts": 47,
-   "total_marks": 106,
-   "assets": 6,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 16,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-accounting-17-financial-statements",
+   "level": "igcse",
+   "subject": "accounting",
+   "mid": "17/financial-statements",
+   "landing_url": "https://www.savemyexams.com/igcse/accounting/edexcel/17/financial-statements/topic-questions/",
+   "page_count": 5,
+   "leaf_types": {
+    "exam-questions": 5
+   },
+   "sections": 1,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-6-acids-alkalis-and-titrations/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-6-acids-alkalis-and-titrations",
-   "topic_name": "Acids, Alkalis & Titrations",
-   "questions": 17,
-   "parts": 41,
-   "total_marks": 105,
-   "assets": 7,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 27,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-accounting-17-introduction-to-bookkeeping-and-accounting",
+   "level": "igcse",
+   "subject": "accounting",
+   "mid": "17/introduction-to-bookkeeping-and-accounting",
+   "landing_url": "https://www.savemyexams.com/igcse/accounting/edexcel/17/introduction-to-bookkeeping-and-accounting/topic-questions/",
+   "page_count": 15,
+   "leaf_types": {
+    "exam-questions": 15
+   },
+   "sections": 3,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-7-acids-bases-and-salt-preparations/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-7-acids-bases-and-salt-preparations",
-   "topic_name": "Acids, Bases & Salt Preparations",
-   "questions": 17,
-   "parts": 42,
-   "total_marks": 125,
-   "assets": 7,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 16,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-biology-19",
+   "level": "igcse",
+   "subject": "biology",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/igcse/biology/edexcel/19/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "exam-questions": 21
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/2-inorganic-chemistry/2-8-chemical-tests/exam-questions/",
-   "section_slug": "2-inorganic-chemistry",
-   "section_name": "2. Inorganic Chemistry",
-   "topic_slug": "2-8-chemical-tests",
-   "topic_name": "Chemical Tests",
-   "questions": 16,
-   "parts": 30,
-   "total_marks": 95,
-   "assets": 4,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 13,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-biology-modular-24-unit-1",
+   "level": "igcse",
+   "subject": "biology",
+   "mid": "modular/24/unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/biology/edexcel/modular/24/unit-1/topic-questions/",
+   "page_count": 8,
+   "leaf_types": {
+    "exam-questions": 8
+   },
+   "sections": 2,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/3-physical-chemistry/3-1-energetics/exam-questions/",
-   "section_slug": "3-physical-chemistry",
-   "section_name": "3. Physical Chemistry",
-   "topic_slug": "3-1-energetics",
-   "topic_name": "Energetics",
-   "questions": 26,
-   "parts": 60,
-   "total_marks": 198,
-   "assets": 39,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 50,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-biology-modular-24-unit-2",
+   "level": "igcse",
+   "subject": "biology",
+   "mid": "modular/24/unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/biology/edexcel/modular/24/unit-2/topic-questions/",
+   "page_count": 13,
+   "leaf_types": {
+    "exam-questions": 13
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/3-physical-chemistry/3-2-rates-of-reaction/exam-questions/",
-   "section_slug": "3-physical-chemistry",
-   "section_name": "3. Physical Chemistry",
-   "topic_slug": "3-2-rates-of-reaction",
-   "topic_name": "Rates of Reaction",
-   "questions": 24,
-   "parts": 74,
-   "total_marks": 220,
-   "assets": 63,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 9,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-business-19",
+   "level": "igcse",
+   "subject": "business",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/igcse/business/edexcel/19/topic-questions/",
+   "page_count": 25,
+   "leaf_types": {
+    "exam-questions": 25
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/3-physical-chemistry/3-3-reversible-reactions-and-equilibria/exam-questions/",
-   "section_slug": "3-physical-chemistry",
-   "section_name": "3. Physical Chemistry",
-   "topic_slug": "3-3-reversible-reactions-and-equilibria",
-   "topic_name": "Reversible Reactions & Equilibria",
-   "questions": 16,
-   "parts": 44,
-   "total_marks": 101,
-   "assets": 7,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 25,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-chemistry-19",
+   "level": "igcse",
+   "subject": "chemistry",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/",
+   "page_count": 28,
+   "leaf_types": {
+    "exam-questions": 28
+   },
+   "sections": 4,
+   "status": "scraped",
+   "totals": {
+    "topics": 28,
+    "questions": 524,
+    "parts": 1404,
+    "marks": 3708,
+    "assets": 585,
+    "asset_failures": 0,
+    "missing_questions": 1,
+    "equations": 461
+   }
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-1-introduction/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-1-introduction",
-   "topic_name": "Introduction",
-   "questions": 16,
-   "parts": 49,
-   "total_marks": 119,
-   "assets": 28,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 31,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-chemistry-modular-24-unit-1",
+   "level": "igcse",
+   "subject": "chemistry",
+   "mid": "modular/24/unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/chemistry/edexcel/modular/24/unit-1/topic-questions/",
+   "page_count": 14,
+   "leaf_types": {
+    "exam-questions": 14
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-2-crude-oil/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-2-crude-oil",
-   "topic_name": "Crude Oil",
-   "questions": 19,
-   "parts": 58,
-   "total_marks": 165,
-   "assets": 17,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 9,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-chemistry-modular-24-unit-2",
+   "level": "igcse",
+   "subject": "chemistry",
+   "mid": "modular/24/unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/chemistry/edexcel/modular/24/unit-2/topic-questions/",
+   "page_count": 14,
+   "leaf_types": {
+    "exam-questions": 14
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-3-alkanes/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-3-alkanes",
-   "topic_name": "Alkanes",
-   "questions": 16,
-   "parts": 42,
-   "total_marks": 114,
-   "assets": 42,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 7,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-economics-17",
+   "level": "igcse",
+   "subject": "economics",
+   "mid": "17",
+   "landing_url": "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/",
+   "page_count": 13,
+   "leaf_types": {
+    "exam-questions": 13
+   },
+   "sections": 3,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-4-alkenes/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-4-alkenes",
-   "topic_name": "Alkenes",
-   "questions": 16,
-   "parts": 49,
-   "total_marks": 128,
-   "assets": 31,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 17,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-english-literature-16",
+   "level": "igcse",
+   "subject": "english-literature",
+   "mid": "16",
+   "landing_url": "https://www.savemyexams.com/igcse/english-literature/edexcel/16/topic-questions/",
+   "page_count": 16,
+   "leaf_types": {
+    "exam-questions": 16
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-5-alcohols/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-5-alcohols",
-   "topic_name": "Alcohols",
-   "questions": 18,
-   "parts": 51,
-   "total_marks": 148,
-   "assets": 19,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 6,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-further-maths-19",
+   "level": "igcse",
+   "subject": "further-maths",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/topic-questions/",
+   "page_count": 19,
+   "leaf_types": {
+    "exam-questions": 19
+   },
+   "sections": 7,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-6-carboxylic-acids/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-6-carboxylic-acids",
-   "topic_name": "Carboxylic acids",
-   "questions": 16,
-   "parts": 45,
-   "total_marks": 106,
-   "assets": 18,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 15,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-geography-19",
+   "level": "igcse",
+   "subject": "geography",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/igcse/geography/edexcel/19/topic-questions/",
+   "page_count": 39,
+   "leaf_types": {
+    "exam-questions": 39
+   },
+   "sections": 15,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-7-esters/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-7-esters",
-   "topic_name": "Esters",
-   "questions": 16,
-   "parts": 48,
-   "total_marks": 113,
-   "assets": 22,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 17,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-ict-17",
+   "level": "igcse",
+   "subject": "ict",
+   "mid": "17",
+   "landing_url": "https://www.savemyexams.com/igcse/ict/edexcel/17/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "exam-questions": 21
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
   },
   {
-   "url": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/4-organic-chemistry/4-8-synthetic-polymers/exam-questions/",
-   "section_slug": "4-organic-chemistry",
-   "section_name": "4. Organic Chemistry",
-   "topic_slug": "4-8-synthetic-polymers",
-   "topic_name": "Synthetic polymers",
-   "questions": 15,
-   "parts": 39,
-   "total_marks": 99,
-   "assets": 52,
-   "asset_failures": [],
-   "missing_questions": [],
-   "equations": 5,
-   "files": [
-    "topic.json",
-    "questions.md",
-    "mark-schemes.md"
-   ],
-   "reused": true
+   "slug": "igcse-maths-a-18-foundation",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "a/18/foundation",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/a/18/foundation/topic-questions/",
+   "page_count": 45,
+   "leaf_types": {
+    "exam-questions": 45
+   },
+   "sections": 6,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-maths-a-18-higher",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "a/18/higher",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/a/18/higher/topic-questions/",
+   "page_count": 58,
+   "leaf_types": {
+    "exam-questions": 58
+   },
+   "sections": 6,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-maths-a-modular-24-foundation-unit-1",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "a-modular/24/foundation-unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/foundation-unit-1/topic-questions/",
+   "page_count": 25,
+   "leaf_types": {
+    "exam-questions": 25
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-maths-a-modular-24-foundation-unit-2",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "a-modular/24/foundation-unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/foundation-unit-2/topic-questions/",
+   "page_count": 21,
+   "leaf_types": {
+    "exam-questions": 21
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-maths-a-modular-24-higher-unit-1",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "a-modular/24/higher-unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/higher-unit-1/topic-questions/",
+   "page_count": 31,
+   "leaf_types": {
+    "exam-questions": 31
+   },
+   "sections": 6,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-maths-a-modular-24-higher-unit-2",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "a-modular/24/higher-unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/higher-unit-2/topic-questions/",
+   "page_count": 27,
+   "leaf_types": {
+    "exam-questions": 27
+   },
+   "sections": 6,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-physics-19",
+   "level": "igcse",
+   "subject": "physics",
+   "mid": "19",
+   "landing_url": "https://www.savemyexams.com/igcse/physics/edexcel/19/topic-questions/",
+   "page_count": 24,
+   "leaf_types": {
+    "exam-questions": 24
+   },
+   "sections": 8,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-physics-modular-24-unit-1",
+   "level": "igcse",
+   "subject": "physics",
+   "mid": "modular/24/unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/physics/edexcel/modular/24/unit-1/topic-questions/",
+   "page_count": 12,
+   "leaf_types": {
+    "exam-questions": 12
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-physics-modular-24-unit-2",
+   "level": "igcse",
+   "subject": "physics",
+   "mid": "modular/24/unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/physics/edexcel/modular/24/unit-2/topic-questions/",
+   "page_count": 12,
+   "leaf_types": {
+    "exam-questions": 12
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-science-double-award-17-biology",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award/17/biology",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award/17/biology/topic-questions/",
+   "page_count": 20,
+   "leaf_types": {
+    "exam-questions": 20
+   },
+   "sections": 5,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-science-double-award-17-chemistry",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award/17/chemistry",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award/17/chemistry/topic-questions/",
+   "page_count": 22,
+   "leaf_types": {
+    "exam-questions": 22
+   },
+   "sections": 4,
+   "status": "pending",
+   "totals": null
+  },
+  {
+   "slug": "igcse-science-double-award-17-physics",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award/17/physics",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award/17/physics/topic-questions/",
+   "page_count": 18,
+   "leaf_types": {
+    "exam-questions": 18
+   },
+   "sections": 8,
+   "status": "pending",
+   "totals": null
   }
- ],
- "failures": [],
- "spec_point_resolution": {
-  "schema": "syllabai.sme-spec-point-resolution/1.0",
-  "validated": "AI_VALIDATED (operator-delegated 2026-09-17); see VALIDATION.md",
-  "index_file": "spec_point_index.json",
-  "resolution_file": "spec_point_resolution.json",
-  "counts": {
-   "sme_spec_points": 162,
-   "distinct_codes_in_use": 154,
-   "parts_total": 1404,
-   "parts_with_codes": 1358,
-   "parts_without_sme_ids": 46,
-   "cross_check_agree_with_notes": 161
-  },
-  "pipeline": [
-   "scripts/sme_spcpt_harvest.py",
-   "scripts/sme_spcpt_resolve.py --apply",
-   "scripts/sme_spcpt_verify.py"
-  ],
-  "adjudications": "scripts/sme_spcpt_adjudications.yaml"
- },
- "updated_utc": "2026-09-16T22:10:56Z"
+ ]
 }
