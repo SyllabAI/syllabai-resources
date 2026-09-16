@@ -1,0 +1,2780 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-16T23:07:21Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/topic-questions/statistical-distributions/normal-distribution/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Maths",
+  "exam_code": "YMA01",
+  "sme_course_id": "crs_7R3phcphwpXF9rWr",
+  "syllabus_version": "2020",
+  "sme_alias_path": "20/statistics-1"
+ },
+ "section": {
+  "slug": "statistical-distributions",
+  "name": "Statistical Distributions"
+ },
+ "topic": {
+  "id": "top_6wghGMmHnPmVBfjF",
+  "slug": "normal-distribution",
+  "name": "Normal Distribution",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "the-normal-distribution",
+   "name": "The Normal Distribution",
+   "revision_note_id": "rn_VsrsRKWPrv7N2KPs"
+  },
+  {
+   "slug": "calculations",
+   "name": "Calculations with Normal Distributions",
+   "revision_note_id": "rn_yYpsrXTVV89hv2KG"
+  },
+  {
+   "slug": "standard-normal-distribution",
+   "name": "Standard Normal Distribution",
+   "revision_note_id": "rn_k9xpR2WpN48HzNt6"
+  },
+  {
+   "slug": "finding-the-parameters-of-a-normal-distribution",
+   "name": "Finding the Parameters of a Normal Distribution",
+   "revision_note_id": "rn_9HG5kNzDDNgbmS9p"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_xyChSBVQB77KZ47M",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 27
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6a_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "001-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6b_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "002-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q7a_3.3_CIE_S1_Normal-Dist_Stats_Easy.png": "003-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q7b_3.3_CIE_S1_Normal-Dist_Stats_Easy.png": "004-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q7c_3.3_CIE_S1_Normal-Dist_Stats_Easy.png": "005-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q1a_3.3_CIE_S1_Normal-Dist_Stats_Easy.png": "006-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q1b_3.3_CIE_S1_Normal-Dist_Stats_Easy.png": "007-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q1c_3.3_CIE_S1_Normal-Dist_Stats_Easy.png": "008-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3a_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Maths.png": "009-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3b_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "010-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4a_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "011-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4b_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png.png": "012-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5a_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "013-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5b_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "014-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q2_IAL_S1_A_Level_3.2-Normal-Distribution_Easy_Stats_Math.png": "015-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4a_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png.png": "016-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4b_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png.png": "017-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png": "018-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q1a_IAL_S1_A_Level_3.2-Normal-Distribution_Very-Hard_Stats_Math.png": "019-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q1b_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png": "020-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q2a_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png": "021-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q2b_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png": "022-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5a_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png.png": "023-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5b_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png.png": "024-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6a_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png.png": "025-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6b_IAL_S1_A_Level_3.2-Normal-Distribution_VeryHard_Stats_Math.png.png": "026-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6a_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "027-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "028-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6c_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "029-img.png",
+   "https://cdn.savemyexams.com/uploads/2024/04/mi-q7a-ial-s1-a-level-3-2-normal-distribution-hard-stats-math.png": "030-mi-q7a-ial-s1-a-level-3-2-normal-distribution-ha.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q7b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "031-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q2a_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "032-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q2b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "033-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3a_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "034-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "035-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5a_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "036-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "037-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5c_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "038-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4a_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "039-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "040-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q1a_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "041-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q1b_IAL_S1_A_Level_3.2-Normal-Distribution_Hard_Stats_Math.png": "042-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "043-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "044-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "045-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "046-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "047-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q4b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "048-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png": "049-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "050-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1c_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "051-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "052-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q6b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "053-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "054-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q2b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "055-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7a_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "056-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7b_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "057-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7c_IAL_S1_A_Level_3.2-Normal-Distribution_Medium_Stats_Math.png.png": "058-img.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_CTGzJpQ5VfMHTxCk",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_YFX2HctMVN2x4jBM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "A continuous random variable can take any value within a given range.  Many naturally occurring continuous quantities can be modelled using the Normal Distribution, for example the height of human beings; the mass of new born puppies or the distribution of all A Level maths exam results.\n\nGive a different example of a quantity that could be modelled using the normal distribution.",
+     "solution_md": "![](assets/006-img.png)"
+    },
+    {
+     "id": "qstnprt_9ZycMDxx7NM9WKzT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "The graph of the normal distribution has a characteristic bell shape that is symmetrical about the mean, $μ$.  If $X$ has a normal distribution with a mean,$μ$ , and variance,$σ^{2}$,  then it can be written as `X tilde space N left parenthesis mu comma sigma squared right parenthesis.`\n\nFor `X tilde N left parenthesis mu comma sigma squared right parenthesis`, state:\n\n(i) $P(X<μ)$\n\n(ii) $P(X\\geqμ)$\n\n(iii) $P(X=μ)$",
+     "solution_md": "![](assets/007-img.png)",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>σ</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma squared"
+      },
+      {
+       "latex": "P(X<μ)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>μ</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X space less than space mu right parenthesis"
+      },
+      {
+       "latex": "P(X\\geqμ)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo> </mo><mo>≥</mo><mo> </mo><mi>μ</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X space greater or equal than space mu right parenthesis"
+      },
+      {
+       "latex": "P(X=μ)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo> </mo><mo>=</mo><mo> </mo><mi>μ</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis X space equals space mu right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_wn4CFW6RkgkwZQhw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "Using your answers to part (b), or otherwise, explain why there is no difference between $\\geq$ and $>$ or $\\leq$ and $<$ when calculating normal probabilities.",
+     "solution_md": "![](assets/008-img.png)",
+     "equations": [
+      {
+       "latex": "\\geq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>≥</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "greater or equal than"
+      },
+      {
+       "latex": ">",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&gt;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "greater than"
+      },
+      {
+       "latex": "\\leq",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>≤</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "less or equal than"
+      },
+      {
+       "latex": "<",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&lt;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "less than"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_44fZPqzzYYQ4MGdk",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_DphzFYY36dS4m2Bg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution, `Z tilde straight N left parenthesis 0 comma 1 ² right parenthesis` , the probability  $P(Z\\leqz)$ can be written as $Φ(z)$.\n\nThe value of $Φ(0.23)$ would be found in the table by looking up $z=0.23$ to get the answer $Φ(0.23)=0.5910$.\n\nUse the table of $z$-values in the formula booklet to write down the value of:\n\n(i) $Φ(0.04)$\n\n(ii) $Φ(0.63)$\n\n(iii) $Φ(1)$\n\n(iv) $Φ(1.59)$\n\n(v) $Φ(3.30)$",
+     "solution_md": "![](assets/015-img.png)",
+     "equations": [
+      {
+       "latex": "P(Z\\leqz)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo> </mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis Z less or equal than space z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "Φ(0.23)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>23</mn><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 0.23 right parenthesis space"
+      },
+      {
+       "latex": "z=0.23",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>z</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>23</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z equals 0.23"
+      },
+      {
+       "latex": "Φ(0.23)=0.5910",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>23</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>5910</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 0.23 right parenthesis equals 0.5910"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "Φ(0.04)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 0.04 right parenthesis"
+      },
+      {
+       "latex": "Φ(0.63)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>63</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 0.63 right parenthesis"
+      },
+      {
+       "latex": "Φ(1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 1 right parenthesis"
+      },
+      {
+       "latex": "Φ(1.59)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>1</mn><mo>.</mo><mn>59</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 1.59 right parenthesis"
+      },
+      {
+       "latex": "Φ(3.30)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>30</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 3.30 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_crFJ6q6hZQSY3QfR",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_GSq8RWqpMsvkpKcg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution,  `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`, the probability $P(Z\\leqz)$ can be written as $Φ(z)$.\n\nTo solve $Φ(z)=0.6808$  we would find the value 0.6808 in a column with heading $Φ(z)$ and read off the corresponding $z$-value, so  $Φ(0.47)=0.6808$.\n\nUse the table of $z$-values in the formula booklet to solve:\n\n(i) $Φ(z)=0.5120$\n\n(ii) $Φ(z)=0.9147$\n\n(iii) $Φ(z)=0.8643$\n\n(iv) $Φ(z)=0.9783$.",
+     "solution_md": "![](assets/009-img.png)",
+     "equations": [
+      {
+       "latex": "P(Z\\leqz)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo> </mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less or equal than space z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)=0.6808",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>6808</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space capital phi left parenthesis z right parenthesis equals 0.6808"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "Φ(0.47)=0.6808",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>47</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>6808</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis 0.47 right parenthesis equals 0.6808"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "Φ(z)=0.5120",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>5120</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.5120"
+      },
+      {
+       "latex": "Φ(z)=0.9147",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>9147</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.9147"
+      },
+      {
+       "latex": "Φ(z)=0.8643",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>8643</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.8643"
+      },
+      {
+       "latex": "Φ(z)=0.9783",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>9783</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.9783"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GSBFZyNjnC76WBvy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "The formula booklet also contains a table of percentage points of $z$  such that $P(Z>z)=p$.  From this table we can see that if $P(Z>z)=0.0005$then $z=3.2905$.\n\nUse the table of percentage points to find the value of $z$ such that:\n\n(i) $P(Z>z)=0.2$\n\n(ii) $P(Z>z)=0.001.$",
+     "solution_md": "![](assets/010-img.png)",
+     "equations": [
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z>z)=p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals p"
+      },
+      {
+       "latex": "P(Z>z)=0.0005",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>0005</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis Z greater than z right parenthesis equals 0.0005 space"
+      },
+      {
+       "latex": "z=3.2905",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>z</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>2905</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space z equals 3.2905"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z>z)=0.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals 0.2"
+      },
+      {
+       "latex": "P(Z>z)=0.001.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>001</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals 0.001."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BJDBXvZ5tNpdRGwG",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_q3TNHGJFqHx7XBR2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution, `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z\\leqz)$ can be written as $Φ(z)$.\n\nTo calculate $P(Z>z)$ the following formulae can be used:\n\n$P(Z>z)=1-P(Z<z),P(Z>z)=1-Φ(z)$ and\n $P(Z>z)=Φ(-z)$.\n\nUse the formulae above to write each of the following in the form $1-Φ(z)$ or $Φ(-z)$ and then use the table of $z$-values to find its value:\n\n(i) $P(Z>0.74)$\n\n(ii) $P(Z>-0.74)$\n\n(iii) $P(Z>2.14)$\n\n(iv) $P(Z>-1.52)$",
+     "solution_md": "![](assets/011-img.png)",
+     "equations": [
+      {
+       "latex": "P(Z\\leqz)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo> </mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less or equal than space z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "P(Z>z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis"
+      },
+      {
+       "latex": "P(Z>z)=1-P(Z<z),P(Z>z)=1-Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>,</mo><mo> </mo><mo> </mo><mo> </mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis Z greater than z right parenthesis equals 1 minus straight P left parenthesis Z less than z right parenthesis comma space space space straight P left parenthesis Z greater than z right parenthesis equals 1 minus capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "P(Z>z)=Φ(-z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>Φ</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight P left parenthesis Z greater than z right parenthesis equals capital phi left parenthesis negative z right parenthesis"
+      },
+      {
+       "latex": "1-Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>-</mo><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 minus capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "Φ(-z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Φ</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space capital phi left parenthesis negative z right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z>0.74)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>74</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than 0.74 right parenthesis"
+      },
+      {
+       "latex": "P(Z>-0.74)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>74</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than negative 0.74 right parenthesis"
+      },
+      {
+       "latex": "P(Z>2.14)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mn>2</mn><mo>.</mo><mn>14</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than 2.14 right parenthesis"
+      },
+      {
+       "latex": "P(Z>-1.52)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mo>-</mo><mn>1</mn><mo>.</mo><mn>52</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than negative 1.52 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XHZyQD9vRVb6t9Kn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the formulae above to rewrite each equation in the form $Φ(z)=p$, $Φ(-z)=p$ or $P(Z>z)$ and then use the table of $z$-values and the table of percentage points to find the value of $z$ such that:\n\n(i) $P(Z>z)=0.9306$\n\n(ii) $P(Z>z)=0.0694$\n\n(iii) $P(Z>z)=0.1292$\n\n(iv) $P(Z<z)=0.995.$",
+     "solution_md": "![](assets/012-img.png)",
+     "equations": [
+      {
+       "latex": "Φ(z)=p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space capital phi left parenthesis z right parenthesis equals p"
+      },
+      {
+       "latex": "Φ(-z)=p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis negative z right parenthesis equals p"
+      },
+      {
+       "latex": "P(Z>z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z>z)=0.9306",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>9306</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals 0.9306"
+      },
+      {
+       "latex": "P(Z>z)=0.0694",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>0694</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals 0.0694"
+      },
+      {
+       "latex": "P(Z>z)=0.1292",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1292</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals 0.1292"
+      },
+      {
+       "latex": "P(Z<z)=0.995.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>995</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less than z right parenthesis equals 0.995."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9qN8CrC8QtnVpG8V",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Xtds2xQxy4yVhfdg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution,  `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z\\leqz)$ can be written as $Φ(z)$.\n\nThe table of $z$-values does not contain negative $z$-values. To calculate probabilities involving negative $z$-values the following formulae can be used:\n\n$Φ(-z)=1-Φ(z)$  and   $P(Z>-z)=Φ(z)$.\n\nUse the table of $z$ -values in the formula booklet and the formula above to find the value of:\n\n(i) $Φ(-0.5)$\n\n(ii) $Φ(-0.58)$\n\n(iii) $Φ(-2.75)$",
+     "solution_md": "![](assets/013-img.png)",
+     "equations": [
+      {
+       "latex": "P(Z\\leqz)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo> </mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less or equal than space z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "Φ(-z)=1-Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis negative z right parenthesis equals 1 minus capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "P(Z>-z)=Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mo>-</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than negative z right parenthesis equals capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "Φ(-0.5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis negative 0.5 right parenthesis"
+      },
+      {
+       "latex": "Φ(-0.58)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>58</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis negative 0.58 right parenthesis"
+      },
+      {
+       "latex": "Φ(-2.75)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mo>-</mo><mn>2</mn><mo>.</mo><mn>75</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis negative 2.75 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mQDq76XndCRVSpXg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the formula above to find the value of $Φ(z)$  and then use the table of $z$-values and the table of percentage points in the formula booklet to find the value of $-z$  and hence solve the following.  Where possible give the value for $z$ with the greater number of decimal places.\n\n(i) $Φ(z)=0.1093$\n\n(ii) $Φ(z)=0.1500$\n\n(iii) $Φ(z)=0.0548$\n\n(iv) $Φ(z)=0.0005$",
+     "solution_md": "![](assets/014-img.png)",
+     "equations": [
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "-z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mi>z</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative z"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "Φ(z)=0.1093",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1093</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.1093"
+      },
+      {
+       "latex": "Φ(z)=0.1500",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1500</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.1500"
+      },
+      {
+       "latex": "Φ(z)=0.0548",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>0548</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.0548"
+      },
+      {
+       "latex": "Φ(z)=0.0005",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>0005</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis equals 0.0005"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_p4ZzSRjyxpThWjSm",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Ynxnn9nQMbRfrnNg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution, `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z\\leqz)$ can be written as $Φ(z)$.\n\nTo calculate the probability between two values the following formula can be used:\n\n$P(a<Z<b)=Φ(b)-Φ(a)$.\n\nUse the formula above to rewrite the following in the form $Φ(b)-Φ(a)$ and then use the table of $z$-values to calculate the probability and round your answer to three decimal places:\n\n(i) $P(0.12<Z<1.34)$\n\n(ii) $P(-2<Z<1)$\n\n(iii) $P(-1.5<Z<-0.5)$",
+     "solution_md": "![](assets/001-img.png)",
+     "equations": [
+      {
+       "latex": "P(Z\\leqz)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo> </mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less or equal than space z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "P(a<Z<b)=Φ(b)-Φ(a)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>a</mi><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>Φ</mi><mo>(</mo><mi>b</mi><mo>)</mo><mo>-</mo><mi>Φ</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis a less than Z less than b right parenthesis equals capital phi left parenthesis b right parenthesis minus capital phi left parenthesis a right parenthesis"
+      },
+      {
+       "latex": "Φ(b)-Φ(a)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Φ</mi><mo>(</mo><mi>b</mi><mo>)</mo><mo>-</mo><mi>Φ</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space capital phi left parenthesis b right parenthesis minus capital phi left parenthesis a right parenthesis"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(0.12<Z<1.34)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>0</mn><mo>.</mo><mn>12</mn><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mn>1</mn><mo>.</mo><mn>34</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 0.12 less than Z less than 1.34 right parenthesis"
+      },
+      {
+       "latex": "P(-2<Z<1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mo>-</mo><mn>2</mn><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis negative 2 less than Z less than 1 right parenthesis"
+      },
+      {
+       "latex": "P(-1.5<Z<-0.5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mo>-</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis negative 1.5 less than Z less than negative 0.5 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_79SCPybxTT2SH4xF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the formula above to rewrite the following in the form $Φ(b)-Φ(a)=p$  and then use the table of $z$-values and the table of percentage points to find the value of $z$ such that:\n\n(i) $P(0<Z<z)=0.4505$\n\n(ii) $P(z<Z<1.3)=0.9027$\n\n(iii) $P(-z<Z<z)=0.6826$",
+     "solution_md": "![](assets/002-img.png)",
+     "equations": [
+      {
+       "latex": "Φ(b)-Φ(a)=p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Φ</mi><mo>(</mo><mi>b</mi><mo>)</mo><mo>-</mo><mi>Φ</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space capital phi left parenthesis b right parenthesis minus capital phi left parenthesis a right parenthesis equals p"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(0<Z<z)=0.4505",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>0</mn><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>4505</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 0 less than Z less than z right parenthesis equals 0.4505"
+      },
+      {
+       "latex": "P(z<Z<1.3)=0.9027",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>z</mi><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mn>1</mn><mo>.</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>9027</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis z less than Z less than 1.3 right parenthesis equals 0.9027"
+      },
+      {
+       "latex": "P(-z<Z<z)=0.6826",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>6826</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis negative z less than Z less than z right parenthesis equals 0.6826"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nBRwGtRnDzYqbfdG",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_pYhDWWPZCXCxyXgz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution, `Z tilde N left parenthesis 0 comma 1 ² right parenthesis`, the probability $P(Z<z)$ can be written as $Φ(z)$.\n\nA random variable `X tilde N left parenthesis mu comma sigma squared right parenthesis` can be coded to `Z tilde N left parenthesis 0 comma 1 squared right parenthesis comma` using the formula:\n\n$Z=\\frac{(X-μ)}{σ}$\n\nFor the random variable `X tilde space N left parenthesis 21 comma 4 squared right parenthesis`,\n\n(i) write down the values of $μ$ and $σ$,\n\n(ii) calculate the $z$-value that corresponds to $X=26$,\n\n(iii) write $P(X>26)$ in the form $Φ(z)$,\n\n(iv) calculate $P(X>26)$.",
+     "solution_md": "![](assets/003-img.png)",
+     "equations": [
+      {
+       "latex": "P(Z<z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z space less than space z right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "Z=\\frac{(X-μ)}{σ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Z</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>X</mi><mo>-</mo><mi>μ</mi><mo>)</mo></mrow><mi>σ</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space Z equals fraction numerator left parenthesis X minus mu right parenthesis over denominator sigma end fraction"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "X=26",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>X</mi><mo>=</mo><mn>26</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space X equals 26"
+      },
+      {
+       "latex": "P(X>26)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>26</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis X greater than 26 right parenthesis"
+      },
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "P(X>26)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>26</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis X greater than 26 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RSFjgc87C4gWHZH5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the random variable `X space tilde space N left parenthesis 54 comma 5 squared right parenthesis`, write in terms of $Φ(z)$ and hence find:\n\n(i) $P(X\\leq60)$\n\n(ii) $P(X<51)$\n\n(iii) $P(X\\geq58)$.",
+     "solution_md": "![](assets/004-img.png)",
+     "equations": [
+      {
+       "latex": "Φ(z)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "capital phi left parenthesis z right parenthesis"
+      },
+      {
+       "latex": "P(X\\leq60)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>60</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 60 right parenthesis"
+      },
+      {
+       "latex": "P(X<51)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>51</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 51 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq58)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>58</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 58 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_B9B7Nkz5p6wgyYH2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For `space X space tilde space N left parenthesis 187 comma 100 right parenthesis`,\n\n(i) explain why $σ=10$,\n\n(ii) write $P(190<X<203)$ in the form $P(a<Z<b)$,\n\n(iii) hence calculate$P(190<X<203).$",
+     "solution_md": "![](assets/005-img.png)",
+     "equations": [
+      {
+       "latex": "σ=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>σ</mi><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space sigma equals 10"
+      },
+      {
+       "latex": "P(190<X<203)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mn>190</mn><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mn>203</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis 190 less than X less than 203 right parenthesis"
+      },
+      {
+       "latex": "P(a<Z<b)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>a</mi><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis a less than Z less than b right parenthesis"
+      },
+      {
+       "latex": "P(190<X<203).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mn>190</mn><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mn>203</mn><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis 190 less than X less than 203 right parenthesis."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gQ2wp3H23xkPRtj5",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_jXSzFzT9qQr3WGmx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "For the random variable,`space space X space tilde space N left parenthesis 32 comma 9 right parenthesis`,\n\n(i) Write down the mean and standard deviation.\n\n(ii) Draw a sketch of the graph and clearly label the mean.",
+     "solution_md": "![](assets/049-img.png)"
+    },
+    {
+     "id": "qstnprt_ND3NXDTpcwpQgHsj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) With the help of your diagram, explain how you should know, without carrying out any calculations, that P$(X\\leq34)>0.5.$\n\n(ii) With the help of your diagram, explain how you should know, without carrying out any calculations, that P$(X\\geq38)<0.5.$",
+     "solution_md": "![](assets/050-img.png)",
+     "equations": [
+      {
+       "latex": "(X\\leq34)>0.5.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>X</mi><mo>≤</mo><mn>34</mn><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis X less or equal than 34 right parenthesis greater than 0.5."
+      },
+      {
+       "latex": "(X\\geq38)<0.5.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mi>X</mi><mo>≥</mo><mn>38</mn><mo>)</mo><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis X greater or equal than 38 right parenthesis less than 0.5."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xPQJtxmX258JG562",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the formula $Z=\\frac{X-μ}{σ}$ to find appropriate $z$-values and then use the table of $z$-values to calculate, to three decimal places,\n\n(i) $P(X\\leq34)$\n\n(ii) $P(X\\geq38)$\n\n(iii) $P(34\\leqX\\leq38).$",
+     "solution_md": "![](assets/051-img.png)",
+     "equations": [
+      {
+       "latex": "Z=\\frac{X-μ}{σ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z equals fraction numerator X minus mu over denominator sigma end fraction"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(X\\leq34)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>\t</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mo> </mo><mn>34</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than space 34 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq38)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>\t</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>38</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 38 right parenthesis"
+      },
+      {
+       "latex": "P(34\\leqX\\leq38).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>\t</mo><mi>P</mi><mo>(</mo><mn>34</mn><mo> </mo><mo>≤</mo><mi>X</mi><mo> </mo><mo>≤</mo><mo> </mo><mn>38</mn><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 34 space less or equal than X space less or equal than space 38 right parenthesis."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9dbrkC7BrgFdbXDS",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_cQjxP2866JjR29GH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the standard normal distribution `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`, use the table of $z$-values to find:\n\n(i) $P(Z<1.5)$\n\n(ii) $P(Z>-0.8)$\n\n(iii) $P(-2.1<Z<-0.3)$",
+     "solution_md": "![](assets/054-img.png)",
+     "equations": [
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z<1.5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less than 1.5 right parenthesis"
+      },
+      {
+       "latex": "P(Z>-0.8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than negative 0.8 right parenthesis"
+      },
+      {
+       "latex": "P(-2.1<Z<-0.3)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mo>-</mo><mn>2</mn><mo>.</mo><mn>1</mn><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis negative 2.1 less than Z less than negative 0.3 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3tFBhn6Fd4t7TB2m",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "The random variable `X tilde N left parenthesis 2 comma 0.1 squared right parenthesis.`\n\nUsing the coding relationship between $X$ and $Z$, find the values of $a,b,c$ and $d$ such that:\n\n(i) $P(X<a)=P(Z<1.5)$\n\n(ii) $P(X>b)=P(Z>-0.8)$\n\n(iii) $P(c<X<d)=P(-2.1<Z<-0.3)$",
+     "solution_md": "![](assets/055-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "Z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "Z"
+      },
+      {
+       "latex": "a,b,c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>,</mo><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a comma space b comma space c"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "P(X<a)=P(Z<1.5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than a right parenthesis equals P left parenthesis Z less than 1.5 right parenthesis"
+      },
+      {
+       "latex": "P(X>b)=P(Z>-0.8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than b right parenthesis equals P left parenthesis Z greater than negative 0.8 right parenthesis"
+      },
+      {
+       "latex": "P(c<X<d)=P(-2.1<Z<-0.3)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>c</mi><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mi>d</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mo>-</mo><mn>2</mn><mo>.</mo><mn>1</mn><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis c less than X less than d right parenthesis equals P left parenthesis negative 2.1 less than Z less than negative 0.3 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_smRs23F6yw7Nx2tb",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_79g6tJ6ctcZM7k5h",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "The random variable `X space tilde space N left parenthesis 50 comma 49 right parenthesis`\n\n(i) Write down the values of $μ$ and $σ$ .\n\n(ii) Use the percentage points table to find the value of $z$ such that $P(Z\\geqz)=0.025$.\n\n(iii) Use the formula $Z=\\frac{X-μ}{σ}$ to find the value of $a$ such that $P(X\\geqa)=0.025$.",
+     "solution_md": "![](assets/045-img.png)",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z\\geqz)=0.025",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>Z</mi><mo>≥</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>025</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis Z greater or equal than z right parenthesis equals 0.025"
+      },
+      {
+       "latex": "Z=\\frac{X-μ}{σ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z equals fraction numerator X minus mu over denominator sigma end fraction"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "P(X\\geqa)=0.025",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>025</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis X greater or equal than a right parenthesis equals 0.025"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FDrcjhKsdFM6XnkT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Find the value of $z$, to 4 decimal places, such that $P(Z\\leqz)=0.999$.\n\n(ii) Hence, use the formula $Z=\\frac{X-μ}{σ}$ to find the value of $b$ such that $P(X\\leqb)=0.999.$",
+     "solution_md": "![](assets/046-img.png)",
+     "equations": [
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z\\leqz)=0.999",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>999</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less or equal than z right parenthesis equals 0.999"
+      },
+      {
+       "latex": "Z=\\frac{X-μ}{σ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z equals fraction numerator X minus mu over denominator sigma end fraction"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "P(X\\leqb)=0.999.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>999</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis X less or equal than b right parenthesis equals 0.999."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kfsCgWSmnyg5D4D4",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_qqfDYryxmD38Cwnz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the random variable `space X space tilde space N left parenthesis mu comma 36 right parenthesis` it is known that $P(X<51)=0.8665$.\n\n(i) Write down the value of $σ$.\n\n(ii) Calculate the value of $z$ such that $P(Z<z)=0.8665$.\n\n(iii) Use the formula $Z=\\frac{X-μ}{σ}$ to show that $51-μ=6.66$.\n\n(iv) Hence calculate the value of $μ$.",
+     "solution_md": "![](assets/047-img.png)",
+     "equations": [
+      {
+       "latex": "P(X<51)=0.8665",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>51</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>8665</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis X less than 51 right parenthesis equals 0.8665"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z<z)=0.8665",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>8665</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis Z less than z right parenthesis equals 0.8665"
+      },
+      {
+       "latex": "Z=\\frac{X-μ}{σ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z equals fraction numerator X minus mu over denominator sigma end fraction"
+      },
+      {
+       "latex": "51-μ=6.66",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mn>51</mn><mo>-</mo><mi>μ</mi><mo>=</mo><mn>6</mn><mo>.</mo><mn>66</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space 51 minus mu equals 6.66"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_X98x7khbbkZw5zTr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the random variable `Y tilde N left parenthesis 93 comma space sigma squared right parenthesis` it is known that $P(Y>101)=0.0735$.\n\n(i) Calculate the value of $z$ such that $P(Z>z)=0.0735$.\n\n(ii) Use the formula $Z=\\frac{X-μ}{σ}$ to show that $1.45σ=8$.\n\n(iii) Hence calculate the value of $σ$.",
+     "solution_md": "![](assets/048-img.png)",
+     "equations": [
+      {
+       "latex": "P(Y>101)=0.0735",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>Y</mi><mo>&gt;</mo><mn>101</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>0735</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis Y greater than 101 right parenthesis equals 0.0735"
+      },
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z>z)=0.0735",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>0735</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis Z greater than z right parenthesis equals 0.0735"
+      },
+      {
+       "latex": "Z=\\frac{X-μ}{σ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z equals fraction numerator X minus mu over denominator sigma end fraction"
+      },
+      {
+       "latex": "1.45σ=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mn>1</mn><mo>.</mo><mn>45</mn><mi>σ</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space 1.45 sigma equals 8"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xNfsdGJtXV6dqJyz",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_3Gr8rR8X5sTNsfWB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the random variable `X tilde N left parenthesis 23 comma space 4 squared right parenthesis` find the following probabilities:\n\n(i) $P(X<20)$\n\n(ii) $P(X\\geq29)$\n\n(iii) $P(20\\leqX<29)$",
+     "solution_md": "![](assets/043-img.png)",
+     "equations": [
+      {
+       "latex": "P(X<20)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>20</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 20 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq29)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>29</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 29 right parenthesis"
+      },
+      {
+       "latex": "P(20\\leqX<29)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>20</mn><mo>≤</mo><mi>X</mi><mo>&lt;</mo><mn>29</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 20 less or equal than X less than 29 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_dPpYx7FNZSHfT7g2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "For the random variable `Y tilde N left parenthesis 100 comma space 225 right parenthesis` find the following probabilities:\n\n(i) $P(Y\\leq90)$\n\n(ii) $P(Y>145)$\n\n(iii) $P(85\\leqY\\leq115)$",
+     "solution_md": "![](assets/044-img.png)",
+     "equations": [
+      {
+       "latex": "P(Y\\leq90)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≤</mo><mn>90</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y less or equal than 90 right parenthesis"
+      },
+      {
+       "latex": "P(Y>145)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>&gt;</mo><mn>145</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y greater than 145 right parenthesis"
+      },
+      {
+       "latex": "P(85\\leqY\\leq115)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>85</mn><mo>≤</mo><mi>Y</mi><mo>≤</mo><mn>115</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 85 less or equal than Y less or equal than 115 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_DMJf8skWM5Kz9ycY",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_7N945cZKv7VVqrvB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "The random variable `X tilde N left parenthesis 10 comma space 9 right parenthesis`.\n\nFind the value of $a$ and the value of $b$, each to 2 decimal places, such that:\n\n(i) $P(X<a)=0.4$\n\n(ii) $P(X>b)=0.15$",
+     "solution_md": "![](assets/052-img.png)",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "P(X<a)=0.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than a right parenthesis equals 0.4"
+      },
+      {
+       "latex": "P(X>b)=0.15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than b right parenthesis equals 0.15"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_grKC8Yf34N8hdFqG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "Use a sketch of the distribution of $X$ to explain why $P(a\\leqX\\leqb)=0.45$.",
+     "solution_md": "![](assets/053-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "P(a\\leqX\\leqb)=0.45",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>45</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis a less or equal than X less or equal than b right parenthesis equals 0.45"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_64f9J5cbQMS9kRcg",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_RKXZvvYtvYhYBrPB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The random variable `X tilde N left parenthesis mu comma space sigma squared right parenthesis`. It is known that $P(X>36.88)=0.025$ and $P(X<27.16)=0.1$\n\nFind the values of $a$ and $b$ for which $P(Z>a)=0.025$ and  $P(Z<b)=0.1$,  where $Z$ is the standard normal variable. Give your answers correct to 4 decimal places.",
+     "solution_md": "![](assets/056-img.png)",
+     "equations": [
+      {
+       "latex": "P(X>36.88)=0.025",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>36</mn><mo>.</mo><mn>88</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>025</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than 36.88 right parenthesis equals 0.025"
+      },
+      {
+       "latex": "P(X<27.16)=0.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>27</mn><mo>.</mo><mn>16</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 27.16 right parenthesis equals 0.1"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "P(Z>a)=0.025",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>025</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than a right parenthesis equals 0.025"
+      },
+      {
+       "latex": "P(Z<b)=0.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less than b right parenthesis equals 0.1"
+      },
+      {
+       "latex": "Z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_63GxfJSnbdt8RT5j",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "Use your answers to part (a), along with the relationship between $Z$ and $X$, to show that the following simultaneous equations must be true:\n\n$μ+1.96σ=36.88$\n\n$μ-1.2816σ=27.16$",
+     "solution_md": "![](assets/057-img.png)",
+     "equations": [
+      {
+       "latex": "Z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z"
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "μ+1.96σ=36.88",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi><mo>+</mo><mn>1</mn><mo>.</mo><mn>96</mn><mi>σ</mi><mo>=</mo><mn>36</mn><mo>.</mo><mn>88</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu plus 1.96 sigma equals 36.88"
+      },
+      {
+       "latex": "μ-1.2816σ=27.16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi><mo>-</mo><mn>1</mn><mo>.</mo><mn>2816</mn><mi>σ</mi><mo>=</mo><mn>27</mn><mo>.</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu minus 1.2816 sigma equals 27.16"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_595d3VtD7WZwxnZJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "By solving the simultaneous equations in (b), determine the values of $μ$ and $σ$. Give your answers correct to 2 decimal places.",
+     "solution_md": "![](assets/058-img.png)",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6MrPNbmvXbdVQj9r",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Kh4fXKHrnnmss97T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The test scores, $X$, of a group of RAF recruits in an aptitude test are modelled as a normal distribution with `X tilde N left parenthesis 210 comma 27.8 squared right parenthesis`.\n\n(i) Find the values of $a$ and $b$ such that $P(X<a)=0.25$ and $P(X>b)=0.25$.\n\n(ii) Hence find the interquartile range of the scores.",
+     "solution_md": "![](assets/041-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "P(X<a)=0.25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than a right parenthesis equals 0.25"
+      },
+      {
+       "latex": "P(X>b)=0.25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>25</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than b right parenthesis equals 0.25"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_t6WSpCkywtDjqhXD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "Those who score in the top 30% on the test move on to the next stage of training.\n\nOne of the recruits, Amelia, achieves a score of 231. Determine whether Amelia will move on to the next stage of training.",
+     "solution_md": "![](assets/042-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gGhySzdCX8nCCqB3",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_yKPXmGrDdz5X8dgg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The random variable `X tilde N left parenthesis 13 comma space 15 right parenthesis`.\n\nFind the value of $a$, to 3 significant figures, such that:\n\n(i) $P(X>a)=0.2$\n\n(ii) $P(a\\leqX\\leq14)=0.5$\n\n(iii) $P(13-a\\leqX\\leq13+a)=0.9372$",
+     "solution_md": "![](assets/032-img.png)",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "P(X>a)=0.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than a right parenthesis equals 0.2"
+      },
+      {
+       "latex": "P(a\\leqX\\leq14)=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mn>14</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis a less or equal than X less or equal than 14 right parenthesis equals 0.5"
+      },
+      {
+       "latex": "P(13-a\\leqX\\leq13+a)=0.9372",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>13</mn><mo>-</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mn>13</mn><mo>+</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>9372</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 13 minus a less or equal than X less or equal than 13 plus a right parenthesis equals 0.9372"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_b6VbyFyf7SNyFTK7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why there are no values of $a$ such that $P(14\\leqX\\leqa)=0.5$.",
+     "solution_md": "![](assets/033-img.png)",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "P(14\\leqX\\leqa)=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mn>14</mn><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis 14 less or equal than X less or equal than a right parenthesis equals 0.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_G2tCh4bckzQ4SvJq",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_HVhNH2kHq7DZ5yVj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The standard normal distribution is `Z tilde space N left parenthesis 0 comma space 1 squared right parenthesis`.\n\n(i) Write down, to 4 decimal places, the value of $z$ for which $P(Z>z)=0.1$.\n\n(ii) Use your answer to part (a)(i) along with the properties of the normal distribution to work out the values of $a$ and $b$ for which $P(Z<a)=0.9$ and $P(Z<b)=0.1$.",
+     "solution_md": "![](assets/034-img.png)",
+     "equations": [
+      {
+       "latex": "z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "z"
+      },
+      {
+       "latex": "P(Z>z)=0.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z greater than z right parenthesis equals 0.1"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "P(Z<a)=0.9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less than a right parenthesis equals 0.9"
+      },
+      {
+       "latex": "P(Z<b)=0.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less than b right parenthesis equals 0.1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JMQkwrDbJzWsmxqP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "The weights, $W$ kg, of coconuts grown on the Coconutty As They Come coconut plantation are modelled as a normal distribution with mean 1.25 kg and standard deviation 0.38 kg.  The plantation only considers coconuts to be exportable if their weights are greater than 10% but less than 90%.\n\nUse your answer to part (a)(ii) to find the range of possible weights, to the nearest 0.01 kg, for an exportable coconut.",
+     "solution_md": "![](assets/035-img.png)",
+     "equations": [
+      {
+       "latex": "W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cCFPpk2WCh3Dg9Mw",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_zGRN5ZG228cVwwwH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gmwKSJM4VXDr4T7d",
+      "spcpt_7dZQhQhG2scX7Drv"
+     ],
+     "part_tier": null,
+     "problem_md": "The random variable `X tilde N left parenthesis mu comma sigma squared right parenthesis`.  It is known that $P(X>34.451)=0.001$ and $P(X<14.792)=0.1977.$\n\n(i) Use the relationship between $X$ and the standard normal variable $Z$ to show that the following equation must be true:\n\n$μ+3.0902σ=34.451$\n\n(ii) Write down a second equation in terms of $μ$  and $σ$ .",
+     "solution_md": "![](assets/039-img.png)",
+     "equations": [
+      {
+       "latex": "P(X>34.451)=0.001",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>34</mn><mo>.</mo><mn>451</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>001</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than 34.451 right parenthesis equals 0.001"
+      },
+      {
+       "latex": "P(X<14.792)=0.1977.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>14</mn><mo>.</mo><mn>792</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1977</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 14.792 right parenthesis equals 0.1977."
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "Z",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Z"
+      },
+      {
+       "latex": "μ+3.0902σ=34.451",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi><mo>+</mo><mn>3</mn><mo>.</mo><mn>0902</mn><mi>σ</mi><mo>=</mo><mn>34</mn><mo>.</mo><mn>451</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu plus 3.0902 sigma equals 34.451"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sGmVxySNf43hHWxV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "By solving the simultaneous equations in (a), determine the values of $μ$ and $σ$.",
+     "solution_md": "![](assets/040-img.png)",
+     "equations": [
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_DbF3dkR9ZRk68yqs",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_P29MVMFhDThHG2m8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_7dZQhQhG2scX7Drv"
+     ],
+     "part_tier": null,
+     "problem_md": "A machine is used to fill bottles of a particular brand of soft drink.  The volume, $V$ ml, of soft drink in the bottles is normally distributed with mean 450 ml and standard deviation  ml.  Given that 5% of the cans contain less than 429 ml of soft drink, find:\n\nthe value of $σ$,",
+     "solution_md": "![](assets/036-img.png)",
+     "equations": [
+      {
+       "latex": "V",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FQpMHx6bXSqDHS36",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "$P(V\\geq475)$ correct to 3 decimal places,",
+     "solution_md": "![](assets/037-img.png)",
+     "equations": [
+      {
+       "latex": "P(V\\geq475)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>V</mi><mo>≥</mo><mn>475</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis V greater or equal than 475 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RHWsZYRT44MGcRvq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HS83hxfdbps62xPW",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "the probability that the volume of a randomly selected bottle is no more than one standard deviation away from the mean.",
+     "solution_md": "![](assets/038-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yv6vNYPX7SVHPZzk",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_dYqnbqz7fmZmjPgz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "Paul enjoys solving sudoku puzzles. The lengths of time he spends on sudokus in a week are normally distributed with a mean of 2048 minutes and a standard deviation of 64 minutes.\n\nFind the probability that in a given week Paul spends less than 1945 minutes solving sudoku puzzles.",
+     "solution_md": "![](assets/027-img.png)"
+    },
+    {
+     "id": "qstnprt_H8Wh69gjTcvNdp6x",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "Estimate the number of weeks in a year that Paul spends between 2019 and 2091 minutes solving sudoku puzzles.",
+     "solution_md": "![](assets/028-img.png)"
+    },
+    {
+     "id": "qstnprt_427Jw2JjwxxKFhCN",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GyGBcHPyjz7RJsv9",
+      "spcpt_gmwKSJM4VXDr4T7d"
+     ],
+     "part_tier": null,
+     "problem_md": "Assuming it takes Paul exactly 10 minutes to solve any sudoku puzzle, find the greatest number, $n$, of sudoku puzzle such that the probability of Paul solving less than $n$ puzzles in a week is less than 0.01.",
+     "solution_md": "![](assets/029-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TBZSCZHQjXK5dsvF",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_9dVRcbsp237qVp4H",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j6mhY3GsmrfJcws5",
+      "spcpt_7dZQhQhG2scX7Drv"
+     ],
+     "part_tier": null,
+     "problem_md": "A machine is used to fill bags of potatoes for a supermarket chain. The weight, $W$ kg, of potatoes in the bags is normally distributed with mean 3 kg and standard deviation $σ$ kg.\n\nGiven that 7% of the bags contain a weight of potatoes that is at least 50 g more than the mean, find:\n\n$P(2.9\\leqW\\leq3.1)$.",
+     "solution_md": "![mi-q7a-ial-s1-a-level-3-2-normal-distribution-hard-stats-math](assets/030-mi-q7a-ial-s1-a-level-3-2-normal-distribution-ha.png)",
+     "equations": [
+      {
+       "latex": "W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      },
+      {
+       "latex": "P(2.9\\leqW\\leq3.1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>2</mn><mo>.</mo><mn>9</mn><mo>≤</mo><mi>W</mi><mo>≤</mo><mn>3</mn><mo>.</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 2.9 less or equal than W less or equal than 3.1 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_T5DGX2Nf3cHdfzsY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN"
+     ],
+     "part_tier": null,
+     "problem_md": "Two of the bags of potatoes are chosen at random.\n\nFind the probability that neither of the bags will contain less than 2.96 kg of potatoes.",
+     "solution_md": "![](assets/031-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_r8mPzpG8cQ4D6btS",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_SzrH3rVtkgtFXv8r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The test scores, $X$, of a group of Royal Navy recruits in an aptitude test are modelled as a normal distribution with  `X tilde N left parenthesis 520 comma space 89.9 squared right parenthesis`.\n\nFind the interquartile range of the scores.",
+     "solution_md": "![](assets/019-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_cr8PhhyV3c2qzqFP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpb85fVZSQGr3tkK",
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "Those who get a score over 670 are offered a role within the submarine service.  Only those who get a score over 750 are offered a leadership role within the submarine service.\n\nGiven that Mervyn, one of the recruits, has been offered a role within the submarine service, find the probability that he is offered a leadership role.",
+     "solution_md": "![](assets/020-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ktQcBnxVxRJpfMb6",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_bzyh9x9PTmG3zxZ8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The distribution of the test scores, $X$, of a group of British Army officer cadets on an aviation aptitude test is modelled as a normal distribution with  `X tilde N left parenthesis 120 comma space 26.5 squared right parenthesis`.\n\nOnly cadets who score in the top 10% on the test are eligible to proceed directly to helicopter pilot training.  Cadets whose scores are between the 40th and 90th percentiles, however, are eligible to resit the test in an attempt to improve their scores.\n\nGiven that it is only possible to receive an integer number of marks as a score on the test, determine the range of test scores for which cadets would be eligible to resit the test.",
+     "solution_md": "![](assets/021-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mzP4Vft9VTzsY9vN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Find $P(X>180)$.\n\n(ii) The maximum score it is possible to receive on the test is 180.  Use this fact, and your answer to part (b)(i), to criticise the model being used for the score distribution.",
+     "solution_md": "![](assets/022-img.png)",
+     "equations": [
+      {
+       "latex": "P(X>180)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>180</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than 180 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RZtnrd3vRKXgy3Nk",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_93RypSx25Xkg7cBR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "The weight, $W$ kg, of the feed in a sack of pheasant feed produced by a certain manufacturer is modelled as `W tilde N open parentheses 20 comma space 1 over 3600 close parentheses.`\n\nRoger buys three sacks of the manufacturer’s pheasant feed to feed to the pheasants who have begun showing up at his backyard bird feeding station.\n\nFind the probability that all three sacks contain feed with a weight that is within 35 g of 20 kg.",
+     "solution_md": "![](assets/018-img.png)",
+     "equations": [
+      {
+       "latex": "W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YSmknMzD6x9R2nF6",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_8KQdMJmS3xZvB6tg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpb85fVZSQGr3tkK",
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "The masses of turkeys can be modelled using a normal distribution with a mean of 4.7 kg and a variance of 1.9 kg².  Nicholas, a farmer, classes a turkey as ‘holiday ready’ if it weighs more than 5.5 kg.\n\nA turkey is selected at random. Given that it is ‘holiday ready’, find the probability that it weighs less than 6 kg.",
+     "solution_md": "![](assets/016-img.png)"
+    },
+    {
+     "id": "qstnprt_sSQ8JHcVv9WPyPY6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpb85fVZSQGr3tkK",
+      "spcpt_j6mhY3GsmrfJcws5"
+     ],
+     "part_tier": null,
+     "problem_md": "Nicholas takes a large sample of ‘holiday ready’ turkeys, estimate the median mass of the turkeys in his sample.",
+     "solution_md": "![](assets/017-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jXzYDdtnVHdkMGwk",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_pxsnWTdScF2bS6hC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7dZQhQhG2scX7Drv"
+     ],
+     "part_tier": null,
+     "problem_md": "An archaeologist has devoted his life to studying ancient Greek vases produced by a particular Boeotian pottery workshop.  The vases were made to a standard pattern, and after measuring a very large number of them the archaeologist has found that 5% of the vases have a mass greater than 2.237 kg, while only 1% of them have a mass less than 1.906 kg.\n\nGiven that the masses of the vases may be assumed to be distributed normally, find the mean and standard deviation of the distribution.",
+     "solution_md": "![](assets/023-img.png)"
+    },
+    {
+     "id": "qstnprt_xGKhDSqVMkbpqDjp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_GyGBcHPyjz7RJsv9"
+     ],
+     "part_tier": null,
+     "problem_md": "The archaeologist has found that vases made by the workshop with a mass less than $m$ kg are particularly fragile and require special care.  A museum has just purchased a collection of  vases produced by the workshop.  The probability of all 10 vases requiring special care is $9.766\\times10^{24}$.\n\nFind the value of $m$.",
+     "solution_md": "![](assets/024-img.png)",
+     "equations": [
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "9.766\\times10^{24}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>766</mn><mo>×</mo><msup><mn>10</mn><mn>24</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9.766 cross times 10 to the power of 24"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3DDk6nWjrqKMx8Xn",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_yJNY8jjGJMvsRpQj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_V6WDFPgHhTqd5tyN",
+      "spcpt_7dZQhQhG2scX7Drv"
+     ],
+     "part_tier": null,
+     "problem_md": "The Monkey Puzzle Tree Marketing Board has proposed a new scheme that will measure the puzzlingness of monkey puzzle trees in terms of a unit called the ‘fuddle’. It is found that the puzzlingness measurements, $X$, of monkey puzzle trees grown on the We ♥ Puzzling Monkeys monkey puzzle tree plantation can be modelled as a normal distribution with mean $μ$ fuddles and standard deviation $σ$ fuddles.  Because the owners of the plantation are committed to making sure that the monkey puzzle trees they sell to gardeners are neither too puzzling nor not puzzling enough, the plantation only considers monkey puzzle trees to be saleable if their puzzlingness is between the 10% and 97.5% percentiles of the plantation’s monkey puzzle tree puzzlingness measurements.\n\nFind the range of possible puzzlingness measurements for a saleable monkey puzzle tree. Your answer should be given in terms of $μ$ and $σ$.",
+     "solution_md": "![](assets/025-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      },
+      {
+       "latex": "μ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>μ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mu"
+      },
+      {
+       "latex": "σ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>σ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sigma"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_dw2txQFZzkV9z2Fz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpb85fVZSQGr3tkK",
+      "spcpt_HS83hxfdbps62xPW"
+     ],
+     "part_tier": null,
+     "problem_md": "Given that $P(X<μ-8)=0.2$  find `space P left parenthesis X greater than mu plus 8 │ X greater than mu minus 8 right parenthesis.`",
+     "solution_md": "![](assets/026-img.png)",
+     "equations": [
+      {
+       "latex": "P(X<μ-8)=0.2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>μ</mi><mo>-</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis X less than mu minus 8 right parenthesis equals 0.2"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

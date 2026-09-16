@@ -1,0 +1,2623 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-16T22:53:40Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/topic-questions/statistical-distributions/binomial-distribution/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Maths",
+  "exam_code": "YMA01",
+  "sme_course_id": "crs_7R3phcphwpXF9rWr",
+  "syllabus_version": "2020",
+  "sme_alias_path": "20/statistics-2"
+ },
+ "section": {
+  "slug": "statistical-distributions",
+  "name": "Statistical Distributions"
+ },
+ "topic": {
+  "id": "top_t8Xw67S8kP5vWKVk",
+  "slug": "binomial-distribution",
+  "name": "Binomial Distribution",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "calculating-binomial-probabilities",
+   "name": "Calculating Binomial Probabilities",
+   "revision_note_id": "rn_yZfZgdKGYGCYJjjv"
+  },
+  {
+   "slug": "the-binomial-distribution",
+   "name": "The Binomial Distribution",
+   "revision_note_id": "rn_Rp9CjpmvmC3Bycwc"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_YbTHGd4MssjZbH9T",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 38
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q5-1.1-IAL-S2-Binomial-Distribution-VH.png": "001-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7a_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "002-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7b_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "003-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q7c_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "004-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q2a_4.2_Binomial-Distribution_Very_Hard_Edexcel_A_Level_Maths_Statistics.png": "005-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q2b_4.2_Binomial-Distribution_Very_Hard_Edexcel_A_Level_Maths_Statistics.png": "006-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q3_4.2_Binomial-Distribution_Very_Hard_Edexcel_A_Level_Maths_Statistics.png": "007-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3a_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "008-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3b_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "009-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3c_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "010-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q3d_3.2-Binomial-Geometric-Distribution_Very_Hard_CIE_S1_A_Level_Maths.png": "011-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q8a-1.1-IAL-S2-Binomial-Distribution-VH.png": "012-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q8b-1.1-IAL-S2-Binomial-Distribution-VH.png": "013-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q8c-1.1-IAL-S2-Binomial-Distribution-VH.png": "014-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1a_4.2_Binomial-Distribution_Very_Hard_Edexcel_A_Level_Maths_Statistics.png": "015-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1b_4.2_Binomial-Distribution_Very_Hard_Edexcel_A_Level_Maths_Statistics.png": "016-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q6_4.2_Binomial-Distribution_Very_Hard_Edexcel_A_Level_Maths_Statistics.png": "017-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q4a-1.1-IAL-S2-Binomial-Distribtuion-E.png": "018-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q4b-1.1-IAL-S2-Binomial-Distribtuion-E.png": "019-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q4c-1.1-IAL-S2-Binomial-Distribtuion-E.png": "020-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q7-1.1-IAL-S2-Binomial-Distribtuion-E.png": "021-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5a_3.2-Binomial-Geometric-Distribution_Easy_CIE_S1_A_Level_Maths.png": "022-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5b_3.2-Binomial-Geometric-Distribution_Easy_CIE_S1_A_Level_Maths.png": "023-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q5c_3.2-Binomial-Geometric-Distribution_Easy_CIE_S1_A_Level_Maths.png": "024-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q5_4.2_Binomial_Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "025-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1a_4.2_Binomial_Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "026-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q1b_4.2_Binomial_Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "027-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1a_3.2-Binomial-Geometric-Distribution_Easy_CIE_S1_A_Level_Maths.png": "028-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q1b_3.2-Binomial-Geometric-Distribution_Easy_CIE_S1_A_Level_Maths.png": "029-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q9a-1.1-IAL-S2-Binomial-Distribtuion-E.png": "030-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q9b-1.1-IAL-S2-Binomial-Distribtuion-E.png": "031-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q5a-1.1-IAL-S2-Binomial-Distribtuion-E.png": "032-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI-Q5b-1.1-IAL-S2-Binomial-Distribtuion-E.png": "033-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q7a_4.2_Binomial_Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "034-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q7b_4.2_Binomial_Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "035-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/08/MI_Q9_4.2_Binomial_Distribution_Easy_Edexcel_A_Level_Maths_Statistics.png": "036-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4a_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "037-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4b_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "038-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4c_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "039-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q2a_3.2-Binomial-Geometric-Distribution_Hard_CIE_S1_A_Level_Maths.png": "040-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q2b_3.2-Binomial-Geometric-Distribution_Hard_CIE_S1_A_Level_Maths.png": "041-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q10_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "042-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/07/MI_Q3_4.2_Binomial-Distribution_Hard_Edexcel_A_Level_Maths_Statistics.png": "043-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q8a_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "044-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q8b_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "045-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q8c_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "046-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q1a_3.2-Binomial-Geometric-Distribution_Hard_CIE_S1_A_Level_Maths.png": "047-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q1b_3.2-Binomial-Geometric-Distribution_Hard_CIE_S1_A_Level_Maths.png": "048-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q6_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "049-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q5_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "050-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q9a_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "051-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q9b_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "052-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q9c_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "053-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q7a_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "054-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q7b_1.1-Binomial-Distribution_Hard_IAL_S2_A_Level_Maths_Stats.png": "055-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q3_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "056-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q7_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "057-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q6_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "058-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q4a_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "059-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q4b_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "060-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q3a_3.2-Binomial-Geometric-Distribution_Medium_CIE_S1_A_Level_Maths.png": "061-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q3b_3.2-Binomial-Geometric-Distribution_Medium_CIE_S1_A_Level_Maths.png": "062-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/09/MI_Q3c_3.2-Binomial-Geometric-Distribution_Medium_CIE_S1_A_Level_Maths.png": "063-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q2a_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "064-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q2b_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "065-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q1a_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "066-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q1b_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "067-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q10a_1.1-Binomial-Distribution_Medium_IAL_S2_A_Level_Maths_Stats.png": "068-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/10/MI_Q10b_1.1-Binomial-Distribution_Medium_IAL_S2_A_Level_Maths_Stats.png": "069-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q8a_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "070-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q8b_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "071-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q8c_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "072-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/06/MI_Q5_4.2_Binomial-Distribution_Medium_Edexcel_A_Level_Maths_Statistics.png": "073-img.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_HCkjQ9WvNQKC2fgQ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_zzQT2dfzdn9BB8t7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable `X space tilde space B left parenthesis 9 comma 0.6 right parenthesis`.\n\nWrite down the values of and  which make the following statements true:\n\n(i) $P(X\\leq7)=1-P(X\\geqa)$\n\n(ii) $P(X\\geq3)=1-P(X\\leqb).$",
+     "solution_md": "![](assets/028-img.png)",
+     "equations": [
+      {
+       "latex": "P(X\\leq7)=1-P(X\\geqa)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>a</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 7 right parenthesis equals 1 minus P left parenthesis X greater or equal than a right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq3)=1-P(X\\leqb).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 3 right parenthesis equals 1 minus P left parenthesis X less or equal than b right parenthesis."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gnpS6bY9cJjXqNtz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use calculations of the form `open parentheses table row n row r end table close parentheses p to the power of r open parentheses 1 minus p close parentheses to the power of n minus r end exponent` with $n=9$ and $p=0.6$to find:\n\n(i) $P(X=5)$\n\n(ii) $P(X\\leq7)$\n\n(iii) $P(X\\geq3)$.\n\nGive your answers to three significant figures.",
+     "solution_md": "![](assets/029-img.png)",
+     "equations": [
+      {
+       "latex": "n=9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n equals 9"
+      },
+      {
+       "latex": "p=0.6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p equals 0.6 space"
+      },
+      {
+       "latex": "P(X=5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 5 right parenthesis"
+      },
+      {
+       "latex": "P(X\\leq7)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>7</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 7 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq3)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>3</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 3 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NZ7Qj2bTsYCP7wZ5",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_myGyBT4T3vm7wRWD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable `space X space tilde space B left parenthesis 25 comma 0.3 right parenthesis`.\n\nCalculate:\n\n(i) $P(X=12)$\n\n(ii) $P(X\\leq2)$",
+     "solution_md": "![](assets/022-img.png)",
+     "equations": [
+      {
+       "latex": "P(X=12)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>12</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 12 right parenthesis"
+      },
+      {
+       "latex": "P(X\\leq2)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>2</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 2 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_9spW3P3dYwqSkYV8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable `Y space tilde space B left parenthesis 25 comma 0.7 right parenthesis`.\n\nCalculate:\n\n(i) $P(Y=13)$\n\n(ii) $P(Y\\geq23)$",
+     "solution_md": "![](assets/023-img.png)",
+     "equations": [
+      {
+       "latex": "P(Y=13)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>=</mo><mn>13</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y equals 13 right parenthesis"
+      },
+      {
+       "latex": "P(Y\\geq23)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≥</mo><mn>23</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y greater or equal than 23 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5QtHhPyv5xdhmKtp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "By comparing your answers to part (a) and part (b), write down the values of $a$ and $b$ that make the following equations correct:\n\n(i) $P(X=10)=P(Y=a)$\n\n(ii) $P(X\\geq20)=P(Y\\leqb)$",
+     "solution_md": "![](assets/024-img.png)",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "P(X=10)=P(Y=a)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>10</mn><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>Y</mi><mo>=</mo><mi>a</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 10 right parenthesis equals P left parenthesis Y equals a right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq20)=P(Y\\leqb)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>20</mn><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≤</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 20 right parenthesis equals P left parenthesis Y less or equal than b right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_j4NPxxjTqz8WDRV7",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_QmKGrqtJcJmvtbsr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable `X tilde B left parenthesis 20 comma 0.15 right parenthesis`.\n\n(i) Write down the name of this distribution\n\n(ii) Write down the number of trials, $n$\n\n(iii) Write down the probability of success, $p$.",
+     "solution_md": "![](assets/026-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3z8SWD6FySBw4cG7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zVjsVNNSk6nRc5FQ",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find:\n\n(i) $P(X=4)$\n\n(ii) $P(X\\leq1)$\n\n(iii) $P(X\\geq8)$",
+     "solution_md": "![](assets/027-img.png)",
+     "equations": [
+      {
+       "latex": "P(X=4)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>4</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 4 right parenthesis"
+      },
+      {
+       "latex": "P(X\\leq1)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 1 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 8 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_x2pZynWhMJw29SnP",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_hs5rnQdZkJJRn3Gn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A biased coin has probability 0.8 of landing on heads.  Sunita and Mark model the probabilities of obtaining $X$ heads when the coin is tossed 10 times using the random variable $XB(10,p_{1})$.\n\n(i) Explain why $p_{1}=0.8$ in this case.\n\n(ii) Sunita decides to use her calculator to determine any probabilities. She determines $P(X=4)$ using the calculation\n\n$^{10}C_{0}\\times(0.8)^{4}(1-0.8)^{10-4}$\n\nUse Sunita’s calculation to find $P(X=4)$ to four decimal places.",
+     "solution_md": "![](assets/018-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "XB(10,p_{1})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo> </mo><mi>B</mi><mo>(</mo><mn>10</mn><mo>,</mo><mo> </mo><msub><mi>p</mi><mn>1</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X space B left parenthesis 10 comma space p subscript 1 right parenthesis"
+      },
+      {
+       "latex": "p_{1}=0.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>p</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p subscript 1 equals 0.8"
+      },
+      {
+       "latex": "P(X=4)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>4</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 4 right parenthesis"
+      },
+      {
+       "latex": "^{10}C_{0}\\times(0.8)^{4}(1-0.8)^{10-4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mrow/><mn>10</mn></msup><msub><mi mathvariant=\"normal\">C</mi><mn>0</mn></msub><mo> </mo><mo>×</mo><msup><mrow><mo>(</mo><mn>0</mn><mo>.</mo><mn>8</mn><mo>)</mo></mrow><mn>4</mn></msup><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>8</mn><mo>)</mo></mrow><mrow><mn>10</mn><mo>-</mo><mn>4</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "blank to the power of 10 straight C subscript 0 space cross times left parenthesis 0.8 right parenthesis to the power of 4 space left parenthesis 1 minus 0.8 right parenthesis to the power of 10 minus 4 end exponent"
+      },
+      {
+       "latex": "P(X=4)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>4</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 4 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rBMSMRwP8tjdFV96",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Mark decides to use statistical tables to determine any probabilities.\n\n(i) Explain why Mark will not be able to use the random variable `X tilde B left parenthesis 10 comma space 0.8 right parenthesis` with statistical tables.\n\n(ii) Mark says that instead of considering the number of heads obtained he will consider the number of tails obtained, $Y$, instead.  He will use the random variable `Y tilde space B left parenthesis 10 comma space p subscript 2 right parenthesis`.  Find the value of $p_{2}$ and explain how you found it.",
+     "solution_md": "![](assets/019-img.png)",
+     "equations": [
+      {
+       "latex": "Y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Y"
+      },
+      {
+       "latex": "p_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>p</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p subscript 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3K8h9gZMHCK2BRSB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Sunita and Mark use their methods to calculate the probability that the coin lands on heads at least 9 times.\n\n(i) Mark will use tables to find $P(Y\\leqy)$.  State the value of $y$ and find $P(Y\\leqy)$ from statistical tables, writing down all four decimal places given.\n\n(ii) Sunita will use her calculator to find $P(X\\geq9)$. Using either a calculation similar to the one given in part (a)(ii) or the statistical features of your calculator, find  $P(X\\geq9)$, to four decimal places.",
+     "solution_md": "![](assets/020-img.png)",
+     "equations": [
+      {
+       "latex": "P(Y\\leqy)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≤</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y less or equal than y right parenthesis"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "P(Y\\leqy)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≤</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y less or equal than y right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq9)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>9</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 9 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq9)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>9</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 9 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_bc3KsVJMtNjjF5ZC",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xwmVVVXbNqqG4CRk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A snowboarder is trying to perform the Poptart trick.\n\nThe snowboarder has a success rate of 25% of completing the trick.\n\nThe snowboarder will model the number of times they can expect to successfully complete the Poptart trick, out of their next 12 attempts, using the random variable `X tilde B left parenthesis 12 comma 0.25 right parenthesis`.\n\n(i) Give a reason why the model is suitable in this case.\n\n(ii) Suggest a reason why the model may not be suitable in this case.",
+     "solution_md": "![](assets/032-img.png)"
+    },
+    {
+     "id": "qstnprt_5MnX8gjfHqc5FSCq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using the model, find the probability that the snowboarder\n\n(i) successfully completes the Poptart trick more than 3 times in their next 12 attempts\n\n(ii) fails to successfully complete the trick on any of their next 12 attempts.",
+     "solution_md": "![](assets/033-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MRwFYBXwrSts93VQ",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_QK345qgqzXzTkk6c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zVjsVNNSk6nRc5FQ",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable `X tilde B left parenthesis 50 comma 0.05 right parenthesis`. Use either the statistical features on your calculator or statistical tables to find:\n\n(i) $P(X=4)$\n\n(ii) $P(X\\leq8)$\n\n(iii) $P(X\\geq7)$\n\nGive your answers to four decimal places.",
+     "solution_md": "![](assets/025-img.png)",
+     "equations": [
+      {
+       "latex": "P(X=4)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>4</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 4 right parenthesis"
+      },
+      {
+       "latex": "P(X\\leq8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 8 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq7)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>7</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 7 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vh3bnz7NHgZKVjct",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xKmhShXwKsQRWGPS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A random variable `Y tilde B left parenthesis 25 comma 0.55 right parenthesis`. Find:\n\n(i) $P(Y=13)$\n\n(ii) $P(Y\\leq8)$\n\n(iii) $P(Y\\geq20)$\n\nGive your answers to four decimal places.",
+     "solution_md": "![](assets/021-img.png)",
+     "equations": [
+      {
+       "latex": "P(Y=13)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>=</mo><mn>13</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y equals 13 right parenthesis"
+      },
+      {
+       "latex": "P(Y\\leq8)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≤</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y less or equal than 8 right parenthesis"
+      },
+      {
+       "latex": "P(Y\\geq20)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>≥</mo><mn>20</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y greater or equal than 20 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8Ry4qfCW8CmRmsb8",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_VrcT2MgjpSWHzQVQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A company manufacturing energy-saving light bulbs claims the mean lifetime of a bulb is 8000 hours. It is known from past quality assurance procedures that the probability of any particular light bulb having a lifetime of less than 5000 hours is 0.1.\n\nA random sample of 30 light bulbs is taken. The random variable `X tilde B left parenthesis n comma space p right parenthesis` is used to model the probability that $X$ light bulbs in the sample last less than 5000 hours.\n\n(i) Write down the values of $n$ and $p$.\n\n(ii) State how the situation meets the criterion “a fixed sample size” for a binomial distribution model.",
+     "solution_md": "![](assets/034-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Fnnh7R5kFwtPkQ9D",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zVjsVNNSk6nRc5FQ",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that\n\n(i) exactly one light bulb\n\n(ii) no more than three light bulbs\n\nlast less than 5000 hours.",
+     "solution_md": "![](assets/035-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CQGJcQmCPpYfdhPK",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_BnvfDf94thRggJsP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Farmer Kate rears a herd of 50 alpacas.  She takes a random sample of 8 alpacas and tests them for the disease Tuberculosis (TB).  From previous testing of the herd Farmer Kate knows that any individual alpaca has a 95% chance of testing negative for Tuberculosis.\n\nLet $N$ represent the number of alpacas in Farmer Kate’s sample that test negative for Tuberculosis.\n\n(i) Write down the probability distribution that describes $N$.\n\n(ii) Write down an alternative probability distribution that describes $P$, where $P$ represents the number of alpacas in Farmer Kate’s sample that test positive  for Tuberculosis.",
+     "solution_md": "![](assets/030-img.png)",
+     "equations": [
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N"
+      },
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "N"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hmpjn8kKJS6XYffW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that\n\n(i) zero\n\n(ii) more than 2\n\nalpacas in Farmer Kate’s sample test **positive** for Tuberculosis.",
+     "solution_md": "![](assets/031-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3hvBKMvkqDZK58v4",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_wxgB8mTB648M7k9F",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For each of the given binomial distributions find the mean `open parentheses n p close parentheses` and the variance `open parentheses n p left parenthesis 1 minus p right parenthesis close parentheses`.\n\n(i) `X tilde B left parenthesis 50 comma 0.4 right parenthesis`\n\n(ii)`Y tilde B left parenthesis 32 comma 0.14 right parenthesis`",
+     "solution_md": "![](assets/036-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DVGYd6xb7BssVqQx",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_N6PV93mVCqG2d8df",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A fair coin is tossed 20 times and the number of times it lands heads up is recorded.\n\nDefine a suitable distribution to model the number of times the coin lands heads up, and justify your choice.",
+     "solution_md": "![](assets/066-img.png)"
+    },
+    {
+     "id": "qstnprt_BkpFB2r55SR2CgFb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that the coin lands heads up 15 times.",
+     "solution_md": "![](assets/067-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GBrdfrQqrhXrwCHY",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_dFmrTrXN6yQkZrn2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For a jellyfish population in a certain area of the ocean, there is a 95% chance that any given jellyfish contains microplastic particles in its body.\n\nState any assumptions that are required to model the number of jellyfish containing microplastic particles in their bodies in a sample of size $n$ as a binomial distribution.",
+     "solution_md": "![](assets/064-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_CRXWKfYHKnhsk7SR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using this model, for a sample size of 40, find the probability of\n\n(i) exactly 38 jellyfish\n\n(ii) all the jellyfish\n\nhaving microplastic particles in their bodies.",
+     "solution_md": "![](assets/065-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yvGzRRMPCTfq7Ccm",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_DfWmSzYMrFTF8Rt7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bxWFJwqxDSR3cBsC",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Giovanni is rolling a biased dice, for which the probability of landing on a two is 0.25. He rolls the dice 10 times and records the number of times that it lands on a two. Find the probability that\n\n(i) the dice lands on a two 4 times\n\n(ii) the dice lands on a two 4 times, with the fourth two occurring on the final roll.",
+     "solution_md": "![](assets/056-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_N3Zzq2kxnM4PBs3M",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_9yNGTkFvYydcq8jd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For cans of a particular brand of soft drink labelled as containing $330\\mathrm{ml}$, the actual volume of soft drink in a can varies.  Although the company’s quality control assures that the mean volume of soft drink in the cans remains at 330 ml, it is known from experience that the probability of any particular can of the soft drink containing less than 320 ml is 0.0296.\n\nTilly buys a pack of 24 cans of this soft drink. It may be assumed that those 24 cans represent a random sample.  Let $L$ represent the number of cans in the pack that contain less than $320\\mathrm{ml}$ of soft drink.\n\nWrite down the probability distribution that describes $L$.",
+     "solution_md": "![](assets/059-img.png)",
+     "equations": [
+      {
+       "latex": "330\\mathrm{ml}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>330</mn><mo> </mo><mi>ml</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "330 space ml"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "320\\mathrm{ml}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>320</mn><mo> </mo><mi>ml</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "320 space ml"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zyzT4VfQvMKJ4RK3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that\n\n(i) none of the cans\n\n(ii) exactly two of the cans\n\n(iii) at least two of the cans\n\ncontain less than 320 ml of soft drink.",
+     "solution_md": "![](assets/060-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bwSP7zbYBz2Mpy4z",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_QsztyKxMhKZYfPkr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`. Find:\n\n(i) $P(X<10)$\n\n(ii) $P(X>7)$\n\n(iii) $P(3\\leqX<14)$\n\n(iv) $P(5<X<12)$.",
+     "solution_md": "![](assets/073-img.png)",
+     "equations": [
+      {
+       "latex": "P(X<10)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>10</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 10 right parenthesis"
+      },
+      {
+       "latex": "P(X>7)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>7</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than 7 right parenthesis"
+      },
+      {
+       "latex": "P(3\\leqX<14)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>3</mn><mo>≤</mo><mi>X</mi><mo>&lt;</mo><mn>14</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 3 less or equal than X less than 14 right parenthesis"
+      },
+      {
+       "latex": "P(5<X<12)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>5</mn><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mn>12</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 5 less than X less than 12 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nz3fqdRtTDXTP6KZ",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_v3KxvHzCHyTvGyv4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `X tilde B left parenthesis 40 comma space 0.25 right parenthesis`.  Find:\n\n(i) the largest value of $k$ such that $P(X<k)<0.10$\n\n(ii) the smallest value of $r$ such that $P(X\\geqr)<0.05$\n\n(iii) the largest value of $s$ such that  $P(X>s)>0.95$.",
+     "solution_md": "![](assets/058-img.png)",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "P(X<k)<0.10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>k</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than k right parenthesis less than 0.10"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "P(X\\geqr)<0.05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>r</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>05</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than r right parenthesis less than 0.05"
+      },
+      {
+       "latex": "s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s"
+      },
+      {
+       "latex": "P(X>s)>0.95",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>s</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>95</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than s right parenthesis greater than 0.95"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yBcr7MtwJmCw9rZ5",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_4RKqsHHS6xkRWS5D",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In an experiment, the number of specimens testing positive for a certain characteristic is modelled by the random variable `X tilde B left parenthesis 50 comma 0.35 right parenthesis`.  Find the probability of\n\n(i) fewer than 20\n\n(ii) no more than 20\n\n(iii) at least 20\n\n(iv) at most 20\n\n(v) more than 20\n\nof the specimens testing positive for the characteristic.",
+     "solution_md": "![](assets/057-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bxYxfHPDBTrTG8qK",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_PYm3Hhv8k4Vm3Q4S",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In the town of Wooster, Ohio, it is known that 90% of the residents prefer the locally produced Woostershire brand sauce when preparing a Caesar salad.  The other 10% of residents prefer another well-known brand.\n\n30 residents are chosen at random by a pollster. Let the random variable $X$ represent the number of those 30 residents that prefer Woostershire brand sauce.\n\nSuggest a suitable distribution for $X$ and comment on any necessary assumptions.",
+     "solution_md": "![](assets/070-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8r5bFVvK9YPVxHBg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bxWFJwqxDSR3cBsC",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that\n\n(i) 90% or more of the residents chosen prefer Woostershire brand sauce\n\n(ii) none of the residents chosen prefer the other well-known brand.",
+     "solution_md": "![](assets/071-img.png)"
+    },
+    {
+     "id": "qstnprt_YVBdqcMSrmNnTx2Z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The pollster knows that there is a greater than 97% chance of at least $k$ of the 30 residents preferring Woostershire brand sauce, where $k$ is the largest possible value that makes that statement true.\n\nFind the value of $k$.",
+     "solution_md": "![](assets/072-img.png)",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MYcrGZnxdk7CqfrR",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_TRzjsZGr64jjKkjW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "On any given day during a normal five-day working week, there is a 60% chance that Yussuf catches a taxi to work.\n\nFind $E(X)$, the expected number of times Yussuf will catch a taxi to work during a normal five-day working week.",
+     "solution_md": "![](assets/061-img.png)",
+     "equations": [
+      {
+       "latex": "E(X)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E left parenthesis X right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bNsstDd9yQj768rb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that, during a normal five-day working week, Yussuf never catches a taxi.",
+     "solution_md": "![](assets/062-img.png)"
+    },
+    {
+     "id": "qstnprt_nXDfvJn4YQJ4mx7Y",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that, during a normal five-day working week, Yussuf catches a taxi once at the most.",
+     "solution_md": "![](assets/063-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CRKk5kzQ6gKMrGVn",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_6JDnzHYVtvv8Yp62",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `Y tilde B left parenthesis n comma 0.4 right parenthesis`.\n\nGiven that $E(Y)=12$, find the value of $n$.",
+     "solution_md": "![](assets/068-img.png)",
+     "equations": [
+      {
+       "latex": "E(Y)=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>E</mi><mo>(</mo><mi>Y</mi><mo>)</mo><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space E left parenthesis Y right parenthesis equals 12"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sTx7VsGgJ55ThTrP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find:\n\n(i) $P(8<Y<12)$\n\n(ii) $\\mathrm{Var}(Y)$",
+     "solution_md": "![](assets/069-img.png)",
+     "equations": [
+      {
+       "latex": "P(8<Y<12)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>8</mn><mo>&lt;</mo><mi>Y</mi><mo>&lt;</mo><mn>12</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 8 less than Y less than 12 right parenthesis"
+      },
+      {
+       "latex": "\\mathrm{Var}(Y)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Var</mi><mo>(</mo><mi>Y</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Var left parenthesis Y right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_k2VZwwgSm4JjgSk2",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Mp4Sx6VJQZv3DWf9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A fair dice is rolled 24 times and the number of times it lands on a 4 is recorded.\n\nDefine a suitable distribution to model the number of times the dice lands on a 4, and justify your choice.",
+     "solution_md": "![](assets/047-img.png)"
+    },
+    {
+     "id": "qstnprt_TSMgXKT7NWFyNGQV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that the dice lands on a ‘4’ four times.",
+     "solution_md": "![](assets/048-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XNCz3VD5hRZhC8nJ",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_PShmDxyHqhjfmYp3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For a population of squirrels in a certain area of woodland, there is a 92% chance that any given squirrel was born in that area of woodland.  Squirrels born in that area of woodland are referred to by researchers as being ‘local’.\n\nState any assumptions that are required to model the number of local squirrels in a sample of size as a binomial distribution.",
+     "solution_md": "![](assets/040-img.png)"
+    },
+    {
+     "id": "qstnprt_5CHym8WPJtNvHgMm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using this model, for a sample size of 50, find the probability of\n\n(i) exactly 45 squirrels\n\n(ii) all but one of the squirrels\n\nbeing local.",
+     "solution_md": "![](assets/041-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qvDP7QBysTSpCWWG",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_s8Dj5TBR3DW8cx8r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bxWFJwqxDSR3cBsC",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Guglielma is rolling a biased dice, for which the probability of landing on a 5 is  $\\frac{2}{11}$.  She rolls the dice twenty times and records the number of times that it lands on a 5.  Find the probability that\n\n(i) the dice lands on a ‘5’ four times\n\n(ii) the dice lands on a ‘5’ four times, but the final ‘5’ does not occur on the final roll.",
+     "solution_md": "![](assets/043-img.png)",
+     "equations": [
+      {
+       "latex": "\\frac{2}{11}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>2</mn><mn>11</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "2 over 11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YrQx9MTXFCcd6C4T",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_DjrGBGpCQVb7rgHG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For bars of a particular brand of chocolate labelled as weighing , the actual weight of the bars varies.  Although the company’s quality control assures that the mean weight of the bars remains at 300 g, it is known from experience that the probability of any particular bar of the chocolate weighing between 297 g and 303 g is 0.9596.  For bars outside that range, the proportion of underweight bars is equal to the proportion of overweight bars.\n\nThe chocolate fanaticism of the club members means that no bars weighing less than 297 g can be handed out as snacks at their meetings. Millie buys  bars of this chocolate to hand out as snacks at her weekly Chocophiles club meeting.  It may be assumed that those  bars represent a random sample.  Let $U$ represent the number of bars out of those 25 that weigh less than .\n\nWrite down the probability distribution that describes $U$.",
+     "solution_md": "![](assets/037-img.png)",
+     "equations": [
+      {
+       "latex": "U",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>U</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U"
+      },
+      {
+       "latex": "U",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>U</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mKHcQDcHTdztGNZh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Given that 24 people (including Millie) will be attending the meeting, find the probability that there will be enough bars to hand out to\n\n(i) all\n\n(ii) all but one, but not all\n\nof the attendees.",
+     "solution_md": "![](assets/038-img.png)"
+    },
+    {
+     "id": "qstnprt_wQcng6tSgpCXTtS4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "After an incident where there were not enough chocolate bars weighing 297 g or more to hand out to all of a meeting’s attendees, Millie decides to reorganise the way she runs the meetings.  She will still only buy 25 of the chocolate bars each week, but she wants to reduce the number of attendees to make sure that she will have a certainty of at least 99.9% of being able to hand out a chocolate bar to every single attendee (including herself).\n\nWork out the greatest number of attendees that a meeting will be able to have under this new system.",
+     "solution_md": "![](assets/039-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HG3vvbqdjZxWkbvc",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_N7FxmyBGYy6Tj7bQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `X tilde B left parenthesis 50 comma 0.3 right parenthesis`. Find:\n\n(i) $P(X>20)$\n\n(ii) $P(7\\leqX<16)$\n\n(iii) $P(23>X>5)$\n\n(iv) $P(X<8\\mathrm{or}X>16)$.",
+     "solution_md": "![](assets/050-img.png)",
+     "equations": [
+      {
+       "latex": "P(X>20)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>20</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than 20 right parenthesis"
+      },
+      {
+       "latex": "P(7\\leqX<16)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>7</mn><mo>≤</mo><mi>X</mi><mo>&lt;</mo><mn>16</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 7 less or equal than X less than 16 right parenthesis"
+      },
+      {
+       "latex": "P(23>X>5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>23</mn><mo>&gt;</mo><mi>X</mi><mo>&gt;</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 23 greater than X greater than 5 right parenthesis"
+      },
+      {
+       "latex": "P(X<8\\mathrm{or}X>16)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>8</mn><mo> </mo><mo> </mo><mi>or</mi><mo> </mo><mo> </mo><mi>X</mi><mo>&gt;</mo><mn>16</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 8 space space or space space X greater than 16 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_k2jQTpvvBVdyfQtx",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_hWX4pTMknbyHn9QW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `X tilde B left parenthesis 50 comma 0.85 right parenthesis`.  Find:\n\n(i) the largest value of $q$ such that $P(X<q)<0.16$\n\n(ii) the largest value of $r$ such that $P(X\\geqr)>0.977$\n\n(iii) the smallest value of $s$ such that  $P(X>s)<0.025$.",
+     "solution_md": "![](assets/049-img.png)",
+     "equations": [
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "q"
+      },
+      {
+       "latex": "P(X<q)<0.16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>q</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than q right parenthesis less than 0.16"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "P(X\\geqr)>0.977",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>r</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>977</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than r right parenthesis greater than 0.977"
+      },
+      {
+       "latex": "s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s"
+      },
+      {
+       "latex": "P(X>s)<0.025",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>s</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>025</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than s right parenthesis less than 0.025"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4XFVcNpBwRX9VwsS",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_D5PTsk9NTTMwYj2d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Abner, an American baseball fanatic, has just moved to a town in which it is known that 25% of the residents are familiar with the rules of the game.\n\nAbner takes a random sample of 40 residents of the town. Find the probability that\n\n(i) fewer than 13\n\n(ii) no more than 13\n\n(iii) more than 13\n\n(iv) at most 13 but at least 5\n\nof the residents in Abner’s sample are familiar with the rules of baseball.",
+     "solution_md": "![](assets/054-img.png)"
+    },
+    {
+     "id": "qstnprt_KbSX47q46FxnSyvH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Abner asks random residents, who know the rules, whether they would like to join his baseball team. There’s an 80% chance that the resident will join his team.\n\nGiven that Abner needs at least 5 more players, find the smallest number of people that Abner should ask in order to have at least a 90% chance of filling up his team.",
+     "solution_md": "![](assets/055-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PrZxbH4RKMMjGwyb",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_6PdkwjtxcW3gVDwt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In the town of Edinboro, Pennsylvania, a festival of trimmed below the forehead hairstyles is held every year, known as the Edinboro Fringe Festival. It is known that 70% of the residents of the town are in favour of the festival because of the tourism revenue it brings in. The other 30% of residents oppose the festival because of the sometimes hostile reactions of the large number of tourists who arrive every year thinking they had actually made bookings to attend another well-known fringe festival.\n\n25 residents are chosen at random by a local newspaper reporter. Let the random variable  represent the number of those 25 residents that are in favour of the festival.\n\nSuggest a suitable distribution for $X$ and comment on any necessary assumptions.",
+     "solution_md": "![](assets/044-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VJhfTVH5jPVfyrYg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that\n\n(i) 76% or more of the residents chosen are in favour of the festival\n\n(ii) more of the residents chosen oppose the festival than are in favour of it.",
+     "solution_md": "![](assets/045-img.png)"
+    },
+    {
+     "id": "qstnprt_fsZPhCTs5K6TdZPP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The reporter knows that the chance of $k$ or more of the 25 residents being opposed to the festival is less than 0.5%, where $k$ is the smallest possible value that makes that statement true.\n\nFind the value of $k$.",
+     "solution_md": "![](assets/046-img.png)",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7MCgZwBSngykSv46",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_YWGz2864DQfbqTrC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`.\n\nFind:\n\n(i) $E(X)$\n\n(ii) $\\mathrm{Var}(X)$.",
+     "solution_md": "![](assets/051-img.png)",
+     "equations": [
+      {
+       "latex": "E(X)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E left parenthesis X right parenthesis"
+      },
+      {
+       "latex": "\\mathrm{Var}(X)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Var</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Var left parenthesis X right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TvhnyfHRm68Jkzf8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find:\n\n(i) $P(X=5)$\n\n(ii) $P(X\\geq3).$",
+     "solution_md": "![](assets/052-img.png)",
+     "equations": [
+      {
+       "latex": "P(X=5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X equals 5 right parenthesis"
+      },
+      {
+       "latex": "P(X\\geq3).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mn>3</mn><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater or equal than 3 right parenthesis."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PxZ5xw4wGc6GtwBV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpb85fVZSQGr3tkK",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find `P left parenthesis X equals 5 space vertical line space X greater or equal than 3 right parenthesis`.",
+     "solution_md": "![](assets/053-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_R9Jt6pjMbS2MCfy9",
+   "set_slug": "exam-questions",
+   "order": 29,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_68zmVXGQSHVyqX8n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `Y tilde B left parenthesis 5 comma p right parenthesis`.\n\n(i) Find the value of $p$ when $E(Y)=3$.\n\n(ii) Find the value of $p$ when $P(Y=5)=0.32768.$\n\n(iii) Find the possible values of $p$ when $\\mathrm{Var}(Y)=1.05$.",
+     "solution_md": "![](assets/042-img.png)",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "E(Y)=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">E</mi><mo>(</mo><mi>Y</mi><mo>)</mo><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight E left parenthesis Y right parenthesis equals 3"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "P(Y=5)=0.32768.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>P</mi><mo>(</mo><mi>Y</mi><mo>=</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>32768</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space P left parenthesis Y equals 5 right parenthesis equals 0.32768."
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "\\mathrm{Var}(Y)=1.05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>Var</mi><mo>(</mo><mi>Y</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>.</mo><mn>05</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space Var left parenthesis Y right parenthesis equals 1.05"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_59pk6tHmRGbZyCJ5",
+   "set_slug": "exam-questions",
+   "order": 30,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_xgVMjMdVCZX6njZR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Two fair dice are rolled and the numbers showing on the dice are added together.  This is done 18 times and the number of times the sum is *not* equal to 7 or 11 is recorded.\n\nDefine a suitable distribution to model the number of times the sum is *not* equal to 7 or 11, and justify your choice.",
+     "solution_md": "![](assets/015-img.png)"
+    },
+    {
+     "id": "qstnprt_7V3fP6NrxV5Md7GB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that the sum of the two dice is *not *equal to* *7 or 11 exactly fourteen times.",
+     "solution_md": "![](assets/016-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nRGDDRyv5rfTyh7W",
+   "set_slug": "exam-questions",
+   "order": 31,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_d3cmxjCsbq3QYb2k",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Researchers studying malaria in a certain geographical region know that there is an 80% chance of any given female mosquito in the region carrying the malaria parasite.\n\nState any assumptions that are required to model the number of female mosquitoes that carry the malaria parasite in a sample of $n$ female mosquitoes as a binomial distribution.",
+     "solution_md": "![](assets/005-img.png)",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bVhw5xmj8DvbmkhV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Male mosquitoes do not bite humans and therefore are unable to transmit the malaria parasite to a human.  A female mosquito is only able to transmit the malaria parasite to a human if it is carrying the malaria parasite itself.\n\nGiven that 50% of the mosquitoes in the region are male, find the probability that in a random sample of six mosquitoes none of them are able to transmit the malaria parasite to a human. Give your answer as an exact value.",
+     "solution_md": "![](assets/006-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fYcBCmG26GK4wyGx",
+   "set_slug": "exam-questions",
+   "order": 32,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_rj3FNVKrYthFjJfq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bxWFJwqxDSR3cBsC",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Maifreda is rolling a biased dice, for which the probability of landing on a prime number is $\\frac{1}{2}$  and the probability of landing on a square number is $\\frac{5}{16}$.  She rolls the dice twenty times and records the number of times that it lands on a 6.  Find the probability that\n\n(i) the dice lands on a ‘6’ four times\n\n(ii) the dice lands on a ‘6’ four times, but all of those sixes occur within the first  rolls (where $4\\leqk\\leq20$).\n\nYour answer for (ii) should be given in terms of $k$, in the form\n\n`open parentheses table row a row b end table close parentheses open parentheses p over 16 close parentheses to the power of q open parentheses r over 16 close parentheses to the power of s`\n\nwhere `open parentheses table row a row b end table close parentheses equals fraction numerator a factorial over denominator b factorial open parentheses a minus b close parentheses factorial end fraction` is a binomial coefficient, and $a,b,p,q,r\\mathrm{and}s$ are constants to be found.",
+     "solution_md": "![](assets/007-img.png)",
+     "equations": [
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1 half"
+      },
+      {
+       "latex": "\\frac{5}{16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>5</mn><mn>16</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 over 16"
+      },
+      {
+       "latex": "4\\leqk\\leq20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 less or equal than k less or equal than 20"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "a,b,p,q,r\\mathrm{and}s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>,</mo><mo> </mo><mi>b</mi><mo>,</mo><mo> </mo><mi>p</mi><mo>,</mo><mo> </mo><mi>q</mi><mo>,</mo><mo> </mo><mi>r</mi><mo> </mo><mi>and</mi><mo> </mo><mi>s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a comma space b comma space p comma space q comma space r space and space s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_DZXkYP9NypS4zM2k",
+   "set_slug": "exam-questions",
+   "order": 33,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_c6fsMV5bzgW84jCz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Zara is a gymnast. It is known that she has a 20% chance of making a mistake in any given routine.\n\nZara performs ten routines in a competition.\n\n(i) Find the expected number of routines in which Zara will make a mistake.\n\n(ii) Find the standard deviation of the number of routines in which Zara makes a mistake.",
+     "solution_md": "![](assets/008-img.png)"
+    },
+    {
+     "id": "qstnprt_qrrj3r4yHcJk7VZt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that Zara makes a mistake in:\n\n(i) none of her routines,\n\n(ii) exactly two of her routines,\n\n(iii) no more than two of her routines.",
+     "solution_md": "![](assets/009-img.png)"
+    },
+    {
+     "id": "qstnprt_MRC9Sn23yygsfxWs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mpb85fVZSQGr3tkK",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Given that Zara makes a mistake in at least 2 of her routines, find the probability that she makes a mistake in exactly 3 of her routines.",
+     "solution_md": "![](assets/010-img.png)"
+    },
+    {
+     "id": "qstnprt_jYsgGFg3hcPjVVMF",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that the number of routines in which Zara makes a mistake is less than one standard deviation away from the mean.",
+     "solution_md": "![](assets/011-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vVqS28VTNNCTFTMq",
+   "set_slug": "exam-questions",
+   "order": 34,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_W8gkTMdgkDqR3vDv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The random variable `X tilde B left parenthesis 50 comma 0.75 right parenthesis`. Find:\n\n(i) $P(X\\leq52\\mathrm{and}X>31)$\n\n(ii) $P(X<29\\mathrm{or}X>38)$\n\n(iii) $P(40>X\\geq30)$.",
+     "solution_md": "![](assets/001-img.png)",
+     "equations": [
+      {
+       "latex": "P(X\\leq52\\mathrm{and}X>31)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>52</mn><mo> </mo><mo> </mo><mi>and</mi><mo> </mo><mo> </mo><mi>X</mi><mo>&gt;</mo><mn>31</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less or equal than 52 space space and space space X greater than 31 right parenthesis"
+      },
+      {
+       "latex": "P(X<29\\mathrm{or}X>38)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mn>29</mn><mo> </mo><mo> </mo><mi>or</mi><mo> </mo><mo> </mo><mi>X</mi><mo>&gt;</mo><mn>38</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X less than 29 space space or space space X greater than 38 right parenthesis"
+      },
+      {
+       "latex": "P(40>X\\geq30)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>40</mn><mo>&gt;</mo><mi>X</mi><mo>≥</mo><mn>30</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis 40 greater than X greater or equal than 30 right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_28hnVrdmN67GND7T",
+   "set_slug": "exam-questions",
+   "order": 35,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_67tJvMGdfy33rgsj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The table below contains part of the cumulative distribution function for the random variable `X tilde B left parenthesis 30 comma 0.45 right parenthesis`:\n\n| $x$ | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|---|---|---|\n| $P(X\\leqx)$ | 0.0011 | 0.0040 | 0.0121 | 0.0312 | 0.0694 | 0.1350 | 0.2327 | 0.3592 |\n\n| 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |\n|---|---|---|---|---|---|---|---|---|\n| 0.5025 | 0.6448 | 0.7691 | 0.8644 | 0.9286 | 0.9666 | 0.9862 | 0.9950 | 0.9984 |\n\nThe random variable $Y$ is defined in terms of $X$ as $Y=30-X$, while the random variable `Z tilde B left parenthesis 30 comma 0.55 right parenthesis`.\n\nUsing the table above, and showing your working, find:\n\n(i) the smallest value of $q$ such that $P(X>q)<0.21$\n\n(ii) the largest value of $r$ such that $P(Y>r)>0.93$\n\n(iii) the smallest value of $s$ such that  $P(Z<s)>0.988$.",
+     "solution_md": "![](assets/017-img.png)",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic x"
+      },
+      {
+       "latex": "P(X\\leqx)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">≤</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic P bold left parenthesis bold italic X bold less or equal than bold italic x bold right parenthesis"
+      },
+      {
+       "latex": "Y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Y"
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "Y=30-X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Y</mi><mo>=</mo><mn>30</mn><mo>-</mo><mi>X</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "Y equals 30 minus X"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "q"
+      },
+      {
+       "latex": "P(X>q)<0.21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>q</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn><mo>.</mo><mn>21</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis X greater than q right parenthesis less than 0.21"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "P(Y>r)>0.93",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Y</mi><mo>&gt;</mo><mi>r</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>93</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Y greater than r right parenthesis greater than 0.93"
+      },
+      {
+       "latex": "s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s"
+      },
+      {
+       "latex": "P(Z<s)>0.988",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>s</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>988</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis Z less than s right parenthesis greater than 0.988"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VqWJb296YZCgn8Tp",
+   "set_slug": "exam-questions",
+   "order": 36,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_qdxbtnSs4PQFf3xf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Although a particular manufacturer of academic gowns advertises the material of their gowns as being 93% silk, the actual silk content of the gowns varies.  Although the manufacturer’s quality control protocols assure that the mean percentage of silk in the gowns remains at 93%, it is known from experience that the probability of the silk content of any particular gown being between 90% and 95% is 0.9805.  For gowns falling outside that range, the probability that a gown contains less than 90% silk is exactly half the probability that a gown contains more than 95% silk.\n\nCamford University has received an order of 100 gowns from the manufacturer. It may be assumed that those  gowns represent a random sample. Let $W$ represent the number of gowns out of those 100 that have a silk content greater than 95%.\n\nWrite down the probability distribution that describes $W$.",
+     "solution_md": "![](assets/002-img.png)",
+     "equations": [
+      {
+       "latex": "W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W"
+      },
+      {
+       "latex": "W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "W"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ghty6V7bZWVNqHXV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "At an upcoming ceremony the university’s Department of Obfuscation is going to be awarding honorary degrees to four government statisticians.  The university prefers whenever possible to provide the recipients of such degrees with gowns containing more than 95% silk.\n\nOut of the order of 100 gowns, find the probability that there will be enough gowns containing more than 95% silk to provide\n\n(i) all\n\n(ii) all but one (but not all)\n\n(iii) less than half\n\nof the honorary degree recipients with such a gown.",
+     "solution_md": "![](assets/003-img.png)"
+    },
+    {
+     "id": "qstnprt_WKN4fGWtrzQ5wn39",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Q9VkVVBtSYX8n8rN",
+      "spcpt_bxWFJwqxDSR3cBsC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Due to a mix-up at the ceremony, the four honorary degree recipients are simply handed gowns at random from the order of 100 gowns. It had previously been determined that exactly one of the 100 gowns in the order contained less than 90% silk, and the university is worried that if one of the honorary degree recipients received that gown then the university’s government grant funding will be cut.\n\nWork out the probability that one of the honorary degree recipients received the gown containing less than 90% silk.",
+     "solution_md": "![](assets/004-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9MFy98VZDgrNgcpr",
+   "set_slug": "exam-questions",
+   "order": 37,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_mcrXzj8G57572GP7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cBCMfVF2MRC2fhZS"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In Surry County, North Carolina, local farmers and agricultural equipment suppliers gather each year to celebrate at the Surry Slurry Fest. It is known that 80% of the residents of the county are opposed to the Slurry Fest because of the mess it leaves behind on local roads, fields and government buildings. The other 20% of residents are in favour of the Slurry Fest because it is (according to them) “one heck of a good ol’ time”.\n\nAn organiser of the rival Surry ♥ Curry Not Slurry food festival is attempting to gather evidence to support his campaign to have the Surry Slurry Fest banned. He selects 25 county residents at random in order to poll them about their opinions on the Slurry Fest. Let the random variable $X$ represent the number of those 25 residents that are opposed to the Slurry Fest.\n\nSuggest a suitable distribution for $X$ and comment on any necessary assumptions.",
+     "solution_md": "![](assets/012-img.png)",
+     "equations": [
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      },
+      {
+       "latex": "X",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "X"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3wwfFdG4GQrvKCxR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CFPBfrF9PVcrbCk6",
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the probability that\n\n(i) 90% or more of the residents chosen are opposed to the Slurry Fest\n\n(ii) a majority of the residents chosen are in favour of the Slurry Fest.",
+     "solution_md": "![](assets/013-img.png)"
+    },
+    {
+     "id": "qstnprt_CDFgV62jCXfGQpYw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_946spf6kFdytWskY"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Before he is able to conduct his poll of the selected residents, the food festival organiser is interviewed by a local newspaper.  He would like to be able to predict with at least 90% certainty that not more than a given percentage of the 25 residents selected for the poll will be in favour of the Slurry Fest.\n\nGiven that the organiser would like his prediction to support his anti-Slurry Fest campaign in the strongest manner possible, determine the ‘given percentage’ that he should quote to the newspaper.",
+     "solution_md": "![](assets/014-img.png)"
+    }
+   ]
+  }
+ ]
+}
