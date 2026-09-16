@@ -1,0 +1,1056 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-16T23:08:33Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/topic-questions/algorithms-and-graph-theory/graphs/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Maths",
+  "exam_code": "YMA01",
+  "sme_course_id": "crs_7R3phcphwpXF9rWr",
+  "syllabus_version": "2020",
+  "sme_alias_path": "20/decision-1"
+ },
+ "section": {
+  "slug": "algorithms-and-graph-theory",
+  "name": "Algorithms & Graph Theory"
+ },
+ "topic": {
+  "id": "top_tYcXZ4QZ4q7j3jZh",
+  "slug": "graphs",
+  "name": "Graphs",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "graph-theory",
+   "name": "Graph Theory",
+   "revision_note_id": "rn_wS2Yk5pvjXkcGhbC"
+  },
+  {
+   "slug": "hamiltonian-graphs",
+   "name": "Hamiltonian Graphs",
+   "revision_note_id": "rn_RFWNMcqbKBrVssWg"
+  },
+  {
+   "slug": "eulerian-graphs",
+   "name": "Eulerian Graphs",
+   "revision_note_id": "rn_PMpSSqVCpQvJjGq2"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_3Jd8Tzc5WFFnqGDX",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 4
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/02/45052-screenshot-2026-02-24-122704.png": "001-graph-image-with-labelled-vertices-a-to-j-lines-.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/23553-screenshot-2026-02-24-123548.png": "002-graph-diagram-labelled-figure-2-with-points-a-to.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/42218-screenshot-2026-02-24-124113.png": "003-diagram-1-shows-scattered-black-dots-labelled-a-.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/24727-d1-graphs-fwyw43nk-d-mst.png": "004-the-minimum-spanning-tree-drawn-on-the-nine-give.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/2396-screenshot-2026-02-23-121437.png": "005-geometric-diagram-with-nine-labelled-points-a-j-.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/62673-screenshot-2026-02-23-122628.png": "006-diagram-1-with-nine-labelled-dots-a-to-j-in-a-gr.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/57293-d1-graphs-sp8fcfwc-c-mst.png": "007-the-minimum-spanning-tree-drawn-on-the-nine-give.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/38181-screenshot-2026-02-19-182607.png": "008-geometric-diagram-with-labelled-points-a-j-conne.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/32345-screenshot-2026-03-04-155728.png": "009-graph-diagram-with-nodes-a-to-j-connected-by-wei.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/32885-screenshot-2026-02-18-175746.png": "010-graph-with-vertices-a-to-h-connected-by-edges-ac.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/22256-screenshot-2026-02-18-193939.png": "011-diagram-1-shows-eight-black-dots-labelled-a-to-h.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/30691-picture2.png": "012-the-minimum-spanning-tree-drawn-on-the-eight-giv.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_t4HbQN4QbvN2kMZJ",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_w493Jj2gRrDYMgz5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WDM11/01",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_g6QKkK28sx7kfVZp",
+      "spcpt_g4WGr939XD6DZyBD"
+     ],
+     "part_tier": null,
+     "problem_md": "![Graph with vertices A to H connected by edges: AC (16), AB (17), BH (21), CD (18), DF (24), FG (29), and others, labelled with weights.](assets/010-graph-with-vertices-a-to-h-connected-by-edges-ac.png)\n\nExplain why it is impossible to draw a graph with eight vertices in which the vertex orders are 1, 2, 2, 3, 3, 4, 4 and 6",
+     "solution_md": "Adding up the orders of all the vertices counts every arc twice, once at each end\n\n$1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25$\n\nHalving that total would give the number of arcs\n\n$\\frac{25}{2} = 12 . 5$\n\n**Final answer:** **The vertex orders add to 25, so the graph would need 12.5 arcs, and a graph cannot have half an arc**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Links 25 to the sum of the vertex orders and explains why this makes the graph impossible.\n> \n> You must connect the 25 to the sum of the vertex orders, either in words or by writing out $1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25$. Saying only that 25 is not even earns nothing, and a bare 12.5 with no working or explanation earns nothing either.\n> \n> An argument that a graph cannot have an odd number of odd vertices is equally acceptable, since this graph would have three of them.\n> \n> You are not required to quote the result that the vertex orders sum to twice the number of arcs, but you must say why 12.5 rules the graph out.\n> \n> Technical language must be correct here: writing \"arc\" where \"vertex\" belongs is not allowed, even if the argument is otherwise right.\n\n> **[exam-tip]**\n> Adding the orders and halving is the whole method, because the total counts each arc twice and so must be even.\n> \n> - An odd total, or a half number of arcs, rules the graph out at once, so there is never any need to attempt a drawing",
+     "equations": [
+      {
+       "latex": "1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>25</mn></math>",
+       "alt": "1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25"
+      },
+      {
+       "latex": "\\frac{25}{2} = 12 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>=</mo><mn>12</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "\\frac{25}{2} = 12.5"
+      },
+      {
+       "latex": "1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>25</mn></math>",
+       "alt": "1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TDd9p99shNmz3Wyz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WDM11/01",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_g4WGr939XD6DZyBD"
+     ],
+     "part_tier": null,
+     "problem_md": "Figure 3 shows the network T. The numbers on the arcs represent the distances, in km, between the eight vertices, A, B, C, D, E, F, G and H.\n\nDetermine whether or not A – C – D – E – C – B – F is an example of a path on T. You must justify your answer.",
+     "solution_md": "A path is a sequence of arcs in which each arc starts where the previous one finished, and in which no vertex appears more than once\n\nEvery arc used here does exist in $T$, so the route can genuinely be travelled, but that on its own does not make it a path\n\nList the vertices in the order they are visited and look for a repeat\n\n*A, C, D, E, C, B, F*\n\n*A vertex is visited more than once, so this is not a path*\n\n**[B1]**\n\n**Final answer:** **Vertex C appears twice, so A – C – D – E – C – B – F is not a path on T**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: States that it is not a path, with a reason referring to a repeated vertex or to a cycle.\n> \n> **B1**: Gives the fully correct reason, naming C as the vertex that appears twice, or naming the cycle C – D – E – C.\n> \n> The first mark is generously marked: incorrect technical language is condoned and you are given the benefit of the doubt. Saying only that an arc is repeated does not earn it unless you also mention a repeated vertex.\n> \n> The second mark depends on the first and is marked strictly. Naming C, or naming the cycle C – D – E – C, is required, and \"a vertex is repeated\" or \"it contains a cycle\" is not enough on its own. Any technical language you use must be correct, and incorrect reasoning alongside a correct statement is not ignored.\n> \n> The shortest answer earning both marks is \"it is not a path as C appears twice\".\n\n> **[exam-tip]**\n> Every arc in this sequence really does exist in $T$, so checking that the route can be travelled will not settle the question.\n> \n> - The test for a path is about the vertices, not the arcs, so write the vertices out in order and hunt for a repeat",
+     "equations": [
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>",
+       "alt": "T"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_V53b6zJ7WbWHsWRK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WDM11/01",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_NrWwXjJZ9DMCbpZn"
+     ],
+     "part_tier": null,
+     "problem_md": "Use Prim’s algorithm, starting at A, to find the minimum spanning tree for T. You must clearly state the order in which you select the arcs of the tree.",
+     "solution_md": "Prim's algorithm grows a single tree outwards from the starting vertex, each time adding the shortest arc that joins the tree to a vertex not yet in it\n\nFrom $A$ the choices are $A C$ at 16, $A B$ at 17 and $A H$ at 21, so take $A C$; the tree can then reach $B$ most cheaply by $A B$ at 17, and $D$ by $C D$ at 18\n\n*AC, AB, CD*\n\n**[M1]**\n\nFrom $A$, $B$, $C$, $D$ the shortest arc to a new vertex is $D H$ at 17, and then $D G$ at 20\n\n*AC, AB, CD, DH, DG*\n\n**[A1]**\n\nOnly $F$ and $E$ are left, reached most cheaply by $C F$ at 21 and then $D E$ at 24\n\n**Final answer:** **AC, AB, CD, DH, DG, CF, DE**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Selects the first three arcs in order, AC, AB, CD, or the first four vertices in order, A, C, B, D.\n> \n> **A1**: Selects the first five arcs in order, AC, AB, CD, DH, DG, or all eight vertices in order.\n> \n> **A1**: All seven arcs stated correctly and in the correct order, with no additional incorrect arcs.\n> \n> Showing any explicit rejections caps this part at the method mark, however good the rest of your answer is.\n> \n> For the final mark you must be listing arcs. The vertices in order, or the numbers written across the top of a matrix, are not enough on their own, and a list of weights alone is never accepted, because the weights in this network are not unique.\n> \n> Starting at a vertex other than A scores the method mark at most, and only if your first three arcs, or first four vertices, are correct and in order.\n\n> **[exam-tip]**\n> Prim's grows one connected tree, so a new arc can never close a cycle and there is never anything to reject, which is exactly what separates it from Kruskal's.\n> \n> - Tick each vertex as it joins, then at every step consider only the arcs running from a ticked vertex to an unticked one",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "A C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math>",
+       "alt": "A C"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "A H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi></math>",
+       "alt": "A H"
+      },
+      {
+       "latex": "A C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math>",
+       "alt": "A C"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "C D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>D</mi></math>",
+       "alt": "C D"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "D H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>H</mi></math>",
+       "alt": "D H"
+      },
+      {
+       "latex": "D G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>G</mi></math>",
+       "alt": "D G"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>",
+       "alt": "E"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      },
+      {
+       "latex": "D E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>E</mi></math>",
+       "alt": "D E"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bDb8GdZg7P44BR3j",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WDM11/01",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_6MrxckS4B59GZns8"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw the minimum spanning tree using the vertices given in Diagram 1\n\n![Diagram 1 shows eight black dots labelled A to H, scattered randomly across a plain white background.](assets/011-diagram-1-shows-eight-black-dots-labelled-a-to-h.png)",
+     "solution_md": "Join the vertices already marked on Diagram 1 using only the seven arcs found in part (c)\n\n![The minimum spanning tree drawn on the eight given vertices, with arcs AC, AB, CD, DE, DG, CF and a curved arc from D round to H.](assets/012-the-minimum-spanning-tree-drawn-on-the-eight-giv.png)\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: The correct minimum spanning tree, with arcs AC, AB, CD, DH, DG, CF and DE.\n> \n> Weights written on the arcs are ignored, even if they are wrong, so there is no need to label them.\n\n> **[exam-tip]**\n> Count before you move on: a spanning tree on eight vertices has exactly seven arcs and no cycles.\n> \n> - A vertex left joined to nothing is the quickest sign that you have dropped an arc"
+    },
+    {
+     "id": "qstnprt_9hbpSXH4nm2Kh8xP",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "WDM11/01",
+      "question_number": 5,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_wdmRbpKyGXsKZdMF"
+     ],
+     "part_tier": null,
+     "problem_md": "The weight of arc CF is now increased to a value of $x$. The minimum spanning tree for T is unique and includes the same arcs as those found in (c).\n\nWrite down the smallest interval that must contain $x$.",
+     "solution_md": "Arc $C F$ is in the tree, so ask how large its weight can grow before some other arc would be chosen in its place\n\nDeleting $C F$ from the tree leaves $F$ joined to nothing, so the tree has to be rejoined by one of the other arcs at $F$\n\nThose arcs are $F H$ at 25, $B F$ at 26 and $E F$ at 27, and the cheapest is $F H$ at 25, so $C F$ keeps its place only while its weight stays below 25\n\n$x < 25$\n\n**[B1]**\n\nThe weight of $C F$ was 21 and the question says it is increased, which fixes the lower end\n\n$21 < x < 25$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: A correct upper bound. Accept $x < 25$, $x \\leq 25$, $x < 24$ or $x \\leq 24$, or any equivalent form.\n> \n> **B1**: The fully correct interval, $21 < x < 25$, or any equivalent form.\n> \n> Both bounds must be strict in the final answer. At $x = 25$ the arcs $C F$ and $F H$ would give minimum spanning trees of equal weight, so the tree would no longer be unique, and at $x = 21$ the weight has not been increased at all.\n\n> **[exam-tip]**\n> Only the upper bound comes from the network. The lower bound comes from the word \"increased\" in the question, since $C F$ was 21 to start with.\n> \n> - For the upper bound, delete the arc and ask which arc would rejoin the two pieces most cheaply, because that is the weight yours has to stay below",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "F H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>H</mi></math>",
+       "alt": "F H"
+      },
+      {
+       "latex": "B F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>F</mi></math>",
+       "alt": "B F"
+      },
+      {
+       "latex": "E F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>F</mi></math>",
+       "alt": "E F"
+      },
+      {
+       "latex": "F H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>H</mi></math>",
+       "alt": "F H"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      },
+      {
+       "latex": "x < 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>25</mn></math>",
+       "alt": "x < 25"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      },
+      {
+       "latex": "21 < x < 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>25</mn></math>",
+       "alt": "21 < x < 25"
+      },
+      {
+       "latex": "x < 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>25</mn></math>",
+       "alt": "x < 25"
+      },
+      {
+       "latex": "x \\leq 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#x2264;</mo><mn>25</mn></math>",
+       "alt": "x \\leq 25"
+      },
+      {
+       "latex": "x < 24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>24</mn></math>",
+       "alt": "x < 24"
+      },
+      {
+       "latex": "x \\leq 24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&#x2264;</mo><mn>24</mn></math>",
+       "alt": "x \\leq 24"
+      },
+      {
+       "latex": "21 < x < 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>25</mn></math>",
+       "alt": "21 < x < 25"
+      },
+      {
+       "latex": "x = 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>25</mn></math>",
+       "alt": "x = 25"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      },
+      {
+       "latex": "F H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>H</mi></math>",
+       "alt": "F H"
+      },
+      {
+       "latex": "x = 21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>21</mn></math>",
+       "alt": "x = 21"
+      },
+      {
+       "latex": "C F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>F</mi></math>",
+       "alt": "C F"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fwyW43NK8qwwZ5Gs",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_G8PYt7V298mtRy5b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2022",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_h3Gvrwv3BRwysKYT"
+     ],
+     "part_tier": null,
+     "problem_md": "![Graph image with labelled vertices A to J; lines connect various points, forming geometric shapes and intersections. Title: Figure 1.](assets/001-graph-image-with-labelled-vertices-a-to-j-lines-.png)\n\nFigure 1 shows a graph, T.\n\nWrite down an example of a path from A to J on T.",
+     "solution_md": "A path runs along a sequence of arcs from one vertex to the next, using no vertex more than once\n\nReading arcs straight off Figure 1, one route from $A$ to $J$ goes to $B$, then $F$, then $H$\n\n**Final answer:** **A – B – F – H – J**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Any correct path from A to J, using no vertex more than once.\n> \n> Many different paths work here, so your answer does not have to be the one shown. It must run along arcs that actually appear in Figure 1, and it must not use any vertex twice.\n\n> **[exam-tip]**\n> Figure 1 carries no weights at all, so there is nothing to minimise: any route reaching J without reusing a vertex earns the mark.\n> \n> - Trace the route with a finger and tick each vertex as you pass it, which is the quickest way to be certain none repeats",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>",
+       "alt": "J"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>",
+       "alt": "H"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_N763MKpgRq2Dwkff",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2022",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_h3Gvrwv3BRwysKYT"
+     ],
+     "part_tier": null,
+     "problem_md": "State, with a reason, whether A – B – C – D – E – G – F – H – J is an example of a tour on T.",
+     "solution_md": "A tour visits every vertex and then returns to the vertex it started from\n\nThis route does use real arcs and it does reach all nine vertices, so check where it finishes\n\n*The route starts at A but finishes at J*\n\n**Final answer:** **It is not a tour, because a tour has to return to its starting vertex and this route ends at J rather than back at A**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: States that it is not a tour, with a reason making clear that a tour must begin and end at the same vertex.\n> \n> Saying that the route given does not finish at A is enough on its own. Stating only that it is not a tour, with no reason, earns nothing.\n\n> **[exam-tip]**\n> This route meets every part of the definition except the last one, which is exactly what makes it tempting: the arcs all exist and all nine vertices are visited, and only the return to the start is missing.\n> \n> - Test the definition item by item rather than judging the route as a whole, then name the item that fails"
+    },
+    {
+     "id": "qstnprt_jNvz4ftCTfCy8ydp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2022",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jsvMbYSNrrYY9h3d"
+     ],
+     "part_tier": null,
+     "problem_md": "![Graph diagram labelled Figure 2 with points A to J, connected by lines marked with numbers, showing a network of interconnected vertices.](assets/002-graph-diagram-labelled-figure-2-with-points-a-to.png)\n\nThe numbers on the 15 arcs in Figure 2 represent the distances, in km, between nine vertices, A, B, C, D, E, F, G, H and J, in a network.\n\nUse Kruskal’s algorithm to find the minimum spanning tree for the network. You should list the arcs in the order in which you consider them. In each case, state whether or not you are adding the arc to the minimum spanning tree.",
+     "solution_md": "Kruskal's algorithm works through every arc in ascending order of weight, adding each one unless it would close a cycle\n\nStarting at the light end, $A C$ at 9, $B E$ at 11 and $B F$ at 12 each join a new vertex\n\n$E F$ at 14 is the first rejection, since $E$ and $F$ are already connected through $B$, and $F G$ at 15 then brings in $G$\n\n**Final answer:** **AC (9) add, BE (11) add, BF (12) add, EF (14) reject, FG (15) add**\n\n**[M1]**\n\n$F H$ at 17 and $E J$ at 20 bring in $H$ and $J$, while $E G$ at 18 would close a cycle\n\nThere is a tie at 21, where $H J$ closes a cycle and $B C$ connects $A$ and $C$ to the rest\n\n- The two arcs of weight 21 may be considered in either order\n\n$C E$ at 23 and $A B$ at 24 both close cycles, and $C D$ at 25 brings in $D$ to complete the tree\n\n**Final answer:** **FH (17) add, EG (18) reject, EJ (20) add, HJ (21) reject, BC (21) add, CE (23) reject, AB (24) reject, CD (25) add**\n\n**[A1] [A1]**\n\n> **[mark-scheme]**\n> **M1**: Works in ascending order of weight, with the first four arcs of the tree correct, AC, BE, BF and FG, and at least one rejection shown somewhere.\n> \n> **A1**: All eight arcs of the tree selected correctly and in the correct order, with no extra arcs included.\n> \n> **A1**: All rejections correct and shown at the right point in the list.\n> \n> The rejection needed for the method mark does not have to be the right arc, or in the right place. It only has to show that you are rejecting arcs as well as selecting them.\n> \n> You do not have to reject DE and AD, because the tree is already complete once CD is taken, but if you do write them down they must come after CD.\n> \n> HJ and BC both have weight 21, so either may be taken first, and BC may be included before HJ is rejected.\n\n> **[exam-tip]**\n> Kruskal's needs the rejections written down, which is the exact opposite of Prim's, where showing a rejection costs you marks.\n> \n> - Sort every arc by weight before you start, then work straight down that list writing \"add\" or \"reject\" beside each one\n> - Time spent on the rejections is never wasted here, because one of the three marks is for the rejections alone",
+     "equations": [
+      {
+       "latex": "A C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math>",
+       "alt": "A C"
+      },
+      {
+       "latex": "B E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>E</mi></math>",
+       "alt": "B E"
+      },
+      {
+       "latex": "B F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>F</mi></math>",
+       "alt": "B F"
+      },
+      {
+       "latex": "E F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>F</mi></math>",
+       "alt": "E F"
+      },
+      {
+       "latex": "E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>",
+       "alt": "E"
+      },
+      {
+       "latex": "F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>",
+       "alt": "F"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "F G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>G</mi></math>",
+       "alt": "F G"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "F H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>H</mi></math>",
+       "alt": "F H"
+      },
+      {
+       "latex": "E J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>J</mi></math>",
+       "alt": "E J"
+      },
+      {
+       "latex": "H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>",
+       "alt": "H"
+      },
+      {
+       "latex": "J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>",
+       "alt": "J"
+      },
+      {
+       "latex": "E G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>G</mi></math>",
+       "alt": "E G"
+      },
+      {
+       "latex": "H J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mi>J</mi></math>",
+       "alt": "H J"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "C E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>E</mi></math>",
+       "alt": "C E"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "C D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>D</mi></math>",
+       "alt": "C D"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3mP7NSsyBSjzGCRW",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2022",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_jsvMbYSNrrYY9h3d"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw the minimum spanning tree using the vertices given in Diagram 1 .\n\n![Diagram 1 shows scattered black dots labelled A to J on a white background, with no apparent pattern or connection.](assets/003-diagram-1-shows-scattered-black-dots-labelled-a-.png)",
+     "solution_md": "Join the vertices marked on Diagram 1 using only the eight arcs selected in part (c)\n\n![The minimum spanning tree drawn on the nine given vertices, with arcs AC, BC, CD, BE, BF, FG, FH and EJ.](assets/004-the-minimum-spanning-tree-drawn-on-the-nine-give.png)\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: The correct minimum spanning tree, with arcs AC, BE, BF, FG, FH, EJ, BC and CD.\n\n> **[exam-tip]**\n> Diagram 1 places the vertices in different positions from Figure 2, so join them by their labels rather than copying the shape of the original network.\n> \n> - Work down your list from part (c) and draw each arc as you read it, then check that every vertex has been joined to something"
+    },
+    {
+     "id": "qstnprt_nHPfcrRZbhQWk54c",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2022",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_jsvMbYSNrrYY9h3d"
+     ],
+     "part_tier": null,
+     "problem_md": "State the weight of the minimum spanning tree.",
+     "solution_md": "Add the weights of the eight arcs that make up the tree\n\n$9 + 11 + 12 + 15 + 17 + 20 + 21 + 25$\n\n$\\text{weight of the minimum spanning tree} = 130$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: The weight of the minimum spanning tree is 130.\n> \n> Units are not required and an incorrect unit is ignored, so 130 on its own earns the mark.\n\n> **[exam-tip]**\n> Add the weights straight from the list of arcs you selected in part (c), rather than re-reading them off the network, so that a single misread arc cannot cost you the mark twice.\n> \n> - Nine vertices means exactly eight arcs to add, so if you find yourself adding nine numbers an extra arc has crept in",
+     "equations": [
+      {
+       "latex": "9 + 11 + 12 + 15 + 17 + 20 + 21 + 25",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>25</mn></math>",
+       "alt": "9 + 11 + 12 + 15 + 17 + 20 + 21 + 25"
+      },
+      {
+       "latex": "\\text{weight of the minimum spanning tree} = 130",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>weight of the minimum spanning tree</mtext><mo>=</mo><mn>130</mn></math>",
+       "alt": "\\text{weight of the minimum spanning tree} = 130"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_psSDHb6nGcQPf3vD",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_3Jc4BndWPYzmNX5r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "October 2021",
+      "number": "WDM11/01",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_g4WGr939XD6DZyBD"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by the term ‘path’.",
+     "solution_md": "Three separate conditions have to appear, and each one carries part of the credit\n\n**Final answer:** **A path is a finite list of edges in which every edge ends at the vertex the following edge starts from, and in which no vertex is visited more than once**\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Any one of the three conditions stated clearly: that the sequence of edges is finite, that each edge ends where the next begins, or that no vertex is used more than once.\n> \n> **B1**: All three conditions stated clearly.\n> \n> Defining a path as a walk in which no vertex appears more than once earns the first mark but not the second, because it leans on another definition rather than giving the three conditions.\n\n> **[exam-tip]**\n> Marks here are counted condition by condition, so a fluent one-line definition can still score less than a clumsy list of three.\n> \n> - Write the three conditions as three separate clauses and check each is actually present before moving on\n> - Defining a path in terms of a walk is the common way to lose the second mark: it is correct mathematics, but it hands back the definition you were asked for"
+    },
+    {
+     "id": "qstnprt_cC88njfrWB2JCKmV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "October 2021",
+      "number": "WDM11/01",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_GzzWTsWwZ252dRpv"
+     ],
+     "part_tier": null,
+     "problem_md": "![Geometric diagram with labelled points A-J, connected by lines with various lengths, forming triangles and polygons. Figure 1 caption below.](assets/008-geometric-diagram-with-labelled-points-a-j-conne.png)\n\nFigure 1 represents a network of roads. The number on each arc represents the length, in km, of the corresponding road. Piatrice wishes to travel from A to J.\n\nUse Dijkstra’s algorithm to find the shortest path Piatrice could take from A to J. State your path and its length.\n\n![Graph diagram with nodes A to J, connected by weighted edges. A key explains vertex labelling. Spaces provided for shortest path and its length.](assets/009-graph-diagram-with-nodes-a-to-j-connected-by-wei.png)",
+     "solution_md": "Dijkstra's algorithm settles the vertices in order of increasing distance from $A$, recording at each one its order of labelling, its final value, and every working value tried along the way\n\nEach time a vertex receives its final value, look along the arcs leaving it and replace any neighbouring working value that can now be beaten\n\n| Vertex | Order of labelling | Final value | Working values |\n|---|---|---|---|\n| **A** | *1* | *0* | *0* |\n| **B** | *3* | *8* | *8* |\n| **C** | *2* | *5* | *5* |\n| **D** | *5* | *14* | *17, 14* |\n| **E** | *7* | *21* | *23, 21* |\n| **F** | *4* | *13* | *15, 14, 13* |\n| **G** | *6* | *20* | *24, 23, 20* |\n| **H** | *8* | *26* | *26* |\n| **J** | *9* | *33* | *40, 35, 33* |\n\n**[M1 A1 A1 A1]**\n\nTrace the route back from $J$, keeping any step where the gap between two final values is exactly the weight of the arc joining them\n\n$J$ has final value 33 and $H J$ has weight 7, and $H$ has final value 26, so $H$ lies on the route\n\nThe same test gives $E$ at 21, then $B$ at 8, then back to $A$\n\n**Final answer:** **A – B – E – H – J**\n\n**[A1]**\n\n$\\text{length} = 33  \\text{km}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Replaces a larger working value with a smaller one at at least two of the vertices D, E, F, G and J.\n> \n> **A1**: All values at A, C, B, F and D correct, with the working values in the correct order.\n> \n> **A1**: All values at G and E correct, with the working values in the correct order.\n> \n> **A1**: All values at H and J correct, with the working values in the correct order. Follow through from your earlier values.\n> \n> **A1**: The path A, B, E, H, J and no other.\n> \n> **A1**: The length 33. Follow through from your own final value at J, and a missing unit is condoned.\n> \n> The order of the working values inside a box is marked, not just the set of them. At F they must read 15, 14, 13 in that order; the same three numbers written 15, 13, 14 does not earn the mark.\n> \n> The order of labelling must be strictly increasing. Repeating a number, as in 1, 2, 3, 3, 4, is penalised once, but skipping numbers, as in 1, 2, 3, 5, 6, is not penalised at all.\n> \n> Errors in the final and working values are penalised before any error in the order of labelling.\n\n> **[exam-tip]**\n> Update a vertex only at the moment one of its neighbours becomes permanent, and write each new working value immediately to the right of the last, so the order of improvements stays visible.\n> \n> - The sequence in a box is part of the answer, not rough work: 15, 14, 13 at F records three genuine improvements, and the same digits in another order records something that never happened\n> - When G is labelled it offers E a value of 36, which is worse than the 21 already sitting there, so nothing new is written down\n> \n> To read the path back, start at J and step to any vertex whose final value differs from it by exactly the weight of the arc between them.\n> \n> - Working backwards is reliable; guessing the route from the picture is not, because the shortest path is often not the one that looks straightest",
+     "equations": [
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>",
+       "alt": "J"
+      },
+      {
+       "latex": "J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>",
+       "alt": "J"
+      },
+      {
+       "latex": "H J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mi>J</mi></math>",
+       "alt": "H J"
+      },
+      {
+       "latex": "H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>",
+       "alt": "H"
+      },
+      {
+       "latex": "H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>",
+       "alt": "H"
+      },
+      {
+       "latex": "E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>",
+       "alt": "E"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "\\text{length} = 33  \\text{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>length</mtext><mo>=</mo><mn>33</mn><mtext>&#xA0;</mtext><mtext>km</mtext></math>",
+       "alt": "\\text{length} = 33 \\textrm{ }\\text{km}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8w6XwskpqzvnTKY5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "October 2021",
+      "number": "WDM11/01",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_GzzWTsWwZ252dRpv"
+     ],
+     "part_tier": null,
+     "problem_md": "Piatrice needs to return from J to A via G.\n\nFind the shortest path Piatrice could take from J to A via G and state its length.",
+     "solution_md": "A journey from $J$ to $A$ that has to pass through $G$ splits into the shortest route from $J$ to $G$, followed by the shortest route from $G$ to $A$\n\nThe arcs run both ways, so the shortest route from $G$ back to $A$ is the one already found in part (b), and its length is the final value at $G$\n\nTracing back from $G$ gives $D$ at 14, then $C$ at 5, then $A$, and the direct arc $G J$ has weight 15\n\n**Final answer:** **J – G – D – C – A**\n\n**[B1]**\n\n$20 + 15$\n\n$\\text{length} = 35  \\text{km}$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: The path J, G, D, C, A and no other.\n> \n> **B1**: The length 35. Follow through by adding 15 to your own final value at G.\n\n> **[exam-tip]**\n> There is no need to run Dijkstra's again from J. The final value at G is already the length of the shortest route between A and G, and the arcs work in either direction.\n> \n> - Splitting a \"via\" journey at the named vertex turns it into two shorter problems you have usually already solved\n> - Check that the arc you use out of J really is the cheapest way to reach G: here JG at 15 beats going round through H and E, which costs 28",
+     "equations": [
+      {
+       "latex": "J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>",
+       "alt": "J"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>",
+       "alt": "J"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "G J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi><mi>J</mi></math>",
+       "alt": "G J"
+      },
+      {
+       "latex": "20 + 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>+</mo><mn>15</mn></math>",
+       "alt": "20 + 15"
+      },
+      {
+       "latex": "\\text{length} = 35  \\text{km}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>length</mtext><mo>=</mo><mn>35</mn><mtext>&#xA0;</mtext><mtext>km</mtext></math>",
+       "alt": "\\text{length} = 35 \\textrm{ }\\text{km}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Sp8FCFWcSgZqV7Ht",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_VPGdQ3QjChck7GzP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2020",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_g4WGr939XD6DZyBD"
+     ],
+     "part_tier": null,
+     "problem_md": "![Geometric diagram with nine labelled points (A-J) interconnected by lines, each marked with distances. Points form a network of triangles.](assets/005-geometric-diagram-with-nine-labelled-points-a-j-.png)\n\nDefine the terms\n\n(i) tree,\n\n[1]\n\n(ii) minimum spanning tree.\n\n[2]",
+     "solution_md": "**(i)**\n\nTwo separate things have to be said, and the single mark needs both of them\n\n**Final answer:** **A tree is a connected graph that contains no cycles**\n\n**[B1]**\n\n**(ii)**\n\nA minimum spanning tree is a tree sitting inside a network, so say which vertices it reaches and what makes it minimum\n\n**Final answer:** **A minimum spanning tree is a tree that includes every vertex of the network**\n\n**[B1]**\n\n**Final answer:** **Its arcs also have the smallest possible total length**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: A tree is connected and contains no cycles.\n> \n> **B1**: A minimum spanning tree includes all of the vertices.\n> \n> **B1**: The total length of its arcs is minimised.\n> \n> Both halves are needed for the first mark, so connected on its own, or no cycles on its own, earns nothing.\n> \n> The word \"cycle\" is what is being marked. Circle, loop and similar substitutes are not accepted, although a singular in place of a plural is condoned. If you avoid the word \"connected\", a description such as a graph that connects the vertices is accepted instead.\n> \n> For the second mark it must be clear that every vertex is included, not merely that some are.\n> \n> The third mark needs three ideas together: the total, that it is the arcs being totalled, and that this total is the smallest possible.\n\n> **[exam-tip]**\n> The word \"cycle\" is the one carrying the credit, so \"no circles\" or \"no loops\" will not do, however equivalent they sound.\n> \n> - A tree is worth one mark but needs both halves, so writing only \"a graph with no cycles\" loses the whole mark rather than half of it\n> - The minimum spanning tree is worth two marks for two ideas, reaching every vertex and having the smallest total, so make sure both appear as separate statements"
+    },
+    {
+     "id": "qstnprt_Hqt67Yf2SbFjMNGj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2020",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jsvMbYSNrrYY9h3d"
+     ],
+     "part_tier": null,
+     "problem_md": "Use Kruskal’s algorithm to find the minimum spanning tree for the network shown in Figure 1. You must clearly show the order in which you consider the edges. For each edge, state whether or not you are including it in the minimum spanning tree.",
+     "solution_md": "Kruskal's algorithm works through the arcs in ascending order of weight, adding each one unless it would close a cycle\n\nThe four lightest arcs, $F J$ at 11, $E G$ at 13, $E F$ at 15 and $E H$ at 17, all join new vertices, and $G H$ at 18 is then the first rejection because $G$ and $H$ are already linked through $E$\n\n**Final answer:** **FJ (11) add, EG (13) add, EF (15) add, EH (17) add, GH (18) reject**\n\n**[M1]**\n\n$B C$ at 19 starts a second group of vertices, and $H J$ at 20 closes a cycle\n\n$B D$ at 22 adds $D$ to that second group, and $F H$ at 23 closes another cycle\n\n$A E$ at 25 brings in $A$, and $B E$ at 29 finally joins the two groups together\n\n**Final answer:** **BC (19) add, HJ (20) reject, BD (22) add, FH (23) reject, AE (25) add, BE (29) add**\n\n**[A1] [A1]**\n\n> **[mark-scheme]**\n> **M1**: Works in ascending order of weight, with the first four arcs correct, FJ, EG, EF and EH, and at least one rejection shown somewhere.\n> \n> **A1**: All eight arcs of the tree selected correctly and in the correct order, with no extra arcs included.\n> \n> **A1**: All rejections correct and shown at the right point in the list.\n> \n> You do not have to consider AD, DE, DG, AB or BH, because the tree is complete once BE is taken. If you do write them down as rejections they must appear in weight order, although AD and DE both weigh 30, and DG and AB both weigh 32, so each of those pairs may come in either order.\n> \n> Listing every arc in weight order first, and then stating just the arcs of the tree in the correct order, earns all three marks.\n\n> **[exam-tip]**\n> Stop as soon as the tree has one fewer arc than there are vertices, which is eight arcs for nine vertices here. That is why AD, DE, DG, AB and BH never have to be looked at.\n> \n> - Equal weights are not a problem: AD and DE both weigh 30, and DG and AB both weigh 32, so either of each pair may be taken first\n> - Kruskal's builds several separate groups that only merge at the end, so an arc joining two vertices that are already linked is a rejection even when they look far apart on the page",
+     "equations": [
+      {
+       "latex": "F J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>J</mi></math>",
+       "alt": "F J"
+      },
+      {
+       "latex": "E G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>G</mi></math>",
+       "alt": "E G"
+      },
+      {
+       "latex": "E F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>F</mi></math>",
+       "alt": "E F"
+      },
+      {
+       "latex": "E H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>H</mi></math>",
+       "alt": "E H"
+      },
+      {
+       "latex": "G H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi><mi>H</mi></math>",
+       "alt": "G H"
+      },
+      {
+       "latex": "G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>",
+       "alt": "G"
+      },
+      {
+       "latex": "H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>",
+       "alt": "H"
+      },
+      {
+       "latex": "E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>",
+       "alt": "E"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "H J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mi>J</mi></math>",
+       "alt": "H J"
+      },
+      {
+       "latex": "B D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>D</mi></math>",
+       "alt": "B D"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "F H",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>H</mi></math>",
+       "alt": "F H"
+      },
+      {
+       "latex": "A E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi></math>",
+       "alt": "A E"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>E</mi></math>",
+       "alt": "B E"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tqqw2nbjn7hPxvPk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2020",
+      "number": "WDM11/01",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jsvMbYSNrrYY9h3d"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw the minimum spanning tree using the vertices given in Diagram 1 below and state the weight of the minimum spanning tree.\n\n![Diagram 1 with nine labelled dots A to J in a grid-like pattern, each dot evenly spaced apart on the page.](assets/006-diagram-1-with-nine-labelled-dots-a-to-j-in-a-gr.png)",
+     "solution_md": "Join the vertices marked on Diagram 1 using only the eight arcs selected in part (b)\n\n![The minimum spanning tree drawn on the nine given vertices, with arcs AE, BC, BD, BE, EF, EG, EH and FJ.](assets/007-the-minimum-spanning-tree-drawn-on-the-nine-give.png)\n\n**[B1]**\n\nAdd the weights of those eight arcs\n\n$11 + 13 + 15 + 17 + 19 + 22 + 25 + 29$\n\n$\\text{weight of the minimum spanning tree} = 151$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: The correct minimum spanning tree, with arcs FJ, EG, EF, EH, BC, BD, AE and BE.\n> \n> **B1**: The weight of the tree is 151.\n\n> **[exam-tip]**\n> Arcs AE and BD cross near the middle of this diagram, which is perfectly acceptable: a crossing is not a vertex, and the tree still contains no cycles.\n> \n> - Add the weights from your list in part (b) rather than re-reading them off Figure 1, and check you are adding exactly eight numbers",
+     "equations": [
+      {
+       "latex": "11 + 13 + 15 + 17 + 19 + 22 + 25 + 29",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>19</mn><mo>+</mo><mn>22</mn><mo>+</mo><mn>25</mn><mo>+</mo><mn>29</mn></math>",
+       "alt": "11 + 13 + 15 + 17 + 19 + 22 + 25 + 29"
+      },
+      {
+       "latex": "\\text{weight of the minimum spanning tree} = 151",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>weight of the minimum spanning tree</mtext><mo>=</mo><mn>151</mn></math>",
+       "alt": "\\text{weight of the minimum spanning tree} = 151"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

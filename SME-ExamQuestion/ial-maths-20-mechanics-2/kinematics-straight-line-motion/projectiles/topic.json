@@ -1,0 +1,2833 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-16T23:14:21Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-2/topic-questions/kinematics-straight-line-motion/projectiles/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Maths",
+  "exam_code": "YMA01",
+  "sme_course_id": "crs_7R3phcphwpXF9rWr",
+  "syllabus_version": "2020",
+  "sme_alias_path": "20/mechanics-2"
+ },
+ "section": {
+  "slug": "kinematics-straight-line-motion",
+  "name": "Kinematics (Straight Line Motion)"
+ },
+ "topic": {
+  "id": "top_ttFpsrk5CPfcbZsv",
+  "slug": "projectiles",
+  "name": "Projectiles",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "deriving-projectile-formulae",
+   "name": "Deriving Projectile Formulae",
+   "revision_note_id": "rn_CNmnDBnjpSgDx3FM"
+  },
+  {
+   "slug": "horizontal-and-vertical-components",
+   "name": "Horizontal & Vertical Components",
+   "revision_note_id": "rn_99shR3rYbRT5HVRr"
+  },
+  {
+   "slug": "equation-of-a-trajectory",
+   "name": "Equation of a Trajectory",
+   "revision_note_id": "rn_3qvmnFdVmpQfqBXS"
+  },
+  {
+   "slug": "using-suvat",
+   "name": "Using suvat",
+   "revision_note_id": "rn_7wgKBzBYgvX2bBJB"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_6TDtgfR9K3nwpznR",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 42
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q9a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "001-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q9b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "002-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q6_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "003-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q5a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "004-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q5b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "005-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MA_Q10a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "006-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MA_Q10b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "007-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q7a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "008-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q7b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "009-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q7c_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "010-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q10a_2.5_Constant-Acceleration-2D-_Easy_Edexcel_A_Level_Maths_Mechanics.png": "011-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q10b_2.5_Constant-Acceleration-2D-_Easy_Edexcel_A_Level_Maths_Mechanics.png": "012-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q8a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "013-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q8b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "014-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q8c_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "015-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q2a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "016-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q2b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "017-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MA_Q1a_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics_2.png": "018-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MA_Q1b_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics_2.png": "019-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MA_Q1c_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics_2.png": "020-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q4_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "021-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q2a_2.5_Constant-Acceleration-2D-_Easy_Edexcel_A_Level_Maths_Mechanics.png": "022-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q2b_2.5_Constant-Acceleration-2D-_Easy_Edexcel_A_Level_Maths_Mechanics.png": "023-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/05/MA_Q3_2.6-Projectiles_Easy_Edexcel_A_Level_Maths_Mechanics.png": "024-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3a_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "025-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q3b_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "026-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q3c_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "027-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q7a_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "028-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q7b_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "029-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/11/MI_Q4_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "030-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/edexcel-al-maths-mechanics-topic-2-6-vh---q8.png": "031-edexcel-al-maths-mechanics-topic-2-6-vh-q8.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q8_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "032-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q5_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "033-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q9_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "034-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q6a_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "035-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q6b_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "036-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q1_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "037-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q2a_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "038-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q2b_2.6-Projectiles_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "039-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q7a_2.5_Constant-Acceleration-2D-_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "040-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q7b_2.5_Constant-Acceleration-2D-_Very_Hard_Edexcel_A_Level_Maths_Mechanics.png": "041-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q3a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "042-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q3b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "043-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q7a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics_1.png": "044-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q7b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics_1.png": "045-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q5a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "046-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q5b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "047-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q1a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "048-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q1b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "049-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q6a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "050-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q6b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "051-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q7a_2.5_Constant-Acceleration-2D-_Hard_Edexcel_A_Level_Maths_Mechanics.png": "052-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q7b_2.5_Constant-Acceleration-2D-_Hard_Edexcel_A_Level_Maths_Mechanics.png": "053-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q4a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "054-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q4b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "055-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q2a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics_1.png": "056-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q2b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics_1.png": "057-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q8a_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "058-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q8b_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "059-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/04/MI_Q9_2.6-Projectiles_Hard_Edexcel_A_Level_Maths_Mechanics.png": "060-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q5a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "061-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q5b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "062-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q6a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "063-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q6b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "064-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q2a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "065-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q2b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "066-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q1a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "067-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q1b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "068-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q3a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "069-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q3b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "070-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q3c_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "071-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q9a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "072-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q9b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "073-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q7a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "074-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q7b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "075-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q7c_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "076-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q7a_2.5_Constant-Acceleration-2D-_Medium_Edexcel_A_Level_Maths_Mechanics.png": "077-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q7b_2.5_Constant-Acceleration-2D-_Medium_Edexcel_A_Level_Maths_Mechanics.png": "078-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q4a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "079-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/03/MI_Q4b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics.png": "080-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q8a_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics_1.png": "081-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q8b_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics_1.png": "082-img.png",
+   "https://cdn.savemyexams.com/uploads/2021/12/MI_Q8c_2.6-Projectiles_Medium_Edexcel_A_Level_Maths_Mechanics_1.png": "083-img.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_nfcg2QNkjFcFYWCT",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_CBRV7VxR9Zpkt3Xp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The constant acceleration equation $s=ut+\\frac{1}{2}at^{2}$ is used to model the horizontal displacement  `open parentheses s italic space straight m close parentheses` at time $t$seconds of a projectile, where $ums^{-1}$ and $ams^{-2}$ are respectively the initial velocity and acceleration of the projectile in the horizontal direction.\n\nShow that $s=ut$,  justifying any assumptions you make.",
+     "solution_md": "![](assets/018-img.png)",
+     "equations": [
+      {
+       "latex": "s=ut+\\frac{1}{2}at^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo mathvariant=\"italic\"> </mo><mo mathvariant=\"italic\">=</mo><mo mathvariant=\"italic\"> </mo><mi>u</mi><mi>t</mi><mo mathvariant=\"italic\"> </mo><mo mathvariant=\"italic\">+</mo><mo mathvariant=\"italic\"> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><msup><mi>t</mi><mn mathvariant=\"italic\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s italic space italic equals italic space u t italic space italic plus italic space 1 half a t to the power of italic 2"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t space"
+      },
+      {
+       "latex": "ums^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>u</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "ams^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo mathvariant=\"italic\"> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a italic space straight m space straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "s=ut",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo mathvariant=\"italic\"> </mo><mo mathvariant=\"italic\">=</mo><mo mathvariant=\"italic\"> </mo><mi>u</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s italic space italic equals italic space u t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3yqMyMBhpsttXfqQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A projectile is projected horizontally from a set height with a velocity of 16 m s<sup>−1</sup>. It reaches the ground 5 seconds later.\n\nFind the horizontal displacement of the projectile when it reaches the ground.",
+     "solution_md": "![](assets/019-img.png)"
+    },
+    {
+     "id": "qstnprt_PPtXPyCs6rWgp4pZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Taking the downward direction to be positive, use the constant acceleration equation $s=ut+\\frac{1}{2}at^{2}$ to show that, to 3 significant figures, the height from which the projectile was projected is 123 m.",
+     "solution_md": "![](assets/020-img.png)",
+     "equations": [
+      {
+       "latex": "s=ut+\\frac{1}{2}at^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>u</mi><mi>t</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><msup><mi>t</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s space equals space u t space plus space 1 half a t squared"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pDSYFcHYnW4mFrnk",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_8f7fXyPp4QQM54gz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected horizontally from a height of $78.4m$ with a velocity of $6ms^{-1}$.\n\nUsing the constant acceleration equation $s=ut+\\frac{1}{2}at^{2}$ for the vertical motion of the particle, determine the time it takes for the particle to reach the ground.",
+     "solution_md": "![](assets/016-img.png)",
+     "equations": [
+      {
+       "latex": "78.4m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>78</mn><mo>.</mo><mn>4</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "78.4 space straight m"
+      },
+      {
+       "latex": "6ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "6 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "s=ut+\\frac{1}{2}at^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>u</mi><mi>t</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><msup><mi>t</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s space equals space u t space plus space 1 half a t squared"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tfDQgXP5Sg2Hx9R3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the horizontal distance covered by the particle at the time it reaches the ground.",
+     "solution_md": "![](assets/017-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fn5WBQysyQh5CQ54",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Qn3s6zYp64rnV66D",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "By drawing diagrams of right-angled triangles rather than using a calculator, find the exact values of $\\mathrm{sin}α\\mathrm{and} \\mathrm{cos}α$ for the following values of $\\mathrm{tan}α$.  It is given that $0<α<90^{\\circ}$.\n\n(i) $\\mathrm{tan}α=\\frac{5}{12}$\n\n(ii) $\\mathrm{tan}α=\\frac{4}{3}$\n\n(iii) $\\mathrm{tan}α=\\frac{9}{40}$",
+     "solution_md": "![](assets/024-img.png)",
+     "equations": [
+      {
+       "latex": "\\mathrm{sin}α\\mathrm{and} \\mathrm{cos}α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo> </mo><mi>α</mi><mo> </mo><mi>and</mi><mo> </mo><mi>cos</mi><mo> </mo><mi>α</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sin space alpha space and space cos space alpha"
+      },
+      {
+       "latex": "\\mathrm{tan}α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>α</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan space alpha"
+      },
+      {
+       "latex": "0<α<90^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo> </mo><mo>&lt;</mo><mi>α</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>90</mn><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0 space less than alpha space less than space 90 degree"
+      },
+      {
+       "latex": "\\mathrm{tan}α=\\frac{5}{12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>α</mi><mo> </mo><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan space alpha space equals 5 over 12"
+      },
+      {
+       "latex": "\\mathrm{tan}α=\\frac{4}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>α</mi><mo> </mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan space alpha space equals 4 over 3"
+      },
+      {
+       "latex": "\\mathrm{tan}α=\\frac{9}{40}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>α</mi><mo> </mo><mo>=</mo><mfrac><mn>9</mn><mn>40</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan space alpha space equals 9 over 40"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ggRJftnR9VDHQs49",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_GfQT3ZnbJb3SR4Vx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected with an initial speed of  24 ms<sup>-1</sup> at an angle of  30° above the horizontal.  Find the horizontal and vertical components of the initial velocity, writing your answer in the form  $(u_{x}i+u_{y}j)ms^{-1}$.",
+     "solution_md": "![](assets/021-img.png)",
+     "equations": [
+      {
+       "latex": "(u_{x}i+u_{y}j)ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">x</mi></msub><mo> </mo><mi mathvariant=\"bold\">i</mi><mo>+</mo><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">y</mi></msub><mo> </mo><mi mathvariant=\"bold\">j</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis straight u subscript straight x   bold i plus straight u subscript straight y   bold j right parenthesis space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Yf2hHWK3PKWDd4db",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_K977B47v5MnWs8cz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected with initial velocity `bold u space equals space open parentheses 5 bold i space plus space 6 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\nFind the angle of projection above the horizontal.",
+     "solution_md": "![](assets/004-img.png)"
+    },
+    {
+     "id": "qstnprt_DZDG4JK8SbzSwfHh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the initial speed of the particle, giving your answer in the form $\\sqrt{p}ms^{-1}$ where $p$ is an integer.",
+     "solution_md": "![](assets/005-img.png)",
+     "equations": [
+      {
+       "latex": "\\sqrt{p}ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msqrt><mi mathvariant=\"normal\">p</mi></msqrt><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "square root of straight p space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zm66zDSmRdZpMtg7",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_7jrfBNV6GjFnVHGf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected with initial velocity $7ms^{-1}$ at an angle of 18° below the horizontal.  Find the horizontal and vertical components of the initial velocity, writing your answer in the form $(u_{x}i+u_{y}j)ms^{-1}$.  You should give $u_{x}\\mathrm{and}u_{y}$ each correct to three significant figures.",
+     "solution_md": "![](assets/003-img.png)",
+     "equations": [
+      {
+       "latex": "7ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "7 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "(u_{x}i+u_{y}j)ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">x</mi></msub><mo> </mo><mi mathvariant=\"bold\">i</mi><mo>+</mo><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">y</mi></msub><mo> </mo><mi mathvariant=\"bold\">j</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis straight u subscript straight x   bold i plus straight u subscript straight y   bold j right parenthesis space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "u_{x}\\mathrm{and}u_{y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">x</mi></msub><mo> </mo><mi>and</mi><mo> </mo><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">y</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight u subscript straight x space and space straight u subscript straight y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vg3pXf2jyjmC73fH",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_fSVgbmW9D8sxYMhc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected from ground level with velocity `open parentheses 8 bold i space plus space 6 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\n(i) Write down the vertical velocity of the particle when it is at its greatest height.\n\n(ii) Hence use the constant acceleration equation $v^{2}=u^{2}+2\\mathrm{as}$ to find the greatest height reached by the particle.",
+     "solution_md": "![](assets/008-img.png)",
+     "equations": [
+      {
+       "latex": "v^{2}=u^{2}+2\\mathrm{as}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"normal\">v</mi><mn>2</mn></msup><mo> </mo><mo>=</mo><mo> </mo><msup><mi mathvariant=\"normal\">u</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>as</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight v squared space equals space straight u squared space plus space 2 as"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VbHrPK22McbPpy38",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Write down the vertical displacement of the particle when it lands on the ground.\n\n(ii) Hence use the constant acceleration equation $s=\\mathrm{ut}+\\frac{1}{2}\\mathrm{at}^{2}$ in the vertical direction to find the time of flight of the particle.",
+     "solution_md": "![](assets/009-img.png)",
+     "equations": [
+      {
+       "latex": "s=\\mathrm{ut}+\\frac{1}{2}\\mathrm{at}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>ut</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>at</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s space equals space ut space plus space 1 half at squared"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rkvtFvRRFr7MHXjt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the equation $s=\\mathrm{ut}$ in the horizontal direction to find the range of the particle (the distance between the point from which it is projected and the point at which it first hits the ground).",
+     "solution_md": "![](assets/010-img.png)",
+     "equations": [
+      {
+       "latex": "s=\\mathrm{ut}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">s</mi><mo>=</mo><mi>ut</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s equals ut"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rzq4Sctw4swVTVwS",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_vbY56ZHNMtCX7jJT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected from a platform 5 m above ground level with velocity `open parentheses 6 bold i space plus space 8 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\n(i) Use Pythagoras’ theorem to find the speed with which the particle is projected.\n\n(ii) Use basic trigonometry to find the angle above the horizontal at which the particle is projected.",
+     "solution_md": "![](assets/013-img.png)"
+    },
+    {
+     "id": "qstnprt_hCwB8PyfPtK2ZTKB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "When the particle is at its greatest height, $v_{y}=0ms^{-1}$.  Use the constant acceleration equation $v^{2}=u^{2}+2\\mathrm{as}$ to find the greatest height reached by the particle.",
+     "solution_md": "![](assets/014-img.png)",
+     "equations": [
+      {
+       "latex": "v_{y}=0ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">v</mi><mi mathvariant=\"normal\">y</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight v subscript straight y space equals space 0 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "v^{2}=u^{2}+2\\mathrm{as}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"normal\">v</mi><mn>2</mn></msup><mo> </mo><mo>=</mo><mo> </mo><msup><mi mathvariant=\"normal\">u</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mi>as</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight v squared space equals space straight u squared space plus space 2 as"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VV6ndKxz2z6ycWQ5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Explain why, when the particle hits the ground, it’s vertical displacement is $-5m$.\n\n(ii) Use the constant acceleration equation $s=\\mathrm{ut}+\\frac{1}{2}\\mathrm{at}^{^{2}}$ in the vertical direction to find the time of flight of the particle.  Give your answer to three significant figures.\n\n(iii) Use the equation $s=\\mathrm{ut}$ in the horizontal direction to find the range of the particle.",
+     "solution_md": "![](assets/015-img.png)",
+     "equations": [
+      {
+       "latex": "-5m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>5</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "negative 5 space straight m"
+      },
+      {
+       "latex": "s=\\mathrm{ut}+\\frac{1}{2}\\mathrm{at}^{^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>ut</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>at</mi><msup><mrow/><mn>2</mn></msup></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s space equals space ut space plus space 1 half at to the power of blank squared end exponent"
+      },
+      {
+       "latex": "s=\\mathrm{ut}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>ut</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s space equals space ut"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZRPBmzB4BCF5FDzh",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_2z55hhwTvTGNGzrm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the constant acceleration equation $s=\\mathrm{ut}+\\frac{1}{2}\\mathrm{at}^{2}$ and the fact that $a_{y}=-g$ to show that the vertical displacement, $s_{y}m$, of a projectile at time $t$ seconds is given by\n\n$s_{y}=u_{y}t-\\frac{g}{2}t^{2}$\n\nwhere* *$u_{y}$  is the initial velocity of the projectile in the vertical direction and* *$g$ is the constant of acceleration due to gravity.",
+     "solution_md": "![](assets/001-img.png)",
+     "equations": [
+      {
+       "latex": "s=\\mathrm{ut}+\\frac{1}{2}\\mathrm{at}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">s</mi><mo> </mo><mo>=</mo><mo> </mo><mi>ut</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>at</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s space equals space ut space plus space 1 half at squared"
+      },
+      {
+       "latex": "a_{y}=-g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">y</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mi mathvariant=\"normal\">g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight a subscript straight y space equals space minus straight g"
+      },
+      {
+       "latex": "s_{y}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">y</mi></msub><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s subscript straight y straight m"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "s_{y}=u_{y}t-\\frac{g}{2}t^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">y</mi></msub><mo> </mo><mo>=</mo><mo> </mo><msub><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">y</mi></msub><mi mathvariant=\"normal\">t</mi><mo> </mo><mo>-</mo><mo> </mo><mfrac><mi mathvariant=\"normal\">g</mi><mn>2</mn></mfrac><msup><mi mathvariant=\"normal\">t</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight s subscript straight y space equals space straight u subscript straight y straight t space minus space straight g over 2 straight t squared"
+      },
+      {
+       "latex": "u_{y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>u</mi><mi>y</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "u subscript y"
+      },
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DV4BWzM2Y6zHvjQw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the vertical displacement of a particle 5 seconds after it is projected with an initial vertical speed of $32ms^{-1}$.",
+     "solution_md": "![](assets/002-img.png)",
+     "equations": [
+      {
+       "latex": "32ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>32</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "32 space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wvSkVjdd87v5Kywj",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_DN5cz6yFfHsC2Zdr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The equation of the trajectory of a particle projected from the origin is given by\n\n`straight y space equals space straight x space tan space straight alpha space minus space g x squared fraction numerator open parentheses 1 space plus space tan squared space straight alpha close parentheses over denominator 2 straight U squared end fraction`\n\nwhere *x* and *y* are respectively the horizontal and vertical displacements of the particle when projected with an initial speed of $Ums^{-1}$  at angle $α$ above the horizontal. $g$ is the constant of acceleration due to gravity.\n\nFind the equation of the trajectory of a particle that is projected with an initial velocity of $20ms^{-1}$ at an angle of 30° above the horizontal.  Give the coefficients in your equation as exact values, and in terms of $g$ where appropriate.",
+     "solution_md": "![](assets/006-img.png)",
+     "equations": [
+      {
+       "latex": "Ums^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">U</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight U thin space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      },
+      {
+       "latex": "20ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qvBp6mfQDVgyrFP4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Hence find the horizontal distances that have been covered by the particle at the two instants when its $y$- coordinate is equal to 4. Use $g=10ms^{-2}$ and give your answers correct to three significant figures.",
+     "solution_md": "![](assets/007-img.png)",
+     "equations": [
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space"
+      },
+      {
+       "latex": "g=10ms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo> </mo><mo>=</mo><mo> </mo><mn>10</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight g space equals space 10 space straight m space straight s to the power of negative 2 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FX8K95pvm7wRp8BV",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_N8ZdhwZPGSDgrqpW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8",
+      "spcpt_dqwxZZzNwVSbvb6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A ball is thrown from the top of a tall building with a velocity of `open parentheses 2 bold i space plus space 29.4 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\nWrite down the vector $gms^{-2}$ - the vector for acceleration due to gravity.",
+     "solution_md": "![](assets/022-img.png)",
+     "equations": [
+      {
+       "latex": "gms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">g</mi><mo> </mo><mi>m</mi><mo> </mo><msup><mi>s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold g space m space s to the power of negative 2 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JF8FJcV9PkD9XsDy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "How long does it take for the ball to reach a velocity of `open parentheses 2 bold i space plus space 4.9 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`?",
+     "solution_md": "![](assets/023-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ssdwpcBW5PWQvjX3",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_27QB9z7k4NB7gp2z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected from ground level such that after 1.8 seconds its displacement is `open parentheses 2.7 bold i space plus space 3.6 bold j close parentheses space straight m`.\n\nFind the velocity of the particle after 1.8 seconds.",
+     "solution_md": "![](assets/011-img.png)"
+    },
+    {
+     "id": "qstnprt_ZZRBsWw29FCZMxDQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use Pythagoras’ theorem to find the speed of the particle after 1.8 seconds, giving your answer to three significant figures.",
+     "solution_md": "![](assets/012-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VPwhzfHhcbSzPYFP",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_kTTJSbYPw5tFZkff",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected horizontally from a height of $15m$ above the ground with a speed of $8ms^{-1}$.\n\nFind the time of flight of the particle.",
+     "solution_md": "![](assets/067-img.png)",
+     "equations": [
+      {
+       "latex": "15m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "15 space straight m"
+      },
+      {
+       "latex": "8ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YcyBkRKD9Z6G5bZG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Find the horizontal displacement of the particle when it reaches the ground.\n\n(ii) What name is given to this distance?",
+     "solution_md": "![](assets/068-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WZPg8H3RmqYrbyBw",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Hqz5q6kKzhFgMZkc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A cannon is fired facing horizontally from the turret of a castle.  The cannonball is projected with an initial speed of $150ms^{-1}$and hits the ground 2 seconds later.\n\nFind the range of the cannonball.",
+     "solution_md": "![](assets/065-img.png)",
+     "equations": [
+      {
+       "latex": "150ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>150</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "150 space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_5TX7F9D8Y46Zzpy7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the height of the castle turret from which the cannon was fired.",
+     "solution_md": "![](assets/066-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V6dGNxRBZzNzF3H3",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_FtCNbGW7CfGpRFzD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A golfer strikes a ball from ground level with velocity  `open parentheses 35 space square root of 3 space bold i space plus space 35 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\n(i) Find the initial speed of the golf ball.\n\n(ii) Find the angle at which the golf ball is struck.",
+     "solution_md": "![](assets/069-img.png)"
+    },
+    {
+     "id": "qstnprt_NRxTqf3yc8mMHYdb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the time the golf ball spends in the air before its first bounce off the ground.",
+     "solution_md": "![](assets/070-img.png)"
+    },
+    {
+     "id": "qstnprt_W9BnyrT4kQt3GzN9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Write down the vertical speed of the golf ball at the point it is at its maximum height.\n\n(ii) Find the maximum height reached by the golf ball.",
+     "solution_md": "![](assets/071-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_G5NhMT7B4QRhJS45",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_v8FTYNCY8PDCR8mX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A stuntperson rides a bicycle off a ramp inclined 30° to the horizontal at the end of a pier.  The bicycle leaves the ramp with a speed of  14 ms<sup>-1</sup>.\n\nThe bicycle and stuntperson are modelled as a single projectile and splash into the water below at a horizontal distance of 28 m from the end of the pier.\n\nFind the time the bicycle and stuntperson spend in the air above the water.",
+     "solution_md": "![](assets/079-img.png)"
+    },
+    {
+     "id": "qstnprt_sW85PRGj9HMQRZrF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Given that the end of the ramp was 50 cm above the pier, find the height of the pier, giving your answer to the nearest tenth of a metre.",
+     "solution_md": "![](assets/080-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_zBjysqfrCS5zYcRt",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_37wdn6ZpkXfBDS49",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A distress flare is launched from the edge of a boat at an angle of 80° above the horizontal and with an initial speed of 75 ms<sup>-1</sup> . The height of the boat is negligible. Give your answers to three significant figures where appropriate.\n\n(i) Find the initial horizontal speed of the flare.\n\n(ii) Find the initial vertical speed of the flare.",
+     "solution_md": "![](assets/061-img.png)"
+    },
+    {
+     "id": "qstnprt_9R9j3q6G9gH3rFZ4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Find the times at which the flare is at a height of 200 m.\n\n(ii) Hence find the length of time for which the flare remains above 200 m.",
+     "solution_md": "![](assets/062-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yJsbDcyvv2CQTXRX",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_TcgD2HTZrT3Spycc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A military helicopter hovers 20 m above a village whilst a soldier throws food and aid packages to the crowd below.  The soldier throws each package with a velocity of  5 ms<sup>-1</sup> at an angle of 10° below the horizontal.\n\n(i) Find the time it takes a package to reach the ground.\n\n(ii) A villager catches a package at a height of 2 m above the ground.  Find the time this package spent in the air.",
+     "solution_md": "![](assets/063-img.png)"
+    },
+    {
+     "id": "qstnprt_BQ7jxrNJnNh4bghR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the food and aid packages land within 10 m of the point on the ground directly below the helicopter.",
+     "solution_md": "![](assets/064-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M3mXbVqkJTX3QTKn",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_YvrCf5xxcxQnpxkP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The flight of a particle projected with an initial velocity of $Ums^{-1}$ at an angle $α$* *above the horizontal is modelled as a projectile moving under the influence of gravity only.  The origin is defined to be the point from which the particle is projected, with upward being taken as the positive vertical direction.\n\nShow that the $x$-coordinate of the particle at time $t$ seconds is given by\n\n`x space equals space open parentheses U space cos space alpha close parentheses t`",
+     "solution_md": "![](assets/074-img.png)",
+     "equations": [
+      {
+       "latex": "Ums^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YpQnyjjpk6cK3Zmc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the $y$-coordinate of the particle at time $t$ seconds is given by\n\n`y space equals space open parentheses U space sin space straight alpha close parentheses space t space minus 1 half g t squared`\n\nwhere *g* m s<sup>−2</sup> is the constant of acceleration due to gravity.",
+     "solution_md": "![](assets/075-img.png)",
+     "equations": [
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QchSFXGxKHvbGrnp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG",
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Hence show that the trajectory of a projectile is given by\n\n`y space equals space open parentheses tan space alpha close parentheses space x space minus space fraction numerator g x squared over denominator 2 U squared space cos squared space alpha end fraction`",
+     "solution_md": "![](assets/076-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8btZDm7K4NGs7Gvp",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_g99FSXMRDzQPpCx7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In Toon City, a coyote is desperately trying to catch the very fast roadrunner bird.  In its latest effort to keep pace with the roadrunner the coyote projects itself from a catapult at ground level.  The catapult projects the coyote with initial velocity `open parentheses 15 bold i space plus 8 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\nModelling the coyote as a projectile find\n\n(i) the initial speed of the coyote\n\n(ii) the exact values of $\\mathrm{sin}α\\mathrm{and} \\mathrm{cos}α$, where $α$ is the angle above the horizontal at which the coyote is projected.",
+     "solution_md": "![](assets/081-img.png)",
+     "equations": [
+      {
+       "latex": "\\mathrm{sin}α\\mathrm{and} \\mathrm{cos}α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo> </mo><mi>α</mi><mo> </mo><mi>and</mi><mo> </mo><mi>cos</mi><mo> </mo><mi>α</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sin space alpha space and space cos space alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VN7xB8WSbQBgWjk8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find\n\n(i) the initial speed of the coyote in the horizontal direction\n\n(ii) the initial speed of the coyote in the vertical direction\n\n(iii) the equation for the trajectory of the coyote, leaving the coefficients in your equation as exact values, and in terms of $g$ where appropriate.",
+     "solution_md": "![](assets/082-img.png)",
+     "equations": [
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_J82qRSqstb59ZQbZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For this part of the question, use $g=9.8ms^{-2}$.\n\n(i) Find the range of the flight of the coyote.\n\n(ii) There is a cactus plant of height 4 m located exactly halfway along the trajectory of the coyote.  Determine whether the coyote’s latest pursuit of the roadrunner will come to a prickly end.",
+     "solution_md": "![](assets/083-img.png)",
+     "equations": [
+      {
+       "latex": "g=9.8ms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn><mo>.</mo><mn>8</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g space equals space 9.8 space straight m space straight s to the power of negative 2 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nX8v7GMztdN4d8KK",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_RVzH6rqyFjW989Ps",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "An ejector seat for a small aircraft is being tested and is launched from a stationary position 2 m above the ground.  The seat is fired with initial velocity 25 ms<sup>-1</sup> at an angle $α$ above the horizontal, where $\\mathrm{tan}α=\\frac{24}{7}$.\n\nTo pass its first safety test the ejector seat must rise at least 16 m above the position of the aircraft within 1 second.\n\nFind the vertical displacement of the ejector seat after 1 second of motion and thus determine whether the seat passes its first safety test.",
+     "solution_md": "![](assets/072-img.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "\\mathrm{tan}α=\\frac{24}{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>α</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>24</mn><mn>7</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan space alpha space equals space 24 over 7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TMhd89sJFZzyXktv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Another test the ejector seat has to pass is that it is expected to deploy a parachute when it reaches its maximum height.\n\nFind the height above ground level and time after launch at which the ejector seat should deploy its parachute.",
+     "solution_md": "![](assets/073-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jmxmk7hMTBy2Gfnm",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_t57gZWtsmjD6fcgp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "A football is kicked from the top of a hill and its motion is modelled as that of a particle moving in a 2D vertical plane with constant acceleration. The initial velocity of the football is `open parentheses 18 bold i space plus space 23 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent` and it lands at ground level with velocity `open parentheses 18 bold i space minus space 26 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, where $i$** **is a unit vector in the horizontal direction and $j$** **is a unit vector in the upwards vertical direction.\n\nFind the time it takes the football to first hit ground level.",
+     "solution_md": "![](assets/077-img.png)",
+     "equations": [
+      {
+       "latex": "i",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">i</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold i"
+      },
+      {
+       "latex": "j",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">j</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold j"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WPVHzXZQzHghpJRf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Find the displacement of the football when it first hits ground level.\n\n(ii) Give an interpretation of the values of the components of the vector from part (b) (i).",
+     "solution_md": "![](assets/078-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RpCd6JN95cJH6sZh",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_n752Mbv3Yd9FjdC3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected from a point on a horizontal plane with initial velocity $Ums^{-1}$ at an angle of $α^{\\circ}$ above the horizontal.  The particle moves freely under gravity. $gms^{-2}$ is the constant of acceleration due to gravity.\n\nShow that the time of flight of the particle, $T$ seconds, is given by\n\n$T=\\frac{2U\\mathrm{sin}α}{g}$",
+     "solution_md": "![](assets/048-img.png)",
+     "equations": [
+      {
+       "latex": "Ums^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "α^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha degree"
+      },
+      {
+       "latex": "gms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g space straight m space straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "T=\\frac{2U\\mathrm{sin}α}{g}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">T</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>2</mn><mi>U</mi><mo> </mo><mi>sin</mi><mo> </mo><mi>α</mi></mrow><mi>g</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight T space equals space fraction numerator 2 U space sin space alpha over denominator g end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_s7JTbdpdC2vV6pJK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the range of the particle, $R$ m, on the horizontal plane is given by\n\n$R=\\frac{U^{2}\\mathrm{sin}2α}{g}$",
+     "solution_md": "![](assets/049-img.png)",
+     "equations": [
+      {
+       "latex": "R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight R"
+      },
+      {
+       "latex": "R=\\frac{U^{2}\\mathrm{sin}2α}{g}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">R</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msup><mi>U</mi><mn>2</mn></msup><mo> </mo><mi>sin</mi><mo> </mo><mn>2</mn><mi>α</mi></mrow><mi>g</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight R space equals space fraction numerator U squared space sin space 2 alpha over denominator g end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_G6sNJ7kvRnjS5P34",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_JBS37W9C9qVgsBCM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected horizontally from the point with coordinates `open parentheses space 0 space comma space 5 space close parentheses` with an initial speed of $9ms^{-1}$.  The coordinates are expressed in metres.\n\nThroughout this question leave any coefficients in expressions and equations as exact values, given in terms of $g$ where appropriate.\n\n(i) Find, in terms of time $t$ seconds, expressions for $s_{x}\\mathrm{and}s_{y}$, the horizontal and vertical displacements of the particle from the point from which it was projected.\n\n(ii) Write down an expression for $h_{y}$, the vertical displacement of the particle from the origin.",
+     "solution_md": "![](assets/056-img.png)",
+     "equations": [
+      {
+       "latex": "9ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "9 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "s_{x}\\mathrm{and}s_{y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>s</mi><mi>x</mi></msub><mo> </mo><mi>and</mi><mo> </mo><msub><mi>s</mi><mi>y</mi></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "s subscript x space and space s subscript y"
+      },
+      {
+       "latex": "h_{y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>h</mi><mi>y</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h subscript y"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BG3RckTzbtnDdSfH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find an equation for the trajectory of the particle in the form `y space equals space straight f open parentheses x close parentheses`.",
+     "solution_md": "![](assets/057-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Y8wDNFGk7tXJSwqY",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_gG3jWDYhZJrkwpCY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A golfer strikes a ball from ground level with velocity $28ms^{-1}$ at an angle of $60^{\\circ}$ to the horizontal.\n\nWrite down the initial velocity of the golf ball in the form `open parentheses p bold i space plus space q bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, giving the values of $p\\mathrm{and}q$ as exact values.",
+     "solution_md": "![](assets/042-img.png)",
+     "equations": [
+      {
+       "latex": "28ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>28</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "28 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "60^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>60</mn><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "60 degree"
+      },
+      {
+       "latex": "p\\mathrm{and}q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo> </mo><mi>and</mi><mo> </mo><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p space and space q"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qPMPyJrBjDmqCDWS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A tree of height $16m$ stands in the path of the flight of the golf ball $56m$ from the point where it is struck.  Determine whether or not the golf ball strikes the tree.",
+     "solution_md": "![](assets/043-img.png)",
+     "equations": [
+      {
+       "latex": "16m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "16 space straight m"
+      },
+      {
+       "latex": "56m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>56</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "56 space straight m"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HXhT7NWvT9QsKH2Z",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_6rTp5RQs5WDsngCZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A stuntperson aims to perform a motorcycle jump over a row of buses.  The take-off and landing ramps are both the same height, and the take-off ramp is angled at 20° above the horizontal.  Each bus is 2.55 m wide, and the heights of the buses are less than the heights of the take-off and landing ramps.  The stuntperson and motorcycle are modelled as a single projectile.\n\nIf the stuntperson leaves the end of the ramp with a speed of 18 m s <sup>-1,</sup> work out the maximum number of buses the stuntperson can clear.",
+     "solution_md": "![](assets/054-img.png)"
+    },
+    {
+     "id": "qstnprt_XgS9FpHhhMrS7wqq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "If the stuntperson wishes to jump over 16 buses using the same ramp, find the speed with which they should leave the ramp, giving your answer to three significant figures.",
+     "solution_md": "![](assets/055-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rqrR2nQjB7Jd9N27",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_ZdtnJWh7XWkQNrcF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Deefa the dog is undergoing agility training, part of which involves jumping over a tennis net.  The top of the tennis net sits 91 cm above the ground.  Deefa is modelled as a projectile jumping in a two-dimensional vertical plane that is perpendicular to the surface of the net.\n\nDeefa jumps with velocity `open parentheses 3 bold i space plus space 4 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, leaving the ground at a distance 75 cm from the net.  Determine whether Deefa will clear the net with this jump.",
+     "solution_md": "![](assets/046-img.png)"
+    },
+    {
+     "id": "qstnprt_hx3zdyST8p8Nc9cr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "On another attempt Deefa clears the net by jumping with velocity `open parentheses 4 bold i space plus thin space 5 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`. Deefa jumps at the latest possible moment in order to clear the net.  Find the distance between the net and the point at which Deefa jumps off the ground. Give your answer to a sensible degree of accuracy.",
+     "solution_md": "![](assets/047-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Q5NBgyQHkyQ77F6C",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_hVXvvPJh82bSPG9y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A diver jumps from the edge of a diving board that is 10 m above the surface of the water.  The diver leaves the board at an angle of 80° above the horizontal with a speed of 4 ms<sup>-1</sup>.  The diver is then modelled as a projectile until they splash into the swimming pool below.\n\nFind the time of the dive, giving your answer in seconds to three significant figures.",
+     "solution_md": "![](assets/050-img.png)"
+    },
+    {
+     "id": "qstnprt_ScTsNQSFj27WcnZK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the maximum height above the water achieved by the diver, giving your answer to the nearest tenth of a metre.",
+     "solution_md": "![](assets/051-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RRjkzYDQ9QdbkmFW",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Knvtf3RhkJmpwsfD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "A smooth stone is slid across a frozen river towards a frozen waterfall.  The stone is initially at rest 10 m from the edge of the waterfall, and it is accelerated at a constant rate until it reaches the edge of the waterfall.  The stone takes 2.5 seconds to reach the edge of the waterfall, after which it can be modelled as a projectile moving under gravity only.\n\nFind the speed of the stone as it slides over the edge of the waterfall.",
+     "solution_md": "![](assets/044-img.png)"
+    },
+    {
+     "id": "qstnprt_MVPByJDtNVb6GTWP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the distance from the foot of the waterfall at which the stone hits the ice is given by\n\n$8\\sqrt{\\frac{2h}{g}}m$\n\nwhere $h$ is the height of the waterfall in metres and $g$ is the constant of gravitational acceleration.",
+     "solution_md": "![](assets/045-img.png)",
+     "equations": [
+      {
+       "latex": "8\\sqrt{\\frac{2h}{g}}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><msqrt><mfrac><mrow><mn>2</mn><mi>h</mi></mrow><mi>g</mi></mfrac></msqrt><mo> </mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "8 square root of fraction numerator 2 h over denominator g end fraction end root space straight m"
+      },
+      {
+       "latex": "h",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>h</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "h"
+      },
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6NMWJdXHxhy64rZY",
+   "set_slug": "exam-questions",
+   "order": 29,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_G6nrc3p8V5PqTfNn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The flight of a particle projected with an initial velocity of $Ums^{-1}$ at an angle $α$ above the horizontal is modelled as a projectile moving under gravity only.  The particle is projected from the point `open parentheses space 0 space comma space h space close parentheses` with the upward direction being taken as positive, and with the coordinates being expressed in metres. $gms^{-2}$ is the constant of acceleration due to gravity.\n\nFind, in terms of $U,α,h,g$ and time *t* as appropriate, expressions for\n\n(i) the $x$ - coordinate of the projectile at time $t$ seconds,\n\n(ii) the $y$ - coordinate of the projectile at time $t$.",
+     "solution_md": "![](assets/058-img.png)",
+     "equations": [
+      {
+       "latex": "Ums^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "gms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g space straight m space straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "U,α,h,g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo>,</mo><mo> </mo><mi>α</mi><mo>,</mo><mo> </mo><mi>h</mi><mo>,</mo><mo> </mo><mi>g</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U comma space alpha comma space h comma space g space"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8VHW8Xvvv6yjyQsc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For a particular projectile, $\\mathrm{sin}α=\\frac{8}{17}$, $U=51ms^{-1}$ and the particle is projected from the point `open parentheses space 0 space comma space 6 space close parentheses`.  Find an expression for the trajectory of the particle, giving your answer in the form $y=ax+bgx^{2}+c$ where $a,b\\mathrm{and}c$ are rational constants.",
+     "solution_md": "![](assets/059-img.png)",
+     "equations": [
+      {
+       "latex": "\\mathrm{sin}α=\\frac{8}{17}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo> </mo><mi>α</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>8</mn><mn>17</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sin space alpha space equals space 8 over 17"
+      },
+      {
+       "latex": "U=51ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo> </mo><mo>=</mo><mo> </mo><mn>51</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U space equals space 51 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "y=ax+bgx^{2}+c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mi>a</mi><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mi>b</mi><mi>g</mi><msup><mi>x</mi><mn>2</mn></msup><mo> </mo><mo>+</mo><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space a x space plus space b g x squared space plus space c"
+      },
+      {
+       "latex": "a,b\\mathrm{and}c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo> </mo><mi>and</mi><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a comma b space and space c"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_588NgHRCjKRGb4QC",
+   "set_slug": "exam-questions",
+   "order": 30,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_2B6gNG3jtCgMmJZ6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In Toonland, a coyote is desperately trying to catch the very fast roadrunner bird.  In its latest effort to keep pace with the roadrunner the coyote projects itself from a catapult at the top of a canyon 85 m tall.  The catapult projects the coyote with initial velocity `open parentheses 3 bold i bold space plus space 9 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.\n\nThe roadrunner spots the coyote’s plan when the coyote is at its maximum height above the ground.  Using magic Toon paint the roadrunner paints a hole on the ground at the spot where the coyote will land.\n\nIt takes the roadrunner 4 seconds to paint the hole on the ground, and once it is finished the magic of the paint will cause it to become (at least for coyotes) a real hole with no bottom.  Determine whether or not the roadrunner will succeed in causing the coyote to plummet endlessly to its doom.",
+     "solution_md": "![](assets/060-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kfY675pfy8mwCg76",
+   "set_slug": "exam-questions",
+   "order": 31,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_fZRcnGj2cp7HW2Z4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8",
+      "spcpt_dqwxZZzNwVSbvb6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A football is kicked from the top of a hill and its motion modelled as moving in a 2D plane under the force of gravity only. The ball is kicked such that its initial velocity is $(15i+24j)ms^{-1}$.\n\n(i) Given the top of the hill is 6 m above ground level, find the time it takes the football to first hit the ground.\n\n(ii) Find the horizontal ground covered by the football at the time it first hits ground level.",
+     "solution_md": "![](assets/052-img.png)",
+     "equations": [
+      {
+       "latex": "(15i+24j)ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>15</mn><mi mathvariant=\"bold\">i</mi><mo>+</mo><mn>24</mn><mi mathvariant=\"bold\">j</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis 15 bold i plus 24 bold j right parenthesis space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_9D7Xfkrvgn4s94Xb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the speed with which the football first hits the ground.",
+     "solution_md": "![](assets/053-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DfR4frRnnKftVTwv",
+   "set_slug": "exam-questions",
+   "order": 32,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_WSJtWVwMTBJc6PkB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YPdhNKDXcHJm8HKG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For a particle modelled as a projectile with initial velocity $U$ m s<sup>−1</sup> at an angle of $α^{\\circ}$ above the horizontal, show that the equation of the trajectory of the particle is given by\n\n$y=(tanα)x-\\frac{gx^{2}}{2U^{2}cos^{2}α}$",
+     "solution_md": "![](assets/037-img.png)",
+     "equations": [
+      {
+       "latex": "U",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>U</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U"
+      },
+      {
+       "latex": "α^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha degree"
+      },
+      {
+       "latex": "y=(tanα)x-\\frac{gx^{2}}{2U^{2}cos^{2}α}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>(</mo><mi>t</mi><mi>a</mi><mi>n</mi><mo> </mo><mi>α</mi><mo>)</mo><mo> </mo><mi>x</mi><mo>-</mo><mfrac><mrow><mi>g</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>U</mi><mn>2</mn></msup><mi>c</mi><mi>o</mi><msup><mi>s</mi><mn>2</mn></msup><mo> </mo><mi>α</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals left parenthesis t a n space alpha right parenthesis space x minus fraction numerator g x squared over denominator 2 U squared c o s squared space alpha end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3w5Bkqq3Hf9s2KtR",
+   "set_slug": "exam-questions",
+   "order": 33,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_dnZCtgjmGVwPBcGc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A particle is projected horizontally from the point with coordinates (0 , 18) with an initial speed of  12 ms<sup>-1</sup>.  The coordinates are expressed in metres.\n\nFind the equation of the trajectory of the particle. Give the coefficients of your equation as exact values, and in terms of $g$ where appropriate.",
+     "solution_md": "![](assets/038-img.png)",
+     "equations": [
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Ph7d6Kb3mw3MftQd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the distance between the particle and the origin after two seconds of motion, giving your answer to three significant figures.",
+     "solution_md": "![](assets/039-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VSy8dqDkK9bXbsSK",
+   "set_slug": "exam-questions",
+   "order": 34,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_WqRyykMbgX8drFKt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A golfer strikes a ball from ground level with velocity $(20i+28j)ms^{-1}$.\n\nFind the distance the golf ball will travel before first hitting the ground.",
+     "solution_md": "![](assets/025-img.png)",
+     "equations": [
+      {
+       "latex": "(20i+28j)ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>20</mn><mi mathvariant=\"bold\">i</mi><mo mathvariant=\"bold\"> </mo><mo>+</mo><mo> </mo><mn>28</mn><mi mathvariant=\"bold\">j</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis 20 bold i bold space plus space 28 bold j right parenthesis space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nSmXfmYDBKRcd57m",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that by reducing the angle of the strike above the horizontal by 10 degrees the golfer can achieve approximately 7 m more distance before the ball lands.",
+     "solution_md": "![](assets/026-img.png)"
+    },
+    {
+     "id": "qstnprt_hJxjrQFhJkvbYHSZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4VhGxyfft9FmqFKq"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Give a reason why the golfer may not want to achieve a longer distance with their shot.",
+     "solution_md": "![](assets/027-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MPJkJB68VRKbHrxR",
+   "set_slug": "exam-questions",
+   "order": 35,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_P2Yp7jTw7M4ryS7n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A stuntperson aims to perform a motorcycle jump over a row of buses. The row of buses has a total length of  50 m and the ramp leading up to the first bus has a height of 4.5 m (which is higher than the height of the buses).  The landing ramp at the far side of the buses also has a height of 4.5 m, and for safety reasons the maximum height that the motorcycle reaches above the ground during the jump should be exactly 7 m.\n\nModelling the stuntperson and motorcycle as a single projectile find the speed at which the motorcycle should leave the ramp, and the angle at which the ramp should be inclined to the horizontal.",
+     "solution_md": "![](assets/030-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hnwm8w4XGQj8kyC7",
+   "set_slug": "exam-questions",
+   "order": 36,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_fB8MDbHwDjVwkgsk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "**In this question, use *****g***** = 10 ms**<sup>**−2**</sup>** for the acceleration due to gravity.**\n\nIn Toonworld a cat and a mouse each have a boulder loaded onto a catapult, with the catapults aimed at one another.  The catapults are 180 m apart.\n\nThe cat launches a boulder from its catapult with a velocity of $25\\sqrt{3}ms^{-1}$ at an angle of $α^{\\circ}$ to the horizontal such that $\\mathrm{tan}α=\\frac{3}{4}$.\n\nAt exactly the same moment the mouse launches an identical boulder with velocity $(12\\sqrt{15}i+5\\sqrt{15}j)ms^{-1}$.\n\nAssuming that the boulders do not collide in mid-air, determine which, if any, of the catapults are destroyed.",
+     "solution_md": "![](assets/033-img.png)",
+     "equations": [
+      {
+       "latex": "25\\sqrt{3}ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "25 square root of 3 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "α^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo>°</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha degree"
+      },
+      {
+       "latex": "\\mathrm{tan}α=\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>α</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "tan space alpha space equals space 3 over 4"
+      },
+      {
+       "latex": "(12\\sqrt{15}i+5\\sqrt{15}j)ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>12</mn><msqrt><mn>15</mn></msqrt><mi mathvariant=\"bold\">i</mi><mo>+</mo><mn>5</mn><msqrt><mn>15</mn></msqrt><mi mathvariant=\"bold\">j</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis 12 square root of 15 bold i plus 5 square root of 15 bold j right parenthesis space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FvNZvTYJC9t695yt",
+   "set_slug": "exam-questions",
+   "order": 37,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_cvYt5bkstFhXV9tH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_6vPzRxtjQy8Kn7yf"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "An enemy launches a missile from a secret bunker aimed at a military base camp 4 km away.  The ground level is the same at both the base camp and the bunker, but due to the depth of the bunker the missile is launched from a point 600 m below the ground level of the base camp.  The initial velocity of the missile is (82.5**i** + 250**j**) m s<sup>−1</sup>, and after being launched the missile may be modelled as a projectile acting under gravity alone.\n\nShow that the missile will hit the ground within 1 m of its target and take less than 50 seconds to do so.",
+     "solution_md": "![](assets/035-img.png)"
+    },
+    {
+     "id": "qstnprt_Nmfmj4ZC633yNjJt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4VhGxyfft9FmqFKq"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The bunker protrudes 400 m above ground level and may be modelled as a cylinder. Given that the missile successfully exits the bunker, what is the minimum possible radius of the bunker?",
+     "solution_md": "![](assets/036-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qcVZrwPw4CmwYTDb",
+   "set_slug": "exam-questions",
+   "order": 38,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_yDF3KPSwsqTdsGB4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The flight of a particle projected with an initial velocity of  $Ums^{-1}$ at an angle $α$ above the horizontal is modelled as a projectile moving under gravity only. The particle is projected from the point $(x_{0},y_{0})$with the upward direction being taken as positive, and with the coordinates being expressed in metres. $gms^{-2}$ is the constant of acceleration due to gravity.\n\nWrite down expressions for\n\n(i) the $x$-coordinate of the projectile at time $t$ seconds\n\n(ii) the $y$-coordinate of the projectile at time $t$ seconds.",
+     "solution_md": "![](assets/028-img.png)",
+     "equations": [
+      {
+       "latex": "Ums^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "(x_{0},y_{0})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>,</mo><mo> </mo><msub><mi>y</mi><mn>0</mn></msub><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space left parenthesis x subscript 0 comma space y subscript 0 right parenthesis space"
+      },
+      {
+       "latex": "gms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g space straight m space straight s to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_KgVm6Zjt423Zmx9R",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "For a particular projectile, $\\mathrm{tan}α=\\frac{3}{4}$, $U=10ms^{-1}$ and the particle is projected from the point (3 , 8).  Find an expression for the trajectory of the particle, giving your answer in the form\n\n$y=\\frac{ax^{2}+bx+c}{128}$\n\nwhere the constants $a,b\\mathrm{and}c$ are expressed in terms of $g$.",
+     "solution_md": "![](assets/029-img.png)",
+     "equations": [
+      {
+       "latex": "\\mathrm{tan}α=\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>tan</mi><mo> </mo><mi>α</mi><mo>=</mo><mo> </mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space tan space alpha equals space 3 over 4"
+      },
+      {
+       "latex": "U=10ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi><mo> </mo><mo>=</mo><mo> </mo><mn>10</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "U space equals space 10 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "y=\\frac{ax^{2}+bx+c}{128}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><mn>128</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals fraction numerator a x squared plus b x plus c over denominator 128 end fraction"
+      },
+      {
+       "latex": "a,b\\mathrm{and}c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>,</mo><mo> </mo><mi>b</mi><mo> </mo><mi>and</mi><mo> </mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a comma space b space and space c"
+      },
+      {
+       "latex": "g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>g</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "g"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_J57JQM5FttbkMpH2",
+   "set_slug": "exam-questions",
+   "order": 39,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_b6ySC8NKCw3zPqPX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "**In this question, use **$g=10ms^{-2}$** for the acceleration due to gravity.**\n\nThe graph below shows the trajectory of a projectile, with $x$ and  being measured in metres.\n\n![edexcel-al-maths-mechanics-topic-2-6-vh---q8](assets/031-edexcel-al-maths-mechanics-topic-2-6-vh-q8.png)\n\nUse the graph to help determine\n\n(i) the time of flight of the projectile in seconds\n\n(ii) the initial velocity of the projectile in the form $(u_{x}i+u_{y}j)ms^{-1}$\n\n(iii) the speed, to three significant figures, of the projectile at launch\n\n(iv) the angle to the horizontal at which the projectile was launched, giving your answer to one decimal place\n\n(v) the maximum height reached by the projectile.",
+     "solution_md": "![](assets/032-img.png)",
+     "equations": [
+      {
+       "latex": "g=10ms^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold-italic\">g</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mn mathvariant=\"bold\">10</mn><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\"> </mo><msup><mi mathvariant=\"bold\">s</mi><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "bold italic g bold space bold equals bold space bold 10 bold space bold m bold space bold s to the power of bold minus bold 2 end exponent"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "(u_{x}i+u_{y}j)ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><msub><mi>u</mi><mi>x</mi></msub><mi mathvariant=\"bold\">i</mi><mo> </mo><mo>+</mo><mo> </mo><msub><mi>u</mi><mi>y</mi></msub><mi mathvariant=\"bold\">j</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis u subscript x bold i space plus space u subscript y bold j right parenthesis space straight m space straight s to the power of negative 1 end exponent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FWpqWzXxP4GXCNCD",
+   "set_slug": "exam-questions",
+   "order": 40,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tgSzympSzwDYm9W7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Zf9bVz2qzw5dYP6S",
+      "spcpt_scnXTjK798w4kzCC"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "In a game of “Airwars” one player has to attempt to shoot down another’s model aircraft in mid-air using a model missile.  In a particular game a player launches their aircraft from the origin with velocity (3**i** + 18.7**j**) m s<sup>−1</sup>.  At the same instant their opponent launches their missile with velocity (−5**i **+ 18.7**j**) m s<sup>−1</sup>  from the point with coordinates (24 , 0), where the coordinates are expressed in metres.  The flight paths of both the aircraft and the missile occur in the same vertical plane, and **i** and **j** ** **and  are respectively the unit vectors in the positive horizontal and vertical directions (where in the vertical direction upwards is taken to be positive).\n\nModelling the motion of both the model aircraft and the model missile as projectiles moving under gravity alone, find the coordinates at which the missile hits the aircraft and how long both had been airborne prior to colliding.",
+     "solution_md": "![](assets/034-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_39QSnbX4d9fsgMW6",
+   "set_slug": "exam-questions",
+   "order": 41,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_kbpyjgRkWKKtWDDy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8",
+      "spcpt_dqwxZZzNwVSbvb6S"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A football is kicked from the top of a hill and its motion modelled as moving in a 2D plane under gravity. Its initial velocity is (12**i** + 7**j**) m s<sup>−1</sup> and it first hits ground level with velocity (12**i** − 20**j**) m s<sup>−1</sup>.\n\nFind the height of the hill at the point from which the football was kicked.",
+     "solution_md": "![](assets/040-img.png)"
+    },
+    {
+     "id": "qstnprt_mH3JSBs4cB4MB6mG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hj3JDXWFDGtVBjt8"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the distance between the point from which the football was kicked and the point at which it first hits the ground.",
+     "solution_md": "![](assets/041-img.png)"
+    }
+   ]
+  }
+ ]
+}
