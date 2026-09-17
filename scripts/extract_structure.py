@@ -413,6 +413,11 @@ def process(qual, family, pdf, expected):
             "points_total": len(points),
             "gaps": gaps[:40],
             "gap_count": len(gaps),
+            # deterministic: appendix/notation-region points are excluded from
+            # mapping + graph emission (map_spec_points.load_qual and
+            # emit_graph both key off this list)
+            "excluded_point_ids": sorted({g["id"] for g in gaps
+                                          if "appendix/notation region" in g["reason"]}),
             "front_matter_gap_ids": [g["id"] for g in front_gaps],
             "prefix_overlaps_dropped": overlaps_dropped,
         },

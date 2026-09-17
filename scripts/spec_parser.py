@@ -5,8 +5,14 @@ Family strategies:
   code_column     IGCSE sciences (linear+modular), SDA, IAL sciences/maths
                   statement code (N.M[BCHP]?) in left column, text right/inline
   triplet_table   Business, ICT, Economics: N.M topic rows + N.M.K statements
-  heading_bullets Maths A, Geography, Accounting, English Lit, Further Maths:
+  heading_bullets Geography, Accounting, English Lit, Further Maths:
                   bold headings + bullet statements (synthesized IDs)
+  maths_table     Maths A linear + modular: 3-column content tables
+                  (left: AO/section/subsection codes+titles, mid: lettered
+                  statements A-Z, right: Notes excluded). Linear = Foundation
+                  walk (scope None) + Higher-additions walk (scope 'H');
+                  modular = per-unit walks (scope U1F..U2H). Letters restart
+                  per walk/subsection in Higher walks -> walk scope disambiguates.
 
 Every statement carries page + span provenance. Flags list notation risks.
 Output: Official-Specifications/parsed/<qual>/<pdf-stem>.parsed.json
@@ -39,7 +45,7 @@ FAMILY = {
     'ial-physics': 'bare_int',
     'igcse-business': 'triplet_table', 'igcse-ict': 'triplet_table',
     'igcse-economics': 'lettered_table',
-    'igcse-maths-a': 'heading_bullets', 'igcse-maths-a-modular': 'heading_bullets',
+    'igcse-maths-a': 'maths_table', 'igcse-maths-a-modular': 'maths_table',
     'igcse-geography': 'heading_bullets', 'igcse-accounting': 'heading_bullets',
     'igcse-english-literature': 'heading_bullets', 'igcse-further-maths': 'heading_bullets',
 }
@@ -292,7 +298,12 @@ def parse_bare_int(doc, kill):
                 rest = L['text'][len(first['text']):].strip()
                 cur = {'official_code': m_int_m.group(1), 'page': pno + 1,
                        'oy': round(L['oy'], 1), 'parts': [rest] if rest else [],
-                       'bullets': [], 'pending_bullet': None, '_tail': 'parts'}
+                       'bullets': [], 'pending_bullet': None, '_tail': 'parts',
+                       # snapshot the header context AT CAPTURE (the finalizer
+                       # previously reused the walk-final cur_topic for every
+                       # statement — all ial-physics points claimed '6.5 Analysis')
+                       'topic_ref': dict(cur_topic) if cur_topic else None,
+                       'subsec_ref': dict(cur_subsec) if cur_subsec else None}
                 statements.append(cur)
                 continue
             if cur is None:
@@ -325,8 +336,8 @@ def parse_bare_int(doc, kill):
         out.append({
             'official_code': s['official_code'], 'scope': None, 'suffix': '',
             'text': ' '.join(s['parts']), 'page': s['page'], 'oy': s['oy'],
-            'topic': dict(cur_topic) if cur_topic else None,
-            'subsection': dict(cur_subsec) if cur_subsec else None,
+            'topic': s.get('topic_ref'),
+            'subsection': s.get('subsec_ref'),
             'sub_items': s['bullets'],
         })
     return out, topics, subsecs
@@ -551,6 +562,238 @@ def parse_heading_bullets(doc, kill):
                     cur['text'] += ' ' + t
     return items, topics, subsecs
 
+# --------------------------------------------------------- maths_table ------
+
+MATHS_UNIT_HDR = re.compile(r'^Unit (\d+): (Foundation|Higher) Tier$')
+MATHS_TIER_INTRO = re.compile(r'^(Foundation|Higher) Tier$')
+MATHS_AO_HDR = re.compile(r'^AO(\d+)\s+([A-Z].+)$')
+MATHS_SECTION = re.compile(r'^(\d{1,2})\s+([A-Z].+)$')
+MATHS_SUBCODE = re.compile(r'^(\d{1,2}\.\d{1,2})$')
+MATHS_LETTER = re.compile(r'^[A-Z]$')
+MATHS_HTO = 'Higher Tier only'
+MATHS_LEFT_MAX = 130      # left column: codes + titles
+MATHS_MID_MAX = 400       # mid column: statement letters + text; right = Notes
+MATHS_LETTER_X = (125, 215)
+
+def _col_lines(spans, kill, x_min, x_max, tol=3.0):
+    sel = [s for s in spans if not kill(s) and x_min <= s['x0'] < x_max]
+    return visual_lines(sel, tol=tol)
+
+def _maths_join(spans):
+    """x-order join. Touching spans glue ONLY when fonts differ and the PDF
+    encodes no boundary whitespace; explicit space chars in span texts win;
+    operator boundaries always take a space."""
+    out, prev_sp, prev_txt = '', None, ''
+    for s in sorted(spans, key=lambda s: s['x0']):
+        raw = s['text']
+        t = raw.strip()
+        if not t:
+            continue
+        glue = False
+        if prev_sp is not None and s['x0'] <= prev_sp['x1'] + 0.3 \
+                and prev_sp.get('font') != s.get('font') \
+                and not prev_txt[-1:].isspace() and not raw[:1].isspace() \
+                and prev_txt[-1:] not in '=+\u2212\u2013\u00d7/\u00f7\u00b1' \
+                and t[:1] not in '=+\u2212\u2013\u00d7/\u00f7\u00b1':
+            glue = True
+        if glue:
+            out += t
+        else:
+            out += (' ' if out else '') + t
+        prev_sp, prev_txt = s, t
+    return re.sub(r'\s+', ' ', out).strip()
+
+def _maths_walk_pages(doc, kill, start, end_next):
+    """Trim [start, end_next) to the last page carrying a bold N.M code or a
+    statement letter line — drops trailing non-content pages inside range."""
+    last = start - 1
+    for pno in range(start, min(end_next, doc.page_count)):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        hit = False
+        for L in _col_lines(spans, kill, 0, MATHS_LEFT_MAX):
+            if L['bold'] and (MATHS_SUBCODE.match(L['text']) or MATHS_SUBCODE.match(' '.join(L['text'].split()[:1]))):
+                hit = True
+        for L in _col_lines(spans, kill, MATHS_LETTER_X[0], MATHS_LETTER_X[1]):
+            if L['spans'] and MATHS_LETTER.match(L['spans'][0]['text'].strip()) and L['spans'][0]['font'].endswith('Bold'):
+                hit = True
+        if hit:
+            last = pno
+    return last
+
+def _maths_walks(doc, kill, modular):
+    """Return [(scope, label, p_lo, p_hi)]. Linear: Foundation walk (scope
+    None) from first AO page after the 'Foundation Tier' intro to the
+    'Higher Tier' intro; Higher walk (scope 'H'). Modular: one walk per
+    'Unit N: <Tier> Tier' header, scope U<N><F|H>."""
+    walks = []
+    if modular:
+        starts = []
+        for pno in range(doc.page_count):
+            for L in _col_lines(page_spans(doc[pno]), kill, 0, MATHS_LEFT_MAX):
+                m = MATHS_UNIT_HDR.match(L['text'])
+                if m and L['bold'] and L['sizes'] and max(L['sizes']) > 14:
+                    starts.append((pno, int(m.group(1)), m.group(2)))
+        starts.sort()
+        for i, (pno, no, tier) in enumerate(starts):
+            nxt = starts[i + 1][0] if i + 1 < len(starts) else doc.page_count
+            hi = _maths_walk_pages(doc, kill, pno, nxt)
+            walks.append({'scope': f'U{no}{tier[0]}', 'label': f'Unit {no} {tier}',
+                          'p_lo': pno, 'p_hi': hi})
+    else:
+        intros = []
+        for pno in range(doc.page_count):
+            for L in _col_lines(page_spans(doc[pno]), kill, 0, MATHS_LEFT_MAX):
+                if L['bold'] and L['sizes'] and max(L['sizes']) > 13:
+                    m = MATHS_TIER_INTRO.match(L['text'])
+                    if m:
+                        intros.append((pno, m.group(1)))
+        intros.sort()
+        if not intros:
+            return walks
+        first_content = None
+        for pno in range(intros[0][0], doc.page_count):
+            for L in _col_lines(page_spans(doc[pno]), kill, 0, MATHS_LEFT_MAX):
+                if L['bold'] and MATHS_AO_HDR.match(L['text']) and L['sizes'] and max(L['sizes']) > 13:
+                    first_content = pno
+                    break
+            if first_content is not None:
+                break
+        bounds = [p for p, _ in intros] + [doc.page_count]
+        if first_content is not None:
+            bounds[0] = first_content
+        for i, (_, tier) in enumerate(intros):
+            lo = bounds[i] if bounds[i] > (intros[i][0]) else intros[i][0]
+            hi = _maths_walk_pages(doc, kill, lo, bounds[i + 1])
+            if hi >= lo:
+                walks.append({'scope': (None if i == 0 else 'H'), 'label': f'{tier} Tier walk',
+                              'p_lo': lo, 'p_hi': hi})
+    return walks
+
+def _maths_frag_flags(text):
+    """Math-dense statements assemble as span soup (sup/sub fragments, glued
+    italics) — flag them so downstream treats wording as approximate."""
+    if re.search(r'\b[A-Za-z] [A-Za-z] [A-Za-z]\b', text) or \
+       re.search(r'\s\d(?:\s\d)+\s', ' ' + text + ' ') or \
+       re.search(r'\(\s?[a-z]\s?\)', text) or \
+       re.search(r'\s-1\b', text):
+        return ['math-fragment-assembly']
+    return []
+
+def parse_maths_table(doc, kill):
+    """IGCSE Maths A linear + modular content tables.
+    Left col (x<130): AO headers, 'N Title' sections (12-14pt bold),
+    'N.M' subsection codes with stacked bold titles, page furniture (ignored).
+    Mid col (125<=x<400): bold single-letter statement rows + wrapped text;
+    'Higher Tier only' markers. Right col (x>=400): Notes/examples, excluded.
+    Cross-page statement continuation supported (columnar assembly)."""
+    all_topics, all_subsecs, items = [], [], []
+    seen = {}
+    skipped_letters = 0
+    walks = _maths_walks(doc, kill, modular=_has_unit_headers(doc, kill))
+    for walk in walks:
+        scope, label = walk['scope'], walk['label']
+        cur_topic = cur_subsec = cur_stmt = None
+        pending_hto = False
+        for pno in range(walk['p_lo'], walk['p_hi'] + 1):
+            page = doc[pno]
+            spans = [s for s in page_spans(page) if not kill(s)]
+            left = _col_lines(spans, kill, 0, MATHS_LEFT_MAX)
+            mid = _col_lines(spans, kill, MATHS_LETTER_X[0], MATHS_MID_MAX)
+            events = [(L['oy'], 0, 'L', L) for L in left] + [(L['oy'], 1, 'M', L) for L in mid]
+            # half-point rounding: a statement letter printed 0.1pt above its
+            # subsection code (same visual line) must not sort before it
+            events.sort(key=lambda e: (round(e[0] * 2) / 2, e[1]))
+            for oy, _, col, L in events:
+                t = L['text']
+                first = L['spans'][0]
+                is_bold = first['font'].endswith('Bold')
+                if col == 'L':
+                    m_ao = MATHS_AO_HDR.match(t) if (is_bold and L['sizes'] and max(L['sizes']) > 13) else None
+                    m_sec = MATHS_SECTION.match(t) if (is_bold and L['sizes'] and max(L['sizes']) > 11.5) else None
+                    m_code = MATHS_SUBCODE.match(t.split('  ')[0].strip()) if is_bold else None
+                    if m_ao:
+                        cur_topic = {'number': f'AO{m_ao.group(1)}', 'title': m_ao.group(2).strip(),
+                                     'page': pno + 1, 'oy': round(oy), 'scope': scope}
+                        all_topics.append(cur_topic)
+                        cur_subsec = None
+                        cur_stmt = None
+                    elif m_sec:
+                        cur_topic = {'number': m_sec.group(1), 'title': m_sec.group(2).strip(),
+                                     'page': pno + 1, 'oy': round(oy), 'scope': scope}
+                        all_topics.append(cur_topic)
+                        cur_subsec = None
+                        cur_stmt = None
+                    elif m_code:
+                        code = m_code.group(1)
+                        cur_subsec = {'code': code, 'title': '', 'page': pno + 1, 'oy': round(oy),
+                                      'scope': scope, 'higher_only': pending_hto}
+                        pending_hto = False
+                        all_subsecs.append(cur_subsec)
+                        cur_stmt = None
+                    elif cur_subsec is not None and is_bold and not cur_subsec['title'] is None and \
+                            not MATHS_LETTER.match(t) and t not in ('What learners need to study:',) and \
+                            not t.startswith('Higher Tier only'):
+                        # subsection title line(s), stacked under the code
+                        if cur_stmt is None and L['bold']:
+                            cur_subsec['title'] = (cur_subsec['title'] + ' ' + t).strip()
+                    continue
+                # mid column
+                first_txt = first['text'].strip()
+                if is_bold and MATHS_LETTER.match(first_txt) and MATHS_LETTER_X[0] <= first['x0'] < MATHS_LETTER_X[1]:
+                    if cur_subsec is None:
+                        skipped_letters += 1
+                        print(f"    maths_table: letter line skipped p{pno + 1} y={oy:.0f} "
+                              f"({first_txt}: {L['text'][:40]!r}) - no open subsection")
+                        continue
+                    text = _maths_join([s for s in L['spans'][1:] if s['x0'] > first['x0'] + 1])
+                    cur_stmt = {'official_code': f"{cur_subsec['code']}{first_txt}",
+                                'text': text, 'page': pno + 1, 'oy': round(oy, 1),
+                                'topic': {k: cur_topic[k] for k in ('number', 'title', 'page', 'oy')} if cur_topic else None,
+                                'subsection': {k: cur_subsec[k] for k in ('code', 'title', 'page', 'oy')},
+                                'sub_items': [], 'scope': scope, 'walk': label}
+                    items.append(cur_stmt)
+                    continue
+                if is_bold and t == MATHS_HTO:
+                    if cur_subsec is not None and abs(cur_subsec['oy'] - round(oy)) <= 4:
+                        cur_subsec['higher_only'] = True
+                    else:
+                        pending_hto = True
+                    continue
+                if cur_stmt is not None and not is_bold and t not in ('Notes',):
+                    if is_noise(L):
+                        continue
+                    more = _maths_join(L['spans'])
+                    if more:
+                        cur_stmt['text'] = (cur_stmt['text'] + ' ' + more).strip()
+        # dedupe within (scope, code): identical text -> first wins; else suffix
+        deduped = []
+        for st in items:
+            if st.get('walk') != label:
+                deduped.append(st)
+                continue
+            key = (st['scope'], st['official_code'])
+            norm = re.sub(r'\s+', ' ', st['text']).strip().lower()
+            if key in seen:
+                if seen[key] == norm:
+                    continue
+                st['_dupn'] = 2 + sum(1 for d in deduped
+                                      if (d['scope'], d['official_code']) == key and d.get('_dupn'))
+                st['flags'] = ['duplicate-code-different-text']
+            else:
+                seen[key] = norm
+            deduped.append(st)
+        items = deduped
+    if skipped_letters:
+        print(f'    maths_table: {skipped_letters} letter lines skipped (no open subsection)')
+    return items, all_topics, all_subsecs
+
+def _has_unit_headers(doc, kill):
+    for pno in range(doc.page_count):
+        for L in _col_lines(page_spans(doc[pno]), kill, 0, MATHS_LEFT_MAX):
+            if MATHS_UNIT_HDR.match(L['text']) and L['bold'] and L['sizes'] and max(L['sizes']) > 14:
+                return True
+    return False
+
 # ------------------------------------------------------------------ main -----
 
 def sha1_of(path):
@@ -580,12 +823,15 @@ def parse_pdf(pdf_path, qual_slug):
         statements, topics, subsecs = parse_bare_int(doc, kill)
     elif fam == 'heading_bullets':
         statements, topics, subsecs = parse_heading_bullets(doc, kill)
+    elif fam == 'maths_table':
+        statements, topics, subsecs = parse_maths_table(doc, kill)
     else:
         statements, topics, subsecs = parse_code_column_bands(doc, kill)
     # finalize
     for st in statements:
         st['practical'] = bool(PRACTICAL_RE.search(st['text']))
-        st['flags'] = notation_flags(st['text'])
+        extra = _maths_frag_flags(st['text']) if fam == 'maths_table' else []
+        st['flags'] = sorted(set(st.get('flags', []) + notation_flags(st['text']) + extra))
         st.pop('code_num', None)
         if 'synth_id' in st:
             st['id'] = f"{qual_slug.replace('-', '_').upper()}:{st.pop('synth_id')}"
@@ -593,6 +839,9 @@ def parse_pdf(pdf_path, qual_slug):
             st['id'] = f"{qual_slug.replace('-', '_').upper()}:{st['scope']}-{st['official_code']}"
         else:
             st['id'] = f"{qual_slug.replace('-', '_').upper()}:{st['official_code']}"
+        _dupn = st.pop('_dupn', None)
+        if _dupn:
+            st['id'] += f"-dup{_dupn}"
         if '_parts' in st:
             st['text'] = ' '.join(st['_parts']) or st['text']
             st.pop('_parts', None)

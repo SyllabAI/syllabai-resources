@@ -17,7 +17,7 @@ generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
   spec_points: 319
-  topics: 61
+  topics: 20
   subsections: 2
   practicals: 3
 qualification_units:
@@ -59,288 +59,8 @@ qualification_units:
   content_topic_prefixes: null
 topics:
 - code: XCH11/YCH11-S1
-  title: Structure, Bonding and Introduction to Organic Chemistry 16
-  ordering: 1
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 3
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S2
-  title: Energetics, Group Chemistry, Halogenoalkanes and
-  ordering: 2
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 3
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S3
-  title: Practical Skills in Chemistry I 41
-  ordering: 3
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 3
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S4
-  title: Rates, Equilibria and Further Organic Chemistry 44
-  ordering: 4
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 3
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S5
-  title: Transition Metals and Organic Nitrogen Chemistry 58
-  ordering: 5
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 3
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S6
-  title: Practical Skills in Chemistry II 70
-  ordering: 6
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 3
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S7
-  title: Structure, Bonding and Introduction to WCH11/01
-  ordering: 7
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 10
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S8
-  title: Energetics, Group Chemistry, Halogenoalkanes WCH12/01
-  ordering: 8
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 11
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S9
-  title: Practical Skills in Chemistry I WCH13/01
-  ordering: 9
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 12
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S10
-  title: Rates, Equilibria and Further Organic Chemistry WCH14/01
-  ordering: 10
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 13
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S11
-  title: Transition Metals and Organic Nitrogen Chemistry WCH15/01
-  ordering: 11
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 14
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S12
-  title: Practical Skills in Chemistry II WCH16/01
-  ordering: 12
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 15
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S13
-  title: Chemistry
-  ordering: 13
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 16
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S14
-  title: Structure, Bonding and Introduction to Organic Chemistry 16
-  ordering: 14
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S15
-  title: Energetics, Group Chemistry, Halogenoalkanes
-  ordering: 15
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S16
-  title: Practical Skills in Chemistry I 41
-  ordering: 16
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S17
-  title: Rates, Equilibria and Further Organic Chemistry 44
-  ordering: 17
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S18
-  title: Transition Metals and Organic Nitrogen Chemistry 58
-  ordering: 18
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S19
-  title: Practical Skills in Chemistry II 70
-  ordering: 19
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S20
-  title: Structure, Bonding and Introduction to
-  ordering: 20
-  unit_code: WCH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 18
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S21
   title: Formulae, Equations and Amount of Substance
-  ordering: 21
+  ordering: 1
   unit_code: WCH11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -352,9 +72,9 @@ topics:
     pdf_page: 20
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S22
+- code: XCH11/YCH11-S2
   title: Atomic Structure and the Periodic Table
-  ordering: 22
+  ordering: 2
   unit_code: WCH11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -366,9 +86,9 @@ topics:
     pdf_page: 22
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S23
+- code: XCH11/YCH11-S3
   title: Bonding and Structure
-  ordering: 23
+  ordering: 3
   unit_code: WCH11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -380,9 +100,9 @@ topics:
     pdf_page: 24
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S24
+- code: XCH11/YCH11-S4
   title: Introductory Organic Chemistry and Alkanes
-  ordering: 24
+  ordering: 4
   unit_code: WCH11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -394,9 +114,9 @@ topics:
     pdf_page: 26
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S25
+- code: XCH11/YCH11-S5
   title: Alkenes
-  ordering: 25
+  ordering: 5
   unit_code: WCH11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -408,23 +128,9 @@ topics:
     pdf_page: 28
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S26
-  title: Energetics, Group Chemistry,
-  ordering: 26
-  unit_code: WCH12
-  unit: '2'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 29
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S27
+- code: XCH11/YCH11-S6
   title: Energetics
-  ordering: 27
+  ordering: 6
   unit_code: WCH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -436,9 +142,9 @@ topics:
     pdf_page: 32
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S28
+- code: XCH11/YCH11-S7
   title: Intermolecular Forces
-  ordering: 28
+  ordering: 7
   unit_code: WCH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -450,9 +156,9 @@ topics:
     pdf_page: 34
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S29
+- code: XCH11/YCH11-S8
   title: Redox Chemistry and Groups 1, 2 and 7
-  ordering: 29
+  ordering: 8
   unit_code: WCH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -464,9 +170,9 @@ topics:
     pdf_page: 35
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S30
+- code: XCH11/YCH11-S9
   title: Introduction to Kinetics and Equilibria
-  ordering: 30
+  ordering: 9
   unit_code: WCH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -478,9 +184,9 @@ topics:
     pdf_page: 38
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S31
+- code: XCH11/YCH11-S10
   title: 'Organic Chemistry: Halogenoalkanes, Alcohols'
-  ordering: 31
+  ordering: 10
   unit_code: WCH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -492,37 +198,9 @@ topics:
     pdf_page: 40
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S32
-  title: Practical Skills in Chemistry I
-  ordering: 32
-  unit_code: WCH13
-  unit: '3'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 43
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S33
-  title: Rates, Equilibria and Further Organic
-  ordering: 33
-  unit_code: WCH14
-  unit: '4'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 46
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S34
+- code: XCH11/YCH11-S11
   title: Kinetics
-  ordering: 34
+  ordering: 11
   unit_code: WCH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -534,9 +212,9 @@ topics:
     pdf_page: 49
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S35
+- code: XCH11/YCH11-S12
   title: Entropy and Energetics
-  ordering: 35
+  ordering: 12
   unit_code: WCH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -548,9 +226,9 @@ topics:
     pdf_page: 51
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S36
+- code: XCH11/YCH11-S13
   title: Chemical Equilibria
-  ordering: 36
+  ordering: 13
   unit_code: WCH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -562,9 +240,9 @@ topics:
     pdf_page: 53
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S37
+- code: XCH11/YCH11-S14
   title: Acid-base Equilibria
-  ordering: 37
+  ordering: 14
   unit_code: WCH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -576,9 +254,9 @@ topics:
     pdf_page: 54
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S38
+- code: XCH11/YCH11-S15
   title: 'Organic Chemistry: Carbonyls, Carboxylic Acids'
-  ordering: 38
+  ordering: 15
   unit_code: WCH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -590,23 +268,9 @@ topics:
     pdf_page: 56
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S39
-  title: Transition Metals and Organic Nitrogen
-  ordering: 39
-  unit_code: WCH15
-  unit: '5'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 60
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S40
+- code: XCH11/YCH11-S16
   title: Redox Equilibria
-  ordering: 40
+  ordering: 16
   unit_code: WCH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -618,9 +282,9 @@ topics:
     pdf_page: 63
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S41
+- code: XCH11/YCH11-S17
   title: Transition Metals and their Chemistry
-  ordering: 41
+  ordering: 17
   unit_code: WCH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -632,9 +296,9 @@ topics:
     pdf_page: 65
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S42
+- code: XCH11/YCH11-S18
   title: Organic Chemistry – Arenes
-  ordering: 42
+  ordering: 18
   unit_code: WCH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -646,9 +310,9 @@ topics:
     pdf_page: 68
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S43
+- code: XCH11/YCH11-S19
   title: 'Organic Nitrogen Compounds: Amines, Amides,'
-  ordering: 43
+  ordering: 19
   unit_code: WCH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -660,9 +324,9 @@ topics:
     pdf_page: 69
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S44
+- code: XCH11/YCH11-S20
   title: Organic Synthesis
-  ordering: 44
+  ordering: 20
   unit_code: WCH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -674,256 +338,18 @@ topics:
     pdf_page: 71
     pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
   damage_flags: []
-- code: XCH11/YCH11-S45
-  title: Practical Skills in Chemistry II
-  ordering: 45
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 72
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S46
-  title: Structure, IAS Externally assessed 80 marks
-  ordering: 46
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 75
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S47
-  title: Energetics, IAS Externally assessed 80 marks
-  ordering: 47
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 75
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S48
-  title: Practical IAS Externally assessed 50 marks
-  ordering: 48
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 75
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S49
-  title: Rates, IA2 Externally assessed 90 marks
-  ordering: 49
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 76
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S50
-  title: Transition IA2 Externally assessed 90 marks
-  ordering: 50
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 76
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S51
-  title: Practical IA2 Externally assessed 50 marks
-  ordering: 51
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 76
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S52
-  title: 17–18 17–18 4.5–5.5 0.0
-  ordering: 52
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S53
-  title: 17–18 17–18 4.5–5.5 0.0
-  ordering: 53
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S54
-  title: 0.0 0.0 0.0 20
-  ordering: 54
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S55
-  title: 8.5–9.0 8.5–9.0 2.2–2.8 0
-  ordering: 55
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S56
-  title: 8.5–9.0 8.5–9.0 2.2–2.8 0
-  ordering: 56
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S57
-  title: 0 0 0 10
-  ordering: 57
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S58
-  title: 7.3–7.8 8.4–8.9 3.6–4.0 0
-  ordering: 58
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S59
-  title: 7.3–7.8 8.4–8.9 3.6–4.0 0
-  ordering: 59
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S60
-  title: 0 0 0 10
-  ordering: 60
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 77
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
-- code: XCH11/YCH11-S61
-  title: WCH16/01
-  ordering: 61
-  unit_code: WCH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 86
-    pdf_sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
-  damage_flags: []
 subsections:
 - code: XCH11/YCH11-SUB1
   letter: i
   title: B.0 – arithmetic and numerical computation
-  parent_topic: XCH11/YCH11-S61
+  parent_topic: XCH11/YCH11-S20
   provenance:
     tier: RULE_DERIVED
     pdf_page: 95
 - code: XCH11/YCH11-SUB2
   letter: v
   title: B.4 – geometry and trigonometry
-  parent_topic: XCH11/YCH11-S61
+  parent_topic: XCH11/YCH11-S20
   provenance:
     tier: RULE_DERIVED
     pdf_page: 97

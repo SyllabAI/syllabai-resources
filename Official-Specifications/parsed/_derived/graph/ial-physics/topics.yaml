@@ -17,7 +17,7 @@ generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
   spec_points: 171
-  topics: 29
+  topics: 11
   subsections: 0
   practicals: 0
 qualification_units:
@@ -59,36 +59,8 @@ qualification_units:
   content_topic_prefixes: null
 topics:
 - code: XPH11/YPH11-S1
-  title: Unit description
-  ordering: 1
-  unit_code: WPH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 18
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S2
-  title: Assessment information
-  ordering: 2
-  unit_code: WPH11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S3
   title: Mechanics
-  ordering: 3
+  ordering: 1
   unit_code: WPH11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -100,11 +72,11 @@ topics:
     pdf_page: 20
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S4
+- code: XPH11/YPH11-S2
   title: Materials
-  ordering: 4
-  unit_code: WPH12
-  unit: '2'
+  ordering: 2
+  unit_code: WPH11
+  unit: '1'
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -114,37 +86,9 @@ topics:
     pdf_page: 22
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S5
-  title: Unit description
-  ordering: 5
-  unit_code: WPH12
-  unit: '2'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 23
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S6
-  title: Assessment information
-  ordering: 6
-  unit_code: WPH12
-  unit: '2'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 23
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S7
+- code: XPH11/YPH11-S3
   title: Waves and Particle Nature of Light
-  ordering: 7
+  ordering: 3
   unit_code: WPH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -156,9 +100,9 @@ topics:
     pdf_page: 24
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S8
+- code: XPH11/YPH11-S4
   title: Electric Circuits
-  ordering: 8
+  ordering: 4
   unit_code: WPH12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -170,107 +114,9 @@ topics:
     pdf_page: 26
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S9
-  title: Unit description
-  ordering: 9
-  unit_code: WPH13
-  unit: '3'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 28
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S10
-  title: Assessment information
-  ordering: 10
-  unit_code: WPH13
-  unit: '3'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 28
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S11
-  title: Planning
-  ordering: 11
-  unit_code: WPH13
-  unit: '3'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 29
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S12
-  title: Implementation and measurements
-  ordering: 12
-  unit_code: WPH13
-  unit: '3'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 29
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S13
-  title: Processing Results
-  ordering: 13
-  unit_code: WPH14
-  unit: '4'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 30
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S14
-  title: Unit description
-  ordering: 14
-  unit_code: WPH14
-  unit: '4'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 31
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S15
-  title: Assessment information
-  ordering: 15
-  unit_code: WPH14
-  unit: '4'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 31
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S16
+- code: XPH11/YPH11-S5
   title: Further Mechanics
-  ordering: 16
+  ordering: 5
   unit_code: WPH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -282,9 +128,9 @@ topics:
     pdf_page: 32
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S17
+- code: XPH11/YPH11-S6
   title: Electric and Magnetic Fields
-  ordering: 17
+  ordering: 6
   unit_code: WPH14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -296,11 +142,11 @@ topics:
     pdf_page: 33
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S18
+- code: XPH11/YPH11-S7
   title: Nuclear and Particle Physics
-  ordering: 18
-  unit_code: WPH15
-  unit: '5'
+  ordering: 7
+  unit_code: WPH14
+  unit: '4'
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -310,37 +156,9 @@ topics:
     pdf_page: 35
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S19
-  title: Unit description
-  ordering: 19
-  unit_code: WPH15
-  unit: '5'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 36
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S20
-  title: Assessment information
-  ordering: 20
-  unit_code: WPH15
-  unit: '5'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 37
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S21
+- code: XPH11/YPH11-S8
   title: Thermodynamics
-  ordering: 21
+  ordering: 8
   unit_code: WPH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -352,9 +170,9 @@ topics:
     pdf_page: 37
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S22
+- code: XPH11/YPH11-S9
   title: Nuclear Decay
-  ordering: 22
+  ordering: 9
   unit_code: WPH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -366,9 +184,9 @@ topics:
     pdf_page: 38
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S23
+- code: XPH11/YPH11-S10
   title: Oscillations
-  ordering: 23
+  ordering: 10
   unit_code: WPH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -380,9 +198,9 @@ topics:
     pdf_page: 39
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
-- code: XPH11/YPH11-S24
+- code: XPH11/YPH11-S11
   title: Astrophysics and Cosmology
-  ordering: 24
+  ordering: 11
   unit_code: WPH15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -392,76 +210,6 @@ topics:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
     pdf_page: 40
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S25
-  title: Unit description
-  ordering: 25
-  unit_code: WPH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 42
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S26
-  title: Assessment information
-  ordering: 26
-  unit_code: WPH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 42
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S27
-  title: Planning
-  ordering: 27
-  unit_code: WPH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 43
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S28
-  title: Implementation and Measurements
-  ordering: 28
-  unit_code: WPH16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 43
-    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
-  damage_flags: []
-- code: XPH11/YPH11-S29
-  title: Analysis
-  ordering: 29
-  unit_code: WPH12
-  unit: '2'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 44
     pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
   damage_flags: []
 subsections: []

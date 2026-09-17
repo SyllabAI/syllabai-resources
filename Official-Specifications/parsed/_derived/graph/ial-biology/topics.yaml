@@ -17,7 +17,7 @@ generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
   spec_points: 170
-  topics: 49
+  topics: 9
   subsections: 4
   practicals: 0
 qualification_units:
@@ -61,288 +61,8 @@ excluded_points_note: 1 non-spec points excluded (appendix/notation region captu
   stage; see structure.json validation.gaps)
 topics:
 - code: XBI11/YBI11-S1
-  title: Molecules, Diet, Transport and Health 14
-  ordering: 1
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S2
-  title: Cells, Development, Biodiversity and Conservation 19
-  ordering: 2
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S3
-  title: Practical Skills in Biology I 25
-  ordering: 3
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S4
-  title: Energy, Environment, Microbiology and Immunity 28
-  ordering: 4
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S5
-  title: Respiration, Internal Environment, Coordination
-  ordering: 5
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S6
-  title: Practical Skills in Biology II 39
-  ordering: 6
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S7
-  title: Molecules, Diet, Transport and Health WBI11/01
-  ordering: 7
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 13
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S8
-  title: Cells, Development, Biodiversity and Conservation WBI12/01
-  ordering: 8
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 13
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S9
-  title: Practical Skills in Biology I WBI13/01
-  ordering: 9
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 14
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S10
-  title: Energy, Environment, Microbiology WBI14/01
-  ordering: 10
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 14
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S11
-  title: Respiration, Internal Environment, WBI15/01
-  ordering: 11
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 15
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S12
-  title: Practical Skills in Biology II WBI16/01
-  ordering: 12
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 16
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S13
-  title: Biology
-  ordering: 13
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 17
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S14
-  title: Molecules, Diet, Transport and Health 14
-  ordering: 14
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S15
-  title: Cells, Development, Biodiversity and Conservation 19
-  ordering: 15
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S16
-  title: Practical Skills in Biology I 25
-  ordering: 16
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S17
-  title: Energy, Environment, Microbiology and Immunity 28
-  ordering: 17
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S18
-  title: Respiration, Internal Environment, Coordination and
-  ordering: 18
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S19
-  title: Practical Skills in Biology II 39
-  ordering: 19
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 19
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S20
-  title: Molecules, Diet, Transport and Health
-  ordering: 20
-  unit_code: WBI11
-  unit: '1'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 20
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S21
   title: Molecules, Transport and Health
-  ordering: 21
+  ordering: 1
   unit_code: WBI11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -354,9 +74,9 @@ topics:
     pdf_page: 21
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S22
+- code: XBI11/YBI11-S2
   title: Membranes, Proteins, DNA and Gene Expression
-  ordering: 22
+  ordering: 2
   unit_code: WBI11
   unit: '1'
   validation_status: RULE_DERIVED
@@ -368,23 +88,9 @@ topics:
     pdf_page: 23
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S23
-  title: Cells, Development, Biodiversity and
-  ordering: 23
-  unit_code: WBI12
-  unit: '2'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 25
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S24
+- code: XBI11/YBI11-S3
   title: Cell Structure, Reproduction and Development
-  ordering: 24
+  ordering: 3
   unit_code: WBI12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -396,9 +102,9 @@ topics:
     pdf_page: 27
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S25
+- code: XBI11/YBI11-S4
   title: Plant Structure and Function, Biodiversity
-  ordering: 25
+  ordering: 4
   unit_code: WBI12
   unit: '2'
   validation_status: RULE_DERIVED
@@ -410,37 +116,9 @@ topics:
     pdf_page: 29
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S26
-  title: Practical Skills in Biology I
-  ordering: 26
-  unit_code: WBI13
-  unit: '3'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 31
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S27
-  title: Energy, Environment, Microbiology and
-  ordering: 27
-  unit_code: WBI14
-  unit: '4'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 34
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S28
+- code: XBI11/YBI11-S5
   title: Energy Flow, Ecosystems and the Environment
-  ordering: 28
+  ordering: 5
   unit_code: WBI14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -452,9 +130,9 @@ topics:
     pdf_page: 35
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S29
+- code: XBI11/YBI11-S6
   title: Microbiology, Immunity and Forensics
-  ordering: 29
+  ordering: 6
   unit_code: WBI14
   unit: '4'
   validation_status: RULE_DERIVED
@@ -466,23 +144,9 @@ topics:
     pdf_page: 37
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S30
-  title: Respiration, Internal Environment,
-  ordering: 30
-  unit_code: WBI15
-  unit: '5'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 39
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S31
+- code: XBI11/YBI11-S7
   title: Respiration, Muscles and the Internal
-  ordering: 31
+  ordering: 7
   unit_code: WBI15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -494,9 +158,9 @@ topics:
     pdf_page: 41
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S32
+- code: XBI11/YBI11-S8
   title: Coordination, Response and Gene Technology
-  ordering: 32
+  ordering: 8
   unit_code: WBI15
   unit: '5'
   validation_status: RULE_DERIVED
@@ -508,233 +172,9 @@ topics:
     pdf_page: 43
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []
-- code: XBI11/YBI11-S33
-  title: Practical Skills in Biology II
-  ordering: 33
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 45
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S34
-  title: Molecules, IAS Externally assessed 80 marks
-  ordering: 34
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 49
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S35
-  title: Cells, IAS Externally assessed 80 marks
-  ordering: 35
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 49
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S36
-  title: Practical IAS Externally assessed 50 marks
-  ordering: 36
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 49
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S37
-  title: Energy, IA2 Externally assessed 90 marks
-  ordering: 37
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 50
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S38
-  title: Respiration, IA2 Externally assessed 90 marks
-  ordering: 38
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 50
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S39
-  title: Practical IA2 Externally assessed 50 marks
-  ordering: 39
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 50
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S40
-  title: 17–18 17–18 4.5–5.5 0
-  ordering: 40
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S41
-  title: 17–18 17–18 4.5–5.5 0
-  ordering: 41
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S42
-  title: 2–3 0 0 17–18
-  ordering: 42
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S43
-  title: 8.5–9.0 8.5–9.0 2.2–2.8 0
-  ordering: 43
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S44
-  title: 8.5–9.0 8.5–9.0 2.2–2.8 0
-  ordering: 44
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S45
-  title: 1–1.5 0 0 8.8–9.2
-  ordering: 45
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S46
-  title: 7.3–7.8 8.4–8.9 3.6–4.0 0
-  ordering: 46
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S47
-  title: 7.3–7.8 8.4–8.9 3.6–4.0 0
-  ordering: 47
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S48
-  title: 1–1.5 0 0 8.8–9.2
-  ordering: 48
-  unit_code: WBI16
-  unit: '6'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 51
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: XBI11/YBI11-S49
+- code: XBI11/YBI11-S9
   title: WBI16/01
-  ordering: 49
+  ordering: 9
   unit_code: WBI16
   unit: '6'
   validation_status: RULE_DERIVED
@@ -750,28 +190,28 @@ subsections:
 - code: XBI11/YBI11-SUB1
   letter: i
   title: use a light microscope to make observations and labelled drawings of
-  parent_topic: XBI11/YBI11-S23
+  parent_topic: XBI11/YBI11-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
 - code: XBI11/YBI11-SUB2
   letter: i
   title: make observations, draw and label plan diagrams of transverse sections
-  parent_topic: XBI11/YBI11-S24
+  parent_topic: XBI11/YBI11-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: XBI11/YBI11-SUB3
   letter: i
   title: A.0 – arithmetic and numerical computation
-  parent_topic: XBI11/YBI11-S49
+  parent_topic: XBI11/YBI11-S9
   provenance:
     tier: RULE_DERIVED
     pdf_page: 70
 - code: XBI11/YBI11-SUB4
   letter: v
   title: A.4 – geometry and trigonometry
-  parent_topic: XBI11/YBI11-S49
+  parent_topic: XBI11/YBI11-S9
   provenance:
     tier: RULE_DERIVED
     pdf_page: 74

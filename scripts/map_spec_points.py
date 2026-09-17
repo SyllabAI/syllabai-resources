@@ -72,26 +72,37 @@ for q in manifest["qualifications"]:
 # ---------- course -> candidate restriction ----------
 
 def course_scope(course, qual_slug):
-    """Return (unit_key or None, blocked_reason or None)."""
+    """Return (unit_key, tier_key, blocked_reason). unit_key restricts to a
+    unit via structure.json spec_point_units; tier_key restricts linear
+    maths-a pools via applicability.tier."""
     struct = QUALS[qual_slug]["struct"]
     if struct is None:
-        return None, None
+        # linear maths-a: no units, but SME courses are tier-scoped
+        if qual_slug == "igcse-maths-a":
+            if course.endswith("-foundation"):
+                return None, {"Foundation"}, None
+            if course.endswith("-higher"):
+                return None, None, None  # Higher papers assume all Foundation content
+        return None, None, None
     # parse gap blocks per-point mapping regardless of unit suffix (junk pool)
     gaps = struct.get("validation", {}).get("gaps", [])
     if any(g.get("id") == "*structure_parse_gap*" for g in gaps):
-        return None, "parse_gap"
+        return None, None, "parse_gap"
     if qual_slug == "ial-maths":
         m = re.search(r"(pure|mechanics|statistics|decision|further-pure)-(\d)", course)
         if m:
             label = {"pure": "P", "mechanics": "M", "statistics": "S", "decision": "D", "further-pure": "FP"}[m.group(1)] + m.group(2)
-            return label, None
-    if re.search(r"unit-([12])$", course):
-        return f"Unit {re.search(r'unit-([12])$', course).group(1)}", None
-    if re.search(r"(foundation|higher)-unit-([12])$", course):
-        return f"Unit {re.search(r'unit-([12])$', course).group(2)}", None
-    return None, None
+            return label, None, None
+    # tier-qualified unit suffixes FIRST (unit-N also suffix-matches them)
+    m = re.search(r"(foundation|higher)-unit-([12])$", course)
+    if m:
+        return f"Unit {m.group(2)} {m.group(1).capitalize()}", None, None
+    m = re.search(r"unit-([12])$", course)
+    if m:
+        return f"Unit {m.group(1)}", None, None
+    return None, None, None
 
-def candidates_for(qual_slug, unit_key):
+def candidates_for(qual_slug, unit_key, tier_key=None):
     q = QUALS[qual_slug]
     su = q["struct"]["spec_point_units"] if q["struct"] else None
     out = []
@@ -100,6 +111,10 @@ def candidates_for(qual_slug, unit_key):
             continue
         if unit_key and su:
             if su.get(p["id"]) != unit_key:
+                continue
+        if tier_key:
+            appl = p.get("applicability") or {}
+            if appl.get("tier") not in tier_key:
                 continue
         out.append(p)
     return out
@@ -133,8 +148,8 @@ def top_candidates(query_norm, query_toks, prep, k=40):
         idxs = list(range(min(k, len(prep))))
     return idxs
 
-def map_regime_A(course, qual_slug, entries):
-    cands = candidates_for(qual_slug, None)
+def map_regime_A(course, qual_slug, entries, unit_key=None, tier_key=None):
+    cands = candidates_for(qual_slug, unit_key, tier_key)
     prep = [(p, tokens(p["text"]), norm(p["text"])) for p in cands]
     exact = {}
     for i, (p, ttoks, ntext) in enumerate(prep):
@@ -187,8 +202,8 @@ def map_regime_A(course, qual_slug, entries):
 
 # ---------- Regime B: name join ----------
 
-def map_regime_B(course, qual_slug, entries):
-    cands = candidates_for(qual_slug, None)
+def map_regime_B(course, qual_slug, entries, unit_key=None, tier_key=None):
+    cands = candidates_for(qual_slug, unit_key, tier_key)
     prep = []
     for p in cands:
         prep.append((p, tokens(p["text"]), norm(p["text"])))
@@ -253,7 +268,7 @@ for q in manifest["qualifications"]:
     for course in q["sme_courses"]:
         idx_path = os.path.join(SME, course, "spec_point_index.json")
         entries = json.load(open(idx_path))["spec_points"]
-        unit_key, blocked = course_scope(course, qual_slug)
+        unit_key, tier_key, blocked = course_scope(course, qual_slug)
         defs_present = sum(1 for e in entries.values() if (e.get("definition") or "").strip())
         regime = "A" if defs_present > len(entries) * 0.5 else "B"
 
@@ -269,13 +284,13 @@ for q in manifest["qualifications"]:
             print(f"[{course}] qual={qual_slug} regime={regime} -> BLOCKED (parse gap)")
             continue
 
-        if unit_key:
-            cands = candidates_for(qual_slug, unit_key)
+        if unit_key or tier_key:
+            cands = candidates_for(qual_slug, unit_key, tier_key)
         else:
             cands = candidates_for(qual_slug, None)
 
         fn = map_regime_A if regime == "A" else map_regime_B
-        mappings, unmapped, flags = fn(course, qual_slug, entries)
+        mappings, unmapped, flags = fn(course, qual_slug, entries, unit_key, tier_key)
 
         out = {
             "schema": "syllabai.sme-spec-point-map/1.0",

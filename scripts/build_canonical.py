@@ -113,6 +113,33 @@ def center(s):
 
 MATHISH_BAD = re.compile(r'(relationship|following|listed|provided|rearranged|candidates|exemplification|:\s*$|\.\s*$)', re.I)
 
+JOIN_OPS = set('=+\u2212\u2013\u00d7/\u00f7\u00b1')
+
+def _smart_join(items):
+    """items: (span, raw_text, display_text) in x order.
+    - non-touching spans -> single space (original behavior)
+    - touching spans glue ONLY when fonts differ AND the PDF encodes no
+      boundary whitespace in the RAW span texts (kerning/font-change splits
+      like 'V'(regular)+'olume'(italic)); explicit space chars always win;
+      operator boundaries always take a space."""
+    out, prev_sp, prev_raw = '', None, ''
+    for sp, raw, disp in items:
+        t = disp.strip()
+        if not t:
+            continue
+        glue = False
+        if prev_sp is not None and sp['x0'] <= prev_sp['x1'] + 0.3 \
+                and prev_sp.get('font') != sp.get('font') \
+                and not prev_raw[-1:].isspace() and not raw[:1].isspace() \
+                and prev_raw[-1:] not in JOIN_OPS and t[:1] not in JOIN_OPS:
+            glue = True
+        if glue:
+            out += t
+        else:
+            out += (' ' if out else '') + t
+        prev_sp, prev_raw = sp, raw
+    return re.sub(r'\s+', ' ', out).strip()
+
 def build_clusters(spans, tol=3.5):
     clusters = []
     for s in sorted(spans, key=lambda s: s['oy']):
@@ -124,7 +151,7 @@ def build_clusters(spans, tol=3.5):
             clusters.append({'oy': s['oy'], 'spans': [s]})
     for c in clusters:
         c['spans'].sort(key=lambda s: s['x0'])
-        c['text'] = re.sub(r'\s+', ' ', ' '.join(s['text'] for s in c['spans'])).strip()
+        c['text'] = _smart_join([(s, s['text'], s['text']) for s in c['spans']])
         c['has_eq'] = any('=' in s['text'] for s in c['spans'])
         c['eq_span'] = next((s for s in c['spans'] if '=' in s['text']), None)
     clusters.sort(key=lambda c: c['oy'])
@@ -169,7 +196,7 @@ def extract_equation_page(page, kill):
         clusters.append({'oy': sm['oy'], 'spans': [sm]})
     for c in clusters:
         c['spans'].sort(key=lambda s: s['x0'])
-        c['text'] = re.sub(r'\s+', ' ', ' '.join(s['text'] for s in c['spans'])).strip()
+        c['text'] = _smart_join([(s, s['text'], s['text']) for s in c['spans']])
         c['has_eq'] = any('=' in s['text'] for s in c['spans'])
         c['eq_span'] = next((s for s in c['spans'] if '=' in s['text']), None)
     clusters.sort(key=lambda c: c['oy'])
@@ -342,21 +369,39 @@ def join_x(spans):
 
 def attach_sats(mains, sats):
     """Assemble mains (+operators) in x order; small spans (<=8pt) attach as
-    ^sup (small glyph at/above baseline) or _sub (below), else inline."""
+    ^sup (small glyph at/above baseline) or _sub (below), else inline.
+    Satellite host = narrowest span containing it, else closest preceding
+    span (exponents/subscripts follow their base) — fixes πr²h attaching
+    ^2 to π instead of r."""
     OPS = {'=', '\u00d7', '+', '\u2212', '-', '/', '\u00f7', '\u00b1'}
+
+    assign = {}
+    for t in sats:
+        cands = [m for m in mains
+                 if abs(m['oy'] - t['oy']) < 15
+                 and (m['x0'] <= center(t) <= m['x1']
+                      or max(m['x0'], t['x0']) - min(m['x1'], t['x1']) < 5)]
+        if not cands:
+            continue
+        inside = [m for m in cands if m['x0'] <= center(t) <= m['x1']]
+        if inside:
+            best = min(inside, key=lambda m: m['x1'] - m['x0'])
+        else:
+            # exponent/subscript follows its base: closest preceding span wins
+            prev = [m for m in cands if m['x1'] <= t['x0'] + 0.5]
+            if prev:
+                best = max(prev, key=lambda m: m['x1'])
+            else:
+                best = min(cands, key=lambda m: (abs(m['x0'] - t['x0']), m['x0']))
+        assign.setdefault(id(best), []).append(t)
     parts = sorted([(m['x0'], m['text'].strip(), m) for m in mains], key=lambda p: p[0])
     out = []
-    used = set()
     for x, txt, m in parts:
         s_txt = txt
-        mine = [t for t in sats if id(t) not in used
-                and abs(m['oy'] - t['oy']) < 15
-                and (m['x0'] <= center(t) <= m['x1']
-                     or max(m['x0'], t['x0']) - min(m['x1'], t['x1']) < 5)]
+        mine = assign.get(id(m), [])
         is_op = txt in OPS
         sup, sub, inline = [], [], []
         for t in mine:
-            used.add(id(t))
             ratio = t['size'] / max(m['size'], 0.1)
             if not is_op and ratio <= 0.8:
                 if t['oy'] < m['oy'] + 1.0:
@@ -364,16 +409,16 @@ def attach_sats(mains, sats):
                 else:
                     sub.append(t['text'].strip())
             else:
-                inline.append((t['x0'], t['text'].strip()))
+                inline.append((t['x0'], t['text'].strip(), t))
         for x2 in sup:
             s_txt += f"^{x2}"
         for x2 in sub:
             s_txt += f"_{x2}"
-        out.append((x, s_txt))
-        for ix, itxt in inline:
-            out.append((ix, itxt))
+        out.append((x, s_txt, m))
+        for ix, itxt, isp in inline:
+            out.append((ix, itxt, isp))
     out.sort(key=lambda p: p[0])
-    return re.sub(r'\s+', ' ', ' '.join(t for _, t in out)).strip()
+    return _smart_join([(sp, sp['text'], t) for _, t, sp in out])
 
 NUM_START = re.compile(r'^\((\d{1,2})\)\s*(.*)$')
 
@@ -603,6 +648,13 @@ def extract_command_words(doc, kill):
 
 def applicability(slug, scope, official_code):
     L = PAPER_LETTER.get(slug)
+    if slug == 'igcse-maths-a':
+        if scope == 'H':
+            return {'tier': 'Higher', 'rule': 'Higher Tier addition: printed only in the '
+                    'Higher Tier content walk; Foundation Tier statements are assumed '
+                    'knowledge for Higher Tier papers'}
+        return {'tier': 'Foundation', 'rule': 'printed in the Foundation Tier content walk; '
+                'assumed knowledge for Higher Tier papers'}
     if L and slug in ('igcse-chemistry', 'igcse-biology', 'igcse-physics'):
         suffix = official_code[-1] if official_code and official_code[-1].isalpha() else None
         if suffix:
@@ -616,6 +668,11 @@ def applicability(slug, scope, official_code):
         return {'papers': ['1', '2'], 'double_award_shared': True,
                 'rule': 'all 4SD0 statements are double-award content assessed in both papers'}
     if scope:
+        if re.match(r'^U\d[FH]$', str(scope)):
+            tier_lab = 'Foundation' if scope.endswith('F') else 'Higher'
+            return {'unit_scope': scope,
+                    'rule': f'content restated in the {scope} unit walk '
+                            f'(Unit {scope[1]} {tier_lab}) of the modular specification'}
         return {'unit_scope': scope, 'rule': f'content belongs to unit {scope} (modular/IAL structure)'}
     return None
 
@@ -657,7 +714,15 @@ def emit_canonical(slug, parsed, aos, cws, eqs, eq_flags):
     # ---- topics.json ----
     topic_rows, subsec_rows = [], []
     tmap = {}
-    for i, t in enumerate(parsed['topics'], 1):
+    src_topics = parsed['topics']
+    if slug in ('ial-biology', 'ial-chemistry', 'ial-physics'):
+        # T-PARSE-FIX: the topics capture mixed TOC rows and unit-divider rows
+        # into the body-topic list (titles with glued page numbers/unit codes).
+        # Keep only headers that real spec statements anchor to (page+oy match).
+        used = {(p['topic']['page'], p['topic']['oy'])
+                for p in parsed['spec_points'] if p.get('topic')}
+        src_topics = [t for t in src_topics if (t['page'], t.get('oy')) in used]
+    for i, t in enumerate(src_topics, 1):
         code = f"{meta_src.get('cover_code') or qual_id}-T{i}"
         tmap[i] = code
         topic_rows.append({'code': code, 'number': t.get('number'), 'title': t['title'],

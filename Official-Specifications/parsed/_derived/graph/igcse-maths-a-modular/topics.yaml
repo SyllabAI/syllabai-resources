@@ -16,9 +16,9 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 0
-  topics: 32
-  subsections: 0
+  spec_points: 241
+  topics: 34
+  subsections: 72
   practicals: 0
 qualification_units:
 - unit: Unit 1 Foundation
@@ -45,225 +45,10 @@ qualification_units:
   tier: Higher
   page_start: 39
   content_topic_prefixes: null
-excluded_points_note: 113 non-spec points excluded (appendix/notation region captured as points by the
-  parse stage; see structure.json validation.gaps)
-parse_gap_note: 'This qualification has a known parse gap: real unit content was not captured by the current
-  parse (see structure.json validation). All spec points are withheld from this graph until T-PARSE-FIX
-  re-parses the source; 113 raw parsed entries excluded.'
 topics:
 - code: 4XMAF/4XMAH-S1
-  title: Foundation Tier 13
+  title: Numbers and algebra
   ordering: 1
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S2
-  title: Higher Tier 21
-  ordering: 2
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S3
-  title: Foundation Tier 25
-  ordering: 3
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S4
-  title: Higher Tier 33
-  ordering: 4
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 5
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S5
-  title: 'and Unit 2 Foundation Tier *Unit codes:'
-  ordering: 5
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 12
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S6
-  title: 4WM1F/01
-  ordering: 6
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 12
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S7
-  title: 4WM2F/01
-  ordering: 7
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 12
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S8
-  title: 'and Unit 2 Higher Tier *Unit codes:'
-  ordering: 8
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 13
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S9
-  title: 4WM1H/01
-  ordering: 9
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 13
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S10
-  title: 4WM2H/01
-  ordering: 10
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 13
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S11
-  title: Unit 2
-  ordering: 11
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 14
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S12
-  title: Foundation Tier 13
-  ordering: 12
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 15
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S13
-  title: Higher Tier 21
-  ordering: 13
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 15
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S14
-  title: Foundation Tier 25
-  ordering: 14
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 15
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S15
-  title: Higher Tier 33
-  ordering: 15
-  unit_code: null
-  unit: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 15
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S16
-  title: Foundation Tier
-  ordering: 16
   unit_code: 4WM1F
   unit: Unit 1 Foundation
   validation_status: RULE_DERIVED
@@ -275,9 +60,107 @@ topics:
     pdf_page: 19
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
-- code: 4XMAF/4XMAH-S17
-  title: Higher Tier
-  ordering: 17
+- code: 4XMAF/4XMAH-S2
+  title: Numbers and the number system
+  ordering: 2
+  unit_code: 4WM1F
+  unit: Unit 1 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 19
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S3
+  title: Equations, formulae and identities
+  ordering: 3
+  unit_code: 4WM1F
+  unit: Unit 1 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 22
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S4
+  title: Sequences, functions and graphs
+  ordering: 4
+  unit_code: 4WM2H
+  unit: Unit 2 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 23
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S5
+  title: Shape, space and measure
+  ordering: 5
+  unit_code: 4WM1F
+  unit: Unit 1 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 24
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S6
+  title: Geometry
+  ordering: 6
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 24
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S7
+  title: Handling data
+  ordering: 7
+  unit_code: 4WM1H
+  unit: Unit 1 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 26
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S8
+  title: Statistics and probability
+  ordering: 8
+  unit_code: 4WM1F
+  unit: Unit 1 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 26
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S9
+  title: Numbers and algebra
+  ordering: 9
   unit_code: 4WM1H
   unit: Unit 1 Higher
   validation_status: RULE_DERIVED
@@ -289,8 +172,120 @@ topics:
     pdf_page: 27
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
+- code: 4XMAF/4XMAH-S10
+  title: Numbers and the number system
+  ordering: 10
+  unit_code: 4WM1H
+  unit: Unit 1 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 27
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S11
+  title: Equations, formulae and identities
+  ordering: 11
+  unit_code: 4WM1H
+  unit: Unit 1 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 28
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S12
+  title: Sequences, functions and graphs
+  ordering: 12
+  unit_code: 4WM1H
+  unit: Unit 1 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 29
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S13
+  title: Shape, space and measure
+  ordering: 13
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 30
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S14
+  title: Geometry
+  ordering: 14
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 30
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S15
+  title: Handling data
+  ordering: 15
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 30
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S16
+  title: Statistics and probability
+  ordering: 16
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 30
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S17
+  title: Numbers and algebra
+  ordering: 17
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 31
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
 - code: 4XMAF/4XMAH-S18
-  title: Foundation Tier
+  title: Numbers and the number system
   ordering: 18
   unit_code: 4WM2F
   unit: Unit 2 Foundation
@@ -304,8 +299,106 @@ topics:
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
 - code: 4XMAF/4XMAH-S19
-  title: Higher Tier
+  title: Equations, formulae and identities
   ordering: 19
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 33
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S20
+  title: Sequences, functions and graphs
+  ordering: 20
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 34
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S21
+  title: Shape, space and measure
+  ordering: 21
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 35
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S22
+  title: Geometry
+  ordering: 22
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 35
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S23
+  title: Vectors and transformation geometry
+  ordering: 23
+  unit_code: 4WM2F
+  unit: Unit 2 Foundation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 37
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S24
+  title: Handling data
+  ordering: 24
+  unit_code: 4WM2H
+  unit: Unit 2 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 38
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S25
+  title: Statistics and probability
+  ordering: 25
+  unit_code: 4WM2H
+  unit: Unit 2 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 38
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S26
+  title: Numbers and algebra
+  ordering: 26
   unit_code: 4WM2H
   unit: Unit 2 Higher
   validation_status: RULE_DERIVED
@@ -317,106 +410,8 @@ topics:
     pdf_page: 39
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
-- code: 4XMAF/4XMAH-S20
-  title: Foundation Two-hour written examination, 100
-  ordering: 20
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 47
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S21
-  title: Foundation Two-hour written examination, 100
-  ordering: 21
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 47
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S22
-  title: Higher Two-hour written examination, 100
-  ordering: 22
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 47
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S23
-  title: Higher Two-hour written examination, 100
-  ordering: 23
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 48
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S24
-  title: content is assumed for
-  ordering: 24
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 48
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S25
-  title: and Unit 2 Foundation Tier 28.5–31.5% 11–14% 6–9%
-  ordering: 25
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 50
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
-- code: 4XMAF/4XMAH-S26
-  title: and Unit 2 Higher Tier 28.5–31.5% 11–14% 6–9%
-  ordering: 26
-  unit_code: 4WM2H
-  unit: Unit 2 Higher
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 50
-    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
-  damage_flags: []
 - code: 4XMAF/4XMAH-S27
-  title: and Unit 2 Foundation Tier 60% 25% 15%
+  title: Numbers and the number system
   ordering: 27
   unit_code: 4WM2H
   unit: Unit 2 Higher
@@ -426,11 +421,11 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 50
+    pdf_page: 39
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
 - code: 4XMAF/4XMAH-S28
-  title: and Unit 2 Higher Tier 50% 30% 20%
+  title: Equations, formulae and identities
   ordering: 28
   unit_code: 4WM2H
   unit: Unit 2 Higher
@@ -440,11 +435,11 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 50
+    pdf_page: 40
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
 - code: 4XMAF/4XMAH-S29
-  title: F or 2F 120 60 48 36 24 12 0
+  title: Sequences, functions and graphs
   ordering: 29
   unit_code: 4WM2H
   unit: Unit 2 Higher
@@ -454,11 +449,11 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 54
+    pdf_page: 42
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
 - code: 4XMAF/4XMAH-S30
-  title: H or 2H 120 108 96 84 72 60 48 42
+  title: Shape, space and measure
   ordering: 30
   unit_code: 4WM2H
   unit: Unit 2 Higher
@@ -468,11 +463,11 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 54
+    pdf_page: 44
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
 - code: 4XMAF/4XMAH-S31
-  title: 'Foundation Tier: 4WM2F/01'
+  title: Geometry
   ordering: 31
   unit_code: 4WM2H
   unit: Unit 2 Higher
@@ -482,11 +477,11 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 59
+    pdf_page: 44
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
 - code: 4XMAF/4XMAH-S32
-  title: 'Higher Tier: 4WM2H/01'
+  title: Vectors and transformation geometry
   ordering: 32
   unit_code: 4WM2H
   unit: Unit 2 Higher
@@ -496,7 +491,539 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 59
+    pdf_page: 45
     pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
   damage_flags: []
-subsections: []
+- code: 4XMAF/4XMAH-S33
+  title: Handling data
+  ordering: 33
+  unit_code: 4WM2H
+  unit: Unit 2 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 46
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+- code: 4XMAF/4XMAH-S34
+  title: Statistics and probability
+  ordering: 34
+  unit_code: 4WM2H
+  unit: Unit 2 Higher
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 46
+    pdf_sha1: d717f90994f067ff2d10c2ca502554d2374f82ed
+  damage_flags: []
+subsections:
+- code: 4XMAF/4XMAH-SUB1
+  letter: '1.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4XMAF/4XMAH-SUB2
+  letter: '1.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4XMAF/4XMAH-SUB3
+  letter: '1.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4XMAF/4XMAH-SUB4
+  letter: '1.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4XMAF/4XMAH-SUB5
+  letter: '1.5'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4XMAF/4XMAH-SUB6
+  letter: '1.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4XMAF/4XMAH-SUB7
+  letter: '1.8'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4XMAF/4XMAH-SUB8
+  letter: '1.10'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4XMAF/4XMAH-SUB9
+  letter: '1.11'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4XMAF/4XMAH-SUB10
+  letter: '2.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4XMAF/4XMAH-SUB11
+  letter: '2.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4XMAF/4XMAH-SUB12
+  letter: '2.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4XMAF/4XMAH-SUB13
+  letter: '2.7'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4XMAF/4XMAH-SUB14
+  letter: '3.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 23
+- code: 4XMAF/4XMAH-SUB15
+  letter: '4.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 24
+- code: 4XMAF/4XMAH-SUB16
+  letter: '4.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 24
+- code: 4XMAF/4XMAH-SUB17
+  letter: '4.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 24
+- code: 4XMAF/4XMAH-SUB18
+  letter: '4.7'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 24
+- code: 4XMAF/4XMAH-SUB19
+  letter: '4.8'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 25
+- code: 4XMAF/4XMAH-SUB20
+  letter: '4.9'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 25
+- code: 4XMAF/4XMAH-SUB21
+  letter: '4.10'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 25
+- code: 4XMAF/4XMAH-SUB22
+  letter: '6.1'
+  title: Graphical representation of data
+  parent_topic: 4XMAF/4XMAH-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 26
+- code: 4XMAF/4XMAH-SUB23
+  letter: '6.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 26
+- code: 4XMAF/4XMAH-SUB24
+  letter: '1.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4XMAF/4XMAH-SUB25
+  letter: '1.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4XMAF/4XMAH-SUB26
+  letter: '1.5'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4XMAF/4XMAH-SUB27
+  letter: '1.8'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4XMAF/4XMAH-SUB28
+  letter: '2.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 28
+- code: 4XMAF/4XMAH-SUB29
+  letter: '2.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 28
+- code: 4XMAF/4XMAH-SUB30
+  letter: '2.7'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 28
+- code: 4XMAF/4XMAH-SUB31
+  letter: '3.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S11
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4XMAF/4XMAH-SUB32
+  letter: '4.7'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S12
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 30
+- code: 4XMAF/4XMAH-SUB33
+  letter: '4.8'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S12
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 30
+- code: 4XMAF/4XMAH-SUB34
+  letter: '4.9'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S12
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 30
+- code: 4XMAF/4XMAH-SUB35
+  letter: '6.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S12
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 30
+- code: 4XMAF/4XMAH-SUB36
+  letter: '6.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S12
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 30
+- code: 4XMAF/4XMAH-SUB37
+  letter: '1.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S16
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 31
+- code: 4XMAF/4XMAH-SUB38
+  letter: '1.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S16
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 31
+- code: 4XMAF/4XMAH-SUB39
+  letter: '1.7'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S16
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 31
+- code: 4XMAF/4XMAH-SUB40
+  letter: '1.9'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 32
+- code: 4XMAF/4XMAH-SUB41
+  letter: '2.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 33
+- code: 4XMAF/4XMAH-SUB42
+  letter: '2.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 33
+- code: 4XMAF/4XMAH-SUB43
+  letter: '2.8'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 33
+- code: 4XMAF/4XMAH-SUB44
+  letter: '3.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 34
+- code: 4XMAF/4XMAH-SUB45
+  letter: '4.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S20
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 35
+- code: 4XMAF/4XMAH-SUB46
+  letter: '4.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S20
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 35
+- code: 4XMAF/4XMAH-SUB47
+  letter: '4.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S20
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 35
+- code: 4XMAF/4XMAH-SUB48
+  letter: '4.5'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S20
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 35
+- code: 4XMAF/4XMAH-SUB49
+  letter: '4.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S22
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 36
+- code: 4XMAF/4XMAH-SUB50
+  letter: '4.10'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S22
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 36
+- code: 4XMAF/4XMAH-SUB51
+  letter: '4.11'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S22
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 36
+- code: 4XMAF/4XMAH-SUB52
+  letter: '5.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S22
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 37
+- code: 4XMAF/4XMAH-SUB53
+  letter: '6.1'
+  title: Graphical representation of
+  parent_topic: 4XMAF/4XMAH-S23
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 38
+- code: 4XMAF/4XMAH-SUB54
+  letter: '6.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S23
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 38
+- code: 4XMAF/4XMAH-SUB55
+  letter: '1.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S25
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 39
+- code: 4XMAF/4XMAH-SUB56
+  letter: '1.9'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S25
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 39
+- code: 4XMAF/4XMAH-SUB57
+  letter: '2.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S27
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 40
+- code: 4XMAF/4XMAH-SUB58
+  letter: '2.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S27
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 40
+- code: 4XMAF/4XMAH-SUB59
+  letter: '2.5'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S27
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 40
+- code: 4XMAF/4XMAH-SUB60
+  letter: '2.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S27
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 40
+- code: 4XMAF/4XMAH-SUB61
+  letter: '2.7'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S27
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 40
+- code: 4XMAF/4XMAH-SUB62
+  letter: '2.8'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S28
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 41
+- code: 4XMAF/4XMAH-SUB63
+  letter: '3.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S28
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 42
+- code: 4XMAF/4XMAH-SUB64
+  letter: '3.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S28
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 42
+- code: 4XMAF/4XMAH-SUB65
+  letter: '3.3'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S28
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 42
+- code: 4XMAF/4XMAH-SUB66
+  letter: '3.4'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S29
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 43
+- code: 4XMAF/4XMAH-SUB67
+  letter: '4.6'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S29
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 44
+- code: 4XMAF/4XMAH-SUB68
+  letter: '4.10'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S29
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 44
+- code: 4XMAF/4XMAH-SUB69
+  letter: '4.11'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S29
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 44
+- code: 4XMAF/4XMAH-SUB70
+  letter: '5.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S31
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 45
+- code: 4XMAF/4XMAH-SUB71
+  letter: '6.1'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S32
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 46
+- code: 4XMAF/4XMAH-SUB72
+  letter: '6.2'
+  title: ''
+  parent_topic: 4XMAF/4XMAH-S32
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 46
