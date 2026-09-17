@@ -1,0 +1,650 @@
+#!/usr/bin/env python3
+"""SyllabAI official specification parser v1.0 — PDF-direct, deterministic.
+
+Family strategies:
+  code_column     IGCSE sciences (linear+modular), SDA, IAL sciences/maths
+                  statement code (N.M[BCHP]?) in left column, text right/inline
+  triplet_table   Business, ICT, Economics: N.M topic rows + N.M.K statements
+  heading_bullets Maths A, Geography, Accounting, English Lit, Further Maths:
+                  bold headings + bullet statements (synthesized IDs)
+
+Every statement carries page + span provenance. Flags list notation risks.
+Output: Official-Specifications/parsed/<qual>/<pdf-stem>.parsed.json
+        Official-Specifications/parsed/<qual>/parse_report.json
+"""
+import glob, hashlib, json, os, re, sys, datetime
+import pymupdf
+
+BASE = '/home/z/my-project/download/syllabai-resources/Official-Specifications'
+OUT_BASE = f'{BASE}/parsed'
+PARSER_VERSION = 'spec-parser-1.0'
+
+CODE_ALONE = re.compile(r'^(\d{1,2}\.\d{1,2})([A-Z]{0,2})$')
+CODE_START = re.compile(r'^(\d{1,2}\.\d{1,2})([A-Z]{0,2})\b\s*(.*)$')
+TRIPLET_START = re.compile(r'^(\d{1,2}\.\d{1,2}\.\d{1,2})\b\s*(.*)$')
+TRIPLET_ALONE = re.compile(r'^(\d{1,2}\.\d{1,2}\.\d{1,2})$')
+SEC_NUM = re.compile(r'^(\d{1,2})\.\s+([A-Z].+)$')
+SUBSEC = re.compile(r'^\(([a-z])\)\s+(.+)$')
+TOPIC_HDR = re.compile(r'^(Topic|UNIT)\s+(\d+)\s*[:\-\u2013]?\s*(.*)$', re.I)
+ROMAN = re.compile(r'^(i{1,3}|iv|v|vi{0,3}|ix|x)$')
+PRACTICAL_RE = re.compile(r'\bpractical\s*:', re.I)
+
+FAMILY = {
+    'igcse-chemistry': 'code_column', 'igcse-biology': 'code_column',
+    'igcse-physics': 'code_column', 'igcse-science-double-award': 'code_column',
+    'igcse-chemistry-modular': 'code_column', 'igcse-biology-modular': 'code_column',
+    'igcse-physics-modular': 'code_column',
+    'ial-biology': 'code_column', 'ial-chemistry': 'code_column',
+    'ial-maths': 'code_column',
+    'ial-physics': 'bare_int',
+    'igcse-business': 'triplet_table', 'igcse-ict': 'triplet_table',
+    'igcse-economics': 'lettered_table',
+    'igcse-maths-a': 'heading_bullets', 'igcse-maths-a-modular': 'heading_bullets',
+    'igcse-geography': 'heading_bullets', 'igcse-accounting': 'heading_bullets',
+    'igcse-english-literature': 'heading_bullets', 'igcse-further-maths': 'heading_bullets',
+}
+UNIT_HDR = re.compile(r'^([A-Z]{1,2}\d{1,2})\.\d+\s+Unit content')
+SCI_HDR = re.compile(r'^(Biology|Chemistry|Physics)\s+content$', re.I)
+
+# ------------------------------------------------------------------ spans ----
+
+def page_spans(page):
+    out = []
+    for block in page.get_text('dict')['blocks']:
+        for line in block.get('lines', []):
+            for s in line['spans']:
+                if s['text'].strip():
+                    out.append({
+                        'text': s['text'], 'x0': s['bbox'][0], 'x1': s['bbox'][2],
+                        'y0': s['bbox'][1], 'y1': s['bbox'][3], 'oy': s['origin'][1],
+                        'size': round(s['size'], 1), 'font': s['font'],
+                    })
+    return out
+
+def strip_running_text(doc):
+    """Spans whose text repeats on >40% of pages near top/bottom -> header/footer."""
+    n = doc.page_count
+    bands = {}
+    for pno in range(n):
+        for s in page_spans(doc[pno]):
+            if s['y0'] < 55 or s['y0'] > 770:
+                key = re.sub(r'\s+', ' ', s['text']).strip()[:60]
+                bands.setdefault(key, set()).add(pno)
+    kill = {k for k, ps in bands.items() if len(ps) > max(4, 0.4 * n)}
+    # page-number-only spans also killed by position later
+    def is_killed(s):
+        key = re.sub(r'\s+', ' ', s['text']).strip()[:60]
+        if key in kill:
+            return True
+        if re.fullmatch(r'\d{1,3}', s['text'].strip()) and (s['y0'] > 770 or s['y0'] < 55):
+            return True
+        return s['y0'] < 30 or s['y0'] > 820
+    return is_killed
+
+def visual_lines(spans, tol=3.5):
+    """Group spans into visual lines by origin-y, sort by x.
+    tol=7 catches sub/superscript satellites (dH, Rf, dm3) whose baselines
+    sit a few pt off; body lines are 12+pt apart so no false merges."""
+    lines = []
+    for s in sorted(spans, key=lambda s: (s['oy'], s['x0'])):
+        for L in lines:
+            if abs(L['oy'] - s['oy']) < tol:
+                L['spans'].append(s)
+                break
+        else:
+            lines.append({'oy': s['oy'], 'spans': [s]})
+    for L in lines:
+        L['spans'].sort(key=lambda s: s['x0'])
+        L['text'] = ' '.join(s['text'].strip() for s in L['spans'])
+        L['text'] = re.sub(r'\s+', ' ', L['text']).strip()
+        L['x0'] = min(s['x0'] for s in L['spans'])
+        L['bold'] = all('Bold' in s['font'] for s in L['spans'] if s['text'].strip())
+        L['sizes'] = [s['size'] for s in L['spans']]
+    lines.sort(key=lambda L: L['oy'])
+    return lines
+
+# ------------------------------------------------------------- statements ----
+
+def is_noise(line):
+    t = line['text']
+    if not t or len(t) < 2:
+        return True
+    if t in ('Subject content', 'What learners need to study', 'Students should:',
+             'Students will be assessed on their ability to:',
+             'Students should be taught to:'):
+        return True
+    return False
+
+def parse_code_column(doc, kill):
+    """Left-column code (N.M / N.M.B) statements: IGCSE/IAL sciences, IAL maths."""
+    statements, topics, subsecs = [], [], []
+    cur_topic, cur_subsec = None, None
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        for L in visual_lines(spans):
+            t = L['text']
+            m_topic = TOPIC_HDR.match(t)
+            m_sub = SUBSEC.match(t)
+            m_sec = SEC_NUM.match(t)
+            m_code = CODE_START.match(t)
+            if m_topic:
+                cur_topic = {'number': m_topic.group(2), 'title': (m_topic.group(3) or '').strip(),
+                             'page': pno + 1, 'source_page_oy': round(L['oy'])}
+                topics.append(cur_topic)
+                cur_subsec = None
+                continue
+            if m_sub and L['bold']:
+                cur_subsec = {'letter': m_sub.group(1), 'title': m_sub.group(2).strip(),
+                              'page': pno + 1, 'source_page_oy': round(L['oy'])}
+                subsecs.append(cur_subsec)
+                continue
+            if m_sec and L['bold'] and not m_code:
+                cur_topic = {'number': m_sec.group(1), 'title': m_sec.group(2).strip(),
+                             'page': pno + 1, 'source_page_oy': round(L['oy'])}
+                topics.append(cur_topic)
+                continue
+            if not m_code:
+                continue
+            code, suffix, rest = m_code.group(1), m_code.group(2) or '', m_code.group(3)
+            # absorb continuation lines
+            parts = [rest] if rest else []
+            if not rest:
+                # statement text lives in same y-band to the right (separate line
+                # entry would have merged by oy; a standalone code line means the
+                # text follows on subsequent lines)
+                pass
+            statements.append({
+                'official_code': code + suffix, 'code_num': code, 'suffix': suffix,
+                'text': '', 'page': pno + 1, 'oy': round(L['oy'], 1),
+                'topic': dict(cur_topic) if cur_topic else None,
+                'subsection': dict(cur_subsec) if cur_subsec else None,
+                'sub_items': [], '_parts': parts,
+            })
+        # attach same-band right-side text for standalone codes: handled below
+    return merge_continuations(statements, doc, kill)
+
+def parse_code_column_bands(doc, kill):
+    """v3 of code_column: row-band assembly per page, scope-aware.
+    Scope = unit code (IAL maths 'M1') or science part (SDA 'Biology')."""
+    statements, topics, subsecs = [], [], []
+    cur_topic = cur_subsec = None
+    scope = None
+    cur = None          # open row carries across page boundaries
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        lines = visual_lines(spans, tol=7.0)   # science: catch sub/sup satellites
+        rows = []
+        for L in lines:
+            t = L['text']
+            m_topic = TOPIC_HDR.match(t)
+            m_sub = SUBSEC.match(t)
+            m_sec = SEC_NUM.match(t)
+            m_unit = UNIT_HDR.match(t)
+            m_sci = (L['bold'] and max(L['sizes']) >= 13 and SCI_HDR.match(t))
+            if m_unit:
+                scope = m_unit.group(1)
+            if m_sci:
+                scope = m_sci.group(1)
+                cur_topic = {'number': scope, 'title': scope,
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                topics.append(cur_topic)
+                cur_subsec = None
+                cur = None
+                continue
+            m_bigsec = None
+            if L['bold'] and max(L['sizes']) >= 13:
+                cand = re.match(r'^(\d{1,2})\s+([A-Z].+)$', t)
+                if cand and not re.search(r'\s\d{1,3}$', t):
+                    m_bigsec = cand
+            m_code = CODE_START.match(t)
+            if m_topic or m_bigsec or (m_sec and L['bold'] and not m_code):
+                if m_topic:
+                    cur_topic = {'number': m_topic.group(2),
+                                 'title': (m_topic.group(3) or '').strip()}
+                elif m_bigsec:
+                    cur_topic = {'number': m_bigsec.group(1), 'title': m_bigsec.group(2).strip()}
+                else:
+                    cur_topic = {'number': m_sec.group(1), 'title': m_sec.group(2).strip()}
+                cur_topic.update({'page': pno + 1, 'oy': round(L['oy'])})
+                topics.append(cur_topic)
+                cur_subsec = None
+                cur = None
+                continue
+            if m_sub and L['bold']:
+                cur_subsec = {'letter': m_sub.group(1), 'title': m_sub.group(2).strip(),
+                              'page': pno + 1, 'oy': round(L['oy'])}
+                subsecs.append(cur_subsec)
+                cur = None
+                continue
+            if m_code:
+                code, suffix, rest = m_code.groups()
+                cur = {'code': code, 'suffix': suffix or '', 'page': pno + 1,
+                       'oy': round(L['oy'], 1), 'parts': [rest] if rest else [],
+                       'bullets': [], 'pending_bullet': None, 'scope': scope,
+                       '_tail': 'parts'}
+                rows.append(cur)
+                continue
+            if cur is None:
+                continue
+            first = L['spans'][0]
+            is_bullet = t.startswith('\u2022')
+            if ROMAN.match(t) or is_bullet or (first['x0'] >= 92 and not CODE_START.match(t)):
+                content = t.lstrip('\u2022').strip()
+                if is_bullet and not content:
+                    cur['pending_bullet'] = True
+                    cur['_tail'] = 'pending'
+                elif cur.get('pending_bullet'):
+                    cur['bullets'].append(content)
+                    cur['pending_bullet'] = None
+                    cur['_tail'] = ('b', len(cur['bullets']) - 1)
+                elif ROMAN.match(t):
+                    cur['bullets'].append(t)
+                    cur['_tail'] = ('b', len(cur['bullets']) - 1)
+                elif is_bullet:
+                    cur['bullets'].append(content)
+                    cur['_tail'] = ('b', len(cur['bullets']) - 1)
+                else:
+                    tail = cur.get('_tail')
+                    if tail and tail != 'pending' and tail[0] == 'b':
+                        cur['bullets'][tail[1]] += ' ' + t
+                    else:
+                        cur['parts'].append(t)
+        for r in rows:
+            oc = r['code'] + r['suffix']
+            statements.append({
+                'official_code': oc, 'scope': r['scope'],
+                'suffix': r['suffix'], 'text': ' '.join(r['parts']),
+                'page': r['page'], 'oy': r['oy'],
+                'topic': dict(cur_topic) if cur_topic else None,
+                'subsection': dict(cur_subsec) if cur_subsec else None,
+                'sub_items': r['bullets'],
+            })
+    return dedupe_codes(statements), topics, subsecs
+
+
+def parse_bare_int(doc, kill):
+    """IAL physics: statements numbered by bare sequential integers (1..N)
+    at the left margin, inside 'Candidates will be assessed' sections."""
+    statements, topics, subsecs = [], [], []
+    cur_topic = cur_subsec = None
+    in_assessed = False
+    cur = None          # carries across pages
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        for L in visual_lines(spans, tol=7.0):
+            t = L['text']
+            if re.match(r'^(Candidates|Students) will be assessed on their ability', t):
+                in_assessed = True
+                cur = None
+                continue
+            m_code = re.match(r'^(\d{1,2}\.\d{1,2})\s+([A-Z].+)$', t)
+            first = L['spans'][0]
+            m_int_m = re.fullmatch(r'(\d{1,3})', first['text'].strip())
+            m_int = bool(m_int_m and 'Bold' in first['font'] and first['x0'] < 75)
+            if m_code and L['bold']:
+                cur_topic = {'number': m_code.group(1), 'title': m_code.group(2).strip(),
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                topics.append(cur_topic)
+                in_assessed = False
+                cur = None
+                continue
+            if m_int and in_assessed:
+                rest = L['text'][len(first['text']):].strip()
+                cur = {'official_code': m_int_m.group(1), 'page': pno + 1,
+                       'oy': round(L['oy'], 1), 'parts': [rest] if rest else [],
+                       'bullets': [], 'pending_bullet': None, '_tail': 'parts'}
+                statements.append(cur)
+                continue
+            if cur is None:
+                continue
+            first = L['spans'][0]
+            is_bullet = t.startswith('\u2022')
+            if ROMAN.match(t) or is_bullet or (first['x0'] >= 92 and not re.match(r'^\d', t)):
+                content = t.lstrip('\u2022').strip()
+                if is_bullet and not content:
+                    cur['pending_bullet'] = True
+                    cur['_tail'] = 'pending'
+                elif cur.get('pending_bullet'):
+                    cur['bullets'].append(content)
+                    cur['pending_bullet'] = None
+                    cur['_tail'] = ('b', len(cur['bullets']) - 1)
+                elif ROMAN.match(t):
+                    cur['bullets'].append(t)
+                    cur['_tail'] = ('b', len(cur['bullets']) - 1)
+                elif is_bullet:
+                    cur['bullets'].append(content)
+                    cur['_tail'] = ('b', len(cur['bullets']) - 1)
+                else:
+                    tail = cur.get('_tail')
+                    if tail and tail != 'pending' and tail[0] == 'b':
+                        cur['bullets'][tail[1]] += ' ' + t
+                    else:
+                        cur['parts'].append(t)
+    out = []
+    for s in statements:
+        out.append({
+            'official_code': s['official_code'], 'scope': None, 'suffix': '',
+            'text': ' '.join(s['parts']), 'page': s['page'], 'oy': s['oy'],
+            'topic': dict(cur_topic) if cur_topic else None,
+            'subsection': dict(cur_subsec) if cur_subsec else None,
+            'sub_items': s['bullets'],
+        })
+    return out, topics, subsecs
+
+
+def parse_lettered_table(doc, kill):
+    """Economics: N.M.K topic rows + lettered statements (a) b) ...) with
+    bullets, in a three-column table layout."""
+    statements, topics, subsecs = [], [], []
+    cur_topic = cur_subtopic = None
+    cur = None
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        for L in visual_lines(spans):
+            t = L['text']
+            first = L['spans'][0]
+            m_t3 = TRIPLET_START.match(t) or TRIPLET_ALONE.match(t)
+            m_let = re.match(r'^([a-z])\)\s*(.*)$', t)
+            if m_t3 and first['x0'] < 90:
+                cur_subtopic = {'code': m_t3.group(1),
+                                'title': (m_t3.group(2) if m_t3.lastindex > 1 else '') or '',
+                                'page': pno + 1, 'oy': round(L['oy'])}
+                subsecs.append(cur_subtopic)
+                cur = None
+                continue
+            m_t2 = re.match(r'^(\d{1,2}\.\d{1,2})$', t)
+            if m_t2 and first['x0'] < 90:
+                cur_topic = {'number': m_t2.group(1), 'title': '',
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                topics.append(cur_topic)
+                cur = None
+                continue
+            if m_let and first['x0'] > 180:
+                cur = {'official_code': f"{cur_subtopic['code']}{m_let.group(1)}" if cur_subtopic else m_let.group(1),
+                       'page': pno + 1, 'oy': round(L['oy'], 1),
+                       'parts': [m_let.group(2)] if m_let.group(2) else [],
+                       'bullets': [], 'pending_bullet': None}
+                statements.append(cur)
+                continue
+            if cur is None:
+                if cur_subtopic is not None and first['x0'] > 250:
+                    cur_subtopic['title'] = (cur_subtopic['title'] + ' ' + t).strip()
+                continue
+            is_bullet = t.startswith('\u2022')
+            if is_bullet or first['x0'] > 245:
+                content = t.lstrip('\u2022').strip()
+                if is_bullet and not content:
+                    cur['pending_bullet'] = True
+                elif cur.get('pending_bullet'):
+                    cur['bullets'].append(content)
+                    cur['pending_bullet'] = None
+                elif is_bullet:
+                    cur['bullets'].append(content)
+                else:
+                    cur['parts'].append(t)
+    out = []
+    for s in statements:
+        out.append({
+            'official_code': s['official_code'], 'scope': None, 'suffix': '',
+            'text': ' '.join(s['parts']), 'page': s['page'], 'oy': s['oy'],
+            'topic': dict(cur_topic) if cur_topic else None,
+            'subsection': dict(cur_subtopic) if cur_subtopic else None,
+            'sub_items': s['bullets'],
+        })
+    return dedupe_codes(out), topics, subsecs
+
+def dedupe_codes(statements):
+    """Dedupe by (scope, code): same numeric code repeats across units/sciences."""
+    seen, out = {}, []
+    for st in statements:
+        k = (st.get('scope'), st['official_code'])
+        if k in seen:
+            old = seen[k]
+            if len(st['text']) > len(old['text']):
+                out[out.index(old)] = st
+                seen[k] = st
+            continue
+        seen[k] = st
+        out.append(st)
+    return out
+
+def merge_continuations(statements, doc, kill):
+    """Join wrapped continuation text across rows for standalone codes (v1)."""
+    return statements
+
+def parse_triplet_table(doc, kill):
+    """Business/ICT: three-column table. Span-band walk: N.M (bold, left) =
+    topic row; N.M.K (x>200) = statement start; bullets attach."""
+    statements, topics, subsecs = [], [], []
+    cur_topic = cur_subsec = None
+    cur = None
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        bands = {}
+        for s in spans:
+            for oy in bands:
+                if abs(oy - s['oy']) < 4:
+                    bands[oy].append(s)
+                    break
+            else:
+                bands[s['oy']] = [s]
+        for oy in sorted(bands):
+            ss = sorted(bands[oy], key=lambda s: s['x0'])
+            s0 = ss[0]
+            t0 = s0['text'].strip()
+            m_topic = re.fullmatch(r'(\d{1,2}\.\d{1,2})', t0)
+            m_stmt = re.fullmatch(r'(\d{1,2}\.\d{1,2}\.\d{1,2})', t0)
+            if m_topic and s0['x0'] < 90:
+                stmt_span = next((s for s in ss
+                                  if re.fullmatch(r'\d{1,2}\.\d{1,2}\.\d{1,2}', s['text'].strip())
+                                  and s['x0'] > 150), None)
+                title = ' '.join(s['text'].strip() for s in ss[1:]
+                                 if s is not stmt_span and s['x0'] < 215
+                                 and not re.fullmatch(r'\d{1,2}\.\d{1,2}\.\d{1,2}', s['text'].strip())
+                                 and not re.fullmatch(r'\d{1,3}', s['text'].strip()))
+                cur_topic = {'number': m_topic.group(1), 'title': title.strip(),
+                             'page': pno + 1, 'oy': round(oy)}
+                if cur_topic['title']:
+                    topics.append(cur_topic)
+                if stmt_span is not None:
+                    rest = ' '.join(s['text'].strip() for s in ss
+                                    if s['x0'] > stmt_span['x1'] - 2).strip()
+                    cur = {'official_code': stmt_span['text'].strip(),
+                           'page': pno + 1, 'oy': round(oy, 1),
+                           'parts': [rest] if rest else [],
+                           'bullets': [], 'pending_bullet': None}
+                    statements.append(cur)
+                    cur['_last_x'] = stmt_span['x1']
+                else:
+                    cur = None
+                continue
+            if m_stmt and s0['x0'] > 150:
+                rest = ' '.join(s['text'].strip() for s in ss[1:]
+                                if s['x0'] > s0['x1'] - 2).strip()
+                cur = {'official_code': m_stmt.group(1), 'page': pno + 1,
+                       'oy': round(oy, 1), 'parts': [rest] if rest else [],
+                       'bullets': [], 'pending_bullet': None}
+                statements.append(cur)
+                cur['_last_x'] = s0['x1']
+                continue
+            if cur is None:
+                # title continuation for topic rows (wrapped titles at x 90-215)
+                if cur_topic is not None and not cur_topic['title'] and s0['x0'] > 90:
+                    pass
+                continue
+            # continuation content for current statement
+            line_txt = ' '.join(s['text'].strip() for s in ss if s['x0'] > cur.get('_last_x', 210) - 2)
+            line_txt = line_txt.strip()
+            if not line_txt:
+                continue
+            is_bullet = line_txt.startswith('\u2022')
+            content = line_txt.lstrip('\u2022').strip()
+            if is_bullet and not content:
+                cur['pending_bullet'] = True
+            elif cur.get('pending_bullet'):
+                cur['bullets'].append(content)
+                cur['pending_bullet'] = None
+            elif is_bullet:
+                cur['bullets'].append(content)
+            else:
+                cur['parts'].append(line_txt)
+    out = []
+    for s in statements:
+        out.append({
+            'official_code': s['official_code'], 'scope': None, 'suffix': '',
+            'text': ' '.join(s['parts']), 'page': s['page'],
+            'oy': s['oy'], 'topic': dict(cur_topic) if cur_topic else None,
+            'subsection': dict(cur_subsec) if cur_subsec else None,
+            'sub_items': s['bullets'],
+        })
+    return dedupe_codes(out), topics, subsecs
+
+def parse_heading_bullets(doc, kill):
+    """Bold headings (N.M or N. Title) + bullet statements underneath.
+    IDs synthesized: <qual>-S<sec>.<idx> in document order."""
+    items, topics, subsecs = [], [], []
+    cur_topic = cur_subsec = None
+    stmt_idx = 0
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        cur = None
+        for L in visual_lines(spans):
+            t = L['text']
+            m_topic = TOPIC_HDR.match(t)
+            m_sec = SEC_NUM.match(t)
+            m_pair = CODE_START.match(t)
+            if m_topic:
+                cur_topic = {'number': m_topic.group(2), 'title': (m_topic.group(3) or '').strip(),
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                topics.append(cur_topic)
+                cur_subsec = None
+                cur = None
+                continue
+            if m_sec and L['bold']:
+                cur_topic = {'number': m_sec.group(1), 'title': m_sec.group(2).strip(),
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                topics.append(cur_topic)
+                cur_subsec = None
+                cur = None
+                continue
+            if m_pair and L['bold']:
+                cur_subsec = {'code': m_pair.group(1), 'title': (m_pair.group(3) or t).strip(),
+                              'page': pno + 1, 'oy': round(L['oy'])}
+                subsecs.append(cur_subsec)
+                cur = None
+                continue
+            if t.startswith('\u2022'):
+                stmt_idx += 1
+                code = f"S{cur_topic['number']}.{stmt_idx:03d}" if cur_topic else f"SX.{stmt_idx:03d}"
+                item = {'official_code': None, 'synth_id': code,
+                        'text': t.lstrip('\u2022 ').strip(), 'page': pno + 1,
+                        'oy': round(L['oy'], 1),
+                        'topic': dict(cur_topic) if cur_topic else None,
+                        'subsection': dict(cur_subsec) if cur_subsec else None,
+                        'sub_items': []}
+                items.append(item)
+                cur = item
+                continue
+            if cur is not None:
+                # continuation of wrapped bullet text (indented, no bullet)
+                if L['x0'] > 100 and not CODE_START.match(t):
+                    cur['text'] += ' ' + t
+    return items, topics, subsecs
+
+# ------------------------------------------------------------------ main -----
+
+def sha1_of(path):
+    h = hashlib.sha1()
+    with open(path, 'rb') as f:
+        for chunk in iter(lambda: f.read(1 << 16), b''):
+            h.update(chunk)
+    return h.hexdigest()
+
+def notation_flags(text):
+    flags = []
+    if re.search(r'[a-z]{1,4}-(?:\d{1,2})\b', text):   # dm-3, s-1 style superscript loss
+        flags.append('possible-superscript-loss')
+    if re.search(r'\b\d{1,2}\.\d{1,2}\.\d{1,2}\.\d{1,2}\b', text):
+        flags.append('deep-numbering-in-text')
+    return flags
+
+def parse_pdf(pdf_path, qual_slug):
+    doc = pymupdf.open(pdf_path)
+    kill = strip_running_text(doc)
+    fam = FAMILY.get(qual_slug, 'code_column')
+    if fam == 'triplet_table':
+        statements, topics, subsecs = parse_triplet_table(doc, kill)
+    elif fam == 'lettered_table':
+        statements, topics, subsecs = parse_lettered_table(doc, kill)
+    elif fam == 'bare_int':
+        statements, topics, subsecs = parse_bare_int(doc, kill)
+    elif fam == 'heading_bullets':
+        statements, topics, subsecs = parse_heading_bullets(doc, kill)
+    else:
+        statements, topics, subsecs = parse_code_column_bands(doc, kill)
+    # finalize
+    for st in statements:
+        st['practical'] = bool(PRACTICAL_RE.search(st['text']))
+        st['flags'] = notation_flags(st['text'])
+        st.pop('code_num', None)
+        if 'synth_id' in st:
+            st['id'] = f"{qual_slug.replace('-', '_').upper()}:{st.pop('synth_id')}"
+        elif st.get('scope'):
+            st['id'] = f"{qual_slug.replace('-', '_').upper()}:{st['scope']}-{st['official_code']}"
+        else:
+            st['id'] = f"{qual_slug.replace('-', '_').upper()}:{st['official_code']}"
+        if '_parts' in st:
+            st['text'] = ' '.join(st['_parts']) or st['text']
+            st.pop('_parts', None)
+        if '_roman' in st:
+            st.pop('_roman', None)
+    result = {
+        'schema': 'syllabai.parsed-specification/1.0',
+        'id': qual_slug,
+        'family': fam,
+        'source': {
+            'pdf': os.path.basename(pdf_path),
+            'pdf_sha1': sha1_of(pdf_path),
+            'pages': doc.page_count,
+            'parser': PARSER_VERSION,
+            'parsed_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
+        },
+        'topics': topics,
+        'subsections': subsecs,
+        'spec_points': statements,
+        'counts': {
+            'spec_points': len(statements),
+            'practicals': sum(1 for s in statements if s['practical']),
+            'topics': len(topics),
+            'subsections': len(subsecs),
+            'flagged': sum(1 for s in statements if s['flags']),
+        },
+    }
+    doc.close()
+    return result
+
+def main():
+    only = sys.argv[1:] if len(sys.argv) > 1 else sorted(FAMILY)
+    summary = []
+    for slug in only:
+        fam = FAMILY.get(slug)
+        if not fam:
+            continue
+        pdfs = sorted(glob.glob(f'{BASE}/{slug}/*.pdf'))
+        os.makedirs(f'{OUT_BASE}/{slug}', exist_ok=True)
+        for pdf in pdfs:
+            try:
+                res = parse_pdf(pdf, slug)
+                stem = os.path.splitext(os.path.basename(pdf))[0][:48]
+                outp = f'{OUT_BASE}/{slug}/{stem}.parsed.json'
+                with open(outp, 'w') as f:
+                    json.dump(res, f, indent=1, ensure_ascii=False)
+                summary.append((slug, stem[:30], res['counts']))
+                print(f"OK {slug}/{stem[:34]}: {res['counts']}")
+            except Exception as e:
+                print(f"FAIL {slug}: {type(e).__name__}: {e}")
+    with open(f'{OUT_BASE}/_summary.json', 'w') as f:
+        json.dump([{'qual': a, 'pdf': b, 'counts': c} for a, b, c in summary], f, indent=1)
+
+if __name__ == '__main__':
+    main()
