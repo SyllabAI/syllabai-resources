@@ -1,0 +1,128 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_59FDyPXGFVQz5h5c",
+ "course_slug": "ial-maths-20-pure-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/revision-notes/integration/integration/trapezium-rule-numerical-integration",
+ "title": "Trapezium Rule (Numerical Integration)",
+ "page_title": "Trapezium Rule (Numerical Integration) | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "integration",
+   "integration",
+   "trapezium-rule-numerical-integration"
+  ],
+  "section": "integration",
+  "topic": "integration",
+  "leaf": "trapezium-rule-numerical-integration"
+ },
+ "titles": {
+  "section": "Integration",
+  "topic": "Integration",
+  "subtopic": "Trapezium Rule (Numerical Integration)"
+ },
+ "updated_at": "2026-07-02T08:19:38.549Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_RVNjC2y684mYfGyD"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "h=\\frac{b-a}{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>b</mi><mo>-</mo><mi>a</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "h equals fraction numerator b minus a over denominator n end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 1
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_RVNjC2y684mYfGyD",
+   "name": "Trapezium Rule (Numerical Integration)",
+   "definition": "",
+   "video_id": "853593961"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Trapezium rule (numerical integration)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the trapezium rule?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **trapezium rule** is a numerical method of integration used to find the **approximate area** under a curve\n- It can be used when **analytical methods** of **integration** won’t work\n- It finds an **approximation** of the area by finding the **sum of the areas** of trapeziums beneath the curve\n- The **formula **for an **estimate** of the area when splitting it into *n *strips (trapezium) is"
+  },
+  {
+   "type": "paragraph",
+   "md": "`integral subscript a superscript b y d x almost equal to 1 half h left curly bracket left parenthesis y subscript 0 plus y subscript n right parenthesis plus 2 left parenthesis y subscript 1 plus y subscript 2 plus... plus y subscript n minus 1 end subscript right parenthesis right curly bracket` where $h=\\frac{b-a}{n}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- If you have ***n *****strips** then you need ***n *****+ 1 *****y*****-values**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/10.1.5-Numerical-Integration-Diagram-1.png",
+   "file": "assets/d81c3d58001b-10-1-5-numerical-integration-diagram-1.png",
+   "alt": "Numerical Integration Diagram 1, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I know if it is an underestimate or an overestimate?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Depending on the shape of the curve, the trapezium rule could be an **underestimate** or **overestimate**\n- The **more trapezium strips** used the **more accurate** the estimate\n- Calculating the **percentage error** can tell you how **accurate** your estimate is"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/10.1.5-Numerical-Integration-Diagram-2a.png",
+   "file": "assets/549de3adc4ee-10-1-5-numerical-integration-diagram-2a.png",
+   "alt": "Numerical Integration Diagram 2a, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "The formula for the trapezium rule is given in the formula booklet."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Numerical Integration Example Solution, AS & A Level Maths revision notes](assets/885aa6ff18e3-10-1-5-numerical-integration-example-solution.png)"
+  }
+ ]
+}

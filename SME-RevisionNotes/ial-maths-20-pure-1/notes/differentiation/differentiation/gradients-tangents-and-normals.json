@@ -1,0 +1,152 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_FmRvSxBs3DWbYch3",
+ "course_slug": "ial-maths-20-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-1/revision-notes/differentiation/differentiation/gradients-tangents-and-normals",
+ "title": "Gradients, Tangents & Normals",
+ "page_title": "Gradients, Tangents & Normals | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "differentiation",
+   "differentiation",
+   "gradients-tangents-and-normals"
+  ],
+  "section": "differentiation",
+  "topic": "differentiation",
+  "leaf": "gradients-tangents-and-normals"
+ },
+ "titles": {
+  "section": "Differentiation",
+  "topic": "Differentiation",
+  "subtopic": "Gradients, Tangents & Normals"
+ },
+ "updated_at": "2026-07-02T08:19:38.413Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_7FchdFvYpvB56qf8",
+   "rnl_H9dNV34FQsJTnTTc"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_PDtz9wfdB46zhbhz"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "y-f(a)=f^{'}(a)(x-a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>-</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y minus straight f left parenthesis a right parenthesis space equals space straight f to the power of apostrophe left parenthesis a right parenthesis left parenthesis x minus a right parenthesis"
+  },
+  {
+   "latex": "y-f(a)=-\\frac{1}{f^{'}(a)}(x-a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>-</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mfrac><mn>1</mn><mrow><msup><mi mathvariant=\"normal\">f</mi><mo>'</mo></msup><mo>(</mo><mi>a</mi><mo>)</mo></mrow></mfrac><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y minus straight f left parenthesis a right parenthesis space equals space minus fraction numerator 1 over denominator straight f to the power of apostrophe left parenthesis a right parenthesis end fraction left parenthesis x minus a right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 15,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_PDtz9wfdB46zhbhz",
+   "name": "Gradients, Tangents & Normals",
+   "definition": null,
+   "video_id": "819071884"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Gradients, tangents & normals"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the gradient at a point on a curve?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find the gradient of a curve ***y*****= f(*****x*****)** at any point on the curve, substitute the ***x*****‑coordinate** of the point into the derivative **f'(*****x*****)**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.1-Grad-Tang-Norm-Illustr-1.png",
+   "file": "assets/14d5046df61d-7-2-1-grad-tang-norm-illustr-1.png",
+   "alt": "Grad Tang Norm Illustr 1, A Level & AS Maths: Pure revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the equation of a tangent to a curve?"
+  },
+  {
+   "type": "bullets",
+   "md": "- At any point on a curve, the **tangent** is the line that goes through the point and has the same gradient as the curve at that point"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.1-Grad-Tang-Norm-Illustr-2.png",
+   "file": "assets/e709449608bc-7-2-1-grad-tang-norm-illustr-2.png",
+   "alt": "Grad Tang Norm Illustr 2, A Level & AS Maths: Pure revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- For the curve y = f(x), you can find the equation of the **tangent** at the point (a, f(a)) using $y-f(a)=f^{'}(a)(x-a)$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the equation of a normal to a curve?"
+  },
+  {
+   "type": "bullets",
+   "md": "- At any point on a curve, the **normal** is the line that goes through the point and is **perpendicular** to the tangent at that point"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/7.2.1-Grad-Tang-Norm-Illustr-3.png",
+   "file": "assets/b9f8a429b5c9-7-2-1-grad-tang-norm-illustr-3.png",
+   "alt": "Grad Tang Norm Illustr 3, A Level & AS Maths: Pure revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- For the curve y = f(x), you can find the equation of the **normal **at the point (a, f(a)) using $y-f(a)=-\\frac{1}{f^{'}(a)}(x-a)$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The formulae above are not in the exam formulae booklet, but if you understand what tangents and normals are, then the formulae follow from the equation of a straight line combined with parallel and perpendicular gradients (see Worked Example below)."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Grad Tang Norm Example, A Level & AS Maths: Pure revision notes](assets/727ede0d4986-7-2-1-grad-tang-norm-example.png)"
+  }
+ ]
+}

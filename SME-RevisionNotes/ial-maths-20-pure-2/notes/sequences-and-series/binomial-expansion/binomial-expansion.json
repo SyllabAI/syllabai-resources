@@ -1,0 +1,186 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_52pWV7GC53qNR7mC",
+ "course_slug": "ial-maths-20-pure-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/revision-notes/sequences-and-series/binomial-expansion/binomial-expansion",
+ "title": "Binomial Expansion",
+ "page_title": "Binomial Expansion | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "sequences-and-series",
+   "binomial-expansion",
+   "binomial-expansion"
+  ],
+  "section": "sequences-and-series",
+  "topic": "binomial-expansion",
+  "leaf": "binomial-expansion"
+ },
+ "titles": {
+  "section": "Sequences & Series",
+  "topic": "Binomial Expansion",
+  "subtopic": "Binomial Expansion"
+ },
+ "updated_at": "2026-07-02T08:19:38.209Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_T2xzhsqjPs5T6YGV",
+   "rnl_GFVgDPBbJhqKJ8vP",
+   "rnl_rk4CyybWHzdcTyCb"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_GKtcZwdYPVpT9kGZ"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 23,
+  "figures": 7,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_GKtcZwdYPVpT9kGZ",
+   "name": "Binomial Expansion",
+   "definition": null,
+   "video_id": "821933227"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binomial expansion"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the binomial expansion?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-1.png",
+   "file": "assets/498f786e0499-4-1-1-binomial-expansion-notes-diagram-1.png",
+   "alt": "Binomial Expansion Notes Diagram 1, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Look at the pattern\n\n  - Start at <sup>**n**</sup>**C**<sub>**0**</sub>, then <sup>**n**</sup>**C**<sub>**1**</sub>, <sup>**n**</sup>**C**<sub>**2**</sub>, etc\n  - Powers of **a** start at **n** and decrease by 1\n  - Powers of **b** start at 0 and increase by 1\n- There are shortcuts but these hide the pattern\n\n  - <sup>**n**</sup>**C**<sub>**0**</sub>** = **<sup>**n**</sup>**C**<sub>**n**</sub>** = 1**\n  - <sup>**n**</sup>**C**<sub>**1**</sub>** = **<sup>**n**</sup>**C**<sub>**n-1 **</sub>**= n**\n  - <sup>**n**</sup>**Cr = **<sup>**n**</sup>**C**<sub>**n-r**</sub>\n  - **(b)**<sup>**0**</sup>** = (a)**<sup>**0**</sup>** = 1**\n- Use the shortcuts once familiar with the pattern\n- ! means *factorial*"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-2.png",
+   "file": "assets/1f55ea1c806d-4-1-1-binomial-expansion-notes-diagram-2.png",
+   "alt": "Binomial Expansion Notes Diagram 2, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- This is given in the formula booklet"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Pascal’s triangle?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-3.png",
+   "file": "assets/35348aeff32a-4-1-1-binomial-expansion-notes-diagram-3.png",
+   "alt": "Binomial Expansion Notes Diagram 3, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Pascal’s triangle is an alternative to <sup>**n**</sup>**C**<sub>**r**</sub>\n- It is useful for lower values of **n**\n- For larger **n** it is slow and prone to arithmetic errors"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I expand brackets with the binomial expansion?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-4.png",
+   "file": "assets/86d5d5cbdac6-4-1-1-binomial-expansion-notes-diagram-4.png",
+   "alt": "Binomial Expansion Notes Diagram 4, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Use a line for each term to make things easier to read and follow\n- Use brackets, particularly helpful when negatives involved\n- Use a calculator for <sup>**n**</sup>**C**<sub>**r**</sub>"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-5.png",
+   "file": "assets/c043be587f67-4-1-1-binomial-expansion-notes-diagram-5.png",
+   "alt": "Binomial Expansion Notes Diagram 5, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Binomial Expansion Example Diagram, A Level & AS Level Pure Maths Revision Notes](assets/22e03b191237-4-1-1-binomial-expansion-example-diagram.png)"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Applications of binomial expansion"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are binomial expansions used for?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Expanding brackets, it is usual to be asked for either … ** ** ![Binomial Expansion Notes Diagram 6, A Level & AS Level Pure Maths Revision Notes](assets/bd9d9b335124-4-1-1-binomial-expansion-notes-diagram-6.png)\n\n  - … the first few terms only"
+  },
+  {
+   "type": "bullets",
+   "md": "- or (the coefficient of) a particular term"
+  },
+  {
+   "type": "paragraph",
+   "md": "** **"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-7.png",
+   "file": "assets/7a9cc7086d6c-4-1-1-binomial-expansion-notes-diagram-7.png",
+   "alt": "Binomial Expansion Notes Diagram 7, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- **Solving** **problems** in unknowns"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.1.1-Binomial-Expansion-Notes-Diagram-8.png",
+   "file": "assets/fb3551b19d99-4-1-1-binomial-expansion-notes-diagram-8.png",
+   "alt": "Binomial Expansion Notes Diagram 8, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  }
+ ]
+}

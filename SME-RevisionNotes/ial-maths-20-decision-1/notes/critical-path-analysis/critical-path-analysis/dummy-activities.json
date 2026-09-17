@@ -1,0 +1,117 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RkVnn5pBGS8VBmdz",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/critical-path-analysis/critical-path-analysis/dummy-activities",
+ "title": "Dummy Activities",
+ "page_title": "Dummy Activities | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "critical-path-analysis",
+   "critical-path-analysis",
+   "dummy-activities"
+  ],
+  "section": "critical-path-analysis",
+  "topic": "critical-path-analysis",
+  "leaf": "dummy-activities"
+ },
+ "titles": {
+  "section": "Critical Path Analysis",
+  "topic": "Critical Path Analysis",
+  "subtopic": "Dummy Activities"
+ },
+ "updated_at": "2026-07-02T08:19:38.467Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_JcFRspDf7gjktJNn"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 11,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_JcFRspDf7gjktJNn",
+   "name": "Dummies",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Dummies"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a dummy activity?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **dummy activity** is an activity that has a **weight** of **zero**\n\n  - **Dummies** are **not** assigned names (letters)\n  - **Dummies** are represented by **dotted lines**\n- Dummies are only used to show **precedences** in more complicated activity networks"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "When and where are dummies used in an activity network?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Two** situations can lead to the need for a **dummy activity**\n- The **first** situation is to ensure each activity (arc) has a **unique pair** of **start** and **end nodes**\n\n  - E.g.  In the activity network below, activity D has **immediate predecessors** B and C\n  \n    - B and C cannot **both** start at event (node) 1 and end at event (node) 2 (this would not be a unique pair)\n    - a dummy activity is used so that B has start/end pair (1, 3) and C has start/end pair (1, 2)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/dummy-sit-1.png",
+   "file": "assets/3024f68e00e5-dummy-sit-1.png",
+   "alt": "Dummy activity is needed so that each activity has a unique start and end",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Note that the dummy could also go from event 2 to event 3 with activity D commencing from event 3\n- The **second** situation that requires a dummy is when there is a split of **immediate predecessors**\n\n  - E.g.  In the activity network below, activity D has immediate predecessors B and C\n  \n    - Activity E only has B as an immediate predecessor\n    - A dummy activity is used to show that D depends on both B and C"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/dummy-sit-2.png",
+   "file": "assets/b77a4ea898d8-dummy-sit-2.png",
+   "alt": "Dummy activity is needed so that activities can share an immediate predecessor when one has extra immediate predecessors",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Exam questions will not always require you to draw the whole activity network\n\n  - A diagram of part of the network may be given\n- Exam questions are often specific about the number of dummies you should use\n\n  - If you think you need more, go back to see if you can make improvements\n  - It is generally expected that an activity network is as concise/efficient as possible with the minimum use of dummies"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The activities involved in a project are listed in the precedence table below.\n\n| **Activity** | **Immediately preceding activities** | **Duration (days)** |\n|---|---|---|\n| A | - | 5 |\n| B | - | 4 |\n| C | A | 7 |\n| D | B | 3 |\n| E | A, D | 7 |\n| F | B | 6 |\n| G | C | 6 |\n| H | C | 4 |\n| I | G, H | 5 |\n| J | E, F | 4 |\n\nThe project is also represented on the partially completed activity network below.\n\n![dummies-we-qu](assets/c6d686dc2b90-dummies-we-qu.png)\n\nUsing exactly two dummy activities, complete the activity network by adding activities D, E, G, H, I and J.\n\n**Answer:**\n\n> *Activity D is dependent on activity B so draw an arc from event/node 2 for D*\n\n> *Looking ahead, activity E is dependent on both A **and** D, whereas activity C is dependent on just A*\n*This is the second situation ('split predecessors') for the use of a dummy activity*\n\n> *Also from looking ahead activity J depends on both E and F - so the arcs for E and F will need to meet*\n\n![dummies-we-ans-1](assets/941c6287b94e-dummies-we-ans-1.png)\n\n> *Activities G and H are both dependent on C, and activity I is dependent on both G and H*\n*This could lead to G and H having the same start/end node pair*\n*This is the first situation ('unique start/end node pair') for the use of a dummy activity*\n\n> *No activities depend on I so its arc can be drawn to the end of the project (sink node)*\n\n![dummies-we-ans-2](assets/2c7eedde06bc-dummies-we-ans-2.png)\n\n> *The activity network can now be completed with activity J and the sink node*\n\n![dummies-we-final-ans](assets/1672b4bb7050-dummies-we-final-ans.png)"
+  }
+ ]
+}

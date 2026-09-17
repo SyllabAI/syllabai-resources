@@ -1,0 +1,177 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jFBRQSZD44DJSGg6",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/2-connectivity/requirements-for-connecting-to-a-network/identifying-devices",
+ "title": "Identifying Devices",
+ "page_title": "Ip Address ICT - IGCSE Revision Notes",
+ "path": {
+  "segs": [
+   "2-connectivity",
+   "requirements-for-connecting-to-a-network",
+   "identifying-devices"
+  ],
+  "section": "2-connectivity",
+  "topic": "requirements-for-connecting-to-a-network",
+  "leaf": "identifying-devices"
+ },
+ "titles": {
+  "section": "2. Connectivity",
+  "topic": "Requirements for Connecting to a Network",
+  "subtopic": "Identifying Devices"
+ },
+ "updated_at": "2024-06-05T08:29:15.012Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_fW54wQ3yjfQjHsgj",
+  "spcpt_B8WrjnygkcNHC7NV",
+  "spcpt_gfhYywxSGzQHXYkz"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 23,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_fW54wQ3yjfQjHsgj",
+   "name": "IP Addresses",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "IP Addresses"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an IP address?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An IP (Internet Protocol) address is a **unique identifier** given to devices which communicate over the Internet (**WAN**)\n- IP addresses can be allocated** by a network administrator** or assigned *dynamically* by a *Dynamic Host Configuration Protocol server* (**DHCP**)\n- IP addresses make it possible to **deliver data to the right device**\n- A device connecting to a network will be given an IP address, if it moves to a different network then the **IP address will change**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "IPv4"
+  },
+  {
+   "type": "bullets",
+   "md": "- Internet Protocol version 4 is represented as **4 blocks of denary numbers** between **0 **and **255**, separated by **full stops**\n- Each block is **one byte **(8 bits), each address is** 4 bytes** (32 bits)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/ipv4.png",
+   "file": "assets/c81a55b31bc4-ipv4.png",
+   "alt": "ipv4",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- IPv4 provides over** 4 billion unique addresses **(2<sup>32</sup>), however, with over **7 billion** people and **countless devices per person**, a solution was needed"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "IPv6"
+  },
+  {
+   "type": "bullets",
+   "md": "- Internet Protocol version 6 is represented as **8 blocks of 4 hexadecimal digits**, separated by **colons**\n- Each block is **2 bytes** (16 bits), each address is **16 bytes** (128 bits)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/-ipv6.png",
+   "file": "assets/4b6b55d41177-ipv6.png",
+   "alt": "-ipv6",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- IPv6 could provide over **one** **billion unique addresses** for **every person** on the planet (2<sup>128</sup>)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_B8WrjnygkcNHC7NV",
+   "name": "MAC Addresses",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "MAC Addresses"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a MAC address?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A MAC (Media Access Control) address is a **universally** **unique identifier** given to devices which communicate over a local area network (**LAN**)\n- MAC addresses are **static**, they can never change\n- MAC addresses make it possible for **switches **to efficiently **forward data** to the intended **recipient**\n- Any device that contains a Network Interface Card (**NIC**) has a MAC address **assigned during manufacturing**\n- A device connecting to a local network already has a MAC address, if it moves to a different network then the **MAC address will stay the same**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/mac-address-1.png",
+   "file": "assets/ab87ad8ffb5c-mac-address-1.png",
+   "alt": "mac-address-1",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- A MAC address is represented as **12 hexadecimal digits** (48 bits), usually **grouped in pairs**\n- The first three pairs are the **manufacturer ID number** (OUI) and the last three pairs are the **serial number **of the network interface card (**NIC**)\n- There are enough unique MAC addresses for roughly **281 trillion devices**\n- MAC addresses can be used to:\n\n  - **Restrict or allow access to a network**\n  - **Identify a device on a network**\n  - **Track a device**\n  - **Assign 'static' or 'fixed' IP addresses **"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_gfhYywxSGzQHXYkz",
+   "name": "Device name",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Device name"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a device name?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A device name is a way for users to **describe/name a device** so that it is **easier to identify on a network**\n- Device names are not used by devices to communicate as **they are not always unique**\n- Device names are** set by users** in the devices operating system or from a router"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Computers in a network can be identified using both IP addresses and MAC addresses.\n\nDescribe two differences between IP addresses and MAC addresses\n\n**[2]**\n\n**Answer**\n\n- IP address is dynamic/can change // MAC address is static/cannot change **[1]**\n- IP address is used to communicate on a WAN/Internet // MAC address is used to communicate on a LAN **[1]**"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_r2JDy9yvCxhQ7jYZ",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/the-route-inspection-algorithm/route-inspection-and-repeated-routes",
+ "title": "Route Inspection & Repeated Routes",
+ "page_title": "Route Inspection & Repeated Routes | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "the-route-inspection-algorithm",
+   "route-inspection-and-repeated-routes"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "the-route-inspection-algorithm",
+  "leaf": "route-inspection-and-repeated-routes"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "The Route Inspection Algorithm",
+  "subtopic": "Route Inspection & Repeated Routes"
+ },
+ "updated_at": "2026-07-02T08:19:38.660Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_37mJDmGbj5wYYzWF"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\underset{}{\\leftarrow}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><munder><mo>&#8592;</mo><mrow></mrow></munder><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "leftwards arrow for blank of"
+  }
+ ],
+ "stats": {
+  "blocks": 9,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 1
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_37mJDmGbj5wYYzWF",
+   "name": "Networks with more than 2 Odd Vertices",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Networks with more than 2 Odd Vertices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I solve the Chinese postman problem when a network has more than 2 odd nodes?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In any graph there will always be an **even number of odd vertices (nodes)**\n\n  - The **total sum of the degrees** of the nodes is **double** the **number of edges**\n- If there are **more than two** **odd vertices (nodes)**\n\n  - The **shortest path** between** each possible pairing** of the odd nodes must be considered\n  - The **shortest **of these pairings will be the **minimum weight** of the **paths** that need to be repeated\n- In cases of **four odd nodes,** there will be **three** pairings of odd nodes\n\n  - For example in a graph where the four odd nodes are P, Q, R and S the pairings would be\n  \n    - PQ and RS\n    - PR and QS\n    - PS and QR\n  - In an exam question there will be a **maximum of 4 odd nodes**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps of the Chinese postman algorithm for networks with more than 2 odd nodes?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nInspect the degree of all nodes and identify any **odd nodes**\n- **STEP 2**\nFind **all possible pairings** between the odd nodes\n- **STEP 3**\nFor each possible pairing of odd nodes, find (by inspection) the **shortest path **between each pair of nodes\nThe** pairing with the smallest total of shortest paths **will be **repeated**\n**Add** any **repeated edges** required to the network\n- **STEP 4**\nWrite down an **Eulerian circuit **of the **adjusted network** to find a possible route\nFind the **sum of the edges traversed** to find the total weight"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What variations may there be on the Chinese postman algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A variation on the **4 odd nodes** problem is that the **start **and **end** nodes can be **any two** of the odd nodes\n\n  - The problem is to find the **shortest route and** the corresponding **start** and **end** nodes\n  - To solve this problem\n  \n    - Find the length of the shortest paths for **all** possible pairings of the odd nodes\n    - Choose the **shortest of the shortest paths** between any 2 of them to be **repeated**\n    - The** other two** odd vertices will be your **start and finish points**\n- Another variation is that the **weighting** of an edge between a pair of nodes may change\n\n  - This could depend on whether it is the **first time** it is being traversed or whether it is being **repeated**\n  - For example, if an inspector was checking a pipeline for defects\n  \n    - The first time going along a section of pipeline could take longer during inspection\n    - Walking along an already inspected section to get from one node to another may take less time"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The network shown below displays the distances, in kilometres, of the main roads between towns A, B, C, D and E.\nEach road is to be inspected for potholes.\n\n![chinese-postman-example-2](assets/464bc5f385e2-chinese-postman-example-2.png)\n\na) Explain why the network does not contain an Eulerian circuit.\n\n**Answer:**\n\n> *Inspect the degree of each node*\n\n*A: 3 (odd)*\n*B: 3 (odd)*\n*C: 3 (odd)*\n*D: 3 (odd)*\n*E: 2 (even)*\n\n**Final answer:** **The graph does not contain an Eulerian circuit as some of the vertices are odd**\n\nb) Find the shortest route that starts and finishes at town A and allows for each road to be inspected.\n\n**Answer:**\n\n- *STEP 1*\n*There are 4 odd nodes, A, B, C and D*\n* *\n- *STEP 2*\n*The possible pairings between the odd nodes are AB and CD, AC and BD, and AD and BC*\n* *\n- *STEP 3*\n*By inspection, find the shortest paths (and the edges involved) for each pairing*\n\n*AB + CD = (ABD) + (CD) = 12 + 10 = 22*\n \n*AC + BD = (ADC) + (BD) = 18 + 4 = 22*\n \n*AD + BC = (AD) + (BC) = 8 + 9 = 17  *$\\underset{}{\\leftarrow}$*   shortest *\n\n> *The shortest total of paths to be repeated is for AD and BC, so add the edges AD and BC to the graph*\n* *\n\n![chinese-postman-example-2-2](assets/6abf36cda68d-chinese-postman-example-2-2.png)\n\n- *STEP 4*\n*Write down an Eulerian circuit (from the adjusted graph) starting at vertex A*\n\n**Final answer:** **Eulerian circuit: ADABDCBCEA**\n\n> *There are other possible Eulerian circuits that you could find*\n\nc) State the total length of the shortest route.\n\n**Answer:**\n\n> *Add the length of each edge in the graph, then add the weight of the repeated edges*\n\n*15 + 17 + 8 + 4 + 9 + 10 + 6 = 69 (edges in the original graph)*\n\n*17 (repeated edges)*\n\n**Final answer:** **Total length of the shortest route: 86 km**"
+  }
+ ]
+}

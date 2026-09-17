@@ -1,0 +1,138 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_bhwCQr4nvWshXzXd",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/minimum-spanning-trees/prims-algorithm",
+ "title": "Prim's Algorithm",
+ "page_title": "Prim's Algorithm | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "minimum-spanning-trees",
+   "prims-algorithm"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "minimum-spanning-trees",
+  "leaf": "prims-algorithm"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "Minimum Spanning Trees",
+  "subtopic": "Prim's Algorithm"
+ },
+ "updated_at": "2026-07-02T08:19:38.619Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_dm8d8NdqXZ86qCtJ",
+  "spcpt_6MrxckS4B59GZns8",
+  "spcpt_NrWwXjJZ9DMCbpZn"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 15,
+  "figures": 0,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_dm8d8NdqXZ86qCtJ",
+   "name": "Introduction to Prim's Algorithm",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Prim's Algorithm"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Prim's algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Prim's algorithm** is another method of finding a ***minimum spanning tree*** in a **network**\n- It can be used when the information for a** network** is given as a **graph **or in a **matrix**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_6MrxckS4B59GZns8",
+   "name": "Prim's Algorithm using Edges & Vertices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Prim's Algorithm using Edges & Vertices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps in Prim’s Algorithm when using a graph?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Prim’s algorithm** adds edges from vertices that are **already connected** to the tree\n- Cycles are **avoided** by only adding edges that do **not **connect two vertices already in the tree\n- **STEP 1** **Start at any vertex** and choose the **edge of least weight** that is **connected** to it\n- **STEP 2**\nChoose the **edge of least weight** that is **connected **to **any** of the** vertices **already **in the tree**\nEnsure that it **does not** connect to a second vertex that is already in the tree\n\n  - If there is a choice of edges of equal weight, either can be selected\n- **STEP 3** Repeat STEP 2 until **all of the vertices **are added to the tree\n- **STEP 4**\n**List the edges **in the minimum spanning tree in the **order they were added**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Consider the network, *G*, below.\n\n![3-10-3-ib-ai-hl-minimum-spanning-trees-we-2](assets/59c20e74f41e-3-10-3-ib-ai-hl-minimum-spanning-trees-we-2.png)\n\na) Using Prim’s algorithm, find a minimum spanning tree for *G*.\n\n**Answer:**\n\n- *STEP 1*\n*Select a starting vertex (we will use A here, but you could start at any vertex)*\n*Choose the edge of least weight connected to it*\n\n![prim-1](assets/2ed1bfe46f6f-prim-1.png)\n\n*AB (15)*\n\n- *STEP 2*\n*Select the next edge of least weight that is connected to either of the vertices already in the tree*\n\n![tYwxOSlL_picture-2](assets/c2ed58387e88-tywxosll-picture-2.png)\n\n*AB (15), BC (13)*\n\n> * *\n\n- *STEP 3*\n*Continue to select the edge of least weight that is connected to any of the other vertices that are already in the tree*\n\n![prim-2](assets/2e2369294249-prim-2.png)\n\n*AB (15), BC (13), CE (12)*\n\n- *STEP 4*\n*Remember to record the order in which the edges were added*\n\n![prim-3](assets/e9232fbf9b5d-prim-3.png)\n\n**Final answer:** **Edges added in the order: AB (15), BC (13), CE (12), BD (17) **\n\nb) State the total weight of the minimum spanning tree.\n\n**Answer:**\n\n> *Add up the weight of the edges in the minimum spanning tree*\n\n*15 + 13 + 12 + 17 = 57*\n\n**Final answer:** **Total weight = 57**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_NrWwXjJZ9DMCbpZn",
+   "name": "Prim's Algorithm using a Matrix",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Prim's Algorithm using a Matrix"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you apply Prim’s algorithm to a matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **minimum spanning tree** can be constructed from a **distance matrix**\n\n  - By looking at the **relevant rows** in the distance matrix\n  ** **\n- **STEP 1**\nSelect **any vertex **to start from\n**Cross out** the values in the **column** associated with that vertex\n**Label the row** associated with the vertex 1\n- **STEP 2**\nCircle the **lowest value** in **any cell** along that **row**\n**Add the corresponding edge** to the tree\n**Cross out** the remaining values in the **column** of the cell that you have circled\n- **STEP 3**\n**Label the row **associated with the **same vertex** as the **column **in STEP 2 with the **next number**\n- **STEP 4**\nCircle the** lowest value** in **any cell** along **any of the rows** that have been **labelled**\n**Add the corresponding edge** to the tree\n**Cross out** the remaining values in the **column** of the cell that you have circled\n- **STEP 5**\nRepeat STEPS 3 and 4 until **all vertices** have been **added** to the tree\n- Some versions of Prim's algorithm using a matrix will** cross out rows** and **label columns**\n\n  - Either version will work to find a minimum spanning tree"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Look out for questions that ask you to minimise the cost or length etc. from a network\n\n  - They are implying that they want you to find a **minimum spanning tree**\n- Be careful not to confuse **Prim's algorithm** with the **Nearest Neighbour algorithm**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The adjacency matrix of a network, is shown below.\n\n|   | A | B | C | D | E |\n|---|---|---|---|---|---|\n| A | - | 15 | 22 | 18 | 25 |\n| B | 15 | - | 13 | 17 | 24 |\n| C | 22 | 13 | - | 30 | 12 |\n| D | 18 | 17 | 30 | - | 21 |\n| E | 25 | 24 | 12 | 21 | - |\n\na) Starting from vertex A, use Prim’s algorithm on the table to find and draw a minimum spanning tree for the network. Show each step of the process clearly.\n\n** Answer:**\n\n- *STEP 1*\n*We'll start here with vertex A, although you could start with any vertex*\n*Label the row for vertex A as '1'*\n*Cross out the values in column A*\n\n> * *\n\n![prims-1](assets/8537e9982cf0-prims-1.png)\n\n> * *\n\n- *STEP 2*\n*Circle the edge of least weight in row 1 and record which edge it is (here it is B)*\n*Delete the remaining values in column B*\n\n> * *\n* *\n\n![prims-2](assets/819b58093b30-prims-2.png)\n\n*AB (15) *\n*  *\n\n- *STEP 3*\n*Label the row for vertex B as '2'*\n* *\n- *STEP 4*\n*Circle the edge of least weight out of all the entries in rows 1 and 2, remembering to record the edge*\n*Cross out the remaining values in the column of that circled edge*\n\n> * *\n* *\n\n![prims-3](assets/07c86a5bab66-prims-3.png)\n\n*AB (15), BC (13)*\n\n- *STEP 5*\n*Repeat Steps 3 and 4 until all vertices are added*\n\n- *STEP 3*\n*Label the row for vertex C as '3'*\n* *\n- *STEP 4*\n*Circle the edge of least weight in rows 1 to 3, remembering to record the edge*\n*Delete the remaining values in column E*\n\n> *  *\n* *\n\n![prims-4](assets/69adbaaaf7dc-prims-4.png)\n\n*AB (15), BC (13), CE (12)*\n\n> *  *\n\n- *STEP 3*\n*Label the row for vertex E as '4'*\n* *\n- *STEP 4*\n*Circle the edge of least weight in rows 1 to 4, remembering to record the edge*\n*Delete the remaining values in column D*\n\n![prims-5](assets/98c6b3a105e8-prims-5.png)\n\n*AB (15), BC (13), CE (12), BD (17)*\n\n> * *\n*   All vertices have been selected*\n*   You should have a list of the order in which the edges were selected*\n\n** **\n\n![prim-3](assets/e9232fbf9b5d-prim-3.png)\n\n**Final answer:** **Edges added in the order: AB (15), BC (13), CE (12), BD (17)**\n\n** **\n\nb) State the total weight of the minimum spanning tree.\n\n**Answer:**\n\n> *Add up the weights of the edges in the minimum spanning tree.*\n\n*15 + 13 + 12 + 17 = 57*\n\n**Final answer:** **Total weight = 57**"
+  }
+ ]
+}

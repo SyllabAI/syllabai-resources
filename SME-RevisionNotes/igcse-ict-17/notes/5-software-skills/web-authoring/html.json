@@ -1,0 +1,245 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_YCHCWkpCQWxbNWnh",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/5-software-skills/web-authoring/html",
+ "title": "HTML",
+ "page_title": "HTML | Edexcel IGCSE ICT Revision Notes 2017",
+ "path": {
+  "segs": [
+   "5-software-skills",
+   "web-authoring",
+   "html"
+  ],
+  "section": "5-software-skills",
+  "topic": "web-authoring",
+  "leaf": "html"
+ },
+ "titles": {
+  "section": "5. Software Skills",
+  "topic": "Web Authoring",
+  "subtopic": "HTML"
+ },
+ "updated_at": "2024-06-27T11:58:31.375Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Q2K5ZsmtsxBpQnth",
+  "spcpt_89Mw8r4ff7zBqcRy",
+  "spcpt_SDpYVDBJz5FnwH7D"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 36,
+  "figures": 7,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "What is HTML?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Hypertext Markup Language (**HTML**), is the foundational language **used to structure content on the web**\n- HTML consists of a series of elements, often referred to as \"**tags**,\" which can be used to **structure **and **format** a webpage\n- The `<html>` tag is the root element of an HTML page\n- The tag includes** all other HTML elements** used on the page\n- Most tags are **opened and closed e.g. **`<html>` and `</html> `whereas **some tags are only opened e.g. **`<img>` and `<link>`\n- The content layer of a web page is made up of HTML elements such as headings (`<h1>, <h2>`, etc.), paragraphs (`<p>`), links (`<a>`), images (`<img>`), and more"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Q2K5ZsmtsxBpQnth",
+   "name": "Head",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Head"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the head section of a webpage?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The head section contains **information about the web page** that's **not displayed on the page **itself\n\n  - It's enclosed by `<head>` and `</head>` tags\n  - The content inside the head tag is **displayed in the browser tab**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Page title"
+  },
+  {
+   "type": "bullets",
+   "md": "- The `<title>` element is used to set the **page title** that displays in the browser tab\n- It is placed inside the `<head>` section of the HTML document"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "External stylesheets"
+  },
+  {
+   "type": "bullets",
+   "md": "- External stylesheets are **linked **in the `<head>` section using the `<link>` element\n- The `rel` attribute is set to \"stylesheet\", and the `href` attribute contains the relative file path to the CSS file\n- Stylesheets are loaded in the order they are listed, so **hierarchy** is important"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/3772_external-stylesheets.webp",
+   "file": "assets/4730af984d74-3772-external-stylesheets.webp",
+   "alt": "Screenshot of a simple HTML file with DOCTYPE declaration, HTML, head, and body tags. The body contains \"Hello world\" and a script element linking to \"script.js\".",
+   "caption": "Adding a page title and link to an external stylesheet in HTML"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Metatags"
+  },
+  {
+   "type": "bullets",
+   "md": "- Metatags are snippets of text in HTML that** describe a page's content**\n- They don't appear on the page itself but **in the page's code**\n- Search engines, browsers and other web services use metatags **to glean information about a web page**\n- Metatags provide **additional information** about the web page to the browser and search engines\n- Examples of metatags include:\n\n  - **Charset**\n  \n    - The `<meta charset=\"UTF-8\">` tag specifies the character encoding for the HTML document\n    - UTF-8 is the most common character encoding and includes almost all characters from all writing systems\n  - **Keywords**\n  \n    - The `keywords` attribute in a `<meta>` tag is a comma-separated list of words that represent the content of the web page\n    - It was originally intended to help search engines understand the content of a page, but it's less relevant today as search engines have become more sophisticated\n  - **Author**\n  \n    - The `author` attribute in a `<meta>` the tag identifies the author of the web page\n    - It can be helpful for copyright purposes and for readers who want to know the source of the content\n  - **Description**\n  \n    - The `description` attribute in a `<meta>` tag provides a concise explanation of the content of the web page\n    - This description often appears in search engine results and can influence click-through rates"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/53498_metatags.webp",
+   "file": "assets/8ecb5d323fa4-53498-metatags.webp",
+   "alt": "HTML code for a basic webpage with \"My Web Page\" title, linked `styles.css`, \"Hello world\" text in the body, and a `script.js` file.",
+   "caption": "Adding basic metatags in HTML"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Viewport**\n\n  - The `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">` tag makes your web page display correctly on all devices (desktop, tablet, mobile)\n  - It controls the** viewport siz**e and the **initial zoom level**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/13618_metatags-viewpoint.webp",
+   "file": "assets/08d1ba491688-13618-metatags-viewpoint.webp",
+   "alt": "Screenshot of HTML code with a simple structure including a title, meta tags for description and author, a link to a CSS stylesheet, and a script reference.",
+   "caption": "Adding a viewpoint metatag in HTML"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Default target windows"
+  },
+  {
+   "type": "bullets",
+   "md": "- The `target` attribute of the `<base>` element can set a **default target window** for all links on a page\n- For example, `<base target=\"_blank\">` will open all links in a new window or tab"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/36783_htmlbasetarget-ezgif-com-video-to-webp-converter.webp",
+   "file": "assets/59a7af5516f3-36783-htmlbasetarget-ezgif-com-video-to-webp-con.webp",
+   "alt": "Screenshot of an HTML code editor showing the structure of an HTML document, including the DOCTYPE, head and body sections, and a link to an external CSS stylesheet.",
+   "caption": "Adding the base target metatag in HTML"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_89Mw8r4ff7zBqcRy",
+   "name": "Body",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Body"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the body section of a webpage?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The body section contains the **main content of the web page**, such as **text**, **images**, **videos**, **hyperlinks**, **tables **etc.\n\n  - It's enclosed by `<body>` and `</body>` tags\n  - The content inside the body tag is** displayed in the browser window**\n- **Text entry (headings & paragraphs)**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/30890_text-entrt-body-html.webp",
+   "file": "assets/644cd40cb757-30890-text-entrt-body-html.webp",
+   "alt": "Code editor displaying an HTML file named \"index.html\" with basic tags including meta and base tags within the head and empty body tags.",
+   "caption": "Adding text to the body of a HTML page"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Inserting an image**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/29518_inserting-an-image-html.webp",
+   "file": "assets/18e5cf527da5-29518-inserting-an-image-html.webp",
+   "alt": "HTML code displayed in a text editor, showing the closing tags for table, body, and html elements within an index.html file.",
+   "caption": "Adding an image in HTML"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Tables in webpages"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the early days of web development, tables were used to **create complex page layouts**\n- They provide a way to** arrange data into rows and columns**\n- By utilising **cell padding,** **cell spacing**, and **borders**, developers could **manipulate the appearance **of the page\n- Today, tables are primarily used for** displaying tabular data** - information that is logically displayed in grid format\n- For example, financial data, timetables, comparison charts and statistical data are often presented in tables\n- Tables make it **easy for users to scan**, **analyse **and **comprehend** the data\n- Tables also **enhance accessibility**\n- **Screen readers** for visually impaired users can read tables effectively if they are correctly structured\n- HTML elements like `<table>`, `<tr>`, `<th>`, and `<td>` help in conveying the structure and purpose of the data to these assistive technologies"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/5859_tables-in-html.png",
+   "file": "assets/6276312de44b-5859-tables-in-html.png",
+   "alt": "Screenshot of an HTML and CSS code editor on the left, displaying a basic table with company, contact, and country columns, and its rendered view on the right.",
+   "caption": "Creating a table using HTML"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_SDpYVDBJz5FnwH7D",
+   "name": "Hyperlinks ",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Hyperlinks"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a hyperlink?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A hyperlink, often just called a 'link', is **a reference to data **that a reader can directly follow by clicking or tapping\n- It is one of the **core elements of the World Wide Web**, as it enables navigation **from one web page or section to another**\n- Hyperlinks are created using the `<a>` (anchor) tag in HTML\n- They can link to different sections of the same page, other locally stored web pages, or external websites\n\n  - **Text hyperlinks**: Usually, a portion of text that is highlighted in some way, like being underlined or a different colour\n  - **Image hyperlinks**: An image that you can click on to take you to another page or another part of the same page\n  - **Button hyperlinks**: A clickable button that redirects the user to another page or section\n- Hyperlinks utilise the '`href`' attribute within the `<a>` tag in HTML\n- The '`href`' attribute contains the** URL of the page **to which the link leads\n- The text between the opening `<a>` and closing `</a>` tags are the part that will appear as a link on the page"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Hyperlink types"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Same-page bookmark**: Use the `#` followed by the `id` of the element you want to jump to\n\n  - Example: `<a href=\"#section1\">Go to Section 1</a>`\n- **Locally stored web page**: Use the relative path to the file\n\n  - Example: `<a href=\"contact.html\">Contact Us</a>`\n- **External website**: Use the full URL\n\n  - Example: `<a href=\"https://www.google.com\">Google</a>`\n- **Email link**: Use `mailto:` followed by the email address\n\n  - Example: `<a href=\"mailto:example@example.com\">Email Us</a>`\n- **Specified location**: Use the `target` attribute to specify where to open the link\n\n  - `_blank` for a new tab or window\n  - `_self` for the same tab or window, or a named window\n  \n    - Example: `<a href=\"https://www.google.com\" target=\"_blank\">Google</a>`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example body section containing hyperlinks"
+  }
+ ]
+}

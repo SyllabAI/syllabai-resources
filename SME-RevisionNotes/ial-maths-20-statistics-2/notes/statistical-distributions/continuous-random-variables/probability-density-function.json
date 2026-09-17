@@ -1,0 +1,396 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_BH34b52QZKBx3nqG",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/continuous-random-variables/probability-density-function",
+ "title": "Probability Density Function",
+ "page_title": "Probability Density Function | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "continuous-random-variables",
+   "probability-density-function"
+  ],
+  "section": "statistical-distributions",
+  "topic": "continuous-random-variables",
+  "leaf": "probability-density-function"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Continuous Random Variables",
+  "subtopic": "Probability Density Function"
+ },
+ "updated_at": "2026-07-02T08:19:38.652Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_JMz3SfGShXWm8TqR",
+  "spcpt_yyQVJRMwfJDN5gPx"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "x\\inℝ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi><mo>∈</mo><mi mathvariant=\"normal\">ℝ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x element of straight real numbers"
+  },
+  {
+   "latex": "f(x)\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>≥</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis greater or equal than 0"
+  },
+  {
+   "latex": "P(X=x)\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo><mo>≥</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X equals x right parenthesis greater or equal than 0 end style"
+  },
+  {
+   "latex": "Σ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi mathvariant=\"normal\">Σ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma"
+  },
+  {
+   "latex": "P(X=x)=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X equals x right parenthesis equals 1 end style"
+  },
+  {
+   "latex": "a\\leqX\\leqb",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>a</mi><mo>&#8804;</mo><mi>X</mi><mo>&#8804;</mo><mi>b</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style a less or equal than X less or equal than b end style"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)=P(a<X<b)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>a</mi><mo>&#8804;</mo><mi>X</mi><mo>&#8804;</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>a</mi><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "P left parenthesis a less or equal than X less or equal than b right parenthesis equals P left parenthesis a less than X less than b right parenthesis"
+  },
+  {
+   "latex": "P(X=n)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>n</mi><mo>)</mo><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals n right parenthesis space equals space 0"
+  },
+  {
+   "latex": "a=b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>a</mi><mo>=</mo><mi>b</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a equals b"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>a</mi><mo>&#8804;</mo><mi>X</mi><mo>&#8804;</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis a less or equal than X less or equal than b right parenthesis"
+  },
+  {
+   "latex": "f(x)\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi mathvariant=\"normal\">x</mi><mo>)</mo><mo>≥</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis straight x right parenthesis greater or equal than 0"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "P(0\\leqX\\leqa)=0.09",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>0</mn><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>09</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 0 less or equal than X less or equal than a right parenthesis equals 0.09"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "P(X>4)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mn>4</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than 4 right parenthesis"
+  },
+  {
+   "latex": "P(X=3.2)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>2</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals 3.2 right parenthesis"
+  },
+  {
+   "latex": "P(1.5\\leqX\\leq2.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>≤</mo><mi>X</mi><mo>≤</mo><mn>2</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis 1.5 less or equal than X less or equal than 2.5 right parenthesis"
+  },
+  {
+   "latex": "P(X<m)=P(X>m)=0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold\">X</mi><mo mathvariant=\"bold\">&lt;</mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold\">X</mi><mo mathvariant=\"bold\">&gt;</mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">0</mn><mo mathvariant=\"bold\">.</mo><mn mathvariant=\"bold\">5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold P bold left parenthesis bold X bold less than bold m bold right parenthesis bold equals bold P bold left parenthesis bold X bold greater than bold m bold right parenthesis bold equals bold 0 bold. bold 5 end style"
+  },
+  {
+   "latex": "P(X=m)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>m</mi><mo>)</mo><mo>=</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X equals m right parenthesis equals 0 end style"
+  },
+  {
+   "latex": "P(X\\leqm)=P(X\\geqm)=0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>m</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X less or equal than m right parenthesis equals P left parenthesis X greater or equal than m right parenthesis equals 0.5 end style"
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style y equals straight f left parenthesis x right parenthesis end style"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 46,
+  "figures": 1,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 25
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_JMz3SfGShXWm8TqR",
+   "name": "Calculating Probabilities using PDF",
+   "definition": "",
+   "video_id": "897562437"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Probabilities using PDF"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a probability density function (p.d.f.)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For a ***continuous random variable***, it is often possible to model probabilities using a function\n\n  - This function is called a **probability density function (p.d.f.)**\n  - For the continuous random variable, *X*  , it would usually be denoted as a function of x  (such as f(x)  or g(x) ) and is usually given **piecewise**"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g."
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight f left parenthesis x right parenthesis equals open curly brackets table row x cell 0 less or equal than x less or equal than 1 end cell row 1 cell 1.5 less or equal than x less or equal than 2 end cell row 0 otherwise end table close`"
+  },
+  {
+   "type": "bullets",
+   "md": "- f(x) should be defined for all values of $x\\inℝ$\n- The distribution (or **density**) of probabilities can be illustrated by the graph of f(x)\n- The graph does not need to start and end on the x-axis\n- The graph does not have to be continuous"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/1-3-1-ial-fig1-pdf-graph.png",
+   "file": "assets/bffa6f41d2bb-1-3-1-ial-fig1-pdf-graph.png",
+   "alt": "1-3-1-ial-fig1-pdf-graph",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- For f(x) to **represent** a p.d.f. the following conditions must apply\n\n  - $f(x)\\geq0$ for **all** values of x\n  \n    - This is the equivalent to $P(X=x)\\geq0$  for a discrete random variable\n  - The **area under the graph** must total 1"
+  },
+  {
+   "type": "paragraph",
+   "md": "`integral subscript negative infinity end subscript superscript infinity straight f left parenthesis x right parenthesis space straight d x equals 1`"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is equivalent to $Σ$ $P(X=x)=1$ for a discrete random variable"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find probabilities using a probability density function (p.d.f.)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The probability that the continuous random variable *X* lies in the interval\n$a\\leqX\\leqb$, where *X* has the probability density function f(x) , is given by"
+  },
+  {
+   "type": "paragraph",
+   "md": "`straight P left parenthesis a less or equal than X less or equal than b right parenthesis equals integral subscript a superscript b straight f left parenthesis straight x right parenthesis space dx`"
+  },
+  {
+   "type": "bullets",
+   "md": "- As with the **normal** **distribution **$P(a\\leqX\\leqb)=P(a<X<b)$\n\n  - for any continuous random variable, $P(X=n)=0$  for all values of n\n  - One way to think of this is that $a=b$ in the integral above"
+  },
+  {
+   "type": "bullets",
+   "md": "- ***Piecewise Function*** are often used as the p.d.f. is not often a single function of x\n\n  - Finding a probability may involve splitting the area across more than one piece of the function\n  - This will depend on the limits a and b in $P(a\\leqX\\leqb)$ that is being found"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I solve problems using the PDF?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Some questions may ask for justification of the use of a given function for a probability density function\n\n  - In such cases check that the function meets the two conditions $f(x)\\geq0$ for all values of $x$ and the total area under the graph is 1"
+  },
+  {
+   "type": "bullets",
+   "md": "- If asked to find a probability\n\n  - STEP 1\n  As the **probability** **density** **function**, f(x), is usually given **piecewise** make sure you are clear about the values of x for which each part applies"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g.  `straight f left parenthesis straight x right parenthesis equals open curly brackets table row cell x minus 1 space space space 1 less or equal than x less or equal than 2 end cell row cell 3 minus x space space space 2 less or equal than x less or equal than 3 end cell row cell 0 space space space space space space space space otherwise end cell end table close`"
+  },
+  {
+   "type": "bullets",
+   "md": "- STEP 2"
+  },
+  {
+   "type": "paragraph",
+   "md": "If simple to do so, **sketching** the **graph** of y= f(x) may help to find the probability"
+  },
+  {
+   "type": "bullets",
+   "md": "- Look for **basic** **shapes** such as **triangles** or **rectangles**; finding **areas** of these is easy and avoids integration\n- Look for **symmetry** in the graph that may make the problem easier"
+  },
+  {
+   "type": "bullets",
+   "md": "- STEP 3\n\n  - Identify the **range** of X, particularly noting if it is split across different parts of the p.d.f.\n  - Find the required **area (probability)**, either by **basic** **shapes** or **integrate f(x)** and evaluate it between the two limits, splitting if necessary\n- Trickier problems may involve finding a limit of the integral given its value\n\n  - i.e. one of the values in the range of *X*, given the probability\n  e.g.        Find the value of  given $P(0\\leqX\\leqa)=0.09$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The continuous random variable, $X$ , has probability density function\n\n`straight f left parenthesis x right parenthesis equals open curly brackets table row cell 0.4 left parenthesis x minus 1 right parenthesis end cell cell 1 less or equal than x less or equal than 2 end cell row cell 0.1 left parenthesis 6 minus x right parenthesis end cell cell 2 less or equal than x less or equal than 6 end cell row cell space space space space space space space 0 end cell otherwise end table close`\n\n(a) Show that $f(x)$ can represent a probability density function.\n\n(b) Find\n\n(i) $P(X>4)$\n\n(ii) $P(X=3.2)$\n\n(iii) $P(1.5\\leqX\\leq2.5)$\n\n**Answer:**\n\n![1-3-1-ial-fig2-we-solution-part-1](assets/50e0f4b45421-image.bin)\n\n![1-3-1-ial-fig2-we-solution-part-2](assets/36bfdc99cd34-image.bin)\n\n![1-3-1-ial-fig2-we-solution-part-3](assets/17e2828d66e6-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If the graph is easy to draw, then a sketch of f(x) is helpful\n\n  - Some p.d.f. graphs have **symmetry**, common shapes such as **triangles** or **rectangles** so areas are easier to find, avoiding the need for integration\n- Always keep an eye for probabilities that are split across different parts of a piecewise function"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_yyQVJRMwfJDN5gPx",
+   "name": "Median and Mode of a CRV",
+   "definition": "",
+   "video_id": "897571318"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Median and Mode of a CRV"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is meant by the median of a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **median**, ***m***, of a continuous random variable, *X* , with **probability** **density** **function f(x)** is defined as the value of the **continuous** **random** **variable** *X*, such that"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(X<m)=P(X>m)=0.5$"
+  },
+  {
+   "type": "bullets",
+   "md": "- ** **Since $P(X=m)=0$ this can also be written as $P(X\\leqm)=P(X\\geqm)=0.5$\n- If the p.d.f. is **symmetrical** (i.e. the graph of y = f(x) is symmetrical) then the median will be halfway between the lower and upper limits of x\n\n  - In such cases the graph of y=f(x) has axis of symmetry in the line x = m"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the median of a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- By solving one of the equations to find *m*"
+  },
+  {
+   "type": "paragraph",
+   "md": "`integral subscript negative infinity end subscript superscript m straight f left parenthesis x right parenthesis space dx space equals space 0.5`"
+  },
+  {
+   "type": "paragraph",
+   "md": "and"
+  },
+  {
+   "type": "paragraph",
+   "md": "`integral subscript m superscript infinity straight f left parenthesis straight x right parenthesis space dx equals 0.5`"
+  },
+  {
+   "type": "bullets",
+   "md": "- If the graph of $y=f(x)$ is **symmetrical**, symmetry may be used to deduce the median\n- For ***piecewise functions***, you will need to determine which part of the function the median lies within to determine which equation to use\n\n  - If there are more than two (non-zero) parts to a function then the integration may need splitting\n- You can also use the **cumulative** **distribution** **function** to find the median"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find quartiles (or percentiles) of a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In a similar way to finding the median\n\n  - The lower quartile will be the value *L *such that P(*X* ≤ *L*) = 0.25 or\n  P(*X* ≥ *L*) = 0.75\n  - The upper quartile will be the value *U* such that P(*X* ≤ *U*) = 0.75 or\n  P(*X* ≥ *U*) = 0.25\n- Percentiles can be find in the same way\n\n  - The 15<sup>th</sup> percentile will be the value *k* such that P(*X* ≤ *k*) = 0.15 or\n  P(*X* ≥ *k*) = 0.85\n- In all cases start by determining which part(s) of the function are involved"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is meant by the mode of a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **mode** of a continuous random variable, *X*  , with **probability** **density** **function f(x)** is the value of x that produces the greatest value of f(x) ."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the mode of a PDF?"
+  },
+  {
+   "type": "bullets",
+   "md": "- This will depend on the type of function f(x); the easiest way to find the mode is by considering the shape of the graph of y= f(x)\n- If the graph is a curve with a (local) **maximum** **point**, the mode can be found by **differentiating** and solving the equation f'(x) = 0\n\n  - If there is more than one solution to f'(x) =  0 , further work may be needed to deduce which answer is the mode\n  \n    - Look for valid values of $x$ from the **definition** of the p.d.f.\n    - Use the **second** **derivative** (f'' (x) ) to deduce the nature of each **stationary** **point**\n    - You may need to check the values of f(x) at the **endpoints** too"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The continuous random variable $X$  has probability density function $f(x)$ defined as\n\n`straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1 over 64 x open parentheses 16 minus x squared close parentheses end cell cell 0 less or equal than x less or equal than 4 end cell row cell space space space space space space space space 0 end cell otherwise end table close space space space space space space space space space space space space space space space space space space space space space space`\n\n(a) Find the median of *X*, giving your answer to three significant figures\n\n(b) Find the *exact* value of the mode of *X*\n\n**Answer:**\n\n![2-3-1-cie-fig3-we-solution_a](assets/6282648adc49-image.bin)\n\n![2-3-1-cie-fig3-we-solution_b](assets/a13c21bf64a3-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Avoid spending too long sketching the graph of  y = f(x), only do this if the graph is straightforward as finding the median and mode by other means can be just as quick"
+  }
+ ]
+}

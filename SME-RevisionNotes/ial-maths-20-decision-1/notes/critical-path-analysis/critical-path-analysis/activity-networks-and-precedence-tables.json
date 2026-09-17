@@ -1,0 +1,179 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_KpZkrQnXhHySMJX5",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/critical-path-analysis/critical-path-analysis/activity-networks-and-precedence-tables",
+ "title": "Activity Networks & Precedence Tables",
+ "page_title": "Activity Networks & Precedence Tables | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "critical-path-analysis",
+   "critical-path-analysis",
+   "activity-networks-and-precedence-tables"
+  ],
+  "section": "critical-path-analysis",
+  "topic": "critical-path-analysis",
+  "leaf": "activity-networks-and-precedence-tables"
+ },
+ "titles": {
+  "section": "Critical Path Analysis",
+  "topic": "Critical Path Analysis",
+  "subtopic": "Activity Networks & Precedence Tables"
+ },
+ "updated_at": "2026-07-02T08:19:38.466Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_7bBdB5ZtfBRKrDtX",
+  "spcpt_BRTBn4PHdYjxcYdy",
+  "spcpt_zVhvgrfbmXNfnpXT"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 23,
+  "figures": 2,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_7bBdB5ZtfBRKrDtX",
+   "name": "Activity Networks & Precedence Tables",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Activity Networks & Precedence Tables"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an activity network?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An **activity network** is a graph that shows the **activities** needed to complete a **project**\n\n  - It also specifies the order in which they should be undertaken\n  - E.g.  the project could be 'building a house' with activities such as 'foundations', 'walls' and 'roof'\n- Some activities will depend on others being completed first\n\n  - E.g. the activity 'foundations' would need to be completed before the 'walls' are built\n- Some activities can occur at the same time\n\n  - E.g. 'windows' and 'doors' can be fitted at the same time\n- The **arcs** (edges) of the graph represent the **activities**\n\n  - This may be referred to as an **activity-on-arc** network\n- The **nodes** (vertices) of the graph represent **events **within the project\n\n  - **Events** can be thought of as **'stepping stones'**\n  - The project cannot progress beyond an event until all the activities leading to that event are completed"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What does an activity network look like?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Events **(nodes) are labelled with numbers, generally increasing in the direction of the project\n\n  - The event at the **start** of the project is called the **source node**\n  \n    - It is labelled with **0 **or **S**\n  - The event at the **end** of the project is called the **sink node**\n  \n    - It will be the **highest numbered** node or labelled with **T**\n- **Arcs** are labelled with their **activities,** with the **duration** given in brackets\n\n  - Activities are denoted by capital letters - ***A***, ***B***, ***C***, ***D***, etc.\n  - **Arrows** are drawn on the **arcs** to show the order in which the project progresses\n  \n    - Strictly speaking, an **activity network** is a **directed graph**\n    - In broad terms, a project generally progresses from left to right across the activity network"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/non-dummy-activity-network.png",
+   "file": "assets/372fb81f7b69-non-dummy-activity-network.png",
+   "alt": "Activity network with no dummy activities",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a precedence table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **precedence table** shows a list of the **activities** for a project\n\n  - For each activity, the table includes a list of the **activities** that must already have been completed\n  \n    - Only the **immediately** **preceding activities** are listed\n  - Activities that do **not** have any precedents are indicated by '-'\n  \n    - These activities can begin at the start of the project\n    - They will be attached to the **source node**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What does a precedence table look like?"
+  },
+  {
+   "type": "bullets",
+   "md": "- As well as a list of activities a **precedence table** may also show\n\n  - The **duration** of each activity"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/05/zbZPfx5D_precedence-table.png",
+   "file": "assets/950e1aac1869-zbzpfx5d-precedence-table.png",
+   "alt": "Precedence table",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_BRTBn4PHdYjxcYdy",
+   "name": "Drawing an Activity Network",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Drawing an Activity Network"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I draw an activity network?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An activity network can be drawn from a **precedence table**\n- Starting with the **source node**\n\n  - Add an **arc** for each activity one at a time\n  \n    - Consider its **immediately preceding activities**\n  - An **event** (node) will be needed prior to each activity commencing\n  \n    - More than one activity can commence from the same event\n    - More than one activity can finish at the same event\n- A crucial feature of an activity network is that each activity has a **unique pair** of start and end nodes\n- Any activities that do **not** precede another will go to the **sink node** at the **end** of the **project**\n- In general, **activity networks**\n\n  - Use straight, arrowed lines for **arcs**\n  - Numbered circles for **events/nodes**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- A rough, curly-edged activity network often helps to start off with\n\n  - This will give you a mental picture of what the network looks like\n  - You can easily make changes, scribble bits out, etc. with a rough diagram\n  - When you are happy with it, you can redraw it neatly with straight edges"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Draw an activity network for the precedence table given below.\n\n| **Activity** | **Preceding activities** | **Duration** |\n|---|---|---|\n| A | - | 4 |\n| B | A | 5 |\n| C | A | 3 |\n| D | B | 6 |\n| E | C | 4 |\n| F | D, E | 6 |\n\n**Answer:**\n\n> *Starting with the source node, node 0, it is only activity A that can begin as it has no preceding activities*\n*We will have one arc starting at the source node*\n*Label the arc with an arrow, the activity name (A) and its duration (4)*\n\n![drawact-we-ans-1](assets/010afd8a9d35-drawact-we-ans-1.png)\n\n> *Activities B and C both depend on A*\n*Add event (node) 1 with arcs for B and C attached*\n*Leave plenty of room (between B and C) in case anything later needs to go in between them*\n\n![drawact-we-ans-2](assets/36e7c52a803e-drawact-we-ans-2.png)\n\n> *Activity D follows from B only, and activity E follows C only*\n*Looking ahead though, activity F has D and E as immediate predecessors, so D and E need to meet at an event*\n*Use event 2 to start activity D, event 3 to start activity E, and event 4 where they meet, ready for activity F*\n\n![drawact-we-ans-3](assets/6bdb0780b811-drawact-we-ans-3.png)\n\n> *Activity F is the last activity of the project so goes to the sink node, event 5*\n\n![drawact-we-ans-4](assets/9e7d6eb19c2a-drawact-we-ans-4.png)\n\n> *Check that all activities have a unique start and end node*\n*For example, activity B starts at event (node) 1 and ends at event (node) 2 (this may be written as an ordered pair, (1, 2))*\n*No other activity starts at 1 AND ends at 2 (C is (1, 3))*\n*Checking everything else, the final answer is*\n\n![drawact-we-final-ans](assets/16695a7e3b18-drawact-we-final-ans.png)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_zVhvgrfbmXNfnpXT",
+   "name": "Completing a Precedence Table",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Completing a Precedence Table"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I complete a precedence table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **precedence table** can be constructed from an **activity network**\n- A basic table listing the activities and their duration can be constructed from the labels on the activity network\n- To complete the **preceding activities** column in the table\n\n  - Start at the **source node**\n  \n    - Any activities **starting** at the **source** node do **not** have preceding activities so use '-' in the table\n  - For all other activities look at the event (node) the activity **starts** at\n  \n    - Any activities **ending** at this event (node) are the **immediately preceding activities**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Construct a precedence table for the activity network shown below.\n\n![complprec-we-qu](assets/9e9f68c712c3-complprec-we-qu.png)\n\n**Answer:**\n\n> *The activities are A, B, C, D, E and F, with their durations given in brackets*\n*Two columns of the precedence table can be completed immediately*\n\n| ***Activity*** | ***Preceding activities*** | ***Duration*** |\n|---|---|---|\n| *A* |   | *4* |\n| *B* |   | *5* |\n| *C* |   | *3* |\n| *D* |   | *6* |\n| *E* |   | *4* |\n| *F* |   | *6* |\n\n> *Starting at the source node 0, only activity A has no preceding activities, so this can be completed with a '-'*\n*Work through each other activity considering the activities that go to its start event/node*\n\n- *Activity B starts at event/node 1*\n\n  - *activity A ends at event/node 1*\n  - *B has immediate predecessor A*\n- *C starts at 1*\n\n  - *A ends at 1** *\n  - *C has immediate predecessor A*\n- *D starts at 2*\n\n  - *B ends at 2*\n  - *D has immediate predecessor B*\n- *E starts at 3*\n\n  - *C ends at 3*\n  - *E has immediate predecessor C*\n- *F starts at 4*\n\n  - *D and E end at 4*\n  - *F has immediate predecessors D and E *\n\n> *F is the last activity (it ends at the sink node, event 5) so the precedence table can be completed*\n\n| **Final answer:** **Activity** | **Final answer:** **Preceding activities** | **Final answer:** **Duration** |\n|---|---|---|\n| **Final answer:** **A** | **Final answer:** **-** | **Final answer:** **4** |\n| **Final answer:** **B** | **Final answer:** **A** | **Final answer:** **5** |\n| **Final answer:** **C** | **Final answer:** **A** | **Final answer:** **3** |\n| **Final answer:** **D** | **Final answer:** **B** | **Final answer:** **6** |\n| **Final answer:** **E** | **Final answer:** **C** | **Final answer:** **4** |\n| **Final answer:** **F** | **Final answer:** **D, E** | **Final answer:** **6** |"
+  }
+ ]
+}

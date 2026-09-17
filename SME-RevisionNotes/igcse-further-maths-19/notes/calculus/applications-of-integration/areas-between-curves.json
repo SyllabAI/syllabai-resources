@@ -1,0 +1,377 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_zY4jqVz2s2kw6k78",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/applications-of-integration/areas-between-curves",
+ "title": "Areas Between Curves",
+ "page_title": "Areas Between Curves | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "applications-of-integration",
+   "areas-between-curves"
+  ],
+  "section": "calculus",
+  "topic": "applications-of-integration",
+  "leaf": "areas-between-curves"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Applications of Integration",
+  "subtopic": "Areas Between Curves"
+ },
+ "updated_at": "2024-10-20T15:47:40.678Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_t6x5YNTWFJs9Vbwn",
+  "spcpt_ZQ4j8c8Zt59FSkXq"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "A=\\frac{1}{2}bh",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mi>h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space A equals 1 half b h"
+  },
+  {
+   "latex": "A=\\frac{1}{2}(a+b)h",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "space A equals 1 half left parenthesis a plus b right parenthesis h"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space R"
+  },
+  {
+   "latex": "y=10x-x^{2}-16",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>10</mn><mi>x</mi><mo>-</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "y equals 10 x minus x squared minus 16"
+  },
+  {
+   "latex": "y=8-x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>y</mi><mo>=</mo><mn>8</mn><mo>-</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space y equals 8 minus x"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "space R"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>2</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x squared"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x=3\\mathrm{or}x=8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mo>&#160;</mo><mo>&#160;</mo><mi>or</mi><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3 space space or space space x equals 8"
+  },
+  {
+   "latex": "x=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3"
+  },
+  {
+   "latex": "x=8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 8"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "x=3:y=8-3=5\\,\\,x=8:y=8-8=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mo>:</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>y</mi><mo>=</mo><mn>8</mn><mo>-</mo><mn>3</mn><mo>=</mo><mn>5</mn><mspace linebreak=\"newline\"></mspace><mspace linebreak=\"newline\"></mspace><mi>x</mi><mo>=</mo><mn>8</mn><mo>:</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>y</mi><mo>=</mo><mn>8</mn><mo>-</mo><mn>8</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3 colon space space space y equals 8 minus 3 equals 5\n\nx equals 8 colon space space space y equals 8 minus 8 equals 0"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "R"
+  },
+  {
+   "latex": "-",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>-</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "minus"
+  },
+  {
+   "latex": "5-0=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>-</mo><mn>0</mn><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "5 minus 0 equals 5"
+  },
+  {
+   "latex": "8-3=5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>-</mo><mn>3</mn><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "8 minus 3 equals 5"
+  },
+  {
+   "latex": "\\mathrm{Area} \\mathrm{of} \\mathrm{triangle}=\\frac{1}{2}\\times5\\times5=\\frac{25}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Area</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>triangle</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><mfrac><mn>25</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Area space of space triangle equals 1 half cross times 5 cross times 5 equals 25 over 2"
+  },
+  {
+   "latex": "x=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3"
+  },
+  {
+   "latex": "x=8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 8"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "R"
+  },
+  {
+   "latex": "\\mathrm{Area} \\mathrm{of} \\mathrm{region}R=\\frac{100}{3}-\\frac{25}{2}=\\frac{125}{6}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Area</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>region</mi><mo>&#160;</mo><mi>R</mi><mo>=</mo><mfrac><mn>100</mn><mn>3</mn></mfrac><mo>-</mo><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>125</mn><mn>6</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Area space of space region space R equals 100 over 3 minus 25 over 2 equals 125 over 6"
+  },
+  {
+   "latex": "\\frac{125}{6}\\mathrm{units}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn mathvariant=\"bold\">125</mn><mn mathvariant=\"bold\">6</mn></mfrac><mo mathvariant=\"bold\">&#160;</mo><msup><mi mathvariant=\"bold\">units</mi><mn mathvariant=\"bold\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold 125 over bold 6 bold space bold units to the power of bold 2"
+  },
+  {
+   "latex": "y_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>y</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y subscript 1"
+  },
+  {
+   "latex": "y_{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>y</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y subscript 2"
+  },
+  {
+   "latex": "y_{1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>y</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y subscript 1"
+  },
+  {
+   "latex": "y_{1}-y_{2}\\geq0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>-</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#8805;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y subscript 1 minus y subscript 2 greater or equal than 0"
+  },
+  {
+   "latex": "y=f(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals straight f left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "y=g(x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals straight g left parenthesis x right parenthesis"
+  },
+  {
+   "latex": "f(x)=(x-2)(x-3)^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight f left parenthesis x right parenthesis equals left parenthesis x minus 2 right parenthesis left parenthesis x minus 3 right parenthesis squared"
+  },
+  {
+   "latex": "g(x)=x^{2}-5x+6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight g left parenthesis x right parenthesis equals x squared minus 5 x plus 6"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "x=2,3\\mathrm{or}4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>&#160;</mo><mi>or</mi><mo>&#160;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2 comma space 3 space or space 4"
+  },
+  {
+   "latex": "y",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y"
+  },
+  {
+   "latex": "x=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 2"
+  },
+  {
+   "latex": "x=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3"
+  },
+  {
+   "latex": "x=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 3"
+  },
+  {
+   "latex": "x=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals 4"
+  },
+  {
+   "latex": "\\mathrm{Total} \\mathrm{area}=\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Total</mi><mo>&#160;</mo><mi>area</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Total space area equals 1 fourth plus 1 fourth equals 1 half"
+  },
+  {
+   "latex": "=\\frac{1}{2}\\mathrm{units}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo mathvariant=\"bold\">=</mo><mfrac><mn mathvariant=\"bold\">1</mn><mn mathvariant=\"bold\">2</mn></mfrac><mo mathvariant=\"bold\">&#160;</mo><msup><mi mathvariant=\"bold\">units</mi><mn mathvariant=\"bold\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "bold equals bold 1 over bold 2 bold space bold units to the power of bold 2"
+  }
+ ],
+ "stats": {
+  "blocks": 20,
+  "figures": 3,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 42
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_t6x5YNTWFJs9Vbwn",
+   "name": "Area Between a Curve and a Line",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Area Between a Curve and a Line"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What do we mean by 'area between a curve and a line'?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Areas** whose boundaries include a **curve** and a (non-vertical) **straight** **line** can be found using integration\n\n  - For an **area** under a **curve** a **definite** **integral** will be needed\n  - For an **area** under a **line** the shape formed will be a **trapezium** or **triangle**\n  \n    - **basic** **area** **formulae** can be used rather than a definite integral\n    - (although a definite integral would still work)\n- The **area** required could be the **sum** or **difference** of areas under the curve and line"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/07/5-4-4-ib-sl-aa-only-curv-line-part-1.png",
+   "file": "assets/2c267c0787b0-5-4-4-ib-sl-aa-only-curv-line-part-1.png",
+   "alt": "Sum of two areas under a curve and a line",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/07/5-4-4-ib-sl-aa-only-curv-line-part-2.png",
+   "file": "assets/b68a5307a828-5-4-4-ib-sl-aa-only-curv-line-part-2.png",
+   "alt": "Difference between two areas below a curve and a line",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the area between a curve and a line?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nIf not given, **sketch** the graphs of the curve and line on the same diagram\n- **STEP 2**\nFind the **intersections** of the curve and the line\n\n  - If no diagram is given this will help **identify the area(s)** to be found\n- **STEP 3**\nDetermine whether the area required is a **sum or difference**\n\n  - Calculate the **area under a curve** using a integral of the form `integral subscript a superscript b y space straight d x`\n  - Calculate the **area under a line** using\n  \n    - $A=\\frac{1}{2}bh$ for a **triangle**\n    - $A=\\frac{1}{2}(a+b)h$ for a **trapezium **\n    \n      - For a trapezium, y-coordinates will be needed for a  and  b\n      - and the height  h will lie parallel to the x-axis\n  - Those areas will need to be **added** or **subtracted**, depending on the question\n- **STEP 4**\n**Evaluate** the definite integral(s)\n\n  - Then find the **sum** or **difference** of areas as required"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Add information to any diagram provided\n\n  - intersections between lines and curves\n  - mark and shade the area you’re trying to find\n- If no diagram is provided, sketch one!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The region$R$ is bounded by the curve with equation $y=10x-x^{2}-16$ and the line with equation$y=8-x$.\n\n(a) Sketch the graphs of the curve and the line on the same set of axes.\n\nBe sure to Identify and label the region$R$ on your sketch, and indicate the points of intersection between the curve and the line.  You may assume without proof that the curve's $x$-axis intercepts all lie on the positive $x$-axis.\n\n> *Because of the minus sign in front of *$x^{2}$*, the curve will be an 'upside down u-shaped' parabola*\n\n*We need to find the points of intersection of the curve and line*\n*Set their equations equal and solve to find the *$x$*-coordinates*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row cell 8 minus x end cell equals cell 10 x minus x squared minus 16 end cell row cell x squared minus 11 x plus 24 end cell equals 0 row cell open parentheses x minus 3 close parentheses open parentheses x minus 8 close parentheses end cell equals 0 end table`\n\n$x=3\\mathrm{or}x=8$\n\n> *So the curve and line intersect when *$x=3$* and when *$x=8$\n\n> *Substitute into the equation of the line to find the corresponding *$y$*-coordinates*\n\n$x=3:y=8-3=5\\,\\,x=8:y=8-8=0$\n\n> *So the points of intersection are *`open parentheses 3 comma space 5 close parentheses`* and *`open parentheses 8 comma space 0 close parentheses`\n\n> *That gives us enough information to sketch the graphs*\n\n![Area formed between a curve and line](assets/bf5295460c1c-edexcel-igcse-fpure-area-betw-curve-and-line-we.png)\n\n(b) Find the area of region $R$\n\n> *Here we're going to need a **difference** of areas:  (area under curve)*$-$*(area under line)*\n\n> *The area under the line is a right-angled triangle with vertices at *`open parentheses 3 comma space 0 close parentheses`*, *`open parentheses 3 comma space 5 close parentheses`* and *`open parentheses 8 comma space 0 close parentheses`\n\n> *So the height is *$5-0=5$* and the base is *$8-3=5$\n\n$\\mathrm{Area} \\mathrm{of} \\mathrm{triangle}=\\frac{1}{2}\\times5\\times5=\\frac{25}{2}$\n\n> *For the area under a curve we need to use a definite integral between *$x=3$* and *$x=8$\n\n`table row cell Area space under space the space curve end cell equals cell integral subscript 3 superscript 8 open parentheses 10 x minus x squared minus 16 close parentheses space straight d x end cell row blank equals cell open square brackets 5 x squared minus 1 third x cubed minus 16 x close square brackets subscript 3 superscript 8 end cell row blank equals cell open parentheses 5 open parentheses 8 close parentheses squared minus 1 third open parentheses 8 close parentheses cubed minus 16 open parentheses 8 close parentheses close parentheses minus open parentheses 5 open parentheses 3 close parentheses squared minus 1 third open parentheses 3 close parentheses cubed minus 16 open parentheses 3 close parentheses close parentheses end cell row blank equals cell open parentheses 320 minus 512 over 3 minus 128 close parentheses minus open parentheses 45 minus 9 minus 48 close parentheses end cell row blank equals cell 64 over 3 minus open parentheses negative 12 close parentheses end cell row blank equals cell 100 over 3 end cell end table`\n\n> *For the area of *$R$*, subtract the area of the triangle from the area under the curve*\n\n$\\mathrm{Area} \\mathrm{of} \\mathrm{region}R=\\frac{100}{3}-\\frac{25}{2}=\\frac{125}{6}$\n\n$\\frac{125}{6}\\mathrm{units}^{2}$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZQ4j8c8Zt59FSkXq",
+   "name": "Area Between 2 Curves",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Area Between 2 Curves"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What do we mean by 'area between two curves'?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Areas** whose boundaries include **two** **curves** can be found by integration\n\n  - The **area** **between** **two** **curves** will be the **difference** of the areas under the two curves\n  \n    - both areas will require a **definite** **integral**\n  - Finding **points of intersection** may involve a more awkward equation than solving for a curve and a line"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.10-Notes-curv_hard.png",
+   "file": "assets/66b4b74d91fb-8-2-10-notes-curv-hard.png",
+   "alt": "Areas formed between two curves",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the area between two curves?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nIf not given, **sketch** the graphs of both curves on the same diagram\n- **STEP 2**\nIf not given, find the **intersections** of the two curves\n\n  - These are needed to identify the **area(s)** to be calculated\n  - and also to set up the correct **integrals**\n- **STEP 3**\nDetermine which curve is the **‘upper’ boundary** for each region\n\n  - For each region, the area is given by **definite integral** of the form`space integral subscript a superscript b left parenthesis y subscript 1 minus y subscript 2 right parenthesis space straight d x`\n  \n    - $y_{1}$ is the function forming the **‘upper’ boundary**\n    - $y_{2}$ is the function forming the ‘**lower’ boundary**\n  - Be careful when there is **more than one** region\n  \n    - Which functions form the ‘upper’ and ‘lower’ boundaries can **change**"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 4**\n**Evaluate** the definite integral(s)\n\n  - If there is **more than one** region, **add** their areas together to find the total area\n  - As long as '$y_{1}$' in the integrals is always the **upper** function\n  \n    - then  $y_{1}-y_{2}\\geq0$\n    - This means you don't have to worry about **negative integrals**\n    - even if part or all of the area between the curves is **below the *****x-*****axis**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Add information to any given diagram as you work through a question\n\n  - intersections between curves\n  - mark and shade the area you're trying to find\n- If no diagram is provided sketch one"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The diagram below shows the curves with equations $y=f(x)$ and $y=g(x)$, where  $f(x)=(x-2)(x-3)^{2}$  and  $g(x)=x^{2}-5x+6$.\n\nFind the area of the shaded region.\n\n![Areas formed between a cubic and a quadratic](assets/b79820130e05-5-4-4-ib-sl-aa-only-we3-qu-img.png)\n\n> *Start by finding the points of intersection*\n\n> *Set the equations of the curves equal to each other, and solve to find the *$x$*-coordinates*\n\n`open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared equals x squared minus 5 x plus 6`\n\n> *It's tempting to expand the brackets on the left-hand side of the equation*\n*Actually. here it will be more useful to factorise the right-hand side*\n\n`table row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared end cell equals cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses end cell row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared minus open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses end cell equals 0 row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses open parentheses open parentheses x minus 3 close parentheses minus 1 close parentheses end cell equals 0 row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses open parentheses x minus 4 close parentheses end cell equals 0 end table`\n\n$x=2,3\\mathrm{or}4$\n\n> *Note that we don't need to know the corresponding *$y$*-coordinates here!*\n\n> *We have two regions here*\n\n> *The first region is from *$x=2$* to *$x=3$*, and *`straight f open parentheses x close parentheses`* is the 'upper curve'*\n\n`table row cell Region space 1 end cell equals cell integral subscript 2 superscript 3 open parentheses open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared minus open parentheses x squared minus 5 x plus 6 close parentheses close parentheses space straight d x end cell row blank equals cell integral subscript 2 superscript 3 open parentheses x cubed minus 9 x squared plus 26 x minus 24 close parentheses space straight d x end cell row blank equals cell open square brackets 1 fourth x to the power of 4 minus 3 x cubed plus 13 x squared minus 24 x close square brackets subscript 2 superscript 3 end cell row blank equals cell open parentheses 1 fourth open parentheses 3 close parentheses to the power of 4 minus 3 open parentheses 3 close parentheses cubed plus 13 open parentheses 3 close parentheses squared minus 24 open parentheses 3 close parentheses close parentheses minus open parentheses 1 fourth open parentheses 2 close parentheses to the power of 4 minus 3 open parentheses 2 close parentheses cubed plus 13 open parentheses 2 close parentheses squared minus 24 open parentheses 2 close parentheses close parentheses end cell row blank equals cell open parentheses 81 over 4 minus 81 plus 117 minus 72 close parentheses minus open parentheses 4 minus 24 plus 52 minus 48 close parentheses end cell row blank equals cell negative 63 over 4 minus open parentheses negative 16 close parentheses end cell row blank equals cell 1 fourth end cell end table`\n\n> *The second region is from *$x=3$* to *$x=4$* and *`straight g open parentheses x close parentheses`* is the 'upper curve'*\n\n`table row cell Region space 2 end cell equals cell integral subscript 3 superscript 4 open parentheses open parentheses x squared minus 5 x plus 6 close parentheses minus open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared close parentheses space straight d x end cell row blank equals cell integral subscript 3 superscript 4 open parentheses negative x cubed plus 9 x squared minus 26 x plus 24 close parentheses space straight d x end cell row blank equals cell open square brackets negative 1 fourth x to the power of 4 plus 3 x cubed minus 13 x squared plus 24 x close square brackets subscript 3 superscript 4 end cell row blank equals cell open parentheses negative 1 fourth open parentheses 4 close parentheses to the power of 4 plus 3 open parentheses 4 close parentheses cubed minus 13 open parentheses 4 close parentheses squared plus 24 open parentheses 4 close parentheses close parentheses minus open parentheses negative 1 fourth open parentheses 3 close parentheses to the power of 4 plus 3 open parentheses 3 close parentheses cubed minus 13 open parentheses 3 close parentheses squared plus 24 open parentheses 3 close parentheses close parentheses end cell row blank equals cell open parentheses negative 64 plus 192 minus 208 plus 96 close parentheses minus open parentheses negative 81 over 4 plus 81 minus 117 plus 72 close parentheses end cell row blank equals cell 16 minus 63 over 4 end cell row blank equals cell 1 fourth end cell end table`\n\n> *Now just add the two areas together to get the total area*\n\n$\\mathrm{Total} \\mathrm{area}=\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}$\n\n**Final answer:** **Area of the shaded region **$=\\frac{1}{2}\\mathrm{units}^{2}$"
+  }
+ ]
+}

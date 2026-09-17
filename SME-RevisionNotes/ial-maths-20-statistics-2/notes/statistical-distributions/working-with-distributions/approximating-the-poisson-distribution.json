@@ -1,0 +1,252 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_n3xCmJ6FtSWWjZ6n",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/working-with-distributions/approximating-the-poisson-distribution",
+ "title": "Approximating the Poisson Distribution",
+ "page_title": "Approximating the Poisson Distribution | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "working-with-distributions",
+   "approximating-the-poisson-distribution"
+  ],
+  "section": "statistical-distributions",
+  "topic": "working-with-distributions",
+  "leaf": "approximating-the-poisson-distribution"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Working with Distributions",
+  "subtopic": "Approximating the Poisson Distribution"
+ },
+ "updated_at": "2026-07-02T08:19:38.581Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_PjFxtJZSDVwMp4RJ",
+  "spcpt_YkKMWYDSjftxhVK2"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "3.5\\leqX_{N}<4.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mn>3</mn><mo>.</mo><mn>5</mn><mo>≤</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "3.5 less or equal than X subscript N less than 4.5"
+  },
+  {
+   "latex": "P(3.5\\leqX_{N}<4.5)=P(3.5<X_{N}<4.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>≤</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis 3.5 less or equal than X subscript N less than 4.5 right parenthesis equals P left parenthesis 3.5 less than X subscript N less than 4.5 right parenthesis"
+  },
+  {
+   "latex": "P(X=k)\\approxP(k-0.5<X_{N}<k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>≈</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>k</mi><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mi>k</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals k right parenthesis almost equal to straight P left parenthesis k minus 0.5 less than X subscript N less than k plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leqk)\\approxP(X_{N}<k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than k right parenthesis almost equal to straight P left parenthesis X subscript N less than k plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "P(X<k)\\approxP(X_{N}<k-0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than k right parenthesis almost equal to straight P left parenthesis X subscript N less than k minus 0.5 right parenthesis"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "P(X\\geqk)\\approxP(X_{N}>k-0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">-</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater or equal than k right parenthesis almost equal to straight P left parenthesis X subscript N greater than k minus 0.5 right parenthesis"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "P(X>k)\\approxP(X_{N}>k+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than k right parenthesis almost equal to straight P left parenthesis X subscript N greater than k plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "P(a<X\\leqb)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>a</mi><mo>&lt;</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis a less than X less or equal than b right parenthesis"
+  },
+  {
+   "latex": "P(X>a)\\approxP(X_{N}>a+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo><mo>≈</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&gt;</mo><mi>a</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than a right parenthesis almost equal to straight P left parenthesis X subscript N greater than a plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(X\\leqb)\\approxP(X_{N}>b+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">b</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≈</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><msub><mi mathsize=\"16px\">X</mi><mi mathsize=\"16px\">N</mi></msub><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">b</mi><mo mathsize=\"16px\">+</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than b right parenthesis almost equal to straight P left parenthesis X subscript N greater than b plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "P(a+0.5<X_{N}<b+0.5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><msub><mi>X</mi><mi>N</mi></msub><mo>&lt;</mo><mi>b</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis a plus 0.5 less than X subscript N less than b plus 0.5 right parenthesis"
+  },
+  {
+   "latex": "λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>λ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "lambda"
+  },
+  {
+   "latex": "μ=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>μ</mi><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "mu equals lambda"
+  },
+  {
+   "latex": "σ^{2}=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sigma squared equals lambda"
+  },
+  {
+   "latex": "σ=\\sqrt{λ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>σ</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sigma equals square root of lambda"
+  },
+  {
+   "latex": "μ=σ^{2}=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>μ</mi><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "mu equals sigma squared equals lambda"
+  }
+ ],
+ "stats": {
+  "blocks": 18,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 20
+ },
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Calculating probabilities using a binomial or Poisson distribution can take a while. Under certain conditions we can use a normal distribution to approximate these probabilities. As we are going from a discrete distribution (binomial or Poisson) to a continuous distribution (normal) we need to apply continuity corrections."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_PjFxtJZSDVwMp4RJ",
+   "name": "Continuity Corrections",
+   "definition": "",
+   "video_id": "881766444"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Continuity Corrections"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **binomial **and **Poisson distribution are discrete** and the **normal distribution is continuous**\n- A **continuity correction** takes this into account when using a normal approximation\n- The probability being found will need to be changed from a discrete variable, X to a continuous variable, *X*<sub>*N*</sub>\n\n  - For example, *X* = 4 for Poisson can be thought of as $3.5\\leqX_{N}<4.5$  for normal as every number within this interval rounds to 4\n  - Remember that for a normal distribution the probability of a single value is zero so $P(3.5\\leqX_{N}<4.5)=P(3.5<X_{N}<4.5)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I apply continuity corrections?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Think about what is **largest/smallest integer** that can be included in the inequality for the discrete distribution and then find its **upper/lower bound**\n- $P(X=k)\\approxP(k-0.5<X_{N}<k+0.5)$\n- $P(X\\leqk)\\approxP(X_{N}<k+0.5)$\n\n  - You add 0.5 as you want to include $k$ in the inequality\n- $P(X<k)\\approxP(X_{N}<k-0.5)$\n\n  - You subtract 0.5 as you don't want to include $k$ in the inequality\n- $P(X\\geqk)\\approxP(X_{N}>k-0.5)$\n\n  - You subtract 0.5 as you want to include $k$ in the inequality\n- $P(X>k)\\approxP(X_{N}>k+0.5)$\n\n  - You add 0.5 as you don't want to include $k$ in the inequality\n- For a closed inequality such as $P(a<X\\leqb)$\n\n  - Think about each inequality separately and use above\n  - $P(X>a)\\approxP(X_{N}>a+0.5)$\n  - $P(X\\leqb)\\approxP(X_{N}>b+0.5)$\n  - Combine to give\n  - $P(a+0.5<X_{N}<b+0.5)$"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_YkKMWYDSjftxhVK2",
+   "name": "Normal Approximation of Poisson",
+   "definition": "",
+   "video_id": "882494936"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Normal Approximation of Poisson"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "When can I use a normal distribution to approximate a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A Poisson distribution `X tilde P o left parenthesis lambda right parenthesis`  can be **approximated** by a normal distribution `X subscript N tilde N left parenthesis mu comma sigma squared right parenthesis`  provided\n\n  - $λ$** is large**\n- Remember that the mean and variance of a Poisson distribution are approximately equal, therefore the parameters of the approximating distribution will be:\n\n  - $μ=λ$\n  - $σ^{2}=λ$\n  - $σ=\\sqrt{λ}$\n- The greater the value of *λ* in a Poisson distribution, the more symmetrical the distribution becomes and the closer it resembles the bell-shaped curve of a normal distribution"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-4-2-approximations-of-distributions-diagram-1.png",
+   "file": "assets/c60e22bdc860-2-4-2-approximations-of-distributions-diagram-1.png",
+   "alt": "2-4-2-approximations-of-distributions-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why do we use approximations?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If there are a large number of values for a Poisson distribution there could be a lot of calculations involved and it is inefficient to work with the Poisson distribution\n\n  - These days calculators can find Poisson probabilities so approximations are no longer necessary\n  - However it can still be **easier** to work with a normal distribution\n  \n    - You can calculate the probability of a range of values quickly\n    - You can use the inverse normal distribution function (most calculators don't have an inverse Poisson distribution function)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I approximate a probability?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**: Find the **mean** and **variance** of the approximating distribution\n\n  - $μ=σ^{2}=λ$\n- **STEP 2**: Apply **continuity corrections** to the inequality\n- **STEP 3**: Find the **probability** of the new corrected inequality\n\n  - Find the standard normal probability and use the **table of the normal distribution**\n- The probability will not be exact as it is an approximation but provided *λ* is large enough then it will be a close approximation"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The number of hits on a revision web page per hour can be modelled by the Poisson distribution with a mean of 40.  Use a normal approximation to find the probability that there are more than 50 hits on the webpage in a given hour.\n\n**Answer:**\n\n![2-4-2-approximations-of-distributions-we-solution-1](assets/1fe450ae913f-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The question will make it clear if an approximation is to be used, *λ* will be bigger than the values in the formula booklet."
+  }
+ ]
+}

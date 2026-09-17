@@ -1,0 +1,289 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wSCqmqgVJsDYbCc8",
+ "course_slug": "ial-further-maths-18-further-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/revision-notes/matrices/matrix-algebra/introduction-to-matrices",
+ "title": "Introduction to Matrices",
+ "page_title": "Introduction to Matrices | Edexcel International A Level (IAL) Further Maths Revision Notes 2018",
+ "path": {
+  "segs": [
+   "matrices",
+   "matrix-algebra",
+   "introduction-to-matrices"
+  ],
+  "section": "matrices",
+  "topic": "matrix-algebra",
+  "leaf": "introduction-to-matrices"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Matrix Algebra",
+  "subtopic": "Introduction to Matrices"
+ },
+ "updated_at": "2024-04-10T09:27:00.609Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_CRFsjrVKdnBVB9Qg",
+  "spcpt_JDWV8bD7tNcdGzCF"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "A=(a_{i,j})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>=</mo><mo>(</mo><msub><mi>a</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A equals left parenthesis a subscript i comma j end subscript right parenthesis"
+  },
+  {
+   "latex": "i=1,2,3,...,m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo> </mo><mn>2</mn><mo>,</mo><mo> </mo><mn>3</mn><mo>,</mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo> </mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "i equals 1 comma space 2 comma space 3 comma space... comma space m"
+  },
+  {
+   "latex": "j=1,2,3,...,n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>j</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>,</mo><mo>&#160;</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "j equals 1 comma space 2 comma space 3 comma space... comma space n"
+  },
+  {
+   "latex": "a_{i,j}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>a</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a subscript i comma j end subscript"
+  },
+  {
+   "latex": "i",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>i</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "i"
+  },
+  {
+   "latex": "j",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>j</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "j"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "m\\timesn",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#215;</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "m cross times n"
+  },
+  {
+   "latex": "m\\times1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#215;</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "m cross times 1"
+  },
+  {
+   "latex": "1\\timesn",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>&#215;</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "1 cross times n"
+  },
+  {
+   "latex": "n\\timesn",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#215;</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n cross times n"
+  },
+  {
+   "latex": "a_{i,j}=b_{i,j}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>a</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow></msub><mo>=</mo><msub><mi>b</mi><mrow><mi>i</mi><mo>,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a subscript i comma j end subscript equals b subscript i comma j end subscript"
+  },
+  {
+   "latex": "0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">0</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold 0"
+  },
+  {
+   "latex": "I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold I"
+  },
+  {
+   "latex": "I_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi mathvariant=\"bold\">I</mi><mi>n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold I subscript n"
+  },
+  {
+   "latex": "n\\timesn",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>&#215;</mo><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "n cross times n"
+  },
+  {
+   "latex": "kA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mi mathvariant=\"bold\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "k bold A"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "A+B=B+A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>+</mo><mi mathvariant=\"bold\">B</mi><mo>=</mo><mi mathvariant=\"bold\">B</mi><mo>+</mo><mi mathvariant=\"bold\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A plus bold B equals bold B plus bold A"
+  },
+  {
+   "latex": "A-B\\neqB-A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>-</mo><mi mathvariant=\"bold\">B</mi><mo>&#8800;</mo><mi mathvariant=\"bold\">B</mi><mo>-</mo><mi mathvariant=\"bold\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A minus bold B not equal to bold B minus bold A"
+  },
+  {
+   "latex": "A-B=A+(-B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>-</mo><mi mathvariant=\"bold\">B</mi><mo>=</mo><mi mathvariant=\"bold\">A</mi><mo>+</mo><mo>(</mo><mo>-</mo><mi mathvariant=\"bold\">B</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A minus bold B equals bold A plus left parenthesis negative bold B right parenthesis"
+  },
+  {
+   "latex": "A+(B+C)=(A+B)+C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>+</mo><mo>(</mo><mi mathvariant=\"bold\">B</mi><mo>+</mo><mi mathvariant=\"bold\">C</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi mathvariant=\"bold\">A</mi><mo>+</mo><mi mathvariant=\"bold\">B</mi><mo>)</mo><mo>+</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A plus left parenthesis bold B plus bold C right parenthesis equals left parenthesis bold A plus bold B right parenthesis plus bold C"
+  },
+  {
+   "latex": "A-(B-C)\\neq(A-B)-C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>-</mo><mo>(</mo><mi mathvariant=\"bold\">B</mi><mo>-</mo><mi mathvariant=\"bold\">C</mi><mo>)</mo><mo>&#8800;</mo><mo>(</mo><mi mathvariant=\"bold\">A</mi><mo>-</mo><mi mathvariant=\"bold\">B</mi><mo>)</mo><mo>-</mo><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A minus left parenthesis bold B minus bold C right parenthesis not equal to left parenthesis bold A minus bold B right parenthesis minus bold C"
+  },
+  {
+   "latex": "A+0=A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>+</mo><mn mathvariant=\"bold\">0</mn><mo>=</mo><mi mathvariant=\"bold\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A plus bold 0 equals bold A"
+  },
+  {
+   "latex": "0-A=-A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">0</mn><mo>-</mo><mi mathvariant=\"bold\">A</mi><mo>=</mo><mo>-</mo><mi mathvariant=\"bold\">A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold 0 minus bold A equals negative bold A"
+  },
+  {
+   "latex": "A+B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">A</mi><mo>+</mo><mi mathvariant=\"bold\">B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A plus bold B"
+  },
+  {
+   "latex": "-10B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>10</mn><mi mathvariant=\"bold\">B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "negative 10 bold B"
+  }
+ ],
+ "stats": {
+  "blocks": 17,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 29
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_CRFsjrVKdnBVB9Qg",
+   "name": "Introduction to Matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **matrix** is a rectangular grid (array) of **elements** (numbers or letters) arranged in **rows** and **columns**\n\n  - The plural of matrix is **matrices**\n- The **order **(**dimensions**)** **of a matrix is its **number of rows × number of columns**\n\n  - a 2 × 1 matrix is `open parentheses table row a row b end table close parentheses`\n  \n    - this is also called a **column matrix** or a **column** **vector**\n  - a 2 × 2 matrix is `open parentheses table row a b row c d end table close parentheses`\n  \n    - this is called a **square **matrix\n- A **bold capital **letter is often used to represent a matrix\n\n  - `bold A equals open parentheses table row 5 2 row 0 4 end table close parentheses`, `bold B equals open parentheses table row 4 row 3 end table close parentheses`\n- **2D coordinates **can be written as a column matrix\n\n  - The point `open parentheses 3 comma space 5 close parentheses` is `open parentheses table row 3 row 5 end table close parentheses`"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can use **subscript **notation to refer to **elements** in a matrix\n\n  - Matrix $A$ is $A=(a_{i,j})$ where $i=1,2,3,...,m$ and $j=1,2,3,...,n$\n  \n    - $a_{i,j}$ refers to the element in row $i$, column $j$\n    - The **order** of $A$ is $m\\timesn$ (rows × columns)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/u0sPLROY_1-7-1-ib-ai-hl-introduction-to-matrices-diagram.png",
+   "file": "assets/4a5122f5fe39-u0splroy-1-7-1-ib-ai-hl-introduction-to-matrices.png",
+   "alt": "A matrix written in subscript notation",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What type of matrices do I need to know?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **column matrix** (or column vector) is a matrix with a **single column**\n\n  - Order $m\\times1$\n- A **row matrix** is a matrix with a **single row**\n\n  - Order $1\\timesn$\n- A **square matrix** is one in which the number of rows is **equal** to the number of columns\n\n  - Order $n\\timesn$\n- Two matrices are **equal** when they are of the **same order** and their **corresponding elements **are **equal**\n\n  - $a_{i,j}=b_{i,j}$ for all elements\n- A **zero matrix**,** **$0$, is a matrix in which all the elements are zero\n\n  - For example, the 2 × 2 zero matrix is `bold 0 equals open parentheses table row 0 0 row 0 0 end table close parentheses`\n- An** identity matrix**, $I$, is a **square** matrix in which all elements along the **leading diagonal** (top-left to bottom right) are 1\n\n  - The rest of the elements are zero\n  - For example, the 2 × 2 identity matrix is  `bold I equals open parentheses table row 1 0 row 0 1 end table close parentheses`\n  - The notation $I_{n}$ can be used to specify the $n\\timesn$ identity matrix"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_JDWV8bD7tNcdGzCF",
+   "name": "Basic Operations with Matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Basic Operations with Matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I multiply a matrix by a scalar?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To multiply any matrix by a **scalar** (a number), **multiply each element **by that scalar\n\n  - If `bold A equals open parentheses table row 5 2 row 0 4 end table close parentheses` then `2 bold A equals 2 open parentheses table row 5 2 row 0 4 end table close parentheses equals open parentheses table row cell 2 cross times 5 end cell cell 2 cross times 2 end cell row cell 2 cross times 0 end cell cell 2 cross times 4 end cell end table close parentheses equals open parentheses table row 10 4 row 0 8 end table close parentheses`\n- Multiplying by a **negative** scalar changes the **sign** of each element in the matrix\n- **Lower case** letters often refer to scalar multiples\n\n  - $kA$ is the matrix $A$ multiplied by the scalar $k$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I add and subtract matrices?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Two matrices of the **same order** can be added (or subtracted) by adding (or subtracting) **corresponding elements**\n\n  - The answer is a matrix of the **same order**\n  - For example, `open parentheses table row 1 2 row cell negative 3 end cell 0 row 2 1 end table close parentheses plus open parentheses table row 3 0 row 3 cell negative 1 end cell row 4 1 end table close parentheses equals open parentheses table row cell 1 plus 3 end cell cell 2 plus 0 end cell row cell negative 3 plus 3 end cell cell 0 minus 1 end cell row cell 2 plus 4 end cell cell 1 plus 1 end cell end table close parentheses equals open parentheses table row 4 2 row 0 cell negative 1 end cell row 6 2 end table close parentheses`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What properties of matrix addition do I need to know?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $A+B=B+A$\n\n  - Matrix **addition** is **commutative**\n  \n    - You can swap the order\n  - Matrix **subtraction** is **not** commutative\n  \n    - $A-B\\neqB-A$\n- $A-B=A+(-B)$\n\n  - **Subtraction** is the same as **adding **a **negative**\n- $A+(B+C)=(A+B)+C$\n\n  - Matrix **addition** is **associative **\n  \n    - To add three matrices, you can start with the first two, or the last two\n  - Matrix **subtraction** is **not **associative\n  \n    - $A-(B-C)\\neq(A-B)-C$\n    - Try expanding the brackets to see\n- $A+0=A$\n\n  - Adding the** zero **matrix has no effect\n- $0-A=-A$"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Consider the matrices `bold A equals open parentheses table row cell negative 4 end cell 2 row 7 3 row 1 cell negative 5 end cell end table close parentheses`, `bold B equals open parentheses table row 2 6 row 5 cell negative 9 end cell row cell negative 2 end cell cell negative 3 end cell end table close parentheses`.\n\n(a)  Find $A+B$.\n\n> *The matrices have the same order (dimensions) *\n*Corresponding elements can be added*\n\n`bold A plus bold B equals open parentheses table row cell negative 4 plus 2 end cell cell 2 plus 6 end cell row cell 7 plus 5 end cell cell 3 plus open parentheses negative 9 close parentheses end cell row cell 1 plus open parentheses negative 2 close parentheses end cell cell negative 5 plus open parentheses negative 3 close parentheses end cell end table close parentheses`\n\n`bold A plus bold B equals open parentheses table row cell negative 2 end cell 8 row 12 cell negative 6 end cell row cell negative 1 end cell cell negative 8 end cell end table close parentheses`\n\n(b)  Find $-10B$.\n\n> *Multiply each element by -10*\n\n* *`table row cell negative 10 bold B end cell equals cell negative 10 open parentheses table row 2 6 row 5 cell negative 9 end cell row cell negative 2 end cell cell negative 3 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 10 cross times 2 end cell cell negative 10 cross times 6 end cell row cell negative 10 cross times 5 end cell cell negative 10 cross times open parentheses negative 9 close parentheses end cell row cell negative 10 cross times open parentheses negative 2 close parentheses end cell cell negative 10 cross times open parentheses negative 3 close parentheses end cell end table close parentheses end cell end table`\n\n`table row cell negative 10 bold B end cell equals cell open parentheses table row cell negative 20 end cell cell negative 60 end cell row cell negative 50 end cell 90 row 20 30 end table close parentheses end cell end table`"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Tp4XJBmxcYf6HzHP",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-and-graph-theory/algorithms/searching-algorithms",
+ "title": "Searching Algorithms",
+ "page_title": "Searching Algorithms | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-and-graph-theory",
+   "algorithms",
+   "searching-algorithms"
+  ],
+  "section": "algorithms-and-graph-theory",
+  "topic": "algorithms",
+  "leaf": "searching-algorithms"
+ },
+ "titles": {
+  "section": "Algorithms & Graph Theory",
+  "topic": "Algorithms",
+  "subtopic": "Searching Algorithms"
+ },
+ "updated_at": "2026-07-02T08:19:38.464Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Zmf4G8ptrjJTyQzz"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 10,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Zmf4G8ptrjJTyQzz",
+   "name": "Binary Search",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Binary Search"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the binary search algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The** binary search algorithm** inspects an **ordered **list to determine if a **specified item** is in the list\n\n  - If the item **is in the list**, the search algorithm will find and **locate** the item"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How does the binary search algorithm work?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **binary search algorithm **works by finding a **pivot **that splits an ordered** sub-list **into** two halves**\n\n  - In the first search, the sub-list is the complete **original list**\n- The item being searched for is** compared to the pivot**\n\n  - If the item is the** same** as the pivot then the item has been **found**\n  - If the item comes **before** the pivot, the search continues in the **sub-list before** the pivot\n  - If the item comes **after **the pivot, the search continues in the **sub-list after** the pivot\n- The algorithm is **complete** when\n\n  - the item has been **located **or\n  - the item is identified as **not being in the list**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Which item is the pivot in the binary search algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The** pivot** is the value in the middle of a **sub-list** of items\n\n  - To find the **position **of the pivot\n  \n    - Add the positions of the **first and last items** in the sub-list\n    - Divide the value by 2\n    - Round up to the **next integer value** if necessary"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- If the items in the list are not numbered, it is a good idea to **number** them in **ascending order **as a first step\n- Make a clear statement at the end of the algorithm to show that it is complete\n\n  - If the item has been found: 'The search is complete, ..... has been found in the list'\n  - If the item has not been found: '..... is not in the list'"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Below is a list of names.\n\n1. Becky\n2. Jason\n3. Juan\n4. Kia\n5. Lorcan\n6. Ryan\n7. Samira\n8. Selina\n\nUse the binary search algorithm to find the following names in the list.\n\na) Jason\n\n**Answer:**\n\n> *Find the pivot *\n\n`fraction numerator open parentheses 1 plus 8 close parentheses over denominator 2 end fraction equals 4.5 space rightwards arrow 5`*th item*\n\n| *5. Lorcan* |\n|---|\n\n> *Compare 'Jason' to the pivot*\n\n*Jason comes before Lorcan*\n*Reject items 5 to 10*\n\n> *Write down the reduced list*\n\n| *1. Becky*<br>*2. Jason*<br>*3. Juan*<br>*4. Kia* |\n|---|\n\n> *Find the pivot of the reduced list*\n\n`fraction numerator open parentheses 1 plus 4 close parentheses over denominator 2 end fraction equals 2.5 space rightwards arrow space 3`*rd item*\n\n| *3. Juan* |\n|---|\n\n> *Compare 'Jason' to the pivot*\n\n*Jason comes before Juan*\n*Reject items 3 to 4*\n\n> *Write down the reduced list*\n\n| *1. Becky*<br>*2. Jason* |\n|---|\n\n> *Find the pivot of the reduced list*\n\n`fraction numerator open parentheses 1 plus 2 close parentheses over denominator 2 end fraction equals 1.5 space rightwards arrow space 2`*nd item*\n\n| *2. Jason* |\n|---|\n\n> *The name has been found so write a final statement*\n\n**Final answer:** **The search is complete**\n**Jason has been found**\n\n** **\n\nb) Michelle\n\n**Answer:**\n\n> *Find the pivot*\n\n`fraction numerator open parentheses 1 plus 8 close parentheses over denominator 2 end fraction equals 4.5 space rightwards arrow 5`*th item*\n\n| *5. Lorcan* |\n|---|\n\n> *Compare 'Michelle' to the pivot*\n\n*Michelle comes after Lorcan*\n*Reject items 1 to 5*\n\n> *Write down the reduced list*\n\n| *6. Ryan*<br>*7. Samira*<br>*8. Selina* |\n|---|\n\n> *Find the pivot of the reduced list*\n\n`fraction numerator open parentheses 6 plus 8 close parentheses over denominator 2 end fraction equals 7`*th item*\n\n| *7. Samira* |\n|---|\n\n> *Compare Michelle to the pivot*\n\n*Michelle comes before Samira*\n*Reject items 7 to 8*\n\n> *Write down the reduced list*\n\n> *The list has been reduced to one name, which is not Michelle*\n\n| *6. Ryan* |\n|---|\n\n*Reject item 6*\n\n> *Write a final statement*\n\n**Final answer:** **Michelle is not in the list**"
+  }
+ ]
+}

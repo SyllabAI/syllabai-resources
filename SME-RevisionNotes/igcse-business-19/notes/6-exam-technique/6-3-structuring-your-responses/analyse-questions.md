@@ -1,0 +1,35 @@
+---
+note_id: "rn_FXqbvjW6fNDfpGD5"
+title: "Analyse Questions"
+source: https://www.savemyexams.com/igcse/business/edexcel/19/revision-notes/6-exam-technique/6-3-structuring-your-responses/analyse-questions
+path: 6-exam-technique/6-3-structuring-your-responses/analyse-questions
+updated_at: "2025-11-13T11:21:47.938Z"
+spec_point_ids: ["spcpt_z68Dr9MrqQrT4R8n"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Analyse Questions
+
+## How do I answer an Edexcel IGCSE Business 'Analyse' question?
+
+> **Spec point** — `spcpt_z68Dr9MrqQrT4R8n`
+
+## How do I answer an Edexcel IGCSE Business 'Analyse' question?
+
+- You are required to make valid points and  **use the case study evidence **and** develop arguments** in your answer
+- A decision or conclusion is not required
+
+#### The level of response marking grid
+
+- 6-mark analyse responses are assessed using a marking grid
+- A mark is determined by considering how well, overall, the response demonstrate the skills of **knowledge, application **and** analysis**
+- The examiner uses the grid to find the best fit for the response
+
+![Table with four rows detailing marking criteria for business knowledge. Levels range from 0-3 with descriptions of understanding and interconnected points. Marks range 0-6.](../../../assets/71be91cc67b0-41314-6-mark-analyse-grid.bin)
+
+#### Example
+
+| Tesla is a public limited company based in California, USA. Its founder and main shareholder, Elon Musk, wanted to produce an electric car that is affordable to a large number of potential customers. This car is called the Tesla Model 3.<br><br>Introduced in 2017, the basic version of the Model 3 was originally priced at \$50,000 and the company wanted to reduce this price to \$35,000 by 2019. However, this was difficult to achieve because Tesla’s California factory suffered from low levels of productivity. These problems resulted in Tesla making a \$976 million loss in 2018<br><br>Following the introduction of tariffs on US imports by the Chinese government in 2018, Tesla decided to invest \$5 billion in the construction of a new car factory in Shanghai, China. This factory will use flow production. However, with only \$2.4 billion of available capital, Tesla needs to raise external finance to fund it.<br><br>In 2019, Tesla decided to close most of its showrooms to reduce costs. The company believes customers will be happy to purchase electric cars using e-commerce.<br><br>Analyse the impact on Tesla of lowering the price of its Model 3 electric vehicle (EV).<br><br>[6] |
+|---|
+| ![The image shows the words Knowledge, Application, and Analysis in yellow, blue, and pink shapes, respectively.](assets/c12373368a72-24328-k-ap-an-key.bin)<br><br>![Text discussing Tesla's Model 3 price reduction to compete in the budget segment, with media attention and the need to meet customer expectations.](assets/e6af8ca0e934-7955-6-mark-analyse-example.bin) |

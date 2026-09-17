@@ -1,0 +1,156 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_rgrZVrBsdTYxsxJj",
+ "course_slug": "igcse-further-maths-19",
+ "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/revision-notes/calculus/differentiation/introduction-to-derivatives",
+ "title": "Introduction to Derivatives",
+ "page_title": "Introduction to Derivatives | Edexcel IGCSE Further Pure Maths Revision Notes 2017",
+ "path": {
+  "segs": [
+   "calculus",
+   "differentiation",
+   "introduction-to-derivatives"
+  ],
+  "section": "calculus",
+  "topic": "differentiation",
+  "leaf": "introduction-to-derivatives"
+ },
+ "titles": {
+  "section": "Calculus",
+  "topic": "Differentiation",
+  "subtopic": "Introduction to Derivatives"
+ },
+ "updated_at": "2024-10-16T09:54:31.951Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_xMC4T9xtr5hyRDt5"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+  },
+  {
+   "latex": "x=a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "x equals a"
+  }
+ ],
+ "stats": {
+  "blocks": 17,
+  "figures": 4,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_xMC4T9xtr5hyRDt5",
+   "name": "Introduction to Derivatives",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Derivatives"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is differentiation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Differentiation** is part of the branch of mathematics called calculus\n- It is concerned with the **rate** at which **changes** takes place\n\n  - So it has many **real‑world** applications:\n  \n    - The **rate** at which a car is moving (its speed)\n    - The **rate** at which a virus spreads amongst a population"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/2.16.1-Diff-Basics-Notes-fig1.png",
+   "file": "assets/715b41f6eb70-2-16-1-diff-basics-notes-fig1.png",
+   "alt": "Example of measuring the speed of a car",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- To begin to understand differentiation you’ll need to understand **gradients**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How are gradients related to rates of change?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Gradient** in everyday language refers to **steepness**.\n\n  - For example, the **gradient** of a road up the side of a hill is important to lorry drivers\n- On a **graph** the gradient refers to how 'steep' a **line** or a **curve** is\n- It is a way of measuring how fast* ****y***  changes as ***x***  changes\n\n  - This may be referred to as the '**rate of change of *****y  *****with respect to *****x****'*\n- So **gradient** describes the **rate** at which **change** happens"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/2.16.1-Diff-Basics-Notes-fig2.png",
+   "file": "assets/19f5733cba58-2-16-1-diff-basics-notes-fig2.png",
+   "alt": "Diff Basics Notes fig2, downloadable IGCSE & GCSE Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the gradient of a curve using its graph?"
+  },
+  {
+   "type": "paragraph",
+   "md": "For a **straight line** the gradient is always the same (**constant**)"
+  },
+  {
+   "type": "bullets",
+   "md": "- Recall  ***y***** = *****mx***** + *****c***, where ***m***  is the gradient"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/2.16.1-Diff-Basics-Notes-fig3.png",
+   "file": "assets/8ed1600cac25-2-16-1-diff-basics-notes-fig3.png",
+   "alt": "Gradient of a line",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- For a **curve** the **gradient** changes as the value of ***x***  changes\n\n  - A **tangent** is a straight line that touches the curve at one point\n  \n    - At any point on the **curve**, the **gradient** of the curve is **equal** to the **gradient** of the **tangent** at that point"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/2.16.1-Diff-Basics-Notes-fig4.png",
+   "file": "assets/b5326219df38-2-16-1-diff-basics-notes-fig4.png",
+   "alt": "Gradient of a curve",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the gradient of a curve using calculus?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **equation** of a curve can be given in the form `y equals straight f open parentheses x close parentheses`\n\n  - Substituting *x*-coordinate **inputs** gives *y*-coordinate **outputs**\n- It is possible to create an algebraic** function **that take **inputs** of *x*-coordinates\n\n  - and gives **outputs** that are **gradients**\n  \n    - No graph sketching required!\n- This type of function has a few commonly used names:\n\n  - The **gradient function**\n  - The **derivative**\n  - The **derived function**\n- The way to **write** this function is $\\frac{dy}{dx}$\n\n  - This is pronounced \"d*y* by d*x*\" or \"d*y* over d*x*\"\n  - In **function notation**, it can be written `straight f apostrophe open parentheses x close parentheses`\n  \n    - pronounced \"f-dash-of-*x\" *or \"f-prime-of-*x\"*\n- To get from `y equals straight f open parentheses x close parentheses` to `fraction numerator straight d y over denominator straight d x end fraction equals straight f apostrophe open parentheses x close parentheses` you need to do an operation called **differentiation**\n\n  - Differentiation turns **curve equations** into **gradient functions**\n  - There are **standard** **formulae** used to differentiate all the basic functions\n  \n    - See the '**Differentiating Basic Functions**' revision note\n  - There are also various **methods** for differentiating more complicated functions\n  \n    - See the '**Techniques of Differentiation**' revision note\n- Once you know `fraction numerator straight d y over denominator straight d x end fraction equals straight f to the power of apostrophe open parentheses x close parentheses` for a curve, you can find the **gradient** for **any point** on the curve\n\n  - `straight f to the power of apostrophe open parentheses a close parentheses` gives the **value of the gradient** when $x=a$\n  \n    - See the '**Finding Gradients**' revision note for more details"
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_T4jKybvYV5tsrF5C",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/data-presentation-and-interpretation/statistical-measures/standard-deviation-and-variance",
+ "title": "Standard Deviation & Variance",
+ "page_title": "Standard Deviation & Variance | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "data-presentation-and-interpretation",
+   "statistical-measures",
+   "standard-deviation-and-variance"
+  ],
+  "section": "data-presentation-and-interpretation",
+  "topic": "statistical-measures",
+  "leaf": "standard-deviation-and-variance"
+ },
+ "titles": {
+  "section": "Data Presentation & Interpretation",
+  "topic": "Statistical Measures",
+  "subtopic": "Standard Deviation & Variance"
+ },
+ "updated_at": "2026-07-02T08:19:38.611Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_73stmsk3vHbph42y"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "n",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>n</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style n end style"
+  },
+  {
+   "latex": "x_{1},x_{2},...,x_{i},...,x_{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo> </mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo> </mo><mo>,</mo><mo> </mo><msub><mi>x</mi><mi>i</mi></msub><mo> </mo><mo>,</mo><mo> </mo><mo>.</mo><mo>.</mo><mo>.</mo><mo> </mo><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style x subscript 1 comma space x subscript 2 comma space... space comma space x subscript i space comma space... space comma x subscript n end style"
+  },
+  {
+   "latex": "\\frac{Σ(x-\\overline{x})^{2}}{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Σ</mi><msup><mrow><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">x</mi><mo mathvariant=\"italic\" mathsize=\"16px\">-</mo><mover><mi mathvariant=\"italic\" mathsize=\"16px\">x</mi><mo mathvariant=\"italic\" mathsize=\"16px\">¯</mo></mover><mo mathvariant=\"italic\" mathsize=\"16px\">)</mo></mrow><mn mathsize=\"16px\">2</mn></msup></mrow><mi mathsize=\"16px\">n</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "\\frac{Σx^{2}}{n}-\\overline{x}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mi mathvariant=\"normal\">Σ</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mi>n</mi></mfrac><mo>-</mo><msup><mover><mi>x</mi><mo>¯</mo></mover><mn>2</mn></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style fraction numerator straight capital sigma x squared over denominator n end fraction minus x with bar on top squared end style"
+  },
+  {
+   "latex": "\\frac{(Σx_{i})^{2}}{n}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><msup><mrow><mo>(</mo><mi mathvariant=\"normal\">Σ</mi><msub><mi>x</mi><mi mathvariant=\"italic\">i</mi></msub><mo>)</mo></mrow><mn>2</mn></msup><mi>n</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 14px style left parenthesis straight capital sigma x subscript i right parenthesis squared over n end style"
+  },
+  {
+   "latex": "σ=\\sqrt{\\frac{Σ(x-\\overline{x})^{2}}{n}}=\\sqrt{\\frac{Σx^{2}}{n}-\\overline{x}^{2}}=\\sqrt{\\frac{S_{xx}}{n}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>σ</mi><mo> </mo><mo>=</mo><mo> </mo><msqrt><mfrac><mrow><mi mathvariant=\"normal\">Σ</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>)</mo></mrow><mn>2</mn></msup></mrow><mi>n</mi></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mrow><mi mathvariant=\"normal\">Σ</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mi>n</mi></mfrac><mo>-</mo><msup><mover><mi>x</mi><mo>¯</mo></mover><mn>2</mn></msup></msqrt><mo> </mo><mo>=</mo><msqrt><mfrac><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mi>n</mi></mfrac></msqrt></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style sigma space equals space square root of fraction numerator straight capital sigma left parenthesis x minus x with bar on top right parenthesis squared over denominator n end fraction end root equals square root of fraction numerator straight capital sigma x squared over denominator n end fraction minus x with bar on top squared end root space equals square root of S subscript x x end subscript over n end root end style"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style x end style"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>x</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "2\\leqt<4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>t</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 space less or equal than space t space less than space 4"
+  },
+  {
+   "latex": "4\\leqt<6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>t</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "4 space less or equal than space t space less than space 6"
+  },
+  {
+   "latex": "6\\leqt<8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>t</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "6 space less or equal than space t space less than space 8"
+  },
+  {
+   "latex": "8\\leqt<10",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>t</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "8 space less or equal than space t space less than space 10"
+  },
+  {
+   "latex": "10\\leqt<12",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>t</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "10 space less or equal than space t space less than space 12"
+  },
+  {
+   "latex": "12\\leqt<20",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>t</mi><mo> </mo><mo>&lt;</mo><mo> </mo><mn>20</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "12 space less or equal than space t space less than space 20"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 15
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_73stmsk3vHbph42y",
+   "name": "Standard Deviation & Variance",
+   "definition": "",
+   "video_id": "832599543"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Standard Deviation & Variance"
+  },
+  {
+   "type": "paragraph",
+   "md": "The **variance **is another measure for the spread of the data, it measures the variability from the mean of the data."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is the variance and the standard deviation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The variance is a statistic that tells us how **varied **a set of data is\n\n  - Data that is more spread out will have a greater variance\n  - Data that is consistent and close together will have a smaller variance\n- The **standard deviation **is the square root of the variance\n- The symbol for the population standard deviation is the lowercase Greek letter sigma, **σ**  and for variance is sigma squared, **σ**<sup>2</sup>\n- Standard deviation and variance are used interchangeably within this course so make sure you look out for which one a question shows or asks for"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How are the variance and standard deviation calculated?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There is more than one formula that can be used for calculating the variance, and you should choose the most useful one\n- For a set of $n$ values $x_{1},x_{2},...,x_{i},...,x_{n}$the variance is the sum of the squares of the deviations from the mean, divided by the frequency\n\n  - Variance =$\\frac{Σ(x-\\overline{x})^{2}}{n}$\n  \n    - This formula can be time consuming and therefore is rarely used in this statistics course\n- A second, **easier to use version of the variance** is:\n\n  - Variance = $\\frac{Σx^{2}}{n}-\\overline{x}^{2}$\n  - This version is easier to work with and should be used in most instances\n  \n    - The **summary statistic **`begin mathsize 16px style S subscript x x end subscript equals straight capital sigma left parenthesis x subscript i space minus space top enclose x right parenthesis squared space equals space straight capital sigma x subscript i squared minus end style`$\\frac{(Σx_{i})^{2}}{n}$** ** can help derive different formulae as shown below:"
+  },
+  {
+   "type": "paragraph",
+   "md": "Variance =`begin mathsize 16px style sigma squared equals fraction numerator straight capital sigma left parenthesis x minus x with bar on top right parenthesis squared over denominator n end fraction equals S subscript x x end subscript over n equals 1 over n open parentheses straight capital sigma x squared minus left parenthesis straight capital sigma x right parenthesis squared over n close parentheses equals fraction numerator straight capital sigma x squared over denominator n end fraction minus open parentheses fraction numerator straight capital sigma x over denominator n end fraction close parentheses squared equals fraction numerator straight capital sigma x squared over denominator n end fraction minus x with bar on top squared space space end style`"
+  },
+  {
+   "type": "bullets",
+   "md": "- An easy way to remember this is to think of it as ‘*the sum of x squared over n minus the sum of the mean squared’*\n- Most calculators can be used to find summary statistic such as the standard deviation and variance fairly quickly, practice finding it on yours"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **standard deviation **is the square root of the variance\n\n  - Standard deviation = $σ=\\sqrt{\\frac{Σ(x-\\overline{x})^{2}}{n}}=\\sqrt{\\frac{Σx^{2}}{n}-\\overline{x}^{2}}=\\sqrt{\\frac{S_{xx}}{n}}$\n  \n    - You are given the formula for *S*<sub>*xx*</sub> but not for variance or standard deviation\n- The units for standard deviation are the same as the units for the data and the units for variance are the same as the units for the data but squared"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How are the variance and standard deviation calculated from a frequency table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The method for finding the variance from a frequency table is similar to that of the mean\n\n  - If calculating from a grouped frequency table, find the midpoints, $x$,  first\n  - Multiply each $x$ value by its corresponding frequency and use these values within the formulae\n  - The formulae will become\n  \n    - Variance = `sigma squared equals space fraction numerator straight capital sigma f left parenthesis x minus x with bar on top right parenthesis squared over denominator straight capital sigma f end fraction equals fraction numerator straight capital sigma f x squared over denominator straight capital sigma f end fraction minus open parentheses fraction numerator straight capital sigma f x over denominator straight capital sigma f end fraction close parentheses squared`\n    - Standard deviation = `sigma space equals space square root of fraction numerator straight capital sigma f left parenthesis x minus x with bar on top right parenthesis squared over denominator straight capital sigma f end fraction end root equals square root of fraction numerator straight capital sigma f x squared over denominator straight capital sigma f end fraction minus open parentheses fraction numerator straight capital sigma f x over denominator straight capital sigma f end fraction close parentheses end root squared`"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Phoom recorded the length of time, $t$ , it took him, in minutes, to answer a selection of further calculus exam questions. The data is summarised in the table below.\n\n| **Time (minutes)** | **Frequency** |\n|---|---|\n| $2\\leqt<4$ | 1 |\n| $4\\leqt<6$ | 4 |\n| $6\\leqt<8$ | 7 |\n| $8\\leqt<10$ | 5 |\n| $10\\leqt<12$ | 2 |\n| $12\\leqt<20$ | 2 |\n\n(i) Calculate an estimate of the variance of the time taken to complete a question, include units with your answer.\n\n(ii) Write down an estimate of the standard deviation of the time taken to complete a question, include units with your answer.\n\n**Answer:**\n\n![2-1-3-sd-and-variance-we-solution-part-1](assets/fb6631117b23-image.bin)\n\n![2-1-3-sd-and-variance-we-solution-part-2](assets/8b8df8b34c5b-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Look out for whether a question gives or asks for the standard deviation or variance, especially if the question is using sigma notation.\n- Choose which formula to use wisely, most of the time the summary statistics will be given so only one of the formulae will be possible. On the rare occasion that you are asked to calculate directly from a table think carefully about which version of the formula is quickest and easiest to use. It will almost always be the second version given in this revision note."
+  }
+ ]
+}

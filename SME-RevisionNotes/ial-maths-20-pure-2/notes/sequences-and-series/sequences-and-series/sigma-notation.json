@@ -1,0 +1,145 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_jCKCV6svGYR5cdGk",
+ "course_slug": "ial-maths-20-pure-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/revision-notes/sequences-and-series/sequences-and-series/sigma-notation",
+ "title": "Sigma Notation",
+ "page_title": "Sigma Notation | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "sequences-and-series",
+   "sequences-and-series",
+   "sigma-notation"
+  ],
+  "section": "sequences-and-series",
+  "topic": "sequences-and-series",
+  "leaf": "sigma-notation"
+ },
+ "titles": {
+  "section": "Sequences & Series",
+  "topic": "Sequences & Series",
+  "subtopic": "Sigma Notation"
+ },
+ "updated_at": "2026-07-02T08:19:38.211Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_vMNmh2mkN6CCWqFS",
+   "rnl_xvdgwCPJwwszYMnm",
+   "rnl_QbhVHQb4MpSmj9Zv"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Tbx53jRsYyGBMGHs"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "A+Br",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A plus B r"
+  },
+  {
+   "latex": "A\\timesB^{r}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>×</mo><msup><mi>B</mi><mi>r</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A cross times B to the power of r"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Tbx53jRsYyGBMGHs",
+   "name": "Sigma Notation",
+   "definition": null,
+   "video_id": "865110953"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Sigma notation"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is sigma notation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The symbol Σ is the capital Greek letter sigma – that's why it's called 'sigma notation'!\n- 'Σ' stands for 'sum' – the expression to the right of the Σ tells you what is being summed, and the limits above and below tell you which terms you are summing"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.3.2-Sigma-Not-Illustr-1.png",
+   "file": "assets/92fb26acef02-4-3-2-sigma-not-illustr-1.png",
+   "alt": "Sigma Not Illustr 1, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Be careful – the limits don't have to start with 1!\n\n  - For example: `sum from r equals 0 to 4 of left parenthesis 2 r plus 1 right parenthesis` or `sum from r equals 7 to 11 of left parenthesis 2 r minus 13 right parenthesis`"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I use sigma notation?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Sigma notation can be used to represent both **arithmetic series** and **geometric series**\n\n  - **Arithmetic **will have the form $A+Br$\n  - **Geometric** will have the form $A\\timesB^{r}$\n  - Writing out the first few terms will help you"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/06/4.3.2-Sigma-Not-Illustr-3.png",
+   "file": "assets/2e9f66a4a4ac-4-3-2-sigma-not-illustr-3.png",
+   "alt": "Sigma Not Illustr 3, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- To work out such a sum use the arithmetic and geometric series formulae\n- As long as the expressions being summed are the same you can add and subtract in sigma notation\n\n  - For example:"
+  },
+  {
+   "type": "paragraph",
+   "md": "`sum from r equals 1 to 6 of left parenthesis 4 r plus 7 right parenthesis plus sum from r equals 7 to 11 of left parenthesis 4 r plus 7 right parenthesis equals sum from r equals 1 to 11 of left parenthesis 4 r plus 7 right parenthesis`"
+  },
+  {
+   "type": "paragraph",
+   "md": "`sum from r equals 1 to 100 of left parenthesis 7 cross times 2 to the power of r right parenthesis minus sum from r equals 1 to 50 of left parenthesis 7 cross times 2 to the power of r right parenthesis equals sum from r equals 51 to 100 of left parenthesis 7 cross times 2 to the power of r right parenthesis`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Be careful when more than one letter appears in a sigma notation question.\n\n![Sigma Not Illustr 5, A Level & AS Level Pure Maths Revision Notes](assets/bfa991927d0f-4-3-2-sigma-not-illustr-5.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Sigma Not Example, A Level & AS Level Pure Maths Revision Notes](assets/14db04c94cf2-4-3-2-sigma-not-example.png)"
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_DrPVkZRzBX9Kgssg",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/shortest-path-algorithms/dijkstras-algorithm",
+ "title": "Dijkstra's Algorithm",
+ "page_title": "Dijkstra's Algorithm | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "shortest-path-algorithms",
+   "dijkstras-algorithm"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "shortest-path-algorithms",
+  "leaf": "dijkstras-algorithm"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "Shortest Path Algorithms",
+  "subtopic": "Dijkstra's Algorithm"
+ },
+ "updated_at": "2026-07-02T08:19:38.659Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_GzzWTsWwZ252dRpv"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\rightarrow",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8594;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "rightwards arrow"
+  },
+  {
+   "latex": "\\rightarrow",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8594;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "rightwards arrow"
+  },
+  {
+   "latex": "\\rightarrow",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8594;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "rightwards arrow"
+  },
+  {
+   "latex": "\\rightarrow",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8594;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "rightwards arrow"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 4
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_GzzWTsWwZ252dRpv",
+   "name": "Dijkstra's Algorithm",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Dijkstra's Algorithm"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Dijkstra's algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Dijkstra's algorithm** is used to find the **shortest distance** between **two vertices** in a network\n\n  - If the algorithm is applied to a whole network it will find the shortest distance between a (fixed) **start vertex** and **every other vertex**\n  - If the **destination (end)** vertex is reached before the entire network has been considered, the algorithm can stop\n  \n    - This would be useful in a larger network as it would **reduce the time **for the algorithm to be completed\n- It can be used in practical applications to **reduce time, cost or distance** between two points\n- Fun fact ...\n\n  - ... a version of Dijkstra's algorithm was used in the Pacman video game to control the movement of the ghosts that chased Pacman!"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What notation is used in Dijkstra's algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Each vertex will be given a **labelling box**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/wU7mPQcs_dijkstra-label.png",
+   "file": "assets/f5fa862809c9-wu7mpqcs-dijkstra-label.png",
+   "alt": "wU7mPQcs_dijkstra-label",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The value in the** 'Vertex'** box is simply the **label of the vertex**\n- The value in the **'Labelling order' **box is the vertex's place in the order of being assigned a value in its **'Final label' **box\n- The value in the **'Final label**' box is the **shortest distance** of the vertex from the start vertex\n\n  - 'Final label' is sometimes referred to as 'permanent label'\n- The most recently written value in the** 'Working values'** box is the **current distance** of the vertex from the start vertex\n\n  - The final value in this box will be the same as the value in the 'Final label' box"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps of Dijkstra's algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nDraw a **labelling box** for each vertex in the network (if not already given) and complete the **'Vertex'** box for each vertex\n- **STEP 2** \nComplete the labelling box for the **start vertex**:\n\n  - Put **'1'** in the **'Order of labelling' **box\n  - Put **'0'** in the** 'Final label' **box\n- **STEP 3**\nInspect **all vertices** that are **connected by an edge** to the vertex that has **most recently** had its **'Final label'** box completed\n\n  - This only applies to vertices that do **not** already have a completed 'Final label' box"
+  },
+  {
+   "type": "paragraph",
+   "md": "Put a **working value** in the relevant box for each of these vertices"
+  },
+  {
+   "type": "bullets",
+   "md": "- The working value should be the** sum** of the value in the **'Final label' box of the vertex whose final label was most recently completed **and the **length of the edge connecting the vertices**\n- If there is already a working value, only replace it if the **new working value is smaller**\n- **STEP 4**\nLook at **all** vertices with a value in the **'Working value' **box (ignoring vertices which have their 'Final label' box completed)\nIdentify the vertex with the **smallest working value** and complete its labelling box:\n\n  - Put the **next sequential number** in the** 'Order of labelling' **box\n  - Put the** current working value** into its **'Final label' **box\n- **STEP 5**\nRepeat steps 3 and 4 until the **end vertex **has its **'Final label'** box completed\n\n  - Or until every vertex has a final label\n- **STEP 6**\nMove **backwards **from the** destination** (end) **vertex** towards the start vertex to identify the **shortest path**\n**Two vertices** lie on the shortest path if the **difference** between the values in their **'Final label' **boxes is **equal** to the weight of the **edge** that connects them"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Avoid crossing out working values that are replaced with smaller working values\n\n  - Examiners like to be able to see all of the values in your diagram clearly!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A network is shown in the diagram below.\n\n![dijkstra-example](assets/7de510a4233e-dijkstra-example.png)\n\nUsing Dijkstra's algorithm, find the shortest path between vertex A and vertex D and state its length.\n\n** Answer:**\n\n- *STEP 1*\n*Draw in the labelling boxes for all vertices*\n* *\n- *STEP 2*\n*Complete the labelling box for the start vertex, vertex A*\n\n![B9FEUNCs_dijkstra-1](assets/395c23ca8042-b9feuncs-dijkstra-1.png)\n\n- *STEP 3*\n*Vertices B, C, F and G are all connected to vertex A by an edge*\n*Put the weights of the edges into the working values box at each of these vertices*\n* *\n- *STEP 4*\n*Inspect **all** vertices with a working value for the one with the lowest working value*\n*Vertex F has the lowest working value, 5, so label vertex F with '2' in the 'Order of labelling' box and '5' in the 'Final label' box*\n\n![-frrZq9E_dijkstra-2](assets/0f9f85612859-frrzq9e-dijkstra-2.png)\n\n- *STEP 5*\n*Repeat Steps 3 and 4 until the end vertex has its 'Final label' box completed*\n\n- *STEP 3*\n*For all vertices connected directly to F, find the 'Working value' from F*\n*The working value of vertex G from vertex F is lower than when it comes directly from vertex A*\n*Write this new working value into the box for G*\n* *\n- *STEP 4*\n*Identify the smallest working value from all vertices with working values but no 'Final label'*\n*The smallest of these values is at vertex G*\n*Label vertex G with '3' and transfer its working value into the 'Final value' box*\n\n![vbeMJpiH_dijkstra-3](assets/4d791ca9e6ef-vbemjpih-dijkstra-3.png)\n\n- *STEP 3*\n*Find the 'Working value' for all vertices directly connected to vertex G*\n*There is no need to replace the working value at vertex C, as the distance travelled directly from G will be bigger*\n* *\n- *STEP 4*\n*Identify the smallest working value from vertices B, C and E, (vertex E)*\n*Label that vertex '4' and transfer its working value into the 'Final value' box*\n\n![u2tZ8~4__dijkstra-4](assets/6a6d0b568047-u2tz8-4-dijkstra-4.png)\n\n- *STEP 3*\n*For all of the vertices that are connected to vertex E find the 'Working value'*\n* *\n- *STEP 4*\n*Identify the smallest working value from vertices B, C and D, (vertex B)*\n*Label that vertex '5' and transfer its working value into the 'Final value' box*\n\n![jGXiBgt2_dijkstra-5](assets/e242e4a02c4e-jgxibgt2-dijkstra-5.png)\n\n- *STEP 3*\n*For all of the vertices that are connected to vertex B find the 'Working value'*\n*For vertex C you would not put in a new working value as it would be bigger than the current value*\n* *\n- *STEP 4*\n*Identify the smallest working value from vertices C and D, (vertex C)*\n*Label that vertex '6' and transfer its working value into the 'Final value' box*\n\n![HruKDynE_dijkstra-6](assets/7a72e2a22e10-hrukdyne-dijkstra-6.png)\n\n- *STEP 3*\n*Vertex D is the only unlabelled vertex, so find its 'Working value'*\n*Although vertex D is directly connected to vertex C, a new working value is not needed at D (it would be bigger than the value already there)*\n* *\n- *STEP 4*\n*Label vertex D as vertex '7' and transfer its working value into the 'Final value' box*\n\n![26VDSnFy_dijkstra-7](assets/fe755fc1c1db-26vdsnfy-dijkstra-7.png)\n\n> *You do not need to show all of the stages of working as separate diagrams*\n*It is enough to show the final diagram with all vertices fully labelled*\n* *\n\n- *STEP 6*\n*You can find the shortest length by working backwards from vertex D*\n\n*15 - 7 = 8 (D*$\\rightarrow$*E)*\n*8 - 1 = 7 (E*$\\rightarrow$*G)*\n*7 - 2 = 5 (G*$\\rightarrow$*F)*\n*5 - 5 = 0 (F*$\\rightarrow$*A)*\n\n**Final answer:** **Shortest route: AFGED**"
+  }
+ ]
+}

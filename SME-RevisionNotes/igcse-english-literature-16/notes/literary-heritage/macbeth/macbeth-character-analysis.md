@@ -1,0 +1,110 @@
+---
+note_id: "rn_TDcdy89Kz6BTf3tp"
+title: "Macbeth Character Analysis"
+source: https://www.savemyexams.com/igcse/english-literature/edexcel/16/revision-notes/literary-heritage/macbeth/macbeth-character-analysis
+path: literary-heritage/macbeth/macbeth-character-analysis
+updated_at: "2026-09-15T09:59:16.703Z"
+spec_point_ids: ["spcpt_QdxbvDnRpBRrbFgW", "spcpt_tsJ6hN8sCNTMwtc5", "spcpt_7FR577r7k3H3zB3v", "spcpt_x4kSKGjMM5P6nWGn", "spcpt_zQfBbR46QkGq58xC"]
+spec_point_codes: []
+guided_study: true
+---
+
+# Macbeth Character Analysis
+
+## Macbeth Character Analysis: Macbeth character analysis
+
+> **Spec point** — `spcpt_QdxbvDnRpBRrbFgW`
+
+## Macbeth Character Analysis
+
+Macbeth is motivated by ambition, the witches’ prophecies and Lady Macbeth, all of which lead to his moral corruption and tragic downfall.
+
+## Macbeth character summary
+
+![Character summary sheet for Macbeth, a full-length figure ringed by overview, key characteristics, role and themes.](../../../assets/61fc4c395f20-63350-gcse-macbeth-character-analysis.png)
+
+*Macbeth character summary*
+
+## Macbeth Character Analysis: Why is Macbeth important?
+
+> **Spec point** — `spcpt_tsJ6hN8sCNTMwtc5`
+
+## Why is Macbeth important?
+
+At the beginning of the play, Macbeth is depicted as:
+
+- **Brave **and **noble**: before Macbeth appears on stage, the audience are given a positive impression of him as a fearless and noble soldier through the Captain’s report. For example, he is described as “brave” and “like Valour’s minion”. He is also praised for his brutality on the battlefield and this violence prepares the audience for similar violence later in the play
+- **Ambitious**: in contrast to his comrade Banquo, Macbeth is immediately enticed by the witches’ dangerous prophecies. Although Macbeth’s [hamartia](https://www.savemyexams.com/glossary/gcse/english-language/hamartia/)** **is ambition, in classical [tragedy](https://www.savemyexams.com/glossary/gcse/english-language/tragedy/), ambition itself isn’t a flaw unless misdirected or excessive — as it is in Macbeth’s case. It could then be said that Macbeth’s ambition is both misdirected and taken to extremes, and that Lady Macbeth plays a crucial role in shaping and misdirecting his ambition
+
+As the play unfolds, Macbeth becomes increasingly unsympathetic as a character and is portrayed as:
+
+- **Ruthless**: Macbeth’s power comes from his capacity for violence and the ability to kill his enemy. In battle he is described as killing the traitor Macdonwald, unseaming “him from the nave to th' chops”.  As king, Macbeth’s ambition drives him to control and manipulate others much more ruthlessly in order to consolidate his position. For example, he hires murderers to kill Banquo, persuading them that “Banquo was [their] enemy” and orders the murder of Macduff’s family
+- **Paranoid **and **guilt-ridden**: despite Macbeth’s ruthlessness, his guilt is demonstrated when he sees Banquo’s ghost: “For Banquo’s issue have I filed my mind”. This could be interpreted by the audience as a product of Macbeth’s paranoia and guilt-ridden imagination rather than the direct influence of supernatural forces
+- *Nihilistic*: Macbeth increasingly contemplates the futility and meaninglessness of life, particularly in his final [soliloquy](https://www.savemyexams.com/glossary/gcse/english-literature/soliloquy-definition/) in Act 5. His recognition of his own errors and his inevitable downfall give him a self-awareness which ultimately makes him a tragic hero
+
+For more on how Shakespeare presents the character of Macbeth, see our video below:
+
+> **Exam Hint**
+> Examiners describe a useful way into Macbeth: think of him in **roles** — as a soldier, as a husband, and as a man in power reflecting on his life. Answers built this way cover the whole play without becoming chronological.
+> 
+> For example, you could write: “Macbeth begins as a soldier praised for killing and ends deciding that life is only ‘a walking shadow’, so his courage outlasts his belief in anything”. Following one character across **different roles** lets you cover the whole play without retelling it.
+
+## Macbeth Character Analysis: Macbeth's use of language
+
+> **Spec point** — `spcpt_7FR577r7k3H3zB3v`
+
+## Macbeth’s use of language
+
+The language Shakespeare uses for Macbeth, from elevated [iambic pentameter](https://www.savemyexams.com/glossary/gcse/english-literature/iambic-pentameter-definition/) to fragmented [prose](https://www.savemyexams.com/glossary/gcse/english-language/prose-definition/) and introspective soliloquies, reflects his complex and changing character:
+
+- Iambic pentameter: Macbeth often speaks in iambic pentameter which gives his dialogue a formal and elevated tone. This is typical of a noble or important character and conveys his high status. However, as his moral decline progresses, his speech becomes more fragmented
+- *Prose*<u>** **</u>and <u>[rhyming couplets](https://www.savemyexams.com/glossary/gcse/english-language/rhyming-couplet/)</u>**: **Macbeth occasionally shifts into prose which Shakespeare uses to distance Macbeth from his noble status and to signify his moral degradation. For example, when he speaks to Banquo’s assassins Shakespeare chooses prose to illustrate his deceptive nature. Similarly, he occasionally speaks in rhyming couplets which mirrors the language patterns of the witches, linking him to their malevolence and demonstrating his corrupted state
+- <u>[Soliloquies](https://www.savemyexams.com/glossary/gcse/english-literature/soliloquy-definition/)</u> and *asides*: These dramatic techniques reveal Macbeth’s ambition, guilt, paranoia and growing *nihilism* as the audience witnesses his descent from a loyal warrior to a tyrannical ruler. Dramatically, Shakespeare’s soliloquies enable the audience to connect with Macbeth’s inner thoughts and emotions, offering insight into the truth as he sees it. While Macbeth lies to those around him, he does not deceive the audience, nor does he deceive himself
+
+### Macbeth key quotes
+
+![Illustration of a man with four speech bubbles containing Macbeth quotes from various acts and scenes, focusing on themes of ambition and guilt.](../../../assets/0f3fd3bd4996-21017-httpscdn-savemyexams-comuploads20241022773.png)
+
+*Macbeth key quotes*
+
+## Macbeth Character Analysis: Character development
+
+> **Spec point** — `spcpt_x4kSKGjMM5P6nWGn`
+
+## Macbeth character development
+
+| **Act 1, Scene 7** | **Act 2, Scene 1** | **Act 3, Scene 4** | **Act 5, Scene 5** |
+|---|---|---|---|
+| **Macbeth’s first soliloquy:** Macbeth reflects on the consequences of murdering King Duncan which reveals his internal conflict. This [soliloquy](https://www.savemyexams.com/glossary/gcse/english-literature/soliloquy-definition/) is a pivotal moment in the play and it [foreshadows](https://www.savemyexams.com/glossary/gcse/english-language/foreshadowing-definition/) the moral turmoil that will plague him. | **The dagger soliloquy:**<br><br>In this scene, Macbeth has a hallucination of a blood-covered dagger, leading him towards Duncan’s chamber. This dramatic device is used to convey supernatural influence, or Macbeth's inner guilt and anxiety. | **Macbeth’s guilt and paranoia: **In the banquet scene, Macbeth encounters the ghost of Banquo and expresses his horror and guilt at its appearance. This scene signifies Macbeth’s deteriorating mental state and the consequences of his ruthless quest for power. | **Macbeth’s isolation and final soliloquy: **At this point in the play, Macbeth has become increasingly isolated and is surrounded by enemies. He reflects on the meaningless and futility of life and his final soliloquy captures his despair. |
+
+Structurally, Macbeth’s soliloquies trace his rise and fall, revealing his awareness of the inevitable fate that controls his destiny.
+
+For more on the development of Macbeth’s character, see our video below:
+
+## Macbeth Character Analysis: Character interpretation
+
+> **Spec point** — `spcpt_zQfBbR46QkGq58xC`
+
+## Macbeth character interpretation
+
+### Macbeth’s violence
+
+A contemporary or modern audience may accept that violence is acceptable (even sometimes admirable) in war or when defending one’s country. At the beginning of the play, Macbeth’s violence could then be viewed as noble: he is described as killing a traitor and defending Scotland and its king. However, the play was written at a time when the king was widely believed to be God’s representative on Earth. Therefore, Macbeth’s later act of regicide (the killing of a rightful king) would have been seen as the ultimate crime, so his murder of Duncan marks his moral downfall. Indeed, the murder of Duncan is performed off-stage since a contemporary audience would have viewed the killing of a king as a horrific crime.
+
+### The Divine Right of Kings
+
+James I was thought to be descended from Banquo so the prophecies Banquo receives from the witches support his Divine Right to the throne, reinforcing the idea that Macbeth’s rule is illegitimate.
+
+### Jacobean societal expectations
+
+The play reflects the volatile nature of society during both the medieval and Shakespearean era and the social expectations that unlawfully killing another would be rightfully punished. Macbeth’s defiance of the law, natural justice and royal succession mean that those who rebel against him can be seen as true loyalists, with Macbeth depicted as a tyrant and usurper. Ultimately, Macbeth must be defeated to atone for his crimes and restore the moral order.
+
+### Religion and the supernatural
+
+The belief in witches during Shakespeare’s era (King James I even wrote a book on the subject called Daemonologie) meant that engaging with fate and fortune posed a challenge to traditional religious beliefs.
+
+Macbeth could therefore be viewed as a puppet manipulated by forces beyond his control (since some of the audience would have believed in supernatural forces) or a character who is so desperate that he resorts to achieving his goals through the darkest means possible.
+
+#### Sources
+
+Stanley Wells and Gary Taylor (eds), 2005, The Oxford Shakespeare: The Complete Works (Second Edition), Oxford University Press

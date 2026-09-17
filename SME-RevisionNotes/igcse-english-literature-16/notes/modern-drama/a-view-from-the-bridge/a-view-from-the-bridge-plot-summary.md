@@ -1,0 +1,161 @@
+---
+note_id: "rn_J27Qt74vWDM3VNyT"
+title: "A View from the Bridge: Plot Summary"
+source: https://www.savemyexams.com/igcse/english-literature/edexcel/16/revision-notes/modern-drama/a-view-from-the-bridge/a-view-from-the-bridge-plot-summary
+path: modern-drama/a-view-from-the-bridge/a-view-from-the-bridge-plot-summary
+updated_at: "2026-09-15T09:59:08.816Z"
+spec_point_ids: ["spcpt_jmnWhGVvMFCmYVFX", "spcpt_YJZ492vDF9W4R2Cr", "spcpt_nrctfSSGKbn7wQnr", "spcpt_3XssTyj7VfTp92hm"]
+spec_point_codes: []
+guided_study: false
+---
+
+# A View from the Bridge: Plot Summary
+
+## A View from the Bridge: Plot summary
+
+> **Spec point** — `spcpt_jmnWhGVvMFCmYVFX`
+
+## Plot Summary
+
+One of the most useful ways to prepare for the exam is to get to grips with the plot of A View from the Bridge. If you are familiar with the key events and the order in which they occur, then you will find it easier to connect ideas in response to broader questions on character or theme. Having an in-depth knowledge and understanding of the text will also help you to gain confidence to find the most relevant references to support your response.
+
+Below you will find:
+
+- **plot storyboard**
+- **an overview of the play**
+- **a plot summary broken down into sections of the play**
+
+## A View from the Bridge: Plot storyboard
+
+> **Spec point** — `spcpt_YJZ492vDF9W4R2Cr`
+
+## Plot storyboard
+
+![Illustrated plot timeline of A View from the Bridge in six stages, from Marco and Rodolpho's arrival to Eddie's death in Beatrice's arms.](../../../assets/4b92dfc079e9-24833-a-view-from-the-bridge.png)
+
+*Plot storyboard*
+
+## A View from the Bridge: Overview
+
+> **Spec point** — `spcpt_nrctfSSGKbn7wQnr`
+
+## Overview
+
+Alfieri, an Italian-American lawyer, introduces the story of Eddie Carbone by comparing himself to a lawyer in ancient Italy who is powerless to watch as tragic events run their bloody course.
+
+Eddie Carbone, a longshoreman, walks home and greets his young niece, Catherine, and his wife, Beatrice. Eddie has reservations about Catherine’s growing independence, but Beatrice and Catherine convince him to allow Catherine to take a job as a **stenographer**. Beatrice is worried about the imminent arrival from Italy of her cousins, Marco and Rodolpho, who are coming to America illegally. Eddie and Beatrice remind Catherine of the importance of keeping quiet about Marco and Rodolpho. They tell Catherine the cautionary tale of Vinny Bolzano, a young boy who informed the authorities about his illegal immigrant uncle and was cast out from the community as a result. Marco and Rodolpho arrive at the house. Marco is strong, quiet and respectful; his young blonde brother is warmer, quick to laugh, and sings them all a song called “Paper Doll”. Catherine is captivated by Rodolpho, but Eddie shows an immediate dislike.
+
+In the coming weeks, Eddie becomes irritated by Rodolpho, and is unhappy that Rodolpho and Catherine are spending time together. Beatrice sees that Eddie is jealous, and chides him for being unreasonable. She speaks to him about the problems in their marriage. When Catherine and Rodolpho return home, Eddie warns Catherine that Rodolpho wants to marry her just to become an American citizen. Catherine is upset, and after Eddie leaves Beatrice reveals to Catherine that she is concerned by the attention that Eddie is giving his niece. She tells Catherine to behave more appropriately around Eddie and to make her own decisions. She also encourages Catherine to get married to Rodolpho. Eddie visits Alfieri to raise his concerns about Rodolpho, but Alfieri assures him there is nothing he can do. Alfieri tells Eddie that he needs to let Catherine go. Later, Eddie spoils a pleasant family evening when he teaches Rodolpho how to box, punching Rodolpho in the face. Marco responds by lifting a heavy chair over his head with one hand, demonstrating that he is stronger than Eddie.
+
+At the start of Act II, Rodolpho and Catherine are left alone in the apartment. They talk about getting married, and Catherine reveals how upset she is by Eddie’s behaviour towards her. Rodopho encourages Catherine to break free from Eddie’s influence. The two move into the bedroom. Eddie comes home drunk, and sees Catherine and Rodolpho leaving the bedroom. In a rage, he orders Rodolpho to leave. He violently kisses Catherine on the mouth, and when Rodolpho defends her Eddie kisses him as well. Eddie visits Alfieri once again, but Alfieri cannot convince Eddie to let Catherine go. Alfieri warns Eddie not to inform the Immigration Bureau about Marco and Rodolpho, but Eddie ignores the advice and calls the Bureau. Later, just after Beatrice tells Eddie that Rodolpho and Catherine are getting married, the Immigration Officers come and arrest Marco and Rodolpho. Eddie denies responsibility, but everybody suspects him. As he is being taken away, Marco spits in Eddie's face. Alfieri pays bail for the two men and arranges the marriage of Catherine and Rodolpho on the condition that Marco does not kill Eddie.
+
+On the day of the wedding, Eddie bans Beatrice from attending. Beatrice confronts Eddie about his feelings for Catherine, and Rodolpho warns Eddie that Marco is coming to kill him. Rodolpho hopes to repair the situation, but Eddie refuses to listen. Marco appears and Eddie demands that he give him back his good name. The two fight, and Eddie is stabbed by his own knife. Eddie dies in Beatrice's arms, appearing to realise the error of his ways. Alfieri closes the play by reminding the audience that it is better to “settle for half” than to demand full justice.
+
+## A View from the Bridge: Scene-by-scene plot summary
+
+> **Spec point** — `spcpt_3XssTyj7VfTp92hm`
+
+## Scene-By-Scene Plot Summary
+
+**Act I (part one)**
+
+- Alfieri enters and speaks directly to the audience
+- He tells the audience that justice is important in the Red Hook district of Brooklyn – but he makes clear that justice is often different to the law, and that most people “settle for half”
+- Eddie goes into his house where he is met by his niece, Catherine, and his wife, Beatrice
+- Eddie immediately criticises Catherine’s clothes and her behaviour towards men: he does not like to see her “walkin’ wavy”
+- Eddie informs Beatrice that the ship carrying her cousins, Marco and Rodolpho, from Italy has arrived
+- Beatrice is nervous about the arrival of her cousins, and worries that they will not find their home acceptable
+- Catherine is excited to tell Eddie that she has accepted a new job as a stenographer
+- Eddie objects to Catherine’s news, but Beatrice manages to convince Eddie to allow Catherine to take the job
+- Catherine is thrilled, although Eddie continues to remind Catherine how much he will miss her
+- Beatrice and Eddie warn Catherine of the importance of hiding the identities of Marco and Rodolpho
+- Beatrice and Eddie tell Catherine the story of Vinny Bolzano, who became an outcast after informing the Immigration Bureau of his own uncle
+- Eddie asks Beatrice why she is “mad at me lately”, but Beatrice denies this
+
+**Act I (part two) **
+
+- Alfieri appears again and describes Eddie as “as good a man as he had to be in a life that was hard”
+- Marco and Rodolpho arrive at the apartment and receive a warm welcome; Marco assures Eddie that they will not outstay their welcome
+- Marco is delighted to learn how much money they will earn working on the docks because he will be able to support his wife and family back in Italy
+- Catherine asks Rodolpho if he is married, and Rodolpho explains that he is too poor for marriage but wants to buy a motorbike and deliver messages
+- Rodolpho is lively and extroverted, and his good humour delights Beatrice and Catherine
+- Rodolpho reveals his talent as a singer, and he and Catherine bond over a shared love of jazz music
+- Catherine asks Rodolpho to sing for them all, and Rodolpho begins a rendition of “Paper Doll”
+- Catherine is “enthralled” but the singing makes Eddie uncomfortable; he interrupts Rodolpho and argues that people will be suspicious of the singing and might report them
+- Eddie continues to behave aggressively, and insists that Catherine change her shoes
+- Rodolpho calls Catherine “beautiful”, and Eddie watches him with suspicion
+- Alfieri appears once again to remind the audience about Eddie’s unfortunate destiny, and of the trouble that developed as the weeks went on
+
+**Act I (part three)**
+
+- Several weeks after the cousins’ arrival, Eddie and Beatrice discuss Catherine’s relationship with Rodolpho
+- Eddie is upset that Rodolpho spends his free time in public, that he sings and makes people laugh
+- Eddie tells Beatrice that he is embarrassed by Rodolpho’s behaviour and by the nicknames that the other longshoremen have given the young blonde man
+- Most of all, Eddie is concerned that Rodolpho and Catherine are spending so much time with one another
+- Beatrice tries to discuss the problems between her and Eddie: she is upset that it has been “three months” since they had sex, and she wants to know when she will “be a wife again”
+- Eddie does not want to speak, and walks away
+- Beatrice warns Eddie that his interest in Catherine is unhealthy, and suggests that he is jealous of Rodolpho
+- Eddie tells Catherine that Rodolpho is using her; he claims that Rodolpho wants to marry Catherine so that he can become an American citizen
+- After Eddie leaves, Beatrice tells Catherine that she is “not a baby anymore”, and lists occasions where Catherine’s behaviour around Eddie has been inappropriate
+- Beatrice tells Catherine that she needs to make her own decisions and distance herself from Eddie’s control; she encourages Catherine to marry Rodolpho, if she wishes
+- Meanwhile, Eddie asks Alfieri if he has any legal recourse to get rid of Rodolpho, but Alfieri tells Eddie that the only point of law in dispute is the matter of illegal immigration
+- Later, the family are relaxing together but Eddie’s negativity spoils the mood
+- Eddie tells Rodolpho that the young man breaks the American moral code when he takes Catherine out without Eddie’s permission
+- Marco remains respectful and supports Eddie, but Eddie continues to make negative comments about Rodolpho
+- Catherine, encouraged by Beatrice, asks Rodolpho to dance and Eddie responds by tearing a newspaper in half
+- Under the guise of teaching Rodolpho how to box, Eddie surprises the young man by punching him in the mouth
+- Marco challenges Eddie to lift a chair by holding just one leg in his hand, but Eddie is not strong enough to pick it up
+- Marco lifts the chair over Eddie’s head and the Act ends with everybody watching Marco, whose “glare of warning” becomes a “smile of triumph”
+
+**Act II (part one) **
+
+- Alfieri introduces the Act with a **loaded comment** about Catherine and Rodolpho
+- Rodolpho reassures Catherine that his feelings towards her are genuine, despite what Eddie has told her
+- Catherine admits to Rodolpho that Eddie’s behaviour scares her, even though the two once shared a close, positive relationship
+- Rodolpho persuades Catherine that she needs to break away from Eddie’s influence
+- Catherine asks Rodolpho to make love to her, and the pair move into the bedroom
+- A drunk Eddie returns home unexpectedly, and he becomes angry when he sees what Catherine and Rodolpho have been doing
+- When Eddie orders Rodolpho to leave, Catherine decides to leave with him
+- Eddie flies into a rage and kisses Catherine
+- Rodolpho tries to defend Catherine, but Eddie overpowers him and kisses Rodolpho as well, in an attempt to prove that Rodolpho is homosexual
+- Catherine attacks Eddie and says that she should kill him
+- Eddie leaves the apartment in tears, but threatens the lovers
+- Alfieri tells the audience that he saw a terrible change in Eddie but was unable to intervene
+- Eddie asks for the lawyer’s help
+- Alfieri tells Eddie again that no law has been broken, and that Eddie should let nature take its course
+- If Eddie does not accept Catherine and Rodolpho’s relationship, Alfieri warns, the whole community will turn against him
+- Eddie slowly walks out towards a phone booth, and Alfieri cannot stop him from informing the Immigration Bureau about Marco and Rodolpho
+
+**Act II (part two)**
+
+- Marco and Rodolpho have moved upstairs to a rented apartment, and Eddie is shocked when Beatrice reveals that Catherine and Rodolpho are getting married next week
+- Catherine tells Eddie that he cannot prevent the wedding
+- Eddie panics when he hears that Marco and Rodolpho are sharing with two other illegal boarders
+- Eddie worries about how other families will react when the authorities come, and tries to convince Beatrice to get her cousins out of the house
+- The Immigration Officers arrive and arrest Marco, Rodolpho and the other men
+- Beatrice and Catherine realise immediately what Eddie has done, and see through his pretence of innocence
+- Marco spits in Eddie’s face, marking him as the informant
+- Eddie threatens to kill Marco; the neighbours ignore Eddie’s protests and turn away from him as the immigrants are led out of the house
+- At the prison, Alfieri asks for Marco’s assurance that he will not take revenge upon Eddie because to do so would be illegal
+- Marco reminds Alfieri that true justice sometimes extends beyond the law
+- Rodolpho and Catherine urge Marco to agree to Alfieri’s condition because they want him at their wedding
+- Alfieri points out that Marco can still work for six weeks before his trial
+- Marco finally agrees
+
+**Act II (part three)**
+
+- Eddie forbids Beatrice from attending the wedding and Catherine enters and verbally attacks Eddie
+- Beatrice reluctantly tells Catherine that she cannot go to the wedding because to do so would mean betraying Eddie
+- Rodolpho enters and tells Eddie that Marco is praying in the church before coming to attack Eddie
+- Eddie is adamant that he is innocent, and that he expects Marco to apologise and give back his “name”
+- Rodolpho tries to de-escalate the situation by apologising for his perceived wrongs and kissing Eddie’s hand; he hopes that Marco will forgive Eddie if he sees that Eddie and Rodolpho are united
+- Eddie rejects Rodolpho’s help and, when Marco enters, demands respect and forces a confrontation from which neither man can back down
+- Marco and Eddie fight
+- Eddie draws a knife; Marco turns Eddie’s arm around and stabs Eddie with his own weapon
+- Eddie seems to blame Catherine but his final words are to Beatrice as, perhaps, he realises his mistake
+- Eddie dies
+- Alfieri concludes by saying that it is better to settle “for half”, but he admits that he nevertheless mourns Eddie, whose honesty allowed people to see him as he truly was
+
+**Sources**
+
+Miller, A. (2010). A View From the Bridge. Penguin.

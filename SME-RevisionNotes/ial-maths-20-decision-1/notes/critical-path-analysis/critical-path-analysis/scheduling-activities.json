@@ -1,0 +1,144 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_7fWhhgGKrQxqPTyw",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/critical-path-analysis/critical-path-analysis/scheduling-activities",
+ "title": "Scheduling Activities",
+ "page_title": "Scheduling Activities | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "critical-path-analysis",
+   "critical-path-analysis",
+   "scheduling-activities"
+  ],
+  "section": "critical-path-analysis",
+  "topic": "critical-path-analysis",
+  "leaf": "scheduling-activities"
+ },
+ "titles": {
+  "section": "Critical Path Analysis",
+  "topic": "Critical Path Analysis",
+  "subtopic": "Scheduling Activities"
+ },
+ "updated_at": "2026-07-02T08:19:38.467Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_vg4jSpg46ks8kcrD"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\mathrm{Lower} \\mathrm{bound}\\geq\\frac{\\mathrm{Total} \\mathrm{time} \\mathrm{of} \\mathrm{all} \\mathrm{activities}}{\\mathrm{Minimum} \\mathrm{project} \\mathrm{duration}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Lower</mi><mo> </mo><mi>bound</mi><mo> </mo><mo>≥</mo><mo> </mo><mfrac><mrow><mi>Total</mi><mo> </mo><mi>time</mi><mo> </mo><mi>of</mi><mo> </mo><mi>all</mi><mo> </mo><mi>activities</mi></mrow><mrow><mi>Minimum</mi><mo> </mo><mi>project</mi><mo> </mo><mi>duration</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "Lower space bound space greater or equal than space fraction numerator Total space time space of space all space activities over denominator Minimum space project space duration end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 17,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 1
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_vg4jSpg46ks8kcrD",
+   "name": "Scheduling Activities",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Scheduling Activities"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is meant by scheduling (activities)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Scheduling activities** is the process of **assigning workers** to **activities** within a **project**\n- The **two** types of problem that arise involve\n\n  - Finding the **minimum number of workers** such that a project can be completed in its **minimum project duration**\n  \n    - The **minimum project duration** is also called the **critical time** of the project\n  - Finding the (new) **minimum project duration** given that there are **constraints**\n  \n    - E.g. There may be a **maximum number** of **workers **available at any given time\n- In harder problems, certain workers may only be capable of carrying out particular activities"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What assumptions are made in scheduling?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In **scheduling** activities the following assumptions are made\n\n  - Each **activity** requires only **one worker**\n  \n    - Or one team of workers, i.e. one resource\n  - An activity is assigned the first available worker\n  - If there is a choice of activities, assign a worker the activity with the **lower late end time**\n  \n    - This is the **lower late event time** at the **activity end node**\n  - A worker can only work on one activity at a time\n  - Once a worker has started an activity, that activity needs to be completed"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I schedule activities for a project that requires the minimum number of workers?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For this type of problem, the **critical time** of the project* ***cannot **change\n\n  - The **critical activities** cannot be delayed\n  - **One worker** (resource) will complete all the **critical activities**\n- Using a **Gantt chart** and considering the **non-critical activities**\n\n  - **Non-critical activities** can be delayed, but only **within** their (total) **float** times\n  \n    - **Early start times** can be delayed but **late end times** cannot\n  - **Visualise** each activity as its bar being able to 'slide' within its box (solid and dotted)\n  \n    - Aim for as few **overlaps** between activities as possible\n  - Activities can then be combined into as few rows as possible\n  \n    - Place them 'back-to-back'\n    - Where possible activities should start **immediately** after others end\n  - Each **row** on the (reduced) Gantt chart will then be completed by **one worker**\n  \n    - The number of rows is the number of workers"
+  },
+  {
+   "type": "bullets",
+   "md": "- Remember that the **precedence** of **activities** needs to be maintained\n\n  - E.g.  Activity H, say, cannot move so it starts after activity I, as activity I depends on H being completed first\n  \n    - H is an **immediate predecessor** of I"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the lower bound for the (minimum) number of workers?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **theoretical lower bound** for the number of workers to complete a project in its **minimum project duration **is\n\n  - the **smallest integer** value that satisfies"
+  },
+  {
+   "type": "paragraph",
+   "md": "$\\mathrm{Lower} \\mathrm{bound}\\geq\\frac{\\mathrm{Total} \\mathrm{time} \\mathrm{of} \\mathrm{all} \\mathrm{activities}}{\\mathrm{Minimum} \\mathrm{project} \\mathrm{duration}}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find a **practical lower bound** for the number of workers\n\n  - Imagine vertical lines drawn in between each unit\n  \n    - e.g. vertical lines at 0.5, 1.5, 2.5, etc\n  - For each line, consider which **activities **can use their float to **move **so that the **line does not touch them**\n  - Count the number of activities which **cannot **be **moved **and **must happen **at that time\n  - The **biggest number **found is a **lower bound **\n- It is **not always possible** to schedule activities such that the lower bound can be met"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I schedule activities for a project that has a maximum number of workers?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For a problem, where there is a **maximum number of workers** available at any point in time\n\n  - The maximum number of workers **cannot** be exceeded,\n  - It may require activities to be delayed and the project's **critical time** to be increased\n- Using a **Gantt chart**\n\n  - Find the **minimum number** of workers required to complete the project in its **critical time**\n  \n    - The Gantt chart would have already been largely reduced\n    - Do this using the process above\n  - Consider how **any** activity (critical or non-critical) can be **delayed**\n  \n    - The Gantt chart must use no more rows than the (maximum) number of workers available at any time\n- As in the first type of problem, the **precedence** of **activities** needs to be maintained\n\n  - You may want to use the activity network to check this\n  - E.g.  Activity H, say, cannot move so it starts after activity I, as activity I depends on H being completed first\n  \n    - H is an **immediate predecessor** of I"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Practise scheduling questions as exam preparation\n\n  - Experience is the best way to become familiar with what to look for as there is no specific algorithm to follow\n- If you are asked to state a lower bound for the minimum number of workers then:\n\n  - Show the calculation if you use the formula\n  - State the time at which the maximum number of activities must happen and state those activities\n  \n    - E.g. A lower bound is 3 because at time 10.5 the activities A, B and F must happen"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A precedence table and Gantt chart for a project are shown below.\nEach activity requires one worker and times are given in days.\n\n| **Activity** | **Immediately preceding activities** |\n|---|---|\n| A | - |\n| B | - |\n| C | A |\n| D | B |\n| E | A, D |\n| F | B |\n| G | C |\n| H | C |\n| I | G, H |\n| J | E, F |\n\n![reslev-sched-gantt-we-qu](assets/4c72739ccc37-reslev-sched-gantt-we-qu.png)\n\na) Find the lower bound for the minimum number of workers required to complete the project within its critical time.\n\n**Answer:**\n\n`table row cell fraction numerator Total space time space of space all space activities over denominator Minimum space project space duration end fraction end cell equals cell fraction numerator 23 plus 4 plus 3 plus 7 plus 6 plus 4 plus 4 over denominator 23 end fraction end cell row blank equals cell 51 over 23 end cell row blank equals cell 2.217 space... end cell end table`\n\n> *The lower bound is the smallest integer greater than or equal to 2.217 ...*\n\n**Final answer:** **The lower bound for the number of workers is 3**\n\nb) Find the minimum number of workers required such that the project can be completed within its critical time.\n\n**Answer:**\n\n> *Worker 1 ('row 1') will be assigned to all the critical activities ('back-to-back')*\n\n> *Worker 2 can start activity B at time zero, with activity D following immediately (at its early start time) and activity E immediately after that*\n\n![sched-we-ans-b1](assets/52f82ca11e8c-sched-we-ans-b1.png)\n\n> *By 'sliding' activities F and H it can be seen that there will be (at least) one day where either E and F or F and H will need to happen simultaneously - therefore a third worker is needed*\n\n> *There is some flexibility in assigning worker 3 but activity H is dependent on activity C*\n\n> *Activity J is dependent on E and F but as long as F finishes by its late end time that will look after itself*\n\n> *The adjusted Gantt chart is*\n\n![sched-gantt-we-ans-a](assets/5ad7c594bbde-sched-gantt-we-ans-a.png)\n\n> *The (minimum) number of workers is the number of rows in the adjusted Gantt chart, of which there are 3*\n\n**Final answer:** **To complete the project within its critical time (23 days) a minimum of three workers will be required**\n\nc) Find the minimum project duration given that a maximum of two workers are available at any time.\n\n**Answer:**\n\n> *Using the solution to part b) we can see that activities A, C, B, D and E efficiently occupy two workers*\n\n> *Delaying activity F so it starts immediately after E will delay the whole project by one day (24 days)*\n*(Be careful describing this, activity F would be starting **after** day 14, so starts **on** day 15)*\n\n> *This leaves activity H - I is dependent on it (and G) and H itself is dependent on C*\n\n> *Assigning H to worker 2 would delay the project by longer than necessary (at least 28 days) but by assigning H to worker 1 (either between C and G or between G and I) means precedences are maintained*\n\n> *The adjusted Gantt chart is*\n\n![sched-gantt-we-ans-b](assets/bb0b14d9e499-sched-gantt-we-ans-b.png)\n\n> *Activity I is the last to finish at a time of 27 days*\n\n**Final answer:** **The minimum project time for a maximum of two workers is 27 days**"
+  }
+ ]
+}

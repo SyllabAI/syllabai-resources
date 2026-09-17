@@ -1,0 +1,244 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_th6xXf94CHxF5ncs",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/statistical-distributions/discrete-random-variables/ex-and-varx-discrete",
+ "title": "E(X) & Var(X) (Discrete)",
+ "page_title": "E(X) & Var(X) (Discrete) | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "discrete-random-variables",
+   "ex-and-varx-discrete"
+  ],
+  "section": "statistical-distributions",
+  "topic": "discrete-random-variables",
+  "leaf": "ex-and-varx-discrete"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Discrete Random Variables",
+  "subtopic": "E(X) & Var(X) (Discrete)"
+ },
+ "updated_at": "2026-07-02T08:19:38.463Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ZMNyvHd7JK6WfHTm"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "Σ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi mathvariant=\"normal\">Σ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma"
+  },
+  {
+   "latex": "xP(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x straight P left parenthesis X equals x right parenthesis"
+  },
+  {
+   "latex": "Σ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi mathvariant=\"normal\">Σ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma"
+  },
+  {
+   "latex": "x^{2}P(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msup><mi>x</mi><mn>2</mn></msup><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x squared straight P left parenthesis X equals x right parenthesis"
+  },
+  {
+   "latex": "Σ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mi mathvariant=\"normal\">Σ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma"
+  },
+  {
+   "latex": "f(x)P(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "f left parenthesis x right parenthesis space straight P left parenthesis X equals x right parenthesis"
+  },
+  {
+   "latex": "\\underset{}{\\sum\\frac{1}{x}P(X=x)}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle displaystyle=\"false\"><munder><mrow><mo>∑</mo><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mi>x</mi></mfrac></mstyle><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mrow><mrow/></munder></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin inline style stack sum begin display style 1 over x end style straight P left parenthesis X equals x right parenthesis with blank below end style"
+  },
+  {
+   "latex": "E(X^{^{2}})-(E(X))^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>E</mi><mo>(</mo><msup><mi>X</mi><msup><mrow/><mn>2</mn></msup></msup><mo>)</mo><mo>-</mo><mo>(</mo><mi>E</mi><msup><mrow><mo>(</mo><mi>X</mi><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style E left parenthesis X to the power of blank squared end exponent right parenthesis minus left parenthesis E left parenthesis X right parenthesis right parenthesis squared end style"
+  },
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold-italic\">x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold italic x"
+  },
+  {
+   "latex": "P(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "bold P bold left parenthesis bold italic X bold equals bold italic x bold right parenthesis"
+  },
+  {
+   "latex": "E(X)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">E</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight E left parenthesis X right parenthesis"
+  },
+  {
+   "latex": "E(X^{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>(</mo><msup><mi>X</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "E left parenthesis X squared right parenthesis"
+  },
+  {
+   "latex": "\\mathrm{Var}(X)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Var</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Var left parenthesis X right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 23,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 15
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ZMNyvHd7JK6WfHTm",
+   "name": "E(X) & Var(X) (Discrete)",
+   "definition": null,
+   "video_id": "888418557"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "E(X) & Var(X) (Discrete)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What does E(X) mean and how do I calculate E(X)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **E(X) **means the **expected value** or the **mean** of a **random variable X**\n- For a **discrete** random variable, it is calculated by:\n\n  - **Multiplying each value** of $X$ with its corresponding **probability**\n  - **Adding** all these terms together"
+  },
+  {
+   "type": "paragraph",
+   "md": "$Σ$$xP(X=x)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Look out for **symmetrical** distributions (where the values of X are symmetrical and their probabilities are symmetrical) as the mean of these is the same as the median\n\n  - For example if X can take the values 1, 5, 9 with probabilities 0.3, 0.4, 0.3 respectively then by symmetry the mean would be 5"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate E(X²)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **E(X²) **means the **expected value** or the **mean** of a **random variable **defined as **X²**\n- For a **discrete** random variable, it is calculated by:\n\n  - **Squaring** each value of X  to get the values of X<sup>2</sup>\n  - **Multiplying each value** of X<sup>2</sup> with its corresponding **probability**\n  - **Adding** all these terms together"
+  },
+  {
+   "type": "paragraph",
+   "md": "$Σ$$x^{2}P(X=x)$"
+  },
+  {
+   "type": "bullets",
+   "md": "- In a similar way E(f(x))  can be calculated for a discrete random variable by:\n\n  - **Applying the function f** to each value of to get the values of f(*X*)\n  - **Multiplying each value** of f(*X *) with its corresponding **probability**\n  - **Adding** all these terms together"
+  },
+  {
+   "type": "paragraph",
+   "md": "$Σ$$f(x)P(X=x)$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-2-ex-_-varx-discrete-diagram-1.png",
+   "file": "assets/aafbf8a0826f-3-1-2-ex-varx-discrete-diagram-1.png",
+   "alt": "3-1-2-ex-_-varx-discrete-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-2-ex-_-varx-discrete-diagram-2.png",
+   "file": "assets/c514c6b08a40-3-1-2-ex-varx-discrete-diagram-2.png",
+   "alt": "3-1-2-ex-_-varx-discrete-diagram-2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Is E(X²) equal to (E(X))²?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Definitely not!**\n\n  - They are only equal if X can take only one value with probability 1\n  \n    - if this was the case it would no longer be a random variable\n- E(X²) is the **mean** of the values of **X²**\n- (E(X))² is the **square** of the **mean** of the values of **X**\n- To see the difference\n\n  - Imagine a random variable X that can only take the values 1 and -1 with equal chance\n  - The mean would be 0 so the square of the mean would also be 0\n  - The square values would be 1 and 1 so the mean of the squares would also be 1\n- In general E(f(*X*)) **does not equal** f(E(X)) where f is a function\n\n  - So if you wanted to find something like `begin mathsize 16px style E open parentheses 1 over x close parentheses end style` then you would have to use the definition and calculate:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$\\underset{}{\\sum\\frac{1}{x}P(X=x)}$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What does Var(X) mean and how do I calculate Var(X)?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Var(X) **means the **variance** of a **random variable X**\n- For **any** random variable this can be calculated using the formula"
+  },
+  {
+   "type": "paragraph",
+   "md": "$E(X^{^{2}})-(E(X))^{2}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- This is the **mean of the squares of *****X*** minus the **square of the mean of *****X***\n\n  - Compare this to the definition of the **variance of a set of data**"
+  },
+  {
+   "type": "bullets",
+   "md": "- Var(X) is always positive\n- The **standard deviation** of a random variable X is the **square root** of **Var(X)**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The discrete random variable $X$ has the probability distribution shown in the following table:\n\n| $x$ | 2 | 3 | 5 | 7 |\n|---|---|---|---|---|\n| $P(X=x)$ | 0.1 | 0.3 | 0.2 | 0.4 |\n\n(a) Find the value of $E(X)$.\n\n(b) Find the value of $E(X^{2})$.\n\n(c) Find the value of $\\mathrm{Var}(X)$ .\n\n**Answer:**\n\n![3-1-2-ex-_-varx-discrete-we-solution_a](assets/5b9d41a59f93-image.bin)\n\n![3-1-2-ex-_-varx-discrete-we-solution_b](assets/3325e3a75971-image.bin)\n\n![3-1-2-ex-_-varx-discrete-we-solution_c](assets/f2a404b6c84f-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Check if your answer makes sense. The mean should fit within the range of the values of X."
+  }
+ ]
+}

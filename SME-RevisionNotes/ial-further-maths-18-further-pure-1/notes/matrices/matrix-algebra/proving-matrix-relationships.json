@@ -1,0 +1,243 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_TCf54CMjTMyCHpPj",
+ "course_slug": "ial-further-maths-18-further-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/further-maths/edexcel/18/further-pure-1/revision-notes/matrices/matrix-algebra/proving-matrix-relationships",
+ "title": "Proving Matrix Relationships",
+ "page_title": "Proving Matrix Relationships | Edexcel International A Level (IAL) Further Maths Revision Notes 2018",
+ "path": {
+  "segs": [
+   "matrices",
+   "matrix-algebra",
+   "proving-matrix-relationships"
+  ],
+  "section": "matrices",
+  "topic": "matrix-algebra",
+  "leaf": "proving-matrix-relationships"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Matrix Algebra",
+  "subtopic": "Proving Matrix Relationships"
+ },
+ "updated_at": "2024-04-10T09:30:57.449Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_BhD7jyg3SMt38vvJ"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold R"
+  },
+  {
+   "latex": "\\mathrm{PQR}^{-1}=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">PQR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold PQR to the power of negative 1 end exponent equals bold I"
+  },
+  {
+   "latex": "I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold I"
+  },
+  {
+   "latex": "Q=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">Q</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q equals bold P to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q"
+  },
+  {
+   "latex": "P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P"
+  },
+  {
+   "latex": "P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "P^{-1}\\mathrm{PQR}^{-1}=P^{-1}I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mi mathvariant=\"bold\">PQR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent bold PQR to the power of negative 1 end exponent equals bold P to the power of negative 1 end exponent bold I"
+  },
+  {
+   "latex": "P^{-1}P",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">P</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent bold P"
+  },
+  {
+   "latex": "I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold I"
+  },
+  {
+   "latex": "P^{-1}I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent bold I"
+  },
+  {
+   "latex": "P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\mathrm{IQR}^{-1}=P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">IQR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold IQR to the power of negative 1 end exponent equals bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\mathrm{IQR}^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">IQR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold IQR to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\mathrm{QR}^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">QR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold QR to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\mathrm{QR}^{-1}=P^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">QR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold QR to the power of negative 1 end exponent equals bold P to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold R"
+  },
+  {
+   "latex": "\\mathrm{QR}^{-1}R=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">QR</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold QR to the power of negative 1 end exponent bold R equals bold P to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "R^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">R</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold R to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "\\mathrm{QI}=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">QI</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold QI equals bold P to the power of negative 1 end exponent bold R"
+  },
+  {
+   "latex": "\\mathrm{QI}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">QI</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold QI"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q"
+  },
+  {
+   "latex": "Q=P^{-1}R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">Q</mi><mo>=</mo><msup><mi mathvariant=\"bold\">P</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">R</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold Q equals bold P to the power of negative 1 end exponent bold R"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 25
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_BhD7jyg3SMt38vvJ",
+   "name": "Proving Matrix Relationships",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Proving Matrix Relationships"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a matrix relationship?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A matrix **relationship** is an equation that connects different matrices\n\n  - For example, if **A**, **B** and **C** are matrices then possible relationships are\n  \n    - **AB** = **C**\n    - **A** + 2**B** = **C**\n- Remember that in general matrix multiplication is **not commutative**\n\n  - **AB **≠** BA**\n  - **ABC **≠ **ACB** ≠ **BAC** ≠ …\n  - **CBC** does not simplify to **C**<sup>2</sup>**B**\n  \n    - Since **C**(**BC**) ≠ **C**(**CB**)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What matrix relationships do I need to know?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If **A** and **B** are matrices and **I** is the **identity matrix**, you need to know the following:\n\n  - **AA**<sup>-1</sup> =** I**\n  - **A**<sup>-1</sup>**A** = **I**\n  - **IA** = **AI **= **A**\n  - (**AB**)<sup>-1</sup> = **B**<sup>-1</sup>**A**<sup>-1</sup>\n  \n    - The **order reverses**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I prove matrix relationships?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You need to carefully **pre-multiply** (on the left) or** post-multiply** (on the right) **both sides** by matrices or their inverses\n\n  - To make **B** the subject of **AB** = **C**\n  \n    - **A**<sup>-1</sup>**AB** = **A**<sup>-1</sup>**C** (pre-multiply by **A**<sup>-1</sup>)\n    - **IB** = **A**<sup>-1</sup>**C** (form the identity)\n    - **B **= **A**<sup>-1</sup>**C** (simplify)\n  - To make **A** the subject of **AB** = **C**\n  \n    - **ABB**<sup>-1</sup> = **CB**<sup>-1</sup> (post-multiply by **B**<sup>-1</sup>)\n    - **AI **= **CB**<sup>-1</sup> (form the identity)\n    - **A** =** CB**<sup>-1</sup> (simplify)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I prove that (AB)<sup>-1</sup> = B<sup>-1</sup>A<sup>-1</sup>?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Start by **multiplying AB** by its **inverse** to form the** identity**\n\n  - **AB**(**AB**)<sup>-1</sup> = **I**\n- Then make **(AB)**<sup>**-1**</sup> the **subject**\n\n  - Pre-multiply by **A**<sup>-1</sup> and simplify\n  \n    - **A**<sup>-1</sup>**AB**(**AB**)<sup>-1</sup> = **A**<sup>-1</sup>**I**\n    - **IB**(**AB**)<sup>-1</sup>=**A**<sup>-1</sup>\n    - **B**(**AB**)<sup>-1</sup>=**A**<sup>-1</sup>\n  - Then pre-multiply by **B**<sup>-1</sup> and simplify\n  \n    - **B**<sup>-1</sup>**B**(**AB**)<sup>-1</sup>=**B**<sup>-1</sup>**A**<sup>-1</sup>\n    - **I**(**AB**)<sup>-1</sup>=**B**<sup>-1</sup>**A**<sup>-1</sup>\n    - (**AB**)<sup>-1</sup>=**B**<sup>-1</sup>**A**<sup>-1</sup>"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Learn the formula (**AB**)<sup>-1 </sup>=**B**<sup>-1</sup>**A**<sup>-1</sup> as you are not given it in the Formulae Booklet.\n\n- Show lots of steps when doing matrix algebra.\n\n  - Examiners want to see pre- or post-multiplying clearly."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Let $P$, $Q$ and $R$ be three matrices such that $\\mathrm{PQR}^{-1}=I$ where $I$ is the identity matrix.\n\nProve that $Q=P^{-1}R$.\n\n> *You need to use matrix algebra to make *$Q$* the subject*\n*One possible way is to remove *$P$* from the left by pre-multiplying both  sides by *$P^{-1}$\n\n$P^{-1}\\mathrm{PQR}^{-1}=P^{-1}I$\n\n> *The *$P^{-1}P$* forms the identity matrix, *$I$*, on the left*\n*The *$P^{-1}I$* simplifies to just *$P^{-1}$* on the right*\n\n$\\mathrm{IQR}^{-1}=P^{-1}$\n\n> *The *$\\mathrm{IQR}^{-1}$* on the left simplifies to just *$\\mathrm{QR}^{-1}$\n\n$\\mathrm{QR}^{-1}=P^{-1}$\n\n> *Now post-multiply both sides by *$R$\n\n$\\mathrm{QR}^{-1}R=P^{-1}R$\n\n> *The *$R^{-1}R$* on the left forms the identity matrix*\n\n$\\mathrm{QI}=P^{-1}R$\n\n> *The *$\\mathrm{QI}$* on the left simplifies to *$Q$\n\n$Q=P^{-1}R$"
+  }
+ ]
+}

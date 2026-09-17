@@ -1,0 +1,115 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_g8pcdVhCmDfvhT9d",
+ "course_slug": "igcse-maths-a-18-higher",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/a/18/higher/revision-notes/6-statistics-and-probability/combined-and-conditional-probability/conditional-probability",
+ "title": "Conditional Probability",
+ "page_title": "Conditional Probability | Edexcel IGCSE Maths A Revision Notes 2016",
+ "path": {
+  "segs": [
+   "6-statistics-and-probability",
+   "combined-and-conditional-probability",
+   "conditional-probability"
+  ],
+  "section": "6-statistics-and-probability",
+  "topic": "combined-and-conditional-probability",
+  "leaf": "conditional-probability"
+ },
+ "titles": {
+  "section": "Statistics & Probability",
+  "topic": "Combined & Conditional Probability",
+  "subtopic": "Conditional Probability"
+ },
+ "updated_at": "2026-01-28T17:28:21.669Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_DkBXXfmWk2hGVF6Y"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\frac{3}{9}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><mn>9</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "3 over 9"
+  },
+  {
+   "latex": "\\frac{1}{4}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "1 fourth"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "A"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "B"
+  }
+ ],
+ "stats": {
+  "blocks": 8,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 4
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_DkBXXfmWk2hGVF6Y",
+   "name": "Conditional Probability",
+   "definition": null,
+   "video_id": "325410430"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Conditional probability"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a conditional probability?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **conditional probability** is the probability of something happening (*A*) **given that **something else has **already happened** (*B*)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I calculate conditional probabilities?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Conditional probabilities must be out of a **smaller restricted set** of outcomes (not out of all possible events)\n\n  - For example, if a computer randomly selects a digit from 1, 2, 3, 4, 5, 6, 7, 8, 9\n  \n    - P(it select a multiple of three) = $\\frac{3}{9}$\n    - This is **not **a conditional probability\n    - There are 3 possibilities (3, 6, 9) out of **all **9 possibilities\n  - However, if you program the computer to only select from even numbers, then\n  \n    - P(it selects a multiple of three **given that** it selects an even number) = $\\frac{1}{4}$\n    - 1 possibility (6) out of **only **4 possibilities (2, 4, 6, 8)\n    - This **is** a conditional probability"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Look out for conditional probability questions within larger questions on two-way tables, Venn diagrams or tree diagrams.\n\nThey often use the phrase \"**given that**\"."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A Venn diagram is shown below. The numbers represent numbers of people.\n\nWhen one random person is selected, find the probability that they are in set $A$given that they are in set $B$, simplifying your answer.\n\n![Venn diagram with two overlapping circles, A and B. A has 20, intersection 42, B has 63. Outside both is 14.](assets/5bf1df7ef5f3-35714-conditional-probability.png)\n\n**Answer:**\n\n> *Given that B is true, your probability will be out of the total number in **B*\n\n> *Find the total number in **B*\n\n*63 + 42 = 105*\n\n> *Out of this total number in **B**, find how many are in **A*\n\n*42*\n\n> *Form a probability by dividing 42 by 105*\n\n`straight P open parentheses A space given space B close parentheses equals 42 over 105`\n\n> *Simplify your answer*\n\n`straight P open parentheses A space given space B close parentheses equals 2 over 5`"
+  }
+ ]
+}

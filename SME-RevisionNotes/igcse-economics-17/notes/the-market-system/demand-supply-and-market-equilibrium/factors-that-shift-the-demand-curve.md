@@ -1,0 +1,49 @@
+---
+note_id: "rn_2yHcpC5PD8BNf3wb"
+title: "Factors that Shift the Demand Curve"
+source: https://www.savemyexams.com/igcse/economics/edexcel/17/revision-notes/the-market-system/demand-supply-and-market-equilibrium/factors-that-shift-the-demand-curve
+path: the-market-system/demand-supply-and-market-equilibrium/factors-that-shift-the-demand-curve
+updated_at: "2024-04-08T13:45:31.575Z"
+spec_point_ids: ["spcpt_yKqVhrfWJCw6N6cB"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Factors that Shift the Demand Curve
+
+## Shifts Of The Entire Demand Curve
+
+> **Spec point** — `spcpt_yKqVhrfWJCw6N6cB`
+
+## Shifts of the Entire Demand Curve
+
+- There are numerous factors that will **change the demand **for a good/service, **irrespective of the price level**
+
+  - Collectively, these factors are called the **non-price determinants of demand**
+- Changes to any of these **shifts the entire demand curve** (as opposed to a movement along the demand curve) #### Diagram: Shift of the Demand Curve
+
+![Changes to any of the conditions of demand shifts the entire demand curve left or right, irrespective of the price level](../../../assets/8ff407ed200f-edexcel-igcse-economics-shifts-of-the-demand-cur.bin)
+
+***Changes to any of the non-price determinants of demand shifts the entire demand curve left or right, irrespective of the price level***
+
+### Diagram analysis
+
+- For example, if a firm **increases** their **Instagram advertising**, there will be an** increase in demand** as more consumers become aware of the product
+
+  - This is a **shift in demand **from D to D<sub>1</sub>. The price remains unchanged at £7 but the **demand has increased** from 15 to 25 units
+
+**Explaining the Non-price Determinants of Demand**
+
+| **Determinant** | **Explanation** |
+|---|---|
+| **Advertising increases ** | - If more money is spent on **advertising **or **branding**, then demand for goods/services will increase as more consumers are aware of the product<br>- There is a **direct** relationship between **branding/advertising** and **demand**<br>- **D shifts right (D → D**<sub>**1**</sub>**)** |
+| **Changes in real income** | - ***Real Income*** determines how many goods/services can be enjoyed by consumers<br>- There is a **direct** relationship between income and demand for **normal goods**<br>- **Income increases**<br><br>  - **D shifts right (D → D**<sub>**1**</sub>**)** |
+| **Changes in fashion/tastes** | - If goods/services become more **fashionable,** then **demand** for them increases<br>- There is a **direct relationship** between changes in** taste/fashion** and **demand**<br>- **Good becomes more fashionable**<br><br>  - **D shifts right (D → D**<sub>**1**</sub>**)** |
+| **Changes in the price of substitute goods** | - Changes in the price of ***substitute goods*** will influence the demand for a product/service<br>- There is a **direct relationship** between the **price of good A** and **demand for good B**<br>- For example, the price of a Sony 60" TV increases so the **demand** for LG 60" TV increases<br>- **Price of good A increases**<br><br>  - **D for good B shifts right (D → D**<sub>**1**</sub>**)** |
+| **Changes in the price of complementary goods** | - Changes in the price of ***complementary goods*** will influence the demand for a product/service<br>- There is an **inverse relationship** between the **price of good A** and **demand for good B**<br>- For example, the price of printer ink increases so the **demand** for ink printers decreases<br>- **Price of good A increases**<br><br>  - **D for good B shifts left (D → D**<sub>**2**</sub>**)** |
+| **Demographic changes ** | - If the **population size** of a country changes over time, then the **demand** for goods/services will also change<br>- There is a **direct relationship** between the changes in population size and demand<br>- Demand will also change if there is a change to the **age distribution** in a country as different ages **demand different goods/services **e.g an ageing population will buy more hearing aids<br>- **Population increases**<br><br>  - **D shifts right (D → D**<sub>**1**</sub>**)** |
+
+> **Exam Hint**
+> The difference between a **movement along the demand curve and a shift in demand is essential to understand. **You will be repeatedly examined on this and it is important that you use the correct language to show that you understand the difference between a **change in quantity demanded and a change in demand.**
+> 
+> When** price changes **(ceteris paribus), there is a** movement** along the demand curve resulting in a change to quantity demanded. When a** condition of demand **changes, there is a** shift** of the entire demand curve, resulting in a change to demand.

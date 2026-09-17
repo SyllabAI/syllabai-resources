@@ -1,0 +1,188 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_VsrsRKWPrv7N2KPs",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/statistical-distributions/normal-distribution/the-normal-distribution",
+ "title": "The Normal Distribution",
+ "page_title": "The Normal Distribution | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "normal-distribution",
+   "the-normal-distribution"
+  ],
+  "section": "statistical-distributions",
+  "topic": "normal-distribution",
+  "leaf": "the-normal-distribution"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Normal Distribution",
+  "subtopic": "The Normal Distribution"
+ },
+ "updated_at": "2026-07-02T08:19:38.253Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_pzZDjzccK2YtRg7h",
+   "rnl_b4TmjZtdhn6Q7qwd",
+   "rnl_Y4Y9bvTwQRtTmF3b",
+   "rnl_JCdYs3DxxtFhrgMr"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_HS83hxfdbps62xPW",
+  "spcpt_V6WDFPgHhTqd5tyN"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "z=\\frac{x-μ}{σ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>z</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>x</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z space equals space fraction numerator x minus mu over denominator sigma end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 21,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 3
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_HS83hxfdbps62xPW",
+   "name": "Properties of Normal Distribution",
+   "definition": null,
+   "video_id": "846208001"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Properties of a normal distribution"
+  },
+  {
+   "type": "paragraph",
+   "md": "The binomial distribution is an example of a discrete probability distribution. The normal distribution is an example of a **continuous** probability distribution."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a continuous random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A continuous random variable (often abbreviated to CRV) is a random variable that can take **any value** within a range of infinite values\n\n  - Continuous random variables **usually measure** something\n  - For example, height, weight, time, etc"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a continuous probability distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A continuous probability distribution is a probability distribution in which the random variable *X* is continuous\n- The probability of *X* being a **particular value is always zero**\n\n  - **P(*****X = k*****) = 0** for any value *k*\n  - Instead we define the ***probability density function***** **f(*x*) for a specific value\n  - We talk about the **probability** of $X$ being within a **certain range**\n- A continuous probability distribution can be represented by a continuous graph (the values for *X* along the horizontal axis and probability **density** on the vertical axis)\n- The **area under the graph** between the points *x = a* and *x = b* is equal to **P(*****a ≤ X ≤ b*****)**\n\n  - The** total area under the graph equals 1**\n- As P(*X = k*) = 0 for any value $k$, it does not matter if we use strict or weak inequalities\n\n  - P(X ≤ k) = P(X < k) for any value *k*"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A normal distribution is a **continuous probability distribution**\n- The **continuous random variable** can follow a normal distribution if:\n\n  - The distribution is **symmetrical**\n  - The distribution is **bell-shaped**\n- If *X* follows a normal distribution then it is denoted `X tilde N left parenthesis mu comma space sigma squared right parenthesis`\n\n  - μ is the mean\n  - σ<sup>2</sup> is the variance\n  - σ  is the standard deviation\n- If the **mean** changes then the graph is **translated horizontally**\n- If the **variance** changes then the graph is **stretched horizontally**\n\n  - A small variance leads to a tall curve with a narrow centre\n  - A large variance leads to a short curve with a wide centre"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/4-3-1-the-normal-distribution-diagram-1.png",
+   "file": "assets/92e3ef331482-4-3-1-the-normal-distribution-diagram-1.png",
+   "alt": "4-3-1-the-normal-distribution-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the important properties of a normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **mean** is μ\n- The **variance** is σ<sup>2</sup>\n\n  - If you need the standard deviation remember to square root this\n- The normal distribution is symmetrical about *x = μ*\n\n  - Mean = Median = Mode = *μ*\n- The normal distribution curve has two *points of inflection*\n\n  - x = *μ ±  σ *(one standard deviation away from the mean)\n- There are the results:\n\n  - Approximately **two-thirds (68%)** of the data lies within **one standard deviation** of the mean (*μ ±  σ*)\n  - Approximately **95%** of the data lies within **two standard deviations** of the mean (*μ ± 2σ*)\n  - Nearly **all of the data (99.7%)** lies within **three standard deviations** of the mean (*μ ± 3σ)*\n- For any value *x* a z-score (or z-value) can be calculated which measures how many standard deviations *x* is away from the mean\n\n  - $z=\\frac{x-μ}{σ}$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/4-3-1-the-normal-distribution-diagram-2.png",
+   "file": "assets/bbea414a53df-4-3-1-the-normal-distribution-diagram-2.png",
+   "alt": "4-3-1-the-normal-distribution-diagram-2",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_V6WDFPgHhTqd5tyN",
+   "name": "Modelling with Normal Distribution",
+   "definition": null,
+   "video_id": "846221689"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Modelling with a normal distribution"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What situations can be modelled by a normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A lot of real-life continuous variables can be modelled by a normal distribution provided that the population is large enough and that the variable is **symmetrical** with **one mode**\n- For a normal distribution *X* can take any real value, however values far from the mean (more than 4 standard deviations away from the mean) have a probability density of practically zero\n\n  - This fact allows us to model variables that are not defined for all real values such as height and weight"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What situations can not be modelled by a normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Variables which have **more than one mode** or **no mode**\n\n  - For example, the number given by a random number generator\n- Variables which are **not symmetrical**\n\n  - For example, how long a human lives for"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The random variable *S* represents the speeds (mph) of a certain species of cheetahs when they run. The variable is modelled using N(40, 100).\n\n(a) Write down the mean and standard deviation of the running speeds of cheetahs.\n\n(b) State the two assumptions that have been made in order to use this model.\n\n**Answer:**\n\n![4-3-1-the-normal-distribution-we-solution-part-1](assets/0ecc7c11ab10-4-3-1-the-normal-distribution-we-solution-part-1.png)\n\n![4-3-1-the-normal-distribution-we-solution-part-2](assets/715e661f4521-4-3-1-the-normal-distribution-we-solution-part-2.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Remember the second number in N(*x, y*) is the variance, if you want the standard deviation then you need to square root it."
+  }
+ ]
+}

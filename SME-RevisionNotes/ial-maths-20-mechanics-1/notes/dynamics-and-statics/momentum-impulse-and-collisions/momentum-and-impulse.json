@@ -1,0 +1,186 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_3ktqxckwCyyPr2nT",
+ "course_slug": "ial-maths-20-mechanics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-1/revision-notes/dynamics-and-statics/momentum-impulse-and-collisions/momentum-and-impulse",
+ "title": "Momentum & Impulse",
+ "page_title": "Momentum & Impulse | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "dynamics-and-statics",
+   "momentum-impulse-and-collisions",
+   "momentum-and-impulse"
+  ],
+  "section": "dynamics-and-statics",
+  "topic": "momentum-impulse-and-collisions",
+  "leaf": "momentum-and-impulse"
+ },
+ "titles": {
+  "section": "Dynamics & Statics of a Particle",
+  "topic": "Momentum, Impulse & Collisions",
+  "subtopic": "Momentum & Impulse"
+ },
+ "updated_at": "2026-07-02T08:19:38.586Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_BHyY3DyqGJ7QHDV4",
+  "spcpt_scnKHWsvNrzBTT5K"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "m",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">m</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic m end style"
+  },
+  {
+   "latex": "vms^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">v</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\"> </mo><msup><mi mathvariant=\"bold\">s</mi><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic v bold space bold m bold space bold s to the power of bold minus bold 1 end exponent end style"
+  },
+  {
+   "latex": "\\mathrm{kg}ms^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">kg</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\"> </mo><msup><mi mathvariant=\"bold\">s</mi><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold kg bold space bold m bold space bold s to the power of bold minus bold 1 end exponent end style"
+  },
+  {
+   "latex": "6ms^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mo> </mo><mi mathvariant=\"normal\">m</mi><mo> </mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "6 space straight m space straight s to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "FN",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">F</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">N</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic F bold space bold N end style"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">I</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic I end style"
+  },
+  {
+   "latex": "I=Ft",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">I</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">F</mi><mi mathvariant=\"bold-italic\">t</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic I bold space bold equals bold space bold italic F bold italic t end style"
+  },
+  {
+   "latex": "\\mathrm{kg}ms^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">kg</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold\">m</mi><mo mathvariant=\"bold\"> </mo><msup><mi mathvariant=\"bold\">s</mi><mrow><mo mathvariant=\"bold\">-</mo><mn mathvariant=\"bold\">1</mn></mrow></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold kg bold space bold m bold space bold s to the power of bold minus bold 1 end exponent end style"
+  },
+  {
+   "latex": "I=mv-mu",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">I</mi><mo mathvariant=\"bold\"> </mo><mo mathvariant=\"bold\">=</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">m</mi><mi mathvariant=\"bold-italic\">v</mi><mo mathvariant=\"bold\">-</mo><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">m</mi><mi mathvariant=\"bold-italic\">u</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic I bold space bold equals bold space bold italic m bold italic v bold minus bold space bold italic m bold italic u end style"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 1,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 10
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_BHyY3DyqGJ7QHDV4",
+   "name": "Momentum",
+   "definition": "",
+   "video_id": "876856763"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Momentum"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is momentum?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Any object that has mass and is moving has **momentum**\n- **Momentum **measures the quantity of motion that an object has\n- The **momentum **of a particle is defined as the **product** of its **mass (** $m$**kg)** and its **velocity (**$vms^{-1}$**)**\n\n  - Momentum **=*****mv***\n- The SI unit for momentum is $\\mathrm{kg}ms^{-1}$\n- Momentum is a **vector** quantity - so it has a **magnitude** and **direction**\n\n  - The **direction of the momentum** of a particle is the **same** as the **direction of motion** of the particle\n  - The **momentum is negative** if the **velocity is negative**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A dog of mass  15 kg is running with speed $6ms^{-1}$<sub>.</sub>\n\nFind the momentum of the dog.\n\n**Answer:**\n\n![3-4-1-momentum--impulse-example-solution-1](assets/5cf871a67370-3-4-1-momentum-impulse-example-solution-1.png)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_scnKHWsvNrzBTT5K",
+   "name": "Impulse",
+   "definition": "",
+   "video_id": "876882220"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Impulse"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is impulse?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Impulse** measures the effect of a force acting on a particle over time\n- If a **constant force (**$FN$ **)** acts on a particle for $t$ **seconds** then the **impulse (**$I$**)** of the force is defined to be the **product** of the **force **and** time**\n\n  - $I=Ft$\n- The SI unit for impulse is **N s**(newton seconds) which is equivalent to $\\mathrm{kg}ms^{-1}$\n\n  - This is the same as the units for momentum\n- Impulse is a **vector** quantity – so it has magnitude and direction\n\n  - The **direction of the impulse** of a force is the same as the **direction of the force**\n- The **Impulse-Momentum Principle** states that impulse is equal to the **change in momentum**\n\n  - $I=mv-mu$\n  - where *m* is the mass, *u* is the initial velocity and  *v *is the final velocity"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What happens when two objects are in contact?"
+  },
+  {
+   "type": "bullets",
+   "md": "- If two objects are in contact with each other then by **Newton’s Third Law **there will be **equal** and **opposite** reaction forces\n- This means there will be **equal and opposite impulses**\n- For example, consider hitting a tennis ball with a racket, there will be\n\n  - an impulse exerted **by the racket** **on the ball** which propels the ball forward\n  - an impulse exerted **by the ball on the racket** which reduces the velocity of the racket\n  - The **magnitudes** of these impulses are **equal** but they are in **opposite** directions"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-4-1-impulse.png",
+   "file": "assets/a5a8688a277f-3-4-1-impulse.png",
+   "alt": "3-4-1-impulse",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A car with mass 1200 kg is driving to the right along a smooth horizontal road with speed 16 m s<sup>-1</sup> . The driver applied a constant braking force of magnitude 1800 N for 5 seconds.\n\n(a) Find the magnitude of the impulse of the braking force.\n\n(b)State the direction of the impulse.\n\n(c) Find the speed of the car 5 seconds after the braking force was applied.\n\n**Answers:**\n\n(a) Find the magnitude of the impulse of the braking force.\n\n![3-4-1-momentum-_-impulse-example-solution-2_a](assets/a9548381e1dc-3-4-1-momentum-impulse-example-solution-2-a.png)\n\n(b) State the direction of the impulse.\n\n![3-4-1-momentum-_-impulse-example-solution-2_b](assets/6ea5fe20d5d7-3-4-1-momentum-impulse-example-solution-2-b.png)\n\n(c) Find the speed of the car 5 seconds after the braking force was applied.\n\n![3-4-1-momentum---impulse-example-solution-2-c-fixed](assets/1f8ca901d94f-3-4-1-momentum-impulse-example-solution-2-c-fixe.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Always define a positive direction and be careful with negatives. Use common sense to see if your answer makes sense - would you expect the velocity to have increased or decreased?"
+  }
+ ]
+}

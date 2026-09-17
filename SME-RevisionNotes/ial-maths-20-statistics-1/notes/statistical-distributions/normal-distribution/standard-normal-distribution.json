@@ -1,0 +1,302 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_k9xpR2WpN48HzNt6",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/statistical-distributions/normal-distribution/standard-normal-distribution",
+ "title": "Standard Normal Distribution",
+ "page_title": "Standard Normal Distribution | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "normal-distribution",
+   "standard-normal-distribution"
+  ],
+  "section": "statistical-distributions",
+  "topic": "normal-distribution",
+  "leaf": "standard-normal-distribution"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Normal Distribution",
+  "subtopic": "Standard Normal Distribution"
+ },
+ "updated_at": "2026-07-02T08:19:38.645Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_gmwKSJM4VXDr4T7d"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "Z=\\frac{X-μ}{σ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style Z equals fraction numerator X minus mu over denominator sigma end fraction end style"
+  },
+  {
+   "latex": "P(z_{1}\\leqZ\\leqz_{2})=P(z_{1}<Z<z_{2})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><msub><mi>z</mi><mn>1</mn></msub><mo>≤</mo><mi>Z</mi><mo>≤</mo><msub><mi>z</mi><mn>2</mn></msub><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><msub><mi>z</mi><mn>1</mn></msub><mo>&lt;</mo><mi>Z</mi><mo>&lt;</mo><msub><mi>z</mi><mn>2</mn></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis z subscript 1 less or equal than Z less or equal than z subscript 2 right parenthesis equals straight P left parenthesis z subscript 1 less than Z less than z subscript 2 right parenthesis"
+  },
+  {
+   "latex": "Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight capital phi left parenthesis z right parenthesis end style"
+  },
+  {
+   "latex": "P(Z<z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis Z less than z right parenthesis end style"
+  },
+  {
+   "latex": "Φ(z)=P(Z\\leqz)=P(Z<z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Φ</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight capital phi left parenthesis z right parenthesis end style"
+  },
+  {
+   "latex": "Φ(1.23)=P(Z\\leq1.23)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Φ</mi><mo mathsize=\"16px\">(</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">23</mn><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">≤</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">23</mn><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Error converting from MathML to accessible text."
+  },
+  {
+   "latex": "P(Z\\leq1.23)=0.8907",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mn>1</mn><mo>.</mo><mn>23</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>8907</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis Z less or equal than 1.23 right parenthesis equals 0.8907 end style"
+  },
+  {
+   "latex": "P(Z>z)=1-Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z greater than z right parenthesis equals 1 minus straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z\\leqz)=P(Z\\geq-z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≥</mo><mo>-</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z less or equal than z right parenthesis equals straight P left parenthesis Z greater or equal than negative z right parenthesis"
+  },
+  {
+   "latex": "P(Z\\geqz)=P(Z\\leq-z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≥</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo>-</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z greater or equal than z right parenthesis equals straight P left parenthesis Z less or equal than negative z right parenthesis"
+  },
+  {
+   "latex": "P(Z>z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z greater than z right parenthesis"
+  },
+  {
+   "latex": "Φ(-z)=1-Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">Φ</mi><mo>(</mo><mo>-</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital phi left parenthesis negative z right parenthesis equals 1 minus straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z>z)=1-Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mrow><mi mathvariant=\"normal\">Φ</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z greater than z right parenthesis equals 1 minus straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z<z)=Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Φ</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis straight Z less than z right parenthesis equals straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z>z)=1-Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Φ</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis straight Z greater than z right parenthesis equals 1 minus straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z<-z)=1-Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Φ</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis straight Z less than negative z right parenthesis equals 1 minus straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z>-z)=Φ(z)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&gt;</mo><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathvariant=\"normal\" mathsize=\"16px\">Φ</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis straight Z greater than negative z right parenthesis equals straight capital phi left parenthesis z right parenthesis"
+  },
+  {
+   "latex": "P(Z\\leqz)=p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>p</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis Z less or equal than z right parenthesis equals p end style"
+  },
+  {
+   "latex": "P(Z<z)\\geq0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>≥</mo><mn>0</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis Z less than z right parenthesis greater or equal than 0.5 end style"
+  },
+  {
+   "latex": "P(Z>z)\\geq0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">≥</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Error converting from MathML to accessible text."
+  },
+  {
+   "latex": "P(Z<z)<0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">&lt;</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(Z>z)<0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">Z</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">z</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">&lt;</mo><mn mathsize=\"16px\">0</mn><mo mathsize=\"16px\">.</mo><mn mathsize=\"16px\">5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(Z>z)=p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mi>p</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis Z greater than z right parenthesis equals p end style"
+  },
+  {
+   "latex": "P(Z\\leq0.96)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mn>0</mn><mo>.</mo><mn>96</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z less or equal than 0.96 right parenthesis"
+  },
+  {
+   "latex": "P(Z>0.96)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>&gt;</mo><mn>0</mn><mo>.</mo><mn>96</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z greater than 0.96 right parenthesis"
+  },
+  {
+   "latex": "P(Z\\leq-0.96)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Z</mi><mo>≤</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>96</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Z less or equal than negative 0.96 right parenthesis"
+  },
+  {
+   "latex": "P(-0.96<Z\\leq0.96)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>96</mn><mo>&lt;</mo><mi>Z</mi><mo>≤</mo><mn>0</mn><mo>.</mo><mn>96</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis negative 0.96 less than Z less or equal than 0.96 right parenthesis"
+  },
+  {
+   "latex": "z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z"
+  },
+  {
+   "latex": "P(Z<z)=0.7",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>Z</mi><mo>&lt;</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis Z less than z right parenthesis equals 0.7"
+  }
+ ],
+ "stats": {
+  "blocks": 19,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 30
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_gmwKSJM4VXDr4T7d",
+   "name": "Standard Normal Distribution",
+   "definition": "",
+   "video_id": "846573440"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Standard Normal Distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is the standard normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **standard normal distribution** is a normal distribution where the **mean is 0** and the **standard deviation is 1**\n\n  - It is denoted by *Z*\n  - `begin mathsize 16px style Z tilde straight N left parenthesis 0 comma 1 squared right parenthesis end style`"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Why is the standard normal distribution important?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Calculating probabilities for the normal distribution can be difficult and lengthy due to its complicated probability density function\n- The probabilities for the **standard normal distribution** have been calculated and laid out in the **table of the normal distribution** which can be found in your formula booklet\n\n  - Nowadays, many calculators can calculate probabilities for any normal distribution, if yours does then the tables can be used as a check\n- It is possible to map any normal distribution onto the standard normal distribution curve\n- Mapping different normal distributions to the standard normal distribution allows distributions with different means and standard deviations to be compared with each other"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How is any normal distribution mapped to the standard normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Any **normal distribution curve** can be transformed to the standard normal distribution curve by a **horizontal translation** and a **horizontal stretch**\n\n  - Therefore, for `begin mathsize 16px style X tilde straight N left parenthesis mu comma sigma squared right parenthesis end style`  and `equation`, we have the relationship:"
+  },
+  {
+   "type": "paragraph",
+   "md": "$Z=\\frac{X-μ}{σ}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Probabilities are related by:\n\n  - `begin mathsize 16px style straight P left parenthesis X less than a right parenthesis equals straight P open parentheses Z less than fraction numerator a minus mu over denominator sigma end fraction close parentheses end style`\n  - This is a very useful relationship for calculating probabilities for any normal distribution\n  - As the normal distribution is a continuous distribution $P(z_{1}\\leqZ\\leqz_{2})=P(z_{1}<Z<z_{2})$ so you do not need to worry about whether the inequality is strict (< or >) or weak (≤ or ≥)\n- A value of z = 1 corresponds with the *x*-value that is 1 standard deviation above the mean and a value of z = -1 corresponds with the *x*-value that is 1 standard deviation below the mean\n- If a value of** *****x***** **is** less than the mean** then the *z* **-value will be negative**\n- The function $Φ(z)$ is used to represent $P(Z<z)$"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How is the table of the normal distribution function used?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In your formula booklet you have the table of the normal distribution which provides probabilities for the standard normal distribution\n\n  - The probabilities are provided for $Φ(z)=P(Z\\leqz)=P(Z<z)$\n  - To find other probabilities you should use the symmetry property of the normal distribution curve\n- The table gives probabilities for values of *z* between 0 and 4\n\n  - For negative values of *z*, the symmetry property of the normal distribution is used\n  - For values greater than *z* = 4 the probabilities are small enough to be considered negligible\n- The tables give the probabilities to 4 decimal places\n- To read probabilities from the normal distribution table for a *z *value :\n\n  - Find the *z* value in a column labelled *z *at the top\n  - The probability $Φ(z)$ will be the probability directly to the right of the *z *value\n  - So the value of $Φ(1.23)=P(Z\\leq1.23)$ would be found to the right of 1.23\n  \n    - $P(Z\\leq1.23)=0.8907$\n- If the value of *z *is not listed then find the closest value on the table\n\n  - *z *= 3.14 is not listed so use *z *= 3.15\n  - *z *= 2.25 is not listed so use *z *= 2.24 or *z *= 2.26"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How is the table used to find probabilities that are not listed?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The property that the area under the graph is 1 allows probabilities to be found for P( *Z > z*)\n\n  - Use the formula $P(Z>z)=1-Φ(z)$\n- The symmetrical property of the normal distribution gives the following results:\n\n  - $P(Z\\leqz)=P(Z\\geq-z)$\n  - $P(Z\\geqz)=P(Z\\leq-z)$\n- This allows probabilities to be found for negative values of *z *or for $P(Z>z)$\n\n  - $Φ(-z)=1-Φ(z)$\n  - $P(Z>z)=1-Φ(z)$\n- In summary\n\n  - $P(Z<z)=Φ(z)$\n  - $P(Z>z)=1-Φ(z)$\n  - $P(Z<-z)=1-Φ(z)$\n  - $P(Z>-z)=Φ(z)$\n- Drawing a sketch of the normal distribution will help find equivalent probabilities\n\n  - Always consider whether the probability should be bigger or smaller then 0.5"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-3-2-standard-normal-distribution-diagram-1.png",
+   "file": "assets/2f4ec58e8828-3-3-2-standard-normal-distribution-diagram-1.png",
+   "alt": "3-3-2-standard-normal-distribution-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How are z values found from the table of the normal distribution function?"
+  },
+  {
+   "type": "bullets",
+   "md": "- To find the value of *z *for which $P(Z\\leqz)=p$ look for the value of *p *from within the table and find the corresponding value of *z*\n\n  - If the probability is given to 4 decimal places most of the time the value will exist somewhere in the tables\n- If your probability is 0.5 or greater look through the tables to find the corresponding *z *value\n\n  - For $P(Z<z)\\geq0.5$  use the z value found in the table\n  - For $P(Z>z)\\geq0.5$ take the negative of the z value found in the table\n- If the probability is less than 0.5 you will need to **subtract it from one** before using the tables to find the corresponding *z *value\n\n  - For $P(Z<z)<0.5$  take the negative of the z value found in the table\n  - For $P(Z>z)<0.5$ use the z value found in the table\n- **Always draw a sketch **so that you can see these clearly\n- The formula booklet also contains a **table of the critical values of *****z ***for $P(Z>z)=p$\n\n  - This gives *z *values to 4 decimal places for common probabilities\n  - The probabilities in this table are 0.5, 0.4, 0.3, 0.2, 0.15, 0.1, 0.05, 0.025, 0.01, 0.005, 0.001 and 0.0005."
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(a) By sketching a graph and using the table of the normal distribution, find the following:\n\n(i) $P(Z\\leq0.96)$\n\n(ii) $P(Z>0.96)$\n\n(iii) $P(Z\\leq-0.96)$\n\n(iv) $P(-0.96<Z\\leq0.96)$\n\n(b) Find the value of $z$ such that $P(Z<z)=0.7$\n\n**Answer:**\n\n![3-2-2-standard-normal-we-solution-part-1](assets/14dafc42e38a-image.bin)\n\n![3-2-2-standard-normal-we-solution-part-2](assets/95674e27735d-image.bin)\n\n![3-2-2-standard-normal-we-solution-part-3](assets/63b978b7a041-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- A sketch will always help you to visualise the required probability and can be used to check your answer\n- Check whether the area shaded is more or less than 50% and compare this with your answer"
+  }
+ ]
+}

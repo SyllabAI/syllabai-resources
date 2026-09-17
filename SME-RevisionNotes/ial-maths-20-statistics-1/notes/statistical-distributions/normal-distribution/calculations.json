@@ -1,0 +1,278 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_yYpsrXTVV89hv2KG",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/statistical-distributions/normal-distribution/calculations",
+ "title": "Calculations with Normal Distributions",
+ "page_title": "Calculations with Normal Distributions | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "normal-distribution",
+   "calculations"
+  ],
+  "section": "statistical-distributions",
+  "topic": "normal-distribution",
+  "leaf": "calculations"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Normal Distribution",
+  "subtopic": "Calculations with Normal Distributions"
+ },
+ "updated_at": "2026-07-02T08:19:38.646Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_j6mhY3GsmrfJcws5",
+  "spcpt_GyGBcHPyjz7RJsv9"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "X",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>X</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X"
+  },
+  {
+   "latex": "x=a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x equals a"
+  },
+  {
+   "latex": "x=b",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x equals b"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)=P(a<X<b)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>a</mi><mo>&lt;</mo><mi>X</mi><mo>&lt;</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis a less or equal than X less or equal than b right parenthesis equals P left parenthesis a less than X less than b right parenthesis"
+  },
+  {
+   "latex": "z",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>z</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z"
+  },
+  {
+   "latex": "Z=\\frac{X-μ}{σ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>X</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Z equals fraction numerator X minus mu over denominator sigma end fraction"
+  },
+  {
+   "latex": "P(X<x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than x right parenthesis"
+  },
+  {
+   "latex": "P(X=x)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold\">P</mi><mo mathvariant=\"bold\">(</mo><mi mathvariant=\"bold-italic\">X</mi><mo mathvariant=\"bold\">=</mo><mi mathvariant=\"bold-italic\">x</mi><mo mathvariant=\"bold\">)</mo><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold P bold left parenthesis bold italic X bold equals bold italic x bold right parenthesis bold equals bold 0 end style"
+  },
+  {
+   "latex": "P(X<μ)=P(X>μ)=0.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>μ</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>μ</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than mu right parenthesis equals straight P left parenthesis X greater than mu right parenthesis equals 0.5"
+  },
+  {
+   "latex": "P(X=a)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals a right parenthesis equals 0"
+  },
+  {
+   "latex": "P(X<a)+P(X>a)=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>1</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than a right parenthesis plus straight P left parenthesis X greater than a right parenthesis equals 1"
+  },
+  {
+   "latex": "P(X\\leq22)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>22</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than 22 right parenthesis"
+  },
+  {
+   "latex": "P(18\\leqX\\leq27)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mn>18</mn><mo>≤</mo><mi>X</mi><mo>≤</mo><mn>27</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis 18 less or equal than X less or equal than 27 right parenthesis"
+  },
+  {
+   "latex": "P(X<a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than a right parenthesis"
+  },
+  {
+   "latex": "P(X>a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than a right parenthesis"
+  },
+  {
+   "latex": "P(X<a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than a right parenthesis"
+  },
+  {
+   "latex": "P(X>a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X greater than a right parenthesis"
+  },
+  {
+   "latex": "z=\\frac{a-μ}{σ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>z</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "z equals fraction numerator a minus mu over denominator sigma end fraction"
+  },
+  {
+   "latex": "P(X<μ+a)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>μ</mi><mo>+</mo><mi>a</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less than mu plus a right parenthesis"
+  },
+  {
+   "latex": "z=\\frac{(μ+a)-μ}{σ}=\\frac{a}{σ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>z</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>μ</mi><mo>+</mo><mi>a</mi><mo>)</mo><mo>-</mo><mi>μ</mi></mrow><mi>σ</mi></mfrac><mo>=</mo><mfrac><mi>a</mi><mi>σ</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style z equals fraction numerator left parenthesis mu plus a right parenthesis minus mu over denominator sigma end fraction equals a over sigma end style"
+  },
+  {
+   "latex": "w",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>w</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "w"
+  },
+  {
+   "latex": "P(W>w)=0.7673",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>W</mi><mo>&gt;</mo><mi>w</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>7673</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis W greater than w right parenthesis equals 0.7673"
+  }
+ ],
+ "stats": {
+  "blocks": 21,
+  "figures": 2,
+  "worked_examples": 2,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 22
+ },
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Throughout this section we will use the random variable `X tilde straight N left parenthesis mu comma space sigma squared right parenthesis` . For normal, $X$ can take any real number. Therefore any values mentioned in this section will be assumed to be any real number."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_j6mhY3GsmrfJcws5",
+   "name": "Calculating Normal Probabilities",
+   "definition": "",
+   "video_id": "847220609"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Normal Probabilities"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find probabilities using a normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **area** **under a normal curve** between the points $x=a$ and $x=b$ is equal to the **probability **P(*a < X < b *)\n\n  - Remember for a normal distribution $P(a\\leqX\\leqb)=P(a<X<b)$ so you do not need to worry about whether the inequality is strict (< or >) or weak (≤ or ≥)\n- The equation of a normal distribution curve is complicated so the **area must be calculated numerically**\n- You will be expected to** standardise **all normal distributions to $z$  and** use the table of the normal distribution **to find the probabilities\n\n  - It is likely that your calculator has a function that can find normal probabilities, if so it is a good idea to learn to use it so that you can check your probabilities\n  - However you **must** show your calculations to get the z values and use the tables to get all the marks"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate the probability for a normal distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A random variable `X tilde straight N left parenthesis mu comma sigma squared right parenthesis`  can be coded to model the standard normal distribution `equation` using the formula"
+  },
+  {
+   "type": "paragraph",
+   "md": "$Z=\\frac{X-μ}{σ}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can calculate a probability $P(X<x)$ using the relationship `straight P left parenthesis X less than x right parenthesis equals straight P open parentheses Z less than fraction numerator x minus mu over denominator sigma end fraction close parentheses`\n- **Always sketch** a quick diagram to visualise which area you are looking for\n- Once you have determined the *z *value use the table of the normal distribution to find the probability\n\n  - Refer to your sketch to decide if you need to subtract the probability from one\n- The probability of a **single value** is **always zero** for a normal distribution\n\n  - You can picture this as the area of a single line is zero\n  - $P(X=x)=0$\n- $P(X<μ)=P(X>μ)=0.5$\n\n  - You can look at which side of the mean *x *is on and the direction of the inequality to decide if your answer should be greater or less than 0.5\n- As $P(X=a)=0$ you can use:\n\n  - $P(X<a)+P(X>a)=1$\n  - `straight P left parenthesis X greater than a right parenthesis equals 1 minus straight P left parenthesis X less than a right parenthesis equals 1 minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses`\n  - `straight P left parenthesis a less than X less than b right parenthesis equals straight P left parenthesis X less than b right parenthesis minus straight P left parenthesis X less than a right parenthesis equals straight capital phi open parentheses fraction numerator b minus mu over denominator sigma end fraction close parentheses minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses`"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The random variable `X tilde straight N left parenthesis 20 comma 5 squared right parenthesis`. Calculate:\n\n(a) $P(X\\leq22)$,\n\n(b) $P(18\\leqX\\leq27)$\n\n**Answer:**\n\n![3-3-3-calculating-normal-probabilities-we-solution-1_a](assets/8573c303562f-image.bin)\n\n![3-3-3-calculating-normal-probabilities-we-solution-1_b](assets/d80e4fe25e60-image.bin)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_GyGBcHPyjz7RJsv9",
+   "name": "Inverse Normal Distribution",
+   "definition": "",
+   "video_id": "847299628"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Inverse Normal Distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Given the value of P(X < a)  or P(X > a)  how do I find the value of a?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Given a probability you will have to look through the table of the normal distribution to locate the *z*-value that corresponds with that probability\n- Look at whether your probability is **greater or less than 0.5** and the **direction of the inequality** to determine whether your *z-*value will be positive or negative\n\n  - If $P(X<a)$ is **more than 0.5** or $P(X>a)$ is **less than 0.5** then *a* should be **bigger than the mean**\n  \n    - *z *will be positive\n  - If $P(X<a)$ is **less than 0.5** or $P(X>a)$ is **more than 0.5** then *a*  should be **smaller than the mean**\n  \n    - *z *will be negative\n- You do not need to remember these, **a sketch will help you see it**\n\n  - **Always sketch a diagram**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-3-3-inverse-normal-diagram-1-.png",
+   "file": "assets/5fece527cf0f-3-3-3-inverse-normal-diagram-1.png",
+   "alt": "3-3-3-inverse-normal-diagram-1-",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- If your probability is less than 0.5 you will need to **subtract it from one** to find the corresponding *z *value\n\n  - Remember that the **position **of the z-value will not change, only the direction of the inequality\n- Once you have the correct value substitute it into the formula** **$z=\\frac{a-μ}{σ}$   and solve to find the value of *a*\n- Always check that your answer makes sense by considering where *a* is in relation to the mean"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Given the value of P(µ- a < X < µ + a) I find the value of a  ?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A sketch making use of the symmetry of the graph is essential\n- If you are given `P left parenthesis mu minus a less than X less than mu plus a right parenthesis equals alpha percent sign`  then $P(X<μ+a)$ will be `open parentheses fraction numerator 100 plus alpha over denominator 2 end fraction close parentheses percent sign`\n\n  - This is easier to see from a sketch than to remember\n  - You can then look through the tables for the corresponding z-value and substitute into the formula** ** $z=\\frac{(μ+a)-μ}{σ}=\\frac{a}{σ}$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-3-3-inverse-normal-diagram-2.png",
+   "file": "assets/0f45a0802311-3-3-3-inverse-normal-diagram-2.png",
+   "alt": "3-3-3-inverse-normal-diagram-2",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The random variable  `W tilde straight N left parenthesis 50 comma 36 right parenthesis`.\n\nFind the value of $w$ such that $P(W>w)=0.7673$\n\n**Answer:**\n\n![3-2-3-inverse-normal-we-solution](assets/1540f87d52d3-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- The most common mistake students make when finding values from given probabilities is forgetting to check whether the *z-*value should be negative or not.  Avoid this by checking early on **using a sketch** whether *z *is positive or negative and writing a note to yourself before starting the other calculations."
+  }
+ ]
+}

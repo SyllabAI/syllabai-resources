@@ -1,0 +1,139 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_fMgm8rrmN9ftVg2y",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/hypothesis-testing/sampling-distributions-and-intro-to-hypothesis-testing/sampling-distributions",
+ "title": "Sampling Distributions",
+ "page_title": "Sampling Distributions | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "hypothesis-testing",
+   "sampling-distributions-and-intro-to-hypothesis-testing",
+   "sampling-distributions"
+  ],
+  "section": "hypothesis-testing",
+  "topic": "sampling-distributions-and-intro-to-hypothesis-testing",
+  "leaf": "sampling-distributions"
+ },
+ "titles": {
+  "section": "Hypothesis Testing",
+  "topic": "Sampling Distributions & Introduction to Hypothesis Testing",
+  "subtopic": "Sampling Distributions"
+ },
+ "updated_at": "2026-07-02T08:19:38.633Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_tfzp7PgcTfMs9Ddw"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\overline{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi>x</mi><mo>¯</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x with bar on top"
+  },
+  {
+   "latex": "\\frac{Σx}{n}-\\overline{X}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mi mathvariant=\"normal\">Σ</mi><mi>x</mi></mrow><mi>n</mi></mfrac><mo>-</mo><msup><mover><mi>X</mi><mo>¯</mo></mover><mn>2</mn></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator straight capital sigma x over denominator n end fraction minus X with bar on top squared"
+  },
+  {
+   "latex": "\\overline{X}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mover><mi mathvariant=\"normal\">X</mi><mo>¯</mo></mover><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight X with bar on top"
+  },
+  {
+   "latex": "\\frac{Σx}{n}-μ^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Σ</mi><mi mathsize=\"16px\">x</mi></mrow><mi mathsize=\"16px\">n</mi></mfrac><mo mathsize=\"16px\">-</mo><msup><mi mathsize=\"16px\">μ</mi><mn mathsize=\"16px\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator straight capital sigma x over denominator n end fraction minus mu squared"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 4
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_tfzp7PgcTfMs9Ddw",
+   "name": "Sampling Distributions",
+   "definition": "",
+   "video_id": "891476828"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Sampling Distributions"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What key words do I need to know about sampling?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **population** refers to the **whole set** of things which you are interested in\n\n  - For example: if a vet wanted to know how long a typical French bulldog slept for in a day then the population would be all the French bulldogs in the world\n- A **sampling unit** is an individual member of the population\n\n  - For example: a French bulldog would be a sampling unit in the above population\n- A **sample** refers to a **subset of the population** which is used to collect data from\n\n  - For example: the vet might take a sample of French bulldogs from different cities and record how long they sleep in a day\n- A **sampling frame** is a **list** of all members of the **population**\n\n  - For example: a list of employees’ names within a company\n- A **population parameter** is a **numerical value** which describes a **characteristic of the population**\n\n  - These are usually unknown\n  - For example: the mean (*μ*) height of all 16-year-olds in the UK\n- A **sample statistic** is a **value** computed using **data from the sample**\n\n  - These are used to estimate population parameters\n  - For example: the mean ($\\overline{x}$) height of 200 16-year-olds from randomly selected cities in the UK"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the differences between a census and sampling?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **census** collects data about **all** the members of a **population**\n\n  - For example: the Government in England does a national census every 10 years to collect data about every person living in England at the time\n- The main advantage of a census is that it gives fully accurate results\n- The disadvantages of a census are:\n\n  - It is time consuming and expensive to carry out\n  - It can destroy or use up all the members of a population when they are consumables (imagine a company testing every single firework)\n- **Sampling** is used to collect data from a **subset of the population**\n- The advantages of sampling are:\n\n  - It is quicker and cheaper than a census\n  - It leads to less data needing to be analysed\n- The disadvantages of sampling are:\n\n  - It might not represent the population accurately\n  - It could introduce ***bias***"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a statistic and its sampling distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **statistic** is a **random variable** that is calculated by **only** using the **data from a sample**\n\n  - It **does not contain** any **unknown values** such as population parameters\n  - $\\frac{Σx}{n}-\\overline{X}^{2}$ would be a statistic as $\\overline{X}$ is the mean of the sample\n  - $\\frac{Σx}{n}-μ^{2}$ would not be a statistic as μ is an unknown population parameter\n- Common examples for a statistic include:\n\n  - Sample mean, sample median, range of the sample, sample variance\n- The **sampling distribution** of a statistic gives all the **possible values** of the statistic along with their **associated probabilities**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I find the sampling distribution of a statistic?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**: **List all** the possible samples\n\n  - Some samples can have the same combination of members but still list each one separately\n  \n    - AAB and ABA both contain two A's and one B\n    - It can be helpful to group these together\n  - Consider how many possible samples there are\n  \n    - If there are 2 different types of members in a population and you take a sample of 3 then there are 8 possible samples (2<sup>3 </sup>or 2 × 2 × 2)\n- **STEP 2**: **Calculate** the **value** of the **statistic** for each possible sample\n\n  - This is why grouping the samples with the same combination is helpful\n- **STEP 3**: **Calculate** the **probability** of each sample being picked\n\n  - The samples will be independent\n  - If the population is described as being large then you can treat the sampling as if it were with replacement\n  \n    - The probability of selecting a type of member will be constant regardless of how many has already been selected\n- **STEP 4**: **Construct** the **distribution** table\n\n  - Add together the probabilities of the samples that result in the same value of the statistic"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A money box contains a large number of £5, £10 and £20 notes.  50% are £5 notes, 30% are £10 notes and 20% are £20 notes.\n\nA random sample of two notes is taken from the money box.\n\n(a)    List all the possible samples.\n\n(b)    Find the sampling distribution of the mean.\n\n**Answer:**\n\n![2-1-1-sampling-distribution-we-solution-part-1](assets/4f03a0c32f18-image.bin)\n\n![2-1-1-sampling-distribution-we-solution-part-2](assets/e24b1cba8a3f-image.bin)\n\n![2-1-1-sampling-distribution-we-solution-part-3](assets/32b9b58b338f-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Remember the probabilities in a sampling distribution should add up to 1. You can use this to either check your answer or as a shortcut to find the final probability once you have the others."
+  }
+ ]
+}

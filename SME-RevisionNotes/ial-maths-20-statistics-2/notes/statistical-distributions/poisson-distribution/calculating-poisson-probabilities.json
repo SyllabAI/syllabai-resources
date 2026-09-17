@@ -1,0 +1,202 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_vmfkpVF5w4XxZXkw",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/statistical-distributions/poisson-distribution/calculating-poisson-probabilities",
+ "title": "Calculating Poisson Probabilities",
+ "page_title": "Calculating Poisson Probabilities | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "poisson-distribution",
+   "calculating-poisson-probabilities"
+  ],
+  "section": "statistical-distributions",
+  "topic": "poisson-distribution",
+  "leaf": "calculating-poisson-probabilities"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Poisson Distribution",
+  "subtopic": "Calculating Poisson Probabilities"
+ },
+ "updated_at": "2026-07-02T08:19:38.656Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_dchGk3kdpWq5TpJY"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "P(X=r)=p_{r}=e^{-λ}\\times\\frac{λ^{r}}{r!}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>r</mi><mo>)</mo><mo>=</mo><msub><mi>p</mi><mi>r</mi></msub><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>×</mo><mfrac><msup><mi>λ</mi><mi>r</mi></msup><mrow><mi>r</mi><mo>!</mo></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X equals r right parenthesis equals p subscript r equals e to the power of negative lambda end exponent cross times fraction numerator lambda to the power of r over denominator r factorial end fraction"
+  },
+  {
+   "latex": "P(X\\leqx)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X less or equal than x right parenthesis end style"
+  },
+  {
+   "latex": "P(X<x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X less than x right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leqx-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X less or equal than x minus 1 right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\geqx)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X greater or equal than x right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\geqx)=1-P(X<x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X greater or equal than x right parenthesis equals 1 minus P left parenthesis X less than x right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\geqx)=1-P(X\\leqx-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X greater or equal than x right parenthesis equals 1 minus straight P left parenthesis X less or equal than x minus 1 right parenthesis end style"
+  },
+  {
+   "latex": "P(X>x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X greater than x right parenthesis end style"
+  },
+  {
+   "latex": "P(X>x)=1-P(X\\leqx)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X greater than x right parenthesis equals 1 minus P left parenthesis X less or equal than x right parenthesis end style"
+  },
+  {
+   "latex": "P(a\\leqX\\leqb)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>a</mi><mo>≤</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis a less or equal than X less or equal than b right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leqb)-P(X\\leqa-1)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>b</mi><mo>)</mo><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>a</mi><mo>-</mo><mn>1</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X less or equal than b right parenthesis minus straight P left parenthesis X less or equal than a minus 1 right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leq3)=e^{-λ}\\times\\frac{λ^{0}}{0!}+e^{-λ}\\times\\frac{λ^{1}}{1!}+e^{-λ}\\times\\frac{λ^{2}}{2!}+e^{-λ}\\times\\frac{λ^{3}}{3!}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>3</mn><mo>)</mo><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>×</mo><mfrac><msup><mi>λ</mi><mn>0</mn></msup><mrow><mn>0</mn><mo>!</mo></mrow></mfrac><mo>+</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>×</mo><mfrac><msup><mi>λ</mi><mn>1</mn></msup><mrow><mn>1</mn><mo>!</mo></mrow></mfrac><mo>+</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>×</mo><mfrac><msup><mi>λ</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>×</mo><mfrac><msup><mi>λ</mi><mn>3</mn></msup><mrow><mn>3</mn><mo>!</mo></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X less or equal than 3 right parenthesis equals e to the power of negative lambda end exponent cross times fraction numerator lambda to the power of 0 over denominator 0 factorial end fraction plus e to the power of negative lambda end exponent cross times fraction numerator lambda to the power of 1 over denominator 1 factorial end fraction plus e to the power of negative lambda end exponent cross times fraction numerator lambda squared over denominator 2 factorial end fraction plus e to the power of negative lambda end exponent cross times fraction numerator lambda cubed over denominator 3 factorial end fraction end style"
+  },
+  {
+   "latex": "e^{-λ}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "e to the power of negative lambda end exponent"
+  },
+  {
+   "latex": "λ^{0}=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msup><mi>λ</mi><mn>0</mn></msup><mo>=</mo><mn>1</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style lambda to the power of 0 equals 1 end style"
+  },
+  {
+   "latex": "λ^{1}=λ",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msup><mi>λ</mi><mn>1</mn></msup><mo>=</mo><mi>λ</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style lambda to the power of 1 equals lambda end style"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 15
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_dchGk3kdpWq5TpJY",
+   "name": "Calculating Poisson Probabilities",
+   "definition": "",
+   "video_id": "896888681"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Poisson Probabilities"
+  },
+  {
+   "type": "paragraph",
+   "md": "Throughout this section we will use the random variable `X tilde Po left parenthesis lambda right parenthesis`  . For a Poisson distribution, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section (other than *λ*) will be assumed to be non-negative integers."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Where does the formula for a Poisson distribution come from?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The formula for calculating an individual **Poisson probability **is\n\n  - $P(X=r)=p_{r}=e^{-λ}\\times\\frac{λ^{r}}{r!}$ for r = 0, 1, 2 ,...., n\n- The derivation of the formula comes from the binomial distribution, however it is outside the scope of this syllabus and will not be proved here\n\n  - Whilst the binomial distribution relies on knowing a fixed number of trials, the Poisson can allow for any number of trials within a time period\n  - Only the mean number of occurrences of an event within the given period needs to be known"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate the cumulative probabilities for a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Most of the time the value of λ will be in the table for the 'Poisson Cumulative Distribution Function' in the formula booklet\n- $P(X\\leqx)$ is asking you to find the probabilities of **all values up to and including *****x***** **\n\n  - This will be the value in the row of *x*\n- $P(X<x)$ is asking you to find the probabilities of **all values up to but not including *****x***\n\n  - This means all values that are **less than x**\n  - This will be the value in the row of *x *- 1\n  \n    - $P(X\\leqx-1)$\n- $P(X\\geqx)$ is asking you to find the probabilities of **all values greater than and including x**\n\n  - This means all values that are **at least x**\n  - As there is** not a fixed number of trials **this includes an** infinite number of possibilities**\n  - To calculate this, use the identity $P(X\\geqx)=1-P(X<x)$\n  \n    - Using above we get: $P(X\\geqx)=1-P(X\\leqx-1)$\n- $P(X>x)$ is asking you to find the probabilities of **all values greater than but not including x**\n\n  - This means all values that are **more than x**\n  - Rewrite $P(X>x)=1-P(X\\leqx)$ as to calculate this\n- If calculating $P(a\\leqX\\leqb)$ then calculate $P(X\\leqb)-P(X\\leqa-1)$\n\n  - This is the same idea as for the binomial distribution"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate the cumulative probabilities for a Poisson distribution if λ is not in the table?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In the unlikely case that λ is not in the table\n\n  - Use the formula to find the individual probabilities and then add them up\n  - Make sure you are confident working with inequalities for **discrete values**\n  - Only integer values will be included so it is easiest to look at which integer values you should include within your calculation\n  - Sometimes it is quicker to find the probabilities that are **not being asked for** and subtract from one"
+  },
+  {
+   "type": "bullets",
+   "md": "- Having to type a lot of calculations into your calculator can be time consuming and cause errors\n- Consider the calculation $P(X\\leq3)=e^{-λ}\\times\\frac{λ^{0}}{0!}+e^{-λ}\\times\\frac{λ^{1}}{1!}+e^{-λ}\\times\\frac{λ^{2}}{2!}+e^{-λ}\\times\\frac{λ^{3}}{3!}$\n\n  - Note that $e^{-λ}$ exists in every term and can be factorised out\n  - Recall that $λ^{0}=1$ and 0! = 1\n  - Recall also that $λ^{1}=λ$ and 1! = 1\n- This calculation could be factorised and simplified to\n\n  - `begin mathsize 16px style P left parenthesis X less or equal than 3 right parenthesis equals e to the power of negative lambda end exponent open parentheses 1 plus lambda plus fraction numerator lambda squared over denominator 2 factorial end fraction plus fraction numerator lambda cubed over denominator 3 factorial end fraction close parentheses end style`\n  - This is much simpler and easier to type into your calculator in exam conditions"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I change the mean for a Poisson distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Sometimes the mean may be given for a different interval of time or space than that which you need to calculate the probability for\n- A given value of *λ *can be adjusted to fit the necessary time period\n\n  - For example if a football team score a mean of 2 goals an hour and we want to find the probability of them scoring a certain number of goals in a 90 minute game, then we would use the distribution *X* ~ Po(*3*)\n  \n    - 90 = 1.5 × 60 so use 1.5λ"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Xiao makes silly mistakes in his maths homework at a mean rate of 2 per page.\n\n(a) Define a suitable distribution to model the number of silly mistakes Xiao would make in a piece of homework that is five pages long.\n\n(b) Find the probability that in any random page of Xiao’s  homework book there are\n\n**Answer:**\n\n(i) exactly three silly mistakes\n\n(ii) at most three silly mistakes\n\n(iii) more than three silly mistakes.\n\n![1-2-2-calculating-poisson-probabilities-we-solution-part-1](assets/d9814e590782-image.bin)\n\n![1-2-2-calculating-poisson-probabilities-we-solution-part-2](assets/d92a57cfe179-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Look carefully at the given time or space interval to check if you need to change the mean before carrying out calculations.\n\n  - Be prepared for this to change between question parts!"
+  }
+ ]
+}

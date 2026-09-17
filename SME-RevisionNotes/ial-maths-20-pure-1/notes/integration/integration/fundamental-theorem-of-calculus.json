@@ -1,0 +1,140 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_qf9zHysjdC2Vndyy",
+ "course_slug": "ial-maths-20-pure-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-1/revision-notes/integration/integration/fundamental-theorem-of-calculus",
+ "title": "Fundamental Theorem of Calculus",
+ "page_title": "Fundamental Theorem of Calculus | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "integration",
+   "integration",
+   "fundamental-theorem-of-calculus"
+  ],
+  "section": "integration",
+  "topic": "integration",
+  "leaf": "fundamental-theorem-of-calculus"
+ },
+ "titles": {
+  "section": "Integration",
+  "topic": "Integration",
+  "subtopic": "Fundamental Theorem of Calculus"
+ },
+ "updated_at": "2026-07-02T08:19:38.418Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_W6dVXpNvRcYGKYrW",
+   "rnl_cq65WJBkfjgHd7Br",
+   "rnl_RhGrtKDJ9rSpjYFB",
+   "rnl_wcpdWZRQHThP3Jtr"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_hBBQtQpzy6DFVZ5J"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\frac{dy}{dx}=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction equals 0"
+  },
+  {
+   "latex": "\\frac{dy}{dx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator d y over denominator d x end fraction"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_hBBQtQpzy6DFVZ5J",
+   "name": "Fundamental Theorem of Calculus",
+   "definition": null,
+   "video_id": "814207078"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Fundamental theorem of calculus"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the fundamental theorem of calculus?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.1-Notes-fig1.png",
+   "file": "assets/9b45bc4779ee-8-1-1-notes-fig1.png",
+   "alt": "Notes fig1, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The Fundamental Theorem of Calculus states that integration is the inverse process of differentiation\n\n  - This form of the Theorem relates to **Indefinite** **Integration**\n  - An alternative version of the Fundamental Theorem of Calculus involves **Definite Integration**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a constant of integration?"
+  },
+  {
+   "type": "bullets",
+   "md": "- When differentiating **y**, constant terms ‘disappear’\n\n  - for constants **y = c**, $\\frac{dy}{dx}=0$\n  - graphs of constants are horizontal lines and so have gradient `open parentheses fraction numerator d y over denominator d x end fraction close parentheses`** **of 0\n- Integrating $\\frac{dy}{dx}$, to get **y**, cannot determine the constant\n\n  - To acknowledge this constant, “**+ c**” is used\n  - **c** is called the **constant** **of** **integration**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.1-Notes-fig2.png",
+   "file": "assets/21831a6b5f29-8-1-1-notes-fig2.png",
+   "alt": "Notes fig2, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What notation is used in integration?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.1.1-Notes-fig3.png",
+   "file": "assets/755d0862334e-8-1-1-notes-fig3.png",
+   "alt": "Notes fig3, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- `integral` is the sign for integration\n- If it has more than one term the function to be integrated (called the **integrand**) should be in brackets\n\n  - “Integrate” -–  “**all** of (…)”  -–  “with respect to x”\n- **dx** means integrate with respect to **x**, any other letter is treated like a number (ie like a constant)"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Example fig1, AS & A Level Maths revision notes](assets/72cc738e0799-8-1-1-example-fig1.png)"
+  }
+ ]
+}

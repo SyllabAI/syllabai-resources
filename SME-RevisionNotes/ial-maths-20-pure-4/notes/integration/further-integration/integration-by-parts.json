@@ -1,0 +1,178 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_rKQh83CdrQnmmqty",
+ "course_slug": "ial-maths-20-pure-4",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/revision-notes/integration/further-integration/integration-by-parts",
+ "title": "Integration by Parts",
+ "page_title": "Integration by Parts | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "integration",
+   "further-integration",
+   "integration-by-parts"
+  ],
+  "section": "integration",
+  "topic": "further-integration",
+  "leaf": "integration-by-parts"
+ },
+ "titles": {
+  "section": "Integration",
+  "topic": "Further Integration",
+  "subtopic": "Integration by Parts"
+ },
+ "updated_at": "2026-07-02T08:19:38.427Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_qXjRv2s8FjnBH25P",
+   "rnl_k7Yz5YqG3FMtwJj3",
+   "rnl_ymPp8tM9mWVypDcC",
+   "rnl_qC3JGMrzQwYgFx6V"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_ysNvB269Jc4fKjT3"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 21,
+  "figures": 6,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_ysNvB269Jc4fKjT3",
+   "name": "Integration by Parts",
+   "definition": "",
+   "video_id": "894075329"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integration by parts"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is integration by parts?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.8-Notes-int_parts.png",
+   "file": "assets/a24cd127f09b-8-2-8-notes-int-parts.png",
+   "alt": "Notes int_parts, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- For integrating the product of two functions - reverse product rule\n- Crucially the product is made from **u** and **dv/dx** (rather than **u** and **v**)\n- Alternative notation may be used"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.8-Notes-parts_alt_not.png",
+   "file": "assets/f10c742e4d2c-8-2-8-notes-parts-alt-not.png",
+   "alt": "Notes parts_alt_not, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I use integration by parts?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.8-Notes-parts_choosing.png",
+   "file": "assets/da2e3f2598a3-8-2-8-notes-parts-choosing.png",
+   "alt": "Notes parts_choosing, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The hardest part is choosing **u** and **dv/dx** as there is no method for doing so\n- **u**, ideally, becomes **simpler** when differentiated but this is not always possible\n- **dv/dx** should be a function that can be integrated fairly easily\n- Be wary of functions that ‘cycle’/’repeat’ when differentiated/integrated ![Notes parts_eg_soltn, AS & A Level Maths revision notes](assets/236be6348364-8-2-8-notes-parts-eg-soltn.png)\n\n  - **e**<sup>**x**</sup> → **e**<sup>**x**</sup>\n  - **sin x** → **cos x** → **-sin x** → **-cos x** → **sin x**"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nChoose u and v’, find u’ and v\n- **STEP 2**\nApply Integration by Parts\n\n  - Simplify anything straightforward\n- **STEP 3**\nDo the ‘second’ integral\n\n  - If an **indefinite** integral remember “**+c**”, the **constant** **of** **integration**\n- **STEP 4**\nSimplify and/or apply limits"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Can I use integration by parts twice?"
+  },
+  {
+   "type": "bullets",
+   "md": "- It is possible that integration by parts may need to be applied more than once"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.2.8-Notes-parts_twice.png",
+   "file": "assets/8ad3cf11a857-8-2-8-notes-parts-twice.png",
+   "alt": "Notes parts_twice, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate ln x?"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.8-Notes-int_ln.png",
+   "file": "assets/7516f45c760c-8-2-8-notes-int-ln.png",
+   "alt": "Notes int_ln, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- A classic ‘set piece’ in almost every A level maths textbook ever written!\n- In general, rewriting **f(x)** as **1×f(x)** can be a powerful problem-solving technique\n- This could be a question in the exam"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Can I find definite integrals using integration by parts?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You can find the value of a definite integral using integration by parts\n\n  - Use the layout shown in the example below"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.2.8-Notes-parts_def.png",
+   "file": "assets/d29e3d094f78-8-2-8-notes-parts-def.png",
+   "alt": "Notes parts_def, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Always think about what an elegant, slick, professional maths solution looks like – solutions normally get more complicated at first but quickly get simpler.\n- If your work is continuing to get more complicated, stop and check for an error.\n- Try to develop a sense of ‘having gone too far down the wrong path’.\n- This general advice is useful to remember:\n- Is the second integral harder than the first?\n- Try swapping your choice of **u** and **dv/dx**\n- It is rare to have to apply integration by parts more than twice"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![Example soltn, AS & A Level Maths revision notes](assets/c42ee64d99a8-8-2-8-example-soltn.png)"
+  }
+ ]
+}

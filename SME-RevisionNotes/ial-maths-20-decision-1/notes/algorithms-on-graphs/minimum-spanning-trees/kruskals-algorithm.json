@@ -1,0 +1,108 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_MKNVGw6RMMppfB22",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/minimum-spanning-trees/kruskals-algorithm",
+ "title": "Kruskal's Algorithm",
+ "page_title": "Kruskal's Algorithm | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "minimum-spanning-trees",
+   "kruskals-algorithm"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "minimum-spanning-trees",
+  "leaf": "kruskals-algorithm"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "Minimum Spanning Trees",
+  "subtopic": "Kruskal's Algorithm"
+ },
+ "updated_at": "2026-07-02T08:19:38.618Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_jsvMbYSNrrYY9h3d"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 10,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_jsvMbYSNrrYY9h3d",
+   "name": "Kruskal's Algorithm",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Kruskal's Algorithm"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is Kruskal's algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Kruskal's algorithm** is a mathematical tool that can be used to connect all of the vertices in a **network **in a way that **reduces** costs, materials or time\n\n  - It achieves this by finding a ***minimum spanning tree*** (MST)."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Why do we use Kruskal’s Algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Kruskal’s algorithm** is a series of steps that when followed will produce a **minimum spanning** **tree** for a **network**\n- Finding a minimum spanning tree is useful in a lot of practical applications\n\n  - It connects **all of the vertices** in the **most efficient way** possible\n- The **number of edges** in a minimum spanning tree will always be **one less** than the **number of vertices** in the graph\n- A minimum spanning tree **cannot** contain any cycles"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are the steps of Kruskal’s Algorithm?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **STEP 1**\nSort the **edges** in terms of **increasing weight**\n- **STEP 2**\nSelect the **edge of least weight**\n\n  - If there is more than one edge of the same weight, either may be used\n- **STEP 3**\nSelect the **next edge of least weight** that has not already been chosen\n\n  - **Reject **it if it forms a **cycle **with the other selected edges\n  - Otherwise, **add it to your tree**\n- **STEP 4** Repeat STEP 3 until **all of the vertices** in the graph are** connected**\n\n  - If there are *n* nodes then there will be *n* - 1 edges in the minimum spanning tree\n- **STEP 5**\n**List the edges** in the minimum spanning tree in the **order they were added**"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "**Draw the edges** included in the minimum spanning tree **as you go along; **this will make it easier to spot potential cycles.\n\nRemember to state the **order** in which the edges are selected or rejected to get full marks for working!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Consider the network below.\n\n![Geometric diagram with labelled vertices A to H, connected by lines with various numeric labels, forming a larger outer and smaller inner square structure.](assets/15e168919877-7074-kruskals-mst.png)\n\na) Use Kruskal’s algorithm to find the minimum spanning tree. Show each step of the algorithm clearly.\n\n**Answer**:\n\n- *STEP 1** *\n*List the edges in order of increasing weight*\n\n*EH (1)*\n*DH (2)*\n*AB (4)*\n*EF (5)*\n*FG (5)*\n*GH (6)*\n*BC (6)*\n*BF (7)*\n*CD (8)*\n*AD (9)*\n*AE (11)*\n*CG (15)*\n\n- *STEP 2** *\n*Add the edge of least weight (EH)*\n\n- *STEP 3 *\n*Add the next edge of least weight (DH)*\n\n- *STEP 4** *\n*Repeat Step 3 *\n*Repeat adding the next edge of least weight each time provided it does not create a cycle until all vertices are connected*\n\n  - *Add AB*\n  - *Add EF*\n  - *Add FG*\n  - *Reject GH as it forms a cycle*\n  - *Add BC*\n  - *Add BF*\n\n![_0QbiNdw_picture-1](assets/40efcc0511f9-0qbindw-picture-1.png)\n\n**Final answer:** **Edges are added in the order: EH (1), DH (2), AB (4), EF (5), FG (5), reject GH, BC (6), BF (7)**** **\n\nb) State the total weight of the minimum spanning tree.\n\n**Answer**:\n\n> *Add up the weights of the edges in the minimum spanning tree  *\n\n*1 + 2 + 4 + 5 + 5 + 6 + 7 = 30  *\n\n**Final answer:** **Total weight = 30**"
+  }
+ ]
+}

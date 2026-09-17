@@ -1,0 +1,123 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_wk2WMXjHqTdBFXRf",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/algorithms-on-graphs/minimum-spanning-trees/networks-and-matrices",
+ "title": "Networks & Matrices",
+ "page_title": "Networks & Matrices | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "algorithms-on-graphs",
+   "minimum-spanning-trees",
+   "networks-and-matrices"
+  ],
+  "section": "algorithms-on-graphs",
+  "topic": "minimum-spanning-trees",
+  "leaf": "networks-and-matrices"
+ },
+ "titles": {
+  "section": "Algorithms on Graphs",
+  "topic": "Minimum Spanning Trees",
+  "subtopic": "Networks & Matrices"
+ },
+ "updated_at": "2026-07-02T08:19:38.617Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_pfPscb5JF7cNf5gs",
+   "name": "Naomi C",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_mpPyxNyDHWtynYG8",
+  "spcpt_c4x6xkBRwStbd9wY"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 13,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_mpPyxNyDHWtynYG8",
+   "name": "Introduction to Networks & Matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to Networks & Matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a network?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **network** is a **weighted graph**\n\n  - A **network** is used to model real-world situations\n  - The **weight** of an edge usually represents a **measure** such as **distance** or **time**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **matrix** can be used to **represent a graph **or **network **in the form of a **table**\n\n  - The** elements** within the matrix give information about the **connections** between the **different vertices**\n- A matrix is typically set up with the following** labelling system**\n\n  - **Rows **are labelled with the** 'from' **vertices\n  - **Columns **are labelled with the** 'to' **vertices"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_c4x6xkBRwStbd9wY",
+   "name": "Networks & Matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Networks & Matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an adjacency matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An **adjacency matrix** is a **square** matrix\n\n  - All of the **vertices** in the graph are listed as the** headings** for both the **rows and columns**\n  - The** leading diagonal** is the the line going from the top left cell to the bottom right cell\n- An adjacency matrix can be used to show the **number of direct connections** between two vertices\n- An entry of **1** in the matrix means that there is a **direct connection** (i.e. an edge) between that pair of vertices\n- An entry of **0** in the matrix means that there is **no direct connection** between that pair of vertices\n- In a **simple** graph the only entries are 0 or 1\n- A **loop** is indicated in an adjacency matrix with a value in the **leading diagonal**\n\n  - In an **undirected matrix** the value in the leading diagonal will be **2**\n  \n    - You can use the loop to travel out of and into the vertex in two different directions\n  - In a **directed matrix**, if the loop has direction, the value in the leading diagonal will be **1**\n  \n    - You can only travel along the loop out of and back into the vertex in one direction\n    - An undirected loop in a directed matrix will still have a value of 2\n  - For a graph with **no loops** every entry in the leading diagonal will be **0**\n- An **undirected graph** is **symmetrical** about the **leading diagonal**\n\n  - A **directed graph** is **not** **symmetrical** about the **leading diagonal**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a distance matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **distance matrix** is different to an adjacency matrix\n\n  - The **value** in each cell is the **weight** of the edge connecting that pair of vertices\n  - Weight could be cost, distance, time etc.\n- An **empty cell** is used to indicate that there is **no connection** (i.e. no edge) between a pair of vertices\n- An **undirected network** is **symmetrical** about the **leading diagonal**\n\n  - A **directed network** is **not** **symmetrical** about the **leading diagonal**\n- When drawing a network from its distance matrix be careful when **labelling the edges**\n\n  - For an **undirected graph** the two cells between a pair of vertices will be the same\n  \n    - Connect the vertices with **one edge** labelled with the relevant weight\n  - For a **directed graph** where two cells between a pair of vertices have different values\n  \n    - Draw **two edges** between the vertices\n    - Label each with the correct weight and direction\n- A distance matrix can be used to work out the weight of different **walks** in the network"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "a) Write down the adjacency matrix for the graph shown below.\n\n![3-10-2-ib-hl-ai-walks--adjacency-matrices-we-1](assets/113a1d9b15bb-3-10-2-ib-hl-ai-walks-adjacency-matrices-we-1.png)\n\n**Answer:**\n\n`table row blank cell table row bold A bold B bold C bold D bold E end table end cell row cell table row bold A row bold B row bold C row bold D row bold E end table end cell cell stretchy left parenthesis table row 0 1 1 0 1 row 1 0 0 0 0 row 1 0 1 1 1 row 0 0 0 0 1 row 2 1 1 1 2 end table stretchy right parenthesis end cell end table`\n\nb) The table below shows the time taken in minutes to travel by car between 4 different towns.\n\n|   | A | B | C | D |\n|---|---|---|---|---|\n| A |   | 16 | 35 |   |\n| B | 16 |   | 20 | 18 |\n| C | 35 | 20 |   | 34 |\n| D |   | 23 | 34 |   |\n\nDraw the network described by this distance matrix.\n\n**Answer:**\n\n![qoHMRvSL_picture-1](assets/7e5d6e4c513d-qohmrvsl-picture-1.png)"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_7RDMpysNd4k7B8Bb",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/5-software-skills/spreadsheet/formulae-and-functions",
+ "title": "Formulae & Functions",
+ "page_title": "Formulae & Functions | Edexcel IGCSE ICT Revision Notes 2017",
+ "path": {
+  "segs": [
+   "5-software-skills",
+   "spreadsheet",
+   "formulae-and-functions"
+  ],
+  "section": "5-software-skills",
+  "topic": "spreadsheet",
+  "leaf": "formulae-and-functions"
+ },
+ "titles": {
+  "section": "5. Software Skills",
+  "topic": "Spreadsheet",
+  "subtopic": "Formulae & Functions"
+ },
+ "updated_at": "2024-06-27T11:09:15.617Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_mXDvNxwqJhTR78p4",
+  "spcpt_qkmwy23c23Vpvqkb"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 20,
+  "figures": 3,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_mXDvNxwqJhTR78p4",
+   "name": "Formulae",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Formulae"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a formula?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A formula is **a statement that performs simple calculations** in a spreadsheet\n- Formulas **start with a = sign**\n- A formula can perform calculations using:\n\n  - **Numbers directly (e.g. =5*2)**\n  - **Referenced data held in cells (e.g. =A1*B2)**\n- **Changing data** in a cell that is being referenced in a formula will cause the formula to automatically recalculate based on the new value\n- This is a **core concept **of spreadsheet modelling"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/42331_formulaandreplicatev2-ezgif-com-video-to-webp-converter.webp",
+   "file": "assets/18f0c538b7db-42331-formulaandreplicatev2-ezgif-com-video-to-w.webp",
+   "alt": "Spreadsheet showing the 2023 pass rate percentage in column G, with values ranging from 72% to 82%. Column H is labeled 'Total' and is empty.",
+   "caption": "Adding simple formulas to a spreadsheet"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Arithmetic operators"
+  },
+  {
+   "type": "bullets",
+   "md": "- Formulas will make use of basis arithmetic operators"
+  },
+  {
+   "type": "table",
+   "md": "| Symbol | Operation |\n|---|---|\n| + | Addition |\n| - | Subtraction |\n| * | Multiplication |\n| / | Division |\n| ^ | Indices (power of) |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_qkmwy23c23Vpvqkb",
+   "name": "Functions",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Functions"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a function?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A function is a** pre-defined formula** that can be used to** carry out more complex calculations**\n- Functions are **built into spreadsheet software**\n- Functions can **help to simplify **complex calculations\n- Each function **has a specific name** that tells the software what calculation is being carried out"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/38538_functionsandreplicatev2-ezgif-com-video-to-webp-converter.webp",
+   "file": "assets/343d3ef34338-38538-functionsandreplicatev2-ezgif-com-video-to.webp",
+   "alt": "Spreadsheet showing scores of subjects: Geography, French, Spanish, and Computer Science. Listed columns: subject, three different scores, a total, and average row.",
+   "caption": "Adding functions to a spreadsheet"
+  },
+  {
+   "type": "table",
+   "md": "| Function | Operation |\n|---|---|\n| **SUM** | Adds all the numbers in a range of cells<br><br>**=SUM(A1:A10)** |\n| **AVERAGE** | Calculates the average of a range of cells<br><br>**=AVERAGE(A1:A10)** |\n| **MAX and MIN** | Finds the largest and smallest numbers in a range respectively<br><br>**=MAX(A1:A10)**<br><br>**=MIN(A1:A10)** |\n| **INT** | Rounds a number down to the nearest integer<br><br>**=INT(A1)** |\n| **ROUND** | Rounds a number to a specified number of digits<br><br>**=ROUND(A1,2) **- round to 2 decimal places |\n| **COUNT** | Counts the number of cells in a range that contain numbers<br><br>**=COUNT(A1:A10)** |\n| **COUNTA** | Counts the number of cells in a range that contain numbers and/or labels<br><br>**=COUNTA(A1:A10)** |\n| **IF** | Returns one value if a condition is true and another if it's false<br><br>**=IF(condition, true, false)**<br><br>**=IF(A1 =\"SME\",100,B7*3)** |\n| **HLOOKUP** | Performs a horizontal look up of data<br><br>**=HLOOKUP('Bananas', A2:D4, 3)** |\n| **VLOOKUP** | Performs a vertical look up of data<br><br>**=VLOOKUP(100, A2:D4, 2, TRUE)** |\n| **XLOOKUP** | Performs either a horizontal or vertical look up of data<br><br>**=XLOOKUP('Oranges', A1:A4, Sales Q3, \"Not found\")** |"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/06/61592_maxminintegerv2-ezgif-com-video-to-webp-converter.webp",
+   "file": "assets/85429b3df419-61592-maxminintegerv2-ezgif-com-video-to-webp-co.webp",
+   "alt": "Spreadsheet with rows labeled Spanish (210), Computer Science (180), Totals (3920), Average (326.67). Highlighted cell at row 16.",
+   "caption": "Average, Max, Min & Int in a spreadsheet"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Using external data sources within functions"
+  },
+  {
+   "type": "bullets",
+   "md": "- Spreadsheets allow you to use **external data sources** within functions\n- This could be data from another **worksheet**, **workbook**, or even a **database**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Using nested functions"
+  },
+  {
+   "type": "bullets",
+   "md": "- Nesting is using **a function within another function**\n- For example:\n\n  - =IF(A1>B1, MAX(A1:B1), MIN(A1:B1))\n  \n    - This checks if A1 is greater than B1, and if true, it returns the max value, else it returns the min value"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "awara school has a shop that sells items needed by pupils in school. Part of a spreadsheet with details of the items is shown.\n\n![spreadsheet example](assets/1044b69d826e-screenshot-2023-05-24-at-10-51-11.png)\n\nTax is paid on certain items sold in the shop. The tax rate that has to be paid is 20% of the selling price. If tax is to be paid on an item, then ‘Y’ is placed underneath the Tax heading.\n\nThe formula in I4 is: IF(F4=''Y'',(\\$I\\$1*D4*G4),'''')\n\nExplain, in detail, what the formula does.\n\n**[5]**\n\n**Answer**\n\nFive of:\n\n**Final answer:** **If Tax is payable then//If F4 is equal to \"Y\" then [1]**\n**If true the tax is paid [1]**\n**Multiply the rate of tax/I1 [1]**\n**By the selling price/D4 [1]**\n**By the amount sold/G4 [1]**\n**If Tax is not payable//If F4 <>\"Y\"//Else//Otherwise [1]**\n**Then display a blank [1]**\n**The tax is not paid [1]**"
+  }
+ ]
+}

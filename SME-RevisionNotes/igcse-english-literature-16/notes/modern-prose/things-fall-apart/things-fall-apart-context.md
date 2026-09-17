@@ -1,0 +1,99 @@
+---
+note_id: "rn_KNQwjj3pF8wG4wr3"
+title: "Things Fall Apart: Context"
+source: https://www.savemyexams.com/igcse/english-literature/edexcel/16/revision-notes/modern-prose/things-fall-apart/things-fall-apart-context
+path: modern-prose/things-fall-apart/things-fall-apart-context
+updated_at: "2026-06-24T10:49:46.999Z"
+spec_point_ids: ["spcpt_MtqrzjFbpMb3M4jy", "spcpt_JCTcdcW9VNsCBWpZ", "spcpt_Pn2YJtR4Rsp4GG6h"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Things Fall Apart: Context
+
+## Things Fall Apart: Context: Historical context
+
+> **Spec point** — `spcpt_MtqrzjFbpMb3M4jy`
+
+## Things Fall Apart historical context
+
+- Chinua Achebe’s novel, Things Fall Apart, was published in 1958 but set in the late 19th century, during the early stages of British ***colonisation***
+- The novel, thus, details ***Igbo**** *traditions and governance:
+
+  - Male elders and ***Oracles**** *managed villages
+  - Disputes were settled by a community of elders from nine villages
+- Igbo society was ***patriarchal***, and men were permitted many wives:
+
+  - However, celebrations such as Peace Week advocated tolerance
+- Spiritual belief systems were integral to the moral fabric of the community, and ***medicine men*** performed sacred rituals to encourage health:
+
+  - Animals were respected, and often revered in spoken fable and proverb
+  - Sinners were exiled, and personal ***chi**** *steered moral values
+- Before colonisation, Nigeria was inhabited mainly by indigenous farmers:
+
+  - Currency and status were determined by ***yams***, and harvest and fertility were celebrated in festival and feasts
+
+| **How this links to Things Fall Apart** |   |
+|---|---|
+| **Igbo culture** | The novel’s portrayal of life in a pre-colonial, rural **Igbo **village offers an indigenous <u>**[perspective ](https://www.savemyexams.com/glossary/gcse/english-language/perspective/)**</u>on African culture, justice, and tradition. However, Achebe offers a balanced view of **Igbo **life, often highlighting hypocrisies and discriminatory practices. The importance of the natural world is <u>**[symbolised ](https://www.savemyexams.com/learning-hub/glossary/symbolism-definition/)**</u>through fables told by mothers, proverbs spoken by elders, and harvests or fertility festivals. |
+
+## Colonialism
+
+- In order to maintain control after colonisation at the end of the 19th century, the British government sent ***commissioners**** *to govern African villages:
+
+  - This created tensions as ***District Commissioners*** would settle disputes based on British law, which contrasted African belief systems
+  - Commissioners would employ indigenous converts to carry out British law
+
+- In the event of protest or resistance, villages would be ***massacred***:
+
+  - Under British indirect rule, violent retaliation to resistance was often sanctioned, leading to events like the massacre of Abame
+
+- The British government divided Africa according to their own borders (fifty states) and dismissed existing indigenous borders
+- British ***missionaries**** *and colonists influenced the **Igbo *****judicial***, religious, and cultural traditions:
+
+  - Christian missionaries gradually converted **Igbo **people from their original spiritual beliefs towards Christianity
+  - Aspects of Christianity that emphasised equality appealed to those who felt restricted or oppressed by the rigid traditions of **Igbo **society
+  - They encouraged Western values, for example British schooling, and the idea that reading and writing should replace **Igbo **oral traditions
+
+| **How this links to Things Fall Apart** |   |
+|---|---|
+| **Attitudes to colonisation** | Achebe portrays the reactions of Nigerian villagers to the advance of British settlers and colonists. The village’s suspicion is shown in <u>**[dialogue ](https://www.savemyexams.com/learning-hub/glossary/dialogue-definition/)**</u>between clansmen when they describe the “strange” white skin, share stories of massacred village Abame, and express their powerlessness against men with guns. |
+| The novel details the clash of belief systems when the **District Commissioner** begins to govern the villages: clansmen attempt to enforce traditional **Igbo **justice and are arrested and tortured by the **District Commissioner**. The violence worsens when Okonkwo kills the commissioner’s messenger and, afterwards, takes his own life. |   |
+| **Western influence** | Achebe’s <u>**[omniscient narrator](https://www.savemyexams.com/glossary/gcse/english-language/omniscient-narrator/)**</u> illustrates the reasons many of the **Igbo **people submitted to Western influence. The <u>**[protagonist’s ](https://www.savemyexams.com/learning-hub/glossary/protagonist-definition/)**</u>son escapes his father’s oppressive control by converting to Christianity for its less ***hierarchical**** *and more ***egalitarian**** *approach to its followers. |
+
+## Things Fall Apart: Context: Social context
+
+> **Spec point** — `spcpt_JCTcdcW9VNsCBWpZ`
+
+## Things Fall Apart social context
+
+- Chinua Achebe, born in 1930, grew up in an **Igbo **town in Nigeria, although his parents were Christian
+- During his lifetime, Achebe witnessed colonial life as well as Nigerian independence from British rule
+- His dual heritage affords Achebe viewpoints on both Western and Nigerian culture
+- After independence, to invigorate lost African heritage, Achebe’s Things Fall Apart was taught in African high schools as a classic
+
+| **How this links to Things Fall Apart** |   |
+|---|---|
+| **Dual perspectives** | Achebe presents both British and **Igbo **reactions to the changes in Africa as a result of colonialism. Readers hear from villagers who submit to British rule as a result of their fear of the “strange” men with guns and prisons. Achebe also presents the **District Commissione**r’s thoughts. But by ending the novel referring to the commissioner’s book, Achebe highlights the significance of the Western literary tradition, and the power of widespread stories told from the British perspective, in contrast to the local **Igbo **oral tradition. |
+
+## Things Fall Apart: Context: Literary context
+
+> **Spec point** — `spcpt_Pn2YJtR4Rsp4GG6h`
+
+## Things Fall Apart literary context
+
+- Achebe’s title Things Fall Apart comes from a W.B. Yeats poem called ‘The Second Coming’ (“Things fall apart; the centre cannot hold”):
+
+  - It describes chaos in the moments of change, as, inevitably, the past makes way for the present
+- Things Fall apart is written as a classical tragedy, and so follows a typical <u>**[structure](https://www.savemyexams.com/glossary/gcse/english-language/structure/)**</u>
+- Its five-part plot allows a writer to portray the development of a tragic hero
+- In the <u>**[exposition](https://www.savemyexams.com/learning-hub/glossary/exposition-definition/)**</u>, the tragic hero is a popular, noble member of their community
+- During the <u>**[rising action](https://www.savemyexams.com/glossary/gcse/english-language/rising-action/)**</u>, the tragic hero reveals their **[fatal flaw](https://www.savemyexams.com/glossary/gcse/english-language/hamartia/)**** **as they are pressured by external events and their own weaknesses
+- This allows a writer to present both the injustices of the world and an individual’s human flaws and the torment they experience as a result of both
+- By the <u>**[climax](https://www.savemyexams.com/learning-hub/glossary/climax-definition/)**</u>, the tragic hero has submitted to their flaws and societal ills, usually by acting in a hypocritical manner, and often violently
+- The falling action relates the **protagonist’s **guilt and turmoil, which leads to their doomed fate: death
+
+| **How this links to Things Fall Apart** |   |
+|---|---|
+| Tragic hero | Achebe’s tragedy portrays the fatal flaws that lead to Okonkwo’s downfall. Okonkwo’s inability to reflect on, or manage, his fixation with a version of masculinity that appeals to nobody in his village, least of all his son, leads to violence. |
+| Resolution | As typical for a classic tragedy, the novel ends with the tragic hero’s death, a result of his fateful circumstances and his submission to his violent aggression. |

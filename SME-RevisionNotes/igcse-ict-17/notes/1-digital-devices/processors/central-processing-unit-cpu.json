@@ -1,0 +1,148 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_JhMxrhKBbMHt6wnz",
+ "course_slug": "igcse-ict-17",
+ "url": "https://www.savemyexams.com/igcse/ict/edexcel/17/revision-notes/1-digital-devices/processors/central-processing-unit-cpu",
+ "title": "Central Processing Unit (CPU)",
+ "page_title": "Central Processing Unit (CPU) | Edexcel IGCSE ICT Revision Notes 2017",
+ "path": {
+  "segs": [
+   "1-digital-devices",
+   "processors",
+   "central-processing-unit-cpu"
+  ],
+  "section": "1-digital-devices",
+  "topic": "processors",
+  "leaf": "central-processing-unit-cpu"
+ },
+ "titles": {
+  "section": "1. Digital Devices",
+  "topic": "Processors",
+  "subtopic": "Central Processing Unit (CPU)"
+ },
+ "updated_at": "2024-06-03T13:44:51.981Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_g6Rmv5pwnqxDRVnW"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 18,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_g6Rmv5pwnqxDRVnW",
+   "name": "Central Processing Unit (CPU)",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Central Processing Unit (CPU)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the purpose of the CPU?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The purpose of the Central Processing Unit (CPU) is to **execute** **instructions **\n- The CPU achieves this** **by completing **processor cycles**\n- A modern CPU is capable of performing **billions of processor cycles in one second**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "The processor cycle stages"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Fetch stage"
+  },
+  {
+   "type": "bullets",
+   "md": "- During the fetch stage of the cycle, the next instruction or data must be **fetched from the computer's memory** (***RAM***)\n- The instruction or data is brought back to the CPU"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Decode stage"
+  },
+  {
+   "type": "bullets",
+   "md": "- During the decode stage of the cycle, the CPU needs to **work out what is required** from the instruction\n- This could be a range of tasks depending on what the instruction or data included"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Execute stage"
+  },
+  {
+   "type": "bullets",
+   "md": "- During the execute stage of the cycle, the CPU will **carry out the instruction** that was fetched\n- Some examples that would take place at this stage are\n\n  - **Performing a calculation**\n  - **Storing a result or data back in main memory (RAM)**\n  - **Going to main memory to fetch data from a different location**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/the-cpu.png",
+   "file": "assets/200bb8693d52-the-cpu.png",
+   "alt": "the-cpu",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How is the speed of a processor measured?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The speed of a processor is measured by it's **clock speed**\n- Clock speed is** measured in Hertz** (Hz)\n- The clock speed measures the** number of processor cycles** that can take place in 1 second\n- The faster the clock speed, the more instructions can be fetched and executed per second\n- Modern computers have a clock speed in Gigahertz (**GHz**), meaning billion\n- A clock speed of 3.5GHz can perform up to **3.5 billion** **instructions per second**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Number of cores"
+  },
+  {
+   "type": "bullets",
+   "md": "- A core **works like it is its own CPU**\n- Multiple core processors mean they have multiple** separate processing units** that can fetch, decode and execute instructions at the same time\n- Multi-core processors can run **more powerful programs** with greater ease\n- Multiple cores increase the performance of the CPU by working with the clock speed\n\n  - Example: A quad-core CPU (4 cores), running at a clock speed of 3Ghz\n  \n    - **4** cores x **3**GHz\n    - 4 x 3 billion instructions\n    - 12 billion instructions per second"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/cpu-cores-.png",
+   "file": "assets/d4445ca8c4b4-cpu-cores.png",
+   "alt": "cpu-cores-",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Describe how the speed of the processor affects a users experience when playing a game\n\n**[4]**\n\n**Answer**\n\n> *A description to include four from: *\n\n- Faster processors fetch/decode/execute more instructions/data / have more cycles **[1]** per second **[1]**\n\n> *so: *\n\n- graphics render more quickly / at greater resolution **[1]**\n- making the visuals smoother  / graphics can be displayed at greater resolution **[1]**\n- making the environment more realistic **[1]**\n- more actions can be carried out **[1]**\n- making the gameplay more immersive/exciting **[1]**"
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_mpWN47tBs4bgsyzc",
+ "course_slug": "ial-maths-20-statistics-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/revision-notes/data-presentation-and-interpretation/correlation-and-regression/correlation-and-regression",
+ "title": "Correlation & Regression",
+ "page_title": "Correlation & Regression | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "data-presentation-and-interpretation",
+   "correlation-and-regression",
+   "correlation-and-regression"
+  ],
+  "section": "data-presentation-and-interpretation",
+  "topic": "correlation-and-regression",
+  "leaf": "correlation-and-regression"
+ },
+ "titles": {
+  "section": "Data Presentation & Interpretation",
+  "topic": "Correlation & Regression",
+  "subtopic": "Correlation & Regression"
+ },
+ "updated_at": "2026-07-02T08:19:38.613Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_rSrCNWrrpTwPkFVq",
+  "spcpt_v8HQfZhT6bcFJ28H"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "-1\\leqr\\leq1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>-</mo><mn>1</mn><mo>≤</mo><mi>r</mi><mo>≤</mo><mn>1</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "negative 1 less or equal than r less or equal than 1"
+  },
+  {
+   "latex": "S_{xx}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style S subscript x x end subscript end style"
+  },
+  {
+   "latex": "Σx^{2}-n\\overline{x}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Σ</mi><msup><mi mathsize=\"16px\">x</mi><mn mathsize=\"16px\">2</mn></msup><mo mathsize=\"16px\">-</mo><mi mathsize=\"16px\">n</mi><msup><mover><mi mathsize=\"16px\">x</mi><mo mathsize=\"16px\">¯</mo></mover><mn mathsize=\"16px\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "nσ_{x}^{2}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>n</mi><msup><msub><mi>σ</mi><mi>x</mi></msub><mn>2</mn></msup></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style n sigma subscript x squared end style"
+  },
+  {
+   "latex": "S_{xy}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi mathsize=\"16px\">S</mi><mrow><mi mathsize=\"16px\">x</mi><mi mathsize=\"16px\">y</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "size 16px S subscript size 16px x size 16px y end subscript"
+  },
+  {
+   "latex": "Σ(x-\\overline{x})(y-\\overline{y})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">Σ</mi><mstyle mathsize=\"16px\"><mo stretchy=\"true\">(</mo><mi>x</mi><mo>-</mo><mover><mi>x</mi><mo>¯</mo></mover><mo stretchy=\"true\">)</mo></mstyle><mstyle mathvariant=\"italic\" mathsize=\"16px\"><mo stretchy=\"true\">(</mo><mrow><mi>y</mi><mo>-</mo><mover><mi>y</mi><mo>¯</mo></mover></mrow><mo stretchy=\"true\">)</mo></mstyle></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "Σxy-n\\overline{x}\\overline{y}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">Σ</mi><mi>x</mi><mi>y</mi><mo>-</mo><mi>n</mi><mover><mi>x</mi><mo>¯</mo></mover><mo> </mo><mover><mi>y</mi><mo>¯</mo></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight capital sigma x y minus n x with bar on top space y with bar on top end style"
+  },
+  {
+   "latex": "r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>r</mi><mo>=</mo><mfrac><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><msqrt><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><msub><mi>S</mi><mrow><mi>y</mi><mi>y</mi></mrow></msub></msqrt></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style r equals fraction numerator S subscript x y end subscript over denominator square root of S subscript x x end subscript S subscript y y end subscript end root end fraction end style"
+  },
+  {
+   "latex": "b=\\frac{S_{xy}}{S_{xx}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>b</mi><mo>=</mo><mfrac><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><msub><mi>S</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "b equals S subscript x y end subscript over S subscript x x end subscript"
+  },
+  {
+   "latex": "a=\\overline{y}-b\\overline{x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>a</mi><mo>=</mo><mover><mi>y</mi><mo>¯</mo></mover><mo>-</mo><mi>b</mi><mover><mi>x</mi><mo>¯</mo></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "a equals y with bar on top minus b x with bar on top"
+  },
+  {
+   "latex": "d=\\frac{S_{xy}}{S_{yy}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>d</mi><mo>=</mo><mfrac><msub><mi>S</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><msub><mi>S</mi><mrow><mi>y</mi><mi>y</mi></mrow></msub></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d equals S subscript x y end subscript over S subscript y y end subscript"
+  },
+  {
+   "latex": "c=\\overline{x}-d\\overline{y}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>c</mi><mo>=</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>-</mo><mi>d</mi><mover><mi>y</mi><mo>¯</mo></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "c equals x with bar on top minus d y with bar on top"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "p"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "S_{pp}=687.2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>S</mi><mrow><mi>p</mi><mi>p</mi></mrow></msub><mo>=</mo><mn>687</mn><mo>.</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S subscript p p end subscript equals 687.2"
+  },
+  {
+   "latex": "\\overline{p}=62.8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover><mi>p</mi><mo>¯</mo></mover><mo> </mo><mo>=</mo><mn>62</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "p with bar on top space equals 62.8"
+  },
+  {
+   "latex": "Σd=1566",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Σ</mi><mi>d</mi><mo>=</mo><mn>1566</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma d equals 1566"
+  },
+  {
+   "latex": "Σd^{2}=124240",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Σ</mi><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><mn>124240</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma d squared equals 124240"
+  },
+  {
+   "latex": "Σpd=99127",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Σ</mi><mi>p</mi><mi>d</mi><mo>=</mo><mn>99127</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight capital sigma p d equals 99127"
+  },
+  {
+   "latex": "S_{pd}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>S</mi><mrow><mi>p</mi><mi>d</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S subscript p d end subscript"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "p"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "d",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "p"
+  },
+  {
+   "latex": "d=a+bp",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>d</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "d equals a plus b p"
+  }
+ ],
+ "stats": {
+  "blocks": 14,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 25
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_rSrCNWrrpTwPkFVq",
+   "name": "PMCC",
+   "definition": "",
+   "video_id": "870959540"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "PMCC"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is the product moment correlation coefficient?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The product moment correlation coefficient (PMCC) is a way of giving a numerical value to **linear correlation** of bivariate data\n- The PMCC of a sample is denoted by the letter *r*\n\n  - *r *can take any value such that $-1\\leqr\\leq1$\n  \n    - Can be written as `vertical line r vertical line less or equal than 1`\n  - A positive value of *r *describes positive correlation\n  - A negative value of *r * describes negative correlation\n  - If *r = 0* there is no correlation\n  - *r = 1 *means perfect positive correlation and *r = -1* means perfect negative correlation\n  - The closer to 1 or -1, the stronger the correlation\n- The gradient of the regression line does not change the value of *r*"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-5-1-pmcc-diagram-1.png",
+   "file": "assets/2712b41c7ae0-2-5-1-pmcc-diagram-1.png",
+   "alt": "2-5-1-pmcc-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How is the product moment correlation coefficient (PMCC) calculated?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For *n* pairs of bivariate data (*x*, *y*) we define the following statistics\n\n  - `begin mathsize 16px style S subscript x x end subscript equals straight capital sigma x squared minus open parentheses straight capital sigma x close parentheses squared over n end style`\n  - `begin mathsize 16px style S subscript y y end subscript equals Σy squared minus open parentheses Σy close parentheses squared over n end style`\n  - `begin mathsize 16px style S subscript x y end subscript equals straight capital sigma x y minus fraction numerator open parentheses straight capital sigma x close parentheses open parentheses straight capital sigma y close parentheses over denominator n end fraction end style`\n  - These are given in the formula booklet\n- These are related to variance and can be written in several different ways:\n\n  - $S_{xx}$\n  \n    - `begin mathsize 16px style straight capital sigma open parentheses x minus x with bar on top close parentheses squared end style`\n    - $Σx^{2}-n\\overline{x}^{2}$\n    - $nσ_{x}^{2}$\n  - $S_{xy}$\n  \n    - $Σ(x-\\overline{x})(y-\\overline{y})$\n    - $Σxy-n\\overline{x}\\overline{y}$\n- The product moment correlation coefficient (PMCC) is then calculated using the formula\n\n  - $r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}}$\n  - This is given in the formula booklet"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_v8HQfZhT6bcFJ28H",
+   "name": "Calculating Regression Line",
+   "definition": "",
+   "video_id": "872453947"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating Regression Line"
+  },
+  {
+   "type": "paragraph",
+   "md": "If the PMCC is close to 1 or -1 then this suggests the data follows a linear model. In this case a regression line of the form *y* = *a* + *bx* is appropriate."
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate the equation of the regression line of y on x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **gradient *****b*** of the **regression line** is calculated using the formula\n\n  - $b=\\frac{S_{xy}}{S_{xx}}$\n  - This is given in the formulae booklet\n- The **y-intercept** *a* of the **regression line** is calculated using the formula\n\n  - $a=\\overline{y}-b\\overline{x}$\n  - This is given in the formulae booklet\n  - This is found using the fact that the point `open parentheses x with bar on top comma space y with bar on top close parentheses` lies on the regression line\n- If you are asked to find the equation of the regression line of ***x***** on *****y***\n\n  - *x = c + dy *\n  - $d=\\frac{S_{xy}}{S_{yy}}$\n  - $c=\\overline{x}-d\\overline{y}$\n  - These are not given in the formulae booklet"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Ashika is a football coach to 20 children. She records how long it takes each of them to run a lap of the football pitch, $p$ seconds, and the distance that they can kick the football, $d$ metres.\n\nAshika calculates the following summary statistics:\n\n$S_{pp}=687.2$        $\\overline{p}=62.8$       $Σd=1566$       $Σd^{2}=124240$       $Σpd=99127$.\n\n(a) Calculate $S_{pd}$.\n\n(b) Calculate the product moment correlation coefficient between $p$ and $d$.\n\n(c) Calculate the equation of the regression line of $d$ on $p$ giving your answer in the form $d=a+bp$\n\n**Answer:           **\n\n![1-3-2-correlation-regression-we-solution-part-1](assets/e1222c21b89e-image.bin)\n\n![1-3-2-correlation-regression-we-solution-part-2](assets/8dc5e7e5cbf6-image.bin)\n\n![1-3-2-correlation-regression-we-solution-part-3](assets/f2795ce0504a-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Questions typically use different variables instead of *x* and *y*. It might help to label the independent variable as *x* and the dependent variable as *y*, this will help you when calculating the equation of the regression line."
+  }
+ ]
+}

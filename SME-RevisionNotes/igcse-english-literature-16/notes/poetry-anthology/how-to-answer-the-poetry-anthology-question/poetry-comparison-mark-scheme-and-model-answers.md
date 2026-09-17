@@ -1,0 +1,89 @@
+---
+note_id: "rn_GsnRtPPfPRGdMsfW"
+title: "Poetry Comparison Mark Scheme and Model Answers"
+source: https://www.savemyexams.com/igcse/english-literature/edexcel/16/revision-notes/poetry-anthology/how-to-answer-the-poetry-anthology-question/poetry-comparison-mark-scheme-and-model-answers
+path: poetry-anthology/how-to-answer-the-poetry-anthology-question/poetry-comparison-mark-scheme-and-model-answers
+updated_at: "2026-09-10T13:23:08.110Z"
+spec_point_ids: ["spcpt_KZxSN4hFpd2wDh2m", "spcpt_fztC95fFJQFkNZ5x", "spcpt_m4hQkdJz3D3qNH3n", "spcpt_B7BkVYDGPCBNhbrf"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Poetry Comparison Mark Scheme and Model Answers
+
+## Poetry Anthology: Mark scheme and model answer
+
+> **Spec point** — `spcpt_KZxSN4hFpd2wDh2m`
+
+## Poetry Comparison Mark Scheme and Model Answers
+
+The best way to improve any essay is to know how you are assessed, and what skills you are being assessed on. Find out what examiners are looking for in a Grade 9 essay:
+
+- **Mark scheme**
+- **Example tasks**
+- **Grade 9 model answer**
+
+## Poetry Anthology: Mark scheme
+
+> **Spec point** — `spcpt_fztC95fFJQFkNZ5x`
+
+## Mark Scheme
+
+In Section B you will be asked to compare a named poem from the Pearson Edexcel International GCSE English Anthology to another poem from that collection. You will answer one question on either two set poems **or** the set poem and one of your own choice from the anthology.
+
+It is crucial that you have a thorough understanding of the Edexcel IGCSE English Literature mark scheme because, in doing so, you will know exactly what you are being assessed on and how to improve.
+
+AO2 and AO3 are assessed in Section B and both are worth 50%, or 15 marks each. AO2 asks you to analyse the language, form and structure used by each poet to create meanings and effects. AO3 requires you to explore links and connections between both of the poems.
+
+## Poetry Anthology: Example tasks
+
+> **Spec point** — `spcpt_m4hQkdJz3D3qNH3n`
+
+## Example tasks
+
+The following model answers are based on different past papers for the Edexcel IGCSE English Literature exam (4ET1). The commentary is designed to highlight how to structure your response and integrate all aspects of the assessment objectives, so these models could be applied to any of the poems in the examination.
+
+We will now explore some exemplars using examples of examination questions from Section B. First, let’s read through the question below which is taken from the <u>[June 2018 past paper](https://cdn.savemyexams.com/uploads/2022/02/4et1_01_que_20180523.pdf)</u>.
+
+**Question **
+
+| **IGCSE Edexcel English Literature Poetry Anthology** |
+|---|
+| Re-read ‘Search For My Tongue’ and ‘Half-caste’.<br><br>Compare the ways the writers convey feelings about identity in ‘Search For My Tongue’ and ‘Half-caste’.<br><br>You should make reference to language, form and structure.<br><br>Support your answer with examples from the poems. |
+
+| **An extract from a Grade 9 response** |
+|---|
+| *In ‘Search For My Tongue’** and ‘Half-caste’, both poems convey strong feelings about identity and cultural heritage.** ***‘Search For My Tongue’ is a poem explicitly about identity and speaking and thinking in two languages: English and Gujarati (the speaker’s ‘mother tongue’). ***  The poem uses an extended metaphor with the **“mother” **language represented as a flower in “bud” that “blossoms” in the speaker’s dreams. ***Here Bhatt uses this to represent the innate beauty of her language, and contrasts this with the struggle to retain one’s native language while adapting to a new one. ** *She fears it will “rot and die”, forcing her to “spit it out”, with the repetition of “spit it out” suggesting the violent nature of her assimilation to a new language and culture. Similarly, in ‘Half-caste’ the poet writes about identity and ridicules the outdated phrase “half-caste”. In this poem, the speaker questions others’ views. Agard uses non-standard, colloquial English and Caribbean patois to convey the speaker’s thoughts and feelings about their identity. His manipulation of language reflects the speaker’s defiance and assertion of this identity. ***Both poems use a direct address to the reader and have a conversational tone which is used to prompt the reader to also question their assumptions and preconceptions***: ‘You ask me what I mean’, ‘Explain yuself / wha yu mean’ and both use language from their own culture to explore their own identities.* |
+
+- Here is another example using an examination question from the <u>[November 2020 past paper (titled June 2020)](https://cdn.savemyexams.com/uploads/2023/01/4et1-01-que-20201106.pdf)</u>.
+
+**Question**
+
+| **IGCSE Edexcel English Literature Poetry Anthology** |
+|---|
+| Re-read ‘Hide and Seek’ and ‘War Photographer’.<br><br>Compare how the writers present isolation in ‘Hide and Seek’ and ‘War Photographer’<br><br>You should make reference to language, form and structure.<br><br>Support your answer with examples from the poems. |
+
+| **An extract from a Grade 9 response** |
+|---|
+| *In both ‘Hide and Seek’ and ‘War Photographer’ the poets powerfully present the theme of isolation at a point in time. In Scannell’s poem, the speaker describes a child’s initial excitement at finding a perfect hiding place, “They’ll never find you”, and contrasts this with disappointment when they are abandoned: “where are they who sought you?” At first, the fear of discovery makes the child’s isolation exhilarating as the listing of short imperative sentences convey a childlike desire to win: “Don’t breathe. Don’t move. Stay Dumb. Hide in your blindness”. However, the child’s isolation in the toolshed is also filled with menace: “The floor is cold” and ‘the cold bites”. ***The symbolism, repetition and personification of “cold” and “bites” illustrate their discomfort. *** Similarly, in ‘War Photographer’ the photographer’s isolation leaves the reader feeling ambivalent about its impact.*** He is described as being “finally alone”, suggesting that he has been relishing his isolation to study his “spools of suffering”***.  However, in his isolation, the photographer relives the affecting images he has seen of pain and suffering. Using listing of places and caesura, “Belfast. Beirut. Phnom Penh” (all war-torn places at the time the poem was written), the poet adds gravitas. The description of an injured man, with “A stranger’s features”, as a metaphorical “half-formed ghost” adds to the impression of suffering, as if those affected by war are isolated and alone. The form and structure of each poem also adds to the presentation of the theme of isolation. ***While ‘War Photographer’ is written in four six-line stanzas of isolated, “ordered rows”, reflecting the spools of photographs, ‘Hide and Seek’ is in one stanza of 27 lines which suggests the continuous flow of the child’s isolating experience.*** * |
+
+> **Exam Hint**
+> Although the structure of your response can vary, you must ensure that you compare and write about **both **poems. Remember the mark awarded cannot progress beyond the top of Level 2 if only **one **poem has been considered in your response.
+
+## Poetry Anthology: Model answer
+
+> **Spec point** — `spcpt_B7BkVYDGPCBNhbrf`
+
+## Model Answer
+
+Below you will find a full-mark Grade 9 model answer for this task. The commentary labelled in each section of the essay illustrates how and why it would be awarded Grade 9. The commentary is relevant to any question because it is modelling how to structure an answer incorporating the relevant assessment objectives.
+
+**Question**
+
+| **IGCSE Edexcel English Literature Poetry Anthology** |
+|---|
+| Re-read ‘Piano’ and ‘Poem at Thirty-Nine’.<br><br>Compare the ways the writers convey feelings about parents in ‘Piano’ and ‘Poem at Thirty-Nine’.<br><br>You should make reference to language, form and structure.<br><br>Support your answer with examples from the poems. |
+
+| **Grade 9 Model Answer ** |
+|---|
+| *Both the ‘Piano’ and ‘Poem at Thirty-Nine’ convey feelings about parents and recall memories of times spent with them, both happy and not so happy.*** As both poems are autobiographical, the poets have chosen to write them in first person and both speakers are presented as adults reminiscing on past events***.* * *<br><br>*In both poems, the poets explore strong feelings of longing and regret at their distance from their parent. Both speakers appear distressed as they consider their loss: “I weep like a child for the past” and “How I miss my father!” While one speaker suggests a deep nostalgia for “childish days”, the other expresses a sense of loss and longing for the guidance that their father gave. In ‘Piano’ the adult speaker goes “back down the vista of years” to recall “a mother who smiles as she sings” with the sibilance conveying a deep tenderness and love. The poem depicts an idealistic family setting “with winter outside / And hymns in the cosy parlour”, with the juxtaposition of “winter” and the connotations of “cosy” conveying perhaps a longing for the security of being a child, as the speaker “weeps to belong” to that time again. * **Similarly, in ‘Poem at Thirty-Nine’ the poet reminisces about her father and the life skills that he taught her.*** This poem is autobiographical and the title specifically refers to Walker’s age when she wrote it. The use of “I” and free verse conveys the speaker’s personal and nostalgic reflections: it illustrates the poet’s love for her father while also revealing the impact he has had on her as a woman: “He would have grown / to admire”. ***This sense of longing for her father’s recognition suggests the deep emotional bond between them and serves as a poignant reminder of his absence. She has mastered “cooking, writing, chopping wood, / staring into the fire”, reflecting the nurturing support and guidance he once provided, while the phrase ‘staring into the fire’ suggests she is contemplating her loss***. *<br><br>*Both poets use structure, form and language to present profound memories of the past, conveying the speakers’ longing for a deceased parent. While ‘Piano’ recalls one specific memory, ‘Poem at Thirty-Nine’ recalls a variety of different memories and both poems juxtapose past and present events. In ‘Poem at Thirty-Nine’ the speaker reminiscences about her father through memories of her childhood, revealing her admiration for him. The use of the refrain, “how I miss my father”, conveys a deep sense of regret and loss. ***‘Poem at Thirty-Nine’ is written in free verse, with six stanzas of unequal length, which conveys the speaker’s emotional, free- flowing stream of thought. In contrast, ‘Piano’ is written in three quatrains of rhyming couplets, perhaps reflecting the musical theme of the poem, and this condensed structure heightens the emotional impact of the powerful memories the speaker shares.*** Furthermore, Lawrence’s contrasting language choices in the onomatopoeic description of the “boom” compared with the “the tingling strings” adds to the sensory impact of this description on the reader – it is a poignant and intimate recollection that the speaker shares with us, recalling “pressing the small, poised feet” of his mother.  *<br><br>*Both poets use mood and tone to convey the speakers’ deep feelings for their parent. In ‘Piano’ Lawrence reminisces with a nostalgic and melancholic tone as the speaker yearns for the past, “The glamour / Of childish days”, which is contrasted with his response to the brash ‘clamour’ of the singer in the present. The poem ends with a shift in tone and mood as the poet confronts his sad reality, his “manhood is cast/Down”. Here the use of enjambment reveals the emotional impact of his recollections as the tone becomes more sombre. The speaker’s emotions are also heightened in the poem’s final statement, “I weep for the past”, which conveys his overwhelming feeling of sadness. In contrast, in ‘Poem at Thirty-Nine’ the speaker presents a more positive mood and hopeful tone. There is a sense of acceptance and gratitude for the lessons learnt and the memories shared. Unlike ‘Piano’, the tone is one of reconciliation and closure as the speaker comes to terms with her past and embraces the person she has become, one who now is “Writing deposit slips and checks”, “telling the truth” and “sharing / of good food”. These activities symbolise the speaker’s maturity and independence as an adult. ***Despite the speaker’s inevitable sadness at the loss of her father, there is a tone of resilience and optimism. **<br><br>*In conclusion, both poets powerfully convey feelings of love and longing for parents through a variety of methods, lamenting their loss and yearning to return to the closeness of their relationship in childhood. While ‘Poem at Thirty-Nine’ offers closure and acceptance of the loss of a parent in adulthood, ‘Piano’ is more poignant and melancholic, reminding the reader of the simplicity and beauty of a child’s love for their parent.  * |

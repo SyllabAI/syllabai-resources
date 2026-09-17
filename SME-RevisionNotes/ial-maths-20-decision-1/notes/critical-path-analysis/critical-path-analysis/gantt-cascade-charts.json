@@ -1,0 +1,111 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_MhSb7M4BcmKVcnPC",
+ "course_slug": "ial-maths-20-decision-1",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/revision-notes/critical-path-analysis/critical-path-analysis/gantt-cascade-charts",
+ "title": "Gantt (Cascade) Charts",
+ "page_title": "Gantt (Cascade) Charts | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "critical-path-analysis",
+   "critical-path-analysis",
+   "gantt-cascade-charts"
+  ],
+  "section": "critical-path-analysis",
+  "topic": "critical-path-analysis",
+  "leaf": "gantt-cascade-charts"
+ },
+ "titles": {
+  "section": "Critical Path Analysis",
+  "topic": "Critical Path Analysis",
+  "subtopic": "Gantt (Cascade) Charts"
+ },
+ "updated_at": "2026-07-02T08:19:38.467Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_d6KFycyQksKQ2HGD"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 10,
+  "figures": 2,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_d6KFycyQksKQ2HGD",
+   "name": "Gantt Charts",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Gantt Charts"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a Gantt (cascade) chart?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **Gantt chart** is a graphical display of the **activities** making up a **project**\n\n  - A Gantt chart shows\n  \n    - the **critical activities**\n    - the **total float** for **non-critical** activities\n    - the **minimum project duration**\n- Gantt charts can be used in **scheduling** problems\n\n  - A Gantt chart assumes **one worker per activity**\n- A Gantt chart is also known as a** cascade chart**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I draw a Gantt (cascade) chart?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **horizontal axis** is drawn for time\n- **Activities** are then drawn as a series of **bars** (rectangles) underneath\n\n  - Each **activity** is assumed to **commence** at its **earliest event time**\n  \n    - The earliest start time is the early event time of its start node\n  - Each activity is assumed to occur in a **single block of time**\n  \n    - There are no breaks in an activity\n    - E.g. an activity of duration 5 and early event time 4 would be drawn as a bar starting at 4 and ending at 9\n- ***Critical activities*** are all drawn in the same horizontal line\n\n  - These have a **total float** of **zero **so are drawn **back-to-back**\n- Each** non-critical activities** is drawn on a separate line\n\n  - Their **total float** is indicated by a bar drawn with a dotted line\n  \n    - The dotted float bar can be seen as the room that the activity bar can slide back and forth along\n  - The **start **and **end times** of a non-critical activity are **flexible**\n  - E.g. An activity of duration 4, early event time 7 and total float 3 would be drawn as\n  \n    - a (solid) bar starting at 4 and ending at 11 with a dotted bar starting at 11 and ending at 14\n- Bars are labelled with their activity name and duration\n\n  - Floats are not labelled\n- For the activity network below\n\n  - The **critical activities** are highlighted and are A, C, G and I\n  \n    - The critical path is A-C-G-I\n  - The **minimum project duration** is 23 (days)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/ElwVRYwN_gantt-network.png",
+   "file": "assets/129c5e5756f4-elwvrywn-gantt-network.png",
+   "alt": "Example of an activity network",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The **Gantt chart** for the project would be constructed with the following\n\n  - A** horizontal axis** running from 0 to (at least) 23\n  \n    - 0 to 25 keeps things nice!\n  - **Critical activities** A, C, G and I drawn back-to-back on a single line underneath\n  - Activities B, D, E, F, H and J each drawn on a **separate** line\n  \n    - E.g. Activity D will be drawn as a solid bar from 4 to 7 with a dotted bar from 7 to 12"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/10/2oXg3ddT_gantt-chart.png",
+   "file": "assets/36665d0e82e5-2oxg3ddt-gantt-chart.png",
+   "alt": "Example of a Gantt chart",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- An exam question is likely to provide a grid and the axes for you to draw a Gantt chart on"
+  }
+ ]
+}

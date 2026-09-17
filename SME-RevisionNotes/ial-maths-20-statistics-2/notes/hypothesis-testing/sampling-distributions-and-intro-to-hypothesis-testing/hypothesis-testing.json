@@ -1,0 +1,196 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Pt6dkX8WKZ5jPWN3",
+ "course_slug": "ial-maths-20-statistics-2",
+ "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/revision-notes/hypothesis-testing/sampling-distributions-and-intro-to-hypothesis-testing/hypothesis-testing",
+ "title": "Hypothesis Testing",
+ "page_title": "Hypothesis Testing | Edexcel International A Level (IAL) Maths Revision Notes 2020",
+ "path": {
+  "segs": [
+   "hypothesis-testing",
+   "sampling-distributions-and-intro-to-hypothesis-testing",
+   "hypothesis-testing"
+  ],
+  "section": "hypothesis-testing",
+  "topic": "sampling-distributions-and-intro-to-hypothesis-testing",
+  "leaf": "hypothesis-testing"
+ },
+ "titles": {
+  "section": "Hypothesis Testing",
+  "topic": "Sampling Distributions & Introduction to Hypothesis Testing",
+  "subtopic": "Hypothesis Testing"
+ },
+ "updated_at": "2026-07-02T08:19:38.483Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_D3xcGpghMPGsS2dV",
+   "name": "Amber",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_FyrqXqf8PCg6CTb8",
+  "spcpt_SXgS5mjTMgfKTPsD",
+  "spcpt_mPVJHc5CKHN5mQyS"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "α",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "alpha"
+  },
+  {
+   "latex": "α",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "alpha"
+  },
+  {
+   "latex": "X\\leq3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>≤</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "X less or equal than 3"
+  }
+ ],
+ "stats": {
+  "blocks": 23,
+  "figures": 0,
+  "worked_examples": 3,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 3
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_FyrqXqf8PCg6CTb8",
+   "name": "Language of Hypothesis Testing",
+   "definition": "",
+   "video_id": "833993551"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Language of Hypothesis Testing"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a hypothesis test?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A hypothesis test uses a **sample of data** in an experiment to test a **statement** made about the value of a **population parameter**\n- A hypothesis test is used when the value of the assumed population parameter is questioned\n- The hypothesis test will look at the which outcomes are unlikely to occur if assumed population parameter is true\n- The probability found will be compared against a given **significance level** to determine whether there is **evidence to believe **that the assumed population parameter is not true"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are the key terms used in statistical hypothesis testing?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Every hypothesis test **must **begin with a clear **null hypothesis **(what we believe to already be true) and **alternative hypothesis **(how we believe the data pattern or probability distribution might have changed)\n- A **hypothesis **is an assumption that is made about a particular **population parameter**\n\n  - A **population parameter **is a numerical characteristic which helps define a population\n  \n    - One example of a population parameter is the **probability, *****p***** ** of an event occurring\n    - Another example is the mean of a population\n  - The **null hypothesis** is denoted **H**<sub>**0**</sub> and sets out the assumed population parameter given that no change has happened\n  - The **alternative hypothesis **is denoted **H**<sub>**1**</sub>  and sets out how we think the population parameter could have changed\n  - When a hypothesis test is carried out, the null hypothesis is **assumed to be true** and this assumption will either be **accepted** or **rejected**\n- A hypothesis test could be a **one-tailed **test or a **two-tailed **test\n- The null hypothesis will always be **H**<sub>**0**</sub>** : *****θ***** = ...**\n- The alternate hypothesis will depend on if it is a one-tailed or two-tailed test\n\n  - A one-tailed test would test to see if the **population parameter, *****θ*****,** has **either increased or decreased**\n  \n    - The **alternative hypothesis, H**<sub>**1 **</sub> **will be H**<sub>**1**</sub> : ***θ > ...*** ** or  H**<sub>**1**</sub> : ***θ < ...***\n  - A two-tailed test would test to see if the **population parameter, *****θ*** , has **changed**\n  \n    - The **alternative hypothesis, H**<sub>**1 **</sub> **will be H**<sub>**1**</sub> : ***θ ≠ ...*****  **\n  - It is important to read the wording of the question carefully to decide whether your hypothesis test should be one-tailed or two-tailed\n- To carry out a hypothesis test an experiment will be carried out on a **sample of data**, the result of this experiment will be the **test statistic**\n\n  - A **sample of data **is a subset of data taken from the population\n  - The **test statistic** is a numerical value calculated from the data\n  \n    - The test statistic is sometimes also referred to as the **observed value**\n- A hypothesis test will always be carried out at an appropriate **significance level**\n\n  - The significance level sets the **smallest probability **that an event could have occurred by chance.\n  \n    - Any probability smaller than the significance level would suggest that the event is unlikely to have happened by chance\n  - The **significance level **must be set **before **the hypothesis test is carried out\n  - The significance level will usually be 1%, 5% or 10%, however it may vary"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A hypothesis test is carried out at the 5% level of significance to test if a normal coin is fair or not.\n\n(i) Describe what the population parameter could be for the hypothesis test.\n\n(ii) State whether the hypothesis test should be a one-tailed test or a two-tailed test, give a reason for your answer.\n\n(iii) Clearly defining your population parameter, state suitable null and alternative hypotheses for the test.\n\n**Answer:**\n\n![5-1-1-language-of-hypothesis-testing-we-solution](assets/9213c1a3ac77-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Make sure you read the question carefully to determine whether the test you are carrying out is for a one-tailed or a two-tailed test."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_SXgS5mjTMgfKTPsD",
+   "name": "Critical Regions",
+   "definition": "",
+   "video_id": "834318941"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Critical Regions"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do we decide whether to reject or accept the null hypothesis?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The null hypothesis would be rejected if the **observed value **falls **within the critical region**\n\n  - The **critical region **is the range of values that the observed value could take which will lead to the **null hypothesis** being **rejected**\n- The **critical value **is the boundary of the critical region\n\n  - It is the least extreme value that would lead to the rejection of the null hypothesis\n  - The** critical value **is determined by the **significance level**\n  - In a **two-tailed test** the significance level is halved and both the upper and the lower tails are tested\n  - For **discrete distributions** the critical value is the first value that falls within the critical region and so the probability of the observed value falling within the critical region may be lower than the given significance level\n  \n    - This probability will be known as the **actual significance level**\n    - The actual significance level is the probability of incorrectly rejecting the null hypothesis\n  - Finding the critical region will be different for a **two-tailed test** than it is for a **one-tailed test**\n- For an $α$*%*  significance level\n\n  - In a one-tailed test the critical region will consist of $α$*%* in the tail that is being tested for\n  - In a two-tailed test the critical region will consist of `alpha over 2 percent sign` in each tail"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Do we always need to find the critical region?"
+  },
+  {
+   "type": "bullets",
+   "md": "- In most cases the best method of conducting a hypothesis test is to find the critical region\n\n  - It allows you to see how far the observed value is from the critical value and make decisions about whether further testing is necessary\n- In some cases a hypothesis test can be carried out without finding the critical region\n- The null hypothesis would be rejected if the** **probability of a value being **at least as extreme** as the observed value, assuming that the null hypothesis is true, is **less than the significance level**\n\n  - If the test is looking for a decrease then extreme values are smaller than the observed value, so find the probability of less than or equal to the observed value\n  - If the test is looking for an increase then extreme values are bigger than the observed value, so find the probability of greater than or equal to the observed value\n  - This probability is called the \"**p-value**\"\n- In a **two-tailed test **it is common to half the significance level and compare this with the probability found in one of the tails"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "For the following situations, state at the 1% and 5% significance levels whether the null hypothesis should be rejected or not.\n\n(i) The critical region is $X\\leq3$and the observed value is 4.\n\n(ii) Assuming the null hypothesis is true, the probability of a value being at least as extreme as the test statistic in a one-tailed hypothesis test is 0.0429.\n\n(iii) Assuming the null hypothesis is true, the probability of a value being at least as extreme as the test statistic in a two-tailed hypothesis test is 0.00705.\n\n**Answer:**\n\n![3-1-1-critical-regions-and-p-values-we-solution-](assets/ae4ebaad8065-image.bin)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_mPVJHc5CKHN5mQyS",
+   "name": "Conclusions of Hypothesis Testing",
+   "definition": "",
+   "video_id": "835013575"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Conclusions of Hypothesis Testing"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How is a hypothesis test carried out?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There are a number of ways that a hypothesis test can be carried out for different models, however the following steps should form the base for your test:\n- **Step 1.** Define the test statistic and population parameter\n- **Step 2. **Write the null and alternative hypotheses clearly\n- **Step 3. **Calculate the **critical value(s) **or the necessary probability for the test\n- **Step 4. **Compare the observed value with the critical value(s) or the probability with the significance level\n- **Step 5. **Decide whether there is enough evidence to reject H<sub>0</sub> or whether it has to be accepted\n- ** Step 6. **Write a conclusion in context"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How should a conclusion be written for a hypothesis test?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Your conclusion **must** be written in the context of the question\n- Use the wording in the question to help you write your conclusion\n\n  - If rejecting the null hypothesis your conclusion should state that there is **sufficient** **evidence to suggest** the alternative hypothesis is true at this level of significance\n  - If accepting the null hypothesis your conclusion should state that there is **not enough evidence** to suggest the alternative hypothesis is true at this level of significance\n- Your conclusion **must** **not** be definitive\n\n  - There is a chance that the test has led to an incorrect conclusion\n  - The outcome is dependent on the sample, a different sample might lead to a different outcome\n- The conclusion of a two-tailed test can state if there is evidence of a change\n\n  - You should not state whether this change is an increase or decrease"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A teacher carried out a hypothesis test at the 10% significance level to test if her students perform better in exams after using a new revision technique. Under the null hypothesis she calculates the probability that a value will be at least as extreme as the observed value to be 0.09142. Write a conclusion for her hypothesis test.\n\n**Answer:**\n\n![5-1-1-conclusions-of-hypothesis-testing-we-solution](assets/cc0da7b64016-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- It is best to use the exact wording from the question when writing your conclusion for the hypothesis test, do not be afraid to sound repetitive."
+  }
+ ]
+}
