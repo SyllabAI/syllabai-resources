@@ -1,0 +1,327 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:22:02Z",
+ "course_slug": "ial-maths-20-decision-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/flashcards/algorithms-on-graphs/shortest-path-algorithms/",
+  "section_slug": "algorithms-on-graphs",
+  "section_name": "Algorithms on Graphs",
+  "topic_slug": "shortest-path-algorithms",
+  "title": "Shortest Path Algorithms",
+  "order": 1
+ },
+ "card_count": 10,
+ "card_types": {
+  "question_and_answer": 7,
+  "keyword_definition": 1,
+  "true_or_false": 1,
+  "fill_in_the_blanks": 1
+ },
+ "spec_link_cards": 10,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_QKYF7HbSFhw6V24V",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does Dijkstra's algorithm find?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **shortest distance** between two vertices of a network, together with the route that achieves it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Run across a whole network it gives the shortest distance from one fixed start vertex to **every** other vertex."
+    }
+   ],
+   "front_md": "What does Dijkstra's algorithm find?\n",
+   "back_md": "The **shortest distance** between two vertices of a network, together with the route that achieves it.\n\nRun across a whole network it gives the shortest distance from one fixed start vertex to **every** other vertex.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZWHj3ZsKwZm6rSys",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a 'working value' at a vertex represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A working value is the shortest distance to that vertex found **so far**, along whichever routes have been explored up to that point."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is provisional, and a vertex may collect several working values as the algorithm goes on."
+    }
+   ],
+   "front_md": "What does a 'working value' at a vertex represent?\n",
+   "back_md": "A working value is the shortest distance to that vertex found **so far**, along whichever routes have been explored up to that point.\n\nIt is provisional, and a vertex may collect several working values as the algorithm goes on.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XQMXMxpdzgDhR6SM",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **final label** of a vertex in Dijkstra's algorithm."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The final label of a vertex is the **shortest distance from the start vertex** to that vertex, along the best route through the network."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every vertex ends up with one, and together they are what the algorithm was run to produce."
+    }
+   ],
+   "front_md": "Define the **final label** of a vertex in Dijkstra's algorithm.\n",
+   "back_md": "The final label of a vertex is the **shortest distance from the start vertex** to that vertex, along the best route through the network.\n\nEvery vertex ends up with one, and together they are what the algorithm was run to produce.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jRHdwmMzZnGTr6ZN",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the start vertex labelled at the beginning of Dijkstra's algorithm?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is given labelling order $1$ and a final label of $0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The zero is right because the shortest distance from the start vertex to itself is no distance at all."
+    }
+   ],
+   "front_md": "How is the start vertex labelled at the beginning of Dijkstra's algorithm?\n",
+   "back_md": "It is given labelling order $1$ and a final label of $0$.\n\nThe zero is right because the shortest distance from the start vertex to itself is no distance at all.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CyNFttv3f766R5PN",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A vertex already has a working value, and a new route reaches it with another. When do you write the new one in?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only when the new value is **smaller** than the one already there."
+    },
+    {
+     "type": "paragraph",
+     "md": "A working value records the best distance found so far, so a larger figure tells you nothing and is simply not written down."
+    }
+   ],
+   "front_md": "A vertex already has a working value, and a new route reaches it with another. When do you write the new one in?\n",
+   "back_md": "Only when the new value is **smaller** than the one already there.\n\nA working value records the best distance found so far, so a larger figure tells you nothing and is simply not written down.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bVrWDrQj7fWcjNJq",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Several vertices have working values but no final label yet. Which one is made final next?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The one carrying the **smallest working value** anywhere in the network."
+    },
+    {
+     "type": "paragraph",
+     "md": "That working value becomes its final label, and the vertex takes the next number in the labelling order."
+    }
+   ],
+   "front_md": "Several vertices have working values but no final label yet. Which one is made final next?\n",
+   "back_md": "The one carrying the **smallest working value** anywhere in the network.\n\nThat working value becomes its final label, and the vertex takes the next number in the labelling order.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pZw4gDtf4hwctyQQ",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In Dijkstra's algorithm, a vertex's final label can be improved later if a shorter route to it is found."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A final label is permanent, which is why it is sometimes called a permanent label instead."
+    },
+    {
+     "type": "paragraph",
+     "md": "The algorithm only makes a vertex final when nothing still unexplored could possibly reach it more cheaply, so there is never anything left to improve."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn Dijkstra's algorithm, a vertex's final label can be improved later if a shorter route to it is found.\n",
+   "back_md": "**False.**\n\nA final label is permanent, which is why it is sometimes called a permanent label instead.\n\nThe algorithm only makes a vertex final when nothing still unexplored could possibly reach it more cheaply, so there is never anything left to improve.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PgJsw5YwbNrNNTGz",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the fact about stopping Dijkstra's algorithm early:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The algorithm may be stopped as soon as the `\\_\\_\\_\\_\\_\\_` vertex has been given its final label, which saves a good deal of work on a large network."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed fact is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The algorithm may be stopped as soon as the **destination** vertex has been given its final label, which saves a good deal of work on a large network."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no need to settle every vertex when only one destination has been asked for."
+    }
+   ],
+   "front_md": "Complete the fact about stopping Dijkstra's algorithm early:\n\nThe algorithm may be stopped as soon as the `\\_\\_\\_\\_\\_\\_` vertex has been given its final label, which saves a good deal of work on a large network.\n",
+   "back_md": "The completed fact is:\n\nThe algorithm may be stopped as soon as the **destination** vertex has been given its final label, which saves a good deal of work on a large network.\n\nThere is no need to settle every vertex when only one destination has been asked for.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_zKtpX3B4XvGFVtRc",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Every vertex now has its final label. How do you read off the shortest route itself?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work **backwards** from the destination towards the start vertex."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two vertices lie on the shortest route when the **difference between their final labels** is exactly equal to the weight of the edge joining them."
+    }
+   ],
+   "front_md": "Every vertex now has its final label. How do you read off the shortest route itself?\n",
+   "back_md": "Work **backwards** from the destination towards the start vertex.\n\nTwo vertices lie on the shortest route when the **difference between their final labels** is exactly equal to the weight of the edge joining them.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5JgTYnsfKBvHmnXV",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_cQxbNYPgNyxxgYyF",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two adjacent vertices have final labels $8$ and $15$, and the edge joining them has weight $7$. Do they lie on the shortest route?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They do lie on it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The difference $15 - 8 = 7$ matches the weight of that edge exactly, which is the test for an edge belonging to the shortest route."
+    }
+   ],
+   "front_md": "Two adjacent vertices have final labels $8$ and $15$, and the edge joining them has weight $7$. Do they lie on the shortest route?\n",
+   "back_md": "They do lie on it.\n\nThe difference $15 - 8 = 7$ matches the weight of that edge exactly, which is the test for an edge belonging to the shortest route.\n",
+   "spec_links": [
+    "spcpt_GzzWTsWwZ252dRpv"
+   ],
+   "flags": []
+  }
+ ]
+}

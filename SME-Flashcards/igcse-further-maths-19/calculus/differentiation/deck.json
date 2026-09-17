@@ -1,0 +1,819 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:27:19Z",
+ "course_slug": "igcse-further-maths-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/flashcards/calculus/differentiation/",
+  "section_slug": "calculus",
+  "section_name": "Calculus",
+  "topic_slug": "differentiation",
+  "title": "Differentiation",
+  "order": 0
+ },
+ "card_count": 25,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 16,
+  "true_or_false": 3,
+  "fill_in_the_blanks": 5
+ },
+ "spec_link_cards": 25,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_GHY97dbMmGq7G2pY",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_bKhkSk9ZTph8XQgN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **differentiation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Differentiation** is the process of finding the **derivative**, or gradient function, of a function."
+    },
+    {
+     "type": "paragraph",
+     "md": "It turns the equation of a curve into a new function whose outputs are gradients."
+    }
+   ],
+   "front_md": "Define **differentiation**.\n",
+   "back_md": "**Differentiation** is the process of finding the **derivative**, or gradient function, of a function.\n\nIt turns the equation of a curve into a new function whose outputs are gradients.\n",
+   "spec_links": [
+    "spcpt_xMC4T9xtr5hyRDt5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fP79kQ6TN7CP5ywf",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_bKhkSk9ZTph8XQgN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the gradient of a curve measure?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How fast $y$ changes as $x$ changes, the **rate of change** of $y$ with respect to $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "In everyday terms it is steepness, and it is what makes things like the speed of a car measurable."
+    }
+   ],
+   "front_md": "What does the gradient of a curve measure?\n",
+   "back_md": "How fast $y$ changes as $x$ changes, the **rate of change** of $y$ with respect to $x$.\n\nIn everyday terms it is steepness, and it is what makes things like the speed of a car measurable.\n",
+   "spec_links": [
+    "spcpt_xMC4T9xtr5hyRDt5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nMfXhNkGk2tWxMxk",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_bKhkSk9ZTph8XQgN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the gradient of a curve at a point defined?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the gradient of the **tangent** to the curve at that point."
+    },
+    {
+     "type": "paragraph",
+     "md": "A tangent is a straight line touching the curve there, and its steepness is what the derivative reports."
+    }
+   ],
+   "front_md": "How is the gradient of a curve at a point defined?\n",
+   "back_md": "It is the gradient of the **tangent** to the curve at that point.\n\nA tangent is a straight line touching the curve there, and its steepness is what the derivative reports.\n",
+   "spec_links": [
+    "spcpt_xMC4T9xtr5hyRDt5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xR4XFGVTHwNHjcNX",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_bKhkSk9ZTph8XQgN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A straight line has a different gradient at every point."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A straight line has the **same** gradient everywhere, which is the $m$ in $y = m x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is a curve whose gradient changes from point to point, and that is exactly why calculus is needed for curves."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA straight line has a different gradient at every point.\n",
+   "back_md": "**False.**\n\nA straight line has the **same** gradient everywhere, which is the $m$ in $y = m x + c$.\n\nIt is a curve whose gradient changes from point to point, and that is exactly why calculus is needed for curves.\n",
+   "spec_links": [
+    "spcpt_xMC4T9xtr5hyRDt5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3Mhr2NghYYzSJ5PN",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_bKhkSk9ZTph8XQgN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two ways of writing the derivative?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x}$, read as 'd $y$ by d $x$', when the curve is given as $y = \\dots$"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f}'\\left(x\\right)`, read as 'f dash of $x$', when it is given in function notation instead."
+    }
+   ],
+   "front_md": "What are the two ways of writing the derivative?\n",
+   "back_md": "$\\frac{\\text{d}y}{\\text{d}x}$, read as 'd $y$ by d $x$', when the curve is given as $y = \\dots$\n\n`\\text{f}'\\left(x\\right)`, read as 'f dash of $x$', when it is given in function notation instead.\n",
+   "spec_links": [
+    "spcpt_xMC4T9xtr5hyRDt5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mtbvcPDPGrfzVqkJ",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_bKhkSk9ZTph8XQgN",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the advantage of having a gradient function?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It gives the gradient at **any** point of the curve, replacing the need to draw a tangent and measure it."
+    },
+    {
+     "type": "paragraph",
+     "md": "That turns a drawing problem into an algebraic one, with no sketching required at all."
+    }
+   ],
+   "front_md": "What is the advantage of having a gradient function?\n",
+   "back_md": "It gives the gradient at **any** point of the curve, replacing the need to draw a tangent and measure it.\n\nThat turns a drawing problem into an algebraic one, with no sketching required at all.\n",
+   "spec_links": [
+    "spcpt_xMC4T9xtr5hyRDt5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DzVg2Tz8qQqQw2Fv",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for differentiating a power of $x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{if } \\text{f}\\left(x\\right) = x^{n} \\text{ then } \\text{f}'\\left(x\\right) = \\_\\_\\_\\_\\_\\_ x^{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{if } \\text{f}\\left(x\\right) = x^{n} \\text{ then } \\text{f}'\\left(x\\right) = n x^{n - 1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Bring the power down as a multiplier, then subtract $1$ from it; any constant factor is simply carried along."
+    }
+   ],
+   "front_md": "Complete the rule for differentiating a power of $x$:\n\n`\\text{if } \\text{f}\\left(x\\right) = x^{n} \\text{ then } \\text{f}'\\left(x\\right) = \\_\\_\\_\\_\\_\\_ x^{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed rule is:\n\n`\\text{if } \\text{f}\\left(x\\right) = x^{n} \\text{ then } \\text{f}'\\left(x\\right) = n x^{n - 1}`\n\nBring the power down as a multiplier, then subtract $1$ from it; any constant factor is simply carried along.\n",
+   "spec_links": [
+    "spcpt_WF2fQCGtJgftqVQg"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_RNbwxNTcJTztfmgF",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the derivatives of $a x$ and of a constant $a$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The derivative of $a x$ is $a$, and the derivative of a constant is $0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both follow from the power rule, since $a x$ is $a x^{1}$ and $a$ is $a x^{0}$."
+    }
+   ],
+   "front_md": "What are the derivatives of $a x$ and of a constant $a$?\n",
+   "back_md": "The derivative of $a x$ is $a$, and the derivative of a constant is $0$.\n\nBoth follow from the power rule, since $a x$ is $a x^{1}$ and $a$ is $a x^{0}$.\n",
+   "spec_links": [
+    "spcpt_WF2fQCGtJgftqVQg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NPH6vgZv76P9kFqG",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate $\\frac{4}{\\sqrt{x}}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite it as a power first, so that $\\frac{4}{\\sqrt{x}} = 4 x^{-\\frac{1}{2}}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The power rule then gives `4 \\times \\left(- \\frac{1}{2}\\right) x^{- \\frac{3}{2}} = - 2 x^{- \\frac{3}{2}}`."
+    }
+   ],
+   "front_md": "How do you differentiate $\\frac{4}{\\sqrt{x}}$?\n",
+   "back_md": "Rewrite it as a power first, so that $\\frac{4}{\\sqrt{x}} = 4 x^{-\\frac{1}{2}}$.\n\nThe power rule then gives `4 \\times \\left(- \\frac{1}{2}\\right) x^{- \\frac{3}{2}} = - 2 x^{- \\frac{3}{2}}`.\n",
+   "spec_links": [
+    "spcpt_WF2fQCGtJgftqVQg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3W4SKwD8kjXqWcBd",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can you not differentiate `\\left(2 x - 3\\right)\\left(x^{2} - 4\\right)` term by term?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the power rule applies to a **sum** of powers, not to a product of two brackets."
+    },
+    {
+     "type": "paragraph",
+     "md": "Expand it to $2 x^{3} - 3 x^{2} - 8 x + 12$ first, and then differentiate term by term."
+    }
+   ],
+   "front_md": "Why can you not differentiate `\\left(2 x - 3\\right)\\left(x^{2} - 4\\right)` term by term?\n",
+   "back_md": "Because the power rule applies to a **sum** of powers, not to a product of two brackets.\n\nExpand it to $2 x^{3} - 3 x^{2} - 8 x + 12$ first, and then differentiate term by term.\n",
+   "spec_links": [
+    "spcpt_WF2fQCGtJgftqVQg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_f8C8DCn3cdvKVCJn",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the derivatives of the two trigonometric functions:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(\\sin a x\\right) = \\_\\_\\_\\_\\_\\_ \\cos a x \\text{ and } \\frac{\\text{d}}{\\text{d}x}\\left(\\cos a x\\right) = \\_\\_\\_\\_\\_\\_ \\sin a x`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed derivatives are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(\\sin a x\\right) = a \\cos a x \\text{ and } \\frac{\\text{d}}{\\text{d}x}\\left(\\cos a x\\right) = - a \\sin a x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The minus sign belongs to $\\mathrm{cos}$ alone, and the factor $a$ comes from the inside of the bracket."
+    }
+   ],
+   "front_md": "Complete the derivatives of the two trigonometric functions:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(\\sin a x\\right) = \\_\\_\\_\\_\\_\\_ \\cos a x \\text{ and } \\frac{\\text{d}}{\\text{d}x}\\left(\\cos a x\\right) = \\_\\_\\_\\_\\_\\_ \\sin a x`\n",
+   "back_md": "The completed derivatives are:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(\\sin a x\\right) = a \\cos a x \\text{ and } \\frac{\\text{d}}{\\text{d}x}\\left(\\cos a x\\right) = - a \\sin a x`\n\nThe minus sign belongs to $\\mathrm{cos}$ alone, and the factor $a$ comes from the inside of the bracket.\n",
+   "spec_links": [
+    "spcpt_BGg7StnV5sBwkBDx"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GGJdhXycYsXgMGtg",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the gradient of $y = 3 \\mathrm{sin} \\frac{x}{2}$ at $x = \\frac{π}{3}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Here $a = \\frac{1}{2}$, so $\\frac{\\text{d}y}{\\text{d}x} = \\frac{3}{2} \\mathrm{cos} \\frac{x}{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "At $x = \\frac{π}{3}$ that gives $\\frac{3}{2} \\mathrm{cos} \\frac{π}{6} = \\frac{3}{2} \\times \\frac{\\sqrt{3}}{2} = \\frac{3\\sqrt{3}}{4}$."
+    }
+   ],
+   "front_md": "Find the gradient of $y = 3 \\mathrm{sin} \\frac{x}{2}$ at $x = \\frac{π}{3}$.\n",
+   "back_md": "Here $a = \\frac{1}{2}$, so $\\frac{\\text{d}y}{\\text{d}x} = \\frac{3}{2} \\mathrm{cos} \\frac{x}{2}$.\n\nAt $x = \\frac{π}{3}$ that gives $\\frac{3}{2} \\mathrm{cos} \\frac{π}{6} = \\frac{3}{2} \\times \\frac{\\sqrt{3}}{2} = \\frac{3\\sqrt{3}}{4}$.\n",
+   "spec_links": [
+    "spcpt_BGg7StnV5sBwkBDx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FW4BMm233DKStCZB",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $\\mathrm{sin} 3 x$ gives $\\mathrm{cos} 3 x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The factor from inside the function has to come out as well, so the derivative is $3 \\mathrm{cos} 3 x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Losing that factor is the commonest slip whenever the angle is a multiple of $x$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDifferentiating $\\mathrm{sin} 3 x$ gives $\\mathrm{cos} 3 x$.\n",
+   "back_md": "**False.**\n\nThe factor from inside the function has to come out as well, so the derivative is $3 \\mathrm{cos} 3 x$.\n\nLosing that factor is the commonest slip whenever the angle is a multiple of $x$.\n",
+   "spec_links": [
+    "spcpt_BGg7StnV5sBwkBDx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pD22gFBnHtq5NfCx",
+   "card_type": "fill_in_the_blanks",
+   "order": 7,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the derivative of the exponential function:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(\\text{e}^{a x}\\right) = \\_\\_\\_\\_\\_\\_ \\text{e}^{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed derivative is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(\\text{e}^{a x}\\right) = a \\text{e}^{a x}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The exponential itself is left completely unchanged, and simply picks up a factor of $a$ from the index."
+    }
+   ],
+   "front_md": "Complete the derivative of the exponential function:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(\\text{e}^{a x}\\right) = \\_\\_\\_\\_\\_\\_ \\text{e}^{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed derivative is:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(\\text{e}^{a x}\\right) = a \\text{e}^{a x}`\n\nThe exponential itself is left completely unchanged, and simply picks up a factor of $a$ from the index.\n",
+   "spec_links": [
+    "spcpt_5gZxgh7z7kWnnc2Y"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_gWJqF4RMyJbVBdDc",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_TpDXpptKChmJG33X",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the gradient of $y = 2 \\text{e}^{-3x}$ at $x = \\frac{1}{2}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiating gives $\\frac{\\text{d}y}{\\text{d}x} = - 6 \\text{e}^{-3x}$, since the factor $- 3$ comes out."
+    },
+    {
+     "type": "paragraph",
+     "md": "At $x = \\frac{1}{2}$ that is $- 6 \\text{e}^{-\\frac{3}{2}} = - 1 . 34$ to three significant figures."
+    }
+   ],
+   "front_md": "Find the gradient of $y = 2 \\text{e}^{-3x}$ at $x = \\frac{1}{2}$.\n",
+   "back_md": "Differentiating gives $\\frac{\\text{d}y}{\\text{d}x} = - 6 \\text{e}^{-3x}$, since the factor $- 3$ comes out.\n\nAt $x = \\frac{1}{2}$ that is $- 6 \\text{e}^{-\\frac{3}{2}} = - 1 . 34$ to three significant figures.\n",
+   "spec_links": [
+    "spcpt_5gZxgh7z7kWnnc2Y"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b244k6R6TZVwczbh",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the product rule for $y = u v$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}y}{\\text{d}x} = \\_\\_\\_\\_\\_\\_ v + u \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = u ' v + u v '$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiate each factor in turn, leaving the other one alone, then add the two results together."
+    }
+   ],
+   "front_md": "Complete the product rule for $y = u v$:\n\n`\\frac{\\text{d}y}{\\text{d}x} = \\_\\_\\_\\_\\_\\_ v + u \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = u ' v + u v '$\n\nDifferentiate each factor in turn, leaving the other one alone, then add the two results together.\n",
+   "spec_links": [
+    "spcpt_73PM55Cdbc4wmMbw"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6QGGNzSz4gvBRHWw",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you tell a product of two functions from a function of a function?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{sin} x \\mathrm{cos} x$ is a **product**, sine times cosine, and needs the product rule."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sin\\left(\\cos x\\right)` is a **function of a function**, sine of cosine, and needs the chain rule instead."
+    }
+   ],
+   "front_md": "How do you tell a product of two functions from a function of a function?\n",
+   "back_md": "$\\mathrm{sin} x \\mathrm{cos} x$ is a **product**, sine times cosine, and needs the product rule.\n\n`\\sin\\left(\\cos x\\right)` is a **function of a function**, sine of cosine, and needs the chain rule instead.\n",
+   "spec_links": [
+    "spcpt_73PM55Cdbc4wmMbw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dpFVysVR8QJzqhRM",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate $y = 5 x^{2} \\mathrm{cos} 3 x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take $u = 5 x^{2}$ and $v = \\mathrm{cos} 3 x$, so that $u ' = 10 x$ and $v ' = - 3 \\mathrm{sin} 3 x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then $u ' v + u v '$ gives $10 x \\mathrm{cos} 3 x - 15 x^{2} \\mathrm{sin} 3 x$."
+    }
+   ],
+   "front_md": "Differentiate $y = 5 x^{2} \\mathrm{cos} 3 x$.\n",
+   "back_md": "Take $u = 5 x^{2}$ and $v = \\mathrm{cos} 3 x$, so that $u ' = 10 x$ and $v ' = - 3 \\mathrm{sin} 3 x$.\n\nThen $u ' v + u v '$ gives $10 x \\mathrm{cos} 3 x - 15 x^{2} \\mathrm{sin} 3 x$.\n",
+   "spec_links": [
+    "spcpt_73PM55Cdbc4wmMbw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XS9f3Bx37kw97PvN",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the quotient rule for $y = \\frac{u}{v}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $\\frac{\\text{d}y}{\\text{d}x} = \\frac{u'v-uv'}{v^{2}}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **order matters**: unlike the product rule this one subtracts, and the term carrying $u '$ must come first."
+    }
+   ],
+   "front_md": "What is the quotient rule for $y = \\frac{u}{v}$?\n",
+   "back_md": "It is $\\frac{\\text{d}y}{\\text{d}x} = \\frac{u'v-uv'}{v^{2}}$.\n\nThe **order matters**: unlike the product rule this one subtracts, and the term carrying $u '$ must come first.\n",
+   "spec_links": [
+    "spcpt_8CPCjzFPC6TwMWnx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kpj6wmX64ZZCcR2h",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is the quotient rule not the quickest method?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the numerator is a constant, since `\\frac{k}{\\text{g}\\left(x\\right)}` can be written as `k\\left[\\text{g}\\left(x\\right)\\right]^{- 1}` and done by the chain rule."
+    },
+    {
+     "type": "paragraph",
+     "md": "When the denominator is a constant, treat it as a factor instead: `\\frac{\\text{f}\\left(x\\right)}{k}` is just `\\frac{1}{k}\\text{f}\\left(x\\right)`."
+    }
+   ],
+   "front_md": "When is the quotient rule not the quickest method?\n",
+   "back_md": "When the numerator is a constant, since `\\frac{k}{\\text{g}\\left(x\\right)}` can be written as `k\\left[\\text{g}\\left(x\\right)\\right]^{- 1}` and done by the chain rule.\n\nWhen the denominator is a constant, treat it as a factor instead: `\\frac{\\text{f}\\left(x\\right)}{k}` is just `\\frac{1}{k}\\text{f}\\left(x\\right)`.\n",
+   "spec_links": [
+    "spcpt_8CPCjzFPC6TwMWnx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MKwTBhBjK8w74tnS",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the chain rule, where $y$ is a function of $u$ and $u$ is a function of $x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}\\_\\_\\_\\_\\_\\_} \\times \\frac{\\text{d}\\_\\_\\_\\_\\_\\_}{\\text{d}x}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}u} \\times \\frac{\\text{d}u}{\\text{d}x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two $\\text{d} u$ parts behave as though they cancel, which is the easiest way to remember the shape of it."
+    }
+   ],
+   "front_md": "Complete the chain rule, where $y$ is a function of $u$ and $u$ is a function of $x$:\n\n`\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}\\_\\_\\_\\_\\_\\_} \\times \\frac{\\text{d}\\_\\_\\_\\_\\_\\_}{\\text{d}x}`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}u} \\times \\frac{\\text{d}u}{\\text{d}x}$\n\nThe two $\\text{d} u$ parts behave as though they cancel, which is the easiest way to remember the shape of it.\n",
+   "spec_links": [
+    "spcpt_r7zgkvS5WHxQnK3Q"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_VGMxkQMSTzYd73Nf",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate `\\left[\\text{f}\\left(x\\right)\\right]^{n}` quickly?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use `\\frac{\\text{d}y}{\\text{d}x} = n \\text{f}'\\left(x\\right)\\left[\\text{f}\\left(x\\right)\\right]^{n - 1}`, the chain rule specialised to a power."
+    },
+    {
+     "type": "paragraph",
+     "md": "It saves expanding: `\\left(x^{2} - 5 x + 7\\right)^{7}` differentiates to `7\\left(2 x - 5\\right)\\left(x^{2} - 5 x + 7\\right)^{6}`."
+    }
+   ],
+   "front_md": "How do you differentiate `\\left[\\text{f}\\left(x\\right)\\right]^{n}` quickly?\n",
+   "back_md": "Use `\\frac{\\text{d}y}{\\text{d}x} = n \\text{f}'\\left(x\\right)\\left[\\text{f}\\left(x\\right)\\right]^{n - 1}`, the chain rule specialised to a power.\n\nIt saves expanding: `\\left(x^{2} - 5 x + 7\\right)^{7}` differentiates to `7\\left(2 x - 5\\right)\\left(x^{2} - 5 x + 7\\right)^{6}`.\n",
+   "spec_links": [
+    "spcpt_r7zgkvS5WHxQnK3Q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X4fzJhc2wPqXb8jQ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate $y = \\frac{1}{\\sqrt{2x-3}}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite it as a power first, `y = \\left(2 x - 3\\right)^{- \\frac{1}{2}}`, then use the power-of-a-function rule."
+    },
+    {
+     "type": "paragraph",
+     "md": "Square roots and denominators are **hidden powers**, and spotting them is what makes the chain rule usable."
+    }
+   ],
+   "front_md": "How do you differentiate $y = \\frac{1}{\\sqrt{2x-3}}$?\n",
+   "back_md": "Rewrite it as a power first, `y = \\left(2 x - 3\\right)^{- \\frac{1}{2}}`, then use the power-of-a-function rule.\n\nSquare roots and denominators are **hidden powers**, and spotting them is what makes the chain rule usable.\n",
+   "spec_links": [
+    "spcpt_r7zgkvS5WHxQnK3Q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pRnvscTKqMSZdSTN",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate $y = \\text{e}^{\\mathrm{cos}x}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set $u = \\mathrm{cos} x$, so $y = \\text{e}^{u}$ with $\\frac{\\text{d}y}{\\text{d}u} = \\text{e}^{u}$ and $\\frac{\\text{d}u}{\\text{d}x} = - \\mathrm{sin} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying the two and substituting back gives `- \\left(\\sin x\\right)\\text{e}^{\\cos x}`."
+    }
+   ],
+   "front_md": "Differentiate $y = \\text{e}^{\\mathrm{cos}x}$.\n",
+   "back_md": "Set $u = \\mathrm{cos} x$, so $y = \\text{e}^{u}$ with $\\frac{\\text{d}y}{\\text{d}u} = \\text{e}^{u}$ and $\\frac{\\text{d}u}{\\text{d}x} = - \\mathrm{sin} x$.\n\nMultiplying the two and substituting back gives `- \\left(\\sin x\\right)\\text{e}^{\\cos x}`.\n",
+   "spec_links": [
+    "spcpt_r7zgkvS5WHxQnK3Q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QRBWxqvj4bHjMhDt",
+   "card_type": "true_or_false",
+   "order": 9,
+   "set_id": "flst_jDshXC9Jmf2p63rf",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The chain rule is needed to differentiate `\\cos\\left(3 x^{2} - 1\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The angle is itself a function of $x$, so this is a function of a function rather than a simple $\\mathrm{cos} a x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Setting $u = 3 x^{2} - 1$ gives `\\frac{\\text{d}y}{\\text{d}x} = - 6 x\\sin\\left(3 x^{2} - 1\\right)`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe chain rule is needed to differentiate `\\cos\\left(3 x^{2} - 1\\right)`.\n",
+   "back_md": "**True.**\n\nThe angle is itself a function of $x$, so this is a function of a function rather than a simple $\\mathrm{cos} a x$.\n\nSetting $u = 3 x^{2} - 1$ gives `\\frac{\\text{d}y}{\\text{d}x} = - 6 x\\sin\\left(3 x^{2} - 1\\right)`.\n",
+   "spec_links": [
+    "spcpt_r7zgkvS5WHxQnK3Q"
+   ],
+   "flags": []
+  }
+ ]
+}

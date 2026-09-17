@@ -1,0 +1,771 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:48Z",
+ "course_slug": "ial-maths-20-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-1/flashcards/probability/basic-probability/",
+  "section_slug": "probability",
+  "section_name": "Probability",
+  "topic_slug": "basic-probability",
+  "title": "Basic Probability",
+  "order": 0
+ },
+ "card_count": 21,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 10,
+  "fill_in_the_blanks": 3,
+  "true_or_false": 5
+ },
+ "spec_link_cards": 21,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_86D6MPXrM4n8gK9Q",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **sample space**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The sample space is the set of **all possible outcomes** of an experiment."
+    },
+    {
+     "type": "paragraph",
+     "md": "It can be written as a list or set out in a table, which helps when the outcomes are hard to picture. So, **for example**, for the products of two four-sided spinners, a grid of all 16 products is the sample space."
+    }
+   ],
+   "front_md": "Define **sample space**.\n",
+   "back_md": "The sample space is the set of **all possible outcomes** of an experiment.\n\nIt can be written as a list or set out in a table, which helps when the outcomes are hard to picture. So, **for example**, for the products of two four-sided spinners, a grid of all 16 products is the sample space.\n",
+   "spec_links": [
+    "spcpt_bxWFJwqxDSR3cBsC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qfFKm2SXJfQPf4K4",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between an outcome and an event?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An **outcome** is a single result of an experiment, while an **event** is what you are interested in happening, which may be one outcome or a whole collection of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, for the products of two spinners, the event \"the product is $- 2$\" contains one outcome, but the event \"the product is negative\" contains six."
+    }
+   ],
+   "front_md": "What is the difference between an outcome and an event?\n",
+   "back_md": "An **outcome** is a single result of an experiment, while an **event** is what you are interested in happening, which may be one outcome or a whole collection of them.\n\nSo, **for example**, for the products of two spinners, the event \"the product is $- 2$\" contains one outcome, but the event \"the product is negative\" contains six.\n",
+   "spec_links": [
+    "spcpt_bxWFJwqxDSR3cBsC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ySJV4xsCqgcjydtt",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the condition that this formula depends on:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( \\text{success} ) = \\frac{\\text{number of ways to get a success}}{\\text{total number of outcomes}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula is only valid when all outcomes are `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed condition is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula is only valid when all outcomes are **equally likely**."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is easy to lose sight of, because the formula looks as though it always applies. Counting outcomes tells you nothing about probability unless each one is as likely as the next, so, **for example**, it cannot be used on a biased dice."
+    }
+   ],
+   "front_md": "Complete the condition that this formula depends on:\n\n$\\text{P} ( \\text{success} ) = \\frac{\\text{number of ways to get a success}}{\\text{total number of outcomes}}$\n\nThe formula is only valid when all outcomes are `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed condition is:\n\nThe formula is only valid when all outcomes are **equally likely**.\n\nThis is easy to lose sight of, because the formula looks as though it always applies. Counting outcomes tells you nothing about probability unless each one is as likely as the next, so, **for example**, it cannot be used on a biased dice.\n",
+   "spec_links": [
+    "spcpt_bxWFJwqxDSR3cBsC"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Qc3tgVvBxsG4rWDp",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do $\\text{P} ( A )$, $\\text{P} ( A ' )$ and $\\text{P} ( X \\leq 4 )$ each mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(A\\right)` is the probability that event $A$ **happens**."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(A '\\right)` is the probability that event $A$ **does not happen**, sometimes written `\\text{P} \\left(\\bar{A}\\right)`, and the two are linked by `\\text{P} \\left(A '\\right) = 1 - \\text{P} \\left(A\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\leq 4\\right)` is the probability that the quantity $X$ takes a value **less than or equal to** 4, so read the inequality sign carefully: \"less than 4\" would be `\\text{P} \\left(X < 4\\right)` and means something different."
+    }
+   ],
+   "front_md": "What do $\\text{P} ( A )$, $\\text{P} ( A ' )$ and $\\text{P} ( X \\leq 4 )$ each mean?\n",
+   "back_md": "`\\text{P} \\left(A\\right)` is the probability that event $A$ **happens**.\n\n`\\text{P} \\left(A '\\right)` is the probability that event $A$ **does not happen**, sometimes written `\\text{P} \\left(\\bar{A}\\right)`, and the two are linked by `\\text{P} \\left(A '\\right) = 1 - \\text{P} \\left(A\\right)`.\n\n`\\text{P} \\left(X \\leq 4\\right)` is the probability that the quantity $X$ takes a value **less than or equal to** 4, so read the inequality sign carefully: \"less than 4\" would be `\\text{P} \\left(X < 4\\right)` and means something different.\n",
+   "spec_links": [
+    "spcpt_bxWFJwqxDSR3cBsC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q88kYQ5MvJVnFWyY",
+   "card_type": "keyword_definition",
+   "order": 4,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **independent events**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Independent events are events that **do not affect each other**, so the probability of one happening is unchanged by the outcome of the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "For two independent events:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( A \\text{and} B ) = \\text{P} ( A ) \\times \\text{P} ( B )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, rolling a 6 on a dice and flipping heads on a coin are independent, and the probability of both is $\\frac{1}{6} \\times \\frac{1}{2} = \\frac{1}{12}$."
+    }
+   ],
+   "front_md": "Define **independent events**.\n",
+   "back_md": "Independent events are events that **do not affect each other**, so the probability of one happening is unchanged by the outcome of the other.\n\nFor two independent events:\n\n$\\text{P} ( A \\text{and} B ) = \\text{P} ( A ) \\times \\text{P} ( B )$\n\nSo, **for example**, rolling a 6 on a dice and flipping heads on a coin are independent, and the probability of both is $\\frac{1}{6} \\times \\frac{1}{2} = \\frac{1}{12}$.\n",
+   "spec_links": [
+    "spcpt_xPq8dPj856nqvFQ3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_msdHnQbRQbXZC3yD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In probability, which arithmetic operation does **and** call for, and which does **or** call for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**And** calls for multiplication, and **or** calls for addition."
+    },
+    {
+     "type": "paragraph",
+     "md": "Independence is an *and* situation and uses $\\times$, while mutual exclusivity is an *or* situation and uses $+$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rephrasing a wordy question in these terms is usually the quickest way in: \"the probability of a prime number with heads\" becomes \"the probability of rolling a 2 **or** a 3 **or** a 5, **and** heads\"."
+    }
+   ],
+   "front_md": "In probability, which arithmetic operation does **and** call for, and which does **or** call for?\n",
+   "back_md": "**And** calls for multiplication, and **or** calls for addition.\n\nIndependence is an *and* situation and uses $\\times$, while mutual exclusivity is an *or* situation and uses $+$.\n\nRephrasing a wordy question in these terms is usually the quickest way in: \"the probability of a prime number with heads\" becomes \"the probability of rolling a 2 **or** a 3 **or** a 5, **and** heads\".\n",
+   "spec_links": [
+    "spcpt_xPq8dPj856nqvFQ3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2wYFr78ZZ9St5qD2",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **mutually exclusive events**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Mutually exclusive events are events that **cannot both happen at once**, so $\\text{P} ( A \\text{and} B ) = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "For two mutually exclusive events:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( A \\text{or} B ) = \\text{P} ( A ) + \\text{P} ( B )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, rolling a 5 and rolling a 6 on a single dice are mutually exclusive, and the probability of one or the other is $\\frac{1}{6} + \\frac{1}{6} = \\frac{1}{3}$."
+    }
+   ],
+   "front_md": "Define **mutually exclusive events**.\n",
+   "back_md": "Mutually exclusive events are events that **cannot both happen at once**, so $\\text{P} ( A \\text{and} B ) = 0$.\n\nFor two mutually exclusive events:\n\n$\\text{P} ( A \\text{or} B ) = \\text{P} ( A ) + \\text{P} ( B )$\n\nSo, **for example**, rolling a 5 and rolling a 6 on a single dice are mutually exclusive, and the probability of one or the other is $\\frac{1}{6} + \\frac{1}{6} = \\frac{1}{3}$.\n",
+   "spec_links": [
+    "spcpt_xPq8dPj856nqvFQ3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8H2jb26q73Dznrw6",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two events that are mutually exclusive can also be independent."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Mutually exclusive events can never be independent. If $A$ happens then $B$ cannot happen at all, so the outcome of $A$ has changed the probability of $B$ to zero, and independence requires it to be left untouched."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formulae show it too: mutual exclusivity gives $\\text{P} ( A \\text{and} B ) = 0$, while independence would need $\\text{P} ( A ) \\times \\text{P} ( B )$, which is not zero for events that can actually happen."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo events that are mutually exclusive can also be independent.\n",
+   "back_md": "**False.**\n\nMutually exclusive events can never be independent. If $A$ happens then $B$ cannot happen at all, so the outcome of $A$ has changed the probability of $B$ to zero, and independence requires it to be left untouched.\n\nThe formulae show it too: mutual exclusivity gives $\\text{P} ( A \\text{and} B ) = 0$, while independence would need $\\text{P} ( A ) \\times \\text{P} ( B )$, which is not zero for events that can actually happen.\n",
+   "spec_links": [
+    "spcpt_xPq8dPj856nqvFQ3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8kd297hZrqC6qnjm",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_dTT3JPyxSF4rJ53F",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a theoretical probability and one based on experimental results?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **theoretical** probability comes from the structure of the experiment itself, while an **experimental** one, also called a relative frequency, comes from what actually happened over a number of trials."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, the probability of each score on a fair dice is theoretical, but the probability of one football team beating another can only come from previous results."
+    },
+    {
+     "type": "paragraph",
+     "md": "Comparing the two is how you judge whether an experiment is **biased**: if the observed relative frequencies stay a long way from the theoretical values over many trials, that is evidence of bias."
+    }
+   ],
+   "front_md": "What is the difference between a theoretical probability and one based on experimental results?\n",
+   "back_md": "A **theoretical** probability comes from the structure of the experiment itself, while an **experimental** one, also called a relative frequency, comes from what actually happened over a number of trials.\n\nSo, **for example**, the probability of each score on a fair dice is theoretical, but the probability of one football team beating another can only come from previous results.\n\nComparing the two is how you judge whether an experiment is **biased**: if the observed relative frequencies stay a long way from the theoretical values over many trials, that is evidence of bias.\n",
+   "spec_links": [
+    "spcpt_bxWFJwqxDSR3cBsC"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pYG8Bx8PpTytpKxr",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_8jFJMzn3qpq5d7xs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a Venn diagram, what do the rectangle and the bubbles inside it represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **rectangle** represents the **sample space**, meaning every possible outcome of the experiment, and each **bubble** inside it represents one **event**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Always draw the rectangle. The bubbles show only the events you happen to be interested in, so without the rectangle there is nothing on the diagram representing the outcomes that fall outside all of them."
+    }
+   ],
+   "front_md": "On a Venn diagram, what do the rectangle and the bubbles inside it represent?\n",
+   "back_md": "The **rectangle** represents the **sample space**, meaning every possible outcome of the experiment, and each **bubble** inside it represents one **event**.\n\nAlways draw the rectangle. The bubbles show only the events you happen to be interested in, so without the rectangle there is nothing on the diagram representing the outcomes that fall outside all of them.\n",
+   "spec_links": [
+    "spcpt_YrhS9dcy42xvf5Qf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fTzGdnRcMKtCxNhh",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_8jFJMzn3qpq5d7xs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You can tell whether two events are independent by looking at the shape of a Venn diagram."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Independence cannot be seen in the shape of a Venn diagram at all: it depends on the numbers in the regions, and has to be checked by calculation."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Mutual exclusivity can** be seen at a glance, which is what makes this confusing."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two bubbles that do not overlap are mutually exclusive, because no outcome belongs to both."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou can tell whether two events are independent by looking at the shape of a Venn diagram.\n",
+   "back_md": "**False.**\n\nIndependence cannot be seen in the shape of a Venn diagram at all: it depends on the numbers in the regions, and has to be checked by calculation.\n\n**Mutual exclusivity can** be seen at a glance, which is what makes this confusing.\n\nTwo bubbles that do not overlap are mutually exclusive, because no outcome belongs to both.\n",
+   "spec_links": [
+    "spcpt_YrhS9dcy42xvf5Qf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_srg9Rq3brjRx6Dqw",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_8jFJMzn3qpq5d7xs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you use a Venn diagram to decide whether two events are independent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Read the three probabilities you need straight off the Venn diagram, then test whether the independence formula holds:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(A \\textrm{ }\\text{and}\\textrm{ } B\\right) = \\text{P} \\left(A\\right) \\times \\text{P} \\left(B\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The overlap gives `\\text{P} \\left(A \\textrm{ }\\text{and}\\textrm{ } B\\right)`, and `\\text{P} \\left(A\\right)` is everything inside bubble $A$, **including** the overlap."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the two sides are equal the events are independent, so an overlap of $\\frac{7}{40}$ against a product of $\\frac{9}{40}$ shows that they are not."
+    }
+   ],
+   "front_md": "How do you use a Venn diagram to decide whether two events are independent?\n",
+   "back_md": "Read the three probabilities you need straight off the Venn diagram, then test whether the independence formula holds:\n\n`\\text{P} \\left(A \\textrm{ }\\text{and}\\textrm{ } B\\right) = \\text{P} \\left(A\\right) \\times \\text{P} \\left(B\\right)`\n\nThe overlap gives `\\text{P} \\left(A \\textrm{ }\\text{and}\\textrm{ } B\\right)`, and `\\text{P} \\left(A\\right)` is everything inside bubble $A$, **including** the overlap.\n\nIf the two sides are equal the events are independent, so an overlap of $\\frac{7}{40}$ against a product of $\\frac{9}{40}$ shows that they are not.\n",
+   "spec_links": [
+    "spcpt_YrhS9dcy42xvf5Qf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3h272WT3sYBkbcxY",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_8jFJMzn3qpq5d7xs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the bubble for event $B$ lies entirely inside the bubble for event $A$, then whenever $A$ happens, $B$ happens."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Whenever $B$ happens $A$ happens, not the other way round. Every outcome in $B$ is also in $A$, but $A$ contains outcomes outside $B$ as well."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, if $A$ is \"rolls an even number\" and $B$ is \"rolls a 6\", then rolling a 6 guarantees an even number, but rolling an even number does not guarantee a 6."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf the bubble for event $B$ lies entirely inside the bubble for event $A$, then whenever $A$ happens, $B$ happens.\n",
+   "back_md": "**False.**\n\nWhenever $B$ happens $A$ happens, not the other way round. Every outcome in $B$ is also in $A$, but $A$ contains outcomes outside $B$ as well.\n\nSo, **for example**, if $A$ is \"rolls an even number\" and $B$ is \"rolls a 6\", then rolling a 6 guarantees an even number, but rolling an even number does not guarantee a 6.\n",
+   "spec_links": [
+    "spcpt_YrhS9dcy42xvf5Qf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9hfP636knm34GsDy",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_8jFJMzn3qpq5d7xs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When you fill in a Venn diagram for three events, why do you start from the centre (i.e. where the three events all overlap) and work outwards?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You start in the centre because the figures a question gives you usually **overlap each other**."
+    },
+    {
+     "type": "paragraph",
+     "md": "If you are told that 8 people own both a console $P$ and a console $X$, that 8 **includes** anyone who owns all three, so the region for $P$ and $X$ only is 8 minus the number owning all three."
+    },
+    {
+     "type": "paragraph",
+     "md": "Filling in the centre first means every later region can be found by subtracting from a figure you already have. Working the other way round leaves you guessing."
+    }
+   ],
+   "front_md": "When you fill in a Venn diagram for three events, why do you start from the centre (i.e. where the three events all overlap) and work outwards?\n",
+   "back_md": "You start in the centre because the figures a question gives you usually **overlap each other**.\n\nIf you are told that 8 people own both a console $P$ and a console $X$, that 8 **includes** anyone who owns all three, so the region for $P$ and $X$ only is 8 minus the number owning all three.\n\nFilling in the centre first means every later region can be found by subtracting from a figure you already have. Working the other way round leaves you guessing.\n",
+   "spec_links": [
+    "spcpt_YrhS9dcy42xvf5Qf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9YScCrbfgfrqFNTx",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_8jFJMzn3qpq5d7xs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two checks you should run on a finished Venn diagram:"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the diagram shows frequencies, they must add up to the `\\_\\_\\_\\_\\_\\_` number of people or items involved."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it shows probabilities, they must add up to `\\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed checks are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the diagram shows frequencies, they must add up to the **total** number of people or items involved."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it shows probabilities, they must add up to **1**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Run both every time. They cost a few seconds and they catch a region left blank or counted twice, which is the commonest way these questions go wrong."
+    }
+   ],
+   "front_md": "Complete the two checks you should run on a finished Venn diagram:\n\nIf the diagram shows frequencies, they must add up to the `\\_\\_\\_\\_\\_\\_` number of people or items involved.\n\nIf it shows probabilities, they must add up to `\\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "The completed checks are:\n\nIf the diagram shows frequencies, they must add up to the **total** number of people or items involved.\n\nIf it shows probabilities, they must add up to **1**.\n\nRun both every time. They cost a few seconds and they catch a region left blank or counted twice, which is the commonest way these questions go wrong.\n",
+   "spec_links": [
+    "spcpt_YrhS9dcy42xvf5Qf"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Qv8Yc4J3BHWTCCSv",
+   "card_type": "true_or_false",
+   "order": 0,
+   "set_id": "flst_Nr2dzvsySNhJbZQt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "On a tree diagram, the branches for the second event always carry the same probabilities whichever branch you arrived along."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "On a tree diagram the second set of branches can carry different probabilities depending on which branch came before, and that is precisely what tree diagrams are good at showing."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, if an item is drawn and **not replaced**, what is left to draw from depends on what was taken first, so the two sets of second branches differ."
+    },
+    {
+     "type": "paragraph",
+     "md": "When the probabilities are the same either way, the two events are independent."
+    }
+   ],
+   "front_md": "**True or False?**\n\nOn a tree diagram, the branches for the second event always carry the same probabilities whichever branch you arrived along.\n",
+   "back_md": "**False.**\n\nOn a tree diagram the second set of branches can carry different probabilities depending on which branch came before, and that is precisely what tree diagrams are good at showing.\n\nSo, **for example**, if an item is drawn and **not replaced**, what is left to draw from depends on what was taken first, so the two sets of second branches differ.\n\nWhen the probabilities are the same either way, the two events are independent.\n",
+   "spec_links": [
+    "spcpt_Q9VkVVBtSYX8n8rN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Fzd74DMV2h3pCMMq",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_Nr2dzvsySNhJbZQt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the probability of one complete path through a tree diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probability of a complete path is the **product of the probabilities labelling its branches**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where the second event depends on the first, the number on the second branch is already the probability of that event **given what has just happened**, so multiplying the labels is correct even though the two events are not independent."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, a path whose branches are labelled $0 . 8$, $0 . 4$ and $0 . 8$ has probability $0 . 8 \\times 0 . 4 \\times 0 . 8 = 0 . 256$."
+    }
+   ],
+   "front_md": "How do you find the probability of one complete path through a tree diagram?\n",
+   "back_md": "The probability of a complete path is the **product of the probabilities labelling its branches**.\n\nWhere the second event depends on the first, the number on the second branch is already the probability of that event **given what has just happened**, so multiplying the labels is correct even though the two events are not independent.\n\nSo, **for example**, a path whose branches are labelled $0 . 8$, $0 . 4$ and $0 . 8$ has probability $0 . 8 \\times 0 . 4 \\times 0 . 8 = 0 . 256$.\n",
+   "spec_links": [
+    "spcpt_Q9VkVVBtSYX8n8rN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RzJgvhy7qTHJj8Pz",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_Nr2dzvsySNhJbZQt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every branch of a tree diagram must lead on to the same number of later branches."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A branch stops wherever the experiment stops, so some branches lead on and others do not."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, in a test that is retaken until it is passed, the **fail** branch leads on to another attempt but the **pass** branch does not, because there is nothing left to happen."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery branch of a tree diagram must lead on to the same number of later branches.\n",
+   "back_md": "**False.**\n\nA branch stops wherever the experiment stops, so some branches lead on and others do not.\n\nSo, **for example**, in a test that is retaken until it is passed, the **fail** branch leads on to another attempt but the **pass** branch does not, because there is nothing left to happen.\n",
+   "spec_links": [
+    "spcpt_Q9VkVVBtSYX8n8rN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7r7hJ2hy9TvcSr5b",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Nr2dzvsySNhJbZQt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are you allowed to add the probabilities of several complete paths through a tree diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The complete paths through a tree diagram are **mutually exclusive**, so adding their probabilities never counts an outcome twice: the experiment ends up on exactly one path."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why a question asking for several different final outcomes becomes a sum."
+    },
+    {
+     "type": "paragraph",
+     "md": "Work out each path by multiplying along it, then add the paths you want."
+    }
+   ],
+   "front_md": "Why are you allowed to add the probabilities of several complete paths through a tree diagram?\n",
+   "back_md": "The complete paths through a tree diagram are **mutually exclusive**, so adding their probabilities never counts an outcome twice: the experiment ends up on exactly one path.\n\nThat is why a question asking for several different final outcomes becomes a sum.\n\nWork out each path by multiplying along it, then add the paths you want.\n",
+   "spec_links": [
+    "spcpt_Q9VkVVBtSYX8n8rN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hwZqRT6WC32twVyr",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_Nr2dzvsySNhJbZQt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A contestant has three attempts to hit a target, and wins by hitting it at least once. Rather than adding the three winning paths, complete the shortcut:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(\\text{wins}) = 1 - \\text{P}(\\_\\_\\_\\_\\_\\_)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed shortcut is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( \\text{wins} ) = 1 - \\text{P} ( \\text{misses all three} )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "There are three separate paths that win and only one that loses, so the subtraction replaces three multiplications and an addition with a single calculation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Look for this whenever a question says **at least one**, because that phrasing almost always means the losing outcome is a single path."
+    }
+   ],
+   "front_md": "A contestant has three attempts to hit a target, and wins by hitting it at least once. Rather than adding the three winning paths, complete the shortcut:\n\n`\\text{P}(\\text{wins}) = 1 - \\text{P}(\\_\\_\\_\\_\\_\\_)`\n",
+   "back_md": "The completed shortcut is:\n\n$\\text{P} ( \\text{wins} ) = 1 - \\text{P} ( \\text{misses all three} )$\n\nThere are three separate paths that win and only one that loses, so the subtraction replaces three multiplications and an addition with a single calculation.\n\nLook for this whenever a question says **at least one**, because that phrasing almost always means the losing outcome is a single path.\n",
+   "spec_links": [
+    "spcpt_Q9VkVVBtSYX8n8rN"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_XfDqn794zvTXBqj3",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Nr2dzvsySNhJbZQt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two checks are built into every tree diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probabilities on each **pair of branches** must add up to 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probabilities of all the **final outcomes** must add up to 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both are worth running, because they catch different mistakes: the first finds a branch labelled wrongly, and the second finds a path left out or multiplied wrongly."
+    }
+   ],
+   "front_md": "What two checks are built into every tree diagram?\n",
+   "back_md": "The probabilities on each **pair of branches** must add up to 1.\n\nThe probabilities of all the **final outcomes** must add up to 1.\n\nBoth are worth running, because they catch different mistakes: the first finds a branch labelled wrongly, and the second finds a path left out or multiplied wrongly.\n",
+   "spec_links": [
+    "spcpt_Q9VkVVBtSYX8n8rN"
+   ],
+   "flags": []
+  }
+ ]
+}

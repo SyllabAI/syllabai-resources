@@ -1,0 +1,538 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:28Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/parametric-equations/further-parametric-equations/",
+  "section_slug": "parametric-equations",
+  "section_name": "Parametric Equations",
+  "topic_slug": "further-parametric-equations",
+  "title": "Further Parametric Equations",
+  "order": 1
+ },
+ "card_count": 16,
+ "card_types": {
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 10,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 16,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_H9kmhK4w4vfmtVyH",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for differentiating parametric equations:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{d} y}{\\text{d} t} \\div \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\div \\frac{\\text{d}x}{\\text{d}t}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "It follows from the chain rule with the reciprocal property, since $\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\times \\frac{\\text{d}t}{\\text{d}x}$."
+    }
+   ],
+   "front_md": "Complete the rule for differentiating parametric equations:\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{d} y}{\\text{d} t} \\div \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\div \\frac{\\text{d}x}{\\text{d}t}$\n\nIt follows from the chain rule with the reciprocal property, since $\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}t} \\times \\frac{\\text{d}t}{\\text{d}x}$.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Xc2nSVGw4HDKmrNq",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it acceptable for $\\frac{\\text{d}y}{\\text{d}x}$ to come out in terms of $t$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because every point on the curve is identified by its parameter value rather than by its $x$ coordinate."
+    },
+    {
+     "type": "paragraph",
+     "md": "To get a numerical gradient you find the value of $t$ at the point you want and substitute that, which is one step earlier than in ordinary differentiation."
+    }
+   ],
+   "front_md": "Why is it acceptable for $\\frac{\\text{d}y}{\\text{d}x}$ to come out in terms of $t$?\n",
+   "back_md": "Because every point on the curve is identified by its parameter value rather than by its $x$ coordinate.\n\nTo get a numerical gradient you find the value of $t$ at the point you want and substitute that, which is one step earlier than in ordinary differentiation.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dVNb7dJHRtcxkwBN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the gradient of a parametric curve at a given point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate both equations to get $\\frac{\\text{d}y}{\\text{d}t}$ and $\\frac{\\text{d}x}{\\text{d}t}$, then divide to get $\\frac{\\text{d}y}{\\text{d}x}$ in terms of $t$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Find the value of $t$ at that point and substitute it in."
+    }
+   ],
+   "front_md": "How do you find the gradient of a parametric curve at a given point?\n",
+   "back_md": "Differentiate both equations to get $\\frac{\\text{d}y}{\\text{d}t}$ and $\\frac{\\text{d}x}{\\text{d}t}$, then divide to get $\\frac{\\text{d}y}{\\text{d}x}$ in terms of $t$.\n\nFind the value of $t$ at that point and substitute it in.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r7zqqdYy9sjrcmcg",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What condition gives a stationary point on a parametric curve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = 0$, which happens exactly when $\\frac{\\text{d}y}{\\text{d}t} = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the numerator of the quotient that has to vanish, so it is the $y$ equation you differentiate and set to zero."
+    }
+   ],
+   "front_md": "What condition gives a stationary point on a parametric curve?\n",
+   "back_md": "$\\frac{\\text{d}y}{\\text{d}x} = 0$, which happens exactly when $\\frac{\\text{d}y}{\\text{d}t} = 0$.\n\nIt is the numerator of the quotient that has to vanish, so it is the $y$ equation you differentiate and set to zero.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qdX5B6mBMkq5t9qs",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens where $\\frac{\\text{d}x}{\\text{d}t} = 0$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The gradient $\\frac{\\text{d}y}{\\text{d}x}$ is **undefined**, since the quotient would be dividing by zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "Geometrically the tangent there is **vertical**, which is something an ordinary `y = \\text{f} \\left(x\\right)` curve can never show."
+    }
+   ],
+   "front_md": "What happens where $\\frac{\\text{d}x}{\\text{d}t} = 0$?\n",
+   "back_md": "The gradient $\\frac{\\text{d}y}{\\text{d}x}$ is **undefined**, since the quotient would be dividing by zero.\n\nGeometrically the tangent there is **vertical**, which is something an ordinary `y = \\text{f} \\left(x\\right)` curve can never show.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BChSN5mBJGzsWfs3",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_stk89sTd6fKtbRvS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To find $\\frac{\\text{d}y}{\\text{d}x}$ you must first eliminate the parameter."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating each equation with respect to $t$ and dividing is quicker, and it still works when the parameter cannot be eliminated neatly."
+    },
+    {
+     "type": "paragraph",
+     "md": "Eliminating first is extra work that usually makes the differentiation harder rather than easier."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo find $\\frac{\\text{d}y}{\\text{d}x}$ you must first eliminate the parameter.\n",
+   "back_md": "**False.**\n\nDifferentiating each equation with respect to $t$ and dividing is quicker, and it still works when the parameter cannot be eliminated neatly.\n\nEliminating first is extra work that usually makes the differentiation harder rather than easier.\n",
+   "spec_links": [
+    "spcpt_YXNKYW4W32K6HFn5"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7JtqH43R8Qmz89wS",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_nWYVfmCysSsPRC33",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for the area under a parametrically defined curve:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int y \\text{d} x = \\int y \\_\\_\\_\\_\\_\\_ \\text{d} t`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int y \\text{d} x = \\int y \\frac{\\text{d} x}{\\text{d} t} \\text{d} t`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $\\text{d} x$ is replaced by $\\frac{\\text{d}x}{\\text{d}t} \\text{d} t$, and $y$ has to be written in terms of $t$ as well."
+    }
+   ],
+   "front_md": "Complete the rule for the area under a parametrically defined curve:\n\n`\\int y \\text{d} x = \\int y \\_\\_\\_\\_\\_\\_ \\text{d} t`\n",
+   "back_md": "The completed rule is:\n\n`\\int y \\text{d} x = \\int y \\frac{\\text{d} x}{\\text{d} t} \\text{d} t`\n\nThe $\\text{d} x$ is replaced by $\\frac{\\text{d}x}{\\text{d}t} \\text{d} t$, and $y$ has to be written in terms of $t$ as well.\n",
+   "spec_links": [
+    "spcpt_WPr865MC2MCwFhys"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_t4WTYydCQCBqhmBc",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_nWYVfmCysSsPRC33",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the key thing to change when integrating parametrically?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **limits**, which must be converted from $x$ values into the matching values of the parameter."
+    },
+    {
+     "type": "paragraph",
+     "md": "Leaving $x$ limits on an integral that is now with respect to $t$ is the commonest error in the topic."
+    }
+   ],
+   "front_md": "What is the key thing to change when integrating parametrically?\n",
+   "back_md": "The **limits**, which must be converted from $x$ values into the matching values of the parameter.\n\nLeaving $x$ limits on an integral that is now with respect to $t$ is the commonest error in the topic.\n",
+   "spec_links": [
+    "spcpt_WPr865MC2MCwFhys"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mtKPYrCJR79Cg5w7",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_nWYVfmCysSsPRC33",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An area is required from $x = 0$ to $x = 4$, and $x = t^{2}$. What are the limits in $t$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$t = 0$ and $t = 2$, found by solving $t^{2} = 0$ and $t^{2} = 4$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where solving gives two possible values, the stated range of the parameter decides which one belongs to the region you want."
+    }
+   ],
+   "front_md": "An area is required from $x = 0$ to $x = 4$, and $x = t^{2}$. What are the limits in $t$?\n",
+   "back_md": "$t = 0$ and $t = 2$, found by solving $t^{2} = 0$ and $t^{2} = 4$.\n\nWhere solving gives two possible values, the stated range of the parameter decides which one belongs to the region you want.\n",
+   "spec_links": [
+    "spcpt_WPr865MC2MCwFhys"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kTCKhv3vHHYnqYcC",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_nWYVfmCysSsPRC33",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must $y$ be rewritten in terms of $t$ before integrating?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the integral is now with respect to $t$, so nothing in it may still be written in terms of $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is the same requirement as in any substitution: every part of the integral changes together or none of it does."
+    }
+   ],
+   "front_md": "Why must $y$ be rewritten in terms of $t$ before integrating?\n",
+   "back_md": "Because the integral is now with respect to $t$, so nothing in it may still be written in terms of $x$.\n\nThat is the same requirement as in any substitution: every part of the integral changes together or none of it does.\n",
+   "spec_links": [
+    "spcpt_WPr865MC2MCwFhys"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w3rH7wtW93Sxm3NC",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_nWYVfmCysSsPRC33",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Parametric integration is a substitution in disguise."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The parameter plays exactly the part that $u$ plays in an ordinary substitution: replace $\\text{d} x$, rewrite the integrand, convert the limits."
+    },
+    {
+     "type": "paragraph",
+     "md": "Seeing that means there is no separate method to learn here, only a familiar one to recognise."
+    }
+   ],
+   "front_md": "**True or False?**\n\nParametric integration is a substitution in disguise.\n",
+   "back_md": "**True.**\n\nThe parameter plays exactly the part that $u$ plays in an ordinary substitution: replace $\\text{d} x$, rewrite the integrand, convert the limits.\n\nSeeing that means there is no separate method to learn here, only a familiar one to recognise.\n",
+   "spec_links": [
+    "spcpt_WPr865MC2MCwFhys"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_v7N7vBMV9T4hcjrQ",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_vKq8ZWY8gJZVmKCc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can a volume of revolution not always be found from $y$ written in terms of $x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the curve may be given parametrically, as `x = \\text{f} \\left(t\\right)` and `y = \\text{g} \\left(t\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Depending on those two functions, eliminating $t$ to get $y$ in terms of $x$ may be inconvenient or simply impossible."
+    }
+   ],
+   "front_md": "Why can a volume of revolution not always be found from $y$ written in terms of $x$?\n",
+   "back_md": "Because the curve may be given parametrically, as `x = \\text{f} \\left(t\\right)` and `y = \\text{g} \\left(t\\right)`.\n\nDepending on those two functions, eliminating $t$ to get $y$ in terms of $x$ may be inconvenient or simply impossible.\n",
+   "spec_links": [
+    "spcpt_xrD7jwQVsVdCqgQM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Wn5rrwp9246JNJMr",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_vKq8ZWY8gJZVmKCc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the volume of revolution for a curve given parametrically:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{t_{1}}^{t_{2}} \\left[\\text{g} \\left(t\\right)\\right]^{2} \\_\\_\\_\\_\\_\\_ \\text{d} t`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`V = \\pi \\int_{t_{1}}^{t_{2}} \\left[\\text{g} \\left(t\\right)\\right]^{2} \\text{f} ' \\left(t\\right) \\text{d} t`"
+    },
+    {
+     "type": "paragraph",
+     "md": "That factor is the derivative of $x$ with respect to $t$, which is what allows the whole integral to be taken over $t$."
+    }
+   ],
+   "front_md": "Complete the volume of revolution for a curve given parametrically:\n\n`V = \\pi \\int_{t_{1}}^{t_{2}} \\left[\\text{g} \\left(t\\right)\\right]^{2} \\_\\_\\_\\_\\_\\_ \\text{d} t`\n",
+   "back_md": "The completed formula is:\n\n`V = \\pi \\int_{t_{1}}^{t_{2}} \\left[\\text{g} \\left(t\\right)\\right]^{2} \\text{f} ' \\left(t\\right) \\text{d} t`\n\nThat factor is the derivative of $x$ with respect to $t$, which is what allows the whole integral to be taken over $t$.\n",
+   "spec_links": [
+    "spcpt_xrD7jwQVsVdCqgQM"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_DCg7dpkRnKVGhmKK",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_vKq8ZWY8gJZVmKCc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which part of a parametric volume should you work out on its own first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\left[\\text{g} \\left(t\\right)\\right]^{2}`, the square of $y$ written in terms of $t$."
+    },
+    {
+     "type": "paragraph",
+     "md": "With a parameter, a derivative and a squaring all in play at once, dealing with the squaring separately is what keeps the assembled integral readable."
+    }
+   ],
+   "front_md": "Which part of a parametric volume should you work out on its own first?\n",
+   "back_md": "`\\left[\\text{g} \\left(t\\right)\\right]^{2}`, the square of $y$ written in terms of $t$.\n\nWith a parameter, a derivative and a squaring all in play at once, dealing with the squaring separately is what keeps the assembled integral readable.\n",
+   "spec_links": [
+    "spcpt_xrD7jwQVsVdCqgQM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_txYw6MYZx9Nk2bJj",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_vKq8ZWY8gJZVmKCc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The limits of a parametric volume of revolution are values of $x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Once the integral is with respect to $t$, its limits must be values of $t$ too, found by solving `x_{1} = \\text{f} \\left(t_{1}\\right)` and `x_{2} = \\text{f} \\left(t_{2}\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "A volume integral is no different from any other in that respect."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe limits of a parametric volume of revolution are values of $x$.\n",
+   "back_md": "**False.**\n\nOnce the integral is with respect to $t$, its limits must be values of $t$ too, found by solving `x_{1} = \\text{f} \\left(t_{1}\\right)` and `x_{2} = \\text{f} \\left(t_{2}\\right)`.\n\nA volume integral is no different from any other in that respect.\n",
+   "spec_links": [
+    "spcpt_xrD7jwQVsVdCqgQM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gKXxGtN62T7GWdHf",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_vKq8ZWY8gJZVmKCc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the parametric volume formula relate to `V = \\pi \\int y^{2} \\text{d} x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is that same formula with every part rewritten in terms of $t$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Nothing new is being integrated; only the variable the integration is carried out over has changed."
+    }
+   ],
+   "front_md": "How does the parametric volume formula relate to `V = \\pi \\int y^{2} \\text{d} x`?\n",
+   "back_md": "It is that same formula with every part rewritten in terms of $t$.\n\nNothing new is being integrated; only the variable the integration is carried out over has changed.\n",
+   "spec_links": [
+    "spcpt_xrD7jwQVsVdCqgQM"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,738 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:27:27Z",
+ "course_slug": "igcse-further-maths-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/flashcards/series/binomial-series/",
+  "section_slug": "series",
+  "section_name": "Series",
+  "topic_slug": "binomial-series",
+  "title": "Binomial Series",
+  "order": 1
+ },
+ "card_count": 23,
+ "card_types": {
+  "question_and_answer": 17,
+  "fill_in_the_blanks": 3,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 23,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_s684ynCQ79gD4G6t",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the binomial expansion of `\\left(a + b\\right)^{n}` for a positive integer $n$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Every term has the form `\\binom{n}{r} a^{n - r} b^{r}`, with $r$ running from $0$ up to $n$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(a + b\\right)^{n} = a^{n} + \\binom{n}{1} a^{n - 1} b + \\ldots + \\binom{n}{r} a^{n - r} b^{r} + \\ldots + b^{n}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The powers of $a$ and $b$ in each term always add up to $n$."
+    }
+   ],
+   "front_md": "What is the binomial expansion of `\\left(a + b\\right)^{n}` for a positive integer $n$?\n",
+   "back_md": "Every term has the form `\\binom{n}{r} a^{n - r} b^{r}`, with $r$ running from $0$ up to $n$:\n\n`\\left(a + b\\right)^{n} = a^{n} + \\binom{n}{1} a^{n - 1} b + \\ldots + \\binom{n}{r} a^{n - r} b^{r} + \\ldots + b^{n}`\n\nThe powers of $a$ and $b$ in each term always add up to $n$.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_djHyWTHGypFhbhyT",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the binomial coefficient:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\binom{n}{r} = \\frac{n !}{\\_\\_\\_\\_\\_\\_ \\left(n - \\_\\_\\_\\_\\_\\_\\right) !}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\binom{n}{r} = \\frac{n !}{r ! \\left(n - r\\right) !}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is also written `{}^{n}\\text{C}_{r}`, and $n !$ means $1 \\times 2 \\times 3 \\times \\dots \\times n$."
+    }
+   ],
+   "front_md": "Complete the formula for the binomial coefficient:\n\n`\\binom{n}{r} = \\frac{n !}{\\_\\_\\_\\_\\_\\_ \\left(n - \\_\\_\\_\\_\\_\\_\\right) !}`\n",
+   "back_md": "The completed formula is:\n\n`\\binom{n}{r} = \\frac{n !}{r ! \\left(n - r\\right) !}`\n\nIt is also written `{}^{n}\\text{C}_{r}`, and $n !$ means $1 \\times 2 \\times 3 \\times \\dots \\times n$.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_YV3tys3d828frGdp",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many terms does the full expansion of `\\left(a + b\\right)^{n}` have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Exactly $n + 1$ of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The counter $r$ runs from $0$ to $n$ inclusive, and that is $n + 1$ different values."
+    }
+   ],
+   "front_md": "How many terms does the full expansion of `\\left(a + b\\right)^{n}` have?\n",
+   "back_md": "Exactly $n + 1$ of them.\n\nThe counter $r$ runs from $0$ to $n$ inclusive, and that is $n + 1$ different values.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rjJYMRQKvrwjDwZQ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does Pascal's triangle give the binomial coefficients?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each row begins and ends with $1$, and every other entry is the **sum of the two above it**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Counting the top row as $n = 0$, row $n$ lists `\\binom{n}{0}` through to `\\binom{n}{n}`."
+    }
+   ],
+   "front_md": "How does Pascal's triangle give the binomial coefficients?\n",
+   "back_md": "Each row begins and ends with $1$, and every other entry is the **sum of the two above it**.\n\nCounting the top row as $n = 0$, row $n$ lists `\\binom{n}{0}` through to `\\binom{n}{n}`.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XP2X75jGwy89J6Sk",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The coefficients in the expansion of `\\left(a + b\\right)^{n}` read the same forwards and backwards."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\binom{n}{r}` and `\\binom{n}{n - r}` are always equal, which is why every row of Pascal's triangle is symmetric."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `\\left(a + b\\right)^{5}` has coefficients $1 , 5 , 10 , 10 , 5 , 1$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe coefficients in the expansion of `\\left(a + b\\right)^{n}` read the same forwards and backwards.\n",
+   "back_md": "**True.**\n\n`\\binom{n}{r}` and `\\binom{n}{n - r}` are always equal, which is why every row of Pascal's triangle is symmetric.\n\nSo `\\left(a + b\\right)^{5}` has coefficients $1 , 5 , 10 , 10 , 5 , 1$.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rbC4mzwQ62vPZ35J",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `\\left(p + q x\\right)^{n}`, which term comes first in ascending powers of $x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The constant term $p^{n}$, since it contains no $x$ at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "For **descending** powers you start from the other end instead, with `\\left(q x\\right)^{n}`."
+    }
+   ],
+   "front_md": "For `\\left(p + q x\\right)^{n}`, which term comes first in ascending powers of $x$?\n",
+   "back_md": "The constant term $p^{n}$, since it contains no $x$ at all.\n\nFor **descending** powers you start from the other end instead, with `\\left(q x\\right)^{n}`.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4FPwgWYqGkfpR9ZB",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find just the $x^{2}$ coefficient of `\\left(p + q x\\right)^{n}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use the general term `\\binom{n}{r} a^{n - r} b^{r}` with $a = p$, $b = q x$ and $r = 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Choose $r$ by asking which value makes $b^{r}$ produce the power of $x$ you want, so `\\left(p + q x^{2}\\right)^{n}` would need $r = 1$."
+    }
+   ],
+   "front_md": "How do you find just the $x^{2}$ coefficient of `\\left(p + q x\\right)^{n}`?\n",
+   "back_md": "Use the general term `\\binom{n}{r} a^{n - r} b^{r}` with $a = p$, $b = q x$ and $r = 2$.\n\nChoose $r$ by asking which value makes $b^{r}$ produce the power of $x$ you want, so `\\left(p + q x^{2}\\right)^{n}` would need $r = 1$.\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DNjxc7kFsSshjrfK",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_2Rr4bTgHXj25W38t",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the first three terms of `\\left(3 - 2 x\\right)^{5}` in ascending powers of $x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take $a = 3$, $b = - 2 x$ and $n = 5$, then work through $r = 0$, $1$ and $2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `243 + 5\\left(81\\right)\\left(- 2 x\\right) + 10\\left(27\\right)\\left(4 x^{2}\\right) = 243 - 810 x + 1080 x^{2} + \\ldots`"
+    }
+   ],
+   "front_md": "Find the first three terms of `\\left(3 - 2 x\\right)^{5}` in ascending powers of $x$.\n",
+   "back_md": "Take $a = 3$, $b = - 2 x$ and $n = 5$, then work through $r = 0$, $1$ and $2$.\n\nThat gives `243 + 5\\left(81\\right)\\left(- 2 x\\right) + 10\\left(27\\right)\\left(4 x^{2}\\right) = 243 - 810 x + 1080 x^{2} + \\ldots`\n",
+   "spec_links": [
+    "spcpt_3hw656HdGSpfGzT2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KrGKmKvJbb7sWc3h",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the general binomial expansion allow that the ordinary one does not?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It works for **any rational** $n$, so $n$ may be negative or a fraction rather than only a positive integer."
+    },
+    {
+     "type": "paragraph",
+     "md": "The price is that the series then runs on for ever instead of stopping, and holds only for certain values of $x$."
+    }
+   ],
+   "front_md": "What does the general binomial expansion allow that the ordinary one does not?\n",
+   "back_md": "It works for **any rational** $n$, so $n$ may be negative or a fraction rather than only a positive integer.\n\nThe price is that the series then runs on for ever instead of stopping, and holds only for certain values of $x$.\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gv2nFhDGVPTgx6yK",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For $n$ rational, complete the condition under which `\\left(1 + x\\right)^{n}` expands as an infinite series:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left| x \\right| < \\_\\_\\_\\_\\_\\_ \\text{, that is } \\_\\_\\_\\_\\_\\_ < x < 1`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed condition is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left| x \\right| < 1 \\text{, that is } - 1 < x < 1`"
+    },
+    {
+     "type": "paragraph",
+     "md": "This is called the **interval of convergence**, and outside it the series does not settle down to anything at all."
+    }
+   ],
+   "front_md": "For $n$ rational, complete the condition under which `\\left(1 + x\\right)^{n}` expands as an infinite series:\n\n`\\left| x \\right| < \\_\\_\\_\\_\\_\\_ \\text{, that is } \\_\\_\\_\\_\\_\\_ < x < 1`\n",
+   "back_md": "The completed condition is:\n\n`\\left| x \\right| < 1 \\text{, that is } - 1 < x < 1`\n\nThis is called the **interval of convergence**, and outside it the series does not settle down to anything at all.\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_McMfdYWMc6czjjfN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you expand `\\left(p + q x\\right)^{n}` when the formula needs a leading $1$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Factor out $p$ first, so that `\\left(p + q x\\right)^{n} = p^{n}\\left(1 + \\frac{q}{p} x\\right)^{n}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Expand the bracket with $\\frac{q}{p} x$ in place of $x$, then remember to multiply everything by $p^{n}$ at the end."
+    }
+   ],
+   "front_md": "How do you expand `\\left(p + q x\\right)^{n}` when the formula needs a leading $1$?\n",
+   "back_md": "Factor out $p$ first, so that `\\left(p + q x\\right)^{n} = p^{n}\\left(1 + \\frac{q}{p} x\\right)^{n}`.\n\nExpand the bracket with $\\frac{q}{p} x$ in place of $x$, then remember to multiply everything by $p^{n}$ at the end.\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qdj98zC7C5wHq2Jw",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does factoring out $p$ change the interval of convergence?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The condition `\\left| x \\right| < 1` applies to whatever replaced $x$, so it becomes `\\left| \\frac{q}{p} x \\right| < 1`."
+    },
+    {
+     "type": "paragraph",
+     "md": "For `\\left(1 - \\frac{x}{3}\\right)^{- \\frac{1}{2}}` that works out as `\\left| x \\right| < 3`, so the interval is $- 3 < x < 3$."
+    }
+   ],
+   "front_md": "How does factoring out $p$ change the interval of convergence?\n",
+   "back_md": "The condition `\\left| x \\right| < 1` applies to whatever replaced $x$, so it becomes `\\left| \\frac{q}{p} x \\right| < 1`.\n\nFor `\\left(1 - \\frac{x}{3}\\right)^{- \\frac{1}{2}}` that works out as `\\left| x \\right| < 3`, so the interval is $- 3 < x < 3$.\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H73r9sb8XC5JY3TK",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you rewrite $\\frac{1}{\\sqrt{9-3x}}$ so the binomial series can be used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use the laws of indices to get `\\left(9 - 3 x\\right)^{- \\frac{1}{2}}`, a bracket raised to a rational power."
+    },
+    {
+     "type": "paragraph",
+     "md": "A square root is a power of $\\frac{1}{2}$, and sitting in a denominator makes that power **negative**."
+    }
+   ],
+   "front_md": "How do you rewrite $\\frac{1}{\\sqrt{9-3x}}$ so the binomial series can be used?\n",
+   "back_md": "Use the laws of indices to get `\\left(9 - 3 x\\right)^{- \\frac{1}{2}}`, a bracket raised to a rational power.\n\nA square root is a power of $\\frac{1}{2}$, and sitting in a denominator makes that power **negative**.\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Pb2cFjxxpjz2dd66",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Expand $\\frac{1}{\\sqrt{9-3x}}$ up to the term in $x^{2}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write it as `\\frac{1}{3}\\left(1 - \\frac{x}{3}\\right)^{- \\frac{1}{2}}`, then expand the bracket using $n = - \\frac{1}{2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `\\frac{1}{3}\\left(1 + \\frac{1}{6} x + \\frac{1}{24} x^{2} + \\ldots\\right) = \\frac{1}{3} + \\frac{1}{18} x + \\frac{1}{72} x^{2} + \\ldots`"
+    }
+   ],
+   "front_md": "Expand $\\frac{1}{\\sqrt{9-3x}}$ up to the term in $x^{2}$.\n",
+   "back_md": "Write it as `\\frac{1}{3}\\left(1 - \\frac{x}{3}\\right)^{- \\frac{1}{2}}`, then expand the bracket using $n = - \\frac{1}{2}$.\n\nThat gives `\\frac{1}{3}\\left(1 + \\frac{1}{6} x + \\frac{1}{24} x^{2} + \\ldots\\right) = \\frac{1}{3} + \\frac{1}{18} x + \\frac{1}{72} x^{2} + \\ldots`\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hZxqqFZJx2YvtHhq",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_4NS3srqDprspRYvx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An infinite binomial expansion is only ever an approximation to the function."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Inside the interval of convergence the **complete** infinite series is exactly equal to the function it came from."
+    },
+    {
+     "type": "paragraph",
+     "md": "What makes an approximation is stopping after a few terms, which is what you actually do in practice."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn infinite binomial expansion is only ever an approximation to the function.\n",
+   "back_md": "**False.**\n\nInside the interval of convergence the **complete** infinite series is exactly equal to the function it came from.\n\nWhat makes an approximation is stopping after a few terms, which is what you actually do in practice.\n",
+   "spec_links": [
+    "spcpt_SgDCdWKMBvfBRt2R"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9HZgpRZDyCPPwhDH",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find a series expansion for $\\frac{1+x}{3+2x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite it as a **product**, `\\left(1 + x\\right)\\left(3 + 2 x\\right)^{- 1}`, and expand the second bracket."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying that expansion by `\\left(1 + x\\right)` and collecting terms gives $\\frac{1}{3} + \\frac{1}{9} x - \\frac{2}{27} x^{2} + \\dots$"
+    }
+   ],
+   "front_md": "How do you find a series expansion for $\\frac{1+x}{3+2x}$?\n",
+   "back_md": "Rewrite it as a **product**, `\\left(1 + x\\right)\\left(3 + 2 x\\right)^{- 1}`, and expand the second bracket.\n\nMultiplying that expansion by `\\left(1 + x\\right)` and collecting terms gives $\\frac{1}{3} + \\frac{1}{9} x - \\frac{2}{27} x^{2} + \\dots$\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6FvYdhQVCBRKhYyy",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If you expand `\\left(3 + 2 x\\right)^{- 1}` as far as $x^{3}$, how far is the product valid?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only as far as the $x^{3}$ term."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying out does produce an $x^{4}$ term, but other $x^{4}$ terms were never found, so it is **incomplete** and has to be discarded."
+    }
+   ],
+   "front_md": "If you expand `\\left(3 + 2 x\\right)^{- 1}` as far as $x^{3}$, how far is the product valid?\n",
+   "back_md": "Only as far as the $x^{3}$ term.\n\nMultiplying out does produce an $x^{4}$ term, but other $x^{4}$ terms were never found, so it is **incomplete** and has to be discarded.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JnQ5hSKvS8nCgQcN",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you choose the value of $x$ when using an expansion to estimate a number?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set the expression that was expanded equal to the number you want, then solve for $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "To estimate $\\frac{1}{\\sqrt{10}}$ from an expansion of $\\frac{1}{\\sqrt{9-3x}}$, solve $9 - 3 x = 10$ to get $x = - \\frac{1}{3}$."
+    }
+   ],
+   "front_md": "How do you choose the value of $x$ when using an expansion to estimate a number?\n",
+   "back_md": "Set the expression that was expanded equal to the number you want, then solve for $x$.\n\nTo estimate $\\frac{1}{\\sqrt{10}}$ from an expansion of $\\frac{1}{\\sqrt{9-3x}}$, solve $9 - 3 x = 10$ to get $x = - \\frac{1}{3}$.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xSTMvXYPQcBT4djn",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What makes a binomial approximation more accurate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using **more terms**, and having $x$ **closer to zero**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Higher powers of a small $x$ are tiny, so the first three or four terms already carry nearly all of the value."
+    }
+   ],
+   "front_md": "What makes a binomial approximation more accurate?\n",
+   "back_md": "Using **more terms**, and having $x$ **closer to zero**.\n\nHigher powers of a small $x$ are tiny, so the first three or four terms already carry nearly all of the value.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FVWyvBGXnCqpMqgS",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must you check before substituting a value into a binomial expansion?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That the value lies inside the **interval of convergence** for that particular expansion."
+    },
+    {
+     "type": "paragraph",
+     "md": "Outside it the series does not converge at all, so the approximation is worthless however many terms you take."
+    }
+   ],
+   "front_md": "What must you check before substituting a value into a binomial expansion?\n",
+   "back_md": "That the value lies inside the **interval of convergence** for that particular expansion.\n\nOutside it the series does not converge at all, so the approximation is worthless however many terms you take.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mCjnj5d7hR4x8SgW",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the percentage error formula, where $v_{E}$ is the exact value and $v_{A}$ the approximation:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{percentage error} = \\left(\\frac{\\_\\_\\_\\_\\_\\_ - v_{A}}{\\_\\_\\_\\_\\_\\_}\\right) \\times 100`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{percentage error} = \\left(\\frac{v_{E} - v_{A}}{v_{E}}\\right) \\times 100`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **exact** value has to be the one underneath, and the answer is normally given as a positive number."
+    }
+   ],
+   "front_md": "Complete the percentage error formula, where $v_{E}$ is the exact value and $v_{A}$ the approximation:\n\n`\\text{percentage error} = \\left(\\frac{\\_\\_\\_\\_\\_\\_ - v_{A}}{\\_\\_\\_\\_\\_\\_}\\right) \\times 100`\n",
+   "back_md": "The completed formula is:\n\n`\\text{percentage error} = \\left(\\frac{v_{E} - v_{A}}{v_{E}}\\right) \\times 100`\n\nThe **exact** value has to be the one underneath, and the answer is normally given as a positive number.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_m9gzQ6P8zV5MQCRc",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is it valid to differentiate or integrate a binomial expansion?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the expansion and the function it came from are the **same thing** written two ways, so what is true of one is true of the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "It turns an awkward function into simple **powers of** $x$, which can be differentiated or integrated term by term."
+    }
+   ],
+   "front_md": "Why is it valid to differentiate or integrate a binomial expansion?\n",
+   "back_md": "Because the expansion and the function it came from are the **same thing** written two ways, so what is true of one is true of the other.\n\nIt turns an awkward function into simple **powers of** $x$, which can be differentiated or integrated term by term.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w7NfzrZhjgBwxmPh",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_tv6YBrDsbFHPWdzK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When estimating a definite integral, the limits must also lie inside the interval of convergence."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every value of $x$ between the limits is used by the integration, so the whole range has to sit inside the interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "Checking only the answer, or only one of the two endpoints, is not enough."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen estimating a definite integral, the limits must also lie inside the interval of convergence.\n",
+   "back_md": "**True.**\n\nEvery value of $x$ between the limits is used by the integration, so the whole range has to sit inside the interval.\n\nChecking only the answer, or only one of the two endpoints, is not enough.\n",
+   "spec_links": [
+    "spcpt_mpQWyYQ6pCmyzryn"
+   ],
+   "flags": []
+  }
+ ]
+}

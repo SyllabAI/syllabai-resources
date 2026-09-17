@@ -1,0 +1,243 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:26Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/differentiation/implicit-differentiation/",
+  "section_slug": "differentiation",
+  "section_name": "Differentiation",
+  "topic_slug": "implicit-differentiation",
+  "title": "Implicit Differentiation",
+  "order": 1
+ },
+ "card_count": 7,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 1,
+  "question_and_answer": 4,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 7,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_VGDgxnXvrbF4BHdK",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does it mean to differentiate an equation **implicitly**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiating both sides with respect to $x$ without first rearranging the equation into the form `y = \\text{f} \\left(x\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is used whenever writing $y$ explicitly in terms of $x$ would be awkward or impossible, as for $x^{2} + y^{2} = 25$."
+    }
+   ],
+   "front_md": "What does it mean to differentiate an equation **implicitly**?\n",
+   "back_md": "Differentiating both sides with respect to $x$ without first rearranging the equation into the form `y = \\text{f} \\left(x\\right)`.\n\nIt is used whenever writing $y$ explicitly in terms of $x$ would be awkward or impossible, as for $x^{2} + y^{2} = 25$.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pzRX39B8d7YVP8dC",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for differentiating a function of $y$ with respect to $x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\text{f} \\left(y\\right)\\right) = \\text{f} ' \\left(y\\right) \\times \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\text{f} \\left(y\\right)\\right) = \\text{f} ' \\left(y\\right) \\frac{\\text{d} y}{\\text{d} x}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "This is the **chain rule**: $y$ is itself a function of $x$, so differentiating anything built from $y$ brings out a factor of $\\frac{\\text{d}y}{\\text{d}x}$."
+    }
+   ],
+   "front_md": "Complete the rule for differentiating a function of $y$ with respect to $x$:\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\text{f} \\left(y\\right)\\right) = \\text{f} ' \\left(y\\right) \\times \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\text{f} \\left(y\\right)\\right) = \\text{f} ' \\left(y\\right) \\frac{\\text{d} y}{\\text{d} x}`\n\nThis is the **chain rule**: $y$ is itself a function of $x$, so differentiating anything built from $y$ brings out a factor of $\\frac{\\text{d}y}{\\text{d}x}$.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_fJQrBjZB7PDHg5jx",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `\\frac{\\text{d}}{\\text{d} x} \\left(y^{3}\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$3 y^{2} \\frac{\\text{d}y}{\\text{d}x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiate the power exactly as usual, then multiply by $\\frac{\\text{d}y}{\\text{d}x}$ because the variable being differentiated is $y$ rather than $x$."
+    }
+   ],
+   "front_md": "What is `\\frac{\\text{d}}{\\text{d} x} \\left(y^{3}\\right)`?\n",
+   "back_md": "$3 y^{2} \\frac{\\text{d}y}{\\text{d}x}$.\n\nDifferentiate the power exactly as usual, then multiply by $\\frac{\\text{d}y}{\\text{d}x}$ because the variable being differentiated is $y$ rather than $x$.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bwcgmQWgFFNWkZHQ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `\\frac{\\text{d}}{\\text{d} x} \\left(x y\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$x \\frac{\\text{d}y}{\\text{d}x} + y$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A term containing both variables is a **product**, so it needs the product rule as well: differentiating $x$ gives $1$, and differentiating $y$ gives $\\frac{\\text{d}y}{\\text{d}x}$."
+    }
+   ],
+   "front_md": "What is `\\frac{\\text{d}}{\\text{d} x} \\left(x y\\right)`?\n",
+   "back_md": "$x \\frac{\\text{d}y}{\\text{d}x} + y$.\n\nA term containing both variables is a **product**, so it needs the product rule as well: differentiating $x$ gives $1$, and differentiating $y$ gives $\\frac{\\text{d}y}{\\text{d}x}$.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V2XXCHmgXtBq7gDT",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must you never split $\\frac{\\text{d}y}{\\text{d}x}$ when rearranging?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because it is a **single algebraic object**, not a fraction with $\\text{d} y$ on top and $\\text{d} x$ underneath."
+    },
+    {
+     "type": "paragraph",
+     "md": "Collect it and factorise it out in exactly the way you would treat any single unknown letter."
+    }
+   ],
+   "front_md": "Why must you never split $\\frac{\\text{d}y}{\\text{d}x}$ when rearranging?\n",
+   "back_md": "Because it is a **single algebraic object**, not a fraction with $\\text{d} y$ on top and $\\text{d} x$ underneath.\n\nCollect it and factorise it out in exactly the way you would treat any single unknown letter.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4Q6QYMRD3CQb6GSR",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Will implicit differentiation always give $\\frac{\\text{d}y}{\\text{d}x}$ as a function of $x$ alone?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "No. The answer is usually in terms of both $x$ and $y$, and that is perfectly acceptable."
+    },
+    {
+     "type": "paragraph",
+     "md": "To get a numerical gradient you substitute both coordinates of the point, rather than just the $x$-value."
+    }
+   ],
+   "front_md": "Will implicit differentiation always give $\\frac{\\text{d}y}{\\text{d}x}$ as a function of $x$ alone?\n",
+   "back_md": "No. The answer is usually in terms of both $x$ and $y$, and that is perfectly acceptable.\n\nTo get a numerical gradient you substitute both coordinates of the point, rather than just the $x$-value.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hvXTYzb6vzvnRsdj",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_vc5XFVs4P6jPDtKH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Implicit differentiation is just the chain rule applied to terms containing $y$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every step comes from treating $y$ as a function of $x$ and applying the chain rule, with the product rule joining in for terms that contain both variables."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no new rule to learn here, only a new situation in which to use the old ones."
+    }
+   ],
+   "front_md": "**True or False?**\n\nImplicit differentiation is just the chain rule applied to terms containing $y$.\n",
+   "back_md": "**True.**\n\nEvery step comes from treating $y$ as a function of $x$ and applying the chain rule, with the product rule joining in for terms that contain both variables.\n\nThere is no new rule to learn here, only a new situation in which to use the old ones.\n",
+   "spec_links": [
+    "spcpt_pYT5j4mkfqgGVyG8"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,489 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:22:03Z",
+ "course_slug": "ial-maths-20-decision-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/decision-1/flashcards/algorithms-on-graphs/the-route-inspection-algorithm/",
+  "section_slug": "algorithms-on-graphs",
+  "section_name": "Algorithms on Graphs",
+  "topic_slug": "the-route-inspection-algorithm",
+  "title": "The Route Inspection Algorithm",
+  "order": 2
+ },
+ "card_count": 15,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 2,
+  "question_and_answer": 10,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 15,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_87QQCVg3w96G66mv",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **route inspection problem**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The route inspection problem, also known as the **Chinese postman problem**, is to find the route of **least weight** that travels along every edge of a graph and returns to its starting vertex."
+    },
+    {
+     "type": "paragraph",
+     "md": "Some edges may have to be covered more than once, and the aim is to keep the total weight of those repeats as small as possible."
+    }
+   ],
+   "front_md": "What is the **route inspection problem**?\n",
+   "back_md": "The route inspection problem, also known as the **Chinese postman problem**, is to find the route of **least weight** that travels along every edge of a graph and returns to its starting vertex.\n\nSome edges may have to be covered more than once, and the aim is to keep the total weight of those repeats as small as possible.\n",
+   "spec_links": [
+    "spcpt_zRs4Yh5KvWq3WyKS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TDsYFKBx5vyNjwwN",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A network has no odd vertices at all. Complete the conclusion:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph is `\\_\\_\\_\\_\\_\\_` so a closed route using every edge exactly once already exists, and nothing has to be repeated."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed conclusion is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph is **Eulerian** so a closed route using every edge exactly once already exists, and nothing has to be repeated."
+    },
+    {
+     "type": "paragraph",
+     "md": "The length of the shortest inspection route is then simply the sum of the weights of all the edges in the network."
+    }
+   ],
+   "front_md": "A network has no odd vertices at all. Complete the conclusion:\n\nThe graph is `\\_\\_\\_\\_\\_\\_` so a closed route using every edge exactly once already exists, and nothing has to be repeated.\n",
+   "back_md": "The completed conclusion is:\n\nThe graph is **Eulerian** so a closed route using every edge exactly once already exists, and nothing has to be repeated.\n\nThe length of the shortest inspection route is then simply the sum of the weights of all the edges in the network.\n",
+   "spec_links": [
+    "spcpt_SWNq6cfM2PcV7PNX"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JHKWqNZyznvn23xv",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A network has exactly two odd vertices, and the route must start and finish at the same vertex. What has to be repeated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **shortest path between the two odd vertices**, whose edges are then added to the graph."
+    },
+    {
+     "type": "paragraph",
+     "md": "The length of the route is the sum of every edge in the network plus the weight of that repeated path."
+    }
+   ],
+   "front_md": "A network has exactly two odd vertices, and the route must start and finish at the same vertex. What has to be repeated?\n",
+   "back_md": "The **shortest path between the two odd vertices**, whose edges are then added to the graph.\n\nThe length of the route is the sum of every edge in the network plus the weight of that repeated path.\n",
+   "spec_links": [
+    "spcpt_SWNq6cfM2PcV7PNX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4wT3bjJG62S7Frzc",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does repeating the shortest path between the two odd vertices make a closed inspection route possible?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Each repeated edge adds one to the degree at both of its ends, so the two odd vertices gain one each and turn even, while every vertex in the middle of the path gains two and keeps the parity it already had."
+    },
+    {
+     "type": "paragraph",
+     "md": "With no odd vertices left, the adjusted graph is Eulerian and a closed route using every edge now exists."
+    }
+   ],
+   "front_md": "Why does repeating the shortest path between the two odd vertices make a closed inspection route possible?\n",
+   "back_md": "Each repeated edge adds one to the degree at both of its ends, so the two odd vertices gain one each and turn even, while every vertex in the middle of the path gains two and keeps the parity it already had.\n\nWith no odd vertices left, the adjusted graph is Eulerian and a closed route using every edge now exists.\n",
+   "spec_links": [
+    "spcpt_SWNq6cfM2PcV7PNX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JrtxPKYcq79DmDwZ",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A route inspecting every edge of a network with two odd vertices can sometimes avoid repeating any edge at all."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the route is allowed to **start at one odd vertex and finish at the other**, it is an Eulerian trail and nothing needs repeating."
+    },
+    {
+     "type": "paragraph",
+     "md": "Repetition is only forced when the route has to begin and end at the same vertex."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA route inspecting every edge of a network with two odd vertices can sometimes avoid repeating any edge at all.\n",
+   "back_md": "**True.**\n\nIf the route is allowed to **start at one odd vertex and finish at the other**, it is an Eulerian trail and nothing needs repeating.\n\nRepetition is only forced when the route has to begin and end at the same vertex.\n",
+   "spec_links": [
+    "spcpt_SWNq6cfM2PcV7PNX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JryWxphsDYm9kSmm",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why should you not assume that the direct edge is the shortest path between two odd vertices?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A path made up of **several shorter edges** can easily total less than one long direct edge."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every route between the two odd vertices has to be compared, not just the one joining them directly."
+    }
+   ],
+   "front_md": "Why should you not assume that the direct edge is the shortest path between two odd vertices?\n",
+   "back_md": "A path made up of **several shorter edges** can easily total less than one long direct edge.\n\nEvery route between the two odd vertices has to be compared, not just the one joining them directly.\n",
+   "spec_links": [
+    "spcpt_SWNq6cfM2PcV7PNX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BKnhGy5hfCJRQXrB",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The edges of a network total $73$, and its two odd vertices are joined by a shortest path of weight $14$. How long is the shortest closed inspection route?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The route has length $73 + 14 = 87$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The weight of the repeated path is added to the total of every edge, because each repeated edge is travelled a second time."
+    }
+   ],
+   "front_md": "The edges of a network total $73$, and its two odd vertices are joined by a shortest path of weight $14$. How long is the shortest closed inspection route?\n",
+   "back_md": "The route has length $73 + 14 = 87$.\n\nThe weight of the repeated path is added to the total of every edge, because each repeated edge is travelled a second time.\n",
+   "spec_links": [
+    "spcpt_SWNq6cfM2PcV7PNX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3sC792XqNyxXJpxt",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_c5ckYbYZ4ZmJhkxP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What variations on the route inspection problem can arise?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The start and finish vertices may be **different** from one another, or certain edges may be **disregarded**, for instance because of a road closure."
+    },
+    {
+     "type": "paragraph",
+     "md": "Repetition may even be **required** rather than avoided, as for a road sweeper that has to cover both sides of every road."
+    }
+   ],
+   "front_md": "What variations on the route inspection problem can arise?\n",
+   "back_md": "The start and finish vertices may be **different** from one another, or certain edges may be **disregarded**, for instance because of a road closure.\n\nRepetition may even be **required** rather than avoided, as for a road sweeper that has to cover both sides of every road.\n",
+   "spec_links": [
+    "spcpt_zRs4Yh5KvWq3WyKS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CYyBVzkVrjzCJ8z4",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A network has four odd vertices. What must you consider before you can decide which edges to repeat?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**All the possible pairings** of the odd vertices, and the shortest path between the two vertices making up each pair."
+    },
+    {
+     "type": "paragraph",
+     "md": "For odd vertices P, Q, R and S the pairings are PQ with RS, PR with QS, and PS with QR."
+    }
+   ],
+   "front_md": "A network has four odd vertices. What must you consider before you can decide which edges to repeat?\n",
+   "back_md": "**All the possible pairings** of the odd vertices, and the shortest path between the two vertices making up each pair.\n\nFor odd vertices P, Q, R and S the pairings are PQ with RS, PR with QS, and PS with QR.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7zb2rKBXSmGWNFJ5",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A network can have an odd number of odd vertices."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The number of odd vertices in any graph is always even."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is exactly why the odd vertices can always be split into pairs with none left over, which is what makes the pairing method work at all."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA network can have an odd number of odd vertices.\n",
+   "back_md": "**False.**\n\nThe number of odd vertices in any graph is always even.\n\nThat is exactly why the odd vertices can always be split into pairs with none left over, which is what makes the pairing method work at all.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6dvmW7BsV68CYZ5Y",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the count of pairings for a network with four odd vertices:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Four odd vertices can be split into `\\_\\_\\_\\_\\_\\_` different pairings, and each pairing uses up all `\\_\\_\\_\\_\\_\\_` of the odd vertices."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed count is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Four odd vertices can be split into **three** different pairings, and each pairing uses up all **four** of the odd vertices."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every odd vertex has to be paired off, since any left odd would still block a closed route."
+    }
+   ],
+   "front_md": "Complete the count of pairings for a network with four odd vertices:\n\nFour odd vertices can be split into `\\_\\_\\_\\_\\_\\_` different pairings, and each pairing uses up all `\\_\\_\\_\\_\\_\\_` of the odd vertices.\n",
+   "back_md": "The completed count is:\n\nFour odd vertices can be split into **three** different pairings, and each pairing uses up all **four** of the odd vertices.\n\nEvery odd vertex has to be paired off, since any left odd would still block a closed route.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_7sCmBthZBkFkmVj8",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Once you have all the pairings, which one decides the edges to repeat?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The pairing whose **two shortest paths add to the smallest total**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Those two paths are the ones repeated, and their edges are added into the network."
+    }
+   ],
+   "front_md": "Once you have all the pairings, which one decides the edges to repeat?\n",
+   "back_md": "The pairing whose **two shortest paths add to the smallest total**.\n\nThose two paths are the ones repeated, and their edges are added into the network.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_N2GQqYrtbR7qYy2d",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The repeated edges have been added to the network. How do you finish the route inspection problem?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write down an **Eulerian circuit** of the adjusted network, which is now possible because adding those paths has made every vertex even."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any such circuit is a valid answer, and there is usually more than one to choose from."
+    }
+   ],
+   "front_md": "The repeated edges have been added to the network. How do you finish the route inspection problem?\n",
+   "back_md": "Write down an **Eulerian circuit** of the adjusted network, which is now possible because adding those paths has made every vertex even.\n\nAny such circuit is a valid answer, and there is usually more than one to choose from.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yWFwd9GzvdNqGnQj",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With four odd vertices, the route may start and finish at any two of them. How does that change the method?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the shortest paths for **all** the pairings as usual, then repeat only the **single shortest** of those paths."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two odd vertices it does not touch become the start and finish points, since a route is allowed to begin and end at odd vertices."
+    }
+   ],
+   "front_md": "With four odd vertices, the route may start and finish at any two of them. How does that change the method?\n",
+   "back_md": "Find the shortest paths for **all** the pairings as usual, then repeat only the **single shortest** of those paths.\n\nThe two odd vertices it does not touch become the start and finish points, since a route is allowed to begin and end at odd vertices.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cNkt9whHrQyNDBgR",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_BnFh6zbvDVyCNmXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can the weight of an edge depend on whether it is being repeated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A first traversal may cost more than a second one along the same edge."
+    },
+    {
+     "type": "paragraph",
+     "md": "An inspector walking a pipeline takes longer over a section being checked than over one already inspected, so the return journey along it carries a smaller weight."
+    }
+   ],
+   "front_md": "How can the weight of an edge depend on whether it is being repeated?\n",
+   "back_md": "A first traversal may cost more than a second one along the same edge.\n\nAn inspector walking a pipeline takes longer over a section being checked than over one already inspected, so the return journey along it carries a smaller weight.\n",
+   "spec_links": [
+    "spcpt_37mJDmGbj5wYYzWF"
+   ],
+   "flags": []
+  }
+ ]
+}

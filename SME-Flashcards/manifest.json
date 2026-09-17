@@ -1,0 +1,708 @@
+{
+ "schema": "syllabai.sme-flashcards/1.0",
+ "generated_utc": "2026-09-17T17:37:56Z",
+ "source": {
+  "provider": "Save My Exams",
+  "registry": "scripts/sme_flashcards_scrape.py REGISTRY",
+  "license": "operator-authorized; see LICENSE-DATA.md (SME attestation)"
+ },
+ "totals": {
+  "courses_active": 34,
+  "decks": 678,
+  "cards": 22748,
+  "flags": 488,
+  "deck_failures": 0
+ },
+ "registry": {
+  "ial-biology-18": {
+   "path": "international-a-level/biology/edexcel/18",
+   "expected_decks": 28
+  },
+  "ial-chemistry-17": {
+   "path": "international-a-level/chemistry/edexcel/17",
+   "expected_decks": 39
+  },
+  "ial-physics-19": {
+   "path": "international-a-level/physics/edexcel/19",
+   "expected_decks": 37
+  },
+  "ial-maths-20-pure-1": {
+   "path": "international-a-level/maths/edexcel/20/pure-1",
+   "expected_decks": 13
+  },
+  "ial-maths-20-pure-2": {
+   "path": "international-a-level/maths/edexcel/20/pure-2",
+   "expected_decks": 12
+  },
+  "ial-maths-20-pure-3": {
+   "path": "international-a-level/maths/edexcel/20/pure-3",
+   "expected_decks": 12
+  },
+  "ial-maths-20-pure-4": {
+   "path": "international-a-level/maths/edexcel/20/pure-4",
+   "expected_decks": 12
+  },
+  "ial-maths-20-mechanics-1": {
+   "path": "international-a-level/maths/edexcel/20/mechanics-1",
+   "expected_decks": 10
+  },
+  "ial-maths-20-mechanics-2": {
+   "path": "international-a-level/maths/edexcel/20/mechanics-2",
+   "expected_decks": 8
+  },
+  "ial-maths-20-statistics-1": {
+   "path": "international-a-level/maths/edexcel/20/statistics-1",
+   "expected_decks": 7
+  },
+  "ial-maths-20-statistics-2": {
+   "path": "international-a-level/maths/edexcel/20/statistics-2",
+   "expected_decks": 7
+  },
+  "ial-maths-20-decision-1": {
+   "path": "international-a-level/maths/edexcel/20/decision-1",
+   "expected_decks": 9
+  },
+  "igcse-biology-19": {
+   "path": "igcse/biology/edexcel/19",
+   "expected_decks": 21
+  },
+  "igcse-chemistry-19": {
+   "path": "igcse/chemistry/edexcel/19",
+   "expected_decks": 28
+  },
+  "igcse-physics-19": {
+   "path": "igcse/physics/edexcel/19",
+   "expected_decks": 24
+  },
+  "igcse-biology-modular-24-unit-1": {
+   "path": "igcse/biology/edexcel/modular/24/unit-1",
+   "expected_decks": 8
+  },
+  "igcse-biology-modular-24-unit-2": {
+   "path": "igcse/biology/edexcel/modular/24/unit-2",
+   "expected_decks": 13
+  },
+  "igcse-chemistry-modular-24-unit-1": {
+   "path": "igcse/chemistry/edexcel/modular/24/unit-1",
+   "expected_decks": 14
+  },
+  "igcse-chemistry-modular-24-unit-2": {
+   "path": "igcse/chemistry/edexcel/modular/24/unit-2",
+   "expected_decks": 14
+  },
+  "igcse-physics-modular-24-unit-1": {
+   "path": "igcse/physics/edexcel/modular/24/unit-1",
+   "expected_decks": 12
+  },
+  "igcse-physics-modular-24-unit-2": {
+   "path": "igcse/physics/edexcel/modular/24/unit-2",
+   "expected_decks": 12
+  },
+  "igcse-science-double-award-17-biology": {
+   "path": "igcse/science/edexcel/double-award/17/biology",
+   "expected_decks": 20
+  },
+  "igcse-science-double-award-17-chemistry": {
+   "path": "igcse/science/edexcel/double-award/17/chemistry",
+   "expected_decks": 22
+  },
+  "igcse-science-double-award-17-physics": {
+   "path": "igcse/science/edexcel/double-award/17/physics",
+   "expected_decks": 18
+  },
+  "igcse-business-19": {
+   "path": "igcse/business/edexcel/19",
+   "expected_decks": 25
+  },
+  "igcse-economics-17": {
+   "path": "igcse/economics/edexcel/17",
+   "expected_decks": 16
+  },
+  "igcse-geography-19": {
+   "path": "igcse/geography/edexcel/19",
+   "expected_decks": 38
+  },
+  "igcse-ict-17": {
+   "path": "igcse/ict/edexcel/17",
+   "expected_decks": 21
+  },
+  "igcse-english-literature-16": {
+   "path": "igcse/english-literature/edexcel/16",
+   "expected_decks": 15
+  },
+  "igcse-maths-a-18-foundation": {
+   "path": "igcse/maths/edexcel/a/18/foundation",
+   "expected_decks": 27
+  },
+  "igcse-maths-a-18-higher": {
+   "path": "igcse/maths/edexcel/a/18/higher",
+   "expected_decks": 58
+  },
+  "igcse-maths-a-modular-24-higher-unit-1": {
+   "path": "igcse/maths/edexcel/a-modular/24/higher-unit-1",
+   "expected_decks": 32
+  },
+  "igcse-maths-a-modular-24-higher-unit-2": {
+   "path": "igcse/maths/edexcel/a-modular/24/higher-unit-2",
+   "expected_decks": 27
+  },
+  "igcse-further-maths-19": {
+   "path": "igcse/further-maths/edexcel/19",
+   "expected_decks": 19
+  },
+  "ial-further-maths-18-further-pure-1": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-accounting-17-financial-statements": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-accounting-17-introduction-to-bookkeeping-and-accounting": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-maths-a-modular-24-foundation-unit-1": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-maths-a-modular-24-foundation-unit-2": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  }
+ },
+ "courses": {
+  "ial-biology-18": {
+   "slug": "ial-biology-18",
+   "decks": 28,
+   "cards": 1847,
+   "card_types": {
+    "keyword_definition": 456,
+    "question_and_answer": 691,
+    "fill_in_the_blanks": 481,
+    "true_or_false": 219
+   },
+   "flags": 6,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 28
+  },
+  "ial-chemistry-17": {
+   "slug": "ial-chemistry-17",
+   "decks": 39,
+   "cards": 1723,
+   "card_types": {
+    "keyword_definition": 305,
+    "fill_in_the_blanks": 279,
+    "question_and_answer": 845,
+    "true_or_false": 294
+   },
+   "flags": 39,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 39
+  },
+  "ial-maths-20-decision-1": {
+   "slug": "ial-maths-20-decision-1",
+   "decks": 9,
+   "cards": 223,
+   "card_types": {
+    "keyword_definition": 33,
+    "fill_in_the_blanks": 25,
+    "question_and_answer": 137,
+    "true_or_false": 28
+   },
+   "flags": 25,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 9
+  },
+  "ial-maths-20-mechanics-1": {
+   "slug": "ial-maths-20-mechanics-1",
+   "decks": 10,
+   "cards": 211,
+   "card_types": {
+    "fill_in_the_blanks": 24,
+    "keyword_definition": 18,
+    "question_and_answer": 138,
+    "true_or_false": 31
+   },
+   "flags": 24,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 10
+  },
+  "ial-maths-20-mechanics-2": {
+   "slug": "ial-maths-20-mechanics-2",
+   "decks": 8,
+   "cards": 140,
+   "card_types": {
+    "keyword_definition": 12,
+    "fill_in_the_blanks": 15,
+    "question_and_answer": 95,
+    "true_or_false": 18
+   },
+   "flags": 15,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 8
+  },
+  "ial-maths-20-pure-1": {
+   "slug": "ial-maths-20-pure-1",
+   "decks": 13,
+   "cards": 267,
+   "card_types": {
+    "question_and_answer": 159,
+    "fill_in_the_blanks": 40,
+    "true_or_false": 44,
+    "keyword_definition": 24
+   },
+   "flags": 40,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 13
+  },
+  "ial-maths-20-pure-2": {
+   "slug": "ial-maths-20-pure-2",
+   "decks": 12,
+   "cards": 239,
+   "card_types": {
+    "keyword_definition": 25,
+    "fill_in_the_blanks": 35,
+    "question_and_answer": 139,
+    "true_or_false": 40
+   },
+   "flags": 35,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 12
+  },
+  "ial-maths-20-pure-3": {
+   "slug": "ial-maths-20-pure-3",
+   "decks": 12,
+   "cards": 200,
+   "card_types": {
+    "question_and_answer": 125,
+    "fill_in_the_blanks": 30,
+    "true_or_false": 36,
+    "keyword_definition": 9
+   },
+   "flags": 30,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 12
+  },
+  "ial-maths-20-pure-4": {
+   "slug": "ial-maths-20-pure-4",
+   "decks": 12,
+   "cards": 224,
+   "card_types": {
+    "keyword_definition": 20,
+    "fill_in_the_blanks": 26,
+    "true_or_false": 39,
+    "question_and_answer": 139
+   },
+   "flags": 26,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 12
+  },
+  "ial-maths-20-statistics-1": {
+   "slug": "ial-maths-20-statistics-1",
+   "decks": 7,
+   "cards": 205,
+   "card_types": {
+    "question_and_answer": 130,
+    "true_or_false": 32,
+    "keyword_definition": 21,
+    "fill_in_the_blanks": 22
+   },
+   "flags": 22,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 7
+  },
+  "ial-maths-20-statistics-2": {
+   "slug": "ial-maths-20-statistics-2",
+   "decks": 7,
+   "cards": 126,
+   "card_types": {
+    "question_and_answer": 87,
+    "fill_in_the_blanks": 10,
+    "true_or_false": 19,
+    "keyword_definition": 10
+   },
+   "flags": 10,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 7
+  },
+  "ial-physics-19": {
+   "slug": "ial-physics-19",
+   "decks": 37,
+   "cards": 1412,
+   "card_types": {
+    "keyword_definition": 289,
+    "question_and_answer": 682,
+    "fill_in_the_blanks": 219,
+    "true_or_false": 222
+   },
+   "flags": 11,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 37
+  },
+  "igcse-biology-19": {
+   "slug": "igcse-biology-19",
+   "decks": 21,
+   "cards": 1205,
+   "card_types": {
+    "question_and_answer": 701,
+    "keyword_definition": 187,
+    "true_or_false": 317
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 21
+  },
+  "igcse-biology-modular-24-unit-1": {
+   "slug": "igcse-biology-modular-24-unit-1",
+   "decks": 8,
+   "cards": 434,
+   "card_types": {
+    "question_and_answer": 235,
+    "true_or_false": 131,
+    "keyword_definition": 68
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 8
+  },
+  "igcse-biology-modular-24-unit-2": {
+   "slug": "igcse-biology-modular-24-unit-2",
+   "decks": 13,
+   "cards": 771,
+   "card_types": {
+    "question_and_answer": 466,
+    "keyword_definition": 119,
+    "true_or_false": 186
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 13
+  },
+  "igcse-business-19": {
+   "slug": "igcse-business-19",
+   "decks": 25,
+   "cards": 1008,
+   "card_types": {
+    "keyword_definition": 177,
+    "question_and_answer": 513,
+    "fill_in_the_blanks": 156,
+    "true_or_false": 162
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 25
+  },
+  "igcse-chemistry-19": {
+   "slug": "igcse-chemistry-19",
+   "decks": 28,
+   "cards": 909,
+   "card_types": {
+    "question_and_answer": 519,
+    "keyword_definition": 194,
+    "true_or_false": 196
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 28
+  },
+  "igcse-chemistry-modular-24-unit-1": {
+   "slug": "igcse-chemistry-modular-24-unit-1",
+   "decks": 14,
+   "cards": 542,
+   "card_types": {
+    "keyword_definition": 122,
+    "true_or_false": 121,
+    "fill_in_the_blanks": 116,
+    "question_and_answer": 183
+   },
+   "flags": 47,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 14
+  },
+  "igcse-chemistry-modular-24-unit-2": {
+   "slug": "igcse-chemistry-modular-24-unit-2",
+   "decks": 14,
+   "cards": 387,
+   "card_types": {
+    "fill_in_the_blanks": 85,
+    "question_and_answer": 141,
+    "true_or_false": 91,
+    "keyword_definition": 70
+   },
+   "flags": 29,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 14
+  },
+  "igcse-economics-17": {
+   "slug": "igcse-economics-17",
+   "decks": 16,
+   "cards": 980,
+   "card_types": {
+    "keyword_definition": 251,
+    "question_and_answer": 401,
+    "true_or_false": 173,
+    "fill_in_the_blanks": 155
+   },
+   "flags": 2,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 16
+  },
+  "igcse-english-literature-16": {
+   "slug": "igcse-english-literature-16",
+   "decks": 15,
+   "cards": 298,
+   "card_types": {
+    "keyword_definition": 202,
+    "fill_in_the_blanks": 96
+   },
+   "flags": 1,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 15
+  },
+  "igcse-further-maths-19": {
+   "slug": "igcse-further-maths-19",
+   "decks": 19,
+   "cards": 430,
+   "card_types": {
+    "question_and_answer": 278,
+    "true_or_false": 58,
+    "fill_in_the_blanks": 60,
+    "keyword_definition": 34
+   },
+   "flags": 60,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 19
+  },
+  "igcse-geography-19": {
+   "slug": "igcse-geography-19",
+   "decks": 38,
+   "cards": 1168,
+   "card_types": {
+    "keyword_definition": 251,
+    "fill_in_the_blanks": 281,
+    "question_and_answer": 494,
+    "true_or_false": 142
+   },
+   "flags": 4,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 38
+  },
+  "igcse-ict-17": {
+   "slug": "igcse-ict-17",
+   "decks": 21,
+   "cards": 730,
+   "card_types": {
+    "keyword_definition": 82,
+    "question_and_answer": 542,
+    "fill_in_the_blanks": 53,
+    "true_or_false": 53
+   },
+   "flags": 53,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 21
+  },
+  "igcse-maths-a-18-foundation": {
+   "slug": "igcse-maths-a-18-foundation",
+   "decks": 27,
+   "cards": 330,
+   "card_types": {
+    "keyword_definition": 70,
+    "true_or_false": 134,
+    "question_and_answer": 126
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 27
+  },
+  "igcse-maths-a-18-higher": {
+   "slug": "igcse-maths-a-18-higher",
+   "decks": 58,
+   "cards": 999,
+   "card_types": {
+    "true_or_false": 357,
+    "keyword_definition": 230,
+    "question_and_answer": 412
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 58
+  },
+  "igcse-maths-a-modular-24-higher-unit-1": {
+   "slug": "igcse-maths-a-modular-24-higher-unit-1",
+   "decks": 32,
+   "cards": 514,
+   "card_types": {
+    "keyword_definition": 105,
+    "true_or_false": 195,
+    "question_and_answer": 214
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 32
+  },
+  "igcse-maths-a-modular-24-higher-unit-2": {
+   "slug": "igcse-maths-a-modular-24-higher-unit-2",
+   "decks": 27,
+   "cards": 485,
+   "card_types": {
+    "question_and_answer": 198,
+    "true_or_false": 162,
+    "keyword_definition": 125
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 27
+  },
+  "igcse-physics-19": {
+   "slug": "igcse-physics-19",
+   "decks": 24,
+   "cards": 922,
+   "card_types": {
+    "question_and_answer": 484,
+    "true_or_false": 270,
+    "keyword_definition": 168
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 24
+  },
+  "igcse-physics-modular-24-unit-1": {
+   "slug": "igcse-physics-modular-24-unit-1",
+   "decks": 12,
+   "cards": 438,
+   "card_types": {
+    "keyword_definition": 88,
+    "question_and_answer": 226,
+    "fill_in_the_blanks": 62,
+    "true_or_false": 62
+   },
+   "flags": 6,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 12
+  },
+  "igcse-physics-modular-24-unit-2": {
+   "slug": "igcse-physics-modular-24-unit-2",
+   "decks": 12,
+   "cards": 459,
+   "card_types": {
+    "keyword_definition": 105,
+    "question_and_answer": 224,
+    "fill_in_the_blanks": 65,
+    "true_or_false": 65
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 12
+  },
+  "igcse-science-double-award-17-biology": {
+   "slug": "igcse-science-double-award-17-biology",
+   "decks": 20,
+   "cards": 1529,
+   "card_types": {
+    "keyword_definition": 131,
+    "question_and_answer": 962,
+    "fill_in_the_blanks": 218,
+    "true_or_false": 218
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 20
+  },
+  "igcse-science-double-award-17-chemistry": {
+   "slug": "igcse-science-double-award-17-chemistry",
+   "decks": 22,
+   "cards": 705,
+   "card_types": {
+    "keyword_definition": 123,
+    "question_and_answer": 245,
+    "true_or_false": 170,
+    "fill_in_the_blanks": 167
+   },
+   "flags": 3,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 22
+  },
+  "igcse-science-double-award-17-physics": {
+   "slug": "igcse-science-double-award-17-physics",
+   "decks": 18,
+   "cards": 688,
+   "card_types": {
+    "question_and_answer": 352,
+    "true_or_false": 208,
+    "keyword_definition": 128
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 18
+  }
+ }
+}

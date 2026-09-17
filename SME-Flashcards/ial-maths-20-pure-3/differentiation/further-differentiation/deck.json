@@ -1,0 +1,882 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:18Z",
+ "course_slug": "ial-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/flashcards/differentiation/further-differentiation/",
+  "section_slug": "differentiation",
+  "section_name": "Differentiation",
+  "topic_slug": "further-differentiation",
+  "title": "Further Differentiation",
+  "order": 0
+ },
+ "card_count": 26,
+ "card_types": {
+  "fill_in_the_blanks": 5,
+  "question_and_answer": 17,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 26,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_wJxTbw7sWS3s5BnD",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_CnmhRmHSVZJkz877",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the derivatives of the three basic trigonometric functions:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\sin x\\right) = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\cos x\\right) = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\tan x\\right) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed derivatives are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\sin x\\right) = \\cos x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\cos x\\right) = - \\sin x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\tan x\\right) = \\sec^{2} x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the cosine picks up a minus sign, and these results hold only when $x$ is in **radians**."
+    }
+   ],
+   "front_md": "Complete the derivatives of the three basic trigonometric functions:\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\sin x\\right) = \\_\\_\\_\\_\\_\\_`\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cos x\\right) = \\_\\_\\_\\_\\_\\_`\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\tan x\\right) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed derivatives are:\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\sin x\\right) = \\cos x`\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cos x\\right) = - \\sin x`\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\tan x\\right) = \\sec^{2} x`\n\nOnly the cosine picks up a minus sign, and these results hold only when $x$ is in **radians**.\n",
+   "spec_links": [
+    "spcpt_qMxPw37Fv75Pk8Ts"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6N7srjMTW8MJPYq6",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_CnmhRmHSVZJkz877",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the derivative of $\\mathrm{ln} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\ln x\\right) = \\frac{1}{x}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "A logarithm differentiates to something with no logarithm left in it at all, which is what makes the result so useful."
+    }
+   ],
+   "front_md": "What is the derivative of $\\mathrm{ln} x$?\n",
+   "back_md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\ln x\\right) = \\frac{1}{x}`.\n\nA logarithm differentiates to something with no logarithm left in it at all, which is what makes the result so useful.\n",
+   "spec_links": [
+    "spcpt_qMxPw37Fv75Pk8Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5vvYm6Jk2Wx4r727",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_CnmhRmHSVZJkz877",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative of $\\mathrm{ln} k x$ is $\\frac{k}{x}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $k$ makes no difference at all, because $\\mathrm{ln} k x = \\mathrm{ln} k + \\mathrm{ln} x$ and $\\mathrm{ln} k$ is a constant, which differentiates to zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative is therefore exactly what it would be without the $k$ there."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe derivative of $\\mathrm{ln} k x$ is $\\frac{k}{x}$.\n",
+   "back_md": "**False.**\n\nThe $k$ makes no difference at all, because $\\mathrm{ln} k x = \\mathrm{ln} k + \\mathrm{ln} x$ and $\\mathrm{ln} k$ is a constant, which differentiates to zero.\n\nThe derivative is therefore exactly what it would be without the $k$ there.\n",
+   "spec_links": [
+    "spcpt_qMxPw37Fv75Pk8Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Kd76NZ57Shhvvj2V",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_CnmhRmHSVZJkz877",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the derivative of $a^{x}$, for $a > 0$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(a^{x}\\right) = a^{x} \\ln a`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The base is carried through untouched, and it is the natural logarithm of that base that appears alongside it as a multiplier."
+    }
+   ],
+   "front_md": "What is the derivative of $a^{x}$, for $a > 0$?\n",
+   "back_md": "`\\frac{\\text{d}}{\\text{d} x} \\left(a^{x}\\right) = a^{x} \\ln a`.\n\nThe base is carried through untouched, and it is the natural logarithm of that base that appears alongside it as a multiplier.\n",
+   "spec_links": [
+    "spcpt_qMxPw37Fv75Pk8Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xpdyqqpDQxzK29xp",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_CnmhRmHSVZJkz877",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the derivative of $a^{kx}$ found from that of $a^{x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "By the **chain rule**, which brings the $k$ down as an extra multiplier."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `\\frac{\\text{d}}{\\text{d} x} \\left(a^{k x}\\right) = k a^{k x} \\ln a`."
+    }
+   ],
+   "front_md": "How is the derivative of $a^{kx}$ found from that of $a^{x}$?\n",
+   "back_md": "By the **chain rule**, which brings the $k$ down as an extra multiplier.\n\nSo `\\frac{\\text{d}}{\\text{d} x} \\left(a^{k x}\\right) = k a^{k x} \\ln a`.\n",
+   "spec_links": [
+    "spcpt_qMxPw37Fv75Pk8Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tYmv2QWnmCySjbKc",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_CnmhRmHSVZJkz877",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `\\frac{\\text{d}}{\\text{d} x} \\left(a^{x}\\right) = a^{x} \\ln a` give when $a = \\text{e}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The multiplier becomes $\\mathrm{ln} \\text{e}$, which is $1$, so it vanishes altogether."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is precisely why $\\text{e}$ is singled out from every other possible base."
+    }
+   ],
+   "front_md": "What does `\\frac{\\text{d}}{\\text{d} x} \\left(a^{x}\\right) = a^{x} \\ln a` give when $a = \\text{e}$?\n",
+   "back_md": "The multiplier becomes $\\mathrm{ln} \\text{e}$, which is $1$, so it vanishes altogether.\n\nThat is precisely why $\\text{e}$ is singled out from every other possible base.\n",
+   "spec_links": [
+    "spcpt_qMxPw37Fv75Pk8Ts"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4FXY3nBQDPWMbHFT",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_7828SqXwt4MBQWQQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $y$ is a function of $u$, and $u$ is a function of $x$, complete the chain rule:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{d} y}{\\text{d} u} \\times \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}u} \\times \\frac{\\text{d}u}{\\text{d}x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $\\text{d} u$ terms look as though they cancel, which is a useful way to remember it, though it is not a proof."
+    }
+   ],
+   "front_md": "If $y$ is a function of $u$, and $u$ is a function of $x$, complete the chain rule:\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{d} y}{\\text{d} u} \\times \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}u} \\times \\frac{\\text{d}u}{\\text{d}x}$\n\nThe $\\text{d} u$ terms look as though they cancel, which is a useful way to remember it, though it is not a proof.\n",
+   "spec_links": [
+    "spcpt_J6Fzys4Bj5SFqMnY"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_bKfV8vKqjdkYd7kS",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_7828SqXwt4MBQWQQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What kind of function does the chain rule differentiate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **composite** function, meaning one function applied to the output of another."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `\\sin \\left(x^{2}\\right)` needs it: the squaring happens first, and the sine acts on the result."
+    }
+   ],
+   "front_md": "What kind of function does the chain rule differentiate?\n",
+   "back_md": "A **composite** function, meaning one function applied to the output of another.\n\nSo `\\sin \\left(x^{2}\\right)` needs it: the squaring happens first, and the sine acts on the result.\n",
+   "spec_links": [
+    "spcpt_J6Fzys4Bj5SFqMnY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8rKRj5m98q3BbQyF",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_7828SqXwt4MBQWQQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate `\\left(\\text{f} \\left(x\\right)\\right)^{n}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Bring the power down, reduce it by one, and multiply by the derivative of the inside:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`n \\left(\\text{f} \\left(x\\right)\\right)^{n - 1} \\text{f} ' \\left(x\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The inside function is differentiated but not otherwise changed."
+    }
+   ],
+   "front_md": "How do you differentiate `\\left(\\text{f} \\left(x\\right)\\right)^{n}`?\n",
+   "back_md": "Bring the power down, reduce it by one, and multiply by the derivative of the inside:\n\n`n \\left(\\text{f} \\left(x\\right)\\right)^{n - 1} \\text{f} ' \\left(x\\right)`\n\nThe inside function is differentiated but not otherwise changed.\n",
+   "spec_links": [
+    "spcpt_J6Fzys4Bj5SFqMnY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sFXz2q8bMyKCFcbz",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_7828SqXwt4MBQWQQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $\\frac{\\text{d}y}{\\text{d}x} = \\frac{1}{\\frac{\\text{d}x}{\\text{d}y}}$ allow you to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate a relationship that is given as $x$ in terms of $y$, rather than the other way round."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiate as it stands to get $\\frac{\\text{d}x}{\\text{d}y}$, then take the reciprocal."
+    }
+   ],
+   "front_md": "What does $\\frac{\\text{d}y}{\\text{d}x} = \\frac{1}{\\frac{\\text{d}x}{\\text{d}y}}$ allow you to do?\n",
+   "back_md": "Differentiate a relationship that is given as $x$ in terms of $y$, rather than the other way round.\n\nDifferentiate as it stands to get $\\frac{\\text{d}x}{\\text{d}y}$, then take the reciprocal.\n",
+   "spec_links": [
+    "spcpt_J6Fzys4Bj5SFqMnY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RMSTMpQqrTS6H9Bd",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_7828SqXwt4MBQWQQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the derivative of `\\ln \\left(\\text{f} \\left(x\\right)\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "This shape, a derivative sitting over the original function, is worth recognising: it is the pattern that makes certain fractions integrate to a logarithm later in the course."
+    }
+   ],
+   "front_md": "What is the derivative of `\\ln \\left(\\text{f} \\left(x\\right)\\right)`?\n",
+   "back_md": "`\\frac{\\text{f} ' \\left(x\\right)}{\\text{f} \\left(x\\right)}`.\n\nThis shape, a derivative sitting over the original function, is worth recognising: it is the pattern that makes certain fractions integrate to a logarithm later in the course.\n",
+   "spec_links": [
+    "spcpt_J6Fzys4Bj5SFqMnY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sb7qc6WSBt2KnGm4",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_7828SqXwt4MBQWQQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\left(3 x + 1\\right)^{5}\\right) = 5 \\left(3 x + 1\\right)^{4}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative of the inside, which is $3$, has to be included as well, giving `15 \\left(3 x + 1\\right)^{4}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Forgetting that final factor is the commonest chain rule error."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\left(3 x + 1\\right)^{5}\\right) = 5 \\left(3 x + 1\\right)^{4}`\n",
+   "back_md": "**False.**\n\nThe derivative of the inside, which is $3$, has to be included as well, giving `15 \\left(3 x + 1\\right)^{4}`.\n\nForgetting that final factor is the commonest chain rule error.\n",
+   "spec_links": [
+    "spcpt_J6Fzys4Bj5SFqMnY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bt7WqD52z7b75hsp",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_FCCkj8jwcw7RyJ8w",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For $y = u v$, where $u$ and $v$ are functions of $x$, complete the product rule:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} y}{\\text{d} x} = u \\frac{\\text{d} v}{\\text{d} x} + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = u \\frac{\\text{d}v}{\\text{d}x} + v \\frac{\\text{d}u}{\\text{d}x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is often remembered in the shorter form $y ' = u v ' + v u '$, and it is **not** in the formulae booklet."
+    }
+   ],
+   "front_md": "For $y = u v$, where $u$ and $v$ are functions of $x$, complete the product rule:\n\n`\\frac{\\text{d} y}{\\text{d} x} = u \\frac{\\text{d} v}{\\text{d} x} + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = u \\frac{\\text{d}v}{\\text{d}x} + v \\frac{\\text{d}u}{\\text{d}x}$\n\nIt is often remembered in the shorter form $y ' = u v ' + v u '$, and it is **not** in the formulae booklet.\n",
+   "spec_links": [
+    "spcpt_v8zhdj7wJHgNznpD"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_H5WJSwmsWgr5bV4P",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_FCCkj8jwcw7RyJ8w",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a **product** of two functions and a **composite** function?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A product is two functions **multiplied** together, such as $x^{2} \\mathrm{sin} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A composite is a function **of** a function, such as `\\sin \\left(x^{2}\\right)`, and it needs the chain rule instead."
+    }
+   ],
+   "front_md": "What is the difference between a **product** of two functions and a **composite** function?\n",
+   "back_md": "A product is two functions **multiplied** together, such as $x^{2} \\mathrm{sin} x$.\n\nA composite is a function **of** a function, such as `\\sin \\left(x^{2}\\right)`, and it needs the chain rule instead.\n",
+   "spec_links": [
+    "spcpt_v8zhdj7wJHgNznpD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4Gb7YYZsfhFSpHyK",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_FCCkj8jwcw7RyJ8w",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the derivative of a product not the product of the derivatives?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because each term of the product rule keeps **one** of the two functions unchanged."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating both at once, turning $x^{2} \\mathrm{sin} x$ into $2 x \\mathrm{cos} x$, throws that structure away entirely and gives the wrong answer."
+    }
+   ],
+   "front_md": "Why is the derivative of a product not the product of the derivatives?\n",
+   "back_md": "Because each term of the product rule keeps **one** of the two functions unchanged.\n\nDifferentiating both at once, turning $x^{2} \\mathrm{sin} x$ into $2 x \\mathrm{cos} x$, throws that structure away entirely and gives the wrong answer.\n",
+   "spec_links": [
+    "spcpt_v8zhdj7wJHgNznpD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NTSH9P3pPDj5PStJ",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_FCCkj8jwcw7RyJ8w",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate $y = x^{2} \\mathrm{sin} x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Taking $u = x^{2}$ and $v = \\mathrm{sin} x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = x^{2} \\mathrm{cos} x + 2 x \\mathrm{sin} x$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each of the two terms still contains one of the original functions untouched, which is the pattern to check your answer against."
+    }
+   ],
+   "front_md": "Differentiate $y = x^{2} \\mathrm{sin} x$.\n",
+   "back_md": "Taking $u = x^{2}$ and $v = \\mathrm{sin} x$:\n\n$\\frac{\\text{d}y}{\\text{d}x} = x^{2} \\mathrm{cos} x + 2 x \\mathrm{sin} x$\n\nEach of the two terms still contains one of the original functions untouched, which is the pattern to check your answer against.\n",
+   "spec_links": [
+    "spcpt_v8zhdj7wJHgNznpD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5QXJjh99cPz3DMVN",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_FCCkj8jwcw7RyJ8w",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In the product rule it makes no difference which function you call $u$ and which you call $v$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two terms are added together, so swapping $u$ and $v$ simply writes the same answer in the other order."
+    },
+    {
+     "type": "paragraph",
+     "md": "The rule is symmetric in the two functions."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn the product rule it makes no difference which function you call $u$ and which you call $v$.\n",
+   "back_md": "**True.**\n\nThe two terms are added together, so swapping $u$ and $v$ simply writes the same answer in the other order.\n\nThe rule is symmetric in the two functions.\n",
+   "spec_links": [
+    "spcpt_v8zhdj7wJHgNznpD"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jptRnYsWMs57W3QK",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_NY4qJzBnqFyDV26V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For $y = \\frac{u}{v}$, where $u$ and $v$ are functions of $x$, complete the quotient rule:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d} y}{\\text{d} x} = \\frac{v \\frac{\\text{d} u}{\\text{d} x} - u \\frac{\\text{d} v}{\\text{d} x}}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{v\\frac{\\text{d}u}{\\text{d}x}-u\\frac{\\text{d}v}{\\text{d}x}}{v^{2}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The denominator is the **bottom function squared**, not the derivative of anything, and the whole formula is given in the formulae booklet."
+    }
+   ],
+   "front_md": "For $y = \\frac{u}{v}$, where $u$ and $v$ are functions of $x$, complete the quotient rule:\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{v \\frac{\\text{d} u}{\\text{d} x} - u \\frac{\\text{d} v}{\\text{d} x}}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{v\\frac{\\text{d}u}{\\text{d}x}-u\\frac{\\text{d}v}{\\text{d}x}}{v^{2}}$\n\nThe denominator is the **bottom function squared**, not the derivative of anything, and the whole formula is given in the formulae booklet.\n",
+   "spec_links": [
+    "spcpt_NMz2QnW3vCFZCZmm"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_C4PttYhHwWNdz3pT",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_NY4qJzBnqFyDV26V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the order of the two terms matter in the quotient rule?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because of the **minus sign** in the numerator: swapping the terms reverses the sign of the whole answer."
+    },
+    {
+     "type": "paragraph",
+     "md": "The term beginning with $v$, the bottom function, is the one that comes first."
+    }
+   ],
+   "front_md": "Why does the order of the two terms matter in the quotient rule?\n",
+   "back_md": "Because of the **minus sign** in the numerator: swapping the terms reverses the sign of the whole answer.\n\nThe term beginning with $v$, the bottom function, is the one that comes first.\n",
+   "spec_links": [
+    "spcpt_NMz2QnW3vCFZCZmm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wHmB537rGxM2BZB4",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_NY4qJzBnqFyDV26V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you recognise a quotient rule question written as `\\text{g} \\left(x\\right) \\left(\\text{h} \\left(x\\right)\\right)^{- 1}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A negative power applied to a whole function is a division in disguise, since `\\text{g} \\left(x\\right) \\left(\\text{h} \\left(x\\right)\\right)^{- 1} = \\frac{\\text{g} \\left(x\\right)}{\\text{h} \\left(x\\right)}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It can be done with the product and chain rules instead, but the quotient rule is usually quicker."
+    }
+   ],
+   "front_md": "How can you recognise a quotient rule question written as `\\text{g} \\left(x\\right) \\left(\\text{h} \\left(x\\right)\\right)^{- 1}`?\n",
+   "back_md": "A negative power applied to a whole function is a division in disguise, since `\\text{g} \\left(x\\right) \\left(\\text{h} \\left(x\\right)\\right)^{- 1} = \\frac{\\text{g} \\left(x\\right)}{\\text{h} \\left(x\\right)}`.\n\nIt can be done with the product and chain rules instead, but the quotient rule is usually quicker.\n",
+   "spec_links": [
+    "spcpt_NMz2QnW3vCFZCZmm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PM2n4V9vK6DHCpG2",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_NY4qJzBnqFyDV26V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate $y = \\frac{\\mathrm{sin}x}{x}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Taking $u = \\mathrm{sin} x$ and $v = x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{x\\mathrm{cos}x-\\mathrm{sin}x}{x^{2}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Answers from the quotient rule rarely simplify much, so leaving the result as a single fraction is normal."
+    }
+   ],
+   "front_md": "Differentiate $y = \\frac{\\mathrm{sin}x}{x}$.\n",
+   "back_md": "Taking $u = \\mathrm{sin} x$ and $v = x$:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{x\\mathrm{cos}x-\\mathrm{sin}x}{x^{2}}$\n\nAnswers from the quotient rule rarely simplify much, so leaving the result as a single fraction is normal.\n",
+   "spec_links": [
+    "spcpt_NMz2QnW3vCFZCZmm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fDkNhXDfgMVmbdWD",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_NY4qJzBnqFyDV26V",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every quotient has to be differentiated using the quotient rule."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A quotient that simplifies should be simplified first: $\\frac{x^{3}+x}{x}$ is just $x^{2} + 1$, which differentiates in one line."
+    },
+    {
+     "type": "paragraph",
+     "md": "The rule is for quotients that cannot be reduced to a sum of simpler terms."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery quotient has to be differentiated using the quotient rule.\n",
+   "back_md": "**False.**\n\nA quotient that simplifies should be simplified first: $\\frac{x^{3}+x}{x}$ is just $x^{2} + 1$, which differentiates in one line.\n\nThe rule is for quotients that cannot be reduced to a sum of simpler terms.\n",
+   "spec_links": [
+    "spcpt_NMz2QnW3vCFZCZmm"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qXDDCRmcGGSRB3Fr",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_6nxztCSj4ff6MhnJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the derivatives of these reciprocal trigonometric functions:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\sec x\\right) = \\_\\_\\_\\_\\_\\_`\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cot x\\right) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed derivatives are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\sec x\\right) = \\sec x \\tan x`\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cot x\\right) = - \\text{cosec}^{2} x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The third of the set is `\\frac{\\text{d}}{\\text{d} x} \\left(\\text{cosec} \\, x\\right) = - \\text{cosec} \\, x \\cot x`, and notice that the two functions beginning with \"co\" are the two carrying a minus sign."
+    }
+   ],
+   "front_md": "Complete the derivatives of these reciprocal trigonometric functions:\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\sec x\\right) = \\_\\_\\_\\_\\_\\_`\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cot x\\right) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed derivatives are:\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\sec x\\right) = \\sec x \\tan x`\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cot x\\right) = - \\text{cosec}^{2} x`\n\nThe third of the set is `\\frac{\\text{d}}{\\text{d} x} \\left(\\text{cosec} \\, x\\right) = - \\text{cosec} \\, x \\cot x`, and notice that the two functions beginning with \"co\" are the two carrying a minus sign.\n",
+   "spec_links": [
+    "spcpt_yM3rChg2z3sgcRPz"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_ydp2dkm7DrRB6KKH",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_6nxztCSj4ff6MhnJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you derive the derivative of $\\mathrm{sec} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write `\\sec x = \\left(\\cos x\\right)^{- 1}` and apply the **chain rule**."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `- \\left(\\cos x\\right)^{- 2} \\times \\left(- \\sin x\\right) = \\frac{\\sin x}{\\cos^{2} x}`, which splits into $\\mathrm{sec} x \\mathrm{tan} x$."
+    }
+   ],
+   "front_md": "How do you derive the derivative of $\\mathrm{sec} x$?\n",
+   "back_md": "Write `\\sec x = \\left(\\cos x\\right)^{- 1}` and apply the **chain rule**.\n\nThat gives `- \\left(\\cos x\\right)^{- 2} \\times \\left(- \\sin x\\right) = \\frac{\\sin x}{\\cos^{2} x}`, which splits into $\\mathrm{sec} x \\mathrm{tan} x$.\n",
+   "spec_links": [
+    "spcpt_yM3rChg2z3sgcRPz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RGCjZmHh5vJpVmBY",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_6nxztCSj4ff6MhnJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you derive the derivative of $\\mathrm{arcsin} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write $y = \\mathrm{arcsin} x$, so that $x = \\mathrm{sin} y$, and differentiate to get $\\frac{\\text{d}x}{\\text{d}y} = \\mathrm{cos} y$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking the reciprocal gives $\\frac{\\text{d}y}{\\text{d}x} = \\frac{1}{\\mathrm{cos}y}$, and $\\mathrm{sin}^{2} y + \\mathrm{cos}^{2} y \\equiv 1$ turns that into $\\frac{1}{\\sqrt{1-x^{2}}}$."
+    }
+   ],
+   "front_md": "How do you derive the derivative of $\\mathrm{arcsin} x$?\n",
+   "back_md": "Write $y = \\mathrm{arcsin} x$, so that $x = \\mathrm{sin} y$, and differentiate to get $\\frac{\\text{d}x}{\\text{d}y} = \\mathrm{cos} y$.\n\nTaking the reciprocal gives $\\frac{\\text{d}y}{\\text{d}x} = \\frac{1}{\\mathrm{cos}y}$, and $\\mathrm{sin}^{2} y + \\mathrm{cos}^{2} y \\equiv 1$ turns that into $\\frac{1}{\\sqrt{1-x^{2}}}$.\n",
+   "spec_links": [
+    "spcpt_yM3rChg2z3sgcRPz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZWzBCGqDGC6k9qQX",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_6nxztCSj4ff6MhnJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For which values of $x$ is the derivative of $\\mathrm{arcsin} x$ defined?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only for $- 1 < x < 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "At $x = \\pm 1$ the denominator $\\sqrt{1-x^{2}}$ becomes zero, which matches the graph of $\\mathrm{arcsin} x$ turning vertical at each end of its domain."
+    }
+   ],
+   "front_md": "For which values of $x$ is the derivative of $\\mathrm{arcsin} x$ defined?\n",
+   "back_md": "Only for $- 1 < x < 1$.\n\nAt $x = \\pm 1$ the denominator $\\sqrt{1-x^{2}}$ becomes zero, which matches the graph of $\\mathrm{arcsin} x$ turning vertical at each end of its domain.\n",
+   "spec_links": [
+    "spcpt_yM3rChg2z3sgcRPz"
+   ],
+   "flags": []
+  }
+ ]
+}

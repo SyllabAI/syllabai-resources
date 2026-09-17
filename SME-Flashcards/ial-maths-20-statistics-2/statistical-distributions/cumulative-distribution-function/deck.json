@@ -1,0 +1,383 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:57Z",
+ "course_slug": "ial-maths-20-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/flashcards/statistical-distributions/cumulative-distribution-function/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "cumulative-distribution-function",
+  "title": "Cumulative Distribution Function",
+  "order": 3
+ },
+ "card_count": 10,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 6,
+  "true_or_false": 2,
+  "fill_in_the_blanks": 1
+ },
+ "spec_link_cards": 10,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_nGx26PVJbjWpKXPW",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **cumulative distribution function** of a continuous random variable."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is `\\text{F} \\left(x_{0}\\right) = \\text{P} \\left(X \\le x_{0}\\right)`, the probability that $X$ takes a value less than or equal to $x_{0}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "On the graph of the probability density function this is the **area** under the curve up to the vertical line at $x = x_{0}$."
+    }
+   ],
+   "front_md": "Define the **cumulative distribution function** of a continuous random variable.\n",
+   "back_md": "It is `\\text{F} \\left(x_{0}\\right) = \\text{P} \\left(X \\le x_{0}\\right)`, the probability that $X$ takes a value less than or equal to $x_{0}$.\n\nOn the graph of the probability density function this is the **area** under the curve up to the vertical line at $x = x_{0}$.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xV4X39NkDtF3Kd5q",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between `\\text{F} \\left(x\\right)` and `\\text{f} \\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The capital $\\text{F}$ is always the **cumulative distribution function** and the lower-case $\\text{f}$ is always the **probability density function**, and the two are never used the other way round."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(x\\right)` is an accumulated probability, so it always lies between 0 and 1, whereas `\\text{f} \\left(x\\right)` is a density and is not a probability at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why `\\text{f} \\left(x\\right)` is allowed to be greater than 1 while `\\text{F} \\left(x\\right)` never is."
+    }
+   ],
+   "front_md": "What is the difference between `\\text{F} \\left(x\\right)` and `\\text{f} \\left(x\\right)`?\n",
+   "back_md": "The capital $\\text{F}$ is always the **cumulative distribution function** and the lower-case $\\text{f}$ is always the **probability density function**, and the two are never used the other way round.\n\n`\\text{F} \\left(x\\right)` is an accumulated probability, so it always lies between 0 and 1, whereas `\\text{f} \\left(x\\right)` is a density and is not a probability at all.\n\nThat is why `\\text{f} \\left(x\\right)` is allowed to be greater than 1 while `\\text{F} \\left(x\\right)` never is.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CbQBYjqgb7VknnpB",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For a continuous random variable `\\text{P} \\left(X = k\\right) = 0` for every $k$, so `\\text{F} \\left(k\\right)` must be 0 as well."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(k\\right)` is `\\text{P} \\left(X \\le k\\right)`, the whole accumulated probability up to $k$, and not the probability of the single value $k$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a variable can perfectly well have `\\text{P} \\left(X = 2\\right) = 0` and `\\text{F} \\left(2\\right) = 0 . 75` at the same time, and this slips past people far more easily when working with $\\text{F}$ than with $\\text{f}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor a continuous random variable `\\text{P} \\left(X = k\\right) = 0` for every $k$, so `\\text{F} \\left(k\\right)` must be 0 as well.\n",
+   "back_md": "**False.**\n\n`\\text{F} \\left(k\\right)` is `\\text{P} \\left(X \\le k\\right)`, the whole accumulated probability up to $k$, and not the probability of the single value $k$.\n\nSo a variable can perfectly well have `\\text{P} \\left(X = 2\\right) = 0` and `\\text{F} \\left(2\\right) = 0 . 75` at the same time, and this slips past people far more easily when working with $\\text{F}$ than with $\\text{f}$.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6GDHKVwtsVbstFQT",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "One of only two formulae in this module that the formula booklet does not give you links $\\text{f}$ and $\\text{F}$. Complete both directions:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(x\\right) = \\int_{- \\infty}^{x} \\_\\_\\_\\_\\_\\_ \\text{d} t`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f} \\left(x\\right) = \\frac{\\text{d}}{\\text{d} x} \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formulae are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(x\\right) = \\int_{- \\infty}^{x} \\text{f} \\left(t\\right) \\text{d} t`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f} \\left(x\\right) = \\frac{\\text{d}}{\\text{d} x} \\text{F} \\left(x\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating takes you from the density to the accumulated probability, and differentiating brings you straight back the other way."
+    },
+    {
+     "type": "paragraph",
+     "md": "The dummy variable $t$ in the first is there only because $x$ is already being used as the upper limit."
+    }
+   ],
+   "front_md": "One of only two formulae in this module that the formula booklet does not give you links $\\text{f}$ and $\\text{F}$. Complete both directions:\n\n`\\text{F} \\left(x\\right) = \\int_{- \\infty}^{x} \\_\\_\\_\\_\\_\\_ \\text{d} t`\n\n`\\text{f} \\left(x\\right) = \\frac{\\text{d}}{\\text{d} x} \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formulae are:\n\n`\\text{F} \\left(x\\right) = \\int_{- \\infty}^{x} \\text{f} \\left(t\\right) \\text{d} t`\n\n`\\text{f} \\left(x\\right) = \\frac{\\text{d}}{\\text{d} x} \\text{F} \\left(x\\right)`\n\nIntegrating takes you from the density to the accumulated probability, and differentiating brings you straight back the other way.\n\nThe dummy variable $t$ in the first is there only because $x$ is already being used as the upper limit.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_55yqZvHF6WpxbZy5",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph of a cumulative distribution function is always continuous, even when $\\text{F}$ is defined piecewise."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Because `\\text{P} \\left(X = k\\right) = 0` for a continuous variable, no probability is ever added in a single jump, so $\\text{F}$ cannot step upwards anywhere."
+    },
+    {
+     "type": "paragraph",
+     "md": "It climbs without breaks from 0 on the left to 1 on the right, so where two pieces meet their values must agree, which is the quickest check on a piecewise $\\text{F}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe graph of a cumulative distribution function is always continuous, even when $\\text{F}$ is defined piecewise.\n",
+   "back_md": "**True.**\n\nBecause `\\text{P} \\left(X = k\\right) = 0` for a continuous variable, no probability is ever added in a single jump, so $\\text{F}$ cannot step upwards anywhere.\n\nIt climbs without breaks from 0 on the left to 1 on the right, so where two pieces meet their values must agree, which is the quickest check on a piecewise $\\text{F}$.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mSWTYFZ7Kwm2qnyR",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Once you have `\\text{F} \\left(x\\right)`, how do you find `\\text{P} \\left(a \\le X \\le b\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Subtract one value of $\\text{F}$ from the other:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(a \\le X \\le b\\right) = \\text{F} \\left(b\\right) - \\text{F} \\left(a\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Everything accumulated up to $b$, less everything accumulated up to $a$, leaves exactly the probability in between."
+    },
+    {
+     "type": "paragraph",
+     "md": "Once $\\text{F}$ is known no integration is needed at all, which is what makes finding $\\text{F}$ first worth the effort when several probabilities are wanted."
+    }
+   ],
+   "front_md": "Once you have `\\text{F} \\left(x\\right)`, how do you find `\\text{P} \\left(a \\le X \\le b\\right)`?\n",
+   "back_md": "Subtract one value of $\\text{F}$ from the other:\n\n`\\text{P} \\left(a \\le X \\le b\\right) = \\text{F} \\left(b\\right) - \\text{F} \\left(a\\right)`\n\nEverything accumulated up to $b$, less everything accumulated up to $a$, leaves exactly the probability in between.\n\nOnce $\\text{F}$ is known no integration is needed at all, which is what makes finding $\\text{F}$ first worth the effort when several probabilities are wanted.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2XjPfKp5jc67S5Ck",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are building `\\text{F} \\left(x\\right)` from a piecewise `\\text{f} \\left(x\\right)`. Why is integrating each piece between its own limits not enough?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $\\text{F}$ **accumulates**, so each piece has to start from the total already reached at the end of the piece before it."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a second piece beginning at $x = a$ that gives:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(x\\right) = \\text{F} \\left(a\\right) + \\int_{a}^{x} \\text{f} \\left(t\\right) \\text{d} t`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Leaving out the `\\text{F} \\left(a\\right)` is the usual error, and it shows up as a function that fails to reach 1 at the top of the range."
+    }
+   ],
+   "front_md": "You are building `\\text{F} \\left(x\\right)` from a piecewise `\\text{f} \\left(x\\right)`. Why is integrating each piece between its own limits not enough?\n",
+   "back_md": "Because $\\text{F}$ **accumulates**, so each piece has to start from the total already reached at the end of the piece before it.\n\nFor a second piece beginning at $x = a$ that gives:\n\n`\\text{F} \\left(x\\right) = \\text{F} \\left(a\\right) + \\int_{a}^{x} \\text{f} \\left(t\\right) \\text{d} t`\n\nLeaving out the `\\text{F} \\left(a\\right)` is the usual error, and it shows up as a function that fails to reach 1 at the top of the range.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Mg5BgfS553Bpqp4X",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Part of a cumulative distribution function is constant over an interval. What does that tell you about the variable there?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That $X$ never takes a value in that interval, because no probability at all is being accumulated across it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probability density is zero right through the interval, so the graph of `\\text{f} \\left(x\\right)` has a gap exactly where the graph of `\\text{F} \\left(x\\right)` is flat."
+    },
+    {
+     "type": "paragraph",
+     "md": "A flat stretch of $\\text{F}$ is the c.d.f.'s way of showing a hole in the range of the variable."
+    }
+   ],
+   "front_md": "Part of a cumulative distribution function is constant over an interval. What does that tell you about the variable there?\n",
+   "back_md": "That $X$ never takes a value in that interval, because no probability at all is being accumulated across it.\n\nThe probability density is zero right through the interval, so the graph of `\\text{f} \\left(x\\right)` has a gap exactly where the graph of `\\text{F} \\left(x\\right)` is flat.\n\nA flat stretch of $\\text{F}$ is the c.d.f.'s way of showing a hole in the range of the variable.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HKyKHfpCPfCjPb9C",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the median and the lower quartile of $X$ from its cumulative distribution function?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Solve `\\text{F} \\left(m\\right) = 0 . 5` for the median and `\\text{F} \\left(Q_{1}\\right) = 0 . 25` for the lower quartile, and `\\text{F} \\left(p\\right) = \\frac{n}{100}` for the $n$th percentile."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because $\\text{F}$ gives the probability below a value directly, these are ordinary equations to solve rather than integrals to evaluate."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a piecewise $\\text{F}$, work out its value at the end of each piece first, so that you know which piece the answer lies in before solving anything."
+    }
+   ],
+   "front_md": "How do you find the median and the lower quartile of $X$ from its cumulative distribution function?\n",
+   "back_md": "Solve `\\text{F} \\left(m\\right) = 0 . 5` for the median and `\\text{F} \\left(Q_{1}\\right) = 0 . 25` for the lower quartile, and `\\text{F} \\left(p\\right) = \\frac{n}{100}` for the $n$th percentile.\n\nBecause $\\text{F}$ gives the probability below a value directly, these are ordinary equations to solve rather than integrals to evaluate.\n\nFor a piecewise $\\text{F}$, work out its value at the end of each piece first, so that you know which piece the answer lies in before solving anything.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cw6q3msG6qPhm3G5",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_THdWSYGn3XbcCMGK",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The continuous uniform distribution on $a \\leq x \\leq b$ has `\\text{f} \\left(x\\right) = \\frac{1}{b - a}`. Find its cumulative distribution function."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For $a \\leq x \\leq b$, `\\text{F} \\left(x\\right)` is the area of the rectangle from $a$ up to $x$, which is `\\left(x - a\\right) \\times \\frac{1}{b - a}`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{F} \\left(x\\right) = \\frac{x - a}{b - a}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "A full answer also states that `\\text{F} \\left(x\\right) = 0` for $x < a$ and `\\text{F} \\left(x\\right) = 1` for $x > b$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A rectangular density therefore gives a c.d.f. that climbs in a straight line, which is the simplest cumulative distribution function there is."
+    }
+   ],
+   "front_md": "The continuous uniform distribution on $a \\leq x \\leq b$ has `\\text{f} \\left(x\\right) = \\frac{1}{b - a}`. Find its cumulative distribution function.\n",
+   "back_md": "For $a \\leq x \\leq b$, `\\text{F} \\left(x\\right)` is the area of the rectangle from $a$ up to $x$, which is `\\left(x - a\\right) \\times \\frac{1}{b - a}`:\n\n`\\text{F} \\left(x\\right) = \\frac{x - a}{b - a}`\n\nA full answer also states that `\\text{F} \\left(x\\right) = 0` for $x < a$ and `\\text{F} \\left(x\\right) = 1` for $x > b$.\n\nA rectangular density therefore gives a c.d.f. that climbs in a straight line, which is the simplest cumulative distribution function there is.\n",
+   "spec_links": [
+    "spcpt_QTHzFn6gZrVKcRdG"
+   ],
+   "flags": []
+  }
+ ]
+}

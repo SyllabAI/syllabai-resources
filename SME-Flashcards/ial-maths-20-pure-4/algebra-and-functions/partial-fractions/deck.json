@@ -1,0 +1,393 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:26Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/algebra-and-functions/partial-fractions/",
+  "section_slug": "algebra-and-functions",
+  "section_name": "Algebra & Functions",
+  "topic_slug": "partial-fractions",
+  "title": "Partial Fractions",
+  "order": 0
+ },
+ "card_count": 12,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 7,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 12,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_pzpMvSMvbz4NmjQn",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **partial fractions**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Writing a single algebraic fraction as a **sum** of simpler fractions with smaller denominators."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the reverse of adding fractions: instead of finding a common denominator, you split one back into its parts."
+    }
+   ],
+   "front_md": "Define **partial fractions**.\n",
+   "back_md": "Writing a single algebraic fraction as a **sum** of simpler fractions with smaller denominators.\n\nIt is the reverse of adding fractions: instead of finding a common denominator, you split one back into its parts.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G6xftk66JtFKMPN4",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What form does a **linear factor** take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\left(a x + b\\right)`, with $x$ appearing to the first power only."
+    },
+    {
+     "type": "paragraph",
+     "md": "A denominator that is not itself linear can often be factorised into a product of such factors, and that is what makes the method work."
+    }
+   ],
+   "front_md": "What form does a **linear factor** take?\n",
+   "back_md": "`\\left(a x + b\\right)`, with $x$ appearing to the first power only.\n\nA denominator that is not itself linear can often be factorised into a product of such factors, and that is what makes the method work.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CVnNyJhQjwn8Xbw7",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the split into partial fractions:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{7 x + 1}{\\left(x + 2\\right) \\left(x - 3\\right)} \\equiv \\frac{A}{\\_\\_\\_\\_\\_\\_} + \\frac{B}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed split is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{7 x + 1}{\\left(x + 2\\right) \\left(x - 3\\right)} \\equiv \\frac{A}{x + 2} + \\frac{B}{x - 3}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each linear factor of the denominator gets a fraction of its own, with a constant on top."
+    }
+   ],
+   "front_md": "Complete the split into partial fractions:\n\n`\\frac{7 x + 1}{\\left(x + 2\\right) \\left(x - 3\\right)} \\equiv \\frac{A}{\\_\\_\\_\\_\\_\\_} + \\frac{B}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed split is:\n\n`\\frac{7 x + 1}{\\left(x + 2\\right) \\left(x - 3\\right)} \\equiv \\frac{A}{x + 2} + \\frac{B}{x - 3}`\n\nEach linear factor of the denominator gets a fraction of its own, with a constant on top.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_B2YT8NfPb9TTQc3c",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You have written `\\frac{7 x + 1}{\\left(x + 2\\right) \\left(x - 3\\right)} \\equiv \\frac{A}{x + 2} + \\frac{B}{x - 3}`. How do you find $A$ and $B$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply through by the whole denominator to clear the fractions, giving `7 x + 1 \\equiv A \\left(x - 3\\right) + B \\left(x + 2\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then substitute the values of $x$ that make each bracket zero, taking $x = 3$ and $x = - 2$ in turn."
+    }
+   ],
+   "front_md": "You have written `\\frac{7 x + 1}{\\left(x + 2\\right) \\left(x - 3\\right)} \\equiv \\frac{A}{x + 2} + \\frac{B}{x - 3}`. How do you find $A$ and $B$?\n",
+   "back_md": "Multiply through by the whole denominator to clear the fractions, giving `7 x + 1 \\equiv A \\left(x - 3\\right) + B \\left(x + 2\\right)`.\n\nThen substitute the values of $x$ that make each bracket zero, taking $x = 3$ and $x = - 2$ in turn.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dJNh79FQHKvsn3JT",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do you substitute the values of $x$ that make a bracket zero?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because each one **kills off** all but one of the unknown constants."
+    },
+    {
+     "type": "paragraph",
+     "md": "That leaves a single equation in a single unknown, which is far quicker than solving the constants simultaneously."
+    }
+   ],
+   "front_md": "Why do you substitute the values of $x$ that make a bracket zero?\n",
+   "back_md": "Because each one **kills off** all but one of the unknown constants.\n\nThat leaves a single equation in a single unknown, which is far quicker than solving the constants simultaneously.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xgqtpTspx3QTc8KD",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the alternative to substituting values of $x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Comparing coefficients** on the two sides of the identity."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two sides have to be equal for every value of $x$, so the number of $x^{2}$ terms, of $x$ terms and of constants must match separately."
+    }
+   ],
+   "front_md": "What is the alternative to substituting values of $x$?\n",
+   "back_md": "**Comparing coefficients** on the two sides of the identity.\n\nThe two sides have to be equal for every value of $x$, so the number of $x^{2}$ terms, of $x$ terms and of constants must match separately.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JsD28WrDprS2S9xK",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_ZfH4TnxC9VBGKcnx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are partial fractions actually used for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Binomial expansions** and **integration**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both are straightforward on a simple fraction and awkward on a compound one, so splitting first is what makes them workable."
+    }
+   ],
+   "front_md": "What are partial fractions actually used for?\n",
+   "back_md": "**Binomial expansions** and **integration**.\n\nBoth are straightforward on a simple fraction and awkward on a compound one, so splitting first is what makes them workable.\n",
+   "spec_links": [
+    "spcpt_xb6FKshx3XgKkYfc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JrQGhWCnZdRzkbDf",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_HyPdrJsgNDh6TH72",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `\\frac{4 x + 1}{\\left(x + 2\\right) \\left(x - 1\\right) \\left(x - 3\\right)^{2}}`, how many partial fractions are needed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Four**, not three."
+    },
+    {
+     "type": "paragraph",
+     "md": "The squared bracket contributes **two** factors, `\\left(x - 3\\right)` and `\\left(x - 3\\right)^{2}`, and each of them needs its own fraction."
+    }
+   ],
+   "front_md": "For `\\frac{4 x + 1}{\\left(x + 2\\right) \\left(x - 1\\right) \\left(x - 3\\right)^{2}}`, how many partial fractions are needed?\n",
+   "back_md": "**Four**, not three.\n\nThe squared bracket contributes **two** factors, `\\left(x - 3\\right)` and `\\left(x - 3\\right)^{2}`, and each of them needs its own fraction.\n",
+   "spec_links": [
+    "spcpt_f5fqHB9YCMFNPmSz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ywnHg4JGypFVY6K7",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_HyPdrJsgNDh6TH72",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the split:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{5}{\\left(x + 1\\right) \\left(x - 4\\right)^{2}} \\equiv \\frac{A}{x + 1} + \\frac{B}{\\_\\_\\_\\_\\_\\_} + \\frac{C}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\frac{5}{\\left(x + 1\\right) \\left(x - 4\\right)^{2}} \\equiv \\frac{A}{x + 1} + \\frac{B}{x - 4} + \\frac{C}{\\left(x - 4\\right)^{2}}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The three constants are then found in the usual way, by multiplying through and substituting values of $x$."
+    }
+   ],
+   "front_md": "Complete the split:\n\n`\\frac{5}{\\left(x + 1\\right) \\left(x - 4\\right)^{2}} \\equiv \\frac{A}{x + 1} + \\frac{B}{\\_\\_\\_\\_\\_\\_} + \\frac{C}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "`\\frac{5}{\\left(x + 1\\right) \\left(x - 4\\right)^{2}} \\equiv \\frac{A}{x + 1} + \\frac{B}{x - 4} + \\frac{C}{\\left(x - 4\\right)^{2}}`\n\nThe three constants are then found in the usual way, by multiplying through and substituting values of $x$.\n",
+   "spec_links": [
+    "spcpt_f5fqHB9YCMFNPmSz"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Q76wM83NdNRbMPQB",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_HyPdrJsgNDh6TH72",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **squared linear factor**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A factor of the form `\\left(a x + b\\right)^{2}`, that is a linear factor repeated."
+    },
+    {
+     "type": "paragraph",
+     "md": "The repetition is what makes it behave differently from two distinct linear factors."
+    }
+   ],
+   "front_md": "Define **squared linear factor**.\n",
+   "back_md": "A factor of the form `\\left(a x + b\\right)^{2}`, that is a linear factor repeated.\n\nThe repetition is what makes it behave differently from two distinct linear factors.\n",
+   "spec_links": [
+    "spcpt_f5fqHB9YCMFNPmSz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JwsdfNqJbt83xHFZ",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_HyPdrJsgNDh6TH72",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "An $x^{2}$ in a denominator counts as a squared linear factor."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A linear factor is `\\left(a x + b\\right)` and $b$ is allowed to be zero, so $x$ is linear and $x^{2}$ is its square."
+    },
+    {
+     "type": "paragraph",
+     "md": "Such a denominator therefore needs fractions over both $x$ and $x^{2}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAn $x^{2}$ in a denominator counts as a squared linear factor.\n",
+   "back_md": "**True.**\n\nA linear factor is `\\left(a x + b\\right)` and $b$ is allowed to be zero, so $x$ is linear and $x^{2}$ is its square.\n\nSuch a denominator therefore needs fractions over both $x$ and $x^{2}$.\n",
+   "spec_links": [
+    "spcpt_f5fqHB9YCMFNPmSz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bZbkDTBTqWwXbp9y",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_HyPdrJsgNDh6TH72",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is `\\frac{A}{x + 1} + \\frac{B}{\\left(x - 4\\right)^{2}}` not a complete split of `\\frac{5}{\\left(x + 1\\right) \\left(x - 4\\right)^{2}}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the term over `\\left(x - 4\\right)` is missing."
+    },
+    {
+     "type": "paragraph",
+     "md": "That leaves only two constants to match a numerator which in general needs three, so the identity cannot be made to hold for every value of $x$."
+    }
+   ],
+   "front_md": "Why is `\\frac{A}{x + 1} + \\frac{B}{\\left(x - 4\\right)^{2}}` not a complete split of `\\frac{5}{\\left(x + 1\\right) \\left(x - 4\\right)^{2}}`?\n",
+   "back_md": "Because the term over `\\left(x - 4\\right)` is missing.\n\nThat leaves only two constants to match a numerator which in general needs three, so the identity cannot be made to hold for every value of $x$.\n",
+   "spec_links": [
+    "spcpt_f5fqHB9YCMFNPmSz"
+   ],
+   "flags": []
+  }
+ ]
+}

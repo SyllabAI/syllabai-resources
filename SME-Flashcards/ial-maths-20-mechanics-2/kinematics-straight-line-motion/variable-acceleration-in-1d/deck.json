@@ -1,0 +1,238 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:42Z",
+ "course_slug": "ial-maths-20-mechanics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-2/flashcards/kinematics-straight-line-motion/variable-acceleration-in-1d/",
+  "section_slug": "kinematics-straight-line-motion",
+  "section_name": "Kinematics (Straight Line Motion)",
+  "topic_slug": "variable-acceleration-in-1d",
+  "title": "Variable Acceleration in 1D",
+  "order": 0
+ },
+ "card_count": 6,
+ "card_types": {
+  "fill_in_the_blanks": 1,
+  "question_and_answer": 4,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 6,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_Bgfh8cQ4nc9KTgDy",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_TcVmgzg8pJkmFy2J",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A particle's acceleration varies with time, so the suvat formulae cannot be used. Fill in the blanks to complete the calculus links:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiate `\\_\\_\\_\\_\\_\\_` to get velocity, and differentiate velocity to get `\\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed link is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiate **displacement** to get velocity, and differentiate velocity to get **acceleration**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating runs the same chain backwards: integrate acceleration to get velocity, and integrate velocity to get displacement."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each of the three is a function of time, and differentiating measures a **rate of change** with respect to time."
+    }
+   ],
+   "front_md": "A particle's acceleration varies with time, so the suvat formulae cannot be used. Fill in the blanks to complete the calculus links:\n\nDifferentiate `\\_\\_\\_\\_\\_\\_` to get velocity, and differentiate velocity to get `\\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed link is:\n\nDifferentiate **displacement** to get velocity, and differentiate velocity to get **acceleration**.\n\nIntegrating runs the same chain backwards: integrate acceleration to get velocity, and integrate velocity to get displacement.\n\nEach of the three is a function of time, and differentiating measures a **rate of change** with respect to time.\n",
+   "spec_links": [
+    "spcpt_JqNkg4qXvkzKyC8N"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_fdDMxrgdX3RMZXZB",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_TcVmgzg8pJkmFy2J",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a velocity-time graph that is a **curve**, how do you find the acceleration at a particular moment, and the displacement over an interval?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Differentiate** to find the acceleration at a moment, and **integrate** to find the displacement over an interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because the graph curves, the gradient differs at every point and the region under it is not made of triangles and rectangles whose areas can simply be added."
+    },
+    {
+     "type": "paragraph",
+     "md": "Calculus does both jobs: the derivative gives the gradient at a point, and the definite integral gives the area under the curve."
+    }
+   ],
+   "front_md": "On a velocity-time graph that is a **curve**, how do you find the acceleration at a particular moment, and the displacement over an interval?\n",
+   "back_md": "**Differentiate** to find the acceleration at a moment, and **integrate** to find the displacement over an interval.\n\nBecause the graph curves, the gradient differs at every point and the region under it is not made of triangles and rectangles whose areas can simply be added.\n\nCalculus does both jobs: the derivative gives the gradient at a point, and the definite integral gives the area under the curve.\n",
+   "spec_links": [
+    "spcpt_JqNkg4qXvkzKyC8N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q5h4x3dMWczSJRg9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_TcVmgzg8pJkmFy2J",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A kinematics question says a particle **starts from rest**. What does that tell you, and what do you use it for?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Starting from rest means the velocity is zero at the start, so $v = 0$ when $t = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is a pair of matching values, exactly what is needed to find the **constant of integration**: substitute both into the expression after integrating and solve for the constant."
+    },
+    {
+     "type": "paragraph",
+     "md": "The word **initially** does the same job on its own: it means $t = 0$."
+    }
+   ],
+   "front_md": "A kinematics question says a particle **starts from rest**. What does that tell you, and what do you use it for?\n",
+   "back_md": "Starting from rest means the velocity is zero at the start, so $v = 0$ when $t = 0$.\n\nThat is a pair of matching values, exactly what is needed to find the **constant of integration**: substitute both into the expression after integrating and solve for the constant.\n\nThe word **initially** does the same job on its own: it means $t = 0$.\n",
+   "spec_links": [
+    "spcpt_JqNkg4qXvkzKyC8N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_F3YRsv4yQqzB8bnc",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_TcVmgzg8pJkmFy2J",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A particle's velocity changes sign between $t = 0$ and $t = 3$. Why does `\\int_{0}^{3} v \\text{ d}t` not give the distance it has travelled?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That integral gives the **displacement**, not the distance."
+    },
+    {
+     "type": "paragraph",
+     "md": "While the velocity is negative the particle is moving backwards, and the integral counts that motion as negative, so it subtracts from the total instead of adding to it."
+    },
+    {
+     "type": "paragraph",
+     "md": "To find the distance, first find the times when $v = 0$, the moments the particle turns round, then integrate between each consecutive pair and add the **sizes** of the results, ignoring their signs."
+    }
+   ],
+   "front_md": "A particle's velocity changes sign between $t = 0$ and $t = 3$. Why does `\\int_{0}^{3} v \\text{ d}t` not give the distance it has travelled?\n",
+   "back_md": "That integral gives the **displacement**, not the distance.\n\nWhile the velocity is negative the particle is moving backwards, and the integral counts that motion as negative, so it subtracts from the total instead of adding to it.\n\nTo find the distance, first find the times when $v = 0$, the moments the particle turns round, then integrate between each consecutive pair and add the **sizes** of the results, ignoring their signs.\n",
+   "spec_links": [
+    "spcpt_JqNkg4qXvkzKyC8N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7X8pbYnndPNDpwhT",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_TcVmgzg8pJkmFy2J",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You can assume that integrating a particle's acceleration between two times gives its velocity at the later time."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating acceleration between two times gives the **change** in velocity over that interval, not the velocity itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "To get the velocity at the later time, add that change to the velocity at the earlier time."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two only happen to agree when the particle was at rest at the earlier time, since then the change and the final velocity are the same number."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou can assume that integrating a particle's acceleration between two times gives its velocity at the later time.\n",
+   "back_md": "**False.**\n\nIntegrating acceleration between two times gives the **change** in velocity over that interval, not the velocity itself.\n\nTo get the velocity at the later time, add that change to the velocity at the earlier time.\n\nThe two only happen to agree when the particle was at rest at the earlier time, since then the change and the final velocity are the same number.\n",
+   "spec_links": [
+    "spcpt_JqNkg4qXvkzKyC8N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CwxSDQwJKkSMfbrX",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_TcVmgzg8pJkmFy2J",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A particle's velocity is given as $v = 3 \\text{e}^{0.5t}$ rather than as a polynomial. What changes about the way you find its displacement?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Nothing about the method changes: the displacement is still found by integrating the velocity, and the constant of integration is still found by substituting a known pair of values."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the **integration itself** is different, because a different technique is needed for an exponential than for a polynomial."
+    },
+    {
+     "type": "paragraph",
+     "md": "The links between displacement, velocity and acceleration do not depend on what kind of function of $t$ you have been given."
+    }
+   ],
+   "front_md": "A particle's velocity is given as $v = 3 \\text{e}^{0.5t}$ rather than as a polynomial. What changes about the way you find its displacement?\n",
+   "back_md": "Nothing about the method changes: the displacement is still found by integrating the velocity, and the constant of integration is still found by substituting a known pair of values.\n\nOnly the **integration itself** is different, because a different technique is needed for an exponential than for a polynomial.\n\nThe links between displacement, velocity and acceleration do not depend on what kind of function of $t$ you have been given.\n",
+   "spec_links": [
+    "spcpt_JqNkg4qXvkzKyC8N"
+   ],
+   "flags": []
+  }
+ ]
+}

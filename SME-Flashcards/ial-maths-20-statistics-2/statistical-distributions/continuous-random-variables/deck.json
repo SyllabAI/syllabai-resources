@@ -1,0 +1,799 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:56Z",
+ "course_slug": "ial-maths-20-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/flashcards/statistical-distributions/continuous-random-variables/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "continuous-random-variables",
+  "title": "Continuous Random Variables",
+  "order": 2
+ },
+ "card_count": 23,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 16,
+  "fill_in_the_blanks": 1,
+  "true_or_false": 3
+ },
+ "spec_link_cards": 23,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_Kjtn2F4j3P8jnZxW",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **probability density function**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **probability density function** is a function used to model how probability is spread across the values of a **continuous** random variable."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is written `\\text{f} \\left(x\\right)` and is usually given **piecewise**, with a rule for each part of the range and 0 everywhere else."
+    },
+    {
+     "type": "paragraph",
+     "md": "It has to be defined for every real value of $x$, so a complete answer includes the parts where `\\text{f} \\left(x\\right) = 0`."
+    }
+   ],
+   "front_md": "Define a **probability density function**.\n",
+   "back_md": "A **probability density function** is a function used to model how probability is spread across the values of a **continuous** random variable.\n\nIt is written `\\text{f} \\left(x\\right)` and is usually given **piecewise**, with a rule for each part of the range and 0 everywhere else.\n\nIt has to be defined for every real value of $x$, so a complete answer includes the parts where `\\text{f} \\left(x\\right) = 0`.\n",
+   "spec_links": [
+    "spcpt_JMz3SfGShXWm8TqR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PNDY2yhrgMMWTsdZ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two conditions must a function satisfy before it can be a probability density function?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It can never be **negative**, so `\\text{f} \\left(x\\right) \\ge 0` for every value of $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The total **area** under its graph must come to exactly 1:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{- \\infty}^{\\infty} \\text{f} \\left(x\\right) \\text{d} x = 1`"
+    },
+    {
+     "type": "paragraph",
+     "md": "These are the continuous versions of `\\text{P} \\left(X = x\\right) \\ge 0` and `\\Sigma \\text{P} \\left(X = x\\right) = 1`, and showing that a given function can represent a p.d.f. means checking both of them."
+    }
+   ],
+   "front_md": "What two conditions must a function satisfy before it can be a probability density function?\n",
+   "back_md": "It can never be **negative**, so `\\text{f} \\left(x\\right) \\ge 0` for every value of $x$.\n\nThe total **area** under its graph must come to exactly 1:\n\n`\\int_{- \\infty}^{\\infty} \\text{f} \\left(x\\right) \\text{d} x = 1`\n\nThese are the continuous versions of `\\text{P} \\left(X = x\\right) \\ge 0` and `\\Sigma \\text{P} \\left(X = x\\right) = 1`, and showing that a given function can represent a p.d.f. means checking both of them.\n",
+   "spec_links": [
+    "spcpt_JMz3SfGShXWm8TqR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WPbBQSVBkRdt3TtQ",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "This is one of only two formulae in this module that the formula booklet does not give you. Complete it:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(a \\le X \\le b\\right) = \\int_{a}^{b} \\_\\_\\_\\_\\_\\_ \\text{d} x`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(a \\le X \\le b\\right) = \\int_{a}^{b} \\text{f} \\left(x\\right) \\text{d} x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral is the **area** under the graph of `y = \\text{f} \\left(x\\right)` between $a$ and $b$, and for a continuous variable that area is what a probability is."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since `\\text{P} \\left(X = n\\right) = 0` for every $n$, the endpoints contribute nothing, so `\\text{P} \\left(a \\le X \\le b\\right)` and `\\text{P} \\left(a < X < b\\right)` come to the same thing."
+    }
+   ],
+   "front_md": "This is one of only two formulae in this module that the formula booklet does not give you. Complete it:\n\n`\\text{P} \\left(a \\le X \\le b\\right) = \\int_{a}^{b} \\_\\_\\_\\_\\_\\_ \\text{d} x`\n",
+   "back_md": "The completed formula is:\n\n`\\text{P} \\left(a \\le X \\le b\\right) = \\int_{a}^{b} \\text{f} \\left(x\\right) \\text{d} x`\n\nThe integral is the **area** under the graph of `y = \\text{f} \\left(x\\right)` between $a$ and $b$, and for a continuous variable that area is what a probability is.\n\nSince `\\text{P} \\left(X = n\\right) = 0` for every $n$, the endpoints contribute nothing, so `\\text{P} \\left(a \\le X \\le b\\right)` and `\\text{P} \\left(a < X < b\\right)` come to the same thing.\n",
+   "spec_links": [
+    "spcpt_JMz3SfGShXWm8TqR"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JmDs4Y52pV3mMkGg",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph of a probability density function must be continuous."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It may jump, and it need not start or finish on the horizontal axis: a perfectly good `\\text{f} \\left(x\\right)` can climb to a height of 1 at $x = 1$, drop straight to zero, and start again at $x = 1 . 5$."
+    },
+    {
+     "type": "paragraph",
+     "md": "What matters is the **area** underneath rather than whether the curve joins up, and a gap in the graph simply means the variable never takes values there."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe graph of a probability density function must be continuous.\n",
+   "back_md": "**False.**\n\nIt may jump, and it need not start or finish on the horizontal axis: a perfectly good `\\text{f} \\left(x\\right)` can climb to a height of 1 at $x = 1$, drop straight to zero, and start again at $x = 1 . 5$.\n\nWhat matters is the **area** underneath rather than whether the curve joins up, and a gap in the graph simply means the variable never takes values there.\n",
+   "spec_links": [
+    "spcpt_JMz3SfGShXWm8TqR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FQX6MXpV6MsGSxd5",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A p.d.f. is defined piecewise, and the range you want spans two of its pieces. How do you find the probability?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split the integral at the boundary between the pieces and add the two results together."
+    },
+    {
+     "type": "paragraph",
+     "md": "If one rule holds on $1 \\leq x \\leq 2$ and another on $2 \\leq x \\leq 6$, then `\\text{P} \\left(1 . 5 \\le X \\le 2 . 5\\right)` means integrating the first rule from 1.5 to 2 and the second from 2 to 2.5."
+    },
+    {
+     "type": "paragraph",
+     "md": "Using a single rule right across the range is the usual error, and it produces the area under the wrong graph."
+    }
+   ],
+   "front_md": "A p.d.f. is defined piecewise, and the range you want spans two of its pieces. How do you find the probability?\n",
+   "back_md": "Split the integral at the boundary between the pieces and add the two results together.\n\nIf one rule holds on $1 \\leq x \\leq 2$ and another on $2 \\leq x \\leq 6$, then `\\text{P} \\left(1 . 5 \\le X \\le 2 . 5\\right)` means integrating the first rule from 1.5 to 2 and the second from 2 to 2.5.\n\nUsing a single rule right across the range is the usual error, and it produces the area under the wrong graph.\n",
+   "spec_links": [
+    "spcpt_JMz3SfGShXWm8TqR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nqCdg2CZqNsWkt5J",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are told that `\\text{P} \\left(0 \\le X \\le a\\right) = 0 . 09` and asked to find $a$. How do you set that up?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write down the same integral as usual but with $a$ as the unknown upper limit, then set the result equal to 0.09 and solve."
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating leaves an expression in $a$, so what started as a probability question turns into an ordinary equation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Check at the end that the value you get lies inside the range on which that piece of `\\text{f} \\left(x\\right)` is defined."
+    }
+   ],
+   "front_md": "You are told that `\\text{P} \\left(0 \\le X \\le a\\right) = 0 . 09` and asked to find $a$. How do you set that up?\n",
+   "back_md": "Write down the same integral as usual but with $a$ as the unknown upper limit, then set the result equal to 0.09 and solve.\n\nIntegrating leaves an expression in $a$, so what started as a probability question turns into an ordinary equation.\n\nCheck at the end that the value you get lies inside the range on which that piece of `\\text{f} \\left(x\\right)` is defined.\n",
+   "spec_links": [
+    "spcpt_JMz3SfGShXWm8TqR"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bcvSSqpPdQmpNWBz",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What equation does the median $m$ of a continuous random variable satisfy?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The median splits the distribution into two equal halves, so `\\text{P} \\left(X < m\\right) = \\text{P} \\left(X > m\\right) = 0 . 5`, and it is found by solving:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{- \\infty}^{m} \\text{f} \\left(x\\right) \\text{d} x = 0 . 5`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Where the graph of `y = \\text{f} \\left(x\\right)` is **symmetrical** the median can be written down without integrating at all, since it sits on the axis of symmetry."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a piecewise `\\text{f} \\left(x\\right)`, work out which piece the median falls in before deciding what to integrate."
+    }
+   ],
+   "front_md": "What equation does the median $m$ of a continuous random variable satisfy?\n",
+   "back_md": "The median splits the distribution into two equal halves, so `\\text{P} \\left(X < m\\right) = \\text{P} \\left(X > m\\right) = 0 . 5`, and it is found by solving:\n\n`\\int_{- \\infty}^{m} \\text{f} \\left(x\\right) \\text{d} x = 0 . 5`\n\nWhere the graph of `y = \\text{f} \\left(x\\right)` is **symmetrical** the median can be written down without integrating at all, since it sits on the axis of symmetry.\n\nFor a piecewise `\\text{f} \\left(x\\right)`, work out which piece the median falls in before deciding what to integrate.\n",
+   "spec_links": [
+    "spcpt_yyQVJRMwfJDN5gPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TGtvDsKmkJ7Q4W27",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For the 15th percentile $k$ of a continuous random variable, do you solve `\\text{P} \\left(X \\le k\\right) = 0 . 15` or `\\text{P} \\left(X \\ge k\\right) = 0 . 15`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\le k\\right) = 0 . 15`, because a percentile is fixed by how much of the distribution lies **below** it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving `\\text{P} \\left(X \\ge k\\right) = 0 . 15` would leave 85% below $k$, so it gives the **85th** percentile instead."
+    },
+    {
+     "type": "paragraph",
+     "md": "The quartiles work the same way, with `\\text{P} \\left(X \\le Q_{1}\\right) = 0 . 25` for the lower quartile and `\\text{P} \\left(X \\le Q_{3}\\right) = 0 . 75` for the upper."
+    }
+   ],
+   "front_md": "For the 15th percentile $k$ of a continuous random variable, do you solve `\\text{P} \\left(X \\le k\\right) = 0 . 15` or `\\text{P} \\left(X \\ge k\\right) = 0 . 15`?\n",
+   "back_md": "`\\text{P} \\left(X \\le k\\right) = 0 . 15`, because a percentile is fixed by how much of the distribution lies **below** it.\n\nSolving `\\text{P} \\left(X \\ge k\\right) = 0 . 15` would leave 85% below $k$, so it gives the **85th** percentile instead.\n\nThe quartiles work the same way, with `\\text{P} \\left(X \\le Q_{1}\\right) = 0 . 25` for the lower quartile and `\\text{P} \\left(X \\le Q_{3}\\right) = 0 . 75` for the upper.\n",
+   "spec_links": [
+    "spcpt_yyQVJRMwfJDN5gPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_h25K4h7gdtVJTNfR",
+   "card_type": "keyword_definition",
+   "order": 8,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **mode** of a continuous random variable."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **mode** is the value of $x$ that makes `\\text{f} \\left(x\\right)` as large as possible."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the place where the probability density is greatest, which on the graph is the highest point reached by the curve."
+    },
+    {
+     "type": "paragraph",
+     "md": "Note that the mode is that value of $x$, not the height `\\text{f} \\left(x\\right)` reaches there."
+    }
+   ],
+   "front_md": "Define the **mode** of a continuous random variable.\n",
+   "back_md": "The **mode** is the value of $x$ that makes `\\text{f} \\left(x\\right)` as large as possible.\n\nIt is the place where the probability density is greatest, which on the graph is the highest point reached by the curve.\n\nNote that the mode is that value of $x$, not the height `\\text{f} \\left(x\\right)` reaches there.\n",
+   "spec_links": [
+    "spcpt_yyQVJRMwfJDN5gPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FwTcQ6NRGq3y84Jm",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_gyYcYbfKSjvqJRnc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The graph of a p.d.f. is a curve with a maximum point inside its range. How do you find the mode?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate and solve `\\text{f}' \\left(x\\right) = 0`, exactly as you would for any stationary point."
+    },
+    {
+     "type": "paragraph",
+     "md": "If that gives more than one solution, discard any that fall outside the range on which `\\text{f} \\left(x\\right)` is defined, and use `\\text{f}'' \\left(x\\right)` to decide which of the survivors is a maximum."
+    },
+    {
+     "type": "paragraph",
+     "md": "The **endpoints** of the range are worth checking too, since the greatest value of `\\text{f} \\left(x\\right)` can occur at one of them without being a stationary point."
+    }
+   ],
+   "front_md": "The graph of a p.d.f. is a curve with a maximum point inside its range. How do you find the mode?\n",
+   "back_md": "Differentiate and solve `\\text{f}' \\left(x\\right) = 0`, exactly as you would for any stationary point.\n\nIf that gives more than one solution, discard any that fall outside the range on which `\\text{f} \\left(x\\right)` is defined, and use `\\text{f}'' \\left(x\\right)` to decide which of the survivors is a maximum.\n\nThe **endpoints** of the range are worth checking too, since the greatest value of `\\text{f} \\left(x\\right)` can occur at one of them without being a stationary point.\n",
+   "spec_links": [
+    "spcpt_yyQVJRMwfJDN5gPx"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KGZR7W2mtzSHVTJ9",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_YTMMd4YTrPxt4jc4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a discrete random variable the mean is `\\Sigma x \\text{P} \\left(X = x\\right)`. What is the continuous version doing in place of that sum?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The formula booklet gives `\\text{E} \\left(X\\right) = \\mu = \\int_{- \\infty}^{\\infty} x \\text{f} \\left(x\\right) \\text{d} x`, which weights each value of $x$ by how much probability sits near it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral replaces the sum because a continuous variable has infinitely many possible values, so probability is spread out as a **density** rather than heaped on individual values."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why `\\text{f} \\left(x\\right)` stands where `\\text{P} \\left(X = x\\right)` stood, even though `\\text{f} \\left(x\\right)` is not itself a probability."
+    }
+   ],
+   "front_md": "For a discrete random variable the mean is `\\Sigma x \\text{P} \\left(X = x\\right)`. What is the continuous version doing in place of that sum?\n",
+   "back_md": "The formula booklet gives `\\text{E} \\left(X\\right) = \\mu = \\int_{- \\infty}^{\\infty} x \\text{f} \\left(x\\right) \\text{d} x`, which weights each value of $x$ by how much probability sits near it.\n\nThe integral replaces the sum because a continuous variable has infinitely many possible values, so probability is spread out as a **density** rather than heaped on individual values.\n\nThat is why `\\text{f} \\left(x\\right)` stands where `\\text{P} \\left(X = x\\right)` stood, even though `\\text{f} \\left(x\\right)` is not itself a probability.\n",
+   "spec_links": [
+    "spcpt_dH2h38ZK6svbtC8J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WpWwTPs75PDCT6k3",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_YTMMd4YTrPxt4jc4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The mean of a continuous random variable is written with limits of $- \\infty$ and $\\infty$. Why do you almost never integrate between those limits?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because `\\text{f} \\left(x\\right)` is zero outside the range where the variable actually lives, and a zero integrand contributes nothing."
+    },
+    {
+     "type": "paragraph",
+     "md": "So for an `\\text{f} \\left(x\\right)` defined on $0 \\leq x \\leq 2$ and zero elsewhere, the mean is simply `\\text{E} \\left(X\\right) = \\int_{0}^{2} x \\text{f} \\left(x\\right) \\text{d} x`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Where `\\text{f} \\left(x\\right)` has several non-zero pieces the integral has to be split across all of them and the results added."
+    }
+   ],
+   "front_md": "The mean of a continuous random variable is written with limits of $- \\infty$ and $\\infty$. Why do you almost never integrate between those limits?\n",
+   "back_md": "Because `\\text{f} \\left(x\\right)` is zero outside the range where the variable actually lives, and a zero integrand contributes nothing.\n\nSo for an `\\text{f} \\left(x\\right)` defined on $0 \\leq x \\leq 2$ and zero elsewhere, the mean is simply `\\text{E} \\left(X\\right) = \\int_{0}^{2} x \\text{f} \\left(x\\right) \\text{d} x`.\n\nWhere `\\text{f} \\left(x\\right)` has several non-zero pieces the integral has to be split across all of them and the results added.\n",
+   "spec_links": [
+    "spcpt_dH2h38ZK6svbtC8J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jwSSg4hc42Hmsncm",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_YTMMd4YTrPxt4jc4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The graph of `y = \\text{f} \\left(x\\right)` is symmetrical about $x = 3$. What is `\\text{E} \\left(X\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X\\right) = 3`, with no integration needed at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "The mean is the balance point of the distribution, and a symmetrical shape balances on its axis of symmetry."
+    },
+    {
+     "type": "paragraph",
+     "md": "Looking for symmetry before reaching for the integral saves a great deal of work, and it also gives you a way to check an answer you have integrated for."
+    }
+   ],
+   "front_md": "The graph of `y = \\text{f} \\left(x\\right)` is symmetrical about $x = 3$. What is `\\text{E} \\left(X\\right)`?\n",
+   "back_md": "`\\text{E} \\left(X\\right) = 3`, with no integration needed at all.\n\nThe mean is the balance point of the distribution, and a symmetrical shape balances on its axis of symmetry.\n\nLooking for symmetry before reaching for the integral saves a great deal of work, and it also gives you a way to check an answer you have integrated for.\n",
+   "spec_links": [
+    "spcpt_dH2h38ZK6svbtC8J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4mR3grk6c82yynHk",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_YTMMd4YTrPxt4jc4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For a continuous random variable, `\\int_{- \\infty}^{\\infty} x^{2} \\text{f} \\left(x\\right) \\text{d} x` is the variance."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "That integral is `\\text{E} \\left(X^{2}\\right)`, the **mean of the squares**, and the variance is what is left once the **square of the mean** has been taken away from it:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{Var} \\left(X\\right) = \\text{E} \\left(X^{2}\\right) - \\left[\\text{E} \\left(X\\right)\\right]^{2}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Stopping at the integral is the commonest way to get a variance wrong, and the giveaway is an answer that comes out far too large."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor a continuous random variable, `\\int_{- \\infty}^{\\infty} x^{2} \\text{f} \\left(x\\right) \\text{d} x` is the variance.\n",
+   "back_md": "**False.**\n\nThat integral is `\\text{E} \\left(X^{2}\\right)`, the **mean of the squares**, and the variance is what is left once the **square of the mean** has been taken away from it:\n\n`\\text{Var} \\left(X\\right) = \\text{E} \\left(X^{2}\\right) - \\left[\\text{E} \\left(X\\right)\\right]^{2}`\n\nStopping at the integral is the commonest way to get a variance wrong, and the giveaway is an answer that comes out far too large.\n",
+   "spec_links": [
+    "spcpt_dH2h38ZK6svbtC8J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qwkc2rCbQvXHxWJX",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_YTMMd4YTrPxt4jc4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The formula booklet gives `\\text{E} \\left(\\text{g} \\left(X\\right)\\right) = \\int_{- \\infty}^{\\infty} \\text{g} \\left(x\\right) \\text{f} \\left(x\\right) \\text{d} x`. What does it let you find?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The expected value of **any** function of $X$, such as `\\text{E} \\left(X^{2}\\right)`, `\\text{E} \\left(\\frac{1}{X}\\right)` or `\\text{E} \\left(\\sqrt{X}\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "You multiply that function by `\\text{f} \\left(x\\right)` and integrate, exactly as for the mean but with `\\text{g} \\left(x\\right)` standing where $x$ stood."
+    },
+    {
+     "type": "paragraph",
+     "md": "What you must **not** do is work out `\\text{E} \\left(X\\right)` and then feed it into $\\text{g}$, because the mean of a function is not in general the function of the mean."
+    }
+   ],
+   "front_md": "The formula booklet gives `\\text{E} \\left(\\text{g} \\left(X\\right)\\right) = \\int_{- \\infty}^{\\infty} \\text{g} \\left(x\\right) \\text{f} \\left(x\\right) \\text{d} x`. What does it let you find?\n",
+   "back_md": "The expected value of **any** function of $X$, such as `\\text{E} \\left(X^{2}\\right)`, `\\text{E} \\left(\\frac{1}{X}\\right)` or `\\text{E} \\left(\\sqrt{X}\\right)`.\n\nYou multiply that function by `\\text{f} \\left(x\\right)` and integrate, exactly as for the mean but with `\\text{g} \\left(x\\right)` standing where $x$ stood.\n\nWhat you must **not** do is work out `\\text{E} \\left(X\\right)` and then feed it into $\\text{g}$, because the mean of a function is not in general the function of the mean.\n",
+   "spec_links": [
+    "spcpt_dH2h38ZK6svbtC8J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mGr66YxK7Mv5B4fW",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_YTMMd4YTrPxt4jc4",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must be found before the variance of a continuous random variable can be calculated?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **mean**, because $μ^{2}$ appears inside the variance formula."
+    },
+    {
+     "type": "paragraph",
+     "md": "The variance is not self-contained: whichever form of it you use, `\\text{E} \\left(X\\right)` has to be found and squared before anything can be subtracted."
+    },
+    {
+     "type": "paragraph",
+     "md": "If a variance comes out negative then the subtraction has gone the wrong way round, since a variance can never be less than zero."
+    }
+   ],
+   "front_md": "What must be found before the variance of a continuous random variable can be calculated?\n",
+   "back_md": "The **mean**, because $μ^{2}$ appears inside the variance formula.\n\nThe variance is not self-contained: whichever form of it you use, `\\text{E} \\left(X\\right)` has to be found and squared before anything can be subtracted.\n\nIf a variance comes out negative then the subtraction has gone the wrong way round, since a variance can never be less than zero.\n",
+   "spec_links": [
+    "spcpt_dH2h38ZK6svbtC8J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sXMkYXW5qWDXvssj",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **continuous uniform distribution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **continuous uniform distribution**, also called the **rectangular distribution**, is a continuous distribution whose probability density is **constant** over a range $a \\leq x \\leq b$ and zero everywhere outside it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its graph is therefore a rectangle standing on the horizontal axis between $a$ and $b$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is one of the two named special cases of a probability density function met on this course, the other being the normal distribution."
+    }
+   ],
+   "front_md": "Define the **continuous uniform distribution**.\n",
+   "back_md": "The **continuous uniform distribution**, also called the **rectangular distribution**, is a continuous distribution whose probability density is **constant** over a range $a \\leq x \\leq b$ and zero everywhere outside it.\n\nIts graph is therefore a rectangle standing on the horizontal axis between $a$ and $b$.\n\nIt is one of the two named special cases of a probability density function met on this course, the other being the normal distribution.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DRrCz84p5bvcgrgC",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A continuous uniform distribution on $a \\leq x \\leq b$ has a constant probability density. Why must that constant be $\\frac{1}{b-a}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the area under any probability density function has to come to 1, and this one is a rectangle."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its width is $b - a$, so its height $h$ has to satisfy `h \\left(b - a\\right) = 1`, which gives $h = \\frac{1}{b-a}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The height is forced by the width: once you know where the distribution starts and stops, there is no freedom left in it at all."
+    }
+   ],
+   "front_md": "A continuous uniform distribution on $a \\leq x \\leq b$ has a constant probability density. Why must that constant be $\\frac{1}{b-a}$?\n",
+   "back_md": "Because the area under any probability density function has to come to 1, and this one is a rectangle.\n\nIts width is $b - a$, so its height $h$ has to satisfy `h \\left(b - a\\right) = 1`, which gives $h = \\frac{1}{b-a}$.\n\nThe height is forced by the width: once you know where the distribution starts and stops, there is no freedom left in it at all.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vxQSNFm8cmgDy9GC",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$X$ is uniformly distributed on $1 . 5 \\leq x \\leq 4$. Find `\\text{P} \\left(2 . 5 \\le X \\le 3\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probability is the area of a rectangle of width $3 - 2 . 5 = 0 . 5$ and height $\\frac{1}{4-1.5} = 0 . 4$, so it comes to $0 . 5 \\times 0 . 4 = 0 . 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every probability for a uniform distribution works out this way, so integration is never needed for one."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same answer can be read straight off as $\\frac{0.5}{2.5}$, the part of the range you want divided by the whole range."
+    }
+   ],
+   "front_md": "$X$ is uniformly distributed on $1 . 5 \\leq x \\leq 4$. Find `\\text{P} \\left(2 . 5 \\le X \\le 3\\right)`.\n",
+   "back_md": "The probability is the area of a rectangle of width $3 - 2 . 5 = 0 . 5$ and height $\\frac{1}{4-1.5} = 0 . 4$, so it comes to $0 . 5 \\times 0 . 4 = 0 . 2$.\n\nEvery probability for a uniform distribution works out this way, so integration is never needed for one.\n\nThe same answer can be read straight off as $\\frac{0.5}{2.5}$, the part of the range you want divided by the whole range.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k3TgNvYxycW48PK4",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The formula booklet gives `\\text{E} \\left(X\\right) = \\frac{1}{2} \\left(a + b\\right)` for a continuous uniform distribution. How is that result obtained?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Evaluate the mean integral with the constant density substituted in:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X\\right) = \\int_{a}^{b} \\frac{x}{b - a} \\text{d} x = \\left[\\frac{x^{2}}{2 \\left(b - a\\right)}\\right]_{a}^{b} = \\frac{b^{2} - a^{2}}{2 \\left(b - a\\right)}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The numerator factorises as `\\left(b - a\\right) \\left(b + a\\right)`, so the $b - a$ cancels and what is left is `\\frac{1}{2} \\left(a + b\\right)`."
+    }
+   ],
+   "front_md": "The formula booklet gives `\\text{E} \\left(X\\right) = \\frac{1}{2} \\left(a + b\\right)` for a continuous uniform distribution. How is that result obtained?\n",
+   "back_md": "Evaluate the mean integral with the constant density substituted in:\n\n`\\text{E} \\left(X\\right) = \\int_{a}^{b} \\frac{x}{b - a} \\text{d} x = \\left[\\frac{x^{2}}{2 \\left(b - a\\right)}\\right]_{a}^{b} = \\frac{b^{2} - a^{2}}{2 \\left(b - a\\right)}`\n\nThe numerator factorises as `\\left(b - a\\right) \\left(b + a\\right)`, so the $b - a$ cancels and what is left is `\\frac{1}{2} \\left(a + b\\right)`.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8RH2jMmMvBRm2FtF",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How would you obtain the result `\\text{Var} \\left(X\\right) = \\frac{1}{12} \\left(b - a\\right)^{2}` for a continuous uniform distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Start from `\\text{Var} \\left(X\\right) = \\text{E} \\left(X^{2}\\right) - \\left[\\text{E} \\left(X\\right)\\right]^{2}` and work out the first term:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{E} \\left(X^{2}\\right) = \\int_{a}^{b} \\frac{x^{2}}{b - a} \\text{d} x = \\frac{b^{3} - a^{3}}{3 \\left(b - a\\right)} = \\frac{a^{2} + a b + b^{2}}{3}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking away `\\frac{1}{4} \\left(a + b\\right)^{2}` and putting everything over 12 leaves $\\frac{a^{2}-2ab+b^{2}}{12}$, which is exactly `\\frac{1}{12} \\left(b - a\\right)^{2}`."
+    }
+   ],
+   "front_md": "How would you obtain the result `\\text{Var} \\left(X\\right) = \\frac{1}{12} \\left(b - a\\right)^{2}` for a continuous uniform distribution?\n",
+   "back_md": "Start from `\\text{Var} \\left(X\\right) = \\text{E} \\left(X^{2}\\right) - \\left[\\text{E} \\left(X\\right)\\right]^{2}` and work out the first term:\n\n`\\text{E} \\left(X^{2}\\right) = \\int_{a}^{b} \\frac{x^{2}}{b - a} \\text{d} x = \\frac{b^{3} - a^{3}}{3 \\left(b - a\\right)} = \\frac{a^{2} + a b + b^{2}}{3}`\n\nTaking away `\\frac{1}{4} \\left(a + b\\right)^{2}` and putting everything over 12 leaves $\\frac{a^{2}-2ab+b^{2}}{12}$, which is exactly `\\frac{1}{12} \\left(b - a\\right)^{2}`.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PcZKmds5JhpyXhm7",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Doubling the width of the range of a continuous uniform distribution doubles its standard deviation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The variance is `\\frac{1}{12} \\left(b - a\\right)^{2}`, so the standard deviation is $\\frac{b-a}{\\sqrt{12}}$, which is simply proportional to the width."
+    },
+    {
+     "type": "paragraph",
+     "md": "The squaring in the variance is what makes this look wrong: the **variance** really is multiplied by 4, but taking the square root undoes that and leaves the spread doubled."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDoubling the width of the range of a continuous uniform distribution doubles its standard deviation.\n",
+   "back_md": "**True.**\n\nThe variance is `\\frac{1}{12} \\left(b - a\\right)^{2}`, so the standard deviation is $\\frac{b-a}{\\sqrt{12}}$, which is simply proportional to the width.\n\nThe squaring in the variance is what makes this look wrong: the **variance** really is multiplied by 4, but taking the square root undoes that and leaves the spread doubled.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Gvc47sNqnVrFydGx",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_w6dHy9d6wBtBZFRt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the median and the mode of a continuous uniform distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The median is `\\frac{1}{2} \\left(a + b\\right)`, the same as the mean, because the rectangle is symmetrical about its centre."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is **no mode**: `\\text{f} \\left(x\\right)` takes the same value everywhere between $a$ and $b$, so no single value of $x$ stands out as more likely than any other."
+    },
+    {
+     "type": "paragraph",
+     "md": "That makes this distribution unusual, since for most continuous distributions the three averages all come out different."
+    }
+   ],
+   "front_md": "What are the median and the mode of a continuous uniform distribution?\n",
+   "back_md": "The median is `\\frac{1}{2} \\left(a + b\\right)`, the same as the mean, because the rectangle is symmetrical about its centre.\n\nThere is **no mode**: `\\text{f} \\left(x\\right)` takes the same value everywhere between $a$ and $b$, so no single value of $x$ stands out as more likely than any other.\n\nThat makes this distribution unusual, since for most continuous distributions the three averages all come out different.\n",
+   "spec_links": [
+    "spcpt_fpRcGzr3vWBCjwQV"
+   ],
+   "flags": []
+  }
+ ]
+}

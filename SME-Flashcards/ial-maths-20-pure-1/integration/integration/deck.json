@@ -1,0 +1,493 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:03Z",
+ "course_slug": "ial-maths-20-pure-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-1/flashcards/integration/integration/",
+  "section_slug": "integration",
+  "section_name": "Integration",
+  "topic_slug": "integration",
+  "title": "Integration",
+  "order": 0
+ },
+ "card_count": 14,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 7,
+  "true_or_false": 2,
+  "fill_in_the_blanks": 2
+ },
+ "spec_link_cards": 14,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_2589zh8cpRj8KTmJ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **integration**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Integration is the **inverse** process of **differentiation**: it undoes differentiating."
+    },
+    {
+     "type": "paragraph",
+     "md": "So integrating $\\frac{\\text{d}y}{\\text{d}x}$ takes you back to $y$, and integrating $\\text{f} ' ( x )$ takes you back to $\\text{f} ( x )$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is what the **Fundamental Theorem of Calculus** states."
+    }
+   ],
+   "front_md": "Define **integration**.\n",
+   "back_md": "Integration is the **inverse** process of **differentiation**: it undoes differentiating.\n\nSo integrating $\\frac{\\text{d}y}{\\text{d}x}$ takes you back to $y$, and integrating $\\text{f} ' ( x )$ takes you back to $\\text{f} ( x )$.\n\nThis is what the **Fundamental Theorem of Calculus** states.\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DXBHvPyw55d8ZSXH",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why do $y = 5 x$, $y = 5 x + 2$ and $y = 5 x - 3$ all have the same derivative?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiating a **constant** term gives **0**, because the graph of a constant is a horizontal line and a horizontal line has gradient 0."
+    },
+    {
+     "type": "paragraph",
+     "md": "The constant leaves no trace in the derivative, and all three give $\\frac{\\text{d}y}{\\text{d}x} = 5$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Working backwards from $\\frac{\\text{d}y}{\\text{d}x} = 5$, the most you can say is $y = 5 x + c$."
+    }
+   ],
+   "front_md": "Why do $y = 5 x$, $y = 5 x + 2$ and $y = 5 x - 3$ all have the same derivative?\n",
+   "back_md": "Differentiating a **constant** term gives **0**, because the graph of a constant is a horizontal line and a horizontal line has gradient 0.\n\nThe constant leaves no trace in the derivative, and all three give $\\frac{\\text{d}y}{\\text{d}x} = 5$.\n\nWorking backwards from $\\frac{\\text{d}y}{\\text{d}x} = 5$, the most you can say is $y = 5 x + c$.\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SxZMsyS3QMgYwYSk",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **indefinite integration**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Integration carried out **without limits**, so the result is a function rather than a number."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because the constant term cannot be recovered, the answer always ends with a **constant of integration**, $+ c$, so that, for example:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int 2x\\,\\text{d}x = x^{2} + c`"
+    }
+   ],
+   "front_md": "Define **indefinite integration**.\n",
+   "back_md": "Integration carried out **without limits**, so the result is a function rather than a number.\n\nBecause the constant term cannot be recovered, the answer always ends with a **constant of integration**, $+ c$, so that, for example:\n\n`\\int 2x\\,\\text{d}x = x^{2} + c`\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RZCCPmgwM2hmvTzr",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating a function and then integrating the result always takes you back to exactly the function you started with."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You get the original function back **apart from its constant term**, which the differentiation destroyed."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $y = 6 x + 3$ gives $\\frac{\\text{d}y}{\\text{d}x} = 6$, and integrating $6$ gives $6 x + c$; nothing in $\\frac{\\text{d}y}{\\text{d}x}$ records that the constant was $3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is why an indefinite integral always ends with $+ c$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDifferentiating a function and then integrating the result always takes you back to exactly the function you started with.\n",
+   "back_md": "**False.**\n\nYou get the original function back **apart from its constant term**, which the differentiation destroyed.\n\nDifferentiating $y = 6 x + 3$ gives $\\frac{\\text{d}y}{\\text{d}x} = 6$, and integrating $6$ gives $6 x + c$; nothing in $\\frac{\\text{d}y}{\\text{d}x}$ records that the constant was $3$.\n\nThis is why an indefinite integral always ends with $+ c$.\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JcYzj4GhjM4tYyrR",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the notation for integrating $3 x^{2} + 5 x + 4$ with respect to $x$, filling in the missing symbol at each end:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\_\\_\\_\\_\\_\\_ \\left(3x^{2} + 5x + 4\\right) \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed integral is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\left(3x^{2} + 5x + 4\\right) \\text{d}x`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **integral sign** and the $\\text{d} x$ work as a pair. They say \"integrate all of $( \\dots )$ with respect to $x$\", which is why a function of more than one term is written in **brackets** between them."
+    }
+   ],
+   "front_md": "Complete the notation for integrating $3 x^{2} + 5 x + 4$ with respect to $x$, filling in the missing symbol at each end:\n\n`\\_\\_\\_\\_\\_\\_ \\left(3x^{2} + 5x + 4\\right) \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed integral is:\n\n`\\int \\left(3x^{2} + 5x + 4\\right) \\text{d}x`\n\nThe **integral sign** and the $\\text{d} x$ work as a pair. They say \"integrate all of $( \\dots )$ with respect to $x$\", which is why a function of more than one term is written in **brackets** between them.\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_hj9T2b7hC4N58xRv",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the integral `\\int \\left(3x^{2} + 5x + 4\\right)\\text{d}x`, what does the $\\text{d} x$ tell you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That you are integrating with respect to $x$, so $x$ is the variable."
+    },
+    {
+     "type": "paragraph",
+     "md": "Any other letter in the function being integrated is treated as a **constant**, in the same way as an ordinary number."
+    }
+   ],
+   "front_md": "In the integral `\\int \\left(3x^{2} + 5x + 4\\right)\\text{d}x`, what does the $\\text{d} x$ tell you?\n",
+   "back_md": "That you are integrating with respect to $x$, so $x$ is the variable.\n\nAny other letter in the function being integrated is treated as a **constant**, in the same way as an ordinary number.\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_DY5BCfp3zvvSrtYW",
+   "card_type": "keyword_definition",
+   "order": 6,
+   "set_id": "flst_gbKfPh5f4tH64XyD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **integrand**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The function that is being integrated: everything between the integral sign and the $\\text{d} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "In `integral open parentheses 4 x cubed minus 7 close parentheses text d end text x` the integrand is $4 x^{3} - 7$."
+    }
+   ],
+   "front_md": "Define the **integrand**.\n",
+   "back_md": "The function that is being integrated: everything between the integral sign and the $\\text{d} x$.\n\nIn `integral open parentheses 4 x cubed minus 7 close parentheses text d end text x` the integrand is $4 x^{3} - 7$.\n",
+   "spec_links": [
+    "spcpt_hBBQtQpzy6DFVZ5J"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KPXNdsZGQPYBD2cc",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for integrating a power of $x$, filling in the missing **index** and the missing **denominator**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int x^{n}\\,\\text{d}x = \\frac{x^{\\_\\_\\_\\_\\_\\_}}{\\_\\_\\_\\_\\_\\_} + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int x^{n}\\,\\text{d}x = \\frac{x^{n+1}}{n+1} + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "In words: **increase the power by 1, then divide by the new power**."
+    }
+   ],
+   "front_md": "Complete the rule for integrating a power of $x$, filling in the missing **index** and the missing **denominator**:\n\n`\\int x^{n}\\,\\text{d}x = \\frac{x^{\\_\\_\\_\\_\\_\\_}}{\\_\\_\\_\\_\\_\\_} + c`\n",
+   "back_md": "The completed rule is:\n\n`\\int x^{n}\\,\\text{d}x = \\frac{x^{n+1}}{n+1} + c`\n\nIn words: **increase the power by 1, then divide by the new power**.\n",
+   "spec_links": [
+    "spcpt_rd5TcbbZnVFFCh7N"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_c767fkHV2VdKqbgw",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When integrating, which single power of $x$ can the rule \"increase the power by 1 and divide by the new power\" not be used on, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$x^{-1}$, which is $\\frac{1}{x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Increasing $- 1$ by 1 gives a new power of **0**, and the rule would then divide by 0, which is undefined."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{1}{x}\\,\\text{d}x` does exist, but it is found a different way, later in the course."
+    }
+   ],
+   "front_md": "When integrating, which single power of $x$ can the rule \"increase the power by 1 and divide by the new power\" not be used on, and why?\n",
+   "back_md": "$x^{-1}$, which is $\\frac{1}{x}$.\n\nIncreasing $- 1$ by 1 gives a new power of **0**, and the rule would then divide by 0, which is undefined.\n\n`\\int \\frac{1}{x}\\,\\text{d}x` does exist, but it is found a different way, later in the course.\n",
+   "spec_links": [
+    "spcpt_rd5TcbbZnVFFCh7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GDPQpbrwTMSG79bg",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To integrate `3x^{2}\\left(2x - 1\\right)`, you can integrate $3 x^{2}$ and `\\left(2x - 1\\right)` separately and then multiply the two answers together."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no rule that lets you integrate a product one factor at a time. **Expand the brackets first**, then integrate term by term:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int 3x^{2}\\left(2x - 1\\right)\\text{d}x = \\int \\left(6x^{3} - 3x^{2}\\right)\\text{d}x = \\frac{3}{2}x^{4} - x^{3} + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying the separate integrals would give `x^{3}\\left(x^{2} - x\\right) + c`, which is not the same."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo integrate `3x^{2}\\left(2x - 1\\right)`, you can integrate $3 x^{2}$ and `\\left(2x - 1\\right)` separately and then multiply the two answers together.\n",
+   "back_md": "**False.**\n\nThere is no rule that lets you integrate a product one factor at a time. **Expand the brackets first**, then integrate term by term:\n\n`\\int 3x^{2}\\left(2x - 1\\right)\\text{d}x = \\int \\left(6x^{3} - 3x^{2}\\right)\\text{d}x = \\frac{3}{2}x^{4} - x^{3} + c`\n\nMultiplying the separate integrals would give `x^{3}\\left(x^{2} - x\\right) + c`, which is not the same.\n",
+   "spec_links": [
+    "spcpt_rd5TcbbZnVFFCh7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sr5p2pgDfhDm52J9",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Before you can integrate `\\frac{\\left(x + 3\\right)^{2}}{\\sqrt{x}}`, what do you need to do to it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite it as a sum of separate powers of $x$, because that is the only form the power rule can be applied to."
+    },
+    {
+     "type": "paragraph",
+     "md": "Expand the numerator, write $\\sqrt{x}$ as $x^{\\frac{1}{2}}$, then divide each term separately using the index laws:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\left(x + 3\\right)^{2}}{\\sqrt{x}} = \\frac{x^{2} + 6x + 9}{x^{\\frac{1}{2}}} = x^{\\frac{3}{2}} + 6x^{\\frac{1}{2}} + 9x^{-\\frac{1}{2}}`"
+    }
+   ],
+   "front_md": "Before you can integrate `\\frac{\\left(x + 3\\right)^{2}}{\\sqrt{x}}`, what do you need to do to it?\n",
+   "back_md": "Rewrite it as a sum of separate powers of $x$, because that is the only form the power rule can be applied to.\n\nExpand the numerator, write $\\sqrt{x}$ as $x^{\\frac{1}{2}}$, then divide each term separately using the index laws:\n\n`\\frac{\\left(x + 3\\right)^{2}}{\\sqrt{x}} = \\frac{x^{2} + 6x + 9}{x^{\\frac{1}{2}}} = x^{\\frac{3}{2}} + 6x^{\\frac{1}{2}} + 9x^{-\\frac{1}{2}}`\n",
+   "spec_links": [
+    "spcpt_rd5TcbbZnVFFCh7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KfKvcTsXBBVpKVm3",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `integral 5   text d end text x`, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$5 x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A constant is a power of $x$ like any other, since $5 = 5 x^{0}$. Increasing the power by 1 and dividing by the new power gives $\\frac{5x^{1}}{1} = 5 x$."
+    }
+   ],
+   "front_md": "What is `integral 5   text d end text x`, and why?\n",
+   "back_md": "$5 x + c$.\n\nA constant is a power of $x$ like any other, since $5 = 5 x^{0}$. Increasing the power by 1 and dividing by the new power gives $\\frac{5x^{1}}{1} = 5 x$.\n",
+   "spec_links": [
+    "spcpt_rd5TcbbZnVFFCh7N"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KkVxCS7K5w2phfFM",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "After integrating a gradient function, how do you find the value of the constant of integration?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You need the coordinates of **one point that the curve passes through**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substitute them into the integrated equation and solve for $c$. For example, if $y = \\frac{3}{2} x^{4} - x^{3} + c$ passes through `\\left(2, 6\\right)`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`6 = \\frac{3}{2}\\left(2\\right)^{4} - \\left(2\\right)^{3} + c \\Rightarrow c = -10`"
+    }
+   ],
+   "front_md": "After integrating a gradient function, how do you find the value of the constant of integration?\n",
+   "back_md": "You need the coordinates of **one point that the curve passes through**.\n\nSubstitute them into the integrated equation and solve for $c$. For example, if $y = \\frac{3}{2} x^{4} - x^{3} + c$ passes through `\\left(2, 6\\right)`:\n\n`6 = \\frac{3}{2}\\left(2\\right)^{4} - \\left(2\\right)^{3} + c \\Rightarrow c = -10`\n",
+   "spec_links": [
+    "spcpt_K8vvF73Wwzx3844Q"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qTzJ7YPbyF42GpdF",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_sSvvV9bzfjBr3Yw7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When finding the constant of integration, why must you integrate the gradient function before you substitute the coordinates of a point on the curve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The coordinates satisfy the equation of the **curve**, not the equation of its gradient function, so there is nothing useful to substitute them into until you have integrated."
+    },
+    {
+     "type": "paragraph",
+     "md": "The constant $c$ also only appears once you have integrated, so before that there is nothing to find."
+    }
+   ],
+   "front_md": "When finding the constant of integration, why must you integrate the gradient function before you substitute the coordinates of a point on the curve?\n",
+   "back_md": "The coordinates satisfy the equation of the **curve**, not the equation of its gradient function, so there is nothing useful to substitute them into until you have integrated.\n\nThe constant $c$ also only appears once you have integrated, so before that there is nothing to find.\n",
+   "spec_links": [
+    "spcpt_K8vvF73Wwzx3844Q"
+   ],
+   "flags": []
+  }
+ ]
+}

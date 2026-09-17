@@ -1,0 +1,869 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:27:21Z",
+ "course_slug": "igcse-further-maths-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/flashcards/equations-identities-and-inequalities/equations-and-identities/",
+  "section_slug": "equations-identities-and-inequalities",
+  "section_name": "Equations, Identities & Inequalities",
+  "topic_slug": "equations-and-identities",
+  "title": "Equations & Identities",
+  "order": 1
+ },
+ "card_count": 27,
+ "card_types": {
+  "keyword_definition": 3,
+  "true_or_false": 4,
+  "question_and_answer": 16,
+  "fill_in_the_blanks": 4
+ },
+ "spec_link_cards": 27,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_sYXVnFgQD6S2W6KV",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_rgYXhRwGxXS8jn7Z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **polynomial**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **polynomial** is an algebraic expression with a **finite** number of terms and **non-negative integer** indices only."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both $3 x + 5$ and $2 x^{2} y - 4 y + 6$ qualify, and so does a plain number such as $8$, which is a polynomial with a single constant term."
+    }
+   ],
+   "front_md": "Define **polynomial**.\n",
+   "back_md": "A **polynomial** is an algebraic expression with a **finite** number of terms and **non-negative integer** indices only.\n\nBoth $3 x + 5$ and $2 x^{2} y - 4 y + 6$ qualify, and so does a plain number such as $8$, which is a polynomial with a single constant term.\n",
+   "spec_links": [
+    "spcpt_xBxjpCXMWrkf6mww"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_N9x4SqhrtT8sXj5h",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_rgYXhRwGxXS8jn7Z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$5 x^{-3}$ is a polynomial term."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A polynomial may only contain **non-negative integer** indices, and $- 3$ is negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "For the same reason $\\sqrt{x}$ is not one either, since $\\sqrt{x} = x^{\\frac{1}{2}}$ has a fractional index."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$5 x^{-3}$ is a polynomial term.\n",
+   "back_md": "**False.**\n\nA polynomial may only contain **non-negative integer** indices, and $- 3$ is negative.\n\nFor the same reason $\\sqrt{x}$ is not one either, since $\\sqrt{x} = x^{\\frac{1}{2}}$ has a fractional index.\n",
+   "spec_links": [
+    "spcpt_xBxjpCXMWrkf6mww"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JD99xXnRpnkrdNn9",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_rgYXhRwGxXS8jn7Z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **dividend**, **divisor** and **quotient** in an algebraic division."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **dividend** is the polynomial being divided, the **divisor** is what you are dividing by, and the **quotient** is the answer."
+    },
+    {
+     "type": "paragraph",
+     "md": "Anything left over at the end is the **remainder**."
+    }
+   ],
+   "front_md": "Define **dividend**, **divisor** and **quotient** in an algebraic division.\n",
+   "back_md": "The **dividend** is the polynomial being divided, the **divisor** is what you are dividing by, and the **quotient** is the answer.\n\nAnything left over at the end is the **remainder**.\n",
+   "spec_links": [
+    "spcpt_xBxjpCXMWrkf6mww"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QtvsTmQPTR86h7pg",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_rgYXhRwGxXS8jn7Z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you begin dividing $x^{3} + 6 x^{2} - 9 x - 14$ by $x + 7$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide the **highest power** of the dividend by the highest power of the divisor: $x^{3} \\div x = x^{2}$, which becomes the first term of the quotient."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiply the whole divisor by $x^{2}$, subtract, then repeat on what is left, working down through the powers until only a number remains."
+    }
+   ],
+   "front_md": "How do you begin dividing $x^{3} + 6 x^{2} - 9 x - 14$ by $x + 7$?\n",
+   "back_md": "Divide the **highest power** of the dividend by the highest power of the divisor: $x^{3} \\div x = x^{2}$, which becomes the first term of the quotient.\n\nMultiply the whole divisor by $x^{2}$, subtract, then repeat on what is left, working down through the powers until only a number remains.\n",
+   "spec_links": [
+    "spcpt_xBxjpCXMWrkf6mww"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xpDmtjvBGJQF4Cwf",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_rgYXhRwGxXS8jn7Z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the identity linking a polynomial to its quotient and remainder on division by `\\left(x - a\\right)`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f}\\left(x\\right) = \\left(x - a\\right) \\times \\_\\_\\_\\_\\_\\_ + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed identity is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f}\\left(x\\right) = \\left(x - a\\right) \\times \\text{Q}\\left(x\\right) + R`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing $x^{3} + 6 x^{2} - 9 x - 14$ by `\\left(x + 3\\right)`, for instance, gives `\\left(x + 3\\right)\\left(x^{2} + 3 x - 18\\right) + 40`."
+    }
+   ],
+   "front_md": "Complete the identity linking a polynomial to its quotient and remainder on division by `\\left(x - a\\right)`:\n\n`\\text{f}\\left(x\\right) = \\left(x - a\\right) \\times \\_\\_\\_\\_\\_\\_ + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed identity is:\n\n`\\text{f}\\left(x\\right) = \\left(x - a\\right) \\times \\text{Q}\\left(x\\right) + R`\n\nDividing $x^{3} + 6 x^{2} - 9 x - 14$ by `\\left(x + 3\\right)`, for instance, gives `\\left(x + 3\\right)\\left(x^{2} + 3 x - 18\\right) + 40`.\n",
+   "spec_links": [
+    "spcpt_xBxjpCXMWrkf6mww"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_q5PhgqF3HrKswXQP",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_rgYXhRwGxXS8jn7Z",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What tells you that the divisor is a factor of the dividend?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The division comes out with a **remainder of zero**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing $x^{3} + 6 x^{2} - 9 x - 14$ by `\\left(x + 7\\right)` leaves nothing over, so `x^{3} + 6 x^{2} - 9 x - 14 = \\left(x + 7\\right)\\left(x^{2} - x - 2\\right)`."
+    }
+   ],
+   "front_md": "What tells you that the divisor is a factor of the dividend?\n",
+   "back_md": "The division comes out with a **remainder of zero**.\n\nDividing $x^{3} + 6 x^{2} - 9 x - 14$ by `\\left(x + 7\\right)` leaves nothing over, so `x^{3} + 6 x^{2} - 9 x - 14 = \\left(x + 7\\right)\\left(x^{2} - x - 2\\right)`.\n",
+   "spec_links": [
+    "spcpt_xBxjpCXMWrkf6mww"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wKjhvQVHNxq7BBNK",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the factor theorem for a polynomial `\\text{f}\\left(x\\right)`:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f}\\left(a\\right) = \\_\\_\\_\\_\\_\\_ \\text{ exactly when } \\left(x - \\_\\_\\_\\_\\_\\_\\right) \\text{ is a factor}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statement is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f}\\left(a\\right) = 0 \\text{ exactly when } \\left(x - a\\right) \\text{ is a factor}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The theorem works in **both** directions, so a known root hands you a factor and a known factor hands you a root."
+    }
+   ],
+   "front_md": "Complete the factor theorem for a polynomial `\\text{f}\\left(x\\right)`:\n\n`\\text{f}\\left(a\\right) = \\_\\_\\_\\_\\_\\_ \\text{ exactly when } \\left(x - \\_\\_\\_\\_\\_\\_\\right) \\text{ is a factor}`\n",
+   "back_md": "The completed statement is:\n\n`\\text{f}\\left(a\\right) = 0 \\text{ exactly when } \\left(x - a\\right) \\text{ is a factor}`\n\nThe theorem works in **both** directions, so a known root hands you a factor and a known factor hands you a root.\n",
+   "spec_links": [
+    "spcpt_PFKXgTYx2k2g6pny"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_xGz6YNGnknGF2mHD",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To test whether `\\left(x + 1\\right)` is a factor of `\\text{g}\\left(x\\right)`, what do you work out?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out `\\text{g}\\left(- 1\\right)`, not `\\text{g}\\left(1\\right)`: written as `\\left(x - a\\right)` the factor has $a = - 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "For `\\text{g}\\left(x\\right) = 2 x^{3} + 3 x^{2} - x + 5` that gives `\\text{g}\\left(- 1\\right) = 7`, so `\\left(x + 1\\right)` is **not** a factor."
+    }
+   ],
+   "front_md": "To test whether `\\left(x + 1\\right)` is a factor of `\\text{g}\\left(x\\right)`, what do you work out?\n",
+   "back_md": "Work out `\\text{g}\\left(- 1\\right)`, not `\\text{g}\\left(1\\right)`: written as `\\left(x - a\\right)` the factor has $a = - 1$.\n\nFor `\\text{g}\\left(x\\right) = 2 x^{3} + 3 x^{2} - x + 5` that gives `\\text{g}\\left(- 1\\right) = 7`, so `\\left(x + 1\\right)` is **not** a factor.\n",
+   "spec_links": [
+    "spcpt_PFKXgTYx2k2g6pny"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_XkhGMrjB45J6T5SQ",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Any integer solution of `\\text{f}\\left(x\\right) = 0` must divide the constant term of `\\text{f}\\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying out `\\left(x - a\\right)\\text{Q}\\left(x\\right)` makes the constant term of `\\text{f}\\left(x\\right)` equal to $- a$ times the constant term of `\\text{Q}\\left(x\\right)`, so $a$ has to be a factor of it."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why the factors of the constant term are the values worth trying first when hunting for a root."
+    }
+   ],
+   "front_md": "**True or False?**\n\nAny integer solution of `\\text{f}\\left(x\\right) = 0` must divide the constant term of `\\text{f}\\left(x\\right)`.\n",
+   "back_md": "**True.**\n\nMultiplying out `\\left(x - a\\right)\\text{Q}\\left(x\\right)` makes the constant term of `\\text{f}\\left(x\\right)` equal to $- a$ times the constant term of `\\text{Q}\\left(x\\right)`, so $a$ has to be a factor of it.\n\nThat is why the factors of the constant term are the values worth trying first when hunting for a root.\n",
+   "spec_links": [
+    "spcpt_PFKXgTYx2k2g6pny"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d8nBbMQ2Ghfqh87x",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Given that `\\left(2 x - 3\\right)` is a factor of `\\text{h}\\left(x\\right) = 2 x^{3} - b x^{2} + 7 x - 6`, how do you find $b$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Set `\\text{h}\\left(\\frac{3}{2}\\right) = 0`, since `2 x - 3 = 2\\left(x - \\frac{3}{2}\\right)` makes $\\frac{3}{2}$ the root to use."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives $\\frac{45}{4} - \\frac{9}{4} b = 0$, so $b = 5$."
+    }
+   ],
+   "front_md": "Given that `\\left(2 x - 3\\right)` is a factor of `\\text{h}\\left(x\\right) = 2 x^{3} - b x^{2} + 7 x - 6`, how do you find $b$?\n",
+   "back_md": "Set `\\text{h}\\left(\\frac{3}{2}\\right) = 0`, since `2 x - 3 = 2\\left(x - \\frac{3}{2}\\right)` makes $\\frac{3}{2}$ the root to use.\n\nThat gives $\\frac{45}{4} - \\frac{9}{4} b = 0$, so $b = 5$.\n",
+   "spec_links": [
+    "spcpt_PFKXgTYx2k2g6pny"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_82Z3RkHT5sxGXPDr",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the remainder when `\\text{f}\\left(x\\right)` is divided by `\\left(x - a\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The remainder is `\\text{f}\\left(a\\right)`, so a single substitution finds it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Dividing $2 x^{4} - 2 x^{3} - x^{2} - 3 x + 1$ by `\\left(x - 2\\right)` leaves `\\text{f}\\left(2\\right) = 7`, with no division done at all."
+    }
+   ],
+   "front_md": "What is the remainder when `\\text{f}\\left(x\\right)` is divided by `\\left(x - a\\right)`?\n",
+   "back_md": "The remainder is `\\text{f}\\left(a\\right)`, so a single substitution finds it.\n\nDividing $2 x^{4} - 2 x^{3} - x^{2} - 3 x + 1$ by `\\left(x - 2\\right)` leaves `\\text{f}\\left(2\\right) = 7`, with no division done at all.\n",
+   "spec_links": [
+    "spcpt_hBfjzzFk2GFdSfMr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VPP3hgDW38nNSM7M",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What value do you substitute when the divisor is `\\left(2 x + 1\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute $x = - \\frac{1}{2}$, the value that makes the divisor zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing `2 x + 1 = 2\\left(x + \\frac{1}{2}\\right)` shows the root to use is $- \\frac{1}{2}$, so the remainder is `\\text{f}\\left(- \\frac{1}{2}\\right)`."
+    }
+   ],
+   "front_md": "What value do you substitute when the divisor is `\\left(2 x + 1\\right)`?\n",
+   "back_md": "Substitute $x = - \\frac{1}{2}$, the value that makes the divisor zero.\n\nWriting `2 x + 1 = 2\\left(x + \\frac{1}{2}\\right)` shows the root to use is $- \\frac{1}{2}$, so the remainder is `\\text{f}\\left(- \\frac{1}{2}\\right)`.\n",
+   "spec_links": [
+    "spcpt_hBfjzzFk2GFdSfMr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p8z4DQFTGTMrsYQC",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_z4QfyNzp3HThfCrw",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is the remainder theorem quicker than algebraic division?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whenever the **remainder** is all that is wanted, since one substitution replaces the entire division."
+    },
+    {
+     "type": "paragraph",
+     "md": "Algebraic division is still needed when the **quotient** matters, because the theorem tells you nothing about it."
+    }
+   ],
+   "front_md": "When is the remainder theorem quicker than algebraic division?\n",
+   "back_md": "Whenever the **remainder** is all that is wanted, since one substitution replaces the entire division.\n\nAlgebraic division is still needed when the **quotient** matters, because the theorem tells you nothing about it.\n",
+   "spec_links": [
+    "spcpt_hBfjzzFk2GFdSfMr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C3NVYXv6KBsc8vm9",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_5Nycq5bxtNCFdgWH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many real roots can a cubic equation have?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Always either **one** or **three**, counting a repeated root as often as it occurs."
+    },
+    {
+     "type": "paragraph",
+     "md": "A cubic can therefore never have no real roots at all, unlike a quadratic."
+    }
+   ],
+   "front_md": "How many real roots can a cubic equation have?\n",
+   "back_md": "Always either **one** or **three**, counting a repeated root as often as it occurs.\n\nA cubic can therefore never have no real roots at all, unlike a quadratic.\n",
+   "spec_links": [
+    "spcpt_2btTTD747RgNBmbB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PKjn7ztBbJcdSd7Q",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_5Nycq5bxtNCFdgWH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A cubic equation can have exactly two distinct real solutions."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It happens when one of the roots is **repeated**, so the graph touches the $x$-axis at that value instead of crossing it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Counting repeats there are still three roots, but only two different numbers among them."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA cubic equation can have exactly two distinct real solutions.\n",
+   "back_md": "**True.**\n\nIt happens when one of the roots is **repeated**, so the graph touches the $x$-axis at that value instead of crossing it.\n\nCounting repeats there are still three roots, but only two different numbers among them.\n",
+   "spec_links": [
+    "spcpt_2btTTD747RgNBmbB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ggRn8MjzsX6JmpVM",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_5Nycq5bxtNCFdgWH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first thing you need before you can solve a cubic equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You need **one root** to start from, either given in the question or found by trying small integers such as $1$, $- 1$, $2$ and $- 2$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That root gives a linear factor, which can be taken out to leave a quadratic you can solve by any usual method."
+    }
+   ],
+   "front_md": "What is the first thing you need before you can solve a cubic equation?\n",
+   "back_md": "You need **one root** to start from, either given in the question or found by trying small integers such as $1$, $- 1$, $2$ and $- 2$.\n\nThat root gives a linear factor, which can be taken out to leave a quadratic you can solve by any usual method.\n",
+   "spec_links": [
+    "spcpt_2btTTD747RgNBmbB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2jSyCkHWJ5HhzCxv",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_5Nycq5bxtNCFdgWH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the quadratic factor of $2 x^{3} - x^{2} - 8 x + 4$ given the root $x = 2$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write `2 x^{3} - x^{2} - 8 x + 4 = \\left(x - 2\\right)\\left(p x^{2} + q x + r\\right)` and **compare coefficients**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $x^{3}$ terms give $p = 2$ and the constants give $- 2 r = 4$, so $r = - 2$; the $x^{2}$ terms then give $q = 3$."
+    }
+   ],
+   "front_md": "How do you find the quadratic factor of $2 x^{3} - x^{2} - 8 x + 4$ given the root $x = 2$?\n",
+   "back_md": "Write `2 x^{3} - x^{2} - 8 x + 4 = \\left(x - 2\\right)\\left(p x^{2} + q x + r\\right)` and **compare coefficients**.\n\nThe $x^{3}$ terms give $p = 2$ and the constants give $- 2 r = 4$, so $r = - 2$; the $x^{2}$ terms then give $q = 3$.\n",
+   "spec_links": [
+    "spcpt_2btTTD747RgNBmbB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tqDSQV3DdrYXVd3y",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_5Nycq5bxtNCFdgWH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the fully factorised form of a cubic with three real roots $α$, $β$ and $γ$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`a x^{3} + b x^{2} + c x + d = \\_\\_\\_\\_\\_\\_ \\left(x - \\alpha\\right)\\left(x - \\beta\\right)\\left(x - \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed form is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`a x^{3} + b x^{2} + c x + d = a\\left(x - \\alpha\\right)\\left(x - \\beta\\right)\\left(x - \\gamma\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The leading coefficient $a$ has to be there: without it the right-hand side would always give $x^{3}$ a coefficient of $1$."
+    }
+   ],
+   "front_md": "Complete the fully factorised form of a cubic with three real roots $α$, $β$ and $γ$:\n\n`a x^{3} + b x^{2} + c x + d = \\_\\_\\_\\_\\_\\_ \\left(x - \\alpha\\right)\\left(x - \\beta\\right)\\left(x - \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed form is:\n\n`a x^{3} + b x^{2} + c x + d = a\\left(x - \\alpha\\right)\\left(x - \\beta\\right)\\left(x - \\gamma\\right)`\n\nThe leading coefficient $a$ has to be there: without it the right-hand side would always give $x^{3}$ a coefficient of $1$.\n",
+   "spec_links": [
+    "spcpt_2btTTD747RgNBmbB"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tHJgBdNB4FccyzXZ",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_5Nycq5bxtNCFdgWH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does it mean if the quadratic factor of a cubic has no real roots?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The linear factor supplies the **only** real root of the cubic."
+    },
+    {
+     "type": "paragraph",
+     "md": "That quadratic's discriminant is negative, so the graph of the cubic crosses the $x$-axis exactly once."
+    }
+   ],
+   "front_md": "What does it mean if the quadratic factor of a cubic has no real roots?\n",
+   "back_md": "The linear factor supplies the **only** real root of the cubic.\n\nThat quadratic's discriminant is negative, so the graph of the cubic crosses the $x$-axis exactly once.\n",
+   "spec_links": [
+    "spcpt_2btTTD747RgNBmbB"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xSVbf4sZzrVBcyjh",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **simultaneous equations**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Simultaneous equations** are two or more equations that have to be satisfied by the **same** values of the unknowns at the same time."
+    },
+    {
+     "type": "paragraph",
+     "md": "Two unknowns need two equations, and if either equation contains $x^{2}$, $y^{2}$ or $x y$ the pair is called **quadratic** rather than linear."
+    }
+   ],
+   "front_md": "Define **simultaneous equations**.\n",
+   "back_md": "**Simultaneous equations** are two or more equations that have to be satisfied by the **same** values of the unknowns at the same time.\n\nTwo unknowns need two equations, and if either equation contains $x^{2}$, $y^{2}$ or $x y$ the pair is called **quadratic** rather than linear.\n",
+   "spec_links": [
+    "spcpt_CBbGQXTmRztnH5b3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cpFfyVvDZsHdR8q7",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you eliminate $x$ from $3 x + 2 y = 11$ and $2 x - y = 5$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Scale both equations so the $x$ terms match: multiply the first by $2$ and the second by $3$, giving $6 x + 4 y = 22$ and $6 x - 3 y = 15$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Eliminating the $6 x$ leaves $7 y = 7$, so $y = 1$, and substituting back gives $x = 3$."
+    }
+   ],
+   "front_md": "How do you eliminate $x$ from $3 x + 2 y = 11$ and $2 x - y = 5$?\n",
+   "back_md": "Scale both equations so the $x$ terms match: multiply the first by $2$ and the second by $3$, giving $6 x + 4 y = 22$ and $6 x - 3 y = 15$.\n\nEliminating the $6 x$ leaves $7 y = 7$, so $y = 1$, and substituting back gives $x = 3$.\n",
+   "spec_links": [
+    "spcpt_CBbGQXTmRztnH5b3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SVD8p4BqB4yPdw53",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the elimination rule for simultaneous equations:"
+    },
+    {
+     "type": "paragraph",
+     "md": "When the matching terms have the **same** sign you `\\_\\_\\_\\_\\_\\_` the equations, and when they have **opposite** signs you `\\_\\_\\_\\_\\_\\_` them."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "When the matching terms have the **same** sign you **subtract** the equations, and when they have **opposite** signs you **add** them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Either way the aim is to make that pair of terms cancel, leaving one equation in one unknown."
+    }
+   ],
+   "front_md": "Complete the elimination rule for simultaneous equations:\n\nWhen the matching terms have the **same** sign you `\\_\\_\\_\\_\\_\\_` the equations, and when they have **opposite** signs you `\\_\\_\\_\\_\\_\\_` them.\n",
+   "back_md": "The completed rule is:\n\nWhen the matching terms have the **same** sign you **subtract** the equations, and when they have **opposite** signs you **add** them.\n\nEither way the aim is to make that pair of terms cancel, leaving one equation in one unknown.\n",
+   "spec_links": [
+    "spcpt_CBbGQXTmRztnH5b3"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_M9vZSkngb6WfhX6j",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does substitution solve two linear simultaneous equations?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange one equation into $y = \\dots$, then replace every $y$ in the other equation with that expression, kept in **brackets**."
+    },
+    {
+     "type": "paragraph",
+     "md": "From $2 x - y = 5$ you get $y = 2 x - 5$, and `3 x + 2\\left(2 x - 5\\right) = 11` solves to give $x = 3$."
+    }
+   ],
+   "front_md": "How does substitution solve two linear simultaneous equations?\n",
+   "back_md": "Rearrange one equation into $y = \\dots$, then replace every $y$ in the other equation with that expression, kept in **brackets**.\n\nFrom $2 x - y = 5$ you get $y = 2 x - 5$, and `3 x + 2\\left(2 x - 5\\right) = 11` solves to give $x = 3$.\n",
+   "spec_links": [
+    "spcpt_CBbGQXTmRztnH5b3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7rbSfK6DZgyVdPkk",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When solving one linear and one quadratic equation, which do you substitute into which?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange the **linear** equation to $y = \\dots$ or $x = \\dots$ and substitute that into the **quadratic** one."
+    },
+    {
+     "type": "paragraph",
+     "md": "Never the other way round: putting a quadratic into a linear equation raises the power instead of reducing the number of unknowns."
+    }
+   ],
+   "front_md": "When solving one linear and one quadratic equation, which do you substitute into which?\n",
+   "back_md": "Rearrange the **linear** equation to $y = \\dots$ or $x = \\dots$ and substitute that into the **quadratic** one.\n\nNever the other way round: putting a quadratic into a linear equation raises the power instead of reducing the number of unknowns.\n",
+   "spec_links": [
+    "spcpt_KYCWyzCHHWynRdJg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hMPg5dY7gwfyvJWF",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve $x^{2} + y^{2} = 25$ and $y - 2 x = 5$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute $y = 2 x + 5$ into the first equation to get `x^{2} + \\left(2 x + 5\\right)^{2} = 25`, which simplifies to $5 x^{2} + 20 x = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives $x = 0$ or $x = - 4$, and putting each back into the **linear** equation gives $y = 5$ and $y = - 3$."
+    }
+   ],
+   "front_md": "How do you solve $x^{2} + y^{2} = 25$ and $y - 2 x = 5$?\n",
+   "back_md": "Substitute $y = 2 x + 5$ into the first equation to get `x^{2} + \\left(2 x + 5\\right)^{2} = 25`, which simplifies to $5 x^{2} + 20 x = 0$.\n\nThat gives $x = 0$ or $x = - 4$, and putting each back into the **linear** equation gives $y = 5$ and $y = - 3$.\n",
+   "spec_links": [
+    "spcpt_KYCWyzCHHWynRdJg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KxD2JhH4TcmWHRbw",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A pair of simultaneous equations always has exactly one solution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A linear pair normally has one, but a linear equation paired with a quadratic one usually has **two**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It can also have just one, when the line is a tangent to the curve, or none at all when the two never meet."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA pair of simultaneous equations always has exactly one solution.\n",
+   "back_md": "**False.**\n\nA linear pair normally has one, but a linear equation paired with a quadratic one usually has **two**.\n\nIt can also have just one, when the line is a tangent to the curve, or none at all when the two never meet.\n",
+   "spec_links": [
+    "spcpt_KYCWyzCHHWynRdJg"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Wqn9xKczPPJ5zxdc",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_7RdJKFY22PjC5xcR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are the solutions of a linear and quadratic pair given as matched pairs of values?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because each solution is a **single point** satisfying both equations at once, so an $x$ value only means anything alongside its own $y$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Listing all the $x$ values and then all the $y$ values separately would suggest every combination works, when only the matched ones do."
+    }
+   ],
+   "front_md": "Why are the solutions of a linear and quadratic pair given as matched pairs of values?\n",
+   "back_md": "Because each solution is a **single point** satisfying both equations at once, so an $x$ value only means anything alongside its own $y$.\n\nListing all the $x$ values and then all the $y$ values separately would suggest every combination works, when only the matched ones do.\n",
+   "spec_links": [
+    "spcpt_KYCWyzCHHWynRdJg"
+   ],
+   "flags": []
+  }
+ ]
+}

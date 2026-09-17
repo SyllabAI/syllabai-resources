@@ -1,0 +1,195 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:44Z",
+ "course_slug": "ial-maths-20-mechanics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/mechanics-2/flashcards/kinematics-straight-line-motion/variable-acceleration-in-2d/",
+  "section_slug": "kinematics-straight-line-motion",
+  "section_name": "Kinematics (Straight Line Motion)",
+  "topic_slug": "variable-acceleration-in-2d",
+  "title": "Variable Acceleration in 2D",
+  "order": 1
+ },
+ "card_count": 5,
+ "card_types": {
+  "question_and_answer": 4,
+  "true_or_false": 1
+ },
+ "spec_link_cards": 5,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_MDkfjjhymd4yGGvD",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_syWCGwbH3dBsMhBQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate or integrate a vector in kinematics?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work on **each component separately**."
+    },
+    {
+     "type": "paragraph",
+     "md": "To differentiate, differentiate the $i$ component and the $j$ component; to integrate, integrate each of them."
+    },
+    {
+     "type": "paragraph",
+     "md": "The links between displacement, velocity and acceleration are the same as in one dimension, and only the displacement changes name: in two dimensions it is usually written $r$ rather than $s$."
+    }
+   ],
+   "front_md": "How do you differentiate or integrate a vector in kinematics?\n",
+   "back_md": "Work on **each component separately**.\n\nTo differentiate, differentiate the $i$ component and the $j$ component; to integrate, integrate each of them.\n\nThe links between displacement, velocity and acceleration are the same as in one dimension, and only the displacement changes name: in two dimensions it is usually written $r$ rather than $s$.\n",
+   "spec_links": [
+    "spcpt_PpJkPWQ5HZHN3q3G"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bWbNHH6pKQmFnfXh",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_syWCGwbH3dBsMhBQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You can assume that the constant of integration in a two-dimensional kinematics problem is a single number."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating a vector gives a **vector** constant of integration, with an $i$ component and a $j$ component."
+    },
+    {
+     "type": "paragraph",
+     "md": "Find it by substituting a known vector and then equating the $i$ components and the $j$ components separately, which gives one equation for each part of the constant."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, for example, integrating a velocity might give $r = t^{2} i + 2 \\text{e}^{0.5t} j + c$, and a starting position of `\\left(3\\mathbf{i} - 4\\mathbf{j}\\right)\\text{ m}` then gives `\\mathbf{c} = \\left(3\\mathbf{i} - 6\\mathbf{j}\\right)\\text{ m}`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou can assume that the constant of integration in a two-dimensional kinematics problem is a single number.\n",
+   "back_md": "**False.**\n\nIntegrating a vector gives a **vector** constant of integration, with an $i$ component and a $j$ component.\n\nFind it by substituting a known vector and then equating the $i$ components and the $j$ components separately, which gives one equation for each part of the constant.\n\nSo, for example, integrating a velocity might give $r = t^{2} i + 2 \\text{e}^{0.5t} j + c$, and a starting position of `\\left(3\\mathbf{i} - 4\\mathbf{j}\\right)\\text{ m}` then gives `\\mathbf{c} = \\left(3\\mathbf{i} - 6\\mathbf{j}\\right)\\text{ m}`.\n",
+   "spec_links": [
+    "spcpt_PpJkPWQ5HZHN3q3G"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nDbBzmQgTbvRyM2H",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_syWCGwbH3dBsMhBQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A particle's position vector is $r$ and its displacement from where it started is $s$. How are the two related, and why are they not the same thing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are related by $r = r_{0} + s$, where $r_{0}$ is the particle's **initial position** vector."
+    },
+    {
+     "type": "paragraph",
+     "md": "They differ because $s$ is measured from **wherever the particle started**, while $r$ is measured from the **origin**, and a particle need not start at the origin."
+    },
+    {
+     "type": "paragraph",
+     "md": "When you integrate a velocity to find the position, $r_{0}$ is exactly what the constant of integration turns out to be."
+    }
+   ],
+   "front_md": "A particle's position vector is $r$ and its displacement from where it started is $s$. How are the two related, and why are they not the same thing?\n",
+   "back_md": "They are related by $r = r_{0} + s$, where $r_{0}$ is the particle's **initial position** vector.\n\nThey differ because $s$ is measured from **wherever the particle started**, while $r$ is measured from the **origin**, and a particle need not start at the origin.\n\nWhen you integrate a velocity to find the position, $r_{0}$ is exactly what the constant of integration turns out to be.\n",
+   "spec_links": [
+    "spcpt_PpJkPWQ5HZHN3q3G"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m8MQByjpQxZ7SdDf",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_syWCGwbH3dBsMhBQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A particle's velocity is `\\left(3\\mathbf{i} - 4\\mathbf{j}\\right)\\text{ m s}^{-1}`. What is its speed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its speed is $5  \\text{m s}^{-1}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Speed is the **magnitude** of the velocity, so it comes from Pythagoras' theorem on the two components:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left|\\mathbf{v}\\right| = \\sqrt{3^{2} + \\left(- 4\\right)^{2}} = 5 \\textrm{ }\\text{m s}^{- 1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The same move applied to a displacement gives the **distance** from the starting point; both are single numbers and neither can be negative."
+    }
+   ],
+   "front_md": "A particle's velocity is `\\left(3\\mathbf{i} - 4\\mathbf{j}\\right)\\text{ m s}^{-1}`. What is its speed?\n",
+   "back_md": "Its speed is $5  \\text{m s}^{-1}$.\n\nSpeed is the **magnitude** of the velocity, so it comes from Pythagoras' theorem on the two components:\n\n`\\left|\\mathbf{v}\\right| = \\sqrt{3^{2} + \\left(- 4\\right)^{2}} = 5 \\textrm{ }\\text{m s}^{- 1}`\n\nThe same move applied to a displacement gives the **distance** from the starting point; both are single numbers and neither can be negative.\n",
+   "spec_links": [
+    "spcpt_PpJkPWQ5HZHN3q3G"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mWfN3W5JFjMyxMz4",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_syWCGwbH3dBsMhBQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A question asks which direction a particle is moving in. Which vector do you use, and why not the position vector?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use the **velocity**: the position vector says where the particle **is**, measured from the origin."
+    },
+    {
+     "type": "paragraph",
+     "md": "The velocity says where it is **heading**, and the two need not point the same way: a particle can be north-east of the origin while travelling due south."
+    },
+    {
+     "type": "paragraph",
+     "md": "The direction of the velocity may then be wanted as an angle, as a bearing, or as a vector that the velocity is parallel to."
+    }
+   ],
+   "front_md": "A question asks which direction a particle is moving in. Which vector do you use, and why not the position vector?\n",
+   "back_md": "Use the **velocity**: the position vector says where the particle **is**, measured from the origin.\n\nThe velocity says where it is **heading**, and the two need not point the same way: a particle can be north-east of the origin while travelling due south.\n\nThe direction of the velocity may then be wanted as an angle, as a bearing, or as a vector that the velocity is parallel to.\n",
+   "spec_links": [
+    "spcpt_PpJkPWQ5HZHN3q3G"
+   ],
+   "flags": []
+  }
+ ]
+}

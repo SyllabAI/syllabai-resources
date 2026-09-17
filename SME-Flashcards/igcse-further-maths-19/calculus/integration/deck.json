@@ -1,0 +1,658 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:27:21Z",
+ "course_slug": "igcse-further-maths-19",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/flashcards/calculus/integration/",
+  "section_slug": "calculus",
+  "section_name": "Calculus",
+  "topic_slug": "integration",
+  "title": "Integration",
+  "order": 2
+ },
+ "card_count": 20,
+ "card_types": {
+  "question_and_answer": 14,
+  "true_or_false": 3,
+  "fill_in_the_blanks": 3
+ },
+ "spec_link_cards": 20,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_7p42N2rp3w5DzvKw",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_PMW6XxJt8wG8rxfj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is integration?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the **inverse** operation to differentiation."
+    },
+    {
+     "type": "paragraph",
+     "md": "If you differentiate a function and then integrate the result, you arrive back at the function you started with, apart from an unknown constant."
+    }
+   ],
+   "front_md": "What is integration?\n",
+   "back_md": "It is the **inverse** operation to differentiation.\n\nIf you differentiate a function and then integrate the result, you arrive back at the function you started with, apart from an unknown constant.\n",
+   "spec_links": [
+    "spcpt_3j8Wx3b65DYtPnyQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QgzJn6yzBkj35vPN",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_PMW6XxJt8wG8rxfj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the notation `\\int \\ldots \\text{d}x` mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It means the integral, with respect to $x$, of whatever sits between the integral sign and the $\\text{d} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $\\text{d} x$ is not decoration: it names the variable you are integrating with respect to."
+    }
+   ],
+   "front_md": "What does the notation `\\int \\ldots \\text{d}x` mean?\n",
+   "back_md": "It means the integral, with respect to $x$, of whatever sits between the integral sign and the $\\text{d} x$.\n\nThe $\\text{d} x$ is not decoration: it names the variable you are integrating with respect to.\n",
+   "spec_links": [
+    "spcpt_3j8Wx3b65DYtPnyQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HJChKcYtPzG7YhYR",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_PMW6XxJt8wG8rxfj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between an indefinite and a definite integral?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The answer to an **indefinite** integral is another **function**, and it carries a constant of integration."
+    },
+    {
+     "type": "paragraph",
+     "md": "The answer to a **definite** integral is a **number**, so no constant appears in it."
+    }
+   ],
+   "front_md": "What is the difference between an indefinite and a definite integral?\n",
+   "back_md": "The answer to an **indefinite** integral is another **function**, and it carries a constant of integration.\n\nThe answer to a **definite** integral is a **number**, so no constant appears in it.\n",
+   "spec_links": [
+    "spcpt_3j8Wx3b65DYtPnyQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gKsbnqXZPzmBhs43",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_PMW6XxJt8wG8rxfj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Given that the derivative of $x^{3} + \\frac{1}{x}$ is $3 x^{2} - \\frac{1}{x^{2}}$, write down `\\int \\left(3 x^{2} - \\frac{1}{x^{2}}\\right) \\text{d}x`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $x^{3} + \\frac{1}{x} + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "No integrating is needed: the two operations are inverses, so the answer can be read straight off the derivative given."
+    },
+    {
+     "type": "paragraph",
+     "md": "The constant of integration still has to be written in."
+    }
+   ],
+   "front_md": "Given that the derivative of $x^{3} + \\frac{1}{x}$ is $3 x^{2} - \\frac{1}{x^{2}}$, write down `\\int \\left(3 x^{2} - \\frac{1}{x^{2}}\\right) \\text{d}x`.\n",
+   "back_md": "It is $x^{3} + \\frac{1}{x} + c$.\n\nNo integrating is needed: the two operations are inverses, so the answer can be read straight off the derivative given.\n\nThe constant of integration still has to be written in.\n",
+   "spec_links": [
+    "spcpt_3j8Wx3b65DYtPnyQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CrS9scKtPQ3kg8Xw",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_PMW6XxJt8wG8rxfj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating the answer to `\\int \\text{f}'\\left(x\\right) \\text{d}x` gives `\\text{f}'\\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral comes to `\\text{f}\\left(x\\right) + c`, and differentiating that returns `\\text{f}'\\left(x\\right)` once more."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is what makes it possible to check any integration by differentiating the answer."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDifferentiating the answer to `\\int \\text{f}'\\left(x\\right) \\text{d}x` gives `\\text{f}'\\left(x\\right)`.\n",
+   "back_md": "**True.**\n\nThe integral comes to `\\text{f}\\left(x\\right) + c`, and differentiating that returns `\\text{f}'\\left(x\\right)` once more.\n\nThis is what makes it possible to check any integration by differentiating the answer.\n",
+   "spec_links": [
+    "spcpt_3j8Wx3b65DYtPnyQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JghgFK7MxH2QDwSP",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for integrating a power of $x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int x^{n} \\text{d}x = \\frac{x^{\\_\\_\\_\\_\\_\\_}}{\\_\\_\\_\\_\\_\\_} + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int x^{n} \\text{d}x = \\frac{x^{n + 1}}{n + 1} + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Raise the power by one and divide by the new power, which is exactly the reverse of differentiating."
+    }
+   ],
+   "front_md": "Complete the rule for integrating a power of $x$:\n\n`\\int x^{n} \\text{d}x = \\frac{x^{\\_\\_\\_\\_\\_\\_}}{\\_\\_\\_\\_\\_\\_} + c`\n",
+   "back_md": "The completed rule is:\n\n`\\int x^{n} \\text{d}x = \\frac{x^{n + 1}}{n + 1} + c`\n\nRaise the power by one and divide by the new power, which is exactly the reverse of differentiating.\n",
+   "spec_links": [
+    "spcpt_fhGBfgdfw9WmZGPc"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Fby8Szzdp3npMZ8R",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For which value of $n$ does the rule for integrating $x^{n}$ fail?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At $n = - 1$, because raising the power by one gives $0$ and the rule would divide by zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `\\int \\frac{1}{x} \\text{d}x` cannot be found this way, and it is not required on this course."
+    }
+   ],
+   "front_md": "For which value of $n$ does the rule for integrating $x^{n}$ fail?\n",
+   "back_md": "At $n = - 1$, because raising the power by one gives $0$ and the rule would divide by zero.\n\nSo `\\int \\frac{1}{x} \\text{d}x` cannot be found this way, and it is not required on this course.\n",
+   "spec_links": [
+    "spcpt_fhGBfgdfw9WmZGPc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mkBzDgMqHBRW76q9",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `\\int a \\text{d}x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $a x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A constant is $a x^{0}$, so the same rule applies: raising the power by one turns it into $a x^{1}$."
+    }
+   ],
+   "front_md": "What is `\\int a \\text{d}x`?\n",
+   "back_md": "It is $a x + c$.\n\nA constant is $a x^{0}$, so the same rule applies: raising the power by one turns it into $a x^{1}$.\n",
+   "spec_links": [
+    "spcpt_fhGBfgdfw9WmZGPc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BrPFQStD8dNh8h6k",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate $\\sqrt{x}$ and $\\frac{1}{x^{2}}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite each as a power of $x$ first, as $x^{\\frac{1}{2}}$ and $x^{-2}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The rule then gives $\\frac{2}{3} x^{\\frac{3}{2}} + c$ and $- x^{-1} + c$, the second of which is $- \\frac{1}{x} + c$."
+    }
+   ],
+   "front_md": "How do you integrate $\\sqrt{x}$ and $\\frac{1}{x^{2}}$?\n",
+   "back_md": "Rewrite each as a power of $x$ first, as $x^{\\frac{1}{2}}$ and $x^{-2}$.\n\nThe rule then gives $\\frac{2}{3} x^{\\frac{3}{2}} + c$ and $- x^{-1} + c$, the second of which is $- \\frac{1}{x} + c$.\n",
+   "spec_links": [
+    "spcpt_fhGBfgdfw9WmZGPc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3rVDpGh49GfhYgYC",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can `8 x^{2}\\left(2 x - 3\\right)` not be integrated as it stands?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because there is no rule for integrating a product, and multiplying the two separate integrals together does **not** work."
+    },
+    {
+     "type": "paragraph",
+     "md": "Expand it to $16 x^{3} - 24 x^{2}$ first, and then integrate term by term."
+    }
+   ],
+   "front_md": "Why can `8 x^{2}\\left(2 x - 3\\right)` not be integrated as it stands?\n",
+   "back_md": "Because there is no rule for integrating a product, and multiplying the two separate integrals together does **not** work.\n\nExpand it to $16 x^{3} - 24 x^{2}$ first, and then integrate term by term.\n",
+   "spec_links": [
+    "spcpt_fhGBfgdfw9WmZGPc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yX7pXpCQSKjJvBd7",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two trigonometric integrals:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin a x \\text{d}x = \\_\\_\\_\\_\\_\\_ \\cos a x + c \\text{ and } \\int \\cos a x \\text{d}x = \\_\\_\\_\\_\\_\\_ \\sin a x + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed integrals are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin a x \\text{d}x = - \\frac{1}{a} \\cos a x + c \\text{ and } \\int \\cos a x \\text{d}x = \\frac{1}{a} \\sin a x + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both pick up a factor of $\\frac{1}{a}$, and this time the minus sign belongs to $\\mathrm{sin}$, the other way round from differentiating."
+    }
+   ],
+   "front_md": "Complete the two trigonometric integrals:\n\n`\\int \\sin a x \\text{d}x = \\_\\_\\_\\_\\_\\_ \\cos a x + c \\text{ and } \\int \\cos a x \\text{d}x = \\_\\_\\_\\_\\_\\_ \\sin a x + c`\n",
+   "back_md": "The completed integrals are:\n\n`\\int \\sin a x \\text{d}x = - \\frac{1}{a} \\cos a x + c \\text{ and } \\int \\cos a x \\text{d}x = \\frac{1}{a} \\sin a x + c`\n\nBoth pick up a factor of $\\frac{1}{a}$, and this time the minus sign belongs to $\\mathrm{sin}$, the other way round from differentiating.\n",
+   "spec_links": [
+    "spcpt_3RJndX5xhQSKbn6K"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_CD7KcVfQFf5bHG8Q",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Given `\\text{f}'\\left(x\\right) = 4\\cos 3 x - \\frac{1}{2}\\sin 2 x`, find `\\text{f}\\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Integrating term by term gives `4\\left(\\frac{1}{3}\\sin 3 x\\right) - \\frac{1}{2}\\left(- \\frac{1}{2}\\cos 2 x\\right) + c`."
+    },
+    {
+     "type": "paragraph",
+     "md": "That simplifies to `\\text{f}\\left(x\\right) = \\frac{4}{3}\\sin 3 x + \\frac{1}{4}\\cos 2 x + c`, where the two minus signs have cancelled."
+    }
+   ],
+   "front_md": "Given `\\text{f}'\\left(x\\right) = 4\\cos 3 x - \\frac{1}{2}\\sin 2 x`, find `\\text{f}\\left(x\\right)`.\n",
+   "back_md": "Integrating term by term gives `4\\left(\\frac{1}{3}\\sin 3 x\\right) - \\frac{1}{2}\\left(- \\frac{1}{2}\\cos 2 x\\right) + c`.\n\nThat simplifies to `\\text{f}\\left(x\\right) = \\frac{4}{3}\\sin 3 x + \\frac{1}{4}\\cos 2 x + c`, where the two minus signs have cancelled.\n",
+   "spec_links": [
+    "spcpt_3RJndX5xhQSKbn6K"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_d8g6kBMgqtrY3kym",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating $\\mathrm{sin} 2 x$ gives $- \\mathrm{cos} 2 x + c$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The factor of $\\frac{1}{a}$ has been left out, so the correct integral is $- \\frac{1}{2} \\mathrm{cos} 2 x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $- \\mathrm{cos} 2 x$ gives $2 \\mathrm{sin} 2 x$ rather than $\\mathrm{sin} 2 x$, which shows the answer is wrong."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIntegrating $\\mathrm{sin} 2 x$ gives $- \\mathrm{cos} 2 x + c$.\n",
+   "back_md": "**False.**\n\nThe factor of $\\frac{1}{a}$ has been left out, so the correct integral is $- \\frac{1}{2} \\mathrm{cos} 2 x + c$.\n\nDifferentiating $- \\mathrm{cos} 2 x$ gives $2 \\mathrm{sin} 2 x$ rather than $\\mathrm{sin} 2 x$, which shows the answer is wrong.\n",
+   "spec_links": [
+    "spcpt_3RJndX5xhQSKbn6K"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vW6r45CgsjCMwMtq",
+   "card_type": "fill_in_the_blanks",
+   "order": 8,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the integral of the exponential function:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\text{e}^{a x} \\text{d}x = \\_\\_\\_\\_\\_\\_ \\text{e}^{\\_\\_\\_\\_\\_\\_} + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed integral is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\text{e}^{a x} \\text{d}x = \\frac{1}{a} \\text{e}^{a x} + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The exponential is unchanged and picks up a factor of $\\frac{1}{a}$, where differentiating would have multiplied by $a$ instead."
+    }
+   ],
+   "front_md": "Complete the integral of the exponential function:\n\n`\\int \\text{e}^{a x} \\text{d}x = \\_\\_\\_\\_\\_\\_ \\text{e}^{\\_\\_\\_\\_\\_\\_} + c`\n",
+   "back_md": "The completed integral is:\n\n`\\int \\text{e}^{a x} \\text{d}x = \\frac{1}{a} \\text{e}^{a x} + c`\n\nThe exponential is unchanged and picks up a factor of $\\frac{1}{a}$, where differentiating would have multiplied by $a$ instead.\n",
+   "spec_links": [
+    "spcpt_D2njzcMRRFh4dvQn"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_q3CBVrVjGcMtyJyp",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_5WbtWMJnPGVNQyKC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Given `\\text{f}'\\left(x\\right) = \\frac{\\text{e}^{2 x} - \\text{e}^{- 3 x}}{2}`, find `\\text{f}\\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Split the fraction first, so the integrand is $\\frac{1}{2} \\text{e}^{2x} - \\frac{1}{2} \\text{e}^{-3x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating gives `\\frac{1}{2}\\left(\\frac{1}{2}\\text{e}^{2 x}\\right) - \\frac{1}{2}\\left(- \\frac{1}{3}\\text{e}^{- 3 x}\\right) + c = \\frac{1}{4}\\text{e}^{2 x} + \\frac{1}{6}\\text{e}^{- 3 x} + c`."
+    }
+   ],
+   "front_md": "Given `\\text{f}'\\left(x\\right) = \\frac{\\text{e}^{2 x} - \\text{e}^{- 3 x}}{2}`, find `\\text{f}\\left(x\\right)`.\n",
+   "back_md": "Split the fraction first, so the integrand is $\\frac{1}{2} \\text{e}^{2x} - \\frac{1}{2} \\text{e}^{-3x}$.\n\nIntegrating gives `\\frac{1}{2}\\left(\\frac{1}{2}\\text{e}^{2 x}\\right) - \\frac{1}{2}\\left(- \\frac{1}{3}\\text{e}^{- 3 x}\\right) + c = \\frac{1}{4}\\text{e}^{2 x} + \\frac{1}{6}\\text{e}^{- 3 x} + c`.\n",
+   "spec_links": [
+    "spcpt_D2njzcMRRFh4dvQn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HPVQdVXV39Dx9BGs",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_3W8ZWdgYDCjnXfjj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does an indefinite integral need a constant of integration?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the derivative of any constant is zero, so many different functions share one derivative."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each of $x^{3} - 5 x$, $x^{3} - 5 x + 7$ and $x^{3} - 5 x - 498$ differentiates to $3 x^{2} - 5$, and integrating cannot tell you which one you started from."
+    }
+   ],
+   "front_md": "Why does an indefinite integral need a constant of integration?\n",
+   "back_md": "Because the derivative of any constant is zero, so many different functions share one derivative.\n\nEach of $x^{3} - 5 x$, $x^{3} - 5 x + 7$ and $x^{3} - 5 x - 498$ differentiates to $3 x^{2} - 5$, and integrating cannot tell you which one you started from.\n",
+   "spec_links": [
+    "spcpt_Q2yPvWmbP3hFp5kM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CSSB6PXtPhmrTSTG",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_3W8ZWdgYDCjnXfjj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What do different values of $c$ look like on a graph?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **vertical translations** of the same curve."
+    },
+    {
+     "type": "paragraph",
+     "md": "The answer to an indefinite integral is therefore a whole family of identically shaped curves, stacked above and below one another."
+    }
+   ],
+   "front_md": "What do different values of $c$ look like on a graph?\n",
+   "back_md": "They are **vertical translations** of the same curve.\n\nThe answer to an indefinite integral is therefore a whole family of identically shaped curves, stacked above and below one another.\n",
+   "spec_links": [
+    "spcpt_Q2yPvWmbP3hFp5kM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6zbpyH24ntP3QX54",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_3W8ZWdgYDCjnXfjj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What extra information do you need to find the value of $c$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The value of the function at one value of $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is usually given as a point the graph passes through, but it may equally be given in words, and either way you substitute and solve for $c$."
+    }
+   ],
+   "front_md": "What extra information do you need to find the value of $c$?\n",
+   "back_md": "The value of the function at one value of $x$.\n\nThat is usually given as a point the graph passes through, but it may equally be given in words, and either way you substitute and solve for $c$.\n",
+   "spec_links": [
+    "spcpt_Q2yPvWmbP3hFp5kM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nrMjcYFfxp8kHt8Z",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_3W8ZWdgYDCjnXfjj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The graph of `y = \\text{f}\\left(x\\right)` passes through `\\left(3 , - 4\\right)` and `\\text{f}'\\left(x\\right) = 3 x^{2} - 4 x - 4`; find `\\text{f}\\left(x\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Integrating gives `\\text{f}\\left(x\\right) = x^{3} - 2 x^{2} - 4 x + c`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substituting the point, $27 - 18 - 12 + c = - 4$, so $c = - 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Therefore `\\text{f}\\left(x\\right) = x^{3} - 2 x^{2} - 4 x - 1`."
+    }
+   ],
+   "front_md": "The graph of `y = \\text{f}\\left(x\\right)` passes through `\\left(3 , - 4\\right)` and `\\text{f}'\\left(x\\right) = 3 x^{2} - 4 x - 4`; find `\\text{f}\\left(x\\right)`.\n",
+   "back_md": "Integrating gives `\\text{f}\\left(x\\right) = x^{3} - 2 x^{2} - 4 x + c`.\n\nSubstituting the point, $27 - 18 - 12 + c = - 4$, so $c = - 1$.\n\nTherefore `\\text{f}\\left(x\\right) = x^{3} - 2 x^{2} - 4 x - 1`.\n",
+   "spec_links": [
+    "spcpt_Q2yPvWmbP3hFp5kM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dpvWZtTm9Z5FWGh4",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_3W8ZWdgYDCjnXfjj",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You need two points on the curve to find the constant of integration."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "One is enough, because integrating has already fixed everything except $c$, leaving a single unknown."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is unlike finding the equation of a straight line, where two points are needed to get both the gradient and the intercept."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou need two points on the curve to find the constant of integration.\n",
+   "back_md": "**False.**\n\nOne is enough, because integrating has already fixed everything except $c$, leaving a single unknown.\n\nThat is unlike finding the equation of a straight line, where two points are needed to get both the gradient and the intercept.\n",
+   "spec_links": [
+    "spcpt_Q2yPvWmbP3hFp5kM"
+   ],
+   "flags": []
+  }
+ ]
+}

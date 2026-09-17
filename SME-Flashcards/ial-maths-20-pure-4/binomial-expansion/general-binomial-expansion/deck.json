@@ -1,0 +1,805 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:26Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/binomial-expansion/general-binomial-expansion/",
+  "section_slug": "binomial-expansion",
+  "section_name": "Binomial Expansion",
+  "topic_slug": "general-binomial-expansion",
+  "title": "General Binomial Expansion",
+  "order": 0
+ },
+ "card_count": 24,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 4,
+  "true_or_false": 4,
+  "question_and_answer": 15
+ },
+ "spec_link_cards": 24,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_sC23sRtxVR9vWbqZ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **general binomial expansion**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **general binomial expansion** is the expansion of `\\left(1 + x\\right)^{n}` for **any real** $n$, not merely for positive integers."
+    },
+    {
+     "type": "paragraph",
+     "md": "In practice that means negative and fractional powers, which the ordinary binomial expansion cannot handle."
+    }
+   ],
+   "front_md": "Define the **general binomial expansion**.\n",
+   "back_md": "The **general binomial expansion** is the expansion of `\\left(1 + x\\right)^{n}` for **any real** $n$, not merely for positive integers.\n\nIn practice that means negative and fractional powers, which the ordinary binomial expansion cannot handle.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cFyHP5hkpDP8Pkzn",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the general binomial expansion:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(1 + x\\right)^{n} = 1 + n x + \\frac{n \\left(n - 1\\right)}{2 !} x^{2} + \\frac{\\_\\_\\_\\_\\_\\_}{3 !} x^{3} + \\ldots`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed expansion is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(1 + x\\right)^{n} = 1 + n x + \\frac{n \\left(n - 1\\right)}{2 !} x^{2} + \\frac{n \\left(n - 1\\right) \\left(n - 2\\right)}{3 !} x^{3} + \\ldots`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each numerator picks up one more factor than the last, each one lower by $1$, and the factorial underneath keeps pace."
+    }
+   ],
+   "front_md": "Complete the general binomial expansion:\n\n`\\left(1 + x\\right)^{n} = 1 + n x + \\frac{n \\left(n - 1\\right)}{2 !} x^{2} + \\frac{\\_\\_\\_\\_\\_\\_}{3 !} x^{3} + \\ldots`\n",
+   "back_md": "The completed expansion is:\n\n`\\left(1 + x\\right)^{n} = 1 + n x + \\frac{n \\left(n - 1\\right)}{2 !} x^{2} + \\frac{n \\left(n - 1\\right) \\left(n - 2\\right)}{3 !} x^{3} + \\ldots`\n\nEach numerator picks up one more factor than the last, each one lower by $1$, and the factorial underneath keeps pace.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kTMHkC84yRk8hPqJ",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The general binomial expansion of `\\left(1 + x\\right)^{n}` always has infinitely many terms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When $n$ is a **positive integer** one of the numerator factors becomes zero, so the expansion stops there and is exact."
+    },
+    {
+     "type": "paragraph",
+     "md": "For any other real value of $n$ it does run on for ever."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe general binomial expansion of `\\left(1 + x\\right)^{n}` always has infinitely many terms.\n",
+   "back_md": "**False.**\n\nWhen $n$ is a **positive integer** one of the numerator factors becomes zero, so the expansion stops there and is exact.\n\nFor any other real value of $n$ it does run on for ever.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9jYV94rZq2QnhMTm",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For which values of $x$ is the expansion of `\\left(1 + x\\right)^{n}` valid?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only for `\\left| x \\right| < 1`, which is another way of writing $- 1 < x < 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is called the **validity statement**, and outside that range the infinite series does not add up to the original expression at all."
+    }
+   ],
+   "front_md": "For which values of $x$ is the expansion of `\\left(1 + x\\right)^{n}` valid?\n",
+   "back_md": "Only for `\\left| x \\right| < 1`, which is another way of writing $- 1 < x < 1$.\n\nThis is called the **validity statement**, and outside that range the infinite series does not add up to the original expression at all.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pNYh5pBCxBCbrmtf",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does the expansion only work when `\\left| x \\right| < 1`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a number smaller than $1$ in size gets **smaller still** when raised to a higher power."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what makes the terms shrink towards zero, so the series **converges** rather than growing without limit."
+    }
+   ],
+   "front_md": "Why does the expansion only work when `\\left| x \\right| < 1`?\n",
+   "back_md": "Because a number smaller than $1$ in size gets **smaller still** when raised to a higher power.\n\nThat is what makes the terms shrink towards zero, so the series **converges** rather than growing without limit.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JyNBvbpwqdXS5yVH",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you expand `\\left(1 + b x\\right)^{n}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Replace every $x$ in the standard expansion by $b x$, watching the sign carefully if $b$ is negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "The validity condition travels with it and becomes `\\left| b x \\right| < 1`."
+    }
+   ],
+   "front_md": "How do you expand `\\left(1 + b x\\right)^{n}`?\n",
+   "back_md": "Replace every $x$ in the standard expansion by $b x$, watching the sign carefully if $b$ is negative.\n\nThe validity condition travels with it and becomes `\\left| b x \\right| < 1`.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yCHsfNvgMRjCNHp5",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_XFXSzZGjDpXPGbWG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the general expansion written for `\\left(1 + x\\right)^{n}` rather than `\\left(a + b\\right)^{n}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because setting $a = 1$ makes every power of $a$ equal to $1$, so all those factors disappear."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is left is short enough to write down and work with, which the general two-letter form is not."
+    }
+   ],
+   "front_md": "Why is the general expansion written for `\\left(1 + x\\right)^{n}` rather than `\\left(a + b\\right)^{n}`?\n",
+   "back_md": "Because setting $a = 1$ makes every power of $a$ equal to $1$, so all those factors disappear.\n\nWhat is left is short enough to write down and work with, which the general two-letter form is not.\n",
+   "spec_links": [
+    "spcpt_WRV9vk2NPcPg4nms"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5KNF3NNx7bKK6Mgp",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_k4fmtQwMdFwKqhHk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The general binomial expansion is written for $( 1 + x )^{n}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "What is the **first thing you must do** to expand $( a + b x )^{n}$ when $a \\neq 1$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Factorise $a$ out of the bracket, so the term inside becomes 1:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`(a+bx)^{n} = \\left[a\\left(1+\\frac{b}{a}x\\right)\\right]^{n} = a^{n}\\left(1+\\frac{b}{a}x\\right)^{n}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $a^{n}$ stays outside as a multiplier, and you expand the bracket."
+    }
+   ],
+   "front_md": "The general binomial expansion is written for $( 1 + x )^{n}$.\n\nWhat is the **first thing you must do** to expand $( a + b x )^{n}$ when $a \\neq 1$?\n",
+   "back_md": "Factorise $a$ out of the bracket, so the term inside becomes 1:\n\n`(a+bx)^{n} = \\left[a\\left(1+\\frac{b}{a}x\\right)\\right]^{n} = a^{n}\\left(1+\\frac{b}{a}x\\right)^{n}`\n\nThe $a^{n}$ stays outside as a multiplier, and you expand the bracket.\n",
+   "spec_links": [
+    "spcpt_f9PhGNgtDD7ss4X9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CwhjxzwKKT34RpBY",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_k4fmtQwMdFwKqhHk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the missing **index**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{1}{\\sqrt[3]{8-3x}} = (8-3x)^{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed expression is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{1}{\\sqrt[3]{8-3x}} = (8-3x)^{-\\frac{1}{3}}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "A **root** becomes a fractional power, and moving the bracket **out of the denominator** makes that power negative."
+    }
+   ],
+   "front_md": "Fill in the missing **index**:\n\n`\\frac{1}{\\sqrt[3]{8-3x}} = (8-3x)^{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed expression is:\n\n`\\frac{1}{\\sqrt[3]{8-3x}} = (8-3x)^{-\\frac{1}{3}}`\n\nA **root** becomes a fractional power, and moving the bracket **out of the denominator** makes that power negative.\n",
+   "spec_links": [
+    "spcpt_f9PhGNgtDD7ss4X9"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kqpJqS4M8W8QzGCH",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_k4fmtQwMdFwKqhHk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must `\\left(a + b x\\right)^{n}` be rewritten in the form `\\left(1 + \\frac{b}{a} x\\right)^{n}` before the general binomial expansion can be used?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The expansion in the formula booklet is only given for $( 1 + x )^{n}$, with a **1** as the first term in the bracket."
+    },
+    {
+     "type": "paragraph",
+     "md": "Once the bracket is in that form you can read the expansion straight off the booklet and replace $x$ with $\\frac{b}{a} x$."
+    }
+   ],
+   "front_md": "Why must `\\left(a + b x\\right)^{n}` be rewritten in the form `\\left(1 + \\frac{b}{a} x\\right)^{n}` before the general binomial expansion can be used?\n",
+   "back_md": "The expansion in the formula booklet is only given for $( 1 + x )^{n}$, with a **1** as the first term in the bracket.\n\nOnce the bracket is in that form you can read the expansion straight off the booklet and replace $x$ with $\\frac{b}{a} x$.\n",
+   "spec_links": [
+    "spcpt_f9PhGNgtDD7ss4X9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bJDPwszjHwdH2HGn",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_k4fmtQwMdFwKqhHk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the range of validity of the expansion of $( a + b x )^{n}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`open vertical bar b over a x close vertical bar less than 1`, which rearranges to `vertical line x vertical line less than open vertical bar a over b close vertical bar`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It comes from the bracket after factorising, not from the original expression. For `left parenthesis 8 minus 3 x right parenthesis to the power of negative 1 third end exponent equals 8 to the power of negative 1 third end exponent open parentheses 1 minus 3 over 8 x close parentheses to the power of negative 1 third end exponent` it gives `vertical line x vertical line less than 8 over 3`."
+    }
+   ],
+   "front_md": "What is the range of validity of the expansion of $( a + b x )^{n}$?\n",
+   "back_md": "`open vertical bar b over a x close vertical bar less than 1`, which rearranges to `vertical line x vertical line less than open vertical bar a over b close vertical bar`.\n\nIt comes from the bracket after factorising, not from the original expression. For `left parenthesis 8 minus 3 x right parenthesis to the power of negative 1 third end exponent equals 8 to the power of negative 1 third end exponent open parentheses 1 minus 3 over 8 x close parentheses to the power of negative 1 third end exponent` it gives `vertical line x vertical line less than 8 over 3`.\n",
+   "spec_links": [
+    "spcpt_f9PhGNgtDD7ss4X9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CMgSPt3JNM7XRfgX",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_k4fmtQwMdFwKqhHk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The expansions of $( 3 + 2 x )^{-4}$ and $( 1 + 2 x )^{-4}$ are valid for the same values of $x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The range of validity depends on $\\frac{b}{a}$, so changing $a$ changes it."
+    },
+    {
+     "type": "paragraph",
+     "md": "`left parenthesis 3 plus 2 x right parenthesis to the power of negative 4 end exponent equals 3 to the power of negative 4 end exponent open parentheses 1 plus 2 over 3 x close parentheses to the power of negative 4 end exponent` is valid for `vertical line x vertical line less than 3 over 2`, while $(1+2x)^{-4}$ is valid for `vertical line x vertical line less than 1 half`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe expansions of $( 3 + 2 x )^{-4}$ and $( 1 + 2 x )^{-4}$ are valid for the same values of $x$.\n",
+   "back_md": "**False.**\n\nThe range of validity depends on $\\frac{b}{a}$, so changing $a$ changes it.\n\n`left parenthesis 3 plus 2 x right parenthesis to the power of negative 4 end exponent equals 3 to the power of negative 4 end exponent open parentheses 1 plus 2 over 3 x close parentheses to the power of negative 4 end exponent` is valid for `vertical line x vertical line less than 3 over 2`, while $(1+2x)^{-4}$ is valid for `vertical line x vertical line less than 1 half`.\n",
+   "spec_links": [
+    "spcpt_f9PhGNgtDD7ss4X9"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_b8FSvTjbrdsCFB76",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_fcy2mXgpHnjvsdHx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you expand an expression containing **more than one** binomial, such as $\\frac{\\sqrt{1+x}}{3+2x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Break it into separate binomials, here $(1+x)^{\\frac{1}{2}}$ and $( 3 + 2 x )^{-1}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Expand each one **individually**, then multiply the expansions together and collect like terms."
+    }
+   ],
+   "front_md": "How do you expand an expression containing **more than one** binomial, such as $\\frac{\\sqrt{1+x}}{3+2x}$?\n",
+   "back_md": "Break it into separate binomials, here $(1+x)^{\\frac{1}{2}}$ and $( 3 + 2 x )^{-1}$.\n\nExpand each one **individually**, then multiply the expansions together and collect like terms.\n",
+   "spec_links": [
+    "spcpt_NTrg5qZWvkW2Qvvk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7NWdsQfFC9YNr4vg",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_fcy2mXgpHnjvsdHx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "To multiply two binomial expansions together up to the term in $x^{2}$, you must multiply out every pair of terms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Any product whose powers add to more than 2 can be **ignored**, since it only affects terms you are not keeping."
+    },
+    {
+     "type": "paragraph",
+     "md": "So you only need the pairs that give $x^{0}$, $x^{1}$ and $x^{2}$, which saves a great deal of work."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTo multiply two binomial expansions together up to the term in $x^{2}$, you must multiply out every pair of terms.\n",
+   "back_md": "**False.**\n\nAny product whose powers add to more than 2 can be **ignored**, since it only affects terms you are not keeping.\n\nSo you only need the pairs that give $x^{0}$, $x^{1}$ and $x^{2}$, which saves a great deal of work.\n",
+   "spec_links": [
+    "spcpt_NTrg5qZWvkW2Qvvk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_m2Y2B9FWYv2BkR2f",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_fcy2mXgpHnjvsdHx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When expanding an expression that contains more than one binomial, how far must each one be expanded if the final answer is needed up to the term in $x^{3}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "As far as the term in $x^{3}$ in **each** expansion."
+    },
+    {
+     "type": "paragraph",
+     "md": "A term in $x^{3}$ in the final answer can come from $1 \\times x^{3}$ as well as from $x \\times x^{2}$, so stopping any earlier would lose part of it."
+    }
+   ],
+   "front_md": "When expanding an expression that contains more than one binomial, how far must each one be expanded if the final answer is needed up to the term in $x^{3}$?\n",
+   "back_md": "As far as the term in $x^{3}$ in **each** expansion.\n\nA term in $x^{3}$ in the final answer can come from $1 \\times x^{3}$ as well as from $x \\times x^{2}$, so stopping any earlier would lose part of it.\n",
+   "spec_links": [
+    "spcpt_NTrg5qZWvkW2Qvvk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vxY4h5MPB3Bh3CWZ",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_fcy2mXgpHnjvsdHx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Expanding $\\frac{\\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\\frac{1}{2}}$, valid for `vertical line x vertical line less than 1`, and $(3+2x)^{-1}$, valid for `vertical line x vertical line less than 3 over 2`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The whole expansion is valid for `\\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The whole expansion is valid for `|x| < 1`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both expansions have to be valid at the same time, so the overall range of validity is the **intersection** of the two: the **smaller** boundary wins."
+    }
+   ],
+   "front_md": "Expanding $\\frac{\\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\\frac{1}{2}}$, valid for `vertical line x vertical line less than 1`, and $(3+2x)^{-1}$, valid for `vertical line x vertical line less than 3 over 2`.\n\nThe whole expansion is valid for `\\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The whole expansion is valid for `|x| < 1`.\n\nBoth expansions have to be valid at the same time, so the overall range of validity is the **intersection** of the two: the **smaller** boundary wins.\n",
+   "spec_links": [
+    "spcpt_NTrg5qZWvkW2Qvvk"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kyHv7TV6thr8DQDq",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_fcy2mXgpHnjvsdHx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What lets you apply the general binomial expansion to a rational function such as $\\frac{9x+10}{(x+4)(3x-1)}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Splitting it into **partial fractions** first:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{9x+10}{(x+4)(3x-1)} = \\frac{2}{x+4} + \\frac{3}{3x-1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each partial fraction can then be written as a negative power, $2 ( x + 4 )^{-1} + 3 ( 3 x - 1 )^{-1}$, and expanded."
+    }
+   ],
+   "front_md": "What lets you apply the general binomial expansion to a rational function such as $\\frac{9x+10}{(x+4)(3x-1)}$?\n",
+   "back_md": "Splitting it into **partial fractions** first:\n\n$\\frac{9x+10}{(x+4)(3x-1)} = \\frac{2}{x+4} + \\frac{3}{3x-1}$\n\nEach partial fraction can then be written as a negative power, $2 ( x + 4 )^{-1} + 3 ( 3 x - 1 )^{-1}$, and expanded.\n",
+   "spec_links": [
+    "spcpt_NTrg5qZWvkW2Qvvk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hnJ4rwwDGv49yPsm",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_fcy2mXgpHnjvsdHx",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you prepare $3 ( 3 x - 1 )^{-1}$ for a binomial expansion, when the constant term is $- 1$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Factorise the $- 1$ out of the bracket so the constant term becomes $+ 1$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`3(-1+3x)^{-1} = 3\\left[(-1)(1-3x)\\right]^{-1} = -3(1-3x)^{-1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $-1$ leaves the bracket raised to the power $n$, here $(-1)^{-1}=-1$."
+    }
+   ],
+   "front_md": "How do you prepare $3 ( 3 x - 1 )^{-1}$ for a binomial expansion, when the constant term is $- 1$?\n",
+   "back_md": "Factorise the $- 1$ out of the bracket so the constant term becomes $+ 1$:\n\n`3(-1+3x)^{-1} = 3\\left[(-1)(1-3x)\\right]^{-1} = -3(1-3x)^{-1}`\n\nThe $-1$ leaves the bracket raised to the power $n$, here $(-1)^{-1}=-1$.\n",
+   "spec_links": [
+    "spcpt_NTrg5qZWvkW2Qvvk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NbzxtV6vgbZRXdNq",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_YGDDY8XVkZ4hgchS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you use a binomial expansion to **approximate** a numerical value?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Compare the number you want with the expression that was expanded, solve for $x$, then substitute that $x$ into the expansion."
+    },
+    {
+     "type": "paragraph",
+     "md": "To approximate `\\sqrt[4]{85}` from `\\sqrt[4]{81-9x}`, solve $81 - 9 x = 85$ to get $x=-\\frac{4}{9}$, and put that into the expansion."
+    }
+   ],
+   "front_md": "How do you use a binomial expansion to **approximate** a numerical value?\n",
+   "back_md": "Compare the number you want with the expression that was expanded, solve for $x$, then substitute that $x$ into the expansion.\n\nTo approximate `\\sqrt[4]{85}` from `\\sqrt[4]{81-9x}`, solve $81 - 9 x = 85$ to get $x=-\\frac{4}{9}$, and put that into the expansion.\n",
+   "spec_links": [
+    "spcpt_sgyKrvgcrwm34Pkz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jChhrbScXmXFJBrW",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_YGDDY8XVkZ4hgchS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What makes a binomial approximation more accurate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Using **more terms** of the expansion. Each extra term brings the value closer to the true one."
+    },
+    {
+     "type": "paragraph",
+     "md": "Terms up to $x^{2}$ or $x^{3}$ are usually accurate enough."
+    }
+   ],
+   "front_md": "What makes a binomial approximation more accurate?\n",
+   "back_md": "Using **more terms** of the expansion. Each extra term brings the value closer to the true one.\n\nTerms up to $x^{2}$ or $x^{3}$ are usually accurate enough.\n",
+   "spec_links": [
+    "spcpt_sgyKrvgcrwm34Pkz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SD5QBCnxM3Rd9B64",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_YGDDY8XVkZ4hgchS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Before using a value of $x$ in a binomial approximation, what must you check about it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That it lies inside the **range of validity** of the expansion."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sqrt[4]{81-9x}` is only valid for `|x| < 9`, so `\\sqrt[4]{171}`, which needs $x = - 10$, **cannot** be approximated from it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Exam questions often hide a validity check inside an approximation question."
+    }
+   ],
+   "front_md": "Before using a value of $x$ in a binomial approximation, what must you check about it?\n",
+   "back_md": "That it lies inside the **range of validity** of the expansion.\n\n`\\sqrt[4]{81-9x}` is only valid for `|x| < 9`, so `\\sqrt[4]{171}`, which needs $x = - 10$, **cannot** be approximated from it.\n\nExam questions often hide a validity check inside an approximation question.\n",
+   "spec_links": [
+    "spcpt_sgyKrvgcrwm34Pkz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_N7CdpXrQB2yJwRqs",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_YGDDY8XVkZ4hgchS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the value of $x$ you need lies outside the range of validity of a binomial expansion, using more terms will still give a good approximation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Outside the range of validity the series does **not** converge, so extra terms do not settle towards the true value, they make things worse."
+    },
+    {
+     "type": "paragraph",
+     "md": "The expansion cannot be used for that value at all."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf the value of $x$ you need lies outside the range of validity of a binomial expansion, using more terms will still give a good approximation.\n",
+   "back_md": "**False.**\n\nOutside the range of validity the series does **not** converge, so extra terms do not settle towards the true value, they make things worse.\n\nThe expansion cannot be used for that value at all.\n",
+   "spec_links": [
+    "spcpt_sgyKrvgcrwm34Pkz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GrDqbGkV7gcvFj6W",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_YGDDY8XVkZ4hgchS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the missing values so a binomial expansion can be used to approximate $\\sqrt{710}$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sqrt{710} = \\sqrt{\\_\\_\\_\\_\\_\\_ \\times 7.1} = \\_\\_\\_\\_\\_\\_\\sqrt{7.1}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed working is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\sqrt{710} = \\sqrt{100\\times7.1} = 10 \\sqrt{7.1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking out a **perfect square** leaves a much smaller number, which an expansion can reach."
+    }
+   ],
+   "front_md": "Fill in the missing values so a binomial expansion can be used to approximate $\\sqrt{710}$:\n\n`\\sqrt{710} = \\sqrt{\\_\\_\\_\\_\\_\\_ \\times 7.1} = \\_\\_\\_\\_\\_\\_\\sqrt{7.1}`\n",
+   "back_md": "The completed working is:\n\n$\\sqrt{710} = \\sqrt{100\\times7.1} = 10 \\sqrt{7.1}$\n\nTaking out a **perfect square** leaves a much smaller number, which an expansion can reach.\n",
+   "spec_links": [
+    "spcpt_sgyKrvgcrwm34Pkz"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_SwW44ppQw2Kz4FMP",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_YGDDY8XVkZ4hgchS",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two expansions can both approximate the same value, one needing $x=0.04$ and the other $x=0.8$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Which gives the better approximation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The one using $x = 0 . 04$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The terms left out are powers of $x$, and those shrink far faster when $x$ is small. A value of $x$ near the edge of the range of validity gives a poor approximation even though the expansion is still valid."
+    }
+   ],
+   "front_md": "Two expansions can both approximate the same value, one needing $x=0.04$ and the other $x=0.8$.\n\nWhich gives the better approximation?\n",
+   "back_md": "The one using $x = 0 . 04$.\n\nThe terms left out are powers of $x$, and those shrink far faster when $x$ is small. A value of $x$ near the edge of the range of validity gives a poor approximation even though the expansion is still valid.\n",
+   "spec_links": [
+    "spcpt_sgyKrvgcrwm34Pkz"
+   ],
+   "flags": []
+  }
+ ]
+}

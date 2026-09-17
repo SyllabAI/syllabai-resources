@@ -1,0 +1,787 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:08Z",
+ "course_slug": "ial-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-2/flashcards/differentiation/applications-of-differentiation/",
+  "section_slug": "differentiation",
+  "section_name": "Differentiation",
+  "topic_slug": "applications-of-differentiation",
+  "title": "Applications of Differentiation",
+  "order": 0
+ },
+ "card_count": 25,
+ "card_types": {
+  "keyword_definition": 2,
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 16,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 25,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_KDqj8mp4w8dnNphN",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **strictly increasing**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A function is **strictly increasing** on an interval if `\\text{f} ' \\left(x\\right) > 0` at every point of that interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "Plain increasing is the weaker condition, since it permits the derivative to be zero here and there, so a curve that momentarily flattens still counts."
+    }
+   ],
+   "front_md": "Define **strictly increasing**.\n",
+   "back_md": "A function is **strictly increasing** on an interval if `\\text{f} ' \\left(x\\right) > 0` at every point of that interval.\n\nPlain increasing is the weaker condition, since it permits the derivative to be zero here and there, so a curve that momentarily flattens still counts.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kYbWXwX77Wcp4hM4",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two conditions, using **non-strict** inequality signs:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f} \\left(x\\right)` is increasing on an interval if `\\text{f} ' \\left(x\\right) \\_\\_\\_\\_\\_\\_ 0` throughout it, and decreasing if `\\text{f} ' \\left(x\\right) \\_\\_\\_\\_\\_\\_ 0` throughout it."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed conditions are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f} \\left(x\\right)` is increasing on an interval if `\\text{f} ' \\left(x\\right) \\ge 0` throughout it, and decreasing if `\\text{f} ' \\left(x\\right) \\le 0` throughout it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The condition has to hold **throughout** the interval, not merely at one point inside it."
+    }
+   ],
+   "front_md": "Complete the two conditions, using **non-strict** inequality signs:\n\n`\\text{f} \\left(x\\right)` is increasing on an interval if `\\text{f} ' \\left(x\\right) \\_\\_\\_\\_\\_\\_ 0` throughout it, and decreasing if `\\text{f} ' \\left(x\\right) \\_\\_\\_\\_\\_\\_ 0` throughout it.\n",
+   "back_md": "The completed conditions are:\n\n`\\text{f} \\left(x\\right)` is increasing on an interval if `\\text{f} ' \\left(x\\right) \\ge 0` throughout it, and decreasing if `\\text{f} ' \\left(x\\right) \\le 0` throughout it.\n\nThe condition has to hold **throughout** the interval, not merely at one point inside it.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_hQf9PSMXcKhP9dtt",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the sign of `\\text{f} ' \\left(x\\right)` tell you about the graph?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Positive means the curve is going **up** as $x$ increases, and negative means it is going **down**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the sign of the derivative, read across the domain, gives you the whole shape of the curve without plotting a single point."
+    }
+   ],
+   "front_md": "What does the sign of `\\text{f} ' \\left(x\\right)` tell you about the graph?\n",
+   "back_md": "Positive means the curve is going **up** as $x$ increases, and negative means it is going **down**.\n\nSo the sign of the derivative, read across the domain, gives you the whole shape of the curve without plotting a single point.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_q386DpqFQFMtBw7k",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A function must be either increasing or decreasing over the whole of its domain."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Most functions do both on different intervals: `\\text{f} \\left(x\\right) = x^{3} + x^{2} - x + 2` increases, then decreases, then increases again."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why increasing and decreasing are always described over an **interval** rather than for a function as a whole."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA function must be either increasing or decreasing over the whole of its domain.\n",
+   "back_md": "**False.**\n\nMost functions do both on different intervals: `\\text{f} \\left(x\\right) = x^{3} + x^{2} - x + 2` increases, then decreases, then increases again.\n\nThat is why increasing and decreasing are always described over an **interval** rather than for a function as a whole.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JmNJGn4KbpbZgCwj",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the intervals on which `\\text{f} \\left(x\\right)` is increasing?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate to get `\\text{f} ' \\left(x\\right)`, then solve the inequality `\\text{f} ' \\left(x\\right) \\ge 0`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The solution set of that inequality is exactly the set of intervals being asked for."
+    }
+   ],
+   "front_md": "How do you find the intervals on which `\\text{f} \\left(x\\right)` is increasing?\n",
+   "back_md": "Differentiate to get `\\text{f} ' \\left(x\\right)`, then solve the inequality `\\text{f} ' \\left(x\\right) \\ge 0`.\n\nThe solution set of that inequality is exactly the set of intervals being asked for.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ThQkNSjMcKw8nmsF",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Solving `\\text{f} ' \\left(x\\right) \\ge 0` leaves you with a quadratic inequality. What is the quickest way to read off the intervals?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sketch that quadratic and see where the curve lies **on or above** the $x$-axis."
+    },
+    {
+     "type": "paragraph",
+     "md": "For $3 x^{2} + 2 x - 1 \\geq 0$, whose roots are $- 1$ and $\\frac{1}{3}$, that is the two outer intervals rather than the middle one."
+    }
+   ],
+   "front_md": "Solving `\\text{f} ' \\left(x\\right) \\ge 0` leaves you with a quadratic inequality. What is the quickest way to read off the intervals?\n",
+   "back_md": "Sketch that quadratic and see where the curve lies **on or above** the $x$-axis.\n\nFor $3 x^{2} + 2 x - 1 \\geq 0$, whose roots are $- 1$ and $\\frac{1}{3}$, that is the two outer intervals rather than the middle one.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RnHhxYhPpVHBvVpw",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_GJg2dDwyJCpDxbXk",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why are the ends of the increasing and decreasing intervals the solutions of `\\text{f} ' \\left(x\\right) = 0`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a smooth curve's gradient can only change from positive to negative, or back again, by passing through **zero**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Those points are therefore exactly where one kind of interval finishes and the next begins."
+    }
+   ],
+   "front_md": "Why are the ends of the increasing and decreasing intervals the solutions of `\\text{f} ' \\left(x\\right) = 0`?\n",
+   "back_md": "Because a smooth curve's gradient can only change from positive to negative, or back again, by passing through **zero**.\n\nThose points are therefore exactly where one kind of interval finishes and the next begins.\n",
+   "spec_links": [
+    "spcpt_BZ8Fv5yMksrMBfHf"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_S2V88nDNM2wkfmmC",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **stationary point**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A point on a curve where the **gradient is zero**."
+    },
+    {
+     "type": "paragraph",
+     "md": "It may be a local minimum, a local maximum, or a point of inflection."
+    }
+   ],
+   "front_md": "Define **stationary point**.\n",
+   "back_md": "A point on a curve where the **gradient is zero**.\n\nIt may be a local minimum, a local maximum, or a point of inflection.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_QGNNsYT7WdyT7JNt",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the stationary points of `\\text{f}\\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate, solve `\\text{f}'\\left(x\\right) = 0` for the $x$-coordinates, then substitute those back into `\\text{f}\\left(x\\right)` for the $y$-coordinates."
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative gives the positions; the original function gives the heights."
+    }
+   ],
+   "front_md": "How do you find the stationary points of `\\text{f}\\left(x\\right)`?\n",
+   "back_md": "Differentiate, solve `\\text{f}'\\left(x\\right) = 0` for the $x$-coordinates, then substitute those back into `\\text{f}\\left(x\\right)` for the $y$-coordinates.\n\nThe derivative gives the positions; the original function gives the heights.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Nd9fg3MkZHfcScGq",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a stationary point and a turning point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Every turning point is stationary, but a **point of inflection** is stationary without being a turning point."
+    },
+    {
+     "type": "paragraph",
+     "md": "A turning point is one where the curve actually changes direction, from rising to falling or the other way round."
+    }
+   ],
+   "front_md": "What is the difference between a stationary point and a turning point?\n",
+   "back_md": "Every turning point is stationary, but a **point of inflection** is stationary without being a turning point.\n\nA turning point is one where the curve actually changes direction, from rising to falling or the other way round.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9dns7zMMDPtWnr67",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the second derivative test for the nature of a stationary point:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{f} ' ' \\left(x\\right) > 0 \\Rightarrow \\text{local } \\_\\_\\_\\_\\_\\_`\n`\\text{f} ' ' \\left(x\\right) < 0 \\Rightarrow \\text{local } \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **positive** second derivative means a local **minimum**, and a **negative** one means a local **maximum**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substitute the stationary point's $x$-coordinate into `\\text{f} ' ' \\left(x\\right)` to find out which."
+    }
+   ],
+   "front_md": "Complete the second derivative test for the nature of a stationary point:\n\n`\\text{f} ' ' \\left(x\\right) > 0 \\Rightarrow \\text{local } \\_\\_\\_\\_\\_\\_`\n`\\text{f} ' ' \\left(x\\right) < 0 \\Rightarrow \\text{local } \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "A **positive** second derivative means a local **minimum**, and a **negative** one means a local **maximum**.\n\nSubstitute the stationary point's $x$-coordinate into `\\text{f} ' ' \\left(x\\right)` to find out which.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Nsb7g3ybpn6tWDCB",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you use the **first** derivative to determine the nature of a stationary point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Check its **sign just to the left and just to the right** of the point."
+    },
+    {
+     "type": "paragraph",
+     "md": "Negative then positive is a minimum, positive then negative is a maximum, and the same sign on both sides is a point of inflection."
+    }
+   ],
+   "front_md": "How do you use the **first** derivative to determine the nature of a stationary point?\n",
+   "back_md": "Check its **sign just to the left and just to the right** of the point.\n\nNegative then positive is a minimum, positive then negative is a maximum, and the same sign on both sides is a point of inflection.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3BxjbNBCVvm7sgXN",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If `\\text{f}''\\left(x\\right) = 0` at a stationary point, the point is a point of inflection."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A zero second derivative tells you **nothing**: the point could still be a maximum or a minimum."
+    },
+    {
+     "type": "paragraph",
+     "md": "The first-derivative test has to be used instead, and that one always works."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf `\\text{f}''\\left(x\\right) = 0` at a stationary point, the point is a point of inflection.\n",
+   "back_md": "**False.**\n\nA zero second derivative tells you **nothing**: the point could still be a maximum or a minimum.\n\nThe first-derivative test has to be used instead, and that one always works.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PwZcjxNjctQDxzjy",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Which test for the nature of a stationary point should you reach for first?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **second derivative**, because it is usually much quicker."
+    },
+    {
+     "type": "paragraph",
+     "md": "Fall back on the first-derivative test only when the second derivative turns out to be zero."
+    }
+   ],
+   "front_md": "Which test for the nature of a stationary point should you reach for first?\n",
+   "back_md": "The **second derivative**, because it is usually much quicker.\n\nFall back on the first-derivative test only when the second derivative turns out to be zero.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8qSTqdnhSy6shrw9",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_8Ycb4nVCxmgzRQXC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many stationary points does a quadratic have, and what kind?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Exactly one, and it is always a **turning point** rather than a point of inflection."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its $y$-value is therefore the minimum or maximum value the whole quadratic can take."
+    }
+   ],
+   "front_md": "How many stationary points does a quadratic have, and what kind?\n",
+   "back_md": "Exactly one, and it is always a **turning point** rather than a point of inflection.\n\nIts $y$-value is therefore the minimum or maximum value the whole quadratic can take.\n",
+   "spec_links": [
+    "spcpt_kzV6TBRZ65SSjSBF"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RRQsHrW4JpyD8CJy",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_GTXFPHYvtdpSCdVs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a stationary point on `y = \\text{f} \\left(x\\right)` become on the graph of `y = \\text{f} ' \\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A point where the gradient graph meets the $x$-axis, since the gradient there is zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "The stationary points of $\\text{f}$ are exactly the roots of $\\text{f} '$."
+    }
+   ],
+   "front_md": "What does a stationary point on `y = \\text{f} \\left(x\\right)` become on the graph of `y = \\text{f} ' \\left(x\\right)`?\n",
+   "back_md": "A point where the gradient graph meets the $x$-axis, since the gradient there is zero.\n\nThe stationary points of $\\text{f}$ are exactly the roots of $\\text{f} '$.\n",
+   "spec_links": [
+    "spcpt_Jt62sPjwd52d5jjG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vHjC2QCzV3PcbPv8",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_GTXFPHYvtdpSCdVs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where `\\text{f} \\left(x\\right)` is increasing, `\\text{f} ' \\left(x\\right)` lies `\\_\\_\\_\\_\\_\\_` the $x$-axis; where `\\text{f} \\left(x\\right)` is decreasing, it lies `\\_\\_\\_\\_\\_\\_` it."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where $\\text{f}$ is increasing, $\\text{f} '$ lies **above** the axis; where $\\text{f}$ is decreasing, it lies **below** it."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is simply because the gradient is positive on a rising section and negative on a falling one."
+    }
+   ],
+   "front_md": "Where `\\text{f} \\left(x\\right)` is increasing, `\\text{f} ' \\left(x\\right)` lies `\\_\\_\\_\\_\\_\\_` the $x$-axis; where `\\text{f} \\left(x\\right)` is decreasing, it lies `\\_\\_\\_\\_\\_\\_` it.\n",
+   "back_md": "Where $\\text{f}$ is increasing, $\\text{f} '$ lies **above** the axis; where $\\text{f}$ is decreasing, it lies **below** it.\n\nThat is simply because the gradient is positive on a rising section and negative on a falling one.\n",
+   "spec_links": [
+    "spcpt_Jt62sPjwd52d5jjG"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_TB478djTxgSbYBFG",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_GTXFPHYvtdpSCdVs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Where `\\text{f}\\left(x\\right)` cuts the $x$-axis, `\\text{f}'\\left(x\\right)` does something notable."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Where $\\text{f}$ crosses the axis tells you nothing at all about $\\text{f} '$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the **gradient** of $\\text{f}$ matters, and a curve can cross the axis at any gradient whatever."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhere `\\text{f}\\left(x\\right)` cuts the $x$-axis, `\\text{f}'\\left(x\\right)` does something notable.\n",
+   "back_md": "**False.**\n\nWhere $\\text{f}$ crosses the axis tells you nothing at all about $\\text{f} '$.\n\nOnly the **gradient** of $\\text{f}$ matters, and a curve can cross the axis at any gradient whatever.\n",
+   "spec_links": [
+    "spcpt_Jt62sPjwd52d5jjG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GdMXmksptr2sQvDC",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_GTXFPHYvtdpSCdVs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If `\\text{f} \\left(x\\right)` is a smooth curve, what does that tell you about `\\text{f} ' \\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It will be a smooth curve as well."
+    },
+    {
+     "type": "paragraph",
+     "md": "So once the key features have been marked, the rest of the gradient graph is drawn by joining them smoothly."
+    }
+   ],
+   "front_md": "If `\\text{f} \\left(x\\right)` is a smooth curve, what does that tell you about `\\text{f} ' \\left(x\\right)`?\n",
+   "back_md": "It will be a smooth curve as well.\n\nSo once the key features have been marked, the rest of the gradient graph is drawn by joining them smoothly.\n",
+   "spec_links": [
+    "spcpt_Jt62sPjwd52d5jjG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gWCdzm6RGpxtpGpR",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_GTXFPHYvtdpSCdVs",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What can you **not** work out about `\\text{f} ' \\left(x\\right)` from the graph of `\\text{f} \\left(x\\right)` alone?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The exact coordinates of its $y$-intercept, or of its own stationary points."
+    },
+    {
+     "type": "paragraph",
+     "md": "A sketch of $\\text{f}$ gives you the shape of $\\text{f} '$, not its precise values."
+    }
+   ],
+   "front_md": "What can you **not** work out about `\\text{f} ' \\left(x\\right)` from the graph of `\\text{f} \\left(x\\right)` alone?\n",
+   "back_md": "The exact coordinates of its $y$-intercept, or of its own stationary points.\n\nA sketch of $\\text{f}$ gives you the shape of $\\text{f} '$, not its precise values.\n",
+   "spec_links": [
+    "spcpt_Jt62sPjwd52d5jjG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8Nfx6pGDjpY6gs9p",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_WKw3XWGKyt537Z9M",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Can you differentiate variables other than $y$ and $x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Yes: a derivative can be taken with respect to any variable."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}V}{\\text{d}r}$, for instance, gives the rate of change of a volume with respect to a radius."
+    }
+   ],
+   "front_md": "Can you differentiate variables other than $y$ and $x$?\n",
+   "back_md": "Yes: a derivative can be taken with respect to any variable.\n\n$\\frac{\\text{d}V}{\\text{d}r}$, for instance, gives the rate of change of a volume with respect to a radius.\n",
+   "spec_links": [
+    "spcpt_B6CWxQXpFwTDsPJP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HDjmXBxZnJPQ3Z66",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_WKw3XWGKyt537Z9M",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What has to happen before you can optimise a quantity by differentiating?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It has to be written as a formula in a **single** variable."
+    },
+    {
+     "type": "paragraph",
+     "md": "These problems usually give two variables plus a constraint linking them, and the constraint is what lets you eliminate one."
+    }
+   ],
+   "front_md": "What has to happen before you can optimise a quantity by differentiating?\n",
+   "back_md": "It has to be written as a formula in a **single** variable.\n\nThese problems usually give two variables plus a constraint linking them, and the constraint is what lets you eliminate one.\n",
+   "spec_links": [
+    "spcpt_B6CWxQXpFwTDsPJP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GkZQKr7fHRqcqskr",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_WKw3XWGKyt537Z9M",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the answer to an optimisation question often not just the value of $x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the question usually asks for the maximum or minimum **value itself**, not for where it occurs."
+    },
+    {
+     "type": "paragraph",
+     "md": "Substituting the stationary point's $x$ back into the original formula is what gives that value."
+    }
+   ],
+   "front_md": "Why is the answer to an optimisation question often not just the value of $x$?\n",
+   "back_md": "Because the question usually asks for the maximum or minimum **value itself**, not for where it occurs.\n\nSubstituting the stationary point's $x$ back into the original formula is what gives that value.\n",
+   "spec_links": [
+    "spcpt_B6CWxQXpFwTDsPJP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bVrd8ByzDb4B5mK9",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_WKw3XWGKyt537Z9M",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A derivative in a modelling question always represents a gradient on a graph."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It represents a **rate of change** of one quantity with respect to another, whatever those quantities happen to be."
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient of a graph is simply the case where they are $y$ and $x$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA derivative in a modelling question always represents a gradient on a graph.\n",
+   "back_md": "**False.**\n\nIt represents a **rate of change** of one quantity with respect to another, whatever those quantities happen to be.\n\nThe gradient of a graph is simply the case where they are $y$ and $x$.\n",
+   "spec_links": [
+    "spcpt_B6CWxQXpFwTDsPJP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FrKmqmhRHtbmnzTn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_WKw3XWGKyt537Z9M",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might a stationary point of a model not be a sensible answer?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the context may restrict the variable: a length cannot be negative, and a number of items has to be a whole number."
+    },
+    {
+     "type": "paragraph",
+     "md": "A mathematically valid stationary point can fall outside the range the situation allows."
+    }
+   ],
+   "front_md": "Why might a stationary point of a model not be a sensible answer?\n",
+   "back_md": "Because the context may restrict the variable: a length cannot be negative, and a number of items has to be a whole number.\n\nA mathematically valid stationary point can fall outside the range the situation allows.\n",
+   "spec_links": [
+    "spcpt_B6CWxQXpFwTDsPJP"
+   ],
+   "flags": []
+  }
+ ]
+}

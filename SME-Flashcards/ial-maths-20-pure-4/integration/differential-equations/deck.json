@@ -1,0 +1,783 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:28Z",
+ "course_slug": "ial-maths-20-pure-4",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-4/flashcards/integration/differential-equations/",
+  "section_slug": "integration",
+  "section_name": "Integration",
+  "topic_slug": "differential-equations",
+  "title": "Differential Equations",
+  "order": 1
+ },
+ "card_count": 25,
+ "card_types": {
+  "question_and_answer": 16,
+  "keyword_definition": 3,
+  "true_or_false": 5,
+  "fill_in_the_blanks": 1
+ },
+ "spec_link_cards": 25,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_xzyZPVyCr6J23MB9",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_br9KDSsTJyBCQzYY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between a first order and a second order differential equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **first order** equation contains only first derivatives, such as $\\frac{\\text{d}y}{\\text{d}x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **second order** equation contains a second derivative, such as $\\frac{\\text{d}^{2}y}{\\text{d}x^{2}}$."
+    }
+   ],
+   "front_md": "What is the difference between a first order and a second order differential equation?\n",
+   "back_md": "A **first order** equation contains only first derivatives, such as $\\frac{\\text{d}y}{\\text{d}x}$.\n\nA **second order** equation contains a second derivative, such as $\\frac{\\text{d}^{2}y}{\\text{d}x^{2}}$.\n",
+   "spec_links": [
+    "spcpt_kp9mJX8PDbPPf4w6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wvNCvsw6KjBp49Kr",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_br9KDSsTJyBCQzYY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **general solution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The solution of a differential equation that still contains an arbitrary constant, written in the form `y = \\text{g} \\left(x\\right) + c`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since $c$ can take any value, it describes not one curve but a whole **family** of them."
+    }
+   ],
+   "front_md": "Define **general solution**.\n",
+   "back_md": "The solution of a differential equation that still contains an arbitrary constant, written in the form `y = \\text{g} \\left(x\\right) + c`.\n\nSince $c$ can take any value, it describes not one curve but a whole **family** of them.\n",
+   "spec_links": [
+    "spcpt_kp9mJX8PDbPPf4w6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cSGwQ25m4P3KzvQf",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_br9KDSsTJyBCQzYY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does a differential equation have infinitely many solutions?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because integrating introduces a constant that the equation itself does nothing to fix."
+    },
+    {
+     "type": "paragraph",
+     "md": "Every value of $c$ gives a curve with the right gradient function, so they all satisfy the equation and differ from one another only by a vertical shift."
+    }
+   ],
+   "front_md": "Why does a differential equation have infinitely many solutions?\n",
+   "back_md": "Because integrating introduces a constant that the equation itself does nothing to fix.\n\nEvery value of $c$ gives a curve with the right gradient function, so they all satisfy the equation and differ from one another only by a vertical shift.\n",
+   "spec_links": [
+    "spcpt_kp9mJX8PDbPPf4w6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TZW9xkwYJGQdcRkx",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_br9KDSsTJyBCQzYY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does solving a differential equation involve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Integration**, working back from a derivative to the function itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "Which technique is needed depends on the equation, and for many of them the variables have to be separated before you can start."
+    }
+   ],
+   "front_md": "What does solving a differential equation involve?\n",
+   "back_md": "**Integration**, working back from a derivative to the function itself.\n\nWhich technique is needed depends on the equation, and for many of them the variables have to be separated before you can start.\n",
+   "spec_links": [
+    "spcpt_kp9mJX8PDbPPf4w6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZC5xt9gphzMX4RVW",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_br9KDSsTJyBCQzYY",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every member of the family of solutions has the same gradient at a given value of $x$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The curves differ only in the value of $c$, which shifts them vertically without changing any gradient."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is exactly why the differential equation cannot tell them apart: it describes the gradient and nothing else."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery member of the family of solutions has the same gradient at a given value of $x$.\n",
+   "back_md": "**True.**\n\nThe curves differ only in the value of $c$, which shifts them vertically without changing any gradient.\n\nThat is exactly why the differential equation cannot tell them apart: it describes the gradient and nothing else.\n",
+   "spec_links": [
+    "spcpt_kp9mJX8PDbPPf4w6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TNtx3sqRFbrQ3DX6",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_MdZrkbYrd5gF2nTm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **particular solution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The single member of the family of solutions that satisfies a given extra piece of information."
+    },
+    {
+     "type": "paragraph",
+     "md": "Finding it means pinning down the one value of $c$ that fits, so the answer is one curve rather than infinitely many."
+    }
+   ],
+   "front_md": "Define **particular solution**.\n",
+   "back_md": "The single member of the family of solutions that satisfies a given extra piece of information.\n\nFinding it means pinning down the one value of $c$ that fits, so the answer is one curve rather than infinitely many.\n",
+   "spec_links": [
+    "spcpt_JfCD3zwDvrF2qW4F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZhVGyVTZJdB6Y3Vx",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_MdZrkbYrd5gF2nTm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **boundary condition**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A piece of extra information giving the value of one variable when the other is known, which is what fixes the constant of integration."
+    },
+    {
+     "type": "paragraph",
+     "md": "An example is $y = 4$ when $x = 0$."
+    }
+   ],
+   "front_md": "Define **boundary condition**.\n",
+   "back_md": "A piece of extra information giving the value of one variable when the other is known, which is what fixes the constant of integration.\n\nAn example is $y = 4$ when $x = 0$.\n",
+   "spec_links": [
+    "spcpt_JfCD3zwDvrF2qW4F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_FgmZnywjTvprR2V3",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_MdZrkbYrd5gF2nTm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When is a boundary condition called an **initial condition**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When it describes the situation at the **start** of a model or experiment."
+    },
+    {
+     "type": "paragraph",
+     "md": "That usually means $t = 0$, so an initial condition is simply a boundary condition placed at the beginning of the timescale."
+    }
+   ],
+   "front_md": "When is a boundary condition called an **initial condition**?\n",
+   "back_md": "When it describes the situation at the **start** of a model or experiment.\n\nThat usually means $t = 0$, so an initial condition is simply a boundary condition placed at the beginning of the timescale.\n",
+   "spec_links": [
+    "spcpt_JfCD3zwDvrF2qW4F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V97DGgp864jx4CVq",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_MdZrkbYrd5gF2nTm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How many conditions are needed to find the particular solution of a differential equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**One.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating once introduces a single constant of integration, and one boundary condition is enough to fix its value."
+    },
+    {
+     "type": "paragraph",
+     "md": "Knowing $y=4$ when $x=0$ is exactly such a condition."
+    }
+   ],
+   "front_md": "How many conditions are needed to find the particular solution of a differential equation?\n",
+   "back_md": "**One.**\n\nIntegrating once introduces a single constant of integration, and one boundary condition is enough to fix its value.\n\nKnowing $y=4$ when $x=0$ is exactly such a condition.\n",
+   "spec_links": [
+    "spcpt_JfCD3zwDvrF2qW4F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3nCQpD5QnPgVwF3m",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_MdZrkbYrd5gF2nTm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A boundary condition has to describe the start of the situation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It can describe **any** known pairing of the two variables, at any point at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "A particle coming to rest after a certain time gives a perfectly good boundary condition, and it is nowhere near the start."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA boundary condition has to describe the start of the situation.\n",
+   "back_md": "**False.**\n\nIt can describe **any** known pairing of the two variables, at any point at all.\n\nA particle coming to rest after a certain time gives a perfectly good boundary condition, and it is nowhere near the start.\n",
+   "spec_links": [
+    "spcpt_JfCD3zwDvrF2qW4F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5d4NcM6mgw32TVBF",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_jS36pFmbmBHphFn2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What makes a differential equation **separable**?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It can be written as a **product** of a function of $x$ and a function of $y$, that is `\\frac{\\text{d} y}{\\text{d} x} = \\text{f} \\left(x\\right) \\text{g} \\left(y\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "That form is what allows every $y$ term to be moved to one side and every $x$ term to the other."
+    }
+   ],
+   "front_md": "What makes a differential equation **separable**?\n",
+   "back_md": "It can be written as a **product** of a function of $x$ and a function of $y$, that is `\\frac{\\text{d} y}{\\text{d} x} = \\text{f} \\left(x\\right) \\text{g} \\left(y\\right)`.\n\nThat form is what allows every $y$ term to be moved to one side and every $x$ term to the other.\n",
+   "spec_links": [
+    "spcpt_sH6wmW3VVsjtnMYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nJHyfgg6mRvSCb5S",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_jS36pFmbmBHphFn2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Is `\\frac{\\text{d} y}{\\text{d} x} = \\text{g} \\left(y\\right)` separable, when there is no $x$ in it at all?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Yes. Read it as `\\frac{\\text{d} y}{\\text{d} x} = 1 \\times \\text{g} \\left(y\\right)`, so that `\\text{f} \\left(x\\right) = 1`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Separating then gives `\\int \\frac{1}{\\text{g} \\left(y\\right)} \\text{d} y = \\int 1 \\text{d} x`, and the right-hand side simply integrates to $x$."
+    }
+   ],
+   "front_md": "Is `\\frac{\\text{d} y}{\\text{d} x} = \\text{g} \\left(y\\right)` separable, when there is no $x$ in it at all?\n",
+   "back_md": "Yes. Read it as `\\frac{\\text{d} y}{\\text{d} x} = 1 \\times \\text{g} \\left(y\\right)`, so that `\\text{f} \\left(x\\right) = 1`.\n\nSeparating then gives `\\int \\frac{1}{\\text{g} \\left(y\\right)} \\text{d} y = \\int 1 \\text{d} x`, and the right-hand side simply integrates to $x$.\n",
+   "spec_links": [
+    "spcpt_sH6wmW3VVsjtnMYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mNz6dKSBBC94QR3d",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_jS36pFmbmBHphFn2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the steps of separation of variables?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Get every $y$ term with the $\\text{d} y$ on one side and every $x$ term with the $\\text{d} x$ on the other, then **integrate both sides**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use any boundary condition to find the constant, and rearrange into whatever form the question asks for."
+    }
+   ],
+   "front_md": "What are the steps of separation of variables?\n",
+   "back_md": "Get every $y$ term with the $\\text{d} y$ on one side and every $x$ term with the $\\text{d} x$ on the other, then **integrate both sides**.\n\nUse any boundary condition to find the constant, and rearrange into whatever form the question asks for.\n",
+   "spec_links": [
+    "spcpt_sH6wmW3VVsjtnMYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yvyKnNDVkfkSqj6h",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_jS36pFmbmBHphFn2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the statement, filling in what is added after integrating both sides:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{1}{\\text{g} \\left(y\\right)} \\text{d} y = \\int \\text{f} \\left(x\\right) \\text{d} x + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statement is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{1}{\\text{g} \\left(y\\right)} \\text{d} y = \\int \\text{f} \\left(x\\right) \\text{d} x + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only **one** constant is needed rather than one for each side, since two would immediately combine into a single overall constant anyway."
+    }
+   ],
+   "front_md": "Complete the statement, filling in what is added after integrating both sides:\n\n`\\int \\frac{1}{\\text{g} \\left(y\\right)} \\text{d} y = \\int \\text{f} \\left(x\\right) \\text{d} x + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed statement is:\n\n`\\int \\frac{1}{\\text{g} \\left(y\\right)} \\text{d} y = \\int \\text{f} \\left(x\\right) \\text{d} x + c`\n\nOnly **one** constant is needed rather than one for each side, since two would immediately combine into a single overall constant anyway.\n",
+   "spec_links": [
+    "spcpt_sH6wmW3VVsjtnMYT"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kqwfqZKNdphHR3ny",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_jS36pFmbmBHphFn2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every first order differential equation can be solved by separating the variables."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The right-hand side has to be a **product** of a function of $x$ and a function of $y$ before the two can come apart."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = x + y$ cannot be separated at all, and solving it needs a method beyond this course."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery first order differential equation can be solved by separating the variables.\n",
+   "back_md": "**False.**\n\nThe right-hand side has to be a **product** of a function of $x$ and a function of $y$ before the two can come apart.\n\n$\\frac{\\text{d}y}{\\text{d}x} = x + y$ cannot be separated at all, and solving it needs a method beyond this course.\n",
+   "spec_links": [
+    "spcpt_sH6wmW3VVsjtnMYT"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6Mv6Zc5xdmRMvJmF",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_2Mh2yd8mb7yb4yKQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What phrase in a question tells you a differential equation is needed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**\"Rate of change\"**, which always signals a derivative term."
+    },
+    {
+     "type": "paragraph",
+     "md": "A rate measured against time gives $\\frac{\\text{d}V}{\\text{d}t}$ or similar, so the phrase translates straight into notation."
+    }
+   ],
+   "front_md": "What phrase in a question tells you a differential equation is needed?\n",
+   "back_md": "**\"Rate of change\"**, which always signals a derivative term.\n\nA rate measured against time gives $\\frac{\\text{d}V}{\\text{d}t}$ or similar, so the phrase translates straight into notation.\n",
+   "spec_links": [
+    "spcpt_fT888hj3nWRtGBpn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9XcsvwPTgWWb3mH8",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_2Mh2yd8mb7yb4yKQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you write \"the rate of change of $y$ is directly proportional to $y$\" as an equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}t} = k y$, introducing a constant of proportionality $k$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Inversely proportional to $y$ would give $\\frac{\\text{d}y}{\\text{d}t} = \\frac{k}{y}$ instead."
+    }
+   ],
+   "front_md": "How do you write \"the rate of change of $y$ is directly proportional to $y$\" as an equation?\n",
+   "back_md": "$\\frac{\\text{d}y}{\\text{d}t} = k y$, introducing a constant of proportionality $k$.\n\nInversely proportional to $y$ would give $\\frac{\\text{d}y}{\\text{d}t} = \\frac{k}{y}$ instead.\n",
+   "spec_links": [
+    "spcpt_fT888hj3nWRtGBpn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VqcgZMBXQqpvRrHv",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_2Mh2yd8mb7yb4yKQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the instruction **formulate** ask you to do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write the situation as an **equation**."
+    },
+    {
+     "type": "paragraph",
+     "md": "You may have to choose and define your own letters first, such as $V$ for a volume and $h$ for a height, since working that uses undefined letters cannot be followed."
+    }
+   ],
+   "front_md": "What does the instruction **formulate** ask you to do?\n",
+   "back_md": "Write the situation as an **equation**.\n\nYou may have to choose and define your own letters first, such as $V$ for a volume and $h$ for a height, since working that uses undefined letters cannot be followed.\n",
+   "spec_links": [
+    "spcpt_fT888hj3nWRtGBpn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Ww4fxQnDMRcbRVyS",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_2Mh2yd8mb7yb4yKQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A quantity is **decreasing**. What must its differential equation show?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **negative** rate of change, so the equation reads $\\frac{\\text{d}y}{\\text{d}t} = - k y$ with $k$ taken positive."
+    },
+    {
+     "type": "paragraph",
+     "md": "Cooling, decay and anything draining away all need that minus sign, and leaving it out models growth instead."
+    }
+   ],
+   "front_md": "A quantity is **decreasing**. What must its differential equation show?\n",
+   "back_md": "A **negative** rate of change, so the equation reads $\\frac{\\text{d}y}{\\text{d}t} = - k y$ with $k$ taken positive.\n\nCooling, decay and anything draining away all need that minus sign, and leaving it out models growth instead.\n",
+   "spec_links": [
+    "spcpt_fT888hj3nWRtGBpn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5pnTVRGdDJJY8kvs",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_2Mh2yd8mb7yb4yKQ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Setting up a differential equation and solving it are the same skill."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Setting one up is a translation from words into notation; solving it is integration."
+    },
+    {
+     "type": "paragraph",
+     "md": "A question can perfectly well ask you to formulate an equation without ever asking you to solve it."
+    }
+   ],
+   "front_md": "**True or False?**\n\nSetting up a differential equation and solving it are the same skill.\n",
+   "back_md": "**False.**\n\nSetting one up is a translation from words into notation; solving it is integration.\n\nA question can perfectly well ask you to formulate an equation without ever asking you to solve it.\n",
+   "spec_links": [
+    "spcpt_fT888hj3nWRtGBpn"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9GThZYYw2nzr4Z98",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_zxTsW6rVgCDVFPDR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "After solving, a model gives $\\mathrm{ln} y = k t + c$. How do you put it in a useful form?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take exponentials of both sides: $y = \\text{e}^{kt+c} = \\text{e}^{c} \\text{e}^{kt}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since $\\text{e}^{c}$ is just another constant, rename it $A$, giving $y = A \\text{e}^{kt}$, the standard growth and decay form."
+    }
+   ],
+   "front_md": "After solving, a model gives $\\mathrm{ln} y = k t + c$. How do you put it in a useful form?\n",
+   "back_md": "Take exponentials of both sides: $y = \\text{e}^{kt+c} = \\text{e}^{c} \\text{e}^{kt}$.\n\nSince $\\text{e}^{c}$ is just another constant, rename it $A$, giving $y = A \\text{e}^{kt}$, the standard growth and decay form.\n",
+   "spec_links": [
+    "spcpt_PnxgBf2qYcvSjRfZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mhrY8vBtv6BjBWBj",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_zxTsW6rVgCDVFPDR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Once you have the particular solution, what can you do with it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute any value of the independent variable to **predict** the quantity at that moment."
+    },
+    {
+     "type": "paragraph",
+     "md": "The solution is an ordinary function, so a temperature after four minutes, or sales after three months, is only a substitution away."
+    }
+   ],
+   "front_md": "Once you have the particular solution, what can you do with it?\n",
+   "back_md": "Substitute any value of the independent variable to **predict** the quantity at that moment.\n\nThe solution is an ordinary function, so a temperature after four minutes, or sales after three months, is only a substitution away.\n",
+   "spec_links": [
+    "spcpt_PnxgBf2qYcvSjRfZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mn9BqgVCKKV7Jqtf",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_zxTsW6rVgCDVFPDR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A model gives $y = A \\text{e}^{kt}$. How do you find **when** $y$ reaches a given value?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute that value and solve for $t$, which needs **logarithms** because $t$ sits in the power."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the reverse of predicting the quantity at a known time, and the algebra runs the other way round."
+    }
+   ],
+   "front_md": "A model gives $y = A \\text{e}^{kt}$. How do you find **when** $y$ reaches a given value?\n",
+   "back_md": "Substitute that value and solve for $t$, which needs **logarithms** because $t$ sits in the power.\n\nIt is the reverse of predicting the quantity at a known time, and the algebra runs the other way round.\n",
+   "spec_links": [
+    "spcpt_PnxgBf2qYcvSjRfZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RWdjsHwd7mXsSgdH",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_zxTsW6rVgCDVFPDR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A cooling model solves to $T = 20 + A \\text{e}^{-kt}$. What does that say about the long term?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That $T$ approaches $20$ without ever quite reaching it, since $A \\text{e}^{-kt}$ tends to zero but is never zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "The $20$ is the temperature of the surroundings, and reading it straight off the solution is what interpreting a model looks like."
+    }
+   ],
+   "front_md": "A cooling model solves to $T = 20 + A \\text{e}^{-kt}$. What does that say about the long term?\n",
+   "back_md": "That $T$ approaches $20$ without ever quite reaching it, since $A \\text{e}^{-kt}$ tends to zero but is never zero.\n\nThe $20$ is the temperature of the surroundings, and reading it straight off the solution is what interpreting a model looks like.\n",
+   "spec_links": [
+    "spcpt_PnxgBf2qYcvSjRfZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qp6CFgXtchx4HKf3",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_zxTsW6rVgCDVFPDR",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A differential equation model needs a boundary condition before it can be used to predict anything."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Without one you have only the general solution, which is a whole family of curves rather than a single prediction."
+    },
+    {
+     "type": "paragraph",
+     "md": "Modelling questions therefore almost always supply one, most often the value at $t = 0$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA differential equation model needs a boundary condition before it can be used to predict anything.\n",
+   "back_md": "**True.**\n\nWithout one you have only the general solution, which is a whole family of curves rather than a single prediction.\n\nModelling questions therefore almost always supply one, most often the value at $t = 0$.\n",
+   "spec_links": [
+    "spcpt_PnxgBf2qYcvSjRfZ"
+   ],
+   "flags": []
+  }
+ ]
+}

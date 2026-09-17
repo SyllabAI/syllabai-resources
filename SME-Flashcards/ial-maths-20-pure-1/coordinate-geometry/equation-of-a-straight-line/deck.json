@@ -1,0 +1,737 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:02Z",
+ "course_slug": "ial-maths-20-pure-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-1/flashcards/coordinate-geometry/equation-of-a-straight-line/",
+  "section_slug": "coordinate-geometry",
+  "section_name": "Coordinate Geometry in the (x, y) Plane",
+  "topic_slug": "equation-of-a-straight-line",
+  "title": "Equation of a Straight Line",
+  "order": 0
+ },
+ "card_count": 23,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 13,
+  "fill_in_the_blanks": 4,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 23,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_67CFyR36fM4SHPSM",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_862KDDMf7fKPjMSp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **line segment**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **line segment** is the part of a straight line lying between two given points."
+    },
+    {
+     "type": "paragraph",
+     "md": "Unlike a full line it has a definite length, which is what makes it possible to talk about its midpoint."
+    }
+   ],
+   "front_md": "Define **line segment**.\n",
+   "back_md": "A **line segment** is the part of a straight line lying between two given points.\n\nUnlike a full line it has a definite length, which is what makes it possible to talk about its midpoint.\n",
+   "spec_links": [
+    "spcpt_VHJZWXfzfpzcxfZG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HJjBThG5Dwk2R5dH",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_862KDDMf7fKPjMSp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the length of the line segment joining two points?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use **Pythagoras' theorem** on the horizontal and vertical differences."
+    },
+    {
+     "type": "paragraph",
+     "md": "The distance between `\\left(x_{1} , y_{1}\\right)` and `\\left(x_{2} , y_{2}\\right)` is `\\sqrt{\\left(x_{2} - x_{1}\\right)^{2} + \\left(y_{2} - y_{1}\\right)^{2}}`."
+    }
+   ],
+   "front_md": "How do you find the length of the line segment joining two points?\n",
+   "back_md": "Use **Pythagoras' theorem** on the horizontal and vertical differences.\n\nThe distance between `\\left(x_{1} , y_{1}\\right)` and `\\left(x_{2} , y_{2}\\right)` is `\\sqrt{\\left(x_{2} - x_{1}\\right)^{2} + \\left(y_{2} - y_{1}\\right)^{2}}`.\n",
+   "spec_links": [
+    "spcpt_VHJZWXfzfpzcxfZG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_jRxYXW7sxfzGCZc5",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_862KDDMf7fKPjMSp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The midpoint of the segment joining `\\left(x_{1} , y_{1}\\right)` and `\\left(x_{2} , y_{2}\\right)` is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(\\_\\_\\_\\_\\_\\_ , \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\left(\\frac{x_{1} + x_{2}}{2} , \\frac{y_{1} + y_{2}}{2}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is simply the **average** of the two $x$-coordinates and the average of the two $y$-coordinates."
+    }
+   ],
+   "front_md": "The midpoint of the segment joining `\\left(x_{1} , y_{1}\\right)` and `\\left(x_{2} , y_{2}\\right)` is:\n\n`\\left(\\_\\_\\_\\_\\_\\_ , \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "`\\left(\\frac{x_{1} + x_{2}}{2} , \\frac{y_{1} + y_{2}}{2}\\right)`\n\nIt is simply the **average** of the two $x$-coordinates and the average of the two $y$-coordinates.\n",
+   "spec_links": [
+    "spcpt_VHJZWXfzfpzcxfZG"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_QY7tmyn6RpW4dRXW",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_862KDDMf7fKPjMSp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the gradient of a line segment from its two end points?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Divide the change in $y$ by the change in $x$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$m = \\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$"
+    }
+   ],
+   "front_md": "How do you find the gradient of a line segment from its two end points?\n",
+   "back_md": "Divide the change in $y$ by the change in $x$:\n\n$m = \\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$\n",
+   "spec_links": [
+    "spcpt_VHJZWXfzfpzcxfZG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8fMSSxpRGMDhzVWF",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_862KDDMf7fKPjMSp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You should take the square root as soon as you have found a squared distance."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Keep working with the **square** of the distance for as long as you can."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rooting early brings in surds and rounding errors that then have to be carried through the rest of the question."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou should take the square root as soon as you have found a squared distance.\n",
+   "back_md": "**False.**\n\nKeep working with the **square** of the distance for as long as you can.\n\nRooting early brings in surds and rounding errors that then have to be carried through the rest of the question.\n",
+   "spec_links": [
+    "spcpt_VHJZWXfzfpzcxfZG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZgKpWGwMW8xYSVh6",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_862KDDMf7fKPjMSp",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What can you work out about a shape from the coordinates of its vertices?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its side lengths, the midpoints of its sides and the gradients of those sides, and from those its area or any missing vertex."
+    },
+    {
+     "type": "paragraph",
+     "md": "All of it comes from the same three results for distance, midpoint and gradient."
+    }
+   ],
+   "front_md": "What can you work out about a shape from the coordinates of its vertices?\n",
+   "back_md": "Its side lengths, the midpoints of its sides and the gradients of those sides, and from those its area or any missing vertex.\n\nAll of it comes from the same three results for distance, midpoint and gradient.\n",
+   "spec_links": [
+    "spcpt_VHJZWXfzfpzcxfZG"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dP8mgKcWhSrYfnyz",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_WBfhHCXgFHZZvbYb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To find the equation of a line through `\\left(x_{1} , y_{1}\\right)` with gradient $m$, use:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`y - \\_\\_\\_\\_\\_\\_ = m \\left(x - \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`y - y_{1} = m \\left(x - x_{1}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "It works from **any** point on the line, not only from the $y$-axis intercept, which is why it is more useful than $y = m x + c$."
+    }
+   ],
+   "front_md": "To find the equation of a line through `\\left(x_{1} , y_{1}\\right)` with gradient $m$, use:\n\n`y - \\_\\_\\_\\_\\_\\_ = m \\left(x - \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "`y - y_{1} = m \\left(x - x_{1}\\right)`\n\nIt works from **any** point on the line, not only from the $y$-axis intercept, which is why it is more useful than $y = m x + c$.\n",
+   "spec_links": [
+    "spcpt_vHVvC2TmqrTFqBq7"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_kZzj75tGPWGfH9gB",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_WBfhHCXgFHZZvbYb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What two things do you need to find the equation of a straight line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **gradient** and **one point** the line passes through."
+    },
+    {
+     "type": "paragraph",
+     "md": "Almost everything else in a straight-line question is about getting hold of those two things."
+    }
+   ],
+   "front_md": "What two things do you need to find the equation of a straight line?\n",
+   "back_md": "A **gradient** and **one point** the line passes through.\n\nAlmost everything else in a straight-line question is about getting hold of those two things.\n",
+   "spec_links": [
+    "spcpt_vHVvC2TmqrTFqBq7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zs4cmynbJ5v2JqC3",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_WBfhHCXgFHZZvbYb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two standard forms for the equation of a straight line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$y = m x + c$, where $m$ is the gradient and $c$ the $y$-axis intercept."
+    },
+    {
+     "type": "paragraph",
+     "md": "$a x + b y + c = 0$, where $a$, $b$ and $c$ are **integers**."
+    }
+   ],
+   "front_md": "What are the two standard forms for the equation of a straight line?\n",
+   "back_md": "$y = m x + c$, where $m$ is the gradient and $c$ the $y$-axis intercept.\n\n$a x + b y + c = 0$, where $a$, $b$ and $c$ are **integers**.\n",
+   "spec_links": [
+    "spcpt_vHVvC2TmqrTFqBq7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CQ9dR8Gvtt6bsCRJ",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_WBfhHCXgFHZZvbYb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In $a x + b y + c = 0$, the letter $c$ is the $y$-axis intercept."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "That is only true of $y = m x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Setting $x = 0$ in $a x + b y + c = 0$ gives $y = - \\frac{c}{b}$, so the same letter means something quite different in the two forms."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn $a x + b y + c = 0$, the letter $c$ is the $y$-axis intercept.\n",
+   "back_md": "**False.**\n\nThat is only true of $y = m x + c$.\n\nSetting $x = 0$ in $a x + b y + c = 0$ gives $y = - \\frac{c}{b}$, so the same letter means something quite different in the two forms.\n",
+   "spec_links": [
+    "spcpt_vHVvC2TmqrTFqBq7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zv7pzP4jXd9q5nWx",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_WBfhHCXgFHZZvbYb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the different ways a question can give you the gradient of a line?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "From **two points** on it, from a line it is **parallel or perpendicular** to, or from a **tangent or normal** found by differentiation."
+    },
+    {
+     "type": "paragraph",
+     "md": "Circle geometry can supply one as well."
+    }
+   ],
+   "front_md": "What are the different ways a question can give you the gradient of a line?\n",
+   "back_md": "From **two points** on it, from a line it is **parallel or perpendicular** to, or from a **tangent or normal** found by differentiation.\n\nCircle geometry can supply one as well.\n",
+   "spec_links": [
+    "spcpt_vHVvC2TmqrTFqBq7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gcQtRqMh9Kp9wjwh",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_WBfhHCXgFHZZvbYb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A line has equation $3 x + 4 y - 12 = 0$. How do you find its gradient?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange it into $y = m x + c$: $4 y = - 3 x + 12$, so $y = - \\frac{3}{4} x + 3$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient is therefore $- \\frac{3}{4}$."
+    }
+   ],
+   "front_md": "A line has equation $3 x + 4 y - 12 = 0$. How do you find its gradient?\n",
+   "back_md": "Rearrange it into $y = m x + c$: $4 y = - 3 x + 12$, so $y = - \\frac{3}{4} x + 3$.\n\nThe gradient is therefore $- \\frac{3}{4}$.\n",
+   "spec_links": [
+    "spcpt_vHVvC2TmqrTFqBq7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8jtVDmdSnkB8QW3N",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_qPsVYZKjnY2D8MP2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Parallel lines have `\\_\\_\\_\\_\\_\\_` gradients. Perpendicular lines have gradients whose `\\_\\_\\_\\_\\_\\_` is $- 1$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Parallel lines have **equal** gradients. Perpendicular lines have gradients whose **product** is $- 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So if one gradient is $m$, a line perpendicular to it has gradient $- \\frac{1}{m}$."
+    }
+   ],
+   "front_md": "Parallel lines have `\\_\\_\\_\\_\\_\\_` gradients. Perpendicular lines have gradients whose `\\_\\_\\_\\_\\_\\_` is $- 1$.\n",
+   "back_md": "Parallel lines have **equal** gradients. Perpendicular lines have gradients whose **product** is $- 1$.\n\nSo if one gradient is $m$, a line perpendicular to it has gradient $- \\frac{1}{m}$.\n",
+   "spec_links": [
+    "spcpt_vWW6kzvGRnCvPPnr"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_HsDp5xwmr59fmwsv",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_qPsVYZKjnY2D8MP2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A line has gradient $\\frac{3}{5}$. What is the gradient of a line perpendicular to it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$- \\frac{5}{3}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Turn the fraction upside down and change the sign, which is what makes the two gradients multiply to $- 1$."
+    }
+   ],
+   "front_md": "A line has gradient $\\frac{3}{5}$. What is the gradient of a line perpendicular to it?\n",
+   "back_md": "$- \\frac{5}{3}$.\n\nTurn the fraction upside down and change the sign, which is what makes the two gradients multiply to $- 1$.\n",
+   "spec_links": [
+    "spcpt_vWW6kzvGRnCvPPnr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cFCYvK5CymKQckgD",
+   "card_type": "keyword_definition",
+   "order": 2,
+   "set_id": "flst_qPsVYZKjnY2D8MP2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **collinear**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two line segments are **collinear** if they are parts of the same straight line."
+    },
+    {
+     "type": "paragraph",
+     "md": "Extended far enough, they become one and the same line."
+    }
+   ],
+   "front_md": "Define **collinear**.\n",
+   "back_md": "Two line segments are **collinear** if they are parts of the same straight line.\n\nExtended far enough, they become one and the same line.\n",
+   "spec_links": [
+    "spcpt_vWW6kzvGRnCvPPnr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_J2GfyRbX5gK5sYTk",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_qPsVYZKjnY2D8MP2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do collinear line segments differ from parallel lines?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both have equal gradients, but collinear segments lie on the **same** line while parallel lines never meet at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranged into the same form, collinear equations turn out identical, whereas parallel ones differ in their intercepts."
+    }
+   ],
+   "front_md": "How do collinear line segments differ from parallel lines?\n",
+   "back_md": "Both have equal gradients, but collinear segments lie on the **same** line while parallel lines never meet at all.\n\nRearranged into the same form, collinear equations turn out identical, whereas parallel ones differ in their intercepts.\n",
+   "spec_links": [
+    "spcpt_vWW6kzvGRnCvPPnr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H3PKrP3btm2bzRgt",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_qPsVYZKjnY2D8MP2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you check whether two lines are parallel or perpendicular from their equations?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange both into $y = m x + c$ and compare the gradients."
+    },
+    {
+     "type": "paragraph",
+     "md": "Until they are in that form the coefficients do not give you the gradient directly."
+    }
+   ],
+   "front_md": "How do you check whether two lines are parallel or perpendicular from their equations?\n",
+   "back_md": "Rearrange both into $y = m x + c$ and compare the gradients.\n\nUntil they are in that form the coefficients do not give you the gradient directly.\n",
+   "spec_links": [
+    "spcpt_vWW6kzvGRnCvPPnr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_67Hj46PvFpfvdg5K",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_qPsVYZKjnY2D8MP2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two lines with gradients $2$ and $- 2$ are perpendicular."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Their product is $- 4$, not $- 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Changing the sign is only half of it: the gradient must be **inverted** as well, so the perpendicular gradient here is $- \\frac{1}{2}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo lines with gradients $2$ and $- 2$ are perpendicular.\n",
+   "back_md": "**False.**\n\nTheir product is $- 4$, not $- 1$.\n\nChanging the sign is only half of it: the gradient must be **inverted** as well, so the perpendicular gradient here is $- \\frac{1}{2}$.\n",
+   "spec_links": [
+    "spcpt_vWW6kzvGRnCvPPnr"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H4YTP85hxkYXh2ph",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_ZHvTfsCNyfyYr5rt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a straight-line model $y = m x + c$, what does the gradient $m$ represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **rate of change** of $y$ with respect to $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a spring, it is the extra extension produced by each additional kilogram of mass."
+    }
+   ],
+   "front_md": "In a straight-line model $y = m x + c$, what does the gradient $m$ represent?\n",
+   "back_md": "The **rate of change** of $y$ with respect to $x$.\n\nFor a spring, it is the extra extension produced by each additional kilogram of mass.\n",
+   "spec_links": [
+    "spcpt_Mp2xB3kzS88pG3yz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zxx3sTKXhYdCy6zw",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_ZHvTfsCNyfyYr5rt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a straight-line model $y = m x + c$, what does the intercept $c$ represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **initial value** of $y$, the value it takes when $x$ is zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a spring, it is the resting length before any mass is added at all."
+    }
+   ],
+   "front_md": "In a straight-line model $y = m x + c$, what does the intercept $c$ represent?\n",
+   "back_md": "The **initial value** of $y$, the value it takes when $x$ is zero.\n\nFor a spring, it is the resting length before any mass is added at all.\n",
+   "spec_links": [
+    "spcpt_Mp2xB3kzS88pG3yz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KfmBC6GzJW4Hgxc7",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_ZHvTfsCNyfyYr5rt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A spring has resting length $12$ cm and extends by $3$ cm for each kilogram added. Its length $L$ cm with a mass of $m$ kg is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`L = \\_\\_\\_\\_\\_\\_ m + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$L = 3 m + 12$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Reading the two constants straight out of the wording is the whole skill in a question like this."
+    }
+   ],
+   "front_md": "A spring has resting length $12$ cm and extends by $3$ cm for each kilogram added. Its length $L$ cm with a mass of $m$ kg is:\n\n`L = \\_\\_\\_\\_\\_\\_ m + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "$L = 3 m + 12$\n\nReading the two constants straight out of the wording is the whole skill in a question like this.\n",
+   "spec_links": [
+    "spcpt_Mp2xB3kzS88pG3yz"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Xn6sf4Trv9CF6PX3",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_ZHvTfsCNyfyYr5rt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a straight-line model, the gradient has units."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient is a rate, so its units are the $y$-units divided by the $x$-units."
+    },
+    {
+     "type": "paragraph",
+     "md": "For a spring measured in centimetres against a mass in kilograms, the gradient is in centimetres per kilogram."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a straight-line model, the gradient has units.\n",
+   "back_md": "**True.**\n\nThe gradient is a rate, so its units are the $y$-units divided by the $x$-units.\n\nFor a spring measured in centimetres against a mass in kilograms, the gradient is in centimetres per kilogram.\n",
+   "spec_links": [
+    "spcpt_Mp2xB3kzS88pG3yz"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8nPPpQpR5RXWR9Zv",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_ZHvTfsCNyfyYr5rt",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why might a straight-line model need refining?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because real data rarely lies exactly on a straight line."
+    },
+    {
+     "type": "paragraph",
+     "md": "More readings, or readings taken over a wider range, can show that a different gradient or a different shape altogether fits better."
+    }
+   ],
+   "front_md": "Why might a straight-line model need refining?\n",
+   "back_md": "Because real data rarely lies exactly on a straight line.\n\nMore readings, or readings taken over a wider range, can show that a different gradient or a different shape altogether fits better.\n",
+   "spec_links": [
+    "spcpt_Mp2xB3kzS88pG3yz"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,810 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:58Z",
+ "course_slug": "ial-maths-20-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/flashcards/statistical-distributions/working-with-distributions/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "working-with-distributions",
+  "title": "Working with Distributions",
+  "order": 4
+ },
+ "card_count": 23,
+ "card_types": {
+  "question_and_answer": 18,
+  "true_or_false": 4,
+  "fill_in_the_blanks": 1
+ },
+ "spec_link_cards": 23,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_3NmYWfkjhsBjJTf6",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_y96xfFVVYnyH65kJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the first question to ask when choosing a distribution to model a variable?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Whether the variable **counts** something or **measures** something."
+    },
+    {
+     "type": "paragraph",
+     "md": "A variable that counts is **discrete**, so the candidates are the binomial and the Poisson distributions."
+    },
+    {
+     "type": "paragraph",
+     "md": "A variable that measures is **continuous**, so the candidate is the normal distribution."
+    }
+   ],
+   "front_md": "What is the first question to ask when choosing a distribution to model a variable?\n",
+   "back_md": "Whether the variable **counts** something or **measures** something.\n\nA variable that counts is **discrete**, so the candidates are the binomial and the Poisson distributions.\n\nA variable that measures is **continuous**, so the candidate is the normal distribution.\n",
+   "spec_links": [
+    "spcpt_BSThwNTGCsyfmCbs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_44sDxhVQx3TPSMyy",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_y96xfFVVYnyH65kJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two counts: the number of faults in a 10 metre roll of cloth, and the number of faulty items in a box of 10. Which distribution suits each?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The faults in the cloth are **Poisson**, because they occur across an interval of space with no fixed number of trials to count them among."
+    },
+    {
+     "type": "paragraph",
+     "md": "The faulty items are **binomial**, because there are exactly 10 trials, one per item, and each is faulty or not."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is the discriminator between the two: a fixed number of trials points to the binomial, and an interval of time or space points to the Poisson."
+    }
+   ],
+   "front_md": "Two counts: the number of faults in a 10 metre roll of cloth, and the number of faulty items in a box of 10. Which distribution suits each?\n",
+   "back_md": "The faults in the cloth are **Poisson**, because they occur across an interval of space with no fixed number of trials to count them among.\n\nThe faulty items are **binomial**, because there are exactly 10 trials, one per item, and each is faulty or not.\n\nThat is the discriminator between the two: a fixed number of trials points to the binomial, and an interval of time or space points to the Poisson.\n",
+   "spec_links": [
+    "spcpt_BSThwNTGCsyfmCbs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9W7xDGM4RH3DggR9",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_y96xfFVVYnyH65kJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a sample of 10 cows, \"weighs more than 700 kg\" can be treated as a successful trial."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Any criterion that each member of a sample either meets or does not meet is a trial with exactly two outcomes."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what lets a **count of how many members satisfy a criterion** be modelled by a binomial distribution, even though nothing in the situation looks like an experiment being repeated."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a sample of 10 cows, \"weighs more than 700 kg\" can be treated as a successful trial.\n",
+   "back_md": "**True.**\n\nAny criterion that each member of a sample either meets or does not meet is a trial with exactly two outcomes.\n\nThat is what lets a **count of how many members satisfy a criterion** be modelled by a binomial distribution, even though nothing in the situation looks like an experiment being repeated.\n",
+   "spec_links": [
+    "spcpt_BSThwNTGCsyfmCbs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Kdzw2FfJVFnpMCpM",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_y96xfFVVYnyH65kJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Cow masses are modelled by `\\text{N} \\left(550 , 80^{2}\\right)` kg, and 10 cows are sampled. To find the probability that at most one weighs over 700 kg, which two distributions do you need?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "First the **normal** distribution, to find `p = \\text{P} \\left(X > 700\\right)` for a single cow."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then a **binomial** distribution `Y \\sim \\text{B} \\left(10 , p\\right)` counting how many of the 10 are over 700 kg, from which you want `\\text{P} \\left(Y \\le 1\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Be deliberate about which letter is which: $X$ is a mass in kilograms and $Y$ is a count of cows, so they have different distributions and nothing in common but the criterion linking them."
+    }
+   ],
+   "front_md": "Cow masses are modelled by `\\text{N} \\left(550 , 80^{2}\\right)` kg, and 10 cows are sampled. To find the probability that at most one weighs over 700 kg, which two distributions do you need?\n",
+   "back_md": "First the **normal** distribution, to find `p = \\text{P} \\left(X > 700\\right)` for a single cow.\n\nThen a **binomial** distribution `Y \\sim \\text{B} \\left(10 , p\\right)` counting how many of the 10 are over 700 kg, from which you want `\\text{P} \\left(Y \\le 1\\right)`.\n\nBe deliberate about which letter is which: $X$ is a mass in kilograms and $Y$ is a count of cows, so they have different distributions and nothing in common but the criterion linking them.\n",
+   "spec_links": [
+    "spcpt_BSThwNTGCsyfmCbs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_xFNG7sKgsNJVPHGM",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_y96xfFVVYnyH65kJ",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You have real data and want to know whether a normal distribution is a reasonable model for it. What can you look at?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Draw a **histogram** of the data and see whether it is roughly **symmetrical** and **bell-shaped**."
+    },
+    {
+     "type": "paragraph",
+     "md": "If the variable really is normally distributed then collecting more data should smooth the outline of the histogram out, so that it comes to resemble the normal curve more and more closely."
+    },
+    {
+     "type": "paragraph",
+     "md": "A histogram that stays lopsided however much data is added is evidence that a normal model is the wrong choice."
+    }
+   ],
+   "front_md": "You have real data and want to know whether a normal distribution is a reasonable model for it. What can you look at?\n",
+   "back_md": "Draw a **histogram** of the data and see whether it is roughly **symmetrical** and **bell-shaped**.\n\nIf the variable really is normally distributed then collecting more data should smooth the outline of the histogram out, so that it comes to resemble the normal curve more and more closely.\n\nA histogram that stays lopsided however much data is added is evidence that a normal model is the wrong choice.\n",
+   "spec_links": [
+    "spcpt_BSThwNTGCsyfmCbs"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GJJdXh3KcpvXzHtP",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is a continuity correction needed when a discrete distribution is approximated by a normal one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a discrete variable takes separate whole-number values while a normal variable takes any value at all, so each whole number has to be widened into the interval that rounds to it."
+    },
+    {
+     "type": "paragraph",
+     "md": "A Poisson value of $X = 4$ becomes everything from 3.5 to 4.5, giving `\\text{P} \\left(X = 4\\right) \\approx \\text{P} \\left(3 . 5 < X_{N} < 4 . 5\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Without the widening there would be nothing to find, since a normal distribution gives probability zero to any single value."
+    }
+   ],
+   "front_md": "Why is a continuity correction needed when a discrete distribution is approximated by a normal one?\n",
+   "back_md": "Because a discrete variable takes separate whole-number values while a normal variable takes any value at all, so each whole number has to be widened into the interval that rounds to it.\n\nA Poisson value of $X = 4$ becomes everything from 3.5 to 4.5, giving `\\text{P} \\left(X = 4\\right) \\approx \\text{P} \\left(3 . 5 < X_{N} < 4 . 5\\right)`.\n\nWithout the widening there would be nothing to find, since a normal distribution gives probability zero to any single value.\n",
+   "spec_links": [
+    "spcpt_PjFxtJZSDVwMp4RJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_9RtsSFhd9Xqsb5q6",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the two continuity corrections for the upper-tail inequalities, filling in each missing number **including its sign**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\ge k\\right) \\approx \\text{P} \\left(X_{N} > k \\_\\_\\_\\_\\_\\_\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X > k\\right) \\approx \\text{P} \\left(X_{N} > k \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed corrections are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\ge k\\right) \\approx \\text{P} \\left(X_{N} > k - 0 . 5\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X > k\\right) \\approx \\text{P} \\left(X_{N} > k + 0 . 5\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "These two look backwards, because **at least** $k$ takes away 0.5 while **more than** $k$ adds it."
+    },
+    {
+     "type": "paragraph",
+     "md": "They are the right way round because $X \\geq k$ includes $k$, so the boundary has to drop far enough to swallow the whole of $k$'s interval, whereas $X > k$ excludes it and the boundary has to rise clear of it."
+    }
+   ],
+   "front_md": "Complete the two continuity corrections for the upper-tail inequalities, filling in each missing number **including its sign**:\n\n`\\text{P} \\left(X \\ge k\\right) \\approx \\text{P} \\left(X_{N} > k \\_\\_\\_\\_\\_\\_\\right)`\n\n`\\text{P} \\left(X > k\\right) \\approx \\text{P} \\left(X_{N} > k \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed corrections are:\n\n`\\text{P} \\left(X \\ge k\\right) \\approx \\text{P} \\left(X_{N} > k - 0 . 5\\right)`\n\n`\\text{P} \\left(X > k\\right) \\approx \\text{P} \\left(X_{N} > k + 0 . 5\\right)`\n\nThese two look backwards, because **at least** $k$ takes away 0.5 while **more than** $k$ adds it.\n\nThey are the right way round because $X \\geq k$ includes $k$, so the boundary has to drop far enough to swallow the whole of $k$'s interval, whereas $X > k$ excludes it and the boundary has to rise clear of it.\n",
+   "spec_links": [
+    "spcpt_PjFxtJZSDVwMp4RJ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_RcyQNzRMtqyPvQ9r",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rather than memorising four separate continuity corrections, what single question tells you which way to move a boundary?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Ask whether the value $k$ is **included** in the range you want."
+    },
+    {
+     "type": "paragraph",
+     "md": "If it is included, move the boundary outwards by 0.5 so that the whole of $k$'s interval is taken in; if it is excluded, move the boundary inwards by 0.5 so that the interval is left out."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why `\\text{P} \\left(X \\le k\\right) \\approx \\text{P} \\left(X_{N} < k + 0 . 5\\right)` while `\\text{P} \\left(X < k\\right) \\approx \\text{P} \\left(X_{N} < k - 0 . 5\\right)`."
+    }
+   ],
+   "front_md": "Rather than memorising four separate continuity corrections, what single question tells you which way to move a boundary?\n",
+   "back_md": "Ask whether the value $k$ is **included** in the range you want.\n\nIf it is included, move the boundary outwards by 0.5 so that the whole of $k$'s interval is taken in; if it is excluded, move the boundary inwards by 0.5 so that the interval is left out.\n\nThat is why `\\text{P} \\left(X \\le k\\right) \\approx \\text{P} \\left(X_{N} < k + 0 . 5\\right)` while `\\text{P} \\left(X < k\\right) \\approx \\text{P} \\left(X_{N} < k - 0 . 5\\right)`.\n",
+   "spec_links": [
+    "spcpt_PjFxtJZSDVwMp4RJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KVXrbTtjRqCtn6CH",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A continuity correction is needed whenever a discrete distribution is approximated by a normal distribution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It does not matter which discrete distribution you started from: the correction is needed because the approximating distribution is **continuous** and the original was not."
+    },
+    {
+     "type": "paragraph",
+     "md": "So both a binomial and a Poisson distribution need one when a normal distribution stands in for them."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA continuity correction is needed whenever a discrete distribution is approximated by a normal distribution.\n",
+   "back_md": "**True.**\n\nIt does not matter which discrete distribution you started from: the correction is needed because the approximating distribution is **continuous** and the original was not.\n\nSo both a binomial and a Poisson distribution need one when a normal distribution stands in for them.\n",
+   "spec_links": [
+    "spcpt_PjFxtJZSDVwMp4RJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qNN8sh5s4jQtZpjn",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you apply a continuity correction to a closed inequality such as `\\text{P} \\left(a < X \\le b\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Treat each end completely separately and then put the two results together."
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $X > a$ becomes $X_{N} > a + 0 . 5$ because $a$ is excluded, and $X \\leq b$ becomes $X_{N} < b + 0 . 5$ because $b$ is included, giving:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(a < X \\le b\\right) \\approx \\text{P} \\left(a + 0 . 5 < X_{N} < b + 0 . 5\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Notice that both ends moved **up** here, so do not assume the two corrections always have opposite signs."
+    }
+   ],
+   "front_md": "How do you apply a continuity correction to a closed inequality such as `\\text{P} \\left(a < X \\le b\\right)`?\n",
+   "back_md": "Treat each end completely separately and then put the two results together.\n\nHere $X > a$ becomes $X_{N} > a + 0 . 5$ because $a$ is excluded, and $X \\leq b$ becomes $X_{N} < b + 0 . 5$ because $b$ is included, giving:\n\n`\\text{P} \\left(a < X \\le b\\right) \\approx \\text{P} \\left(a + 0 . 5 < X_{N} < b + 0 . 5\\right)`\n\nNotice that both ends moved **up** here, so do not assume the two corrections always have opposite signs.\n",
+   "spec_links": [
+    "spcpt_PjFxtJZSDVwMp4RJ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zTw8YTFZwsJzkhcB",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When can a Poisson distribution be approximated by a normal one, and by which normal distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When $λ$ is **large**, and the approximating distribution is `\\text{N} \\left(\\lambda , \\lambda\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both parameters are $λ$ because the mean and the variance of a Poisson distribution are equal, so matching them to the normal distribution uses the same number twice."
+    },
+    {
+     "type": "paragraph",
+     "md": "The approximation is never exact, but the larger $λ$ is the closer it gets."
+    }
+   ],
+   "front_md": "When can a Poisson distribution be approximated by a normal one, and by which normal distribution?\n",
+   "back_md": "When $λ$ is **large**, and the approximating distribution is `\\text{N} \\left(\\lambda , \\lambda\\right)`.\n\nBoth parameters are $λ$ because the mean and the variance of a Poisson distribution are equal, so matching them to the normal distribution uses the same number twice.\n\nThe approximation is never exact, but the larger $λ$ is the closer it gets.\n",
+   "spec_links": [
+    "spcpt_YkKMWYDSjftxhVK2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YymNDcpr3rdX5wvm",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the normal approximation to `\\text{Po} \\left(\\lambda\\right)`, why is the standard deviation $\\sqrt{λ}$ rather than $λ$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the second number in `\\text{N} \\left(\\mu , \\sigma^{2}\\right)` is the **variance**, and it is the variance of the Poisson distribution that equals $λ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Standardising needs $σ$, so the square root has to be taken before any $z$-value is worked out."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is a slip worth guarding against precisely because the mean and the variance are the same number here, which makes it easy to reach for $λ$ twice."
+    }
+   ],
+   "front_md": "In the normal approximation to `\\text{Po} \\left(\\lambda\\right)`, why is the standard deviation $\\sqrt{λ}$ rather than $λ$?\n",
+   "back_md": "Because the second number in `\\text{N} \\left(\\mu , \\sigma^{2}\\right)` is the **variance**, and it is the variance of the Poisson distribution that equals $λ$.\n\nStandardising needs $σ$, so the square root has to be taken before any $z$-value is worked out.\n\nThis is a slip worth guarding against precisely because the mean and the variance are the same number here, which makes it easy to reach for $λ$ twice.\n",
+   "spec_links": [
+    "spcpt_YkKMWYDSjftxhVK2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_M3BSpzcSNTx26KQV",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_ct4W7DRXHny3CSG8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Hits on a web page follow `\\text{Po} \\left(40\\right)`. Use a normal approximation to set up the probability of more than 50 hits in an hour."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The approximating distribution is `X_{N} \\sim \\text{N} \\left(40 , 40\\right)`, and **more than** 50 excludes 50, so the boundary moves up to 50.5."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives `\\text{P} \\left(X > 50\\right) \\approx \\text{P} \\left(X_{N} > 50 . 5\\right)`, which standardises to:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$z = \\frac{50.5-40}{\\sqrt{40}} = 1 . 66$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The table then gives `1 - \\Phi \\left(1 . 66\\right) = 1 - 0 . 9515 = 0 . 0485`."
+    }
+   ],
+   "front_md": "Hits on a web page follow `\\text{Po} \\left(40\\right)`. Use a normal approximation to set up the probability of more than 50 hits in an hour.\n",
+   "back_md": "The approximating distribution is `X_{N} \\sim \\text{N} \\left(40 , 40\\right)`, and **more than** 50 excludes 50, so the boundary moves up to 50.5.\n\nThat gives `\\text{P} \\left(X > 50\\right) \\approx \\text{P} \\left(X_{N} > 50 . 5\\right)`, which standardises to:\n\n$z = \\frac{50.5-40}{\\sqrt{40}} = 1 . 66$\n\nThe table then gives `1 - \\Phi \\left(1 . 66\\right) = 1 - 0 . 9515 = 0 . 0485`.\n",
+   "spec_links": [
+    "spcpt_YkKMWYDSjftxhVK2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cjTVp6gf7KfBRRJz",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binomial distribution is being approximated by a normal one. What are the mean and variance of the approximating distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Exactly the binomial's own, so $μ = n p$ and `\\sigma^{2} = n p \\left(1 - p\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "An approximating distribution is chosen by **matching** what you already know about the original, and the mean and variance are what a normal distribution needs."
+    },
+    {
+     "type": "paragraph",
+     "md": "Remember to square-root the variance before standardising, since `\\text{N} \\left(\\mu , \\sigma^{2}\\right)` carries the variance rather than the standard deviation."
+    }
+   ],
+   "front_md": "A binomial distribution is being approximated by a normal one. What are the mean and variance of the approximating distribution?\n",
+   "back_md": "Exactly the binomial's own, so $μ = n p$ and `\\sigma^{2} = n p \\left(1 - p\\right)`.\n\nAn approximating distribution is chosen by **matching** what you already know about the original, and the mean and variance are what a normal distribution needs.\n\nRemember to square-root the variance before standardising, since `\\text{N} \\left(\\mu , \\sigma^{2}\\right)` carries the variance rather than the standard deviation.\n",
+   "spec_links": [
+    "spcpt_YY4h2CNvvKYfq4Sk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4h92kfzTyPBzg94D",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must $p$ be close to 0.5 for a normal approximation to a binomial to work well?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because a normal distribution is perfectly **symmetrical**, so it can only fit a binomial distribution that is nearly symmetrical itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "A binomial distribution is exactly symmetrical at $p = 0 . 5$ and grows more and more lopsided as $p$ moves away from it, developing a long tail on one side."
+    },
+    {
+     "type": "paragraph",
+     "md": "Fitting a symmetrical curve to a strongly skewed distribution would give poor answers in both tails, which is where the interesting probabilities usually are."
+    }
+   ],
+   "front_md": "Why must $p$ be close to 0.5 for a normal approximation to a binomial to work well?\n",
+   "back_md": "Because a normal distribution is perfectly **symmetrical**, so it can only fit a binomial distribution that is nearly symmetrical itself.\n\nA binomial distribution is exactly symmetrical at $p = 0 . 5$ and grows more and more lopsided as $p$ moves away from it, developing a long tail on one side.\n\nFitting a symmetrical curve to a strongly skewed distribution would give poor answers in both tails, which is where the interesting probabilities usually are.\n",
+   "spec_links": [
+    "spcpt_YY4h2CNvvKYfq4Sk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Tfq9w2fFCSzcvTkD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`X \\sim \\text{B} \\left(1250 , 0 . 4\\right)`. Set up a normal approximation to `\\text{P} \\left(485 \\le X \\le 530\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The parameters are $μ = 1250 \\times 0 . 4 = 500$ and $σ^{2} = 1250 \\times 0 . 4 \\times 0 . 6 = 300$, so `X_{N} \\sim \\text{N} \\left(500 , 300\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both 485 and 530 are included in the range, so both boundaries move outwards:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(485 \\le X \\le 530\\right) \\approx \\text{P} \\left(484 . 5 < X_{N} < 530 . 5\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Standardising with $\\sqrt{300}$ then gives $z$-values of $- 0 . 89$ and $1 . 76$ to read from the table."
+    }
+   ],
+   "front_md": "`X \\sim \\text{B} \\left(1250 , 0 . 4\\right)`. Set up a normal approximation to `\\text{P} \\left(485 \\le X \\le 530\\right)`.\n",
+   "back_md": "The parameters are $μ = 1250 \\times 0 . 4 = 500$ and $σ^{2} = 1250 \\times 0 . 4 \\times 0 . 6 = 300$, so `X_{N} \\sim \\text{N} \\left(500 , 300\\right)`.\n\nBoth 485 and 530 are included in the range, so both boundaries move outwards:\n\n`\\text{P} \\left(485 \\le X \\le 530\\right) \\approx \\text{P} \\left(484 . 5 < X_{N} < 530 . 5\\right)`\n\nStandardising with $\\sqrt{300}$ then gives $z$-values of $- 0 . 89$ and $1 . 76$ to read from the table.\n",
+   "spec_links": [
+    "spcpt_YY4h2CNvvKYfq4Sk"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gChmvCXdDsCztNNR",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A binomial distribution is being approximated by a Poisson one. What is $λ$, and why is that the only parameter needed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$λ = n p$, the binomial distribution's own mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "A Poisson distribution has just one parameter, so matching the mean is all there is to do, unlike the normal case where a variance has to be matched as well."
+    },
+    {
+     "type": "paragraph",
+     "md": "The approximation exists because a Poisson distribution is what a binomial one turns into as $n$ grows without limit and $p$ shrinks towards zero."
+    }
+   ],
+   "front_md": "A binomial distribution is being approximated by a Poisson one. What is $λ$, and why is that the only parameter needed?\n",
+   "back_md": "$λ = n p$, the binomial distribution's own mean.\n\nA Poisson distribution has just one parameter, so matching the mean is all there is to do, unlike the normal case where a variance has to be matched as well.\n\nThe approximation exists because a Poisson distribution is what a binomial one turns into as $n$ grows without limit and $p$ shrinks towards zero.\n",
+   "spec_links": [
+    "spcpt_PhRPk9SkcSgp9q8p"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K66vx68n5PfN7QVS",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A continuity correction is needed when a binomial distribution is approximated by a Poisson distribution."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both the binomial and the Poisson distributions are **discrete**, so both count in whole numbers and there is no switch from counting to measuring to correct for."
+    },
+    {
+     "type": "paragraph",
+     "md": "A correction is only ever needed when the approximating distribution is a continuous one."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA continuity correction is needed when a binomial distribution is approximated by a Poisson distribution.\n",
+   "back_md": "**False.**\n\nBoth the binomial and the Poisson distributions are **discrete**, so both count in whole numbers and there is no switch from counting to measuring to correct for.\n\nA correction is only ever needed when the approximating distribution is a continuous one.\n",
+   "spec_links": [
+    "spcpt_PhRPk9SkcSgp9q8p"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wy59J7Jn42HHCbNw",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "One person in a thousand who visits a website subscribes, and the site had 3000 visits. Use a suitable approximation to find the probability that more than 5 subscribed."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Here $n = 3000$ and $p = 0 . 001$, so $λ = 3000 \\times 0 . 001 = 3$ and $X$ is approximately `\\text{Po} \\left(3\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "More than 5 means everything above 5, so no continuity correction is involved and `\\text{P} \\left(X > 5\\right) = 1 - \\text{P} \\left(X \\le 5\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The cumulative table at $λ = 3$ gives `\\text{P} \\left(X \\le 5\\right) = 0 . 9161`, so the answer is $0 . 0839$."
+    }
+   ],
+   "front_md": "One person in a thousand who visits a website subscribes, and the site had 3000 visits. Use a suitable approximation to find the probability that more than 5 subscribed.\n",
+   "back_md": "Here $n = 3000$ and $p = 0 . 001$, so $λ = 3000 \\times 0 . 001 = 3$ and $X$ is approximately `\\text{Po} \\left(3\\right)`.\n\nMore than 5 means everything above 5, so no continuity correction is involved and `\\text{P} \\left(X > 5\\right) = 1 - \\text{P} \\left(X \\le 5\\right)`.\n\nThe cumulative table at $λ = 3$ gives `\\text{P} \\left(X \\le 5\\right) = 0 . 9161`, so the answer is $0 . 0839$.\n",
+   "spec_links": [
+    "spcpt_PhRPk9SkcSgp9q8p"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CkQPSSYjH4twNBWX",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When `\\text{B} \\left(n , p\\right)` is approximated by `\\text{Po} \\left(n p\\right)`, the approximating distribution has the same variance as the original."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The binomial variance is `n p \\left(1 - p\\right)` while the Poisson variance is $n p$, so the approximation makes the spread too large by a factor of $\\frac{1}{1-p}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That factor is what the small-$p$ condition is really about: with $p = 0 . 001$ the variance is out by a tenth of one per cent, but with $p = 0 . 4$ it would be out by two thirds."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen `\\text{B} \\left(n , p\\right)` is approximated by `\\text{Po} \\left(n p\\right)`, the approximating distribution has the same variance as the original.\n",
+   "back_md": "**False.**\n\nThe binomial variance is `n p \\left(1 - p\\right)` while the Poisson variance is $n p$, so the approximation makes the spread too large by a factor of $\\frac{1}{1-p}$.\n\nThat factor is what the small-$p$ condition is really about: with $p = 0 . 001$ the variance is out by a tenth of one per cent, but with $p = 0 . 4$ it would be out by two thirds.\n",
+   "spec_links": [
+    "spcpt_PhRPk9SkcSgp9q8p"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_NfhQHp2b8MfgCQWf",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{B} \\left(100 , 0 . 02\\right)` and `\\text{B} \\left(100 , 0 . 45\\right)` both need approximating. Which approximation suits each?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{B} \\left(100 , 0 . 02\\right)` takes a **Poisson** approximation, because $p$ is small, giving `\\text{Po} \\left(2\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{B} \\left(100 , 0 . 45\\right)` takes a **normal** approximation, because $p$ is close to 0.5, giving `\\text{N} \\left(45 , 24 . 75\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $n$ large in both cases it is the value of $p$ alone that decides, and the choice changes whether a continuity correction is needed."
+    }
+   ],
+   "front_md": "`\\text{B} \\left(100 , 0 . 02\\right)` and `\\text{B} \\left(100 , 0 . 45\\right)` both need approximating. Which approximation suits each?\n",
+   "back_md": "`\\text{B} \\left(100 , 0 . 02\\right)` takes a **Poisson** approximation, because $p$ is small, giving `\\text{Po} \\left(2\\right)`.\n\n`\\text{B} \\left(100 , 0 . 45\\right)` takes a **normal** approximation, because $p$ is close to 0.5, giving `\\text{N} \\left(45 , 24 . 75\\right)`.\n\nWith $n$ large in both cases it is the value of $p$ alone that decides, and the choice changes whether a continuity correction is needed.\n",
+   "spec_links": [
+    "spcpt_dhBtPN6YhDdPNKHp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GfjdFk3vHtKB6mXh",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can a binomial distribution such as `\\text{B} \\left(1250 , 0 . 4\\right)` not simply be worked out directly?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The cumulative table in the formula booklet lists $n$ only as far as 50, so a distribution with $n = 1250$ has no entry in it anywhere."
+    },
+    {
+     "type": "paragraph",
+     "md": "Falling back on the formula would mean working out and adding dozens of individual probabilities, which is not realistic under exam conditions."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same test settles the Poisson case: if the mean is bigger than any $λ$ the booklet lists, an approximation is the only route left."
+    }
+   ],
+   "front_md": "Why can a binomial distribution such as `\\text{B} \\left(1250 , 0 . 4\\right)` not simply be worked out directly?\n",
+   "back_md": "The cumulative table in the formula booklet lists $n$ only as far as 50, so a distribution with $n = 1250$ has no entry in it anywhere.\n\nFalling back on the formula would mean working out and adding dozens of individual probabilities, which is not realistic under exam conditions.\n\nThe same test settles the Poisson case: if the mean is bigger than any $λ$ the booklet lists, an approximation is the only route left.\n",
+   "spec_links": [
+    "spcpt_dhBtPN6YhDdPNKHp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_w2Bs8tNrNZm5C8vK",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_GxySFTmm4V8Gqtg2",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Your distribution is a Poisson one rather than a binomial one. Which approximations are open to you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only the **normal** one."
+    },
+    {
+     "type": "paragraph",
+     "md": "A binomial distribution has two possible approximations to choose between, but a Poisson distribution has just the one, so once you have established what you are approximating **from** there is no decision left to make."
+    },
+    {
+     "type": "paragraph",
+     "md": "That makes identifying the original distribution the first thing to settle, since it may remove the choice altogether."
+    }
+   ],
+   "front_md": "Your distribution is a Poisson one rather than a binomial one. Which approximations are open to you?\n",
+   "back_md": "Only the **normal** one.\n\nA binomial distribution has two possible approximations to choose between, but a Poisson distribution has just the one, so once you have established what you are approximating **from** there is no decision left to make.\n\nThat makes identifying the original distribution the first thing to settle, since it may remove the choice altogether.\n",
+   "spec_links": [
+    "spcpt_dhBtPN6YhDdPNKHp"
+   ],
+   "flags": []
+  }
+ ]
+}

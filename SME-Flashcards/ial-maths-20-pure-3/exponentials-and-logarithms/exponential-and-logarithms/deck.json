@@ -1,0 +1,447 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:20Z",
+ "course_slug": "ial-maths-20-pure-3",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/flashcards/exponentials-and-logarithms/exponential-and-logarithms/",
+  "section_slug": "exponentials-and-logarithms",
+  "section_name": "Exponentials & Logarithms",
+  "topic_slug": "exponential-and-logarithms",
+  "title": "Exponential & Logarithms",
+  "order": 0
+ },
+ "card_count": 13,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 7,
+  "true_or_false": 3,
+  "fill_in_the_blanks": 2
+ },
+ "spec_link_cards": 13,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_4cwF7QpXW9hCKkfc",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **e**, Euler's number."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\text{e}$ is an **irrational** number, roughly $2 . 718$, which serves as the base of natural logarithms."
+    },
+    {
+     "type": "paragraph",
+     "md": "Like $π$, it cannot be written exactly as a fraction or as a terminating decimal."
+    }
+   ],
+   "front_md": "Define **e**, Euler's number.\n",
+   "back_md": "$\\text{e}$ is an **irrational** number, roughly $2 . 718$, which serves as the base of natural logarithms.\n\nLike $π$, it cannot be written exactly as a fraction or as a terminating decimal.\n",
+   "spec_links": [
+    "spcpt_RN7njy7mfmQdHSc3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_S8SNjx3MBj6bbCH3",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How is the graph of $y = \\text{e}^{-x}$ related to $y = \\text{e}^{x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the reflection of $y = \\text{e}^{x}$ in the $y$-axis."
+    },
+    {
+     "type": "paragraph",
+     "md": "The pair are in the form `y = \\text{f} \\left(x\\right)` and `y = \\text{f} \\left(- x\\right)`, which is what produces that reflection."
+    }
+   ],
+   "front_md": "How is the graph of $y = \\text{e}^{-x}$ related to $y = \\text{e}^{x}$?\n",
+   "back_md": "It is the reflection of $y = \\text{e}^{x}$ in the $y$-axis.\n\nThe pair are in the form `y = \\text{f} \\left(x\\right)` and `y = \\text{f} \\left(- x\\right)`, which is what produces that reflection.\n",
+   "spec_links": [
+    "spcpt_RN7njy7mfmQdHSc3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8jJkpydVyRFVS27R",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $\\mathrm{ln} x$ mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the **natural logarithm**, the logarithm to base $\\text{e}$: $\\mathrm{ln} x \\equiv \\mathrm{log}_{\\text{e}} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Everything that is true of logarithms in general is therefore true of $\\mathrm{ln}$ as well."
+    }
+   ],
+   "front_md": "What does $\\mathrm{ln} x$ mean?\n",
+   "back_md": "It is the **natural logarithm**, the logarithm to base $\\text{e}$: $\\mathrm{ln} x \\equiv \\mathrm{log}_{\\text{e}} x$.\n\nEverything that is true of logarithms in general is therefore true of $\\mathrm{ln}$ as well.\n",
+   "spec_links": [
+    "spcpt_XgXVbHC78KpKttrb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hmT5Xw9nXzgvzvZr",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln}$ is a number, in the way that $\\text{e}$ and $π$ are."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln}$ is a **function**, so it needs something to act on before it means anything at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} 5$ is a number, but $\\mathrm{ln}$ by itself is not, any more than $\\mathrm{sin}$ by itself is."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\mathrm{ln}$ is a number, in the way that $\\text{e}$ and $π$ are.\n",
+   "back_md": "**False.**\n\n$\\mathrm{ln}$ is a **function**, so it needs something to act on before it means anything at all.\n\n$\\mathrm{ln} 5$ is a number, but $\\mathrm{ln}$ by itself is not, any more than $\\mathrm{sin}$ by itself is.\n",
+   "spec_links": [
+    "spcpt_XgXVbHC78KpKttrb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fgrywvkZS3jHs2wb",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete these three results:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\ln 1 = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\ln \\text{e} = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\ln \\text{e}^{x} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} 1 = 0$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} \\text{e} = 1$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} \\text{e}^{x} = x$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each one comes straight from the meaning of a logarithm applied to base $\\text{e}$."
+    }
+   ],
+   "front_md": "Complete these three results:\n\n`\\ln 1 = \\_\\_\\_\\_\\_\\_`\n\n`\\ln \\text{e} = \\_\\_\\_\\_\\_\\_`\n\n`\\ln \\text{e}^{x} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n$\\mathrm{ln} 1 = 0$\n\n$\\mathrm{ln} \\text{e} = 1$\n\n$\\mathrm{ln} \\text{e}^{x} = x$\n\nEach one comes straight from the meaning of a logarithm applied to base $\\text{e}$.\n",
+   "spec_links": [
+    "spcpt_XgXVbHC78KpKttrb",
+    "spcpt_RN7njy7mfmQdHSc3"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_XJGtT3Fbfj5697Kr",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the relationship between $\\text{e}^{x}$ and $\\mathrm{ln} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **inverse functions**, so each one undoes the other."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why $\\text{e}^{\\mathrm{ln}x} = x$, and why applying one of them to both sides of an equation strips the other away."
+    }
+   ],
+   "front_md": "What is the relationship between $\\text{e}^{x}$ and $\\mathrm{ln} x$?\n",
+   "back_md": "They are **inverse functions**, so each one undoes the other.\n\nThat is why $\\text{e}^{\\mathrm{ln}x} = x$, and why applying one of them to both sides of an equation strips the other away.\n",
+   "spec_links": [
+    "spcpt_XgXVbHC78KpKttrb",
+    "spcpt_RN7njy7mfmQdHSc3"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tbb9rSJqYWW6qM7H",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An equation reads `\\text{e}^{\\text{f} \\left(x\\right)} = \\text{g} \\left(x\\right)`. How do you get at `\\text{f} \\left(x\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take $\\mathrm{ln}$ of both sides, which leaves `\\text{f} \\left(x\\right) = \\ln \\text{g} \\left(x\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "It works the other way round too: `\\ln \\text{f} \\left(x\\right) = \\text{g} \\left(x\\right)` becomes `\\text{f} \\left(x\\right) = \\text{e}^{\\text{g} \\left(x\\right)}`."
+    }
+   ],
+   "front_md": "An equation reads `\\text{e}^{\\text{f} \\left(x\\right)} = \\text{g} \\left(x\\right)`. How do you get at `\\text{f} \\left(x\\right)`?\n",
+   "back_md": "Take $\\mathrm{ln}$ of both sides, which leaves `\\text{f} \\left(x\\right) = \\ln \\text{g} \\left(x\\right)`.\n\nIt works the other way round too: `\\ln \\text{f} \\left(x\\right) = \\text{g} \\left(x\\right)` becomes `\\text{f} \\left(x\\right) = \\text{e}^{\\text{g} \\left(x\\right)}`.\n",
+   "spec_links": [
+    "spcpt_XgXVbHC78KpKttrb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_z2JpX5XtSwWRdfh4",
+   "card_type": "true_or_false",
+   "order": 7,
+   "set_id": "flst_YvKbSy7TfHz8WkMH",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} x$ has no value when $x$ is zero or negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "No power of $\\text{e}$ produces zero or a negative number, so there is nothing for the logarithm to return."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\mathrm{ln} x$ has no value when $x$ is zero or negative.\n",
+   "back_md": "**True.**\n\nNo power of $\\text{e}$ produces zero or a negative number, so there is nothing for the logarithm to return.\n",
+   "spec_links": [
+    "spcpt_XgXVbHC78KpKttrb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Q75B6kCjjqhc64Sy",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_37h4fDjy43JFzpvm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $y = \\text{e}^{kx}$ then `\\frac{\\text{d} y}{\\text{d} x} = \\_\\_\\_\\_\\_\\_`, and if $y = \\text{e}^{-kx}$ then `\\frac{\\text{d} y}{\\text{d} x} = \\_\\_\\_\\_\\_\\_`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $y = \\text{e}^{kx}$ then $\\frac{\\text{d}y}{\\text{d}x} = k \\text{e}^{kx}$, and if $y = \\text{e}^{-kx}$ then $\\frac{\\text{d}y}{\\text{d}x} = - k \\text{e}^{-kx}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The constant from the power comes down as a multiplier, and $y = \\text{e}^{x}$ is simply the case $k = 1$."
+    }
+   ],
+   "front_md": "If $y = \\text{e}^{kx}$ then `\\frac{\\text{d} y}{\\text{d} x} = \\_\\_\\_\\_\\_\\_`, and if $y = \\text{e}^{-kx}$ then `\\frac{\\text{d} y}{\\text{d} x} = \\_\\_\\_\\_\\_\\_`.\n",
+   "back_md": "If $y = \\text{e}^{kx}$ then $\\frac{\\text{d}y}{\\text{d}x} = k \\text{e}^{kx}$, and if $y = \\text{e}^{-kx}$ then $\\frac{\\text{d}y}{\\text{d}x} = - k \\text{e}^{-kx}$.\n\nThe constant from the power comes down as a multiplier, and $y = \\text{e}^{x}$ is simply the case $k = 1$.\n",
+   "spec_links": [
+    "spcpt_ZNpcttH3C8QZc9WH"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_XW46Pr2CFGXG6Ncr",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_37h4fDjy43JFzpvm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What stays the same when you differentiate $\\text{e}^{kx}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The exponential part itself: $\\text{e}^{kx}$ reappears in the derivative unchanged."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only a constant multiplier is added in front, which is what makes exponential derivatives unusually simple."
+    }
+   ],
+   "front_md": "What stays the same when you differentiate $\\text{e}^{kx}$?\n",
+   "back_md": "The exponential part itself: $\\text{e}^{kx}$ reappears in the derivative unchanged.\n\nOnly a constant multiplier is added in front, which is what makes exponential derivatives unusually simple.\n",
+   "spec_links": [
+    "spcpt_ZNpcttH3C8QZc9WH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nrf69nfyNrTfjHyD",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_37h4fDjy43JFzpvm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the derivative of $y = \\text{e}^{-3x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = - 3 \\text{e}^{-3x}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The minus sign comes down with the $3$, so a decay curve has a negative gradient everywhere along it."
+    }
+   ],
+   "front_md": "What is the derivative of $y = \\text{e}^{-3x}$?\n",
+   "back_md": "$\\frac{\\text{d}y}{\\text{d}x} = - 3 \\text{e}^{-3x}$.\n\nThe minus sign comes down with the $3$, so a decay curve has a negative gradient everywhere along it.\n",
+   "spec_links": [
+    "spcpt_ZNpcttH3C8QZc9WH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CGQnymyqYw63v3pt",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_37h4fDjy43JFzpvm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient of $y = \\text{e}^{x}$ is never zero."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient equals $\\text{e}^{x}$, which is positive for every value of $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the curve is always increasing and has no stationary points at all."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe gradient of $y = \\text{e}^{x}$ is never zero.\n",
+   "back_md": "**True.**\n\nThe gradient equals $\\text{e}^{x}$, which is positive for every value of $x$.\n\nSo the curve is always increasing and has no stationary points at all.\n",
+   "spec_links": [
+    "spcpt_ZNpcttH3C8QZc9WH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c7bKPm3cffGxRtrC",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_37h4fDjy43JFzpvm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find the gradient of $y = \\text{e}^{2x}$ at $x = 0$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate to get $\\frac{\\text{d}y}{\\text{d}x} = 2 \\text{e}^{2x}$, then substitute $x = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since $\\text{e}^{0} = 1$, the gradient there is $2$."
+    }
+   ],
+   "front_md": "How do you find the gradient of $y = \\text{e}^{2x}$ at $x = 0$?\n",
+   "back_md": "Differentiate to get $\\frac{\\text{d}y}{\\text{d}x} = 2 \\text{e}^{2x}$, then substitute $x = 0$.\n\nSince $\\text{e}^{0} = 1$, the gradient there is $2$.\n",
+   "spec_links": [
+    "spcpt_ZNpcttH3C8QZc9WH"
+   ],
+   "flags": []
+  }
+ ]
+}

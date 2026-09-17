@@ -1,0 +1,629 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-17T17:21:58Z",
+ "course_slug": "ial-maths-20-statistics-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/statistics-2/flashcards/statistical-distributions/poisson-distribution/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "poisson-distribution",
+  "title": "Poisson Distribution",
+  "order": 1
+ },
+ "card_count": 17,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 3,
+  "question_and_answer": 11
+ },
+ "spec_link_cards": 17,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_gng3MRhHWtyH87vC",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **Poisson distribution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **Poisson distribution** is the discrete probability distribution of a random variable that **counts the number of events occurring at random in a given interval** of time or space."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is written `X \\sim \\text{Po} \\left(\\lambda\\right)`, where $λ$ is the mean number of occurrences in that interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "The interval may be a length of time, such as a day, or a region of space, such as a square metre of grass."
+    }
+   ],
+   "front_md": "Define a **Poisson distribution**.\n",
+   "back_md": "A **Poisson distribution** is the discrete probability distribution of a random variable that **counts the number of events occurring at random in a given interval** of time or space.\n\nIt is written `X \\sim \\text{Po} \\left(\\lambda\\right)`, where $λ$ is the mean number of occurrences in that interval.\n\nThe interval may be a length of time, such as a day, or a region of space, such as a square metre of grass.\n",
+   "spec_links": [
+    "spcpt_gQsJPB7Szy6ZvMBZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6FfXVKvMBnJzZRVr",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A Poisson model needs three conditions to hold. Fill in the two that are missing:"
+    },
+    {
+     "type": "paragraph",
+     "md": "events occur `\\_\\_\\_\\_\\_\\_` and at random in a given interval of time or space"
+    },
+    {
+     "type": "paragraph",
+     "md": "the mean number of occurrences in that interval, $λ$, is known and finite"
+    },
+    {
+     "type": "paragraph",
+     "md": "the occurrences are `\\_\\_\\_\\_\\_\\_` of one another"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed conditions are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "events occur **singly** and at random in a given interval"
+    },
+    {
+     "type": "paragraph",
+     "md": "the occurrences are **independent** of one another"
+    },
+    {
+     "type": "paragraph",
+     "md": "None of the three conditions is in the formula booklet, so all three have to be remembered."
+    },
+    {
+     "type": "paragraph",
+     "md": "Occurrences that arrive in clusters, such as customers entering a shop as a family, break both of these at once."
+    }
+   ],
+   "front_md": "A Poisson model needs three conditions to hold. Fill in the two that are missing:\n\nevents occur `\\_\\_\\_\\_\\_\\_` and at random in a given interval of time or space\n\nthe mean number of occurrences in that interval, $λ$, is known and finite\n\nthe occurrences are `\\_\\_\\_\\_\\_\\_` of one another\n",
+   "back_md": "The completed conditions are:\n\nevents occur **singly** and at random in a given interval\n\nthe occurrences are **independent** of one another\n\nNone of the three conditions is in the formula booklet, so all three have to be remembered.\n\nOccurrences that arrive in clusters, such as customers entering a shop as a family, break both of these at once.\n",
+   "spec_links": [
+    "spcpt_gQsJPB7Szy6ZvMBZ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_24hQdGKqRVMNfPD7",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In `X \\sim \\text{Po} \\left(\\lambda\\right)`, the value of $λ$ must be a whole number."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$λ$ is a **mean** number of occurrences rather than a count, so a rate such as 2.4 faults per metre is perfectly sensible."
+    },
+    {
+     "type": "paragraph",
+     "md": "All that is required of $λ$ is that it is **positive and finite**, and the variable $X$ itself still only ever takes whole-number values."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn `X \\sim \\text{Po} \\left(\\lambda\\right)`, the value of $λ$ must be a whole number.\n",
+   "back_md": "**False.**\n\n$λ$ is a **mean** number of occurrences rather than a count, so a rate such as 2.4 faults per metre is perfectly sensible.\n\nAll that is required of $λ$ is that it is **positive and finite**, and the variable $X$ itself still only ever takes whole-number values.\n",
+   "spec_links": [
+    "spcpt_gQsJPB7Szy6ZvMBZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5gP8qsf35gVwgKP3",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the relationship between the mean and the variance of a Poisson distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are **equal**: the formula booklet gives both the mean and the variance of `X \\sim \\text{Po} \\left(\\lambda\\right)` as $λ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The standard deviation is therefore $\\sqrt{λ}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Knowing the mean of a Poisson distribution is knowing everything about it, since the single parameter $λ$ fixes the whole distribution."
+    }
+   ],
+   "front_md": "What is the relationship between the mean and the variance of a Poisson distribution?\n",
+   "back_md": "They are **equal**: the formula booklet gives both the mean and the variance of `X \\sim \\text{Po} \\left(\\lambda\\right)` as $λ$.\n\nThe standard deviation is therefore $\\sqrt{λ}$.\n\nKnowing the mean of a Poisson distribution is knowing everything about it, since the single parameter $λ$ fixes the whole distribution.\n",
+   "spec_links": [
+    "spcpt_gQsJPB7Szy6ZvMBZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_S4vtRvS673vysZPn",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no upper limit to the number of occurrences that a Poisson distribution allows."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$X$ can take any of the values $0 , 1 , 2 , 3 , \\dots$ with no largest value, because there is no fixed number of trials to cap it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The probabilities of very large values become vanishingly small but are never exactly zero, which is one clear difference from a binomial distribution, where $X$ can never exceed $n$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThere is no upper limit to the number of occurrences that a Poisson distribution allows.\n",
+   "back_md": "**True.**\n\n$X$ can take any of the values $0 , 1 , 2 , 3 , \\dots$ with no largest value, because there is no fixed number of trials to cap it.\n\nThe probabilities of very large values become vanishingly small but are never exactly zero, which is one clear difference from a binomial distribution, where $X$ can never exceed $n$.\n",
+   "spec_links": [
+    "spcpt_gQsJPB7Szy6ZvMBZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BJDwsqzwW6vsfYny",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the shape of a Poisson distribution depend on $λ$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "With $λ$ close to 0 the vertical line graph has a **tail to the right**, since almost all of the probability sits on the smallest values."
+    },
+    {
+     "type": "paragraph",
+     "md": "Once $λ$ reaches about 5 the graph is **roughly symmetrical**, and it becomes more symmetrical still as $λ$ grows."
+    },
+    {
+     "type": "paragraph",
+     "md": "That growing symmetry is what eventually makes a bell-shaped curve a good approximation to a Poisson distribution."
+    }
+   ],
+   "front_md": "How does the shape of a Poisson distribution depend on $λ$?\n",
+   "back_md": "With $λ$ close to 0 the vertical line graph has a **tail to the right**, since almost all of the probability sits on the smallest values.\n\nOnce $λ$ reaches about 5 the graph is **roughly symmetrical**, and it becomes more symmetrical still as $λ$ grows.\n\nThat growing symmetry is what eventually makes a bell-shaped curve a good approximation to a Poisson distribution.\n",
+   "spec_links": [
+    "spcpt_gQsJPB7Szy6ZvMBZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qDbrb44NGFngJQWm",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a Poisson distribution the mean and the variance are both $λ$. How does that help you judge whether a data set can be modelled by one?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out the mean and the variance of the data and see whether they come out **roughly equal**."
+    },
+    {
+     "type": "paragraph",
+     "md": "If they are far apart then no value of $λ$ can fit both at once, and a Poisson model should be rejected straight away."
+    },
+    {
+     "type": "paragraph",
+     "md": "Roughly equal is only a first test, though, and the three conditions still have to be checked before the model is accepted."
+    }
+   ],
+   "front_md": "For a Poisson distribution the mean and the variance are both $λ$. How does that help you judge whether a data set can be modelled by one?\n",
+   "back_md": "Work out the mean and the variance of the data and see whether they come out **roughly equal**.\n\nIf they are far apart then no value of $λ$ can fit both at once, and a Poisson model should be rejected straight away.\n\nRoughly equal is only a first test, though, and the three conditions still have to be checked before the model is accepted.\n",
+   "spec_links": [
+    "spcpt_GPmq8k46YXs6B3kX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yFJWRyWPXqbqhxnj",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must a Poisson model always state the interval of time or space that it refers to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $λ$ is the mean number of occurrences **in a stated interval**, so on its own a bare number such as 2 is not yet a distribution at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "Faults at a mean rate of 2 per metre and calls at a mean rate of 2 per hour are both `\\text{Po} \\left(2\\right)` only because the interval has been fixed in each case."
+    },
+    {
+     "type": "paragraph",
+     "md": "The interval a question asks about is often not the one the rate was quoted in, and the two give different distributions."
+    }
+   ],
+   "front_md": "Why must a Poisson model always state the interval of time or space that it refers to?\n",
+   "back_md": "Because $λ$ is the mean number of occurrences **in a stated interval**, so on its own a bare number such as 2 is not yet a distribution at all.\n\nFaults at a mean rate of 2 per metre and calls at a mean rate of 2 per hour are both `\\text{Po} \\left(2\\right)` only because the interval has been fixed in each case.\n\nThe interval a question asks about is often not the one the rate was quoted in, and the two give different distributions.\n",
+   "spec_links": [
+    "spcpt_GPmq8k46YXs6B3kX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cYVDCvVnv8zxVZDq",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On average 4% of a population has green eyes. Why can the number of green-eyed people not be modelled by a Poisson distribution?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because there is no **interval** of time or space for occurrences to happen in, only a proportion of a group."
+    },
+    {
+     "type": "paragraph",
+     "md": "A Poisson distribution needs a mean number of occurrences per unit of time or space, and 4% is not a rate of that kind."
+    },
+    {
+     "type": "paragraph",
+     "md": "Counting green-eyed people in a sample of fixed size is a **binomial** situation instead, with $n$ the size of the sample and $p = 0 . 04$."
+    }
+   ],
+   "front_md": "On average 4% of a population has green eyes. Why can the number of green-eyed people not be modelled by a Poisson distribution?\n",
+   "back_md": "Because there is no **interval** of time or space for occurrences to happen in, only a proportion of a group.\n\nA Poisson distribution needs a mean number of occurrences per unit of time or space, and 4% is not a rate of that kind.\n\nCounting green-eyed people in a sample of fixed size is a **binomial** situation instead, with $n$ the size of the sample and $p = 0 . 04$.\n",
+   "spec_links": [
+    "spcpt_GPmq8k46YXs6B3kX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ffvByjQrCdGRfKyV",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_fbGNSxJRXmHxxMtP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A shop's customers arrive far more often at lunchtime than at other times of day. Why is a Poisson model for the number of arrivals per hour doubtful?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because the arrivals are not happening **at random at a steady rate**: the mean number of them is genuinely different for a lunchtime hour and for a mid-morning one."
+    },
+    {
+     "type": "paragraph",
+     "md": "There is therefore no single $λ$ that describes every hour, and the model can only be rescued by restricting it to a period over which the rate really is steady."
+    }
+   ],
+   "front_md": "A shop's customers arrive far more often at lunchtime than at other times of day. Why is a Poisson model for the number of arrivals per hour doubtful?\n",
+   "back_md": "Because the arrivals are not happening **at random at a steady rate**: the mean number of them is genuinely different for a lunchtime hour and for a mid-morning one.\n\nThere is therefore no single $λ$ that describes every hour, and the model can only be rescued by restricting it to a period over which the rate really is steady.\n",
+   "spec_links": [
+    "spcpt_GPmq8k46YXs6B3kX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Tyx7DQvqSvkBdT5Z",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The Poisson formula is derived from the binomial distribution. What does a Poisson situation not need that a binomial one does?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **fixed number of trials**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A binomial distribution must know $n$ in advance, whereas a Poisson distribution is built from the mean number of occurrences in an interval and never asks how many trials there were."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why the number of emails arriving in an hour can be Poisson but cannot be binomial: there is no list of trials to count successes among."
+    }
+   ],
+   "front_md": "The Poisson formula is derived from the binomial distribution. What does a Poisson situation not need that a binomial one does?\n",
+   "back_md": "A **fixed number of trials**.\n\nA binomial distribution must know $n$ in advance, whereas a Poisson distribution is built from the mean number of occurrences in an interval and never asks how many trials there were.\n\nThat is why the number of emails arriving in an hour can be Poisson but cannot be binomial: there is no list of trials to count successes among.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rMGxtPVP2mVZvWXZ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A football team scores at a mean rate of 2 goals per hour. What distribution models the number of goals in a 90 minute match?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`X \\sim \\text{Po} \\left(3\\right)`, because 90 minutes is 1.5 hours and the mean scales with the length of the interval."
+    },
+    {
+     "type": "paragraph",
+     "md": "$λ$ always has to match the interval the question asks about, so a rate quoted per hour must be converted before anything else is done."
+    },
+    {
+     "type": "paragraph",
+     "md": "A 30 minute period would scale the other way, giving `\\text{Po} \\left(1\\right)`."
+    }
+   ],
+   "front_md": "A football team scores at a mean rate of 2 goals per hour. What distribution models the number of goals in a 90 minute match?\n",
+   "back_md": "`X \\sim \\text{Po} \\left(3\\right)`, because 90 minutes is 1.5 hours and the mean scales with the length of the interval.\n\n$λ$ always has to match the interval the question asks about, so a rate quoted per hour must be converted before anything else is done.\n\nA 30 minute period would scale the other way, giving `\\text{Po} \\left(1\\right)`.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_R9bKmGrBrvxZ67fX",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the table of the Poisson Cumulative Distribution Function in the formula booklet give you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It gives `\\text{P} \\left(X \\le x\\right)`, the probability of $x$ occurrences **or fewer**, to four decimal places."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is indexed by $λ$ alone rather than by a pair of parameters, and only certain values of $λ$ are listed."
+    },
+    {
+     "type": "paragraph",
+     "md": "Everything in it is cumulative, so an individual probability such as `\\text{P} \\left(X = 3\\right)` has to be built as `\\text{P} \\left(X \\le 3\\right) - \\text{P} \\left(X \\le 2\\right)`."
+    }
+   ],
+   "front_md": "What does the table of the Poisson Cumulative Distribution Function in the formula booklet give you?\n",
+   "back_md": "It gives `\\text{P} \\left(X \\le x\\right)`, the probability of $x$ occurrences **or fewer**, to four decimal places.\n\nIt is indexed by $λ$ alone rather than by a pair of parameters, and only certain values of $λ$ are listed.\n\nEverything in it is cumulative, so an individual probability such as `\\text{P} \\left(X = 3\\right)` has to be built as `\\text{P} \\left(X \\le 3\\right) - \\text{P} \\left(X \\le 2\\right)`.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nzg7B7NrkC8SfyD9",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A Poisson cumulative table gives only `\\text{P} \\left(X \\le x\\right)`. Complete the two rules that turn other inequalities into table entries:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X < x\\right) = \\text{P} \\left(X \\le \\_\\_\\_\\_\\_\\_\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(a \\le X \\le b\\right) = \\text{P} \\left(X \\le b\\right) - \\text{P} \\left(X \\le \\_\\_\\_\\_\\_\\_\\right)`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rules are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X < x\\right) = \\text{P} \\left(X \\le x - 1\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(a \\le X \\le b\\right) = \\text{P} \\left(X \\le b\\right) - \\text{P} \\left(X \\le a - 1\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both work because $X$ takes whole-number values only, so stepping down from $x$ to $x - 1$ misses nothing out in between."
+    },
+    {
+     "type": "paragraph",
+     "md": "In the second rule the value $a$ is itself wanted, which is why what you take away has to stop at $a - 1$."
+    }
+   ],
+   "front_md": "A Poisson cumulative table gives only `\\text{P} \\left(X \\le x\\right)`. Complete the two rules that turn other inequalities into table entries:\n\n`\\text{P} \\left(X < x\\right) = \\text{P} \\left(X \\le \\_\\_\\_\\_\\_\\_\\right)`\n\n`\\text{P} \\left(a \\le X \\le b\\right) = \\text{P} \\left(X \\le b\\right) - \\text{P} \\left(X \\le \\_\\_\\_\\_\\_\\_\\right)`\n",
+   "back_md": "The completed rules are:\n\n`\\text{P} \\left(X < x\\right) = \\text{P} \\left(X \\le x - 1\\right)`\n\n`\\text{P} \\left(a \\le X \\le b\\right) = \\text{P} \\left(X \\le b\\right) - \\text{P} \\left(X \\le a - 1\\right)`\n\nBoth work because $X$ takes whole-number values only, so stepping down from $x$ to $x - 1$ misses nothing out in between.\n\nIn the second rule the value $a$ is itself wanted, which is why what you take away has to stop at $a - 1$.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_6XvxdcMJsn6SzHHb",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For `X \\sim \\text{Po} \\left(\\lambda\\right)`, the probability of no occurrences at all is $\\text{e}^{-λ}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Putting $r = 0$ into the formula gives `\\text{P} \\left(X = 0\\right) = \\text{e}^{- \\lambda} \\times \\frac{\\lambda^{0}}{0 !}`, and since $λ^{0} = 1$ and $0 ! = 1$ the whole thing collapses to $\\text{e}^{-λ}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth recognising, because a question about something happening **at least once** is then quickest as $1 - \\text{e}^{-λ}$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor `X \\sim \\text{Po} \\left(\\lambda\\right)`, the probability of no occurrences at all is $\\text{e}^{-λ}$.\n",
+   "back_md": "**True.**\n\nPutting $r = 0$ into the formula gives `\\text{P} \\left(X = 0\\right) = \\text{e}^{- \\lambda} \\times \\frac{\\lambda^{0}}{0 !}`, and since $λ^{0} = 1$ and $0 ! = 1$ the whole thing collapses to $\\text{e}^{-λ}$.\n\nIt is worth recognising, because a question about something happening **at least once** is then quickest as $1 - \\text{e}^{-λ}$.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7NDYSJ65XWdVKVPB",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Your value of $λ$ is not one of those listed in the cumulative table. How do you find `\\text{P} \\left(X \\le 3\\right)`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use the formula on each value in turn and add them up, so `\\text{P} \\left(X \\le 3\\right)` is the sum of `\\text{P} \\left(X = 0\\right)` through to `\\text{P} \\left(X = 3\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Because $\\text{e}^{-λ}$ appears in every one of those terms, it can be taken outside a bracket:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\le 3\\right) = \\text{e}^{- \\lambda} \\left(1 + \\lambda + \\frac{\\lambda^{2}}{2 !} + \\frac{\\lambda^{3}}{3 !}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "That leaves one calculation to work through rather than four."
+    }
+   ],
+   "front_md": "Your value of $λ$ is not one of those listed in the cumulative table. How do you find `\\text{P} \\left(X \\le 3\\right)`?\n",
+   "back_md": "Use the formula on each value in turn and add them up, so `\\text{P} \\left(X \\le 3\\right)` is the sum of `\\text{P} \\left(X = 0\\right)` through to `\\text{P} \\left(X = 3\\right)`.\n\nBecause $\\text{e}^{-λ}$ appears in every one of those terms, it can be taken outside a bracket:\n\n`\\text{P} \\left(X \\le 3\\right) = \\text{e}^{- \\lambda} \\left(1 + \\lambda + \\frac{\\lambda^{2}}{2 !} + \\frac{\\lambda^{3}}{3 !}\\right)`\n\nThat leaves one calculation to work through rather than four.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qC5ZXCNrgHSVfcdr",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_8wz7j8BYgN3jRxHG",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Xiao makes silly mistakes at a mean rate of 2 per page, so `X \\sim \\text{Po} \\left(2\\right)`. How do you write **at most three** mistakes and **more than three** mistakes as table entries?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**At most three** is `\\text{P} \\left(X \\le 3\\right)`, which is read straight off the table, and **more than three** is `1 - \\text{P} \\left(X \\le 3\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two use the same entry because they are exactly complementary: every outcome is either three or fewer, or else more than three."
+    },
+    {
+     "type": "paragraph",
+     "md": "**At least three** would be different again, `1 - \\text{P} \\left(X \\le 2\\right)`, because that phrase includes 3 itself."
+    }
+   ],
+   "front_md": "Xiao makes silly mistakes at a mean rate of 2 per page, so `X \\sim \\text{Po} \\left(2\\right)`. How do you write **at most three** mistakes and **more than three** mistakes as table entries?\n",
+   "back_md": "**At most three** is `\\text{P} \\left(X \\le 3\\right)`, which is read straight off the table, and **more than three** is `1 - \\text{P} \\left(X \\le 3\\right)`.\n\nThe two use the same entry because they are exactly complementary: every outcome is either three or fewer, or else more than three.\n\n**At least three** would be different again, `1 - \\text{P} \\left(X \\le 2\\right)`, because that phrase includes 3 itself.\n",
+   "spec_links": [
+    "spcpt_dchGk3kdpWq5TpJY"
+   ],
+   "flags": []
+  }
+ ]
+}
