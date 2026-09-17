@@ -1,0 +1,1252 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T00:26:48Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/physics/edexcel/19/topic-questions/5-thermodynamics-radiation-oscillations-and-cosmology/thermal-energy-transfer/structured-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Physics",
+  "exam_code": "YPH11",
+  "sme_course_id": "crs_yxgKrc5fkpcYWYvj",
+  "syllabus_version": "2018",
+  "sme_alias_path": "19"
+ },
+ "section": {
+  "slug": "5-thermodynamics-radiation-oscillations-and-cosmology",
+  "name": "5. Thermodynamics, Radiation, Oscillations & Cosmology"
+ },
+ "topic": {
+  "id": "top_GfpVfymvjRchRFVp",
+  "slug": "thermal-energy-transfer",
+  "name": "Thermal Energy Transfer",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "5-2-core-practical-12-calibrating-a-thermistor",
+   "name": "Core Practical 12: Calibrating a Thermistor",
+   "revision_note_id": "rn_4Hd5DtNgF67XmppF"
+  },
+  {
+   "slug": "5-1-specific-heat-capacity-and-latent-heat",
+   "name": "Specific Heat Capacity & Latent Heat",
+   "revision_note_id": "rn_CfjzNYWgD587sVb2"
+  },
+  {
+   "slug": "5-3-core-practical-13-investigating-specific-latent-heat",
+   "name": "Core Practical 13: Investigating Specific Latent Heat",
+   "revision_note_id": "rn_W66Pzp84WWz5nCjb"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Hqh8hFMgHSt7p9yG",
+   "slug": "structured-questions",
+   "order": 1,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 5
+  },
+  {
+   "id": "tqst_zTnTkSrjcGjHJsNW",
+   "slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 2
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/03/29056-p2-q9-heating-curve-aqa-al-physics-mock.png": "001-temperature-time-heating-curve-with-time-in-seco.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/28359-paper-3-latent-heat-apparatus.png": "002-a-beaker-on-a-digital-balance-containing-alcohol.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/49289-power-mass-graph-line-best-fit.png": "003-scatter-plot-with-mass-in-grams-on-the-x-axis-an.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/15436-power-mass-graph-line-best-fit-ma.png": "004-two-points-identified-on-the-line-0-7-40-and-7-5.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/28844-paper-2-wheel-damping.png": "005-a-car-suspension-showing-a-vertical-spring-and-f.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/143-paper-2-displacement-graph-undamped.png": "006-graph-with-axes-of-displacement-against-time-wit.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/2040-paper-2-displacement-graph-undamped-2.png": "007-graph-of-displacement-against-time-showing-a-smo.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/25181-paper-2-displacement-graph-undamped-solution.png": "008-on-the-graph-of-displacement-against-time-a-blac.png",
+   "https://cdn.savemyexams.com/uploads/2026/07/35076-paper-2-fluid-damper.png": "009-a-vertical-hydraulic-cylinder-filled-with-oil-an.png",
+   "https://cdn.savemyexams.com/uploads/2022/12/q13-wph15-05-june-2021-edexcel-int-as-and-a-level-phy.png": "010-q13-wph15-05-june-2021-edexcel-int-as-and-a-leve.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_D4HrtrNf8FZ2N8HF",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_Js5yJF8DyyjJK38J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2022 Jan",
+      "number": "WPH15/01",
+      "question_number": 12,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B2Zprr2kyNdR4d9w",
+      "spcpt_4NkvXpp8Tmxhs4Hn"
+     ],
+     "part_tier": null,
+     "problem_md": "Cocoa powder, milk and hot water are mixed together to produce a ‘hot chocolate’ drink. The mass of the drink is 275 g, and its initial temperature is 71.5 °C.\n\nIce at 0.0 °C is added to the drink to reduce its temperature. Research indicates that the maximum serving temperature of any hot drink should be 58.0 °C.\n\nDeduce whether 4.0 g of ice would be enough to bring the temperature below 58.0 °C.\n\nspecific latent heat of ice = 3.34 × 10<sup>5</sup> J kg<sup>–1</sup>\n\nspecific heat capacity of ‘hot chocolate’ = 3750 J kg<sup>–1</sup> °C<sup>–1</sup> \\\n\nspecific heat capacity of water = 4190 J kg<sup>–1</sup> °C<sup>–1</sup>",
+     "solution_md": "Deduce whether 4.0 g of ice would be enough to bring the temperature below 58.0 °C:\n\nList the known quantities:\n\n- Mass of hot liquid, $m_{d}$ = 275 g = 275 × 10<sup>−3</sup> kg\n- Initial temperature of drink, $T_{1}$ = 71.5 °C\n- Initial temperature of ice, $T_{i}$ = 0.0 °C\n- Final temperature of drink, $T_{2}$ = 58.0 °C\n- Specific latent heat of ice, $L_{i}$ = 3.34 × 10<sup>5</sup> J kg<sup>–1</sup>\n- Specific heat capacity of ‘hot chocolate’, $c_{h}$ = 3750 J kg<sup>–1</sup> °C<sup>–1</sup>\n- Specific heat capacity of water, $c_{w}$ = 4190 J kg<sup>–1</sup> °C<sup>–1</sup>\n\nConsider the energy transfer taking place when the ice is added to the hot liquid:\n\n- Energy transferred from hot liquid = energy transferred to ice + energy transferred to cold water **[1 mark]**\n\nCalculate the energy the hot liquid must transfer to cool to 58 °C:\n\n- `E space equals space m c subscript h increment theta space equals space open parentheses 275 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 3750 close parentheses space cross times space open parentheses 71.5 space minus space 58 close parentheses space equals space 13922 space straight J`** [1 mark]**\n\nCalculate the energy transferred to melt the ice to cold water:\n\n- `E subscript i space equals space m L subscript i space equals space m space cross times space open parentheses 3.34 space cross times space 10 to the power of 5 close parentheses` **[1 mark]**\n\nCalculate the energy transferred to the cold water as it heats to 58 °C:\n\n- `E subscript w space equals space m c subscript w increment theta space equals space m space cross times space open parentheses 4190 close parentheses space cross times space open parentheses 58 space minus space 0 close parentheses space equals space 243020 m`\n\nRearrange the expression for energy transfer to calculate the mass of ice, $m$ required to cool the drink to 58 °C:\n\n- `13922 space equals space open parentheses 3.34 space cross times space 10 to the power of 5 close parentheses m space space plus space 243030 m`\n- $13922=577030m$\n- $m=\\frac{13922}{577030}=0.0241\\mathrm{kg}=24g$ **[1 mark]**\n\nWrite a conclusion:\n\n- From the calculations, 24 g of ice is needed to bring the temperature of the drink below the ideal serving temperature\n- So, 4 g of ice is not enough; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *For the temperature of an object to change **thermal energy** must be transferred*\n- *During a **change of state**, energy is transferred through **specific latent heat*\n- *In this calculation, it is important to realise that, if the hot drink reaches a temperature of 58 °C, so too will the water from the ice*",
+     "equations": [
+      {
+       "latex": "m_{d}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>m</mi><mi>d</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m subscript d"
+      },
+      {
+       "latex": "T_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>T</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript 1"
+      },
+      {
+       "latex": "T_{i}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>T</mi><mi>i</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript i"
+      },
+      {
+       "latex": "T_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>T</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript 2"
+      },
+      {
+       "latex": "L_{i}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mi>i</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript i"
+      },
+      {
+       "latex": "c_{h}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>c</mi><mi>h</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c subscript h"
+      },
+      {
+       "latex": "c_{w}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>c</mi><mi>w</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c subscript w"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "13922=577030m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13922</mn><mo> </mo><mo>=</mo><mo> </mo><mn>577030</mn><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "13922 space equals space 577030 m"
+      },
+      {
+       "latex": "m=\\frac{13922}{577030}=0.0241\\mathrm{kg}=24g",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>13922</mn><mn>577030</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0241</mn><mo> </mo><mi>kg</mi><mo> </mo><mo>=</mo><mo> </mo><mn>24</mn><mo> </mo><mi mathvariant=\"normal\">g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m space equals space 13922 over 577030 space equals space 0.0241 space kg space equals space 24 space straight g"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8dqrZvXDGcRgv7w5",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Z5c9wRzgXNhwwspN",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Oct/Nov 2021",
+      "number": "WPH15/01",
+      "question_number": 12,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B2Zprr2kyNdR4d9w",
+      "spcpt_4NkvXpp8Tmxhs4Hn"
+     ],
+     "part_tier": null,
+     "problem_md": "A kettle was used to heat 855 g of water to boiling point. The initial temperature of the water was 21.5 °C and it took 115 s to heat the water to 100 °C.\n\nThe kettle is left switched on for 175 s after the water has reached 100 °C.\n\nCalculate the mass of water that was boiled away.\n\nspecific heat capacity of water = 4190 J kg<sup>−1 </sup>K<sup>−1</sup>\n\nspecific latent heat of vaporisation of water = 2.26 × 10<sup>6</sup> J kg<sup>−1</sup>\n\nMass of water that was boiled away = .........................................",
+     "solution_md": "Calculate the mass of water that was boiled away\n\nList the known quantities:\n\n- specific heat capacity of water, *c* = 4190 J kg<sup>−1 </sup>K<sup>−1</sup>\n- specific latent heat of vaporisation of water, *L* = 2.26 × 10<sup>6</sup> J kg<sup>−1</sup>\n- Initial mass of the water, *m*<sub>i</sub> = 855 g = 855 × 10<sup>–3</sup> kg\n- Initial temperature of the water, *θ*<sub>i</sub> = 21.5 °C\n- Time taken for the water to heat, *t*<sub> 1</sub> = 115 s\n- Final temperature of the water, *θ*<sub>f</sub> = 100 °C\n- Time kettle is switched on after water is 100 °C, *t*<sub>2</sub> = 175 s\n\nCalculate the energy transferred in the boiling of the water, Δ*E*:\n\n- `increment E space equals space m c increment theta space equals space m c open parentheses theta subscript f space minus space theta subscript i close parentheses`\n- `increment E space equals space open parentheses 855 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 4190 space cross times space open parentheses 100 space minus space 21.5 close parentheses space equals space 281.22 space cross times space 10 cubed space straight J` **[1 mark]**\n\nCalculate the power, *P*:\n\n- $P=\\frac{\\DeltaE}{\\Deltat}$\n- $P=\\frac{281.22\\times10^{3}}{115}=2.445\\times10^{3}W$ **[1 mark]**\n\nCalculate the mass *m* from the specific latent heat:\n\n- $\\DeltaE=mL\\Rightarrowm=\\frac{\\DeltaE}{l}$\n- $P=\\frac{\\DeltaE}{\\Deltat}\\Rightarrow\\DeltaE=P\\Deltat$\n- `m space equals space fraction numerator increment E space cross times space t space over denominator L end fraction space equals space space fraction numerator open parentheses 2.445 space cross times space 10 cubed close parentheses space space cross times space 175 over denominator 2.26 space cross times space 10 to the power of 6 end fraction space` **[1 mark]**\n- $m=0.189\\mathrm{kg}$ **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *Consider the two scenarios given in this question:*\n\n  - *The water is heated from an initial temperature until it is boiling (we use the specific heat capacity equation)*\n  - *The kettle is left switched on which boils the water away (we use the specific latent heat equation)*\n- *The specific capacity equation is used when there is a change in **temperature*\n- *The specific latent heat equation is used when there is a change in **phase** / **state*\n- *We used the power equation because the only information we were given for the boiling water was the time it was boiled for*\n- *However, the energy given to boil that water off is **equal** to the energy transferred from the rise in temperature*\n\n  - *This is because energy **must be conserved*\n- *Practice lots of questions where there is a change of state as well as a change of temperature, these are the harder thermal energy transfer equations and come up quite a lot!*",
+     "equations": [
+      {
+       "latex": "P=\\frac{\\DeltaE}{\\Deltat}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>E</mi><mo> </mo></mrow><mrow><mo>∆</mo><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space fraction numerator increment E space over denominator increment t end fraction"
+      },
+      {
+       "latex": "P=\\frac{281.22\\times10^{3}}{115}=2.445\\times10^{3}W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mn>281</mn><mo>.</mo><mn>22</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>3</mn></msup><mo> </mo></mrow><mn>115</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>445</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>3</mn></msup><mo> </mo><mi mathvariant=\"normal\">W</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space fraction numerator 281.22 space cross times space 10 cubed space over denominator 115 end fraction space equals space 2.445 space cross times space 10 cubed space straight W"
+      },
+      {
+       "latex": "\\DeltaE=mL\\Rightarrowm=\\frac{\\DeltaE}{l}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mi>m</mi><mi>L</mi><mo> </mo><mo> </mo><mo> </mo><mo>⇒</mo><mo> </mo><mo> </mo><mo> </mo><mo> </mo><mi>m</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>E</mi><mo> </mo></mrow><mi>l</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment E space equals space m L space space space rightwards double arrow space space space space m space equals space fraction numerator increment E space over denominator l end fraction"
+      },
+      {
+       "latex": "P=\\frac{\\DeltaE}{\\Deltat}\\Rightarrow\\DeltaE=P\\Deltat",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>E</mi><mo> </mo></mrow><mrow><mo>∆</mo><mi>t</mi></mrow></mfrac><mo> </mo><mo> </mo><mo> </mo><mo>⇒</mo><mo> </mo><mo> </mo><mo> </mo><mo>∆</mo><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mi>P</mi><mo>∆</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space fraction numerator increment E space over denominator increment t end fraction space space space rightwards double arrow space space space increment E space equals space P increment t"
+      },
+      {
+       "latex": "m=0.189\\mathrm{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo> </mo><mo>=</mo><mo> </mo><mo> </mo><mn>0</mn><mo>.</mo><mn>189</mn><mo> </mo><mi>kg</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m space equals space space 0.189 space kg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_sS4wx6JZr6nwg6nV",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_J3KNyXbvV3YV26jV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "June 2021",
+      "number": "WPH15/01",
+      "question_number": 13,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B2Zprr2kyNdR4d9w",
+      "spcpt_4NkvXpp8Tmxhs4Hn"
+     ],
+     "part_tier": null,
+     "problem_md": "In the book Charlie and the Chocolate Factory, a palace is made entirely from chocolate.\n\nSoon after it was made the palace melted, due to energy transfer from the Sun.\n\n![q13-wph15-05-june-2021-edexcel-int-as-and-a-level-phy](assets/010-q13-wph15-05-june-2021-edexcel-int-as-and-a-leve.png)\n\nThe total volume of chocolate used for the palace was 1250 m<sup>3</sup>. The initial temperature of the chocolate palace was 28.5°C. Chocolate melts at a temperature of 36.0°C.\n\nThe book states that the palace melted completely in less than a day.\n\nDeduce whether this statement could be correct.\n\nrate of energy transfer to the palace = 7.5 × 10<sup>5 </sup>W\n\ndensity of chocolate = 1325 kg m<sup>−3</sup>\n\nspecific latent heat of chocolate = 4.5 × 10<sup>4</sup> J kg<sup>−1</sup>\n\nspecific heat capacity of chocolate is 1.30 × 10<sup>3</sup> J kg<sup>−1 </sup>K<sup>−1</sup>",
+     "solution_md": "The book states that the palace melted completely in less than a day. Deduce whether this statement could be correct:\n\nList the known quantities:\n\n- Volume of chocolate, $V$ = 1250 m<sup>3</sup>\n- Initial temperature of chocolate, $T_{i}$ = 28.5 °C\n- Melting point of chocolate, $T_{m}$ = 36.0 °C\n- Rate of energy transfer to the palace, $P$ = 7.5 × 10<sup>5 </sup>W\n- Density of chocolate, $ρ$ = 1325 kg m<sup>−3</sup>\n- Specific latent heat of chocolate, $L$ = 4.5 × 10<sup>4</sup> J kg<sup>−1</sup>\n- Specific heat capacity of chocolate, $c$ = 1.30 × 10<sup>3</sup> J kg<sup>−1 </sup>K<sup>−1</sup>\n\nDetermine the mass of chocolate in the palace:\n\n- $ρ=\\frac{m}{V}$\n- $m=ρV=1325\\times1250=1.66\\times10^{6}\\mathrm{kg}$ **[1 mark]**\n\nDetermine the energy required to heat the palace to 36.0 °C:\n\n- `straight capital delta E space equals space m c straight capital delta theta space equals space open parentheses 1.66 space cross times space 10 to the power of 6 close parentheses space cross times space open parentheses 1.30 space cross times space 10 cubed close parentheses space cross times space open parentheses 36.0 space minus space 28.5 close parentheses` **[1 mark]**\n- $ΔE=1.62\\times10^{10}J$\n\nDetermine the energy required to melt the palace:\n\n- `straight capital delta E space equals space L straight capital delta m space equals space open parentheses 4.5 space cross times space 10 to the power of 4 close parentheses space cross times space open parentheses 1.66 space cross times space 10 to the power of 6 close parentheses` **[1 mark]**\n- $ΔE=7.47\\times10^{10}J$\n\nDetermine the total energy required to heat and melt the palace:\n\n- `E subscript t o t a l end subscript space equals space open parentheses 1.62 space cross times space 10 to the power of 10 close parentheses space plus space open parentheses 7.47 space cross times space 10 to the power of 10 close parentheses space equals space 9.09 space cross times space 10 to the power of 10 space straight J`\n\nDetermine the energy being transferred to the palace over a day:\n\n- $P=\\frac{E}{t}$\n- `E space equals space P space cross times space t space equals space open parentheses 7.5 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 24 space cross times space 60 space cross times space 60 close parentheses` **[1 mark]**\n- $E=6.48\\times10^{10}J$ **[1 mark]**\n- 9.09 × 10<sup>10</sup> J needed <u>therefore</u> the palace would not melt completely; **[1 mark]**\n\n**[Total: 6 marks]**\n\n- *For the last stage, you may also calculate the **time** needed to completely melt the palace (33.7 hours) and stated that this is longer than a day*\n\n  - *The final mark needs to be a conclusion based off a **value** - no marks will be awarded for answer simply stating \"no, it won't melt\"!*",
+     "equations": [
+      {
+       "latex": "V",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>V</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "V"
+      },
+      {
+       "latex": "T_{i}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>T</mi><mi>i</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript i"
+      },
+      {
+       "latex": "T_{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>T</mi><mi>m</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T subscript m"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "ρ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>ρ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rho"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>c</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c"
+      },
+      {
+       "latex": "ρ=\\frac{m}{V}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>ρ</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>m</mi><mi>V</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rho space equals space m over V"
+      },
+      {
+       "latex": "m=ρV=1325\\times1250=1.66\\times10^{6}\\mathrm{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo> </mo><mo>=</mo><mo> </mo><mi>ρ</mi><mi>V</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1325</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1250</mn><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>66</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>6</mn></msup><mo> </mo><mi>kg</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "m space equals space rho V space equals space 1325 space cross times space 1250 space equals space 1.66 space cross times space 10 to the power of 6 space kg"
+      },
+      {
+       "latex": "ΔE=1.62\\times10^{10}J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>62</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>10</mn></msup><mo> </mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta E space equals space 1.62 space cross times space 10 to the power of 10 space straight J"
+      },
+      {
+       "latex": "ΔE=7.47\\times10^{10}J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mn>7</mn><mo>.</mo><mn>47</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>10</mn></msup><mo> </mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight capital delta E space equals space 7.47 space cross times space 10 to the power of 10 space straight J"
+      },
+      {
+       "latex": "P=\\frac{E}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>E</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space E over t"
+      },
+      {
+       "latex": "E=6.48\\times10^{10}J",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mn>6</mn><mo>.</mo><mn>48</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mn>10</mn><mn>10</mn></msup><mo> </mo><mi mathvariant=\"normal\">J</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E space equals space 6.48 space cross times space 10 to the power of 10 space straight J"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mVNHM5tt3jmvDNhB",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_tdvkMGPwCK5nzT8k",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yVqFq8DBF8Gf52db",
+      "spcpt_vdcXFJQm43S7csBn"
+     ],
+     "part_tier": null,
+     "problem_md": "A car suspension system includes a spring and a fluid damper attached to each wheel, as shown.\n\n![A car suspension showing a vertical spring and fluid damper assembly mounted beside a single wheel resting on the road surface](assets/005-a-car-suspension-showing-a-vertical-spring-and-f.png)\n\nWhen the car is driven over a bump in the road, it oscillates vertically with simple harmonic motion. On a long stretch of road with equally spaced bumps, the amplitude of the oscillations increases at a particular speed.\n\nExplain why the amplitude of vertical oscillations becomes very large at a particular speed.",
+     "solution_md": "> **[mark-scheme]**\n> As the car drives over the bumps at a particular speed:\n> \n> - The car is driven / forced to oscillate at its natural frequency\n> **OR**\n> (Resonance occurs because) the driving frequency is the same as the natural frequency (of the car) **[1 mark]**\n> \n> - There is a maximum transfer of energy (to the car) **[1 mark]**\n> \n> For the first mark, accept any equivalent statement, e.g. the bumps provide a driving frequency equal to the natural frequency of the car.\n\n> **[exam-tip]**\n> Many students simply state that \"resonance occurs\" without explaining the conditions required. Make sure you link the driving frequency (caused by regularly spaced bumps at a particular speed) to the natural frequency of the suspension system. The key idea is that at a specific speed, the frequency at which the car hits bumps matches the natural frequency of the mass-spring system, causing resonance and a large amplitude of oscillation."
+    },
+    {
+     "id": "qstnprt_yKDCyRnyVjfsHrHj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_x2y95mhPWDFVYMQJ",
+      "spcpt_rGp523545KcHTjhP"
+     ],
+     "part_tier": null,
+     "problem_md": "When a person of mass $65\\text{kg}$ steps into the car, the vertical height of the car above the road decreases by $0.8\\text{cm}$.\n\nThe greatest amplitude of oscillation occurs when the bumps are spaced $12.0\\text{m}$ apart.\n\nCalculate the speed at which the car is driven along the road. You should consider the car as a mass‑spring system.\n\nmass of empty car = $1100\\text{kg}$",
+     "solution_md": "To calculate the speed at which the car is driven along the road:\n\n- List the known quantities:\n\n  - Mass of person, $m_{1}=65\\text{kg}$\n  - Mass of empty car, $m_{2}=1100\\text{kg}$\n  - Compression of springs, $\\Deltax=0.8\\text{cm}=0.008\\text{m}$\n  - Distance between bumps, $s=12.0\\text{m}$\n  - Acceleration due to gravity, $g=9.81\\text{m s}^{-2}$\n- Calculate the spring constant from the person stepping into the car:\n\n  - The compression of the springs is due to the person's weight\n  - The force on the 4 springs is shared between them, so this gives the effective spring constant of the system\n\n$F=k\\Deltax=mg$\n\n$k=\\frac{mg}{\\Deltax}$\n\n$k=\\frac{65\\times9.81}{0.008}$\n\n$k=79706\\text{N m}^{-1}$ **[1 mark]**\n\n- Calculate the period of oscillation when the system is driven at its natural frequency:\n\n$T=2π\\sqrt{\\frac{m}{k}}$\n\n$T=2π\\sqrt{\\frac{1165}{79706}}$\n\n$T=0.7596=0.760\\text{s}$ **[1 mark]**\n\n- At resonance, the driving frequency equals the natural frequency, so the time between bumps equals the period:\n\n$s=v\\timest$\n\n$v=\\frac{s}{T}$\n\n$v=\\frac{12.0}{0.760}$ **[1 mark]**\n\n$v=$ $15.8\\text{m s}^{-1}$ **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for equating $F=k\\Deltax$ and $F=mg$ with $m=65\\text{kg}$ to calculate $k$\n> \n> 1 mark for use of $T=2π\\sqrt{m/k}$ with $m=1165\\text{kg}$\n> \n> 1 mark for use of $v=s/T$\n> \n> 1 mark for a final answer of $16\\text{m s}^{-1}$\n> \n> - Accept answers given to 2 or 3 s.f.\n> \n> Full marks can be awarded for a correct final answer with no working shown.\n\n> **[exam-tip]**\n> Be careful with unit conversions: the compression is given in cm, so convert to metres before calculating the spring constant. Also note that the mass used to find the spring constant (the mass of the person, $65\\text{kg}$) is different from the mass used to find the natural frequency of the system (the total mass of the car and the person, $1165\\text{kg}$). The person must be in the car to drive it over the bumps, so this is why the total mass is required, and not the mass of the car only ($1100\\text{kg}$).",
+     "equations": [
+      {
+       "latex": "65\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>65</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "65 text  kg end text"
+      },
+      {
+       "latex": "0.8\\text{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>8</mn><mtext>&#160;cm</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.8 text  cm end text"
+      },
+      {
+       "latex": "12.0\\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12</mn><mo>.</mo><mn>0</mn><mtext>&#160;m</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "12.0 text  m end text"
+      },
+      {
+       "latex": "1100\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1100</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1100 text  kg end text"
+      },
+      {
+       "latex": "m_{1}=65\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>65</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m subscript 1 equals 65 text  kg end text"
+      },
+      {
+       "latex": "m_{2}=1100\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>1100</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m subscript 2 equals 1100 text  kg end text"
+      },
+      {
+       "latex": "\\Deltax=0.8\\text{cm}=0.008\\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn><mtext>&#160;cm</mtext><mo>=</mo><mn>0</mn><mo>.</mo><mn>008</mn><mtext>&#160;m</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment x equals 0.8 text  cm end text equals 0.008 text  m end text"
+      },
+      {
+       "latex": "s=12.0\\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><mn>12</mn><mo>.</mo><mn>0</mn><mtext>&#160;m</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "s equals 12.0 text  m end text"
+      },
+      {
+       "latex": "g=9.81\\text{m s}^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>g</mi><mo>=</mo><mn>9</mn><mo>.</mo><mn>81</mn><msup><mtext>&#160;m&#160;s</mtext><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "g equals 9.81 text  m s end text to the power of negative 2 end exponent"
+      },
+      {
+       "latex": "F=k\\Deltax=mg",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>k</mi><mo>&#8710;</mo><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>m</mi><mi>g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F space equals space k increment x space equals space m g"
+      },
+      {
+       "latex": "k=\\frac{mg}{\\Deltax}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>m</mi><mi>g</mi></mrow><mrow><mo>&#8710;</mo><mi>x</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k space equals space fraction numerator m g over denominator increment x end fraction"
+      },
+      {
+       "latex": "k=\\frac{65\\times9.81}{0.008}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>65</mn><mo>&#215;</mo><mn>9</mn><mo>.</mo><mn>81</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>008</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k space equals space fraction numerator 65 cross times 9.81 over denominator 0.008 end fraction"
+      },
+      {
+       "latex": "k=79706\\text{N m}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>79</mn><mo>&#8202;</mo><mn>706</mn><msup><mtext>&#160;N&#160;m</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k space equals space 79   706 text  N m end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "T=2π\\sqrt{\\frac{m}{k}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><msqrt><mfrac><mi>m</mi><mi>k</mi></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space equals space 2 straight pi square root of m over k end root"
+      },
+      {
+       "latex": "T=2π\\sqrt{\\frac{1165}{79706}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><msqrt><mfrac><mn>1165</mn><mrow><mn>79</mn><mo>&#8202;</mo><mn>706</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space equals space 2 straight pi square root of fraction numerator 1165 over denominator 79   706 end fraction end root"
+      },
+      {
+       "latex": "T=0.7596=0.760\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>7596</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>760</mn><mtext>&#160;s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space equals space 0.7596 space equals space 0.760 text  s end text"
+      },
+      {
+       "latex": "s=v\\timest",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>v</mi><mo>&#215;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "s space equals space v cross times t"
+      },
+      {
+       "latex": "v=\\frac{s}{T}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>s</mi><mi>T</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space s over T"
+      },
+      {
+       "latex": "v=\\frac{12.0}{0.760}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>760</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space fraction numerator 12.0 over denominator 0.760 end fraction"
+      },
+      {
+       "latex": "v=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals"
+      },
+      {
+       "latex": "15.8\\text{m s}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>.</mo><mn>8</mn><msup><mtext>&#160;m&#160;s</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "15.8 text  m s end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "F=k\\Deltax",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>=</mo><mi>k</mi><mo>&#8710;</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F equals k increment x"
+      },
+      {
+       "latex": "F=mg",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>=</mo><mi>m</mi><mi>g</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F equals m g"
+      },
+      {
+       "latex": "m=65\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>=</mo><mn>65</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m equals 65 text  kg end text"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "T=2π\\sqrt{m/k}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi><msqrt><mi>m</mi><mo>/</mo><mi>k</mi></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T equals 2 straight pi square root of m divided by k end root"
+      },
+      {
+       "latex": "m=1165\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>=</mo><mn>1165</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m equals 1165 text  kg end text"
+      },
+      {
+       "latex": "v=s/T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mi>s</mi><mo>/</mo><mi>T</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals s divided by T"
+      },
+      {
+       "latex": "16\\text{m s}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>16</mn><msup><mtext>&#160;m&#160;s</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "16 text  m s end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "65\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>65</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "65 text  kg end text"
+      },
+      {
+       "latex": "1165\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1165</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1165 text  kg end text"
+      },
+      {
+       "latex": "1100\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1100</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1100 text  kg end text"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_SpXyd4KNHvr5N5HW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vdcXFJQm43S7csBn"
+     ],
+     "part_tier": null,
+     "problem_md": "The oscillations are heavily damped by the fluid dampers on each wheel.\n\nThe graph shows how the vertical displacement of the car varies with time for an undamped suspension system after it passes over a bump in the road.\n\n![Graph with axes of displacement against time, with a trace of the original sinusoidal wave](assets/006-graph-with-axes-of-displacement-against-time-wit.png)\n\nSketch, on the axes below, a graph to show how the vertical displacement of the car varies with time for the damped system over the same time interval.\n\n![Graph of displacement against time showing a smooth sinusoidal wave oscillating above and below a horizontal zero line, representing simple harmonic motion](assets/007-graph-of-displacement-against-time-showing-a-smo.png)",
+     "solution_md": "Sketch a displacement-time graph for a heavily damped suspension system:\n\n![On the graph of displacement against time, a black curve with displacement gradually decreasing towards zero over time is drawn over the sinusoidal trace.](assets/008-on-the-graph-of-displacement-against-time-a-blac.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for starting the graph at the same positive displacement\n> \n> 1 mark for showing amplitude decreasing to zero without oscillating\n\n> **[exam-tip]**\n> Car suspensions are deliberately damped close to the critical value so that a bump produces a single controlled return to equilibrium rather than a string of oscillations."
+    },
+    {
+     "id": "qstnprt_Dcn5VfKknmm6mc87",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vdcXFJQm43S7csBn",
+      "spcpt_C4D65t6bSjpKqytm"
+     ],
+     "part_tier": null,
+     "problem_md": "The fluid damper consists of a piston moving within a cylinder filled with oil. The oil has a high viscosity.\n\n![A vertical hydraulic cylinder filled with oil and containing a piston, with an upward arrow marked “to car”.](assets/009-a-vertical-hydraulic-cylinder-filled-with-oil-an.png)\n\nExplain how the fluid dampers produce heavy damping.",
+     "solution_md": "> **[mark-scheme]**\n> - (Due to its high viscosity) the oil exerts a large resistive force on the piston **[1 mark]**\n> - A large amount of work is done (when the piston moves) **[1 mark]**\n> - (Heavy damping so) kinetic energy of piston is quickly dissipated to the thermal / internal energy of oil (so the energy of oscillation decreases) **[1 mark]**\n> \n> For the first mark, allow reference to $F=6πηrv$\n> \n> For the second mark, allow reference to $\\DeltaW=F\\Deltas$\n\n> **[exam-tip]**\n> Make sure you describe the physical process: the piston pushes through the oil, the oil resists the motion, and energy is dissipated. Many students simply state that \"the damper reduces oscillations\" without explaining the mechanism — this will not gain full marks. Think about the energy transfer: kinetic energy of the moving piston is converted to thermal energy in the oil due to the viscous drag. Also, be specific about why the damping is \"heavy\" — the high viscosity of the oil means the resistive force is large, so the amplitude decreases rapidly.",
+     "equations": [
+      {
+       "latex": "F=6πηrv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>=</mo><mn>6</mn><mi mathvariant=\"normal\">&#960;</mi><mi>&#951;</mi><mi>r</mi><mi>v</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "F equals 6 straight pi eta r v"
+      },
+      {
+       "latex": "\\DeltaW=F\\Deltas",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>W</mi><mo>=</mo><mi>F</mi><mo>&#8710;</mo><mi>s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment W equals F increment s"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nCH3BXbgzyf9wvnT",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "assess",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zpbXpStsNR38WXcy",
+      "spcpt_gs9Nj7GCZHZccWyp",
+      "spcpt_4NkvXpp8Tmxhs4Hn"
+     ],
+     "part_tier": null,
+     "problem_md": "Each fluid damper contains $0.25\\text{kg}$ of oil. Every time the car passes over a bump, $90\\text{J}$ of mechanical energy is transferred to the oil in each damper.\n\nThe car is driven along the bumpy road for $15\\text{minutes}$. Heat is lost from the damper to the surrounding air at a steady rate of $80\\text{W}$ during operation.\n\nThe damper oil has a safe operating limit of $130\\text{°C}$.\n\nAssess whether the damper oil exceeds its safe operating limit during the drive.\n\nspecific heat capacity of damper oil = $1800\\text{J kg}^{-1}\\text{K}^{-1}$\n\ntemperature of surroundings = $20\\text{°C}$",
+     "solution_md": "To assess whether the damper oil exceeds its safe operating limit:\n\n- List the known quantities:\n\n  - Time between bumps, $T=0.7596\\text{s}$ (from part b)\n  - Travel time, $t=15\\text{min}=15\\times60=900\\text{s}$\n  - Mechanical energy transferred to oil, $E_{\\text{in}}=90\\text{J}$ per bump\n  - Rate of heat dissipation, $P_{\\text{out}}=80\\text{W}$\n  - Mass of oil, $m=0.25\\text{kg}$\n  - Specific heat capacity of oil, $c_{\\text{oil}}=1800\\text{J kg}^{-1}\\text{K}^{-1}$\n  - Initial temperature = $20\\text{°C}$\n  - Maximum temperature = $130\\text{°C}$\n\n- Determine the total energy transferred to the oil:\n\nnumber of bumps $=\\frac{t}{T}=\\frac{900}{0.7596}=1185$\n\n$E_{\\text{in}}=90\\times1185=1.07\\times10^{5}\\text{J}$ **[1 mark]**\n\n- Determine the total energy transferred to the surroundings:\n\n$E_{\\text{out}}=P_{\\text{out}}\\timest$\n\n$E_{\\text{out}}=80\\times900=7.2\\times10^{4}\\text{J}$ **[1 mark]**\n\n- Calculate the energy retained in the oil as heat:\n\n$\\DeltaE=E_{\\text{in}}-E_{\\text{out}}$\n\n$\\DeltaE=1.07\\times10^{5}-7.2\\times10^{4}$\n\n$\\DeltaE=3.5\\times10^{4}\\text{J}$ **[1 mark]**\n\n- Calculate the corresponding temperature rise of the oil:\n\n$\\DeltaE=mc\\Deltaθ$\n\n$\\Deltaθ=\\frac{\\DeltaE}{mc_{\\text{oil}}}$\n\n$\\Deltaθ=\\frac{3.5\\times10^{4}}{0.25\\times1800}=78\\text{°C}$ **[1 mark]**\n\nfinal temperature $=78+20=98\\text{°C}$\n\n- Write a concluding statement:\n\nThe final temperature of the oil is $98\\text{°C}$, which is less than $130\\text{°C}$, so it stays within the safe operating limit during the drive **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for calculating the total energy transferred to oil ($1.1\\times10^{5}\\text{J}$)\n> \n> 1 mark for calculating the total energy dissipated to the surroundings ($7.2\\times10^{4}\\text{J}$)\n> \n> 1 mark for calculating the net energy retained by the oil ($3.5\\times10^{4}\\text{J}$)\n> \n> 1 mark for use of $\\DeltaE=mc\\Deltaθ$ to calculate the temperature rise ($78\\text{°C}$)\n> \n> 1 mark for explicit comparison of the calculated final temperature with $130\\text{°C}$ and a clear conclusion\n> \n> - Expected conclusion: the temperature does not exceed $130\\text{°C}$\n\n> **[exam-tip]**\n> For synoptic SHM-thermodynamics questions, work through the energy balance in stages: (1) identify the source of energy (here, dissipated KE), (2) account for losses to the surroundings, (3) apply $\\DeltaE=mc\\Deltaθ$ to the remaining energy. The calculation here is conservative, as in practice, some energy also heats the metal damper body, slightly reducing the actual oil temperature rise. Even with this caveat, the final temperature is safely below the $130\\text{°C}$ limit.",
+     "equations": [
+      {
+       "latex": "0.25\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>25</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.25 text  kg end text"
+      },
+      {
+       "latex": "90\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>90</mn><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "90 text  J end text"
+      },
+      {
+       "latex": "15\\text{minutes}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mtext>&#160;minutes</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "15 text  minutes end text"
+      },
+      {
+       "latex": "80\\text{W}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>80</mn><mtext>&#160;W</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "80 text  W end text"
+      },
+      {
+       "latex": "130\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>130</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "130 text  °C end text"
+      },
+      {
+       "latex": "1800\\text{J kg}^{-1}\\text{K}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1800</mn><msup><mtext>&#160;J kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mtext>&#160;K</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1800 text  J kg end text to the power of negative 1 end exponent text  K end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "20\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "20 text  °C end text"
+      },
+      {
+       "latex": "T=0.7596\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>7596</mn><mtext>&#160;s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T equals 0.7596 text  s end text"
+      },
+      {
+       "latex": "t=15\\text{min}=15\\times60=900\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>15</mn><mtext>&#160;min</mtext><mo>=</mo><mn>15</mn><mo>&#215;</mo><mn>60</mn><mo>=</mo><mn>900</mn><mtext>&#160;s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 15 text  min end text equals 15 cross times 60 equals 900 text  s end text"
+      },
+      {
+       "latex": "E_{\\text{in}}=90\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mtext>in</mtext></msub><mo>=</mo><mn>90</mn><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E subscript text in end text end subscript equals 90 text  J end text"
+      },
+      {
+       "latex": "P_{\\text{out}}=80\\text{W}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mtext>out</mtext></msub><mo>=</mo><mn>80</mn><mtext>&#160;W</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P subscript text out end text end subscript equals 80 text  W end text"
+      },
+      {
+       "latex": "m=0.25\\text{kg}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>25</mn><mtext>&#160;kg</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m equals 0.25 text  kg end text"
+      },
+      {
+       "latex": "c_{\\text{oil}}=1800\\text{J kg}^{-1}\\text{K}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>c</mi><mtext>oil</mtext></msub><mo>=</mo><mn>1800</mn><msup><mtext>&#160;J kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup><msup><mtext>&#160;K</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "c subscript text oil end text end subscript equals 1800 text  J kg end text to the power of negative 1 end exponent text  K end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "20\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "20 text  °C end text"
+      },
+      {
+       "latex": "130\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>130</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "130 text  °C end text"
+      },
+      {
+       "latex": "=\\frac{t}{T}=\\frac{900}{0.7596}=1185",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mo>&#160;</mo><mfrac><mi>t</mi><mi>T</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>900</mn><mrow><mn>0</mn><mo>.</mo><mn>7596</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1185</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "equals space t over T space equals space fraction numerator 900 over denominator 0.7596 end fraction space equals space 1185"
+      },
+      {
+       "latex": "E_{\\text{in}}=90\\times1185=1.07\\times10^{5}\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mtext>in</mtext></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>90</mn><mo>&#215;</mo><mn>1185</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>07</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E subscript text in end text end subscript space equals space 90 cross times 1185 space equals space 1.07 cross times 10 to the power of 5 text  J end text"
+      },
+      {
+       "latex": "E_{\\text{out}}=P_{\\text{out}}\\timest",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mtext>out</mtext></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>P</mi><mtext>out</mtext></msub><mo>&#215;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E subscript text out end text end subscript space equals space P subscript text out end text end subscript cross times t"
+      },
+      {
+       "latex": "E_{\\text{out}}=80\\times900=7.2\\times10^{4}\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>E</mi><mtext>out</mtext></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>80</mn><mo>&#215;</mo><mn>900</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>7</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "E subscript text out end text end subscript space equals space 80 cross times 900 space equals space 7.2 cross times 10 to the power of 4 text  J end text"
+      },
+      {
+       "latex": "\\DeltaE=E_{\\text{in}}-E_{\\text{out}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>E</mi><mtext>in</mtext></msub><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msub><mi>E</mi><mtext>out</mtext></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space E subscript text in end text end subscript space minus space E subscript text out end text end subscript"
+      },
+      {
+       "latex": "\\DeltaE=1.07\\times10^{5}-7.2\\times10^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>07</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>7</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space 1.07 cross times 10 to the power of 5 space minus space 7.2 cross times 10 to the power of 4"
+      },
+      {
+       "latex": "\\DeltaE=3.5\\times10^{4}\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space 3.5 cross times 10 to the power of 4 text  J end text"
+      },
+      {
+       "latex": "\\DeltaE=mc\\Deltaθ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>m</mi><mi>c</mi><mo>&#8710;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space m c increment theta"
+      },
+      {
+       "latex": "\\Deltaθ=\\frac{\\DeltaE}{mc_{\\text{oil}}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>E</mi></mrow><mrow><mi>m</mi><msub><mi>c</mi><mtext>oil</mtext></msub></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment theta space equals space fraction numerator increment E over denominator m c subscript text oil end text end subscript end fraction"
+      },
+      {
+       "latex": "\\Deltaθ=\\frac{3.5\\times10^{4}}{0.25\\times1800}=78\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>25</mn><mo>&#215;</mo><mn>1800</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>78</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment theta space equals space fraction numerator 3.5 cross times 10 to the power of 4 over denominator 0.25 cross times 1800 end fraction space equals space 78 text  °C end text"
+      },
+      {
+       "latex": "=78+20=98\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mo>&#160;</mo><mn>78</mn><mo>+</mo><mn>20</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>98</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "equals space 78 plus 20 space equals space 98 text  °C end text"
+      },
+      {
+       "latex": "98\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>98</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "98 text  °C end text"
+      },
+      {
+       "latex": "130\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>130</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "130 text  °C end text"
+      },
+      {
+       "latex": "1.1\\times10^{5}\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.1 cross times 10 to the power of 5 text  J end text"
+      },
+      {
+       "latex": "7.2\\times10^{4}\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7.2 cross times 10 to the power of 4 text  J end text"
+      },
+      {
+       "latex": "3.5\\times10^{4}\\text{J}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>4</mn></msup><mtext>&#160;J</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3.5 cross times 10 to the power of 4 text  J end text"
+      },
+      {
+       "latex": "\\DeltaE=mc\\Deltaθ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>=</mo><mi>m</mi><mi>c</mi><mo>&#8710;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E equals m c increment theta"
+      },
+      {
+       "latex": "78\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>78</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "78 text  °C end text"
+      },
+      {
+       "latex": "130\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>130</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "130 text  °C end text"
+      },
+      {
+       "latex": "130\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>130</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "130 text  °C end text"
+      },
+      {
+       "latex": "\\DeltaE=mc\\Deltaθ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>=</mo><mi>m</mi><mi>c</mi><mo>&#8710;</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E equals m c increment theta"
+      },
+      {
+       "latex": "130\\text{°C}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>130</mn><mtext>&#160;&#176;C</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "130 text  °C end text"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jKWsVW64m66C9fPw",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_wTRRTWbgQP579rtV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "comment",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DDfmNbmHX4kHgMm8",
+      "spcpt_B2Zprr2kyNdR4d9w"
+     ],
+     "part_tier": null,
+     "problem_md": "A student carried out an experiment to determine the latent heat of vaporisation of an unknown alcohol.\n\nThe student used an electrical heater to boil the alcohol in a beaker. She connected the heater to a circuit and adjusted the power $P$ supplied to the heater by varying the potential difference and current in the circuit.\n\n![A beaker on a digital balance containing alcohol with a submerged electrical heater connected to an external power supply.](assets/002-a-beaker-on-a-digital-balance-containing-alcohol.png)\n\nWhen the alcohol was at its boiling point, the student monitored the change in mass $m$ of alcohol in the beaker over a period of $75\\text{s}$. She repeated the experiment for different values of power $P$ supplied to the heater and plotted her results on the graph.\n\n![Scatter plot with mass in grams on the x-axis and power P in watts on the y-axis showing five data points and a line of best fit.](assets/003-scatter-plot-with-mass-in-grams-on-the-x-axis-an.png)\n\nThe student used her graph to determine a value for the latent heat of the alcohol in the beaker. She concluded that the alcohol was propanol.\n\n| Liquid | Latent heat of vaporisation / $\\text{MJ kg}^{-1}$ |\n|---|---|\n| methanol | $1.10$ |\n| ethanol | $0.85$ |\n| propanol | $0.79$ |\n| butanol | $0.58$ |\n\nComment on the validity of the student’s conclusion.",
+     "solution_md": "To assess the validity of the student’s conclusion:\n\n- Calculate the gradient of the line:\n\n![Two points identified on the line: (0.7, 40) and (7.5, 120)](assets/004-two-points-identified-on-the-line-0-7-40-and-7-5.png)\n\n$\\mathrm{gradient}=\\frac{\\DeltaP}{\\Deltam}$\n\n$\\mathrm{gradient}=\\frac{120-40}{7.5-0.7}$ **[1 mark]**\n\n$\\mathrm{gradient}=11.76$ **[1 mark]**\n\n- Calculate $L$ from the gradient of the line:\n\n  - Time, $t=75\\text{s}$\n\n$\\DeltaE=L\\Deltam=Pt$\n\n`L space equals space open parentheses fraction numerator increment P over denominator increment m end fraction close parentheses t space equals space text gradient end text cross times t`\n\n$L=11.76\\times75$ **[1 mark]**\n\n$L=882\\text{J g}^{-1}$\n\n$L=8.82\\times10^{5}\\text{J kg}^{-1}$ or $0.882\\text{MJ kg}^{-1}$ **[1 mark]**\n\n- Identify the alcohol using the table of values and write a concluding statement:\n\nThe calculated value for $L$($0.882\\text{MJ kg}^{-1}$) indicates the liquid is likely to be ethanol ($0.85\\text{MJ kg}^{-1}$), so the student's conclusion is wrong **[1 mark]**\n\nSome of the thermal energy is transferred to the surroundings, which causes the calculated value for $L$ to be higher than the actual value **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for calculating the gradient of the best fit line\n> \n> 1 mark for use of $\\text{gradient}=\\DeltaP/\\Deltam$\n> \n> - The first two marks can be awarded for reading $\\DeltaP$ from the graph and using it with the corresponding $\\Deltam$\n> \n> 1 mark for use of $\\DeltaE=L\\Deltam$ and $P=\\DeltaE/\\Deltat$\n> \n> - Accept use of $L=\\text{gradient}\\timest$\n> \n> 1 mark for a final value of $L=8.82\\times10^{5}\\text{J kg}^{-1}$\n> \n> - Accept answers in the range `open parentheses 8.78 minus 8.86 close parentheses cross times 10 to the power of 5 text  J kg end text to the power of negative 1 end exponent`\n> \n> 1 mark for a comparison of the calculated value for $L$ with values in the table and an appropriate conclusion\n> \n> - Expected conclusion: the liquid is ethanol (not propanol, so the student is wrong)\n> \n> 1 mark for a justification of why the calculated value for $L$ is higher than the value in the table\n> \n> - e.g., some thermal energy will be transferred to the surroundings \n> **OR **not all the energy supplied will be used to boil the liquid",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "75\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>75</mn><mtext>&#160;s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "75 text  s end text"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "\\text{MJ kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mtext>MJ kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "text MJ kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "1.10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.10"
+      },
+      {
+       "latex": "0.85",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>85</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.85"
+      },
+      {
+       "latex": "0.79",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>79</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.79"
+      },
+      {
+       "latex": "0.58",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>58</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.58"
+      },
+      {
+       "latex": "\\mathrm{gradient}=\\frac{\\DeltaP}{\\Deltam}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>gradient</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mo>&#8710;</mo><mi>P</mi></mrow><mrow><mo>&#8710;</mo><mi>m</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "gradient space equals space fraction numerator increment P over denominator increment m end fraction"
+      },
+      {
+       "latex": "\\mathrm{gradient}=\\frac{120-40}{7.5-0.7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>gradient</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>120</mn><mo>-</mo><mn>40</mn></mrow><mrow><mn>7</mn><mo>.</mo><mn>5</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>7</mn></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "gradient space equals space fraction numerator 120 minus 40 over denominator 7.5 minus 0.7 end fraction"
+      },
+      {
+       "latex": "\\mathrm{gradient}=11.76",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>gradient</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11</mn><mo>.</mo><mn>76</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "gradient space equals space 11.76"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "t=75\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>75</mn><mtext>&#160;s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 75 text  s end text"
+      },
+      {
+       "latex": "\\DeltaE=L\\Deltam=Pt",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>L</mi><mo>&#8710;</mo><mi>m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>P</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space L increment m space equals space P t"
+      },
+      {
+       "latex": "L=11.76\\times75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11</mn><mo>.</mo><mn>76</mn><mo>&#215;</mo><mn>75</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L space equals space 11.76 cross times 75"
+      },
+      {
+       "latex": "L=882\\text{J g}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>882</mn><msup><mtext>&#160;J g</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L space equals space 882 text  J g end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "L=8.82\\times10^{5}\\text{J kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>8</mn><mo>.</mo><mn>82</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><msup><mtext>&#160;J kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L space equals space 8.82 cross times 10 to the power of 5 text  J kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "0.882\\text{MJ kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>882</mn><msup><mtext>&#160;MJ kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.882 text  MJ kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "0.882\\text{MJ kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>882</mn><msup><mtext>&#160;MJ kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.882 text  MJ kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "0.85\\text{MJ kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>85</mn><msup><mtext>&#160;MJ kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0.85 text  MJ kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "\\text{gradient}=\\DeltaP/\\Deltam",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>gradient</mtext><mo>=</mo><mo>&#8710;</mo><mi>P</mi><mo>/</mo><mo>&#8710;</mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "text gradient end text equals increment P divided by increment m"
+      },
+      {
+       "latex": "\\DeltaP",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>P</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment P"
+      },
+      {
+       "latex": "\\Deltam",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment m"
+      },
+      {
+       "latex": "\\DeltaE=L\\Deltam",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>=</mo><mi>L</mi><mo>&#8710;</mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E equals L increment m"
+      },
+      {
+       "latex": "P=\\DeltaE/\\Deltat",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mo>&#8710;</mo><mi>E</mi><mo>/</mo><mo>&#8710;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P equals increment E divided by increment t"
+      },
+      {
+       "latex": "L=\\text{gradient}\\timest",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>=</mo><mtext>gradient</mtext><mo>&#215;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L equals text gradient end text cross times t"
+      },
+      {
+       "latex": "L=8.82\\times10^{5}\\text{J kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>=</mo><mn>8</mn><mo>.</mo><mn>82</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><msup><mtext>&#160;J kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L equals 8.82 cross times 10 to the power of 5 text  J kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L"
+      },
+      {
+       "latex": "L",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>L</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "L"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nx6xb29h74xbpvq3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DDfmNbmHX4kHgMm8"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain one modification to this method which would improve the accuracy of the student's conclusion.",
+     "solution_md": "> **[mark-scheme]**\n> - Use (thermal) lagging to insulate the container from the surroundings **[1 mark]**\n> - So that a greater proportion of the energy supplied is used to boil the liquid \n> **OR**\n> To minimise thermal energy transferred to the surroundings **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_D5tkSJG5wVcB36H3",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_w2QktvHW4nbFsMJb",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "2022 Jan",
+      "number": "WPH15/01",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B2Zprr2kyNdR4d9w"
+     ],
+     "part_tier": null,
+     "problem_md": "In an experiment to determine the specific latent heat of vaporisation of water *L*<sub>V</sub> , a student used an electrical heater to boil water in a beaker.\n\nThe experimental data gave *L*<sub>V</sub> = 2.20 MJ kg<sup>–1</sup>. The textbook value of *L*<sub>V</sub> is 2.26 MJ kg<sup>–1</sup>.\n\nWhich of the following could be an explanation for this difference in the values of *L*<sub>V</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is ****B ****because:**\n\n- According to the equation for the specific latent heat of vaporisation: $\\DeltaE=L\\Deltam$\n\n  - Where: $L=\\frac{\\DeltaE}{\\Deltam}$\n- $L_{recorded}<L_{actual}$\n- Hence, $\\DeltaE_{recorded}<\\DeltaE_{acutal}$\n- $P=\\frac{E}{t}$ and $E=Pt$\n- So, for $\\DeltaE_{recorded}$ to be less then $P$ must also be less\n- Hence, the correct answer is **B **\n\n**A **is incorrect as **more energy** is used in the **calculation**, than in** reality**, as energy is lost to the surroundings, so $L_{recorded}$ is higher\n\n**C **is incorrect as when calculating the specific latent heat of vaporisation, it is not necessary to stir the water\n\n**D **is incorrect as in the calculation, more heat than in reality will be applied to the water, so $L_{recorded}$ is higher",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Some energy is transferred to the surroundings."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "The heater power was underestimated."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The student did not stir the water."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The heater is inefficient."
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\DeltaE=L\\Deltam",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mi>L</mi><mo>∆</mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment E space equals space L increment m"
+      },
+      {
+       "latex": "L=\\frac{\\DeltaE}{\\Deltam}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>∆</mo><mi>E</mi></mrow><mrow><mo>∆</mo><mi>m</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L space equals space fraction numerator increment E over denominator increment m end fraction"
+      },
+      {
+       "latex": "L_{recorded}<L_{actual}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>L</mi><mrow><mi>r</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>r</mi><mi>d</mi><mi>e</mi><mi>d</mi></mrow></msub><mo> </mo><mo>&lt;</mo><mo> </mo><msub><mi>L</mi><mrow><mi>a</mi><mi>c</mi><mi>t</mi><mi>u</mi><mi>a</mi><mi>l</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript r e c o r d e d end subscript space less than space L subscript a c t u a l end subscript"
+      },
+      {
+       "latex": "\\DeltaE_{recorded}<\\DeltaE_{acutal}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><msub><mi>E</mi><mrow><mi>r</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>r</mi><mi>d</mi><mi>e</mi><mi>d</mi></mrow></msub><mo> </mo><mo>&lt;</mo><mo> </mo><mo>∆</mo><msub><mi>E</mi><mrow><mi>a</mi><mi>c</mi><mi>u</mi><mi>t</mi><mi>a</mi><mi>l</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment E subscript r e c o r d e d end subscript space less than space increment E subscript a c u t a l end subscript"
+      },
+      {
+       "latex": "P=\\frac{E}{t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>E</mi><mi>t</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P space equals space E over t"
+      },
+      {
+       "latex": "E=Pt",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo> </mo><mo>=</mo><mo> </mo><mi>P</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E space equals space P t"
+      },
+      {
+       "latex": "\\DeltaE_{recorded}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∆</mo><msub><mi>E</mi><mrow><mi>r</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>r</mi><mi>d</mi><mi>e</mi><mi>d</mi></mrow></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "increment E subscript r e c o r d e d end subscript"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "L_{recorded}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mrow><mi>r</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>r</mi><mi>d</mi><mi>e</mi><mi>d</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript r e c o r d e d end subscript"
+      },
+      {
+       "latex": "L_{recorded}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>L</mi><mrow><mi>r</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>r</mi><mi>d</mi><mi>e</mi><mi>d</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L subscript r e c o r d e d end subscript"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fNdZQ3VXHZ6zBNqP",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gXB9y6Z7WrFs4pPh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_B2Zprr2kyNdR4d9w"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of wax is heated at a constant rate of $800W$. The graph shows how the temperature of the wax changes with time.\n\n![Temperature-time heating curve with time in seconds on the horizontal axis, ranging from 0 to 600, and temperature in degrees on the vertical axis, ranging from 0 to 80. The graph shows three distinct regions: (1) a rising section from (0, 20) to (100, 50), (2) a flat horizontal section from (100, 50) to (400, 50), and (3) a rising section from (400, 50) onwards. ](assets/001-temperature-time-heating-curve-with-time-in-seco.png)\n\nA data book contains the following information for wax:\n\n- latent heat of fusion of wax = $2.2\\times10^{5}\\text{J kg}^{-1}$\n- latent heat of vaporisation of wax = $1.6\\times10^{6}\\text{J kg}^{-1}$\n\nWhich of the following shows how to calculate the mass of wax that melts?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The flat section of the graph (from $t=100\\text{s}$ to $t=400\\text{s}$) corresponds to the phase change\n\n  - Here, the wax is melting at constant temperature\n- The duration of the phase change is:\n\n$\\Deltat=400-100=300\\text{s}$\n\n- The energy transferred to the wax is:\n\n$\\DeltaE=P\\Deltat$\n\n$\\DeltaE=800\\times300$\n\n- For melting, use the latent heat of fusion ($2.2\\times10^{5}\\text{J kg}^{-1}$)\n- Therefore,  the mass of wax that melts can be calculated using:\n\n$\\DeltaE=L\\Deltam$\n\n$m=\\frac{P\\Deltat}{L}$\n\n$m=\\frac{800\\times300}{2.2\\times10^{5}}$\n\n**A** is incorrect as this uses the value for the latent heat of vaporisation ($1.6\\times10^{6}\\text{J kg}^{-1}$), which corresponds to a phase change between liquid and gas.\n\n**B** & **D** are incorrect as these use the time interval $\\Deltat=600\\text{s}$, which corresponds to the entire interval over which the wax is heated. The calculation should use only the interval over which the wax changes phase, not the intervals where there is a temperature change.\n\n> **[exam-tip]**\n> The flat section of a heating curve is where the phase change occurs — temperature does not rise because the energy is being used to break intermolecular bonds, not to increase kinetic energy.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "$\\frac{800\\times300}{1.6\\times10^{6}}$"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "$\\frac{800\\times600}{1.6\\times10^{6}}$"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "$\\frac{800\\times300}{2.2\\times10^{5}}$"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "$\\frac{800\\times600}{2.2\\times10^{5}}$"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "800W",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>800</mn><mo>&#160;</mo><mi mathvariant=\"normal\">W</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "800 space straight W"
+      },
+      {
+       "latex": "2.2\\times10^{5}\\text{J kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><msup><mtext>&#160;J&#160;kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.2 cross times 10 to the power of 5 text  J kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "1.6\\times10^{6}\\text{J kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><msup><mtext>&#160;J&#160;kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.6 cross times 10 to the power of 6 text  J kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "t=100\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>100</mn><mo>&#8202;</mo><mtext>s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 100   text s end text"
+      },
+      {
+       "latex": "t=400\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>400</mn><mo>&#8202;</mo><mtext>s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 400   text s end text"
+      },
+      {
+       "latex": "\\Deltat=400-100=300\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>400</mn><mo>-</mo><mn>100</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>300</mn><mo>&#8202;</mo><mtext>s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment t space equals space 400 minus 100 space equals space 300   text s end text"
+      },
+      {
+       "latex": "\\DeltaE=P\\Deltat",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>P</mi><mo>&#8710;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space P increment t"
+      },
+      {
+       "latex": "\\DeltaE=800\\times300",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>800</mn><mo>&#215;</mo><mn>300</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space 800 cross times 300"
+      },
+      {
+       "latex": "2.2\\times10^{5}\\text{J kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup><msup><mtext>&#160;J&#160;kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.2 cross times 10 to the power of 5 text  J kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\DeltaE=L\\Deltam",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>L</mi><mo>&#8710;</mo><mi>m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment E space equals space L increment m"
+      },
+      {
+       "latex": "m=\\frac{P\\Deltat}{L}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>P</mi><mo>&#8710;</mo><mi>t</mi></mrow><mi>L</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m space equals space fraction numerator P increment t over denominator L end fraction"
+      },
+      {
+       "latex": "m=\\frac{800\\times300}{2.2\\times10^{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>m</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>800</mn><mo>&#215;</mo><mn>300</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m space equals space fraction numerator 800 cross times 300 over denominator 2.2 cross times 10 to the power of 5 end fraction"
+      },
+      {
+       "latex": "1.6\\times10^{6}\\text{J kg}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><msup><mtext>&#160;J&#160;kg</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.6 cross times 10 to the power of 6 text  J kg end text to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "\\Deltat=600\\text{s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#8710;</mo><mi>t</mi><mo>=</mo><mn>600</mn><mtext>&#160;s</mtext></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "increment t equals 600 text  s end text"
+      },
+      {
+       "latex": "\\frac{800\\times300}{1.6\\times10^{6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>800</mn><mo>&#215;</mo><mn>300</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 800 cross times 300 over denominator 1.6 cross times 10 to the power of 6 end fraction"
+      },
+      {
+       "latex": "\\frac{800\\times600}{1.6\\times10^{6}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>800</mn><mo>&#215;</mo><mn>600</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 800 cross times 600 over denominator 1.6 cross times 10 to the power of 6 end fraction"
+      },
+      {
+       "latex": "\\frac{800\\times300}{2.2\\times10^{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>800</mn><mo>&#215;</mo><mn>300</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 800 cross times 300 over denominator 2.2 cross times 10 to the power of 5 end fraction"
+      },
+      {
+       "latex": "\\frac{800\\times600}{2.2\\times10^{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>800</mn><mo>&#215;</mo><mn>600</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>2</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 800 cross times 600 over denominator 2.2 cross times 10 to the power of 5 end fraction"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
