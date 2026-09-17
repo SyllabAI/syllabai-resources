@@ -1,0 +1,2721 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-16T23:58:49Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/international-a-level/maths/edexcel/20/pure-3/topic-questions/numerical-methods/numerical-methods/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "international-a-level",
+  "subject": "Maths",
+  "exam_code": "YMA01",
+  "sme_course_id": "crs_7R3phcphwpXF9rWr",
+  "syllabus_version": "2020",
+  "sme_alias_path": "20/pure-3"
+ },
+ "section": {
+  "slug": "numerical-methods",
+  "name": "Numerical Methods"
+ },
+ "topic": {
+  "id": "top_P7VWrkW7y7nFCB7q",
+  "slug": "numerical-methods",
+  "name": "Numerical Methods",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "failure-of-the-change-of-sign-method",
+   "name": "Failure of the Change of Sign Method",
+   "revision_note_id": "rn_MDSWR4N4Szs7XTmP"
+  },
+  {
+   "slug": "change-of-sign",
+   "name": "Change of Sign",
+   "revision_note_id": "rn_k9Fj2HmZ3tbt57Zk"
+  },
+  {
+   "slug": "x-equals-gx-iteration",
+   "name": "x = g(x) Iteration",
+   "revision_note_id": "rn_9xhxsqTBj7ng4D2D"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_cQ8JSwkbdCRNGzYR",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 29
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q3a_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "001-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q3b_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "002-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/cie-p3-q6-maths.png": "003-cie-p3-q6-maths.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q1a_10.2-Modelling_Numerical_Methods_Easy_A_Level_Maths_Pure.png": "004-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q1b_10.2-Modelling_Numerical_Methods_Easy_A_Level_Maths_Pure.png": "005-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q7a_10.2-Modelling_Numerical_Methods_Easy_A_Level_Maths_Pure.png": "006-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q7b_10.2-Modelling_Numerical_Methods_Easy_A_Level_Maths_Pure.png": "007-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q7c_10.2-Modelling_Numerical_Methods_Easy_A_Level_Maths_Pure.png": "008-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q1a-10-1-solving-equations-easy-a-level-maths-pure.png": "009-q1a-10-1-solving-equations-easy-a-level-maths-pu.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q1a_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "010-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q1b_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "011-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/cie-p3-q7-maths.png": "012-cie-p3-q7-maths.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q4_10.2-Modelling_Numerical_Methods_Easy_A_Level_Maths_Pure.png": "013-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q8-10-1-solving-equations-easy-a-level-maths-pure.png": "014-q8-10-1-solving-equations-easy-a-level-maths-pur.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q7_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "015-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q2_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "016-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q7-10-1-solving-equations-easy-a-level-maths-pure.png": "017-q7-10-1-solving-equations-easy-a-level-maths-pur.png",
+   "https://cdn.savemyexams.com/uploads/2020/12/MA_Q6_10.1-Solving_Equations_Easy_A_Level_Maths_Pure.png": "018-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/yUH2wGe6_cie-p3-q7-maths.png": "019-yuh2wge6-cie-p3-q7-maths.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q5_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "020-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9a_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "021-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9b_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "022-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9c_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "023-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q6_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "024-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q5_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "025-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/4mI3nnPc_q1-10-2-edexcel-modelling-with-numerical-methods-hard.png": "026-4mi3nnpc-q1-10-2-edexcel-modelling-with-numerica.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1a_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "027-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1b_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "028-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1c_10.2-Modelling_Numerical_Methods_Very_Hard_A_Level_Maths_Pure.png": "029-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q2a_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "030-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q2b_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "031-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q2c_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "032-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q2d_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "033-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q2e_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "034-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/q1a-10-1-solving-equations-very-hard-a-level-maths-pure-screenshots.png": "035-q1a-10-1-solving-equations-very-hard-a-level-mat.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1a_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "036-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1b_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "037-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1c_10.1-Solving_Equations_Very_Hard_A_Level_Maths_Pure.png": "038-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/QpsJxjGx_q1a-10-1-solving-equations-hard-a-level-maths-pure.png": "039-qpsjxjgx-q1a-10-1-solving-equations-hard-a-level.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6a_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "040-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6b_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "041-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6c_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "042-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/pmoTqjiD_q1a-10-1-solving-equations-hard-a-level-maths-pure.png": "043-pmotqjid-q1a-10-1-solving-equations-hard-a-level.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q2a_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "044-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q2b_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "045-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q2c_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "046-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q1a-10-1-solving-equations-hard-a-level-maths-pure.png": "047-q1a-10-1-solving-equations-hard-a-level-maths-pu.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q1a_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "048-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q1b_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "049-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q1c_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "050-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/q2-10-2-edexcel-modelling-with-numerical-methods-hard.png": "051-q2-10-2-edexcel-modelling-with-numerical-methods.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q5a_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "052-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q5b_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "053-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9a_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "054-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9b_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "055-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9c_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "056-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/q1-10-2-edexcel-modelling-with-numerical-methods-hard.png": "057-q1-10-2-edexcel-modelling-with-numerical-methods.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1a_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "058-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1b_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "059-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1c_10.2-Modelling_Numerical_Methods_Hard_A_Level_Maths_Pure.png": "060-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q5a-10-1-solving-equations-hard-a-level-maths-pure.png": "061-q5a-10-1-solving-equations-hard-a-level-maths-pu.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q5-2-10-1-solving-equations-hard-a-level-maths-pure.png": "062-q5-2-10-1-solving-equations-hard-a-level-maths-p.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q5_10.1-Solving_Equations_Hard_A_Level_Maths_Pure.png": "063-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1a_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "064-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1b_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "065-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q1c_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "066-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q5-10-1-solving-equations-medium-a-level-maths-pure.png": "067-q5-10-1-solving-equations-medium-a-level-maths-p.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q5_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "068-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/cie-p3-q7-maths-2.png": "069-cie-p3-q7-maths-2.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q5a_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "070-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q5b_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "071-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9a_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "072-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9b_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "073-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/10/Q9c_10.2-Modelling_Numerical_Methods_Medium_A_Level_Maths_Pure.png": "074-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q2a_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "075-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q2b_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "076-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q1a-10-1-solving-equations-medium-a-level-maths-pure.png": "077-q1a-10-1-solving-equations-medium-a-level-maths-.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q1a_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "078-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q1b_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "079-img.png",
+   "https://cdn.savemyexams.com/uploads/2023/06/q6-10-1-solving-equations-medium-a-level-maths-pure.png": "080-q6-10-1-solving-equations-medium-a-level-maths-p.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6a_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "081-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6b_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "082-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6c_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "083-img.png",
+   "https://cdn.savemyexams.com/uploads/2020/09/Q6d_10.1-Solving_Equations_Medium_A_Level_Maths_Pure.png": "084-img.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_TyBfhy2yFZnR5BGb",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_cndcBgXkKGWFwPHK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows part of the graph$y=f(x)$ where $f(x)=2x^{2}-2x^{3}+3$.\n\n![q1a-10-1-solving-equations-easy-a-level-maths-pure](assets/009-q1a-10-1-solving-equations-easy-a-level-maths-pu.png)\n\n(i) Find `straight f open parentheses 1.5 close parentheses`\n\n(ii) Find$f(1.6)$",
+     "solution_md": "![](assets/010-img.png)",
+     "equations": [
+      {
+       "latex": "y=f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space y equals straight f left parenthesis x right parenthesis space"
+      },
+      {
+       "latex": "f(x)=2x^{2}-2x^{3}+3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 2 x squared minus 2 x cubed plus 3"
+      },
+      {
+       "latex": "f(1.6)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mn>1</mn><mo>.</mo><mn>6</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis 1.6 right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_byGQBWT9HGpF9hWs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Write down an interval, in the form $a<α<b$, such that `straight f open parentheses alpha close parentheses equals 0`, explain clearly your choice of values for *a* and b.",
+     "solution_md": "![](assets/011-img.png)",
+     "equations": [
+      {
+       "latex": "a<α<b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&lt;</mo><mi>α</mi><mo> </mo><mo>&lt;</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "a less than alpha space less than b"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_hVyMRBwhB4CrhX9Z",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_2RgBfnsVNDnNmJpt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A solution to the equation `straight f open parentheses x close parentheses equals 0` is $x=3.1$, correct to two significant figures.\n\n(i) Write down the lower bound, *l,* and the upper bound, *u*, of 3.1.\n\n(ii) Assuming $f(x)$ is continuous in the interval $l<x<u$, what can you say about the values of $f(u)$ and `straight f open parentheses l space close parentheses`?",
+     "solution_md": "![](assets/016-img.png)",
+     "equations": [
+      {
+       "latex": "x=3.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 3.1"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "l<x<u",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>l</mi><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>u</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "l less than x less than u"
+      },
+      {
+       "latex": "f(u)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>u</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis u right parenthesis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xYTbn5yRXkDyGqRj",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_xkDpPWV3yjcW8P9X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the equation $x^{3}-5x=2$can be rewritten as\n\n$x=\\frac{1}{5}(x^{3}-2).$",
+     "solution_md": "![](assets/001-img.png)",
+     "equations": [
+      {
+       "latex": "x^{3}-5x=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi><mo>=</mo><mn>2</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x cubed minus 5 x equals 2 space"
+      },
+      {
+       "latex": "x=\\frac{1}{5}(x^{3}-2).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>2</mn><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 1 fifth left parenthesis x cubed minus 2 right parenthesis."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_W6qNYpqmKNgbw4fD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Starting with $x_{0}=1$, use the iterative formula\n\n`x subscript n plus 1 end subscript equals 1 fifth open parentheses space x subscript n superscript 3 minus 2 close parentheses`\n\nto find values for $x_{1},x_{2}$ and $x_{3}$, giving each to four decimal places where appropriate.",
+     "solution_md": "![](assets/002-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1"
+      },
+      {
+       "latex": "x_{1},x_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo> </mo><msub><mi>x</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 comma space x subscript 2"
+      },
+      {
+       "latex": "x_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HbF4d4SfwftDqDZP",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_64X98TDcjdB3wR33",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk",
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The graph of`space y equals straight f space open parentheses theta close parentheses` where $f(θ)=\\mathrm{sec}θ$ is shown below. *θ* is measured in radians and -$π\\leqθ\\leqπ.$\n\n![q7-10-1-solving-equations-easy-a-level-maths-pure](assets/017-q7-10-1-solving-equations-easy-a-level-maths-pur.png)\n\nGiven that $\\mathrm{sec}θ=\\frac{1}{\\mathrm{cos}θ}$ .\n\n(i) Find $f(1.5)$ and $f(1.6)$.\n\n(ii) Explain how, in this case, the change of sign rule fails to locate a root of $f(θ)$ in the interval (1.5 , 1.6).",
+     "solution_md": "![](assets/018-img.png)",
+     "equations": [
+      {
+       "latex": "f(θ)=\\mathrm{sec}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo> </mo><mo>=</mo><mi>sec</mi><mo> </mo><mi>θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis theta right parenthesis space equals sec space theta"
+      },
+      {
+       "latex": "π\\leqθ\\leqπ.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>π</mi><mo>≤</mo><mi>θ</mi><mo>≤</mo><mi>π</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "pi less or equal than theta less or equal than pi."
+      },
+      {
+       "latex": "\\mathrm{sec}θ=\\frac{1}{\\mathrm{cos}θ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sec</mi><mo> </mo><mi>θ</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>cos</mi><mo> </mo><mi>θ</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "sec space theta equals fraction numerator 1 over denominator cos space theta end fraction"
+      },
+      {
+       "latex": "f(1.5)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis 1.5 right parenthesis space"
+      },
+      {
+       "latex": "f(1.6)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mn>1</mn><mo>.</mo><mn>6</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis 1.6 right parenthesis"
+      },
+      {
+       "latex": "f(θ)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>θ</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis theta right parenthesis space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JjkndYBMzPqT4Fc9",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_NHrC4Wfh2MmVzncT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A student is trying to find a solution to the equation `straight f open parentheses x close parentheses equals 0 space`using an iterative formula.\n\nThe student rearranges `straight f open parentheses x close parentheses equals 0 space` into the form $x=g(x)$.\n\nThe diagram below shows a sketch of the graphs of $y=g(x)$ and $y=x$.\n\n![q8-10-1-solving-equations-easy-a-level-maths-pure](assets/014-q8-10-1-solving-equations-easy-a-level-maths-pur.png)\n\nThe student is trying to find the root $α$, starting with an initial estimate $x_{0}$.\nShow on the diagram, how the iterative formula will converge and find the root $α$.\nMark the $x$-axis with the positions of $x_{1}$ and $x_{2}$.",
+     "solution_md": "![](assets/015-img.png)",
+     "equations": [
+      {
+       "latex": "x=g(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals straight g left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "y=g(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals straight g left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "x_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1"
+      },
+      {
+       "latex": "x_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xKmcfVSqH26vfK3v",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_QWRMRrwPK3pRSYHQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "A bypass is to be built around a village.\nOn the graph below the road through the village is modelled by the line  $y=x.$The bypass is modelled by the equation  $y=\\sqrt{\\frac{40x}{x+1}}$.\n\n![cie-p3-q6-maths](assets/003-cie-p3-q6-maths.png)\n\nThe bypass runs from the origin to the point $P(p,p).$\n\nUse the iterative formula $x_{n+1}=\\sqrt{\\frac{40x_{n}}{x_{n}+1}}$  with $x_{0}=5$ to find the value of $p$, correct to three significant figures.",
+     "solution_md": "![](assets/004-img.png)",
+     "equations": [
+      {
+       "latex": "y=x.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x."
+      },
+      {
+       "latex": "y=\\sqrt{\\frac{40x}{x+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo> </mo><msqrt><mfrac><mrow><mn>40</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals space square root of fraction numerator 40 x over denominator x plus 1 end fraction end root"
+      },
+      {
+       "latex": "P(p,p).",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>p</mi><mo>,</mo><mi>p</mi><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis p comma p right parenthesis."
+      },
+      {
+       "latex": "x_{n+1}=\\sqrt{\\frac{40x_{n}}{x_{n}+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msqrt><mfrac><mrow><mn>40</mn><msub><mi>x</mi><mi>n</mi></msub></mrow><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals square root of fraction numerator 40 x subscript n over denominator x subscript n plus 1 end fraction end root"
+      },
+      {
+       "latex": "x_{0}=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 5"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nSjBtSmjH8DWprDZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Calculate $f(5.835)$ and $f(5.845)$ where $f(x)=x-\\sqrt{\\frac{40x}{x+1}}$  .\n\n(ii) Hence use the sign change rule to show your answer to part (a) is correct to three significant figures.",
+     "solution_md": "![](assets/005-img.png)",
+     "equations": [
+      {
+       "latex": "f(5.835)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mn>5</mn><mo>.</mo><mn>835</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis 5.835 right parenthesis"
+      },
+      {
+       "latex": "f(5.845)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mn>5</mn><mo>.</mo><mn>845</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis 5.845 right parenthesis"
+      },
+      {
+       "latex": "f(x)=x-\\sqrt{\\frac{40x}{x+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>-</mo><mo> </mo><msqrt><mfrac><mrow><mn>40</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis x right parenthesis equals x minus space square root of fraction numerator 40 x over denominator x plus 1 end fraction end root"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QCmzsyVK8byPWc5C",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_cVBMq477pn8hFfKx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The game of Tanball is played on a flat table.\n\nA player rolls a ball from a fixed point, at any angle, with the aim of it coming to rest in the winning zone.\n\nA particular player decides to roll the ball at an angle of  $\\frac{π}{4}$ radians. \nThis is illustrated by the graph below with the ball being rolled from the origin and the shaded area being the winning zone.\n\n![cie-p3-q7-maths](assets/012-cie-p3-q7-maths.png)\n\nThe boundary of the winning zone is given by part of the curve with equation\n\n`y equals 1 minus tan open parentheses square root of 3 open parentheses x plus 1 close parentheses end root close parentheses.`\n\n(i) Using the iterative formula $x_{n+1}=1-\\mathrm{tan}(\\sqrt{3(x_{n}+1)}),$ with initial starting value $x_{0}=1.5$, find the estimates $x_{1},x_{2}$ and $x_{3}$, writing each to five decimal places.\n\n(ii) Continue using the iterative feature on your calculator to find the value of $x$ correct to three significant figures.\n\n(iii) Write down the $y$-coordinate of the point where this player’s ball should cross the winning boundary, give your answer to three significant figures.",
+     "solution_md": "![](assets/013-img.png)",
+     "equations": [
+      {
+       "latex": "\\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>π</mi><mn>4</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "pi over 4"
+      },
+      {
+       "latex": "x_{n+1}=1-\\mathrm{tan}(\\sqrt{3(x_{n}+1)}),",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mn>1</mn><mo>-</mo><mi>tan</mi><mo>(</mo><msqrt><mn>3</mn><mo>(</mo><msub><mi>x</mi><mi>n</mi></msub><mo>+</mo><mn>1</mn><mo>)</mo></msqrt><mo>)</mo><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals 1 minus tan left parenthesis square root of 3 left parenthesis x subscript n plus 1 right parenthesis end root right parenthesis comma"
+      },
+      {
+       "latex": "x_{0}=1.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1.5"
+      },
+      {
+       "latex": "x_{1},x_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 comma x subscript 2"
+      },
+      {
+       "latex": "x_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VWfnhSJT27SgDpd7",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "practice",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_Dv3rkfGkf7hXSDR5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "According to legend, unicorn tears can heal an injury almost instantly.\n\nIf a unicorn tear is applied to a burn of initialize size $B\\mathrm{mm}^{2}$ on human skin it will heal according to the model\n\n`b open parentheses t close parentheses space equals space B minus t cubed space plus square root of t space space space space space space space space space space space space space space space space t greater or equal than 0`\n\nwhere $b$ is the area of the burn, in square millimeters, at time $t$ seconds after the unicorn tear has been applied.\n\nShow that the equation `straight b open parentheses t close parentheses equals 0` can be written as\n\n`t equals cube root of B space plus square root of t end root.`",
+     "solution_md": "![](assets/006-img.png)",
+     "equations": [
+      {
+       "latex": "B\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "B space mm squared"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fk4QPzx4tnYTFhMr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the iterative formula `t subscript n plus 1 end subscript space equals cube root of 40 space plus square root of t subscript n end root end root comma` with initial value $t_{0}=3$, to find how many seconds it takes a burn of size $40\\mathrm{mm}^{2}$ to heal once a unicorn tear is applied .\n\nGive your final answer to three significant figures.",
+     "solution_md": "![](assets/007-img.png)",
+     "equations": [
+      {
+       "latex": "t_{0}=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 0 equals 3"
+      },
+      {
+       "latex": "40\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>40</mn><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "40 space mm squared"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DxG4f8bRPjqbBJBj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "An alternative iterative formula is `t subscript n plus 1 space end subscript equals open parentheses t subscript n superscript space 3 end superscript minus B close parentheses squared`,\n\n(i) Using $t_{0}=3$, find $t_{1,}t_{2}\\mathrm{and}t_{3}$, for the same initial burn size as part (b), giving each to three significant figures.\n\n(ii) Explain how you can deduce whether this sequence of estimates is converging or diverging.",
+     "solution_md": "![](assets/008-img.png)",
+     "equations": [
+      {
+       "latex": "t_{0}=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 0 equals 3"
+      },
+      {
+       "latex": "t_{1,}t_{2}\\mathrm{and}t_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mrow><mn>1</mn><mo>,</mo></mrow></msub><mo> </mo><msub><mi>t</mi><mn>2</mn></msub><mo> </mo><mi>and</mi><mo> </mo><msub><mi>t</mi><mn>3</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 1 comma end subscript space t subscript 2 space and space t subscript 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_88snFFxxtk9SQfJP",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_VWPZCZMFgtJM5zcH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows part of the graph $y=f(x)$where $f(x)=2x\\mathrm{cos}(3x)-1.$\n\n![q1a-10-1-solving-equations-medium-a-level-maths-pure](assets/077-q1a-10-1-solving-equations-medium-a-level-maths-.png)\n\n(i) Find `straight f open parentheses 1.6 close parentheses` and `straight f open parentheses 1.7 close parentheses`, giving your answers to three significant figures.\n\n(ii) Briefly explain the significance of your results from part (i).",
+     "solution_md": "![](assets/078-img.png)",
+     "equations": [
+      {
+       "latex": "y=f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space y equals straight f left parenthesis x right parenthesis space"
+      },
+      {
+       "latex": "f(x)=2x\\mathrm{cos}(3x)-1.",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo> </mo><mi>cos</mi><mo> </mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>)</mo><mo>-</mo><mn>1</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis x right parenthesis equals 2 x space cos space left parenthesis 3 x right parenthesis minus 1."
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Cr7Ymsp3b27Knxqj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "One of the solutions to the equation `straight f open parentheses x close parentheses equals 0` is $x=2.55$, correct to three significant figures.\n\n(i) Write down the upper and lower bound of 2.55.\n\n(ii) Hence, use the sign change rule to confirm that this is a solution (to three significant figures) to the equation `straight f open parentheses x close parentheses equals 0`.",
+     "solution_md": "![](assets/079-img.png)",
+     "equations": [
+      {
+       "latex": "x=2.55",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>55</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 2.55"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_D8fR9MVWgvpY2ZpN",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_WNSgxmcJtQqkdk74",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the equation  $x^{3}+3=5x$ can be rewritten as\n\n`x equals cube root of 5 x minus 3 end root`",
+     "solution_md": "![](assets/075-img.png)",
+     "equations": [
+      {
+       "latex": "x^{3}+3=5x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><mo>=</mo><mn>5</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x cubed plus 3 equals 5 x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_W46YpkNbGh2WqNjk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Starting with $x_{0}=1.8$, use the iterative formula\n\n`x subscript n plus 1 end subscript equals cube root of 5 x subscript n minus 3 end root`\n\nto find a root of the equation $x^{3}+3=5x$, correct to two decimal places.",
+     "solution_md": "![](assets/076-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=1.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1.8"
+      },
+      {
+       "latex": "x^{3}+3=5x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><mo>=</mo><mn>5</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x cubed plus 3 equals 5 x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tSNdjwtTMNGsbg4j",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_FFjH7hMM6BCjbF68",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Part of the graph of $y=\\mathrm{tan}θ$ is shown below, where $θ$ is measured in radians.\n\n![q5-10-1-solving-equations-medium-a-level-maths-pure](assets/067-q5-10-1-solving-equations-medium-a-level-maths-p.png)\n\nExplain why the change of sign rule would fail if attempting to locate a root of the function `space straight f open parentheses straight theta close parentheses equals tan space straight theta` using the values of θ = 1.55 and θ = 1.65.",
+     "solution_md": "![](assets/068-img.png)",
+     "equations": [
+      {
+       "latex": "y=\\mathrm{tan}θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>tan</mi><mo> </mo><mi mathvariant=\"normal\">θ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals tan space straight theta"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">θ</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight theta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_249rtgKJsKc5SPsd",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_Vk27QkGn43sgnrC9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows the graphs of $y=x_{}$ and `space y equals ln space open parentheses x minus 1 close parentheses plus 3 space`.\n\n![q6-10-1-solving-equations-medium-a-level-maths-pure](assets/080-q6-10-1-solving-equations-medium-a-level-maths-p.png)\n\nThe iterative formula\n\n`x subscript n plus 1 end subscript equals ln open parentheses space x subscript n minus 1 close parentheses plus 3`\n\nis to be used to find an estimate for a root, $α$, of the function$f(x)$.\n\nWrite down an expression for $f(x)$.",
+     "solution_md": "![](assets/081-img.png)",
+     "equations": [
+      {
+       "latex": "y=x_{}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msub><mi>x</mi><mrow/></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x subscript blank"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_yWv2dWZFBYtHWzKS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using an initial estimate, $x_{0}=2$, show, by adding to the diagram above, which of the two points (*S* or *T*) the sequence of estimates $x_{1},x_{2},x_{3},\\dots$ will converge to. \nHence deduce whether $α$  is the $x$-coordinate of point *S* or point *T*.",
+     "solution_md": "![](assets/082-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 space equals space 2"
+      },
+      {
+       "latex": "x_{1},x_{2},x_{3},\\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>3</mn></msub><mo>,</mo><mo>…</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 comma x subscript 2 comma x subscript 3 comma horizontal ellipsis"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_sXQ6tmkTxpVFghNk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the estimates $x_{1},x_{2},x_{3}$ and $x_{4}$, giving each to three decimal places.",
+     "solution_md": "![](assets/083-img.png)",
+     "equations": [
+      {
+       "latex": "x_{1},x_{2},x_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><mo> </mo><msub><mi>x</mi><mn>3</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 1 comma x subscript 2 comma space x subscript 3"
+      },
+      {
+       "latex": "x_{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>4</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_878mrbqH2nGNd74H",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Confirm that $α=4.146$ correct to three decimal places.",
+     "solution_md": "![](assets/084-img.png)",
+     "equations": [
+      {
+       "latex": "α=4.146",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo> </mo><mo>=</mo><mo> </mo><mn>4</mn><mo>.</mo><mn>146</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha space equals space 4.146 space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XrgTCP4SxKKpjDcb",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_mpvMsXS7mmdtfNm4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The village of Greendale lies on a straight road, as modelled by the line $y=x$on the graph below.  To ease rush hour congestion, a bypass is to be built around Greendale. The path of the bypass is modelled by the equation $y=6\\sqrt{1-\\frac{1}{x+1}}$.\n\n![cie-p3-q6-maths](assets/003-cie-p3-q6-maths.png)\n\nThe bypass runs from the origin to the point $P(p,p)$.\n\nOn the diagram show how using the iterative formula $x_{n+1}=6\\sqrt{1-\\frac{1}{x_{n}+1}}$ with $0<x_{0}<p$ will lead to convergence at the point  *P*.",
+     "solution_md": "![](assets/064-img.png)",
+     "equations": [
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x space"
+      },
+      {
+       "latex": "y=6\\sqrt{1-\\frac{1}{x+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>y</mi><mo>=</mo><mn>6</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space y equals 6 square root of 1 minus fraction numerator 1 over denominator x plus 1 end fraction end root"
+      },
+      {
+       "latex": "P(p,p)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>p</mi><mo>,</mo><mi>p</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis p comma p right parenthesis"
+      },
+      {
+       "latex": "x_{n+1}=6\\sqrt{1-\\frac{1}{x_{n}+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mn>6</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals 6 square root of 1 minus fraction numerator 1 over denominator x subscript n plus 1 end fraction end root"
+      },
+      {
+       "latex": "0<x_{0}<p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>&lt;</mo><msub><mi>x</mi><mn>0</mn></msub><mo>&lt;</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0 less than x subscript 0 less than p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8kq5nrrTZF2bPvxC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the iterative method  $x_{n+1}=6\\sqrt{1-\\frac{1}{x_{n}+1}}$ with $x_{0}=5$ to find the value of $p$, correct to two decimal places.",
+     "solution_md": "![](assets/065-img.png)",
+     "equations": [
+      {
+       "latex": "x_{n+1}=6\\sqrt{1-\\frac{1}{x_{n}+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mn>6</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals 6 square root of 1 minus fraction numerator 1 over denominator x subscript n plus 1 end fraction end root"
+      },
+      {
+       "latex": "x_{0}=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 5"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pFcnGvqZCNbWwNwK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the sign change rule with the function $f(x)=x-6\\sqrt{1-\\frac{1}{x+1}}$ to show your answer to part (b) is correct to two decimal places.",
+     "solution_md": "![](assets/066-img.png)",
+     "equations": [
+      {
+       "latex": "f(x)=x-6\\sqrt{1-\\frac{1}{x+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>-</mo><mn>6</mn><msqrt><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals x minus 6 square root of 1 minus fraction numerator 1 over denominator x plus 1 end fraction end root"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NxGtfgjZP9D8Xn57",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_X7Jy9gHyjYZ4nbD3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The game of Curveball is played on a flat table.\n\nA player rolls a ball from a fixed point, at any angle, with the aim of it coming to rest in the winning zone.\n\nA particular player decides to roll the ball at an angle of 45°. This is illustrated by the graph below with the ball being rolled from the origin and the shaded area being the winning zone.\n\n![cie-p3-q7-maths-2](assets/069-cie-p3-q7-maths-2.png)\n\nThe boundary of the winning zone is given by part of the curve with equation\n\n`y equals 1 half sin squared open parentheses e to the power of x close parentheses.`\n\nUse the iterative formula $x_{n+1}=\\frac{1}{2}\\mathrm{sin}^{2}(e^{x})$, taking all angles in radians, with initial starting value $x_{0}=0.5$, to show that the $x$-coordinate of the point where this player’s ball should cross the winning zone boundary is 0.497 to three significant figures.",
+     "solution_md": "![](assets/070-img.png)",
+     "equations": [
+      {
+       "latex": "x_{n+1}=\\frac{1}{2}\\mathrm{sin}^{2}(e^{x})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>sin</mi><mn>2</mn></msup><mo>(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals 1 half sin squared left parenthesis e to the power of x right parenthesis"
+      },
+      {
+       "latex": "x_{0}=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 0.5"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GJPWFF8q8kVhQ9ZX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "Use your answer to part (a) to find the minimum distance the ball should travel for this player to win Curveball.",
+     "solution_md": "![](assets/071-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_m3jwpWJMxXVBQfVb",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_cjMrWW86zD7TCKjj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "According to legend, a unicorn can heal an injury almost instantly by touching it with its horn.\n\nWhen a unicorn touches a cut in human skin of length $L\\mathrm{mm}$, it will heal according to the model\n\n`straight f open parentheses t close parentheses equals L e to the power of negative t end exponent space minus space t space space space space space space space space space space space space space space space space space space t space greater or equal than 0`\n\nwhere $f$ is the length of the cut in millimeters, at time $t$ seconds after the unicorn has touched the injury with its horn.\n\n(i) Write down the value $f$ would be when the cut is completely healed.\n\n(ii) Show that, for a cut in human skin of length $5\\mathrm{mm}$ the equation `straight f open parentheses t close parentheses equals 0` can be rearranged into the form\n\n`t equals negative In open parentheses t over 5 close parentheses`",
+     "solution_md": "![](assets/072-img.png)",
+     "equations": [
+      {
+       "latex": "L\\mathrm{mm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo> </mo><mi>mm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "L space mm"
+      },
+      {
+       "latex": "f",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">f</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "f",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">f</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f"
+      },
+      {
+       "latex": "5\\mathrm{mm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo> </mo><mi>mm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 space mm"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_g9F6xDdtBtDb3TpK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the iterative formula  `t subscript n plus 1 end subscript equals negative In open parentheses t subscript n over 5 close parentheses`, with initial value $t_{0}=1,$ to find how many seconds it takes a cut of size $5\\mathrm{mm}$ to heal once a unicorn has touched it with its horn.\n\n(i) Write down the values of the estimates $t_{1},t_{2}\\mathrm{and}t_{3}$ to four decimal places.\n\n(ii) Give your final answer to two significant figures.\n\n(iii) State the number of iterations required for convergence to two significant figures.",
+     "solution_md": "![](assets/073-img.png)",
+     "equations": [
+      {
+       "latex": "t_{0}=1,",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 0 equals 1 comma"
+      },
+      {
+       "latex": "5\\mathrm{mm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo> </mo><mi>mm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 space mm"
+      },
+      {
+       "latex": "t_{1},t_{2}\\mathrm{and}t_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mo> </mo><msub><mi>t</mi><mn>2</mn></msub><mo> </mo><mi>and</mi><mo> </mo><msub><mi>t</mi><mn>3</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 1 comma space t subscript 2 space and space t subscript 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FJm7pNShmkN3PqQM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "Briefly explain why the model should also restrict the range of `straight f open parentheses t close parentheses` to be greater than or equal to zero?",
+     "solution_md": "![](assets/074-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HTT5NcVfBmBMvtpP",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_zKDt8Kw3nCrGKFWp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows part of the function $y=f(x)$ where$f(x)=3x^{2}\\mathrm{sin}^{2}x-2$.\n\n![q1a-10-1-solving-equations-hard-a-level-maths-pure](assets/047-q1a-10-1-solving-equations-hard-a-level-maths-pu.png)\n\nCorrect to three significant figures, `straight f open parentheses 0.9 close parentheses equals negative 0.509` and$f(3.4)=0.265$. \nExplain why using the sign change rule with these values would not necessarily be helpful in finding the root close to $x=0.98$.",
+     "solution_md": "![](assets/048-img.png)",
+     "equations": [
+      {
+       "latex": "y=f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y space equals space straight f left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "f(x)=3x^{2}\\mathrm{sin}^{2}x-2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>sin</mi><mn>2</mn></msup><mo> </mo><mi>x</mi><mo> </mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis x right parenthesis equals 3 x squared sin squared space x space minus 2"
+      },
+      {
+       "latex": "f(3.4)=0.265",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mn>3</mn><mo>.</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>265</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis 3.4 right parenthesis equals 0.265"
+      },
+      {
+       "latex": "x=0.98",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>98</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 0.98"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zFHdmFQWKvbZFqJj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using suitable values of *x*, show that there is a root close to $x=0.98$.",
+     "solution_md": "![](assets/049-img.png)",
+     "equations": [
+      {
+       "latex": "x=0.98",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>98</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 0.98"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hzM5kTdDFZRG58Nv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Show that the root close to $x=0.98$is 0.982, correct to three significant figures.",
+     "solution_md": "![](assets/050-img.png)",
+     "equations": [
+      {
+       "latex": "x=0.98",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>98</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 0.98 space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jjnWcmWJthXtmmWZ",
+   "set_slug": "exam-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_bqQfhBjRdfWZVyN3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows a sketch of the graphs $y=x$, and  `y equals cube root of 3 x squared plus 2 x minus 1 end root`.\n\n![pmoTqjiD_q1a-10-1-solving-equations-hard-a-level-maths-pure](assets/043-pmotqjid-q1a-10-1-solving-equations-hard-a-level.png)\n\nAn iterative formula is used to find roots to the equation $x^{3}-3x^{2}-2x+1=0$.\n\nOn the diagram above show that the iterative formula\n\n`x subscript n plus 1 end subscript equals cube root of 3 x subscript n squared plus 2 x subscript n minus 1 space end root`\n\nwould converge to the root close to $x=3.5$when using a starting value of $x_{0}=0.5$.",
+     "solution_md": "![](assets/044-img.png)",
+     "equations": [
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x"
+      },
+      {
+       "latex": "x^{3}-3x^{2}-2x+1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x cubed minus 3 x squared minus 2 x plus 1 equals 0"
+      },
+      {
+       "latex": "x=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 3.5 space"
+      },
+      {
+       "latex": "x_{0}=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 0.5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tYpFWg43ddP9swNG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Use $x_{0}=0.5$ in the iterative formula from part (a) to find three further approximations to the root close to$x=3.5$.  \nGive each approximation correct to three significant figures.\n\n(ii) Comment on your approximations and what they suggest about convergence to the root close to $x=3.5$.",
+     "solution_md": "![](assets/045-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 0.5"
+      },
+      {
+       "latex": "x=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 3.5"
+      },
+      {
+       "latex": "x=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 3.5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hshfmzkMVf8nwXWd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Confirm that the root close to $x=3.5$is 3.49 correct to three significant figures.",
+     "solution_md": "![](assets/046-img.png)",
+     "equations": [
+      {
+       "latex": "x=3.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>5</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 3.5 space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2C4X3n7PMRBqS2xg",
+   "set_slug": "exam-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_dMPF39vgPdmhrM3J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk",
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagrams below show the graphs of four different functions.\n\n![q5a-10-1-solving-equations-hard-a-level-maths-pure](assets/061-q5a-10-1-solving-equations-hard-a-level-maths-pu.png)\n\n![q5-2-10-1-solving-equations-hard-a-level-maths-pure](assets/062-q5-2-10-1-solving-equations-hard-a-level-maths-p.png)\n\nMatch each graph above with the correct statement below.\n\n1. The sign change rule with values of $x=2$ and $x=4$ would indicate a root but has failed due to the discontinuity (asymptote) at $x=3$.\n2. The sign change rule with values of $x=1$ and $x=5$would indicate no root but has failed because there are two roots in the interval (1 , 5).\n3. The sign change rule with values of$x=3$ and $x=5$ would indicate no root but fail as there are two roots in the interval (3 , 5).\n4. The sign change rule with values of $x=3$ and $x=5$ would indicate no root but has failed to find the root as the graph has a turning point at $x=α$.",
+     "solution_md": "![](assets/063-img.png)",
+     "equations": [
+      {
+       "latex": "x=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 2"
+      },
+      {
+       "latex": "x=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 4"
+      },
+      {
+       "latex": "x=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 3"
+      },
+      {
+       "latex": "x=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 1"
+      },
+      {
+       "latex": "x=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>5</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 5 space"
+      },
+      {
+       "latex": "x=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>3</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 3 space"
+      },
+      {
+       "latex": "x=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 5"
+      },
+      {
+       "latex": "x=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 3"
+      },
+      {
+       "latex": "x=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 5"
+      },
+      {
+       "latex": "x=α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi>α</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_W6KhvR4CmSDjpPyc",
+   "set_slug": "exam-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_yHVgPPXyBDVN83Ts",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows the graphs of$y=x$ and $y=g(x)$.\n\n![QpsJxjGx_q1a-10-1-solving-equations-hard-a-level-maths-pure](assets/039-qpsjxjgx-q1a-10-1-solving-equations-hard-a-level.png)\n\nShow on the diagram, using the value of $x_{0}$ indicated, how an iterative process will lead to a sequence of estimates that converge to the *x*-coordinate of the point *P*. Mark the estimates $x_{1}$and $x_{2}$ on your diagram.",
+     "solution_md": "![](assets/040-img.png)",
+     "equations": [
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>y</mi><mo>=</mo><mi>x</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space y equals x space"
+      },
+      {
+       "latex": "y=g(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals g left parenthesis x right parenthesis"
+      },
+      {
+       "latex": "x_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0"
+      },
+      {
+       "latex": "x_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><msub><mi>x</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x subscript 1"
+      },
+      {
+       "latex": "x_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RKrrbNg9mZQpmcQN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "By finding a suitable iterative formula, use $x_{0}=2$ to estimate a root to the equation$x-\\mathrm{sin}0.8x=2.5$ correct to two significant figures.",
+     "solution_md": "![](assets/041-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 2"
+      },
+      {
+       "latex": "x-\\mathrm{sin}0.8x=2.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>-</mo><mi>sin</mi><mo> </mo><mn>0</mn><mo>.</mo><mn>8</mn><mi>x</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x minus sin space 0.8 x equals 2.5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xnXwtRVwWpjW4hcV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Confirm that your answer to part (b) is correct to two significant figures.",
+     "solution_md": "![](assets/042-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8NMcqpRpg6mTV27n",
+   "set_slug": "exam-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_8rvKx7YD8CH3CpDm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The village of Crinkley Bottom lies on a straight road, as modelled by the line $y=x$ on the graph below.  Rush hour traffic causes much air pollution in the village so to improve the air quality around Crinkley Bottom a bypass is to be built. \nThe path of the bypass is modelled by part of the equation $y=x^{2}\\mathrm{sin}x$.\n\n![q1-10-2-edexcel-modelling-with-numerical-methods-hard](assets/057-q1-10-2-edexcel-modelling-with-numerical-methods.png)\n\nThe bypass is to be built with a roundabout south of the village at the origin and a northern roundabout which re-joins the road through Crinkley Bottom at the point $P(p,p)$.\n\nOn the diagram show how using the iterative formula $x_{n+1}=x_{n}^{2}\\mathrm{sin}x$\n\nwith $0<x_{0}<p$ will lead to convergence at the southern roundabout",
+     "solution_md": "![](assets/058-img.png)",
+     "equations": [
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x"
+      },
+      {
+       "latex": "y=x^{2}\\mathrm{sin}x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mi>sin</mi><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x squared sin space x"
+      },
+      {
+       "latex": "P(p,p)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>p</mi><mo>,</mo><mi>p</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis p comma p right parenthesis"
+      },
+      {
+       "latex": "x_{n+1}=x_{n}^{2}\\mathrm{sin}x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msup><msub><mi>x</mi><mi>n</mi></msub><mn>2</mn></msup><mi>sin</mi><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals x subscript n squared sin space x"
+      },
+      {
+       "latex": "0<x_{0}<p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>&lt;</mo><msub><mi>x</mi><mn>0</mn></msub><mo>&lt;</mo><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "0 less than x subscript 0 less than p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Vqpt7Z5ZJR6p7Dc9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Use the alternative iterative method\n\n$x_{n+1}=\\sqrt{\\frac{x}{\\mathrm{sin}x}}$\n\nwith $x_{0}=1,$ to find the position of the roundabout at $P$ to four significant figures.",
+     "solution_md": "![](assets/059-img.png)",
+     "equations": [
+      {
+       "latex": "x_{n+1}=\\sqrt{\\frac{x}{\\mathrm{sin}x}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msqrt><mfrac><mi>x</mi><mrow><mi>sin</mi><mo> </mo><mi>x</mi></mrow></mfrac></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals square root of fraction numerator x over denominator sin space x end fraction end root"
+      },
+      {
+       "latex": "x_{0}=1,",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1 comma"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hSvmR3mnsZvG5Q2X",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Verify that your answer to part (b) is correct to four significant figures.",
+     "solution_md": "![](assets/060-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CVNHGGvXwKP3Rzh7",
+   "set_slug": "exam-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_R4vBSGBv7Xx7HWQy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The game of Logball is played on a flat table.\n\nA player rolls a ball from a fixed point, at any angle, with the aim of it coming to rest within a winning zone.\n\nA particular player decides to roll the ball at an angle of 45°, as illustrated in the graph below, with the ball being rolled from the origin and the shaded area being the winning zone.\n\nThe lower boundary of the winning zone has equation  $y=3-\\mathrm{ln}(x+1)^{2}$,  $x,y\\geq0$\n\nThe upper boundary of the winning zone has equation `y equals 4 minus ln open parentheses x plus 1 close parentheses squared`  ,  $x,y\\geq0$\n\n![q2-10-2-edexcel-modelling-with-numerical-methods-hard](assets/051-q2-10-2-edexcel-modelling-with-numerical-methods.png)\n\nUsing an appropriate iterative formula with initial value $x_{0}=1.8,$, find the minimum distance this player’s ball needs to travel to stop within the winning zone. Give your answer to two significant figures.",
+     "solution_md": "![](assets/052-img.png)",
+     "equations": [
+      {
+       "latex": "y=3-\\mathrm{ln}(x+1)^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mo>-</mo><mi>ln</mi><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 3 minus ln left parenthesis x plus 1 right parenthesis squared"
+      },
+      {
+       "latex": "x,y\\geq0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mi>y</mi><mo>≥</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x comma y greater or equal than 0"
+      },
+      {
+       "latex": "x,y\\geq0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>,</mo><mi>y</mi><mo>≥</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x comma y greater or equal than 0"
+      },
+      {
+       "latex": "x_{0}=1.8,",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>8</mn><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1.8 comma"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RJtbh7yq9ykSm7z3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using another iterative formula with initial value $x_{0}=2.5,$, find the maximum distance this player’s ball can travel yet remain within the winning zone. \nGive your answer to two significant figures.",
+     "solution_md": "![](assets/053-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}=2.5,",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 2.5 comma"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_C4v7RNc2bDD7Nxzc",
+   "set_slug": "exam-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": "practice",
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_8QhmjNZGcKjbZV9V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "According to legend, unicorn tears have magical healing powers.\n\nWhen a unicorn tear is applied to a bruise of size $A\\mathrm{mm}^{2}$ it will heal according to the model\n\n`straight f open parentheses t close parentheses equals A e to the power of negative 0.15 t end exponent minus space 0.2 t space space space space space space space space space space space space space space space space space space space space space space space space space t greater or equal than 0`\n\nwhere $f$ is the area of the bruise, in square millimeters, at time $t$ seconds after the unicorn tear is applied.\n\nShow that, for a bruise of initial size $20\\mathrm{mm}^{2}$, the equation `straight f open parentheses t close parentheses`$=0$ can be rearranged into the form\n\n`t equals 20 over 3 In open parentheses 100 over t close parentheses.`",
+     "solution_md": "![](assets/054-img.png)",
+     "equations": [
+      {
+       "latex": "A\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A space mm squared"
+      },
+      {
+       "latex": "f",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"normal\">f</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "20\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 space mm squared"
+      },
+      {
+       "latex": "=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "equals 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nk3zYGDx2YrFm8YP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Using the equation from part (a) as an iterative formula and initial value $t_{0}=12,$ find how many seconds it takes a bruise of siae $20\\mathrm{mm}^{2}$ to heal once a unicorn tear is applied. Give your answer to three significant figures.",
+     "solution_md": "![](assets/055-img.png)",
+     "equations": [
+      {
+       "latex": "t_{0}=12,",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mn>12</mn><mo>,</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 0 equals 12 comma"
+      },
+      {
+       "latex": "20\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 space mm squared"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Sm7xsW9QmJWRYg6g",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "It is rumoured that a unicorn tear can heal bruises one-hundred-thousand times faster than they would heal naturally. Approximately how many days would it take a bruise of initial size $20\\mathrm{mm}^{2}$ to heal without a unicorn tear?",
+     "solution_md": "![](assets/056-img.png)",
+     "equations": [
+      {
+       "latex": "20\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>20</mn><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "20 space mm squared"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8Q4hnZY9PZ4xNZdQ",
+   "set_slug": "exam-questions",
+   "order": 22,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_FK4dHSdg5S7CVrmD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The diagram below shows part of the graph with equation `straight f left parenthesis x right parenthesis equals x tan open parentheses space pi minus x close parentheses minus 3` .\n\n![q1a-10-1-solving-equations-very-hard-a-level-maths-pure-screenshots](assets/035-q1a-10-1-solving-equations-very-hard-a-level-mat.png)\n\nA student searches for a root of the equation `straight f open parentheses x close parentheses equals 0`. They find that `straight f open parentheses 1.5 close parentheses equals negative 24.2` and that `f open parentheses 1.6 close parentheses equals 51.8`. The student concludes that there is a root in the interval $1.5<x<1.6$. \nExplain why the student’s conclusion is incorrect.",
+     "solution_md": "![](assets/036-img.png)",
+     "equations": [
+      {
+       "latex": "1.5<x<1.6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>5</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn><mo>.</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1.5 less than x less than 1.6"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_d3DJDmjfDtqgJwyx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BPzK4hYjprckscTt"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Verify that $x=0$ is a solution to the equation `straight f open parentheses x close parentheses plus 3 equals 0.`",
+     "solution_md": "![](assets/037-img.png)",
+     "equations": [
+      {
+       "latex": "x=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VqbXvj4dnsqTNrqY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Explain why the sign change rule would fail if searching for the root$x=0$ of the equation `straight f open parentheses x close parentheses plus 3 equals 0`.",
+     "solution_md": "![](assets/038-img.png)",
+     "equations": [
+      {
+       "latex": "x=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mn>0</mn><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals 0 space"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BHNSJXKVHvJx654Q",
+   "set_slug": "exam-questions",
+   "order": 23,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_btzrqFCs3mrmyppB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The function,$f(x)$ is defined by\n `straight f open parentheses x close parentheses equals 1 over e to the power of x minus x plus 1 space space space space space space space space space space space space space space x element of straight real numbers`\n\nShow that the equation `straight f open parentheses x close parentheses equals 0` can be written in the form\n\n$x=e^{-x}+1$",
+     "solution_md": "![](assets/030-img.png)",
+     "equations": [
+      {
+       "latex": "f(x)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space straight f left parenthesis x right parenthesis space"
+      },
+      {
+       "latex": "x=e^{-x}+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mo> </mo><mi>x</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space space x equals e to the power of negative x end exponent plus 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_SVJHb7Scn32cthtr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_RN7njy7mfmQdHSc3"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "On the same diagram sketch the graphs of $y=x$ and $y=e^{-x}+1$.",
+     "solution_md": "![](assets/031-img.png)",
+     "equations": [
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x"
+      },
+      {
+       "latex": "y=e^{-x}+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals e to the power of negative x end exponent plus 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xVd7wYWbG5zJ2c8M",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The equation `straight f open parentheses x close parentheses equals 0` has a root, $α$, close to $x=1$. The iterative formula  $x_{n+1}=e^{-x_{n}}+1$ with $x_{0}=2$ is to be used to find $α$ correct to three significant figures.\n\nShow, using a diagram and your answer to part (b), that this formula and initial *x* value will converge to the root $α$.",
+     "solution_md": "![](assets/032-img.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "x=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals 1"
+      },
+      {
+       "latex": "x_{n+1}=e^{-x_{n}}+1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><msub><mi>x</mi><mi>n</mi></msub></mrow></msup><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals e to the power of negative x subscript n end exponent plus 1"
+      },
+      {
+       "latex": "x_{0}=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 2"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QCQXdk6Q8mb2sXjN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Find the values of$x_{1},x_{2}$and $x_{3}$, giving each correct to three significant figures.\n\n(ii) How many iterations are required before $x_{n}$ and $x_{n-1}$ agree to two decimal places?",
+     "solution_md": "![](assets/033-img.png)",
+     "equations": [
+      {
+       "latex": "x_{1},x_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo> </mo><msub><mi>x</mi><mn>2</mn></msub><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x subscript 1 comma space x subscript 2 space"
+      },
+      {
+       "latex": "x_{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>3</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 3"
+      },
+      {
+       "latex": "x_{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mi>n</mi></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n"
+      },
+      {
+       "latex": "x_{n-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n minus 1 end subscript"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_48WD3Mpr5BQyhx3t",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tnGXWDF39HwFf7Pk"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The root $α$  lies in the interval $p<x<q$. Write down the values of *p* and *q *such that $α$ can be deduced accurate to two decimal places from the interval.",
+     "solution_md": "![](assets/034-img.png)",
+     "equations": [
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      },
+      {
+       "latex": "p<x<q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p less than x less than q"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>α</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "alpha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NJj4JSzCVbb5Z6Db",
+   "set_slug": "exam-questions",
+   "order": 24,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_VbCrmMfyX7XC8zbZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jWc24T7YJ3vg83h5"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Sketch three separate graphs with values of $x=p$and $x=q$, to show how the sign change rule would fail to find a root *α* in the interval (*p , q) *for the following reasons:.\n\n(i) Sign change rule indicates a root but there isn’t one due to a discontinuity in the graph.\n\n(ii) Sign change rule indicates no root but there is a root at a turning point.\n\n(iii) Sign change rule indicates no root but there are in fact two roots in the interval p , q.\n\nOn each diagram, clearly labelled *p, q* and the root *α*.",
+     "solution_md": "![](assets/025-img.png)",
+     "equations": [
+      {
+       "latex": "x=p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo> </mo><mi>x</mi><mo>=</mo><mi>p</mi><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space x equals p space"
+      },
+      {
+       "latex": "x=q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mi>q</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x equals q"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tRbrZmBcTZ9d3JfB",
+   "set_slug": "exam-questions",
+   "order": 25,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_MzRDThBMmzd5qS9G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Sketch two separate diagrams to show how an iterative formula of the form\n\n$x_{n+1}=g(x_{n})$\n\ncan diverge in two different ways when being used to find an estimate for a root to the equation $f(x)=0$.",
+     "solution_md": "![](assets/024-img.png)",
+     "equations": [
+      {
+       "latex": "x_{n+1}=g(x_{n})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mi mathvariant=\"normal\">g</mi><mo>(</mo><msub><mi>x</mi><mi>n</mi></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript n plus 1 end subscript equals straight g left parenthesis x subscript n right parenthesis"
+      },
+      {
+       "latex": "f(x)=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals 0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_C9XCVnQtT3d4mbfs",
+   "set_slug": "exam-questions",
+   "order": 26,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_QxF9gymH5bjhTR3S",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CbPh4WmwTnQkjr3P"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The village of Camberwick Green lies on a straight road, as modelled by the line $y=x$  on the graph below.  Rush hour traffic through the village causes both congestion and air pollution.  To ease congestion and improve the air quality around Camberwick Green a bypass , modelled by part of the equation $y=1+2\\mathrm{ln}(x^{2})$   is to be built.\n\n![4mI3nnPc_q1-10-2-edexcel-modelling-with-numerical-methods-hard](assets/026-4mi3nnpc-q1-10-2-edexcel-modelling-with-numerica.png)\n\nThe bypass is to be built with a roundabout south of the village at point $S$ and a northern roundabout which re-joins the road through Camberwick Green at the point $P(p,p)$.\n\nWrite down the coordinates of the southern roundabout at point $S$.",
+     "solution_md": "![](assets/027-img.png)",
+     "equations": [
+      {
+       "latex": "y=x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals x"
+      },
+      {
+       "latex": "y=1+2\\mathrm{ln}(x^{2})",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo> </mo><mi>ln</mi><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals 1 plus 2 space ln left parenthesis x squared right parenthesis"
+      },
+      {
+       "latex": "S",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>S</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S"
+      },
+      {
+       "latex": "P(p,p)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>p</mi><mo>,</mo><mi>p</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P left parenthesis p comma p right parenthesis"
+      },
+      {
+       "latex": "S",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>S</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "S"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kKXwGyGQ2RYfnTZx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "(i) Show on the diagram how an iterative method with a starting value ($x_{0}$) in the interval $(1,p)$ will converge to the northern roundabout at point $P$.\n\n(ii) Use a suitable iterative formula with an appropriate initial value ($x_{0}$) to find the value of $p$ to five significant figures.",
+     "solution_md": "![](assets/028-img.png)",
+     "equations": [
+      {
+       "latex": "x_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0"
+      },
+      {
+       "latex": "(1,p)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>,</mo><mi>p</mi><mo>)</mo><mo> </mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "left parenthesis 1 space comma p right parenthesis space"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x_{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>x</mi><mn>0</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "p"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rnhMbTG2Tq64fPnF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VHJZWXfzfpzcxfZG"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "Find the length of road through Camberwick Green that will benefit from the construction of the bypass. Decide on an appropriate unit of measurement.",
+     "solution_md": "![](assets/029-img.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zyp67gTb99RyJpS7",
+   "set_slug": "exam-questions",
+   "order": 27,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_WWQqP9HR5MjzJF4c",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "The game of Funcball is played on a flat table. A player rolls a ball from a fixed point, at any angle, with the aim of it coming to rest within a winning zone.\n\nThe winning zone is modelled by the function\n\n$f(x)=\\mathrm{ln}(3x+4)-0.25x^{2}$\n\nThe lower boundary of the winning zone has equation $y=f(x),x,y\\geq0$\n\nThe upper boundary of the winning zone has equation $y=f(x)+1,x,y\\geq0$,\n\nA particular player decides to roll the ball at an angle of 45°, as illustrated by the graph below, with the ball being rolled from the origin and the shaded area being the winning zone.\n\n![yUH2wGe6_cie-p3-q7-maths](assets/019-yuh2wge6-cie-p3-q7-maths.png)\n\nUsing iterative formulas with initial values $x_{0}=1.5$ and $x_{0}=2.1$ as appropriate, find the exact distances between which the ball must stop for this player to win Funcball. Give your answers to two significant figures.",
+     "solution_md": "![](assets/020-img.png)",
+     "equations": [
+      {
+       "latex": "f(x)=\\mathrm{ln}(3x+4)-0.25x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>ln</mi><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>25</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight f left parenthesis x right parenthesis equals ln left parenthesis 3 x plus 4 right parenthesis minus 0.25 x squared"
+      },
+      {
+       "latex": "y=f(x),x,y\\geq0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>,</mo><mo> </mo><mo> </mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>≥</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals straight f left parenthesis x right parenthesis comma space space x comma y greater or equal than 0"
+      },
+      {
+       "latex": "y=f(x)+1,x,y\\geq0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mn>1</mn><mo>,</mo><mo> </mo><mo> </mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>≥</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "y equals straight f left parenthesis x right parenthesis plus 1 comma space space x comma y greater or equal than 0"
+      },
+      {
+       "latex": "x_{0}=1.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 1.5"
+      },
+      {
+       "latex": "x_{0}=2.1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "x subscript 0 equals 2.1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zc7sPrj8cbvbM6Rg",
+   "set_slug": "exam-questions",
+   "order": 28,
+   "difficulty": "very_hard",
+   "style": "practice",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_ww2dKdG7QbKKk497",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BfHcWctk2Fw8QtZj"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "According to legend, unicorn tears have magical healing powers.\n\nWithout unicorn tears, a bruise of initial size $A\\mathrm{mm}^{2}$ will heal according to the model\n\n`straight f open parentheses t close parentheses space equals space A e to the power of negative 0.25 t end exponent space minus space 0.1 t space space space space space space space space space space t greater or equal than 0`\n\nwhere $f$ is the area of the bruise, in square millimeters, at time $t$ days since the bruise first appeared.\n\nUse the iterative formula\n\n`t subscript n plus 1 end subscript equals 4 space In space open parentheses 120 over t subscript n close parentheses`\n\nwith $t_{0}=10$ to find how many days it takes a bruise to heal without unicorn tears.\n\nGive your answer to three significant figures.",
+     "solution_md": "![](assets/021-img.png)",
+     "equations": [
+      {
+       "latex": "A\\mathrm{mm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo> </mo><msup><mi>mm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A space mm squared"
+      },
+      {
+       "latex": "f",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>f</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t_{0}=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "t subscript 0 equals 10"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6jk8fP7WBrmncxSW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9kbfchzHcdwh6WZN"
+     ],
+     "part_tier": "a_level_only",
+     "problem_md": "With unicorn tears, a bruise of the same initial size will heal according to the model\n\n`u open parentheses T close parentheses equals A T e to the power of negative T end exponent minus space 0.1 T space space space space space space space space space space space space space space space space space space T greater or equal than 0`\n\nwhere time $T$ is measured in seconds.\n\n(i) Find the initial size of the bruise considered in part (a).\n\n(ii) Find how many seconds it takes the same size bruise to heal using unicorn tears.",
+     "solution_md": "![](assets/022-img.png)",
+     "equations": [
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "T"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gNDd6S8R9VQzxJtF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": "a_level_only",
+     "problem_md": "Using your answer from parts(a) and (b), work out approximately how many times quicker a bruise heals when unicorn tears are used.",
+     "solution_md": "![](assets/023-img.png)"
+    }
+   ]
+  }
+ ]
+}
