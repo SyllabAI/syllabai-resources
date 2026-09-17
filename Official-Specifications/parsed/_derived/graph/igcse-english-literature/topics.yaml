@@ -16,9 +16,114 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 176
-  topics: 0
-  subsections: 0
+  spec_points: 65
+  topics: 3
+  subsections: 9
   practicals: 0
-topics: []
-subsections: []
+topics:
+- code: 4ET1-S1
+  title: Poetry and Modern Prose (examined)
+  ordering: 1
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 17
+    pdf_sha1: 730bffa31a42d01fe96351f8d0361fd8bb8893dd
+  damage_flags: []
+- code: 4ET1-S2
+  title: Modern Drama and Literary Heritage Texts (examined)
+  ordering: 2
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 20
+    pdf_sha1: 730bffa31a42d01fe96351f8d0361fd8bb8893dd
+  damage_flags: []
+- code: 4ET1-S3
+  title: Modern Drama and Literary Heritage Texts (coursework)
+  ordering: 3
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 22
+    pdf_sha1: 730bffa31a42d01fe96351f8d0361fd8bb8893dd
+  damage_flags: []
+subsections:
+- code: 4ET1-SUB1
+  letter: C1.1
+  title: Part 3 of the Pearson Edexcel International GCSE English Anthology
+  parent_topic: 4ET1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 17
+- code: 4ET1-SUB2
+  letter: C1.2
+  title: A choice of one text from Modern Prose
+  parent_topic: 4ET1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 17
+- code: 4ET1-SUB3
+  letter: C1.3
+  title: Understanding the relationship between a text and its context (AO4)
+  parent_topic: 4ET1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 18
+- code: 4ET1-SUB4
+  letter: C2.1
+  title: A choice of one text from Modern Drama
+  parent_topic: 4ET1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4ET1-SUB5
+  letter: C2.2
+  title: A choice of one text from Literary Heritage
+  parent_topic: 4ET1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4ET1-SUB6
+  letter: C2.3
+  title: Understanding the relationship between a text and its context (AO4)
+  parent_topic: 4ET1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 20
+- code: 4ET1-SUB7
+  letter: C3.1
+  title: A choice of one text from Modern Drama.
+  parent_topic: 4ET1-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4ET1-SUB8
+  letter: C3.2
+  title: A choice of one text from Literary Heritage.
+  parent_topic: 4ET1-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4ET1-SUB9
+  letter: C3.3
+  title: Understanding the relationship between a text and its context (AO4)
+  parent_topic: 4ET1-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22

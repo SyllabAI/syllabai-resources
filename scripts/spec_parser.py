@@ -5,8 +5,14 @@ Family strategies:
   code_column     IGCSE sciences (linear+modular), SDA, IAL sciences/maths
                   statement code (N.M[BCHP]?) in left column, text right/inline
   triplet_table   Business, ICT, Economics: N.M topic rows + N.M.K statements
-  heading_bullets Geography, Accounting, English Lit, Further Maths:
+  heading_bullets Geography, Accounting:
                   bold headings + bullet statements (synthesized IDs)
+  further_maths   Further Pure Maths (4PM1): numbered sections (14pt bold
+                  'N Title'), bold single-letter statements A-Z in left col
+                  (x<316), Notes col (x>=316) excluded. Code = '<sec><letter>'.
+  english_lit     English Lit (4ET1): 'Component N:' topics, strand points
+                  (Section/Assignment A-C), set-text rows (title + author),
+                  skills bullets. No printed codes -> synthesized C<N> ids.
   maths_table     Maths A linear + modular: 3-column content tables
                   (left: AO/section/subsection codes+titles, mid: lettered
                   statements A-Z, right: Notes excluded). Linear = Foundation
@@ -47,7 +53,7 @@ FAMILY = {
     'igcse-economics': 'lettered_table',
     'igcse-maths-a': 'maths_table', 'igcse-maths-a-modular': 'maths_table',
     'igcse-geography': 'heading_bullets', 'igcse-accounting': 'heading_bullets',
-    'igcse-english-literature': 'heading_bullets', 'igcse-further-maths': 'heading_bullets',
+    'igcse-english-literature': 'english_lit', 'igcse-further-maths': 'further_maths',
 }
 UNIT_HDR = re.compile(r'^([A-Z]{1,2}\d{1,2})\.\d+\s+Unit content')
 SCI_HDR = re.compile(r'^(Biology|Chemistry|Physics)\s+content$', re.I)
@@ -794,6 +800,279 @@ def _has_unit_headers(doc, kill):
                 return True
     return False
 
+# ----------------------------------------------------------- further_maths ---
+
+FM_LEFT_MAX = 300        # content column; Notes column text starts x315.8
+FM_SEC_MIN = 13.5        # section headers are 14pt bold
+
+def parse_further_maths(doc, kill):
+    """IGCSE Further Pure Maths (4PM1) content tables.
+    Two-column layout: content (x<316) + Notes (x>=316, excluded).
+    Section headers: 14pt bold 'N Title' lines. Statements: bold single
+    letters A-Z at x62 with wrapped text below (10pt). official_code =
+    '<section><letter>' (e.g. '1A') — the document's own hierarchy: the
+    section number and the statement letter are both printed. Inline 12pt
+    math spans assemble via _maths_join; sub/sup satellites sit ~4pt off
+    baseline so some wording is span soup -> flagged, not guessed."""
+    sec_first = last_page = None
+    for pno in range(doc.page_count):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        lines = _col_lines(spans, kill, 0, FM_LEFT_MAX)
+        has_tbl_hdr = any(L['text'] == 'What students need to learn' for L in lines)
+        has_sec = any(L['bold'] and L['sizes'] and max(L['sizes']) > FM_SEC_MIN
+                      and MATHS_SECTION.match(L['text']) for L in lines)
+        if has_tbl_hdr and has_sec and sec_first is None:
+            sec_first = pno
+        for L in lines:
+            f0 = L['spans'][0]
+            if f0['font'].endswith('Bold') and MATHS_LETTER.match(f0['text'].strip()) \
+                    and f0['x0'] < 75 and f0['size'] < 12 and max(L['sizes']) < 12.5:
+                last_page = pno
+    if sec_first is None or last_page is None or last_page < sec_first:
+        return [], [], []
+    all_topics, items, orphans = [], [], []
+    cur_topic = cur_stmt = None
+    for pno in range(sec_first, last_page + 1):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        for L in _col_lines(spans, kill, 0, FM_LEFT_MAX):
+            t = L['text']
+            first = L['spans'][0]
+            is_bold = first['font'].endswith('Bold')
+            if is_bold and L['sizes'] and max(L['sizes']) > FM_SEC_MIN \
+                    and MATHS_SECTION.match(t):
+                m = MATHS_SECTION.match(t)
+                cur_topic = {'number': m.group(1), 'title': m.group(2).strip(),
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                all_topics.append(cur_topic)
+                cur_stmt = None
+                orphans = []
+                continue
+            if is_bold and MATHS_LETTER.match(first['text'].strip()) \
+                    and first['x0'] < 75 and first['size'] < 12:
+                if cur_topic is None:
+                    continue
+                body = _maths_join([s for s in L['spans'] if s['x0'] > first['x0'] + 1])
+                adopted = [o for o in orphans if o['oy'] >= L['oy'] - 8]
+                flags = []
+                if adopted:
+                    body = (body + ' ' + ' '.join(o['text'] for o in adopted)).strip()
+                    flags.append('floating-formula-adopted')
+                orphans = []
+                cur_stmt = {'official_code': f"{cur_topic['number']}{first['text'].strip()}",
+                            'text': body, 'page': pno + 1, 'oy': round(L['oy'], 1),
+                            'topic': {k: cur_topic[k] for k in ('number', 'title', 'page', 'oy')},
+                            'subsection': None, 'sub_items': [],
+                            'flags': flags}
+                items.append(cur_stmt)
+                continue
+            if not is_bold and t not in ('What students need to learn', 'Notes'):
+                if is_noise(L):
+                    continue
+                if cur_stmt is not None and L['oy'] >= cur_stmt['oy'] - 1:
+                    more = _maths_join(L['spans'])
+                    if more:
+                        cur_stmt['text'] = (cur_stmt['text'] + ' ' + more).strip()
+                else:
+                    orphans = [o for o in orphans if L['oy'] - o['oy'] < 12]
+                    orphans.append(L)
+    # global dedupe on official_code (identical text -> first wins)
+    seen, out = {}, []
+    for st in items:
+        norm = re.sub(r'\s+', ' ', st['text']).strip().lower()
+        key = st['official_code']
+        if key in seen:
+            if seen[key] == norm:
+                continue
+            st['_dupn'] = 2 + sum(1 for d in out if d['official_code'] == key and d.get('_dupn'))
+            st['flags'] = sorted(set(st.get('flags', []) + ['duplicate-code-different-text']))
+        else:
+            seen[key] = norm
+        out.append(st)
+    return out, all_topics, []
+
+# ------------------------------------------------------------ english_lit ----
+
+EL_HDR = re.compile(r'^Component (\d+):\s*(.*)$')
+EL_STRAND = re.compile(r'^(?:Section|Assignment) ([A-C]) \u2013 (.+)$')
+EL_AUTHOR_X = (272, 310)   # author column x-offsets (280/282 printed)
+EL_TITLE_MAX = 265
+
+def parse_english_lit(doc, kill):
+    """IGCSE English Literature (4ET1) content pages.
+    Region: '4 English Literature content' .. '5 Assessment information'
+    (18pt bold digit headers). Topics = 'Component N: Title' (16pt bold,
+    title may wrap to a second bold line at x>130). Points:
+      - strands: 'Section/Assignment X – ...' focus paragraphs
+      - set texts: rows with title at x62 + author at x280 under bold
+        group labels ('Part 3 of the ... Anthology', 'A choice of one
+        text from Modern Prose', ...) -> '<title> (<author>)'
+      - skills bullets: '•' rows under bold skill headings
+    No printed statement codes: official_code stays null; ids synthesized
+    C<N>A<letter> / C<N>T<k> / C<N>S<k>. The PDF repeats the set-text lists
+    in '3 Set texts at a glance' — excluded (duplicate region)."""
+    start = end = None
+    for pno in range(doc.page_count):
+        for L in _col_lines(page_spans(doc[pno]), kill, 0, 200):
+            if L['bold'] and L['sizes'] and max(L['sizes']) > 17 \
+                    and re.match(r'^\d+ ', L['text']):
+                if start is None:
+                    if L['text'].startswith('4 '):
+                        start = pno
+                elif end is None:
+                    end = pno
+                    break
+        if end is not None:
+            break
+    if start is None:
+        return [], [], []
+    if end is None:
+        end = doc.page_count - 1
+    all_topics, all_subsecs, items = [], [], []
+    cur_topic = cur_subsec = cur_stmt = None
+    ctr = {'A': 0, 'T': 0, 'S': 0}
+    in_admin = False
+
+    def author_present(L):
+        return any(EL_AUTHOR_X[0] <= s['x0'] < EL_AUTHOR_X[1] and len(s['text'].strip()) > 2
+                   for s in L['spans'])
+
+    for pno in range(start, end):
+        spans = [s for s in page_spans(doc[pno]) if not kill(s)]
+        lines = _col_lines(spans, kill, 0, 380)
+        i = 0
+        while i < len(lines):
+            L = lines[i]
+            t = L['text']
+            first = L['spans'][0]
+            is_bold = L['bold']
+            big = L['sizes'] and max(L['sizes']) >= 15
+            if big and is_bold and EL_HDR.match(t) and first['x0'] < 100:
+                m = EL_HDR.match(t)
+                title = m.group(2).strip()
+                j = i + 1
+                while j < len(lines):
+                    N = lines[j]
+                    if N['bold'] and N['sizes'] and max(N['sizes']) >= 15 \
+                            and N['spans'][0]['x0'] > 130 and N['oy'] - lines[j - 1]['oy'] < 40:
+                        title = (title + ' ' + N['text']).strip()
+                        j += 1
+                    else:
+                        break
+                i = j
+                cur_topic = {'number': m.group(1), 'title': title,
+                             'page': pno + 1, 'oy': round(L['oy'])}
+                all_topics.append(cur_topic)
+                cur_subsec = cur_stmt = None
+                in_admin = False
+                ctr = {'A': 0, 'T': 0, 'S': 0}
+                continue
+            if in_admin:
+                i += 1
+                continue
+            # assessment/admin sub-block: skip until next component header
+            if is_bold and (t.startswith('Assessment overview')
+                            or t in ('Assignment setting', 'Assignment taking',
+                                     'Assignment marking', 'Setting the question',
+                                     'Assessment of coursework', 'Authenticity',
+                                     'Collaboration', 'Teacher feedback',
+                                     'Presentation of the work', 'Word count',
+                                     'Assessment criteria')):
+                in_admin = True
+                i += 1
+                continue
+            if is_bold and t.rstrip('.').lower().endswith('content') and first['x0'] < 100:
+                i += 1
+                continue
+            if is_bold and first['x0'] < 100 and cur_topic is not None:
+                # group label (set texts follow) vs skills heading (bullets follow)
+                # wrapped heading rows (bold, x<100, <16pt below) extend the title
+                prev = lines[i - 1] if i > 0 else None
+                if prev is not None and prev['bold'] and cur_subsec is not None \
+                        and cur_subsec.get('page') == pno + 1 \
+                        and L['oy'] - prev['oy'] < 16 \
+                        and prev['spans'][0]['x0'] < 100:
+                    cur_subsec['title'] = (cur_subsec['title'] + ' ' + t).strip()
+                    i += 1
+                    continue
+                nxt = lines[i + 1] if i + 1 < len(lines) else None
+                sub_k = sum(1 for s in all_subsecs if s['code'].startswith(f'C{cur_topic["number"]}.')) + 1
+                cur_subsec = {'code': f'C{cur_topic["number"]}.{sub_k}',
+                              'title': t, 'page': pno + 1, 'oy': round(L['oy'])}
+                all_subsecs.append(cur_subsec)
+                cur_stmt = None
+                i += 1
+                continue
+            m_str = EL_STRAND.match(t) if not is_bold else None
+            if m_str and first['x0'] < 100 and cur_topic is not None:
+                parts = [t]
+                j = i + 1
+                while j < len(lines):
+                    N = lines[j]
+                    if N['bold'] or N['spans'][0]['x0'] > 100 or author_present(N) \
+                            or EL_STRAND.match(N['text']):
+                        break
+                    parts.append(N['text'])
+                    j += 1
+                i = j
+                ctr['A'] += 1
+                cur_stmt = {'synth_id': f'C{cur_topic["number"]}A{m_str.group(1)}',
+                            'official_code': None,
+                            'text': re.sub(r'\s+', ' ', ' '.join(parts)).strip(),
+                            'page': pno + 1, 'oy': round(L['oy'], 1),
+                            'topic': {k: cur_topic[k] for k in ('number', 'title', 'page', 'oy')},
+                            'subsection': None, 'sub_items': []}
+                items.append(cur_stmt)
+                continue
+            if not is_bold and first['x0'] < 70 and author_present(L) and cur_topic is not None:
+                tspans = [s for s in L['spans'] if s['x0'] < EL_TITLE_MAX]
+                aspans = [s for s in L['spans'] if EL_AUTHOR_X[0] <= s['x0'] < EL_AUTHOR_X[1]]
+                title = re.sub(r'\s+', ' ', ' '.join(s['text'].strip() for s in tspans)).strip()
+                author = re.sub(r'\s+', ' ', ' '.join(s['text'].strip() for s in aspans)).strip()
+                j = i + 1
+                if j < len(lines):
+                    N = lines[j]
+                    if not N['bold'] and not author_present(N) \
+                            and N['spans'][0]['x0'] < 100 and not N['text'].startswith('\u2022') \
+                            and not EL_STRAND.match(N['text']) \
+                            and N['oy'] - L['oy'] < 20 and len(N['text']) < 60 \
+                            and (j + 1 >= len(lines) or lines[j + 1]['oy'] - N['oy'] > 13):
+                        title = (title + ' ' + N['text']).strip()
+                        j += 1
+                i = j
+                ctr['T'] += 1
+                text = f'{title} ({author})' if author else title
+                cur_stmt = {'synth_id': f'C{cur_topic["number"]}T{ctr["T"]:02d}',
+                            'official_code': None, 'text': text,
+                            'page': pno + 1, 'oy': round(L['oy'], 1),
+                            'topic': {k: cur_topic[k] for k in ('number', 'title', 'page', 'oy')},
+                            'subsection': dict(cur_subsec) if cur_subsec else None,
+                            'sub_items': []}
+                items.append(cur_stmt)
+                continue
+            if not is_bold and first['x0'] >= 70 and first['x0'] < 100 \
+                    and cur_stmt is not None and not author_present(L) \
+                    and not t.startswith('\u2022'):
+                # bullet continuation (indented x80 rows)
+                cur_stmt['text'] = (cur_stmt['text'] + ' ' + t).strip()
+                i += 1
+                continue
+            if not is_bold and any(s['text'].strip() == '\u2022' for s in L['spans'] if s['x0'] < 100) \
+                    and cur_topic is not None:
+                bspan = [s for s in L['spans'] if s['x0'] < 100 and s['text'].strip() == '\u2022'][0]
+                body = _maths_join([s for s in L['spans'] if s['x0'] > bspan['x0'] + 1])
+                ctr['S'] += 1
+                cur_stmt = {'synth_id': f'C{cur_topic["number"]}S{ctr["S"]:02d}',
+                            'official_code': None, 'text': body,
+                            'page': pno + 1, 'oy': round(L['oy'], 1),
+                            'topic': {k: cur_topic[k] for k in ('number', 'title', 'page', 'oy')},
+                            'subsection': dict(cur_subsec) if cur_subsec else None,
+                            'sub_items': []}
+                items.append(cur_stmt)
+                i += 1
+                continue
+            i += 1
+    return items, all_topics, all_subsecs
+
 # ------------------------------------------------------------------ main -----
 
 def sha1_of(path):
@@ -825,12 +1104,16 @@ def parse_pdf(pdf_path, qual_slug):
         statements, topics, subsecs = parse_heading_bullets(doc, kill)
     elif fam == 'maths_table':
         statements, topics, subsecs = parse_maths_table(doc, kill)
+    elif fam == 'further_maths':
+        statements, topics, subsecs = parse_further_maths(doc, kill)
+    elif fam == 'english_lit':
+        statements, topics, subsecs = parse_english_lit(doc, kill)
     else:
         statements, topics, subsecs = parse_code_column_bands(doc, kill)
     # finalize
     for st in statements:
         st['practical'] = bool(PRACTICAL_RE.search(st['text']))
-        extra = _maths_frag_flags(st['text']) if fam == 'maths_table' else []
+        extra = _maths_frag_flags(st['text']) if fam in ('maths_table', 'further_maths') else []
         st['flags'] = sorted(set(st.get('flags', []) + notation_flags(st['text']) + extra))
         st.pop('code_num', None)
         if 'synth_id' in st:

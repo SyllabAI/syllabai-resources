@@ -16,554 +16,344 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 176
-  topics: 0
-  subsections: 0
+  spec_points: 65
+  topics: 3
+  subsections: 9
   practicals: 0
 edges:
-- from: IGCSE_ENGLISH_LITERATURE:SX.001
+- from: 4ET1-SUB1
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 17
+- from: 4ET1-SUB2
+  relation: PART_OF
+  to: 4ET1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 17
+- from: 4ET1-SUB3
+  relation: PART_OF
+  to: 4ET1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 18
+- from: 4ET1-SUB4
+  relation: PART_OF
+  to: 4ET1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 20
+- from: 4ET1-SUB5
+  relation: PART_OF
+  to: 4ET1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 20
+- from: 4ET1-SUB6
+  relation: PART_OF
+  to: 4ET1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 20
+- from: 4ET1-SUB7
+  relation: PART_OF
+  to: 4ET1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4ET1-SUB8
+  relation: PART_OF
+  to: 4ET1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4ET1-SUB9
+  relation: PART_OF
+  to: 4ET1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C1AA
+  relation: PART_OF
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 8
-- from: IGCSE_ENGLISH_LITERATURE:SX.002
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1AB
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 8
-- from: IGCSE_ENGLISH_LITERATURE:SX.003
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1AC
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 8
-- from: IGCSE_ENGLISH_LITERATURE:SX.004
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T01
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 8
-- from: IGCSE_ENGLISH_LITERATURE:SX.005
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T02
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 8
-- from: IGCSE_ENGLISH_LITERATURE:SX.006
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T03
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 10
-- from: IGCSE_ENGLISH_LITERATURE:SX.007
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T04
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 10
-- from: IGCSE_ENGLISH_LITERATURE:SX.008
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T05
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 10
-- from: IGCSE_ENGLISH_LITERATURE:SX.009
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T06
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 10
-- from: IGCSE_ENGLISH_LITERATURE:SX.010
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T07
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.011
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T08
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.012
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T09
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.013
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T10
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.014
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T11
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.015
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T12
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.016
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T13
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 11
-- from: IGCSE_ENGLISH_LITERATURE:SX.017
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T14
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.018
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T15
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.019
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T16
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.020
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T17
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.021
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T18
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.022
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T19
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.023
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T20
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.024
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1T21
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.025
+    pdf_page: 17
+- from: IGCSE_ENGLISH_LITERATURE:C1S01
   relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.026
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.027
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.028
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.029
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.030
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.031
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 12
-- from: IGCSE_ENGLISH_LITERATURE:SX.032
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.033
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.034
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.035
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.036
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.037
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.038
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.039
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.040
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.041
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.042
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.043
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.044
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.045
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.046
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.047
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.048
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.049
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.050
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.051
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.052
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.053
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.054
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 13
-- from: IGCSE_ENGLISH_LITERATURE:SX.055
-  relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -571,9 +361,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.056
+- from: IGCSE_ENGLISH_LITERATURE:C1S02
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -581,9 +371,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.057
+- from: IGCSE_ENGLISH_LITERATURE:C1S03
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -591,9 +381,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.058
+- from: IGCSE_ENGLISH_LITERATURE:C1S04
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -601,9 +391,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.059
+- from: IGCSE_ENGLISH_LITERATURE:C1S05
   relation: PART_OF
-  to: null
+  to: 4ET1-S1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -611,129 +401,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.060
+- from: IGCSE_ENGLISH_LITERATURE:C2AA
   relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.061
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.062
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.063
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.064
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.065
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.066
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 18
-- from: IGCSE_ENGLISH_LITERATURE:SX.067
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 19
-- from: IGCSE_ENGLISH_LITERATURE:SX.068
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 19
-- from: IGCSE_ENGLISH_LITERATURE:SX.069
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 19
-- from: IGCSE_ENGLISH_LITERATURE:SX.070
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 19
-- from: IGCSE_ENGLISH_LITERATURE:SX.071
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 19
-- from: IGCSE_ENGLISH_LITERATURE:SX.072
-  relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -741,9 +411,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 20
-- from: IGCSE_ENGLISH_LITERATURE:SX.073
+- from: IGCSE_ENGLISH_LITERATURE:C2AB
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -751,9 +421,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 20
-- from: IGCSE_ENGLISH_LITERATURE:SX.074
+- from: IGCSE_ENGLISH_LITERATURE:C2T01
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -761,9 +431,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 20
-- from: IGCSE_ENGLISH_LITERATURE:SX.075
+- from: IGCSE_ENGLISH_LITERATURE:C2T02
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -771,9 +441,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 20
-- from: IGCSE_ENGLISH_LITERATURE:SX.076
+- from: IGCSE_ENGLISH_LITERATURE:C2T03
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -781,149 +451,139 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 20
-- from: IGCSE_ENGLISH_LITERATURE:SX.077
+- from: IGCSE_ENGLISH_LITERATURE:C2T04
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.078
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T05
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.079
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T06
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.080
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T07
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.081
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T08
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.082
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T09
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.083
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T10
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.084
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2T11
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.085
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2S01
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.086
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2S02
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.087
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2S03
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.088
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2S04
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.089
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C2S05
   relation: PART_OF
-  to: null
+  to: 4ET1-S2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 21
-- from: IGCSE_ENGLISH_LITERATURE:SX.090
+    pdf_page: 20
+- from: IGCSE_ENGLISH_LITERATURE:C3AA
   relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 22
-- from: IGCSE_ENGLISH_LITERATURE:SX.091
-  relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -931,9 +591,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 22
-- from: IGCSE_ENGLISH_LITERATURE:SX.092
+- from: IGCSE_ENGLISH_LITERATURE:C3AB
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -941,9 +601,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 22
-- from: IGCSE_ENGLISH_LITERATURE:SX.093
+- from: IGCSE_ENGLISH_LITERATURE:C3T01
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -951,9 +611,9 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 22
-- from: IGCSE_ENGLISH_LITERATURE:SX.094
+- from: IGCSE_ENGLISH_LITERATURE:C3T02
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -961,823 +621,143 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 22
-- from: IGCSE_ENGLISH_LITERATURE:SX.095
+- from: IGCSE_ENGLISH_LITERATURE:C3T03
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 23
-- from: IGCSE_ENGLISH_LITERATURE:SX.096
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T04
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 23
-- from: IGCSE_ENGLISH_LITERATURE:SX.097
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T05
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 24
-- from: IGCSE_ENGLISH_LITERATURE:SX.098
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T06
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 24
-- from: IGCSE_ENGLISH_LITERATURE:SX.099
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T07
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 25
-- from: IGCSE_ENGLISH_LITERATURE:SX.100
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T08
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 25
-- from: IGCSE_ENGLISH_LITERATURE:SX.101
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T09
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 25
-- from: IGCSE_ENGLISH_LITERATURE:SX.102
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T10
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 25
-- from: IGCSE_ENGLISH_LITERATURE:SX.103
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3T11
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 25
-- from: IGCSE_ENGLISH_LITERATURE:SX.104
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3S01
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.105
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3S02
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.106
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3S03
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.107
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3S04
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.108
+    pdf_page: 22
+- from: IGCSE_ENGLISH_LITERATURE:C3S05
   relation: PART_OF
-  to: null
+  to: 4ET1-S3
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.109
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.110
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.111
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.112
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.113
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.114
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.115
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.116
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.117
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.118
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 27
-- from: IGCSE_ENGLISH_LITERATURE:SX.119
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.120
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.121
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.122
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.123
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.124
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.125
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.126
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.127
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.128
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.129
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.130
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.131
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.132
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.133
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.134
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.135
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.136
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.137
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.138
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 28
-- from: IGCSE_ENGLISH_LITERATURE:SX.139
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 33
-- from: IGCSE_ENGLISH_LITERATURE:SX.140
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 33
-- from: IGCSE_ENGLISH_LITERATURE:SX.141
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 34
-- from: IGCSE_ENGLISH_LITERATURE:SX.142
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 34
-- from: IGCSE_ENGLISH_LITERATURE:SX.143
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 34
-- from: IGCSE_ENGLISH_LITERATURE:SX.144
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 34
-- from: IGCSE_ENGLISH_LITERATURE:SX.145
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 34
-- from: IGCSE_ENGLISH_LITERATURE:SX.146
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 34
-- from: IGCSE_ENGLISH_LITERATURE:SX.147
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 36
-- from: IGCSE_ENGLISH_LITERATURE:SX.148
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 36
-- from: IGCSE_ENGLISH_LITERATURE:SX.149
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 36
-- from: IGCSE_ENGLISH_LITERATURE:SX.150
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 36
-- from: IGCSE_ENGLISH_LITERATURE:SX.151
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 41
-- from: IGCSE_ENGLISH_LITERATURE:SX.152
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 41
-- from: IGCSE_ENGLISH_LITERATURE:SX.153
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 41
-- from: IGCSE_ENGLISH_LITERATURE:SX.154
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.155
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.156
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.157
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.158
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.159
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.160
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.161
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.162
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.163
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.164
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.165
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.166
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.167
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.168
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.169
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.170
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.171
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.172
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.173
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.174
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.175
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
-- from: IGCSE_ENGLISH_LITERATURE:SX.176
-  relation: PART_OF
-  to: null
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 44
+    pdf_page: 22
