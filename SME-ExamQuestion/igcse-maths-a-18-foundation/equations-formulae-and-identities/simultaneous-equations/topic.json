@@ -1,0 +1,234 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:21:27Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a/18/foundation/topic-questions/equations-formulae-and-identities/simultaneous-equations/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4MA1",
+  "sme_course_id": "crs_BtJxk843P5WGCqtM",
+  "syllabus_version": "2016",
+  "sme_alias_path": "a/18/foundation"
+ },
+ "section": {
+  "slug": "equations-formulae-and-identities",
+  "name": "2. Equations, Formulae & Identities"
+ },
+ "topic": {
+  "id": "top_bS7QfdHnPPyrqwmv",
+  "slug": "simultaneous-equations",
+  "name": "Simultaneous Equations",
+  "order": 7
+ },
+ "subtopics": [
+  {
+   "slug": "simultaneous-equations",
+   "name": "Simultaneous Equations",
+   "revision_note_id": "rn_QJRwXT4qgH9SRbP2"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_gvRFbSWNh52jt2mh",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 2
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_wBgR5MZ2jsKGQv2F",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Jcr5TbBm7zYyK7tY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 24,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations\n\n$2x+9y=14.5\\,7x+3y=8$\n\nShow clear algebraic working.",
+     "solution_md": "> *Multiply the second equation by 3 to make the coefficients of y the same*\n\n$21x+9y=24$\n\n> *Subtract the original first equation from your new second equation to eliminate y*\n\n`space space space space space 21 x space plus space 9 y space equals space 24\nminus open parentheses 2 x space plus space 9 y space equals space 14.5 close parentheses\nminus negative negative negative negative negative negative negative negative negative\nspace space space space space space space space space space space space space space space 19 x equals 9.5`\n\n**[M1]**\n\n> *Divide both sides by 19 to get **x*\n\n$x=\\frac{9.5}{19}=0.5$\n\n> *Substitute **x** back into one of the original equations and solve to get y*\n\n`table row cell 2 open parentheses 0.5 close parentheses space plus space 9 y space end cell equals cell space 14.5 end cell row cell 1 plus 9 y end cell equals cell 14.5 end cell end table`\n\n> *Subtract 1 from both sides*\n\n`table row cell 9 y space end cell equals cell space 13.5 end cell end table`\n\n> *Divide both sides by 9*\n\n`table row y equals cell fraction numerator 13.5 over denominator 9 end fraction end cell row y equals cell 1.5 end cell end table`\n\n**[M1]**\n\n> **[exam-tip]**\n> It is a good idea to check your answers, by substituting them into the original equation you didn't use to find $y$:\n> \n> `table row cell 7 open parentheses 0.5 close parentheses plus 3 open parentheses 1.5 close parentheses end cell equals 8 row cell 3.5 plus 4.5 end cell equals 8 row 8 equals cell 8 space space space ✔ end cell end table`\n\n$x=0.5,y=1.5$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **A1**: Equivalent answers, e.g. $x=\\frac{1}{2}$ and $y=\\frac{3}{2}$, will also get the mark.",
+     "equations": [
+      {
+       "latex": "2x+9y=14.5\\,7x+3y=8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn><mi>y</mi><mo>=</mo><mn>14</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mspace linebreak=\"newline\"/><mn>7</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 x plus 9 y equals 14.5 space\n7 x plus 3 y equals 8"
+      },
+      {
+       "latex": "21x+9y=24",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>21</mn><mi>x</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>9</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>24</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "21 x space plus space 9 y space equals space 24"
+      },
+      {
+       "latex": "x=\\frac{9.5}{19}=0.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mo>.</mo><mn>5</mn></mrow><mn>19</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals fraction numerator 9.5 over denominator 19 end fraction equals 0.5"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x=0.5,y=1.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x space equals space 0.5 comma space y space equals space 1.5"
+      },
+      {
+       "latex": "x=\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals 1 half"
+      },
+      {
+       "latex": "y=\\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 3 over 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_v5vshrSHQT47VQXB",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_frB8HSjqX4My8Bhn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "solve",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 21,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4xsdMKbx5zYg9FpN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations\n\n`table row cell 6 x space plus space 4 y space end cell equals cell space 19 end cell row cell 5 x space plus space y space end cell equals cell space 3 end cell end table`\n\nShow clear algebraic working",
+     "solution_md": "> *Use the elimination method to solve the simultaneous equations (the substitution method will also work)*\n\n> *To use the elimination method, the coefficient of one variable must be the same in both equations*\n\n> *Make the coefficient of *$y$* the same by multiplying the second equation by 4*\n\n`table row cell 5 x plus y end cell equals cell 3 space space space space space open parentheses cross times 4 close parentheses end cell end table`* *\n\n*gives:*\n\n`table row cell 20 x plus 4 y end cell equals 12 end table`\n\n> *Write the first equation in the question underneath this equation*\n\n`table row cell 20 x plus 4 y end cell equals 12 row cell 6 x plus 4 y end cell equals 19 end table`\n\n> *Subtract the second equation from the first equation to eliminate the *$y$* variable*\n\n`table row cell 20 x plus 4 y end cell equals cell 12 space space space minus end cell row cell 6 x plus 4 y end cell equals 19 end table`\n\n*___________*\n\n$14x=-7$\n\n**[M1]**\n\n> *Solve for *$x$* by dividing both sides by 14*\n\n`table row cell fraction numerator 14 x over denominator 14 end fraction end cell equals cell fraction numerator negative 7 over denominator 14 end fraction end cell row x equals cell negative 0.5 end cell end table`\n\n**[M1]**\n\n> *Substitute the value of *$x$* into *$5x+y=3$*, using either of the original equations will work*\n\n`table row cell 5 open parentheses negative 0.5 close parentheses plus y end cell equals 3 row cell negative 2.5 plus y end cell equals 3 end table`\n\n> *Solve for *$y$* by adding 2.5 to both sides*\n\n$y=3+2.5\\,y=5.5$\n\n$x=-0.5,y=5.5$\n\n**[A1]**\n\n> **[exam-tip]**\n> Always substitute both the values into the other original equation to check that both the solutions work together.\n> \n> You will not get marks awarded for this but it is always worth checking in case a mistake has been made.\n\n> *Substitute the values for *$x$* and *$y$* into *$6x+4y=19$\n\n`6 open parentheses negative 0.5 close parentheses plus 4 open parentheses 5.5 close parentheses equals 19`\n\n> *Calculate the left hand side to check if it equals 19*\n\n$-3+22=19$\n\n> *The substituted values equate to 19 so they work together and are therefore correct*\n\n> **[mark-scheme]**\n> **M1**: Is awarded for correctly eliminating one variable (could by eliminating $y$ or $x$)\n> \n> **M1**: For correctly working out the value of one variable ($x=-0.5\\mathrm{or}y=5.5$). This mark is only awarded if the first mark is gained.\n> \n> **A1**: For both solutions correct. Any equivalent answers (e.g. in fraction form) will gain the mark. This mark is only awarded if the first mark is gained.",
+     "equations": [
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "14x=-7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>14</mn><mi>x</mi><mo>=</mo><mo>-</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space space space space space space 14 x equals negative 7"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "5x+y=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 x plus y equals 3"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y=3+2.5\\,y=5.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>5</mn><mspace linebreak=\"newline\"/><mi>y</mi><mo>=</mo><mn>5</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 3 plus 2.5\ny equals 5.5"
+      },
+      {
+       "latex": "x=-0.5,y=5.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>,</mo><mo>&#160;</mo><mi>y</mi><mo>=</mo><mn>5</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals negative 0.5 comma space y equals 5.5"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "6x+4y=19",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>19</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "6 x plus 4 y equals 19"
+      },
+      {
+       "latex": "-3+22=19",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>-</mo><mn>3</mn><mo>+</mo><mn>22</mn><mo>=</mo><mn>19</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "negative 3 plus 22 equals 19"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x=-0.5\\mathrm{or}y=5.5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mi>or</mi><mo>&#160;</mo><mi>y</mi><mo>=</mo><mn>5</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals negative 0.5 space or space y equals 5.5"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

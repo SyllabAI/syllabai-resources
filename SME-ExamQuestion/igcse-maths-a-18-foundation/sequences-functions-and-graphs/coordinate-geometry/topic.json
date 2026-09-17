@@ -1,0 +1,411 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:23:37Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a/18/foundation/topic-questions/sequences-functions-and-graphs/coordinate-geometry/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4MA1",
+  "sme_course_id": "crs_BtJxk843P5WGCqtM",
+  "syllabus_version": "2016",
+  "sme_alias_path": "a/18/foundation"
+ },
+ "section": {
+  "slug": "sequences-functions-and-graphs",
+  "name": "3. Sequences, Functions & Graphs"
+ },
+ "topic": {
+  "id": "top_tVcTs2KwhmgV7QC7",
+  "slug": "coordinate-geometry",
+  "name": "Coordinate Geometry",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "coordinates",
+   "name": "Coordinates",
+   "revision_note_id": "rn_XKZsFftHMMKgfPMc"
+  },
+  {
+   "slug": "gradient-of-a-line",
+   "name": "Gradient of a Line",
+   "revision_note_id": "rn_ypGXTn5Dg25FHVt3"
+  },
+  {
+   "slug": "midpoint-of-a-line",
+   "name": "Midpoint of a Line",
+   "revision_note_id": "rn_SSvGSF9kjwYMBR6F"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_jR4R9Rw6gTKqZsKR",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 4
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/02/30136-hexagon-on-grid.png": "001-a-coordinate-grid-with-a-5-sided-shape-on-coordi.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/46367-paper-1f---question-11-image.png": "002-graph-with-labelled-points-a-b-and-c-a-is-at-2-3.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/26436-paper-1f---question-11-image-solution.png": "003-points-labelled-on-a-grid-a-is-2-3-b-is-1-3-c-is.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/26221_4ma1-2f-5.png": "004-a-graph-with-points-a-b-and-c-marked-a-is-at-3-3.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/25950_httpscdn-savemyexams-comuploads2025074701-p2-f-q5-b.jpg": "005-graph-showing-quadrilateral-abcd-on-a-coordinate.jpg",
+   "https://cdn.savemyexams.com/uploads/2025/07/26957_p2-f-q5-d.jpg": "006-a-grid-with-a-parallelogram-labelled-abcd-points.jpg",
+   "https://cdn.savemyexams.com/uploads/2025/05/7406_4ma1-1f-4a.png": "007-graph-with-points-a-at-1-6-b-at-3-1-and-c-at-1-2.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/53946_q4-paper-1f.png": "008-cartesian-grid-with-points-a-0-6-b-3-0-c-1-2-and.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_WyybkTrZdXsSm8T2",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_h2sMyHVHyX4HhVgX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Jw35TTKhvXxmGGfP"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows three points, $A,B$ and $C$, marked on a grid.\n\n![A graph with points A, B, and C marked. A is at (3, 3), B at (2, 1), and C at (5, -1) on a grid with x-axis and y-axis labelled from -2 to 7.](assets/004-a-graph-with-points-a-b-and-c-marked-a-is-at-3-3.png)\n\nWrite down the coordinates of point $A$",
+     "solution_md": "> *Look at the *$x$*value (the across value) first, then the *$y$* value (the up value)*\n\n**Final answer:** **(2, 3)**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "A,B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>,</mo><mo>&#160;</mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A comma space B"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vjwmHNKgdt2tz4py",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "mark",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Jw35TTKhvXxmGGfP"
+     ],
+     "part_tier": null,
+     "problem_md": "On the grid, mark with a cross (×) the point $D$ so that $ABCD$ is a rectangle.",
+     "solution_md": "> *Join up the points given*\n\n> *Draw lines parallel to this to complete the rectangle*\n\n> *Label point D in the missing corner*\n\n![Graph showing quadrilateral ABCD on a coordinate plane. Points A(2,3), B(1,1), C(5,-1), and D(6,1) are connected, forming the shape.](assets/005-graph-showing-quadrilateral-abcd-on-a-coordinate.jpg)\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: This mark is for having point $D$ in the right place; you don't need to draw the rectangle to get the mark.",
+     "equations": [
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "ABCD",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A B C D"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "D"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zMRD67nCzvPdJCrx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_84hZy4pDd8nBGN3r"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the coordinates of the midpoint of $AC$",
+     "solution_md": "> *Add the coordinates of A and C together and divide by two to find the middle*\n\n*A (2, 3) and C (5, -1)*\n\n`open parentheses fraction numerator 2 plus 5 over denominator 2 end fraction comma space fraction numerator 3 plus open parentheses negative 1 close parentheses over denominator 2 end fraction close parentheses`\n\n`open parentheses 7 over 2 comma space 2 over 2 close parentheses`\n\n`open parentheses 3.5 comma space 1 close parentheses`\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1: **For getting the correct calculation for either coordinate or for having the correct numbers in your answer but the other way around (1, 3.5).\n> \n> **B1:** For the correct answer. `open parentheses 7 over 2 comma space 1 close parentheses` will also get the mark.",
+     "equations": [
+      {
+       "latex": "AC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A C"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Fmf7HTMZ4HMzd6Ws",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_9T88gcsX6z4FqbXN"
+     ],
+     "part_tier": null,
+     "problem_md": "On the grid, draw the line with equation $y=4$",
+     "solution_md": "> *y = 4 is a horizontal line though 4 on the y axis*\n\n![A grid with a parallelogram labelled ABCD. Points: A(2,3), B(1,1), C(5,-1), D(6,1). Axes are labelled x and y.](assets/006-a-grid-with-a-parallelogram-labelled-abcd-points.jpg)\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "y=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8PqcbbkgD7yGVzwD",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_g6btjV5g5Yyb4MJs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "plot",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Jw35TTKhvXxmGGfP"
+     ],
+     "part_tier": null,
+     "problem_md": "Points A, B and C are plotted on the grid below.\n\n![Graph with labelled points A, B, and C. A is at (-2, 3), B at (1, 3), and C at (-3, 1) on a grid with x and y axes.](assets/002-graph-with-labelled-points-a-b-and-c-a-is-at-2-3.png)\n\nPlot point D on the grid to make the parallelogram ABDC.",
+     "solution_md": "Plot point D\n\n![Points labelled on a grid. A is (-2, 3), B is (1, 3), C is (-3, 1) and D is (0,1). ](assets/003-points-labelled-on-a-grid-a-is-2-3-b-is-1-3-c-is.png)\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Point plotted at (0, 1)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wv26zmds8hKXvHzk",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_DN5jJj6WVc3WsZpv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Jw35TTKhvXxmGGfP"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows three points, $A,B$ and $C$, marked on a grid.\n\n![Graph with points: A at (1, 6), B at (-3, -1), and C at (1, -2) on a grid with axes from -5 to 7.](assets/007-graph-with-points-a-at-1-6-b-at-3-1-and-c-at-1-2.png)\n\nWrite down the coordinates of point $A$",
+     "solution_md": "> **[exam-tip]**\n> Remember that co-ordinates should be written in brackets with the $x$ co-ordinate first, then the $y$ co-ordinate.\n\n**Final answer:** **(1, 6)**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "A,B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>A</mi><mo>,</mo><mo>&#160;</mo><mi>B</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space A comma space B space"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MszRzWNRJ3Ysx55G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov ",
+      "number": "4MA1/1F",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Jw35TTKhvXxmGGfP"
+     ],
+     "part_tier": null,
+     "problem_md": "Write down the coordinates of point $B$",
+     "solution_md": "> **[exam-tip]**\n> Remember that co-ordinates should be written in brackets with the $x$ co-ordinate first, then the $y$ co-ordinate.\n\n**Final answer:** **(-3, -1)**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JJ5sq8d6zqNvWhKy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "mark",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_84hZy4pDd8nBGN3r"
+     ],
+     "part_tier": null,
+     "problem_md": "$M$ is the midpoint of the line $AC$\n\nOn the grid, mark with a cross (×) the point $M$\nLabel the point $M$",
+     "solution_md": "> *Draw a line from point A to point C and find the halfway point*\n\n![Cartesian grid with points A (0, 6), B (-3, 0), C (1, -2), and M (0, 2) marked. Axes range from -5 to 7 on both x and y.](assets/008-cartesian-grid-with-points-a-0-6-b-3-0-c-1-2-and.png)\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>M</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "AC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A C"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>M</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>M</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "M"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9htM3gyB9dKpZD4y",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_N3kBY7FpzkT5Pvys",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Jw35TTKhvXxmGGfP"
+     ],
+     "part_tier": null,
+     "problem_md": "Write down the coordinates of vertex A\n\n![A coordinate grid with a 5 sided shape on. Coordinate A is at (3, 8), coordinate B is at (6, 10), coordinate C is at (9, 8), Coordinate D is at (4, 4) and Coordinate E is at (8, 4).](assets/001-a-coordinate-grid-with-a-5-sided-shape-on-coordi.png)",
+     "solution_md": "**Final answer:** **(3, 8)**\n\n**[B1]**"
+    }
+   ]
+  }
+ ]
+}

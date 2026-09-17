@@ -1,0 +1,530 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:23:13Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a/18/foundation/topic-questions/numbers-and-the-number-system/powers-roots-and-standard-form/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4MA1",
+  "sme_course_id": "crs_BtJxk843P5WGCqtM",
+  "syllabus_version": "2016",
+  "sme_alias_path": "a/18/foundation"
+ },
+ "section": {
+  "slug": "numbers-and-the-number-system",
+  "name": "1. Numbers & the Number System"
+ },
+ "topic": {
+  "id": "top_q7YHXxkCPG3Mw9cv",
+  "slug": "powers-roots-and-standard-form",
+  "name": "Powers, Roots & Standard Form",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "standard-form",
+   "name": "Converting to & from Standard Form",
+   "revision_note_id": "rn_88DPWyhHkGSPW4Nf"
+  },
+  {
+   "slug": "laws-of-indices",
+   "name": "Laws of Indices",
+   "revision_note_id": "rn_BDvfSVjp3yBFzPGR"
+  },
+  {
+   "slug": "powers-and-roots",
+   "name": "Powers & Roots",
+   "revision_note_id": "rn_pcWj6rQ6B9rTjdSx"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_RyzCTgNmSgwZTRgV",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 5
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/08/62549_spec-1f-q22.png": "001-mathematical-division-of-55-000-000-by-10-millio.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_fS5NFgryVMYwbS6b",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_H2KMKWYwHtjCHYbZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 22,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the population, correct to two significant figures, of each of six countries in April 2016.\n\n| Country | Population (April 2016) |\n|---|---|\n| Hungary | 9.8×10<sup>6</sup> |\n| Mexico | 1.3×10<sup>8</sup> |\n| Thailand | 6.8×10<sup>7</sup> |\n| Nigeria | 1.9×10<sup>8</sup> |\n| Singapore | 5.7×10<sup>6</sup> |\n| Egypt | 9.3×10<sup>7</sup> |\n\nWrite 9.3×10<sup>7</sup> as an ordinary number.",
+     "solution_md": "> *Use place value to convert out of standard form by by multiplying 9.3 by 10 000 000 (which is equivalent to *$10^{7}$*)*\n\n> *One power of 10 turns 9.3 to 93, and then you need 6 zeroes after that for the other 6 powers of 10*\n\n**Final answer:** **93 000 000**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mn>10</mn><mn>7</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "10 to the power of 7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YcpxbfMkvjQVPtGG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 22,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of these countries had the least population?",
+     "solution_md": "> *First look for the numbers with the smallest power of 10*\n\n$9.8\\times10^{6}$* (Hungary)*\n\n$5.7\\times10^{6}$* (Singapore)*\n\n> *Then select the number with the smallest starting value*\n\n$5.7<9.8$\n\n**Final answer:** **Singapore**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "9.8\\times10^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "9.8 cross times 10 to the power of 6"
+      },
+      {
+       "latex": "5.7\\times10^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5.7 cross times 10 to the power of 6"
+      },
+      {
+       "latex": "5.7<9.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>7</mn><mo>&#60;</mo><mn>9</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5.7 less than 9.8"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qychVDvHFbgx7wT9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 22,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "The population of China was 1.382×10<sup>9</sup> in April 2016.\nThe population of India was 1.327×10<sup>9</sup> in April 2016.\n\nWork out the difference between the population of China and the population of India in April 2016.\nGive your answer in standard form.",
+     "solution_md": "> *Use subtraction to calculate the difference in populations (a calculator can be used to solve the calculation)*\n\n$1.382\\times10^{9}-1.327\\times10^{9}=55000000$\n\n**[M1]**\n\n> *Write the answer in standard form by dividing by powers of 10 until the decimal point is placed between the first two digits*\n\n![Mathematical division of 55,000,000 by 10 million with arrows indicating place value adjustment, resulting in an unclear figure.](assets/001-mathematical-division-of-55-000-000-by-10-millio.png)\n\n$5.5\\times10^{7}$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "1.382\\times10^{9}-1.327\\times10^{9}=55000000",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mpadded lspace=\"-1px\"><mn>1</mn><mo>.</mo><mn>382</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>-</mo><mn>1</mn><mo>.</mo><mn>327</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><mn>55</mn></mpadded><mpadded lspace=\"+1px\"><mn>000</mn><mpadded lspace=\"+2px\"><mn>000</mn></mpadded><mo>&#160;</mo></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.382 cross times 10 to the power of 9 minus 1.327 cross times 10 to the power of 9 equals 55 000 000 space"
+      },
+      {
+       "latex": "5.5\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5.5 cross times 10 to the power of 7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_j67KHXKkJVDTfyWX",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ytkKf3npDQt5y8Hs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 22,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 76 000 000 in standard form.",
+     "solution_md": "> *Count the number of places after the 7 to get the power of 10*\n\n$7.6\\times10^{7}$\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "7.6\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>.</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7.6 cross times 10 to the power of 7"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qyrjBg7YNt8RnkW7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 22,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 5.4 × 10<sup>–4</sup> as an ordinary number.",
+     "solution_md": "> *Counting the zero before the decimal point, the number of zeros in front of the 5 will be the same as the power of 10*\n\n**Final answer:** **0.00054**\n\n**[B1]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kWM969DV9KZ6g6X5",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_7TgcG33VPP5snMZD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xf7Y5cxcQG3T6g65",
+      "spcpt_5PKsSqbXq5fF9Z67"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the square root of 441",
+     "solution_md": "> *Use your calculator to type in*\n\n$\\sqrt{441}=21$\n\n**Final answer:** **21**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "\\sqrt{441}=21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msqrt><mn>441</mn></msqrt><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>21</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "square root of 441 space equals space 21"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5Fft9CVB8bTQ5KJT",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_w5txHXMBX7pP3mtr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Write$5.87\\times10^{-4}$ as an ordinary number.",
+     "solution_md": "> *This is the same as *$5.87\\times0.0001$\n\n$5.87\\times0.0001=0.000587$\n\n$0.000587$\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "5.87\\times10^{-4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mn>5</mn><mo>.</mo><mn>87</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space 5.87 space cross times 10 to the power of negative 4 end exponent"
+      },
+      {
+       "latex": "5.87\\times0.0001",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>87</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>0001</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5.87 space cross times space 0.0001"
+      },
+      {
+       "latex": "5.87\\times0.0001=0.000587",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>.</mo><mn>87</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>0001</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>000587</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5.87 space cross times space 0.0001 space equals space 0.000587"
+      },
+      {
+       "latex": "0.000587",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>.</mo><mn>000587</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 0.000587
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TgFBcHgrVGz44fsK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 84 000 000 in standard form.",
+     "solution_md": "> *Standard form is written as *$a\\times10^{n}$*, **where *$1\\leqa<10$\n\n> *Ignore the place value and find the leading non-zero digit*\n\n> *Use this to find the value of *$a$\n\n$a=8.4$\n\n> *Count how many times you need to multiply *$a$* by *$10$* **to get the original number*\n\n$8.4\\times10^{7}$\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "a\\times10^{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mi>n</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space cross times space 10 to the power of n"
+      },
+      {
+       "latex": "1\\leqa<10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>&#160;</mo><mo>&#8804;</mo><mo>&#160;</mo><mi>a</mi><mo>&#160;</mo><mo>&#60;</mo><mo>&#160;</mo><mn>10</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1 space less or equal than space a space less than space 10"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "a=8.4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>8</mn><mo>.</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space equals space 8.4"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>10</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 10
+      },
+      {
+       "latex": "8.4\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>.</mo><mn>4</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mrow><mn>7</mn><mo>&#160;</mo></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8.4 space cross times space 10 to the power of 7 space end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fH3VtGyt4rNVx2ND",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xf7Y5cxcQG3T6g65"
+     ],
+     "part_tier": null,
+     "problem_md": "The number of neurons in a human brain is $8.5\\times10^{10}$\nThe number of neurons in a monkey brain is $1.47\\times10^{9}$\n\nThe number of neurons in a human brain is $K\\times$ the number of neurons in a monkey brain.\n\nWork out the value of $K$\nGive your answer correct to one decimal place.",
+     "solution_md": "> $K$* is the number of times the number of neurons in a monkey brain needs to be multiplied to get the number of neurons in a human brain. Use the inverse operation to work it out*\n\n`open parentheses 8.5 space cross times space 10 to the power of 10 close parentheses space divided by space open parentheses 1.47 space cross times space 10 to the power of 9 close parentheses`\n\n**[M1]**\n\n$=57.82...$\n\n> *Round to 1 decimal place*\n\n$57.8$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "8.5\\times10^{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>10</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8.5 cross times 10 to the power of 10"
+      },
+      {
+       "latex": "1.47\\times10^{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>47</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.47 cross times 10 to the power of 9"
+      },
+      {
+       "latex": "K\\times",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>K</mi><mo>&#215;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "K cross times"
+      },
+      {
+       "latex": "K",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>K</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "K"
+      },
+      {
+       "latex": "K",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>K</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "K"
+      },
+      {
+       "latex": "=57.82...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>57</mn><mo>.</mo><mn>82</mn><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "equals 57.82..."
+      },
+      {
+       "latex": "57.8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>57</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 57.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KQx67gvnc9BdC5qG",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_gCj4v6hT2RbdpCYp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Write $4.5\\times10^{-3}$ as an ordinary number.",
+     "solution_md": "Type into your calculator or move the numbers three place values to the right\n\n**Final answer:** **0.0045**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "4.5\\times10^{-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4.5 space cross times 10 to the power of negative 3 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_k9YNyz8m2wmrxh78",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 342890 in standard form.",
+     "solution_md": "The number is 3.4289\n\nCount the number of times you need to multiply this by 10 to get the original number\n\n$3.4289\\times10^{5}$\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "3.4289\\times10^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>.</mo><mn>4289</mn><mo>&#215;</mo><msup><mn>10</mn><mn>5</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3.4289 cross times 10 to the power of 5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rQyr8hkMbWm2tWN6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9T2dpGhRRNvzf2n3"
+     ],
+     "part_tier": null,
+     "problem_md": "The population of Hungary is $9.6\\times10^{7}$. The population of Indonesia is $2.43\\times10^{8}$\n\nCalculate the difference between the population of Hungary and Indonesia. Give your answer in standard form.",
+     "solution_md": "Subtract the population of Hungary from the population of Indonesia\n\n$2.43\\times10^{8}-9.6\\times10^{7}=$\n\n**[M1]**\n\n$1.47\\times10^{8}$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "9.6\\times10^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>9</mn><mo>.</mo><mn>6</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "9.6 space cross times 10 to the power of 7"
+      },
+      {
+       "latex": "2.43\\times10^{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>43</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.43 cross times 10 to the power of 8"
+      },
+      {
+       "latex": "2.43\\times10^{8}-9.6\\times10^{7}=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>43</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>9</mn><mo>.</mo><mn>6</mn><mo>&#160;</mo><mo>&#215;</mo><msup><mn>10</mn><mn>7</mn></msup><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.43 space cross times 10 to the power of 8 space minus space 9.6 space cross times 10 to the power of 7 equals"
+      },
+      {
+       "latex": "1.47\\times10^{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>.</mo><mn>47</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1.47 cross times 10 to the power of 8"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
