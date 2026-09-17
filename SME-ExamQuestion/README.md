@@ -26,27 +26,34 @@ v1: `question_set` became `question_sets[]` (IAL topics split into
 questions carry `set_slug`, and `scrape` tracks `sets_completed` +
 `asset_map` (merge-safe resumability).
 
-IGCSE courses: 26 · IAL courses: 0 — see
+All 39 courses (26 IGCSE + 13 IAL) are scraped — see
 `manifest.json` for the authoritative per-course status/counts.
 
 ## Spec-point index harvest
 
-11 of 39 courses carry `spec_point_index.json` (SME-native
-`spcpt_` id → name / definition / note linkage, harvested from that
-course's revision-note pages; coverage vs question-part ids is recorded
-in each index): `igcse-chemistry-19` (T-SME-EQ-1, also resolved to
-official 4CH1 codes) + the 10 single-segment courses (T-SME-EQ-2:
-ial-biology-18, ial-chemistry-17, ial-further-maths-18-further-pure-1,
-ial-physics-19, igcse-business-19, igcse-economics-17,
-igcse-english-literature-16, igcse-further-maths-19, igcse-geography-19,
-igcse-ict-17 — 1,157 note pages, 0 fetch failures; every course at 100%
-part-id coverage except igcse-english-literature-16 at 110/131, where
-SME publishes no notes for the An Inspector Calls / Romeo & Juliet /
-Macbeth assessment points). The remaining 29 courses (ial-maths units,
-modular-24 units, maths-a foundation/higher, accounting variants,
-science-double-award sciences) need variant-aware notes mapping — a
-later batch. No official spec codes are invented for non-chemistry
-courses: only 4CH1 has a registry here.
+All 39 courses carry `spec_point_index.json` (SME-native `spcpt_` id →
+name / definition / note linkage, harvested from that course's
+revision-note pages; coverage vs question-part ids is recorded in each
+index and summarized in the registry `manifest.json` `spec_index`
+blocks): 5,068 distinct spec points from 3,195 note pages, 0 fetch
+failures. Batches: `igcse-chemistry-19` (T-SME-EQ-1, also resolved to
+official 4CH1 codes), the 10 single-segment courses (T-SME-EQ-2), and
+the 29 variant-aware courses — ial-maths units, modular-24 science
+units, maths-a foundation/higher + modular units, accounting variants,
+science-double-award sciences (T-SME-EQ-2 batch 2).
+
+Known SME-side gaps, honestly recorded (never fabricated): 326 part-id
+references across 14 courses have no note page under their own course
+tree — 254 resolve in a sibling tree of the same subject family
+(cross-unit/cross-tier tagging, e.g. IAL maths pure-2 questions tagged
+with pure-1 points; double-award physics points living in the
+triple-award physics notes), and 72 exist nowhere in the SME notes
+corpus (English literature set texts 21, maths-a linear tiers 27,
+physics-modular 11, IAL pure units 5, chemistry-modular 6, accounting 2
+— verified absent from every fetched note page). Ingest should treat
+the union of subject-family indexes as the bridge. No official spec
+codes are invented for non-chemistry courses: only 4CH1 has a registry
+here.
 
 ## Pipeline
 
