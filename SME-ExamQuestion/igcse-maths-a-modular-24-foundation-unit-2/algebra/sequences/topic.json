@@ -1,0 +1,316 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T02:06:35Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/foundation-unit-2/topic-questions/algebra/sequences/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4XMAF/4XMAH",
+  "sme_course_id": "crs_NvCPtv5Y54bnDWBF",
+  "syllabus_version": "2024",
+  "sme_alias_path": "a-modular/24/foundation-unit-2"
+ },
+ "section": {
+  "slug": "algebra",
+  "name": "Algebra"
+ },
+ "topic": {
+  "id": "top_dd93ZYTpRymDwSX2",
+  "slug": "sequences",
+  "name": "Sequences",
+  "order": 5
+ },
+ "subtopics": [
+  {
+   "slug": "continuing-sequences-",
+   "name": "Continuing Sequences",
+   "revision_note_id": "rn_s592jJ4SNkQW5z5m"
+  },
+  {
+   "slug": "introduction-to-sequences",
+   "name": "Introduction to Sequences",
+   "revision_note_id": "rn_y34CVGKVXbyXvc8r"
+  },
+  {
+   "slug": "nth-terms-of-linear-sequences",
+   "name": "nth Terms of Linear Sequences",
+   "revision_note_id": "rn_ZPq6XFNSjK2CMPHG"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_767jfxzCBHnH35Yq",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium"
+   ],
+   "question_count": 2
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/05/20487_4ma1-2f-4.png": "001-three-patterns-with-diagonal-lines-in-squares-pa.png",
+   "https://cdn.savemyexams.com/uploads/2025/07/17554_p2-f-q4.jpg": "002-four-rectangles-with-diagonal-lines-from-bottom-.jpg"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_jhzksyVHNVzZvcxv",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_dsscQrrCWWc3h3j9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 17,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_JmTzq6GWxx6Y3pRH"
+     ],
+     "part_tier": null,
+     "problem_md": "Here are the first five terms of a number sequence.\n\n7        11          15            19            23\n\nFind an expression, in terms of $n$, for the $n$th term of this sequence.",
+     "solution_md": "> *Calculate the common difference between the terms of the sequence*\n\n> **[exam-tip]**\n> Calculate the difference between at least two pairs of consecutive terms to check that the common difference is the same and therefore the sequence is linear.\n> \n> You do not need to show calculations for this to get full marks.\n\n$11-7=4\\,15-11=4$\n\n> *Use the formula for an arithmetic sequence *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`\n\n- $a$* is the first term = 7*\n- $d$* is the common difference = 4*\n\n`table row blank blank cell 7 plus 4 open parentheses n minus 1 close parentheses end cell end table`\n\n> *Simplify*\n\n`table row blank blank cell 7 plus 4 n minus 4 end cell end table`\n\n$4n+3$\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: For an expression in the form $4n+a$ where $a$ is any integer.\n> \n> **B1**: For a fully correct expression (e.g. $4n+3$ or $3+4n$).",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "11-7=4\\,15-11=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>11</mn><mo>-</mo><mn>7</mn><mo>=</mo><mn>4</mn><mspace linebreak=\"newline\"/><mn>15</mn><mo>-</mo><mn>11</mn><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "11 minus 7 equals 4\n15 minus 11 equals 4"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "d",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>d</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "d"
+      },
+      {
+       "latex": "4n+3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 n plus 3"
+      },
+      {
+       "latex": "4n+a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>n</mi><mo>+</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 n plus a"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "4n+3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 n plus 3"
+      },
+      {
+       "latex": "3+4n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>+</mo><mn>4</mn><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 plus 4 n"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QB5pPXHkpVgCkkrb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 17,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_NNhjQfXtS7sNJyHD"
+     ],
+     "part_tier": null,
+     "problem_md": "The $n$th term of a different number sequence is given by $80--2n$\n\nWrite down the first 3 terms of this sequence",
+     "solution_md": "> *Substituting  *$n=1,n=2,n=3$* into the expression gives*\n\n`80 minus 2 open parentheses 1 close parentheses equals 78\n80 minus 2 open parentheses 2 close parentheses equals 76\n80 minus 2 open parentheses 3 close parentheses equals 74`\n\n**[B1]**\n\n**Final answer:** **78, 76, 74**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: For one correctly calculated term.\n> \n> **B1**: For all three correct terms.\n> \n> You do not need to show your calculations to gain either mark.",
+     "equations": [
+      {
+       "latex": "n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>n</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n"
+      },
+      {
+       "latex": "80--2n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>80</mn><mo>&#160;</mo><mo>&#8211;</mo><mo>&#160;</mo><mn>2</mn><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "80 space – space 2 n"
+      },
+      {
+       "latex": "n=1,n=2,n=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mo>&#160;</mo><mi>n</mi><mo>=</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mi>n</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "n equals 1 comma space n equals 2 comma space n equals 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VBxhfGz8FzzTH5HC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 17,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_NNhjQfXtS7sNJyHD"
+     ],
+     "part_tier": null,
+     "problem_md": "Yuen says there are no numbers that are in both of the sequences. \nYuen is correct.\n\nExplain why.",
+     "solution_md": "> **[exam-tip]**\n> This question is only worth 1 mark so showing any calculations is not necessary.\n> \n> Look for similarities or differences between the properties of the terms in the sequences.\n\n> *Look at the terms of each sequence to compare properties of the values*\n\n**Final answer:** **The first sequence (**$4n+3$**) contains only odd numbers and the second sequence (**$80-2n$**) contains only even numbers, therefore there will be no numbers that are in both sequences**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "4n+3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mi>n</mi><mo>+</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4 n plus 3"
+      },
+      {
+       "latex": "80-2n",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>80</mn><mo>-</mo><mn>2</mn><mi>n</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "80 minus 2 n"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KYnbNhRkdWf845bX",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_mfNq7Z2YHmXvGK4B",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_H6fgvTgTrMcFYBC6"
+     ],
+     "part_tier": null,
+     "problem_md": "Here is a sequence of patterns made from sticks.\n\n![Three patterns with diagonal lines in squares: Pattern 1 has one square, Pattern 2 has two, and Pattern 3 has three squares.](assets/001-three-patterns-with-diagonal-lines-in-squares-pa.png)\n\nIn the space below, draw Pattern number 4.",
+     "solution_md": "> *Look at what gets added on to each new pattern in the sequence and draw the next one*\n\n![Four rectangles with diagonal lines from bottom left to top right, arranged in a row, each with gaps in the top and bottom horizontal sides.](assets/002-four-rectangles-with-diagonal-lines-from-bottom-.jpg)\n\n**[B1]**"
+    },
+    {
+     "id": "qstnprt_fHQhhjM4Jqrc6TkP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_NNhjQfXtS7sNJyHD"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table.\n\n| Pattern number | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Number of sticks | 5 | 9 | 13 |   |   |",
+     "solution_md": "> *Look at how many sticks is added on each time (4)*\n\n> *Add this on to 13 *\n\n$13+4=17$\n\n> *Add 4 on again to your answer*\n\n$17+4=21$\n\n| Pattern number | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Number of sticks | 5 | 9 | 13 | **Final answer:** **17** | **Final answer:** **21** |\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "13+4=17",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>13</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>17</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "13 plus 4 equals 17"
+      },
+      {
+       "latex": "17+4=21",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>17</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>21</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "17 plus 4 equals 21"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PhdMJV4QdWHPRq57",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_H6fgvTgTrMcFYBC6"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the number of sticks in Pattern number 10",
+     "solution_md": "> **[exam-tip]**\n> You could keep adding on 4 until you get to the 10th number in the pattern, or you could work out the nth term for the sequence and use it to find the 10th number. It is probably quicker to keep adding on.\n\n> *Keep adding on 4 until you get to the 10th number in the pattern*\n\n*5, 9, 13, 17, 21, 25, 29, 33, 37, 41*\n\n**Final answer:** **41**\n\n**[B1]**"
+    },
+    {
+     "id": "qstnprt_7ZQ7sPN4BNdNkHYR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_JmTzq6GWxx6Y3pRH"
+     ],
+     "part_tier": null,
+     "problem_md": "Connor says that in Pattern number 25 there are 102 sticks.\n\nExplain why Connor is wrong.",
+     "solution_md": "> *Look at the pattern so far, think about what kind of numbers they are*\n\n**Final answer:** **The number of sticks is always an odd number but 102 is an even number**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: For a correct reason. For example,\n> \n> - The pattern never ends in 2\n> - The nth term for the pattern is 4n+1  and 4×25+1=101"
+    }
+   ]
+  }
+ ]
+}

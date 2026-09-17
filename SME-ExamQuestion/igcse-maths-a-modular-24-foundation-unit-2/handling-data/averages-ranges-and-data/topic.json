@@ -1,0 +1,637 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T02:06:39Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/foundation-unit-2/topic-questions/handling-data/averages-ranges-and-data/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4XMAF/4XMAH",
+  "sme_course_id": "crs_NvCPtv5Y54bnDWBF",
+  "syllabus_version": "2024",
+  "sme_alias_path": "a-modular/24/foundation-unit-2"
+ },
+ "section": {
+  "slug": "handling-data",
+  "name": "Handling Data"
+ },
+ "topic": {
+  "id": "top_RKxFQvhY9gbFXkbv",
+  "slug": "averages-ranges-and-data",
+  "name": "Averages, Ranges & Data",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "mean-median-and-mode",
+   "name": "Mean, Median & Mode",
+   "revision_note_id": "rn_NZwfv927gy35vn6z"
+  },
+  {
+   "slug": "averages-from-grouped-data-",
+   "name": "Averages from Grouped Data",
+   "revision_note_id": "rn_CMC9TvYKF2Ks3FBB"
+  },
+  {
+   "slug": "averages-from-tables-",
+   "name": "Averages from Tables",
+   "revision_note_id": "rn_k5XCppyPMJ9nr9Nd"
+  },
+  {
+   "slug": "calculations-with-the-mean-",
+   "name": "Calculations with the Mean",
+   "revision_note_id": "rn_gjGVXY2QJ2VZnM2k"
+  },
+  {
+   "slug": "tally-charts-and-frequency-tables-",
+   "name": "Tally Charts & Frequency Tables",
+   "revision_note_id": "rn_pKt9YC9n9mjm65Mc"
+  },
+  {
+   "slug": "comparing-data-sets",
+   "name": "Comparing Data Sets",
+   "revision_note_id": "rn_VcZ2gRQj4NKjJkfD"
+  },
+  {
+   "slug": "range",
+   "name": "Range",
+   "revision_note_id": "rn_jdTfQ9bb2zhjBznM"
+  },
+  {
+   "slug": "population-and-sampling",
+   "name": "Population & Sampling",
+   "revision_note_id": "rn_sq9fkYsv88pR8zdQ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_5ZDzTD3FSvth52n9",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 8
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_jVrQ54sKP4fgWX3V",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_cyHjgz7npJ7D5TTc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "how",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/2F",
+      "question_number": 26,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz"
+     ],
+     "part_tier": null,
+     "problem_md": "Team **A** and Team **B** take part in a quiz league.\n\nAfter 11 rounds, Team A has a mean score per round of 17 \nAfter 9 rounds, Team B has a mean score per round of 18\n\nBoth teams take part in a further round. \nAfter this round, both teams have a mean score per round of 18.5\n\nIn the further round, Team A scored more points than Team B.\n\nHow many more?",
+     "solution_md": "> *Calculate how many points team A scored in total in their 11 games*\n\n$17\\times11=187$\n\n> *Calculate how many points team B scored in total in their 9 games*\n\n$18\\times9=162$\n\n**[M1]**\n\n> *Calculate how many points team A scored in total after 12 games to get a mean of 18.5, and subtract the points from the first 11 games to get how many they scored in the 12th game*\n\n$18.5\\times12-187=35$\n\n> *Calculate how many points team B scored in total after 10 games to get a mean of 18.5, and subtract the points from the first 9 games to get how many they scored in the 10th game*\n\n$18.5\\times10-162=23$\n\n**[M1]**\n\n> *Calculate the difference in the two scores*\n\n$35-23=12$\n\n**[M1]**\n\n**Final answer:** **12**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "17\\times11=187",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>17</mn><mo>&#215;</mo><mn>11</mn><mo>=</mo><mn>187</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "17 cross times 11 equals 187"
+      },
+      {
+       "latex": "18\\times9=162",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>18</mn><mo>&#215;</mo><mn>9</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>162</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "18 cross times 9 space equals space 162"
+      },
+      {
+       "latex": "18.5\\times12-187=35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>18</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><mn>12</mn><mo>-</mo><mn>187</mn><mo>=</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "18.5 cross times 12 minus 187 equals 35"
+      },
+      {
+       "latex": "18.5\\times10-162=23",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>18</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><mn>10</mn><mo>-</mo><mn>162</mn><mo>=</mo><mn>23</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "18.5 cross times 10 minus 162 equals 23"
+      },
+      {
+       "latex": "35-23=12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>35</mn><mo>-</mo><mn>23</mn><mo>=</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "35 minus 23 equals 12"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GR4zPYQqBs5N9rfq",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_KTTj7bwJ4Ss25T6g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows information about the number of eggs in each of 40 birds’ nests.\n\n| Number of eggs | Frequency |\n|---|---|\n| 0 | 5 |\n| 1 | 14 |\n| 2 | 11 |\n| 3 | 6 |\n| 4 | 3 |\n| 5 | 1 |\n\nWrite down the mode.",
+     "solution_md": "> *The mode is the most common number of eggs and is found by looking for the category with the highest frequency*\n\n> *14 is the highest frequency and this is for the 1 egg category*\n\n**Final answer:** **1**\n\n**[B1]**"
+    },
+    {
+     "id": "qstnprt_V2B5CTCp5cwPdZRy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the median.",
+     "solution_md": "> *The median is the middle value when the data is written in ascending order*\n\n> *The position of the middle value is half the value of one more than the total frequency (*$\\frac{\\mathrm{total} \\mathrm{frequency}+1}{2}$*)*\n\n`table row cell fraction numerator 40 plus 1 over denominator 2 end fraction end cell equals cell 41 over 2 end cell row blank equals cell 20.5 end cell end table`\n\n**[M1]**\n\n> *The middle value will be half way between values of position 20 and 21*\n\n> *Write the data out from the frequency table until you reach the values for positions  20 and 21*\n\n*0,0,0,0,0,1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 , 1, 1, 2, 2*\n\n> *The values of position 20 and 21 are both 2 so the median is 2*\n\n**Final answer:** **2**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{total} \\mathrm{frequency}+1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>total</mi><mo>&#160;</mo><mi>frequency</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator total space frequency plus 1 over denominator 2 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6c8fyntfZ68jvPPp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_z6YF8WGyY3JG8hxS",
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the total number of eggs.",
+     "solution_md": "> *Multiply each category of number of eggs by the frequency*\n\n$0\\times5=0\\,1\\times14=14\\,2\\times11=22\\,3\\times6=18\\,4\\times3=12\\,5\\times1=5$\n\n> *Add these values together*\n\n$0+14+22+18+12+5=71$\n\n**[M1]**\n\n**Final answer:** **71**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "0\\times5=0\\,1\\times14=14\\,2\\times11=22\\,3\\times6=18\\,4\\times3=12\\,5\\times1=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><mn>0</mn><mspace linebreak=\"newline\"/><mn>1</mn><mo>&#215;</mo><mn>14</mn><mo>=</mo><mn>14</mn><mspace linebreak=\"newline\"/><mn>2</mn><mo>&#215;</mo><mn>11</mn><mo>=</mo><mn>22</mn><mspace linebreak=\"newline\"/><mn>3</mn><mo>&#215;</mo><mn>6</mn><mo>=</mo><mn>18</mn><mspace linebreak=\"newline\"/><mn>4</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>12</mn><mspace linebreak=\"newline\"/><mn>5</mn><mo>&#215;</mo><mn>1</mn><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0 cross times 5 equals 0\n1 cross times 14 equals 14\n2 cross times 11 equals 22\n3 cross times 6 equals 18\n4 cross times 3 equals 12\n5 cross times 1 equals 5"
+      },
+      {
+       "latex": "0+14+22+18+12+5=71",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>+</mo><mn>14</mn><mo>+</mo><mn>22</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>71</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0 plus 14 plus 22 plus 18 plus 12 plus 5 equals 71"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tNHwYDnPYvRVrhfC",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BVHS3Gz9cTzKfQcn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/2F",
+      "question_number": 24,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz"
+     ],
+     "part_tier": null,
+     "problem_md": "The mean number of goals scored by a hockey team in 8 matches is 6 \nThe team plays 2 more matches and scores $k$ goals in each match. \nThe mean number of goals scored by the hockey team in the 10 matches is 7\n\nWork out the value of $k$",
+     "solution_md": "> *Work out the total number of goals scored in the first 8 matches*\n\n$8\\times6=48$\n\n> *Work out the total number of goals scored in all 10 matches*\n\n$10\\times7=70$\n\n**[M1]**\n\n> *Calculate the difference to work out how many goals were scored in the final 2 matches*\n\n$70-48=22$\n\n**[M1]**\n\n> *Divide by 2 to work out how many goals were scored in each of the final matches*\n\n$22\\div2=11$\n\n$11$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "8\\times6=48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>6</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>48</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 space cross times space 6 space equals space 48"
+      },
+      {
+       "latex": "10\\times7=70",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>10</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>7</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>70</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "10 space cross times space 7 space equals space 70"
+      },
+      {
+       "latex": "70-48=22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>70</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>48</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>22</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "70 space minus space 48 space equals space 22"
+      },
+      {
+       "latex": "22\\div2=11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>22</mn><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "22 space divided by space 2 space equals space 11"
+      },
+      {
+       "latex": "11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>11</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vJQWx8hKYRBFVS5j",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_YBrrz76YKp7yWPVm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "how",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 21,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz"
+     ],
+     "part_tier": null,
+     "problem_md": "Ian plays 7 games of cricket. \nHis mean score per game for these 7 games is 42 runs.\n\nIan is going to play one more game of cricket. \nHe wants his mean score per game for the 8 games to be exactly 50 runs.\n\nHow many runs must he score in his 8th game?",
+     "solution_md": "> *Calculate the total number of runs played in the 7 games of cricket by multiplying the number of games by the mean*\n\n$7\\times42=294$\n\n**[M1]**\n\n> *Calculate the total number of runs required in 8 games of cricket to give a mean of 50*\n\n$8\\times50=400$\n\n> *Calculate the difference between the total number of runs in 7 games of cricket and in 8 games of cricket*\n\n$400-294=106$\n\n**[M1]**\n\n**Final answer:** **106**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Calculating the total number of runs in 7 games of cricket *or* 8 games of cricket will get the first mark (e.g. $7\\times42$ *or* $8\\times50$).\n> \n> **M1**: Awarded for the correct subtraction calculation for calculating the difference between total runs for 7 and 8 games.\n> \n> **A1**: Correct answer of 106.",
+     "equations": [
+      {
+       "latex": "7\\times42=294",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#215;</mo><mn>42</mn><mo>=</mo><mn>294</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 cross times 42 equals 294"
+      },
+      {
+       "latex": "8\\times50=400",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>&#215;</mo><mn>50</mn><mo>=</mo><mn>400</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 cross times 50 equals 400"
+      },
+      {
+       "latex": "400-294=106",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>-</mo><mn>294</mn><mo>=</mo><mn>106</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "400 minus 294 equals 106"
+      },
+      {
+       "latex": "7\\times42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>&#215;</mo><mn>42</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 cross times 42"
+      },
+      {
+       "latex": "8\\times50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>&#215;</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 cross times 50"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Nk7m3NyjWZGwCqj9",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_z7cKXcnBYxhY2TRC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 12,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jgWpDXX6QTytnqVr"
+     ],
+     "part_tier": null,
+     "problem_md": "Pam plays netball for her school team.\n\nHere are the numbers of goals she scored in the last 8 games. \nThe numbers of goals are written in order of size.\n\n1     1     2      2      3     6      $x$      14\n\nFind the range of the number of goals Pam scored.",
+     "solution_md": "> *The range is the largest number subtract the smallest number*\n\n$14-1=13$\n\n**Final answer:** **13**\n\n**[B1]**\n\n> **[exam-tip]**\n> The question says that the numbers are written in order of size. Therefore you know that the smallest number is 1 and the biggest number is 14, and you don't have to worry about what $x$ is for this part of the question.",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "14-1=13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>14</mn><mo>-</mo><mn>1</mn><mo>=</mo><mn>13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "14 minus 1 equals 13"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TFwZ9xpXkm3nwc3c",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 12,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the median number of goals Pam scored",
+     "solution_md": "> *The median is the middle*\n\n> *Cross a number off of each end until you find the middle*\n\n> *As there is an even number of numbers, there are two numbers in the middle*\n\n*2 and 3*\n\n> *Find the middle of these*\n\n**Final answer:** **2.5**\n\n**[B1]**"
+    },
+    {
+     "id": "qstnprt_b7fkFSSVXn9PWG8t",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 12,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_n9ZtYfjh8sFCp5Kz",
+      "spcpt_myNYhxstM7xnZd9P"
+     ],
+     "part_tier": null,
+     "problem_md": "The mean number of goals Pam scored in the 8 games is 5\n\nWork out the value of $x$",
+     "solution_md": "> *The mean is the total number of goals divided by the number of games*\n\n> *Work backwards to find the missing number*\n\n> *Multiply the mean by the number of games to get the total of all the goals*\n\n$8\\times5=40$\n\n**[M1]**\n\n> *Add up all the goals from the 7 games we know*\n\n$1+1+2+2+3+6+14=29$\n\n> *Subtract this from the total number of goals*\n\n$40-29=11$\n\n**[M1]**\n\n**Final answer:** **11**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "8\\times5=40",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><mn>40</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 cross times 5 equals 40"
+      },
+      {
+       "latex": "1+1+2+2+3+6+14=29",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>29</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1 plus 1 plus 2 plus 2 plus 3 plus 6 plus 14 equals 29"
+      },
+      {
+       "latex": "40-29=11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>40</mn><mo>-</mo><mn>29</mn><mo>=</mo><mn>11</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "40 minus 29 equals 11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qcJkZ8ntP24ckZPY",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_FqWnpBWMRZcHjV5X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 17,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Nd47QSGCxH96FDk3"
+     ],
+     "part_tier": null,
+     "problem_md": "The table gives information about the number of minutes that Abby spent walking each day in September.\n\n| Number of minutes (M) | Frequency |\n|---|---|\n| `space 0 space less than space M space less-than or slanted equal to thin space space 30` | 5 |\n| `space 30 space less than space M space less-than or slanted equal to thin space space 60` | 6 |\n| `space 60 space less than space M space less-than or slanted equal to thin space space 90` | 8 |\n| `space 90 space less than space M space less-than or slanted equal to thin space space 120` | 9 |\n| `space 120 space less than space M space less-than or slanted equal to thin space space 150` | 2 |\n\nWork out an estimate for the total number of minutes that Abby spent walking in September.",
+     "solution_md": "> *Add an extra column onto the table for the midpoint of the group and fill in the middle of each group*\n\n| Number of minutes (M) | Frequency | Midpoint |\n|---|---|---|\n| `space 0 space less than space M space less-than or slanted equal to thin space space 30` | 5 | 15 |\n| `space 30 space less than space M space less-than or slanted equal to thin space space 60` | 6 | 45 |\n| `space 60 space less than space M space less-than or slanted equal to thin space space 90` | 8 | 75 |\n| `space 90 space less than space M space less-than or slanted equal to thin space space 120` | 9 | 105 |\n| `space 120 space less than space M space less-than or slanted equal to thin space space 150` | 2 | 135 |\n\n> *Multiply the midpoint of each group by the frequency*\n\n$15\\times5+45\\times6+75\\times8+105\\times9+135\\times2$\n\n$=75+270+600+945+270$\n\n**[M1 M1]**\n\n> *Calculate the total*\n\n**Final answer:** **2160**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: For at least four correct products. You do not need to add them for this mark.\n> \n> **M1**: For adding together at least four correct products.\n> \n> **A1**: Correct answer.",
+     "equations": [
+      {
+       "latex": "15\\times5+45\\times6+75\\times8+105\\times9+135\\times2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>15</mn><mo>&#215;</mo><mn>5</mn><mo>+</mo><mn>45</mn><mo>&#215;</mo><mn>6</mn><mo>+</mo><mn>75</mn><mo>&#215;</mo><mn>8</mn><mo>+</mo><mn>105</mn><mo>&#215;</mo><mn>9</mn><mo>+</mo><mn>135</mn><mo>&#215;</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "15 cross times 5 plus 45 cross times 6 plus 75 cross times 8 plus 105 cross times 9 plus 135 cross times 2"
+      },
+      {
+       "latex": "=75+270+600+945+270",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mn>75</mn><mo>+</mo><mn>270</mn><mo>+</mo><mn>600</mn><mo>+</mo><mn>945</mn><mo>+</mo><mn>270</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "equals 75 plus 270 plus 600 plus 945 plus 270"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zy6wGWd7FKtCbMGg",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Y7Gbjt6cScdnBP4P",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "The table gives information about the number of rewards gained by each of 50 students last term.\n\n| Number of rewards | Frequency |\n|---|---|\n| 0 | 3 |\n| 1 | 9 |\n| 2 | 15 |\n| 3 | 18 |\n| 4 | 4 |\n| 5 | 1 |\n\nWrite down the mode of the number of rewards.",
+     "solution_md": "> *The mode is the most frequently occurring piece of data. Look for the highest number in the frequency column*\n\n**Final answer:** **3**\n\n**[B1]**"
+    },
+    {
+     "id": "qstnprt_7jsSknFynwdHP3qp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_QkZ2S7CKb8GrYdYx"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the mean number of rewards.",
+     "solution_md": "> *Multiply the number of rewards by the frequency and add together to find the total number of rewards*\n\n`open parentheses 0 space cross times space 3 close parentheses space plus thin space open parentheses 1 space cross times space 9 close parentheses space plus thin space open parentheses 2 space cross times space 15 close parentheses space plus thin space open parentheses 3 space cross times space 18 close parentheses space plus space open parentheses 4 space cross times space 4 close parentheses space plus thin space open parentheses 5 space cross times space 1 close parentheses`\n\n**[M1]**\n\n$=0+9+30+54+16+5\\,=114$\n\n> *Divide by the total frequency (given in the question)*\n\n$114\\div50=2.28$\n\n**[M1]**\n\n**Final answer:** **2.28**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "=0+9+30+54+16+5\\,=114",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>=</mo><mo>&#160;</mo><mn>0</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>9</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>30</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>54</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>16</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>5</mn><mspace linebreak=\"newline\"/><mo>=</mo><mo>&#160;</mo><mn>114</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "equals space 0 space plus thin space 9 space plus thin space 30 space plus thin space 54 space plus thin space 16 space plus thin space 5\nequals space 114"
+      },
+      {
+       "latex": "114\\div50=2.28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>114</mn><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>50</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>.</mo><mn>28</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "114 space divided by space 50 space equals space 2.28"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QTQk46B47NtvY5d2",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_CKyDkF6pFh73GS2T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/2F",
+      "question_number": 17,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Nd47QSGCxH96FDk3"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows information about the lengths, in minutes, of 50 telephone calls.\n\n| Length of telephone call ($m$ minutes) | Frequency |\n|---|---|\n| `0 space less than space m space less-than or slanted equal to 5` | 8 |\n| `5 space less than space m space less-than or slanted equal to 10` | 2 |\n| `10 space less than space m space less-than or slanted equal to 15` | 6 |\n| `15 space less than space m space less-than or slanted equal to 20` | 4 |\n| `20 space less than space m space less-than or slanted equal to 25` | 12 |\n| `25 space less than space m space less-than or slanted equal to 30` | 18 |\n\nWrite down the modal class.",
+     "solution_md": "> *The modal class is the one with the highest frequency*\n\n$25<m\\leq30$\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>m</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "m"
+      },
+      {
+       "latex": "25<m\\leq30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>25</mn><mo>&#160;</mo><mo>&#60;</mo><mo>&#160;</mo><mi>m</mi><mo>&#160;</mo><mo>&#8804;</mo><mo>&#160;</mo><mn>30</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "25 space less than space m space less or equal than space 30"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Qc8tx6k7sZNsCSX2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/2F",
+      "question_number": 17,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Nd47QSGCxH96FDk3"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out an estimate for the total length, in minutes, of these telephone calls.",
+     "solution_md": "> *Multiply the midpoint of each interval by the frequency and add together*\n\n$2.5\\times8+7.5\\times2+12.5\\times6+17.5\\times4+22.5\\times12+27.5\\times8=945$\n\n**[M1 M1]**\n\n$945$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1: **For products using the frequency and a consistent value within the range, and an attempt to add. Or the correct products using midpoints without addition.\n> \n> **M1: **For correct products using midpoints and adding.\n> \n> **A1: **Correct answer.",
+     "equations": [
+      {
+       "latex": "2.5\\times8+7.5\\times2+12.5\\times6+17.5\\times4+22.5\\times12+27.5\\times8=945",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>7</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>12</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>6</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>17</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>4</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>22</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>12</mn><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>27</mn><mo>.</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>945</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2.5 space cross times space 8 space plus thin space 7.5 space cross times space 2 space plus thin space 12.5 space cross times space 6 space plus thin space 17.5 space cross times space 4 space plus space 22.5 space cross times space 12 space plus thin space 27.5 space cross times space 8 space equals space 945"
+      },
+      {
+       "latex": "945",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>945</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": 945
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T02:06:54Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/foundation-unit-2/topic-questions/number/prime-factors-hcf-and-lcm/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4XMAF/4XMAH",
+  "sme_course_id": "crs_NvCPtv5Y54bnDWBF",
+  "syllabus_version": "2024",
+  "sme_alias_path": "a-modular/24/foundation-unit-2"
+ },
+ "section": {
+  "slug": "number",
+  "name": "Number"
+ },
+ "topic": {
+  "id": "top_gxKS2FWgpMMPtnTX",
+  "slug": "prime-factors-hcf-and-lcm",
+  "name": "Prime Factors, HCF & LCM",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "prime-factor-decomposition",
+   "name": "Prime Factor Decomposition",
+   "revision_note_id": "rn_96ZsxkTSbjYtgZHz"
+  },
+  {
+   "slug": "hcf-and-lcm",
+   "name": "HCF & LCM",
+   "revision_note_id": "rn_DD9sfpYmq5qz9j7S"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_xFQ45W7Cn8JJBNXr",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "hard"
+   ],
+   "question_count": 4
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/08/23646_spec-1f-q17.png": "001-factor-trees-for-140-and-245-number-140-has-fact.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_5yydwG5TkjYnWqjR",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_WrThXTdJm5cKvN68",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_SgzMz9GCcsdMwJcx"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 300 as a product of its prime factors. Show your working clearly.",
+     "solution_md": "> *Use a factor tree, or another method, to break 300 down to prime numbers*\n\n> *First think of two numbers that multiply to make 300*\n\n`table row 300 equals cell 3 cross times 100 end cell end table`\n\n> *Check if either of these are prime (3 is, 100 isn't)*\n\n> *Leave prime numbers and break down non-prime numbers*\n\n$300=3\\times2\\times50$\n\n**[M1]**\n\n> *Keep doing this until you only have prime numbers*\n\n$300=3\\times2\\times5\\times10\\,300=3\\times2\\times5\\times2\\times5$\n\n> **[exam-tip]**\n> You can then put these in ascending order, or group them using powers, but the question doesn't require that you do.\n\n$300=2\\times2\\times3\\times5\\times5\\mathrm{or}2^{2}\\times3\\times5^{2}$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "300=3\\times2\\times50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>300</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "300 equals 3 cross times 2 cross times 50"
+      },
+      {
+       "latex": "300=3\\times2\\times5\\times10\\,300=3\\times2\\times5\\times2\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>300</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>10</mn><mspace linebreak=\"newline\"/><mn>300</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "300 equals 3 cross times 2 cross times 5 cross times 10\n300 equals 3 cross times 2 cross times 5 cross times 2 cross times 5"
+      },
+      {
+       "latex": "300=2\\times2\\times3\\times5\\times5\\mathrm{or}2^{2}\\times3\\times5^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">300</mn><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><msup><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">&#215;</mo><msup><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold 300 bold equals bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 5 bold cross times bold 5 bold space bold space bold or bold space bold space bold 2 to the power of bold 2 bold cross times bold 3 bold cross times bold 5 to the power of bold 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6Wrbvr8d3D3zFWfD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bmqbWbZM8HXPwsFF"
+     ],
+     "part_tier": null,
+     "problem_md": "$A=2\\times2\\times2\\times3\\times3\\times5$\n\n$B=2\\times2\\times3\\times3\\times3\\times5$\n\nFind the lowest common multiple (LCM) of $5A$ and $7B$ \nShow your working clearly.",
+     "solution_md": "> *Multiply A and B by their coefficients in the question leaving them as products of their primes*\n\n$5A=2\\times2\\times2\\times3\\times3\\times5\\times5=2^{3}\\times3^{2}\\times5^{2}$\n\n$7B=2\\times2\\times3\\times3\\times3\\times5\\times7=2^{2}\\times3^{3}\\times5\\times7$\n\n**[M1]**\n\n> *To calculate the LCM*\n\n- *compare both lists and identify the highest power of each prime number*\n- *multiply them together*\n\n$2^{3}\\times3^{3}\\times5^{2}\\times7$\n\n**Final answer:** **37800**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "A=2\\times2\\times2\\times3\\times3\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A equals 2 cross times 2 cross times 2 cross times 3 cross times 3 cross times 5"
+      },
+      {
+       "latex": "B=2\\times2\\times3\\times3\\times3\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B equals 2 cross times 2 cross times 3 cross times 3 cross times 3 cross times 5"
+      },
+      {
+       "latex": "5A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 A"
+      },
+      {
+       "latex": "7B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 B"
+      },
+      {
+       "latex": "5A=2\\times2\\times2\\times3\\times3\\times5\\times5=2^{3}\\times3^{2}\\times5^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>A</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#215;</mo><msup><mn>5</mn><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 A equals 2 cross times 2 cross times 2 cross times 3 cross times 3 cross times 5 cross times 5 equals 2 cubed cross times 3 squared cross times 5 squared"
+      },
+      {
+       "latex": "7B=2\\times2\\times3\\times3\\times3\\times5\\times7=2^{2}\\times3^{3}\\times5\\times7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>B</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>7</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>&#215;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 B equals 2 cross times 2 cross times 3 cross times 3 cross times 3 cross times 5 cross times 7 equals 2 squared cross times 3 cubed cross times 5 cross times 7"
+      },
+      {
+       "latex": "2^{3}\\times3^{3}\\times5^{2}\\times7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>5</mn><mn>2</mn></msup><mo>&#215;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 cubed cross times 3 cubed cross times 5 squared cross times 7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HRfKRVRbbNnhWyP6",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_jg4MfMqNRNbjwwfm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 17,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_P88yS9wysymQ2brq"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the Highest Common Factor (HCF) of 140 and 245.",
+     "solution_md": "> *Write 140 and 245 as a product of prime factors (using a 'factor tree' for example)*\n\n![Factor trees for 140 and 245. Number 140 has factors 2, 2, 5, 7; 245 includes 5, 7, 7. Trees visually split into prime factors.](assets/001-factor-trees-for-140-and-245-number-140-has-fact.png)\n\n$140=2\\times2\\times5\\times7\\,245=5\\times7\\times7$\n\n**[M1]**\n\n> *Multiply together the common factors that appear in both lists*\n\n$5\\times7=35$\n\n**Final answer:** **35**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "140=2\\times2\\times5\\times7\\,245=5\\times7\\times7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>140</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>7</mn><mspace linebreak=\"newline\"/><mn>245</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>7</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "140 space equals space 2 space cross times space 2 space cross times space 5 space cross times space 7\n245 space equals space 5 space cross times space 7 space cross times space 7"
+      },
+      {
+       "latex": "5\\times7=35",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mn>7</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>35</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 space cross times space 7 space equals space 35"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_SH2bjK3BvSprWB4w",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "find",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/1F",
+      "question_number": 17,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bmqbWbZM8HXPwsFF"
+     ],
+     "part_tier": null,
+     "problem_md": "A machine has a buzzer that sounds every 50 minutes. \nThe machine also has a bell that sounds every 80 minutes.\n\nThe buzzer and the bell sound together at 10 am.\n\nFind the time at which they next sound together.",
+     "solution_md": "> **[exam-tip]**\n> Look out for these 'when is the next time two things will happen together' types of questions. Although the question doesn't say so explicitly, it is a Lowest Common Multiple question.\n> \n> The fact that this is part (b) to a Highest Common Factor part (a) might also be a hint in that direction.\n\n> *List the multiples of 50 and 80*\n\n$50,100,150,200,250,300,350,400,450,....\\,80,160,240,320,400,...$\n\n**[M1]**\n\n> *Identify the lowest common multiple*\n\n*400*\n\n**[M1]**\n\n> *Convert to hours and minutes*\n\n*400 minutes = 6 hours and 40 minutes*\n\n> *Calculate the time by adding that on to 10am*\n\n**Final answer:** **16:40**\n\n**[A1]**\n\n> **[mark-scheme]**\n> 4:40 pm will also get the final mark here.",
+     "equations": [
+      {
+       "latex": "50,100,150,200,250,300,350,400,450,....\\,80,160,240,320,400,...",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>50</mn><mo>,</mo><mo>&#160;</mo><mn>100</mn><mo>,</mo><mo>&#160;</mo><mn>150</mn><mo>,</mo><mo>&#160;</mo><mn>200</mn><mo>,</mo><mo>&#160;</mo><mn>250</mn><mo>,</mo><mo>&#160;</mo><mn>300</mn><mo>,</mo><mo>&#160;</mo><mn>350</mn><mo>,</mo><mo>&#160;</mo><mn>400</mn><mo>,</mo><mo>&#160;</mo><mn>450</mn><mo>,</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mspace linebreak=\"newline\"/><mn>80</mn><mo>,</mo><mo>&#160;</mo><mn>160</mn><mo>,</mo><mo>&#160;</mo><mn>240</mn><mo>,</mo><mo>&#160;</mo><mn>320</mn><mo>,</mo><mo>&#160;</mo><mn>400</mn><mo>,</mo><mo>&#160;</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "50 comma space 100 comma space 150 comma space 200 comma space 250 comma space 300 comma space 350 comma space 400 comma space 450 comma space....\n80 comma space 160 comma space 240 comma space 320 comma space 400 comma space..."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CtFhW8f6hBgsqznZ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_6sWn4hjzWyztkWgY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_SgzMz9GCcsdMwJcx"
+     ],
+     "part_tier": null,
+     "problem_md": "Write 300 as a product of its prime factors. Show your working clearly.",
+     "solution_md": "> *Use a factor tree, or another method, to break 300 down to prime numbers*\n\n> *First think of two numbers that multiply to make 300*\n\n`table row 300 equals cell 3 cross times 100 end cell end table`\n\n> *Check if either of these are prime (3 is, 100 isn't)*\n\n> *Leave prime numbers and break down non-prime numbers*\n\n$300=3\\times2\\times50$\n\n**[M1]**\n\n> *Keep doing this until you only have prime numbers*\n\n$300=3\\times2\\times5\\times10\\,300=3\\times2\\times5\\times2\\times5$\n\n> **[exam-tip]**\n> You can then put these in ascending order, or group them using powers, but the question doesn't require that you do.\n\n$300=2\\times2\\times3\\times5\\times5\\mathrm{or}2^{2}\\times3\\times5^{2}$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "300=3\\times2\\times50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>300</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>50</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "300 equals 3 cross times 2 cross times 50"
+      },
+      {
+       "latex": "300=3\\times2\\times5\\times10\\,300=3\\times2\\times5\\times2\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>300</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>10</mn><mspace linebreak=\"newline\"/><mn>300</mn><mo>=</mo><mn>3</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "300 equals 3 cross times 2 cross times 5 cross times 10\n300 equals 3 cross times 2 cross times 5 cross times 2 cross times 5"
+      },
+      {
+       "latex": "300=2\\times2\\times3\\times5\\times5\\mathrm{or}2^{2}\\times3\\times5^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">300</mn><mo mathvariant=\"bold\">=</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">2</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">5</mn><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><mi mathvariant=\"bold\">or</mi><mo mathvariant=\"bold\">&#160;</mo><mo mathvariant=\"bold\">&#160;</mo><msup><mn mathvariant=\"bold\">2</mn><mn mathvariant=\"bold\">2</mn></msup><mo mathvariant=\"bold\">&#215;</mo><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">&#215;</mo><msup><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "bold 300 bold equals bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 5 bold cross times bold 5 bold space bold space bold or bold space bold space bold 2 to the power of bold 2 bold cross times bold 3 bold cross times bold 5 to the power of bold 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_t2tw6SB6WTtSSYRv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 23,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_bmqbWbZM8HXPwsFF"
+     ],
+     "part_tier": null,
+     "problem_md": "$A=2\\times2\\times2\\times3\\times3\\times5$\n\n$B=2\\times2\\times3\\times3\\times3\\times5$\n\nFind the lowest common multiple (LCM) of $5A$ and $7B$ \nShow your working clearly.",
+     "solution_md": "> *Multiply A and B by their coefficients in the question leaving them as products of their primes*\n\n$5A=2\\times2\\times2\\times3\\times3\\times5\\times5=2^{3}\\times3^{2}\\times5^{2}$\n\n$7B=2\\times2\\times3\\times3\\times3\\times5\\times7=2^{2}\\times3^{3}\\times5\\times7$\n\n**[M1]**\n\n> *To calculate the LCM*\n\n- *compare both lists and identify the highest power of each prime number*\n- *multiply them together*\n\n$2^{3}\\times3^{3}\\times5^{2}\\times7$\n\n**Final answer:** **37800**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "A=2\\times2\\times2\\times3\\times3\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A equals 2 cross times 2 cross times 2 cross times 3 cross times 3 cross times 5"
+      },
+      {
+       "latex": "B=2\\times2\\times3\\times3\\times3\\times5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B equals 2 cross times 2 cross times 3 cross times 3 cross times 3 cross times 5"
+      },
+      {
+       "latex": "5A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 A"
+      },
+      {
+       "latex": "7B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 B"
+      },
+      {
+       "latex": "5A=2\\times2\\times2\\times3\\times3\\times5\\times5=2^{3}\\times3^{2}\\times5^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>A</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>&#215;</mo><msup><mn>5</mn><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 A equals 2 cross times 2 cross times 2 cross times 3 cross times 3 cross times 5 cross times 5 equals 2 cubed cross times 3 squared cross times 5 squared"
+      },
+      {
+       "latex": "7B=2\\times2\\times3\\times3\\times3\\times5\\times7=2^{2}\\times3^{3}\\times5\\times7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>B</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>3</mn><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>7</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>&#215;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>&#215;</mo><mn>5</mn><mo>&#215;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 B equals 2 cross times 2 cross times 3 cross times 3 cross times 3 cross times 5 cross times 7 equals 2 squared cross times 3 cubed cross times 5 cross times 7"
+      },
+      {
+       "latex": "2^{3}\\times3^{3}\\times5^{2}\\times7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>3</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>5</mn><mn>2</mn></msup><mo>&#215;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 cubed cross times 3 cubed cross times 5 squared cross times 7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_txG49GKV2HwQJ4HF",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_mXQcW5qZ7XxpQ6mj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "find",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/1F",
+      "question_number": 21,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_P88yS9wysymQ2brq"
+     ],
+     "part_tier": null,
+     "problem_md": "$A=5^{3}\\times7^{3}\\times11^{6}$ and  $B=5^{6}\\times7^{2}\\times11^{4}$\n\nFind the highest common factor (HCF) of $A$and $B$ \nGive your answer as a product of powers of its prime factors.",
+     "solution_md": "> *To find the HCF, use the lowest power for each number*\n\n$5^{3}\\times7^{2}\\times11^{4}$\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: $5^{p}\\times7^{q}\\times11^{r}$ with two of $p=3,q=2,r=4$\n> \n> **B1**: All three powers correct",
+     "equations": [
+      {
+       "latex": "A=5^{3}\\times7^{3}\\times11^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><msup><mn>5</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>7</mn><mn>3</mn></msup><mo>&#215;</mo><msup><mn>11</mn><mn>6</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A equals 5 cubed cross times 7 cubed cross times 11 to the power of 6"
+      },
+      {
+       "latex": "B=5^{6}\\times7^{2}\\times11^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mo>=</mo><msup><mn>5</mn><mn>6</mn></msup><mo>&#215;</mo><msup><mn>7</mn><mn>2</mn></msup><mo>&#215;</mo><msup><mn>11</mn><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B equals 5 to the power of 6 cross times 7 squared cross times 11 to the power of 4"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "5^{3}\\times7^{2}\\times11^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mn>5</mn><mn>3</mn></msup><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>7</mn><mn>2</mn></msup><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>11</mn><mn>4</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 cubed space cross times space 7 squared space cross times space 11 to the power of 4"
+      },
+      {
+       "latex": "5^{p}\\times7^{q}\\times11^{r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mn>5</mn><mi>p</mi></msup><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>7</mn><mi>q</mi></msup><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>11</mn><mi>r</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 to the power of p space cross times space 7 to the power of q space cross times space 11 to the power of r"
+      },
+      {
+       "latex": "p=3,q=2,r=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>,</mo><mo>&#160;</mo><mi>q</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mi>r</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "p space equals space 3 comma space q space equals space 2 comma space r space equals space 4"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

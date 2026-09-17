@@ -1,0 +1,361 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T02:06:28Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/maths/edexcel/a-modular/24/foundation-unit-2/topic-questions/algebra/functions/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Maths",
+  "exam_code": "4XMAF/4XMAH",
+  "sme_course_id": "crs_NvCPtv5Y54bnDWBF",
+  "syllabus_version": "2024",
+  "sme_alias_path": "a-modular/24/foundation-unit-2"
+ },
+ "section": {
+  "slug": "algebra",
+  "name": "Algebra"
+ },
+ "topic": {
+  "id": "top_6yQ2Hcff38JRKqys",
+  "slug": "functions",
+  "name": "Functions",
+  "order": 6
+ },
+ "subtopics": [
+  {
+   "slug": "function-machines",
+   "name": "Function Machines",
+   "revision_note_id": "rn_2d3k484D3SPnTFn3"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_P4M24PtZCmQW9NgK",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/07/56957_4ma1-2f-7.png": "001-flowchart-with-an-input-processed-through-three-.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/55116_4ma1-1f-9a.png": "002-flowchart-showing-a-process-input-multiplied-by-.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/7755_4ma1-1f-9b.png": "003-flowchart-with-two-processes-first-multiplies-in.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/4736_4ma1-2f-10a.png": "004-flowchart-diagram-showing-input-processed-throug.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/45309_4ma1-2f-10b.png": "005-flowchart-diagram-showing-a-process-where-input-.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_yRM3y8YPn7RCqMrd",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_yvdNCGkBXJ2SP36Z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "Here is a number machine.\n\n![Flowchart with an input processed through three steps: multiply by 5, subtract 7, and divide by 2, leading to an output.](assets/001-flowchart-with-an-input-processed-through-three-.png)\n\nWork out the output when the input is 15",
+     "solution_md": "> *The operations in a function machine are always performed in order from left to right*\n\n`table row cell 15 cross times 5 end cell equals 75 row cell 75 minus 7 end cell equals 68 row cell 68 divided by 2 end cell equals 34 end table`\n\n**Final answer:** **34**\n\n**[B1]**"
+    },
+    {
+     "id": "qstnprt_59nC8bsCB76vFtck",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "Work out the input when the output is 124",
+     "solution_md": "> *Working in reverse order through the function machine and using the inverse operations will calculate the input starting from the given output*\n\n`table row cell 124 cross times 2 end cell equals 248 row cell 248 plus 7 end cell equals 255 row cell 255 divided by 5 end cell equals 51 end table`\n\n**[M1]**\n\n**Final answer:** **51**\n\n**[A1]**"
+    },
+    {
+     "id": "qstnprt_BHS8rsnv4pPFh2mf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "Specimen paper",
+      "number": "4MA1/2F",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "The input is $p$. \nThe output is $T$\n\nWrite down a formula for $T$ in terms of $p$.",
+     "solution_md": "> **[exam-tip]**\n> A formula must have an equals sign and at least two variables with one of the variables being isolated and therefore the subject of the formula.\n> \n> In this case, the formula must be in the form $T=$with the variable $p$ appearing on the right hand side of the equals sign.\n\n> *Following the order of the operations in the function machine, *$p$* is first multiplied by 5*\n\n$5\\timesp=5p$\n\n> *Next, 7 is subtracted from the expression *$5p$* to give:*\n\n$5p-7$\n\n> *Finally, the expression is divided by 2 and this is best expressed as a fraction with 2 as the denominator*\n\n$\\frac{5p-7}{2}$\n\n**[M1]**\n\n> $T$* is the output  and so the expression can be written as a formula with *$T$* as the subject*\n\n$T=\\frac{5p-7}{2}$\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "T=",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T equals"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>p</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "5\\timesp=5p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mo>&#215;</mo><mi>p</mi><mo>=</mo><mn>5</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 cross times p equals 5 p"
+      },
+      {
+       "latex": "5p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>p</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 p"
+      },
+      {
+       "latex": "5p-7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn><mi>p</mi><mo>-</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5 p minus 7"
+      },
+      {
+       "latex": "\\frac{5p-7}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>5</mn><mi>p</mi><mo>-</mo><mn>7</mn></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 5 p minus 7 over denominator 2 end fraction"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "T=\\frac{5p-7}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>p</mi><mo>-</mo><mn>7</mn></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T equals fraction numerator 5 p minus 7 over denominator 2 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cZPzPRH2dMsvsgBC",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wtK2nkCj33qbtcSM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "Here is a number machine.\n\n![Flowchart showing a process: input multiplied by 10, resulting value increased by 6, leading to output.](assets/002-flowchart-showing-a-process-input-multiplied-by-.png)\n\nWork out the output when the input is 14",
+     "solution_md": "> *The number machine tells you to multiply by 10 and then add 6*\n\n$14\\times10=140\\,140+6=146$\n\n**Final answer:** **146**\n\n**[B1]**",
+     "equations": [
+      {
+       "latex": "14\\times10=140\\,140+6=146",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>14</mn><mo>&#215;</mo><mn>10</mn><mo>=</mo><mn>140</mn><mspace linebreak=\"newline\"/><mn>140</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>146</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "14 cross times 10 equals 140\n140 plus 6 equals 146"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rV9MhxwZ4y3RHnp4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 June",
+      "number": "4MA1/1F",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VgH3YPmpp6Yqy9KC",
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "Here is a different number machine\n\n![Flowchart with two processes: first multiplies input by a number, second adds 9, resulting in the output. Arrows indicate progression.](assets/003-flowchart-with-two-processes-first-multiplies-in.png)\n\nWhen the input is 11 the output is 64\n\nWrite a number on the dotted line to complete the number machine.",
+     "solution_md": "> *Work backwards starting with the output and do the opposite operation (subtract 9 instead of adding 9)*\n\n$64-9=55$\n\n**[M1]**\n\n> *The input 11 must by multiplied by something to get 55, so divide 55 by 11 to find out what is missing*\n\n$55\\div11=5$\n\n**Final answer:** **5**\n\n**[A1]**\n\n> **[exam-tip]**\n> You can check your answer by putting 11 into the number machine and making sure that 64 comes out the other end.",
+     "equations": [
+      {
+       "latex": "64-9=55",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>64</mn><mo>-</mo><mn>9</mn><mo>=</mo><mn>55</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "64 minus 9 equals 55"
+      },
+      {
+       "latex": "55\\div11=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>55</mn><mo>&#247;</mo><mn>11</mn><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "55 divided by 11 equals 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZWm8mJW8xFK5sh6m",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9qFZ9S4ZkYv4BRpS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "work_out",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/2F",
+      "question_number": 10,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "Here is a number machine.\n\n![Flowchart diagram showing input processed through multiplication by y, then subtraction of 17, leading to output.](assets/004-flowchart-diagram-showing-input-processed-throug.png)\n\nWhen the input is 7 the output is 60\n\nWork out the value of $y$",
+     "solution_md": "> *Form an equation*\n\n$7y-17=60$\n\n> *Add 17 to both sides*\n\n$7y=77$\n\n**[M1]**\n\n> *Divide both sides by 7*\n\n$y=11$\n\n**Final answer:** **11**\n\n**[A1]**",
+     "equations": [
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "7y-17=60",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>y</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>17</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>60</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 y space minus space 17 space equals space 60"
+      },
+      {
+       "latex": "7y=77",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>77</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7 y space equals space 77"
+      },
+      {
+       "latex": "y=11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>11</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y space equals space 11"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_F2KKFFnthRqvNkmt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2023 Nov",
+      "number": "4MA1/2F",
+      "question_number": 10,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9PXTsr69WbyMJVFF"
+     ],
+     "part_tier": null,
+     "problem_md": "Here is a different number machine.\n\n![Flowchart diagram showing a process where input is increased by 7, then divided by 5, leading to the output.](assets/005-flowchart-diagram-showing-a-process-where-input-.png)\n\nThe input is $x$\n\nWrite down an expression, in terms of $x$, for the output.",
+     "solution_md": "> *Write the operations in order*\n\n> *Use brackets to maintain the correct order of operations*\n\n`open parentheses x space plus thin space 7 close parentheses space divided by space 5`\n\n$\\frac{x+7}{5}$\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1: **For $x+7\\div5$.\n> \n> **B1: **For correct answer or equivalent.",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{x+7}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>x</mi><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>7</mn></mrow><mn>5</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator x space plus thin space 7 over denominator 5 end fraction"
+      },
+      {
+       "latex": "x+7\\div5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>&#160;</mo><mo>+</mo><mo>&#8201;</mo><mn>7</mn><mo>&#160;</mo><mo>&#247;</mo><mo>&#160;</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x space plus thin space 7 space divided by space 5"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
