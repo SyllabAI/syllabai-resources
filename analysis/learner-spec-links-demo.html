@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SyllabAI — learner spec links demo</title>
+<style>
+ :root{--ink:#14212b;--mut:#5b6b76;--line:#dde5ea;--bg:#f6f8f9;--card:#fff;
+  --t1:#1c7c54;--t2:#0e7490;--t3:#2563eb;--s1:#b45309;--flag:#b91c1c;--pend:#6b7280;}
+ *{box-sizing:border-box}
+ body{margin:0;font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+ header{background:#0f2a3d;color:#e8f1f5;padding:22px 28px}
+ header h1{margin:0 0 4px;font-size:20px}
+ header p{margin:0;color:#9fb8c4;font-size:13px}
+ .wrap{max-width:960px;margin:0 auto;padding:22px 20px 60px}
+ .tabs{display:flex;gap:8px;margin:18px 0 14px}
+ .tabs button{border:1px solid var(--line);background:#fff;padding:8px 16px;border-radius:9px;
+   font-size:14px;cursor:pointer;color:var(--mut)}
+ .tabs button.on{background:#0f2a3d;border-color:#0f2a3d;color:#fff}
+ .pane{display:none}.pane.on{display:block}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+ .card h3{margin:0 0 8px;font-size:15px}
+ .muted{color:var(--mut);font-size:13px}
+ .chip{display:inline-block;margin:2px 6px 2px 0;padding:2px 9px;border-radius:999px;
+   font-size:12px;font-weight:600;color:#fff}
+ .chip.t1{background:var(--t1)}.chip.t2{background:var(--t2)}.chip.t3{background:var(--t3)}
+ .chip.s1{background:var(--s1)}.chip.flag{background:#fff;color:var(--flag);border:1.5px solid var(--flag)}
+ .chip.pending{background:#e5e7eb;color:var(--pend);border:1px dashed var(--pend)}
+ .flip{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);font-size:14px}
+ .legend{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 16px;font-size:12.5px;color:var(--mut)}
+ .legend b{font-weight:600}
+ .overlay{margin-top:26px;border:2px dashed #c4a2c9;border-radius:12px;padding:14px 18px;background:#faf5fb}
+ .overlay h4{margin:0 0 6px;font-size:13px;color:#7c3f88;text-transform:uppercase;letter-spacing:.06em}
+ .bar{height:8px;border-radius:6px;background:#eadff0;margin:6px 0 10px;overflow:hidden}
+ .bar i{display:block;height:100%;background:#a56ab5}
+</style></head><body>
+<header>
+ <h1>Learner spec links — canonical truth layer</h1>
+ <p>spec-links/&lt;course&gt;.json · syllabai.learner-spec-links/1.0 · Edexcel official codes with provenance tiers · demo renders real bundle slices</p>
+</header>
+<div class="wrap">
+ <div class="legend">
+  <b>Legend:</b>
+  <span class="chip t1">T1 verbatim</span><span class="chip t2">T2 near</span>
+  <span class="chip t3">T3 section</span><span class="chip s1">S1 name</span>
+  <span class="chip flag">review flag</span><span class="chip pending">pending</span>
+ </div>
+ <div class="tabs">
+  <button class="on" onclick="tab(0,this)">Flashcards — SDA Biology · Inheritance</button>
+  <button onclick="tab(1,this)">Revision notes — IGCSE Biology</button>
+  <button onclick="tab(2,this)">Exam questions — IGCSE Biology</button>
+ </div>
+
+ <div class="pane on" id="p0"></div>
+
+ <div class="pane" id="p1"></div>
+
+ <div class="pane" id="p2"></div>
+
+ <div class="overlay">
+  <h4>Learner overlay (mock — strictly separate from canonical truth, v72 semantics)</h4>
+  <div class="muted">mastery 0.62 · confidence 0.55 · fluency 0.48 · review due in 2 days — overlay is keyed by the same official_code chips above; nothing here edits the spec links.</div>
+  <div class="bar"><i style="width:62%"></i></div>
+ </div>
+</div>
+<script>
+const CARDS = [{"front": "Define genome.\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.14", "official_code": "3.14", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_CkHqXRj2MgVMR6xZ"}], "pending": []}, {"front": "Define gene.\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.14", "official_code": "3.14", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_CkHqXRj2MgVMR6xZ"}], "pending": []}, {"front": "Why do all the cells in your body contain the same genome?\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.14", "official_code": "3.14", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_CkHqXRj2MgVMR6xZ"}], "pending": []}, {"front": "How do genes control our characteristics?\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.14", "official_code": "3.14", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_CkHqXRj2MgVMR6xZ"}], "pending": []}, {"front": "Give three types of protein coded for by genes.\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.14", "official_code": "3.14", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_CkHqXRj2MgVMR6xZ"}], "pending": []}, {"front": "Define chromosome.\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.15", "official_code": "3.15", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_HvfdJtbtpdwMz9PX"}], "pending": []}, {"front": "How many chromosomes does an ordinary human body cell contain?\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.15", "official_code": "3.15", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_HvfdJtbtpdwMz9PX"}], "pending": []}, {"front": "Define diploid.\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.15", "official_code": "3.15", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_HvfdJtbtpdwMz9PX"}], "pending": []}, {"front": "What is the haploid number of chromosomes in human cells?\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.15", "official_code": "3.15", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_HvfdJtbtpdwMz9PX"}], "pending": []}, {"front": "How are DNA, a gene and a chromosome related?\n", "codes": [{"official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.15", "official_code": "3.15", "tier": "T1_verbatim", "score": 1.0, "unit": null, "method": "sme_spec_link_inherited", "via_spcpt": "spcpt_HvfdJtbtpdwMz9PX"}], "pending": []}, {"front": "Give three differences between mitosis and meiosis.\n", "codes": [], "pending": ["spcpt_nNMTzc3PZPpMmSx9"]}, {"front": "Which type of cell division produces gametes?\n", "codes": [], "pending": ["spcpt_nNMTzc3PZPpMmSx9"]}];
+const NOTES = [{"title": "Plant Response to Stimuli- IGCSE Biology Revision Notes", "codes": [{"official_id": "IGCSE_BIOLOGY:2.83", "official_code": "2.83", "tier": "T1_verbatim", "method": "definition_text_join"}, {"official_id": "IGCSE_BIOLOGY:2.84", "official_code": "2.84", "tier": "T1_verbatim", "method": "definition_text_join"}, {"official_id": "IGCSE_BIOLOGY:2.85", "official_code": "2.85", "tier": "T1_verbatim", "method": "definition_text_join"}]}, {"title": "Nephron Function", "codes": [{"official_id": "IGCSE_BIOLOGY:2.75B", "official_code": "2.75B", "tier": "T1_verbatim", "method": "definition_text_join"}, {"official_id": "IGCSE_BIOLOGY:2.76B", "official_code": "2.76B", "tier": "T1_verbatim", "method": "definition_text_join"}, {"official_id": "IGCSE_BIOLOGY:2.77B", "official_code": "2.77B", "tier": "T1_verbatim", "method": "definition_text_join"}]}, {"title": "Balanced Diet", "codes": [{"official_id": "IGCSE_BIOLOGY:2.24", "official_code": "2.24", "tier": "T1_verbatim", "method": "definition_text_join"}, {"official_id": "IGCSE_BIOLOGY:2.25", "official_code": "2.25", "tier": "T1_verbatim", "method": "definition_text_join"}, {"official_id": "IGCSE_BIOLOGY:2.26", "official_code": "2.26", "tier": "T1_verbatim", "method": "definition_text_join"}]}];
+const PARTS = [{"id": "qstnprt_RQXXq3TnBtZTYSm5", "topic": "characteristics-of-living-organisms", "codes": [{"official_id": "IGCSE_BIOLOGY:1.3", "official_code": "1.3", "tier": "T1_verbatim", "method": "definition_text_join"}]}, {"id": "qstnprt_PbhzV9xDdpKngYF8", "topic": "characteristics-of-living-organisms", "codes": [{"official_id": "IGCSE_BIOLOGY:2.9", "official_code": "2.9", "tier": "T1_verbatim", "method": "definition_text_join"}]}, {"id": "qstnprt_9RqgSydjVffWBXxQ", "topic": "characteristics-of-living-organisms", "codes": [{"official_id": "IGCSE_BIOLOGY:1.4", "official_code": "1.4", "tier": "T4_fuzzy", "method": "definition_text_join"}]}, {"id": "qstnprt_z78HY2bdD6tPxt2R", "topic": "characteristics-of-living-organisms", "codes": [{"official_id": "IGCSE_BIOLOGY:1.4", "official_code": "1.4", "tier": "T4_fuzzy", "method": "definition_text_join"}]}, {"id": "qstnprt_v9sMXc2fNvdnPwv2", "topic": "characteristics-of-living-organisms", "codes": [{"official_id": "IGCSE_BIOLOGY:1.4", "official_code": "1.4", "tier": "T4_fuzzy", "method": "definition_text_join"}]}, {"id": "qstnprt_wv7Ztz2RQJWNTdwq", "topic": "characteristics-of-living-organisms", "codes": [{"official_id": "IGCSE_BIOLOGY:1.3", "official_code": "1.3", "tier": "T1_verbatim", "method": "definition_text_join"}]}];
+function chip(c){const cls={T1_verbatim:'t1',T2_near:'t2',T3_section_anchored:'t3',
+ T4_fuzzy:'flag',S1_name_match:'s1',S2_name_ambiguous:'flag'}[c.tier]||'t2';
+ return `<span class="chip ${cls}" title="${c.tier} · ${c.method||''}">${c.official_code}</span>`;}
+function pend(p){return p.map(()=>`<span class="chip pending">pending</span>`).join('');}
+document.getElementById('p0').innerHTML = CARDS.map((c,i)=>`
+ <div class="card"><h3>Card ${i+1} — ${c.front}</h3>
+  <div>${c.codes.map(chip).join('')}${pend(c.pending)}</div>
+  <div class="flip muted">flip → back shows the answer with the matched statement's official code displayed as a spec chip.</div>
+ </div>`).join('') || '<div class="card muted">no coded cards</div>';
+document.getElementById('p1').innerHTML = NOTES.map(n=>`
+ <div class="card"><h3>${n.title}</h3>
+  <div class="muted">Revision note leaf — every spec point the note covers renders as a chip; the UI deep-links each chip to the official statement and to the learner's mastery on it.</div>
+  <div style="margin-top:8px">${n.codes.map(chip).join('')}</div>
+ </div>`).join('');
+document.getElementById('p2').innerHTML = PARTS.map(p=>`
+ <div class="card"><h3>Question part <code>${p.id}</code></h3>
+  <div class="muted">topic: ${p.topic}</div>
+  <div style="margin-top:8px">${p.codes.map(chip).join('')}${pend(p.pending)}</div>
+ </div>`).join('');
+function tab(i, btn){
+ document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('on'));
+ document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+ btn.classList.add('on'); document.getElementById('p'+i).classList.add('on');
+}
+</script></body></html>

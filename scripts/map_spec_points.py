@@ -257,70 +257,79 @@ def map_regime_B(course, qual_slug, entries, unit_key=None, tier_key=None):
             flags.append({"spcpt_id": sid, "official_id": best["id"], "flag": flag})
     return mappings, unmapped, flags
 
-# ---------- run all courses ----------
+# ---------- run all courses ---------- (function; import-safe)
 
-report = {"schema": "syllabai.sme-spec-point-map-report/1.0",
-          "generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-          "courses": {}}
 
-for q in manifest["qualifications"]:
-    qual_slug = q["slug"]
-    for course in q["sme_courses"]:
-        idx_path = os.path.join(SME, course, "spec_point_index.json")
-        entries = json.load(open(idx_path))["spec_points"]
-        unit_key, tier_key, blocked = course_scope(course, qual_slug)
-        defs_present = sum(1 for e in entries.values() if (e.get("definition") or "").strip())
-        regime = "A" if defs_present > len(entries) * 0.5 else "B"
+def run_all():
+    # ---------- run all courses ----------
 
-        if blocked == "parse_gap":
-            result = {"status": "blocked_parse_gap", "regime": regime,
-                      "sme_entries": len(entries),
-                      "note": "qualification parse gap (see structure.json validation); mapping deferred to T-PARSE-FIX"}
-            report["courses"][course] = {"qual": qual_slug, **{k: v for k, v in result.items()}}
+    report = {"schema": "syllabai.sme-spec-point-map-report/1.0",
+              "generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+              "courses": {}}
+
+    for q in manifest["qualifications"]:
+        qual_slug = q["slug"]
+        for course in q["sme_courses"]:
+            idx_path = os.path.join(SME, course, "spec_point_index.json")
+            entries = json.load(open(idx_path))["spec_points"]
+            unit_key, tier_key, blocked = course_scope(course, qual_slug)
+            defs_present = sum(1 for e in entries.values() if (e.get("definition") or "").strip())
+            regime = "A" if defs_present > len(entries) * 0.5 else "B"
+
+            if blocked == "parse_gap":
+                result = {"status": "blocked_parse_gap", "regime": regime,
+                          "sme_entries": len(entries),
+                          "note": "qualification parse gap (see structure.json validation); mapping deferred to T-PARSE-FIX"}
+                report["courses"][course] = {"qual": qual_slug, **{k: v for k, v in result.items()}}
+                with open(os.path.join(SME, course, "spec_point_map.json"), "w") as f:
+                    json.dump({"schema": "syllabai.sme-spec-point-map/1.0", "course": course,
+                               "qual": qual_slug, **result, "mappings": {}, "unmapped": [], "flags": []},
+                              f, indent=1, ensure_ascii=False)
+                print(f"[{course}] qual={qual_slug} regime={regime} -> BLOCKED (parse gap)")
+                continue
+
+            if unit_key or tier_key:
+                cands = candidates_for(qual_slug, unit_key, tier_key)
+            else:
+                cands = candidates_for(qual_slug, None)
+
+            fn = map_regime_A if regime == "A" else map_regime_B
+            mappings, unmapped, flags = fn(course, qual_slug, entries, unit_key, tier_key)
+
+            out = {
+                "schema": "syllabai.sme-spec-point-map/1.0",
+                "course": course, "qual": qual_slug, "regime": regime,
+                "unit_scope": unit_key,
+                "generated_utc": report["generated_utc"],
+                "sme_entries": len(entries),
+                "official_pool": len(cands),
+                "mappings": mappings,
+                "unmapped": unmapped,
+                "flags": flags,
+            }
             with open(os.path.join(SME, course, "spec_point_map.json"), "w") as f:
-                json.dump({"schema": "syllabai.sme-spec-point-map/1.0", "course": course,
-                           "qual": qual_slug, **result, "mappings": {}, "unmapped": [], "flags": []},
-                          f, indent=1, ensure_ascii=False)
-            print(f"[{course}] qual={qual_slug} regime={regime} -> BLOCKED (parse gap)")
-            continue
+                json.dump(out, f, indent=1, ensure_ascii=False)
 
-        if unit_key or tier_key:
-            cands = candidates_for(qual_slug, unit_key, tier_key)
-        else:
-            cands = candidates_for(qual_slug, None)
+            tiers = {}
+            for m in mappings.values():
+                tiers[m["tier"]] = tiers.get(m["tier"], 0) + 1
+            report["courses"][course] = {
+                "qual": qual_slug, "regime": regime, "unit_scope": unit_key,
+                "sme_entries": len(entries), "official_pool": len(cands),
+                "mapped": len(mappings), "tiers": tiers,
+                "unmapped": len(unmapped), "flags": len(flags),
+            }
+            print(f"[{course}] qual={qual_slug} regime={regime} scope={unit_key or '-'} "
+                  f"mapped={len(mappings)}/{len(entries)} tiers={tiers} unmapped={len(unmapped)} flags={len(flags)}")
 
-        fn = map_regime_A if regime == "A" else map_regime_B
-        mappings, unmapped, flags = fn(course, qual_slug, entries, unit_key, tier_key)
+    with open(os.path.join(PARSED, "_sme_map_report.json"), "w") as f:
+        json.dump(report, f, indent=1, ensure_ascii=False)
 
-        out = {
-            "schema": "syllabai.sme-spec-point-map/1.0",
-            "course": course, "qual": qual_slug, "regime": regime,
-            "unit_scope": unit_key,
-            "generated_utc": report["generated_utc"],
-            "sme_entries": len(entries),
-            "official_pool": len(cands),
-            "mappings": mappings,
-            "unmapped": unmapped,
-            "flags": flags,
-        }
-        with open(os.path.join(SME, course, "spec_point_map.json"), "w") as f:
-            json.dump(out, f, indent=1, ensure_ascii=False)
+    tot = sum(c.get("mapped", 0) for c in report["courses"].values())
+    sme_tot = sum(c.get("sme_entries", 0) for c in report["courses"].values())
+    print(f"\nTOTAL mapped {tot}/{sme_tot} across {len(report['courses'])} courses")
 
-        tiers = {}
-        for m in mappings.values():
-            tiers[m["tier"]] = tiers.get(m["tier"], 0) + 1
-        report["courses"][course] = {
-            "qual": qual_slug, "regime": regime, "unit_scope": unit_key,
-            "sme_entries": len(entries), "official_pool": len(cands),
-            "mapped": len(mappings), "tiers": tiers,
-            "unmapped": len(unmapped), "flags": len(flags),
-        }
-        print(f"[{course}] qual={qual_slug} regime={regime} scope={unit_key or '-'} "
-              f"mapped={len(mappings)}/{len(entries)} tiers={tiers} unmapped={len(unmapped)} flags={len(flags)}")
 
-with open(os.path.join(PARSED, "_sme_map_report.json"), "w") as f:
-    json.dump(report, f, indent=1, ensure_ascii=False)
 
-tot = sum(c.get("mapped", 0) for c in report["courses"].values())
-sme_tot = sum(c.get("sme_entries", 0) for c in report["courses"].values())
-print(f"\nTOTAL mapped {tot}/{sme_tot} across {len(report['courses'])} courses")
+if __name__ == "__main__":
+    run_all()
