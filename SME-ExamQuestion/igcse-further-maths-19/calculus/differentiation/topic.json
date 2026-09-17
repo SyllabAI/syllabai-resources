@@ -1,0 +1,2422 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:02:29Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/topic-questions/calculus/differentiation/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Further Maths",
+  "exam_code": "4PM1",
+  "sme_course_id": "crs_27tQwKkFD9Ffnv2W",
+  "syllabus_version": "2017",
+  "sme_alias_path": "19"
+ },
+ "section": {
+  "slug": "calculus",
+  "name": "Calculus"
+ },
+ "topic": {
+  "id": "top_vzyMW3FJGJrcnrJ7",
+  "slug": "differentiation",
+  "name": "Differentiation",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "introduction-to-derivatives",
+   "name": "Introduction to Derivatives",
+   "revision_note_id": "rn_rgrZVrBsdTYxsxJj"
+  },
+  {
+   "slug": "differentiating-basic-functions",
+   "name": " Differentiating Basic Functions",
+   "revision_note_id": "rn_zYGSdvYtzd5NYsMB"
+  },
+  {
+   "slug": "techniques-of-differentiation",
+   "name": "Techniques of Differentiation",
+   "revision_note_id": "rn_qHfcfhXx2Bg3HQkQ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_CGX88dtHxnBHyycJ",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 7
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/02/60527-screenshot-2026-02-11-140017.png": "001-graph-of-the-curve-y-4-e-2x-with-axes-labelled-p.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_wbjbpzGZkVmwGgyB",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_jrRZw5MntjWtw5Df",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_73PM55Cdbc4wmMbw",
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "`y space equals space straight e to the power of x open parentheses x to the power of 2 space end exponent minus 3 x close parentheses`\n\nShow that $y-2\\frac{dy}{dx}+\\frac{d^{2}y}{dx^{2}}=2e^{x}$",
+     "solution_md": "$y$ is a product of two functions of $x$, so differentiate it with the product rule\n\nTake $u = \\text{e}^{x}$ and $v = x^{2} - 3 x$, so $\\frac{\\text{d}u}{\\text{d}x} = \\text{e}^{x}$ and $\\frac{\\text{d}v}{\\text{d}x} = 2 x - 3$\n\n- The derivative of $\\text{e}^{x}$ is $\\text{e}^{x}$, which is what makes every line here keep its exponential factor\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\text{e}^{x} \\left(x^{2} - 3 x\\right) + \\text{e}^{x} \\left(2 x - 3\\right)`\n\n**[M1] [M1]**\n\nBoth terms share a factor of $\\text{e}^{x}$, so take it outside a single bracket and collect the terms inside\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\text{e}^{x} \\left(x^{2} - x - 3\\right)`\n\n**[A1]**\n\nNow differentiate again, using the product rule on this new product\n\nTake $u = \\text{e}^{x}$ and $v = x^{2} - x - 3$, so $\\frac{\\text{d}v}{\\text{d}x} = 2 x - 1$\n\n`\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = \\text{e}^{x} \\left(x^{2} - x - 3\\right) + \\text{e}^{x} \\left(2 x - 1\\right)`\n\n**[M1]**\n\nCollect inside the bracket again\n\n`\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = \\text{e}^{x} \\left(x^{2} + x - 4\\right)`\n\n**[A1]**\n\nNow build the left-hand side of the printed result from the three expressions\n\nEvery one of them has a factor of $\\text{e}^{x}$, so take that outside one bracket\n\n`y - 2 \\frac{\\text{d} y}{\\text{d} x} + \\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = \\text{e}^{x} \\left[\\left(x^{2} - 3 x\\right) - 2 \\left(x^{2} - x - 3\\right) + \\left(x^{2} + x - 4\\right)\\right]`\n\n**[M1]**\n\nExpand the middle bracket carefully, since the $- 2$ changes both signs inside it\n\n`y - 2 \\frac{\\text{d} y}{\\text{d} x} + \\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = \\text{e}^{x} \\left[x^{2} - 3 x - 2 x^{2} + 2 x + 6 + x^{2} + x - 4\\right]`\n\n**[M1]**\n\nCollect the three groups of terms inside the bracket\n\n- The terms in $x^{2}$ give $1 - 2 + 1$, which is 0\n- The terms in $x$ give $- 3 + 2 + 1$, which is 0\n- The numbers give $6 - 4$, which is 2\n\n$y - 2 \\frac{\\text{d}y}{\\text{d}x} + \\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 2 \\text{e}^{x}  \\text{as required}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Applies the product rule to $y$, using the correct formula and differentiating both factors acceptably.\n> \n> **M1**: Both differentiated factors correct, so that the two terms are `\\text{e}^{x} \\left(x^{2} - 3 x\\right)` and `\\text{e}^{x} \\left(2 x - 3\\right)`, added rather than subtracted.\n> \n> **A1**: A correct first derivative, in any form. It need not be collected into a single bracket.\n> \n> **M1**: Applies the product rule a second time to your first derivative.\n> \n> **A1**: A correct second derivative, in any form.\n> \n> **M1**: Forms $y - 2 \\frac{\\text{d}y}{\\text{d}x} + \\frac{\\text{d}^{2}y}{\\text{d}x^{2}}$ from your three expressions.\n> \n> **M1**: Expands the brackets, with the $- 2$ applied to every term of the first derivative.\n> \n> **A1**: Reaches $2 \\text{e}^{x}$ with no errors anywhere in the working, and states that this is the required result.\n> \n> The board's own route is different and earns the same eight marks in the same order. Instead of expanding, it reads `\\text{e}^{x} \\left(2 x - 3\\right)` as $\\frac{\\text{d}y}{\\text{d}x} - y$ from the first line, substitutes that into the second derivative, and rearranges to the printed form. Where that route is used, the sixth and seventh marks are for the substitution and the rearrangement.\n> \n> This is a \"show that\", so the printed result cannot be assumed. The working has to arrive at it.\n\n> **[exam-tip]**\n> Take the exponential outside a bracket as soon as each derivative is formed.\n> \n> - `\\text{e}^{x} \\left(x^{2} - 3 x\\right) + \\text{e}^{x} \\left(2 x - 3\\right)` becomes `\\text{e}^{x} \\left(x^{2} - x - 3\\right)`, and every later line then has only one bracket to manage\n> - Leaving the terms separate doubles the algebra at the last step\n> \n> The derivative of $\\text{e}^{x}$ is $\\text{e}^{x}$, which is why the pattern repeats.\n> \n> - Each differentiation keeps the same exponential factor and only changes the polynomial in the bracket\n> - So the second derivative is found by the same rule applied to the same shape\n> \n> Every term in $x$ has to vanish, and that is your check.\n> \n> - The right-hand side is a number times $\\text{e}^{x}$, so the $x^{2}$ terms and the $x$ terms must both cancel\n> - If either is left over, the slip is almost always the $- 2$ not being applied to all three terms of the first derivative\n> \n> Write the conclusion out.\n> \n> - The final mark is for reaching the printed result with no errors, so finish with the statement rather than stopping at the bracket",
+     "equations": [
+      {
+       "latex": "y-2\\frac{dy}{dx}+\\frac{d^{2}y}{dx^{2}}=2e^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac><mrow><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mo>&#160;</mo><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mi>x</mi></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y space minus space 2 space fraction numerator straight d y over denominator straight d x end fraction space plus space fraction numerator straight d squared y over denominator straight d x squared end fraction equals space 2 straight e to the power of x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "u = \\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "u = \\text{e}^{x}"
+      },
+      {
+       "latex": "v = x^{2} - 3 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi></math>",
+       "alt": "v = x^{2} - 3 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}u}{\\text{d}x} = \\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\frac{\\text{d} u}{\\text{d} x} = \\text{e}^{x}"
+      },
+      {
+       "latex": "\\frac{\\text{d}v}{\\text{d}x} = 2 x - 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>3</mn></math>",
+       "alt": "\\frac{\\text{d} v}{\\text{d} x} = 2 x - 3"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "u = \\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "u = \\text{e}^{x}"
+      },
+      {
+       "latex": "v = x^{2} - x - 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mi>x</mi><mo>-</mo><mn>3</mn></math>",
+       "alt": "v = x^{2} - x - 3"
+      },
+      {
+       "latex": "\\frac{\\text{d}v}{\\text{d}x} = 2 x - 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></math>",
+       "alt": "\\frac{\\text{d} v}{\\text{d} x} = 2 x - 1"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "- 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+       "alt": "- 2"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "x^{2}"
+      },
+      {
+       "latex": "1 - 2 + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>2</mn><mo>+</mo><mn>1</mn></math>",
+       "alt": "1 - 2 + 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 3 + 2 + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn></math>",
+       "alt": "- 3 + 2 + 1"
+      },
+      {
+       "latex": "6 - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>-</mo><mn>4</mn></math>",
+       "alt": "6 - 4"
+      },
+      {
+       "latex": "y - 2 \\frac{\\text{d}y}{\\text{d}x} + \\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 2 \\text{e}^{x}  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>-</mo><mn>2</mn><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mi>x</mi></msup><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "y - 2 \\frac{\\text{d} y}{\\text{d} x} + \\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = 2 \\text{e}^{x} \\textrm{ } \\text{as required}"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y - 2 \\frac{\\text{d}y}{\\text{d}x} + \\frac{\\text{d}^{2}y}{\\text{d}x^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>-</mo><mn>2</mn><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math>",
+       "alt": "y - 2 \\frac{\\text{d} y}{\\text{d} x} + \\frac{\\text{d}^{2} y}{\\text{d} x^{2}}"
+      },
+      {
+       "latex": "- 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+       "alt": "- 2"
+      },
+      {
+       "latex": "2 \\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "2 \\text{e}^{x}"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} - y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>-</mo><mi>y</mi></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} - y"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{e}^{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup></math>",
+       "alt": "\\text{e}^{x}"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "x^{2}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+       "alt": "- 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_QMRn6QvZWtGRJYhb",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_6yMskKxSqgzmKJy7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 2",
+      "question_number": 5,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_73PM55Cdbc4wmMbw",
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "`y space equals space straight e to the power of 2 x end exponent space open parentheses x squared minus space 5 x close parentheses`\n\nShow that   $2e^{2x}=\\frac{d^{2}y}{dx^{2}}-4\\frac{dy}{dx}+4y$",
+     "solution_md": "$y$ is a product of two functions of $x$, so differentiate it with the product rule\n\nTake $u = \\text{e}^{2x}$ and $v = x^{2} - 5 x$, so $\\frac{\\text{d}u}{\\text{d}x} = 2 \\text{e}^{2x}$ and $\\frac{\\text{d}v}{\\text{d}x} = 2 x - 5$\n\n- Differentiating $\\text{e}^{2x}$ brings down a factor of 2, because of the $2 x$ in the power\n\n`\\frac{\\text{d} y}{\\text{d} x} = 2 \\text{e}^{2 x} \\left(x^{2} - 5 x\\right) + \\text{e}^{2 x} \\left(2 x - 5\\right)`\n\n**[M1] [A1]**\n\nTake the common factor of $\\text{e}^{2x}$ outside a single bracket and collect the terms inside\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\text{e}^{2 x} \\left(2 x^{2} - 8 x - 5\\right)`\n\n**[A1]**\n\nNow differentiate again, applying the product rule to this new product\n\nTake $u = \\text{e}^{2x}$ and $v = 2 x^{2} - 8 x - 5$, so $\\frac{\\text{d}v}{\\text{d}x} = 4 x - 8$\n\n`\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = 2 \\text{e}^{2 x} \\left(2 x^{2} - 8 x - 5\\right) + \\text{e}^{2 x} \\left(4 x - 8\\right)`\n\n**[M1]**\n\nCollect inside the bracket again\n\n`\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = \\text{e}^{2 x} \\left(4 x^{2} - 12 x - 18\\right)`\n\n**[A1]**\n\nNow build the right-hand side of the printed result from the three expressions\n\nEvery one of them has a factor of $\\text{e}^{2x}$, so take that outside one bracket\n\n`\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} - 4 \\frac{\\text{d} y}{\\text{d} x} + 4 y = \\text{e}^{2 x} \\left[\\left(4 x^{2} - 12 x - 18\\right) - 4 \\left(2 x^{2} - 8 x - 5\\right) + 4 \\left(x^{2} - 5 x\\right)\\right]`\n\n**[M1]**\n\nExpand the two brackets that are being multiplied, watching the signs in the middle one\n\n- `- 4 \\left(2 x^{2} - 8 x - 5\\right)` is $- 8 x^{2} + 32 x + 20$\n- `4 \\left(x^{2} - 5 x\\right)` is $4 x^{2} - 20 x$\n\nCollect the three groups of terms inside the bracket\n\n- The terms in $x^{2}$ give $4 - 8 + 4$, which is 0\n- The terms in $x$ give $- 12 + 32 - 20$, which is 0\n- The numbers give $- 18 + 20$, which is 2\n\n$\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} - 4 \\frac{\\text{d}y}{\\text{d}x} + 4 y = 2 \\text{e}^{2x}  \\text{as required}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Applies the product rule to $y$, differentiating both factors acceptably and adding the two terms.\n> \n> **A1**: One term of the product rule correct.\n> \n> **A1**: A fully correct first derivative, in any form. It need not be collected into a single bracket.\n> \n> **M1**: Differentiates your first derivative a second time. Where the result is left as four separate terms, at least two of them must be correct.\n> \n> **A1**: A fully correct second derivative, in any form.\n> \n> **M1**: Forms $\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} - 4 \\frac{\\text{d}y}{\\text{d}x} + 4 y$ from your three expressions and rearranges it towards the printed form.\n> \n> **A1**: Reaches $2 \\text{e}^{2x}$ with no errors anywhere in the working.\n> \n> The board's main route substitutes rather than expands: it reads `\\text{e}^{2 x} \\left(2 x - 5\\right)` as $\\frac{\\text{d}y}{\\text{d}x} - 2 y$ from the first line and puts that into the second derivative. It earns the same seven marks in the same order, with the sixth mark for the substitution.\n> \n> Implicit differentiation is also completely acceptable and is marked in the same way.\n> \n> This is a \"show that\", so the final mark needs everything correct.\n\n> **[exam-tip]**\n> Differentiating $\\text{e}^{2x}$ brings a 2 down each time.\n> \n> - $\\text{e}^{2x}$ differentiates to $2 \\text{e}^{2x}$, not to $\\text{e}^{2x}$\n> - Missing that factor is the single commonest way to lose the first three marks here\n> \n> Collect into one bracket before differentiating again.\n> \n> - `\\text{e}^{2 x} \\left(2 x^{2} - 8 x - 5\\right)` is far easier to differentiate than the two separate terms it came from\n> \n> Every term in $x$ has to disappear, which gives you a free check.\n> \n> - The printed answer is a number times $\\text{e}^{2x}$, so the $x^{2}$ and $x$ terms must both cancel\n> - If they do not, check the signs when the $- 4$ was multiplied through\n> \n> There is a quicker route if you spot it.\n> \n> - The first line contains `\\text{e}^{2 x} \\left(2 x - 5\\right)`, which is exactly $\\frac{\\text{d}y}{\\text{d}x} - 2 y$, so it can be substituted straight into the second derivative\n> - It earns the same marks, so use whichever you see first",
+     "equations": [
+      {
+       "latex": "2e^{2x}=\\frac{d^{2}y}{dx^{2}}-4\\frac{dy}{dx}+4y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><msup><mi mathvariant=\"normal\">d</mi><mn mathvariant=\"italic\">2</mn></msup><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><msup><mi>x</mi><mn mathvariant=\"italic\">2</mn></msup></mrow></mfrac><mo>-</mo><mo>&#160;</mo><mn>4</mn><mfrac><mrow><mo>d</mo><mi>y</mi></mrow><mrow><mo>d</mo><mi>x</mi></mrow></mfrac><mo>+</mo><mo>&#160;</mo><mn>4</mn><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2 straight e to the power of 2 x end exponent space equals space fraction numerator straight d to the power of italic 2 y over denominator straight d x to the power of italic 2 end fraction minus space 4 fraction numerator d y over denominator d x end fraction plus space 4 y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "u = \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "u = \\text{e}^{2 x}"
+      },
+      {
+       "latex": "v = x^{2} - 5 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>5</mn><mi>x</mi></math>",
+       "alt": "v = x^{2} - 5 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}u}{\\text{d}x} = 2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\frac{\\text{d} u}{\\text{d} x} = 2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\frac{\\text{d}v}{\\text{d}x} = 2 x - 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>5</mn></math>",
+       "alt": "\\frac{\\text{d} v}{\\text{d} x} = 2 x - 5"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 x"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "u = \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "u = \\text{e}^{2 x}"
+      },
+      {
+       "latex": "v = 2 x^{2} - 8 x - 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>-</mo><mn>5</mn></math>",
+       "alt": "v = 2 x^{2} - 8 x - 5"
+      },
+      {
+       "latex": "\\frac{\\text{d}v}{\\text{d}x} = 4 x - 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>8</mn></math>",
+       "alt": "\\frac{\\text{d} v}{\\text{d} x} = 4 x - 8"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "- 8 x^{2} + 32 x + 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>32</mn><mi>x</mi><mo>+</mo><mn>20</mn></math>",
+       "alt": "- 8 x^{2} + 32 x + 20"
+      },
+      {
+       "latex": "4 x^{2} - 20 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>20</mn><mi>x</mi></math>",
+       "alt": "4 x^{2} - 20 x"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "x^{2}"
+      },
+      {
+       "latex": "4 - 8 + 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>-</mo><mn>8</mn><mo>+</mo><mn>4</mn></math>",
+       "alt": "4 - 8 + 4"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 12 + 32 - 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>12</mn><mo>+</mo><mn>32</mn><mo>-</mo><mn>20</mn></math>",
+       "alt": "- 12 + 32 - 20"
+      },
+      {
+       "latex": "- 18 + 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>18</mn><mo>+</mo><mn>20</mn></math>",
+       "alt": "- 18 + 20"
+      },
+      {
+       "latex": "\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} - 4 \\frac{\\text{d}y}{\\text{d}x} + 4 y = 2 \\text{e}^{2x}  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>-</mo><mn>4</mn><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>+</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} - 4 \\frac{\\text{d} y}{\\text{d} x} + 4 y = 2 \\text{e}^{2 x} \\textrm{ } \\text{as required}"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} - 4 \\frac{\\text{d}y}{\\text{d}x} + 4 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>-</mo><mn>4</mn><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>+</mo><mn>4</mn><mi>y</mi></math>",
+       "alt": "\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} - 4 \\frac{\\text{d} y}{\\text{d} x} + 4 y"
+      },
+      {
+       "latex": "2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} - 2 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>-</mo><mn>2</mn><mi>y</mi></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} - 2 y"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "x^{2}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn></math>",
+       "alt": "- 4"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} - 2 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>-</mo><mn>2</mn><mi>y</mi></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} - 2 y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8R4BTdM8dVCs8RRy",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_fjMCcg2QRRG7fg7K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XCnjCYWhqvFZrwrb",
+      "spcpt_73PM55Cdbc4wmMbw",
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "The curve $C$ has equation `y equals straight e to the power of 3 x end exponent open parentheses 2 x minus 1 close parentheses to the power of 4`\n\nUsing calculus, find the exact value of the gradient of the tangent to $C$ when $x=1$",
+     "solution_md": "$y$ is a product of two functions of $x$, so differentiate it with the product rule\n\nTake $u = \\text{e}^{3x}$ and `v = \\left(2 x - 1\\right)^{4}`\n\n- $\\frac{\\text{d}u}{\\text{d}x} = 3 \\text{e}^{3x}$, bringing down the 3 from the power\n- `\\frac{\\text{d} v}{\\text{d} x} = 4 \\left(2 x - 1\\right)^{3} \\times 2`, by the chain rule, so it is `8 \\left(2 x - 1\\right)^{3}`\n\n`\\frac{\\text{d} y}{\\text{d} x} = 8 \\left(2 x - 1\\right)^{3} \\text{e}^{3 x} + 3 \\text{e}^{3 x} \\left(2 x - 1\\right)^{4}`\n\n**[M1] [A1] [A1]**\n\nThe gradient of the tangent at a point is the value of the derivative there, so substitute $x = 1$\n\n- `2 \\left(1\\right) - 1 = 1`, and every power of 1 is 1, so both brackets are simply 1\n\n`\\frac{\\text{d} y}{\\text{d} x} = 8 \\left(2 \\left(1\\right) - 1\\right)^{3} \\text{e}^{3} + 3 \\text{e}^{3} \\left(2 \\left(1\\right) - 1\\right)^{4}`\n\n**[M1]**\n\nBoth terms now carry the same factor of $\\text{e}^{3}$, so add them\n\n$\\frac{\\text{d}y}{\\text{d}x} = 11 \\text{e}^{3}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the product rule to give an expression of the form `p \\text{e}^{3 x} \\left(2 x - 1\\right)^{3} + q \\text{e}^{3 x} \\left(2 x - 1\\right)^{4}`, with $p$ and $q$ both positive and a plus sign between the terms.\n> \n> **A1**: Either term correct.\n> \n> **A1**: Both terms correct.\n> \n> **M1**: Substitutes $x = 1$ into your derivative. This mark depends on the previous method mark. Where no substitution is written down, it is still earned if your derivative is correct and an answer which rounds to 221 is seen.\n> \n> **A1**: The correct exact value $11 \\text{e}^{3}$.\n> \n> Expanding `\\left(2 x - 1\\right)^{4}` first is equally acceptable and is marked in the same way. That route gives $16 x^{4} - 32 x^{3} + 24 x^{2} - 8 x + 1$, whose derivative is $64 x^{3} - 96 x^{2} + 48 x - 8$, so the first two marks look for `\\frac{\\text{d} y}{\\text{d} x} = \\text{e}^{3 x} \\left(64 x^{3} - 96 x^{2} + 48 x - 8\\right) + 3 \\text{e}^{3 x} \\left(2 x - 1\\right)^{4}`.\n> \n> The question says \"exact\", so a decimal such as $220 . 9$ does not earn the final mark.\n\n> **[exam-tip]**\n> Two rules are needed here, one inside the other.\n> \n> - The product rule handles $\\text{e}^{3x}$ times the bracket\n> - The chain rule handles the bracket itself, giving `4 \\left(2 x - 1\\right)^{3} \\times 2`, and forgetting that inner 2 is the usual slip\n> \n> Substitute before you simplify.\n> \n> - At $x = 1$ the bracket $2 x - 1$ is just 1, so both powers of it disappear and the arithmetic is $8 + 3$\n> - Expanding or factorising first works, but it is far more writing for the same five marks\n> \n> \"Exact\" rules out the calculator value.\n> \n> - $11 \\text{e}^{3}$ is the answer; $220 . 9$ is not, even though it is what your calculator shows\n> - Use the decimal only as a check that you have not slipped\n> \n> Factorising is a neat middle step if you want one.\n> \n> - The derivative is `\\text{e}^{3 x} \\left(2 x - 1\\right)^{3} \\left(6 x + 5\\right)`, which at $x = 1$ gives $\\text{e}^{3} \\times 1 \\times 11$ directly\n> - It is not required, and the accuracy marks are for the two separate terms",
+     "equations": [
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "x=1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space x equals 1"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "u = \\text{e}^{3x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "u = \\text{e}^{3 x}"
+      },
+      {
+       "latex": "\\frac{\\text{d}u}{\\text{d}x} = 3 \\text{e}^{3x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>3</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\frac{\\text{d} u}{\\text{d} x} = 3 \\text{e}^{3 x}"
+      },
+      {
+       "latex": "x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "x = 1"
+      },
+      {
+       "latex": "\\text{e}^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mn>3</mn></msup></math>",
+       "alt": "\\text{e}^{3}"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = 11 \\text{e}^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>11</mn><msup><mtext>e</mtext><mn>3</mn></msup></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = 11 \\text{e}^{3}"
+      },
+      {
+       "latex": "p",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>",
+       "alt": "p"
+      },
+      {
+       "latex": "q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math>",
+       "alt": "q"
+      },
+      {
+       "latex": "x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "x = 1"
+      },
+      {
+       "latex": "11 \\text{e}^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><msup><mtext>e</mtext><mn>3</mn></msup></math>",
+       "alt": "11 \\text{e}^{3}"
+      },
+      {
+       "latex": "16 x^{4} - 32 x^{3} + 24 x^{2} - 8 x + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msup><mi>x</mi><mn>4</mn></msup><mo>-</mo><mn>32</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>24</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>",
+       "alt": "16 x^{4} - 32 x^{3} + 24 x^{2} - 8 x + 1"
+      },
+      {
+       "latex": "64 x^{3} - 96 x^{2} + 48 x - 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>96</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>48</mn><mi>x</mi><mo>-</mo><mn>8</mn></math>",
+       "alt": "64 x^{3} - 96 x^{2} + 48 x - 8"
+      },
+      {
+       "latex": "220 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>220</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "220 . 9"
+      },
+      {
+       "latex": "\\text{e}^{3x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{3 x}"
+      },
+      {
+       "latex": "x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "x = 1"
+      },
+      {
+       "latex": "2 x - 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn></math>",
+       "alt": "2 x - 1"
+      },
+      {
+       "latex": "8 + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>3</mn></math>",
+       "alt": "8 + 3"
+      },
+      {
+       "latex": "11 \\text{e}^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><msup><mtext>e</mtext><mn>3</mn></msup></math>",
+       "alt": "11 \\text{e}^{3}"
+      },
+      {
+       "latex": "220 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>220</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "220 . 9"
+      },
+      {
+       "latex": "x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "x = 1"
+      },
+      {
+       "latex": "\\text{e}^{3} \\times 1 \\times 11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mn>3</mn></msup><mo>&#xD7;</mo><mn>1</mn><mo>&#xD7;</mo><mn>11</mn></math>",
+       "alt": "\\text{e}^{3} \\times 1 \\times 11"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wtNxb2WP5XFF3h4R",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_fP73s6SRMBpyFG46",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 1",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_BGg7StnV5sBwkBDx",
+      "spcpt_73PM55Cdbc4wmMbw"
+     ],
+     "part_tier": null,
+     "problem_md": "$y=(\\mathrm{sin}2x)\\sqrt{3+2x}$\n\nShow that $\\frac{dy}{dx}=\\frac{\\mathrm{sin}2x+(A+Bx)\\mathrm{cos}2x}{\\sqrt{3+2x}}$ where $A$and $B$are integers to be found.",
+     "solution_md": "$y$ is a product of two functions of $x$, so differentiate it with the product rule\n\nWrite the square root as a power first, so the chain rule can be applied to it\n\n- $\\sqrt{3+2x}$ is `\\left(3 + 2 x\\right)^{\\frac{1}{2}}`\n\nTake $u = \\text{sin} 2 x$ and `v = \\left(3 + 2 x\\right)^{\\frac{1}{2}}`\n\n- $\\frac{\\text{d}u}{\\text{d}x} = 2 \\text{cos} 2 x$\n- `\\frac{\\text{d} v}{\\text{d} x} = \\frac{1}{2} \\times 2 \\times \\left(3 + 2 x\\right)^{- \\frac{1}{2}}`, by the chain rule\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\text{sin} 2 x \\times \\frac{1}{2} \\times 2 \\times \\left(3 + 2 x\\right)^{- \\frac{1}{2}} + \\left(3 + 2 x\\right)^{\\frac{1}{2}} \\times 2 \\times \\text{cos} 2 x`\n\n**[M1] [A1] [A1]**\n\nThe printed form is a single fraction over $\\sqrt{3+2x}$, so write both terms over that denominator\n\n- A negative index means a reciprocal, so `\\left(3 + 2 x\\right)^{- \\frac{1}{2}}` is $\\frac{1}{\\sqrt{3+2x}}$ and the first term is already over it\n- The second term is multiplied above and below by $\\sqrt{3+2x}$, and $\\sqrt{3+2x} \\times \\sqrt{3+2x}$ is $3 + 2 x$\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{sin} 2 x + 2 \\left(3 + 2 x\\right) \\text{cos} 2 x}{\\sqrt{3 + 2 x}}`\n\n**[M1]**\n\nExpand the bracket multiplying $\\text{cos} 2 x$, which puts it in the printed form\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{\\text{sin} 2 x + \\left(6 + 4 x\\right) \\text{cos} 2 x}{\\sqrt{3 + 2 x}}`\n\n**[A1]**\n\nComparing this with the printed form gives the two integers, $A = 6$ and $B = 4$\n\n> **[mark-scheme]**\n> **M1**: Applies the product rule with the correct formula, differentiating $\\text{sin} 2 x$ to $k \\text{cos} 2 x$ and $\\sqrt{3+2x}$ to `l \\left(3 + 2 x\\right)^{- \\frac{1}{2}}` for some positive $k$ and $l$.\n> \n> **A1**: One term correct, with the other minimally acceptable. Simplification is not required.\n> \n> **A1**: A fully correct derivative. Simplification is not required.\n> \n> **M1**: Correct use of $\\sqrt{3+2x}$, or of `\\left(3 + 2 x\\right)^{\\frac{1}{2}}`, as a common denominator. This mark depends on the first method mark.\n> \n> **A1**: The printed form reached with no erroneous or missing working.\n> \n> The values $A = 6$ and $B = 4$ carry no separate mark. The final accuracy mark is for reaching the printed expression, and the two integers may be read from it or given embedded in it.\n> \n> Rewriting the root as a power before differentiating is expected, but any correct equivalent derivative is accepted.\n\n> **[exam-tip]**\n> Turn the root into a power before you differentiate it.\n> \n> - $\\sqrt{3+2x}$ is `\\left(3 + 2 x\\right)^{\\frac{1}{2}}`, which the chain rule handles in one step\n> - The inner derivative is 2, and leaving it out is the commonest error here\n> \n> The negative index is what puts the first term over the root.\n> \n> - `\\left(3 + 2 x\\right)^{- \\frac{1}{2}}` is $\\frac{1}{\\sqrt{3+2x}}$, so that term needs no adjusting at all\n> - Only the second term has to be rewritten over the common denominator\n> \n> Let the printed form tell you what to aim for.\n> \n> - It is a single fraction over $\\sqrt{3+2x}$ with $\\text{sin} 2 x$ alone at the front, which is exactly what the two coefficients of $\\frac{1}{2} \\times 2$ collapse to\n> \n> Read $A$ and $B$ off at the end.\n> \n> - `2 \\left(3 + 2 x\\right)` expands to $6 + 4 x$, so $A = 6$ and $B = 4$\n> - Both are integers, which is the check the question builds in",
+     "equations": [
+      {
+       "latex": "y=(\\mathrm{sin}2x)\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>(</mo><mi>sin</mi><mo>&#160;</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>&#160;</mo><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals left parenthesis sin space 2 x right parenthesis space square root of 3 plus 2 x end root"
+      },
+      {
+       "latex": "\\frac{dy}{dx}=\\frac{\\mathrm{sin}2x+(A+Bx)\\mathrm{cos}2x}{\\sqrt{3+2x}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>sin</mi><mo>&#160;</mo><mn>2</mn><mi>x</mi><mo>+</mo><mo>(</mo><mi>A</mi><mo>+</mo><mi>B</mi><mi>x</mi><mo>)</mo><mo>&#160;</mo><mi>cos</mi><mo>&#160;</mo><mn>2</mn><mi>x</mi></mrow><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator sin space 2 x plus left parenthesis A plus B x right parenthesis space cos space 2 x over denominator square root of 3 plus 2 x end root end fraction"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "u = \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "u = \\text{sin} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}u}{\\text{d}x} = 2 \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d} u}{\\text{d} x} = 2 \\text{cos} 2 x"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{3+2x}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></mfrac></math>",
+       "alt": "\\frac{1}{\\sqrt{3 + 2 x}}"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "\\sqrt{3+2x} \\times \\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt><mo>&#xD7;</mo><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x} \\times \\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "3 + 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "3 + 2 x"
+      },
+      {
+       "latex": "\\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{cos} 2 x"
+      },
+      {
+       "latex": "A = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "A = 6"
+      },
+      {
+       "latex": "B = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "B = 4"
+      },
+      {
+       "latex": "\\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{sin} 2 x"
+      },
+      {
+       "latex": "k \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "k \\text{cos} 2 x"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "A = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "A = 6"
+      },
+      {
+       "latex": "B = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "B = 4"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{3+2x}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></mfrac></math>",
+       "alt": "\\frac{1}{\\sqrt{3 + 2 x}}"
+      },
+      {
+       "latex": "\\sqrt{3+2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></msqrt></math>",
+       "alt": "\\sqrt{3 + 2 x}"
+      },
+      {
+       "latex": "\\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{sin} 2 x"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mn>2</mn></math>",
+       "alt": "\\frac{1}{2} \\times 2"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "6 + 4 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>4</mn><mi>x</mi></math>",
+       "alt": "6 + 4 x"
+      },
+      {
+       "latex": "A = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "A = 6"
+      },
+      {
+       "latex": "B = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "B = 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WDhRmqSwwHCQRsxS",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_jJGm38tYwZ3c7GHB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_8CPCjzFPC6TwMWnx",
+      "spcpt_73PM55Cdbc4wmMbw",
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "$y=\\frac{2e^{3x+1}}{5x^{2}}$\n\nFind $\\frac{dy}{dx}$\n\nGive your answer in the form  $\\frac{Ae^{3x+1}(Bx-A)}{Cx^{3}}$ where $A$, $B$ and  $C$ are prime numbers to be found.",
+     "solution_md": "$y$ is one function of $x$ divided by another, so differentiate it with the quotient rule\n\nTake $u = 2 \\text{e}^{3x+1}$ and $v = 5 x^{2}$\n\n- $\\frac{\\text{d}u}{\\text{d}x} = 6 \\text{e}^{3x+1}$, since differentiating the power $3 x + 1$ brings down a 3\n- $\\frac{\\text{d}v}{\\text{d}x} = 10 x$\n\nThe quotient rule is $\\frac{\\text{d}y}{\\text{d}x} = \\frac{v\\frac{\\text{d}u}{\\text{d}x}-u\\frac{\\text{d}v}{\\text{d}x}}{v^{2}}$\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{5 x^{2} \\times 6 \\text{e}^{3 x + 1} - 2 \\text{e}^{3 x + 1} \\times 10 x}{\\left(5 x^{2}\\right)^{2}}`\n\n**[M1] [A1] [A1]**\n\nThe required form has a single bracket on top, so take the common factors out of the numerator\n\n- Both terms contain $\\text{e}^{3x+1}$ and both contain $x$, so $10 x \\text{e}^{3x+1}$ comes out\n- $30 x^{2} \\text{e}^{3x+1} - 20 x \\text{e}^{3x+1}$ becomes `10 x \\text{e}^{3 x + 1} \\left(3 x - 2\\right)`\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{10 x \\text{e}^{3 x + 1} \\left(3 x - 2\\right)}{25 x^{4}}`\n\n**[M1]**\n\nNow cancel, dividing the numbers by 5 and cancelling one power of $x$\n\n`\\frac{\\text{d} y}{\\text{d} x} = \\frac{2 \\text{e}^{3 x + 1} \\left(3 x - 2\\right)}{5 x^{3}}`\n\n**[A1]**\n\nComparing this with the required form gives $A = 2$, $B = 3$ and $C = 5$, which are all prime\n\n> **[mark-scheme]**\n> **M1**: Attempts the quotient rule. The denominator must be correct and the two terms in the numerator must be subtracted, either way round.\n> \n> **A1**: At least one fully correct term on the numerator, simplified or unsimplified.\n> \n> **A1**: A fully correct unsimplified derivative.\n> \n> **M1**: Correctly takes out the common factors of $x$ and $\\text{e}^{3x+1}$ and attempts to simplify. A numerical factor does not need to be taken out at this point. This mark depends on the first method mark.\n> \n> **A1**: The correct derivative in the required form.\n> \n> The product rule is equally acceptable and is marked in the same way, writing $y$ as `2 \\text{e}^{3 x + 1} \\left(5 x^{2}\\right)^{- 1}` and reaching `M \\text{e}^{3 x + 1} x \\left(5 x^{2}\\right)^{- 2} + N \\text{e}^{3 x + 1} \\left(5 x^{2}\\right)^{- 1}` with $M$ negative and $N$ positive.\n> \n> The values $A = 2$, $B = 3$ and $C = 5$ carry no separate mark. The final accuracy mark is for the derivative in the printed form.\n\n> **[exam-tip]**\n> Differentiating $\\text{e}^{3x+1}$ brings down a 3, not a $3 x + 1$.\n> \n> - Only the coefficient of $x$ in the power comes down, so $2 \\text{e}^{3x+1}$ differentiates to $6 \\text{e}^{3x+1}$\n> - The $+ 1$ in the power never changes anything\n> \n> Square the whole denominator, not just the $x$.\n> \n> - `\\left(5 x^{2}\\right)^{2}` is $25 x^{4}$, and writing $5 x^{4}$ instead loses the last two marks\n> \n> The printed form tells you to factorise before cancelling.\n> \n> - Taking $10 x \\text{e}^{3x+1}$ out of the numerator turns it into a single bracket, which is the only way to reach `\\frac{A \\text{e}^{3 x + 1} \\left(B x - A\\right)}{C x^{3}}`\n> - Notice the same letter $A$ appears twice in that form, which is a check that the number outside and the number in the bracket really do match\n> \n> Use \"prime\" as your final check.\n> \n> - $A = 2$, $B = 3$ and $C = 5$ are all prime, so a value such as 10 or 25 left anywhere means the cancelling is not finished",
+     "equations": [
+      {
+       "latex": "y=\\frac{2e^{3x+1}}{5x^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals fraction numerator 2 straight e to the power of 3 x plus 1 end exponent over denominator 5 x squared end fraction"
+      },
+      {
+       "latex": "\\frac{dy}{dx}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d y over denominator straight d x end fraction"
+      },
+      {
+       "latex": "\\frac{Ae^{3x+1}(Bx-A)}{Cx^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>A</mi><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>(</mo><mi>B</mi><mi>x</mi><mo>-</mo><mi>A</mi><mo>)</mo></mrow><mrow><mi>C</mi><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator A straight e to the power of 3 x plus 1 end exponent left parenthesis B x minus A right parenthesis over denominator C x cubed end fraction"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "u = 2 \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "u = 2 \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "v = 5 x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "v = 5 x^{2}"
+      },
+      {
+       "latex": "\\frac{\\text{d}u}{\\text{d}x} = 6 \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>6</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "\\frac{\\text{d} u}{\\text{d} x} = 6 \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "3 x + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>",
+       "alt": "3 x + 1"
+      },
+      {
+       "latex": "\\frac{\\text{d}v}{\\text{d}x} = 10 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>10</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d} v}{\\text{d} x} = 10 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = \\frac{v\\frac{\\text{d}u}{\\text{d}x}-u\\frac{\\text{d}v}{\\text{d}x}}{v^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>v</mi><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>-</mo><mi>u</mi><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac></mrow><msup><mi>v</mi><mn>2</mn></msup></mfrac></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = \\frac{v \\frac{\\text{d} u}{\\text{d} x} - u \\frac{\\text{d} v}{\\text{d} x}}{v^{2}}"
+      },
+      {
+       "latex": "\\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "\\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "10 x \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "10 x \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "30 x^{2} \\text{e}^{3x+1} - 20 x \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>-</mo><mn>20</mn><mi>x</mi><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "30 x^{2} \\text{e}^{3 x + 1} - 20 x \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "A = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "A = 2"
+      },
+      {
+       "latex": "B = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "B = 3"
+      },
+      {
+       "latex": "C = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "C = 5"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "\\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math>",
+       "alt": "N"
+      },
+      {
+       "latex": "A = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "A = 2"
+      },
+      {
+       "latex": "B = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "B = 3"
+      },
+      {
+       "latex": "C = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "C = 5"
+      },
+      {
+       "latex": "\\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "\\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "3 x + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>",
+       "alt": "3 x + 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "2 \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "2 \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "6 \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "6 \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "+ 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo><mn>1</mn></math>",
+       "alt": "+ 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "25 x^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><msup><mi>x</mi><mn>4</mn></msup></math>",
+       "alt": "25 x^{4}"
+      },
+      {
+       "latex": "5 x^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msup><mi>x</mi><mn>4</mn></msup></math>",
+       "alt": "5 x^{4}"
+      },
+      {
+       "latex": "10 x \\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "10 x \\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "A = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "A = 2"
+      },
+      {
+       "latex": "B = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "B = 3"
+      },
+      {
+       "latex": "C = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "C = 5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qD69MHcfCzdNTQwt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZZrY5rw5sBbWbbZy"
+     ],
+     "part_tier": null,
+     "problem_md": "The value of $x$ increases by 2%\n\nUse your answer to part (a) to find an estimate, in terms of $x$ , for the percentage change in $y$ \nGive your answer in the form `open parentheses P x minus Q close parentheses` where $P$ and $Q$ are integers.",
+     "solution_md": "A small change in $x$ produces a small change in $y$, and the derivative connects the two\n\n- For a small increase, $δ y \\approx \\frac{\\text{d}y}{\\text{d}x} \\times δ x$\n\nAn increase of 2% means $δ x$ is 2% of $x$\n\n$δ x = 0 . 02 x$\n\nThe percentage change in $y$ is $δ y$ as a percentage of $y$, so divide by $y$ and multiply by 100\n\n`\\frac{\\delta y}{y} \\times 100 = \\frac{2 \\text{e}^{3 x + 1} \\left(3 x - 2\\right)}{5 x^{3}} \\times 0 . 02 x \\times \\frac{100}{y}`\n\n**[M1]**\n\nNow put in $y = \\frac{2\\text{e}^{3x+1}}{5x^{2}}$\n\n- Dividing by that fraction is the same as multiplying by $\\frac{5x^{2}}{2\\text{e}^{3x+1}}$\n\n`\\frac{\\delta y}{y} \\times 100 = \\frac{2 \\text{e}^{3 x + 1} \\left(3 x - 2\\right)}{5 x^{3}} \\times 0 . 02 x \\times 100 \\times \\frac{5 x^{2}}{2 \\text{e}^{3 x + 1}}`\n\n**[M1]**\n\nEverything cancels except the bracket and the numbers\n\n- The exponentials cancel, and $\\frac{2}{5} \\times \\frac{5}{2}$ is 1\n- $\\frac{x\\timesx^{2}}{x^{3}}$ is 1, so no power of $x$ is left outside the bracket\n- $0 . 02 \\times 100$ is 2\n\n`\\frac{\\delta y}{y} \\times 100 = 2 \\left(3 x - 2\\right)`\n\nSo the percentage change in $y$ is\n\n$6 x - 4$\n\n**[A1]**\n\nThis is of the form `\\left(P x - Q\\right)` with $P = 6$ and $Q = 4$, which are both integers\n\n> **[mark-scheme]**\n> **M1**: Any correct statement of the percentage change using your answer to part (a), which must be of the form `\\frac{A \\text{e}^{3 x + 1} \\left(B x - C\\right)}{D x^{3}}`. An expression not quite in the form given in part (a) is allowed. This mark may be implied by later correct working.\n> \n> **M1**: Substitutes in the expression for $y$ and makes a correct attempt to simplify. This mark depends on the previous one.\n> \n> **A1**: The correct expression $6 x - 4$.\n> \n> Writing $δ x$ as $0 . 02 x$ is what the 2% means, and either $δ y$ or $\\frac{δy}{y} \\times 100$ may be formed first.\n> \n> Writing 100 as 100% is condoned, provided the multiplication by 100 is genuinely being done.\n\n> **[exam-tip]**\n> Percentage change needs three things: the derivative, the step, and a division by $y$.\n> \n> - $δ y \\approx \\frac{\\text{d}y}{\\text{d}x} \\times δ x$ gives the change itself\n> - Dividing by $y$ and multiplying by 100 turns it into a percentage, and skipping that division is the commonest error\n> \n> Write the 2% as $0 . 02 x$, not as 2.\n> \n> - The increase is 2% of $x$, so it depends on $x$\n> - Using 2 instead leaves an answer 50 times too big\n> \n> Expect everything to cancel.\n> \n> - The exponential appears in both the derivative and $y$, so it must disappear, and so must every power of $x$ outside the bracket\n> - If an $\\text{e}^{3x+1}$ survives, the substitution for $y$ has gone in the wrong way up\n> \n> The answer is an estimate, not an exact change.\n> \n> - It comes from $δ y \\approx \\frac{\\text{d}y}{\\text{d}x} \\times δ x$, which treats the curve as straight over the small step\n> - That is why the question says \"an estimate\"",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "Q",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "Q"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "δ y \\approx \\frac{\\text{d}y}{\\text{d}x} \\times δ x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>y</mi><mo>&#x2248;</mo><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>&#xD7;</mo><mi>&#x3B4;</mi><mi>x</mi></math>",
+       "alt": "\\delta y \\approx \\frac{\\text{d} y}{\\text{d} x} \\times \\delta x"
+      },
+      {
+       "latex": "δ x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>x</mi></math>",
+       "alt": "\\delta x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "δ x = 0 . 02 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>02</mn><mi>x</mi></math>",
+       "alt": "\\delta x = 0 . 02 x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "δ y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>y</mi></math>",
+       "alt": "\\delta y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y = \\frac{2\\text{e}^{3x+1}}{5x^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math>",
+       "alt": "y = \\frac{2 \\text{e}^{3 x + 1}}{5 x^{2}}"
+      },
+      {
+       "latex": "\\frac{5x^{2}}{2\\text{e}^{3x+1}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{5 x^{2}}{2 \\text{e}^{3 x + 1}}"
+      },
+      {
+       "latex": "\\frac{2}{5} \\times \\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{2}{5} \\times \\frac{5}{2}"
+      },
+      {
+       "latex": "\\frac{x\\timesx^{2}}{x^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>&#xD7;</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac></math>",
+       "alt": "\\frac{x \\times x^{2}}{x^{3}}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "0 . 02 \\times 100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>02</mn><mo>&#xD7;</mo><mn>100</mn></math>",
+       "alt": "0 . 02 \\times 100"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "6 x - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>-</mo><mn>4</mn></math>",
+       "alt": "6 x - 4"
+      },
+      {
+       "latex": "P = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "P = 6"
+      },
+      {
+       "latex": "Q = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "Q = 4"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "6 x - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>-</mo><mn>4</mn></math>",
+       "alt": "6 x - 4"
+      },
+      {
+       "latex": "δ x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>x</mi></math>",
+       "alt": "\\delta x"
+      },
+      {
+       "latex": "0 . 02 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>02</mn><mi>x</mi></math>",
+       "alt": "0 . 02 x"
+      },
+      {
+       "latex": "δ y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>y</mi></math>",
+       "alt": "\\delta y"
+      },
+      {
+       "latex": "\\frac{δy}{y} \\times 100",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x3B4;</mi><mi>y</mi></mrow><mi>y</mi></mfrac><mo>&#xD7;</mo><mn>100</mn></math>",
+       "alt": "\\frac{\\delta y}{y} \\times 100"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "δ y \\approx \\frac{\\text{d}y}{\\text{d}x} \\times δ x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>y</mi><mo>&#x2248;</mo><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>&#xD7;</mo><mi>&#x3B4;</mi><mi>x</mi></math>",
+       "alt": "\\delta y \\approx \\frac{\\text{d} y}{\\text{d} x} \\times \\delta x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "0 . 02 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>02</mn><mi>x</mi></math>",
+       "alt": "0 . 02 x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{e}^{3x+1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "\\text{e}^{3 x + 1}"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "δ y \\approx \\frac{\\text{d}y}{\\text{d}x} \\times δ x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B4;</mi><mi>y</mi><mo>&#x2248;</mo><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>&#xD7;</mo><mi>&#x3B4;</mi><mi>x</mi></math>",
+       "alt": "\\delta y \\approx \\frac{\\text{d} y}{\\text{d} x} \\times \\delta x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dng6WSTwyG38RBNs",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_sZxCR4fmCgv3MtP8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 2",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_73PM55Cdbc4wmMbw",
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "$y=e^{2x}\\mathrm{cos}2x$\n\nShow that\n\n$\\frac{dy}{dx}=2y-2e^{2x}\\mathrm{sin}2x$",
+     "solution_md": "$y$ is a product of two functions of $x$, so differentiate it with the product rule\n\nTake $u = \\text{e}^{2x}$ and $v = \\text{cos} 2 x$\n\n- $\\frac{\\text{d}u}{\\text{d}x} = 2 \\text{e}^{2x}$, since the power $2 x$ brings down a 2\n- $\\frac{\\text{d}v}{\\text{d}x} = - 2 \\text{sin} 2 x$, since differentiating a cosine gives a negative sine\n\n$\\frac{\\text{d}y}{\\text{d}x} = 2 \\text{e}^{2x} \\text{cos} 2 x - 2 \\text{e}^{2x} \\text{sin} 2 x$\n\n**[M1] [A1] [A1]**\n\nNow look back at what $y$ is\n\n- $y = \\text{e}^{2x} \\text{cos} 2 x$, so the first term $2 \\text{e}^{2x} \\text{cos} 2 x$ is exactly $2 y$\n\nReplacing that first term gives the printed result\n\n$\\frac{\\text{d}y}{\\text{d}x} = 2 y - 2 \\text{e}^{2x} \\text{sin} 2 x  \\text{as required}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Attempts the product rule, using the correct formula and differentiating both factors, with the two terms added.\n> \n> **A1**: One term correct.\n> \n> **A1**: Both terms correct.\n> \n> **A1**: Obtains the given result with no errors seen.\n> \n> Minimally acceptable differentiation for the method mark is $\\text{cos} 2 x$ going to $\\pm 2 \\text{sin} 2 x$ and $\\text{e}^{2x}$ going to $2 \\text{e}^{2x}$.\n> \n> Recognising that $\\text{e}^{2x} \\text{cos} 2 x$ is $y$ is the whole of the last step, so a solution that stops at the two-term derivative does not earn the final mark.\n\n> **[exam-tip]**\n> Differentiating a cosine introduces a minus sign.\n> \n> - $\\text{cos} 2 x$ differentiates to $- 2 \\text{sin} 2 x$, so the product rule's plus sign and that minus sign combine into the subtraction you see\n> - Losing one of the two is what turns the answer into a sum\n> \n> The printed form is telling you to spot $y$ inside your own answer.\n> \n> - $2 \\text{e}^{2x} \\text{cos} 2 x$ is just $2 y$, because $y$ was defined as $\\text{e}^{2x} \\text{cos} 2 x$\n> - Part (b) depends on this, so it is worth writing the substitution out rather than doing it in your head\n> \n> Both factors give a 2.\n> \n> - $\\text{e}^{2x}$ gives a 2 and $\\text{cos} 2 x$ gives a 2, so every term in the answer has a coefficient of 2",
+     "equations": [
+      {
+       "latex": "y=e^{2x}\\mathrm{cos}2x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>2</mn><mi>x</mi><mo>&#160;</mo></mrow></msup><mi>cos</mi><mo>&#160;</mo><mn>2</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals straight e to the power of 2 x space end exponent cos space 2 x"
+      },
+      {
+       "latex": "\\frac{dy}{dx}=2y-2e^{2x}\\mathrm{sin}2x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>2</mn><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mn>2</mn><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d y over denominator straight d x end fraction equals 2 y minus 2 straight e to the power of 2 x end exponent space sin space 2 x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "u = \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "u = \\text{e}^{2 x}"
+      },
+      {
+       "latex": "v = \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "v = \\text{cos} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}u}{\\text{d}x} = 2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>u</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\frac{\\text{d} u}{\\text{d} x} = 2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}v}{\\text{d}x} = - 2 \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>2</mn><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d} v}{\\text{d} x} = - 2 \\text{sin} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = 2 \\text{e}^{2x} \\text{cos} 2 x - 2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = 2 \\text{e}^{2 x} \\text{cos} 2 x - 2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y = \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "y = \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "2 \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "2 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi></math>",
+       "alt": "2 y"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = 2 y - 2 \\text{e}^{2x} \\text{sin} 2 x  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = 2 y - 2 \\text{e}^{2 x} \\text{sin} 2 x \\textrm{ } \\text{as required}"
+      },
+      {
+       "latex": "\\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{cos} 2 x"
+      },
+      {
+       "latex": "\\pm 2 \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#xB1;</mo><mn>2</mn><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\pm 2 \\text{sin} 2 x"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{cos} 2 x"
+      },
+      {
+       "latex": "- 2 \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "- 2 \\text{sin} 2 x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2 \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "2 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi></math>",
+       "alt": "2 y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\text{cos} 2 x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_VggVjRMpbqPkGwc8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 2",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_BGg7StnV5sBwkBDx",
+      "spcpt_73PM55Cdbc4wmMbw",
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "Hence show that\n\n$\\frac{d^{2}y}{dx^{2}}=4\\frac{dy}{dx}-8y$",
+     "solution_md": "\"Hence\" means start from the answer to part (a), so differentiate that\n\n- $\\frac{\\text{d}y}{\\text{d}x} = 2 \\text{e}^{2x} \\text{cos} 2 x - 2 \\text{e}^{2x} \\text{sin} 2 x$\n\nApply the product rule to each of the two terms separately\n\n- $2 \\text{e}^{2x} \\text{cos} 2 x$ differentiates to $4 \\text{e}^{2x} \\text{cos} 2 x - 4 \\text{e}^{2x} \\text{sin} 2 x$\n- $- 2 \\text{e}^{2x} \\text{sin} 2 x$ differentiates to $- 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{cos} 2 x$\n\n$\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 4 \\text{e}^{2x} \\text{cos} 2 x - 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{cos} 2 x$\n\n**[M1] [A1]**\n\nThe two cosine terms cancel and the two sine terms combine\n\n$\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = - 8 \\text{e}^{2x} \\text{sin} 2 x$\n\n**[M1]**\n\nNow bring in part (a) to remove the exponential\n\n- Part (a) gives $\\frac{\\text{d}y}{\\text{d}x} = 2 y - 2 \\text{e}^{2x} \\text{sin} 2 x$, so $2 \\text{e}^{2x} \\text{sin} 2 x = 2 y - \\frac{\\text{d}y}{\\text{d}x}$\n- The second derivative is $- 4$ times that\n\n`\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = - 4 \\left(2 y - \\frac{\\text{d} y}{\\text{d} x}\\right)`\n\n**[M1]**\n\nExpand the bracket\n\n$\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 4 \\frac{\\text{d}y}{\\text{d}x} - 8 y  \\text{as required}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Attempts to differentiate your first derivative to obtain the second derivative, applying the same rules as in part (a).\n> \n> **A1**: A correct second derivative, in any form.\n> \n> **M1**: Simplifies the second derivative to $- 8 \\text{e}^{2x} \\text{sin} 2 x$. This mark depends on the first method mark.\n> \n> **M1**: Uses part (a) to replace the remaining exponential term by an expression in $y$ and $\\frac{\\text{d}y}{\\text{d}x}$. This mark depends on both previous method marks.\n> \n> **A1**: A conclusion. Reaching the printed result and stating that it is shown is sufficient.\n> \n> An equally acceptable route differentiates the first derivative in its part (a) form, $2 y - 2 \\text{e}^{2x} \\text{sin} 2 x$, giving $\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 2 \\frac{\\text{d}y}{\\text{d}x} - 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{cos} 2 x$ and then substituting for both trigonometric terms. It earns the same five marks in the same order.\n\n> **[exam-tip]**\n> The cosine terms cancel, which is the point of the whole question.\n> \n> - Differentiating the sine term produces a cosine term that exactly kills the one already there\n> - If your four terms do not collapse to a single sine term, one of the four signs is wrong\n> \n> \"Hence\" means you must use part (a).\n> \n> - Starting again from $y = \\text{e}^{2x} \\text{cos} 2 x$ reaches the same place, but the last two marks are specifically for using part (a) to remove the exponential\n> - Rearranging part (a) into $2 \\text{e}^{2x} \\text{sin} 2 x = 2 y - \\frac{\\text{d}y}{\\text{d}x}$ is the step that makes it work\n> \n> Watch the factor of $- 4$.\n> \n> - $- 8 \\text{e}^{2x} \\text{sin} 2 x$ is $- 4 \\times 2 \\text{e}^{2x} \\text{sin} 2 x$, and it is the $2 \\text{e}^{2x} \\text{sin} 2 x$ that part (a) gives you\n> - Trying to substitute for $8 \\text{e}^{2x} \\text{sin} 2 x$ directly is where the arithmetic goes wrong\n> \n> Say that it is shown.\n> \n> - The final mark is for the conclusion, so finish the line rather than leaving the bracket unexpanded",
+     "equations": [
+      {
+       "latex": "\\frac{d^{2}y}{dx^{2}}=4\\frac{dy}{dx}-8y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>4</mn><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>-</mo><mn>8</mn><mi>y</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d squared y over denominator straight d x squared end fraction equals 4 fraction numerator straight d y over denominator straight d x end fraction minus 8 y"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = 2 \\text{e}^{2x} \\text{cos} 2 x - 2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = 2 \\text{e}^{2 x} \\text{cos} 2 x - 2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "2 \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "4 \\text{e}^{2x} \\text{cos} 2 x - 4 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "4 \\text{e}^{2 x} \\text{cos} 2 x - 4 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "- 2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "- 2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "- 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "- 4 \\text{e}^{2 x} \\text{sin} 2 x - 4 \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 4 \\text{e}^{2x} \\text{cos} 2 x - 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = 4 \\text{e}^{2 x} \\text{cos} 2 x - 4 \\text{e}^{2 x} \\text{sin} 2 x - 4 \\text{e}^{2 x} \\text{sin} 2 x - 4 \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = - 8 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mo>-</mo><mn>8</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = - 8 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = 2 y - 2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = 2 y - 2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "2 \\text{e}^{2x} \\text{sin} 2 x = 2 y - \\frac{\\text{d}y}{\\text{d}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi><mo>-</mo><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac></math>",
+       "alt": "2 \\text{e}^{2 x} \\text{sin} 2 x = 2 y - \\frac{\\text{d} y}{\\text{d} x}"
+      },
+      {
+       "latex": "- 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn></math>",
+       "alt": "- 4"
+      },
+      {
+       "latex": "\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 4 \\frac{\\text{d}y}{\\text{d}x} - 8 y  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>4</mn><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>-</mo><mn>8</mn><mi>y</mi><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = 4 \\frac{\\text{d} y}{\\text{d} x} - 8 y \\textrm{ } \\text{as required}"
+      },
+      {
+       "latex": "- 8 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "- 8 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x}"
+      },
+      {
+       "latex": "2 y - 2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 y - 2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "\\frac{\\text{d}^{2}y}{\\text{d}x^{2}} = 2 \\frac{\\text{d}y}{\\text{d}x} - 4 \\text{e}^{2x} \\text{sin} 2 x - 4 \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mtext>d</mtext><mn>2</mn></msup><mi>y</mi></mrow><mrow><mtext>d</mtext><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>2</mn><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mo>-</mo><mn>4</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "\\frac{\\text{d}^{2} y}{\\text{d} x^{2}} = 2 \\frac{\\text{d} y}{\\text{d} x} - 4 \\text{e}^{2 x} \\text{sin} 2 x - 4 \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "y = \\text{e}^{2x} \\text{cos} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>cos</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "y = \\text{e}^{2 x} \\text{cos} 2 x"
+      },
+      {
+       "latex": "2 \\text{e}^{2x} \\text{sin} 2 x = 2 y - \\frac{\\text{d}y}{\\text{d}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi><mo>-</mo><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac></math>",
+       "alt": "2 \\text{e}^{2 x} \\text{sin} 2 x = 2 y - \\frac{\\text{d} y}{\\text{d} x}"
+      },
+      {
+       "latex": "- 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn></math>",
+       "alt": "- 4"
+      },
+      {
+       "latex": "- 8 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "- 8 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "- 4 \\times 2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn><mo>&#xD7;</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "- 4 \\times 2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "2 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 \\text{e}^{2 x} \\text{sin} 2 x"
+      },
+      {
+       "latex": "8 \\text{e}^{2x} \\text{sin} 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mtext>sin</mtext><mn>2</mn><mi>x</mi></math>",
+       "alt": "8 \\text{e}^{2 x} \\text{sin} 2 x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TSBRsZ34B2p2hRXV",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_kjgdFZ7YPQz6BFxh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 2",
+      "question_number": 11,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5gZxgh7z7kWnnc2Y"
+     ],
+     "part_tier": null,
+     "problem_md": "![Graph of the curve \\(y = 4 - e^{2x}\\) with axes labelled. Points A, O, and B are marked. Note states \"Diagram NOT accurately drawn.\"](assets/001-graph-of-the-curve-y-4-e-2x-with-axes-labelled-p.png)\n\nFigure 3 shows part of the curve $C$ with equation  $y=4-e^{2x}$\nThe curve $C$ crosses the $y$-axis at the point $A$and the $x$-axis at the point $B$.\n\n(i) Write down the $y$ coordinate of point $A$.\n\n[1]\n\n(ii) Show that the $x$ coordinate of $B$ is $x=\\mathrm{ln}2$\n\n[2]",
+     "solution_md": "**(i)**\n\nThe curve crosses the $y$-axis at $A$, and every point on the $y$-axis has $x = 0$\n\nSubstitute $x = 0$ into the equation of $C$, remembering that $\\text{e}^{0} = 1$\n\n$y = 4 - \\text{e}^{0}$\n\n$y = 3$\n\n**[B1]**\n\n**(ii)**\n\nThe curve crosses the $x$-axis at $B$, and every point on the $x$-axis has $y = 0$\n\n$0 = 4 - \\text{e}^{2x}$\n\n$\\text{e}^{2x} = 4$\n\nTo bring the power down, take natural logarithms of both sides\n\n$2 x = \\text{ln} 4$\n\n**[M1]**\n\nNow use the fact that $4 = 2^{2}$, so $\\text{ln} 4 = 2 \\text{ln} 2$, and the twos cancel\n\n$x = \\text{ln} 2  \\text{as required}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: $y = 3$.\n> \n> **M1**: $2 x = \\text{ln} 4$, or $\\sqrt{4} = \\sqrt{\\text{e}^{2x}}$, seen explicitly.\n> \n> **A1**: $x = \\text{ln} 2$.\n> \n> Part (ii) is a \"show that\", so the intermediate line has to be seen. Writing down $x = \\text{ln} 2$ with no working earns neither mark.\n> \n> Halving the logarithm and square rooting the exponential are the two accepted routes, and either may be used.\n\n> **[exam-tip]**\n> Each axis crossing sets the other coordinate to zero.\n> \n> - On the $y$-axis $x = 0$, and on the $x$-axis $y = 0$\n> - Mixing the two up is the easiest mark in the question to throw away\n> \n> $\\text{e}^{0}$ is 1, not 0.\n> \n> - So $A$ is at a height of 3, not 4\n> \n> Two routes get from $\\text{e}^{2x} = 4$ to $x = \\text{ln} 2$.\n> \n> - Take logarithms to get $2 x = \\text{ln} 4$, then use $\\text{ln} 4 = 2 \\text{ln} 2$\n> - Or square root first, giving $\\text{e}^{x} = 2$ and so $x = \\text{ln} 2$ in one step\n> \n> Show the middle line.\n> \n> - The answer is printed in the question, so the marks are entirely for the working that reaches it",
+     "equations": [
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "y=4-e^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mn>4</mn><mo>-</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals 4 minus straight e to the power of 2 x end exponent"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "x=\\mathrm{ln}2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mo>&#160;</mo><mi>ln</mi><mo>&#160;</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals space ln space 2"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "x = 0"
+      },
+      {
+       "latex": "x = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "x = 0"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "\\text{e}^{0} = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mn>0</mn></msup><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{e}^{0} = 1"
+      },
+      {
+       "latex": "y = 4 - \\text{e}^{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>4</mn><mo>-</mo><msup><mtext>e</mtext><mn>0</mn></msup></math>",
+       "alt": "y = 4 - \\text{e}^{0}"
+      },
+      {
+       "latex": "y = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "y = 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "y = 0"
+      },
+      {
+       "latex": "0 = 4 - \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>=</mo><mn>4</mn><mo>-</mo><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "0 = 4 - \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{e}^{2x} = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>=</mo><mn>4</mn></math>",
+       "alt": "\\text{e}^{2 x} = 4"
+      },
+      {
+       "latex": "2 x = \\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "2 x = \\text{ln} 4"
+      },
+      {
+       "latex": "4 = 2^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></math>",
+       "alt": "4 = 2^{2}"
+      },
+      {
+       "latex": "\\text{ln} 4 = 2 \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn><mo>=</mo><mn>2</mn><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 4 = 2 \\text{ln} 2"
+      },
+      {
+       "latex": "x = \\text{ln} 2  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "x = \\text{ln} 2 \\textrm{ } \\text{as required}"
+      },
+      {
+       "latex": "y = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "y = 3"
+      },
+      {
+       "latex": "2 x = \\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "2 x = \\text{ln} 4"
+      },
+      {
+       "latex": "\\sqrt{4} = \\sqrt{\\text{e}^{2x}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>4</mn></msqrt><mo>=</mo><msqrt><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></msqrt></math>",
+       "alt": "\\sqrt{4} = \\sqrt{\\text{e}^{2 x}}"
+      },
+      {
+       "latex": "x = \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "x = \\text{ln} 2"
+      },
+      {
+       "latex": "x = \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "x = \\text{ln} 2"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "x = 0"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "y = 0"
+      },
+      {
+       "latex": "\\text{e}^{0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mn>0</mn></msup></math>",
+       "alt": "\\text{e}^{0}"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "\\text{e}^{2x} = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>=</mo><mn>4</mn></math>",
+       "alt": "\\text{e}^{2 x} = 4"
+      },
+      {
+       "latex": "x = \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "x = \\text{ln} 2"
+      },
+      {
+       "latex": "2 x = \\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "2 x = \\text{ln} 4"
+      },
+      {
+       "latex": "\\text{ln} 4 = 2 \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn><mo>=</mo><mn>2</mn><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 4 = 2 \\text{ln} 2"
+      },
+      {
+       "latex": "\\text{e}^{x} = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mi>x</mi></msup><mo>=</mo><mn>2</mn></math>",
+       "alt": "\\text{e}^{x} = 2"
+      },
+      {
+       "latex": "x = \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "x = \\text{ln} 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_szPQKkpTXCvRdmzs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 2",
+      "question_number": 11,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XCnjCYWhqvFZrwrb",
+      "spcpt_9g3SMYJGHKqj8sr5"
+     ],
+     "part_tier": null,
+     "problem_md": "The line  $l$ is the normal to $C$ at the point $B$.\n\nFind an equation for $l$ , giving your answer in the form $y=mx+c$",
+     "solution_md": "A normal is perpendicular to the tangent, so start by differentiating $C$\n\n- $4$ differentiates to 0, and $\\text{e}^{2x}$ differentiates to $2 \\text{e}^{2x}$\n\n$\\frac{\\text{d}y}{\\text{d}x} = - 2 \\text{e}^{2x}$\n\n**[M1]**\n\nAt $B$ the $x$ coordinate is $\\text{ln} 2$, so substitute that in\n\n- $\\text{e}^{2\\text{ln}2} = \\text{e}^{\\text{ln}4}$, which is 4\n\n$\\frac{\\text{d}y}{\\text{d}x} = - 2 \\times 4$\n\n$\\frac{\\text{d}y}{\\text{d}x} = - 8$\n\n**[M1]**\n\nThat is the gradient of the tangent, so take the negative reciprocal for the normal\n\n$m = \\frac{1}{8}$\n\nUse `y - y_{1} = m \\left(x - x_{1}\\right)` through `B \\left(\\text{ln} 2 , 0\\right)`\n\n`y - 0 = \\frac{1}{8} \\left(x - \\text{ln} 2\\right)`\n\n**[M1]**\n\nMultiply out to reach the required form\n\n$y = \\frac{1}{8} x - \\frac{1}{8} \\text{ln} 2$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Differentiates the equation of $C$. This must be correct, giving $\\frac{\\text{d}y}{\\text{d}x} = - 2 \\text{e}^{2x}$.\n> \n> **M1**: Substitutes $\\text{ln} 2$ into your derivative, reaching $- 8$.\n> \n> **M1**: A correct method for finding the equation of a straight line, using your numerical perpendicular gradient together with $y = 0$ and $x = \\text{ln} 2$. Where the form $y = m x + c$ is used, a value of $c$ must be found, and a decimal value which rounds to $- 0 . 087$ is accepted for this mark.\n> \n> **A1**: $y = \\frac{1}{8} x - \\frac{1}{8} \\text{ln} 2$, or the equivalent $y = \\frac{x}{8} - \\frac{\\text{ln}2}{8}$, in exact form only.\n> \n> The gradient of the normal must be the negative reciprocal of the tangent's gradient. Using $- 8$ itself in the equation of the line earns the third method mark but not the accuracy mark.\n\n> **[exam-tip]**\n> $\\text{e}^{2\\text{ln}2}$ is 4, and it is worth seeing why.\n> \n> - $2 \\text{ln} 2$ is $\\text{ln} 4$, and $\\text{e}$ to the power $\\text{ln} 4$ is just 4\n> - Equally, part (a) already told you $\\text{e}^{2x} = 4$ at this point, so no new work is needed\n> \n> Normal, not tangent.\n> \n> - The tangent gradient is $- 8$, so the normal gradient is $\\frac{1}{8}$\n> - Two of the four marks here depend on making that switch\n> \n> $B$ has a $y$ coordinate of 0.\n> \n> - It is the crossing with the $x$-axis, so the point is `\\left(\\text{ln} 2 , 0\\right)` and the $y - y_{1}$ term disappears\n> \n> Leave $\\text{ln} 2$ as it is.\n> \n> - The final mark is for the exact form, so $- \\frac{1}{8} \\text{ln} 2$ must not be replaced by $- 0 . 087$",
+     "equations": [
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>l</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>l</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "y=mx+c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y equals m x plus c"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+       "alt": "4"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = - 2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = - 2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 2"
+      },
+      {
+       "latex": "\\text{e}^{2\\text{ln}2} = \\text{e}^{\\text{ln}4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mtext>ln</mtext><mn>2</mn></mrow></msup><mo>=</mo><msup><mtext>e</mtext><mrow><mtext>ln</mtext><mn>4</mn></mrow></msup></math>",
+       "alt": "\\text{e}^{2 \\text{ln} 2} = \\text{e}^{\\text{ln} 4}"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = - 2 \\times 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>2</mn><mo>&#xD7;</mo><mn>4</mn></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = - 2 \\times 4"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = - 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>8</mn></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = - 8"
+      },
+      {
+       "latex": "m = \\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>",
+       "alt": "m = \\frac{1}{8}"
+      },
+      {
+       "latex": "y = \\frac{1}{8} x - \\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "y = \\frac{1}{8} x - \\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "\\frac{\\text{d}y}{\\text{d}x} = - 2 \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>d</mtext><mi>y</mi></mrow><mrow><mtext>d</mtext><mi>x</mi></mrow></mfrac><mo>=</mo><mo>-</mo><mn>2</mn><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\frac{\\text{d} y}{\\text{d} x} = - 2 \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 2"
+      },
+      {
+       "latex": "- 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn></math>",
+       "alt": "- 8"
+      },
+      {
+       "latex": "y = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "y = 0"
+      },
+      {
+       "latex": "x = \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "x = \\text{ln} 2"
+      },
+      {
+       "latex": "y = m x + c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>",
+       "alt": "y = m x + c"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>",
+       "alt": "c"
+      },
+      {
+       "latex": "- 0 . 087",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>0</mn><mo>.</mo><mn>087</mn></math>",
+       "alt": "- 0 . 087"
+      },
+      {
+       "latex": "y = \\frac{1}{8} x - \\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>-</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "y = \\frac{1}{8} x - \\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "y = \\frac{x}{8} - \\frac{\\text{ln}2}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mi>x</mi><mn>8</mn></mfrac><mo>-</mo><mfrac><mrow><mtext>ln</mtext><mn>2</mn></mrow><mn>8</mn></mfrac></math>",
+       "alt": "y = \\frac{x}{8} - \\frac{\\text{ln} 2}{8}"
+      },
+      {
+       "latex": "- 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn></math>",
+       "alt": "- 8"
+      },
+      {
+       "latex": "\\text{e}^{2\\text{ln}2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mtext>ln</mtext><mn>2</mn></mrow></msup></math>",
+       "alt": "\\text{e}^{2 \\text{ln} 2}"
+      },
+      {
+       "latex": "2 \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "2 \\text{ln} 2"
+      },
+      {
+       "latex": "\\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "\\text{ln} 4"
+      },
+      {
+       "latex": "\\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>e</mtext></math>",
+       "alt": "\\text{e}"
+      },
+      {
+       "latex": "\\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "\\text{ln} 4"
+      },
+      {
+       "latex": "\\text{e}^{2x} = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>=</mo><mn>4</mn></math>",
+       "alt": "\\text{e}^{2 x} = 4"
+      },
+      {
+       "latex": "- 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn></math>",
+       "alt": "- 8"
+      },
+      {
+       "latex": "\\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>",
+       "alt": "\\frac{1}{8}"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y - y_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub></math>",
+       "alt": "y - y_{1}"
+      },
+      {
+       "latex": "\\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 2"
+      },
+      {
+       "latex": "- \\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "- \\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "- 0 . 087",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>0</mn><mo>.</mo><mn>087</mn></math>",
+       "alt": "- 0 . 087"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_85tyrnY4hgh4YG6k",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 2",
+      "question_number": 11,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_yJ97KHnfRVsN7qBW",
+      "spcpt_t6x5YNTWFJs9Vbwn",
+      "spcpt_M2RHvyxt445bmXBD"
+     ],
+     "part_tier": null,
+     "problem_md": "The finite region $R$ is bounded by $C$, $l$ and the $y$-axis.\n\nUsing calculus, find the area of $R$.\nGive your answer to one decimal place.",
+     "solution_md": "Picture the region first\n\n- $R$ is bounded above by the curve $C$, which runs from `A \\left(0 , 3\\right)` down to `B \\left(\\text{ln} 2 , 0\\right)`\n- It is bounded below by the normal $l$, which meets the $y$-axis below the origin\n- The $y$-axis closes it on the left\n\nSo the area splits into the part above the $x$-axis and the triangle below it\n\nTake the curve first, integrating between the two $x$ values found in part (a)\n\n`A_{C} = \\int_{0}^{\\text{ln} 2} \\left(4 - \\text{e}^{2 x}\\right) \\text{d} x`\n\n**[M1]**\n\nIntegrate each term, remembering that $\\text{e}^{2x}$ integrates to $\\frac{1}{2} \\text{e}^{2x}$\n\n`A_{C} = \\left[4 x - \\frac{1}{2} \\text{e}^{2 x}\\right]_{0}^{\\text{ln} 2}`\n\n**[M1]**\n\nSubstitute both limits, using $\\text{e}^{2\\text{ln}2} = 4$ at the top and $\\text{e}^{0} = 1$ at the bottom\n\n`A_{C} = \\left(4 \\text{ln} 2 - 2\\right) - \\left(0 - \\frac{1}{2}\\right)`\n\n**[M1]**\n\n$A_{C} = 4 \\text{ln} 2 - \\frac{3}{2}$\n\nNow the piece below the $x$-axis, which is a triangle\n\n- Its vertices are the origin, `B \\left(\\text{ln} 2 , 0\\right)`, and the point where $l$ crosses the $y$-axis\n- Putting $x = 0$ into $l$ gives $y = - \\frac{1}{8} \\text{ln} 2$, so the depth below the origin is $\\frac{1}{8} \\text{ln} 2$\n- The base along the $x$-axis is $\\text{ln} 2$\n\n$A_{T} = \\frac{1}{2} \\times \\text{ln} 2 \\times \\frac{1}{8} \\text{ln} 2$\n\n**[M1]**\n\n`A_{T} = \\frac{1}{16} \\left(\\text{ln} 2\\right)^{2}`\n\n**[M1]**\n\nAdd the two pieces, since both lie inside $R$\n\n`A = 4 \\text{ln} 2 - \\frac{3}{2} + \\frac{1}{16} \\left(\\text{ln} 2\\right)^{2}`\n\n**[M1]**\n\nWork that out, keeping full accuracy until the last line\n\n- $4 \\text{ln} 2 - \\frac{3}{2} = 1 . 27258 \\dots$ and `\\frac{1}{16} \\left(\\text{ln} 2\\right)^{2} = 0 . 03002 \\ldots`\n\n`A equals 1.3 space open parentheses 1 space straight d. straight p. close parentheses`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A correct statement for the area under the curve with the correct limits, `\\int_{0}^{\\text{ln} 2} \\left(4 - \\text{e}^{2 x}\\right) \\text{d} x`. The limits may be either way around, poor notation is ignored, and this mark may be implied by later correct work.\n> \n> **M1**: A minimally acceptable attempt to integrate, reaching `\\left[4 x \\pm \\frac{\\text{e}^{2 x}}{2}\\right]`.\n> \n> **M1**: Substitutes both limits into your integral of the curve.\n> \n> **M1**: A statement of the area of the triangle, either as $\\frac{1}{2} \\times \\text{ln} 2 \\times \\frac{1}{8} \\text{ln} 2$ or as `\\frac{1}{8} \\int_{0}^{\\text{ln} 2} \\left(x - \\text{ln} 2\\right) \\text{d} x` following through from your equation of the line, with the limits either way around.\n> \n> **M1**: A correct method to evaluate the area of the triangle, reaching `\\frac{1}{16} \\left(\\text{ln} 2\\right)^{2}`. Where the integration route is used, the integration and substitution must both be correct.\n> \n> **M1**: The total final area formed from your two values.\n> \n> **A1**: An answer which rounds to $1 . 3$. The exact value `4 \\text{ln} 2 - \\frac{3}{2} + \\frac{1}{16} \\left(\\text{ln} 2\\right)^{2}` is also accepted.\n> \n> Note that there is no accuracy mark for the area under the curve on its own. Six of the seven marks here are method marks, so a complete and correct strategy carries almost all of the credit even if the final arithmetic slips.\n> \n> Integrating the line rather than treating the region as a triangle is equally acceptable and earns the same two marks.\n\n> **[exam-tip]**\n> Sketch the region before integrating anything.\n> \n> - The curve is above the $x$-axis over the whole interval, and the normal is below it, so the two pieces are added rather than subtracted\n> - Subtracting them is the commonest way to lose the last two marks\n> \n> The triangle needs no calculus at all.\n> \n> - Its base is $\\text{ln} 2$ along the $x$-axis and its height is $\\frac{1}{8} \\text{ln} 2$ below the origin\n> - Integrating the line works too and earns the same marks, but the triangle is quicker and harder to get wrong\n> \n> Both limits came out of part (a).\n> \n> - $x = 0$ at $A$ and $x = \\text{ln} 2$ at $B$, so nothing new has to be found here\n> \n> `\\left(\\text{ln} 2\\right)^{2}` is not $\\text{ln} 4$.\n> \n> - $\\text{ln} 2$ squared is about $0 . 48$, whereas $\\text{ln} 4$ is about $1 . 39$\n> - The triangle contributes only $0 . 03$ to the total, so treating it as $\\text{ln} 4$ changes the answer to one decimal place\n> \n> Keep the exact form until the end.\n> \n> - `4 \\text{ln} 2 - \\frac{3}{2} + \\frac{1}{16} \\left(\\text{ln} 2\\right)^{2}` is worth writing down before rounding, since it is accepted as a final answer in its own right",
+     "equations": [
+      {
+       "latex": "R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>l</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R"
+      },
+      {
+       "latex": "R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>",
+       "alt": "R"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\frac{1}{2} \\text{e}^{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mtext>e</mtext><mrow><mn>2</mn><mi>x</mi></mrow></msup></math>",
+       "alt": "\\frac{1}{2} \\text{e}^{2 x}"
+      },
+      {
+       "latex": "\\text{e}^{2\\text{ln}2} = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mtext>ln</mtext><mn>2</mn></mrow></msup><mo>=</mo><mn>4</mn></math>",
+       "alt": "\\text{e}^{2 \\text{ln} 2} = 4"
+      },
+      {
+       "latex": "\\text{e}^{0} = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mn>0</mn></msup><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{e}^{0} = 1"
+      },
+      {
+       "latex": "A_{C} = 4 \\text{ln} 2 - \\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mi>C</mi></msub><mo>=</mo><mn>4</mn><mtext>ln</mtext><mn>2</mn><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+       "alt": "A_{C} = 4 \\text{ln} 2 - \\frac{3}{2}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "x = 0"
+      },
+      {
+       "latex": "l",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>",
+       "alt": "l"
+      },
+      {
+       "latex": "y = - \\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "y = - \\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "\\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 2"
+      },
+      {
+       "latex": "A_{T} = \\frac{1}{2} \\times \\text{ln} 2 \\times \\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mi>T</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mtext>ln</mtext><mn>2</mn><mo>&#xD7;</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "A_{T} = \\frac{1}{2} \\times \\text{ln} 2 \\times \\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>",
+       "alt": "R"
+      },
+      {
+       "latex": "4 \\text{ln} 2 - \\frac{3}{2} = 1 . 27258 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mtext>ln</mtext><mn>2</mn><mo>-</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>27258</mn><mo>&#x2026;</mo></math>",
+       "alt": "4 \\text{ln} 2 - \\frac{3}{2} = 1 . 27258 \\ldots"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times \\text{ln} 2 \\times \\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mtext>ln</mtext><mn>2</mn><mo>&#xD7;</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\frac{1}{2} \\times \\text{ln} 2 \\times \\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "1 . 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>3</mn></math>",
+       "alt": "1 . 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 2"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{1}{8} \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\frac{1}{8} \\text{ln} 2"
+      },
+      {
+       "latex": "x = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "x = 0"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "x = \\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "x = \\text{ln} 2"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "\\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "\\text{ln} 4"
+      },
+      {
+       "latex": "\\text{ln} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>2</mn></math>",
+       "alt": "\\text{ln} 2"
+      },
+      {
+       "latex": "0 . 48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>48</mn></math>",
+       "alt": "0 . 48"
+      },
+      {
+       "latex": "\\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "\\text{ln} 4"
+      },
+      {
+       "latex": "1 . 39",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>39</mn></math>",
+       "alt": "1 . 39"
+      },
+      {
+       "latex": "0 . 03",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>03</mn></math>",
+       "alt": "0 . 03"
+      },
+      {
+       "latex": "\\text{ln} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mn>4</mn></math>",
+       "alt": "\\text{ln} 4"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

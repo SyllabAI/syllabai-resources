@@ -1,0 +1,2711 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:03:27Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/topic-questions/geometry-and-trigonometry/radians/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Further Maths",
+  "exam_code": "4PM1",
+  "sme_course_id": "crs_27tQwKkFD9Ffnv2W",
+  "syllabus_version": "2017",
+  "sme_alias_path": "19"
+ },
+ "section": {
+  "slug": "geometry-and-trigonometry",
+  "name": "Geometry & Trigonometry"
+ },
+ "topic": {
+  "id": "top_BfJbBJByPYmmRr2h",
+  "slug": "radians",
+  "name": "Radians",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "radian-measure",
+   "name": "Radian Measure",
+   "revision_note_id": "rn_frNNhTp99HgqYGmK"
+  },
+  {
+   "slug": "arcs-and-sectors",
+   "name": "Arcs & Sectors",
+   "revision_note_id": "rn_Q5GvcM8jFxdXrMKV"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_jTszV9sYMVDDG9tN",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 6
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/02/39880-screenshot-2026-02-09-230627.png": "001-grey-sector-diagram-with-angle-0-5-rad-at-centre.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/44130-screenshot-2026-02-09-132343.png": "002-geometric-diagram-with-a-semicircle-abcd-of-diam.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/43315-screenshot-2026-02-05-143410.png": "003-diagram-of-a-circle-with-centre-o-radius-r-cm-se.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/61436-screenshot-2026-02-04-113652.png": "004-a-sector-ros-with-angle-rad-radius-2-cm-points-r.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/18566-screenshot-2026-02-04-113652.png": "005-a-sector-with-centre-o-and-radius-2-cm-is-shown-.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/61046-q3-june-2024-paper-2-edx-igcse-further-pure.png": "006-circle-inscribed-in-a-triangle-with-vertices-a-b.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/53411-q2s-paper-1-specimen-edx-igcse-further-pure-maths.png": "007-triangle-aob-and-sector-boc-oa-is-10-cm-ob-and-o.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_ggnsjdyJNstyZkbF",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_54zpKhkh7BBzTPrS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_TbT4CYYKcJ9VVYD6",
+      "spcpt_QwRQKnmxjDsq7Z56"
+     ],
+     "part_tier": null,
+     "problem_md": "![Triangle AOB and sector BOC. OA is 10 cm, OB and OC are 6 cm each, and arc BC is π cm. Centred at O, labelled as Figure 1.](assets/007-triangle-aob-and-sector-boc-oa-is-10-cm-ob-and-o.png)\n\nFigure 1 shows a shape $ABC$in which $AOB$ is a triangle, $AOC$ is a straight line and $OBC$ is a sector of a circle with centre $O$.\n\n$AO=10$cm $,OC=OB=6$cm and the length of arc $BC=π$ cm.\n\nFind, to 3 significant figures, the area of the shape $ABC$.",
+     "solution_md": "The shape $A B C$ is made of two pieces that do not overlap, so find each area and add them\n\n- Triangle $A O B$\n- Sector $O B C$\n\nBoth pieces need an angle at $O$, so start with the arc length formula $s = r θ$, whose angle is in radians\n\n$π = 6 θ$\n\n$θ = \\frac{π}{6}$\n\n$A O C$ is a straight line, so the angles at $O$ add up to $π$\n\n`\\angle A O B = \\frac{5 \\pi}{6}`\n\nThe triangle has two sides and the angle between them, so use $\\frac{1}{2} a b \\text{sin} C$\n\n`\\frac{1}{2} \\times 10 \\times 6 \\times \\text{sin} \\left(\\frac{5 \\pi}{6}\\right) = 15`\n\n**[M1]**\n\nThe sector uses $\\frac{1}{2} r^{2} θ$, again with the angle in radians\n\n$\\frac{1}{2} \\times 6^{2} \\times \\frac{π}{6} = 3 π$\n\n**[M1]**\n\nAdd the two areas\n\n$15 + 3 π = 24 . 4247 \\dots$\n\n`\\text{Area} = 24 . 4 \\textrm{ } \\text{cm}^{2} \\textrm{ } \\left(3 s . f .\\right)`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A correct expression for the area of triangle $A O B$, using $\\frac{1}{2} a b \\text{sin} C$ with 10, 6 and your angle $A O B$.\n> \n> **M1**: A correct expression for the area of sector $O B C$, using $\\frac{1}{2} r^{2} θ$ with $r = 6$ and your $θ$.\n> \n> **A1**: $24 . 4$ cm<sup>2</sup>. Accept answers which round to this value.\n> \n> Finding the sector area as $\\frac{1}{2} \\times \\text{arc} \\times \\text{radius}$ is equally acceptable, giving $\\frac{1}{2} \\times π \\times 6 = 3 π$, and earns the second method mark in the same way.\n> \n> Working in degrees throughout is equally acceptable, using `\\angle A O B = 150 \\circ` and a sector angle of $30 \\circ$ with $\\frac{θ}{360} \\times π r^{2}$.\n> \n> The angle at $O$ inside the triangle is the obtuse one. Note that `\\text{sin} \\left(\\frac{\\pi}{6}\\right)` and `\\text{sin} \\left(\\frac{5 \\pi}{6}\\right)` are both $\\frac{1}{2}$, so the triangle's area of 15 is reached either way and the first method mark is not lost by using the wrong angle here.\n\n> **[exam-tip]**\n> Split a compound shape into pieces you have a formula for.\n> \n> - Here that is a triangle and a sector, and they meet along $O B$ without overlapping, so the two areas simply add\n> \n> Both radian formulas need the angle in radians, so leave $θ$ as $\\frac{π}{6}$.\n> \n> - $\\frac{1}{2} r^{2} θ$ gives $3 π$ directly\n> - Converting to degrees means switching to $\\frac{θ}{360} \\times π r^{2}$ as well, which is more work for the same answer\n> \n> The sector area can also be found straight from the arc.\n> \n> - $\\frac{1}{2} \\times \\text{arc} \\times \\text{radius}$ is $\\frac{1}{2} \\times π \\times 6$, which is $3 π$ again\n> - Useful when the arc is given and the angle is not\n> \n> Keep the exact values until the very end.\n> \n> - The exact area is $15 + 3 π$, so round only once\n> - Rounding $3 π$ to $9 . 4$ first still gives $24 . 4$ here, but the habit costs marks on questions where it does not\n> \n> Sine does not distinguish the two possible angles at $O$.\n> \n> - `\\text{sin} \\left(\\frac{\\pi}{6}\\right)` and `\\text{sin} \\left(\\frac{5 \\pi}{6}\\right)` are both $\\frac{1}{2}$, so the triangle's area comes out as 15 either way\n> - That is a quirk of this question rather than a rule, and it would not save you in the length calculation",
+     "equations": [
+      {
+       "latex": "ABC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>B</mi><mi>C</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A B C space"
+      },
+      {
+       "latex": "AOB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>O</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "AOC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>O</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A O C"
+      },
+      {
+       "latex": "OBC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mi>B</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O B C"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>O</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "AO=10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>O</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>10</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A O space equals space 10 space"
+      },
+      {
+       "latex": ",OC=OB=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>,</mo><mo>&#160;</mo><mi>O</mi><mi>C</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>O</mi><mi>B</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "comma space O C space equals space O B space equals space 6 space"
+      },
+      {
+       "latex": "BC=π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mi>C</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>&#960;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B C space equals space pi"
+      },
+      {
+       "latex": "ABC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>A</mi><mi>B</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space A B C"
+      },
+      {
+       "latex": "A B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi></math>",
+       "alt": "A B C"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "O B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>B</mi><mi>C</mi></math>",
+       "alt": "O B C"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "π = 6 θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><mo>=</mo><mn>6</mn><mi>&#x3B8;</mi></math>",
+       "alt": "\\pi = 6 \\theta"
+      },
+      {
+       "latex": "θ = \\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></math>",
+       "alt": "\\theta = \\frac{\\pi}{6}"
+      },
+      {
+       "latex": "A O C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>C</mi></math>",
+       "alt": "A O C"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "\\frac{1}{2} a b \\text{sin} C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>b</mi><mtext>sin</mtext><mi>C</mi></math>",
+       "alt": "\\frac{1}{2} a b \\text{sin} C"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times 6^{2} \\times \\frac{π}{6} = 3 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><msup><mn>6</mn><mn>2</mn></msup><mo>&#xD7;</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac><mo>=</mo><mn>3</mn><mi>&#x3C0;</mi></math>",
+       "alt": "\\frac{1}{2} \\times 6^{2} \\times \\frac{\\pi}{6} = 3 \\pi"
+      },
+      {
+       "latex": "15 + 3 π = 24 . 4247 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>3</mn><mi>&#x3C0;</mi><mo>=</mo><mn>24</mn><mo>.</mo><mn>4247</mn><mo>&#x2026;</mo></math>",
+       "alt": "15 + 3 \\pi = 24 . 4247 \\ldots"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "\\frac{1}{2} a b \\text{sin} C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>b</mi><mtext>sin</mtext><mi>C</mi></math>",
+       "alt": "\\frac{1}{2} a b \\text{sin} C"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "O B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>B</mi><mi>C</mi></math>",
+       "alt": "O B C"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "r = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "r = 6"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "24 . 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>.</mo><mn>4</mn></math>",
+       "alt": "24 . 4"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times \\text{arc} \\times \\text{radius}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mtext>arc</mtext><mo>&#xD7;</mo><mtext>radius</mtext></math>",
+       "alt": "\\frac{1}{2} \\times \\text{arc} \\times \\text{radius}"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times π \\times 6 = 3 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><mo>&#xD7;</mo><mn>6</mn><mo>=</mo><mn>3</mn><mi>&#x3C0;</mi></math>",
+       "alt": "\\frac{1}{2} \\times \\pi \\times 6 = 3 \\pi"
+      },
+      {
+       "latex": "30 \\circ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>&#x2218;</mo></math>",
+       "alt": "30 \\circ"
+      },
+      {
+       "latex": "\\frac{θ}{360} \\times π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>360</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{\\theta}{360} \\times \\pi r^{2}"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2}"
+      },
+      {
+       "latex": "O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>B</mi></math>",
+       "alt": "O B"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "\\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{6}"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "3 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>&#x3C0;</mi></math>",
+       "alt": "3 \\pi"
+      },
+      {
+       "latex": "\\frac{θ}{360} \\times π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>360</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{\\theta}{360} \\times \\pi r^{2}"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times \\text{arc} \\times \\text{radius}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mtext>arc</mtext><mo>&#xD7;</mo><mtext>radius</mtext></math>",
+       "alt": "\\frac{1}{2} \\times \\text{arc} \\times \\text{radius}"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times π \\times 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><mo>&#xD7;</mo><mn>6</mn></math>",
+       "alt": "\\frac{1}{2} \\times \\pi \\times 6"
+      },
+      {
+       "latex": "3 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>&#x3C0;</mi></math>",
+       "alt": "3 \\pi"
+      },
+      {
+       "latex": "15 + 3 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>3</mn><mi>&#x3C0;</mi></math>",
+       "alt": "15 + 3 \\pi"
+      },
+      {
+       "latex": "3 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>&#x3C0;</mi></math>",
+       "alt": "3 \\pi"
+      },
+      {
+       "latex": "9 . 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>.</mo><mn>4</mn></math>",
+       "alt": "9 . 4"
+      },
+      {
+       "latex": "24 . 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>.</mo><mn>4</mn></math>",
+       "alt": "24 . 4"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ntcK8xN38w2d3dYj",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_H4FsKwBBsfYmz8cg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rrxbKqWZ3TqMn52g"
+     ],
+     "part_tier": null,
+     "problem_md": "![Circle inscribed in a triangle with vertices A, B, O; radius r, angle θ rad, and side AO is 3r cm. Diagram not to scale, labelled Figure 1.](assets/006-circle-inscribed-in-a-triangle-with-vertices-a-b.png)\n\nFigure 1 shows the sector $AOB$ of a circle with centre $O$ and radius $3r$ cm\n\nA circle with radius $r$ cm touches $OA$ and $OB$ and the arc $AB$\n\nAngle $AOB$is $θ$ radians, where $0<θ<\\frac{π}{2}$\n\nFind the exact value of $θ$",
+     "solution_md": "The small circle touches both $O A$ and $O B$, and a circle touching two lines has its centre on the line that bisects the angle between them\n\nCall that centre $M$, and drop a perpendicular from $M$ to $O A$\n\nThat perpendicular is a radius of the small circle, so it has length $r$\n\nThe small circle also touches the arc $A B$, so $O$, $M$ and the point where they touch all lie on one straight line of length $3 r$\n\n$O M = 3 r - r$\n\n$O M = 2 r$\n\nThe perpendicular creates a right-angled triangle in which the angle at $O$ is half of $θ$, the opposite side is $r$ and the hypotenuse is $O M$\n\n$\\text{sin} \\frac{θ}{2} = \\frac{r}{2r}$\n\n**[M1]**\n\nThe $r$ cancels, so the angle does not depend on the size of the circles at all\n\n$\\text{sin} \\frac{θ}{2} = \\frac{1}{2}$\n\n$\\frac{θ}{2} = \\frac{π}{6}$\n\n$θ = \\frac{π}{3}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the sine ratio in a right-angled triangle to reach $\\frac{θ}{2} = \\frac{π}{6}$. Working in degrees is equally acceptable, so $\\frac{θ}{2} = 30 ^{\\circ}$ earns this mark.\n> \n> **A1**: $θ = \\frac{π}{3}$ only.\n> \n> A method that does not use trigonometry at all earns nothing here, even if it happens to reach the right value.\n\n> **[exam-tip]**\n> Two tangents from the same point mean the centre sits on the angle bisector.\n> \n> - That is what puts half of $θ$ into the triangle rather than all of it\n> - Forgetting the halving gives $θ = \\frac{π}{6}$, which is the commonest wrong answer\n> \n> The radius drawn to a point of contact is always perpendicular to what it touches.\n> \n> - So the perpendicular from $M$ to $O A$ has length exactly $r$, which is the opposite side of the triangle\n> - Marking the right angle on your own sketch makes the triangle much easier to see\n> \n> The distance $O M$ is a subtraction, not the radius.\n> \n> - The small circle touches the arc from the inside, so $O M$ plus $r$ makes up the full $3 r$\n> - That gives $O M = 2 r$, and the ratio $\\frac{r}{2r}$ is what makes the answer so clean\n> \n> Every length here is a multiple of $r$, so $r$ cancels.\n> \n> - The angle is fixed by the shape alone, which is why part (a) can be answered before $r$ is known",
+     "equations": [
+      {
+       "latex": "AOB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>O</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>O</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "3r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>r</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 r"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "OA",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O A"
+      },
+      {
+       "latex": "OB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O B"
+      },
+      {
+       "latex": "AB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "AOB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>O</mi><mi>B</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A O B space"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "0<θ<\\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>&#160;</mo><mo>&#60;</mo><mo>&#160;</mo><mi>&#952;</mi><mo>&#160;</mo><mo>&#60;</mo><mfrac><mi mathvariant=\"normal\">&#960;</mi><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "0 space less than space theta space less than straight pi over 2"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "O A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>A</mi></math>",
+       "alt": "O A"
+      },
+      {
+       "latex": "O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>B</mi></math>",
+       "alt": "O B"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "O A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>A</mi></math>",
+       "alt": "O A"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "3 r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>r</mi></math>",
+       "alt": "3 r"
+      },
+      {
+       "latex": "O M = 3 r - r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi><mo>=</mo><mn>3</mn><mi>r</mi><mo>-</mo><mi>r</mi></math>",
+       "alt": "O M = 3 r - r"
+      },
+      {
+       "latex": "O M = 2 r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi><mo>=</mo><mn>2</mn><mi>r</mi></math>",
+       "alt": "O M = 2 r"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "O M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi></math>",
+       "alt": "O M"
+      },
+      {
+       "latex": "\\text{sin} \\frac{θ}{2} = \\frac{r}{2r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mfrac><mi>&#x3B8;</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mi>r</mi><mrow><mn>2</mn><mi>r</mi></mrow></mfrac></math>",
+       "alt": "\\text{sin} \\frac{\\theta}{2} = \\frac{r}{2 r}"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "\\text{sin} \\frac{θ}{2} = \\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mfrac><mi>&#x3B8;</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\text{sin} \\frac{\\theta}{2} = \\frac{1}{2}"
+      },
+      {
+       "latex": "\\frac{θ}{2} = \\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></math>",
+       "alt": "\\frac{\\theta}{2} = \\frac{\\pi}{6}"
+      },
+      {
+       "latex": "θ = \\frac{π}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>3</mn></mfrac></math>",
+       "alt": "\\theta = \\frac{\\pi}{3}"
+      },
+      {
+       "latex": "\\frac{θ}{2} = \\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></math>",
+       "alt": "\\frac{\\theta}{2} = \\frac{\\pi}{6}"
+      },
+      {
+       "latex": "\\frac{θ}{2} = 30 ^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>2</mn></mfrac><mo>=</mo><mn>30</mn><mo>&#xB0;</mo></math>",
+       "alt": "\\frac{\\theta}{2} = 30 ^{\\circ}"
+      },
+      {
+       "latex": "θ = \\frac{π}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>3</mn></mfrac></math>",
+       "alt": "\\theta = \\frac{\\pi}{3}"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "θ = \\frac{π}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></math>",
+       "alt": "\\theta = \\frac{\\pi}{6}"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "O A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>A</mi></math>",
+       "alt": "O A"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "O M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi></math>",
+       "alt": "O M"
+      },
+      {
+       "latex": "O M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi></math>",
+       "alt": "O M"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "3 r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>r</mi></math>",
+       "alt": "3 r"
+      },
+      {
+       "latex": "O M = 2 r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi><mo>=</mo><mn>2</mn><mi>r</mi></math>",
+       "alt": "O M = 2 r"
+      },
+      {
+       "latex": "\\frac{r}{2r}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mrow><mn>2</mn><mi>r</mi></mrow></mfrac></math>",
+       "alt": "\\frac{r}{2 r}"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bY5CMydrpdfVhwGJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_TbT4CYYKcJ9VVYD6",
+      "spcpt_QwRQKnmxjDsq7Z56"
+     ],
+     "part_tier": null,
+     "problem_md": "The area of the region shown shaded in Figure 1 is $8π$ cm<sup>2</sup>\n\nFind the value of $r$",
+     "solution_md": "The shaded region is what is left of the sector once the small circle is taken out, so find both areas and subtract\n\nStart with the circle, which has radius $r$\n\n$\\text{Area of the circle} = π r^{2}$\n\n**[B1]**\n\nFor the sector use $\\frac{1}{2} R^{2} θ$, with $R = 3 r$ and $θ = \\frac{π}{3}$ from part (a)\n\n$\\text{Area of the sector} = \\frac{1}{2} \\times ( 3 r )^{2} \\times \\frac{π}{3}$\n\n**[M1]**\n\n$( 3 r )^{2} = 9 r^{2}$, and $\\frac{9}{2} \\times \\frac{1}{3} = \\frac{3}{2}$\n\n$\\text{Area of the sector} = \\frac{3}{2} π r^{2}$\n\nNow subtract, and set the result equal to the given area\n\n$8 π = \\frac{3}{2} π r^{2} - π r^{2}$\n\n**[M1]**\n\n$8 π = \\frac{πr^{2}}{2}$\n\nThe $π$ cancels from both sides\n\n$r^{2} = 16$\n\n$r$ is a length, so take the positive root\n\n$r = 4$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: $π r^{2}$ for the area of the small circle.\n> \n> **M1**: A correct sector area, $\\frac{1}{2} \\times ( 3 r )^{2} \\times θ$, using your $θ$ from part (a).\n> \n> **M1**: Sets the difference of the two areas equal to $8 π$ and solves for $r$. This mark depends on the previous method mark.\n> \n> **A1**: $r = 4$.\n> \n> Working in degrees is equally acceptable, so $\\frac{60}{360} \\times π \\times ( 3 r )^{2}$ also reaches $\\frac{3}{2} π r^{2}$.\n> \n> The negative root must be rejected, since $r$ is a length.\n\n> **[exam-tip]**\n> The angle must be in radians for $\\frac{1}{2} r^{2} θ$ to work.\n> \n> - Part (a) hands you $\\frac{π}{3}$, which is exactly what this formula wants\n> - If you worked part (a) in degrees, use $\\frac{θ}{360} \\times π r^{2}$ here instead rather than mixing the two\n> \n> Square the whole radius, not just the $r$.\n> \n> - The sector has radius $3 r$, so $( 3 r )^{2} = 9 r^{2}$\n> - Writing $3 r^{2}$ instead is the single commonest error on this part, and it gives $r = 8$\n> \n> The $π$ appears on both sides, so it cancels.\n> \n> - That is a strong hint the answer will be a whole number, and it is worth noticing before you reach for a calculator\n> - Dividing through by $π$ early keeps the arithmetic in whole numbers\n> \n> Check the answer is sensible against the diagram.\n> \n> - With $r = 4$ the sector has radius 12 and the small circle has radius 4, which matches a circle sitting snugly inside the sector",
+     "equations": [
+      {
+       "latex": "8π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>8</mn><mi>&#960;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "8 pi"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "\\text{Area of the circle} = π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the circle</mtext><mo>=</mo><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{Area of the circle} = \\pi r^{2}"
+      },
+      {
+       "latex": "\\frac{1}{2} R^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>R</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} R^{2} \\theta"
+      },
+      {
+       "latex": "R = 3 r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>3</mn><mi>r</mi></math>",
+       "alt": "R = 3 r"
+      },
+      {
+       "latex": "θ = \\frac{π}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>3</mn></mfrac></math>",
+       "alt": "\\theta = \\frac{\\pi}{3}"
+      },
+      {
+       "latex": "\\text{Area of the sector} = \\frac{1}{2} \\times ( 3 r )^{2} \\times \\frac{π}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the sector</mtext><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mo>(</mo><mn>3</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xD7;</mo><mfrac><mi>&#x3C0;</mi><mn>3</mn></mfrac></math>",
+       "alt": "\\text{Area of the sector} = \\frac{1}{2} \\times (3 r)^{2} \\times \\frac{\\pi}{3}"
+      },
+      {
+       "latex": "( 3 r )^{2} = 9 r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "(3 r)^{2} = 9 r^{2}"
+      },
+      {
+       "latex": "\\frac{9}{2} \\times \\frac{1}{3} = \\frac{3}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{9}{2} \\times \\frac{1}{3} = \\frac{3}{2}"
+      },
+      {
+       "latex": "\\text{Area of the sector} = \\frac{3}{2} π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the sector</mtext><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{Area of the sector} = \\frac{3}{2} \\pi r^{2}"
+      },
+      {
+       "latex": "8 π = \\frac{3}{2} π r^{2} - π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>&#x3C0;</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup><mo>-</mo><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "8 \\pi = \\frac{3}{2} \\pi r^{2} - \\pi r^{2}"
+      },
+      {
+       "latex": "8 π = \\frac{πr^{2}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>&#x3C0;</mi><mo>=</mo><mfrac><mrow><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></math>",
+       "alt": "8 \\pi = \\frac{\\pi r^{2}}{2}"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "r^{2} = 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></math>",
+       "alt": "r^{2} = 16"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "r = 4"
+      },
+      {
+       "latex": "π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\pi r^{2}"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times ( 3 r )^{2} \\times θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mo>(</mo><mn>3</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xD7;</mo><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} \\times (3 r)^{2} \\times \\theta"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "8 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>&#x3C0;</mi></math>",
+       "alt": "8 \\pi"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "r = 4"
+      },
+      {
+       "latex": "\\frac{60}{360} \\times π \\times ( 3 r )^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>60</mn><mn>360</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><mo>&#xD7;</mo><mo>(</mo><mn>3</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup></math>",
+       "alt": "\\frac{60}{360} \\times \\pi \\times (3 r)^{2}"
+      },
+      {
+       "latex": "\\frac{3}{2} π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{3}{2} \\pi r^{2}"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "\\frac{π}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{3}"
+      },
+      {
+       "latex": "\\frac{θ}{360} \\times π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>360</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{\\theta}{360} \\times \\pi r^{2}"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "3 r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>r</mi></math>",
+       "alt": "3 r"
+      },
+      {
+       "latex": "( 3 r )^{2} = 9 r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mi>r</mi><msup><mo>)</mo><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "(3 r)^{2} = 9 r^{2}"
+      },
+      {
+       "latex": "3 r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "3 r^{2}"
+      },
+      {
+       "latex": "r = 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>8</mn></math>",
+       "alt": "r = 8"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "r = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "r = 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JxDByMVBcCRFgFnf",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_hGCw475bgbHxKXtY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "argue",
+     "source_paper": {
+      "date": "November 2024",
+      "number": "Paper 2",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rrxbKqWZ3TqMn52g",
+      "spcpt_QwRQKnmxjDsq7Z56"
+     ],
+     "part_tier": null,
+     "problem_md": "![A sector ROS with angle θ rad, radius 2 cm. Points R, S on arc, O as centre. Note: Diagram not accurately drawn. Underneath is the label \"Figure 1\".](assets/004-a-sector-ros-with-angle-rad-radius-2-cm-points-r.png)\n\nFigure 1 shows sector $ROS$ of a circle with centre $O$ and radius 2 cm \nThe size of angle  $ROS$ is $θ$ radians.\n\nThe area of sector $ROS$ is $\\frac{π}{2}\\mathrm{cm}^{2}$. Find the exact value of  $θ$",
+     "solution_md": "The area of a sector is $\\frac{1}{2} r^{2} θ$, with the angle in radians\n\nHere the radius is 2 and the area is given, so substitute both in\n\n$\\frac{1}{2} \\times 2^{2} \\times θ = \\frac{π}{2}$\n\n**[M1]**\n\n$2 θ = \\frac{π}{2}$\n\nDivide both sides by 2\n\n$θ = \\frac{π}{4}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A correct substitution into $\\frac{1}{2} r^{2} θ$ set equal to $\\frac{π}{2}$. Allow one rearrangement error. Working in degrees is equally acceptable.\n> \n> **A1**: The exact value $\\frac{π}{4}$.\n> \n> A decimal answer of $0 . 785$ does not earn the accuracy mark, because the question asks for the exact value.\n\n> **[exam-tip]**\n> The sector area formula only works when the angle is in radians.\n> \n> - $\\frac{1}{2} r^{2} θ$ is the radian version; in degrees you would need $\\frac{θ}{360} \\times π r^{2}$\n> - The question gives an area in terms of $π$, which is a strong hint that radians are wanted\n> \n> Square the radius before multiplying.\n> \n> - $\\frac{1}{2} \\times 2^{2}$ is 2, not 1, and that factor is where the answer comes from\n> - Getting it wrong here feeds straight through into part (b)\n> \n> Keep the answer exact.\n> \n> - Leave $\\frac{π}{4}$ as it is rather than converting it, since part (b) needs the exact value too",
+     "equations": [
+      {
+       "latex": "ROS",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mi>O</mi><mi>S</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R O S"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>O</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "ROS",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mi>O</mi><mi>S</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R O S"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "ROS",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mi>O</mi><mi>S</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R O S"
+      },
+      {
+       "latex": "\\frac{π}{2}\\mathrm{cm}^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>&#160;</mo><msup><mi>cm</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "pi over 2 space cm squared"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times 2^{2} \\times θ = \\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><msup><mn>2</mn><mn>2</mn></msup><mo>&#xD7;</mo><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2} \\times 2^{2} \\times \\theta = \\frac{\\pi}{2}"
+      },
+      {
+       "latex": "2 θ = \\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "2 \\theta = \\frac{\\pi}{2}"
+      },
+      {
+       "latex": "θ = \\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>4</mn></mfrac></math>",
+       "alt": "\\theta = \\frac{\\pi}{4}"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "\\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{2}"
+      },
+      {
+       "latex": "\\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{4}"
+      },
+      {
+       "latex": "0 . 785",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>785</mn></math>",
+       "alt": "0.785"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "\\frac{θ}{360} \\times π r^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3B8;</mi><mn>360</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><msup><mi>r</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{\\theta}{360} \\times \\pi r^{2}"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "\\frac{1}{2} \\times 2^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><msup><mn>2</mn><mn>2</mn></msup></math>",
+       "alt": "\\frac{1}{2} \\times 2^{2}"
+      },
+      {
+       "latex": "\\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{4}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hMvHYF2TZWSs6tdX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "Paper 2",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vPC56mmgF9ZyjYRB",
+      "spcpt_rrxbKqWZ3TqMn52g"
+     ],
+     "part_tier": null,
+     "problem_md": "![A sector with centre O and radius 2 cm is shown. Angle θ rad is between radii OR and OS. Note: Diagram not accurately drawn.](assets/005-a-sector-with-centre-o-and-radius-2-cm-is-shown-.png)\n\nFigure 1 shows sector $ROS$ of a circle with centre $O$ and radius 2 cm \nThe size of angle  $ROS$ is $θ$ radians.\n\nThe perimeter of sector $ROS$ is $P$ cm. Find the exact value of $P$",
+     "solution_md": "The perimeter of a sector is the curved arc plus the two straight radii, so it is not just the arc\n\nFind the arc first, using $s = r θ$ with the angle from part (a)\n\n$s = 2 \\times \\frac{π}{4}$\n\n**[M1]**\n\n$s = \\frac{π}{2}$\n\nNow add the two radii, each of length 2 cm\n\n$P = \\frac{π}{2} + 2 + 2$\n\n**[M1]**\n\n$P = 4 + \\frac{π}{2}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A correct arc length, $2 \\times \\frac{π}{4}$, using your $θ$ from part (a).\n> \n> **M1**: Adds two radii to your arc length.\n> \n> **A1**: The exact value $4 + \\frac{π}{2}$, or any equivalent exact form such as $\\frac{8+π}{2}$.\n> \n> A decimal answer of $5 . 57$ does not earn the accuracy mark, because the question asks for the exact value.\n\n> **[exam-tip]**\n> A sector perimeter has three pieces, and the two straight ones are easy to forget.\n> \n> - The boundary runs out along one radius, round the arc, and back along the other\n> - Answering $\\frac{π}{2}$ is the commonest error here, and it is the arc on its own\n> \n> $s = r θ$ needs radians, just like the area formula.\n> \n> - Part (a) gives $\\frac{π}{4}$ in radians, so it drops straight in\n> - The arc comes out as $\\frac{π}{2}$, which happens to equal the area in this question, but that is a coincidence of the numbers\n> \n> Leave the answer as an exact sum.\n> \n> - $4 + \\frac{π}{2}$ is exact and cannot be tidied further\n> - Do not be tempted to combine the 4 into the fraction unless you keep it exact, as in $\\frac{8+π}{2}$",
+     "equations": [
+      {
+       "latex": "ROS",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mi>O</mi><mi>S</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R O S"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>O</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "ROS",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mi>O</mi><mi>S</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R O S"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "ROS",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi><mi>O</mi><mi>S</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "R O S"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "s = 2 \\times \\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>2</mn><mo>&#xD7;</mo><mfrac><mi>&#x3C0;</mi><mn>4</mn></mfrac></math>",
+       "alt": "s = 2 \\times \\frac{\\pi}{4}"
+      },
+      {
+       "latex": "s = \\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "s = \\frac{\\pi}{2}"
+      },
+      {
+       "latex": "P = \\frac{π}{2} + 2 + 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn></math>",
+       "alt": "P = \\frac{\\pi}{2} + 2 + 2"
+      },
+      {
+       "latex": "P = 4 + \\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>4</mn><mo>+</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "P = 4 + \\frac{\\pi}{2}"
+      },
+      {
+       "latex": "2 \\times \\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&#xD7;</mo><mfrac><mi>&#x3C0;</mi><mn>4</mn></mfrac></math>",
+       "alt": "2 \\times \\frac{\\pi}{4}"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "4 + \\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "4 + \\frac{\\pi}{2}"
+      },
+      {
+       "latex": "\\frac{8+π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><mi>&#x3C0;</mi></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{8 + \\pi}{2}"
+      },
+      {
+       "latex": "5 . 57",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>.</mo><mn>57</mn></math>",
+       "alt": "5.57"
+      },
+      {
+       "latex": "\\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{2}"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "\\frac{π}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{4}"
+      },
+      {
+       "latex": "\\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{2}"
+      },
+      {
+       "latex": "4 + \\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "4 + \\frac{\\pi}{2}"
+      },
+      {
+       "latex": "\\frac{8+π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><mi>&#x3C0;</mi></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{8 + \\pi}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_49CJKC2BDk7Xc6mB",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_jCCpmDwRtSNjnj2G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vPC56mmgF9ZyjYRB",
+      "spcpt_rrxbKqWZ3TqMn52g",
+      "spcpt_QwRQKnmxjDsq7Z56"
+     ],
+     "part_tier": null,
+     "problem_md": "![Diagram of a circle with centre O, radius r cm. Sector AOB shaded. Angle θ rad at centre. Labelled points: P on perimeter, A and B on circle edge. Diagram not to scale.](assets/003-diagram-of-a-circle-with-centre-o-radius-r-cm-se.png)\n\nFigure 1 shows a circle, centre $O$, with radius $r$ cm.\n\nThe points $A$, $P$ and $B$ lie on the circle.\n\nThe obtuse angle $AOB=θ$ radians.\n\nThe area of the sector $APBO$, shown shaded, is 372.4 cm<sup>2</sup> and the length of the arc $APB$ is 53.2cm.\n\nFind, to 3 significant figures where appropriate, the value of\n\n(i) $r$\n\n(ii) $θ$",
+     "solution_md": "**(i)**\n\nRead the diagram carefully first, because the angle in the formulae is not the angle the question asks for\n\nThe shaded sector is the one containing $P$, so the angle at its centre is the reflex angle, while $θ$ is the obtuse angle on the other side\n\nCall the reflex angle $α$, and write down the two standard formulae\n\n$53 . 2 = r α$\n\n**[B1]**\n\n$372 . 4 = \\frac{r^{2}α}{2}$\n\n**[B1]**\n\nDividing the area by the arc length cancels $α$ completely and leaves just $\\frac{r}{2}$\n\n$\\frac{372.4}{53.2} = \\frac{r}{2}$\n\n**[M1]**\n\n$\\frac{r}{2} = 7$\n\n$r = 14$\n\n**[A1]**\n\n**(ii)**\n\nPut the radius back into the arc length formula to get the reflex angle\n\n$α = \\frac{53.2}{14}$\n\n$α = 3 . 8$\n\n**[M1]**\n\n$3 . 8$ is bigger than $π$, which confirms it is the reflex angle rather than the obtuse one\n\n$θ$ is what is left of the full turn\n\n$θ = 2 π - 3 . 8$\n\n$θ=2.48(3s.f.)$\n\n**[A1]**\n\n> **[mark-scheme]**\n> The two sub-parts are marked together, and any letter may be used for the reflex angle.\n> \n> **B1**: A correct arc length equation, $53 . 2 = r α$.\n> \n> **B1**: A correct sector area equation, $372 . 4 = \\frac{r^{2}α}{2}$.\n> \n> **M1**: Eliminates the angle between the two equations to reach an equation in $r$ alone.\n> \n> **A1**: $r = 14$.\n> \n> **M1**: Substitutes back to find the reflex angle, $3 . 8$.\n> \n> **A1**: $θ = 2 . 48$. Accept answers which round to this value.\n> \n> Working in degrees is equally acceptable, in which case the reflex angle is $217 . 7 ^{\\circ}$ and $θ$ is $142 . 3 ^{\\circ}$, but the final answer must be converted back to radians.\n> \n> Answering $θ = 3 . 8$ loses the final mark, because $3 . 8$ radians is reflex and the question asks for the obtuse angle.\n\n> **[exam-tip]**\n> The single biggest trap here is which angle the formulae are using.\n> \n> - Both $s = r θ$ and $\\frac{1}{2} r^{2} θ$ use the angle of the sector you are measuring, and the shaded sector is the reflex one\n> - The question then asks for the obtuse angle, so a subtraction from $2 π$ is needed at the very end\n> \n> Dividing the two equations is much quicker than solving them.\n> \n> - $\\frac{\\text{area}}{\\text{arc}} = \\frac{\\frac{1}{2}r^{2}θ}{rθ}$, and everything cancels except $\\frac{r}{2}$\n> - That gives the radius in one line, with no need to find the angle first\n> \n> Check the size of your angle before you answer.\n> \n> - Anything above $π$, which is about $3 . 14$, is reflex, and anything between $\\frac{π}{2}$ and $π$ is obtuse\n> - $3 . 8$ is clearly reflex, so it cannot be the answer the question wants\n> \n> \"To 3 significant figures where appropriate\" is a hint that one answer is exact.\n> \n> - The radius comes out as exactly 14, so it needs no rounding at all\n> - Only the angle needs rounding, and it does so to $2 . 48$",
+     "equations": [
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>O</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "AOB=θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>O</mi><mi>B</mi><mo>=</mo><mi>&#952;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A O B equals theta"
+      },
+      {
+       "latex": "APBO",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>P</mi><mi>B</mi><mi>O</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A P B O"
+      },
+      {
+       "latex": "APB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>P</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A P B"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>r</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>&#952;</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B1;</mi></math>",
+       "alt": "\\alpha"
+      },
+      {
+       "latex": "53 . 2 = r α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>53</mn><mo>.</mo><mn>2</mn><mo>=</mo><mi>r</mi><mi>&#x3B1;</mi></math>",
+       "alt": "53.2 = r \\alpha"
+      },
+      {
+       "latex": "372 . 4 = \\frac{r^{2}α}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>372</mn><mo>.</mo><mn>4</mn><mo>=</mo><mfrac><mrow><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B1;</mi></mrow><mn>2</mn></mfrac></math>",
+       "alt": "372.4 = \\frac{r^{2} \\alpha}{2}"
+      },
+      {
+       "latex": "α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B1;</mi></math>",
+       "alt": "\\alpha"
+      },
+      {
+       "latex": "\\frac{r}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{r}{2}"
+      },
+      {
+       "latex": "\\frac{372.4}{53.2} = \\frac{r}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>372</mn><mo>.</mo><mn>4</mn></mrow><mrow><mn>53</mn><mo>.</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mi>r</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{372.4}{53.2} = \\frac{r}{2}"
+      },
+      {
+       "latex": "\\frac{r}{2} = 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mn>2</mn></mfrac><mo>=</mo><mn>7</mn></math>",
+       "alt": "\\frac{r}{2} = 7"
+      },
+      {
+       "latex": "r = 14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>14</mn></math>",
+       "alt": "r = 14"
+      },
+      {
+       "latex": "α = \\frac{53.2}{14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B1;</mi><mo>=</mo><mfrac><mrow><mn>53</mn><mo>.</mo><mn>2</mn></mrow><mn>14</mn></mfrac></math>",
+       "alt": "\\alpha = \\frac{53.2}{14}"
+      },
+      {
+       "latex": "α = 3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B1;</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "\\alpha = 3.8"
+      },
+      {
+       "latex": "3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "3.8"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "θ = 2 π - 3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mn>2</mn><mi>&#x3C0;</mi><mo>-</mo><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "\\theta = 2 \\pi - 3.8"
+      },
+      {
+       "latex": "θ=2.48(3s.f.)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#952;</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>48</mn><mtext>&#160;</mtext><mo>(</mo><mn>3</mn><mo>&#160;</mo><mi mathvariant=\"normal\">s</mi><mo>.</mo><mi mathvariant=\"normal\">f</mi><mo>.</mo><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "theta equals 2.48 text end text left parenthesis 3 space straight s. straight f. right parenthesis"
+      },
+      {
+       "latex": "53 . 2 = r α",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>53</mn><mo>.</mo><mn>2</mn><mo>=</mo><mi>r</mi><mi>&#x3B1;</mi></math>",
+       "alt": "53.2 = r \\alpha"
+      },
+      {
+       "latex": "372 . 4 = \\frac{r^{2}α}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>372</mn><mo>.</mo><mn>4</mn><mo>=</mo><mfrac><mrow><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B1;</mi></mrow><mn>2</mn></mfrac></math>",
+       "alt": "372.4 = \\frac{r^{2} \\alpha}{2}"
+      },
+      {
+       "latex": "r",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>",
+       "alt": "r"
+      },
+      {
+       "latex": "r = 14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>14</mn></math>",
+       "alt": "r = 14"
+      },
+      {
+       "latex": "3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "3.8"
+      },
+      {
+       "latex": "θ = 2 . 48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>48</mn></math>",
+       "alt": "\\theta = 2.48"
+      },
+      {
+       "latex": "217 . 7 ^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>217</mn><mo>.</mo><mn>7</mn><mo>&#xB0;</mo></math>",
+       "alt": "217.7 ^{\\circ}"
+      },
+      {
+       "latex": "θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi></math>",
+       "alt": "\\theta"
+      },
+      {
+       "latex": "142 . 3 ^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>142</mn><mo>.</mo><mn>3</mn><mo>&#xB0;</mo></math>",
+       "alt": "142.3 ^{\\circ}"
+      },
+      {
+       "latex": "θ = 3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "\\theta = 3.8"
+      },
+      {
+       "latex": "3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "3.8"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "2 π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#x3C0;</mi></math>",
+       "alt": "2 \\pi"
+      },
+      {
+       "latex": "\\frac{\\text{area}}{\\text{arc}} = \\frac{\\frac{1}{2}r^{2}θ}{rθ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>area</mtext><mtext>arc</mtext></mfrac><mo>=</mo><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></mrow><mrow><mi>r</mi><mi>&#x3B8;</mi></mrow></mfrac></math>",
+       "alt": "\\frac{\\text{area}}{\\text{arc}} = \\frac{\\frac{1}{2} r^{2} \\theta}{r \\theta}"
+      },
+      {
+       "latex": "\\frac{r}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{r}{2}"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "3 . 14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>14</mn></math>",
+       "alt": "3.14"
+      },
+      {
+       "latex": "\\frac{π}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{\\pi}{2}"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "3.8"
+      },
+      {
+       "latex": "2 . 48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>48</mn></math>",
+       "alt": "2.48"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kXrpjBtW5dwrkTwr",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_rcnSn2Gx4dMZZy5T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 2",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vPC56mmgF9ZyjYRB",
+      "spcpt_rrxbKqWZ3TqMn52g",
+      "spcpt_GcwDGDk6nXFx4tQs"
+     ],
+     "part_tier": null,
+     "problem_md": "![Geometric diagram with a semicircle ABCD of diameter 2x cm. Triangle OAB is above with OB and OA being x cm. Point E is inside the semicircle.](assets/002-geometric-diagram-with-a-semicircle-abcd-of-diam.png)\n\nA logo, $AEBCD$, is shown shaded in Figure 2.\n\nThe straight line $ABC$ is the diameter of the semicircle $ADC$\n$AEB$ is an arc of a circle with centre $O$\nAll angles are measured in radians.\n\n- $BC=2x\\mathrm{cm}$\n- $OA=OB=x\\mathrm{cm}$\n- $\\mathrm{length} \\mathrm{of} \\mathrm{arc}AEB=1.8x\\mathrm{cm}$\n\nThe perimeter of the logo is $P$\n\nShow that  $P=ax(π+π\\mathrm{sin}0.9+b)$ where $a$ and $b$ are constants to be found.",
+     "solution_md": "The perimeter runs round three pieces: the arc $A E B$, the straight $B C$, and the semicircular arc from $C$ back to $A$\n\nThe arc $A E B$ is already given, and $B C$ is given, so the work is all in the semicircle\n\nIts diameter is $A C$, which needs the chord $A B$ first\n\nStart with the angle of the arc $A E B$, using $s = r θ$ with radius $O A = x$\n\n`\\angle A O B = \\frac{1.8 x}{x}`\n\n`\\angle A O B = 1.8`\n\n**[B1]**\n\nDrop a perpendicular from $O$ to the chord $A B$, meeting it at $M$\n\nIn an isosceles triangle that perpendicular bisects both the chord and the angle, so the angle at $O$ in triangle $O M B$ is $0 . 9$\n\n$M B = x \\text{sin} 0 . 9$\n\n**[M1]**\n\n$M$ is the midpoint of $A B$, so double it\n\n$A B = 2 x \\text{sin} 0 . 9$\n\n$A$, $B$ and $C$ lie on a straight line, so the diameter is the two pieces added together\n\n$A C = 2 x \\text{sin} 0 . 9 + 2 x$\n\n**[M1]**\n\nThe radius of the semicircle is half the diameter\n\n$R = x \\text{sin} 0 . 9 + x$\n\n**[A1]**\n\nA semicircular arc is half of $2 π R$, so it is $π R$\n\n$\\text{arc} C D A = π x ( 1 + \\text{sin} 0 . 9 )$\n\n**[M1]**\n\nNow add the three pieces of the boundary\n\n$P = π x ( 1 + \\text{sin} 0 . 9 ) + 2 x + 1 . 8 x$\n\n**[M1]**\n\nExpand the bracket and collect the two plain $x$ terms\n\n$P = π x + π x \\text{sin} 0 . 9 + 3 . 8 x$\n\n$P = x ( π + π \\text{sin} 0 . 9 + 3 . 8 )  \\text{as required}$\n\n**[A1]**\n\nso $a = 1$ and $b = 3 . 8$\n\n> **[mark-scheme]**\n> **B1**: `\\angle A O B = 1.8` radians, seen anywhere.\n> \n> **M1**: A correct method for $A B$, or for half of it, using your angle.\n> \n> **M1**: A correct diameter, $A C = 2 x \\text{sin} 0 . 9 + 2 x$. This mark depends on the previous method mark.\n> \n> **A1**: A correct radius or diameter for the semicircle.\n> \n> **M1**: A correct semicircular arc length, $π R$, using your radius.\n> \n> **M1**: Adds all three parts of the boundary.\n> \n> **A1**: Reaches the given form with no errors, and identifies $a = 1$ and $b = 3 . 8$.\n> \n> The answer is given, so the working must be complete throughout.\n> \n> Using the cosine rule on triangle $O A B$ to find $A B$ is equally acceptable, and gives $A B^{2} = x^{2} + x^{2} - 2 x^{2} \\text{cos} 1 . 8$, leading to the same chord.\n\n> **[exam-tip]**\n> Trace the boundary with your finger before writing anything down.\n> \n> - The perimeter is arc $A E B$, then $B C$, then the semicircular arc back to $A$\n> - $A B$ itself is not part of the perimeter, even though you have to work it out to get the diameter\n> \n> The chord of an arc comes from halving the isosceles triangle.\n> \n> - The perpendicular from the centre bisects the chord and the angle, so half the chord is $x \\text{sin} 0 . 9$\n> - Halving the angle and doubling the length at the end is the step most often dropped\n> \n> Keep $\\text{sin} 0 . 9$ exact rather than evaluating it.\n> \n> - The target form contains $\\text{sin} 0 . 9$, so a decimal can never match it\n> - Make sure your calculator is in radians if you do check the value, since $\\text{sin} 0 . 9 ^{\\circ}$ is a completely different number\n> \n> A semicircular arc is $π R$, not $2 π R$ and not $\\frac{πR}{2}$.\n> \n> - Half of the full circumference $2 π R$ is $π R$, and the two straight radii are not part of this boundary\n> - Here $R = x ( 1 + \\text{sin} 0 . 9 )$, so the arc gives both the $π$ and the $π \\text{sin} 0 . 9$ in the answer",
+     "equations": [
+      {
+       "latex": "AEBCD",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>E</mi><mi>B</mi><mi>C</mi><mi>D</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A E B C D"
+      },
+      {
+       "latex": "ABC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>B</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A B C"
+      },
+      {
+       "latex": "ADC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>D</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A D C"
+      },
+      {
+       "latex": "AEB",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>E</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>O</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "BC=2x\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi><mi>C</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>&#160;</mo><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "B C equals 2 x space cm"
+      },
+      {
+       "latex": "OA=OB=x\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mi>A</mi><mo>=</mo><mi>O</mi><mi>B</mi><mo>=</mo><mi>x</mi><mo>&#160;</mo><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "O A equals O B equals x space cm"
+      },
+      {
+       "latex": "\\mathrm{length} \\mathrm{of} \\mathrm{arc}AEB=1.8x\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>length</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>arc</mi><mo>&#160;</mo><mi>A</mi><mi>E</mi><mi>B</mi><mo mathvariant=\"italic\">=</mo><mn>1</mn><mo>.</mo><mn>8</mn><mi>x</mi><mo>&#160;</mo><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "length space of space arc space A E B italic equals 1.8 x space cm"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P=ax(π+π\\mathrm{sin}0.9+b)",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mi>a</mi><mi>x</mi><mo>&#160;</mo><mo>(</mo><mi>&#960;</mi><mo>+</mo><mi>&#960;</mi><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P equals a x space left parenthesis pi plus pi space sin space 0.9 plus b right parenthesis"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "A E B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi><mi>B</mi></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "A E B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi><mi>B</mi></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "A C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math>",
+       "alt": "A C"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "A E B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi><mi>B</mi></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "O A = x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>A</mi><mo>=</mo><mi>x</mi></math>",
+       "alt": "O A = x"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "O",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>",
+       "alt": "O"
+      },
+      {
+       "latex": "O M B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>M</mi><mi>B</mi></math>",
+       "alt": "O M B"
+      },
+      {
+       "latex": "0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "0.9"
+      },
+      {
+       "latex": "M B = x \\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mi>B</mi><mo>=</mo><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "M B = x \\text{sin} 0.9"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "A B = 2 x \\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>=</mo><mn>2</mn><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "A B = 2 x \\text{sin} 0.9"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>",
+       "alt": "C"
+      },
+      {
+       "latex": "A C = 2 x \\text{sin} 0 . 9 + 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>2</mn><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "A C = 2 x \\text{sin} 0.9 + 2 x"
+      },
+      {
+       "latex": "R = x \\text{sin} 0 . 9 + x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mi>x</mi></math>",
+       "alt": "R = x \\text{sin} 0.9 + x"
+      },
+      {
+       "latex": "2 π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "2 \\pi R"
+      },
+      {
+       "latex": "π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "\\pi R"
+      },
+      {
+       "latex": "\\text{arc} C D A = π x ( 1 + \\text{sin} 0 . 9 )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>arc&#xA0;</mtext><mi>C</mi><mi>D</mi><mi>A</mi><mo>=</mo><mi>&#x3C0;</mi><mi>x</mi><mo>(</mo><mn>1</mn><mo>+</mo><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>)</mo></math>",
+       "alt": "\\text{arc } C D A = \\pi x (1 + \\text{sin} 0.9)"
+      },
+      {
+       "latex": "P = π x ( 1 + \\text{sin} 0 . 9 ) + 2 x + 1 . 8 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>&#x3C0;</mi><mi>x</mi><mo>(</mo><mn>1</mn><mo>+</mo><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>)</mo><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>.</mo><mn>8</mn><mi>x</mi></math>",
+       "alt": "P = \\pi x (1 + \\text{sin} 0.9) + 2 x + 1.8 x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P = π x + π x \\text{sin} 0 . 9 + 3 . 8 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>&#x3C0;</mi><mi>x</mi><mo>+</mo><mi>&#x3C0;</mi><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mn>3</mn><mo>.</mo><mn>8</mn><mi>x</mi></math>",
+       "alt": "P = \\pi x + \\pi x \\text{sin} 0.9 + 3.8 x"
+      },
+      {
+       "latex": "P = x ( π + π \\text{sin} 0 . 9 + 3 . 8 )  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>x</mi><mo>(</mo><mi>&#x3C0;</mi><mo>+</mo><mi>&#x3C0;</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mn>3</mn><mo>.</mo><mn>8</mn><mo>)</mo><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "P = x (\\pi + \\pi \\text{sin} 0.9 + 3.8) \\textrm{ }\\text{as required}"
+      },
+      {
+       "latex": "a = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "a = 1"
+      },
+      {
+       "latex": "b = 3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "b = 3.8"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "A C = 2 x \\text{sin} 0 . 9 + 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>2</mn><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "A C = 2 x \\text{sin} 0.9 + 2 x"
+      },
+      {
+       "latex": "π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "\\pi R"
+      },
+      {
+       "latex": "a = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "a = 1"
+      },
+      {
+       "latex": "b = 3 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "b = 3.8"
+      },
+      {
+       "latex": "O A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>A</mi><mi>B</mi></math>",
+       "alt": "O A B"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "A B^{2} = x^{2} + x^{2} - 2 x^{2} \\text{cos} 1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><msup><mi>B</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mtext>cos</mtext><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "A B^{2} = x^{2} + x^{2} - 2 x^{2} \\text{cos} 1.8"
+      },
+      {
+       "latex": "A E B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi><mi>B</mi></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "A",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>",
+       "alt": "A"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "x \\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "x \\text{sin} 0.9"
+      },
+      {
+       "latex": "\\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "\\text{sin} 0.9"
+      },
+      {
+       "latex": "\\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "\\text{sin} 0.9"
+      },
+      {
+       "latex": "\\text{sin} 0 . 9 ^{\\circ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>&#xB0;</mo></math>",
+       "alt": "\\text{sin} 0.9 ^{\\circ}"
+      },
+      {
+       "latex": "π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "\\pi R"
+      },
+      {
+       "latex": "2 π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "2 \\pi R"
+      },
+      {
+       "latex": "\\frac{πR}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>&#x3C0;</mi><mi>R</mi></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{\\pi R}{2}"
+      },
+      {
+       "latex": "2 π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "2 \\pi R"
+      },
+      {
+       "latex": "π R",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><mi>R</mi></math>",
+       "alt": "\\pi R"
+      },
+      {
+       "latex": "R = x ( 1 + \\text{sin} 0 . 9 )",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mi>x</mi><mo>(</mo><mn>1</mn><mo>+</mo><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>)</mo></math>",
+       "alt": "R = x (1 + \\text{sin} 0.9)"
+      },
+      {
+       "latex": "π",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi></math>",
+       "alt": "\\pi"
+      },
+      {
+       "latex": "π \\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3C0;</mi><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "\\pi \\text{sin} 0.9"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_rKF4sqH4Vc5dqQGs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 2",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_TbT4CYYKcJ9VVYD6",
+      "spcpt_QwRQKnmxjDsq7Z56"
+     ],
+     "part_tier": null,
+     "problem_md": "Given that $x=10\\mathrm{cm}$,\n\nfind, in cm<sup>2</sup> to 3 significant figures, the area of the logo.",
+     "solution_md": "The logo is the semicircle with a piece cut out of it\n\nThe arc $A E B$ bulges into the semicircle, so what is removed is the segment between the chord $A B$ and that arc\n\nStart with the semicircle, using the diameter from part (a) with $x = 10$\n\n$A C = 20 \\text{sin} 0 . 9 + 20$\n\n$A C = 35 . 6665 \\dots$\n\n**[M1]**\n\nHalve it for the radius, then use $\\frac{1}{2} π R^{2}$\n\n$\\text{Area of the semicircle} = \\frac{1}{2} \\times π \\times 17 . 83326 \\dots^{2}$\n\n**[M1]**\n\n$\\text{Area of the semicircle} = 499 . 553 \\dots$\n\nNow the segment, which is the sector $A O B$ with the triangle $A O B$ taken out of it\n\nThe sector has radius 10 and angle $1 . 8$ radians\n\n$\\text{Area of the sector} = \\frac{1}{2} \\times 10^{2} \\times 1 . 8$\n\n$\\text{Area of the sector} = 90$\n\n**[B1]**\n\nThe triangle has two sides of 10 with the same angle between them\n\n$\\text{Area of the triangle} = \\frac{1}{2} \\times 10 \\times 10 \\times \\text{sin} 1 . 8$\n\n$\\text{Area of the triangle} = 48 . 692 \\dots$\n\n**[B1]**\n\n$\\text{Area of the segment} = 90 - 48 . 692 \\dots$\n\n$\\text{Area of the segment} = 41 . 307 \\dots$\n\nTake the segment away from the semicircle\n\n$\\text{Area of the logo} = 499 . 553 \\dots - 41 . 307 \\dots$\n\n**[M1]**\n\n`\\text{Area of the logo} = 458 \\textrm{ } \\text{cm}^{2} \\textrm{ } \\left(3 s . f .\\right)`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A correct diameter or radius for the semicircle when $x = 10$, so $35 . 6665 \\dots$ for the diameter or $17 . 8332 \\dots$ for the radius.\n> \n> **M1**: A correct semicircle area using your radius.\n> \n> **B1**: The area of sector $A O B$, which is 90.\n> \n> **B1**: The area of the segment as $41 . 307 \\dots$, or the area of triangle $A O B$ as $48 . 692 \\dots$ Either one earns this mark.\n> \n> **M1**: Subtracts your segment area from your semicircle area.\n> \n> **A1**: Accept answers which round to $458$ cm<sup>2</sup>.\n> \n> The calculator must be in radians throughout.\n\n> **[exam-tip]**\n> Decide what is being added and what is being taken away before you calculate anything.\n> \n> - The arc $A E B$ curves into the semicircle, so the shaded logo is the semicircle minus a segment\n> - If the arc bulged the other way you would be adding the segment instead, so the picture decides the sign\n> \n> A segment is always a sector minus a triangle.\n> \n> - The sector is $\\frac{1}{2} r^{2} θ$ and the triangle is $\\frac{1}{2} a b \\text{sin} C$, both using the same angle of $1 . 8$\n> - The two formulae look alike, which is exactly why they are easy to mix up\n> \n> Carry full accuracy through every stage.\n> \n> - The semicircle radius $17 . 8332 \\dots$ should stay in your calculator rather than being written as $17 . 8$\n> - Rounding early here shifts the third significant figure of the final answer\n> \n> Keep the calculator in radians for the whole question.\n> \n> - Both $\\text{sin} 0 . 9$ and $\\text{sin} 1 . 8$ are in radians, as is the $1 . 8$ in the sector formula\n> - A single switch to degrees at any point makes every remaining line wrong",
+     "equations": [
+      {
+       "latex": "x=10\\mathrm{cm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>10</mn><mo>&#160;</mo><mi>cm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals 10 space cm"
+      },
+      {
+       "latex": "A E B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi><mi>B</mi></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "x = 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>10</mn></math>",
+       "alt": "x = 10"
+      },
+      {
+       "latex": "A C = 20 \\text{sin} 0 . 9 + 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>20</mn><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn><mo>+</mo><mn>20</mn></math>",
+       "alt": "A C = 20 \\text{sin} 0 . 9 + 20"
+      },
+      {
+       "latex": "A C = 35 . 6665 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>35</mn><mo>.</mo><mn>6665</mn><mo>&#x2026;</mo></math>",
+       "alt": "A C = 35 . 6665 \\ldots"
+      },
+      {
+       "latex": "\\frac{1}{2} π R^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>&#x3C0;</mi><msup><mi>R</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{1}{2} \\pi R^{2}"
+      },
+      {
+       "latex": "\\text{Area of the semicircle} = \\frac{1}{2} \\times π \\times 17 . 83326 \\dots^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the semicircle</mtext><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mi>&#x3C0;</mi><mo>&#xD7;</mo><mn>17</mn><mo>.</mo><mn>83326</mn><msup><mo>&#x2026;</mo><mn>2</mn></msup></math>",
+       "alt": "\\text{Area of the semicircle} = \\frac{1}{2} \\times \\pi \\times 17 . 83326 \\ldots^{2}"
+      },
+      {
+       "latex": "\\text{Area of the semicircle} = 499 . 553 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the semicircle</mtext><mo>=</mo><mn>499</mn><mo>.</mo><mn>553</mn><mo>&#x2026;</mo></math>",
+       "alt": "\\text{Area of the semicircle} = 499 . 553 \\ldots"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "1 . 8"
+      },
+      {
+       "latex": "\\text{Area of the sector} = \\frac{1}{2} \\times 10^{2} \\times 1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the sector</mtext><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><msup><mn>10</mn><mn>2</mn></msup><mo>&#xD7;</mo><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "\\text{Area of the sector} = \\frac{1}{2} \\times 10^{2} \\times 1 . 8"
+      },
+      {
+       "latex": "\\text{Area of the sector} = 90",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the sector</mtext><mo>=</mo><mn>90</mn></math>",
+       "alt": "\\text{Area of the sector} = 90"
+      },
+      {
+       "latex": "\\text{Area of the triangle} = \\frac{1}{2} \\times 10 \\times 10 \\times \\text{sin} 1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the triangle</mtext><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#xD7;</mo><mn>10</mn><mo>&#xD7;</mo><mn>10</mn><mo>&#xD7;</mo><mtext>sin</mtext><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "\\text{Area of the triangle} = \\frac{1}{2} \\times 10 \\times 10 \\times \\text{sin} 1 . 8"
+      },
+      {
+       "latex": "\\text{Area of the triangle} = 48 . 692 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the triangle</mtext><mo>=</mo><mn>48</mn><mo>.</mo><mn>692</mn><mo>&#x2026;</mo></math>",
+       "alt": "\\text{Area of the triangle} = 48 . 692 \\ldots"
+      },
+      {
+       "latex": "\\text{Area of the segment} = 90 - 48 . 692 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the segment</mtext><mo>=</mo><mn>90</mn><mo>-</mo><mn>48</mn><mo>.</mo><mn>692</mn><mo>&#x2026;</mo></math>",
+       "alt": "\\text{Area of the segment} = 90 - 48 . 692 \\ldots"
+      },
+      {
+       "latex": "\\text{Area of the segment} = 41 . 307 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the segment</mtext><mo>=</mo><mn>41</mn><mo>.</mo><mn>307</mn><mo>&#x2026;</mo></math>",
+       "alt": "\\text{Area of the segment} = 41 . 307 \\ldots"
+      },
+      {
+       "latex": "\\text{Area of the logo} = 499 . 553 \\dots - 41 . 307 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Area of the logo</mtext><mo>=</mo><mn>499</mn><mo>.</mo><mn>553</mn><mo>&#x2026;</mo><mo>-</mo><mn>41</mn><mo>.</mo><mn>307</mn><mo>&#x2026;</mo></math>",
+       "alt": "\\text{Area of the logo} = 499 . 553 \\ldots - 41 . 307 \\ldots"
+      },
+      {
+       "latex": "x = 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>10</mn></math>",
+       "alt": "x = 10"
+      },
+      {
+       "latex": "35 . 6665 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>.</mo><mn>6665</mn><mo>&#x2026;</mo></math>",
+       "alt": "35 . 6665 \\ldots"
+      },
+      {
+       "latex": "17 . 8332 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>.</mo><mn>8332</mn><mo>&#x2026;</mo></math>",
+       "alt": "17 . 8332 \\ldots"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "41 . 307 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>41</mn><mo>.</mo><mn>307</mn><mo>&#x2026;</mo></math>",
+       "alt": "41 . 307 \\ldots"
+      },
+      {
+       "latex": "A O B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>O</mi><mi>B</mi></math>",
+       "alt": "A O B"
+      },
+      {
+       "latex": "48 . 692 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>.</mo><mn>692</mn><mo>&#x2026;</mo></math>",
+       "alt": "48 . 692 \\ldots"
+      },
+      {
+       "latex": "458",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>458</mn></math>",
+       "alt": "458"
+      },
+      {
+       "latex": "A E B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>E</mi><mi>B</mi></math>",
+       "alt": "A E B"
+      },
+      {
+       "latex": "\\frac{1}{2} r^{2} θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>r</mi><mn>2</mn></msup><mi>&#x3B8;</mi></math>",
+       "alt": "\\frac{1}{2} r^{2} \\theta"
+      },
+      {
+       "latex": "\\frac{1}{2} a b \\text{sin} C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>b</mi><mtext>sin</mtext><mi>C</mi></math>",
+       "alt": "\\frac{1}{2} a b \\text{sin} C"
+      },
+      {
+       "latex": "1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "1 . 8"
+      },
+      {
+       "latex": "17 . 8332 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>.</mo><mn>8332</mn><mo>&#x2026;</mo></math>",
+       "alt": "17 . 8332 \\ldots"
+      },
+      {
+       "latex": "17 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "17 . 8"
+      },
+      {
+       "latex": "\\text{sin} 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "\\text{sin} 0 . 9"
+      },
+      {
+       "latex": "\\text{sin} 1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>sin</mtext><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "\\text{sin} 1 . 8"
+      },
+      {
+       "latex": "1 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "1 . 8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_csZ6wBpPsKCcb47M",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_jzHX8tsKkZWZcthr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vPC56mmgF9ZyjYRB",
+      "spcpt_QwRQKnmxjDsq7Z56"
+     ],
+     "part_tier": null,
+     "problem_md": "![Grey sector diagram with angle 0.5 rad at centre D, labelled vertices A to G, dimensions x and y cm, and note: \"Diagram NOT accurately drawn.\"](assets/001-grey-sector-diagram-with-angle-0-5-rad-at-centre.png)\n\nFigure 1 shows a badge, shown shaded, made from two identical rectangles, $ABCD$ and $DEFG$, and a sector $DCG$ of a circle with centre $D$.\n\nEach rectangle measures  $x$ cm by $y$ cm.\nThe radius of the sector is  $x$ cm and the angle $CDG$ is 0.5 radians.\n\nThe area of the badge is 50 cm<sup>2</sup>\nThe perimeter of the badge is $P$ cm.\n\nShow that\n\n$P=2x+\\frac{100}{x}$",
+     "solution_md": "The badge is two rectangles and a sector, so its area is the three pieces added together\n\nThe sector has radius $x$ and angle $0 . 5$, so its area is $\\frac{1}{2} x^{2} \\times 0 . 5$\n\n$2 x y + \\frac{1}{2} x^{2} \\times \\frac{1}{2} = 50$\n\n**[M1]**\n\n$2 x y + \\frac{1}{4} x^{2} = 50$\n\nThe target has no $y$ in it, so make $y$ the subject and keep it aside\n\n$y = \\frac{50-\\frac{1}{4}x^{2}}{2x}$\n\n**[M1]**\n\n$y = \\frac{25}{x} - \\frac{1}{8} x$\n\nNow the perimeter, and the important thing is which edges are actually on the outside\n\n$D C$ and $D G$ are radii of the sector, so each sits between a rectangle and the sector and is not part of the boundary\n\nThat leaves $A B$ and $E F$, which are both $x$, and the four sides $B C$, $A D$, $D E$ and $F G$, which are all $y$\n\nThe arc $C G$ closes the boundary, and $s = r θ$ gives it as $0 . 5 x$\n\n$P = 2 x + 4 y + \\frac{1}{2} x$\n\n**[M1]**\n\n$P = \\frac{5}{2} x + 4 y$\n\nSubstitute the expression for $y$\n\n`P = \\frac{5}{2} x + 4 \\left(\\frac{25}{x} - \\frac{1}{8} x\\right)`\n\n**[M1]**\n\n$P = \\frac{5}{2} x + \\frac{100}{x} - \\frac{1}{2} x$\n\n$P = 2 x + \\frac{100}{x}  \\text{as required}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A correct area expression for the badge, $2 x y + \\frac{1}{2} x^{2} \\times 0 . 5$, set equal to 50.\n> \n> **M1**: Rearranges to make $y$ the subject. This mark depends on the previous method mark.\n> \n> **M1**: A correct perimeter expression in terms of $x$ and $y$, so $\\frac{5}{2} x + 4 y$ or the unsimplified equivalent.\n> \n> **M1**: Substitutes your $y$ into your perimeter.\n> \n> **A1**: Reaches the given result with no errors.\n> \n> The answer is given, so the working must be complete.\n> \n> The two radii $D C$ and $D G$ are internal edges and must not appear in the perimeter. Including them gives $P = \\frac{9}{2} x + 4 y$ and the result will not follow.\n\n> **[exam-tip]**\n> The hardest part of this question is deciding which edges are on the outside.\n> \n> - $D C$ and $D G$ each have a rectangle on one side and the sector on the other, so they are internal\n> - Shading the badge and tracing round the outline with your finger is the quickest way to be sure\n> \n> Count the sides of length $y$ carefully.\n> \n> - There are four of them, $B C$, $A D$, $D E$ and $F G$, two from each rectangle\n> - Only two sides of length $x$ survive, because the other two are the sector's radii\n> \n> The arc is $0 . 5 x$, not $0 . 5$.\n> \n> - $s = r θ$ with $r = x$ and $θ = 0 . 5$ gives $0 . 5 x$, and it is the half of $x$ that turns $2 x$ into $\\frac{5}{2} x$\n> - The angle is already in radians, which is why the formula can be used directly\n> \n> A \"show that\" with a given answer is really an instruction about method.\n> \n> - You are being told to eliminate $y$ between the area and the perimeter, which is the standard optimisation set-up\n> - Part (b) then differentiates the result, so getting this exactly right matters more than usual",
+     "equations": [
+      {
+       "latex": "ABCD",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A B C D"
+      },
+      {
+       "latex": "DEFG",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi><mi>E</mi><mi>F</mi><mi>G</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "D E F G"
+      },
+      {
+       "latex": "DCG",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi><mi>C</mi><mi>G</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "D C G"
+      },
+      {
+       "latex": "D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>D</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "D"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "CDG",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mi>D</mi><mi>G</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "C D G"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P=2x+\\frac{100}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac><mn>100</mn><mi>x</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P equals 2 x plus 100 over x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "0.5"
+      },
+      {
+       "latex": "\\frac{1}{2} x^{2} \\times 0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "\\frac{1}{2} x^{2} \\times 0.5"
+      },
+      {
+       "latex": "2 x y + \\frac{1}{2} x^{2} \\times \\frac{1}{2} = 50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>&#xD7;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>50</mn></math>",
+       "alt": "2 x y + \\frac{1}{2} x^{2} \\times \\frac{1}{2} = 50"
+      },
+      {
+       "latex": "2 x y + \\frac{1}{4} x^{2} = 50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>50</mn></math>",
+       "alt": "2 x y + \\frac{1}{4} x^{2} = 50"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y = \\frac{50-\\frac{1}{4}x^{2}}{2x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mrow><mn>50</mn><mo>-</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></math>",
+       "alt": "y = \\frac{50 - \\frac{1}{4} x^{2}}{2 x}"
+      },
+      {
+       "latex": "y = \\frac{25}{x} - \\frac{1}{8} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>25</mn><mi>x</mi></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi></math>",
+       "alt": "y = \\frac{25}{x} - \\frac{1}{8} x"
+      },
+      {
+       "latex": "D C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>C</mi></math>",
+       "alt": "D C"
+      },
+      {
+       "latex": "D G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>G</mi></math>",
+       "alt": "D G"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "E F",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>F</mi></math>",
+       "alt": "E F"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "A D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>D</mi></math>",
+       "alt": "A D"
+      },
+      {
+       "latex": "D E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>E</mi></math>",
+       "alt": "D E"
+      },
+      {
+       "latex": "F G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>G</mi></math>",
+       "alt": "F G"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "C G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>G</mi></math>",
+       "alt": "C G"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "0 . 5 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn><mi>x</mi></math>",
+       "alt": "0.5 x"
+      },
+      {
+       "latex": "P = 2 x + 4 y + \\frac{1}{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi></math>",
+       "alt": "P = 2 x + 4 y + \\frac{1}{2} x"
+      },
+      {
+       "latex": "P = \\frac{5}{2} x + 4 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi></math>",
+       "alt": "P = \\frac{5}{2} x + 4 y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "P = \\frac{5}{2} x + \\frac{100}{x} - \\frac{1}{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>100</mn><mi>x</mi></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi></math>",
+       "alt": "P = \\frac{5}{2} x + \\frac{100}{x} - \\frac{1}{2} x"
+      },
+      {
+       "latex": "P = 2 x + \\frac{100}{x}  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac><mn>100</mn><mi>x</mi></mfrac><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "P = 2 x + \\frac{100}{x} \\textrm{ }\\text{as required}"
+      },
+      {
+       "latex": "2 x y + \\frac{1}{2} x^{2} \\times 0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "2 x y + \\frac{1}{2} x^{2} \\times 0.5"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\frac{5}{2} x + 4 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi></math>",
+       "alt": "\\frac{5}{2} x + 4 y"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "D C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>C</mi></math>",
+       "alt": "D C"
+      },
+      {
+       "latex": "D G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>G</mi></math>",
+       "alt": "D G"
+      },
+      {
+       "latex": "P = \\frac{9}{2} x + 4 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi></math>",
+       "alt": "P = \\frac{9}{2} x + 4 y"
+      },
+      {
+       "latex": "D C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>C</mi></math>",
+       "alt": "D C"
+      },
+      {
+       "latex": "D G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>G</mi></math>",
+       "alt": "D G"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "A D",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>D</mi></math>",
+       "alt": "A D"
+      },
+      {
+       "latex": "D E",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mi>E</mi></math>",
+       "alt": "D E"
+      },
+      {
+       "latex": "F G",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mi>G</mi></math>",
+       "alt": "F G"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "0 . 5 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn><mi>x</mi></math>",
+       "alt": "0.5 x"
+      },
+      {
+       "latex": "0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "0.5"
+      },
+      {
+       "latex": "s = r θ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>r</mi><mi>&#x3B8;</mi></math>",
+       "alt": "s = r \\theta"
+      },
+      {
+       "latex": "r = x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mi>x</mi></math>",
+       "alt": "r = x"
+      },
+      {
+       "latex": "θ = 0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>&#x3B8;</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "\\theta = 0.5"
+      },
+      {
+       "latex": "0 . 5 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>5</mn><mi>x</mi></math>",
+       "alt": "0.5 x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>",
+       "alt": "2 x"
+      },
+      {
+       "latex": "\\frac{5}{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi></math>",
+       "alt": "\\frac{5}{2} x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_JBtq7D44DYXVkQH8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_y4d7RdjSk7WhHRYx",
+      "spcpt_C9Nq7TX52PN6xJPk"
+     ],
+     "part_tier": null,
+     "problem_md": "Given that $x$ can vary,\n\nuse calculus, to find the exact value of  $x$  for which $P$ is a minimum. \nJustify that this value of $x$ gives a minimum value for $P$",
+     "solution_md": "To differentiate $\\frac{100}{x}$, first write it as a power of $x$\n\n$P = 2 x + 100 x^{-1}$\n\nBring the power down and reduce it by one, so $100 x^{-1}$ becomes $- 100 x^{-2}$\n\n$\\frac{dP}{dx}=2-\\frac{100}{x^{2}}$\n\n**[M1 A1]**\n\nAt a stationary point the gradient is zero\n\n$2 - \\frac{100}{x^{2}} = 0$\n\n$\\frac{100}{x^{2}} = 2$\n\n$x^{2} = 50$\n\n**[M1]**\n\n$x$ is a length so take the positive root, and $50 = 25 \\times 2$\n\n$x = 5 \\sqrt{2}$\n\n**[A1]**\n\nA stationary point can be a maximum or a minimum, so it has to be tested\n\nDifferentiate a second time, starting again from $- 100 x^{-2}$\n\n$\\frac{d^{2}P}{dx^{2}}=\\frac{200}{x^{3}}$\n\n**[M1]**\n\nSubstitute $x=5\\sqrt{2}$\n\n$\\frac{d^{2}P}{dx^{2}}=\\frac{2\\sqrt{2}}{5}$\n\n$\\frac{2\\sqrt{2}}{5} = 0 . 565 \\dots$\n\n**Final answer:** **The second derivative is positive, so this value of **$x$** gives a minimum value of **$P$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: An attempt to differentiate, with at least one term correct.\n> \n> **A1**: A fully correct $\\frac{dP}{dx}=2-\\frac{100}{x^{2}}$.\n> \n> **M1**: Sets your derivative equal to zero and solves as far as $x^{2}$.\n> \n> **A1**: The exact value $x = 5 \\sqrt{2}$, or any exact equivalent such as $\\sqrt{50}$.\n> \n> **M1**: A correct second derivative, $\\frac{200}{x^{3}}$.\n> \n> **A1**: Evaluates it at your $x$, states that it is positive, and concludes that $P$ is a minimum.\n> \n> The question asks for the exact value, so $7 . 07$ does not earn the accuracy mark.\n> \n> Testing the gradient either side of the stationary point is equally acceptable for the last two marks, provided both values are calculated and the change from negative to positive is stated.\n\n> **[exam-tip]**\n> Rewrite the fraction as a negative power before differentiating.\n> \n> - $\\frac{100}{x}$ is $100 x^{-1}$, and the usual rule then applies without any special case\n> - Differentiating gives $- 100 x^{-2}$, and the minus sign comes from the power, not from anything in the original\n> \n> Only the positive root makes sense here.\n> \n> - $x^{2} = 50$ has two roots, but $x$ is the side of a rectangle, so the negative one is impossible\n> - Say why you are rejecting it rather than silently discarding it\n> \n> \"Justify\" means the test has to appear on the page.\n> \n> - Finding $x$ is not enough on its own, and two of the six marks are for the justification\n> - Calculate the second derivative, put your value in, and write the sentence that draws the conclusion\n> \n> A positive second derivative means the curve is bending upwards.\n> \n> - That is a minimum, and a negative value would mean a maximum\n> - You do not need the exact surd value, only its sign, but showing $0 . 565 \\dots$ makes the sign undeniable",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "\\frac{100}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mi>x</mi></mfrac></math>",
+       "alt": "\\frac{100}{x}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P = 2 x + 100 x^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>100</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "P = 2 x + 100 x^{- 1}"
+      },
+      {
+       "latex": "100 x^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "100 x^{- 1}"
+      },
+      {
+       "latex": "- 100 x^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>100</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>",
+       "alt": "- 100 x^{- 2}"
+      },
+      {
+       "latex": "\\frac{dP}{dx}=2-\\frac{100}{x^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>P</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mo>-</mo><mfrac><mn>100</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d P over denominator straight d x end fraction equals 2 minus 100 over x squared"
+      },
+      {
+       "latex": "2 - \\frac{100}{x^{2}} = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>-</mo><mfrac><mn>100</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>0</mn></math>",
+       "alt": "2 - \\frac{100}{x^{2}} = 0"
+      },
+      {
+       "latex": "\\frac{100}{x^{2}} = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>2</mn></math>",
+       "alt": "\\frac{100}{x^{2}} = 2"
+      },
+      {
+       "latex": "x^{2} = 50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>50</mn></math>",
+       "alt": "x^{2} = 50"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "50 = 25 \\times 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>=</mo><mn>25</mn><mo>&#xD7;</mo><mn>2</mn></math>",
+       "alt": "50 = 25 \\times 2"
+      },
+      {
+       "latex": "x = 5 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "x = 5 \\sqrt{2}"
+      },
+      {
+       "latex": "- 100 x^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>100</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>",
+       "alt": "- 100 x^{- 2}"
+      },
+      {
+       "latex": "\\frac{d^{2}P}{dx^{2}}=\\frac{200}{x^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup><mi>P</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>200</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d squared P over denominator straight d x squared end fraction equals 200 over x cubed"
+      },
+      {
+       "latex": "x=5\\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals 5 square root of 2"
+      },
+      {
+       "latex": "\\frac{d^{2}P}{dx^{2}}=\\frac{2\\sqrt{2}}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><msup><mi mathvariant=\"normal\">d</mi><mn>2</mn></msup><mi>P</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>5</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d squared P over denominator straight d x squared end fraction equals fraction numerator 2 square root of 2 over denominator 5 end fraction"
+      },
+      {
+       "latex": "\\frac{2\\sqrt{2}}{5} = 0 . 565 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>5</mn></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>565</mn><mo>&#x2026;</mo></math>",
+       "alt": "\\frac{2 \\sqrt{2}}{5} = 0.565 \\ldots"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "\\frac{dP}{dx}=2-\\frac{100}{x^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>P</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>2</mn><mo>-</mo><mfrac><mn>100</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight d P over denominator straight d x end fraction equals 2 minus 100 over x squared"
+      },
+      {
+       "latex": "x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "x^{2}"
+      },
+      {
+       "latex": "x = 5 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "x = 5 \\sqrt{2}"
+      },
+      {
+       "latex": "\\sqrt{50}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt></math>",
+       "alt": "\\sqrt{50}"
+      },
+      {
+       "latex": "\\frac{200}{x^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>200</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac></math>",
+       "alt": "\\frac{200}{x^{3}}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "7 . 07",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>.</mo><mn>07</mn></math>",
+       "alt": "7.07"
+      },
+      {
+       "latex": "\\frac{100}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mi>x</mi></mfrac></math>",
+       "alt": "\\frac{100}{x}"
+      },
+      {
+       "latex": "100 x^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "100 x^{- 1}"
+      },
+      {
+       "latex": "- 100 x^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>100</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>",
+       "alt": "- 100 x^{- 2}"
+      },
+      {
+       "latex": "x^{2} = 50",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>50</mn></math>",
+       "alt": "x^{2} = 50"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "0 . 565 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>565</mn><mo>&#x2026;</mo></math>",
+       "alt": "0.565 \\ldots"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_H8f7RH8WTPpYRcnp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_y4d7RdjSk7WhHRYx"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the minimum value of $P$\nGive your answer in the form $k\\sqrt{2}$, where $k$ is an integer to be found.",
+     "solution_md": "Part (b) gives the value of $x$ at the minimum, so put it into the expression for $P$ from part (a)\n\n$P = 2 ( 5 \\sqrt{2} ) + \\frac{100}{5\\sqrt{2}}$\n\n**[M1]**\n\nThe first term is straightforward, and the second needs the surd clearing from the denominator\n\n$\\frac{100}{5\\sqrt{2}} = \\frac{20}{\\sqrt{2}}$\n\nMultiply top and bottom by $\\sqrt{2}$, which turns the denominator into 2\n\n$\\frac{20}{\\sqrt{2}} = 10 \\sqrt{2}$\n\nBoth terms are now the same\n\n$P = 10 \\sqrt{2} + 10 \\sqrt{2}$\n\n$P = 20 \\sqrt{2}$\n\n**[A1]**\n\nso $k = 20$\n\n> **[mark-scheme]**\n> **M1**: Substitutes your $x = 5 \\sqrt{2}$ into $P = 2 x + \\frac{100}{x}$.\n> \n> **A1**: $P = 20 \\sqrt{2}$, with $k = 20$ identified.\n> \n> A decimal answer of $28 . 3$ does not earn the accuracy mark, because the question asks for the answer in the form $k \\sqrt{2}$.\n\n> **[exam-tip]**\n> Use the expression from part (a), not the original picture.\n> \n> - $P = 2 x + \\frac{100}{x}$ takes one substitution, while going back to $x$ and $y$ takes several steps\n> - Each part of this question is built to feed the next one\n> \n> Rationalising is what makes the two terms combine.\n> \n> - $\\frac{20}{\\sqrt{2}}$ does not look like $10 \\sqrt{2}$ until you multiply top and bottom by $\\sqrt{2}$\n> - Once both terms are multiples of $\\sqrt{2}$ they simply add\n> \n> The required form tells you the answer is exact.\n> \n> - $k \\sqrt{2}$ with $k$ an integer rules out any decimal\n> - If your $k$ is not a whole number, check the rationalising step first",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "k\\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><msqrt><mn>2</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k square root of 2"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P = 2 ( 5 \\sqrt{2} ) + \\frac{100}{5\\sqrt{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>+</mo><mfrac><mn>100</mn><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac></math>",
+       "alt": "P = 2 (5 \\sqrt{2}) + \\frac{100}{5 \\sqrt{2}}"
+      },
+      {
+       "latex": "\\frac{100}{5\\sqrt{2}} = \\frac{20}{\\sqrt{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>20</mn><msqrt><mn>2</mn></msqrt></mfrac></math>",
+       "alt": "\\frac{100}{5 \\sqrt{2}} = \\frac{20}{\\sqrt{2}}"
+      },
+      {
+       "latex": "\\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "\\sqrt{2}"
+      },
+      {
+       "latex": "\\frac{20}{\\sqrt{2}} = 10 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "\\frac{20}{\\sqrt{2}} = 10 \\sqrt{2}"
+      },
+      {
+       "latex": "P = 10 \\sqrt{2} + 10 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>10</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "P = 10 \\sqrt{2} + 10 \\sqrt{2}"
+      },
+      {
+       "latex": "P = 20 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>20</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "P = 20 \\sqrt{2}"
+      },
+      {
+       "latex": "k = 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>20</mn></math>",
+       "alt": "k = 20"
+      },
+      {
+       "latex": "x = 5 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "x = 5 \\sqrt{2}"
+      },
+      {
+       "latex": "P = 2 x + \\frac{100}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac><mn>100</mn><mi>x</mi></mfrac></math>",
+       "alt": "P = 2 x + \\frac{100}{x}"
+      },
+      {
+       "latex": "P = 20 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>20</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "P = 20 \\sqrt{2}"
+      },
+      {
+       "latex": "k = 20",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>20</mn></math>",
+       "alt": "k = 20"
+      },
+      {
+       "latex": "28 . 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>.</mo><mn>3</mn></math>",
+       "alt": "28.3"
+      },
+      {
+       "latex": "k \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "k \\sqrt{2}"
+      },
+      {
+       "latex": "P = 2 x + \\frac{100}{x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac><mn>100</mn><mi>x</mi></mfrac></math>",
+       "alt": "P = 2 x + \\frac{100}{x}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\frac{20}{\\sqrt{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><msqrt><mn>2</mn></msqrt></mfrac></math>",
+       "alt": "\\frac{20}{\\sqrt{2}}"
+      },
+      {
+       "latex": "10 \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "10 \\sqrt{2}"
+      },
+      {
+       "latex": "\\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "\\sqrt{2}"
+      },
+      {
+       "latex": "\\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "\\sqrt{2}"
+      },
+      {
+       "latex": "k \\sqrt{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><msqrt><mn>2</mn></msqrt></math>",
+       "alt": "k \\sqrt{2}"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>",
+       "alt": "k"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>",
+       "alt": "k"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

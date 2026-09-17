@@ -1,0 +1,1018 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:03:51Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/topic-questions/logarithms-indices-and-surds/surds/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Further Maths",
+  "exam_code": "4PM1",
+  "sme_course_id": "crs_27tQwKkFD9Ffnv2W",
+  "syllabus_version": "2017",
+  "sme_alias_path": "19"
+ },
+ "section": {
+  "slug": "logarithms-indices-and-surds",
+  "name": "Logarithms, Indices & Surds"
+ },
+ "topic": {
+  "id": "top_qN35JMnDtd9jG74c",
+  "slug": "surds",
+  "name": "Surds",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "simplifying-surds",
+   "name": "Simplifying Surds",
+   "revision_note_id": "rn_2dFNq452mfvvtmRF"
+  },
+  {
+   "slug": "rationalising-denominators",
+   "name": "Rationalising Denominators",
+   "revision_note_id": "rn_nRbCRGrqpNRzWwTj"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_9ncZ8XrxvnmhXWG9",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/02/30624-screenshot-2026-02-06-130027.png": "001-right-angled-triangle-abc-ab-is-2-4-5-cm-bc-is-a.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_Kqc87jNqF9RqHDGn",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_TTYsj9y2Yq6Jwgz3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "Paper 2",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_SgDCdWKMBvfBRt2R"
+     ],
+     "part_tier": null,
+     "problem_md": "Expand $\\frac{3}{\\sqrt{1-2x}}$ in ascending powers of $x$ up to and including the term in $x^{3}$\n\nand simplifying each term as far as possible.",
+     "solution_md": "Write the expression using index notation, so that the binomial series formula can be applied\n\n`\\frac{3}{\\sqrt{1 - 2x}} = 3\\left(1 - 2x\\right)^{-\\frac{1}{2}}`\n\n**[B1]**\n\nThe constant term inside the bracket is already 1, so the formula can be applied directly\n\n- Keep the factor of 3 outside the bracket until the last step\n\nUse the binomial series formula from the formula sheet with $n = - \\frac{1}{2}$, substituting $- 2 x$ everywhere that $x$ appears\n\n`3\\left(1 - 2x\\right)^{-\\frac{1}{2}} = 3\\left[1 + \\left(-\\frac{1}{2}\\right)\\left(-2x\\right) + \\frac{\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{2}\\right)}{2!}\\left(-2x\\right)^{2} + \\frac{\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{2}\\right)\\left(-\\frac{5}{2}\\right)}{3!}\\left(-2x\\right)^{3} + \\ldots\\right]`\n\n**[M1 A1]**\n\nNow simplify each term in turn\n\n- Take care with the signs, and remember that the power applies to the whole of $- 2 x$\n\n`\\left(-\\frac{1}{2}\\right)\\left(-2x\\right) = x`\n\n`\\frac{\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{2}\\right)}{2!}\\left(-2x\\right)^{2} = \\frac{3}{2}x^{2}`\n\n`\\frac{\\left(-\\frac{1}{2}\\right)\\left(-\\frac{3}{2}\\right)\\left(-\\frac{5}{2}\\right)}{3!}\\left(-2x\\right)^{3} = \\frac{5}{2}x^{3}`\n\nThis gives the expansion inside the bracket\n\n`3\\left(1 - 2x\\right)^{-\\frac{1}{2}} = 3\\left[1 + x + \\frac{3}{2}x^{2} + \\frac{5}{2}x^{3} + \\ldots\\right]`\n\nFinally multiply every term inside the bracket by 3\n\n$\\frac{3}{\\sqrt{1-2x}} = 3 + 3 x + \\frac{9}{2} x^{2} + \\frac{15}{2} x^{3}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Writes the expression in index form as `3\\left(1 - 2x\\right)^{-\\frac{1}{2}}`.\n> \n> **M1**: Uses the binomial series formula with $n = - \\frac{1}{2}$, substituting $- 2 x$ in place of $x$. The structure of at least the first three terms must be correct.\n> \n> **A1**: Correct unsimplified expansion, including the factor of 3.\n> \n> **A1**: Fully simplified answer $3 + 3 x + \\frac{9}{2} x^{2} + \\frac{15}{2} x^{3}$. Accept $4 . 5 x^{2}$ for $\\frac{9}{2} x^{2}$ and $7 . 5 x^{3}$ for $\\frac{15}{2} x^{3}$.\n\n> **[exam-tip]**\n> The binomial series formula is given on the formula sheet, so you do not need to memorise it, but you do need to substitute into it accurately.\n> \n> - The commonest slip is substituting $x$ where the whole of $- 2 x$ belongs, which loses both the sign and the powers of 2\n> \n> Raise the whole bracket to the power each time, so `\\left(-2x\\right)^{2} = 4x^{2}` and `\\left(-2x\\right)^{3} = -8x^{3}`.\n> \n> - Two negatives multiply to give a positive, so check the sign of every coefficient as you go",
+     "equations": [
+      {
+       "latex": "\\frac{3}{\\sqrt{1-2x}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>3</mn><msqrt><mn>1</mn><mo>-</mo><mn>2</mn><mi>x</mi></msqrt></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3 over denominator square root of 1 minus 2 x end root end fraction"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi>x</mi><mn>3</mn></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x cubed"
+      },
+      {
+       "latex": "n = - \\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "n = -\\frac{1}{2}"
+      },
+      {
+       "latex": "- 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "-2x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "-2x"
+      },
+      {
+       "latex": "\\frac{3}{\\sqrt{1-2x}} = 3 + 3 x + \\frac{9}{2} x^{2} + \\frac{15}{2} x^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><msqrt><mn>1</mn><mo>-</mo><mn>2</mn><mi>x</mi></msqrt></mfrac><mo>=</mo><mn>3</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>15</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup></math>",
+       "alt": "\\frac{3}{\\sqrt{1 - 2x}} = 3 + 3x + \\frac{9}{2}x^{2} + \\frac{15}{2}x^{3}"
+      },
+      {
+       "latex": "n = - \\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "n = -\\frac{1}{2}"
+      },
+      {
+       "latex": "- 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "-2x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "3 + 3 x + \\frac{9}{2} x^{2} + \\frac{15}{2} x^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>15</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup></math>",
+       "alt": "3 + 3x + \\frac{9}{2}x^{2} + \\frac{15}{2}x^{3}"
+      },
+      {
+       "latex": "4 . 5 x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>.</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "4.5x^{2}"
+      },
+      {
+       "latex": "\\frac{9}{2} x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "\\frac{9}{2}x^{2}"
+      },
+      {
+       "latex": "7 . 5 x^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>.</mo><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></math>",
+       "alt": "7.5x^{3}"
+      },
+      {
+       "latex": "\\frac{15}{2} x^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup></math>",
+       "alt": "\\frac{15}{2}x^{3}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "-2x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8YwVzGHpFcQpmPkC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "Paper 2",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_SgDCdWKMBvfBRt2R"
+     ],
+     "part_tier": null,
+     "problem_md": "Write down the range of values of $x$ for which this expansion is valid.",
+     "solution_md": "The binomial series formula is valid only when the quantity substituted in place of $x$ has modulus less than 1\n\nHere that quantity is $- 2 x$, not $x$ itself\n\n`\\left|-2x\\right| < 1`\n\nDivide both sides by 2\n\n`\\left|x\\right| < \\frac{1}{2}`\n\nWrite this as a range of values\n\n$- \\frac{1}{2} < x < \\frac{1}{2}$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: States $- \\frac{1}{2} < x < \\frac{1}{2}$. Accept the equivalent form `\\left|x\\right| < \\frac{1}{2}`.\n\n> **[exam-tip]**\n> The validity condition applies to whatever you substituted into the formula, not to $x$ on its own.\n> \n> - So start from `\\left|-2x\\right| < 1` and solve it, rather than writing down `\\left|x\\right| < 1`\n> \n> You will need this range again in part (e), to check that the value of $x$ you choose is allowed.",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "-2x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "- \\frac{1}{2} < x < \\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "-\\frac{1}{2} < x < \\frac{1}{2}"
+      },
+      {
+       "latex": "- \\frac{1}{2} < x < \\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "-\\frac{1}{2} < x < \\frac{1}{2}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_KN976JF7MxCQRyvM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "Paper 2",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_8dk5pGRpPPkvXWw8"
+     ],
+     "part_tier": null,
+     "problem_md": "Show that $\\frac{3}{\\sqrt{0.9}}=\\sqrt{10}$",
+     "solution_md": "Write $0 . 9$ as a fraction, so that the square root can be simplified\n\n$0 . 9 = \\frac{9}{10}$\n\nTake the square root of the numerator and of the denominator separately\n\n$\\sqrt{0.9} = \\frac{3}{\\sqrt{10}}$\n\nSubstitute this into the left-hand side\n\n- Dividing by a fraction is the same as multiplying by its reciprocal\n\n$\\frac{3}{\\sqrt{0.9}} = 3 \\times \\frac{\\sqrt{10}}{3}$\n\nThe threes cancel\n\n$\\frac{3}{\\sqrt{0.9}} = \\sqrt{10}  \\text{as required}$\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Shows a complete chain from $\\frac{3}{\\sqrt{0.9}}$ to $\\sqrt{10}$, for example by using $\\sqrt{0.9} = \\frac{3}{\\sqrt{10}}$. The printed result must be reached with no errors seen.\n\n> **[exam-tip]**\n> Turning a decimal into a fraction is often what makes a surd simplify.\n> \n> - Here $0 . 9 = \\frac{9}{10}$ has a perfect square on top, which is what produces the whole number 3",
+     "equations": [
+      {
+       "latex": "\\frac{3}{\\sqrt{0.9}}=\\sqrt{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>3</mn><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>10</mn></msqrt></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3 over denominator square root of 0.9 end root end fraction equals square root of 10"
+      },
+      {
+       "latex": "0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "0.9"
+      },
+      {
+       "latex": "0 . 9 = \\frac{9}{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>9</mn><mo>=</mo><mfrac><mn>9</mn><mn>10</mn></mfrac></math>",
+       "alt": "0.9 = \\frac{9}{10}"
+      },
+      {
+       "latex": "\\sqrt{0.9} = \\frac{3}{\\sqrt{10}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt><mo>=</mo><mfrac><mn>3</mn><msqrt><mn>10</mn></msqrt></mfrac></math>",
+       "alt": "\\sqrt{0.9} = \\frac{3}{\\sqrt{10}}"
+      },
+      {
+       "latex": "\\frac{3}{\\sqrt{0.9}} = 3 \\times \\frac{\\sqrt{10}}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt></mfrac><mo>=</mo><mn>3</mn><mo>&#xD7;</mo><mfrac><msqrt><mn>10</mn></msqrt><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{3}{\\sqrt{0.9}} = 3 \\times \\frac{\\sqrt{10}}{3}"
+      },
+      {
+       "latex": "\\frac{3}{\\sqrt{0.9}} = \\sqrt{10}  \\text{as required}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>10</mn></msqrt><mtext>&#xA0;</mtext><mtext>as required</mtext></math>",
+       "alt": "\\frac{3}{\\sqrt{0.9}} = \\sqrt{10}\\textrm{ }\\text{as required}"
+      },
+      {
+       "latex": "\\frac{3}{\\sqrt{0.9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt></mfrac></math>",
+       "alt": "\\frac{3}{\\sqrt{0.9}}"
+      },
+      {
+       "latex": "\\sqrt{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math>",
+       "alt": "\\sqrt{10}"
+      },
+      {
+       "latex": "\\sqrt{0.9} = \\frac{3}{\\sqrt{10}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt><mo>=</mo><mfrac><mn>3</mn><msqrt><mn>10</mn></msqrt></mfrac></math>",
+       "alt": "\\sqrt{0.9} = \\frac{3}{\\sqrt{10}}"
+      },
+      {
+       "latex": "0 . 9 = \\frac{9}{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>9</mn><mo>=</mo><mfrac><mn>9</mn><mn>10</mn></mfrac></math>",
+       "alt": "0.9 = \\frac{9}{10}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GTXGZcpNbc8NqcBC",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "Paper 2",
+      "question_number": 8,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VyHmY4GRHYgmZwVD",
+      "spcpt_8dk5pGRpPPkvXWw8"
+     ],
+     "part_tier": null,
+     "problem_md": "Express $\\frac{1}{\\sqrt{10}-3}$ in the form  $a\\sqrt{10}+b$ , where $a$ and $b$ are integers.",
+     "solution_md": "Rationalise the denominator by multiplying the numerator and the denominator by $\\sqrt{10} + 3$\n\n- This is the denominator with the sign of the surd term reversed\n\n$\\frac{1}{\\sqrt{10}-3} = \\frac{1}{\\sqrt{10}-3} \\times \\frac{\\sqrt{10}+3}{\\sqrt{10}+3}$\n\n**[M1]**\n\nMultiply out the denominator, which is a difference of two squares\n\n`\\left(\\sqrt{10} - 3\\right)\\left(\\sqrt{10} + 3\\right) = 10 - 9`\n\nThat denominator is equal to 1, so the fraction simplifies immediately\n\n$\\frac{1}{\\sqrt{10}-3} = \\sqrt{10} + 3$\n\n**[A1]**\n\nso $a = 1$ and $b = 3$\n\n> **[mark-scheme]**\n> **M1**: Multiplies the numerator and the denominator by $\\sqrt{10} + 3$.\n> \n> **A1**: Correct answer $\\sqrt{10} + 3$, that is $a = 1$ and $b = 3$.\n\n> **[exam-tip]**\n> To rationalise a denominator of the form $\\sqrt{n} - k$, multiply the top and the bottom by $\\sqrt{n} + k$.\n> \n> - The surd terms then cancel, because `\\left(\\sqrt{n} - k\\right)\\left(\\sqrt{n} + k\\right) = n - k^{2}`\n> \n> Here that denominator works out to exactly 1, which is why the answer comes out so cleanly.\n> \n> - If your denominator is not 1, divide every term of the numerator by it",
+     "equations": [
+      {
+       "latex": "\\frac{1}{\\sqrt{10}-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>3</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 over denominator square root of 10 space minus space 3 end fraction"
+      },
+      {
+       "latex": "a\\sqrt{10}+b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><msqrt><mn>10</mn></msqrt><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mi>b</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a square root of 10 space plus space b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>a</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "\\sqrt{10} + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></math>",
+       "alt": "\\sqrt{10} + 3"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{10}-3} = \\frac{1}{\\sqrt{10}-3} \\times \\frac{\\sqrt{10}+3}{\\sqrt{10}+3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>-</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>-</mo><mn>3</mn></mrow></mfrac><mo>&#xD7;</mo><mfrac><mrow><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></mrow><mrow><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1}{\\sqrt{10} - 3} = \\frac{1}{\\sqrt{10} - 3} \\times \\frac{\\sqrt{10} + 3}{\\sqrt{10} + 3}"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{10}-3} = \\sqrt{10} + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>-</mo><mn>3</mn></mrow></mfrac><mo>=</mo><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></math>",
+       "alt": "\\frac{1}{\\sqrt{10} - 3} = \\sqrt{10} + 3"
+      },
+      {
+       "latex": "a = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "a = 1"
+      },
+      {
+       "latex": "b = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "b = 3"
+      },
+      {
+       "latex": "\\sqrt{10} + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></math>",
+       "alt": "\\sqrt{10} + 3"
+      },
+      {
+       "latex": "\\sqrt{10} + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></math>",
+       "alt": "\\sqrt{10} + 3"
+      },
+      {
+       "latex": "a = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "a = 1"
+      },
+      {
+       "latex": "b = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "b = 3"
+      },
+      {
+       "latex": "\\sqrt{n} - k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt><mo>-</mo><mi>k</mi></math>",
+       "alt": "\\sqrt{n} - k"
+      },
+      {
+       "latex": "\\sqrt{n} + k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt><mo>+</mo><mi>k</mi></math>",
+       "alt": "\\sqrt{n} + k"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tFjHPxMDhNDwj8vs",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "Paper 2",
+      "question_number": 8,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_mpQWyYQ6pCmyzryn"
+     ],
+     "part_tier": null,
+     "problem_md": "Hence, using your expansion with a suitable value for  $x$, obtain an approximation to  $5$ decimal places of  $\\frac{1}{\\sqrt{10}-3}$",
+     "solution_md": "Parts (c) and (d) tell you what to aim for\n\n- Part (d) gives $\\frac{1}{\\sqrt{10}-3} = \\sqrt{10} + 3$, and part (c) gives $\\sqrt{10} = \\frac{3}{\\sqrt{0.9}}$\n\nSo choose the value of $x$ that makes $1 - 2 x$ equal to $0 . 9$\n\n$1 - 2 x = 0 . 9$\n\n$x = 0 . 05$\n\n**[B1]**\n\nCheck this value lies inside the range found in part (b), so that the expansion may be used\n\n- $0 . 05$ lies between $- \\frac{1}{2}$ and $\\frac{1}{2}$\n\nSubstitute $x = 0 . 05$ into the expansion from part (a), which now approximates $\\sqrt{10}$\n\n`\\sqrt{10} \\approx 3 + 3\\left(0.05\\right) + \\frac{9}{2}\\left(0.05\\right)^{2} + \\frac{15}{2}\\left(0.05\\right)^{3}`\n\n**[M1]**\n\n$\\sqrt{10} \\approx 3 . 1621875$\n\nAdd 3, using the result from part (d)\n\n**Final answer:** $\\frac{1}{\\sqrt{10}-3} \\approx 6 . 16219$** (5 d.p.)**\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Finds $x = 0 . 05$, from $1 - 2 x = 0 . 9$.\n> \n> **M1**: Substitutes your value of $x$ into your expansion from part (a). Allow follow-through from an incorrect expansion in part (a).\n> \n> **A1**: Correct answer $6 . 16219$. Accept answers which round to this value.\n\n> **[exam-tip]**\n> The word \"hence\" means you must use your earlier answers rather than start again.\n> \n> - Work backwards from what is asked for: part (d) turns it into $\\sqrt{10} + 3$, and part (c) turns $\\sqrt{10}$ into something your expansion can produce\n> \n> Always check that your chosen value of $x$ lies inside the valid range before you substitute.\n> \n> - If it does not, the approximation is not reliable, and it usually means something has gone wrong earlier",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn>5</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "5"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{10}-3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>3</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 1 over denominator square root of 10 space minus space 3 end fraction"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{10}-3} = \\sqrt{10} + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>-</mo><mn>3</mn></mrow></mfrac><mo>=</mo><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></math>",
+       "alt": "\\frac{1}{\\sqrt{10} - 3} = \\sqrt{10} + 3"
+      },
+      {
+       "latex": "\\sqrt{10} = \\frac{3}{\\sqrt{0.9}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>=</mo><mfrac><mn>3</mn><msqrt><mn>0</mn><mo>.</mo><mn>9</mn></msqrt></mfrac></math>",
+       "alt": "\\sqrt{10} = \\frac{3}{\\sqrt{0.9}}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "1 - 2 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>2</mn><mi>x</mi></math>",
+       "alt": "1 - 2x"
+      },
+      {
+       "latex": "0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "0.9"
+      },
+      {
+       "latex": "1 - 2 x = 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "1 - 2x = 0.9"
+      },
+      {
+       "latex": "x = 0 . 05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>05</mn></math>",
+       "alt": "x = 0.05"
+      },
+      {
+       "latex": "0 . 05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>05</mn></math>",
+       "alt": "0.05"
+      },
+      {
+       "latex": "- \\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "-\\frac{1}{2}"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2}"
+      },
+      {
+       "latex": "x = 0 . 05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>05</mn></math>",
+       "alt": "x = 0.05"
+      },
+      {
+       "latex": "\\sqrt{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math>",
+       "alt": "\\sqrt{10}"
+      },
+      {
+       "latex": "\\sqrt{10} \\approx 3 . 1621875",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>&#x2248;</mo><mn>3</mn><mo>.</mo><mn>1621875</mn></math>",
+       "alt": "\\sqrt{10} \\approx 3.1621875"
+      },
+      {
+       "latex": "\\frac{1}{\\sqrt{10}-3} \\approx 6 . 16219",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>10</mn></msqrt><mo>-</mo><mn>3</mn></mrow></mfrac><mo>&#x2248;</mo><mn>6</mn><mo>.</mo><mn>16219</mn></math>",
+       "alt": "\\frac{1}{\\sqrt{10} - 3} \\approx 6.16219"
+      },
+      {
+       "latex": "x = 0 . 05",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>05</mn></math>",
+       "alt": "x = 0.05"
+      },
+      {
+       "latex": "1 - 2 x = 0 . 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>-</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>9</mn></math>",
+       "alt": "1 - 2x = 0.9"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "6 . 16219",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>.</mo><mn>16219</mn></math>",
+       "alt": "6.16219"
+      },
+      {
+       "latex": "\\sqrt{10} + 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn></math>",
+       "alt": "\\sqrt{10} + 3"
+      },
+      {
+       "latex": "\\sqrt{10}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math>",
+       "alt": "\\sqrt{10}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kgCwRkfsDGk7qcyS",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_4Y737VJbsYtPSkXK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 2",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VyHmY4GRHYgmZwVD",
+      "spcpt_8dk5pGRpPPkvXWw8"
+     ],
+     "part_tier": null,
+     "problem_md": "Given that $\\frac{a+2\\sqrt{5}}{3-\\sqrt{5}}=\\frac{11+b\\sqrt{5}}{2}$  where $a$ is an integer and $b$ is prime,\n\nfind the value of $a$  and the value of  $b$\nShow your working clearly.",
+     "solution_md": "Rationalise the denominator on the left-hand side by multiplying the numerator and the denominator by $3 + \\sqrt{5}$\n\n- This is the denominator with the sign of the surd term reversed\n\n$\\frac{a+2\\sqrt{5}}{3-\\sqrt{5}} = \\frac{a+2\\sqrt{5}}{3-\\sqrt{5}} \\times \\frac{3+\\sqrt{5}}{3+\\sqrt{5}}$\n\nExpand the numerator, and use the difference of two squares on the denominator\n\n$\\frac{a+2\\sqrt{5}}{3-\\sqrt{5}} = \\frac{3a+a\\sqrt{5}+6\\sqrt{5}+10}{9-5}$\n\n**[M1]**\n\nCollect the rational terms and the surd terms separately in the numerator\n\n`\\frac{a + 2 \\sqrt{5}}{3 - \\sqrt{5}} = \\frac{\\left(3 a + 10\\right) + \\left(a + 6\\right) \\sqrt{5}}{4}`\n\nBoth sides are now a rational part plus a multiple of $\\sqrt{5}$, so the two sides can be compared\n\n- Since $a$ and $b$ are whole numbers, the rational parts must match each other and the multiples of $\\sqrt{5}$ must match each other\n\n$\\frac{3a+10}{4} = \\frac{11}{2}$\n\n$\\frac{a+6}{4} = \\frac{b}{2}$\n\n**[M1]**\n\nSolve the first equation to find $a$\n\n$3 a + 10 = 22$\n\n$a = 4$\n\n**[M1 A1]**\n\nSubstitute this value into the second equation to find $b$\n\n$\\frac{4+6}{4} = \\frac{b}{2}$\n\n$b = 5$\n\nCheck this against the condition given in the question\n\n- 5 is a prime number, as required\n\n$a = 4 , b = 5$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Multiplies the numerator and the denominator of the left-hand side by $3 + \\sqrt{5}$, reaching $\\frac{3a+a\\sqrt{5}+6\\sqrt{5}+10}{9-5}$. Allow one error in the numerator, but the denominator must be correct.\n> \n> **M1**: Correctly equates their rational parts, and their multiples of $\\sqrt{5}$, with those of $\\frac{11+b\\sqrt{5}}{2}$. There must be at least one equation in $a$ and $b$, although this mark does not depend on the first method mark being earned.\n> \n> **M1**: A complete and correct attempt to solve one of their equations, to find a value for $a$ or a value for $b$. Again there must be at least one equation in $a$ and $b$, although this mark does not depend on the earlier method marks.\n> \n> **A1**: Either $a = 4$ or $b = 5$.\n> \n> **A1**: Both $a = 4$ and $b = 5$.\n> \n> Multiplying instead by $- 3 - \\sqrt{5}$ makes every term negative but is otherwise identical, and is marked to exactly the same principles.\n> \n> Both approved methods earn full marks. If instead you clear the denominators first, the last four marks above are unchanged and the first method mark is awarded as follows.\n> \n> **M1**: Correctly removes the denominators from the given equation and multiplies out, reaching $2 a + 4 \\sqrt{5} = 33 + 3 b \\sqrt{5} - 11 \\sqrt{5} - 5 b$. Allow one error.\n\n> **[exam-tip]**\n> There is a quicker alternative that earns exactly the same marks, so use whichever you find safer.\n> \n> - Cross-multiply first to get `2 \\left(a + 2 \\sqrt{5}\\right) = \\left(3 - \\sqrt{5}\\right) \\left(11 + b \\sqrt{5}\\right)`, expand both sides, then compare parts as before\n> \n> Comparing parts works because $\\sqrt{5}$ is irrational, so a rational number can never equal a multiple of $\\sqrt{5}$ unless both are zero.\n> \n> - That is what lets you split a single equation into two separate ones\n> \n> The fact that $b$ is prime is a check on your answer rather than something you need in order to find it.",
+     "equations": [
+      {
+       "latex": "\\frac{a+2\\sqrt{5}}{3-\\sqrt{5}}=\\frac{11+b\\sqrt{5}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>3</mn><mo>-</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>11</mn><mo>+</mo><mi>b</mi><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator a plus 2 square root of 5 over denominator 3 minus square root of 5 end fraction equals fraction numerator 11 plus b square root of 5 over denominator 2 end fraction"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "3 + \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "3 + \\sqrt{5}"
+      },
+      {
+       "latex": "\\frac{a+2\\sqrt{5}}{3-\\sqrt{5}} = \\frac{a+2\\sqrt{5}}{3-\\sqrt{5}} \\times \\frac{3+\\sqrt{5}}{3+\\sqrt{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>3</mn><mo>-</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>3</mn><mo>-</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>&#xD7;</mo><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>3</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac></math>",
+       "alt": "\\frac{a + 2 \\sqrt{5}}{3 - \\sqrt{5}} = \\frac{a + 2 \\sqrt{5}}{3 - \\sqrt{5}} \\times \\frac{3 + \\sqrt{5}}{3 + \\sqrt{5}}"
+      },
+      {
+       "latex": "\\frac{a+2\\sqrt{5}}{3-\\sqrt{5}} = \\frac{3a+a\\sqrt{5}+6\\sqrt{5}+10}{9-5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>3</mn><mo>-</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>10</mn></mrow><mrow><mn>9</mn><mo>-</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{a + 2 \\sqrt{5}}{3 - \\sqrt{5}} = \\frac{3 a + a \\sqrt{5} + 6 \\sqrt{5} + 10}{9 - 5}"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "\\frac{3a+10}{4} = \\frac{11}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi><mo>+</mo><mn>10</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{3 a + 10}{4} = \\frac{11}{2}"
+      },
+      {
+       "latex": "\\frac{a+6}{4} = \\frac{b}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>6</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{a + 6}{4} = \\frac{b}{2}"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "3 a + 10 = 22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mo>+</mo><mn>10</mn><mo>=</mo><mn>22</mn></math>",
+       "alt": "3 a + 10 = 22"
+      },
+      {
+       "latex": "a = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "a = 4"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "\\frac{4+6}{4} = \\frac{b}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>+</mo><mn>6</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{4 + 6}{4} = \\frac{b}{2}"
+      },
+      {
+       "latex": "b = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "b = 5"
+      },
+      {
+       "latex": "a = 4 , b = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "a = 4 , b = 5"
+      },
+      {
+       "latex": "3 + \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "3 + \\sqrt{5}"
+      },
+      {
+       "latex": "\\frac{3a+a\\sqrt{5}+6\\sqrt{5}+10}{9-5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>10</mn></mrow><mrow><mn>9</mn><mo>-</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3 a + a \\sqrt{5} + 6 \\sqrt{5} + 10}{9 - 5}"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "\\frac{11+b\\sqrt{5}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mo>+</mo><mi>b</mi><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{11 + b \\sqrt{5}}{2}"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "a = 4"
+      },
+      {
+       "latex": "b = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "b = 5"
+      },
+      {
+       "latex": "a = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "a = 4"
+      },
+      {
+       "latex": "b = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "b = 5"
+      },
+      {
+       "latex": "- 3 - \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>3</mn><mo>-</mo><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "- 3 - \\sqrt{5}"
+      },
+      {
+       "latex": "2 a + 4 \\sqrt{5} = 33 + 3 b \\sqrt{5} - 11 \\sqrt{5} - 5 b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>33</mn><mo>+</mo><mn>3</mn><mi>b</mi><msqrt><mn>5</mn></msqrt><mo>-</mo><mn>11</mn><msqrt><mn>5</mn></msqrt><mo>-</mo><mn>5</mn><mi>b</mi></math>",
+       "alt": "2 a + 4 \\sqrt{5} = 33 + 3 b \\sqrt{5} - 11 \\sqrt{5} - 5 b"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_jqbMVhjbk6dp9zsK",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hMXXYbXS9fB9Msqr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 1",
+      "question_number": 1,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_bfBq8bY3CcYDvMy7",
+      "spcpt_8dk5pGRpPPkvXWw8"
+     ],
+     "part_tier": null,
+     "problem_md": "![Right-angled triangle ABC; AB is 2+4√5 cm, BC is a+b√5 cm. The diagram notes it is not accurately drawn.](assets/001-right-angled-triangle-abc-ab-is-2-4-5-cm-bc-is-a.png)\n\nFigure 1 shows the triangle $ABC$\n\n`angle A B C equals 90 degree      A B equals left parenthesis 2 plus 4 square root of 5 right parenthesis text  cm end text      B C equals left parenthesis a plus b square root of 5 right parenthesis text  cm  end text` where $a$ and $b$ are integers.\n\nThe area of triangle `A B C equals open parentheses 34 plus 11 square root of 5 close parentheses space cm squared`\n\nWithout using a calculator, find the value of  $a$ and the value of  $b$",
+     "solution_md": "The right angle is at $B$, so $A B$ and $B C$ are the base and the height of the triangle\n\nWrite down the area using half the base times the height\n\n`34 + 11 \\sqrt{5} = \\frac{1}{2} \\left(2 + 4 \\sqrt{5}\\right) \\left(a + b \\sqrt{5}\\right)`\n\n**[M1]**\n\nMultiply both sides by 2 to clear the fraction\n\n`68 + 22 \\sqrt{5} = \\left(2 + 4 \\sqrt{5}\\right) \\left(a + b \\sqrt{5}\\right)`\n\nExpand the brackets on the right-hand side\n\n- Use `\\left(\\sqrt{5}\\right)^{2} = 5` to simplify the last term\n\n$68 + 22 \\sqrt{5} = 2 a + 2 b \\sqrt{5} + 4 a \\sqrt{5} + 20 b$\n\n**[M1]**\n\nCollect the rational terms and the surd terms separately\n\n`68 + 22 \\sqrt{5} = \\left(2 a + 20 b\\right) + \\left(4 a + 2 b\\right) \\sqrt{5}`\n\nSince $a$ and $b$ are integers, the rational parts must match each other and the multiples of $\\sqrt{5}$ must match each other\n\n$2 a + 20 b = 68$\n\n$4 a + 2 b = 22$\n\nDivide each equation by 2 to make the numbers easier to work with\n\n$a + 10 b = 34$\n\n$2 a + b = 11$\n\nSolve the pair of simultaneous equations, here by making $b$ the subject of the second equation\n\n$b = 11 - 2 a$\n\nSubstitute that into the first equation\n\n`a + 10 \\left(11 - 2 a\\right) = 34`\n\n$a + 110 - 20 a = 34$\n\n$- 19 a = - 76$\n\n$a = 4$\n\n**[M1]**\n\nSubstitute this value back to find $b$\n\n$b = 11 - 2 \\times 4$\n\nThe two values can now be stated together\n\n$a=4,b=3$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: A fully correct statement for the area of the triangle. This may be written explicitly or implied by later working. Allow $a + b \\sqrt{5}$ to be written as $B C$, or denoted by another letter.\n> \n> **M1**: Multiplies out the brackets correctly. If the factor of $\\frac{1}{2}$ is missing from the area statement, this mark may still be awarded for $34 + 11 \\sqrt{5} = 2 a + 2 b \\sqrt{5} + 4 a \\sqrt{5} + 20 b$.\n> \n> **M1**: Correctly equates the rational parts, and the multiples of $\\sqrt{5}$, and then uses any valid complete method to solve the resulting pair of simultaneous equations. Allow one error. A missing $\\frac{1}{2}$ does not count as that one error.\n> \n> **A1**: $a = 4$ and $b = 3$. Accept the answer written as $4 + 3 \\sqrt{5}$.\n> \n> Both approved methods earn full marks. If instead you rearrange first and then rationalise, the first method mark and the accuracy mark above are unchanged, and the two middle method marks are awarded as follows.\n> \n> **M1**: Correctly rearranges to make $a + b \\sqrt{5}$ the subject, reaching `a + b \\sqrt{5} = \\frac{2 \\left(34 + 11 \\sqrt{5}\\right)}{2 + 4 \\sqrt{5}}` or the equivalent form $a + b \\sqrt{5} = \\frac{34+11\\sqrt{5}}{1+2\\sqrt{5}}$. This mark is also available if the $\\frac{1}{2}$ was missing from the area statement.\n> \n> **M1**: Multiplies the numerator and the denominator by that denominator with the sign of its surd term reversed, for example $\\frac{34+11\\sqrt{5}}{1+2\\sqrt{5}} \\times \\frac{1-2\\sqrt{5}}{1-2\\sqrt{5}}$. Allow one error in multiplying out, and allow the 2 to remain factorised.\n> \n> The question tells you not to use a calculator, so the method must be shown for any of these marks.\n\n> **[exam-tip]**\n> Comparing parts works because $\\sqrt{5}$ is irrational, so a rational number can never equal a multiple of $\\sqrt{5}$ unless both are zero.\n> \n> - That is what lets you split one equation into two, which is the key step in the whole question\n> \n> There is an alternative route: rearrange first to make $a + b \\sqrt{5}$ the subject, then rationalise the denominator.\n> \n> - It earns exactly the same marks, but the numbers become much larger, so expanding and comparing parts is usually the safer choice here\n> \n> Check your answer at the end by multiplying `\\left(2 + 4 \\sqrt{5}\\right)` and `\\left(4 + 3 \\sqrt{5}\\right)` and halving.",
+     "equations": [
+      {
+       "latex": "ABC",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mi>B</mi><mi>C</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "A B C"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>b</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>",
+       "alt": "B"
+      },
+      {
+       "latex": "A B",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math>",
+       "alt": "A B"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "68 + 22 \\sqrt{5} = 2 a + 2 b \\sqrt{5} + 4 a \\sqrt{5} + 20 b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>68</mn><mo>+</mo><mn>22</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>4</mn><mi>a</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>20</mn><mi>b</mi></math>",
+       "alt": "68 + 22 \\sqrt{5} = 2 a + 2 b \\sqrt{5} + 4 a \\sqrt{5} + 20 b"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "2 a + 20 b = 68",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>20</mn><mi>b</mi><mo>=</mo><mn>68</mn></math>",
+       "alt": "2 a + 20 b = 68"
+      },
+      {
+       "latex": "4 a + 2 b = 22",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>22</mn></math>",
+       "alt": "4 a + 2 b = 22"
+      },
+      {
+       "latex": "a + 10 b = 34",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>10</mn><mi>b</mi><mo>=</mo><mn>34</mn></math>",
+       "alt": "a + 10 b = 34"
+      },
+      {
+       "latex": "2 a + b = 11",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn></math>",
+       "alt": "2 a + b = 11"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b = 11 - 2 a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>11</mn><mo>-</mo><mn>2</mn><mi>a</mi></math>",
+       "alt": "b = 11 - 2 a"
+      },
+      {
+       "latex": "a + 110 - 20 a = 34",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>110</mn><mo>-</mo><mn>20</mn><mi>a</mi><mo>=</mo><mn>34</mn></math>",
+       "alt": "a + 110 - 20 a = 34"
+      },
+      {
+       "latex": "- 19 a = - 76",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>19</mn><mi>a</mi><mo>=</mo><mo>-</mo><mn>76</mn></math>",
+       "alt": "- 19 a = - 76"
+      },
+      {
+       "latex": "a = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "a = 4"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "b = 11 - 2 \\times 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>11</mn><mo>-</mo><mn>2</mn><mo>&#xD7;</mo><mn>4</mn></math>",
+       "alt": "b = 11 - 2 \\times 4"
+      },
+      {
+       "latex": "a=4,b=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>4</mn><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mi>b</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals 4 comma space space b equals 3"
+      },
+      {
+       "latex": "a + b \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "a + b \\sqrt{5}"
+      },
+      {
+       "latex": "B C",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>",
+       "alt": "B C"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2}"
+      },
+      {
+       "latex": "34 + 11 \\sqrt{5} = 2 a + 2 b \\sqrt{5} + 4 a \\sqrt{5} + 20 b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>34</mn><mo>+</mo><mn>11</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>4</mn><mi>a</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>20</mn><mi>b</mi></math>",
+       "alt": "34 + 11 \\sqrt{5} = 2 a + 2 b \\sqrt{5} + 4 a \\sqrt{5} + 20 b"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2}"
+      },
+      {
+       "latex": "a = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "a = 4"
+      },
+      {
+       "latex": "b = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "b = 3"
+      },
+      {
+       "latex": "4 + 3 \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>3</mn><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "4 + 3 \\sqrt{5}"
+      },
+      {
+       "latex": "a + b \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "a + b \\sqrt{5}"
+      },
+      {
+       "latex": "a + b \\sqrt{5} = \\frac{34+11\\sqrt{5}}{1+2\\sqrt{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>5</mn></msqrt><mo>=</mo><mfrac><mrow><mn>34</mn><mo>+</mo><mn>11</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>1</mn><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac></math>",
+       "alt": "a + b \\sqrt{5} = \\frac{34 + 11 \\sqrt{5}}{1 + 2 \\sqrt{5}}"
+      },
+      {
+       "latex": "\\frac{1}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{1}{2}"
+      },
+      {
+       "latex": "\\frac{34+11\\sqrt{5}}{1+2\\sqrt{5}} \\times \\frac{1-2\\sqrt{5}}{1-2\\sqrt{5}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>34</mn><mo>+</mo><mn>11</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>1</mn><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>&#xD7;</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>1</mn><mo>-</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac></math>",
+       "alt": "\\frac{34 + 11 \\sqrt{5}}{1 + 2 \\sqrt{5}} \\times \\frac{1 - 2 \\sqrt{5}}{1 - 2 \\sqrt{5}}"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "\\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "\\sqrt{5}"
+      },
+      {
+       "latex": "a + b \\sqrt{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>5</mn></msqrt></math>",
+       "alt": "a + b \\sqrt{5}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2336 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:02:28Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/topic-questions/calculus/calculus-for-kinematics/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Further Maths",
+  "exam_code": "4PM1",
+  "sme_course_id": "crs_27tQwKkFD9Ffnv2W",
+  "syllabus_version": "2017",
+  "sme_alias_path": "19"
+ },
+ "section": {
+  "slug": "calculus",
+  "name": "Calculus"
+ },
+ "topic": {
+  "id": "top_4hdVhJxtGS9XhSsT",
+  "slug": "calculus-for-kinematics",
+  "name": "Calculus for Kinematics",
+  "order": 4
+ },
+ "subtopics": [
+  {
+   "slug": "kinematics-toolkit",
+   "name": "Kinematics Toolkit",
+   "revision_note_id": "rn_spcrsmzmsyWkXv46"
+  },
+  {
+   "slug": "calculus-for-kinematics",
+   "name": "Calculus for Kinematics",
+   "revision_note_id": "rn_scDmfMTdqPpjQsW3"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_VQwk2z5VDcP9Hcnr",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 5
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_Qf3mqHRr8TYvn6F8",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_y2ScYhcrtK9BWMw2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ is moving along the $x$-axis.\n\nAt time $t$ seconds `space left parenthesis t space greater-than or slanted equal to space 0 right parenthesis` the velocity, $v$ m/s, of  $P$is given by $v=4t^{2}--19t+12$\n\nFind the values of $t$for which $P$ is instantaneously at rest.",
+     "solution_md": "Instantaneously at rest means the velocity is zero at that instant, so set $v = 0$\n\n$4 t^{2} - 19 t + 12 = 0$\n\nTwo numbers multiplying to $4 \\times 12 = 48$ and adding to $- 19$ are $- 3$ and $- 16$, so split the middle term\n\n$4 t^{2} - 16 t - 3 t + 12 = 0$\n\n`4 t \\left(t - 4\\right) - 3 \\left(t - 4\\right) = 0`\n\n`\\left(4 t - 3\\right)\\left(t - 4\\right) = 0`\n\n**[M1]**\n\nBoth roots are positive, so both are allowed by the condition $t \\geq 0$\n\n$t = \\frac{3}{4}  \\text{or}  4$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sets $v = 0$ and makes an acceptable attempt to solve the resulting quadratic.\n> \n> **A1**: Both values, $t = \\frac{3}{4}$ and $t = 4$.\n> \n> The quadratic formula and completing the square are equally acceptable in place of factorising, and earn the same method mark. Accept $0 . 75$ for the first value.\n> \n> Both values are needed for the accuracy mark, and there are no marks for stopping at one of them. This part has no marking notes in the official scheme, so its two marks are printed on a single row and the descriptors above follow that row in order.\n\n> **[exam-tip]**\n> \"Instantaneously at rest\" is a phrase to translate straight into an equation.\n> \n> - It means the velocity is zero at that moment, so write $v = 0$ and solve\n> - It does not mean the acceleration is zero, which is a different question entirely and is what part (c) asks\n> \n> Check both roots against the domain before you write them down.\n> \n> - Here $t \\geq 0$, and $\\frac{3}{4}$ and $4$ are both positive, so neither is rejected\n> - A negative root would have to be discarded, and saying so is what shows you checked",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P space"
+      },
+      {
+       "latex": "v=4t^{2}--19t+12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><msup><mi>t</mi><mn>2</mn></msup><mo>&#160;</mo><mo>&#8211;</mo><mo>&#160;</mo><mn>19</mn><mi>t</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space 4 t squared space – space 19 t space plus space 12"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t space"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "4 t^{2} - 19 t + 12 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>19</mn><mi>t</mi><mo>+</mo><mn>12</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "4 t^{2} - 19 t + 12 = 0"
+      },
+      {
+       "latex": "4 \\times 12 = 48",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>&#xD7;</mo><mn>12</mn><mo>=</mo><mn>48</mn></math>",
+       "alt": "4 \\times 12 = 48"
+      },
+      {
+       "latex": "- 19",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>19</mn></math>",
+       "alt": "- 19"
+      },
+      {
+       "latex": "- 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>3</mn></math>",
+       "alt": "- 3"
+      },
+      {
+       "latex": "- 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>16</mn></math>",
+       "alt": "- 16"
+      },
+      {
+       "latex": "4 t^{2} - 16 t - 3 t + 12 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>-</mo><mn>3</mn><mi>t</mi><mo>+</mo><mn>12</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "4 t^{2} - 16 t - 3 t + 12 = 0"
+      },
+      {
+       "latex": "t \\geq 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&#x2265;</mo><mn>0</mn></math>",
+       "alt": "t \\geq 0"
+      },
+      {
+       "latex": "t = \\frac{3}{4}  \\text{or}  4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mtext>&#xA0;</mtext><mtext>or</mtext><mtext>&#xA0;</mtext><mn>4</mn></math>",
+       "alt": "t = \\frac{3}{4} \\textrm{ } \\text{or} \\textrm{ } 4"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "t = \\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "t = \\frac{3}{4}"
+      },
+      {
+       "latex": "t = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "t = 4"
+      },
+      {
+       "latex": "0 . 75",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>75</mn></math>",
+       "alt": "0 . 75"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "t \\geq 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&#x2265;</mo><mn>0</mn></math>",
+       "alt": "t \\geq 0"
+      },
+      {
+       "latex": "\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{3}{4}"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+       "alt": "4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QcBfvtvS6n34WxhS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zXdKYDbwn48sk8Fm",
+      "spcpt_Q2yPvWmbP3hFp5kM",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "When $t=0$, the displacement of $P$ from the origin is −4 m.\n\nFind the displacement of $P$ from the origin when $t=6$",
+     "solution_md": "Displacement is the integral of velocity with respect to time\n\n`s = \\int \\left(4 t^{2} - 19 t + 12\\right) \\textrm{ } \\text{d} t`\n\nRaise each power of $t$ by one and divide by the new power, remembering the constant\n\n$s = \\frac{4t^{3}}{3} - \\frac{19t^{2}}{2} + 12 t + c$\n\n**[M1]**\n\nThe constant is fixed by the displacement given at $t = 0$\n\nSubstituting $t = 0$ makes every term in $t$ vanish, so $s = c$ at that instant\n\n$- 4 = c$\n\n**[M1]**\n\n$s = \\frac{4t^{3}}{3} - \\frac{19t^{2}}{2} + 12 t - 4$\n\n**[A1]**\n\nNow substitute $t = 6$\n\n$s = \\frac{4\\times6^{3}}{3} - \\frac{19\\times6^{2}}{2} + 12 \\times 6 - 4$\n\n$s = 288 - 342 + 72 - 4$\n\n$s = 14  \\text{m}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Integrates $v$ with respect to $t$, raising each power of $t$ by one. The constant of integration need not be present for this mark.\n> \n> **M1**: Uses $t = 0$ and $s = - 4$ to find the constant of integration.\n> \n> **A1**: A fully correct expression for the displacement, $s = \\frac{4t^{3}}{3} - \\frac{19t^{2}}{2} + 12 t - 4$.\n> \n> **A1**: $s = 14$.\n> \n> The unit is not required for the final mark. The displacement is asked for rather than the distance, so a signed answer is what is wanted, and here it happens to be positive.\n> \n> This part has no marking notes in the official scheme, so its marks are printed a row at a time and the descriptors above follow those rows in order.\n\n> **[exam-tip]**\n> Every kinematics integration needs its constant, and the question always gives you what fixes it.\n> \n> - Here that is the displacement of $- 4$ m at $t = 0$\n> - Substituting $t = 0$ kills every other term, so the constant is simply the displacement at that instant\n> \n> Displacement and distance are different quantities and the command word tells you which is wanted.\n> \n> - Displacement is measured from the origin and carries a sign\n> - Distance travelled would mean checking whether the particle turns round in the interval, which is a longer calculation\n> \n> The particle really does turn round twice between $t = 0$ and $t = 6$, which is why the answer is smaller than it looks.\n> \n> - The velocity is zero at $t = \\frac{3}{4}$ and again at $t = 4$, so the motion reverses at each\n> - Integrating straight through handles that automatically for a displacement, which is exactly why no interval splitting is needed here",
+     "equations": [
+      {
+       "latex": "t=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t space equals space 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t=6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t space equals space 6"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "s = \\frac{4t^{3}}{3} - \\frac{19t^{2}}{2} + 12 t + c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>-</mo><mfrac><mrow><mn>19</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>12</mn><mi>t</mi><mo>+</mo><mi>c</mi></math>",
+       "alt": "s = \\frac{4 t^{3}}{3} - \\frac{19 t^{2}}{2} + 12 t + c"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "s = c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>c</mi></math>",
+       "alt": "s = c"
+      },
+      {
+       "latex": "- 4 = c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn><mo>=</mo><mi>c</mi></math>",
+       "alt": "- 4 = c"
+      },
+      {
+       "latex": "s = \\frac{4t^{3}}{3} - \\frac{19t^{2}}{2} + 12 t - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>-</mo><mfrac><mrow><mn>19</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>12</mn><mi>t</mi><mo>-</mo><mn>4</mn></math>",
+       "alt": "s = \\frac{4 t^{3}}{3} - \\frac{19 t^{2}}{2} + 12 t - 4"
+      },
+      {
+       "latex": "t = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "t = 6"
+      },
+      {
+       "latex": "s = \\frac{4\\times6^{3}}{3} - \\frac{19\\times6^{2}}{2} + 12 \\times 6 - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>&#xD7;</mo><msup><mn>6</mn><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>-</mo><mfrac><mrow><mn>19</mn><mo>&#xD7;</mo><msup><mn>6</mn><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>12</mn><mo>&#xD7;</mo><mn>6</mn><mo>-</mo><mn>4</mn></math>",
+       "alt": "s = \\frac{4 \\times 6^{3}}{3} - \\frac{19 \\times 6^{2}}{2} + 12 \\times 6 - 4"
+      },
+      {
+       "latex": "s = 288 - 342 + 72 - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>288</mn><mo>-</mo><mn>342</mn><mo>+</mo><mn>72</mn><mo>-</mo><mn>4</mn></math>",
+       "alt": "s = 288 - 342 + 72 - 4"
+      },
+      {
+       "latex": "s = 14  \\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>14</mn><mtext>&#xA0;</mtext><mtext>m</mtext></math>",
+       "alt": "s = 14 \\textrm{ } \\text{m}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "s = - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mo>-</mo><mn>4</mn></math>",
+       "alt": "s = - 4"
+      },
+      {
+       "latex": "s = \\frac{4t^{3}}{3} - \\frac{19t^{2}}{2} + 12 t - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>-</mo><mfrac><mrow><mn>19</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>12</mn><mi>t</mi><mo>-</mo><mn>4</mn></math>",
+       "alt": "s = \\frac{4 t^{3}}{3} - \\frac{19 t^{2}}{2} + 12 t - 4"
+      },
+      {
+       "latex": "s = 14",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>14</mn></math>",
+       "alt": "s = 14"
+      },
+      {
+       "latex": "- 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>4</mn></math>",
+       "alt": "- 4"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "t = 6"
+      },
+      {
+       "latex": "t = \\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "t = \\frac{3}{4}"
+      },
+      {
+       "latex": "t = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "t = 4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_h2JcM6nDwyXyC9ZH",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_VSCsG2N5Dv92vpKZ",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "At time $t$ seconds the acceleration of $P$ is  $a$ m/s<sup>2</sup> .\n\nFind the value of $t$ when $a=0$",
+     "solution_md": "Acceleration is the rate of change of velocity, so differentiate $v$ with respect to $t$\n\n$a = \\frac{\\text{d}v}{\\text{d}t}$\n\n$a = 8 t - 19$\n\n**[M1]**\n\nNow set that equal to zero\n\n$8 t - 19 = 0$\n\n**[M1]**\n\n$t = \\frac{19}{8}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Differentiates $v$ with respect to $t$, with no power of $t$ increasing.\n> \n> **M1**: Sets your expression for $a$ equal to zero and solves for $t$.\n> \n> **A1**: $t = \\frac{19}{8}$.\n> \n> Accept $2 . 375$ or any exact equivalent. Integrating instead of differentiating earns nothing here.\n\n> **[exam-tip]**\n> Differentiating takes you towards acceleration and integrating takes you towards displacement.\n> \n> - Velocity sits between them, so from $v$ you differentiate for $a$ and integrate for $s$\n> - Getting the direction wrong is the single commonest error in this topic, and it costs every mark in the part\n> \n> Zero acceleration is not the same as zero velocity.\n> \n> - Part (a) found the times when the particle is at rest, $\\frac{3}{4}$ and $4$\n> - This part finds when it stops speeding up or slowing down, and $\\frac{19}{8}$ sits neatly between those two, which is the turning point of the velocity",
+     "equations": [
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space t"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space t"
+      },
+      {
+       "latex": "a=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space equals space 0"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "a = \\frac{\\text{d}v}{\\text{d}t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>t</mi></mrow></mfrac></math>",
+       "alt": "a = \\frac{\\text{d} v}{\\text{d} t}"
+      },
+      {
+       "latex": "a = 8 t - 19",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn><mi>t</mi><mo>-</mo><mn>19</mn></math>",
+       "alt": "a = 8 t - 19"
+      },
+      {
+       "latex": "8 t - 19 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>t</mi><mo>-</mo><mn>19</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "8 t - 19 = 0"
+      },
+      {
+       "latex": "t = \\frac{19}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>19</mn><mn>8</mn></mfrac></math>",
+       "alt": "t = \\frac{19}{8}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = \\frac{19}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>19</mn><mn>8</mn></mfrac></math>",
+       "alt": "t = \\frac{19}{8}"
+      },
+      {
+       "latex": "2 . 375",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>375</mn></math>",
+       "alt": "2 . 375"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>",
+       "alt": "s"
+      },
+      {
+       "latex": "\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{3}{4}"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+       "alt": "4"
+      },
+      {
+       "latex": "\\frac{19}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>8</mn></mfrac></math>",
+       "alt": "\\frac{19}{8}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cMvmx6TdbfhC7Z8X",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_Sgzd3Jy5Cz4Py3kJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 1",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_zXdKYDbwn48sk8Fm",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ is moving along the $x$-axis.\n\nAt time $t$ seconds `open parentheses t space greater-than or slanted equal to space 0 close parentheses` the acceleration, $a$ m/s<sup>2</sup> , of $P$is given by  $a=3t-4$\n\nWhen$t=0$, $P$ is at rest.\n\nFind the velocity of  $P$ when $t=4$",
+     "solution_md": "Velocity is the integral of acceleration with respect to time\n\n`v = \\int \\left(3 t - 4\\right) \\textrm{ } \\text{d} t`\n\n$v = \\frac{3t^{2}}{2} - 4 t + c$\n\n**[M1]**\n\n$P$ is at rest when $t = 0$, so $v = 0$ there, and substituting $t = 0$ leaves $v = c$\n\n$c = 0$\n\n$v = \\frac{3t^{2}}{2} - 4 t$\n\nNow substitute $t = 4$\n\n$v = \\frac{3\\times4^{2}}{2} - 4 \\times 4$\n\n**[M1]**\n\n$v = 24 - 16$\n\n$v = 8  \\text{m s}^{-1}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: An acceptable attempt to integrate the given expression for $a$, with at least one term correctly integrated and no power of $t$ decreasing. The terms need not be simplified.\n> \n> **M1**: Substitutes $t = 4$ into your integrated expression. This may be implied by a correct answer.\n> \n> **A1**: $v = 8$.\n> \n> The calculation of $c = 0$ does not have to be seen. The unit is not required for the final mark.\n> \n> The official scheme carries an explicit warning here: substituting $t = 4$ into the expression for $a$ also gives $8$, and that must not be credited, because it is the acceleration at that instant rather than the velocity.\n\n> **[exam-tip]**\n> This question hides a coincidence that the examiners are told to watch for.\n> \n> - Substituting $t = 4$ straight into $a = 3 t - 4$ also gives $8$\n> - That is the acceleration, not the velocity, and it scores nothing, so make the integration visible before you substitute anything\n> \n> \"At rest\" at $t = 0$ is the condition that fixes the constant.\n> \n> - It tells you $v = 0$ when $t = 0$, which forces $c = 0$\n> - A constant of zero still has to be justified rather than assumed, even though it disappears from the final expression",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P space"
+      },
+      {
+       "latex": "a=3t-4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mi>t</mi><mo>-</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space equals space 3 t minus 4"
+      },
+      {
+       "latex": "t=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space t space equals space 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t=4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t space equals space 4"
+      },
+      {
+       "latex": "v = \\frac{3t^{2}}{2} - 4 t + c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>-</mo><mn>4</mn><mi>t</mi><mo>+</mo><mi>c</mi></math>",
+       "alt": "v = \\frac{3 t^{2}}{2} - 4 t + c"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "v = c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mi>c</mi></math>",
+       "alt": "v = c"
+      },
+      {
+       "latex": "c = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "c = 0"
+      },
+      {
+       "latex": "v = \\frac{3t^{2}}{2} - 4 t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>-</mo><mn>4</mn><mi>t</mi></math>",
+       "alt": "v = \\frac{3 t^{2}}{2} - 4 t"
+      },
+      {
+       "latex": "t = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "t = 4"
+      },
+      {
+       "latex": "v = \\frac{3\\times4^{2}}{2} - 4 \\times 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>&#xD7;</mo><msup><mn>4</mn><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>-</mo><mn>4</mn><mo>&#xD7;</mo><mn>4</mn></math>",
+       "alt": "v = \\frac{3 \\times 4^{2}}{2} - 4 \\times 4"
+      },
+      {
+       "latex": "v = 24 - 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>24</mn><mo>-</mo><mn>16</mn></math>",
+       "alt": "v = 24 - 16"
+      },
+      {
+       "latex": "v = 8  \\text{m s}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>8</mn><mtext>&#xA0;</mtext><msup><mtext>m s</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "v = 8 \\textrm{ } \\text{m s}^{-1}"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "t = 4"
+      },
+      {
+       "latex": "v = 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>8</mn></math>",
+       "alt": "v = 8"
+      },
+      {
+       "latex": "c = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "c = 0"
+      },
+      {
+       "latex": "t = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "t = 4"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>",
+       "alt": "8"
+      },
+      {
+       "latex": "t = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "t = 4"
+      },
+      {
+       "latex": "a = 3 t - 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mi>t</mi><mo>-</mo><mn>4</mn></math>",
+       "alt": "a = 3 t - 4"
+      },
+      {
+       "latex": "8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>",
+       "alt": "8"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "c = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "c = 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_dMnHhmDbYTBYX9Bz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 1",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "At time $T$seconds, $T>0$, $P$ is instantaneously at rest.\n\nFind the value of $T$",
+     "solution_md": "Instantaneously at rest means the velocity is zero, so set the expression from part (a) equal to zero\n\n$\\frac{3t^{2}}{2} - 4 t = 0$\n\nThere is no constant term, so take out the common factor of $t$ rather than reaching for the formula\n\n`t \\left(\\frac{3 t}{2} - 4\\right) = 0`\n\n**[M1]**\n\nThat gives $t = 0$, which is the instant the particle starts from rest, and one other solution\n\nYou are told $T > 0$, so it is the other solution that is wanted\n\n$\\frac{3T}{2} = 4$\n\n$T = \\frac{8}{3}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sets your expression for $v$ equal to zero and makes a fully correct attempt to solve it, leading to a value for $t$. A correct value can imply this mark, but if the quadratic is not the correct one the method must be shown.\n> \n> **A1**: $T = \\frac{8}{3}$. Ignore $t = 0$ if it is also given.\n> \n> Accept answers which round to $2 . 7$, or a clear indication of $2 . 6$ recurring.\n\n> **[exam-tip]**\n> A quadratic with no constant term factorises in one step.\n> \n> - $\\frac{3t^{2}}{2} - 4 t = 0$ becomes `t \\left(\\frac{3 t}{2} - 4\\right) = 0` immediately\n> - Never divide through by $t$, because that throws away the solution $t = 0$\n> \n> Here $t = 0$ is a genuine solution and still not the answer.\n> \n> - It is the instant the particle starts, which the question already told you about\n> - The condition $T > 0$ is there precisely to tell you which root to report, so quote it as your reason",
+     "equations": [
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space"
+      },
+      {
+       "latex": "T>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi><mo>&#160;</mo><mo>&#62;</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T space greater than space 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "T",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "T"
+      },
+      {
+       "latex": "\\frac{3t^{2}}{2} - 4 t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>-</mo><mn>4</mn><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "\\frac{3 t^{2}}{2} - 4 t = 0"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "T > 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>&gt;</mo><mn>0</mn></math>",
+       "alt": "T > 0"
+      },
+      {
+       "latex": "\\frac{3T}{2} = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>T</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn></math>",
+       "alt": "\\frac{3 T}{2} = 4"
+      },
+      {
+       "latex": "T = \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "T = \\frac{8}{3}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "T = \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "T = \\frac{8}{3}"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "2 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "2 . 7"
+      },
+      {
+       "latex": "2 . 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>6</mn></math>",
+       "alt": "2 . 6"
+      },
+      {
+       "latex": "\\frac{3t^{2}}{2} - 4 t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>-</mo><mn>4</mn><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "\\frac{3 t^{2}}{2} - 4 t = 0"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "T > 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>&gt;</mo><mn>0</mn></math>",
+       "alt": "T > 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xncHnVHhS7xQVNqs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 1",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_zXdKYDbwn48sk8Fm",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "When $t=0$, $P$ is at the point with coordinates `open parentheses negative 10 comma space 0 close parentheses`\n\nFind the displacement of $P$ from the origin when $t=3$",
+     "solution_md": "Displacement is the integral of velocity, so integrate the expression from part (a)\n\n`x = \\int \\left(\\frac{3 t^{2}}{2} - 4 t\\right) \\textrm{ } \\text{d} t`\n\n$x = \\frac{t^{3}}{2} - 2 t^{2} + c$\n\n**[M1]**\n\nAt $t = 0$ the particle is at `\\left(- 10 , 0\\right)`, so its displacement from the origin is $- 10$ at that instant\n\nSubstituting $t = 0$ leaves $x = c$\n\n$c = - 10$\n\n**[M1]**\n\n$x = \\frac{t^{3}}{2} - 2 t^{2} - 10$\n\nNow substitute $t = 3$\n\n$x = \\frac{3^{3}}{2} - 2 \\times 3^{2} - 10$\n\n**[M1]**\n\n$x = \\frac{27}{2} - 18 - 10$\n\n$x = - \\frac{29}{2}  \\text{m}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: An acceptable attempt to integrate your expression for $v$, giving at least two terms, with no power of $t$ decreasing. The constant need not be present for this mark.\n> \n> **M1**: Correct substitution of $t = 0$ and a position of $- 10$ to find the constant of integration. Seeing $- 10$ anywhere will usually imply this mark, and it is still available if the rearrangement afterwards is wrong.\n> \n> **M1**: Substitutes $t = 3$ into your changed expression, using your constant. This mark depends on the first method mark.\n> \n> **A1**: $x = - \\frac{29}{2}$.\n> \n> The answer must be the signed displacement. Giving $\\frac{29}{2}$ as a distance does not earn the final mark, and correcting it later does not recover it.\n\n> **[exam-tip]**\n> The sign of the answer is the mark here, so do not tidy it away.\n> \n> - The official scheme awards nothing for $\\frac{29}{2}$ given as a distance\n> - Displacement from the origin carries a direction, and $- \\frac{29}{2}$ says the particle is $14 . 5$ m on the negative side of it\n> \n> A starting point given as coordinates is still just a displacement.\n> \n> - `\\left(- 10 , 0\\right)` on the $x$-axis means $x = - 10$ when $t = 0$\n> - That is what fixes the constant of integration, exactly as a plain \"$P$ is 10 m from the origin\" would\n> \n> Notice how far the particle has actually moved.\n> \n> - It starts at $- 10$ and is at $- 14 . 5$ after 3 seconds, so it has moved 4.5 m in the negative direction\n> - Part (b) showed it is still travelling backwards at $t = 3$, since it does not come to rest until $t = \\frac{8}{3}$ and then speeds up again",
+     "equations": [
+      {
+       "latex": "t=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space t space equals space 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t space equals space 3"
+      },
+      {
+       "latex": "x = \\frac{t^{3}}{2} - 2 t^{2} + c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><msup><mi>t</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>-</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi></math>",
+       "alt": "x = \\frac{t^{3}}{2} - 2 t^{2} + c"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "- 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>10</mn></math>",
+       "alt": "- 10"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "x = c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>c</mi></math>",
+       "alt": "x = c"
+      },
+      {
+       "latex": "c = - 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>-</mo><mn>10</mn></math>",
+       "alt": "c = - 10"
+      },
+      {
+       "latex": "x = \\frac{t^{3}}{2} - 2 t^{2} - 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><msup><mi>t</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>-</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>10</mn></math>",
+       "alt": "x = \\frac{t^{3}}{2} - 2 t^{2} - 10"
+      },
+      {
+       "latex": "t = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "t = 3"
+      },
+      {
+       "latex": "x = \\frac{3^{3}}{2} - 2 \\times 3^{2} - 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><msup><mn>3</mn><mn>3</mn></msup><mn>2</mn></mfrac><mo>-</mo><mn>2</mn><mo>&#xD7;</mo><msup><mn>3</mn><mn>2</mn></msup><mo>-</mo><mn>10</mn></math>",
+       "alt": "x = \\frac{3^{3}}{2} - 2 \\times 3^{2} - 10"
+      },
+      {
+       "latex": "x = \\frac{27}{2} - 18 - 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>27</mn><mn>2</mn></mfrac><mo>-</mo><mn>18</mn><mo>-</mo><mn>10</mn></math>",
+       "alt": "x = \\frac{27}{2} - 18 - 10"
+      },
+      {
+       "latex": "x = - \\frac{29}{2}  \\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mfrac><mn>29</mn><mn>2</mn></mfrac><mtext>&#xA0;</mtext><mtext>m</mtext></math>",
+       "alt": "x = - \\frac{29}{2} \\textrm{ } \\text{m}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "- 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>10</mn></math>",
+       "alt": "- 10"
+      },
+      {
+       "latex": "- 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>10</mn></math>",
+       "alt": "- 10"
+      },
+      {
+       "latex": "t = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "t = 3"
+      },
+      {
+       "latex": "x = - \\frac{29}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mfrac><mn>29</mn><mn>2</mn></mfrac></math>",
+       "alt": "x = - \\frac{29}{2}"
+      },
+      {
+       "latex": "\\frac{29}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>29</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{29}{2}"
+      },
+      {
+       "latex": "\\frac{29}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>29</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{29}{2}"
+      },
+      {
+       "latex": "- \\frac{29}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>29</mn><mn>2</mn></mfrac></math>",
+       "alt": "- \\frac{29}{2}"
+      },
+      {
+       "latex": "14 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "14 . 5"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = - 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>10</mn></math>",
+       "alt": "x = - 10"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "- 10",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>10</mn></math>",
+       "alt": "- 10"
+      },
+      {
+       "latex": "- 14 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>14</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "- 14 . 5"
+      },
+      {
+       "latex": "t = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "t = 3"
+      },
+      {
+       "latex": "t = \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "t = \\frac{8}{3}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qWDQ3gft3BCVKbmm",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_6PBQJSHFB33nc43r",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "Paper 1",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ is moving along a straight line.\n\nAt time  $t$ seconds `open parentheses space t space greater-than or slanted equal to space 0 space close parentheses`, the velocity, $v$ m/s, of $P$ is given by\n\n$v=3t^{2}-16t+5$\n\nFind the values of $t$ when $P$  is instantaneously at rest.",
+     "solution_md": "Instantaneously at rest means the velocity is zero at that instant, so set $v = 0$\n\n$3 t^{2} - 16 t + 5 = 0$\n\nTwo numbers multiplying to $3 \\times 5 = 15$ and adding to $- 16$ are $- 1$ and $- 15$, so split the middle term\n\n$3 t^{2} - 15 t - t + 5 = 0$\n\n`3 t \\left(t - 5\\right) - 1 \\left(t - 5\\right) = 0`\n\n`\\left(3 t - 1\\right)\\left(t - 5\\right) = 0`\n\n**[M1]**\n\nBoth roots satisfy $t \\geq 0$, so both are kept\n\n$t = \\frac{1}{3}  \\text{or}  5$\n\n**[M1] [A1]**\n\n> **[mark-scheme]**\n> **M1**: Sets $v = 0$ and makes an acceptable attempt to solve, leading to a value of $t$.\n> \n> **M1**: One correct value of $t$.\n> \n> **A1**: Both correct values of $t$.\n> \n> The last two marks are staged, which is why a single indicator box carries them both against the line holding the two roots: the method mark is earned by either root on its own, and the accuracy mark only once both are correct. Either correct value will imply the first method mark as well, and both correct values will imply all three marks even with no working.\n> \n> The quadratic formula and completing the square are equally acceptable in place of factorising. For the first root accept a value rounding to $0 . 33$, or a clear indication that the decimal is 0.3 recurring.\n\n> **[exam-tip]**\n> The two marks for the answers here are earned in stages rather than together.\n> \n> - One correct root earns the second method mark on its own\n> - The accuracy mark needs both, so an answer stopping at $t = 5$ throws away only the last mark rather than two\n> \n> Writing $3 t^{2} - 16 t + 5$ as a product is quicker than the formula.\n> \n> - The two numbers you need multiply to $15$ and add to $- 16$, and $- 1$ and $- 15$ are easy to spot\n> - The formula gives the same marks, so use whichever you trust under pressure",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "v=3t^{2}-16t+5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>&#160;</mo><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v space equals space 3 t squared space minus 16 t plus 5"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "3 t^{2} - 16 t + 5 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "3 t^{2} - 16 t + 5 = 0"
+      },
+      {
+       "latex": "3 \\times 5 = 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#xD7;</mo><mn>5</mn><mo>=</mo><mn>15</mn></math>",
+       "alt": "3 \\times 5 = 15"
+      },
+      {
+       "latex": "- 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>16</mn></math>",
+       "alt": "- 16"
+      },
+      {
+       "latex": "- 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math>",
+       "alt": "- 1"
+      },
+      {
+       "latex": "- 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>15</mn></math>",
+       "alt": "- 15"
+      },
+      {
+       "latex": "3 t^{2} - 15 t - t + 5 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>15</mn><mi>t</mi><mo>-</mo><mi>t</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "3 t^{2} - 15 t - t + 5 = 0"
+      },
+      {
+       "latex": "t \\geq 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&#x2265;</mo><mn>0</mn></math>",
+       "alt": "t \\geq 0"
+      },
+      {
+       "latex": "t = \\frac{1}{3}  \\text{or}  5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mtext>&#xA0;</mtext><mtext>or</mtext><mtext>&#xA0;</mtext><mn>5</mn></math>",
+       "alt": "t = \\frac{1}{3} \\textrm{ } \\text{or} \\textrm{ } 5"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "0 . 33",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>.</mo><mn>33</mn></math>",
+       "alt": "0 . 33"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "3 t^{2} - 16 t + 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>5</mn></math>",
+       "alt": "3 t^{2} - 16 t + 5"
+      },
+      {
+       "latex": "15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn></math>",
+       "alt": "15"
+      },
+      {
+       "latex": "- 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>16</mn></math>",
+       "alt": "- 16"
+      },
+      {
+       "latex": "- 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>1</mn></math>",
+       "alt": "- 1"
+      },
+      {
+       "latex": "- 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>15</mn></math>",
+       "alt": "- 15"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8WQvxKvQzgtMHNc2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "Paper 1",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VSCsG2N5Dv92vpKZ",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "At time $t$ seconds the acceleration of $P$ is $a$ m/s<sup>2</sup>\n\nFind the range of values of $t$ for which $a>0$",
+     "solution_md": "Acceleration is the rate of change of velocity, so differentiate and then impose the condition\n\n$a = \\frac{\\text{d}v}{\\text{d}t}$\n\n$a = 6 t - 16$\n\n$6 t - 16 > 0$\n\n**[M1]**\n\nThis is a linear inequality, so solve it exactly as you would the equation\n\n$6 t > 16$\n\n$t > \\frac{8}{3}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: An attempt to differentiate $v$, with at least one term correct and no power of $t$ increasing, and their expression set greater than zero. Setting it equal to zero instead is allowed as a concession for this mark.\n> \n> **A1**: $t > \\frac{8}{3}$, or any equivalent form.\n> \n> Accept a decimal rounded to one decimal place or better, such as $2 . 7$, $2 . 67$ or $2 . 667$, or a clear indication of $2 . 6$ recurring with at least three dots.\n\n> **[exam-tip]**\n> The answer is a range, so the inequality sign has to survive to the end.\n> \n> - The official scheme allows you to write $= 0$ while you work, as a concession\n> - It does not allow the final answer to be an equation, so convert back to $>$ before you stop\n> \n> Dividing an inequality by a positive number leaves the sign alone.\n> \n> - Here you divide by $6$, which is positive, so $>$ stays as $>$\n> - Only multiplying or dividing by a negative number reverses it, which is worth checking every time rather than remembering case by case\n> \n> There is a quick sense check available from part (a).\n> \n> - The velocity is a positive quadratic, so its lowest point is where the acceleration is zero\n> - That is $t = \\frac{8}{3}$, which sits between the two roots $\\frac{1}{3}$ and $5$, exactly as the midpoint of the roots should",
+     "equations": [
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "a>0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mo>&#62;</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space greater than space 0"
+      },
+      {
+       "latex": "a = \\frac{\\text{d}v}{\\text{d}t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>t</mi></mrow></mfrac></math>",
+       "alt": "a = \\frac{\\text{d} v}{\\text{d} t}"
+      },
+      {
+       "latex": "a = 6 t - 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><mi>t</mi><mo>-</mo><mn>16</mn></math>",
+       "alt": "a = 6 t - 16"
+      },
+      {
+       "latex": "6 t - 16 > 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>t</mi><mo>-</mo><mn>16</mn><mo>&gt;</mo><mn>0</mn></math>",
+       "alt": "6 t - 16 > 0"
+      },
+      {
+       "latex": "6 t > 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>t</mi><mo>&gt;</mo><mn>16</mn></math>",
+       "alt": "6 t > 16"
+      },
+      {
+       "latex": "t > \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&gt;</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "t > \\frac{8}{3}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t > \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&gt;</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "t > \\frac{8}{3}"
+      },
+      {
+       "latex": "2 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "2 . 7"
+      },
+      {
+       "latex": "2 . 67",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>67</mn></math>",
+       "alt": "2 . 67"
+      },
+      {
+       "latex": "2 . 667",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>667</mn></math>",
+       "alt": "2 . 667"
+      },
+      {
+       "latex": "2 . 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>6</mn></math>",
+       "alt": "2 . 6"
+      },
+      {
+       "latex": "= 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0</mn></math>",
+       "alt": "= 0"
+      },
+      {
+       "latex": ">",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&gt;</mo></math>",
+       "alt": ">"
+      },
+      {
+       "latex": "6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>",
+       "alt": "6"
+      },
+      {
+       "latex": ">",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&gt;</mo></math>",
+       "alt": ">"
+      },
+      {
+       "latex": ">",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&gt;</mo></math>",
+       "alt": ">"
+      },
+      {
+       "latex": "t = \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "t = \\frac{8}{3}"
+      },
+      {
+       "latex": "\\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{1}{3}"
+      },
+      {
+       "latex": "5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math>",
+       "alt": "5"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_KsXpDqPdWPGs7n4t",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "Paper 1",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_zXdKYDbwn48sk8Fm",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the distance, in m, that $P$ travels in the interval `1 space less-than or slanted equal to space t space less-than or slanted equal to space 4`",
+     "solution_md": "Distance travelled is not the same as displacement, so first check whether the particle turns round inside the interval\n\nPart (a) found that the velocity is zero only at $t = \\frac{1}{3}$ and $t = 5$, and neither of those lies between $1$ and $4$\n\nSo the velocity keeps the same sign throughout, and testing one value tells you which sign\n\n$3 \\times 2^{2} - 16 \\times 2 + 5 = - 15$\n\nThe velocity is negative across the whole interval, so the particle moves steadily in one direction\n\nThat means the distance is the size of the displacement, and one integral will do\n\n`\\int_{1}^{4} \\left(3 t^{2} - 16 t + 5\\right) \\textrm{ } \\text{d} t`\n\n**[M1]**\n\n`\\left[t^{3} - 8 t^{2} + 5 t\\right]_{1}^{4}`\n\n**[A1]**\n\nSubstitute the upper limit, then subtract the value at the lower limit\n\n`\\left(4^{3} - 8 \\times 4^{2} + 5 \\times 4\\right) - \\left(1^{3} - 8 \\times 1^{2} + 5 \\times 1\\right)`\n\n**[M1]**\n\n`\\left(- 44\\right) - \\left(- 2\\right) = - 42`\n\n**[A1]**\n\nThe negative sign records the direction of travel, and a distance cannot be negative\n\n$\\text{distance} = 42  \\text{m}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: An acceptable attempt to integrate the given expression for $v$, with no power of $t$ decreasing. The limits need not be present for this mark.\n> \n> **A1**: Correct integration. The limits need not be present for this mark either.\n> \n> **M1**: Correct substitution of the limits into your changed expression, which must have at least two terms. If the final answer is wrong, both limits must be seen substituted correctly at least once. A subtraction has to be present, so $- 44$ and $- 2$ on their own do not earn it.\n> \n> **A1**: $- 42$, or $42$.\n> \n> **A1**: The correct positive distance stated.\n> \n> The official scheme is blunt about the method here: a candidate who does not show the step of integration scores zero for the whole part, however good the answer.\n> \n> An arbitrary constant may be carried through the working and will cancel in the subtraction, and that is accepted.\n\n> **[exam-tip]**\n> Always check for a change of direction before turning a displacement into a distance.\n> \n> - The velocity is zero only at $t = \\frac{1}{3}$ and $t = 5$, and neither is inside $1 \\leq t \\leq 4$\n> - Had one been inside, the interval would have to be split at it and the two pieces added as positive amounts\n> \n> The last two marks are separate, so finish the sentence.\n> \n> - One is for reaching $- 42$ and the other for stating the distance as $42$\n> - Stopping at $- 42$ leaves a mark on the table, and so does writing $42$ with no sign of where it came from\n> \n> There are no marks at all for an answer produced without integrating.\n> \n> - The official scheme says a candidate not showing the step of integration scores zero for this part\n> - So write the integrated expression down even if your calculator gives you the value directly",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>P</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space P"
+      },
+      {
+       "latex": "t = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "t = \\frac{1}{3}"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>",
+       "alt": "1"
+      },
+      {
+       "latex": "4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>",
+       "alt": "4"
+      },
+      {
+       "latex": "3 \\times 2^{2} - 16 \\times 2 + 5 = - 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&#xD7;</mo><msup><mn>2</mn><mn>2</mn></msup><mo>-</mo><mn>16</mn><mo>&#xD7;</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mo>-</mo><mn>15</mn></math>",
+       "alt": "3 \\times 2^{2} - 16 \\times 2 + 5 = - 15"
+      },
+      {
+       "latex": "\\text{distance} = 42  \\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>distance</mtext><mo>=</mo><mn>42</mn><mtext>&#xA0;</mtext><mtext>m</mtext></math>",
+       "alt": "\\text{distance} = 42 \\textrm{ } \\text{m}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "- 44",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>44</mn></math>",
+       "alt": "- 44"
+      },
+      {
+       "latex": "- 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+       "alt": "- 2"
+      },
+      {
+       "latex": "- 42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>42</mn></math>",
+       "alt": "- 42"
+      },
+      {
+       "latex": "42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn></math>",
+       "alt": "42"
+      },
+      {
+       "latex": "t = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "t = \\frac{1}{3}"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "1 \\leq t \\leq 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&#x2264;</mo><mi>t</mi><mo>&#x2264;</mo><mn>4</mn></math>",
+       "alt": "1 \\leq t \\leq 4"
+      },
+      {
+       "latex": "- 42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>42</mn></math>",
+       "alt": "- 42"
+      },
+      {
+       "latex": "42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn></math>",
+       "alt": "42"
+      },
+      {
+       "latex": "- 42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>42</mn></math>",
+       "alt": "- 42"
+      },
+      {
+       "latex": "42",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn></math>",
+       "alt": "42"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XM8hyXf5sC28s3sv",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_RDZwCH43GB7StK87",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 1",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VSCsG2N5Dv92vpKZ",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ is moving along the $x$-axis. At time $t$ seconds, `t greater-than or slanted equal to 0` , the velocity, $vm/s$, of $P$ is given by $v=2t^{2}-16t+30$\n\nFind the acceleration, in $m/s^{2}$ , of  $P$ when $t=5$",
+     "solution_md": "Acceleration is the rate of change of velocity, so differentiate $v$ with respect to $t$\n\n$a = \\frac{\\text{d}v}{\\text{d}t}$\n\n$a = 4 t - 16$\n\nNow substitute $t = 5$\n\n$a = 4 \\times 5 - 16$\n\n**[M1]**\n\n$a = 4  \\text{m s}^{-2}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: An attempt to differentiate the given expression for $v$ and substitute $t = 5$.\n> \n> **A1**: $a = 4$.\n> \n> An expression with any term integrated rather than differentiated earns nothing, so the method mark is lost if the direction is wrong. The unit is not required.\n\n> **[exam-tip]**\n> Differentiate for acceleration and integrate for displacement, every time.\n> \n> - The official scheme states that no term may be integrated for the method mark here\n> - Writing $a = \\frac{\\text{d}v}{\\text{d}t}$ before you start is a cheap way of committing to the right direction\n> \n> Substitute only after differentiating.\n> \n> - Putting $t = 5$ into $v$ first gives a number, and the derivative of a number is zero\n> - The same trap appears in almost every connected-rates and kinematics question on this paper",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "vm/s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v straight m divided by straight s"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "v=2t^{2}-16t+30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>30</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals 2 t squared minus 16 t plus 30"
+      },
+      {
+       "latex": "m/s^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>/</mo><msup><mi mathvariant=\"normal\">s</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight m divided by straight s squared"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t=5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>t</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space t equals 5"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "a = \\frac{\\text{d}v}{\\text{d}t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>t</mi></mrow></mfrac></math>",
+       "alt": "a = \\frac{\\text{d} v}{\\text{d} t}"
+      },
+      {
+       "latex": "a = 4 t - 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><mi>t</mi><mo>-</mo><mn>16</mn></math>",
+       "alt": "a = 4 t - 16"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "a = 4 \\times 5 - 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><mo>&#xD7;</mo><mn>5</mn><mo>-</mo><mn>16</mn></math>",
+       "alt": "a = 4 \\times 5 - 16"
+      },
+      {
+       "latex": "a = 4  \\text{m s}^{-2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><mtext>&#xA0;</mtext><msup><mtext>m s</mtext><mrow><mo>-</mo><mn>2</mn></mrow></msup></math>",
+       "alt": "a = 4 \\textrm{ } \\text{m s}^{-2}"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "a = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "a = 4"
+      },
+      {
+       "latex": "a = \\frac{\\text{d}v}{\\text{d}t}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mtext>d</mtext><mi>v</mi></mrow><mrow><mtext>d</mtext><mi>t</mi></mrow></mfrac></math>",
+       "alt": "a = \\frac{\\text{d} v}{\\text{d} t}"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_tRnf3Yrt5xQQwp6F",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 1",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zXdKYDbwn48sk8Fm",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ is moving along the $x$-axis. At time $t$ seconds, `t greater-than or slanted equal to 0` , the velocity, $vm/s$, of $P$ is given by $v=2t^{2}-16t+30$\n\n$P$ comes to instantaneous rest at the points $M$ and $N$ at times $t_{1}$ seconds and $t_{2}$ seconds where $t_{2}>t_{1}$\n\nFind the exact distance $MN$",
+     "solution_md": "$M$ and $N$ are where the particle is instantaneously at rest, so start by finding those two times\n\n$2 t^{2} - 16 t + 30 = 0$\n\nDivide through by $2$ to make the factorising easier\n\n$t^{2} - 8 t + 15 = 0$\n\n`\\left(t - 3\\right)\\left(t - 5\\right) = 0`\n\n**[M1]**\n\nYou are told $t_{2} > t_{1}$, so the smaller root is $t_{1}$\n\n$t_{1} = 3 ,  t_{2} = 5$\n\n**[A1] [A1]**\n\n$M N$ is the distance between the two positions, so integrate the velocity between those times\n\n`\\int_{3}^{5} \\left(2 t^{2} - 16 t + 30\\right) \\textrm{ } \\text{d} t`\n\n**[M1]**\n\n`\\left[\\frac{2 t^{3}}{3} - 8 t^{2} + 30 t\\right]_{3}^{5}`\n\n**[A1]**\n\nSubstitute the upper limit, then subtract the value at the lower limit\n\n`\\left(\\frac{2 \\times 5^{3}}{3} - 8 \\times 5^{2} + 30 \\times 5\\right) - \\left(\\frac{2 \\times 3^{3}}{3} - 8 \\times 3^{2} + 30 \\times 3\\right)`\n\n**[M1]**\n\n$\\frac{100}{3} - 36$\n\n$- \\frac{8}{3}$\n\n**[A1]**\n\nThe velocity does not change sign between $t = 3$ and $t = 5$, so the distance is the size of that displacement\n\n$M N = \\frac{8}{3}  \\text{m}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sets $v = 0$ and attempts to solve the quadratic by a correct method.\n> \n> **A1**: Either $t_{1} = 3$ or $t_{2} = 5$.\n> \n> **A1**: Both $t_{1} = 3$ and $t_{2} = 5$.\n> \n> **M1**: An attempt to integrate the given expression for $v$, with or without limits. Poor or absent integral notation is ignored, but no term may be differentiated.\n> \n> **A1**: The correct integrated expression, simplified or not. A constant of integration is accepted, and the limits are ignored for this mark.\n> \n> **M1**: Substitutes your two times into your integrated expression and attempts to evaluate. The subtraction may be either way round.\n> \n> **A1**: $- \\frac{8}{3}$. The negative value has to be seen for this mark. Accept answers which round to $- 2 . 67$.\n> \n> **A1**: The distance $\\frac{8}{3}$ m, or an exact equivalent. This mark follows through from your own displacement, but only where that displacement is negative and the final distance positive, so $2 . 67$ is not accepted while $2 . 6$ recurring is.\n> \n> The two answer marks near the start are staged, which is why one indicator box carries them both: the first is earned by either time on its own and the second only once both are correct. Solving on a calculator with only $t = 3$ and $t = 5$ seen still earns all three of the opening marks.\n> \n> If a final answer of $\\frac{8}{3}$ appears with no evidence of algebraic integration, only the last mark is available.\n\n> **[exam-tip]**\n> Eight marks for a short answer means almost all of them are for the working.\n> \n> - Three are for finding the two times, four for the integration and its evaluation, and one for the final distance\n> - An unsupported $\\frac{8}{3}$ earns one mark out of eight, which the official scheme states outright\n> \n> The negative displacement is worth a mark on its own, so do not hide it.\n> \n> - The official scheme says the negative value must be seen before the distance is credited\n> - Write $- \\frac{8}{3}$ as a line of working, then convert it to a distance in a separate line\n> \n> Divide through before factorising when every coefficient shares a factor.\n> \n> - $2 t^{2} - 16 t + 30 = 0$ becomes $t^{2} - 8 t + 15 = 0$, which factorises by inspection\n> - The velocity itself is unchanged by this, since you are solving an equation rather than rewriting $v$\n> \n> Check for a change of direction before calling a displacement a distance.\n> \n> - The particle is at rest at both ends of the interval and nowhere in between, so it travels one way throughout\n> - That is what makes $M N$ equal to the size of the displacement here, rather than a sum of two pieces",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "vm/s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v straight m divided by straight s"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "v=2t^{2}-16t+30",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>30</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "v equals 2 t squared minus 16 t plus 30"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>M</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>N</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "N"
+      },
+      {
+       "latex": "t_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>t</mi><mn>1</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t subscript 1"
+      },
+      {
+       "latex": "t_{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>t</mi><mn>2</mn></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t subscript 2"
+      },
+      {
+       "latex": "t_{2}>t_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>&#62;</mo><msub><mi>t</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t subscript 2 greater than t subscript 1"
+      },
+      {
+       "latex": "MN",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>M</mi><mi>N</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "M N"
+      },
+      {
+       "latex": "M",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>",
+       "alt": "M"
+      },
+      {
+       "latex": "N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math>",
+       "alt": "N"
+      },
+      {
+       "latex": "2 t^{2} - 16 t + 30 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>30</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "2 t^{2} - 16 t + 30 = 0"
+      },
+      {
+       "latex": "2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+       "alt": "2"
+      },
+      {
+       "latex": "t^{2} - 8 t + 15 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>t</mi><mo>+</mo><mn>15</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "t^{2} - 8 t + 15 = 0"
+      },
+      {
+       "latex": "t_{2} > t_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>2</mn></msub><mo>&gt;</mo><msub><mi>t</mi><mn>1</mn></msub></math>",
+       "alt": "t_{2} > t_{1}"
+      },
+      {
+       "latex": "t_{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>1</mn></msub></math>",
+       "alt": "t_{1}"
+      },
+      {
+       "latex": "t_{1} = 3 ,  t_{2} = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn><mo>,</mo><mtext>&#xA0;</mtext><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>5</mn></math>",
+       "alt": "t_{1} = 3 , \\textrm{ } t_{2} = 5"
+      },
+      {
+       "latex": "M N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mi>N</mi></math>",
+       "alt": "M N"
+      },
+      {
+       "latex": "\\frac{100}{3} - 36",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>3</mn></mfrac><mo>-</mo><mn>36</mn></math>",
+       "alt": "\\frac{100}{3} - 36"
+      },
+      {
+       "latex": "- \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "- \\frac{8}{3}"
+      },
+      {
+       "latex": "t = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "t = 3"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "M N = \\frac{8}{3}  \\text{m}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mi>N</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mtext>&#xA0;</mtext><mtext>m</mtext></math>",
+       "alt": "M N = \\frac{8}{3} \\textrm{ } \\text{m}"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "t_{1} = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math>",
+       "alt": "t_{1} = 3"
+      },
+      {
+       "latex": "t_{2} = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>5</mn></math>",
+       "alt": "t_{2} = 5"
+      },
+      {
+       "latex": "t_{1} = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></math>",
+       "alt": "t_{1} = 3"
+      },
+      {
+       "latex": "t_{2} = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>5</mn></math>",
+       "alt": "t_{2} = 5"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "- \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "- \\frac{8}{3}"
+      },
+      {
+       "latex": "- 2 . 67",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn><mo>.</mo><mn>67</mn></math>",
+       "alt": "- 2 . 67"
+      },
+      {
+       "latex": "\\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{8}{3}"
+      },
+      {
+       "latex": "2 . 67",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>67</mn></math>",
+       "alt": "2 . 67"
+      },
+      {
+       "latex": "2 . 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>.</mo><mn>6</mn></math>",
+       "alt": "2 . 6"
+      },
+      {
+       "latex": "t = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "t = 3"
+      },
+      {
+       "latex": "t = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "t = 5"
+      },
+      {
+       "latex": "\\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{8}{3}"
+      },
+      {
+       "latex": "\\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{8}{3}"
+      },
+      {
+       "latex": "- \\frac{8}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math>",
+       "alt": "- \\frac{8}{3}"
+      },
+      {
+       "latex": "2 t^{2} - 16 t + 30 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>30</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "2 t^{2} - 16 t + 30 = 0"
+      },
+      {
+       "latex": "t^{2} - 8 t + 15 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>t</mi><mo>+</mo><mn>15</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "t^{2} - 8 t + 15 = 0"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "M N",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mi>N</mi></math>",
+       "alt": "M N"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6WW8bP8yrwhF9xBD",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_w4GDCV7SDBrYk5Y7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": "ai,aii"
+     },
+     "spec_point_ids": [
+      "spcpt_zXdKYDbwn48sk8Fm",
+      "spcpt_Q2yPvWmbP3hFp5kM",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ moves along the $x$-axis.\n\nAt time $t$ seconds `open parentheses t greater-than or slanted equal to 0 close parentheses` the acceleration, $am/s^{2}$ , of  $P$ is given by $a=6t-16$\n\nWhen $t=0$,  $P$ is at the origin and is moving with velocity 12 $m/s$.\n\nFind an expression in terms of $t$ for\n\n(i) the velocity of  $P$ at time $t$ seconds\n\n[2]\n\n(ii) the displacement of  $P$ at time $t$ seconds.\n\n[2]",
+     "solution_md": "**(i)**\n\nVelocity is the integral of acceleration with respect to time\n\n`v = \\int \\left(6 t - 16\\right) \\textrm{ } \\text{d} t`\n\n$v = 3 t^{2} - 16 t + c$\n\n**[M1]**\n\nThe velocity is $12  \\text{m s}^{-1}$ when $t = 0$, and substituting $t = 0$ leaves $v = c$\n\n$c = 12$\n\n$v = 3 t^{2} - 16 t + 12$\n\n**[A1]**\n\n**(ii)**\n\nDisplacement is the integral of velocity, so integrate the expression just found\n\n`s = \\int \\left(3 t^{2} - 16 t + 12\\right) \\textrm{ } \\text{d} t`\n\n$s = t^{3} - 8 t^{2} + 12 t + k$\n\n**[M1]**\n\n$P$ is at the origin when $t = 0$, so $s = 0$ there, and substituting $t = 0$ leaves $s = k$\n\n$k = 0$\n\n$s = t^{3} - 8 t^{2} + 12 t$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Integrates the given expression for $a$, with no term differentiated. The constant of integration is not required for this mark.\n> \n> **A1**: Finds the value of the constant and gives the correct expression for $v$.\n> \n> **M1**: An acceptable attempt to integrate your expression for $v$, with no term differentiated. The second constant is not required for this mark.\n> \n> **A1**: The correct expression for the displacement.\n> \n> The official scheme is unusually strict about the final mark: the expression for the displacement must come from explicitly establishing that the second constant is zero, and without that constant appearing in your integration the mark is automatically lost, even though its value turns out to be zero.\n\n> **[exam-tip]**\n> A constant of integration that turns out to be zero still has to be written down.\n> \n> - The official scheme says that without $+ k$ in your integration the final mark is automatically lost\n> - Write the constant in, then show the line that makes it zero, rather than leaving it out because you can see it will vanish\n> \n> Each integration needs its own constant and its own condition.\n> \n> - The first uses the velocity of $12  \\text{m s}^{-1}$ at $t = 0$ to give $c = 12$\n> - The second uses the particle being at the origin at $t = 0$ to give $k = 0$\n> \n> Use different letters for the two constants.\n> \n> - Reusing $c$ makes it look as though the same constant has two values\n> - The official scheme itself writes $c$ and then $k$, which is worth copying",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "am/s^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><msup><mi mathvariant=\"normal\">s</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space straight m divided by straight s squared"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "a=6t-16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn><mi>t</mi><mo>-</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals 6 t minus 16"
+      },
+      {
+       "latex": "t=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "m/s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight m divided by straight s"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "v = 3 t^{2} - 16 t + c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mi>c</mi></math>",
+       "alt": "v = 3 t^{2} - 16 t + c"
+      },
+      {
+       "latex": "12  \\text{m s}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext>&#xA0;</mtext><msup><mtext>m s</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "12 \\textrm{ } \\text{m s}^{-1}"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "v = c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mi>c</mi></math>",
+       "alt": "v = c"
+      },
+      {
+       "latex": "c = 12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>12</mn></math>",
+       "alt": "c = 12"
+      },
+      {
+       "latex": "v = 3 t^{2} - 16 t + 12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>16</mn><mi>t</mi><mo>+</mo><mn>12</mn></math>",
+       "alt": "v = 3 t^{2} - 16 t + 12"
+      },
+      {
+       "latex": "s = t^{3} - 8 t^{2} + 12 t + k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><msup><mi>t</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>t</mi><mo>+</mo><mi>k</mi></math>",
+       "alt": "s = t^{3} - 8 t^{2} + 12 t + k"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "s = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "s = 0"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "s = k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>k</mi></math>",
+       "alt": "s = k"
+      },
+      {
+       "latex": "k = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "k = 0"
+      },
+      {
+       "latex": "s = t^{3} - 8 t^{2} + 12 t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><msup><mi>t</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>t</mi></math>",
+       "alt": "s = t^{3} - 8 t^{2} + 12 t"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "+ k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>+</mo><mi>k</mi></math>",
+       "alt": "+ k"
+      },
+      {
+       "latex": "12  \\text{m s}^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext>&#xA0;</mtext><msup><mtext>m s</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></math>",
+       "alt": "12 \\textrm{ } \\text{m s}^{-1}"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "c = 12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>12</mn></math>",
+       "alt": "c = 12"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "k = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "k = 0"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>",
+       "alt": "c"
+      },
+      {
+       "latex": "c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>",
+       "alt": "c"
+      },
+      {
+       "latex": "k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>",
+       "alt": "k"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_nnmDSQXX4xt6xPmp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 2",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YnTNWktTNxsS2gxK",
+      "spcpt_n56hsBS9kyJ2wpGd"
+     ],
+     "part_tier": null,
+     "problem_md": "A particle $P$ moves along the $x$-axis.\n\nAt time $t$ seconds `open parentheses t greater-than or slanted equal to 0 close parentheses` the acceleration, $am/s^{2}$ , of  $P$ is given by $a=6t-16$\n\nWhen $t=0$,  $P$ is at the origin and is moving with velocity 12 $m/s$.\n\nHence find the time at which $P$ first returns to the origin.",
+     "solution_md": "At the origin the displacement is zero, so set the expression from part (a) equal to zero\n\n$t^{3} - 8 t^{2} + 12 t = 0$\n\n**[M1]**\n\nEvery term has a factor of $t$, so take it out rather than trying to solve a cubic directly\n\n`t \\left(t^{2} - 8 t + 12\\right) = 0`\n\nTwo numbers multiplying to $12$ and adding to $- 8$ are $- 2$ and $- 6$\n\n`t \\left(t - 2\\right) \\left(t - 6\\right) = 0`\n\n**[M1]**\n\n$t = 0  ,  2  \\text{or}  6$\n\n$t = 0$ is the instant the particle sets off from the origin, so the first return is the next root\n\n$t = 2  \\text{seconds}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sets your expression for $s$, which must be a cubic, equal to zero.\n> \n> **M1**: Solves the cubic. A minimally acceptable attempt takes out the factor of $t$ and reaches two brackets whose constants multiply to $12$. This mark depends on the previous method mark.\n> \n> **A1**: $t = 2$, explicitly stated.\n> \n> Because the candidate is told that one value is $t = 0$, factorising straight to two brackets is also accepted. Any method of solving the resulting quadratic is acceptable, including the formula and completing the square.\n> \n> Where no working is seen and either the times or the expression for $s$ is wrong, the second method mark is given only if a correct method for solving the equation is seen.\n\n> **[exam-tip]**\n> \"Returns to the origin\" means the displacement is zero again, not the velocity.\n> \n> - Set $s = 0$, not $v = 0$\n> - The velocity being zero would tell you when the particle turns round, which happens at a different time\n> \n> The word \"first\" is doing real work in this question.\n> \n> - The cubic has roots $0$, $2$ and $6$, and all three are valid times\n> - $t = 0$ is the start rather than a return, and $t = 6$ is the second return, so the answer is $t = 2$\n> \n> A cubic with no constant term is really a quadratic in disguise.\n> \n> - Take out the common factor of $t$ first and the rest factorises by inspection\n> - The official scheme accepts going straight to the two brackets, because the question has already told you that $t = 0$ is one of the roots",
+     "equations": [
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "am/s^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>/</mo><msup><mi mathvariant=\"normal\">s</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a space straight m divided by straight s squared"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "a=6t-16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn><mi>t</mi><mo>-</mo><mn>16</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a equals 6 t minus 16"
+      },
+      {
+       "latex": "t=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "t equals 0"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "m/s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">m</mi><mo>/</mo><mi mathvariant=\"normal\">s</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "straight m divided by straight s"
+      },
+      {
+       "latex": "P",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>P</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "P"
+      },
+      {
+       "latex": "t^{3} - 8 t^{2} + 12 t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>t</mi><mn>3</mn></msup><mo>-</mo><mn>8</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t^{3} - 8 t^{2} + 12 t = 0"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
+       "alt": "12"
+      },
+      {
+       "latex": "- 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>8</mn></math>",
+       "alt": "- 8"
+      },
+      {
+       "latex": "- 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>2</mn></math>",
+       "alt": "- 2"
+      },
+      {
+       "latex": "- 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>6</mn></math>",
+       "alt": "- 6"
+      },
+      {
+       "latex": "t = 0  ,  2  \\text{or}  6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn><mtext>&#xA0;</mtext><mo>,</mo><mtext>&#xA0;</mtext><mn>2</mn><mtext>&#xA0;</mtext><mtext>or</mtext><mtext>&#xA0;</mtext><mn>6</mn></math>",
+       "alt": "t = 0 \\textrm{ } , \\textrm{ } 2 \\textrm{ } \\text{or} \\textrm{ } 6"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 2  \\text{seconds}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>2</mn><mtext>&#xA0;</mtext><mtext>seconds</mtext></math>",
+       "alt": "t = 2 \\textrm{ } \\text{seconds}"
+      },
+      {
+       "latex": "s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>",
+       "alt": "s"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "12",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>",
+       "alt": "12"
+      },
+      {
+       "latex": "t = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "t = 2"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "s",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>",
+       "alt": "s"
+      },
+      {
+       "latex": "s = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "s = 0"
+      },
+      {
+       "latex": "v = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "v = 0"
+      },
+      {
+       "latex": "0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>",
+       "alt": "0"
+      },
+      {
+       "latex": "2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>",
+       "alt": "2"
+      },
+      {
+       "latex": "6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>",
+       "alt": "6"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      },
+      {
+       "latex": "t = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "t = 6"
+      },
+      {
+       "latex": "t = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "t = 2"
+      },
+      {
+       "latex": "t",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>",
+       "alt": "t"
+      },
+      {
+       "latex": "t = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "t = 0"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

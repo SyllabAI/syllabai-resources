@@ -1,0 +1,2164 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-09-17T01:03:49Z",
+ "source": {
+  "provider": "Save My Exams",
+  "page_url": "https://www.savemyexams.com/igcse/further-maths/edexcel/19/topic-questions/logarithms-indices-and-surds/logarithms-indices-and-exponentials/exam-questions/",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Edexcel",
+  "level": "IGCSE",
+  "subject": "Further Maths",
+  "exam_code": "4PM1",
+  "sme_course_id": "crs_27tQwKkFD9Ffnv2W",
+  "syllabus_version": "2017",
+  "sme_alias_path": "19"
+ },
+ "section": {
+  "slug": "logarithms-indices-and-surds",
+  "name": "Logarithms, Indices & Surds"
+ },
+ "topic": {
+  "id": "top_53JTxcrqvBc77MWz",
+  "slug": "logarithms-indices-and-exponentials",
+  "name": "Logarithms, Indices & Exponentials",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "exponential-functions",
+   "name": "Exponential Functions",
+   "revision_note_id": "rn_HqgZTdVPD4B4C375"
+  },
+  {
+   "slug": "logarithmic-functions",
+   "name": "Logarithmic Functions",
+   "revision_note_id": "rn_cKG36f4tb9TtJhxR"
+  },
+  {
+   "slug": "properties-of-indices",
+   "name": "Properties of Indices",
+   "revision_note_id": "rn_qTfcD7PNnPcPt8F2"
+  },
+  {
+   "slug": "properties-of-logarithms",
+   "name": "Properties of Logarithms",
+   "revision_note_id": "rn_6BPd2sq7cYs7mvXv"
+  },
+  {
+   "slug": "solving-exponential-equations",
+   "name": "Solving Exponential Equations",
+   "revision_note_id": "rn_dmX9FXM3mGpB3hgS"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_4bNHcsWGRQscgQfj",
+   "slug": "exam-questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 8
+  }
+ ],
+ "scrape": {
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "questions_missing": [],
+  "asset_failures": [],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/02/48801-screenshot-2026-02-09-230202.png": "001-graph-with-x-axis-ranging-from-7-to-1-and-y-axis.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/42739-igcse-fpm-fgqk9dybp7sjry5s-b-curve.png": "002-the-exam-answer-book-grid-with-the-smooth-curve-.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/61943-igcse-fpm-fgqk9dybp7sjry5s-c-line.png": "003-the-answer-book-grid-showing-the-curve-from-part.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/40652-q7-paper-1-specimen-edx-igcse-further-pure-maths.png": "004-graph-paper-with-x-and-y-axes-centred-x-axis-ran.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/42725-igcse-fpm-5ptvdzdk7t5z9hfy-b-curve.png": "005-the-exam-answer-book-grid-with-the-smooth-curve-.png",
+   "https://cdn.savemyexams.com/uploads/2026/08/26983-igcse-fpm-5ptvdzdk7t5z9hfy-c-line.png": "006-the-answer-book-grid-showing-the-curve-from-part.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_5pTVDzDK7T5z9Hfy",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_WktS3wbckxCgR7KH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Svk7s3qn6mTBnm4G"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table of values for\n\n`y space equals space 2 to the power of open parentheses x over 2 plus 1 close parentheses end exponent plus 1`\n\ngiving your answers to 2 decimal places where appropriate.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $y$ | 3 |   |   |   | 9 | 12.31 |",
+     "solution_md": "Substitute each missing value of $x$ into `y = 2^{\\left(\\frac{x}{2} + 1\\right)} + 1`\n\n- Work out the index first, then the power, then add 1\n\nFor $x = 1$ the index is $\\frac{1}{2} + 1 = 1 . 5$\n\n$y = 2^{1.5} + 1$\n\n$y = 3 . 828 \\dots$\n\nFor $x = 2$ the index is $\\frac{2}{2} + 1 = 2$\n\n$y = 2^{2} + 1$\n\n$y = 5$\n\nFor $x = 3$ the index is $\\frac{3}{2} + 1 = 2 . 5$\n\n$y = 2^{2.5} + 1$\n\n$y = 6 . 656 \\dots$\n\nRound to 2 decimal places where the value is not exact\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $y$ | 3 | **Final answer:** **3.83** | **Final answer:** **5** | **Final answer:** **6.66** | 9 | 12.31 |\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Two of the three missing values correct.\n> \n> **B1**: All three missing values correct, given to 2 decimal places where appropriate. Accept 5.00 for 5.\n\n> **[exam-tip]**\n> Work out the whole index before you use the power key on your calculator.\n> \n> - `2^{\\left(\\frac{x}{2} + 1\\right)}` is not the same as $2^{\\frac{x}{2}} + 1$, and mis-reading the bracket is the usual cause of a wrong table\n> \n> The two values already filled in are a free check on your method.\n> \n> - If your working does not reproduce $y = 9$ when $x = 4$, something is wrong before you go any further",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "x = 1"
+      },
+      {
+       "latex": "\\frac{1}{2} + 1 = 1 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "\\frac{1}{2} + 1 = 1 . 5"
+      },
+      {
+       "latex": "y = 2^{1.5} + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mn>2</mn><mrow><mn>1</mn><mo>.</mo><mn>5</mn></mrow></msup><mo>+</mo><mn>1</mn></math>",
+       "alt": "y = 2^{1 . 5} + 1"
+      },
+      {
+       "latex": "y = 3 . 828 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn><mo>.</mo><mn>828</mn><mo>&#x2026;</mo></math>",
+       "alt": "y = 3 . 828 \\ldots"
+      },
+      {
+       "latex": "x = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "x = 2"
+      },
+      {
+       "latex": "\\frac{2}{2} + 1 = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn></math>",
+       "alt": "\\frac{2}{2} + 1 = 2"
+      },
+      {
+       "latex": "y = 2^{2} + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>",
+       "alt": "y = 2^{2} + 1"
+      },
+      {
+       "latex": "y = 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>5</mn></math>",
+       "alt": "y = 5"
+      },
+      {
+       "latex": "x = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "x = 3"
+      },
+      {
+       "latex": "\\frac{3}{2} + 1 = 2 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "\\frac{3}{2} + 1 = 2 . 5"
+      },
+      {
+       "latex": "y = 2^{2.5} + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mn>2</mn><mrow><mn>2</mn><mo>.</mo><mn>5</mn></mrow></msup><mo>+</mo><mn>1</mn></math>",
+       "alt": "y = 2^{2 . 5} + 1"
+      },
+      {
+       "latex": "y = 6 . 656 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>6</mn><mo>.</mo><mn>656</mn><mo>&#x2026;</mo></math>",
+       "alt": "y = 6 . 656 \\ldots"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2^{\\frac{x}{2}} + 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mfrac><mi>x</mi><mn>2</mn></mfrac></msup><mo>+</mo><mn>1</mn></math>",
+       "alt": "2^{\\frac{x}{2}} + 1"
+      },
+      {
+       "latex": "y = 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>9</mn></math>",
+       "alt": "y = 9"
+      },
+      {
+       "latex": "x = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math>",
+       "alt": "x = 4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pdhrMKhcqy94QV6F",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_B8RPKm62HHVjhSWV"
+     ],
+     "part_tier": null,
+     "problem_md": "On the grid, draw the graph of `y space equals space 2 to the power of open parentheses x over 2 plus 1 close parentheses end exponent plus 1` for `space 0 less-than or slanted equal to x space less-than or slanted equal to space 5`\n\n![Graph paper with x and y axes centred. X-axis ranges from -5 to 5, y-axis from -5 to 14, with grid squares visible.](assets/004-graph-paper-with-x-and-y-axes-centred-x-axis-ran.png)",
+     "solution_md": "Plot the six points from the table, then join them with a single smooth curve\n\n- Plot each point to within half a small square\n- The curve rises slowly at first and then more steeply, so do not join the points with straight segments\n\n![The exam answer-book grid with the smooth curve y = 2^(x/2 + 1) + 1 drawn from (0, 3) rising to (5, 12.31).](assets/005-the-exam-answer-book-grid-with-the-smooth-curve-.png)\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: All points plotted within an accuracy of half a small square.\n> \n> **B1**: A smooth curve drawn through their plotted points. Follow through from an incorrect table in part (a).\n\n> **[exam-tip]**\n> Use a sharp pencil and mark each point with a small cross or dot, not a blob.\n> \n> - Half a small square is the tolerance, so a thick mark can put you outside it\n> \n> Join the points freehand in one smooth sweep.\n> \n> - Drawing straight lines between the points, or going over the curve repeatedly until it is furry, both lose the second mark"
+    },
+    {
+     "id": "qstnprt_VDT9h52kDWZSzp5s",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "4PM1/01",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kcmqw6MvM9Yf43W8",
+      "spcpt_GrBVPqh2RRq5kQGY"
+     ],
+     "part_tier": null,
+     "problem_md": "By drawing a suitable straight line on the grid, obtain an estimate, to 1 decimal place, of the root of the equation $\\mathrm{log}_{2}(4x--6)^{2}--x=2$ in the interval `0 space less-than or slanted equal to space x space less-than or slanted equal to space 5`",
+     "solution_md": "The graph you have drawn is `y equals 2 to the power of open parentheses x over 2 plus 1 close parentheses end exponent plus 1`, so rearrange the equation until that expression appears\n\nStart with the equation and use the power law on the left\n\n`2 \\text{log}_{2} \\left(4 x - 6\\right) - x = 2`\n\n`2 \\text{log}_{2} \\left(4 x - 6\\right) = x + 2`\n\n**[M1]**\n\nDivide through by 2\n\n`\\text{log}_{2} \\left(4 x - 6\\right) = \\frac{x}{2} + 1`\n\n**[M1]**\n\nWrite this in index form, which produces the expression from the graph\n\n`4 x - 6 = 2^{\\left(\\frac{x}{2} + 1\\right)}`\n\nAdd 1 to both sides, so that the right-hand side is exactly $y$\n\n`4 x - 5 = 2^{\\left(\\frac{x}{2} + 1\\right)} + 1`\n\nSo the straight line to draw is $y = 4 x - 5$\n\n- Where it crosses the curve, the two sides of the equation are equal, and that is the root\n\n![The answer-book grid showing the curve from part (b) with the straight line y = 4x - 5 drawn across it, meeting the curve at approximately x = 2.8.](assets/006-the-answer-book-grid-showing-the-curve-from-part.png)\n\n**[M1]**\n\nRead off the $x$ coordinate of the intersection, to 1 decimal place\n\n$x = 2 . 8$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the power law to reach `2 \\text{log}_{2} \\left(4 x - 6\\right) = x + 2` or an equivalent form.\n> \n> **M1**: Divides by 2 to reach `\\text{log}_{2} \\left(4 x - 6\\right) = \\frac{x}{2} + 1`.\n> \n> **M1**: Identifies and draws the straight line $y = 4 x - 5$ on the grid.\n> \n> **A1**: $x = 2 . 8$. Accept answers in the range 2.7 to 2.9, since the value is read from a graph.\n\n> **[exam-tip]**\n> The phrase by drawing a suitable straight line tells you the plan: rearrange until one side is exactly the $y$ of the curve you already have.\n> \n> - Whatever is left on the other side is the line, and it will always come out linear\n> \n> Aim to finish with the printed curve expression untouched on one side.\n> \n> - Here that means getting to `2^{\\left(\\frac{x}{2} + 1\\right)} + 1`, which is why the last step is to add 1 to both sides\n> \n> Draw the line right across the grid with a ruler.\n> \n> - A short line stopping near the curve makes the intersection hard to read, and the answer is only as accurate as the drawing",
+     "equations": [
+      {
+       "latex": "\\mathrm{log}_{2}(4x--6)^{2}--x=2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>log</mi><mn>2</mn></msub><mo>&#160;</mo><msup><mrow><mo>(</mo><mn>4</mn><mi>x</mi><mo>&#160;</mo><mo>&#8211;</mo><mo>&#160;</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&#160;</mo><mo>&#160;</mo><mo>&#8211;</mo><mo>&#160;</mo><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "log subscript 2 space left parenthesis 4 x space – space 6 right parenthesis squared space space – space x space equals space 2"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y = 4 x - 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>5</mn></math>",
+       "alt": "y = 4 x - 5"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 2 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "x = 2.8"
+      },
+      {
+       "latex": "y = 4 x - 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>-</mo><mn>5</mn></math>",
+       "alt": "y = 4 x - 5"
+      },
+      {
+       "latex": "x = 2 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "x = 2.8"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BcXRTvFXh3wD9C8N",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_xYSDyVkMkw5Knq58",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "Specimen",
+      "number": "Paper 2",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rY2z2249fyCsQx3n",
+      "spcpt_kcmqw6MvM9Yf43W8",
+      "spcpt_bqzd27kqmFf8PQfn"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the equation  $\\mathrm{log}_{2}x+6\\mathrm{log}_{x}2=7$",
+     "solution_md": "Every logarithm has to be in the same base before the equation can be solved\n\n- The awkward term here is $\\text{log}_{x} 2$, so change that one into base 2\n\nUse the change of base rule\n\n$\\text{log}_{x} 2 = \\frac{\\text{log}_{2}2}{\\text{log}_{2}x}$\n\nThe numerator is $\\text{log}_{2} 2$, which is 1\n\n$\\text{log}_{x} 2 = \\frac{1}{\\text{log}_{2}x}$\n\n**[B1]**\n\nSubstitute this into the equation given in the question\n\n$\\text{log}_{2} x + \\frac{6}{\\text{log}_{2}x} = 7$\n\n**[M1]**\n\nMultiply every term by $\\text{log}_{2} x$ to clear the fraction\n\n`\\left(\\text{log}_{2} x\\right)^{2} + 6 = 7 \\text{log}_{2} x`\n\n**[M1]**\n\nCollect all the terms on one side, giving a quadratic in $\\text{log}_{2} x$\n\n`\\left(\\text{log}_{2} x\\right)^{2} - 7 \\text{log}_{2} x + 6 = 0`\n\n**[A1]**\n\nFactorise, treating $\\text{log}_{2} x$ as the unknown\n\n- It may help to write $y$ in place of $\\text{log}_{2} x$ while you factorise\n\n`\\left(\\text{log}_{2} x - 6\\right) \\left(\\text{log}_{2} x - 1\\right) = 0`\n\n**[M1]**\n\nEach bracket gives a value of $\\text{log}_{2} x$\n\n$\\text{log}_{2} x = 6$\n\n$\\text{log}_{2} x = 1$\n\n**[M1]**\n\nConvert each one back into a value of $x$\n\n- $\\text{log}_{2} x = k$ means $x = 2^{k}$\n\n$x = 2^{6}$\n\n$x = 2^{1}$\n\n$x=2,x=64$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Uses the change of base rule to write $\\text{log}_{x} 2$ as $\\frac{1}{\\text{log}_{2}x}$.\n> \n> **M1**: Substitutes this into the equation, so that every logarithm is in base 2.\n> \n> **M1**: Multiplies through by $\\text{log}_{2} x$ and collects the terms on one side.\n> \n> **A1**: Correct three-term quadratic `\\left(\\text{log}_{2} x\\right)^{2} - 7 \\text{log}_{2} x + 6 = 0`.\n> \n> **M1**: A complete and correct method to solve your three-term quadratic, by factorising or by using the formula.\n> \n> **M1**: Converts at least one value of $\\text{log}_{2} x$ back into a value of $x$.\n> \n> **A1**: Both $x = 2$ and $x = 64$.\n\n> **[exam-tip]**\n> The whole question turns on getting every logarithm into the same base first.\n> \n> - The change of base rule is $\\text{log}_{a} b = \\frac{\\text{log}_{c}b}{\\text{log}_{c}a}$, and choosing base 2 here is what makes the numerator collapse to 1\n> \n> Worth remembering as a shortcut: $\\text{log}_{x} 2$ and $\\text{log}_{2} x$ are reciprocals of one another.\n> \n> Once you have a quadratic, keep track of what you are solving for.\n> \n> - You are finding $\\text{log}_{2} x$, not $x$, so stopping at $\\text{log}_{2} x = 6$ throws away the final mark",
+     "equations": [
+      {
+       "latex": "\\mathrm{log}_{2}x+6\\mathrm{log}_{x}2=7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>log</mi><mn>2</mn></msub><mi>x</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>6</mn><msub><mi>log</mi><mi>x</mi></msub><mo>&#160;</mo><mo>&#160;</mo><mn>2</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>7</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "log subscript 2 x space plus space 6 log subscript x space space 2 space equals space 7"
+      },
+      {
+       "latex": "\\text{log}_{x} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn></math>",
+       "alt": "\\text{log}_{x} 2"
+      },
+      {
+       "latex": "\\text{log}_{x} 2 = \\frac{\\text{log}_{2}2}{\\text{log}_{2}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn><mo>=</mo><mfrac><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mn>2</mn></mrow><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "\\text{log}_{x} 2 = \\frac{\\text{log}_{2} 2}{\\text{log}_{2} x}"
+      },
+      {
+       "latex": "\\text{log}_{2} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>2</mn></math>",
+       "alt": "\\text{log}_{2} 2"
+      },
+      {
+       "latex": "\\text{log}_{x} 2 = \\frac{1}{\\text{log}_{2}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn><mo>=</mo><mfrac><mn>1</mn><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "\\text{log}_{x} 2 = \\frac{1}{\\text{log}_{2} x}"
+      },
+      {
+       "latex": "\\text{log}_{2} x + \\frac{6}{\\text{log}_{2}x} = 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>+</mo><mfrac><mn>6</mn><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac><mo>=</mo><mn>7</mn></math>",
+       "alt": "\\text{log}_{2} x + \\frac{6}{\\text{log}_{2} x} = 7"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "\\text{log}_{2} x = 6"
+      },
+      {
+       "latex": "\\text{log}_{2} x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{2} x = 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{log}_{2} x = k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mi>k</mi></math>",
+       "alt": "\\text{log}_{2} x = k"
+      },
+      {
+       "latex": "x = 2^{k}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mi>k</mi></msup></math>",
+       "alt": "x = 2^{k}"
+      },
+      {
+       "latex": "x = 2^{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup></math>",
+       "alt": "x = 2^{6}"
+      },
+      {
+       "latex": "x = 2^{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>1</mn></msup></math>",
+       "alt": "x = 2^{1}"
+      },
+      {
+       "latex": "x=2,x=64",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><mn>64</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals 2 comma space space x equals 64"
+      },
+      {
+       "latex": "\\text{log}_{x} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn></math>",
+       "alt": "\\text{log}_{x} 2"
+      },
+      {
+       "latex": "\\frac{1}{\\text{log}_{2}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "\\frac{1}{\\text{log}_{2} x}"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "x = 2"
+      },
+      {
+       "latex": "x = 64",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>64</mn></math>",
+       "alt": "x = 64"
+      },
+      {
+       "latex": "\\text{log}_{a} b = \\frac{\\text{log}_{c}b}{\\text{log}_{c}a}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>a</mi></msub><mi>b</mi><mo>=</mo><mfrac><mrow><msub><mtext>log</mtext><mi>c</mi></msub><mi>b</mi></mrow><mrow><msub><mtext>log</mtext><mi>c</mi></msub><mi>a</mi></mrow></mfrac></math>",
+       "alt": "\\text{log}_{a} b = \\frac{\\text{log}_{c} b}{\\text{log}_{c} a}"
+      },
+      {
+       "latex": "\\text{log}_{x} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn></math>",
+       "alt": "\\text{log}_{x} 2"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{log}_{2} x = 6",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mn>6</mn></math>",
+       "alt": "\\text{log}_{2} x = 6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_hwXQs4d5qKxht6BZ",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_83pyrQs36z9PZSwC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 1",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_bqzd27kqmFf8PQfn"
+     ],
+     "part_tier": null,
+     "problem_md": "Find the value of $a$ such that $\\mathrm{log}_{a}8=\\frac{3}{4}$",
+     "solution_md": "Rewrite the logarithm in index form\n\n- $\\text{log}_{a} 8 = \\frac{3}{4}$ means that $a$ raised to the power $\\frac{3}{4}$ gives 8\n\n$a^{\\frac{3}{4}} = 8$\n\nRaise both sides to the power $\\frac{4}{3}$, which is the reciprocal of $\\frac{3}{4}$\n\n$a = 8^{\\frac{4}{3}}$\n\n**[M1]**\n\nThe denominator 3 means take the cube root, and the numerator 4 means raise to the fourth power\n\n`a = \\left(\\sqrt[3]{8}\\right)^{4}`\n\n$a = 2^{4}$\n\n$a = 16$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Rewrites the equation in index form as $a^{\\frac{3}{4}} = 8$, or reaches $a = 8^{\\frac{4}{3}}$.\n> \n> **A1**: $a = 16$. Allow this mark even where the intermediate index notation is written loosely.\n\n> **[exam-tip]**\n> A logarithm statement and an index statement say the same thing two different ways.\n> \n> - $\\text{log}_{a} b = c$ is exactly the same as $a^{c} = b$, and swapping to the index form is almost always the way in\n> \n> To undo a fractional power, raise to its reciprocal.\n> \n> - Take the root first and the power second, so the numbers stay small: `\\sqrt[3]{8} = 2` is much easier than $8^{4} = 4096$",
+     "equations": [
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "\\mathrm{log}_{a}8=\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>log</mi><mi>a</mi></msub><mo>&#160;</mo><mn>8</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "log subscript a space 8 space equals space 3 over 4"
+      },
+      {
+       "latex": "\\text{log}_{a} 8 = \\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>a</mi></msub><mn>8</mn><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\text{log}_{a} 8 = \\frac{3}{4}"
+      },
+      {
+       "latex": "a",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>",
+       "alt": "a"
+      },
+      {
+       "latex": "\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{3}{4}"
+      },
+      {
+       "latex": "a^{\\frac{3}{4}} = 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mfrac><mn>3</mn><mn>4</mn></mfrac></msup><mo>=</mo><mn>8</mn></math>",
+       "alt": "a^{\\frac{3}{4}} = 8"
+      },
+      {
+       "latex": "\\frac{4}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{4}{3}"
+      },
+      {
+       "latex": "\\frac{3}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{3}{4}"
+      },
+      {
+       "latex": "a = 8^{\\frac{4}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>8</mn><mfrac><mn>4</mn><mn>3</mn></mfrac></msup></math>",
+       "alt": "a = 8^{\\frac{4}{3}}"
+      },
+      {
+       "latex": "a = 2^{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup></math>",
+       "alt": "a = 2^{4}"
+      },
+      {
+       "latex": "a = 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>16</mn></math>",
+       "alt": "a = 16"
+      },
+      {
+       "latex": "a^{\\frac{3}{4}} = 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mfrac><mn>3</mn><mn>4</mn></mfrac></msup><mo>=</mo><mn>8</mn></math>",
+       "alt": "a^{\\frac{3}{4}} = 8"
+      },
+      {
+       "latex": "a = 8^{\\frac{4}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>8</mn><mfrac><mn>4</mn><mn>3</mn></mfrac></msup></math>",
+       "alt": "a = 8^{\\frac{4}{3}}"
+      },
+      {
+       "latex": "a = 16",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>16</mn></math>",
+       "alt": "a = 16"
+      },
+      {
+       "latex": "\\text{log}_{a} b = c",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>a</mi></msub><mi>b</mi><mo>=</mo><mi>c</mi></math>",
+       "alt": "\\text{log}_{a} b = c"
+      },
+      {
+       "latex": "a^{c} = b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mi>c</mi></msup><mo>=</mo><mi>b</mi></math>",
+       "alt": "a^{c} = b"
+      },
+      {
+       "latex": "8^{4} = 4096",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>4</mn></msup><mo>=</mo><mn>4096</mn></math>",
+       "alt": "8^{4} = 4096"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kPJGJDyHhw4QCpwH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 1",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rY2z2249fyCsQx3n",
+      "spcpt_kcmqw6MvM9Yf43W8"
+     ],
+     "part_tier": null,
+     "problem_md": "Show that\n\n`3 x log subscript 2 x space minus space 4 log subscript 16 8 space plus space 6 x log subscript 4 8 space minus space log subscript 2 x space equals space log subscript 2 open parentheses 8 x close parentheses to the power of 3 x minus 1 end exponent`",
+     "solution_md": "The four terms are in three different bases, so nothing can be combined yet\n\n- Change the two awkward terms, $\\text{log}_{16} 8$ and $\\text{log}_{4} 8$, into base 2\n\nApply the change of base rule to each of them\n\n$4 \\text{log}_{16} 8 = \\frac{4\\text{log}_{2}8}{\\text{log}_{2}16}$\n\n$6 x \\text{log}_{4} 8 = \\frac{6x\\text{log}_{2}8}{\\text{log}_{2}4}$\n\n**[M1]**\n\nEvaluate the two denominators\n\n- $\\text{log}_{2} 16 = 4$ and $\\text{log}_{2} 4 = 2$\n\n$4 \\text{log}_{16} 8 = \\text{log}_{2} 8$\n\n$6 x \\text{log}_{4} 8 = 3 x \\text{log}_{2} 8$\n\nThe left-hand side of the identity now has every logarithm in base 2\n\n$3 x \\text{log}_{2} x - \\text{log}_{2} 8 + 3 x \\text{log}_{2} 8 - \\text{log}_{2} x$\n\n**[M1]**\n\nGroup the two $\\text{log}_{2} x$ terms together, and the two $\\text{log}_{2} 8$ terms together\n\n`= \\left(3 x - 1\\right) \\text{log}_{2} x + \\left(3 x - 1\\right) \\text{log}_{2} 8`\n\nTake out the common factor of `\\left(3 x - 1\\right)`\n\n`= \\left(3 x - 1\\right) \\left(\\text{log}_{2} x + \\text{log}_{2} 8\\right)`\n\nUse the addition law to combine the two logarithms into one\n\n`= \\left(3 x - 1\\right) \\text{log}_{2} 8 x`\n\n**[M1]**\n\nFinally use the power law, which moves a multiplier up to become an index\n\n`\\left(3 x - 1\\right) \\text{log}_{2} 8 x = \\text{log}_{2} \\left(8 x\\right)^{3 x - 1} \\textrm{ }\\text{as required}`\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the change of base rule on both $\\text{log}_{16} 8$ and $\\text{log}_{4} 8$, writing each with base 2.\n> \n> **M1**: Evaluates the denominators to reach $3 x \\text{log}_{2} x - \\text{log}_{2} 8 + 3 x \\text{log}_{2} 8 - \\text{log}_{2} x$, or an equivalent correct expression.\n> \n> **M1**: Factorises out `\\left(3 x - 1\\right)` and uses the addition law to reach `\\left(3 x - 1\\right) \\text{log}_{2} 8 x`. Allow the equivalent route of writing the expression as $3 x \\text{log}_{2} 8 x - \\text{log}_{2} 8 x$ first.\n> \n> **A1**: Reaches the printed result with no errors seen. An equivalent final step, such as `\\text{log}_{2} \\left(8 x\\right)^{3 x} + \\text{log}_{2} \\left(8 x\\right)^{- 1}` combined into a single logarithm, is acceptable.\n\n> **[exam-tip]**\n> With three different bases in one expression, converting to a common base is always the first move.\n> \n> - Base 2 is the natural choice here because 4, 8 and 16 are all powers of 2\n> \n> The factor `\\left(3 x - 1\\right)` is the clue that the printed answer has $3 x - 1$ as an index.\n> \n> - Work backwards from the target if you get stuck: the power law tells you a bracket outside a logarithm must have come from an index\n> \n> This is a show that question, so every step must be visible.\n> \n> - Jumping from the change of base straight to the answer will not score the middle marks even if the final line is right",
+     "equations": [
+      {
+       "latex": "\\text{log}_{16} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>16</mn></msub><mn>8</mn></math>",
+       "alt": "\\text{log}_{16} 8"
+      },
+      {
+       "latex": "\\text{log}_{4} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><mn>8</mn></math>",
+       "alt": "\\text{log}_{4} 8"
+      },
+      {
+       "latex": "4 \\text{log}_{16} 8 = \\frac{4\\text{log}_{2}8}{\\text{log}_{2}16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msub><mtext>log</mtext><mn>16</mn></msub><mn>8</mn><mo>=</mo><mfrac><mrow><mn>4</mn><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn></mrow><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mn>16</mn></mrow></mfrac></math>",
+       "alt": "4 \\text{log}_{16} 8 = \\frac{4 \\text{log}_{2} 8}{\\text{log}_{2} 16}"
+      },
+      {
+       "latex": "6 x \\text{log}_{4} 8 = \\frac{6x\\text{log}_{2}8}{\\text{log}_{2}4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><msub><mtext>log</mtext><mn>4</mn></msub><mn>8</mn><mo>=</mo><mfrac><mrow><mn>6</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn></mrow><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn></mrow></mfrac></math>",
+       "alt": "6 x \\text{log}_{4} 8 = \\frac{6 x \\text{log}_{2} 8}{\\text{log}_{2} 4}"
+      },
+      {
+       "latex": "\\text{log}_{2} 16 = 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>16</mn><mo>=</mo><mn>4</mn></math>",
+       "alt": "\\text{log}_{2} 16 = 4"
+      },
+      {
+       "latex": "\\text{log}_{2} 4 = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn><mo>=</mo><mn>2</mn></math>",
+       "alt": "\\text{log}_{2} 4 = 2"
+      },
+      {
+       "latex": "4 \\text{log}_{16} 8 = \\text{log}_{2} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msub><mtext>log</mtext><mn>16</mn></msub><mn>8</mn><mo>=</mo><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn></math>",
+       "alt": "4 \\text{log}_{16} 8 = \\text{log}_{2} 8"
+      },
+      {
+       "latex": "6 x \\text{log}_{4} 8 = 3 x \\text{log}_{2} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><msub><mtext>log</mtext><mn>4</mn></msub><mn>8</mn><mo>=</mo><mn>3</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn></math>",
+       "alt": "6 x \\text{log}_{4} 8 = 3 x \\text{log}_{2} 8"
+      },
+      {
+       "latex": "3 x \\text{log}_{2} x - \\text{log}_{2} 8 + 3 x \\text{log}_{2} 8 - \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>-</mo><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn><mo>+</mo><mn>3</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn><mo>-</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "3 x \\text{log}_{2} x - \\text{log}_{2} 8 + 3 x \\text{log}_{2} 8 - \\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn></math>",
+       "alt": "\\text{log}_{2} 8"
+      },
+      {
+       "latex": "\\text{log}_{16} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>16</mn></msub><mn>8</mn></math>",
+       "alt": "\\text{log}_{16} 8"
+      },
+      {
+       "latex": "\\text{log}_{4} 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><mn>8</mn></math>",
+       "alt": "\\text{log}_{4} 8"
+      },
+      {
+       "latex": "3 x \\text{log}_{2} x - \\text{log}_{2} 8 + 3 x \\text{log}_{2} 8 - \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>-</mo><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn><mo>+</mo><mn>3</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn><mo>-</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "3 x \\text{log}_{2} x - \\text{log}_{2} 8 + 3 x \\text{log}_{2} 8 - \\text{log}_{2} x"
+      },
+      {
+       "latex": "3 x \\text{log}_{2} 8 x - \\text{log}_{2} 8 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn><mi>x</mi><mo>-</mo><msub><mtext>log</mtext><mn>2</mn></msub><mn>8</mn><mi>x</mi></math>",
+       "alt": "3 x \\text{log}_{2} 8 x - \\text{log}_{2} 8 x"
+      },
+      {
+       "latex": "3 x - 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>-</mo><mn>1</mn></math>",
+       "alt": "3 x - 1"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_C3xpX82DmYDtJVfT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "Paper 1",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kcmqw6MvM9Yf43W8"
+     ],
+     "part_tier": null,
+     "problem_md": "Hence solve the equation   $3x\\mathrm{log}_{2}x-4\\mathrm{log}_{16}8+6x\\mathrm{log}_{4}8-\\mathrm{log}_{2}x=0$",
+     "solution_md": "The word hence means you should use the identity you proved in part (b)\n\n- The whole left-hand side can be replaced by the single logarithm\n\n`\\text{log}_{2} \\left(8 x\\right)^{3 x - 1} = 0`\n\nA logarithm equals zero only when whatever is inside it equals 1\n\n- $\\text{log}_{2} 1 = 0$, because $2^{0} = 1$\n\n`\\left(8 x\\right)^{3 x - 1} = 1`\n\n**[M1]**\n\nThere are two separate ways a power can equal 1\n\n- The index could be zero, since anything to the power zero is 1\n- The base could be 1, since 1 to any power is 1\n\nTake the index equal to zero first\n\n$3 x - 1 = 0$\n\n$x = \\frac{1}{3}$\n\n**[A1]**\n\nNow take the base equal to 1\n\n$8 x = 1$\n\n$x = \\frac{1}{8}$\n\nBoth values are positive, so $\\text{log}_{2} x$ exists for each of them and both are valid\n\n$x=\\frac{1}{3},x=\\frac{1}{8}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Sets the result of part (b) equal to zero and removes the logarithm, reaching `\\left(8 x\\right)^{3 x - 1} = 1` or `\\left(3 x - 1\\right) \\text{log}_{2} 8 x = 0`.\n> \n> **A1**: Either $x = \\frac{1}{3}$ or $x = \\frac{1}{8}$.\n> \n> **A1**: Both $x = \\frac{1}{3}$ and $x = \\frac{1}{8}$.\n\n> **[exam-tip]**\n> This part is short only because part (b) did the work, so do not start again from the original four terms.\n> \n> The step that costs marks is finding only one of the two solutions.\n> \n> - A power equals 1 either because the index is zero or because the base is 1, and here each case gives a different value of $x$\n> \n> Always check that each solution keeps every logarithm defined.\n> \n> - Any value making $x$ or $8 x$ zero or negative would have to be rejected, though here both solutions are fine",
+     "equations": [
+      {
+       "latex": "3x\\mathrm{log}_{2}x-4\\mathrm{log}_{16}8+6x\\mathrm{log}_{4}8-\\mathrm{log}_{2}x=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mi>x</mi><msub><mi>log</mi><mn>2</mn></msub><mi>x</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>4</mn><msub><mi>log</mi><mn>16</mn></msub><mn>8</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>6</mn><mi>x</mi><msub><mi>log</mi><mn>4</mn></msub><mn>8</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msub><mi>log</mi><mn>2</mn></msub><mi>x</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 x log subscript 2 x space minus space 4 log subscript 16 8 space plus space 6 x log subscript 4 8 space minus space log subscript 2 x space equals space 0"
+      },
+      {
+       "latex": "\\text{log}_{2} 1 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>1</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "\\text{log}_{2} 1 = 0"
+      },
+      {
+       "latex": "2^{0} = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>0</mn></msup><mo>=</mo><mn>1</mn></math>",
+       "alt": "2^{0} = 1"
+      },
+      {
+       "latex": "3 x - 1 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "3 x - 1 = 0"
+      },
+      {
+       "latex": "x = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "x = \\frac{1}{3}"
+      },
+      {
+       "latex": "8 x = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "8 x = 1"
+      },
+      {
+       "latex": "x = \\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>",
+       "alt": "x = \\frac{1}{8}"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "x=\\frac{1}{3},x=\\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mo>&#160;</mo><mo>&#160;</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x equals 1 third comma space space x equals 1 over 8"
+      },
+      {
+       "latex": "x = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "x = \\frac{1}{3}"
+      },
+      {
+       "latex": "x = \\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>",
+       "alt": "x = \\frac{1}{8}"
+      },
+      {
+       "latex": "x = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "x = \\frac{1}{3}"
+      },
+      {
+       "latex": "x = \\frac{1}{8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>",
+       "alt": "x = \\frac{1}{8}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "8 x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi></math>",
+       "alt": "8 x"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BFw3TPQq9dBgTYzQ",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_jD5nXptzfhjBMkVB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "Paper 2",
+      "question_number": 6,
+      "question_part": "i"
+     },
+     "spec_point_ids": [
+      "spcpt_rY2z2249fyCsQx3n",
+      "spcpt_bqzd27kqmFf8PQfn"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the equation  `5 open parentheses log subscript b 9 plus log subscript b 3 close parentheses equals 3`",
+     "solution_md": "Both logarithms are in base $b$ already, so the laws of logarithms can be used straight away\n\nUse the power law to write $\\text{log}_{b} 9$ in terms of $\\text{log}_{b} 3$\n\n- $9 = 3^{2}$, so $\\text{log}_{b} 9 = 2 \\text{log}_{b} 3$\n\n`5 \\left(2 \\text{log}_{b} 3 + \\text{log}_{b} 3\\right) = 3`\n\n**[M1]**\n\nCollect the like terms inside the bracket, then divide by 5\n\n$3 \\text{log}_{b} 3 = \\frac{3}{5}$\n\n$\\text{log}_{b} 3 = \\frac{1}{5}$\n\n**[M1]**\n\nRewrite this in index form\n\n- $\\text{log}_{b} 3 = \\frac{1}{5}$ means $b$ raised to the power $\\frac{1}{5}$ gives 3\n\n$b^{\\frac{1}{5}} = 3$\n\n**[M1]**\n\nRaise both sides to the power 5\n\n$b = 243$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the power law to write $\\text{log}_{b} 9$ as $2 \\text{log}_{b} 3$, giving an equation in $\\text{log}_{b} 3$ only.\n> \n> **M1**: Solves as far as $\\text{log}_{b} 3 = \\frac{1}{5}$.\n> \n> **M1**: Rewrites your logarithm equation in index form, reaching $b^{\\frac{1}{5}} = 3$.\n> \n> **A1**: $b = 243$. Accept $3^{5}$.\n> \n> Both approved methods earn full marks. If instead you combine the two logarithms first, the marks are awarded as follows.\n> \n> **M1**: Uses the addition law to reach $5 \\text{log}_{b} 27 = 3$.\n> \n> **M1**: Solves as far as $\\text{log}_{b} 27 = \\frac{3}{5}$.\n> \n> **M1**: Rewrites in index form, reaching $b^{\\frac{3}{5}} = 27$.\n> \n> **A1**: $b = 243$. Accept $27^{\\frac{5}{3}}$.\n\n> **[exam-tip]**\n> There are two equally good first moves here, and both are worth full marks.\n> \n> - Either use the power law to turn everything into $\\text{log}_{b} 3$, or use the addition law to combine the pair into $\\text{log}_{b} 27$\n> - The power law route is slightly kinder at the end, because $b^{\\frac{1}{5}} = 3$ leads straight to $3^{5}$\n> \n> Whenever you are solving for the base itself, switch to index form as soon as you can.\n> \n> - A logarithm equation with the unknown in the base is hard to work with, but $b^{\\frac{1}{5}}=3$ is just an index equation",
+     "equations": [
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "\\text{log}_{b} 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>9</mn></math>",
+       "alt": "\\text{log}_{b} 9"
+      },
+      {
+       "latex": "\\text{log}_{b} 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn></math>",
+       "alt": "\\text{log}_{b} 3"
+      },
+      {
+       "latex": "9 = 3^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup></math>",
+       "alt": "9 = 3^{2}"
+      },
+      {
+       "latex": "\\text{log}_{b} 9 = 2 \\text{log}_{b} 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>9</mn><mo>=</mo><mn>2</mn><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn></math>",
+       "alt": "\\text{log}_{b} 9 = 2 \\text{log}_{b} 3"
+      },
+      {
+       "latex": "3 \\text{log}_{b} 3 = \\frac{3}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+       "alt": "3 \\text{log}_{b} 3 = \\frac{3}{5}"
+      },
+      {
+       "latex": "\\text{log}_{b} 3 = \\frac{1}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\text{log}_{b} 3 = \\frac{1}{5}"
+      },
+      {
+       "latex": "\\text{log}_{b} 3 = \\frac{1}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\text{log}_{b} 3 = \\frac{1}{5}"
+      },
+      {
+       "latex": "b",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>",
+       "alt": "b"
+      },
+      {
+       "latex": "\\frac{1}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\frac{1}{5}"
+      },
+      {
+       "latex": "b^{\\frac{1}{5}} = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo>=</mo><mn>3</mn></math>",
+       "alt": "b^{\\frac{1}{5}} = 3"
+      },
+      {
+       "latex": "b = 243",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>243</mn></math>",
+       "alt": "b = 243"
+      },
+      {
+       "latex": "\\text{log}_{b} 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>9</mn></math>",
+       "alt": "\\text{log}_{b} 9"
+      },
+      {
+       "latex": "2 \\text{log}_{b} 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn></math>",
+       "alt": "2 \\text{log}_{b} 3"
+      },
+      {
+       "latex": "\\text{log}_{b} 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn></math>",
+       "alt": "\\text{log}_{b} 3"
+      },
+      {
+       "latex": "\\text{log}_{b} 3 = \\frac{1}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\text{log}_{b} 3 = \\frac{1}{5}"
+      },
+      {
+       "latex": "b^{\\frac{1}{5}} = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo>=</mo><mn>3</mn></math>",
+       "alt": "b^{\\frac{1}{5}} = 3"
+      },
+      {
+       "latex": "b = 243",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>243</mn></math>",
+       "alt": "b = 243"
+      },
+      {
+       "latex": "3^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>5</mn></msup></math>",
+       "alt": "3^{5}"
+      },
+      {
+       "latex": "5 \\text{log}_{b} 27 = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msub><mtext>log</mtext><mi>b</mi></msub><mn>27</mn><mo>=</mo><mn>3</mn></math>",
+       "alt": "5 \\text{log}_{b} 27 = 3"
+      },
+      {
+       "latex": "\\text{log}_{b} 27 = \\frac{3}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>27</mn><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\text{log}_{b} 27 = \\frac{3}{5}"
+      },
+      {
+       "latex": "b^{\\frac{3}{5}} = 27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mfrac><mn>3</mn><mn>5</mn></mfrac></msup><mo>=</mo><mn>27</mn></math>",
+       "alt": "b^{\\frac{3}{5}} = 27"
+      },
+      {
+       "latex": "b = 243",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>243</mn></math>",
+       "alt": "b = 243"
+      },
+      {
+       "latex": "27^{\\frac{5}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mn>27</mn><mfrac><mn>5</mn><mn>3</mn></mfrac></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "27 to the power of 5 over 3 end exponent"
+      },
+      {
+       "latex": "\\text{log}_{b} 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>3</mn></math>",
+       "alt": "\\text{log}_{b} 3"
+      },
+      {
+       "latex": "\\text{log}_{b} 27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>b</mi></msub><mn>27</mn></math>",
+       "alt": "\\text{log}_{b} 27"
+      },
+      {
+       "latex": "b^{\\frac{1}{5}} = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo>=</mo><mn>3</mn></math>",
+       "alt": "b^{\\frac{1}{5}} = 3"
+      },
+      {
+       "latex": "3^{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>5</mn></msup></math>",
+       "alt": "3^{5}"
+      },
+      {
+       "latex": "b^{\\frac{1}{5}}=3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>b</mi><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "b to the power of 1 fifth end exponent equals 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FfJNcJ8J6hg6dm8G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "Paper 2",
+      "question_number": 6,
+      "question_part": "ii"
+     },
+     "spec_point_ids": [
+      "spcpt_rY2z2249fyCsQx3n",
+      "spcpt_bqzd27kqmFf8PQfn"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the equation $3\\mathrm{log}_{3}x+3\\mathrm{log}_{x}27=8\\mathrm{log}_{4}128$\nGive your answers in exact form.",
+     "solution_md": "Deal with the right-hand side first, since it is just a number\n\n- $128 = 2^{7}$ and $4 = 2^{2}$, so $\\text{log}_{4} 128 = \\frac{7}{2}$\n\n$8 \\text{log}_{4} 128 = 28$\n\n**[B1]**\n\nNow convert the left-hand side into base 3\n\n- Use the change of base rule on $\\text{log}_{x} 27$\n\n$3 \\text{log}_{x} 27 = \\frac{3\\text{log}_{3}27}{\\text{log}_{3}x}$\n\nThe numerator contains $\\text{log}_{3} 27$, which is 3, so it becomes 9\n\n$3 \\text{log}_{x} 27 = \\frac{9}{\\text{log}_{3}x}$\n\nThe equation is now entirely in base 3\n\n$3 \\text{log}_{3} x + \\frac{9}{\\text{log}_{3}x} = 28$\n\n**[M1]**\n\nMultiply every term by $\\text{log}_{3} x$ to clear the fraction\n\n`3 \\left(\\text{log}_{3} x\\right)^{2} + 9 = 28 \\text{log}_{3} x`\n\n**[M1]**\n\nCollect everything on one side to give a quadratic in $\\text{log}_{3} x$, then factorise\n\n`3 \\left(\\text{log}_{3} x\\right)^{2} - 28 \\text{log}_{3} x + 9 = 0`\n\n`\\left(3 \\text{log}_{3} x - 1\\right) \\left(\\text{log}_{3} x - 9\\right) = 0`\n\n**[M1]**\n\nEach bracket gives a value of $\\text{log}_{3} x$\n\n$\\text{log}_{3} x = \\frac{1}{3}$\n\n$\\text{log}_{3} x = 9$\n\n**[A1]**\n\nConvert each back into $x$ using $x = 3^{k}$\n\n$x = 3^{\\frac{1}{3}}$\n\n$x = 3^{9}$\n\n**[M1]**\n\nThe question asks for exact form, so leave the first as a power of 3\n\n$x = 3^{\\frac{1}{3}} , x = 3^{9}$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **B1**: Evaluates the right-hand side as 28.\n> \n> **M1**: Uses the change of base rule on $\\text{log}_{x} 27$ to give an equation in base 3 only.\n> \n> **M1**: Multiplies through by $\\text{log}_{3} x$ to clear the fraction. This mark depends on the previous method mark being earned.\n> \n> **M1**: Forms the three-term quadratic and uses a complete and correct method to solve it. This mark depends on both previous method marks being earned.\n> \n> **A1**: Both $\\text{log}_{3} x = \\frac{1}{3}$ and $\\text{log}_{3} x = 9$.\n> \n> **M1**: Converts at least one value of $\\text{log}_{3} x$ back into a value of $x$.\n> \n> **A1**: Both $x = 3^{\\frac{1}{3}}$ and $x = 3^{9}$, or any equivalent exact form. Accept `\\sqrt[3]{3}` and 19683.\n\n> **[exam-tip]**\n> Evaluate any purely numerical logarithm before you do anything else.\n> \n> - Turning $8 \\text{log}_{4} 128$ into 28 straight away leaves a much simpler equation to work with\n> \n> The structure here is the same as any quadratic in a logarithm.\n> \n> - Once you have $3 y^{2} - 28 y + 9 = 0$ with $y = \\text{log}_{3} x$, it is an ordinary factorising problem\n> \n> Exact form means leave the answer as a power.\n> \n> - $3^{\\frac{1}{3}}$ is exact, but a rounded decimal such as 1.44 is not, and would lose the final mark",
+     "equations": [
+      {
+       "latex": "3\\mathrm{log}_{3}x+3\\mathrm{log}_{x}27=8\\mathrm{log}_{4}128",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>3</mn><mo>&#160;</mo><msub><mi>log</mi><mn>3</mn></msub><mi>x</mi><mo>+</mo><mn>3</mn><mo>&#160;</mo><msub><mi>log</mi><mi>x</mi></msub><mn>27</mn><mo>=</mo><mn>8</mn><mo>&#160;</mo><msub><mi>log</mi><mn>4</mn></msub><mn>128</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "3 space log subscript 3 x plus 3 space log subscript x 27 equals 8 space log subscript 4 128"
+      },
+      {
+       "latex": "128 = 2^{7}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>128</mn><mo>=</mo><msup><mn>2</mn><mn>7</mn></msup></math>",
+       "alt": "128 = 2^{7}"
+      },
+      {
+       "latex": "4 = 2^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></math>",
+       "alt": "4 = 2^{2}"
+      },
+      {
+       "latex": "\\text{log}_{4} 128 = \\frac{7}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><mn>128</mn><mo>=</mo><mfrac><mn>7</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\text{log}_{4} 128 = \\frac{7}{2}"
+      },
+      {
+       "latex": "8 \\text{log}_{4} 128 = 28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msub><mtext>log</mtext><mn>4</mn></msub><mn>128</mn><mo>=</mo><mn>28</mn></math>",
+       "alt": "8 \\text{log}_{4} 128 = 28"
+      },
+      {
+       "latex": "\\text{log}_{x} 27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>27</mn></math>",
+       "alt": "\\text{log}_{x} 27"
+      },
+      {
+       "latex": "3 \\text{log}_{x} 27 = \\frac{3\\text{log}_{3}27}{\\text{log}_{3}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mi>x</mi></msub><mn>27</mn><mo>=</mo><mfrac><mrow><mn>3</mn><msub><mtext>log</mtext><mn>3</mn></msub><mn>27</mn></mrow><mrow><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "3 \\text{log}_{x} 27 = \\frac{3 \\text{log}_{3} 27}{\\text{log}_{3} x}"
+      },
+      {
+       "latex": "\\text{log}_{3} 27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>27</mn></math>",
+       "alt": "\\text{log}_{3} 27"
+      },
+      {
+       "latex": "3 \\text{log}_{x} 27 = \\frac{9}{\\text{log}_{3}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mi>x</mi></msub><mn>27</mn><mo>=</mo><mfrac><mn>9</mn><mrow><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "3 \\text{log}_{x} 27 = \\frac{9}{\\text{log}_{3} x}"
+      },
+      {
+       "latex": "3 \\text{log}_{3} x + \\frac{9}{\\text{log}_{3}x} = 28",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mrow><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></mrow></mfrac><mo>=</mo><mn>28</mn></math>",
+       "alt": "3 \\text{log}_{3} x + \\frac{9}{\\text{log}_{3} x} = 28"
+      },
+      {
+       "latex": "\\text{log}_{3} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{3} x"
+      },
+      {
+       "latex": "\\text{log}_{3} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{3} x"
+      },
+      {
+       "latex": "\\text{log}_{3} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{3} x"
+      },
+      {
+       "latex": "\\text{log}_{3} x = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\text{log}_{3} x = \\frac{1}{3}"
+      },
+      {
+       "latex": "\\text{log}_{3} x = 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi><mo>=</mo><mn>9</mn></math>",
+       "alt": "\\text{log}_{3} x = 9"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 3^{k}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>3</mn><mi>k</mi></msup></math>",
+       "alt": "x = 3^{k}"
+      },
+      {
+       "latex": "x = 3^{\\frac{1}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></math>",
+       "alt": "x = 3^{\\frac{1}{3}}"
+      },
+      {
+       "latex": "x = 3^{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>3</mn><mn>9</mn></msup></math>",
+       "alt": "x = 3^{9}"
+      },
+      {
+       "latex": "x = 3^{\\frac{1}{3}} , x = 3^{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>,</mo><mi>x</mi><mo>=</mo><msup><mn>3</mn><mn>9</mn></msup></math>",
+       "alt": "x = 3^{\\frac{1}{3}} , x = 3^{9}"
+      },
+      {
+       "latex": "\\text{log}_{x} 27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>27</mn></math>",
+       "alt": "\\text{log}_{x} 27"
+      },
+      {
+       "latex": "\\text{log}_{3} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{3} x"
+      },
+      {
+       "latex": "\\text{log}_{3} x = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\text{log}_{3} x = \\frac{1}{3}"
+      },
+      {
+       "latex": "\\text{log}_{3} x = 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi><mo>=</mo><mn>9</mn></math>",
+       "alt": "\\text{log}_{3} x = 9"
+      },
+      {
+       "latex": "\\text{log}_{3} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{3} x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 3^{\\frac{1}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></math>",
+       "alt": "x = 3^{\\frac{1}{3}}"
+      },
+      {
+       "latex": "x = 3^{9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>3</mn><mn>9</mn></msup></math>",
+       "alt": "x = 3^{9}"
+      },
+      {
+       "latex": "8 \\text{log}_{4} 128",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msub><mtext>log</mtext><mn>4</mn></msub><mn>128</mn></math>",
+       "alt": "8 \\text{log}_{4} 128"
+      },
+      {
+       "latex": "3 y^{2} - 28 y + 9 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><mn>28</mn><mi>y</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "3 y^{2} - 28 y + 9 = 0"
+      },
+      {
+       "latex": "y = \\text{log}_{3} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msub><mtext>log</mtext><mn>3</mn></msub><mi>x</mi></math>",
+       "alt": "y = \\text{log}_{3} x"
+      },
+      {
+       "latex": "3^{\\frac{1}{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></math>",
+       "alt": "3^{\\frac{1}{3}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ybR46cTfJyKszTq3",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HS4XmYtdrfxRYbsg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2023",
+      "number": "Paper 1",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rY2z2249fyCsQx3n",
+      "spcpt_kcmqw6MvM9Yf43W8",
+      "spcpt_bqzd27kqmFf8PQfn"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the equation\n\n$\\mathrm{log}_{2}x^{3}+\\mathrm{log}_{4}x^{2}-3\\mathrm{log}_{x}2=0$\n\ngiving your answers to 3 significant figures.",
+     "solution_md": "The three terms use bases 2, 4 and $x$, so everything must be converted to a single base first\n\n- Base 2 is the sensible choice, since 4 is a power of 2\n\nUse the power law on the first two terms, and the change of base rule on the last two\n\n$\\text{log}_{2} x^{3} = 3 \\text{log}_{2} x$\n\n$\\text{log}_{4} x^{2} = \\frac{\\text{log}_{2}x^{2}}{\\text{log}_{2}4}$\n\n$\\text{log}_{x} 2 = \\frac{\\text{log}_{2}2}{\\text{log}_{2}x}$\n\n**[M1]**\n\nSimplify each of these\n\n- $\\text{log}_{2} 4 = 2$ and $\\text{log}_{2} 2 = 1$, and the power law turns $\\text{log}_{2} x^{2}$ into $2 \\text{log}_{2} x$\n\n$\\text{log}_{4} x^{2} = \\frac{2\\text{log}_{2}x}{2}$\n\n$\\text{log}_{4} x^{2} = \\text{log}_{2} x$\n\n$3 \\text{log}_{x} 2 = \\frac{3}{\\text{log}_{2}x}$\n\n**[M1]**\n\nThe equation is now entirely in base 2\n\n$3 \\text{log}_{2} x + \\text{log}_{2} x - \\frac{3}{\\text{log}_{2}x} = 0$\n\n**[B1]**\n\nMultiply every term by $\\text{log}_{2} x$ to clear the fraction\n\n`3 \\left(\\text{log}_{2} x\\right)^{2} + \\left(\\text{log}_{2} x\\right)^{2} - 3 = 0`\n\n**[M1]**\n\nCollect the like terms\n\n`4 \\left(\\text{log}_{2} x\\right)^{2} = 3`\n\n`\\left(\\text{log}_{2} x\\right)^{2} = \\frac{3}{4}`\n\nTake the square root of both sides, keeping both signs\n\n$\\text{log}_{2} x = \\pm \\sqrt{\\frac{3}{4}}$\n\n**[M1]**\n\nConvert each value back into $x$, using $\\text{log}_{2} x = k$ meaning $x = 2^{k}$\n\n$x = 2^{\\sqrt{\\frac{3}{4}}}$\n\n$x = 2^{-\\sqrt{\\frac{3}{4}}}$\n\n**[M1]**\n\nEvaluate each and round to 3 significant figures\n\n- Both values are positive, so $\\text{log}_{2} x$ is defined for each and both are valid\n\n`x = 1 . 82 , x = 0 . 549 \\left(3 s . f .\\right)`\n\n**[A1 A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the change of base rule on $\\text{log}_{4} x^{2}$ and on $\\text{log}_{x} 2$, writing each with base 2.\n> \n> **M1**: Simplifies using the power law and the values $\\text{log}_{2} 4 = 2$ and $\\text{log}_{2} 2 = 1$.\n> \n> **B1**: A fully correct equation in base 2 only, $3 \\text{log}_{2} x + \\text{log}_{2} x - \\frac{3}{\\text{log}_{2}x} = 0$ or an equivalent form.\n> \n> **M1**: Multiplies through by $\\text{log}_{2} x$ to clear the fraction.\n> \n> **M1**: Reaches `\\left(\\text{log}_{2} x\\right)^{2} = \\frac{3}{4}` and takes the square root, with both signs.\n> \n> **M1**: Converts at least one value of $\\text{log}_{2} x$ back into a value of $x$.\n> \n> **A1**: Either $x = 1 . 82$ or $x = 0 . 549$.\n> \n> **A1**: Both values correct to 3 significant figures. Accept answers which round to these.\n\n> **[exam-tip]**\n> With three different bases, decide on your common base before you write anything else.\n> \n> - Pick the base that the others are powers of, which is 2 here\n> \n> The two easy marks to drop are both about signs and roots.\n> \n> - Taking the square root gives $\\pm$, and forgetting the negative root loses one of the two answers entirely\n> - The negative root gives a value of $x$ between 0 and 1, which is perfectly valid, so do not discard it as impossible\n> \n> Exact form is $x = 2^{\\pm\\frac{\\sqrt{3}}{2}}$, which is worth writing down before you reach for the calculator.\n> \n> - Keep full accuracy until the very last step, then round once to 3 significant figures",
+     "equations": [
+      {
+       "latex": "\\mathrm{log}_{2}x^{3}+\\mathrm{log}_{4}x^{2}-3\\mathrm{log}_{x}2=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>log</mi><mn>2</mn></msub><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msub><mi>log</mi><mn>4</mn></msub><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><msub><mi>log</mi><mi>x</mi></msub><mn>2</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "log subscript 2 x cubed plus log subscript 4 x squared minus 3 log subscript x 2 equals 0"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{log}_{2} x^{3} = 3 \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>3</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x^{3} = 3 \\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{4} x^{2} = \\frac{\\text{log}_{2}x^{2}}{\\text{log}_{2}4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><msub><mtext>log</mtext><mn>2</mn></msub><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn></mrow></mfrac></math>",
+       "alt": "\\text{log}_{4} x^{2} = \\frac{\\text{log}_{2} x^{2}}{\\text{log}_{2} 4}"
+      },
+      {
+       "latex": "\\text{log}_{x} 2 = \\frac{\\text{log}_{2}2}{\\text{log}_{2}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn><mo>=</mo><mfrac><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mn>2</mn></mrow><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "\\text{log}_{x} 2 = \\frac{\\text{log}_{2} 2}{\\text{log}_{2} x}"
+      },
+      {
+       "latex": "\\text{log}_{2} 4 = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn><mo>=</mo><mn>2</mn></math>",
+       "alt": "\\text{log}_{2} 4 = 2"
+      },
+      {
+       "latex": "\\text{log}_{2} 2 = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>2</mn><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{2} 2 = 1"
+      },
+      {
+       "latex": "\\text{log}_{2} x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{log}_{2} x^{2}"
+      },
+      {
+       "latex": "2 \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "2 \\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{4} x^{2} = \\frac{2\\text{log}_{2}x}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>2</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\text{log}_{4} x^{2} = \\frac{2 \\text{log}_{2} x}{2}"
+      },
+      {
+       "latex": "\\text{log}_{4} x^{2} = \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{4} x^{2} = \\text{log}_{2} x"
+      },
+      {
+       "latex": "3 \\text{log}_{x} 2 = \\frac{3}{\\text{log}_{2}x}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn><mo>=</mo><mfrac><mn>3</mn><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac></math>",
+       "alt": "3 \\text{log}_{x} 2 = \\frac{3}{\\text{log}_{2} x}"
+      },
+      {
+       "latex": "3 \\text{log}_{2} x + \\text{log}_{2} x - \\frac{3}{\\text{log}_{2}x} = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>-</mo><mfrac><mn>3</mn><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></math>",
+       "alt": "3 \\text{log}_{2} x + \\text{log}_{2} x - \\frac{3}{\\text{log}_{2} x} = 0"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x = \\pm \\sqrt{\\frac{3}{4}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mo>&#xB1;</mo><msqrt><mfrac><mn>3</mn><mn>4</mn></mfrac></msqrt></math>",
+       "alt": "\\text{log}_{2} x = \\pm \\sqrt{\\frac{3}{4}}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{log}_{2} x = k",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mi>k</mi></math>",
+       "alt": "\\text{log}_{2} x = k"
+      },
+      {
+       "latex": "x = 2^{k}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mi>k</mi></msup></math>",
+       "alt": "x = 2^{k}"
+      },
+      {
+       "latex": "x = 2^{\\sqrt{\\frac{3}{4}}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><msqrt><mfrac><mn>3</mn><mn>4</mn></mfrac></msqrt></msup></math>",
+       "alt": "x = 2^{\\sqrt{\\frac{3}{4}}}"
+      },
+      {
+       "latex": "x = 2^{-\\sqrt{\\frac{3}{4}}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mrow><mo>-</mo><msqrt><mfrac><mn>3</mn><mn>4</mn></mfrac></msqrt></mrow></msup></math>",
+       "alt": "x = 2^{- \\sqrt{\\frac{3}{4}}}"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{4} x^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><msup><mi>x</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{log}_{4} x^{2}"
+      },
+      {
+       "latex": "\\text{log}_{x} 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mi>x</mi></msub><mn>2</mn></math>",
+       "alt": "\\text{log}_{x} 2"
+      },
+      {
+       "latex": "\\text{log}_{2} 4 = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn><mo>=</mo><mn>2</mn></math>",
+       "alt": "\\text{log}_{2} 4 = 2"
+      },
+      {
+       "latex": "\\text{log}_{2} 2 = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>2</mn><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{2} 2 = 1"
+      },
+      {
+       "latex": "3 \\text{log}_{2} x + \\text{log}_{2} x - \\frac{3}{\\text{log}_{2}x} = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>-</mo><mfrac><mn>3</mn><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></math>",
+       "alt": "3 \\text{log}_{2} x + \\text{log}_{2} x - \\frac{3}{\\text{log}_{2} x} = 0"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 1 . 82",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn><mo>.</mo><mn>82</mn></math>",
+       "alt": "x = 1 . 82"
+      },
+      {
+       "latex": "x = 0 . 549",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>549</mn></math>",
+       "alt": "x = 0 . 549"
+      },
+      {
+       "latex": "\\pm",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&#xB1;</mo></math>",
+       "alt": "\\pm"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 2^{\\pm\\frac{\\sqrt{3}}{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mrow><mo>&#xB1;</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></mrow></msup></math>",
+       "alt": "x = 2^{\\pm \\frac{\\sqrt{3}}{2}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mGnn8cCBnWTX3vRt",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_7bKmkfdMcmz9G4Nv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "Paper 1",
+      "question_number": 11,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rY2z2249fyCsQx3n",
+      "spcpt_kcmqw6MvM9Yf43W8",
+      "spcpt_CBbGQXTmRztnH5b3"
+     ],
+     "part_tier": null,
+     "problem_md": "Solve the simultaneous equations\n\n$2\\mathrm{log}_{4}x=\\mathrm{log}_{3}3y^{2}\\,\\mathrm{log}_{2}x^{3}+8\\mathrm{log}_{9}y=13$\n\nShow your working clearly.",
+     "solution_md": "Neither equation can be solved on its own, so first rewrite both using a consistent pair of bases\n\n- Base 2 for the $x$ terms and base 3 for the $y$ terms is the tidiest choice here\n\nStart with the first equation, and change $\\text{log}_{4} x$ into base 2\n\n$2 \\text{log}_{4} x = \\frac{2\\text{log}_{2}x}{\\text{log}_{2}4}$\n\nThe denominator is $\\text{log}_{2} 4$, which is 2, so the two 2s cancel\n\n$2 \\text{log}_{4} x = \\text{log}_{2} x$\n\n**[M1]**\n\nSplit the right-hand side using the addition and power laws\n\n- $\\text{log}_{3} 3 = 1$, and the power law turns $\\text{log}_{3} y^{2}$ into $2 \\text{log}_{3} y$\n\n$\\text{log}_{3} 3 y^{2} = 1 + 2 \\text{log}_{3} y$\n\n**[B1]**\n\nSo the first equation becomes\n\n$\\text{log}_{2} x - 2 \\text{log}_{3} y = 1$\n\nNow do the same with the second equation\n\n- The power law gives $\\text{log}_{2} x^{3} = 3 \\text{log}_{2} x$, and $\\text{log}_{9} y$ changes into base 3\n\n$8 \\text{log}_{9} y = \\frac{8\\text{log}_{3}y}{\\text{log}_{3}9}$\n\nThe denominator is $\\text{log}_{3} 9$, which is 2, so the 8 halves\n\n$8 \\text{log}_{9} y = 4 \\text{log}_{3} y$\n\n**[M1]**\n\nSo the second equation becomes\n\n$3 \\text{log}_{2} x + 4 \\text{log}_{3} y = 13$\n\n**[M1]**\n\nThese are now just simultaneous equations, so write $u = \\text{log}_{2} x$ and $v = \\text{log}_{3} y$\n\n$u - 2 v = 1$\n\n$3 u + 4 v = 13$\n\nMultiply the first equation by 2, then add it to the second to eliminate $v$\n\n$2 u - 4 v = 2$\n\n$5 u = 15$\n\n**[M1]**\n\nSolve for $u$, then substitute back for $v$\n\n$u = 3$\n\n$v = 1$\n\n**[A1]**\n\nNow undo the substitutions\n\n- $\\text{log}_{2} x = 3$ means $x = 2^{3}$, and $\\text{log}_{3} y = 1$ means $y = 3^{1}$\n\n$x = 2^{3}$\n\n$y = 3^{1}$\n\n**[M1]**\n\n$x = 8 , y = 3$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the change of base rule on $\\text{log}_{4} x$, writing it in base 2.\n> \n> **B1**: Splits $\\text{log}_{3} 3 y^{2}$ correctly into $1 + 2 \\text{log}_{3} y$.\n> \n> **M1**: Uses the power law and the change of base rule on the second equation, writing $8 \\text{log}_{9} y$ as $4 \\text{log}_{3} y$.\n> \n> **M1**: A correct second equation, $3 \\text{log}_{2} x + 4 \\text{log}_{3} y = 13$ or an equivalent form.\n> \n> **M1**: Solves your pair of simultaneous equations by any complete and correct method, to find a value for $\\text{log}_{2} x$ or for $\\text{log}_{3} y$. This mark depends on the earlier method marks being earned.\n> \n> **A1**: Both $\\text{log}_{2} x = 3$ and $\\text{log}_{3} y = 1$.\n> \n> **M1**: Converts at least one logarithm value back into a value of $x$ or $y$.\n> \n> **A1**: Both $x = 8$ and $y = 3$.\n> \n> There is no need to substitute $u$ and $v$; working directly in $\\text{log}_{2} x$ and $\\text{log}_{3} y$ scores identically. Converting both equations to a different common pair of bases, for example base 4 and base 3 throughout, is also fully acceptable and is marked to the same principles.\n\n> **[exam-tip]**\n> A pair of logarithm equations is usually an ordinary simultaneous equations problem in disguise.\n> \n> - Once every term is a multiple of $\\text{log}_{2} x$ or $\\text{log}_{3} y$, treat those two as your unknowns\n> \n> Substituting $u$ and $v$ is not required, but it makes the elimination step much harder to get wrong.\n> \n> The most commonly missed step is splitting $\\text{log}_{3} 3 y^{2}$.\n> \n> - It is a product inside the logarithm, so it splits into $\\text{log}_{3} 3 + \\text{log}_{3} y^{2}$, and the first of those is simply 1\n> \n> Remember to convert back at the end.\n> \n> - Finding $u = 3$ is not the answer, since the question asks for $x$ and $y$",
+     "equations": [
+      {
+       "latex": "2\\mathrm{log}_{4}x=\\mathrm{log}_{3}3y^{2}\\,\\mathrm{log}_{2}x^{3}+8\\mathrm{log}_{9}y=13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mn>2</mn><msub><mi>log</mi><mn>4</mn></msub><mo>&#160;</mo><mi>x</mi><mo>=</mo><msub><mi>log</mi><mn>3</mn></msub><mo>&#160;</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mspace linebreak=\"newline\"/><msub><mi>log</mi><mn>2</mn></msub><mo>&#160;</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>8</mn><msub><mi>log</mi><mn>9</mn></msub><mo>&#160;</mo><mi>y</mi><mo>=</mo><mn>13</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space space space space space space space space space space space space space space space space space 2 log subscript 4 space x equals log subscript 3 space 3 y squared\nlog subscript 2 space x cubed plus 8 log subscript 9 space y equals 13"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\text{log}_{4} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{4} x"
+      },
+      {
+       "latex": "2 \\text{log}_{4} x = \\frac{2\\text{log}_{2}x}{\\text{log}_{2}4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mtext>log</mtext><mn>4</mn></msub><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></mrow><mrow><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn></mrow></mfrac></math>",
+       "alt": "2 \\text{log}_{4} x = \\frac{2 \\text{log}_{2} x}{\\text{log}_{2} 4}"
+      },
+      {
+       "latex": "\\text{log}_{2} 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mn>4</mn></math>",
+       "alt": "\\text{log}_{2} 4"
+      },
+      {
+       "latex": "2 \\text{log}_{4} x = \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mtext>log</mtext><mn>4</mn></msub><mi>x</mi><mo>=</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "2 \\text{log}_{4} x = \\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{3} 3 = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>3</mn><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{3} 3 = 1"
+      },
+      {
+       "latex": "\\text{log}_{3} y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><msup><mi>y</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{log}_{3} y^{2}"
+      },
+      {
+       "latex": "2 \\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "2 \\text{log}_{3} y"
+      },
+      {
+       "latex": "\\text{log}_{3} 3 y^{2} = 1 + 2 \\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "\\text{log}_{3} 3 y^{2} = 1 + 2 \\text{log}_{3} y"
+      },
+      {
+       "latex": "\\text{log}_{2} x - 2 \\text{log}_{3} y = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>-</mo><mn>2</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{2} x - 2 \\text{log}_{3} y = 1"
+      },
+      {
+       "latex": "\\text{log}_{2} x^{3} = 3 \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>3</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x^{3} = 3 \\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{9} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>9</mn></msub><mi>y</mi></math>",
+       "alt": "\\text{log}_{9} y"
+      },
+      {
+       "latex": "8 \\text{log}_{9} y = \\frac{8\\text{log}_{3}y}{\\text{log}_{3}9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msub><mtext>log</mtext><mn>9</mn></msub><mi>y</mi><mo>=</mo><mfrac><mrow><mn>8</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></mrow><mrow><msub><mtext>log</mtext><mn>3</mn></msub><mn>9</mn></mrow></mfrac></math>",
+       "alt": "8 \\text{log}_{9} y = \\frac{8 \\text{log}_{3} y}{\\text{log}_{3} 9}"
+      },
+      {
+       "latex": "\\text{log}_{3} 9",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>9</mn></math>",
+       "alt": "\\text{log}_{3} 9"
+      },
+      {
+       "latex": "8 \\text{log}_{9} y = 4 \\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msub><mtext>log</mtext><mn>9</mn></msub><mi>y</mi><mo>=</mo><mn>4</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "8 \\text{log}_{9} y = 4 \\text{log}_{3} y"
+      },
+      {
+       "latex": "3 \\text{log}_{2} x + 4 \\text{log}_{3} y = 13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>+</mo><mn>4</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi><mo>=</mo><mn>13</mn></math>",
+       "alt": "3 \\text{log}_{2} x + 4 \\text{log}_{3} y = 13"
+      },
+      {
+       "latex": "u = \\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "u = \\text{log}_{2} x"
+      },
+      {
+       "latex": "v = \\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "v = \\text{log}_{3} y"
+      },
+      {
+       "latex": "u - 2 v = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>-</mo><mn>2</mn><mi>v</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "u - 2 v = 1"
+      },
+      {
+       "latex": "3 u + 4 v = 13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>u</mi><mo>+</mo><mn>4</mn><mi>v</mi><mo>=</mo><mn>13</mn></math>",
+       "alt": "3 u + 4 v = 13"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "2 u - 4 v = 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>u</mi><mo>-</mo><mn>4</mn><mi>v</mi><mo>=</mo><mn>2</mn></math>",
+       "alt": "2 u - 4 v = 2"
+      },
+      {
+       "latex": "5 u = 15",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>u</mi><mo>=</mo><mn>15</mn></math>",
+       "alt": "5 u = 15"
+      },
+      {
+       "latex": "u",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi></math>",
+       "alt": "u"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "u = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "u = 3"
+      },
+      {
+       "latex": "v = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "v = 1"
+      },
+      {
+       "latex": "\\text{log}_{2} x = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "\\text{log}_{2} x = 3"
+      },
+      {
+       "latex": "x = 2^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup></math>",
+       "alt": "x = 2^{3}"
+      },
+      {
+       "latex": "\\text{log}_{3} y = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{3} y = 1"
+      },
+      {
+       "latex": "y = 3^{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mn>3</mn><mn>1</mn></msup></math>",
+       "alt": "y = 3^{1}"
+      },
+      {
+       "latex": "x = 2^{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup></math>",
+       "alt": "x = 2^{3}"
+      },
+      {
+       "latex": "y = 3^{1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mn>3</mn><mn>1</mn></msup></math>",
+       "alt": "y = 3^{1}"
+      },
+      {
+       "latex": "x = 8 , y = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "x = 8 , y = 3"
+      },
+      {
+       "latex": "\\text{log}_{4} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>4</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{4} x"
+      },
+      {
+       "latex": "\\text{log}_{3} 3 y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{log}_{3} 3 y^{2}"
+      },
+      {
+       "latex": "1 + 2 \\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "1 + 2 \\text{log}_{3} y"
+      },
+      {
+       "latex": "8 \\text{log}_{9} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msub><mtext>log</mtext><mn>9</mn></msub><mi>y</mi></math>",
+       "alt": "8 \\text{log}_{9} y"
+      },
+      {
+       "latex": "4 \\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "4 \\text{log}_{3} y"
+      },
+      {
+       "latex": "3 \\text{log}_{2} x + 4 \\text{log}_{3} y = 13",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>+</mo><mn>4</mn><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi><mo>=</mo><mn>13</mn></math>",
+       "alt": "3 \\text{log}_{2} x + 4 \\text{log}_{3} y = 13"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "\\text{log}_{3} y"
+      },
+      {
+       "latex": "\\text{log}_{2} x = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "\\text{log}_{2} x = 3"
+      },
+      {
+       "latex": "\\text{log}_{3} y = 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi><mo>=</mo><mn>1</mn></math>",
+       "alt": "\\text{log}_{3} y = 1"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x = 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>",
+       "alt": "x = 8"
+      },
+      {
+       "latex": "y = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "y = 3"
+      },
+      {
+       "latex": "u",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi></math>",
+       "alt": "u"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "\\text{log}_{3} y"
+      },
+      {
+       "latex": "\\text{log}_{2} x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>2</mn></msub><mi>x</mi></math>",
+       "alt": "\\text{log}_{2} x"
+      },
+      {
+       "latex": "\\text{log}_{3} y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mi>y</mi></math>",
+       "alt": "\\text{log}_{3} y"
+      },
+      {
+       "latex": "u",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi></math>",
+       "alt": "u"
+      },
+      {
+       "latex": "v",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>",
+       "alt": "v"
+      },
+      {
+       "latex": "\\text{log}_{3} 3 y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{log}_{3} 3 y^{2}"
+      },
+      {
+       "latex": "\\text{log}_{3} 3 + \\text{log}_{3} y^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mtext>log</mtext><mn>3</mn></msub><mn>3</mn><mo>+</mo><msub><mtext>log</mtext><mn>3</mn></msub><msup><mi>y</mi><mn>2</mn></msup></math>",
+       "alt": "\\text{log}_{3} 3 + \\text{log}_{3} y^{2}"
+      },
+      {
+       "latex": "u = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "u = 3"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FgQk9DYbP7SJry5s",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_SG38wCHQkWxVQyNn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_r82CHwYg4ZxfDTgc"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table of values for\n\n`y equals 0.5 to the power of open parentheses x over 3 plus 1 close parentheses end exponent plus 2`\n\ngiving each value to 2 decimal places where appropriate.\n\n| $x$ | -6 | -5 | -4 | -3 | -2 | -1 | 0 |\n|---|---|---|---|---|---|---|---|\n| $y$ | 4 | 3.59 | 3.26 |   |   |   | 2.5 |",
+     "solution_md": "Substitute each missing value of $x$ into `y = 0 . 5^{\\left(\\frac{x}{3} + 1\\right)} + 2`\n\n- Work out the index first, then the power, then add 2\n\nFor $x = - 3$ the index is $\\frac{-3}{3} + 1 = 0$\n\n$y = 0 . 5^{0} + 2$\n\n$y = 3$\n\nFor $x = - 2$ the index is $\\frac{-2}{3} + 1 = \\frac{1}{3}$\n\n$y = 0 . 5^{\\frac{1}{3}} + 2$\n\n$y = 2 . 7937 \\dots$\n\nFor $x = - 1$ the index is $\\frac{-1}{3} + 1 = \\frac{2}{3}$\n\n$y = 0 . 5^{\\frac{2}{3}} + 2$\n\n$y = 2 . 6299 \\dots$\n\nRound to 2 decimal places where the value is not exact\n\n| $x$ | -6 | -5 | -4 | -3 | -2 | -1 | 0 |\n|---|---|---|---|---|---|---|---|\n| $y$ | 4 | 3.59 | 3.26 | **Final answer:** **3** | **Final answer:** **2.79** | **Final answer:** **2.63** | 2.5 |\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Two of the three missing values correct.\n> \n> **B1**: All three missing values correct to 2 decimal places. Allow 3.0 or 3.00 in place of 3.\n\n> **[exam-tip]**\n> A negative $x$ makes the index smaller, and a base below 1 means a smaller index gives a larger value.\n> \n> - That is why this curve falls from left to right, unlike the usual growth curve\n> \n> The entry at $x = - 3$ is worth spotting quickly.\n> \n> - The index becomes exactly 0 there, and anything to the power 0 is 1, so $y = 3$ with no calculator needed",
+     "equations": [
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>y</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = - 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>3</mn></math>",
+       "alt": "x = - 3"
+      },
+      {
+       "latex": "\\frac{-3}{3} + 1 = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>-</mo><mn>3</mn></mrow><mn>3</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>",
+       "alt": "\\frac{- 3}{3} + 1 = 0"
+      },
+      {
+       "latex": "y = 0 . 5^{0} + 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn><mo>.</mo><msup><mn>5</mn><mn>0</mn></msup><mo>+</mo><mn>2</mn></math>",
+       "alt": "y = 0 . 5^{0} + 2"
+      },
+      {
+       "latex": "y = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "y = 3"
+      },
+      {
+       "latex": "x = - 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>",
+       "alt": "x = - 2"
+      },
+      {
+       "latex": "\\frac{-2}{3} + 1 = \\frac{1}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>-</mo><mn>2</mn></mrow><mn>3</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{- 2}{3} + 1 = \\frac{1}{3}"
+      },
+      {
+       "latex": "y = 0 . 5^{\\frac{1}{3}} + 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn><mo>.</mo><msup><mn>5</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></msup><mo>+</mo><mn>2</mn></math>",
+       "alt": "y = 0 . 5^{\\frac{1}{3}} + 2"
+      },
+      {
+       "latex": "y = 2 . 7937 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>7937</mn><mo>&#x2026;</mo></math>",
+       "alt": "y = 2 . 7937 \\ldots"
+      },
+      {
+       "latex": "x = - 1",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>1</mn></math>",
+       "alt": "x = - 1"
+      },
+      {
+       "latex": "\\frac{-1}{3} + 1 = \\frac{2}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>-</mo><mn>1</mn></mrow><mn>3</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{- 1}{3} + 1 = \\frac{2}{3}"
+      },
+      {
+       "latex": "y = 0 . 5^{\\frac{2}{3}} + 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn><mo>.</mo><msup><mn>5</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>+</mo><mn>2</mn></math>",
+       "alt": "y = 0 . 5^{\\frac{2}{3}} + 2"
+      },
+      {
+       "latex": "y = 2 . 6299 \\dots",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn><mo>.</mo><mn>6299</mn><mo>&#x2026;</mo></math>",
+       "alt": "y = 2 . 6299 \\ldots"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = - 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>3</mn></math>",
+       "alt": "x = - 3"
+      },
+      {
+       "latex": "y = 3",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn></math>",
+       "alt": "y = 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_J5tgBK2PBNsdvK7r",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_B8RPKm62HHVjhSWV"
+     ],
+     "part_tier": null,
+     "problem_md": "On the grid opposite, draw the graph of `y equals 0.5 to the power of open parentheses x over 3 plus 1 close parentheses end exponent plus 2`  for  `negative 6 less-than or slanted equal to x less-than or slanted equal to 0`\n\n![Graph with x-axis ranging from -7 to 1 and y-axis from -1 to 5, both labelled. Gridlines present for precision in plotting points.](assets/001-graph-with-x-axis-ranging-from-7-to-1-and-y-axis.png)",
+     "solution_md": "Plot the seven points from the table, then join them with a single smooth curve\n\n- Plot each point to within half a small square\n- The curve falls steadily and flattens out towards the right, so it must be a smooth curve rather than joined straight segments\n\n![The exam answer-book grid with the smooth curve y = 0.5^(x/3 + 1) + 2 drawn falling from (-6, 4) to (0, 2.5).](assets/002-the-exam-answer-book-grid-with-the-smooth-curve-.png)\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: All seven points plotted within half a small square. Follow through from an incorrect table in part (a).\n> \n> **B1**: A smooth curve drawn through your plotted points, not straight line segments. Follow through from part (a).\n\n> **[exam-tip]**\n> Both marks here follow through from your table, so an arithmetic slip in part (a) does not cost you again.\n> \n> - Plot what you actually worked out, and join it smoothly\n> \n> The curve is quite flat on the right, so take care over the last few points.\n> \n> - Between $x = - 2$ and $x = 0$ the value only drops by about 0.3, which is a third of a large square",
+     "equations": [
+      {
+       "latex": "x = - 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>2</mn></math>",
+       "alt": "x = - 2"
+      },
+      {
+       "latex": "x = 0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>",
+       "alt": "x = 0"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pP8CCK5PwYv8M7Xq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_kcmqw6MvM9Yf43W8",
+      "spcpt_GrBVPqh2RRq5kQGY"
+     ],
+     "part_tier": null,
+     "problem_md": "By drawing a suitable straight line on the grid, obtain an estimate, to one decimal place, of the root of the equation\n\n$\\mathrm{log}_{2}(2x+2)^{3}+x+3=0$  in the interval  `negative 6 less-than or slanted equal to x less-than or slanted equal to 0`",
+     "solution_md": "The graph you have drawn is `y = 0.5^{\\left(\\frac{x}{3} + 1\\right)} + 2`, so rearrange the equation until that expression appears\n\nUse the power law on the logarithm, then move the other terms across\n\n`3 \\text{log}_{2} \\left(2 x + 2\\right) = - x - 3`\n\n**[M1]**\n\nDivide through by 3\n\n`\\text{log}_{2} \\left(2 x + 2\\right) = - \\frac{x}{3} - 1`\n\nWrite this in index form\n\n`2 x + 2 = 2^{\\left(- \\frac{x}{3} - 1\\right)}`\n\n**[M1]**\n\nA negative index means a reciprocal, and $2^{-1} = 0 . 5$, so the base can be changed to 0.5\n\n`2 x + 2 = 0.5^{\\left(\\frac{x}{3} + 1\\right)}`\n\n**[M1]**\n\nAdd 2 to both sides, so that the right-hand side is exactly $y$\n\n`2 x + 4 = 0.5^{\\left(\\frac{x}{3} + 1\\right)} + 2`\n\n**[A1]**\n\nSo the straight line to draw is $y = 2 x + 4$\n\n- Where it crosses the curve, the two sides of the equation are equal, and that is the root\n\n![The answer-book grid showing the curve from part (b) with the straight line y = 2x + 4 drawn across it, meeting the curve at approximately x = -0.7.](assets/003-the-answer-book-grid-showing-the-curve-from-part.png)\n\n**[M1]**\n\nRead off the $x$ coordinate of the intersection, to 1 decimal place\n\n$x = - 0 . 7$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Uses the power law to reach `3 \\text{log}_{2} \\left(2 x + 2\\right) = - x - 3`, or the equivalent `\\text{log}_{2} \\left(2 x + 2\\right) = - \\frac{x}{3} - 1`.\n> \n> **M1**: Writes your logarithm equation in index form, reaching `2 x + 2 = 2^{\\left(- \\frac{x}{3} - 1\\right)}`.\n> \n> **M1**: Converts the base to 0.5, reaching `2 x + 2 = 0.5^{\\left(\\frac{x}{3} + 1\\right)}`. Changing base within the logarithms instead, to reach `\\text{log}_{0.5} \\left(2 x + 2\\right) = \\frac{x}{3} + 1`, scores this mark equally.\n> \n> **A1**: Correct rearrangement `2 x + 4 = 0.5^{\\left(\\frac{x}{3} + 1\\right)} + 2`.\n> \n> **M1**: Identifies and draws the straight line $y = 2 x + 4$ on the grid.\n> \n> **A1**: $x = - 0 . 7$. Accept $- 0 . 8$, since the value is read from a graph.\n\n> **[exam-tip]**\n> The instruction to draw a suitable straight line means: rearrange until one side is exactly the $y$ of the curve you already have.\n> \n> - Whatever remains on the other side is the line, and it always turns out to be linear\n> \n> The step that catches people out is the change of base at the end.\n> \n> - Your curve uses base 0.5 but the equation uses base 2, and $2^{-n} = 0 . 5^{n}$ is what links them\n> - Getting `2 x + 2 = 2^{\\left(- \\frac{x}{3} - 1\\right)}` and stopping there leaves you with nothing you can draw\n> \n> Draw the line right across the grid with a ruler, and read the intersection to 1 decimal place.",
+     "equations": [
+      {
+       "latex": "\\mathrm{log}_{2}(2x+2)^{3}+x+3=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>log</mi><mn>2</mn></msub><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo>)</mo><mn>3</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "log subscript 2 left parenthesis 2 x plus 2 right parenthesis cubed plus x plus 3 equals 0"
+      },
+      {
+       "latex": "2^{-1} = 0 . 5",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><mn>0</mn><mo>.</mo><mn>5</mn></math>",
+       "alt": "2^{- 1} = 0.5"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y = 2 x + 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></math>",
+       "alt": "y = 2 x + 4"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = - 0 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "x = - 0.7"
+      },
+      {
+       "latex": "y = 2 x + 4",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></math>",
+       "alt": "y = 2 x + 4"
+      },
+      {
+       "latex": "x = - 0 . 7",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>7</mn></math>",
+       "alt": "x = - 0.7"
+      },
+      {
+       "latex": "- 0 . 8",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mn>0</mn><mo>.</mo><mn>8</mn></math>",
+       "alt": "- 0.8"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "2^{-n} = 0 . 5^{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow><mo>-</mo><mi>n</mi></mrow></msup><mo>=</mo><mn>0</mn><mo>.</mo><msup><mn>5</mn><mi>n</mi></msup></math>",
+       "alt": "2^{- n} = 0.5^{n}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7MgT26jDygcKVtD7",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_rRsBFPx7FxdmxRKz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "January 2023",
+      "number": "Paper 1",
+      "question_number": 9,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kcmqw6MvM9Yf43W8",
+      "spcpt_HbVkSMycJQ7Bw5Zw",
+      "spcpt_bSVNXtwhvFqkxn6z"
+     ],
+     "part_tier": null,
+     "problem_md": "Giving each value in your solution to 2 decimal places, solve the simultaneous equations\n\n$e^{2y}-x+2=0\\,\\mathrm{ln}(x+3)-2y-1=0$",
+     "solution_md": "The first equation gives $\\text{e}^{2y}$ directly, so use it to get an expression for $2 y$\n\nRearrange the first equation\n\n$\\text{e}^{2y} = x - 2$\n\nTake natural logarithms of both sides\n\n`2 y = \\text{ln} \\left(x - 2\\right)`\n\n**[M1]**\n\nSubstitute this into the second equation, which removes $y$ altogether\n\n`\\text{ln} \\left(x + 3\\right) - \\text{ln} \\left(x - 2\\right) - 1 = 0`\n\n**[M1]**\n\nUse the subtraction law to combine the two logarithms into one\n\n`\\text{ln} \\left(\\frac{x + 3}{x - 2}\\right) = 1`\n\n**[M1]**\n\nA natural logarithm equal to 1 means the inside equals $\\text{e}$\n\n$\\frac{x+3}{x-2} = \\text{e}$\n\n**[M1]**\n\nMultiply both sides by `\\left(x - 2\\right)` and expand\n\n$x + 3 = x \\text{e} - 2 \\text{e}$\n\nCollect the $x$ terms on one side and the constants on the other\n\n$3 + 2 \\text{e} = x \\text{e} - x$\n\n**[M1]**\n\nFactorise the right-hand side and divide\n\n`3 + 2 \\text{e} = x \\left(\\text{e} - 1\\right)`\n\n$x = \\frac{3+2\\text{e}}{\\text{e}-1}$\n\n**[A1]**\n\nNow substitute this value back to find $y$\n\n- Use `2 y = \\text{ln} \\left(x - 2\\right)` from the first line, keeping full accuracy\n\n`y = \\frac{1}{2} \\text{ln} \\left(\\frac{3 + 2 \\text{e}}{\\text{e} - 1} - 2\\right)`\n\n**[M1]**\n\nRound each value to 2 decimal places, as the question asks\n\n$x = 4 . 91 , y = 0 . 53$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Rearranges the first equation and takes logarithms, reaching `2 y = \\text{ln} \\left(x - 2\\right)` or an equivalent expression for $y$.\n> \n> **M1**: Substitutes into the second equation to obtain an equation in $x$ only.\n> \n> **M1**: Uses the subtraction law to combine the two logarithms into a single logarithm.\n> \n> **M1**: Removes the logarithm correctly, reaching $\\frac{x+3}{x-2} = \\text{e}$.\n> \n> **M1**: Multiplies out and collects the $x$ terms on one side. This mark depends on the previous method marks being earned, and there must be enough working shown for the step to be followed.\n> \n> **A1**: $x = \\frac{3+2\\text{e}}{\\text{e}-1}$, or 4.91 correct to 2 decimal places.\n> \n> **M1**: Substitutes your value of $x$ back into either original equation to find $y$.\n> \n> **A1**: $y = 0 . 53$ correct to 2 decimal places.\n> \n> There are several valid routes through this question, for example working in $\\text{e}^{2y}$ throughout rather than substituting for $x$ first. Any complete and correct method reaching $x = 4 . 91$ and $y = 0 . 53$ earns full marks, with the method marks awarded for the equivalent steps.\n\n> **[exam-tip]**\n> With one equation in $\\text{e}^{2y}$ and one in $\\text{ln}$, look for the substitution that removes a variable entirely.\n> \n> - Making $2 y$ the subject of the first equation is what turns the pair into a single equation in $x$\n> \n> Combine logarithms into one before you try to remove them.\n> \n> - $\\text{ln} A - \\text{ln} B = \\text{ln} \\frac{A}{B}$, and you cannot undo two separate logarithms in one step\n> \n> Keep $\\text{e}$ exact all the way through and round only at the end.\n> \n> - Rounding $\\text{e}$ to 2.72 partway through will shift the second decimal place of your answers\n> \n> Check your value of $x$ keeps every logarithm defined.\n> \n> - `\\text{ln} \\left(x - 2\\right)` needs $x > 2$, and 4.91 comfortably satisfies that",
+     "equations": [
+      {
+       "latex": "e^{2y}-x+2=0\\,\\mathrm{ln}(x+3)-2y-1=0",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><mo>&#160;</mo><msup><mi mathvariant=\"normal\">e</mi><mrow><mn>2</mn><mi>y</mi></mrow></msup><mo>-</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0</mn><mspace linebreak=\"newline\"/><mi>ln</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>-</mo><mn>2</mn><mi>y</mi><mo>-</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "space space space space space space space space space space space space straight e to the power of 2 y end exponent minus x plus 2 equals 0\nln left parenthesis x plus 3 right parenthesis minus 2 y minus 1 equals 0"
+      },
+      {
+       "latex": "\\text{e}^{2y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>y</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 y}"
+      },
+      {
+       "latex": "2 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi></math>",
+       "alt": "2 y"
+      },
+      {
+       "latex": "\\text{e}^{2y} = x - 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>y</mi></mrow></msup><mo>=</mo><mi>x</mi><mo>-</mo><mn>2</mn></math>",
+       "alt": "\\text{e}^{2 y} = x - 2"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "\\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>e</mtext></math>",
+       "alt": "\\text{e}"
+      },
+      {
+       "latex": "\\frac{x+3}{x-2} = \\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mtext>e</mtext></math>",
+       "alt": "\\frac{x + 3}{x - 2} = \\text{e}"
+      },
+      {
+       "latex": "x + 3 = x \\text{e} - 2 \\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mi>x</mi><mtext>e</mtext><mo>-</mo><mn>2</mn><mtext>e</mtext></math>",
+       "alt": "x + 3 = x \\text{e} - 2 \\text{e}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "3 + 2 \\text{e} = x \\text{e} - x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mtext>e</mtext><mo>=</mo><mi>x</mi><mtext>e</mtext><mo>-</mo><mi>x</mi></math>",
+       "alt": "3 + 2 \\text{e} = x \\text{e} - x"
+      },
+      {
+       "latex": "x = \\frac{3+2\\text{e}}{\\text{e}-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mtext>e</mtext></mrow><mrow><mtext>e</mtext><mo>-</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "x = \\frac{3 + 2 \\text{e}}{\\text{e} - 1}"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x = 4 . 91 , y = 0 . 53",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn><mo>.</mo><mn>91</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>53</mn></math>",
+       "alt": "x = 4 . 91 , y = 0 . 53"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\frac{x+3}{x-2} = \\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>-</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mtext>e</mtext></math>",
+       "alt": "\\frac{x + 3}{x - 2} = \\text{e}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = \\frac{3+2\\text{e}}{\\text{e}-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mtext>e</mtext></mrow><mrow><mtext>e</mtext><mo>-</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "x = \\frac{3 + 2 \\text{e}}{\\text{e} - 1}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>",
+       "alt": "y"
+      },
+      {
+       "latex": "y = 0 . 53",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>53</mn></math>",
+       "alt": "y = 0 . 53"
+      },
+      {
+       "latex": "\\text{e}^{2y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>y</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 y}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x = 4 . 91",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn><mo>.</mo><mn>91</mn></math>",
+       "alt": "x = 4 . 91"
+      },
+      {
+       "latex": "y = 0 . 53",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>53</mn></math>",
+       "alt": "y = 0 . 53"
+      },
+      {
+       "latex": "\\text{e}^{2y}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>e</mtext><mrow><mn>2</mn><mi>y</mi></mrow></msup></math>",
+       "alt": "\\text{e}^{2 y}"
+      },
+      {
+       "latex": "\\text{ln}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext></math>",
+       "alt": "\\text{ln}"
+      },
+      {
+       "latex": "2 y",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi></math>",
+       "alt": "2 y"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "\\text{ln} A - \\text{ln} B = \\text{ln} \\frac{A}{B}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>ln</mtext><mi>A</mi><mo>-</mo><mtext>ln</mtext><mi>B</mi><mo>=</mo><mtext>ln</mtext><mfrac><mi>A</mi><mi>B</mi></mfrac></math>",
+       "alt": "\\text{ln} A - \\text{ln} B = \\text{ln} \\frac{A}{B}"
+      },
+      {
+       "latex": "\\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>e</mtext></math>",
+       "alt": "\\text{e}"
+      },
+      {
+       "latex": "\\text{e}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>e</mtext></math>",
+       "alt": "\\text{e}"
+      },
+      {
+       "latex": "x",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>",
+       "alt": "x"
+      },
+      {
+       "latex": "x > 2",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>2</mn></math>",
+       "alt": "x > 2"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
