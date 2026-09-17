@@ -34,6 +34,46 @@ def emit(slug):
     out = f'{GRAPH_DIR}/{slug}'
     os.makedirs(out, exist_ok=True)
 
+    # ---- unit structure (IAL-GRAPH-SCOPE-1), when available ----
+    struct = None
+    st_path = f'{OUT_BASE}/{slug}/structure.json'
+    if os.path.exists(st_path):
+        struct = json.load(open(st_path))
+    excluded = set()
+    point_unit = {}
+    unit_code = {}
+    unit_rows = []
+    if struct:
+        for gid in struct['validation'].get('excluded_point_ids', []):
+            excluded.add(gid)
+        for g in struct['validation'].get('gaps', []):
+            if 'appendix/notation region' in g.get('reason', ''):
+                excluded.add(g['id'])
+        for gid in struct['validation'].get('front_matter_gap_ids', []):
+            excluded.add(gid)
+        if any(g.get('id') == '*structure_parse_gap*'
+               for g in struct['validation'].get('gaps', [])):
+            excluded |= {p['id'] for p in sp['spec_points']}
+        for u in struct.get('units', []):
+            lab = u.get('label') or f"Unit {u.get('no')}"
+            if u.get('tier'):
+                lab = f"{lab} {u['tier']}"
+            unit_code[lab] = u.get('code')
+            unit_rows.append({
+                'unit': lab, 'code': u.get('code'),
+                'title': u.get('title') or u.get('tier'),
+                'tier': u.get('tier'),
+                'page_start': u.get('page_start'),
+                'content_topic_prefixes': u.get('content_topic_prefixes'),
+            })
+        point_unit = struct.get('spec_point_units', {})
+
+    def unit_fields(pid):
+        lab = point_unit.get(pid)
+        if not lab:
+            return None, None
+        return unit_code.get(lab), lab
+
     # topic / subsection codes (4CH1-S1 style when cover code available)
     topic_code = {i: f"{cover}-S{i}" for i in range(1, len(tp['topics']) + 1)}
     if not topic_code:
@@ -72,12 +112,17 @@ def emit(slug):
     # ---- specification_points.yaml ----
     points = []
     for p in sp['spec_points']:
+        if p['id'] in excluded:
+            continue
+        uc, ul = unit_fields(p['id'])
         points.append({
             'code': p['id'],
             'official_code': p['official_code'],
             'official_wording': p['text'],
             'section': topic_code.get(_topic_index(tp, p), None),
             'subsection': None,
+            'unit_code': uc,
+            'unit': ul,
             'ordering': p['ordering'],
             'global_order': p['ordering'],
             'practical': p['practical'],
@@ -103,12 +148,54 @@ def emit(slug):
     common_meta['counts'] = {'spec_points': len(points), 'topics': len(tp['topics']),
                              'subsections': len(tp['subsections']),
                              'practicals': pr['counts']['practicals']}
+    if struct:
+        common_meta['qualification_units'] = unit_rows
+        if excluded:
+            common_meta['excluded_points_note'] = (
+                f"{len(excluded)} non-spec points excluded (appendix/notation region captured "
+                "as points by the parse stage; see structure.json validation.gaps)")
+        pg = struct['validation'].get('gaps', [])
+        if any(g.get('id') == '*structure_parse_gap*' for g in pg):
+            common_meta['parse_gap_note'] = (
+                'This qualification has a known parse gap: real unit content was not captured '
+                'by the current parse (see structure.json validation). All spec points are '
+                'withheld from this graph until T-PARSE-FIX re-parses the source; '
+                f"{len(sp['spec_points'])} raw parsed entries excluded.")
     dump_yaml(f'{out}/specification_points.yaml',
               {**common_meta, 'specification_points': points})
 
     # ---- topics.yaml ----
+    unit_ranges = []
+    if struct:
+        for u in struct.get('units', []):
+            lab = u.get('label') or f"Unit {u.get('no')}"
+            if u.get('tier'):
+                lab = f"{lab} {u['tier']}"
+            if u.get('page_start'):
+                unit_ranges.append((u['page_start'], lab))
+        unit_ranges.sort()
+    # topic -> unit via majority vote of the unit-tagged points inside it (more reliable
+    # than page ranges: IAL science topics anchor to TOC pages, not body pages)
+    topic_members = {}
+    for p in sp['spec_points']:
+        if p['id'] in excluded:
+            continue
+        ti = _topic_index(tp, p)
+        if ti is not None and point_unit.get(p['id']):
+            topic_members.setdefault(ti, []).append(point_unit[p['id']])
+    def topic_unit(ti, page):
+        votes = topic_members.get(ti)
+        if votes:
+            return max(set(votes), key=votes.count)
+        host = None
+        for ps, lab in unit_ranges:
+            if page >= ps - 1:
+                host = lab
+        return host
     topic_rows = [{
         'code': topic_code[i], 'title': t['title'], 'ordering': i,
+        'unit_code': unit_code.get(topic_unit(i, t['provenance']['page'])),
+        'unit': topic_unit(i, t['provenance']['page']),
         'validation_status': 'RULE_DERIVED', 'confidence': 1.0, 'version': 1,
         'provenance': {'tier': 'RULE_DERIVED', 'extraction_method': 'pdf-span-geometry',
                        'pdf_page': t['provenance']['page'], 'pdf_sha1': sp['source']['pdf_sha1']},
@@ -132,6 +219,8 @@ def emit(slug):
                                      'extraction_method': 'topic-tree derivation',
                                      'pdf_page': s['page']}})
     for p in sp['spec_points']:
+        if p['id'] in excluded:
+            continue
         edges.append({'from': p['id'], 'relation': 'PART_OF',
                       'to': topic_code.get(_topic_index(tp, p)),
                       'validation_status': 'RULE_DERIVED', 'confidence': 1.0, 'version': 1,

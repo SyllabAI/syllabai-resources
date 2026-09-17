@@ -20,10 +20,33 @@ counts:
   topics: 9
   subsections: 31
   practicals: 12
+qualification_units:
+- unit: Unit 1
+  code: 4WCH1/1C
+  title: Chemistry Unit 1
+  tier: null
+  page_start: 14
+  content_topic_prefixes:
+  - 1
+  - 2
+  - 3
+  - 4
+- unit: Unit 2
+  code: 4WCH2/1C
+  title: Chemistry Unit 2
+  tier: null
+  page_start: 16
+  content_topic_prefixes:
+  - 5
+  - 6
+  - 7
+  - 8
 topics:
 - code: 4XCH1-S1
   title: About this specification
   ordering: 1
+  unit_code: 4WCH1/1C
+  unit: Unit 1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -36,6 +59,8 @@ topics:
 - code: 4XCH1-S2
   title: Qualification at a glance
   ordering: 2
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -48,6 +73,8 @@ topics:
 - code: 4XCH1-S3
   title: Chemistry content
   ordering: 3
+  unit_code: 4WCH1/1C
+  unit: Unit 1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -60,6 +87,8 @@ topics:
 - code: 4XCH1-S4
   title: Assessment information
   ordering: 4
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -72,6 +101,8 @@ topics:
 - code: 4XCH1-S5
   title: 1/2 Assessed through a 1 hour and 90
   ordering: 5
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -84,6 +115,8 @@ topics:
 - code: 4XCH1-S6
   title: 1/2 Assessed through a 1 hour and 90
   ordering: 6
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -96,6 +129,8 @@ topics:
 - code: 4XCH1-S7
   title: Administration and general information
   ordering: 7
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -108,6 +143,8 @@ topics:
 - code: 4XCH1-S8
   title: '(code: 4WCH1)'
   ordering: 8
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -120,6 +157,8 @@ topics:
 - code: 4XCH1-S9
   title: '(code: 4WCH2)'
   ordering: 9
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1

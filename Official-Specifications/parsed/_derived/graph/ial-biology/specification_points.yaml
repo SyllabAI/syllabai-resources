@@ -16,10 +16,49 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 171
+  spec_points: 170
   topics: 49
   subsections: 4
   practicals: 0
+qualification_units:
+- unit: '1'
+  code: WBI11
+  title: Molecules, Diet, Transport and Health
+  tier: null
+  page_start: 20
+  content_topic_prefixes: null
+- unit: '2'
+  code: WBI12
+  title: Cells, Development, Biodiversity and
+  tier: null
+  page_start: 25
+  content_topic_prefixes: null
+- unit: '3'
+  code: WBI13
+  title: Practical Skills in Biology I
+  tier: null
+  page_start: 31
+  content_topic_prefixes: null
+- unit: '4'
+  code: WBI14
+  title: Energy, Environment, Microbiology and
+  tier: null
+  page_start: 34
+  content_topic_prefixes: null
+- unit: '5'
+  code: WBI15
+  title: Respiration, Internal Environment,
+  tier: null
+  page_start: 39
+  content_topic_prefixes: null
+- unit: '6'
+  code: WBI16
+  title: Practical Skills in Biology II
+  tier: null
+  page_start: 45
+  content_topic_prefixes: null
+excluded_points_note: 1 non-spec points excluded (appendix/notation region captured as points by the parse
+  stage; see structure.json validation.gaps)
 specification_points:
 - code: IAL_BIOLOGY:Biology-1.1
   official_code: '1.1'
@@ -27,6 +66,8 @@ specification_points:
     nature
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 1
   global_order: 1
   practical: false
@@ -57,6 +98,8 @@ specification_points:
     are not required in this topic.
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 2
   global_order: 2
   practical: false
@@ -86,6 +129,8 @@ specification_points:
     using colour standards.
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 3
   global_order: 3
   practical: false
@@ -115,6 +160,8 @@ specification_points:
     reactions forming glycosidic bonds, and how these can be split through hydrolysis reactions
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 4
   global_order: 4
   practical: false
@@ -144,6 +191,8 @@ specification_points:
     and unsaturated lipids
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 5
   global_order: 5
   practical: false
@@ -172,6 +221,8 @@ specification_points:
     the limitations of diffusion in meeting the requirements of organisms)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 6
   global_order: 6
   practical: false
@@ -200,6 +251,8 @@ specification_points:
     to their functions
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 7
   global_order: 7
   practical: false
@@ -229,6 +282,8 @@ specification_points:
     to its function Details of myogenic stimulation are not needed at IAS.
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 8
   global_order: 8
   practical: false
@@ -258,6 +313,8 @@ specification_points:
     of the oxygen affinity of fetal haemoglobin compared with adult haemoglobin
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 9
   global_order: 9
   practical: false
@@ -286,6 +343,8 @@ specification_points:
     inflammatory response, plaque formation, raised blood pressure)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 10
   global_order: 10
   practical: false
@@ -314,6 +373,8 @@ specification_points:
     to thrombin and fibrinogen to fibrin) and its role in cardiovascular disease (CVD)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 11
   global_order: 11
   practical: false
@@ -342,6 +403,8 @@ specification_points:
     and inactivity increase the risk of cardiovascular disease (CVD)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 12
   global_order: 12
   practical: false
@@ -370,6 +433,8 @@ specification_points:
     (CVD)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 13
   global_order: 13
   practical: false
@@ -397,6 +462,8 @@ specification_points:
   official_wording: CORE PRACTICAL 2 Investigate the vitamin C content of food and drink.
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 14
   global_order: 14
   practical: false
@@ -426,6 +493,8 @@ specification_points:
     conflicting evidence
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 15
   global_order: 15
   practical: false
@@ -454,6 +523,8 @@ specification_points:
     sample selection and sample size used to collect data that is both valid and reliable
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 16
   global_order: 16
   practical: false
@@ -483,6 +554,8 @@ specification_points:
     the development of heart disease
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 17
   global_order: 17
   practical: false
@@ -513,6 +586,8 @@ specification_points:
     cholesterol) and cardiovascular disease (CVD)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 18
   global_order: 18
   practical: false
@@ -542,6 +617,8 @@ specification_points:
     their risk of coronary heart disease
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 19
   global_order: 19
   practical: false
@@ -570,6 +647,8 @@ specification_points:
     statins, anticoagulants and platelet inhibitors)
   section: XBI11/YBI11-S21
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 20
   global_order: 20
   practical: false
@@ -600,6 +679,8 @@ specification_points:
     (iii) understand how the structure of the mammalian lung is adapted for rapid gaseous exchange
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 21
   global_order: 21
   practical: false
@@ -629,6 +710,8 @@ specification_points:
     explanations of the structure and properties of cell membranes
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 22
   global_order: 22
   practical: false
@@ -657,6 +740,8 @@ specification_points:
     temperature on membrane permeability.
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 23
   global_order: 23
   practical: false
@@ -685,6 +770,8 @@ specification_points:
     through a partially permeable membrane, down a water potential gradient
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 24
   global_order: 24
   practical: false
@@ -714,6 +801,8 @@ specification_points:
     (ii) understand the involvement of carrier and channel proteins in membrane transport
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 25
   global_order: 25
   practical: false
@@ -747,6 +836,8 @@ specification_points:
     structures relate to their functions (including haemoglobin and collagen)
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 26
   global_order: 26
   practical: false
@@ -777,6 +868,8 @@ specification_points:
     and extracellular enzymes catalysing reactions outside cells
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 27
   global_order: 27
   practical: false
@@ -805,6 +898,8 @@ specification_points:
     substrate concentration on the initial rate of enzyme-catalysed reactions.
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 28
   global_order: 28
   practical: false
@@ -836,6 +931,8 @@ specification_points:
     complementary strands are involved in the formation of the DNA double helix
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 29
   global_order: 29
   practical: false
@@ -865,6 +962,8 @@ specification_points:
     theory of replication of DNA and refuted competing theories
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 30
   global_order: 30
   practical: false
@@ -892,6 +991,8 @@ specification_points:
   official_wording: understand the nature of the genetic code (triplet code, non-overlapping and degenerate)
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 31
   global_order: 31
   practical: false
@@ -920,6 +1021,8 @@ specification_points:
     of amino acids in a polypeptide chain
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 32
   global_order: 32
   practical: false
@@ -950,6 +1053,8 @@ specification_points:
     codons on messenger RNA and anticodons on transfer RNA
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 33
   global_order: 33
   practical: false
@@ -979,6 +1084,8 @@ specification_points:
     disorders, but that many mutations will have no observable effect
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 34
   global_order: 34
   practical: false
@@ -1009,6 +1116,8 @@ specification_points:
     sex linkage on the X chromosome, including red-green colour blindness in humans
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 35
   global_order: 35
   practical: false
@@ -1037,6 +1146,8 @@ specification_points:
     the functioning of the gaseous exchange, digestive and reproductive systems
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 36
   global_order: 36
   practical: false
@@ -1066,6 +1177,8 @@ specification_points:
     villus sampling (ii) understand the implications of prenatal genetic screening
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 37
   global_order: 37
   practical: false
@@ -1094,6 +1207,8 @@ specification_points:
     screening from a range of ethical viewpoints, including religious, moral and social implications
   section: XBI11/YBI11-S22
   subsection: null
+  unit_code: WBI11
+  unit: '1'
   ordering: 38
   global_order: 38
   practical: false
@@ -1121,6 +1236,8 @@ specification_points:
   official_wording: know that all living organisms are made of cells, sharing some common features
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 39
   global_order: 39
   practical: false
@@ -1149,6 +1266,8 @@ specification_points:
     into organs, and organs into organ systems
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 40
   global_order: 40
   practical: false
@@ -1178,6 +1297,8 @@ specification_points:
     understand the function of the organelles listed in (i)
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 41
   global_order: 41
   practical: false
@@ -1206,6 +1327,8 @@ specification_points:
     in protein transport within cells, including their role in the formation of extracellular enzymes
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 42
   global_order: 42
   practical: false
@@ -1235,6 +1358,8 @@ specification_points:
     in (i)
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 43
   global_order: 43
   practical: false
@@ -1262,6 +1387,8 @@ specification_points:
   official_wording: be able to recognise the organelles in 3.3 from electron microscope (EM) images
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 44
   global_order: 44
   practical: false
@@ -1290,6 +1417,8 @@ specification_points:
     microscopy (ii) understand the importance of staining specimens in microscopy
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 45
   global_order: 45
   practical: false
@@ -1317,6 +1446,8 @@ specification_points:
   official_wording: CORE PRACTICAL 5
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 46
   global_order: 46
   practical: false
@@ -1345,6 +1476,8 @@ specification_points:
     linkage of genes on a chromosome
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 47
   global_order: 47
   practical: false
@@ -1375,6 +1508,8 @@ specification_points:
     not required.
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 48
   global_order: 48
   practical: false
@@ -1403,6 +1538,8 @@ specification_points:
     acrosome in sperm and the zona pellucida in the egg cell)
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 49
   global_order: 49
   practical: false
@@ -1431,6 +1568,8 @@ specification_points:
     cortical reaction and the fusion of nuclei
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 50
   global_order: 50
   practical: false
@@ -1459,6 +1598,8 @@ specification_points:
     a pollen tube and ending with the fusion of nuclei
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 51
   global_order: 51
   practical: false
@@ -1487,6 +1628,8 @@ specification_points:
     daughter cells for growth and asexual reproduction
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 52
   global_order: 52
   practical: false
@@ -1514,6 +1657,8 @@ specification_points:
   official_wording: CORE PRACTICAL 6 Prepare and stain a root tip squash to observe the stages of mitosis.
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 53
   global_order: 53
   practical: false
@@ -1541,6 +1686,8 @@ specification_points:
   official_wording: be able to calculate mitotic indices
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 54
   global_order: 54
   practical: false
@@ -1570,6 +1717,8 @@ specification_points:
     to make decisions about the use of stem cells in medical therapies
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 55
   global_order: 55
   practical: false
@@ -1599,6 +1748,8 @@ specification_points:
     cell structure in animals and plants
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 56
   global_order: 56
   practical: false
@@ -1627,6 +1778,8 @@ specification_points:
     changes to messenger RNA (mRNA)
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 57
   global_order: 57
   practical: false
@@ -1657,6 +1810,8 @@ specification_points:
     on following cell division
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 58
   global_order: 58
   practical: false
@@ -1686,6 +1841,8 @@ specification_points:
     to phenotypes that show continuous variation
   section: XBI11/YBI11-S24
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 59
   global_order: 59
   practical: false
@@ -1715,6 +1872,8 @@ specification_points:
     animal cells (ii) understand the function of the structures listed in (i)
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 60
   global_order: 60
   practical: false
@@ -1742,6 +1901,8 @@ specification_points:
   official_wording: be able to recognise the organelles in 4.1 from electron microscope (EM) images
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 61
   global_order: 61
   practical: false
@@ -1771,6 +1932,8 @@ specification_points:
     microfibrils
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 62
   global_order: 62
   practical: false
@@ -1800,6 +1963,8 @@ specification_points:
     in plant fibres that can be exploited by humans
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 63
   global_order: 63
   practical: false
@@ -1829,6 +1994,8 @@ specification_points:
     and mineral ions) and phloem (translocation of organic solutes)
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 64
   global_order: 64
   practical: false
@@ -1856,6 +2023,8 @@ specification_points:
   official_wording: 'CORE PRACTICAL 7 Use a light microscope to:'
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 65
   global_order: 65
   practical: false
@@ -1884,6 +2053,8 @@ specification_points:
     including plant-based products to replace oil-based plastics
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 66
   global_order: 66
   practical: false
@@ -1912,6 +2083,8 @@ specification_points:
     ions) to plants
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 67
   global_order: 67
   practical: false
@@ -1939,6 +2112,8 @@ specification_points:
   official_wording: CORE PRACTICAL 8 Determine the tensile strength of plant fibres.
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 68
   global_order: 68
   practical: false
@@ -1966,6 +2141,8 @@ specification_points:
   official_wording: understand the conditions required for bacterial growth
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 69
   global_order: 69
   practical: false
@@ -1994,6 +2171,8 @@ specification_points:
     properties
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 70
   global_order: 70
   practical: false
@@ -2022,6 +2201,8 @@ specification_points:
     techniques for the safe handling of bacteria.
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 71
   global_order: 71
   practical: false
@@ -2050,6 +2231,8 @@ specification_points:
     including William Withering’s digitalis soup, double blind trials, placebo and three-phased testing
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 72
   global_order: 72
   practical: false
@@ -2081,6 +2264,8 @@ specification_points:
     including the three-domain system (Archaea, Bacteria and Eukarya)
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 73
   global_order: 73
   practical: false
@@ -2109,6 +2294,8 @@ specification_points:
     by human activity
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 74
   global_order: 74
   practical: false
@@ -2136,6 +2323,8 @@ specification_points:
   official_wording: understand what is meant by the terms biodiversity and endemism
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 75
   global_order: 75
   practical: false
@@ -2165,6 +2354,8 @@ specification_points:
     heterozygosity index = number of individuals in the population'
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 76
   global_order: 76
   practical: false
@@ -2193,6 +2384,8 @@ specification_points:
     to calculate an index of diversity (D): N ( N-1 ) D= Σn ( n-1 )'
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 77
   global_order: 77
   practical: false
@@ -2222,6 +2415,8 @@ specification_points:
     organisms to their environment (behavioural, anatomical and physiological)
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 78
   global_order: 78
   practical: false
@@ -2253,6 +2448,8 @@ specification_points:
     to the formation of new species
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 79
   global_order: 79
   practical: false
@@ -2282,6 +2479,8 @@ specification_points:
     reintroduction programmes and education
   section: XBI11/YBI11-S25
   subsection: null
+  unit_code: WBI12
+  unit: '2'
   ordering: 80
   global_order: 80
   practical: false
@@ -2311,6 +2510,8 @@ specification_points:
     it with carbon dioxide and releasing oxygen into the atmosphere
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 81
   global_order: 81
   practical: false
@@ -2339,6 +2540,8 @@ specification_points:
     ATP provides an immediate supply of energy for biological processes
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 82
   global_order: 82
   practical: false
@@ -2369,6 +2572,8 @@ specification_points:
     of water
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 83
   global_order: 83
   practical: false
@@ -2400,6 +2605,8 @@ specification_points:
     amino acids, proteins, lipids and nucleic acids)
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 84
   global_order: 84
   practical: false
@@ -2427,6 +2634,8 @@ specification_points:
   official_wording: understand the structure of chloroplasts in relation to their role in photosynthesis
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 85
   global_order: 85
   practical: false
@@ -2454,6 +2663,8 @@ specification_points:
   official_wording: understand what is meant by the terms absorption spectrum and action spectrum
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 86
   global_order: 86
   practical: false
@@ -2482,6 +2693,8 @@ specification_points:
     pigments identified using Rf values
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 87
   global_order: 87
   practical: false
@@ -2510,6 +2723,8 @@ specification_points:
     and availability of carbon dioxide on the rate of photosynthesis using a suitable aquatic plant.
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 88
   global_order: 88
   practical: false
@@ -2538,6 +2753,8 @@ specification_points:
     productivity (NPP) and plant respiration (R) (ii) be able to calculate net primary productivity
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 89
   global_order: 89
   practical: false
@@ -2566,6 +2783,8 @@ specification_points:
     levels
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 90
   global_order: 90
   practical: false
@@ -2593,6 +2812,8 @@ specification_points:
   official_wording: understand what is meant by the terms population , community , habitat and ecosystem
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 91
   global_order: 91
   practical: false
@@ -2621,6 +2842,8 @@ specification_points:
     by biotic and abiotic factors
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 92
   global_order: 92
   practical: false
@@ -2649,6 +2872,8 @@ specification_points:
     organisms in a habitat
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 93
   global_order: 93
   practical: false
@@ -2678,6 +2903,8 @@ specification_points:
     appropriate to the habitat.
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 94
   global_order: 94
   practical: false
@@ -2706,6 +2933,8 @@ specification_points:
     community
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 95
   global_order: 95
   practical: false
@@ -2735,6 +2964,8 @@ specification_points:
     correlations and causal relationships
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 96
   global_order: 96
   practical: false
@@ -2763,6 +2994,8 @@ specification_points:
     gases in the greenhouse effect
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 97
   global_order: 97
   practical: false
@@ -2791,6 +3024,8 @@ specification_points:
     levels of carbon dioxide
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 98
   global_order: 98
   practical: false
@@ -2819,6 +3054,8 @@ specification_points:
     used in models of future climate change (ii) understand that models for climate change have limitations
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 99
   global_order: 99
   practical: false
@@ -2847,6 +3084,8 @@ specification_points:
     seasonal cycles) on plants and animals (distribution of species, development and lifecycles)
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 100
   global_order: 100
   practical: false
@@ -2875,6 +3114,8 @@ specification_points:
     on plants, animals and microorganisms, to include Q 10
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 101
   global_order: 101
   practical: false
@@ -2904,6 +3145,8 @@ specification_points:
     organisms.
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 102
   global_order: 102
   practical: false
@@ -2932,6 +3175,8 @@ specification_points:
     mutation and natural selection
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 103
   global_order: 103
   practical: false
@@ -2960,6 +3205,8 @@ specification_points:
     or sympatric speciation
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 104
   global_order: 104
   practical: false
@@ -2989,6 +3236,8 @@ specification_points:
     climate change, can sometimes depend on who is reaching the conclusions
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 105
   global_order: 105
   practical: false
@@ -3017,6 +3266,8 @@ specification_points:
     are examples of the effective management of the conflict between human needs and conservation
   section: XBI11/YBI11-S28
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 106
   global_order: 106
   practical: false
@@ -3045,6 +3296,8 @@ specification_points:
     aseptic technique
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 107
   global_order: 107
   practical: false
@@ -3073,6 +3326,8 @@ specification_points:
     by cell counts, dilution plating, mass and optical methods (turbidity)
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 108
   global_order: 108
   practical: false
@@ -3101,6 +3356,8 @@ specification_points:
     phase, stationary phase and death phase) and be able to calculate exponential growth rate constants
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 109
   global_order: 109
   practical: false
@@ -3129,6 +3386,8 @@ specification_points:
     taking into account the safe and ethical use of organisms.
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 110
   global_order: 110
   practical: false
@@ -3158,6 +3417,8 @@ specification_points:
     virus (HIV) and lambda phage ( λ phage) (ii) understand what is meant by the terms lytic and latency
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 111
   global_order: 111
   practical: false
@@ -3186,6 +3447,8 @@ specification_points:
     human cells, causing symptoms that may result in death
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 112
   global_order: 112
   practical: false
@@ -3215,6 +3478,8 @@ specification_points:
     and skin flora
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 113
   global_order: 113
   practical: false
@@ -3243,6 +3508,8 @@ specification_points:
     lysozyme action, interferon and phagocytosis
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 114
   global_order: 114
   practical: false
@@ -3271,6 +3538,8 @@ specification_points:
     the involvement of plasma cells, macrophages and antigen-presenting cells
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 115
   global_order: 115
   practical: false
@@ -3299,6 +3568,8 @@ specification_points:
     and T cells (T helper, T killer and T memory cells) in the host’s immune response
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 116
   global_order: 116
   practical: false
@@ -3326,6 +3597,8 @@ specification_points:
   official_wording: understand how individuals may develop immunity (natural, artificial, active and passive)
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 117
   global_order: 117
   practical: false
@@ -3354,6 +3627,8 @@ specification_points:
     is supported by evasion mechanisms shown by pathogens
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 118
   global_order: 118
   practical: false
@@ -3381,6 +3656,8 @@ specification_points:
   official_wording: understand the difference between bacteriostatic and bactericidal antibiotics
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 119
   global_order: 119
   practical: false
@@ -3408,6 +3685,8 @@ specification_points:
   official_wording: CORE PRACTICAL 14 Investigate the effect of different antibiotics on bacteria.
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 120
   global_order: 120
   practical: false
@@ -3437,6 +3716,8 @@ specification_points:
     infection prevention and control
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 121
   global_order: 121
   practical: false
@@ -3465,6 +3746,8 @@ specification_points:
     of carbon
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 122
   global_order: 122
   practical: false
@@ -3492,6 +3775,8 @@ specification_points:
   official_wording: know how DNA can be amplified using the polymerase chain reaction (PCR)
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 123
   global_order: 123
   practical: false
@@ -3519,6 +3804,8 @@ specification_points:
   official_wording: know how gel electrophoresis can be used to separate DNA fragments of different length
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 124
   global_order: 124
   practical: false
@@ -3547,6 +3834,8 @@ specification_points:
     between organisms (plants and animals)
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 125
   global_order: 125
   practical: false
@@ -3576,6 +3865,8 @@ specification_points:
     contraction
   section: XBI11/YBI11-S29
   subsection: null
+  unit_code: WBI14
+  unit: '4'
   ordering: 126
   global_order: 126
   practical: false
@@ -3607,6 +3898,8 @@ specification_points:
     are not required.
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 127
   global_order: 127
   practical: false
@@ -3636,6 +3929,8 @@ specification_points:
     coenzyme, pyruvate and lactate Details of intermediate stages and compounds are not required.
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 128
   global_order: 128
   practical: false
@@ -3666,6 +3961,8 @@ specification_points:
     these steps take place in mitochondria, unlike glycolysis which occurs in the cytoplasm
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 129
   global_order: 129
   practical: false
@@ -3694,6 +3991,8 @@ specification_points:
     electron transport chain in mitochondria, including the role of chemiosmosis and ATP synthase
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 130
   global_order: 130
   practical: false
@@ -3721,6 +4020,8 @@ specification_points:
   official_wording: understand what happens to lactate after a period of anaerobic respiration in animals
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 131
   global_order: 131
   practical: false
@@ -3748,6 +4049,8 @@ specification_points:
   official_wording: understand what is meant by the term respiratory quotient ( RQ )
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 132
   global_order: 132
   practical: false
@@ -3776,6 +4079,8 @@ specification_points:
     respiration in yeast.
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 133
   global_order: 133
   practical: false
@@ -3804,6 +4109,8 @@ specification_points:
     RQ of a suitable material (such as germinating seeds or small invertebrates).
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 134
   global_order: 134
   practical: false
@@ -3832,6 +4139,8 @@ specification_points:
     movement, including antagonistic muscle pairs, extensors and flexors
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 135
   global_order: 135
   practical: false
@@ -3860,6 +4169,8 @@ specification_points:
     and physiological differences between fast and slow twitch muscle fibres
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 136
   global_order: 136
   practical: false
@@ -3889,6 +4200,8 @@ specification_points:
     ATPase
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 137
   global_order: 137
   practical: false
@@ -3919,6 +4232,8 @@ specification_points:
     use of electrocardiograms (ECGs) can aid in the diagnosis of abnormal heart rhythms
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 138
   global_order: 138
   practical: false
@@ -3949,6 +4264,8 @@ specification_points:
     control centre and the ventilation centre in the medulla oblongata
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 139
   global_order: 139
   practical: false
@@ -3976,6 +4293,8 @@ specification_points:
   official_wording: understand the role of adrenaline in the fight or flight response
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 140
   global_order: 140
   practical: false
@@ -4004,6 +4323,8 @@ specification_points:
     respiratory minute ventilation, and oxygen consumption using data from spirometer traces.
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 141
   global_order: 141
   practical: false
@@ -4032,6 +4353,8 @@ specification_points:
     control (ii) understand the principle of negative feedback in maintaining systems within narrow limits
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 142
   global_order: 142
   practical: false
@@ -4061,6 +4384,8 @@ specification_points:
     in thermoregulation
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 143
   global_order: 143
   practical: false
@@ -4088,6 +4413,8 @@ specification_points:
   official_wording: know the gross and microscopic structure of the mammalian kidney
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 144
   global_order: 144
   practical: false
@@ -4116,6 +4443,8 @@ specification_points:
     the ornithine cycle are not required ) and how it is removed from the bloodstream by ultrafiltration
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 145
   global_order: 145
   practical: false
@@ -4144,6 +4473,8 @@ specification_points:
     loop of Henle acts as a countercurrent multiplier to increase the reabsorption of water
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 146
   global_order: 146
   practical: false
@@ -4173,6 +4504,8 @@ specification_points:
     plasma concentration and blood volume
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 147
   global_order: 147
   practical: false
@@ -4201,6 +4534,8 @@ specification_points:
     the role of peptide hormones acting extracellularly and steroid hormones acting intracellularly
   section: XBI11/YBI11-S31
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 148
   global_order: 148
   practical: false
@@ -4229,6 +4564,8 @@ specification_points:
     cells and myelination
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 149
   global_order: 149
   practical: false
@@ -4257,6 +4594,8 @@ specification_points:
     stimulus
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 150
   global_order: 150
   practical: false
@@ -4285,6 +4624,8 @@ specification_points:
     white matter of the spinal cord
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 151
   global_order: 151
   practical: false
@@ -4313,6 +4654,8 @@ specification_points:
     changes in membrane permeability to sodium and potassium ions
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 152
   global_order: 152
   practical: false
@@ -4340,6 +4683,8 @@ specification_points:
   official_wording: understand the role of myelination in saltatory conduction
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 153
   global_order: 153
   practical: false
@@ -4368,6 +4713,8 @@ specification_points:
     the role of neurotransmitters and acetylcholine (ii) understand how the pupil dilates and contracts
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 154
   global_order: 154
   practical: false
@@ -4397,6 +4744,8 @@ specification_points:
     the treatment of Parkinson’s disease and the action of MDMA (ecstasy)
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 155
   global_order: 155
   practical: false
@@ -4426,6 +4775,8 @@ specification_points:
     and hyperpolarisation of rod cells in forming action potentials in the optic neurones
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 156
   global_order: 156
   practical: false
@@ -4453,6 +4804,8 @@ specification_points:
   official_wording: understand what is meant by the term habituation
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 157
   global_order: 157
   practical: false
@@ -4481,6 +4834,8 @@ specification_points:
     systems
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 158
   global_order: 158
   practical: false
@@ -4509,6 +4864,8 @@ specification_points:
     plants, including their effects on transcription
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 159
   global_order: 159
   practical: false
@@ -4536,6 +4893,8 @@ specification_points:
   official_wording: CORE PRACTICAL 18 Investigate the production of amylase in germinating cereal grains.
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 160
   global_order: 160
   practical: false
@@ -4564,6 +4923,8 @@ specification_points:
     control
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 161
   global_order: 161
   practical: false
@@ -4592,6 +4953,8 @@ specification_points:
     gland, cerebellum and medulla oblongata of the human brain
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 162
   global_order: 162
   practical: false
@@ -4621,6 +4984,8 @@ specification_points:
     and the investigation of brain structure and function
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 163
   global_order: 163
   practical: false
@@ -4650,6 +5015,8 @@ specification_points:
     of new drugs
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 164
   global_order: 164
   practical: false
@@ -4678,6 +5045,8 @@ specification_points:
     and microorganisms)
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 165
   global_order: 165
   practical: false
@@ -4706,6 +5075,8 @@ specification_points:
     endonucleases and DNA ligase
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 166
   global_order: 166
   practical: false
@@ -4733,6 +5104,8 @@ specification_points:
   official_wording: understand how recombinant DNA can be inserted into other cells
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 167
   global_order: 167
   practical: false
@@ -4760,6 +5133,8 @@ specification_points:
   official_wording: know how microarrays can be used to identify active genes
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 168
   global_order: 168
   practical: false
@@ -4787,6 +5162,8 @@ specification_points:
   official_wording: understand what is meant by the term bioinformatics
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 169
   global_order: 169
   practical: false
@@ -4815,6 +5192,8 @@ specification_points:
     organisms
   section: XBI11/YBI11-S32
   subsection: null
+  unit_code: WBI15
+  unit: '5'
   ordering: 170
   global_order: 170
   practical: false
@@ -4835,32 +5214,5 @@ specification_points:
     generated_date: '2026-09-17'
     pdf_page: 44
     pdf_oy: 245.3
-    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
-  damage_flags: []
-- code: IAL_BIOLOGY:Biology-5.0
-  official_code: '5.0'
-  official_wording: x 10 -3 mol dm -3 . percentages • calculate percentage yields
-  section: XBI11/YBI11-S49
-  subsection: null
-  ordering: 171
-  global_order: 171
-  practical: false
-  scope: Biology
-  applicability:
-    unit_scope: Biology
-    rule: content belongs to unit Biology (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: International-A-Level-Biology-Spec.pdf
-    spec_issue: '2'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 70
-    pdf_oy: 446.8
     pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
   damage_flags: []

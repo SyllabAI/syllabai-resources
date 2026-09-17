@@ -16,10 +16,49 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 171
+  spec_points: 170
   topics: 49
   subsections: 4
   practicals: 0
+qualification_units:
+- unit: '1'
+  code: WBI11
+  title: Molecules, Diet, Transport and Health
+  tier: null
+  page_start: 20
+  content_topic_prefixes: null
+- unit: '2'
+  code: WBI12
+  title: Cells, Development, Biodiversity and
+  tier: null
+  page_start: 25
+  content_topic_prefixes: null
+- unit: '3'
+  code: WBI13
+  title: Practical Skills in Biology I
+  tier: null
+  page_start: 31
+  content_topic_prefixes: null
+- unit: '4'
+  code: WBI14
+  title: Energy, Environment, Microbiology and
+  tier: null
+  page_start: 34
+  content_topic_prefixes: null
+- unit: '5'
+  code: WBI15
+  title: Respiration, Internal Environment,
+  tier: null
+  page_start: 39
+  content_topic_prefixes: null
+- unit: '6'
+  code: WBI16
+  title: Practical Skills in Biology II
+  tier: null
+  page_start: 45
+  content_topic_prefixes: null
+excluded_points_note: 1 non-spec points excluded (appendix/notation region captured as points by the parse
+  stage; see structure.json validation.gaps)
 edges:
 - from: XBI11/YBI11-SUB1
   relation: PART_OF
@@ -1761,13 +1800,3 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 44
-- from: IAL_BIOLOGY:Biology-5.0
-  relation: PART_OF
-  to: XBI11/YBI11-S49
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: statement-topic association
-    pdf_page: 70

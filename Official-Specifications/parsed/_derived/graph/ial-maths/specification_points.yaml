@@ -16,44 +16,106 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 359
+  spec_points: 239
   topics: 93
   subsections: 0
   practicals: 0
+qualification_units:
+- unit: P1
+  code: WMA11
+  title: Pure Mathematics 1
+  tier: null
+  page_start: 18
+  content_topic_prefixes: null
+- unit: P2
+  code: WMA12
+  title: Pure Mathematics 2
+  tier: null
+  page_start: 23
+  content_topic_prefixes: null
+- unit: P3
+  code: WMA13
+  title: Pure Mathematics 3
+  tier: null
+  page_start: 27
+  content_topic_prefixes: null
+- unit: P4
+  code: WMA14
+  title: Pure Mathematics 4
+  tier: null
+  page_start: 32
+  content_topic_prefixes: null
+- unit: FP1
+  code: WFM01
+  title: Further Pure Mathematics 1
+  tier: null
+  page_start: 36
+  content_topic_prefixes: null
+- unit: FP2
+  code: WFM02
+  title: Further Pure Mathematics 2
+  tier: null
+  page_start: 42
+  content_topic_prefixes: null
+- unit: FP3
+  code: WFM03
+  title: Further Pure Mathematics 3
+  tier: null
+  page_start: 46
+  content_topic_prefixes: null
+- unit: M1
+  code: WME01
+  title: Mechanics 1
+  tier: null
+  page_start: 50
+  content_topic_prefixes: null
+- unit: M2
+  code: WME02
+  title: Mechanics 2
+  tier: null
+  page_start: 53
+  content_topic_prefixes: null
+- unit: M3
+  code: WME03
+  title: Mechanics 3
+  tier: null
+  page_start: 56
+  content_topic_prefixes: null
+- unit: S1
+  code: WST01
+  title: Statistics 1
+  tier: null
+  page_start: 59
+  content_topic_prefixes: null
+- unit: S2
+  code: WST02
+  title: Statistics 2
+  tier: null
+  page_start: 63
+  content_topic_prefixes: null
+- unit: S3
+  code: WST03
+  title: Statistics 3
+  tier: null
+  page_start: 66
+  content_topic_prefixes: null
+- unit: D1
+  code: WDM11
+  title: Decision Mathematics 1
+  tier: null
+  page_start: 69
+  content_topic_prefixes: null
+excluded_points_note: 120 non-spec points excluded (appendix/notation region captured as points by the
+  parse stage; see structure.json validation.gaps)
 specification_points:
-- code: IAL_MATHS:6.5
-  official_code: '6.5'
-  official_wording: Use integration to find the area Students should be able to find the area under a
-    curve given its parametric under a curve given its parametric equations. equations. Students will
-    not be expected to sketch a curve from its parametric equations.
-  section: null
-  subsection: null
-  ordering: 1
-  global_order: 1
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: use
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 3
-    pdf_oy: 317.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
 - code: IAL_MATHS:P1-1.1
   official_code: '1.1'
   official_wording: Laws of indices for all rational a m × a n = a m + n , a m ÷ a n = a m − n , ( a m
     ) n = a mn exponents. m n m The equivalence of a n and a should be known.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 2
   global_order: 2
   practical: false
@@ -81,6 +143,8 @@ specification_points:
   official_wording: Use and manipulation of surds. Students should be able to rationalise denominators.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 3
   global_order: 3
   practical: false
@@ -108,6 +172,8 @@ specification_points:
   official_wording: Quadratic functions and their graphs.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 4
   global_order: 4
   practical: false
@@ -136,6 +202,8 @@ specification_points:
     b 2 − 4 ac = 0 and b 2 − 4 ac < 0
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 5
   global_order: 5
   practical: false
@@ -165,6 +233,8 @@ specification_points:
      ax 2 + bx + c = a  x + +  c −  2 a  4 a     
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 6
   global_order: 6
   practical: false
@@ -192,6 +262,8 @@ specification_points:
   official_wording: Solve simultaneous equations; analytical solution by substitution.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 7
   global_order: 7
   practical: false
@@ -223,6 +295,8 @@ specification_points:
     < b becomes ax < bx 2 , x ≠ 0.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 8
   global_order: 8
   practical: false
@@ -252,6 +326,8 @@ specification_points:
     solid line convention is required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 9
   global_order: 9
   practical: false
@@ -280,6 +356,8 @@ specification_points:
     d , px 2 + qx + r  0, px 2 + qx + r < ax + b .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 10
   global_order: 10
   practical: false
@@ -309,6 +387,8 @@ specification_points:
     and collecting like terms, factorisation. notation f( x ) may be used .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S2
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 11
   global_order: 11
   practical: false
@@ -339,6 +419,8 @@ specification_points:
     to solve equations. Knowledge of the term asymptote is expected. Also, trigonometric graphs.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 12
   global_order: 12
   practical: false
@@ -370,6 +452,8 @@ specification_points:
     should be able to sketch the graph resulting from one of these transformations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 13
   global_order: 13
   practical: false
@@ -400,6 +484,8 @@ specification_points:
     to the line 3 x + 4 y = 18 through the point (2, 3) has equation y − 3 = 4 ( x − 2). 3'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 14
   global_order: 14
   practical: false
@@ -427,6 +513,8 @@ specification_points:
   official_wording: Conditions for two straight lines to be parallel or perpendicular to each other.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 15
   global_order: 15
   practical: false
@@ -455,6 +543,8 @@ specification_points:
     area of a triangle in the form 1 ab sin C. 2
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 16
   global_order: 16
   practical: false
@@ -483,6 +573,8 @@ specification_points:
     length and area of sector.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 17
   global_order: 17
   practical: false
@@ -512,6 +604,8 @@ specification_points:
       6  
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S4
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 18
   global_order: 18
   practical: false
@@ -542,6 +636,8 @@ specification_points:
     of change; second order derivatives. The notation f ′ ( x ) and f ′′ ( x ) may be used.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S6
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 19
   global_order: 19
   practical: false
@@ -570,6 +666,8 @@ specification_points:
     as sums, differences and constant x 2 + 5 x − 3 multiples. (2 x + 5)( x − 1) and is expected. 3 x
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S6
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 20
   global_order: 20
   practical: false
@@ -598,6 +696,8 @@ specification_points:
     and gradients, tangents and normals. normals at specific points on a curve.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S6
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 21
   global_order: 21
   practical: false
@@ -626,6 +726,8 @@ specification_points:
     is of differentiation. required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S6
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 22
   global_order: 22
   practical: false
@@ -656,6 +758,8 @@ specification_points:
     students should be able to find an equation of the curve in the form y = f( x ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S6
   subsection: null
+  unit_code: WMA11
+  unit: P1
   ordering: 23
   global_order: 23
   practical: false
@@ -684,6 +788,8 @@ specification_points:
     through a series of logical steps to a conclusion; use methods of proof stated below:'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S9
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 24
   global_order: 24
   practical: false
@@ -712,6 +818,8 @@ specification_points:
     x and y are odd integers less than 7. Prove that their sum is divisible by 2.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S9
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 25
   global_order: 25
   practical: false
@@ -740,6 +848,8 @@ specification_points:
     “ n 2 − n + 1 is a prime number for all values of n ” is untrue.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S9
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 26
   global_order: 26
   practical: false
@@ -772,6 +882,8 @@ specification_points:
     is divided by ( ax + b ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S9
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 27
   global_order: 27
   practical: false
@@ -803,6 +915,8 @@ specification_points:
     centre to a chord bisects the chord; (iii) the perpendicularity of radius and tangent.'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S9
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 28
   global_order: 28
   practical: false
@@ -831,6 +945,8 @@ specification_points:
     by a simple relation of the form x n + 1 = f( x n ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 29
   global_order: 29
   practical: false
@@ -860,6 +976,8 @@ specification_points:
     of notation will expected. arithmetic series; the sum of the Σ first n natural numbers.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 30
   global_order: 30
   practical: false
@@ -887,6 +1005,8 @@ specification_points:
   official_wording: Increasing sequences, decreasing sequences and periodic sequences.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 31
   global_order: 31
   practical: false
@@ -918,6 +1038,8 @@ specification_points:
     expressed as S ∞ . including the use of | r| < 1.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 32
   global_order: 32
   practical: false
@@ -946,6 +1068,8 @@ specification_points:
     n !,   and C r may be used.  r 
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 33
   global_order: 33
   practical: false
@@ -973,6 +1097,8 @@ specification_points:
   official_wording: y = a x and its graph. a > 0, a ≠ 1
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 34
   global_order: 34
   practical: false
@@ -1002,6 +1128,8 @@ specification_points:
     = 1 where a, x, y > 0, a ≠ 1.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 35
   global_order: 35
   practical: false
@@ -1030,6 +1158,8 @@ specification_points:
     a x = b .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S11
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 36
   global_order: 36
   practical: false
@@ -1057,6 +1187,8 @@ specification_points:
   official_wording: Knowledge and use of tan θ = sin θ , cos θ and sin 2 θ + cos 2 θ = 1.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S14
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 37
   global_order: 37
   practical: false
@@ -1087,6 +1219,8 @@ specification_points:
     x < 360 ° , sin 2  x + π  = 1 for – π  x < π .  6  2  
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S14
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 38
   global_order: 38
   practical: false
@@ -1116,6 +1250,8 @@ specification_points:
     increasing and decreasing problem. functions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S14
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 39
   global_order: 39
   practical: false
@@ -1143,6 +1279,8 @@ specification_points:
   official_wording: Evaluation of definite integrals.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S14
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 40
   global_order: 40
   practical: false
@@ -1174,6 +1312,8 @@ specification_points:
     by two curves.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S14
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 41
   global_order: 41
   practical: false
@@ -1203,6 +1343,8 @@ specification_points:
     to improve accuracy and an estimate of the error may be required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S14
   subsection: null
+  unit_code: WMA12
+  unit: P2
   ordering: 42
   global_order: 42
   practical: false
@@ -1232,6 +1374,8 @@ specification_points:
     , , x + 1 . ax + b px 2 + qx + r x 2 − 1
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S17
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 43
   global_order: 43
   practical: false
@@ -1263,6 +1407,8 @@ specification_points:
     ) = x .'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S17
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 44
   global_order: 44
   practical: false
@@ -1293,6 +1439,8 @@ specification_points:
     = x + 5 or the inequality | 2 x − 1 | > x + 5.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S17
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 45
   global_order: 45
   practical: false
@@ -1323,6 +1471,8 @@ specification_points:
     a , y = f( x + a ), y = f( ax ). The graph of y = f( ax + b ) will not be required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S17
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 46
   global_order: 46
   practical: false
@@ -1352,6 +1502,8 @@ specification_points:
     their graphs and appropriate restricted domains.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S17
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 47
   global_order: 47
   practical: false
@@ -1379,6 +1531,8 @@ specification_points:
   official_wording: Knowledge and use of sec 2 θ = 1 + tan 2 θ and cosec 2 θ = 1 + cot 2 θ .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S17
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 48
   global_order: 48
   practical: false
@@ -1411,6 +1565,8 @@ specification_points:
     a ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 49
   global_order: 49
   practical: false
@@ -1438,6 +1594,8 @@ specification_points:
   official_wording: The function e x and its graph. To include the graph of y = e ax + b + c
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 50
   global_order: 50
   practical: false
@@ -1466,6 +1624,8 @@ specification_points:
     p and as the inverse function of e x . ln ( ax + b ) = q is expected.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 51
   global_order: 51
   practical: false
@@ -1496,6 +1656,8 @@ specification_points:
     k and the gradient is log b .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 52
   global_order: 52
   practical: false
@@ -1524,6 +1686,8 @@ specification_points:
     .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 53
   global_order: 53
   practical: false
@@ -1554,6 +1718,8 @@ specification_points:
     x 4 sin x , , cos x 2 and tan 2 2 x .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 54
   global_order: 54
   practical: false
@@ -1582,6 +1748,8 @@ specification_points:
       d y 
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 55
   global_order: 55
   practical: false
@@ -1612,6 +1780,8 @@ specification_points:
     improved model may be required. Knowledge and use of the result d ( a x ) = a x ln a is d x expected.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S5
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 56
   global_order: 56
   practical: false
@@ -1640,6 +1810,8 @@ specification_points:
     e , n , sin kx , cos kx 1 x e 5 x , and their sums and differences. 2 x
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S21
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 57
   global_order: 57
   practical: false
@@ -1670,6 +1842,8 @@ specification_points:
     ln (f( x )) + c and ∫ f ( x ) [ f ( x ) ] n + 1 f ′ ( x )[f ( x )] n d x = + c ∫ n + 1
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S21
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 58
   global_order: 58
   practical: false
@@ -1698,6 +1872,8 @@ specification_points:
     of x in which f( x ) is continuous.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S21
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 59
   global_order: 59
   practical: false
@@ -1727,6 +1903,8 @@ specification_points:
     form x n + 1 = f( x n )
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S21
   subsection: null
+  unit_code: WMA13
+  unit: P3
   ordering: 60
   global_order: 60
   practical: false
@@ -1755,6 +1933,8 @@ specification_points:
     of primes, and application to unfamiliar proofs.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S26
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 61
   global_order: 61
   practical: false
@@ -1786,6 +1966,8 @@ specification_points:
     factors in the denominator such as ( x 2 + a ), a > 0, are not required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S26
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 62
   global_order: 62
   practical: false
@@ -1813,6 +1995,8 @@ specification_points:
   official_wording: Parametric equations of curves and conversion between cartesian and parametric forms.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S26
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 63
   global_order: 63
   practical: false
@@ -1842,6 +2026,8 @@ specification_points:
     fractions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S26
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 64
   global_order: 64
   practical: false
@@ -1870,6 +2056,8 @@ specification_points:
     to curves defined implicitly or given parametrically or implicitly is required. parametrically.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S26
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 65
   global_order: 65
   practical: false
@@ -1898,6 +2086,8 @@ specification_points:
     be set. equations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S26
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 66
   global_order: 66
   practical: false
@@ -1926,6 +2116,8 @@ specification_points:
     Students should be able to find a volume of revolution, given parametric equations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 67
   global_order: 67
   practical: false
@@ -1957,6 +2149,8 @@ specification_points:
     may be required, for example, x 2 e x d x , e x sin x d x . ∫ ∫
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 68
   global_order: 68
   practical: false
@@ -1987,6 +2181,8 @@ specification_points:
     5.2 ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 69
   global_order: 69
   practical: false
@@ -2015,6 +2211,8 @@ specification_points:
     order differential equations with separable variables.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 70
   global_order: 70
   practical: false
@@ -2044,6 +2242,8 @@ specification_points:
     to equations. sketch a curve from its parametric equations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 71
   global_order: 71
   practical: false
@@ -2071,6 +2271,8 @@ specification_points:
   official_wording: Vectors in two and three dimensions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 72
   global_order: 72
   practical: false
@@ -2099,6 +2301,8 @@ specification_points:
     of a , and be familiar with | a | .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 73
   global_order: 73
   practical: false
@@ -2127,6 +2331,8 @@ specification_points:
     interpretations.   
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 74
   global_order: 74
   practical: false
@@ -2154,6 +2360,8 @@ specification_points:
   official_wording: Position vectors. OB − OA = AB = b − a
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 75
   global_order: 75
   practical: false
@@ -2182,6 +2390,8 @@ specification_points:
     1 ) and ( x 2 , y 2 , z 2 ) is given by d 2 = ( x 1 – x 2 ) 2 + ( y 1 – y 2 ) 2 + ( z 1 – z 2 ) 2
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 76
   global_order: 76
   practical: false
@@ -2210,6 +2420,8 @@ specification_points:
     ) Conditions for two lines to be parallel, intersecting or skew.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 77
   global_order: 77
   practical: false
@@ -2240,6 +2452,8 @@ specification_points:
     and a and b are non- zero vectors, then a and b are perpendicular.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S28
   subsection: null
+  unit_code: WMA14
+  unit: P4
   ordering: 78
   global_order: 78
   practical: false
@@ -2269,6 +2483,8 @@ specification_points:
     sin θ . known.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S29
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 79
   global_order: 79
   practical: false
@@ -2297,6 +2513,8 @@ specification_points:
     of the result arg( z z ) = arg z + arg z is not 1 2 1 2 required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S29
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 80
   global_order: 80
   practical: false
@@ -2325,6 +2543,8 @@ specification_points:
     of sums, products and quotients of complex numbers.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S29
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 81
   global_order: 81
   practical: false
@@ -2352,6 +2572,8 @@ specification_points:
   official_wording: Complex solutions of quadratic equations with real coefficients.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S29
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 82
   global_order: 82
   practical: false
@@ -2380,6 +2602,8 @@ specification_points:
     z 1 * is and a real root of a cubic equation also a root. with integer coefficients.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S29
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 83
   global_order: 83
   practical: false
@@ -2410,6 +2634,8 @@ specification_points:
     x 2 + 14 x − 20 Given g(1) = 0 and g(−2) = 0, use algebra to solve g( x ) = 0 completely.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S29
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 84
   global_order: 84
   practical: false
@@ -2438,6 +2664,8 @@ specification_points:
     are α and β , of a quadratic equation. b c then α + β = − , αβ = . a a
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 85
   global_order: 85
   practical: false
@@ -2466,6 +2694,8 @@ specification_points:
     αβ ( α + β ). involving the sum of roots and product of roots.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 86
   global_order: 86
   practical: false
@@ -2494,6 +2724,8 @@ specification_points:
     α , β ; , ; 2 , 2 ; α + , α β α β β β + 2 ; etc. α
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 87
   global_order: 87
   practical: false
@@ -2524,6 +2756,8 @@ specification_points:
     process.'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 88
   global_order: 88
   practical: false
@@ -2552,6 +2786,8 @@ specification_points:
     and rectangular hyperbola. 2 2 2 c y = 4 ax or x = at , y = 2 at and xy = c or x = ct , y = . t'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 89
   global_order: 89
   practical: false
@@ -2580,6 +2816,8 @@ specification_points:
     the parabola is parabola and rectangular hyperbola. all that is required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 90
   global_order: 90
   practical: false
@@ -2608,6 +2846,8 @@ specification_points:
     locus of parabola. points equidistant from focus and directrix.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 91
   global_order: 91
   practical: false
@@ -2636,6 +2876,8 @@ specification_points:
     x Parametric differentiation is not required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S32
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 92
   global_order: 92
   practical: false
@@ -2663,6 +2905,8 @@ specification_points:
   official_wording: Addition and subtraction of matrices.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 93
   global_order: 93
   practical: false
@@ -2690,6 +2934,8 @@ specification_points:
   official_wording: Multiplication of a matrix by a scalar.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 94
   global_order: 94
   practical: false
@@ -2717,6 +2963,8 @@ specification_points:
   official_wording: Products of matrices.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 95
   global_order: 95
   practical: false
@@ -2744,6 +2992,8 @@ specification_points:
   official_wording: Evaluation of 2 × 2 determinants. Singular and non-singular matrices.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 96
   global_order: 96
   practical: false
@@ -2771,6 +3021,8 @@ specification_points:
   official_wording: Inverse of 2 × 2 matrices. Use of the relation ( AB ) –1 = B –1 A –1 .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 97
   global_order: 97
   practical: false
@@ -2800,6 +3052,8 @@ specification_points:
     represented by A .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 98
   global_order: 98
   practical: false
@@ -2830,6 +3084,8 @@ specification_points:
     and enlargement about centre (0, 0), with scale factor k , ( k ≠ 0), where k ∈ ℝ .'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 99
   global_order: 99
   practical: false
@@ -2858,6 +3114,8 @@ specification_points:
     of combined transformations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 100
   global_order: 100
   practical: false
@@ -2886,6 +3144,8 @@ specification_points:
     in given transformation or transformations. combination of transformations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 101
   global_order: 101
   practical: false
@@ -2914,6 +3174,8 @@ specification_points:
     n 2 n 2 ∑ r , ∑ r , ∑ r ( r + 2) . r = 1 r = 1 r = 1 The method of differences is not required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S35
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 102
   global_order: 102
   practical: false
@@ -2945,6 +3207,8 @@ specification_points:
     1 − 3 n − n e.g. show  − 2 − 1  =   .  9 4   9 n 3 n + 1     
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S36
   subsection: null
+  unit_code: WFM01
+  unit: FP1
   ordering: 103
   global_order: 103
   practical: false
@@ -2974,6 +3238,8 @@ specification_points:
     − x b −
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S39
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 104
   global_order: 104
   practical: false
@@ -3003,6 +3269,8 @@ specification_points:
     ( r + 1) r r + 1
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S39
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 105
   global_order: 105
   practical: false
@@ -3031,6 +3299,8 @@ specification_points:
     θ = (e i θ + e − i θ ) 2 and sin θ = 1 (e i θ − e − i θ ). 2i
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S39
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 106
   global_order: 106
   practical: false
@@ -3061,6 +3331,8 @@ specification_points:
     theorem for any integer n.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S39
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 107
   global_order: 107
   practical: false
@@ -3090,6 +3362,8 @@ specification_points:
     z b −   | z − a |  b.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S39
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 108
   global_order: 108
   practical: false
@@ -3118,6 +3392,8 @@ specification_points:
     the z -plane to the w -plane. cz + d a , b , c , d ∈ ℂ , may be set.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S39
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 109
   global_order: 109
   practical: false
@@ -3147,6 +3423,8 @@ specification_points:
     separable variables. also sketch members of the family of solution curves.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 110
   global_order: 110
   practical: false
@@ -3175,6 +3453,8 @@ specification_points:
     proof. equations of the form d y + Py = Q d x where P and Q are functions of x .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 111
   global_order: 111
   practical: false
@@ -3202,6 +3482,8 @@ specification_points:
   official_wording: Differential equations reducible to the above types by means of a given substitution.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 112
   global_order: 112
   practical: false
@@ -3234,6 +3516,8 @@ specification_points:
     of the form d 2 y 2 + 4 y = sin 2 x . d x
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 113
   global_order: 113
   practical: false
@@ -3261,6 +3545,8 @@ specification_points:
   official_wording: Differential equations reducible to the above types by means of a given substitution.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 114
   global_order: 114
   practical: false
@@ -3288,6 +3574,8 @@ specification_points:
   official_wording: Third and higher order derivatives.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 115
   global_order: 115
   practical: false
@@ -3316,6 +3604,8 @@ specification_points:
     x , cos x , series. ln (1 + x ) and other simple functions may be required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 116
   global_order: 116
   practical: false
@@ -3344,6 +3634,8 @@ specification_points:
     of sin x in ascending powers of ( x − π ) up to and including the term in ( x − π ) 3 .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 117
   global_order: 117
   practical: false
@@ -3373,6 +3665,8 @@ specification_points:
     equations. equation d 2 y y d y 2 + x d + y = 0, such that y = 1, = 0 at x = 0. d x d x d x
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S42
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 118
   global_order: 118
   practical: false
@@ -3402,6 +3696,8 @@ specification_points:
     2 θ and r 2 = a 2 cos 2 θ may be set.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S43
   subsection: null
+  unit_code: WFM02
+  unit: FP2
   ordering: 119
   global_order: 119
   practical: false
@@ -3433,6 +3729,8 @@ specification_points:
     .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 120
   global_order: 120
   practical: false
@@ -3462,6 +3760,8 @@ specification_points:
     results.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 121
   global_order: 121
   practical: false
@@ -3491,6 +3791,8 @@ specification_points:
     sin t . a b x 2 y 2 2 − 2 = 1; x = a sec t , y = b tan t ; a b x = a cosh t , y = b sinh t .'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 122
   global_order: 122
   practical: false
@@ -3520,6 +3822,8 @@ specification_points:
     ae , 0) and the the eccentricity. equations of the directrices are x = + a and x = − a . e e
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 123
   global_order: 123
   practical: false
@@ -3548,6 +3852,8 @@ specification_points:
     curves curves. is expected to be known.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 124
   global_order: 124
   practical: false
@@ -3575,6 +3881,8 @@ specification_points:
   official_wording: Simple loci problems.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 125
   global_order: 125
   practical: false
@@ -3603,6 +3911,8 @@ specification_points:
     tanh 3 x , x sinh x , . ( x + 1) them.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 126
   global_order: 126
   practical: false
@@ -3631,6 +3941,8 @@ specification_points:
     x 2 . including trigonometric and ( ) 2 hyperbolic functions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S46
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 127
   global_order: 127
   practical: false
@@ -3658,6 +3970,8 @@ specification_points:
   official_wording: Integration of hyperbolic functions and expressions involving them.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 128
   global_order: 128
   practical: false
@@ -3686,6 +4000,8 @@ specification_points:
     hyperbolic functions. ∫ ∫
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 129
   global_order: 129
   practical: false
@@ -3714,6 +4030,8 @@ specification_points:
     1 1 1 1 , , , ( a 2 + x 2 ) 2 2 2 2 2 2 ( a − x ) ( a + x ) ( x − a )
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 130
   global_order: 130
   practical: false
@@ -3742,6 +4060,8 @@ specification_points:
     given. involving quadratic surds.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 131
   global_order: 131
   practical: false
@@ -3771,6 +4091,8 @@ specification_points:
     1) x + I n + 2 n n + 1 for I = sin nx d x , n > 0. n ∫ sin x
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 132
   global_order: 132
   practical: false
@@ -3799,6 +4121,8 @@ specification_points:
     or the area of a surface of revolution. parametric form. Equations in polar form will not be set.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 133
   global_order: 133
   practical: false
@@ -3827,6 +4151,8 @@ specification_points:
     . b × c as a triple scalar product a . b × c . volume.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 134
   global_order: 134
   practical: false
@@ -3857,6 +4183,8 @@ specification_points:
     (iii) shortest distance between two skew lines.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 135
   global_order: 135
   practical: false
@@ -3885,6 +4213,8 @@ specification_points:
     forms forms also. r.n = p , r = a + s b + t c .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S48
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 136
   global_order: 136
   practical: false
@@ -3913,6 +4243,8 @@ specification_points:
     in two and three dimensions and their matrix representation.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 137
   global_order: 137
   practical: false
@@ -3941,6 +4273,8 @@ specification_points:
     Products of matrices. represented by B followed by the transformation represented by A .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 138
   global_order: 138
   practical: false
@@ -3968,6 +4302,8 @@ specification_points:
   official_wording: Transpose of a matrix. Use of the relation ( AB ) T = B T A T .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 139
   global_order: 139
   practical: false
@@ -3995,6 +4331,8 @@ specification_points:
   official_wording: Evaluation of 3 × 3 determinants. Singular and non-singular matrices.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 140
   global_order: 140
   practical: false
@@ -4022,6 +4360,8 @@ specification_points:
   official_wording: Inverse of 3 × 3 matrices. Use of the relation ( AB ) −1 = B −1 A −1 .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 141
   global_order: 141
   practical: false
@@ -4049,6 +4389,8 @@ specification_points:
   official_wording: The inverse (when it exists) of a given transformation or combination of transformations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 142
   global_order: 142
   practical: false
@@ -4077,6 +4419,8 @@ specification_points:
     3 matrices.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 143
   global_order: 143
   practical: false
@@ -4105,6 +4449,8 @@ specification_points:
     P such diagonal form. that P T AP is diagonal.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S49
   subsection: null
+  unit_code: WFM03
+  unit: FP3
   ordering: 144
   global_order: 144
   practical: false
@@ -4135,6 +4481,8 @@ specification_points:
     with the assumptions made in using these models.'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 145
   global_order: 145
   practical: false
@@ -4164,6 +4512,8 @@ specification_points:
     required. involving the unit vectors i and j .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 146
   global_order: 146
   practical: false
@@ -4193,6 +4543,8 @@ specification_points:
     = change of velocity in the time case of constant acceleration, will be required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 147
   global_order: 147
   practical: false
@@ -4222,6 +4574,8 @@ specification_points:
     and use of formulae for constant acceleration will be required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 148
   global_order: 148
   practical: false
@@ -4250,6 +4604,8 @@ specification_points:
     scalar laws of motion. form or as a vector of the form a i + b j .
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 149
   global_order: 149
   practical: false
@@ -4281,6 +4637,8 @@ specification_points:
     (iii) motion directly up or down a smooth or rough inclined plane.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 150
   global_order: 150
   practical: false
@@ -4310,6 +4668,8 @@ specification_points:
     of conservation of nature. momentum applied to two particles colliding directly.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 151
   global_order: 151
   practical: false
@@ -4337,6 +4697,8 @@ specification_points:
   official_wording: Coefficient of friction. An understanding of F = μR when a particle is moving.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S53
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 152
   global_order: 152
   practical: false
@@ -4364,6 +4726,8 @@ specification_points:
   official_wording: Forces treated as vectors. Resolution of forces.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S55
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 153
   global_order: 153
   practical: false
@@ -4393,6 +4757,8 @@ specification_points:
     tension and thrust, friction.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S55
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 154
   global_order: 154
   practical: false
@@ -4420,6 +4786,8 @@ specification_points:
   official_wording: Coefficient of friction. An understanding of F  µ R in a situation of equilibrium.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S55
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 155
   global_order: 155
   practical: false
@@ -4448,6 +4816,8 @@ specification_points:
     body and conditions for equilibrium in such situations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S55
   subsection: null
+  unit_code: WME01
+  unit: M1
   ordering: 156
   global_order: 156
   practical: false
@@ -4475,6 +4845,8 @@ specification_points:
   official_wording: Motion in a vertical plane with constant acceleration, e.g. under gravity.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 157
   global_order: 157
   practical: false
@@ -4502,6 +4874,8 @@ specification_points:
   official_wording: Simple cases of motion of a projectile.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 158
   global_order: 158
   practical: false
@@ -4531,6 +4905,8 @@ specification_points:
     level of d t d t calculus in P1, P2 P3 and P4.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 159
   global_order: 159
   practical: false
@@ -4559,6 +4935,8 @@ specification_points:
     time. 2 3 2 r = t i + t j , find r  and  r at a given time.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 160
   global_order: 160
   practical: false
@@ -4586,6 +4964,8 @@ specification_points:
   official_wording: Centre of mass of a discrete mass distribution in one and two dimensions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 161
   global_order: 161
   practical: false
@@ -4616,6 +4996,8 @@ specification_points:
     book may be quoted without proof.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 162
   global_order: 162
   practical: false
@@ -4644,6 +5026,8 @@ specification_points:
     a fixed point; (ii) be free to rotate about a fixed horizontal axis; (iii) be put on an inclined plane.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 163
   global_order: 163
   practical: false
@@ -4673,6 +5057,8 @@ specification_points:
     of conservation of mechanical energy.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S58
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 164
   global_order: 164
   practical: false
@@ -4701,6 +5087,8 @@ specification_points:
     of linear momentum.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 165
   global_order: 165
   practical: false
@@ -4730,6 +5118,8 @@ specification_points:
     mechanical energy due to impact.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 166
   global_order: 166
   practical: false
@@ -4758,6 +5148,8 @@ specification_points:
     oblique particles or two particles and a impact. smooth plane surface.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 167
   global_order: 167
   practical: false
@@ -4785,6 +5177,8 @@ specification_points:
   official_wording: Moment of a force.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 168
   global_order: 168
   practical: false
@@ -4814,6 +5208,8 @@ specification_points:
     smooth or rough ground.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME02
+  unit: M2
   ordering: 169
   global_order: 169
   practical: false
@@ -4844,6 +5240,8 @@ specification_points:
     level of calculus required in units P1, P2, P3 and P4.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 170
   global_order: 170
   practical: false
@@ -4871,6 +5269,8 @@ specification_points:
   official_wording: Elastic strings and springs. Hooke’s law.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 171
   global_order: 171
   practical: false
@@ -4899,6 +5299,8 @@ specification_points:
     involving spring. kinetic energy, potential energy and elastic energy.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 172
   global_order: 172
   practical: false
@@ -4928,6 +5330,8 @@ specification_points:
     applied force is variable. Problems may involve the law of gravitation, i.e. the inverse square law.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 173
   global_order: 173
   practical: false
@@ -4958,6 +5362,8 @@ specification_points:
     may be quoted without proof.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 174
   global_order: 174
   practical: false
@@ -4986,6 +5392,8 @@ specification_points:
     string or spring the end of an elastic string or only. spring.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 175
   global_order: 175
   practical: false
@@ -5013,6 +5421,8 @@ specification_points:
   official_wording: Angular speed. Radial acceleration in circular v 2
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 176
   global_order: 176
   practical: false
@@ -5040,6 +5450,8 @@ specification_points:
   official_wording: motion. The forms r ω 2 and are r required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 177
   global_order: 177
   practical: false
@@ -5069,6 +5481,8 @@ specification_points:
     be set.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 178
   global_order: 178
   practical: false
@@ -5096,6 +5510,8 @@ specification_points:
   official_wording: Motion of a particle in a vertical circle.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S64
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 179
   global_order: 179
   practical: false
@@ -5124,6 +5540,8 @@ specification_points:
     the bodies and simple composite centre of mass of a uniform body will be required. bodies.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 180
   global_order: 180
   practical: false
@@ -5152,6 +5570,8 @@ specification_points:
     a fixed point, (ii) a rigid body placed on a horizontal or inclined plane.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S60
   subsection: null
+  unit_code: WME03
+  unit: M3
   ordering: 181
   global_order: 181
   practical: false
@@ -5179,6 +5599,8 @@ specification_points:
   official_wording: The basic ideas of mathematical modelling as applied in probability and statistics.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 182
   global_order: 182
   practical: false
@@ -5208,6 +5630,8 @@ specification_points:
     of histograms, stem and leaf diagrams or box plots will not be the direct focus of examination questions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 183
   global_order: 183
   practical: false
@@ -5239,6 +5663,8 @@ specification_points:
     and use of coding.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 184
   global_order: 184
   practical: false
@@ -5267,6 +5693,8 @@ specification_points:
     of standard deviation, range and measures of location and dispersion. interpercentile ranges.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 185
   global_order: 185
   practical: false
@@ -5295,6 +5723,8 @@ specification_points:
     outliers on a box plot. Any rule to identify outliers will be specified in the question.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 186
   global_order: 186
   practical: false
@@ -5322,6 +5752,8 @@ specification_points:
   official_wording: Elementary probability.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 187
   global_order: 187
   practical: false
@@ -5351,6 +5783,8 @@ specification_points:
     P( B | A ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 188
   global_order: 188
   practical: false
@@ -5379,6 +5813,8 @@ specification_points:
     P( A ) P( B ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 189
   global_order: 189
   practical: false
@@ -5407,6 +5843,8 @@ specification_points:
     replacement.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S68
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 190
   global_order: 190
   practical: false
@@ -5436,6 +5874,8 @@ specification_points:
     scatter diagram.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 191
   global_order: 191
   practical: false
@@ -5466,6 +5906,8 @@ specification_points:
     change of variable may be required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 192
   global_order: 192
   practical: false
@@ -5494,6 +5936,8 @@ specification_points:
     coefficient, its use, interpretation and limitations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 193
   global_order: 193
   practical: false
@@ -5525,6 +5969,8 @@ specification_points:
     of simultaneous equations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 194
   global_order: 194
   practical: false
@@ -5554,6 +6000,8 @@ specification_points:
     distribution function: F( x 0 ) = P( X  x 0 ) = ∑ p( x ) . x  x 0'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 195
   global_order: 195
   practical: false
@@ -5583,6 +6031,8 @@ specification_points:
     X ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 196
   global_order: 196
   practical: false
@@ -5610,6 +6060,8 @@ specification_points:
   official_wording: The discrete uniform distribution. The mean and variance of this distribution.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S71
   subsection: null
+  unit_code: WST01
+  unit: S1
   ordering: 197
   global_order: 197
   practical: false
@@ -5641,6 +6093,8 @@ specification_points:
     per 5 minutes ∼ Po(5 λ ).
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 198
   global_order: 198
   practical: false
@@ -5669,6 +6123,8 @@ specification_points:
     distributions.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 199
   global_order: 199
   practical: false
@@ -5696,6 +6152,8 @@ specification_points:
   official_wording: The use of the Poisson distribution as an approximation to the binomial distribution.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 200
   global_order: 200
   practical: false
@@ -5723,6 +6181,8 @@ specification_points:
   official_wording: The concept of a continuous random variable.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 201
   global_order: 201
   practical: false
@@ -5754,6 +6214,8 @@ specification_points:
     expressed piecewise.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 202
   global_order: 202
   practical: false
@@ -5781,6 +6243,8 @@ specification_points:
   official_wording: Relationship between density and dF( x ) distribution functions. f( x ) = . d x
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 203
   global_order: 203
   practical: false
@@ -5808,6 +6272,8 @@ specification_points:
   official_wording: Mean and variance of continuous random variables.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 204
   global_order: 204
   practical: false
@@ -5835,6 +6301,8 @@ specification_points:
   official_wording: Mode, median and quartiles of continuous random variables.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 205
   global_order: 205
   practical: false
@@ -5863,6 +6331,8 @@ specification_points:
     distribution. cumulative distribution function.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 206
   global_order: 206
   practical: false
@@ -5891,6 +6361,8 @@ specification_points:
     the Poisson distribution, with the application of the continuity correction.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S74
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 207
   global_order: 207
   practical: false
@@ -5919,6 +6391,8 @@ specification_points:
     Sampling unit, sampling frame. disadvantages associated with a census and a sample survey.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S75
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 208
   global_order: 208
   practical: false
@@ -5946,6 +6420,8 @@ specification_points:
   official_wording: Concepts of a statistic and its sampling distribution.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S75
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 209
   global_order: 209
   practical: false
@@ -5974,6 +6450,8 @@ specification_points:
     hypothesis test. Null and alternative models. hypotheses.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S75
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 210
   global_order: 210
   practical: false
@@ -6001,6 +6479,8 @@ specification_points:
   official_wording: Critical region. Use of a statistic as a test statistic.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S75
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 211
   global_order: 211
   practical: false
@@ -6028,6 +6508,8 @@ specification_points:
   official_wording: One-tailed and two-tailed tests.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S75
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 212
   global_order: 212
   practical: false
@@ -6058,6 +6540,8 @@ specification_points:
     may involve the use of a normal approximation to calculate probabilities.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S75
   subsection: null
+  unit_code: WST02
+  unit: S2
   ordering: 213
   global_order: 213
   practical: false
@@ -6087,6 +6571,8 @@ specification_points:
     x y x y No proofs required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 214
   global_order: 214
   practical: false
@@ -6114,6 +6600,8 @@ specification_points:
   official_wording: Methods for collecting data. Simple random sampling. Use of random numbers for sampling.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 215
   global_order: 215
   practical: false
@@ -6142,6 +6630,8 @@ specification_points:
     systematic, quota. advantages and disadvantages.'
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 216
   global_order: 216
   practical: false
@@ -6171,6 +6661,8 @@ specification_points:
     parameters.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 217
   global_order: 217
   practical: false
@@ -6199,6 +6691,8 @@ specification_points:
     If X ∼ N( μ , σ 2 ) then X ∼ N  µ ,  .  n  No proofs required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 218
   global_order: 218
   practical: false
@@ -6226,6 +6720,8 @@ specification_points:
   official_wording: Concept of a confidence interval Link with hypothesis tests. and its interpretation.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 219
   global_order: 219
   practical: false
@@ -6255,6 +6751,8 @@ specification_points:
     for the mean, rather than be concerned with any theoretical derivations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 220
   global_order: 220
   practical: false
@@ -6283,6 +6781,8 @@ specification_points:
     ∼ N(0, 1). σ / n known.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 221
   global_order: 221
   practical: false
@@ -6313,6 +6813,8 @@ specification_points:
     in which the variance is unknown.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S78
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 222
   global_order: 222
   practical: false
@@ -6341,6 +6843,8 @@ specification_points:
     x − µ y ) distributions with variances known. Use of 2 2 ∼ N(0, 1). σ x σ y + n x n y
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S80
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 223
   global_order: 223
   practical: false
@@ -6370,6 +6874,8 @@ specification_points:
     -distribution is not required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S80
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 224
   global_order: 224
   practical: false
@@ -6399,6 +6905,8 @@ specification_points:
     i = 1 E i distributions. Lengthy calculations will not be required. approximate χ 2 statistic.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S80
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 225
   global_order: 225
   practical: false
@@ -6428,6 +6936,8 @@ specification_points:
     correction is not required.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S80
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 226
   global_order: 226
   practical: false
@@ -6457,6 +6967,8 @@ specification_points:
     limitations.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S80
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 227
   global_order: 227
   practical: false
@@ -6485,6 +6997,8 @@ specification_points:
     is zero. correlation coefficients.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S80
   subsection: null
+  unit_code: WST03
+  unit: S3
   ordering: 228
   global_order: 228
   practical: false
@@ -6514,6 +7028,8 @@ specification_points:
     any list, the method defined in the glossary must be used.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 229
   global_order: 229
   practical: false
@@ -6542,6 +7058,8 @@ specification_points:
     be bin packing, bubble sort, quick sort, chosen as the middle item of the list. binary search.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 230
   global_order: 230
   practical: false
@@ -6571,6 +7089,8 @@ specification_points:
     algorithm. the matrix associated with a network will be involved.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 231
   global_order: 231
   practical: false
@@ -6598,6 +7118,8 @@ specification_points:
   official_wording: Dijkstra’s algorithm for finding the shortest path.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 232
   global_order: 232
   practical: false
@@ -6628,6 +7150,8 @@ specification_points:
     of Floyd’s algorithm to the odd nodes is network will have up to four odd not required.) nodes.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 233
   global_order: 233
   practical: false
@@ -6656,6 +7180,8 @@ specification_points:
     Travelling Salesman problems. The classical problem for complete graphs satisfying the triangle inequality.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 234
   global_order: 234
   practical: false
@@ -6684,6 +7210,8 @@ specification_points:
     of bounds using minimum spanning shortest ‘distances’ is included. tree methods.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S83
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 235
   global_order: 235
   practical: false
@@ -6706,33 +7234,6 @@ specification_points:
     pdf_oy: 543.2
     pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
   damage_flags: []
-- code: IAL_MATHS:D1-3.4
-  official_code: '3.4'
-  official_wording: a a ÷ b , , a / b a divided by b b
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 236
-  global_order: 236
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 157.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
 - code: IAL_MATHS:D1-4.1
   official_code: '4.1'
   official_wording: Modelling of a project by an Activity on arc will be used. The use of dummies is activity
@@ -6740,6 +7241,8 @@ specification_points:
     immediate predecessors.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S85
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 237
   global_order: 237
   practical: false
@@ -6762,39 +7265,14 @@ specification_points:
     pdf_oy: 118.2
     pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
   damage_flags: []
-- code: IAL_MATHS:D1-4.2
-  official_code: '4.2'
-  official_wording: 'f : A → B f is a function under which each element of set A has an image in set B'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 238
-  global_order: 238
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: f
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 456.1
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
 - code: IAL_MATHS:D1-4.3
   official_code: '4.3'
   official_wording: Algorithm for finding the critical path. Earliest and latest event times. Earliest
     and latest start and finish times for activities.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S85
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 239
   global_order: 239
   practical: false
@@ -6817,39 +7295,13 @@ specification_points:
     pdf_oy: 215.2
     pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
   damage_flags: []
-- code: IAL_MATHS:D1-4.4
-  official_code: '4.4'
-  official_wording: f −1 the inverse function of the function f the composite function of f and g which
-    is defined by
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 240
-  global_order: 240
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: f
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 504.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
 - code: IAL_MATHS:D1-5.1
   official_code: '5.1'
   official_wording: Formulation of problems as linear programs.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S85
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 241
   global_order: 241
   practical: false
@@ -6877,6 +7329,8 @@ specification_points:
   official_wording: Graphical solution of two variable problems using ruler and vertex methods.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S85
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 242
   global_order: 242
   practical: false
@@ -6904,6 +7358,8 @@ specification_points:
   official_wording: Consideration of problems where solutions must have integer values.
   section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S85
   subsection: null
+  unit_code: WDM11
+  unit: D1
   ordering: 243
   global_order: 243
   practical: false
@@ -6924,3150 +7380,5 @@ specification_points:
     generated_date: '2026-09-17'
     pdf_page: 71
     pdf_oy: 403.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.3
-  official_code: '1.3'
-  official_wording: '{ x 1 , x 2 , …} the set with elements x 1 , x 2 , …'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 244
-  global_order: 244
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '{'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 195.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.4
-  official_code: '1.4'
-  official_wording: '{ x : …} the set of all x such that …'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 245
-  global_order: 245
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '{'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 214.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.5
-  official_code: '1.5'
-  official_wording: n( A ) the number of elements in set A
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 246
-  global_order: 246
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 234.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.6
-  official_code: '1.6'
-  official_wording: ∅ the empty set
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 247
-  global_order: 247
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∅
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 253.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.7
-  official_code: '1.7'
-  official_wording: ε the universal set
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 248
-  global_order: 248
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ε
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 273.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.8
-  official_code: '1.8'
-  official_wording: A ′ the complement of the set A
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 249
-  global_order: 249
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 297.1
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.9
-  official_code: '1.9'
-  official_wording: ℕ the set of natural numbers, {1, 2, 3, …}
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 250
-  global_order: 250
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℕ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 317.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.10
-  official_code: '1.10'
-  official_wording: ℤ the set of integers, {0, ±1, ±2, ±3, …}
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 251
-  global_order: 251
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℤ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 336.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.11
-  official_code: '1.11'
-  official_wording: ℤ + the set of positive integers, {1, 2, 3, …}
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 252
-  global_order: 252
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℤ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 356.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.12
-  official_code: '1.12'
-  official_wording: ℤ n the set of integers modulo n , {0, 1, 2, …, n − 1}
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 253
-  global_order: 253
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℤ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 379.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.13
-  official_code: '1.13'
-  official_wording: 'ℚ  p +  the set of rational numbers,  : p ∈ Z , q ∈ Z   q '
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 254
-  global_order: 254
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℚ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 399.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.14
-  official_code: '1.14'
-  official_wording: 'ℚ + the set of positive rational numbers, { x ∈ ℚ : x > 0}'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 255
-  global_order: 255
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℚ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 434.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.15
-  official_code: '1.15'
-  official_wording: 'ℚ 0 + the set of positive rational numbers and zero, { x ∈ ℚ : x  0}'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 256
-  global_order: 256
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℚ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 454.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.16
-  official_code: '1.16'
-  official_wording: ℝ the set of real numbers
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 257
-  global_order: 257
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℝ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 487.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.17
-  official_code: '1.17'
-  official_wording: 'ℝ + the set of positive real numbers, { x ∈ ℝ : x > 0}'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 258
-  global_order: 258
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℝ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 502.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.18
-  official_code: '1.18'
-  official_wording: 'ℝ 0 + the set of positive real numbers and zero, { x ∈ ℝ : x  0}'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 259
-  global_order: 259
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℝ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 522.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.19
-  official_code: '1.19'
-  official_wording: ℂ the set of complex numbers
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 260
-  global_order: 260
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ℂ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 554.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.20
-  official_code: '1.20'
-  official_wording: ( x , y ) the ordered pair x, y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 261
-  global_order: 261
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: (
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 574.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.21
-  official_code: '1.21'
-  official_wording: 'A × B the cartesian product of sets A and B , i.e. A × B = {( a , b ) : a ∈ A , b
-    ∈ B }'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 262
-  global_order: 262
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 593.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.22
-  official_code: '1.22'
-  official_wording: ⊂ is a proper subset of
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 263
-  global_order: 263
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ⊂
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 652.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.23
-  official_code: '1.23'
-  official_wording: ∪ union
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 264
-  global_order: 264
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∪
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 672.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.24
-  official_code: '1.24'
-  official_wording: ∩ intersection
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S89
-  subsection: null
-  ordering: 265
-  global_order: 265
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∩
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 93
-    pdf_oy: 692.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.25
-  official_code: '1.25'
-  official_wording: '[ a , b ] the closed interval { x ∈ ℝ : a  x  b }'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 266
-  global_order: 266
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '['
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 111.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.26
-  official_code: '1.26'
-  official_wording: '[ a , b ), [ a , b ] the interval { x ∈ ℝ : a  x < b }'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 267
-  global_order: 267
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '['
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 139.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.27
-  official_code: '1.27'
-  official_wording: '( a , b ], [ a , b ] the interval { x ∈ ℝ : a < x  b }'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 268
-  global_order: 268
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: (
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 168.1
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.28
-  official_code: '1.28'
-  official_wording: '( a , b ), [ a , b ] the open interval { x ∈ ℝ : a < x < b }'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 269
-  global_order: 269
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: (
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 196.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.29
-  official_code: '1.29'
-  official_wording: y R x y is related to x by the relation R
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 270
-  global_order: 270
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: y
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 216.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-1.30
-  official_code: '1.30'
-  official_wording: y ∼ x y is equivalent to x , in the context of some equivalence relation
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 271
-  global_order: 271
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: y
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 236.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.3
-  official_code: '2.3'
-  official_wording: ≡ is identical to or is congruent to
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 272
-  global_order: 272
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ≡
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 321.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.4
-  official_code: '2.4'
-  official_wording: ≈ is approximately equal to
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 273
-  global_order: 273
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ≈
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 343.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.5
-  official_code: '2.5'
-  official_wording: ≅ is isomorphic to
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 274
-  global_order: 274
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ≅
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 364.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.6
-  official_code: '2.6'
-  official_wording: ∝ is proportional to
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 275
-  global_order: 275
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∝
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 383.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.7
-  official_code: '2.7'
-  official_wording: < is less than
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 276
-  global_order: 276
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: <
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 403.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.8
-  official_code: '2.8'
-  official_wording:  ,  is less than or equal to, is not greater than
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 277
-  global_order: 277
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: 
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 426.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.9
-  official_code: '2.9'
-  official_wording: '> is greater than'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 278
-  global_order: 278
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '>'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 451.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.10
-  official_code: '2.10'
-  official_wording:  ,  is greater than or equal to, is not less than
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 279
-  global_order: 279
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: 
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 474.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.11
-  official_code: '2.11'
-  official_wording: ∞ infinity
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 280
-  global_order: 280
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∞
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 498.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.12
-  official_code: '2.12'
-  official_wording: p ∧ q p and q
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 281
-  global_order: 281
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 518.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.13
-  official_code: '2.13'
-  official_wording: p ∨ q p or q (or both)
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 282
-  global_order: 282
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 538.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.14
-  official_code: '2.14'
-  official_wording: ~ p not p
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 283
-  global_order: 283
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '~'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 558.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.15
-  official_code: '2.15'
-  official_wording: p ⇒ q p implies q (if p then q )
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 284
-  global_order: 284
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 578.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.16
-  official_code: '2.16'
-  official_wording: p ⇐ q p is implied by q (if q then p )
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 285
-  global_order: 285
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 598.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.17
-  official_code: '2.17'
-  official_wording: p ⇔ q p implies and is implied by q ( p is equivalent to q )
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 286
-  global_order: 286
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 618.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.18
-  official_code: '2.18'
-  official_wording: ∃ there exists
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 287
-  global_order: 287
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∃
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 638.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-2.19
-  official_code: '2.19'
-  official_wording: ∀ for all
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S90
-  subsection: null
-  ordering: 288
-  global_order: 288
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∀
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 94
-    pdf_oy: 658.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-3.5
-  official_code: '3.5'
-  official_wording: n a 1 + a 2 + … + a n ∑ a i i = 1
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 289
-  global_order: 289
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 191.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-3.6
-  official_code: '3.6'
-  official_wording: n a 1 × a 2 × … × a n ∏ a i i = 1
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 290
-  global_order: 290
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 236.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-3.7
-  official_code: '3.7'
-  official_wording: a the positive square root of a
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 291
-  global_order: 291
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 282.8
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-3.8
-  official_code: '3.8'
-  official_wording: '| a | the modulus of a'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 292
-  global_order: 292
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '|'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 307.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-3.9
-  official_code: '3.9'
-  official_wording: n ! n factorial
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 293
-  global_order: 293
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 327.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-3.10
-  official_code: '3.10'
-  official_wording: n ! + the binomial coefficient for n ∈ ℤ ,  n r !( n − r )!  r  n ( n − 1)...(
-    n − r + 1) for n ∈ ℚ r !
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 294
-  global_order: 294
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 346.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.5
-  official_code: '4.5'
-  official_wording: g ˚ f, gf (g ˚ f)( x ) or gf( x ) = g(f( x )) lim f ( x )
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 295
-  global_order: 295
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: g
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 537.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.6
-  official_code: '4.6'
-  official_wording: x → a the limit of f( x ) as x tends to a
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 296
-  global_order: 296
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 579.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.7
-  official_code: '4.7'
-  official_wording: Δ x , δ x an increment of x d y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 297
-  global_order: 297
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: δ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 609.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.8
-  official_code: '4.8'
-  official_wording: the derivative of y with respect to x d x d n y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 298
-  global_order: 298
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: the
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 637.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.9
-  official_code: '4.9'
-  official_wording: n the n th derivative of y with respect to x d x
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 299
-  global_order: 299
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 672.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.10
-  official_code: '4.10'
-  official_wording: f ′ ( x ), f ″ ( x ), …, f n ( x ) the first, second, ... , n th derivatives of f(
-    x ) with respect to x
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 300
-  global_order: 300
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: f
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 695.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.11
-  official_code: '4.11'
-  official_wording: y d x the indefinite integral of y with respect to x ∫
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S92
-  subsection: null
-  ordering: 301
-  global_order: 301
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: y
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 95
-    pdf_oy: 726.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.12
-  official_code: '4.12'
-  official_wording: b the definite integral of y with respect to x between the limits x = a ∫ y d x and
-    x = b a
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 302
-  global_order: 302
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: b
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 95.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.13
-  official_code: '4.13'
-  official_wording: ∂ V the partial derivative of V with respect to x ∂ x
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 303
-  global_order: 303
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ∂
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 135.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-4.14
-  official_code: '4.14'
-  official_wording: x  ,  x , … the first, second, ... derivatives of x with respect to t
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 304
-  global_order: 304
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 170.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-5.4
-  official_code: '5.4'
-  official_wording: ln x , log e x natural logarithm of x
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 305
-  global_order: 305
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ln
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 271.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-5.5
-  official_code: '5.5'
-  official_wording: lg x , log 10 x logarithm of x to base 10
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 306
-  global_order: 306
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: lg
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 291.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-6.1
-  official_code: '6.1'
-  official_wording: sin, cos, tan,  the circular functions cosec, sec, cot  
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 307
-  global_order: 307
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: sin,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 333.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-6.2
-  official_code: '6.2'
-  official_wording: arcsin, arccos, arctan,  the inverse circular functions  arccosec, arcsec, arccot
-    
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 308
-  global_order: 308
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: arcsin,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 372.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-6.3
-  official_code: '6.3'
-  official_wording: sinh, cosh, tanh,  the hyperbolic functions cosech, sech, coth  
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 309
-  global_order: 309
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: sinh,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 417.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-6.4
-  official_code: '6.4'
-  official_wording: arsinh, arcosh, artanh,  the inverse hyperbolic functions arcosech, arsech, arcoth
-     
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 310
-  global_order: 310
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: arsinh,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 456.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.1
-  official_code: '7.1'
-  official_wording: i, j square root of −1
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 311
-  global_order: 311
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: i,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 520.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.2
-  official_code: '7.2'
-  official_wording: z a complex number, z = x + i y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 312
-  global_order: 312
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: z
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 539.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.3
-  official_code: '7.3'
-  official_wording: Re z the real part of z, Re z = x
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 313
-  global_order: 313
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: re
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 559.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.4
-  official_code: '7.4'
-  official_wording: Im z the imaginary part of z , Im z = y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 314
-  global_order: 314
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: im
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 578.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.5
-  official_code: '7.5'
-  official_wording: '| z | the modulus of z , | z | = x 2 + y 2 ( )'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 315
-  global_order: 315
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '|'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 598.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.6
-  official_code: '7.6'
-  official_wording: arg z the argument of z , arg z = θ , – π < x  π
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 316
-  global_order: 316
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: arg
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 630.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-7.7
-  official_code: '7.7'
-  official_wording: z * the complex conjugate of z , x − i y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 317
-  global_order: 317
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: z
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 96
-    pdf_oy: 658.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-8.1
-  official_code: '8.1'
-  official_wording: M a matrix M
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 318
-  global_order: 318
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: m
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 98.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-8.2
-  official_code: '8.2'
-  official_wording: M −1 the inverse of the matrix M
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 319
-  global_order: 319
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: m
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 114.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-8.3
-  official_code: '8.3'
-  official_wording: M T the transpose of the matrix M
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 320
-  global_order: 320
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: m
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 133.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-8.4
-  official_code: '8.4'
-  official_wording: det M or | M | the determinant of the square matrix M
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 321
-  global_order: 321
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: det
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 157.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.1
-  official_code: '9.1'
-  official_wording: a the vector a 
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 322
-  global_order: 322
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 199.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.2
-  official_code: '9.2'
-  official_wording: AB the vector represented in magnitude and direction by the directed line segment
-    AB
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 323
-  global_order: 323
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ab
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 219.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.3
-  official_code: '9.3'
-  official_wording: â a unit vector in the direction of a
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 324
-  global_order: 324
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: â
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 253.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.4
-  official_code: '9.4'
-  official_wording: i, j, k unit vectors in the directions of the cartesian coordinate axes
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 325
-  global_order: 325
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: i,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 273.1
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.5
-  official_code: '9.5'
-  official_wording: '| a | , a the magnitude of a  '
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 326
-  global_order: 326
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '|'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 292.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.6
-  official_code: '9.6'
-  official_wording: '| AB | , AB the magnitude of AB'
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 327
-  global_order: 327
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: '|'
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 311.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.7
-  official_code: '9.7'
-  official_wording: a.b the scalar product of a and b
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 328
-  global_order: 328
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a.b
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 335.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-9.8
-  official_code: '9.8'
-  official_wording: a × b the vector product of a and b
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 329
-  global_order: 329
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 354.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.1
-  official_code: '10.1'
-  official_wording: A, B, C, etc. events
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 330
-  global_order: 330
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 396.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.2
-  official_code: '10.2'
-  official_wording: A ∪ B union of the events A and B
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 331
-  global_order: 331
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 416.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.3
-  official_code: '10.3'
-  official_wording: A ∩ B intersection of the events A and B
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 332
-  global_order: 332
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 438.1
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.4
-  official_code: '10.4'
-  official_wording: P( A ) probability of the event A
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 333
-  global_order: 333
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 460.1
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.5
-  official_code: '10.5'
-  official_wording: A ′ complement of the event A
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 334
-  global_order: 334
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: a
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 481.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.6
-  official_code: '10.6'
-  official_wording: P( A | B ) probability of the event A conditional on the event B
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 335
-  global_order: 335
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 503.3
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.7
-  official_code: '10.7'
-  official_wording: X , Y , R , etc. random variables
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 336
-  global_order: 336
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 525.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.8
-  official_code: '10.8'
-  official_wording: x , y , r , etc values of the random variables X, Y, R, etc
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 337
-  global_order: 337
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 546.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.9
-  official_code: '10.9'
-  official_wording: x 1 , x 2 , … observations
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 338
-  global_order: 338
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 565.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.11
-  official_code: '10.11'
-  official_wording: f 1 , f 2 , … frequencies with which the observations x 1 , x 2 , … occur
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 339
-  global_order: 339
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: f
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 585.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.12
-  official_code: '10.12'
-  official_wording: p( x ) probability function P( X = x ) of the discrete random variable X
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 340
-  global_order: 340
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 604.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.13
-  official_code: '10.13'
-  official_wording: p 1 , p 2 , … probabilities of the values x 1 , x 2 , … of the discrete random variable
-    X
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 341
-  global_order: 341
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: p
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 624.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.14
-  official_code: '10.14'
-  official_wording: f( x ), g( x ), … the value of the probability density function of a continuous random
-    variable X
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 342
-  global_order: 342
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: f(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 97
-    pdf_oy: 656.9
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.15
-  official_code: '10.15'
-  official_wording: F( x ), G( x ), … the value of the (cumulative) distribution function P( X  x ) of
-    a continuous random variable X
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 343
-  global_order: 343
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: f(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 98.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.16
-  official_code: '10.16'
-  official_wording: E( X ) expectation of the random variable X
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 344
-  global_order: 344
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: e(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 140.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.17
-  official_code: '10.17'
-  official_wording: E[g( X )] expectation of g( X )
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 345
-  global_order: 345
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: e[g(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 159.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.18
-  official_code: '10.18'
-  official_wording: Var( X ) variance of the random variable X
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 346
-  global_order: 346
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: var(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 179.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.19
-  official_code: '10.19'
-  official_wording: G( t ) probability generating function for a random variable which takes the values
-    0, 1, 2, …
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 347
-  global_order: 347
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: g(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 198.5
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.20
-  official_code: '10.20'
-  official_wording: B( n , p ) binomial distribution with parameters n and p
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 348
-  global_order: 348
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: b(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 231.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.21
-  official_code: '10.21'
-  official_wording: N( μ , σ 2 ) normal distribution with mean μ and variance σ 2
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 349
-  global_order: 349
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: n(
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 246.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.22
-  official_code: '10.22'
-  official_wording: μ population mean
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 350
-  global_order: 350
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: μ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 270.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.23
-  official_code: '10.23'
-  official_wording: σ 2 population variance
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 351
-  global_order: 351
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: σ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 285.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.24
-  official_code: '10.24'
-  official_wording: σ population standard deviation
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 352
-  global_order: 352
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: σ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 309.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.25
-  official_code: '10.25'
-  official_wording: x , m sample mean
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 353
-  global_order: 353
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: x
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 328.4
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.26
-  official_code: '10.26'
-  official_wording: s 2 , σ ˆ 2 unbiased estimate of population variance from a sample, 2 1 n 2 s = ∑
-    ( x i − x ) n − 1 i = 1
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 354
-  global_order: 354
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: s
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 345.0
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.27
-  official_code: '10.27'
-  official_wording: ϕ probability density function of the standardised normal variable with distribution
-    N(0, 1)
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 355
-  global_order: 355
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ϕ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 398.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.28
-  official_code: '10.28'
-  official_wording: Φ corresponding cumulative distribution function
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 356
-  global_order: 356
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: φ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 430.7
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.29
-  official_code: '10.29'
-  official_wording: ρ product moment correlation coefficient for a population
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 357
-  global_order: 357
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: ρ
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 450.6
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.30
-  official_code: '10.30'
-  official_wording: r product moment correlation coefficient for a sample
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 358
-  global_order: 358
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: r
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 470.2
-    pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
-  damage_flags: []
-- code: IAL_MATHS:D1-10.31
-  official_code: '10.31'
-  official_wording: Cov ( X , Y ) covariance of X and Y
-  section: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01-S93
-  subsection: null
-  ordering: 359
-  global_order: 359
-  practical: false
-  scope: D1
-  applicability:
-    unit_scope: D1
-    rule: content belongs to unit D1 (modular/IAL structure)
-  leading_verb: cov
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-a-level-maths-spec.pdf
-    spec_issue: '3'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 98
-    pdf_oy: 489.6
     pdf_sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
   damage_flags: []

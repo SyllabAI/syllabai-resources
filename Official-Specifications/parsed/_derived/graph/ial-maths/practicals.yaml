@@ -16,8 +16,95 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 359
+  spec_points: 239
   topics: 93
   subsections: 0
   practicals: 0
+qualification_units:
+- unit: P1
+  code: WMA11
+  title: Pure Mathematics 1
+  tier: null
+  page_start: 18
+  content_topic_prefixes: null
+- unit: P2
+  code: WMA12
+  title: Pure Mathematics 2
+  tier: null
+  page_start: 23
+  content_topic_prefixes: null
+- unit: P3
+  code: WMA13
+  title: Pure Mathematics 3
+  tier: null
+  page_start: 27
+  content_topic_prefixes: null
+- unit: P4
+  code: WMA14
+  title: Pure Mathematics 4
+  tier: null
+  page_start: 32
+  content_topic_prefixes: null
+- unit: FP1
+  code: WFM01
+  title: Further Pure Mathematics 1
+  tier: null
+  page_start: 36
+  content_topic_prefixes: null
+- unit: FP2
+  code: WFM02
+  title: Further Pure Mathematics 2
+  tier: null
+  page_start: 42
+  content_topic_prefixes: null
+- unit: FP3
+  code: WFM03
+  title: Further Pure Mathematics 3
+  tier: null
+  page_start: 46
+  content_topic_prefixes: null
+- unit: M1
+  code: WME01
+  title: Mechanics 1
+  tier: null
+  page_start: 50
+  content_topic_prefixes: null
+- unit: M2
+  code: WME02
+  title: Mechanics 2
+  tier: null
+  page_start: 53
+  content_topic_prefixes: null
+- unit: M3
+  code: WME03
+  title: Mechanics 3
+  tier: null
+  page_start: 56
+  content_topic_prefixes: null
+- unit: S1
+  code: WST01
+  title: Statistics 1
+  tier: null
+  page_start: 59
+  content_topic_prefixes: null
+- unit: S2
+  code: WST02
+  title: Statistics 2
+  tier: null
+  page_start: 63
+  content_topic_prefixes: null
+- unit: S3
+  code: WST03
+  title: Statistics 3
+  tier: null
+  page_start: 66
+  content_topic_prefixes: null
+- unit: D1
+  code: WDM11
+  title: Decision Mathematics 1
+  tier: null
+  page_start: 69
+  content_topic_prefixes: null
+excluded_points_note: 120 non-spec points excluded (appendix/notation region captured as points by the
+  parse stage; see structure.json validation.gaps)
 practicals: []

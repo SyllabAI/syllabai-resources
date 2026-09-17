@@ -16,8 +16,38 @@ provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
 generated: '2026-09-17'
 counts:
-  spec_points: 113
+  spec_points: 0
   topics: 32
   subsections: 0
   practicals: 0
+qualification_units:
+- unit: Unit 1 Foundation
+  code: 4WM1F
+  title: Foundation
+  tier: Foundation
+  page_start: 19
+  content_topic_prefixes: null
+- unit: Unit 1 Higher
+  code: 4WM1H
+  title: Higher
+  tier: Higher
+  page_start: 27
+  content_topic_prefixes: null
+- unit: Unit 2 Foundation
+  code: 4WM2F
+  title: Foundation
+  tier: Foundation
+  page_start: 31
+  content_topic_prefixes: null
+- unit: Unit 2 Higher
+  code: 4WM2H
+  title: Higher
+  tier: Higher
+  page_start: 39
+  content_topic_prefixes: null
+excluded_points_note: 113 non-spec points excluded (appendix/notation region captured as points by the
+  parse stage; see structure.json validation.gaps)
+parse_gap_note: 'This qualification has a known parse gap: real unit content was not captured by the current
+  parse (see structure.json validation). All spec points are withheld from this graph until T-PARSE-FIX
+  re-parses the source; 113 raw parsed entries excluded.'
 practicals: []
