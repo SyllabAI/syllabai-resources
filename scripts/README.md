@@ -238,3 +238,25 @@
   15 negative sandbox cases (attribution, unknown ids, demoted-accept
   block, exclusion-note requirement, registry gates on amendments,
   hash binding, idempotence, forged promotions records).
+- `c13_retrieval_audit.py` — T-C13 (2026-09-17, session 77): corpus+mapping
+  audit for the SpecificationPoint-aware retrieval diagnosis — chunks the
+  112 SME notes at heading boundaries (chunk text = heading title + section
+  body; markdown-insensitive normalization strips emphasis/URLs/pipes so
+  C10 evidence quotes anchor), then measures: note-level mapping coverage
+  (209 HV mappings, 181/182 SPs), the DERIVABLE chunk-level anchors
+  (197/209 quotes = 94.3% anchor to a specific chunk; 169 SPs covered),
+  the zero-direct-chunk-mapping fact, and the note-inheritance fan-out
+  (mean 7.95 chunks/SP, max 29). Writes
+  `graph/reports/C13_RETRIEVAL_AUDIT.json`.
+- `c13_retrieval_eval.py` — T-C13 (2026-09-17): the three-provider
+  retrieval evaluation — BM25 over chunks vs SP-note-routing (the only
+  SP-aware path the current data supports) vs the quote-anchor route (the
+  data-construction preview), over the 181 SP-wording queries plus 5 real
+  questions with operator-validated golds (4 C12 ratifications + the
+  session-77 pilot's live tutor question). Headline numbers: BM25 top-5
+  note-gold hit 97.8%; SP-note-routing precision ceiling 13.7% with no
+  ranking signal; the real learner query misroutes through the spec-wording
+  resolver (gold not in top-5) while BM25 finds the right notes at ranks
+  1-2. Writes `graph/reports/C13_RETRIEVAL_EVAL.json`. Deterministic,
+  zero-LLM. The diagnosis + the T-C14 data-construction requirements live
+  in the tracker repo: `backlog/RETRIEVAL-DIAGNOSIS-2026-09-17.md`.
