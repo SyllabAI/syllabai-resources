@@ -1,0 +1,1406 @@
+# Exam Questions — Part 3: Pearson Edexcel International GCSE English Anthology
+**Poetry Anthology** · Edexcel IGCSE English Literature (4ET1)
+> Source: [https://www.savemyexams.com/igcse/english-literature/edexcel/16/topic-questions/poetry-anthology/part-3-pearson-edexcel-international-gcse-english-anthology/exam-questions/](https://www.savemyexams.com/igcse/english-literature/edexcel/16/topic-questions/poetry-anthology/part-3-pearson-edexcel-international-gcse-english-anthology/exam-questions/) · 16 questions · total 480 marks
+
+
+## Q1 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read If—.
+
+**If—**
+
+If you can keep your head when all about you
+
+Are losing theirs and blaming it on you,
+
+If you can trust yourself when all men doubt you,
+
+But make allowance for their doubting too;
+
+If you can wait and not be tired by waiting,
+
+Or being lied about, don’t deal in lies,
+
+Or being hated, don’t give way to hating,
+
+And yet don’t look too good, nor talk too wise:
+
+** **
+
+If you can dream — and not make dreams your master;
+
+If you can think — and not make thoughts your aim;
+
+If you can meet with Triumph and Disaster
+
+And treat those two impostors just the same;
+
+If you can bear to hear the truth you’ve spoken
+
+Twisted by knaves to make a trap for fools,
+
+Or watch the things you gave your life to, broken,
+
+And stoop and build ’em up with worn-out tools:
+
+** **
+
+If you can make one heap of all your winnings
+
+And risk it on one turn of pitch-and-toss,
+
+And lose, and start again at your beginnings
+
+And never breathe a word about your loss;
+
+If you can force your heart and nerve and sinew
+
+To serve your turn long after they are gone,
+
+And so hold on when there is nothing in you
+
+Except the Will which says to them: ‘Hold on!’
+
+** **
+
+If you can talk with crowds and keep your virtue,
+
+Or walk with Kings — nor lose the common touch,
+
+If neither foes nor loving friends can hurt you,
+
+If all men count with you, but none too much;
+
+If you can fill the unforgiving minute
+
+With sixty seconds’ worth of distance run,
+
+Yours is the Earth and everything that’s in it,
+
+And — which is more — you’ll be a Man, my son!
+
+** **
+
+— Rudyard Kipling
+
+Compare the ways the writers present the experience of growing up in If— and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q2 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Prayer Before Birth.
+
+**Prayer Before Birth**
+
+I am not yet born; O hear me.
+
+Let not the bloodsucking bat or the rat or the stoat or the
+
+club-footed ghoul come near me.
+
+** **
+
+I am not yet born, console me.
+
+I fear that the human race may with tall walls wall me,
+
+with strong drugs dope me, with wise lies lure me,
+
+on black racks rack me, in blood-baths roll me.
+
+** **
+
+I am not yet born; provide me
+
+With water to dandle me, grass to grow for me, trees to talk
+
+to me, sky to sing to me, birds and a white light
+
+in the back of my mind to guide me.
+
+** **
+
+I am not yet born; forgive me
+
+For the sins that in me the world shall commit, my words
+
+when they speak me, my thoughts when they think me,
+
+my treason engendered by traitors beyond me,
+
+my life when they murder by means of my
+
+hands, my death when they live me.
+
+** **
+
+I am not yet born; rehearse me
+
+In the parts I must play and the cues I must take when
+
+old men lecture me, bureaucrats hector me, mountains
+
+frown at me, lovers laugh at me, the white
+
+waves call me to folly and the desert calls
+
+me to doom and the beggar refuses
+
+my gift and my children curse me.
+
+** **
+
+I am not yet born; O hear me,
+
+Let not the man who is beast or who thinks he is God
+
+come near me.
+
+** **
+
+I am not yet born; O fill me
+
+With strength against those who would freeze my
+
+humanity, would dragoon me into a lethal automaton,
+
+would make me a cog in a machine, a thing with
+
+one face, a thing, and against all those
+
+who would dissipate my entirety, would
+
+blow me like thistledown hither and
+
+thither or hither and thither
+
+like water held in the
+
+hands would spill me.
+
+** **
+
+Let them not make me a stone and let them not spill me.
+
+Otherwise kill me.
+
+** **
+
+— Louis MacNeice
+
+Compare the ways the writers present fear in Prayer Before Birth and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q3 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Blessing.
+
+**Blessing**
+
+The skin cracks like a pod.
+
+There never is enough water.
+
+** **
+
+Imagine the drip of it,
+
+the small splash, echo
+
+in a tin mug,
+
+the voice of a kindly god.
+
+** **
+
+Sometimes, the sudden rush
+
+of fortune. The municipal pipe bursts,
+
+silver crashes to the ground
+
+and the flow has found
+
+a roar of tongues. From the huts,
+
+a congregation: every man woman
+
+child for streets around
+
+butts in, with pots,
+
+brass, copper, aluminium,
+
+plastic buckets,
+
+frantic hands,
+
+** **
+
+and naked children
+
+screaming in the liquid sun,
+
+their highlights polished to perfection,
+
+flashing light,
+
+as the blessing sings
+
+over their small bones.
+
+** **
+
+— Imtiaz Dharker
+
+Compare the ways the writers present community in Blessing and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q4 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Search For My Tongue.
+
+**Search For My Tongue**
+
+You ask me what I mean
+
+by saying I have lost my tongue.
+
+I ask you, what would you do
+
+if you had two tongues in your mouth,
+
+and lost the first one, the mother tongue,
+
+and could not really know the other,
+
+the foreign tongue.
+
+You could not use them both together
+
+even if you thought that way.
+
+And if you lived in a place you had to
+
+speak a foreign tongue,
+
+your mother tongue would rot,
+
+rot and die in your mouth
+
+until you had to spit it out.
+
+I thought I spit it out
+
+but overnight while I dream,
+
+(munay hutoo kay aakhee jeebh aakhee bhasha)
+
+(may thoonky nakhi chay)
+
+(parantoo rattray svupnama mari bhasha pachi aavay chay)
+
+(foolnee jaim mari bhasha nmari jeebh)
+
+(modhama kheelay chay)
+
+(fullnee jaim mari bhasha mari jeebh)
+
+(modhama pakay chay)
+
+it grows back, a stump of a shoot
+
+grows longer, grows moist, grows strong veins,
+
+it ties the other tongue in knots,
+
+the bud opens, the bud opens in my mouth,
+
+it pushes the other tongue aside.
+
+Everytime I think I've forgotten,
+
+I think I've lost the mother tongue,
+
+it blossoms out of my mouth.
+
+** **
+
+— Sujata Bhatt
+
+Compare the ways the writers present ideas about identity in Search For My Tongue and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q5 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Half-past Two.
+
+**Half-past Two**
+
+Once upon a schooltime
+
+He did Something Very Wrong
+
+(I forget what it was).
+
+** **
+
+And She said he’d done
+
+Something Very Wrong, and must
+
+Stay in the school-room till half-past two.
+
+** **
+
+(Being cross, she’d forgotten
+
+She hadn’t taught him Time.
+
+He was too scared at being wicked to remind her.)
+
+** **
+
+He knew a lot of time: he knew
+
+Gettinguptime, timeyouwereofftime,
+
+Timetogohomenowtime, TVtime,
+
+Timeformykisstime (that was Grantime).
+
+** **
+
+All the important times he knew,
+
+But not half-past two.
+
+** **
+
+He knew the clockface, the little eyes
+
+And two long legs for walking,
+
+But he couldn’t click its language,
+
+** **
+
+So he waited, beyond onceupona,
+
+Out of reach of all the timefors,
+
+And knew he’d escaped for ever
+
+Into the smell of old chrysanthemums on Her desk,
+
+Into the silent noise his hangnail made,
+
+Into the air outside the window, into ever.
+
+** **
+
+And then, My goodness, she said,
+
+Scuttling in, I forgot all about you.
+
+Run along or you’ll be late.
+
+** **
+
+So she slotted him back into schooltime,
+
+And he got home in time for teatime,
+
+Nexttime, notimeforthatnowtime,
+
+But he never forgot how once by not knowing time,
+
+He escaped into the clockless land for ever,
+
+Where time hides tick-less waiting to be born.
+
+** **
+
+— U A Fanthorpe
+
+Compare the ways the writers present childhood in Half-past Two and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q6 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Piano.
+
+**Piano**
+
+Softly, in the dusk, a woman is singing to me;
+
+Taking me back down the vista of years, till I see
+
+A child sitting under the piano, in the boom of the tingling strings
+
+And pressing the small, poised feet of a mother who smiles as she sings.
+
+** **
+
+In spite of myself, the insidious mastery of song
+
+Betrays me back, till the heart of me weeps to belong
+
+To the old Sunday evenings at home, with winter outside
+
+And hymns in the cosy parlour, the tinkling piano our guide.
+
+** **
+
+So now it is vain for the singer to burst into clamour
+
+With the great black piano appassionato. The glamour
+
+Of childish days is upon me, my manhood is cast
+
+Down in the flood of remembrance, I weep like a child for the past.
+
+** **
+
+— D H Lawrence
+
+Compare the ways the writers present memories in Piano and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q7 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Hide and Seek.
+
+**Hide and Seek**
+
+Call out. Call loud: ‘I’m ready! Come and find me!’
+
+The sacks in the toolshed smell like the seaside.
+
+They’ll never find you in this salty dark,
+
+But be careful that your feet aren’t sticking out.
+
+Wiser not to risk another shout.
+
+The floor is cold. They’ll probably be searching
+
+The bushes near the swing. Whatever happens
+
+You mustn’t sneeze when they come prowling in.
+
+And here they are, whispering at the door;
+
+You’ve never heard them sound so hushed before.
+
+Don’t breathe. Don’t move. Stay dumb. Hide in your blindness.
+
+They’re moving closer, someone stumbles, mutters;
+
+Their words and laughter scuffle, and they’re gone.
+
+But don’t come out just yet; they’ll try the lane
+
+And then the greenhouse and back here again.
+
+They must be thinking that you’re very clever,
+
+Getting more puzzled as they search all over.
+
+It seems a long time since they went away.
+
+Your legs are stiff, the cold bites through your coat;
+
+The dark damp smell of sand moves in your throat.
+
+It’s time to let them know that you’re the winner.
+
+Push off the sacks. Uncurl and stretch. That’s better!
+
+Out of the shed and call to them: ‘I’ve won!
+
+Here I am! Come and own up I’ve caught you!’
+
+The darkening garden watches. Nothing stirs.
+
+The bushes hold their breath; the sun is gone.
+
+Yes, here you are. But where are they who sought you?
+
+** **
+
+— Vernon Scannell
+
+Compare the ways the writers present loneliness in Hide and Seek and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q8 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Sonnet 116.
+
+**Sonnet 116: Let me not to the marriage of true minds**
+
+Let me not to the marriage of true minds
+
+Admit impediments; love is not love
+
+Which alters when it alteration finds,
+
+Or bends with the remover to remove.
+
+O no, it is an ever-fixèd mark
+
+That looks on tempests and is never shaken;
+
+It is the star to every wandering bark,
+
+Whose worth's unknown, although his height be taken.
+
+Love's not Time's fool, though rosy lips and cheeks
+
+Within his bending sickle's compass come;
+
+Love alters not with his brief hours and weeks,
+
+But bears it out even to the edge of doom.
+
+If this be error and upon me proved,
+
+I never writ, nor no man ever loved.
+
+** **
+
+— William Shakespeare
+
+Compare the ways the writers present love in Sonnet 116 and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q9 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read La Belle Dame sans Merci.
+
+**La Belle Dame sans Merci**
+
+O what can ail thee, knight-at-arms,
+
+Alone and palely loitering?
+
+The sedge has withered from the lake,
+
+And no birds sing.
+
+** **
+
+O what can ail thee, knight-at-arms,
+
+So haggard and so woe-begone?
+
+The squirrel’s granary is full,
+
+And the harvest’s done.
+
+** **
+
+I see a lily on thy brow,
+
+With anguish moist and fever-dew,
+
+And on thy cheeks a fading rose
+
+Fast withereth too.
+
+** **
+
+I met a lady in the meads,
+
+Full beautiful — a faery’s child,
+
+Her hair was long, her foot was light,
+
+And her eyes were wild.
+
+** **
+
+I made a garland for her head,
+
+And bracelets too, and fragrant zone;
+
+She looked at me as she did love,
+
+And made sweet moan.
+
+** **
+
+I set her on my pacing steed,
+
+And nothing else saw all day long,
+
+For sidelong would she bend, and sing
+
+A faery’s song.
+
+** **
+
+She found me roots of relish sweet,
+
+And honey wild, and manna-dew,
+
+And sure in language strange she said —
+
+‘I love thee true’.
+
+** **
+
+She took me to her elfin grot,
+
+And there she wept and sighed full sore,
+
+And there I shut her wild wild eyes
+
+With kisses four.
+
+** **
+
+And there she lullèd me asleep
+
+And there I dreamed — Ah! woe betide! —
+
+The latest dream I ever dreamt
+
+On the cold hill side.
+
+** **
+
+I saw pale kings, and princes too,
+
+Pale warriors, death-pale were they all;
+
+They cried — ‘La Belle Dame sans Merci
+
+Thee hath in thrall!’
+
+** **
+
+I saw their starved lips in the gloam,
+
+With horrid warning gapèd wide,
+
+And I awoke and found me here,
+
+On the cold hill’s side.
+
+** **
+
+And this is why I sojourn here
+
+Alone and palely loitering,
+
+Though the sedge is withered from the lake,
+
+And no birds sing.
+
+** **
+
+— John Keats
+
+Compare the ways the writers present danger in La Belle Dame sans Merci and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q10 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Poem at Thirty-Nine.
+
+**Poem at Thirty-Nine**
+
+How I miss my father.
+
+I wish he had not been
+
+so tired
+
+when I was
+
+born.
+
+** **
+
+Writing deposit slips and checks
+
+I think of him.
+
+He taught me how.
+
+This is the form,
+
+he must have said:
+
+the way it is done.
+
+I learned to see
+
+bits of paper
+
+as a way
+
+to escape
+
+the life he knew
+
+and even in high school
+
+had a savings
+
+account.
+
+** **
+
+He taught me
+
+that telling the truth
+
+did not always mean
+
+a beating;
+
+though many of my truths
+
+must have grieved him
+
+before the end.
+
+** **
+
+How I miss my father!
+
+He cooked like a person
+
+dancing
+
+in a yoga meditation
+
+and craved the voluptuous
+
+sharing
+
+of good food.
+
+** **
+
+Now I look and cook just like him:
+
+my brain light;
+
+tossing this and that
+
+into the pot;
+
+seasoning none of my life
+
+the same way twice; happy to feed
+
+whoever strays my way.
+
+** **
+
+He would have grown
+
+to admire
+
+the woman I’ve become:
+
+cooking, writing, chopping wood,
+
+staring into the fire.
+
+** **
+
+— Alice Walker
+
+Compare the ways the writers present feelings about a father in Poem at Thirty-Nine and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q11 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read War Photographer.
+
+**War Photographer**
+
+In his darkroom he is finally alone
+
+with spools of suffering set out in ordered rows.
+
+The only light is red and softly glows,
+
+as though this were a church and he
+
+a priest preparing to intone a Mass.
+
+Belfast. Beirut. Phnom Penh. All flesh is grass.
+
+** **
+
+He has a job to do. Solutions slop in trays
+
+beneath his hands, which did not tremble then
+
+though seem to now. Rural England. Home again
+
+to ordinary pain which simple weather can dispel,
+
+to fields which don’t explode beneath the feet
+
+of running children in a nightmare heat.
+
+** **
+
+Something is happening. A stranger’s features
+
+faintly start to twist before his eyes,
+
+a half-formed ghost. He remembers the cries
+
+of this man’s wife, how he sought approval
+
+without words to do what someone must
+
+and how the blood stained into foreign dust.
+
+** **
+
+A hundred agonies in black and white
+
+from which his editor will pick out five or six
+
+for Sunday’s supplement. The reader’s eyeballs prick
+
+with tears between the bath and pre-lunch beers.
+
+From the aeroplane he stares impassively at where
+
+he earns his living and they do not care.
+
+** **
+
+— Carol Ann Duffy
+
+Compare the ways the writers present suffering in War Photographer and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q12 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read The Tyger.
+
+**The Tyger**
+
+Tyger, Tyger, burning bright,
+
+In the forests of the night:
+
+What immortal hand or eye,
+
+Could frame thy fearful symmetry?
+
+** **
+
+In what distant deeps or skies
+
+Burnt the fire of thine eyes?
+
+On what wings dare he aspire?
+
+What the hand, dare seize the fire?
+
+** **
+
+And what shoulder, & what art,
+
+Could twist the sinews of thy heart?
+
+And when thy heart began to beat,
+
+What dread hand? & what dread feet?
+
+** **
+
+What the hammer? what the chain,
+
+In what furnace was thy brain?
+
+What the anvil? what dread grasp,
+
+Dare its deadly terrors clasp!
+
+** **
+
+When the stars threw down their spears
+
+And water’d heaven with their tears:
+
+Did he smile his work to see?
+
+Did he who made the Lamb make thee?
+
+** **
+
+Tyger, Tyger burning bright,
+
+In the forests of the night:
+
+What immortal hand or eye,
+
+Dare frame thy fearful symmetry?
+
+** **
+
+— William Blake
+
+Compare the ways the writers present ideas about creation in The Tyger and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q13 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read My Last Duchess.
+
+**My Last Duchess**
+
+Ferrara
+
+That’s my last Duchess painted on the wall,
+
+Looking as if she were alive. I call
+
+That piece a wonder, now: Frà Pandolf’s hands
+
+Worked busily a day, and there she stands.
+
+Will’t please you sit and look at her? I said
+
+‘Frà Pandolf’ by design, for never read
+
+Strangers like you that pictured countenance,
+
+The depth and passion of its earnest glance,
+
+But to myself they turned (since none puts by
+
+The curtain I have drawn for you, but I)
+
+And seemed as they would ask me, if they durst,
+
+How such a glance came there; so, not the first
+
+Are you to turn and ask thus. Sir, ’twas not
+
+Her husband’s presence only, called that spot
+
+Of joy into the Duchess’ cheek: perhaps
+
+Frà Pandolf chanced to say, ‘Her mantle laps
+
+Over my lady’s wrist too much,’ or ‘Paint
+
+Must never hope to reproduce the faint
+
+Half-flush that dies along her throat’: such stuff
+
+Was courtesy, she thought, and cause enough
+
+For calling up that spot of joy. She had
+
+A heart – how shall I say? – too soon made glad,
+
+Too easily impressed; she liked whate’er
+
+She looked on, and her looks went everywhere.
+
+Sir, ’twas all one! My favour at her breast,
+
+The dropping of the daylight in the West,
+
+The bough of cherries some officious fool
+
+Broke in the orchard for her, the white mule
+
+She rode with round the terrace – all and each
+
+Would draw from her alike the approving speech,
+
+Or blush, at least. She thanked men, – good! but thanked
+
+Somehow – I know not how – as if she ranked
+
+My gift of a nine-hundred-years-old name
+
+With anybody’s gift. Who’d stoop to blame
+
+This sort of trifling? Even had you skill
+
+In speech – which I have not – to make your will
+
+Quite clear to such an one, and say, ‘Just this
+
+Or that in you disgusts me; here you miss,
+
+Or there exceed the mark’ – and if she let
+
+Herself be lessoned so, nor plainly set
+
+Her wits to yours, forsooth, and made excuse,
+
+– E’en then would be some stooping; and I choose
+
+Never to stoop. Oh, sir, she smiled, no doubt,
+
+Whene’er I passed her; but who passed without
+
+Much the same smile? This grew; I gave commands;
+
+Then all smiles stopped together. There she stands
+
+As if alive. Will’t please you rise? We’ll meet
+
+The company below, then. I repeat,
+
+The Count your master’s known munificence
+
+Is ample warrant that no just pretence
+
+Of mine for dowry will be disallowed;
+
+Though his fair daughter’s self, as I avowed
+
+At starting, is my object. Nay, we’ll go
+
+Together down, sir. Notice Neptune, though,
+
+Taming a sea-horse, thought a rarity,
+
+Which Claus of Innsbruck cast in bronze for me!
+
+** **
+
+— Robert Browning
+
+Compare the ways the writers present power in My Last Duchess and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q14 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Half-caste.
+
+**Half-caste**
+
+Excuse me
+
+standing on one leg
+
+I’m half-caste
+
+** **
+
+Explain yuself
+
+wha yu mean
+
+when yu say half-caste
+
+yu mean when picasso
+
+mix red an green
+
+is a half-caste canvas/
+
+explain yuself
+
+wha yu mean
+
+when yu say half-caste
+
+yu mean when light an shadow
+
+mix in de sky
+
+is a half-caste weather/
+
+well in dat case
+
+england weather
+
+nearly always half-caste
+
+in fact some o dem cloud
+
+half-caste till dem overcast
+
+so spiteful dem dont want de sun pass
+
+ah rass/
+
+explain yuself
+
+wha yu mean
+
+when yu say half-caste
+
+yu mean when tchaikovsky
+
+sit down at dah piano
+
+an mix a black key
+
+wid a white key
+
+is a half-caste symphony/
+
+** **
+
+Explain yuself
+
+wha yu mean
+
+Ah listening to yu wid de keen
+
+half of mih ear
+
+Ah lookin at yu wid de keen
+
+half of mih eye
+
+and when I’m introduced to yu
+
+I’m sure you’ll understand
+
+why I offer yu half-a-hand
+
+an when I sleep at night
+
+I close half-a-eye
+
+consequently when I dream
+
+I dream half-a-dream
+
+an when moon begin to glow
+
+I half-caste human being
+
+cast half-a-shadow
+
+but yu must come back tomorrow
+
+wid de whole of yu eye
+
+an de whole of yu ear
+
+an de whole of yu mind
+
+an I will tell yu
+
+de other half
+
+of my story
+
+** **
+
+— John Agard
+
+Compare the ways the writers present prejudice in Half-caste and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q15 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Do not go gentle into that good night.
+
+**Do not go gentle into that good night**
+
+Do not go gentle into that good night,
+
+Old age should burn and rave at close of day;
+
+Rage, rage against the dying of the light.
+
+** **
+
+Though wise men at their end know dark is right,
+
+Because their words had forked no lightning they
+
+Do not go gentle into that good night.
+
+** **
+
+Good men, the last wave by, crying how bright
+
+Their frail deeds might have danced in a green bay,
+
+Rage, rage against the dying of the light.
+
+** **
+
+Wild men who caught and sang the sun in flight,
+
+And learn, too late, they grieved it on its way,
+
+Do not go gentle into that good night.
+
+** **
+
+Grave men, near death, who see with blinding sight
+
+Blind eyes could blaze like meteors and be gay,
+
+Rage, rage against the dying of the light.
+
+** **
+
+And you, my father, there on the sad height,
+
+Curse, bless, me now with your fierce tears, I pray.
+
+Do not go gentle into that good night.
+
+Rage, rage against the dying of the light.
+
+** **
+
+— Dylan Thomas
+
+Compare the ways the writers present death in Do not go gentle into that good night and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
+
+## Q16 — very_hard — 30 marks · exam-questions
+
+### 1() — 30 marks — command: compare — structured
+Re-read Remember.
+
+**Remember**
+
+Remember me when I am gone away,
+
+Gone far away into the silent land;
+
+When you can no more hold me by the hand,
+
+Nor I half turn to go yet turning stay.
+
+Remember me when no more day by day
+
+You tell me of our future that you planned:
+
+Only remember me; you understand
+
+It will be late to counsel then or pray.
+
+Yet if you should forget me for a while
+
+And afterwards remember, do not grieve:
+
+For if the darkness and corruption leave
+
+A vestige of the thoughts that once I had,
+
+Better by far you should forget and smile
+
+Than that you should remember and be sad.
+
+** **
+
+— Christina Rossetti
+
+Compare the ways the writers present grief in Remember and one other poem from the anthology.
+
+You should make reference to language, form and structure.
+
+Support your answer with examples from the poems.
+
+**[30 marks]**
