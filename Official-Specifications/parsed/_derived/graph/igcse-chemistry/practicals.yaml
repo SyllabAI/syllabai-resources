@@ -1,0 +1,90 @@
+curriculum_code: 4CH1
+qualification: igcse-chemistry (Issue 3)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-chemistry-2017-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 182
+  topics: 8
+  subsections: 28
+  practicals: 12
+practicals:
+- code: IGCSE_CHEMISTRY-PR-01
+  spec_point: IGCSE_CHEMISTRY:1.7C
+  summary: 'practical: investigate the solubility of a solid in water at a specific temperature'
+  page: 17
+  ordering: 1
+- code: IGCSE_CHEMISTRY-PR-02
+  spec_point: IGCSE_CHEMISTRY:1.13
+  summary: 'practical: investigate paper chromatography using inks/food colourings'
+  page: 18
+  ordering: 2
+- code: IGCSE_CHEMISTRY-PR-03
+  spec_point: IGCSE_CHEMISTRY:1.36
+  summary: 'practical: know how to determine the formula of a metal oxide by combustion (e.g. magnesium
+    oxide) or by reduction (e.g. copper(II) oxide)'
+  page: 19
+  ordering: 3
+- code: IGCSE_CHEMISTRY-PR-04
+  spec_point: IGCSE_CHEMISTRY:1.60C
+  summary: 'practical: investigate the electrolysis of aqueous solutions'
+  page: 21
+  ordering: 4
+- code: IGCSE_CHEMISTRY-PR-05
+  spec_point: IGCSE_CHEMISTRY:2.14
+  summary: 'practical: determine the approximate percentage by volume of oxygen in air using a metal or
+    a non-metal'
+  page: 23
+  ordering: 5
+- code: IGCSE_CHEMISTRY-PR-06
+  spec_point: IGCSE_CHEMISTRY:2.21
+  summary: 'practical: investigate reactions between dilute hydrochloric and sulfuric acids and metals
+    (e.g. magnesium, zinc and iron)'
+  page: 24
+  ordering: 6
+- code: IGCSE_CHEMISTRY-PR-07
+  spec_point: IGCSE_CHEMISTRY:2.42
+  summary: 'practical: prepare a sample of pure, dry hydrated copper(II) sulfate crystals starting from
+    copper(II) oxide'
+  page: 25
+  ordering: 7
+- code: IGCSE_CHEMISTRY-PR-08
+  spec_point: IGCSE_CHEMISTRY:2.43C
+  summary: 'practical: prepare a sample of pure, dry lead(II) sulfate'
+  page: 25
+  ordering: 8
+- code: IGCSE_CHEMISTRY-PR-09
+  spec_point: IGCSE_CHEMISTRY:3.8
+  summary: 'practical: investigate temperature changes accompanying some of the following types of change:'
+  page: 27
+  ordering: 9
+- code: IGCSE_CHEMISTRY-PR-10
+  spec_point: IGCSE_CHEMISTRY:3.15
+  summary: 'practical: investigate the effect of changing the surface area of marble chips and of changing
+    the concentration of hydrochloric acid on the rate of reaction between marble chips and dilute hydrochloric
+    acid'
+  page: 28
+  ordering: 10
+- code: IGCSE_CHEMISTRY-PR-11
+  spec_point: IGCSE_CHEMISTRY:3.16
+  summary: 'practical: investigate the effect of different solids on the catalytic decomposition of hydrogen
+    peroxide solution'
+  page: 28
+  ordering: 11
+- code: IGCSE_CHEMISTRY-PR-12
+  spec_point: IGCSE_CHEMISTRY:4.43C
+  summary: 'practical: prepare a sample of an ester such as ethyl ethanoate'
+  page: 32
+  ordering: 12

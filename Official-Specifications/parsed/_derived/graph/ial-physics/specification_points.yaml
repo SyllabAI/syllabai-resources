@@ -1,0 +1,4424 @@
+curriculum_code: XPH11/YPH11
+qualification: ial-physics (Issue 3)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446957783_IAL_Physics_Iss3.pdf
+  role: official-pdf-direct-parse
+  sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 171
+  topics: 29
+  subsections: 0
+  practicals: 0
+specification_points:
+- code: IAL_PHYSICS:1
+  official_code: '1'
+  official_wording: 'be able to use the equations for uniformly accelerated motion in one dimension: (
+    u + v ) t s = v = u + at s = ut + 1 at 2 v 2 = u 2 + 2 as'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 189.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:2
+  official_code: '2'
+  official_wording: be able to draw and interpret displacement-time, velocity-time and acceleration- time
+    graphs
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 301.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:3
+  official_code: '3'
+  official_wording: know the physical quantities derived from the slopes and areas of displacement- time,
+    velocity-time and acceleration-time graphs, including cases of non-uniform acceleration and understand
+    how to use the quantities
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 333.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:4
+  official_code: '4'
+  official_wording: understand scalar and vector quantities and know examples of each type of quantity
+    and recognise vector notation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 379.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:5
+  official_code: '5'
+  official_wording: be able to resolve a vector into two components at right angles to each other by drawing
+    and by calculation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 411.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:6
+  official_code: '6'
+  official_wording: be able to find the resultant of two coplanar vectors at any angle to each other by
+    drawing, and at right angles to each other by calculation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 444.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:7
+  official_code: '7'
+  official_wording: understand how to make use of the independence of vertical and horizontal motion of
+    a projectile moving freely under gravity
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 476.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:8
+  official_code: '8'
+  official_wording: be able to draw and interpret free-body force diagrams to represent forces on a particle
+    or on an extended but rigid body using the concept of centre of gravity of an extended body
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 509.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:9
+  official_code: '9'
+  official_wording: be able to use the equation ∑ F = ma , and understand how to use this equation in
+    situations where m is constant (Newton’s second law of motion), including Newton’s first law of motion
+    where a = 0 , objects at rest or travelling at constant velocity Use of the term ‘terminal velocity’
+    is expected.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 554.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:10
+  official_code: '10'
+  official_wording: F be able to use the equations for gravitational field strength g = and m weight W
+    = mg
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: f
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 620.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:11
+  official_code: '11'
+  official_wording: 'CORE PRACTICAL 1: Determine the acceleration of a freely-falling object'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 670.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:12
+  official_code: '12'
+  official_wording: know and understand Newton’s third law of motion and know the properties of pairs
+    of forces in an interaction between two bodies
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 690.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:13
+  official_code: '13'
+  official_wording: understand that momentum is defined as p = mv
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 722.9
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:14
+  official_code: '14'
+  official_wording: know the principle of conservation of linear momentum, understand how to relate this
+    to Newton’s laws of motion and understand how to apply this to problems in one dimension
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 14
+  global_order: 14
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 76.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:15
+  official_code: '15'
+  official_wording: be able to use the equation for the moment of a force, moment of force = Fx where
+    x is the perpendicular distance between the line of action of the force and the axis of rotation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 121.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:16
+  official_code: '16'
+  official_wording: be able to use the concept of centre of gravity of an extended body and apply the
+    principle of moments to an extended body in equilibrium
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 168.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:17
+  official_code: '17'
+  official_wording: be able to use the equation for work ∆ W = F ∆ s , including calculations when the
+    force is not along the line of motion
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 201.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:18
+  official_code: '18'
+  official_wording: be able to use the equation E = 1 mv 2 for the kinetic energy of a body k 2
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 231.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:19
+  official_code: '19'
+  official_wording: be able to use the equation ∆ E grav = mg ∆ h for the difference in gravitational
+    potential energy near the Earth’s surface
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 259.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:20
+  official_code: '20'
+  official_wording: know, and understand how to apply, the principle of conservation of energy including
+    use of work done, gravitational potential energy and kinetic energy
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 292.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:21
+  official_code: '21'
+  official_wording: be able to use the equations relating power, time and energy transferred or work done
+    E and W P = P = t t
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 324.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:22
+  official_code: '22'
+  official_wording: be able to use the equations useful energy output efficiency = total energy input
+    and useful power output efficiency = total power input
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 374.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:23
+  official_code: '23'
+  official_wording: ρ = V
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: ρ
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 229.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:24
+  official_code: '24'
+  official_wording: understand how to use the relationship upthrust = weight of fluid displaced
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 257.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:25
+  official_code: '25'
+  official_wording: a be able to use the equation for viscous drag (Stokes’ Law), F = 6 π ηrv . b understand
+    that this equation applies only to small spherical objects moving at low speeds with laminar flow
+    (or in the absence of turbulent flow ) and that viscosity is temperature dependent
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: a
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 277.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:26
+  official_code: '26'
+  official_wording: 'CORE PRACTICAL 2: Use a falling-ball method to determine the viscosity of a liquid'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 356.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:27
+  official_code: '27'
+  official_wording: be able to use the Hooke’s law equation, ∆ F = k ∆ x , where k is the stiffness of
+    the object
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 388.9
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:28
+  official_code: '28'
+  official_wording: understand how to use the relationships
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 422.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:29
+  official_code: '29'
+  official_wording: a be able to draw and interpret force-extension and force-compression graphs b understand
+    the terms limit of proportionality, elastic limit, yield point, elastic deformation and plastic deformation
+    and be able to apply them to these graphs
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: a
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 498.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:30
+  official_code: '30'
+  official_wording: be able to draw and interpret tensile or compressive stress-strain graphs, and understand
+    the term breaking stress
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 549.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:31
+  official_code: '31'
+  official_wording: 'CORE PRACTICAL 3: Determine the Young modulus of a material'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 580.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:32
+  official_code: '32'
+  official_wording: be able to calculate the elastic strain energy E el in a deformed material sample,
+    using the equation ∆ E = 1 F ∆ x , and from the area under the force-extension graph el 2 The estimation
+    of area and hence energy change for both linear and non-linear force-extension graphs is expected.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 600.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:33
+  official_code: '33'
+  official_wording: understand the terms amplitude, frequency, period, speed and wavelength
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 229.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:34
+  official_code: '34'
+  official_wording: be able to use the wave equation v = fλ
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 248.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:35
+  official_code: '35'
+  official_wording: be able to describe longitudinal waves in terms of pressure variation and the displacement
+    of molecules
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 269.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:36
+  official_code: '36'
+  official_wording: be able to describe transverse waves
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 301.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:37
+  official_code: '37'
+  official_wording: be able to draw and interpret graphs representing transverse and longitudinal waves
+    including standing/stationary waves
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 321.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:38
+  official_code: '38'
+  official_wording: 'CORE PRACTICAL 4: Determine the speed of sound in air using a'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 353.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:39
+  official_code: '39'
+  official_wording: know and understand what is meant by wavefront, coherence, path difference, superposition,
+    interference and phase
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 386.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:40
+  official_code: '40'
+  official_wording: be able to use the relationship between phase difference and path difference
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 418.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:41
+  official_code: '41'
+  official_wording: know what is meant by a standing / stationary wave and understand how such a wave
+    is formed, know how to identify nodes and antinodes T
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 438.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:42
+  official_code: '42'
+  official_wording: be able to use the equation for the speed of a transverse wave on a string v = µ
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 481.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:43
+  official_code: '43'
+  official_wording: 'CORE PRACTICAL 5: Investigate the effects of length, tension and mass per unit length
+    on the frequency of a vibrating string or wire be able to use the equation for the intensity of radiation
+    P'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 513.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:44
+  official_code: '44'
+  official_wording: I = A
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 44
+  global_order: 44
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: i
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 554.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:45
+  official_code: '45'
+  official_wording: know and understand that at the interface between medium 1 and medium 2 n 1 sin θ
+    1 = n 2 sin θ 2 where refractive index is c n =
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 582.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:46
+  official_code: '46'
+  official_wording: be able to calculate critical angle using sin C = n
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 656.9
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:47
+  official_code: '47'
+  official_wording: be able to predict whether total internal reflection will occur at an interface
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 76.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:48
+  official_code: '48'
+  official_wording: understand how to measure the refractive index of a solid material
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 95.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:49
+  official_code: '49'
+  official_wording: understand what is meant by plane polarisation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 115.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:50
+  official_code: '50'
+  official_wording: understand what is meant by diffraction and use Huygens’ construction to explain what
+    happens to a wave when it meets a slit or an obstacle
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 50
+  global_order: 50
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 134.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:51
+  official_code: '51'
+  official_wording: be able to use nλ = d sin θ for a diffraction grating
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 167.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:52
+  official_code: '52'
+  official_wording: 'CORE PRACTICAL 6: Determine the wavelength of light from a laser or other light source
+    using a diffraction grating'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 186.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:53
+  official_code: '53'
+  official_wording: understand how diffraction experiments provide evidence for the wave nature of electrons
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 219.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:54
+  official_code: '54'
+  official_wording: be able to use the de Broglie equation h λ = p
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 251.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:55
+  official_code: '55'
+  official_wording: understand that waves can be transmitted and reflected at an interface between media
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 55
+  global_order: 55
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 309.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:56
+  official_code: '56'
+  official_wording: understand how a pulse-echo technique can provide information about the position of
+    an object and how the amount of information obtained may be limited by the wavelength of the radiation
+    or by the duration of pulses
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 341.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:57
+  official_code: '57'
+  official_wording: understand how the behaviour of electromagnetic radiation can be described in terms
+    of a wave model and a photon model, and how these models developed over time
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 387.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:58
+  official_code: '58'
+  official_wording: be able to use the equation E = hf , that relates the photon energy to the wave frequency
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 432.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:59
+  official_code: '59'
+  official_wording: understand that the absorption of a photon can result in the emission of a photoelectron
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 465.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:60
+  official_code: '60'
+  official_wording: understand the terms ‘threshold frequency’ and ‘work function’ and be able to use
+    the equation hf = φ + 1 mv 2
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 60
+  global_order: 60
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 497.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:61
+  official_code: '61'
+  official_wording: be able to use the electronvolt (eV) to express small energies
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 554.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:62
+  official_code: '62'
+  official_wording: understand how the photoelectric effect provides evidence for the particle nature
+    of electromagnetic radiation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 62
+  global_order: 62
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 573.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:63
+  official_code: '63'
+  official_wording: understand atomic line spectra in terms of transitions between discrete energy levels
+    and understand how to calculate the frequency of radiation that could be emitted or absorbed in a
+    transition between energy levels.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 606.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:64
+  official_code: '64'
+  official_wording: understand that electric current is the rate of flow of charged particles and be able
+    to use the equation ∆ Q I = ∆ t understand how to use the equation W
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 235.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:65
+  official_code: '65'
+  official_wording: V = Q understand that resistance is defined by V and that Ohm’s law is a special case
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 65
+  global_order: 65
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: v
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 292.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:66
+  official_code: '66'
+  official_wording: R = I when I ∝ V for constant temperature
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 66
+  global_order: 66
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: r
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 331.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:67
+  official_code: '67'
+  official_wording: (a) understand how the distribution of current in a circuit is a consequence of charge
+    conservation (b) understand how the distribution of potential differences in a circuit is a consequence
+    of energy conservation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: (a)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 373.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:68
+  official_code: '68'
+  official_wording: be able to derive the equations for combining resistances in series and parallel using
+    the principles of charge and energy conservation, and be able to use these equations
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 437.9
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:69
+  official_code: '69'
+  official_wording: be able to use the equations P = VI , W = VIt and be able to derive and use related
+    V 2 equations, e.g. P = I 2 R and P = R
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 483.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:70
+  official_code: '70'
+  official_wording: understand how to sketch, recognise and interpret current-potential difference graphs
+    for components, including ohmic conductors, filament bulbs, thermistors and diodes
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 535.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:71
+  official_code: '71'
+  official_wording: be able to use the equation ρl R = A
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 581.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:72
+  official_code: '72'
+  official_wording: 'CORE PRACTICAL 7: Determine the electrical resistivity of a material'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 617.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:73
+  official_code: '73'
+  official_wording: be able to use I = nqvA to explain the large range of resistivities of different materials
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 73
+  global_order: 73
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 637.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:74
+  official_code: '74'
+  official_wording: understand how the potential along a uniform current-carrying wire varies with the
+    distance along it
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 670.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:75
+  official_code: '75'
+  official_wording: understand the principles of a potential divider circuit and understand how to calculate
+    potential differences and resistances in such a circuit
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 702.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:76
+  official_code: '76'
+  official_wording: be able to analyse potential divider circuits where one resistance is variable including
+    thermistors and light dependent resistors (LDRs)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 735.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:77
+  official_code: '77'
+  official_wording: know the definition of electromotive force (e.m.f.) and understand what is meant by
+    internal resistance and know how to distinguish between e.m.f. and terminal potential difference
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 76.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:78
+  official_code: '78'
+  official_wording: 'CORE PRACTICAL 8: Determine the e.m.f. and internal resistance of an electrical cell'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 121.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:79
+  official_code: '79'
+  official_wording: understand how changes of resistance with temperature may be modelled in terms of
+    lattice vibrations and number of conduction electrons and understand how to apply this model to metallic
+    conductors and negative temperature coefficient thermistors
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 154.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:80
+  official_code: '80'
+  official_wording: understand how changes of resistance with illumination may be modelled in terms of
+    the number of conduction electrons and understand how to apply this model to LDRs.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 212.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:81
+  official_code: '81'
+  official_wording: understand how to use the equation impulse = F ∆ t =∆ p (Newton’s second law of motion)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 221.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:82
+  official_code: '82'
+  official_wording: 'CORE PRACTICAL 9: Investigate the relationship between the force exerted on an object
+    and its change of momentum'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 254.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:83
+  official_code: '83'
+  official_wording: understand how to apply conservation of linear momentum to problems in two dimensions
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 287.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:84
+  official_code: '84'
+  official_wording: 'CORE PRACTICAL 10: Use ICT to analyse collisions between small spheres, e.g. ball
+    bearings on a table top'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 319.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:85
+  official_code: '85'
+  official_wording: understand how to determine whether a collision is elastic or inelastic p 2
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 352.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:86
+  official_code: '86'
+  official_wording: be able to derive and use the equation E k = for the kinetic energy of a non- relativistic
+    particle
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 380.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:87
+  official_code: '87'
+  official_wording: be able to express angular displacement in radians and in degrees, and convert between
+    these units
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 423.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:88
+  official_code: '88'
+  official_wording: understand what is meant by angular velocity and be able to use the equations v =
+    ω r and 2 π T = ω
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 455.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:89
+  official_code: '89'
+  official_wording: be able to use vector diagrams to derive the equations for centripetal acceleration
+    v 2 a = = r ω 2 and understand how to use these equations r
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 505.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:90
+  official_code: '90'
+  official_wording: understand that a resultant force (centripetal force) is required to produce and maintain
+    circular motion mv 2
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 556.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:91
+  official_code: '91'
+  official_wording: be able to use the equations for centripetal force F = ma = = mr ω 2 . r
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 593.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:92
+  official_code: '92'
+  official_wording: understand that an electric field (force field) is defined as a region where a charged
+    particle experiences a force understand that electric field strength is defined as F and be able to
+    use
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 235.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:93
+  official_code: '93'
+  official_wording: E = Q this equation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: e
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 275.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:94
+  official_code: '94'
+  official_wording: Q 1 Q 2 be able to use the equation F = 2 for the force between two charges
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: q
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 320.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:95
+  official_code: '95'
+  official_wording: Q be able to use the equation E = 2 for the electric field due to a point charge
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: q
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 361.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:96
+  official_code: '96'
+  official_wording: know and understand the relation between electric field and electric potential be
+    able to use the equation V for an electric field between parallel plates
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 96
+  global_order: 96
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 401.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:97
+  official_code: '97'
+  official_wording: E = d
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 97
+  global_order: 97
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: e
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 428.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:98
+  official_code: '98'
+  official_wording: Q be able to use V = for a radial field
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 98
+  global_order: 98
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: q
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 458.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:99
+  official_code: '99'
+  official_wording: be able to draw and interpret diagrams using field lines and equipotentials to describe
+    radial and uniform electric fields understand that capacitance is defined as Q and be able to use
+    this equation
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 99
+  global_order: 99
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 498.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:100
+  official_code: '100'
+  official_wording: C = V
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 100
+  global_order: 100
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: c
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 538.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:101
+  official_code: '101'
+  official_wording: be able to use the equation W = 1 QV for the energy stored by a capacitor, be able
+    to derive the equation from the area under a graph of potential difference against charge stored and
+    be able to derive and use the equations W = 1 CV 2 and W = 2 C
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 101
+  global_order: 101
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 565.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:102
+  official_code: '102'
+  official_wording: be able to draw and interpret charge and discharge curves for resistor capacitor circuits
+    and understand the significance of the time constant RC
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 102
+  global_order: 102
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 76.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:103
+  official_code: '103'
+  official_wording: 'CORE PRACTICAL 11: Use an oscilloscope or data logger to display and analyse the
+    potential difference (p.d.) across a capacitor as it charges and discharges through a resistor'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 103
+  global_order: 103
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 108.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:104
+  official_code: '104'
+  official_wording: be able to use the equation Q = Q 0 e -t/RC and derive and use related equations for
+    exponential discharge in a resistor-capacitor circuit, I = I 0 e - t/RC , and V = V 0 e -t/RC and
+    the corresponding log equations t , t and ln Q = ln Q 0 − ln I = ln I 0 − RC RC t ln V = ln V 0 −
+    RC
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 104
+  global_order: 104
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 150.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:105
+  official_code: '105'
+  official_wording: understand and use the terms magnetic flux density B, flux φ and flux linkage N φ
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 105
+  global_order: 105
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 248.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:106
+  official_code: '106'
+  official_wording: be able to use the equation F = Bqv sin θ and apply Fleming’s left-hand rule to charged
+    particles moving in a magnetic field
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 106
+  global_order: 106
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 281.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:107
+  official_code: '107'
+  official_wording: be able to use the equation F = BIl sin θ and apply Fleming’s left-hand rule to current
+    carrying conductors in a magnetic field
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 107
+  global_order: 107
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 315.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:108
+  official_code: '108'
+  official_wording: understand the factors affecting the e.m.f. induced in a coil when there is relative
+    motion between the coil and a permanent magnet
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 108
+  global_order: 108
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 349.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:109
+  official_code: '109'
+  official_wording: understand the factors affecting the e.m.f. induced in a coil when there is a change
+    of current in another coil linked with this coil
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 109
+  global_order: 109
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 381.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:110
+  official_code: '110'
+  official_wording: understand how to use Faraday’s law to determine the magnitude of an induced e.m.f.
+    and be able to use the equation that combines Faraday’s and Lenz's laws E − d ( N φ ) . = d t
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 110
+  global_order: 110
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 414.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:111
+  official_code: '111'
+  official_wording: understand what is meant by nucleon number (mass number) and proton number (atomic
+    number)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 111
+  global_order: 111
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 246.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:112
+  official_code: '112'
+  official_wording: understand how large-angle alpha particle scattering gives evidence for a nuclear
+    model of the atom and how our understanding of atomic structure has changed over time
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 112
+  global_order: 112
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 278.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:113
+  official_code: '113'
+  official_wording: understand that electrons are released in the process of thermionic emission and how
+    they can be accelerated by electric and magnetic fields
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 113
+  global_order: 113
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 324.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:114
+  official_code: '114'
+  official_wording: understand the role of electric and magnetic fields in particle accelerators (linac
+    and cyclotron) and detectors (general principles of ionisation and deflection only) be able to derive
+    and use the equation p for a charged particle in
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 114
+  global_order: 114
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 356.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:115
+  official_code: '115'
+  official_wording: r = BQ a magnetic field
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 115
+  global_order: 115
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: r
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 397.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:116
+  official_code: '116'
+  official_wording: be able to apply conservation of charge, energy and momentum to interactions between
+    particles and interpret particle tracks
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 116
+  global_order: 116
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 440.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:117
+  official_code: '117'
+  official_wording: understand why high energies are required to investigate the structure of nucleons
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 117
+  global_order: 117
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 473.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:118
+  official_code: '118'
+  official_wording: be able to use the equation ∆ E = c 2 ∆ m in situations involving the creation and
+    annihilation of matter and antimatter particles
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 118
+  global_order: 118
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 488.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:119
+  official_code: '119'
+  official_wording: be able to use MeV and GeV (energy) and MeV/ c 2 , GeV/ c 2 (mass) and convert between
+    these and SI units
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 119
+  global_order: 119
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 523.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:120
+  official_code: '120'
+  official_wording: understand situations in which the relativistic increase in particle lifetime is significant
+    (use of relativistic equations not required)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 120
+  global_order: 120
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 558.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:121
+  official_code: '121'
+  official_wording: 'know that in the standard quark-lepton model particles can be classified as:'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 121
+  global_order: 121
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 591.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:122
+  official_code: '122'
+  official_wording: know that every particle has a corresponding antiparticle and be able to use the properties
+    of a particle to deduce the properties of its antiparticle and vice versa
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 122
+  global_order: 122
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 705.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:123
+  official_code: '123'
+  official_wording: understand how to use laws of conservation of charge, baryon number and lepton number
+    to determine whether a particle interaction is possible
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 123
+  global_order: 123
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 738.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:124
+  official_code: '124'
+  official_wording: be able to write and interpret particle equations given the relevant particle symbols.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 124
+  global_order: 124
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 770.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:125
+  official_code: '125'
+  official_wording: be able to use the equations Δ E = mc Δ θ and Δ E = L Δ m
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 125
+  global_order: 125
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 499.8
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:126
+  official_code: '126'
+  official_wording: 'CORE PRACTICAL 12: Calibrate a thermistor in a potential divider circuit as a thermostat'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 126
+  global_order: 126
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 521.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:127
+  official_code: '127'
+  official_wording: 'CORE PRACTICAL 13: Determine the specific latent heat of a phase change'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 127
+  global_order: 127
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 553.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:128
+  official_code: '128'
+  official_wording: understand the concept of internal energy as the random distribution of potential
+    and kinetic energy amongst molecules
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 128
+  global_order: 128
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 573.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:129
+  official_code: '129'
+  official_wording: understand the concept of absolute zero and how the average kinetic energy of molecules
+    is related to the absolute temperature
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 129
+  global_order: 129
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 605.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:130
+  official_code: '130'
+  official_wording: be able to use the equation pV = N k T for an ideal gas
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 130
+  global_order: 130
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 638.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:131
+  official_code: '131'
+  official_wording: 'CORE PRACTICAL 14: Investigate the relationship between pressure and volume of a
+    gas at fixed temperature'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 131
+  global_order: 131
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 658.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:132
+  official_code: '132'
+  official_wording: be able to derive and use the equation 1 m < c 2 > = 3 k T
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 132
+  global_order: 132
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 687.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:133
+  official_code: '133'
+  official_wording: understand the concept of nuclear binding energy and be able to use the equation Δ
+    E = c 2 Δ m in calculations of nuclear mass (including mass deficit) and energy
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 133
+  global_order: 133
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 222.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:134
+  official_code: '134'
+  official_wording: use the atomic mass unit (u) to express small masses and convert between this and
+    SI units
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 134
+  global_order: 134
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 255.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:135
+  official_code: '135'
+  official_wording: understand the processes of nuclear fusion and fission with reference to the binding
+    energy per nucleon curve
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 135
+  global_order: 135
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 288.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:136
+  official_code: '136'
+  official_wording: understand the mechanism of nuclear fusion and the need for very high densities of
+    matter and very high temperatures to bring about and maintain nuclear fusion
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 136
+  global_order: 136
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 320.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:137
+  official_code: '137'
+  official_wording: understand that there is background radiation and how to take appropriate account
+    of it in calculations
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 137
+  global_order: 137
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 353.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:138
+  official_code: '138'
+  official_wording: understand the relationships between the nature, penetration, ionising ability and
+    range in different materials of nuclear radiations (alpha, beta and gamma)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 138
+  global_order: 138
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 385.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:139
+  official_code: '139'
+  official_wording: be able to write and interpret nuclear equations given the relevant particle symbols
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 139
+  global_order: 139
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 418.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:140
+  official_code: '140'
+  official_wording: 'CORE PRACTICAL 15: Investigate the absorption of gamma radiation by lead'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 140
+  global_order: 140
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 437.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:141
+  official_code: '141'
+  official_wording: understand the spontaneous and random nature of nuclear decay
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 141
+  global_order: 141
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 470.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:142
+  official_code: '142'
+  official_wording: be able to determine the half-lives of radioactive isotopes graphically and be able
+    to use the equations for radioactive decay d𝑁𝑁 ln 2 -λt -λt activity A = λ N , = − λN, λ = , N = N
+    0 e and A = A 0 e and d𝑡𝑡 t 1 derive and use the corresponding log equations.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 142
+  global_order: 142
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 489.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:143
+  official_code: '143'
+  official_wording: understand that the condition for simple harmonic motion is F = − kx , and hence understand
+    how to identify situations in which simple harmonic motion will occur
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 143
+  global_order: 143
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 208.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:144
+  official_code: '144'
+  official_wording: be able to use the equations a = − ω 2 x , x = A cos ω t , v = − A ω sin ω t , a =
+    − A ω 2 cos ω t , and 1 2 π and ω = 2 π f as applied to a simple T = = f ω harmonic oscillator
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 144
+  global_order: 144
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 239.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:145
+  official_code: '145'
+  official_wording: be able to use equations for a simple harmonic oscillator m l T = 2 π , and a simple
+    pendulum T = 2 π k g
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 145
+  global_order: 145
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 308.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:146
+  official_code: '146'
+  official_wording: be able to draw and interpret a displacement-time graph for an object oscillating
+    and know that the gradient at a point gives the velocity at that point
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 146
+  global_order: 146
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 366.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:147
+  official_code: '147'
+  official_wording: be able to draw and interpret a velocity-time graph for an oscillating object and
+    know that the gradient at a point gives the acceleration at that point
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 147
+  global_order: 147
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 399.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:148
+  official_code: '148'
+  official_wording: understand what is meant by resonance
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 148
+  global_order: 148
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 431.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:149
+  official_code: '149'
+  official_wording: 'CORE PRACTICAL 16: Determine the value of an unknown mass using the resonant frequencies
+    of the oscillation of known masses'
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 149
+  global_order: 149
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 451.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:150
+  official_code: '150'
+  official_wording: understand how to apply conservation of energy to damped and undamped oscillating
+    systems
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 150
+  global_order: 150
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 483.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:151
+  official_code: '151'
+  official_wording: understand the distinction between free and forced oscillations
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 151
+  global_order: 151
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 516.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:152
+  official_code: '152'
+  official_wording: understand how the amplitude of a forced oscillation changes at and around the natural
+    frequency of a system and know, qualitatively, how damping affects resonance
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 152
+  global_order: 152
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 535.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:153
+  official_code: '153'
+  official_wording: understand how damping and the plastic deformation of ductile materials reduce the
+    amplitude of oscillation.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 153
+  global_order: 153
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 39
+    pdf_oy: 581.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:154
+  official_code: '154'
+  official_wording: understand that a gravitational field (force field) is defined as a region where a
+    mass experiences a force understand that gravitational field strength is defined as F and be able
+    to use
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 154
+  global_order: 154
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 167.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:155
+  official_code: '155'
+  official_wording: g = m this equation be able to use the equation Gm 1 m 2 (Newton’s law of universal
+    gravitation)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 155
+  global_order: 155
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: g
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 207.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:156
+  official_code: '156'
+  official_wording: F = 2 r be able to derive and use the equation Gm for the gravitational field due
+    to a
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 156
+  global_order: 156
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: f
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 257.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:157
+  official_code: '157'
+  official_wording: g = 2 r point mass be able to use the equation − Gm for a radial gravitational field
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 157
+  global_order: 157
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: g
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 293.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:158
+  official_code: '158'
+  official_wording: V grav = r
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 158
+  global_order: 158
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: v
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 343.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:159
+  official_code: '159'
+  official_wording: be able to compare electric fields with gravitational fields
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 159
+  global_order: 159
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 371.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:160
+  official_code: '160'
+  official_wording: be able to apply Newton’s laws of motion and universal gravitation to orbital motion
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 160
+  global_order: 160
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 391.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:161
+  official_code: '161'
+  official_wording: understand what is meant by a black body radiator and be able to interpret radiation
+    curves for such a radiator
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 161
+  global_order: 161
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 410.5
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:162
+  official_code: '162'
+  official_wording: be able to use the Stefan-Boltzmann law equation L = σ AT 4 for black body radiators
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 162
+  global_order: 162
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 439.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:163
+  official_code: '163'
+  official_wording: be able to use Wien’s law equation λ max T = 2.898 x 10 -3 m K for black body radiators
+    be able to use the equation, intensity L where L is luminosity
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 163
+  global_order: 163
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 461.0
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:164
+  official_code: '164'
+  official_wording: I = 2 and d is distance from the source
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 164
+  global_order: 164
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: i
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 492.4
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:165
+  official_code: '165'
+  official_wording: understand how astronomical distances can be determined using trigonometric parallax
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 165
+  global_order: 165
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 534.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:166
+  official_code: '166'
+  official_wording: understand how astronomical distances can be determined using measurements of intensity
+    received from standard candles (objects of known luminosity)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 166
+  global_order: 166
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 567.1
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:167
+  official_code: '167'
+  official_wording: be able to sketch and interpret a simple Hertzsprung-Russell diagram that relates
+    stellar luminosity to surface temperature
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 167
+  global_order: 167
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 599.6
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:168
+  official_code: '168'
+  official_wording: understand how to relate the Hertzsprung-Russell diagram to the life cycle of stars
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 168
+  global_order: 168
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 632.2
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:169
+  official_code: '169'
+  official_wording: understand how the movement of a source of waves relative to an observer/detector
+    gives rise to a shift in frequency (Doppler effect)
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 169
+  global_order: 169
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 40
+    pdf_oy: 651.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:170
+  official_code: '170'
+  official_wording: be able to use the equations for redshift ∆ λ ∆ f v z = ≈ ≈ λ f c for a source of
+    electromagnetic radiation moving relative to an observer and v = H 0 d for objects at cosmological
+    distances
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 170
+  global_order: 170
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 76.3
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []
+- code: IAL_PHYSICS:171
+  official_code: '171'
+  official_wording: understand the controversy over the age and ultimate fate of the universe associated
+    with the value of the Hubble constant and the possible existence of dark matter.
+  section: XPH11/YPH11-S29
+  subsection: null
+  ordering: 171
+  global_order: 171
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446957783_IAL_Physics_Iss3.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 165.7
+    pdf_sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+  damage_flags: []

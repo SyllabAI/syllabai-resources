@@ -1,0 +1,1663 @@
+curriculum_code: 4GE1
+qualification: igcse-geography (Issue 4)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446958360-int-gcse-geog-issue-3.pdf
+  role: official-pdf-direct-parse
+  sha1: fa6a75d1197e23a8c6f75a54d9d7e04e3a408718
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 155
+  topics: 9
+  subsections: 9
+  practicals: 0
+edges:
+- from: 4GE1-SUB1
+  relation: PART_OF
+  to: 4GE1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 14
+- from: 4GE1-SUB2
+  relation: PART_OF
+  to: 4GE1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 14
+- from: 4GE1-SUB3
+  relation: PART_OF
+  to: 4GE1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 15
+- from: 4GE1-SUB4
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 18
+- from: 4GE1-SUB5
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4GE1-SUB6
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4GE1-SUB7
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 24
+- from: 4GE1-SUB8
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4GE1-SUB9
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 34
+- from: IGCSE_GEOGRAPHY:SX.001
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.002
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.003
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.004
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.005
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.006
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.007
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.008
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.009
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 6
+- from: IGCSE_GEOGRAPHY:SX.010
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 8
+- from: IGCSE_GEOGRAPHY:SX.011
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 8
+- from: IGCSE_GEOGRAPHY:SX.012
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 8
+- from: IGCSE_GEOGRAPHY:SX.013
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.014
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.015
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.016
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.017
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.018
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.019
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_GEOGRAPHY:SX.020
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.021
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.022
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.023
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.024
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.025
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.026
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_GEOGRAPHY:SX.027
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.028
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.029
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.030
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.031
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.032
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.033
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.034
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_GEOGRAPHY:SX.035
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 13
+- from: IGCSE_GEOGRAPHY:SX.036
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 13
+- from: IGCSE_GEOGRAPHY:SX.037
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 13
+- from: IGCSE_GEOGRAPHY:SX.038
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 13
+- from: IGCSE_GEOGRAPHY:SX.039
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_GEOGRAPHY:SX.040
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_GEOGRAPHY:SX.041
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_GEOGRAPHY:S3.042
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.043
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.044
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.045
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.046
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.047
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.048
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.049
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.050
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.051
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.052
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.053
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.054
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.055
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_GEOGRAPHY:S3.056
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_GEOGRAPHY:S3.057
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_GEOGRAPHY:S3.058
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_GEOGRAPHY:S3.059
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_GEOGRAPHY:S3.060
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_GEOGRAPHY:S3.061
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_GEOGRAPHY:S3.062
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_GEOGRAPHY:S3.063
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_GEOGRAPHY:S3.064
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_GEOGRAPHY:S3.065
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_GEOGRAPHY:S3.066
+  relation: PART_OF
+  to: 4GE1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_GEOGRAPHY:S6.067
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.068
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.069
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.070
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.071
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.072
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.073
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.074
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.075
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.076
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.077
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.078
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.079
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.080
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_GEOGRAPHY:S6.081
+  relation: PART_OF
+  to: 4GE1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_GEOGRAPHY:S9.082
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IGCSE_GEOGRAPHY:S9.083
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IGCSE_GEOGRAPHY:S9.084
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.085
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.086
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.087
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.088
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.089
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.090
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.091
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IGCSE_GEOGRAPHY:S9.092
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IGCSE_GEOGRAPHY:S9.093
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IGCSE_GEOGRAPHY:S9.094
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IGCSE_GEOGRAPHY:S9.095
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IGCSE_GEOGRAPHY:S9.096
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IGCSE_GEOGRAPHY:S9.097
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.098
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.099
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.100
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.101
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.102
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.103
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.104
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.105
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.106
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.107
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.108
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.109
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.110
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.111
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_GEOGRAPHY:S9.112
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.113
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.114
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.115
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.116
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.117
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.118
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.119
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.120
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.121
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.122
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.123
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.124
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.125
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.126
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_GEOGRAPHY:S9.127
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IGCSE_GEOGRAPHY:S9.128
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IGCSE_GEOGRAPHY:S9.129
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IGCSE_GEOGRAPHY:S9.130
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IGCSE_GEOGRAPHY:S9.131
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IGCSE_GEOGRAPHY:S9.132
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IGCSE_GEOGRAPHY:S9.133
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.134
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.135
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.136
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.137
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.138
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.139
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.140
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.141
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.142
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.143
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.144
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.145
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.146
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.147
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.148
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.149
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.150
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.151
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.152
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.153
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.154
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IGCSE_GEOGRAPHY:S9.155
+  relation: PART_OF
+  to: 4GE1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55

@@ -1,0 +1,5721 @@
+curriculum_code: 4CH1
+qualification: igcse-chemistry (Issue 3)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-chemistry-2017-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 182
+  topics: 8
+  subsections: 28
+  practicals: 12
+specification_points:
+- code: IGCSE_CHEMISTRY:1.1
+  official_code: '1.1'
+  official_wording: understand the three states of matter in terms of the arrangement, movement and energy
+    of the particles
+  section: 4CH1-S3
+  subsection: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 347.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.2
+  official_code: '1.2'
+  official_wording: 'understand the interconversions between the three states of matter in terms of:'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 378.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.3
+  official_code: '1.3'
+  official_wording: understand how the results of experiments involving the dilution of coloured solutions
+    and diffusion of gases can be explained
+  section: 4CH1-S3
+  subsection: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 451.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.4
+  official_code: '1.4'
+  official_wording: 'know what is meant by the terms:'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 482.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.5C
+  official_code: 1.5C
+  official_wording: know what is meant by the term solubility in the units g per 100 g of solvent
+  section: 4CH1-S3
+  subsection: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 573.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.6C
+  official_code: 1.6C
+  official_wording: understand how to plot and interpret solubility curves
+  section: 4CH1-S3
+  subsection: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 591.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.7C
+  official_code: 1.7C
+  official_wording: 'practical: investigate the solubility of a solid in water at a specific temperature'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 7
+  global_order: 7
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 17
+    pdf_oy: 610.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.8
+  official_code: '1.8'
+  official_wording: understand how to classify a substance as an element, compound or mixture
+  section: 4CH1-S3
+  subsection: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 127.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.9
+  official_code: '1.9'
+  official_wording: understand that a pure substance has a fixed melting and boiling point, but that a
+    mixture may melt or boil over a range of temperatures
+  section: 4CH1-S3
+  subsection: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 146.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.10
+  official_code: '1.10'
+  official_wording: 'describe these experimental techniques for the separation of mixtures:'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 176.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.11
+  official_code: '1.11'
+  official_wording: understand how a chromatogram provides information about the composition of a mixture
+  section: 4CH1-S3
+  subsection: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 286.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.12
+  official_code: '1.12'
+  official_wording: understand how to use the calculation of R f values to identify the components of
+    a mixture
+  section: 4CH1-S3
+  subsection: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 317.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.13
+  official_code: '1.13'
+  official_wording: 'practical: investigate paper chromatography using inks/food colourings'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 13
+  global_order: 13
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 347.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.14
+  official_code: '1.14'
+  official_wording: know what is meant by the terms atom and molecule
+  section: 4CH1-S3
+  subsection: null
+  ordering: 14
+  global_order: 14
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 424.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.15
+  official_code: '1.15'
+  official_wording: know the structure of an atom in terms of the positions, relative masses and relative
+    charges of sub-atomic particles
+  section: 4CH1-S3
+  subsection: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 442.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.16
+  official_code: '1.16'
+  official_wording: know what is meant by the terms atomic number, mass number, isotopes and relative
+    atomic mass ( A r )
+  section: 4CH1-S3
+  subsection: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 473.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.17
+  official_code: '1.17'
+  official_wording: be able to calculate the relative atomic mass of an element ( A r ) from isotopic
+    abundances
+  section: 4CH1-S3
+  subsection: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 504.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.18
+  official_code: '1.18'
+  official_wording: 'understand how elements are arranged in the Periodic Table:'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 593.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.19
+  official_code: '1.19'
+  official_wording: understand how to deduce the electronic configurations of the first 20 elements from
+    their positions in the Periodic Table
+  section: 4CH1-S3
+  subsection: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 648.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.20
+  official_code: '1.20'
+  official_wording: understand how to use electrical conductivity and the acid-base character of oxides
+    to classify elements as metals or non-metals
+  section: 4CH1-S3
+  subsection: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 679.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.21
+  official_code: '1.21'
+  official_wording: identify an element as a metal or a non-metal according to its position in the Periodic
+    Table
+  section: 4CH1-S3
+  subsection: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: identify
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 710.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.22
+  official_code: '1.22'
+  official_wording: understand how the electronic configuration of a main group element is related to
+    its position in the Periodic Table
+  section: 4CH1-S3
+  subsection: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 18
+    pdf_oy: 741.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.23
+  official_code: '1.23'
+  official_wording: understand why elements in the same group of the Periodic Table have similar chemical
+    properties
+  section: 4CH1-S3
+  subsection: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 102.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.24
+  official_code: '1.24'
+  official_wording: understand why the noble gases (Group 0) do not readily react
+  section: 4CH1-S3
+  subsection: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 133.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.25
+  official_code: '1.25'
+  official_wording: 'write word equations and balanced chemical equations (including state symbols):'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: write
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 209.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.26
+  official_code: '1.26'
+  official_wording: calculate relative formula masses (including relative molecular masses) ( M r ) from
+    relative atomic masses ( A r )
+  section: 4CH1-S3
+  subsection: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 264.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.27
+  official_code: '1.27'
+  official_wording: know that the mole (mol) is the unit for the amount of a substance
+  section: 4CH1-S3
+  subsection: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 297.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.28
+  official_code: '1.28'
+  official_wording: understand how to carry out calculations involving amount of substance, relative atomic
+    mass ( A r ) and relative formula mass ( M r )
+  section: 4CH1-S3
+  subsection: null
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 316.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.29
+  official_code: '1.29'
+  official_wording: calculate reacting masses using experimental data and chemical equations
+  section: 4CH1-S3
+  subsection: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 347.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.30
+  official_code: '1.30'
+  official_wording: calculate percentage yield
+  section: 4CH1-S3
+  subsection: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 366.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.31
+  official_code: '1.31'
+  official_wording: understand how the formulae of simple compounds can be obtained experimentally, including
+    metal oxides, water and salts containing water of crystallisation
+  section: 4CH1-S3
+  subsection: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 385.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.32
+  official_code: '1.32'
+  official_wording: know what is meant by the terms empirical formula and molecular formula
+  section: 4CH1-S3
+  subsection: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 416.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.33
+  official_code: '1.33'
+  official_wording: calculate empirical and molecular formulae from experimental data
+  section: 4CH1-S3
+  subsection: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 434.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.34C
+  official_code: 1.34C
+  official_wording: understand how to carry out calculations involving amount of substance, volume and
+    concentration (in mol/dm 3 ) of solution
+  section: 4CH1-S3
+  subsection: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 453.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.35C
+  official_code: 1.35C
+  official_wording: understand how to carry out calculations involving gas volumes and the molar volume
+    of a gas (24 dm 3 and 24 000 cm 3 at room temperature and pressure (rtp))
+  section: 4CH1-S3
+  subsection: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 484.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.36
+  official_code: '1.36'
+  official_wording: 'practical: know how to determine the formula of a metal oxide by combustion (e.g.
+    magnesium oxide) or by reduction (e.g. copper(II) oxide)'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 36
+  global_order: 36
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 527.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.37
+  official_code: '1.37'
+  official_wording: understand how ions are formed by electron loss or gain
+  section: 4CH1-S3
+  subsection: null
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 133.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.38
+  official_code: '1.38'
+  official_wording: 'know the charges of these ions:'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 151.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.39
+  official_code: '1.39'
+  official_wording: write formulae for compounds formed between the ions listed above
+  section: 4CH1-S3
+  subsection: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: write
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 255.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.40
+  official_code: '1.40'
+  official_wording: draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer,
+    limited to combinations of elements from Groups 1, 2, 3 and 5, 6, 7 only outer electrons need be shown
+  section: 4CH1-S3
+  subsection: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: draw
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 273.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.41
+  official_code: '1.41'
+  official_wording: understand ionic bonding in terms of electrostatic attractions
+  section: 4CH1-S3
+  subsection: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 322.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.42
+  official_code: '1.42'
+  official_wording: understand why compounds with giant ionic lattices have high melting and boiling points
+  section: 4CH1-S3
+  subsection: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 341.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.43
+  official_code: '1.43'
+  official_wording: know that ionic compounds do not conduct electricity when solid, but do conduct electricity
+    when molten and in aqueous solution
+  section: 4CH1-S3
+  subsection: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 372.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.44
+  official_code: '1.44'
+  official_wording: know that a covalent bond is formed between atoms by the sharing of a pair of electrons
+  section: 4CH1-S3
+  subsection: null
+  ordering: 44
+  global_order: 44
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 460.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.45
+  official_code: '1.45'
+  official_wording: understand covalent bonds in terms of electrostatic attractions
+  section: 4CH1-S3
+  subsection: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 491.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.46
+  official_code: '1.46'
+  official_wording: 'understand how to use dot-and-cross diagrams to represent covalent bonds in:'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 510.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.47
+  official_code: '1.47'
+  official_wording: explain why substances with a simple molecular structures are gases or liquids, or
+    solids with low melting and boiling points the term intermolecular forces of attraction can be used
+    to represent all forces between molecules
+  section: 4CH1-S3
+  subsection: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 607.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.48
+  official_code: '1.48'
+  official_wording: explain why the melting and boiling points of substances with simple molecular structures
+    increase, in general, with increasing relative molecular mass
+  section: 4CH1-S3
+  subsection: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 668.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.49
+  official_code: '1.49'
+  official_wording: explain why substances with giant covalent structures are solids with high melting
+    and boiling points
+  section: 4CH1-S3
+  subsection: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 699.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.50
+  official_code: '1.50'
+  official_wording: explain how the structures of diamond, graphite and C 60 fullerene influence their
+    physical properties, including electrical conductivity and hardness
+  section: 4CH1-S3
+  subsection: null
+  ordering: 50
+  global_order: 50
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 730.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.51
+  official_code: '1.51'
+  official_wording: know that covalent compounds do not usually conduct electricity
+  section: 4CH1-S3
+  subsection: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 761.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.52C
+  official_code: 1.52C
+  official_wording: know how to represent a metallic lattice by a 2-D diagram
+  section: 4CH1-S3
+  subsection: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 121.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.53C
+  official_code: 1.53C
+  official_wording: understand metallic bonding in terms of electrostatic attractions
+  section: 4CH1-S3
+  subsection: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 139.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.54C
+  official_code: 1.54C
+  official_wording: explain typical physical properties of metals, including electrical conductivity and
+    malleability
+  section: 4CH1-S3
+  subsection: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 158.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.55C
+  official_code: 1.55C
+  official_wording: understand why covalent compounds do not conduct electricity
+  section: 4CH1-S3
+  subsection: null
+  ordering: 55
+  global_order: 55
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 247.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.56C
+  official_code: 1.56C
+  official_wording: understand why ionic compounds conduct electricity only when molten or in aqueous
+    solution
+  section: 4CH1-S3
+  subsection: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 265.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.57C
+  official_code: 1.57C
+  official_wording: know that anion and cation are terms used to refer to negative and positive ions respectively
+  section: 4CH1-S3
+  subsection: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 296.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.58C
+  official_code: 1.58C
+  official_wording: describe experiments to investigate electrolysis, using inert electrodes, of molten
+    compounds (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric
+    acid and copper(II) sulfate) and to predict the products
+  section: 4CH1-S3
+  subsection: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 327.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.59C
+  official_code: 1.59C
+  official_wording: write ionic half-equations representing the reactions at the electrodes during electrolysis
+    and understand why these reactions are classified as oxidation or reduction
+  section: 4CH1-S3
+  subsection: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: write
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 382.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:1.60C
+  official_code: 1.60C
+  official_wording: 'practical: investigate the electrolysis of aqueous solutions'
+  section: 4CH1-S3
+  subsection: null
+  ordering: 60
+  global_order: 60
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 425.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.1
+  official_code: '2.1'
+  official_wording: understand how the similarities in the reactions of these elements with water provide
+    evidence for their recognition as a family of elements
+  section: 4CH1-S4
+  subsection: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 329.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.2
+  official_code: '2.2'
+  official_wording: understand how the differences between the reactions of these elements with air and
+    water provide evidence for the trend in reactivity in Group 1
+  section: 4CH1-S4
+  subsection: null
+  ordering: 62
+  global_order: 62
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 359.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.3
+  official_code: '2.3'
+  official_wording: use knowledge of trends in Group 1 to predict the properties of other alkali metals
+  section: 4CH1-S4
+  subsection: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 390.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.4C
+  official_code: 2.4C
+  official_wording: explain the trend in reactivity in Group 1 in terms of electronic configurations
+  section: 4CH1-S4
+  subsection: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 409.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.5
+  official_code: '2.5'
+  official_wording: know the colours, physical states (at room temperature) and trends in physical properties
+    of these elements
+  section: 4CH1-S4
+  subsection: null
+  ordering: 65
+  global_order: 65
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 497.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.6
+  official_code: '2.6'
+  official_wording: use knowledge of trends in Group 7 to predict the properties of other halogens
+  section: 4CH1-S4
+  subsection: null
+  ordering: 66
+  global_order: 66
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 528.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.7
+  official_code: '2.7'
+  official_wording: understand how displacement reactions involving halogens and halides provide evidence
+    for the trend in reactivity in Group 7
+  section: 4CH1-S4
+  subsection: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 547.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.8C
+  official_code: 2.8C
+  official_wording: explain the trend in reactivity in Group 7 in terms of electronic configurations
+  section: 4CH1-S4
+  subsection: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 578.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.9
+  official_code: '2.9'
+  official_wording: know the approximate percentages by volume of the four most abundant gases in dry
+    air
+  section: 4CH1-S4
+  subsection: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 126.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.10
+  official_code: '2.10'
+  official_wording: understand how to determine the percentage by volume of oxygen in air using experiments
+    involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air
+  section: 4CH1-S4
+  subsection: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 157.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.11
+  official_code: '2.11'
+  official_wording: describe the combustion of elements in oxygen, including magnesium, hydrogen and sulfur
+  section: 4CH1-S4
+  subsection: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 200.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.12
+  official_code: '2.12'
+  official_wording: describe the formation of carbon dioxide from the thermal decomposition of metal carbonates,
+    including copper(II) carbonate
+  section: 4CH1-S4
+  subsection: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 231.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.13
+  official_code: '2.13'
+  official_wording: know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere
+    may contribute to climate change
+  section: 4CH1-S4
+  subsection: null
+  ordering: 73
+  global_order: 73
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 262.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.14
+  official_code: '2.14'
+  official_wording: 'practical: determine the approximate percentage by volume of oxygen in air using
+    a metal or a non-metal'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 74
+  global_order: 74
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 292.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.15
+  official_code: '2.15'
+  official_wording: 'understand how metals can be arranged in a reactivity series based on their reactions
+    with:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 381.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.16
+  official_code: '2.16'
+  official_wording: 'understand how metals can be arranged in a reactivity series based on their displacement
+    reactions between:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 448.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.17
+  official_code: '2.17'
+  official_wording: 'know the order of reactivity of these metals: potassium, sodium, lithium, calcium,
+    magnesium, aluminium, zinc, iron, copper, silver, gold'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 515.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.18
+  official_code: '2.18'
+  official_wording: know the conditions under which iron rusts
+  section: 4CH1-S4
+  subsection: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 546.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.19
+  official_code: '2.19'
+  official_wording: 'understand how the rusting of iron may be prevented by:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 564.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.20
+  official_code: '2.20'
+  official_wording: 'understand the terms:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 638.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.21
+  official_code: '2.21'
+  official_wording: 'practical: investigate reactions between dilute hydrochloric and sulfuric acids and
+    metals (e.g. magnesium, zinc and iron)'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 81
+  global_order: 81
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 101.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.22C
+  official_code: 2.22C
+  official_wording: know that most metals are extracted from ores found in the Earth’s crust and that
+    unreactive metals are often found as the uncombined element
+  section: 4CH1-S4
+  subsection: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 190.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.23C
+  official_code: 2.23C
+  official_wording: explain how the method of extraction of a metal is related to its position in the
+    reactivity series, illustrated by carbon extraction for iron and electrolysis for aluminium
+  section: 4CH1-S4
+  subsection: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 220.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.24C
+  official_code: 2.24C
+  official_wording: be able to comment on a metal extraction process, given appropriate information detailed
+    knowledge of the processes used in the extraction of a specific metal is not required
+  section: 4CH1-S4
+  subsection: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 263.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.25C
+  official_code: 2.25C
+  official_wording: explain the uses of aluminium, copper, iron and steel in terms of their properties
+    the types of steel will be limited to low-carbon (mild), high-carbon and stainless
+  section: 4CH1-S4
+  subsection: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 325.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.26C
+  official_code: 2.26C
+  official_wording: know that an alloy is a mixture of a metal and one or more elements, usually other
+    metals or carbon
+  section: 4CH1-S4
+  subsection: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 386.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.27C
+  official_code: 2.27C
+  official_wording: explain why alloys are harder than pure metals
+  section: 4CH1-S4
+  subsection: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 416.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.28
+  official_code: '2.28'
+  official_wording: describe the use of litmus, phenolphthalein and methyl orange to distinguish between
+    acidic and alkaline solutions
+  section: 4CH1-S4
+  subsection: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 493.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.29
+  official_code: '2.29'
+  official_wording: understand how to use the pH scale, from 0–14, can be used to classify solutions as
+    strongly acidic (0–3), weakly acidic (4–6), neutral (7), weakly alkaline (8–10) and strongly alkaline
+    (11–14)
+  section: 4CH1-S4
+  subsection: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 524.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.30
+  official_code: '2.30'
+  official_wording: describe the use of universal indicator to measure the approximate pH value of an
+    aqueous solution
+  section: 4CH1-S4
+  subsection: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 567.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.31
+  official_code: '2.31'
+  official_wording: know that acids in aqueous solution are a source of hydrogen ions and alkalis in a
+    aqueous solution are a source of hydroxide ions
+  section: 4CH1-S4
+  subsection: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 597.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.32
+  official_code: '2.32'
+  official_wording: know that alkalis can neutralise acids
+  section: 4CH1-S4
+  subsection: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 628.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.33C
+  official_code: 2.33C
+  official_wording: describe how to carry out an acid-alkali titration
+  section: 4CH1-S4
+  subsection: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 647.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.34
+  official_code: '2.34'
+  official_wording: 'know the general rules for predicting the solubility of ionic compounds in water:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 133.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.35
+  official_code: '2.35'
+  official_wording: understand acids and bases in terms of proton transfer
+  section: 4CH1-S4
+  subsection: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 284.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.36
+  official_code: '2.36'
+  official_wording: understand that an acid is a proton donor and a base is a proton acceptor
+  section: 4CH1-S4
+  subsection: null
+  ordering: 96
+  global_order: 96
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 303.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.37
+  official_code: '2.37'
+  official_wording: describe the reactions of hydrochloric acid, sulfuric acid and nitric acid with metals,
+    bases and metal carbonates (excluding the reactions between nitric acid and metals) to form salts
+  section: 4CH1-S4
+  subsection: null
+  ordering: 97
+  global_order: 97
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 322.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.38
+  official_code: '2.38'
+  official_wording: know that metal oxides, metal hydroxides and ammonia can act as bases, and that alkalis
+    are bases that are soluble in water
+  section: 4CH1-S4
+  subsection: null
+  ordering: 98
+  global_order: 98
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 365.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.39
+  official_code: '2.39'
+  official_wording: describe an experiment to prepare a pure, dry sample of a soluble salt, starting from
+    an insoluble reactant
+  section: 4CH1-S4
+  subsection: null
+  ordering: 99
+  global_order: 99
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 395.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.40C
+  official_code: 2.40C
+  official_wording: describe an experiment to prepare a pure, dry sample of a soluble salt, starting from
+    an acid and alkali
+  section: 4CH1-S4
+  subsection: null
+  ordering: 100
+  global_order: 100
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 426.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.41C
+  official_code: 2.41C
+  official_wording: describe an experiment to prepare a pure, dry sample of an insoluble salt, starting
+    from two soluble reactants
+  section: 4CH1-S4
+  subsection: null
+  ordering: 101
+  global_order: 101
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 457.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.42
+  official_code: '2.42'
+  official_wording: 'practical: prepare a sample of pure, dry hydrated copper(II) sulfate crystals starting
+    from copper(II) oxide'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 102
+  global_order: 102
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 488.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.43C
+  official_code: 2.43C
+  official_wording: 'practical: prepare a sample of pure, dry lead(II) sulfate'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 103
+  global_order: 103
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 519.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.44
+  official_code: '2.44'
+  official_wording: 'describe tests for these gases:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 104
+  global_order: 104
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 120.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.45
+  official_code: '2.45'
+  official_wording: describe how to carry out a flame test
+  section: 4CH1-S4
+  subsection: null
+  ordering: 105
+  global_order: 105
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 230.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.46
+  official_code: '2.46'
+  official_wording: 'know the colours formed in flame tests for these cations:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 106
+  global_order: 106
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 248.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.47
+  official_code: '2.47'
+  official_wording: 'describe tests for these cations:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 107
+  global_order: 107
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 358.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.48
+  official_code: '2.48'
+  official_wording: 'describe tests for these anions:'
+  section: 4CH1-S4
+  subsection: null
+  ordering: 108
+  global_order: 108
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 413.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.49
+  official_code: '2.49'
+  official_wording: describe a test for the presence of water using anhydrous copper(II) sulfate
+  section: 4CH1-S4
+  subsection: null
+  ordering: 109
+  global_order: 109
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 486.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:2.50
+  official_code: '2.50'
+  official_wording: describe a physical test to show whether a sample of water is pure
+  section: 4CH1-S4
+  subsection: null
+  ordering: 110
+  global_order: 110
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 504.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.1
+  official_code: '3.1'
+  official_wording: know that chemical reactions in which heat energy is given out are described as exothermic,
+    and those in which heat energy is taken in are described as endothermic
+  section: 4CH1-S5
+  subsection: null
+  ordering: 111
+  global_order: 111
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 237.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.2
+  official_code: '3.2'
+  official_wording: describe simple calorimetry experiments for reactions such as combustion, displacement,
+    dissolving and neutralisation
+  section: 4CH1-S5
+  subsection: null
+  ordering: 112
+  global_order: 112
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 268.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.3
+  official_code: '3.3'
+  official_wording: calculate the heat energy change from a measured temperature change using the expression
+    Q = m c Δ T
+  section: 4CH1-S5
+  subsection: null
+  ordering: 113
+  global_order: 113
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 299.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.4
+  official_code: '3.4'
+  official_wording: calculate the molar enthalpy change ( Δ H ) from the heat energy change, Q
+  section: 4CH1-S5
+  subsection: null
+  ordering: 114
+  global_order: 114
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 331.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.5C
+  official_code: 3.5C
+  official_wording: draw and explain energy level diagrams to represent exothermic and endothermic reactions
+  section: 4CH1-S5
+  subsection: null
+  ordering: 115
+  global_order: 115
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: draw
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 350.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.6C
+  official_code: 3.6C
+  official_wording: know that bond-breaking is an endothermic process and that bond-making is an exothermic
+    process
+  section: 4CH1-S5
+  subsection: null
+  ordering: 116
+  global_order: 116
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 381.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.7C
+  official_code: 3.7C
+  official_wording: use bond energies to calculate the enthalpy change during a chemical reaction
+  section: 4CH1-S5
+  subsection: null
+  ordering: 117
+  global_order: 117
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 412.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.8
+  official_code: '3.8'
+  official_wording: 'practical: investigate temperature changes accompanying some of the following types
+    of change:'
+  section: 4CH1-S5
+  subsection: null
+  ordering: 118
+  global_order: 118
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 443.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.9
+  official_code: '3.9'
+  official_wording: describe experiments to investigate the effects of changes in surface area of a solid,
+    concentration of a solution, temperature and the use of a catalyst on the rate of a reaction
+  section: 4CH1-S5
+  subsection: null
+  ordering: 119
+  global_order: 119
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 127.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.10
+  official_code: '3.10'
+  official_wording: describe the effects of changes in surface area of a solid, concentration of a solution,
+    pressure of a gas, temperature and the use of a catalyst on the rate of a reaction
+  section: 4CH1-S5
+  subsection: null
+  ordering: 120
+  global_order: 120
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 170.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.11
+  official_code: '3.11'
+  official_wording: explain the effects of changes in surface area of a solid, concentration of a solution,
+    pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory
+  section: 4CH1-S5
+  subsection: null
+  ordering: 121
+  global_order: 121
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 201.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.12
+  official_code: '3.12'
+  official_wording: know that a catalyst is a substance that increases the rate of a reaction, but is
+    chemically unchanged at the end of the reaction
+  section: 4CH1-S5
+  subsection: null
+  ordering: 122
+  global_order: 122
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 244.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.13
+  official_code: '3.13'
+  official_wording: know that a catalyst works by providing an alternative pathway with lower activation
+    energy
+  section: 4CH1-S5
+  subsection: null
+  ordering: 123
+  global_order: 123
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 274.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.14C
+  official_code: 3.14C
+  official_wording: draw and explain reaction profile diagrams showing Δ H and activation energy
+  section: 4CH1-S5
+  subsection: null
+  ordering: 124
+  global_order: 124
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: draw
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 305.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.15
+  official_code: '3.15'
+  official_wording: 'practical: investigate the effect of changing the surface area of marble chips and
+    of changing the concentration of hydrochloric acid on the rate of reaction between marble chips and
+    dilute hydrochloric acid'
+  section: 4CH1-S5
+  subsection: null
+  ordering: 125
+  global_order: 125
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 336.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.16
+  official_code: '3.16'
+  official_wording: 'practical: investigate the effect of different solids on the catalytic decomposition
+    of hydrogen peroxide solution'
+  section: 4CH1-S5
+  subsection: null
+  ordering: 126
+  global_order: 126
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 379.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.17
+  official_code: '3.17'
+  official_wording: know that some reactions are reversible and this is indicated by the symbol ⇌ in equations
+  section: 4CH1-S5
+  subsection: null
+  ordering: 127
+  global_order: 127
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 468.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.18
+  official_code: '3.18'
+  official_wording: describe reversible reactions such as the dehydration of hydrated copper(II) sulfate
+    and the effect of heat on ammonium chloride
+  section: 4CH1-S5
+  subsection: null
+  ordering: 128
+  global_order: 128
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 498.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.19C
+  official_code: 3.19C
+  official_wording: know that a reversible reaction can reach dynamic equilibrium in a sealed container
+  section: 4CH1-S5
+  subsection: null
+  ordering: 129
+  global_order: 129
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 529.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.20C
+  official_code: 3.20C
+  official_wording: 'know that the characteristics of a reaction at dynamic equilibrium are:'
+  section: 4CH1-S5
+  subsection: null
+  ordering: 130
+  global_order: 130
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 560.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.21C
+  official_code: 3.21C
+  official_wording: understand why a catalyst does not affect the position of equilibrium in a reversible
+    reaction
+  section: 4CH1-S5
+  subsection: null
+  ordering: 131
+  global_order: 131
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 615.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:3.22C
+  official_code: 3.22C
+  official_wording: 'know the effect of changing either temperature or pressure on the position of equilibrium
+    in a reversible reaction:'
+  section: 4CH1-S5
+  subsection: null
+  ordering: 132
+  global_order: 132
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 646.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.1
+  official_code: '4.1'
+  official_wording: know that a hydrocarbon is a compound of hydrogen and carbon only
+  section: 4CH1-S6
+  subsection: null
+  ordering: 133
+  global_order: 133
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 329.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.2
+  official_code: '4.2'
+  official_wording: understand how to represent organic molecules using empirical formulae, molecular
+    formulae, general formulae, structural formulae and displayed formulae
+  section: 4CH1-S6
+  subsection: null
+  ordering: 134
+  global_order: 134
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 347.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.3
+  official_code: '4.3'
+  official_wording: know what is meant by the terms homologous series, functional group and isomerism
+  section: 4CH1-S6
+  subsection: null
+  ordering: 135
+  global_order: 135
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 378.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.4
+  official_code: '4.4'
+  official_wording: understand how to name compounds relevant to this specification using the rules of
+    International Union of Pure and Applied Chemistry (IUPAC) nomenclature students will be expected to
+    name compounds containing up to six carbon atoms
+  section: 4CH1-S6
+  subsection: null
+  ordering: 136
+  global_order: 136
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 397.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.5
+  official_code: '4.5'
+  official_wording: understand how to write the possible structural and displayed formulae of an organic
+    molecule given its molecular formula
+  section: 4CH1-S6
+  subsection: null
+  ordering: 137
+  global_order: 137
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 446.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.6
+  official_code: '4.6'
+  official_wording: understand how to classify reactions of organic compounds as substitution, addition
+    and combustion knowledge of reaction mechanisms is not required
+  section: 4CH1-S6
+  subsection: null
+  ordering: 138
+  global_order: 138
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 476.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.7
+  official_code: '4.7'
+  official_wording: know that crude oil is a mixture of hydrocarbons
+  section: 4CH1-S6
+  subsection: null
+  ordering: 139
+  global_order: 139
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 583.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.8
+  official_code: '4.8'
+  official_wording: describe how the industrial process of fractional distillation separates crude oil
+    into fractions
+  section: 4CH1-S6
+  subsection: null
+  ordering: 140
+  global_order: 140
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 602.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.9
+  official_code: '4.9'
+  official_wording: 'know the names and uses of the main fractions obtained from crude oil: refinery gases,
+    gasoline, kerosene, diesel, fuel oil and bitumen'
+  section: 4CH1-S6
+  subsection: null
+  ordering: 141
+  global_order: 141
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 633.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.10
+  official_code: '4.10'
+  official_wording: know the trend in colour, boiling point and viscosity of the main fractions
+  section: 4CH1-S6
+  subsection: null
+  ordering: 142
+  global_order: 142
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 663.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.11
+  official_code: '4.11'
+  official_wording: know that a fuel is a substance that, when burned, releases heat energy
+  section: 4CH1-S6
+  subsection: null
+  ordering: 143
+  global_order: 143
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 682.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.12
+  official_code: '4.12'
+  official_wording: know the possible products of complete and incomplete combustion of hydrocarbons with
+    oxygen in the air
+  section: 4CH1-S6
+  subsection: null
+  ordering: 144
+  global_order: 144
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 701.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.13
+  official_code: '4.13'
+  official_wording: understand why carbon monoxide is poisonous, in terms of its effect on the capacity
+    of blood to transport oxygen references to haemoglobin are not required
+  section: 4CH1-S6
+  subsection: null
+  ordering: 145
+  global_order: 145
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 102.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.14
+  official_code: '4.14'
+  official_wording: know that, in car engines, the temperature reached is high enough to allow nitrogen
+    and oxygen from air to react, forming oxides of nitrogen
+  section: 4CH1-S6
+  subsection: null
+  ordering: 146
+  global_order: 146
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 151.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.15
+  official_code: '4.15'
+  official_wording: explain how the combustion of some impurities in hydrocarbon fuels results in the
+    formation of sulfur dioxide
+  section: 4CH1-S6
+  subsection: null
+  ordering: 147
+  global_order: 147
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 182.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.16
+  official_code: '4.16'
+  official_wording: understand how sulfur dioxide and oxides of nitrogen contribute to acid rain
+  section: 4CH1-S6
+  subsection: null
+  ordering: 148
+  global_order: 148
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 213.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.17
+  official_code: '4.17'
+  official_wording: describe how long-chain alkanes are converted to alkenes and shorter-chain alkanes
+    by catalytic cracking (using silica or alumina as the catalyst and a temperature in the range of 600–700
+    ºC)
+  section: 4CH1-S6
+  subsection: null
+  ordering: 149
+  global_order: 149
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 231.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.18
+  official_code: '4.18'
+  official_wording: explain why cracking is necessary, in terms of the balance between supply and demand
+    for different fractions
+  section: 4CH1-S6
+  subsection: null
+  ordering: 150
+  global_order: 150
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 276.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.19
+  official_code: '4.19'
+  official_wording: know the general formula for alkanes
+  section: 4CH1-S6
+  subsection: null
+  ordering: 151
+  global_order: 151
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 370.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.20
+  official_code: '4.20'
+  official_wording: explain why alkanes are classified as saturated hydrocarbons
+  section: 4CH1-S6
+  subsection: null
+  ordering: 152
+  global_order: 152
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 389.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.21
+  official_code: '4.21'
+  official_wording: understand how to draw the structural and displayed formulae for alkanes with up to
+    five carbon atoms in the molecule, and to name the unbranched-chain isomers
+  section: 4CH1-S6
+  subsection: null
+  ordering: 153
+  global_order: 153
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 407.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.22
+  official_code: '4.22'
+  official_wording: describe the reactions of alkanes with halogens in the presence of ultraviolet radiation,
+    limited to mono-substitution knowledge of reaction mechanisms is not required
+  section: 4CH1-S6
+  subsection: null
+  ordering: 154
+  global_order: 154
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 438.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.23
+  official_code: '4.23'
+  official_wording: know that alkenes contain the functional group >C=C<
+  section: 4CH1-S6
+  subsection: null
+  ordering: 155
+  global_order: 155
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 550.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.24
+  official_code: '4.24'
+  official_wording: know the general formula for alkenes
+  section: 4CH1-S6
+  subsection: null
+  ordering: 156
+  global_order: 156
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 569.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.25
+  official_code: '4.25'
+  official_wording: explain why alkenes are classified as unsaturated hydrocarbons
+  section: 4CH1-S6
+  subsection: null
+  ordering: 157
+  global_order: 157
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 588.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.26
+  official_code: '4.26'
+  official_wording: understand how to draw the structural and displayed formulae for alkenes with up to
+    four carbon atoms in the molecule, and name the unbranched-chain isomers knowledge of cis/trans or
+    E/Z notation is not required
+  section: 4CH1-S6
+  subsection: null
+  ordering: 158
+  global_order: 158
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 606.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.27
+  official_code: '4.27'
+  official_wording: describe the reactions of alkenes with bromine to produce dibromoalkanes
+  section: 4CH1-S6
+  subsection: null
+  ordering: 159
+  global_order: 159
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 655.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.28
+  official_code: '4.28'
+  official_wording: describe how bromine water can be used to distinguish between an alkane and an alkene
+  section: 4CH1-S6
+  subsection: null
+  ordering: 160
+  global_order: 160
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 674.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.29C
+  official_code: 4.29C
+  official_wording: know that alcohols contain the functional group −OH
+  section: 4CH1-S6
+  subsection: null
+  ordering: 161
+  global_order: 161
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 127.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.30C
+  official_code: 4.30C
+  official_wording: understand how to draw structural and displayed formulae for methanol, ethanol, propanol
+    ( propan-1-ol only ) and butanol ( butan-1-ol only ), and name each compound the names propanol and
+    butanol are acceptable
+  section: 4CH1-S6
+  subsection: null
+  ordering: 162
+  global_order: 162
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 146.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags:
+  - possible-superscript-loss
+- code: IGCSE_CHEMISTRY:4.31C
+  official_code: 4.31C
+  official_wording: 'know that ethanol can be oxidised by:'
+  section: 4CH1-S6
+  subsection: null
+  ordering: 163
+  global_order: 163
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 207.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.32C
+  official_code: 4.32C
+  official_wording: 'know that ethanol can be manufactured by:'
+  section: 4CH1-S6
+  subsection: null
+  ordering: 164
+  global_order: 164
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 304.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.33C
+  official_code: 4.33C
+  official_wording: understand the reasons for fermentation, in the absence of air, and at an optimum
+    temperature
+  section: 4CH1-S6
+  subsection: null
+  ordering: 165
+  global_order: 165
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 383.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.34C
+  official_code: 4.34C
+  official_wording: know that carboxylic acids contain the functional group
+  section: 4CH1-S6
+  subsection: null
+  ordering: 166
+  global_order: 166
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 472.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.35C
+  official_code: 4.35C
+  official_wording: understand how to draw structural and displayed formulae for unbranched-chain carboxylic
+    acids with up to four carbon atoms in the molecule, and name each compound
+  section: 4CH1-S6
+  subsection: null
+  ordering: 167
+  global_order: 167
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 529.0
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.36C
+  official_code: 4.36C
+  official_wording: describe the reactions of aqueous solutions of carboxylic acids with metals and metal
+    carbonates
+  section: 4CH1-S6
+  subsection: null
+  ordering: 168
+  global_order: 168
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 571.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.37C
+  official_code: 4.37C
+  official_wording: know that vinegar is an aqueous solution containing ethanoic acid
+  section: 4CH1-S6
+  subsection: null
+  ordering: 169
+  global_order: 169
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 602.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.38C
+  official_code: 4.38C
+  official_wording: know that esters contain the functional group
+  section: 4CH1-S6
+  subsection: null
+  ordering: 170
+  global_order: 170
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 127.4
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.39C
+  official_code: 4.39C
+  official_wording: know that ethyl ethanoate is the ester produced when ethanol and ethanoic acid react
+    in the presence of an acid catalyst
+  section: 4CH1-S6
+  subsection: null
+  ordering: 171
+  global_order: 171
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 183.1
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.40C
+  official_code: 4.40C
+  official_wording: understand how to write the structural and displayed formulae of ethyl ethanoate
+  section: 4CH1-S6
+  subsection: null
+  ordering: 172
+  global_order: 172
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 213.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.41C
+  official_code: 4.41C
+  official_wording: understand how to write the structural and displayed formulae of an ester, given the
+    name or formula of the alcohol and carboxylic acid from which it is formed and vice versa
+  section: 4CH1-S6
+  subsection: null
+  ordering: 173
+  global_order: 173
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 244.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.42C
+  official_code: 4.42C
+  official_wording: know that esters are volatile compounds with distinctive smells and are used as food
+    flavourings and in perfumes
+  section: 4CH1-S6
+  subsection: null
+  ordering: 174
+  global_order: 174
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 287.6
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.43C
+  official_code: 4.43C
+  official_wording: 'practical: prepare a sample of an ester such as ethyl ethanoate'
+  section: 4CH1-S6
+  subsection: null
+  ordering: 175
+  global_order: 175
+  practical: true
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 318.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.44
+  official_code: '4.44'
+  official_wording: know that an addition polymer is formed by joining up many small molecules called
+    monomers
+  section: 4CH1-S6
+  subsection: null
+  ordering: 176
+  global_order: 176
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 400.3
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.45
+  official_code: '4.45'
+  official_wording: understand how to draw the repeat unit of an addition polymer, including poly(ethene),
+    poly(propene), poly(chloroethene) and (poly)tetrafluoroethene
+  section: 4CH1-S6
+  subsection: null
+  ordering: 177
+  global_order: 177
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 431.2
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.46
+  official_code: '4.46'
+  official_wording: understand how to deduce the structure of a monomer from the repeat unit of an addition
+    polymer and vice versa
+  section: 4CH1-S6
+  subsection: null
+  ordering: 178
+  global_order: 178
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 461.9
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.47
+  official_code: '4.47'
+  official_wording: 'explain problems in the disposal of addition polymers, including:'
+  section: 4CH1-S6
+  subsection: null
+  ordering: 179
+  global_order: 179
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 1C
+    - 2C
+    double_award_shared: true
+    rule: non-suffixed statements are shared with Science Double Award 4SD0 and assessed in both Paper
+      1C and Paper 2C
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 492.8
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.48C
+  official_code: 4.48C
+  official_wording: know that condensation polymerisation, in which a dicarboxylic acid reacts with a
+    diol, produces a polyester and water
+  section: 4CH1-S6
+  subsection: null
+  ordering: 180
+  global_order: 180
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 547.7
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.49C
+  official_code: 4.49C
+  official_wording: 'understand how to write the structural and displayed formula of a polyester, showing
+    the repeat unit, given the formulae of the monomers from which it is formed including the reaction
+    of ethanedioic acid and ethanediol:'
+  section: 4CH1-S6
+  subsection: null
+  ordering: 181
+  global_order: 181
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 578.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []
+- code: IGCSE_CHEMISTRY:4.50C
+  official_code: 4.50C
+  official_wording: know that some polyesters, known as biopolyesters, are biodegradable
+  section: 4CH1-S6
+  subsection: null
+  ordering: 182
+  global_order: 182
+  practical: false
+  scope: null
+  applicability:
+    papers:
+    - 2C
+    double_award_shared: false
+    rule: C-suffixed statements are chemistry-only content (not in Science Double Award 4SD0); assessed
+      in Paper 2C only
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-2017-specification.pdf
+    spec_issue: '3'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 678.5
+    pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+  damage_flags: []

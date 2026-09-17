@@ -1,0 +1,4866 @@
+curriculum_code: XBI11/YBI11
+qualification: ial-biology (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: International-A-Level-Biology-Spec.pdf
+  role: official-pdf-direct-parse
+  sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 171
+  topics: 49
+  subsections: 4
+  practicals: 0
+specification_points:
+- code: IAL_BIOLOGY:Biology-1.1
+  official_code: '1.1'
+  official_wording: understand the importance of water as a solvent in transport, including its dipole
+    nature
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 125.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.2
+  official_code: '1.2'
+  official_wording: (i) know the difference between monosaccharides, disaccharides and polysaccharides,
+    including glycogen and starch (amylose and amylopectin) (ii) be able to relate the structures of monosaccharides,
+    disaccharides and polysaccharides to their roles in providing and storing energy β -glucose and cellulose
+    are not required in this topic.
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 157.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.3
+  official_code: '1.3'
+  official_wording: CORE PRACTICAL 1 Use a semi-quantitative method with Benedict’s reagent to estimate
+    the concentrations of reducing sugars and with iodine solution to estimate the concentrations of starch,
+    using colour standards.
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 241.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.4
+  official_code: '1.4'
+  official_wording: know how monosaccharides (glucose, fructose and galactose) join together to form disaccharides
+    (maltose, sucrose and lactose) and polysaccharides (glycogen, amylose and amylopectin) through condensation
+    reactions forming glycosidic bonds, and how these can be split through hydrolysis reactions
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 305.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.5
+  official_code: '1.5'
+  official_wording: (i) know how a triglyceride is synthesised by the formation of ester bonds during
+    condensation reactions between glycerol and three fatty acids (ii) know the differences between saturated
+    and unsaturated lipids
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 364.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.6
+  official_code: '1.6'
+  official_wording: understand why many animals have a heart and circulation (mass transport to overcome
+    the limitations of diffusion in meeting the requirements of organisms)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 415.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.7
+  official_code: '1.7'
+  official_wording: understand how the structures of blood vessels (capillaries, arteries and veins) relate
+    to their functions
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 448.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.8
+  official_code: '1.8'
+  official_wording: know the cardiac cycle (atrial systole, ventricular systole and cardiac diastole)
+    and relate the structure and operation of the mammalian heart, including the major blood vessels,
+    to its function Details of myogenic stimulation are not needed at IAS.
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 480.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.9
+  official_code: '1.9'
+  official_wording: (i) understand the role of haemoglobin in the transport of oxygen and carbon dioxide
+    (ii) understand the oxygen dissociation curve of haemoglobin, the Bohr effect and the significance
+    of the oxygen affinity of fetal haemoglobin compared with adult haemoglobin
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 128.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.10
+  official_code: '1.10'
+  official_wording: understand the course of events that leads to atherosclerosis (endothelial dysfunction,
+    inflammatory response, plaque formation, raised blood pressure)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 205.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.11
+  official_code: '1.11'
+  official_wording: understand the blood clotting process (thromboplastin release, conversion of prothrombin
+    to thrombin and fibrinogen to fibrin) and its role in cardiovascular disease (CVD)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 238.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.12
+  official_code: '1.12'
+  official_wording: know how factors such as genetics, diet, age, gender, high blood pressure, smoking
+    and inactivity increase the risk of cardiovascular disease (CVD)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 283.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.13
+  official_code: '1.13'
+  official_wording: understand the link between dietary antioxidants and the risk of cardiovascular disease
+    (CVD)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 316.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.14
+  official_code: '1.14'
+  official_wording: CORE PRACTICAL 2 Investigate the vitamin C content of food and drink.
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 14
+  global_order: 14
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 348.6
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.15
+  official_code: '1.15'
+  official_wording: be able to analyse and interpret quantitative data on illness and mortality rates
+    to determine health risks, including distinguishing between correlation and causation and recognising
+    conflicting evidence
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 387.1
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.16
+  official_code: '1.16'
+  official_wording: be able to evaluate the design of studies used to determine health risk factors, including
+    sample selection and sample size used to collect data that is both valid and reliable
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 432.6
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.17
+  official_code: '1.17'
+  official_wording: understand why people’s perception of risks are often different from the actual risks,
+    including underestimating and overestimating the risks due to diet and other lifestyle factors in
+    the development of heart disease
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 478.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.18
+  official_code: '1.18'
+  official_wording: (i) be able to analyse data on the possible significance for health of blood cholesterol
+    levels and levels of high-density lipoproteins (HDLs) and low-density lipoproteins (LDLs) (ii) know
+    the evidence for a causal relationship between blood cholesterol levels (total cholesterol and LDL
+    cholesterol) and cardiovascular disease (CVD)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 523.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.19
+  official_code: '1.19'
+  official_wording: understand how people use scientific knowledge about the effect of diet, including
+    obesity indicators, such as body mass index and waist-to-hip ratio, exercise and smoking to reduce
+    their risk of coronary heart disease
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 601.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-1.20
+  official_code: '1.20'
+  official_wording: know the benefits and risks of treatments for cardiovascular disease (CVD) (antihypertensives,
+    statins, anticoagulants and platelet inhibitors)
+  section: XBI11/YBI11-S21
+  subsection: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 647.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.1
+  official_code: '2.1'
+  official_wording: (i) know the properties of gas exchange surfaces in living organisms (large surface
+    area to volume ratio, thickness of surface and difference in concentration) (ii) understand how the
+    rate of diffusion is dependent on these properties and can be calculated using Fick’s Law of Diffusion
+    (iii) understand how the structure of the mammalian lung is adapted for rapid gaseous exchange
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 125.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.2
+  official_code: '2.2'
+  official_wording: (i) know the structure and properties of cell membranes (ii) understand how models
+    such as the fluid mosaic model of membrane structure are interpretations of data used to develop scientific
+    explanations of the structure and properties of cell membranes
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 221.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.3
+  official_code: '2.3'
+  official_wording: CORE PRACTICAL 3 Investigate membrane properties including the effect of alcohol and
+    temperature on membrane permeability.
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 286.0
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.4
+  official_code: '2.4'
+  official_wording: understand what is meant by osmosis in terms of the movement of free water molecules
+    through a partially permeable membrane, down a water potential gradient
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 335.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.5
+  official_code: '2.5'
+  official_wording: (i) understand what is meant by passive transport (diffusion, facilitated diffusion),
+    active transport (including the role of ATP as an immediate source of energy), endocytosis and exocytosis
+    (ii) understand the involvement of carrier and channel proteins in membrane transport
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 419.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.6
+  official_code: '2.6'
+  official_wording: (i) know the basic structure of an amino acid Structures of specific amino acids are
+    not required. (ii) understand the formation of polypeptides and proteins (amino acid monomers linked
+    by condensation reactions to form peptide bonds) (iii) understand the significance of a protein’s
+    primary structure in determining its secondary structure, three-dimensional structure and properties
+    (globular and fibrous proteins and the types of bonds involved in its three-dimensional structure)
+    (iv) know the molecular structure of a globular protein and a fibrous protein and understand how their
+    structures relate to their functions (including haemoglobin and collagen)
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 496.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.7
+  official_code: '2.7'
+  official_wording: (i) understand the mechanism of action and the specificity of enzymes in terms of
+    their three-dimensional structure (ii) understand that enzymes are biological catalysts that reduce
+    activation energy (iii) know that there are intracellular enzymes catalysing reactions inside cells
+    and extracellular enzymes catalysing reactions outside cells
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 708.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.8
+  official_code: '2.8'
+  official_wording: CORE PRACTICAL 4 Investigate the effect of temperature, pH, enzyme concentration and
+    substrate concentration on the initial rate of enzyme-catalysed reactions.
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 76.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.9
+  official_code: '2.9'
+  official_wording: (i) know the basic structure of mononucleotides (deoxyribose or ribose linked to a
+    phosphate and a base, including thymine, uracil, adenine, cytosine or guanine) and the structures
+    of DNA and RNA (polynucleotides composed of mononucleotides linked by condensation reactions to form
+    phosphodiester bonds) (ii) know how complementary base pairing and the hydrogen bonding between two
+    complementary strands are involved in the formation of the DNA double helix
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 127.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.10
+  official_code: '2.10'
+  official_wording: (i) understand the process of DNA replication, including the role of DNA polymerase
+    (ii) understand how Meselson and Stahl’s classic experiment provided new data that supported the accepted
+    theory of replication of DNA and refuted competing theories
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 218.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.11
+  official_code: '2.11'
+  official_wording: understand the nature of the genetic code (triplet code, non-overlapping and degenerate)
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 282.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.12
+  official_code: '2.12'
+  official_wording: know that a gene is a sequence of bases on a DNA molecule that codes for a sequence
+    of amino acids in a polypeptide chain
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 315.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.13
+  official_code: '2.13'
+  official_wording: (i) understand the process of protein synthesis (transcription and translation), including
+    the role of RNA polymerase, translation, messenger RNA, transfer RNA, ribosomes and the role of start
+    and stop codons (ii) understand the roles of the DNA template (antisense) strand in transcription,
+    codons on messenger RNA and anticodons on transfer RNA
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 347.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.14
+  official_code: '2.14'
+  official_wording: (i) understand how errors in DNA replication can give rise to mutations (substitution,
+    insertion and deletion of bases) (ii) know that some mutations will give rise to cancer or genetic
+    disorders, but that many mutations will have no observable effect
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 425.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.15
+  official_code: '2.15'
+  official_wording: (i) understand what is meant by the terms gene, allele, genotype, phenotype, recessive,
+    dominant, codominance, homozygote and heterozygote (ii) understand patterns of inheritance, including
+    the interpretation of genetic pedigree diagrams, in the context of monohybrid inheritance (iii) understand
+    sex linkage on the X chromosome, including red-green colour blindness in humans
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 489.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.16
+  official_code: '2.16'
+  official_wording: understand how the expression of a gene mutation in people with cystic fibrosis impairs
+    the functioning of the gaseous exchange, digestive and reproductive systems
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 586.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.17
+  official_code: '2.17'
+  official_wording: (i) understand the uses of genetic screening, including the identification of carriers,
+    pre-implantation genetic diagnosis (PGD) and prenatal testing, including amniocentesis and chorionic
+    villus sampling (ii) understand the implications of prenatal genetic screening
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 618.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-2.18
+  official_code: '2.18'
+  official_wording: be able to identify and discuss the ethical and social issues relating to genetic
+    screening from a range of ethical viewpoints, including religious, moral and social implications
+  section: XBI11/YBI11-S22
+  subsection: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 683.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.1
+  official_code: '3.1'
+  official_wording: know that all living organisms are made of cells, sharing some common features
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 125.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.2
+  official_code: '3.2'
+  official_wording: understand how the cells of multicellular organisms are organised into tissues, tissues
+    into organs, and organs into organ systems
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 144.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.3
+  official_code: '3.3'
+  official_wording: (i) know the ultrastructure of eukaryotic cells, including nucleus, nucleolus, ribosomes,
+    rough and smooth endoplasmic reticulum, mitochondria, centrioles, lysosomes and Golgi apparatus (ii)
+    understand the function of the organelles listed in (i)
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 177.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.4
+  official_code: '3.4'
+  official_wording: understand the role of the rough endoplasmic reticulum (rER) and the Golgi apparatus
+    in protein transport within cells, including their role in the formation of extracellular enzymes
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 241.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.5
+  official_code: '3.5'
+  official_wording: (i) know the ultrastructure of prokaryotic cells, including cell wall, capsule, plasmid,
+    flagellum, pili, ribosomes and circular DNA (ii) knderstand the function of the structures listed
+    in (i)
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 287.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.6
+  official_code: '3.6'
+  official_wording: be able to recognise the organelles in 3.3 from electron microscope (EM) images
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 44
+  global_order: 44
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 338.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.7
+  official_code: '3.7'
+  official_wording: (i) know how magnification and resolution can be achieved using light and electron
+    microscopy (ii) understand the importance of staining specimens in microscopy
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 358.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.8
+  official_code: '3.8'
+  official_wording: CORE PRACTICAL 5
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 409.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.9
+  official_code: '3.9'
+  official_wording: (i) know that a locus is the location of genes on a chromosome (ii) understand the
+    linkage of genes on a chromosome
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 493.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.10
+  official_code: '3.10'
+  official_wording: understand the role of meiosis in ensuring genetic variation through the production
+    of non-identical gametes as a consequence of independent assortment of chromosomes in metaphase I
+    and crossing over of alleles between chromatids in prophase I Names of the stages of prophase are
+    not required.
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 531.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.11
+  official_code: '3.11'
+  official_wording: understand how mammalian gametes are specialised for their functions (including the
+    acrosome in sperm and the zona pellucida in the egg cell)
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 609.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.12
+  official_code: '3.12'
+  official_wording: know the process of fertilisation in mammals, including the acrosome reaction, the
+    cortical reaction and the fusion of nuclei
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 50
+  global_order: 50
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 641.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.13
+  official_code: '3.13'
+  official_wording: know the process of fertilisation in flowering plants, starting with the growth of
+    a pollen tube and ending with the fusion of nuclei
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 674.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.14
+  official_code: '3.14'
+  official_wording: understand the role of mitosis and the cell cycle in producing genetically identical
+    daughter cells for growth and asexual reproduction
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 745.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.15
+  official_code: '3.15'
+  official_wording: CORE PRACTICAL 6 Prepare and stain a root tip squash to observe the stages of mitosis.
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 76.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.16
+  official_code: '3.16'
+  official_wording: be able to calculate mitotic indices
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 114.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.17
+  official_code: '3.17'
+  official_wording: (i) understand what is meant by the terms stem cell , pluripotent and totipotent ,
+    morula and blastocyst (ii) be able to discuss the ways in which society uses scientific knowledge
+    to make decisions about the use of stem cells in medical therapies
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 55
+  global_order: 55
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 134.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.18
+  official_code: '3.18'
+  official_wording: understand how cells become specialised through differential gene expression, producing
+    active mRNA, leading to the synthesis of proteins which, in turn, control cell processes or determine
+    cell structure in animals and plants
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 198.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.19
+  official_code: '3.19'
+  official_wording: understand how one gene can give rise to more than one protein through post-transcriptional
+    changes to messenger RNA (mRNA)
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 244.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.20
+  official_code: '3.20'
+  official_wording: (i) understand how phenotype is the result of an interaction between genotype and
+    the environment (ii) know how epigenetic modification, including DNA methylation and histone modification,
+    can alter the activation of certain genes (iii) understand how epigenetic modifications can be passed
+    on following cell division
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 276.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-3.21
+  official_code: '3.21'
+  official_wording: understand how some phenotypes are affected by multiple alleles for the same gene,
+    or by polygenic inheritance, as well as the environment, and how polygenic inheritance can give rise
+    to phenotypes that show continuous variation
+  section: XBI11/YBI11-S24
+  subsection: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 373.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.1
+  official_code: '4.1'
+  official_wording: (i) know the structure and ultrastructure of plant cells including cell wall, chloroplast,
+    amyloplast, vacuole, tonoplast, plasmodesmata, pits and middle lamella and be able to compare it with
+    animal cells (ii) understand the function of the structures listed in (i)
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 60
+  global_order: 60
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 142.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.2
+  official_code: '4.2'
+  official_wording: be able to recognise the organelles in 4.1 from electron microscope (EM) images
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 206.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.3
+  official_code: '4.3'
+  official_wording: understand the structure and function of the polysaccharides starch and cellulose,
+    including the role of hydrogen bonds between the β -glucose molecules in the formation of cellulose
+    microfibrils
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 62
+  global_order: 62
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 226.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.4
+  official_code: '4.4'
+  official_wording: understand how the arrangement of cellulose microfibrils and secondary thickening
+    in plant cell walls contributes to the physical properties of xylem vessels and sclerenchyma fibres
+    in plant fibres that can be exploited by humans
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 271.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.5
+  official_code: '4.5'
+  official_wording: know the similarities and differences between the structures of, the position in the
+    stem, and the function of sclerenchyma fibres (support), xylem vessels (support and transport of water
+    and mineral ions) and phloem (translocation of organic solutes)
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 317.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.6
+  official_code: '4.6'
+  official_wording: 'CORE PRACTICAL 7 Use a light microscope to:'
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 65
+  global_order: 65
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 362.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.7
+  official_code: '4.7'
+  official_wording: understand how the uses of plant fibres and starch may contribute to sustainability,
+    including plant-based products to replace oil-based plastics
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 66
+  global_order: 66
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 484.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.8
+  official_code: '4.8'
+  official_wording: understand the importance of water and inorganic ions (nitrate, calcium ions and magnesium
+    ions) to plants
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 516.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.9
+  official_code: '4.9'
+  official_wording: CORE PRACTICAL 8 Determine the tensile strength of plant fibres.
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 587.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.10
+  official_code: '4.10'
+  official_wording: understand the conditions required for bacterial growth
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 626.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.11
+  official_code: '4.11'
+  official_wording: know that substances derived from plants can have antimicrobial and other therapeutic
+    properties
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 645.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.12
+  official_code: '4.12'
+  official_wording: CORE PRACTICAL 9 Investigate the antimicrobial properties of plants, including aseptic
+    techniques for the safe handling of bacteria.
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 678.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.13
+  official_code: '4.13'
+  official_wording: understand the development of drug testing from historic to contemporary protocols,
+    including William Withering’s digitalis soup, double blind trials, placebo and three-phased testing
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 729.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.14
+  official_code: '4.14'
+  official_wording: (i) understand that classification is a means of organising the variety of life based
+    on relationships between organisms using differences and similarities in phenotypes and in genotypes,
+    and is built around the species concept (ii) understand the process and importance of critical evaluation
+    of new data by the scientific community leading to new taxonomic groupings, based on molecular evidence,
+    including the three-domain system (Archaea, Bacteria and Eukarya)
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 73
+  global_order: 73
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 76.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.15
+  official_code: '4.15'
+  official_wording: know that, over time, the variety of life has become extensive but is now being threatened
+    by human activity
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 166.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.16
+  official_code: '4.16'
+  official_wording: understand what is meant by the terms biodiversity and endemism
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 199.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.17
+  official_code: '4.17'
+  official_wording: 'know how biodiversity can be measured within a habitat using species richness, and
+    within a species using genetic diversity by calculating the heterozygosity index: number of heterozygotes
+    heterozygosity index = number of individuals in the population'
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 218.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.18
+  official_code: '4.18'
+  official_wording: 'understand how biodiversity can be compared in different habitats using the formula
+    to calculate an index of diversity (D): N ( N-1 ) D= Σn ( n-1 )'
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 290.0
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags:
+  - possible-superscript-loss
+- code: IAL_BIOLOGY:Biology-4.19
+  official_code: '4.19'
+  official_wording: understand the concept of niche and be able to discuss examples of adaptations of
+    organisms to their environment (behavioural, anatomical and physiological)
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 366.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.20
+  official_code: '4.20'
+  official_wording: (i) understand how the Hardy-Weinberg equation can be used to see whether a change
+    in allele frequency is occurring in a population over time (ii) understand that changes in allele
+    frequency can come about as a result of mutation and natural selection (iii) understand that reproductive
+    isolation can lead to accumulation of different genetic information in populations, potentially leading
+    to the formation of new species
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 398.6
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-4.21
+  official_code: '4.21'
+  official_wording: be able to evaluate the methods used by zoos and seed banks in the conservation of
+    endangered species and their genetic diversity, including scientific research, captive breeding programmes,
+    reintroduction programmes and education
+  section: XBI11/YBI11-S25
+  subsection: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 508.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.1
+  official_code: '5.1'
+  official_wording: understand the overall reaction of photosynthesis as requiring energy from light to
+    split apart the strong bonds in water molecules, storing the hydrogen in a fuel (glucose) by combining
+    it with carbon dioxide and releasing oxygen into the atmosphere
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 125.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.2
+  official_code: '5.2'
+  official_wording: understand how photophosphorylation of ADP requires energy and that hydrolysis of
+    ATP provides an immediate supply of energy for biological processes
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 183.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.3
+  official_code: '5.3'
+  official_wording: understand the light-dependent reactions of photosynthesis, including how light energy
+    is trapped by exciting electrons in chlorophyll and the role of these electrons in generating ATP,
+    reducing NADP in cyclic and non-cyclic photophosphorylation and producing oxygen through photolysis
+    of water
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 216.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.4
+  official_code: '5.4'
+  official_wording: (i) understand the light-independent reactions as reduction of carbon dioxide using
+    the products of the light-dependent reactions (carbon fixation in the Calvin cycle, the role of GP,
+    GALP, RuBP and RUBISCO) (ii) know that the products are simple sugars that are used by plants, animals
+    and other organisms in respiration and the synthesis of new biological molecules (polysaccharides,
+    amino acids, proteins, lipids and nucleic acids)
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 274.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.5
+  official_code: '5.5'
+  official_wording: understand the structure of chloroplasts in relation to their role in photosynthesis
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 365.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.6
+  official_code: '5.6'
+  official_wording: understand what is meant by the terms absorption spectrum and action spectrum
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 384.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.7
+  official_code: '5.7'
+  official_wording: understand that chloroplast pigments can be separated using chromatography and the
+    pigments identified using Rf values
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 404.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.8
+  official_code: '5.8'
+  official_wording: CORE PRACTICAL 10 Investigate the effects of light intensity, light wavelength, temperature
+    and availability of carbon dioxide on the rate of photosynthesis using a suitable aquatic plant.
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 436.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.9
+  official_code: '5.9'
+  official_wording: (i) understand the relationship between gross primary productivity (GPP), net primary
+    productivity (NPP) and plant respiration (R) (ii) be able to calculate net primary productivity
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 501.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.10
+  official_code: '5.10'
+  official_wording: know how to calculate the efficiency of biomass and energy transfers between trophic
+    levels
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 552.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.11
+  official_code: '5.11'
+  official_wording: understand what is meant by the terms population , community , habitat and ecosystem
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 585.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.12
+  official_code: '5.12'
+  official_wording: understand that the numbers and distribution of organisms in a habitat are controlled
+    by biotic and abiotic factors
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 617.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.13
+  official_code: '5.13'
+  official_wording: understand how the concept of niche accounts for the distribution and abundance of
+    organisms in a habitat
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 650.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.14
+  official_code: '5.14'
+  official_wording: CORE PRACTICAL 11 Carry out a study of the ecology of a habitat, such as using quadrats
+    and transects to determine the distribution and abundance of organisms, and measuring abiotic factors
+    appropriate to the habitat.
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 76.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.15
+  official_code: '5.15'
+  official_wording: understand the stages of succession from colonisation to the formation of a climax
+    community
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 140.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.16
+  official_code: '5.16'
+  official_wording: understand the different types of evidence for climate change and its causes, including
+    records of carbon dioxide levels, temperature records, pollen in peat bogs and dendrochronology, recognising
+    correlations and causal relationships
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 96
+  global_order: 96
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 173.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.17
+  official_code: '5.17'
+  official_wording: understand the causes of anthropogenic climate change, including the role of greenhouse
+    gases in the greenhouse effect
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 97
+  global_order: 97
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 218.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.18
+  official_code: '5.18'
+  official_wording: understand how knowledge of the carbon cycle can be applied to methods to reduce atmospheric
+    levels of carbon dioxide
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 98
+  global_order: 98
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 251.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.19
+  official_code: '5.19'
+  official_wording: (i) understand that data can be extrapolated to make predictions and that these are
+    used in models of future climate change (ii) understand that models for climate change have limitations
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 99
+  global_order: 99
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 283.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.20
+  official_code: '5.20'
+  official_wording: understand the effects of climate change (changing rainfall patterns and changes in
+    seasonal cycles) on plants and animals (distribution of species, development and lifecycles)
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 100
+  global_order: 100
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 335.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.21
+  official_code: '5.21'
+  official_wording: understand the effect of temperature on the rate of enzyme activity and its impact
+    on plants, animals and microorganisms, to include Q 10
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 101
+  global_order: 101
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 380.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.22
+  official_code: '5.22'
+  official_wording: CORE PRACTICAL 12 Investigate the effects of temperature on the development of organisms
+    (such as seedling growth rate or brine shrimp hatch rates), taking into account the ethical use of
+    organisms.
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 102
+  global_order: 102
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 413.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.23
+  official_code: '5.23'
+  official_wording: understand how evolution (a change in allele frequency) can come about through gene
+    mutation and natural selection
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 103
+  global_order: 103
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 477.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.24
+  official_code: '5.24'
+  official_wording: understand how isolation reduces gene flow between populations, leading to allopatric
+    or sympatric speciation
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 104
+  global_order: 104
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 510.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.25
+  official_code: '5.25'
+  official_wording: understand the way in which scientific conclusions about controversial issues, such
+    as what actions should be taken to reduce climate change, or the degree to which humans are affecting
+    climate change, can sometimes depend on who is reaching the conclusions
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 105
+  global_order: 105
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 542.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.26
+  official_code: '5.26'
+  official_wording: understand how reforestation and the use of sustainable resources, including biofuels,
+    are examples of the effective management of the conflict between human needs and conservation
+  section: XBI11/YBI11-S28
+  subsection: null
+  ordering: 106
+  global_order: 106
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 601.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.1
+  official_code: '6.1'
+  official_wording: understand the principles and techniques involved in culturing microorganisms, using
+    aseptic technique
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 107
+  global_order: 107
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 125.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.2
+  official_code: '6.2'
+  official_wording: understand the different methods of measuring the growth of microorganisms, as illustrated
+    by cell counts, dilution plating, mass and optical methods (turbidity)
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 108
+  global_order: 108
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 157.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.3
+  official_code: '6.3'
+  official_wording: understand the different phases of a bacterial growth curve (lag phase, exponential
+    phase, stationary phase and death phase) and be able to calculate exponential growth rate constants
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 109
+  global_order: 109
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 190.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.4
+  official_code: '6.4'
+  official_wording: CORE PRACTIAL 13 Investigate the rate of growth of microorganisms in a liquid culture,
+    taking into account the safe and ethical use of organisms.
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 110
+  global_order: 110
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 235.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.5
+  official_code: '6.5'
+  official_wording: (i) be able to compare the structure of bacteria and viruses (nucleic acid, capsid
+    structure and envelope) with reference to Ebola virus, tobacco mosaic virus (TMV), human immunodeficiency
+    virus (HIV) and lambda phage ( λ phage) (ii) understand what is meant by the terms lytic and latency
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 111
+  global_order: 111
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 287.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.6
+  official_code: '6.6'
+  official_wording: understand how Mycobacterium tuberculosis and human immunodeficiency virus (HIV) infect
+    human cells, causing symptoms that may result in death
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 112
+  global_order: 112
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 351.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.7
+  official_code: '6.7'
+  official_wording: (i) know the major routes pathogens may take when entering the body (ii) understand
+    the role of barriers in protecting the body from infection, including skin, stomach acid, and gut
+    and skin flora
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 113
+  global_order: 113
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 384.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.8
+  official_code: '6.8'
+  official_wording: understand the non-specific responses of the body to infection, including inflammation,
+    lysozyme action, interferon and phagocytosis
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 114
+  global_order: 114
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 435.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.9
+  official_code: '6.9'
+  official_wording: understand the roles of antigens and antibodies in the body’s immune response including
+    the involvement of plasma cells, macrophages and antigen-presenting cells
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 115
+  global_order: 115
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 468.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.10
+  official_code: '6.10'
+  official_wording: understand the differences between the roles of B cells (B memory and B effector cells),
+    and T cells (T helper, T killer and T memory cells) in the host’s immune response
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 116
+  global_order: 116
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 500.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.11
+  official_code: '6.11'
+  official_wording: understand how individuals may develop immunity (natural, artificial, active and passive)
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 117
+  global_order: 117
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 546.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.12
+  official_code: '6.12'
+  official_wording: understand how the theory of an ‘evolutionary race’ between pathogens and their hosts
+    is supported by evasion mechanisms shown by pathogens
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 118
+  global_order: 118
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 578.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.13
+  official_code: '6.13'
+  official_wording: understand the difference between bacteriostatic and bactericidal antibiotics
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 119
+  global_order: 119
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 611.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.14
+  official_code: '6.14'
+  official_wording: CORE PRACTICAL 14 Investigate the effect of different antibiotics on bacteria.
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 120
+  global_order: 120
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 630.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.15
+  official_code: '6.15'
+  official_wording: know how an understanding of the contributory causes of hospital-acquired infections
+    has led to codes of practice regarding antibiotic prescription and hospital practice that relate to
+    infection prevention and control
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 121
+  global_order: 121
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 37
+    pdf_oy: 669.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.16
+  official_code: '6.16'
+  official_wording: know the role of microorganisms in the decomposition of organic matter and the recycling
+    of carbon
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 122
+  global_order: 122
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 76.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.17
+  official_code: '6.17'
+  official_wording: know how DNA can be amplified using the polymerase chain reaction (PCR)
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 123
+  global_order: 123
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 108.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.18
+  official_code: '6.18'
+  official_wording: know how gel electrophoresis can be used to separate DNA fragments of different length
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 124
+  global_order: 124
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 128.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.19
+  official_code: '6.19'
+  official_wording: understand how DNA profiling is used for identification and determining genetic relationships
+    between organisms (plants and animals)
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 125
+  global_order: 125
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 160.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-6.20
+  official_code: '6.20'
+  official_wording: understand how to determine the time of death of a mammal by examining the extent
+    of decomposition, stage of succession, forensic entomology, body temperature and degree of muscle
+    contraction
+  section: XBI11/YBI11-S29
+  subsection: null
+  ordering: 126
+  global_order: 126
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 38
+    pdf_oy: 193.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.1
+  official_code: '7.1'
+  official_wording: (i) understand the overall reaction of aerobic respiration as splitting of the respiratory
+    substrate to release carbon dioxide as a waste product and reuniting hydrogen with atmospheric oxygen
+    with the release of large amounts of energy (ii) understand that respiration is a stepped process,
+    with each step controlled and catalysed by a specific intracellular enzyme Names of specific enzymes
+    are not required.
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 127
+  global_order: 127
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 142.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.2
+  official_code: '7.2'
+  official_wording: understand the roles of glycolysis in aerobic and anaerobic respiration, including
+    the phosphorylation of hexoses, the production of ATP by substrate level phosphorylation, reduced
+    coenzyme, pyruvate and lactate Details of intermediate stages and compounds are not required.
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 128
+  global_order: 128
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 238.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.3
+  official_code: '7.3'
+  official_wording: understand the role of the link reaction and the Krebs cycle in the complete oxidation
+    of glucose and formation of carbon dioxide (CO 2 ) by decarboxylation, ATP by substrate level phosphorylation,
+    reduced NAD and reduced FAD by dehydrogenation (names of other compounds are not required) and that
+    these steps take place in mitochondria, unlike glycolysis which occurs in the cytoplasm
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 129
+  global_order: 129
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 303.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.4
+  official_code: '7.4'
+  official_wording: understand how ATP is synthesised by oxidative phosphorylation associated with the
+    electron transport chain in mitochondria, including the role of chemiosmosis and ATP synthase
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 130
+  global_order: 130
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 374.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.5
+  official_code: '7.5'
+  official_wording: understand what happens to lactate after a period of anaerobic respiration in animals
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 131
+  global_order: 131
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 420.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.6
+  official_code: '7.6'
+  official_wording: understand what is meant by the term respiratory quotient ( RQ )
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 132
+  global_order: 132
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 439.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.7
+  official_code: '7.7'
+  official_wording: CORE PRACTICAL 15 Use an artificial hydrogen carrier (redox indicator) to investigate
+    respiration in yeast.
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 133
+  global_order: 133
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 459.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.8
+  official_code: '7.8'
+  official_wording: CORE PRACTICAL 16 Use a simple respirometer to determine the rate of respiration and
+    RQ of a suitable material (such as germinating seeds or small invertebrates).
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 134
+  global_order: 134
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 510.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.9
+  official_code: '7.9'
+  official_wording: know the way in which muscles, tendons, the skeleton and ligaments interact to enable
+    movement, including antagonistic muscle pairs, extensors and flexors
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 135
+  global_order: 135
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 562.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.10
+  official_code: '7.10'
+  official_wording: (i) know the structure of a mammalian skeletal muscle fibre (ii) understand the structural
+    and physiological differences between fast and slow twitch muscle fibres
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 136
+  global_order: 136
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 594.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.11
+  official_code: '7.11'
+  official_wording: understand the process of contraction of skeletal muscle in terms of the sliding filament
+    theory, including the role of actin, myosin, troponin, tropomyosin, calcium ions (Ca 2+ ), ATP and
+    ATPase
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 137
+  global_order: 137
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 646.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.12
+  official_code: '7.12'
+  official_wording: (i) know the myogenic nature of cardiac muscle (ii) understand how the normal electrical
+    activity of the heart coordinates the heartbeat, including the roles of the sinoatrial node (SAN),
+    the atrioventricular node (AVN), the bundle of His and the Purkyne fibres (iii) understand how the
+    use of electrocardiograms (ECGs) can aid in the diagnosis of abnormal heart rhythms
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 138
+  global_order: 138
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 41
+    pdf_oy: 691.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.13
+  official_code: '7.13'
+  official_wording: (i) be able to calculate cardiac output (ii) understand how variations in ventilation
+    and cardiac output enable rapid delivery of oxygen to tissues and the removal of carbon dioxide from
+    them, including how the heart rate and ventilation rate are controlled and the roles of the cardiovascular
+    control centre and the ventilation centre in the medulla oblongata
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 139
+  global_order: 139
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 89.0
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.14
+  official_code: '7.14'
+  official_wording: understand the role of adrenaline in the fight or flight response
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 140
+  global_order: 140
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 179.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.15
+  official_code: '7.15'
+  official_wording: CORE PRACTICAL 17 Investigate the effects of exercise on tidal volume, breathing rate,
+    respiratory minute ventilation, and oxygen consumption using data from spirometer traces.
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 141
+  global_order: 141
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 198.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.16
+  official_code: '7.16'
+  official_wording: (i) understand what is meant by the terms negative feedback and positive feedback
+    control (ii) understand the principle of negative feedback in maintaining systems within narrow limits
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 142
+  global_order: 142
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 260.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.17
+  official_code: '7.17'
+  official_wording: understand what is meant by the term homeostasis and its importance in maintaining
+    the body in a state of dynamic equilibrium during exercise, including the role of the hypothalamus
+    in thermoregulation
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 143
+  global_order: 143
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 324.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.18
+  official_code: '7.18'
+  official_wording: know the gross and microscopic structure of the mammalian kidney
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 144
+  global_order: 144
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 370.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.19
+  official_code: '7.19'
+  official_wording: understand how urea is produced in the liver from excess amino acids ( details of
+    the ornithine cycle are not required ) and how it is removed from the bloodstream by ultrafiltration
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 145
+  global_order: 145
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 389.6
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.20
+  official_code: '7.20'
+  official_wording: understand how solutes are selectively reabsorbed in the proximal tubule and how the
+    loop of Henle acts as a countercurrent multiplier to increase the reabsorption of water
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 146
+  global_order: 146
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 435.1
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.21
+  official_code: '7.21'
+  official_wording: understand how the pituitary gland and osmoreceptors in the hypothalamus, combined
+    with the action of antidiuretic hormone (ADH), bring about negative feedback control of mammalian
+    plasma concentration and blood volume
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 147
+  global_order: 147
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 480.7
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-7.22
+  official_code: '7.22'
+  official_wording: understand how genes can be switched on and off by DNA transcription factors, including
+    the role of peptide hormones acting extracellularly and steroid hormones acting intracellularly
+  section: XBI11/YBI11-S31
+  subsection: null
+  ordering: 148
+  global_order: 148
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 42
+    pdf_oy: 526.2
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.1
+  official_code: '8.1'
+  official_wording: know the structure and function of sensory, relay and motor neurones, including Schwann
+    cells and myelination
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 149
+  global_order: 149
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 125.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.2
+  official_code: '8.2'
+  official_wording: understand how the nervous system of organisms can cause effectors to respond to a
+    stimulus
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 150
+  global_order: 150
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 157.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.3
+  official_code: '8.3'
+  official_wording: know the structure and function of a spinal reflex arc, including grey matter and
+    white matter of the spinal cord
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 151
+  global_order: 151
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 190.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.4
+  official_code: '8.4'
+  official_wording: understand how a nerve impulse (action potential) is conducted along an axon, including
+    changes in membrane permeability to sodium and potassium ions
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 152
+  global_order: 152
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 222.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.5
+  official_code: '8.5'
+  official_wording: understand the role of myelination in saltatory conduction
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 153
+  global_order: 153
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 255.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.6
+  official_code: '8.6'
+  official_wording: (i) know the structure and function of synapses in nerve impulse transmission, including
+    the role of neurotransmitters and acetylcholine (ii) understand how the pupil dilates and contracts
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 154
+  global_order: 154
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: (i)
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 274.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.7
+  official_code: '8.7'
+  official_wording: understand how the effects of drugs can be caused by their influence on nerve impulse
+    transmission, illustrated by nicotine, lidocaine and cobra venom alpha toxin, the use of L-DOPA in
+    the treatment of Parkinson’s disease and the action of MDMA (ecstasy)
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 155
+  global_order: 155
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 326.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.8
+  official_code: '8.8'
+  official_wording: understand how the nervous systems of organisms can detect stimuli with reference
+    to rods in the retina of mammals, the roles of rhodopsin, opsin, retinal, sodium ions, cation channels
+    and hyperpolarisation of rod cells in forming action potentials in the optic neurones
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 156
+  global_order: 156
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 384.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.9
+  official_code: '8.9'
+  official_wording: understand what is meant by the term habituation
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 157
+  global_order: 157
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 443.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.10
+  official_code: '8.10'
+  official_wording: know that the mammalian nervous system consists of the central and peripheral nervous
+    systems
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 158
+  global_order: 158
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 501.4
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.11
+  official_code: '8.11'
+  official_wording: understand how phytochrome, auxin (IAA) and gibberellins bring about responses in
+    plants, including their effects on transcription
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 159
+  global_order: 159
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 533.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.12
+  official_code: '8.12'
+  official_wording: CORE PRACTICAL 18 Investigate the production of amylase in germinating cereal grains.
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 160
+  global_order: 160
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: core
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 566.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.13
+  official_code: '8.13'
+  official_wording: understand how coordination in animals is brought about through nervous and hormonal
+    control
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 161
+  global_order: 161
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 604.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.14
+  official_code: '8.14'
+  official_wording: know the location and main functions of the cerebral hemispheres, hypothalamus, pituitary
+    gland, cerebellum and medulla oblongata of the human brain
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 162
+  global_order: 162
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 637.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.15
+  official_code: '8.15'
+  official_wording: understand how magnetic resonance imaging (MRI), functional magnetic resonance imaging
+    (fMRI), positron emission tomography (PET) and computed tomography (CT) are used in medical diagnosis
+    and the investigation of brain structure and function
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 163
+  global_order: 163
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 43
+    pdf_oy: 669.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.16
+  official_code: '8.16'
+  official_wording: understand how imbalances in certain naturally-occurring brain chemicals can contribute
+    to ill health, including dopamine in Parkinson’s disease and serotonin in depression, and to the development
+    of new drugs
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 164
+  global_order: 164
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 76.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.17
+  official_code: '8.17'
+  official_wording: know how drugs can be produced using genetically modified organisms (plants, animals
+    and microorganisms)
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 165
+  global_order: 165
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 121.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.18
+  official_code: '8.18'
+  official_wording: understand how recombinant DNA can be produced, including the roles of restriction
+    endonucleases and DNA ligase
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 166
+  global_order: 166
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 154.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.19
+  official_code: '8.19'
+  official_wording: understand how recombinant DNA can be inserted into other cells
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 167
+  global_order: 167
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 186.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.20
+  official_code: '8.20'
+  official_wording: know how microarrays can be used to identify active genes
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 168
+  global_order: 168
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 206.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.21
+  official_code: '8.21'
+  official_wording: understand what is meant by the term bioinformatics
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 169
+  global_order: 169
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 225.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-8.22
+  official_code: '8.22'
+  official_wording: understand the risks and benefits associated with the use of genetically modified
+    organisms
+  section: XBI11/YBI11-S32
+  subsection: null
+  ordering: 170
+  global_order: 170
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 44
+    pdf_oy: 245.3
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []
+- code: IAL_BIOLOGY:Biology-5.0
+  official_code: '5.0'
+  official_wording: x 10 -3 mol dm -3 . percentages • calculate percentage yields
+  section: XBI11/YBI11-S49
+  subsection: null
+  ordering: 171
+  global_order: 171
+  practical: false
+  scope: Biology
+  applicability:
+    unit_scope: Biology
+    rule: content belongs to unit Biology (modular/IAL structure)
+  leading_verb: x
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: International-A-Level-Biology-Spec.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 70
+    pdf_oy: 446.8
+    pdf_sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+  damage_flags: []

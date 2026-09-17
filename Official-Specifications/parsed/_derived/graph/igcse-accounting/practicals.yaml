@@ -1,0 +1,23 @@
+curriculum_code: 4AC1
+qualification: igcse-accounting (Issue 1)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: ig-accountancy-spec.pdf
+  role: official-pdf-direct-parse
+  sha1: 7be3ee60ee8a0650e3bb5fba9f34d646a12a8a08
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 118
+  topics: 20
+  subsections: 0
+  practicals: 0
+practicals: []

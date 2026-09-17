@@ -1,0 +1,1773 @@
+curriculum_code: XBI11/YBI11
+qualification: ial-biology (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: International-A-Level-Biology-Spec.pdf
+  role: official-pdf-direct-parse
+  sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 171
+  topics: 49
+  subsections: 4
+  practicals: 0
+edges:
+- from: XBI11/YBI11-SUB1
+  relation: PART_OF
+  to: XBI11/YBI11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: XBI11/YBI11-SUB2
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: XBI11/YBI11-SUB3
+  relation: PART_OF
+  to: XBI11/YBI11-S49
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 70
+- from: XBI11/YBI11-SUB4
+  relation: PART_OF
+  to: XBI11/YBI11-S49
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 74
+- from: IAL_BIOLOGY:Biology-1.1
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.2
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.3
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.4
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.5
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.6
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.7
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.8
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IAL_BIOLOGY:Biology-1.9
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.10
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.11
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.12
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.13
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.14
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.15
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.16
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.17
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.18
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.19
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-1.20
+  relation: PART_OF
+  to: XBI11/YBI11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_BIOLOGY:Biology-2.1
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.2
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.3
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.4
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.5
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.6
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.7
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_BIOLOGY:Biology-2.8
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.9
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.10
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.11
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.12
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.13
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.14
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.15
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.16
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.17
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-2.18
+  relation: PART_OF
+  to: XBI11/YBI11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_BIOLOGY:Biology-3.1
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.2
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.3
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.4
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.5
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.6
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.7
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.8
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.9
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.10
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.11
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.12
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.13
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.14
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_BIOLOGY:Biology-3.15
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-3.16
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-3.17
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-3.18
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-3.19
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-3.20
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-3.21
+  relation: PART_OF
+  to: XBI11/YBI11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_BIOLOGY:Biology-4.1
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.2
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.3
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.4
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.5
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.6
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.7
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.8
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.9
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.10
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.11
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.12
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.13
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IAL_BIOLOGY:Biology-4.14
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.15
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.16
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.17
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.18
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.19
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.20
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-4.21
+  relation: PART_OF
+  to: XBI11/YBI11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IAL_BIOLOGY:Biology-5.1
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.2
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.3
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.4
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.5
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.6
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.7
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.8
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.9
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.10
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.11
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.12
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.13
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_BIOLOGY:Biology-5.14
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.15
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.16
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.17
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.18
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.19
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.20
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.21
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.22
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.23
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.24
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.25
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-5.26
+  relation: PART_OF
+  to: XBI11/YBI11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_BIOLOGY:Biology-6.1
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.2
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.3
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.4
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.5
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.6
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.7
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.8
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.9
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.10
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.11
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.12
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.13
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.14
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.15
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_BIOLOGY:Biology-6.16
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_BIOLOGY:Biology-6.17
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_BIOLOGY:Biology-6.18
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_BIOLOGY:Biology-6.19
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_BIOLOGY:Biology-6.20
+  relation: PART_OF
+  to: XBI11/YBI11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_BIOLOGY:Biology-7.1
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.2
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.3
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.4
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.5
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.6
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.7
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.8
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.9
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.10
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.11
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.12
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_BIOLOGY:Biology-7.13
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.14
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.15
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.16
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.17
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.18
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.19
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.20
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.21
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-7.22
+  relation: PART_OF
+  to: XBI11/YBI11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_BIOLOGY:Biology-8.1
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.2
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.3
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.4
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.5
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.6
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.7
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.8
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.9
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.10
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.11
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.12
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.13
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.14
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.15
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 43
+- from: IAL_BIOLOGY:Biology-8.16
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-8.17
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-8.18
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-8.19
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-8.20
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-8.21
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-8.22
+  relation: PART_OF
+  to: XBI11/YBI11-S32
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 44
+- from: IAL_BIOLOGY:Biology-5.0
+  relation: PART_OF
+  to: XBI11/YBI11-S49
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 70

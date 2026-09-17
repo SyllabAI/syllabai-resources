@@ -1,0 +1,99 @@
+curriculum_code: 4BI1
+qualification: igcse-biology (Issue 3)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-biology-2017-specification1.pdf
+  role: official-pdf-direct-parse
+  sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 176
+  topics: 9
+  subsections: 22
+  practicals: 14
+practicals:
+- code: IGCSE_BIOLOGY-PR-01
+  spec_point: IGCSE_BIOLOGY:2.9
+  summary: 'practical: investigate food samples for the presence of glucose, starch, protein and fat'
+  page: 20
+  ordering: 1
+- code: IGCSE_BIOLOGY-PR-02
+  spec_point: IGCSE_BIOLOGY:2.12
+  summary: 'practical: investigate how enzyme activity can be affected by changes in temperature'
+  page: 20
+  ordering: 2
+- code: IGCSE_BIOLOGY-PR-03
+  spec_point: IGCSE_BIOLOGY:2.14B
+  summary: 'practical: investigate how enzyme activity can be affected by changes in pH'
+  page: 20
+  ordering: 3
+- code: IGCSE_BIOLOGY-PR-04
+  spec_point: IGCSE_BIOLOGY:2.17
+  summary: 'practical: investigate diffusion and osmosis using living and non-living systems'
+  page: 20
+  ordering: 4
+- code: IGCSE_BIOLOGY-PR-05
+  spec_point: IGCSE_BIOLOGY:2.23
+  summary: 'practical: investigate photosynthesis, showing the evolution of oxygen from a water plant,
+    the production of starch and the requirements of light, carbon dioxide and chlorophyll'
+  page: 21
+  ordering: 5
+- code: IGCSE_BIOLOGY-PR-06
+  spec_point: IGCSE_BIOLOGY:2.33B
+  summary: 'practical: investigate the energy content in a food sample'
+  page: 21
+  ordering: 6
+- code: IGCSE_BIOLOGY-PR-07
+  spec_point: IGCSE_BIOLOGY:2.39
+  summary: 'practical: investigate the evolution of carbon dioxide and heat from respiring seeds or other
+    suitable living organisms'
+  page: 22
+  ordering: 7
+- code: IGCSE_BIOLOGY-PR-08
+  spec_point: IGCSE_BIOLOGY:2.45B
+  summary: 'practical: investigate the effect of light on net gas exchange from a leaf, using hydrogen-carbonate
+    indicator'
+  page: 22
+  ordering: 8
+- code: IGCSE_BIOLOGY-PR-09
+  spec_point: IGCSE_BIOLOGY:2.50
+  summary: 'practical: investigate breathing in humans, including the release of carbon dioxide and the
+    effect of exercise'
+  page: 22
+  ordering: 9
+- code: IGCSE_BIOLOGY-PR-10
+  spec_point: IGCSE_BIOLOGY:2.58B
+  summary: 'practical: investigate the role of environmental factors in determining the rate of transpiration
+    from a leafy shoot'
+  page: 23
+  ordering: 10
+- code: IGCSE_BIOLOGY-PR-11
+  spec_point: IGCSE_BIOLOGY:3.5
+  summary: 'practical: investigate the conditions needed for seed germination'
+  page: 26
+  ordering: 11
+- code: IGCSE_BIOLOGY-PR-12
+  spec_point: IGCSE_BIOLOGY:4.2
+  summary: 'practical: investigate the population size of an organism in two different areas using quadrats'
+  page: 29
+  ordering: 12
+- code: IGCSE_BIOLOGY-PR-13
+  spec_point: IGCSE_BIOLOGY:4.4B
+  summary: 'practical: investigate the distribution of organisms in their habitats and measure biodiversity
+    using quadrats'
+  page: 29
+  ordering: 13
+- code: IGCSE_BIOLOGY-PR-14
+  spec_point: IGCSE_BIOLOGY:5.6
+  summary: 'practical: investigate the role of anaerobic respiration by yeast in different conditions'
+  page: 31
+  ordering: 14

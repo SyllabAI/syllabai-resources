@@ -1,0 +1,1573 @@
+curriculum_code: 4MA1
+qualification: igcse-maths-a (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-in-mathematics-spec-a.pdf
+  role: official-pdf-direct-parse
+  sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 140
+  topics: 0
+  subsections: 15
+  practicals: 0
+edges:
+- from: 4MA1-SUB1
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4MA1-SUB2
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4MA1-SUB3
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 24
+- from: 4MA1-SUB4
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4MA1-SUB5
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 35
+- from: 4MA1-SUB6
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 35
+- from: 4MA1-SUB7
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 35
+- from: 4MA1-SUB8
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 36
+- from: 4MA1-SUB9
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 36
+- from: 4MA1-SUB10
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 42
+- from: 4MA1-SUB11
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 42
+- from: 4MA1-SUB12
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 42
+- from: 4MA1-SUB13
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 42
+- from: 4MA1-SUB14
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 42
+- from: 4MA1-SUB15
+  relation: PART_OF
+  to: 4MA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 44
+- from: IGCSE_MATHS_A:SX.001
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 7
+- from: IGCSE_MATHS_A:SX.002
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 7
+- from: IGCSE_MATHS_A:SX.003
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 7
+- from: IGCSE_MATHS_A:SX.004
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 7
+- from: IGCSE_MATHS_A:SX.005
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.006
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.007
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.008
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.009
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.010
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.011
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 9
+- from: IGCSE_MATHS_A:SX.012
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_MATHS_A:SX.013
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 10
+- from: IGCSE_MATHS_A:SX.014
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.015
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.016
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.017
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.018
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.019
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.020
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.021
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.022
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.023
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.024
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.025
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.026
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.027
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.028
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 11
+- from: IGCSE_MATHS_A:SX.029
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.030
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.031
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.032
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.033
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.034
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.035
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.036
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.037
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.038
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.039
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.040
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.041
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.042
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.043
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.044
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 12
+- from: IGCSE_MATHS_A:SX.045
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.046
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.047
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.048
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.049
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.050
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.051
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.052
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.053
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.054
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.055
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.056
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.057
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.058
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.059
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.060
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.061
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.062
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 15
+- from: IGCSE_MATHS_A:SX.063
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.064
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.065
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.066
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.067
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.068
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.069
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.070
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.071
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.072
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.073
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.074
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.075
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.076
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.077
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.078
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.079
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.080
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_MATHS_A:SX.081
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.082
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.083
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.084
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.085
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.086
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.087
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 48
+- from: IGCSE_MATHS_A:SX.088
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.089
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.090
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.091
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.092
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.093
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.094
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.095
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.096
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IGCSE_MATHS_A:SX.097
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IGCSE_MATHS_A:SX.098
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IGCSE_MATHS_A:SX.099
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IGCSE_MATHS_A:SX.100
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IGCSE_MATHS_A:SX.101
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IGCSE_MATHS_A:SX.102
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IGCSE_MATHS_A:SX.103
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IGCSE_MATHS_A:SX.104
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IGCSE_MATHS_A:SX.105
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.106
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.107
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.108
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.109
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.110
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.111
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.112
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.113
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IGCSE_MATHS_A:SX.114
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IGCSE_MATHS_A:SX.115
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 60
+- from: IGCSE_MATHS_A:SX.116
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 60
+- from: IGCSE_MATHS_A:SX.117
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.118
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.119
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.120
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.121
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.122
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.123
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.124
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.125
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.126
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.127
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.128
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.129
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.130
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.131
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.132
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.133
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.134
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.135
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.136
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.137
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.138
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.139
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62
+- from: IGCSE_MATHS_A:SX.140
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 62

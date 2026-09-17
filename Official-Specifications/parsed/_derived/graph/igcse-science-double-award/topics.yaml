@@ -1,0 +1,740 @@
+curriculum_code: 4SD0
+qualification: igcse-science-double-award (Issue 4)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-science-double-award-2017-specification1.pdf
+  role: official-pdf-direct-parse
+  sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 412
+  topics: 20
+  subsections: 68
+  practicals: 25
+topics:
+- code: 4SD0-S1
+  title: Biology
+  ordering: 1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 19
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S2
+  title: The nature and variety of living organisms
+  ordering: 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 19
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S3
+  title: Structure and functions in living organisms
+  ordering: 3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 21
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S4
+  title: Reproduction and inheritance
+  ordering: 4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 27
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S5
+  title: Ecology and the environment
+  ordering: 5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 29
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S6
+  title: Use of biological resources
+  ordering: 6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 31
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S7
+  title: Chemistry
+  ordering: 7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 33
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S8
+  title: Principles of chemistry
+  ordering: 8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 33
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S9
+  title: Inorganic chemistry
+  ordering: 9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 37
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S10
+  title: Physical chemistry
+  ordering: 10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 41
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S11
+  title: Organic chemistry
+  ordering: 11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 43
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S12
+  title: Physics
+  ordering: 12
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 47
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S13
+  title: Forces and motion
+  ordering: 13
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 47
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S14
+  title: Electricity
+  ordering: 14
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 49
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S15
+  title: Waves
+  ordering: 15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 51
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S16
+  title: Energy resources and energy transfers
+  ordering: 16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 54
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S17
+  title: Solids, liquids and gases
+  ordering: 17
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 56
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S18
+  title: Magnetism and electromagnetism
+  ordering: 18
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 58
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S19
+  title: Radioactivity and particles
+  ordering: 19
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 60
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+- code: 4SD0-S20
+  title: Astrophysics
+  ordering: 20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 62
+    pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+  damage_flags: []
+subsections:
+- code: 4SD0-SUB1
+  letter: a
+  title: Characteristics of living organisms
+  parent_topic: 4SD0-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4SD0-SUB2
+  letter: b
+  title: Variety of living organisms
+  parent_topic: 4SD0-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4SD0-SUB3
+  letter: a
+  title: Level of organisation
+  parent_topic: 4SD0-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4SD0-SUB4
+  letter: b
+  title: Cell structure
+  parent_topic: 4SD0-S2
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4SD0-SUB5
+  letter: c
+  title: Biological molecules
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4SD0-SUB6
+  letter: d
+  title: Movement of substances into and out of cells
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4SD0-SUB7
+  letter: e
+  title: Nutrition
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 23
+- code: 4SD0-SUB8
+  letter: f
+  title: Respiration
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 24
+- code: 4SD0-SUB9
+  letter: g
+  title: Gas exchange
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 24
+- code: 4SD0-SUB10
+  letter: h
+  title: Transport
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 25
+- code: 4SD0-SUB11
+  letter: i
+  title: Excretion
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 25
+- code: 4SD0-SUB12
+  letter: j
+  title: Co-ordination and response
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 26
+- code: 4SD0-SUB13
+  letter: a
+  title: Reproduction
+  parent_topic: 4SD0-S3
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4SD0-SUB14
+  letter: b
+  title: Inheritance
+  parent_topic: 4SD0-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 28
+- code: 4SD0-SUB15
+  letter: a
+  title: The organism in the environment
+  parent_topic: 4SD0-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4SD0-SUB16
+  letter: b
+  title: Feeding relationships
+  parent_topic: 4SD0-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4SD0-SUB17
+  letter: c
+  title: Cycles within ecosystems
+  parent_topic: 4SD0-S4
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4SD0-SUB18
+  letter: d
+  title: Human influences on the environment
+  parent_topic: 4SD0-S5
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 30
+- code: 4SD0-SUB19
+  letter: a
+  title: Food production
+  parent_topic: 4SD0-S5
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 31
+- code: 4SD0-SUB20
+  letter: b
+  title: Selective breeding
+  parent_topic: 4SD0-S5
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 31
+- code: 4SD0-SUB21
+  letter: c
+  title: Genetic modification (genetic engineering)
+  parent_topic: 4SD0-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 32
+- code: 4SD0-SUB22
+  letter: a
+  title: States of matter
+  parent_topic: 4SD0-S6
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 33
+- code: 4SD0-SUB23
+  letter: b
+  title: Elements, compounds and mixtures
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 34
+- code: 4SD0-SUB24
+  letter: c
+  title: Atomic structure
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 34
+- code: 4SD0-SUB25
+  letter: d
+  title: The Periodic Table
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 35
+- code: 4SD0-SUB26
+  letter: e
+  title: Chemical formulae, equations and calculations
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 35
+- code: 4SD0-SUB27
+  letter: f
+  title: Ionic bonding
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 36
+- code: 4SD0-SUB28
+  letter: g
+  title: Covalent bonding
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 36
+- code: 4SD0-SUB29
+  letter: a
+  title: Group 1 (alkali metals) – lithium, sodium and potassium
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 37
+- code: 4SD0-SUB30
+  letter: b
+  title: Group 7 (halogens) – chlorine, bromine and iodine
+  parent_topic: 4SD0-S8
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 37
+- code: 4SD0-SUB31
+  letter: c
+  title: Gases in the atmosphere
+  parent_topic: 4SD0-S9
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 38
+- code: 4SD0-SUB32
+  letter: d
+  title: Reactivity series
+  parent_topic: 4SD0-S9
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 38
+- code: 4SD0-SUB33
+  letter: e
+  title: Acids, alkalis and titrations
+  parent_topic: 4SD0-S9
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 39
+- code: 4SD0-SUB34
+  letter: g
+  title: Chemical tests
+  parent_topic: 4SD0-S9
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 40
+- code: 4SD0-SUB35
+  letter: a
+  title: Energetics
+  parent_topic: 4SD0-S9
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 41
+- code: 4SD0-SUB36
+  letter: b
+  title: Rates of reaction
+  parent_topic: 4SD0-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 42
+- code: 4SD0-SUB37
+  letter: c
+  title: Reversible reactions and equilibria
+  parent_topic: 4SD0-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 42
+- code: 4SD0-SUB38
+  letter: a
+  title: Introduction
+  parent_topic: 4SD0-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 43
+- code: 4SD0-SUB39
+  letter: b
+  title: Crude oil
+  parent_topic: 4SD0-S10
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 43
+- code: 4SD0-SUB40
+  letter: c
+  title: Alkanes
+  parent_topic: 4SD0-S11
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 44
+- code: 4SD0-SUB41
+  letter: d
+  title: Alkenes
+  parent_topic: 4SD0-S11
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 44
+- code: 4SD0-SUB42
+  letter: e
+  title: Synthetic polymers
+  parent_topic: 4SD0-S11
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 45
+- code: 4SD0-SUB43
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S11
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 47
+- code: 4SD0-SUB44
+  letter: b
+  title: Movement and position
+  parent_topic: 4SD0-S11
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 47
+- code: 4SD0-SUB45
+  letter: c
+  title: Forces, movement, shape and momentum
+  parent_topic: 4SD0-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 48
+- code: 4SD0-SUB46
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 49
+- code: 4SD0-SUB47
+  letter: b
+  title: Mains electricity
+  parent_topic: 4SD0-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 49
+- code: 4SD0-SUB48
+  letter: c
+  title: Energy and voltage in circuits
+  parent_topic: 4SD0-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 49
+- code: 4SD0-SUB49
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 51
+- code: 4SD0-SUB50
+  letter: b
+  title: Properties of waves
+  parent_topic: 4SD0-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 51
+- code: 4SD0-SUB51
+  letter: c
+  title: The electromagnetic spectrum
+  parent_topic: 4SD0-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 52
+- code: 4SD0-SUB52
+  letter: d
+  title: Light and sound
+  parent_topic: 4SD0-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 52
+- code: 4SD0-SUB53
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 54
+- code: 4SD0-SUB54
+  letter: b
+  title: Energy transfers
+  parent_topic: 4SD0-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 54
+- code: 4SD0-SUB55
+  letter: c
+  title: Work and power
+  parent_topic: 4SD0-S16
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 55
+- code: 4SD0-SUB56
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S16
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 56
+- code: 4SD0-SUB57
+  letter: b
+  title: Density and pressure
+  parent_topic: 4SD0-S16
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 56
+- code: 4SD0-SUB58
+  letter: c
+  title: Ideal gas molecules
+  parent_topic: 4SD0-S17
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 57
+- code: 4SD0-SUB59
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S17
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 58
+- code: 4SD0-SUB60
+  letter: b
+  title: Magnetism
+  parent_topic: 4SD0-S17
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 58
+- code: 4SD0-SUB61
+  letter: c
+  title: Electromagnetism
+  parent_topic: 4SD0-S17
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 58
+- code: 4SD0-SUB62
+  letter: d
+  title: Electromagnetic induction
+  parent_topic: 4SD0-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 59
+- code: 4SD0-SUB63
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 60
+- code: 4SD0-SUB64
+  letter: b
+  title: Radioactivity
+  parent_topic: 4SD0-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 60
+- code: 4SD0-SUB65
+  letter: c
+  title: Fission and fusion
+  parent_topic: 4SD0-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 61
+- code: 4SD0-SUB66
+  letter: a
+  title: Units
+  parent_topic: 4SD0-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 62
+- code: 4SD0-SUB67
+  letter: b
+  title: Motion in the universe
+  parent_topic: 4SD0-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 62
+- code: 4SD0-SUB68
+  letter: c
+  title: Stellar evolution
+  parent_topic: 4SD0-S20
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 63

@@ -1,0 +1,23 @@
+curriculum_code: 4BS1
+qualification: igcse-business (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446942765-international-gcse-business-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: 1da38c0f2b395471de64d08e147f3cea6a487b55
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 59
+  topics: 25
+  subsections: 0
+  practicals: 0
+practicals: []

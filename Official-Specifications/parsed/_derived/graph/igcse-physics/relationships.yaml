@@ -1,0 +1,2273 @@
+curriculum_code: 4PH1
+qualification: igcse-physics (Issue 4)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-physics-2017-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: e0a2243dcbc0d7e78fe7f0fb4d4a66b20e92d4b4
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 195
+  topics: 13
+  subsections: 30
+  practicals: 13
+edges:
+- from: 4PH1-SUB1
+  relation: PART_OF
+  to: 4PH1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 17
+- from: 4PH1-SUB2
+  relation: PART_OF
+  to: 4PH1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 17
+- from: 4PH1-SUB3
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 18
+- from: 4PH1-SUB4
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 20
+- from: 4PH1-SUB5
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 20
+- from: 4PH1-SUB6
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 20
+- from: 4PH1-SUB7
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 21
+- from: 4PH1-SUB8
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4PH1-SUB9
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4PH1-SUB10
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4PH1-SUB11
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4PH1-SUB12
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 25
+- from: 4PH1-SUB13
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 25
+- from: 4PH1-SUB14
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 26
+- from: 4PH1-SUB15
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 26
+- from: 4PH1-SUB16
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4PH1-SUB17
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4PH1-SUB18
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 28
+- from: 4PH1-SUB19
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 28
+- from: 4PH1-SUB20
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4PH1-SUB21
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4PH1-SUB22
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4PH1-SUB23
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 30
+- from: 4PH1-SUB24
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 31
+- from: 4PH1-SUB25
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 31
+- from: 4PH1-SUB26
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 32
+- from: 4PH1-SUB27
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 33
+- from: 4PH1-SUB28
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 33
+- from: 4PH1-SUB29
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 34
+- from: 4PH1-SUB30
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 34
+- from: IGCSE_PHYSICS:1.1
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.2P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.3
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.4
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.5
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.6
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.7
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.8
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.9
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.10
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_PHYSICS:1.11
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.12
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.13
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.14
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.15
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.16
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.17
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.18
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.19
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.20
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.21
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.22
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.23
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.24
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.25P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.26P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.27P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.28P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_PHYSICS:1.29P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_PHYSICS:1.30P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_PHYSICS:1.31P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_PHYSICS:1.32P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_PHYSICS:1.33P
+  relation: PART_OF
+  to: 4PH1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_PHYSICS:2.1
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.2
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.3
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.4
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.5
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.6
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.7
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.8
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.9
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IGCSE_PHYSICS:2.10
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.11
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.12
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.13
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.14
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.15
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.16
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.17
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.18
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.19
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.20
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.21
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.22P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.23P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.24P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.25P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.26P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.27P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:2.28P
+  relation: PART_OF
+  to: 4PH1-S5
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_PHYSICS:3.1
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.2
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.3
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.4
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.5
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.6
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.7
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.8
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.9
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_PHYSICS:3.10
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.11
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.12
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.13
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.14
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.15
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.16
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.17
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.18
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.19
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.20
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.21
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_PHYSICS:3.22
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.23
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.24P
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.25P
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.26P
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.27P
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.28P
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:3.29P
+  relation: PART_OF
+  to: 4PH1-S6
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IGCSE_PHYSICS:4.1
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.2
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.3
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.4
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.5
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.6
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.7
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.8
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.9
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.10
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IGCSE_PHYSICS:4.11
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.12
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.13
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.14
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.15
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.16
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.17
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.18P
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:4.19P
+  relation: PART_OF
+  to: 4PH1-S7
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IGCSE_PHYSICS:5.1
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.2P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.3
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.4
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.5
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.6
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.7
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_PHYSICS:5.8P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.9P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.10P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.11P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.12P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.13P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.14P
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.15
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.16
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.17
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.18
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.19
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.20
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.21
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:5.22
+  relation: PART_OF
+  to: 4PH1-S8
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IGCSE_PHYSICS:6.1
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.2
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.3
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.4
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.5
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.6
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.7
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.8
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.9P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.10P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.11P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.12
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.13
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.14
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_PHYSICS:6.15
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IGCSE_PHYSICS:6.16
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IGCSE_PHYSICS:6.17P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IGCSE_PHYSICS:6.18P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IGCSE_PHYSICS:6.19P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IGCSE_PHYSICS:6.20P
+  relation: PART_OF
+  to: 4PH1-S9
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 30
+- from: IGCSE_PHYSICS:7.1
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.2
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.3
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.4
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.5
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.6
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.7
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.8
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.9
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.10
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.11
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.12
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.13
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.14
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.15
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 31
+- from: IGCSE_PHYSICS:7.16
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.17
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.18
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.19
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.20
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.21
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.22
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.23
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.24
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.25
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:7.26
+  relation: PART_OF
+  to: 4PH1-S10
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IGCSE_PHYSICS:8.1
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_PHYSICS:8.2
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_PHYSICS:8.3
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_PHYSICS:8.4
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_PHYSICS:8.5
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_PHYSICS:8.6
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_PHYSICS:8.7
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.8
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.9
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.10
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.11P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.12P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.13P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.14P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.15P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.16P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.17P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IGCSE_PHYSICS:8.18P
+  relation: PART_OF
+  to: 4PH1-S11
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34

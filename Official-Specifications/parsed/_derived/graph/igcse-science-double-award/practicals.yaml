@@ -1,0 +1,162 @@
+curriculum_code: 4SD0
+qualification: igcse-science-double-award (Issue 4)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-science-double-award-2017-specification1.pdf
+  role: official-pdf-direct-parse
+  sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 412
+  topics: 20
+  subsections: 68
+  practicals: 25
+practicals:
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-01
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-2.9
+  summary: 'practical: investigate food samples for the presence of glucose, starch, protein and fat'
+  page: 22
+  ordering: 1
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-02
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-2.12
+  summary: 'practical: investigate how enzyme activity can be affected by changes in temperature'
+  page: 22
+  ordering: 2
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-03
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-2.17
+  summary: 'practical: investigate diffusion and osmosis using living and non-living systems'
+  page: 22
+  ordering: 3
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-04
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-2.23
+  summary: 'practical: investigate photosynthesis, showing the evolution of oxygen from a water plant,
+    the production of starch and the requirements of light, carbon dioxide and chlorophyll'
+  page: 23
+  ordering: 4
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-05
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-2.39
+  summary: 'practical: investigate the evolution of carbon dioxide and heat from respiring seeds or other
+    suitable living organisms'
+  page: 24
+  ordering: 5
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-06
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-2.50
+  summary: 'practical: investigate breathing in humans, including the release of carbon dioxide and the
+    effect of exercise'
+  page: 24
+  ordering: 6
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-07
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-3.5
+  summary: 'practical: investigate the conditions needed for seed germination'
+  page: 27
+  ordering: 7
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-08
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-4.2
+  summary: 'practical: investigate the population size of an organism in two different areas using quadrats'
+  page: 29
+  ordering: 8
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-09
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Biology-5.6
+  summary: 'practical: investigate the role of anaerobic respiration by yeast in different conditions'
+  page: 31
+  ordering: 9
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-10
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-1.13
+  summary: 'practical: investigate paper chromatography using inks/food colourings'
+  page: 34
+  ordering: 10
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-11
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-1.36
+  summary: 'practical: know how to determine the formula of a metal oxide by combustion (e.g. magnesium
+    oxide) or by reduction (e.g. copper(II) oxide)'
+  page: 35
+  ordering: 11
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-12
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-2.14
+  summary: 'practical: determine the approximate percentage by volume of oxygen in air using a metal or
+    a non-metal'
+  page: 38
+  ordering: 12
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-13
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-2.21
+  summary: 'practical: investigate reactions between dilute hydrochloric and sulfuric acids, and metals
+    (e.g. magnesium, zinc and iron)'
+  page: 39
+  ordering: 13
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-14
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-2.42
+  summary: 'practical: prepare a sample of pure, dry hydrated copper(II) sulfate crystals starting from
+    copper(II) oxide'
+  page: 39
+  ordering: 14
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-15
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-3.8
+  summary: 'practical: investigate temperature changes accompanying some of the following types of change:'
+  page: 41
+  ordering: 15
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-16
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-3.15
+  summary: 'practical: investigate the effect of changing the surface area of marble chips and of changing
+    the concentration of hydrochloric acid on the rate of reaction between marble chips and dilute hydrochloric
+    acid'
+  page: 42
+  ordering: 16
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-17
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-3.16
+  summary: 'practical: investigate the effect of different solids on the catalytic decomposition of hydrogen
+    peroxide solution'
+  page: 42
+  ordering: 17
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-18
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-1.5
+  summary: 'practical: investigate the motion of everyday objects such as toy cars or tennis balls'
+  page: 47
+  ordering: 18
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-19
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-1.22
+  summary: 'practical: investigate how extension varies with applied force for helical springs, metal
+    wires and rubber bands'
+  page: 48
+  ordering: 19
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-20
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.17
+  summary: 'practical: investigate the refraction of light, using rectangular blocks, semi-circular blocks
+    and triangular prisms'
+  page: 52
+  ordering: 20
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-21
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.19
+  summary: 'practical: investigate the refractive index of glass, using a glass block'
+  page: 52
+  ordering: 21
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-22
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.9
+  summary: 'practical: investigate thermal energy transfer by conduction, convection and radiation'
+  page: 54
+  ordering: 22
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-23
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.4
+  summary: 'practical: investigate density using direct measurements of mass and volume'
+  page: 56
+  ordering: 23
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-24
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-6.6
+  summary: 'practical: investigate the magnetic field pattern for a permanent bar magnet and between two
+    bar magnets'
+  page: 58
+  ordering: 24
+- code: IGCSE_SCIENCE_DOUBLE_AWARD-PR-25
+  spec_point: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-7.6
+  summary: 'practical: investigate the penetration powers of different types of radiation using either
+    radioactive sources or simulations'
+  page: 60
+  ordering: 25

@@ -1,0 +1,93 @@
+curriculum_code: 4XPH1
+qualification: igcse-physics-modular (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-physics-modular-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 195
+  topics: 16
+  subsections: 34
+  practicals: 13
+practicals:
+- code: IGCSE_PHYSICS_MODULAR-PR-01
+  spec_point: IGCSE_PHYSICS_MODULAR:1.5
+  summary: 'practical: investigate the motion of everyday objects such as toy cars or tennis balls'
+  page: 21
+  ordering: 1
+- code: IGCSE_PHYSICS_MODULAR-PR-02
+  spec_point: IGCSE_PHYSICS_MODULAR:1.22
+  summary: 'practical: investigate how extension varies with applied force for helical springs, metal
+    wires and rubber bands'
+  page: 22
+  ordering: 2
+- code: IGCSE_PHYSICS_MODULAR-PR-03
+  spec_point: IGCSE_PHYSICS_MODULAR:2.23P
+  summary: 'practical: investigate how insulating materials can be charged by friction'
+  page: 25
+  ordering: 3
+- code: IGCSE_PHYSICS_MODULAR-PR-04
+  spec_point: IGCSE_PHYSICS_MODULAR:3.9
+  summary: 'practical: investigate thermal energy transfer by conduction, convection and radiation'
+  page: 26
+  ordering: 4
+- code: IGCSE_PHYSICS_MODULAR-PR-05
+  spec_point: IGCSE_PHYSICS_MODULAR:4.4
+  summary: 'practical: investigate density using direct measurements of mass and volume'
+  page: 28
+  ordering: 5
+- code: IGCSE_PHYSICS_MODULAR-PR-06
+  spec_point: IGCSE_PHYSICS_MODULAR:4.11P
+  summary: 'practical: obtain a temperature–time graph to show the constant temperature during a change
+    of state'
+  page: 29
+  ordering: 6
+- code: IGCSE_PHYSICS_MODULAR-PR-07
+  spec_point: IGCSE_PHYSICS_MODULAR:4.14P
+  summary: 'practical: investigate the specific heat capacity of materials including water and some solids'
+  page: 29
+  ordering: 7
+- code: IGCSE_PHYSICS_MODULAR-PR-08
+  spec_point: IGCSE_PHYSICS_MODULAR:5.17
+  summary: 'practical: investigate the refraction of light, using rectangular blocks, semi-circular blocks
+    and triangular prisms'
+  page: 31
+  ordering: 8
+- code: IGCSE_PHYSICS_MODULAR-PR-09
+  spec_point: IGCSE_PHYSICS_MODULAR:5.19
+  summary: 'practical: investigate the refractive index of glass, using a glass block'
+  page: 31
+  ordering: 9
+- code: IGCSE_PHYSICS_MODULAR-PR-10
+  spec_point: IGCSE_PHYSICS_MODULAR:5.25P
+  summary: 'practical: investigate the speed of sound in air'
+  page: 32
+  ordering: 10
+- code: IGCSE_PHYSICS_MODULAR-PR-11
+  spec_point: IGCSE_PHYSICS_MODULAR:5.27P
+  summary: 'practical: investigate the frequency of a sound wave using an oscilloscope'
+  page: 32
+  ordering: 11
+- code: IGCSE_PHYSICS_MODULAR-PR-12
+  spec_point: IGCSE_PHYSICS_MODULAR:7.6
+  summary: 'practical: investigate the magnetic field pattern for a permanent bar magnet and between two
+    bar magnets'
+  page: 34
+  ordering: 12
+- code: IGCSE_PHYSICS_MODULAR-PR-13
+  spec_point: IGCSE_PHYSICS_MODULAR:8.6
+  summary: 'practical: investigate the penetration powers of different types of radiation using either
+    radioactive sources or simulations'
+  page: 36
+  ordering: 13

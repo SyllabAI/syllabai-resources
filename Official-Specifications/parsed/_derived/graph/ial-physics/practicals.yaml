@@ -1,0 +1,23 @@
+curriculum_code: XPH11/YPH11
+qualification: ial-physics (Issue 3)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446957783_IAL_Physics_Iss3.pdf
+  role: official-pdf-direct-parse
+  sha1: a2b42d6fc5082b8529270cbfa40d2adc11cfe581
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 171
+  topics: 29
+  subsections: 0
+  practicals: 0
+practicals: []

@@ -1,0 +1,3233 @@
+curriculum_code: XCH11/YCH11
+qualification: ial-chemistry (Issue 1)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: International-A-Level-Chemistry-Spec.pdf
+  role: official-pdf-direct-parse
+  sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 319
+  topics: 61
+  subsections: 2
+  practicals: 3
+edges:
+- from: XCH11/YCH11-SUB1
+  relation: PART_OF
+  to: XCH11/YCH11-S61
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 95
+- from: XCH11/YCH11-SUB2
+  relation: PART_OF
+  to: XCH11/YCH11-S61
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 97
+- from: IAL_CHEMISTRY:Chemistry-1.1
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.2
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.3
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.4
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.5
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.6
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.7
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.8
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.9
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.10
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.11
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-1.12
+  relation: PART_OF
+  to: XCH11/YCH11-S21
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
+- from: IAL_CHEMISTRY:Chemistry-2.1
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.2
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.3
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.4
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.5
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.6
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.7
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.8
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.9
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.10
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.11
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.12
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.13
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.14
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.15
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.16
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IAL_CHEMISTRY:Chemistry-2.17
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_CHEMISTRY:Chemistry-2.18
+  relation: PART_OF
+  to: XCH11/YCH11-S22
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IAL_CHEMISTRY:Chemistry-3.1
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.2
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.3
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.4
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.5
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.6
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.7
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.8
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.9
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.10
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.11
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.12
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.13
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 24
+- from: IAL_CHEMISTRY:Chemistry-3.14
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.15
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.16
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.17
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.18
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.19
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.20
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.21
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-3.22
+  relation: PART_OF
+  to: XCH11/YCH11-S23
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
+- from: IAL_CHEMISTRY:Chemistry-4.1
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.2
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.3
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.4
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.5
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.6
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.7
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.8
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
+- from: IAL_CHEMISTRY:Chemistry-4.9
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.10
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.11
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.12
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.13
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.14
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.15
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.16
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.17
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-4.18
+  relation: PART_OF
+  to: XCH11/YCH11-S24
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IAL_CHEMISTRY:Chemistry-5.1
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.2
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.3
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.4
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.5
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.6
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.7
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-5.8
+  relation: PART_OF
+  to: XCH11/YCH11-S25
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 28
+- from: IAL_CHEMISTRY:Chemistry-6.1
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.2
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.3
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.4
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.5
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.6
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.7
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.8
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.9
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.10
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-6.11
+  relation: PART_OF
+  to: XCH11/YCH11-S27
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
+- from: IAL_CHEMISTRY:Chemistry-7.1
+  relation: PART_OF
+  to: XCH11/YCH11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IAL_CHEMISTRY:Chemistry-7.2
+  relation: PART_OF
+  to: XCH11/YCH11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IAL_CHEMISTRY:Chemistry-7.3
+  relation: PART_OF
+  to: XCH11/YCH11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IAL_CHEMISTRY:Chemistry-7.4
+  relation: PART_OF
+  to: XCH11/YCH11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IAL_CHEMISTRY:Chemistry-7.5
+  relation: PART_OF
+  to: XCH11/YCH11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IAL_CHEMISTRY:Chemistry-7.6
+  relation: PART_OF
+  to: XCH11/YCH11-S28
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
+- from: IAL_CHEMISTRY:Chemistry-8.1
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.2
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.3
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.4
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.5
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.6
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.7
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.8
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.9
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.10
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.11
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.12
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.13
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.14
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.15
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.16
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
+- from: IAL_CHEMISTRY:Chemistry-8.17
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.18
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.19
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.20
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.21
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.22
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.23
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
+- from: IAL_CHEMISTRY:Chemistry-8.24
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_CHEMISTRY:Chemistry-8.25
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_CHEMISTRY:Chemistry-8.26
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_CHEMISTRY:Chemistry-8.27
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_CHEMISTRY:Chemistry-8.28
+  relation: PART_OF
+  to: XCH11/YCH11-S29
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 37
+- from: IAL_CHEMISTRY:Chemistry-9.1
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.2
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.3
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.4
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.5
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.6
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.7
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.8
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.9
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.10
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-9.11
+  relation: PART_OF
+  to: XCH11/YCH11-S30
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 38
+- from: IAL_CHEMISTRY:Chemistry-10.1
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.2
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.3
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.4
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.5
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.6
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.7
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.8
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.9
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 40
+- from: IAL_CHEMISTRY:Chemistry-10.10
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.11
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.12
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.13
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.14
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.15
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.16
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.17
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 41
+- from: IAL_CHEMISTRY:Chemistry-10.18
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_CHEMISTRY:Chemistry-10.19
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_CHEMISTRY:Chemistry-10.20
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_CHEMISTRY:Chemistry-10.21
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_CHEMISTRY:Chemistry-10.22
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_CHEMISTRY:Chemistry-10.23
+  relation: PART_OF
+  to: XCH11/YCH11-S31
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 42
+- from: IAL_CHEMISTRY:Chemistry-11.1
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IAL_CHEMISTRY:Chemistry-11.2
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IAL_CHEMISTRY:Chemistry-11.3
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IAL_CHEMISTRY:Chemistry-11.4
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IAL_CHEMISTRY:Chemistry-11.5
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 49
+- from: IAL_CHEMISTRY:Chemistry-11.6
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.7
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.8
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.9
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.10
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.11
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.12
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-11.13
+  relation: PART_OF
+  to: XCH11/YCH11-S34
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 50
+- from: IAL_CHEMISTRY:Chemistry-12.1
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.2
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.3
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.4
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.5
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.6
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.7
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.8
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.9
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.10
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.11
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 51
+- from: IAL_CHEMISTRY:Chemistry-12.12
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.13
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.14
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.15
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.16
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.17
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.18
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-12.19
+  relation: PART_OF
+  to: XCH11/YCH11-S35
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 52
+- from: IAL_CHEMISTRY:Chemistry-13.1
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.2
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.3
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.4
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.5
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.6
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.7
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.8
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-13.9
+  relation: PART_OF
+  to: XCH11/YCH11-S36
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 53
+- from: IAL_CHEMISTRY:Chemistry-14.1
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.2
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.3
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.4
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.5
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.6
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.7
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.8
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.9
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.10
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.11
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.12
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.13
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.14
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.15
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.16
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.17
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.18
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.19
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.20
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 54
+- from: IAL_CHEMISTRY:Chemistry-14.21
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IAL_CHEMISTRY:Chemistry-14.22
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IAL_CHEMISTRY:Chemistry-14.23
+  relation: PART_OF
+  to: XCH11/YCH11-S37
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 55
+- from: IAL_CHEMISTRY:Chemistry-15.1
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 56
+- from: IAL_CHEMISTRY:Chemistry-15.2
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 56
+- from: IAL_CHEMISTRY:Chemistry-15.3
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 56
+- from: IAL_CHEMISTRY:Chemistry-15.4
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 56
+- from: IAL_CHEMISTRY:Chemistry-15.5
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 56
+- from: IAL_CHEMISTRY:Chemistry-15.6
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 57
+- from: IAL_CHEMISTRY:Chemistry-15.7
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 57
+- from: IAL_CHEMISTRY:Chemistry-15.8
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 57
+- from: IAL_CHEMISTRY:Chemistry-15.9
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.10
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.11
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.12
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.13
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.14
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.15
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.16
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 58
+- from: IAL_CHEMISTRY:Chemistry-15.17
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-15.18
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-15.19
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-15.20
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-15.21
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-15.22
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-15.23
+  relation: PART_OF
+  to: XCH11/YCH11-S38
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 59
+- from: IAL_CHEMISTRY:Chemistry-16.1
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.2
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.3
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.4
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.5
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.6
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.7
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.8
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.9
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.10
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.11
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.12
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.13
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.14
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.15
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.16
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 63
+- from: IAL_CHEMISTRY:Chemistry-16.17
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 64
+- from: IAL_CHEMISTRY:Chemistry-16.18
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 64
+- from: IAL_CHEMISTRY:Chemistry-16.19
+  relation: PART_OF
+  to: XCH11/YCH11-S40
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 64
+- from: IAL_CHEMISTRY:Chemistry-17.1
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.2
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.3
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.4
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.5
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.6
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.7
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.8
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.9
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.10
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.11
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.12
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.13
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.14
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.15
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.16
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.17
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.18
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.19
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 65
+- from: IAL_CHEMISTRY:Chemistry-17.20
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.21
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.22
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.23
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.24
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.25
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.26
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.27
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.28
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.29
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.30
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.31
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.32
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-17.33
+  relation: PART_OF
+  to: XCH11/YCH11-S41
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 66
+- from: IAL_CHEMISTRY:Chemistry-18.1
+  relation: PART_OF
+  to: XCH11/YCH11-S42
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 68
+- from: IAL_CHEMISTRY:Chemistry-18.2
+  relation: PART_OF
+  to: XCH11/YCH11-S42
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 68
+- from: IAL_CHEMISTRY:Chemistry-18.3
+  relation: PART_OF
+  to: XCH11/YCH11-S42
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 68
+- from: IAL_CHEMISTRY:Chemistry-18.4
+  relation: PART_OF
+  to: XCH11/YCH11-S42
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 68
+- from: IAL_CHEMISTRY:Chemistry-18.5
+  relation: PART_OF
+  to: XCH11/YCH11-S42
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 68
+- from: IAL_CHEMISTRY:Chemistry-18.6
+  relation: PART_OF
+  to: XCH11/YCH11-S42
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 68
+- from: IAL_CHEMISTRY:Chemistry-19.1
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.2
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.3
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.4
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.5
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.6
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.7
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.8
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.9
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.10
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.11
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-19.12
+  relation: PART_OF
+  to: XCH11/YCH11-S43
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 69
+- from: IAL_CHEMISTRY:Chemistry-20.1
+  relation: PART_OF
+  to: XCH11/YCH11-S44
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 71
+- from: IAL_CHEMISTRY:Chemistry-20.2
+  relation: PART_OF
+  to: XCH11/YCH11-S44
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 71
+- from: IAL_CHEMISTRY:Chemistry-20.3
+  relation: PART_OF
+  to: XCH11/YCH11-S44
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 71
+- from: IAL_CHEMISTRY:Chemistry-20.4
+  relation: PART_OF
+  to: XCH11/YCH11-S44
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 71
+- from: IAL_CHEMISTRY:Chemistry-20.5
+  relation: PART_OF
+  to: XCH11/YCH11-S44
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 71

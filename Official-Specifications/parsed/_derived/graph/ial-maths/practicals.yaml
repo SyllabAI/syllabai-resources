@@ -1,0 +1,23 @@
+curriculum_code: XMA01/XFM01/XPM01/YMA01/YFM01/YPM01
+qualification: ial-maths (Issue 3)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-a-level-maths-spec.pdf
+  role: official-pdf-direct-parse
+  sha1: ffd23d78e4fce0188362bb916bfa01a041ecacb3
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 359
+  topics: 93
+  subsections: 0
+  practicals: 0
+practicals: []

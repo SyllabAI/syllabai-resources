@@ -1,0 +1,23 @@
+curriculum_code: XBI11/YBI11
+qualification: ial-biology (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: International-A-Level-Biology-Spec.pdf
+  role: official-pdf-direct-parse
+  sha1: 79fd97782c097741754b897c1f5d2dc44680caaf
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 171
+  topics: 49
+  subsections: 4
+  practicals: 0
+practicals: []

@@ -103,3 +103,42 @@ python3 scripts/validate_parsed.py        # SME crossref -> _sme_crossref.json
 python3 scripts/chemistry_rediff.py       # vs graph/specification_points.yaml
 python3 scripts/finalize_reports.py       # per-qual parse_report.json
 ```
+
+---
+
+# Canonical bundle (v2.0, `canonical-builder-2.0`)
+
+`scripts/build_canonical.py` splits each v1.0 parse into the canonical 7-file
+bundle; `scripts/emit_graph.py` derives loader-contract Layer-A YAMLs.
+
+## Layout (per `<qual>/`)
+
+| file | contents |
+|---|---|
+| `spec_points.json` | canonical points: id, official_code, verbatim text, topic/subsection refs, sub_items, practical flag, **applicability** (papers + double-award sharing, rule-derived), leading_verb, provenance `{pdf, sha1, page, oy}` |
+| `topics.json` | topic rows + subsection rows (cover-code IDs, page provenance) |
+| `practicals.json` | practical-flagged statements as `PR-xx` records |
+| `equations.json` | appendix equations via span-geometry composite assembly (fractions `(n)/(d)`, sup `^`, sub `_`, twin fractions, subject `=` rows); sections per appendix; empty where the spec has none |
+| `assessment_objectives.json` | AO statements (dedup, junk-guarded) + per-unit weighting tables (incl. IAL IAS/IA2, AO2a/AO2b splits) |
+| `command_words.json` | command-word taxonomy tables (header rows excluded) |
+| `parse_report.json` | extended with `canonical_bundle` counts + flags |
+
+`parsed/_derived/graph/<qual>/` — `specification_points.yaml`, `topics.yaml`,
+`relationships.yaml`, `practicals.yaml` in the core loader field contract
+(`RULE_DERIVED`, per-point PDF provenance). For 4CH1 the emitter reproduces the
+ratified store's section codes (`4CH1-S1`), and
+`_derived/graph/igcse-chemistry/DIFF_VS_RATIFIED.json` diffs the candidate
+against `graph/specification_points.yaml`.
+
+## Oracle results (v2.0 re-validation)
+
+- **Chemistry**: 182/182 code-set parity; command words 25/25 exact parity with
+  the ratified store; AO1–3 + per-paper weightings extracted (en-dash loss in
+  source text layer flagged, never silently fixed).
+- **Physics**: all 18 numbered relationships of the `Physics formulae for
+  relationships` appendix reconstruct exactly, incl. stacked fractions
+  (`density = (mass)/(volume)`), `kinetic energy = (1)/(2) × mass × speed^2`,
+  and the twin-fraction transformer row; modular + SDA variants pass.
+- **Flags policy**: dense multi-column formulae sheets (IAL physics, further
+  maths, maths A) and AO-descriptors-absent (IAL sciences) are flagged
+  informationally; nothing is silently guessed.

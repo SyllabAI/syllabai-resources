@@ -1,0 +1,4682 @@
+curriculum_code: 4XCH1
+qualification: igcse-chemistry-modular (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-chemistry-modular-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 182
+  topics: 9
+  subsections: 31
+  practicals: 12
+specification_points:
+- code: IGCSE_CHEMISTRY_MODULAR:3.4
+  official_code: '3.4'
+  official_wording: million learners studying our academic and vocational qualifications worldwide, we
+    offer
+  section: 4XCH1-S1
+  subsection: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: million
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 11
+    pdf_oy: 144.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.1
+  official_code: '1.1'
+  official_wording: understand the three states of matter in terms of the arrangement, movement and energy
+    of the particles
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 276.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.2
+  official_code: '1.2'
+  official_wording: 'understand the interconversions between the three states of matter in terms of:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 310.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.3
+  official_code: '1.3'
+  official_wording: understand how the results of experiments involving the dilution of coloured solutions
+    and diffusion of gases can be explained
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 388.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.4
+  official_code: '1.4'
+  official_wording: 'know what is meant by the terms:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 422.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.5C
+  official_code: 1.5C
+  official_wording: know what is meant by the term solubility in the units g per 100 g of solvent
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 521.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.6C
+  official_code: 1.6C
+  official_wording: understand how to plot and interpret solubility curves
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 541.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.7C
+  official_code: 1.7C
+  official_wording: 'practical: investigate the solubility of a solid in water at a specific temperature'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 8
+  global_order: 8
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 561.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.8
+  official_code: '1.8'
+  official_wording: understand how to classify a substance as an element, compound or mixture
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.9
+  official_code: '1.9'
+  official_wording: understand that a pure substance has a fixed melting and boiling point, but that a
+    mixture may melt or boil over a range of temperatures
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 131.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.10
+  official_code: '1.10'
+  official_wording: 'describe these experimental techniques for the separation of mixtures:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 165.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.11
+  official_code: '1.11'
+  official_wording: understand how a chromatogram provides information about the composition of a mixture
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 283.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.12
+  official_code: '1.12'
+  official_wording: understand how to use the calculation of R f values to identify the components of
+    a mixture
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 303.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.13
+  official_code: '1.13'
+  official_wording: 'practical: investigate paper chromatography using inks/food colourings'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 14
+  global_order: 14
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 323.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.14
+  official_code: '1.14'
+  official_wording: know what is meant by the terms ‘atom’ and ‘molecule’
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 403.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.15
+  official_code: '1.15'
+  official_wording: know the structure of an atom in terms of the positions, relative masses and relative
+    charges of sub-atomic particles
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 424.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.16
+  official_code: '1.16'
+  official_wording: know what is meant by the terms atomic number, mass number, isotopes and relative
+    atomic mass ( A r )
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 457.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.17
+  official_code: '1.17'
+  official_wording: be able to calculate the relative atomic mass of an element ( A r ) from isotopic
+    abundances
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 491.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.18
+  official_code: '1.18'
+  official_wording: 'understand how elements are arranged in the Periodic Table:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 572.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.19
+  official_code: '1.19'
+  official_wording: understand how to deduce the electronic configurations of the first 20 elements from
+    their positions in the Periodic Table
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 632.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.20
+  official_code: '1.20'
+  official_wording: understand how to use electrical conductivity and the acid-base character of oxides
+    to classify elements as metals or non-metals
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 666.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.21
+  official_code: '1.21'
+  official_wording: identify an element as a metal or a non-metal according to its position in the Periodic
+    Table
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: identify
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 699.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.22
+  official_code: '1.22'
+  official_wording: understand how the electronic configuration of a main group element is related to
+    its position in the Periodic Table
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 719.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.23
+  official_code: '1.23'
+  official_wording: understand why elements in the same group of the Periodic Table have similar chemical
+    properties
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.24
+  official_code: '1.24'
+  official_wording: understand why the noble gases (Group 0) do not readily react
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 144.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.25
+  official_code: '1.25'
+  official_wording: 'write word equations and balanced chemical equations (including state symbols):'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: write
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 225.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.26
+  official_code: '1.26'
+  official_wording: calculate relative formula masses (including relative molecular masses) ( M r ) from
+    relative atomic masses ( A r )
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 284.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.27
+  official_code: '1.27'
+  official_wording: know that the mole (mol) is the unit for the amount of a substance
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 320.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.28
+  official_code: '1.28'
+  official_wording: understand how to carry out calculations involving amount of substance, relative atomic
+    mass ( A r ) and relative formula mass ( M r )
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 340.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.29
+  official_code: '1.29'
+  official_wording: calculate reacting masses using experimental data and chemical equations
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 375.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.30
+  official_code: '1.30'
+  official_wording: calculate percentage yield
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 395.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.31
+  official_code: '1.31'
+  official_wording: understand how the formulae of simple compounds can be obtained experimentally, including
+    metal oxides, water and salts containing water of crystallisation
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 415.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.32
+  official_code: '1.32'
+  official_wording: know what is meant by the terms empirical formula and molecular formula
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 449.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.33
+  official_code: '1.33'
+  official_wording: calculate empirical and molecular formulae from experimental data
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 469.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.34C
+  official_code: 1.34C
+  official_wording: understand how to carry out calculations involving amount of substance, volume and
+    concentration (in mol/dm 3 ) of solution
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 489.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.35C
+  official_code: 1.35C
+  official_wording: understand how to carry out calculations involving gas volumes and the molar volume
+    of a gas (24 dm 3 and 24 000 cm 3 at room temperature and pressure (rtp))
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 523.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:1.36
+  official_code: '1.36'
+  official_wording: 'practical: know how to determine the formula of a metal oxide by combustion (e.g.
+    magnesium oxide) or by reduction (e.g. copper(II) oxide)'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 37
+  global_order: 37
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 557.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.1
+  official_code: '2.1'
+  official_wording: 'understand how metals can be arranged in a reactivity series based on their reactions
+    with:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 256.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.2
+  official_code: '2.2'
+  official_wording: 'understand how metals can be arranged in a reactivity series based on their displacement
+    reactions between:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 316.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.3
+  official_code: '2.3'
+  official_wording: 'know the order of reactivity of these metals: potassium, sodium, lithium, calcium,
+    magnesium, aluminium, zinc, iron, copper, silver, gold'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 388.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.4
+  official_code: '2.4'
+  official_wording: know the conditions under which iron rusts
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 422.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.5
+  official_code: '2.5'
+  official_wording: 'understand how the rusting of iron may be prevented by:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 442.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.6
+  official_code: '2.6'
+  official_wording: 'understand the terms:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 521.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.7
+  official_code: '2.7'
+  official_wording: 'practical: investigate reactions between dilute hydrochloric and sulfuric acids and
+    metals (e.g. magnesium, zinc and iron)'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 44
+  global_order: 44
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 659.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.8C
+  official_code: 2.8C
+  official_wording: know that most metals are extracted from ores found in the Earth’s crust and that
+    unreactive metals are often found as the uncombined element
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.9C
+  official_code: 2.9C
+  official_wording: explain how the method of extraction of a metal is related to its position in the
+    reactivity series, illustrated by carbon extraction for iron and electrolysis for aluminium
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 144.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.10C
+  official_code: 2.10C
+  official_wording: be able to comment on a metal extraction process, given appropriate information detailed
+    knowledge of the processes used in the extraction of a specific metal is not required
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: be
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 192.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.11C
+  official_code: 2.11C
+  official_wording: explain the uses of aluminium, copper, iron and steel in terms of their properties
+    the types of steel will be limited to low-carbon (mild), high-carbon and stainless
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 245.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.12C
+  official_code: 2.12C
+  official_wording: know that an alloy is a mixture of a metal and one or more elements, usually other
+    metals or carbon
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 285.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.13C
+  official_code: 2.13C
+  official_wording: explain why alloys are harder than pure metals
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 50
+  global_order: 50
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 319.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.14
+  official_code: '2.14'
+  official_wording: describe the use of litmus, phenolphthalein and methyl orange to distinguish between
+    acidic and alkaline solutions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 399.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.15
+  official_code: '2.15'
+  official_wording: understand how to use the pH scale, from 0–14, can be used to classify solutions as
+    strongly acidic (0–3), weakly acidic (4–6), neutral (7), weakly alkaline (8–10) and strongly alkaline
+    (11–14)
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 433.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.16
+  official_code: '2.16'
+  official_wording: describe the use of universal indicator to measure the approximate pH value of an
+    aqueous solution
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 467.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.17
+  official_code: '2.17'
+  official_wording: know that acids in aqueous solution are a source of hydrogen ions and alkalis in a
+    aqueous solution are a source of hydroxide ions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 500.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.18
+  official_code: '2.18'
+  official_wording: know that alkalis can neutralise acids
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 55
+  global_order: 55
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 534.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.19C
+  official_code: 2.19C
+  official_wording: describe how to carry out an acid-alkali titration
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 554.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.20
+  official_code: '2.20'
+  official_wording: 'know the general rules for predicting the solubility of ionic compounds in water:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.21
+  official_code: '2.21'
+  official_wording: understand acids and bases in terms of proton transfer
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 276.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.22
+  official_code: '2.22'
+  official_wording: understand that an acid is a proton donor and a base is a proton acceptor
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 296.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.23
+  official_code: '2.23'
+  official_wording: describe the reactions of hydrochloric acid, sulfuric acid and nitric acid with metals,
+    bases and metal carbonates (excluding the reactions between nitric acid and metals) to form salts
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 60
+  global_order: 60
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 316.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.24
+  official_code: '2.24'
+  official_wording: know that metal oxides, metal hydroxides and ammonia can act as bases, and that alkalis
+    are bases that are soluble in water
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 350.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.25
+  official_code: '2.25'
+  official_wording: describe an experiment to prepare a pure, dry sample of a soluble salt, starting from
+    an insoluble reactant
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 62
+  global_order: 62
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 383.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.26C
+  official_code: 2.26C
+  official_wording: describe an experiment to prepare a pure, dry sample of a soluble salt, starting from
+    an acid and alkali
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 417.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.27C
+  official_code: 2.27C
+  official_wording: describe an experiment to prepare a pure, dry sample of an insoluble salt, starting
+    from two soluble reactants
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 451.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.28
+  official_code: '2.28'
+  official_wording: 'practical: prepare a sample of pure, dry hydrated copper(II) sulfate crystals starting
+    from copper(II) oxide'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 65
+  global_order: 65
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 485.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:2.29C
+  official_code: 2.29C
+  official_wording: 'practical: prepare a sample of pure, dry lead(II) sulfate'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 66
+  global_order: 66
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 518.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.1
+  official_code: '3.1'
+  official_wording: know that chemical reactions in which heat energy is given out are described as exothermic,
+    and those in which heat energy is taken in are described as endothermic
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 197.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.2
+  official_code: '3.2'
+  official_wording: describe simple calorimetry experiments for reactions such as combustion, displacement,
+    dissolving and neutralisation
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 231.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.3
+  official_code: '3.3'
+  official_wording: calculate the heat energy change from a measured temperature change using the expression
+    Q = m cΔ T
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 265.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.5C
+  official_code: 3.5C
+  official_wording: draw and explain energy level diagrams to represent exothermic and endothermic reactions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: draw
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 320.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.6C
+  official_code: 3.6C
+  official_wording: know that bond-breaking is an endothermic process and that bond-making is an exothermic
+    process
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 353.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.7C
+  official_code: 3.7C
+  official_wording: use bond energies to calculate the enthalpy change during a chemical reaction
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 387.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:3.8
+  official_code: '3.8'
+  official_wording: 'practical: investigate temperature changes accompanying some of the following types
+    of change:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 73
+  global_order: 73
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 407.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.1
+  official_code: '4.1'
+  official_wording: know that a hydrocarbon is a compound of hydrogen and carbon only
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 256.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.2
+  official_code: '4.2'
+  official_wording: understand how to represent organic molecules using empirical formulae, molecular
+    formulae, general formulae, structural formulae and displayed formulae
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 276.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.3
+  official_code: '4.3'
+  official_wording: know what is meant by the terms homologous series, functional group and isomerism
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 310.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.4
+  official_code: '4.4'
+  official_wording: understand how to name compounds relevant to this specification using the rules of
+    International Union of Pure and Applied Chemistry (IUPAC) nomenclature learners will be expected to
+    name compounds containing up to six carbon atoms
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 330.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.5
+  official_code: '4.5'
+  official_wording: understand how to write the possible structural and displayed formulae of an organic
+    molecule given its molecular formula
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 383.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.6
+  official_code: '4.6'
+  official_wording: understand how to classify reactions of organic compounds as substitution, addition
+    and combustion knowledge of reaction mechanisms is not required
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 417.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.7
+  official_code: '4.7'
+  official_wording: know that crude oil is a mixture of hydrocarbons
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 531.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.8
+  official_code: '4.8'
+  official_wording: describe how the industrial process of fractional distillation separates crude oil
+    into fractions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 551.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.9
+  official_code: '4.9'
+  official_wording: 'know the names and uses of the main fractions obtained from crude oil: refinery gases,
+    gasoline, kerosene, diesel, fuel oil and bitumen'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 571.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.10
+  official_code: '4.10'
+  official_wording: know the trend in colour, boiling point and viscosity of the main fractions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 605.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.11
+  official_code: '4.11'
+  official_wording: know that a fuel is a substance that, when burned, releases heat energy
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 625.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.12
+  official_code: '4.12'
+  official_wording: know the possible products of complete and incomplete combustion of hydrocarbons with
+    oxygen in the air
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 645.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.13
+  official_code: '4.13'
+  official_wording: understand why carbon monoxide is poisonous, in terms of its effect on the capacity
+    of blood to transport oxygen references to haemoglobin are not required
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.14
+  official_code: '4.14'
+  official_wording: know that, in car engines, the temperature reached is high enough to allow nitrogen
+    and oxygen from air to react, forming oxides of nitrogen
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 164.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.15
+  official_code: '4.15'
+  official_wording: explain how the combustion of some impurities in hydrocarbon fuels results in the
+    formation of sulfur dioxide
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 198.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.16
+  official_code: '4.16'
+  official_wording: understand how sulfur dioxide and oxides of nitrogen contribute to acid rain
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 232.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.17
+  official_code: '4.17'
+  official_wording: describe how long-chain alkanes are converted to alkenes and shorter-chain alkanes
+    by catalytic cracking (using silica or alumina as the catalyst and a temperature in the range of 600–700
+    ºC)
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 252.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.18
+  official_code: '4.18'
+  official_wording: explain why cracking is necessary, in terms of the balance between supply and demand
+    for different fractions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 299.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.19
+  official_code: '4.19'
+  official_wording: know the general formula for alkanes
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 394.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.20
+  official_code: '4.20'
+  official_wording: explain why alkanes are classified as saturated hydrocarbons
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 414.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.21
+  official_code: '4.21'
+  official_wording: understand how to draw the structural and displayed formulae for alkanes with up to
+    five carbon atoms in the molecule, and to name the unbranched-chain isomers
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 434.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.22
+  official_code: '4.22'
+  official_wording: describe the reactions of alkanes with halogens in the presence of ultraviolet radiation,
+    limited to mono-substitution knowledge of reaction mechanisms is not required
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 468.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.23
+  official_code: '4.23'
+  official_wording: know that alkenes contain the functional group >C=C<
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 96
+  global_order: 96
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 581.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.24
+  official_code: '4.24'
+  official_wording: know the general formula for alkenes
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 97
+  global_order: 97
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 601.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.25
+  official_code: '4.25'
+  official_wording: explain why alkenes are classified as unsaturated hydrocarbons
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 98
+  global_order: 98
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 622.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.26
+  official_code: '4.26'
+  official_wording: understand how to draw the structural and displayed formulae for alkenes with up to
+    four carbon atoms in the molecule, and name the unbranched-chain isomers knowledge of cis/trans or
+    E/Z notation is not required
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 99
+  global_order: 99
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 642.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.27
+  official_code: '4.27'
+  official_wording: describe the reactions of alkenes with bromine to produce dibromoalkanes
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 100
+  global_order: 100
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 695.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:4.28
+  official_code: '4.28'
+  official_wording: describe how bromine water can be used to distinguish between an alkane and an alkene
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 101
+  global_order: 101
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 715.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.1
+  official_code: '5.1'
+  official_wording: understand how ions are formed by electron loss or gain
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 102
+  global_order: 102
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 309.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.2
+  official_code: '5.2'
+  official_wording: 'know the charges of these ions:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 103
+  global_order: 103
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 329.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.3
+  official_code: '5.3'
+  official_wording: write formulae for compounds formed between the ions listed above
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 104
+  global_order: 104
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: write
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 441.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.4
+  official_code: '5.4'
+  official_wording: draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer,
+    limited to combinations of elements from Groups 1, 2, 3 and 5, 6, 7 only outer electrons need be shown
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 105
+  global_order: 105
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: draw
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 461.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.5
+  official_code: '5.5'
+  official_wording: understand ionic bonding in terms of electrostatic attractions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 106
+  global_order: 106
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 515.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.6
+  official_code: '5.6'
+  official_wording: understand why compounds with giant ionic lattices have high melting and boiling points
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 107
+  global_order: 107
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 535.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.7
+  official_code: '5.7'
+  official_wording: know that ionic compounds do not conduct electricity when solid, but do conduct electricity
+    when molten and in aqueous solution
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 108
+  global_order: 108
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 555.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.8
+  official_code: '5.8'
+  official_wording: know that a covalent bond is formed between atoms by the sharing of a pair of electrons
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 109
+  global_order: 109
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 649.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.9
+  official_code: '5.9'
+  official_wording: understand covalent bonds in terms of electrostatic attractions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 110
+  global_order: 110
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 669.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.10
+  official_code: '5.10'
+  official_wording: 'understand how to use dot-and-cross diagrams to represent covalent bonds in:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 111
+  global_order: 111
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 689.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.11
+  official_code: '5.11'
+  official_wording: explain why substances with a simple molecular structures are gases or liquids, or
+    solids with low melting and boiling points the term intermolecular forces of attraction can be used
+    to represent all forces between molecules
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 112
+  global_order: 112
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.12
+  official_code: '5.12'
+  official_wording: explain why the melting and boiling points of substances with simple molecular structures
+    increase, in general, with increasing relative molecular mass
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 113
+  global_order: 113
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 164.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.13
+  official_code: '5.13'
+  official_wording: explain why substances with giant covalent structures are solids with high melting
+    and boiling points
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 114
+  global_order: 114
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 198.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.14
+  official_code: '5.14'
+  official_wording: explain how the structures of diamond, graphite and C 60 fullerene influence their
+    physical properties, including electrical conductivity and hardness
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 115
+  global_order: 115
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 232.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.15
+  official_code: '5.15'
+  official_wording: know that covalent compounds do not usually conduct electricity
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 116
+  global_order: 116
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 265.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.16C
+  official_code: 5.16C
+  official_wording: know how to represent a metallic lattice by a 2-D diagram
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 117
+  global_order: 117
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 346.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.17C
+  official_code: 5.17C
+  official_wording: understand metallic bonding in terms of electrostatic attractions
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 118
+  global_order: 118
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 366.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.18C
+  official_code: 5.18C
+  official_wording: explain typical physical properties of metals, including electrical conductivity and
+    malleability
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 119
+  global_order: 119
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 386.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.19C
+  official_code: 5.19C
+  official_wording: understand why covalent compounds do not conduct electricity
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 120
+  global_order: 120
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 480.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.20C
+  official_code: 5.20C
+  official_wording: understand why ionic compounds conduct electricity only when molten or in aqueous
+    solution
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 121
+  global_order: 121
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 500.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.21C
+  official_code: 5.21C
+  official_wording: know that anion and cation are terms used to refer to negative and positive ions respectively
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 122
+  global_order: 122
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 534.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.22C
+  official_code: 5.22C
+  official_wording: describe experiments to investigate electrolysis, using inert electrodes, of molten
+    compounds (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric
+    acid and copper(II) sulfate) and to predict the products
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 123
+  global_order: 123
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 568.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.23C
+  official_code: 5.23C
+  official_wording: write ionic half-equations representing the reactions at the electrodes during electrolysis
+    and understand why these reactions are classified as oxidation or reduction
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 124
+  global_order: 124
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: write
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 615.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:5.24C
+  official_code: 5.24C
+  official_wording: 'practical: investigate the electrolysis of aqueous solutions'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 125
+  global_order: 125
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 662.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.1
+  official_code: '6.1'
+  official_wording: understand how the similarities in the reactions of these elements with water provide
+    evidence for their recognition as a family of elements
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 126
+  global_order: 126
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 256.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.2
+  official_code: '6.2'
+  official_wording: understand how the differences between the reactions of these elements with air and
+    water provide evidence for the trend in reactivity in Group 1
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 127
+  global_order: 127
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 290.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.3
+  official_code: '6.3'
+  official_wording: use knowledge of trends in Group 1 to predict the properties of other alkali metals
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 128
+  global_order: 128
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 324.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.4C
+  official_code: 6.4C
+  official_wording: explain the trend in reactivity in Group 1 in terms of electronic configurations
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 129
+  global_order: 129
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 344.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.5
+  official_code: '6.5'
+  official_wording: know the colours, physical states (at room temperature) and trends in physical properties
+    of these elements
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 130
+  global_order: 130
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 424.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.6
+  official_code: '6.6'
+  official_wording: use knowledge of trends in Group 7 to predict the properties of other halogens
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 131
+  global_order: 131
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 458.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.7
+  official_code: '6.7'
+  official_wording: understand how displacement reactions involving halogens and halides provide evidence
+    for the trend in reactivity in Group 7
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 132
+  global_order: 132
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 478.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.8C
+  official_code: 6.8C
+  official_wording: explain the trend in reactivity in Group 7 in terms of electronic configurations
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 133
+  global_order: 133
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 512.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.9
+  official_code: '6.9'
+  official_wording: know the approximate percentages by volume of the four most abundant gases in dry
+    air
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 134
+  global_order: 134
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 592.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.10
+  official_code: '6.10'
+  official_wording: understand how to determine the percentage by volume of oxygen in air using experiments
+    involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 135
+  global_order: 135
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 612.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.11
+  official_code: '6.11'
+  official_wording: describe the combustion of elements in oxygen, including magnesium, hydrogen and sulfur
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 136
+  global_order: 136
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 646.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.12
+  official_code: '6.12'
+  official_wording: describe the formation of carbon dioxide from the thermal decomposition of metal carbonates,
+    including copper(II) carbonate
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 137
+  global_order: 137
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 666.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.13
+  official_code: '6.13'
+  official_wording: know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere
+    may contribute to climate change
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 138
+  global_order: 138
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 700.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.14
+  official_code: '6.14'
+  official_wording: 'practical: determine the approximate percentage by volume of oxygen in air using
+    a metal or a non-metal'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 139
+  global_order: 139
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 734.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.15
+  official_code: '6.15'
+  official_wording: 'describe tests for these gases:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 140
+  global_order: 140
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.16
+  official_code: '6.16'
+  official_wording: describe how to carry out a flame test
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 141
+  global_order: 141
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 229.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.17
+  official_code: '6.17'
+  official_wording: 'know the colours formed in flame tests for these cations:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 142
+  global_order: 142
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 249.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.18
+  official_code: '6.18'
+  official_wording: 'describe tests for these cations:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 143
+  global_order: 143
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 367.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.19
+  official_code: '6.19'
+  official_wording: 'describe tests for these anions:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 144
+  global_order: 144
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 427.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.20
+  official_code: '6.20'
+  official_wording: describe a test for the presence of water using anhydrous copper(II) sulfate
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 145
+  global_order: 145
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 506.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:6.21
+  official_code: '6.21'
+  official_wording: describe a physical test to show whether a sample of water is pure
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 146
+  global_order: 146
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 526.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.1
+  official_code: '7.1'
+  official_wording: describe experiments to investigate the effects of changes in surface area of a solid,
+    concentration of a solution, temperature and the use of a catalyst on the rate of a reaction
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 147
+  global_order: 147
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 208.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.2
+  official_code: '7.2'
+  official_wording: describe the effects of changes in surface area of a solid, concentration of a solution,
+    pressure of a gas, temperature and the use of a catalyst on the rate of a reaction
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 148
+  global_order: 148
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 240.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.3
+  official_code: '7.3'
+  official_wording: explain the effects of changes in surface area of a solid, concentration of a solution,
+    pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 149
+  global_order: 149
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 273.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.4
+  official_code: '7.4'
+  official_wording: know that a catalyst is a substance that increases the rate of a reaction, but is
+    chemically unchanged at the end of the reaction
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 150
+  global_order: 150
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 306.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.5
+  official_code: '7.5'
+  official_wording: know that a catalyst works by providing an alternative pathway with lower activation
+    energy
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 151
+  global_order: 151
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 339.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.6C
+  official_code: 7.6C
+  official_wording: draw and explain reaction profile diagrams showing Δ H and activation energy
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 152
+  global_order: 152
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: draw
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 358.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.7
+  official_code: '7.7'
+  official_wording: 'practical: investigate the effect of changing the surface area of marble chips and
+    of changing the concentration of hydrochloric acid on the rate of reaction between marble chips and
+    dilute hydrochloric acid'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 153
+  global_order: 153
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 377.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.8
+  official_code: '7.8'
+  official_wording: 'practical: investigate the effect of different solids on the catalytic decomposition
+    of hydrogen peroxide solution'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 154
+  global_order: 154
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 424.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.9
+  official_code: '7.9'
+  official_wording: know that some reactions are reversible and this is indicated by the symbol ⇌ in equations
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 155
+  global_order: 155
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 515.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.10
+  official_code: '7.10'
+  official_wording: describe reversible reactions such as the dehydration of hydrated copper(II) sulfate
+    and the effect of heat on ammonium chloride
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 156
+  global_order: 156
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 534.3
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.11C
+  official_code: 7.11C
+  official_wording: know that a reversible reaction can reach dynamic equilibrium in a sealed container
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 157
+  global_order: 157
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 567.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.12C
+  official_code: 7.12C
+  official_wording: 'know that the characteristics of a reaction at dynamic equilibrium are:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 158
+  global_order: 158
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 586.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.13C
+  official_code: 7.13C
+  official_wording: understand why a catalyst does not affect the position of equilibrium in a reversible
+    reaction
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 159
+  global_order: 159
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 642.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:7.14C
+  official_code: 7.14C
+  official_wording: 'know the effect of changing either temperature or pressure on the position of equilibrium
+    in a reversible reaction:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 160
+  global_order: 160
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 675.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.1C
+  official_code: 8.1C
+  official_wording: know that alcohols contain the functional group −OH
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 161
+  global_order: 161
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 256.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.2C
+  official_code: 8.2C
+  official_wording: understand how to draw structural and displayed formulae for methanol, ethanol, propanol
+    ( propan-1-ol only ) and butanol ( butan-1-ol only ), and name each compound the names propanol and
+    butanol are acceptable
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 162
+  global_order: 162
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 276.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags:
+  - possible-superscript-loss
+- code: IGCSE_CHEMISTRY_MODULAR:8.3C
+  official_code: 8.3C
+  official_wording: 'know that ethanol can be oxidised by:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 163
+  global_order: 163
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 330.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.4C
+  official_code: 8.4C
+  official_wording: 'know that ethanol can be manufactured by:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 164
+  global_order: 164
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 409.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.5C
+  official_code: 8.5C
+  official_wording: understand the reasons for fermentation, in the absence of air, and at an optimum
+    temperature
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 165
+  global_order: 165
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 495.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.6C
+  official_code: 8.6C
+  official_wording: know that carboxylic acids contain the functional group
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 166
+  global_order: 166
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 589.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.7C
+  official_code: 8.7C
+  official_wording: understand how to draw structural and displayed formulae for unbranched-chain carboxylic
+    acids with up to four carbon atoms in the molecule, and name each compound
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 167
+  global_order: 167
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 648.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.8C
+  official_code: 8.8C
+  official_wording: describe the reactions of aqueous solutions of carboxylic acids with metals and metal
+    carbonates
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 168
+  global_order: 168
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 695.5
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.9C
+  official_code: 8.9C
+  official_wording: know that vinegar is an aqueous solution containing ethanoic acid
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 169
+  global_order: 169
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 35
+    pdf_oy: 729.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.10C
+  official_code: 8.10C
+  official_wording: know that esters contain the functional group
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 170
+  global_order: 170
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 111.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.11C
+  official_code: 8.11C
+  official_wording: know that ethyl ethanoate is the ester produced when ethanol and ethanoic acid react
+    in the presence of an acid catalyst
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 171
+  global_order: 171
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 168.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.12C
+  official_code: 8.12C
+  official_wording: understand how to write the structural and displayed formulae of ethyl ethanoate
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 172
+  global_order: 172
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 201.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.13C
+  official_code: 8.13C
+  official_wording: understand how to write the structural and displayed formulae of an ester, given the
+    name or formula of the alcohol and carboxylic acid from which it is formed and vice versa
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 173
+  global_order: 173
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 221.8
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.14C
+  official_code: 8.14C
+  official_wording: know that esters are volatile compounds with distinctive smells and are used as food
+    flavourings and in perfumes
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 174
+  global_order: 174
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 269.2
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.15C
+  official_code: 8.15C
+  official_wording: 'practical: prepare a sample of an ester such as ethyl ethanoate'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 175
+  global_order: 175
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 302.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.16
+  official_code: '8.16'
+  official_wording: know that an addition polymer is formed by joining up many small molecules called
+    monomers
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 176
+  global_order: 176
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 383.4
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.17
+  official_code: '8.17'
+  official_wording: understand how to draw the repeat unit of an addition polymer, including poly(ethene),
+    poly(propene), poly(chloroethene) and (poly)tetrafluoroethene
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 177
+  global_order: 177
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 417.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.18
+  official_code: '8.18'
+  official_wording: understand how to deduce the structure of a monomer from the repeat unit of an addition
+    polymer and vice versa
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 178
+  global_order: 178
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 450.9
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.19
+  official_code: '8.19'
+  official_wording: 'explain problems in the disposal of addition polymers, including:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 179
+  global_order: 179
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 484.6
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.20C
+  official_code: 8.20C
+  official_wording: know that condensation polymerisation, in which a dicarboxylic acid reacts with a
+    diol, produces a polyester and water
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 180
+  global_order: 180
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 544.0
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.21C
+  official_code: 8.21C
+  official_wording: 'understand how to write the structural and displayed formula of a polyester, showing
+    the repeat unit, given the formulae of the monomers from which it is formed including the reaction
+    of ethanedioic acid and ethanediol:'
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 181
+  global_order: 181
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 577.7
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: IGCSE_CHEMISTRY_MODULAR:8.22C
+  official_code: 8.22C
+  official_wording: know that some polyesters, known as biopolyesters, are biodegradable
+  section: 4XCH1-S3
+  subsection: null
+  ordering: 182
+  global_order: 182
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-chemistry-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 36
+    pdf_oy: 682.1
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []

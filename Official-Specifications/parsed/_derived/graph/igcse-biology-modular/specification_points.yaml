@@ -1,0 +1,4564 @@
+curriculum_code: 4XBI1
+qualification: igcse-biology-modular (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-biology-modular-specification.pdf
+  role: official-pdf-direct-parse
+  sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 176
+  topics: 13
+  subsections: 26
+  practicals: 14
+specification_points:
+- code: IGCSE_BIOLOGY_MODULAR:3.4
+  official_code: '3.4'
+  official_wording: describe the role of xylem in transporting water and mineral ions from the roots to
+    other parts of the plant
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 325.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:1.1
+  official_code: '1.1'
+  official_wording: 'understand how living organisms share the following characteristics:'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 217.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:1.2
+  official_code: '1.2'
+  official_wording: 'describe the common features shown by eukaryotic organisms: plants, animals, fungi
+    and protoctists Plants: these are multicellular organisms; their cells contain chloroplasts and are
+    able to carry out photosynthesis; their cells have cellulose cell walls; they store carbohydrates
+    as starch or sucrose. Examples include flowering plants, such as a cereal (for example, maize), and
+    a herbaceous legume (for example, peas or beans). Animals: these are multicellular organisms; their
+    cells do not contain chloroplasts and are not able to carry out photosynthesis; they have no cell
+    walls; they usually have nervous co- ordination and are able to move from one place to another; they
+    often store carbohydrate as glycogen. Examples include mammals (for example, humans) and insects (for
+    example, housefly and mosquito). Fungi: these are organisms that are not able to carry out photosynthesis;
+    their body is usually organised into a mycelium made from thread-like structures called hyphae, which
+    contain many nuclei; some examples are single-celled; their cells have walls made of chitin; they
+    feed by extracellular secretion of digestive enzymes onto food material and absorption of the organic
+    products; this is known as saprotrophic nutrition; they may store carbohydrate as glycogen. Examples
+    include Mucor , which has the typical fungal hyphal structure, and yeast, which is single-celled.
+    Protoctists: these are microscopic single-celled organisms. Some, like Amoeba , that live in pond
+    water, have features like an animal cell, while others, like Chlorella , have chloroplasts and are
+    more like plants. A pathogenic example is Plasmodium , responsible for causing malaria.'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 19
+    pdf_oy: 453.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:1.3
+  official_code: '1.3'
+  official_wording: 'describe the common features shown by prokaryotic organisms such as bacteria Bacteria:
+    these are microscopic single-celled organisms; they have a cell wall, cell membrane, cytoplasm and
+    plasmids; they lack a nucleus but contain a circular chromosome of DNA; some bacteria can carry out
+    photosynthesis but most feed off other living or dead organisms. Examples include Lactobacillus bulgaricus
+    , a rod-shaped bacterium used in the production of yoghurt from milk, and Pneumococcus , a spherical
+    bacterium that acts as the pathogen causing pneumonia.'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:1.4
+  official_code: '1.4'
+  official_wording: 'understand the term pathogen and know that pathogens may include fungi, bacteria,
+    protoctists or viruses Viruses: these are not living organisms. They are small particles, smaller
+    than bacteria; they are parasitic and can reproduce only inside living cells; they infect every type
+    of living organism. They have a wide variety of shapes and sizes; they have no cellular structure
+    but have a protein coat and contain one type of nucleic acid, either DNA or RNA. Examples include
+    the tobacco mosaic virus that causes discolouring of the leaves of tobacco plants by preventing the
+    formation of chloroplasts, the influenza virus that causes ‘flu’ and the HIV virus that causes AIDS.'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 20
+    pdf_oy: 218.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.1
+  official_code: '2.1'
+  official_wording: 'describe the levels of organisation in organisms: organelles, cells, tissues, organs
+    and systems'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 315.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.2
+  official_code: '2.2'
+  official_wording: describe cell structures, including the nucleus, cytoplasm, cell membrane, cell wall,
+    mitochondria, chloroplasts, ribosomes and vacuole
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 395.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.3
+  official_code: '2.3'
+  official_wording: describe the functions of the nucleus, cytoplasm, cell membrane, cell wall, mitochondria,
+    chloroplasts, ribosomes and vacuole
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 429.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.4
+  official_code: '2.4'
+  official_wording: know the similarities and differences in the structure of plant and animal cells
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 463.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.5B
+  official_code: 2.5B
+  official_wording: explain the importance of cell differentiation in the development of specialised cells
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 483.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.6B
+  official_code: 2.6B
+  official_wording: understand the advantages and disadvantages of using stem cells in medicine
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 21
+    pdf_oy: 503.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.7
+  official_code: '2.7'
+  official_wording: identify the chemical elements present in carbohydrates, proteins and lipids (fats
+    and oils)
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: identify
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.8
+  official_code: '2.8'
+  official_wording: 'describe the structure of carbohydrates, proteins and lipids as large molecules made
+    up from smaller basic units: starch and glycogen from simple sugars, protein from amino acids, and
+    lipid from fatty acids and glycerol'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 144.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.9
+  official_code: '2.9'
+  official_wording: 'practical: investigate food samples for the presence of glucose, starch, protein
+    and fat'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 14
+  global_order: 14
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 192.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.10
+  official_code: '2.10'
+  official_wording: understand the role of enzymes as biological catalysts in metabolic reactions
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 212.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.11
+  official_code: '2.11'
+  official_wording: understand how temperature changes can affect enzyme function, including changes to
+    the shape of active site
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 232.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.12
+  official_code: '2.12'
+  official_wording: 'practical: investigate how enzyme activity can be affected by changes in temperature'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 17
+  global_order: 17
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 266.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.13
+  official_code: '2.13'
+  official_wording: understand how enzyme function can be affected by changes in pH altering the active
+    site
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 286.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.14B
+  official_code: 2.14B
+  official_wording: 'practical: investigate how enzyme activity can be affected by changes in pH'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 19
+  global_order: 19
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 306.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.15
+  official_code: '2.15'
+  official_wording: understand the processes of diffusion, osmosis and active transport by which substances
+    move into and out of cells
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 386.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.16
+  official_code: '2.16'
+  official_wording: understand how factors affect the rate of movement of substances into and out of cells,
+    including the effects of surface area to volume ratio, distance, temperature and concentration gradient
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 420.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.17
+  official_code: '2.17'
+  official_wording: 'practical: investigate diffusion and osmosis using living and non-living systems'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 22
+  global_order: 22
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 22
+    pdf_oy: 468.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.18
+  official_code: '2.18'
+  official_wording: understand the process of photosynthesis and its importance in the conversion of light
+    energy to chemical energy
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 131.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.19
+  official_code: '2.19'
+  official_wording: know the word equation and the balanced chemical symbol equation for photosynthesis
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 165.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.20
+  official_code: '2.20'
+  official_wording: understand how varying carbon dioxide concentration, light intensity and temperature
+    affect the rate of photosynthesis
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 185.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.21
+  official_code: '2.21'
+  official_wording: describe the structure of the leaf and explain how it is adapted for photosynthesis
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 218.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.22
+  official_code: '2.22'
+  official_wording: understand that plants require mineral ions for growth, and that magnesium ions are
+    needed for chlorophyll and nitrate ions are needed for amino acids
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 238.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.23
+  official_code: '2.23'
+  official_wording: 'practical: investigate photosynthesis, showing the evolution of oxygen from a water
+    plant, the production of starch and the requirements of light, carbon dioxide and chlorophyll'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 28
+  global_order: 28
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 272.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.24
+  official_code: '2.24'
+  official_wording: understand that a balanced diet should include appropriate proportions of carbohydrate,
+    protein, lipid, vitamins, minerals, water and dietary fibre
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 326.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.25
+  official_code: '2.25'
+  official_wording: identify the sources and describe the functions of carbohydrate, protein, lipid (fats
+    and oils), vitamins A, C and D, the mineral ions calcium and iron, water and dietary fibre as components
+    of the diet
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: identify
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 360.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.26
+  official_code: '2.26'
+  official_wording: understand how energy requirements vary with activity levels, age and pregnancy
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 407.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.27
+  official_code: '2.27'
+  official_wording: describe the structure and function of the human alimentary canal, including the mouth,
+    oesophagus, stomach, small intestine (duodenum and ileum), large intestine (colon and rectum) and
+    pancreas
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 427.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.28
+  official_code: '2.28'
+  official_wording: understand how food is moved through the gut by peristalsis
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 475.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.29
+  official_code: '2.29'
+  official_wording: understand the role of digestive enzymes, including the digestion of starch to glucose
+    by amylase and maltase, the digestion of proteins to amino acids by proteases and the digestion of
+    lipids to fatty acids and glycerol by lipases
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 495.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.30
+  official_code: '2.30'
+  official_wording: understand that bile is produced by the liver and stored in the gall bladder
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 542.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.31
+  official_code: '2.31'
+  official_wording: understand the role of bile in neutralising stomach acid and emulsifying lipids
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 562.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.32
+  official_code: '2.32'
+  official_wording: understand how the small intestine is adapted for absorption, including the structure
+    of a villus
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 582.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.33B
+  official_code: 2.33B
+  official_wording: 'practical: investigate the energy content in a food sample'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 38
+  global_order: 38
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 23
+    pdf_oy: 616.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.34
+  official_code: '2.34'
+  official_wording: understand how the process of respiration produces ATP in living organisms
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.35
+  official_code: '2.35'
+  official_wording: know that ATP provides energy for cells
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 131.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.36
+  official_code: '2.36'
+  official_wording: describe the differences between aerobic and anaerobic respiration
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 151.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.37
+  official_code: '2.37'
+  official_wording: know the word equation and the balanced chemical symbol equation for aerobic respiration
+    in living organisms
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 171.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.38
+  official_code: '2.38'
+  official_wording: know the word equation for anaerobic respiration in plants and in animals
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 205.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.39
+  official_code: '2.39'
+  official_wording: 'practical: investigate the evolution of carbon dioxide and heat from respiring seeds
+    or other suitable living organisms'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 44
+  global_order: 44
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 225.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.40B
+  official_code: 2.40B
+  official_wording: understand the role of diffusion in gas exchange
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 339.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.41B
+  official_code: 2.41B
+  official_wording: understand gas exchange (of carbon dioxide and oxygen) in relation to respiration
+    and photosynthesis
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 359.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.42B
+  official_code: 2.42B
+  official_wording: understand how the structure of the leaf is adapted for gas exchange
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 393.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.43B
+  official_code: 2.43B
+  official_wording: describe the role of stomata in gas exchange
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 413.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.44B
+  official_code: 2.44B
+  official_wording: understand how respiration continues during the day and night, but that the net exchange
+    of carbon dioxide and oxygen depends on the intensity of light
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 433.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.45B
+  official_code: 2.45B
+  official_wording: 'practical: investigate the effect of light on net gas exchange from a leaf, using
+    hydrogen- carbonate indicator'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 50
+  global_order: 50
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 467.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.46
+  official_code: '2.46'
+  official_wording: describe the structure of the thorax, including the ribs, intercostal muscles, diaphragm,
+    trachea, bronchi, bronchioles, alveoli and pleural membranes
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 521.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.47
+  official_code: '2.47'
+  official_wording: understand the role of the intercostal muscles and the diaphragm in ventilation
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 554.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.48
+  official_code: '2.48'
+  official_wording: explain how alveoli are adapted for gas exchange by diffusion between air in the lungs
+    and blood in capillaries
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 575.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.49
+  official_code: '2.49'
+  official_wording: understand the biological consequences of smoking in relation to the lungs and the
+    circulatory system, including coronary heart disease
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 608.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:2.50
+  official_code: '2.50'
+  official_wording: 'practical: investigate breathing in humans, including the release of carbon dioxide
+    and the effect of exercise'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 55
+  global_order: 55
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 24
+    pdf_oy: 642.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.1
+  official_code: '3.1'
+  official_wording: understand why simple, unicellular organisms can rely on diffusion for movement of
+    substances in and out of the cell
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 217.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.2
+  official_code: '3.2'
+  official_wording: understand the need for a transport system in multicellular organisms
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 251.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.3
+  official_code: '3.3'
+  official_wording: describe the role of phloem in transporting sucrose and amino acids between the leaves
+    and other parts of the plant
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 291.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.5B
+  official_code: 3.5B
+  official_wording: understand how water is absorbed by root hair cells
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 358.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.6B
+  official_code: 3.6B
+  official_wording: understand that transpiration is the evaporation of water from the surface of a plant
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 60
+  global_order: 60
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 379.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.7B
+  official_code: 3.7B
+  official_wording: understand how the rate of transpiration is affected by changes in humidity, wind
+    speed, temperature and light intensity
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 399.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.8B
+  official_code: 3.8B
+  official_wording: 'practical: investigate the role of environmental factors in determining the rate
+    of transpiration from a leafy shoot'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 62
+  global_order: 62
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 432.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.9
+  official_code: '3.9'
+  official_wording: 'describe the composition of the blood: red blood cells, white blood cells, platelets
+    and plasma'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 486.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.10
+  official_code: '3.10'
+  official_wording: understand the role of plasma in the transport of carbon dioxide, digested food, urea,
+    hormones and heat energy
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 506.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.11
+  official_code: '3.11'
+  official_wording: understand how adaptations of red blood cells make them suitable for the transport
+    of oxygen, including shape, the absence of a nucleus and the presence of haemoglobin
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 65
+  global_order: 65
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 540.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.12
+  official_code: '3.12'
+  official_wording: understand how the immune system responds to disease using white blood cells, illustrated
+    by phagocytes ingesting pathogens and lymphocytes releasing antibodies specific to the pathogen
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 66
+  global_order: 66
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 574.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.13B
+  official_code: 3.13B
+  official_wording: understand how vaccination results in the manufacture of memory cells, which enable
+    future antibody production to the pathogen to occur sooner, faster and in greater quantity
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 621.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.14B
+  official_code: 3.14B
+  official_wording: understand how platelets are involved in blood clotting, which prevents blood loss
+    and the entry of micro-organisms
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 668.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.15
+  official_code: '3.15'
+  official_wording: describe the structure of the heart and how it functions
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 702.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.16
+  official_code: '3.16'
+  official_wording: explain how the heart rate changes during exercise and under the influence of adrenaline
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 722.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.17
+  official_code: '3.17'
+  official_wording: understand how factors may increase the risk of developing coronary heart disease
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 25
+    pdf_oy: 742.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.18
+  official_code: '3.18'
+  official_wording: understand how the structure of arteries, veins and capillaries relate to their function
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.19
+  official_code: '3.19'
+  official_wording: understand the general structure of the circulation system, including the blood vessels
+    to and from the heart and lungs, liver and kidneys
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 73
+  global_order: 73
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 131.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.20
+  official_code: '3.20'
+  official_wording: understand the origin of carbon dioxide and oxygen as waste products of metabolism
+    and their loss from the stomata of a leaf
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 245.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.21
+  official_code: '3.21'
+  official_wording: know the excretory products of the lungs, kidneys and skin (organs of excretion)
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 299.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.22B
+  official_code: 3.22B
+  official_wording: understand how the kidney carries out its roles of excretion and osmoregulation
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 319.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.23B
+  official_code: 3.23B
+  official_wording: describe the structure of the urinary system, including the kidneys, ureters, bladder
+    and urethra
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 339.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.24B
+  official_code: 3.24B
+  official_wording: describe the structure of a nephron, including the Bowman’s capsule and glomerulus,
+    convoluted tubules, loop of Henle and collecting duct
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 373.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.25B
+  official_code: 3.25B
+  official_wording: describe ultrafiltration in the Bowman’s capsule and the composition of the glomerular
+    filtrate
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 407.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.26B
+  official_code: 3.26B
+  official_wording: understand how water is reabsorbed into the blood from the collecting duct
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 440.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.27B
+  official_code: 3.27B
+  official_wording: understand why selective reabsorption of glucose occurs at the proximal convoluted
+    tubule
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 460.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.28B
+  official_code: 3.28B
+  official_wording: describe the role of ADH in regulating the water content of the blood
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 494.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.29B
+  official_code: 3.29B
+  official_wording: understand that urine contains water, urea and ions
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 514.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.30
+  official_code: '3.30'
+  official_wording: understand how organisms are able to respond to changes in their environment
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 595.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.31
+  official_code: '3.31'
+  official_wording: understand that homeostasis is the maintenance of a constant internal environment,
+    and that body water content and body temperature are both examples of homeostasis
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 615.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.32
+  official_code: '3.32'
+  official_wording: understand that a co-ordinated response requires a stimulus, a receptor and an effector
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 649.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.33
+  official_code: '3.33'
+  official_wording: understand that plants respond to stimuli
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 689.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.34
+  official_code: '3.34'
+  official_wording: describe the geotropic and phototropic responses of roots and stems
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 709.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.35
+  official_code: '3.35'
+  official_wording: understand the role of auxin in the phototropic response of stems
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 26
+    pdf_oy: 729.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.36
+  official_code: '3.36'
+  official_wording: describe how nervous and hormonal communication control responses and understand the
+    differences between the two systems
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 131.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.37
+  official_code: '3.37'
+  official_wording: understand that the central nervous system consists of the brain and spinal cord and
+    is linked to sense organs by nerves
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 164.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.38
+  official_code: '3.38'
+  official_wording: understand that stimulation of receptors in the sense organs sends electrical impulses
+    along nerves into and out of the central nervous system, resulting in rapid responses
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 198.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.39
+  official_code: '3.39'
+  official_wording: understand the role of neurotransmitters at synapses
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 232.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.40
+  official_code: '3.40'
+  official_wording: describe the structure and functioning of a simple reflex arc illustrated by the withdrawal
+    of a finger from a hot object
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 252.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.41
+  official_code: '3.41'
+  official_wording: describe the structure and function of the eye as a receptor
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 286.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.42
+  official_code: '3.42'
+  official_wording: understand the function of the eye in focusing on near and distant objects, and in
+    responding to changes in light intensity
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 96
+  global_order: 96
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 306.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.43
+  official_code: '3.43'
+  official_wording: describe the role of the skin in temperature regulation, with reference to sweating,
+    vasoconstriction and vasodilation
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 97
+  global_order: 97
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 340.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.44
+  official_code: '3.44'
+  official_wording: 'understand the sources, roles and effects of the following hormones: adrenaline,
+    insulin, testosterone, progesterone and oestrogen'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 98
+  global_order: 98
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 373.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:3.45B
+  official_code: 3.45B
+  official_wording: 'understand the sources, roles and effects of the following hormones: ADH, FSH and
+    LH'
+  section: 4XBI1-S4
+  subsection: null
+  ordering: 99
+  global_order: 99
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 27
+    pdf_oy: 407.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.1
+  official_code: '4.1'
+  official_wording: understand the differences between sexual and asexual reproduction
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 100
+  global_order: 100
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 217.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.2
+  official_code: '4.2'
+  official_wording: understand that fertilisation involves the fusion of a male and female gamete to produce
+    a zygote that undergoes cell division and develops into an embryo
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 101
+  global_order: 101
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 237.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.3
+  official_code: '4.3'
+  official_wording: describe the structures of an insect-pollinated and a wind-pollinated flower and explain
+    how each is adapted for pollination
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 102
+  global_order: 102
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 291.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.4
+  official_code: '4.4'
+  official_wording: understand that the growth of the pollen tube followed by fertilisation leads to seed
+    and fruit formation
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 103
+  global_order: 103
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 325.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.5
+  official_code: '4.5'
+  official_wording: 'practical: investigate the conditions needed for seed germination'
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 104
+  global_order: 104
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 358.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.6
+  official_code: '4.6'
+  official_wording: understand how germinating seeds utilise food reserves until the seedling can carry
+    out photosynthesis
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 105
+  global_order: 105
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 379.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.7
+  official_code: '4.7'
+  official_wording: understand that plants can reproduce asexually by natural methods (illustrated by
+    runners) and by artificial methods (illustrated by cuttings)
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 106
+  global_order: 106
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 412.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.8
+  official_code: '4.8'
+  official_wording: understand how the structure of the male and female reproductive systems are adapted
+    for their functions
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 107
+  global_order: 107
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 466.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.9
+  official_code: '4.9'
+  official_wording: understand the roles of oestrogen and progesterone in the menstrual cycle
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 108
+  global_order: 108
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 500.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.10B
+  official_code: 4.10B
+  official_wording: understand the roles of FSH and LH in the menstrual cycle
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 109
+  global_order: 109
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 520.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.11
+  official_code: '4.11'
+  official_wording: describe the role of the placenta in the nutrition of the developing embryo
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 110
+  global_order: 110
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 540.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.12
+  official_code: '4.12'
+  official_wording: understand how the developing embryo is protected by amniotic fluid
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 111
+  global_order: 111
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 560.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.13
+  official_code: '4.13'
+  official_wording: understand the roles of oestrogen and testosterone in the development of secondary
+    sexual characteristics
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 112
+  global_order: 112
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 28
+    pdf_oy: 580.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.14
+  official_code: '4.14'
+  official_wording: understand that the genome is the entire DNA of an organism and that a gene is a section
+    of a molecule of DNA that codes for a specific protein
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 113
+  global_order: 113
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.15
+  official_code: '4.15'
+  official_wording: understand that the nucleus of a cell contains chromosomes on which genes are located
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 114
+  global_order: 114
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 144.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.16B
+  official_code: 4.16B
+  official_wording: 'describe a DNA molecule as two strands coiled to form a double helix, the strands
+    being linked by a series of paired bases: adenine (A) with thymine (T), and cytosine (C) with guanine
+    (G)'
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 115
+  global_order: 115
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 164.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.17B
+  official_code: 4.17B
+  official_wording: understand that an RNA molecule is single stranded and contains uracil (U) instead
+    of thymine (T)
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 116
+  global_order: 116
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 212.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.18B
+  official_code: 4.18B
+  official_wording: describe the stages of protein synthesis including transcription and translation,
+    including the role of mRNA, ribosomes, tRNA, codons and anticodons
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 117
+  global_order: 117
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 246.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.19
+  official_code: '4.19'
+  official_wording: understand how genes exist in alternative forms called alleles which give rise to
+    differences in inherited characteristics
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 118
+  global_order: 118
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 279.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.20
+  official_code: '4.20'
+  official_wording: 'understand the meaning of the terms: dominant, recessive, homozygous, heterozygous,
+    phenotype, and genotype'
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 119
+  global_order: 119
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 313.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.21B
+  official_code: 4.21B
+  official_wording: understand the meaning of the term codominance
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 120
+  global_order: 120
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 347.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.22
+  official_code: '4.22'
+  official_wording: understand that most phenotypic features are the result of polygenic inheritance rather
+    than single genes
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 121
+  global_order: 121
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 367.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.23
+  official_code: '4.23'
+  official_wording: describe patterns of monohybrid inheritance using a genetic diagram
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 122
+  global_order: 122
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 401.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.24
+  official_code: '4.24'
+  official_wording: understand how to interpret family pedigrees
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 123
+  global_order: 123
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 421.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.25
+  official_code: '4.25'
+  official_wording: predict probabilities of outcomes from monohybrid crosses
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 124
+  global_order: 124
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: predict
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 441.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.26
+  official_code: '4.26'
+  official_wording: understand how the sex of a person is controlled by one pair of chromosomes, XX in
+    a female and XY in a male
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 125
+  global_order: 125
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 461.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.27
+  official_code: '4.27'
+  official_wording: describe the determination of the sex of offspring at fertilisation, using a genetic
+    diagram
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 126
+  global_order: 126
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 495.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.28
+  official_code: '4.28'
+  official_wording: understand how division of a diploid cell by mitosis produces two cells that contain
+    identical sets of chromosomes
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 127
+  global_order: 127
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 515.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.29
+  official_code: '4.29'
+  official_wording: understand that mitosis occurs during growth, repair, cloning and asexual reproduction
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 128
+  global_order: 128
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 549.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.30
+  official_code: '4.30'
+  official_wording: understand how division of a cell by meiosis produces four cells, each with half the
+    number of chromosomes, and that this results in the formation of genetically different haploid gametes
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 129
+  global_order: 129
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 569.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.31
+  official_code: '4.31'
+  official_wording: understand how random fertilisation produces genetic variation of offspring
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 130
+  global_order: 130
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 616.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.32
+  official_code: '4.32'
+  official_wording: know that in human cells the diploid number of chromosomes is 46 and the haploid number
+    is 23
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 131
+  global_order: 131
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: know
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 636.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.33
+  official_code: '4.33'
+  official_wording: understand that variation within a species can be genetic, environmental, or a combination
+    of both
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 132
+  global_order: 132
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 670.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.34
+  official_code: '4.34'
+  official_wording: understand that mutation is a rare, random change in genetic material that can be
+    inherited
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 133
+  global_order: 133
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 29
+    pdf_oy: 704.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.35B
+  official_code: 4.35B
+  official_wording: understand how a change in DNA can affect the phenotype by altering the sequence of
+    amino acids in a protein
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 134
+  global_order: 134
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.36B
+  official_code: 4.36B
+  official_wording: understand how most genetic mutations have no effect on the phenotype, some have a
+    small effect and rarely do they have a significant effect
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 135
+  global_order: 135
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 144.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.37B
+  official_code: 4.37B
+  official_wording: understand that the incidence of mutations can be increased by exposure to ionising
+    radiation (for example, gamma rays, x-rays and ultraviolet rays) and some chemical mutagens (for example,
+    chemicals in tobacco)
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 136
+  global_order: 136
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 178.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.38
+  official_code: '4.38'
+  official_wording: explain Darwin’s theory of evolution by natural selection
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 137
+  global_order: 137
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explain
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 226.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:4.39
+  official_code: '4.39'
+  official_wording: understand how resistance to antibiotics can increase in bacterial populations, and
+    appreciate how such an increase can lead to infections being difficult to control
+  section: 4XBI1-S5
+  subsection: null
+  ordering: 138
+  global_order: 138
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 30
+    pdf_oy: 246.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.1
+  official_code: '5.1'
+  official_wording: understand the terms population, community, habitat and ecosystem
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 139
+  global_order: 139
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 256.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.2
+  official_code: '5.2'
+  official_wording: 'practical: investigate the population size of an organism in two different areas
+    using quadrats'
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 140
+  global_order: 140
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 276.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.3B
+  official_code: 5.3B
+  official_wording: understand the term biodiversity
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 141
+  global_order: 141
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 296.9
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.4B
+  official_code: 5.4B
+  official_wording: 'practical: investigate the distribution of organisms in their habitats and measure
+    biodiversity using quadrats'
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 142
+  global_order: 142
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 317.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.5
+  official_code: '5.5'
+  official_wording: understand how abiotic and biotic factors affect the population size and distribution
+    of organisms
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 143
+  global_order: 143
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 350.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.6
+  official_code: '5.6'
+  official_wording: understand the names given to different trophic levels, including producers, primary,
+    secondary and tertiary consumers and decomposers
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 144
+  global_order: 144
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 444.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.7
+  official_code: '5.7'
+  official_wording: understand the concepts of food chains, food webs, pyramids of number, pyramids of
+    biomass and pyramids of energy transfer
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 145
+  global_order: 145
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 478.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.8
+  official_code: '5.8'
+  official_wording: understand the transfer of substances and energy along a food chain
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 146
+  global_order: 146
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 512.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.9
+  official_code: '5.9'
+  official_wording: understand why only about 10% of energy is transferred from one trophic level to the
+    next
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 147
+  global_order: 147
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 532.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.10
+  official_code: '5.10'
+  official_wording: describe the stages in the carbon cycle, including respiration, photosynthesis, decomposition
+    and combustion
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 148
+  global_order: 148
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 612.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.11B
+  official_code: 5.11B
+  official_wording: describe the stages in the nitrogen cycle, including the roles of nitrogen fixing
+    bacteria, decomposers, nitrifying bacteria and denitrifying bacteria (specific names of bacteria are
+    not required)
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 149
+  global_order: 149
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 31
+    pdf_oy: 646.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.12
+  official_code: '5.12'
+  official_wording: understand the biological consequences of pollution of air by sulfur dioxide and carbon
+    monoxide
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 150
+  global_order: 150
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.13
+  official_code: '5.13'
+  official_wording: understand that water vapour, carbon dioxide, nitrous oxide, methane and CFCs are
+    greenhouse gases
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 151
+  global_order: 151
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 144.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.14
+  official_code: '5.14'
+  official_wording: understand how human activities contribute to greenhouse gases
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 152
+  global_order: 152
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 178.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.15
+  official_code: '5.15'
+  official_wording: understand how an increase in greenhouse gases results in an enhanced greenhouse effect
+    and that this may lead to global warming and its consequences
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 153
+  global_order: 153
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 198.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.16
+  official_code: '5.16'
+  official_wording: understand the biological consequences of pollution of water by sewage
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 154
+  global_order: 154
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 232.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.17
+  official_code: '5.17'
+  official_wording: understand the biological consequences of eutrophication caused by leached minerals
+    from fertiliser
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 155
+  global_order: 155
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 252.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:5.18B
+  official_code: 5.18B
+  official_wording: understand the effects of deforestation, including leaching, soil erosion, disturbance
+    of evapotranspiration and the carbon cycle, and the balance of atmospheric gases
+  section: 4XBI1-S6
+  subsection: null
+  ordering: 156
+  global_order: 156
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 32
+    pdf_oy: 286.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.1
+  official_code: '6.1'
+  official_wording: describe how glasshouses and polythene tunnels can be used to increase the yield of
+    certain crops
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 157
+  global_order: 157
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 276.7
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.2
+  official_code: '6.2'
+  official_wording: understand the effects on crop yield of increased carbon dioxide and increased temperature
+    in glasshouses
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 158
+  global_order: 158
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 310.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.3
+  official_code: '6.3'
+  official_wording: understand how the use of fertiliser can increase crop yield
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 159
+  global_order: 159
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 344.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.4
+  official_code: '6.4'
+  official_wording: understand the reasons for pest control and the advantages and disadvantages of using
+    pesticides and biological control with crop plants
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 160
+  global_order: 160
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 364.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.5
+  official_code: '6.5'
+  official_wording: understand the role of yeast in the production of food including bread
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 161
+  global_order: 161
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 418.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.6
+  official_code: '6.6'
+  official_wording: 'practical: investigate the role of anaerobic respiration by yeast in different conditions'
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 162
+  global_order: 162
+  practical: true
+  scope: null
+  applicability: null
+  leading_verb: 'practical:'
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 438.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.7
+  official_code: '6.7'
+  official_wording: understand the role of bacteria ( Lactobacillus ) in the production of yoghurt
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 163
+  global_order: 163
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 458.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.8
+  official_code: '6.8'
+  official_wording: understand the use of an industrial fermenter and explain the need to provide suitable
+    conditions in the fermenter, including aseptic precautions, nutrients, optimum temperature and pH,
+    oxygenation and agitation, for the growth of micro-organisms
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 164
+  global_order: 164
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 478.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.9B
+  official_code: 6.9B
+  official_wording: understand the methods used to farm large numbers of fish to provide a source of protein,
+    including maintaining water quality, controlling intraspecific and interspecific predation, controlling
+    disease, removing waste products, controlling the quality and frequency of feeding, and selective
+    breeding
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 165
+  global_order: 165
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 546.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.10
+  official_code: '6.10'
+  official_wording: understand how selective breeding can develop plants with desired characteristics
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 166
+  global_order: 166
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 667.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.11
+  official_code: '6.11'
+  official_wording: understand how selective breeding can develop animals with desired characteristics
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 167
+  global_order: 167
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 33
+    pdf_oy: 687.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.12
+  official_code: '6.12'
+  official_wording: understand how restriction enzymes are used to cut DNA at specific sites and ligase
+    enzymes are used to join pieces of DNA together
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 168
+  global_order: 168
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 111.1
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.13
+  official_code: '6.13'
+  official_wording: understand how plasmids and viruses can act as vectors, which take up pieces of DNA,
+    and then insert this recombinant DNA into other cells
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 169
+  global_order: 169
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 144.8
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.14
+  official_code: '6.14'
+  official_wording: understand how large amounts of human insulin can be manufactured from genetically
+    modified bacteria that are grown in a fermenter
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 170
+  global_order: 170
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 178.6
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.15
+  official_code: '6.15'
+  official_wording: understand how genetically modified plants can be used to improve food production
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 171
+  global_order: 171
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 212.3
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.16
+  official_code: '6.16'
+  official_wording: understand that the term transgenic means the transfer of genetic material from one
+    species to a different species
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 172
+  global_order: 172
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 232.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.17B
+  official_code: 6.17B
+  official_wording: describe the process of micropropagation (tissue culture) in which explants are grown
+    in vitro
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 173
+  global_order: 173
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 326.5
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.18B
+  official_code: 6.18B
+  official_wording: understand how micropropagation can be used to produce commercial quantities of genetically
+    identical plants with desirable characteristics
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 174
+  global_order: 174
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 360.2
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.19B
+  official_code: 6.19B
+  official_wording: describe the stages in the production of cloned mammals involving the introduction
+    of a diploid nucleus from a mature cell into an enucleated egg cell, illustrated by Dolly the sheep
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 175
+  global_order: 175
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: describe
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 394.0
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: IGCSE_BIOLOGY_MODULAR:6.20B
+  official_code: 6.20B
+  official_wording: understand how cloned transgenic animals can be used to produce human proteins
+  section: 4XBI1-S7
+  subsection: null
+  ordering: 176
+  global_order: 176
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: understand
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-biology-modular-specification.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-17'
+    pdf_page: 34
+    pdf_oy: 441.4
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []

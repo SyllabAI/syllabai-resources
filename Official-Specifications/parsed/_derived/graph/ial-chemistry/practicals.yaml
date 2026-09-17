@@ -1,0 +1,45 @@
+curriculum_code: XCH11/YCH11
+qualification: ial-chemistry (Issue 1)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: International-A-Level-Chemistry-Spec.pdf
+  role: official-pdf-direct-parse
+  sha1: 1aed6c43f769a84eb7a5f551a40a38831296b84a
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-17'
+counts:
+  spec_points: 319
+  topics: 61
+  subsections: 2
+  practicals: 3
+practicals:
+- code: IAL_CHEMISTRY-PR-01
+  spec_point: IAL_CHEMISTRY:Chemistry-10.20
+  summary: 'CORE PRACTICAL 7 The oxidation of propan-1-ol to produce propanal and propanoic acid. Further
+    suggested practical: Investigation of reactions of primary and secondary alcohols, including propan-1-ol
+    and propan-2-ol'
+  page: 42
+  ordering: 1
+- code: IAL_CHEMISTRY-PR-02
+  spec_point: IAL_CHEMISTRY:Chemistry-15.8
+  summary: 'understand the reactions of carbonyl compounds with: i Fehling’s or Benedict’s solution, Tollens’
+    reagent and acidified dichromate(VI) ions In equations, the oxidising agent can be represented as
+    [O] . ii lithium tetrahydridoaluminate(III) (lithium aluminium hydride) in dry ether (ethoxyethane)
+    In e'
+  page: 57
+  ordering: 2
+- code: IAL_CHEMISTRY-PR-03
+  spec_point: IAL_CHEMISTRY:Chemistry-18.6
+  summary: 'understand the reaction of phenol with bromine water and the reasons for the relative ease
+    of this reaction compared to benzene Further suggested practical: Carry out the reactions in 18.4,
+    and 18.6 where appropriate (using methylbenzene or methoxybenzene)'
+  page: 68
+  ordering: 3
