@@ -112,6 +112,10 @@
   "points_total": 113,
   "gaps": [
    {
+    "id": "*structure_parse_gap*",
+    "reason": "PARSE GAP: no captured spec points fall inside the unit content page ranges (19..66). The real unit content (coded rows like '1.8 Degree of accuracy' with A/B/C statements) was not captured by the original parse; captured points come from non-content sections (aims, calculators, progression). Requires parser repair (T-PARSE-FIX) before per-point mapping for this qualification."
+   },
+   {
     "id": "IGCSE_MATHS_A_MODULAR:S2.001",
     "reason": "page 8 outside unit ranges"
    },
@@ -266,13 +270,9 @@
    {
     "id": "IGCSE_MATHS_A_MODULAR:S2.039",
     "reason": "page 18 outside unit ranges"
-   },
-   {
-    "id": "IGCSE_MATHS_A_MODULAR:S2.040",
-    "reason": "page 18 outside unit ranges"
    }
   ],
-  "gap_count": 56,
+  "gap_count": 57,
   "front_matter_gap_ids": [
    "IGCSE_MATHS_A_MODULAR:S2.001",
    "IGCSE_MATHS_A_MODULAR:S2.002",
