@@ -9,13 +9,20 @@
  "official_pool": 13,
  "mappings": {
   "spcpt_Sxsvg9Fx9jvM5X65": {
-   "official_id": "IAL_MATHS:M2-4.2",
-   "official_code": "4.2",
-   "tier": "S2_name_ambiguous",
-   "score": 0.6217,
+   "official_id": "IAL_MATHS:M2-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": null,
    "unit": "M2",
-   "method": "name_to_statement_join",
-   "flag": "runner-up within 0.03 (0.60) — review"
+   "method": "operator-verdict page-context join (T-SPEC-6 re-verdict; corrects stage-1 name-only match; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Energy",
+    "page": "ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy.md",
+    "twin_codes": null,
+    "superseded_code": "4.2",
+    "pmt_excluded": true
+   }
   },
   "spcpt_XKx2bhHQMTtjRT7B": {
    "official_id": "IAL_MATHS:M2-3.1",
@@ -32,123 +39,694 @@
    "score": 0.6389,
    "unit": "M2",
    "method": "name_to_statement_join"
+  },
+  "spcpt_XFW9FFKtQHckyhBB": {
+   "official_id": "IAL_MATHS:M2-4.1",
+   "official_code": "4.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Conservation of Momentum",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_rtw79Qjwq6WHy6mK": {
+   "official_id": "IAL_MATHS:M1-5.2",
+   "official_code": "5.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equilibrium in 2D",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_8FsF3KSbZ4GDtqcY": {
+   "official_id": "IAL_MATHS:M2-5.2",
+   "official_code": "5.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equilibrium in 1D",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_qjrGSfMRNrHFKFX5": {
+   "official_id": "IAL_MATHS:M2-1.3",
+   "official_code": "1.3",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Velocity-Time Graphs",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_4VhGxyfft9FmqFKq": {
+   "official_id": "IAL_MATHS:M1-1.1",
+   "official_code": "1.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Modelling Assumptions",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_GT4R8B9y9q4RTZHF": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Deriving the suvat Formulae",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_v9Gry3JdfWgRKDrw": {
+   "official_id": "IAL_MATHS:M1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction",
+    "page": null,
+    "twin_codes": [
+     "5.3"
+    ],
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_qgg8ZGMtYGRKzHPB": {
+   "official_id": "IAL_MATHS:M1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction - Inclined Planes",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_dqwxZZzNwVSbvb6S": {
+   "official_id": "IAL_MATHS:M2-1.1",
+   "official_code": "1.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Acceleration due to Gravity",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_8W98SQjTkSpr2kMQ": {
+   "official_id": "IAL_MATHS:M1-2.2",
+   "official_code": "2.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Working with Vectors",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_scnKHWsvNrzBTT5K": {
+   "official_id": "IAL_MATHS:M2-4.2",
+   "official_code": "4.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Impulse",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_QmKTzfXFGF6nwbsQ": {
+   "official_id": "IAL_MATHS:M1-4.1",
+   "official_code": "4.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Force Diagrams",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_XMcYznXv3R7vqWcX": {
+   "official_id": "IAL_MATHS:M1-4.1",
+   "official_code": "4.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Types of Force",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Y4PfRKms9VST76PZ": {
+   "official_id": "IAL_MATHS:M1-2.1",
+   "official_code": "2.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Scalars & Vectors",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_hZvhpjqm7TVXQPWM": {
+   "official_id": "IAL_MATHS:M2-5.1",
+   "official_code": "5.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using Moments - Equilibrium",
+    "page": null,
+    "twin_codes": [
+     "5.2"
+    ],
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_gwDNP8pgh2FJjrxv": {
+   "official_id": "IAL_MATHS:M2-5.1",
+   "official_code": "5.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Moments Diagrams",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_7Jz27DTGFkMV4YQH": {
+   "official_id": "IAL_MATHS:M1-4.1",
+   "official_code": "4.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "F = ma",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_f2XM2XNHqVGhXsnk": {
+   "official_id": "IAL_MATHS:M2-1.1",
+   "official_code": "1.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "suvat in 1D",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_HKGykwT46zGnYKzK": {
+   "official_id": "IAL_MATHS:M2-4.2",
+   "official_code": "4.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Collisions",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Hj3JDXWFDGtVBjt8": {
+   "official_id": "IAL_MATHS:M2-1.1",
+   "official_code": "1.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "suvat in 2D",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_6vPzRxtjQy8Kn7yf": {
+   "official_id": "IAL_MATHS:M2-1.2",
+   "official_code": "1.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using suvat",
+    "page": "ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/using-suvat.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_wr7k8jFjbRRkM7F3": {
+   "official_id": "IAL_MATHS:M2-2.3",
+   "official_code": "2.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Objects Suspended in Equilibrium",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/objects-suspended-in-equilibrium.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_G7F5HGsWqKHtKfPs": {
+   "official_id": "IAL_MATHS:M2-4.2",
+   "official_code": "4.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Restitution",
+    "page": "ial-maths-20-mechanics-2/notes/collisions/collisions/coefficient-of-restitution.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_mBFQnR3Hc6f5pKdn": {
+   "official_id": "IAL_MATHS:M2-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Conservation of Energy",
+    "page": "ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy-principles.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_swd9VZNScXBZsRYX": {
+   "official_id": "IAL_MATHS:M2-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Gravitational Potential Energy",
+    "page": "ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_tfkRwhFnDhW2V73x": {
+   "official_id": "IAL_MATHS:M2-2.2",
+   "official_code": "2.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Non-unform Objects & Other Problems",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/non-uniform-objects-and-other-problems.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_SbpcKYdQR7mqWw3f": {
+   "official_id": "IAL_MATHS:M2-2.1",
+   "official_code": "2.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Particles in a (2D) plane",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/particles.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Zf9bVz2qzw5dYP6S": {
+   "official_id": "IAL_MATHS:M2-1.2",
+   "official_code": "1.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Horizontal & Vertical Components",
+    "page": "ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/horizontal-and-vertical-components.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_wbRNpf5zbKQrCpWq": {
+   "official_id": "IAL_MATHS:M2-4.1",
+   "official_code": "4.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Impulse in 2D",
+    "page": "ial-maths-20-mechanics-2/notes/collisions/collisions/impulse-in-2d.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_JqNkg4qXvkzKyC8N": {
+   "official_id": "IAL_MATHS:M2-1.3",
+   "official_code": "1.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using Calculus in 1D",
+    "page": "ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/variable-acceleration-in-1d/using-calculus-in-1d.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_YPdhNKDXcHJm8HKG": {
+   "official_id": "IAL_MATHS:M2-1.2",
+   "official_code": "1.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Deriving Projectile Formulae",
+    "page": "ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/deriving-projectile-formulae.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_PpJkPWQ5HZHN3q3G": {
+   "official_id": "IAL_MATHS:M2-1.4",
+   "official_code": "1.4",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using Calculus in 2D",
+    "page": "ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/variable-acceleration-in-2d/using-calculus-in-2d.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_scnXTjK798w4kzCC": {
+   "official_id": "IAL_MATHS:M2-1.2",
+   "official_code": "1.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equation of a Trajectory",
+    "page": "ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/equation-of-a-trajectory.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_xNNchMvqZTcKMfhC": {
+   "official_id": "IAL_MATHS:M2-2.2",
+   "official_code": "2.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Uniform Laminas",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/uniform-laminas.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_HTVvD7TQ9K8MwHD7": {
+   "official_id": "IAL_MATHS:M2-5.2",
+   "official_code": "5.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Moments - Ladder Problems",
+    "page": "ial-maths-20-mechanics-2/notes/statics-of-rigid-bodies/moments-and-equilibrium/ladders-and-hinges.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_mfJv7BXtG6CH8CYD": {
+   "official_id": "IAL_MATHS:M2-2.3",
+   "official_code": "2.3",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Point of Tipping",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/point-of-tipping.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_58MnrH52cdHgtrD5": {
+   "official_id": "IAL_MATHS:M2-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Work",
+    "page": "ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/work.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_7Vr8CRSfk99mvTKR": {
+   "official_id": "IAL_MATHS:M2-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Power",
+    "page": "ial-maths-20-mechanics-2/notes/work-energy-and-power/power/power.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_MFrzcGnC5rpQ6bKQ": {
+   "official_id": "IAL_MATHS:M2-5.2",
+   "official_code": "5.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using Moments - Harder",
+    "page": "ial-maths-20-mechanics-2/notes/statics-of-rigid-bodies/moments-and-equilibrium/ladders-and-hinges.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_P4nX46W4vRP7bBfR": {
+   "official_id": "IAL_MATHS:M2-4.3",
+   "official_code": "4.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Collisions - Multiple Collisions",
+    "page": "ial-maths-20-mechanics-2/notes/collisions/collisions/multiple-collisions.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_KWhgsKdbVnrJwpt7": {
+   "official_id": "IAL_MATHS:M2-2.1",
+   "official_code": "2.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Particles Along a Straight Line",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/particles.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_BmcFcHKtKXtfzjCH": {
+   "official_id": "IAL_MATHS:M2-2.2",
+   "official_code": "2.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Composite Laminas",
+    "page": "ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/composite-laminas.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   }
  },
  "unmapped": [
   {
-   "spcpt_id": "spcpt_58MnrH52cdHgtrD5",
-   "name": "Work",
-   "reason": "weak name similarity (0.60)"
-  },
-  {
-   "spcpt_id": "spcpt_6vPzRxtjQy8Kn7yf",
-   "name": "Using suvat",
-   "reason": "weak name similarity (0.10)"
-  },
-  {
-   "spcpt_id": "spcpt_7Vr8CRSfk99mvTKR",
-   "name": "Power",
-   "reason": "weak name similarity (0.10)"
-  },
-  {
-   "spcpt_id": "spcpt_BmcFcHKtKXtfzjCH",
-   "name": "Composite Laminas",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_G7F5HGsWqKHtKfPs",
-   "name": "Coefficient of Restitution",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_HTVvD7TQ9K8MwHD7",
-   "name": "Moments - Ladder Problems",
-   "reason": "weak name similarity (0.21)"
-  },
-  {
-   "spcpt_id": "spcpt_JqNkg4qXvkzKyC8N",
-   "name": "Using Calculus in 1D",
-   "reason": "weak name similarity (0.32)"
-  },
-  {
-   "spcpt_id": "spcpt_KWhgsKdbVnrJwpt7",
-   "name": "Particles Along a Straight Line",
-   "reason": "weak name similarity (0.24)"
-  },
-  {
-   "spcpt_id": "spcpt_MFrzcGnC5rpQ6bKQ",
-   "name": "Using Moments - Harder",
-   "reason": "weak name similarity (0.22)"
-  },
-  {
-   "spcpt_id": "spcpt_P4nX46W4vRP7bBfR",
-   "name": "Collisions - Multiple Collisions",
-   "reason": "weak name similarity (0.14)"
-  },
-  {
-   "spcpt_id": "spcpt_PpJkPWQ5HZHN3q3G",
-   "name": "Using Calculus in 2D",
-   "reason": "weak name similarity (0.32)"
-  },
-  {
-   "spcpt_id": "spcpt_SbpcKYdQR7mqWw3f",
-   "name": "Particles in a (2D) plane",
-   "reason": "weak name similarity (0.49)"
-  },
-  {
-   "spcpt_id": "spcpt_YPdhNKDXcHJm8HKG",
-   "name": "Deriving Projectile Formulae",
-   "reason": "weak name similarity (0.20)"
-  },
-  {
-   "spcpt_id": "spcpt_Zf9bVz2qzw5dYP6S",
-   "name": "Horizontal & Vertical Components",
-   "reason": "weak name similarity (0.37)"
-  },
-  {
-   "spcpt_id": "spcpt_mBFQnR3Hc6f5pKdn",
-   "name": "Conservation of Energy",
-   "reason": "weak name similarity (0.62)"
-  },
-  {
-   "spcpt_id": "spcpt_mfJv7BXtG6CH8CYD",
-   "name": "Point of Tipping",
-   "reason": "weak name similarity (0.35)"
-  },
-  {
    "spcpt_id": "spcpt_my56RTTfbKXhBwDD",
    "name": "Frameworks",
-   "reason": "weak name similarity (0.11)"
+   "reason": "no-guess pending: SME teaches centres of mass of wire frameworks but the committed M2 registry text (centre of mass of uniform/composite plane figures, use of integration not required) contains no frameworks statement and the published PDF mentions frameworks only in administration text (PDF-verified); nearest statements are M2-2.2 and M3-5.1"
   },
   {
-   "spcpt_id": "spcpt_scnXTjK798w4kzCC",
-   "name": "Equation of a Trajectory",
-   "reason": "weak name similarity (0.22)"
-  },
-  {
-   "spcpt_id": "spcpt_swd9VZNScXBZsRYX",
-   "name": "Gravitational Potential Energy",
-   "reason": "weak name similarity (0.40)"
-  },
-  {
-   "spcpt_id": "spcpt_tfkRwhFnDhW2V73x",
-   "name": "Non-unform Objects & Other Problems",
-   "reason": "weak name similarity (0.17)"
-  },
-  {
-   "spcpt_id": "spcpt_wbRNpf5zbKQrCpWq",
-   "name": "Impulse in 2D",
-   "reason": "weak name similarity (0.15)"
-  },
-  {
-   "spcpt_id": "spcpt_wr7k8jFjbRRkM7F3",
-   "name": "Objects Suspended in Equilibrium",
-   "reason": "weak name similarity (0.46)"
-  },
-  {
-   "spcpt_id": "spcpt_xNNchMvqZTcKMfhC",
-   "name": "Uniform Laminas",
-   "reason": "weak name similarity (0.30)"
+   "spcpt_id": "spcpt_t9ZzPgXFZvYfvYT6",
+   "name": "Fundamental Units",
+   "reason": "no-guess pending: SME teaches SI fundamental units but the published IAL Mathematics Mechanics specification contains no units statement (PDF-verified); consistent with the mechanics-1 pending for this global tag"
   }
  ],
  "flags": [

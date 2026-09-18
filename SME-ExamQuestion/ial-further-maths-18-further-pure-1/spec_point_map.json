@@ -9,12 +9,20 @@
  "official_pool": 25,
  "mappings": {
   "spcpt_6HsdhDNTjd52t99f": {
-   "official_id": "IAL_MATHS:FP1-4.2",
-   "official_code": "4.2",
-   "tier": "S1_name_match",
-   "score": 0.7006,
+   "official_id": "IAL_MATHS:FP1-4.1",
+   "official_code": "4.1",
+   "tier": "P1_name_fragment_join",
+   "score": null,
    "unit": "FP1",
-   "method": "name_to_statement_join"
+   "method": "operator-verdict page-context join (T-SPEC-6 re-verdict; corrects stage-1 name-only match; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equation of a Parabola",
+    "page": "ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/the-parabola.md",
+    "twin_codes": null,
+    "superseded_code": "4.2",
+    "pmt_excluded": true
+   }
   },
   "spcpt_FKPjqDV43mRmSbdk": {
    "official_id": "IAL_MATHS:FP1-1.1",
@@ -47,204 +55,632 @@
    "score": 0.6432,
    "unit": "FP1",
    "method": "name_to_statement_join"
+  },
+  "spcpt_kZwP597VC4kn3npw": {
+   "official_id": "IAL_MATHS:FP1-6.3",
+   "official_code": "6.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Combinations of Matrix Transformations",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/combinations-of-matrix-transformations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_2F78GfSS8pMd4M7S": {
+   "official_id": "IAL_MATHS:FP1-4.1",
+   "official_code": "4.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equation of a Rectangular Hyperbola",
+    "page": "ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/the-rectangular-hyperbola.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_7B4b9yCcrc9JWHbc": {
+   "official_id": "IAL_MATHS:FP1-5.5",
+   "official_code": "5.5",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Inverse of a 2x2 Matrix",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/inverse-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_yxSc5c64XG4yf5Rj": {
+   "official_id": "IAL_MATHS:FP1-1.1",
+   "official_code": "1.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Cartesian Form of Complex Numbers",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/introduction-to-complex-numbers.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_NfbRPQ3SV5hfMXG5": {
+   "official_id": "IAL_MATHS:FP1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Tangents & Normals to a Parabola",
+    "page": "ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/tangents-and-normals.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_jbZvcfGZ7qTzhXZh": {
+   "official_id": "IAL_MATHS:FP1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Tangents & Normals to a Rectangular Hyperbola",
+    "page": "ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/tangents-and-normals.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_M75m468rddysY3Wn": {
+   "official_id": "IAL_MATHS:FP1-1.1",
+   "official_code": "1.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Modulus-Argument Form",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/modulus-and-argument.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_rS66jWdV6BtkFBXm": {
+   "official_id": "IAL_MATHS:FP1-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Interval Bisection",
+    "page": "ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/interval-bisection.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_fk4V4Cvw8BX5hfwZ": {
+   "official_id": "IAL_MATHS:FP1-6.2",
+   "official_code": "6.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Reflection Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/standard-matrix-transformations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_VBt5CyWqhyvcvTwD": {
+   "official_id": "IAL_MATHS:FP1-7.1",
+   "official_code": "7.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Sums of Natural Numbers",
+    "page": "ial-further-maths-18-further-pure-1/notes/series/series/standard-series.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_yzsdTrmn8KXkYjYM": {
+   "official_id": "IAL_MATHS:FP1-6.2",
+   "official_code": "6.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Rotation Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/standard-matrix-transformations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_DdchQvsnwcKxhX8Q": {
+   "official_id": "IAL_MATHS:FP1-6.2",
+   "official_code": "6.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Enlargement & Stretch Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/standard-matrix-transformations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_b54Tg8rD74DyCckg": {
+   "official_id": "IAL_MATHS:FP1-8.1",
+   "official_code": "8.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Proof by Induction with Series",
+    "page": "ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_fm8GnX9jBsbsyZFJ": {
+   "official_id": "IAL_MATHS:FP1-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Newton-Raphson Method",
+    "page": "ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/newton-raphson-method.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_jHbjfY6F8Vh77FP9": {
+   "official_id": "IAL_MATHS:FP1-6.4",
+   "official_code": "6.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Determinants as Area Scale Factors",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/transformations-using-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_BhD7jyg3SMt38vvJ": {
+   "official_id": "IAL_MATHS:FP1-5.5",
+   "official_code": "5.5",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Proving Matrix Relationships",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/proving-matrix-relationships.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_vywmYvX3FQXf7n75": {
+   "official_id": "IAL_MATHS:FP1-3.1",
+   "official_code": "3.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Linear Interpolation",
+    "page": "ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/linear-interpolation.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_6NkRppSFKD89hB3j": {
+   "official_id": "IAL_MATHS:FP1-8.1",
+   "official_code": "8.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Proof by Induction with Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_P6PMYkhvyYkCXM2d": {
+   "official_id": "IAL_MATHS:FP1-8.1",
+   "official_code": "8.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Proof by Induction with Sequences",
+    "page": "ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_N7DZpzv4CQWjn2zk": {
+   "official_id": "IAL_MATHS:FP1-6.4",
+   "official_code": "6.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Inverse Matrix Transformations",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/inverse-matrix-transformations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_sHXRjK4zv3YvQgFM": {
+   "official_id": "IAL_MATHS:FP1-1.2",
+   "official_code": "1.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Multiplying Complex Numbers",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/introduction-to-complex-numbers.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_DDB9HJsj2Jgg4NGY": {
+   "official_id": "IAL_MATHS:FP1-2.2",
+   "official_code": "2.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Expressions with Roots",
+    "page": "ial-further-maths-18-further-pure-1/notes/roots-of-quadratic-equations/roots-of-quadratic-equations/roots-of-quadratic-equations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_2kCMJxYFHMRBzPZX": {
+   "official_id": "IAL_MATHS:FP1-2.1",
+   "official_code": "2.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Sums & Products of Roots",
+    "page": "ial-further-maths-18-further-pure-1/notes/roots-of-quadratic-equations/roots-of-quadratic-equations/roots-of-quadratic-equations.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Vj2kxp9s4PfSKScf": {
+   "official_id": "IAL_MATHS:FP1-1.6",
+   "official_code": "1.6",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Cubics & Quartics with Complex Roots",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/solving-equations-with-complex-roots/solving-equations-with-complex-roots.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_QxWTPpG7ytN8DXtk": {
+   "official_id": "IAL_MATHS:FP1-5.4",
+   "official_code": "5.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Determinant of a 2x2 Matrix",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/inverse-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_JYbZRnDqxyS2R2qp": {
+   "official_id": "IAL_MATHS:FP1-1.2",
+   "official_code": "1.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Complex Conjugates & Division",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/introduction-to-complex-numbers.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_zsSv929BKZ5RjrwZ": {
+   "official_id": "IAL_MATHS:FP1-1.5",
+   "official_code": "1.5",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Quadratics with Complex Roots",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/solving-equations-with-complex-roots/solving-equations-with-complex-roots.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_t53s6pXwMkTNqYjz": {
+   "official_id": "IAL_MATHS:FP1-1.1",
+   "official_code": "1.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equating Real & Imaginary Parts",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/equating-real-and-imaginary-parts.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_DFnsnvP295B5FmbK": {
+   "official_id": "IAL_MATHS:FP1-5.3",
+   "official_code": "5.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Multiplying Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/multiplying-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_CRFsjrVKdnBVB9Qg": {
+   "official_id": "IAL_MATHS:FP1-5.1",
+   "official_code": "5.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Introduction to Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/introduction-to-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_zNkvbSrS3xysKQyQ": {
+   "official_id": "IAL_MATHS:FP1-6.2",
+   "official_code": "6.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Transforming Points using Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/transformations-using-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_JDWV8bD7tNcdGzCF": {
+   "official_id": "IAL_MATHS:FP1-5.3",
+   "official_code": "5.3",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Basic Operations with Matrices",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/introduction-to-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_zBy7BQ9swFbWk3ZJ": {
+   "official_id": "IAL_MATHS:FP1-5.3",
+   "official_code": "5.3",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "The Identity Matrix",
+    "page": "ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/multiplying-matrices.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_cB4gPQXjPVyXhqv2": {
+   "official_id": "IAL_MATHS:FP1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Roots in Intervals",
+    "page": "ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/roots-in-intervals.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_43RTm6JtZxvK7VS3": {
+   "official_id": "IAL_MATHS:FP1-7.1",
+   "official_code": "7.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Combinations of Series",
+    "page": "ial-further-maths-18-further-pure-1/notes/series/series/combinations-of-series.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Dwkpk276tdPzYYpF": {
+   "official_id": "IAL_MATHS:FP1-7.1",
+   "official_code": "7.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Sums of Cubes",
+    "page": "ial-further-maths-18-further-pure-1/notes/series/series/standard-series.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_qnKVvs82Wxy4pD6P": {
+   "official_id": "IAL_MATHS:FP1-7.1",
+   "official_code": "7.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Sums of Squares",
+    "page": "ial-further-maths-18-further-pure-1/notes/series/series/standard-series.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_SMzk6CSSYWkfQPd8": {
+   "official_id": "IAL_MATHS:FP1-8.1",
+   "official_code": "8.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Introduction to Proof by Induction",
+    "page": "ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/proof-by-induction.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_JHZkQZRBZM76WjSK": {
+   "official_id": "IAL_MATHS:FP1-1.3",
+   "official_code": "1.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "FP1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Argand Diagrams",
+    "page": "ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/modulus-and-argument.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   }
  },
- "unmapped": [
-  {
-   "spcpt_id": "spcpt_2F78GfSS8pMd4M7S",
-   "name": "Equation of a Rectangular Hyperbola",
-   "reason": "weak name similarity (0.55)"
-  },
-  {
-   "spcpt_id": "spcpt_2kCMJxYFHMRBzPZX",
-   "name": "Sums & Products of Roots",
-   "reason": "weak name similarity (0.49)"
-  },
-  {
-   "spcpt_id": "spcpt_43RTm6JtZxvK7VS3",
-   "name": "Combinations of Series",
-   "reason": "weak name similarity (0.43)"
-  },
-  {
-   "spcpt_id": "spcpt_6NkRppSFKD89hB3j",
-   "name": "Proof by Induction with Matrices",
-   "reason": "weak name similarity (0.47)"
-  },
-  {
-   "spcpt_id": "spcpt_7B4b9yCcrc9JWHbc",
-   "name": "Inverse of a 2x2 Matrix",
-   "reason": "weak name similarity (0.38)"
-  },
-  {
-   "spcpt_id": "spcpt_BhD7jyg3SMt38vvJ",
-   "name": "Proving Matrix Relationships",
-   "reason": "weak name similarity (0.36)"
-  },
-  {
-   "spcpt_id": "spcpt_CRFsjrVKdnBVB9Qg",
-   "name": "Introduction to Matrices",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_DDB9HJsj2Jgg4NGY",
-   "name": "Expressions with Roots",
-   "reason": "weak name similarity (0.52)"
-  },
-  {
-   "spcpt_id": "spcpt_DFnsnvP295B5FmbK",
-   "name": "Multiplying Matrices",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_DdchQvsnwcKxhX8Q",
-   "name": "Enlargement & Stretch Matrices",
-   "reason": "weak name similarity (0.40)"
-  },
-  {
-   "spcpt_id": "spcpt_Dwkpk276tdPzYYpF",
-   "name": "Sums of Cubes",
-   "reason": "weak name similarity (0.37)"
-  },
-  {
-   "spcpt_id": "spcpt_JDWV8bD7tNcdGzCF",
-   "name": "Basic Operations with Matrices",
-   "reason": "weak name similarity (0.34)"
-  },
-  {
-   "spcpt_id": "spcpt_JHZkQZRBZM76WjSK",
-   "name": "Argand Diagrams",
-   "reason": "weak name similarity (0.37)"
-  },
-  {
-   "spcpt_id": "spcpt_JYbZRnDqxyS2R2qp",
-   "name": "Complex Conjugates & Division",
-   "reason": "weak name similarity (0.32)"
-  },
-  {
-   "spcpt_id": "spcpt_M75m468rddysY3Wn",
-   "name": "Modulus-Argument Form",
-   "reason": "weak name similarity (0.38)"
-  },
-  {
-   "spcpt_id": "spcpt_N7DZpzv4CQWjn2zk",
-   "name": "Inverse Matrix Transformations",
-   "reason": "weak name similarity (0.43)"
-  },
-  {
-   "spcpt_id": "spcpt_NfbRPQ3SV5hfMXG5",
-   "name": "Tangents & Normals to a Parabola",
-   "reason": "weak name similarity (0.53)"
-  },
-  {
-   "spcpt_id": "spcpt_P6PMYkhvyYkCXM2d",
-   "name": "Proof by Induction with Sequences",
-   "reason": "weak name similarity (0.49)"
-  },
-  {
-   "spcpt_id": "spcpt_QxWTPpG7ytN8DXtk",
-   "name": "Determinant of a 2x2 Matrix",
-   "reason": "weak name similarity (0.38)"
-  },
-  {
-   "spcpt_id": "spcpt_SMzk6CSSYWkfQPd8",
-   "name": "Introduction to Proof by Induction",
-   "reason": "weak name similarity (0.42)"
-  },
-  {
-   "spcpt_id": "spcpt_VBt5CyWqhyvcvTwD",
-   "name": "Sums of Natural Numbers",
-   "reason": "weak name similarity (0.47)"
-  },
-  {
-   "spcpt_id": "spcpt_Vj2kxp9s4PfSKScf",
-   "name": "Cubics & Quartics with Complex Roots",
-   "reason": "weak name similarity (0.43)"
-  },
-  {
-   "spcpt_id": "spcpt_b54Tg8rD74DyCckg",
-   "name": "Proof by Induction with Series",
-   "reason": "weak name similarity (0.62)"
-  },
-  {
-   "spcpt_id": "spcpt_cB4gPQXjPVyXhqv2",
-   "name": "Roots in Intervals",
-   "reason": "weak name similarity (0.38)"
-  },
-  {
-   "spcpt_id": "spcpt_fk4V4Cvw8BX5hfwZ",
-   "name": "Reflection Matrices",
-   "reason": "weak name similarity (0.60)"
-  },
-  {
-   "spcpt_id": "spcpt_fm8GnX9jBsbsyZFJ",
-   "name": "Newton-Raphson Method",
-   "reason": "weak name similarity (0.36)"
-  },
-  {
-   "spcpt_id": "spcpt_jHbjfY6F8Vh77FP9",
-   "name": "Determinants as Area Scale Factors",
-   "reason": "weak name similarity (0.44)"
-  },
-  {
-   "spcpt_id": "spcpt_jbZvcfGZ7qTzhXZh",
-   "name": "Tangents & Normals to a Rectangular Hyperbola",
-   "reason": "weak name similarity (0.42)"
-  },
-  {
-   "spcpt_id": "spcpt_kZwP597VC4kn3npw",
-   "name": "Combinations of Matrix Transformations",
-   "reason": "weak name similarity (0.60)"
-  },
-  {
-   "spcpt_id": "spcpt_qnKVvs82Wxy4pD6P",
-   "name": "Sums of Squares",
-   "reason": "weak name similarity (0.34)"
-  },
-  {
-   "spcpt_id": "spcpt_rS66jWdV6BtkFBXm",
-   "name": "Interval Bisection",
-   "reason": "weak name similarity (0.61)"
-  },
-  {
-   "spcpt_id": "spcpt_sHXRjK4zv3YvQgFM",
-   "name": "Multiplying Complex Numbers",
-   "reason": "weak name similarity (0.50)"
-  },
-  {
-   "spcpt_id": "spcpt_t53s6pXwMkTNqYjz",
-   "name": "Equating Real & Imaginary Parts",
-   "reason": "weak name similarity (0.40)"
-  },
-  {
-   "spcpt_id": "spcpt_vywmYvX3FQXf7n75",
-   "name": "Linear Interpolation",
-   "reason": "weak name similarity (0.60)"
-  },
-  {
-   "spcpt_id": "spcpt_yxSc5c64XG4yf5Rj",
-   "name": "Cartesian Form of Complex Numbers",
-   "reason": "weak name similarity (0.53)"
-  },
-  {
-   "spcpt_id": "spcpt_yzsdTrmn8KXkYjYM",
-   "name": "Rotation Matrices",
-   "reason": "weak name similarity (0.60)"
-  },
-  {
-   "spcpt_id": "spcpt_zBy7BQ9swFbWk3ZJ",
-   "name": "The Identity Matrix",
-   "reason": "weak name similarity (0.50)"
-  },
-  {
-   "spcpt_id": "spcpt_zNkvbSrS3xysKQyQ",
-   "name": "Transforming Points using Matrices",
-   "reason": "weak name similarity (0.24)"
-  },
-  {
-   "spcpt_id": "spcpt_zsSv929BKZ5RjrwZ",
-   "name": "Quadratics with Complex Roots",
-   "reason": "weak name similarity (0.52)"
-  }
- ],
+ "unmapped": [],
  "flags": []
 }

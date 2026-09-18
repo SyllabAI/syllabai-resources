@@ -69,6 +69,13 @@ if not COURSES:
           file=sys.stderr)
     sys.exit(1)
 
+# Unit-scoped regime (T-SPEC-6 IAL maths): the course map carries unit_scope;
+# the qualification parse carries unit-prefixed ids (IAL_MATHS:P1-1.1 ...).
+# For these courses G1 checks part codes by exact derivation from the part's
+# own tag ids via the resolution sidecar, and G2 additionally checks the
+# (official_id, official_code) pair against the full qualification registry.
+UNIT_SCOPED: dict[str, str] = {}
+REG_BY_ID: dict[str, dict] = {}
 REG = {}
 UNRESOLVED = {}
 RES_DOC = {}
@@ -76,9 +83,17 @@ for course in COURSES:
     res = json.loads((EQ / course / "spec_point_resolution.json")
                      .read_text(encoding="utf-8"))
     RES_DOC[course] = res
-    qual = json.loads((EQ / course / "spec_point_map.json")
-                      .read_text(encoding="utf-8"))["qual"]
+    mp = json.loads((EQ / course / "spec_point_map.json")
+                    .read_text(encoding="utf-8"))
+    qual = mp["qual"]
+    unit_scope = mp.get("unit_scope")
     REG[course] = course_registry(course, qual)
+    if unit_scope and qual == "ial-maths":
+        UNIT_SCOPED[course] = unit_scope
+        pts = json.loads((PARSED / qual / "spec_points.json")
+                         .read_text(encoding="utf-8"))["spec_points"]
+        REG[course] = {p["official_code"]: p for p in pts}
+        REG_BY_ID[course] = {p["id"]: p for p in pts}
     UNRESOLVED[course] = {r["id"] for r in res["resolved"]
                           if not r.get("resolved_code")}
 
@@ -122,6 +137,21 @@ for f in subtopic_files:
                 else:
                     unapplied_no_codes += 1
                 continue
+            if course in UNIT_SCOPED:
+                # exact derivation: part codes must equal the codes derived
+                # from the part's own tag ids via the resolution sidecar
+                id2code = {r["id"]: r.get("resolved_code")
+                           for r in RES_DOC[course]["resolved"]}
+                derived = {id2code[s] for s in sids if id2code.get(s)}
+                if not derived:
+                    if all(s in UNRESOLVED[course] for s in sids):
+                        allowlisted += 1
+                    else:
+                        errors.append(f"{f}: part {part['id']} ids without codes")
+                    continue
+                if set(codes) != derived:
+                    errors.append(f"{f}: part {part['id']} codes {sorted(codes)} "
+                                  f"!= id-derived {sorted(derived)}")
             for c in codes:
                 if c not in registry:
                     errors.append(f"{f}: part {part['id']} foreign code {c}")
@@ -144,6 +174,13 @@ for course in COURSES:
             errors.append(f"{course}: resolution code not in registry: {r['id']}")
         if not code and not r.get("reason"):
             errors.append(f"{course}: unresolved id without reason: {r['id']}")
+        if course in UNIT_SCOPED:
+            oid = r.get("official_id")
+            if code and oid:
+                p = REG_BY_ID[course].get(oid)
+                if not p or p["official_code"] != code:
+                    errors.append(f"{course}: resolution {r['id']} "
+                                  f"(official_id, code) pair mismatch")
 
     # G3 every question-referenced id is covered
     qid = idx["coverage"]["question_part_ids_total"]

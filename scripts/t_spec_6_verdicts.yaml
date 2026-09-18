@@ -1,0 +1,5418 @@
+schema: syllabai.t-spec-6-verdicts/1.0
+note: 'T-SPEC-6 IAL maths — operator-reviewed page-context verdicts (SME IAL pages publish no definition
+  text; upstream ticket #13). Tiers: P1 = distinctive name fragment shared with the statement; P2 = page-context
+  join (tag name + revision-note page anchoring + page body + exam-part text). SME reuses one global tag
+  id across unit courses, so verdicts are merged per id with per-course records; cross-unit resolves follow
+  the global tag identity (home page/name) or unit-restated statements and are documented per verdict.
+  stage1_confirm records re-validate existing stage-1 mappings (no write). PMT excluded as source.'
+courses:
+  ial-further-maths-18-further-pure-1:
+    resolves: 39
+    remaps: 1
+    pendings: 0
+    stage1_confirms: 4
+    unit: FP1
+  ial-maths-20-decision-1:
+    resolves: 35
+    remaps: 0
+    pendings: 10
+    stage1_confirms: 8
+    unit: D1
+  ial-maths-20-mechanics-1:
+    resolves: 33
+    remaps: 2
+    pendings: 4
+    stage1_confirms: 2
+    unit: M1
+  ial-maths-20-mechanics-2:
+    resolves: 42
+    remaps: 1
+    pendings: 2
+    stage1_confirms: 2
+    unit: M2
+  ial-maths-20-pure-1:
+    resolves: 34
+    remaps: 0
+    pendings: 6
+    stage1_confirms: 6
+    unit: P1
+  ial-maths-20-pure-2:
+    resolves: 55
+    remaps: 1
+    pendings: 4
+    stage1_confirms: 8
+    unit: P2
+  ial-maths-20-pure-3:
+    resolves: 67
+    remaps: 0
+    pendings: 1
+    stage1_confirms: 1
+    unit: P3
+  ial-maths-20-pure-4:
+    resolves: 55
+    remaps: 0
+    pendings: 2
+    stage1_confirms: 8
+    unit: P4
+  ial-maths-20-statistics-1:
+    resolves: 38
+    remaps: 0
+    pendings: 0
+    stage1_confirms: 6
+    unit: S1
+  ial-maths-20-statistics-2:
+    resolves: 29
+    remaps: 0
+    pendings: 0
+    stage1_confirms: 6
+    unit: S2
+id_verdicts:
+  spcpt_Hs74d7x8s4dhjc6n:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: FP1
+        quote: Focus & Directrix of a Parabola
+        stage1_confirm: true
+        page: ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/the-parabola.md
+        note: stage-1 confirm
+  spcpt_QmPxGf23JSYwB2VW:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: FP1
+        quote: Forming Quadratics with New Roots
+        stage1_confirm: true
+        page: ial-further-maths-18-further-pure-1/notes/roots-of-quadratic-equations/roots-of-quadratic-equations/forming-quadratics-with-new-roots.md
+        note: stage-1 confirm
+  spcpt_FKPjqDV43mRmSbdk:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: FP1
+        quote: Modulus & Argument
+        stage1_confirm: true
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/modulus-and-argument.md
+        note: stage-1 confirm
+  spcpt_Zdhf85vx7x4Jdd54:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: FP1
+        quote: Proof by Induction with Divisibility
+        stage1_confirm: true
+        page: ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md
+        note: stage-1 confirm
+  spcpt_6HsdhDNTjd52t99f:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: FP1
+        quote: Equation of a Parabola
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/the-parabola.md
+        superseded_code: '4.2'
+        note: 'T-SPEC-6 re-verdict: corrects the stage-1 name-only mapping (4.2 parametric idea); the
+          tag ''Equation of a Parabola'' targets the Cartesian equation y^2=4ax which is statement 4.1
+          verbatim; parametric content co-carried by 4.2 remains for parametric-specific tags'
+  spcpt_kZwP597VC4kn3npw:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.3'
+        unit: FP1
+        quote: Combinations of Matrix Transformations
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/combinations-of-matrix-transformations.md
+  spcpt_2F78GfSS8pMd4M7S:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: FP1
+        quote: Equation of a Rectangular Hyperbola
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/the-rectangular-hyperbola.md
+        note: xy=c^2 listed verbatim in statement 4.1
+  spcpt_7B4b9yCcrc9JWHbc:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.5'
+        unit: FP1
+        quote: Inverse of a 2x2 Matrix
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/inverse-matrices.md
+  spcpt_yxSc5c64XG4yf5Rj:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: FP1
+        quote: Cartesian Form of Complex Numbers
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/introduction-to-complex-numbers.md
+  spcpt_NfbRPQ3SV5hfMXG5:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: FP1
+        quote: Tangents & Normals to a Parabola
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/tangents-and-normals.md
+  spcpt_jbZvcfGZ7qTzhXZh:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: FP1
+        quote: Tangents & Normals to a Rectangular Hyperbola
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/coordinate-systems/coordinate-systems/tangents-and-normals.md
+  spcpt_M75m468rddysY3Wn:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: FP1
+        quote: Modulus-Argument Form
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/modulus-and-argument.md
+  spcpt_rS66jWdV6BtkFBXm:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: FP1
+        quote: Interval Bisection
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/interval-bisection.md
+  spcpt_fk4V4Cvw8BX5hfwZ:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: FP1
+        quote: Reflection Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/standard-matrix-transformations.md
+  spcpt_VBt5CyWqhyvcvTwD:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: FP1
+        quote: Sums of Natural Numbers
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/series/series/standard-series.md
+  spcpt_yzsdTrmn8KXkYjYM:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: FP1
+        quote: Rotation Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/standard-matrix-transformations.md
+  spcpt_DdchQvsnwcKxhX8Q:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: FP1
+        quote: Enlargement & Stretch Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/standard-matrix-transformations.md
+  spcpt_b54Tg8rD74DyCckg:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: FP1
+        quote: Proof by Induction with Series
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md
+  spcpt_fm8GnX9jBsbsyZFJ:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: FP1
+        quote: Newton-Raphson Method
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/newton-raphson-method.md
+  spcpt_jHbjfY6F8Vh77FP9:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.4'
+        unit: FP1
+        quote: Determinants as Area Scale Factors
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/transformations-using-matrices.md
+  spcpt_BhD7jyg3SMt38vvJ:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.5'
+        unit: FP1
+        quote: Proving Matrix Relationships
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/proving-matrix-relationships.md
+        note: proving matrix relationships such as (AB)^-1 = B^-1A^-1 = statement 5.5 scope
+  spcpt_vywmYvX3FQXf7n75:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: FP1
+        quote: Linear Interpolation
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/linear-interpolation.md
+  spcpt_6NkRppSFKD89hB3j:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: FP1
+        quote: Proof by Induction with Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md
+  spcpt_P6PMYkhvyYkCXM2d:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: FP1
+        quote: Proof by Induction with Sequences
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/standard-proofs-by-induction.md
+  spcpt_N7DZpzv4CQWjn2zk:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.4'
+        unit: FP1
+        quote: Inverse Matrix Transformations
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/inverse-matrix-transformations.md
+        note: 'statement 6.4 verbatim: ''The inverse (when it exists) of a given transformation'''
+  spcpt_sHXRjK4zv3YvQgFM:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: FP1
+        quote: Multiplying Complex Numbers
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/introduction-to-complex-numbers.md
+  spcpt_DDB9HJsj2Jgg4NGY:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: FP1
+        quote: Expressions with Roots
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/roots-of-quadratic-equations/roots-of-quadratic-equations/roots-of-quadratic-equations.md
+  spcpt_2kCMJxYFHMRBzPZX:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: FP1
+        quote: Sums & Products of Roots
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/roots-of-quadratic-equations/roots-of-quadratic-equations/roots-of-quadratic-equations.md
+  spcpt_Vj2kxp9s4PfSKScf:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: FP1
+        quote: Cubics & Quartics with Complex Roots
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/solving-equations-with-complex-roots/solving-equations-with-complex-roots.md
+  spcpt_QxWTPpG7ytN8DXtk:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.4'
+        unit: FP1
+        quote: Determinant of a 2x2 Matrix
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/inverse-matrices.md
+  spcpt_JYbZRnDqxyS2R2qp:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: FP1
+        quote: Complex Conjugates & Division
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/introduction-to-complex-numbers.md
+  spcpt_zsSv929BKZ5RjrwZ:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: FP1
+        quote: Quadratics with Complex Roots
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/solving-equations-with-complex-roots/solving-equations-with-complex-roots.md
+  spcpt_t53s6pXwMkTNqYjz:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: FP1
+        quote: Equating Real & Imaginary Parts
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/equating-real-and-imaginary-parts.md
+  spcpt_DFnsnvP295B5FmbK:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.3'
+        unit: FP1
+        quote: Multiplying Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/multiplying-matrices.md
+  spcpt_CRFsjrVKdnBVB9Qg:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: FP1
+        quote: Introduction to Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/introduction-to-matrices.md
+        note: introduction page teaches matrix definition plus addition/subtraction; nearest statement
+          5.1
+  spcpt_zNkvbSrS3xysKQyQ:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: FP1
+        quote: Transforming Points using Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/transformations-using-matrices/transformations-using-matrices.md
+  spcpt_JDWV8bD7tNcdGzCF:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.3'
+        unit: FP1
+        quote: Basic Operations with Matrices
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/introduction-to-matrices.md
+  spcpt_zBy7BQ9swFbWk3ZJ:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.3'
+        unit: FP1
+        quote: The Identity Matrix
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/matrices/matrix-algebra/multiplying-matrices.md
+        note: identity matrix introduced within matrix multiplication (5.3); parts use inverses co-carried
+          by 5.5 tags
+  spcpt_cB4gPQXjPVyXhqv2:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: FP1
+        quote: Roots in Intervals
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/numerical-solutions-of-equations/numerical-solutions-of-equations/roots-in-intervals.md
+  spcpt_43RTm6JtZxvK7VS3:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: FP1
+        quote: Combinations of Series
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/series/series/combinations-of-series.md
+  spcpt_Dwkpk276tdPzYYpF:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: FP1
+        quote: Sums of Cubes
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/series/series/standard-series.md
+  spcpt_qnKVvs82Wxy4pD6P:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: FP1
+        quote: Sums of Squares
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/series/series/standard-series.md
+  spcpt_SMzk6CSSYWkfQPd8:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: FP1
+        quote: Introduction to Proof by Induction
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/proof/proof-by-induction/proof-by-induction.md
+  spcpt_JHZkQZRBZM76WjSK:
+    verdict: resolve
+    courses:
+      ial-further-maths-18-further-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: FP1
+        quote: Argand Diagrams
+        stage1_confirm: false
+        page: ial-further-maths-18-further-pure-1/notes/complex-numbers/operations-with-complex-numbers/modulus-and-argument.md
+  spcpt_cm3fwdmGY3HDyvjV:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: D1
+        quote: The Classical & Practical Travelling Salesman Problem
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-travelling-salesman-problem/the-travelling-salesman-problem.md
+        note: stage-1 confirm
+  spcpt_GzzWTsWwZ252dRpv:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: D1
+        quote: Dijkstra's Algorithm
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/shortest-path-algorithms/dijkstras-algorithm.md
+        note: stage-1 confirm
+  spcpt_Xhz9tPKq3b3J9HWM:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: D1
+        quote: Latest Event Times
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/critical-paths.md
+        note: stage-1 confirm
+  spcpt_dhRm2dQ87WyZp6J8:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: D1
+        quote: Earliest Event Times
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/critical-paths.md
+        note: stage-1 confirm
+  spcpt_jCNdmDdvzTfzSCF8:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.3'
+        unit: D1
+        quote: Integer Solutions
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/linear-programming/graphical-solutions-of-lp-problems/finding-the-optimal-integer-solution.md
+        note: stage-1 confirm
+  spcpt_jsvMbYSNrrYY9h3d:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Kruskal's Algorithm
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/kruskals-algorithm.md
+        note: stage-1 confirm; statement 2.1 includes Kruskal's algorithm (PDF-verified, truncated in
+          committed parse)
+  spcpt_4KvCvTtSnQnbmCpW:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: Quick Sort
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/sorting-algorithms.md
+        note: stage-1 confirm
+  spcpt_Vcg4PHTNDThnKgZ2:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: Bubble Sort
+        stage1_confirm: true
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/sorting-algorithms.md
+        note: stage-1 confirm
+  spcpt_7bBdB5ZtfBRKrDtX:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: D1
+        quote: Activity Networks & Precedence Tables
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/activity-networks-and-precedence-tables.md
+  spcpt_zRs4Yh5KvWq3WyKS:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: D1
+        quote: The Chinese Postman Problem
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-route-inspection-algorithm/route-inspection.md
+  spcpt_kdsfyGCHBSPwhMQK:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: D1
+        quote: Critical Path & Critical Activities
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/critical-paths.md
+  spcpt_NrWwXjJZ9DMCbpZn:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Prim's Algorithm using a Matrix
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/prims-algorithm.md
+  spcpt_zVhvgrfbmXNfnpXT:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: D1
+        quote: Completing a Precedence Table
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/activity-networks-and-precedence-tables.md
+  spcpt_BRTBn4PHdYjxcYdy:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: D1
+        quote: Drawing an Activity Network
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/activity-networks-and-precedence-tables.md
+  spcpt_vM8dxJfRb45N35rV:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: D1
+        quote: Solving the Travelling Salesman Problem
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-travelling-salesman-problem/solving-the-travelling-salesman-problem.md
+  spcpt_9YmCJGKWp5cKsBqG:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.3'
+        unit: D1
+        quote: Finding a Lower Bound using a Minimum Connector
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-travelling-salesman-problem/upper-and-lower-bounds-for-the-travelling-salesman-problem.md
+  spcpt_jFw8QgmRgsYPg89c:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: First-Fit Bin Packing Algorithm
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/bin-packing-algorithms.md
+  spcpt_sQPhN4n7HWK9DRry:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: First-Fit Decreasing Bin Packing Algorithm
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/bin-packing-algorithms.md
+  spcpt_c2bwJnJzvYhj22vC:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: Full-Bin Packing Algorithm
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/bin-packing-algorithms.md
+  spcpt_6MrxckS4B59GZns8:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Prim's Algorithm using Edges & Vertices
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/prims-algorithm.md
+  spcpt_37mJDmGbj5wYYzWF:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: D1
+        quote: Networks with more than 2 Odd Vertices
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-route-inspection-algorithm/route-inspection-and-repeated-routes.md
+  spcpt_SWNq6cfM2PcV7PNX:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: D1
+        quote: Networks with 0 or 2 Odd Vertices
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-route-inspection-algorithm/route-inspection.md
+  spcpt_HKKqTh4c83HbRhck:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: D1
+        quote: Introduction to Critical Path Analysis
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/critical-paths.md
+        note: CPA intro = modelling of a project by an activity network (4.1); the algorithmic core is
+          covered by the page's other tags (4.3)
+  spcpt_Zmf4G8ptrjJTyQzz:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: Binary Search
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/searching-algorithms.md
+        note: binary search is listed verbatim in statement 1.2
+  spcpt_zhGH23vdhhw5pDX2:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: D1
+        quote: Text-Based Algorithms
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/general-algorithms.md
+  spcpt_gm4qdfZbrNvkCS3S:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: Introduction to Bin Packing Algorithms
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/bin-packing-algorithms.md
+  spcpt_CDrxV4K9j3rBppb6:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.3'
+        unit: D1
+        quote: Finding an Upper Bound using a Minimum Connector
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-travelling-salesman-problem/upper-and-lower-bounds-for-the-travelling-salesman-problem.md
+  spcpt_5M4cNk3PtSgwyT9F:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: D1
+        quote: Constraints & Inequalities in Linear Programming
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/linear-programming-lp-problems/formulating-a-linear-programming-problem.md
+  spcpt_dm8d8NdqXZ86qCtJ:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Introduction to Prim's Algorithm
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/prims-algorithm.md
+  spcpt_c4x6xkBRwStbd9wY:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Networks & Matrices
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/networks-and-matrices.md
+        note: network-matrix representation is 2.1's scope ('drawing a network from a given matrix and
+          writing down the matrix associated with a network')
+  spcpt_mpPyxNyDHWtynYG8:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Introduction to Networks & Matrices
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/networks-and-matrices.md
+  spcpt_b3g5Xvr72HJrHwrr:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: D1
+        quote: Decision Variables in Linear Programming
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/linear-programming-lp-problems/formulating-a-linear-programming-problem.md
+  spcpt_mdHSsJWn3V3wQv6v:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: D1
+        quote: Feasible Region
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/graphical-solutions-of-lp-problems/sketching-the-feasible-region.md
+  spcpt_gRHgyFgW2bf6vQrK:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: D1
+        quote: Flow Charts
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/general-algorithms.md
+  spcpt_h68Jt9Vr3bmcy6FN:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.2'
+        unit: D1
+        quote: Nearest Neighbour Algorithm
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/the-travelling-salesman-problem/upper-and-lower-bounds-for-the-travelling-salesman-problem.md
+        note: nearest-neighbour upper bounds = TSP statement 3.2 scope ('use of short cuts to improve
+          upper bound')
+  spcpt_JcFRspDf7gjktJNn:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: D1
+        quote: Dummies
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/critical-path-analysis/critical-path-analysis/dummy-activities.md
+        note: 'statement 4.1 verbatim: ''the use of dummies is included'''
+  spcpt_54K9jGM5NpNxkjnW:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: D1
+        quote: Introduction to Linear Programming
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/linear-programming-lp-problems/formulating-a-linear-programming-problem.md
+  spcpt_QNpRGQHvyfTQgDXj:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: D1
+        quote: Vertex Method
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/graphical-solutions-of-lp-problems/finding-the-optimal-solution.md
+  spcpt_8gBcbKsMFqBsThd6:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: D1
+        quote: Introduction to Algorithms
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/general-algorithms.md
+  spcpt_r9mzkqH5CfKCjppT:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: D1
+        quote: Objective Line
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/graphical-solutions-of-lp-problems/finding-the-optimal-solution.md
+  spcpt_PVmrngMBS34TZSnP:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: D1
+        quote: Introduction to Solving an LP Problem Graphically
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/linear-programming/graphical-solutions-of-lp-problems/sketching-the-feasible-region.md
+  spcpt_wdmRbpKyGXsKZdMF:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: D1
+        quote: Comparing MST Algorithms
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-on-graphs/minimum-spanning-trees/comparing-mst-algorithms.md
+        note: comparing Prim's and Kruskal's = statement 2.1 scope (PDF-verified, truncated in committed
+          parse)
+  spcpt_GhSjBXgQRgBb843c:
+    verdict: resolve
+    courses:
+      ial-maths-20-decision-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: D1
+        quote: Introduction to Sorting Algorithms
+        stage1_confirm: false
+        page: ial-maths-20-decision-1/notes/algorithms-and-graph-theory/algorithms/sorting-algorithms.md
+  spcpt_h3Gvrwv3BRwysKYT:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches graph-theory vocabulary (types of graphs, networks) but
+          the committed D1 registry contains no graph-definitions statement; the published PDF likewise
+          has no standalone statement (graph theory serves statements 2.1/3.1); PDF-verified'
+  spcpt_hrmHmYZTVfcdzcJc:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches an introduction to graph theory but the committed D1 registry
+          and the published PDF contain no standalone graph-definitions statement'
+  spcpt_g4WGr939XD6DZyBD:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches graph properties (degree, walks, connectedness) but the
+          committed D1 registry and the published PDF contain no standalone graph-definitions statement'
+  spcpt_Mzny5k3hmzPrjX2J:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches Eulerian and semi-Eulerian graphs but the published IAL
+          Mathematics specification contains no Eulerian statement (PDF-verified 0 hits for ''Eulerian'');
+          the route-inspection statement 3.1 presupposes the theory but does not state it'
+  spcpt_Sh2bfsQFf7sDZ44z:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches edges/arcs and vertices/nodes vocabulary but the committed
+          D1 registry and the published PDF contain no standalone graph-definitions statement'
+  spcpt_g6QKkK28sx7kfVZp:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches degree/valency of a vertex but the published IAL Mathematics
+          specification contains no statement for it (PDF-verified 0 hits for ''Eulerian''; degree theory
+          serves 3.1 without being stated)'
+  spcpt_Y6ZGFfHSfjhqhh5t:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: SME teaches identifying Hamiltonian cycles but the published IAL Mathematics
+          specification contains no Hamiltonian statement (PDF-verified 0 hits); the classical TSP statement
+          3.2 presupposes the theory but does not state it'
+  spcpt_fN2rrfqvt7NDGwsB:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: total float is stated verbatim in published D1 statement 4.4 ''Total
+          float. Gantt (cascade) charts. Scheduling.'' (PDF lines 5094-5095) but the committed parsed
+          registry lacks D1-4.4 (its code slot carries a notation-table artifact), so no valid registry
+          target exists; flagged for parse repair'
+  spcpt_d6KFycyQksKQ2HGD:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: Gantt (cascade) charts are stated verbatim in published D1 statement
+          4.4 (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4; no valid registry
+          target exists; flagged for parse repair'
+  spcpt_vg4jSpg46ks8kcrD:
+    verdict: pending
+    courses:
+      ial-maths-20-decision-1:
+        reason: 'no-guess pending: scheduling is stated verbatim in published D1 statement 4.4 (PDF lines
+          5094-5095) but the committed parsed registry lacks D1-4.4; no valid registry target exists;
+          flagged for parse repair'
+  spcpt_BHyY3DyqGJ7QHDV4:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: M1
+        quote: Momentum
+        stage1_confirm: true
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/momentum-impulse-and-collisions/momentum-and-impulse.md
+        note: stage-1 confirm
+  spcpt_XFW9FFKtQHckyhBB:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: M1
+        quote: Conservation of Momentum
+        stage1_confirm: true
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/momentum-impulse-and-collisions/direct-collisions.md
+        note: stage-1 confirm
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: M2
+        quote: Conservation of Momentum
+        stage1_confirm: false
+        note: global tag 'Conservation of Momentum' matches M2-4.1 'Conservation of linear momentum' verbatim
+          in this unit
+  spcpt_rtw79Qjwq6WHy6mK:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: M1
+        quote: Equilibrium in 2D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/equilibrium-in-2d.md
+        superseded_code: '6.1'
+        note: 'T-SPEC-6 re-verdict: corrects the stage-1 name-only mapping (6.1 moments); page forces/equilibrium-in-2d.md
+          teaches equilibrium of a particle under coplanar forces = M1-5.2 verbatim'
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: M1
+        quote: Equilibrium in 2D
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Equilibrium in 2D'' = M1-5.2 (particle equilibrium at constant
+          velocity); work-done content co-carried by the Work tag'
+  spcpt_8FsF3KSbZ4GDtqcY:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: M1
+        quote: Equilibrium in 1D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/equilibrium-in-1d.md
+        superseded_code: '6.1'
+        note: 'T-SPEC-6 re-verdict: corrects the stage-1 name-only mapping (6.1 moments); page forces/equilibrium-in-1d.md
+          teaches particle equilibrium (forces balance) = M1-5.2'
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: M2
+        quote: Equilibrium in 1D
+        stage1_confirm: false
+        note: global tag 'Equilibrium in 1D' (M1-5.2 identity); local part is a ladder problem = M2-5.2
+          verbatim ('rods or ladders')
+  spcpt_fKtNWBm3GvYkTyCQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.3'
+        unit: M1
+        quote: Coefficient of Friction - Equilibrium
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/coefficient-of-friction-harder-problems.md
+  spcpt_X9B4Sznz2grFjpX5:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Acceleration-Time Graphs
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/acceleration-time-graphs.md
+  spcpt_qjrGSfMRNrHFKFX5:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Velocity-Time Graphs
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/velocity-time-graphs.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.3'
+        unit: M2
+        quote: Velocity-Time Graphs
+        stage1_confirm: false
+        note: velocity as a function of time (v=4t-t^2, v-t graphs) = M2-1.3 verbatim scope
+  spcpt_w6WvWNXxQmC65FFg:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Displacement-Time Graphs
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/displacement-time-graphs.md
+  spcpt_4VhGxyfft9FmqFKq:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: M1
+        quote: Modelling Assumptions
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/quantities-units-and-modelling/modelling-assumptions.md
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: M1
+        quote: Modelling Assumptions
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Modelling Assumptions'' = M1-1.1'
+  spcpt_hjSmwQJkMPWJFWm9:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: M1
+        quote: Connected Bodies - Pulleys
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/connected-bodies-pulleys.md
+  spcpt_PWm6r5gcY5TJfrV7:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: M1
+        quote: Forces in 2D - Vector Notation
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/f-equals-ma-and-vector-notation.md
+  spcpt_GT4R8B9y9q4RTZHF:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Deriving the suvat Formulae
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-1d/deriving-the-suvat-formulae.md
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Deriving the suvat Formulae
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Deriving the suvat Formulae'' = M1-3.1'
+  spcpt_mQPxYj9fb5nn6Bkv:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Drawing Travel Graphs
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/drawing-travel-graphs.md
+  spcpt_v9Gry3JdfWgRKDrw:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        - '5.3'
+        unit: M1
+        quote: Coefficient of Friction
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/coefficient-of-friction.md
+        note: 'twin codes: page teaches both dynamic friction (F=mu-R when moving, 4.4) and friction in
+          equilibrium (5.3); parts cover both cases'
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        - '5.3'
+        unit: M1
+        quote: Coefficient of Friction
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Coefficient of Friction'' = M1-4.4/5.3 twins (M2 registry has
+          no friction statement)'
+  spcpt_jkPTdhrYSF3sksgC:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: M1
+        quote: Coefficient of Friction - F = ma
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/friction-and-f-equals-ma.md
+  spcpt_qgg8ZGMtYGRKzHPB:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: M1
+        quote: Coefficient of Friction - Inclined Planes
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/friction-and-inclined-planes.md
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: M1
+        quote: Coefficient of Friction - Inclined Planes
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Coefficient of Friction - Inclined Planes'' = M1-4.4'
+  spcpt_z3MZytxHVpYBSJGx:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: M1
+        quote: Coefficient of Friction – Connected Particles
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/coefficient-of-friction-harder-problems.md
+  spcpt_dqwxZZzNwVSbvb6S:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Acceleration due to Gravity
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-1d/acceleration-due-to-gravity.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: M2
+        quote: Acceleration due to Gravity
+        stage1_confirm: false
+        note: gravity as constant acceleration in a vertical plane = M2-1.1 verbatim ('e.g. under gravity')
+  spcpt_8W98SQjTkSpr2kMQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: M1
+        quote: Working with Vectors
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/working-with-vectors/working-with-vectors.md
+        note: parts apply vectors to displacements (farmer's path) = 2.2 scope
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: M1
+        quote: Working with Vectors
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Working with Vectors'' = M1-2.2 (application of vectors to displacements/velocities);
+          parts apply vector techniques across M2 contexts'
+  spcpt_scnKHWsvNrzBTT5K:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: M1
+        quote: Impulse
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/momentum-impulse-and-collisions/momentum-and-impulse.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.2'
+        unit: M2
+        quote: Impulse
+        stage1_confirm: false
+        note: global tag 'Impulse' (M1-4.3 identity); local part computes a coefficient of restitution
+          at a wall = M2-4.2 verbatim
+  spcpt_QmKTzfXFGF6nwbsQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: M1
+        quote: Force Diagrams
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/force-diagrams.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: M1
+        quote: Force Diagrams
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Force Diagrams'' = M1-4.1 (concept of a force, Newton''s laws)'
+  spcpt_XMcYznXv3R7vqWcX:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: M1
+        quote: Types of Force
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/quantities-units-and-modelling/types-of-force.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: M1
+        quote: Types of Force
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Types of Force'' = M1-4.1'
+  spcpt_Wdvfcz3xhySsxV57:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: M1
+        quote: Forces in 2D - Vector Notation
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/forces-in-2d-vector-notation.md
+  spcpt_Y4PfRKms9VST76PZ:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: M1
+        quote: Scalars & Vectors
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/quantities-units-and-modelling/scalars-and-vectors.md
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: M1
+        quote: Scalars & Vectors
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Scalars & Vectors'' = M1-2.1 (magnitude and direction); parts
+          contrast scalar distance with vector displacement'
+  spcpt_MxRjp5mxrhytYQY8:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: M1
+        quote: Forces Acting on an Inclined Plane
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/resolving-forces-and-inclined-planes.md
+  spcpt_hZvhpjqm7TVXQPWM:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.1'
+        unit: M1
+        quote: Using Moments - Equilibrium
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/moments/moments/using-moments-with-equilibrium.md
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        - '5.2'
+        unit: M2
+        quote: Using Moments - Equilibrium
+        stage1_confirm: false
+        note: global tag 'Using Moments - Equilibrium' (M1-6.1 identity covers moments + equilibrium);
+          M2 splits these across 5.1 and 5.2, twins used
+  spcpt_vjTCZ6QnYzDqNB87:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: M1
+        quote: Forces Acting at an Angle
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/resolving-forces-and-inclined-planes.md
+  spcpt_cF9jDPQ2vYxD2nYf:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: M1
+        quote: Connected Bodies - Ropes & Tow Bars
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/connected-bodies-ropes-and-tow-bars.md
+  spcpt_SM682SSGxcbrNGn5:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: M1
+        quote: Connected Bodies - The Lift Problem
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/connected-bodies-lifts.md
+  spcpt_gwDNP8pgh2FJjrxv:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.1'
+        unit: M1
+        quote: Moments Diagrams
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/moments/moments/moments-diagrams.md
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: M2
+        quote: Moments Diagrams
+        stage1_confirm: false
+        note: global tag 'Moments Diagrams' (M1-6.1 identity); in M2 the moment-of-a-force statement is
+          M2-5.1 verbatim
+  spcpt_7Jz27DTGFkMV4YQH:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: M1
+        quote: F = ma
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/f-equals-ma.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: M1
+        quote: F = ma
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''F = ma'' = M1-4.1 Newton''s laws'
+  spcpt_f2XM2XNHqVGhXsnk:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: suvat in 1D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-1d/suvat-in-1d.md
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: M2
+        quote: suvat in 1D
+        stage1_confirm: false
+        note: global tag 'suvat in 1D' (M1-3.1 identity); local parts are vertical motion under gravity
+          = M2-1.1 verbatim example
+  spcpt_2XqMh2DGhXhDDWr2:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '6.1'
+        unit: M1
+        quote: Tilting
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/moments/moments/tilting.md
+  spcpt_HKGykwT46zGnYKzK:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.3'
+        unit: M1
+        quote: Collisions
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/dynamics-and-statics/momentum-impulse-and-collisions/direct-collisions.md
+        note: direct collisions solved via momentum/impulse (M1-4.3); restitution not required in M1
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.2'
+        unit: M2
+        quote: Collisions
+        stage1_confirm: false
+        note: global tag 'Collisions'; local parts use Newton's law of restitution (incl. wall bounce)
+          = M2-4.2
+  spcpt_Hj3JDXWFDGtVBjt8:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: M1
+        quote: suvat in 2D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-2d/suvat-in-2d.md
+        note: suvat with vectors in a plane = 2.2 'application of vectors to displacements, velocities,
+          accelerations'
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: M2
+        quote: suvat in 2D
+        stage1_confirm: false
+        note: suvat in 2D under gravity = M2-1.1 vertical-plane constant acceleration
+  spcpt_6vPzRxtjQy8Kn7yf:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M1
+        quote: Using suvat
+        stage1_confirm: false
+        note: 'index repair: sibling-copy name ''Using suvat'' from mechanics-2 index; suvat = constant-acceleration
+          kinematics = M1-3.1'
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: M2
+        quote: Using suvat
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/using-suvat.md
+        note: own page projectiles/using-suvat; suvat applied to projectile motion = M2-1.2
+  spcpt_XKx2bhHQMTtjRT7B:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Kinetic Energy
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Kinetic Energy'' (mechanics-2 home page energy) = M2-3.1 kinetic/potential
+          energy; the M1 registry has no energy statement'
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Kinetic Energy
+        stage1_confirm: true
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy.md
+        note: stage-1 confirm
+  spcpt_t9ZzPgXFZvYfvYT6:
+    verdict: pending
+    courses:
+      ial-maths-20-mechanics-1:
+        reason: 'no-guess pending: SME teaches SI fundamental units but the published IAL Mathematics
+          Mechanics specification contains no units statement (PDF-verified: ''SI units'' appears only
+          in exam-administration text, not as a spec statement)'
+      ial-maths-20-mechanics-2:
+        reason: 'no-guess pending: SME teaches SI fundamental units but the published IAL Mathematics
+          Mechanics specification contains no units statement (PDF-verified); consistent with the mechanics-1
+          pending for this global tag'
+  spcpt_7TCTw3rnrHwCQVQn:
+    verdict: pending
+    courses:
+      ial-maths-20-mechanics-1:
+        reason: 'no-guess pending: SME teaches derived units but the published IAL Mathematics Mechanics
+          specification contains no units statement (PDF-verified)'
+  spcpt_n4CMFvkrTVx7QjVc:
+    verdict: pending
+    courses:
+      ial-maths-20-mechanics-1:
+        reason: 'no-guess pending: SME teaches centres of mass of uniform rods/laminae but the M1 registry
+          (WME01) has no centre-of-mass statement; nearest statements are M2-2.2 (centre of mass of plane
+          laminas) and M3-5.1, which belong to other units'
+  spcpt_v8hNWGT7NpzTRr5F:
+    verdict: pending
+    courses:
+      ial-maths-20-mechanics-1:
+        reason: 'no-guess pending: SME teaches centres of mass of non-uniform rods but the M1 registry
+          has no centre-of-mass statement (integration-based CoM is M3-5.1 territory); no-guess left unresolved'
+  spcpt_gbhhwj4pKFDHv8sQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Work-Energy Principle
+        stage1_confirm: true
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy-principles.md
+        note: stage-1 confirm
+  spcpt_Sxsvg9Fx9jvM5X65:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Energy
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy.md
+        superseded_code: '4.2'
+        note: 'T-SPEC-6 re-verdict: corrects the stage-1 name-only mapping (4.2 direct impacts); page
+          work-and-energy/energy.md teaches kinetic/potential energy = M2-3.1 verbatim'
+  spcpt_wr7k8jFjbRRkM7F3:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: M2
+        quote: Objects Suspended in Equilibrium
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/objects-suspended-in-equilibrium.md
+  spcpt_G7F5HGsWqKHtKfPs:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: M2
+        quote: Coefficient of Restitution
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/collisions/collisions/coefficient-of-restitution.md
+  spcpt_mBFQnR3Hc6f5pKdn:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Conservation of Energy
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy-principles.md
+  spcpt_swd9VZNScXBZsRYX:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Gravitational Potential Energy
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/energy.md
+  spcpt_tfkRwhFnDhW2V73x:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: M2
+        quote: Non-unform Objects & Other Problems
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/non-uniform-objects-and-other-problems.md
+        note: composite/folded lamina centres of mass = 2.2 'simple cases of composite plane figures'
+  spcpt_SbpcKYdQR7mqWw3f:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: M2
+        quote: Particles in a (2D) plane
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/particles.md
+        note: discrete mass distribution in a (2D) plane = M2-2.1 verbatim
+  spcpt_Zf9bVz2qzw5dYP6S:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: M2
+        quote: Horizontal & Vertical Components
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/horizontal-and-vertical-components.md
+  spcpt_wbRNpf5zbKQrCpWq:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: M2
+        quote: Impulse in 2D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/collisions/collisions/impulse-in-2d.md
+  spcpt_JqNkg4qXvkzKyC8N:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: M2
+        quote: Using Calculus in 1D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/variable-acceleration-in-1d/using-calculus-in-1d.md
+  spcpt_YPdhNKDXcHJm8HKG:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: M2
+        quote: Deriving Projectile Formulae
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/deriving-projectile-formulae.md
+  spcpt_PpJkPWQ5HZHN3q3G:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.4'
+        unit: M2
+        quote: Using Calculus in 2D
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/variable-acceleration-in-2d/using-calculus-in-2d.md
+        note: differentiation/integration of vector functions = M2-1.4 verbatim
+  spcpt_scnXTjK798w4kzCC:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: M2
+        quote: Equation of a Trajectory
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/kinematics-straight-line-motion/projectiles/equation-of-a-trajectory.md
+  spcpt_xNNchMvqZTcKMfhC:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: M2
+        quote: Uniform Laminas
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/uniform-laminas.md
+  spcpt_HTVvD7TQ9K8MwHD7:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: M2
+        quote: Moments - Ladder Problems
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/statics-of-rigid-bodies/moments-and-equilibrium/ladders-and-hinges.md
+  spcpt_mfJv7BXtG6CH8CYD:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '2.3'
+        unit: M2
+        quote: Point of Tipping
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/point-of-tipping.md
+  spcpt_58MnrH52cdHgtrD5:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Work
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/work-and-energy/work.md
+  spcpt_7Vr8CRSfk99mvTKR:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: M2
+        quote: Power
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/work-energy-and-power/power/power.md
+  spcpt_MFrzcGnC5rpQ6bKQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: M2
+        quote: Using Moments - Harder
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/statics-of-rigid-bodies/moments-and-equilibrium/ladders-and-hinges.md
+  spcpt_P4nX46W4vRP7bBfR:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: M2
+        quote: Collisions - Multiple Collisions
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/collisions/collisions/multiple-collisions.md
+  spcpt_KWhgsKdbVnrJwpt7:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: M2
+        quote: Particles Along a Straight Line
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/particles.md
+  spcpt_BmcFcHKtKXtfzjCH:
+    verdict: resolve
+    courses:
+      ial-maths-20-mechanics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: M2
+        quote: Composite Laminas
+        stage1_confirm: false
+        page: ial-maths-20-mechanics-2/notes/centres-of-mass/centres-of-mass/composite-laminas.md
+  spcpt_my56RTTfbKXhBwDD:
+    verdict: pending
+    courses:
+      ial-maths-20-mechanics-2:
+        reason: 'no-guess pending: SME teaches centres of mass of wire frameworks but the committed M2
+          registry text (centre of mass of uniform/composite plane figures, use of integration not required)
+          contains no frameworks statement and the published PDF mentions frameworks only in administration
+          text (PDF-verified); nearest statements are M2-2.2 and M3-5.1'
+  spcpt_PDtz9wfdB46zhbhz:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: P1
+        quote: Gradients, Tangents & Normals
+        stage1_confirm: true
+        page: ial-maths-20-pure-1/notes/differentiation/differentiation/gradients-tangents-and-normals.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: P1
+        quote: Gradients, Tangents & Normals
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Gradients, Tangents & Normals'' (pure-1 home page) = P1-4.3'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: P1
+        quote: Gradients, Tangents & Normals
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Gradients, Tangents & Normals'' (pure-1 home page) = P1-4.3;
+          parts find gradients of curves'
+  spcpt_vHVvC2TmqrTFqBq7:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Equation of a Straight Line
+        stage1_confirm: true
+        page: ial-maths-20-pure-1/notes/coordinate-geometry/equation-of-a-straight-line/equation-of-a-straight-line-.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Equation of a Straight Line
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Equation of a Straight Line'' (pure-1 home page) = P1-2.1;
+          pure-2 parts use line equations in circle contexts'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Equation of a Straight Line
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Equation of a Straight Line'' (pure-1 home page) = P1-2.1'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Equation of a Straight Line
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Equation of a Straight Line'' (pure-1 home page) = P1-2.1'
+  spcpt_xvsNPZQmYwPq9VcG:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: P1
+        quote: Radian Measure
+        stage1_confirm: true
+        page: ial-maths-20-pure-1/notes/trigonometry/radian-measure/radian-measure.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: P1
+        quote: Radian Measure
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Radian Measure'' (pure-1 home page) = P1-3.2'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: P1
+        quote: Radian Measure
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Radian Measure'' (pure-1 home page) = P1-3.2; part uses l
+          = r-theta verbatim'
+  spcpt_FBPgfRfmMsGhbB4q:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: P1
+        quote: Laws of Indices
+        stage1_confirm: true
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/laws-of-indices-and-surds/laws-of-indices.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: P1
+        quote: Laws of Indices
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Laws of Indices'' (pure-1 home page) = P1-1.1'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: P1
+        quote: Laws of Indices
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Laws of Indices'' (pure-1 home page) = P1-1.1; parts manipulate
+          e^x powers by index laws'
+  spcpt_MpfYg3hhs699hs8X:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.10'
+        unit: P1
+        quote: Expanding Brackets
+        stage1_confirm: true
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/polynomials/expanding-brackets.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.10'
+        unit: P1
+        quote: Expanding Brackets
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Expanding Brackets'' (pure-1 home page) = P1-1.10'
+  spcpt_K8vvF73Wwzx3844Q:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: P1
+        quote: Finding the Constant of Integration
+        stage1_confirm: true
+        page: ial-maths-20-pure-1/notes/integration/integration/integrating-powers-of-x.md
+  spcpt_jhqBQdmtj4y75XRZ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Linear Simultaneous Equations - Substitution
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/simultaneous-equations/substitution.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Linear Simultaneous Equations - Substitution
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Linear Simultaneous Equations - Substitution'' (pure-1 home
+          page) = P1-1.6; SME applies it to an equation-forming arithmetic-series part (loose tagging,
+          faithfully propagated; part is solo-tagged)'
+  spcpt_H5Cx6bgK8Tw23S9k:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: P1
+        quote: Quadratic Graphs
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/quadratics/quadratic-graphs.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: P1
+        quote: Quadratic Graphs
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Quadratic Graphs'' (pure-1 home page) = P1-1.3'
+  spcpt_NmrvFdcBf6qPqNxM:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: P1
+        quote: Second Order Derivatives
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/differentiation/differentiation/second-order-derivatives.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: P1
+        quote: Second Order Derivatives
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Second Order Derivatives'' (pure-1 home page) = P1-4.1 (statement
+          covers ''second order derivatives'')'
+  spcpt_wK2zzwnftMmwZ73T:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.3'
+        unit: P1
+        quote: Graphs of Trigonometric Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/trigonometry/trigonometric-functions/graphs-of-trigonometric-functions.md
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.3'
+        unit: P1
+        quote: Graphs of Trigonometric Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Graphs of Trigonometric Functions'' (pure-1 home page) = P1-3.3'
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '3.3'
+        unit: P1
+        quote: Graphs of Trigonometric Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Graphs of Trigonometric Functions'' (pure-1 home page) = P1-3.3'
+  spcpt_vWW6kzvGRnCvPPnr:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: P1
+        quote: Parallel & Perpendicular Gradients
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/coordinate-geometry/equation-of-a-straight-line/parallel-and-perpendicular-gradients-.md
+  spcpt_tbPsJgvsZprv2s82:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Solving Quadratic Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/quadratics/solving-quadratic-equations.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Solving Quadratic Equations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Solving Quadratic Equations'' (pure-1 home page) = P1-1.5'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Solving Quadratic Equations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Solving Quadratic Equations'' (pure-1 home page) = P1-1.5'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Solving Quadratic Equations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Solving Quadratic Equations'' (pure-1 home page) = P1-1.5;
+          parts solve quadratics arising from vector magnitudes'
+  spcpt_hxTxCtBkDZDzbshm:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Transformations of Trigonometric Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/trigonometry/trigonometric-functions/transformations-of-trigonometric-functions.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Transformations of Trigonometric Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Transformations of Trigonometric Functions'' (pure-1 home
+          page) = P1-1.12'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Transformations of Trigonometric Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Transformations of Trigonometric Functions'' (pure-1 home
+          page) = P1-1.12; one loose SME part tags a compound-angle equation with this tag (co-tagged
+          with the compound-angle tag)'
+  spcpt_rhj3PgmSSbjd2v4S:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.10'
+        unit: P1
+        quote: Factorising Expressions
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/polynomials/factorising-expressions.md
+  spcpt_VHJZWXfzfpzcxfZG:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Basic Coordinate Geometry
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/coordinate-geometry/equation-of-a-straight-line/basic-coordinate-geometry.md
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Basic Coordinate Geometry
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Basic Coordinate Geometry'' (pure-1 home page) = P1-2.1'
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Basic Coordinate Geometry
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Basic Coordinate Geometry'' (pure-1 home page) = P1-2.1'
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P1
+        quote: Basic Coordinate Geometry
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Basic Coordinate Geometry'' (pure-1 home page) = P1-2.1'
+  spcpt_W3hwHXtqPNktSS4H:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P1
+        quote: Definition of Derivatives
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/differentiation/differentiation/definition-of-derivatives.md
+  spcpt_NVNxKQc5Sxp3TjVc:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Further Solving Quadratic Equations (Hidden Quadratics)
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/quadratics/hidden-quadratics.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Further Solving Quadratic Equations (Hidden Quadratics)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Further Solving Quadratic Equations (Hidden Quadratics)''
+          (pure-1 home page) = P1-1.5'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Further Solving Quadratic Equations (Hidden Quadratics)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Further Solving Quadratic Equations (Hidden Quadratics)''
+          (pure-1 home page) = P1-1.5'
+  spcpt_4FyzMxCjDT3yDDFP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Solving Equations Graphically
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/graphs-of-functions/solving-equations-graphically.md
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Solving Equations Graphically
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Solving Equations Graphically'' (pure-1 home page) = P1-1.11'
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Solving Equations Graphically
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Solving Equations Graphically'' (pure-1 home page) = P1-1.11'
+  spcpt_CQhzHWwghqFHzphh:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.2'
+        unit: P2
+        quote: Area Under a Curve
+        stage1_confirm: false
+        note: 'cross-unit: SME tag ''Area Under a Curve'' (name from pure-2 sibling index; home page pure-2
+          integration/area-under-a-curve.md teaches definite-integration area only, 0 trapezium mentions)
+          = P2-8.2 ''definite integral as the area under a curve''; corrects the stage-1 name-only pick
+          of 8.3 (trapezium rule)'
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.2'
+        unit: P2
+        quote: Area Under a Curve
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/integration/integration/area-under-a-curve.md
+        superseded_code: '8.3'
+        note: 'T-SPEC-6 re-verdict: corrects the stage-1 name-only mapping (8.3 trapezium rule); home
+          page integration/area-under-a-curve.md teaches definite-integration area only (0 trapezium mentions);
+          statement 8.2 ''definite integral as the area under a curve'' contains the tag name verbatim'
+  spcpt_RjPbtb8VFvWCkKR4:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.8'
+        unit: P1
+        quote: Inequalities on Graphs
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/inequalities/inequalities-on-graphs.md
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '1.8'
+        unit: P1
+        quote: Inequalities on Graphs
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Inequalities on Graphs'' (pure-1 home page) = P1-1.8; part
+          sketches inequality regions verbatim'
+  spcpt_3fVyTss6mgDbqHS4:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Stretches
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/transformations-of-functions/stretches.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Stretches
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Stretches'' (pure-1 home page) = P1-1.12'
+  spcpt_d3rh6sVBRp5fkj9p:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P1
+        quote: Surds - Rationalising the Denominator
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/laws-of-indices-and-surds/rationalising-the-denominator.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P1
+        quote: Surds - Rationalising the Denominator
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Surds - Rationalising the Denominator'' (pure-1 home page)
+          = P1-1.2; pure-2 parts involve surd common ratios'
+  spcpt_gR38fxvsvTv9tWVP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Sketching Polynomials
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/graphs-of-functions/sketching-polynomials.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Sketching Polynomials
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Sketching Polynomials'' (pure-1 home page) = P1-1.11'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Sketching Polynomials
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Sketching Polynomials'' (pure-1 home page) = P1-1.11'
+  spcpt_wJGf7zpK3Gh4tmH7:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P1
+        quote: Definition of Gradient
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/differentiation/differentiation/definition-of-gradient.md
+  spcpt_GwXDbw6JDb2bSZmK:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P1
+        quote: Manipulating Surds
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/laws-of-indices-and-surds/manipulating-surds.md
+  spcpt_82NtJq6t3CwTsvB7:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Quadratic Simultaneous Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/simultaneous-equations/quadratic.md
+        note: 'index repair: page-titled entry (quadratic.md front-matter title ''Quadratic Simultaneous
+          Equations''); no index entry existed'
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Quadratic Simultaneous Equations
+        stage1_confirm: false
+        note: 'cross-unit: page-titled tag ''Quadratic Simultaneous Equations'' (pure-1 quadratic.md)
+          = P1-1.6'
+  spcpt_nzB9Nyk9jpsF5HPY:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P1
+        quote: Non-Right-Angled Triangles
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/trigonometry/basic-trigonometry/non-right-angled-triangles.md
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P1
+        quote: Non-Right-Angled Triangles
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Non-Right-Angled Triangles'' (pure-1 home page) = P1-3.1 sine/cosine
+          rules'
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P1
+        quote: Non-Right-Angled Triangles
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Non-Right-Angled Triangles'' (pure-1 home page) = P1-3.1;
+          local part uses the 1/2 ab sin C area formula from 3.1 verbatim'
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P1
+        quote: Non-Right-Angled Triangles
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Non-Right-Angled Triangles'' (pure-1 home page) = P1-3.1;
+          triangle angle problems'
+  spcpt_hBBQtQpzy6DFVZ5J:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: P1
+        quote: Fundamental Theorem of Calculus
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/integration/integration/fundamental-theorem-of-calculus.md
+  spcpt_rd5TcbbZnVFFCh7N:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: P1
+        quote: Integrating Powers of x
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/integration/integration/integrating-powers-of-x.md
+  spcpt_Jzb4MpfMDbXWqFCZ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P1
+        quote: Differentiating Powers of x
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/differentiation/differentiation/differentiating-powers-of-x.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P1
+        quote: Differentiating Powers of x
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Differentiating Powers of x'' (pure-1 home page) = P1-4.2'
+  spcpt_ck5SsBrq9RDzWFJK:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Reflections
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/transformations-of-functions/reflections.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Reflections
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Reflections'' (pure-1 home page) = P1-1.12'
+  spcpt_nf42jP8ryNYhJYVk:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.4'
+        unit: P1
+        quote: Discriminants
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/quadratics/discriminants.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.4'
+        unit: P1
+        quote: Discriminants
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Discriminants'' (pure-1 index) = P1-1.4'
+  spcpt_mC2jjmXphJvmxQnP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P2_page_context_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Translations
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/transformations-of-functions/translations.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.12'
+        unit: P1
+        quote: Translations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Translations'' (pure-1 home page) = P1-1.12'
+  spcpt_V3DYvZkCYJRnM4gY:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.2'
+        unit: P2
+        quote: Linear Trigonometric Equations
+        stage1_confirm: false
+        note: 'cross-unit: SME tag ''Linear Trigonometric Equations'' (name from pure-2 sibling index)
+          = P2-6.2 solution of simple trigonometric equations'
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.2'
+        unit: P2
+        quote: Linear Trigonometric Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/trigonometry/trigonometric-equations/linear.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.2'
+        unit: P2
+        quote: Linear Trigonometric Equations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Linear Trigonometric Equations'' (pure-2 home page) = P2-6.2'
+  spcpt_yp7GmRfk46xyDjVJ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.10'
+        unit: P1
+        quote: Factorisation
+        stage1_confirm: false
+        note: 'index repair: sibling-copy name ''Factorisation'' from pure-2 index'
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Factorisation
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/algebra-and-functions/polynomials/factorisation.md
+        note: own page algebra-and-functions/polynomials/factorisation.md teaches factor-theorem work;
+          local parts use factor theorem ('has a root at x=3', '(x+3) is a factor') = P2-2.1
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: P3
+        quote: Factorisation
+        stage1_confirm: false
+        note: global tag name 'Factorisation' is generic; local parts (factorise quadratic, simplify rational
+          expression) match P3-1.1 scope ('including factorising quadratics')
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Factorisation
+        stage1_confirm: false
+        note: 'cross-unit: global tag ''Factorisation''; pure-4 parts fully factorise cubics (factor-theorem
+          method learned in P2-2.1)'
+  spcpt_ZbfMMFt5FmHmcsbj:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.9'
+        unit: P1
+        quote: Quadratic Inequalities
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/inequalities/quadratic.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.9'
+        unit: P1
+        quote: Quadratic Inequalities
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Quadratic Inequalities'' (pure-1 home page) = P1-1.9; pure-2
+          part is a discriminant-inequality problem'
+  spcpt_6KN7hJXfk6tv7V52:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.9'
+        unit: P1
+        quote: Linear Inequalities
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/inequalities/linear.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.9'
+        unit: P1
+        quote: Linear Inequalities
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Linear Inequalities'' (pure-1 home page) = P1-1.9; SME applies
+          it to an arithmetic-series part (loose tagging, faithfully propagated; part is solo-tagged)'
+  spcpt_5NdKZ5MJbtQkWTrf:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Linear Simultaneous Equations - Elimination
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/simultaneous-equations/elimination.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Linear Simultaneous Equations - Elimination
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Linear Simultaneous Equations - Elimination'' (pure-1 home
+          page) = P1-1.6; pure-2 parts solve simultaneous equations in a,b from factor conditions'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.6'
+        unit: P1
+        quote: Linear Simultaneous Equations - Elimination
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Linear Simultaneous Equations - Elimination'' (pure-1 home
+          page) = P1-1.6'
+  spcpt_5KxxFcs2n8fKDzMb:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Reciprocal Graphs - Sketching
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/graphs-of-functions/sketching-reciprocal-graphs.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.11'
+        unit: P1
+        quote: Reciprocal Graphs - Sketching
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Reciprocal Graphs - Sketching'' (pure-1 home page) = P1-1.11
+          (reciprocal functions)'
+  spcpt_9wHvtG7MnxXjQrxQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Completing the square
+        stage1_confirm: false
+        page: ial-maths-20-pure-1/notes/algebra-and-functions/quadratics/completing-the-square.md
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.5'
+        unit: P1
+        quote: Completing the square
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Completing the square'' (pure-1 home page) = P1-1.5'
+  spcpt_24J2PH8kkjWXbv26:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-1:
+        reason: 'no-guess pending: SME teaches modelling with functions (cost/income models) but the published
+          IAL Mathematics specification (WMA11/12/13/14, PDF-verified) contains no pure-maths modelling
+          statement; ''modelling'' statements exist only in Mechanics/Statistics/D1 contexts'
+  spcpt_Mp2xB3kzS88pG3yz:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-1:
+        reason: 'no-guess pending: SME teaches modelling with straight lines (y=mx+c models) but the published
+          IAL Mathematics specification has no pure-maths modelling statement (PDF-verified: ''modelling''
+          appears only in Mechanics/Statistics/D1 contexts); P1-2.1 covers the equation of a straight
+          line but not its modelling use'
+      ial-maths-20-pure-4:
+        reason: 'no-guess pending: SME teaches modelling with straight lines (y=mx+c models) but the published
+          IAL Mathematics specification has no pure-maths modelling statement (PDF-verified); consistent
+          with the pure-1 pending for this global tag'
+  spcpt_9jZKqgCyNnJhWhdw:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-1:
+        reason: 'no-guess pending: SME teaches proportional relationships (y proportional to x, constant
+          of proportionality) but the published IAL Mathematics specification contains no proportionality
+          statement (PDF-verified 0 teachable hits; only the notation-table row ''is proportional to'')'
+  spcpt_dHy8HxPY7KBdRM7G:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-1:
+        reason: 'no-guess pending: SME teaches exact trigonometric values (sin/cos/tan of 30/45/60 without
+          a calculator) but the published IAL Mathematics specification contains no exact-values statement
+          (PDF-verified 0 hits for ''exact''); GCSE-bridge content'
+      ial-maths-20-pure-2:
+        reason: 'no-guess pending: SME teaches exact trigonometric values but the published IAL Mathematics
+          specification contains no exact-values statement (PDF-verified 0 hits for ''exact''); GCSE-bridge
+          content'
+      ial-maths-20-pure-3:
+        reason: 'no-guess pending: SME teaches exact trigonometric values but the published IAL Mathematics
+          specification contains no exact-values statement (PDF-verified 0 hits for ''exact''); GCSE-bridge
+          content'
+  spcpt_Zzm9k5BsSf5z36TF:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-1:
+        reason: 'no-guess pending: SME teaches right-angled triangles (Pythagoras/SOHCAHTOA) but the published
+          IAL Mathematics specification contains no such statement (PDF-verified 0 hits for ''Pythagoras'');
+          GCSE-bridge content; nearest P1-3.1 covers sine/cosine rules for non-right-angled triangles'
+      ial-maths-20-pure-2:
+        reason: 'no-guess pending: SME teaches right-angled triangles (Pythagoras/SOHCAHTOA) but the published
+          IAL Mathematics specification contains no such statement (PDF-verified 0 hits for ''Pythagoras'');
+          GCSE-bridge content'
+  spcpt_MMkgfX7dMcgYqnsz:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-1:
+        reason: 'no-guess pending: SME teaches trigonometric definitions (right-triangle ratios, unit
+          circle) but the published IAL Mathematics specification contains no such statement (PDF-verified:
+          0 hits for ''unit circle''; no right-triangle definitions statement); GCSE-bridge content'
+      ial-maths-20-pure-2:
+        reason: 'no-guess pending: SME teaches trigonometric definitions (right-triangle ratios, unit
+          circle) but the published IAL Mathematics specification contains no such statement (PDF-verified:
+          0 hits for ''unit circle'')'
+  spcpt_W8PnMt9XTWNsVjfd:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: P2
+        quote: Disproof by Counter Example
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/proof/proof/disproof-by-counter-example.md
+        note: stage-1 confirm
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: P2
+        quote: Disproof by Counter Example
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Disproof by Counter Example'' (pure-2 home page) = P2-1.3'
+  spcpt_GKtcZwdYPVpT9kGZ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.5'
+        unit: P2
+        quote: Binomial Expansion
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/sequences-and-series/binomial-expansion/binomial-expansion.md
+        note: stage-1 confirm
+  spcpt_BZ8Fv5yMksrMBfHf:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: P2
+        quote: Increasing & Decreasing Functions
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/differentiation/applications-of-differentiation/increasing-and-decreasing-functions.md
+        note: stage-1 confirm
+  spcpt_gDJSsXQN4sTWgFxJ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.3'
+        unit: P2
+        quote: Change of Base
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/exponentials-and-logarithms/laws-of-logarithms/laws-and-change-of-base.md
+        note: stage-1 confirm; statement mentions change of base
+  spcpt_yC7G86JTGVTpdNTD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P2
+        quote: Proof by Exhaustion
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/proof/proof/proof-by-exhaustion.md
+        note: stage-1 confirm
+  spcpt_CMsJ9gvnYdHbXF3w:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P2
+        quote: Arithmetic Sequences
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/sequences-and-series/arithmetic-sequences-and-series/arithmetic-sequences.md
+        note: stage-1 confirm
+  spcpt_pYqQwJWmThvrtN5x:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Equation of a Circle
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/coordinate-geometry/circles/equation-of-a-circle.md
+        note: stage-1 confirm
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Equation of a Circle
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Equation of a Circle'' (pure-2 home page) = P2-3.1; local
+          part is a parametric circle conversion'
+  spcpt_nrj5pMPm4p7BYjGD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: P2
+        quote: Geometric Sequences
+        stage1_confirm: true
+        page: ial-maths-20-pure-2/notes/sequences-and-series/geometric-sequences-and-series/sequences.md
+        note: stage-1 confirm
+  spcpt_cnypQhcg6z86WTSY:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: P2
+        quote: Laws of Logarithms
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/exponentials-and-logarithms/laws-of-logarithms/laws-and-change-of-base.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: P2
+        quote: Laws of Logarithms
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Laws of Logarithms'' (pure-2 home page) = P2-5.2'
+  spcpt_NS8V98b3c53sJ393:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P2
+        quote: Quadratic Trigonometric Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/trigonometry/trigonometric-equations/quadratic.md
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P2
+        quote: Quadratic Trigonometric Equations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Quadratic Trigonometric Equations'' (pure-2 home page) = P2-6.2'
+  spcpt_8YwGfFZ89FzYxVj9:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '8.2'
+        unit: P2
+        quote: Area between a curve and a line
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/integration/integration/area-between-a-curve-and-a-line.md
+  spcpt_jyYXR3g8kx82sMNn:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P2
+        quote: Strategy for Trigonometric Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/trigonometry/trigonometric-equations/strategy-for-trigonometric-equations.md
+  spcpt_fQZDB6JHQrnsnHQH:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Polynomial Division
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/algebra-and-functions/polynomials/polynomial-division.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Polynomial Division
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Polynomial Division'' (pure-2 home page) = P2-2.1; parts are
+          verbatim algebraic division'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Polynomial Division
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Polynomial Division'' (pure-2 home page) = P2-2.1; parts are
+          verbatim division of improper fractions'
+  spcpt_KCWS8czVB6Mc6tQ9:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P2
+        quote: Arithmetic Series
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/sequences-and-series/arithmetic-sequences-and-series/series.md
+  spcpt_rczDrkZHwkQtVGj5:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Finding the Centre & Radius
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/coordinate-geometry/circles/finding-the-centre-and-radius.md
+  spcpt_FfdPp8vTNhhpwWJ7:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '8.2'
+        unit: P2
+        quote: Area between 2 curves
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/integration/integration/area-between-2-curves.md
+  spcpt_5C5R39cdnm53Ktnh:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Remainder Theorem
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/algebra-and-functions/polynomials/factor-and-remainder-theorem.md
+  spcpt_KZmbYQ3Byg92VvrM:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: Factor Theorem
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/algebra-and-functions/polynomials/factor-and-remainder-theorem.md
+  spcpt_RVNjC2y684mYfGyD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.3'
+        unit: P2
+        quote: Trapezium Rule (Numerical Integration)
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/integration/integration/trapezium-rule-numerical-integration.md
+  spcpt_XQ5kYb9wHhXvrFdP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Radius & Tangent
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/coordinate-geometry/circles/radius-and-tangent.md
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Radius & Tangent
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Radius & Tangent'' (pure-2 home page) = P2-3.1'
+  spcpt_g9PqXfbWyG3TGMrx:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Angle in a Semicircle
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/coordinate-geometry/circles/angle-in-a-semicircle.md
+  spcpt_kzV6TBRZ65SSjSBF:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: P2
+        quote: Stationary Points & Turning Points
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/differentiation/applications-of-differentiation/stationary-points-and-turning-points.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: P2
+        quote: Stationary Points & Turning Points
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Stationary Points & Turning Points'' (pure-2 home page) =
+          P2-7.1'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: P2
+        quote: Stationary Points & Turning Points
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Stationary Points & Turning Points'' (pure-2 home page) =
+          P2-7.1'
+  spcpt_Jt62sPjwd52d5jjG:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '7.1'
+        unit: P2
+        quote: Sketching Gradient Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/differentiation/applications-of-differentiation/sketching-gradient-functions.md
+  spcpt_9Cpr29P5QKVBBZY6:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: P2
+        quote: Definite Integration
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/integration/integration/definite-integration.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: P2
+        quote: Definite Integration
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Definite Integration'' (pure-2 home page) = P2-8.1'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '8.1'
+        unit: P2
+        quote: Definite Integration
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Definite Integration'' (pure-2 home page) = P2-8.1'
+  spcpt_TFVmY342yXBjJsWP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '6.1'
+        unit: P2
+        quote: Trigonometry - Simple Identities
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/trigonometry/trigonometric-equations/simple-identities.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.1'
+        unit: P2
+        quote: Trigonometry - Simple Identities
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Trigonometry - Simple Identities'' (pure-2 home page) = P2-6.1
+          (tan = sin/cos, sin^2+cos^2=1 used in parts)'
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.1'
+        unit: P2
+        quote: Trigonometry - Simple Identities
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Trigonometry - Simple Identities'' (pure-2 home page) = P2-6.1;
+          SME applies it to a direction-cosine identity part (loose tagging, faithfully propagated)'
+  spcpt_22PStrhwhrR4JVnB:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.3'
+        unit: P2
+        quote: Language of Sequences & Series
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/sequences-and-series/sequences-and-series/language-of-sequences-and-series.md
+  spcpt_CbPh4WmwTnQkjr3P:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P2
+        quote: Logarithmic Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/exponentials-and-logarithms/laws-of-logarithms/logarithmic-functions.md
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P2
+        quote: Logarithmic Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Logarithmic Functions'' (pure-2 home page) = P2-5.2'
+  spcpt_9hj7RrpSwthZMfPM:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: P2
+        quote: Exponential Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/exponentials-and-logarithms/laws-of-logarithms/exponential-functions.md
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: P2
+        quote: Exponential Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Exponential Functions'' (pure-2 home page) = P2-5.1 (y = a^x
+          and its graph)'
+  spcpt_9kbfchzHcdwh6WZN:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '5.3'
+        unit: P2
+        quote: Exponential Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/exponentials-and-logarithms/laws-of-logarithms/exponential-equations.md
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '5.3'
+        unit: P2
+        quote: Exponential Equations
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Exponential Equations'' (pure-2 home page) = P2-5.3 (solution
+          of a^x = b)'
+  spcpt_Tbx53jRsYyGBMGHs:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.2'
+        unit: P2
+        quote: Sigma Notation
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/sequences-and-series/sequences-and-series/sigma-notation.md
+        note: statement 4.2 includes 'Understanding of notation (sigma) will be expected'
+  spcpt_WnXxjkVHPcdKzygN:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: P2
+        quote: Language of Proof
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/proof/proof/language-of-proof.md
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: P2
+        quote: Language of Proof
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Language of Proof'' (pure-2 home page) = P2-1.1'
+  spcpt_B6CWxQXpFwTDsPJP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '7.1'
+        unit: P2
+        quote: Modelling with Differentiation inc. Optimisation
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/differentiation/applications-of-differentiation/modelling-with-differentiation-optimisation.md
+        note: optimisation content = P2-7.1 maxima/minima problems
+  spcpt_nsZF8WtVDsdDXGkw:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: P2
+        quote: Proof by Deduction
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/proof/proof/proof-by-deduction.md
+  spcpt_fKfGVXDRSZvMFXmj:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P2
+        quote: Recurrence Relations
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/sequences-and-series/sequences-and-series/recurrence-relations.md
+        note: statement 4.1 'generated by a simple relation of the form x_{n+1}=f(x_n)' = recurrence relations
+  spcpt_MTZScqBkSJcYSrv5:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P2
+        quote: Bisection of Chords
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/coordinate-geometry/circles/bisection-of-chords.md
+  spcpt_qrN38J3bY6GkzTCj:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: null
+        stage1_confirm: false
+        note: 'index repair: question-reference-only tag (no SME page or index entry anywhere, ticket
+          #13 class); resolved on exam-part evidence: 22/23 referencing parts across pure-2/3/4 are factor/remainder-theorem
+          usage and statement P2-2.1 contains ''Factor Theorem'' and ''remainder theorem'' verbatim'
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: null
+        stage1_confirm: false
+        note: 'cross-unit: question-reference-only tag resolved P2-2.1 on consistent factor-theorem part
+          evidence (see pure-2 verdict)'
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P2
+        quote: null
+        stage1_confirm: false
+        note: 'cross-unit: question-reference-only tag resolved P2-2.1 on consistent factor-theorem part
+          evidence (see pure-2 verdict)'
+  spcpt_BPzK4hYjprckscTt:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P3
+        quote: Language of Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Language of Functions'' (pure-3 home page) = P3-1.2 definition
+          of a function, domain and range'
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P3
+        quote: Language of Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/functions/language-of-functions.md
+        note: own page language-of-functions.md
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P3
+        quote: Language of Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Language of Functions'' (pure-3 home page) = P3-1.2; parts
+          ask for domain and range verbatim'
+  spcpt_RN7njy7mfmQdHSc3:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P3
+        quote: '"e"'
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''"e"'' (pure-3 home page e-and-ln) = P3-3.1 ''The function
+          e^x and its graph'''
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P3
+        quote: '"e"'
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/exponentials-and-logarithms/exponential-and-logarithms/e-and-ln.md
+        note: own page e-and-ln; P3-3.1 'The function e^x and its graph'
+  spcpt_K9BkPp9nsRfrWjH9:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-2:
+        reason: 'no-guess pending: SME teaches modelling with sequences & series but the published IAL
+          Mathematics specification has no pure-maths modelling statement (PDF-verified); nearest statements
+          P2-4.2/4.4 cover the arithmetic/geometric content without the modelling framing'
+  spcpt_26BM3X6TYPVynqSD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: P2
+        quote: Geometric Series
+        stage1_confirm: false
+        page: ial-maths-20-pure-2/notes/sequences-and-series/geometric-sequences-and-series/series.md
+        note: geometric sequences and series = P2-4.4 verbatim
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: P2
+        quote: Geometric Series
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Geometric Series'' (pure-2 home page) = P2-4.4; one loose
+          SME part (sequence of functions via repeated differentiation) co-tagged'
+  spcpt_CR59J4ZBr3YRZgvW:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.4'
+        unit: P3
+        quote: Combinations of Transformations
+        stage1_confirm: true
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/combinations-of-transformations/combinations-of-transformations.md
+        note: stage-1 confirm
+  spcpt_tQXwyKYJQhQ3r39D:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: P3
+        quote: Double Angle Formulae
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/compound-and-double-angle-formulae/double-angle-formulae.md
+  spcpt_rm8J5XdBtFyt8r2y:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P3
+        quote: Reciprocal Trig Functions - Graphs
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/reciprocal-and-inverse-trigonometric-functions/graphs.md
+  spcpt_pSmbBRKHGqqnGTvb:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P3
+        quote: Inverse Trig Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/reciprocal-and-inverse-trigonometric-functions/inverse-trig-functions.md
+  spcpt_G8dbQ7ZXvDdWYfYC:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: P3
+        quote: Modulus Functions - Sketching Graphs
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/functions/modulus-functions-sketching-graphs.md
+  spcpt_7RMHfwr3M4rzNVzP:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: P3
+        quote: Rational Expressions (Algebraic Fractions)
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/rational-expressions/rational-expressions.md
+  spcpt_hkRXmkKtJFyb5tyD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.2'
+        unit: P3
+        quote: Inverse Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/functions/inverse-functions.md
+  spcpt_jVPhCHgQ5XCm23Hg:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: P3
+        quote: Exponential Growth & Decay
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/exponentials-and-logarithms/modelling-with-exponentials-and-logarithms/exponential-growth-and-decay.md
+  spcpt_NMz2QnW3vCFZCZmm:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P3
+        quote: Quotient Rule
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/differentiation/further-differentiation/quotient-rule.md
+  spcpt_phxNfbj7rSHTghdc:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P3
+        quote: Integrating with Trigonometric Identities
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/integration/further-integration/integrating-with-trigonometric-identities.md
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P3
+        quote: Integrating with Trigonometric Identities
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Integrating with Trigonometric Identities'' (pure-3 home page)
+          = P3-5.2'
+  spcpt_5bGK2QnqzT8s8d2z:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: P3
+        quote: Compound Angle Formulae
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/compound-and-double-angle-formulae/compound-angle-formulae.md
+  spcpt_J6Fzys4Bj5SFqMnY:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '4.2'
+        unit: P3
+        quote: Chain Rule
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/differentiation/further-differentiation/chain-rule.md
+  spcpt_v8zhdj7wJHgNznpD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P3
+        quote: Product Rule
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/differentiation/further-differentiation/product-rule.md
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.2'
+        unit: P3
+        quote: Product Rule
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Product Rule'' (pure-3 home page) = P3-4.2'
+  spcpt_SmtQ68v57r6fDHmN:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.3'
+        unit: P3
+        quote: Using Log Graphs in Modelling
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/exponentials-and-logarithms/modelling-with-exponentials-and-logarithms/logarithmic-graphs.md
+  spcpt_D4wJgrNQvPv7GK8x:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P3
+        quote: Reverse Chain Rule
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/integration/further-integration/reverse-chain-rule.md
+        note: statement 5.2 contains the reverse-chain-rule result (integral of f'(x)[f(x)]^n)
+  spcpt_tnGXWDF39HwFf7Pk:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.1'
+        unit: P3
+        quote: Change of Sign
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/numerical-methods/numerical-methods/change-of-sign.md
+  spcpt_yM3rChg2z3sgcRPz:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '4.2'
+        unit: P3
+        quote: Differentiating Reciprocal and Inverse Trig Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/differentiation/further-differentiation/differentiating-reciprocal-and-inverse-trig-functions.md
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '4.2'
+        unit: P3
+        quote: Differentiating Reciprocal and Inverse Trig Functions
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Differentiating Reciprocal and Inverse Trig Functions'' (pure-3
+          home page) = P3-4.2'
+  spcpt_vFH3CxCYCv8Qs93q:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.3'
+        unit: P3
+        quote: Modelling with Trigonometric Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/compound-and-double-angle-formulae/modelling-with-trigonometric-functions.md
+        note: R-form max/min content is verbatim 2.3 scope ('a cos theta + b sin theta in equivalent forms')
+  spcpt_JSx6YPY39mt6vdzt:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: P3
+        quote: Integrating Other Functions (Trig, ln & e etc)
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/integration/further-integration/integrating-other-functions.md
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: P3
+        quote: Integrating Other Functions (Trig, ln & e etc)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Integrating Other Functions (Trig, ln & e etc)'' (pure-3 home
+          page) = P3-5.1'
+  spcpt_qMxPw37Fv75Pk8Ts:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P3
+        quote: Differentiating Other Functions (Trig, ln & e etc)
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/differentiation/further-differentiation/differentiating-other-functions.md
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P3
+        quote: Differentiating Other Functions (Trig, ln & e etc)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Differentiating Other Functions (Trig, ln & e etc)'' (pure-3
+          home page) = P3-4.1'
+  spcpt_J2NtwHHQN4RKv9bY:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P3
+        quote: Strategy for Further Trigonometric Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/further-trigonometric-equations/strategy-for-further-trigonometric-equations.md
+        note: multi-technique page (identities/compound angles/CAST); equations solved via reciprocal-function
+          definitions anchored on P3-2.1
+  spcpt_rcz347qWK3S8MqfS:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: P3
+        quote: Modulus Functions - Solving Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/functions/modulus-functions-solving-equations.md
+  spcpt_BKyqGnK3G7766CYn:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: P3
+        quote: Reciprocal Trig Functions - Definitions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/reciprocal-and-inverse-trigonometric-functions/definitions.md
+  spcpt_JRwzRh2ryj4m6Gj9:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: P3
+        quote: Trigonometry - Further Identities
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/reciprocal-and-inverse-trigonometric-functions/trigonometry-further-identities.md
+  spcpt_ZNpcttH3C8QZc9WH:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P3
+        quote: Derivatives of Exponential Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/exponentials-and-logarithms/exponential-and-logarithms/derivatives-of-exponential-functions.md
+  spcpt_M8pcsBkNN7dyg4b9:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '1.2'
+        unit: P3
+        quote: Composite Functions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/functions/composite-functions.md
+        note: statement 1.2 covers 'Composition of functions'
+  spcpt_jWc24T7YJ3vg83h5:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '6.1'
+        unit: P3
+        quote: Change of Sign Failure
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/numerical-methods/numerical-methods/failure-of-the-change-of-sign-method.md
+  spcpt_2V76zDK8DyYhw7nQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.3'
+        unit: P3
+        quote: Trigonometric Proof
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/trigonometric-proof/trigonometric-proof.md
+        note: statement 2.3 includes proving identities
+  spcpt_bynSkFNmPxyyRkY6:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '4.4'
+        unit: P3
+        quote: Using Exps & Logs in Modelling
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/exponentials-and-logarithms/modelling-with-exponentials-and-logarithms/modelling.md
+        note: page teaches exponential growth/decay modelling (statement 4.4 scope); ln-linearisation
+          parts stay within that modelling
+  spcpt_F6r4Hkfs3S3tZM7H:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: P3
+        quote: Quadratic Divisor
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/rational-expressions/improper-algebraic-fractions.md
+  spcpt_pZCqxtxD7ChHtGWk:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '1.1'
+        unit: P3
+        quote: Improper Algebraic Fractions
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/algebra-and-functions/rational-expressions/improper-algebraic-fractions.md
+  spcpt_hXbbmBmmgzKY7p5f:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '2.3'
+        unit: P3
+        quote: R addition formulae Rcos Rsin etc
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/trigonometry/compound-and-double-angle-formulae/harmonic-form.md
+        note: statement 2.3 covers r cos(theta +/- alpha) forms
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: P3
+        quote: R addition formulae Rcos Rsin etc
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''R addition formulae Rcos Rsin etc'' (pure-3 home page) = P3-2.3;
+          part is verbatim R-form'
+  spcpt_JwrdCCvhVRQqRksD:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P3
+        quote: f'(x)/f(x)
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/integration/further-integration/integrating-fxfx.md
+        note: statement 5.2 contains integral of f'(x)/f(x) = ln(f(x)) + c verbatim
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P3
+        quote: f'(x)/f(x)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag "f''(x)/f(x)" (pure-3 home page) = P3-5.2'
+  spcpt_BfHcWctk2Fw8QtZj:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P3
+        quote: x = g(x) Iteration
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/numerical-methods/numerical-methods/x-equals-gx-iteration.md
+  spcpt_XgXVbHC78KpKttrb:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '3.2'
+        unit: P3
+        quote: '"ln"'
+        stage1_confirm: false
+        page: ial-maths-20-pure-3/notes/exponentials-and-logarithms/exponential-and-logarithms/e-and-ln.md
+        note: own page e-and-ln; P3-3.2 'The function ln x and its graph'
+  spcpt_Mn93R9Cd6pxFDHgQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-3:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P4
+        quote: Substitution (Reverse Chain Rule)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Substitution (Reverse Chain Rule)'' (pure-4 home page integration-by-substitution)
+          = P4-6.2'
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P4
+        quote: Substitution (Reverse Chain Rule)
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/further-integration/integration-by-substitution.md
+        note: own page integration-by-substitution; P4-6.2 covers substitution as reverse of chain rule
+  spcpt_C6Fzf2sj3cytTWq5:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: P4
+        quote: Connected Rates of Change
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/differentiation/further-applications-of-differentiation/connected-rates-of-change.md
+        note: stage-1 confirm
+  spcpt_WPr865MC2MCwFhys:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.5'
+        unit: P4
+        quote: Parametric Integration
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/parametric-equations/further-parametric-equations/parametric-integration.md
+        note: stage-1 confirm
+  spcpt_Mjs3DbfDZSWQm4sw:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.2'
+        unit: P4
+        quote: Magnitude & Direction
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-2d/magnitude-and-direction.md
+        note: stage-1 confirm
+  spcpt_JfCD3zwDvrF2qW4F:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.4'
+        unit: P4
+        quote: Particular Solutions
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/integration/differential-equations/particular-solutions.md
+        note: stage-1 confirm
+  spcpt_kp9mJX8PDbPPf4w6:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.4'
+        unit: P4
+        quote: General Solutions
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/integration/differential-equations/general-solutions.md
+        note: stage-1 confirm
+  spcpt_KkNkQFVjpSr6W7Qc:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: P4
+        quote: Proof by Contradiction
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/proof/proof-by-contradiction/proof-by-contradiction.md
+        note: stage-1 confirm
+  spcpt_2HRssHdD9m3yg6JN:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.3'
+        unit: P4
+        quote: Vector Addition
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-2d/vector-addition.md
+        note: stage-1 confirm
+  spcpt_ysNvB269Jc4fKjT3:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.2'
+        unit: P4
+        quote: Integration by Parts
+        stage1_confirm: true
+        page: ial-maths-20-pure-4/notes/integration/further-integration/integration-by-parts.md
+        note: stage-1 confirm; 6.2 covers integration by parts
+  spcpt_6fw2v3vcB3GvKrhp:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.4'
+        unit: P4
+        quote: Position Vectors
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-2d/position-vectors.md
+  spcpt_XrvxCtZwqGx2bXZq:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.1'
+        unit: P4
+        quote: Vectors in 3 Dimensions
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-3d/vectors-in-3-dimensions.md
+  spcpt_k868kHQFjJdH2rtC:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.6'
+        unit: P4
+        quote: Parallel, Intersecting & Skew Lines
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vector-lines-and-scalar-product/parallel-intersecting-and-skew-lines.md
+  spcpt_WRV9vk2NPcPg4nms:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: P4
+        quote: General Binomial Expansion
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/binomial-expansion/general-binomial-expansion/general-binomial-expansion.md
+  spcpt_f9PhGNgtDD7ss4X9:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P4
+        quote: General Binomial Expansion - Subtleties
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/binomial-expansion/general-binomial-expansion/subtleties.md
+  spcpt_xb6FKshx3XgKkYfc:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P4
+        quote: Linear Denominators
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/algebra-and-functions/partial-fractions/linear-denominators.md
+  spcpt_f5fqHB9YCMFNPmSz:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: P4
+        quote: Squared Linear Denominators
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/algebra-and-functions/partial-fractions/squared-linear-denominators.md
+  spcpt_xrD7jwQVsVdCqgQM:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.1'
+        unit: P4
+        quote: Parametric Volumes of Revolution
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/parametric-equations/further-parametric-equations/parametric-volumes-of-revolution.md
+  spcpt_NTrg5qZWvkW2Qvvk:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P4
+        quote: General Binomial Expansion - Multiple
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/binomial-expansion/general-binomial-expansion/multiple.md
+  spcpt_sH6wmW3VVsjtnMYT:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.4'
+        unit: P4
+        quote: Separation of Variables
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/differential-equations/separation-of-variables.md
+  spcpt_GnvjF6Qpb6TTNvnd:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.7'
+        unit: P4
+        quote: The Scalar ('Dot') Product
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vector-lines-and-scalar-product/the-scalar-dot-product.md
+  spcpt_GjkGPBQxw5qX3wHd:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.7'
+        unit: P4
+        quote: Uses of the Scalar Product
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vector-lines-and-scalar-product/uses-of-the-scalar-product.md
+  spcpt_YXNKYW4W32K6HFn5:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: P4
+        quote: Parametric Differentiation
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/parametric-equations/further-parametric-equations/parametric-differentiation.md
+  spcpt_ZFbY6XYPkJtMsk93:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.3'
+        unit: P4
+        quote: Integration using Partial Fractions
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/further-integration/integration-using-partial-fractions.md
+  spcpt_gYgCP3dHkgCGT23b:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: P4
+        quote: Parametric Equations - Basics
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/parametric-equations/parametric-equations/basics.md
+  spcpt_pQyRTSWg3RWsPB7W:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: P4
+        quote: Parametric Equations - Eliminating the Parameter
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/parametric-equations/parametric-equations/eliminating-the-parameter.md
+  spcpt_WTvZHvT7cMnVH3pg:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '3.1'
+        unit: P4
+        quote: Parametric Equations - Sketching Graphs
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/parametric-equations/parametric-equations/sketching-graphs.md
+  spcpt_fT888hj3nWRtGBpn:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '5.2'
+        unit: P4
+        quote: Modelling with Differential Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/differential-equations/modelling-with-differential-equations.md
+  spcpt_hXC48dpxjzYC42CR:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '7.6'
+        unit: P4
+        quote: Equation of a Line in Vector Form
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vector-lines-and-scalar-product/equation-of-a-line-in-vector-form.md
+  spcpt_PnxgBf2qYcvSjRfZ:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.4'
+        unit: P4
+        quote: Solving & Interpreting Differential Equations
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/differential-equations/solving-and-interpreting-differential-equations.md
+  spcpt_ts8KGt4XJ4wcQFvV:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '7.1'
+        unit: P4
+        quote: Basic Vectors
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-2d/basic-vectors.md
+  spcpt_2PGdnfT8zrW4HcHn:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '7.1'
+        unit: P4
+        quote: Problem Solving using 3D Vectors
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-3d/problem-solving-using-3d-vectors.md
+  spcpt_Fj2Hmc45nNr3xrF3:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '7.1'
+        unit: P4
+        quote: Problem Solving using Vectors
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/vectors/vectors-in-2d/problem-solving-using-vectors.md
+  spcpt_pYT5j4mkfqgGVyG8:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: P4
+        quote: Implicit Differentiation
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/differentiation/implicit-differentiation/implicit-differentiation.md
+  spcpt_XhXVThpfcZ9CPFM8:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.2'
+        unit: P4
+        quote: Harder Substitution
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/further-integration/harder-substitution.md
+  spcpt_sgyKrvgcrwm34Pkz:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: P4
+        quote: Approximating Values
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/binomial-expansion/general-binomial-expansion/approximating-values.md
+  spcpt_ds4XvRtRsX2jTn7N:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P1_name_fragment_join
+        codes:
+        - '6.1'
+        unit: P4
+        quote: Volumes of revolution around the x-axis
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/further-integration/volumes-of-revolution.md
+  spcpt_vKYDHtGp9nMnQPyB:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.1'
+        unit: P4
+        quote: Modelling with Volumes of Revolution
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/further-integration/modelling-with-volumes-of-revolution.md
+  spcpt_Gqg9pFnhtP3GjvBq:
+    verdict: resolve
+    courses:
+      ial-maths-20-pure-4:
+        tier: P2_page_context_join
+        codes:
+        - '6.1'
+        unit: P4
+        quote: Adding and Subtracting Volumes
+        stage1_confirm: false
+        page: ial-maths-20-pure-4/notes/integration/further-integration/adding-and-subtracting-volumes.md
+  spcpt_SrFpVvthH46W55tj:
+    verdict: pending
+    courses:
+      ial-maths-20-pure-4:
+        reason: 'no-guess pending: SME ''Decision Making'' strategy page (which integration method to
+          use) aggregates techniques taught across P3-5.x/P4-6.x; the published IAL Mathematics specification
+          has no method-selection statement and no single statement covers the page'
+  spcpt_73stmsk3vHbph42y:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: S1
+        quote: Standard Deviation & Variance
+        stage1_confirm: true
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/standard-deviation-and-variance.md
+        note: stage-1 confirm
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.3'
+        unit: S1
+        quote: Standard Deviation & Variance
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Standard Deviation & Variance'' (statistics-1 home page) =
+          S1-2.3'
+  spcpt_Q9VkVVBtSYX8n8rN:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.4'
+        unit: S1
+        quote: Tree Diagrams
+        stage1_confirm: true
+        page: ial-maths-20-statistics-1/notes/probability/basic-probability/tree-diagrams.md
+        note: stage-1 confirm
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.4'
+        unit: S1
+        quote: Tree Diagrams
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Tree Diagrams'' (statistics-1 home page) = S1-3.4'
+  spcpt_YrhS9dcy42xvf5Qf:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.4'
+        unit: S1
+        quote: Venn Diagrams
+        stage1_confirm: true
+        page: ial-maths-20-statistics-1/notes/probability/basic-probability/venn-diagrams.md
+        note: stage-1 confirm
+  spcpt_kRWfbgrptFzrJPnj:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.4'
+        unit: S1
+        quote: Outliers
+        stage1_confirm: true
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/outliers.md
+        note: stage-1 confirm
+  spcpt_TSZNDk4FzrJGTnBy:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: S1
+        quote: Histograms
+        stage1_confirm: true
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/histograms.md
+        note: stage-1 confirm
+  spcpt_GVvzRKhmwGbc8Mz4:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: S1
+        quote: Correlation
+        stage1_confirm: true
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/scatter-diagrams.md
+        note: stage-1 confirm
+  spcpt_XNbkj4YzrTHZD8Wv:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.4'
+        unit: S1
+        quote: Discrete Uniform Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/discrete-random-variables/discrete-uniform-distribution.md
+  spcpt_mpb85fVZSQGr3tkK:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: S1
+        quote: Conditional Probability
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/further-probability/conditional-probability.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: S1
+        quote: Conditional Probability
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Conditional Probability'' (statistics-1 home page) = S1-3.2'
+  spcpt_qBdSyWddQNFVvkBj:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: S1
+        quote: Probability Distributions (Discrete)
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/discrete-random-variables/discrete-probability-distributions.md
+  spcpt_hNzSdgbyZxJrpzwx:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: S1
+        quote: Discrete Random Variables
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/discrete-random-variables/discrete-probability-distributions.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: S1
+        quote: Discrete Random Variables
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Discrete Random Variables'' (statistics-1 home page) = S1-5.2'
+  spcpt_7T9ryhpxywvH3PVX:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: S1
+        quote: Stem and Leaf Diagrams
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/stem-and-leaf-diagrams.md
+  spcpt_ZMNyvHd7JK6WfHTm:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.3'
+        unit: S1
+        quote: E(X) & Var(X) (Discrete)
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/discrete-random-variables/ex-and-varx-discrete.md
+  spcpt_zVjsVNNSk6nRc5FQ:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: S1
+        quote: Cumulative Probabilities (Discrete)
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/discrete-random-variables/discrete-probability-distributions.md
+        note: 5.2 covers the cumulative distribution function f(x)
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.2'
+        unit: S1
+        quote: Cumulative Probabilities (Discrete)
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Cumulative Probabilities (Discrete)'' (statistics-1 home page)
+          = S1-5.2'
+  spcpt_X9fNG9FC69h9J6CP:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: S1
+        quote: Scatter Diagrams
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/scatter-diagrams.md
+  spcpt_wDKP7rTqCr2Fj6QR:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.4'
+        unit: S1
+        quote: Further Tree Diagrams
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/further-probability/further-tree-diagrams.md
+  spcpt_dgjvmYBCVV34z5fM:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: S1
+        quote: Linear Regression
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/scatter-diagrams.md
+  spcpt_JfGQz47zpqCG2C9v:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.4'
+        unit: S1
+        quote: Further Venn Diagrams
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/further-probability/further-venn-diagrams.md
+  spcpt_yf3cdB89PqqgRTVn:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: S1
+        quote: Mean, Mode, Median
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/basic-statistical-measures.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: S1
+        quote: Mean, Mode, Median
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Mean, Mode, Median'' (statistics-1 home page) = S1-2.2'
+  spcpt_krJj9pCY9WhNrtc4:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.1'
+        unit: S1
+        quote: Box Plots
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/box-plots.md
+  spcpt_v8HQfZhT6bcFJ28H:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        unit: S1
+        quote: Calculating Regression Line
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/correlation-and-regression.md
+  spcpt_v276T7HQgJMZgXj9:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: S1
+        quote: Coding Linear Regression
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/coding-bivariate-data.md
+  spcpt_HS83hxfdbps62xPW:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Properties of Normal Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/normal-distribution/the-normal-distribution.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Properties of Normal Distribution
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Properties of Normal Distribution'' (statistics-1 home page)
+          = S1-5.1'
+  spcpt_V6WDFPgHhTqd5tyN:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Modelling with Normal Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/normal-distribution/the-normal-distribution.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Modelling with Normal Distribution
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Modelling with Normal Distribution'' (statistics-1 home page)
+          = S1-5.1'
+  spcpt_gmwKSJM4VXDr4T7d:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Standard Normal Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/normal-distribution/standard-normal-distribution.md
+  spcpt_GyGBcHPyjz7RJsv9:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Inverse Normal Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/normal-distribution/calculations.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Inverse Normal Distribution
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Inverse Normal Distribution'' (statistics-1 home page) = S1-5.1;
+          parts apply inverse-normal within normal approximations'
+  spcpt_xPq8dPj856nqvFQ3:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        - '3.3'
+        unit: S1
+        quote: Independent & Mutually Exclusive Events
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/basic-probability/calculating-probabilities-and-events.md
+        note: 'twin codes: tag covers mutually exclusive events (3.2) and independence (3.3); parts test
+          both'
+  spcpt_jgKvwpptbcVFZqgq:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.3'
+        unit: S1
+        quote: Probability Formulae
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/further-probability/probability-formulae.md
+  spcpt_7dZQhQhG2scX7Drv:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Finding Sigma and Mu
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/normal-distribution/finding-the-parameters-of-a-normal-distribution.md
+  spcpt_j6mhY3GsmrfJcws5:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Calculating Normal Probabilities
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/normal-distribution/calculations.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '5.1'
+        unit: S1
+        quote: Calculating Normal Probabilities
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Calculating Normal Probabilities'' (statistics-1 home page)
+          = S1-5.1; parts use normal approximations (S2-3.2 technique) co-carried where tagged'
+  spcpt_Gt3d7rKV2X8h4pwd:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.2'
+        unit: S1
+        quote: Set Notation
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/further-probability/conditional-probability.md
+        note: conditional probability page; 3.2 covers conditional probability
+  spcpt_bxWFJwqxDSR3cBsC:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: S1
+        quote: Probability Basics
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/basic-probability/calculating-probabilities-and-events.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: S1
+        quote: Probability Basics
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Probability Basics'' (statistics-1 home page) = S1-3.1 elementary
+          probability; parts compute probability distributions of sums'
+  spcpt_JT3NWnKdmfk6J6mh:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '3.2'
+        unit: S1
+        quote: Two-Way Tables
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/probability/further-probability/conditional-probability.md
+  spcpt_7RwtVTRXrV5hRJsx:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: S1
+        quote: Interpreting Data
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/interpreting-data.md
+  spcpt_jqdKPKTbZVnmBPyn:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: S1
+        quote: Data Presentation
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/data-presentation.md
+  spcpt_VdkHR5vRgMfZtKyd:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.1'
+        unit: S1
+        quote: Coding
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/coding-data.md
+        note: coding applied to regression lines = 4.1 scope
+  spcpt_3pFxhzpdSvQ8YGSD:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.4'
+        unit: S1
+        quote: Skewness
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/skewness.md
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.4'
+        unit: S1
+        quote: Skewness
+        stage1_confirm: false
+        note: 'cross-unit: global SME tag ''Skewness'' (statistics-1 home page) = S1-2.4'
+  spcpt_RZjNYNs49V6yD3rG:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S1
+        quote: Statistical Modelling
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/statistical-modelling.md
+  spcpt_bJ2N3km7G9FFwTBY:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.3'
+        unit: S1
+        quote: Quartiles & Range
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/basic-statistical-measures.md
+  spcpt_Dnt3T3BYzbvRC4dh:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: S1
+        quote: Grouped Data
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/frequency-tables.md
+  spcpt_R5p8k22QDnP2cnM3:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.2'
+        unit: S1
+        quote: Ungrouped Data
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/statistical-measures/frequency-tables.md
+  spcpt_Ts2cmxwNWDPfMXhV:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '4.3'
+        unit: S1
+        quote: Coding with PMCC
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/coding-bivariate-data.md
+  spcpt_scsQmXgJygJKWzhy:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '2.1'
+        unit: S1
+        quote: Cumulative Frequency
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/working-with-data/box-plots.md
+  spcpt_rSrCNWrrpTwPkFVq:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: S1
+        quote: PMCC
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/data-presentation-and-interpretation/correlation-and-regression/correlation-and-regression.md
+  spcpt_z62kKf5gJXGW9M9q:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-1:
+        tier: P2_page_context_join
+        codes:
+        - '5.3'
+        unit: S1
+        quote: aX+b
+        stage1_confirm: false
+        page: ial-maths-20-statistics-1/notes/statistical-distributions/discrete-random-variables/ax-and-b.md
+        note: E(aX+b) rules within 5.3 mean/variance of a discrete random variable
+  spcpt_PhRPk9SkcSgp9q8p:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        unit: S2
+        quote: Poisson Approximation of Binomial
+        stage1_confirm: true
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/working-with-distributions/approximating-the-binomial-distribution.md
+        note: stage-1 confirm
+  spcpt_fpRcGzr3vWBCjwQV:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.1'
+        unit: S2
+        quote: Continuous Uniform Distribution
+        stage1_confirm: true
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/continuous-random-variables/continuous-uniform-distribution.md
+        note: stage-1 confirm
+  spcpt_QTHzFn6gZrVKcRdG:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: S2
+        quote: Cumulative Distribution Function
+        stage1_confirm: true
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/cumulative-distribution-function/cumulative-distribution-function.md
+        note: stage-1 confirm
+  spcpt_YkKMWYDSjftxhVK2:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: S2
+        quote: Normal Approximation of Poisson
+        stage1_confirm: true
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/working-with-distributions/approximating-the-poisson-distribution.md
+        note: stage-1 confirm
+  spcpt_YY4h2CNvvKYfq4Sk:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '3.2'
+        unit: S2
+        quote: Normal Approximation of Binomial
+        stage1_confirm: true
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/working-with-distributions/approximating-the-binomial-distribution.md
+        note: stage-1 confirm
+  spcpt_yyQVJRMwfJDN5gPx:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.5'
+        unit: S2
+        quote: Median and Mode of a CRV
+        stage1_confirm: true
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/continuous-random-variables/probability-density-function.md
+        note: stage-1 confirm
+  spcpt_CFPBfrF9PVcrbCk6:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Properties of Binomial Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/binomial-distribution/the-binomial-distribution.md
+  spcpt_cBCMfVF2MRC2fhZS:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Modelling with Binomial Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/binomial-distribution/the-binomial-distribution.md
+  spcpt_GPmq8k46YXs6B3kX:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Modelling with Poisson Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/poisson-distribution/the-poisson-distribution.md
+  spcpt_gQsJPB7Szy6ZvMBZ:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Properties of Poisson Distribution
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/poisson-distribution/the-poisson-distribution.md
+  spcpt_PjFxtJZSDVwMp4RJ:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P2_page_context_join
+        codes:
+        - '3.2'
+        unit: S2
+        quote: Continuity Corrections
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/working-with-distributions/approximating-the-poisson-distribution.md
+  spcpt_dhBtPN6YhDdPNKHp:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.3'
+        - '3.2'
+        unit: S2
+        quote: Choosing the Approximation
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/working-with-distributions/approximating-the-binomial-distribution.md
+        note: 'twin codes: page covers both Poisson (1.3) and Normal (3.2) approximations to the binomial'
+  spcpt_2cYxMfGpbS5NYNxv:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P2_page_context_join
+        codes:
+        - '4.6'
+        unit: S2
+        quote: Poisson Hypothesis Testing
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/hypothesis-testing/hypothesis-testing-binomial-and-poisson-distributions/hypothesis-testing-for-lambda.md
+        note: 'committed parse text for 4.6 is truncated: the published statement (PDF lines 4645-4646)
+          reads ''Hypothesis tests for the parameter p of a binomial distribution AND FOR THE MEAN OF
+          A POISSON DISTRIBUTION'''
+  spcpt_FgTdMGnP4jYnHk7C:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.6'
+        unit: S2
+        quote: Binomial Hypothesis Testing
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/hypothesis-testing/hypothesis-testing-binomial-and-poisson-distributions/hypothesis-testing-for-p.md
+  spcpt_dchGk3kdpWq5TpJY:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Calculating Poisson Probabilities
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/poisson-distribution/calculating-poisson-probabilities.md
+  spcpt_dH2h38ZK6svbtC8J:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.4'
+        unit: S2
+        quote: E(X) & Var(X) (Continuous)
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/continuous-random-variables/ex-and-varx-continuous.md
+  spcpt_946spf6kFdytWskY:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Calculating Binomial Probabilities
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/binomial-distribution/calculating-binomial-probabilities.md
+  spcpt_tfzp7PgcTfMs9Ddw:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.1'
+        - '4.2'
+        unit: S2
+        quote: Sampling Distributions
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/hypothesis-testing/sampling-distributions-and-intro-to-hypothesis-testing/sampling-distributions.md
+        note: 'twin codes: page covers census/sample ideas (4.1) and sampling distributions (4.2); parts
+          cover both'
+  spcpt_FyrqXqf8PCg6CTb8:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: S2
+        quote: Language of Hypothesis Testing
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/hypothesis-testing/sampling-distributions-and-intro-to-hypothesis-testing/hypothesis-testing.md
+  spcpt_JMz3SfGShXWm8TqR:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '2.2'
+        unit: S2
+        quote: Calculating Probabilities using PDF
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/continuous-random-variables/probability-density-function.md
+  spcpt_mPVJHc5CKHN5mQyS:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.3'
+        unit: S2
+        quote: Conclusions of Hypothesis Testing
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/hypothesis-testing/sampling-distributions-and-intro-to-hypothesis-testing/hypothesis-testing.md
+  spcpt_BSThwNTGCsyfmCbs:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '1.1'
+        unit: S2
+        quote: Modelling with Distributions
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/statistical-distributions/working-with-distributions/modelling-with-distributions.md
+        note: '1.1 verbatim: ''use these distributions to model a real-world situation'''
+  spcpt_SXgS5mjTMgfKTPsD:
+    verdict: resolve
+    courses:
+      ial-maths-20-statistics-2:
+        tier: P1_name_fragment_join
+        codes:
+        - '4.4'
+        unit: S2
+        quote: Critical Regions
+        stage1_confirm: false
+        page: ial-maths-20-statistics-2/notes/hypothesis-testing/sampling-distributions-and-intro-to-hypothesis-testing/hypothesis-testing.md

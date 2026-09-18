@@ -9,12 +9,20 @@
  "official_pool": 12,
  "mappings": {
   "spcpt_8FsF3KSbZ4GDtqcY": {
-   "official_id": "IAL_MATHS:M1-6.1",
-   "official_code": "6.1",
-   "tier": "S1_name_match",
-   "score": 0.6779,
+   "official_id": "IAL_MATHS:M1-5.2",
+   "official_code": "5.2",
+   "tier": "P1_name_fragment_join",
+   "score": null,
    "unit": "M1",
-   "method": "name_to_statement_join"
+   "method": "operator-verdict page-context join (T-SPEC-6 re-verdict; corrects stage-1 name-only match; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equilibrium in 1D",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/equilibrium-in-1d.md",
+    "twin_codes": null,
+    "superseded_code": "6.1",
+    "pmt_excluded": true
+   }
   },
   "spcpt_BHyY3DyqGJ7QHDV4": {
    "official_id": "IAL_MATHS:M1-4.3",
@@ -33,189 +41,572 @@
    "method": "name_to_statement_join"
   },
   "spcpt_rtw79Qjwq6WHy6mK": {
+   "official_id": "IAL_MATHS:M1-5.2",
+   "official_code": "5.2",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6 re-verdict; corrects stage-1 name-only match; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Equilibrium in 2D",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/equilibrium-in-2d.md",
+    "twin_codes": null,
+    "superseded_code": "6.1",
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_fKtNWBm3GvYkTyCQ": {
+   "official_id": "IAL_MATHS:M1-5.3",
+   "official_code": "5.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction - Equilibrium",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/coefficient-of-friction-harder-problems.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_X9B4Sznz2grFjpX5": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Acceleration-Time Graphs",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/acceleration-time-graphs.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_qjrGSfMRNrHFKFX5": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Velocity-Time Graphs",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/velocity-time-graphs.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_w6WvWNXxQmC65FFg": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Displacement-Time Graphs",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/displacement-time-graphs.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_4VhGxyfft9FmqFKq": {
+   "official_id": "IAL_MATHS:M1-1.1",
+   "official_code": "1.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Modelling Assumptions",
+    "page": "ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/quantities-units-and-modelling/modelling-assumptions.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_hjSmwQJkMPWJFWm9": {
+   "official_id": "IAL_MATHS:M1-4.2",
+   "official_code": "4.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Connected Bodies - Pulleys",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/connected-bodies-pulleys.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_PWm6r5gcY5TJfrV7": {
+   "official_id": "IAL_MATHS:M1-5.1",
+   "official_code": "5.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Forces in 2D - Vector Notation",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/f-equals-ma-and-vector-notation.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_GT4R8B9y9q4RTZHF": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Deriving the suvat Formulae",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-1d/deriving-the-suvat-formulae.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_mQPxYj9fb5nn6Bkv": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Drawing Travel Graphs",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/kinematics-graphs/drawing-travel-graphs.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_v9Gry3JdfWgRKDrw": {
+   "official_id": "IAL_MATHS:M1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/coefficient-of-friction.md",
+    "twin_codes": [
+     "5.3"
+    ],
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_jkPTdhrYSF3sksgC": {
+   "official_id": "IAL_MATHS:M1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction - F = ma",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/friction-and-f-equals-ma.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_qgg8ZGMtYGRKzHPB": {
+   "official_id": "IAL_MATHS:M1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction - Inclined Planes",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/friction-and-inclined-planes.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_z3MZytxHVpYBSJGx": {
+   "official_id": "IAL_MATHS:M1-4.4",
+   "official_code": "4.4",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Coefficient of Friction – Connected Particles",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/coefficient-of-friction-harder-problems.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_dqwxZZzNwVSbvb6S": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Acceleration due to Gravity",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-1d/acceleration-due-to-gravity.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_8W98SQjTkSpr2kMQ": {
+   "official_id": "IAL_MATHS:M1-2.2",
+   "official_code": "2.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Working with Vectors",
+    "page": "ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/working-with-vectors/working-with-vectors.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_scnKHWsvNrzBTT5K": {
+   "official_id": "IAL_MATHS:M1-4.3",
+   "official_code": "4.3",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Impulse",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/momentum-impulse-and-collisions/momentum-and-impulse.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_QmKTzfXFGF6nwbsQ": {
+   "official_id": "IAL_MATHS:M1-4.1",
+   "official_code": "4.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Force Diagrams",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/force-diagrams.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_XMcYznXv3R7vqWcX": {
+   "official_id": "IAL_MATHS:M1-4.1",
+   "official_code": "4.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Types of Force",
+    "page": "ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/quantities-units-and-modelling/types-of-force.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Wdvfcz3xhySsxV57": {
+   "official_id": "IAL_MATHS:M1-5.1",
+   "official_code": "5.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Forces in 2D - Vector Notation",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/forces/forces-in-2d-vector-notation.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Y4PfRKms9VST76PZ": {
+   "official_id": "IAL_MATHS:M1-2.1",
+   "official_code": "2.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Scalars & Vectors",
+    "page": "ial-maths-20-mechanics-1/notes/mathematical-models-and-vectors/quantities-units-and-modelling/scalars-and-vectors.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_MxRjp5mxrhytYQY8": {
+   "official_id": "IAL_MATHS:M1-5.1",
+   "official_code": "5.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Forces Acting on an Inclined Plane",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/resolving-forces-and-inclined-planes.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_hZvhpjqm7TVXQPWM": {
    "official_id": "IAL_MATHS:M1-6.1",
    "official_code": "6.1",
-   "tier": "S1_name_match",
-   "score": 0.6779,
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
    "unit": "M1",
-   "method": "name_to_statement_join"
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using Moments - Equilibrium",
+    "page": "ial-maths-20-mechanics-1/notes/moments/moments/using-moments-with-equilibrium.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_vjTCZ6QnYzDqNB87": {
+   "official_id": "IAL_MATHS:M1-5.1",
+   "official_code": "5.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Forces Acting at an Angle",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/resolving-forces-and-inclined-planes.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_cF9jDPQ2vYxD2nYf": {
+   "official_id": "IAL_MATHS:M1-4.2",
+   "official_code": "4.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Connected Bodies - Ropes & Tow Bars",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/connected-bodies-ropes-and-tow-bars.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_SM682SSGxcbrNGn5": {
+   "official_id": "IAL_MATHS:M1-4.2",
+   "official_code": "4.2",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Connected Bodies - The Lift Problem",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/connected-bodies-lifts.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_gwDNP8pgh2FJjrxv": {
+   "official_id": "IAL_MATHS:M1-6.1",
+   "official_code": "6.1",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict name-fragment join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Moments Diagrams",
+    "page": "ial-maths-20-mechanics-1/notes/moments/moments/moments-diagrams.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_7Jz27DTGFkMV4YQH": {
+   "official_id": "IAL_MATHS:M1-4.1",
+   "official_code": "4.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "F = ma",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/newtons-second-law/f-equals-ma.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_f2XM2XNHqVGhXsnk": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "suvat in 1D",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-1d/suvat-in-1d.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_2XqMh2DGhXhDDWr2": {
+   "official_id": "IAL_MATHS:M1-6.1",
+   "official_code": "6.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Tilting",
+    "page": "ial-maths-20-mechanics-1/notes/moments/moments/tilting.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_HKGykwT46zGnYKzK": {
+   "official_id": "IAL_MATHS:M1-4.3",
+   "official_code": "4.3",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Collisions",
+    "page": "ial-maths-20-mechanics-1/notes/dynamics-and-statics/momentum-impulse-and-collisions/direct-collisions.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_Hj3JDXWFDGtVBjt8": {
+   "official_id": "IAL_MATHS:M1-2.2",
+   "official_code": "2.2",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "suvat in 2D",
+    "page": "ial-maths-20-mechanics-1/notes/kinematics-straight-line-motion/constant-acceleration-in-2d/suvat-in-2d.md",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_6vPzRxtjQy8Kn7yf": {
+   "official_id": "IAL_MATHS:M1-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M1",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Using suvat",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_XKx2bhHQMTtjRT7B": {
+   "official_id": "IAL_MATHS:M2-3.1",
+   "official_code": "3.1",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": "M2",
+   "method": "operator-verdict page-context join (T-SPEC-6; SME IAL pages publish no definition text, ticket #13; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-6)",
+    "quote": "Kinetic Energy",
+    "page": null,
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   }
  },
  "unmapped": [
   {
-   "spcpt_id": "spcpt_2XqMh2DGhXhDDWr2",
-   "name": "Tilting",
-   "reason": "weak name similarity (0.06)"
-  },
-  {
-   "spcpt_id": "spcpt_4VhGxyfft9FmqFKq",
-   "name": "Modelling Assumptions",
-   "reason": "weak name similarity (0.60)"
-  },
-  {
-   "spcpt_id": "spcpt_7Jz27DTGFkMV4YQH",
-   "name": "F = ma",
-   "reason": "weak name similarity (0.05)"
-  },
-  {
    "spcpt_id": "spcpt_7TCTw3rnrHwCQVQn",
    "name": "Derived Units",
-   "reason": "weak name similarity (0.10)"
-  },
-  {
-   "spcpt_id": "spcpt_8W98SQjTkSpr2kMQ",
-   "name": "Working with Vectors",
-   "reason": "weak name similarity (0.22)"
-  },
-  {
-   "spcpt_id": "spcpt_GT4R8B9y9q4RTZHF",
-   "name": "Deriving the suvat Formulae",
-   "reason": "weak name similarity (0.25)"
-  },
-  {
-   "spcpt_id": "spcpt_HKGykwT46zGnYKzK",
-   "name": "Collisions",
-   "reason": "weak name similarity (0.10)"
-  },
-  {
-   "spcpt_id": "spcpt_Hj3JDXWFDGtVBjt8",
-   "name": "suvat in 2D",
-   "reason": "weak name similarity (0.09)"
-  },
-  {
-   "spcpt_id": "spcpt_MxRjp5mxrhytYQY8",
-   "name": "Forces Acting on an Inclined Plane",
-   "reason": "weak name similarity (0.42)"
-  },
-  {
-   "spcpt_id": "spcpt_PWm6r5gcY5TJfrV7",
-   "name": "Forces in 2D - Vector Notation",
-   "reason": "weak name similarity (0.43)"
-  },
-  {
-   "spcpt_id": "spcpt_QmKTzfXFGF6nwbsQ",
-   "name": "Force Diagrams",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_SM682SSGxcbrNGn5",
-   "name": "Connected Bodies - The Lift Problem",
-   "reason": "weak name similarity (0.26)"
-  },
-  {
-   "spcpt_id": "spcpt_Wdvfcz3xhySsxV57",
-   "name": "Forces in 2D - Vector Notation",
-   "reason": "weak name similarity (0.43)"
-  },
-  {
-   "spcpt_id": "spcpt_X9B4Sznz2grFjpX5",
-   "name": "Acceleration-Time Graphs",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_XMcYznXv3R7vqWcX",
-   "name": "Types of Force",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_Y4PfRKms9VST76PZ",
-   "name": "Scalars & Vectors",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_cF9jDPQ2vYxD2nYf",
-   "name": "Connected Bodies - Ropes & Tow Bars",
-   "reason": "weak name similarity (0.14)"
-  },
-  {
-   "spcpt_id": "spcpt_dqwxZZzNwVSbvb6S",
-   "name": "Acceleration due to Gravity",
-   "reason": "weak name similarity (0.29)"
-  },
-  {
-   "spcpt_id": "spcpt_f2XM2XNHqVGhXsnk",
-   "name": "suvat in 1D",
-   "reason": "weak name similarity (0.09)"
-  },
-  {
-   "spcpt_id": "spcpt_fKtNWBm3GvYkTyCQ",
-   "name": "Coefficient of Friction - Equilibrium",
-   "reason": "weak name similarity (0.45)"
-  },
-  {
-   "spcpt_id": "spcpt_gwDNP8pgh2FJjrxv",
-   "name": "Moments Diagrams",
-   "reason": "weak name similarity (0.10)"
-  },
-  {
-   "spcpt_id": "spcpt_hZvhpjqm7TVXQPWM",
-   "name": "Using Moments - Equilibrium",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_hjSmwQJkMPWJFWm9",
-   "name": "Connected Bodies - Pulleys",
-   "reason": "weak name similarity (0.40)"
-  },
-  {
-   "spcpt_id": "spcpt_jkPTdhrYSF3sksgC",
-   "name": "Coefficient of Friction - F = ma",
-   "reason": "weak name similarity (0.52)"
-  },
-  {
-   "spcpt_id": "spcpt_mQPxYj9fb5nn6Bkv",
-   "name": "Drawing Travel Graphs",
-   "reason": "weak name similarity (0.13)"
+   "reason": "no-guess pending: SME teaches derived units but the published IAL Mathematics Mechanics specification contains no units statement (PDF-verified)"
   },
   {
    "spcpt_id": "spcpt_n4CMFvkrTVx7QjVc",
    "name": "Uniform Rods & Laminae",
-   "reason": "weak name similarity (0.20)"
-  },
-  {
-   "spcpt_id": "spcpt_qgg8ZGMtYGRKzHPB",
-   "name": "Coefficient of Friction - Inclined Planes",
-   "reason": "weak name similarity (0.34)"
-  },
-  {
-   "spcpt_id": "spcpt_qjrGSfMRNrHFKFX5",
-   "name": "Velocity-Time Graphs",
-   "reason": "weak name similarity (0.34)"
-  },
-  {
-   "spcpt_id": "spcpt_scnKHWsvNrzBTT5K",
-   "name": "Impulse",
-   "reason": "weak name similarity (0.03)"
+   "reason": "no-guess pending: SME teaches centres of mass of uniform rods/laminae but the M1 registry (WME01) has no centre-of-mass statement; nearest statements are M2-2.2 (centre of mass of plane laminas) and M3-5.1, which belong to other units"
   },
   {
    "spcpt_id": "spcpt_t9ZzPgXFZvYfvYT6",
    "name": "Fundamental Units",
-   "reason": "weak name similarity (0.09)"
+   "reason": "no-guess pending: SME teaches SI fundamental units but the published IAL Mathematics Mechanics specification contains no units statement (PDF-verified: 'SI units' appears only in exam-administration text, not as a spec statement)"
   },
   {
    "spcpt_id": "spcpt_v8hNWGT7NpzTRr5F",
    "name": "Non-uniform Rods",
-   "reason": "weak name similarity (0.09)"
-  },
-  {
-   "spcpt_id": "spcpt_v9Gry3JdfWgRKDrw",
-   "name": "Coefficient of Friction",
-   "reason": "weak name similarity (0.48)"
-  },
-  {
-   "spcpt_id": "spcpt_vjTCZ6QnYzDqNB87",
-   "name": "Forces Acting at an Angle",
-   "reason": "weak name similarity (0.50)"
-  },
-  {
-   "spcpt_id": "spcpt_w6WvWNXxQmC65FFg",
-   "name": "Displacement-Time Graphs",
-   "reason": "weak name similarity (0.30)"
-  },
-  {
-   "spcpt_id": "spcpt_z3MZytxHVpYBSJGx",
-   "name": "Coefficient of Friction – Connected Particles",
-   "reason": "weak name similarity (0.39)"
+   "reason": "no-guess pending: SME teaches centres of mass of non-uniform rods but the M1 registry has no centre-of-mass statement (integration-based CoM is M3-5.1 territory); no-guess left unresolved"
   }
  ],
  "flags": []
