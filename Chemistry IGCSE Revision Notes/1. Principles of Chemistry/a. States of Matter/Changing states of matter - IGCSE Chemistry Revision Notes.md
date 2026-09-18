@@ -18,7 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: The three states of matter are solids, liquids and gases
+      evidence: "| Arrangement of particles | Regular arrangement | Randomly arranged | Randomly arranged | | Movement of particles | Vibrate about a fixed position | Move around each other | Move quickly in all directions |"
       rationale: Teaches the three states with a properties table (arrangement, movement, closeness per
         state) and the particle model; energy of particles is taught in the state-change sections (energy
         changes on melting/boiling).
@@ -30,8 +30,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: State changes occur at the melting point (solid to liquid, liquid to solid) and at the
-        boiling point (liquid to gas and gas to liquid)
+      evidence: "- Melting is when a solid changes into a liquid - Heat / thermal energy absorbed by the particles is transformed into kinetic energy - This causes the particles to vibrate more and start to move / flow - Melting happens at a specific temperature, known as the melting point (m.p.)"
       rationale: 'Full interconversion set: melting, boiling/evaporation, freezing, condensation, sublimation
         with how each is achieved.'
       validation_status: HUMAN_VALIDATED

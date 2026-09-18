@@ -173,8 +173,15 @@ def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     courses = ALL_COURSES if args.all else \
         [c.strip() for c in args.courses.split(",") if c.strip()]
-    manifest = {"schema": "syllabai.learner-spec-links-manifest/1.0",
-                "generated_utc": now_utc(), "courses": {}}
+    mpath = OUT / "manifest.json"
+    # merge into an existing manifest so single-course runs don't clobber
+    # the other courses' entries (latent defect fixed 2026-09-18, T-SPEC-1)
+    if mpath.exists():
+        manifest = json.loads(mpath.read_text(encoding="utf-8"))
+        manifest["generated_utc"] = now_utc()
+    else:
+        manifest = {"schema": "syllabai.learner-spec-links-manifest/1.0",
+                    "generated_utc": now_utc(), "courses": {}}
     tot = Counter()
     for c in courses:
         b = course_bundle(c)
@@ -192,7 +199,7 @@ def main() -> int:
               f"parts {t['coded_by_kind']['question_parts']}/{t['by_kind']['question_parts']}, "
               f"cards {t['coded_by_kind']['flashcards']}/{t['by_kind']['flashcards']})",
               flush=True)
-    (OUT / "manifest.json").write_text(
+    (mpath).write_text(
         json.dumps(manifest, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"TOTAL items={tot['items']} coded={tot['items_with_codes']} | "
           f"notes {tot['notes_coded']}/{tot['notes']}, "

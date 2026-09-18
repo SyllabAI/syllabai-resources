@@ -18,8 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: The metallic bond is the strong force of attraction between the positive metal ions and
-        the delocalised electrons
+      evidence: "- There are strong electrostatic forces of attraction between the positive metal ions and the negative delocalised electrons within the metal lattice structure - These needs lots of energy to be broken"
       rationale: Metallic bonding as electrostatic attraction between positive ions and delocalised electrons;
         alloys included.
       validation_status: HUMAN_VALIDATED
@@ -41,7 +40,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: medium
       model_version: GLM (Super Z agent, z.ai)
-      evidence: Metals consist of giant structures of atoms arranged in a regular pattern
+      evidence: "!Structure & bonding in a metal, IGCSE & GCSE Chemistry revision notes Metallic bonds exist between positive metal ions and delocalised electrons - Most metals have high melting and boiling points"
       rationale: The lattice diagram and regular-pattern description support the 2-D metallic lattice
         representation.
       validation_status: HUMAN_VALIDATED

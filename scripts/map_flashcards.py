@@ -50,6 +50,9 @@ TEXT_JOIN_TYPES = {"keyword_definition", "question_and_answer"}
 AUTO_RATIO = 0.93      # T2
 SECTION_RATIO = 0.80   # T3 (requires deck-slug/section agreement)
 FUZZY_RATIO = 0.85     # T4 -> flagged
+CONTAINMENT = 0.90     # T3 containment pass: card tokens covered by statement
+MIN_CARD_TOKENS = 4    # guard against tiny fronts joining trivially
+AMBIGUITY_GAP = 0.02   # runner-up within this -> ambiguous, skip
 
 
 def now_utc() -> str:
@@ -60,6 +63,50 @@ def card_query_text(card: dict) -> str:
     md = card.get("back_md") or ""
     # strip cosmetic bold so normalized text matches official statements
     return md.replace("**", "")
+
+
+def containment_join(course: str, qual_slug: str, card: dict, prep,
+                     unit_key, tier_key) -> dict | None:
+    """Section-anchored containment join (T-SPEC-1 tuning, 2026-09-18).
+
+    Short card answers that are near-verbatim EXCERPTS of one official
+    statement fail full-string SequenceMatcher (ratio penalises length
+    mismatch). The validated resolver chain (sme_spcpt_resolve) already
+    established token-containment/F1 + section boost as the honest scorer
+    for exactly this case. Requirements, all structural — no T4 escape:
+      - card answer has >= MIN_CARD_TOKENS content tokens
+      - >= CONTAINMENT of those tokens covered by ONE official statement
+      - that statement section-agrees with the deck slug (msp.section_agree)
+      - runner-up is > AMBIGUITY_GAP behind (else ambiguous -> skip)
+    Tier stays T3_section_anchored (weakest tier this evidence supports)."""
+    d = msp.norm(card_query_text(card))
+    if not d:
+        return None
+    dtoks = msp.tokens(d)
+    if len(dtoks) < MIN_CARD_TOKENS:
+        return None
+    best, bs, runner = None, 0.0, 0.0
+    for i in msp.top_candidates(d, dtoks, prep):
+        p, ttoks, _ntext = prep[i]
+        if not msp.section_agree(card.get("deck_slug") or "", p):
+            continue
+        cov = len(dtoks & ttoks) / len(dtoks)
+        if cov > bs:
+            best, bs, runner = p, cov, bs
+        elif cov > runner:
+            runner = cov
+    if best is None or bs < CONTAINMENT:
+        return None
+    if runner and bs - runner < AMBIGUITY_GAP:
+        return None
+    unit = None
+    if msp.QUALS[qual_slug]["struct"]:
+        unit = msp.QUALS[qual_slug]["struct"]["spec_point_units"].get(best["id"])
+    return {
+        "official_id": best["id"], "official_code": best["official_code"],
+        "tier": "T3_section_anchored", "score": round(bs, 4), "unit": unit,
+        "method": "card_text_containment_join",
+    }
 
 
 def content_join(course: str, qual_slug: str, card: dict, prep, exact,
@@ -135,6 +182,7 @@ def map_course(course: str) -> dict:
 
     cards_out: dict = {}
     totals = Counter()
+    totals.setdefault("containment_joined", 0)  # reported even when 0
     unresolved_spcpt: Counter = Counter()
 
     deck_files = sorted(FC.glob(f"{course}/*/*/deck.json"))
@@ -178,8 +226,17 @@ def map_course(course: str) -> dict:
                         totals["content_joined"] += 1
                         totals["cards_with_codes"] += 1
                     else:
-                        entry["reason"] = "card text below safe join threshold"
-                        totals["cards_unmapped"] += 1
+                        cj2 = containment_join(course, qual,
+                                               {**card, "deck_slug": deck_slug},
+                                               prep, unit_key, tier_key)
+                        if cj2:
+                            entry["codes"] = [cj2]
+                            totals["containment_joined"] += 1
+                            totals["content_joined"] += 1
+                            totals["cards_with_codes"] += 1
+                        else:
+                            entry["reason"] = "card text below safe join threshold"
+                            totals["cards_unmapped"] += 1
                 elif card["card_type"] in TEXT_JOIN_TYPES and unresolved:
                     entry["reason"] = "spec links unresolvable; text join skipped to avoid double-anchoring"
                     totals["cards_unmapped"] += 1
@@ -204,6 +261,7 @@ def map_course(course: str) -> dict:
             "cards_with_codes": totals["cards_with_codes"],
             "spec_link_inherited": totals["spec_link_inherited"],
             "content_joined": totals["content_joined"],
+            "containment_joined": totals["containment_joined"],
             "cards_unmapped": totals["cards_unmapped"],
             "cards_blocked": totals["cards_blocked"],
         },
@@ -213,7 +271,8 @@ def map_course(course: str) -> dict:
     (FC / course / "flashcard_spec_map.json").write_text(
         json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"[{course}] cards={totals['cards']} coded={totals['cards_with_codes']} "
-          f"(link {totals['spec_link_inherited']} + text {totals['content_joined']}) "
+          f"(link {totals['spec_link_inherited']} + text {totals['content_joined']} "
+          f"[containment {totals['containment_joined']}]) "
           f"unmapped={totals['cards_unmapped']} unresolved={dict(unresolved_spcpt)}",
           flush=True)
     return {"course": course, "qual": qual, **result["totals"],

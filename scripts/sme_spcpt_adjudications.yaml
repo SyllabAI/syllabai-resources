@@ -81,3 +81,24 @@ decisions:
     rationale: >
       Covered by the empty-definition entry above; both SME spec points are
       the same official statement 2.20.
+
+  # --- appended 2026-09-18 (T-SPEC-1) while merging resolution records into
+  # spec_point_map.json; reviewer: GLM (Super Z agent, z.ai) under the same
+  # 2026-09-17 operator delegation, reaffirmed by the 2026-09-18 task directive
+  # "resolve 581 pending chemistry spec joins".
+  - group: sme-split-of-one-statement
+    code: 4CH1-4.32C
+    ids: [spcpt_dwwpNH8MKYYzzHz8]
+    action: confirm
+    similarity: 0.8209
+    rationale: >
+      Official 4.32C gives TWO manufacture routes (reacting ethene with steam
+      AND fermentation of glucose); SME splits them into "Industrial Synthesis
+      of Ethanol" (this id, quoting only the ethene+steam route with its full
+      conditions) and "Fermentation" (spcpt_RRCSrQKfT77w2Nq4 -> 4CH1-4.33C at
+      similarity 1.0). SequenceMatcher similarity is depressed by bullet
+      formatting and degree-sign encoding differences (300 \u00baC vs 300\u2103);
+      the quoted route text itself matches the official first route. The
+      containing note's spec_map includes 4CH1-4.32C (cross_check
+      code_in_note_codes). Merged map entry is conservatively stamped
+      T4_fuzzy with a review flag (T-SPEC-1).

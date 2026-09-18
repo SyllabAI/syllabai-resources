@@ -18,7 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: a more reactive metal will displace a less reactive metal from its compounds
+      evidence: "- The reactivity between two metals can be compared using displacement reactions in salt solutions of one of the metals - This is easily seen as the more reactive metal slowly disappears from the solution, displacing the less reactive metal"
       rationale: 'Both 2.16 strands: metal + metal oxide (thermite, Zn + CuO) and metal + aqueous metal
         salt (Mg + CuSO4) with tables.'
       validation_status: HUMAN_VALIDATED
