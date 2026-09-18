@@ -95,7 +95,7 @@ spec_map:
 
 #### Fractional distillation of crude oil
 
-![Fractional-Distillation, IGCSE & GCSE Chemistry revision notes](../../assets/Fractional-Distillation.png)<!-- figure-missing: Fractional-Distillation.png (download failed during clipping) --> _**Diagram showing the process of fractional distillation to separate crude oil in a fractionating column**_
+![Fractional-Distillation, IGCSE & GCSE Chemistry revision notes](../../assets/Fractional-Distillation.png)<!-- figure recovered 2026-09-18 from https://cdn.savemyexams.com/uploads/2020/01/Fractional-Distillation.png (clip-time download had failed) --> _**Diagram showing the process of fractional distillation to separate crude oil in a fractionating column**_
 
 ### How does fractional distillation work?
 
