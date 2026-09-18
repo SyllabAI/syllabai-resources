@@ -18,8 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: The series can be used to place a group of metals in order of reactivity based on the
-        observations of their reactions with water and acids
+      evidence: "- Only metals above hydrogen in the reactivity series will react with dilute acids - The more reactive the metal then the more vigorous the reaction will be"
       rationale: Water-reaction table plus dilute HCl/H2SO4 reaction tables building the reactivity series.
       validation_status: HUMAN_VALIDATED
       validated_by: operator
@@ -29,8 +28,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: medium
       model_version: GLM (Super Z agent, z.ai)
-      evidence: The series can be used to place a group of metals in order of reactivity based on the
-        observations of their reactions with water and acids
+      evidence: "| Potassium | Reacts violently | | Sodium | Reacts quickly | | Lithium | Reacts less strongly | | Calcium | Reacts less strongly |"
       rationale: The tables order K through Cu; the dedicated reactivity-series note carries the full
         2.17 list.
       validation_status: HUMAN_VALIDATED

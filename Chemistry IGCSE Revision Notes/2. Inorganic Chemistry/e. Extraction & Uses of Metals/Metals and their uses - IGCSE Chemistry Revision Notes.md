@@ -18,7 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: The uses of aluminium, copper and steel are summarised in these tables
+      evidence: "| Aircraft bodies | High strength-to-weight ratio (low density) | | Saucepans | Very good conductor of heat and unreactive | | Overhead electrical cables | Very good conductor of electricity | | Food cans | Non-toxic, resistant to corrosion and resistant to acidic food stuffs |"
       rationale: Use-property tables for aluminium, copper, iron and steel (low-carbon, high-carbon, stainless
         distinguished).
       validation_status: HUMAN_VALIDATED

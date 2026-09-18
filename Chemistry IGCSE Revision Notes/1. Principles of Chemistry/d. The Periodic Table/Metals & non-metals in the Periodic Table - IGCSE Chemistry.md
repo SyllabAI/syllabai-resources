@@ -18,8 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: We can use properties such as electrical conductivity and acid-base character to classify
-        elements as metals or non-metals
+      evidence: "| Electrical conductivity | Good conductor of electricity | Poor conductors of electricity | | Type of oxide | Basic oxides | Acidic oxides (some are neutral) |"
       rationale: 'Properties comparison table: electrical conductivity, oxide acid-base character, plus
         bonding and acid reactions.'
       validation_status: HUMAN_VALIDATED

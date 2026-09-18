@@ -29,8 +29,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: medium
       model_version: GLM (Super Z agent, z.ai)
-      evidence: Once the moles have been determined they can then be converted into grams using the relative
-        atomic or relative formula masses
+      evidence: "- Step 2 - use the molar ratio from the balanced symbol equation - 2 moles of magnesium produce 2 moles of magnesium oxide - The ratio is 1 : 1 - Therefore, 0.25 moles of magnesium oxide is produced - Step 3 - calculate the mass of magnesium oxide"
       rationale: The mole-to-gram bridge using Ar/Mr is the note's core computational tool.
       validation_status: HUMAN_VALIDATED
       validated_by: operator

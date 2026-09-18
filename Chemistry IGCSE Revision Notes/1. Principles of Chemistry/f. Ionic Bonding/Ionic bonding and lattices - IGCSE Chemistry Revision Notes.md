@@ -18,8 +18,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: Between positive and negative ions are strong electrostatic forces of attraction which
-        act in all directions
+      evidence: "- Ionic compounds have high melting and boiling points because: - They have giant ionic lattices - There are strong electrostatic forces of attraction between oppositely charged ions in all directions - The forces need lots of thermal energy to overcome them"
       rationale: Ionic bonding as electrostatic attraction, giant lattice description, NaCl lattice diagram.
       validation_status: HUMAN_VALIDATED
       validated_by: operator
@@ -40,7 +39,7 @@ spec_map:
       tier: AI_SUGGESTED
       confidence: high
       model_version: GLM (Super Z agent, z.ai)
-      evidence: ionic compounds have high melting points and conduct electricity when molten or in solution
+      evidence: "- Ionic compounds are poor conductors in the solid state - The ions are in fixed positions in the lattice - They are therefore unable to move and carry a charge - Ionic compounds are good conductors of electricity in the molten state or in solution - When the ionic compound is melted or dissolved in water, the ions are able to move and carry a charge"
       rationale: 'Conductivity section: poor conductors when solid, conduct when molten or in aqueous
         solution.'
       validation_status: HUMAN_VALIDATED

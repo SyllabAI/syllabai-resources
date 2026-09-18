@@ -11,21 +11,12 @@ meta:
   chunks_intro: 112
   chunks_section: 667
   mappings_upstream: 209
-  rows_anchored: 197
-  rows_worklist_quotes: 12
+  rows_anchored: 209
+  rows_worklist_quotes: 0
   rows_worklist_unmapped_sps: 1
-  anchor_rate: 0.9426
-  sp_codes_covered: 172
+  anchor_rate: 1.0
+  sp_codes_covered: 181
   sp_codes_uncovered:
-  - 4CH1-1.1
-  - 4CH1-1.2
-  - 4CH1-1.20
-  - 4CH1-1.41
-  - 4CH1-1.43
-  - 4CH1-1.52C
-  - 4CH1-1.53C
-  - 4CH1-2.16
-  - 4CH1-2.25C
   - 4CH1-4.15
   tool: scripts/c13_chunk_sp_substrate.py@1.0.0
   upstream_store: T-C10 note-level spec_map (209 HUMAN_VALIDATED mappings, operator 2026-09-11)
@@ -34,6 +25,80 @@ meta:
     T-C06 ingestion — the converter/ChunkingService must reproduce this convention or the rows fail closed
     at join time
 rows:
+- mapping_id: efc19a2773331632
+  spec_code: 4CH1-1.1
+  sp_title: understand the three states of matter in terms of the arrangement, movement and energy of
+    the particles
+  note_slug: 1-1-1-the-three-states-of-matter
+  note_path: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
+    Revision Notes.md
+  chunk:
+    ordinal: 1
+    heading: Summary of the properties of the three states of matter
+    sha256_16: 26b724f7261fabee
+    chars: 1041
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '| Arrangement of particles | Regular arrangement | Randomly arranged | Randomly arranged
+    | | Movement of particles | Vibrate about a fixed position | Move around each other | Move quickly
+    in all directions |'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
+        Revision Notes.md::4CH1-1.1
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: Teaches the three states with a properties table (arrangement, movement, closeness per state)
+    and the particle model; energy of particles is taught in the state-change sections (energy changes
+    on melting/boiling).
+  validation_status: SUGGESTED
+- mapping_id: 4eba57c7ca7345b0
+  spec_code: 4CH1-1.2
+  sp_title: 'understand the interconversions between the three states of matter in terms of: • the names
+    of the interconversions • how they are achieved • the changes in arrangement, movement and energy
+    of the particles.'
+  note_slug: 1-1-1-the-three-states-of-matter
+  note_path: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
+    Revision Notes.md
+  chunk:
+    ordinal: 3
+    heading: Melting
+    sha256_16: 7d0a84be25b96b1b
+    chars: 320
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- Melting is when a solid changes into a liquid - Heat / thermal energy absorbed by
+    the particles is transformed into kinetic energy - This causes the particles to vibrate more and start
+    to move / flow - Melting happens at a specific temperature, known as the melting point (m.p.)'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
+        Revision Notes.md::4CH1-1.2
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: 'Full interconversion set: melting, boiling/evaporation, freezing, condensation, sublimation
+    with how each is achieved.'
+  validation_status: SUGGESTED
 - mapping_id: 821fc1fc53a5449e
   spec_code: 4CH1-1.3
   sp_title: understand how the results of experiments involving the dilution of coloured solutions and
@@ -866,6 +931,41 @@ rows:
   rationale: Dedicated section (quoted heading) relating configuration to Periodic Table position, incl.
     the worked chlorine-position example.
   validation_status: SUGGESTED
+- mapping_id: 588356742ad67cd7
+  spec_code: 4CH1-1.20
+  sp_title: understand how to use electrical conductivity and the acid-base character of oxides to classify
+    elements as metals or non-metals
+  note_slug: 1-4-3-classify-metals-and-non-metals
+  note_path: 1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table
+    - IGCSE Chemistry.md
+  chunk:
+    ordinal: 1
+    heading: Properties of metals and non-metals
+    sha256_16: 9481d2e4500ae502
+    chars: 1586
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '| Electrical conductivity | Good conductor of electricity | Poor conductors of electricity
+    | | Type of oxide | Basic oxides | Acidic oxides (some are neutral) |'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table
+        - IGCSE Chemistry.md::4CH1-1.20
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: 'Properties comparison table: electrical conductivity, oxide acid-base character, plus bonding
+    and acid reactions.'
+  validation_status: SUGGESTED
 - mapping_id: d4e18e3b51757e88
   spec_code: 4CH1-1.21
   sp_title: identify an element as a metal or a non-metal according to its position in the Periodic Table
@@ -1330,6 +1430,41 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) on deducing balanced equations from reacting-mass data.
   validation_status: SUGGESTED
+- mapping_id: 0095cca6eca398bf
+  spec_code: 4CH1-1.28
+  sp_title: understand how to carry out calculations involving amount of substance, relative atomic mass
+    $ (A_{r}) $ and relative formula mass $ (M_{r}) $
+  note_slug: 1-5-4-calculate-reacting-masses
+  note_path: 1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations
+    - IGCSE Chemistry Revision Notes.md
+  chunk:
+    ordinal: 1
+    heading: Worked Example
+    sha256_16: 66cb3a45ae3a59fb
+    chars: 940
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- Step 2 - use the molar ratio from the balanced symbol equation - 2 moles of magnesium
+    produce 2 moles of magnesium oxide - The ratio is 1 : 1 - Therefore, 0.25 moles of magnesium oxide
+    is produced - Step 3 - calculate the mass of magnesium oxide'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass
+        calculations - IGCSE Chemistry Revision Notes.md::4CH1-1.28
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: medium
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: The mole-to-gram bridge using Ar/Mr is the note's core computational tool.
+  validation_status: SUGGESTED
 - mapping_id: 683c0a869164669b
   spec_code: 4CH1-1.29
   sp_title: calculate reacting masses using experimental data and chemical equations
@@ -1632,6 +1767,40 @@ rows:
   rationale: Direct-comparison and swap-and-drop methods for writing formulae from the listed ions (Fe2+,
     sulfate etc.).
   validation_status: SUGGESTED
+- mapping_id: 0accf11c63efe872
+  spec_code: 4CH1-1.41
+  sp_title: understand ionic bonding in terms of electrostatic attractions
+  note_slug: 1-6-5-ionic-compounds-bonds-structure-and-properties
+  note_path: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
+    Revision Notes.md
+  chunk:
+    ordinal: 2
+    heading: Giant ionic lattice of sodium chloride
+    sha256_16: d26624fc348b565f
+    chars: 925
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- Ionic compounds have high melting and boiling points because: - They have giant ionic
+    lattices - There are strong electrostatic forces of attraction between oppositely charged ions in
+    all directions - The forces need lots of thermal energy to overcome them'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
+        Revision Notes.md::4CH1-1.41
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: Ionic bonding as electrostatic attraction, giant lattice description, NaCl lattice diagram.
+  validation_status: SUGGESTED
 - mapping_id: b1e8adc64cd01cf9
   spec_code: 4CH1-1.42
   sp_title: understand why compounds with giant ionic lattices have high melting and boiling points
@@ -1664,6 +1833,42 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: High m.p./b.p. of giant ionic lattices explained by strong electrostatic forces needing much
     energy.
+  validation_status: SUGGESTED
+- mapping_id: 5f4b3dd516e7bbd3
+  spec_code: 4CH1-1.43
+  sp_title: know that ionic compounds do not conduct electricity when solid，but do conduct electricity
+    when molten and in aqueous solution
+  note_slug: 1-6-5-ionic-compounds-bonds-structure-and-properties
+  note_path: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
+    Revision Notes.md
+  chunk:
+    ordinal: 3
+    heading: Conductivity of ionic compounds
+    sha256_16: 9bc6cd91624beafb
+    chars: 820
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- Ionic compounds are poor conductors in the solid state - The ions are in fixed positions
+    in the lattice - They are therefore unable to move and carry a charge - Ionic compounds are good conductors
+    of electricity in the molten state or in solution - When the ionic compound is melted or dissolved
+    in water, the ions are able to move and carry a charge'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
+        Revision Notes.md::4CH1-1.43
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: 'Conductivity section: poor conductors when solid, conduct when molten or in aqueous solution.'
   validation_status: SUGGESTED
 - mapping_id: 82e801fd481b4173
   spec_code: 4CH1-1.37
@@ -2038,6 +2243,75 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Conductivity section states simple molecular/covalent substances do not conduct (no mobile
     charged particles).
+  validation_status: SUGGESTED
+- mapping_id: 1d97fd710f098a74
+  spec_code: 4CH1-1.52C
+  sp_title: know how to represent a metallic lattice by a 2-D diagram
+  note_slug: 1-8-1-metallic-bonding
+  note_path: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
+    Notes.md
+  chunk:
+    ordinal: 1
+    heading: Metallic bonding
+    sha256_16: 5985c7a1c9690f51
+    chars: 864
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '!Structure & bonding in a metal, IGCSE & GCSE Chemistry revision notes Metallic bonds
+    exist between positive metal ions and delocalised electrons - Most metals have high melting and boiling
+    points'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
+        Notes.md::4CH1-1.52C
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: medium
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: The lattice diagram and regular-pattern description support the 2-D metallic lattice representation.
+  validation_status: SUGGESTED
+- mapping_id: 66f46b2d89c12a28
+  spec_code: 4CH1-1.53C
+  sp_title: understand metallic bonding in terms of electrostatic attractions
+  note_slug: 1-8-1-metallic-bonding
+  note_path: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
+    Notes.md
+  chunk:
+    ordinal: 1
+    heading: Metallic bonding
+    sha256_16: 5985c7a1c9690f51
+    chars: 864
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- There are strong electrostatic forces of attraction between the positive metal ions
+    and the negative delocalised electrons within the metal lattice structure - These needs lots of energy
+    to be broken'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
+        Notes.md::4CH1-1.53C
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: Metallic bonding as electrostatic attraction between positive ions and delocalised electrons;
+    alloys included.
   validation_status: SUGGESTED
 - mapping_id: fe4561f5c37266a5
   spec_code: 4CH1-1.54C
@@ -2844,6 +3118,111 @@ rows:
   rationale: Metal-carbonate decomposition to CO2 with the named copper(II) carbonate example and gas
     test.
   validation_status: SUGGESTED
+- mapping_id: 6b3ae423d9488366
+  spec_code: 4CH1-2.16
+  sp_title: 'understand how metals can be arranged in a reactivity series based on their displacement
+    reactions between: •metals and metal oxides •metals and aqueous solutions of metal salts.'
+  note_slug: 2-4-2-metal-displacement-reactions
+  note_path: 2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision
+    Notes.md
+  chunk:
+    ordinal: 2
+    heading: Displacement reactions between metals & aqueous solutions of metal salts
+    sha256_16: ce045b9ac30bf7eb
+    chars: 755
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- The reactivity between two metals can be compared using displacement reactions in
+    salt solutions of one of the metals - This is easily seen as the more reactive metal slowly disappears
+    from the solution, displacing the less reactive metal'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision
+        Notes.md::4CH1-2.16
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: 'Both 2.16 strands: metal + metal oxide (thermite, Zn + CuO) and metal + aqueous metal salt
+    (Mg + CuSO4) with tables.'
+  validation_status: SUGGESTED
+- mapping_id: 438ccc22de2c65c0
+  spec_code: 4CH1-2.15
+  sp_title: 'understand how metals can be arranged in a reactivity series based on their reactions with:
+    •water •dilute hydrochloric or sulfuric acid.'
+  note_slug: 2-4-1-metals-reacting-with-water-and-acids
+  note_path: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE
+    Chemistry Revision Notes 2017.md
+  chunk:
+    ordinal: 3
+    heading: Reaction with dilute sulfuric or hydrochloric acids
+    sha256_16: ada48b59f21e2045
+    chars: 605
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '- Only metals above hydrogen in the reactivity series will react with dilute acids
+    - The more reactive the metal then the more vigorous the reaction will be'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md::4CH1-2.15
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: Water-reaction table plus dilute HCl/H2SO4 reaction tables building the reactivity series.
+  validation_status: SUGGESTED
+- mapping_id: 1aa8ae29fbedf46d
+  spec_code: 4CH1-2.17
+  sp_title: 'know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium,
+    aluminium, zinc, iron, copper, silver, gold'
+  note_slug: 2-4-1-metals-reacting-with-water-and-acids
+  note_path: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE
+    Chemistry Revision Notes 2017.md
+  chunk:
+    ordinal: 1
+    heading: Reactions of metal with cold water summary table
+    sha256_16: 441462a310b3db9d
+    chars: 516
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '| Potassium | Reacts violently | | Sodium | Reacts quickly | | Lithium | Reacts less
+    strongly | | Calcium | Reacts less strongly |'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md::4CH1-2.17
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: medium
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: The tables order K through Cu; the dedicated reactivity-series note carries the full 2.17
+    list.
+  validation_status: SUGGESTED
 - mapping_id: 2b554c85186f7ad9
   spec_code: 4CH1-2.15
   sp_title: 'understand how metals can be arranged in a reactivity series based on their reactions with:
@@ -3173,6 +3552,42 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The worked blast-furnace description is the worked example a student comments on for 2.24C.
+  validation_status: SUGGESTED
+- mapping_id: 824382c62ec8b4b8
+  spec_code: 4CH1-2.25C
+  sp_title: explain the uses of aluminium, copper, iron and steel in terms of their properties the types
+    of steel will be limited to low-carbon (mild), high-carbon and stainless
+  note_slug: 2-5-3-using-metals
+  note_path: 2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry
+    Revision Notes.md
+  chunk:
+    ordinal: 1
+    heading: Uses of Aluminium
+    sha256_16: 5540e1c8434dd40b
+    chars: 427
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 1
+  evidence_quote: '| Aircraft bodies | High strength-to-weight ratio (low density) | | Saucepans | Very
+    good conductor of heat and unreactive | | Overhead electrical cables | Very good conductor of electricity
+    | | Food cans | Non-toxic, resistant to corrosion and resistant to acidic food stuffs |'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: quote-anchor granularity refinement of the T-C10 note-level mapping (verbatim evidence
+      quote anchored to its passage chunk; deterministic, zero-LLM)
+    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry
+        Revision Notes.md::4CH1-2.25C
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: Use-property tables for aluminium, copper, iron and steel (low-carbon, high-carbon, stainless
+    distinguished).
   validation_status: SUGGESTED
 - mapping_id: c271d5154f5b8188
   spec_code: 4CH1-2.22C
@@ -6557,277 +6972,6 @@ rows:
   rationale: 'Disposal problems: inertness/non-biodegradability in landfill plus toxic gases on burning
     (PVC to hydrogen chloride, carbon monoxide from incomplete combustion).'
   validation_status: SUGGESTED
-- mapping_id: 66c62e47fb282209
-  spec_code: 4CH1-1.1
-  note_slug: 1-1-1-the-three-states-of-matter
-  note_path: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
-    Revision Notes.md
-  evidence_quote: The three states of matter are solids, liquids and gases
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
-        Revision Notes.md::4CH1-1.1
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: 9f440250660fa27d
-  spec_code: 4CH1-1.2
-  note_slug: 1-1-1-the-three-states-of-matter
-  note_path: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
-    Revision Notes.md
-  evidence_quote: State changes occur at the melting point (solid to liquid, liquid to solid) and at the
-    boiling point (liquid to gas and gas to liquid)
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry
-        Revision Notes.md::4CH1-1.2
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: 97a881bcf050d350
-  spec_code: 4CH1-1.20
-  note_slug: 1-4-3-classify-metals-and-non-metals
-  note_path: 1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table
-    - IGCSE Chemistry.md
-  evidence_quote: We can use properties such as electrical conductivity and acid-base character to classify
-    elements as metals or non-metals
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/d. The Periodic Table/Metals & non-metals in the Periodic Table
-        - IGCSE Chemistry.md::4CH1-1.20
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: 5d0c8592f0ac6097
-  spec_code: 4CH1-1.28
-  note_slug: 1-5-4-calculate-reacting-masses
-  note_path: 1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass calculations
-    - IGCSE Chemistry Revision Notes.md
-  evidence_quote: Once the moles have been determined they can then be converted into grams using the
-    relative atomic or relative formula masses
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting mass
-        calculations - IGCSE Chemistry Revision Notes.md::4CH1-1.28
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: medium
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: 810eb0b020a27f5f
-  spec_code: 4CH1-1.41
-  note_slug: 1-6-5-ionic-compounds-bonds-structure-and-properties
-  note_path: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
-    Revision Notes.md
-  evidence_quote: Between positive and negative ions are strong electrostatic forces of attraction which
-    act in all directions
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
-        Revision Notes.md::4CH1-1.41
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: 24ebb97a76e21887
-  spec_code: 4CH1-1.43
-  note_slug: 1-6-5-ionic-compounds-bonds-structure-and-properties
-  note_path: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
-    Revision Notes.md
-  evidence_quote: ionic compounds have high melting points and conduct electricity when molten or in solution
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and lattices - IGCSE Chemistry
-        Revision Notes.md::4CH1-1.43
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: cc2ac9ebdfa09e71
-  spec_code: 4CH1-1.52C
-  note_slug: 1-8-1-metallic-bonding
-  note_path: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
-    Notes.md
-  evidence_quote: Metals consist of giant structures of atoms arranged in a regular pattern
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
-        Notes.md::4CH1-1.52C
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: medium
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: 4f12cb02cc9c7cc8
-  spec_code: 4CH1-1.53C
-  note_slug: 1-8-1-metallic-bonding
-  note_path: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
-    Notes.md
-  evidence_quote: The metallic bond is the strong force of attraction between the positive metal ions
-    and the delocalised electrons
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding - IGCSE Chemistry Revision
-        Notes.md::4CH1-1.53C
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: b89036bef2da9fe0
-  spec_code: 4CH1-2.16
-  note_slug: 2-4-2-metal-displacement-reactions
-  note_path: 2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision
-    Notes.md
-  evidence_quote: a more reactive metal will displace a less reactive metal from its compounds
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision
-        Notes.md::4CH1-2.16
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: ba7d47ee95792f81
-  spec_code: 4CH1-2.15
-  note_slug: 2-4-1-metals-reacting-with-water-and-acids
-  note_path: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE
-    Chemistry Revision Notes 2017.md
-  evidence_quote: The series can be used to place a group of metals in order of reactivity based on the
-    observations of their reactions with water and acids
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel
-        IGCSE Chemistry Revision Notes 2017.md::4CH1-2.15
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: b3b5951112ce2274
-  spec_code: 4CH1-2.17
-  note_slug: 2-4-1-metals-reacting-with-water-and-acids
-  note_path: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE
-    Chemistry Revision Notes 2017.md
-  evidence_quote: The series can be used to place a group of metals in order of reactivity based on the
-    observations of their reactions with water and acids
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel
-        IGCSE Chemistry Revision Notes 2017.md::4CH1-2.17
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: medium
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
-- mapping_id: bafcfa5779f00d12
-  spec_code: 4CH1-2.25C
-  note_slug: 2-5-3-using-metals
-  note_path: 2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry
-    Revision Notes.md
-  evidence_quote: The uses of aluminium, copper and steel are summarised in these tables
-  worklist_reason: quote resolves only to the note title/excerpt region — no passage anchor; author a
-    fresh verbatim section quote
-  provenance:
-    tier: RULE_DERIVED
-    tool: scripts/c13_chunk_sp_substrate.py@1.0.0
-    upstream:
-      store: T-C10 note-level spec_map (note front matter)
-      mapping: 2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry
-        Revision Notes.md::4CH1-2.25C
-      validation_status: HUMAN_VALIDATED
-      validated_by: operator
-      validated_date: '2026-09-11'
-      confidence: high
-  validation_status: SUGGESTED
-  disposition: WORKLIST — needs a fresh authored passage quote (or markdown repair) before a chunk-level
-    row can exist
 - mapping_id: 2fa8aa882076e307
   spec_code: 4CH1-4.15
   sp_title: explain how the combustion of some impurities in hydrocarbon fuels results in the formation
