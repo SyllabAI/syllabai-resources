@@ -1,0 +1,812 @@
+# T-SPEC-4 — physics IGCSE family spec-point resolution record (2026-09-19)
+#
+# Extends the chemistry T-SPEC chain (T-SPEC-1/2/2b/2c/2e) and the biology
+# T-SPEC-3 to the physics IGCSE family:
+#   igcse-physics-19, igcse-physics-modular-24-unit-1,
+#   igcse-physics-modular-24-unit-2, igcse-science-double-award-17-physics.
+#
+# Evidence standard: every resolve verdict is a VERBATIM join between the
+# SME tag's committed definition (spec_point_index.json) and the course's
+# own registry statement (Official-Specifications/parsed/<qual>/...):
+#   V1_definition_fragment_in_statement — the committed definition is a
+#     token-subset of the statement text (SME page quotes part of one
+#     statement);
+#   V2_statement_contained_in_definition — the statement lead line (and its
+#     sub_items, bullet-by-bullet) is token-contained in the committed
+#     definition (SME page concatenates the full statement + bullets);
+#   V2_statement_contained_in_definition_multi — the definition contains
+#     TWO full statements; resolved 1:1 to the first (T-SPEC-3 xylem/phloem
+#     precedent) with the second recorded as twin_code.
+# Validation is punctuation-normalised at the token edges only (the SME
+# pages carry trailing periods inside bullets, e.g. "white dwarf." — the
+# containment proof is otherwise exact); the fail-closed apply re-proves
+# every containment at run time.
+#
+# One operator override (chemistry T-SPEC-2e precedent, clearly marked):
+#   spcpt_Pgxd3BfhwppqFHHm "Galactic redshift" — the SME tag page publishes
+#   NO definition text (scrape artifact: definition "nan"; upstream ticket
+#   #11). Resolved to 8.17P on SME's own topic slug 8-3-3-galactic-red-shift
+#   plus 11/11 on-topic anchored parts; re-verdict when SME publishes the
+#   definition.
+#
+# Honest pendings (no-guess discipline; zero content anchors; block nothing):
+#   2 video-resource tags (linear + SDA pages) + 30 SDA page-only tags, all
+#   publishing no definition text — upstream ticket #11.
+#
+# PMT (PhysicsAndMathsTutor) is EXCLUDED as an evidence source (operator
+# instruction 2026-09-18); no PMT content was consulted for any verdict.
+
+meta:
+  series: T-SPEC-4
+  date: "2026-09-19"
+  evidence_standard: >-
+    verbatim definition/statement join per course-own registry; V1 = SME
+    definition token-contained in statement text; V2 = statement lead +
+    sub_items token-contained in SME definition; multi = two full statements
+    in one definition (primary + twin); token edges punctuation-normalised;
+    apply re-validates everything fail-closed
+  upstream_ticket: 11
+  pmt_excluded: true
+
+id_verdicts:
+  # ================= V1 — definition fragment inside one statement =================
+  spcpt_8xsfxFnVm4SHv3TF:   # Selecting fuses (linear + SDA)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-19: "2.4", igcse-science-double-award-17-physics: "2.4"}
+    quote: "and apply the relationship to the selection of appropriate fuses"
+    rationale: >-
+      SME definition is the trailing clause of statement 2.4 verbatim
+      ("...and apply the relationship to the selection of appropriate fuses").
+      The SDA record joins via the T-SPEC-4b sibling repair (same upstream
+      tag, definition committed by the linear crawl).
+  spcpt_9bTcw3YyHjc23pnS:   # Acceleration (linear + SDA share this tag id)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-19: "1.6", igcse-science-double-award-17-physics: "1.6"}
+    quote: "know and use the relationship between acceleration, change in velocity and time taken: a = (v − u) / t"
+    rationale: >-
+      SME definition is statement 1.6 verbatim (equation rendered "a = (v − u) / t"
+      in both the SME page and the registry parse).
+  spcpt_k2Mt2ksQ5m4nb6nZ:   # Acceleration (modular)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-1: "1.6"}
+    quote: "know and use the relationship between acceleration, change in velocity and time taken: a = (v − u) / t"
+    rationale: modular registry 1.6 carries the same relationship; def token-contained.
+  spcpt_WSKccyScDwqDMMNT:   # Electrical power (modular)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-1: "2.4"}
+    quote: "know and use the relationship between power, current and voltage: power = current × voltage P = I × V"
+    rationale: SME definition is the lead part of modular statement 2.4 verbatim.
+  spcpt_MwxKfSTgxvf343cg:   # Selecting fuses (modular)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-1: "2.4"}
+    quote: "apply the relationship (power = current × voltage) to the selection of appropriate fuses"
+    rationale: >-
+      SME definition inserts "(power = current × voltage)" mid-clause; every
+      token is contained in modular 2.4's trailing clause.
+  spcpt_MxsXCk9CZnMqbp3G:   # Isotopes (linear + SDA)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-19: "7.3", igcse-science-double-award-17-physics: "7.3"}
+    quote: "know the term isotope"
+    rationale: >-
+      SME definition is the isotope clause of statement 7.3 ("know the terms
+      atomic (proton) number, mass (nucleon) number and isotope").
+  spcpt_HwkdXczJ8tDjNjH2:   # Isotopes (modular)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-2: "8.3"}
+    quote: "know the term isotope"
+    rationale: modular registry 8.3 carries the same isotope clause.
+
+  # ================= V2 — statement (lead + bullets) inside the definition =================
+  spcpt_4MhqCKMTG3gVqM3b:   # Energy resources (linear)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "4.18P"}
+    quote: "describe the energy transfers involved in generating electricity using:"
+    sub_items: [wind, water, geothermal resources, solar heating systems, solar cells, fossil fuels, nuclear power]
+    rationale: SME page concatenates 4.18P lead + all seven bullets; leftover def tokens are the "(physics only)" suffix.
+  spcpt_KFXY43ph9JPC7Nbq:   # Energy resources (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-1: "3.18P"}
+    quote: "describe the energy transfers involved in generating electricity using:"
+    sub_items: [wind, water, geothermal resources, solar heating systems, solar cells, fossil fuels, nuclear power]
+    rationale: same tag content on the modular page; modular registry renumbers the statement 3.18P.
+  spcpt_7My6nZPBPXzfQX7B:   # Calculating Doppler shift of light (linear)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "8.16P"}
+    quote: "use the equation relating to change in wavelength, reference wavelength, velocity of a galaxy and the speed of light"
+    rationale: full 8.16P statement text (including the equation render) token-contained in the SME definition.
+  spcpt_q8Bqtbg3thZCTdMw:   # Calculating Doppler shift of light (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "9.16P"}
+    quote: "use the equation relating to change in wavelength, reference wavelength, velocity of a galaxy and the speed of light"
+    rationale: modular registry renumbers the statement 9.16P; full text contained in the SME definition.
+  spcpt_C7kzyM4s3Y4fFNQH:   # Dangers of EM waves (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "3.13", igcse-science-double-award-17-physics: "3.13"}
+    quote: "explain the detrimental effects of excessive exposure of the human body to electromagnetic waves, including:"
+    sub_items: ["microwaves: internal heating of body tissue", "infrared: skin burns", "ultraviolet: damage to surface cells and blindness", "gamma rays: cancer, mutation and describe simple protective measures against the risks"]
+    rationale: >-
+      SME page concatenates 3.13 lead + all four bullets verbatim. The SDA
+      record joins via the T-SPEC-4b sibling repair.
+  spcpt_bx7Jtc9MGfjZZhMZ:   # Dangers of EM waves (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "5.13"}
+    quote: "explain the detrimental effects of excessive exposure of the human body to electromagnetic waves, including:"
+    sub_items: ["microwaves: internal heating of body tissue", "infrared: skin burns", "ultraviolet: damage to surface cells and blindness", "gamma rays: cancer, mutation and describe simple protective measures against the risks"]
+    rationale: same statement content; modular registry renumbers it 5.13.
+  spcpt_H3jnS96Krmv4DttM:   # Planets, stars & galaxies (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "8.2", igcse-science-double-award-17-physics: "8.2"}
+    quote: "know that:"
+    sub_items: ["the universe is a large collection of billions of galaxies", "a galaxy is a large collection of billions of stars", "our solar system is in the Milky Way galaxy"]
+    rationale: >-
+      statement 8.2's lead is the 2-token "know that:", so the join is carried
+      by all three bullets being verbatim in the SME definition (lead-only
+      containment alone is NOT accepted by the apply).
+  spcpt_m7zPrD837GFQJp78:   # Planets, stars & galaxies (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "9.2"}
+    quote: "know that:"
+    sub_items: ["the universe is a large collection of billions of galaxies", "a galaxy is a large collection of billions of stars", "our solar system is in the Milky Way galaxy"]
+    rationale: modular registry renumbers the statement 9.2; all three bullets verbatim in the definition.
+  spcpt_HQkMXSR6tJGNyCgZ:   # The gas laws (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "5.20", igcse-science-double-award-17-physics: "5.20"}
+    quote: "explain, for a fixed amount of gas, the qualitative relationship between:"
+    sub_items: ["pressure and volume at constant temperature", "pressure and Kelvin temperature at constant volume"]
+    rationale: SME page carries 5.20 lead + both bullets; trailing "volume." period is punctuation.
+  spcpt_kfxX5zrCqRCp7f2W:   # The gas laws (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "6.6"}
+    quote: "explain, for a fixed amount of gas, the qualitative relationship between:"
+    sub_items: ["pressure and volume at constant temperature", "pressure and Kelvin temperature at constant volume"]
+    rationale: modular registry renumbers the statement 6.6.
+  spcpt_KCHc9D7wvb2kbQXt:   # The life cycle of solar mass stars (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "8.9", igcse-science-double-award-17-physics: "8.9"}
+    quote: "describe the evolution of stars of similar mass to the Sun through the following stages:"
+    sub_items: [nebula, "star (main sequence)", "red giant", "white dwarf"]
+    rationale: SME page carries 8.9 lead + all four stage bullets ("white dwarf." trailing period normalised).
+  spcpt_cmpPWCPgPTS4FmvD:   # The life cycle of solar mass stars (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "9.9"}
+    quote: "describe the evolution of stars of similar mass to the Sun through the following stages:"
+    sub_items: [nebula, "star (main sequence)", "red giant", "white dwarf"]
+    rationale: modular registry renumbers the statement 9.9.
+  spcpt_cNXPzQ4gnprk8Knh:   # Applications of EM waves (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "3.12", igcse-science-double-award-17-physics: "3.12"}
+    quote: "explain some of the uses of electromagnetic radiations, including:"
+    sub_items: ["radio waves: broadcasting and communications", "microwaves: cooking and satellite transmissions", "infrared: heaters and night vision equipment", "visible light: optical fibres and photography", "ultraviolet: fluorescent lamps", "x-rays: observing the internal structure of objects and materials, including for medical application", "gamma rays: sterilising food and medical equipment"]
+    rationale: SME page concatenates 3.12 lead + all seven use bullets verbatim.
+  spcpt_Xkk3vB5kxmtVpPB2:   # Applications of EM waves (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "5.12"}
+    quote: "explain some of the uses of electromagnetic radiations, including:"
+    sub_items: ["radio waves: broadcasting and communications", "microwaves: cooking and satellite transmissions", "infrared: heaters and night vision equipment", "visible light: optical fibres and photography", "ultraviolet: fluorescent lamps", "x-rays: observing the internal structure of objects and materials, including for medical application", "gamma rays: sterilising food and medical equipment"]
+    rationale: same statement content; modular registry renumbers it 5.12.
+  spcpt_mdbrJYjNQHZCn7FS:   # Energy stores & transfers (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "4.2", igcse-science-double-award-17-physics: "4.2"}
+    quote: "describe energy transfers involving energy stores:"
+    sub_items: ["energy stores: chemical, kinetic, gravitational, elastic, thermal, magnetic, electrostatic, nuclear", "energy transfers: mechanically, electrically, by heating, by radiation (light and sound)"]
+    rationale: SME page carries 4.2 lead + both bullets verbatim.
+  spcpt_NxtHvFj2d74PDs7T:   # Energy stores & transfers (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-1: "3.2"}
+    quote: "describe energy transfers involving energy stores:"
+    sub_items: ["energy stores: chemical, kinetic, gravitational, elastic, thermal, magnetic, electrostatic, nuclear", "energy transfers: mechanically, electrically, by heating, by radiation (light and sound)"]
+    rationale: modular registry renumbers the statement 3.2.
+  spcpt_pGJfcnFNjjSDFG8m:   # Voltage (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "2.20", igcse-science-double-award-17-physics: "2.20"}
+    quote: "know that:"
+    sub_items: ["voltage is the energy transferred per unit charge passed", "the volt is a joule per coulomb"]
+    rationale: >-
+      statement 2.20 lead is "know that:"; the join is carried by both bullets
+      being verbatim in the SME definition ("joule per coulomb." period
+      normalised). Lead-only containment alone is NOT accepted. The SDA
+      record joins via the T-SPEC-4b sibling repair.
+  spcpt_p3f6ff7Z37q6dcds:   # Voltage (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-1: "2.20"}
+    quote: "know that:"
+    sub_items: ["voltage is the energy transferred per unit charge passed", "the volt is a joule per coulomb"]
+    rationale: modular registry 2.20 carries the same lead + bullets.
+  spcpt_pkVzT7PMbgnpcKfg:   # Orbital motion (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "8.4", igcse-science-double-award-17-physics: "8.4"}
+    quote: "explain that gravitational force:"
+    sub_items: ["causes moons to orbit planets", "causes the planets to orbit the Sun", "causes artificial satellites to orbit the Earth", "causes comets to orbit the Sun"]
+    rationale: SME page carries 8.4 lead + all four bullets verbatim (trailing "sun." period normalised).
+  spcpt_bJNjcGSCgwkPd7Yb:   # Orbital motion (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "9.4"}
+    quote: "explain that gravitational force:"
+    sub_items: ["causes moons to orbit planets", "causes the planets to orbit the Sun", "causes artificial satellites to orbit the Earth", "causes comets to orbit the Sun"]
+    rationale: modular registry renumbers the statement 9.4.
+  spcpt_wcm7p9PTBgzVjsk5:   # Dangers of radiation (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-19: "7.16", igcse-science-double-award-17-physics: "7.16"}
+    quote: "describe the dangers of ionising radiations, including:"
+    sub_items: ["that radiation can cause mutations in living organisms", "that radiation can damage cells and tissue", "the problems arising from the disposal of radioactive waste and how the associated risks can be reduced"]
+    rationale: SME page carries 7.16 lead + all three bullets verbatim (trailing "reduced." period normalised).
+  spcpt_483tNYgS2GX5pBCD:   # Dangers of radiation (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "8.16"}
+    quote: "describe the dangers of ionising radiations, including:"
+    sub_items: ["that radiation can cause mutations in living organisms", "that radiation can damage cells and tissue", "the problems arising from the disposal of radioactive waste and how the associated risks can be reduced"]
+    rationale: same statement content; modular registry renumbers it 8.16.
+  spcpt_RMKzScnK4WbDC4sr:   # Core practical 6: investigating the speed of sound (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "5.25P"}
+    quote: "practical: investigate the speed of sound in air"
+    rationale: >-
+      modular statement 5.25P ("practical: investigate the speed of sound in
+      air") is fully token-contained in the SME definition "Core practical 6:
+      investigate the speed of sound in air (physics only)".
+
+  # ================= V2 multi — two full statements in one definition =================
+  spcpt_NykczBzCWsSMxqcn:   # Classification of stars (linear + SDA)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition_multi
+    codes: {igcse-physics-19: "8.7", igcse-science-double-award-17-physics: "8.7"}
+    twin_codes: {igcse-physics-19: "8.8", igcse-science-double-award-17-physics: "8.8"}
+    quote: "understand how stars can be classified according to their colour"
+    rationale: >-
+      SME definition contains BOTH 8.7 and 8.8 verbatim ("...colour. Know that
+      a star's colour is related to its surface temperature"); resolved 1:1 to
+      8.7 (T-SPEC-3 xylem/phloem precedent) with 8.8 recorded as twin.
+  spcpt_Nrj2x2ZJJ3RDMxG3:   # Classification of stars (modular)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition_multi
+    codes: {igcse-physics-modular-24-unit-2: "9.7"}
+    twin_codes: {igcse-physics-modular-24-unit-2: "9.8"}
+    quote: "understand how stars can be classified according to their colour"
+    rationale: modular registry renumbers the pair 9.7/9.8; both contained in the definition.
+
+  # ================= operator override (chemistry T-SPEC-2e precedent) =================
+  spcpt_Pgxd3BfhwppqFHHm:   # Galactic redshift (linear)
+    verdict: resolve
+    tier: operator-override
+    codes: {igcse-physics-19: "8.17P"}
+    quote: "describe the red-shift in light received from galaxies at different distances away from the Earth"
+    twin_codes: {igcse-physics-19: "8.16P + 8.18P (topic family, recorded only)"}
+    ticket: 11
+    reason: >-
+      SME tag page publishes NO definition text (definition scraped as "nan";
+      upstream ticket #11). NOT a verbatim join: resolved to 8.17P on
+      structural + convergent evidence — SME's own topic slug
+      8-3-3-galactic-red-shift, and all 11 anchored question parts are
+      red-shift questions (e.g. "State what is meant by redshift.",
+      "Explain the term galactic redshift."). 8.17P is the only definitional
+      red-shift statement in the registry (8.16P = Doppler equation,
+      8.18P = expansion evidence; both recorded as topic-family context, not
+      part-coding). OPERATOR OPINION, clearly marked; re-verdict when SME
+      publishes the definition. PMT excluded as source.
+
+  # ================= honest pendings (no-guess; zero anchors; block nothing) =================
+  spcpt_BgFKcjv9r7THCv4s:   # Video Energy Transfer Pathways
+    verdict: pending
+    courses: [igcse-physics-19, igcse-science-double-award-17-physics]
+    reason: >-
+      SME video-resource tag page publishes no definition text (definition:
+      "nan"; upstream ticket #11); zero question-part and zero flashcard
+      anchors; not a specification statement — left unresolved (no-guess).
+  spcpt_ccDjJgp6PHhmRsdP:   # Video of the Life Cycle of Low-Mass Stars
+    verdict: pending
+    courses: [igcse-physics-19, igcse-science-double-award-17-physics]
+    reason: >-
+      SME video-resource tag page publishes no definition text (definition:
+      "nan"; upstream ticket #11); zero question-part and zero flashcard
+      anchors; not a specification statement — left unresolved (no-guess).
+  spcpt_3jfZD4Z7YjmjnS7X:   # Electrical power (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_4KHGbmcT8cwVKzRZ:   # Describing wave motion (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_5XC6QCvRF3JDHbGT:   # Pressure (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_8PvFTvGWGR39Gj6Y:   # Charge (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_C5C9pXrvQKt98MTr:   # Electricity & heat (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_CkkZKh9b7zXX75wc:   # Light (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_FDgGnTP2KQ4pqgp5:   # Core practical 5: investigating snell's law (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_HgkwxkJSJtVtCtcW:   # Core practical 4: investigating refraction (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_J66zR2Cvw8hsHP2T:   # Calculating voltage (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_KyV24KVbsWBPtJtp:   # Current (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_MksfwXM6CtrSc5DV:   # Dangers of EM waves (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_Pk5QySYG3mV7xrrw:   # Density (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_QrSRCx8b773Xt9C9:   # Snell's law (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_SYV4yBP4NKcVPJPc:   # Sound (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_bsVK3mXjpWvRymst:   # Calculating energy transfers (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_cJtMmxcwWTCPSKGy:   # Transverse & longitudinal waves (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_d8Bpk7nP2GWWKJxJ:   # Core practical 9: determining density (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_dKxh8pzv73VjGfvk:   # The EM spectrum (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_dstbF7n3McfZxh3J:   # Calculating resultant force (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_gHxnzCG9hKTCw3Xg:   # Calculating work done (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_j6FRhbvmhNH9mV3K:   # Voltage (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_j93Dnsj2VtCrtjXw:   # Properties of EM waves (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_jrvRw9GjzWJMk2mh:   # Work done (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_kxtBH24z78PtvXw7:   # Friction (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_mKFH4q599hkBdw9x:   # Calculating current, resistance & potential difference (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_nYFprFFJSPX7YGs5:   # Waves & energy (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_qSyhyjkjcZTkMsRB:   # Calculating electric charge (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_rkCvX5G7cTYGNGxt:   # Selecting fuses (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_tBp2NdFPhkmVQwDS:   # Calculating power (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+  spcpt_ttPCP3gFMmTGxS6h:   # Power (SDA page-only tag)
+    verdict: pending
+    courses: [igcse-science-double-award-17-physics]
+    reason: >-
+      SME tag page publishes no definition text (definition: "nan"; upstream
+      ticket #11); zero question-part and zero flashcard anchors — left
+      unresolved (no-guess).
+
+  # ===================================================================================
+  # T-SPEC-4b index-repair ids (2026-09-19): ids referenced by question parts but
+  # missing from the revision-note crawl's index (each index's own
+  # coverage.missing_from_index list). Two evidence classes:
+  #   - sibling-index verbatim copies (spcpt ids are global SME entities): the
+  #     definition is the same upstream text committed by the sibling course's
+  #     crawl -> joined to the course's OWN registry exactly as above
+  #   - question-reference-only ids (no SME page anywhere carries name or
+  #     definition; upstream ticket #12): honest pendings, no-guess
+  # ===================================================================================
+
+  # ---------- sibling copies: modular unit 1 ----------
+  spcpt_5XHYjtMhbvX2ktKd:   # Electromagnetism (def from mod-u2 index)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-1: "7.8"}
+    quote: "know that an electric current in a conductor produces a magnetic field around it"
+    rationale: >-
+      sibling repair (mod-u2 crawl, same upstream tag); def is modular
+      statement 7.8 verbatim.
+
+  # ---------- sibling copies: modular unit 2 ----------
+  spcpt_DD7SwFQWQ6h2b6fY:   # Efficiency (def from mod-u1 index)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-2: "3.4"}
+    quote: "know and use the relationship between efficiency, useful energy output and total energy output"
+    rationale: sibling repair (mod-u1 crawl); def is modular statement 3.4 verbatim.
+  spcpt_PzkhFxJbdbkzH7m8:   # Core practical 9: determining density (def from mod-u1 index)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "4.4"}
+    quote: "practical: investigate density using direct measurements of mass and volume"
+    rationale: >-
+      sibling repair; modular statement 4.4 ("practical: investigate density
+      using direct measurements of mass and volume") fully contained in the
+      committed definition "Core practical 9: investigate density using direct
+      measurements of mass and volume".
+  spcpt_t7kTtXb6fz2FD5fQ:   # Calculating average speed (def from mod-u1 index)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-2: "1.4"}
+    quote: "know and use the relationship between average speed, distance moved and time taken"
+    rationale: sibling repair; def is modular statement 1.4 verbatim.
+  spcpt_vn3KzQ4mktt3rSJF:   # Convection (def from mod-u1 index)
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-physics-modular-24-unit-2: "3.7"}
+    quote: "explain the role of convection in everyday phenomena"
+    rationale: sibling repair; def is modular statement 3.7 verbatim.
+  spcpt_ycqQrDRzNvqP2tbd:   # Changes of state (def from mod-u1 index)
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-physics-modular-24-unit-2: "4.9P"}
+    quote: "describe the changes that occur when a solid melts to form a liquid, and when a liquid evaporates or boils to form a gas"
+    rationale: sibling repair; modular statement 4.9P fully contained in the committed definition.
+
+  # ---------- sibling copies: SDA physics (all from igcse-physics-19 index) ----------
+  spcpt_3bGdz6R8YCb4ktmX:   # Power
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "4.16"}
+    quote: "describe power as the rate of transfer of energy or the rate of doing work"
+    rationale: sibling repair (linear crawl, same upstream tag); def is SDA statement 4.16 verbatim.
+  spcpt_5T3fGhX4kbbbNC28:   # Electrical power
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.4"}
+    quote: "know and use the relationship between power, current and voltage: power = current × voltage P = I × V"
+    rationale: sibling repair; def is the lead part of SDA statement 2.4 verbatim.
+  spcpt_8ZFcdwSVkHxvQbDW:   # Calculating current, resistance & potential difference
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.13"}
+    quote: "know and use the relationship between voltage, current and resistance: voltage = current × resistance V = I × R"
+    rationale: sibling repair; def is SDA statement 2.13 verbatim.
+  spcpt_DdbQGhmStkT5Hg3t:   # Describing wave motion
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "3.3"}
+    quote: "know the definitions of amplitude, wavefront, frequency, wavelength and period of a wave"
+    rationale: sibling repair; def is SDA statement 3.3 verbatim.
+  spcpt_Fvw27QZs796FsdXK:   # Core practical 9: determining density
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-science-double-award-17-physics: "5.4"}
+    quote: "practical: investigate density using direct measurements of mass and volume"
+    rationale: >-
+      sibling repair; SDA statement 5.4 ("practical: investigate density using
+      direct measurements of mass and volume") fully contained in the
+      committed definition "Core practical 9: ...".
+  spcpt_MQNHpp6bMDymZFx7:   # Properties of EM waves
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "3.10"}
+    quote: "know that light is part of a continuous electromagnetic spectrum"
+    rationale: sibling repair; def is SDA statement 3.10 verbatim.
+  spcpt_NTfjgwJ3PTV7yHMM:   # Calculating power
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "4.17"}
+    quote: "use the relationship between power, work done (energy transferred) and time taken"
+    rationale: sibling repair; def is SDA statement 4.17 verbatim.
+  spcpt_QdGHBC9FnW2vxzgv:   # Calculating resultant force
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "1.15"}
+    quote: "calculate the resultant force of forces that act along a line"
+    rationale: sibling repair; def is SDA statement 1.15 verbatim.
+  spcpt_RG22p9RJgRSrwkTj:   # Calculating voltage
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.21"}
+    quote: "know and use the relationship between energy transferred, charge and voltage: energy transferred = charge × voltage E = Q × V"
+    rationale: sibling repair; def is SDA statement 2.21 verbatim.
+  spcpt_Sh4f54ybxrpgXXnv:   # Current
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.14"}
+    quote: "know that current is the rate of flow of charge"
+    rationale: sibling repair; def is SDA statement 2.14 verbatim.
+  spcpt_Y6M3dwkHrCBWn8DS:   # Calculating work done
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "4.11"}
+    quote: "know and use the relationship between work done, force and distance moved in the direction of the force"
+    rationale: sibling repair; def is SDA statement 4.11 verbatim.
+  spcpt_ZvKHPJzXrcjpKJNJ:   # Pressure
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "5.5"}
+    quote: "know and use the relationship between pressure, force and area"
+    rationale: sibling repair; def is SDA statement 5.5 verbatim.
+  spcpt_b3q4sGVfrvw5DGm2:   # Density
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "5.3"}
+    quote: "know and use the relationship between density, mass and volume"
+    rationale: sibling repair; def is SDA statement 5.3 verbatim.
+  spcpt_cQqb6D7yZ8pyDTfp:   # Core practical 5: investigating snell's law
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-science-double-award-17-physics: "3.19"}
+    quote: "practical: investigate the refractive index of glass, using a glass block"
+    rationale: >-
+      sibling repair; SDA statement 3.19 ("practical: investigate the
+      refractive index of glass, using a glass block") fully contained in the
+      committed definition "Core practical 5: ...".
+  spcpt_d65c3tYNgVJHv6d4:   # Friction
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "1.16"}
+    quote: "know that friction is a force that opposes motion"
+    rationale: sibling repair; def is SDA statement 1.16 verbatim.
+  spcpt_h5fX8Sqp5rZGSycx:   # Snell's law
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "3.18"}
+    quote: "know and use the relationship between refractive index, angle of incidence and angle of refraction"
+    rationale: sibling repair; def is SDA statement 3.18 verbatim.
+  spcpt_tQ98NcJNGR6xQbz7:   # The EM spectrum
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "3.11"}
+    quote: "know the order of the electromagnetic spectrum in terms of decreasing wavelength and increasing frequency"
+    rationale: sibling repair; def is SDA statement 3.11 verbatim.
+  spcpt_vXfQxpVf5YZGXf75:   # Calculating energy transfers
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.5"}
+    quote: "use the relationship between energy transferred, current, voltage and time"
+    rationale: sibling repair; def is SDA statement 2.5 verbatim.
+  spcpt_vZpQ3G6py3jfj7kY:   # Calculating electric charge
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.15"}
+    quote: "know and use the relationship between charge, current and time: charge = current × time Q = I × t"
+    rationale: sibling repair; def is SDA statement 2.15 verbatim.
+  spcpt_vzbHjvmTf9vGgShj:   # Sound
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "3.23"}
+    quote: "know that sound waves are longitudinal waves which can be reflected and refracted"
+    rationale: sibling repair; def is SDA statement 3.23 verbatim.
+  spcpt_xpTJnCDTM72KWY6Y:   # Transverse & longitudinal waves
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "3.2"}
+    quote: "explain the difference between longitudinal and transverse waves"
+    rationale: sibling repair; def is SDA statement 3.2 verbatim.
+  spcpt_yTw9m5Ph5RKG7xqX:   # Charge
+    verdict: resolve
+    tier: V1_definition_fragment_in_statement
+    codes: {igcse-science-double-award-17-physics: "2.16"}
+    quote: "know that electric current in solid metallic conductors is a flow of negatively charged electrons"
+    rationale: sibling repair; def is SDA statement 2.16 verbatim.
+  spcpt_z8GGBYDS5RtXnBVC:   # Core practical 4: investigating refraction
+    verdict: resolve
+    tier: V2_statement_contained_in_definition
+    codes: {igcse-science-double-award-17-physics: "3.17"}
+    quote: "practical: investigate the refraction of light, using rectangular blocks"
+    rationale: >-
+      sibling repair; SDA statement 3.17 ("practical: investigate the
+      refraction of light, using rectangular blocks, semi-circular blocks ...")
+      fully contained in the committed definition "Core practical 4: ...".
+  # ---------- question-reference-only ids (no upstream text anywhere; ticket #12) ----------
+  spcpt_4rxjthyppJFv6SyN:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_95VM5bfsFjkJJfCY:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1, igcse-physics-modular-24-unit-2]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_JffKPvkPNQzTdN6S:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1, igcse-physics-modular-24-unit-2]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_N9h3qKrFKxwdWQCb:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_PzHb5QqNRBYMBvR5:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_QKDdwYCbsNztc6jP:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_bkk9SrYCf267FwQF:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-2]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_jcF42grJp6hJrcNn:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+  spcpt_jkRWB2nJ3kgmH3KN:
+    verdict: pending
+    courses: [igcse-physics-modular-24-unit-1]
+    reason: >-
+      SME tags exam questions with this spec-point id but publishes it on no
+      revision-note page in any course (no name, no definition — bare
+      reference only; upstream ticket #12); no-guess — left unresolved.
+
