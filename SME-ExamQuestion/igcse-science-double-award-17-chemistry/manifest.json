@@ -454,19 +454,20 @@
   "resolution_file": "spec_point_resolution.json",
   "counts": {
    "sme_spec_points": 121,
-   "resolved": 119,
-   "unresolved": 2,
-   "distinct_codes_in_use": 114,
+   "resolved": 120,
+   "unresolved": 1,
+   "distinct_codes_in_use": 115,
    "parts_total": 592,
-   "parts_with_codes": 590,
-   "parts_left_uncoded_no_guess_tail": 2
+   "parts_with_codes": 592,
+   "parts_left_uncoded_no_guess_tail": 0
   },
   "pipeline": [
    "scripts/sme_spcpt_sibling_backfill.py",
    "scripts/sme_spcpt_sibling_map.py",
    "scripts/sme_spcpt_sibling_apply.py",
-   "scripts/sme_spcpt_verify.py"
+   "scripts/sme_spcpt_verify.py",
+   "scripts/t_spec_2b_verdict_apply.py"
   ],
-  "updated_utc": "2026-09-18T10:45:46Z"
+  "updated_utc": "2026-09-18T11:47:23Z"
  }
 }
