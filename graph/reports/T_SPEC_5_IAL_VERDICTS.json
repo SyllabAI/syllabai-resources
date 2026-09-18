@@ -1,0 +1,57 @@
+{
+ "schema": "syllabai.t-spec-5-report/1.0",
+ "generated_utc": "2026-09-18T18:54:35Z",
+ "courses": [
+  "ial-chemistry-17",
+  "ial-physics-19",
+  "ial-biology-18"
+ ],
+ "summary": {
+  "ial-chemistry-17": {
+   "ids": 262,
+   "resolved": 261,
+   "unresolved": 1,
+   "map_merged": 160,
+   "remaps": 15,
+   "parts_coded": 938,
+   "parts_uncoded": 1
+  },
+  "ial-physics-19": {
+   "ids": 265,
+   "resolved": 209,
+   "unresolved": 56,
+   "map_merged": 96,
+   "remaps": 1,
+   "parts_coded": 467,
+   "parts_uncoded": 67
+  },
+  "ial-biology-18": {
+   "ids": 223,
+   "resolved": 223,
+   "unresolved": 0,
+   "map_merged": 106,
+   "remaps": 6,
+   "parts_coded": 603,
+   "parts_uncoded": 0
+  }
+ },
+ "verdict_counts": {
+  "ial-biology-18": {
+   "resolves": 112,
+   "remaps": 6,
+   "pendings": 0
+  },
+  "ial-chemistry-17": {
+   "resolves": 175,
+   "remaps": 15,
+   "pendings": 1
+  },
+  "ial-physics-19": {
+   "resolves": 97,
+   "remaps": 1,
+   "pendings": 56
+  }
+ },
+ "evidence_note": "SME IAL spec-point tags carry no definition text (0/750 entries; upstream ticket #13). Joins use tag name + revision-note page + page body + exam-part text against official statement texts.",
+ "pmt_excluded": true
+}
