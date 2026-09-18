@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T12:41:36Z",
- "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess)",
+ "generated_utc": "2026-09-18T14:23:43Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess) + operator-override lane T-SPEC-2e (S0 opinion tier, operator instruction 2026-09-18; tickets #6/#7/#8; PMT excluded as source) — part-level codes only, id-level unresolved records unchanged pending upstream statement text",
  "counts": {
   "ids": 137,
   "resolved": 133,
@@ -2113,5 +2113,59 @@
    "flag": "cross-unit: statement in Unit 2, course scope Unit 1",
    "recheck": null
   }
- ]
+ ],
+ "operator_override": {
+  "decision_record": "scripts/t_spec_2e_operator_override.yaml",
+  "tier": "S0_operator_override",
+  "applied_utc": "2026-09-18T14:23:43Z",
+  "parts": [
+   {
+    "part": "qstnprt_bBtwmWPK7KgKMnFK",
+    "codes": [
+     "1.26",
+     "1.28"
+    ],
+    "tickets": [
+     "#6"
+    ]
+   },
+   {
+    "part": "qstnprt_rNcvy3JYjFDYWbcD",
+    "codes": [
+     "1.26",
+     "1.28"
+    ],
+    "tickets": [
+     "#6"
+    ]
+   },
+   {
+    "part": "qstnprt_qBvbyjmYGkpVn4nC",
+    "codes": [
+     "1.28"
+    ],
+    "tickets": [
+     "#6"
+    ]
+   },
+   {
+    "part": "qstnprt_jrmJD6Zv2KHZHQ4M",
+    "codes": [
+     "1.14"
+    ],
+    "tickets": [
+     "#7"
+    ]
+   },
+   {
+    "part": "qstnprt_pbDpCTYgTbw4hDPD",
+    "codes": [
+     "1.14"
+    ],
+    "tickets": [
+     "#7"
+    ]
+   }
+  ]
+ }
 }

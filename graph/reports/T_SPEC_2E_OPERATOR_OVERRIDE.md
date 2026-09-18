@@ -1,0 +1,76 @@
+# T-SPEC-2e — operator-override record: the 6 honest pendings
+
+Generated: 2026-09-18T14:23:43Z
+
+Per operator instruction of 2026-09-18 ("Label them ourselves now"),
+the 6 T-SPEC-2c pendings received nearest-neighbour codes in a
+dedicated **S0_operator_override** opinion tier. Upstream requests
+SyllabAI/syllabai-resources#6 / #7 / #8 document that no official
+statement for these skills exists in any Pearson chemistry universe
+(linear 4CH1, modular 2024, IAL) nor in SME's registries; the tickets
+stay open and these labels MUST be re-verdicted if SME publishes
+statement text for the referenced tags. Map lane untouched; id-level
+unresolved sidecar records unchanged. PMT excluded as a source.
+
+| part | course | codes | tickets |
+|---|---|---|---|
+| `qstnprt_bBtwmWPK7KgKMnFK` | modular-24-unit-1 | 1.26, 1.28 | #6 |
+| `qstnprt_rNcvy3JYjFDYWbcD` | modular-24-unit-1 | 1.26, 1.28 | #6 |
+| `qstnprt_qBvbyjmYGkpVn4nC` | modular-24-unit-1 | 1.28 | #6 |
+| `qstnprt_jrmJD6Zv2KHZHQ4M` | modular-24-unit-1 | 1.14 | #7 |
+| `qstnprt_pbDpCTYgTbw4hDPD` | modular-24-unit-1 | 1.14 | #7 |
+| `qstnprt_P5nnQ2ct897FtPnN` | modular-24-unit-2 | 4.20 | #8 |
+
+## Per-course outcome
+
+| course | overrides applied | parts coded | no-guess tail |
+|---|---|---|---|
+| igcse-chemistry-modular-24-unit-1 | 5 | 681/681 | 0 |
+| igcse-chemistry-modular-24-unit-2 | 1 | 622/622 | 0 |
+
+## Overrides (full rationale)
+
+### qstnprt_bBtwmWPK7KgKMnFK → 1.26, 1.28
+- tier: S0_operator_override
+- tickets: #6
+- evidence (problem_md, verbatim): 'Calculate the percentage by mass of aluminium in aluminium oxide'
+- rationale: % by mass task: solution computes Mr(Al2O3) = (27 x 2) + (16 x 3) = 102 from Ar, then (2 x 27)/102 x 100. 1.26 (calculate relative formula masses from Ar) is genuinely exercised; 1.28 (calculations involving amount of substance, Ar and Mr) is the block's general Ar/Mr calculation statement. MISMATCH NOTE: 1.28's "amount of substance" wording does not literally cover percentage composition; the true target is the missing statement requested in #6.
+- supersedes T-SPEC-2c pending: T-SPEC-2c: no percentage-by-mass statement in the modular or linear registry (PDF-verified); 1.26 is the Mr calculation the part does not ask for; 1.28 requires amount of substance which the part does not use.
+
+### qstnprt_rNcvy3JYjFDYWbcD → 1.26, 1.28
+- tier: S0_operator_override
+- tickets: #6
+- evidence (problem_md, verbatim): 'Calculate the percentage by mass of iron in iron(II) hydroxide'
+- evidence (solution_md, verbatim): 'The percentage by mass of an element is found using the formula'
+- rationale: Same lane as bBtwmWPK7KgKMnFK: the committed solution itself teaches "% of an element = mass of the element / relative formula mass x 100", so the Mr-from-Ar step (1.26) and the general Ar/Mr calculation block (1.28) are the nearest neighbours. MISMATCH NOTE: no official percentage-composition statement exists (requested in #6).
+- supersedes T-SPEC-2c pending: T-SPEC-2c: same registry gap as bBtwmWPK7KgKMnFK (no percentage-by-mass statement in the modular or linear registry; PDF-verified).
+
+### qstnprt_qBvbyjmYGkpVn4nC → 1.28
+- tier: S0_operator_override
+- tickets: #6
+- evidence (problem_md, verbatim): 'Calculate the percentage by mass of nitrogen in ammonium sulfate'
+- rationale: % by mass with Mr GIVEN in the stem (Mr of (NH4)2SO4 = 132), so 1.26 is NOT exercised; 1.28 (general Ar/Mr calculation statement) is the single nearest neighbour. MISMATCH NOTE: "amount of substance" wording does not literally apply; true target is the missing statement requested in #6.
+- supersedes T-SPEC-2c pending: T-SPEC-2c: same registry gap; uses Ar and Mr only, no amount of substance, so 1.28 does not apply literally.
+
+### qstnprt_jrmJD6Zv2KHZHQ4M → 1.14
+- tier: S0_operator_override
+- tickets: #7
+- evidence (problem_md, verbatim): 'State the number of different elements in'
+- evidence (problem_md, verbatim): 'Determine the number of atoms in a molecule of'
+- rationale: Interpreting the molecular formula C3H5N3O9: count different elements (4) and atoms in a molecule (20). 1.14 ("know what is meant by the terms 'atom' and 'molecule'") is the closest conceptual anchor — the part assesses exactly the atom/molecule composition those definitions name. MISMATCH NOTE: 1.14 is a definitions statement; the formula-interpretation skill has no official statement (requested in #7). 1.32/1.33 rejected (empirical/molecular terminology and the INVERSE direction, formula from data); 1.26 rejected (mass calculation).
+- supersedes T-SPEC-2c pending: T-SPEC-2c: no registry statement covers interpreting a formula to count elements/atoms (1.14 is the atom/molecule definitions; 1.26 is the Mr calculation).
+
+### qstnprt_pbDpCTYgTbw4hDPD → 1.14
+- tier: S0_operator_override
+- tickets: #7
+- evidence (problem_md, verbatim): 'How many different elements are there in potassium permanganate'
+- rationale: Counting the different elements in KMnO4 (3). Same lane as jrmJD6Zv2KHZHQ4M: 1.14 is the nearest conceptual anchor for the element/atom composition of a formula. MISMATCH NOTE: definitions-only statement; the interpretation skill itself is the missing statement requested in #7.
+- supersedes T-SPEC-2c pending: T-SPEC-2c: same gap as jrmJD6Zv2KHZHQ4M (no formula-interpretation/ counting statement in the registry).
+
+### qstnprt_P5nnQ2ct897FtPnN → 4.20
+- tier: S0_operator_override
+- tickets: #8
+- evidence (problem_md, verbatim): 'Explain why butanoic acid is a saturated compound'
+- evidence (solution_md, verbatim): 'It contains only single carbon-carbon bonds'
+- rationale: The saturation concept lives in 4.20 ("explain why alkanes are classified as saturated hydrocarbons"); the part applies it to a carboxylic acid (butanoic acid: single C-C bonds only; the solution explicitly defuses the C=O distractor). 4.25 rejected (alkene/UNSATURATED subject, opposite classification); the Vwyb tag itself spans the alkene family 4.23/4.24/4.25 and has no statement text (T-SPEC-2b pending). MISMATCH NOTE: 4.20 is alkane-specific; the general saturation statement requested in #8 does not exist.
+- supersedes T-SPEC-2c pending: T-SPEC-2c: subject mismatch — 4.20 and 4.25 are alkane- and alkene-specific while the part is about a carboxylic acid; mapping to either would mislabel the statement's subject (molar-enthalpy precedent, T-SPEC-2b).
