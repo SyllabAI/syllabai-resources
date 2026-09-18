@@ -141,9 +141,10 @@ meta:
     requires_prerequisite_edges: 115
     wrong_answer_pattern_edges: 13
     review_required_edges: 2
-    promoted_edges: 153
-    human_validated_edges: 153
+    promoted_edges: 270
+    human_validated_edges: 270
   promotion_record: scripts/c11_promotions.yaml
+  attachment_promotion_record: scripts/c19_promotions.yaml
 edges:
 - source: 4CH1-CON-ACTIVATION-ENERGY
   relation: PART_OF
@@ -177,10 +178,12 @@ edges:
       official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ANODE-CATHODE
   relation: PART_OF
   target: 4CH1-1.57C
@@ -215,10 +218,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-AQUEOUS-DISCHARGE
   relation: PART_OF
   target: 4CH1-1.58C
@@ -255,10 +260,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-AR
   relation: PART_OF
   target: 4CH1-1.26
@@ -280,10 +287,12 @@ edges:
       (2026-09-11); spec wordings
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-AR
   relation: PART_OF
   target: 4CH1-1.28
@@ -308,10 +317,12 @@ edges:
       (2026-09-11); spec wordings
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ATOM
   relation: PART_OF
   target: 4CH1-1.14
@@ -341,10 +352,12 @@ edges:
       official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ATOMIC-NUMBER
   relation: PART_OF
   target: 4CH1-1.16
@@ -372,10 +385,12 @@ edges:
       official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-AVOGADRO-CONST
   relation: PART_OF
   target: 4CH1-1.27
@@ -397,10 +412,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.27 @ Calculating moles and mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-AVOGADRO-LAW
   relation: PART_OF
   target: 4CH1-1.35C
@@ -421,10 +438,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-BOND-BREAKING-MAKING
   relation: PART_OF
   target: 4CH1-3.6C
@@ -453,10 +472,12 @@ edges:
       wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-BOND-ENERGY-CALC
   relation: PART_OF
   target: 4CH1-3.7C
@@ -488,10 +509,12 @@ edges:
       wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CALORIMETRY
   relation: PART_OF
   target: 4CH1-3.2
@@ -528,10 +551,12 @@ edges:
       @ Temperature Change Practical (2026-09-11); spec 4CH1-3.2 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CATALYST
   relation: PART_OF
   target: 4CH1-3.12
@@ -560,10 +585,12 @@ edges:
       4CH1-3.13 @ Catalysts in Chemistry (2026-09-11); spec 4CH1-3.12/3.13 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CATALYST
   relation: PART_OF
   target: 4CH1-3.13
@@ -590,10 +617,12 @@ edges:
       4CH1-3.13 @ Catalysts in Chemistry (2026-09-11); spec 4CH1-3.12/3.13 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
   relation: PART_OF
   target: 4CH1-1.11
@@ -623,10 +652,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CHROMATOGRAPHY
   relation: PART_OF
   target: 4CH1-1.10
@@ -653,10 +684,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-COLLISION-THEORY
   relation: PART_OF
   target: 4CH1-3.11
@@ -688,10 +721,12 @@ edges:
       wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-COMPOUND
   relation: PART_OF
   target: 4CH1-1.8
@@ -716,10 +751,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CONC-CALC
   relation: PART_OF
   target: 4CH1-1.34C
@@ -739,10 +776,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CONCENTRATION
   relation: PART_OF
   target: 4CH1-1.34C
@@ -762,10 +801,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CONSERVATION-MASS
   relation: PART_OF
   target: 4CH1-1.25
@@ -787,10 +828,12 @@ edges:
       Mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CONSERVATION-MASS
   relation: PART_OF
   target: 4CH1-1.26
@@ -812,10 +855,12 @@ edges:
       Mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-COVALENT-BOND
   relation: PART_OF
   target: 4CH1-1.44
@@ -846,10 +891,12 @@ edges:
       4CH1-1.45 @ Forming Covalent Bonds (2026-09-11); specs 4CH1-1.44 + 4CH1-1.45 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-COVALENT-BOND
   relation: PART_OF
   target: 4CH1-1.45
@@ -876,10 +923,12 @@ edges:
       4CH1-1.45 @ Forming Covalent Bonds (2026-09-11); specs 4CH1-1.44 + 4CH1-1.45 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-COVALENT-CONDUCTION
   relation: PART_OF
   target: 4CH1-1.51
@@ -912,10 +961,12 @@ edges:
       4CH1-1.55C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.51 + 4CH1-1.55C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-COVALENT-CONDUCTION
   relation: PART_OF
   target: 4CH1-1.55C
@@ -945,10 +996,12 @@ edges:
       4CH1-1.55C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.51 + 4CH1-1.55C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-CRYSTALLISATION
   relation: PART_OF
   target: 4CH1-1.10
@@ -974,10 +1027,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DIAMOND-GRAPHITE
   relation: PART_OF
   target: 4CH1-1.50
@@ -1022,10 +1077,12 @@ edges:
       (2026-09-11); spec 4CH1-1.50 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DIFFUSION
   relation: PART_OF
   target: 4CH1-1.3
@@ -1052,10 +1109,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.3 @ Diffusion (2026-09-11); spec 4CH1-1.3 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DILUTION
   relation: PART_OF
   target: 4CH1-1.3
@@ -1083,10 +1142,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.3 @ Diffusion (2026-09-11); spec 4CH1-1.3 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DOT-CROSS-COVALENT
   relation: PART_OF
   target: 4CH1-1.46
@@ -1114,10 +1175,12 @@ edges:
       4CH1-1.46 official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DOT-CROSS-IONIC
   relation: PART_OF
   target: 4CH1-1.40
@@ -1151,10 +1214,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DYNAMIC-EQUILIBRIUM
   relation: PART_OF
   target: 4CH1-3.19C
@@ -1181,10 +1246,12 @@ edges:
       4CH1-3.20C @ Dynamic Equilibrium (2026-09-11); spec 4CH1-3.19C/3.20C official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-DYNAMIC-EQUILIBRIUM
   relation: PART_OF
   target: 4CH1-3.20C
@@ -1216,10 +1283,12 @@ edges:
       4CH1-3.20C @ Dynamic Equilibrium (2026-09-11); spec 4CH1-3.19C/3.20C official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ELECTRODE-HALF-EQUATIONS
   relation: PART_OF
   target: 4CH1-1.59C
@@ -1254,10 +1323,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ELECTROLYSIS
   relation: PART_OF
   target: 4CH1-1.58C
@@ -1293,10 +1364,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ELECTRONIC-CONFIGURATION
   relation: PART_OF
   target: 4CH1-1.19
@@ -1326,10 +1399,12 @@ edges:
       & Reactivity (2026-09-11); spec 4CH1-1.19/1.22 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ELECTRONIC-CONFIGURATION
   relation: PART_OF
   target: 4CH1-1.22
@@ -1364,10 +1439,12 @@ edges:
       & Reactivity (2026-09-11); spec 4CH1-1.19/1.22 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ELEMENT
   relation: PART_OF
   target: 4CH1-1.8
@@ -1393,10 +1470,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EMP-MOL-CALC
   relation: PART_OF
   target: 4CH1-1.33
@@ -1421,10 +1500,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.33 @ Empirical & Molecular Formulae (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EMPIRICAL-FORMULA
   relation: PART_OF
   target: 4CH1-1.32
@@ -1450,10 +1531,12 @@ edges:
       spec wordings
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EMPIRICAL-FORMULA
   relation: PART_OF
   target: 4CH1-1.33
@@ -1474,10 +1557,12 @@ edges:
       spec wordings
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ENERGY-LEVEL-DIAGRAM
   relation: PART_OF
   target: 4CH1-3.5C
@@ -1509,10 +1594,12 @@ edges:
       wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EQ-POSITION
   relation: PART_OF
   target: 4CH1-3.21C
@@ -1543,10 +1630,12 @@ edges:
       4CH1-3.22C @ The Position of Equilibrium (2026-09-11); spec 4CH1-3.21C/3.22C official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EQ-POSITION
   relation: PART_OF
   target: 4CH1-3.22C
@@ -1577,10 +1666,12 @@ edges:
       4CH1-3.22C @ The Position of Equilibrium (2026-09-11); spec 4CH1-3.21C/3.22C official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EQ-STATE-SYM
   relation: PART_OF
   target: 4CH1-1.25
@@ -1604,10 +1695,12 @@ edges:
       official wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EQ-SYMBOL
   relation: PART_OF
   target: 4CH1-1.25
@@ -1633,10 +1726,12 @@ edges:
       (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EQ-WORD
   relation: PART_OF
   target: 4CH1-1.25
@@ -1661,10 +1756,12 @@ edges:
       official wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EVAPORATION-BOILING
   relation: PART_OF
   target: 4CH1-1.2
@@ -1690,10 +1787,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.2 @ Changing states of matter (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EXO-ENDO
   relation: PART_OF
   target: 4CH1-3.1
@@ -1724,10 +1823,12 @@ edges:
       official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EXP-FORMULA-DEDUCTION
   relation: PART_OF
   target: 4CH1-1.31
@@ -1750,10 +1851,12 @@ edges:
       formulas; 4CH1-1.36 @ Investigating metal oxide formulas (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-EXP-FORMULA-DEDUCTION
   relation: PART_OF
   target: 4CH1-1.36
@@ -1775,10 +1878,12 @@ edges:
       formulas; 4CH1-1.36 @ Investigating metal oxide formulas (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-FILTRATION
   relation: PART_OF
   target: 4CH1-1.10
@@ -1803,10 +1908,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-FRACTIONAL-DISTILLATION
   relation: PART_OF
   target: 4CH1-1.10
@@ -1832,10 +1939,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-GAS-VOL-CALC
   relation: PART_OF
   target: 4CH1-1.35C
@@ -1856,10 +1965,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.35C @ Calculate Gas Volumes (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-GIANT-COVALENT
   relation: PART_OF
   target: 4CH1-1.49
@@ -1893,10 +2004,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-GROUP-SIMILARITY
   relation: PART_OF
   target: 4CH1-1.23
@@ -1924,10 +2037,12 @@ edges:
       4CH1-1.23 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-HEAT-CALC
   relation: PART_OF
   target: 4CH1-3.3
@@ -1957,10 +2072,12 @@ edges:
       4CH1-3.3 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-HEATING-CONSTANT-MASS
   relation: PART_OF
   target: 4CH1-1.7C
@@ -1986,10 +2103,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.7C @ Investigating solubility (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ION
   relation: PART_OF
   target: 4CH1-1.37
@@ -2022,10 +2141,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ION-CHARGE-RULES
   relation: PART_OF
   target: 4CH1-1.38
@@ -2059,10 +2180,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.38 @ Common Ions (2026-09-11); spec 4CH1-1.38 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-IONIC-BOND
   relation: PART_OF
   target: 4CH1-1.41
@@ -2092,10 +2215,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-IONIC-CONDUCTION
   relation: PART_OF
   target: 4CH1-1.43
@@ -2125,10 +2250,12 @@ edges:
       4CH1-1.56C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.43 + 4CH1-1.56C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-IONIC-CONDUCTION
   relation: PART_OF
   target: 4CH1-1.56C
@@ -2158,10 +2285,12 @@ edges:
       4CH1-1.56C @ Electronic Conductivity (2026-09-11); specs 4CH1-1.43 + 4CH1-1.56C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-IONIC-FORMULA
   relation: PART_OF
   target: 4CH1-1.39
@@ -2195,10 +2324,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-IONIC-LATTICE
   relation: PART_OF
   target: 4CH1-1.42
@@ -2232,10 +2363,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ISOTOPES
   relation: PART_OF
   target: 4CH1-1.16
@@ -2263,10 +2396,12 @@ edges:
       mass (2026-09-11); spec 4CH1-1.16/1.17 official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ISOTOPES
   relation: PART_OF
   target: 4CH1-1.17
@@ -2300,10 +2435,12 @@ edges:
       mass (2026-09-11); spec 4CH1-1.16/1.17 official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MASS-NUMBER
   relation: PART_OF
   target: 4CH1-1.16
@@ -2335,10 +2472,12 @@ edges:
       official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-METAL-NONMETAL
   relation: PART_OF
   target: 4CH1-1.20
@@ -2364,10 +2503,12 @@ edges:
       spec 4CH1-1.20/1.21 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-METAL-NONMETAL
   relation: PART_OF
   target: 4CH1-1.21
@@ -2397,10 +2538,12 @@ edges:
       spec 4CH1-1.20/1.21 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-METAL-PROPERTIES
   relation: PART_OF
   target: 4CH1-1.54C
@@ -2435,10 +2578,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-METALLIC-BOND
   relation: PART_OF
   target: 4CH1-1.52C
@@ -2463,10 +2608,12 @@ edges:
       4CH1-1.53C @ Metallic Bonding (2026-09-11); specs 4CH1-1.52C + 4CH1-1.53C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-METALLIC-BOND
   relation: PART_OF
   target: 4CH1-1.53C
@@ -2497,10 +2644,12 @@ edges:
       4CH1-1.53C @ Metallic Bonding (2026-09-11); specs 4CH1-1.52C + 4CH1-1.53C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-METALLOID
   relation: PART_OF
   target: 4CH1-1.21
@@ -2523,10 +2672,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.21 @ Metals & non-metals in the Periodic Table (2026-09-11)
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MIXTURE
   relation: PART_OF
   target: 4CH1-1.8
@@ -2551,10 +2702,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLAR-ENTHALPY
   relation: PART_OF
   target: 4CH1-3.4
@@ -2583,10 +2736,12 @@ edges:
       4CH1-3.4 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLAR-GAS-VOL
   relation: PART_OF
   target: 4CH1-1.35C
@@ -2611,10 +2766,12 @@ edges:
       wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLAR-MASS
   relation: PART_OF
   target: 4CH1-1.28
@@ -2634,10 +2791,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.28 @ Calculating moles and mass (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLAR-RATIO
   relation: PART_OF
   target: 4CH1-1.29
@@ -2659,10 +2818,12 @@ edges:
       CFEC1 Q2(b) (pinned extraction aaf918d9332b)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLE
   relation: PART_OF
   target: 4CH1-1.27
@@ -2686,10 +2847,12 @@ edges:
       official wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLE-MASS-CONV
   relation: PART_OF
   target: 4CH1-1.28
@@ -2715,10 +2878,12 @@ edges:
       (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLECULAR-FORMULA
   relation: PART_OF
   target: 4CH1-1.32
@@ -2739,10 +2904,12 @@ edges:
       spec wordings
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLECULAR-FORMULA
   relation: PART_OF
   target: 4CH1-1.33
@@ -2762,10 +2929,12 @@ edges:
       spec wordings
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MOLECULE
   relation: PART_OF
   target: 4CH1-1.14
@@ -2790,10 +2959,12 @@ edges:
       official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MR
   relation: PART_OF
   target: 4CH1-1.26
@@ -2817,10 +2988,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass (2026-09-11); spec wordings 1.26/1.28
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-MR
   relation: PART_OF
   target: 4CH1-1.28
@@ -2839,10 +3012,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.26 @ Calculate Relative Mass (2026-09-11); spec wordings 1.26/1.28
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-NOBLE-GAS-INERTNESS
   relation: PART_OF
   target: 4CH1-1.24
@@ -2874,10 +3049,12 @@ edges:
       4CH1-1.24 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-PERCENT-YIELD
   relation: PART_OF
   target: 4CH1-1.30
@@ -2901,10 +3078,12 @@ edges:
       official wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-PERIODIC-TABLE
   relation: PART_OF
   target: 4CH1-1.18
@@ -2943,10 +3122,12 @@ edges:
       wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-PURE-SUBSTANCE
   relation: PART_OF
   target: 4CH1-1.9
@@ -2975,10 +3156,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.9 @ Pure substances (2026-09-11); spec 4CH1-1.9 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-RATE-EXPERIMENTS
   relation: PART_OF
   target: 4CH1-3.9
@@ -3016,10 +3199,12 @@ edges:
       (2026-09-11); spec 4CH1-3.9 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-RATE-FACTORS
   relation: PART_OF
   target: 4CH1-3.10
@@ -3056,10 +3241,12 @@ edges:
       @ Explaining Rates (2026-09-11); spec 4CH1-3.10 official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-REACTING-MASS
   relation: PART_OF
   target: 4CH1-1.29
@@ -3083,10 +3270,12 @@ edges:
       official wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-REACTION-PROFILE
   relation: PART_OF
   target: 4CH1-3.14C
@@ -3117,10 +3306,12 @@ edges:
       official wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-REDOX-ELECTRONS
   relation: PART_OF
   target: 4CH1-1.59C
@@ -3150,10 +3341,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-REVERSIBLE
   relation: PART_OF
   target: 4CH1-3.17
@@ -3185,10 +3378,12 @@ edges:
       wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-REVERSIBLE-EXAMPLES
   relation: PART_OF
   target: 4CH1-3.18
@@ -3220,10 +3415,12 @@ edges:
       wording
     generated_date: '2026-09-13'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-13'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-RF-VALUE
   relation: PART_OF
   target: 4CH1-1.12
@@ -3252,10 +3449,12 @@ edges:
       official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SATURATED-SOLUTION
   relation: PART_OF
   target: 4CH1-1.10
@@ -3277,10 +3476,12 @@ edges:
       spec 4CH1-1.4 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SATURATED-SOLUTION
   relation: PART_OF
   target: 4CH1-1.4
@@ -3305,10 +3506,12 @@ edges:
       spec 4CH1-1.4 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SIMPLE-DISTILLATION
   relation: PART_OF
   target: 4CH1-1.10
@@ -3333,10 +3536,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SIMPLE-MOLECULAR
   relation: PART_OF
   target: 4CH1-1.47
@@ -3366,10 +3571,12 @@ edges:
       4CH1-1.48 @ Simple Molecular Structures (2026-09-11); specs 4CH1-1.47 + 4CH1-1.48 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SIMPLE-MOLECULAR
   relation: PART_OF
   target: 4CH1-1.48
@@ -3400,10 +3607,12 @@ edges:
       4CH1-1.48 @ Simple Molecular Structures (2026-09-11); specs 4CH1-1.47 + 4CH1-1.48 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SOLUBILITY
   relation: PART_OF
   target: 4CH1-1.5C
@@ -3432,10 +3641,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.5C @ Solubility (2026-09-11); spec 4CH1-1.5C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SOLUBILITY-CURVE
   relation: PART_OF
   target: 4CH1-1.6C
@@ -3459,10 +3670,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.6C @ Solubility (2026-09-11); spec 4CH1-1.6C official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SOLUTION
   relation: PART_OF
   target: 4CH1-1.4
@@ -3490,10 +3703,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.4 @ Solutions (2026-09-11); spec 4CH1-1.4 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-STATE-CHANGES
   relation: PART_OF
   target: 4CH1-1.2
@@ -3518,10 +3733,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-STATE-PARTICLE-MODEL
   relation: PART_OF
   target: 4CH1-1.1
@@ -3550,10 +3767,12 @@ edges:
       spec 4CH1-1.1 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-STATE-PARTICLE-MODEL
   relation: PART_OF
   target: 4CH1-1.3
@@ -3576,10 +3795,12 @@ edges:
       spec 4CH1-1.1 official wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-STATES-THREE
   relation: PART_OF
   target: 4CH1-1.1
@@ -3603,10 +3824,12 @@ edges:
       wording
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-SUBATOMIC-PARTICLES
   relation: PART_OF
   target: 4CH1-1.15
@@ -3644,10 +3867,12 @@ edges:
       official wording'
     generated_date: '2026-09-12'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-12'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-THEOR-YIELD
   relation: PART_OF
   target: 4CH1-1.30
@@ -3668,10 +3893,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-VOL-CONVERSION
   relation: PART_OF
   target: 4CH1-1.34C
@@ -3692,10 +3919,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.34C @ Solution concentration (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-WATER-CRYST
   relation: PART_OF
   target: 4CH1-1.31
@@ -3720,10 +3949,12 @@ edges:
       (2026-09-11); spec 4CH1-1.31 wording
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-YIELD
   relation: PART_OF
   target: 4CH1-1.30
@@ -3743,10 +3974,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-YIELD-FACTORS
   relation: PART_OF
   target: 4CH1-1.30
@@ -3766,10 +3999,12 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-1.30 @ Calculate percentage yield (2026-09-11)
     generated_date: '2026-09-11'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
   ambiguity_note: null
   version: 1
   created_at: '2026-09-11'
+  validated_by: operator-directive-session-106
+  validated_date: '2026-09-18'
 - source: 4CH1-CON-ANODE-CATHODE
   relation: REQUIRES_PREREQUISITE
   target: 4CH1-CON-ION

@@ -1040,6 +1040,73 @@ def c11_promotion_state():
     return _C11_PROMO_STATE
 
 
+_C19_PROMO_STATE = None
+
+
+def c19_promotion_state():
+    """T-C19 attachment-promotion state, read from the REAL repo file (same
+    guarantee as c11_promotion_state). Returns (entries, problems):
+      entries: {(concept, spec_point): entry} from scripts/c19_promotions.yaml
+      problems: c19.1 failures (schema/anti-forgery/resolution)
+    The record is the ONLY authority that lets a derived PART_OF edge carry
+    HUMAN_VALIDATED (the expansion round c11_promote.py names; nodes themselves
+    are NEVER promoted — the scope guard holds).
+    """
+    global _C19_PROMO_STATE
+    if _C19_PROMO_STATE is not None:
+        return _C19_PROMO_STATE
+    problems, entries = [], {}
+    f = REPO / "scripts" / "c19_promotions.yaml"
+    if f.exists():
+        try:
+            data = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+        except yaml.YAMLError as e:
+            data = {}
+            problems.append(f"c19.1 attachment promotions file does not parse: {e}")
+        for i, p in enumerate(data.get("promotions") or []):
+            where = f"c19.1 promotion[{i}]"
+            if not isinstance(p, dict):
+                problems.append(f"{where}: entry must be a mapping")
+                continue
+            att = p.get("attachment")
+            if not isinstance(att, dict) or not all(
+                    isinstance(att.get(k), str) and att.get(k).strip()
+                    for k in ("concept", "spec_point")):
+                problems.append(f"{where}: 'attachment' must be a mapping "
+                                f"{{concept, spec_point}} with non-empty strings")
+                continue
+            con, spc = att["concept"], att["spec_point"]
+            key = (con, spc)
+            if key in entries:
+                problems.append(f"{where}: duplicate promotion for "
+                                f"{con} PART_OF {spc}")
+                continue
+            by, dt = p.get("validated_by"), p.get("validated_date")
+            if not isinstance(by, str) or not by.strip():
+                problems.append(f"{where}: validated_by missing — promotion is "
+                                f"operator-only")
+            elif _C11_AI_NAME_RE.search(by):
+                problems.append(f"{where}: validated_by {by!r} fails the "
+                                f"attribution gate — AI cannot promote")
+            if not isinstance(dt, str) or not re.match(r"^\d{4}-\d{2}-\d{2}$",
+                                                       dt or ""):
+                problems.append(f"{where}: validated_date must be "
+                                f"YYYY-MM-DD, got {dt!r}")
+            ref = p.get("review_reference")
+            if not isinstance(ref, str) or not ref.strip():
+                problems.append(f"{where}: review_reference must name the "
+                                f"ratifying review artifact")
+            else:
+                first = ref.split()[0]
+                if first.endswith((".md", ".json", ".yaml")) \
+                        and not (REPO / first).exists():
+                    problems.append(f"{where}: review_reference file not "
+                                    f"found: {first}")
+            entries[key] = p
+    _C19_PROMO_STATE = (entries, problems)
+    return _C19_PROMO_STATE
+
+
 def tc10_index():
     """note rel-path -> {SP codes with HUMAN_VALIDATED T-C10 mapping}."""
     global _C11_TC10_INDEX
@@ -1263,6 +1330,9 @@ def check_c11_concept_edges(c11, c09_data):
     promo_entries, promo_problems, authored_states = c11_promotion_state()
     for msg in promo_problems:
         chk.fail(msg)
+    c19_entries, c19_problems = c19_promotion_state()
+    for msg in c19_problems:
+        chk.fail(msg)
 
     for k in ("counts",):
         if k not in meta:
@@ -1318,9 +1388,24 @@ def check_c11_concept_edges(c11, c09_data):
             promo = promo_entries.get(key)
             if status == "HUMAN_VALIDATED":
                 if rel == "PART_OF":
-                    chk.fail(f"c11.10 {where}: PART_OF cannot be "
-                             f"HUMAN_VALIDATED (derived edge; node promotion "
-                             f"pathway not built)")
+                    # T-C19: legal ONLY via an exact attachment-promotion
+                    # record match (the expansion round; the concept NODE's
+                    # own status is untouched by this pathway)
+                    c19p = c19_entries.get((src, tgt))
+                    if c19p is None:
+                        chk.fail(f"c11.10 {where}: PART_OF HUMAN_VALIDATED "
+                                 f"without a matching attachment promotion "
+                                 f"record in scripts/c19_promotions.yaml "
+                                 f"(operator-only promotion; "
+                                 f"graph/promotions mismatch)")
+                    elif (e.get("validated_by") != c19p.get("validated_by")
+                          or e.get("validated_date") != c19p.get("validated_date")):
+                        chk.fail(f"c11.10 {where}: attribution mismatch vs "
+                                 f"the attachment promotion record (graph: "
+                                 f"{e.get('validated_by')!r}/"
+                                 f"{e.get('validated_date')!r}; record: "
+                                 f"{c19p.get('validated_by')!r}/"
+                                 f"{c19p.get('validated_date')!r})")
                 elif not promo:
                     chk.fail(f"c11.10 {where}: HUMAN_VALIDATED without a "
                              f"matching promotion record in "
@@ -1337,6 +1422,11 @@ def check_c11_concept_edges(c11, c09_data):
             elif promo and rel != "PART_OF":
                 chk.fail(f"c11.10 {where}: promotion recorded but edge not "
                          f"promoted (stale graph — re-run "
+                         f"scripts/c11_concept_pilot.py)")
+            if rel == "PART_OF" and status != "HUMAN_VALIDATED" \
+                    and (src, tgt) in c19_entries:
+                chk.fail(f"c11.10 {where}: attachment promotion recorded but "
+                         f"edge not promoted (stale graph — re-run "
                          f"scripts/c11_concept_pilot.py)")
             # status drift vs the frozen decision record + promotions
             if rel != "PART_OF":

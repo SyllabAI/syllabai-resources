@@ -235,6 +235,14 @@ pr_data = load_yaml(GRAPH / "practicals.yaml")
 promo_raw = (load_yaml(PROMOTIONS) if PROMOTIONS.exists()
              else {"promotions": []})
 promotions = (promo_raw or {}).get("promotions") or []
+# T-C19 attachment-promotion record (the expansion round c11_promote.py names):
+# concept->SP PART_OF rows are DERIVED from node attachments, so their promotion
+# lives in its own operator-side record, written ONLY by scripts/c19_promote.py.
+# Missing file = zero c19 promotions = byte-identical emission (the G13 property).
+C19_PROMOTIONS = HERE / "c19_promotions.yaml"
+c19_raw = (load_yaml(C19_PROMOTIONS) if C19_PROMOTIONS.exists()
+           else {"promotions": []})
+c19_promotions = (c19_raw or {}).get("promotions") or []
 
 spec_by_code = {sp["code"]: sp for sp in sp_data["specification_points"]}
 practical_by_code = {p["code"]: p for p in pr_data["practicals"]}
@@ -699,6 +707,63 @@ for i, p in enumerate(promotions):
     promo_index[key] = p
 
 # ---------------------------------------------------------------------------
+# G19 attachment promotions — the T-C19 operator-side record (the expansion
+# round named by c11_promote.py's PART_OF refusal). Same fail-closed discipline
+# as G13: shape, attribution (AI self-attribution forbidden), ISO date, a
+# review artifact that exists, exact attachment identity (a CONCEPT node's
+# declared spec_points entry), no duplicates. Zero c19 entries => emission is
+# byte-identical to the pre-T-C19 contract.
+c19_index = {}
+node_by_code = {n.get("code"): n for n in nodes}
+for i, p in enumerate(c19_promotions):
+    where = f"G19 attachment-promotion[{i}]"
+    if not isinstance(p, dict):
+        G.fail(f"{where}: entry must be a mapping, got {type(p).__name__}")
+        continue
+    att = p.get("attachment")
+    if not isinstance(att, dict):
+        G.fail(f"{where}: 'attachment' must be a mapping {{concept, spec_point}}")
+        continue
+    con, spc = att.get("concept"), att.get("spec_point")
+    for k, v in (("concept", con), ("spec_point", spc)):
+        if not isinstance(v, str) or not v.strip():
+            G.fail(f"{where}: attachment.{k} missing/empty — exact identity required")
+    if not (isinstance(con, str) and isinstance(spc, str)):
+        continue
+    key = (con, spc)
+    if key in c19_index:
+        G.fail(f"{where}: duplicate promotion for {con} PART_OF {spc}")
+        continue
+    by, dt = p.get("validated_by"), p.get("validated_date")
+    if not isinstance(by, str) or not by.strip():
+        G.fail(f"{where}: validated_by missing — promotion is operator-only")
+    elif AI_NAME_RE.search(by):
+        G.fail(f"{where}: validated_by {by!r} fails the attribution gate — "
+               f"AI cannot promote (anti-forgery; operator-only rule)")
+    if not isinstance(dt, str) or not RE_ISO_DATE.match(dt or ""):
+        G.fail(f"{where}: validated_date must be YYYY-MM-DD, got {dt!r}")
+    ref = p.get("review_reference")
+    if not isinstance(ref, str) or not ref.strip():
+        G.fail(f"{where}: review_reference must name the ratifying review artifact")
+    else:
+        first = ref.split()[0]
+        if first.endswith((".md", ".json", ".yaml")) and not (REPO / first).exists():
+            G.fail(f"{where}: review_reference file not found: {first}")
+    n = node_by_code.get(con)
+    if n is None:
+        G.fail(f"{where}: no CONCEPT node matches {con} — attachment promotion "
+               f"operates on existing node attachments only")
+    elif n.get("family") != "CONCEPT":
+        G.fail(f"{where}: {con} is not a CONCEPT node — attachments exist only "
+               f"on CONCEPT nodes")
+    else:
+        declared = {s.get("code") for s in (n.get("spec_points") or [])}
+        if spc not in declared:
+            G.fail(f"{where}: {con} declares no attachment to {spc} — "
+                   f"attachment promotion operates on existing attachments only")
+    c19_index[key] = p
+
+# ---------------------------------------------------------------------------
 # Emit
 def emit(path: Path, meta: dict, key: str, records: list, header: str):
     lines = [header]
@@ -749,6 +814,9 @@ def build_meta(kind: str, counts: dict) -> dict:
         # zero promotions keeps the emission byte-identical to the frozen
         # pilot snapshot; nodes/command-kinds are never promotable here
         meta["promotion_record"] = "scripts/c11_promotions.yaml"
+    if c19_index and kind == "edges":
+        # T-C19: same additivity contract for the attachment-promotion record
+        meta["attachment_promotion_record"] = "scripts/c19_promotions.yaml"
     return meta
 
 
@@ -789,7 +857,7 @@ part_of = []
 for n in sorted([n for n in nodes if n.get("family") == "CONCEPT"],
                 key=lambda x: x["code"]):
     for att in n["spec_points"]:
-        part_of.append({
+        rec = {
             "source": n["code"],
             "relation": "PART_OF",
             "target": att["code"],
@@ -801,7 +869,19 @@ for n in sorted([n for n in nodes if n.get("family") == "CONCEPT"],
             "ambiguity_note": None,
             "version": 1,
             "created_at": node_rec[n["code"]]["date"],
-        })
+        }
+        # T-C19: an operator-validated attachment row carries HUMAN_VALIDATED on
+        # the EDGE only (the mapping is human-confirmed; the concept NODE keeps
+        # its own status — scope guard: nodes are never promoted by this lane).
+        # Promotion adds ONLY the validation fields, mirroring edge_out's §18
+        # behavior; evidence/provenance/confidence are preserved verbatim and
+        # provenance.tier stays AI_SUGGESTED (origin is immutable).
+        c19p = c19_index.get((n["code"], att["code"]))
+        if c19p:
+            rec["validation_status"] = "HUMAN_VALIDATED"
+            rec["validated_by"] = c19p["validated_by"]
+            rec["validated_date"] = c19p["validated_date"]
+        part_of.append(rec)
 
 authored = [edge_out(e) for e in edges]
 all_edges = part_of + authored
