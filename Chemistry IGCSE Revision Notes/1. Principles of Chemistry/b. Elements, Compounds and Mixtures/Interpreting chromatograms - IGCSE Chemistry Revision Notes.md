@@ -110,7 +110,7 @@ $R_{f}\text{}=\text{}\frac{\mathrm{distance}\text{}\mathrm{moved}\text{}\mathrm{
 
 A student obtained the following chromatogram when carrying out chromatography. 
 
-![using-rf-values-to-identify-mixture-components](../../assets/.jpeg)<!-- figure-missing: .jpeg (download failed during clipping) --> Calculate the _R_<sub>f</sub> value of the substance. 
+![using-rf-values-to-identify-mixture-components](../../assets/using-rf-values-to-identify-mixture-components.png)<!-- figure recovered 2026-09-18 from https://cdn.savemyexams.com/uploads/2024/08/64942_using-rf-values-to-identify-mixture-components.avif (AVIF converted to PNG losslessly; clip-time filename was lost) --> Calculate the _R_<sub>f</sub> value of the substance. 
 
 **Answer:**
 

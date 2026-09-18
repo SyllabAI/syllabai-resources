@@ -83,7 +83,7 @@ spec_map:
 
 #### Determining the formula of copper(II) chloride
 
-![~5RmSBVa_copperii-chloride-swap-and-drop](../../assets/~5RmSBVa_copperii-chloride-swap-and-drop.png)<!-- figure-missing: ~5RmSBVa_copperii-chloride-swap-and-drop.png (download failed during clipping) --> _**The charges swap from element to element and drop down. The positive and negative signs are removed and there is no need for the number 1.**_
+![~5RmSBVa_copperii-chloride-swap-and-drop](../../assets/~5RmSBVa_copperii-chloride-swap-and-drop.png)<!-- figure recovered 2026-09-18 from https://cdn.savemyexams.com/uploads/2024/02/~5RmSBVa_copperii-chloride-swap-and-drop.png (clip-time download had failed) --> _**The charges swap from element to element and drop down. The positive and negative signs are removed and there is no need for the number 1.**_
 
 -   This gives the overall formula of copper(II) chloride as **CuCl**<sub><b>2</b></sub> 
 
