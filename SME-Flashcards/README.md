@@ -11,3 +11,17 @@ Scraped from Save My Exams flashcards decks via `scripts/sme_flashcards_scrape.p
 - Operator authorization: LICENSE-DATA.md (SME attestation)
 
 Global manifest: `manifest.json` (registry + per-course totals).
+
+## Content-join coverage note (T-SPEC-1, 2026-09-18)
+
+`igcse-chemistry-19` (linear) cards carry no SME `spec_links`, and the
+containment join added to `map_flashcards.py` (token containment >= 0.90 +
+deck/official section agreement + runner-up ambiguity guard; tier stays
+T3_section_anchored) correctly fires on 0 of 909 cards: their answers are
+SME-authored pedagogical facts (Q&A / keyword answers), not transcriptions of
+official statements. Observed best containment ~0.4, and relaxing thresholds
+already mis-targets (e.g. a "freezing" interconversion answer's best
+section-agreeing candidate was the ionic-conduction statement 1.43) — so they
+stay honestly unmapped until SME publishes anchors for this course.
+Modular/SDA chemistry decks remain fully SME-anchor-inherited
+(334/222/479 joins; reproduced unchanged by the updated script).
