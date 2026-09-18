@@ -95,10 +95,10 @@ def verdict_overlay(eq_dir: Path, mappings: dict) -> dict:
 
 
 def merge_part_codes(codes, part, mappings):
-    """T-SPEC-2c: part-level operator-verdict codes live directly on the
+    """T-SPEC-2c/2e: part-level operator-verdict codes live directly on the
     topic.json part (spec_point_codes). They are authoritative (validated
-    against the course registry by the fail-closed 2c apply and by verify G1)
-    and are merged here so learner links match the corpus. Id-level
+    against the course registry by the fail-closed apply lanes and by verify
+    G1) and are merged here so learner links match the corpus. Id-level
     resolutions (map lane / overlay) win on duplicate official_code."""
     have = {c["official_code"] for c in codes}
     prefix = None
@@ -114,10 +114,10 @@ def merge_part_codes(codes, part, mappings):
         have.add(c)
         extra.append({"official_id": f"{prefix}:{c}" if prefix else c,
                       "official_code": c,
-                      "tier": "operator-verdict-2c",
-                      "method": "operator-verdict lane (T-SPEC-2c part "
-                                "verdicts; PMT excluded as source per "
-                                "operator instruction 2026-09-18)"})
+                      "tier": "operator-verdict-part",
+                      "method": "operator-verdict part lane (T-SPEC-2c/2e; "
+                                "PMT excluded as source per operator "
+                                "instruction 2026-09-18)"})
     if not extra:
         return codes
     return sorted(codes + extra, key=lambda c: c["official_id"])

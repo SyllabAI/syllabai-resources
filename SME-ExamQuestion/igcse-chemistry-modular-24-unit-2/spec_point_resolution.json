@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T12:41:36Z",
- "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess)",
+ "generated_utc": "2026-09-18T14:23:43Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess) + operator-override lane T-SPEC-2e (S0 opinion tier, operator instruction 2026-09-18; tickets #6/#7/#8; PMT excluded as source) — part-level codes only, id-level unresolved records unchanged pending upstream statement text",
  "counts": {
   "ids": 120,
   "resolved": 116,
@@ -1824,5 +1824,21 @@
    "flag": "cross-unit: statement in Unit 1, course scope Unit 2",
    "recheck": null
   }
- ]
+ ],
+ "operator_override": {
+  "decision_record": "scripts/t_spec_2e_operator_override.yaml",
+  "tier": "S0_operator_override",
+  "applied_utc": "2026-09-18T14:23:43Z",
+  "parts": [
+   {
+    "part": "qstnprt_P5nnQ2ct897FtPnN",
+    "codes": [
+     "4.20"
+    ],
+    "tickets": [
+     "#8"
+    ]
+   }
+  ]
+ }
 }

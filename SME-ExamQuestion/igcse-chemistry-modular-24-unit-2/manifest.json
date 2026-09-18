@@ -312,16 +312,17 @@
    "unresolved": 4,
    "distinct_codes_in_use": 99,
    "parts_total": 622,
-   "parts_with_codes": 614,
-   "parts_left_uncoded_no_guess_tail": 8
+   "parts_with_codes": 622,
+   "parts_left_uncoded_no_guess_tail": 0
   },
   "pipeline": [
    "scripts/sme_spcpt_sibling_backfill.py",
    "scripts/sme_spcpt_sibling_map.py",
    "scripts/sme_spcpt_sibling_apply.py",
    "scripts/sme_spcpt_verify.py",
-   "scripts/t_spec_2b_verdict_apply.py"
+   "scripts/t_spec_2b_verdict_apply.py",
+   "scripts/t_spec_2e_override_apply.py"
   ],
-  "updated_utc": "2026-09-18T11:47:23Z"
+  "updated_utc": "2026-09-18T14:23:43Z"
  }
 }
