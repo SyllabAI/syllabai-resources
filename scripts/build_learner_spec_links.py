@@ -17,8 +17,10 @@ Sources per course:
   questions  SME-ExamQuestion/<c>/*/*/topic.json    (part id, spec_point_ids)
   flashcards SME-Flashcards/<c>/flashcard_spec_map.json (card -> codes)
 
-Official codes come exclusively from the course's spec_point_map.json
-(provenance tiers preserved; nothing invented here). Content items keep
+Official codes come exclusively from the course's spec_point_map.json plus
+the operator-verdict overlay in spec_point_resolution.json (T-SPEC-2b: records
+whose method is the operator-verdict lane fill only ids the map itself left
+unmapped; provenance tiers preserved; nothing invented here). Content items keep
 their SME ids so the UI can deep-link.
 
 Output: spec-links/<course>.json + spec-links/manifest.json + README.md
@@ -67,6 +69,30 @@ def resolve(spcpt_ids, mappings):
     return uniq, pending
 
 
+def verdict_overlay(eq_dir: Path, mappings: dict) -> dict:
+    """T-SPEC-2b: operator-verdict lane resolutions from the resolution sidecar.
+    Fills ONLY ids the stage-1 map itself left unmapped (map lane wins)."""
+    res_file = eq_dir / "spec_point_resolution.json"
+    if not res_file.exists():
+        return {}
+    res = json.loads(res_file.read_text(encoding="utf-8"))
+    overlay = {}
+    for rec in res.get("resolved") or []:
+        method = rec.get("method") or ""
+        if not method.startswith("operator-verdict"):
+            continue
+        sid = rec["id"]
+        if sid in mappings or not rec.get("resolved_code"):
+            continue
+        overlay[sid] = {
+            "official_id": rec.get("official_id"),
+            "official_code": rec["resolved_code"],
+            "tier": rec.get("tier"),
+            "method": method,
+        }
+    return overlay
+
+
 def course_bundle(course: str) -> dict:
     eq_dir = EQ / course
     map_file = eq_dir / "spec_point_map.json"
@@ -76,6 +102,7 @@ def course_bundle(course: str) -> dict:
         mj = json.loads(map_file.read_text(encoding="utf-8"))
         qual = mj.get("qual")
         mappings = mj.get("mappings") or {}
+    mappings.update(verdict_overlay(eq_dir, mappings))
 
     items: dict = {}
     stats = Counter()

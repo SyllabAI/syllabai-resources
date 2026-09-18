@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T10:43:58Z",
- "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-18T11:47:23Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess)",
  "counts": {
   "ids": 120,
-  "resolved": 80,
-  "unresolved": 40
+  "resolved": 116,
+  "unresolved": 4
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -44,8 +44,15 @@
    "sme_name": "Industrial Synthesis of Ethanol",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.30, runner-up 0.28); note-coverage rescue not decisive"
+   "resolved_code": "8.4C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:8.4C",
+   "official_wording": "know that ethanol can be manufactured by:",
+   "tier": "V2_note_verbatim",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": "twin: 8.5C (fermentation conditions) — different route; note section is specifically 'Hydration of ethene'",
+   "recheck": null
   },
   {
    "id": "spcpt_4Qz3GhHWYT9DYVrZ",
@@ -72,8 +79,15 @@
    "sme_name": "Covalent Bonds: Dot & Cross Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 15,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.51, runner-up 0.47); note-coverage rescue not decisive"
+   "resolved_code": "5.10",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:5.10",
+   "official_wording": "understand how to use dot-and-cross diagrams to represent covalent bonds in:",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts ask to complete/draw dot-and-cross diagrams (methanol, BF3, hydrogen)"
   },
   {
    "id": "spcpt_5N47DMRxQDKH2886",
@@ -110,8 +124,15 @@
    "sme_name": "Reaction Profiles",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.51, runner-up 0.48); note-coverage rescue not decisive"
+   "resolved_code": "7.6C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:7.6C",
+   "official_wording": "draw and explain reaction profile diagrams showing Δ H and activation energy",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": "twin: 3.5C (energy level diagrams) — same skill in energy-level language; id name and note title say 'reaction profiles'",
+   "recheck": null
   },
   {
    "id": "spcpt_6MDHMySrg98kKbZM",
@@ -133,16 +154,30 @@
    "sme_name": "Formation of Ions",
    "sme_definition": "",
    "referenced_by_parts": 11,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.59, runner-up 0.57); note-coverage rescue not decisive"
+   "resolved_code": "5.1",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:5.1",
+   "official_wording": "understand how ions are formed by electron loss or gain",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "note-coverage 0.78 clear margin; parts on electronic configurations and ion formation"
   },
   {
    "id": "spcpt_7jg5zgWzPQsFCy2g",
    "sme_name": "Drawing Polymers",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.45, runner-up 0.44); note-coverage rescue not decisive"
+   "resolved_code": "8.17",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:8.17",
+   "official_wording": "understand how to draw the repeat unit of an addition polymer, including poly(ethene), poly(propene), poly(chloroethene) and (poly)tetrafluoroethene",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts ask to complete/draw repeat units"
   },
   {
    "id": "spcpt_8scGmHM9tM7jcpHt",
@@ -164,16 +199,30 @@
    "sme_name": "Composition of Air",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.57, runner-up 0.35); note-coverage rescue not decisive"
+   "resolved_code": "6.9",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:6.9",
+   "official_wording": "know the approximate percentages by volume of the four most abundant gases in dry air",
+   "tier": "V2_note_verbatim",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "note gives the N2/O2/trace composition verbatim; no candidate in the stage-1 top-6 was a composition statement because 'percentages' vs 'proportions' tokenises apart — identity is nonetheless exact"
   },
   {
    "id": "spcpt_Bkz2pSbQCdrF75dF",
    "sme_name": "Measuring Rates",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.24, runner-up 0.13); note-coverage rescue not decisive"
+   "resolved_code": "7.1",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:7.1",
+   "official_wording": "describe experiments to investigate the effects of changes in surface area of a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction",
+   "tier": "V2_note_verbatim",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "note sentence is verbatim 7.1; note then gives the marble-chips and thiosulfate methods"
   },
   {
    "id": "spcpt_C5fZhY9hS6GpDBFZ",
@@ -215,8 +264,15 @@
    "sme_name": "Finding the Percentage of Oxygen",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.59, runner-up 0.55); note-coverage rescue not decisive"
+   "resolved_code": "6.14",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
+   "official_wording": "practical: determine the approximate percentage by volume of oxygen in air using a metal or a non-metal",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": "twin: 6.10 (rusting-specific understanding) — note wording 'a metal or a non-metal' is 6.14's phrasing; 6.10 also held for the same parts",
+   "recheck": null
   },
   {
    "id": "spcpt_G6KnVryGR4gKvqJ3",
@@ -353,8 +409,15 @@
    "sme_name": "Ionic Bonds: Dot & Cross Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.41, runner-up 0.37); note-coverage rescue not decisive"
+   "resolved_code": "5.4",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:5.4",
+   "official_wording": "draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer, limited to combinations of elements from Groups 1, 2, 3 and 5, 6, 7 only outer electrons need be shown",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts are LiF / Na2O dot-and-cross items"
   },
   {
    "id": "spcpt_SYW8CX7tzPPgy3Vk",
@@ -381,8 +444,15 @@
    "sme_name": "Catalysts & Dynamic Equilibrium",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.52, runner-up 0.52); note-coverage rescue not decisive"
+   "resolved_code": "7.13C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:7.13C",
+   "official_wording": "understand why a catalyst does not affect the position of equilibrium in a reversible reaction",
+   "tier": "V3_convergent",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "part 'Describe the effect, if any, of using a catalyst' on the position of equilibrium is 7.13C verbatim; coverage 0.77 clear margin"
   },
   {
    "id": "spcpt_TYHtv8DTDMCHB2Ct",
@@ -449,8 +519,15 @@
    "sme_name": "Deducing Monomers & Repeat Units",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.49, runner-up 0.46); note-coverage rescue not decisive"
+   "resolved_code": "8.18",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:8.18",
+   "official_wording": "understand how to deduce the structure of a monomer from the repeat unit of an addition polymer and vice versa",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": null
   },
   {
    "id": "spcpt_WsTzNt439ZnJ84Rw",
@@ -472,16 +549,30 @@
    "sme_name": "Common Ions",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.48, runner-up 0.45); note-coverage rescue not decisive"
+   "resolved_code": "5.2",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:5.2",
+   "official_wording": "know the charges of these ions:",
+   "tier": "V3_convergent",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts deduce formulae/charges (Pb(NO3)2, ammonium, potassium sulfate) straight from the 5.2 ion list"
   },
   {
    "id": "spcpt_YMhbzkT2NJJP32NN",
    "sme_name": "Explaining Rates",
    "sme_definition": "",
    "referenced_by_parts": 15,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.32, runner-up 0.32); note-coverage rescue not decisive"
+   "resolved_code": "7.3",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:7.3",
+   "official_wording": "explain the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "id name 'Explaining Rates' = 7.3's 'explain' (7.2 'describe the effects' is the twin); all parts are explain-type"
   },
   {
    "id": "spcpt_YwtwZ9gmdxhRKSQy",
@@ -503,8 +594,15 @@
    "sme_name": "Catalysts & Rates",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.30, runner-up 0.30); note-coverage rescue not decisive"
+   "resolved_code": "7.5",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:7.5",
+   "official_wording": "know that a catalyst works by providing an alternative pathway with lower activation energy",
+   "tier": "V3_convergent",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "part 'Explain how a catalyst increases the rate of a reaction' targets the mechanism (7.5); 7.4 (definition) is the twin and is fully contained in the same note"
   },
   {
    "id": "spcpt_cfGb4JXVXgz4CcMZ",
@@ -541,16 +639,30 @@
    "sme_name": "Oxidation of Ethanol",
    "sme_definition": "",
    "referenced_by_parts": 16,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.56, runner-up 0.53); note-coverage rescue not decisive"
+   "resolved_code": "8.3C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:8.3C",
+   "official_wording": "know that ethanol can be oxidised by:",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": null
   },
   {
    "id": "spcpt_dgXNhDfskPcgNjBz",
    "sme_name": "Anions & Cations",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.47, runner-up 0.45); note-coverage rescue not decisive"
+   "resolved_code": "5.21C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:5.21C",
+   "official_wording": "know that anion and cation are terms used to refer to negative and positive ions respectively",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": null
   },
   {
    "id": "spcpt_fjRfsM8SMQNhYQMh",
@@ -617,8 +729,15 @@
    "sme_name": "The Greenhouse Effect",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.60, runner-up 0.59); note-coverage rescue not decisive"
+   "resolved_code": "6.13",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:6.13",
+   "official_wording": "know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": null
   },
   {
    "id": "spcpt_jnwGvkbjjvrcqcYX",
@@ -775,8 +894,15 @@
    "sme_name": "Writing Half-Equations",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.47, runner-up 0.17); note-coverage rescue not decisive"
+   "resolved_code": "5.23C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:5.23C",
+   "official_wording": "write ionic half-equations representing the reactions at the electrodes during electrolysis and understand why these reactions are classified as oxidation or reduction",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "u2 stage-1 best 0.47 vs runner-up 0.17 — the winner was 5.23C below the 0.50 safe threshold, not contested"
   },
   {
    "id": "spcpt_tDY3WYgtfprPmHsQ",
@@ -958,8 +1084,15 @@
    "sme_name": "Arrangement of the Periodic Table",
    "sme_definition": null,
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.66, runner-up 0.66); note-coverage rescue not decisive"
+   "resolved_code": "1.18",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.18",
+   "official_wording": "understand how elements are arranged in the Periodic Table:",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "note-coverage 0.88 clear margin"
   },
   {
    "id": "spcpt_6M5CVSK7tzZcFR2d",
@@ -967,7 +1100,7 @@
    "sme_definition": null,
    "referenced_by_parts": 8,
    "resolved_code": null,
-   "reason": "no SME statement text available in committed corpora (cross-cutting id; never guessed)"
+   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id; confirmed again this round: zero note anchors, zero registry hits) — no target statement exists to join to; parts stay uncoded by design"
   },
   {
    "id": "spcpt_9xcymXBvxP7dN5Tp",
@@ -1069,24 +1202,45 @@
    "sme_name": "Formulae of Simple Compounds by Experiment",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.69, runner-up 0.62); note-coverage rescue not decisive"
+   "resolved_code": "1.31",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.31",
+   "official_wording": "understand how the formulae of simple compounds can be obtained experimentally, including metal oxides, water and salts containing water of crystallisation",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts are experiment-to-formula determinations (value of x, hydrated copper sulfate)"
   },
   {
    "id": "spcpt_JcxxdPq5PH9yPDWb",
    "sme_name": "Formation of Nitrogen Oxides",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.54, runner-up 0.49); note-coverage rescue not decisive"
+   "resolved_code": "4.14",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:4.14",
+   "official_wording": "know that, in car engines, the temperature reached is high enough to allow nitrogen and oxygen from air to react, forming oxides of nitrogen",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "id name 'Formation of Nitrogen Oxides' = 4.14's formation process; 4.16 (acid rain) is the downstream effect and has its own content elsewhere in the note corpus"
   },
   {
    "id": "spcpt_K5SR7p9cSGxhrBCP",
    "sme_name": "Key Terms",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.58, runner-up 0.57); note-coverage rescue not decisive"
+   "resolved_code": "1.16",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.16",
+   "official_wording": "know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass ( A r )",
+   "tier": "V2_note_verbatim",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "note heading 'Calculating protons, neutrons and electrons'; parts on isotopes (gallium-69/71); coverage 0.85 clear margin"
   },
   {
    "id": "spcpt_Nn2WpfktWGZVwD36",
@@ -1123,16 +1277,30 @@
    "sme_name": "Writing Equations",
    "sme_definition": null,
    "referenced_by_parts": 20,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.49, runner-up 0.45); note-coverage rescue not decisive"
+   "resolved_code": "1.25",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.25",
+   "official_wording": "write word equations and balanced chemical equations (including state symbols):",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts all ask to write/complete equations (copper carbonate, tungsten, manganese, tin)"
   },
   {
    "id": "spcpt_Rf7s6s9Bmf7yTqGC",
    "sme_name": "Bases",
    "sme_definition": null,
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.75, runner-up 0.72); note-coverage rescue not decisive"
+   "resolved_code": "2.24",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:2.24",
+   "official_wording": "know that metal oxides, metal hydroxides and ammonia can act as bases, and that alkalis are bases that are soluble in water",
+   "tier": "V2_note_verbatim",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "stage-1 cross-unit scores 0.75 vs 0.72 were between 2.24 and 2.17; the note's definition of bases as neutralising substances is 2.24's subject"
   },
   {
    "id": "spcpt_RjYfRNttk4X4yw2w",
@@ -1169,16 +1337,30 @@
    "sme_name": "Representing Organic Compounds",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.50, runner-up 0.43); note-coverage rescue not decisive"
+   "resolved_code": "4.2",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:4.2",
+   "official_wording": "understand how to represent organic molecules using empirical formulae, molecular formulae, general formulae, structural formulae and displayed formulae",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "id name 'Representing Organic Compounds' is 4.2 verbatim; 4.1's higher coverage is leakage from the wide intro section"
   },
   {
    "id": "spcpt_V9H9Mf3M3rkf64M7",
    "sme_name": "Bond Energy Calculations",
    "sme_definition": null,
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.42, runner-up 0.42); note-coverage rescue not decisive"
+   "resolved_code": "3.7C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:3.7C",
+   "official_wording": "use bond energies to calculate the enthalpy change during a chemical reaction",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "coverage 0.85 clear margin; parts are bond-energy calculations"
   },
   {
    "id": "spcpt_VTXRmNZhfK7NZmBR",
@@ -1201,7 +1383,7 @@
    "sme_definition": null,
    "referenced_by_parts": 7,
    "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.84, runner-up 0.80); note-coverage rescue not decisive"
+   "reason": "operator-confirmed pending (T-SPEC-2b): topic-family id: the note verbatim covers 4.23 (functional group >C=C<), 4.24 (general formula CnH2n) and 4.25 (unsaturated classification) simultaneously; stage-1 0.84 vs 0.80 non-decisive and the sidecar schema carries one code per id — refusing to collapse a three-statement family onto one statement; no-guess refusal stands"
   },
   {
    "id": "spcpt_Wy4ZGtw52sFZDBYb",
@@ -1238,8 +1420,15 @@
    "sme_name": "Calculate Volumes of Gases",
    "sme_definition": null,
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.50, runner-up 0.44); note-coverage rescue not decisive"
+   "resolved_code": "1.35C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.35C",
+   "official_wording": "understand how to carry out calculations involving gas volumes and the molar volume of a gas (24 dm 3 and 24 000 cm 3 at room temperature and pressure (rtp))",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": null
   },
   {
    "id": "spcpt_ZfpZfvp36mHB7vrb",
@@ -1277,7 +1466,7 @@
    "sme_definition": null,
    "referenced_by_parts": 1,
    "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.67, runner-up 0.45); note-coverage rescue not decisive"
+   "reason": "operator-confirmed pending (T-SPEC-2b): registry has no molar-enthalpy statement (grep 'molar enthalpy': 0 hits); the note's step-1 Q=mcΔT content matches 3.3 but the id's subject is ΔH = Q/n (kJ/mol), for which no registry target exists; mapping to 3.3 would mislabel the id's subject; no-guess refusal stands"
   },
   {
    "id": "spcpt_bv3zyZcvQJ7MBMbc",
@@ -1285,7 +1474,7 @@
    "sme_definition": null,
    "referenced_by_parts": 3,
    "resolved_code": null,
-   "reason": "no SME statement text available in committed corpora (cross-cutting id; never guessed)"
+   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
   },
   {
    "id": "spcpt_cDpPpsjdVC9SwrRm",
@@ -1322,16 +1511,30 @@
    "sme_name": "Two Colour Indicators",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.31, runner-up 0.29); note-coverage rescue not decisive"
+   "resolved_code": "2.14",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:2.14",
+   "official_wording": "describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic and alkaline solutions",
+   "tier": "V3_convergent",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts identify litmus/phenolphthalein/methyl orange colours — the exact 2.14 indicator set"
   },
   {
    "id": "spcpt_cxQqxK2vSZdd9wqw",
    "sme_name": "Exothermic & Endothermic",
    "sme_definition": null,
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.82, runner-up 0.79); note-coverage rescue not decisive"
+   "resolved_code": "3.1",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:3.1",
+   "official_wording": "know that chemical reactions in which heat energy is given out are described as exothermic, and those in which heat energy is taken in are described as endothermic",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "part asks 'The Haber process is exothermic. What is meant by...' — the 3.1 definition"
   },
   {
    "id": "spcpt_fKJSjfnQfF4ZKppg",
@@ -1398,8 +1601,15 @@
    "sme_name": "Moles-Mass Calculations",
    "sme_definition": null,
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.41, runner-up 0.41); note-coverage rescue not decisive"
+   "resolved_code": "1.28",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.28",
+   "official_wording": "understand how to carry out calculations involving amount of substance, relative atomic mass ( A r ) and relative formula mass ( M r )",
+   "tier": "V3_convergent",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts are mole-mass calculations (Al mass, gypsum water of crystallisation, alkene oxygen uptake); 1.17's higher coverage is isotopic-abundance leakage"
   },
   {
    "id": "spcpt_kTY9CHD6JdNZF6pJ",
@@ -1451,8 +1661,15 @@
    "sme_name": "Calculate Concentrations of Solutions",
    "sme_definition": null,
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.49, runner-up 0.43); note-coverage rescue not decisive"
+   "resolved_code": "1.34C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.34C",
+   "official_wording": "understand how to carry out calculations involving amount of substance, volume and concentration (in mol/dm 3 ) of solution",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": null
   },
   {
    "id": "spcpt_v4wDDDCTbN5fZ7gp",
@@ -1489,8 +1706,15 @@
    "sme_name": "Neutralisation",
    "sme_definition": null,
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.77, runner-up 0.74); note-coverage rescue not decisive"
+   "resolved_code": "2.18",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:2.18",
+   "official_wording": "know that alkalis can neutralise acids",
+   "tier": "V2_note_verbatim",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "2.18 is the only neutralisation statement in the registry (grep 'neutralis' hits 2.18 plus calorimetry practicals 3.2/3.8); the note's H+ + OH- mechanism detail exceeds 2.18 but has no richer registry target"
   },
   {
    "id": "spcpt_xPYYksrdQFdytpXw",
@@ -1512,32 +1736,60 @@
    "sme_name": "Calculate Relative Atomic Mass",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.85, runner-up 0.82); note-coverage rescue not decisive"
+   "resolved_code": "1.17",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.17",
+   "official_wording": "be able to calculate the relative atomic mass of an element ( A r ) from isotopic abundances",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts calculate Ar for chlorine (35/37) and bromine (79/81)"
   },
   {
    "id": "spcpt_yXVRVdm4cWSDJfNp",
    "sme_name": "Prepare an Insoluble Salt",
    "sme_definition": null,
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.81, runner-up 0.81); note-coverage rescue not decisive"
+   "resolved_code": "2.27C",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:2.27C",
+   "official_wording": "describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "2.25's marginally higher coverage is the soluble-salt variant tokenising on 'soluble' — the id and note are the insoluble-salt preparation"
   },
   {
    "id": "spcpt_ydpF4fgzh754tqJD",
    "sme_name": "Fractional Distillation",
    "sme_definition": null,
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.81, runner-up 0.77); note-coverage rescue not decisive"
+   "resolved_code": "1.10",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:1.10",
+   "official_wording": "describe these experimental techniques for the separation of mixtures:",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "parts separate ethanol mixtures by fractional distillation"
   },
   {
    "id": "spcpt_ypQ8qSNhpMrDGsD9",
    "sme_name": "Classifying Organic Reactions",
    "sme_definition": null,
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "cross-unit winner not decisive (best 0.62, runner-up 0.40); note-coverage rescue not decisive"
+   "resolved_code": "4.6",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:4.6",
+   "official_wording": "understand how to classify reactions of organic compounds as substitution, addition and combustion knowledge of reaction mechanisms is not required",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "4.12's higher coverage is 'combustion' token leakage; 4.6 is the classification statement itself"
   },
   {
    "id": "spcpt_zg4nk7dkKrxDrBP9",

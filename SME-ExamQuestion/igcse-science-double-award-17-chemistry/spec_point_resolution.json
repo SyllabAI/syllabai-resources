@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T10:43:58Z",
- "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-18T11:47:23Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess)",
  "counts": {
   "ids": 121,
-  "resolved": 119,
-  "unresolved": 2
+  "resolved": 120,
+  "unresolved": 1
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -1009,8 +1009,15 @@
    "sme_name": "Empirical & Molecular Formulae",
    "sme_definition": "know what is meant by the terms empirical formula and molecular formula",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "below safe join threshold (best 0.78, runner-up 0.76); note-coverage rescue not decisive"
+   "resolved_code": "1.32",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Chemistry-1.32",
+   "official_wording": "know what is meant by the terms ‘empirical formula’ and ‘molecular formula’",
+   "tier": "V1_name_or_definition_exact",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2b; PMT excluded as source per operator instruction 2026-09-18)",
+   "unit": null,
+   "flag": null,
+   "recheck": "SME definition string is the statement verbatim (smart quotes aside); stage-1's 1.14 win (0.78 vs 0.70) was 'atom/molecule' token leakage"
   },
   {
    "id": "spcpt_bKYSYQ7n4r723Grz",
@@ -1413,7 +1420,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "below safe join threshold (best 0.55, runner-up 0.53); note-coverage rescue not decisive"
+   "reason": "operator-confirmed pending (T-SPEC-2b): SME id has an empty note anchor ('##' only), zero referencing parts and zero coverage against every registry statement — no evidence of any kind exists; no-guess refusal stands"
   },
   {
    "id": "spcpt_nVCMXqX9pPTJH7ZN",
