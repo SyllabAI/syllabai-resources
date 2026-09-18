@@ -24,6 +24,13 @@ meta:
   forward_contract: chunk identity (note_slug, ordinal, heading, sha256_16 of chunk text) must survive
     T-C06 ingestion — the converter/ChunkingService must reproduce this convention or the rows fail closed
     at join time
+  promotion_applied: '2026-09-18'
+  promoted_rows: 210
+  promotion_apply: scripts/c13_apply_promotion.py@1.0.0
+  promotion_gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100%; Part B 13/13 decided)
+  promotion_reverification: all anchored rows G4-verified mechanically at apply time
+  supplementary_rows_added: 1
+  apply_record: graph/reports/C13_APPLY_RECORD.json
 rows:
 - mapping_id: efc19a2773331632
   spec_code: 4CH1-1.1
@@ -61,7 +68,13 @@ rows:
   rationale: Teaches the three states with a properties table (arrangement, movement, closeness per state)
     and the particle model; energy of particles is taught in the state-change sections (energy changes
     on melting/boiling).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 4eba57c7ca7345b0
   spec_code: 4CH1-1.2
   sp_title: 'understand the interconversions between the three states of matter in terms of: • the names
@@ -98,7 +111,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Full interconversion set: melting, boiling/evaporation, freezing, condensation, sublimation
     with how each is achieved.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 821fc1fc53a5449e
   spec_code: 4CH1-1.3
   sp_title: understand how the results of experiments involving the dilution of coloured solutions and
@@ -130,7 +149,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Covers diffusion experiments in gases and liquids AND the dilution of coloured solutions
     (note title/headings: Diffusion and dilution) with kinetic-theory explanations.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b19914724c77e3fa
   spec_code: 4CH1-1.5C
   sp_title: know what is meant by the term solubility in the units g per 100 g of solvent
@@ -163,7 +188,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Practical's calculation section converts measured masses into solubility in g per 100 g of
     water.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b424bbccab77d61b
   spec_code: 4CH1-1.7C
   sp_title: 'practical: investigate the solubility of a solid in water at a specific temperature'
@@ -197,7 +228,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: saturated solution preparation, temperature control, evaporation,
     mass measurement.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 2bda03c3bc0bbd2a
   spec_code: 4CH1-1.4
   sp_title: 'know what is meant by the terms: • solvent • solute • solution • saturated solution.'
@@ -229,7 +266,13 @@ rows:
   rationale: Teaches the solvent term definitionally in context ('the liquid is called the solvent') and
     uses solute / saturated solution operationally in the solubility-curve discussion; the Solutions note
     carries the four 1.4 term definitions as a separate mapping - contributory coverage, not sole coverage.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b299ae1aee268734
   spec_code: 4CH1-1.5C
   sp_title: know what is meant by the term solubility in the units g per 100 g of solvent
@@ -260,7 +303,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Defines solubility in the g-per-100g unit and its dependence on temperature/pressure for
     solids vs gases.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 463718e6086f4205
   spec_code: 4CH1-1.6C
   sp_title: understand how to plot and interpret solubility curves
@@ -291,7 +340,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section on solubility curves with worked example on plotting/interpreting.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 41a412a553a4ddd4
   spec_code: 4CH1-1.4
   sp_title: 'know what is meant by the terms: • solvent • solute • solution • saturated solution.'
@@ -322,7 +377,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Terms table defining solvent, solute, solution and saturated solution (quoted row: saturated
     solution).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1700f4024962b91e
   spec_code: 4CH1-1.8
   sp_title: understand how to classify a substance as an element,compound or mixture
@@ -354,7 +415,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Definitions and particle diagrams for elements, compounds and mixtures.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 090e2bd653638ac3
   spec_code: 4CH1-1.11
   sp_title: understand how a chromatogram provides information about the composition of a mixture
@@ -388,7 +455,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Whole note is chromatogram interpretation: pure vs impure spots, reference compounds, number
     of components.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3e6b6d8628103928
   spec_code: 4CH1-1.12
   sp_title: understand how to use the calculation of $ R_{f} $ values to identify the components of a
@@ -422,7 +495,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated Rf Values section with the defining equation and a worked example used to identify
     components.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: cabb0bb60b6450dd
   spec_code: 4CH1-1.10
   sp_title: 'describe these experimental techniques for the separation of mixtures: 简单 distillation fractional
@@ -457,7 +536,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Paper chromatography is one of the five separation techniques listed in 1.10; the technique
     note is the generic one, this is the practical instance.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1acca8522fa2dbfc
   spec_code: 4CH1-1.13
   sp_title: 'practical: investigate paper chromatography using inks/food colourings'
@@ -490,7 +575,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical (inks/food colourings): aim, apparatus, method, errors, results.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 4f0395b2be9843a0
   spec_code: 4CH1-1.8
   sp_title: understand how to classify a substance as an element,compound or mixture
@@ -523,7 +614,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Reinforces element/compound/mixture classification from the purity angle.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 405f2f988f271154
   spec_code: 4CH1-1.9
   sp_title: understand that a pure substance has a fixed melting and boiling point,but that a mixture
@@ -556,7 +653,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Pure vs mixture distinguished by sharp vs ranged melting/boiling points, with the water example.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 743c5006b4685a93
   spec_code: 4CH1-1.10
   sp_title: 'describe these experimental techniques for the separation of mixtures: 简单 distillation fractional
@@ -590,7 +693,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'All five named techniques have dedicated sections: simple distillation, fractional distillation,
     filtration, crystallisation, paper chromatography.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 733a82450231f4c2
   spec_code: 4CH1-1.14
   sp_title: know what is meant by the terms atom and molecule
@@ -623,7 +732,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Atom and molecule definitions table (quoted: Atom row); Molecule row also present.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: da8ee6fc86294d27
   spec_code: 4CH1-1.15
   sp_title: know the structure of an atom in terms of the positions, relative masses and relative charges
@@ -657,7 +772,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Subatomic particle positions plus the mass/charge table; includes calculating protons/neutrons/electrons.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c3d3cb1a632c338b
   spec_code: 4CH1-1.16
   sp_title: know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass
@@ -692,7 +813,13 @@ rows:
   rationale: The terms table defines all four 1.16 terms - atomic number, mass number, isotope and relative
     atomic mass (the quoted Ar row, incl. the carbon-12 standard); the calculation of Ar from isotopic
     abundances is 1.17's content in the dedicated RAM note.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fccd567f899f5cb7
   spec_code: 4CH1-1.16
   sp_title: know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass
@@ -727,7 +854,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Explains the meaning of the relative atomic mass term (1.16 vocabulary) in the course of
     the calculation note.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 468d34f6c6410dcf
   spec_code: 4CH1-1.17
   sp_title: be able to calculate the relative atomic mass of an element $ A_{r} $ from isotopic abundances
@@ -760,7 +893,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Ar-from-isotopic-abundances equation with multi-isotope worked examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 359e16e1155a2612
   spec_code: 4CH1-1.22
   sp_title: understand how the electronic configuration of a main group element is related to its position
@@ -794,7 +933,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Group-number-to-outer-electrons rule links main-group position to electronic configuration.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: bda37e5ab58e8494
   spec_code: 4CH1-1.23
   sp_title: understand why elements in the same group of the Periodic Table have similar chemical properties
@@ -827,7 +972,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Explains same-group similarity via identical outer-electron counts and gives the group-reactivity
     prediction rule.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c4ea0f483528058d
   spec_code: 4CH1-1.24
   sp_title: understand why the noble gases(Group0)do not readily react
@@ -860,7 +1011,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) on Group 0 having full outer shells and thus low reactivity;
     helium exception discussed.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1a860343dcaaaab6
   spec_code: 4CH1-1.19
   sp_title: understand how to deduce the electronic configurations of the first 20 elements from their
@@ -896,7 +1053,13 @@ rows:
   rationale: Shell-filling rules, electron shell diagrams and the first-20 configurations table, plus
     the position-to-configuration relationship section (period = occupied shells, group = outer electrons,
     chlorine worked example) that carries the deduction-from-position skill.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 64f9df24c07a6b64
   spec_code: 4CH1-1.22
   sp_title: understand how the electronic configuration of a main group element is related to its position
@@ -930,7 +1093,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) relating configuration to Periodic Table position, incl.
     the worked chlorine-position example.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 588356742ad67cd7
   spec_code: 4CH1-1.20
   sp_title: understand how to use electrical conductivity and the acid-base character of oxides to classify
@@ -965,7 +1134,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Properties comparison table: electrical conductivity, oxide acid-base character, plus bonding
     and acid reactions.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: d4e18e3b51757e88
   spec_code: 4CH1-1.21
   sp_title: identify an element as a metal or a non-metal according to its position in the Periodic Table
@@ -997,7 +1172,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Position-based identification of metals vs non-metals with the left/right rule.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0368654b93432337
   spec_code: 4CH1-1.18
   sp_title: understand how elements are arranged in the Periodic Table： •in order of atomic number •in
@@ -1030,7 +1211,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Arrangement in atomic-number order and in columns called groups and rows called periods.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: e8d5cd6981b39a20
   spec_code: 4CH1-1.35C
   sp_title: understand how to carry out calculations involving gas volumes and the molar volume of a gas(24dm3and24000cm3at
@@ -1064,7 +1251,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Molar volume 24 dm3 / 24000 cm3 at RTP, Avogadro's Law, mole-to-volume and volume-to-mole
     conversions with worked examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 82a5d1b85433bd88
   spec_code: 4CH1-1.26
   sp_title: calculate relative formula masses(including relative molecular masses) $ (M_{r}) $ from relative
@@ -1098,7 +1291,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Ar/Mr symbols and Mr calculation by summing atomic masses, with the worked table of substances.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: cdb1fb15303aff4a
   spec_code: 4CH1-1.30
   sp_title: calculate percentage yield
@@ -1130,7 +1329,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Actual vs theoretical yield, why yields are never 100%, and the percentage-yield calculation.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5eeb9106cbec97b7
   spec_code: 4CH1-1.27
   sp_title: know that the mole(mol) is the unit for the amount of a substance
@@ -1162,7 +1367,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'The mole as the unit of amount: mol symbol, Avogadro constant, particles-per-mole examples.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: ad71e6d01a40cc1a
   spec_code: 4CH1-1.28
   sp_title: understand how to carry out calculations involving amount of substance, relative atomic mass
@@ -1196,7 +1407,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Amount-of-substance calculations: molar mass from Ar/Mr, mole-mass conversions, multiple
     worked examples.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 46060f2a1a0ad316
   spec_code: 4CH1-1.31
   sp_title: understand how the formulae of simple compounds can be obtained experimentally, including
@@ -1230,7 +1447,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) on deducing formulae of salts containing water of crystallisation
     — the 1.31 content strand.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a459e481df18760d
   spec_code: 4CH1-1.32
   sp_title: know what is meant by the terms empirical formula and molecular formula
@@ -1263,7 +1486,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Defines both terms with the ethanoic-acid worked contrast and ionic-compound note.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 385a4bd9fbb7a1af
   spec_code: 4CH1-1.33
   sp_title: calculate empirical and molecular formulae from experimental data
@@ -1296,7 +1525,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Step-by-step empirical formula determination from mass/percentage data plus molecular formula
     from Mr, with worked examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: ac2e1bb01b2ac2b5
   spec_code: 4CH1-1.31
   sp_title: understand how the formulae of simple compounds can be obtained experimentally, including
@@ -1330,7 +1565,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Experimental formula determination for the metal-oxide family named in 1.31 (same note, same
     evidence, different point).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: d0ec1d80cc35f9f5
   spec_code: 4CH1-1.33
   sp_title: calculate empirical and molecular formulae from experimental data
@@ -1362,7 +1603,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The results tables feed empirical-formula calculations from experimental data.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a5d74e80f15d436e
   spec_code: 4CH1-1.36
   sp_title: practical:know how to determine the formula of a metal oxide by combustion(e.g.magnesium oxide)or
@@ -1396,7 +1643,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: Mg combustion AND copper(II) oxide reduction variants with
     method, results, calculations.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 455982a467678c0d
   spec_code: 4CH1-1.25
   sp_title: write word equations and balanced chemical equations(including state symbols):for reactions
@@ -1429,7 +1682,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) on deducing balanced equations from reacting-mass data.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0095cca6eca398bf
   spec_code: 4CH1-1.28
   sp_title: understand how to carry out calculations involving amount of substance, relative atomic mass
@@ -1464,7 +1723,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The mole-to-gram bridge using Ar/Mr is the note's core computational tool.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 683c0a869164669b
   spec_code: 4CH1-1.29
   sp_title: calculate reacting masses using experimental data and chemical equations
@@ -1497,7 +1762,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Reacting-mass calculations via balanced-equation ratios with multiple worked examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6237a676533669c7
   spec_code: 4CH1-1.31
   sp_title: understand how the formulae of simple compounds can be obtained experimentally, including
@@ -1532,7 +1803,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Experimental formula determination principle plus the hydrated-copper-sulfate heating experiment
     (water of crystallisation named in 1.31).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 621bea46ac868d32
   spec_code: 4CH1-1.33
   sp_title: calculate empirical and molecular formulae from experimental data
@@ -1565,7 +1842,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Mass-change-to-mole-to-empirical-formula deduction chain.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5f7973f6c8ff816c
   spec_code: 4CH1-1.34C
   sp_title: understand how to carry out calculations involving amount of substance, volume and concentration(in
@@ -1599,7 +1882,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Concentration in g/dm3 and mol/dm3, cm3-to-dm3 conversions, and amount-of-substance/volume/concentration
     calculations with worked examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 021db80957ba74cc
   spec_code: 4CH1-1.25
   sp_title: write word equations and balanced chemical equations(including state symbols):for reactions
@@ -1633,7 +1922,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Word equations, formulae and balanced chemical equations (with state symbols in worked examples),
     conservation of mass.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f20abb79c9d989b5
   spec_code: 4CH1-1.37
   sp_title: understand how ions are formed by electron loss or gain
@@ -1665,7 +1960,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Charge-deduction rule via outer-electron loss or gain supports the 1.37 mechanism.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f3695673264181a6
   spec_code: 4CH1-1.38
   sp_title: 'know the charges of these ions: •metals in Groups 1,2 and 3 •non-metals in Groups 5,6 and
@@ -1699,7 +2000,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Charges table for the specified ions: Groups 1/2/3 metals, Groups 5/6/7 non-metals, the
     named metal ions, and the compound ions incl. OH-, NH4+, CO32-, NO3-, SO42- (quoted section heading).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: bdb3d073b54a8ab6
   spec_code: 4CH1-1.37
   sp_title: understand how ions are formed by electron loss or gain
@@ -1732,7 +2039,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Cation/anion formation by electron loss/gain for Groups 1-3 and 5-7.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 44111df01b248d5e
   spec_code: 4CH1-1.39
   sp_title: write formulae for compounds formed between the ions listed above
@@ -1766,7 +2079,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Direct-comparison and swap-and-drop methods for writing formulae from the listed ions (Fe2+,
     sulfate etc.).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0accf11c63efe872
   spec_code: 4CH1-1.41
   sp_title: understand ionic bonding in terms of electrostatic attractions
@@ -1800,7 +2119,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Ionic bonding as electrostatic attraction, giant lattice description, NaCl lattice diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b1e8adc64cd01cf9
   spec_code: 4CH1-1.42
   sp_title: understand why compounds with giant ionic lattices have high melting and boiling points
@@ -1833,7 +2158,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: High m.p./b.p. of giant ionic lattices explained by strong electrostatic forces needing much
     energy.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5f4b3dd516e7bbd3
   spec_code: 4CH1-1.43
   sp_title: know that ionic compounds do not conduct electricity when solid，but do conduct electricity
@@ -1869,7 +2200,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Conductivity section: poor conductors when solid, conduct when molten or in aqueous solution.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 82e801fd481b4173
   spec_code: 4CH1-1.37
   sp_title: understand how ions are formed by electron loss or gain
@@ -1902,7 +2239,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Electron-transfer narration reinforces ion formation by loss/gain.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 14fb3e4b2cae9a20
   spec_code: 4CH1-1.40
   sp_title: draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer，limited
@@ -1936,7 +2279,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dot-and-cross diagrams for ionic formation by electron transfer (NaCl, MgO; Groups 1/2 with
     6/7), brackets and charges, outer electrons only.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 269a3a6244467103
   spec_code: 4CH1-1.46
   sp_title: 'understand how to use dot-and-cross diagrams to represent covalent bonds in: • diatomic molecules,
@@ -1972,7 +2321,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Covers the full 1.46 molecule list by section: diatomics (H2, O2, N2, halogens, HCl), inorganic
     (H2O, NH3, CO2) and organics up to two carbons (methane, ethane, ethene, halogenated).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c19522ec2b588abb
   spec_code: 4CH1-1.44
   sp_title: know that a covalent bond is formed between atoms by the sharing of a pair of electrons
@@ -2004,7 +2359,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Covalent bond as a shared electron pair between non-metals; bonding vs lone-pair electrons.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c937c0ad6ff25a26
   spec_code: 4CH1-1.45
   sp_title: understand covalent bonds in terms of electrostatic attractions
@@ -2037,7 +2398,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated Electrostatic attractions section explaining the covalent bond in those terms.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b1a16b57d95e6bbc
   spec_code: 4CH1-1.49
   sp_title: explain why substances with giant covalent structures are solids with high melting and boiling
@@ -2070,7 +2437,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Explains high m.p. of giant covalent lattices via strong covalent bonds requiring much energy.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: beaa103e0a21f1cc
   spec_code: 4CH1-1.50
   sp_title: explain how the structures of diamond, graphite and C60 fullerene influence their physical
@@ -2105,7 +2478,13 @@ rows:
   rationale: Structure-to-properties for diamond (rigid network, hard, high m.p.) and graphite (layers,
     free electron, soft/slippery, conducts) — the 1.50 core content; C60 fullerene handled in the simple-molecular
     note.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: d62d203365da149d
   spec_code: 4CH1-1.47
   sp_title: explain why substances with a simple molecular structures are gases or liquids, or solids
@@ -2141,7 +2520,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Weak intermolecular forces explain gases/liquids/solids-with-low-mp for simple molecular
     substances.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0da444cada44b2f0
   spec_code: 4CH1-1.48
   sp_title: explain why the melting and boiling points of substances with simple molecular structures
@@ -2176,7 +2561,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated Melting and boiling point patterns section relating m.p./b.p. to relative molecular
     mass.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1b13354e9a0874e3
   spec_code: 4CH1-1.50
   sp_title: explain how the structures of diamond, graphite and C60 fullerene influence their physical
@@ -2210,7 +2601,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: C60 fullerene section of 1.50 lives here (hollow cage, does not conduct); diamond/graphite
     are in the giant-covalent note.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1d6266e5f94087b9
   spec_code: 4CH1-1.51
   sp_title: know that covalent compounds do not usually conduct electricity
@@ -2243,7 +2640,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Conductivity section states simple molecular/covalent substances do not conduct (no mobile
     charged particles).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1d97fd710f098a74
   spec_code: 4CH1-1.52C
   sp_title: know how to represent a metallic lattice by a 2-D diagram
@@ -2277,7 +2680,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The lattice diagram and regular-pattern description support the 2-D metallic lattice representation.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 66f46b2d89c12a28
   spec_code: 4CH1-1.53C
   sp_title: understand metallic bonding in terms of electrostatic attractions
@@ -2312,7 +2721,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Metallic bonding as electrostatic attraction between positive ions and delocalised electrons;
     alloys included.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fe4561f5c37266a5
   spec_code: 4CH1-1.54C
   sp_title: explain typical physical properties of metals, including electrical conductivity and malleability
@@ -2345,7 +2760,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Typical metal properties: malleability (layers slide), high m.p./b.p., electrical conductivity
     via delocalised electrons (sea of electrons).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 2bf89d25115e8af7
   spec_code: 4CH1-1.56C
   sp_title: understand why ionic compounds conduct electricity only when molten or in aqueous solution
@@ -2378,7 +2799,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Molten-conductivity mechanism is the note's opening principle.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 57533deca8ee44ba
   spec_code: 4CH1-1.58C
   sp_title: describe experiments to investigate electrolysis, using inert electrodes, of molten compounds
@@ -2414,7 +2841,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Electrolysis of molten lead(II) bromide with inert electrodes, plus aqueous sections covering
     sodium chloride, dilute sulfuric acid and copper(II) sulfate with product prediction.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: dd2ec8096cbda7f6
   spec_code: 4CH1-1.55C
   sp_title: understand why covalent compounds do not conduct electricity
@@ -2447,7 +2880,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Covalent compounds as insulators (solid/liquid/gas) — the 1.55C content.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 568b1cbcc1537618
   spec_code: 4CH1-1.56C
   sp_title: understand why ionic compounds conduct electricity only when molten or in aqueous solution
@@ -2479,7 +2918,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Ionic conductivity limited to molten/aqueous states with the ion-mobility explanation.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1719d75b1262151b
   spec_code: 4CH1-1.57C
   sp_title: know that anion and cation are terms used to refer to negative and positive ions respectively
@@ -2511,7 +2956,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Cations and anions section defines both terms (quoted: anions row).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 50bf8df0815119cc
   spec_code: 4CH1-1.59C
   sp_title: write ionic half-equations representing the reactions at the electrodes during electrolysis
@@ -2543,7 +2994,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Half-equations for the named systems (molten PbBr2, aqueous NaCl, dilute H2SO4, aqueous CuSO4)
     with oxidation/reduction classification by electron loss/gain.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 207db9055fff2493
   spec_code: 4CH1-1.58C
   sp_title: describe experiments to investigate electrolysis, using inert electrodes, of molten compounds
@@ -2579,7 +3036,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The practical describes exactly the 1.58C experiments (inert electrodes, the three named
     solutions) and their products.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fd218251a547b48f
   spec_code: 4CH1-1.60C
   sp_title: 'practical: investigate the electrolysis of aqueous solutions'
@@ -2612,7 +3075,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: This IS the named practical (aim, apparatus diagram, method, product testing, results, conclusions).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: cff30dbebeb475a4
   spec_code: 4CH1-2.4C
   sp_title: explain the trend in reactivity in Group1 in terms of electronic configurations
@@ -2645,7 +3114,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Reactivity trend explained via electronic configuration: outer-electron distance from nucleus,
     weakening attraction, easier electron loss (the 2.4C mechanism).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5dbfb525b1e7cc72
   spec_code: 4CH1-2.1
   sp_title: understand how the similarities in the reactions of these elements with water provide evidence
@@ -2679,7 +3154,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Reaction-with-water section showing the shared alkaline-product behaviour that marks Group
     1 as a family.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 8a90f95038e7ac21
   spec_code: 4CH1-2.2
   sp_title: understand how the differences between the reactions of these elements with air and water
@@ -2713,7 +3194,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Water-reaction observations graded down the group plus a Reactions-with-oxygen section —
     the differences evidencing the reactivity trend.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: be10cf10e125669a
   spec_code: 4CH1-2.3
   sp_title: use knowledge of trends in Group1 to predict the properties of other alkali metals
@@ -2746,7 +3233,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) on predicting properties of other alkali metals from the
     trends; full member list Li-Fr given.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 109ad3daa700a3e4
   spec_code: 4CH1-2.5
   sp_title: know the colours,physical states(at room temperature)and trends in physical properties of
@@ -2780,7 +3273,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Physical properties table (state, appearance, colour in solution) and the melting/boiling-point
     trend graph.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b1d08987efbf85b9
   spec_code: 4CH1-2.6
   sp_title: use knowledge of trends in Group 7 to predict the properties of other halogens
@@ -2813,7 +3312,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) plus metal/non-metal halide sections for predicting other
     halogens' properties.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fddd0c4a923e2241
   spec_code: 4CH1-2.7
   sp_title: understand how displacement reactions involving halogens and halides provide evidence for
@@ -2848,7 +3353,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Displacement sections: chlorine with bromides/iodides and bromine with iodides — the exact
     2.7 evidence set.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5528e508d321603b
   spec_code: 4CH1-2.8C
   sp_title: explain the trend in reactivity in Group 7in terms of electronic configurations
@@ -2881,7 +3392,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Trend explained via electronic configuration: seven outer electrons, halide-ion formation,
     increasing shell distance weakening electron gain.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0c90e365660ce036
   spec_code: 4CH1-2.11
   sp_title: describe the combustion of elements in oxygen,including magnesium,hydrogen and sulfur
@@ -2914,7 +3431,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Exactly the three named elements with observations, symbol equations and oxidation classification.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 9a86cda067fb6687
   spec_code: 4CH1-2.10
   sp_title: understand how to determine the percentage by volume of oxygen in air using experiments involving
@@ -2949,7 +3472,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Describes the phosphorus-in-bell-jar determination (the 2.10 non-metal example) with volume
     readings.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b31fe3c494fd4b11
   spec_code: 4CH1-2.9
   sp_title: know the approximate percentages by volume of the four most abundant gases in dry air
@@ -2982,7 +3511,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Atmosphere composition with pie chart: N2 approx 80%, O2 approx 20%, plus the smaller proportions
     (CO2, noble gases).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6de20f7ed6fd7d28
   spec_code: 4CH1-2.13
   sp_title: know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere
@@ -3016,7 +3551,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Names carbon dioxide among the greenhouse gases with a dedicated Carbon dioxide section linking
     rising amounts to global warming/climate change.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 45283129ac46f60a
   spec_code: 4CH1-2.10
   sp_title: understand how to determine the percentage by volume of oxygen in air using experiments involving
@@ -3049,7 +3590,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The iron route is the metal half of 2.10's determination methods.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6a09d9b2b0f75fd2
   spec_code: 4CH1-2.14
   sp_title: practical:determine the approximate percentage by volume of oxygen in air using a metal or
@@ -3082,7 +3629,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: iron-filings/burette setup, method, results, calculation, conclusion.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 90d96205084dc3a6
   spec_code: 4CH1-2.12
   sp_title: describe the formation of carbon dioxide from the thermal decomposition of metal carbonates,including
@@ -3117,7 +3670,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Metal-carbonate decomposition to CO2 with the named copper(II) carbonate example and gas
     test.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6b3ae423d9488366
   spec_code: 4CH1-2.16
   sp_title: 'understand how metals can be arranged in a reactivity series based on their displacement
@@ -3153,7 +3712,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Both 2.16 strands: metal + metal oxide (thermite, Zn + CuO) and metal + aqueous metal salt
     (Mg + CuSO4) with tables.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 438ccc22de2c65c0
   spec_code: 4CH1-2.15
   sp_title: 'understand how metals can be arranged in a reactivity series based on their reactions with:
@@ -3187,7 +3752,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Water-reaction table plus dilute HCl/H2SO4 reaction tables building the reactivity series.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1aa8ae29fbedf46d
   spec_code: 4CH1-2.17
   sp_title: 'know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium,
@@ -3222,7 +3793,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The tables order K through Cu; the dedicated reactivity-series note carries the full 2.17
     list.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 2b554c85186f7ad9
   spec_code: 4CH1-2.15
   sp_title: 'understand how metals can be arranged in a reactivity series based on their reactions with:
@@ -3256,7 +3833,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Observations of acid reactivity differences feed the reactivity-series ordering.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 38e243209ee45d63
   spec_code: 4CH1-2.21
   sp_title: 'practical: investigate reactions between dilute hydrochloric and sulfuric acids and metals(e.g.
@@ -3290,7 +3873,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: This IS the named practical (aim, diagram, method, observations table, conclusion).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f843246904aee60e
   spec_code: 4CH1-2.20
   sp_title: 'understand the terms: •oxidation •reduction •redox •oxidising agent •reducing agent in terms
@@ -3324,7 +3913,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: All five 2.20 terms defined in both oxygen and electron frameworks, with oxidising/reducing
     agent identification in worked redox examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 8414cfab2f9f5d40
   spec_code: 4CH1-2.18
   sp_title: know the conditions under which iron rusts
@@ -3355,7 +3950,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Rusting-conditions investigation with the three control tubes (air+water, no air, no water).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 81fe3206b66d6d9e
   spec_code: 4CH1-2.19
   sp_title: 'understand how the rusting of iron may be prevented by: •barrier methods •galvanising •sacrificial
@@ -3388,7 +3989,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Rust prevention by barrier methods, sacrificial protection (zinc bars on ships) and galvanising
     — the three 2.19 methods.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: aee8f1c87563d22b
   spec_code: 4CH1-2.17
   sp_title: 'know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium,
@@ -3422,7 +4029,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The full 2.17 order K-Na-Li-Ca-Mg-Al-Zn-Fe-Cu-Ag-Au (plus carbon/hydrogen context) with the
     mnemonic table.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 133d18ec3cd70e6d
   spec_code: 4CH1-2.26C
   sp_title: know that an alloy is a mixture of a metal and one or more elements, usually other metals
@@ -3454,7 +4067,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Alloy definition with steel (iron + carbon) example and alloy-structure diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f2182ab4cd152b9a
   spec_code: 4CH1-2.27C
   sp_title: explain why alloys are harder than pure metals
@@ -3485,7 +4104,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Explains the hardness of alloys vs pure metals via the disrupted lattice layers (quoted section).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: bae0f5b2025e2f81
   spec_code: 4CH1-2.23C
   sp_title: explain how the method of extraction of a metal is related to its position in the reactivity
@@ -3519,7 +4144,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Extraction-method table including electrolysis of aluminium and the carbon/blast-furnace
     route for iron with its zone chemistry.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3524d675a0accae2
   spec_code: 4CH1-2.24C
   sp_title: be able to comment on a metal extraction process, given appropriate information detailed knowledge
@@ -3552,7 +4183,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The worked blast-furnace description is the worked example a student comments on for 2.24C.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 824382c62ec8b4b8
   spec_code: 4CH1-2.25C
   sp_title: explain the uses of aluminium, copper, iron and steel in terms of their properties the types
@@ -3588,7 +4225,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Use-property tables for aluminium, copper, iron and steel (low-carbon, high-carbon, stainless
     distinguished).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c271d5154f5b8188
   spec_code: 4CH1-2.22C
   sp_title: know that most metals are extracted from ores found in the Earth's crust and that unreactive
@@ -3623,7 +4266,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Ores in the Earth's crust, definition of ore, and the unreactive-metals-as-elements rule
     (both 2.22C clauses).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: bd76b91ad478fc86
   spec_code: 4CH1-2.33C
   sp_title: describe how to carry out an acid-alkali titration
@@ -3657,7 +4306,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Full titration description: apparatus diagram, step-by-step method, titration results table
     (the 2.33C content).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 12f84a89ced4e640
   spec_code: 4CH1-2.29
   sp_title: understand how to use the pH scale, from 0-14, can be used to classify solutions as strongly
@@ -3693,7 +4348,13 @@ rows:
   rationale: Introduces the pH scale itself - a numerical scale showing how acidic or alkaline a solution
     is, measuring the hydrogen ions present - the conceptual foundation of 2.29; the 0-14 classification
     bands are taught in the indicator note's 2.29 mapping.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: bf4654fd138d135e
   spec_code: 4CH1-2.31
   sp_title: know that acids in aqueous solution are a source of hydrogen ions and alkalis in aqueous solution
@@ -3726,7 +4387,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Acids as H+ source and alkalis as OH- source in aqueous solution (both 2.31 halves).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 913bbcd6bd4a153d
   spec_code: 4CH1-2.32
   sp_title: know that alkalis can neutralise acids
@@ -3758,7 +4425,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Neutralisation definition with the H+ + OH- to water ionic equation and scope limits.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 54df90de0bd1b791
   spec_code: 4CH1-2.28
   sp_title: describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic
@@ -3793,7 +4466,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Litmus, phenolphthalein and methyl orange with the two-colour indicator table distinguishing
     acid vs alkali colours.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 51157a4eb7fd5c4b
   spec_code: 4CH1-2.29
   sp_title: understand how to use the pH scale, from 0-14, can be used to classify solutions as strongly
@@ -3826,7 +4505,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: pH scale section with the 0-14 classification (acids below 7, alkalis above 7, bands by strength).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f001c06fde46b068
   spec_code: 4CH1-2.30
   sp_title: describe the use of universal indicator to measure the approximate pH value of an aqueous
@@ -3860,7 +4545,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Universal indicator section on measuring approximate pH of aqueous solutions.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3db4b0442a85469c
   spec_code: 4CH1-2.38
   sp_title: know that metal oxides, metal hydroxides and ammonia can act as bases,and that alkalis are
@@ -3894,7 +4585,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Metal oxides/hydroxides and ammonia as bases (ammonia producing hydroxide ions is in the
     alkalis table) with the base/alkali distinction.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: efc60a2aff4012bd
   spec_code: 4CH1-2.39
   sp_title: describe an experiment to prepare a pure,dry sample of a soluble salt,starting from an insoluble
@@ -3928,7 +4625,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'The complete pure-dry-soluble-salt method: excess insoluble reactant, filtration, evaporation,
     crystallisation.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 00f6301348365e5d
   spec_code: 4CH1-2.40C
   sp_title: describe an experiment to prepare a pure,dry sample of a soluble salt,starting from an acid
@@ -3961,7 +4664,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Titration-based soluble salt preparation with the repeat-without-indicator evaporation step.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b1a60235e78b58f3
   spec_code: 4CH1-2.41C
   sp_title: describe an experiment to prepare a pure,dry sample of an insoluble salt,starting from two
@@ -3995,7 +4704,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Precipitation method from two soluble reactants with filtration, washing and drying to a
     pure dry insoluble salt.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3738b874f89138b1
   spec_code: 4CH1-2.39
   sp_title: describe an experiment to prepare a pure,dry sample of a soluble salt,starting from an insoluble
@@ -4028,7 +4743,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Concrete instance of the general soluble-salt-from-insoluble-reactant method.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: aeb3141175218e5c
   spec_code: 4CH1-2.42
   sp_title: practical:prepare a sample of pure,dry hydrated copper(II)sulfate crystals starting from copper(II)oxide
@@ -4061,7 +4782,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: copper(II) oxide + dilute sulfuric acid, excess base, filtration,
     crystallisation.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5e23667139a241df
   spec_code: 4CH1-2.41C
   sp_title: describe an experiment to prepare a pure,dry sample of an insoluble salt,starting from two
@@ -4094,7 +4821,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Concrete instance of the general insoluble-salt precipitation method.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a2fd08e0d864cdda
   spec_code: 4CH1-2.43C
   sp_title: practical:prepare a sample of pure,dry lead(II)sulfate
@@ -4127,7 +4860,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: precipitation from lead(II) nitrate + potassium sulfate, filtration,
     washing, drying.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: ea31280523d02cd1
   spec_code: 4CH1-2.37
   sp_title: describe the reactions of hydrochloric acid, sulfuric acid and nitric acid with metals, bases
@@ -4161,7 +4900,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: HCl/H2SO4/HNO3 with metals, bases/oxides/hydroxides and carbonates, all with salt-forming
     equation tables (nitric-acid-metal exclusion respected).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 34a182c5b148bba2
   spec_code: 4CH1-2.34
   sp_title: 'know the general rules for predicting the solubility of ionic compounds in water: • common
@@ -4200,7 +4945,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'The complete solubility table: Na/K/NH4 all soluble, nitrates all, chlorides except Ag/Pb,
     sulfates except Ba/Ca/Pb, carbonates except Na/K/NH4, hydroxides except Na/K/Ca.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c136fcd7ab4c3a3d
   spec_code: 4CH1-2.35
   sp_title: understand acids and bases in terms of proton transfer
@@ -4233,7 +4984,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Proton-transfer framework with HCl and NaOH ionisation examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 09e1480751046a44
   spec_code: 4CH1-2.36
   sp_title: understand that an acid is a proton donor and a base is a proton acceptor
@@ -4265,7 +5022,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Explicit donor/acceptor definitions for acid and base with ionisation equations.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 029e740a93d54ae7
   spec_code: 4CH1-2.49
   sp_title: describe a test for the presence of water using anhydrous copper(II) sulfate
@@ -4297,7 +5060,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The named chemical test with its equation.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 8a5c83c8771c5d13
   spec_code: 4CH1-2.50
   sp_title: describe a physical test to show whether a sample of water is pure
@@ -4329,7 +5098,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Physical purity test section (boiling point of pure water).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 398d201414b001f9
   spec_code: 4CH1-2.45
   sp_title: describe how to carry out a flame test
@@ -4360,7 +5135,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'How to carry out a flame test: clean wire loop, dip, observe — the 2.45 procedure.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: d2296fba87c547da
   spec_code: 4CH1-2.46
   sp_title: 'know the colours formed in flame tests for these cations: · Li$^{+}$ is red · Na$^{+}$ is
@@ -4391,7 +5172,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Flame colour table for Li (red), Na (yellow), K (lilac), Ca (orange-red), Cu (blue-green).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 4fd238fd5b059562
   spec_code: 4CH1-2.44
   sp_title: 'describe tests for these gases: · hydrogen · oxygen · carbon dioxide · ammonia · chlorine.'
@@ -4423,7 +5210,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Dedicated test sections for all five gases: hydrogen (pop), oxygen (relights splint), carbon
     dioxide (limewater), ammonia (damp red litmus), chlorine (bleaches litmus).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: e273023ec3ef63d9
   spec_code: 4CH1-2.48
   sp_title: 'describe tests for these anions: · Cl$^{-}$, Br$^{-}$ and I$^{-}$ using acidified silver
@@ -4458,7 +5251,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Tests for carbonate (dilute acid + limewater), halides (acidified silver nitrate) and sulfate
     (acidified barium chloride) with equations and results.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 7a2b08b5414c2956
   spec_code: 4CH1-2.47
   sp_title: 'describe tests for these cations: · NH$_{4}^{+}$ using sodium hydroxide solution and identifying
@@ -4491,7 +5290,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: NaOH precipitate colours for Cu2+/Fe2+/Fe3+ plus the ammonium-ion test (heating with NaOH,
     ammonia gas identified).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 72daf2ef7cba5330
   spec_code: 4CH1-3.2
   sp_title: describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving
@@ -4523,7 +5328,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Simple calorimetry for reactions in solution (neutralisation, dissolving, displacement) and
     combustion, with apparatus diagram and error analysis.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c19e1b3cca1d9eee
   spec_code: 4CH1-3.3
   sp_title: calculate the heat energy change from a measured temperature change using the expression $
@@ -4560,7 +5371,56 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Heat-energy-change calculation from measured temperature change with a fully worked displacement-reaction
     example.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
+- mapping_id: de462807f25c8acb
+  spec_code: 4CH1-3.3
+  sp_title: calculate the heat energy change from a measured temperature change using the expression $
+    Q=mc\Delta T $
+  note_slug: 3-1-3-energetics-calculations
+  note_path: 3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision
+    Notes.md
+  chunk:
+    ordinal: 3
+    heading: Worked Example
+    sha256_16: d305dfb7102bbfd6
+    chars: 1540
+    convention: c13-chunk-convention-1
+  anchor:
+    match_type: exact
+    ambiguous_hits: 2
+    supplementary: true
+    supplementary_of: c19e1b3cca1d9eee
+  evidence_quote: 'State the equation: Q = m x c x ΔT'
+  provenance:
+    tier: RULE_DERIVED
+    derivation: supplementary anchor reified from the operator review sheet recommendation (Part A reviewer
+      note); same upstream evidence quote mechanically verified in the recommended chunk at apply time
+    tool: scripts/c13_apply_promotion.py@1.0.0
+    upstream:
+      store: T-C10 note-level spec_map (note front matter)
+      mapping: 3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision
+        Notes.md::4CH1-3.3
+      validation_status: HUMAN_VALIDATED
+      validated_by: operator
+      validated_date: '2026-09-11'
+      confidence: high
+      model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
+  rationale: '- Reviewer note: the quote matches both `Worked Example` chunks (ordinals 1 and 3); both
+    are on-SP Q = mcΔT calculations from a measured temperature rise, so the deterministic lowest-ordinal
+    choice is correct. Supplementary row at ordinal 3 recommended in the apply step.'
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk verified mechanically at apply time
 - mapping_id: e7face6de1fb5f15
   spec_code: 4CH1-3.4
   sp_title: calculate the molar enthalpy change ($\Delta H$) from the heat energy change, $ Q $
@@ -4593,7 +5453,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) converting Q into molar enthalpy change with worked examples
     and sign conventions.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 9168cd9d03d365a7
   spec_code: 4CH1-3.5C
   sp_title: draw and explain energy level diagrams to represent exothermic and endothermic reactions
@@ -4625,7 +5491,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Drawing and explaining energy level diagrams for exothermic and endothermic reactions, including
     the enthalpy-change arrows.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: dcbfa30cebb47b70
   spec_code: 4CH1-3.1
   sp_title: know that chemical reactions in which heat energy is given out are described as exothermic,
@@ -4659,7 +5531,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Exothermic and endothermic definitions with temperature-change measurement, conservation
     of energy, and examples of each.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fb0454b4f5fbedf0
   spec_code: 4CH1-3.2
   sp_title: describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving
@@ -4690,7 +5568,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Concrete simple-calorimetry experiment for the neutralisation reaction class.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fb9d5b283494a60f
   spec_code: 4CH1-3.8
   sp_title: 'practical: investigate temperature changes accompanying some of the following types of change:
@@ -4722,7 +5606,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical (neutralisation strand): styrofoam calorimeter, method, results
     table, conclusion.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 20bddffc5ca4f392
   spec_code: 4CH1-3.6C
   sp_title: know that bond-breaking is an endothermic process and that bond-making is an exothermic process
@@ -4753,7 +5643,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Bond-breaking endothermic / bond-making exothermic with the net-difference rule for overall
     reaction type.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 058b9e2be55b96a6
   spec_code: 4CH1-3.7C
   sp_title: use bond energies to calculate the enthalpy change during a chemical reaction
@@ -4784,7 +5680,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) using bond energies to calculate reaction enthalpy changes
     with two worked examples.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a58fd7c98e303480
   spec_code: 4CH1-3.12
   sp_title: know that a catalyst is a substance that increases the rate of a reaction, but is chemically
@@ -4819,7 +5721,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Catalyst definition (mass unchanged, not in the equation) with industrial examples (iron,
     V2O5).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 4843502ac208d558
   spec_code: 4CH1-3.13
   sp_title: know that a catalyst works by providing an alternative pathway with lower activation energy
@@ -4851,7 +5759,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Catalyst mechanism: alternative pathway at lower activation energy.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 19c75066df2b04dc
   spec_code: 4CH1-3.10
   sp_title: describe the effects of changes in surface area of a solid, concentration of a solution, pressure
@@ -4885,7 +5799,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Collision-theory sections explaining the concentration, pressure, temperature and surface-area
     effects on rate; the catalyst factor of 3.10 is taught in the rate-of-reaction and catalysts notes.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a14cc97679614a1b
   spec_code: 4CH1-3.11
   sp_title: explain the effects of changes in surface area of a solid, concentration of a solution, pressure
@@ -4919,7 +5839,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Particle-collision explanations with diagrams for concentration, pressure, temperature and
     surface area.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c7d215d5e5c33303
   spec_code: 4CH1-3.15
   sp_title: 'practical: investigate the effect of changing the surface area of marble chips and of changing
@@ -4955,7 +5881,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical (surface-area strand): marble chips + dilute HCl with method,
     results, conclusion.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: fada6fb9e686580f
   spec_code: 4CH1-3.9
   sp_title: describe experiments to investigate the effects of changes in surface area of a solid, concentration
@@ -4989,7 +5921,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: A surface-area rate experiment of the 3.9 family.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b1e4e3c365ab38ff
   spec_code: 4CH1-3.16
   sp_title: 'practical: investigate the effect of different solids on the catalytic decomposition of hydrogen
@@ -5023,7 +5961,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: gas-collection method, comparing MnO2/other solids, results.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 83c4278ef7c4b827
   spec_code: 4CH1-3.9
   sp_title: describe experiments to investigate the effects of changes in surface area of a solid, concentration
@@ -5057,7 +6001,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: A catalyst-effect rate experiment of the 3.9 family.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: aaea5ff0f230ca3f
   spec_code: 4CH1-3.10
   sp_title: describe the effects of changes in surface area of a solid, concentration of a solution, pressure
@@ -5090,7 +6040,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) with graphs for concentration/pressure, temperature and
     surface-area effects on rate.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 8d607fe952997a2a
   spec_code: 4CH1-3.9
   sp_title: describe experiments to investigate the effects of changes in surface area of a solid, concentration
@@ -5124,7 +6080,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Experimental methods (downward displacement etc.) for all four 3.9 factors with methods and
     results.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6f48fe130782807a
   spec_code: 4CH1-3.14C
   sp_title: draw and explain reaction profile diagrams showing $\Delta H$ and activation energy
@@ -5156,7 +6118,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Reaction profiles showing ΔH and activation energy for both reaction types, plus the catalyst's
     effect on the activation-energy peak.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5449a9e56614382c
   spec_code: 4CH1-3.19C
   sp_title: know that a reversible reaction can reach dynamic equilibrium in a sealed container
@@ -5189,7 +6157,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dynamic equilibrium in a sealed/closed container with the open-vs-closed system comparison
     and rate-vs-progress graph.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 2952f3ba02505df9
   spec_code: 4CH1-3.20C
   sp_title: 'know that the characteristics of a reaction at dynamic equilibrium are: • the forward and
@@ -5223,7 +6197,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Both 3.20C characteristics: equal forward/reverse rates and constant concentrations.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 16aa1e0c98fb77e8
   spec_code: 4CH1-3.17
   sp_title: know that some reactions are reversible and this is indicated by the symbol $\rightleftharpoons$
@@ -5256,7 +6236,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Reversible-reaction concept and the half-arrowhead symbol notation.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 845677bdac4cc09f
   spec_code: 4CH1-3.18
   sp_title: describe reversible reactions such as the dehydration of hydrated copper(II) sulfate and the
@@ -5290,7 +6276,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated sections (quoted heading + Dehydration of hydrated copper(II) sulfate) covering
     both named reversible reactions.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f0520a5cd8f3656a
   spec_code: 4CH1-3.21C
   sp_title: understand why a catalyst does not affect the position of equilibrium in a reversible reaction
@@ -5323,7 +6315,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated catalysts-and-equilibrium section with the equal-rate-increase mechanism diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: babe9c0318b5db1a
   spec_code: 4CH1-3.22C
   sp_title: 'know the effect of changing either temperature or pressure on the position of equilibrium
@@ -5361,7 +6359,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Temperature and pressure effects on equilibrium position with worked examples (Le Chatelier
     used as teaching frame, not required language).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 4c58e50ab7eaec14
   spec_code: 4CH1-4.6
   sp_title: understand how to classify reactions of organic compounds as substitution, addition and combustion
@@ -5395,7 +6399,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'All three 4.6 classes defined with examples: substitution (methane + bromine), addition
     (ethene + bromine), combustion.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1ef5058e448fe2e4
   spec_code: 4CH1-4.1
   sp_title: know that a hydrocarbon is a compound of hydrogen and carbon only
@@ -5426,7 +6436,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Hydrocarbon definition (What is a hydrocarbon? section) with the inorganic-carbon exclusions.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 316798b95f1cdba1
   spec_code: 4CH1-4.2
   sp_title: understand how to represent organic molecules using empirical formulae, molecular formulae,
@@ -5459,7 +6475,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated sections with worked examples for empirical, molecular, general, structural and
     displayed formulae.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6d04427610bf9ccc
   spec_code: 4CH1-4.3
   sp_title: know what is meant by the terms homologous series, functional group and isomerism
@@ -5491,7 +6513,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Organic terminology sections defining all three terms, with the functional-group structures/names
     table and the C3H6 isomers.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 78a139dafc53db10
   spec_code: 4CH1-4.5
   sp_title: understand how to write the possible structural and displayed formulae of an organic molecule
@@ -5524,7 +6552,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Isomerism section writes alternative structural/displayed formulae from a molecular formula
     (the 4.5 skill); the naming side lives in the dedicated naming note.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 1672dc365a125d4d
   spec_code: 4CH1-4.4
   sp_title: understand how to name compounds relevant to this specification using the rules of International
@@ -5560,7 +6594,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'IUPAC naming rules: stem/suffix system, further rules section, naming-isomers worked examples
     (up to six carbons implied by stem table).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 940acaecc1af4b3d
   spec_code: 4CH1-4.11
   sp_title: know that a fuel is a substance that, when burned, releases heat energy
@@ -5590,7 +6630,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Fuel definition and the fossil-fuel family context.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 02e41e14b30835a7
   spec_code: 4CH1-4.12
   sp_title: know the possible products of complete and incomplete combustion of hydrocarbons with oxygen
@@ -5621,7 +6667,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Complete-combustion and incomplete-combustion sections with the product sets for each.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 8bc65a715956c8ab
   spec_code: 4CH1-4.13
   sp_title: understand why carbon monoxide is poisonous, in terms of its effect on the capacity of blood
@@ -5653,7 +6705,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Carbon monoxide danger explained via reduced oxygen transport capacity of blood (haemoglobin-free
     framing available).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 58ec060bf14ce91d
   spec_code: 4CH1-4.10
   sp_title: know the trend in colour, boiling point and viscosity of the main fractions
@@ -5683,7 +6741,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Colour, viscosity and boiling-point trend sections for the main fractions.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 6d40bae75805222f
   spec_code: 4CH1-4.7
   sp_title: know that crude oil is a mixture of hydrocarbons
@@ -5713,7 +6777,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Crude oil presented as a mixture of hydrocarbons separated into fractions.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a7ee444155ee6ed0
   spec_code: 4CH1-4.8
   sp_title: describe how the industrial process of fractional distillation separates crude oil into fractions
@@ -5745,7 +6815,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Industrial fractional distillation: how it works, chain-length/boiling-point basis, column
     diagram.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f2ed987c27eb19b3
   spec_code: 4CH1-4.9
   sp_title: 'know the names and uses of the main fractions obtained from crude oil: refinery gases, gasoline,
@@ -5777,7 +6853,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Main-fractions table (refinery gases, gasoline, kerosene, diesel, fuel oil, bitumen) with
     uses (quoted row).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 25c3cd5f606b2e58
   spec_code: 4CH1-4.14
   sp_title: know that, in car engines, the temperature reached is high enough to allow nitrogen and oxygen
@@ -5811,7 +6893,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Engine-temperature formation of nitrogen oxides with catalytic-converter context.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 7bf65213118dcf64
   spec_code: 4CH1-4.16
   sp_title: understand how sulfur dioxide and oxides of nitrogen contribute to acid rain
@@ -5844,7 +6932,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Acid rain formation from both sulfur dioxide and nitrogen dioxide with equations.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: ea575e53b2b552f2
   spec_code: 4CH1-4.17
   sp_title: describe how long-chain alkanes are converted to alkenes and shorter-chain alkanes by catalytic
@@ -5877,7 +6971,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Catalytic cracking with alumina catalyst, 600-700 C range, and the shorter-alkanes-plus-alkenes
     products.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 88e48e2f36c7dd5f
   spec_code: 4CH1-4.18
   sp_title: explain why cracking is necessary, in terms of the balance between supply and demand for different
@@ -5909,7 +7009,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Supply-and-demand section explaining why cracking is necessary for the fraction balance.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3792763a681aad00
   spec_code: 4CH1-4.19
   sp_title: know the general formula for alkanes
@@ -5939,7 +7045,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: General formula stated and linked to the homologous-series concept.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: d863edbbaf31ee72
   spec_code: 4CH1-4.20
   sp_title: explain why alkanes are classified as saturated hydrocarbons
@@ -5969,7 +7081,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Alkanes as saturated hydrocarbons: single-bond reasoning.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: afd96786898770b1
   spec_code: 4CH1-4.21
   sp_title: understand how to draw the structural and displayed formulae for alkanes with up to five carbon
@@ -6000,7 +7118,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Table and displayed formulae (methane through pentane) with the unbranched names.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 9dbeedf454f6c945
   spec_code: 4CH1-4.22
   sp_title: describe the reactions of alkanes with halogens in the presence of ultraviolet radiation,limited
@@ -6034,7 +7158,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Alkane + halogen under UV: methane/bromine and methane/chlorine mono-substitution equations.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3435bbb7b640d207
   spec_code: 4CH1-4.23
   sp_title: know that alkenes contain the functional group $>C=C<$
@@ -6064,7 +7194,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: C=C as the alkene functional group.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 71ab0f529304f112
   spec_code: 4CH1-4.24
   sp_title: know the general formula for alkenes
@@ -6094,7 +7230,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: General formula stated.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: cebe20331cf1bde5
   spec_code: 4CH1-4.25
   sp_title: explain why alkenes are classified as unsaturated hydrocarbons
@@ -6124,7 +7266,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Unsaturated classification via the C=C double bond.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 43a5e79e66039f0b
   spec_code: 4CH1-4.26
   sp_title: understand how to draw the structural and displayed formulae for alkenes with up to four carbon
@@ -6157,7 +7305,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Displayed-formulae table for ethene, propene, but-1-ene (and pent-1-ene) with names — the
     4.26 set.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3d692763c50be22b
   spec_code: 4CH1-4.27
   sp_title: describe the reactions of alkenes with bromine to produce dibromoalkanes
@@ -6189,7 +7343,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Bromination of ethene to dibromoethane with the addition mechanism across C=C.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f349f657f1d5ad60
   spec_code: 4CH1-4.28
   sp_title: describe how bromine water can be used to distinguish between an alkane and an alkene
@@ -6222,7 +7382,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Bromine-water test distinguishing alkenes (decolorisation) from alkanes.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: a8b85cbab6ed97b3
   spec_code: 4CH1-4.29C
   sp_title: know that alcohols contain the functional group-OH
@@ -6252,7 +7418,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The -OH functional group as the reactive part of alcohols, with the ethanol molecule diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 49404aee5e08396a
   spec_code: 4CH1-4.30C
   sp_title: understand how to draw structural and displayed formulae for methanol, ethanol, propanol(propan-1-ol
@@ -6283,7 +7455,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Methanol, ethanol, propanol and butanol with displayed formulae and names.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 24f050d280ce2835
   spec_code: 4CH1-4.32C
   sp_title: 'know that ethanol can be manufactured by: reacting ethene with steam in the presence of a
@@ -6319,7 +7497,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Both 4.32C routes: ethene + steam with phosphoric acid catalyst at ~300 C / 60-70 atm, and
     fermentation of glucose with yeast.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 390def1717f440e9
   spec_code: 4CH1-4.33C
   sp_title: understand the reasons for fermentation,in the absence of air,and at an optimum temperature
@@ -6352,7 +7536,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Fermentation conditions explained: yeast enzymes (optimum ~30 C, denature if hotter) and
     absence of oxygen preventing aerobic oxidation.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 306f84642da50cfe
   spec_code: 4CH1-4.31C
   sp_title: 'know that ethanol can be oxidised by: burning in air or oxygen(complete combustion) reaction
@@ -6385,7 +7575,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'All three 4.31C oxidation routes: combustion, microbial/aerobic oxidation to ethanoic acid,
     and oxidising-agent treatment (dichromate).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 2c270f9b6082839d
   spec_code: 4CH1-4.34C
   sp_title: know that carboxylic acids contain the functional group C=O -CH2OH
@@ -6418,7 +7614,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The -COOH functional group with structure diagram and general formula.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: e98a94b95bc87563
   spec_code: 4CH1-4.35C
   sp_title: understand how to draw structural and displayed formulae for unbranched-chain carboxylic acids
@@ -6452,7 +7654,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Naming section with worked examples and displayed formulae for the unbranched-chain acids
     up to four carbons.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0e948fc9afd45c3e
   spec_code: 4CH1-4.37C
   sp_title: know that vinegar is an aqueous solution containing ethanoic acid
@@ -6484,7 +7692,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Vinegar composition (approx 5% ethanoic acid).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 336cf59b8aa35b77
   spec_code: 4CH1-4.36C
   sp_title: describe the reactions of aqueous solutions of carboxylic acids with metals and metal carbonates
@@ -6517,7 +7731,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Reactions with metals (magnesium ethanoate + hydrogen) and with carbonates (salt + water
     + carbon dioxide) with equations.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 0760ae82b9fa32bc
   spec_code: 4CH1-4.38C
   sp_title: know that esters contain the functional group C - C - O -
@@ -6547,7 +7767,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Ester functional group with structure diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 52ec4e56d75c57b8
   spec_code: 4CH1-4.39C
   sp_title: know that ethyl ethanoate is the ester produced when ethanol and ethanoic acid react in the
@@ -6579,7 +7805,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The named esterification with the acid catalyst and water by-product.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: ee4be7aa94fae131
   spec_code: 4CH1-4.40C
   sp_title: understand how to write the structural and displayed formulae of ethyl ethanoate
@@ -6609,7 +7841,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Structural/displayed formulae of ethyl ethanoate shown via the formation equation and diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: f74c7217a5b3b72e
   spec_code: 4CH1-4.41C
   sp_title: understand how to write the structural and displayed formulae of an ester, given the name
@@ -6641,7 +7879,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Naming-esters system mapping alcohol + acid to the ester name and formula (both directions),
     with the examples table.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 5425b601bb90ad04
   spec_code: 4CH1-4.42C
   sp_title: know that esters are volatile compounds with distinctive smells and are used as food flavourings
@@ -6672,7 +7916,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Volatility, distinctive smells and the flavouring/perfume uses.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c949426d4724616c
   spec_code: 4CH1-4.39C
   sp_title: know that ethyl ethanoate is the ester produced when ethanol and ethanoic acid react in the
@@ -6703,7 +7953,13 @@ rows:
       confidence: medium
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: The practical instantiates the ethanol + ethanoic acid / acid-catalyst esterification.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: bd0948f4aad1a010
   spec_code: 4CH1-4.43C
   sp_title: 'practical: prepare a sample of an ester such as ethyl ethanoate'
@@ -6733,7 +7989,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'This IS the named practical: water-bath heating, distillation of the volatile ester, purification.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 97c1ff50516b3ccb
   spec_code: 4CH1-4.44
   sp_title: know that an addition polymer is formed by joining up many small molecules called monomers
@@ -6766,7 +8028,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Addition polymerisation from monomers, with the monomer-to-polymer diagram.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 3db49517ea733473
   spec_code: 4CH1-4.45
   sp_title: understand how to draw the repeat unit of an addition polymer, including poly(ethene), poly(propene),
@@ -6800,7 +8068,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Drawing polymers and repeat units from the monomer (polyethene, polypropene, chloroethene
     examples). Note for PR review: poly(tetrafluoroethene) is not among the worked examples in this note.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c5be13477a5614f7
   spec_code: 4CH1-4.46
   sp_title: understand how to deduce the structure of a monomer from the repeat unit of an addition polymer
@@ -6834,7 +8108,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Both directions covered by dedicated sections (quoted heading + Deducing the polymer from
     the monomer).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: dc7571418e14f0f0
   spec_code: 4CH1-4.48C
   sp_title: know that condensation polymerisation, in which a dicarboxylic acid reacts with a diol, produces
@@ -6868,7 +8148,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dicarboxylic acid + diol condensation producing polyester and water (terylene example).
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: b9730c00c5e54834
   spec_code: 4CH1-4.49C
   sp_title: 'understand how to write the structural and displayed formula of a polyester, showing the
@@ -6903,7 +8189,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: Dedicated section (quoted heading) on writing polyester repeat-unit formulae from monomer
     formulae and vice versa.
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: c0feff804e3ed50e
   spec_code: 4CH1-4.50C
   sp_title: know that some polyesters, known as biopolyesters, are biodegradable
@@ -6936,7 +8228,13 @@ rows:
       confidence: high
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Biopolyesters section: the biodegradable polyester subclass.'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 7f2c41a8e8a53362
   spec_code: 4CH1-4.47
   sp_title: 'explain problems in the disposal of addition polymers, including: • their inertness and inability
@@ -6971,7 +8269,13 @@ rows:
       model_version: 'scripts/c10_map_notes.py (decisions: scripts/c10_decisions/)'
   rationale: 'Disposal problems: inertness/non-biodegradability in landfill plus toxic gases on burning
     (PVC to hydrogen chloride, carbon monoxide from incomplete combustion).'
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  promotion:
+    promoted_by: operator-directive-session-102
+    promoted_date: '2026-09-18'
+    apply_tool: scripts/c13_apply_promotion.py@1.0.0
+    gate: review-sheet@88dc8dd6a3 (Part A 42/42 = 100% >= 90%; Part B 13/13 decided)
+    reverified: G4 quote-in-chunk re-verified mechanically at apply time
 - mapping_id: 2fa8aa882076e307
   spec_code: 4CH1-4.15
   sp_title: explain how the combustion of some impurities in hydrocarbon fuels results in the formation

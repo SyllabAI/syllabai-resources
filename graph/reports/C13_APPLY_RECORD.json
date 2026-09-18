@@ -1,0 +1,70 @@
+{
+  "apply": {
+    "tool": "scripts/c13_apply_promotion.py@1.0.0",
+    "date": "2026-09-18",
+    "base_ref": "a091f9d379",
+    "gate_ref": "88dc8dd6a3",
+    "promoted_by": "operator-directive-session-102"
+  },
+  "gate": {
+    "part_a": "42/42 CONFIRM = 100% (>= 90%)",
+    "part_b": "13/13 decided (12 AUTHOR + 1 DEFER)",
+    "verdict": "PASSES"
+  },
+  "reproduction_proof": "substrate tool re-run BYTE-IDENTICAL to input store",
+  "reverification": {
+    "anchored_rows_checked": 209,
+    "result": "209/209 PASS"
+  },
+  "promotion": {
+    "flipped": 209,
+    "supplementary_added": 1,
+    "total_hv_rows": 210,
+    "worklist_stay_suggested": 1
+  },
+  "supplementary_added": [
+    {
+      "spec_code": "4CH1-3.3",
+      "note_path": "3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md",
+      "ordinal": 3,
+      "mapping_id": "de462807f25c8acb"
+    }
+  ],
+  "supplementary_deferred": [
+    {
+      "spec_code": "4CH1-3.3",
+      "note_path": "3. Physical Chemistry/a. Energetics/Energetics calculations in chemistry - IGCSE Revision Notes.md",
+      "ordinals": [
+        1,
+        3
+      ],
+      "reason": "ordinal equals the primary row"
+    },
+    {
+      "spec_code": "4CH1-1.50",
+      "note_path": "1. Principles of Chemistry/g. Covalent Bonding/Giant covalent structures - IGCSE Chemistry Revision Notes.md",
+      "ordinals": [
+        5,
+        9
+      ],
+      "reason": "upstream quote does not anchor in the recommended chunk (operator quote authoring required; not invented here)"
+    },
+    {
+      "spec_code": "4CH1-1.50",
+      "note_path": "1. Principles of Chemistry/g. Covalent Bonding/Giant covalent structures - IGCSE Chemistry Revision Notes.md",
+      "ordinals": [
+        5,
+        9
+      ],
+      "reason": "upstream quote does not anchor in the recommended chunk (operator quote authoring required; not invented here)"
+    },
+    {
+      "spec_code": "4CH1-1.5C",
+      "note_path": "1. Principles of Chemistry/a. States of Matter/Investigating solubility - IGCSE Chemistry Revision Notes.md",
+      "ordinals": [
+        5
+      ],
+      "reason": "upstream quote does not anchor in the recommended chunk (operator quote authoring required; not invented here)"
+    }
+  ]
+}
