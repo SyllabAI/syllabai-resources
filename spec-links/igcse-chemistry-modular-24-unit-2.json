@@ -1,19 +1,19 @@
 {
  "schema": "syllabai.learner-spec-links/1.0",
- "generated_utc": "2026-09-17T17:55:45Z",
+ "generated_utc": "2026-09-18T10:44:32Z",
  "course": "igcse-chemistry-modular-24-unit-2",
  "qual": "igcse-chemistry-modular",
  "totals": {
   "items": 1056,
-  "items_with_codes": 617,
+  "items_with_codes": 753,
   "by_kind": {
    "notes": 47,
    "question_parts": 622,
    "flashcards": 387
   },
   "coded_by_kind": {
-   "notes": 32,
-   "question_parts": 363,
+   "notes": 36,
+   "question_parts": 495,
    "flashcards": 222
   }
  },
@@ -28,7 +28,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.11",
      "official_code": "6.11",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -64,7 +64,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -79,7 +79,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -94,7 +94,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -109,7 +109,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -139,7 +139,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -149,10 +149,15 @@
    "label": "Test for water - IGCSE Chemistry Revision Notes",
    "section": "inorganic-chemistry",
    "topic": "chemical-tests",
-   "codes": [],
-   "pending": [
-    "spcpt_YwtwZ9gmdxhRKSQy"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.20",
+     "official_code": "6.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "rn_k68wPYCr7hG39FtC": {
    "kind": "note",
@@ -161,16 +166,19 @@
    "topic": "group-1",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj",
-    "spcpt_cfGb4JXVXgz4CcMZ"
-   ]
+   "pending": []
   },
   "rn_tjCXhrVGRGJTkGSy": {
    "kind": "note",
@@ -181,8 +189,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -194,10 +202,10 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -212,18 +220,22 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "pending": []
   },
   "rn_rz5rmZq2CRvHCfPR": {
    "kind": "note",
@@ -235,7 +247,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -250,7 +262,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -292,7 +304,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -307,7 +319,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -322,7 +334,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.15C",
      "official_code": "8.15C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -352,15 +364,19 @@
    "topic": "synthetic-polymers",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.22C",
      "official_code": "8.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "pending": []
   },
   "rn_sNGwXzq8S3Ctbcqn": {
    "kind": "note",
@@ -372,7 +388,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.19",
      "official_code": "8.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -402,10 +418,15 @@
    "label": "Practical: Effect of Catalysts on Rate of Reaction | Edexcel IGCSE Chemistry (Modular) Revision Notes 2024",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_G6KnVryGR4gKvqJ3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.1",
+     "official_code": "7.1",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "rn_FrXtmJ782fNxHfkH": {
    "kind": "note",
@@ -417,7 +438,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.7",
      "official_code": "7.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -437,10 +458,16 @@
    "label": "Measuring Rates of Reactions | Edexcel IGCSE Chemistry (Modular) Revision Notes 2024",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
    "pending": [
-    "spcpt_Bkz2pSbQCdrF75dF",
-    "spcpt_tt9J38w3QzyqM9YB"
+    "spcpt_Bkz2pSbQCdrF75dF"
    ]
   },
   "rn_q4tK8YKXFyTKgDbq": {
@@ -450,10 +477,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -485,7 +512,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -510,12 +537,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
     }
    ],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "pending": []
   },
   "rn_r2KTYCBWdRGxZDhq": {
    "kind": "note",
@@ -527,12 +558,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "pending": []
   },
   "rn_vNdrbxY3CxGnNcXG": {
    "kind": "note",
@@ -544,13 +579,22 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.19C",
+     "official_code": "5.19C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
+     "official_code": "5.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_Kg7DWhpnXcgMFb4p",
-    "spcpt_KVx4rdfs8MJ58hVT"
-   ]
+   "pending": []
   },
   "rn_xsm9v8mzpYc76N3X": {
    "kind": "note",
@@ -562,7 +606,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -577,13 +621,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -593,10 +637,21 @@
    "label": "Explaining Conductivity | Edexcel IGCSE Chemistry (Modular) Revision Notes 2024",
    "section": "principles-of-chemistry",
    "topic": "electrolysis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.19C",
+     "official_code": "5.19C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_CdjB9TGQ4gfwcV5D",
-    "spcpt_N93k8wnNjF4KbMNQ",
     "spcpt_dgXNhDfskPcgNjBz"
    ]
   },
@@ -640,7 +695,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.3",
      "official_code": "5.3",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -662,21 +717,25 @@
    "topic": "ionic-bonding",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "pending": []
   },
   "rn_9D2cqVPrTh3Q6RXh": {
    "kind": "note",
@@ -688,7 +747,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
@@ -715,11 +774,21 @@
    "label": "qstn_Q9fmz8nb7GRndTcB / part 1",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_YQYKjk5sXjM4n8vn",
-    "spcpt_Nn2WpfktWGZVwD36"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.16",
+     "official_code": "4.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fdWwJVZcgS3nRRxQ": {
    "kind": "question_part",
@@ -741,7 +810,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -754,9 +823,15 @@
    "label": "qstn_hSsYjWXmCFmXkj7w / part 0",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_GVbQTwNQW3bW5GVx",
     "spcpt_B3by6xCJpGJ8b7tw"
    ]
   },
@@ -770,7 +845,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -792,25 +867,34 @@
    "topic": "atmospheric-gases",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_GVbQTwNQW3bW5GVx"
-   ]
+   "pending": []
   },
   "qstnprt_KrcjXV3GYgXWqVWM": {
    "kind": "question_part",
    "label": "qstn_FcjYmwddt8VfgVXd / part 2",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_YQYKjk5sXjM4n8vn"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.16",
+     "official_code": "4.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_n2zWcjhCgTw5zBsY": {
    "kind": "question_part",
@@ -833,7 +917,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -848,7 +932,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -863,7 +947,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -878,7 +962,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -893,7 +977,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -903,10 +987,15 @@
    "label": "qstn_KMRdmNKJ98gqXgCv / part 2",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_cNW2ZD4bzjBQXsz5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.5",
+     "official_code": "2.5",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_93TPrfwWW4c6M5zW": {
    "kind": "question_part",
@@ -918,7 +1007,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -955,7 +1044,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -970,7 +1059,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.11",
      "official_code": "6.11",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -985,7 +1074,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -1002,7 +1091,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1017,7 +1106,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1032,7 +1121,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1047,7 +1136,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1062,7 +1151,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1077,7 +1166,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1092,7 +1181,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1107,7 +1196,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1122,7 +1211,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -1139,7 +1228,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -1161,10 +1250,15 @@
    "label": "qstn_QXM4CwWfR2DbBYwp / part 0",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_9xcymXBvxP7dN5Tp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3wFqsq4r2Mz8QPsX": {
    "kind": "question_part",
@@ -1173,25 +1267,40 @@
    "topic": "atmospheric-gases",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.20",
+     "official_code": "6.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_YwtwZ9gmdxhRKSQy",
-    "spcpt_GVbQTwNQW3bW5GVx"
-   ]
+   "pending": []
   },
   "qstnprt_jD273TgbCdwf7tPf": {
    "kind": "question_part",
    "label": "qstn_QXM4CwWfR2DbBYwp / part 2",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.16",
+     "official_code": "4.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_YQYKjk5sXjM4n8vn",
     "spcpt_JcxxdPq5PH9yPDWb"
    ]
   },
@@ -1200,22 +1309,43 @@
    "label": "qstn_QXM4CwWfR2DbBYwp / part 3",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
-   "pending": [
-    "spcpt_YQYKjk5sXjM4n8vn",
-    "spcpt_Nn2WpfktWGZVwD36",
-    "spcpt_jNGzkDHQcV7nFK2q"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.16",
+     "official_code": "4.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
+     "official_code": "8.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dFV2xJzHPHYzWr7V": {
    "kind": "question_part",
    "label": "qstn_dWd9PVNyYHsPtqVY / part 0",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.5",
+     "official_code": "2.5",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_RRgPKhXQ8v8P53vT",
-    "spcpt_cNW2ZD4bzjBQXsz5"
+    "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
   "qstnprt_6Y5qnMZzj5X7Tn9R": {
@@ -1228,7 +1358,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1243,7 +1373,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.14",
      "official_code": "6.14",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1253,9 +1383,15 @@
    "label": "qstn_dWd9PVNyYHsPtqVY / part 3",
    "section": "inorganic-chemistry",
    "topic": "atmospheric-gases",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.5",
+     "official_code": "2.5",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_cNW2ZD4bzjBQXsz5",
     "spcpt_Bkz2pSbQCdrF75dF"
    ]
   },
@@ -1269,7 +1405,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1284,7 +1420,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1299,13 +1435,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1320,7 +1456,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1341,7 +1477,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1356,7 +1492,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1366,10 +1502,15 @@
    "label": "qstn_GFpdZCcCsGdT8d3m / part 0",
    "section": "inorganic-chemistry",
    "topic": "chemical-tests",
-   "codes": [],
-   "pending": [
-    "spcpt_YwtwZ9gmdxhRKSQy"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.20",
+     "official_code": "6.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JDnTRRdcdQ6Y93YN": {
    "kind": "question_part",
@@ -1381,13 +1522,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1397,11 +1538,21 @@
    "label": "qstn_DwyfYmdx3jk8C4Z9 / part 0",
    "section": "inorganic-chemistry",
    "topic": "chemical-tests",
-   "codes": [],
-   "pending": [
-    "spcpt_GVbQTwNQW3bW5GVx",
-    "spcpt_9xcymXBvxP7dN5Tp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zHDMk8YWkRYmVZYr": {
    "kind": "question_part",
@@ -1413,22 +1564,31 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.20",
+     "official_code": "6.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_YwtwZ9gmdxhRKSQy"
-   ]
+   "pending": []
   },
   "qstnprt_4x5mdDHdtW4Xnfrc": {
    "kind": "question_part",
    "label": "qstn_Thr73drdWb6HsDFC / part 0",
    "section": "inorganic-chemistry",
    "topic": "chemical-tests",
-   "codes": [],
-   "pending": [
-    "spcpt_C4cMz4fxPDkT9Knq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.20",
+     "official_code": "2.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fq4GTZkVwVTSqpSx": {
    "kind": "question_part",
@@ -1440,13 +1600,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1461,7 +1621,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.18",
@@ -1482,13 +1642,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1503,7 +1663,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1518,7 +1678,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1533,7 +1693,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.18",
@@ -1560,7 +1720,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1592,7 +1752,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1615,15 +1775,19 @@
    "topic": "chemical-tests",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.20",
+     "official_code": "2.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_C4cMz4fxPDkT9Knq"
-   ]
+   "pending": []
   },
   "qstnprt_SyccwKN8t3v46Yz6": {
    "kind": "question_part",
@@ -1635,13 +1799,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1662,7 +1826,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1677,7 +1841,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.3",
      "official_code": "5.3",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -1689,10 +1853,15 @@
    "label": "qstn_TZkSBRRXTRmQnwCh / part 1",
    "section": "inorganic-chemistry",
    "topic": "chemical-tests",
-   "codes": [],
-   "pending": [
-    "spcpt_VTXRmNZhfK7NZmBR"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.16",
+     "official_code": "2.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CRnHh7nzRZhXkDwz": {
    "kind": "question_part",
@@ -1704,7 +1873,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -1722,7 +1891,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1732,10 +1901,15 @@
    "label": "qstn_QWFvWpyxfVHKTtQf / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sTCZkq5GDZm2BwC6": {
    "kind": "question_part",
@@ -1746,23 +1920,26 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_cfGb4JXVXgz4CcMZ"
-   ]
+   "pending": []
   },
   "qstnprt_sd62MPMqYgcrSNd6": {
    "kind": "question_part",
    "label": "qstn_wfWKcBV3FxJFm7WF / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ctQycsn7QjgvqhKv": {
    "kind": "question_part",
@@ -1773,8 +1950,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1786,15 +1963,19 @@
    "topic": "group-1",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "pending": []
   },
   "qstnprt_RgFT4MqV8RgFpJCj": {
    "kind": "question_part",
@@ -1805,13 +1986,11 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_cfGb4JXVXgz4CcMZ"
-   ]
+   "pending": []
   },
   "qstnprt_JFBzX5d9hsRQ5BTj": {
    "kind": "question_part",
@@ -1820,15 +1999,19 @@
    "topic": "group-1",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.19",
+     "official_code": "1.19",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_nfzJcFrdvtrWcsny"
-   ]
+   "pending": []
   },
   "qstnprt_3jRYCtNKxvsqXVbv": {
    "kind": "question_part",
@@ -1839,23 +2022,26 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_cfGb4JXVXgz4CcMZ"
-   ]
+   "pending": []
   },
   "qstnprt_8kz4x9mxbZXypmwc": {
    "kind": "question_part",
    "label": "qstn_WHKggVd55j8PC2SD / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6MNd896Yqn2VRxSG": {
    "kind": "question_part",
@@ -1866,8 +2052,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1881,8 +2067,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1896,8 +2082,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1911,8 +2097,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1922,9 +2108,15 @@
    "label": "qstn_Z7JXtHDfFsc8jDJw / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
    "pending": [
-    "spcpt_TZdYyX2dCBYKczXj",
     "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
@@ -1938,7 +2130,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.17",
      "official_code": "6.17",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1953,7 +2145,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -1965,10 +2157,15 @@
    "label": "qstn_74JBYC645H4GyTp9 / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KFbXqkZ2sppMPX7p": {
    "kind": "question_part",
@@ -1979,8 +2176,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -1990,11 +2187,21 @@
    "label": "qstn_WMNzft85yDBdcXKR / part 1",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_VTXRmNZhfK7NZmBR",
-    "spcpt_fKJSjfnQfF4ZKppg"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.16",
+     "official_code": "2.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.18",
+     "official_code": "2.18",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5HtGCm3ZJr2FYF2s": {
    "kind": "question_part",
@@ -2005,8 +2212,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -2022,23 +2229,26 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_cfGb4JXVXgz4CcMZ"
-   ]
+   "pending": []
   },
   "qstnprt_XGyKMRzvyw8zzgdx": {
    "kind": "question_part",
    "label": "qstn_7JbY6fmxyjgrRdxb / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DNT5YFrrrdMhy55T": {
    "kind": "question_part",
@@ -2049,8 +2259,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2060,10 +2270,15 @@
    "label": "qstn_SM7KfQD4zGPv25mv / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rNgdqRxXjXdPXFfK": {
    "kind": "question_part",
@@ -2085,8 +2300,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2096,29 +2311,45 @@
    "label": "qstn_yBPNpvKH36cWsnQr / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WsYt972ZDhNR5pGr": {
    "kind": "question_part",
    "label": "qstn_yBPNpvKH36cWsnQr / part 1",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4GCYMPjDK5gDBHJb": {
    "kind": "question_part",
    "label": "qstn_yBPNpvKH36cWsnQr / part 3",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:3.3",
+     "official_code": "3.3",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_zkhrZFdsfqVWgyJg",
     "spcpt_b5YczdCTkzHM78fH"
    ]
   },
@@ -2127,10 +2358,15 @@
    "label": "qstn_zfjGZDssdpSBVzqY / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DyyBCxCYKhswn2xV": {
    "kind": "question_part",
@@ -2141,8 +2377,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2164,15 +2400,19 @@
    "topic": "group-1",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "pending": []
   },
   "qstnprt_PSWNxNSbtPbcVv2W": {
    "kind": "question_part",
@@ -2183,14 +2423,14 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2215,8 +2455,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2228,15 +2468,19 @@
    "topic": "group-1",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.23",
+     "official_code": "1.23",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_TZdYyX2dCBYKczXj"
-   ]
+   "pending": []
   },
   "qstnprt_5XxHtzMSfsn5JmvM": {
    "kind": "question_part",
@@ -2247,8 +2491,8 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2262,8 +2506,14 @@
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
      "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -2275,10 +2525,16 @@
    "label": "qstn_2GX9rmyzBSKsK6Xg / part 0",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.23C",
+     "official_code": "5.23C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join"
+    }
+   ],
    "pending": [
-    "spcpt_RRgPKhXQ8v8P53vT",
-    "spcpt_H86VZx5v8HxfHgjp"
+    "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
   "qstnprt_hvTW79V86gvfbjDF": {
@@ -2288,25 +2544,35 @@
    "topic": "group-1",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.15",
+     "official_code": "4.15",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_GVbQTwNQW3bW5GVx"
-   ]
+   "pending": []
   },
   "qstnprt_X4nCbhfNZDPBWrWx": {
    "kind": "question_part",
    "label": "qstn_2GX9rmyzBSKsK6Xg / part 3",
    "section": "inorganic-chemistry",
    "topic": "group-1",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_RRgPKhXQ8v8P53vT",
-    "spcpt_9xcymXBvxP7dN5Tp"
+    "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
   "qstnprt_jT4Sj7xM74dssTH6": {
@@ -2319,7 +2585,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2334,12 +2600,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "pending": []
   },
   "qstnprt_pDq2xQ7RWXVCTz6w": {
    "kind": "question_part",
@@ -2351,7 +2621,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2366,7 +2636,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2378,15 +2648,19 @@
    "topic": "group-7",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.23C",
+     "official_code": "5.23C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_H86VZx5v8HxfHgjp"
-   ]
+   "pending": []
   },
   "qstnprt_jFxTNXdg2fPtNGwz": {
    "kind": "question_part",
@@ -2408,7 +2682,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2423,7 +2697,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2438,7 +2712,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2448,10 +2722,15 @@
    "label": "qstn_kPVhF8SPdBkVgPtb / part 3",
    "section": "inorganic-chemistry",
    "topic": "group-7",
-   "codes": [],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_c2nSZbCwkwMhdfMR": {
    "kind": "question_part",
@@ -2463,7 +2742,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2478,7 +2757,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2493,7 +2772,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2503,10 +2782,15 @@
    "label": "qstn_qWwv9P8W8T7NDn7t / part 3",
    "section": "inorganic-chemistry",
    "topic": "group-7",
-   "codes": [],
-   "pending": [
-    "spcpt_fvf69HZzGZk3s6B8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
+     "official_code": "6.4C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HZPDqCspPYjm9zcy": {
    "kind": "question_part",
@@ -2518,7 +2802,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2533,7 +2817,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2548,7 +2832,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2563,12 +2847,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "pending": []
   },
   "qstnprt_bXHdCm4t5nXxTYCQ": {
    "kind": "question_part",
@@ -2580,7 +2868,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2601,7 +2889,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2616,7 +2904,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2631,7 +2919,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2646,7 +2934,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2661,7 +2949,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2686,7 +2974,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2698,10 +2986,10 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2713,10 +3001,10 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2728,10 +3016,10 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2746,7 +3034,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2756,10 +3044,15 @@
    "label": "qstn_kKh3zfSd2BbHrXZC / part 3",
    "section": "inorganic-chemistry",
    "topic": "group-7",
-   "codes": [],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wWpdgRzSPQbfCRxj": {
    "kind": "question_part",
@@ -2771,22 +3064,31 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
+     "official_code": "5.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_Kg7DWhpnXcgMFb4p"
-   ]
+   "pending": []
   },
   "qstnprt_SMB9TwRvH8cQNqWF": {
    "kind": "question_part",
    "label": "qstn_8fn8GkzzSs4cf7mN / part 1",
    "section": "inorganic-chemistry",
    "topic": "group-7",
-   "codes": [],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8rtfXpfjnbpMN7Zp": {
    "kind": "question_part",
@@ -2798,7 +3100,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2813,7 +3115,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2828,7 +3130,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2850,15 +3152,19 @@
    "topic": "group-7",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.23C",
+     "official_code": "5.23C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_H86VZx5v8HxfHgjp"
-   ]
+   "pending": []
   },
   "qstnprt_JNPp8mFQ3rYnXKYp": {
    "kind": "question_part",
@@ -2870,7 +3176,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2882,15 +3188,19 @@
    "topic": "group-7",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.27",
+     "official_code": "4.27",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_v4wDDDCTbN5fZ7gp"
-   ]
+   "pending": []
   },
   "qstnprt_KgCFsMxCGQQbDzFQ": {
    "kind": "question_part",
@@ -2902,12 +3212,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_6MDHMySrg98kKbZM"
-   ]
+   "pending": []
   },
   "qstnprt_qH8TZj2zqKhTfhPF": {
    "kind": "question_part",
@@ -2929,7 +3243,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2941,24 +3255,34 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.23C",
+     "official_code": "5.23C",
+     "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_H86VZx5v8HxfHgjp"
-   ]
+   "pending": []
   },
   "qstnprt_5cVND6FZpYVcX73N": {
    "kind": "question_part",
    "label": "qstn_SD84TB5BdmPRX2RX / part 2",
    "section": "inorganic-chemistry",
    "topic": "group-7",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
+     "official_code": "6.4C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_fvf69HZzGZk3s6B8",
     "spcpt_7hrnS95ZYZC77gkQ"
    ]
   },
@@ -2972,7 +3296,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -2987,7 +3311,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3002,7 +3326,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3014,10 +3338,10 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3032,7 +3356,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3047,7 +3371,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3061,10 +3385,10 @@
    "topic": "group-7",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
-     "official_code": "6.4C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.8C",
+     "official_code": "6.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3074,10 +3398,16 @@
    "label": "qstn_B2RHRjx7qKgJHZkD / part 3",
    "section": "inorganic-chemistry",
    "topic": "group-7",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.6",
+     "official_code": "6.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_sTK7qRNqzfFsVRj7",
-    "spcpt_6MDHMySrg98kKbZM"
+    "spcpt_sTK7qRNqzfFsVRj7"
    ]
   },
   "qstnprt_xhCJtn6PBdzdd9Ss": {
@@ -3100,7 +3430,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3117,7 +3447,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3132,7 +3462,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3142,10 +3472,15 @@
    "label": "qstn_Cm9Q3xQW8G4RKbvb / part 1",
    "section": "organic-chemistry",
    "topic": "alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_kTY9CHD6JdNZF6pJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.3",
+     "official_code": "4.3",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WzwwwnNBGFvx5Sr9": {
    "kind": "question_part",
@@ -3174,7 +3509,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3189,7 +3524,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3224,7 +3559,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3239,7 +3574,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3264,7 +3599,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3279,7 +3614,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3304,7 +3639,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3321,7 +3656,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3336,7 +3671,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3371,7 +3706,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3386,7 +3721,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3416,7 +3751,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3431,7 +3766,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3458,7 +3793,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3473,7 +3808,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3490,7 +3825,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3517,7 +3852,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3544,7 +3879,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3554,10 +3889,15 @@
    "label": "qstn_2fRtFrxtVZRq62n6 / part 3",
    "section": "organic-chemistry",
    "topic": "alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xzrVCN6pk2Yv5J36": {
    "kind": "question_part",
@@ -3566,15 +3906,19 @@
    "topic": "alcohols",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.3",
+     "official_code": "4.3",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_kTY9CHD6JdNZF6pJ"
-   ]
+   "pending": []
   },
   "qstnprt_KS7YvFSGtr7TbJ4V": {
    "kind": "question_part",
@@ -3596,7 +3940,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3610,15 +3954,19 @@
    "topic": "alcohols",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.30",
+     "official_code": "1.30",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.5C",
      "official_code": "8.5C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_fkjvY3dX46CQ8Fnd"
-   ]
+   "pending": []
   },
   "qstnprt_q46Tkn7hzp4j2VtG": {
    "kind": "question_part",
@@ -3627,10 +3975,10 @@
    "topic": "alcohols",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.13C",
@@ -3651,13 +3999,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3678,10 +4026,16 @@
    "label": "qstn_TZ7gbCpQjFw59Dgj / part 1",
    "section": "organic-chemistry",
    "topic": "alcohols",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_jPWvQmDPGgWg7RqC",
-    "spcpt_9xcymXBvxP7dN5Tp"
+    "spcpt_jPWvQmDPGgWg7RqC"
    ]
   },
   "qstnprt_GQ2kwrsQms8V9qRK": {
@@ -3689,10 +4043,15 @@
    "label": "qstn_TZ7gbCpQjFw59Dgj / part 2",
    "section": "organic-chemistry",
    "topic": "alcohols",
-   "codes": [],
-   "pending": [
-    "spcpt_vDTwKjG3N9xB4jKh"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.27",
+     "official_code": "1.27",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FX25nJys3hrxxWYh": {
    "kind": "question_part",
@@ -3701,10 +4060,10 @@
    "topic": "alcohols",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.13C",
@@ -3725,7 +4084,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3740,7 +4099,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -3810,7 +4169,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3840,7 +4199,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3855,7 +4214,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3870,7 +4229,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3910,7 +4269,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3925,7 +4284,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3940,7 +4299,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3980,7 +4339,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -3992,25 +4351,34 @@
    "topic": "carboxylic-acids",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.6C",
      "official_code": "8.6C",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_cDpPpsjdVC9SwrRm"
-   ]
+   "pending": []
   },
   "qstnprt_tVHVBKWSmsCsZNfF": {
    "kind": "question_part",
    "label": "qstn_zkvSrVHxQCSMjpwh / part 0",
    "section": "organic-chemistry",
    "topic": "carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_kTY9CHD6JdNZF6pJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.3",
+     "official_code": "4.3",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VcTwMwbcmQHnhqfg": {
    "kind": "question_part",
@@ -4022,7 +4390,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4037,7 +4405,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4049,15 +4417,19 @@
    "topic": "carboxylic-acids",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.6C",
      "official_code": "8.6C",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_cDpPpsjdVC9SwrRm"
-   ]
+   "pending": []
   },
   "qstnprt_5h9T4BjBdPnTr9Jc": {
    "kind": "question_part",
@@ -4069,13 +4441,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4107,7 +4479,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4117,10 +4489,21 @@
    "label": "qstn_5rYNfcGFxZ5JsjqF / part 3",
    "section": "organic-chemistry",
    "topic": "carboxylic-acids",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.15",
+     "official_code": "2.15",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.16",
+     "official_code": "2.16",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_VTXRmNZhfK7NZmBR",
-    "spcpt_G6Qz3sM8PztvVs3M",
     "spcpt_cpBnmWZwd6vvbzFb"
    ]
   },
@@ -4149,7 +4532,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4164,7 +4547,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4179,7 +4562,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4194,7 +4577,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4209,7 +4592,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4224,7 +4607,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.1C",
      "official_code": "8.1C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4249,7 +4632,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4264,7 +4647,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -4289,15 +4672,19 @@
    "topic": "carboxylic-acids",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.3",
+     "official_code": "4.3",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.6C",
      "official_code": "8.6C",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_kTY9CHD6JdNZF6pJ"
-   ]
+   "pending": []
   },
   "qstnprt_9KSD5htNC37xvGWf": {
    "kind": "question_part",
@@ -4319,7 +4706,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4344,7 +4731,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4369,10 +4756,15 @@
    "label": "qstn_bVjdDvZWqQs2kxzT / part 2",
    "section": "organic-chemistry",
    "topic": "carboxylic-acids",
-   "codes": [],
-   "pending": [
-    "spcpt_ZfpZfvp36mHB7vrb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tD9HdQYZ3WXvhCBk": {
    "kind": "question_part",
@@ -4399,7 +4791,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4414,12 +4806,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.15C",
      "official_code": "8.15C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
     }
    ],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "pending": []
   },
   "qstnprt_ztmZJxQVsh8QQw7G": {
    "kind": "question_part",
@@ -4431,7 +4827,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4446,7 +4842,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4461,7 +4857,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -4478,7 +4874,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4493,7 +4889,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4508,7 +4904,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -4525,7 +4921,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4537,10 +4933,10 @@
    "topic": "esters",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4555,7 +4951,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.15C",
      "official_code": "8.15C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4570,7 +4966,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.15C",
      "official_code": "8.15C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4580,10 +4976,15 @@
    "label": "qstn_Rq7zgrF78kVynpf4 / part 2",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_jNGzkDHQcV7nFK2q"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
+     "official_code": "8.8C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YtZRFy3m2cCpZKtP": {
    "kind": "question_part",
@@ -4595,7 +4996,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4610,7 +5011,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4625,7 +5026,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4640,7 +5041,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -4657,7 +5058,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4672,7 +5073,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4687,7 +5088,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.15C",
      "official_code": "8.15C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4702,7 +5103,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4734,16 +5135,16 @@
    "topic": "esters",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4783,7 +5184,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4795,16 +5196,16 @@
    "topic": "esters",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4819,7 +5220,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4834,13 +5235,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.8C",
      "official_code": "8.8C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4862,10 +5263,10 @@
    "topic": "esters",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -4887,10 +5288,15 @@
    "label": "qstn_952Sqy4vtn3KMxkx / part 4",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dnKJyq3FYDBYSQkK": {
    "kind": "question_part",
@@ -4902,7 +5308,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4917,12 +5323,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
     }
    ],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "pending": []
   },
   "qstnprt_s5Dkp3vFJ6mQtfrr": {
    "kind": "question_part",
@@ -4934,7 +5344,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4949,7 +5359,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -4966,7 +5376,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4981,7 +5391,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -4991,20 +5401,30 @@
    "label": "qstn_ysN4vzMs5RGTXJKN / part 2",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_ZfpZfvp36mHB7vrb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hCYKtjbCh2XPCkbh": {
    "kind": "question_part",
    "label": "qstn_ysN4vzMs5RGTXJKN / part 3",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_ZfpZfvp36mHB7vrb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zzms8W84f5nzyQw5": {
    "kind": "question_part",
@@ -5016,7 +5436,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5031,7 +5451,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.15C",
      "official_code": "8.15C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -5043,20 +5463,30 @@
    "label": "qstn_X9kqzbXnhDhVfPYc / part 2",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NCsfyMSrc4mhQMMT": {
    "kind": "question_part",
    "label": "qstn_X9kqzbXnhDhVfPYc / part 3",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZbXtZrzSdpnGBmCv": {
    "kind": "question_part",
@@ -5065,10 +5495,10 @@
    "topic": "esters",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5083,7 +5513,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.10C",
      "official_code": "8.10C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5093,20 +5523,30 @@
    "label": "qstn_8Zsk8wjqBZcNfzh4 / part 2",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_9xcymXBvxP7dN5Tp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WqSH47Z4kcBMXSMs": {
    "kind": "question_part",
    "label": "qstn_8Zsk8wjqBZcNfzh4 / part 3",
    "section": "organic-chemistry",
    "topic": "esters",
-   "codes": [],
-   "pending": [
-    "spcpt_fkjvY3dX46CQ8Fnd"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.30",
+     "official_code": "1.30",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7JzJNrrFvqwT6Y2F": {
    "kind": "question_part",
@@ -5118,7 +5558,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.19",
      "official_code": "8.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5133,7 +5573,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.19",
      "official_code": "8.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -5205,10 +5645,15 @@
    "label": "qstn_S7FscW7WRmcwk5g7 / part 3",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NXNPYwnsmg4Fmd8z": {
    "kind": "question_part",
@@ -5220,7 +5665,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.22C",
      "official_code": "8.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5241,10 +5686,15 @@
    "label": "qstn_9RZQT8zrTF7spKyS / part 0",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_ZfpZfvp36mHB7vrb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Rwt44FX5tnbJX6w3": {
    "kind": "question_part",
@@ -5288,7 +5738,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.19",
      "official_code": "8.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -5310,10 +5760,15 @@
    "label": "qstn_Hkrq5XQhRW4Zdkp3 / part 0",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZYC9DnGM9NKsfS9n": {
    "kind": "question_part",
@@ -5335,7 +5790,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.16",
@@ -5351,20 +5806,30 @@
    "label": "qstn_W8HkJzkKdVyq6byH / part 2",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_85WzKt3F5nBJm92R": {
    "kind": "question_part",
    "label": "qstn_W8HkJzkKdVyq6byH / part 3",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6J4NBZMbdMw3Ttbj": {
    "kind": "question_part",
@@ -5391,10 +5856,16 @@
    "label": "qstn_scbQ6Y4gtTKQYmS7 / part 2",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_jPWvQmDPGgWg7RqC",
-    "spcpt_9xcymXBvxP7dN5Tp"
+    "spcpt_jPWvQmDPGgWg7RqC"
    ]
   },
   "qstnprt_9mDhdksCMpwrP5jT": {
@@ -5427,19 +5898,30 @@
    "label": "qstn_5VxmTschVQBV6HbH / part 2",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vxkcH8bZmNqhhZfS": {
    "kind": "question_part",
    "label": "qstn_pZjtTcnqSVC5hMrN / part 0",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.27",
+     "official_code": "4.27",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_v4wDDDCTbN5fZ7gp",
     "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
@@ -5485,7 +5967,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.19",
      "official_code": "8.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5495,30 +5977,45 @@
    "label": "qstn_yQzPmxyjmdrJJJQ4 / part 0",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_862DgGgnw6Jp9qrC": {
    "kind": "question_part",
    "label": "qstn_yQzPmxyjmdrJJJQ4 / part 1",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_K5wWzRzkn93bnrYh": {
    "kind": "question_part",
    "label": "qstn_yQzPmxyjmdrJJJQ4 / part 2",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
-   "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nkJqD5WsHBDhhG4H": {
    "kind": "question_part",
@@ -5530,7 +6027,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:8.22C",
      "official_code": "8.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5540,10 +6037,16 @@
    "label": "qstn_sDqXgqhMSjcNyBNt / part 0",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.3",
+     "official_code": "4.3",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
    "pending": [
-    "spcpt_VwybskmpnnBhx5sh",
-    "spcpt_kTY9CHD6JdNZF6pJ"
+    "spcpt_VwybskmpnnBhx5sh"
    ]
   },
   "qstnprt_dnqygvdkrZQNhPGz": {
@@ -5551,9 +6054,15 @@
    "label": "qstn_sDqXgqhMSjcNyBNt / part 1",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:8.20C",
+     "official_code": "8.20C",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
    "pending": [
-    "spcpt_kYg5Znzk8ZcBSWPW",
     "spcpt_7jg5zgWzPQsFCy2g"
    ]
   },
@@ -5572,10 +6081,16 @@
    "label": "qstn_sDqXgqhMSjcNyBNt / part 3",
    "section": "organic-chemistry",
    "topic": "synthetic-polymers",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_Vj2fjb7dCn6cBJFY",
-    "spcpt_cDpPpsjdVC9SwrRm"
+    "spcpt_Vj2fjb7dCn6cBJFY"
    ]
   },
   "qstnprt_fgmkHXtkhMxw7mNy": {
@@ -5595,15 +6110,19 @@
    "topic": "reaction-rates",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.7",
      "official_code": "7.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "pending": []
   },
   "qstnprt_dcpTSP7xdcHXfJVf": {
    "kind": "question_part",
@@ -5640,10 +6159,15 @@
    "label": "qstn_CXtm4w2Mx6tzYP5C / part 0",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sXsRj56tjFrcT3DH": {
    "kind": "question_part",
@@ -5670,20 +6194,30 @@
    "label": "qstn_hxTPCZnfbwKZBKKk / part 1",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JhwPQk8m44jcVTFr": {
    "kind": "question_part",
    "label": "qstn_hxTPCZnfbwKZBKKk / part 2",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zcCxXPZc68TfZXtN": {
    "kind": "question_part",
@@ -5700,10 +6234,16 @@
    "label": "qstn_22XnhZ42g9nHsx5m / part 1",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.20",
+     "official_code": "2.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_RRgPKhXQ8v8P53vT",
-    "spcpt_C4cMz4fxPDkT9Knq"
+    "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
   "qstnprt_fPq5h7kcR8nb7fdP": {
@@ -5711,10 +6251,15 @@
    "label": "qstn_22XnhZ42g9nHsx5m / part 2",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kvjD589jbb2BRb4g": {
    "kind": "question_part",
@@ -5746,7 +6291,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5756,20 +6301,30 @@
    "label": "qstn_5RYHw4BCZJNy7dSk / part 2",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yN8V35RGvCGYYBWN": {
    "kind": "question_part",
    "label": "qstn_5RYHw4BCZJNy7dSk / part 4",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DvPxMcvrhgtDhdgT": {
    "kind": "question_part",
@@ -5781,7 +6336,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5791,61 +6346,96 @@
    "label": "qstn_Hft4wwBv5Th3RxfW / part 1",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bC5BxWRmwxJDv3D5": {
    "kind": "question_part",
    "label": "qstn_Hft4wwBv5Th3RxfW / part 2",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wwHMpswc5TWCBS93": {
    "kind": "question_part",
    "label": "qstn_Hft4wwBv5Th3RxfW / part 3",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nktXPJqCz5745qkM": {
    "kind": "question_part",
    "label": "qstn_tw2KsBBX9JzbtKQf / part 0",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_G6KnVryGR4gKvqJ3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.1",
+     "official_code": "7.1",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hpKT9kDM4Tn6DHH4": {
    "kind": "question_part",
    "label": "qstn_tw2KsBBX9JzbtKQf / part 1",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_RjYfRNttk4X4yw2w"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:3.5C",
+     "official_code": "3.5C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8JKtC9y3zt52CtsQ": {
    "kind": "question_part",
    "label": "qstn_zkffyvYJqGnfxFQk / part 0",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB",
-    "spcpt_G6KnVryGR4gKvqJ3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.1",
+     "official_code": "7.1",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DyNbzpnxxcDvSzNb": {
    "kind": "question_part",
@@ -5879,7 +6469,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.7",
      "official_code": "7.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5904,7 +6494,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.7",
      "official_code": "7.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -5964,10 +6554,15 @@
    "label": "qstn_WhhCydYvRzCrDX6k / part 0",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_C4cMz4fxPDkT9Knq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.20",
+     "official_code": "2.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2B2hpNWg3s4Gzcpw": {
    "kind": "question_part",
@@ -5996,25 +6591,35 @@
    "topic": "reaction-rates",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.10",
+     "official_code": "1.10",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_ZmHD9BWP7GQyGFHV"
-   ]
+   "pending": []
   },
   "qstnprt_qByyNVdTNzBCwTHk": {
    "kind": "question_part",
    "label": "qstn_ZpJDW5Ft8DWr2sD7 / part 1",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
    "pending": [
-    "spcpt_YMhbzkT2NJJP32NN",
-    "spcpt_tt9J38w3QzyqM9YB"
+    "spcpt_YMhbzkT2NJJP32NN"
    ]
   },
   "qstnprt_6w4msC7jwtSBzzFr": {
@@ -6062,10 +6667,16 @@
    "label": "qstn_H8pTzX2tZFVGgTn3 / part 0",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.20",
+     "official_code": "2.20",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_RRgPKhXQ8v8P53vT",
-    "spcpt_C4cMz4fxPDkT9Knq"
+    "spcpt_RRgPKhXQ8v8P53vT"
    ]
   },
   "qstnprt_wmBWVvh59FGpTSWp": {
@@ -6073,10 +6684,15 @@
    "label": "qstn_H8pTzX2tZFVGgTn3 / part 2",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_tt9J38w3QzyqM9YB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.2",
+     "official_code": "7.2",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8zKQzndXBZ34rkZ4": {
    "kind": "question_part",
@@ -6113,10 +6729,15 @@
    "label": "qstn_9rsTMdrBng6KWQZg / part 1",
    "section": "physical-chemistry",
    "topic": "reaction-rates",
-   "codes": [],
-   "pending": [
-    "spcpt_G6KnVryGR4gKvqJ3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.1",
+     "official_code": "7.1",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_49YYNw49HzJjmYR8": {
    "kind": "question_part",
@@ -6145,10 +6766,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6163,7 +6784,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6178,7 +6799,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6193,7 +6814,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6208,7 +6829,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6223,7 +6844,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6277,10 +6898,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6307,10 +6928,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6340,7 +6961,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -6354,10 +6975,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6402,7 +7023,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:7.9",
      "official_code": "7.9",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6427,10 +7048,16 @@
    "label": "qstn_bdtN7bkrXWkT523T / part 2",
    "section": "physical-chemistry",
    "topic": "reversible-reactions-and-equilibria",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.29",
+     "official_code": "1.29",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_Z69R3dXWNZxNKyZD",
-    "spcpt_9xcymXBvxP7dN5Tp"
+    "spcpt_Z69R3dXWNZxNKyZD"
    ]
   },
   "qstnprt_sGSfg3fhzBHX6dn6": {
@@ -6455,10 +7082,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6470,10 +7097,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6510,10 +7137,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6555,10 +7182,16 @@
    "label": "qstn_DHN7ZDWr2hPzXkpb / part 1",
    "section": "physical-chemistry",
    "topic": "reversible-reactions-and-equilibria",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.21",
+     "official_code": "2.21",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_rc6J89bdxv7pZ2dW",
-    "spcpt_BdD8RRbRZ3hJngBd"
+    "spcpt_rc6J89bdxv7pZ2dW"
    ]
   },
   "qstnprt_gNj9xkYjpns7wFbR": {
@@ -6568,10 +7201,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6583,10 +7216,10 @@
    "topic": "reversible-reactions-and-equilibria",
    "codes": [
     {
-     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.12C",
-     "official_code": "7.12C",
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:7.11C",
+     "official_code": "7.11C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6651,10 +7284,16 @@
    "label": "qstn_cPZ8rjCwXMwqhj9R / part 2",
    "section": "physical-chemistry",
    "topic": "reversible-reactions-and-equilibria",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.27",
+     "official_code": "1.27",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_Z69R3dXWNZxNKyZD",
-    "spcpt_vDTwKjG3N9xB4jKh"
+    "spcpt_Z69R3dXWNZxNKyZD"
    ]
   },
   "qstnprt_hsx9cPfwDY2z37Yj": {
@@ -6727,32 +7366,46 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "pending": []
   },
   "qstnprt_FBnm6bcwnHGjP3p7": {
    "kind": "question_part",
    "label": "qstn_n4WHCJdRJF9nb2HY / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pccyStDhZ59Nv7qj": {
    "kind": "question_part",
    "label": "qstn_n4WHCJdRJF9nb2HY / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jxSHFTK9jpHXdv2j": {
    "kind": "question_part",
@@ -6774,7 +7427,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6789,7 +7442,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6804,7 +7457,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6819,7 +7472,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6834,7 +7487,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6854,10 +7507,15 @@
    "label": "qstn_d89n4RHRXzCKfzwm / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ypR8dQtB3X4nTK6Y": {
    "kind": "question_part",
@@ -6869,7 +7527,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6884,7 +7542,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6894,50 +7552,75 @@
    "label": "qstn_6WJnHKzjM7XW5F37 / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Kg7DWhpnXcgMFb4p"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
+     "official_code": "5.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dsR6RVDjDjvpWRRs": {
    "kind": "question_part",
    "label": "qstn_6WJnHKzjM7XW5F37 / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_KVx4rdfs8MJ58hVT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.19C",
+     "official_code": "5.19C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fyKSKPV5K5HXpnmn": {
    "kind": "question_part",
    "label": "qstn_6WJnHKzjM7XW5F37 / part 2",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6QFBPmnpv9Cjjq6t": {
    "kind": "question_part",
    "label": "qstn_6WJnHKzjM7XW5F37 / part 3",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_r9hCVjyr36yrjhDz": {
    "kind": "question_part",
    "label": "qstn_tywyMxq5PGm6mts4 / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_ZfpZfvp36mHB7vrb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.33",
+     "official_code": "1.33",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZM5n8DHNp7P4yW9N": {
    "kind": "question_part",
@@ -6954,10 +7637,15 @@
    "label": "qstn_tywyMxq5PGm6mts4 / part 2",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Kg7DWhpnXcgMFb4p"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
+     "official_code": "5.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sdPkc4sQp9wjNVtR": {
    "kind": "question_part",
@@ -6969,7 +7657,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -6984,12 +7672,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "pending": []
   },
   "qstnprt_C6B9ckTQ5tZNztnr": {
    "kind": "question_part",
@@ -7001,12 +7693,16 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "pending": []
   },
   "qstnprt_33KnJQGKMjDQ2zQj": {
    "kind": "question_part",
@@ -7015,15 +7711,19 @@
    "topic": "covalent-bonding",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.2",
+     "official_code": "1.2",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_zg4nk7dkKrxDrBP9"
-   ]
+   "pending": []
   },
   "qstnprt_qnt4W5sV4tRXgY4W": {
    "kind": "question_part",
@@ -7035,7 +7735,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7045,30 +7745,46 @@
    "label": "qstn_6PhmF2cPwJr3z5Cb / part 2",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QgRGZPHdVqcVnS9c": {
    "kind": "question_part",
    "label": "qstn_FD6XHRFJrd56S8sY / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_nfzJcFrdvtrWcsny"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.19",
+     "official_code": "1.19",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5vQH9ZdKgVPxDKSq": {
    "kind": "question_part",
    "label": "qstn_FD6XHRFJrd56S8sY / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:4.22",
+     "official_code": "4.22",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
     "spcpt_RRgPKhXQ8v8P53vT",
-    "spcpt_QNyPFTfrcqrWKKZX",
     "spcpt_54rFt6VnHDjnKPGp"
    ]
   },
@@ -7077,10 +7793,15 @@
    "label": "qstn_FD6XHRFJrd56S8sY / part 2",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_drjvch9HDpZb37qg": {
    "kind": "question_part",
@@ -7097,30 +7818,45 @@
    "label": "qstn_BfsWV7943ZYqRmrW / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rGZttd7r2QXzzgF4": {
    "kind": "question_part",
    "label": "qstn_BfsWV7943ZYqRmrW / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sKwrjy3GzzDXqpx5": {
    "kind": "question_part",
    "label": "qstn_BfsWV7943ZYqRmrW / part 2",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y8X4ddptHN6HyGgG": {
    "kind": "question_part",
@@ -7132,7 +7868,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -7144,10 +7880,15 @@
    "label": "qstn_P6k7W83S47MVTvvx / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xnV8S9n9fsdSsDcK": {
    "kind": "question_part",
@@ -7159,13 +7900,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7175,10 +7916,16 @@
    "label": "qstn_67pBQSPTtZ3KmG4y / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
    "pending": [
-    "spcpt_54rFt6VnHDjnKPGp",
-    "spcpt_2nVbXbMc8TvjBNDp"
+    "spcpt_54rFt6VnHDjnKPGp"
    ]
   },
   "qstnprt_BQ2sWZqDx5Zqd734": {
@@ -7196,21 +7943,36 @@
    "label": "qstn_3T3nhQTND75YMw7Z / part 1",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qd2bFQpW5v9JGQSD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.14",
+     "official_code": "5.14",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5Xx9FtKVyY5wQ6Gk": {
    "kind": "question_part",
    "label": "qstn_Dm6xZ75XRf6WcPcP / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_G6Qz3sM8PztvVs3M",
-    "spcpt_BdD8RRbRZ3hJngBd"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.15",
+     "official_code": "2.15",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.21",
+     "official_code": "2.21",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wBc3gJMDj4GjY7Kq": {
    "kind": "question_part",
@@ -7222,7 +7984,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.12",
      "official_code": "6.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7237,13 +7999,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7253,10 +8015,15 @@
    "label": "qstn_ZTThQ33d8G6xZ7DN / part 0",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_2nVbXbMc8TvjBNDp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.8",
+     "official_code": "5.8",
+     "tier": "T4_fuzzy",
+     "method": "note_coverage_join (statement-token coverage by anchored note section, committed RN corpora)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SzxrqCMDyqj46kqX": {
    "kind": "question_part",
@@ -7273,10 +8040,15 @@
    "label": "qstn_ZTThQ33d8G6xZ7DN / part 2",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_KVx4rdfs8MJ58hVT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.19C",
+     "official_code": "5.19C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DDMTtm99pyrPgJ2d": {
    "kind": "question_part",
@@ -7298,7 +8070,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7323,7 +8095,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7338,7 +8110,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7348,10 +8120,16 @@
    "label": "qstn_4HzbrGQxrtdVKwdS / part 4",
    "section": "principles-of-chemistry",
    "topic": "covalent-bonding",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
+     "official_code": "5.6",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_VwybskmpnnBhx5sh",
-    "spcpt_Kg7DWhpnXcgMFb4p"
+    "spcpt_VwybskmpnnBhx5sh"
    ]
   },
   "qstnprt_8MFrRcywDDg72kpC": {
@@ -7364,7 +8142,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7379,7 +8157,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7394,7 +8172,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.13",
      "official_code": "5.13",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7419,7 +8197,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7434,7 +8212,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7446,15 +8224,19 @@
    "topic": "electrolysis",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_N93k8wnNjF4KbMNQ"
-   ]
+   "pending": []
   },
   "qstnprt_m3FDjSNVtK6CbjzW": {
    "kind": "question_part",
@@ -7466,7 +8248,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7478,15 +8260,19 @@
    "topic": "electrolysis",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_N93k8wnNjF4KbMNQ"
-   ]
+   "pending": []
   },
   "qstnprt_XRXWdSxhWYNrkRk2": {
    "kind": "question_part",
@@ -7498,7 +8284,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7510,15 +8296,19 @@
    "topic": "electrolysis",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_N93k8wnNjF4KbMNQ"
-   ]
+   "pending": []
   },
   "qstnprt_KGYb2GQhkQ4PkGhb": {
    "kind": "question_part",
@@ -7530,7 +8320,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7545,7 +8335,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7575,7 +8365,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -7622,7 +8412,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -7674,10 +8464,16 @@
    "label": "qstn_m9nk97B6gKTpdJtJ / part 1",
    "section": "principles-of-chemistry",
    "topic": "electrolysis",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_sTK7qRNqzfFsVRj7",
-    "spcpt_N93k8wnNjF4KbMNQ"
+    "spcpt_sTK7qRNqzfFsVRj7"
    ]
   },
   "qstnprt_k5BRsv9n8DhVBzZM": {
@@ -7700,11 +8496,21 @@
    "label": "qstn_CkJYGXj95HzS7t4p / part 1",
    "section": "principles-of-chemistry",
    "topic": "electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_xPYYksrdQFdytpXw",
-    "spcpt_4Dqgt6ydPfwyjwJS"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.2",
+     "official_code": "2.2",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.3",
+     "official_code": "2.3",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tywk8Xfpq97F2kR5": {
    "kind": "question_part",
@@ -7716,7 +8522,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -7728,11 +8534,21 @@
    "label": "qstn_CkJYGXj95HzS7t4p / part 3",
    "section": "principles-of-chemistry",
    "topic": "electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_RjYfRNttk4X4yw2w",
-    "spcpt_H86VZx5v8HxfHgjp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:3.5C",
+     "official_code": "3.5C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.23C",
+     "official_code": "5.23C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MqT2TKkWvHvFwB8M": {
    "kind": "question_part",
@@ -7744,7 +8560,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.15",
      "official_code": "6.15",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7759,7 +8575,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7781,25 +8597,34 @@
    "topic": "electrolysis",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.19C",
+     "official_code": "5.19C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_KVx4rdfs8MJ58hVT"
-   ]
+   "pending": []
   },
   "qstnprt_YpVNknbwhHJCwdHD": {
    "kind": "question_part",
    "label": "qstn_y9QfFW45N8Q7pNZS / part 1",
    "section": "principles-of-chemistry",
    "topic": "electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_BdD8RRbRZ3hJngBd"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.21",
+     "official_code": "2.21",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5btFgYJwSw8b5Qks": {
    "kind": "question_part",
@@ -7811,7 +8636,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7826,7 +8651,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7846,10 +8671,15 @@
    "label": "qstn_9ZqQB8DSXcHnBrQk / part 1",
    "section": "principles-of-chemistry",
    "topic": "electrolysis",
-   "codes": [],
-   "pending": [
-    "spcpt_N93k8wnNjF4KbMNQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FzKPVdN487js3Z4h": {
    "kind": "question_part",
@@ -7861,7 +8691,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7886,7 +8716,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7901,7 +8731,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7916,13 +8746,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.22C",
      "official_code": "5.22C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7937,7 +8767,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7949,15 +8779,19 @@
    "topic": "ionic-bonding",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "pending": []
   },
   "qstnprt_YMKVbj298wpm9k2T": {
    "kind": "question_part",
@@ -7969,7 +8803,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7984,7 +8818,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -7996,15 +8830,19 @@
    "topic": "ionic-bonding",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "pending": []
   },
   "qstnprt_jdR5HsYZGFKQ3qDb": {
    "kind": "question_part",
@@ -8016,7 +8854,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8031,7 +8869,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8056,7 +8894,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8083,7 +8921,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.3",
      "official_code": "5.3",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8108,7 +8946,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8123,7 +8961,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8133,10 +8971,15 @@
    "label": "qstn_HpBBQHpp6SPZNt94 / part 3",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TbwQy38PbbKZzYBf": {
    "kind": "question_part",
@@ -8163,20 +9006,30 @@
    "label": "qstn_cY4KBZxRWNC2W2pG / part 2",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QqZvFmh9H24g7DyR": {
    "kind": "question_part",
    "label": "qstn_cY4KBZxRWNC2W2pG / part 3",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GfqYwGMrcbPwNQ44": {
    "kind": "question_part",
@@ -8198,7 +9051,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.3",
      "official_code": "5.3",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8215,7 +9068,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8230,7 +9083,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8252,15 +9105,19 @@
    "topic": "ionic-bonding",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.20",
+     "official_code": "1.20",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_qH39c5p2KZXPnbVD"
-   ]
+   "pending": []
   },
   "qstnprt_PZ7SJ7z7VF3yrDYk": {
    "kind": "question_part",
@@ -8272,7 +9129,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.11",
      "official_code": "6.11",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8289,7 +9146,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8316,28 +9173,37 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "pending": []
   },
   "qstnprt_Vg72gRz6hhzR3rKQ": {
    "kind": "question_part",
    "label": "qstn_RYbcJQFw5dcSpFY4 / part 1",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JhGP9WQ8VjxQ7sxR": {
    "kind": "question_part",
@@ -8349,7 +9215,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.3",
      "official_code": "5.3",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8364,7 +9230,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8397,7 +9263,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.19",
      "official_code": "6.19",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8407,10 +9273,15 @@
    "label": "qstn_TTYPRpHZnJZfkjCf / part 3",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y2GHVmKk4dGGQgsR": {
    "kind": "question_part",
@@ -8422,7 +9293,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.18C",
      "official_code": "5.18C",
      "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8437,7 +9308,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.7",
      "official_code": "6.7",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8457,11 +9328,21 @@
    "label": "qstn_FBz9qNPSJNR6vhSq / part 3",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_N93k8wnNjF4KbMNQ",
-    "spcpt_CdjB9TGQ4gfwcV5D"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.19C",
+     "official_code": "5.19C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fbbz3CMPXptFTryy": {
    "kind": "question_part",
@@ -8473,7 +9354,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.24C",
      "official_code": "5.24C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8510,13 +9391,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.12",
      "official_code": "5.12",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8566,10 +9447,15 @@
    "label": "qstn_N4nSqv69hmTB6ny9 / part 3",
    "section": "principles-of-chemistry",
    "topic": "ionic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SDqWkjxpcVS64NPB": {
    "kind": "question_part",
@@ -8581,7 +9467,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8636,40 +9522,60 @@
    "label": "qstn_RMrJH6wjH2q723Qj / part 2",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SVGRm5nHBgc3jWzd": {
    "kind": "question_part",
    "label": "qstn_RMrJH6wjH2q723Qj / part 3",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hsC25TcF69pDD75R": {
    "kind": "question_part",
    "label": "qstn_RMrJH6wjH2q723Qj / part 4",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_v9HZpy8vKVbQmbVz": {
    "kind": "question_part",
    "label": "qstn_vCP5tbpYDkMfFjJk / part 0",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_qH39c5p2KZXPnbVD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:1.20",
+     "official_code": "1.20",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G6NbhCDBNp6RGFSs": {
    "kind": "question_part",
@@ -8681,7 +9587,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": [
@@ -8743,10 +9649,15 @@
    "label": "qstn_WTJvWFrPFTYjbPXc / part 2",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KSG6HPvRGpTGC987": {
    "kind": "question_part",
@@ -8788,7 +9699,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8828,20 +9739,31 @@
    "label": "qstn_b3qxVCR5PkBS4kMF / part 3",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FSNcFgGqxq9j2px9": {
    "kind": "question_part",
    "label": "qstn_FT363dTzCTyWtn6j / part 0",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.4C",
+     "official_code": "6.4C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
    "pending": [
-    "spcpt_XNyFmvmKmpCXPC6k",
-    "spcpt_fvf69HZzGZk3s6B8"
+    "spcpt_XNyFmvmKmpCXPC6k"
    ]
   },
   "qstnprt_xmszHFVvNdr8rVFt": {
@@ -8849,10 +9771,15 @@
    "label": "qstn_FT363dTzCTyWtn6j / part 1",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_cfGb4JXVXgz4CcMZ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
+     "official_code": "6.3",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5wwWtxYsB259jttF": {
    "kind": "question_part",
@@ -8864,13 +9791,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8880,10 +9807,15 @@
    "label": "qstn_FT363dTzCTyWtn6j / part 3",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QsJJM8bGbtdDKSJ6": {
    "kind": "question_part",
@@ -8895,7 +9827,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
@@ -8926,7 +9858,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.3",
      "official_code": "5.3",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8936,10 +9868,15 @@
    "label": "qstn_VKCXV2v8s7khd6Jg / part 3",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8TtfCZ6Ms2xH8byN": {
    "kind": "question_part",
@@ -8951,7 +9888,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8966,7 +9903,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -8976,20 +9913,30 @@
    "label": "qstn_smZRp7gcPPmNXQrd / part 1",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_SZggM3C3bTcwwTzh"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:6.10",
+     "official_code": "6.10",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WvK4Rhdprf5FQvFd": {
    "kind": "question_part",
    "label": "qstn_smZRp7gcPPmNXQrd / part 2",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TP95Z7kRwv9t9v4k": {
    "kind": "question_part",
@@ -9001,7 +9948,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
@@ -9067,20 +10014,30 @@
    "label": "qstn_pzwF2dMcpJZ67pj2 / part 1",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NCVsjqGgg22WTMYP": {
    "kind": "question_part",
    "label": "qstn_pzwF2dMcpJZ67pj2 / part 2",
    "section": "principles-of-chemistry",
    "topic": "metallic-bonding",
-   "codes": [],
-   "pending": [
-    "spcpt_Wy4ZGtw52sFZDBYb"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:2.13C",
+     "official_code": "2.13C",
+     "tier": "S1_name_match",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jcr6tTcz6MfCF7ty": {
    "kind": "question_part",
@@ -9107,13 +10064,13 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.17C",
      "official_code": "5.17C",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.5",
      "official_code": "5.5",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     }
    ],
    "pending": []
@@ -9128,7 +10085,7 @@
      "official_id": "IGCSE_CHEMISTRY_MODULAR:5.6",
      "official_code": "5.6",
      "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "method": "name_to_statement_join (full-pool, sub_items)"
     },
     {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
@@ -9146,15 +10103,19 @@
    "topic": "metallic-bonding",
    "codes": [
     {
+     "official_id": "IGCSE_CHEMISTRY_MODULAR:5.20C",
+     "official_code": "5.20C",
+     "tier": "S2_name_ambiguous",
+     "method": "name_to_statement_join (full-pool, sub_items)"
+    },
+    {
      "official_id": "IGCSE_CHEMISTRY_MODULAR:6.3",
      "official_code": "6.3",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_yjv7ynM9xnXXFtSp"
-   ]
+   "pending": []
   },
   "qstnprt_btwhCcnDyrhncKGx": {
    "kind": "question_part",

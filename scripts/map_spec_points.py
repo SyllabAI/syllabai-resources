@@ -20,7 +20,7 @@ structure validation gaps. Outputs:
   SME-ExamQuestion/<course>/spec_point_map.json
   Official-Specifications/parsed/_sme_map_report.json
 """
-import json, os, re, difflib, datetime
+import argparse, json, os, re, difflib, datetime
 
 BASE = "/home/z/my-project/download/syllabai-resources"
 PARSED = os.path.join(BASE, "Official-Specifications", "parsed")
@@ -66,8 +66,11 @@ def load_qual(slug):
     return {"pts": pts, "excluded": excluded, "by_topic": by_topic, "struct": struct}
 
 QUALS = {}
-for q in manifest["qualifications"]:
-    QUALS[q["slug"]] = load_qual(q["slug"])
+
+def get_qual(slug):
+    if slug not in QUALS:
+        QUALS[slug] = load_qual(slug)
+    return QUALS[slug]
 
 # ---------- course -> candidate restriction ----------
 
@@ -75,7 +78,7 @@ def course_scope(course, qual_slug):
     """Return (unit_key, tier_key, blocked_reason). unit_key restricts to a
     unit via structure.json spec_point_units; tier_key restricts linear
     maths-a pools via applicability.tier."""
-    struct = QUALS[qual_slug]["struct"]
+    struct = get_qual(qual_slug)["struct"]
     if struct is None:
         # linear maths-a: no units, but SME courses are tier-scoped
         if qual_slug == "igcse-maths-a":
@@ -103,7 +106,7 @@ def course_scope(course, qual_slug):
     return None, None, None
 
 def candidates_for(qual_slug, unit_key, tier_key=None):
-    q = QUALS[qual_slug]
+    q = get_qual(qual_slug)
     su = q["struct"]["spec_point_units"] if q["struct"] else None
     out = []
     for p in q["pts"]:
@@ -188,8 +191,8 @@ def map_regime_A(course, qual_slug, entries, unit_key=None, tier_key=None):
             mappings[sid] = {
                 "official_id": best["id"], "official_code": best["official_code"],
                 "tier": tier, "score": round(bs, 4),
-                "unit": (QUALS[qual_slug]["struct"]["spec_point_units"].get(best["id"])
-                         if QUALS[qual_slug]["struct"] else None),
+                "unit": (get_qual(qual_slug)["struct"]["spec_point_units"].get(best["id"])
+                         if get_qual(qual_slug)["struct"] else None),
                 "method": "definition_text_join",
             }
             if flag:
@@ -248,8 +251,8 @@ def map_regime_B(course, qual_slug, entries, unit_key=None, tier_key=None):
         mappings[sid] = {
             "official_id": best["id"], "official_code": best["official_code"],
             "tier": tier, "score": round(bs, 4),
-            "unit": (QUALS[qual_slug]["struct"]["spec_point_units"].get(best["id"])
-                     if QUALS[qual_slug]["struct"] else None),
+            "unit": (get_qual(qual_slug)["struct"]["spec_point_units"].get(best["id"])
+                     if get_qual(qual_slug)["struct"] else None),
             "method": "name_to_statement_join",
         }
         if flag:
@@ -260,16 +263,29 @@ def map_regime_B(course, qual_slug, entries, unit_key=None, tier_key=None):
 # ---------- run all courses ---------- (function; import-safe)
 
 
-def run_all():
-    # ---------- run all courses ----------
+def run_all(only_courses=None):
+    # ---------- run all courses (optionally filtered) ----------
 
-    report = {"schema": "syllabai.sme-spec-point-map-report/1.0",
-              "generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-              "courses": {}}
+    report_path = os.path.join(PARSED, "_sme_map_report.json")
+    if only_courses:
+        # filtered run: merge into the existing report, never clobber it
+        try:
+            report = json.load(open(report_path))
+        except Exception:
+            report = {"schema": "syllabai.sme-spec-point-map-report/1.0",
+                      "generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                      "courses": {}}
+        report.setdefault("courses", {})
+    else:
+        report = {"schema": "syllabai.sme-spec-point-map-report/1.0",
+                  "generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                  "courses": {}}
 
     for q in manifest["qualifications"]:
         qual_slug = q["slug"]
         for course in q["sme_courses"]:
+            if only_courses and course not in only_courses:
+                continue
             idx_path = os.path.join(SME, course, "spec_point_index.json")
             entries = json.load(open(idx_path))["spec_points"]
             unit_key, tier_key, blocked = course_scope(course, qual_slug)
@@ -322,7 +338,7 @@ def run_all():
             print(f"[{course}] qual={qual_slug} regime={regime} scope={unit_key or '-'} "
                   f"mapped={len(mappings)}/{len(entries)} tiers={tiers} unmapped={len(unmapped)} flags={len(flags)}")
 
-    with open(os.path.join(PARSED, "_sme_map_report.json"), "w") as f:
+    with open(report_path, "w") as f:
         json.dump(report, f, indent=1, ensure_ascii=False)
 
     tot = sum(c.get("mapped", 0) for c in report["courses"].values())
@@ -330,6 +346,10 @@ def run_all():
     print(f"\nTOTAL mapped {tot}/{sme_tot} across {len(report['courses'])} courses")
 
 
-
 if __name__ == "__main__":
-    run_all()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--courses", default="",
+                    help="comma-separated course slugs; empty = run every course")
+    args = ap.parse_args()
+    only = [c.strip() for c in args.courses.split(",") if c.strip()] or None
+    run_all(only)

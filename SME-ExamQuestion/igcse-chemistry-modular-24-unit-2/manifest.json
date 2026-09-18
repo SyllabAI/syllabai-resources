@@ -300,5 +300,27 @@
     "https://www.savemyexams.com/igcse/chemistry/edexcel/modular/24/unit-2/topic-questions/principles-of-chemistry/metallic-bonding/exam-questions/"
    ]
   }
- ]
+ ],
+ "spec_point_resolution": {
+  "schema": "syllabai.sme-spec-point-resolution/1.0",
+  "validated": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review",
+  "index_file": "spec_point_index.json",
+  "resolution_file": "spec_point_resolution.json",
+  "counts": {
+   "sme_spec_points": 120,
+   "resolved": 80,
+   "unresolved": 40,
+   "distinct_codes_in_use": 69,
+   "parts_total": 622,
+   "parts_with_codes": 495,
+   "parts_left_uncoded_no_guess_tail": 127
+  },
+  "pipeline": [
+   "scripts/sme_spcpt_sibling_backfill.py",
+   "scripts/sme_spcpt_sibling_map.py",
+   "scripts/sme_spcpt_sibling_apply.py",
+   "scripts/sme_spcpt_verify.py"
+  ],
+  "updated_utc": "2026-09-18T10:45:46Z"
+ }
 }
