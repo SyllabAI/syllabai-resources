@@ -307,7 +307,7 @@
     "reading_order" : 8,
     "confidence" : 1.0,
     "format" : null,
-    "source_name" : "input_images/imageFile1.png",
+    "source_name" : "images/imageFile1.png",
     "alt" : null,
     "source_engine" : "opendataloader-pdf",
     "source_engine_version" : "2.5.7"
@@ -316,6 +316,7 @@
   "provenance" : {
     "engine" : "opendataloader-pdf",
     "engineVersion" : "2.5.7",
+    "figureRecovery" : { "tool": "pmt_qpms_fig_extract.py (PyMuPDF 1.26.7)", "method": "geometric match of figure bbox to embedded PDF image instance; fallback: bbox clip render", "reason": "original opendataloader input_images/ lost; source PDFs retained" },
     "extractedAt" : "2026-09-11T19:50:10.147469287Z",
     "extractionParams" : {
       "mode" : "fast",
