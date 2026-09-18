@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T11:47:23Z",
+ "generated_utc": "2026-09-18T12:41:36Z",
  "validation": "AI_VALIDATED (operator-delegated chain; full-pool join per T-SPEC-2); HUMAN_VALIDATED reserved for human review + operator-verdict lane T-SPEC-2b (evidence-quoted, no-guess)",
  "counts": {
   "ids": 137,
-  "resolved": 132,
-  "unresolved": 5
+  "resolved": 133,
+  "unresolved": 4
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -279,8 +279,13 @@
    "sme_name": "Naming Organic Compounds",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "operator-confirmed pending (T-SPEC-2b): SME page teaches organic nomenclature (prefix/suffix rules); the IGCSE_CHEMISTRY_MODULAR registry contains no nomenclature statement (registry grep 'naming': 0 hits; 8.7C's '...and name each compound' is carboxylic-acids-specific) — nearest statements are family functional-group knowledge the note only tabulates; no-guess refusal stands"
+   "resolved_code": "4.4",
+   "official_id": "IGCSE_CHEMISTRY_MODULAR:4.4",
+   "official_wording": "understand how to name compounds relevant to this specification using the rules of International Union of Pure and Applied Chemistry (IUPAC) nomenclature learners will be expected to name compounds containing up to six carbon atoms",
+   "tier": "V2_registry_correction",
+   "score": null,
+   "method": "operator-verdict lane (T-SPEC-2c; PMT excluded as source per operator instruction 2026-09-18)",
+   "recheck": "Corrects the T-SPEC-2b pending verdict, which rested on a false-negative registry grep ('naming': 0 hits). Statement 4.4 \"understand how to name compounds relevant to this specification using the rules of International Union of Pure and Applied Chemistry (IUPAC) nomenclature...\" is present in the IGCSE_CHEMISTRY_MODULAR registry (found by broader grep 'IUPAC'). The anchored RN note teaches exactly the prefix/suffix nomenclature rules that 4.4 assesses. Referenced parts wKX7qwr2PGSWcNJM and FsTxZjCBzj9Y6MVs are pure naming tasks (\"Give the name of F\" / \"Write the names of each of the compounds\") and receive 4.4."
   },
   {
    "id": "spcpt_CRf59Z5Pk6Q4wCFn",
@@ -1568,7 +1573,8 @@
    "sme_definition": null,
    "referenced_by_parts": 16,
    "resolved_code": null,
-   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id; confirmed again this round: zero note anchors, zero registry hits) — no target statement exists to join to; parts stay uncoded by design"
+   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id; confirmed again this round: zero note anchors, zero registry hits) — no target statement exists to join to; parts stay uncoded by design",
+   "recheck": "T-SPEC-2C identity established from the committed part texts: an SME cross-topic calculations tag. All 13 tail parts referencing it are relative-formula-mass / percentage-by-mass / molecular-formula tasks across 8 subtopics (extraction, formulae calculations, organic, elements compounds mixtures, states of matter, ionic bonding, alcohols, alkenes). No SME statement text exists for the id in any committed corpus; the id stays unmapped (a tag is not one statement) and its parts are coded individually by the part-verdict lane below."
   },
   {
    "id": "spcpt_6MDHMySrg98kKbZM",
@@ -1831,7 +1837,8 @@
    "sme_definition": null,
    "referenced_by_parts": 7,
    "resolved_code": null,
-   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
+   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to",
+   "recheck": "T-SPEC-2C identity established from the committed part texts: Group 0 / noble-gas unreactivity content id (all 7 referencing parts are Group 0 / argon / helium / monatomic questions). Parts coded individually via 1.24 / 1.23 / 6.3 / 6.4C / 6.8C below; the id itself spans several statements so it stays unmapped as a single code target."
   },
   {
    "id": "spcpt_cRqGRsJHbRW5VDtR",
@@ -1929,7 +1936,8 @@
    "sme_definition": null,
    "referenced_by_parts": 1,
    "resolved_code": null,
-   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
+   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to",
+   "recheck": "T-SPEC-2C: unchanged — zero referencing parts in the tail population; no new evidence exists for this id. Pending reason stands."
   },
   {
    "id": "spcpt_mzh6RzjSBdh6PpDW",
@@ -2042,7 +2050,8 @@
    "sme_definition": null,
    "referenced_by_parts": 8,
    "resolved_code": null,
-   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to"
+   "reason": "operator-confirmed pending (T-SPEC-2b): no SME statement text exists in any committed corpus or official registry (cross-cutting id) — no target statement exists to join to",
+   "recheck": "T-SPEC-2C identity established from the committed part texts: Group 0 / group-trends content id confined to The Periodic Table topic (4 parts). Parts coded individually below; id stays unmapped as a single target."
   },
   {
    "id": "spcpt_yjv7ynM9xnXXFtSp",

@@ -18,9 +18,10 @@ Sources per course:
   flashcards SME-Flashcards/<c>/flashcard_spec_map.json (card -> codes)
 
 Official codes come exclusively from the course's spec_point_map.json plus
-the operator-verdict overlay in spec_point_resolution.json (T-SPEC-2b: records
-whose method is the operator-verdict lane fill only ids the map itself left
-unmapped; provenance tiers preserved; nothing invented here). Content items keep
+the operator-verdict overlays (T-SPEC-2b sidecar records whose method is the
+operator-verdict lane fill only ids the map itself left unmapped; T-SPEC-2c
+part-level verdict codes recorded on the parts themselves; provenance tiers
+preserved; nothing invented here). Content items keep
 their SME ids so the UI can deep-link.
 
 Output: spec-links/<course>.json + spec-links/manifest.json + README.md
@@ -93,6 +94,35 @@ def verdict_overlay(eq_dir: Path, mappings: dict) -> dict:
     return overlay
 
 
+def merge_part_codes(codes, part, mappings):
+    """T-SPEC-2c: part-level operator-verdict codes live directly on the
+    topic.json part (spec_point_codes). They are authoritative (validated
+    against the course registry by the fail-closed 2c apply and by verify G1)
+    and are merged here so learner links match the corpus. Id-level
+    resolutions (map lane / overlay) win on duplicate official_code."""
+    have = {c["official_code"] for c in codes}
+    prefix = None
+    for m in mappings.values():
+        oid = m.get("official_id") or ""
+        if ":" in oid:
+            prefix = oid.rsplit(":", 1)[0]
+            break
+    extra = []
+    for c in part.get("spec_point_codes") or []:
+        if c in have:
+            continue
+        have.add(c)
+        extra.append({"official_id": f"{prefix}:{c}" if prefix else c,
+                      "official_code": c,
+                      "tier": "operator-verdict-2c",
+                      "method": "operator-verdict lane (T-SPEC-2c part "
+                                "verdicts; PMT excluded as source per "
+                                "operator instruction 2026-09-18)"})
+    if not extra:
+        return codes
+    return sorted(codes + extra, key=lambda c: c["official_id"])
+
+
 def course_bundle(course: str) -> dict:
     eq_dir = EQ / course
     map_file = eq_dir / "spec_point_map.json"
@@ -137,6 +167,7 @@ def course_bundle(course: str) -> dict:
                 if not spids:
                     continue
                 codes, pending = resolve(spids, mappings)
+                codes = merge_part_codes(codes, p, mappings)
                 items[p["id"]] = {
                     "kind": "question_part",
                     "label": f"{(q.get('reference') or q.get('id') or 'question')} / part {p.get('order')}",
