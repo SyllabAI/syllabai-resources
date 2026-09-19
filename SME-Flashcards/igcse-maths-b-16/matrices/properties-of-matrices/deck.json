@@ -1,0 +1,1117 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-09-19T18:49:50Z",
+ "course_slug": "igcse-maths-b-16",
+ "deck": {
+  "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/flashcards/matrices/properties-of-matrices/",
+  "section_slug": "matrices",
+  "section_name": "Matrices",
+  "topic_slug": "properties-of-matrices",
+  "title": "Properties of Matrices",
+  "order": 0
+ },
+ "card_count": 34,
+ "card_types": {
+  "keyword_definition": 3,
+  "question_and_answer": 18,
+  "true_or_false": 7,
+  "fill_in_the_blanks": 6
+ },
+ "spec_link_cards": 34,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_Tz3wTBR8cdNKB4Fh",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_c8KHRbD36s6G7DJD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define a **matrix**, and say what its **order** means."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A matrix is a rectangular grid of **elements**, which may be numbers or letters, arranged in rows and columns."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its **order** is its number of rows followed by its number of columns, so a matrix with 2 rows and 3 columns has order $2 \\times 3$."
+    }
+   ],
+   "front_md": "Define a **matrix**, and say what its **order** means.\n",
+   "back_md": "A matrix is a rectangular grid of **elements**, which may be numbers or letters, arranged in rows and columns.\n\nIts **order** is its number of rows followed by its number of columns, so a matrix with 2 rows and 3 columns has order $2 \\times 3$.\n",
+   "spec_links": [
+    "spcpt_MwN8gwy9J9DD39z6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5GMXwzXb9sV8VvHp",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_c8KHRbD36s6G7DJD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the order of `\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}`, and what is such a matrix called?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its order is $2 \\times 2$, because it has two rows and two columns."
+    },
+    {
+     "type": "paragraph",
+     "md": "A matrix with the same number of rows as columns is called a **square** matrix."
+    }
+   ],
+   "front_md": "What is the order of `\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}`, and what is such a matrix called?\n",
+   "back_md": "Its order is $2 \\times 2$, because it has two rows and two columns.\n\nA matrix with the same number of rows as columns is called a **square** matrix.\n",
+   "spec_links": [
+    "spcpt_MwN8gwy9J9DD39z6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZHb34GWGYdKJTCm2",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_c8KHRbD36s6G7DJD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A $2 \\times 3$ matrix has two rows and three columns."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The order of a matrix is always written **rows first, then columns**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a $3 \\times 2$ matrix is a different shape entirely, with three rows and two columns."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA $2 \\times 3$ matrix has two rows and three columns.\n",
+   "back_md": "**True.**\n\nThe order of a matrix is always written **rows first, then columns**.\n\nSo a $3 \\times 2$ matrix is a different shape entirely, with three rows and two columns.\n",
+   "spec_links": [
+    "spcpt_MwN8gwy9J9DD39z6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qYjPtR6cYgrjwQ8q",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_c8KHRbD36s6G7DJD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What can a $2 \\times 3$ matrix be used to represent geometrically?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The three vertices of a triangle, with each vertex written as one **column** of the matrix."
+    },
+    {
+     "type": "paragraph",
+     "md": "A single column of two numbers holds one point, so three columns hold three points."
+    }
+   ],
+   "front_md": "What can a $2 \\times 3$ matrix be used to represent geometrically?\n",
+   "back_md": "The three vertices of a triangle, with each vertex written as one **column** of the matrix.\n\nA single column of two numbers holds one point, so three columns hold three points.\n",
+   "spec_links": [
+    "spcpt_MwN8gwy9J9DD39z6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2hk8mRZCwCP3B7Ky",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_c8KHRbD36s6G7DJD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing elements of the $2 \\times 2$ identity matrix."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{I} = \\begin{pmatrix} 1 & \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ & 1 \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed matrix is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{I} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The identity matrix has **1s down the diagonal** from top left to bottom right and zeros everywhere else, and it does for matrices what the number 1 does for ordinary numbers."
+    }
+   ],
+   "front_md": "Fill in the two missing elements of the $2 \\times 2$ identity matrix.\n\n`\\mathbf{I} = \\begin{pmatrix} 1 & \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ & 1 \\end{pmatrix}`\n",
+   "back_md": "The completed matrix is:\n\n`\\mathbf{I} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}`\n\nThe identity matrix has **1s down the diagonal** from top left to bottom right and zeros everywhere else, and it does for matrices what the number 1 does for ordinary numbers.\n",
+   "spec_links": [
+    "spcpt_7sDcDrMgvvb7JNyy"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JDc45mm8ptb4HPdW",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_c8KHRbD36s6G7DJD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the **null matrix**, and how does it differ from the identity matrix?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The null matrix, also called the **zero matrix**, has **every element equal to 0**, and it plays the part that 0 plays for ordinary numbers."
+    },
+    {
+     "type": "paragraph",
+     "md": "Unlike the identity matrix, it does **not** have to be square."
+    }
+   ],
+   "front_md": "What is the **null matrix**, and how does it differ from the identity matrix?\n",
+   "back_md": "The null matrix, also called the **zero matrix**, has **every element equal to 0**, and it plays the part that 0 plays for ordinary numbers.\n\nUnlike the identity matrix, it does **not** have to be square.\n",
+   "spec_links": [
+    "spcpt_7sDcDrMgvvb7JNyy"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_MJr6wPR2Z3KfsQ7s",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_8YXxdT2zb6z2Hqtn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When can two matrices be added or subtracted?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only when they have the **same order**, meaning the same number of rows and the same number of columns."
+    },
+    {
+     "type": "paragraph",
+     "md": "You then add or subtract the corresponding elements, position by position."
+    }
+   ],
+   "front_md": "When can two matrices be added or subtracted?\n",
+   "back_md": "Only when they have the **same order**, meaning the same number of rows and the same number of columns.\n\nYou then add or subtract the corresponding elements, position by position.\n",
+   "spec_links": [
+    "spcpt_89mzCM5TTjHvXmvd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BrJh8ZFG7T7Vr5Z9",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_8YXxdT2zb6z2Hqtn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing elements of the sum."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} 2 & - 3 \\\\ 5 & 1 \\end{pmatrix} + \\begin{pmatrix} - 1 & 7 \\\\ - 4 & 6 \\end{pmatrix} = \\begin{pmatrix} 1 & \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ & 7 \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed sum is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} 2 & - 3 \\\\ 5 & 1 \\end{pmatrix} + \\begin{pmatrix} - 1 & 7 \\\\ - 4 & 6 \\end{pmatrix} = \\begin{pmatrix} 1 & 4 \\\\ 1 & 7 \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each element of the answer comes from the two elements in the **same position** in the matrices being added."
+    }
+   ],
+   "front_md": "Fill in the two missing elements of the sum.\n\n`\\begin{pmatrix} 2 & - 3 \\\\ 5 & 1 \\end{pmatrix} + \\begin{pmatrix} - 1 & 7 \\\\ - 4 & 6 \\end{pmatrix} = \\begin{pmatrix} 1 & \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ & 7 \\end{pmatrix}`\n",
+   "back_md": "The completed sum is:\n\n`\\begin{pmatrix} 2 & - 3 \\\\ 5 & 1 \\end{pmatrix} + \\begin{pmatrix} - 1 & 7 \\\\ - 4 & 6 \\end{pmatrix} = \\begin{pmatrix} 1 & 4 \\\\ 1 & 7 \\end{pmatrix}`\n\nEach element of the answer comes from the two elements in the **same position** in the matrices being added.\n",
+   "spec_links": [
+    "spcpt_89mzCM5TTjHvXmvd"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_nrFmMckrDnssmvwW",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_8YXxdT2zb6z2Hqtn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you multiply a matrix by a scalar?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply **every element** of the matrix by that scalar."
+    },
+    {
+     "type": "paragraph",
+     "md": "A scalar is simply a number, and a lower-case letter is usually used for one, so $k A$ means every element of $A$ multiplied by $k$."
+    }
+   ],
+   "front_md": "How do you multiply a matrix by a scalar?\n",
+   "back_md": "Multiply **every element** of the matrix by that scalar.\n\nA scalar is simply a number, and a lower-case letter is usually used for one, so $k A$ means every element of $A$ multiplied by $k$.\n",
+   "spec_links": [
+    "spcpt_89mzCM5TTjHvXmvd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wXJkKGbMCbh8vtJg",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_8YXxdT2zb6z2Hqtn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two matrices are equal only when every pair of corresponding elements is equal."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Matrix equality is checked **element by element**, so all of the pairs have to match."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is what lets you form an ordinary equation from any one position when a matrix equation contains an unknown."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo matrices are equal only when every pair of corresponding elements is equal.\n",
+   "back_md": "**True.**\n\nMatrix equality is checked **element by element**, so all of the pairs have to match.\n\nThat is what lets you form an ordinary equation from any one position when a matrix equation contains an unknown.\n",
+   "spec_links": [
+    "spcpt_89mzCM5TTjHvXmvd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yxCFxqxMtrkzvtnx",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_8YXxdT2zb6z2Hqtn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Given that `2 \\mathbf{A} - n \\mathbf{B} = \\begin{pmatrix} 8 & 1 \\\\ - 13 & 2 \\end{pmatrix}`, how do you find $n$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work out $2 A$ and $n B$ separately, subtract them element by element, then equate any **one** position with the matching element on the right."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving that single equation gives $n$, and the other three positions are worth checking to make sure no slip has been made."
+    }
+   ],
+   "front_md": "Given that `2 \\mathbf{A} - n \\mathbf{B} = \\begin{pmatrix} 8 & 1 \\\\ - 13 & 2 \\end{pmatrix}`, how do you find $n$?\n",
+   "back_md": "Work out $2 A$ and $n B$ separately, subtract them element by element, then equate any **one** position with the matching element on the right.\n\nSolving that single equation gives $n$, and the other three positions are worth checking to make sure no slip has been made.\n",
+   "spec_links": [
+    "spcpt_89mzCM5TTjHvXmvd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SWVnpXV8QZFxNCrM",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When can two matrices be multiplied together?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Only when the number of **columns in the first** equals the number of **rows in the second**."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a $2 \\times 2$ matrix can multiply a $2 \\times 3$ matrix, but a $2 \\times 3$ cannot multiply a $2 \\times 2$."
+    }
+   ],
+   "front_md": "When can two matrices be multiplied together?\n",
+   "back_md": "Only when the number of **columns in the first** equals the number of **rows in the second**.\n\nSo a $2 \\times 2$ matrix can multiply a $2 \\times 3$ matrix, but a $2 \\times 3$ cannot multiply a $2 \\times 2$.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r3XfrZvH76htmx7N",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing entries of the product."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed product is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} a x + b y \\\\ c x + d y \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each entry pairs a **row of the first** matrix with the **column of the second**, multiplying corresponding elements and adding the results."
+    }
+   ],
+   "front_md": "Fill in the two missing entries of the product.\n\n`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ \\end{pmatrix}`\n",
+   "back_md": "The completed product is:\n\n`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} a x + b y \\\\ c x + d y \\end{pmatrix}`\n\nEach entry pairs a **row of the first** matrix with the **column of the second**, multiplying corresponding elements and adding the results.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_B8ZvhSrSkNTWCYKK",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the order of the product of a $2 \\times 2$ matrix and a $2 \\times 3$ matrix?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $2 \\times 3$, taking the **rows of the first** and the **columns of the second**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two inner numbers have to match for the multiplication to be possible at all, and the two outer numbers give the answer's order."
+    }
+   ],
+   "front_md": "What is the order of the product of a $2 \\times 2$ matrix and a $2 \\times 3$ matrix?\n",
+   "back_md": "It is $2 \\times 3$, taking the **rows of the first** and the **columns of the second**.\n\nThe two inner numbers have to match for the multiplication to be possible at all, and the two outer numbers give the answer's order.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RdR97kqbhtkv5qCG",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For matrices, $\\mathrm{AB}$ always gives the same result as $\\mathrm{BA}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Matrix multiplication is **not** commutative, so in general $\\mathrm{AB} \\neq \\mathrm{BA}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "For instance `\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ 5 & 1 \\end{pmatrix} = \\begin{pmatrix} 10 & 3 \\\\ 20 & 7 \\end{pmatrix}`, while the other order gives `\\begin{pmatrix} 3 & 4 \\\\ 8 & 14 \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor matrices, $\\mathrm{AB}$ always gives the same result as $\\mathrm{BA}$.\n",
+   "back_md": "**False.**\n\nMatrix multiplication is **not** commutative, so in general $\\mathrm{AB} \\neq \\mathrm{BA}$.\n\nFor instance `\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ 5 & 1 \\end{pmatrix} = \\begin{pmatrix} 10 & 3 \\\\ 20 & 7 \\end{pmatrix}`, while the other order gives `\\begin{pmatrix} 3 & 4 \\\\ 8 & 14 \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8yhdqbFQk5MfjzMH",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you square a matrix?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Write it out as the matrix multiplied by **itself**, then carry out the multiplication in the usual way."
+    },
+    {
+     "type": "paragraph",
+     "md": "Do **not** square each element separately, and note that only square matrices can be squared at all."
+    }
+   ],
+   "front_md": "How do you square a matrix?\n",
+   "back_md": "Write it out as the matrix multiplied by **itself**, then carry out the multiplication in the usual way.\n\nDo **not** square each element separately, and note that only square matrices can be squared at all.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bd3dskqNPdbwYCMy",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For three matrices, `\\left(\\mathbf{AB}\\right) \\mathbf{C}` gives the same result as `\\mathbf{A} \\left(\\mathbf{BC}\\right)`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Matrix multiplication is **associative**, so which pair you multiply first makes no difference."
+    },
+    {
+     "type": "paragraph",
+     "md": "What must not change is the **order of the letters**, since `\\mathbf{A} \\left(\\mathbf{BC}\\right)` is not the same as `\\left(\\mathbf{BC}\\right) \\mathbf{A}`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nFor three matrices, `\\left(\\mathbf{AB}\\right) \\mathbf{C}` gives the same result as `\\mathbf{A} \\left(\\mathbf{BC}\\right)`.\n",
+   "back_md": "**True.**\n\nMatrix multiplication is **associative**, so which pair you multiply first makes no difference.\n\nWhat must not change is the **order of the letters**, since `\\mathbf{A} \\left(\\mathbf{BC}\\right)` is not the same as `\\left(\\mathbf{BC}\\right) \\mathbf{A}`.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hBkqqwgnnKp9PrFF",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_R99FZsJSbHTZcthV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What happens when you multiply a matrix by the identity matrix?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Nothing changes: $\\mathrm{AI} = \\mathrm{IA} = A$, whichever side the identity is on."
+    },
+    {
+     "type": "paragraph",
+     "md": "That makes the identity matrix behave like the number 1, and it is one of the few matrix products where the order genuinely does not matter."
+    }
+   ],
+   "front_md": "What happens when you multiply a matrix by the identity matrix?\n",
+   "back_md": "Nothing changes: $\\mathrm{AI} = \\mathrm{IA} = A$, whichever side the identity is on.\n\nThat makes the identity matrix behave like the number 1, and it is one of the few matrix products where the order genuinely does not matter.\n",
+   "spec_links": [
+    "spcpt_gWpj9n8N6CP4TnDv"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_twhfDxy4g6TntsHQ",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_7P8yRQFPytSNwwK5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **determinant** of a matrix."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The determinant is a single **number**, positive or negative, worked out from the elements of a square matrix."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only square matrices have one, and its main use is in finding the **inverse**."
+    }
+   ],
+   "front_md": "Define the **determinant** of a matrix.\n",
+   "back_md": "The determinant is a single **number**, positive or negative, worked out from the elements of a square matrix.\n\nOnly square matrices have one, and its main use is in finding the **inverse**.\n",
+   "spec_links": [
+    "spcpt_WrrWCGjpRHYJhNQ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CPdKHZzqTStKPWVH",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_7P8yRQFPytSNwwK5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the determinant of a $2 \\times 2$ matrix."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\_\\_\\_\\_\\_\\_ - b c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = a d - b c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the product of the **leading diagonal**, from top left to bottom right, minus the product of the other diagonal."
+    }
+   ],
+   "front_md": "Complete the formula for the determinant of a $2 \\times 2$ matrix.\n\n`\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\_\\_\\_\\_\\_\\_ - b c`\n",
+   "back_md": "The completed formula is:\n\n`\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = a d - b c`\n\nIt is the product of the **leading diagonal**, from top left to bottom right, minus the product of the other diagonal.\n",
+   "spec_links": [
+    "spcpt_WrrWCGjpRHYJhNQ6"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_tTfd3KWbXtXtKKnS",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_7P8yRQFPytSNwwK5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the determinant of `\\begin{pmatrix} 3 & 4 \\\\ - 2 & - 1 \\end{pmatrix}`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $5$, from `3 \\times \\left(- 1\\right) - 4 \\times \\left(- 2\\right)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "That works out as `- 3 - \\left(- 8\\right) = - 3 + 8 = 5`, so the double negative in the second product is the step to watch."
+    }
+   ],
+   "front_md": "What is the determinant of `\\begin{pmatrix} 3 & 4 \\\\ - 2 & - 1 \\end{pmatrix}`?\n",
+   "back_md": "It is $5$, from `3 \\times \\left(- 1\\right) - 4 \\times \\left(- 2\\right)`.\n\nThat works out as `- 3 - \\left(- 8\\right) = - 3 + 8 = 5`, so the double negative in the second product is the step to watch.\n",
+   "spec_links": [
+    "spcpt_WrrWCGjpRHYJhNQ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VPMkQMSDnfyw8txD",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_7P8yRQFPytSNwwK5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A determinant can be negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The determinant is an ordinary number and nothing forces it to be positive."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example `\\det \\begin{pmatrix} 2 & 4 \\\\ 5 & 1 \\end{pmatrix} = 2 - 20 = - 18`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA determinant can be negative.\n",
+   "back_md": "**True.**\n\nThe determinant is an ordinary number and nothing forces it to be positive.\n\nFor example `\\det \\begin{pmatrix} 2 & 4 \\\\ 5 & 1 \\end{pmatrix} = 2 - 20 = - 18`.\n",
+   "spec_links": [
+    "spcpt_WrrWCGjpRHYJhNQ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VQ9NghVPtK8FFbJt",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_7P8yRQFPytSNwwK5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $\\mathrm{det} A$ mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It means the determinant of the matrix $A$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is a **number** rather than a matrix, so it can be set equal to another determinant and the result solved as an ordinary equation."
+    }
+   ],
+   "front_md": "What does $\\mathrm{det} A$ mean?\n",
+   "back_md": "It means the determinant of the matrix $A$.\n\nIt is a **number** rather than a matrix, so it can be set equal to another determinant and the result solved as an ordinary equation.\n",
+   "spec_links": [
+    "spcpt_WrrWCGjpRHYJhNQ6"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rdVRqd3BDtDkq4xH",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_dyVdJSFwKKkyYvPC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **inverse** of a matrix."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The inverse of a square matrix $A$, written $A^{-1}$, is the matrix that multiplies with it to give the **identity matrix** $I$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only **square** matrices can have an inverse at all."
+    }
+   ],
+   "front_md": "Define the **inverse** of a matrix.\n",
+   "back_md": "The inverse of a square matrix $A$, written $A^{-1}$, is the matrix that multiplies with it to give the **identity matrix** $I$.\n\nOnly **square** matrices can have an inverse at all.\n",
+   "spec_links": [
+    "spcpt_Vr9z3J63Pcc4xWmH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RyzRWDVrpN699QqW",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_dyVdJSFwKKkyYvPC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the two missing entries of the inverse formula."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{- 1} = \\frac{1}{a d - b c} \\begin{pmatrix} d & \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ & a \\end{pmatrix}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{- 1} = \\frac{1}{a d - b c} \\begin{pmatrix} d & - b \\\\ - c & a \\end{pmatrix}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "**Swap** the two entries on the leading diagonal, **change the sign** of the other two, then divide the whole thing by the determinant."
+    }
+   ],
+   "front_md": "Fill in the two missing entries of the inverse formula.\n\n`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{- 1} = \\frac{1}{a d - b c} \\begin{pmatrix} d & \\_\\_\\_\\_\\_\\_ \\\\ \\_\\_\\_\\_\\_\\_ & a \\end{pmatrix}`\n",
+   "back_md": "The completed formula is:\n\n`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{- 1} = \\frac{1}{a d - b c} \\begin{pmatrix} d & - b \\\\ - c & a \\end{pmatrix}`\n\n**Swap** the two entries on the leading diagonal, **change the sign** of the other two, then divide the whole thing by the determinant.\n",
+   "spec_links": [
+    "spcpt_Vr9z3J63Pcc4xWmH"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_pzwwQ7VCgVrY9MQS",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_dyVdJSFwKKkyYvPC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A matrix multiplied by its inverse gives the same result whichever way round they are."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Both $\\mathrm{AA}^{-1}$ and $A^{-1} A$ come out as the identity matrix $I$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is worth noticing, because matrix multiplication does **not** normally give the same answer in both orders."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA matrix multiplied by its inverse gives the same result whichever way round they are.\n",
+   "back_md": "**True.**\n\nBoth $\\mathrm{AA}^{-1}$ and $A^{-1} A$ come out as the identity matrix $I$.\n\nThat is worth noticing, because matrix multiplication does **not** normally give the same answer in both orders.\n",
+   "spec_links": [
+    "spcpt_Vr9z3J63Pcc4xWmH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RndRvjs9zvvz6S79",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_dyVdJSFwKKkyYvPC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why can a matrix with determinant zero have no inverse?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The formula divides by the determinant, and dividing by zero is not defined."
+    },
+    {
+     "type": "paragraph",
+     "md": "Such a matrix therefore has no inverse at all."
+    }
+   ],
+   "front_md": "Why can a matrix with determinant zero have no inverse?\n",
+   "back_md": "The formula divides by the determinant, and dividing by zero is not defined.\n\nSuch a matrix therefore has no inverse at all.\n",
+   "spec_links": [
+    "spcpt_Vr9z3J63Pcc4xWmH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_66PBVcXdWRJc64Bw",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_dyVdJSFwKKkyYvPC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How can you show $B$ is the inverse of $A$ without using the formula?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply the two together and show that the result is the **identity matrix**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Showing either $\\mathrm{AB} = I$ or $\\mathrm{BA} = I$ is enough on its own."
+    }
+   ],
+   "front_md": "How can you show $B$ is the inverse of $A$ without using the formula?\n",
+   "back_md": "Multiply the two together and show that the result is the **identity matrix**.\n\nShowing either $\\mathrm{AB} = I$ or $\\mathrm{BA} = I$ is enough on its own.\n",
+   "spec_links": [
+    "spcpt_Vr9z3J63Pcc4xWmH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_6DyVdzZdQ6BGD5zJ",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_dyVdJSFwKKkyYvPC",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the inverse of `\\begin{pmatrix} 1 & 3 \\\\ 2 & 7 \\end{pmatrix}`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Its determinant is $1 \\times 7 - 3 \\times 2 = 1$, so the fraction in front of the matrix is just 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "Swapping the leading diagonal and changing the signs of the other two entries gives `\\begin{pmatrix} 7 & - 3 \\\\ - 2 & 1 \\end{pmatrix}`."
+    }
+   ],
+   "front_md": "Find the inverse of `\\begin{pmatrix} 1 & 3 \\\\ 2 & 7 \\end{pmatrix}`.\n",
+   "back_md": "Its determinant is $1 \\times 7 - 3 \\times 2 = 1$, so the fraction in front of the matrix is just 1.\n\nSwapping the leading diagonal and changing the signs of the other two entries gives `\\begin{pmatrix} 7 & - 3 \\\\ - 2 & 1 \\end{pmatrix}`.\n",
+   "spec_links": [
+    "spcpt_Vr9z3J63Pcc4xWmH"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZvYjzK4Cdd97SNM7",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_V38PrBjkXKw92Vf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve $\\mathrm{AB} = C$ for $B$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply both sides **from the left** by $A^{-1}$, which gives $A^{-1} \\mathrm{AB} = A^{-1} C$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Since $A^{-1} A$ is the identity and the identity leaves $B$ alone, this leaves $B = A^{-1} C$."
+    }
+   ],
+   "front_md": "How do you solve $\\mathrm{AB} = C$ for $B$?\n",
+   "back_md": "Multiply both sides **from the left** by $A^{-1}$, which gives $A^{-1} \\mathrm{AB} = A^{-1} C$.\n\nSince $A^{-1} A$ is the identity and the identity leaves $B$ alone, this leaves $B = A^{-1} C$.\n",
+   "spec_links": [
+    "spcpt_JGrDCdnmTzs2Z9Cb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BM94fzQyRCzxS3ZC",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_V38PrBjkXKw92Vf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve $\\mathrm{BA} = C$ for $B$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Multiply both sides **from the right** by $A^{-1}$, which gives $\\mathrm{BAA}^{-1} = \\mathrm{CA}^{-1}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That leaves $B = \\mathrm{CA}^{-1}$, with the inverse written on the **right** of $C$."
+    }
+   ],
+   "front_md": "How do you solve $\\mathrm{BA} = C$ for $B$?\n",
+   "back_md": "Multiply both sides **from the right** by $A^{-1}$, which gives $\\mathrm{BAA}^{-1} = \\mathrm{CA}^{-1}$.\n\nThat leaves $B = \\mathrm{CA}^{-1}$, with the inverse written on the **right** of $C$.\n",
+   "spec_links": [
+    "spcpt_JGrDCdnmTzs2Z9Cb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TFDxsKZx6pbPNyWb",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_V38PrBjkXKw92Vf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "When solving a matrix equation, it does not matter which side you multiply by the inverse."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It matters a great deal, because matrix multiplication depends on the order."
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying $\\mathrm{BA} = C$ from the left gives $A^{-1} \\mathrm{BA} = A^{-1} C$, which does not simplify any further."
+    }
+   ],
+   "front_md": "**True or False?**\n\nWhen solving a matrix equation, it does not matter which side you multiply by the inverse.\n",
+   "back_md": "**False.**\n\nIt matters a great deal, because matrix multiplication depends on the order.\n\nMultiplying $\\mathrm{BA} = C$ from the left gives $A^{-1} \\mathrm{BA} = A^{-1} C$, which does not simplify any further.\n",
+   "spec_links": [
+    "spcpt_JGrDCdnmTzs2Z9Cb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vtC68YVqkxKX8MMn",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_V38PrBjkXKw92Vf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does $A^{-1} \\mathrm{BA}$ not simplify?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A matrix and its inverse only collapse to the identity when they are **next to each other** in the multiplication."
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $B$ sits between them, so neither pairing can be made and nothing cancels."
+    }
+   ],
+   "front_md": "Why does $A^{-1} \\mathrm{BA}$ not simplify?\n",
+   "back_md": "A matrix and its inverse only collapse to the identity when they are **next to each other** in the multiplication.\n\nHere $B$ sits between them, so neither pairing can be made and nothing cancels.\n",
+   "spec_links": [
+    "spcpt_JGrDCdnmTzs2Z9Cb"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tVjTN7nd87HhfKcV",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_V38PrBjkXKw92Vf7",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the missing step of this simplification."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\mathbf{A}^{- 1} \\mathbf{AB} = \\_\\_\\_\\_\\_\\_ = \\mathbf{B}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed simplification is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$A^{-1} \\mathrm{AB} = \\mathrm{IB} = B$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$A^{-1} A$ collapses to the identity $I$, and multiplying by the identity leaves $B$ unchanged."
+    }
+   ],
+   "front_md": "Fill in the missing step of this simplification.\n\n`\\mathbf{A}^{- 1} \\mathbf{AB} = \\_\\_\\_\\_\\_\\_ = \\mathbf{B}`\n",
+   "back_md": "The completed simplification is:\n\n$A^{-1} \\mathrm{AB} = \\mathrm{IB} = B$\n\n$A^{-1} A$ collapses to the identity $I$, and multiplying by the identity leaves $B$ unchanged.\n",
+   "spec_links": [
+    "spcpt_JGrDCdnmTzs2Z9Cb"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  }
+ ]
+}

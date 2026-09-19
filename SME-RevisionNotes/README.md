@@ -1,6 +1,6 @@
 # SME Revision Notes (Edexcel IGCSE + IAL)
 
-Scraped from Save My Exams revision-notes trees for the same 39 courses as `../SME-ExamQuestion/`. 3195/3195 leaf pages, 7534 assets, 5084 spec-point links.
+Scraped from Save My Exams revision-notes trees for the same 49 courses as `../SME-ExamQuestion/`. 3743/3743 leaf pages, 8569 assets, 5988 spec-point links.
 
 Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim) + `<leaf>.md` (render). Callout variants map to typed blocks (`exam-tip` -> Exam Hint, `worked-example` -> Worked Example, `case-study` -> Case Study).
 
@@ -34,6 +34,9 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 | igcse-chemistry-modular-24-unit-1 | 65/65 | 87 | 93 |
 | igcse-chemistry-modular-24-unit-2 | 47/47 | 106 | 68 |
 | igcse-economics-17 | 80/80 | 92 | 204 |
+| igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing | 40/40 | 33 | 150 |
+| igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing | 20/20 | 8 | 97 |
+| igcse-english-language-a-16-paper-3-coursework | 7/7 | 2 | 24 |
 | igcse-english-literature-16 | 136/136 | 298 | 625 |
 | igcse-further-maths-19 | 58/58 | 117 | 99 |
 | igcse-geography-19 | 102/102 | 171 | 262 |
@@ -44,9 +47,16 @@ Per note: `<leaf>.json` (authoritative typed blocks; Wiris MathML kept verbatim)
 | igcse-maths-a-modular-24-foundation-unit-2 | 59/59 | 138 | 67 |
 | igcse-maths-a-modular-24-higher-unit-1 | 98/98 | 139 | 105 |
 | igcse-maths-a-modular-24-higher-unit-2 | 92/92 | 242 | 97 |
+| igcse-maths-b-16 | 199/199 | 379 | 215 |
 | igcse-physics-19 | 127/127 | 373 | 188 |
 | igcse-physics-modular-24-unit-1 | 62/62 | 192 | 89 |
 | igcse-physics-modular-24-unit-2 | 65/65 | 183 | 97 |
 | igcse-science-double-award-17-biology | 110/110 | 190 | 166 |
 | igcse-science-double-award-17-chemistry | 80/80 | 139 | 121 |
 | igcse-science-double-award-17-physics | 95/95 | 285 | 142 |
+| igcse-science-double-award-modular-24-biology-unit-1 | 32/32 | 85 | 59 |
+| igcse-science-double-award-modular-24-biology-unit-2 | 75/75 | 99 | 99 |
+| igcse-science-double-award-modular-24-chemistry-unit-1 | 51/51 | 68 | 77 |
+| igcse-science-double-award-modular-24-chemistry-unit-2 | 29/29 | 70 | 43 |
+| igcse-science-double-award-modular-24-physics-unit-1 | 44/44 | 143 | 64 |
+| igcse-science-double-award-modular-24-physics-unit-2 | 51/51 | 148 | 76 |

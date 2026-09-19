@@ -113,6 +113,19 @@ REGISTRY: dict[str, dict] = {
     "igcse-accounting-17-introduction-to-bookkeeping-and-accounting": {"status": MISSING, "reason": MISSING_REASON},
     "igcse-maths-a-modular-24-foundation-unit-1": {"status": MISSING, "reason": MISSING_REASON},
     "igcse-maths-a-modular-24-foundation-unit-2": {"status": MISSING, "reason": MISSING_REASON},
+    # T-SME-11 (2026-09-19): the 10 missing Edexcel courses
+    "igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing":
+        {"path": "igcse/english-language/edexcel/a/16/paper-1-non-fiction-texts-and-transactional-writing", "expected_decks": 3},
+    "igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing":
+        {"path": "igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing", "expected_decks": 3},
+    "igcse-maths-b-16":              {"path": "igcse/maths/edexcel/b/16", "expected_decks": 62},
+    "igcse-english-language-a-16-paper-3-coursework": {"status": MISSING, "reason": MISSING_REASON},
+    "igcse-science-double-award-modular-24-biology-unit-1": {"status": MISSING, "reason": MISSING_REASON},
+    "igcse-science-double-award-modular-24-biology-unit-2": {"status": MISSING, "reason": MISSING_REASON},
+    "igcse-science-double-award-modular-24-chemistry-unit-1": {"status": MISSING, "reason": MISSING_REASON},
+    "igcse-science-double-award-modular-24-chemistry-unit-2": {"status": MISSING, "reason": MISSING_REASON},
+    "igcse-science-double-award-modular-24-physics-unit-1": {"status": MISSING, "reason": MISSING_REASON},
+    "igcse-science-double-award-modular-24-physics-unit-2": {"status": MISSING, "reason": MISSING_REASON},
 }
 
 

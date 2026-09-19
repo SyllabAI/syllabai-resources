@@ -1,0 +1,262 @@
+---
+note_id: "rn_DZBr8mv8Cxh9TBq6"
+title: "Question 4 Skills: Language and Structure Analysis"
+source: https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-1-non-fiction-texts-and-transactional-writing/revision-notes/paper-1-non-fiction/paper-1-section-a-reading/question-4-skills-language-and-structure-analysis
+path: paper-1-non-fiction/paper-1-section-a-reading/question-4-skills-language-and-structure-analysis
+updated_at: "2026-09-14T08:23:53.016Z"
+spec_point_ids: ["spcpt_SZBQkVrt7BQvb9P3", "spcpt_65F78sZ3qhjD4Pvt", "spcpt_6hXHZSwPZzf5dTTg", "spcpt_GvFkpFXrvbrh8BjV", "spcpt_NrY7W4kCPHBpPfKy", "spcpt_PPXtWYSqw2txbxwq", "spcpt_WGTFVQghZd7pH9S6", "spcpt_Z6pKwhDbV6ZQTCGs"]
+spec_point_codes: []
+guided_study: false
+---
+
+# Question 4 Skills: Language and Structure Analysis
+
+Question 4 on Paper 1 of your International GCSE tests you on your ability to **comment on **and **analyse **the **choices a writer has made **in terms of **language and structure** in order to** achieve effects.**
+
+This guide will explain in more detail how to analyse language and structure. It is divided into:
+
+- **Overview of language analysis**
+- **Exploring words and phrases**
+- **Language features and techniques**
+- **Incorporating language analysis into your answer**
+- **Overview of structure analysis**
+- **Sentence forms**
+- **Structural techniques**
+- **Key questions for analysing structure**
+
+## Overview of language analysis
+
+> **Spec point** — `spcpt_SZBQkVrt7BQvb9P3`
+
+## Overview of language analysis
+
+To explore, comment on and analyse the language choices a writer has made, you must understand:
+
+- **What is being described or narrated** (understanding the text)
+- The particular **choices the writer has made** (subject terminology)
+- The **explicit and implied meanings** behind these choices (denotations and connotations)
+- The **overall effect or meaning** the writer is trying to convey
+
+The question will ask you **how** the writer uses language and structure to interest and engage the reader. It is therefore very important that you **choose words or phrases that you have something to say about**, not just obvious literary techniques (such as a simile). This is because just being able to “spot” a technique a writer has used will not get you marks. Instead, you need to be able to consider **what is conveyed **by the use of that technique. What image is the writer trying to create with their words? Above all, you need to consider **why** the writer has made the choices they have, and keep your selection of words or phrases compact and precise (do not try to analyse whole sentences).
+
+> **Exam Hint**
+> Try to practise analysing words and phrases in various texts to strengthen your skills. By consistently practising this skill, you will strengthen your ability to analyse any text. But do not fall into the trap of “feature spotting” - this is when a student just “spots” techniques a writer has used, such as metaphors or personification, without any consideration of why the writer has used the technique. This type of analysis will not get you a high mark.
+
+## Exploring words and phrases
+
+> **Spec point** — `spcpt_65F78sZ3qhjD4Pvt`
+
+## Exploring words and phrases
+
+Analysing language means considering the **deliberate choices a writer has made:** why they have included specific words or phrases in their writing, and for what purpose. In order to do this, you should consider both the denotation and the connotations of particular words:
+
+- **Denotation** = the literal meaning of a word or phrase
+- **Connotation** = the associations or implied meanings of the word or phrase
+
+When commenting on words and phrases from the text, you should always try to consider **why** you think the writer has chosen that particular word to use in their sentences. Below are some questions which you might ask yourself when analysing the words and phrases in a text:
+
+| **Denotations and connotations** | **Emotional impact** | **Characterisation** | **Formality and informality ** |
+|---|---|---|---|
+| How do these layers of meaning add depth to the text? | How do the words evoke emotions or feelings in the reader? Do they create joy, sadness, fear or excitement? | Do the words reveal aspects of a character's personality,  background or emotions? | Do the words make the text more relatable or distant? |
+
+The following table provides you with a list of some terms and definitions to use when analysing individual words and phrases:
+
+| **Term** | **Definition** | **Example** |
+|---|---|---|
+| Comparative adjectives | Used to compare differences between two nouns, such as “larger”, “smaller”, “faster”, “stronger” | “The new smartphone is faster than the previous model.” |
+| Superlatives | Words used to express something of the highest quality of its kind | “The explorer's journey into uncharted territory was the most courageous expedition of the century.” |
+| Emotive language | Emotive language refers to words and phrases that are intentionally used to evoke strong emotional responses in the reader | “The devastating aftermath of the natural disaster left a trail of destruction, sorrow and misery.” |
+| Colloquial language | Colloquial language is informal,  everyday language that is used in casual conversations and familiar settings | “The exam was a doddle; I finished the problems in no time.” |
+| Imperatives | Imperatives are verb forms or sentences that are used to give commands | “Close the door behind you.” |
+
+Once you are able to identify particular words and phrases within a text, you need to develop this skill further by considering** why** the writer has chosen to include these within their writing.
+
+As an example, let’s consider the writer’s possible intentions in the example below:
+
+| **Words and phrases** | **Example** | **Writer’s intentions** |
+|---|---|---|
+| Emotive language | “The devastating aftermath of the natural disaster left a trail of destruction, sorrow and misery.” | The writer uses emotive language to convey the immense gravity of the situation being described. The words “devastating”, “destruction”, “sorrow” and “misery” are used to depict the immense suffering experienced by those affected, highlighting the destructive nature of the event. |
+
+Remember, the goal of analysing words and phrases is to **uncover layers of meaning**,  understand the **writer’s intent** and explore **how language contributes** to the **overall impact of the text.  **
+
+## Language features and techniques
+
+> **Spec point** — `spcpt_6hXHZSwPZzf5dTTg`
+
+## Language features and techniques
+
+It is important that you are familiar with **key literary terms** so that it can help to **support your analysis** of the text (but should never be used in place of analysis). It is much more important that you clearly articulate the **intended effects** of any terms that you use.
+
+The table below provides some definitions of key literary terms. This list is not exhaustive, but it is simply a guide to some of the techniques that might be most useful when analysing a text.
+
+| **Language technique** | **Definition** | **Example** |
+|---|---|---|
+| Simile | A simile is a figure of speech that directly compares two different things, using "like" or "as" to highlight their similarities | “Her smile was as radiant as the morning sun, casting its warm glow upon everyone she encountered.” |
+| Metaphor | A metaphor is a figure of speech that equates or describes one thing in terms of another, asserting that they are the same | “The stormy sea was an untamed beast, its ferocious waves crashing against the shore with unrestrained fury, devouring all in its path.” |
+| Imagery | Imagery engages the reader's senses by using vivid and detailed language to create mental images | “The sun-kissed waves crashed against the golden shore, their frothy white caps glistening in the radiant morning light.” |
+| Alliteration | Alliteration involves the repetition of consonant sounds, usually at the beginning of words or stressed syllables, within a phrase or sentence | “The swirling mist silently settled on the sleepy meadow.” |
+| Personification | Personification attributes human characteristics or qualities to inanimate objects, animals or abstract concepts | “The weary old oak tree, its gnarled branches outstretched like weathered arms, whispered ancient wisdom to the breeze, as if carrying the weight of centuries on its bark.” |
+| Onomatopoeia | Onomatopoeia is using words that imitate or mimic the sounds they represent | “The crackling fire whispered its secrets, its warm embrace accompanied by the gentle pop and sizzle of the logs as they surrendered to the dance of the flames.” |
+| Repetition | Repetition involves the deliberate repetition of words, phrases, sounds or grammatical structures to create emphasis, reinforce ideas or establish rhythm | “Through the ebb and flow of life, I have learned to persist, to persist in the face of adversity, to persist in the pursuit of my dreams, to persist in the pursuit of knowledge.” |
+| Juxtaposition | Juxtaposition places two contrasting ideas, images or concepts side by side to highlight their differences or create a striking effect | “The elegant ballroom was adorned with exquisite chandeliers and fine artwork, while the servants' quarters below held nothing but bare walls.” |
+
+Again, once you are able to identify and understand different literary techniques, you need to develop this skill further by considering **why** the writer has chosen to include these techniques in their writing.
+
+As an example, we will explore one of the language techniques from the table above and consider the writer’s intentions.
+
+| **Language technique** | **Example** | **Writer’s intentions** |
+|---|---|---|
+| Metaphor | “The stormy sea was an untamed beast, its ferocious waves crashing against the shore with unrestrained fury, devouring all in its path.” | > *The writer has used a metaphor in order to convey the intense and powerful nature of the stormy sea. By describing the sea as an “untamed beast” the writer is suggesting the sea embodies the qualities of wildness, unpredictability and also a sense of danger. This comparison helps the reader to feel the magnitude of the storm's force and the chaos it brings.* |
+
+In this example, the writer’s use of a metaphor to describe the stormy sea is clearly interpreted and analysed. The response has considered why the writer may have chosen to use a metaphor and explored its intended effect on the reader.
+
+> **Exam Hint**
+> It is more important to explore the effects of the writer’s choices than it is to use over-complicated terminology. You can be just as successful in writing about the effect of a specific word choice as you are in writing about complex language features.
+
+## Incorporating language analysis into your answer
+
+> **Spec point** — `spcpt_GvFkpFXrvbrh8BjV`
+
+## Incorporating language analysis into your answer
+
+Remember, you are being tested on your ability to **select appropriate words or phrases** from the text to analyse. But selecting the right language to comment on is only one part of what you have to do: you also need to be able to integrate language analysis into your answer in a clear, coherent and concise way.
+
+A high-level response will:
+
+- **Select relevant words** or **concise phrases** from the text to comment on
+- Incorporate these words or phrases into an **explanation of meaning**
+- **Embed** those directly quoted words or phrases into your sentences, giving context to the quote
+
+For example:
+
+| **Lower level example** | **Analysis** |
+|---|---|
+| The writer uses a verb to show she is like an animal. This is shown by the quote “snarl”. This shows that the writer is like an animal, because an animal snarls. | > *This example does not give any context for the quote; how has the word “snarl” been used? What is the context? The fact that it is a verb is irrelevant to the explanation, which just repeats the initial point. It does not explore what images are created by the use of that particular word* |
+
+| **Higher level example** | **Analysis** |
+|---|---|
+| The writer answers anyone who questions her husband’s choices with a “snarl”, which tells us that she is answering back fiercely. This is reminiscent of a wild animal’s growl when threatened or challenged, and is an instinctive reaction, which suggests the writer is protecting her loved ones. | > *This example starts by placing the word “snarl” in context: where and when it is used in the text. It comments on the explicit meaning of the word, before considering the implied meaning of the writer’s choice and the images it brings to mind* |
+
+So remember:
+
+- Always **give context to the quote** you are using:
+
+  - In what situation has it been used?
+  - What is it being used to describe?
+- Consider the **obvious meaning** behind the word or phrase first
+- Then explore the **implied meaning** of the word or phrase, and why the writer has chosen it
+
+## Overview of structure analysis
+
+> **Spec point** — `spcpt_NrY7W4kCPHBpPfKy`
+
+## Overview of structure analysis
+
+To explain, comment on and analyse the effects of structure you must:
+
+- **Show** you **understand** the **writer’s use of structure**
+- **Examine** and **analyse** the **effects **of the **writer’s structural choices**
+- **Select** and **use relevant quotations**
+- Use **appropriate subject terminology** to discuss structural techniques
+
+The most important part of the assessment is the **analysis of the effects **of a writer’s choice of **structure**. Analysis of effects should be **precise** and **contextualised to a specific point in the text**. Your use of subject terminology is judged in the way that its **use ***enhances *the points made.
+
+| **Structural features can be found at:** |   |   |
+|---|---|---|
+| whole text level | paragraph level | sentence level |
+| For example, beginnings, endings and shifts in focus | For example, topic changes, single-sentence paragraphs | For example, sentence lengths |
+
+## Structural techniques
+
+> **Spec point** — `spcpt_PPXtWYSqw2txbxwq`
+
+## Structural techniques
+
+Analysing structure for Question 4 can be very demanding for students, but it simply involves **examining** the **structural choices made by the writer** and their **impact** on the text. By understanding the different types of structural devices and their purposes, you can effectively analyse how they contribute to the overall meaning of a text.
+
+- Structural techniques involve examining the writer’s use of **openings and endings**, **pacing**, **time shifts**, **repetition**, **dialogue **and **shifts in perspective** or **changes in narrative viewpoint**
+- It is important that you are familiar with some **key structural terms** as it can help to support your analysis of the text
+- While the examiner will expect you to use relevant subject terminology to support your views, this does not mean that you will secure more marks for demonstrating a wide knowledge of structural terms:
+
+  - It is much more important that you clearly articulate the intended effects regardless of any terms that you use
+
+What can the **structure of a text reveal?**
+
+- The (narrative) perspective of the text (what?)
+- The organisation and use of time (when?)
+- The location and setting (where?)
+- Characters and how they are introduced (who?)
+- The different patterns within the text, and elements of syntax or cohesion that help to create (reinforce) meaning (how?)
+
+The table below provides some definitions of key structural terms. This list is not exhaustive, but it is simply a guide to some of the techniques that might be most useful when analysing the text.
+
+| **Structural technique** | **Definition** |
+|---|---|
+| Openings | The opening of a prose text serves a crucial role in setting the mood and tone, establishing the setting, introducing characters and establishing the narrative voice |
+| Endings | The closing of a prose text is the concluding part that brings the narrative to a resolution or conclusion |
+| It provides a sense of closure, wraps up loose ends and gives insight into how the characters have changed or evolved throughout the narrative |   |
+| Foreshadowing | Foreshadowing is used to hint or suggest future events or developments within a narrative and involves the writer placing subtle clues throughout the narrative which, when interpreted by the reader, offer insight into what may occur later on |
+| Foreshadowing not only adds depth and complexity to the narrative, but can also create a sense of anticipation and suspense for the reader |   |
+| Juxtaposition | Juxtaposition refers to the deliberate placement of two contrasting elements in close proximity to one another to highlight their disparities |
+| By juxtaposing contrasting elements, writers can achieve various effects, from emphasising themes and character development to eliciting emotional responses from the reader |   |
+| Linear narrative | Linear narrative refers to a narrative structure where events in a narrative are presented in a chronological order, following a straightforward sequence from the beginning to the end |
+| In a linear narrative, the plot unfolds in a cause-and-effect manner and the reader experiences the events in the same order as they occur within the story's timeline |   |
+| Non-linear narrative | Non-linear narrative is a storytelling structure where events in a narrative are presented out of chronological order |
+| In this narrative style, the plot may jump back and forth in time, feature flashbacks, flash-forwards or alternate timelines |   |
+| Non-linear narratives can be more complex and challenging to follow than linear narratives, as they often require the reader to piece together the events in a non-sequential manner |   |
+| Cyclical structure | Cyclical structure is when the narrative concludes with a return to its starting point, creating a sense of closure and circularity |
+| In a cyclical structure, the narrative’s ending mirrors or echoes its beginning, emphasising themes or character development |   |
+
+> **Exam Hint**
+> When you begin to analyse the extract, you need to identify those parts of the extract which will help you respond to the question you are answering. When you have done that, you can begin to select quotations to support your choices.
+> 
+> Whenever you comment on a structural feature, you must always explain the intended effect on the reader. It is not enough to simply list examples of different structural techniques in your answer. Exploring the intended effect is crucial.
+
+## Sentence forms
+
+> **Spec point** — `spcpt_WGTFVQghZd7pH9S6`
+
+## Sentence forms
+
+It is important that you are familiar with **different sentence forms** so that this can help to support your analysis of the text. By recognising and analysing different sentence patterns, you can gain insight into the syntactical structure of a text. **Understanding** the **arrangement of sentence forms** will help you to **interpret** the **relationships between ideas and the information within the text. **
+
+Students tend to find less success writing about sentence length or punctuation. Therefore, if you do not have anything to say about these, then selecting individual words, short phrases and/or language techniques is fine.
+
+It is also important to incorporate a **variety of sentences** in your writing tasks.
+
+The table below provides some definitions of different sentence types. This list is not exhaustive, but it is simply a guide to some sentence types that might be most useful when analysing the text.
+
+| **Sentence type** | **Definition** | **Example** |
+|---|---|---|
+| Declarative | Declarative sentences make statements or convey information and are the most common type of sentence | “Mr Darcy, who never looks at any woman but to see a blemish, and who probably never looked at you in his life!” (Pride and Prejudice) |
+| Interrogative | Interrogative sentences ask questions | “Do you think, because I am poor,  obscure, plain, and little, I am soulless and heartless?” (Jane Eyre) |
+| Imperative | Imperative sentences give commands or instructions | “Call me Ishmael.” (Moby Dick) |
+| Exclamative | Exclamatory sentences express strong emotions or exclamations | “I cannot live without my soul!” (Wuthering Heights) |
+| Simple | Simple sentences consist of one independent clause, which contains a subject and a verb, and expresses a complete thought | “I am given to understand that you have some intentions of favouring me with a visit.”  (Great Expectations) |
+| Compound | Compound sentences consist of two or more independent clauses joined together by coordinating conjunctions (such as “and”, “but”, “or”) or punctuation marks (such as a semicolon or colon) | “He smiled at the pistol with a contemptuous air and said, 'Present it, then.’” (The Count of Monte Cristo) |
+| Complex | Complex sentences consist of one independent clause and one or more dependent clauses | “As he spoke he smiled, and the lamplight fell on a hard-looking mouth, with very red lips and sharp-looking teeth, as white as ivory.” (Dracula) |
+
+Similarly, we will now explore one of the sentence forms from the table above and consider the writer’s intentions.
+
+| **Sentence form** | **Example** | **Writer’s intentions** |
+|---|---|---|
+| **interrogative sentence** | “Do you think, because I am poor, obscure, plain, and little, I am soulless and heartless?” | > *The writer uses an interrogative sentence to challenge societal expectations within the narrative. The rhetorical nature of the question encourages the reader to reflect and consider the character’s inherent value as one which extends beyond mere appearance or social status.* |
+
+When commenting on sentence structures, you should always try to consider **why **you think the writer has chosen this particular sentence type. Below are some questions which you might ask yourself when analysing sentence structures in a text.
+
+| Does the sentence form provide clarity and help to present ideas or themes in a straightforward manner? | Does the sentence form help to establish the setting and help the reader to visualise the context? | Does the sentence form contribute to the tone and mood of the text and help create atmosphere? |
+|---|---|---|
+| Does the sentence form draw attention to specific details in order to highlight their significance within the text? | Does the sentence form foreshadow events or highlight a shift in the narrative? | Does the change in sentence form indicate shifts in mood, character development or thematic ideas? |
+
+## Key questions for analysing structure
+
+> **Spec point** — `spcpt_Z6pKwhDbV6ZQTCGs`
+
+## Key questions for analysing structure
+
+As you read through a text, consider these key questions. They will help you to move from **what **is being written about, to **how** this has been presented, and on to **why **the writer has chosen to structure their text in this way.
+
+| When you first start to read the text, what is the writer focusing your attention on? | How is this being developed? | What structural feature is evident at this point? |
+|---|---|---|
+| Why might the writer have deliberately chosen to begin the text with this focus? | What main points of focus does the writer develop in sequence after the starting point? | Why is the writer taking you through this particular sequence? |
+| What does the writer focus your attention on at the end of the text? | How are you left thinking or feeling at the end of the text? | Why might the writer have sought to bring you to this point of interest or understanding? |

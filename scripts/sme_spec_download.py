@@ -46,6 +46,21 @@ MANUAL = {
         ["igcse-science-double-award-17-biology",
          "igcse-science-double-award-17-chemistry",
          "igcse-science-double-award-17-physics"],
+    # T-SME-11: SME leaves courseExamSpecificationPdfLink null on all six
+    # Science (Double Award) (Modular) 2024 unit pages, as it did for the
+    # 2017 linear course. URL read off the Pearson qualification page
+    #   qualifications.pearson.com/en/qualifications/edexcel-international-gcses/
+    #   science-double-award-2024-modular.html
+    # (verified: PDF magic + spec-code probe, 2026-09-19).
+    "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/"
+    "Science%20(Double%20Award)/2024/specification-and-sample-assessments/"
+    "international-gcse-science-da-modular-specification.pdf":
+        ["igcse-science-double-award-modular-24-biology-unit-1",
+         "igcse-science-double-award-modular-24-biology-unit-2",
+         "igcse-science-double-award-modular-24-chemistry-unit-1",
+         "igcse-science-double-award-modular-24-chemistry-unit-2",
+         "igcse-science-double-award-modular-24-physics-unit-1",
+         "igcse-science-double-award-modular-24-physics-unit-2"],
 }
 
 # SME links that Pearson has renamed/retired (old URL serves HTTP 200 with
@@ -67,12 +82,16 @@ SLUG_OVERRIDES = {
     # for ial-maths-20-* and ial-further-maths-18-further-pure-1.
     "https://qualifications.pearson.com/content/dam/pdf/International%20Advanced%20Level/Mathematics/2018/Specification-and-Sample-Assessment/international-a-level-maths-spec.pdf":
         "ial-maths",
+    # T-SME-11: one 4EA1 spec covers the three ELA paper-module lanes; the
+    # LCP rule would yield 'igcse-english-language-a-paper'.
+    "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/English%20Language%20A/2016/Specification%20and%20sample%20assessments/9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf":
+        "igcse-english-language-a",
 }
 
 SPEC_CODE_RE = re.compile(
     r"\b(4CH1|4BI1|4PH1|4MA1|4MB1|4SD0|4BS1|4EC1|4ET1|4GE1|4IT1|4AC1|4PM1|"
     r"4XBI1|4XCH1|4XPH1|4XEC1|4XMAF|4XMAH|4XMB1|4XPM1|4XAC1|4XBS1|4XET1|"
-    r"4XGE1|4XIT1|"
+    r"4XGE1|4XIT1|4EA1|4XSD1|"
     r"WCH1[1-6]|WBI1[1-6]|WPH1[1-6]|WMA1[1-4]|WFM0[1-3]|WST1[1-3]|WDM1[1-2])")
 ISSUE_RE = re.compile(r"[Ii]ssue\s+(\d)")
 

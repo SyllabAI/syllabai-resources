@@ -1,0 +1,469 @@
+# Prime Factors, HCF & LCM
+
+Course: igcse-maths-b-16 · Section: Number
+
+Source: https://www.savemyexams.com/igcse/maths/edexcel/b/16/flashcards/number/prime-factors-hcf-and-lcm/
+
+
+## Card 1 — keyword_definition (`fl_CggHyKkhFq3Hdz9V`)
+
+**FRONT**
+
+Define the term **integer**.
+
+
+**BACK**
+
+**Integers **are **whole numbers**. They can be positive, negative or zero.
+
+
+
+## Card 2 — keyword_definition (`fl_hZ6DPp2jcdDRJ2RR`)
+
+**FRONT**
+
+What is a **factor**?
+
+
+**BACK**
+
+A **factor **of a number is a **positive integer** that **divides exactly** into the number.
+
+
+
+## Card 3 — keyword_definition (`fl_rWRGN83TVbBQ3CBH`)
+
+**FRONT**
+
+What is a **multiple**?
+
+
+**BACK**
+
+A **multiple **of a number is a **positive integer**  that can be made by **multiplying the number** by another integer.
+
+
+
+## Card 4 — keyword_definition (`fl_MKBDh8RrpvVJQSc3`)
+
+**FRONT**
+
+Define a **prime number**.
+
+
+**BACK**
+
+A **prime number **is a **positive integer** which has **exactly two factors**, itself and 1.
+
+
+
+## Card 5 — true_or_false (`fl_gyPs2b5SyWYmy4FS`)
+
+**FRONT**
+
+**True or False? **
+
+1 is a prime number.
+
+
+**BACK**
+
+**False. **
+
+1 is not a prime number, as it **only has one factor**.
+
+
+
+## Card 6 — question_and_answer (`fl_nY5gDb22HmW3fVXM`)
+
+**FRONT**
+
+What is the **only even prime number**?
+
+
+**BACK**
+
+**2 **is the only even prime number.
+
+
+
+## Card 7 — question_and_answer (`fl_VJDNy498sR92hhYg`)
+
+**FRONT**
+
+What are the **first ten prime numbers**?
+
+
+**BACK**
+
+The first ten prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.
+
+
+
+## Card 8 — question_and_answer (`fl_Hy2pVyf4ZvN3tnqd`)
+
+**FRONT**
+
+What are the **first twelve square numbers**?
+
+
+**BACK**
+
+The first twelve square numbers are: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144.
+
+
+
+## Card 9 — question_and_answer (`fl_SfcH5QYHwQmX5FBg`)
+
+**FRONT**
+
+What are the **first five cube numbers**?
+
+
+**BACK**
+
+The first five cube numbers are: 1, 8, 27, 64, 125.
+
+
+
+## Card 10 — true_or_false (`fl_4Qd3ZmC75mrJc5Vy`)
+
+**FRONT**
+
+**True or False?**
+
+**Any positive integer** has an **infinite **number of **multiples**.
+
+
+**BACK**
+
+**True.**
+
+Any positive integer has an infinite number of multiples.
+
+
+
+## Card 11 — keyword_definition (`fl_qSsZ6RFC976dsFW3`)
+
+**FRONT**
+
+What is a **natural number**?
+
+
+**BACK**
+
+A **natural number** is a positive integer.
+
+They are often referred to as counting numbers.
+**Zero** is **not** a natural number.
+
+
+
+## Card 12 — true_or_false (`fl_6VTHvTdXRKNgc5MR`)
+
+**FRONT**
+
+**True or False?**
+
+The result of any number **multiplied by its reciprocal** will be **equal to 1**.
+
+
+**BACK**
+
+**True.**
+
+The result of any number **multiplied by its reciprocal** will be **equal to 1**.
+
+E.g. $3\times\frac{1}{3}=1$
+
+
+
+## Card 13 — question_and_answer (`fl_F3vDXTvzxZ6N985W`)
+
+**FRONT**
+
+What are **prime factors**?
+
+
+**BACK**
+
+**Prime factors** of a number are the **prime numbers** which are** factors** of the number.
+
+E.g. 24 has the prime factors 2 and 3, (24 = 2<sup>3</sup> x 3)
+
+
+
+## Card 14 — question_and_answer (`fl_dDFWg5ysPVyCVqdq`)
+
+**FRONT**
+
+What is **prime factor decomposition**?
+
+
+**BACK**
+
+**Prime factor decomposition** (or Prime Factorisation) is the process of breaking a number up into its **prime factors**.
+
+Break a number into a pair of factors, then break those factors down in pairs in the same way until you are left with **only prime factors**.
+
+`table row 72 equals cell 8 cross times 9 end cell row blank equals cell open parentheses 2 cross times 4 close parentheses cross times open parentheses 3 cross times 3 close parentheses end cell row blank equals cell 2 cross times open parentheses 2 cross times 2 close parentheses cross times 3 cross times 3 end cell row blank bold equals cell bold 2 bold cross times bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 3 end cell end table`
+
+
+
+## Card 15 — keyword_definition (`fl_KW5ZBCR8dfYsjG56`)
+
+**FRONT**
+
+How do you write a number as a **product of prime factors**?
+
+
+**BACK**
+
+A **product of prime factors** can be found using **prime factor decomposition** then writing the prime factors of a number **multiplied** together.
+
+E.g. $36=2\times2\times3\times3$ or $36=2^{2}\times3^{2}$.
+
+
+
+## Card 16 — true_or_false (`fl_pY7kyghvGCMt6kF2`)
+
+**FRONT**
+
+**True or False?**
+
+$500$ can be written as a product of prime factors in the form $2\times2\times5\times5\times5$.
+
+
+**BACK**
+
+**True.**
+
+The prime factorisation of $500=2\times2\times5\times5\times5$.
+
+You may be asked to give your answer in the form  $500=2^{2}\times5^{3}$.
+
+
+
+## Card 17 — question_and_answer (`fl_jdzntf4J5PfsHzNT`)
+
+**FRONT**
+
+How can **prime factor decomposition **be used to identify if a number is a **square number**?
+
+
+**BACK**
+
+To identify if a number is a **square number,** use prime factor decomposition. 
+If the **indices** of all of its **prime factors** are **even**, the number is square.
+
+E.g. 36 is a square number: $36=2^{2}\times3^{2}$
+
+24 is not a square number: $24=2^{3}\times3$
+
+
+
+## Card 18 — true_or_false (`fl_7DXsSRCgCwmKJc5N`)
+
+**FRONT**
+
+**True or False?**
+
+You can identify a **cube number** by the fact that the **index** of each its** prime factors** is a **cube**.
+
+
+**BACK**
+
+**False.**
+
+You can identify a **cube **number by the fact that the index of each of its prime factors is a **multiple of 3**.
+
+E.g. 216 is a cube number: $216=2^{3}\times3^{3}$
+
+
+
+## Card 19 — true_or_false (`fl_TqJDFCfNB3YWwWf2`)
+
+**FRONT**
+
+**True or False?**
+
+It can be shown, using its **prime factors**, that $10\sqrt{15}$ is the exact square root of $1500$.
+
+
+**BACK**
+
+**True.**
+
+First write $1500$ as a **product of its prime factors**, e.g. $1500=2^{2}\times3\times5^{3}$
+
+Separate prime factors with an **even index **and those with an **odd index**, e.g. `1500 equals open parentheses 2 squared cross times 5 squared close parentheses cross times open parentheses 3 cross times 5 close parentheses`
+
+Take the **square root** of both groups, 
+e.g. `table row cell square root of 1500 end cell equals cell square root of open parentheses 2 squared cross times 5 squared close parentheses end root cross times square root of open parentheses 3 cross times 5 close parentheses end root end cell row blank equals cell 2 cross times 5 cross times square root of 15 end cell row blank equals cell 10 square root of 15 end cell end table`
+
+
+
+## Card 20 — keyword_definition (`fl_KFQ4wkfs6w6szkdp`)
+
+**FRONT**
+
+What is a **common factor**?
+
+
+**BACK**
+
+A **common factor** of two numbers is a positive integer that both numbers can be **divided by exactly**.
+
+E.g. 3 is a common factor of the numbers 6 and 21.
+
+
+
+## Card 21 — keyword_definition (`fl_gJ2PyRQfGmftwNRy`)
+
+**FRONT**
+
+What does the term **highest common factor (HCF) **of two numbers mean?
+
+
+**BACK**
+
+The **highest common factor (HCF)** is the **largest positive integer **that **divides **into both numbers **exactly**.
+
+E.g. 5 is the highest common factor of the numbers 10 and 15.
+
+
+
+## Card 22 — question_and_answer (`fl_Jfv2pdPSyj9HMJDg`)
+
+**FRONT**
+
+What number is **always a common factor** of any two positive integers?
+
+
+**BACK**
+
+**1** is **always **a common factor of any two numbers.
+
+
+
+## Card 23 — question_and_answer (`fl_sG8n3KrRgt4Vdq8b`)
+
+**FRONT**
+
+How can you find the **HCF **of two numbers?
+
+
+**BACK**
+
+To find the **HCF**, write each number as a **product of its prime factors**, find the **common prime factors**, and **multiply **them together.
+
+E.g. To find the HCF of the numbers $45$ and $60$
+
+Each number as a product of its prime factors is: $45=3^{2}\times5$, $60=2^{2}\times3\times5$
+
+The common prime factors are: $3$ and $5$
+
+The HCF is therefore: $3\times5=15$
+
+
+
+## Card 24 — question_and_answer (`fl_HHRNPvsfb3wpNM5D`)
+
+**FRONT**
+
+What does the term **lowest common multiple (LCM)** of two numbers mean?
+
+
+**BACK**
+
+The** lowest common multiple (LCM)** of two numbers is the **smallest **number that is a **multiple of both numbers**.
+
+E.g. The LCM of 4 and 6 is 12.
+
+
+
+## Card 25 — keyword_definition (`fl_mDxXJWxYt67CRPRF`)
+
+**FRONT**
+
+What is a **common multiple**?
+
+
+**BACK**
+
+A **common multiple** of two numbers is a number that **appears **in **both of their times tables**.
+
+E.g. Common multiples of the numbers 3 and 5 include 15, 30, 15, ...etc.
+
+
+
+## Card 26 — true_or_false (`fl_wD38Vd9sxqHyd2qm`)
+
+**FRONT**
+
+**True or False? **
+
+The **product **of two numbers is **always **the lowest common multiple.
+
+
+**BACK**
+
+**False.**
+
+The product of two numbers is always a **common multiple**, however it is **not always the smallest**.
+
+
+
+## Card 27 — question_and_answer (`fl_jQ6DBPqFfy5kcCft`)
+
+**FRONT**
+
+How can you find the **LCM **of two numbers?
+
+
+**BACK**
+
+To find the **LCM**, write each number as a product of the powers of its prime factors. Then find the **highest power** of **every prime** that appears in either number.
+The lowest common multiple is the product of these highest powers.
+
+E.g. To find the LCM of $108$ and $126$
+$108=2^{2}\times3^{3}$ and $126=2\times3^{2}\times7$
+Multiply together the highest powers of all the primes: $2^{2}\times3^{3}\times7^{1}=756$
+
+
+
+## Card 28 — true_or_false (`fl_xkcdPxpQDQKQwdfD`)
+
+**FRONT**
+
+**True or False?**
+
+Any pair of numbers has a **finite number** of** common factors**.
+
+
+**BACK**
+
+**True.**
+
+Any pair of numbers will always have a **finite number** of** common factors**.
+
+
+
+## Card 29 — true_or_false (`fl_qwskXBWVSBvGK8xJ`)
+
+**FRONT**
+
+**True or False?**
+
+Any pair of numbers has a **finite number** of** common multiples**.
+
+
+**BACK**
+
+**False.**
+
+Any pair of numbers will always have an **infinite **number of common multiples.
+
+Once you have found a common multiple, you can **multiply that by any positive integer** to find another common multiple.
+
+

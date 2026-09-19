@@ -1,0 +1,218 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_CjrhsjYdqGdcDmWn",
+ "course_slug": "igcse-maths-b-16",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/properties-of-matrices/inverses-of-matrices",
+ "title": "Inverses of Matrices",
+ "page_title": "Inverses of Matrices | Edexcel IGCSE Maths B Revision Notes 2016",
+ "path": {
+  "segs": [
+   "matrices",
+   "properties-of-matrices",
+   "inverses-of-matrices"
+  ],
+  "section": "matrices",
+  "topic": "properties-of-matrices",
+  "leaf": "inverses-of-matrices"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Properties of Matrices",
+  "subtopic": "Inverses of Matrices"
+ },
+ "updated_at": "2026-01-14T11:34:25.621Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8VvNPFT47Pbjp3Rq",
+   "name": "Jamie Wood",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_Vr9z3J63Pcc4xWmH"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "A^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "\\mathrm{AA}^{-1}=A^{-1}A=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">AA</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">A</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AA to the power of negative 1 end exponent equals bold A to the power of negative 1 end exponent bold A equals bold I"
+  },
+  {
+   "latex": "2\\times2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 cross times 2"
+  },
+  {
+   "latex": "ad-bc",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>d</mi><mo>-</mo><mi>b</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a d minus b c"
+  },
+  {
+   "latex": "ad-bc",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>d</mi><mo>-</mo><mi>b</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a d minus b c"
+  },
+  {
+   "latex": "\\frac{1}{ad-bc}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mrow><mi>a</mi><mi>d</mi><mo>-</mo><mi>b</mi><mi>c</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "fraction numerator 1 over denominator a d minus b c end fraction"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "A^{-1}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A to the power of negative 1 end exponent"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "\\mathrm{AA}^{-1}=A^{-1}A=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"bold\">AA</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mi mathvariant=\"bold\">A</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mi mathvariant=\"bold\">A</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AA to the power of negative 1 end exponent equals bold A to the power of negative 1 end exponent bold A equals bold I"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "\\mathrm{AB}=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">AB</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AB equals bold I"
+  },
+  {
+   "latex": "\\mathrm{BA}=I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">BA</mi><mo>=</mo><mi mathvariant=\"bold\">I</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold BA equals bold I"
+  },
+  {
+   "latex": "\\mathrm{AB}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">AB</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold AB"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  }
+ ],
+ "stats": {
+  "blocks": 10,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 22
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_Vr9z3J63Pcc4xWmH",
+   "name": "Inverse of a 2x2 matrix",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Inverse of a 2x2 matrix"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the inverse of a matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Only a *square matrix* has an inverse\n- The inverse of a square matrix $A$is denoted as the matrix $A^{-1}$\n\n  - The product of these matrices is the **identity** matrix, $\\mathrm{AA}^{-1}=A^{-1}A=I$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the inverse of a 2x2 matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The method for finding the inverse of a $2\\times2$ matrix is:\n\n  - Switch the two entries on the top left-bottom right diagonal\n  - Change the signs of the other two entries\n  - Divide by the determinant $ad-bc$"
+  },
+  {
+   "type": "paragraph",
+   "md": "`bold A equals open parentheses table row a b row c d end table close parentheses space space rightwards double arrow space space bold A to the power of bold minus bold 1 end exponent equals fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "The formula for the inverse is on the course Formulae sheet, and will be provided for you in Paper 2 questions where it is needed.\n\nDeterminant questions can also appear in Paper 1, however. While these can usually be answered without having to use the inverse formula, it is still a good idea to know the formula going into the exam."
+  },
+  {
+   "type": "bullets",
+   "md": "- Note that if the determinant, $ad-bc$, is equal to zero, then the term $\\frac{1}{ad-bc}$ in the formula is not defined\n\n  - If this is the case, then the matrix does **not** have an inverse\n  - You will not need to deal with this situation on the exam"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "`bold A equals open parentheses table row 1 3 row 2 7 end table close parentheses space space space space space space space bold B equals open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses`\n\nShow that $B$ is the inverse of $A$.\n\n**Answer:**\n\n**Method 1**\n\n> *If you know the inverse formula, you can use it to calculate the inverse of *$A$* directly*\n\n- *The inverse of *`space open parentheses table row a b row c d end table close parentheses space`* is *`space fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`\n\n`table row cell bold A to the power of bold minus bold 1 end exponent end cell equals cell fraction numerator 1 over denominator 1 cross times 7 minus 3 cross times 2 end fraction open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator 7 minus 6 end fraction open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell 1 open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals bold B end table`\n\n**Final answer:** $B$** is the inverse of **$A$\n** **\n\n**Method 2**\n\n> *If you don't know the inverse formula, you can use the definition of the inverse*\n\n- *I.e. if *$A^{-1}$* is the inverse of *$A$*, then *$\\mathrm{AA}^{-1}=A^{-1}A=I$\n\n> *So you can show that *$B$* is the inverse of *$A$* by showing*\n\n- *either that *$\\mathrm{AB}=I$\n- *or that *$\\mathrm{BA}=I$\n\n`table row bold AB equals cell open parentheses table row 1 3 row 2 7 end table close parentheses open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell open parentheses table row cell 1 cross times 7 plus 3 cross times open parentheses negative 2 close parentheses end cell cell 1 cross times open parentheses negative 3 close parentheses plus 3 cross times 1 end cell row cell 2 cross times 7 plus 7 cross times open parentheses negative 2 close parentheses end cell cell 2 cross times open parentheses negative 3 close parentheses plus 7 cross times 1 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 7 minus 6 end cell cell negative 3 plus 3 end cell row cell 14 minus 14 end cell cell negative 6 plus 7 end cell end table close parentheses end cell row blank equals cell open parentheses table row 1 0 row 0 1 end table close parentheses end cell row blank equals bold I end table`\n\n**Final answer:** $\\mathrm{AB}$** is equal to the identity matrix, so **$B$** is the inverse of **$A$"
+  }
+ ]
+}

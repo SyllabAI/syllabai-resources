@@ -1,0 +1,125 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_hkC846PC6RFchy2Y",
+ "course_slug": "igcse-maths-b-16",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/properties-of-matrices/introduction-to-matrices",
+ "title": "Introduction to Matrices",
+ "page_title": "Introduction to Matrices | Edexcel IGCSE Maths B Revision Notes 2016",
+ "path": {
+  "segs": [
+   "matrices",
+   "properties-of-matrices",
+   "introduction-to-matrices"
+  ],
+  "section": "matrices",
+  "topic": "properties-of-matrices",
+  "leaf": "introduction-to-matrices"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Properties of Matrices",
+  "subtopic": "Introduction to Matrices"
+ },
+ "updated_at": "2026-01-14T09:32:03.801Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8VvNPFT47Pbjp3Rq",
+   "name": "Jamie Wood",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_MwN8gwy9J9DD39z6",
+  "spcpt_7sDcDrMgvvb7JNyy"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "I",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">I</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold I"
+  },
+  {
+   "latex": "0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mn mathvariant=\"bold\">0</mn><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold 0"
+  }
+ ],
+ "stats": {
+  "blocks": 11,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 2
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_MwN8gwy9J9DD39z6",
+   "name": "Introduction to Matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Introduction to matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **matrix** is a rectangular grid (array) of **elements** (numbers or letters) arranged in **rows** and **columns**\n\n  - They are used a lot in computer / data science\n  - The plural of \"matrix\" is \"**matrices**\"\n- The **order **of a matrix is its **\"number of rows\" × \"number of columns\"**\n\n  - E.g. a 2 × 1 matrix is `open parentheses table row a row b end table close parentheses`\n  \n    - this is also called a **column matrix** or a **column** **vector**\n    - this could be used to represent the point with **coordinates **`open parentheses a comma space b close parentheses`\n  - a 2 × 2 matrix is `open parentheses table row a b row c d end table close parentheses`\n  \n    - this is called a **square **matrix (same number of rows and columns)\n  - a 2 × 3 matrix is `open parentheses table row a b row d e end table table row c row f end table close parentheses`\n  \n    - this could be used to represent the vertices of a triangle with coordinates `open parentheses a comma space d close parentheses`, `open parentheses b comma space e close parentheses` and `open parentheses c comma space f close parentheses`\n  - a 3 × 3 matrix is `open parentheses table row a b row d e row g h end table table row c row f row i end table close parentheses`\n  \n    - this is also a **square **matrix (same number of rows and columns)\n- A **bold capital letter** is often used to represent a matrix\n\n  - `bold A equals open parentheses table row 5 2 row 0 4 end table close parentheses`, `bold B equals open parentheses table row 4 row 3 end table close parentheses`"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "The biggest matrices you will need to deal with in this course are 3 × 3 matrices."
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_7sDcDrMgvvb7JNyy",
+   "name": "The identity and null matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "The identity and null matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the identity (or unit) matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **identity** matrix, $I$, is a **square** matrix with 1s along the diagonal from top-left to bottom-right and zeros everywhere else\n\n  - The 2×2 identity matrix is `bold I equals open parentheses table row 1 0 row 0 1 end table close parentheses`\n  - The 3×3 identity matrix is `bold I equals open parentheses table row 1 0 0 row 0 1 0 row 0 0 1 end table close parentheses`\n- It is also sometimes known as the **unit** matrix\n\n  - For matrices, it fulfils a role similar to the number 1 for regular numbers"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the null (or zero) matrix?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **null** matrix is a matrix with all its elements equal to zero\n\n  - The 2×2 null matrix is `open parentheses table row 0 0 row 0 0 end table close parentheses`\n  - The 3×3 null matrix is `open parentheses table row 0 0 0 row 0 0 0 row 0 0 0 end table close parentheses`\n- Unlike the identity matrix, the null matrix does **not** have to be square\n\n  - E.g., the 2×3 null matrix is `open parentheses table row 0 0 row 0 0 end table table row 0 row 0 end table close parentheses`\n- It is also sometimes known as the **zero** matrix\n\n  - For matrices, it fulfils a role similar to the number 0 (zero) for regular numbers\n  - You may sometimes see a bold zero, $0$, used to represent the null matrix"
+  }
+ ]
+}

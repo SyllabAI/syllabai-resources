@@ -1,16 +1,16 @@
 {
  "schema": "syllabai.sme-flashcards/1.0",
- "generated_utc": "2026-09-17T17:37:56Z",
+ "generated_utc": "2026-09-19T19:16:35Z",
  "source": {
   "provider": "Save My Exams",
   "registry": "scripts/sme_flashcards_scrape.py REGISTRY",
   "license": "operator-authorized; see LICENSE-DATA.md (SME attestation)"
  },
  "totals": {
-  "courses_active": 34,
-  "decks": 678,
-  "cards": 22748,
-  "flags": 488,
+  "courses_active": 37,
+  "decks": 746,
+  "cards": 24128,
+  "flags": 624,
   "deck_failures": 0
  },
  "registry": {
@@ -167,6 +167,46 @@
    "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
   },
   "igcse-maths-a-modular-24-foundation-unit-2": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing": {
+   "path": "igcse/english-language/edexcel/a/16/paper-1-non-fiction-texts-and-transactional-writing",
+   "expected_decks": 3
+  },
+  "igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing": {
+   "path": "igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing",
+   "expected_decks": 3
+  },
+  "igcse-maths-b-16": {
+   "path": "igcse/maths/edexcel/b/16",
+   "expected_decks": 62
+  },
+  "igcse-english-language-a-16-paper-3-coursework": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-science-double-award-modular-24-biology-unit-1": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-science-double-award-modular-24-biology-unit-2": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-science-double-award-modular-24-chemistry-unit-1": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-science-double-award-modular-24-chemistry-unit-2": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-science-double-award-modular-24-physics-unit-1": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
+  },
+  "igcse-science-double-award-modular-24-physics-unit-2": {
    "status": "missing_on_sme",
    "reason": "no flashcard decks on SME (sitemap census 2026-09-17)"
   }
@@ -488,6 +528,36 @@
    "deck_failures": 0,
    "expected": 16
   },
+  "igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing": {
+   "slug": "igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing",
+   "decks": 3,
+   "cards": 166,
+   "card_types": {
+    "question_and_answer": 30,
+    "fill_in_the_blanks": 52,
+    "keyword_definition": 84
+   },
+   "flags": 52,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 3
+  },
+  "igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing": {
+   "slug": "igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing",
+   "decks": 3,
+   "cards": 132,
+   "card_types": {
+    "fill_in_the_blanks": 46,
+    "keyword_definition": 72,
+    "question_and_answer": 14
+   },
+   "flags": 46,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 3
+  },
   "igcse-english-literature-16": {
    "slug": "igcse-english-literature-16",
    "decks": 15,
@@ -609,6 +679,22 @@
    "asset_failures": 0,
    "deck_failures": 0,
    "expected": 27
+  },
+  "igcse-maths-b-16": {
+   "slug": "igcse-maths-b-16",
+   "decks": 62,
+   "cards": 1082,
+   "card_types": {
+    "keyword_definition": 212,
+    "question_and_answer": 486,
+    "fill_in_the_blanks": 38,
+    "true_or_false": 346
+   },
+   "flags": 38,
+   "assets": 59,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 62
   },
   "igcse-physics-19": {
    "slug": "igcse-physics-19",

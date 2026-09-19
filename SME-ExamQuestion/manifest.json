@@ -1,14 +1,14 @@
 {
  "schema": "syllabai.sme-exam-questions-registry/1.0",
- "generated_utc": "2026-09-17T07:59:51Z",
+ "generated_utc": "2026-09-19T19:16:35Z",
  "source": {
   "provider": "Save My Exams",
   "board": "Edexcel",
   "registry_builder": "scripts/sme_examq_courses.py",
   "license": "operator-authorized; see LICENSE-DATA.md (SME attestation 2026-09-17, covers all SME corpora in this repo)"
  },
- "course_count": 39,
- "scraped_courses": 39,
+ "course_count": 49,
+ "scraped_courses": 41,
  "courses": [
   {
    "slug": "ial-biology-18",
@@ -773,6 +773,98 @@
    }
   },
   {
+   "slug": "igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing",
+   "level": "igcse",
+   "subject": "english-language",
+   "mid": "a/16/paper-1-non-fiction-texts-and-transactional-writing",
+   "landing_url": "https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-1-non-fiction-texts-and-transactional-writing/topic-questions/",
+   "page_count": 29,
+   "leaf_types": {
+    "exam-questions": 29
+   },
+   "sections": 1,
+   "status": "scraped",
+   "totals": {
+    "topics": 2,
+    "questions": 100,
+    "parts": 100,
+    "marks": 1980,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 40,
+    "spec_points": 150,
+    "part_ids": 10,
+    "covered": 10,
+    "missing": 0
+   }
+  },
+  {
+   "slug": "igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing",
+   "level": "igcse",
+   "subject": "english-language",
+   "mid": "a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing",
+   "landing_url": "https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/topic-questions/",
+   "page_count": 33,
+   "leaf_types": {
+    "exam-questions": 33
+   },
+   "sections": 1,
+   "status": "scraped",
+   "totals": {
+    "topics": 2,
+    "questions": 65,
+    "parts": 65,
+    "marks": 1950,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 20,
+    "spec_points": 97,
+    "part_ids": 11,
+    "covered": 11,
+    "missing": 0
+   }
+  },
+  {
+   "slug": "igcse-english-language-a-16-paper-3-coursework",
+   "level": "igcse",
+   "subject": "english-language",
+   "mid": "a/16/paper-3-coursework",
+   "landing_url": "https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-3-coursework/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 7,
+    "spec_points": 24,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
    "slug": "igcse-english-literature-16",
    "level": "igcse",
    "subject": "english-literature",
@@ -1103,6 +1195,36 @@
    }
   },
   {
+   "slug": "igcse-maths-b-16",
+   "level": "igcse",
+   "subject": "maths",
+   "mid": "b/16",
+   "landing_url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 199,
+    "spec_points": 215,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
    "slug": "igcse-physics-19",
    "level": "igcse",
    "subject": "physics",
@@ -1299,7 +1421,187 @@
     "missing_resolved_in_sibling_trees": 26,
     "missing_nowhere_corpus_wide": 0
    }
+  },
+  {
+   "slug": "igcse-science-double-award-modular-24-biology-unit-1",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award-modular/24/biology-unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/biology-unit-1/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 32,
+    "spec_points": 59,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
+   "slug": "igcse-science-double-award-modular-24-biology-unit-2",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award-modular/24/biology-unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/biology-unit-2/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 75,
+    "spec_points": 99,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
+   "slug": "igcse-science-double-award-modular-24-chemistry-unit-1",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award-modular/24/chemistry-unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/chemistry-unit-1/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 51,
+    "spec_points": 77,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
+   "slug": "igcse-science-double-award-modular-24-chemistry-unit-2",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award-modular/24/chemistry-unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/chemistry-unit-2/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 29,
+    "spec_points": 43,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
+   "slug": "igcse-science-double-award-modular-24-physics-unit-1",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award-modular/24/physics-unit-1",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/physics-unit-1/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 44,
+    "spec_points": 64,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
+  },
+  {
+   "slug": "igcse-science-double-award-modular-24-physics-unit-2",
+   "level": "igcse",
+   "subject": "science",
+   "mid": "double-award-modular/24/physics-unit-2",
+   "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/physics-unit-2/topic-questions/",
+   "page_count": 0,
+   "leaf_types": {},
+   "sections": 0,
+   "status": "no_topic_questions_on_sme",
+   "totals": {
+    "topics": 0,
+    "questions": 0,
+    "parts": 0,
+    "marks": 0,
+    "assets": 0,
+    "asset_failures": 0,
+    "missing_questions": 0,
+    "equations": 0
+   },
+   "spec_index": {
+    "schema": "syllabai.sme-spec-point-index/1.0",
+    "source_pages": 51,
+    "spec_points": 76,
+    "part_ids": 0,
+    "covered": 0,
+    "missing": 0
+   },
+   "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized."
   }
  ],
- "spec_index_courses": 39
+ "spec_index_courses": 49
 }

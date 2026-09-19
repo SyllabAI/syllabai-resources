@@ -1,15 +1,15 @@
 {
  "schema": "syllabai.official-specifications/1.0",
- "generated_utc": "2026-09-17T10:20:35Z",
+ "generated_utc": "2026-09-19T19:07:27Z",
  "source": {
   "provider": "Pearson Edexcel (qualifications.pearson.com)",
   "discovered_via": "Save My Exams course landing pages (pageProps.courseExamSpecificationPdfLink); Science Double Award via direct Pearson CDN path",
   "license_note": "official exam-board specification documents, public downloads; provenance recorded per file in spec.json; see repo LICENSE-DATA.md"
  },
  "totals": {
-  "qualifications": 20,
-  "sme_courses_covered": 39,
-  "sme_courses_total": 39,
+  "qualifications": 23,
+  "sme_courses_covered": 49,
+  "sme_courses_total": 49,
   "missing_courses": []
  },
  "qualifications": [
@@ -298,6 +298,30 @@
    "fetched_utc": "2026-09-17T10:19:35Z"
   },
   {
+   "slug": "igcse-english-language-a",
+   "pdf": "9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf",
+   "source_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/English%20Language%20A/2016/Specification%20and%20sample%20assessments/9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf",
+   "sme_source_url": null,
+   "http_content_type": "application/pdf",
+   "sha1": "7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd",
+   "bytes": 752031,
+   "pages": 46,
+   "spec_codes": [
+    "4EA1"
+   ],
+   "issue": "7",
+   "cover_code": "4EA1",
+   "pdf_title": "International GCSE in English Language A Specification",
+   "pdf_author": "Alex Martin",
+   "sme_courses": [
+    "igcse-english-language-a-16-paper-1-non-fiction-texts-and-transactional-writing",
+    "igcse-english-language-a-16-paper-2-poetry-and-prose-texts-and-imaginative-writing",
+    "igcse-english-language-a-16-paper-3-coursework"
+   ],
+   "discovered_via": "sme:courseExamSpecificationPdfLink",
+   "fetched_utc": "2026-09-19T19:00:18Z"
+  },
+  {
    "slug": "igcse-english-literature",
    "pdf": "International_GCSE_English_Literature_specification.pdf",
    "source_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/English%20Literature/2016/Specification%20and%20sample%20assessments/International_GCSE_English_Literature_specification.pdf",
@@ -436,6 +460,28 @@
    "fetched_utc": "2026-09-17T10:19:35Z"
   },
   {
+   "slug": "igcse-maths-b",
+   "pdf": "international-gcse-in-mathematics-spec-b.pdf",
+   "source_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20B/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-b.pdf",
+   "sme_source_url": null,
+   "http_content_type": "application/pdf",
+   "sha1": "0ebb61eade473e181777dd3359f1d7d6a2209e9d",
+   "bytes": 1384444,
+   "pages": 50,
+   "spec_codes": [
+    "4MB1"
+   ],
+   "issue": "1",
+   "cover_code": "4MB1",
+   "pdf_title": "International GCSE Mathematics B Specification",
+   "pdf_author": "Parul Patel,Chetna Somaiya,Chetna Somaiya,Chetna Somaiya",
+   "sme_courses": [
+    "igcse-maths-b-16"
+   ],
+   "discovered_via": "sme:courseExamSpecificationPdfLink",
+   "fetched_utc": "2026-09-19T19:00:18Z"
+  },
+  {
    "slug": "igcse-physics",
    "pdf": "international-gcse-physics-2017-specification.pdf",
    "source_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Physics/2017/specification-and-sample-assessments/international-gcse-physics-2017-specification.pdf",
@@ -513,6 +559,40 @@
    ],
    "discovered_via": "pearson qualification page (SME link is null)",
    "fetched_utc": "2026-09-17T10:19:35Z"
+  },
+  {
+   "slug": "igcse-science-double-award-modular",
+   "pdf": "international-gcse-science-da-modular-specification.pdf",
+   "source_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Science%20(Double%20Award)/2024/specification-and-sample-assessments/international-gcse-science-da-modular-specification.pdf",
+   "sme_source_url": null,
+   "http_content_type": "application/pdf",
+   "sha1": "2b7bb6db345914d236500c003bb6b14b3981a10b",
+   "bytes": 1825536,
+   "pages": 96,
+   "spec_codes": [
+    "4BI1",
+    "4CH1",
+    "4PH1",
+    "4SD0",
+    "4XBI1",
+    "4XCH1",
+    "4XPH1",
+    "4XSD1"
+   ],
+   "issue": "2",
+   "cover_code": "4XSD1",
+   "pdf_title": "International GCSE in Science Modular Spec",
+   "pdf_author": "Dylan Beaver",
+   "sme_courses": [
+    "igcse-science-double-award-modular-24-biology-unit-1",
+    "igcse-science-double-award-modular-24-biology-unit-2",
+    "igcse-science-double-award-modular-24-chemistry-unit-1",
+    "igcse-science-double-award-modular-24-chemistry-unit-2",
+    "igcse-science-double-award-modular-24-physics-unit-1",
+    "igcse-science-double-award-modular-24-physics-unit-2"
+   ],
+   "discovered_via": "pearson qualification page (SME link is null)",
+   "fetched_utc": "2026-09-19T19:00:18Z"
   }
  ]
 }

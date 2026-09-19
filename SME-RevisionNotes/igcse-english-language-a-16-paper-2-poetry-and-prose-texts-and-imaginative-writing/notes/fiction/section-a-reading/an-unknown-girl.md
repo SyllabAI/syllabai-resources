@@ -1,0 +1,98 @@
+---
+note_id: "rn_KgDbZZ6rYv3ZnHr7"
+title: "An Unknown Girl"
+source: https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/an-unknown-girl
+path: fiction/section-a-reading/an-unknown-girl
+updated_at: "2026-09-17T08:14:38.452Z"
+spec_point_ids: ["spcpt_z8g3GRFsGByF7Jfv", "spcpt_M8ybm7CGkrRYBnn7", "spcpt_jCZxn49mTkkY8rN5", "spcpt_BdZRN48svyk4Ncgj", "spcpt_YrWsWntGrjh8thnk"]
+spec_point_codes: []
+guided_study: false
+---
+
+# An Unknown Girl
+
+## ‘An Unknown Girl’ Analysis
+
+> **Spec point** — `spcpt_z8g3GRFsGByF7Jfv`
+
+## ‘An Unknown Girl’ Analysis
+
+Students studying the Pearson Edexcel International GCSE English Language A qualification will study all of the English language poetry and prose texts in Part 2 of the Anthology for Paper 2 or for Paper 3, which is the coursework component. Students taking the full examination route will be asked to analyse one of the poems or prose texts, which will be included in the question paper. You will have one question to answer about one of these texts in the exam, and you will be asked to analyse how writers use language and structure to achieve effects.
+
+The following guide to ‘An Unknown Girl’ by Moniza Alvi contains:
+
+- **‘An Unknown Girl’ overview**
+- **‘An Unknown Girl’ summary**
+- **Themes, ideas and perspectives in ‘An Unknown Girl’**
+- **How does Alvi present her ideas and perspectives?**
+
+## ‘An Unknown Girl’ overview
+
+> **Spec point** — `spcpt_M8ybm7CGkrRYBnn7`
+
+## ‘An Unknown Girl’ overview
+
+‘An Unknown Girl’ is a poem by Moniza Alvi, who was born in Pakistan but who grew up in England, and there is a sense of being split between two worlds in the poem. Alvi focuses on themes of personal identity and belonging through a description of a girl being paid a few rupees to henna the speaker’s hand. We are not told where the speaker in the poem is from, and the poem retains an air of ambiguity, as the identity of the speaker — and her relationship with India — remains a mystery.
+
+## ‘An Unknown Girl’ summary
+
+> **Spec point** — `spcpt_jCZxn49mTkkY8rN5`
+
+## ‘An Unknown Girl’ summary
+
+The poem is set in an evening market, with an unknown girl drawing a* ****henna tattoo*** on her hand for a few ***rupees***. She is squeezing the henna from a tube and decorates the speaker’s palm with a peacock design. The speaker describes the market, and then how she will scrape off the dried henna before she goes to bed, revealing the brown peacock underneath, which will fade in about a week. But whenever the speaker thinks of India, she will — with a sense of longing — attempt to connect again with the unknown girl in the market.
+
+## Themes, ideas and perspectives in ‘An Unknown Girl’
+
+> **Spec point** — `spcpt_BdZRN48svyk4Ncgj`
+
+## Themes, ideas and perspectives in ‘An Unknown Girl’
+
+Paper 2, Question 1 will ask you how the writer has presented a certain theme, idea or perspective in the text, with a focus on analysing the language and structure the writer has used in order to convey this theme, idea or perspective. You are expected to support your answer with close reference to the text, including brief quotations.
+
+### What are the key themes in ‘An Unknown Girl’?
+
+| **Theme** | **Analysis** |
+|---|---|
+| Cultural identity and belonging | - In this poem, Alvi is suggesting that immigrants often experience a crisis of identity and a longing for deep cultural connection to their original heritage:<br><br>  - Alvi probably inherited her own cultural identity from her parents, who lived in an undivided India before moving to England after ***post-partition*** Pakistan in 1954<br>  - The fact that the poem is set in India suggests a connection to India, a land which she cannot truly call her own<br>  - This adds to the idea that the poem is set somewhere familiar and yet foreign |
+| - The speaker’s outstretched hands at the end of the poem suggest that she feels disconnected from her heritage and wants to feel connected to it once more:<br><br>  - Her fading or disconnected identity is represented by the henna peacock on her hand, which will “fade in a week” |   |
+| Culture clash | - The setting of the ***bazaar***** **evokes a traditional feel, along with the speaker’s ***kameez***, the colourful balloons and cloth:<br><br>  - This clashes with the “neon”, the dummies in the shop fronts with “their Western perms” and the banners for “Miss India 1993”<br>  - This hints at tension between Eastern and Western cultures, as well as between tradition and modernity<br>  - This suggests that the increasing globalisation of modern life can lead to increased and more meaningful cross-cultural connections |
+| - The world becoming smaller makes it easier for us to connect with our heritage, whatever that may be:<br><br>  - However, the poet also reminds us that it is difficult to fully escape the influence of the West |   |
+| - The fact that the henna cost just “a few rupees”, even though the drawing was skillfully and beautifully done, further highlights how little the currency is worth compared to the British pound or American dollar:<br><br>  - This may imply a devaluation of traditional culture, as well as possible economic tension between visitors and locals |   |
+
+## How does Alvi present her ideas and perspectives?
+
+> **Spec point** — `spcpt_YrWsWntGrjh8thnk`
+
+## How does Alvi present her ideas and perspectives?
+
+Moniza Alvi uses a variety of language and structural techniques to present her ideas and perspectives.
+
+| **Technique** | **Analysis** |
+|---|---|
+| Title | - The “unknown girl” in the title can refer not only to the girl doing the henna decoration, but also to the speaker herself:<br><br>  - It implies that the speaker and her own identity are unknown fully even to herself |
+| Imagery | - The description of the bazaar as “studded with neon” creates a bright and festive atmosphere:<br><br>  - The speaker describes the girl as “icing her hand”, implying that she is from a more Western culture |
+| Form | - The poem is written in 48 lines of free verse:<br><br>  - This suggests we are reading the speaker’s stream of consciousness and makes the poem seem more conversational<br>  - The poem is centred on the page, indicating that the speaker is straddling two different cultures and not ever settling on one |
+| Symbolism | - The henna peacock symbolises the speaker’s connection to India:<br><br>  - Peacocks are the national bird of India<br>  - The speaker “clings” to these peacock lines just like she is clinging to the world she feels disconnected from<br>  - The design becomes “new brown veins” suggesting that the speaker is embracing her Indian identity<br>- However, as the streets become quieter, her desire to cling to the culture around her starts to fade, as she scrapes off the dried henna from her hands, leaving behind lighter brown lines:<br><br>  - Therefore her connection to India is strong in the moment, but will fade as she returns to her previous life<br>  - As she returns to her previous life, she will reach out to that past version of herself still sitting in the marketplace |
+| Repetition | - The speaker repeats several lines in the poem, interspersed with slightly different details:<br><br>  - These repetitions evoke the sense that the speaker is repeating them in order to remain in the present<br>- The use of ***polyptoton*** in the repetition of the word “cling” also serves to convey the speaker’s desperate desire to link to India |
+| Enjambment | - The use of enjambment creates a fast rhythm, implying the speaker is being swept up in the present moment of connection |
+| Metaphor | - The poet uses metaphor in “colours leave the streets”, suggesting that the colours of India leave to make way for the influence of Western culture |
+
+For more guidance on how to get top marks in your exam, check out our comprehensive revision notes on Paper 2, Question 1:
+
+<u>[How to Answer Question 1 (Poetry or Prose)](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/how-to-answer-question-1/)</u>
+<u>[Question 1 Skills: Analysing a Poem](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/question-1-skills-analysing-a-poem/)</u>
+<u>[Question 1 Model Answer](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/question-1-model-answer/)</u>
+
+And see our guides for the other International GCSE English Language Anthology texts here:
+
+| ['Disabled'](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/disabled/) |
+|---|
+| ['Out, Out---'](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/out-out/) |
+| [‘The Bright Lights of Sarajevo’](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/the-bright-lights-of-sarajevo/) |
+| [‘Still I Rise’](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/still-i-rise/) |
+| [The Story of an Hour](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/the-story-of-an-hour/) |
+| [The Necklace](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/the-necklace/) |
+| [Significant Cigarettes](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/significant-cigarettes-from-the-road-home/) |
+| [Whistle and I’ll Come to You](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/whistle-and-ill-come-to-you-from-the-woman-in-black/) |
+| [Night](https://www.savemyexams.com/igcse/english-language/edexcel/a/16/paper-2-poetry-and-prose-texts-and-imaginative-writing/revision-notes/fiction/section-a-reading/night/) |

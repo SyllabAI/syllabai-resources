@@ -1,0 +1,111 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_RWQCs9fkcfGVjVhY",
+ "course_slug": "igcse-maths-b-16",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/transformations-using-matrices/reflection-matrices",
+ "title": "Reflection Matrices",
+ "page_title": "Reflection Matrices | Edexcel IGCSE Maths B Revision Notes 2016",
+ "path": {
+  "segs": [
+   "matrices",
+   "transformations-using-matrices",
+   "reflection-matrices"
+  ],
+  "section": "matrices",
+  "topic": "transformations-using-matrices",
+  "leaf": "reflection-matrices"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Transformations using Matrices",
+  "subtopic": "Reflection Matrices"
+ },
+ "updated_at": "2026-01-14T14:13:53.724Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8VvNPFT47Pbjp3Rq",
+   "name": "Jamie Wood",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_GG7jc43bG3xTkft4"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "M",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">M</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold M"
+  },
+  {
+   "latex": "y=-x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals negative x"
+  },
+  {
+   "latex": "y=-x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>y</mi><mo>=</mo><mo>-</mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "y equals negative x"
+  }
+ ],
+ "stats": {
+  "blocks": 7,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 3
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_GG7jc43bG3xTkft4",
+   "name": "Reflection matrices",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Reflection matrices"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find reflection matrices?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Imagine the** unit** square *OABC*\n\n  - It has a side-length 1 unit\n  - *O* is the origin"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2023/03/unit-square.png",
+   "file": "assets/396bfef694c0-unit-square.png",
+   "alt": "unit-square",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The **coordinates** of *A* and *C* as **column vectors** are\n\n  - `A equals open parentheses table row 1 row 0 end table close parentheses` and `C equals open parentheses table row 0 row 1 end table close parentheses`\n- Under a **reflection about an axis (or *****y***** = ± *****x*****)**, *A* moves to *A*' and *C* moves to *C*'\n\n  - The **matrix, M** representing this reflection is `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`\n  - *A*' and *C*' are column vectors of the new positions\n  \n    - So $M$ is a 2×2 matrix\n  - The points *O* and *B* are not needed, as we can draw the reflected square using just *A*' and *C*' (as *O* won't move)\n- For example:\n\n  - To find the matrix representing a reflection about the *x*-axis\n  \n    - *A* stays where it is, so `A apostrophe equals open parentheses table row 1 row 0 end table close parentheses`\n    - *C* goes to `C apostrophe equals open parentheses table row 0 row cell negative 1 end cell end table close parentheses` (on the negative *y*-axis)\n    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 1 0 row 0 cell negative 1 end cell end table close parentheses`\n  - To find the matrix representing a reflection in the line *y* = *x*\n  \n    - A goes to `A apostrophe equals open parentheses table row 0 row 1 end table close parentheses` (on the positive *y*-axis)\n    - *C* goes to `C apostrophe equals open parentheses table row 1 row 0 end table close parentheses` (on the positive *x*-axis)\n    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 0 1 row 1 0 end table close parentheses`\n    \n      - This is not the same as the identity matrix as the 1s are on the wrong diagonal"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(a)  The matrix **M** represents a reflection in the *y*-axis. Work out **M**.\n\n**Answer:**\n\n> *Consider how the points A and C on the unit square are transformed by a reflection in the **y**-axis*\n\n![TuW80_W4_reflection-matrix-we-1](assets/496add2d026c-tuw80-w4-reflection-matrix-we-1.png)\n\n*The point A *`open parentheses table row 1 row 0 end table close parentheses`* moves to A' *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`* *\n\n*The point C *`open parentheses table row 0 row 1 end table close parentheses`* remains in the same place*\n\n> *The transformation matrix is given by *`bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`* *\n\n**Final answer:** `straight M equals stretchy left parenthesis table row cell negative 1 end cell 0 row 0 1 end table stretchy right parenthesis`\n** **\n\n(b) The matrix **N** represents a reflection in the line $y=-x$. Work out **N**.\n\n**Answer:**\n\n> *Consider how the points A and C on the unit square are transformed by a reflection in the line *$y=-x$\n\n![reflection-matrix-we-2](assets/bce90e3b034a-reflection-matrix-we-2.png)\n\n*The point A *`open parentheses table row 1 row 0 end table close parentheses`* moves to A' *`open parentheses table row 0 row cell negative 1 end cell end table close parentheses`* *\n\n*The point C *`open parentheses table row 0 row 1 end table close parentheses`* moves to C' *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`\n\n> *The transformation matrix is given by *`bold N equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`* *\n\n`straight N equals stretchy left parenthesis table row 0 cell negative 1 end cell row cell negative 1 end cell 0 end table stretchy right parenthesis`"
+  }
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_kfdCZft79SDjRC9X",
+ "course_slug": "igcse-maths-b-16",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/functions/differentiation/using-differentiation-for-kinematics",
+ "title": "Using Differentiation for Kinematics",
+ "page_title": "Using Differentiation for Kinematics | Edexcel IGCSE Maths B Revision Notes 2016",
+ "path": {
+  "segs": [
+   "functions",
+   "differentiation",
+   "using-differentiation-for-kinematics"
+  ],
+  "section": "functions",
+  "topic": "differentiation",
+  "leaf": "using-differentiation-for-kinematics"
+ },
+ "titles": {
+  "section": "Functions",
+  "topic": "Differentiation",
+  "subtopic": "Using Differentiation for Kinematics"
+ },
+ "updated_at": "2026-02-12T14:45:44.179Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_3BStDPfQxGKt4DpM",
+   "name": "Mark Curtis",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_vYsrWKqpQDpSwnPj"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\pm",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#177;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "plus-or-minus"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "s=2t-t^{2}+1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><mn>2</mn><mi>t</mi><mo>-</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s equals 2 t minus t squared plus 1"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "s=2\\times0-0^{2}+1=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>0</mn><mo>-</mo><msup><mn>0</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s equals 2 cross times 0 minus 0 squared plus 1 equals 1"
+  },
+  {
+   "latex": "t=3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 3"
+  },
+  {
+   "latex": "s=2\\times3-3^{2}+1=-2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>3</mn><mo>-</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mo>-</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s equals 2 cross times 3 minus 3 squared plus 1 equals negative 2"
+  },
+  {
+   "latex": "v",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v"
+  },
+  {
+   "latex": "v=\\frac{ds}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>s</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals fraction numerator straight d s over denominator straight d t end fraction"
+  },
+  {
+   "latex": "s=t^{3}-4t^{2}+2t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><msup><mi>t</mi><mn>3</mn></msup><mo>-</mo><mn>4</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s equals t cubed minus 4 t squared plus 2 t"
+  },
+  {
+   "latex": "v=3t^{2}-8t+2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>t</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 3 t squared minus 8 t plus 2"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "v=3\\times0^{2}-8\\times0+2=2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>3</mn><mo>&#215;</mo><msup><mn>0</mn><mn>2</mn></msup><mo>-</mo><mn>8</mn><mo>&#215;</mo><mn>0</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 3 cross times 0 squared minus 8 cross times 0 plus 2 equals 2"
+  },
+  {
+   "latex": "t=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 1"
+  },
+  {
+   "latex": "v=3\\times1^{2}-8\\times1+2=-3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>3</mn><mo>&#215;</mo><msup><mn>1</mn><mn>2</mn></msup><mo>-</mo><mn>8</mn><mo>&#215;</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 3 cross times 1 squared minus 8 cross times 1 plus 2 equals negative 3"
+  },
+  {
+   "latex": "v=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 0"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "a",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>a</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a"
+  },
+  {
+   "latex": "a=\\frac{dv}{dt}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a equals fraction numerator straight d v over denominator straight d t end fraction"
+  },
+  {
+   "latex": "v=3t^{2}-8t+2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>8</mn><mi>t</mi><mo>+</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 3 t squared minus 8 t plus 2"
+  },
+  {
+   "latex": "a=6t-8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>6</mn><mi>t</mi><mo>-</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a equals 6 t minus 8"
+  },
+  {
+   "latex": "s=...",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s equals..."
+  },
+  {
+   "latex": "v=...",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals..."
+  },
+  {
+   "latex": "a=...",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>.</mo><mo>.</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a equals..."
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "s=t^{3}-6t^{2}-3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>s</mi><mo>=</mo><msup><mi>t</mi><mn>3</mn></msup><mo>-</mo><mn>6</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s equals t cubed minus 6 t squared minus 3"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "s",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>s</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "s"
+  },
+  {
+   "latex": "v",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>v</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "v=\\frac{ds}{dt}=3t^{2}-12t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>s</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>12</mn><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals fraction numerator straight d s over denominator straight d t end fraction equals 3 t squared minus 12 t"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "v=3t^{2}-12t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>12</mn><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 3 t squared minus 12 t"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "v=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 0"
+  },
+  {
+   "latex": "v=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "v equals 0"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "t=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 4"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "t=4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>4</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 4"
+  },
+  {
+   "latex": "t=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t equals 0"
+  },
+  {
+   "latex": "a=\\frac{dv}{dt}=6t-12",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">d</mi><mi>v</mi></mrow><mrow><mi mathvariant=\"normal\">d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>6</mn><mi>t</mi><mo>-</mo><mn>12</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a equals fraction numerator straight d v over denominator straight d t end fraction equals 6 t minus 12"
+  },
+  {
+   "latex": "a=-3",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mn>3</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a equals negative 3"
+  },
+  {
+   "latex": "t",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>t</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "t"
+  },
+  {
+   "latex": "6t-12=-3\\,6t=9\\,t=1.5",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>6</mn><mi>t</mi><mo>-</mo><mn>12</mn><mo>=</mo><mo>-</mo><mn>3</mn><mspace linebreak=\"newline\"/><mn>6</mn><mi>t</mi><mo>=</mo><mn>9</mn><mspace linebreak=\"newline\"/><mi>t</mi><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "6 t minus 12 equals negative 3\n6 t equals 9\nt equals 1.5"
+  }
+ ],
+ "stats": {
+  "blocks": 18,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 50
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_vYsrWKqpQDpSwnPj",
+   "name": "Kinematics",
+   "definition": null,
+   "video_id": "336957419"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Kinematics"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What does kinematics mean?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Kinematics **is the study of the **motion of an object**\n\n  - It is a branch of Physics\n- Objects are called **particles **\n\n  - They are modelled as single moving **points**\n- Over time, the particles move and\n\n  - can be at different distances from a fixed **origin** (**displacement**)\n  - can move with different speeds in different directions (v**elocity**)\n  - can speed up or slow down (**acceleration**)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is displacement?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **displacement **of an object is **how far away **it is from a **fixed origin**\n\n  - It can be **positive** (**in front** of the origin)\n  - or **negative **(**behind **the origin)\n- Do **not** confuse displacement with distance\n\n  - **Distance** is **always positive!**\n  - Displacement can have a $\\pm$ sign\n- Displacement is given the **letter **$s$ in kinematics\n\n  - Do **not** confuse this letter for speed!\n  - Displacement is measured in **metres**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2026/02/61406-what-is-displacement-.png",
+   "file": "assets/e7833712d918-61406-what-is-displacement.png",
+   "alt": "Diagrams showing displacement examples: one particle 4 metres right of point 0, another 5 metres left of point 0. Text explains displacement in each case.",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a displacement function?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **displacement** of an object, $s$ metres, can be written as a **function of time**, $t$ seconds\n\n  - `s equals straight f open parentheses t close parentheses`\n- **Substitute **a value of time in to **find its displacement **at that time\n\n  - For example, $s=2t-t^{2}+1$\n  \n    - **Initially**, $t=0$ gives $s=2\\times0-0^{2}+1=1$ (1 metre in front of the origin)\n    - After 3 seconds, $t=3$ gives $s=2\\times3-3^{2}+1=-2$ (2 metres behind the origin)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the velocity and how do I find it?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Velocity **is the **speed and direction** of an object\n\n  - It is **positive** if moving **forwards**\n  - It is** negative** if moving **backwards**\n  - Do **not** confuse velocity and speed\n  \n    - **Speed** is **always positive! **\n- To find the **velocity** of an object, $v$ metres per second, **differentiate** its **displacement **function\n\n  - $v=\\frac{ds}{dt}$\n- For example, if $s=t^{3}-4t^{2}+2t$ then $v=3t^{2}-8t+2$ (by differentiation)\n\n  - The** initial** velocity ($t=0$) is $v=3\\times0^{2}-8\\times0+2=2$ ms<sup>-1</sup>\n  - The velocity after 1 second ($t=1$) is $v=3\\times1^{2}-8\\times1+2=-3$ ms<sup>-1</sup>\n  \n    - Its speed is 3 ms<sup>-1</sup>\n- If a **velocity **is **zero** at any point in time, it is said to be at **instantaneous rest**\n\n  - It is **stationary** (not moving) at that instant in time\n  \n    - but not stationary all the time\n  - To find the times at which the particle is at rest, set $v=0$ and **solve **to find $t$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the acceleration and how do I find it?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Acceleration **is **rate** at which the **velocity changes**\n\n  - It is **positive** if speeding up (when moving forwards)\n  - It is** negative** if slowing down (when moving forwards)\n  \n    - A **negative** acceleration is also called a** deceleration**\n    - The **magnitude of acceleration** is always** positive**\n- To find the **acceleration **of an object, $a$ metres per second per second, **differentiate** its **velocity **function\n\n  - $a=\\frac{dv}{dt}$\n- For example, if $v=3t^{2}-8t+2$ then $a=6t-8$\n\n  - You can **substitute** times in to find accelerations\n- It the acceleration is **always zero** then the particle moves at a **constant speed**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I find the acceleration from the displacement?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You **differentiate displacement** to get **velocity**, then **differentiate velocity** to get **acceleration**\n\n  - So you differentiate displacement twice to get acceleration"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2026/02/16687-3-11-4-kin-notes-fig8.png",
+   "file": "assets/9e9e584645e4-16687-3-11-4-kin-notes-fig8.png",
+   "alt": "Diagram showing the relationship between displacement (s), velocity (v), and acceleration (a), with differentiation denoted as ds/dt for velocity and dv/dt for acceleration.",
+   "caption": ""
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Harder exam questions may jump back and forth between displacement, velocity and acceleration\n\n  - so make sure you use the labels $s=...$, $v=...$ and $a=...$ to make your working clear"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A particle moves along a straight line.\n\nThe displacement of the particle from a fixed point, *O*, on the line at time $t$ seconds is $s$ metres, where\n\n$s=t^{3}-6t^{2}-3$\n\n(a) Find the initial distance of the particle from *O*.\n\n**Answer:**\n\n> *Initial means *$t=0$\n*Substitute *$t=0$* into *$s$* to find the initial displacement*\n\n`table row s equals cell 0 cubed minus 6 cross times 0 squared minus 3 end cell row blank equals cell negative 3 end cell end table`\n\n> *Distance is always positive, so convert -3 into 3*\n\n**Final answer:** **The particle is initially at a distance of 3 metres from ****O**\n\n(b) Find an expression for the velocity, $v$ ms<sup>-1</sup>, at time $t$ seconds.\n\n**Answer:**\n\n> *To find the velocity, differentiate the displacement*\n\n$v=\\frac{ds}{dt}=3t^{2}-12t$\n\n> *This is an expression for the velocity in terms of time, *$t$\n\n**Final answer:** $v=3t^{2}-12t$** ms**<sup>**-1**</sup>\n\n(c) Find how long, after $t=0$, it takes for the particle to come to rest.\n\n**Answer:**\n\n> *The particle is at rest when *$v=0$\n*Set *$v=0$* and solve to find *$t$\n\n`0 equals 3 t squared minus 12 t\n0 equals t squared minus 4 t\n0 equals t open parentheses t minus 4 close parentheses`\n\n$t=0$* or *$t=4$\n\n> *After *$t=0$* the next point of rest is *$t=4$\n\n**Final answer:** **After **$t=0$**, it takes 4 seconds for the particle to come to rest**\n\n(d) Find the time at which the particle is decelerating at 3 ms<sup>-2</sup>.\n\n**Answer:**\n\nA* deceleration of 3 means an acceleration of -3*\n*Differentiate the velocity function to find acceleration*\n\n$a=\\frac{dv}{dt}=6t-12$\n\n> *Set *$a=-3$* and solve for *$t$\n\n$6t-12=-3\\,6t=9\\,t=1.5$\n\n**Final answer:** **The particle is decelerating at 3 ms**<sup>**-2**</sup>** at 1.5 seconds**"
+  }
+ ]
+}

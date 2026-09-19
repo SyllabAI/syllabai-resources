@@ -54,6 +54,14 @@ FAMILY = {
     'igcse-maths-a': 'maths_table', 'igcse-maths-a-modular': 'maths_table',
     'igcse-geography': 'heading_bullets', 'igcse-accounting': 'heading_bullets',
     'igcse-english-literature': 'english_lit', 'igcse-further-maths': 'further_maths',
+    # T-SME-11 (2026-09-19): the three missing quals. SDA Modular reuses the
+    # single-science code_column layout (plain N.M statements under topic
+    # headers, per-science sections); Maths B (4MB1) uses the Further Pure
+    # layout (numbered sections, lettered statements, Notes column);
+    # English Language A (4EA1) is component/anthology/skills like English Lit.
+    'igcse-science-double-award-modular': 'code_column',
+    'igcse-maths-b': 'further_maths',
+    'igcse-english-language-a': 'english_lang_a',
 }
 UNIT_HDR = re.compile(r'^([A-Z]{1,2}\d{1,2})\.\d+\s+Unit content')
 SCI_HDR = re.compile(r'^(Biology|Chemistry|Physics)\s+content$', re.I)
@@ -933,15 +941,19 @@ def parse_further_maths(doc, kill):
 # ------------------------------------------------------------ english_lit ----
 
 EL_HDR = re.compile(r'^Component (\d+):\s*(.*)$')
-EL_STRAND = re.compile(r'^(?:Section|Assignment) ([A-C]) \u2013 (.+)$')
+EL_STRAND = re.compile(r'^(?:Section|Assignment) ([A-C])\s*[\u2013:：]\s*(.+)$')
 EL_AUTHOR_X = (272, 310)   # author column x-offsets (280/282 printed)
+ELA_AUTHOR_X = (368, 440)  # ELA (4EA1) author column (x374 printed)
 EL_TITLE_MAX = 265
+ELA_TITLE_MAX = 360
 
-def parse_english_lit(doc, kill):
-    """IGCSE English Literature (4ET1) content pages.
-    Region: '4 English Literature content' .. '5 Assessment information'
-    (18pt bold digit headers). Topics = 'Component N: Title' (16pt bold,
-    title may wrap to a second bold line at x>130). Points:
+def parse_english_lit(doc, kill, author_x=EL_AUTHOR_X, title_max=EL_TITLE_MAX):
+    """IGCSE English Literature (4ET1) / English Language A (4EA1) content pages.
+    Region: the numbered 18pt-bold section header whose title ends with
+    'content' ('4 English Literature content' / '3 English Language
+    (Specification A) content') .. the next numbered header.
+    Topics = 'Component N: Title' (16pt bold, title may wrap to a second bold
+    line at x>130). Points:
       - strands: 'Section/Assignment X – ...' focus paragraphs
       - set texts: rows with title at x62 + author at x280 under bold
         group labels ('Part 3 of the ... Anthology', 'A choice of one
@@ -956,7 +968,7 @@ def parse_english_lit(doc, kill):
             if L['bold'] and L['sizes'] and max(L['sizes']) > 17 \
                     and re.match(r'^\d+ ', L['text']):
                 if start is None:
-                    if L['text'].startswith('4 '):
+                    if re.match(r'^\d+ .*\bcontent$', L['text'], re.I):
                         start = pno
                 elif end is None:
                     end = pno
@@ -973,7 +985,7 @@ def parse_english_lit(doc, kill):
     in_admin = False
 
     def author_present(L):
-        return any(EL_AUTHOR_X[0] <= s['x0'] < EL_AUTHOR_X[1] and len(s['text'].strip()) > 2
+        return any(author_x[0] <= s['x0'] < author_x[1] and len(s['text'].strip()) > 2
                    for s in L['spans'])
 
     for pno in range(start, end):
@@ -1064,8 +1076,8 @@ def parse_english_lit(doc, kill):
                 items.append(cur_stmt)
                 continue
             if not is_bold and first['x0'] < 70 and author_present(L) and cur_topic is not None:
-                tspans = [s for s in L['spans'] if s['x0'] < EL_TITLE_MAX]
-                aspans = [s for s in L['spans'] if EL_AUTHOR_X[0] <= s['x0'] < EL_AUTHOR_X[1]]
+                tspans = [s for s in L['spans'] if s['x0'] < title_max]
+                aspans = [s for s in L['spans'] if author_x[0] <= s['x0'] < author_x[1]]
                 title = re.sub(r'\s+', ' ', ' '.join(s['text'].strip() for s in tspans)).strip()
                 author = re.sub(r'\s+', ' ', ' '.join(s['text'].strip() for s in aspans)).strip()
                 j = i + 1
@@ -1148,6 +1160,9 @@ def parse_pdf(pdf_path, qual_slug):
         statements, topics, subsecs = parse_further_maths(doc, kill)
     elif fam == 'english_lit':
         statements, topics, subsecs = parse_english_lit(doc, kill)
+    elif fam == 'english_lang_a':
+        statements, topics, subsecs = parse_english_lit(
+            doc, kill, author_x=ELA_AUTHOR_X, title_max=ELA_TITLE_MAX)
     else:
         statements, topics, subsecs = parse_code_column_bands(doc, kill)
     # finalize

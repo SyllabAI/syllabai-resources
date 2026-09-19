@@ -1,0 +1,43 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "course_slug": "igcse-science-double-award-modular-24-biology-unit-2",
+ "generated_utc": "2026-09-19T19:08:26Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/igcse/science/edexcel/double-award-modular/24/biology-unit-2/topic-questions/",
+  "registry": "scripts/sme_examq_courses.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "course": {
+  "slug": "igcse-science-double-award-modular-24-biology-unit-2",
+  "level": "igcse",
+  "subject": "science",
+  "mid": "double-award-modular/24/biology-unit-2",
+  "leaf_types": {}
+ },
+ "totals": {
+  "topics": 0,
+  "questions": 0,
+  "parts": 0,
+  "marks": 0,
+  "assets": 0,
+  "asset_failures": 0,
+  "missing_questions": 0,
+  "equations": 0
+ },
+ "topics": [],
+ "status_note": "no topic questions published on SME for this course (topic-questions page carries zero published question sets; census 2026-09-19). Lane kept for its notes/flashcard resources and spec-point index; no questions synthesized.",
+ "spec_point_resolution": {
+  "counts": {
+   "parts_with_codes": 96,
+   "parts_left_uncoded_no_guess_tail": 3,
+   "parts_total": 99
+  },
+  "pipeline": [
+   "scripts/t_sme_11_apply.py",
+   "scripts/map_spec_points.py",
+   "scripts/sme_spcpt_harvest_all.py"
+  ],
+  "updated_utc": "2026-09-19T19:15:38Z"
+ }
+}

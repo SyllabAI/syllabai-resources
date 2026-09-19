@@ -1,0 +1,170 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_qq9dNsK5ryQrFCJn",
+ "course_slug": "igcse-maths-b-16",
+ "url": "https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/properties-of-matrices/determinants-of-matrices",
+ "title": "Determinants of Matrices",
+ "page_title": "Determinants of Matrices | Edexcel IGCSE Maths B Revision Notes 2016",
+ "path": {
+  "segs": [
+   "matrices",
+   "properties-of-matrices",
+   "determinants-of-matrices"
+  ],
+  "section": "matrices",
+  "topic": "properties-of-matrices",
+  "leaf": "determinants-of-matrices"
+ },
+ "titles": {
+  "section": "Matrices",
+  "topic": "Properties of Matrices",
+  "subtopic": "Determinants of Matrices"
+ },
+ "updated_at": "2026-01-14T11:27:14.927Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_w4yvXqRpDXYtscgB",
+   "name": "Roger B",
+   "role": "Development Editor"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8VvNPFT47Pbjp3Rq",
+   "name": "Jamie Wood",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_WrrWCGjpRHYJhNQ6"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "2\\times2",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "2 cross times 2"
+  },
+  {
+   "latex": "ad-bc",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>d</mi><mo>-</mo><mi>b</mi><mi>c</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "a d minus b c"
+  },
+  {
+   "latex": "\\mathrm{det}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>det</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "det"
+  },
+  {
+   "latex": "\\mathrm{det}A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>det</mi><mpadded lspace=\"+1px\"><mi mathvariant=\"bold\">A</mi></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "det bold A"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold A"
+  },
+  {
+   "latex": "B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi mathvariant=\"bold\">B</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "bold B"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mpadded lspace=\"-2px\"><mi>p</mi></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "space p"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mpadded lspace=\"-2px\"><mi>p</mi></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "space p"
+  },
+  {
+   "latex": "\\mathrm{det}B=2\\times1-4\\times5=-18",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>det</mi><mi mathvariant=\"bold\">B</mi><mo>=</mo><mn>2</mn><mo>&#215;</mo><mn>1</mn><mo>-</mo><mn>4</mn><mo>&#215;</mo><mn>5</mn><mo>=</mo><mo>-</mo><mn>18</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "det bold B equals 2 cross times 1 minus 4 cross times 5 equals negative 18"
+  },
+  {
+   "latex": "p",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mpadded lspace=\"-2px\"><mi>p</mi></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "space p"
+  },
+  {
+   "latex": "p=3^{2}=9",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mi>p</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "space p equals 3 squared equals 9"
+  },
+  {
+   "latex": "p=9",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>&#160;</mo><mpadded lspace=\"-2px\"><mi>p</mi><mo>=</mo><mn>9</mn></mpadded></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "space p equals 9"
+  }
+ ],
+ "stats": {
+  "blocks": 7,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 15
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_WrrWCGjpRHYJhNQ6",
+   "name": "Determinant of a 2x2 Matrix",
+   "definition": null
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Determinant of a 2x2 matrix"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a determinant?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **determinant** is a **numerical value** (positive or negative) calculated from the elements in a matrix\n\n  - It is used to find the **inverse** of a matrix\n- You can only find the determinant of a ***square**** matrix*\n- For a $2\\times2$ matrix `open parentheses table row a b row c d end table close parentheses`\n\n  - The determinant is equal to $ad-bc$"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "The formula for the determinant is on the course Formulae sheet, and will be provided for you in Paper 2 questions where it is needed.\n\nHowever, determinant questions can also appear in Paper 1, so be sure you know the formula going into the exam."
+  },
+  {
+   "type": "bullets",
+   "md": "- The notation $\\mathrm{det}$ is sometimes used to indicate the determinant\n\n  - So $\\mathrm{det}A$ refers to the determinant of matrix $A$\n  - E.g. if `A equals open parentheses table row 3 4 row cell negative 2 end cell cell negative 1 end cell end table close parentheses`\n  \n    - then `det bold A equals 3 cross times open parentheses negative 1 close parentheses minus 4 cross times open parentheses negative 2 close parentheses equals negative 3 minus open parentheses negative 8 close parentheses equals 5`"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "$A$ and $B$ are two matrices such that the determinant of $A$ is equal to the determinant of $B$.\n\nGiven that `bold A equals open parentheses table row cell square root of p end cell cell negative 1 end cell row 3 cell negative 7 end cell end table close parentheses` and `bold B equals open parentheses table row 2 4 row 5 1 end table close parentheses`, where $p$ is a positive integer, find the value of $p$.\n\n**Answer:**\n\n> *Use *`det open parentheses table row a b row c d end table close parentheses equals a d minus b c`* to find the determinants of the two matrices*\n\n`det bold A equals square root of p cross times open parentheses negative 7 close parentheses minus open parentheses negative 1 close parentheses cross times 3 equals 3 minus 7 square root of p`\n\n$\\mathrm{det}B=2\\times1-4\\times5=-18$\n\n> *Set the two determinants equal and solve for *$p$\n\n`table row cell negative 18 end cell equals cell 3 minus 7 square root of p end cell row cell 7 square root of p end cell equals cell 3 plus 18 end cell row cell 7 square root of p end cell equals 21 row cell square root of p end cell equals 3 end table`\n\n$p=3^{2}=9$\n\n$p=9$"
+  }
+ ]
+}

@@ -58,7 +58,8 @@ def course_registry(course: str, qual: str) -> dict[str, dict]:
         if course.endswith("-" + s):
             scope = s.capitalize()
             break
-    if qual in ("igcse-accounting", "igcse-geography", "igcse-english-literature"):
+    if qual in ("igcse-accounting", "igcse-geography", "igcse-english-literature",
+                "igcse-english-language-a"):
         # T-SPEC-7: these parses carry statements without official_code;
         # registries key by the id suffix (e.g. S4.071, C1T07) and that
         # suffix is the resolved_code written on parts

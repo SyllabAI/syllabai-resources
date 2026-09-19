@@ -74,9 +74,15 @@ def parse_next_data(html: str) -> dict:
     return json.loads(m.group(1))["props"]["pageProps"]
 
 
-def topic_urls_from_landing(html: str) -> list:
+def topic_urls_from_landing(html: str, tq_prefix: str | None = None) -> list:
+    """Leaf exam-questions URLs from a topic-questions landing page.
+
+    tq_prefix: the course's /topic-questions path (default: chemistry v1.0
+    course, for backward compatibility with the committed v1.0 behavior)."""
+    if tq_prefix is None:
+        tq_prefix = "/igcse/chemistry/edexcel/19/topic-questions"
     urls = sorted(set(re.findall(
-        r'href="(/igcse/chemistry/edexcel/19/topic-questions/[a-z0-9-]+/[a-z0-9-]+/exam-questions/)"',
+        r'href="(' + re.escape(tq_prefix) + r'/[a-z0-9-]+/[a-z0-9-]+/exam-questions/)"',
         html)))
     return urls
 
@@ -519,8 +525,11 @@ def process_topic(url: str, out_root: Path, delay: float, skip_assets: bool) -> 
     topic_by_id = {t["id"]: t for t in pp["topics"]}
     sec_by_id = {s["id"]: s for s in pp["sections"]}
 
-    # page topic from the URL slug (2nd-to-last path segment before /exam-questions/)
-    m = re.match(r"/igcse/chemistry/edexcel/19/topic-questions/([a-z0-9-]+)/([a-z0-9-]+)/exam-questions/", url)
+    # page topic from the URL slug (2nd-to-last path segment before /exam-questions/);
+    # course prefix is intentionally not matched (any level/subject/course)
+    m = re.search(r"/topic-questions/([a-z0-9-]+)/([a-z0-9-]+)/exam-questions/", url)
+    if not m:
+        raise RuntimeError(f"unrecognized topic-questions URL shape: {url}")
     sec_slug, topic_slug = m.group(1), m.group(2)
     topic = next(t for t in pp["topics"] if t["attributes"]["slug"] == topic_slug)
     section = sec_by_id[topic["relationships"]["section"]["data"]["id"]]
@@ -625,7 +634,8 @@ def process_topic(url: str, out_root: Path, delay: float, skip_assets: bool) -> 
         "topic": {"id": topic["id"], "slug": topic_slug,
                   "name": topic["attributes"]["name"],
                   "order": topic["attributes"]["order"]},
-        "related_revision_notes_folder": notes_folder_for(section, topic),
+        "related_revision_notes_folder": notes_folder_for(section, topic)
+        if NOTES_ROOT else None,
         "subtopics": subtopics,
         "question_set": {"id": qset["id"],
                          "difficulties": qset["attributes"].get("question_difficulties"),
@@ -656,12 +666,21 @@ def process_topic(url: str, out_root: Path, delay: float, skip_assets: bool) -> 
             letter = None
         return num, letter
 
+    def course_label() -> str:
+        """'Edexcel IGCSE Chemistry (4CH1)'-style label from the COURSE global."""
+        b = COURSE.get("board", "Edexcel")
+        lv = COURSE.get("level", "IGCSE")
+        sj = COURSE.get("subject", "")
+        code = COURSE.get("code") or COURSE.get("exam_code") or ""
+        return f"{b} {lv} {sj} ({code})" if code else f"{b} {lv} {sj}".strip()
+
+    label = course_label()
     qmd = [f"# Exam Questions — {topic['attributes']['name']}",
-           f"**{section['attributes']['name']}** · Edexcel IGCSE Chemistry 4CH1",
+           f"**{section['attributes']['name']}** · {label}",
            f"> Source: [{BASE + url}]({BASE + url}) · {len(questions_out)} questions · "
            f"total {sum(q['total_marks'] for q in questions_out)} marks\n"]
     smd = [f"# Mark Schemes — {topic['attributes']['name']}",
-           f"**{section['attributes']['name']}** · Edexcel IGCSE Chemistry 4CH1\n"]
+           f"**{section['attributes']['name']}** · {label}\n"]
 
     for qi, q in enumerate(questions_out, 1):
         diff = q.get("difficulty") or "?"
