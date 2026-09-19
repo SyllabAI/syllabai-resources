@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.t-spec-10-apply/1.0",
- "generated_utc": "2026-09-19T15:30:24Z",
+ "generated_utc": "2026-09-19T16:08:35Z",
  "note": "T-SPEC-10 operator reasoning round (Nawaf Al Hussain Khondokar, 2026-09-19, IM): the operator instructed the remaining 258 unresolved tag ids be mapped by direct reasoning against the committed registries and the official specification PDFs, not by scripted matching, and without upstream tickets (\"You can go through all of them and use your reasoning to map the remaining... Dont upstream. Fix it yourself like before.\"). Every resolved code was read verbatim from the committed registry; every absence claim was re-verified against the pdftotext -layout extraction of the official Pearson PDF (cache: scripts/t_spec_10_work/pdfcache/). Four existing resolutions are corrected (two refinements where the recorded code did not match the tag subject, two unresolves where no honest target exists); ~30 stale pending reasons are corrected; honest pendings are confirmed as-is. PMT excluded as source throughout. No new upstream tickets were filed.",
  "per_lane": {
   "igcse-accounting-17-financial-statements": {
    "stats": {
-    "resolved": 1,
+    "idempotent": 1,
     "reason_updated": 1
    },
    "audit": [],
@@ -16,7 +16,7 @@
   },
   "igcse-accounting-17-introduction-to-bookkeeping-and-accounting": {
    "stats": {
-    "resolved": 3,
+    "idempotent": 3,
     "reason_updated": 5
    },
    "audit": [],
@@ -27,7 +27,7 @@
   },
   "igcse-business-19": {
    "stats": {
-    "resolved_from_neither": 1
+    "idempotent": 1
    },
    "audit": [],
    "resolved_total": 192,
@@ -37,9 +37,17 @@
   },
   "igcse-economics-17": {
    "stats": {
-    "resolved": 8
+    "idempotent": 7,
+    "record_updated": 1
    },
-   "audit": [],
+   "audit": [
+    {
+     "id": "spcpt_XGQK9rtnFdFvHqhW",
+     "action": "record_updated",
+     "was_tier": "S0_operator_override",
+     "now_tier": "P2_operator_content_join"
+    }
+   ],
    "resolved_total": 202,
    "unresolved_total": 2,
    "parts_coded": 617,
@@ -57,7 +65,7 @@
   },
   "igcse-further-maths-19": {
    "stats": {
-    "resolved": 1,
+    "idempotent": 1,
     "reason_updated": 1
    },
    "audit": [],
@@ -68,7 +76,7 @@
   },
   "igcse-geography-19": {
    "stats": {
-    "resolved": 5,
+    "idempotent": 5,
     "reason_updated": 3
    },
    "audit": [],
@@ -79,7 +87,7 @@
   },
   "igcse-ict-17": {
    "stats": {
-    "resolved": 2
+    "idempotent": 2
    },
    "audit": [],
    "resolved_total": 147,
@@ -89,21 +97,10 @@
   },
   "igcse-maths-a-18-foundation": {
    "stats": {
-    "unresolved": 2,
+    "idempotent": 2,
     "reason_updated": 2
    },
-   "audit": [
-    {
-     "id": "spcpt_27Znm3wFFhCxBD52",
-     "action": "unresolve",
-     "was_code": "2.8D"
-    },
-    {
-     "id": "spcpt_YbnQpJQYYZhVMwpX",
-     "action": "unresolve",
-     "was_code": "4.10A"
-    }
-   ],
+   "audit": [],
    "resolved_total": 155,
    "unresolved_total": 7,
    "parts_coded": 428,
@@ -111,17 +108,10 @@
   },
   "igcse-maths-a-18-higher": {
    "stats": {
-    "refined": 1,
+    "idempotent": 1,
     "reason_updated": 4
    },
-   "audit": [
-    {
-     "id": "spcpt_3dwTMtMPJqHpnmch",
-     "action": "refinement",
-     "was_code": "4.5A",
-     "now_code": "3.3G"
-    }
-   ],
+   "audit": [],
    "resolved_total": 218,
    "unresolved_total": 4,
    "parts_coded": 3533,
@@ -129,7 +119,7 @@
   },
   "igcse-maths-a-modular-24-foundation-unit-1": {
    "stats": {
-    "resolved": 1,
+    "idempotent": 1,
     "reason_updated": 1
    },
    "audit": [],
@@ -150,17 +140,9 @@
   },
   "igcse-maths-a-modular-24-higher-unit-1": {
    "stats": {
-    "resolved": 3,
-    "refined": 1
+    "idempotent": 4
    },
-   "audit": [
-    {
-     "id": "spcpt_3fMGfNtg3hXMg6gC",
-     "action": "refinement",
-     "was_code": "4.4F",
-     "now_code": "4.11C"
-    }
-   ],
+   "audit": [],
    "resolved_total": 105,
    "unresolved_total": 0,
    "parts_coded": 1653,
@@ -178,7 +160,7 @@
   },
   "igcse-science-double-award-17-physics": {
    "stats": {
-    "resolved": 18,
+    "idempotent": 18,
     "reason_updated": 14
    },
    "audit": [],

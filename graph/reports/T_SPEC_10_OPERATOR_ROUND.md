@@ -131,3 +131,35 @@ pendings) found three kinds of truth:
 - no parse repairs were needed (no registry rows added or changed — the
   suspected parse gaps turned out to be stale claims or genuine absences);
 - canonical bundles and graph YAMLs untouched by construction.
+
+## 6. Post-round audit (random-sample re-check, 2026-09-19)
+
+The operator requested random checks of the 45 coded judgments
+(43 resolves + 2 refinements). A seed-fixed random sample of 12
+(seed 20260919) was re-verified by direct reading of the SME tag entry,
+the committed registry row and the official PDF extraction:
+
+- 12/12 sampled **codes correct** (PerpLines refinement's old 4.5A row
+  verbatim = "measure and draw lines to the nearest millimetre" — the
+  correction to 3.3G stands; free-trade pair, SDA physics x5, geography,
+  economics pair all confirmed against the registry wording);
+- all 10 S0 absence claims re-verified against the PDF cache: 9 TRUE,
+  **1 FALSE** — `spcpt_XGQK9rtnFdFvHqhW` (Limitations of Using GDP to
+  Measure Growth): the 4EC1 print DOES carry "limitations of GDP as a
+  measure of growth" (PDF lines 880-882) and the committed registry row
+  2.1.1a carries it as a sub-item, so the record is re-tiered
+  **S0 -> P2_operator_content_join** (verbatim sub-item join);
+  **code 2.1.1a unchanged** (no learner-facing change, spec-links
+  unaffected);
+- audit corrections applied in
+  `scripts/t_spec_10_verdicts.yaml` (tier + rationale quoting the
+  sub-item and PDF lines) and re-applied via
+  `scripts/t_spec_10_apply.py`;
+- applier hardened while re-applying: unresolve records are now
+  idempotent on re-run (previously errored "unresolve but not mapped"),
+  same-code tier changes are counted as `record_updated` instead of
+  `idempotent`, unchanged lanes/manifests are no longer rewritten, and
+  the manifest pipeline list is `sorted(set(...))` (was
+  order-nondeterministic `list(set(...))`);
+- post-audit verify: **ALL GATES PASSED** (39 courses, 27,700 parts,
+  question parts 26,867/26,867 = 100% coded).

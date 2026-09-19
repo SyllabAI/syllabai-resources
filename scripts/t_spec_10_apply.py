@@ -25,6 +25,7 @@ ids afterwards (2e/9 part-level overrides preserved). PMT excluded as source.
 """
 import json
 import sys
+import copy
 import datetime
 from collections import Counter
 from pathlib import Path
@@ -77,9 +78,11 @@ def main() -> int:
         cdir = EQ / lane
         mp_path = cdir / "spec_point_map.json"
         mp = json.loads(mp_path.read_text())
+        mp_orig = copy.deepcopy(mp)
         idx = json.loads((cdir / "spec_point_index.json").read_text())
         res_path = cdir / "spec_point_resolution.json"
         res = json.loads(res_path.read_text())
+        res_orig = copy.deepcopy(res)
         by_id, by_code = pool_for(qual)
         mappings = mp.setdefault("mappings", {})
         unmapped = {u["spcpt_id"]: u for u in mp.get("unmapped", [])}
@@ -96,7 +99,21 @@ def main() -> int:
             if crec.get("verdict") == "unresolve":
                 cur = mappings.get(sid)
                 if cur is None:
-                    errors.append(f"{lane}: {sid} unresolve but not mapped")
+                    # idempotent re-run: the unresolve already took effect
+                    rprev = res_by_id.get(sid)
+                    if rprev is not None and \
+                            rprev.get("resolved_code") == crec.get("was_code"):
+                        errors.append(
+                            f"{lane}: {sid} unresolve but sidecar still "
+                            f"resolves {crec.get('was_code')}")
+                        continue
+                    reason = crec.get("reason") or ""
+                    if rprev is not None and reason \
+                            and rprev.get("reason") != reason:
+                        rprev["reason"] = reason
+                        stats["reason_updated"] += 1
+                    else:
+                        stats["idempotent"] += 1
                     continue
                 if cur.get("official_code") != crec.get("was_code"):
                     errors.append(
@@ -170,7 +187,13 @@ def main() -> int:
             elif sid in mappings and mappings[sid].get("official_code") \
                     == codes[0] and mappings[sid].get("official_id") \
                     == lead["id"]:
-                stats["idempotent"] += 1
+                if mappings[sid].get("tier") != crec["tier"]:
+                    audit.append({"id": sid, "action": "record_updated",
+                                  "was_tier": mappings[sid].get("tier"),
+                                  "now_tier": crec["tier"]})
+                    stats["record_updated"] += 1
+                else:
+                    stats["idempotent"] += 1
             elif sid in mappings:
                 # a DIFFERENT existing code: only an explicit refinement
                 if not crec.get("refinement"):
@@ -232,15 +255,24 @@ def main() -> int:
             "official Pearson PDFs, no scripted matching, no upstream "
             "tickets, PMT excluded as source); HUMAN_VALIDATED via operator "
             "review")
-        mp_path.write_text(json.dumps(mp, indent=1, ensure_ascii=False) + "\n")
-        res_path.write_text(json.dumps(res, indent=1, ensure_ascii=False)
-                            + "\n")
+
+        def _content(d):
+            return {k: v for k, v in d.items() if k != "generated_utc"}
+
+        unchanged = (_content(mp) == _content(mp_orig)
+                     and _content(res) == _content(res_orig))
+        if not unchanged:
+            mp_path.write_text(json.dumps(mp, indent=1, ensure_ascii=False)
+                               + "\n")
+            res_path.write_text(json.dumps(res, indent=1, ensure_ascii=False)
+                                + "\n")
         report["per_lane"][lane] = {"stats": dict(stats),
                                     "audit": audit,
                                     "resolved_total": len(mapped),
                                     "unresolved_total": len(tail)}
-        print(f"{lane}: {dict(stats)} -> resolved {len(mapped)}, "
-              f"tail {len(tail)}")
+        print(f"{lane}: {dict(stats)} "
+              + ("(unchanged) " if unchanged else "")
+              + f"-> resolved {len(mapped)}, tail {len(tail)}")
 
     if errors:
         for e in errors:
@@ -304,17 +336,26 @@ def main() -> int:
         mpath = cdir / "manifest.json"
         if mpath.exists():
             man = json.loads(mpath.read_text())
+            man_orig = copy.deepcopy(man)
             man.setdefault("spec_point_resolution", {}).setdefault(
                 "counts", {}).update({
                     "parts_with_codes": coded,
                     "parts_left_uncoded_no_guess_tail": uncoded,
                     "parts_total": coded + uncoded})
-            man["spec_point_resolution"]["pipeline"] = list(set(
+            # sorted: set->list was order-nondeterministic across runs
+            man["spec_point_resolution"]["pipeline"] = sorted(set(
                 man["spec_point_resolution"].get("pipeline", []) +
                 ["scripts/t_spec_10_apply.py"]))
             man["spec_point_resolution"]["updated_utc"] = NOW
-            mpath.write_text(json.dumps(man, indent=1, ensure_ascii=False)
-                             + "\n")
+
+            def _mcontent(d):
+                m = copy.deepcopy(d)
+                m.get("spec_point_resolution", {}).pop("updated_utc", None)
+                return m
+
+            if _mcontent(man) != _mcontent(man_orig):
+                mpath.write_text(json.dumps(man, indent=1,
+                                            ensure_ascii=False) + "\n")
 
     REPORTS.mkdir(parents=True, exist_ok=True)
     (REPORTS / "T_SPEC_10_APPLY.json").write_text(
