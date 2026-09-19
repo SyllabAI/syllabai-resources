@@ -14,9 +14,9 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
-  spec_points: 94
+  spec_points: 108
   topics: 0
   subsections: 18
   practicals: 0
@@ -34,6 +34,35 @@ qualification_units:
   page_start: 10
   content_topic_prefixes: null
 specification_points:
+- code: IGCSE_ECONOMICS:1.1.1a
+  official_code: 1.1.1a
+  official_wording: The problem of scarcity – where there are unlimited wants and finite resources, leading
+    to the need to make choices.
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 17
+    pdf_oy: 183.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
 - code: IGCSE_ECONOMICS:1.1.1b
   official_code: 1.1.1b
   official_wording: Opportunity cost and its effect on economic agents (consumers, producers and government).
@@ -41,8 +70,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 1
-  global_order: 1
+  ordering: 2
+  global_order: 2
   practical: false
   scope: null
   applicability: null
@@ -56,7 +85,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 17
     pdf_oy: 216.4
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -68,8 +97,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 2
-  global_order: 2
+  ordering: 3
+  global_order: 3
   practical: false
   scope: null
   applicability: null
@@ -83,7 +112,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 17
     pdf_oy: 249.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -96,8 +125,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 3
-  global_order: 3
+  ordering: 4
+  global_order: 4
   practical: false
   scope: null
   applicability: null
@@ -111,7 +140,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 17
     pdf_oy: 269.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -123,8 +152,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 4
-  global_order: 4
+  ordering: 5
+  global_order: 5
   practical: false
   scope: null
   applicability: null
@@ -138,11 +167,39 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 17
     pdf_oy: 427.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.2a
+  official_code: 1.1.2a
+  official_wording: 'The underlying assumptions that:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 17
+    pdf_oy: 448.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
 - code: IGCSE_ECONOMICS:1.1.2b
   official_code: 1.1.2b
   official_wording: 'Reasons why consumers may not maximise their benefit: benefits'
@@ -150,8 +207,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 5
-  global_order: 5
+  ordering: 7
+  global_order: 7
   practical: false
   scope: null
   applicability: null
@@ -165,7 +222,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 17
     pdf_oy: 506.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -177,8 +234,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 6
-  global_order: 6
+  ordering: 8
+  global_order: 8
   practical: false
   scope: null
   applicability: null
@@ -192,7 +249,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 17
     pdf_oy: 598.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -204,8 +261,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 7
-  global_order: 7
+  ordering: 9
+  global_order: 9
   practical: false
   scope: null
   applicability: null
@@ -219,7 +276,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 110.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -231,8 +288,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 8
-  global_order: 8
+  ordering: 10
+  global_order: 10
   practical: false
   scope: null
   applicability: null
@@ -246,7 +303,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 130.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -258,8 +315,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 9
-  global_order: 9
+  ordering: 11
+  global_order: 11
   practical: false
   scope: null
   applicability: null
@@ -273,7 +330,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 202.7
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -285,8 +342,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 10
-  global_order: 10
+  ordering: 12
+  global_order: 12
   practical: false
   scope: null
   applicability: null
@@ -300,7 +357,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 359.7
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -312,8 +369,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 11
-  global_order: 11
+  ordering: 13
+  global_order: 13
   practical: false
   scope: null
   applicability: null
@@ -327,7 +384,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 379.3
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -339,8 +396,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 12
-  global_order: 12
+  ordering: 14
+  global_order: 14
   practical: false
   scope: null
   applicability: null
@@ -354,7 +411,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 451.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -366,8 +423,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 13
-  global_order: 13
+  ordering: 15
+  global_order: 15
   practical: false
   scope: null
   applicability: null
@@ -381,7 +438,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
     pdf_oy: 598.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -389,60 +446,6 @@ specification_points:
 - code: IGCSE_ECONOMICS:1.1.3h
   official_code: 1.1.3h
   official_wording: 'The use of diagrams to show: and quantity in real-world situations'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 14
-  global_order: 14
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: the
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 18
-    pdf_oy: 631.3
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.3i
-  official_code: 1.1.3i
-  official_wording: Define, calculate and draw excess demand and excess supply.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 15
-  global_order: 15
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: define,
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 18
-    pdf_oy: 723.4
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.3j
-  official_code: 1.1.3j
-  official_wording: The use of market forces to remove excess supply or excess demand.
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -462,14 +465,14 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 18
-    pdf_oy: 756.6
+    pdf_oy: 631.3
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4a
-  official_code: 1.1.4a
-  official_wording: Definition of PED.
+- code: IGCSE_ECONOMICS:1.1.3i
+  official_code: 1.1.3i
+  official_wording: Define, calculate and draw excess demand and excess supply.
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -479,7 +482,7 @@ specification_points:
   practical: false
   scope: null
   applicability: null
-  leading_verb: definition
+  leading_verb: define,
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -489,75 +492,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 123.4
+    generated_date: '2026-09-19'
+    pdf_page: 18
+    pdf_oy: 723.4
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4b
-  official_code: 1.1.4b
-  official_wording: Formula of PED.
+- code: IGCSE_ECONOMICS:1.1.3j
+  official_code: 1.1.3j
+  official_wording: The use of market forces to remove excess supply or excess demand.
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
   ordering: 18
   global_order: 18
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: formula
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 143.0
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4c
-  official_code: 1.1.4c
-  official_wording: Calculate the PED using given percentage changes in quantity demanded and percentage
-    changes in price.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 19
-  global_order: 19
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: calculate
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 162.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4d
-  official_code: 1.1.4d
-  official_wording: The use of diagrams to show price elastic and price inelastic demand.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 20
-  global_order: 20
   practical: false
   scope: null
   applicability: null
@@ -571,24 +519,24 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 195.8
+    generated_date: '2026-09-19'
+    pdf_page: 18
+    pdf_oy: 756.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4e
-  official_code: 1.1.4e
-  official_wording: 'Interpret numerical values of PED that show:'
+- code: IGCSE_ECONOMICS:1.1.4a
+  official_code: 1.1.4a
+  official_wording: Definition of PED.
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 21
-  global_order: 21
+  ordering: 19
+  global_order: 19
   practical: false
   scope: null
   applicability: null
-  leading_verb: interpret
+  leading_verb: definition
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -598,14 +546,69 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 19
-    pdf_oy: 229.1
+    pdf_oy: 123.4
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4f
-  official_code: 1.1.4f
-  official_wording: 'The factors influencing PED, including:'
+- code: IGCSE_ECONOMICS:1.1.4b
+  official_code: 1.1.4b
+  official_wording: Formula of PED.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: formula
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 143.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4c
+  official_code: 1.1.4c
+  official_wording: Calculate the PED using given percentage changes in quantity demanded and percentage
+    changes in price.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 162.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4d
+  official_code: 1.1.4d
+  official_wording: The use of diagrams to show price elastic and price inelastic demand.
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -625,157 +628,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 19
-    pdf_oy: 346.8
+    pdf_oy: 195.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4g
-  official_code: 1.1.4g
-  official_wording: Use of total revenue calculations to show the relationship between a change in price
-    and the change in total revenue, to determine whether demand is price elastic or price inelastic.
+- code: IGCSE_ECONOMICS:1.1.4e
+  official_code: 1.1.4e
+  official_wording: 'Interpret numerical values of PED that show:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
   ordering: 23
   global_order: 23
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: use
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 444.9
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4h
-  official_code: 1.1.4h
-  official_wording: Definition of PES.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 24
-  global_order: 24
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: definition
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 525.0
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4i
-  official_code: 1.1.4i
-  official_wording: Formula of PES.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 25
-  global_order: 25
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: formula
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 544.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4j
-  official_code: 1.1.4j
-  official_wording: Calculate the PES using given percentage changes in quantity supplied and percentage
-    changes in price.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 26
-  global_order: 26
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: calculate
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 564.2
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4k
-  official_code: 1.1.4k
-  official_wording: The use of diagrams to show price elastic and price inelastic supply.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 27
-  global_order: 27
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: the
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 19
-    pdf_oy: 597.5
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4l
-  official_code: 1.1.4l
-  official_wording: 'Interpret numerical values of PES that show:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 28
-  global_order: 28
   practical: false
   scope: null
   applicability: null
@@ -789,14 +655,151 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 19
-    pdf_oy: 630.7
+    pdf_oy: 229.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4m
-  official_code: 1.1.4m
-  official_wording: 'The factors influencing PES, including:'
+- code: IGCSE_ECONOMICS:1.1.4f
+  official_code: 1.1.4f
+  official_wording: 'The factors influencing PED, including:'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 346.8
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4g
+  official_code: 1.1.4g
+  official_wording: Use of total revenue calculations to show the relationship between a change in price
+    and the change in total revenue, to determine whether demand is price elastic or price inelastic.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 444.9
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4h
+  official_code: 1.1.4h
+  official_wording: Definition of PES.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 525.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4i
+  official_code: 1.1.4i
+  official_wording: Formula of PES.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: formula
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 544.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4j
+  official_code: 1.1.4j
+  official_wording: Calculate the PES using given percentage changes in quantity supplied and percentage
+    changes in price.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 564.2
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4k
+  official_code: 1.1.4k
+  official_wording: The use of diagrams to show price elastic and price inelastic supply.
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -816,129 +819,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 91.0
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 597.5
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4n
-  official_code: 1.1.4n
-  official_wording: Use examples to show the likely PES for manufactured and primary products.
+- code: IGCSE_ECONOMICS:1.1.4l
+  official_code: 1.1.4l
+  official_wording: 'Interpret numerical values of PES that show:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
   ordering: 30
   global_order: 30
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: use
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 189.1
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4o
-  official_code: 1.1.4o
-  official_wording: Definition of income elasticity of demand.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 31
-  global_order: 31
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: definition
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 241.9
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4p
-  official_code: 1.1.4p
-  official_wording: Formula of income elasticity of demand.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 32
-  global_order: 32
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: formula
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 261.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4q
-  official_code: 1.1.4q
-  official_wording: Calculate the income elasticity of demand using given percentage changes in quantity
-    demanded and percentage changes in income.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 33
-  global_order: 33
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: calculate
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 281.2
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4r
-  official_code: 1.1.4r
-  official_wording: 'Interpret numerical values of income elasticity of demand that show:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 34
-  global_order: 34
   practical: false
   scope: null
   applicability: null
@@ -952,21 +846,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 328.1
+    generated_date: '2026-09-19'
+    pdf_page: 19
+    pdf_oy: 630.7
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.4s
-  official_code: 1.1.4s
-  official_wording: 'The significance of price and income elasticities of demand to businesses and the
-    government, in terms of:'
+- code: IGCSE_ECONOMICS:1.1.4m
+  official_code: 1.1.4m
+  official_wording: 'The factors influencing PES, including:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 35
-  global_order: 35
+  ordering: 31
+  global_order: 31
   practical: false
   scope: null
   applicability: null
@@ -980,20 +873,47 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 20
-    pdf_oy: 420.1
+    pdf_oy: 91.0
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.5b
-  official_code: 1.1.5b
-  official_wording: Definition of public and private sector.
+- code: IGCSE_ECONOMICS:1.1.4n
+  official_code: 1.1.4n
+  official_wording: Use examples to show the likely PES for manufactured and primary products.
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 36
-  global_order: 36
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 189.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4o
+  official_code: 1.1.4o
+  official_wording: Definition of income elasticity of demand.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 33
+  global_order: 33
   practical: false
   scope: null
   applicability: null
@@ -1007,7 +927,172 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 241.9
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4p
+  official_code: 1.1.4p
+  official_wording: Formula of income elasticity of demand.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: formula
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 261.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4q
+  official_code: 1.1.4q
+  official_wording: Calculate the income elasticity of demand using given percentage changes in quantity
+    demanded and percentage changes in income.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: calculate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 281.2
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4r
+  official_code: 1.1.4r
+  official_wording: 'Interpret numerical values of income elasticity of demand that show:'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: interpret
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 328.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.4s
+  official_code: 1.1.4s
+  official_wording: 'The significance of price and income elasticities of demand to businesses and the
+    government, in terms of:'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 420.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.5a
+  official_code: 1.1.5a
+  official_wording: Definition of mixed economy.
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 493.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:1.1.5b
+  official_code: 1.1.5b
+  official_wording: Definition of public and private sector.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
     pdf_page: 20
     pdf_oy: 512.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1019,8 +1104,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 37
-  global_order: 37
+  ordering: 40
+  global_order: 40
   practical: false
   scope: null
   applicability: null
@@ -1034,7 +1119,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 20
     pdf_oy: 532.3
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1047,8 +1132,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 38
-  global_order: 38
+  ordering: 41
+  global_order: 41
   practical: false
   scope: null
   applicability: null
@@ -1062,7 +1147,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 20
     pdf_oy: 565.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1074,8 +1159,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 39
-  global_order: 39
+  ordering: 42
+  global_order: 42
   practical: false
   scope: null
   applicability: null
@@ -1089,7 +1174,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 20
     pdf_oy: 598.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1101,8 +1186,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 40
-  global_order: 40
+  ordering: 43
+  global_order: 43
   practical: false
   scope: null
   applicability: null
@@ -1116,7 +1201,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 20
     pdf_oy: 632.0
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1125,87 +1210,6 @@ specification_points:
   official_code: 1.1.5g
   official_wording: Definition of public goods – non-excludability, non-rivalry and how this causes the
     free rider problem.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 41
-  global_order: 41
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: definition
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 665.3
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.5h
-  official_code: 1.1.5h
-  official_wording: The role of the public sector and private sectors in the production of goods and services.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 42
-  global_order: 42
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: the
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 698.5
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.5i
-  official_code: 1.1.5i
-  official_wording: The relative importance of public sector and private sector in different economies.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 43
-  global_order: 43
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: the
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 20
-    pdf_oy: 731.7
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.1.5j
-  official_code: 1.1.5j
-  official_wording: Definition of privatisation.
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -1225,7 +1229,88 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 665.3
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.5h
+  official_code: 1.1.5h
+  official_wording: The role of the public sector and private sectors in the production of goods and services.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 698.5
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.5i
+  official_code: 1.1.5i
+  official_wording: The relative importance of public sector and private sector in different economies.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 20
+    pdf_oy: 731.7
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.1.5j
+  official_code: 1.1.5j
+  official_wording: Definition of privatisation.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
     pdf_page: 20
     pdf_oy: 765.0
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1237,8 +1322,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 45
-  global_order: 45
+  ordering: 48
+  global_order: 48
   practical: false
   scope: null
   applicability: null
@@ -1252,7 +1337,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 21
     pdf_oy: 91.0
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1264,8 +1349,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 46
-  global_order: 46
+  ordering: 49
+  global_order: 49
   practical: false
   scope: null
   applicability: null
@@ -1279,7 +1364,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 21
     pdf_oy: 209.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1291,8 +1376,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 47
-  global_order: 47
+  ordering: 50
+  global_order: 50
   practical: false
   scope: null
   applicability: null
@@ -1306,7 +1391,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 21
     pdf_oy: 228.8
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1318,8 +1403,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 48
-  global_order: 48
+  ordering: 51
+  global_order: 51
   practical: false
   scope: null
   applicability: null
@@ -1333,7 +1418,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 21
     pdf_oy: 281.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1345,8 +1430,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 49
-  global_order: 49
+  ordering: 52
+  global_order: 52
   practical: false
   scope: null
   applicability: null
@@ -1360,7 +1445,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 21
     pdf_oy: 301.3
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1372,8 +1457,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 50
-  global_order: 50
+  ordering: 53
+  global_order: 53
   practical: false
   scope: null
   applicability: null
@@ -1387,11 +1472,39 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 21
     pdf_oy: 334.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.1a
+  official_code: 1.2.1a
+  official_wording: 'The factors of production:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 22
+    pdf_oy: 128.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
 - code: IGCSE_ECONOMICS:1.2.1b
   official_code: 1.2.1b
   official_wording: 'Sectors of the economy:'
@@ -1399,8 +1512,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 51
-  global_order: 51
+  ordering: 55
+  global_order: 55
   practical: false
   scope: null
   applicability: null
@@ -1414,7 +1527,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 22
     pdf_oy: 226.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1427,8 +1540,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 52
-  global_order: 52
+  ordering: 56
+  global_order: 56
   practical: false
   scope: null
   applicability: null
@@ -1442,48 +1555,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 22
     pdf_oy: 304.7
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.2b
-  official_code: 1.2.2b
-  official_wording: 'Factors affecting productivity: capital through education and training and impact
-    of migration'
+- code: IGCSE_ECONOMICS:1.2.2a
+  official_code: 1.2.2a
+  official_wording: Definition of productivity.
   section: null
   subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 53
-  global_order: 53
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: factors
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 22
-    pdf_oy: 371.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.2c
-  official_code: 1.2.2c
-  official_wording: Definition of division of labour.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 54
-  global_order: 54
+  unit_code: null
+  unit: null
+  ordering: 57
+  global_order: 57
   practical: false
   scope: null
   applicability: null
@@ -1497,7 +1582,63 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
+    pdf_page: 22
+    pdf_oy: 352.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:1.2.2b
+  official_code: 1.2.2b
+  official_wording: 'Factors affecting productivity: capital through education and training and impact
+    of migration'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: factors
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 22
+    pdf_oy: 371.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.2c
+  official_code: 1.2.2c
+  official_wording: Definition of division of labour.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
     pdf_page: 22
     pdf_oy: 477.4
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1509,8 +1650,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 55
-  global_order: 55
+  ordering: 60
+  global_order: 60
   practical: false
   scope: null
   applicability: null
@@ -1524,11 +1665,39 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 22
     pdf_oy: 496.9
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.3a
+  official_code: 1.2.3a
+  official_wording: 'Definition and use of formulae to calculate:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 23
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
 - code: IGCSE_ECONOMICS:1.2.3b
   official_code: 1.2.3b
   official_wording: 'Economies of scale: o purchasing (bulk buying) o marketing o technical o financial
@@ -1538,8 +1707,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 56
-  global_order: 56
+  ordering: 62
+  global_order: 62
   practical: false
   scope: null
   applicability: null
@@ -1553,7 +1722,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 23
     pdf_oy: 228.4
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1567,8 +1736,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 57
-  global_order: 57
+  ordering: 63
+  global_order: 63
   practical: false
   scope: null
   applicability: null
@@ -1582,7 +1751,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 23
     pdf_oy: 542.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -1591,169 +1760,6 @@ specification_points:
   official_code: 1.2.4a
   official_wording: 'Advantages and disadvantages of competition to firms, consumers and the economy,
     including:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 58
-  global_order: 58
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: advantages
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 24
-    pdf_oy: 110.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4b
-  official_code: 1.2.4b
-  official_wording: Advantages and disadvantages of large firms and small firms.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 59
-  global_order: 59
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: advantages
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 24
-    pdf_oy: 241.9
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4c
-  official_code: 1.2.4c
-  official_wording: 'Factors influencing the growth of firms:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 60
-  global_order: 60
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: factors
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 24
-    pdf_oy: 275.2
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4d
-  official_code: 1.2.4d
-  official_wording: 'Reasons firms stay small:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 61
-  global_order: 61
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: reasons
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 24
-    pdf_oy: 392.9
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4e
-  official_code: 1.2.4e
-  official_wording: Definition of monopoly.
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 62
-  global_order: 62
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: definition
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 24
-    pdf_oy: 510.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4f
-  official_code: 1.2.4f
-  official_wording: 'Main features of monopoly: o legal barriers o patents o marketing budgets o technology
-    o high start-up costs.'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 63
-  global_order: 63
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: main
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 24
-    pdf_oy: 530.2
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4g
-  official_code: 1.2.4g
-  official_wording: 'Advantages and disadvantages of monopoly:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -1773,74 +1779,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 25
-    pdf_oy: 90.5
+    generated_date: '2026-09-19'
+    pdf_page: 24
+    pdf_oy: 110.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4h
-  official_code: 1.2.4h
-  official_wording: Definition of oligopoly.
+- code: IGCSE_ECONOMICS:1.2.4b
+  official_code: 1.2.4b
+  official_wording: Advantages and disadvantages of large firms and small firms.
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
   ordering: 65
   global_order: 65
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: definition
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 25
-    pdf_oy: 239.5
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4i
-  official_code: 1.2.4i
-  official_wording: 'Main features of oligopoly:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 66
-  global_order: 66
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: main
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 25
-    pdf_oy: 258.1
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.4j
-  official_code: 1.2.4j
-  official_wording: 'Advantages and disadvantages of oligopoly:'
-  section: null
-  subsection: null
-  unit_code: 4WEC1/01
-  unit: Unit 1
-  ordering: 67
-  global_order: 67
   practical: false
   scope: null
   applicability: null
@@ -1854,20 +1806,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 25
-    pdf_oy: 407.0
+    generated_date: '2026-09-19'
+    pdf_page: 24
+    pdf_oy: 241.9
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.5b
-  official_code: 1.2.5b
-  official_wording: 'Factors affecting the supply of labour: types of employment.'
+- code: IGCSE_ECONOMICS:1.2.4c
+  official_code: 1.2.4c
+  official_wording: 'Factors influencing the growth of firms:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 68
-  global_order: 68
+  ordering: 66
+  global_order: 66
   practical: false
   scope: null
   applicability: null
@@ -1881,14 +1833,69 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 25
-    pdf_oy: 593.8
+    generated_date: '2026-09-19'
+    pdf_page: 24
+    pdf_oy: 275.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.5c
-  official_code: 1.2.5c
-  official_wording: Importance of the quantity and quality of labour to business.
+- code: IGCSE_ECONOMICS:1.2.4d
+  official_code: 1.2.4d
+  official_wording: 'Reasons firms stay small:'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: reasons
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 24
+    pdf_oy: 392.9
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.4e
+  official_code: 1.2.4e
+  official_wording: Definition of monopoly.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 24
+    pdf_oy: 510.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.4f
+  official_code: 1.2.4f
+  official_wording: 'Main features of monopoly: o legal barriers o patents o marketing budgets o technology
+    o high start-up costs.'
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -1898,7 +1905,7 @@ specification_points:
   practical: false
   scope: null
   applicability: null
-  leading_verb: importance
+  leading_verb: main
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -1908,14 +1915,14 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 26
-    pdf_oy: 91.0
+    generated_date: '2026-09-19'
+    pdf_page: 24
+    pdf_oy: 530.2
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.5d
-  official_code: 1.2.5d
-  official_wording: Impact of education and training on human capital and quality of labour.
+- code: IGCSE_ECONOMICS:1.2.4g
+  official_code: 1.2.4g
+  official_wording: 'Advantages and disadvantages of monopoly:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -1925,7 +1932,7 @@ specification_points:
   practical: false
   scope: null
   applicability: null
-  leading_verb: impact
+  leading_verb: advantages
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -1935,15 +1942,14 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 26
-    pdf_oy: 124.2
+    generated_date: '2026-09-19'
+    pdf_page: 25
+    pdf_oy: 90.5
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.5e
-  official_code: 1.2.5e
-  official_wording: 'The use of labour market diagrams showing: wage and quantity of labour (employment)
-    labour.'
+- code: IGCSE_ECONOMICS:1.2.4h
+  official_code: 1.2.4h
+  official_wording: Definition of oligopoly.
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -1953,7 +1959,7 @@ specification_points:
   practical: false
   scope: null
   applicability: null
-  leading_verb: the
+  leading_verb: definition
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -1963,14 +1969,14 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 26
-    pdf_oy: 157.4
+    generated_date: '2026-09-19'
+    pdf_page: 25
+    pdf_oy: 239.5
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.5f
-  official_code: 1.2.5f
-  official_wording: 'Trade union involvement in the labour market: conditions and increase wages.'
+- code: IGCSE_ECONOMICS:1.2.4i
+  official_code: 1.2.4i
+  official_wording: 'Main features of oligopoly:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -1980,7 +1986,7 @@ specification_points:
   practical: false
   scope: null
   applicability: null
-  leading_verb: trade
+  leading_verb: main
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -1990,14 +1996,14 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 26
-    pdf_oy: 243.6
+    generated_date: '2026-09-19'
+    pdf_page: 25
+    pdf_oy: 258.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.6b
-  official_code: 1.2.6b
-  official_wording: Advantages and disadvantages of each government policy.
+- code: IGCSE_ECONOMICS:1.2.4j
+  official_code: 1.2.4j
+  official_wording: 'Advantages and disadvantages of oligopoly:'
   section: null
   subsection: null
   unit_code: 4WEC1/01
@@ -2017,20 +2023,184 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 26
-    pdf_oy: 416.4
+    generated_date: '2026-09-19'
+    pdf_page: 25
+    pdf_oy: 407.0
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:1.2.6c
-  official_code: 1.2.6c
-  official_wording: 'Government regulation of competition to:'
+- code: IGCSE_ECONOMICS:1.2.5a
+  official_code: 1.2.5a
+  official_wording: 'Factors affecting the demand for labour:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: factors
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 25
+    pdf_oy: 519.2
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:1.2.5b
+  official_code: 1.2.5b
+  official_wording: 'Factors affecting the supply of labour: types of employment.'
   section: null
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 74
-  global_order: 74
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: factors
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 25
+    pdf_oy: 593.8
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.5c
+  official_code: 1.2.5c
+  official_wording: Importance of the quantity and quality of labour to business.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: importance
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.5d
+  official_code: 1.2.5d
+  official_wording: Impact of education and training on human capital and quality of labour.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: impact
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 124.2
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.5e
+  official_code: 1.2.5e
+  official_wording: 'The use of labour market diagrams showing: wage and quantity of labour (employment)
+    labour.'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 157.4
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.5f
+  official_code: 1.2.5f
+  official_wording: 'Trade union involvement in the labour market: conditions and increase wages.'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: trade
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 243.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.6a
+  official_code: 1.2.6a
+  official_wording: 'Government policy to deal with externalities:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 80
+  global_order: 80
   practical: false
   scope: null
   applicability: null
@@ -2044,7 +2214,62 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 298.8
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:1.2.6b
+  official_code: 1.2.6b
+  official_wording: Advantages and disadvantages of each government policy.
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: advantages
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 416.4
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:1.2.6c
+  official_code: 1.2.6c
+  official_wording: 'Government regulation of competition to:'
+  section: null
+  subsection: null
+  unit_code: 4WEC1/01
+  unit: Unit 1
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: government
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
     pdf_page: 26
     pdf_oy: 436.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2057,237 +2282,6 @@ specification_points:
   subsection: null
   unit_code: 4WEC1/01
   unit: Unit 1
-  ordering: 75
-  global_order: 75
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: government
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 26
-    pdf_oy: 534.1
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.1b
-  official_code: 2.1.1b
-  official_wording: 'Low and stable inflation: o demand pull o cost push. o prices o wages o exports o
-    unemployment o menu costs o shoe leather costs o uncertainty o business and consumer confidence o
-    investment.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 76
-  global_order: 76
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: low
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 29
-    pdf_oy: 461.0
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.1c
-  official_code: 2.1.1c
-  official_wording: 'Low unemployment: Labour Organization (ILO) measure o cyclical o structural o seasonal
-    o voluntary o frictional. o output o use of scarce resources o poverty o government spending on benefits
-    o tax revenue o consumer confidence o business confidence o society.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 77
-  global_order: 77
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: low
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 30
-    pdf_oy: 91.0
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.1d
-  official_code: 2.1.1d
-  official_wording: 'Surplus or balance on the current account of the balance of payments: rates o quality
-    of domestic goods o quality of foreign goods o price of domestic goods o price of foreign goods o
-    exchange rates between countries. o leakage from the economy o can be inflationary if prices rise
-    abroad o low demand for our exports o problems finding foreign reserves to fund the deficit.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 78
-  global_order: 78
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: surplus
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 30
-    pdf_oy: 457.8
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.1e
-  official_code: 2.1.1e
-  official_wording: 'Protection of the environment: o visual pollution, including litter o noise pollution
-    o air pollution o water pollution. o taxation o subsidy o regulation o fines o pollution permits o
-    government provision of parks.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 79
-  global_order: 79
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: protection
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 31
-    pdf_oy: 189.1
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.1f
-  official_code: 2.1.1f
-  official_wording: 'Redistribution of income: o meet basic needs o raise standards of living o ethical
-    reasons. poverty: o progressive taxation o redistribution through benefit payments o investment in
-    education and healthcare.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 80
-  global_order: 80
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: redistribution
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 31
-    pdf_oy: 463.8
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.2b
-  official_code: 2.1.2b
-  official_wording: 'Monetary policy – focused on interest rate changes: objectives: o the mechanism by
-    which a change in interest rates affects consumers and businesses o awareness of asset purchasing
-    used by central banks.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 81
-  global_order: 81
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: monetary
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 32
-    pdf_oy: 241.9
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.2c
-  official_code: 2.1.2c
-  official_wording: 'Supply-side policy: total output objectives: o privatisation o deregulation o education
-    and training o policies to boost regions with high unemployment o infrastructure spending o lower
-    business taxes to stimulate investment o lower income tax rates to encourage working.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 82
-  global_order: 82
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: supply-side
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 32
-    pdf_oy: 420.1
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.1.2d
-  official_code: 2.1.2d
-  official_wording: 'Government controls: o regulation o legislation o fines o pollution permits.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
   ordering: 83
   global_order: 83
   practical: false
@@ -2303,11 +2297,355 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
+    pdf_page: 26
+    pdf_oy: 534.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.1a
+  official_code: 2.1.1a
+  official_wording: 'Economic growth: o employment o standards of living o poverty o productive potential
+    o inflation o the environment.'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: economic
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 29
+    pdf_oy: 177.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:2.1.1b
+  official_code: 2.1.1b
+  official_wording: 'Low and stable inflation: o demand pull o cost push. o prices o wages o exports o
+    unemployment o menu costs o shoe leather costs o uncertainty o business and consumer confidence o
+    investment.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: low
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 29
+    pdf_oy: 461.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.1c
+  official_code: 2.1.1c
+  official_wording: 'Low unemployment: Labour Organization (ILO) measure o cyclical o structural o seasonal
+    o voluntary o frictional. o output o use of scarce resources o poverty o government spending on benefits
+    o tax revenue o consumer confidence o business confidence o society.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: low
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 30
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.1d
+  official_code: 2.1.1d
+  official_wording: 'Surplus or balance on the current account of the balance of payments: rates o quality
+    of domestic goods o quality of foreign goods o price of domestic goods o price of foreign goods o
+    exchange rates between countries. o leakage from the economy o can be inflationary if prices rise
+    abroad o low demand for our exports o problems finding foreign reserves to fund the deficit.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: surplus
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 30
+    pdf_oy: 457.8
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.1e
+  official_code: 2.1.1e
+  official_wording: 'Protection of the environment: o visual pollution, including litter o noise pollution
+    o air pollution o water pollution. o taxation o subsidy o regulation o fines o pollution permits o
+    government provision of parks.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: protection
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 31
+    pdf_oy: 189.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.1f
+  official_code: 2.1.1f
+  official_wording: 'Redistribution of income: o meet basic needs o raise standards of living o ethical
+    reasons. poverty: o progressive taxation o redistribution through benefit payments o investment in
+    education and healthcare.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: redistribution
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 31
+    pdf_oy: 463.8
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.2a
+  official_code: 2.1.2a
+  official_wording: 'Fiscal policy – government revenue and government expenditure:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: fiscal
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 32
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:2.1.2b
+  official_code: 2.1.2b
+  official_wording: 'Monetary policy – focused on interest rate changes: objectives: o the mechanism by
+    which a change in interest rates affects consumers and businesses o awareness of asset purchasing
+    used by central banks.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: monetary
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 32
+    pdf_oy: 241.9
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.2c
+  official_code: 2.1.2c
+  official_wording: 'Supply-side policy: total output objectives: o privatisation o deregulation o education
+    and training o policies to boost regions with high unemployment o infrastructure spending o lower
+    business taxes to stimulate investment o lower income tax rates to encourage working.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: supply-side
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 32
+    pdf_oy: 420.1
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.2d
+  official_code: 2.1.2d
+  official_wording: 'Government controls: o regulation o legislation o fines o pollution permits.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: government
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
     pdf_page: 32
     pdf_oy: 663.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
+- code: IGCSE_ECONOMICS:2.1.3a
+  official_code: 2.1.3a
+  official_wording: 'The impact of policies and the trade-off between macroeconomic objectives:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 33
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:2.2.1a
+  official_code: 2.2.1a
+  official_wording: 'Definition of globalisation: increased integration and interdependence of economies.'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 34
+    pdf_oy: 128.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
 - code: IGCSE_ECONOMICS:2.2.1b
   official_code: 2.2.1b
   official_wording: 'Reasons for globalisation: corporations (MNCs).'
@@ -2315,8 +2653,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 84
-  global_order: 84
+  ordering: 96
+  global_order: 96
   practical: false
   scope: null
   applicability: null
@@ -2330,7 +2668,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 34
     pdf_oy: 161.3
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2343,8 +2681,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 85
-  global_order: 85
+  ordering: 97
+  global_order: 97
   practical: false
   scope: null
   applicability: null
@@ -2358,7 +2696,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 34
     pdf_oy: 273.0
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2374,8 +2712,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 86
-  global_order: 86
+  ordering: 98
+  global_order: 98
   practical: false
   scope: null
   applicability: null
@@ -2389,11 +2727,39 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 34
     pdf_oy: 437.5
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
+- code: IGCSE_ECONOMICS:2.2.2a
+  official_code: 2.2.2a
+  official_wording: 'Advantages and disadvantages of free trade, including:'
+  section: null
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 99
+  global_order: 99
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: advantages
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 35
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
 - code: IGCSE_ECONOMICS:2.2.2b
   official_code: 2.2.2b
   official_wording: 'Reasons for protection:'
@@ -2401,8 +2767,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 87
-  global_order: 87
+  ordering: 100
+  global_order: 100
   practical: false
   scope: null
   applicability: null
@@ -2416,7 +2782,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 35
     pdf_oy: 208.7
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2428,8 +2794,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 88
-  global_order: 88
+  ordering: 101
+  global_order: 101
   practical: false
   scope: null
   applicability: null
@@ -2443,7 +2809,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 35
     pdf_oy: 365.7
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2455,8 +2821,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 89
-  global_order: 89
+  ordering: 102
+  global_order: 102
   practical: false
   scope: null
   applicability: null
@@ -2470,7 +2836,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 35
     pdf_oy: 510.6
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2482,8 +2848,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 90
-  global_order: 90
+  ordering: 103
+  global_order: 103
   practical: false
   scope: null
   applicability: null
@@ -2497,7 +2863,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 35
     pdf_oy: 583.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2509,8 +2875,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 91
-  global_order: 91
+  ordering: 104
+  global_order: 104
   practical: false
   scope: null
   applicability: null
@@ -2524,48 +2890,20 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 35
     pdf_oy: 622.3
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
   damage_flags: []
-- code: IGCSE_ECONOMICS:2.2.3b
-  official_code: 2.2.3b
-  official_wording: 'Factors affecting supply and demand of currencies: exchange rates.'
+- code: IGCSE_ECONOMICS:2.2.3a
+  official_code: 2.2.3a
+  official_wording: Definition of exchange rates.
   section: null
   subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 92
-  global_order: 92
-  practical: false
-  scope: null
-  applicability: null
-  leading_verb: factors
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    source_file: international-gcse-in-economics-modular-specification.pdf
-    spec_issue: '1'
-    extraction_method: pdf-span-geometry (zero-LLM)
-    generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
-    pdf_page: 36
-    pdf_oy: 110.6
-    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
-  damage_flags: []
-- code: IGCSE_ECONOMICS:2.2.3c
-  official_code: 2.2.3c
-  official_wording: 'Definition of appreciation: o import and export prices o demand for imports and exports
-    o current account on balance of payments.'
-  section: null
-  subsection: null
-  unit_code: 4WEC2/01
-  unit: Unit 2
-  ordering: 93
-  global_order: 93
+  unit_code: null
+  unit: null
+  ordering: 105
+  global_order: 105
   practical: false
   scope: null
   applicability: null
@@ -2579,7 +2917,63 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
+    pdf_page: 36
+    pdf_oy: 91.0
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags:
+  - t-spec-9-parse-repair
+- code: IGCSE_ECONOMICS:2.2.3b
+  official_code: 2.2.3b
+  official_wording: 'Factors affecting supply and demand of currencies: exchange rates.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 106
+  global_order: 106
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: factors
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
+    pdf_page: 36
+    pdf_oy: 110.6
+    pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
+  damage_flags: []
+- code: IGCSE_ECONOMICS:2.2.3c
+  official_code: 2.2.3c
+  official_wording: 'Definition of appreciation: o import and export prices o demand for imports and exports
+    o current account on balance of payments.'
+  section: null
+  subsection: null
+  unit_code: 4WEC2/01
+  unit: Unit 2
+  ordering: 107
+  global_order: 107
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: definition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: international-gcse-in-economics-modular-specification.pdf
+    spec_issue: '1'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-19'
     pdf_page: 36
     pdf_oy: 222.4
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce
@@ -2595,8 +2989,8 @@ specification_points:
   subsection: null
   unit_code: 4WEC2/01
   unit: Unit 2
-  ordering: 94
-  global_order: 94
+  ordering: 108
+  global_order: 108
   practical: false
   scope: null
   applicability: null
@@ -2610,7 +3004,7 @@ specification_points:
     spec_issue: '1'
     extraction_method: pdf-span-geometry (zero-LLM)
     generated_by: scripts/emit_graph.py
-    generated_date: '2026-09-17'
+    generated_date: '2026-09-19'
     pdf_page: 36
     pdf_oy: 340.1
     pdf_sha1: 7fd2fabf0ca16de84c617bbb0934f3db7e4e70ce

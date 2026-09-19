@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T06:45:14Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 110,
-  "resolved": 93,
-  "unresolved": 17
+  "resolved": 102,
+  "unresolved": 8
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -27,8 +27,11 @@
    "sme_name": "The Imprest System",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the imprest system, but the committed parse carries no imprest statement (only the bare 'petty cash book' term S2.063 survives); flagged for parse repair"
+   "resolved_code": "S2.063",
+   "official_id": "IGCSE_ACCOUNTING:S2.063",
+   "official_wording": "petty cash book",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_2rygXYBHBJvQ4p2B",
@@ -289,8 +292,11 @@
    "sme_name": "The Accounting Equation",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the accounting equation, but the committed parse carries no accounting-equation statement; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_Dtqg87vhtQJbhhft",
@@ -364,8 +370,11 @@
    "sme_name": "Cash Discount",
    "sme_definition": "",
    "referenced_by_parts": 9,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches cash discount, but the committed parse carries no discount statements (trade/cash/discount allowed/discount received all lost in parse); flagged for parse repair"
+   "resolved_code": "S2.062",
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_wording": "three-column cash book",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_G8ZDFvrKCHQjhVVK",
@@ -453,8 +462,11 @@
    "sme_name": "Discount Allowed",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches discount allowed, but the committed parse carries no discount statements; flagged for parse repair"
+   "resolved_code": "S2.062",
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_wording": "three-column cash book",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_KRTztYQRyDf2rVDv",
@@ -487,16 +499,22 @@
    "sme_name": "Cheques & Cheque Counterfoils",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches cheques and cheque counterfoils (including dishonoured cheques), but the committed parse carries no cheque/payment-document statements; flagged for parse repair"
+   "resolved_code": "S3.156",
+   "official_id": "IGCSE_ACCOUNTING:S3.156",
+   "official_wording": "Understand the process of bank reconciliation.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_NB5vmp8y8dWsYfTH",
    "sme_name": "Bank statements",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches bank statements as business documents, but the committed parse carries no bank-statement document term (S2.055 'statement of account' is a different credit-transaction document); flagged for parse repair"
+   "resolved_code": "S3.155",
+   "official_id": "IGCSE_ACCOUNTING:S3.155",
+   "official_wording": "Explain the purpose of bank reconciliation statements.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_NBfjXzYzD6ZdYpM4",
@@ -562,8 +580,11 @@
    "sme_name": "Taking Drawings & Introducing Capital",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teachings drawings and capital introductions, but the committed parse carries no drawings/capital recording statements; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_PJj4SzyjRZYgDq99",
@@ -1102,8 +1123,11 @@
    "sme_name": "Discount Received",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches discount received, but the committed parse carries no discount statements; flagged for parse repair"
+   "resolved_code": "S2.062",
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_wording": "three-column cash book",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_srTknwNn78jknxwg",
@@ -1167,8 +1191,11 @@
    "sme_name": "Trade Discount",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches trade discount, but the committed parse carries no discount statements; flagged for parse repair"
+   "resolved_code": "S2.062",
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_wording": "three-column cash book",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_vw8BWYrvKCf6MsqQ",

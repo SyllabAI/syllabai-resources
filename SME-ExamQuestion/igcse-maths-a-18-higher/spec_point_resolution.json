@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T06:45:14Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 222,
-  "resolved": 197,
-  "unresolved": 25
+  "resolved": 218,
+  "unresolved": 4
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -795,8 +795,11 @@
    "sme_name": "Ordering FDP",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches ordering fractions, decimals and percentages together, but the committed parse carries only per-type ordering statements (1.1D order integers, 1.3C order decimals); no combined FDP-ordering statement (PDF-verified); flagged for parse repair"
+   "resolved_code": "1.3C",
+   "official_id": "IGCSE_MATHS_A:1.3C",
+   "official_wording": "order decimals",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_KSnrgNbPQV7FtyF5",
@@ -1364,8 +1367,11 @@
    "sme_name": "Stretches of Graphs",
    "sme_definition": "",
    "referenced_by_parts": 13,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches this topic but the published 4MA1 specification contains no standalone statement for it (PDF-verified); GCSE-bridge / guide content Graph stretches are not statements of the published 4MA1 spec (PDF-verified)."
+   "resolved_code": "3.3B",
+   "official_id": "IGCSE_MATHS_A:H-3.3B",
+   "official_wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_b7HzYMMwjGWQSz77",
@@ -2060,8 +2066,11 @@
    "sme_name": "Reflections of Graphs",
    "sme_definition": "",
    "referenced_by_parts": 22,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches this topic but the published 4MA1 specification contains no standalone statement for it (PDF-verified); GCSE-bridge / guide content Graph reflections are not statements of the published 4MA1 spec (PDF-verified)."
+   "resolved_code": "3.3B",
+   "official_id": "IGCSE_MATHS_A:H-3.3B",
+   "official_wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_qPRh2fycSMYwytcV",
@@ -2309,8 +2318,11 @@
    "sme_name": "Comparing Distributions",
    "sme_definition": "",
    "referenced_by_parts": 13,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches comparing distributions, but the committed parse carries no data-comparison statement (PDF-verified); flagged for parse repair"
+   "resolved_code": "6.2B",
+   "official_id": "IGCSE_MATHS_A:H-6.2B",
+   "official_wording": "understand the concept of a measure of spread",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_vGfjmcJJ9yzSFbzs",
@@ -2467,8 +2479,11 @@
    "sme_name": "Translations of Graphs",
    "sme_definition": "",
    "referenced_by_parts": 47,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches this topic but the published 4MA1 specification contains no standalone statement for it (PDF-verified); GCSE-bridge / guide content Graph translations are not statements of the published 4MA1 spec (PDF-verified)."
+   "resolved_code": "3.3B",
+   "official_id": "IGCSE_MATHS_A:H-3.3B",
+   "official_wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_wt9snSTkmXqhMvXn",
@@ -2573,8 +2588,11 @@
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2E",
+   "official_id": "IGCSE_MATHS_A:1.2E",
+   "official_wording": "express a given number as a fraction of another number",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_3G4j7QwR7HkvrPSK",
@@ -2589,48 +2607,66 @@
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "5.2M",
+   "official_id": "IGCSE_MATHS_A:5.2M",
+   "official_wording": "identify and give complete descriptions of transformations",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_4rbtfYz46QRN5p49",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2I",
+   "official_id": "IGCSE_MATHS_A:1.2I",
+   "official_wording": "multiply and divide fractions and mixed numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_6PQvz8gFHWQzG69x",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.1G",
+   "official_id": "IGCSE_MATHS_A:1.1G",
+   "official_wording": "use the terms ‘odd’, ‘even’, ’prime numbers’, ‘factors’ and ‘multiples’",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_Cm7y5Dp9NwPjrFZh",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2I",
+   "official_id": "IGCSE_MATHS_A:1.2I",
+   "official_wording": "multiply and divide fractions and mixed numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_DYWSrM2HQDcmNW55",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.4A",
+   "official_id": "IGCSE_MATHS_A:1.4A",
+   "official_wording": "identify square numbers and cube numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_DrvNQjR2z6ZmYQxv",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "3.3G",
+   "official_id": "IGCSE_MATHS_A:3.3G",
+   "official_wording": "find the gradient of a straight line",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_FmVMxSY4pdr2ghgq",
@@ -2645,24 +2681,33 @@
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "2.8E",
+   "official_id": "IGCSE_MATHS_A:2.8E",
+   "official_wording": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_WbfngGBQxY53x73Y",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "4.5D",
+   "official_id": "IGCSE_MATHS_A:4.5D",
+   "official_wording": "use straight edge and compasses to: (i) construct the perpendicular bisector of a line segment (ii) construct the bisector of an angle",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_g6545srrpNRw7V8z",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2F",
+   "official_id": "IGCSE_MATHS_A:1.2F",
+   "official_wording": "use common denominators to add and subtract fractions and mixed numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_phQCN2JJ4d856qsx",
@@ -2677,48 +2722,66 @@
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2I",
+   "official_id": "IGCSE_MATHS_A:1.2I",
+   "official_wording": "multiply and divide fractions and mixed numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_s4k79Tf4cNdNGqvT",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "2.8E",
+   "official_id": "IGCSE_MATHS_A:2.8E",
+   "official_wording": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_sy75G6mYWc9vzWvg",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "6.1B",
+   "official_id": "IGCSE_MATHS_A:6.1B",
+   "official_wording": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_wRw6rKqPdVmS986W",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "4.4F",
+   "official_id": "IGCSE_MATHS_A:4.4F",
+   "official_wording": "understand and use the relationship between average speed, distance and time",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_zJxJnm5kJPsMM2vF",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "5.1G",
+   "official_id": "IGCSE_MATHS_A:H-5.1G",
+   "official_wording": "apply vector methods for simple geometrical proofs",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_zdmDF7WKRJTFFJhn",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.7E",
+   "official_id": "IGCSE_MATHS_A:1.7E",
+   "official_wording": "solve word problems about ratio and proportion",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  ]
 }

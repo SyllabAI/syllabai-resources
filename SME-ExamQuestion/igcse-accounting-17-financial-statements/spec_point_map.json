@@ -4,7 +4,7 @@
  "qual": "igcse-accounting",
  "regime": "B",
  "unit_scope": null,
- "generated_utc": "2026-09-19T06:45:14Z",
+ "generated_utc": "2026-09-19T10:17:42Z",
  "sme_entries": 31,
  "official_pool": 118,
  "mappings": {
@@ -276,6 +276,18 @@
    "official_code": "S4.174",
    "tier": "R1_parse_repair_statement_join",
    "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+  },
+  "spcpt_TvyfYwBdrjBRvq25": {
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_code": "S2.134",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_ywTCzRPPpWBHX4JQ": {
+   "official_id": "IGCSE_ACCOUNTING:S4.159",
+   "official_code": "S4.159",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  },
  "unmapped": [
@@ -283,11 +295,6 @@
    "spcpt_id": "spcpt_HHc2rF66RySy4NMx",
    "name": "Summary of Adjustments",
    "reason": "no-guess pending: aggregation tag — SME's Summary of Adjustments spans the whole Topic 5 adjustment walk (5.1-5.4); no single statement anchors a summary page"
-  },
-  {
-   "spcpt_id": "spcpt_TvyfYwBdrjBRvq25",
-   "name": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
   },
   {
    "spcpt_id": "spcpt_cdXKKWTrNP4djDZW",
@@ -298,11 +305,6 @@
    "spcpt_id": "spcpt_hgPTWKkgpZhmkzjh",
    "name": "Direct & Indirect Costs",
    "reason": "no-guess pending: the published 4AC1 spec carries no direct/indirect cost statement (Topic 4.5 prints prime cost, production cost and total cost only — PDF p27)"
-  },
-  {
-   "spcpt_id": "spcpt_ywTCzRPPpWBHX4JQ",
-   "name": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
   }
  ],
  "flags": []

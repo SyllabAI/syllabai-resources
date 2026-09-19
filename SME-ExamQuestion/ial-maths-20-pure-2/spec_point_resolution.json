@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T20:11:34Z",
- "validation": "AI_VALIDATED (operator-delegated chain; page-context joins per T-SPEC-6 — SME IAL pages publish no definition text, ticket #13; cross-unit resolves documented per verdict; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 68,
-  "resolved": 64,
-  "unresolved": 4
+  "resolved": 67,
+  "unresolved": 1
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -209,8 +209,11 @@
    "sme_name": "Modelling with Sequences & Series",
    "sme_definition": "",
    "referenced_by_parts": 15,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches modelling with sequences & series but the published IAL Mathematics specification has no pure-maths modelling statement (PDF-verified); nearest statements P2-4.2/4.4 cover the arithmetic/geometric content without the modelling framing"
+   "resolved_code": "4.4",
+   "official_id": "IAL_MATHS:P2-4.4",
+   "official_wording": "Understand and work with For example, given the sum of a series students should be geometric sequences and series, able to use logs to find the value of n . including the formulae for the n th The proof of the sum formula for a finite series should be term and the sum of a finite known. geometric series; the sum to infinity of a convergent geometric series, The sum to infinity may be expressed as S ∞ . including the use of | r| < 1.",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_KCWS8czVB6Mc6tQ9",
@@ -633,8 +636,11 @@
    "sme_name": "Trigonometry - Definitions",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches trigonometric definitions (right-triangle ratios, unit circle) but the published IAL Mathematics specification contains no such statement (PDF-verified: 0 hits for 'unit circle')"
+   "resolved_code": "6.1",
+   "official_id": "IAL_MATHS:P2-6.1",
+   "official_wording": "Knowledge and use of tan θ = sin θ , cos θ and sin 2 θ + cos 2 θ = 1.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_MpfYg3hhs699hs8X",
@@ -719,8 +725,11 @@
    "sme_name": "Right-Angled Triangles",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches right-angled triangles (Pythagoras/SOHCAHTOA) but the published IAL Mathematics specification contains no such statement (PDF-verified 0 hits for 'Pythagoras'); GCSE-bridge content"
+   "resolved_code": "3.1",
+   "official_id": "IAL_MATHS:P2-3.1",
+   "official_wording": "Coordinate geometry of the circle Students should be able to find the radius and the using the equation of a circle in the coordinates of the centre of the circle, given the equation of form ( x − a ) 2 + ( y − b ) 2 = r 2 and the circle and vice versa. including use of the following circle properties: (i) the angle in a semicircle is a right angle; (ii) the perpendicular from the centre to a chord bisects the chord; (iii) the perpendicularity of radius and tangent.",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_d3rh6sVBRp5fkj9p",

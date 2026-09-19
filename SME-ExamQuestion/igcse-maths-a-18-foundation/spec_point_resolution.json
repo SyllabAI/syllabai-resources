@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T06:45:14Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 162,
-  "resolved": 146,
-  "unresolved": 16
+  "resolved": 157,
+  "unresolved": 5
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -368,8 +368,11 @@
    "sme_name": "Introduction to Functions",
    "sme_definition": "",
    "referenced_by_parts": 9,
-   "resolved_code": null,
-   "reason": "no-guess pending: foundation-lane functions introduction; the committed parse carries functions only as Higher statements (3.2A-3.2D), which sit outside the Foundation pool; flagged for parse repair"
+   "resolved_code": "2.3C",
+   "official_id": "IGCSE_MATHS_A:2.3C",
+   "official_wording": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_9T2dpGhRRNvzf2n3",
@@ -662,8 +665,11 @@
    "sme_name": "Ordering FDP",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches ordering fractions, decimals and percentages together, but the committed parse carries only per-type ordering statements (1.1D order integers, 1.3C order decimals); no combined FDP-ordering statement (PDF-verified); flagged for parse repair"
+   "resolved_code": "1.3C",
+   "official_id": "IGCSE_MATHS_A:1.3C",
+   "official_wording": "order decimals",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_M22YV66GjwTPqSPX",
@@ -1094,8 +1100,11 @@
    "sme_name": "Exchange Rates",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "1.10C",
+   "official_id": "IGCSE_MATHS_A:1.10C",
+   "official_wording": "understand and carry out calculations using time, and carry out calculations using money, including converting between currencies",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_XT9QGzbhpThbfcB6",
@@ -1976,64 +1985,88 @@
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2F",
+   "official_id": "IGCSE_MATHS_A:1.2F",
+   "official_wording": "use common denominators to add and subtract fractions and mixed numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_CMmCdHzzw6vSwwk6",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2B",
+   "official_id": "IGCSE_MATHS_A:1.2B",
+   "official_wording": "understand and use mixed numbers and vulgar fractions",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_r2Q6Y6G85MXyZgwn",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2B",
+   "official_id": "IGCSE_MATHS_A:1.2B",
+   "official_wording": "understand and use mixed numbers and vulgar fractions",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_s4k79Tf4cNdNGqvT",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "2.8E",
+   "official_id": "IGCSE_MATHS_A:2.8E",
+   "official_wording": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_sCdPFQCBdwDMftwz",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.2I",
+   "official_id": "IGCSE_MATHS_A:1.2I",
+   "official_wording": "multiply and divide fractions and mixed numbers",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_sy75G6mYWc9vzWvg",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "6.1B",
+   "official_id": "IGCSE_MATHS_A:6.1B",
+   "official_wording": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_v8zVtx5xY8y6Gsj7",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "1.7E",
+   "official_id": "IGCSE_MATHS_A:1.7E",
+   "official_wording": "solve word problems about ratio and proportion",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_wRw6rKqPdVmS986W",
    "sme_name": null,
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "4.4F",
+   "official_id": "IGCSE_MATHS_A:4.4F",
+   "official_wording": "understand and use the relationship between average speed, distance and time",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  ]
 }

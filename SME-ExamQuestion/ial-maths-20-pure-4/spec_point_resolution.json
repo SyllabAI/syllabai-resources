@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T20:11:34Z",
- "validation": "AI_VALIDATED (operator-delegated chain; page-context joins per T-SPEC-6 — SME IAL pages publish no definition text, ticket #13; cross-unit resolves documented per verdict; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 65,
-  "resolved": 63,
-  "unresolved": 2
+  "resolved": 64,
+  "unresolved": 1
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -581,8 +581,11 @@
    "sme_name": "Modelling with Straight Lines",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches modelling with straight lines (y=mx+c models) but the published IAL Mathematics specification has no pure-maths modelling statement (PDF-verified); consistent with the pure-1 pending for this global tag"
+   "resolved_code": "2.1",
+   "official_id": "IAL_MATHS:P4-2.1",
+   "official_wording": "Decompose rational functions into Partial fractions to include denominators such as partial fractions (denominators not ( ax + b )( cx + d )( ex + f ) and ( ax + b )( cx + d ) 2 . more complicated than repeated linear terms). The degree of the numerator may equal or exceed the degree of the denominator. Applications to integration, differentiation and series expansions. Quadratic factors in the denominator such as ( x 2 + a ), a > 0, are not required.",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_PDtz9wfdB46zhbhz",

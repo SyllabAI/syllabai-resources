@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T04:58:13Z",
- "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 67,
-  "resolved": 55,
-  "unresolved": 12
+  "resolved": 62,
+  "unresolved": 5
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -113,8 +113,11 @@
    "sme_name": "Introduction to Functions",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: foundation-lane functions introduction; the committed parse carries functions only as Higher statements (3.2A-3.2D), which sit outside the Foundation pool; flagged for parse repair"
+   "resolved_code": "2.3C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-2.3C",
+   "official_wording": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_9T2dpGhRRNvzf2n3",
@@ -186,16 +189,22 @@
    "sme_name": "Forming Equations from Shapes",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "4.2E",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-4.2E",
+   "official_wording": "understand and use the angle sum of polygons",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_F8Q9C8q3m8bPHCz8",
    "sme_name": "Pictograms",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "6.1B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-6.1B",
+   "official_wording": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_H6fgvTgTrMcFYBC6",
@@ -436,8 +445,11 @@
    "sme_name": "Forming & Solving Equations",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "2.4A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-2.4A",
+   "official_wording": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_WDjD46wdhy2YdYdv",
@@ -689,24 +701,33 @@
    "sme_name": "Bar Charts",
    "sme_definition": "",
    "referenced_by_parts": 9,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "6.1B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-6.1B",
+   "official_wording": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_rxmWrBrc2s2q45wF",
    "sme_name": "Pie Charts",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "6.1B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-6.1B",
+   "official_wording": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_sYM8kqkxHHFGzr2G",
    "sme_name": "Percentages of Amounts",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "1.6E",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-1.6E",
+   "official_wording": "solve simple percentage problems, including percentage increase and decrease",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_sZKHSVfR29sK8S8B",

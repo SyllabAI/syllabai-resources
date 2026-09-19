@@ -4,7 +4,7 @@
  "qual": "ial-maths",
  "regime": "B",
  "unit_scope": "D1",
- "generated_utc": "2026-09-19T06:45:14Z",
+ "generated_utc": "2026-09-19T10:17:42Z",
  "sme_entries": 53,
  "official_pool": 12,
  "mappings": {
@@ -649,6 +649,30 @@
    "official_code": "4.4",
    "tier": "R1_parse_repair_statement_join",
    "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+  },
+  "spcpt_Sh2bfsQFf7sDZ44z": {
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_code": "2.1",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_g4WGr939XD6DZyBD": {
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_code": "2.1",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_g6QKkK28sx7kfVZp": {
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_code": "2.1",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_h3Gvrwv3BRwysKYT": {
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_code": "2.1",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  },
  "unmapped": [
@@ -658,29 +682,9 @@
    "reason": "no-guess pending: SME teaches Eulerian and semi-Eulerian graphs but the published IAL Mathematics specification contains no Eulerian statement (PDF-verified 0 hits for 'Eulerian'); the route-inspection statement 3.1 presupposes the theory but does not state it"
   },
   {
-   "spcpt_id": "spcpt_Sh2bfsQFf7sDZ44z",
-   "name": "Edges (Arcs) & Vertices (Nodes)",
-   "reason": "no-guess pending: SME teaches edges/arcs and vertices/nodes vocabulary but the committed D1 registry and the published PDF contain no standalone graph-definitions statement"
-  },
-  {
    "spcpt_id": "spcpt_Y6ZGFfHSfjhqhh5t",
    "name": "Identifying a Hamiltonian Cycle",
    "reason": "no-guess pending: SME teaches identifying Hamiltonian cycles but the published IAL Mathematics specification contains no Hamiltonian statement (PDF-verified 0 hits); the classical TSP statement 3.2 presupposes the theory but does not state it"
-  },
-  {
-   "spcpt_id": "spcpt_g4WGr939XD6DZyBD",
-   "name": "Properties of Graphs",
-   "reason": "no-guess pending: SME teaches graph properties (degree, walks, connectedness) but the committed D1 registry and the published PDF contain no standalone graph-definitions statement"
-  },
-  {
-   "spcpt_id": "spcpt_g6QKkK28sx7kfVZp",
-   "name": "Degree (Valency) of a Vertex",
-   "reason": "no-guess pending: SME teaches degree/valency of a vertex but the published IAL Mathematics specification contains no statement for it (PDF-verified 0 hits for 'Eulerian'; degree theory serves 3.1 without being stated)"
-  },
-  {
-   "spcpt_id": "spcpt_h3Gvrwv3BRwysKYT",
-   "name": "Types of Graph",
-   "reason": "no-guess pending: SME teaches graph-theory vocabulary (types of graphs, networks) but the committed D1 registry contains no graph-definitions statement; the published PDF likewise has no standalone statement (graph theory serves statements 2.1/3.1); PDF-verified"
   },
   {
    "spcpt_id": "spcpt_hrmHmYZTVfcdzcJc",

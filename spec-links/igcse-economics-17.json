@@ -1,19 +1,19 @@
 {
  "schema": "syllabai.learner-spec-links/1.0",
- "generated_utc": "2026-09-19T06:45:33Z",
+ "generated_utc": "2026-09-19T10:19:16Z",
  "course": "igcse-economics-17",
  "qual": "igcse-economics",
  "totals": {
   "items": 1677,
-  "items_with_codes": 768,
+  "items_with_codes": 858,
   "by_kind": {
    "notes": 80,
    "question_parts": 617,
    "flashcards": 980
   },
   "coded_by_kind": {
-   "notes": 70,
-   "question_parts": 535,
+   "notes": 78,
+   "question_parts": 617,
    "flashcards": 163
   }
  },
@@ -35,10 +35,15 @@
      "official_code": "1.1.4g",
      "tier": "S2_name_ambiguous",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7",
     "spcpt_y4jFYqYKnfsjZ9WH"
    ]
   },
@@ -177,8 +182,8 @@
     {
      "official_id": "IGCSE_ECONOMICS:1.2.4c",
      "official_code": "1.2.4c",
-     "tier": "P2_page_context_join",
-     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ECONOMICS:1.2.4d",
@@ -187,9 +192,7 @@
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_P7ZBvgZPy5kMcCZk"
-   ]
+   "pending": []
   },
   "rn_GsNNxRjQgm9dznvd": {
    "kind": "note",
@@ -289,11 +292,15 @@
    "label": "The Factors Of Production - IGCSE Economics Revision Notes",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k",
-    "spcpt_zNHrPMcdPFRXSnJQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_FVFztwNdp5JW2tZb": {
    "kind": "note",
@@ -323,16 +330,19 @@
    "topic": "the-labour-market",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.2.5a",
+     "official_code": "1.2.5a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.2.5e",
      "official_code": "1.2.5e",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_JN9gNrB9wSNxrcmQ",
-    "spcpt_KB4fZvP6BWqPS5PG"
-   ]
+   "pending": []
   },
   "rn_3YtdS7CqGMRmFRW7": {
    "kind": "note",
@@ -401,24 +411,31 @@
    "label": "Fiscal Deficits & Surpluses  | Edexcel IGCSE Economics Revision Notes 2017",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB",
-    "spcpt_XWw8ZgXMDDjqBJrd",
-    "spcpt_HXjrBn4DKcTY5vQn"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_XRJtKvyrTkK6RyKF": {
    "kind": "note",
    "label": "Fiscal Policy | Edexcel IGCSE Economics Revision Notes 2017",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_K6jHXd4gxG3Bbb4y",
-    "spcpt_MMWY33ft4CWNsszp",
-    "spcpt_ncDNpzRzSV8smPDt",
-    "spcpt_GHq4n99qWCHbynhc"
+    "spcpt_ncDNpzRzSV8smPDt"
    ]
   },
   "rn_ms3wRHdKFgp5JxV3": {
@@ -471,11 +488,16 @@
    "label": "The Impact Of Fiscal Policy On Macroeconomic Objectives ",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_mGmf5GbSGJQxRtCW",
-    "spcpt_fwbcwhkfZKZ3vSGx",
-    "spcpt_8Sg99MnK2VN5mv6z"
+    "spcpt_mGmf5GbSGJQxRtCW"
    ]
   },
   "rn_2JCsJVmNq8jnvVdp": {
@@ -513,11 +535,15 @@
    "label": "Links Between Govt Objectives & Policies - IGCSE Economics",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_9QJbKvbQG9t8htQj",
-    "spcpt_z9fRsq7X9rhJTz4W"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_x9kjxyC8wyncyCMj": {
    "kind": "note",
@@ -545,10 +571,15 @@
      "official_code": "1.1.1e",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_rkddXxyt6VNP4rYy",
     "spcpt_XGQK9rtnFdFvHqhW"
    ]
   },
@@ -557,11 +588,15 @@
    "label": "Economic Growth: The Economic Cycle  | Edexcel IGCSE Economics Revision Notes 2017",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr",
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_SwQqRJDxqfN6kchN": {
    "kind": "note",
@@ -1094,10 +1129,15 @@
    "label": "The Underlying Economic Assumptions - IGCSE Economics ",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_CSCZsmc55SVgVqBf": {
    "kind": "note",
@@ -1320,10 +1360,15 @@
    "label": "The Nature Of The Economic Problem - IGCSE Economics ",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_4nKQtkwThH4JqMXq": {
    "kind": "note",
@@ -1331,6 +1376,12 @@
    "section": "the-market-system",
    "topic": "the-mixed-economy",
    "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
     {
      "official_id": "IGCSE_ECONOMICS:1.1.5c",
      "official_code": "1.1.5c",
@@ -1344,9 +1395,7 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "rn_xrgyFTN965qwVWzz": {
    "kind": "note",
@@ -1445,10 +1494,15 @@
    "label": "qstn_v5YwPb55qyRyBnX8 / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hKvdWyhWKCWQyFFZ": {
    "kind": "question_part",
@@ -1491,10 +1545,15 @@
    "label": "qstn_g34qgVHtjWP49296 / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7xNryzFNkKhFFXsx": {
    "kind": "question_part",
@@ -1516,10 +1575,15 @@
    "label": "qstn_8yJSwtXs6TH3bKTg / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5PDRVtCZTqf32N6M": {
    "kind": "question_part",
@@ -1541,10 +1605,15 @@
    "label": "qstn_C9mjcB89btdjCxpG / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8GFF4YT9V9n5W3rx": {
    "kind": "question_part",
@@ -1602,10 +1671,15 @@
    "label": "qstn_HtrX99zxXV8m2ZWF / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Qt8kqJHKZrQMBPMb": {
    "kind": "question_part",
@@ -1627,10 +1701,15 @@
    "label": "qstn_j4QtVd9mDQF2YM7w / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xJRjzNjdGBFysbWf": {
    "kind": "question_part",
@@ -1688,11 +1767,15 @@
      "official_code": "1.1.2c",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "pending": []
   },
   "qstnprt_B4Jv2Hrjs8MSCrdq": {
    "kind": "question_part",
@@ -1728,35 +1811,49 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.2.3b",
      "official_code": "1.2.3b",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "pending": []
   },
   "qstnprt_mvgsPjGPC4nZbFNJ": {
    "kind": "question_part",
    "label": "qstn_4Vx5MpjsFGFdB3px / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jmvDTHB69zPGFVvP": {
    "kind": "question_part",
    "label": "qstn_fmQ5xWctx6FryT7X / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5SPpvxgS9h9xKV4Y": {
    "kind": "question_part",
@@ -1769,21 +1866,30 @@
      "official_code": "1.1.2c",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "pending": []
   },
   "qstnprt_tPBrx8DyM9GfbWNK": {
    "kind": "question_part",
    "label": "qstn_bz55zJDJ7KkVFtzH / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MvfZccQYwP2NbZRx": {
    "kind": "question_part",
@@ -1826,10 +1932,15 @@
    "label": "qstn_T9nqH64FTbhj8V8r / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3GRNzWdfxyR8TpBZ": {
    "kind": "question_part",
@@ -1896,20 +2007,30 @@
    "label": "qstn_BxBkfYtYYpwnNKHj / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bf6kXjtdDFpk6rzB": {
    "kind": "question_part",
    "label": "qstn_CTY6hJNSkVZTTJwF / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vVRQWJvf2mJQnmsc": {
    "kind": "question_part",
@@ -1946,30 +2067,45 @@
    "label": "qstn_VS2Trt2z37ZHWhxp / part 1",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X9SKzPvGqV2VvKcr": {
    "kind": "question_part",
    "label": "qstn_JqnbjrKs7WqDVfJq / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_htBKJPhMKyNQcqSf": {
    "kind": "question_part",
    "label": "qstn_JqnbjrKs7WqDVfJq / part 1",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_95CJhcDKCqptgwBZ": {
    "kind": "question_part",
@@ -1991,10 +2127,15 @@
    "label": "qstn_QFZQT7ys9WKRdPW8 / part 0",
    "section": "business-economics",
    "topic": "business-costs-revenues-and-profit",
-   "codes": [],
-   "pending": [
-    "spcpt_YdcBn6gZsXRYdZb7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.3a",
+     "official_code": "1.2.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YQskXZmB49s7VxBx": {
    "kind": "question_part",
@@ -3045,10 +3186,15 @@
    "label": "qstn_wRcTcg7b56M74DRn / part 0",
    "section": "business-economics",
    "topic": "market-structures",
-   "codes": [],
-   "pending": [
-    "spcpt_P7ZBvgZPy5kMcCZk"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.4c",
+     "official_code": "1.2.4c",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hg743nkwbcJjxTKX": {
    "kind": "question_part",
@@ -3399,15 +3545,19 @@
    "topic": "market-structures",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.2.4c",
      "official_code": "1.2.4c",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_yQkPt269MVkkcjF8": {
    "kind": "question_part",
@@ -3702,20 +3852,30 @@
    "label": "qstn_HFMHhngrPv86MB8f / part 2",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WFR9rwZ2kKQGRVDD": {
    "kind": "question_part",
    "label": "qstn_Qw7PYDhQYwgHfJWf / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rxzgrrsWWhF5g59q": {
    "kind": "question_part",
@@ -3737,20 +3897,30 @@
    "label": "qstn_xpZJwDjFMgSVmDsm / part 1",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NtVtBtvCHVPZCnr9": {
    "kind": "question_part",
    "label": "qstn_c8qTRKMk2RrJv9yb / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XGtndzdgJ2v7Cnyd": {
    "kind": "question_part",
@@ -3802,10 +3972,15 @@
    "label": "qstn_PZx9FxhxbpcKWbwX / part 1",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2mgpgF6V63dZyh3h": {
    "kind": "question_part",
@@ -3848,10 +4023,15 @@
    "label": "qstn_7djxRGF63578svND / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8rmWnM4PFXnxJv4r": {
    "kind": "question_part",
@@ -3873,40 +4053,60 @@
    "label": "qstn_pdQCgGh89Hn3JPd4 / part 1",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_r8QhmnjtRZtnjWgm": {
    "kind": "question_part",
    "label": "qstn_8V3f87y4BKDrJNcV / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bwnF73skNFdmq352": {
    "kind": "question_part",
    "label": "qstn_scVHmKZGp9KhWStN / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fYGcthxnRQqz2Mzr": {
    "kind": "question_part",
    "label": "qstn_scVHmKZGp9KhWStN / part 1",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_zNHrPMcdPFRXSnJQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_khFhkVx6F475QX8j": {
    "kind": "question_part",
@@ -3943,10 +4143,15 @@
    "label": "qstn_CwWmWtCQGfB3s2tg / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GyJGHtsm9nzrFhW5": {
    "kind": "question_part",
@@ -3998,10 +4203,15 @@
    "label": "qstn_ZSs55R4GyfJ6QGQ6 / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j76bDBF3Wm6r35jw": {
    "kind": "question_part",
@@ -4050,10 +4260,15 @@
    "label": "qstn_x8BJWHtcRzMQdbpQ / part 0",
    "section": "business-economics",
    "topic": "production-and-productivity",
-   "codes": [],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yJw8WswwNw5NWg2k": {
    "kind": "question_part",
@@ -4098,15 +4313,19 @@
    "topic": "production-and-productivity",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.2.2b",
      "official_code": "1.2.2b",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "pending": []
   },
   "qstnprt_BVfx8b637s96DvQt": {
    "kind": "question_part",
@@ -4214,15 +4433,19 @@
    "topic": "production-and-productivity",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.2.2b",
      "official_code": "1.2.2b",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "pending": []
   },
   "qstnprt_H29ysMzQk4qmx34z": {
    "kind": "question_part",
@@ -4230,6 +4453,12 @@
    "section": "business-economics",
    "topic": "production-and-productivity",
    "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
     {
      "official_id": "IGCSE_ECONOMICS:1.2.2b",
      "official_code": "1.2.2b",
@@ -4243,9 +4472,7 @@
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k"
-   ]
+   "pending": []
   },
   "qstnprt_TdWXtrrZfy9Ydbqv": {
    "kind": "question_part",
@@ -4342,10 +4569,15 @@
    "label": "qstn_7SdVNfcvBwmFR9Nb / part 0",
    "section": "business-economics",
    "topic": "the-labour-market",
-   "codes": [],
-   "pending": [
-    "spcpt_JN9gNrB9wSNxrcmQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.5a",
+     "official_code": "1.2.5a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HsyzdVsj9W4Bf6qY": {
    "kind": "question_part",
@@ -4388,11 +4620,15 @@
    "label": "qstn_STftMzPvpqf8mQ79 / part 0",
    "section": "business-economics",
    "topic": "the-labour-market",
-   "codes": [],
-   "pending": [
-    "spcpt_KB4fZvP6BWqPS5PG",
-    "spcpt_JN9gNrB9wSNxrcmQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.5a",
+     "official_code": "1.2.5a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Kmc7dbCfDhznTnSr": {
    "kind": "question_part",
@@ -4524,6 +4760,12 @@
    "topic": "the-labour-market",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.2.5a",
+     "official_code": "1.2.5a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.2.5d",
      "official_code": "1.2.5d",
      "tier": "S1_name_match",
@@ -4536,9 +4778,7 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_KB4fZvP6BWqPS5PG"
-   ]
+   "pending": []
   },
   "qstnprt_yF7h5RNfBVkk7Gcq": {
    "kind": "question_part",
@@ -4551,13 +4791,21 @@
      "official_code": "1.1.5i",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.1a",
+     "official_code": "1.2.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:1.2.5a",
+     "official_code": "1.2.5a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_NTjk9X2NBjC2XX7k",
-    "spcpt_KB4fZvP6BWqPS5PG",
-    "spcpt_JN9gNrB9wSNxrcmQ"
-   ]
+   "pending": []
   },
   "qstnprt_xxmPhvP2Zc8MkGP3": {
    "kind": "question_part",
@@ -4633,20 +4881,30 @@
    "label": "qstn_VcTSsscxfxh5B4s6 / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5GJdXzRj7hrFCv3N": {
    "kind": "question_part",
    "label": "qstn_jc5JWkW62kYgMZN6 / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yP7Bswm4qJXJd2dR": {
    "kind": "question_part",
@@ -4674,11 +4932,15 @@
      "official_code": "2.1.2c",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_9QJbKvbQG9t8htQj"
-   ]
+   "pending": []
   },
   "qstnprt_zvKpC3NQsQV84Jrs": {
    "kind": "question_part",
@@ -4700,10 +4962,15 @@
    "label": "qstn_gdsKcg5Qk4q7Wbxy / part 1",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2ns3Sbmt8CpKTwBs": {
    "kind": "question_part",
@@ -4725,10 +4992,15 @@
    "label": "qstn_cwCBFySgTcNHRb9S / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PcvMCTZvvSM8dgtn": {
    "kind": "question_part",
@@ -4765,10 +5037,15 @@
    "label": "qstn_JC9FX8vNJcFVzkNY / part 1",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_MbHSGqgj8Gpgmt92": {
    "kind": "question_part",
@@ -4826,10 +5103,15 @@
    "label": "qstn_rwr9pqQzBRyMg5Mp / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KdfCCztHNd7qvqy7": {
    "kind": "question_part",
@@ -4851,11 +5133,15 @@
    "label": "qstn_BSxZzw87ZmYjYpNg / part 1",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp",
-    "spcpt_fwbcwhkfZKZ3vSGx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cdt4dF6ykQbsxDX9": {
    "kind": "question_part",
@@ -4883,23 +5169,30 @@
      "official_code": "1.1.6d",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_HXjrBn4DKcTY5vQn",
-    "spcpt_GHq4n99qWCHbynhc",
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "pending": []
   },
   "qstnprt_MJ2JQBmgqtKJKGq6": {
    "kind": "question_part",
    "label": "qstn_7BkcPtQSthySTs3p / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_GHq4n99qWCHbynhc"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6sdxnxtJqhf32rcJ": {
    "kind": "question_part",
@@ -4908,16 +5201,25 @@
    "topic": "government-policies",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.2c",
      "official_code": "2.1.2c",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ",
-    "spcpt_fwbcwhkfZKZ3vSGx"
-   ]
+   "pending": []
   },
   "qstnprt_fDTnKTC6kvJ762Yq": {
    "kind": "question_part",
@@ -4939,10 +5241,15 @@
    "label": "qstn_QzZYQMFYSMSW9Zm2 / part 1",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BDYfP649QMjK2jjv": {
    "kind": "question_part",
@@ -4957,37 +5264,49 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.2c",
      "official_code": "2.1.2c",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_GHq4n99qWCHbynhc"
-   ]
+   "pending": []
   },
   "qstnprt_NF4ccX2WpzW4kvYT": {
    "kind": "question_part",
    "label": "qstn_gWDSX7PmJmwJ5ZqM / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp",
-    "spcpt_GHq4n99qWCHbynhc",
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5tpqrQtbrpzWm5dT": {
    "kind": "question_part",
    "label": "qstn_rrhgDFQ3yhQn7HBg / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RMp5pggvMZpfYRCV": {
    "kind": "question_part",
@@ -5021,11 +5340,15 @@
      "official_code": "2.1.2b",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_9QJbKvbQG9t8htQj"
-   ]
+   "pending": []
   },
   "qstnprt_f9stDBp3fqGyfwRJ": {
    "kind": "question_part",
@@ -5068,51 +5391,75 @@
    "label": "qstn_d3yD9VMMpMj75RyT / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_K6jHXd4gxG3Bbb4y"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rvH5Cv6XPjnkZbjs": {
    "kind": "question_part",
    "label": "qstn_HtHGDvkpGP7PgJGw / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SCTWNmqkmD8mB6hb": {
    "kind": "question_part",
    "label": "qstn_C7RgybKFtcnTnXxy / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_z9fRsq7X9rhJTz4W",
-    "spcpt_9QJbKvbQG9t8htQj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R2qHjvyRtcwhgqkf": {
    "kind": "question_part",
    "label": "qstn_TPgsy2KBp9J6Zf8F / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CzSWsd3vCnJ2T5Xk": {
    "kind": "question_part",
    "label": "qstn_xJS8hJdJ6CjWvzv7 / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CMrQww4zs8BNYJms": {
    "kind": "question_part",
@@ -5185,10 +5532,15 @@
    "label": "qstn_NZv3QVDtBZ2Fq2qc / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_8Sg99MnK2VN5mv6z"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DpkCtcDsdS3nxXb3": {
    "kind": "question_part",
@@ -5210,10 +5562,15 @@
    "label": "qstn_mDBkxGhYXRDvKpb6 / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_9QJbKvbQG9t8htQj"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SXmfgbyRYx9qSJKV": {
    "kind": "question_part",
@@ -5241,10 +5598,15 @@
    "label": "qstn_yNq3hv2WtwyrFsYs / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hN3RhvkttjFJzB8C": {
    "kind": "question_part",
@@ -5257,12 +5619,15 @@
      "official_code": "2.1.1b",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_K6jHXd4gxG3Bbb4y",
-    "spcpt_8Sg99MnK2VN5mv6z"
-   ]
+   "pending": []
   },
   "qstnprt_vwYP655st37H44tz": {
    "kind": "question_part",
@@ -5290,21 +5655,30 @@
      "official_code": "2.1.1f",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_yTr4M7pZjQBtg5tp": {
    "kind": "question_part",
    "label": "qstn_7R5JR27C7VdbqFtr / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_GHq4n99qWCHbynhc"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g3qKsjYmgsTXVrtB": {
    "kind": "question_part",
@@ -5317,11 +5691,15 @@
      "official_code": "2.1.1c",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_q36SbB4KqkCdtvRY": {
    "kind": "question_part",
@@ -5364,10 +5742,15 @@
    "label": "qstn_7DdCmtNpD8TfqWsz / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_GHq4n99qWCHbynhc"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PtG6Fny4sVJwMsTm": {
    "kind": "question_part",
@@ -5410,12 +5793,15 @@
      "official_code": "1.2.6d",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_K6jHXd4gxG3Bbb4y",
-    "spcpt_fwbcwhkfZKZ3vSGx"
-   ]
+   "pending": []
   },
   "qstnprt_7Jkhpf5Pr4fJNc26": {
    "kind": "question_part",
@@ -5452,10 +5838,15 @@
    "label": "qstn_ptXVcg27JYCqzjRr / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gqdWKbkmWn8T3qDf": {
    "kind": "question_part",
@@ -5483,11 +5874,15 @@
      "official_code": "2.1.1f",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_2g6HFC3SmHGwKZdY": {
    "kind": "question_part",
@@ -5521,11 +5916,15 @@
    "label": "qstn_fPSMDPfWkTh3P5zk / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_XWw8ZgXMDDjqBJrd",
-    "spcpt_fwbcwhkfZKZ3vSGx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2BmCtjmdcJwdRk95": {
    "kind": "question_part",
@@ -5553,11 +5952,15 @@
      "official_code": "2.1.1c",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_5xQTgZVTD3n9QqD9": {
    "kind": "question_part",
@@ -5566,27 +5969,40 @@
    "topic": "government-policies",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1f",
      "official_code": "2.1.1f",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ",
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_RGzGd4rbHb3Hh3qz": {
    "kind": "question_part",
    "label": "qstn_psxnvPsYfRZwpFyK / part 0",
    "section": "government-and-the-economy",
    "topic": "government-policies",
-   "codes": [],
-   "pending": [
-    "spcpt_HXjrBn4DKcTY5vQn",
-    "spcpt_fgqYYN8C3KJDYSkB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zGVp2w3HMTf2X5X4": {
    "kind": "question_part",
@@ -5599,12 +6015,16 @@
      "official_code": "2.1.1b",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_MMWY33ft4CWNsszp",
-    "spcpt_mGmf5GbSGJQxRtCW",
-    "spcpt_fwbcwhkfZKZ3vSGx"
+    "spcpt_mGmf5GbSGJQxRtCW"
    ]
   },
   "qstnprt_xjrZJ7qSSkbQXNDJ": {
@@ -5618,11 +6038,15 @@
      "official_code": "2.1.2b",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_9QJbKvbQG9t8htQj"
-   ]
+   "pending": []
   },
   "qstnprt_jH7RXZMc9xDM6nbB": {
    "kind": "question_part",
@@ -5635,12 +6059,22 @@
      "official_code": "2.1.1b",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_mGmf5GbSGJQxRtCW",
-    "spcpt_9QJbKvbQG9t8htQj",
-    "spcpt_8Sg99MnK2VN5mv6z"
+    "spcpt_mGmf5GbSGJQxRtCW"
    ]
   },
   "qstnprt_jKkB7zZz3zzZVrRf": {
@@ -5654,13 +6088,21 @@
      "official_code": "1.1.6d",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ",
-    "spcpt_MMWY33ft4CWNsszp",
-    "spcpt_8Sg99MnK2VN5mv6z"
-   ]
+   "pending": []
   },
   "qstnprt_d7ymm9hh29QGnDsy": {
    "kind": "question_part",
@@ -5741,15 +6183,19 @@
    "topic": "the-macroeconomic-objectives",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1b",
      "official_code": "2.1.1b",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_rdmQM982m23728Gj": {
    "kind": "question_part",
@@ -5786,10 +6232,15 @@
    "label": "qstn_34Gqr29pcW6n2ndC / part 3",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Gx8csTGn2RWKYgw5": {
    "kind": "question_part",
@@ -5858,15 +6309,19 @@
    "topic": "the-macroeconomic-objectives",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1c",
      "official_code": "2.1.1c",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "pending": []
   },
   "qstnprt_k6FHmKyVw5qmtc57": {
    "kind": "question_part",
@@ -5888,10 +6343,15 @@
    "label": "qstn_BV92HbMm9h2v87Hb / part 1",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mNM2ddsgjpVhGkdN": {
    "kind": "question_part",
@@ -5988,10 +6448,15 @@
    "label": "qstn_JjpvY5cZzsMHpwBq / part 2",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_T8DSjbQZCQGPvWHB": {
    "kind": "question_part",
@@ -6013,10 +6478,15 @@
    "label": "qstn_JjpvY5cZzsMHpwBq / part 4",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zhpxqtTQ2272VYc6": {
    "kind": "question_part",
@@ -6044,11 +6514,15 @@
      "official_code": "2.1.1c",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_PMnDtwVdVhF7KDjh": {
    "kind": "question_part",
@@ -6138,15 +6612,19 @@
    "topic": "the-macroeconomic-objectives",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1e",
      "official_code": "2.1.1e",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_4HHqXbYwDKNwZSgP": {
    "kind": "question_part",
@@ -6300,10 +6778,21 @@
    "label": "qstn_TcKDmMmMgj3txxzG / part 0",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_rkddXxyt6VNP4rYy"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1b",
+     "official_code": "1.1.1b",
+     "tier": "operator-verdict-part",
+     "method": "operator-verdict part lane (T-SPEC-2c/2e; PMT excluded as source per operator instruction 2026-09-18)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fP9xkMk38yFZm9yD": {
    "kind": "question_part",
@@ -6325,10 +6814,15 @@
    "label": "qstn_TcKDmMmMgj3txxzG / part 2",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DQHmfXppVwHTdh7C": {
    "kind": "question_part",
@@ -6377,11 +6871,15 @@
      "official_code": "2.1.1f",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.2a",
+     "official_code": "2.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_MMWY33ft4CWNsszp"
-   ]
+   "pending": []
   },
   "qstnprt_8RpxJcNW2bFTb7TQ": {
    "kind": "question_part",
@@ -6463,10 +6961,15 @@
    "label": "qstn_tzDzNYhCXMJsVp2h / part 0",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3F6yTFZ8wnxFdzsr": {
    "kind": "question_part",
@@ -6488,10 +6991,15 @@
    "label": "qstn_tzDzNYhCXMJsVp2h / part 2",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wJ6KpGgJhVDpqGHc": {
    "kind": "question_part",
@@ -6630,10 +7138,15 @@
    "label": "qstn_5fswybv54WsYvgb9 / part 2",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vP7Kzkt8b7JVhPC6": {
    "kind": "question_part",
@@ -6757,10 +7270,15 @@
    "label": "qstn_RcRJTRXrnYbzMbsP / part 1",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_SxzgS37mWkBNm6Rc": {
    "kind": "question_part",
@@ -6842,10 +7360,15 @@
    "label": "qstn_m9y85wrZt83HKdnc / part 0",
    "section": "government-and-the-economy",
    "topic": "the-macroeconomic-objectives",
-   "codes": [],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nVDwnDP7mhGgDHMx": {
    "kind": "question_part",
@@ -6854,15 +7377,19 @@
    "topic": "the-macroeconomic-objectives",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1e",
      "official_code": "2.1.1e",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_fPG3w6P5HyjQpBPr": {
    "kind": "question_part",
@@ -6926,11 +7453,15 @@
      "official_code": "2.1.1e",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.3a",
+     "official_code": "2.1.3a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_9QJbKvbQG9t8htQj"
-   ]
+   "pending": []
   },
   "qstnprt_sCHHWrFt8DxKdw5q": {
    "kind": "question_part",
@@ -7011,15 +7542,19 @@
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1f",
      "official_code": "2.1.1f",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_fbBvy8Yw8swdzCV2": {
    "kind": "question_part",
@@ -7049,15 +7584,19 @@
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1f",
      "official_code": "2.1.1f",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_FdpQcDbjw6pD3VS2": {
    "kind": "question_part",
@@ -7072,6 +7611,12 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1c",
      "official_code": "2.1.1c",
      "tier": "P2_page_context_join",
@@ -7084,9 +7629,7 @@
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_FjsbK8vVZDNp8vxk": {
    "kind": "question_part",
@@ -7137,6 +7680,12 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1e",
      "official_code": "2.1.1e",
      "tier": "P1_name_fragment_join",
@@ -7144,8 +7693,7 @@
     }
    ],
    "pending": [
-    "spcpt_XGQK9rtnFdFvHqhW",
-    "spcpt_vdZ82G4GHngbKyjQ"
+    "spcpt_XGQK9rtnFdFvHqhW"
    ]
   },
   "qstnprt_6Vpr7hCsD3ss7FXS": {
@@ -7212,15 +7760,19 @@
    "topic": "the-macroeconomic-objectives",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:2.1.1b",
      "official_code": "2.1.1b",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_j2cvtXtQXphmnjNr"
-   ]
+   "pending": []
   },
   "qstnprt_wPBTZyv8bfv2PH4c": {
    "kind": "question_part",
@@ -7254,11 +7806,15 @@
      "official_code": "1.1.6d",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ECONOMICS:2.1.1a",
+     "official_code": "2.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_vdZ82G4GHngbKyjQ"
-   ]
+   "pending": []
   },
   "qstnprt_ndBvXqYxD5kyTjX2": {
    "kind": "question_part",
@@ -8498,30 +9054,45 @@
    "label": "qstn_xFWf5XNpfbvQRpD4 / part 0",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pH3chdTHMbNhFfdP": {
    "kind": "question_part",
    "label": "qstn_Xcmyy8qqtNzvQdvs / part 0",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g7wJkD9FNvh6Ctf6": {
    "kind": "question_part",
    "label": "qstn_VT2bnP7PW9WjJzsV / part 0",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HGjrjjWbDyGw2gF9": {
    "kind": "question_part",
@@ -8650,15 +9221,19 @@
    "topic": "economic-assumptions",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.1.2c",
      "official_code": "1.1.2c",
      "tier": "S1_name_match",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_Vzcz2TqzZvVBcsVy": {
    "kind": "question_part",
@@ -8680,20 +9255,30 @@
    "label": "qstn_FwY62BqNRGRZxtG6 / part 0",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nv7k2mf2Dym3ZVMp": {
    "kind": "question_part",
    "label": "qstn_XFjGSRGsKn96JcKw / part 0",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_d2xSkQDGZGDVp9cv": {
    "kind": "question_part",
@@ -8775,10 +9360,15 @@
    "label": "qstn_dNzvVf2VF7MZdwD5 / part 0",
    "section": "the-market-system",
    "topic": "economic-assumptions",
-   "codes": [],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QXQHCWFpJG8G7PKV": {
    "kind": "question_part",
@@ -10363,10 +10953,15 @@
    "label": "qstn_GTRFgDhyBCMGHhST / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tvMjD7DsyF5RkJWM": {
    "kind": "question_part",
@@ -10403,10 +10998,15 @@
    "label": "qstn_4ZQ86KZVGmjwyw2F / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7JsS36V7sgrPwN4B": {
    "kind": "question_part",
@@ -10415,15 +11015,19 @@
    "topic": "the-economic-problem",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.1.1b",
      "official_code": "1.1.1b",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "pending": []
   },
   "qstnprt_3BnHHWdsDVT4zq2F": {
    "kind": "question_part",
@@ -10475,10 +11079,15 @@
    "label": "qstn_3F9GZSdPggwCYc5W / part 1",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_75p8h2BJvgRjmmjf": {
    "kind": "question_part",
@@ -10521,10 +11130,15 @@
    "label": "qstn_2ZZSF7FPTKHpD4w2 / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vdTYmKqgqsT36JqW": {
    "kind": "question_part",
@@ -10567,30 +11181,45 @@
    "label": "qstn_8NxxhFBpZFFGCjMD / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RqQZGCf5CQXmrncq": {
    "kind": "question_part",
    "label": "qstn_vwn8wfGyzZpYZR4P / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m4gwrB5z3QGVBq4G": {
    "kind": "question_part",
    "label": "qstn_kxtdhVk8rwcBhxYN / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zfphRKVYFDmCFbm2": {
    "kind": "question_part",
@@ -10888,10 +11517,15 @@
    "label": "qstn_8Q3ymwdjjk7QTMFY / part 0",
    "section": "the-market-system",
    "topic": "the-economic-problem",
-   "codes": [],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Fz6JBWgCVSvvKB2j": {
    "kind": "question_part",
@@ -10942,15 +11576,19 @@
    "topic": "the-economic-problem",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.1a",
+     "official_code": "1.1.1a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.1.1c",
      "official_code": "1.1.1c",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_F6B9SkpM6ZHQSMBJ"
-   ]
+   "pending": []
   },
   "qstnprt_tMJSttFfPZVZbSrS": {
    "kind": "question_part",
@@ -11134,10 +11772,15 @@
    "label": "qstn_Sjcr6McryXNtbW8x / part 0",
    "section": "the-market-system",
    "topic": "the-mixed-economy",
-   "codes": [],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gFdTDPgjsxh4nWnk": {
    "kind": "question_part",
@@ -11191,15 +11834,19 @@
    "topic": "the-mixed-economy",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.1.5j",
      "official_code": "1.1.5j",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_6tkwzBDZJY2yJ9Xt": {
    "kind": "question_part",
@@ -11409,15 +12056,19 @@
    "topic": "the-mixed-economy",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.1.5j",
      "official_code": "1.1.5j",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_KX6zNtM6FFdVyRNt": {
    "kind": "question_part",
@@ -11425,6 +12076,12 @@
    "section": "the-market-system",
    "topic": "the-mixed-economy",
    "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
     {
      "official_id": "IGCSE_ECONOMICS:1.1.2c",
      "official_code": "1.1.2c",
@@ -11438,9 +12095,7 @@
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_fVwm8y6PNfXYC947": {
    "kind": "question_part",
@@ -11448,6 +12103,12 @@
    "section": "the-market-system",
    "topic": "the-mixed-economy",
    "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
     {
      "official_id": "IGCSE_ECONOMICS:1.1.5j",
      "official_code": "1.1.5j",
@@ -11461,9 +12122,7 @@
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_M7T5yhF73CTXV6nr": {
    "kind": "question_part",
@@ -11471,6 +12130,12 @@
    "section": "the-market-system",
    "topic": "the-mixed-economy",
    "codes": [
+    {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
     {
      "official_id": "IGCSE_ECONOMICS:1.1.5c",
      "official_code": "1.1.5c",
@@ -11490,9 +12155,7 @@
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_5P7Sdz4hhqDwq224": {
    "kind": "question_part",
@@ -11501,16 +12164,19 @@
    "topic": "the-mixed-economy",
    "codes": [
     {
+     "official_id": "IGCSE_ECONOMICS:1.1.2a",
+     "official_code": "1.1.2a",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ECONOMICS:1.1.5c",
      "official_code": "1.1.5c",
      "tier": "S2_name_ambiguous",
      "method": "name_to_statement_join"
     }
    ],
-   "pending": [
-    "spcpt_d5s9bBNsCwZN7V4B",
-    "spcpt_59twZcJWz4J8vkD3"
-   ]
+   "pending": []
   },
   "qstnprt_2JRVSztg84dSvDZR": {
    "kind": "question_part",

@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T06:45:14Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 88,
-  "resolved": 77,
-  "unresolved": 11
+  "resolved": 84,
+  "unresolved": 4
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -121,8 +121,11 @@
    "sme_name": "Compound Measures",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "4.4G",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-4.4G",
+   "official_wording": "use compound measure such as speed, density and pressure",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_52rnZKb5kXDzHpdR",
@@ -285,8 +288,11 @@
    "sme_name": "Properties of Polygons",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "4.2C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-4.2C",
+   "official_wording": "understand and use the properties of the parallelogram, rectangle, square, rhombus, trapezium and kite",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_CG8ZcZX8Ny5yGBch",
@@ -410,8 +416,11 @@
    "sme_name": "Ordering FDP",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches ordering fractions, decimals and percentages together, but the committed parse carries only per-type ordering statements (1.1D order integers, 1.3C order decimals); no combined FDP-ordering statement (PDF-verified); flagged for parse repair"
+   "resolved_code": "1.3C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.3C",
+   "official_wording": "order decimals",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_MTZDMgNSvV3FdVVR",
@@ -621,8 +630,11 @@
    "sme_name": "Exchange Rates",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "1.10C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.10C",
+   "official_wording": "understand and carry out calculations using time, and carry out calculations using money, including converting between currencies",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_XT9QGzbhpThbfcB6",
@@ -949,8 +961,11 @@
    "sme_name": "Converting Units",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "1.10B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.10B",
+   "official_wording": "carry out calculations using standard units of mass, length, area, volume and capacity",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_q9cr84Qbz53vBPYc",
@@ -1074,8 +1089,11 @@
    "sme_name": "Using a Calculator",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "1.11A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.11A",
+   "official_wording": "use a scientific electronic calculator to determine numerical results",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_xw9z6fM2cqDvqCt9",
@@ -1095,8 +1113,11 @@
    "sme_name": "Solving Linear Equations",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+   "resolved_code": "2.4A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-2.4A",
+   "official_wording": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  ]
 }

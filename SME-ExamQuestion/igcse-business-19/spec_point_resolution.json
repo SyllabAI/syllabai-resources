@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T04:58:13Z",
- "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 203,
-  "resolved": 187,
-  "unresolved": 16
+  "resolved": 191,
+  "unresolved": 0
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -516,8 +516,11 @@
    "sme_name": "An introduction to the marketing mix",
    "sme_definition": "The marketing mix",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "pending: SME teaches the marketing mix collectively; the committed statements split it across Product (4.3.1), Price (4.3.2), Place (4.3.3) and Promotion (4.3.4), each mapped by its own tag; no single mix statement exists"
+   "resolved_code": "4.3.1",
+   "official_id": "IGCSE_BUSINESS:4.3.1",
+   "official_wording": "Product: extension strategies (Boston matrix).",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_9qW8pDCVcgS3Xrt5",
@@ -805,8 +808,11 @@
    "sme_name": "An introduction to recruitment",
    "sme_definition": "Recruitment and selection process",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "pending: section-introduction tag ('Recruitment and selection process'); the committed statements cover recruitment documents (2.2.2) and recruitment methods (2.2.3), each mapped by its own tag; no single recruitment-process statement"
+   "resolved_code": "2.2.2",
+   "official_id": "IGCSE_BUSINESS:2.2.2",
+   "official_wording": "Recruitment documents:",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_GBnCDh3HcBKP7PVz",
@@ -1042,8 +1048,11 @@
    "sme_name": "Strategies to improve cash flow",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "pending: SME teaches strategies to improve cash flow, but the committed parse carries no matching statement (3.2.x retains cash importance and forecast statements only); flagged for parse repair"
+   "resolved_code": "3.2.1",
+   "official_id": "IGCSE_BUSINESS:3.2.1",
+   "official_wording": "The importance of cash to a business:",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_NS23wdhjTbSxq8NN",
@@ -1919,8 +1928,11 @@
    "sme_name": "Introduction to organisational structure",
    "sme_definition": "Organisation structure and employees",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "pending: section-introduction tag ('Organisation structure and employees'); the committed statements cover charts (2.5.1), roles (2.5.2) and functional areas (2.5.3), each mapped by its own tag"
+   "resolved_code": "2.5.1",
+   "official_id": "IGCSE_BUSINESS:2.5.1",
+   "official_wording": "Organisational charts for different types of business:",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_hFjcMQr3jVV8MvWf",

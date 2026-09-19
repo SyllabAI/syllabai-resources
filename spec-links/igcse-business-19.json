@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.learner-spec-links/1.0",
- "generated_utc": "2026-09-19T06:45:33Z",
+ "generated_utc": "2026-09-19T10:19:16Z",
  "course": "igcse-business-19",
  "qual": "igcse-business",
  "totals": {
   "items": 1704,
-  "items_with_codes": 724,
+  "items_with_codes": 732,
   "by_kind": {
    "notes": 89,
    "question_parts": 607,
@@ -13,7 +13,7 @@
   },
   "coded_by_kind": {
    "notes": 79,
-   "question_parts": 599,
+   "question_parts": 607,
    "flashcards": 46
   }
  },
@@ -451,13 +451,11 @@
     {
      "official_id": "IGCSE_BUSINESS:2.5.1",
      "official_code": "2.5.1",
-     "tier": "V1_definition_verbatim",
-     "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_hDdWCkKc2YRDnX6V"
-   ]
+   "pending": []
   },
   "rn_tytzkBDc9S53M6hm": {
    "kind": "note",
@@ -528,13 +526,11 @@
     {
      "official_id": "IGCSE_BUSINESS:2.2.2",
      "official_code": "2.2.2",
-     "tier": "V1_definition_verbatim",
-     "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "pending": []
   },
   "rn_bvTcRnRB2Cq3hPCK": {
    "kind": "note",
@@ -654,15 +650,19 @@
    "topic": "cash-flow-forecasting",
    "codes": [
     {
+     "official_id": "IGCSE_BUSINESS:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_BUSINESS:3.2.2",
      "official_code": "3.2.2",
      "tier": "V1_definition_verbatim",
      "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_N5sqyCz5C7SmTp42"
-   ]
+   "pending": []
   },
   "rn_8f3GgrGkKV6MmwYJ": {
    "kind": "note",
@@ -1069,13 +1069,11 @@
     {
      "official_id": "IGCSE_BUSINESS:4.3.1",
      "official_code": "4.3.1",
-     "tier": "V1_definition_verbatim",
-     "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_9qR6PHdRSWJdrVhD"
-   ]
+   "pending": []
   },
   "rn_YJTKB4YWZYqMskcY": {
    "kind": "note",
@@ -4661,10 +4659,15 @@
    "label": "qstn_nSjBdzDvJqXVJgtc / part 0",
    "section": "2-people-in-business",
    "topic": "organisation-structure-and-employees",
-   "codes": [],
-   "pending": [
-    "spcpt_hDdWCkKc2YRDnX6V"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:2.5.1",
+     "official_code": "2.5.1",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hngc6gWpKMtq6qqH": {
    "kind": "question_part",
@@ -4793,15 +4796,19 @@
    "topic": "organisation-structure-and-employees",
    "codes": [
     {
+     "official_id": "IGCSE_BUSINESS:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_BUSINESS:2.5.3",
      "official_code": "2.5.3",
      "tier": "V1_definition_verbatim",
      "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "pending": []
   },
   "qstnprt_CqbVcQYf4DYhQmpr": {
    "kind": "question_part",
@@ -5204,10 +5211,15 @@
    "label": "qstn_XWvKR5s3D2D98PZt / part 0",
    "section": "2-people-in-business",
    "topic": "recruitment-and-selection-process",
-   "codes": [],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9zzCXSjHRPw7dDxz": {
    "kind": "question_part",
@@ -5439,30 +5451,45 @@
    "label": "qstn_hrMbYmCXn4Jk7RFv / part 0",
    "section": "2-people-in-business",
    "topic": "recruitment-and-selection-process",
-   "codes": [],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bdjSrrRVrFz3w5JV": {
    "kind": "question_part",
    "label": "qstn_P5C7gfwsK7pzj2CB / part 0",
    "section": "2-people-in-business",
    "topic": "recruitment-and-selection-process",
-   "codes": [],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_hdX7TvRJ3Tm5X3c5": {
    "kind": "question_part",
    "label": "qstn_qW7kj3bmXmXVGsd5 / part 0",
    "section": "2-people-in-business",
    "topic": "recruitment-and-selection-process",
-   "codes": [],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sNnbhPw78gzX6RYz": {
    "kind": "question_part",
@@ -5471,15 +5498,19 @@
    "topic": "recruitment-and-selection-process",
    "codes": [
     {
+     "official_id": "IGCSE_BUSINESS:2.2.2",
+     "official_code": "2.2.2",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_BUSINESS:2.2.3",
      "official_code": "2.2.3",
      "tier": "V1_definition_verbatim",
      "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_G6fHTvm46qhbfzJw"
-   ]
+   "pending": []
   },
   "qstnprt_qxhV3FkZ2d6g7qhF": {
    "kind": "question_part",
@@ -6296,10 +6327,15 @@
    "label": "qstn_3zTF6CQvRqWCZcYz / part 0",
    "section": "3-business-finance",
    "topic": "cash-flow-forecasting",
-   "codes": [],
-   "pending": [
-    "spcpt_N5sqyCz5C7SmTp42"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CFTN99VGQJVB9DKk": {
    "kind": "question_part",
@@ -6580,23 +6616,26 @@
     {
      "official_id": "IGCSE_BUSINESS:3.2.1",
      "official_code": "3.2.1",
-     "tier": "V1_definition_verbatim",
-     "method": "operator-verdict definition-verbatim join (T-SPEC-7; PMT excluded as source)"
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_N5sqyCz5C7SmTp42"
-   ]
+   "pending": []
   },
   "qstnprt_DQxsR8KQYTfhVdbj": {
    "kind": "question_part",
    "label": "qstn_4SkcBP7jfzTz7Fwz / part 0",
    "section": "3-business-finance",
    "topic": "cash-flow-forecasting",
-   "codes": [],
-   "pending": [
-    "spcpt_N5sqyCz5C7SmTp42"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:3.2.1",
+     "official_code": "3.2.1",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_N5fvryQxzDHQTRKd": {
    "kind": "question_part",
@@ -8640,10 +8679,15 @@
    "label": "qstn_ZyfFV5Fz3HpRHR7F / part 0",
    "section": "4-marketing",
    "topic": "the-marketing-mix",
-   "codes": [],
-   "pending": [
-    "spcpt_9qR6PHdRSWJdrVhD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_BUSINESS:4.3.1",
+     "official_code": "4.3.1",
+     "tier": "S0_operator_override",
+     "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vb9BT9jYRPzQyPtY": {
    "kind": "question_part",

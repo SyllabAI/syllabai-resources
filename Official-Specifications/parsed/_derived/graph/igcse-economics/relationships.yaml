@@ -14,9 +14,9 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
-  spec_points: 94
+  spec_points: 108
   topics: 0
   subsections: 18
   practicals: 0
@@ -214,6 +214,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: topic-tree derivation
     pdf_page: 36
+- from: IGCSE_ECONOMICS:1.1.1a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
 - from: IGCSE_ECONOMICS:1.1.1b
   relation: PART_OF
   to: null
@@ -245,6 +255,16 @@ edges:
     extraction_method: statement-topic association
     pdf_page: 17
 - from: IGCSE_ECONOMICS:1.1.1e
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 17
+- from: IGCSE_ECONOMICS:1.1.2a
   relation: PART_OF
   to: null
   validation_status: RULE_DERIVED
@@ -564,6 +584,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 20
+- from: IGCSE_ECONOMICS:1.1.5a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 20
 - from: IGCSE_ECONOMICS:1.1.5b
   relation: PART_OF
   to: null
@@ -714,6 +744,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 21
+- from: IGCSE_ECONOMICS:1.2.1a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
 - from: IGCSE_ECONOMICS:1.2.1b
   relation: PART_OF
   to: null
@@ -725,6 +765,16 @@ edges:
     extraction_method: statement-topic association
     pdf_page: 22
 - from: IGCSE_ECONOMICS:1.2.1c
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ECONOMICS:1.2.2a
   relation: PART_OF
   to: null
   validation_status: RULE_DERIVED
@@ -764,6 +814,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 22
+- from: IGCSE_ECONOMICS:1.2.3a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
 - from: IGCSE_ECONOMICS:1.2.3b
   relation: PART_OF
   to: null
@@ -884,6 +944,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 25
+- from: IGCSE_ECONOMICS:1.2.5a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 25
 - from: IGCSE_ECONOMICS:1.2.5b
   relation: PART_OF
   to: null
@@ -934,6 +1004,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 26
+- from: IGCSE_ECONOMICS:1.2.6a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 26
 - from: IGCSE_ECONOMICS:1.2.6b
   relation: PART_OF
   to: null
@@ -964,6 +1044,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 26
+- from: IGCSE_ECONOMICS:2.1.1a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
 - from: IGCSE_ECONOMICS:2.1.1b
   relation: PART_OF
   to: null
@@ -1014,6 +1104,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 31
+- from: IGCSE_ECONOMICS:2.1.2a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 32
 - from: IGCSE_ECONOMICS:2.1.2b
   relation: PART_OF
   to: null
@@ -1044,6 +1144,26 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 32
+- from: IGCSE_ECONOMICS:2.1.3a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 33
+- from: IGCSE_ECONOMICS:2.2.1a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 34
 - from: IGCSE_ECONOMICS:2.2.1b
   relation: PART_OF
   to: null
@@ -1074,6 +1194,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 34
+- from: IGCSE_ECONOMICS:2.2.2a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 35
 - from: IGCSE_ECONOMICS:2.2.2b
   relation: PART_OF
   to: null
@@ -1124,6 +1254,16 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 35
+- from: IGCSE_ECONOMICS:2.2.3a
+  relation: PART_OF
+  to: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 36
 - from: IGCSE_ECONOMICS:2.2.3b
   relation: PART_OF
   to: null

@@ -4,7 +4,7 @@
  "qual": "igcse-accounting",
  "regime": "B",
  "unit_scope": null,
- "generated_utc": "2026-09-19T06:45:14Z",
+ "generated_utc": "2026-09-19T10:17:42Z",
  "sme_entries": 110,
  "official_pool": 118,
  "mappings": {
@@ -1084,53 +1084,72 @@
    "official_code": "S3.151",
    "tier": "R1_parse_repair_statement_join",
    "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+  },
+  "spcpt_2Z3gY378wcRv9qqB": {
+   "official_id": "IGCSE_ACCOUNTING:S2.063",
+   "official_code": "S2.063",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_DjkZsjkNX3C35DTp": {
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_code": "S2.134",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_G6YPxqfQ2JMnC5x7": {
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_code": "S2.062",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_KF28qJx7KS3NBTk4": {
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_code": "S2.062",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_sZfbQZGdzYGPYQjq": {
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_code": "S2.062",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_tyN7c4XSNpfpzch6": {
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_code": "S2.062",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_MMpfj7YbBCtV9PTR": {
+   "official_id": "IGCSE_ACCOUNTING:S3.156",
+   "official_code": "S3.156",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_NB5vmp8y8dWsYfTH": {
+   "official_id": "IGCSE_ACCOUNTING:S3.155",
+   "official_code": "S3.155",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_P7Vzkr9Y6CftF6Cd": {
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_code": "S2.134",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  },
  "unmapped": [
-  {
-   "spcpt_id": "spcpt_2Z3gY378wcRv9qqB",
-   "name": "The Imprest System",
-   "reason": "no-guess pending: no imprest statement in the published spec; the petty cash book/voucher appear only as sub-items of 2.2 (books of original entry / business documents)"
-  },
   {
    "spcpt_id": "spcpt_3NQNy3Qw9ZmJ4Zdm",
    "name": "Transferring Income to the Income Statement",
    "reason": "no-guess pending: the published spec carries no explicit transfer-to-income-statement statement"
   },
   {
-   "spcpt_id": "spcpt_DjkZsjkNX3C35DTp",
-   "name": "The Accounting Equation",
-   "reason": "no-guess pending: the published 4AC1 spec carries no accounting-equation statement (PDF-verified)"
-  },
-  {
    "spcpt_id": "spcpt_FdJMcHV4xcB2npwp",
    "name": "Taking Out a Loan",
    "reason": "no-guess pending: no loan-financing statement in the published spec"
-  },
-  {
-   "spcpt_id": "spcpt_G6YPxqfQ2JMnC5x7",
-   "name": "Cash Discount",
-   "reason": "no-guess pending: no discount statement in the published spec"
-  },
-  {
-   "spcpt_id": "spcpt_KF28qJx7KS3NBTk4",
-   "name": "Discount Allowed",
-   "reason": "no-guess pending: no discount statement in the published spec"
-  },
-  {
-   "spcpt_id": "spcpt_MMpfj7YbBCtV9PTR",
-   "name": "Cheques & Cheque Counterfoils",
-   "reason": "no-guess pending: no cheque/counterfoil statement in the published spec (2.1 business documents list excludes them)"
-  },
-  {
-   "spcpt_id": "spcpt_NB5vmp8y8dWsYfTH",
-   "name": "Bank statements",
-   "reason": "no-guess pending: bank statements appear in the published spec only within the bank-reconciliation sub-section (3.4), not as business documents; the tag teaches them as documents"
-  },
-  {
-   "spcpt_id": "spcpt_P7Vzkr9Y6CftF6Cd",
-   "name": "Taking Drawings & Introducing Capital",
-   "reason": "no-guess pending: no drawings/capital-introduction statement in the published spec (partners' capital/current accounts cover partnership equity only)"
   },
   {
    "spcpt_id": "spcpt_Pz9fx65q6Fj8C39D",
@@ -1156,16 +1175,6 @@
    "spcpt_id": "spcpt_jGWn9WvWJqZKXrpx",
    "name": "Paying-In Slips",
    "reason": "no-guess pending: no paying-in-slip statement in the published spec (2.1 business documents list excludes it)"
-  },
-  {
-   "spcpt_id": "spcpt_sZfbQZGdzYGPYQjq",
-   "name": "Discount Received",
-   "reason": "no-guess pending: no discount statement in the published spec"
-  },
-  {
-   "spcpt_id": "spcpt_tyN7c4XSNpfpzch6",
-   "name": "Trade Discount",
-   "reason": "no-guess pending: no discount statement in the published spec"
   },
   {
    "spcpt_id": "spcpt_zsVqrJjvNSXmShv7",

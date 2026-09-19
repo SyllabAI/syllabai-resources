@@ -412,7 +412,8 @@
      "problem_md": "Find the smallest whole number that 720 can be multiplied by to give a square number.\n\n[1]",
      "solution_md": "> *Method 1*\n\n> *If your answer to (a) is written in the form \"2 × 2 × 2 × 2 × 3 × 3 × 5\" then we can rearrange this to*\n\n*[2 × 2 × 3] × [2 × 2 × 3] × 5*\n\n> *[2 × 2 × 3] × [2 × 2 × 3] is already square so to make the full number square we would need to multiply by another 5 so the number becomes*\n\n*[2 × 2 × 3 × 5] × [2 × 2 × 3 × 5]*\n\n> *Using your calculator to evaluate this number gives 3600 (which is square)*\n\n> *So the answer must be 5*\n\n**5**** [1]**\n\n> *Method 2*\n\n> *If your answer to (a) is written in the form \"2*<sup>*4*</sup>* × 3*<sup>*2*</sup>* × 5\" then we can see that \"2*<sup>*4*</sup>* × 3*<sup>*2*</sup>*\" is already square (all even powers are square numbers, 2*<sup>*4*</sup>* × 3*<sup>*2*</sup>* = [2*<sup>*2*</sup>* × 3] × [2*<sup>*2*</sup>* × 3])*\n\n> *To make the full number square, we would need to multiply by another 5 so the number becomes*\n\n*2**<sup>4</sup>** × 3**<sup>2</sup>** × 5**<sup>2</sup>*\n\n> * Using your calculator to evaluate this number gives 3600 (which is square)*\n\n> *So the answer must be 5*\n\n**5 ****[1]**",
      "spec_point_codes": [
-      "1.4D"
+      "1.4D",
+      "1.1G"
      ]
     }
    ]
@@ -1075,6 +1076,9 @@
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">3</mn><mo mathvariant=\"bold\">&#215;</mo><msup><mn mathvariant=\"bold\">5</mn><mn mathvariant=\"bold\">10</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "bold 3 bold cross times bold 5 to the power of bold 10"
       }
+     ],
+     "spec_point_codes": [
+      "1.1G"
      ]
     }
    ]

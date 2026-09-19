@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T18:54:35Z",
- "validation": "AI_VALIDATED (operator-delegated chain; page-context joins per T-SPEC-5 — SME IAL pages publish no definition text, ticket #13; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 262,
-  "resolved": 261,
-  "unresolved": 1
+  "resolved": 262,
+  "unresolved": 0
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -1262,8 +1262,11 @@
    "sme_name": "Trend: Atomic Radius",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches atomic-radius trends (period 3) but the official IAL Chemistry specification (WCH11-16, verified against the published PDF, 0 hits for 'atomic radi(us|i)') contains no statement for that content; nearest statements are ionic-radius only (3.6/3.7). SME-extra tag, documented upstream (ticket #13)."
+   "resolved_code": "3.7",
+   "official_id": "IAL_CHEMISTRY:Chemistry-3.7",
+   "official_wording": "understand reasons for the trends in ionic radii down a group in the Periodic Table, and for a set of isoelectronic ions, including N 3− to Al 3+",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_MtvJ49X4zQHqqctZ",

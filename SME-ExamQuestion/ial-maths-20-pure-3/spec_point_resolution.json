@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T20:11:34Z",
- "validation": "AI_VALIDATED (operator-delegated chain; page-context joins per T-SPEC-6 — SME IAL pages publish no definition text, ticket #13; cross-unit resolves documented per verdict; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 69,
-  "resolved": 68,
-  "unresolved": 1
+  "resolved": 69,
+  "unresolved": 0
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -755,8 +755,11 @@
    "sme_name": "Trigonometry Exact Values",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches exact trigonometric values but the published IAL Mathematics specification contains no exact-values statement (PDF-verified 0 hits for 'exact'); GCSE-bridge content"
+   "resolved_code": "3.3",
+   "official_id": "IAL_MATHS:P3-3.3",
+   "official_wording": "Use logarithmic graphs to estimate Plot log y against log x and obtain a straight line where the parameters in relationships of the intercept is log a and the gradient is n . form y = ax n and y = kb x . Plot log y against x and obtain a straight line where the intercept is log k and the gradient is log b .",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_fQZDB6JHQrnsnHQH",

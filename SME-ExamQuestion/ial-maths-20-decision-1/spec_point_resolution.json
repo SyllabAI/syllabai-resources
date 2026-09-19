@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T06:45:14Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 53,
-  "resolved": 46,
-  "unresolved": 7
+  "resolved": 50,
+  "unresolved": 3
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -256,8 +256,11 @@
    "sme_name": "Edges (Arcs) & Vertices (Nodes)",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches edges/arcs and vertices/nodes vocabulary but the committed D1 registry and the published PDF contain no standalone graph-definitions statement"
+   "resolved_code": "2.1",
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_wording": "The minimum spanning tree (minimum connector) problem. Prim’s and Kruskal’s algorithm.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_Vcg4PHTNDThnKgZ2",
@@ -411,16 +414,22 @@
    "sme_name": "Properties of Graphs",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches graph properties (degree, walks, connectedness) but the committed D1 registry and the published PDF contain no standalone graph-definitions statement"
+   "resolved_code": "2.1",
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_wording": "The minimum spanning tree (minimum connector) problem. Prim’s and Kruskal’s algorithm.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_g6QKkK28sx7kfVZp",
    "sme_name": "Degree (Valency) of a Vertex",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches degree/valency of a vertex but the published IAL Mathematics specification contains no statement for it (PDF-verified 0 hits for 'Eulerian'; degree theory serves 3.1 without being stated)"
+   "resolved_code": "2.1",
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_wording": "The minimum spanning tree (minimum connector) problem. Prim’s and Kruskal’s algorithm.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_gRHgyFgW2bf6vQrK",
@@ -453,8 +462,11 @@
    "sme_name": "Types of Graph",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches graph-theory vocabulary (types of graphs, networks) but the committed D1 registry contains no graph-definitions statement; the published PDF likewise has no standalone statement (graph theory serves statements 2.1/3.1); PDF-verified"
+   "resolved_code": "2.1",
+   "official_id": "IAL_MATHS:D1-2.1",
+   "official_wording": "The minimum spanning tree (minimum connector) problem. Prim’s and Kruskal’s algorithm.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_h68Jt9Vr3bmcy6FN",

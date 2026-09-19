@@ -118,6 +118,9 @@
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>25</mn></math>",
        "alt": "1 + 2 + 2 + 3 + 3 + 4 + 4 + 6 = 25"
       }
+     ],
+     "spec_point_codes": [
+      "2.1"
      ]
     },
     {
@@ -149,6 +152,9 @@
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>",
        "alt": "T"
       }
+     ],
+     "spec_point_codes": [
+      "2.1"
      ]
     },
     {
@@ -490,6 +496,9 @@
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>",
        "alt": "H"
       }
+     ],
+     "spec_point_codes": [
+      "2.1"
      ]
     },
     {
@@ -509,7 +518,10 @@
      ],
      "part_tier": null,
      "problem_md": "State, with a reason, whether A – B – C – D – E – G – F – H – J is an example of a tour on T.",
-     "solution_md": "A tour visits every vertex and then returns to the vertex it started from\n\nThis route does use real arcs and it does reach all nine vertices, so check where it finishes\n\n*The route starts at A but finishes at J*\n\n**Final answer:** **It is not a tour, because a tour has to return to its starting vertex and this route ends at J rather than back at A**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: States that it is not a tour, with a reason making clear that a tour must begin and end at the same vertex.\n> \n> Saying that the route given does not finish at A is enough on its own. Stating only that it is not a tour, with no reason, earns nothing.\n\n> **[exam-tip]**\n> This route meets every part of the definition except the last one, which is exactly what makes it tempting: the arcs all exist and all nine vertices are visited, and only the return to the start is missing.\n> \n> - Test the definition item by item rather than judging the route as a whole, then name the item that fails"
+     "solution_md": "A tour visits every vertex and then returns to the vertex it started from\n\nThis route does use real arcs and it does reach all nine vertices, so check where it finishes\n\n*The route starts at A but finishes at J*\n\n**Final answer:** **It is not a tour, because a tour has to return to its starting vertex and this route ends at J rather than back at A**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: States that it is not a tour, with a reason making clear that a tour must begin and end at the same vertex.\n> \n> Saying that the route given does not finish at A is enough on its own. Stating only that it is not a tour, with no reason, earns nothing.\n\n> **[exam-tip]**\n> This route meets every part of the definition except the last one, which is exactly what makes it tempting: the arcs all exist and all nine vertices are visited, and only the return to the start is missing.\n> \n> - Test the definition item by item rather than judging the route as a whole, then name the item that fails",
+     "spec_point_codes": [
+      "2.1"
+     ]
     },
     {
      "id": "qstnprt_jNvz4ftCTfCy8ydp",
@@ -728,7 +740,10 @@
      ],
      "part_tier": null,
      "problem_md": "Explain what is meant by the term ‘path’.",
-     "solution_md": "Three separate conditions have to appear, and each one carries part of the credit\n\n**Final answer:** **A path is a finite list of edges in which every edge ends at the vertex the following edge starts from, and in which no vertex is visited more than once**\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Any one of the three conditions stated clearly: that the sequence of edges is finite, that each edge ends where the next begins, or that no vertex is used more than once.\n> \n> **B1**: All three conditions stated clearly.\n> \n> Defining a path as a walk in which no vertex appears more than once earns the first mark but not the second, because it leans on another definition rather than giving the three conditions.\n\n> **[exam-tip]**\n> Marks here are counted condition by condition, so a fluent one-line definition can still score less than a clumsy list of three.\n> \n> - Write the three conditions as three separate clauses and check each is actually present before moving on\n> - Defining a path in terms of a walk is the common way to lose the second mark: it is correct mathematics, but it hands back the definition you were asked for"
+     "solution_md": "Three separate conditions have to appear, and each one carries part of the credit\n\n**Final answer:** **A path is a finite list of edges in which every edge ends at the vertex the following edge starts from, and in which no vertex is visited more than once**\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: Any one of the three conditions stated clearly: that the sequence of edges is finite, that each edge ends where the next begins, or that no vertex is used more than once.\n> \n> **B1**: All three conditions stated clearly.\n> \n> Defining a path as a walk in which no vertex appears more than once earns the first mark but not the second, because it leans on another definition rather than giving the three conditions.\n\n> **[exam-tip]**\n> Marks here are counted condition by condition, so a fluent one-line definition can still score less than a clumsy list of three.\n> \n> - Write the three conditions as three separate clauses and check each is actually present before moving on\n> - Defining a path in terms of a walk is the common way to lose the second mark: it is correct mathematics, but it hands back the definition you were asked for",
+     "spec_point_codes": [
+      "2.1"
+     ]
     },
     {
      "id": "qstnprt_cC88njfrWB2JCKmV",
@@ -940,7 +955,10 @@
      ],
      "part_tier": null,
      "problem_md": "![Geometric diagram with nine labelled points (A-J) interconnected by lines, each marked with distances. Points form a network of triangles.](assets/005-geometric-diagram-with-nine-labelled-points-a-j-.png)\n\nDefine the terms\n\n(i) tree,\n\n[1]\n\n(ii) minimum spanning tree.\n\n[2]",
-     "solution_md": "**(i)**\n\nTwo separate things have to be said, and the single mark needs both of them\n\n**Final answer:** **A tree is a connected graph that contains no cycles**\n\n**[B1]**\n\n**(ii)**\n\nA minimum spanning tree is a tree sitting inside a network, so say which vertices it reaches and what makes it minimum\n\n**Final answer:** **A minimum spanning tree is a tree that includes every vertex of the network**\n\n**[B1]**\n\n**Final answer:** **Its arcs also have the smallest possible total length**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: A tree is connected and contains no cycles.\n> \n> **B1**: A minimum spanning tree includes all of the vertices.\n> \n> **B1**: The total length of its arcs is minimised.\n> \n> Both halves are needed for the first mark, so connected on its own, or no cycles on its own, earns nothing.\n> \n> The word \"cycle\" is what is being marked. Circle, loop and similar substitutes are not accepted, although a singular in place of a plural is condoned. If you avoid the word \"connected\", a description such as a graph that connects the vertices is accepted instead.\n> \n> For the second mark it must be clear that every vertex is included, not merely that some are.\n> \n> The third mark needs three ideas together: the total, that it is the arcs being totalled, and that this total is the smallest possible.\n\n> **[exam-tip]**\n> The word \"cycle\" is the one carrying the credit, so \"no circles\" or \"no loops\" will not do, however equivalent they sound.\n> \n> - A tree is worth one mark but needs both halves, so writing only \"a graph with no cycles\" loses the whole mark rather than half of it\n> - The minimum spanning tree is worth two marks for two ideas, reaching every vertex and having the smallest total, so make sure both appear as separate statements"
+     "solution_md": "**(i)**\n\nTwo separate things have to be said, and the single mark needs both of them\n\n**Final answer:** **A tree is a connected graph that contains no cycles**\n\n**[B1]**\n\n**(ii)**\n\nA minimum spanning tree is a tree sitting inside a network, so say which vertices it reaches and what makes it minimum\n\n**Final answer:** **A minimum spanning tree is a tree that includes every vertex of the network**\n\n**[B1]**\n\n**Final answer:** **Its arcs also have the smallest possible total length**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: A tree is connected and contains no cycles.\n> \n> **B1**: A minimum spanning tree includes all of the vertices.\n> \n> **B1**: The total length of its arcs is minimised.\n> \n> Both halves are needed for the first mark, so connected on its own, or no cycles on its own, earns nothing.\n> \n> The word \"cycle\" is what is being marked. Circle, loop and similar substitutes are not accepted, although a singular in place of a plural is condoned. If you avoid the word \"connected\", a description such as a graph that connects the vertices is accepted instead.\n> \n> For the second mark it must be clear that every vertex is included, not merely that some are.\n> \n> The third mark needs three ideas together: the total, that it is the arcs being totalled, and that this total is the smallest possible.\n\n> **[exam-tip]**\n> The word \"cycle\" is the one carrying the credit, so \"no circles\" or \"no loops\" will not do, however equivalent they sound.\n> \n> - A tree is worth one mark but needs both halves, so writing only \"a graph with no cycles\" loses the whole mark rather than half of it\n> - The minimum spanning tree is worth two marks for two ideas, reaching every vertex and having the smallest total, so make sure both appear as separate statements",
+     "spec_point_codes": [
+      "2.1"
+     ]
     },
     {
      "id": "qstnprt_Hqt67Yf2SbFjMNGj",

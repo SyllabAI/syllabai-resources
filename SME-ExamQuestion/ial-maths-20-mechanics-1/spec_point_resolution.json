@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T20:11:34Z",
- "validation": "AI_VALIDATED (operator-delegated chain; page-context joins per T-SPEC-6 — SME IAL pages publish no definition text, ticket #13; cross-unit resolves documented per verdict; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T10:17:42Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 41,
-  "resolved": 37,
-  "unresolved": 4
+  "resolved": 39,
+  "unresolved": 2
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -53,8 +53,11 @@
    "sme_name": "Derived Units",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches derived units but the published IAL Mathematics Mechanics specification contains no units statement (PDF-verified)"
+   "resolved_code": "1.1",
+   "official_id": "IAL_MATHS:M1-1.1",
+   "official_wording": "The basic ideas of mathematical Students should be familiar with the terms: particle, lamina, modelling as applied in Mechanics. rigid body, rod (light, uniform, non-uniform), inextensible string, smooth and rough surface, light smooth pulley, bead, wire, peg. Students should be familiar with the assumptions made in using these models.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_8FsF3KSbZ4GDtqcY",
@@ -433,8 +436,11 @@
    "sme_name": "Fundamental Units",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches SI fundamental units but the published IAL Mathematics Mechanics specification contains no units statement (PDF-verified: 'SI units' appears only in exam-administration text, not as a spec statement)"
+   "resolved_code": "1.1",
+   "official_id": "IAL_MATHS:M1-1.1",
+   "official_wording": "The basic ideas of mathematical Students should be familiar with the terms: particle, lamina, modelling as applied in Mechanics. rigid body, rod (light, uniform, non-uniform), inextensible string, smooth and rough surface, light smooth pulley, bead, wire, peg. Students should be familiar with the assumptions made in using these models.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_v8hNWGT7NpzTRr5F",
