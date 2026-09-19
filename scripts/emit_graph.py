@@ -74,8 +74,47 @@ def emit(slug):
             return None, None
         return unit_code.get(lab), lab
 
-    # topic / subsection codes (4CH1-S1 style when cover code available)
-    topic_code = {i: f"{cover}-S{i}" for i in range(1, len(tp['topics']) + 1)}
+    # topic / subsection codes (4CH1-S1 style when cover code available).
+    # T-C24: the section code for a statement follows its topic's PRINTED
+    # number (4CH1 topic '1 Principles of chemistry' -> 4CH1-S1), matching
+    # the definitive-store semantics. The old index-based mapping emitted
+    # S3..S6 for chemistry 1.x–4.x (the '+2 shift' finding). Topic ROWS
+    # keep unique codes: printed-number codes for referenced content topics,
+    # index-based codes otherwise (front matter), with collision fallback.
+    from collections import Counter as _C
+    def _ref_num(t):
+        return str((t or {}).get('number') or '').strip()
+    referenced = {}
+    for _p in sp['spec_points']:
+        _i = _topic_index(tp, _p)
+        if _i is not None:
+            referenced[_i] = _ref_num(_p.get('topic'))
+    num_counts = _C(n for n in referenced.values() if n)
+    # pass 1: referenced content topics reserve S{printed number}
+    topic_code = {}
+    reserved = set()
+    for i, t in enumerate(tp['topics'], 1):
+        n = str(t.get('number') or '').strip()
+        if i in referenced and n and num_counts.get(n, 0) == 1:
+            code = f"{cover}-S{n}"
+            if code in reserved:
+                continue
+            topic_code[i] = code
+            reserved.add(code)
+    # pass 2: every other row takes a unique index-based code
+    used = set(reserved)
+    for i, t in enumerate(tp['topics'], 1):
+        if i in topic_code:
+            continue
+        base = f"{cover}-S{i}"
+        if base in used:
+            base = f"{cover}-SF{i}"
+        k = 2
+        while base in used:
+            base = f"{cover}-SF{i}-{k}"
+            k += 1
+        topic_code[i] = base
+        used.add(base)
     if not topic_code:
         topic_code = {1: f"{cover}-S1"}   # families with no printed topic headings
     sub_code = {i: f"{cover}-SUB{i}" for i in range(1, len(tp['subsections']) + 1)}

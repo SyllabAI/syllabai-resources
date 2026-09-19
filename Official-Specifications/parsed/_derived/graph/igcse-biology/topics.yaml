@@ -14,14 +14,14 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
   spec_points: 176
   topics: 9
   subsections: 22
   practicals: 14
 topics:
-- code: 4BI1-S1
+- code: 4BI1-SF1
   title: About this specification
   ordering: 1
   unit_code: null
@@ -35,7 +35,7 @@ topics:
     pdf_page: 7
     pdf_sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
   damage_flags: []
-- code: 4BI1-S2
+- code: 4BI1-SF2
   title: Biology content
   ordering: 2
   unit_code: null
@@ -49,7 +49,7 @@ topics:
     pdf_page: 15
     pdf_sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
   damage_flags: []
-- code: 4BI1-S3
+- code: 4BI1-S1
   title: The nature and variety of living organisms
   ordering: 3
   unit_code: null
@@ -63,7 +63,7 @@ topics:
     pdf_page: 17
     pdf_sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
   damage_flags: []
-- code: 4BI1-S4
+- code: 4BI1-S2
   title: Structure and functions in living organisms
   ordering: 4
   unit_code: null
@@ -77,7 +77,7 @@ topics:
     pdf_page: 19
     pdf_sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
   damage_flags: []
-- code: 4BI1-S5
+- code: 4BI1-S3
   title: Reproduction and inheritance
   ordering: 5
   unit_code: null
@@ -91,7 +91,7 @@ topics:
     pdf_page: 26
     pdf_sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
   damage_flags: []
-- code: 4BI1-S6
+- code: 4BI1-S4
   title: Ecology and the environment
   ordering: 6
   unit_code: null
@@ -105,7 +105,7 @@ topics:
     pdf_page: 29
     pdf_sha1: e5662c1f128b0e88baea22ca4ce0a343516127d2
   damage_flags: []
-- code: 4BI1-S7
+- code: 4BI1-S5
   title: Use of biological resources
   ordering: 7
   unit_code: null
@@ -151,154 +151,154 @@ subsections:
 - code: 4BI1-SUB1
   letter: a
   title: Characteristics of living organisms
-  parent_topic: 4BI1-S2
+  parent_topic: 4BI1-SF2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 17
 - code: 4BI1-SUB2
   letter: b
   title: Variety of living organisms
-  parent_topic: 4BI1-S2
+  parent_topic: 4BI1-SF2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 17
 - code: 4BI1-SUB3
   letter: a
   title: Level of organisation
-  parent_topic: 4BI1-S3
+  parent_topic: 4BI1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 19
 - code: 4BI1-SUB4
   letter: b
   title: Cell structure
-  parent_topic: 4BI1-S3
+  parent_topic: 4BI1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 19
 - code: 4BI1-SUB5
   letter: c
   title: Biological molecules
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 20
 - code: 4BI1-SUB6
   letter: d
   title: Movement of substances into and out of cells
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 20
 - code: 4BI1-SUB7
   letter: e
   title: Nutrition
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4BI1-SUB8
   letter: f
   title: Respiration
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4BI1-SUB9
   letter: g
   title: Gas exchange
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4BI1-SUB10
   letter: h
   title: Transport
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4BI1-SUB11
   letter: i
   title: Excretion
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4BI1-SUB12
   letter: j
   title: Co-ordination and response
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4BI1-SUB13
   letter: a
   title: Reproduction
-  parent_topic: 4BI1-S4
+  parent_topic: 4BI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4BI1-SUB14
   letter: b
   title: Inheritance
-  parent_topic: 4BI1-S5
+  parent_topic: 4BI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
 - code: 4BI1-SUB15
   letter: a
   title: The organism in the environment
-  parent_topic: 4BI1-S5
+  parent_topic: 4BI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4BI1-SUB16
   letter: b
   title: Feeding relationships
-  parent_topic: 4BI1-S5
+  parent_topic: 4BI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4BI1-SUB17
   letter: c
   title: Cycles within ecosystems
-  parent_topic: 4BI1-S5
+  parent_topic: 4BI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4BI1-SUB18
   letter: d
   title: Human influences on the environment
-  parent_topic: 4BI1-S6
+  parent_topic: 4BI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4BI1-SUB19
   letter: a
   title: Food production
-  parent_topic: 4BI1-S6
+  parent_topic: 4BI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4BI1-SUB20
   letter: b
   title: Selective breeding
-  parent_topic: 4BI1-S6
+  parent_topic: 4BI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4BI1-SUB21
   letter: c
   title: Genetic modification (genetic engineering)
-  parent_topic: 4BI1-S7
+  parent_topic: 4BI1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4BI1-SUB22
   letter: d
   title: Cloning
-  parent_topic: 4BI1-S7
+  parent_topic: 4BI1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32

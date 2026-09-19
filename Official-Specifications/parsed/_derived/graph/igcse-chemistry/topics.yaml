@@ -14,14 +14,14 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
   spec_points: 182
   topics: 8
   subsections: 28
   practicals: 12
 topics:
-- code: 4CH1-S1
+- code: 4CH1-SF1
   title: About this specification
   ordering: 1
   unit_code: null
@@ -35,7 +35,7 @@ topics:
     pdf_page: 7
     pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
   damage_flags: []
-- code: 4CH1-S2
+- code: 4CH1-SF2
   title: Chemistry content
   ordering: 2
   unit_code: null
@@ -49,7 +49,7 @@ topics:
     pdf_page: 15
     pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
   damage_flags: []
-- code: 4CH1-S3
+- code: 4CH1-S1
   title: Principles of chemistry
   ordering: 3
   unit_code: null
@@ -63,7 +63,7 @@ topics:
     pdf_page: 17
     pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
   damage_flags: []
-- code: 4CH1-S4
+- code: 4CH1-S2
   title: Inorganic chemistry
   ordering: 4
   unit_code: null
@@ -77,7 +77,7 @@ topics:
     pdf_page: 22
     pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
   damage_flags: []
-- code: 4CH1-S5
+- code: 4CH1-S3
   title: Physical chemistry
   ordering: 5
   unit_code: null
@@ -91,7 +91,7 @@ topics:
     pdf_page: 27
     pdf_sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
   damage_flags: []
-- code: 4CH1-S6
+- code: 4CH1-S4
   title: Organic chemistry
   ordering: 6
   unit_code: null
@@ -137,196 +137,196 @@ subsections:
 - code: 4CH1-SUB1
   letter: a
   title: States of matter
-  parent_topic: 4CH1-S2
+  parent_topic: 4CH1-SF2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 17
 - code: 4CH1-SUB2
   letter: b
   title: Elements, compounds and mixtures
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 18
 - code: 4CH1-SUB3
   letter: c
   title: Atomic structure
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 18
 - code: 4CH1-SUB4
   letter: d
   title: The Periodic Table
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 18
 - code: 4CH1-SUB5
   letter: e
   title: Chemical formulae, equations and calculations
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 19
 - code: 4CH1-SUB6
   letter: f
   title: Ionic bonding
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 20
 - code: 4CH1-SUB7
   letter: g
   title: Covalent bonding
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 20
 - code: 4CH1-SUB8
   letter: h
   title: Metallic bonding
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4CH1-SUB9
   letter: i
   title: Electrolysis
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4CH1-SUB10
   letter: a
   title: Group 1 (alkali metals) – lithium, sodium and potassium
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4CH1-SUB11
   letter: b
   title: Group 7 (halogens) – chlorine, bromine and iodine
-  parent_topic: 4CH1-S3
+  parent_topic: 4CH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4CH1-SUB12
   letter: c
   title: Gases in the atmosphere
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4CH1-SUB13
   letter: d
   title: Reactivity series
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4CH1-SUB14
   letter: e
   title: Extraction and uses of metals
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4CH1-SUB15
   letter: f
   title: Acids, alkalis and titrations
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4CH1-SUB16
   letter: g
   title: Acids, bases and salt preparations
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 25
 - code: 4CH1-SUB17
   letter: h
   title: Chemical tests
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4CH1-SUB18
   letter: a
   title: Energetics
-  parent_topic: 4CH1-S4
+  parent_topic: 4CH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
 - code: 4CH1-SUB19
   letter: b
   title: Rates of reaction
-  parent_topic: 4CH1-S5
+  parent_topic: 4CH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 28
 - code: 4CH1-SUB20
   letter: c
   title: Reversible reactions and equilibria
-  parent_topic: 4CH1-S5
+  parent_topic: 4CH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 28
 - code: 4CH1-SUB21
   letter: a
   title: Introduction
-  parent_topic: 4CH1-S5
+  parent_topic: 4CH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4CH1-SUB22
   letter: b
   title: Crude oil
-  parent_topic: 4CH1-S5
+  parent_topic: 4CH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4CH1-SUB23
   letter: c
   title: Alkanes
-  parent_topic: 4CH1-S6
+  parent_topic: 4CH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4CH1-SUB24
   letter: d
   title: Alkenes
-  parent_topic: 4CH1-S6
+  parent_topic: 4CH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4CH1-SUB25
   letter: e
   title: Alcohols
-  parent_topic: 4CH1-S6
+  parent_topic: 4CH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4CH1-SUB26
   letter: f
   title: Carboxylic acids
-  parent_topic: 4CH1-S6
+  parent_topic: 4CH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4CH1-SUB27
   letter: g
   title: Esters
-  parent_topic: 4CH1-S6
+  parent_topic: 4CH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4CH1-SUB28
   letter: h
   title: Synthetic polymers
-  parent_topic: 4CH1-S6
+  parent_topic: 4CH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32

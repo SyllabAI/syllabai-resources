@@ -14,7 +14,7 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
   spec_points: 412
   topics: 20
@@ -91,7 +91,7 @@ topics:
     pdf_page: 29
     pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
   damage_flags: []
-- code: 4SD0-S6
+- code: 4SD0-SF6
   title: Use of biological resources
   ordering: 6
   unit_code: null
@@ -105,7 +105,7 @@ topics:
     pdf_page: 31
     pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
   damage_flags: []
-- code: 4SD0-S7
+- code: 4SD0-SF7
   title: Chemistry
   ordering: 7
   unit_code: null
@@ -119,7 +119,7 @@ topics:
     pdf_page: 33
     pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
   damage_flags: []
-- code: 4SD0-S8
+- code: 4SD0-SF8
   title: Principles of chemistry
   ordering: 8
   unit_code: null
@@ -259,7 +259,7 @@ topics:
     pdf_page: 56
     pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
   damage_flags: []
-- code: 4SD0-S18
+- code: 4SD0-S6
   title: Magnetism and electromagnetism
   ordering: 18
   unit_code: null
@@ -273,7 +273,7 @@ topics:
     pdf_page: 58
     pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
   damage_flags: []
-- code: 4SD0-S19
+- code: 4SD0-S7
   title: Radioactivity and particles
   ordering: 19
   unit_code: null
@@ -287,7 +287,7 @@ topics:
     pdf_page: 60
     pdf_sha1: 5cae3e7306335e6650dacf764ba5c083a4168e0b
   damage_flags: []
-- code: 4SD0-S20
+- code: 4SD0-S8
   title: Astrophysics
   ordering: 20
   unit_code: null
@@ -445,70 +445,70 @@ subsections:
 - code: 4SD0-SUB21
   letter: c
   title: Genetic modification (genetic engineering)
-  parent_topic: 4SD0-S6
+  parent_topic: 4SD0-SF6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4SD0-SUB22
   letter: a
   title: States of matter
-  parent_topic: 4SD0-S6
+  parent_topic: 4SD0-SF6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 33
 - code: 4SD0-SUB23
   letter: b
   title: Elements, compounds and mixtures
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4SD0-SUB24
   letter: c
   title: Atomic structure
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4SD0-SUB25
   letter: d
   title: The Periodic Table
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 35
 - code: 4SD0-SUB26
   letter: e
   title: Chemical formulae, equations and calculations
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 35
 - code: 4SD0-SUB27
   letter: f
   title: Ionic bonding
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 36
 - code: 4SD0-SUB28
   letter: g
   title: Covalent bonding
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 36
 - code: 4SD0-SUB29
   letter: a
   title: Group 1 (alkali metals) – lithium, sodium and potassium
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 37
 - code: 4SD0-SUB30
   letter: b
   title: Group 7 (halogens) – chlorine, bromine and iodine
-  parent_topic: 4SD0-S8
+  parent_topic: 4SD0-SF8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 37
@@ -732,49 +732,49 @@ subsections:
 - code: 4SD0-SUB62
   letter: d
   title: Electromagnetic induction
-  parent_topic: 4SD0-S18
+  parent_topic: 4SD0-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 59
 - code: 4SD0-SUB63
   letter: a
   title: Units
-  parent_topic: 4SD0-S18
+  parent_topic: 4SD0-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 60
 - code: 4SD0-SUB64
   letter: b
   title: Radioactivity
-  parent_topic: 4SD0-S18
+  parent_topic: 4SD0-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 60
 - code: 4SD0-SUB65
   letter: c
   title: Fission and fusion
-  parent_topic: 4SD0-S19
+  parent_topic: 4SD0-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 61
 - code: 4SD0-SUB66
   letter: a
   title: Units
-  parent_topic: 4SD0-S19
+  parent_topic: 4SD0-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 62
 - code: 4SD0-SUB67
   letter: b
   title: Motion in the universe
-  parent_topic: 4SD0-S19
+  parent_topic: 4SD0-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 62
 - code: 4SD0-SUB68
   letter: c
   title: Stellar evolution
-  parent_topic: 4SD0-S20
+  parent_topic: 4SD0-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 63

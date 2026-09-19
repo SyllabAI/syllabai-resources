@@ -107,7 +107,24 @@ def visual_lines(spans, tol=3.5):
             lines.append({'oy': s['oy'], 'spans': [s]})
     for L in lines:
         L['spans'].sort(key=lambda s: s['x0'])
-        L['text'] = ' '.join(s['text'].strip() for s in L['spans'])
+        # gap-aware join: insert a space ONLY where the print shows one
+        # (x-gap >= 25% of the glyph size). The previous unconditional
+        # ' '.join fabricated spaces inside tight multi-span constructs —
+        # '(Ar)' parsed as '( A r )', '(propan-1-ol only)' as
+        # '( propan-1-ol only )' — 501 estate-wide artifacts (T-C24).
+        parts = []
+        prev = None
+        for s in L['spans']:
+            t = s['text'].strip()
+            if not t:
+                continue
+            if prev is not None:
+                gap = s['x0'] - prev['x1']
+                if gap >= 0.25 * max(prev['size'], s['size']):
+                    parts.append(' ')
+            parts.append(t)
+            prev = s
+        L['text'] = re.sub(r'\s+', ' ', ''.join(parts)).strip()
         L['text'] = re.sub(r'\s+', ' ', L['text']).strip()
         L['x0'] = min(s['x0'] for s in L['spans'])
         L['bold'] = all('Bold' in s['font'] for s in L['spans'] if s['text'].strip())
@@ -206,7 +223,11 @@ def parse_code_column_bands(doc, kill):
             m_bigsec = None
             if L['bold'] and max(L['sizes']) >= 13:
                 cand = re.match(r'^(\d{1,2})\s+([A-Z].+)$', t)
-                if cand and not re.search(r'\s\d{1,3}$', t):
+                # reject trailing page-number-like lines, but keep real titles
+                # ending in a number (e.g. modular '…: Part 1' headers — the
+                # old guard dropped all 13 of them; T-C24)
+                if cand and (not re.search(r'\s\d{1,3}$', t)
+                             or len(re.findall(r'[A-Za-z]{3,}', t)) >= 3):
                     m_bigsec = cand
             m_code = CODE_START.match(t)
             if m_topic or m_bigsec or (m_sec and L['bold'] and not m_code):
@@ -233,7 +254,14 @@ def parse_code_column_bands(doc, kill):
                 cur = {'code': code, 'suffix': suffix or '', 'page': pno + 1,
                        'oy': round(L['oy'], 1), 'parts': [rest] if rest else [],
                        'bullets': [], 'pending_bullet': None, 'scope': scope,
-                       '_tail': 'parts'}
+                       '_tail': 'parts',
+                       # snapshot header context AT CAPTURE — the finalizer
+                       # previously reused the page-final cur_topic/cur_subsec
+                       # for every statement on the page (T-C24: 488 statements
+                       # across the bands family attached to a header that
+                       # prints BELOW them)
+                       'topic_ref': dict(cur_topic) if cur_topic else None,
+                       'subsec_ref': dict(cur_subsec) if cur_subsec else None}
                 rows.append(cur)
                 continue
             if cur is None:
@@ -267,8 +295,8 @@ def parse_code_column_bands(doc, kill):
                 'official_code': oc, 'scope': r['scope'],
                 'suffix': r['suffix'], 'text': ' '.join(r['parts']),
                 'page': r['page'], 'oy': r['oy'],
-                'topic': dict(cur_topic) if cur_topic else None,
-                'subsection': dict(cur_subsec) if cur_subsec else None,
+                'topic': r.get('topic_ref'),
+                'subsection': r.get('subsec_ref'),
                 'sub_items': r['bullets'],
             })
     return dedupe_codes(statements), topics, subsecs
@@ -380,7 +408,12 @@ def parse_lettered_table(doc, kill):
                 cur = {'official_code': f"{cur_subtopic['code']}{m_let.group(1)}" if cur_subtopic else m_let.group(1),
                        'page': pno + 1, 'oy': round(L['oy'], 1),
                        'parts': [m_let.group(2)] if m_let.group(2) else [],
-                       'bullets': [], 'pending_bullet': None}
+                       'bullets': [], 'pending_bullet': None,
+                       # snapshot at capture (T-C24: whole-document-final bug —
+                       # 94/108 economics statements claimed the doc's LAST
+                       # subtopic header)
+                       'topic_ref': dict(cur_topic) if cur_topic else None,
+                       'subsec_ref': dict(cur_subtopic) if cur_subtopic else None}
                 statements.append(cur)
                 continue
             if cur is None:
@@ -404,8 +437,8 @@ def parse_lettered_table(doc, kill):
         out.append({
             'official_code': s['official_code'], 'scope': None, 'suffix': '',
             'text': ' '.join(s['parts']), 'page': s['page'], 'oy': s['oy'],
-            'topic': dict(cur_topic) if cur_topic else None,
-            'subsection': dict(cur_subtopic) if cur_subtopic else None,
+            'topic': s.get('topic_ref'),
+            'subsection': s.get('subsec_ref'),
             'sub_items': s['bullets'],
         })
     return dedupe_codes(out), topics, subsecs
@@ -469,7 +502,12 @@ def parse_triplet_table(doc, kill):
                     cur = {'official_code': stmt_span['text'].strip(),
                            'page': pno + 1, 'oy': round(oy, 1),
                            'parts': [rest] if rest else [],
-                           'bullets': [], 'pending_bullet': None}
+                           'bullets': [], 'pending_bullet': None,
+                           # snapshot at capture (T-C24: whole-document-final
+                           # bug — 58 business / 135 ICT statements claimed a
+                           # late-document topic header)
+                           'topic_ref': dict(cur_topic) if cur_topic else None,
+                           'subsec_ref': dict(cur_subsec) if cur_subsec else None}
                     statements.append(cur)
                     cur['_last_x'] = stmt_span['x1']
                 else:
@@ -480,7 +518,9 @@ def parse_triplet_table(doc, kill):
                                 if s['x0'] > s0['x1'] - 2).strip()
                 cur = {'official_code': m_stmt.group(1), 'page': pno + 1,
                        'oy': round(oy, 1), 'parts': [rest] if rest else [],
-                       'bullets': [], 'pending_bullet': None}
+                       'bullets': [], 'pending_bullet': None,
+                       'topic_ref': dict(cur_topic) if cur_topic else None,
+                       'subsec_ref': dict(cur_subsec) if cur_subsec else None}
                 statements.append(cur)
                 cur['_last_x'] = s0['x1']
                 continue
@@ -510,8 +550,8 @@ def parse_triplet_table(doc, kill):
         out.append({
             'official_code': s['official_code'], 'scope': None, 'suffix': '',
             'text': ' '.join(s['parts']), 'page': s['page'],
-            'oy': s['oy'], 'topic': dict(cur_topic) if cur_topic else None,
-            'subsection': dict(cur_subsec) if cur_subsec else None,
+            'oy': s['oy'], 'topic': s.get('topic_ref'),
+            'subsection': s.get('subsec_ref'),
             'sub_items': s['bullets'],
         })
     return dedupe_codes(out), topics, subsecs

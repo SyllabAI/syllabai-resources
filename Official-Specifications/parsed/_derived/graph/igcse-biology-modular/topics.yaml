@@ -14,10 +14,10 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
   spec_points: 176
-  topics: 13
+  topics: 15
   subsections: 26
   practicals: 14
 qualification_units:
@@ -40,7 +40,7 @@ qualification_units:
   - 5
   - 6
 topics:
-- code: 4XBI1-S1
+- code: 4XBI1-SF1
   title: About this specification
   ordering: 1
   unit_code: null
@@ -54,7 +54,7 @@ topics:
     pdf_page: 7
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S2
+- code: 4XBI1-SF2
   title: Qualification at a glance
   ordering: 2
   unit_code: 4WBI2/1B
@@ -68,7 +68,7 @@ topics:
     pdf_page: 15
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S3
+- code: 4XBI1-SF3
   title: Biology content
   ordering: 3
   unit_code: 4WBI2/1B
@@ -82,7 +82,7 @@ topics:
     pdf_page: 17
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S4
+- code: 4XBI1-S1
   title: The nature and variety of living organisms
   ordering: 4
   unit_code: 4WBI1/1B
@@ -96,9 +96,37 @@ topics:
     pdf_page: 19
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S5
-  title: Reproduction and inheritance
+- code: 4XBI1-S2
+  title: 'Structure and functions in living organisms: Part 1'
   ordering: 5
+  unit_code: 4WBI1/1B
+  unit: Unit 1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 21
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: 4XBI1-S3
+  title: 'Structure and functions in living organisms: Part 2'
+  ordering: 6
+  unit_code: 4WBI2/1B
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 25
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: 4XBI1-S4
+  title: Reproduction and inheritance
+  ordering: 7
   unit_code: 4WBI2/1B
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -110,9 +138,9 @@ topics:
     pdf_page: 28
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S6
+- code: 4XBI1-S5
   title: Ecology and the environment
-  ordering: 6
+  ordering: 8
   unit_code: 4WBI2/1B
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -124,9 +152,9 @@ topics:
     pdf_page: 31
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S7
+- code: 4XBI1-S6
   title: Use of biological resources
-  ordering: 7
+  ordering: 9
   unit_code: 4WBI2/1B
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -138,36 +166,8 @@ topics:
     pdf_page: 33
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S8
-  title: Assessment information
-  ordering: 8
-  unit_code: 4WBI2/1B
-  unit: Unit 2
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 35
-    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
-  damage_flags: []
-- code: 4XBI1-S9
-  title: 1/2 Assessed through a 1 hour and 90
-  ordering: 9
-  unit_code: 4WBI2/1B
-  unit: Unit 2
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 35
-    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
-  damage_flags: []
 - code: 4XBI1-S10
-  title: 1/2 Assessed through a 1-hour and 90
+  title: Assessment information
   ordering: 10
   unit_code: 4WBI2/1B
   unit: Unit 2
@@ -181,8 +181,36 @@ topics:
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
 - code: 4XBI1-S11
-  title: Administration and general information
+  title: 1/2 Assessed through a 1 hour and 90
   ordering: 11
+  unit_code: 4WBI2/1B
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 35
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: 4XBI1-S12
+  title: 1/2 Assessed through a 1-hour and 90
+  ordering: 12
+  unit_code: 4WBI2/1B
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 35
+    pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
+  damage_flags: []
+- code: 4XBI1-S13
+  title: Administration and general information
+  ordering: 13
   unit_code: 4WBI2/1B
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -194,9 +222,9 @@ topics:
     pdf_page: 38
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S12
+- code: 4XBI1-S14
   title: '(code: 4WBI1)'
-  ordering: 12
+  ordering: 14
   unit_code: 4WBI2/1B
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -208,9 +236,9 @@ topics:
     pdf_page: 41
     pdf_sha1: 6d4d8f45da80e51e4db83da5046bb7c128595936
   damage_flags: []
-- code: 4XBI1-S13
+- code: 4XBI1-S15
   title: '(code: 4WBI2)'
-  ordering: 13
+  ordering: 15
   unit_code: 4WBI2/1B
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -226,182 +254,182 @@ subsections:
 - code: 4XBI1-SUB1
   letter: a
   title: Characteristics of living organisms
-  parent_topic: 4XBI1-S3
+  parent_topic: 4XBI1-SF3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 19
 - code: 4XBI1-SUB2
   letter: b
   title: Variety of living organisms
-  parent_topic: 4XBI1-S3
+  parent_topic: 4XBI1-SF3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 19
 - code: 4XBI1-SUB3
   letter: b
   title: Variety of living organisms
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 20
 - code: 4XBI1-SUB4
   letter: a
   title: Level of organisation
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4XBI1-SUB5
   letter: b
   title: Cell structure
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4XBI1-SUB6
   letter: c
   title: Biological molecules
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4XBI1-SUB7
   letter: d
   title: Movement of substances into and out of cells
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4XBI1-SUB8
   letter: e
   title: Nutrition
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4XBI1-SUB9
   letter: f
   title: Respiration
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4XBI1-SUB10
   letter: g
   title: Gas exchange
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4XBI1-SUB11
   letter: h
   title: Transport
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 25
 - code: 4XBI1-SUB12
   letter: h
   title: Transport
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4XBI1-SUB13
   letter: i
   title: Excretion
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4XBI1-SUB14
   letter: j
   title: Co-ordination and response
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4XBI1-SUB15
   letter: j
   title: Co-ordination and response
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
 - code: 4XBI1-SUB16
   letter: a
   title: Reproduction
-  parent_topic: 4XBI1-S4
+  parent_topic: 4XBI1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 28
 - code: 4XBI1-SUB17
   letter: b
   title: Inheritance
-  parent_topic: 4XBI1-S5
+  parent_topic: 4XBI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4XBI1-SUB18
   letter: b
   title: Inheritance
-  parent_topic: 4XBI1-S5
+  parent_topic: 4XBI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4XBI1-SUB19
   letter: a
   title: The organism in the environment
-  parent_topic: 4XBI1-S5
+  parent_topic: 4XBI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XBI1-SUB20
   letter: b
   title: Feeding relationships
-  parent_topic: 4XBI1-S5
+  parent_topic: 4XBI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XBI1-SUB21
   letter: c
   title: Cycles within ecosystems
-  parent_topic: 4XBI1-S5
+  parent_topic: 4XBI1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XBI1-SUB22
   letter: d
   title: Human influences on the environment
-  parent_topic: 4XBI1-S6
+  parent_topic: 4XBI1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4XBI1-SUB23
   letter: a
   title: Food production
-  parent_topic: 4XBI1-S6
+  parent_topic: 4XBI1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 33
 - code: 4XBI1-SUB24
   letter: b
   title: Selective breeding
-  parent_topic: 4XBI1-S6
+  parent_topic: 4XBI1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 33
 - code: 4XBI1-SUB25
   letter: c
   title: Genetic modification (genetic engineering)
-  parent_topic: 4XBI1-S7
+  parent_topic: 4XBI1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4XBI1-SUB26
   letter: d
   title: Cloning
-  parent_topic: 4XBI1-S7
+  parent_topic: 4XBI1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34

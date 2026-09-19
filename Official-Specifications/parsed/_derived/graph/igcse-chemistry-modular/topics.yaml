@@ -14,10 +14,10 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
-  spec_points: 182
-  topics: 9
+  spec_points: 181
+  topics: 17
   subsections: 31
   practicals: 12
 qualification_units:
@@ -42,11 +42,11 @@ qualification_units:
   - 7
   - 8
 topics:
-- code: 4XCH1-S1
+- code: 4XCH1-SF1
   title: About this specification
   ordering: 1
-  unit_code: 4WCH1/1C
-  unit: Unit 1
+  unit_code: null
+  unit: null
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -56,7 +56,7 @@ topics:
     pdf_page: 7
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
-- code: 4XCH1-S2
+- code: 4XCH1-SF2
   title: Qualification at a glance
   ordering: 2
   unit_code: 4WCH2/1C
@@ -70,11 +70,11 @@ topics:
     pdf_page: 15
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
-- code: 4XCH1-S3
+- code: 4XCH1-SF3
   title: Chemistry content
   ordering: 3
-  unit_code: 4WCH1/1C
-  unit: Unit 1
+  unit_code: 4WCH2/1C
+  unit: Unit 2
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
@@ -84,23 +84,65 @@ topics:
     pdf_page: 19
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
-- code: 4XCH1-S4
-  title: Assessment information
+- code: 4XCH1-S1
+  title: 'Principles of chemistry: Part 1'
   ordering: 4
-  unit_code: 4WCH2/1C
-  unit: Unit 2
+  unit_code: 4WCH1/1C
+  unit: Unit 1
   validation_status: RULE_DERIVED
   confidence: 1.0
   version: 1
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 37
+    pdf_page: 21
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S2
+  title: 'Inorganic chemistry: Part 1'
+  ordering: 5
+  unit_code: 4WCH1/1C
+  unit: Unit 1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 24
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S3
+  title: 'Physical chemistry: Part 1'
+  ordering: 6
+  unit_code: 4WCH1/1C
+  unit: Unit 1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 27
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S4
+  title: 'Organic chemistry: Part 1'
+  ordering: 7
+  unit_code: 4WCH1/1C
+  unit: Unit 1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 28
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
 - code: 4XCH1-S5
-  title: 1/2 Assessed through a 1 hour and 90
-  ordering: 5
+  title: 'Principles of chemistry: Part 2'
+  ordering: 8
   unit_code: 4WCH2/1C
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -109,12 +151,54 @@ topics:
   provenance:
     tier: RULE_DERIVED
     extraction_method: pdf-span-geometry
-    pdf_page: 37
+    pdf_page: 30
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
 - code: 4XCH1-S6
-  title: 1/2 Assessed through a 1 hour and 90
-  ordering: 6
+  title: 'Inorganic chemistry: Part 2'
+  ordering: 9
+  unit_code: 4WCH2/1C
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 32
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S7
+  title: 'Physical chemistry: Part 2'
+  ordering: 10
+  unit_code: 4WCH2/1C
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 34
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S8
+  title: 'Organic chemistry: Part 2'
+  ordering: 11
+  unit_code: 4WCH2/1C
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 35
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S12
+  title: Assessment information
+  ordering: 12
   unit_code: 4WCH2/1C
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -126,9 +210,37 @@ topics:
     pdf_page: 37
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
-- code: 4XCH1-S7
+- code: 4XCH1-S13
+  title: 1/2 Assessed through a 1 hour and 90
+  ordering: 13
+  unit_code: 4WCH2/1C
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 37
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S14
+  title: 1/2 Assessed through a 1 hour and 90
+  ordering: 14
+  unit_code: 4WCH2/1C
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 37
+    pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
+  damage_flags: []
+- code: 4XCH1-S15
   title: Administration and general information
-  ordering: 7
+  ordering: 15
   unit_code: 4WCH2/1C
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -140,9 +252,9 @@ topics:
     pdf_page: 40
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
-- code: 4XCH1-S8
+- code: 4XCH1-S16
   title: '(code: 4WCH1)'
-  ordering: 8
+  ordering: 16
   unit_code: 4WCH2/1C
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -154,9 +266,9 @@ topics:
     pdf_page: 43
     pdf_sha1: 9df406d3852b4d3c57ae58f87e3ed90ab0369132
   damage_flags: []
-- code: 4XCH1-S9
+- code: 4XCH1-S17
   title: '(code: 4WCH2)'
-  ordering: 9
+  ordering: 17
   unit_code: 4WCH2/1C
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -172,77 +284,77 @@ subsections:
 - code: 4XCH1-SUB1
   letter: a
   title: States of matter
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-SF3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4XCH1-SUB2
   letter: b
   title: Elements, compounds and mixtures
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4XCH1-SUB3
   letter: c
   title: Atomic structure
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4XCH1-SUB4
   letter: d
   title: The Periodic Table
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4XCH1-SUB5
   letter: d
   title: The Periodic Table
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4XCH1-SUB6
   letter: e
   title: Chemical formulae, equations and calculations
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4XCH1-SUB7
   letter: a
   title: Reactivity series
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4XCH1-SUB8
   letter: b
   title: Extraction and uses of metals
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 25
 - code: 4XCH1-SUB9
   letter: c
   title: Acids, alkalis and titrations
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 25
 - code: 4XCH1-SUB10
   letter: d
   title: Acids, bases and salt preparations
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4XCH1-SUB11
   letter: a
   title: Energetics
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
@@ -263,126 +375,126 @@ subsections:
 - code: 4XCH1-SUB14
   letter: b
   title: Crude oil
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4XCH1-SUB15
   letter: c
   title: Alkanes
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4XCH1-SUB16
   letter: d
   title: Alkenes
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4XCH1-SUB17
   letter: f
   title: Ionic bonding
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4XCH1-SUB18
   letter: g
   title: Covalent bonding
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4XCH1-SUB19
   letter: g
   title: Covalent bonding
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XCH1-SUB20
   letter: h
   title: Metallic bonding
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XCH1-SUB21
   letter: i
   title: Electrolysis
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XCH1-SUB22
   letter: e
   title: Group 1 (alkali metals) – lithium, sodium and potassium
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4XCH1-SUB23
   letter: f
   title: Group 7 (halogens) – chlorine, bromine and iodine
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4XCH1-SUB24
   letter: g
   title: Gases in the atmosphere
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4XCH1-SUB25
   letter: h
   title: Chemical tests
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 33
 - code: 4XCH1-SUB26
   letter: b
   title: Rates of reaction
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4XCH1-SUB27
   letter: c
   title: Reversible reactions and equilibria
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4XCH1-SUB28
   letter: e
   title: Alcohols
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 35
 - code: 4XCH1-SUB29
   letter: f
   title: Carboxylic acids
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 35
 - code: 4XCH1-SUB30
   letter: g
   title: Esters
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 36
 - code: 4XCH1-SUB31
   letter: h
   title: Synthetic polymers
-  parent_topic: 4XCH1-S3
+  parent_topic: 4XCH1-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 36

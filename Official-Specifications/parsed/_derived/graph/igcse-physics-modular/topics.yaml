@@ -14,10 +14,10 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
   spec_points: 195
-  topics: 16
+  topics: 18
   subsections: 34
   practicals: 13
 qualification_units:
@@ -43,7 +43,7 @@ qualification_units:
   - 8
   - 9
 topics:
-- code: 4XPH1-S1
+- code: 4XPH1-SF1
   title: About this specification
   ordering: 1
   unit_code: null
@@ -57,7 +57,7 @@ topics:
     pdf_page: 7
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S2
+- code: 4XPH1-SF2
   title: Qualification at a glance
   ordering: 2
   unit_code: 4WPH2/1P
@@ -71,7 +71,7 @@ topics:
     pdf_page: 15
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S3
+- code: 4XPH1-SF3
   title: Physics content
   ordering: 3
   unit_code: 4WPH2/1P
@@ -85,7 +85,7 @@ topics:
     pdf_page: 19
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S4
+- code: 4XPH1-S1
   title: Forces and motion
   ordering: 4
   unit_code: 4WPH1/1P
@@ -99,7 +99,7 @@ topics:
     pdf_page: 21
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S5
+- code: 4XPH1-S2
   title: Electricity
   ordering: 5
   unit_code: 4WPH1/1P
@@ -113,7 +113,7 @@ topics:
     pdf_page: 24
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S6
+- code: 4XPH1-S3
   title: Energy resources and energy transfers
   ordering: 6
   unit_code: 4WPH1/1P
@@ -127,9 +127,23 @@ topics:
     pdf_page: 26
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S7
-  title: Waves
+- code: 4XPH1-S4
+  title: 'Solids, liquids and gases: Part 1'
   ordering: 7
+  unit_code: 4WPH1/1P
+  unit: Unit 1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 28
+    pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
+  damage_flags: []
+- code: 4XPH1-S5
+  title: Waves
+  ordering: 8
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -141,9 +155,23 @@ topics:
     pdf_page: 30
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S8
+- code: 4XPH1-S6
+  title: 'Solids, liquids and gases: Part 2'
+  ordering: 9
+  unit_code: 4WPH2/1P
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 33
+    pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
+  damage_flags: []
+- code: 4XPH1-S7
   title: Magnetism and electromagnetism
-  ordering: 8
+  ordering: 10
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -155,9 +183,9 @@ topics:
     pdf_page: 34
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S9
+- code: 4XPH1-S8
   title: Radioactivity and particles
-  ordering: 9
+  ordering: 11
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -169,9 +197,9 @@ topics:
     pdf_page: 36
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S10
+- code: 4XPH1-S9
   title: Astrophysics
-  ordering: 10
+  ordering: 12
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -183,36 +211,8 @@ topics:
     pdf_page: 38
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S11
-  title: Assessment information
-  ordering: 11
-  unit_code: 4WPH2/1P
-  unit: Unit 2
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 40
-    pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
-  damage_flags: []
-- code: 4XPH1-S12
-  title: 1/2 Assessed through a 1 hour and 90
-  ordering: 12
-  unit_code: 4WPH2/1P
-  unit: Unit 2
-  validation_status: RULE_DERIVED
-  confidence: 1.0
-  version: 1
-  provenance:
-    tier: RULE_DERIVED
-    extraction_method: pdf-span-geometry
-    pdf_page: 40
-    pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
-  damage_flags: []
 - code: 4XPH1-S13
-  title: 1/2 Assessed through a 1 hour and 90
+  title: Assessment information
   ordering: 13
   unit_code: 4WPH2/1P
   unit: Unit 2
@@ -226,8 +226,36 @@ topics:
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
 - code: 4XPH1-S14
-  title: Administration and general information
+  title: 1/2 Assessed through a 1 hour and 90
   ordering: 14
+  unit_code: 4WPH2/1P
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 40
+    pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
+  damage_flags: []
+- code: 4XPH1-S15
+  title: 1/2 Assessed through a 1 hour and 90
+  ordering: 15
+  unit_code: 4WPH2/1P
+  unit: Unit 2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 40
+    pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
+  damage_flags: []
+- code: 4XPH1-S16
+  title: Administration and general information
+  ordering: 16
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -239,9 +267,9 @@ topics:
     pdf_page: 43
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S15
+- code: 4XPH1-S17
   title: '(code: 4WPH1)'
-  ordering: 15
+  ordering: 17
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -253,9 +281,9 @@ topics:
     pdf_page: 46
     pdf_sha1: 6cc258ccf86312b47daff4792f043b1895ddb378
   damage_flags: []
-- code: 4XPH1-S16
+- code: 4XPH1-S18
   title: '(code: 4WPH2)'
-  ordering: 16
+  ordering: 18
   unit_code: 4WPH2/1P
   unit: Unit 2
   validation_status: RULE_DERIVED
@@ -271,238 +299,238 @@ subsections:
 - code: 4XPH1-SUB1
   letter: a
   title: Units
-  parent_topic: 4XPH1-S3
+  parent_topic: 4XPH1-SF3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4XPH1-SUB2
   letter: b
   title: Movement and position
-  parent_topic: 4XPH1-S3
+  parent_topic: 4XPH1-SF3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 21
 - code: 4XPH1-SUB3
   letter: c
   title: Forces, movement, shape and momentum
-  parent_topic: 4XPH1-S4
+  parent_topic: 4XPH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 22
 - code: 4XPH1-SUB4
   letter: c
   title: Forces, movement, shape and momentum
-  parent_topic: 4XPH1-S4
+  parent_topic: 4XPH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 23
 - code: 4XPH1-SUB5
   letter: a
   title: Units
-  parent_topic: 4XPH1-S4
+  parent_topic: 4XPH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4XPH1-SUB6
   letter: b
   title: Mains electricity
-  parent_topic: 4XPH1-S4
+  parent_topic: 4XPH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4XPH1-SUB7
   letter: c
   title: Energy and voltage in circuits
-  parent_topic: 4XPH1-S4
+  parent_topic: 4XPH1-S1
   provenance:
     tier: RULE_DERIVED
     pdf_page: 24
 - code: 4XPH1-SUB8
   letter: c
   title: Energy and voltage in circuits
-  parent_topic: 4XPH1-S5
+  parent_topic: 4XPH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 25
 - code: 4XPH1-SUB9
   letter: d
   title: Electric charge
-  parent_topic: 4XPH1-S5
+  parent_topic: 4XPH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 25
 - code: 4XPH1-SUB10
   letter: a
   title: Units
-  parent_topic: 4XPH1-S5
+  parent_topic: 4XPH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4XPH1-SUB11
   letter: b
   title: Energy transfers
-  parent_topic: 4XPH1-S5
+  parent_topic: 4XPH1-S2
   provenance:
     tier: RULE_DERIVED
     pdf_page: 26
 - code: 4XPH1-SUB12
   letter: c
   title: Work and power
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
 - code: 4XPH1-SUB13
   letter: d
   title: Energy resources and electricity generation
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 27
 - code: 4XPH1-SUB14
   letter: a
   title: Units
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 28
 - code: 4XPH1-SUB15
   letter: b
   title: Density and pressure
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S3
   provenance:
     tier: RULE_DERIVED
     pdf_page: 28
 - code: 4XPH1-SUB16
   letter: c
   title: Change of state
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 29
 - code: 4XPH1-SUB17
   letter: a
   title: Units
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4XPH1-SUB18
   letter: b
   title: Properties of waves
-  parent_topic: 4XPH1-S6
+  parent_topic: 4XPH1-S4
   provenance:
     tier: RULE_DERIVED
     pdf_page: 30
 - code: 4XPH1-SUB19
   letter: c
   title: The electromagnetic spectrum
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XPH1-SUB20
   letter: d
   title: Light and sound
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 31
 - code: 4XPH1-SUB21
   letter: d
   title: Light and sound
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 32
 - code: 4XPH1-SUB22
   letter: d
   title: Ideal gas molecules
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S5
   provenance:
     tier: RULE_DERIVED
     pdf_page: 33
 - code: 4XPH1-SUB23
   letter: a
   title: Units
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4XPH1-SUB24
   letter: b
   title: Magnetism
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4XPH1-SUB25
   letter: c
   title: Electromagnetism
-  parent_topic: 4XPH1-S7
+  parent_topic: 4XPH1-S6
   provenance:
     tier: RULE_DERIVED
     pdf_page: 34
 - code: 4XPH1-SUB26
   letter: d
   title: Electromagnetic induction
-  parent_topic: 4XPH1-S8
+  parent_topic: 4XPH1-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 35
 - code: 4XPH1-SUB27
   letter: a
   title: Units
-  parent_topic: 4XPH1-S8
+  parent_topic: 4XPH1-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 36
 - code: 4XPH1-SUB28
   letter: b
   title: Radioactivity
-  parent_topic: 4XPH1-S8
+  parent_topic: 4XPH1-S7
   provenance:
     tier: RULE_DERIVED
     pdf_page: 36
 - code: 4XPH1-SUB29
   letter: b
   title: Radioactivity
-  parent_topic: 4XPH1-S9
+  parent_topic: 4XPH1-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 37
 - code: 4XPH1-SUB30
   letter: c
   title: Fission and fusion
-  parent_topic: 4XPH1-S9
+  parent_topic: 4XPH1-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 37
 - code: 4XPH1-SUB31
   letter: a
   title: Units
-  parent_topic: 4XPH1-S9
+  parent_topic: 4XPH1-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 38
 - code: 4XPH1-SUB32
   letter: b
   title: Motion in the universe
-  parent_topic: 4XPH1-S9
+  parent_topic: 4XPH1-S8
   provenance:
     tier: RULE_DERIVED
     pdf_page: 38
 - code: 4XPH1-SUB33
   letter: c
   title: Stellar evolution
-  parent_topic: 4XPH1-S10
+  parent_topic: 4XPH1-S9
   provenance:
     tier: RULE_DERIVED
     pdf_page: 39
 - code: 4XPH1-SUB34
   letter: d
   title: Cosmology
-  parent_topic: 4XPH1-S10
+  parent_topic: 4XPH1-S9
   provenance:
     tier: RULE_DERIVED
     pdf_page: 39
