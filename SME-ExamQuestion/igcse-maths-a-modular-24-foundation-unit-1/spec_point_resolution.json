@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 88,
-  "resolved": 84,
-  "unresolved": 4
+  "resolved": 85,
+  "unresolved": 3
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -453,8 +453,12 @@
    "sme_name": "Two Way Tables",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "6.1B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-6.1B",
+   "official_wording": "use appropriate methods of tabulation to enable the construction of statistical diagrams",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
   },
   {
    "id": "spcpt_Nh8WWWGQxmJGVvvf",
@@ -785,7 +789,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'find perimeters and areas of sectors of circles' (arc length)."
+   "reason": "no-guess pending for this lane: 4.9A exists as U1H-4.9A (Higher unit 1); the Foundation-unit pool excludes it by design - the old reason's 'committed parse dropped it' claim was wrong (U1H-4.9A is present)"
   },
   {
    "id": "spcpt_fDJc5vx3rHjF7mqC",

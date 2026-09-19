@@ -4,7 +4,7 @@
  "qual": "igcse-maths-a-modular",
  "regime": "B",
  "unit_scope": "Unit 1 Higher",
- "generated_utc": "2026-09-19T10:17:42Z",
+ "generated_utc": "2026-09-19T15:30:24Z",
  "sme_entries": 100,
  "official_pool": 33,
  "mappings": {
@@ -1261,10 +1261,11 @@
    "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   },
   "spcpt_3fMGfNtg3hXMg6gC": {
-   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-4.4F",
-   "official_code": "4.4F",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2H-4.11C",
+   "official_code": "4.11C",
    "tier": "P2_operator_content_join",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
   },
   "spcpt_3sptc2fDMgGnNYqg": {
    "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.2I",
@@ -1319,24 +1320,28 @@
    "official_code": "1.4B",
    "tier": "P2_operator_content_join",
    "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_3dwTMtMPJqHpnmch": {
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-3.3G",
+   "official_code": "3.3G",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_3nz4CDxVDMqZNQNR": {
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-4.2F",
+   "official_code": "4.2F",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
+  },
+  "spcpt_KNXbNby67zKvX8SX": {
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.3C",
+   "official_code": "1.3C",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
   }
  },
- "unmapped": [
-  {
-   "spcpt_id": "spcpt_3dwTMtMPJqHpnmch",
-   "name": "Perpendicular Lines",
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
-  },
-  {
-   "spcpt_id": "spcpt_3nz4CDxVDMqZNQNR",
-   "name": "Congruence",
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
-  },
-  {
-   "spcpt_id": "spcpt_KNXbNby67zKvX8SX",
-   "name": "Ordering FDP",
-   "reason": "no-guess pending: SME teaches ordering fractions, decimals and percentages together, but the committed parse carries only per-type ordering statements (1.1D order integers, 1.3C order decimals); no combined FDP-ordering statement (PDF-verified); flagged for parse repair"
-  }
- ],
+ "unmapped": [],
  "flags": []
 }

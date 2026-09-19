@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 33,
-  "resolved": 30,
-  "unresolved": 3
+  "resolved": 31,
+  "unresolved": 2
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -231,7 +231,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches mark-up, but the committed parse carries no mark-up statement (only the gross-profit-percentage fragment S4.069 survives); blocks nothing"
+   "reason": "no-guess pending: print-level absence - the 4AC1 specification carries no mark-up statement (PDF-verified); not a parse gap; references no question part; blocks nothing"
   },
   {
    "id": "spcpt_f5VyXvKYFPPkwZpG",
@@ -260,8 +260,11 @@
    "sme_name": "Direct & Indirect Costs",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches direct and indirect costs in manufacturing accounts, but the committed igcse-accounting parse carries no cost-classification statement (the S4.072 fragment merely trails 'production cost and total cost.'); flagged for parse repair"
+   "resolved_code": "S4.174",
+   "official_id": "IGCSE_ACCOUNTING:S4.174",
+   "official_wording": "Prepare manufacturing accounts to show prime cost, production cost and total cost.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_kDPYZNNZvFT6scVb",

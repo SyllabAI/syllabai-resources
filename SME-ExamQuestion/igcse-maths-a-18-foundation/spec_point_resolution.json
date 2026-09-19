@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 162,
-  "resolved": 157,
-  "unresolved": 5
+  "resolved": 155,
+  "unresolved": 7
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -14,13 +14,9 @@
    "sme_name": "Speed-Time Graphs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "2.8D",
-   "official_id": "IGCSE_MATHS_A:2.8D",
-   "official_wording": "represent simple linear inequalities on rectangular Cartesian graphs",
-   "tier": "P1_name_fragment_join",
    "score": 1.0,
-   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "reason": "no-guess pending: CORRECTION of the T-SPEC-7 P1_name_fragment_join - the recorded 2.8D is 'represent simple linear inequalities on rectangular Cartesian graphs', not speed-time graphs; the 4MA1 print carries no speed-time-graphs statement (PDF-verified; the only speed rows are the 4.4F/G compound-measure statements); GCSE-bridge content with no honest target"
   },
   {
    "id": "spcpt_2D9sp6d4f6jCmRMx",
@@ -335,7 +331,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: SME teaches comparing data sets, but the committed parse carries no data-comparison statement (PDF-verified); flagged for parse repair"
+   "reason": "no-guess pending: the 4MA1 print carries no data-comparison statement (PDF-verified: compare- hits are administrative text only); nothing to parse-repair - print-level absence"
   },
   {
    "id": "spcpt_8Wtthy9gt8B5xsVW",
@@ -1189,13 +1185,9 @@
    "sme_name": "Nets of Solids",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "4.10A",
-   "official_id": "IGCSE_MATHS_A:4.10A",
-   "official_wording": "recognise and give the names of solids",
-   "tier": "P1_name_fragment_join",
    "score": 1.0,
-   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "reason": "no-guess pending: CORRECTION of the T-SPEC-7 resolution - the recorded 4.10A is 'recognise and give the names of solids', not nets; the 4MA1 print carries no nets statement (PDF-verified 0 hits for nets); no honest target exists"
   },
   {
    "id": "spcpt_ZW8qXZ2qmyqKD5Kn",
@@ -1333,7 +1325,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'find perimeters and areas of sectors of circles' (arc length)."
+   "reason": "no-guess pending for this lane: 4.9A (find perimeters and areas of sectors of circles) is Higher-only (H-4.9A); the Foundation pool excludes Higher-only statements by design (T-SPEC-7 Foundation scope guard); the tag resolves on the Higher lanes - the old reason's 'committed parse dropped it' claim was wrong (H-4.9A is present)"
   },
   {
    "id": "spcpt_fDJc5vx3rHjF7mqC",

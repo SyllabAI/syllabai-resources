@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T04:58:13Z",
- "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 99,
-  "resolved": 97,
-  "unresolved": 2
+  "resolved": 98,
+  "unresolved": 1
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -144,8 +144,11 @@
    "sme_name": "Trigonometry Exact Values",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches exact trigonometric values, but the committed igcse-further-maths parse carries no exact-values statement (10.x retains ratios/graphs 10B, formulae 10D, identities 10E-10G, equations 10H); flagged for parse repair"
+   "resolved_code": "10B",
+   "official_id": "IGCSE_FURTHER_MATHS:10B",
+   "official_wording": "The three basic trigonometric ratios of angles of any magnitude (in degrees or radians) and their graphs",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_5gZxgh7z7kWnnc2Y",
@@ -803,7 +806,7 @@
    "sme_definition": "",
    "referenced_by_parts": 2,
    "resolved_code": null,
-   "reason": "no-guess pending: the number e is introduced standalone, but the committed 9A calculus text carries only a mangled exponential fragment (PDF-parse repair flagged); no joinable statement"
+   "reason": "no-guess pending: the 4PM0 print mentions e^x only inside the 9A exclusion clause (excluding sin ax, cos ax and e^ax - PDF-verified lines 643-644); no standalone exponential/number-e statement exists; the 'mangled fragment' framing is superseded - the exclusion clause IS the committed text"
   },
   {
    "id": "spcpt_bWtW6nrX2V3CgmWK",

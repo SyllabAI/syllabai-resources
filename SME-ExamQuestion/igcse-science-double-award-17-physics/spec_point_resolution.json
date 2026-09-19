@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T17:59:56Z",
- "validation": "AI_VALIDATED (operator-delegated chain; verbatim definition/statement joins per T-SPEC-4; one clearly-marked operator override per ticket #11); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 168,
-  "resolved": 136,
-  "unresolved": 32
+  "resolved": 154,
+  "unresolved": 14
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -29,8 +29,11 @@
    "sme_name": "Electrical power",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "2.4",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.4",
+   "official_wording": "know and use the relationship between power, current and voltage: power = current × voltage P = I × V and apply the relationship to the selection of appropriate fuses",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_3md5WGF3tCbscDWf",
@@ -53,7 +56,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "topic-family pending: Describing wave motion spans 3.2 (longitudinal/transverse), 3.3 (wave definitions), 3.4 (energy transfer) and 3.5 (wave speed) as a set; the one-code sidecar schema would mislabel the family (operator ruling precedent: T-SPEC-2b The Alkenes); the page publishes no definition (ticket #11) and anchors no parts"
   },
   {
    "id": "spcpt_4qn5rNr8VwVcXdty",
@@ -120,8 +123,11 @@
    "sme_name": "Pressure",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "5.5",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.5",
+   "official_wording": "know and use the relationship between pressure, force and area : pressure = force area p = F A",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_5rXPY4DKDzM9m4R9",
@@ -219,7 +225,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "concept-family pending: Charge spans 2.14 (current as flow of charge), 2.15 (Q = It) and 2.21 (E = QV) with no single carrier statement; one-code collapse would mislabel; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_9GdWRhy4vtGW2WSP",
@@ -347,7 +353,7 @@
    "sme_definition": "nan",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME video-resource tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors; not a specification statement — left unresolved (no-guess)."
+   "reason": "not a statement: SME video-resource tag (energy transfer pathways video); video pages are not specification statements (physics-19 precedent); publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_Brt6q5r9bjzMP4yM",
@@ -385,7 +391,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "section-family pending: Electricity and heat spans the whole 2.x electricity and 4.x energy sections; no single statement is the page subject; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_CjCqMDHpBh5ZG6Jg",
@@ -408,7 +414,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "topic-family pending: Light spans 3.10-3.16 (spectrum, reflection/refraction, rays) as a set; one-code collapse would mislabel (The-Alkenes precedent); page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_DCr7Jvbh75dwtCCx",
@@ -445,8 +451,11 @@
    "sme_name": "Core practical 5: investigating snell's law",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "3.19",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.19",
+   "official_wording": "practical: investigate the refractive index of glass, using a glass block",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_FGpJRRCKDdTCMjy3",
@@ -573,16 +582,22 @@
    "sme_name": "Core practical 4: investigating refraction",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "3.17",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.17",
+   "official_wording": "practical: investigate the refraction of light, using rectangular blocks, semi-circular blocks and triangular prisms",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_J66zR2Cvw8hsHP2T",
    "sme_name": "Calculating voltage",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "2.13",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.13",
+   "official_wording": "know and use the relationship between voltage, current and resistance: voltage = current × resistance V = I × R",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_JpvpRKjQMGDMcjT6",
@@ -635,15 +650,18 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "concept-family pending: Current spans 2.14 (rate of flow of charge), 2.15 (Q = It), 2.16 (electron flow) and 2.17 (junction conservation) with no single carrier statement; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_MksfwXM6CtrSc5DV",
    "sme_name": "Dangers of EM waves",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "3.13",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.13",
+   "official_wording": "explain the detrimental effects of excessive exposure of the human body to electromagnetic waves, including:",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_MxsXCk9CZnMqbp3G",
@@ -770,16 +788,22 @@
    "sme_name": "Density",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "5.3",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.3",
+   "official_wording": "know and use the relationship between density, mass and volume: mass density = volume ρ = m V",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_QrSRCx8b773Xt9C9",
    "sme_name": "Snell's law",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "3.18",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.18",
+   "official_wording": "know and use the relationship between refractive index, angle of incidence and angle of refraction: sin i n = sin r",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_RsTvSpkQwqGVSsBt",
@@ -817,7 +841,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "topic-family pending: Sound spans 3.23-3.26 (sound waves, echo, range) as a set; one-code collapse would mislabel; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_SsZnxKx5P2hcKFHV",
@@ -1080,7 +1104,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "ambiguous pending: Calculating energy transfers could be 2.5 (E = IVt), 2.21 (E = QV) or 4.17 (E = Pt); the page publishes no definition (ticket #11) and anchors no parts, so the subject cannot be disambiguated without guessing"
   },
   {
    "id": "spcpt_bwSTq5GWHYz5YFP2",
@@ -1117,8 +1141,11 @@
    "sme_name": "Transverse & longitudinal waves",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "3.2",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.2",
+   "official_wording": "explain the difference between longitudinal and transverse waves",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_cNXPzQ4gnprk8Knh",
@@ -1156,7 +1183,7 @@
    "sme_definition": "nan",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME video-resource tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors; not a specification statement — left unresolved (no-guess)."
+   "reason": "not a statement: SME video-resource tag (life cycle of low-mass stars video); the underlying content lives in 8.9/8.10 but the tag is a video page, not a specification statement (physics-19 precedent); zero anchors"
   },
   {
    "id": "spcpt_ccctmkmpJvdDv3Kc",
@@ -1208,8 +1235,11 @@
    "sme_name": "Core practical 9: determining density",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "5.4",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.4",
+   "official_wording": "practical: investigate density using direct measurements of mass and volume",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_dGMd8fGgNgVc8HBq",
@@ -1247,15 +1277,18 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "topic-family pending: The EM spectrum spans 3.10 (spectrum membership), 3.11 (order) and 3.12-3.13 (uses/dangers) as a set; one-code collapse would mislabel; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_dstbF7n3McfZxh3J",
    "sme_name": "Calculating resultant force",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "1.15",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-1.15",
+   "official_wording": "calculate the resultant force of forces that act along a line",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_dwzzxctnxMfgHY4b",
@@ -1322,8 +1355,11 @@
    "sme_name": "Calculating work done",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "4.11",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.11",
+   "official_wording": "know and use the relationship between work done, force and distance moved in the direction of the force: work done = force × distance moved W = F × d",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_hQdjVDFdpFhbFxwd",
@@ -1346,7 +1382,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "concept-family pending: Voltage spans 2.13 (V = IR), 2.18 (parallel p.d.), 2.20 (volt definition) and 2.21 (E = QV) with no single carrier statement; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_j93Dnsj2VtCrtjXw",
@@ -1354,7 +1390,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "topic-family pending: Properties of EM waves has no single carrier statement (nearest family 3.10-3.13); page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_jdQbvFrSvkM5VxMN",
@@ -1376,24 +1412,33 @@
    "sme_name": "Work done",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "4.11",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.11",
+   "official_wording": "know and use the relationship between work done, force and distance moved in the direction of the force: work done = force × distance moved W = F × d",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_kxtBH24z78PtvXw7",
    "sme_name": "Friction",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "1.16",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-1.16",
+   "official_wording": "know that friction is a force that opposes motion",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_mKFH4q599hkBdw9x",
    "sme_name": "Calculating current, resistance & potential difference",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "2.13",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.13",
+   "official_wording": "know and use the relationship between voltage, current and resistance: voltage = current × resistance V = I × R",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_mM5BSwPjmx9gVfMB",
@@ -1476,7 +1521,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "section-family pending: Waves and energy spans the 3.x waves and 4.x energy sections; no single statement is the page subject; page publishes no definition (ticket #11); zero anchors"
   },
   {
    "id": "spcpt_nppDtjbxmwrwXwpb",
@@ -1573,8 +1618,11 @@
    "sme_name": "Calculating electric charge",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "2.15",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.15",
+   "official_wording": "know and use the relationship between charge, current and time: charge = current × time Q = I × t",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_qdQt4JMjsKZJXqFc",
@@ -1611,8 +1659,11 @@
    "sme_name": "Selecting fuses",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "2.2",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.2",
+   "official_wording": "understand how the use of insulation, double insulation, earthing, fuses and circuit breakers protects the device or user in a range of domestic appliances",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_rnXxHH2cDzmvy22z",
@@ -1680,7 +1731,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "reason": "ambiguous pending: Calculating power could be 4.17 (P = W/t) or 2.4 (P = IV); the page publishes no definition (ticket #11) and anchors no parts, so the subject cannot be disambiguated without guessing"
   },
   {
    "id": "spcpt_tkKdRZ8MCqWs6BcV",
@@ -1717,8 +1768,11 @@
    "sme_name": "Power",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "SME tag page publishes no definition text (definition: \"nan\"; upstream ticket #11); zero question-part and zero flashcard anchors — left unresolved (no-guess)."
+   "resolved_code": "4.16",
+   "official_id": "IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.16",
+   "official_wording": "describe power as the rate of transfer of energy or the rate of doing work",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_wQCqdR25rtn99cf8",

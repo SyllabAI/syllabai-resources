@@ -4,7 +4,7 @@
  "qual": "igcse-maths-a",
  "regime": "B",
  "unit_scope": null,
- "generated_utc": "2026-09-19T10:17:42Z",
+ "generated_utc": "2026-09-19T15:30:24Z",
  "sme_entries": 154,
  "official_pool": 162,
  "mappings": {
@@ -473,22 +473,6 @@
     "pmt_excluded": true
    }
   },
-  "spcpt_27Znm3wFFhCxBD52": {
-   "official_id": "IGCSE_MATHS_A:2.8D",
-   "official_code": "2.8D",
-   "tier": "P1_name_fragment_join",
-   "score": 1.0,
-   "unit": null,
-   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "resolution": {
-    "lane": "operator-verdict (T-SPEC-7)",
-    "quote": "Speed-Time Graphs",
-    "page": "speed-time-graphs",
-    "twin_codes": null,
-    "superseded_code": null,
-    "pmt_excluded": true
-   }
-  },
   "spcpt_2DcsBcGRQhpvfDPS": {
    "official_id": "IGCSE_MATHS_A:6.3F",
    "official_code": "6.3F",
@@ -708,22 +692,6 @@
     "lane": "operator-verdict (T-SPEC-7)",
     "quote": "Probability & Venn Diagrams",
     "page": "probabilities-from-venn-diagrams",
-    "twin_codes": null,
-    "superseded_code": null,
-    "pmt_excluded": true
-   }
-  },
-  "spcpt_YbnQpJQYYZhVMwpX": {
-   "official_id": "IGCSE_MATHS_A:4.10A",
-   "official_code": "4.10A",
-   "tier": "P1_name_fragment_join",
-   "score": 1.0,
-   "unit": null,
-   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "resolution": {
-    "lane": "operator-verdict (T-SPEC-7)",
-    "quote": "Nets of Solids",
-    "page": "nets-of-solids",
     "twin_codes": null,
     "superseded_code": null,
     "pmt_excluded": true
@@ -2000,6 +1968,11 @@
  },
  "unmapped": [
   {
+   "spcpt_id": "spcpt_27Znm3wFFhCxBD52",
+   "name": "Speed-Time Graphs",
+   "reason": "no-guess pending: CORRECTION of the T-SPEC-7 P1_name_fragment_join - the recorded 2.8D is 'represent simple linear inequalities on rectangular Cartesian graphs', not speed-time graphs; the 4MA1 print carries no speed-time-graphs statement (PDF-verified; the only speed rows are the 4.4F/G compound-measure statements); GCSE-bridge content with no honest target"
+  },
+  {
    "spcpt_id": "spcpt_3fMGfNtg3hXMg6gC",
    "name": "Problem Solving with Areas",
    "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
@@ -2013,6 +1986,11 @@
    "spcpt_id": "spcpt_WDjD46wdhy2YdYdv",
    "name": "Planes of Symmetry",
    "reason": "no-guess pending: SME teaches this topic but the published 4MA1 specification contains no standalone statement for it (PDF-verified); GCSE-bridge / guide content Planes of symmetry do not appear in the published 4MA1 spec (PDF-verified, 0 hits)."
+  },
+  {
+   "spcpt_id": "spcpt_YbnQpJQYYZhVMwpX",
+   "name": "Nets of Solids",
+   "reason": "no-guess pending: CORRECTION of the T-SPEC-7 resolution - the recorded 4.10A is 'recognise and give the names of solids', not nets; the 4MA1 print carries no nets statement (PDF-verified 0 hits for nets); no honest target exists"
   },
   {
    "spcpt_id": "spcpt_dvX7WnB2FSdky4jW",

@@ -4,7 +4,7 @@
  "qual": "igcse-economics",
  "regime": "B",
  "unit_scope": null,
- "generated_utc": "2026-09-19T10:17:42Z",
+ "generated_utc": "2026-09-19T15:30:24Z",
  "sme_entries": 204,
  "official_pool": 94,
  "mappings": {
@@ -2686,14 +2686,57 @@
    "official_code": "1.2.1a",
    "tier": "S0_operator_override",
    "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+  },
+  "spcpt_mGmf5GbSGJQxRtCW": {
+   "official_id": "IGCSE_ECONOMICS:2.1.2a",
+   "official_code": "2.1.2a",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_ncDNpzRzSV8smPDt": {
+   "official_id": "IGCSE_ECONOMICS:2.1.2a",
+   "official_code": "2.1.2a",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_kXdYXbWfPrHd37Ds": {
+   "official_id": "IGCSE_ECONOMICS:2.2.1a",
+   "official_code": "2.2.1a",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_jJFC8p32CznJYGRc": {
+   "official_id": "IGCSE_ECONOMICS:2.2.2a",
+   "official_code": "2.2.2a",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_3gjCfX9r5qJwhx73": {
+   "official_id": "IGCSE_ECONOMICS:2.2.2a",
+   "official_code": "2.2.2a",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_fTPV32QnJHwTY4HV": {
+   "official_id": "IGCSE_ECONOMICS:1.1.5j",
+   "official_code": "1.1.5j",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_XGQK9rtnFdFvHqhW": {
+   "official_id": "IGCSE_ECONOMICS:2.1.1a",
+   "official_code": "2.1.1a",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "spcpt_y4jFYqYKnfsjZ9WH": {
+   "official_id": "IGCSE_ECONOMICS:1.2.3a",
+   "official_code": "1.2.3a",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   }
  },
  "unmapped": [
-  {
-   "spcpt_id": "spcpt_3gjCfX9r5qJwhx73",
-   "name": "The Costs of Free Trade",
-   "reason": "no-guess pending: SME teaches the costs of free trade, but the committed igcse-economics parse carries no free-trade statement (trade section retains protection 2.2.2b-e and trade patterns 2.2.2f); flagged for parse repair"
-  },
   {
    "spcpt_id": "spcpt_NY6H9sjtdx6zSzq8",
    "name": "Paper 2 Guidance",
@@ -2703,41 +2746,6 @@
    "spcpt_id": "spcpt_TZ5dd7zqPdY8VBvj",
    "name": "Paper 1 Guidance",
    "reason": "pending: SME exam-structure guide (Paper 1); no spec statement; blocks nothing"
-  },
-  {
-   "spcpt_id": "spcpt_XGQK9rtnFdFvHqhW",
-   "name": "Limitations of Using GDP to Measure Growth",
-   "reason": "no-guess pending: SME teaches limitations of using GDP to measure growth, but the committed parse carries no GDP-limitation statement; flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_fTPV32QnJHwTY4HV",
-   "name": "Nationalisation ",
-   "reason": "no-guess pending: SME teaches nationalisation, but the committed igcse-economics parse carries no nationalisation statement (1.1.5 region retains privatisation 1.1.5j/1.1.5k only); flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_jJFC8p32CznJYGRc",
-   "name": "The Benefits of Free Trade",
-   "reason": "no-guess pending: SME teaches the benefits of free trade, but the committed igcse-economics parse carries no free-trade statement; flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_kXdYXbWfPrHd37Ds",
-   "name": "Introduction to Globalisation",
-   "reason": "no-guess pending: SME teaches the definition/concept of globalisation, but the committed parse lacks the globalisation-definition statement (2.2.1a slot absent; registry starts at 2.2.1b reasons for globalisation); flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_mGmf5GbSGJQxRtCW",
-   "name": "The Goals of Fiscal Policy",
-   "reason": "no-guess pending: SME teaches fiscal policy (taxation, government spending, budgets, deficits/surpluses), but the committed igcse-economics parse carries no fiscal-policy statement (2.1.2a slot absent; parse retains monetary 2.1.2b, supply-side 2.1.2c and government-controls 2.1.2d only); flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_ncDNpzRzSV8smPDt",
-   "name": "Why Governments Levy Taxes",
-   "reason": "no-guess pending: SME teaches fiscal policy (taxation, government spending, budgets, deficits/surpluses), but the committed igcse-economics parse carries no fiscal-policy statement (2.1.2a slot absent; parse retains monetary 2.1.2b, supply-side 2.1.2c and government-controls 2.1.2d only); flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_y4jFYqYKnfsjZ9WH",
-   "name": "A Graphical Representation of Costs",
-   "reason": "no-guess pending: SME teaches graphical representation of costs, but the committed parse carries no cost-curves statement (1.2.3 region retains economies/diseconomies of scale only); flagged for parse repair"
   }
  ],
  "flags": [

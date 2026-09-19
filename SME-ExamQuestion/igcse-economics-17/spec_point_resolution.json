@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 204,
-  "resolved": 194,
-  "unresolved": 10
+  "resolved": 202,
+  "unresolved": 2
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -66,8 +66,11 @@
    "sme_name": "The Costs of Free Trade",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the costs of free trade, but the committed igcse-economics parse carries no free-trade statement (trade section retains protection 2.2.2b-e and trade patterns 2.2.2f); flagged for parse repair"
+   "resolved_code": "2.2.2a",
+   "official_id": "IGCSE_ECONOMICS:2.2.2a",
+   "official_wording": "Advantages and disadvantages of free trade, including:",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_42MZfpvPbq5ZD2Pf",
@@ -1379,8 +1382,11 @@
    "sme_name": "Limitations of Using GDP to Measure Growth",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches limitations of using GDP to measure growth, but the committed parse carries no GDP-limitation statement; flagged for parse repair"
+   "resolved_code": "2.1.1a",
+   "official_id": "IGCSE_ECONOMICS:2.1.1a",
+   "official_wording": "Economic growth: o employment o standards of living o poverty o productive potential o inflation o the environment.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_XRRZTPDK7Gj65bgB",
@@ -1641,8 +1647,11 @@
    "sme_name": "Nationalisation ",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches nationalisation, but the committed igcse-economics parse carries no nationalisation statement (1.1.5 region retains privatisation 1.1.5j/1.1.5k only); flagged for parse repair"
+   "resolved_code": "1.1.5j",
+   "official_id": "IGCSE_ECONOMICS:1.1.5j",
+   "official_wording": "Definition of privatisation.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_fgqYYN8C3KJDYSkB",
@@ -1851,8 +1860,11 @@
    "sme_name": "The Benefits of Free Trade",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the benefits of free trade, but the committed igcse-economics parse carries no free-trade statement; flagged for parse repair"
+   "resolved_code": "2.2.2a",
+   "official_id": "IGCSE_ECONOMICS:2.2.2a",
+   "official_wording": "Advantages and disadvantages of free trade, including:",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_jRwVmkjn7jkk5sD5",
@@ -1950,8 +1962,11 @@
    "sme_name": "Introduction to Globalisation",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the definition/concept of globalisation, but the committed parse lacks the globalisation-definition statement (2.2.1a slot absent; registry starts at 2.2.1b reasons for globalisation); flagged for parse repair"
+   "resolved_code": "2.2.1a",
+   "official_id": "IGCSE_ECONOMICS:2.2.1a",
+   "official_wording": "Definition of globalisation: increased integration and interdependence of economies.",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_kbJc9ksTcxb86TFq",
@@ -1984,8 +1999,11 @@
    "sme_name": "The Goals of Fiscal Policy",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches fiscal policy (taxation, government spending, budgets, deficits/surpluses), but the committed igcse-economics parse carries no fiscal-policy statement (2.1.2a slot absent; parse retains monetary 2.1.2b, supply-side 2.1.2c and government-controls 2.1.2d only); flagged for parse repair"
+   "resolved_code": "2.1.2a",
+   "official_id": "IGCSE_ECONOMICS:2.1.2a",
+   "official_wording": "Fiscal policy – government revenue and government expenditure:",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_mfB8hz3ZWtrxjWF7",
@@ -2057,8 +2075,11 @@
    "sme_name": "Why Governments Levy Taxes",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches fiscal policy (taxation, government spending, budgets, deficits/surpluses), but the committed igcse-economics parse carries no fiscal-policy statement (2.1.2a slot absent; parse retains monetary 2.1.2b, supply-side 2.1.2c and government-controls 2.1.2d only); flagged for parse repair"
+   "resolved_code": "2.1.2a",
+   "official_id": "IGCSE_ECONOMICS:2.1.2a",
+   "official_wording": "Fiscal policy – government revenue and government expenditure:",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_njDFhSh6cX7xW5X4",
@@ -2451,8 +2472,11 @@
    "sme_name": "A Graphical Representation of Costs",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches graphical representation of costs, but the committed parse carries no cost-curves statement (1.2.3 region retains economies/diseconomies of scale only); flagged for parse repair"
+   "resolved_code": "1.2.3a",
+   "official_id": "IGCSE_ECONOMICS:1.2.3a",
+   "official_wording": "Definition and use of formulae to calculate:",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_yCxrHFJxhJkCwTBg",

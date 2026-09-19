@@ -1,0 +1,460 @@
+schema: syllabai.t-spec-10-verdicts/1.0
+note: >-
+  T-SPEC-10 operator reasoning round (Nawaf Al Hussain Khondokar, 2026-09-19, IM):
+  the operator instructed the remaining 258 unresolved tag ids be mapped by direct
+  reasoning against the committed registries and the official specification PDFs,
+  not by scripted matching, and without upstream tickets ("You can go through all
+  of them and use your reasoning to map the remaining... Dont upstream. Fix it
+  yourself like before."). Every resolved code was read verbatim from the
+  committed registry; every absence claim was re-verified against the
+  pdftotext -layout extraction of the official Pearson PDF (cache:
+  scripts/t_spec_10_work/pdfcache/). Four existing resolutions are corrected
+  (two refinements where the recorded code did not match the tag subject, two
+  unresolves where no honest target exists); ~30 stale pending reasons are
+  corrected; honest pendings are confirmed as-is. PMT excluded as source
+  throughout. No new upstream tickets were filed.
+id_verdicts:
+  spcpt_mGmf5GbSGJQxRtCW:
+    igcse-economics-17:
+      codes: ['2.1.2a']
+      tier: P2_operator_content_join
+      rationale: 'fiscal-policy goals = restored 2.1.2a ''Fiscal policy - government revenue and government expenditure'' whose sub-items carry definition of fiscal policy, revenue (direct and indirect taxes), expenditure, deficits/surpluses and impact on macroeconomic objectives; the old pending (2.1.2a slot absent) is stale after the T-SPEC-9 parse repair'
+      official_id: IGCSE_ECONOMICS:2.1.2a
+  spcpt_ncDNpzRzSV8smPDt:
+    igcse-economics-17:
+      codes: ['2.1.2a']
+      tier: P2_operator_content_join
+      rationale: 'why governments levy taxes = 2.1.2a sub-item ''government revenue - direct and indirect taxes''; same restored row'
+      official_id: IGCSE_ECONOMICS:2.1.2a
+  spcpt_kXdYXbWfPrHd37Ds:
+    igcse-economics-17:
+      codes: ['2.2.1a']
+      tier: P2_operator_content_join
+      rationale: 'globalisation definition = restored 2.2.1a ''Definition of globalisation: increased integration and interdependence of economies.'' verbatim; old pending (2.2.1a slot absent) stale after T-SPEC-9 repair'
+      official_id: IGCSE_ECONOMICS:2.2.1a
+  spcpt_jJFC8p32CznJYGRc:
+    igcse-economics-17:
+      codes: ['2.2.2a']
+      tier: P2_operator_content_join
+      rationale: 'benefits of free trade = restored 2.2.2a ''Advantages and disadvantages of free trade'' (advantages half); old pending stale after T-SPEC-9 repair'
+      official_id: IGCSE_ECONOMICS:2.2.2a
+  spcpt_3gjCfX9r5qJwhx73:
+    igcse-economics-17:
+      codes: ['2.2.2a']
+      tier: P2_operator_content_join
+      rationale: 'costs of free trade = restored 2.2.2a ''Advantages and disadvantages of free trade'' (disadvantages half)'
+      official_id: IGCSE_ECONOMICS:2.2.2a
+  spcpt_fTPV32QnJHwTY4HV:
+    igcse-economics-17:
+      codes: ['1.1.5j']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the 4EC1 print carries no nationalisation statement (PDF-verified 0 hits for nationalis-); the print''s privatisation rows 1.1.5j/1.1.5k are the same policy lever in the inverse direction; documented mismatch note'
+      official_id: IGCSE_ECONOMICS:1.1.5j
+  spcpt_XGQK9rtnFdFvHqhW:
+    igcse-economics-17:
+      codes: ['2.1.1a']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the committed print never mentions GDP (PDF-verified 0 hits for gross domestic/GDP); the economic-growth statement 2.1.1a is the growth-measurement home the print offers; documented mismatch note'
+      official_id: IGCSE_ECONOMICS:2.1.1a
+  spcpt_y4jFYqYKnfsjZ9WH:
+    igcse-economics-17:
+      codes: ['1.2.3a']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the print carries the cost formulae row 1.2.3a (total revenue, total costs, total fixed/variable costs, average costs, profit) but no cost-curve statement; the graphical representation of those costs is the nearest home; documented mismatch note'
+      official_id: IGCSE_ECONOMICS:1.2.3a
+  spcpt_hgPTWKkgpZhmkzjh:
+    igcse-accounting-17-financial-statements:
+      codes: ['S4.174']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the 4AC1 print carries no direct/indirect cost-classification statement (PDF-verified); nearest is the manufacturing-accounts cost build-up S4.174 (prime cost = direct costs; production/total cost); old pending''s S4.072 fragment reference superseded by the fuller S4.174 row'
+      official_id: IGCSE_ACCOUNTING:S4.174
+  spcpt_V2Ngr7Qct5whDwj2:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      codes: ['S2.134']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the 4AC1 print carries no balance-off-ledger-accounts statement (PDF-verified; balancing appears only of the trial balance); nearest is the double-entry ledger recording statement S2.134 that the balancing step closes off; documented mismatch note'
+      official_id: IGCSE_ACCOUNTING:S2.134
+  spcpt_zsVqrJjvNSXmShv7:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      codes: ['S4.158']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: no transfer-to-income-statement procedure statement in the print (PDF-verified); nearest is the income-statement preparation row S4.158 (the destination statement of the transfer); documented mismatch note'
+      official_id: IGCSE_ACCOUNTING:S4.158
+  spcpt_Pz9fx65q6Fj8C39D:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      codes: ['S2.143']
+      tier: P2_operator_content_join
+      rationale: 'recovery of debts written off joins the irrecoverable-debts row S2.143 ''Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account'' - the old pending claimed the parse carries no irrecoverable-debts statements, but S2.141/2.142/2.143 exist (stale claim corrected)'
+      official_id: IGCSE_ACCOUNTING:S2.143
+  spcpt_rjKKNqNBvGPn8WCn:
+    igcse-business-19:
+      codes: ['1.6.1']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the 4BS1 print''s 1.6.x carries Government spending / How governments can affect business activity / interest-rate effects only (PDF-verified, no government-economic-objectives statement); nearest is the government-spending row 1.6.1 that pursues those objectives; documented mismatch note'
+      official_id: IGCSE_BUSINESS:1.6.1
+  spcpt_5GVxSp9Frzf5Mctm:
+    igcse-further-maths-19:
+      codes: ['10B']
+      tier: P2_operator_content_join
+      rationale: 'the print''s 10B row carries the inclusion note ''To include the exact values for sine, cosine and tangent of 30, 45, 60'' (PDF line-verified) - the exact-values content lives verbatim inside 10B; old pending (no exact-values statement) corrected'
+      official_id: IGCSE_FURTHER_MATHS:10B
+  spcpt_6MtjWGT3xtBK8NB8:
+    igcse-geography-19:
+      codes: ['S9.107']
+      tier: P2_operator_content_join
+      rationale: 'risk assessment = S9.107 ''Consider health and safety and undertake risk assessment.'' verbatim (the old pending claimed the geography parse carries no content statements to name-match - wrong: the S9 investigative/quantitative-skills rows exist)'
+      official_id: IGCSE_GEOGRAPHY:S9.107
+  spcpt_6jWGzCpVyBjmf7Jg:
+    igcse-geography-19:
+      codes: ['S9.116']
+      tier: P2_operator_content_join
+      rationale: 'data presentation = S9.116 ''Select and construct appropriate graphs and charts to present data...'' verbatim'
+      official_id: IGCSE_GEOGRAPHY:S9.116
+  spcpt_zHk5hYxr6KXtZPtM:
+    igcse-geography-19:
+      codes: ['S9.105']
+      tier: P2_operator_content_join
+      rationale: 'enquiry question = S9.105 ''Identify questions or issues for investigation, develop a hypothesis and/or key questions.'' verbatim'
+      official_id: IGCSE_GEOGRAPHY:S9.105
+  spcpt_HNgSs3cgQwX3q6Jn:
+    igcse-geography-19:
+      codes: ['S4.187']
+      tier: P2_operator_content_join
+      rationale: 'location and suitable site = S4.187 ''Factors affecting the location of economic activity in each economic sector''; part-evidenced: the referencing part asks for ''one reason for the choice of economic activity in this location'' (Port of Barcelona figure)'
+      official_id: IGCSE_GEOGRAPHY:S4.187
+  spcpt_zdvGZpdjjjs3DtJs:
+    igcse-geography-19:
+      codes: ['S9.111']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: no explicit limitations/evaluation-of-enquiry statement in the print; nearest is S9.111 ''Develop extended written arguments, drawing well-evidenced and informed conclusions'' (the critical-evaluation stage of the enquiry); documented mismatch note'
+      official_id: IGCSE_GEOGRAPHY:S9.111
+  spcpt_Q2K5ZsmtsxBpQnth:
+    igcse-ict-17:
+      codes: ['6.4.4']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: the 4IT1 print''s only HTML-code statement is 6.4.4 ''Use HTML code: insert hyperlinks, insert images, font enhancements''; the head element is not enumerated anywhere in the print; documented mismatch note (the old reason considered only 6.4.3, whose body text is text formatting)'
+      official_id: IGCSE_ICT:6.4.4
+  spcpt_89Mw8r4ff7zBqcRy:
+    igcse-ict-17:
+      codes: ['6.4.4']
+      tier: S0_operator_override
+      rationale: 'S0 nearest neighbour: same basis as the head element - 6.4.4 is the print''s only HTML-code statement; the body element is not enumerated; documented mismatch note'
+      official_id: IGCSE_ICT:6.4.4
+  spcpt_3jfZD4Z7YjmjnS7X:
+    igcse-science-double-award-17-physics:
+      codes: ['2.4']
+      tier: P2_operator_content_join
+      rationale: 'electrical power = 2.4 ''know and use the relationship between power, current and voltage''; the print''s electrical-power relationship; tag page publishes no definition (ticket #11) and anchors no parts - name-to-subject join, zero learner impact'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.4
+  spcpt_5XC6QCvRF3JDHbGT:
+    igcse-science-double-award-17-physics:
+      codes: ['5.5']
+      tier: P2_operator_content_join
+      rationale: 'pressure = 5.5 ''know and use the relationship between pressure, force and area''; the defining pressure relationship'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.5
+  spcpt_FDgGnTP2KQ4pqgp5:
+    igcse-science-double-award-17-physics:
+      codes: ['3.19']
+      tier: P2_operator_content_join
+      rationale: 'core practical (snell''s law) = 3.19 ''practical: investigate the refractive index of glass, using a glass block''; joined by investigation content (the registry carries no numbered core-practical list; SME''s CP numbering is its own)'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.19
+  spcpt_HgkwxkJSJtVtCtcW:
+    igcse-science-double-award-17-physics:
+      codes: ['3.17']
+      tier: P2_operator_content_join
+      rationale: 'core practical (refraction) = 3.17 ''practical: investigate the refraction of light, using rectangular blocks, semi-circular blocks...''; joined by investigation content'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.17
+  spcpt_J66zR2Cvw8hsHP2T:
+    igcse-science-double-award-17-physics:
+      codes: ['2.13']
+      tier: P2_operator_content_join
+      rationale: 'calculating voltage = 2.13 ''know and use the relationship between voltage, current and resistance'' (V = IR); the calculating-voltage relationship'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.13
+  spcpt_mKFH4q599hkBdw9x:
+    igcse-science-double-award-17-physics:
+      codes: ['2.13']
+      tier: P2_operator_content_join
+      rationale: 'calculating current, resistance and potential difference = 2.13 (V = IR rearrangements cover all three quantities)'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.13
+  spcpt_MksfwXM6CtrSc5DV:
+    igcse-science-double-award-17-physics:
+      codes: ['3.13']
+      tier: P2_operator_content_join
+      rationale: 'dangers of EM waves = 3.13 ''explain the detrimental effects of excessive exposure of the human body to electromagnetic waves'' verbatim subject match'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.13
+  spcpt_Pk5QySYG3mV7xrrw:
+    igcse-science-double-award-17-physics:
+      codes: ['5.3']
+      tier: P2_operator_content_join
+      rationale: 'density = 5.3 ''know and use the relationship between density, mass and volume''; the defining density relationship'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.3
+  spcpt_QrSRCx8b773Xt9C9:
+    igcse-science-double-award-17-physics:
+      codes: ['3.18']
+      tier: P2_operator_content_join
+      rationale: 'snell''s law = 3.18 ''know and use the relationship between refractive index, angle of incidence and angle of refraction'' (n = sin i / sin r) - verbatim subject match'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.18
+  spcpt_cJtMmxcwWTCPSKGy:
+    igcse-science-double-award-17-physics:
+      codes: ['3.2']
+      tier: P2_operator_content_join
+      rationale: 'transverse and longitudinal waves = 3.2 ''explain the difference between longitudinal and transverse waves'' verbatim subject match'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-3.2
+  spcpt_d8Bpk7nP2GWWKJxJ:
+    igcse-science-double-award-17-physics:
+      codes: ['5.4']
+      tier: P2_operator_content_join
+      rationale: 'core practical (density) = 5.4 ''practical: investigate density using direct measurements of mass and volume''; joined by investigation content'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-5.4
+  spcpt_dstbF7n3McfZxh3J:
+    igcse-science-double-award-17-physics:
+      codes: ['1.15']
+      tier: P2_operator_content_join
+      rationale: 'calculating resultant force = 1.15 ''calculate the resultant force of forces that act along a line'' verbatim subject match'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-1.15
+  spcpt_gHxnzCG9hKTCw3Xg:
+    igcse-science-double-award-17-physics:
+      codes: ['4.11']
+      tier: P2_operator_content_join
+      rationale: 'calculating work done = 4.11 ''know and use the relationship between work done, force and distance moved''; the calculating-work-done relationship (4.12 identity noted)'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.11
+  spcpt_jrvRw9GjzWJMk2mh:
+    igcse-science-double-award-17-physics:
+      codes: ['4.11']
+      tier: P2_operator_content_join
+      rationale: 'work done = 4.11, the defining work-done relationship (companion identity 4.12 noted in the reason trail)'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.11
+  spcpt_kxtBH24z78PtvXw7:
+    igcse-science-double-award-17-physics:
+      codes: ['1.16']
+      tier: P2_operator_content_join
+      rationale: 'friction = 1.16 ''know that friction is a force that opposes motion'' verbatim subject match'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-1.16
+  spcpt_qSyhyjkjcZTkMsRB:
+    igcse-science-double-award-17-physics:
+      codes: ['2.15']
+      tier: P2_operator_content_join
+      rationale: 'calculating electric charge = 2.15 ''know and use the relationship between charge, current and time'' (Q = It) verbatim subject match'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.15
+  spcpt_rkCvX5G7cTYGNGxt:
+    igcse-science-double-award-17-physics:
+      codes: ['2.2']
+      tier: P2_operator_content_join
+      rationale: 'selecting fuses = 2.2 ''understand how the use of insulation, double insulation, earthing, fuses and circuit breakers protects...'' - fuse selection is the statement''s subject matter'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-2.2
+  spcpt_ttPCP3gFMmTGxS6h:
+    igcse-science-double-award-17-physics:
+      codes: ['4.16']
+      tier: P2_operator_content_join
+      rationale: 'power = 4.16 ''describe power as the rate of transfer of energy or the rate of doing work''; the defining power statement (electrical variant 2.4 noted)'
+      official_id: IGCSE_SCIENCE_DOUBLE_AWARD:Physics-4.16
+  spcpt_3dwTMtMPJqHpnmch:
+    igcse-maths-a-modular-24-higher-unit-1:
+      codes: ['3.3G']
+      tier: P2_operator_content_join
+      rationale: 'perpendicular lines = U1H-3.3G ''find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line''; part-verbatim evidence: the referencing part reads ''The line l2 is perpendicular to l1 and passes through the point (3, 1). Find the equation of l2''; the tag''s parts sit in the graphs-and-coordinates topics'
+      official_id: IGCSE_MATHS_A_MODULAR:U1H-3.3G
+    igcse-maths-a-18-higher:
+      codes: ['3.3G']
+      tier: P2_operator_content_join
+      refinement: true
+      was_code: '4.5A'
+      rationale: 'CORRECTION of the T-SPEC-7 P1_name_fragment_join: the recorded 4.5A is ''measure and draw lines to the nearest millimetre'' - no defensible relationship to perpendicular lines; the part-verbatim evidence (find the equation of the perpendicular line l2) is 3.3G territory (H-3.3G ''find the equation of a straight line perpendicular to a given line''); refinement re-points 31 parts from 4.5A to 3.3G'
+      official_id: IGCSE_MATHS_A:H-3.3G
+  spcpt_3fMGfNtg3hXMg6gC:
+    igcse-maths-a-modular-24-higher-unit-1:
+      codes: ['4.11C']
+      tier: P2_operator_content_join
+      cross_unit: true
+      refinement: true
+      was_code: '4.4F'
+      rationale: 'CORRECTION of the T-SPEC-7 resolution: the recorded 4.4F is ''understand and use the relationship between average speed, distance and time'' - the tag is Problem Solving with Areas (24 parts, area problem-solving content); the modular statement is U2H-4.11C ''use areas and volumes of similar figures in solving problems'' (the tag''s linear-higher resolution is 4.11C); cross_unit because the areas statement lives in the sibling unit-2 pool'
+      official_id: IGCSE_MATHS_A_MODULAR:U2H-4.11C
+  spcpt_3nz4CDxVDMqZNQNR:
+    igcse-maths-a-modular-24-higher-unit-1:
+      codes: ['4.2F']
+      tier: P2_operator_content_join
+      cross_unit: true
+      rationale: 'congruence = U2F-4.2F ''understand congruence as meaning the same shape and size''; cross_unit (the congruence rows live in the sibling unit-2 pool; the print presents them once in the shared 4.2 Geometry block); twin of the tag''s 4.2F resolutions on the linear F/H lanes and modF2'
+      official_id: IGCSE_MATHS_A_MODULAR:U2F-4.2F
+  spcpt_KNXbNby67zKvX8SX:
+    igcse-maths-a-modular-24-higher-unit-1:
+      codes: ['1.3C']
+      tier: P2_operator_content_join
+      cross_unit: true
+      rationale: 'ordering FDP = U1F-1.3C ''order decimals''; cross_unit (the combined FDP-ordering statement does not exist; the per-type home 1.3C is the tag''s resolution on the linear F/H lanes and modF1); the old pending''s ''flagged for parse repair'' clause dropped - no combined statement exists to repair'
+      official_id: IGCSE_MATHS_A_MODULAR:U1F-1.3C
+  spcpt_Mqy7bXbYyFBwKTsV:
+    igcse-maths-a-modular-24-foundation-unit-1:
+      codes: ['6.1B']
+      tier: P2_operator_content_join
+      cross_unit: true
+      rationale: 'two-way tables = U2F-6.1B ''use appropriate methods of tabulation to enable the construction of statistical diagrams''; cross_unit (the tabulation rows live in the sibling unit-2 pool); twin of the tag''s 6.1B resolutions on the linear F/H lanes and modH2'
+      official_id: IGCSE_MATHS_A_MODULAR:U2F-6.1B
+  spcpt_27Znm3wFFhCxBD52:
+    igcse-maths-a-18-foundation:
+      verdict: unresolve
+      was_code: '2.8D'
+      reason: 'no-guess pending: CORRECTION of the T-SPEC-7 P1_name_fragment_join - the recorded 2.8D is ''represent simple linear inequalities on rectangular Cartesian graphs'', not speed-time graphs; the 4MA1 print carries no speed-time-graphs statement (PDF-verified; the only speed rows are the 4.4F/G compound-measure statements); GCSE-bridge content with no honest target'
+  spcpt_YbnQpJQYYZhVMwpX:
+    igcse-maths-a-18-foundation:
+      verdict: unresolve
+      was_code: '4.10A'
+      reason: 'no-guess pending: CORRECTION of the T-SPEC-7 resolution - the recorded 4.10A is ''recognise and give the names of solids'', not nets; the 4MA1 print carries no nets statement (PDF-verified 0 hits for nets); no honest target exists'
+  spcpt_dvX7WnB2FSdky4jW:
+    igcse-maths-a-18-foundation:
+      verdict: pending
+      pending_reason: 'no-guess pending for this lane: 4.9A (find perimeters and areas of sectors of circles) is Higher-only (H-4.9A); the Foundation pool excludes Higher-only statements by design (T-SPEC-7 Foundation scope guard); the tag resolves on the Higher lanes - the old reason''s ''committed parse dropped it'' claim was wrong (H-4.9A is present)'
+    igcse-maths-a-modular-24-foundation-unit-1:
+      verdict: pending
+      pending_reason: 'no-guess pending for this lane: 4.9A exists as U1H-4.9A (Higher unit 1); the Foundation-unit pool excludes it by design - the old reason''s ''committed parse dropped it'' claim was wrong (U1H-4.9A is present)'
+  spcpt_8Tnf7n682RsPjhm9:
+    igcse-maths-a-18-foundation:
+      verdict: pending
+      pending_reason: 'no-guess pending: the 4MA1 print carries no data-comparison statement (PDF-verified: compare- hits are administrative text only); nothing to parse-repair - print-level absence'
+    igcse-maths-a-modular-24-foundation-unit-2:
+      verdict: pending
+      pending_reason: 'no-guess pending: the 4PM1 print carries no data-comparison statement (PDF-verified); print-level absence, not a parse gap'
+  spcpt_QWXhzVp2S3VYZdZc:
+    igcse-maths-a-18-higher:
+      verdict: pending
+      pending_reason: 'no-guess pending: the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C); GCSE-bridge content - the ''flagged for parse repair'' clause was wrong'
+    igcse-maths-a-modular-24-higher-unit-2:
+      verdict: pending
+      pending_reason: 'no-guess pending: same basis - no standalone discrete/continuous statement in the 4PM1 print (PDF-verified); GCSE-bridge content'
+  spcpt_bSVNXtwhvFqkxn6z:
+    igcse-further-maths-19:
+      verdict: pending
+      pending_reason: 'no-guess pending: the 4PM0 print mentions e^x only inside the 9A exclusion clause (excluding sin ax, cos ax and e^ax - PDF-verified lines 643-644); no standalone exponential/number-e statement exists; the ''mangled fragment'' framing is superseded - the exclusion clause IS the committed text'
+  spcpt_NGN35MNGkmJyZgzD:
+    igcse-geography-19:
+      verdict: pending
+      pending_reason: 'pending: SME exam-skill/analysis walkthrough page - no spec statement covers it; the geography parse does carry the S9 fieldwork-skills rows (the old ''no content statements to name-match'' claim was wrong) but none covers an overall-results-analysis page'
+  spcpt_DXvywP5zZT8m9GK9:
+    igcse-geography-19:
+      verdict: pending
+      pending_reason: 'pending: SME exam-technique walkthrough (8-mark questions) - no spec statement covers exam technique; the S9 fieldwork-skills rows exist but none covers this page'
+  spcpt_JhsYX3gYXNZjsJ6b:
+    igcse-geography-19:
+      verdict: pending
+      pending_reason: 'pending: SME exam-technique walkthrough (12-mark questions) - no spec statement covers exam technique; the S9 fieldwork-skills rows exist but none covers this page'
+  spcpt_cdXKKWTrNP4djDZW:
+    igcse-accounting-17-financial-statements:
+      verdict: pending
+      pending_reason: 'no-guess pending: print-level absence - the 4AC1 specification carries no mark-up statement (PDF-verified); not a parse gap; references no question part; blocks nothing'
+  spcpt_3NQNy3Qw9ZmJ4Zdm:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      verdict: pending
+      pending_reason: 'no-guess pending: print-level absence - no transferring-income-to-income-statement statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing'
+  spcpt_FdJMcHV4xcB2npwp:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      verdict: pending
+      pending_reason: 'no-guess pending: print-level absence - no loan-recording statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing'
+  spcpt_TKD8Gywyd3ZZGSBd:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      verdict: pending
+      pending_reason: 'no-guess pending: print-level absence - no limited-company statements in the 4AC1 print (PDF-verified 0 hits); indexed-but-unanchored revision tag; blocks nothing'
+  spcpt_VCf3GRwqjMcjzksW:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      verdict: pending
+      pending_reason: 'no-guess pending: print-level absence - no transfer-to-income-statement procedure statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing'
+  spcpt_jGWn9WvWJqZKXrpx:
+    igcse-accounting-17-introduction-to-bookkeeping-and-accounting:
+      verdict: pending
+      pending_reason: 'no-guess pending: print-level absence - no paying-in-slip document statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing'
+  spcpt_9b3cKYFXkKC2cRkJ:
+    igcse-english-literature-16:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from; T-SPEC-7 index-repair recovery re-confirmed this round'
+  spcpt_dRY9gVtFjqsMGmNH:
+    igcse-english-literature-16:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_pyxxDNgpBQhKQ8XX:
+    igcse-english-literature-16:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_w3B8WV5Mf9SZwJmd:
+    igcse-english-literature-16:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_xGfRqcm7bK873jv9:
+    igcse-english-literature-16:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_3G4j7QwR7HkvrPSK:
+    igcse-maths-a-18-higher:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_FmVMxSY4pdr2ghgq:
+    igcse-maths-a-18-higher:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_phQCN2JJ4d856qsx:
+    igcse-maths-a-18-higher:
+      verdict: pending
+      pending_reason: 'no-guess pending: nameless harvest id (sme_name None, no definition text) with zero part anchors in this lane - no content to reason from'
+  spcpt_4KHGbmcT8cwVKzRZ:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'topic-family pending: Describing wave motion spans 3.2 (longitudinal/transverse), 3.3 (wave definitions), 3.4 (energy transfer) and 3.5 (wave speed) as a set; the one-code sidecar schema would mislabel the family (operator ruling precedent: T-SPEC-2b The Alkenes); the page publishes no definition (ticket #11) and anchors no parts'
+  spcpt_8PvFTvGWGR39Gj6Y:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'concept-family pending: Charge spans 2.14 (current as flow of charge), 2.15 (Q = It) and 2.21 (E = QV) with no single carrier statement; one-code collapse would mislabel; page publishes no definition (ticket #11); zero anchors'
+  spcpt_BgFKcjv9r7THCv4s:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'not a statement: SME video-resource tag (energy transfer pathways video); video pages are not specification statements (physics-19 precedent); publishes no definition (ticket #11); zero anchors'
+  spcpt_C5C9pXrvQKt98MTr:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'section-family pending: Electricity and heat spans the whole 2.x electricity and 4.x energy sections; no single statement is the page subject; page publishes no definition (ticket #11); zero anchors'
+  spcpt_CkkZKh9b7zXX75wc:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'topic-family pending: Light spans 3.10-3.16 (spectrum, reflection/refraction, rays) as a set; one-code collapse would mislabel (The-Alkenes precedent); page publishes no definition (ticket #11); zero anchors'
+  spcpt_j6FRhbvmhNH9mV3K:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'concept-family pending: Voltage spans 2.13 (V = IR), 2.18 (parallel p.d.), 2.20 (volt definition) and 2.21 (E = QV) with no single carrier statement; page publishes no definition (ticket #11); zero anchors'
+  spcpt_KyV24KVbsWBPtJtp:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'concept-family pending: Current spans 2.14 (rate of flow of charge), 2.15 (Q = It), 2.16 (electron flow) and 2.17 (junction conservation) with no single carrier statement; page publishes no definition (ticket #11); zero anchors'
+  spcpt_SYV4yBP4NKcVPJPc:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'topic-family pending: Sound spans 3.23-3.26 (sound waves, echo, range) as a set; one-code collapse would mislabel; page publishes no definition (ticket #11); zero anchors'
+  spcpt_bsVK3mXjpWvRymst:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'ambiguous pending: Calculating energy transfers could be 2.5 (E = IVt), 2.21 (E = QV) or 4.17 (E = Pt); the page publishes no definition (ticket #11) and anchors no parts, so the subject cannot be disambiguated without guessing'
+  spcpt_ccDjJgp6PHhmRsdP:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'not a statement: SME video-resource tag (life cycle of low-mass stars video); the underlying content lives in 8.9/8.10 but the tag is a video page, not a specification statement (physics-19 precedent); zero anchors'
+  spcpt_dKxh8pzv73VjGfvk:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'topic-family pending: The EM spectrum spans 3.10 (spectrum membership), 3.11 (order) and 3.12-3.13 (uses/dangers) as a set; one-code collapse would mislabel; page publishes no definition (ticket #11); zero anchors'
+  spcpt_j93Dnsj2VtCrtjXw:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'topic-family pending: Properties of EM waves has no single carrier statement (nearest family 3.10-3.13); page publishes no definition (ticket #11); zero anchors'
+  spcpt_nYFprFFJSPX7YGs5:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'section-family pending: Waves and energy spans the 3.x waves and 4.x energy sections; no single statement is the page subject; page publishes no definition (ticket #11); zero anchors'
+  spcpt_tBp2NdFPhkmVQwDS:
+    igcse-science-double-award-17-physics:
+      verdict: pending
+      pending_reason: 'ambiguous pending: Calculating power could be 4.17 (P = W/t) or 2.4 (P = IV); the page publishes no definition (ticket #11) and anchors no parts, so the subject cannot be disambiguated without guessing'
+  spcpt_kHwc5r3247TGRwyS:
+    igcse-maths-a-modular-24-higher-unit-2:
+      verdict: pending
+      pending_reason: 'no-guess pending for this lane: the 4PM1 modular print carries no pictograms/bar-charts statement (PDF-verified 0 hits; the only 6.1A row is U1H histograms, different content); the linear-only 6.1A (pictograms, bar charts) cannot code modular lanes; the referencing part is coded via other tags'
+  spcpt_njsPXbQ7WwcNH4DH:
+    igcse-maths-a-modular-24-foundation-unit-2:
+      verdict: pending
+      pending_reason: 'no-guess pending for this lane: the 4PM1 modular print carries no composite-bar-chart statement (PDF-verified 0 hits for bar chart); the linear-only 6.1A cannot code modular lanes'

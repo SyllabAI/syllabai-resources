@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 110,
-  "resolved": 102,
-  "unresolved": 8
+  "resolved": 105,
+  "unresolved": 5
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -52,7 +52,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches transferring income to the income statement, but the committed parse carries no matching statement; blocks nothing"
+   "reason": "no-guess pending: print-level absence - no transferring-income-to-income-statement statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing"
   },
   {
    "id": "spcpt_4JGrRT6ZTKHKBqp3",
@@ -339,7 +339,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches taking out a loan, but the committed parse carries no loan-recording statement; blocks nothing"
+   "reason": "no-guess pending: print-level absence - no loan-recording statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing"
   },
   {
    "id": "spcpt_FyK5y2PZnts5qy2C",
@@ -613,8 +613,11 @@
    "sme_name": "Recovery of Debts Written Off",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches recovery of debts written off, but the committed parse carries no irrecoverable-debts statements; blocks nothing"
+   "resolved_code": "S2.143",
+   "official_id": "IGCSE_ACCOUNTING:S2.143",
+   "official_wording": "Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account.",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_QKvzZ9xjPVR8ZgKM",
@@ -694,7 +697,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches limited companies, but the committed parse carries no limited-company statements; blocks nothing"
+   "reason": "no-guess pending: print-level absence - no limited-company statements in the 4AC1 print (PDF-verified 0 hits); indexed-but-unanchored revision tag; blocks nothing"
   },
   {
    "id": "spcpt_TKMGsHJdGnB3MRZ5",
@@ -723,8 +726,11 @@
    "sme_name": "Balancing Accounts",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches balancing ledger accounts, but the committed parse carries no balancing/double-entry procedure statement; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_VCf3GRwqjMcjzksW",
@@ -732,7 +738,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches transferring balances to the income statement, but the committed parse carries no matching statement; blocks nothing"
+   "reason": "no-guess pending: print-level absence - no transfer-to-income-statement procedure statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing"
   },
   {
    "id": "spcpt_VJwbbgF52XcZDqfx",
@@ -941,7 +947,7 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches paying-in slips, but the committed parse carries no paying-in-slip document statement; blocks nothing"
+   "reason": "no-guess pending: print-level absence - no paying-in-slip document statement in the 4AC1 print (PDF-verified); indexed-but-unanchored revision tag; blocks nothing"
   },
   {
    "id": "spcpt_jYjWjNDGCP78X52C",
@@ -1276,8 +1282,11 @@
    "sme_name": "Transferring Expenses to the Income Statement",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches transferring expenses to the income statement, but the committed parse carries no matching statement; flagged for parse repair"
+   "resolved_code": "S4.158",
+   "official_id": "IGCSE_ACCOUNTING:S4.158",
+   "official_wording": "Prepare income statements to show gross profit and profit for the year.",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   }
  ]
 }

@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 105,
-  "resolved": 102,
-  "unresolved": 3
+  "resolved": 105,
+  "unresolved": 0
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -64,19 +64,23 @@
    "sme_name": "Perpendicular Lines",
    "sme_definition": "",
    "referenced_by_parts": 28,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "3.3G",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-3.3G",
+   "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_3fMGfNtg3hXMg6gC",
    "sme_name": "Problem Solving with Areas",
    "sme_definition": "",
    "referenced_by_parts": 24,
-   "resolved_code": "4.4F",
-   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-4.4F",
-   "official_wording": "understand and use the relationship between average speed, distance and time",
+   "resolved_code": "4.11C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2H-4.11C",
+   "official_wording": "use areas and volumes of similar figures in solving problems",
    "tier": "P2_operator_content_join",
-   "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
   },
   {
    "id": "spcpt_3n2jHMX7vMBh95jq",
@@ -96,8 +100,12 @@
    "sme_name": "Congruence",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending for this lane: the tag resolves to a statement outside this lane's published tier/unit pool (Foundation lanes exclude Higher-only statements; modular unit lanes code only their own unit scope); the tag's evidence-based resolution applies on the lanes whose pool carries the statement"
+   "resolved_code": "4.2F",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U2F-4.2F",
+   "official_wording": "understand congruence as meaning the same shape and size",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
   },
   {
    "id": "spcpt_4ZdHtGPdDjYdR6rK",
@@ -441,8 +449,12 @@
    "sme_name": "Ordering FDP",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches ordering fractions, decimals and percentages together, but the committed parse carries only per-type ordering statements (1.1D order integers, 1.3C order decimals); no combined FDP-ordering statement (PDF-verified); flagged for parse repair"
+   "resolved_code": "1.3C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1F-1.3C",
+   "official_wording": "order decimals",
+   "tier": "P2_operator_content_join",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)",
+   "cross_unit": true
   },
   {
    "id": "spcpt_M5rhN2mwnR2yddc6",

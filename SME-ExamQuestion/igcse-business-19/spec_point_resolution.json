@@ -1,10 +1,10 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T10:17:42Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-9 operator round - no upstream tickets per operator instruction 2026-09-19; joins quoted verbatim from the committed/repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "generated_utc": "2026-09-19T15:30:24Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 203,
-  "resolved": 191,
+  "resolved": 192,
   "unresolved": 0
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
@@ -2275,8 +2275,11 @@
    "sme_name": "Government Economic Objectives",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "pending: SME teaches government economic objectives, but the committed igcse-business parse carries no such statement (1.6.x retains only spending/trade-policy/interest-rate statements); flagged for parse repair"
+   "resolved_code": "1.6.1",
+   "official_id": "IGCSE_BUSINESS:1.6.1",
+   "official_wording": "Government spending:",
+   "tier": "S0_operator_override",
+   "method": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
   },
   {
    "id": "spcpt_rpbqTk3NQH8PKMj8",
