@@ -1,19 +1,19 @@
 {
  "schema": "syllabai.learner-spec-links/1.0",
- "generated_utc": "2026-09-17T17:55:44Z",
+ "generated_utc": "2026-09-19T05:02:40Z",
  "course": "igcse-accounting-17-introduction-to-bookkeeping-and-accounting",
  "qual": "igcse-accounting",
  "totals": {
   "items": 356,
-  "items_with_codes": 104,
+  "items_with_codes": 150,
   "by_kind": {
    "notes": 43,
    "question_parts": 313,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 13,
-   "question_parts": 91,
+   "notes": 20,
+   "question_parts": 130,
    "flashcards": 0
   }
  },
@@ -25,15 +25,14 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_QKvzZ9xjPVR8ZgKM",
-    "spcpt_2rygXYBHBJvQ4p2B"
+    "spcpt_QKvzZ9xjPVR8ZgKM"
    ]
   },
   "rn_BZSz37PSWSKTBsyr": {
@@ -44,33 +43,33 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.057",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.057",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.058",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.058",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.059",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.059",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -83,9 +82,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -98,9 +97,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -114,14 +113,13 @@
    "topic": "business-documentation",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.057",
+     "official_code": "S2.057",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_nmGy2VPqQgJC5mp9",
     "spcpt_MMpfj7YbBCtV9PTR",
     "spcpt_jGWn9WvWJqZKXrpx",
     "spcpt_NB5vmp8y8dWsYfTH",
@@ -136,27 +134,36 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.051",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.051",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.056",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.056",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_KRTztYQRyDf2rVDv",
-    "spcpt_SZrkGBkcsRCRRgvJ"
-   ]
+   "pending": []
   },
   "rn_ygcMkcrHW94j9nnR": {
    "kind": "note",
@@ -178,15 +185,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -196,10 +203,15 @@
    "label": "Effects of Incorrect Treatment of Expenditure | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "capital-expenditure-and-revenue-expenditure",
-   "codes": [],
-   "pending": [
-    "spcpt_NBfjXzYzD6ZdYpM4"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_t6pkTtzC4fvcBwKm": {
    "kind": "note",
@@ -217,32 +229,45 @@
    "label": "Disposal of Non-Current Assets | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6yNSZkV5FRMgdkc",
-    "spcpt_Hh68wcJtr34C83kT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_S9bkgyQqFWQfZrxg": {
    "kind": "note",
    "label": "Methods of Depreciation | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_9NJSTHxs5YmXCmss",
-    "spcpt_vw8BWYrvKCf6MsqQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_JYMwVYGCzC5fGrSc": {
    "kind": "note",
    "label": "Provision for Depreciation | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_bzpyzNtv9YGsS6XY": {
    "kind": "note",
@@ -294,10 +319,16 @@
    "label": "Ledgers | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.065",
+     "official_code": "S2.065",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_PJj4SzyjRZYgDq99",
-    "spcpt_MKTZbMZ4Gm44SwKn"
+    "spcpt_PJj4SzyjRZYgDq99"
    ]
   },
   "rn_9ZHmvPp5gqGGJmj9": {
@@ -321,9 +352,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -341,9 +372,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -368,11 +399,15 @@
    "label": "The Double Entry System | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_7DQ5qKjvmcKjgn2d",
-    "spcpt_srTknwNn78jknxwg"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.066",
+     "official_code": "S2.066",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_vnnJn6k9Hc4XhrKz": {
    "kind": "note",
@@ -519,39 +554,39 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.039",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.039",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.042",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.042",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.043",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.043",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.044",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.044",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -586,9 +621,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.036",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.036",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -601,13 +636,18 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.037",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.037",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.038",
+     "official_code": "S1.038",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_7jgDCDDTVM4MZHq8",
     "spcpt_mdtcPGZSfxnVvhND"
    ]
   },
@@ -616,11 +656,15 @@
    "label": "Stakeholders | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "the-accounting-environment",
    "topic": "types-of-business-organisation",
-   "codes": [],
-   "pending": [
-    "spcpt_93fh4WgyqbpVCBxM",
-    "spcpt_P255ngnXV864xJGC"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.038",
+     "official_code": "S1.038",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_pyDZf9JqgtNKT97V": {
    "kind": "note",
@@ -640,15 +684,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.045",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.045",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.048",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.048",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -661,9 +705,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -676,9 +720,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.058",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.058",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -691,9 +735,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -705,10 +749,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -720,10 +764,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -735,10 +779,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -751,9 +795,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.057",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.057",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -768,9 +812,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -807,27 +851,27 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -839,10 +883,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -855,27 +899,27 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.059",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.059",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -888,9 +932,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -903,9 +947,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -918,9 +962,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -935,9 +979,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -950,9 +994,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -965,21 +1009,21 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.058",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.058",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -991,10 +1035,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1007,9 +1051,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1022,9 +1066,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.058",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.058",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1037,9 +1081,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1061,10 +1105,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1077,9 +1121,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1091,10 +1135,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -1109,9 +1153,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1123,10 +1167,10 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1139,27 +1183,27 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.058",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.058",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.059",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.059",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1172,9 +1216,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1187,9 +1231,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1202,9 +1246,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1217,9 +1261,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1241,15 +1285,14 @@
    "topic": "books-of-original-entry",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.062",
+     "official_code": "S2.062",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_G6YPxqfQ2JMnC5x7",
-    "spcpt_2rygXYBHBJvQ4p2B"
+    "spcpt_G6YPxqfQ2JMnC5x7"
    ]
   },
   "qstnprt_QQpD2ZtRqbJWztdr": {
@@ -1260,9 +1303,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.064",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.064",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1275,9 +1318,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1290,9 +1333,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.063",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -1307,9 +1350,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.058",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.058",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1331,16 +1374,26 @@
    "topic": "business-documentation",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.057",
+     "official_code": "S2.057",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_SZrkGBkcsRCRRgvJ",
-    "spcpt_NB5vmp8y8dWsYfTH",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_NB5vmp8y8dWsYfTH"
    ]
   },
   "qstnprt_YY7DG34DByndS7dp": {
@@ -1358,10 +1411,16 @@
    "label": "qstn_dnKhdKXKmCHvkrQy / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_SZrkGBkcsRCRRgvJ"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_sqnt7bRHmTP8ZF7V": {
@@ -1372,9 +1431,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1387,9 +1446,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1402,9 +1461,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1444,10 +1503,16 @@
    "label": "qstn_HNBGXRW4xKSk3bP3 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_SZrkGBkcsRCRRgvJ"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_YZNkK4zzSkvX9KBj": {
@@ -1455,10 +1520,16 @@
    "label": "qstn_RbnzwNz2xpYyM2r4 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_ySbV2XpkGMPKYrmV": {
@@ -1496,10 +1567,16 @@
    "label": "qstn_QYcfP9sWyJVrD5zq / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_88C4FTXf6ZHwPTTW": {
@@ -1519,16 +1596,26 @@
    "topic": "business-documentation",
    "codes": [
     {
-     "official_id": "IGCSE_ACCOUNTING:S2.063",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.057",
+     "official_code": "S2.057",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_SZrkGBkcsRCRRgvJ",
-    "spcpt_NB5vmp8y8dWsYfTH",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_NB5vmp8y8dWsYfTH"
    ]
   },
   "qstnprt_JyS2Xb3jsPCnCyxs": {
@@ -1546,20 +1633,31 @@
    "label": "qstn_3SX8QSnC8sSWS8Gy / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
-   "pending": [
-    "spcpt_SZrkGBkcsRCRRgvJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R5ThRdss4y83tNPz": {
    "kind": "question_part",
    "label": "qstn_BhnC98wCh5yJGNVk / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_Qkp8xJmcmkJrcfh5": {
@@ -1567,10 +1665,15 @@
    "label": "qstn_z7nmyVJkStS5YwSj / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
-   "pending": [
-    "spcpt_SZrkGBkcsRCRRgvJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qvMxxkcxYJwcZh86": {
    "kind": "question_part",
@@ -1580,9 +1683,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.059",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.059",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -1594,10 +1697,16 @@
    "label": "qstn_PXWGFVF7hm8r227t / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_XcJDTVfjczMQWzT5": {
@@ -1618,9 +1727,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1633,9 +1742,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1655,10 +1764,16 @@
    "label": "qstn_W39Ty6zRnd4jVQrw / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_Rpz4sWG44kHWnH2z": {
@@ -1676,10 +1791,16 @@
    "label": "qstn_rzRhGBstXFgFHnCH / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.053",
+     "official_code": "S2.053",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_KRTztYQRyDf2rVDv"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_jHFcJTtmCkyMStcP": {
@@ -1700,15 +1821,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.055",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.055",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.056",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.056",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1738,10 +1859,16 @@
    "label": "qstn_6S358xsSjRKDnfB3 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.054",
+     "official_code": "S2.054",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_tyN7c4XSNpfpzch6",
-    "spcpt_SZrkGBkcsRCRRgvJ"
+    "spcpt_tyN7c4XSNpfpzch6"
    ]
   },
   "qstnprt_fyJpyQxmC76SHSxp": {
@@ -1752,15 +1879,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1773,20 +1900,18 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_NBfjXzYzD6ZdYpM4"
-   ]
+   "pending": []
   },
   "qstnprt_dBs7hNzD44nTq8sT": {
    "kind": "question_part",
@@ -1796,15 +1921,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1817,9 +1942,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1832,15 +1957,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1850,10 +1975,15 @@
    "label": "qstn_jvzwR9JSdTbtg5xq / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "capital-expenditure-and-revenue-expenditure",
-   "codes": [],
-   "pending": [
-    "spcpt_NBfjXzYzD6ZdYpM4"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cr2ky5cV8ypsYTSX": {
    "kind": "question_part",
@@ -1863,15 +1993,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1884,15 +2014,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1905,15 +2035,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1926,15 +2056,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1947,15 +2077,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1965,10 +2095,15 @@
    "label": "qstn_QtKnGk4vC3M6mQjF / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "capital-expenditure-and-revenue-expenditure",
-   "codes": [],
-   "pending": [
-    "spcpt_NBfjXzYzD6ZdYpM4"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JznFp3nh6pkSQM5p": {
    "kind": "question_part",
@@ -1978,15 +2113,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2019,15 +2154,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2040,9 +2175,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2055,15 +2190,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.067",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.067",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S2.068",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2073,20 +2208,30 @@
    "label": "qstn_Nt6MBJz6Z44xbhM5 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6yNSZkV5FRMgdkc"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GH7zJ93NMBGZxVCX": {
    "kind": "question_part",
    "label": "qstn_XGfCb8CH6TQSsJ5z / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_5rF8sRf73D92VXP4": {
    "kind": "question_part",
@@ -2113,11 +2258,15 @@
    "label": "qstn_ZdNJQtSbJBTpdvsg / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_m6yNSZkV5FRMgdkc",
-    "spcpt_Hh68wcJtr34C83kT",
-    "spcpt_DybSbYTjXJGVVYFX",
     "spcpt_83QX5HYgQMgZVjRK"
    ]
   },
@@ -2126,10 +2275,15 @@
    "label": "qstn_ww3n94ty9bXTGthM / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_9NJSTHxs5YmXCmss"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Hxf8GRBSmnCsZnrb": {
    "kind": "question_part",
@@ -2146,11 +2300,15 @@
    "label": "qstn_yBJDkpqp8vXK92tf / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_Hh68wcJtr34C83kT",
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xQ3WD7mpP2Jp7G4T": {
    "kind": "question_part",
@@ -2177,60 +2335,90 @@
    "label": "qstn_Y6GS4DfmMKnX2SmF / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_vw8BWYrvKCf6MsqQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V2zytMtMpPRXwmCC": {
    "kind": "question_part",
    "label": "qstn_Y6GS4DfmMKnX2SmF / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wYCXWgDhJxVQVzCR": {
    "kind": "question_part",
    "label": "qstn_Y6GS4DfmMKnX2SmF / part 3",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_Hh68wcJtr34C83kT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yxYB7wj4SYnHMg3c": {
    "kind": "question_part",
    "label": "qstn_QtBqH6CXRrSQ5Qps / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pF3mXcq9fjbNnX4B": {
    "kind": "question_part",
    "label": "qstn_QtBqH6CXRrSQ5Qps / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_m6yNSZkV5FRMgdkc"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gwbYJrtYF2YHn6vz": {
    "kind": "question_part",
    "label": "qstn_QtBqH6CXRrSQ5Qps / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_94CB6WHK8sWpYGs8": {
    "kind": "question_part",
@@ -2247,30 +2435,45 @@
    "label": "qstn_BbGzJCts5yCjF7Jq / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_vw8BWYrvKCf6MsqQ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kqgXpZn2nX3yywgD": {
    "kind": "question_part",
    "label": "qstn_BbGzJCts5yCjF7Jq / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_Hh68wcJtr34C83kT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TJJSTSmm3GYqSrq8": {
    "kind": "question_part",
    "label": "qstn_3wJbxdHb3QKVXZjB / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_Hh68wcJtr34C83kT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ftTj7fgwMTnkn6gm": {
    "kind": "question_part",
@@ -2287,31 +2490,45 @@
    "label": "qstn_wXDJf5Z2TYQD2WY2 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wDrKvK7FCbXNHWx2": {
    "kind": "question_part",
    "label": "qstn_VhhKPnpsnSFKnPF2 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_vw8BWYrvKCf6MsqQ",
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xzzBdqjN67jnstS2": {
    "kind": "question_part",
    "label": "qstn_VhhKPnpsnSFKnPF2 / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_Hh68wcJtr34C83kT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VkJZDKX9fMBdcRV4": {
    "kind": "question_part",
@@ -2328,21 +2545,30 @@
    "label": "qstn_mB6My2zrGm7KQp3Y / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_vw8BWYrvKCf6MsqQ",
-    "spcpt_DybSbYTjXJGVVYFX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dSSqpbX3yJDnrRfs": {
    "kind": "question_part",
    "label": "qstn_mB6My2zrGm7KQp3Y / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_Hh68wcJtr34C83kT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tYPPP7FftfrypCBt": {
    "kind": "question_part",
@@ -2420,9 +2646,15 @@
    "label": "qstn_rKVcV7RNChNhpHKB / part 3",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.068",
+     "official_code": "S2.068",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_DybSbYTjXJGVVYFX",
     "spcpt_cJWs853zHnxj675h"
    ]
   },
@@ -2505,9 +2737,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -2602,9 +2834,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2637,9 +2869,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -2656,9 +2888,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2681,9 +2913,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -2787,10 +3019,15 @@
    "label": "qstn_8xy8QfPv9hrRHvqk / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_MKTZbMZ4Gm44SwKn"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.065",
+     "official_code": "S2.065",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bwKtmHjg5M2JPB3T": {
    "kind": "question_part",
@@ -2820,9 +3057,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -2848,10 +3085,15 @@
    "label": "qstn_vTNQvCpDRC452h76 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_MKTZbMZ4Gm44SwKn"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.065",
+     "official_code": "S2.065",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_m6S2kgbQpTdfQSKK": {
    "kind": "question_part",
@@ -2871,9 +3113,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2896,9 +3138,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.060",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.060",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -2949,20 +3191,30 @@
    "label": "qstn_NtBvHmkQCmDWCvjH / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_MKTZbMZ4Gm44SwKn"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.065",
+     "official_code": "S2.065",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6K9RsN8sFc2WXCf3": {
    "kind": "question_part",
    "label": "qstn_rQDYkqc2ZYxQpNQm / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_MKTZbMZ4Gm44SwKn"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.065",
+     "official_code": "S2.065",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8wRXtNQWXkXXgPkb": {
    "kind": "question_part",
@@ -2992,13 +3244,18 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S2.061",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S2.061",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.065",
+     "official_code": "S2.065",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_MKTZbMZ4Gm44SwKn",
     "spcpt_KF28qJx7KS3NBTk4"
    ]
   },
@@ -4010,9 +4267,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4025,9 +4282,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4040,9 +4297,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.039",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.039",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4055,9 +4312,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.044",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.044",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4070,9 +4327,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4085,9 +4342,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4100,9 +4357,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4115,9 +4372,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.043",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.043",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4130,15 +4387,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4151,27 +4408,27 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.039",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.039",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.042",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.042",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.044",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.044",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4184,9 +4441,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.042",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.042",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4199,21 +4456,21 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.039",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.039",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4226,15 +4483,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4247,9 +4504,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4262,9 +4519,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.042",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.042",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4277,15 +4534,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.042",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.042",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.044",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.044",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4298,21 +4555,21 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.039",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.039",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.040",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.040",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S1.041",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.041",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4395,9 +4652,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.036",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.036",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4410,9 +4667,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.036",
-     "official_code": null,
-     "tier": "S2_name_ambiguous",
-     "method": "name_to_statement_join"
+     "official_code": "S1.036",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4422,11 +4679,15 @@
    "label": "qstn_77rTFMk4gGRXjzmZ / part 1",
    "section": "the-accounting-environment",
    "topic": "types-of-business-organisation",
-   "codes": [],
-   "pending": [
-    "spcpt_P255ngnXV864xJGC",
-    "spcpt_93fh4WgyqbpVCBxM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.038",
+     "official_code": "S1.038",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nVcD9fy7zTGF59yf": {
    "kind": "question_part",
@@ -4436,9 +4697,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.037",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.037",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4448,11 +4709,15 @@
    "label": "qstn_yVbvVRb6V87XzNY2 / part 1",
    "section": "the-accounting-environment",
    "topic": "types-of-business-organisation",
-   "codes": [],
-   "pending": [
-    "spcpt_P255ngnXV864xJGC",
-    "spcpt_93fh4WgyqbpVCBxM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.038",
+     "official_code": "S1.038",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VzFykPqMXKMFHdFM": {
    "kind": "question_part",
@@ -4462,9 +4727,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.048",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.048",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
@@ -4479,9 +4744,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.048",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.048",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -4534,9 +4799,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S1.048",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S1.048",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []

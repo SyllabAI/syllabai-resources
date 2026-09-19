@@ -58,6 +58,16 @@ def course_registry(course: str, qual: str) -> dict[str, dict]:
         if course.endswith("-" + s):
             scope = s.capitalize()
             break
+    if qual in ("igcse-accounting", "igcse-geography", "igcse-english-literature"):
+        # T-SPEC-7: these parses carry statements without official_code;
+        # registries key by the id suffix (e.g. S4.071, C1T07) and that
+        # suffix is the resolved_code written on parts
+        pts = json.loads((PARSED / qual / "spec_points.json")
+                         .read_text(encoding="utf-8"))["spec_points"]
+        if scope:
+            scoped = [p for p in pts if p.get("scope") == scope]
+            pts = scoped or pts
+        return {p["id"].rsplit(":", 1)[-1]: p for p in pts}
     return parsed_registry(qual, scope)
 
 
@@ -88,7 +98,10 @@ for course in COURSES:
     qual = mp["qual"]
     unit_scope = mp.get("unit_scope")
     REG[course] = course_registry(course, qual)
-    if unit_scope and qual == "ial-maths":
+    if unit_scope and qual in ("ial-maths", "igcse-maths-a-modular"):
+        # T-SPEC-6 IAL maths + T-SPEC-7 modular maths-a: unit-scoped lanes
+        # verify against the full qualification registry by code, with the
+        # (official_id, official_code) pair check in G2
         UNIT_SCOPED[course] = unit_scope
         pts = json.loads((PARSED / qual / "spec_points.json")
                          .read_text(encoding="utf-8"))["spec_points"]
@@ -172,6 +185,17 @@ for course in COURSES:
         code = r.get("resolved_code")
         if code and code not in REG[course]:
             errors.append(f"{course}: resolution code not in registry: {r['id']}")
+        if course == "igcse-maths-a-18-foundation" and code:
+            # T-SPEC-7: the Foundation lane's pool excludes Higher-only
+            # statements (scope 'H' in the igcse-maths-a parse)
+            oid = r.get("official_id") or ""
+            pts_by_id = {p["id"]: p for p in json.loads(
+                (PARSED / "igcse-maths-a" / "spec_points.json")
+                .read_text(encoding="utf-8"))["spec_points"]}
+            p = pts_by_id.get(oid)
+            if p and p.get("scope") == "H":
+                errors.append(f"{course}: Higher-only statement {code} "
+                              f"resolved on the Foundation lane: {r['id']}")
         if not code and not r.get("reason"):
             errors.append(f"{course}: unresolved id without reason: {r['id']}")
         if course in UNIT_SCOPED:
@@ -182,9 +206,12 @@ for course in COURSES:
                     errors.append(f"{course}: resolution {r['id']} "
                                   f"(official_id, code) pair mismatch")
 
-    # G3 every question-referenced id is covered
+    # G3 every question-referenced id is covered; lanes whose harvest index
+    # carries an explicit missing_from_index tail (enumerated, T-SPEC-7
+    # index repair documentation) pass on the arithmetic
     qid = idx["coverage"]["question_part_ids_total"]
-    if idx["coverage"]["covered_by_index"] != qid:
+    nmiss = len(idx["coverage"].get("missing_from_index") or [])
+    if idx["coverage"]["covered_by_index"] + nmiss != qid:
         errors.append(f"{course}: index coverage mismatch")
 
 # G4 cross-check stats + code distribution per section

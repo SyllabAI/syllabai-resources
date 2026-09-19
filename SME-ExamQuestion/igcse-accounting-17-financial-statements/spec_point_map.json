@@ -10,172 +10,236 @@
  "mappings": {
   "spcpt_6C5dG6s8r4RXv9Nw": {
    "official_id": "IGCSE_ACCOUNTING:S4.069",
-   "official_code": null,
-   "tier": "S1_name_match",
-   "score": 1.0,
+   "official_code": "S4.069",
+   "tier": "P1_name_fragment_join",
+   "score": null,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-7)",
+    "quote": "Gross Profit Percentage",
+    "page": "the-calculation-and-interpretation-of-accounting-ratios/profitability-ratios",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   },
   "spcpt_H5H8SmwXGsJG2NCz": {
    "official_id": "IGCSE_ACCOUNTING:S4.071",
-   "official_code": null,
-   "tier": "S1_name_match",
-   "score": 1.0,
+   "official_code": "S4.071",
+   "tier": "P1_name_fragment_join",
+   "score": null,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-7)",
+    "quote": "Current (Working Capital) Ratio",
+    "page": "the-calculation-and-interpretation-of-accounting-ratios/liquidity-ratios",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   },
   "spcpt_b73GQrfrvh6TZkh9": {
    "official_id": "IGCSE_ACCOUNTING:S4.070",
-   "official_code": null,
-   "tier": "S1_name_match",
-   "score": 0.6766,
+   "official_code": "S4.070",
+   "tier": "P2_page_context_join",
+   "score": null,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-7)",
+    "quote": "Liquidity",
+    "page": "the-calculation-and-interpretation-of-accounting-ratios/liquidity-ratios",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   },
   "spcpt_bwwMxxBtnK5W2gBX": {
    "official_id": "IGCSE_ACCOUNTING:S4.072",
-   "official_code": null,
-   "tier": "S1_name_match",
-   "score": 0.687,
+   "official_code": "S4.072",
+   "tier": "P1_name_fragment_join",
+   "score": null,
    "unit": null,
-   "method": "name_to_statement_join"
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-7)",
+    "quote": "Liquid (Acid Test) Ratio",
+    "page": "the-calculation-and-interpretation-of-accounting-ratios/liquidity-ratios",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_wPpvXGQ2cKGwr4rT": {
+   "official_id": "IGCSE_ACCOUNTING:S4.070",
+   "official_code": "S4.070",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "unit": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-7)",
+    "quote": "Return on Capital Employed (ROCE)",
+    "page": "the-calculation-and-interpretation-of-accounting-ratios/profitability-ratios",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
+  },
+  "spcpt_b663TCrP8tWxhjvq": {
+   "official_id": "IGCSE_ACCOUNTING:S4.070",
+   "official_code": "S4.070",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "unit": null,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "resolution": {
+    "lane": "operator-verdict (T-SPEC-7)",
+    "quote": "Evaluating Liquidity",
+    "page": "the-calculation-and-interpretation-of-accounting-ratios/liquidity-ratios",
+    "twin_codes": null,
+    "superseded_code": null,
+    "pmt_excluded": true
+   }
   }
  },
  "unmapped": [
   {
    "spcpt_id": "spcpt_4HQKDs8RmbXshqGx",
    "name": "Statement of Financial Position for Partnerships",
-   "reason": "weak name similarity (0.44)"
+   "reason": "no-guess pending: SME teaches the statement of financial position for partnerships, but the committed igcse-accounting parse carries no SOFP-preparation content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_4djxV6TB2XSms9JM",
    "name": "Evaluating Profitability",
-   "reason": "weak name similarity (0.15)"
+   "reason": "no-guess pending: SME teaches evaluating profitability, but the committed parse retains only the gross-profit-percentage fragment (S4.069) — no profitability-evaluation statement covering the remaining ratios survives in the parse; flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_5Db8dD2XYQxyzDst",
    "name": "Adjustments for Accrued & Prepaid Expenses",
-   "reason": "weak name similarity (0.27)"
+   "reason": "no-guess pending: SME teaches adjustments for accrued and prepaid expenses, but the committed igcse-accounting parse carries no accruals-adjustment content statement; flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_6t22NHTFjYvszgvN",
    "name": "Adjustments for Accrued & Prepaid Income",
-   "reason": "weak name similarity (0.28)"
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches adjustments for accrued and prepaid income, but the committed parse carries no matching adjustment statement; blocks nothing"
   },
   {
    "spcpt_id": "spcpt_C9T5mbbCqsRGFH5Q",
    "name": "Profitability",
-   "reason": "weak name similarity (0.15)"
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); generic 'Profitability' page anchors no distinct committed statement (S4.069 is specifically gross profit percentage, carried by its own tag); blocks nothing"
   },
   {
    "spcpt_id": "spcpt_HHc2rF66RySy4NMx",
    "name": "Summary of Adjustments",
-   "reason": "weak name similarity (0.15)"
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); a summary-of-adjustments page maps to several distinct adjustment statements that the committed parse does not carry individually; blocks nothing"
   },
   {
    "spcpt_id": "spcpt_J59n78cxm4ccfGh2",
    "name": "Adjustments for Provisions for Irrecoverable Debts",
-   "reason": "weak name similarity (0.36)"
+   "reason": "no-guess pending: SME teaches adjustments for provisions for irrecoverable debts, but the committed igcse-accounting parse carries no irrecoverable-debts content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_KZxSQjSxmQxdfKZQ",
    "name": "Income Statement for Partnerships",
-   "reason": "weak name similarity (0.35)"
+   "reason": "no-guess pending: SME teaches the income statement for partnerships, but the committed igcse-accounting parse carries no partnership income-statement content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_KmTMwXdrGN9Bnb7D",
    "name": "Appropriation Account",
-   "reason": "weak name similarity (0.51)"
+   "reason": "no-guess pending: SME teaches the appropriation account of a partnership, but the committed igcse-accounting parse carries no partnership/appropriation content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_MBGt3XMp8vDc2m4q",
    "name": "Incomplete Records",
-   "reason": "weak name similarity (0.19)"
+   "reason": "no-guess pending: SME teaches incomplete records, but the committed igcse-accounting parse carries no incomplete-records content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_RHvgvC98zGzgvMFP",
    "name": "Calculating Values using Accounting Ratios",
-   "reason": "weak name similarity (0.41)"
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches calculating values using accounting ratios within incomplete records, but the committed parse carries no matching content statement; blocks nothing"
   },
   {
    "spcpt_id": "spcpt_TsBng38r82dkC8Rc",
    "name": "Partnership Agreement",
-   "reason": "weak name similarity (0.36)"
+   "reason": "no-guess pending: SME teaches the partnership agreement, but the committed igcse-accounting parse carries no partnership-agreement content statement (S1.038 is the mangled 'partnerships' term fragment of a different statement); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_YN2pPHH3PrYx7nQg",
    "name": "Profit for the Year as a Percentage of Revenue",
-   "reason": "weak name similarity (0.40)"
+   "reason": "no-guess pending: SME teaches profit for the year as a percentage of revenue, but the committed parse retains only the gross-profit-percentage ratio fragment (S4.069) of the profitability-ratio statement — the ratio named by this tag has no committed statement; flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_YtMsp2PByQdzKRKd",
    "name": "Adjustments for Provision for Depreciation",
-   "reason": "weak name similarity (0.45)"
-  },
-  {
-   "spcpt_id": "spcpt_b663TCrP8tWxhjvq",
-   "name": "Evaluating Liquidity",
-   "reason": "weak name similarity (0.44)"
+   "reason": "no-guess pending: SME teaches adjustments for provision for depreciation, but the committed igcse-accounting parse carries no depreciation-adjustment content statement — the surviving S5.078 fragment is a mangled multi-line merge of the Topic 2 depreciation bullets, not a joinable statement; flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_cdXKKWTrNP4djDZW",
    "name": "Mark-up",
-   "reason": "weak name similarity (0.11)"
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches mark-up, but the committed parse carries no mark-up statement (only the gross-profit-percentage fragment S4.069 survives); blocks nothing"
   },
   {
    "spcpt_id": "spcpt_f5VyXvKYFPPkwZpG",
    "name": "Statement of Financial Position for Manufacturers",
-   "reason": "weak name similarity (0.44)"
+   "reason": "no-guess pending: SME teaches the statement of financial position for manufacturers, but the committed igcse-accounting parse carries no SOFP-preparation content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_hWqjGV3s2h47GC8h",
    "name": "Partners' Capital Accounts",
-   "reason": "weak name similarity (0.36)"
+   "reason": "no-guess pending: SME teaches partners' capital accounts, but the committed igcse-accounting parse carries no partnership capital-account content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_hgPTWKkgpZhmkzjh",
    "name": "Direct & Indirect Costs",
-   "reason": "weak name similarity (0.13)"
+   "reason": "no-guess pending: SME teaches direct and indirect costs in manufacturing accounts, but the committed igcse-accounting parse carries no cost-classification statement (the S4.072 fragment merely trails 'production cost and total cost.'); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_kDPYZNNZvFT6scVb",
    "name": "Partners' Current Accounts",
-   "reason": "weak name similarity (0.34)"
+   "reason": "no-guess pending: SME teaches the preparation of partners' current accounts, but the committed igcse-accounting parse carries no partnership financial-statements content statement (Topic 4 content walk lost in parse beyond S4.069-S4.072); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_pxtv3ZCkSN4CzZqX",
    "name": "Statement of Affairs",
-   "reason": "weak name similarity (0.58)"
+   "reason": "no-guess pending: SME teaches the preparation of a statement of affairs for incomplete records, but the committed igcse-accounting parse carries no statement of affairs / incomplete-records content statement — the Topic 4 content walk survived parsing only as the ratio term fragments S4.069-S4.072; flagged for parse repair (no statement to join, never guessed)"
   },
   {
    "spcpt_id": "spcpt_qPf9kGZPB83sXXSY",
    "name": "Calculating Values using Control Accounts",
-   "reason": "weak name similarity (0.36)"
+   "reason": "no-guess pending: SME teaches calculating values using control accounts (incomplete records), but the committed igcse-accounting parse carries no control-account/incomplete-records calculation statement; flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_rfq9PNb7rtqJqdCW",
    "name": "Raw Materials, Work-in-Progress & Finished Goods",
-   "reason": "weak name similarity (0.15)"
-  },
-  {
-   "spcpt_id": "spcpt_wPpvXGQ2cKGwr4rT",
-   "name": "Return on Capital Employed (ROCE)",
-   "reason": "weak name similarity (0.50)"
+   "reason": "no-guess pending: SME teaches raw materials, work-in-progress and finished goods inventories, but the committed igcse-accounting parse carries no inventory-classification content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_x29yvZNwgRsCxxxQ",
    "name": "Income Statement for Manufacturers",
-   "reason": "weak name similarity (0.37)"
+   "reason": "no-guess pending: SME teaches the income statement for manufacturers, but the committed igcse-accounting parse carries no income-statement preparation content statement (Topic 4 walk lost in parse beyond the ratio fragments S4.069-S4.072); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_xRq6SYJ37s5g3xYz",
    "name": "Manufacturing Businesses",
-   "reason": "weak name similarity (0.18)"
+   "reason": "no-guess pending: SME teaches financial statements of manufacturing businesses, but the committed igcse-accounting parse carries no manufacturing financial-statements content statement (Topic 4 walk lost in parse); flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_yVTkRB8hrfWM95Xw",
    "name": "Manufacturing Account",
-   "reason": "weak name similarity (0.51)"
+   "reason": "no-guess pending: SME teaches the manufacturing account, but the committed igcse-accounting parse carries no manufacturing-account content statement (Topic 4 walk lost in parse); flagged for parse repair"
+  },
+  {
+   "spcpt_id": "spcpt_TvyfYwBdrjBRvq25",
+   "name": null,
+   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
+  },
+  {
+   "spcpt_id": "spcpt_ywTCzRPPpWBHX4JQ",
+   "name": null,
+   "reason": "no-guess pending: part-referenced tag recovered by the T-SPEC-7 index repair; no verdict record for this lane"
   }
  ],
  "flags": []

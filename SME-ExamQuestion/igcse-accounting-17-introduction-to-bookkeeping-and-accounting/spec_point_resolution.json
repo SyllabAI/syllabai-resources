@@ -1,0 +1,1103 @@
+{
+ "schema": "syllabai.sme-spec-point-resolution/1.0",
+ "generated_utc": "2026-09-19T04:58:13Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "counts": {
+  "ids": 110,
+  "resolved": 42,
+  "unresolved": 68
+ },
+ "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
+ "resolved": [
+  {
+   "id": "spcpt_2CnpKbMVWVzBBJQR",
+   "sme_name": "Purchases Returns",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": "S2.060",
+   "official_id": "IGCSE_ACCOUNTING:S2.060",
+   "official_wording": "purchases returns book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_2Z3gY378wcRv9qqB",
+   "sme_name": "The Imprest System",
+   "sme_definition": "",
+   "referenced_by_parts": 5,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the imprest system, but the committed parse carries no imprest statement (only the bare 'petty cash book' term S2.063 survives); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_2rygXYBHBJvQ4p2B",
+   "sme_name": "Balancing the Cash Book",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": "S2.062",
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_wording": "three-column cash book",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_3NQNy3Qw9ZmJ4Zdm",
+   "sme_name": "Transferring Income to the Income Statement",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches transferring income to the income statement, but the committed parse carries no matching statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_4JGrRT6ZTKHKBqp3",
+   "sme_name": "Preparing a Trial Balance",
+   "sme_definition": "",
+   "referenced_by_parts": 10,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches preparing a trial balance, but the committed parse carries no trial-balance statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_4JV2C7fMWBJ3pHq2",
+   "sme_name": "Revenue Expenditure",
+   "sme_definition": "",
+   "referenced_by_parts": 12,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_4fw9h8fXvc3Jd844",
+   "sme_name": "Purchase Orders",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": "S2.051",
+   "official_id": "IGCSE_ACCOUNTING:S2.051",
+   "official_wording": "purchase order",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_58zZFC8D52Wygq9T",
+   "sme_name": "Impact of Errors on Profit",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the impact of errors on profit, but the committed parse carries no error-correction statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_5D2wb8MdzNQY3qsP",
+   "sme_name": "Error of Complete Reversal",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the error of complete reversal, but the committed parse carries no error-correction statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_6k7cMfwRCTDdV5KJ",
+   "sme_name": "Purchase of a Non-Current Asset",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches purchasing a non-current asset on credit, but the committed parse carries no matching recording statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_6qWNZJ4sgthd3p5Y",
+   "sme_name": "Sales Day Book",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": "S2.059",
+   "official_id": "IGCSE_ACCOUNTING:S2.059",
+   "official_wording": "sales day book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_7DQ5qKjvmcKjgn2d",
+   "sme_name": "The Double Entry System",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": "S2.066",
+   "official_id": "IGCSE_ACCOUNTING:S2.066",
+   "official_wording": "payables ledger. b) Record transactions in ledger accounts using double entry principles.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_7dkqsbPJqT3Yjhrm",
+   "sme_name": "Sales Returns Day Book",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": "S2.061",
+   "official_id": "IGCSE_ACCOUNTING:S2.061",
+   "official_wording": "sales returns book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_7jgDCDDTVM4MZHq8",
+   "sme_name": "Partnerships",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": "S1.038",
+   "official_id": "IGCSE_ACCOUNTING:S1.038",
+   "official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_7rJpWpRrJNjB5jYD",
+   "sme_name": "Credit Sales",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches recording credit sales (invoice to sales day book to receivables ledger), a flow spanning several committed term statements (S2.053/S2.059/S2.065); no single committed statement covers credit-sale recording; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_83QX5HYgQMgZVjRK",
+   "sme_name": "Accounts for Assets",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches interpreting asset accounts and their balances, but the committed parse carries no account-classification/balance-interpretation statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_8JYZW3wW3N5QzNb8",
+   "sme_name": "Accruals",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": "S1.041",
+   "official_id": "IGCSE_ACCOUNTING:S1.041",
+   "official_wording": "accruals",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_93fh4WgyqbpVCBxM",
+   "sme_name": "Internal Stakeholders",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": "S1.038",
+   "official_id": "IGCSE_ACCOUNTING:S1.038",
+   "official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_9NJSTHxs5YmXCmss",
+   "sme_name": "Straight Line Depreciation",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_9XfSNcmSJk4NHDZT",
+   "sme_name": "Prepaid Income",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches prepaid income, but the committed parse carries no accrued/prepaid income adjustment statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_BvXpNHtdYpwdWQQb",
+   "sme_name": "Sole Traders",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": "S1.037",
+   "official_id": "IGCSE_ACCOUNTING:S1.037",
+   "official_wording": "sole traders",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_CZkk9qFGNP9YJrGx",
+   "sme_name": "Remittance Advice",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": "S2.056",
+   "official_id": "IGCSE_ACCOUNTING:S2.056",
+   "official_wording": "remittance advice",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_CrB8jX6rX6Z72rNW",
+   "sme_name": "Purchases Returns Day Book",
+   "sme_definition": "",
+   "referenced_by_parts": 5,
+   "resolved_code": "S2.060",
+   "official_id": "IGCSE_ACCOUNTING:S2.060",
+   "official_wording": "purchases returns book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_DjkZsjkNX3C35DTp",
+   "sme_name": "The Accounting Equation",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the accounting equation, but the committed parse carries no accounting-equation statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_Dtqg87vhtQJbhhft",
+   "sme_name": "Error of Principle",
+   "sme_definition": "",
+   "referenced_by_parts": 8,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the error of principle, but the committed parse carries no error-correction statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_DybSbYTjXJGVVYFX",
+   "sme_name": "Provision for Depreciation",
+   "sme_definition": "",
+   "referenced_by_parts": 10,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_F9fV4RfVWTX86BbJ",
+   "sme_name": "Principles of Professional Ethics",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the principles of professional ethics, but the committed parse carries no professional-ethics content statement (the S5.110 'Ethics' hit is a transferable-skills grid artifact, not examinable content); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_FdJMcHV4xcB2npwp",
+   "sme_name": "Taking Out a Loan",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches taking out a loan, but the committed parse carries no loan-recording statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_FyK5y2PZnts5qy2C",
+   "sme_name": "Adjustments to a Provision for Irrecoverable Debts",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches adjustments to a provision for irrecoverable debts, but the committed parse carries no irrecoverable-debts statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_G56Dwg8RWCGCG33X",
+   "sme_name": "The Cash Book",
+   "sme_definition": "",
+   "referenced_by_parts": 12,
+   "resolved_code": "S2.062",
+   "official_id": "IGCSE_ACCOUNTING:S2.062",
+   "official_wording": "three-column cash book",
+   "tier": "P2_page_context_join",
+   "score": null,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_G6YPxqfQ2JMnC5x7",
+   "sme_name": "Cash Discount",
+   "sme_definition": "",
+   "referenced_by_parts": 9,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches cash discount, but the committed parse carries no discount statements (trade/cash/discount allowed/discount received all lost in parse); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_G8ZDFvrKCHQjhVVK",
+   "sme_name": "Introduction to Depreciation",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the need for depreciation (why it is provided), but the committed parse retains only the calculation bullets of the depreciation statement (S2.068 b/c/d) — the reasons/need bullet was lost; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_GfYdyxVV6mcBJMkn",
+   "sme_name": "Error of Commission",
+   "sme_definition": "",
+   "referenced_by_parts": 6,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the error of commission, but the committed parse carries no error-correction statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_HQgDDkMnqVDNPZpY",
+   "sme_name": "Suspense Account",
+   "sme_definition": "",
+   "referenced_by_parts": 11,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the suspense account and its use when a trial balance does not balance, but the committed parse carries no suspense-account or trial-balance statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_Hh68wcJtr34C83kT",
+   "sme_name": "Disposal Account",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_Hz6GygvqgnWyvS26",
+   "sme_name": "Private & Public Sector Organisations",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": "S1.036",
+   "official_id": "IGCSE_ACCOUNTING:S1.036",
+   "official_wording": "private sector organisations",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_JfWqW4Fh7MGQm2zW",
+   "sme_name": "Credit Purchases",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches recording credit purchases (invoice to purchases day book to payables ledger), a flow spanning several committed term statements; no single committed statement covers credit-purchase recording; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_K9spk4p32xCjGsQw",
+   "sme_name": "Compensating Errors",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches compensating errors, but the committed parse carries no error-correction statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_KF28qJx7KS3NBTk4",
+   "sme_name": "Discount Allowed",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches discount allowed, but the committed parse carries no discount statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_KRTztYQRyDf2rVDv",
+   "sme_name": "Invoices",
+   "sme_definition": "",
+   "referenced_by_parts": 8,
+   "resolved_code": "S2.053",
+   "official_id": "IGCSE_ACCOUNTING:S2.053",
+   "official_wording": "sales invoice",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_MKTZbMZ4Gm44SwKn",
+   "sme_name": "Receivables, Payables & Nominal Ledgers",
+   "sme_definition": "",
+   "referenced_by_parts": 5,
+   "resolved_code": "S2.065",
+   "official_id": "IGCSE_ACCOUNTING:S2.065",
+   "official_wording": "receivables ledger",
+   "tier": "P2_page_context_join",
+   "score": 1.0,
+   "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_MMpfj7YbBCtV9PTR",
+   "sme_name": "Cheques & Cheque Counterfoils",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches cheques and cheque counterfoils (including dishonoured cheques), but the committed parse carries no cheque/payment-document statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_NB5vmp8y8dWsYfTH",
+   "sme_name": "Bank statements",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches bank statements as business documents, but the committed parse carries no bank-statement document term (S2.055 'statement of account' is a different credit-transaction document); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_NBfjXzYzD6ZdYpM4",
+   "sme_name": "Effects of Incorrect Treatment of Expenditure",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_NVvgM5vtKJd5Y8c4",
+   "sme_name": "Accrued Income",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches accrued income, but the committed parse carries no accrued/prepaid income adjustment statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_P255ngnXV864xJGC",
+   "sme_name": "External Stakeholders",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": "S1.038",
+   "official_id": "IGCSE_ACCOUNTING:S1.038",
+   "official_wording": "partnerships. b) Explain the connection between stakeholders and a business, identifying the stakeholders’ use of the business’s financial statements.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_P5c5tZz9grcJf7xs",
+   "sme_name": "Manual & Computerised Systems",
+   "sme_definition": "",
+   "referenced_by_parts": 5,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches manual and computerised bookkeeping systems, but the committed parse carries no manual/computerised-system statements (the technology topic survives only as fragments S1.045-S1.048); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_P7KFwMnmtRv7KfXx",
+   "sme_name": "Expense Accounts with Accruals & Prepayments",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches expense accounts with accruals and prepayments, but the committed parse carries no accruals/prepayments adjustment statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_P7Vzkr9Y6CftF6Cd",
+   "sme_name": "Taking Drawings & Introducing Capital",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teachings drawings and capital introductions, but the committed parse carries no drawings/capital recording statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_PJj4SzyjRZYgDq99",
+   "sme_name": "The Ledger",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); generic ledger page; the committed parse carries only the receivables/payables ledger term fragments (S2.065/S2.066) mapped by their own tags; blocks nothing"
+  },
+  {
+   "id": "spcpt_PKk288rKJdzZrQpT",
+   "sme_name": "Cash Sales",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches recording cash sales, but the committed parse carries no cash-sale recording statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_Pz9fx65q6Fj8C39D",
+   "sme_name": "Recovery of Debts Written Off",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches recovery of debts written off, but the committed parse carries no irrecoverable-debts statements; blocks nothing"
+  },
+  {
+   "id": "spcpt_QKvzZ9xjPVR8ZgKM",
+   "sme_name": "Cash or Bank",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); the cash-or-bank classification page has no distinct committed statement (only the cash-book term fragments survive); blocks nothing"
+  },
+  {
+   "id": "spcpt_QTkcX2DQZkFmXsPF",
+   "sme_name": "Business Entity",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": "S1.044",
+   "official_id": "IGCSE_ACCOUNTING:S1.044",
+   "official_wording": "business entity.",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_QqWG7WNYwFQ2pjmV",
+   "sme_name": "Capital Expenditure",
+   "sme_definition": "",
+   "referenced_by_parts": 14,
+   "resolved_code": "S2.067",
+   "official_id": "IGCSE_ACCOUNTING:S2.067",
+   "official_wording": "capital expenditure",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_QtChwZW4N4qHfFFB",
+   "sme_name": "Accrued Expenses",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches accrued expenses, but the committed parse carries no accruals/prepayments adjustment statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_SZrkGBkcsRCRRgvJ",
+   "sme_name": "Debit Notes & Credit Notes",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": "S2.054",
+   "official_id": "IGCSE_ACCOUNTING:S2.054",
+   "official_wording": "credit note",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_T7dmv27pcfZNDYXz",
+   "sme_name": "Purpose of a Control Account",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the purpose of a control account, but the committed parse carries no control-account statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_TKD8Gywyd3ZZGSBd",
+   "sme_name": "Limited Companies",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches limited companies, but the committed parse carries no limited-company statements; blocks nothing"
+  },
+  {
+   "id": "spcpt_TKMGsHJdGnB3MRZ5",
+   "sme_name": "Accounts for Liabilities",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches interpreting liability accounts and their balances, but the committed parse carries no account-classification/balance-interpretation statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_TfC3RFS4vP7hKkz3",
+   "sme_name": "Impact of Errors on a Statement of Financial Position",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches the impact of errors on the statement of financial position, but the committed parse carries no error-correction statements; blocks nothing"
+  },
+  {
+   "id": "spcpt_V2Ngr7Qct5whDwj2",
+   "sme_name": "Balancing Accounts",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches balancing ledger accounts, but the committed parse carries no balancing/double-entry procedure statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_VCf3GRwqjMcjzksW",
+   "sme_name": "Transferring Balances to the Income Statement",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches transferring balances to the income statement, but the committed parse carries no matching statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_VJwbbgF52XcZDqfx",
+   "sme_name": "Irrecoverable Debts Written Off",
+   "sme_definition": "",
+   "referenced_by_parts": 8,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches irrecoverable debts written off, but the committed parse carries no irrecoverable-debts statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_Vh4yb798YW7SxbYz",
+   "sme_name": "Purpose of Business Documents",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); generic business-documents introduction spanning several document terms each carried by its own tag; no single committed statement covers it; blocks nothing"
+  },
+  {
+   "id": "spcpt_WjK8k99kkvsD4TgJ",
+   "sme_name": "Petty Cash Vouchers",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": "S2.057",
+   "official_id": "IGCSE_ACCOUNTING:S2.057",
+   "official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_X45ypSkbRF3NhYbY",
+   "sme_name": "The Journal",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": "S2.064",
+   "official_id": "IGCSE_ACCOUNTING:S2.064",
+   "official_wording": "the journal.",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_XBsYFjgjNYfh3PfX",
+   "sme_name": "Purchases Day Book",
+   "sme_definition": "",
+   "referenced_by_parts": 5,
+   "resolved_code": "S2.058",
+   "official_id": "IGCSE_ACCOUNTING:S2.058",
+   "official_wording": "purchases day book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_XjcY9gg9HmNsNDQZ",
+   "sme_name": "Prudence",
+   "sme_definition": "",
+   "referenced_by_parts": 9,
+   "resolved_code": "S1.040",
+   "official_id": "IGCSE_ACCOUNTING:S1.040",
+   "official_wording": "prudence",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_Xp3btZQZMhCwnFDT",
+   "sme_name": "Prepaid Expenses",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches prepaid expenses, but the committed parse carries no accruals/prepayments adjustment statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_YF4q34SJZgMrWdgd",
+   "sme_name": "Errors Which Do Not Affect a Trial Balance",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches errors which do not affect a trial balance, but the committed parse carries no trial-balance/error statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_YVQcCbkVFQ2JfRs7",
+   "sme_name": "Updating the Cash Book",
+   "sme_definition": "",
+   "referenced_by_parts": 6,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches updating the cash book from a bank statement (bank-reconciliation context), but the committed parse carries no bank-reconciliation statements — the S2.062 'three-column cash book' term is the book itself, not the reconciliation content; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_YfwjgqFgrnVmmRN7",
+   "sme_name": "Payments from Credit Customers",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches payments from credit customers, but the committed parse carries no receipt-recording statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_YjnySfP6hFJhjdsB",
+   "sme_name": "Consistency",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": "S1.039",
+   "official_id": "IGCSE_ACCOUNTING:S1.039",
+   "official_wording": "consistency",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_ZwYV9PnxyVFhmGqQ",
+   "sme_name": "Cash Purchases",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches recording cash purchases, but the committed parse carries no cash-purchase recording statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_cJWs853zHnxj675h",
+   "sme_name": "Provision for Irrecoverable Debts",
+   "sme_definition": "",
+   "referenced_by_parts": 12,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches provision for irrecoverable debts, but the committed parse carries no irrecoverable-debts statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_dhmKSxhyhHF86gSY",
+   "sme_name": "Error of Original Entry",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the error of original entry, but the committed parse carries no error-correction statements (the correction-of-errors topic was lost in parse); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_f8pz3CCBY2HCBpbP",
+   "sme_name": "Security Issues",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": "S1.045",
+   "official_id": "IGCSE_ACCOUNTING:S1.045",
+   "official_wording": "spreadsheets. b) Explain the issues regarding the security of data:",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_ffVqrYhcNDPmGBKq",
+   "sme_name": "Statements of Account",
+   "sme_definition": "",
+   "referenced_by_parts": 6,
+   "resolved_code": "S2.055",
+   "official_id": "IGCSE_ACCOUNTING:S2.055",
+   "official_wording": "statement of account",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_gtcsfnSNdfJ7fpsG",
+   "sme_name": "Payments to Credit Suppliers",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches payments to credit suppliers, but the committed parse carries no payment-recording statement; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_jGWn9WvWJqZKXrpx",
+   "sme_name": "Paying-In Slips",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches paying-in slips, but the committed parse carries no paying-in-slip document statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_jYjWjNDGCP78X52C",
+   "sme_name": "Money Measurement",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": "S1.043",
+   "official_id": "IGCSE_ACCOUNTING:S1.043",
+   "official_wording": "money measurement",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_jkxJQxQfFSrqYWR5",
+   "sme_name": "Causes of Depreciation",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches causes of depreciation, but the committed parse retains only the calculation bullets of the depreciation statement (S2.068 b/c/d) — the causes bullet was lost; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_kkYHCjZ35mWvZfS8",
+   "sme_name": "A Summary of Business Documents for Transactions",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches a summary of business documents for transactions, but the summary page spans many document terms (each carried by its own tag) and no committed statement covers the summary; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_m6yNSZkV5FRMgdkc",
+   "sme_name": "Profit or Loss on a Sale of a Non-Current Asset",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_mT8PPqsZ5zdfkxxk",
+   "sme_name": "Accounts for Expenses & Incomes",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches interpreting expense and income accounts and their balances, but the committed parse carries no account-classification statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_mdtcPGZSfxnVvhND",
+   "sme_name": "Limited Partnerships & Limited Liability Partnerships (LLP)",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches limited partnerships and LLPs, but the committed parse carries no matching statements; blocks nothing"
+  },
+  {
+   "id": "spcpt_msF3FT2Jx5xG25xX",
+   "sme_name": "Trade Receivables Ledger Control Account",
+   "sme_definition": "",
+   "referenced_by_parts": 12,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the trade receivables ledger control account, but the committed igcse-accounting parse carries no control-account statements — the ledger section survives only as the bare terms S2.065 'receivables ledger' / S2.066 'payables ledger'; joining a control account to the ledger term would be a guess; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_mwkMMTDd9xPjVPCv",
+   "sme_name": "Sales Returns",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": "S2.061",
+   "official_id": "IGCSE_ACCOUNTING:S2.061",
+   "official_wording": "sales returns book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_n7MRgBWR5kvpRWTY",
+   "sme_name": "The Petty Cash Book",
+   "sme_definition": "",
+   "referenced_by_parts": 11,
+   "resolved_code": "S2.063",
+   "official_id": "IGCSE_ACCOUNTING:S2.063",
+   "official_wording": "petty cash book",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_nmGy2VPqQgJC5mp9",
+   "sme_name": "Receipts",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": "S2.057",
+   "official_id": "IGCSE_ACCOUNTING:S2.057",
+   "official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_pR24x4fHRXT2fsYr",
+   "sme_name": "Uses & Limitations of a Trial Balance",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches uses and limitations of a trial balance, but the committed parse carries no trial-balance statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_pnfyHSZRhCmFbwmS",
+   "sme_name": "Error of Omission",
+   "sme_definition": "",
+   "referenced_by_parts": 6,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the error of omission, but the committed parse carries no error-correction statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_qNNt6Wgx6TkR5b6M",
+   "sme_name": "Receiving Incomes & Paying Expenses",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches receiving incomes and paying expenses, but the committed parse carries no matching recording statement; blocks nothing"
+  },
+  {
+   "id": "spcpt_qfmhgKNsSdnF5SvN",
+   "sme_name": "Accounting Concepts",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the accounting concepts collectively, but the committed parse carries only the individual concept term fragments (S1.039-S1.044) each mapped by its own tag, and the anchored part tests going concern, which has no committed statement at all; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_qmQ6BhVQM2drgvVM",
+   "sme_name": "Income Accounts with Accruals & Prepayments",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches income accounts with accruals and prepayments, but the committed parse carries no accruals/prepayments adjustment statements (S1.041 'accruals' is the concept term, not the treatment statement); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_sZfbQZGdzYGPYQjq",
+   "sme_name": "Discount Received",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches discount received, but the committed parse carries no discount statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_srTknwNn78jknxwg",
+   "sme_name": "Debits & Credits",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": "S2.066",
+   "official_id": "IGCSE_ACCOUNTING:S2.066",
+   "official_wording": "payables ledger. b) Record transactions in ledger accounts using double entry principles.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_swWXFKksDwrddJwP",
+   "sme_name": "Accounts for Equity & Drawings",
+   "sme_definition": "",
+   "referenced_by_parts": 2,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches interpreting equity and drawings accounts, but the committed parse carries no account-classification statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_tCqRw4CM228rwGT8",
+   "sme_name": "Purpose of a Bank Reconciliation Statement",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the purpose of a bank reconciliation statement, but the committed parse carries no bank-reconciliation statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_tVCyVwWxrQhqV6Xx",
+   "sme_name": "Preparing a Bank Reconciliation Statement",
+   "sme_definition": "",
+   "referenced_by_parts": 7,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches preparing a bank reconciliation statement, but the committed parse carries no bank-reconciliation statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_tqnrT9sSkxtQGQ7x",
+   "sme_name": "Errors Which Affect The Trial Balance",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches errors which affect the trial balance, but the committed parse carries no trial-balance/error statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_tyN7c4XSNpfpzch6",
+   "sme_name": "Trade Discount",
+   "sme_definition": "",
+   "referenced_by_parts": 12,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches trade discount, but the committed parse carries no discount statements; flagged for parse repair"
+  },
+  {
+   "id": "spcpt_vw8BWYrvKCf6MsqQ",
+   "sme_name": "Reducing Balance Depreciation",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": "S2.068",
+   "official_id": "IGCSE_ACCOUNTING:S2.068",
+   "official_wording": "revenue expenditure. b) Explain the importance of the correct treatment of capital expenditure and revenue expenditure. b) Distinguish between straight line and reducing balance methods of depreciation. c) Calculate and record depreciation in the books of account. d) Calculate and record profit or loss of disposal of non-current assets.",
+   "tier": "P1_name_fragment_join",
+   "score": 1.0,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_wTtjvcBJJyWs2BDC",
+   "sme_name": "Purpose of Books of Original Entry",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": "S2.057",
+   "official_id": "IGCSE_ACCOUNTING:S2.057",
+   "official_wording": "petty cash voucher. c) Cash receipt b) Prepare the following books of original entry:",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_yDPQyxCWx8GSRH4V",
+   "sme_name": "Methods of Protecting Data",
+   "sme_definition": "",
+   "referenced_by_parts": 3,
+   "resolved_code": "S1.048",
+   "official_id": "IGCSE_ACCOUNTING:S1.048",
+   "official_wording": "confidentiality. c) Explain the methods of protecting data:",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_yVD5d8rW3TsNX2xf",
+   "sme_name": "Use of a Bank Statement",
+   "sme_definition": "",
+   "referenced_by_parts": 0,
+   "resolved_code": null,
+   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches use of a bank statement, but the committed parse carries no bank-reconciliation statements; blocks nothing"
+  },
+  {
+   "id": "spcpt_ypnw89wqhV7JFHqD",
+   "sme_name": "Trade Payables Ledger Control Account",
+   "sme_definition": "",
+   "referenced_by_parts": 10,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches the trade payables ledger control account, but the committed parse carries no control-account statements (only the bare ledger terms S2.065/S2.066 survive); flagged for parse repair"
+  },
+  {
+   "id": "spcpt_zTsh5Pq9tZBHjfxv",
+   "sme_name": "Materiality",
+   "sme_definition": "",
+   "referenced_by_parts": 4,
+   "resolved_code": "S1.042",
+   "official_id": "IGCSE_ACCOUNTING:S1.042",
+   "official_wording": "materiality",
+   "tier": "P1_name_fragment_join",
+   "score": null,
+   "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+   "unit": null
+  },
+  {
+   "id": "spcpt_zsVqrJjvNSXmShv7",
+   "sme_name": "Transferring Expenses to the Income Statement",
+   "sme_definition": "",
+   "referenced_by_parts": 1,
+   "resolved_code": null,
+   "reason": "no-guess pending: SME teaches transferring expenses to the income statement, but the committed parse carries no matching statement; flagged for parse repair"
+  }
+ ]
+}

@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.learner-spec-links/1.0",
- "generated_utc": "2026-09-17T17:55:44Z",
+ "generated_utc": "2026-09-19T05:02:40Z",
  "course": "igcse-accounting-17-financial-statements",
  "qual": "igcse-accounting",
  "totals": {
   "items": 91,
-  "items_with_codes": 10,
+  "items_with_codes": 16,
   "by_kind": {
    "notes": 20,
    "question_parts": 71,
@@ -13,7 +13,7 @@
   },
   "coded_by_kind": {
    "notes": 2,
-   "question_parts": 8,
+   "question_parts": 14,
    "flashcards": 0
   }
  },
@@ -212,26 +212,24 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.070",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.072",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.072",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "pending": []
   },
   "rn_6jxrxj4BdDYbxKvj": {
    "kind": "note",
@@ -241,16 +239,21 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.069",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.069",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
     "spcpt_C9T5mbbCqsRGFH5Q",
     "spcpt_cdXKKWTrNP4djDZW",
     "spcpt_YN2pPHH3PrYx7nQg",
-    "spcpt_wPpvXGQ2cKGwr4rT",
     "spcpt_4djxV6TB2XSms9JM"
    ]
   },
@@ -862,26 +865,24 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.070",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.072",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.072",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "pending": []
   },
   "qstnprt_HRSVhfZQyqBqnpVc": {
    "kind": "question_part",
@@ -890,35 +891,50 @@
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
    "codes": [
     {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "pending": []
   },
   "qstnprt_Km3sVMZ2WS9XFzGR": {
    "kind": "question_part",
    "label": "qstn_VDBDmSKXPz7fr6mD / part 1",
    "section": "the-preparation-of-financial-statements",
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6KWhY26yMxf97hjh": {
    "kind": "question_part",
    "label": "qstn_WFS5HH9g4DJGtMJV / part 0",
    "section": "the-preparation-of-financial-statements",
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_YN2pPHH3PrYx7nQg",
-    "spcpt_wPpvXGQ2cKGwr4rT"
+    "spcpt_YN2pPHH3PrYx7nQg"
    ]
   },
   "qstnprt_jC55SRhP3K77XHxP": {
@@ -938,21 +954,25 @@
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
    "codes": [
     {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.072",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.072",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "pending": []
   },
   "qstnprt_qSps8NhK2CrxZtvh": {
    "kind": "question_part",
@@ -962,15 +982,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.072",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.072",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -980,20 +1000,30 @@
    "label": "qstn_wyjjYQ8Fb7S3nXVh / part 1",
    "section": "the-preparation-of-financial-statements",
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4zvTV53RF8JWbSnG": {
    "kind": "question_part",
    "label": "qstn_w7BX8vH8wHGSNkQh / part 0",
    "section": "the-preparation-of-financial-statements",
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kb35gjMJc4fpTNSj": {
    "kind": "question_part",
@@ -1003,13 +1033,18 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.069",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.069",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_wPpvXGQ2cKGwr4rT",
     "spcpt_4djxV6TB2XSms9JM"
    ]
   },
@@ -1021,9 +1056,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1036,9 +1071,9 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.072",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.072",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1048,10 +1083,15 @@
    "label": "qstn_JyzPzgDBTb8fkz8T / part 2",
    "section": "the-preparation-of-financial-statements",
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_S7Bs8FfX6FMwhXyG": {
    "kind": "question_part",
@@ -1061,15 +1101,15 @@
    "codes": [
     {
      "official_id": "IGCSE_ACCOUNTING:S4.071",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.071",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     },
     {
      "official_id": "IGCSE_ACCOUNTING:S4.072",
-     "official_code": null,
-     "tier": "S1_name_match",
-     "method": "name_to_statement_join"
+     "official_code": "S4.072",
+     "tier": "P1_name_fragment_join",
+     "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
     }
    ],
    "pending": []
@@ -1079,10 +1119,15 @@
    "label": "qstn_YDKRzsy9y33FHFz7 / part 1",
    "section": "the-preparation-of-financial-statements",
    "topic": "the-calculation-and-interpretation-of-accounting-ratios",
-   "codes": [],
-   "pending": [
-    "spcpt_b663TCrP8tWxhjvq"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.070",
+     "official_code": "S4.070",
+     "tier": "P2_page_context_join",
+     "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    }
+   ],
+   "pending": []
   }
  }
 }
