@@ -163,3 +163,32 @@ the committed registry row and the official PDF extraction:
   order-nondeterministic `list(set(...))`);
 - post-audit verify: **ALL GATES PASSED** (39 courses, 27,700 parts,
   question parts 26,867/26,867 = 100% coded).
+
+**Extension to full coverage (same day, operator request):** the remaining
+33 coded records were audited with the same method (evidence pack r2:
+tag entry + registry row/sub-items + applied sidecar + referencing-part
+text). Result: **33/33 confirmed, 0 defects** —
+- accounting 3 (S2.143 best available home — no explicit recovery-of-
+  written-off-debts row exists in either the S2.14x or S5.18x family;
+  S2.134/S4.158 S0 absence claims TRUE), business 1 (1.6.1 S0 TRUE),
+  economics 4 (2.2.1a/2.1.2a x2 verbatim; 1.2.3a S0 TRUE),
+- further-maths 1: 10B's inclusion note verbatim in the print (PDF lines
+  683-685, "To include the exact values for sine, cosine and tangent of
+  30°, 45°, 60°"),
+- geography 4 (S9.105/107/116 verbatim; S9.111 S0 TRUE) — the round-1
+  S4.187 part quote also verified verbatim ("Suggest one reason for the
+  choice of economic activity in this location", Port of Barcelona figure),
+- ICT 2 (6.4.4 S0 pair, registry-verified), maths modular 5 (cross-lane
+  twin consistency proven for Two-Way-Tables/Congruence/Ordering-FDP;
+  refinement's old U1F-4.4F verified verbatim as the average-speed row —
+  wrong subject, correction to U2H-4.11C stands; the Perpendicular-Lines
+  part quote located verbatim in the lane's linear-graphs topic in
+  problem_md LaTeX form),
+- SDA physics 13 (all verbatim relationship/practical joins; the 4.11 vs
+  4.12 and 4.16 vs 2.4 discriminations confirmed against the registry).
+
+Full-audit verdict: **45/45 codes correct**; the single defect found in
+the whole set was the round-1 GDP annotation (tier + rationale, code
+unaffected, already repaired). Every quoted evidence fragment across the
+45 rationales (part texts, registry rows, PDF inclusion note, all 10
+absence claims) is now independently verified.
