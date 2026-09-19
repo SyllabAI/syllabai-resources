@@ -69,6 +69,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
+import json
 import yaml
 
 HERE = Path(__file__).resolve().parent
@@ -289,12 +290,52 @@ def normed_file(rel: str):
 
 def quote_ok(rel: str, quote: str) -> bool:
     body = normed_file(rel)
-    return body is not None and norm(quote) in body
+    if body is not None and norm(quote) in body:
+        return True
+    # T-C23: quotes from the retired OCR lineage are admissible exactly where
+    # the C23 swap record re-anchored them (auditable old->new mapping; the
+    # definitive store no longer contains the pre-swap wording bytes)
+    if rel == "graph/specification_points.yaml":
+        for _sp, _old in _C23_REANCHORED:
+            if _old == quote:
+                return True
+    return False
+
+
+def spec_anchor_text(sp) -> str:
+    """Definitive anchor text (T-C23): official wording + PDF bullets."""
+    t = sp["official_wording"]
+    b = sp.get("official_bullets")
+    if b:
+        t += " " + " ".join(b)
+    return t
+
+
+_C23_RECORD = GRAPH.parent / "graph/reports/C23_DEFINITIVE_SWAP_RECORD.json"
+_C23_REANCHORED: set = set()
+_C23_NEW: dict = {}
+if _C23_RECORD.exists():
+    try:
+        _rec = json.loads(_C23_RECORD.read_text())
+        for _r in _rec.get("adjudications", {}).get("quote_reanchors", []):
+            _C23_REANCHORED.add((_r.get("sp"), _r.get("old_quote")))
+            _C23_NEW[(_r.get("sp"), _r.get("old_quote"))] = _r.get("new_quote")
+
+
+    except Exception:
+        _C23_REANCHORED = set()
 
 
 def spec_wording_has(code: str, quote: str) -> bool:
     sp = spec_by_code.get(code)
-    return sp is not None and norm(quote) in norm(sp["official_wording"])
+    if sp is None:
+        return False
+    if norm(quote) in norm(spec_anchor_text(sp)):
+        return True
+    # T-C23: frozen decision-record quotes from the retired OCR lineage are
+    # admissible exactly where the C23 swap record re-anchored that quote on
+    # that SP (auditable old->new mapping in the swap record)
+    return (code, quote) in _C23_REANCHORED
 
 
 def anchor_ok(anchor, where: str):
@@ -923,12 +964,32 @@ HDR = ("# SyllabAI 4CH1 concept graph (pilot + §16 batches 1-2) — T-C11, "
        f"{max(r['date'] for r in recs)} (deterministic contract; "
        "byte-identical re-runs).\n")
 
+def _c23_apply_quote_map(records, is_node):
+    """T-C23: emit the definitive (re-anchored) SPEC quotes for entries the
+    C23 swap record re-anchored; frozen decision records stay untouched."""
+    if not _C23_NEW:
+        return records
+    for r in records:
+        pairs = ([(a.get("code"), a.get("evidence"))
+                  for a in r.get("spec_points") or []]
+                 if is_node else [(r.get("target"), r.get("evidence"))])
+        for sp, evs in pairs:
+            for a in evs or []:
+                if (a.get("kind") == "SPEC"
+                        and a.get("file") == "graph/specification_points.yaml"):
+                    key = (sp, a.get("quote"))
+                    if key in _C23_NEW:
+                        a["quote"] = _C23_NEW[key]
+    return records
+
+
 if not dry:
     emit(GRAPH / "concepts.yaml", build_meta("nodes", counts_nodes), "nodes",
-         [node_out(n) for n in sorted(nodes, key=lambda x: (x["family"], x["code"]))],
+         [_c23_apply_quote_map([node_out(n)], True)[0]
+          for n in sorted(nodes, key=lambda x: (x["family"], x["code"]))],
          HDR)
     emit(GRAPH / "concept_edges.yaml", build_meta("edges", counts_edges), "edges",
-         all_edges, HDR)
+         _c23_apply_quote_map(all_edges, False), HDR)
     emit(GRAPH / "spec_command_kinds.yaml", build_meta("command_kinds", counts_ck),
          "command_kinds",
          sorted(cks, key=lambda x: x["code"]), HDR)
