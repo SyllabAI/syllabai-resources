@@ -14,11 +14,11 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
-  spec_points: 118
+  spec_points: 185
   topics: 20
-  subsections: 0
+  subsections: 24
   practicals: 0
 topics:
 - code: 4AC1-S1
@@ -301,4 +301,172 @@ topics:
     pdf_page: 29
     pdf_sha1: 7be3ee60ee8a0650e3bb5fba9f34d646a12a8a08
   damage_flags: []
-subsections: []
+subsections:
+- code: 4AC1-SUB1
+  letter: '1'
+  title: Types of
+  parent_topic: 4AC1-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4AC1-SUB2
+  letter: '2'
+  title: Accounting
+  parent_topic: 4AC1-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4AC1-SUB3
+  letter: '3'
+  title: Use of
+  parent_topic: 4AC1-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4AC1-SUB4
+  letter: '4'
+  title: Professional
+  parent_topic: 4AC1-S13
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 19
+- code: 4AC1-SUB5
+  letter: '1'
+  title: Business
+  parent_topic: 4AC1-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4AC1-SUB6
+  letter: '2'
+  title: Books of original
+  parent_topic: 4AC1-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4AC1-SUB7
+  letter: '3'
+  title: Ledger
+  parent_topic: 4AC1-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4AC1-SUB8
+  letter: '4'
+  title: Capital
+  parent_topic: 4AC1-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4AC1-SUB9
+  letter: '5'
+  title: Depreciation
+  parent_topic: 4AC1-S14
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 21
+- code: 4AC1-SUB10
+  letter: '6'
+  title: Irrecoverable
+  parent_topic: 4AC1-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4AC1-SUB11
+  letter: '7'
+  title: Other
+  parent_topic: 4AC1-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 22
+- code: 4AC1-SUB12
+  letter: '1'
+  title: Trial balance
+  parent_topic: 4AC1-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 23
+- code: 4AC1-SUB13
+  letter: '2'
+  title: Control accounts
+  parent_topic: 4AC1-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 23
+- code: 4AC1-SUB14
+  letter: '3'
+  title: Correction of
+  parent_topic: 4AC1-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 23
+- code: 4AC1-SUB15
+  letter: '4'
+  title: Bank
+  parent_topic: 4AC1-S15
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 23
+- code: 4AC1-SUB16
+  letter: '1'
+  title: Financial
+  parent_topic: 4AC1-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4AC1-SUB17
+  letter: '2'
+  title: Financial
+  parent_topic: 4AC1-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4AC1-SUB18
+  letter: '3'
+  title: Incomplete
+  parent_topic: 4AC1-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4AC1-SUB19
+  letter: '4'
+  title: The calculation
+  parent_topic: 4AC1-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4AC1-SUB20
+  letter: '5'
+  title: Financial
+  parent_topic: 4AC1-S18
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 27
+- code: 4AC1-SUB21
+  letter: '1'
+  title: Application of
+  parent_topic: 4AC1-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4AC1-SUB22
+  letter: '2'
+  title: Depreciation
+  parent_topic: 4AC1-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4AC1-SUB23
+  letter: '3'
+  title: Irrecoverable
+  parent_topic: 4AC1-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29
+- code: 4AC1-SUB24
+  letter: '4'
+  title: Other
+  parent_topic: 4AC1-S19
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 29

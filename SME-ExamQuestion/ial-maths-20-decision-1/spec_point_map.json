@@ -4,7 +4,7 @@
  "qual": "ial-maths",
  "regime": "B",
  "unit_scope": "D1",
- "generated_utc": "2026-09-17T16:27:26+00:00",
+ "generated_utc": "2026-09-19T06:45:14Z",
  "sme_entries": 53,
  "official_pool": 12,
  "mappings": {
@@ -631,6 +631,24 @@
     "superseded_code": null,
     "pmt_excluded": true
    }
+  },
+  "spcpt_d6KFycyQksKQ2HGD": {
+   "official_id": "IAL_MATHS:D1-4.4",
+   "official_code": "4.4",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+  },
+  "spcpt_fN2rrfqvt7NDGwsB": {
+   "official_id": "IAL_MATHS:D1-4.4",
+   "official_code": "4.4",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+  },
+  "spcpt_vg4jSpg46ks8kcrD": {
+   "official_id": "IAL_MATHS:D1-4.4",
+   "official_code": "4.4",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   }
  },
  "unmapped": [
@@ -648,16 +666,6 @@
    "spcpt_id": "spcpt_Y6ZGFfHSfjhqhh5t",
    "name": "Identifying a Hamiltonian Cycle",
    "reason": "no-guess pending: SME teaches identifying Hamiltonian cycles but the published IAL Mathematics specification contains no Hamiltonian statement (PDF-verified 0 hits); the classical TSP statement 3.2 presupposes the theory but does not state it"
-  },
-  {
-   "spcpt_id": "spcpt_d6KFycyQksKQ2HGD",
-   "name": "Gantt Charts",
-   "reason": "no-guess pending: Gantt (cascade) charts are stated verbatim in published D1 statement 4.4 (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4; no valid registry target exists; flagged for parse repair"
-  },
-  {
-   "spcpt_id": "spcpt_fN2rrfqvt7NDGwsB",
-   "name": "Total Float of an Activity",
-   "reason": "no-guess pending: total float is stated verbatim in published D1 statement 4.4 'Total float. Gantt (cascade) charts. Scheduling.' (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4 (its code slot carries a notation-table artifact), so no valid registry target exists; flagged for parse repair"
   },
   {
    "spcpt_id": "spcpt_g4WGr939XD6DZyBD",
@@ -678,11 +686,6 @@
    "spcpt_id": "spcpt_hrmHmYZTVfcdzcJc",
    "name": "Introduction to Graph Theory",
    "reason": "no-guess pending: SME teaches an introduction to graph theory but the committed D1 registry and the published PDF contain no standalone graph-definitions statement"
-  },
-  {
-   "spcpt_id": "spcpt_vg4jSpg46ks8kcrD",
-   "name": "Scheduling Activities",
-   "reason": "no-guess pending: scheduling is stated verbatim in published D1 statement 4.4 (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4; no valid registry target exists; flagged for parse repair"
   }
  ],
  "flags": []

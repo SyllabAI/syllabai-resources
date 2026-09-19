@@ -1,0 +1,85 @@
+{
+ "schema": "syllabai.t-spec-8-apply/1.0",
+ "generated_utc": "2026-09-19T06:45:14Z",
+ "lanes": [
+  "ial-maths-20-decision-1",
+  "igcse-accounting-17-financial-statements",
+  "igcse-accounting-17-introduction-to-bookkeeping-and-accounting",
+  "igcse-maths-a-18-foundation",
+  "igcse-maths-a-18-higher",
+  "igcse-maths-a-modular-24-foundation-unit-1",
+  "igcse-maths-a-modular-24-higher-unit-1",
+  "igcse-maths-a-modular-24-higher-unit-2"
+ ],
+ "per_lane": {
+  "ial-maths-20-decision-1": {
+   "stats": {
+    "idempotent": 3
+   },
+   "resolved_total": 46,
+   "unresolved_total": 7,
+   "parts_coded": 358,
+   "parts_uncoded": 15
+  },
+  "igcse-accounting-17-financial-statements": {
+   "stats": {
+    "idempotent": 22
+   },
+   "resolved_total": 28,
+   "unresolved_total": 5,
+   "parts_coded": 69,
+   "parts_uncoded": 2
+  },
+  "igcse-accounting-17-introduction-to-bookkeeping-and-accounting": {
+   "stats": {
+    "idempotent": 51
+   },
+   "resolved_total": 93,
+   "unresolved_total": 17,
+   "parts_coded": 282,
+   "parts_uncoded": 31
+  },
+  "igcse-maths-a-18-foundation": {
+   "stats": {},
+   "resolved_total": 146,
+   "unresolved_total": 16,
+   "parts_coded": 397,
+   "parts_uncoded": 31
+  },
+  "igcse-maths-a-18-higher": {
+   "stats": {
+    "idempotent": 25
+   },
+   "resolved_total": 197,
+   "unresolved_total": 25,
+   "parts_coded": 3297,
+   "parts_uncoded": 236
+  },
+  "igcse-maths-a-modular-24-foundation-unit-1": {
+   "stats": {},
+   "resolved_total": 77,
+   "unresolved_total": 11,
+   "parts_coded": 176,
+   "parts_uncoded": 20
+  },
+  "igcse-maths-a-modular-24-higher-unit-1": {
+   "stats": {
+    "idempotent": 15
+   },
+   "resolved_total": 87,
+   "unresolved_total": 18,
+   "parts_coded": 1525,
+   "parts_uncoded": 128
+  },
+  "igcse-maths-a-modular-24-higher-unit-2": {
+   "stats": {
+    "idempotent": 8
+   },
+   "resolved_total": 79,
+   "unresolved_total": 18,
+   "parts_coded": 1377,
+   "parts_uncoded": 260
+  }
+ },
+ "note": "T-SPEC-8 stage-2 re-verdicts after the parse repairs in t_spec_8_parse_repair.py. maths-a: the T-SPEC-7 evidence packs omitted the Higher-walk (H/U1H/U2H) statements from the lane pools, so tags quoted the published statements as \"dropped by the committed parse\"; the statements exist verbatim and are joined here (tier R1_parse_repair_statement_join). ial-maths D1: the restored statement 4.4 unblocks three T-SPEC-6 pendings. accounting: the restored 4AC1 content walk (Topics 1-5) unblocks pendings across both lanes. Aggregation/guide tags and statements genuinely absent from the published specs stay pending with corrected reasons."
+}

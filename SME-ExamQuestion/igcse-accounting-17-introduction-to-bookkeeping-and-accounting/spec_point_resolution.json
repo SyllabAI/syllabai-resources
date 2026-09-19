@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T04:58:13Z",
- "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T06:45:14Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 110,
-  "resolved": 42,
-  "unresolved": 68
+  "resolved": 93,
+  "unresolved": 17
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -56,8 +56,11 @@
    "sme_name": "Preparing a Trial Balance",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches preparing a trial balance, but the committed parse carries no trial-balance statements; flagged for parse repair"
+   "resolved_code": "S3.148",
+   "official_id": "IGCSE_ACCOUNTING:S3.148",
+   "official_wording": "Prepare a trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_4JV2C7fMWBJ3pHq2",
@@ -90,24 +93,33 @@
    "sme_name": "Impact of Errors on Profit",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the impact of errors on profit, but the committed parse carries no error-correction statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_5D2wb8MdzNQY3qsP",
    "sme_name": "Error of Complete Reversal",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the error of complete reversal, but the committed parse carries no error-correction statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_6k7cMfwRCTDdV5KJ",
    "sme_name": "Purchase of a Non-Current Asset",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches purchasing a non-current asset on credit, but the committed parse carries no matching recording statement; blocks nothing"
+   "resolved_code": "S2.135",
+   "official_id": "IGCSE_ACCOUNTING:S2.135",
+   "official_wording": "Explain the terms:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_6qWNZJ4sgthd3p5Y",
@@ -166,16 +178,22 @@
    "sme_name": "Credit Sales",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches recording credit sales (invoice to sales day book to receivables ledger), a flow spanning several committed term statements (S2.053/S2.059/S2.065); no single committed statement covers credit-sale recording; flagged for parse repair"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_83QX5HYgQMgZVjRK",
    "sme_name": "Accounts for Assets",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches interpreting asset accounts and their balances, but the committed parse carries no account-classification/balance-interpretation statements; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_8JYZW3wW3N5QzNb8",
@@ -221,8 +239,11 @@
    "sme_name": "Prepaid Income",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches prepaid income, but the committed parse carries no accrued/prepaid income adjustment statement; flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_BvXpNHtdYpwdWQQb",
@@ -276,8 +297,11 @@
    "sme_name": "Error of Principle",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the error of principle, but the committed parse carries no error-correction statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_DybSbYTjXJGVVYFX",
@@ -297,8 +321,11 @@
    "sme_name": "Principles of Professional Ethics",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the principles of professional ethics, but the committed parse carries no professional-ethics content statement (the S5.110 'Ethics' hit is a transferable-skills grid artifact, not examinable content); flagged for parse repair"
+   "resolved_code": "S1.125",
+   "official_id": "IGCSE_ACCOUNTING:S1.125",
+   "official_wording": "Describe the principles of professional ethics.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_FdJMcHV4xcB2npwp",
@@ -313,8 +340,11 @@
    "sme_name": "Adjustments to a Provision for Irrecoverable Debts",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches adjustments to a provision for irrecoverable debts, but the committed parse carries no irrecoverable-debts statements; flagged for parse repair"
+   "resolved_code": "S5.182",
+   "official_id": "IGCSE_ACCOUNTING:S5.182",
+   "official_wording": "Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_G56Dwg8RWCGCG33X",
@@ -342,24 +372,33 @@
    "sme_name": "Introduction to Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the need for depreciation (why it is provided), but the committed parse retains only the calculation bullets of the depreciation statement (S2.068 b/c/d) — the reasons/need bullet was lost; flagged for parse repair"
+   "resolved_code": "S2.137",
+   "official_id": "IGCSE_ACCOUNTING:S2.137",
+   "official_wording": "Explain the causes of depreciation.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_GfYdyxVV6mcBJMkn",
    "sme_name": "Error of Commission",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the error of commission, but the committed parse carries no error-correction statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_HQgDDkMnqVDNPZpY",
    "sme_name": "Suspense Account",
    "sme_definition": "",
    "referenced_by_parts": 11,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the suspense account and its use when a trial balance does not balance, but the committed parse carries no suspense-account or trial-balance statements; flagged for parse repair"
+   "resolved_code": "S3.154",
+   "official_id": "IGCSE_ACCOUNTING:S3.154",
+   "official_wording": "Prepare a suspense account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_Hh68wcJtr34C83kT",
@@ -392,16 +431,22 @@
    "sme_name": "Credit Purchases",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches recording credit purchases (invoice to purchases day book to payables ledger), a flow spanning several committed term statements; no single committed statement covers credit-purchase recording; flagged for parse repair"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_K9spk4p32xCjGsQw",
    "sme_name": "Compensating Errors",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches compensating errors, but the committed parse carries no error-correction statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_KF28qJx7KS3NBTk4",
@@ -471,8 +516,11 @@
    "sme_name": "Accrued Income",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches accrued income, but the committed parse carries no accrued/prepaid income adjustment statement; flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_P255ngnXV864xJGC",
@@ -492,16 +540,22 @@
    "sme_name": "Manual & Computerised Systems",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches manual and computerised bookkeeping systems, but the committed parse carries no manual/computerised-system statements (the technology topic survives only as fragments S1.045-S1.048); flagged for parse repair"
+   "resolved_code": "S1.122",
+   "official_id": "IGCSE_ACCOUNTING:S1.122",
+   "official_wording": "Explain the benefits of using technology within accounting:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_P7KFwMnmtRv7KfXx",
    "sme_name": "Expense Accounts with Accruals & Prepayments",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches expense accounts with accruals and prepayments, but the committed parse carries no accruals/prepayments adjustment statements; flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_P7Vzkr9Y6CftF6Cd",
@@ -516,16 +570,22 @@
    "sme_name": "The Ledger",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); generic ledger page; the committed parse carries only the receivables/payables ledger term fragments (S2.065/S2.066) mapped by their own tags; blocks nothing"
+   "resolved_code": "S2.133",
+   "official_id": "IGCSE_ACCOUNTING:S2.133",
+   "official_wording": "Explain the purpose of the:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_PKk288rKJdzZrQpT",
    "sme_name": "Cash Sales",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches recording cash sales, but the committed parse carries no cash-sale recording statement; flagged for parse repair"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_Pz9fx65q6Fj8C39D",
@@ -540,8 +600,11 @@
    "sme_name": "Cash or Bank",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); the cash-or-bank classification page has no distinct committed statement (only the cash-book term fragments survive); blocks nothing"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_QTkcX2DQZkFmXsPF",
@@ -574,8 +637,11 @@
    "sme_name": "Accrued Expenses",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches accrued expenses, but the committed parse carries no accruals/prepayments adjustment statement; flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_SZrkGBkcsRCRRgvJ",
@@ -595,8 +661,11 @@
    "sme_name": "Purpose of a Control Account",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the purpose of a control account, but the committed parse carries no control-account statements; flagged for parse repair"
+   "resolved_code": "S3.150",
+   "official_id": "IGCSE_ACCOUNTING:S3.150",
+   "official_wording": "Explain the purpose of control accounts.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_TKD8Gywyd3ZZGSBd",
@@ -611,16 +680,22 @@
    "sme_name": "Accounts for Liabilities",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches interpreting liability accounts and their balances, but the committed parse carries no account-classification/balance-interpretation statements; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_TfC3RFS4vP7hKkz3",
    "sme_name": "Impact of Errors on a Statement of Financial Position",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches the impact of errors on the statement of financial position, but the committed parse carries no error-correction statements; blocks nothing"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_V2Ngr7Qct5whDwj2",
@@ -643,16 +718,22 @@
    "sme_name": "Irrecoverable Debts Written Off",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches irrecoverable debts written off, but the committed parse carries no irrecoverable-debts statements; flagged for parse repair"
+   "resolved_code": "S2.143",
+   "official_id": "IGCSE_ACCOUNTING:S2.143",
+   "official_wording": "Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_Vh4yb798YW7SxbYz",
    "sme_name": "Purpose of Business Documents",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); generic business-documents introduction spanning several document terms each carried by its own tag; no single committed statement covers it; blocks nothing"
+   "resolved_code": "S2.128",
+   "official_id": "IGCSE_ACCOUNTING:S2.128",
+   "official_wording": "Explain the purpose of business documents.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_WjK8k99kkvsD4TgJ",
@@ -711,32 +792,44 @@
    "sme_name": "Prepaid Expenses",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches prepaid expenses, but the committed parse carries no accruals/prepayments adjustment statement; flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_YF4q34SJZgMrWdgd",
    "sme_name": "Errors Which Do Not Affect a Trial Balance",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches errors which do not affect a trial balance, but the committed parse carries no trial-balance/error statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_YVQcCbkVFQ2JfRs7",
    "sme_name": "Updating the Cash Book",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches updating the cash book from a bank statement (bank-reconciliation context), but the committed parse carries no bank-reconciliation statements — the S2.062 'three-column cash book' term is the book itself, not the reconciliation content; flagged for parse repair"
+   "resolved_code": "S3.156",
+   "official_id": "IGCSE_ACCOUNTING:S3.156",
+   "official_wording": "Understand the process of bank reconciliation.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_YfwjgqFgrnVmmRN7",
    "sme_name": "Payments from Credit Customers",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches payments from credit customers, but the committed parse carries no receipt-recording statement; flagged for parse repair"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_YjnySfP6hFJhjdsB",
@@ -756,24 +849,33 @@
    "sme_name": "Cash Purchases",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches recording cash purchases, but the committed parse carries no cash-purchase recording statement; blocks nothing"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_cJWs853zHnxj675h",
    "sme_name": "Provision for Irrecoverable Debts",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches provision for irrecoverable debts, but the committed parse carries no irrecoverable-debts statements; flagged for parse repair"
+   "resolved_code": "S2.141",
+   "official_id": "IGCSE_ACCOUNTING:S2.141",
+   "official_wording": "Explain why it is necessary to provide a provision for irrecoverable debts.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_dhmKSxhyhHF86gSY",
    "sme_name": "Error of Original Entry",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the error of original entry, but the committed parse carries no error-correction statements (the correction-of-errors topic was lost in parse); flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_f8pz3CCBY2HCBpbP",
@@ -806,8 +908,11 @@
    "sme_name": "Payments to Credit Suppliers",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches payments to credit suppliers, but the committed parse carries no payment-recording statement; flagged for parse repair"
+   "resolved_code": "S2.132",
+   "official_id": "IGCSE_ACCOUNTING:S2.132",
+   "official_wording": "Prepare the following books of original entry:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_jGWn9WvWJqZKXrpx",
@@ -835,16 +940,22 @@
    "sme_name": "Causes of Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches causes of depreciation, but the committed parse retains only the calculation bullets of the depreciation statement (S2.068 b/c/d) — the causes bullet was lost; flagged for parse repair"
+   "resolved_code": "S2.137",
+   "official_id": "IGCSE_ACCOUNTING:S2.137",
+   "official_wording": "Explain the causes of depreciation.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_kkYHCjZ35mWvZfS8",
    "sme_name": "A Summary of Business Documents for Transactions",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches a summary of business documents for transactions, but the summary page spans many document terms (each carried by its own tag) and no committed statement covers the summary; flagged for parse repair"
+   "resolved_code": "S2.129",
+   "official_id": "IGCSE_ACCOUNTING:S2.129",
+   "official_wording": "Prepare the following business documents:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_m6yNSZkV5FRMgdkc",
@@ -864,24 +975,33 @@
    "sme_name": "Accounts for Expenses & Incomes",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches interpreting expense and income accounts and their balances, but the committed parse carries no account-classification statements; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_mdtcPGZSfxnVvhND",
    "sme_name": "Limited Partnerships & Limited Liability Partnerships (LLP)",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches limited partnerships and LLPs, but the committed parse carries no matching statements; blocks nothing"
+   "resolved_code": "S4.161",
+   "official_id": "IGCSE_ACCOUNTING:S4.161",
+   "official_wording": "Understand the nature and structure of a limited liability partnership (LLP).",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_msF3FT2Jx5xG25xX",
    "sme_name": "Trade Receivables Ledger Control Account",
    "sme_definition": "",
    "referenced_by_parts": 12,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the trade receivables ledger control account, but the committed igcse-accounting parse carries no control-account statements — the ledger section survives only as the bare terms S2.065 'receivables ledger' / S2.066 'payables ledger'; joining a control account to the ledger term would be a guess; flagged for parse repair"
+   "resolved_code": "S3.151",
+   "official_id": "IGCSE_ACCOUNTING:S3.151",
+   "official_wording": "Prepare a trade receivables control account and a trade payables control account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_mwkMMTDd9xPjVPCv",
@@ -927,40 +1047,55 @@
    "sme_name": "Uses & Limitations of a Trial Balance",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches uses and limitations of a trial balance, but the committed parse carries no trial-balance statements; flagged for parse repair"
+   "resolved_code": "S3.149",
+   "official_id": "IGCSE_ACCOUNTING:S3.149",
+   "official_wording": "Understand the limitations of a trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_pnfyHSZRhCmFbwmS",
    "sme_name": "Error of Omission",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the error of omission, but the committed parse carries no error-correction statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_qNNt6Wgx6TkR5b6M",
    "sme_name": "Receiving Incomes & Paying Expenses",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches receiving incomes and paying expenses, but the committed parse carries no matching recording statement; blocks nothing"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_qfmhgKNsSdnF5SvN",
    "sme_name": "Accounting Concepts",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the accounting concepts collectively, but the committed parse carries only the individual concept term fragments (S1.039-S1.044) each mapped by its own tag, and the anchored part tests going concern, which has no committed statement at all; flagged for parse repair"
+   "resolved_code": "S1.121",
+   "official_id": "IGCSE_ACCOUNTING:S1.121",
+   "official_wording": "Understand the significance of the following accounting concepts:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_qmQ6BhVQM2drgvVM",
    "sme_name": "Income Accounts with Accruals & Prepayments",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches income accounts with accruals and prepayments, but the committed parse carries no accruals/prepayments adjustment statements (S1.041 'accruals' is the concept term, not the treatment statement); flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_sZfbQZGdzYGPYQjq",
@@ -988,32 +1123,44 @@
    "sme_name": "Accounts for Equity & Drawings",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches interpreting equity and drawings accounts, but the committed parse carries no account-classification statements; flagged for parse repair"
+   "resolved_code": "S2.134",
+   "official_id": "IGCSE_ACCOUNTING:S2.134",
+   "official_wording": "Record transactions in ledger accounts using double entry principles.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_tCqRw4CM228rwGT8",
    "sme_name": "Purpose of a Bank Reconciliation Statement",
    "sme_definition": "",
    "referenced_by_parts": 4,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the purpose of a bank reconciliation statement, but the committed parse carries no bank-reconciliation statements; flagged for parse repair"
+   "resolved_code": "S3.155",
+   "official_id": "IGCSE_ACCOUNTING:S3.155",
+   "official_wording": "Explain the purpose of bank reconciliation statements.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_tVCyVwWxrQhqV6Xx",
    "sme_name": "Preparing a Bank Reconciliation Statement",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches preparing a bank reconciliation statement, but the committed parse carries no bank-reconciliation statements; flagged for parse repair"
+   "resolved_code": "S3.157",
+   "official_id": "IGCSE_ACCOUNTING:S3.157",
+   "official_wording": "Prepare a bank reconciliation statement.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_tqnrT9sSkxtQGQ7x",
    "sme_name": "Errors Which Affect The Trial Balance",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches errors which affect the trial balance, but the committed parse carries no trial-balance/error statements; flagged for parse repair"
+   "resolved_code": "S3.152",
+   "official_id": "IGCSE_ACCOUNTING:S3.152",
+   "official_wording": "Identify and explain errors that do and do not affect the balancing of the trial balance.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_tyN7c4XSNpfpzch6",
@@ -1067,16 +1214,22 @@
    "sme_name": "Use of a Bank Statement",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches use of a bank statement, but the committed parse carries no bank-reconciliation statements; blocks nothing"
+   "resolved_code": "S3.156",
+   "official_id": "IGCSE_ACCOUNTING:S3.156",
+   "official_wording": "Understand the process of bank reconciliation.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_ypnw89wqhV7JFHqD",
    "sme_name": "Trade Payables Ledger Control Account",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the trade payables ledger control account, but the committed parse carries no control-account statements (only the bare ledger terms S2.065/S2.066 survive); flagged for parse repair"
+   "resolved_code": "S3.151",
+   "official_id": "IGCSE_ACCOUNTING:S3.151",
+   "official_wording": "Prepare a trade receivables control account and a trade payables control account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_zTsh5Pq9tZBHjfxv",

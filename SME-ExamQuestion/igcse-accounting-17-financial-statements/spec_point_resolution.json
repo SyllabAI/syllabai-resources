@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T04:58:13Z",
- "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T06:45:14Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
-  "ids": 31,
-  "resolved": 6,
-  "unresolved": 25
+  "ids": 33,
+  "resolved": 28,
+  "unresolved": 5
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -14,24 +14,33 @@
    "sme_name": "Statement of Financial Position for Partnerships",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the statement of financial position for partnerships, but the committed igcse-accounting parse carries no SOFP-preparation content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.166",
+   "official_id": "IGCSE_ACCOUNTING:S4.166",
+   "official_wording": "Prepare statements of financial position to include partners’ capital balances and current account balances.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_4djxV6TB2XSms9JM",
    "sme_name": "Evaluating Profitability",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches evaluating profitability, but the committed parse retains only the gross-profit-percentage fragment (S4.069) — no profitability-evaluation statement covering the remaining ratios survives in the parse; flagged for parse repair"
+   "resolved_code": "S4.171",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_wording": "Calculate and interpret the following profitability ratios:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_5Db8dD2XYQxyzDst",
    "sme_name": "Adjustments for Accrued & Prepaid Expenses",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches adjustments for accrued and prepaid expenses, but the committed igcse-accounting parse carries no accruals-adjustment content statement; flagged for parse repair"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_6C5dG6s8r4RXv9Nw",
@@ -51,16 +60,22 @@
    "sme_name": "Adjustments for Accrued & Prepaid Income",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches adjustments for accrued and prepaid income, but the committed parse carries no matching adjustment statement; blocks nothing"
+   "resolved_code": "S5.184",
+   "official_id": "IGCSE_ACCOUNTING:S5.184",
+   "official_wording": "Distinguish between other receivables and payables.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_C9T5mbbCqsRGFH5Q",
    "sme_name": "Profitability",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); generic 'Profitability' page anchors no distinct committed statement (S4.069 is specifically gross profit percentage, carried by its own tag); blocks nothing"
+   "resolved_code": "S4.171",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_wording": "Calculate and interpret the following profitability ratios:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_H5H8SmwXGsJG2NCz",
@@ -88,64 +103,88 @@
    "sme_name": "Adjustments for Provisions for Irrecoverable Debts",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches adjustments for provisions for irrecoverable debts, but the committed igcse-accounting parse carries no irrecoverable-debts content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S5.182",
+   "official_id": "IGCSE_ACCOUNTING:S5.182",
+   "official_wording": "Calculate and record irrecoverable debts and provision for irrecoverable debts in the books of account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_KZxSQjSxmQxdfKZQ",
    "sme_name": "Income Statement for Partnerships",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the income statement for partnerships, but the committed igcse-accounting parse carries no partnership income-statement content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.164",
+   "official_id": "IGCSE_ACCOUNTING:S4.164",
+   "official_wording": "Prepare income statements and appropriation accounts.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_KmTMwXdrGN9Bnb7D",
    "sme_name": "Appropriation Account",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the appropriation account of a partnership, but the committed igcse-accounting parse carries no partnership/appropriation content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.163",
+   "official_id": "IGCSE_ACCOUNTING:S4.163",
+   "official_wording": "Understand the nature and purpose of an appropriation account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_MBGt3XMp8vDc2m4q",
    "sme_name": "Incomplete Records",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches incomplete records, but the committed igcse-accounting parse carries no incomplete-records content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.169",
+   "official_id": "IGCSE_ACCOUNTING:S4.169",
+   "official_wording": "Prepare income statements and statements of financial position from incomplete records and information.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_RHvgvC98zGzgvMFP",
    "sme_name": "Calculating Values using Accounting Ratios",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": null,
-   "reason": "no-guess pending: indexed-but-unanchored revision tag (references no question part); SME teaches calculating values using accounting ratios within incomplete records, but the committed parse carries no matching content statement; blocks nothing"
+   "resolved_code": "S4.171",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_wording": "Calculate and interpret the following profitability ratios:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_TsBng38r82dkC8Rc",
    "sme_name": "Partnership Agreement",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the partnership agreement, but the committed igcse-accounting parse carries no partnership-agreement content statement (S1.038 is the mangled 'partnerships' term fragment of a different statement); flagged for parse repair"
+   "resolved_code": "S4.162",
+   "official_id": "IGCSE_ACCOUNTING:S4.162",
+   "official_wording": "Apply the provisions of Section 24 of the Partnership Act 1890 in relation to partners’ salaries, division of profit or loss, interest on loans, capital and drawings.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_YN2pPHH3PrYx7nQg",
    "sme_name": "Profit for the Year as a Percentage of Revenue",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches profit for the year as a percentage of revenue, but the committed parse retains only the gross-profit-percentage ratio fragment (S4.069) of the profitability-ratio statement — the ratio named by this tag has no committed statement; flagged for parse repair"
+   "resolved_code": "S4.171",
+   "official_id": "IGCSE_ACCOUNTING:S4.171",
+   "official_wording": "Calculate and interpret the following profitability ratios:",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_YtMsp2PByQdzKRKd",
    "sme_name": "Adjustments for Provision for Depreciation",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches adjustments for provision for depreciation, but the committed igcse-accounting parse carries no depreciation-adjustment content statement — the surviving S5.078 fragment is a mangled multi-line merge of the Topic 2 depreciation bullets, not a joinable statement; flagged for parse repair"
+   "resolved_code": "S5.178",
+   "official_id": "IGCSE_ACCOUNTING:S5.178",
+   "official_wording": "Calculate and record depreciation in the books of account.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_b663TCrP8tWxhjvq",
@@ -199,16 +238,22 @@
    "sme_name": "Statement of Financial Position for Manufacturers",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the statement of financial position for manufacturers, but the committed igcse-accounting parse carries no SOFP-preparation content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.174",
+   "official_id": "IGCSE_ACCOUNTING:S4.174",
+   "official_wording": "Prepare manufacturing accounts to show prime cost, production cost and total cost.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_hWqjGV3s2h47GC8h",
    "sme_name": "Partners' Capital Accounts",
    "sme_definition": "",
    "referenced_by_parts": 2,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches partners' capital accounts, but the committed igcse-accounting parse carries no partnership capital-account content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.165",
+   "official_id": "IGCSE_ACCOUNTING:S4.165",
+   "official_wording": "Prepare partners’ current accounts and capital accounts.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_hgPTWKkgpZhmkzjh",
@@ -223,32 +268,44 @@
    "sme_name": "Partners' Current Accounts",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the preparation of partners' current accounts, but the committed igcse-accounting parse carries no partnership financial-statements content statement (Topic 4 content walk lost in parse beyond S4.069-S4.072); flagged for parse repair"
+   "resolved_code": "S4.165",
+   "official_id": "IGCSE_ACCOUNTING:S4.165",
+   "official_wording": "Prepare partners’ current accounts and capital accounts.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_pxtv3ZCkSN4CzZqX",
    "sme_name": "Statement of Affairs",
    "sme_definition": "",
    "referenced_by_parts": 5,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the preparation of a statement of affairs for incomplete records, but the committed igcse-accounting parse carries no statement of affairs / incomplete-records content statement — the Topic 4 content walk survived parsing only as the ratio term fragments S4.069-S4.072; flagged for parse repair (no statement to join, never guessed)"
+   "resolved_code": "S4.167",
+   "official_id": "IGCSE_ACCOUNTING:S4.167",
+   "official_wording": "Calculate the profit for the year by comparing the open and closing equity figures.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_qPf9kGZPB83sXXSY",
    "sme_name": "Calculating Values using Control Accounts",
    "sme_definition": "",
    "referenced_by_parts": 3,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches calculating values using control accounts (incomplete records), but the committed igcse-accounting parse carries no control-account/incomplete-records calculation statement; flagged for parse repair"
+   "resolved_code": "S4.168",
+   "official_id": "IGCSE_ACCOUNTING:S4.168",
+   "official_wording": "Calculate revenue and purchases using appropriate accounting techniques, to include control accounts.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_rfq9PNb7rtqJqdCW",
    "sme_name": "Raw Materials, Work-in-Progress & Finished Goods",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches raw materials, work-in-progress and finished goods inventories, but the committed igcse-accounting parse carries no inventory-classification content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.173",
+   "official_id": "IGCSE_ACCOUNTING:S4.173",
+   "official_wording": "Understand the difference between the inventories of raw materials, work-in-progress and finished goods.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_wPpvXGQ2cKGwr4rT",
@@ -268,24 +325,33 @@
    "sme_name": "Income Statement for Manufacturers",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the income statement for manufacturers, but the committed igcse-accounting parse carries no income-statement preparation content statement (Topic 4 walk lost in parse beyond the ratio fragments S4.069-S4.072); flagged for parse repair"
+   "resolved_code": "S4.174",
+   "official_id": "IGCSE_ACCOUNTING:S4.174",
+   "official_wording": "Prepare manufacturing accounts to show prime cost, production cost and total cost.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_xRq6SYJ37s5g3xYz",
    "sme_name": "Manufacturing Businesses",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches financial statements of manufacturing businesses, but the committed igcse-accounting parse carries no manufacturing financial-statements content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.174",
+   "official_id": "IGCSE_ACCOUNTING:S4.174",
+   "official_wording": "Prepare manufacturing accounts to show prime cost, production cost and total cost.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_yVTkRB8hrfWM95Xw",
    "sme_name": "Manufacturing Account",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: SME teaches the manufacturing account, but the committed igcse-accounting parse carries no manufacturing-account content statement (Topic 4 walk lost in parse); flagged for parse repair"
+   "resolved_code": "S4.174",
+   "official_id": "IGCSE_ACCOUNTING:S4.174",
+   "official_wording": "Prepare manufacturing accounts to show prime cost, production cost and total cost.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_TvyfYwBdrjBRvq25",

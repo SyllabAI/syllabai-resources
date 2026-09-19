@@ -14,13 +14,253 @@ edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): P
   RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
 provenance_default: RULE_DERIVED
 generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
-generated: '2026-09-17'
+generated: '2026-09-19'
 counts:
-  spec_points: 118
+  spec_points: 185
   topics: 20
-  subsections: 0
+  subsections: 24
   practicals: 0
 edges:
+- from: 4AC1-SUB1
+  relation: PART_OF
+  to: 4AC1-S13
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 19
+- from: 4AC1-SUB2
+  relation: PART_OF
+  to: 4AC1-S13
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 19
+- from: 4AC1-SUB3
+  relation: PART_OF
+  to: 4AC1-S13
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 19
+- from: 4AC1-SUB4
+  relation: PART_OF
+  to: 4AC1-S13
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 19
+- from: 4AC1-SUB5
+  relation: PART_OF
+  to: 4AC1-S14
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 21
+- from: 4AC1-SUB6
+  relation: PART_OF
+  to: 4AC1-S14
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 21
+- from: 4AC1-SUB7
+  relation: PART_OF
+  to: 4AC1-S14
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 21
+- from: 4AC1-SUB8
+  relation: PART_OF
+  to: 4AC1-S14
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 21
+- from: 4AC1-SUB9
+  relation: PART_OF
+  to: 4AC1-S14
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 21
+- from: 4AC1-SUB10
+  relation: PART_OF
+  to: 4AC1-S15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4AC1-SUB11
+  relation: PART_OF
+  to: 4AC1-S15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 22
+- from: 4AC1-SUB12
+  relation: PART_OF
+  to: 4AC1-S15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4AC1-SUB13
+  relation: PART_OF
+  to: 4AC1-S15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4AC1-SUB14
+  relation: PART_OF
+  to: 4AC1-S15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4AC1-SUB15
+  relation: PART_OF
+  to: 4AC1-S15
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 23
+- from: 4AC1-SUB16
+  relation: PART_OF
+  to: 4AC1-S18
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4AC1-SUB17
+  relation: PART_OF
+  to: 4AC1-S18
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4AC1-SUB18
+  relation: PART_OF
+  to: 4AC1-S18
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4AC1-SUB19
+  relation: PART_OF
+  to: 4AC1-S18
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4AC1-SUB20
+  relation: PART_OF
+  to: 4AC1-S18
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 27
+- from: 4AC1-SUB21
+  relation: PART_OF
+  to: 4AC1-S19
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4AC1-SUB22
+  relation: PART_OF
+  to: 4AC1-S19
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4AC1-SUB23
+  relation: PART_OF
+  to: 4AC1-S19
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
+- from: 4AC1-SUB24
+  relation: PART_OF
+  to: 4AC1-S19
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 29
 - from: IGCSE_ACCOUNTING:SX.001
   relation: PART_OF
   to: null
@@ -1201,3 +1441,673 @@ edges:
     tier: RULE_DERIVED
     extraction_method: statement-topic association
     pdf_page: 44
+- from: IGCSE_ACCOUNTING:S1.119
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.120
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.121
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.122
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.123
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.124
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.125
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.126
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S1.127
+  relation: PART_OF
+  to: 4AC1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 19
+- from: IGCSE_ACCOUNTING:S2.128
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.129
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.130
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.131
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.132
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.133
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.134
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.135
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.136
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.137
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.138
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.139
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.140
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 21
+- from: IGCSE_ACCOUNTING:S2.141
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ACCOUNTING:S2.142
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ACCOUNTING:S2.143
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ACCOUNTING:S2.144
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ACCOUNTING:S2.145
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ACCOUNTING:S2.146
+  relation: PART_OF
+  to: 4AC1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 22
+- from: IGCSE_ACCOUNTING:S3.147
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.148
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.149
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.150
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.151
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.152
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.153
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.154
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.155
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.156
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S3.157
+  relation: PART_OF
+  to: 4AC1-S16
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 23
+- from: IGCSE_ACCOUNTING:S4.158
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.159
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.160
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.161
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.162
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.163
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.164
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.165
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.166
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.167
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.168
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.169
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.170
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.171
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.172
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.173
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S4.174
+  relation: PART_OF
+  to: 4AC1-S4
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 27
+- from: IGCSE_ACCOUNTING:S5.175
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.176
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.177
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.178
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.179
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.180
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.181
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.182
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.183
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.184
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29
+- from: IGCSE_ACCOUNTING:S5.185
+  relation: PART_OF
+  to: 4AC1-S20
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 29

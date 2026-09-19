@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-18T20:11:34Z",
- "validation": "AI_VALIDATED (operator-delegated chain; page-context joins per T-SPEC-6 — SME IAL pages publish no definition text, ticket #13; cross-unit resolves documented per verdict; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T06:45:14Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
   "ids": 53,
-  "resolved": 43,
-  "unresolved": 10
+  "resolved": 46,
+  "unresolved": 7
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -363,8 +363,11 @@
    "sme_name": "Gantt Charts",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": null,
-   "reason": "no-guess pending: Gantt (cascade) charts are stated verbatim in published D1 statement 4.4 (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4; no valid registry target exists; flagged for parse repair"
+   "resolved_code": "4.4",
+   "official_id": "IAL_MATHS:D1-4.4",
+   "official_wording": "Total float. Gantt (cascade) charts. Scheduling.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_dhRm2dQ87WyZp6J8",
@@ -397,8 +400,11 @@
    "sme_name": "Total Float of an Activity",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": null,
-   "reason": "no-guess pending: total float is stated verbatim in published D1 statement 4.4 'Total float. Gantt (cascade) charts. Scheduling.' (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4 (its code slot carries a notation-table artifact), so no valid registry target exists; flagged for parse repair"
+   "resolved_code": "4.4",
+   "official_id": "IAL_MATHS:D1-4.4",
+   "official_wording": "Total float. Gantt (cascade) charts. Scheduling.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_g4WGr939XD6DZyBD",
@@ -593,8 +599,11 @@
    "sme_name": "Scheduling Activities",
    "sme_definition": "",
    "referenced_by_parts": 14,
-   "resolved_code": null,
-   "reason": "no-guess pending: scheduling is stated verbatim in published D1 statement 4.4 (PDF lines 5094-5095) but the committed parsed registry lacks D1-4.4; no valid registry target exists; flagged for parse repair"
+   "resolved_code": "4.4",
+   "official_id": "IAL_MATHS:D1-4.4",
+   "official_wording": "Total float. Gantt (cascade) charts. Scheduling.",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_wdmRbpKyGXsKZdMF",

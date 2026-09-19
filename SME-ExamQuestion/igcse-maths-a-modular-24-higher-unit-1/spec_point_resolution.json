@@ -1,11 +1,11 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
- "generated_utc": "2026-09-19T04:58:13Z",
- "validation": "AI_VALIDATED (operator-delegated chain; definition-verbatim / name-fragment / page-context / text-title joins per T-SPEC-7; parse-gap pendings PDF-verified; PMT excluded as source); HUMAN_VALIDATED reserved for human review",
+ "generated_utc": "2026-09-19T06:45:14Z",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-8 stage-2 re-verdicts after parse repair - statement joins quoted verbatim from the repaired registries; PMT excluded as source); HUMAN_VALIDATED via operator review",
  "counts": {
-  "ids": 100,
-  "resolved": 72,
-  "unresolved": 28
+  "ids": 105,
+  "resolved": 87,
+  "unresolved": 18
  },
  "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
  "resolved": [
@@ -231,8 +231,11 @@
    "sme_name": "Elevation & Depression",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'understand and use angles of elevation and depression'."
+   "resolved_code": "4.8B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-4.8B",
+   "official_wording": "understand and use angles of elevation and depression",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_9Stcxtj75Q3wpqJF",
@@ -252,16 +255,22 @@
    "sme_name": "Combined Conditional Probabilities",
    "sme_definition": "",
    "referenced_by_parts": 35,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statements: 'draw and use tree diagrams', 'use simple conditional probability when combining events'."
+   "resolved_code": "6.3A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-6.3A",
+   "official_wording": "draw and use tree diagrams",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_BVf2GTX8FCvzJjJN",
    "sme_name": "Recurring Decimals",
    "sme_definition": "",
    "referenced_by_parts": 26,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'convert recurring decimals into fractions'."
+   "resolved_code": "1.3A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-1.3A",
+   "official_wording": "convert recurring decimals into fractions",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_CG8ZcZX8Ny5yGBch",
@@ -367,8 +376,11 @@
    "sme_name": "Cosine Rule",
    "sme_definition": "",
    "referenced_by_parts": 15,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'understand and use the sine and cosine rules for any triangle'."
+   "resolved_code": "4.8C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-4.8C",
+   "official_wording": "understand and use the sine and cosine rules for any triangle",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_J55PhZ2cbPsYvpt8",
@@ -487,8 +499,11 @@
    "sme_name": "Sine Rule",
    "sme_definition": "",
    "referenced_by_parts": 11,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'understand and use the sine and cosine rules for any triangle' (the rules appear on the formulae sheet but the content-walk statement was dropped from the parse)."
+   "resolved_code": "4.8C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-4.8C",
+   "official_wording": "understand and use the sine and cosine rules for any triangle",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_RJbgRvXq2VrGpP5g",
@@ -508,8 +523,11 @@
    "sme_name": "Combined Probability",
    "sme_definition": "",
    "referenced_by_parts": 46,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statements: 'draw and use tree diagrams', 'use simple conditional probability when combining events'."
+   "resolved_code": "6.3A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-6.3A",
+   "official_wording": "draw and use tree diagrams",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_Rv3DcsGBkxSkb8Ms",
@@ -568,8 +586,11 @@
    "sme_name": "Frequency Density",
    "sme_definition": "",
    "referenced_by_parts": 15,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'construct and interpret histograms' (frequency density)."
+   "resolved_code": "6.1A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-6.1A",
+   "official_wording": "construct and interpret histograms",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_SwbJdpQTQxGXry8M",
@@ -805,8 +826,11 @@
    "sme_name": "Arc Lengths & Sector Areas",
    "sme_definition": "",
    "referenced_by_parts": 47,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'find perimeters and areas of sectors of circles' (arc length)."
+   "resolved_code": "4.9A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-4.9A",
+   "official_wording": "find perimeters and areas of sectors of circles",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_dxtWxKmTWPrYkWt3",
@@ -912,8 +936,11 @@
    "sme_name": "Multiplying & Dividing Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 9,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic'."
+   "resolved_code": "2.2C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-2.2C",
+   "official_wording": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_jJPhXSKYBg6x4d2Q",
@@ -959,8 +986,11 @@
    "sme_name": "Drawing Histograms",
    "sme_definition": "",
    "referenced_by_parts": 22,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'construct and interpret histograms'."
+   "resolved_code": "6.1A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-6.1A",
+   "official_wording": "construct and interpret histograms",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_p8zkdCF8QVvDZyVX",
@@ -1066,8 +1096,11 @@
    "sme_name": "Factorising Harder Quadratics",
    "sme_definition": "",
    "referenced_by_parts": 10,
-   "resolved_code": null,
-   "reason": "no-guess pending: the committed parse carries 2.2F only in its Foundation-limited form ('limited to x^2+bx+c'); the Higher content walk restates the statement without the limit (PDF-verified) but that copy is absent from the parse; flagged for parse repair"
+   "resolved_code": "2.2B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-2.2B",
+   "official_wording": "understand the concept of a quadratic expression and be able to factorise such expressions",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_s2x4ZG4rWQhHJrTh",
@@ -1134,16 +1167,22 @@
    "sme_name": "Adding & Subtracting Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 27,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic'."
+   "resolved_code": "2.2C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-2.2C",
+   "official_wording": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_wMN58K4jZ54z8bXC",
    "sme_name": "Rationalising Denominators",
    "sme_definition": "",
    "referenced_by_parts": 24,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'manipulate surds, including rationalising a denominator'."
+   "resolved_code": "1.4B",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-1.4B",
+   "official_wording": "manipulate surds, including rationalising a denominator",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_xf7Y5cxcQG3T6g65",
@@ -1158,16 +1197,22 @@
    "sme_name": "Solving Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 14,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic'."
+   "resolved_code": "2.2C",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-2.2C",
+   "official_wording": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_zNgS9BtJ7493zsyx",
    "sme_name": "Interpreting Histograms",
    "sme_definition": "",
    "referenced_by_parts": 38,
-   "resolved_code": null,
-   "reason": "no-guess pending: the published 4MA1 Higher content walk carries the statement but the committed parse dropped it (PDF-verified); flagged for parse repair Missing statement: 'construct and interpret histograms'."
+   "resolved_code": "6.1A",
+   "official_id": "IGCSE_MATHS_A_MODULAR:U1H-6.1A",
+   "official_wording": "construct and interpret histograms",
+   "tier": "R1_parse_repair_statement_join",
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
   },
   {
    "id": "spcpt_3sptc2fDMgGnNYqg",

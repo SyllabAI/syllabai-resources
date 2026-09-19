@@ -1,19 +1,19 @@
 {
  "schema": "syllabai.learner-spec-links/1.0",
- "generated_utc": "2026-09-19T05:02:40Z",
+ "generated_utc": "2026-09-19T06:45:33Z",
  "course": "igcse-accounting-17-introduction-to-bookkeeping-and-accounting",
  "qual": "igcse-accounting",
  "totals": {
   "items": 356,
-  "items_with_codes": 150,
+  "items_with_codes": 321,
   "by_kind": {
    "notes": 43,
    "question_parts": 313,
    "flashcards": 0
   },
   "coded_by_kind": {
-   "notes": 20,
-   "question_parts": 130,
+   "notes": 39,
+   "question_parts": 282,
    "flashcards": 0
   }
  },
@@ -29,11 +29,15 @@
      "official_code": "S2.062",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_QKvzZ9xjPVR8ZgKM"
-   ]
+   "pending": []
   },
   "rn_BZSz37PSWSKTBsyr": {
    "kind": "note",
@@ -117,13 +121,18 @@
      "official_code": "S2.057",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.129",
+     "official_code": "S2.129",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
     "spcpt_MMpfj7YbBCtV9PTR",
     "spcpt_jGWn9WvWJqZKXrpx",
-    "spcpt_NB5vmp8y8dWsYfTH",
-    "spcpt_kkYHCjZ35mWvZfS8"
+    "spcpt_NB5vmp8y8dWsYfTH"
    ]
   },
   "rn_5s6cYwrSRjt43R5t": {
@@ -170,9 +179,15 @@
    "label": "Introduction to Business Documents | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.128",
+     "official_code": "S2.128",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_Vh4yb798YW7SxbYz",
     "spcpt_tyN7c4XSNpfpzch6",
     "spcpt_G6YPxqfQ2JMnC5x7"
    ]
@@ -218,11 +233,15 @@
    "label": "Causes of Depreciation | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_G8ZDFvrKCHQjhVVK",
-    "spcpt_jkxJQxQfFSrqYWR5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_by97prQQfr6F5MT4": {
    "kind": "note",
@@ -274,9 +293,15 @@
    "label": "Irrecoverable Debts | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_VJwbbgF52XcZDqfx",
     "spcpt_Pz9fx65q6Fj8C39D"
    ]
   },
@@ -285,11 +310,21 @@
    "label": "Provision for Irrecoverable Debts | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h",
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_zTBxpZZCbHKWzQm4": {
    "kind": "note",
@@ -306,13 +341,15 @@
    "label": "Interpreting Accounts & Their Balances | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_83QX5HYgQMgZVjRK",
-    "spcpt_TKMGsHJdGnB3MRZ5",
-    "spcpt_mT8PPqsZ5zdfkxxk",
-    "spcpt_swWXFKksDwrddJwP"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_44XrdHNwFxbkt54Y": {
    "kind": "note",
@@ -325,22 +362,37 @@
      "official_code": "S2.065",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.133",
+     "official_code": "S2.133",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_PJj4SzyjRZYgDq99"
-   ]
+   "pending": []
   },
   "rn_9ZHmvPp5gqGGJmj9": {
    "kind": "note",
    "label": "Recording Other Transactions | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.135",
+     "official_code": "S2.135",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_6k7cMfwRCTDdV5KJ",
     "spcpt_FdJMcHV4xcB2npwp",
-    "spcpt_qNNt6Wgx6TkR5b6M",
     "spcpt_P7Vzkr9Y6CftF6Cd"
    ]
   },
@@ -355,12 +407,15 @@
      "official_code": "S2.060",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_ZwYV9PnxyVFhmGqQ",
-    "spcpt_JfWqW4Fh7MGQm2zW",
-    "spcpt_gtcsfnSNdfJ7fpsG",
     "spcpt_sZfbQZGdzYGPYQjq"
    ]
   },
@@ -375,12 +430,15 @@
      "official_code": "S2.061",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_PKk288rKJdzZrQpT",
-    "spcpt_7rJpWpRrJNjB5jYD",
-    "spcpt_YfwjgqFgrnVmmRN7",
     "spcpt_KF28qJx7KS3NBTk4"
    ]
   },
@@ -424,12 +482,16 @@
    "label": "Accrued & Prepaid Expenses | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_zsVqrJjvNSXmShv7",
-    "spcpt_QtChwZW4N4qHfFFB",
-    "spcpt_Xp3btZQZMhCwnFDT",
-    "spcpt_P7KFwMnmtRv7KfXx"
+    "spcpt_zsVqrJjvNSXmShv7"
    ]
   },
   "rn_sfm6KryWgjCRnHKH": {
@@ -437,12 +499,16 @@
    "label": "Accrued & Prepaid Income | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_3NQNy3Qw9ZmJ4Zdm",
-    "spcpt_NVvgM5vtKJd5Y8c4",
-    "spcpt_9XfSNcmSJk4NHDZT",
-    "spcpt_qmQ6BhVQM2drgvVM"
+    "spcpt_3NQNy3Qw9ZmJ4Zdm"
    ]
   },
   "rn_vfsBWfFFf2J92Twk": {
@@ -450,101 +516,153 @@
    "label": "Bank Reconciliation Statements | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tCqRw4CM228rwGT8",
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.155",
+     "official_code": "S3.155",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_Gwmj44vpHJbqZSF4": {
    "kind": "note",
    "label": "Use of a Bank Statement | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_yVD5d8rW3TsNX2xf",
-    "spcpt_YVQcCbkVFQ2JfRs7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_SbnHrKhZBhtmdycG": {
    "kind": "note",
    "label": "Purpose of a Control Account | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_T7dmv27pcfZNDYXz"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.150",
+     "official_code": "S3.150",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_fPtBQqdvvTyvJ3RG": {
    "kind": "note",
    "label": "Trade Payables Ledger Control Account | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_dczktnSdyHVnfSF4": {
    "kind": "note",
    "label": "Trade Receivables Ledger Control Account | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_sKgtQdhBbYCCrY2r": {
    "kind": "note",
    "label": "Errors & Journal Entries | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_YF4q34SJZgMrWdgd",
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_dhmKSxhyhHF86gSY",
-    "spcpt_5D2wb8MdzNQY3qsP",
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_Dtqg87vhtQJbhhft",
-    "spcpt_K9spk4p32xCjGsQw"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_FmfPyGYz5vBH86TB": {
    "kind": "note",
    "label": "Errors & The Suspense Account | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_tqnrT9sSkxtQGQ7x",
-    "spcpt_HQgDDkMnqVDNPZpY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_wvqcqzNfMC73kBJh": {
    "kind": "note",
    "label": "Impact of Errors on Profit & Financial Position | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_58zZFC8D52Wygq9T",
-    "spcpt_TfC3RFS4vP7hKkz3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_tPX2NXZKHRf4THPq": {
    "kind": "note",
    "label": "The Trial Balance | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr",
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_tQfTqt34T3VTrHqZ": {
    "kind": "note",
@@ -587,21 +705,30 @@
      "official_code": "S1.044",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.121",
+     "official_code": "S1.121",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_qfmhgKNsSdnF5SvN"
-   ]
+   "pending": []
   },
   "rn_88zG4XDmpV7j9f4D": {
    "kind": "note",
    "label": "Principles of Professional Ethics | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_wWQp8YRY8YfWHcHT": {
    "kind": "note",
@@ -645,11 +772,15 @@
      "official_code": "S1.038",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S4.161",
+     "official_code": "S4.161",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_mdtcPGZSfxnVvhND"
-   ]
+   "pending": []
   },
   "rn_nR5CsJyQjyYSqhdd": {
    "kind": "note",
@@ -671,10 +802,15 @@
    "label": "Manual & Computerised Systems | Edexcel IGCSE Accounting Revision Notes 2017",
    "section": "the-accounting-environment",
    "topic": "use-of-technology-in-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_P5c5tZz9grcJf7xs"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.122",
+     "official_code": "S1.122",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "rn_XGqKNJxJkYTXXmpq": {
    "kind": "note",
@@ -798,11 +934,15 @@
      "official_code": "S2.057",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.129",
+     "official_code": "S2.129",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_kkYHCjZ35mWvZfS8"
-   ]
+   "pending": []
   },
   "qstnprt_FmY9c8t5nvTB5q8H": {
    "kind": "question_part",
@@ -815,12 +955,16 @@
      "official_code": "S2.060",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_V2Ngr7Qct5whDwj2",
-    "spcpt_JfWqW4Fh7MGQm2zW",
-    "spcpt_gtcsfnSNdfJ7fpsG"
+    "spcpt_V2Ngr7Qct5whDwj2"
    ]
   },
   "qstnprt_r4TM5TX62TPqRMcb": {
@@ -828,10 +972,15 @@
    "label": "qstn_VXVwtjTzzHfzZC6V / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "books-of-original-entry",
-   "codes": [],
-   "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DYbJbzPFtsZN7dxW": {
    "kind": "question_part",
@@ -1714,10 +1863,15 @@
    "label": "qstn_f8gjWSXJSMSWjdtb / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
-   "pending": [
-    "spcpt_kkYHCjZ35mWvZfS8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.129",
+     "official_code": "S2.129",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Zws5QQ75MVqxzZ3S": {
    "kind": "question_part",
@@ -1808,10 +1962,15 @@
    "label": "qstn_mfGcp7hHHt2dgw9Z / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "business-documentation",
-   "codes": [],
-   "pending": [
-    "spcpt_kkYHCjZ35mWvZfS8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.129",
+     "official_code": "S2.129",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zXZgFkW23RbkHmJr": {
    "kind": "question_part",
@@ -2131,20 +2290,30 @@
    "label": "qstn_qVRmrz7MwjnycNSR / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "capital-expenditure-and-revenue-expenditure",
-   "codes": [],
-   "pending": [
-    "spcpt_YVQcCbkVFQ2JfRs7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y6VD4FytkzYR5phV": {
    "kind": "question_part",
    "label": "qstn_qVRmrz7MwjnycNSR / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "capital-expenditure-and-revenue-expenditure",
-   "codes": [],
-   "pending": [
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KhFgZx8cKq9rVdvv": {
    "kind": "question_part",
@@ -2238,20 +2407,30 @@
    "label": "qstn_XGfCb8CH6TQSsJ5z / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_G8ZDFvrKCHQjhVVK"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zCjQNCQ9pjXCpTK5": {
    "kind": "question_part",
    "label": "qstn_ZdNJQtSbJBTpdvsg / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_G8ZDFvrKCHQjhVVK"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zdZsgFt8YCJD829c": {
    "kind": "question_part",
@@ -2264,11 +2443,15 @@
      "official_code": "S2.068",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_83QX5HYgQMgZVjRK"
-   ]
+   "pending": []
   },
   "qstnprt_DDgpwDfST4R24VN7": {
    "kind": "question_part",
@@ -2290,10 +2473,15 @@
    "label": "qstn_X8Ryp9MFPyPzgM9n / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_G8ZDFvrKCHQjhVVK"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_g5FhPVdVg82cqqJ8": {
    "kind": "question_part",
@@ -2315,20 +2503,30 @@
    "label": "qstn_zkZDXYsN5MK3fjrY / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_G8ZDFvrKCHQjhVVK"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_X4n5QJj5g2zMbYRN": {
    "kind": "question_part",
    "label": "qstn_Y6GS4DfmMKnX2SmF / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_jkxJQxQfFSrqYWR5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Y6S4qsjhpR26r4nK": {
    "kind": "question_part",
@@ -2425,10 +2623,15 @@
    "label": "qstn_xWJxwjN3Qdn5pwb3 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_jkxJQxQfFSrqYWR5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_YWMcXKCKGjdxZQdR": {
    "kind": "question_part",
@@ -2480,10 +2683,15 @@
    "label": "qstn_3wJbxdHb3QKVXZjB / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_jkxJQxQfFSrqYWR5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WMqDPyRbpyyS4Ncz": {
    "kind": "question_part",
@@ -2535,10 +2743,15 @@
    "label": "qstn_mB6My2zrGm7KQp3Y / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "depreciation",
-   "codes": [],
-   "pending": [
-    "spcpt_jkxJQxQfFSrqYWR5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.137",
+     "official_code": "S2.137",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Jxq5PMt9wDWVkxyx": {
    "kind": "question_part",
@@ -2575,30 +2788,45 @@
    "label": "qstn_9VCjYWVknDrBM7h4 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GS4wHX3JbJKVHDx6": {
    "kind": "question_part",
    "label": "qstn_9VCjYWVknDrBM7h4 / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b2mpSk6R53v4z6nn": {
    "kind": "question_part",
    "label": "qstn_bzbjcc4PZNY9z3kM / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_262pYwQtxhbvKTTt": {
    "kind": "question_part",
@@ -2615,31 +2843,51 @@
    "label": "qstn_rKVcV7RNChNhpHKB / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx",
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_svvf7KqYqYPqHwXg": {
    "kind": "question_part",
    "label": "qstn_rKVcV7RNChNhpHKB / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_F8G89yRnJFFWZZQB": {
    "kind": "question_part",
    "label": "qstn_rKVcV7RNChNhpHKB / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nHRqqwngnKm4NRYR": {
    "kind": "question_part",
@@ -2652,82 +2900,126 @@
      "official_code": "S2.068",
      "tier": "P2_page_context_join",
      "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "pending": []
   },
   "qstnprt_yBgdjHVSN79z6RKW": {
    "kind": "question_part",
    "label": "qstn_rKVcV7RNChNhpHKB / part 4",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_s79RgfVRbCqctp6R": {
    "kind": "question_part",
    "label": "qstn_7T5X3wFptsRhFCgR / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx",
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z4JKwTcF95HSjQ35": {
    "kind": "question_part",
    "label": "qstn_7T5X3wFptsRhFCgR / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D2vFKjfwVnkYx8c8": {
    "kind": "question_part",
    "label": "qstn_D9PmRmQHGgnR64Sj / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_dtC9MYrH9k9Wd9XZ": {
    "kind": "question_part",
    "label": "qstn_D9PmRmQHGgnR64Sj / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7D4kPtbJHrTSFhSj": {
    "kind": "question_part",
    "label": "qstn_D9PmRmQHGgnR64Sj / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_wDwRzZygvcbHbXzM": {
    "kind": "question_part",
    "label": "qstn_t85HKBBYMqxhWYz4 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DZhBxysSm7JN8xdF": {
    "kind": "question_part",
@@ -2740,91 +3032,135 @@
      "official_code": "S1.040",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "pending": []
   },
   "qstnprt_YB4W2ZRnYpMWHvfP": {
    "kind": "question_part",
    "label": "qstn_BcQpmbFnsNjk58ZW / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Bjz2SvN9QKHpyDd3": {
    "kind": "question_part",
    "label": "qstn_Fy7tPY3QfyKS7FYq / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FNbWj8gR6jphYSdn": {
    "kind": "question_part",
    "label": "qstn_Fy7tPY3QfyKS7FYq / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WF6dWj6wWBSdfccn": {
    "kind": "question_part",
    "label": "qstn_Fy7tPY3QfyKS7FYq / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QrPCgmDF77bQPjBc": {
    "kind": "question_part",
    "label": "qstn_9NR8Fk58b2VVv3ms / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_64vt9WBPNKHfsdb3": {
    "kind": "question_part",
    "label": "qstn_9NR8Fk58b2VVv3ms / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G7p6qtXZ9pNrPYxN": {
    "kind": "question_part",
    "label": "qstn_PfsJfcRvgnJ77PS2 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8NrdPxXBqs3dpDYY": {
    "kind": "question_part",
    "label": "qstn_PfsJfcRvgnJ77PS2 / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "irrecoverable-debts",
-   "codes": [],
-   "pending": [
-    "spcpt_FyK5y2PZnts5qy2C"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.182",
+     "official_code": "S5.182",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yrs9Sj2N3cWN42Mk": {
    "kind": "question_part",
@@ -2856,10 +3192,15 @@
    "label": "qstn_Z8T4rWRH5sRG4kH8 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3kWvb4dRhjbG8DBn": {
    "kind": "question_part",
@@ -2872,12 +3213,16 @@
      "official_code": "S2.061",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_YfwjgqFgrnVmmRN7",
-    "spcpt_KF28qJx7KS3NBTk4",
-    "spcpt_7rJpWpRrJNjB5jYD"
+    "spcpt_KF28qJx7KS3NBTk4"
    ]
   },
   "qstnprt_mP2RnmCRFvSt8FRD": {
@@ -2900,10 +3245,15 @@
    "label": "qstn_W2yw9FW5tGqzzRmW / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_swWXFKksDwrddJwP"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KDMD9W8j6K2x6NcT": {
    "kind": "question_part",
@@ -2916,12 +3266,16 @@
      "official_code": "S2.060",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_V2Ngr7Qct5whDwj2",
-    "spcpt_JfWqW4Fh7MGQm2zW",
-    "spcpt_gtcsfnSNdfJ7fpsG"
+    "spcpt_V2Ngr7Qct5whDwj2"
    ]
   },
   "qstnprt_m4Dsyn2d3cbNZN9f": {
@@ -2929,20 +3283,30 @@
    "label": "qstn_ZW5NJp9nbpCDjpb7 / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bZwDMKDBvtdyrzQ6": {
    "kind": "question_part",
    "label": "qstn_fjFqrfJ5BRsdjTqJ / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W5qYypztd4KG5PF7": {
    "kind": "question_part",
@@ -2959,30 +3323,45 @@
    "label": "qstn_SJkGfrsDV7M2MhcT / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_83QX5HYgQMgZVjRK"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_BwWgzyQDpCcRWWPw": {
    "kind": "question_part",
    "label": "qstn_SJkGfrsDV7M2MhcT / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_83QX5HYgQMgZVjRK"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_v23xsJzhMX2d26vc": {
    "kind": "question_part",
    "label": "qstn_yzgg2P9HJVtYz45V / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_mT8PPqsZ5zdfkxxk"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Ns96rTQ76Vq4NVQW": {
    "kind": "question_part",
@@ -3009,10 +3388,15 @@
    "label": "qstn_46BpMXKz9gNMYKfg / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_j5QzBHpq9wSSdPV7": {
    "kind": "question_part",
@@ -3034,10 +3418,15 @@
    "label": "qstn_k3nqQ2V4HkKFqppH / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DJscwrSxpsnpf2C2": {
    "kind": "question_part",
@@ -3060,13 +3449,22 @@
      "official_code": "S2.060",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
    "pending": [
-    "spcpt_TKMGsHJdGnB3MRZ5",
-    "spcpt_sZfbQZGdzYGPYQjq",
-    "spcpt_JfWqW4Fh7MGQm2zW",
-    "spcpt_gtcsfnSNdfJ7fpsG"
+    "spcpt_sZfbQZGdzYGPYQjq"
    ]
   },
   "qstnprt_F4j5Zc4kxDXwkFqN": {
@@ -3074,11 +3472,21 @@
    "label": "qstn_6nmrJvpYkwJWQWnP / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_VJwbbgF52XcZDqfx",
-    "spcpt_7rJpWpRrJNjB5jYD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.143",
+     "official_code": "S2.143",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_FMhxZBFB4tgFfK8b": {
    "kind": "question_part",
@@ -3150,11 +3558,15 @@
    "label": "qstn_kZhcb7vWVVrW6sqY / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_PKk288rKJdzZrQpT",
-    "spcpt_7rJpWpRrJNjB5jYD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.132",
+     "official_code": "S2.132",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Jb4Nbthf8xBfzCx9": {
    "kind": "question_part",
@@ -3171,10 +3583,15 @@
    "label": "qstn_xMBcQPm64ZmWzHmy / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "ledger-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_swWXFKksDwrddJwP"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.134",
+     "official_code": "S2.134",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_6TchmZGvGRTpSDJ9": {
    "kind": "question_part",
@@ -3284,40 +3701,61 @@
    "label": "qstn_9b9SnrDccY74TkQg / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_P7KFwMnmtRv7KfXx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_b6zBBDqSn99WnczT": {
    "kind": "question_part",
    "label": "qstn_9b9SnrDccY74TkQg / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_qmQ6BhVQM2drgvVM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vN3H4vXzFpZnX8GR": {
    "kind": "question_part",
    "label": "qstn_RzkBb4bq9Zxz8DK3 / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_qmQ6BhVQM2drgvVM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w6STCkJgZ9qV7QhB": {
    "kind": "question_part",
    "label": "qstn_FhMZMFdwvxQR6fHs / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
    "pending": [
-    "spcpt_zsVqrJjvNSXmShv7",
-    "spcpt_QtChwZW4N4qHfFFB"
+    "spcpt_zsVqrJjvNSXmShv7"
    ]
   },
   "qstnprt_cbvjxWD2MpHTqMJT": {
@@ -3325,939 +3763,1419 @@
    "label": "qstn_gZkgsrkGZNPMcmtc / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_P7KFwMnmtRv7KfXx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WyHWZGfNB7phmsKT": {
    "kind": "question_part",
    "label": "qstn_PfmPK9jTt5dvz4QZ / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_9XfSNcmSJk4NHDZT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VXcZsYvBn8m4FvTX": {
    "kind": "question_part",
    "label": "qstn_zZC8RszhdTBSnFzv / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_P7KFwMnmtRv7KfXx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7FHrPD3Bxqq4tztN": {
    "kind": "question_part",
    "label": "qstn_zZC8RszhdTBSnFzv / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_QtChwZW4N4qHfFFB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CwGXM8Q2cgz3czcd": {
    "kind": "question_part",
    "label": "qstn_zZC8RszhdTBSnFzv / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_Xp3btZQZMhCwnFDT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_M3BjJqnKDm7kfV5w": {
    "kind": "question_part",
    "label": "qstn_TVRzXKt77tCCWZ3G / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_P7KFwMnmtRv7KfXx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tX7RjB6VhsGc4hwb": {
    "kind": "question_part",
    "label": "qstn_qjSn4wvpcqFCYHFT / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_Xp3btZQZMhCwnFDT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ygyzzqYBtxZkNTny": {
    "kind": "question_part",
    "label": "qstn_qjSn4wvpcqFCYHFT / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_QtChwZW4N4qHfFFB"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xPPZgvGxgZFR6wrs": {
    "kind": "question_part",
    "label": "qstn_qjSn4wvpcqFCYHFT / part 2",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_Xp3btZQZMhCwnFDT",
-    "spcpt_QtChwZW4N4qHfFFB",
-    "spcpt_cJWs853zHnxj675h"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S2.141",
+     "official_code": "S2.141",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_bkCz4TdgyXRwrJNk": {
    "kind": "question_part",
    "label": "qstn_xtWd4mdbwtV7QgTf / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_Xp3btZQZMhCwnFDT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zBbByC2HCZrpN3ws": {
    "kind": "question_part",
    "label": "qstn_mPBfDQrPf6pgfvpP / part 0",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_qmQ6BhVQM2drgvVM"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_sGKN9SnywZqD2sqR": {
    "kind": "question_part",
    "label": "qstn_mPBfDQrPf6pgfvpP / part 1",
    "section": "introduction-to-bookkeeping",
    "topic": "other-receivables-and-payables",
-   "codes": [],
-   "pending": [
-    "spcpt_NVvgM5vtKJd5Y8c4",
-    "spcpt_9XfSNcmSJk4NHDZT"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S5.184",
+     "official_code": "S5.184",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tQsgrvTG2djdC6zK": {
    "kind": "question_part",
    "label": "qstn_6T2fPww74spP7FvS / part 0",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_YVQcCbkVFQ2JfRs7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_drRYQCq4JZKv4zCj": {
    "kind": "question_part",
    "label": "qstn_6T2fPww74spP7FvS / part 1",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TPzb4s67Gsyy6Vgg": {
    "kind": "question_part",
    "label": "qstn_6T2fPww74spP7FvS / part 2",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tCqRw4CM228rwGT8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.155",
+     "official_code": "S3.155",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vw65ZpPsdvC3ncy4": {
    "kind": "question_part",
    "label": "qstn_MV5GTQ7DmwYX6HWp / part 0",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tCqRw4CM228rwGT8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.155",
+     "official_code": "S3.155",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jgrsvD8bp6fT5w4w": {
    "kind": "question_part",
    "label": "qstn_MV5GTQ7DmwYX6HWp / part 1",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_YVQcCbkVFQ2JfRs7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_zn44bzR25ZXb9TK7": {
    "kind": "question_part",
    "label": "qstn_MV5GTQ7DmwYX6HWp / part 2",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nQy3n8wTKqmvy45z": {
    "kind": "question_part",
    "label": "qstn_VxnXMWz6RY5Qsm4m / part 0",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_YVQcCbkVFQ2JfRs7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_rgktyJrTQgv59v8v": {
    "kind": "question_part",
    "label": "qstn_VxnXMWz6RY5Qsm4m / part 1",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_G47NFm8dvpKxRJyX": {
    "kind": "question_part",
    "label": "qstn_htYmbQTBs4Z3SV5p / part 0",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tCqRw4CM228rwGT8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.155",
+     "official_code": "S3.155",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pGFnJTqcDXpNdxKK": {
    "kind": "question_part",
    "label": "qstn_htYmbQTBs4Z3SV5p / part 1",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_YVQcCbkVFQ2JfRs7"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Q3QjjzhSQy8XgQMf": {
    "kind": "question_part",
    "label": "qstn_htYmbQTBs4Z3SV5p / part 2",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_y6bmNKf86VsJxFWX": {
    "kind": "question_part",
    "label": "qstn_hCbtVJkZ6FCDdY3c / part 0",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tCqRw4CM228rwGT8"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.155",
+     "official_code": "S3.155",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7VzJbgPnKZydKzdy": {
    "kind": "question_part",
    "label": "qstn_hCbtVJkZ6FCDdY3c / part 1",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_YVQcCbkVFQ2JfRs7",
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.156",
+     "official_code": "S3.156",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WCnRy7yxdRFqtXwV": {
    "kind": "question_part",
    "label": "qstn_nNzr2bfG3kgCVgTc / part 0",
    "section": "introduction-to-control-processes",
    "topic": "bank-reconciliation",
-   "codes": [],
-   "pending": [
-    "spcpt_tVCyVwWxrQhqV6Xx"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.157",
+     "official_code": "S3.157",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NbC5Nxdnww3NqJqR": {
    "kind": "question_part",
    "label": "qstn_dPDkSsbgnTD6HRbg / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yqxpqTbjhK82nqDv": {
    "kind": "question_part",
    "label": "qstn_dPDkSsbgnTD6HRbg / part 1",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Yhv4mgsnV8MRf8d5": {
    "kind": "question_part",
    "label": "qstn_24XHrJYDQtbMyxM3 / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_XcjtnwpHcF6qmZZ2": {
    "kind": "question_part",
    "label": "qstn_QQWFKHjTPNfkk2C9 / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_TVhN4QFvxYPjMd8K": {
    "kind": "question_part",
    "label": "qstn_FQcpTRvJtsQSnyB8 / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vx7mM7WvMZqYM797": {
    "kind": "question_part",
    "label": "qstn_nCX9RtDvmfY5yHbX / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RsYChrCRfPcrpzxt": {
    "kind": "question_part",
    "label": "qstn_CXjwDFcCXhMhM3VH / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D6DrRrZqrysmDmyr": {
    "kind": "question_part",
    "label": "qstn_CXjwDFcCXhMhM3VH / part 1",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_T7dmv27pcfZNDYXz"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.150",
+     "official_code": "S3.150",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_QPvpVGwM8q9b7PRN": {
    "kind": "question_part",
    "label": "qstn_NsGqPvY9GtFk3wMD / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_chhGgrNK6VN7zwjy": {
    "kind": "question_part",
    "label": "qstn_sPx5434CMpCgwDGw / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4npdGd8yNmv7yKvx": {
    "kind": "question_part",
    "label": "qstn_MqwmzvMVDM7HthY4 / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7MVgFNGzxs4mdmkf": {
    "kind": "question_part",
    "label": "qstn_RzG32bvwvX9snYBc / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8xMDcX9h67cDWBDS": {
    "kind": "question_part",
    "label": "qstn_v2sz8GKp7hZPmxzJ / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yrZHsTPsRNbPB3kB": {
    "kind": "question_part",
    "label": "qstn_bPK5N74735CH3dQw / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7wmNZPhKGrdtwHSj": {
    "kind": "question_part",
    "label": "qstn_bPK5N74735CH3dQw / part 1",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_tj9RzGyTKSZcBcX6": {
    "kind": "question_part",
    "label": "qstn_xGqYxcPpZ9427qD9 / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9R4xFWCjYfp4WGNH": {
    "kind": "question_part",
    "label": "qstn_sHQWh8BP7cb7BW2g / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_T7dmv27pcfZNDYXz"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.150",
+     "official_code": "S3.150",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x5DbKFX5hFk8wBG8": {
    "kind": "question_part",
    "label": "qstn_sHQWh8BP7cb7BW2g / part 1",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VWFYwBvPJ9zWmJgp": {
    "kind": "question_part",
    "label": "qstn_sHQWh8BP7cb7BW2g / part 2",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xZvRkgNJmZ4v4Gkv": {
    "kind": "question_part",
    "label": "qstn_Yn3TwRrPk8KW2N6b / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_D9dsHQ7pb8G7rTnh": {
    "kind": "question_part",
    "label": "qstn_5qVHV2d6KBBQ6Tnw / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_NbxCBtdt559zQzvy": {
    "kind": "question_part",
    "label": "qstn_5qVHV2d6KBBQ6Tnw / part 1",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_ypnw89wqhV7JFHqD"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_9nyZd77cfKkqSCxd": {
    "kind": "question_part",
    "label": "qstn_5qVHV2d6KBBQ6Tnw / part 2",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_T7dmv27pcfZNDYXz"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.150",
+     "official_code": "S3.150",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_w7tk5VqKgCMk4X5r": {
    "kind": "question_part",
    "label": "qstn_gcSVnbpCHZnNppWK / part 0",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_T7dmv27pcfZNDYXz"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.150",
+     "official_code": "S3.150",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_xkpQKdSYH4ZsRM3d": {
    "kind": "question_part",
    "label": "qstn_gcSVnbpCHZnNppWK / part 1",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JR4mTVhMgxBKrNHw": {
    "kind": "question_part",
    "label": "qstn_gcSVnbpCHZnNppWK / part 2",
    "section": "introduction-to-control-processes",
    "topic": "control-accounts",
-   "codes": [],
-   "pending": [
-    "spcpt_msF3FT2Jx5xG25xX"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.151",
+     "official_code": "S3.151",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nNwdzbGppsygz8vC": {
    "kind": "question_part",
    "label": "qstn_hdfbgbBdR8mJrcbG / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_tqnrT9sSkxtQGQ7x",
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_Dtqg87vhtQJbhhft"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_RkZJfc5PNqDM7BKg": {
    "kind": "question_part",
    "label": "qstn_nHVKPsfrMhCCD4bm / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_Dtqg87vhtQJbhhft",
-    "spcpt_dhmKSxhyhHF86gSY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CgFC2pbrFvghx6FN": {
    "kind": "question_part",
    "label": "qstn_nHVKPsfrMhCCD4bm / part 1",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_58zZFC8D52Wygq9T"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Z6h3kJk2qRrPhNMK": {
    "kind": "question_part",
    "label": "qstn_nHVKPsfrMhCCD4bm / part 2",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_KDxKxmbP674FhQq3": {
    "kind": "question_part",
    "label": "qstn_BqH8kMhCY82ssmPw / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_dhmKSxhyhHF86gSY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CxCmHmK5dH5qhGD3": {
    "kind": "question_part",
    "label": "qstn_BqH8kMhCY82ssmPw / part 1",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_58zZFC8D52Wygq9T"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2t6Bs3QtnP72FyBR": {
    "kind": "question_part",
    "label": "qstn_5wynFWj8SN6m8prf / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nMPw8Fc8VdbPJqgf": {
    "kind": "question_part",
    "label": "qstn_VhWZGRDJn7683Y8m / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_YF4q34SJZgMrWdgd"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ff3t5RX2GTz42kfV": {
    "kind": "question_part",
    "label": "qstn_Nx9grdr9zq3sPVqx / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_Dtqg87vhtQJbhhft"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_29sBkrg82x3VfDfT": {
    "kind": "question_part",
    "label": "qstn_Nx9grdr9zq3sPVqx / part 1",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_K9spk4p32xCjGsQw",
-    "spcpt_dhmKSxhyhHF86gSY",
-    "spcpt_5D2wb8MdzNQY3qsP"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8GGztHskJydMHyZj": {
    "kind": "question_part",
    "label": "qstn_5Z3jxM5n4FFCrqmD / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_dhmKSxhyhHF86gSY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VyjKj4ZWW9KxYRxJ": {
    "kind": "question_part",
    "label": "qstn_RzPnVt4JdfQFkzHx / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_tqnrT9sSkxtQGQ7x",
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_dhmKSxhyhHF86gSY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Cj5BG9GmC9CCnV39": {
    "kind": "question_part",
    "label": "qstn_jzndfWfzKM5tQSbd / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7V2qbhHSTbDCfsvn": {
    "kind": "question_part",
    "label": "qstn_GsNrWD4zkd8Qkxrt / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_Dtqg87vhtQJbhhft",
-    "spcpt_dhmKSxhyhHF86gSY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3b9C7scM7Hw9S7CF": {
    "kind": "question_part",
    "label": "qstn_SQtQ6cS9VWGkNFPc / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_Dtqg87vhtQJbhhft"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_yhbRD5bfctRW6YkD": {
    "kind": "question_part",
    "label": "qstn_SQtQ6cS9VWGkNFPc / part 1",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_Dtqg87vhtQJbhhft"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_R5Jr5M5NVNK6X5dR": {
    "kind": "question_part",
    "label": "qstn_Hv7hRz3GCmhH6TzK / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_tqnrT9sSkxtQGQ7x"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_x5k8pnz9MPgGHpnS": {
    "kind": "question_part",
    "label": "qstn_M3b7S33jwWB2vRTn / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_pnfyHSZRhCmFbwmS",
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_Dtqg87vhtQJbhhft"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_2bstXcwfyZmjy63H": {
    "kind": "question_part",
    "label": "qstn_WPspzmqf2bDbhznC / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_Dtqg87vhtQJbhhft"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_kxNjwJvVX3j68ntH": {
    "kind": "question_part",
    "label": "qstn_XtmBgtJDmMCs6rfK / part 0",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_qJH83RP5H39JTdPV": {
    "kind": "question_part",
    "label": "qstn_XtmBgtJDmMCs6rfK / part 1",
    "section": "introduction-to-control-processes",
    "topic": "correction-of-errors",
-   "codes": [],
-   "pending": [
-    "spcpt_GfYdyxVV6mcBJMkn",
-    "spcpt_dhmKSxhyhHF86gSY"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.152",
+     "official_code": "S3.152",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cKQXFhYQ5SYs3PDr": {
    "kind": "question_part",
    "label": "qstn_CBd7GNnRpHG6vmcd / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_8mhQxnNkkcF2hjDW": {
    "kind": "question_part",
    "label": "qstn_CBd7GNnRpHG6vmcd / part 1",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_vZ2GSr9FrMj55Qb5": {
    "kind": "question_part",
    "label": "qstn_FcRC8vQX3MyFHHr5 / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_mrgWKj8Qt78TXGxT": {
    "kind": "question_part",
    "label": "qstn_gKN7DZZgg8QK8CNh / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_gqMfbX33ysdxZpgG": {
    "kind": "question_part",
    "label": "qstn_gKN7DZZgg8QK8CNh / part 1",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_DRvDNN7VqM8KP8VK": {
    "kind": "question_part",
    "label": "qstn_VFMPgPcgmmPQn8yw / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_V4xwS2StHqQX53BF": {
    "kind": "question_part",
    "label": "qstn_NGKzrN4KPXpzhb6J / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_pvBYw2fVjVs435cw": {
    "kind": "question_part",
    "label": "qstn_NGKzrN4KPXpzhb6J / part 1",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Xrsn6HZRNDDnCHsz": {
    "kind": "question_part",
    "label": "qstn_4RrkjNJqbvCWd6zX / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_CtMGZ3Vsq6vz5sk2": {
    "kind": "question_part",
    "label": "qstn_FccjjRPQsKxZXsKG / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_3xQMMnpDg79bxwRr": {
    "kind": "question_part",
    "label": "qstn_FccjjRPQsKxZXsKG / part 1",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_GkRQPt5T7PKmfWYH": {
    "kind": "question_part",
    "label": "qstn_HfYMW6crMQzwbxfd / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_fxn7sYB78xDd4pms": {
    "kind": "question_part",
    "label": "qstn_bZQchzV4Zxk7fQyH / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_Dnq4ZThTGYQktMjm": {
    "kind": "question_part",
    "label": "qstn_bZQchzV4Zxk7fQyH / part 1",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_JYZk2TCth7sgWYFv": {
    "kind": "question_part",
    "label": "qstn_fm5VRW3P8CQVRrQy / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_pR24x4fHRXT2fsYr"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.149",
+     "official_code": "S3.149",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_7yGc8BBgF8Y78RV7": {
    "kind": "question_part",
    "label": "qstn_B498DQrDPpYS95wF / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_HQgDDkMnqVDNPZpY",
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.154",
+     "official_code": "S3.154",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZkJcSfBvz7WvQwJC": {
    "kind": "question_part",
    "label": "qstn_FspnRX2tWqQKhz6f / part 0",
    "section": "introduction-to-control-processes",
    "topic": "trial-balance",
-   "codes": [],
-   "pending": [
-    "spcpt_4JGrRT6ZTKHKBqp3"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S3.148",
+     "official_code": "S3.148",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WNpzKG6TZkZ3SRxQ": {
    "kind": "question_part",
    "label": "qstn_7d5DQm66JmDp7FD5 / part 0",
    "section": "the-accounting-environment",
    "topic": "accounting-concepts",
-   "codes": [],
-   "pending": [
-    "spcpt_qfmhgKNsSdnF5SvN"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.121",
+     "official_code": "S1.121",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_ZqnCTd5CM3zdzGB6": {
    "kind": "question_part",
@@ -4579,70 +5497,105 @@
    "label": "qstn_DZxMp8z5BVnPmp4p / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_PqTxm9Z4CNhFmZmG": {
    "kind": "question_part",
    "label": "qstn_jK6NcSgxwHMn83bq / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_jMhS33246t2Svngd": {
    "kind": "question_part",
    "label": "qstn_6dT2FxFmxBRRJQhB / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_v5Y6XFvc7Q4rK6ks": {
    "kind": "question_part",
    "label": "qstn_mRJyscgtfDKgcZB2 / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_VBWFZBFsbj5hjgqD": {
    "kind": "question_part",
    "label": "qstn_d3x7m7p3V4zn2J2P / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_HWdwh3DZZcV5whkT": {
    "kind": "question_part",
    "label": "qstn_rwwPGfp953mDW2vz / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_p7STVKhCm3g9Mn56": {
    "kind": "question_part",
    "label": "qstn_sMdygQrd3dhKXqyp / part 0",
    "section": "the-accounting-environment",
    "topic": "professional-ethics",
-   "codes": [],
-   "pending": [
-    "spcpt_F9fV4RfVWTX86BbJ"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.125",
+     "official_code": "S1.125",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_cBdvdWQdhj5SqpKQ": {
    "kind": "question_part",
@@ -4730,11 +5683,15 @@
      "official_code": "S1.048",
      "tier": "P1_name_fragment_join",
      "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)"
+    },
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.122",
+     "official_code": "S1.122",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
     }
    ],
-   "pending": [
-    "spcpt_P5c5tZz9grcJf7xs"
-   ]
+   "pending": []
   },
   "qstnprt_cgckNxJw5TQJFMkz": {
    "kind": "question_part",
@@ -4756,40 +5713,60 @@
    "label": "qstn_DXqxxK7vVGXd86Yp / part 0",
    "section": "the-accounting-environment",
    "topic": "use-of-technology-in-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_P5c5tZz9grcJf7xs"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.122",
+     "official_code": "S1.122",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_nGB5tSMdB3pmvh34": {
    "kind": "question_part",
    "label": "qstn_TM7NsQdcMJNYqKYH / part 0",
    "section": "the-accounting-environment",
    "topic": "use-of-technology-in-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_P5c5tZz9grcJf7xs"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.122",
+     "official_code": "S1.122",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_4J5NZCJZysjQgt4T": {
    "kind": "question_part",
    "label": "qstn_vSf8H5WM9d9R6DRC / part 0",
    "section": "the-accounting-environment",
    "topic": "use-of-technology-in-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_P5c5tZz9grcJf7xs"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.122",
+     "official_code": "S1.122",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_WwpHNJRp54FwWrqQ": {
    "kind": "question_part",
    "label": "qstn_Z7SDXhxnGTPJq2S8 / part 0",
    "section": "the-accounting-environment",
    "topic": "use-of-technology-in-accounting",
-   "codes": [],
-   "pending": [
-    "spcpt_P5c5tZz9grcJf7xs"
-   ]
+   "codes": [
+    {
+     "official_id": "IGCSE_ACCOUNTING:S1.122",
+     "official_code": "S1.122",
+     "tier": "R1_parse_repair_statement_join",
+     "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+    }
+   ],
+   "pending": []
   },
   "qstnprt_W4Y8YNM3PJ5sK7Rz": {
    "kind": "question_part",
