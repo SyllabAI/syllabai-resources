@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 """
+*** RETIRED 2026-09-19 — C23 definitive swap (graph/reports/C23_DEFINITIVE_SWAP_RECORD.md) ***
+The OCR-md lineage this script emits was superseded by the PDF-direct-parse
+definitive store (scripts/c23_emit_definitive_specpoints.py; operator directive
+2026-09-19). DO NOT re-run it against graph/ — kept for provenance
+archaeology only. See also C25_DEFINITIVE_CLOSEOUT_RECORD.md.
+
 T-C09 — Phase 1: deterministic specification-skeleton extraction for the
 Edexcel International GCSE Chemistry (4CH1, Issue 3) knowledge graph.
 

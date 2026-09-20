@@ -303,6 +303,12 @@ def main() -> int:
     # ---------- emit ----------
     meta = dict(old_meta)
     meta["generator"] = GENERATOR
+    # C25 closeout: the inherited OCR-era policy line is wrong for the
+    # definitive lineage — wording authority is the official PDF now.
+    meta["statement_text_policy"] = (
+        "verbatim from the official PDF (canonical PDF-direct parse, "
+        "whitespace-normalised only; PDF glyph-geometry respacing per C24); "
+        "notation damage preserved and flagged, never fixed")
     if concepts_changed:
         meta["concepts_quote_reanchor_note"] = (
             "concepts.yaml SPEC evidence quotes re-anchored to the definitive "

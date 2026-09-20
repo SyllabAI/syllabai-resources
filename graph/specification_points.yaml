@@ -17,8 +17,8 @@ meta:
   edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
     RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
   provenance_default: RULE_DERIVED
-  statement_text_policy: verbatim from md OCR (whitespace-normalised only); notation damage preserved and flagged,
-    never fixed
+  statement_text_policy: verbatim from the official PDF (canonical PDF-direct parse, whitespace-normalised only;
+    PDF glyph-geometry respacing per C24); notation damage preserved and flagged, never fixed
   counts:
     spec_points: 182
     c_points: 52

@@ -1,0 +1,49 @@
+{
+  "record": "C25_DEFINITIVE_CLOSEOUT_RECORD",
+  "date": "2026-09-20",
+  "lane": "definitive-swap closeout verification (post-C23/C24/T-SME-11)",
+  "mandate": {
+    "operator_directive_2026_09_19": "make the Official-Specifications PDF-direct-parse the definitive specification-point source; copy all ratified enrichments; retire the OCR lineage",
+    "follow_up": "find and fix all parse-damage classes with the official PDF as cross-check ground truth",
+    "push_authorization_2026_09_20": "syllabai-resources only (this closeout)"
+  },
+  "verified_at_head": "c2fcd88a",
+  "verification": {
+    "store_lineage": "graph/specification_points.yaml = PDF-direct (official PDF sha1 3ad641b7..., canonical spec_points.json, canonical-builder-2.0; retired_lineage documented in meta)",
+    "records": {"spec_points": 182, "c_points": 52, "records_with_official_bullets": 22, "total_bullets": 71},
+    "known_damage_spots": {"1.10_cjk_artifact": "GONE", "1.27_latex_A_r": "GONE"},
+    "damage_class_sweep": {
+      "patterns": ["CJK", "inline LaTeX $...$", "fullwidth punctuation", "U+FFFD", "UTF-8 double-encoding", "literal \\uXXXX escapes", "control chars"],
+      "coverage": ["80 derived YAMLs (20 subjects)", "8 graph stores", "canonical igcse-chemistry/spec_points.json"],
+      "hits": 0
+    },
+    "canonical_vs_store": {"codes": "182/182", "wording_mismatches": 0},
+    "spec_evidence_resolution": {"kind_SPEC_quotes": 92, "resolved": 92, "unresolved": 0, "reanchor_chain": "C23 post-pin ccf8960690c5e222 superseded by T-C24 re-anchors (2 quotes + filename completions)"},
+    "damage_flags": {"4.30C": ["possible-superscript-loss"], "4.49C_colon_exception": "clean"},
+    "ocr_retirement": "OCR md deleted (content in VCS history at d4f34e88 and earlier); 12 re-anchored quote originals preserved verbatim in C23_DEFINITIVE_SWAP_RECORD.md"
+  },
+  "residual_repairs_this_commit": [
+    {"file": "graph/specification_points.yaml", "change": "meta statement_text_policy: md OCR -> official PDF (canonical PDF-direct parse; glyph-geometry respacing per C24; flag-never-fixed doctrine unchanged)", "reason": "line inherited via meta = dict(old_meta) and never overridden; false after C23"},
+    {"file": "scripts/c23_emit_definitive_specpoints.py", "change": "statement_text_policy override added at emit time (root-cause fix)"},
+    {"file": "scripts/c09_spec_graph_extract.py", "change": "RETIRED banner prepended to docstring", "reason": "C23 retired the lineage but left the script unmarked"}
+  ],
+  "documented_not_touched": {
+    "sibling_stores": ["graph/topics.yaml", "graph/practicals.yaml", "graph/relationships.yaml", "graph/assessment_objectives.yaml", "graph/command_words.yaml"],
+    "reason": "untouched by C23/C24 (last d4f34e88) -> their 'verbatim from md OCR' policy lines remain accurate; no damage-class hits; PDF-refresh of the five stores is an open item requiring a new emit path (c09 retired)"
+  },
+  "pins_sha256": {
+    "pre": {
+      "graph/specification_points.yaml": "a57e082000e321cf9b657872b78bbb464793439dd37c9228f239afbe8f1a7c5d",
+      "scripts/c23_emit_definitive_specpoints.py": "ce7019f531524c76fc22c85229c12fc363d45e3223f2f6401e8a6c7a7ec88472",
+      "scripts/c09_spec_graph_extract.py": "524eb71ccd9c75716f06547f3fc0ac3aa3750f691f826adea16117f34208f61f"
+    },
+    "post": {
+      "graph/specification_points.yaml": "956d276f6e4354fa7f5319ca320744f86fbb6ce086efb4a798b3a83f15aaaeb3",
+      "scripts/c23_emit_definitive_specpoints.py": "135452ddc1f3886c54c0b22f068f1ddb3c0b955ef2fd1e09e8e38354268d8964",
+      "scripts/c09_spec_graph_extract.py": "cf27444eb2ee57c4311d7855588e9a1024db0e056bf78e5484ed1bc0bd8c3097",
+      "graph/concepts.yaml": "634a743b65d1612bb6c078668d709ca31835fbced1ef916e271403db9034c27f",
+      "graph/concept_edges.yaml": "ccc674cf3a94b8e47d3df68ef011ac4c345ed3962d445d488369edf77182d737"
+    }
+  },
+  "scope_guards": "node states byte-untouched; no surface changes; 2012-Jan escalations + data bridge not approached; R1 respected; D2 sweep read-only"
+}
