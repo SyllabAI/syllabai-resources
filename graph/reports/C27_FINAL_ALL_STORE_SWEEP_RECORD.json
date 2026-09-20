@@ -1,14 +1,16 @@
 {
  "record": "C27_FINAL_ALL_STORE_SWEEP_RECORD",
- "head_at_sweep": "7ca311a1fc6305344e162b1217e0464d283ec75e",
- "origin_main": "7ca311a1fc6305344e162b1217e0464d283ec75e",
- "verdict": "ALL_STORES_CLEAN (post-repair; S0 tree-clean applies at the landing commit)",
+ "head_at_sweep": "5c667ac7e4cea6e3cdee306350454b2d878fe55f",
+ "origin_main": "5c667ac7e4cea6e3cdee306350454b2d878fe55f",
+ "landing_commit": "5c667ac7e4cea6e3cdee306350454b2d878fe55f",
+ "verdict": "ALL_STORES_CLEAN",
  "gates": {
-  "pass": 84,
-  "fail": 1,
+  "pass": 85,
+  "fail": 0,
   "warn": 0,
   "info": 7,
-  "note": "pre-landing run: 84 PASS / 1 FAIL where the single FAIL is S0 dirty-tree = the two repairs themselves; all content gates PASS"
+  "battery": "scripts/c27_final_all_store_sweep.py S0-S7 (post-landing run at 5c667ac)",
+  "also": "scripts/c26_postcheck.py battery: ALL PASS at 5c667ac"
  },
  "repairs": {
   "F1_ao_weighting_by_paper_matrix": {
@@ -44,7 +46,7 @@
   },
   "F2_chunkmap_sp_title_refresh": {
    "file": "graph/spec_chunk_mappings.yaml",
-   "defect": "84/211 sp_title labels stale (pre-C24 md-era wording); 4 carry retired-lineage notation damage (inline-math Rf/Ar + CJK in 1.10) - last store deriving wording from the retired OCR lineage",
+   "defect": "84/211 sp_title labels stale (pre-C24 md-era wording); 4 carry retired-lineage notation damage (inline-math Rf/Ar + CJK in 1.10) - the last store deriving wording from the retired OCR lineage",
    "action": "all labels re-sourced from definitive specification_points.yaml official_wording; mapping decisions/anchors/quotes/promotion untouched (deep-verified)",
    "sha256": {
     "pre": "3d4877dd0cc5f75fd028b12ed5126a991227afe3a630a402f40ddbc97dc17b32",
@@ -65,13 +67,13 @@
    "section": "S0",
    "check": "HEAD == origin/main",
    "status": "PASS",
-   "detail": "head=7ca311a1 remote=7ca311a1"
+   "detail": "head=5c667ac7 remote=5c667ac7"
   },
   {
    "section": "S0",
    "check": "working tree clean",
-   "status": "FAIL",
-   "detail": "['M graph/assessment_objectives.yaml', ' M graph/spec_chunk_mappings.yaml']"
+   "status": "PASS",
+   "detail": "0 dirty paths"
   },
   {
    "section": "S1",
