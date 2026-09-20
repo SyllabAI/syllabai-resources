@@ -71,7 +71,7 @@ The correct statement is:
 | The intermolecular forces are strong |   |
 |---|---|
 | The bonding in hydrogen is weak |   |
-| The intermolecular forces are weak | ![](assets/011-img.png)<br><br>; **[1 mark] ** |
+| The intermolecular forces are weak | ![](assets/011-img.png)<!-- figure unrecoverable 2026-09-20: origin object dead (S3 AccessDenied for all client classes incl. an in-page probe inside the live SME page session; sibling ExamQuest folders 403; no archive capture) — evidence: scripts/t_img_3_recover_report.json --><br><br>; **[1 mark] ** |
 
 **[Total: 1 mark] **
 
@@ -188,7 +188,7 @@ Methane does not conduct electricity because:
 | Electrons are fixed in position |   |
 |---|---|
 | The ions are free to move and carry a charge |   |
-| There are no free electrons to carry the charge | ![](assets/011-img.png)<br><br>; **[1 mark] ** |
+| There are no free electrons to carry the charge | ![](assets/011-img.png)<!-- figure unrecoverable 2026-09-20: origin object dead (S3 AccessDenied for all client classes incl. an in-page probe inside the live SME page session; sibling ExamQuest folders 403; no archive capture) — evidence: scripts/t_img_3_recover_report.json --><br><br>; **[1 mark] ** |
 | The bonds contain no electrons |   |
 
 **[Total: 1 mark] **
@@ -236,7 +236,7 @@ The correct statement is:
 
 | A double bond contains two electrons |   |
 |---|---|
-| A double bond contains two pairs of electrons | ![](assets/011-img.png)<br><br>; **[1 mark]** |
+| A double bond contains two pairs of electrons | ![](assets/011-img.png)<!-- figure unrecoverable 2026-09-20: origin object dead (S3 AccessDenied for all client classes incl. an in-page probe inside the live SME page session; sibling ExamQuest folders 403; no archive capture) — evidence: scripts/t_img_3_recover_report.json --><br><br>; **[1 mark]** |
 
 **[Total: 1 mark] **
 

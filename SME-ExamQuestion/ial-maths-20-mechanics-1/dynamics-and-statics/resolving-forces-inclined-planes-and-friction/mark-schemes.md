@@ -48,7 +48,7 @@
 ## Q6 — easy — 13 marks · exam-questions
 
 ### 1() — 13 marks
-![](assets/025-img.png)
+![](assets/025-img.png)<!-- figure recovered 2026-09-20 from https://cdn.savemyexams.com/uploads/2021/11/MA_Q6_3.3-Further-Forces-NewtonΓCOs-Laws_Easy_Edexcel_A_Level_Maths_Mechanics.png (SME CMS stores the filename with a mojibake U+0393; fetched with it percent-encoded as %CE%93 — the scrape-time failure was the raw non-ASCII URL hitting the ascii codec) -->
 
 ## Q7 — easy — 7 marks · exam-questions
 
@@ -129,10 +129,10 @@
 ## Q18 — medium — 13 marks · exam-questions
 
 ### 1() — 7 marks
-![](assets/069-img.png)
+![](assets/069-img.png)<!-- figure recovered 2026-09-20 from https://cdn.savemyexams.com/uploads/2021/03/MI_Q10a_3.3-Further-Forces-NewtonΓCOs-Laws_Medium_Edexcel_A_Level_Maths_Mechanics.png (SME CMS stores the filename with a mojibake U+0393; fetched with it percent-encoded as %CE%93 — the scrape-time failure was the raw non-ASCII URL hitting the ascii codec) -->
 
 ### 2() — 6 marks
-![](assets/070-img.png)
+![](assets/070-img.png)<!-- figure recovered 2026-09-20 from https://cdn.savemyexams.com/uploads/2021/03/MI_Q10b_3.3-Further-Forces-NewtonΓCOs-Laws_Medium_Edexcel_A_Level_Maths_Mechanics.png (SME CMS stores the filename with a mojibake U+0393; fetched with it percent-encoded as %CE%93 — the scrape-time failure was the raw non-ASCII URL hitting the ascii codec) -->
 
 ## Q19 — hard — 5 marks · exam-questions
 
@@ -188,7 +188,7 @@
 ## Q28 — hard — 13 marks · exam-questions
 
 ### 1() — 13 marks
-![](assets/067-img.png)
+![](assets/067-img.png)<!-- figure recovered 2026-09-20 from https://cdn.savemyexams.com/uploads/2021/12/MI_Q10_3.3-Further-Forces-NewtonΓCOs-Laws_Hard_Edexcel_A_Level_Maths_Mechanics.png (SME CMS stores the filename with a mojibake U+0393; fetched with it percent-encoded as %CE%93 — the scrape-time failure was the raw non-ASCII URL hitting the ascii codec) -->
 
 ## Q29 — very_hard — 5 marks · exam-questions
 

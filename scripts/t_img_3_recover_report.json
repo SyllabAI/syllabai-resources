@@ -1,0 +1,75 @@
+{
+ "task": "T-IMG-3",
+ "title": "recover the 5 asset-failed SME ExamQuestion images (old lanes), T-IMG-2 style",
+ "date": "2026-09-20",
+ "recovered": [
+  {
+   "name": "025-img.png",
+   "lane": "ial-maths-20-mechanics-1",
+   "target": "SME-ExamQuestion/ial-maths-20-mechanics-1/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/assets/025-img.png",
+   "source_url_served": "https://cdn.savemyexams.com/uploads/2021/11/MA_Q6_3.3-Further-Forces-NewtonΓCOs-Laws_Easy_Edexcel_A_Level_Maths_Mechanics.png",
+   "fetched_url": "https://cdn.savemyexams.com/uploads/2021/11/MA_Q6_3.3-Further-Forces-Newton%CE%93COs-Laws_Easy_Edexcel_A_Level_Maths_Mechanics.png",
+   "bytes": 1144565,
+   "dimensions": "2500x4230",
+   "sha256": "8c90f0e2501a07e1959c825e38940f69b3921645126314ed05663d54c6e72f6b",
+   "recovered": "2026-09-20"
+  },
+  {
+   "name": "067-img.png",
+   "lane": "ial-maths-20-mechanics-1",
+   "target": "SME-ExamQuestion/ial-maths-20-mechanics-1/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/assets/067-img.png",
+   "source_url_served": "https://cdn.savemyexams.com/uploads/2021/12/MI_Q10_3.3-Further-Forces-NewtonΓCOs-Laws_Hard_Edexcel_A_Level_Maths_Mechanics.png",
+   "fetched_url": "https://cdn.savemyexams.com/uploads/2021/12/MI_Q10_3.3-Further-Forces-Newton%CE%93COs-Laws_Hard_Edexcel_A_Level_Maths_Mechanics.png",
+   "bytes": 930834,
+   "dimensions": "2500x4230",
+   "sha256": "e705837abe98a748abdaa44e6d3663029c7abc055cfc11e22982242eb76d9118",
+   "recovered": "2026-09-20"
+  },
+  {
+   "name": "069-img.png",
+   "lane": "ial-maths-20-mechanics-1",
+   "target": "SME-ExamQuestion/ial-maths-20-mechanics-1/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/assets/069-img.png",
+   "source_url_served": "https://cdn.savemyexams.com/uploads/2021/03/MI_Q10a_3.3-Further-Forces-NewtonΓCOs-Laws_Medium_Edexcel_A_Level_Maths_Mechanics.png",
+   "fetched_url": "https://cdn.savemyexams.com/uploads/2021/03/MI_Q10a_3.3-Further-Forces-Newton%CE%93COs-Laws_Medium_Edexcel_A_Level_Maths_Mechanics.png",
+   "bytes": 879074,
+   "dimensions": "2500x2820",
+   "sha256": "ca382995e8f7c4c02fd0d1c8d08747b62d2f4fc16a0abf4ac790b031ef0c9538",
+   "recovered": "2026-09-20"
+  },
+  {
+   "name": "070-img.png",
+   "lane": "ial-maths-20-mechanics-1",
+   "target": "SME-ExamQuestion/ial-maths-20-mechanics-1/dynamics-and-statics/resolving-forces-inclined-planes-and-friction/assets/070-img.png",
+   "source_url_served": "https://cdn.savemyexams.com/uploads/2021/03/MI_Q10b_3.3-Further-Forces-NewtonΓCOs-Laws_Medium_Edexcel_A_Level_Maths_Mechanics.png",
+   "fetched_url": "https://cdn.savemyexams.com/uploads/2021/03/MI_Q10b_3.3-Further-Forces-Newton%CE%93COs-Laws_Medium_Edexcel_A_Level_Maths_Mechanics.png",
+   "bytes": 577633,
+   "dimensions": "2500x2820",
+   "sha256": "7b632bad7d4fc35620b3ec61f27fb940508ac56e7df4f5f09c1cb73a14908e87",
+   "recovered": "2026-09-20"
+  }
+ ],
+ "unrecoverable": [
+  {
+   "name": "011-img.png",
+   "lane": "igcse-chemistry-modular-24-unit-2",
+   "target": "SME-ExamQuestion/igcse-chemistry-modular-24-unit-2/principles-of-chemistry/covalent-bonding/assets/011-img.png",
+   "refs": 3,
+   "role": "ExamQuest mark-scheme tick glyph",
+   "source_url": "https://ds-content.doublestruck.eu/AG_CHM/Q11WY2F02_files_Q/tick.png?ser=1652356153063",
+   "evidence": [
+    "S3 AccessDenied (server: AmazonS3) via urllib with browser headers, with and without Referer",
+    "S3 AccessDenied via curl --http2 with full browser headers",
+    "S3 AccessDenied via headless Chromium direct navigation",
+    "in-page Image() probe inside the live SME page session (cookies + referrer): load ERROR",
+    "bounded sibling-folder probes (Q11WY2F01/F03/F04, Q11WY1F02, Q11WY3F02, Q12WY2F02, Q10WY2F02, Q11WY2F00): all 403",
+    "web.archive.org: CDX lists no capture; replay unreachable from the work environment",
+    "the live SME page itself renders this tick broken today (only ds-content URL on the page; no local sibling copy in the corpus)"
+   ],
+   "disposition": "not fabricated (T-IMG-2 honesty rule); figure-unrecoverable comments written at the 3 refs; manifest record annotated"
+  }
+ ],
+ "manifest_updates": {
+  "mechanics": "SME-ExamQuestion/ial-maths-20-mechanics-1/manifest.json",
+  "chem": "SME-ExamQuestion/igcse-chemistry-modular-24-unit-2/manifest.json"
+ }
+}
