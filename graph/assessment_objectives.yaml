@@ -39,19 +39,21 @@ meta:
       reason: OCR-lineage wording damage; C23 made the PDF-direct-parse lineage definitive and T-C26 extends
         it to the sibling stores
     note: AO titles verbatim; weightings PDF en-dash verbatim (AO2 resolved via Total row + arithmetic);
-      papers block is ratified overlay (no canonical source)
+      papers block is ratified overlay (no canonical source); C27 repaired the shared weighting_by_paper
+      matrix (ao1/ao2 cells carried the AO3 column values; rebuilt from canonical unit_weightings,
+      PDF p35 verified)
 assessment_objectives:
 - code: 4CH1-AO1
   title: Knowledge and understanding of chemistry
   weighting_overall: 38–42%
   weighting_by_paper:
     paper_1: &id001
-      ao1: 11.6–12.8%
-      ao2: 11.6–12.8%
+      ao1: 23.2–25.7%
+      ao2: 23.2–25.7%
       ao3: 11.6–12.8%
     paper_2: &id002
-      ao1: 7.4–8.2%
-      ao2: 7.4–8.2%
+      ao1: 14.8–16.3%
+      ao2: 14.8–16.3%
       ao3: 7.4–8.2%
   validation_status: RULE_DERIVED
   confidence: 1.0

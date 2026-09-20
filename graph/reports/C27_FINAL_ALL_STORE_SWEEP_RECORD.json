@@ -1,0 +1,617 @@
+{
+ "record": "C27_FINAL_ALL_STORE_SWEEP_RECORD",
+ "head_at_sweep": "7ca311a1fc6305344e162b1217e0464d283ec75e",
+ "origin_main": "7ca311a1fc6305344e162b1217e0464d283ec75e",
+ "verdict": "ALL_STORES_CLEAN (post-repair; S0 tree-clean applies at the landing commit)",
+ "gates": {
+  "pass": 84,
+  "fail": 1,
+  "warn": 0,
+  "info": 7,
+  "note": "pre-landing run: 84 PASS / 1 FAIL where the single FAIL is S0 dirty-tree = the two repairs themselves; all content gates PASS"
+ },
+ "repairs": {
+  "F1_ao_weighting_by_paper_matrix": {
+   "file": "graph/assessment_objectives.yaml",
+   "defect": "anchored shared matrix carried AO3 column values in ao1/ao2 cells of both papers (c09-era inheritance through C26 en-dash adoption)",
+   "verification": [
+    "PDF p35 pdftotext rows == canonical unit_weightings",
+    "component arithmetic == weighting_overall (38.0-42.0 / 19.0-21.0)",
+    "C26 field map adopted_fields contract"
+   ],
+   "changed": {
+    "paper_1.ao1": [
+     "11.6-12.8%",
+     "23.2-25.7%"
+    ],
+    "paper_1.ao2": [
+     "11.6-12.8%",
+     "23.2-25.7%"
+    ],
+    "paper_2.ao1": [
+     "7.4-8.2%",
+     "14.8-16.3%"
+    ],
+    "paper_2.ao2": [
+     "7.4-8.2%",
+     "14.8-16.3%"
+    ]
+   },
+   "sha256": {
+    "pre": "36f361ec8afa3dcc705c72f33eef3b6babce0ebcb2b2bc5fb7b3740b2d5e8936",
+    "post": "3dc670176f2f55290ac95990f35f82b5888ffa568349f96c32cb9e30e6f352e7"
+   }
+  },
+  "F2_chunkmap_sp_title_refresh": {
+   "file": "graph/spec_chunk_mappings.yaml",
+   "defect": "84/211 sp_title labels stale (pre-C24 md-era wording); 4 carry retired-lineage notation damage (inline-math Rf/Ar + CJK in 1.10) - last store deriving wording from the retired OCR lineage",
+   "action": "all labels re-sourced from definitive specification_points.yaml official_wording; mapping decisions/anchors/quotes/promotion untouched (deep-verified)",
+   "sha256": {
+    "pre": "3d4877dd0cc5f75fd028b12ed5126a991227afe3a630a402f40ddbc97dc17b32",
+    "post": "f36910450bd50726655a1e9fc1e01a28fdd838769236da28c4f1d316c451ce77"
+   }
+  }
+ },
+ "knowledge_graph_html": {
+  "latest": "v77-regression-fixes",
+  "fileupload_commit": "b975298",
+  "sha256_16": "d485753bcf213206",
+  "repo_path": "syllabai-openhuman-edexcel-chemistry-kg/syllabai-openhuman-edexcel-chemistry-v77-regression-fixes.html",
+  "local_mirror": "/home/z/my-project/download/syllabai-openhuman-edexcel-chemistry-v77-regression-fixes.html",
+  "prior": "v76-audit-fixes (7975028, sha256_16 2636ddc05921f6ed)"
+ },
+ "results": [
+  {
+   "section": "S0",
+   "check": "HEAD == origin/main",
+   "status": "PASS",
+   "detail": "head=7ca311a1 remote=7ca311a1"
+  },
+  {
+   "section": "S0",
+   "check": "working tree clean",
+   "status": "FAIL",
+   "detail": "['M graph/assessment_objectives.yaml', ' M graph/spec_chunk_mappings.yaml']"
+  },
+  {
+   "section": "S1",
+   "check": "parse specification_points.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan specification_points.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue specification_points.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse topics.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan topics.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue topics.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse practicals.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan practicals.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue practicals.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse assessment_objectives.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan assessment_objectives.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue assessment_objectives.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse command_words.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan command_words.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue command_words.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse relationships.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan relationships.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue relationships.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse concepts.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan concepts.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue concepts.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse concept_edges.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan concept_edges.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue concept_edges.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse spec_chunk_mappings.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan spec_chunk_mappings.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue spec_chunk_mappings.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "parse spec_command_kinds.yaml",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "section": "S1",
+   "check": "damage-scan spec_command_kinds.yaml",
+   "status": "PASS",
+   "detail": "0 hits"
+  },
+  {
+   "section": "S1",
+   "check": "no 'md OCR' residue spec_command_kinds.yaml",
+   "status": "PASS",
+   "detail": "clean"
+  },
+  {
+   "section": "S1",
+   "check": "spec_points policy = PDF-direct line",
+   "status": "PASS",
+   "detail": "verbatim from the official PDF (canonical PDF-direct parse, whitespace-normalised only; PD…"
+  },
+  {
+   "section": "S1",
+   "check": "spec_points source_documents pins official PDF sha1",
+   "status": "PASS",
+   "detail": "3ad641b7c60b314f…"
+  },
+  {
+   "section": "S1",
+   "check": "retired_lineage documented (OCR md + c09)",
+   "status": "PASS",
+   "detail": "retired=international-gcse-chemistry-2017-specification-2026-09-10_1"
+  },
+  {
+   "section": "S1",
+   "check": "no store names retired c09 as generator",
+   "status": "PASS",
+   "detail": "specification_points:scripts/c23_emit_definitive_specpoints.py; topics:scripts/c26_emit_definitive_sibling_stores.py; practicals:scripts/c26_emit_definitive_sibling_stores.py; assessment_objectives:scripts/c26_emit_definitive_sibling_stores.py; command_words:scripts/c26_emit_definitive_sibling_stores.py; relationships:scripts/c26_emit_definitive_sibling_stores.py; concepts:scripts/c11_concept_pilot.py; concept_edges:scripts/c11_concept_pilot.py; spec_command_kinds:scripts/c11_concept_pilot.py"
+  },
+  {
+   "section": "S1",
+   "check": "INFO per-edge provenance citing retired md (history, in-scope of C26 meta-only refresh)",
+   "status": "INFO",
+   "detail": "210/210 edges"
+  },
+  {
+   "section": "S2",
+   "check": "spec_points count 182 == canonical",
+   "status": "PASS",
+   "detail": "store=182 canon=182"
+  },
+  {
+   "section": "S2",
+   "check": "canonical official_code unique",
+   "status": "PASS",
+   "detail": "dups=[]"
+  },
+  {
+   "section": "S2",
+   "check": "all store spec codes exist in canonical",
+   "status": "PASS",
+   "detail": "missing=[]"
+  },
+  {
+   "section": "S2",
+   "check": "spec_points wording == canonical (182/182, whitespace-normalised)",
+   "status": "PASS",
+   "detail": "0 wording diffs"
+  },
+  {
+   "section": "S2",
+   "check": "c_points = 52",
+   "status": "PASS",
+   "detail": "52"
+  },
+  {
+   "section": "S2",
+   "check": "INFO spec records flagged practical",
+   "status": "INFO",
+   "detail": "12"
+  },
+  {
+   "section": "S2",
+   "check": "topics 4 records (content topics)",
+   "status": "PASS",
+   "detail": "4"
+  },
+  {
+   "section": "S2",
+   "check": "subtopics 28 == canonical subsections",
+   "status": "PASS",
+   "detail": "store=28 canon=28"
+  },
+  {
+   "section": "S2",
+   "check": "topic titles ∈ canonical titles",
+   "status": "PASS",
+   "detail": "offending=[]"
+  },
+  {
+   "section": "S2",
+   "check": "subtopics 1:1 (letter+title) vs canonical order",
+   "status": "PASS",
+   "detail": "28/28 aligned"
+  },
+  {
+   "section": "S2",
+   "check": "subtopic parents resolve",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "section": "S2",
+   "check": "practicals 12 == canonical",
+   "status": "PASS",
+   "detail": "store=12 canon=12"
+  },
+  {
+   "section": "S2",
+   "check": "practical summaries == canonical minus 'practical: ' label (diff ⊆ C26 ledger)",
+   "status": "PASS",
+   "detail": "12/12 (label prefix stripped on 12; incl. documented PR repairs)"
+  },
+  {
+   "section": "S2",
+   "check": "AO 3 statements",
+   "status": "PASS",
+   "detail": "store=3 canon=3"
+  },
+  {
+   "section": "S2",
+   "check": "AO title + weighting_overall == canonical (en-dash verbatim)",
+   "status": "PASS",
+   "detail": "3/3"
+  },
+  {
+   "section": "S2",
+   "check": "canonical unit_weightings = 2 paper rows",
+   "status": "PASS",
+   "detail": "2"
+  },
+  {
+   "section": "S2",
+   "check": "AO weighting_by_paper == canonical full matrix (PDF p35; C27 repair)",
+   "status": "PASS",
+   "detail": "3/3 records share the corrected anchored matrix"
+  },
+  {
+   "section": "S2",
+   "check": "papers block = 2 papers (P1C/P2C) with ratified-overlay provenance",
+   "status": "PASS",
+   "detail": "2 papers (4CH1/1C, 4CH1/2C), 2 ratified-overlay"
+  },
+  {
+   "section": "S2",
+   "check": "command_words 25 == canonical",
+   "status": "PASS",
+   "detail": "store=25 canon=25"
+  },
+  {
+   "section": "S2",
+   "check": "command words 1:1 punctuation-insensitive join",
+   "status": "PASS",
+   "detail": "unmatched=[]"
+  },
+  {
+   "section": "S2",
+   "check": "command word + definition == canonical (diff ⊆ C26 ledger)",
+   "status": "PASS",
+   "detail": "25/25 (incl. 7 documented definition repairs)"
+  },
+  {
+   "section": "S3",
+   "check": "relationships edges = 210",
+   "status": "PASS",
+   "detail": "210"
+  },
+  {
+   "section": "S3",
+   "check": "all relationship endpoints resolve",
+   "status": "PASS",
+   "detail": "214 distinct endpoints, 0 unresolved"
+  },
+  {
+   "section": "S3",
+   "check": "distinct endpoints = 214 (C26 pin)",
+   "status": "PASS",
+   "detail": "214"
+  },
+  {
+   "section": "S3",
+   "check": "subtopic→spec_point refs resolve",
+   "status": "PASS",
+   "detail": "182 refs across 28 subtopics, 0 unresolved"
+  },
+  {
+   "section": "S3",
+   "check": "practical→spec_point refs resolve",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "section": "S3",
+   "check": "chunk-map sp_title == definitive store wording (211/211; C27 refresh)",
+   "status": "PASS",
+   "detail": "211/211 aligned to definitive wording"
+  },
+  {
+   "section": "S3",
+   "check": "chunk-map spec_codes resolve",
+   "status": "PASS",
+   "detail": "211 rows, 0 unresolved"
+  },
+  {
+   "section": "S3",
+   "check": "chunk-map evidence quotes non-empty on mapped rows",
+   "status": "PASS",
+   "detail": "210/211 mapped rows all quoted; 1 registered WORKLIST gaps (empty by design)"
+  },
+  {
+   "section": "S3",
+   "check": "INFO chunk-map note_paths on disk",
+   "status": "INFO",
+   "detail": "1/211 present; missing e.g. ['1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry Revision Notes.md', '1. Principles of Chemistry/a. States of Matter/Changing states of matter - IGCSE Chemistry Revision Notes.md']"
+  },
+  {
+   "section": "S3",
+   "check": "command-kind codes resolve into spec points",
+   "status": "PASS",
+   "detail": "82 kinds, 0 unresolved"
+  },
+  {
+   "section": "S3",
+   "check": "command-kind verbs ∈ spec leading_verb set",
+   "status": "PASS",
+   "detail": "verbs=11 all known"
+  },
+  {
+   "section": "S3",
+   "check": "concept→spec_point refs resolve",
+   "status": "PASS",
+   "detail": "117 refs across 113 concepts, 0 unresolved"
+  },
+  {
+   "section": "S3",
+   "check": "concept_edges endpoints resolve (concepts ∪ spec ∪ practicals ∪ topics)",
+   "status": "PASS",
+   "detail": "275 edges, 0 unresolved"
+  },
+  {
+   "section": "S3",
+   "check": "INFO concept-edge evidence files on disk",
+   "status": "INFO",
+   "detail": "107/471 present; missing e.g. ['Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md', 'Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation energy- IGCSE Revision Notes.md']"
+  },
+  {
+   "section": "S4",
+   "check": "C25+C26+C27 sha256 pins (15 files)",
+   "status": "PASS",
+   "detail": "15/15 match"
+  },
+  {
+   "section": "S5",
+   "check": "23 quals in _derived/graph",
+   "status": "PASS",
+   "detail": "23"
+  },
+  {
+   "section": "S5",
+   "check": "KG loader contract 4 files x 23 quals",
+   "status": "PASS",
+   "detail": "92 files, missing=[]"
+  },
+  {
+   "section": "S5",
+   "check": "derived YAML parse",
+   "status": "PASS",
+   "detail": "fail=[]"
+  },
+  {
+   "section": "S5",
+   "check": "derived damage sweep",
+   "status": "PASS",
+   "detail": "hits=[]"
+  },
+  {
+   "section": "S5",
+   "check": "derived no 'md OCR' residue",
+   "status": "PASS",
+   "detail": "found=[]"
+  },
+  {
+   "section": "S5",
+   "check": "INFO derived spec-point rows total",
+   "status": "INFO",
+   "detail": "4274 across 23 quals"
+  },
+  {
+   "section": "S6",
+   "check": "23 qual parse bundles",
+   "status": "PASS",
+   "detail": "23"
+  },
+  {
+   "section": "S6",
+   "check": "canonical JSON parse x23",
+   "status": "PASS",
+   "detail": "fail=[]"
+  },
+  {
+   "section": "S6",
+   "check": "parse_reports gates ALL_PASS x23",
+   "status": "PASS",
+   "detail": "23/23 all gates pass"
+  },
+  {
+   "section": "S6",
+   "check": "official chemistry PDF sha1 unchanged",
+   "status": "PASS",
+   "detail": "3ad641b7c60b314f…"
+  },
+  {
+   "section": "S6",
+   "check": "INFO per-qual gate summary",
+   "status": "INFO",
+   "detail": "ial-biology:5/5; ial-chemistry:5/5; ial-maths:5/5; ial-physics:5/5; igcse-accounting:5/5; igcse-biology:5/5; igcse-biology-modular:5/5; igcse-business:5/5; igcse-chemistry:5/5; igcse-chemistry-modular:5/5; igcse-economics:5/5; igcse-english-language-a:5/5; igcse-english-literature:5/5; igcse-further-maths:5/5; igcse-geography:5/5; igcse-ict:5/5; igcse-maths-a:5/5; igcse-maths-a-modular:5/5; igcse-maths-b:5/5; igcse-physics:5/5; igcse-physics-modular:5/5; igcse-science-double-award:5/5; igcse-science-double-award-modular:5/5"
+  },
+  {
+   "section": "S7",
+   "check": "v77 present in FileUpload clone",
+   "status": "PASS",
+   "detail": "/home/z/my-project/gh_repos/FileUpload/syllabai-openhuman-edexcel-chemistry-kg/syllabai-openhuman-edexcel-chemistry-v77-regression-fixes.html"
+  },
+  {
+   "section": "S7",
+   "check": "v77 download/ copy identical to repo copy",
+   "status": "PASS",
+   "detail": "sha256 d485753bcf213206…"
+  },
+  {
+   "section": "S7",
+   "check": "v76 present in FileUpload clone",
+   "status": "PASS",
+   "detail": "/home/z/my-project/gh_repos/FileUpload/syllabai-openhuman-edexcel-chemistry-kg/syllabai-openhuman-edexcel-chemistry-v76-audit-fixes.html"
+  },
+  {
+   "section": "S7",
+   "check": "v76 download/ copy identical to repo copy",
+   "status": "PASS",
+   "detail": "sha256 2636ddc05921f6ed…"
+  },
+  {
+   "section": "S7",
+   "check": "v77 tracked on FileUpload origin/main",
+   "status": "PASS",
+   "detail": "origin/main=b975298b"
+  },
+  {
+   "section": "S7",
+   "check": "local FileUpload clone == origin/main",
+   "status": "PASS",
+   "detail": "b975298b"
+  },
+  {
+   "section": "S7",
+   "check": "INFO FileUpload origin/main tail",
+   "status": "INFO",
+   "detail": "b975298 v77: regression-fix release — collapse ghost nodes blocking clicks, gesture-aware camera flights, calm drag physics, trace/path badges ride nodes (all runtime-verified, 26+24 tests green) | 7975028 KG prototype v76: audit-fix release (critical v75 audit, code+visual+runtime) — dblclick-to-expand works off-centre (camera flight deferred+cancelled), evidence trail reads real demo field (8 items not 0), learning-focus exact-segment edge highlight, provenance drawer no longer occludes viewport controls (left-rail shifts while open), breadcrumbs restored via hierarchyPath (clickable, pointer-safe), mastery bands unified Low<55/Developing 55-69/Good 70-79/Strong>=80 across rings/strokes/cards/legend/recommendations, relationship selection closes stale details panel, minimap viewport rect live during pan/zoom/flight, assessment edges on by default (papers connected), trail yields to teacher strip, tree view closes drawer+panel, NOT_MEASURED polished, structural peek wording, lasso click-disarm, learning-card button/meta sizing + truncation ellipsis, perf: simulation renders position-only deltas (nodeInner transform) + reheat gated on real drags + hover feedback-loop guard, dead #legend removed, demo-overlay vs measured wording disambiguated; hygiene: delete 0-byte v21 + stray 'a'. 24/24 runtime tests green, 0 console errors"
+  },
+  {
+   "section": "S7",
+   "check": "v77 is the max version in the kg folder",
+   "status": "PASS",
+   "detail": "max=v77; versions=[4, 5, 6, 7, 8, 33, 34, 35, 36, 42, 45, 54, 55, 56, 57, 66, 67, 68, 69, 71, 72, 73, 74, 75, 76, 77]"
+  }
+ ]
+}
