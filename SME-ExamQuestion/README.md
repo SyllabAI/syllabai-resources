@@ -26,8 +26,48 @@ v1: `question_set` became `question_sets[]` (IAL topics split into
 questions carry `set_slug`, and `scrape` tracks `sets_completed` +
 `asset_map` (merge-safe resumability).
 
-All 39 courses (26 IGCSE + 13 IAL) are scraped — see
-`manifest.json` for the authoritative per-course status/counts.
+41 of the 49 courses (36 IGCSE + 13 IAL) are scraped; the other
+8 are honestly empty — see `manifest.json` for the authoritative
+per-course status/counts and the empty-lanes section below.
+
+## Set-page model & the T-SME-11 lanes (2026-09)
+
+SME's frontend moved some courses to per-session "question set" pages
+(each exam session embeds its own questions). The ELA 4EA1 lanes are
+scraped with `scripts/sme_examq_setpage_scrape.py`, which reproduces the
+corpus conventions exactly (same topic.json schema, atomization and
+renderers) with set-page orchestration; questions carry `set_slug`.
+
+T-SME-11 added 10 lanes to reach 49 courses end-to-end:
+ELA paper-1 (100 questions) and paper-2 (65 questions) scraped; ELA
+paper-3 (coursework), maths-b (4MB1) and the six science-double-award
+modular units (4XSD1) have **no topic questions published on SME** and
+are recorded honestly as `no_topic_questions_on_sme` — never
+synthesized. New lanes also carry `spec_point_map.json` +
+`spec_point_resolution.json` sidecars (T-SPEC mapping), not just
+`spec_point_index.json`.
+
+## Empty lanes — live re-verification (2026-09-20)
+
+The 8 empty lanes were re-verified against the live SME frontend; the
+gap is SME-side, not a scrape defect (evidence also embedded in each
+lane's `status_note`):
+
+- maths-b (4MB1/2016): syllabus-version flag
+  `has_published_topic_questions=false`; all 62 topics
+  `published_questions_count=0` with empty `question_sets`
+  relationships; no topic-questions study-tool link. SME's only exam
+  material for Maths B is 52 past-paper entries (family-level
+  `/igcse/maths/edexcel/b/past-papers/`) linking Pearson-hosted 4MB1
+  PDFs — out of scope for this atomized SME-authored corpus.
+- SDA modular units (4XSD1/2024): syllabus flag false; 8/12/13/9/8/10
+  topics across the six units, all `published_questions_count=0`;
+  per-topic `question_set` relationships hold only unpublished
+  `qstnst_` shells.
+- ELA paper-3 coursework: module flag
+  `has_published_topic_questions=false`; the topic-questions URL's
+  question-set payload is the sibling paper-1 session-set listing, not
+  Paper 3 content.
 
 ## Spec-point index harvest
 
@@ -58,6 +98,10 @@ here.
 ## Pipeline
 
     scripts/sme_examq_courses.py        # registry from sitemaps
+                                        # (operator-scratch,
+                                        #  not committed; retained
+                                        #  artifacts:
+                                        #  scripts/t_spec_10_work/sme11/)
     scripts/sme_examq_scrape_all.py --course <slug>
     scripts/sme_examq_scrape_all.py --update-registry
     scripts/sme_notes_discover.py       # notes URLs per course from sitemaps
