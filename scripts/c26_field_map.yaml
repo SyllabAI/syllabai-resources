@@ -1,0 +1,71 @@
+# T-C26 field map — frozen 2026-09-20 (Phase 0 gate)
+# Old-store -> canonical-parse record/field mapping for the sibling-store PDF refresh.
+# Emitter: scripts/c26_emit_definitive_sibling_stores.py (mapping encoded there as constants;
+# this file is the human-readable freeze of the same mapping).
+
+specification_pdf:
+  file: Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf
+  sha1: 3ad641b7c60b314fa3b10680feda30bf56280a53
+
+canonical_sources:
+  topics: Official-Specifications/parsed/igcse-chemistry/topics.json
+  practicals: Official-Specifications/parsed/igcse-chemistry/practicals.json
+  assessment_objectives: Official-Specifications/parsed/igcse-chemistry/assessment_objectives.json
+  command_words: Official-Specifications/parsed/igcse-chemistry/command_words.json
+
+topics.yaml:
+  topics:
+    store_records: 4
+    canonical_filter: content topics only (4CH1-T3..T6; T1/T2/T7/T8 are front/back matter, not stores)
+    key_map: {'4CH1-S1': '4CH1-T3', '4CH1-S2': '4CH1-T4', '4CH1-S3': '4CH1-T5', '4CH1-S4': '4CH1-T6'}
+    refreshed_fields: []            # titles already congruent (0 diffs at Phase 0)
+    provenance_fields: [pdf_page]
+    overlay_fields: [title_md, ordering, code, confidence, validation_status, version]
+  subtopics:
+    store_records: 28
+    canonical_key: 4CH1-SUBn (n=1..28, document order; letter field must equal store letter)
+    refreshed_fields: [title]       # 0 diffs at Phase 0; refresh is identity here
+    upgraded_fields: {header_source: 'canonical-pdf-direct-parse'}
+    provenance_fields: [pdf_page]
+    overlay_fields: [spec_points, parent, letter, ordering, code, confidence, validation_status, version]
+
+practicals.yaml:
+  store_records: 12
+  key: ordering (1:1)
+  refreshed_fields: [summary]       # canonical summary, 'practical: ' label prefix stripped per C23 leading-verb rule
+  adjudicated_overrides:
+    4CH1-PR-09: canonical parse truncated after 'change:' (bullet-colon class); bullets restored
+      verbatim from PDF p27: '• salts dissolving in water • neutralisation reactions • displacement
+      reactions • combustion reactions.' (inline, store convention)
+  provenance_fields: [pdf_page]
+  overlay_fields: [spec_point, subsection, ordering, code, confidence, validation_status, version]
+
+assessment_objectives.yaml:
+  store_records: 3
+  key: AO code (1:1)
+  refreshed_fields: []              # titles congruent (0 diffs at Phase 0)
+  adopted_fields:
+    weighting_overall: en-dash verbatim per PDF p35 ('38–42%', '19–21%')
+    weighting_by_paper: en-dash verbatim per canonical unit_weightings (Paper 1: 23.2–25.7 / 23.2–25.7 /
+      11.6–12.8; Paper 2: 14.8–16.3 / 14.8–16.3 / 7.4–8.2)
+  adjudicated_overrides:
+    4CH1-AO2.weighting_overall: canonical text-layer cell damaged ('38 42%' + annotation); resolved to
+      '38–42%' by PDF p35 Total row (renders 38–42% for AO2) + column arithmetic
+      (23.2–25.7 + 14.8–16.3 = 38.0–42.0)
+  overlay_fields: [papers block (no canonical source — ratified), title, code, confidence, validation_status, version]
+
+command_words.yaml:
+  store_records: 25
+  key: normalized command_word (1:1)
+  refreshed_fields: [command_word, definition]   # What,Why,Which -> 'What, Why, Which'; 7 definitions
+  overlay_fields: [category, ordering, code, confidence, validation_status, version]
+
+relationships.yaml:
+  refresh_type: meta-only + endpoint integrity pass (no wording fields exist)
+  endpoints: 214 distinct (182 spec-point codes + 32 topic/subtopic/practical/AO codes)
+
+meta_policy:
+  carried_keys: [curriculum_code, qualification, phase, node_families, graph_format_version,
+    edge_vocabulary, provenance_default, task, stage, scope, validation_gate]
+  overridden_keys: [statement_text_policy, generator, generated, source_documents]
+  added_keys: [definitive_lineage]
