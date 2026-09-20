@@ -1,0 +1,164 @@
+curriculum_code: 4MB1
+qualification: igcse-maths-b (Issue 1)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-in-mathematics-spec-b.pdf
+  role: official-pdf-direct-parse
+  sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-20'
+counts:
+  spec_points: 98
+  topics: 10
+  subsections: 0
+  practicals: 0
+topics:
+- code: 4MB1-S1
+  title: Number
+  ordering: 1
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 17
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S2
+  title: Sets
+  ordering: 2
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 19
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S3
+  title: Algebra
+  ordering: 3
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 20
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S4
+  title: Functions
+  ordering: 4
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 21
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S5
+  title: Matrices
+  ordering: 5
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 23
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S6
+  title: Geometry
+  ordering: 6
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 24
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S7
+  title: Mensuration
+  ordering: 7
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 25
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S8
+  title: Vectors and transformation geometry
+  ordering: 8
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 26
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S9
+  title: Trigonometry
+  ordering: 9
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 27
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+- code: 4MB1-S10
+  title: Statistics and probability
+  ordering: 10
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 28
+    pdf_sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+  damage_flags: []
+subsections: []

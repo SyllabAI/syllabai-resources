@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Write per-qual parse_report.json: counts, validation gates, crossref."""
-import glob, json, os
+import glob, json, os, datetime
 
 RES = '/home/z/my-project/download/syllabai-resources'
+TODAY = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
 PARSED = f'{RES}/Official-Specifications/parsed'
 crossref = json.load(open(f'{PARSED}/_sme_crossref.json'))
 summary = {s['qual']: s for s in json.load(open(f'{PARSED}/_summary.json'))}
@@ -28,9 +29,18 @@ for d in sorted(glob.glob(f'{PARSED}/*/')):
             if not st['id'].startswith(q.upper().replace('-', '_') + ':'):
                 ids_ok = False
     xr = crossref.get(q, {})
+    # preserve the canonical-builder extension block if present (the report
+    # is shared between finalize_reports and build_canonical)
+    rp_path = f'{d}parse_report.json'
+    prev = {}
+    if os.path.exists(rp_path):
+        try:
+            prev = json.load(open(rp_path))
+        except Exception:
+            prev = {}
     report = {
         'qual': q,
-        'generated_utc': '2026-09-17',
+        'generated_utc': TODAY,
         'files': [f.rsplit('/', 1)[-1] for f in files],
         'counts': counts,
         'totals': {'spec_points': n_stmt, 'flagged': n_flag},
@@ -52,6 +62,8 @@ for d in sorted(glob.glob(f'{PARSED}/*/')):
         },
     }
     report['gates']['ALL_PASS'] = all(v is True for k, v in report['gates'].items())
+    if prev.get('canonical_bundle'):
+        report['canonical_bundle'] = prev['canonical_bundle']
     with open(f'{d}/parse_report.json', 'w') as f:
         json.dump(report, f, indent=1, ensure_ascii=False)
     print(f"{q:32} stmts={n_stmt:4} flags={n_flag:2} gates={'PASS' if report['gates']['ALL_PASS'] else 'CHECK'}")

@@ -1,0 +1,23 @@
+curriculum_code: 4MB1
+qualification: igcse-maths-b (Issue 1)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: international-gcse-in-mathematics-spec-b.pdf
+  role: official-pdf-direct-parse
+  sha1: 0ebb61eade473e181777dd3359f1d7d6a2209e9d
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-20'
+counts:
+  spec_points: 98
+  topics: 10
+  subsections: 0
+  practicals: 0
+practicals: []

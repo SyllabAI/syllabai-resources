@@ -1,0 +1,94 @@
+curriculum_code: 4EA1
+qualification: igcse-english-language-a (Issue 7)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+  role: official-pdf-direct-parse
+  sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-20'
+counts:
+  spec_points: 26
+  topics: 3
+  subsections: 4
+  practicals: 0
+topics:
+- code: 4EA1-S1
+  title: Non-fiction Texts and Transactional Writing (examined)
+  ordering: 1
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 13
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: 4EA1-S2
+  title: Poetry and Prose Texts and Imaginative Writing (examined)
+  ordering: 2
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 16
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: 4EA1-S3
+  title: Poetry and Prose Texts and Imaginative Writing (non-examined assessment)
+  ordering: 3
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: pdf-span-geometry
+    pdf_page: 18
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+subsections:
+- code: 4EA1-SUB1
+  letter: C1.1
+  title: Pearson Edexcel International GCSE English Anthology
+  parent_topic: 4EA1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 14
+- code: 4EA1-SUB2
+  letter: C1.2
+  title: 'Part 1: Non-fiction Texts'
+  parent_topic: 4EA1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 14
+- code: 4EA1-SUB3
+  letter: C2.1
+  title: Pearson Edexcel International GCSE English Anthology
+  parent_topic: 4EA1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 16
+- code: 4EA1-SUB4
+  letter: C2.2
+  title: 'Part 2: Poetry and Prose Texts'
+  parent_topic: 4EA1-S1
+  provenance:
+    tier: RULE_DERIVED
+    pdf_page: 16

@@ -12,6 +12,8 @@ PARSED = f'{RES}/Official-Specifications/parsed'
 SME = f'{RES}/SME-ExamQuestion'
 
 def qual_of(course):
+    if course.startswith('igcse-science-double-award-modular'):
+        return 'igcse-science-double-award-modular'
     if course.startswith('igcse-science-double-award'):
         return 'igcse-science-double-award'
     if 'modular' in course:

@@ -1,0 +1,323 @@
+curriculum_code: 4EA1
+qualification: igcse-english-language-a (Issue 7)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+  role: official-pdf-direct-parse
+  sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-20'
+counts:
+  spec_points: 26
+  topics: 3
+  subsections: 4
+  practicals: 0
+edges:
+- from: 4EA1-SUB1
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 14
+- from: 4EA1-SUB2
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 14
+- from: 4EA1-SUB3
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 16
+- from: 4EA1-SUB4
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: topic-tree derivation
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1AA
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 13
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1AB
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 13
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T01
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T02
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T03
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T04
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T05
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T06
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T07
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T08
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T09
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C1T10
+  relation: PART_OF
+  to: 4EA1-S1
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 14
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2AA
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2AB
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T01
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T02
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T03
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T04
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T05
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T06
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T07
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T08
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T09
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C2T10
+  relation: PART_OF
+  to: 4EA1-S2
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 16
+- from: IGCSE_ENGLISH_LANGUAGE_A:C3AA
+  relation: PART_OF
+  to: 4EA1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18
+- from: IGCSE_ENGLISH_LANGUAGE_A:C3AB
+  relation: PART_OF
+  to: 4EA1-S3
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    extraction_method: statement-topic association
+    pdf_page: 18

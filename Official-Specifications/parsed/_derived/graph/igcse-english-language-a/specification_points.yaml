@@ -1,0 +1,728 @@
+curriculum_code: 4EA1
+qualification: igcse-english-language-a (Issue 7)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+  role: official-pdf-direct-parse
+  sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/emit_graph.py (from parsed/<qual>/spec_points.json)
+generated: '2026-09-20'
+counts:
+  spec_points: 26
+  topics: 3
+  subsections: 4
+  practicals: 0
+specification_points:
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1AA
+  official_code: null
+  official_wording: 'Section A: Non-fiction texts – study and analyse selections from a range of non-fiction
+    texts.'
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: section
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 13
+    pdf_oy: 198.2
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1AB
+  official_code: null
+  official_wording: 'Section B: Transactional Writing – explore and develop transactional writing skills.'
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: section
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 13
+    pdf_oy: 216.4
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T01
+  official_code: null
+  official_wording: From The Danger of a Single Story (Chimamanda Ngozi Adichie)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 104.9
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T02
+  official_code: null
+  official_wording: From A Passage to Africa (George Alagiah)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 123.1
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T03
+  official_code: null
+  official_wording: From The Explorer’s Daughter (Kari Herbert)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 141.2
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T04
+  official_code: null
+  official_wording: Explorers, or boys messing about? Either way, taxpayer gets rescue bill (Steven Morris)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: explorers
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 171.6
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T05
+  official_code: null
+  official_wording: 'From 127 Hours: Between a Rock and a Hard Place (Aron Ralston)'
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 189.7
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T06
+  official_code: null
+  official_wording: Young and Dyslexic? You've got it going on (Benjamin Zephaniah)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: young
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 207.8
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T07
+  official_code: null
+  official_wording: From A Game of Polo with a Headless Goat (Emma Levine)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 226.0
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T08
+  official_code: null
+  official_wording: 'From Beyond the Sky and Earth: A Journey into Bhutan (Jamie Zeppa)'
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 244.2
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T09
+  official_code: null
+  official_wording: From H is for Hawk (Helen Macdonald)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 262.3
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C1T10
+  official_code: null
+  official_wording: From Chinese Cinderella (Adeline Yen Mah)
+  section: 4EA1-S1
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: from
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 14
+    pdf_oy: 280.4
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2AA
+  official_code: null
+  official_wording: 'Section A: Poetry and Prose Texts – study and analyse selections from a range of
+    fictional poetry and prose texts.'
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: section
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 138.8
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2AB
+  official_code: null
+  official_wording: 'Section B: Imaginative Writing – explore and develop imaginative writing skills.'
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 14
+  global_order: 14
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: section
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 169.1
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T01
+  official_code: null
+  official_wording: Disabled (Wilfred Owen)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: disabled
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 415.3
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T02
+  official_code: null
+  official_wording: “Out, Out–“ (Robert Frost)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: “out,
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 433.4
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T03
+  official_code: null
+  official_wording: An Unknown Girl (Moniza Alvi)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: an
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 451.5
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T04
+  official_code: null
+  official_wording: The Bright Lights of Sarajevo (Tony Harrison)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 469.7
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T05
+  official_code: null
+  official_wording: Still I Rise (Maya Angelou)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: still
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 487.9
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T06
+  official_code: null
+  official_wording: The Story of an Hour (Kate Chopin)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 506.0
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T07
+  official_code: null
+  official_wording: The Necklace (Guy de Maupassant)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 524.1
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T08
+  official_code: null
+  official_wording: Significant Cigarettes (from The Road Home) (Rose Tremain)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: significant
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 542.4
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T09
+  official_code: null
+  official_wording: Whistle and I’ll Come to You (from The Woman in Black) (Susan Hill)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: whistle
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 560.5
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C2T10
+  official_code: null
+  official_wording: Night (Alice Munro)
+  section: 4EA1-S2
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: night
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 16
+    pdf_oy: 578.6
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C3AA
+  official_code: null
+  official_wording: 'Assignment A: Poetry and Prose Texts – study and analyse selections from a range
+    of fictional poetry and prose texts.'
+  section: 4EA1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: assignment
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 18
+    pdf_oy: 158.3
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
+- code: IGCSE_ENGLISH_LANGUAGE_A:C3AB
+  official_code: null
+  official_wording: 'Assignment B: Imaginative Writing – explore and develop imaginative writing skills.'
+  section: 4EA1-S3
+  subsection: null
+  unit_code: null
+  unit: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability: null
+  leading_verb: assignment
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 9781446954379-int-gcse-englang-a-iss6-02-02-2023.pdf
+    spec_issue: '7'
+    extraction_method: pdf-span-geometry (zero-LLM)
+    generated_by: scripts/emit_graph.py
+    generated_date: '2026-09-20'
+    pdf_page: 18
+    pdf_oy: 188.5
+    pdf_sha1: 7c23f0409e9e8ebafd5e64c9b431b10aa197a2fd
+  damage_flags: []
