@@ -11,11 +11,15 @@ Scope:
   S5  _derived/graph: 23 quals x 4 files KG-loader contract, parse + damage scan
   S6  parsed/: 23 parse_reports gate status + canonical JSON parse + official PDF sha1
   S7  knowledge-graph HTML freshness (FileUpload v76-audit-fixes)
+  S8  C28 §5 serving-plane drift gate (D2=(a) execution): projection inventory (P3),
+      provenance headers, G1 source freshness, G2 re-emit idempotency (temp-dir
+      re-emission only — the repo itself is never written), damage scan,
+      blob counts == ratified stores
 
 Doctrine: damage is flagged, never fixed. En-dash / curly quotes adopted by C26 are
 legitimate. Output: console gate table + JSON + MD record.
 """
-import hashlib, json, os, re, subprocess, sys
+import hashlib, json, os, re, subprocess, sys, tempfile
 from collections import Counter
 import yaml
 
@@ -502,6 +506,114 @@ def s7():
     gate("S7", f"v{LATEST_V} is the max version in the kg folder", maxv == LATEST_V,
          f"max=v{maxv}; versions={sorted({v for v, _ in vers})}")
 
+# ---------- S8 serving-plane drift gate (C28 §5) ----------
+PROJECTION_FILES = ("concepts.yaml", "concept_edges.yaml", "explorer_blob.json")
+
+def s8(stores):
+    import c28_emit_explorer_blob as EB  # D2=(a) emitter; store paths via registry
+    qual = GP.default_qual()
+    root = os.path.join(PARSE, "_derived/graph")
+
+    # inventory (P3): projections exist exactly for K2-commissioned quals
+    commissioned = EB.commissioned_quals()
+    have = sorted(d for d in os.listdir(root)
+                  if os.path.isdir(os.path.join(root, d))
+                  and any(os.path.exists(os.path.join(root, d, f)) for f in PROJECTION_FILES))
+    stray = [d for d in have if d not in commissioned]
+    absent = [q for q in commissioned if q not in have]
+    gate("S8", "projection inventory == K2-commissioned quals (C28 P3)",
+         have == commissioned and not stray and not absent,
+         f"commissioned={commissioned}; with projections={have}" if (stray or absent or have != commissioned)
+         else f"{len(commissioned)} qual(s) commissioned, {len(have)} served, 0 stray")
+
+    for q in commissioned:
+        qdir = os.path.join(root, q)
+        # G1: projection provenance headers vs live sources
+        for f in ("concepts.yaml", "concept_edges.yaml"):
+            p = os.path.join(qdir, f)
+            try:
+                d = yaml.safe_load(open(p, encoding="utf-8"))
+                meta = d.get("meta") or {}
+                src = GP.resolve_rel(meta.get("projection_of", ""))
+                ok = (meta.get("schema") == "ratified-store-projection/1.0"
+                      and src == GP.store_rel(f[:-5], q)
+                      and os.path.exists(os.path.join(REPO, src))
+                      and meta.get("source_sha256_16") == sha256(os.path.join(REPO, src))[:16])
+                gate("S8", f"G1 freshness {q}/{f}", ok,
+                     f"source={src} pin={meta.get('source_sha256_16', '?')}:"
+                     f"{sha256(os.path.join(REPO, src))[:16] if os.path.exists(os.path.join(REPO, src)) else 'MISSING'}")
+            except Exception as ex:
+                gate("S8", f"G1 freshness {q}/{f}", False, f"unreadable: {ex}")
+        # G1: blob sources
+        try:
+            blob = json.load(open(os.path.join(qdir, "explorer_blob.json"), encoding="utf-8"))
+            bad = [s["path"] for s in blob.get("sources", [])
+                   if not os.path.exists(os.path.join(REPO, s["path"]))
+                   or s.get("sha256_16") != sha256(os.path.join(REPO, s["path"]))[:16]]
+            gate("S8", f"G1 freshness {q}/explorer_blob.json ({len(blob.get('sources', []))} sources)",
+                 not bad and len(blob.get("sources", [])) == len(EB.BLOB_SOURCES),
+                 f"{len(blob.get('sources', []))} pinned, 0 stale" if not bad else f"stale/missing={bad[:3]}")
+            gate("S8", f"blob header {q}",
+                 blob.get("schema_version") == "explorer-blob/1.0" and blob.get("graph_contract") == "1.0"
+                 and blob.get("qual") == q and blob.get("emitter", "").startswith("scripts/c28_emit_explorer_blob.py@"),
+                 f"schema={blob.get('schema_version')} contract={blob.get('graph_contract')}")
+        except Exception as ex:
+            gate("S8", f"G1 freshness {q}/explorer_blob.json", False, f"unreadable: {ex}")
+            blob = None
+        # G2: re-emit idempotency (temp dir; repo untouched; emitted_at = sole volatile)
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                EB.emit(q, tmp)
+                diffs = []
+                for f in PROJECTION_FILES:
+                    live_p = os.path.join(qdir, f)
+                    redo_p = os.path.join(tmp, f)
+                    if f.endswith(".yaml"):
+                        a = yaml.safe_load(open(live_p, encoding="utf-8"))
+                        b = yaml.safe_load(open(redo_p, encoding="utf-8"))
+                        (a.get("meta") or {}).pop("emitted_at", None)
+                        (b.get("meta") or {}).pop("emitted_at", None)
+                    else:
+                        a = json.load(open(live_p, encoding="utf-8"))
+                        b = json.load(open(redo_p, encoding="utf-8"))
+                        a.pop("emitted_at", None)
+                        b.pop("emitted_at", None)
+                    if a != b:
+                        diffs.append(f)
+                gate("S8", f"G2 re-emit idempotency {q} (emitted_at excluded)", not diffs,
+                     "3/3 artifacts reproduce" if not diffs else f"mismatch={diffs}")
+        except Exception as ex:
+            gate("S8", f"G2 re-emit idempotency {q}", False, f"re-emission failed: {ex}")
+        # damage scan across the serving artifacts
+        hits = []
+        for f in PROJECTION_FILES:
+            p = os.path.join(qdir, f)
+            if not os.path.exists(p):
+                continue
+            d = (yaml.safe_load(open(p, encoding="utf-8")) if f.endswith(".yaml")
+                 else json.load(open(p, encoding="utf-8")))
+            hits += [f"{f}:{c}" for _, c, _ in list(damage_scan_strings(d))[:5]]
+        gate("S8", f"serving-artifact damage scan {q}", not hits,
+             "0 hits" if not hits else str(hits[:4]))
+        # blob counts == ratified stores (single mapping source: EB.CONTENT_MAP)
+        if blob is not None:
+            badc = []
+            for store, src_key, blob_key in EB.CONTENT_MAP:
+                got = (blob.get("counts") or {}).get(blob_key)
+                exp = len((stores.get(store) or {}).get(src_key) or [])
+                if got != exp:
+                    badc.append(f"{blob_key}: {got} != {exp}")
+            dist = {}
+            for e in (stores.get("concept_edges") or {}).get("edges") or []:
+                k = str(e.get("validation_status", "?"))
+                dist[k] = dist.get(k, 0) + 1
+            got_dist = (blob.get("counts") or {}).get("concept_edge_validation_status")
+            if got_dist != dict(sorted(dist.items())):
+                badc.append("concept_edge_validation_status mismatch")
+            gate("S8", f"blob counts == ratified stores {q}", not badc,
+                 ", ".join(f"{k}={v}" for k, v in (blob.get("counts") or {}).items()
+                           if isinstance(v, int)) if not badc else str(badc[:4]))
+
 # ---------- main ----------
 def main():
     os.chdir(REPO)
@@ -514,6 +626,7 @@ def main():
     s5()
     s6()
     s7()
+    s8(stores)
     os.makedirs(DL, exist_ok=True)
     n_pass = sum(1 for _, _, st, _ in RESULTS if st == "PASS")
     n_fail = sum(1 for _, _, st, _ in RESULTS if st == "FAIL")
