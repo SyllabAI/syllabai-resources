@@ -155,7 +155,7 @@ def s1(stores):
 
 # ---------- S2 counts + canonical equality ----------
 def s2(stores):
-    ledger = json.load(open(os.path.join(GRAPH, "reports/C26_WORDING_DIFF_LEDGER.json"), encoding="utf-8"))
+    ledger = json.load(open(os.path.join(GP.reports_dir(), "C26_WORDING_DIFF_LEDGER.json"), encoding="utf-8"))  # C28: shared reports dir, not under the qual dir
     allowed = {}
     for k in ("wording_changes", "field_adoption", "identity_changes"):
         for it in ledger.get(k, []):
