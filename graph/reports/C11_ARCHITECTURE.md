@@ -1015,3 +1015,31 @@ medium-confidence presentations (MOLAR-GAS-VOL EXPLAINED_BY AVOGADRO-LAW;
 MIS-EQ-SUBSCRIPT REMEDIATED_BY CONSERVATION-MASS — see
 C11_OPERATOR_DECISIONS.md).
 
+
+> **Session-55 amendment (2026-09-22): §16 batch 5 — S2 Inorganic FIRST slice
+> (4CH1-2.1–2.14) AUTHORED to its operator gate.** Per the operator's
+> "run batch 5" directive under the session-46 authorization: the S1<->S2 +
+> S3<->S2 cross-slice boundary ruling recorded + machine-checked (27 term
+> matches all dispositioned; TWO sanctioned boundary targets — the batch-2
+> CON-ELECTRONIC-CONFIGURATION for both econfig explanations and the batch-4
+> CON-EXO-ENDO for the 2.11 combustion classification); the batch-5 Paper-2
+> MS set pinned (GROUP1/GROUP7/GASES — full family coverage); the decision
+> record authored (16 nodes / 18 edges / 14 held / zero RR — one pass-2
+> finding re-authored before the gate; 3 mark-scheme-documented misconceptions;
+> the ≈1-per-SP held band), pre-verified fail-closed (105 quote probes + 89
+> record anchors), generated through the gated registry-resolved generator,
+> pass-2 reviewed (zero demotions at the re-authored state), and rendered to
+> its review gate (C11_BATCH5_REVIEW_SHEET.md + .json + the OPERATOR-OWNED
+> verdicts template). MERGED STORE: 129 nodes / 306 edges (130 PART_OF + 176
+> semantic) / 96 command kinds / 77 held; 153 HUMAN_VALIDATED UNCHANGED
+> (authoring promotes nothing); batch-5 nodes stay SUGGESTED; 4CH1-4.15
+> uncovered. The full gate suite is green at the authored-to-gate state.
+> LATENT POST-C28 BREAKAGE REPAIRED THIS SESSION (dated, no test weakened):
+> the C11 gate suite had been dark since the C28 stage-2 store move — the
+> checker meta/topics groups carried stale pre-C26 expectations and eleven
+> store-reading tools (incl. the generator) still read the pre-migration
+> root layout; all re-pointed through the C28 registry, and the generator
+> now composes the C23->C24 re-anchor chain and canonicalizes SPEC anchor
+> paths at emission (records stay historical per C28 P5). NEXT: the
+> operator's batch-5 verdict session; the remaining S2 families (2.15-2.50)
+> are batches 6-8 per the §16 item-14 plan.)

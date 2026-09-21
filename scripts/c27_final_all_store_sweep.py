@@ -382,8 +382,9 @@ PINS = {
     GP.legacy_rel("assessment_objectives"): "3dc670176f2f5529",  # C27 post (C26 post was 36f361ec…; matrix repair)
     GP.legacy_rel("command_words"): "824c50ee0625672c",
     GP.legacy_rel("relationships"): "6bd3f8236ac2120a",
-    GP.legacy_rel("concepts"): "5904c7bc956d6858",  # C28 post (pre was 634a743b65d1612b…; layout canonicalization)
-    GP.legacy_rel("concept_edges"): "ca73f7077ba82cc0",  # C28 post (pre was ccc674cf3a94b8e4…; layout canonicalization)
+    GP.legacy_rel("concepts"): "e0d463130979972d",  # session-55 post (pre was 5904c7bc956d6858…; batch-5 authored-to-gate regen)
+    GP.legacy_rel("concept_edges"): "65392d953919c143",  # session-55 post (pre was ca73f7077ba82cc0…; batch-5 authored-to-gate regen)
+    GP.legacy_rel("spec_command_kinds"): "d7decaa873be7d3a",  # session-55 post (pre was 82-tag pin; batch-5 authored-to-gate regen)
     GP.legacy_rel("spec_chunk_mappings"): "e8b58a7109104bb7",  # C28 post (pre was f36910450bd50726…; layout canonicalization)  # C27 post (pre was 3d4877dd…; sp_title refresh)
     "graph/reports/C26_WORDING_DIFF_LEDGER.json": "b3334f6057ea649a",
     "scripts/c26_emit_definitive_sibling_stores.py": "e9cbf844e9247c07",  # C28 stage-1 re-point (pre was c4ad56a1…; registry refactor)

@@ -82,15 +82,21 @@ REPO = HERE.parent
 # Session-51 (batch 3): the registry grows by c11_batch3_decisions.yaml
 # (the full S1 remainder batch, operator-commissioned session 51)
 # Session-53 (batch 4): the registry grows by c11_batch4_decisions.yaml
+# Session-55 (batch 5): the registry grows by c11_batch5_decisions.yaml
 # (Section 3 Physical Chemistry, operator-commissioned session 53; under
 # the session-52 cross-slice boundary ruling)
 DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                   "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
-                  "c11_batch4_decisions.yaml"]
+                  "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
-GRAPH_EDGES = REPO / "graph" / "concept_edges.yaml"
-GRAPH_NODES = REPO / "graph" / "concepts.yaml"
-SPEC_POINTS = REPO / "graph" / "specification_points.yaml"
+# Session-55 repair (2026-09-22, dated): store paths resolve through the
+# C28 registry (post-stage-2 layout graph/igcse-chemistry/); this tool has
+# been dark for store reads since the migration.
+sys.path.insert(0, str(HERE))
+import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
+GRAPH_EDGES = GP.store("concept_edges")
+GRAPH_NODES = GP.store("concepts")
+SPEC_POINTS = GP.store("specification_points")
 
 # Same vocabulary / gates as scripts/c11_promote.py (kept in lockstep).
 RELATIONS = {"PART_OF", "REQUIRES_PREREQUISITE", "RELATED_TO", "MISCONCEPTION_OF",
@@ -136,9 +142,11 @@ def ekey(e) -> str:
 # ---------------------------------------------------------------------------
 def load_state(base: Path = REPO) -> dict:
     """Load all inputs read-only. base is injectable for tests."""
-    g_edges = base / "graph" / "concept_edges.yaml"
-    g_nodes = base / "graph" / "concepts.yaml"
-    g_spec = base / "graph" / "specification_points.yaml"
+    # Session-55 repair (dated): registry-relative store layout, joined onto
+    # the injectable base so the sandbox fixture mirrors the live layout.
+    g_edges = base / GP.store_rel("concept_edges")
+    g_nodes = base / GP.store_rel("concepts")
+    g_spec = base / GP.store_rel("specification_points")
     # session-47: the decision-record REGISTRY (fail closed if any member is
     # missing — the graph must be reconcilable against its full registry)
     decisions_list = [base / "scripts" / f for f in DECISION_FILES]

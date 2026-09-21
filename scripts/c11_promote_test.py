@@ -61,6 +61,12 @@ LIVE_GRAPH = LIVE_REPO / "graph"
 LIVE_SCRIPTS = LIVE_REPO / "scripts"
 LIVE_NOTES = LIVE_REPO / "Chemistry IGCSE Revision Notes"
 
+# Session-55 repair (2026-09-22, dated): the sandbox mirrors the LIVE
+# post-C28 store layout — graph/igcse-chemistry/ — derived from the
+# registry (graph_paths.qual_dir), never hardcoded.
+import graph_paths as _GP  # noqa: E402
+GRAPH_REL = _GP.qual_dir().relative_to(_GP.REPO)  # Path('graph/igcse-chemistry')
+LIVE_STORES = LIVE_GRAPH / GRAPH_REL.name
 PROMOTE = "scripts/c11_promote.py"
 GENERATOR = "scripts/c11_concept_pilot.py"
 CHECKER = "scripts/graph_check.py"
@@ -88,9 +94,12 @@ def ok(name, cond, detail=""):
 def make_sandbox(root: Path) -> Path:
     sb = root / "repo"
     (sb / "scripts").mkdir(parents=True)
-    (sb / "graph").mkdir()
+    (sb / GRAPH_REL).mkdir(parents=True)
     for f in LIVE_SCRIPTS.glob("*.py"):
         shutil.copy2(f, sb / "scripts" / f.name)
+    # session-55: the C28 path REGISTRY must ride with the scripts — the
+    # generator resolves store paths through it (graph_paths.py reads it).
+    shutil.copy2(LIVE_SCRIPTS / "graph_paths.yaml", sb / "scripts" / "graph_paths.yaml")
     # session-47: stage the WHOLE decision-record registry (pilot + batch-1)
     shutil.copy2(LIVE_SCRIPTS / "c11_pilot_decisions.yaml",
                  sb / "scripts" / "c11_pilot_decisions.yaml")
@@ -105,11 +114,15 @@ def make_sandbox(root: Path) -> Path:
     # session-53: stage the whole decision-record registry (batch 4)
     shutil.copy2(LIVE_SCRIPTS / "c11_batch4_decisions.yaml",
                  sb / "scripts" / "c11_batch4_decisions.yaml")
+    # session-55: stage the whole decision-record registry (batch 5)
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch5_decisions.yaml",
+                 sb / "scripts" / "c11_batch5_decisions.yaml")
     if (LIVE_SCRIPTS / "c11_evidence").exists():
         shutil.copytree(LIVE_SCRIPTS / "c11_evidence", sb / "scripts" / "c11_evidence")
-    for f in LIVE_GRAPH.glob("*.yaml"):
-        shutil.copy2(f, sb / "graph" / f.name)
+    for f in LIVE_STORES.glob("*.yaml"):
+        shutil.copy2(f, sb / GRAPH_REL / f.name)
     # reports (review sheets/architecture) so --review-ref file resolution works
+    # (graph/reports/ is the SHARED audit trail — never under the qual dir)
     shutil.copytree(LIVE_GRAPH / "reports", sb / "graph" / "reports")
     # notes tree (minus assets — never read by the generator/checker)
     shutil.copytree(LIVE_NOTES, sb / "Chemistry IGCSE Revision Notes",
@@ -142,11 +155,14 @@ def restore(sb: Path):
     # session-53: stage the whole decision-record registry (batch 4)
     shutil.copy2(LIVE_SCRIPTS / "c11_batch4_decisions.yaml",
                  sb / "scripts" / "c11_batch4_decisions.yaml")
+    # session-55: stage the whole decision-record registry (batch 5)
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch5_decisions.yaml",
+                 sb / "scripts" / "c11_batch5_decisions.yaml")
     prom = sb / "scripts" / "c11_promotions.yaml"
     if prom.exists():
         prom.unlink()
     for fn in C11_FILES:
-        shutil.copy2(LIVE_GRAPH / fn, sb / "graph" / fn)
+        shutil.copy2(LIVE_STORES / fn, sb / GRAPH_REL / fn)
     gen(sb)
 
 
@@ -168,7 +184,7 @@ def check(sb: Path):
 
 
 def read_edges(sb: Path):
-    return yaml.safe_load((sb / "graph" / "concept_edges.yaml")
+    return yaml.safe_load((sb / GRAPH_REL / "concept_edges.yaml")
                           .read_text(encoding="utf-8"))["edges"]
 
 
@@ -203,8 +219,8 @@ def main2():
     try:
         sb = make_sandbox(tmp)
         pristine_edges = canon(read_edges(sb))
-        pristine_concepts = (sb / "graph" / "concepts.yaml").read_bytes()
-        pristine_cks = (sb / "graph" / "spec_command_kinds.yaml").read_bytes()
+        pristine_concepts = (sb / GRAPH_REL / "concepts.yaml").read_bytes()
+        pristine_cks = (sb / GRAPH_REL / "spec_command_kinds.yaml").read_bytes()
         pristine_decisions = (sb / "scripts" / "c11_pilot_decisions.yaml").read_bytes()
         a = tuple(EDGE_A.split())
         rr = tuple(EDGE_RR.split())
@@ -231,17 +247,17 @@ def main2():
                (sb / "scripts" / "c11_pilot_decisions.yaml").read_bytes()
                == pristine_decisions)
             ok("T01e concepts.yaml + spec_command_kinds.yaml untouched",
-               (sb / "graph" / "concepts.yaml").read_bytes() == pristine_concepts
-               and (sb / "graph" / "spec_command_kinds.yaml").read_bytes()
+               (sb / GRAPH_REL / "concepts.yaml").read_bytes() == pristine_concepts
+               and (sb / GRAPH_REL / "spec_command_kinds.yaml").read_bytes()
                == pristine_cks)
             c = check(sb)
             ok("T01f graph_check green with 1 promoted",
                c.returncode == 0 and "1 HUMAN_VALIDATED" in c.stdout,
                c.stdout[-300:] + c.stderr[-300:])
-            g1 = (sb / "graph" / "concept_edges.yaml").read_bytes()
+            g1 = (sb / GRAPH_REL / "concept_edges.yaml").read_bytes()
             gen(sb)
             ok("T01g deterministic regeneration byte-identical",
-               (sb / "graph" / "concept_edges.yaml").read_bytes() == g1)
+               (sb / GRAPH_REL / "concept_edges.yaml").read_bytes() == g1)
             r2 = run_tool(sb, "--edge", EDGE_A, "--by", "test-operator",
                           "--date", "2026-09-11")
             ok("T01h idempotent re-promotion is a no-op",
@@ -338,24 +354,24 @@ def main2():
         for name, entries, expect in forged:
             restore(sb)
             _write_promotions(sb, entries)
-            pre = (sb / "graph" / "concept_edges.yaml").read_bytes()
+            pre = (sb / GRAPH_REL / "concept_edges.yaml").read_bytes()
             g = gen(sb)
             # the generator must fail closed AND leave the graph untouched
             # (byte-equal to its pre-attempt state — session-45: no longer
             # the LIVE file, which now carries the 28 real promotions)
             ok(name, g.returncode != 0 and expect in g.stderr
-               and (sb / "graph" / "concept_edges.yaml").read_bytes() == pre,
+               and (sb / GRAPH_REL / "concept_edges.yaml").read_bytes() == pre,
                f"rc={g.returncode} err={g.stderr[:250]}")
 
         # T20: forged promotion of the OPERATOR-REJECTED identity — G13 must
         # fail closed with the rejected-candidate diagnosis (permanence guard)
         restore(sb)
         _write_promotions(sb, _forge(EDGE_REJ))
-        pre = (sb / "graph" / "concept_edges.yaml").read_bytes()
+        pre = (sb / GRAPH_REL / "concept_edges.yaml").read_bytes()
         g = gen(sb)
         ok("T20 forged promotion of the operator-rejected identity fails closed",
            g.returncode != 0 and "HELD-13" in g.stderr
-           and (sb / "graph" / "concept_edges.yaml").read_bytes() == pre,
+           and (sb / GRAPH_REL / "concept_edges.yaml").read_bytes() == pre,
            f"rc={g.returncode} err={g.stderr[:250]}")
 
         # T14: forged HUMAN_VALIDATED in the graph (no promotion record)
@@ -479,7 +495,7 @@ def _forge_graph_status(sb: Path, key, status, by, date):
 
 
 def _save_edges(sb: Path, edges):
-    p = sb / "graph" / "concept_edges.yaml"
+    p = sb / GRAPH_REL / "concept_edges.yaml"
     d = yaml.safe_load(p.read_text(encoding="utf-8"))
     d["edges"] = edges
     p.write_text(yaml.safe_dump(d, allow_unicode=True, sort_keys=False,

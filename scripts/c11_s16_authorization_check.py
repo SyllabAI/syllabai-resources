@@ -37,8 +37,14 @@ import yaml
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
-GRAPH = REPO / "graph"
-REPORTS = GRAPH / "reports"
+# Session-55 repair (2026-09-22, dated): the C28 stage-2 migration moved the
+# ratified stores to graph/igcse-chemistry/ (b3bca02); this checker still read
+# the pre-migration root layout and has been dark since. Store paths now resolve
+# through the C28 registry (graph_paths.py) — no expectation changed.
+sys.path.insert(0, str(HERE))
+import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
+GRAPH = GP.qual_dir()          # the qual's ratified store dir
+REPORTS = GP.reports_dir()     # shared graph/reports/ audit trail
 
 AUTHZ = HERE / "c11_s16_authorization.yaml"
 VERDICTS = HERE / "c11_review_verdicts.yaml"

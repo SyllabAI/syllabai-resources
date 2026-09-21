@@ -1,0 +1,217 @@
+# T-C11 §16 batch 5 — OPERATOR verdict template (session-55 package).
+# OPERATOR-OWNED: fill verdict per row (empty verdict = not decided).
+# Hand-edits HERE are the sanctioned pathway; graph/*.yaml are never
+# hand-edited. The next session encodes + applies the filled record via
+# the §18 promotion pathway / §7 decision-record re-authoring. Verdicts
+# are RECORDED, not applied: filling this file promotes nothing.
+meta:
+  task: T-C11
+  stage: s16-batch-5-verdicts
+  batch: 5
+  session: 55
+  file: OPERATOR-OWNED verdict record for C11_BATCH5_REVIEW_SHEET (session 55) — verdicts recorded by operator decision (pending).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT. This batch authored
+    NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-5
+    extraction_pass is c11-s16-batch-5 (Section 2 Inorganic Chemistry FIRST slice, 14 SPs
+    4CH1-2.1-2.14); its 14 held candidates are informational only (no reopening, no promotion of
+    held candidates — B5-H-04/05/06 record the classic wrong-answer patterns refused for missing
+    documentation; revisit only with new MS evidence). THREE edges are cross-section boundary edges
+    into the ruled owners (CON-ELECTRONIC-CONFIGURATION x2 — batch 2; CON-EXO-ENDO — batch 4;
+    sanctioned by the session-55 cross-slice ruling, no duplicate mint). The next session applies
+    verdicts via the §18 promotion pathway / §7 decision-record re-authoring; nothing here is
+    HUMAN_VALIDATED.'
+edge_verdicts:
+- id: B5-E-01
+  triple: 4CH1-CON-AIR-COMPOSITION EXPLAINED_BY 4CH1-CON-O2-PERCENT-DETERMINATION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'relation-class choice (the grounding direction; FP-B5-4 pass-2 flag — operator may prune)'
+- id: B5-E-02
+  triple: 4CH1-CON-COMBUSTION-O2 REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO
+  pretriage: FLAGGED
+  verdict:
+  notes: 'cross-boundary target (session-55 ruling; batch-4 owner)'
+- id: B5-E-03
+  triple: 4CH1-CON-G1-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G1-TREND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-E-04
+  triple: 4CH1-CON-G1-REACTIVITY-ECONFIG REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'cross-boundary target (session-55 ruling; batch-2 owner)'
+- id: B5-E-05
+  triple: 4CH1-CON-G1-TREND EXPLAINED_BY 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-E-06
+  triple: 4CH1-CON-G1-TREND REQUIRES_PREREQUISITE 4CH1-CON-G1-FAMILY-EVIDENCE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-E-07
+  triple: 4CH1-CON-G7-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-G7-PROPERTIES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-E-08
+  triple: 4CH1-CON-G7-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-G7-REACTIVITY-ECONFIG
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-E-09
+  triple: 4CH1-CON-G7-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G7-PROPERTIES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'pass-2 re-scoped to the physical-trend surface (FP-B5-5)'
+- id: B5-E-10
+  triple: 4CH1-CON-G7-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G7-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict:
+  notes: 'pass-2 re-authoring companion (FP-B5-5 — the reactivity surface)'
+- id: B5-E-11
+  triple: 4CH1-CON-G7-REACTIVITY-ECONFIG REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict:
+  notes: 'cross-boundary target (session-55 ruling; the verbatim dependency statement)'
+- id: B5-E-12
+  triple: 4CH1-MIS-CUO-COLOUR REMEDIATED_BY 4CH1-CON-CO2-FROM-CARBONATES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target (the B1-E-25 pattern)'
+- id: B5-E-13
+  triple: 4CH1-MIS-CUO-COLOUR WRONG_ANSWER_PATTERN 4CH1-CON-CO2-FROM-CARBONATES
+  pretriage: FLAGGED
+  verdict:
+  notes: 'narrow-but-exact Reject evidence (operator may rule exam-trivia)'
+- id: B5-E-14
+  triple: 4CH1-MIS-G1-SHELL-EXPLANATION REMEDIATED_BY 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target (the B1-E-25 pattern)'
+- id: B5-E-15
+  triple: 4CH1-MIS-G1-SHELL-EXPLANATION WRONG_ANSWER_PATTERN 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict:
+  notes: 'IGNORE/award-restriction evidence class (FP-B5-2 — confirm the subtype)'
+- id: B5-E-16
+  triple: 4CH1-MIS-HALOGEN-HALIDE REMEDIATED_BY 4CH1-CON-G7-DISPLACEMENT
+  pretriage: FLAGGED
+  verdict:
+  notes: 'remediation target = WAP target (the B1-E-25 pattern)'
+- id: B5-E-17
+  triple: 4CH1-MIS-HALOGEN-HALIDE WRONG_ANSWER_PATTERN 4CH1-CON-G7-DISPLACEMENT
+  pretriage: FLAGGED
+  verdict:
+  notes: 'Reject column, both conflation directions; antonym-pair attribution'
+- id: B5-E-18
+  triple: 4CH1-PR-05 REQUIRES_PREREQUISITE 4CH1-CON-O2-PERCENT-DETERMINATION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+node_verdicts:
+- id: B5-N-01
+  code: 4CH1-CON-AIR-COMPOSITION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-02
+  code: 4CH1-CON-CO2-FROM-CARBONATES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-03
+  code: 4CH1-CON-CO2-GREENHOUSE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-04
+  code: 4CH1-CON-COMBUSTION-O2
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-05
+  code: 4CH1-CON-G1-FAMILY-EVIDENCE
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-06
+  code: 4CH1-CON-G1-PREDICTION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-07
+  code: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict:
+  notes: 'sibling-split question vs the 2.8C node (B5-ID-01)'
+- id: B5-N-08
+  code: 4CH1-CON-G1-TREND
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-09
+  code: 4CH1-CON-G7-DISPLACEMENT
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-10
+  code: 4CH1-CON-G7-PREDICTION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-11
+  code: 4CH1-CON-G7-PROPERTIES
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-N-12
+  code: 4CH1-CON-G7-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict:
+  notes: 'sibling-split question vs the 2.4C node (B5-ID-01)'
+- id: B5-N-13
+  code: 4CH1-CON-O2-PERCENT-DETERMINATION
+  pretriage: LIKELY_SAFE
+  verdict:
+  notes: ''
+- id: B5-M-01
+  code: 4CH1-MIS-CUO-COLOUR
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict:
+  notes: 'narrow-but-exact Reject evidence (operator may rule exam-trivia)'
+- id: B5-M-02
+  code: 4CH1-MIS-G1-SHELL-EXPLANATION
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict:
+  notes: 'IGNORE/award-restriction evidence class (FP-B5-2 — confirm the subtype)'
+- id: B5-M-03
+  code: 4CH1-MIS-HALOGEN-HALIDE
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict:
+  notes: ''
+identity_decisions:
+- id: B5-ID-01
+  question: merge the 2.4C and 2.8C trend-explanation nodes into one electronic-configuration explanation node (opposite directions, electron loss vs gain)
+  verdict:
+- id: B5-ID-02
+  question: split the air-composition know-facts from the oxygen-percentage determination (the spec's 2.9 know vs 2.10 understand-method pair)
+  verdict:
+- id: B5-ID-03
+  question: keep the 2.14 practical un-attached (PR-05 owns it) with the practical->concept edge — or mint a determination-procedure node ON 2.14
+  verdict:
+- id: B5-ID-04
+  question: one combustion node for all three named elements (2.11) vs per-element nodes
+  verdict:
+- id: B5-ID-05
+  question: split the CO2 family — carbonate decomposition (2.12) vs greenhouse role (2.13) — keep the two-node split
+  verdict:
+- id: B5-ID-06
+  question: split the G1 family-evidence (2.1) from the G1 trend (2.2) — the spec's similarities/differences pair
+  verdict:
+held_appendix_acknowledgment:
+  acknowledged:
+  notes: ''

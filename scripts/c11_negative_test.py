@@ -180,6 +180,11 @@ def mut_07_forged_promotion(g: Path):
     # semantic edge is a batch-4 edge (sorted order: CON-BOND-BREAKING-MAKING
     # -> CON-EXO-ENDO, clean SUGGESTED awaiting the batch-4 operator gate) —
     # same corruption class.
+    # session-55 note: after the batch-5 authoring (17 authored-to-gate
+    # semantic edges, all SUGGESTED awaiting the batch-5 operator gate) the
+    # SUGGESTED surface is the 3 pilot operator HOLDs + the 17 batch-5 edges
+    # — the corruption class is unchanged (unbacked HUMAN_VALIDATED on a
+    # SUGGESTED edge).
     # session-54 note: after the batch-4 §18 application (35 promotions) the
     # only SUGGESTED semantic edges are again the 3 pilot operator HOLDs
     # (session-48/session-50/session-52 notes apply once more) — same

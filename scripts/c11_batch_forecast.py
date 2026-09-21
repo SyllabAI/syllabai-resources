@@ -22,14 +22,20 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import sys
 import yaml
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
-REPORTS = REPO / "graph" / "reports"
+# Session-55 repair (2026-09-22, dated): store paths resolve through the
+# C28 registry (post-stage-2 layout graph/igcse-chemistry/); graph/reports/
+# is unchanged.
+sys.path.insert(0, str(HERE))
+import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
+REPORTS = GP.reports_dir()
 
 dec = yaml.safe_load((HERE / "c11_pilot_decisions.yaml").read_text(encoding="utf-8"))
-graph_edges = yaml.safe_load((REPO / "graph" / "concept_edges.yaml")
+graph_edges = yaml.safe_load(GP.store("concept_edges")
                              .read_text(encoding="utf-8"))["edges"]
 promo = yaml.safe_load((HERE / "c11_promotions.yaml").read_text(encoding="utf-8"))
 
@@ -315,7 +321,20 @@ out = {
                    "decisions KEEP_AS_IS; 14 held preserved — quarantined; "
                    "verdict record scripts/c11_batch4_verdicts.yaml; "
                    "Section 3 coverage settled — S1 60 + S3 22 = 82 of 182 "
-                   "SPs); batches 5-14 not started"),
+                   "SPs); batch 5 (S2 Inorganic, FIRST slice) COMMISSIONED + "
+                   "STARTED session 55 (2026-09-22, the operator's 'run "
+                   "batch 5' directive; the S1<->S2 + S3<->S2 cross-slice "
+                   "boundary ruling recorded + machine-checked — 27 term "
+                   "matches all dispositioned, TWO sanctioned boundary "
+                   "targets; the S2 Paper-2 MS set pinned: "
+                   "GROUP1/GROUP7/GASES_MS_P2 — all three families "
+                   "covered), AUTHORED to its operator gate 2026-09-22 "
+                   "(session 55: 14 SPs 4CH1-2.1-2.14 / 16 nodes / 17 "
+                   "authored edges / 14 held / 0 RR, 3 sanctioned "
+                   "cross-section boundary edges into exactly the ruled "
+                   "owners — CON-ELECTRONIC-CONFIGURATION (batch 2, x2) "
+                   "and CON-EXO-ENDO (batch 4); awaiting its operator "
+                   "gate; batches 6-14 not started)"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,
@@ -604,6 +623,83 @@ out = {
                            "bundle; promotion_rate 1.0; store total 153). "
                            "Section 3 coverage SETTLED (S1 60 + S3 22 = 82 "
                            "of 182 SPs)."),
+        },
+        {
+            # session-55 (2026-09-22): batch-5 AUTHORED to its operator gate
+            # — the descriptive S2 slice runs lighter than the 2.4/2.75
+            # model, exactly as the item-14 plan anticipated for S2
+            # ("descriptive-heavy; expected lighter on procedures").
+            "batch_id": "c11-s16-batch-5",
+            "session": 55,
+            "commissioned": ("operator ('run batch 5', 2026-09-22, session "
+                             "55) under the session-46 §16 authorization"),
+            "scope": ("Section 2 — Inorganic Chemistry FIRST slice, 14 SPs "
+                      "(4CH1-2.1-2.14: a Group 1 Alkali Metals / b Group 7 "
+                      "Halogens / c Gases in the Atmosphere) + PR-05"),
+            "spec_points": 14,
+            "notes": 9,
+            "mark_schemes_pinned": 3,
+            "predicted": {"nodes": 33.6, "authored_edges": 38.5,
+                          "held_candidates": 14.0},
+            "actual": {"nodes": 16, "authored_edges": 17,
+                       "held_candidates": 14},
+            "delta_pct": {"nodes": -52.4, "authored_edges": -55.8,
+                          "held_candidates": 0.0},
+            "rates": {
+                "held_rate": 0.2917,
+                "rejection_rate": 0.0,
+                # authoring promotes nothing — the gate is pending
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B5-1 (trend-direction symmetry: the 2.4C/2.8C "
+                "explanations minted as SEPARATE nodes — electron loss vs "
+                "gain, opposite directions; identity decision B5-ID-01)",
+                "FP-B5-2 (misconception discipline: three MS-documented "
+                "wrong-answer patterns minted — the GROUP1 IGNORE/award "
+                "rules, the GROUP7 halogen/halide Reject column, the GASES "
+                "CuO-colour Reject column; the near-misses held, not "
+                "minted — B5-H-04/H-05/H-06)",
+                "FP-B5-3 (boundary discipline: exactly 3 sanctioned "
+                "boundary edges into 2 ruled owners; the redox-in-"
+                "displacement surface is MS-only and OD-2-incidental in "
+                "the 2.11 tip — held B5-H-08/H-11 for the operator)",
+                "FP-B5-4 (family shape: composition/determination minted "
+                "as know-facts vs method with one EXPLAINED_BY grounding "
+                "edge; the practical owns 2.14 with a practical->concept "
+                "edge — B5-ID-02/03)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -52.4% / edges -55.8% vs "
+                           "the 2.4/2.75 model — the lightest yield band so "
+                           "far (nodes/SP 1.14, edges/SP 1.21): the "
+                           "descriptive-heavy S2 families mint fewer, "
+                           "self-contained nodes (the plan's own S2 "
+                           "anticipation), and the boundary discipline "
+                           "abstains where the notes re-teach inline (the "
+                           "B5-H-02/H-03 holds). No S1/S3 identity "
+                           "re-minted — the TWO ruled targets reached via "
+                           "exactly 3 sanctioned cross-section boundary "
+                           "edges (2.4C + 2.8C -> CON-ELECTRONIC-"
+                           "CONFIGURATION; 2.11 -> CON-EXO-ENDO); 2.14 "
+                           "attaches no concept node (PR-05 owns it — the "
+                           "1.13/1.60C precedent) with the practical->"
+                           "concept edge authored. Zero RR authored; 14 "
+                           "held (the ≈1-per-SP band; every classic "
+                           "misconception without pinned documentation "
+                           "refused — the session-53 Step-3 rule); three "
+                           "misconceptions minted, all mark-scheme-"
+                           "documented (IGNORE/award-restriction, Reject "
+                           "columns). FULL batch-5 Paper-2 MS coverage (all "
+                           "three families pinned — as in batch 4). "
+                           "Section 2 candidate coverage: 14 of 50 S2 SPs "
+                           "(96 of 182 total at candidate level). "
+                           "AWAITING THE OPERATOR'S BATCH-5 VERDICT "
+                           "SESSION — fill scripts/c11_batch5_verdicts_"
+                           "template.yaml; a later session encodes + "
+                           "applies through §18."),
         },
     ],
     "future_batch_record_schema": {

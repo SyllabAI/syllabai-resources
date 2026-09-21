@@ -1,0 +1,1223 @@
+# T-C11 §16 expansion — BATCH 5 decision record — the AI candidate graph for
+# the 4CH1-2.1–2.14 slice (Section 2 — Inorganic Chemistry, first slice:
+# a Group 1 (Alkali Metals) / b Group 7 (Halogens) / c Gases in the Atmosphere)
+# + the 2.14 practical PR-05 (determine the approximate percentage by volume of
+# oxygen in air using a metal or a non-metal).
+# Authored 2026-09-22 by GLM (Super Z agent, z.ai), extraction_pass
+# c11-s16-batch-5, commissioned by the operator's "run batch 5" directive
+# (session 55) under the session-46 §16 authorization
+# (scripts/c11_s16_authorization.yaml). Batch-5 preparation (session 55) is
+# complete and machine-checked: the cross-slice boundary ruling
+# (scripts/c11_batch5_boundary_ruling.yaml — the S1<->S2 + S3<->S2 conflict
+# audit: 75 candidate terms, 27 store matches, every match dispositioned, ZERO
+# unhandled conflicts; boundary EDGES sanctioned into EXACTLY the two ruled
+# owners — 4CH1-CON-ELECTRONIC-CONFIGURATION (batch 2; 2.4C + 2.8C) and
+# 4CH1-CON-EXO-ENDO (batch 4; 2.11) — and the pinned S2-a/b/c Paper-2
+# mark-scheme set (GROUP1 / GROUP7 / GASES — PMT Unit 2 publishes exactly one
+# Paper-2 MS per batch-5 family, all three pinned, so — as in batch 4 and
+# unlike batches 1-3 — there is NO unpinned batch-5 family; Paper-1 variants
+# remain unpinned by the established Paper-2-first convention — recorded in
+# meta.ms_coverage_note, not silent).
+# This file is the batch-5 input to the SAME gated generation contract as the
+# pilot (graph/reports/C11_ARCHITECTURE.md §10):
+# scripts/c11_concept_pilot.py reads the decision-record registry (pilot,
+# batches 1, 2, 3, 4, then this record) and emits graph/concepts.yaml,
+# graph/concept_edges.yaml and graph/spec_command_kinds.yaml deterministically
+# (fail-closed). NOTHING in this record is authoritative: every record is
+# AI_SUGGESTED with validation_status SUGGESTED. HUMAN_VALIDATED is
+# unreachable from generation (anti-forgery gate). Batch-5 content becomes
+# promotable ONLY through the §18 pathway AFTER the operator records per-row
+# verdicts on this batch's review sheet (per-batch operator gate) — this
+# record ends at that gate; it authorizes nothing.
+#
+# Scope ruling (recorded, not silent): the §16 authorization binds the ≈12-SP
+# batch shape and the item-14 plan assigns S2 (50 SPs) to FOUR batches. Batch
+# 5 is therefore the FIRST S2 slice, 4CH1-2.1–2.14 (14 SPs) — chosen
+# subsection-complete (a Group 1 + b Group 7 + c Gases in the Atmosphere) so
+# no subsection straddles a batch boundary; the remaining S2 families
+# (d Reactivity series 2.15-2.21, e Extraction & uses 2.22C-2.27C, f Acids &
+# alkalis 2.28-2.43C, g Chemical tests 2.44-2.50) fall to the later S2 batches.
+# The gate report's batch-5 line ("the next slice is S2 Inorganic") and the
+# per-batch operator gate both remain satisfied; the operator can re-scope at
+# the gate with zero promotion cost (nothing is promoted before verdicts).
+#
+# Evidence quotes are whitespace-normalized substrings of the cited file under
+# the T-C10 norm() convention (NFC; strip markdown emphasis/HTML tags/links;
+# collapse whitespace) — verified byte-verbatim by the generator (G03) and by
+# graph_check (c11.4); every planned quote was probed pre-authoring
+# (scripts/c11_batch5_quote_probe.py: 105/105 green — 82 note/MS + 23 SPEC
+# probes). Anchor kinds: NOTE (T-C10-mapped revision note), SPEC
+# (specification_points.yaml official wording), MARK_SCHEME (pinned PMT
+# extraction — misconception-family evidence only, per G07/G11). Mark-scheme
+# quotes from the pinned pdftotext artifacts preserve the artifact's layout
+# (the batch-2/3/4 convention); where the pdftotext column order scrambles the
+# answer/accept/reject blocks, the attribution is by accept/reject antonym
+# pairing and is recorded in the affected node's derivation_notes (explicit,
+# not silent).
+#
+# Cross-section boundary discipline (the session-55 ruling, ratified): this
+# record mints an entirely new S2 vocabulary for the slice (the
+# machine-verified zero-unhandled-conflict audit) and sanctions boundary EDGES
+# into EXACTLY the two ruled owners — 4CH1-CON-ELECTRONIC-CONFIGURATION
+# (batch 2; the 2.4C/2.8C explanations reason in shell terms as given, and the
+# 2.8C note states the dependency verbatim) and 4CH1-CON-EXO-ENDO (batch 4;
+# the 2.11 note applies the exo/endo classification as given). Boundary
+# MINTING is forbidden: no S1/S3 identity is re-created, re-scoped or
+# re-owned. The batch-4 precedent's honesty rule is kept: a considered third
+# boundary direction — CON-COMBUSTION-O2 into 4CH1-CON-REDOX-ELECTRONS for the
+# examiner-tip "classified as oxidation reactions" line — is NOT authored (the
+# tip uses oxygen-addition oxidation, not the electron-transfer definition the
+# S1 node owns; OD-2) and the GROUP7_MS redox-in-displacement surface is
+# mark-scheme-only (G07 misconception-class restriction) — both recorded in
+# the ruling's match_dispositions and in held B5-H-08/B5-H-11 rather than
+# silently authored beyond the audited set.
+#
+# Misconception discipline (the session-53 Step-3 rule, applied exactly): a
+# misconception node is minted ONLY where a pinned source documents the wrong
+# answer. The batch-5 pins document exactly three such patterns — the GROUP1
+# MS award restrictions (IGNORE more-shells/larger-radius/shielding
+# explanations; "if no reference to nucleus or protons, then neither M3 nor M4
+# can be awarded"), the GROUP7 MS Reject column (halogen/halide reactivity
+# conflation) and the GASES MS Reject column (any colour other than black for
+# copper(II) oxide; IGNORE brown). The four CLASSIC candidates refused at
+# batch 4 for missing documentation have no batch-5 analogue with fresh
+# documentation; the near-misses are held (B5-H-04 over-ticking list rule —
+# exam technique; B5-H-06 displacement-colour swap — pdftotext
+# column-scrambled reject attribution), not minted.
+#
+# The frozen pilot, batch-1, batch-2, batch-3 and batch-4 dispositions are
+# untouched by this record: E-08/E-26/E-29 (operator HOLD edges), both RR
+# edges (pilot operator HOLD + batch-1 operator-settled HOLD_REVIEW_REQUIRED),
+# HELD-01..13, B1-H-01..12, B2-H-01..10, B3-H-01..14, B4-H-01..14, the 153
+# operator promotions (28 + 28 + 23 + 39 + 35), the T-C19 G19 attachment
+# promotions (117 PART_OF rows), and the 4CH1-4.15 negative control. No
+# batch-5 node attaches to 4.15; no batch-5 edge re-uses an earlier-record
+# identity.
+
+meta:
+  task: T-C11
+  stage: s16-batch-5
+  extraction_pass: c11-s16-batch-5
+  generated_date: '2026-09-22'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  commissioned_by: 'operator directive (verbatim: "run batch 5") under the
+    session-46 §16 authorization; the gate report names the slice ("the next
+    slice is S2 Inorganic (batch 5 — needs its own cross-slice boundary
+    ruling: S1<->S2 + S3<->S2)")'
+  scope:
+    spec_points:
+    - 4CH1-2.1
+    - 4CH1-2.2
+    - 4CH1-2.3
+    - 4CH1-2.4C
+    - 4CH1-2.5
+    - 4CH1-2.6
+    - 4CH1-2.7
+    - 4CH1-2.8C
+    - 4CH1-2.9
+    - 4CH1-2.10
+    - 4CH1-2.11
+    - 4CH1-2.12
+    - 4CH1-2.13
+    - 4CH1-2.14
+    practicals:
+    - 4CH1-PR-05
+    negative_control: 4CH1-4.15
+    notes:
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Greenhouse effect - IGCSE Chemistry Revision Notes.md"
+    mark_scheme_evidence:
+    - file: scripts/c11_evidence/GROUP1_MS_P2.txt
+      sha1_12: 7c27bbfc09cd
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 2/Mark Schemes/Paper 2/Group 1 (Alkali Metals) - Lithium, Sodium, Potassium MS.pdf"
+    - file: scripts/c11_evidence/GROUP7_MS_P2.txt
+      sha1_12: 10edeea32c73
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 2/Mark Schemes/Paper 2/Group 7 (Halogens) - Chlorine, Bromine, Iodine MS.pdf"
+    - file: scripts/c11_evidence/GASES_MS_P2.txt
+      sha1_12: c65669a9c763
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 2/Mark Schemes/Paper 2/Gases in the Atmosphere MS.pdf"
+  ms_coverage_note: 'Full batch-5 Paper-2 coverage: PMT Unit 2 publishes exactly one Paper-2
+    MS per batch-5 family (Group 1 (Alkali Metals), Group 7 (Halogens), Gases in
+    the Atmosphere) and ALL THREE are pinned, so — as in batch 4 — there is no
+    batch-5 family without pinned mark-scheme evidence. Paper-1 variants (Group
+    1, Group 7 1/2, Gases in the Atmosphere) exist and remain unpinned per the
+    Paper-2-first convention batches 2-4 established; a future evidence pass
+    can extend them. The GROUP1 pinned MS carries two award-restriction classes
+    (the Q1d/Q3d electronic-configuration IGNORE/award rules) and the GROUP7/GASES
+    pins carry Reject-column classes (halogen/halide conflation; CuO colour),
+    which is the misconception-mining surface for this batch — recorded here,
+    not silently assumed.'
+  contract: graph/reports/C11_ARCHITECTURE.md
+  authorization: scripts/c11_s16_authorization.yaml
+  boundary_ruling: scripts/c11_batch5_boundary_ruling.yaml
+  session: 55
+
+# ---------------------------------------------------------------------------
+# Command-kind tags (frozen guide §8) — batch-5 slice only (registry of record:
+# graph/spec_command_kinds.yaml, merged with the earlier tags by the generator).
+command_kinds:
+- code: 4CH1-2.1
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how the SIMILARITIES in the reactions of lithium, sodium and potassium with water provide evidence for their recognition as one family of elements (the shared metal-hydroxide + hydrogen pattern, alkaline solutions formed)
+- code: 4CH1-2.2
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'how the DIFFERENCES between the reactions of the first three alkali metals with air and water provide evidence for the reactivity trend in Group 1 (vigour increasing down the group: fizzing/movement for Li, rapid movement and dissolving for Na, lilac flame for K; tarnishing faster down the group)'
+- code: 4CH1-2.3
+  verb: use
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'using the Group 1 trends to predict properties of other alkali metals (rubidium, caesium, francium: more vigorous reactions with air and water; lithium least / francium most reactive; soft grey solid, shiny when freshly cut, denser and lower-melting than potassium)'
+- code: 4CH1-2.4C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: the Group 1 reactivity trend in terms of electronic configurations (one outer electron lost to form 1+ ions; shells increase down the group so the outer electron is further from the nucleus, attraction weakens, less energy is needed to lose it — more reactive down the group)
+- code: 4CH1-2.5
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the colours, physical states at room temperature and trends in physical properties of the halogens (fluorine yellow gas, chlorine pale yellow-green gas, bromine red-brown liquid, iodine grey solid; MP/BP increase and states go gas-liquid-solid and colours darken down the group; diatomic molecules)
+- code: 4CH1-2.6
+  verb: use
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: using the Group 7 trends to predict properties of other halogens (reactivity decreases down the group; metal halides via the -1 halide ion and metal valency; non-metal hydrogen halides; slower/less vigorous reactions further down)
+- code: 4CH1-2.7
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how halogen/halide displacement reactions provide evidence for the Group 7 reactivity trend (a more reactive halogen displaces a less reactive halogen from its halide solution; chlorine displaces bromine and iodine, bromine displaces iodine; orange/brown product colours)
+- code: 4CH1-2.8C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: the Group 7 reactivity trend in terms of electronic configurations (seven outer electrons, halide -1 ions formed by GAINING an electron; shells increase down the group so the outer shell is further from the nucleus, attraction weakens, gaining an electron is harder — less reactive down the group; fluorine most reactive)
+- code: 4CH1-2.9
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the approximate percentages by volume of the four most abundant gases in dry air (nitrogen ~80%, oxygen ~20%, argon ~1%, carbon dioxide ~0.04%)
+- code: 4CH1-2.10
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how to determine the percentage by volume of oxygen in air using metal (iron wool in a burette) or non-metal (phosphorus in a bell jar) reactions with a fixed volume of air (oxygen consumed, water rises, initial/final volumes, percentage calculation)
+- code: 4CH1-2.11
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the combustion of elements in oxygen for magnesium, hydrogen and sulfur (intense white flame / white MgO powder; exothermic, water produced; blue flame / colourless poisonous SO2 gas — with the symbol equations; combustion always exothermic, classifiable as oxidation)
+- code: 4CH1-2.12
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the formation of carbon dioxide from thermal decomposition of metal carbonates, including copper(II) carbonate (metal carbonate -> metal oxide + CO2 on heating; green CuCO3 darkens to black CuO; CO2 tested with limewater turning milky)
+- code: 4CH1-2.13
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that carbon dioxide is a greenhouse gas and that increasing atmospheric amounts may contribute to climate change (greenhouse gases maintain Earth's temperature; CO2 sources include combustion of fuels and thermal decomposition of carbonates)
+- code: 4CH1-2.14
+  verb: determine
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the practical determination of the approximate percentage of oxygen in air using a metal or a non-metal (the iron-wool burette method: 3-4 days, water level rise, initial/final air volumes, volume of oxygen, percentage = oxygen/initial x 100 ~ 20%)'
+
+# ---------------------------------------------------------------------------
+# Nodes — CONCEPT family (split-first identity policy, §8; OD-1 operand rule
+# applied; no earlier-record identity re-minted — the session-55 cross-slice
+# boundary ruling's dispositioned audit; 2.14 attaches NO concept node: the
+# practical owns it, the 1.13/1.60C/3.8/3.15/3.16 precedent).
+nodes:
+- code: 4CH1-CON-G1-FAMILY-EVIDENCE
+  family: CONCEPT
+  title: Group 1 water-reaction similarities as family evidence (alkali metals)
+  aliases: [alkali metals family, Group 1 family, family of elements, alkali metal reactions with water]
+  spec_points:
+  - code: 4CH1-2.1
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "The reaction of the Group 1 metals with water provides evidence for categorising these elements into the same chemical family"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "They form alkaline solutions when they react with water"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "Group 1 metal + water ⟶ metal hydroxide + hydrogen"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the similarities in the reactions of these elements with water provide evidence for their recognition as a family of elements"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.1 relation demand: the water-reaction similarity AS EVIDENCE of family membership (the shared metal-hydroxide + hydrogen pattern, the alkaline solutions, the shared general equation 2M + 2H2O -> 2MOH + H2). One SP-family node; the physical-property context (soft, low density, low MP) is note context, not the demanded evidence.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.1 @ Group 1 reactivity & trends (2026-09-11); spec 4CH1-2.1 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G1-TREND
+  family: CONCEPT
+  title: Group 1 reactivity trend from air/water reaction differences
+  aliases: [Group 1 reactivity trend, trend in reactivity in Group 1, alkali metals trend]
+  spec_points:
+  - code: 4CH1-2.2
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "The differences between the reactions of the group 1 metals with water and oxygen provide evidence of trends within the group"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "The reactions of the alkali metals with water get more vigorous as you descend the group"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "The metal tarnish more rapidly as you go down the group"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "the differences between the reactions of these elements with air and water provide evidence for the trend in reactivity in Group 1"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.2 relation demand: the trend AS EVIDENCED BY the graded differences (Li fizzing/moving, Na more vigorous, K lilac flame; tarnishing faster down the group). One SP-family node; the observation table is the evidence surface (the GROUP1_MS Q1b/Q3a observation accept-lists mine the same surface).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.2 @ Group 1 reactivity & trends (2026-09-11); spec 4CH1-2.2 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G1-PREDICTION
+  family: CONCEPT
+  title: Predicting alkali-metal properties from Group 1 trends
+  aliases: [predicting properties in Group 1, predicting alkali metal properties, rubidium caesium francium predictions]
+  spec_points:
+  - code: 4CH1-2.3
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "Following these trends, we can say that:"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "Rubidium, caesium and francium will react even more vigorously with air and water than the first three alkali metals"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+      quote: "Of the alkali metals, lithium is the least reactive (as it is at the top of Group 1) and francium would be the most reactive (as it’s at the bottom of Group 1)"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "use knowledge of trends in Group 1 to predict the properties of other alkali metals"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.3 application demand: the dedicated Predicting-properties section (the T-C10 mapping quoted heading) — the predictions for Rb/Cs/Fr operate on the taught trends as given ("Following these trends"); one SP-family node at the CON-G7-PREDICTION granularity.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.3 @ Group 1 reactivity & trends (2026-09-11); spec 4CH1-2.3 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  family: CONCEPT
+  title: Group 1 reactivity trend explained by electronic configurations
+  aliases: [Group 1 reactivity electronic configuration, why Group 1 reactivity increases down the group, outer electron lost more easily]
+  spec_points:
+  - code: 4CH1-2.4C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "As you go down Group 1, the number of shells of electrons increases by 1"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "This means that the outermost electron gets further away from the nucleus, so there are weaker forces of attraction between the outermost electron and the nucleus"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Less energy is required to overcome the force of attraction as it gets weaker, so the outer electron is lost more easily"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "explain the trend in reactivity in Group 1 in terms of electronic configurations"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.4C explanation demand (Paper 2 only): the shell-distance mechanism (outer electron further from the nucleus -> weaker attraction -> lost more easily -> more reactive). SEPARATE from the 2.8C sibling node: electron LOSS vs electron GAIN, opposite trend directions, distinct SPs (the B5-ID-01 identity decision; the CON-ACTIVATION-ENERGY/CON-REACTION-PROFILE dual-node precedent for concept-vs-concept splits). The GROUP1_MS Q1d/Q3d award rules mine the same surface (the shielding IGNORE class is the held misconception B5-M-01''s evidence).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.4C @ Group 1 Reactivity & Electronic Configurations (2026-09-11); spec 4CH1-2.4C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G7-PROPERTIES
+  family: CONCEPT
+  title: Halogen colours, states and physical-property trends (Group 7)
+  aliases: [halogens, Group 7 properties, halogen colours and states, diatomic halogens]
+  spec_points:
+  - code: 4CH1-2.5
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "At room temperature, the halogens exist in different states and colours, with different characteristics"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "The melting and boiling points of the halogens increase as you go down the group"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "The colours of the halogens also change as you descend the group - they become darker"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know the colours, physical states (at room temperature) and trends in physical properties of these elements"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.5 recall demand: the property table (fluorine yellow gas, chlorine pale yellow-green gas, bromine red-brown liquid, iodine grey solid), the colour-in-solution column (the displacement-observation surface), the MP/BP + state + colour trends, and the diatomic molecule fact. One SP-family node (the diatomic/covalent-bond content is taught inline by the note — the B5-H-02 re-teach hold, no boundary edge).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.5 @ Group 7 properties (2026-09-11); spec 4CH1-2.5 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G7-PREDICTION
+  family: CONCEPT
+  title: Predicting halogen properties from Group 7 trends (metal and non-metal halides)
+  aliases: [predicting properties in Group 7, predicting halogen properties, metal halides, hydrogen halides]
+  spec_points:
+  - code: 4CH1-2.6
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "The halogens react with some metals to form ionic compounds which are metal halide salts"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "The halogens decrease in reactivity moving down the group, but they still form halide salts with some metals including iron"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "the halogens react with hydrogen to form hydrogen halides"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "use knowledge of trends in Group 7 to predict the properties of other halogens"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.6 application demand: the metal-halide family (-1 halide ion, valency-driven formulae, the 2Na/Cl2 and Ca/Br2 worked forms) and the non-metal hydrogen-halide family with the reactivity-decrease vigour gradient. The halide/valency/ionic reasoning is taught inline by the note (the B5-H-03 re-teach hold — no boundary edge into the S1 ionic owners).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.6 @ Group 7 properties (2026-09-11); spec 4CH1-2.6 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G7-DISPLACEMENT
+  family: CONCEPT
+  title: Halogen displacement reactions (evidence for the Group 7 reactivity trend)
+  aliases: [displacement reactions, halogen displacement, halogen displacement reactions, chlorine displaces bromine iodine]
+  spec_points:
+  - code: 4CH1-2.7
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "A halogen displacement reaction occurs when a more reactive halogen displaces a less reactive halogen from an aqueous solution of its halide"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "The solution becomes orange as bromine is formed or"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+      quote: "The solution becomes brown as iodine is formed"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "displacement reactions involving halogens and halides provide evidence for the trend in reactivity in Group 7"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.7 relation demand: the displacement rule (more reactive displaces less reactive from the halide solution), the Cl>Br>I set (Cl + KBr/KI; Br + KI) and the product-colour identifications (orange bromine, brown iodine). One SP-family node; the GROUP7_MS Q1 Reject column (halogen/halide reactivity conflation) mines the same surface (MIS-HALOGEN-HALIDE).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.7 @ Group 7 properties (2026-09-11); spec 4CH1-2.7 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-G7-REACTIVITY-ECONFIG
+  family: CONCEPT
+  title: Group 7 reactivity trend explained by electronic configurations
+  aliases: [Group 7 reactivity electronic configuration, why halogen reactivity decreases down the group, halide ion formation electron gain]
+  spec_points:
+  - code: 4CH1-2.8C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity - IGCSE Chemistry Revision Notes.md"
+      quote: "We can use electronic configuration to explain the trends in chemical reactivity down Group 7"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity - IGCSE Chemistry Revision Notes.md"
+      quote: "This means that the increased distance from the outer shell to the nucleus as you go down a group makes the halogens become less reactive"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity - IGCSE Chemistry Revision Notes.md"
+      quote: "This makes it harder for the atoms to gain electrons as you descend the group"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "explain the trend in reactivity in Group 7 in terms of electronic configurations"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.8C explanation demand (Paper 2 only): the electron-GAIN mechanism (seven outer electrons, -1 halide ions; increased shell distance weakens attraction, harder to gain an electron, less reactive down the group; fluorine most reactive). SEPARATE from the 2.4C sibling node (opposite direction, gain vs loss — the B5-ID-01 identity decision). The note states the explanatory dependency on electronic configuration VERBATIM (the sanctioned boundary edge''s own evidence line).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.8C @ Group 7 reactivity (2026-09-11); spec 4CH1-2.8C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-AIR-COMPOSITION
+  family: CONCEPT
+  title: Composition of dry air (approximate percentages of the four most abundant gases)
+  aliases: [composition of air, composition of the atmosphere, percentages of gases in air, dry air composition]
+  spec_points:
+  - code: 4CH1-2.9
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md"
+      quote: "About four-fifths (approximately 80%) nitrogen"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md"
+      quote: "about one fifth (approximately 20%) oxygen"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md"
+      quote: "small proportions of other gases including carbon dioxide, water vapour and trace quantities of the noble gases"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know the approximate percentages by volume of the four most abundant gases in dry air"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.9 recall demand: the four-gas composition (N2 ~80%, O2 ~20%, argon ~1%, CO2 ~0.04% — the note carries the N2/O2 fractions and the other-gases clause; the GASES_MS Q2 nitrogen/20%/argon/water answers mine the same surface). One SP-family node; the noble-gases mention is composition furniture (the ruling''s OD-2 disposition, B5-H-14).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.9 @ Composition of air (2026-09-11); spec 4CH1-2.9 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-O2-PERCENT-DETERMINATION
+  family: CONCEPT
+  title: Determining the percentage of oxygen in air (metal and non-metal routes)
+  aliases: [percentage of oxygen in air, oxygen percentage determination, phosphorus bell jar experiment, iron wool burette experiment]
+  spec_points:
+  - code: 4CH1-2.10
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md"
+      quote: "The percentage of oxygen in air can be found by reacting a metal or non-metal with the oxygen in a fixed volume of air"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition of air - IGCSE Chemistry Revision Notes.md"
+      quote: "As the phosphorus burns it uses up the oxygen inside the bell jar and the water level rises"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+      quote: "percentage of oxygen = 19.7%"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "understand how to determine the percentage by volume of oxygen in air using experiments involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.10 method demand: the determination family — the phosphorus bell-jar route (non-metal) and the iron-wool burette route (metal), with the oxygen-consumed/water-rise measurement and the initial/final-volume percentage calculation. Both mapped notes carry it (the Composition note the phosphorus route; the Oxygen-percentage note the iron route + the worked 19.7% calculation). The practical SP 2.14 is owned by 4CH1-PR-05 (no concept attachment — the 1.13/1.60C precedent, B5-ID-03).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.10 @ Composition of air (2026-09-11); T-C10 HUMAN_VALIDATED 4CH1-2.10 @ Oxygen percentage in air (2026-09-11); spec 4CH1-2.10 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-COMBUSTION-O2
+  family: CONCEPT
+  title: Combustion of elements in oxygen (magnesium, hydrogen, sulfur)
+  aliases: [combustion, burning in oxygen, combustion of magnesium, combustion of hydrogen, combustion of sulfur]
+  spec_points:
+  - code: 4CH1-2.11
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "All combustion reactions involve a chemical change in which oxygen reacts with elements or compounds to produce oxides"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "You need to be able to describe the combustion reactions of magnesium, hydrogen and sulfur"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Intense white flame"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Colourless, poisonous gas produced"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "describe the combustion of elements in oxygen, including magnesium, hydrogen and sulfur"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.11 describe demand: the combustion family definition (oxygen reacts with elements/compounds -> oxides) and the three named elements with observations and symbol equations (Mg: intense white flame, white MgO powder; H2: exothermic, water produced; S: blue flame, colourless poisonous SO2). One SP-family node (the note''s single table — the CON-EXO-ENDO term-pair granularity, B5-ID-04); the always-exothermic classification line is the sanctioned boundary edge''s evidence; the oxidation-reclassification Examiner Tip is OD-2 incidental (B5-H-11).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.11 @ Combustion (2026-09-11); spec 4CH1-2.11 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-CO2-FROM-CARBONATES
+  family: CONCEPT
+  title: Carbon dioxide from thermal decomposition of metal carbonates
+  aliases: [thermal decomposition of metal carbonates, carbon dioxide from carbonates, copper(II) carbonate decomposition]
+  spec_points:
+  - code: 4CH1-2.12
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+      quote: "Carbonates of metals from the lower half of the reactivity series tend to decompose on heating to produce the metal oxide and carbon dioxide gas:"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+      quote: "Copper(II) carbonate is a green powder and slowly darkens as black copper(II) oxide is produced"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+      quote: "The carbon dioxide given off can be tested by passing the gas through limewater and looking for it to turn milky"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "describe the formation of carbon dioxide from the thermal decomposition of metal carbonates, including copper(II) carbonate"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.12 describe demand: the decomposition family (metal carbonate -> metal oxide + CO2 on heating), the named copper(II) carbonate example (green -> black colour change, CuCO3 -> CuO + CO2) and the limewater product test. The reactivity-series placement clause is a future-boundary surface (S2-d owner does not exist yet — the ruling''s future_boundary_notes, B5-H-10); the limewater test is taught inline (2.44 future family — B5-H-09); the GASES_MS Q1c CuO-colour Reject class mines the example (MIS-CUO-COLOUR).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.12 @ Thermal decomposition (2026-09-11); spec 4CH1-2.12 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-CO2-GREENHOUSE
+  family: CONCEPT
+  title: Carbon dioxide as a greenhouse gas and the climate-change link
+  aliases: [greenhouse gas, greenhouse effect, carbon dioxide greenhouse, climate change]
+  spec_points:
+  - code: 4CH1-2.13
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Greenhouse effect - IGCSE Chemistry Revision Notes.md"
+      quote: "Greenhouse gases maintain the temperatures on Earth high enough to support life"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Greenhouse effect - IGCSE Chemistry Revision Notes.md"
+      quote: "Increasing amounts of carbon dioxide in the atmosphere may contribute to climate change"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.13 recall demand: CO2 as a named greenhouse gas (with methane and water vapour), the greenhouse-effect role and the increasing-amounts/climate-change link (the note''s CO2-sources section — combustion of fuels, respiration, carbonate decomposition/acids — is context; the carbonate-source listing is an OD-2 association held at B5-H-07, not an edge into the 2.12 family).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.13 @ Greenhouse effect (2026-09-11); spec 4CH1-2.13 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-MIS-G1-SHELL-EXPLANATION
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Explaining Group 1 reactivity via more shells / larger radius / shielding instead of outer-electron distance and weaker attraction
+  aliases: [shielding explanation Group 1, more shells answer, larger atomic radius answer]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP1_MS_P2.txt
+    quote: "IGNORE references to more shells / larger atomic radius / more"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP1_MS_P2.txt
+    quote: "Ignore references to shielding"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP1_MS_P2.txt
+    quote: "If no reference to nucleus or protons, then neither M3"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned GROUP1 Paper-2 MS documents the wrong-answer class TWICE: Q1d "IGNORE references to more shells / larger atomic radius / more shielding / more screening" and Q3d "Ignore references to shielding", plus the award restriction "If no reference to nucleus or protons, then neither M3 nor M4 can be awarded" — students who explain the trend by shell COUNT or shielding instead of the outer-electron distance + weaker-attraction mechanism score nothing on the explanation marks (the pdftotext layout splits the Q1d IGNORE line across a column break; the attribution is by the contiguous IGNORE phrase and is recorded here, not silent).'
+    upstream: 'pinned GROUP1_MS_P2 (sha1_12 7c27bbfc09cd) Q1d + Q3d award rules; spec 4CH1-2.4C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "This means that the outermost electron gets further away from the nucleus, so there are weaker forces of attraction between the outermost electron and the nucleus"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Less energy is required to overcome the force of attraction as it gets weaker, so the outer electron is lost more easily"
+- code: 4CH1-MIS-HALOGEN-HALIDE
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Treating a halogen and its halide ion as having the same (or different) reactivity in displacement reasoning
+  aliases: [halogen halide conflation, halide reactivity answer, same reactivity as a halide]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP7_MS_P2.txt
+    quote: "Reject any references to a halogen"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP7_MS_P2.txt
+    quote: "a halogen/an element cannot displace itself"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP7_MS_P2.txt
+    quote: "a halogen cannot displace a more reactive halogen"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned GROUP7 Paper-2 MS Q1bii Reject column documents the wrong-answer class: "Reject any references to a halogen having the same reactivity as a halide (ion)" AND "Reject any references to a halogen having a different reactivity to a halide (ion)" — both conflation directions are REJECTED (the expected answer is the displacement rule: a halogen cannot displace itself / cannot react with the ions of a more reactive halogen). The pdftotext column order interleaves the two Reject entries with the Accept alternatives; the attribution is by the Reject/Accept antonym pairing and is recorded here, not silent (the batch-4 RRE convention).'
+    upstream: 'pinned GROUP7_MS_P2 (sha1_12 10edeea32c73) Q1bii Reject column; spec 4CH1-2.7 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "A halogen displacement reaction occurs when a more reactive halogen displaces a less reactive halogen from an aqueous solution of its halide"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP7_MS_P2.txt
+    quote: "a halogen/an element cannot displace itself"
+- code: 4CH1-MIS-CUO-COLOUR
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Stating a colour other than black for the copper(II) oxide decomposition product
+  aliases: [copper oxide colour error, CuO colour, brown copper oxide answer]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GASES_MS_P2.txt
+    quote: "black"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GASES_MS_P2.txt
+    quote: "REJECT all other colours"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GASES_MS_P2.txt
+    quote: "IGNORE brown"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned GASES Paper-2 MS Q1c documents the wrong-answer class for the copper(II) oxide colour answer: the expected answer "black" with "IGNORE brown / REJECT all other colours" — students naming any other colour (including the common brown confusion with copper metal/rust surfaces) score nothing (the pdftotext layout places the IGNORE/REJECT notes in the Notes column; the attribution is by the column''s adjacency to the black answer and is recorded here, not silent).'
+    upstream: 'pinned GASES_MS_P2 (sha1_12 c65669a9c763) Q1c Notes column; spec 4CH1-2.12 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+    quote: "Copper(II) carbonate is a green powder and slowly darkens as black copper(II) oxide is produced"
+
+# ---------------------------------------------------------------------------
+# Edges (authored semantic edges — all SUGGESTED, zero RR: every doubt held
+# or resolved on explicit evidence, the batch-2/3/4 authoring discipline).
+# Boundary edges: EXACTLY the two sanctioned targets, one per ruled SP.
+edges:
+- source: 4CH1-CON-G1-TREND
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-G1-FAMILY-EVIDENCE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+    quote: "The differences between the reactions of the group 1 metals with water and oxygen provide evidence of trends within the group"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+    quote: "The reactions of the alkali metals with water get more vigorous as you descend the group"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The trend is DEFINED over the family reaction comparisons: "the differences between the reactions ... provide evidence of trends" — the 2.2 trend is the graded pattern OF the 2.1 water/oxygen reactions (the vigour gradient is stated over the same reactions the family node owns); the spec''s own 2.1-then-2.2 order (similarities evidence, then differences evidence).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.1/2.2 @ Group 1 reactivity & trends (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G1-PREDICTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-G1-TREND
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 reactivity & trends - IGCSE Chemistry Revision Notes.md"
+    quote: "Following these trends, we can say that:"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The prediction section operates on the taught trends AS GIVEN ("Following these trends, we can say that: ...") — the trends are never re-derived in the prediction section; the spec''s own use-demand (2.3 "use knowledge of trends") presupposes the 2.2 trend.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.3 @ Group 1 reactivity & trends (2026-09-11); target node owned by this record (4CH1-2.2)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G1-TREND
+  relation: EXPLAINED_BY
+  target: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Less energy is required to overcome the force of attraction as it gets weaker, so the outer electron is lost more easily"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "So, the alkali metals get more reactive as you descend the group"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING
+    derivation_notes: 'The 2.4C note teaches the causal chain IN ONE SOURCE (shells increase -> outer electron further -> weaker attraction -> lost more easily -> "So, the alkali metals get more reactive as you descend the group") — the trend is the explanandum, the electronic-configuration mechanism the explainer (the batch-4 RATE-FACTORS EXPLAINED_BY COLLISION-THEORY shape).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.4C @ Group 1 Reactivity & Electronic Configurations (2026-09-11); source node owned by this record (4CH1-2.2)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "As you go down Group 1, the number of shells of electrons increases by 1"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-55 ruling — owner 4CH1-CON-ELECTRONIC-CONFIGURATION, batch 2): the 2.4C explanation reasons wholly in shell terms (shell diagrams, "the number of shells of electrons increases by 1", "noble gas configuration") using the electronic-configuration framework AS GIVEN — the note never re-teaches shell filling (the 2.4C note''s own shell-diagram caption points at the taught configurations). No S1 identity is re-minted.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.4C @ Group 1 Reactivity & Electronic Configurations (2026-09-11); target node owned by the batch-2 record (4CH1-1.39/1.40); session-55 boundary ruling sanctioned target'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G7-PREDICTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-G7-PROPERTIES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "The melting and boiling points of the halogens increase as you go down the group"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "At room temperature (20 °C), the physical state of the halogens changes as you go down the group"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The prediction sections extend the taught PHYSICAL trends AS GIVEN (the MP/BP increase, the gas-liquid-solid state progression, the darkening colours — the 2.5 table) to the unknown halogens without re-deriving them; the spec''s own use-demand (2.6 "use knowledge of trends"). Pass-2 re-authoring (FP-B5-5): this edge originally cited the reactivity-decrease sentence, whose trend owner is the 2.8C node — that dependency is now its own edge below; the physical-trend surface stays here.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.5/2.6 @ Group 7 properties (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G7-PREDICTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-G7-REACTIVITY-ECONFIG
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "The halogens decrease in reactivity moving down the group, but they still form halide salts with some metals including iron"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "The rate of reaction is slower for halogens which are further down the group such as bromine and iodine"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The prediction sections operate on the taught REACTIVITY trend AS GIVEN (the decrease down the group, the slower/less vigorous reactions further down — stated in the metal-halide and non-metal-halide prediction sections themselves) — the trend owner is the 2.8C node (its evidence states the trend AND explains it); the pass-2 re-authoring (FP-B5-5) moved this dependency off the mistargeted properties edge.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.6 @ Group 7 properties + 4CH1-2.8C @ Group 7 reactivity (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G7-DISPLACEMENT
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-G7-REACTIVITY-ECONFIG
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "A halogen displacement reaction occurs when a more reactive halogen displaces a less reactive halogen from an aqueous solution of its halide"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Displacement is DEFINED over the reactivity order ("a MORE reactive halogen displaces a LESS reactive halogen") — the definitional operands are exactly the Group 7 reactivity trend the 2.8C node owns (its evidence states the trend AND explains it; the spec''s own 2.7 demand is the displacement family AS EVIDENCE for that trend). The batch-4 BOND-ENERGY-CALC -> BOND-BREAKING-MAKING definitional shape.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.7 @ Group 7 properties + 4CH1-2.8C @ Group 7 reactivity (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G7-DISPLACEMENT
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-G7-PROPERTIES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "The solution becomes orange as bromine is formed or"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "The solution becomes brown as iodine is formed"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The displacement observations IDENTIFY the displaced halogen BY the taught colour-in-solution facts (orange = bromine, brown = iodine — the 2.5 property table''s Colour-in-solution column) without re-teaching them — identifying WHAT formed from the colour requires the 2.5 knowledge (the GROUP7_MS Q3 observation accept/reject lists mine the same surface).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.5/2.7 @ Group 7 properties (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-G7-REACTIVITY-ECONFIG
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTRONIC-CONFIGURATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity - IGCSE Chemistry Revision Notes.md"
+    quote: "We can use electronic configuration to explain the trends in chemical reactivity down Group 7"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-55 ruling — owner 4CH1-CON-ELECTRONIC-CONFIGURATION, batch 2): the note states the dependency VERBATIM ("We can use electronic configuration to explain the trends...") and reasons in shell terms AS GIVEN (seven outer electrons, shells increasing down the group) — never re-teaching shell filling. No S1 identity is re-minted.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.8C @ Group 7 reactivity (2026-09-11); target node owned by the batch-2 record (4CH1-1.39/1.40); session-55 boundary ruling sanctioned target'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-AIR-COMPOSITION
+  relation: EXPLAINED_BY
+  target: 4CH1-CON-O2-PERCENT-DETERMINATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    quote: "percentage of oxygen = 19.7%"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    quote: "The oxygen takes up approximately 20% of the air"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING
+    derivation_notes: 'The determination procedure DERIVES the composition value IN ONE SOURCE: the iron-wool note runs method -> initial/final volumes -> volume of oxygen -> "percentage of oxygen = 19.7%" -> conclusion "The oxygen takes up approximately 20% of the air" — the ~20% oxygen fact the composition node owns is grounded by the determination (the composition note itself states it as given). Direction: the procedure grounds the fact, not the reverse (the batch-4 EXPLAINED_BY grounding shape).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.10 @ Oxygen percentage in air + 4CH1-2.9 @ Composition of air (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-COMBUSTION-O2
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EXO-ENDO
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Combustion  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Combustion reactions give out heat, so they will always be exothermic reactions"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-55 ruling — owner 4CH1-CON-EXO-ENDO, batch 4): the 2.11 note APPLIES the exo/endo classification as given ("give out heat, so they will always be exothermic reactions") without re-teaching it — the classification term is the predicate of the combustion family statement (the session-52 ruling sanctioned CON-EXO-ENDO as the S3 boundary owner; the S2 boundary reuses the SAME owner, no re-mint).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.11 @ Combustion (2026-09-11); target node owned by the batch-4 record (4CH1-3.1); session-55 boundary ruling sanctioned target'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-PR-05
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-O2-PERCENT-DETERMINATION
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    quote: "To determine the percentage of oxygen in air using the oxidation of iron"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    quote: "percentage of oxygen ="
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical -> conceptual (the pilot test #5 requirement, the PR-09 -> CON-CALORIMETRY batch-4 shape): the 2.14 practical IS the iron-route INSTANCE of the 2.10 determination — its aim, method, results, calculation and conclusion sections run the determination procedure (aim "To determine the percentage of oxygen in air using the oxidation of iron"; the percentage calculation "percentage of oxygen = volume of oxygen / initial volume of air x 100"); the practical presupposes the determination concept the 2.10 node owns.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.14/2.10 @ Oxygen percentage in air (2026-09-11); practicals.yaml 4CH1-PR-05 (spec_point 4CH1-2.14)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-G1-SHELL-EXPLANATION
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP1_MS_P2.txt
+    quote: "IGNORE references to more shells / larger atomic radius / more"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned GROUP1 MS documents the wrong-answer pattern OF the 2.4C explanation concept: shell-count/larger-radius/shielding explanations are explicitly non-scoring (Q1d IGNORE list + Q3d "Ignore references to shielding" + the nucleus/protons award restriction).'
+    upstream: 'pinned GROUP1_MS_P2 (sha1_12 7c27bbfc09cd) Q1d/Q3d; spec 4CH1-2.4C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-G1-SHELL-EXPLANATION
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Less energy is required to overcome the force of attraction as it gets weaker, so the outer electron is lost more easily"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25/batch-2/3/4 pattern): the corrective content IS the taught distance+attraction mechanism (the 2.4C note''s mechanism statements, quoted in the node''s remediation_evidence) — the exact form the MS award rules reward ("potassium loses its outer/valence electron more easily/readily" + "because it is further from (the attraction of) nucleus").'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.4C @ Group 1 Reactivity & Electronic Configurations (2026-09-11); pinned GROUP1_MS_P2 Q1d accept surface'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-HALOGEN-HALIDE
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-G7-DISPLACEMENT
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GROUP7_MS_P2.txt
+    quote: "Reject any references to a halogen"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned GROUP7 MS Q1bii Reject column documents the wrong-answer pattern OF the displacement concept: reasoning about a halogen''s reactivity relative to a HALIDE ION (either direction) is explicitly rejected — the displacement rule operates halogen-vs-halogen through its halide solution.'
+    upstream: 'pinned GROUP7_MS_P2 (sha1_12 10edeea32c73) Q1bii Reject column; spec 4CH1-2.7 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-HALOGEN-HALIDE
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-G7-DISPLACEMENT
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 properties - IGCSE Chemistry Revision Notes.md"
+    quote: "A halogen displacement reaction occurs when a more reactive halogen displaces a less reactive halogen from an aqueous solution of its halide"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25 pattern): the corrective content IS the displacement rule (the note''s definition, quoted in the node''s remediation_evidence) and the MS''s own expected-answer surface ("a halogen/an element cannot displace itself"; "a halogen cannot displace a more reactive halogen").'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.7 @ Group 7 properties (2026-09-11); pinned GROUP7_MS_P2 Q1bii expected answers'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-CUO-COLOUR
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-CO2-FROM-CARBONATES
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/GASES_MS_P2.txt
+    quote: "REJECT all other colours"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned GASES MS Q1c documents the wrong-answer pattern OF the carbonate-decomposition concept''s named example: any colour other than black for the CuO product is rejected (IGNORE brown / REJECT all other colours against the expected "black").'
+    upstream: 'pinned GASES_MS_P2 (sha1_12 c65669a9c763) Q1c Notes column; spec 4CH1-2.12 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-CUO-COLOUR
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-CO2-FROM-CARBONATES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+    quote: "Copper(II) carbonate is a green powder and slowly darkens as black copper(II) oxide is produced"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-5
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = the misconception target (the B1-E-25 pattern): the corrective content IS the taught colour-change statement (the 2.12 note''s "slowly darkens as black copper(II) oxide is produced", quoted in the node''s remediation_evidence).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.12 @ Thermal decomposition (2026-09-11); pinned GASES_MS_P2 Q1c expected answer'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+
+# ---------------------------------------------------------------------------
+# Held candidates (the abstention channel, §7 — recorded for the operator,
+# rendered into the review sheet's held appendix; every entry cites its
+# failure class per §19; the ≈1-per-SP band).
+held:
+- id: B5-H-01
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-G1-FAMILY-EVIDENCE, CON-ELECTRONIC-CONFIGURATION)
+  evidence: 'Group 1 note: "The alkali metals share similar characteristic chemical properties because they each have one electron in their outermost shell"'
+  reason: 'ENRICHMENT_BEYOND_SPEC + boundary discipline — the 2.1 demand is the WATER-REACTION evidence for family membership; the one-outer-electron sentence is the note''s explanatory context beyond the demand (OD-2). The electronic-configuration reasoning for Group 1 is properly owned IN-SLICE by the 2.4C node, whose sanctioned boundary edge carries the dependency; authoring a second boundary edge from 2.1 would exceed the ruling''s audited set (the B4-H-14 convention).'
+- id: B5-H-02
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-G7-PROPERTIES, CON-COVALENT-BOND or CON-MOLECULE)
+  evidence: 'Group 7 properties note: "Halogens are diatomic, meaning they form molecules made of pairs of atoms sharing electrons (forming a single covalent bond between the two halogen atoms)"'
+  reason: 'RE-TEACHED INLINE — the 2.5 note carries the molecule/covalent-bond teaching in its own parenthetical, defeating use-without-reteaching (the dependency evidence rule); the diatomic fact is part of the 2.5 demanded substance and lives inside the minted node (the ruling''s match_dispositions; the B2 density discipline).'
+- id: B5-H-03
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-G7-PREDICTION, CON-ION or CON-IONIC-FORMULA or CON-ION-CHARGE-RULES)
+  evidence: 'Group 7 properties note (2.6 sections): "The halide ion carries a -1 charge so the ionic compound formed will have different numbers of halogen atoms, depending on the valency of the metal" with the 2 Na + Cl2 -> 2 NaCl and Ca + Br2 -> CaBr2 worked forms'
+  reason: 'RE-TEACHED INLINE — the prediction section teaches the halide-ion charge, valency reasoning and formula construction itself; no dependency on the S1 ionic owners exists (use-without-reteaching defeated); a boundary edge into the S1 ionic family is NOT in the ruling''s audited set (the B4-H-14 convention).'
+- id: B5-H-04
+  status: held
+  candidate: MISCONCEPTION "swapping the Group 1 and Group 7 trend directions (reactivity increasing down Group 7 / decreasing down Group 1)"
+  evidence: 'Pinned GROUP7_MS Q5f pairs the trends in one question — M1 "potassium is more reactive than sodium" (Accept "reactivity increases down Group 1 ORA") against M2 "bromine is less reactive than chlorine" (Accept "reactivity decreases down Group 7 ORA")'
+  reason: 'INSUFFICIENT_EVIDENCE (session-53 Step-3 rule) — the question DOCUMENTS the correct contrast (the two Accept surfaces), but no REJECT/IGNORE/award restriction documents the direction-swap wrong answer occurring; that an incorrect answer is theoretically possible is not documentation. Revisit only with new MS evidence (the B3-H-11 convention).'
+- id: B5-H-05
+  status: held
+  candidate: MISCONCEPTION "over-ticking observation-selection answers (the deduct-a-mark list rule)"
+  evidence: 'Pinned GROUP1_MS Q4: "[If more than four boxes are ticked, deduct a mark for each incorrect answer above four]"'
+  reason: 'EXAM TECHNIQUE, NOT A MISCONCEPTION (the pilot HELD-12 class, FC-2) — the list-principle deduction rule is a marking convention for observation-selection questions, not a documented conceptual wrong answer about any Group 1 concept; a WRONG_ANSWER_PATTERN node would misrepresent the failure class.'
+- id: B5-H-06
+  status: held
+  candidate: MISCONCEPTION "swapping the displacement product colours (red for the bromine-formed solution; yellow for the iodine-formed solution)"
+  evidence: 'Pinned GROUP7_MS Q3: M2 "(solution) turns orange" with Reject "red"; M4 "(solution) turns brown" with Reject "yellow"'
+  reason: 'INSUFFICIENT_EVIDENCE (FC-1, attribution) — the Reject entries document wrong colours, but the pdftotext column order interleaves the Accept/Reject blocks across the two questions (the batch-4 RRE layout-scramble class) and the per-question rejects are observation-reporting surfaces rather than a stable colour-confusion pattern; the colour substance is already taught inside CON-G7-PROPERTIES (the Colour-in-solution column). Revisit with clean evidence.'
+- id: B5-H-07
+  status: held
+  candidate: RELATED_TO(CON-CO2-GREENHOUSE, CON-CO2-FROM-CARBONATES)
+  evidence: 'Greenhouse effect note (CO2 sources): "Thermal decomposition of carbonate rocks and the effect of acids on carbonates"'
+  reason: 'FC-3 DENSITY + OD-2 — the greenhouse note''s CO2-source listing NAMES the decomposition family (a real association), but the relation is true-and-thin: knowing the greenhouse role requires nothing about carbonate decomposition and vice versa; the source list is note context beyond the 2.13 demand (OD-2); the residual class would add no reviewable dependency information (the pilot''s zero-RELATED_TO default).'
+- id: B5-H-08
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-COMBUSTION-O2, CON-REDOX-ELECTRONS) — the "classified as oxidation" boundary direction
+  evidence: 'Combustion note Examiner Tips: "Combustion reactions can also be classified as oxidation reactions."; pinned GROUP7_MS Q1cv documents the redox reading of displacement ("(both) reduction AND oxidation occur (in the same reaction)"; "iodide (ion) ... loss of electron(s)")'
+  reason: 'OD-2 INCIDENTAL USAGE + G07 ANCHOR CLASS — the 2.11 tip uses oxidation in the OXYGEN-ADDITION sense, not the electron-transfer definition the S1 node owns (no electron-transfer language anywhere in the batch-5 note bodies); the GROUP7 redox surface is mark-scheme evidence, and MS anchors are misconception-class only (G07) — the link is real but the admissible evidence base is empty. Recorded for the operator: a future note-anchor pass (or the T-C19 enrichment lane) is the remediation path, not a beyond-evidence edge.'
+- id: B5-H-09
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-CO2-FROM-CARBONATES, a chemical-tests/limewater owner)
+  evidence: 'Thermal decomposition note: "The carbon dioxide given off can be tested by passing the gas through limewater and looking for it to turn milky"'
+  reason: 'RE-TEACHED INLINE + NO OWNER — the note teaches the limewater test itself; the tests family is S2-g (2.44, a future batch) and its owner node does not exist yet (the ruling''s future_boundary_notes; the B3 not-yet-minted-owner convention: never pre-mint a future batch''s identity).'
+- id: B5-H-10
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-CO2-FROM-CARBONATES, a reactivity-series owner)
+  evidence: 'Thermal decomposition note: "Carbonates of metals from the lower half of the reactivity series tend to decompose on heating"'
+  reason: 'FUTURE BOUNDARY + NO OWNER — the decomposition family presupposes reactivity-series placement, but the reactivity-series family is S2-d (2.15-2.17, a future batch); the owner does not exist and is never pre-minted here (the ruling''s future_boundary_notes).'
+- id: B5-H-11
+  status: held
+  candidate: CONCEPT node "oxidation as oxygen addition" (standalone)
+  evidence: 'Combustion note Examiner Tips: "Combustion reactions can also be classified as oxidation reactions."'
+  reason: 'ENRICHMENT_BEYOND_SPEC + IDENTITY RISK — no batch-5 SP demands an oxidation concept (2.11 asks for the three combustions); minting "oxidation" here would collide with the S1 CON-REDOX-ELECTRONS identity (electron transfer) that the store already owns (the ruling''s non_mint_list) — the tip is OD-2 incidental framing, recorded in the CON-COMBUSTION-O2 derivation_notes instead.'
+- id: B5-H-12
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-G7-PREDICTION, CON-G7-DISPLACEMENT) — or the reverse
+  evidence: 'Group 7 properties note: the metal-halide prediction sections state "The halogens decrease in reactivity moving down the group"; the displacement section states "The reactivity of Group 7 elements decreases as you move down the group" — both operate on the same stated trend'
+  reason: 'NO_DIRECTIONAL_EVIDENCE (the B4-H-03 class) — the prediction and displacement sections are two applications of the SAME stated trend with no directional dependency verbalized between them (either can be taught first); authoring either direction would manufacture a dependency. Both nodes already carry their dependencies via the authored edges (prediction -> properties; displacement -> reactivity-explanation).'
+- id: B5-H-13
+  status: held
+  candidate: COMMONLY_CONFUSED_WITH(halogen, halide ion)
+  evidence: 'The 2.8C note teaches the terms distinctly inline ("When halogen atoms gain an electron during reactions, they form -1 ions called halide ions"); the GROUP7_MS Reject column (the halogen/halide conflation) is the MIS-HALOGEN-HALIDE evidence'
+  reason: 'NO CONFUSION STATEMENT + DOUBLE-COUNTING (the B3-H-13 rule) — a CCW edge needs an explicit source statement that students conflate the two (none exists in the notes); the conflation documentation lives in the pinned MS and is already carried by the misconception node''s WRONG_ANSWER_PATTERN edge — a CCW edge between the same surface would double-count one evidence surface across two relations.'
+- id: B5-H-14
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-AIR-COMPOSITION, CON-NOBLE-GAS-INERTNESS)
+  evidence: 'Composition of air note: "small proportions of other gases including carbon dioxide, water vapour and trace quantities of the noble gases"; pinned GASES_MS Q2 accepts "unreactive" for the argon question'
+  reason: 'OD-2 INCIDENTAL + UNAUDITED BOUNDARY — the composition demand is the four percentages; the noble-gases mention is composition furniture (the unreactivity concept the batch-2 node owns is never used), and the session-55 ruling sanctioned exactly TWO boundary targets — a third boundary edge into the batch-2 owner was not audited, so it is recorded here for the operator rather than silently authored beyond the ruled set (the B4-H-14 convention; the ruling''s match_dispositions carries the OD-2 disposition).'

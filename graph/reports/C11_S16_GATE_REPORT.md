@@ -752,3 +752,92 @@ before phase 2 (S3).)
 > learner-facing KG behavior / misconception-aware recommendations /
 > teacher-side KG work / pilot readiness — the broader SyllabAI roadmap
 > continues from the verified 82-SP settled state.)
+
+> **Session-55 update (2026-09-22): BATCH 5 (S2 INORGANIC, FIRST SLICE)
+> AUTHORED TO ITS OPERATOR GATE — "run batch 5" executed.** Per the
+> operator's session-55 directive ("run batch 5") under the session-46 §16
+> authorization. COMMISSIONING + PREP (this session): the S1<->S2 + S3<->S2
+> cross-slice boundary ruling recorded + machine-checked
+> (scripts/c11_batch5_boundary_ruling.yaml + c11_batch5_boundary_check.py —
+> 75 candidate terms audited, 27 store matches ALL dispositioned, ZERO
+> unhandled conflicts; TWO sanctioned boundary targets: CON-ELECTRONIC-
+> CONFIGURATION (batch 2; 2.4C + 2.8C) and CON-EXO-ENDO (batch 4; 2.11); the
+> session-52 "floor not ontology exercise" discipline held); the S2 Paper-2
+> MS set pinned (GROUP1 7c27bbfc09cd / GROUP7 10edeea32c73 / GASES
+> c65669a9c763 — all three families covered, as in batch 4). EXTRACTION: all
+> 9 T-C10 HUMAN_VALIDATED-mapped S2-a/b/c notes read in full (all 14 SPs
+> note-covered); every planned quote probed pre-authoring
+> (scripts/c11_batch5_quote_probe.py: 105/105 green). DECISION RECORD
+> scripts/c11_batch5_decisions.yaml (extraction_pass c11-s16-batch-5, scope
+> 4CH1-2.1-2.14 + PR-05 — the FIRST of the four planned S2 batches,
+> subsection-complete): 16 nodes = 13 CONCEPT (G1 family-evidence/trend/
+> prediction/econfig; G7 properties/prediction/displacement/econfig; air
+> composition; O2-percentage determination; combustion-O2; CO2-from-
+> carbonates; CO2-greenhouse) + 3 mark-scheme-documented WRONG_ANSWER_PATTERN
+> misconceptions (MIS-G1-SHELL-EXPLANATION — the GROUP1 IGNORE/award rules;
+> MIS-HALOGEN-HALIDE — the GROUP7 Reject column, both conflation directions;
+> MIS-CUO-COLOUR — the GASES Reject column). 18 authored edges (10
+> REQUIRES_PREREQUISITE incl. the PR-05 practical->concept edge + 2
+> EXPLAINED_BY + 3 WRONG_ANSWER_PATTERN + 3 REMEDIATED_BY), ALL SUGGESTED,
+> ZERO RR. ONE
+> pass-2 finding re-authored BEFORE the gate (FP-B5-5: the G7-PREDICTION ->
+> CON-G7-PROPERTIES edge re-scoped to the physical-trend surface, the
+> reactivity dependency moved to its own edge into CON-G7-REACTIVITY-
+> ECONFIG). 14 held candidates (B5-H-01..14 — the ≈1-per-SP band; the three
+> classic wrong-answer patterns without pinned documentation refused per the
+> session-53 Step-3 rule). MERGED STORE: 129 nodes / 306 edges (130 PART_OF
+> + 176 semantic) / 96 command kinds / 77 held / 153 HUMAN_VALIDATED
+> UNCHANGED (authoring promotes nothing) / 2 RR frozen / 4.15 uncovered;
+> concept-graph coverage 96/182 SPs at candidate level (S1 60 + S3 22 + S2
+> 14 of 50). STATE-MOVED EXPECTATIONS ONLY (dated session-55 comments,
+> protective intent unchanged, NO test weakened): graph_check C11_BATCH5_SPS
+> + C11_SCOPE/C11_STAGE/C11_COUNTS (129/306/130, RP 125, EB 12, WAP 16, RB
+> 18, cks 96) + summary phrase; the batch1-4 verdict checks re-anchored
+> (PART_OF HV == the T-C19 G19 record's 117 + batch-5 PART_OF rows
+> SUGGESTED; the D7-D10 §18-record form — the C19 session-106 attachment
+> promotion postdates those checks and they had been dark since; shape
+> 113/275/117 -> 129/306/130; batch-4 D2's SUGGESTED surface now = the 3
+> pilot HOLDs + the 18 batch-5 authored edges); c11_batch4_boundary_check
+> re-anchored (B-block excludes both sanctioned mints; D-block 129/306);
+> c11_diff_review_test R1 re-anchored 0/5/153 -> 17/5/153 (the actionable
+> surface is the batch-5 gate) + the batch-5 sandbox registry member.
+> LATENT POST-C28 BREAKAGE FOUND + FIXED AT THE SOURCE (this session's
+> session-54-class repair): the C11 gate suite had been dark since the C28
+> stage-2 store move — graph_check's meta/topics groups carried stale
+> pre-C26 expectations (the C26 sibling-emitter generator set + the
+> 'canonical-pdf-direct-parse' header_source vocabulary) and eleven
+> store-reading tools still used the pre-migration root layout
+> (graph/concepts.yaml et al.): review_verdict_check, batch1-4 verdict
+> checks, s16_authorization_check, batch4_boundary_check, batch_forecast,
+> diff_review (+ its test fixture), promote_test (sandbox staging) and the
+> GENERATOR ITSELF — all re-pointed through the C28 registry (graph_paths.py,
+> GP.store/qual_dir/reports_dir/resolve_rel, dated comments); the
+> generator additionally learned the C23->C24 re-anchor chain (the C24
+> respace record's quote_reanchors — the stores had been repaired in place
+> post-C24 and the generator was never re-run, so the drift was invisible
+> until this registry-resolved re-run) and canonicalizes SPEC anchor paths
+> at emission (records stay historical per C28 P5; the stores stay
+> canonical). DETERMINISM RE-PROVEN at the authored-to-gate state
+> (generator re-runs content-identical; the emitted header/wrap form is the
+> post-stage-1 contract). FORECAST: the batch-5 record appended (predicted
+> 33.6/38.5/14.0 vs actual 16/18/14 — the lightest yield band, the
+> descriptive-heavy S2 anticipation; promotion 0.0 pending the gate; JSON
+> regenerated deterministically). FULL GATE SUITE AT THE AUTHORED-TO-GATE
+> STATE: graph_check ALL PASS (129/306/130, 153 semantic HV);
+> c11_review_verdict_check ALL PASS; c11_batch1/batch2/batch3/batch4_
+> verdict_check ALL PASS; c11_batch4_boundary_check + c11_batch5_boundary_
+> check ALL PASS; c11_s16_authorization_check ALL PASS; c11_negative_test
+> 14/14; c11_promote_test 27/27 (live store untouched); c11_task4_variants
+> 3/3; c11_diff_review_test ALL PASS (R1 17/5/153). INVARIANTS HELD: the
+> frozen pilot + batch-1..4 dispositions byte-intact (E-08/E-26/E-29 stay
+> SUGGESTED; both RR edges REVIEW_REQUIRED under their operator
+> settlements; HELD-01..13 + B1-H-01..12 + B2-H-01..10 + B3-H-01..14 +
+> B4-H-01..14 untouched — 77 held, clean quarantine); 153 promotions all
+> operator; batch-5 nodes stay SUGGESTED (no §18 node pathway); PART_OF
+> derived (HV rides the T-C19 G19 record; the 13 new batch-5 PART_OF rows
+> are SUGGESTED pending their own attachment-promotion lane); 4CH1-4.15
+> uncovered; no DB writes; AI attribution forbidden; graph/*.yaml never
+> hand-edited. NEXT: the operator's batch-5 verdict session — fill + rename
+> scripts/c11_batch5_verdicts_template.yaml; a later session encodes +
+> applies the verdicts through §18; the remaining S2 families (2.15-2.50)
+> are batches 6-8 per the item-14 plan.)

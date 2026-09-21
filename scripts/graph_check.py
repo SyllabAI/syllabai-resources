@@ -85,6 +85,17 @@ FILES = ["specification_points.yaml", "topics.yaml", "relationships.yaml",
 
 GENERATOR = "scripts/c23_emit_definitive_specpoints.py"   # definitive lineage (T-C23)
 LEGACY_GENERATOR = "scripts/c09_spec_graph_extract.py"    # retired OCR lineage (T-C09)
+# Session-55 expectation repair (2026-09-22, dated; protective intent unchanged):
+# T-C26 (b4e4d91) re-emitted the 5 SIBLING stores from the PDF-direct lineage
+# via scripts/c26_emit_definitive_sibling_stores.py (verified by c26_postcheck
+# + the C27 sweep S1/S2 at the time); this checker's meta gate was simply not
+# re-run after C26 and still listed only the T-C23/T-C09 emitters. The C26
+# emitter is admissible for EXACTLY those 5 sibling stores — never for
+# specification_points.yaml (its definitive-generator requirement below is
+# untouched).
+C26_EMITTER = "scripts/c26_emit_definitive_sibling_stores.py"
+C26_SIBLING_STORES = {"topics.yaml", "relationships.yaml", "command_words.yaml",
+                      "practicals.yaml", "assessment_objectives.yaml"}
 SOURCE_MD = "international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md"
 SOURCE_PDF = "international-gcse-chemistry-2017-specification.pdf"
 CANON_SPEC_JSON = "Official-Specifications/parsed/igcse-chemistry/spec_points.json"
@@ -127,7 +138,12 @@ DAMAGE_FLAG_VOCAB = {
 ROW_SHAPES = {"two-col", "colspan-cell", "single-cell", "orphan-line"}
 MATCH_LEVELS = {"exact", "normalized", "fuzzy", "mismatch", "pdf-missing"}
 CW_CATEGORIES = {"main", "verb-preceding-command-word", "multiple-choice-questions"}
-HEADER_SOURCES = {"md-table", "pdf-recovered"}
+# Session-55 expectation repair (2026-09-22, dated; protective intent unchanged):
+# 'canonical-pdf-direct-parse' is the C26 sibling-store header_source vocabulary
+# (scripts/c26_field_map.yaml wording_source) carried by all 28 subtopics since
+# the T-C26 PDF-direct refresh; the vocabulary predates C26 and is extended,
+# not relaxed — every pre-existing value remains admissible exactly as before.
+HEADER_SOURCES = {"md-table", "pdf-recovered", "canonical-pdf-direct-parse"}
 SECTION_TITLES = {1: "Principles of chemistry", 2: "Inorganic chemistry",
                   3: "Physical chemistry", 4: "Organic chemistry"}
 
@@ -261,7 +277,11 @@ def check_meta(data):
             chk.fail(f"{fn}: meta.curriculum_code '{meta.get('curriculum_code')}' != '4CH1-2017'")
         if meta.get("phase") != 1:
             chk.fail(f"{fn}: meta.phase != 1")
-        if meta.get("generator") not in (GENERATOR, LEGACY_GENERATOR):
+        # Session-55 repair (dated): the 5 C26 sibling stores may carry the
+        # C26 emitter; every other store keeps the original generator set.
+        gen_ok = meta.get("generator") in (GENERATOR, LEGACY_GENERATOR) or (
+            fn in C26_SIBLING_STORES and meta.get("generator") == C26_EMITTER)
+        if not gen_ok:
             chk.fail(f"{fn}: meta.generator '{meta.get('generator')}' outside "
                      f"the definitive/legacy generator set")
         if fn == "specification_points.yaml" and meta.get("generator") != GENERATOR:
@@ -852,33 +872,49 @@ C11_BATCH4_SPS = ["4CH1-3.1", "4CH1-3.2", "4CH1-3.3", "4CH1-3.4",
                    "4CH1-3.13", "4CH1-3.14C", "4CH1-3.15", "4CH1-3.16",
                    "4CH1-3.17", "4CH1-3.18", "4CH1-3.19C", "4CH1-3.20C",
                    "4CH1-3.21C", "4CH1-3.22C"]
+# session-55: batch-5 slice (Section 2 — Inorganic Chemistry, FIRST slice:
+# a Group 1 (Alkali Metals) / b Group 7 (Halogens) / c Gases in the
+# Atmosphere, 14 SPs + the 2.14 practical PR-05; commissioned by the
+# operator's "run batch 5" directive under the session-55 cross-slice
+# boundary ruling)  # 306 edges = 130 PART_OF + 176 semantic (18 authored)
+C11_BATCH5_SPS = ["4CH1-2.1", "4CH1-2.2", "4CH1-2.3", "4CH1-2.4C",
+                   "4CH1-2.5", "4CH1-2.6", "4CH1-2.7", "4CH1-2.8C",
+                   "4CH1-2.9", "4CH1-2.10", "4CH1-2.11", "4CH1-2.12",
+                   "4CH1-2.13", "4CH1-2.14"]
 C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS \
-    + C11_BATCH3_SPS + C11_BATCH4_SPS
-C11_STAGE = "pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4"
+    + C11_BATCH3_SPS + C11_BATCH4_SPS + C11_BATCH5_SPS
+C11_STAGE = "pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5"
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
-# State after the session-54 batch-4 verdict application: 113
-# nodes (29 pilot + 24 batch-1 + 14 batch-2 + 24 batch-3 + 22 batch-4), 275
-# edges (117 PART_OF + 158 semantic), 153 HUMAN_VALIDATED (28 pilot
-# session-45 + 28 batch-1 session-48 + 23 batch-2 session-50 + 39 batch-3
-# session-52 + 35 batch-4 session-54 — all operator §18 promotions). The
-# SUGGESTED semantic edges are again ONLY the 3 pilot operator HOLDs
-# (frozen); batch nodes stay SUGGESTED (nodes have no §18 pathway).
+# State after the session-55 batch-5 AUTHORING (extraction_pass
+# c11-s16-batch-5, authored to its operator gate): 129
+# nodes (29 pilot + 24 batch-1 + 14 batch-2 + 24 batch-3 + 22 batch-4 + 16
+# batch-5 = 13 CONCEPT + 3 MISCONCEPTION), 306 edges (130 PART_OF + 176
+# semantic — 18 authored, the pass-2 re-authoring included), 153 HUMAN_VALIDATED UNCHANGED (authoring promotes nothing; 28
+# pilot session-45 + 28 batch-1 session-48 + 23 batch-2 session-50 + 39
+# batch-3 session-52 + 35 batch-4 session-54 — all operator §18 promotions).
+# The 35 batch-4 SUGGESTED edges were promoted to HUMAN_VALIDATED at session
+# 54; the batch-5 authored edges are SUGGESTED pending the operator's batch-5
+# verdicts; batch nodes stay SUGGESTED (nodes have no §18 pathway).
 # 2 REVIEW_REQUIRED (the frozen pilot RR operator-HOLD edge + the settled
-# batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 4 authored no new RR —
+# batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 5 authored no new RR —
 # every doubt was held at authoring: 14 held candidates).
 # (Session-53 note: the store was 91/220/97 at the session-52 state; batch 4
 # adds 22 nodes + 20 PART_OF + 35 authored semantic edges — statuses only,
 # zero promotions. Session-54 note: the 35 batch-4 SUGGESTED edges were
 # promoted to HUMAN_VALIDATED by the operator's batch-4 verdicts via §18;
-# counts 118 -> 153, graph shape unchanged.)
-C11_COUNTS = {"nodes": 113, "concepts": 98, "misconceptions": 15,
-              "edges": 275,
-              "part_of": 117, "requires_prerequisite": 115,
-              "explained_by": 10,
+# counts 118 -> 153, graph shape unchanged. Session-55 note: batch 5 adds
+# 16 nodes + 13 PART_OF + 18 authored semantic edges — statuses only, zero
+# promotions; the PART_OF HV layer (117 -> 130) rides the T-C19 G19 record
+# pattern: new PART_OF rows inherit the C19-class attachment promotion
+# pathway at their own lane, not here.)
+C11_COUNTS = {"nodes": 129, "concepts": 111, "misconceptions": 18,
+              "edges": 306,
+              "part_of": 130, "requires_prerequisite": 125,
+              "explained_by": 12,
               "related_to": 1, "commonly_confused_with": 2,
-              "misconception_of": 2, "wrong_answer_pattern": 13,
-              "remediated_by": 15, "review_required": 2,
-              "command_kinds": 82}
+              "misconception_of": 2, "wrong_answer_pattern": 16,
+              "remediated_by": 18, "review_required": 2,
+              "command_kinds": 96}
 # Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
 # `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
 # the decision record (preserved as rejected candidate HELD-13; architecture
@@ -897,11 +933,14 @@ C11_EDGE_STATES = {"SUGGESTED", "REVIEW_REQUIRED", "HUMAN_VALIDATED"}
 C11_PROMOTIONS_FILE = REPO / "scripts" / "c11_promotions.yaml"
 # Session-47: the decision-record REGISTRY (pilot + each authorized §16 batch
 # record). The generator's registry and this list must stay in lockstep.
+# session-55: the registry grows by the batch-5 record (same list as the
+# generator's DECISION_RECORDS — lockstep contract).
 C11_DECISIONS_FILES = [REPO / "scripts" / "c11_pilot_decisions.yaml",
                        REPO / "scripts" / "c11_batch1_decisions.yaml",
                        REPO / "scripts" / "c11_batch2_decisions.yaml",
                        REPO / "scripts" / "c11_batch3_decisions.yaml",
-                       REPO / "scripts" / "c11_batch4_decisions.yaml"]
+                       REPO / "scripts" / "c11_batch4_decisions.yaml",
+                       REPO / "scripts" / "c11_batch5_decisions.yaml"]
 C11_DECISIONS_FILE = C11_DECISIONS_FILES[0]
 _C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                              r"|llm|agent|model|bot", re.I)
@@ -1326,6 +1365,11 @@ def _c11_anchor_check(chk, a, where, idx, sps):
     if not rel or not quote:
         chk.fail(f"c11.1 {where}: anchor missing file/quote")
         return
+    # Session-55 repair (2026-09-22, dated): frozen decision records carry the
+    # historical root-form SPEC anchor path; the C28 registry legacy_map
+    # resolves it to the canonical store location (C28 P5 — records stay
+    # historical, checkers resolve; one resolver for all checkers).
+    rel = GP.resolve_rel(rel)
     p = REPO / rel
     if not p.exists():
         chk.fail(f"c11.4 {where}: anchor file missing: {rel}")
@@ -1701,7 +1745,7 @@ def main():
           f"{len(topic_codes)} topics, {len(sub_codes)} subtopics, "
           f"{COUNTS['edges']} edges, {COUNTS['command_words']} command words, "
           f"{COUNTS['practicals']} practicals, {COUNTS['papers']} papers; "
-          f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4): "
+          f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batch 5): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1710,7 +1754,8 @@ def main():
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
           f"generation; batch-1 verdicts applied session 48; batch-2 "
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
-          f"batch-4 verdicts applied session 54 "
+          f"batch-4 verdicts applied session 54; batch-5 AUTHORED to its "
+          f"operator gate session 55 — verdicts pending "
           f"— nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

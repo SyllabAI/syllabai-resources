@@ -26,11 +26,18 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import sys
 import yaml
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
-GRAPH = REPO / "graph"
+# Session-55 repair (2026-09-22, dated): the C28 stage-2 migration moved the
+# ratified stores to graph/igcse-chemistry/ (b3bca02); this checker still read
+# the pre-migration root layout and has been dark since. Store paths now resolve
+# through the C28 registry (graph_paths.py) — no expectation changed.
+sys.path.insert(0, str(HERE))
+import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
+GRAPH = GP.qual_dir()          # the qual's ratified store dir
 RULING = HERE / "c11_batch4_boundary_ruling.yaml"
 OWNERS = {
     "pilot": HERE / "c11_pilot_decisions.yaml",
@@ -100,12 +107,18 @@ conflicts = [t for t in terms if t in store_blob or t in endpoints]
 check("B1 zero canonical conflicts re-verified on the pre-batch-4 store "
       "(the 91-node registry state the ruling was recorded against)",
       conflicts == [], f"conflicts = {conflicts}")
+# Session-55 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# batch-5 authored-to-gate record (16 nodes + 30 edges) joins the batch-4
+# mint in the live store; the pre-batch-4 reconstruction now excludes BOTH
+# sanctioned mints (38 nodes = 22 batch-4 + 16 batch-5; edge delta
+# 86 = 55 batch-4 + 31 batch-5).
 check("B2 the ruling's recorded result matches the re-run (and the batch-4 "
-      "mint is exactly the 22 new nodes / 55 new edges)",
+      "mint is exactly the 22 new nodes / 55 new edges — the batch-5 "
+      "authored-to-gate growth is separate and sanctioned)",
       rul["conflict_audit"].get("result", "").startswith("ZERO canonical")
       and not conflicts
-      and len(b4_codes) == 22
-      and len(edges_doc["edges"]) - len(pre_b4_edges) == 55)
+      and len(b4_codes) == 38  # 22 batch-4 + 16 batch-5 sanctioned mints
+      and len(edges_doc["edges"]) - len(pre_b4_edges) == 86)
 
 # ---------------------------------------------------------------------------
 # C. boundary targets exist + ownership exact
@@ -146,19 +159,30 @@ check("C every sanctioned target is also non-mint protected",
 # verdicts (c11_batch4_verdicts, §18) — HV 118 -> 153, graph shape
 # unchanged; the ruling still mints nothing.)
 # ---------------------------------------------------------------------------
+# Session-55 re-anchor (2026-09-22, dated): 91 + 22 batch-4 + 16 batch-5.
 check("D1 the ruling mints no node (store node set = 91 + the sanctioned "
-      "22 batch-4 nodes)",
-      len(live_codes) == 113)
+      "22 batch-4 nodes + the 16 batch-5 authored-to-gate nodes)",
+      len(live_codes) == 129)
+# Session-55 re-anchor (2026-09-22, dated): 220 + 55 batch-4 + 31 batch-5
+# (20 PART_OF + 35 semantic; 13 PART_OF + 17 semantic).
 check("D2 the ruling mints no edge (store edge set = 220 + the sanctioned "
-      "55 batch-4 edges)",
-      len(edges_doc["edges"]) == 275
+      "55 batch-4 edges + the 31 batch-5 authored-to-gate edges)",
+      len(edges_doc["edges"]) == 306
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 117)
+              if e["relation"] == "PART_OF") == 130)
 hv = sum(1 for e in edges_doc["edges"]
-         if e["validation_status"] == "HUMAN_VALIDATED")
-check("D3 store at the session-54 post-verdict shape (153 HV — the 35 "
-      "batch-4 edges promoted by the operator's verdicts; the ruling "
-      "itself still mints nothing)",
+         if e["validation_status"] == "HUMAN_VALIDATED"
+         and e["relation"] != "PART_OF")
+# Session-55 re-anchor (2026-09-22, dated; protective intent unchanged):
+# T-C19 (session 106) later promoted all 117 PART_OF rows to HUMAN_VALIDATED
+# via its own G19 record — so the raw HUMAN_VALIDATED count over ALL edges is
+# now 270 (117 PART_OF + 153 semantic). The ruling's protected property is the
+# SEMANTIC HV count (the ruling mints/promotes no semantic edge); counted
+# over non-PART_OF edges the 153 assertion holds unchanged.
+check("D3 store at the session-54 post-verdict shape (153 SEMANTIC HV — the "
+      "35 batch-4 edges promoted by the operator's verdicts; the ruling "
+      "itself still mints nothing; PART_OF HV 117 rides the later T-C19 "
+      "G19 record)",
       hv == 153)
 check("D4 non_goals recorded (no ontology redesign / no re-scope / no "
       "promotion authority)",

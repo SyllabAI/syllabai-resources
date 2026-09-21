@@ -31,11 +31,18 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import sys
 import yaml
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
-GRAPH = REPO / "graph"
+# Session-55 repair (2026-09-22, dated): the C28 stage-2 migration moved the
+# ratified stores to graph/igcse-chemistry/ (b3bca02); this checker still read
+# the pre-migration root layout and has been dark since. Store paths now resolve
+# through the C28 registry (graph_paths.py) — no expectation changed.
+sys.path.insert(0, str(HERE))
+import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
+GRAPH = GP.qual_dir()          # the qual's ratified store dir
 VERDICTS = HERE / "c11_batch2_verdicts.yaml"
 DECISIONS = HERE / "c11_batch2_decisions.yaml"
 B1_VERDICTS = HERE / "c11_batch1_verdicts.yaml"
@@ -236,10 +243,31 @@ e415 = [e for e in edges_doc["edges"]
 check("D7 negative control 4CH1-4.15: zero node/edge attachments",
       len(n415) == 0 and len(e415) == 0,
       f"nodes = {len(n415)}, edges = {len(e415)}")
-check("D8 no PART_OF edge promoted (node pathway not built)",
-      not any(e["relation"] == "PART_OF"
-              and e["validation_status"] == "HUMAN_VALIDATED"
-              for e in edges_doc["edges"]))
+# Session-55 re-anchor (2026-09-22, dated; protective intent unchanged):
+# T-C19 (session 106, operator directive) later promoted ALL 117
+# concept->SP PART_OF rows to HUMAN_VALIDATED via its own G19 pathway
+# (scripts/c19_promotions.yaml + c19_promote.py, gated generator re-run,
+# C19_APPLY_RECORD.md) — a LATER-authorized lane this check predates and
+# was never re-run against. The property this check protects is narrower
+# and still enforced: the §18 promotion record (c11_promotions.yaml)
+# carries ZERO PART_OF identities (c11_promote.py rejects PART_OF
+# categorically, T05/T06), and no NODE is promoted by any lane.
+check("D8 no PART_OF edge promoted through the §18 record "
+      "(PART_OF HV rows exist only via the later T-C19 G19 record)",
+      not any(p.get("relation") == "PART_OF"
+              for p in (promo.get("promotions") or []))
+# Session-55 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# PART_OF HV layer is exactly the T-C19 G19 record's 117 rows; the 13 NEW
+# batch-5 PART_OF rows are SUGGESTED pending their own attachment-
+# promotion lane (the C19 pattern), so the all-HV form is re-anchored to
+# the 117-count + batch-5-rows-SUGGESTED form.
+      and sum(1 for e in edges_doc["edges"]
+              if e["relation"] == "PART_OF"
+              and e["validation_status"] == "HUMAN_VALIDATED") == 117
+      and all(e["validation_status"] == "SUGGESTED"
+              for e in edges_doc["edges"]
+              if e["relation"] == "PART_OF"
+              and e["validation_status"] != "HUMAN_VALIDATED"))
 check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
@@ -251,11 +279,15 @@ check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # the merged store to 113/275/117 (22 batch-4 nodes + 20 PART_OF + 35
 # authored semantic edges, all SUGGESTED awaiting the batch-4 operator
 # gate); the batch-2 slice below is still preserved exactly.
-check("D10 live store shape 113 nodes / 275 edges (117 PART_OF + 158 "
+# Session-55 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# store grew to 129/305/130 by the SANCTIONED batch-5 authored-to-gate
+# record (16 nodes + 13 PART_OF + 18 authored semantic edges, ZERO
+# promotions); the batch-2 slice below is still preserved exactly.
+check("D10 live store shape 129 nodes / 306 edges (130 PART_OF + 176 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 113 and len(edges_doc["edges"]) == 275
+      len(nodes_doc["nodes"]) == 129 and len(edges_doc["edges"]) == 306
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 117)
+              if e["relation"] == "PART_OF") == 130)
 
 # ---------------------------------------------------------------------------
 print()

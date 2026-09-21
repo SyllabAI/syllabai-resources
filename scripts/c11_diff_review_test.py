@@ -43,6 +43,12 @@ from pathlib import Path
 
 import yaml
 
+# Session-55 repair (2026-09-22, dated): the sandbox fixture mirrors the LIVE
+# post-C28 store layout — graph/igcse-chemistry/ — derived from the registry
+# (graph_paths.store_rel), never hardcoded.
+import graph_paths as _GP  # noqa: E402
+GRAPH_REL = _GP.qual_dir().relative_to(_GP.REPO)  # e.g. Path("graph/igcse-chemistry")
+
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import c11_diff_review as T  # noqa: E402
@@ -144,8 +150,8 @@ def make_fixture(base: Path):
             "generated": "2026-09-11", "provenance_default": "AI_SUGGESTED",
             "validation_gate": "operator review",
             "edge_vocabulary": "fixture", "counts": counts}
-    (base / "graph").mkdir(parents=True)
-    (base / "graph" / "concept_edges.yaml").write_text(
+    (base / GRAPH_REL).mkdir(parents=True)
+    (base / GRAPH_REL / "concept_edges.yaml").write_text(
         HDR + "\n" + yaml.safe_dump({"meta": meta, "edges": edges},
                                     **T.DUMP_KW), encoding="utf-8")
 
@@ -169,7 +175,7 @@ def make_fixture(base: Path):
     ]
     nmeta = dict(meta, counts={"nodes": 2, "concepts": 2, "misconceptions": 0,
                                "part_of_edges": 2, "semantic_edges": 3})
-    (base / "graph" / "concepts.yaml").write_text(
+    (base / GRAPH_REL / "concepts.yaml").write_text(
         HDR + "\n" + yaml.safe_dump({"meta": nmeta, "nodes": nodes},
                                     **T.DUMP_KW), encoding="utf-8")
 
@@ -183,7 +189,7 @@ def make_fixture(base: Path):
            "subsection": "a", "ordering": 28, "global_order": 28}
     smeta = {"task": "T-C10", "generated": "2026-09-11",
              "counts": {"specification_points": 2}}
-    (base / "graph" / "specification_points.yaml").write_text(
+    (base / GRAPH_REL / "specification_points.yaml").write_text(
         HDR + "\n" + yaml.safe_dump(
             {"meta": smeta, "specification_points": [sp, sp2]},
             **T.DUMP_KW), encoding="utf-8")
@@ -254,6 +260,21 @@ def make_fixture(base: Path):
         yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-4",
                                    "extraction_pass": "c11-s16-batch-4",
                                    "generated_date": "2026-09-13",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-55: the registry grows by the (empty) batch-5 member
+    (base / "scripts" / "c11_batch5_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-5",
+                                   "extraction_pass": "c11-s16-batch-5",
+                                   "generated_date": "2026-09-22",
                                    "model_version": "GLM (Super Z agent, z.ai)",
                                    "curriculum_code": "4CH1-2017",
                                    "scope": {"spec_points": [],
@@ -356,7 +377,7 @@ def main() -> int:
         check("P5 hunk application == full simulation",
               apply_hunks(old, [mh, eh]) == new)  # file order: meta first
 
-        snap = (base / "graph" / "concept_edges.yaml").read_text()
+        snap = (base / GRAPH_REL / "concept_edges.yaml").read_text()
 
         rc, out = run_cli(["approve", ident, "--by", by, "--date", date,
                            "--dry-run"], base)
@@ -365,7 +386,7 @@ def main() -> int:
               "c11_promote.py --edge " + ident in out)
         check("P6 dry-run writes nothing",
               not (base / "scripts" / "c11_promotions.yaml").exists()
-              and (base / "graph" / "concept_edges.yaml").read_text() == snap)
+              and (base / GRAPH_REL / "concept_edges.yaml").read_text() == snap)
 
         rc, out = run_cli(["approve", "--all", "--by", by, "--date", date,
                            "--dry-run"], base)
@@ -414,19 +435,19 @@ def main() -> int:
         check("N5 REVIEW_REQUIRED still pending-classified", len(rr) == 1)
         check("N9/N10 prerequisites still intact",
               not (base / "scripts" / "c11_promotions.yaml").exists()
-              and (base / "graph" / "concept_edges.yaml").read_text() == snap)
+              and (base / GRAPH_REL / "concept_edges.yaml").read_text() == snap)
 
         # N9: real (non-dry) approve without the ratifying bundle
         expect_exit("N9 real approve without bundle refused", 1, run_cli,
                     ["approve", ident, "--by", by, "--date", date], base)
 
         # N10: hand-edited graph (byte-level) -> roundtrip guard refusal
-        (base / "graph" / "concept_edges.yaml").write_text(
+        (base / GRAPH_REL / "concept_edges.yaml").write_text(
             snap + "# stray hand-edit\n", encoding="utf-8")
         expect_exit("N10 hand-edited graph refused", 1, run_cli,
                     ["approve", ident, "--by", by, "--date", date,
                      "--dry-run"], base)
-        (base / "graph" / "concept_edges.yaml").write_text(snap,
+        (base / GRAPH_REL / "concept_edges.yaml").write_text(snap,
                                                            encoding="utf-8")
 
         # N11: validation_status drift decisions <-> graph
@@ -436,18 +457,18 @@ def main() -> int:
             if (e["source"], e["relation"], e["target"]) == \
                     ("4CH1-CON-A", "REQUIRES_PREREQUISITE", "4CH1-CON-B"):
                 e["validation_status"] = "REVIEW_REQUIRED"
-        (base / "graph" / "concept_edges.yaml").write_text(
+        (base / GRAPH_REL / "concept_edges.yaml").write_text(
             snap[:idx + 1] + yaml.safe_dump(doc, **T.DUMP_KW),
             encoding="utf-8")
         expect_exit("N11 status drift refused", 1, run_cli,
                     ["approve", ident, "--by", by, "--date", date,
                      "--dry-run"], base)
-        (base / "graph" / "concept_edges.yaml").write_text(snap,
+        (base / GRAPH_REL / "concept_edges.yaml").write_text(snap,
                                                            encoding="utf-8")
 
         check("N* negatives wrote nothing",
               not (base / "scripts" / "c11_promotions.yaml").exists()
-              and (base / "graph" / "concept_edges.yaml").read_text() == snap)
+              and (base / GRAPH_REL / "concept_edges.yaml").read_text() == snap)
 
         # --- real-repo read-only smoke --------------------------------------
         print(" real-repo smoke (read-only)")
@@ -460,11 +481,14 @@ def main() -> int:
         # settled batch-1 RR; promo_count stays 118 (28+28+23+39, all
         # operator — batch 4 adds zero promotions at authoring).
         # session-54: the batch-4 verdicts were APPLIED (35 §18 promotions,
-        # c11_batch4_verdicts) — the actionable surface is empty again
-        # until the next batch's gate; promo_count 118 -> 153 (28+28+23+39
-        # +35, all operator).
-        check("R1 reports 0 actionable / 5 not-actionable / 153 promotions",
-              "actionable: 0" in r.stdout
+        # c11_batch4_verdicts); promo_count 118 -> 153 (28+28+23+39+35).
+        # session-55: batch 5 is AUTHORED to its operator gate — the
+        # actionable surface is the 18 batch-5 SUGGESTED edges; the
+        # not-actionable rows stay 5 (3 pilot operator HOLDs + the pilot RR
+        # + the settled batch-1 RR); promo_count stays 153 (authoring
+        # promotes nothing).
+        check("R1 reports 18 actionable / 5 not-actionable / 153 promotions",
+              "actionable: 18" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=153" in r.stdout)
     finally:

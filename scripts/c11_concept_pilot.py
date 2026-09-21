@@ -77,7 +77,13 @@ import yaml
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
-GRAPH = REPO / "graph"
+# Session-55 repair (2026-09-22, dated): the C28 stage-2 migration moved the
+# ratified stores to graph/igcse-chemistry/ (b3bca02); this generator still
+# read/wrote the pre-migration root layout and has been dark since. All store
+# I/O resolves through the C28 registry (graph_paths.py) — no gate changed.
+sys.path.insert(0, str(HERE))
+import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
+GRAPH = GP.qual_dir()  # the qual's ratified store dir (registry-resolved)
 NOTES = REPO / "Chemistry IGCSE Revision Notes"
 PROMOTIONS = HERE / "c11_promotions.yaml"
 # Session-47 (§16 batch 1, 2026-09-12): the decision-record REGISTRY. The
@@ -98,9 +104,12 @@ PROMOTIONS = HERE / "c11_promotions.yaml"
 # session-53 batch-4 directive — Section 3 Physical Chemistry 3.1–3.22C,
 # 22 SPs + PR-09/PR-10/PR-11, under the session-52 cross-slice boundary
 # ruling) — same fail-closed contract, same disjoint-slice rule.
+# Session-55 (§16 batch 5, 2026-09-22): the registry grows by the batch-5
+# record (S2 Inorganic first slice, 4CH1-2.1-2.14) — the operator's "run
+# batch 5" directive; same per-batch operator gate before any promotion.
 DECISION_RECORDS = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                     "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
-                    "c11_batch4_decisions.yaml"]
+                    "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml"]
 RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                         r"|llm|agent|model|bot", re.I)
@@ -292,6 +301,12 @@ def normed_file(rel: str):
 
 
 def quote_ok(rel: str, quote: str) -> bool:
+    # Session-55 repair (2026-09-22, dated): frozen decision records carry the
+    # historical root-form SPEC anchor path (the pre-migration store path);
+    # the C28 registry legacy_map resolves it to the canonical store location
+    # (C28 P5 — records stay historical, checkers resolve; one resolver for
+    # all checkers).
+    rel = GP.resolve_rel(rel)
     body = normed_file(rel)
     if body is not None and norm(quote) in body:
         return True
@@ -314,7 +329,11 @@ def spec_anchor_text(sp) -> str:
     return t
 
 
-_C23_RECORD = GRAPH.parent / "graph/reports/C23_DEFINITIVE_SWAP_RECORD.json"
+# Session-55 repair (2026-09-22, dated): the swap record lives in the SHARED
+# graph/reports/ — resolved through the registry (pre-migration this was
+# REPO/graph/reports via GRAPH.parent, which the stage-2 move broke).
+_C23_RECORD = GP.reports_dir() / "C23_DEFINITIVE_SWAP_RECORD.json"
+_C24_RECORD = GP.reports_dir() / "C24_STORE_RESPACE_RECORD.json"
 _C23_REANCHORED: set = set()
 _C23_NEW: dict = {}
 if _C23_RECORD.exists():
@@ -327,6 +346,22 @@ if _C23_RECORD.exists():
 
     except Exception:
         _C23_REANCHORED = set()
+
+# Session-55 repair (2026-09-22, dated): the C24 respace lane (immutable
+# record) re-anchored the C23 new_quotes a second time (glyph normalization
+# '( M r )' -> '(Mr)'); the stores were repaired in place and the generator
+# was not re-run after C24, so the drift went unnoticed until the post-C28
+# registry-resolved re-run. The re-anchor chain composes C23 -> C24 — both
+# immutable records read, neither edited (C28 P5).
+if _C24_RECORD.exists():
+    try:
+        _rec24 = json.loads(_C24_RECORD.read_text())
+        for _r in _rec24.get("quote_reanchors", []):
+            _k = (_r.get("sp"), _r.get("old_quote"))
+            _C23_REANCHORED.add(_k)
+            _C23_NEW[_k] = _r.get("new_quote")
+    except Exception:
+        pass
 
 
 def spec_wording_has(code: str, quote: str) -> bool:
@@ -980,13 +1015,45 @@ def _c23_apply_quote_map(records, is_node):
             for a in evs or []:
                 if (a.get("kind") == "SPEC"
                         and a.get("file") == GP.store_rel("specification_points")):
-                    key = (sp, a.get("quote"))
-                    if key in _C23_NEW:
-                        a["quote"] = _C23_NEW[key]
+                    # Session-55 repair (dated): the re-anchor chain composes
+                    # C23 -> C24 — iterate to fixpoint (bounded) so a C24
+                    # re-anchor OF a C23 new_quote applies in one emission.
+                    q = a.get("quote")
+                    for _ in range(4):
+                        key = (sp, q)
+                        if key not in _C23_NEW:
+                            break
+                        q = _C23_NEW[key]
+                    a["quote"] = q
+    return records
+
+
+def canonicalize_anchor_files(records, is_node):
+    """Session-55 repair (2026-09-22, dated): the frozen decision records
+    carry the historical root-form SPEC anchor path (C28 P5 — records stay
+    historical); the EMITTED stores carry the canonical registry-resolved
+    path (the C28 stage-2 canonicalized form). Resolve every anchor file
+    through the registry legacy_map before emission so the C23 quote-map
+    matches and the stores stay canonical. Pure function of the records +
+    registry (determinism preserved)."""
+    for r in records:
+        if is_node:
+            ev_groups = ([a.get("evidence") or []
+                          for a in r.get("spec_points") or []]
+                         + [r.get("evidence") or []]
+                         + [r.get("remediation_evidence") or []])
+        else:
+            ev_groups = [r.get("evidence") or []]
+        for evs in ev_groups:
+            for a in evs:
+                if a.get("file"):
+                    a["file"] = GP.resolve_rel(a["file"])
     return records
 
 
 if not dry:
+    canonicalize_anchor_files(nodes, True)
+    canonicalize_anchor_files(all_edges, False)
     emit(GRAPH / "concepts.yaml", build_meta("nodes", counts_nodes), "nodes",
          [_c23_apply_quote_map([node_out(n)], True)[0]
           for n in sorted(nodes, key=lambda x: (x["family"], x["code"]))],

@@ -5,12 +5,13 @@
 #   scripts/c11_batch2_decisions.yaml (extraction_pass c11-s16-batch-2)
 #   scripts/c11_batch3_decisions.yaml (extraction_pass c11-s16-batch-3)
 #   scripts/c11_batch4_decisions.yaml (extraction_pass c11-s16-batch-4)
+#   scripts/c11_batch5_decisions.yaml (extraction_pass c11-s16-batch-5)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
-# Generation dates pinned per record; store date 2026-09-13 (deterministic contract; byte-identical re-runs).
+# Generation dates pinned per record; store date 2026-09-22 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -99,6 +100,20 @@ meta:
   - 4CH1-3.20C
   - 4CH1-3.21C
   - 4CH1-3.22C
+  - 4CH1-2.1
+  - 4CH1-2.2
+  - 4CH1-2.3
+  - 4CH1-2.4C
+  - 4CH1-2.5
+  - 4CH1-2.6
+  - 4CH1-2.7
+  - 4CH1-2.8C
+  - 4CH1-2.9
+  - 4CH1-2.10
+  - 4CH1-2.11
+  - 4CH1-2.12
+  - 4CH1-2.13
+  - 4CH1-2.14
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -107,6 +122,7 @@ meta:
   - 4CH1-PR-09
   - 4CH1-PR-10
   - 4CH1-PR-11
+  - 4CH1-PR-05
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
@@ -115,15 +131,17 @@ meta:
   - scripts/c11_batch2_decisions.yaml
   - scripts/c11_batch3_decisions.yaml
   - scripts/c11_batch4_decisions.yaml
+  - scripts/c11_batch5_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
   - c11-s16-batch-2
   - c11-s16-batch-3
   - c11-s16-batch-4
+  - c11-s16-batch-5
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
-  generated: '2026-09-13'
+  generated: '2026-09-22'
   provenance_default: AI_SUGGESTED
   validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;
     batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED
@@ -131,7 +149,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 82
+    spec_points: 96
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -425,6 +443,92 @@ command_kinds:
   guide_class: UNDERSTAND_RELATION
   demanded_substance: fixed and sharp melting/boiling points of pure substances vs ranges for mixtures,
     and using melting/boiling data to distinguish them
+- code: 4CH1-2.1
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how the SIMILARITIES in the reactions of lithium, sodium and potassium with water
+    provide evidence for their recognition as one family of elements (the shared metal-hydroxide + hydrogen
+    pattern, alkaline solutions formed)
+- code: 4CH1-2.10
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how to determine the percentage by volume of oxygen in air using metal (iron wool
+    in a burette) or non-metal (phosphorus in a bell jar) reactions with a fixed volume of air (oxygen
+    consumed, water rises, initial/final volumes, percentage calculation)
+- code: 4CH1-2.11
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the combustion of elements in oxygen for magnesium, hydrogen and sulfur (intense
+    white flame / white MgO powder; exothermic, water produced; blue flame / colourless poisonous SO2
+    gas — with the symbol equations; combustion always exothermic, classifiable as oxidation)
+- code: 4CH1-2.12
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the formation of carbon dioxide from thermal decomposition of metal carbonates,
+    including copper(II) carbonate (metal carbonate -> metal oxide + CO2 on heating; green CuCO3 darkens
+    to black CuO; CO2 tested with limewater turning milky)
+- code: 4CH1-2.13
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that carbon dioxide is a greenhouse gas and that increasing atmospheric amounts
+    may contribute to climate change (greenhouse gases maintain Earth's temperature; CO2 sources include
+    combustion of fuels and thermal decomposition of carbonates)
+- code: 4CH1-2.14
+  verb: determine
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the practical determination of the approximate percentage of oxygen in air using
+    a metal or a non-metal (the iron-wool burette method: 3-4 days, water level rise, initial/final air
+    volumes, volume of oxygen, percentage = oxygen/initial x 100 ~ 20%)'
+- code: 4CH1-2.2
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'how the DIFFERENCES between the reactions of the first three alkali metals with
+    air and water provide evidence for the reactivity trend in Group 1 (vigour increasing down the group:
+    fizzing/movement for Li, rapid movement and dissolving for Na, lilac flame for K; tarnishing faster
+    down the group)'
+- code: 4CH1-2.3
+  verb: use
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'using the Group 1 trends to predict properties of other alkali metals (rubidium,
+    caesium, francium: more vigorous reactions with air and water; lithium least / francium most reactive;
+    soft grey solid, shiny when freshly cut, denser and lower-melting than potassium)'
+- code: 4CH1-2.4C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: the Group 1 reactivity trend in terms of electronic configurations (one outer electron
+    lost to form 1+ ions; shells increase down the group so the outer electron is further from the nucleus,
+    attraction weakens, less energy is needed to lose it — more reactive down the group)
+- code: 4CH1-2.5
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the colours, physical states at room temperature and trends in physical properties
+    of the halogens (fluorine yellow gas, chlorine pale yellow-green gas, bromine red-brown liquid, iodine
+    grey solid; MP/BP increase and states go gas-liquid-solid and colours darken down the group; diatomic
+    molecules)
+- code: 4CH1-2.6
+  verb: use
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: using the Group 7 trends to predict properties of other halogens (reactivity decreases
+    down the group; metal halides via the -1 halide ion and metal valency; non-metal hydrogen halides;
+    slower/less vigorous reactions further down)
+- code: 4CH1-2.7
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how halogen/halide displacement reactions provide evidence for the Group 7 reactivity
+    trend (a more reactive halogen displaces a less reactive halogen from its halide solution; chlorine
+    displaces bromine and iodine, bromine displaces iodine; orange/brown product colours)
+- code: 4CH1-2.8C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: the Group 7 reactivity trend in terms of electronic configurations (seven outer
+    electrons, halide -1 ions formed by GAINING an electron; shells increase down the group so the outer
+    shell is further from the nucleus, attraction weakens, gaining an electron is harder — less reactive
+    down the group; fluorine most reactive)
+- code: 4CH1-2.9
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the approximate percentages by volume of the four most abundant gases in dry air
+    (nitrogen ~80%, oxygen ~20%, argon ~1%, carbon dioxide ~0.04%)
 - code: 4CH1-3.1
   verb: know
   guide_class: KNOW_TERM
