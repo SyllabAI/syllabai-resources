@@ -382,10 +382,10 @@ PINS = {
     GP.legacy_rel("concept_edges"): "ccc674cf3a94b8e4",
     GP.legacy_rel("spec_chunk_mappings"): "f36910450bd50726",  # C27 post (pre was 3d4877dd…; sp_title refresh)
     "graph/reports/C26_WORDING_DIFF_LEDGER.json": "b3334f6057ea649a",
-    "scripts/c26_emit_definitive_sibling_stores.py": "c4ad56a19789cc4d",
-    "scripts/c26_postcheck.py": "b309c07b087792ac",
+    "scripts/c26_emit_definitive_sibling_stores.py": "e9cbf844e9247c07",  # C28 stage-1 re-point (pre was c4ad56a1…; registry refactor)
+    "scripts/c26_postcheck.py": "e506e0c9d4478523",  # C28 stage-1 re-point (pre was b309c07b…; registry refactor)
     "scripts/c26_field_map.yaml": "fbbd8836a75d67dd",
-    "scripts/c23_emit_definitive_specpoints.py": "135452ddc1f3886c",
+    "scripts/c23_emit_definitive_specpoints.py": "886df71645a57bc4",  # C28 stage-1 re-point (pre was 135452dd…; registry refactor)
     "scripts/c09_spec_graph_extract.py": "cf27444eb2ee57c4",
 }
 def s4():
