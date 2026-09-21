@@ -8,7 +8,7 @@ layout:
   # C28 stage resolution for the migrating (default) qual:
   #   ''                 = pre-migration root layout  (stores at graph/<store>.yaml)
   #   'igcse-chemistry'  = post stage-2 git mv        (stores at graph/igcse-chemistry/<store>.yaml)
-  qual_prefix: ''
+  qual_prefix: igcse-chemistry
 default_qual: igcse-chemistry
 quals:
   igcse-chemistry:
@@ -25,7 +25,17 @@ quals:
       spec_command_kinds: graph/{QUAL}/spec_command_kinds.yaml
     reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
     core_sync_target: syllabai-core/src/main/resources/concept-graph/
-legacy_map: {}
+legacy_map:
+  graph/specification_points.yaml: graph/igcse-chemistry/specification_points.yaml
+  graph/topics.yaml: graph/igcse-chemistry/topics.yaml
+  graph/practicals.yaml: graph/igcse-chemistry/practicals.yaml
+  graph/assessment_objectives.yaml: graph/igcse-chemistry/assessment_objectives.yaml
+  graph/command_words.yaml: graph/igcse-chemistry/command_words.yaml
+  graph/relationships.yaml: graph/igcse-chemistry/relationships.yaml
+  graph/concepts.yaml: graph/igcse-chemistry/concepts.yaml
+  graph/concept_edges.yaml: graph/igcse-chemistry/concept_edges.yaml
+  graph/spec_chunk_mappings.yaml: graph/igcse-chemistry/spec_chunk_mappings.yaml
+  graph/spec_command_kinds.yaml: graph/igcse-chemistry/spec_command_kinds.yaml
   # Filled at C28 stage-2 — historical root-form store paths -> canonical per-qual
   # paths. P5 errata bridge: landed records and verdict ledgers are never edited;
   # checkers re-verifying their pinned paths resolve through graph_paths.resolve_rel().
