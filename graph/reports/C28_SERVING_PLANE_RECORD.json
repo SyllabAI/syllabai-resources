@@ -1,0 +1,55 @@
+{
+  "task_id": "T-C28",
+  "stage": 4,
+  "record": "C28_SERVING_PLANE_RECORD",
+  "date": "2026-09-21",
+  "operator_directive": "Proceed with the next steps: D2-D5 (serving plane, explorer mode, subject #2 notes-corpus-gated, batch-5 sequencing); Subject-#2 K1 is now just a registry entry + new graph/<qual>/ stores.",
+  "baseline_head": "9e65d66ec60a",
+  "content_head": "0c8c60f24014",
+  "battery": {
+    "result": "95 PASS / 0 FAIL / 0 WARN ALL_STORES_CLEAN",
+    "at_head": "0c8c60f24014",
+    "gates_total": 95,
+    "s8_gates_new": 8,
+    "previous": "87 PASS / 0 FAIL / 0 WARN (stages 1-3)"
+  },
+  "decisions": {
+    "D1": {"status": "EXECUTED", "option": "a", "stages": ["639e38b", "75639a3", "b3bca02", "869bcf6", "9e65d66"], "record": "C28_GRAPH_LAYOUT_MIGRATION_RECORD"},
+    "D2": {"status": "ADOPTED+EXECUTED", "option": "a", "meaning": "serving plane = Official-Specifications/parsed/_derived/graph/<qual>/ extended; no graph/_views/"},
+    "D3": {"status": "ADOPTED", "option": "a", "meaning": "per-qual self-contained HTML near-term (v77 pattern); blob is mode-agnostic by contract (spec 4.3); v78 HTML build is a FileUpload-lane follow-up"},
+    "D4": {"status": "OPEN-GATED", "gate": "K0(ii) notes corpus", "gate_state": "RED", "detail": "no equivalent notes corpus for any candidate (ial-chemistry 319 SPs, igcse-physics 171 SPs, igcse-biology, ...); chemistry corpus tracked in-repo (359 files) but not materialized in this sparse workspace (c13 in-repo guard fires; sandbox mode supported)"},
+    "D5": {"status": "RESOLVED-BY-EVENTS", "detail": "migration executed, so sequencing question is moot; batch 5 runs on post-migration layout at canonical registry paths; gates unchanged (run-batch-5 directive, S1<->S2 + S3<->S2 cross-slice rulings, per-batch verdicts)"}
+  },
+  "emitter": {
+    "id": "scripts/c28_emit_explorer_blob.py@1.0.0",
+    "properties": ["zero-LLM", "deterministic", "registry-resolved paths", "no-hardcode clean"],
+    "commissioned_quals_enumerated_from": "ratified concepts+concept_edges store presence (P3)"
+  },
+  "artifacts": [
+    {"path": "Official-Specifications/parsed/_derived/graph/igcse-chemistry/concepts.yaml", "sha256_16": "a72f36c8af381727", "content": "113 node rows verbatim (98 CONCEPT / 15 MISCONCEPTION) + section-5 provenance header"},
+    {"path": "Official-Specifications/parsed/_derived/graph/igcse-chemistry/concept_edges.yaml", "sha256_16": "57731243cfba2c1b", "content": "275 edge rows verbatim (270 HUMAN_VALIDATED / 2 REVIEW_REQUIRED / 3 SUGGESTED) + section-5 provenance header"},
+    {"path": "Official-Specifications/parsed/_derived/graph/igcse-chemistry/explorer_blob.json", "sha256_16": "fb4fadef72451784", "content": "explorer-blob/1.0, graph_contract 1.0, 6 source pins, counts block, full verbatim content"}
+  ],
+  "blob_sources": [
+    {"path": "graph/igcse-chemistry/specification_points.yaml", "sha256_16": "956d276f6e4354fa"},
+    {"path": "graph/igcse-chemistry/topics.yaml", "sha256_16": "81a4745760bcce2c"},
+    {"path": "graph/igcse-chemistry/assessment_objectives.yaml", "sha256_16": "3dc670176f2f5529"},
+    {"path": "graph/igcse-chemistry/relationships.yaml", "sha256_16": "6bd3f8236ac2120a"},
+    {"path": "graph/igcse-chemistry/concepts.yaml", "sha256_16": "5904c7bc956d6858"},
+    {"path": "graph/igcse-chemistry/concept_edges.yaml", "sha256_16": "ca73f7077ba82cc0"}
+  ],
+  "blob_counts": {"topics": 4, "subtopics": 28, "specification_points": 182, "relationships": 210, "assessment_objectives": 3, "papers": 2, "concepts": 113, "concept_edges": 275, "concept_edge_validation_status": {"HUMAN_VALIDATED": 270, "REVIEW_REQUIRED": 2, "SUGGESTED": 3}, "concepts_by_family": {"CONCEPT": 98, "MISCONCEPTION": 15}},
+  "s8_gates": [
+    "projection inventory == K2-commissioned quals (P3)",
+    "G1 freshness concepts projection",
+    "G1 freshness concept_edges projection",
+    "G1 freshness explorer_blob (6 sources)",
+    "blob schema header",
+    "G2 re-emit idempotency (temp-dir; emitted_at sole documented-volatile field)",
+    "serving-artifact damage scan",
+    "blob counts == ratified stores (EB.CONTENT_MAP single mapping source)"
+  ],
+  "scope_guards_respected": ["ratified plane 0 bytes changed (serving only, P2)", "records/ledgers untouched (P5)", "errata: none this stage", "parsed canonical JSON untouched", "syllabai-core untouched (core-sync contract lane)", "explorer v77 untouched (build artifact; v78 consumes the blob)"],
+  "k_playbook_effect": {"K0": "checklist unchanged; K0(ii) binding (RED)", "K1": "registry entry + new graph/<qual>/ stores only", "K3": "emission path already built + S8-gated; new quals served by running the emitter", "K4": "battery generalizes without code change (S8 loops commissioned quals)"},
+  "followups": ["explorer v78 build on FileUpload lane (embed blob; pin HTML + blob sha256s)", "DIFF_VS_RATIFIED.json regeneration with post-C25 framing", "22 non-commissioned quals: projections only at their own K3 (P3, S8-enforced)", "snap-002 re-freeze / 4CH1-4.15 WORKLIST / PAT rotation: operator-held, unchanged"]
+}
