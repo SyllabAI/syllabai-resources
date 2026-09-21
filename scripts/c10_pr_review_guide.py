@@ -220,7 +220,7 @@ def main() -> int:
     A("1. **Unit of review** = one `spec_map.spec_points[]` entry in a note's "
       "front matter: `code` + `provenance.confidence` + `provenance.evidence` "
       "+ `provenance.rationale`. Open the note, read the block, open the spec "
-      "wording (below or `graph/specification_points.yaml`).")
+      "wording (below or `graph/igcse-chemistry/specification_points`).")
     A("2. **The three standing lessons**: (a) *evidence-existence is not "
       "semantic validity* — the quote existing in the note does not show the "
       "note teaches what the point demands (the 4.15 case, operator "

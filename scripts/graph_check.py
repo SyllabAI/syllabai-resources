@@ -32,8 +32,8 @@ Validates, with zero core-repo dependencies:
                         182-point registry; every note has >=1 mapping; no
                         foreign curriculum codes in front matter; all 182
                         points covered; totals match the T-C10 baseline
- 10. c11-concepts    — T-C11 pilot (phase 3): graph/concepts.yaml +
-                        graph/spec_command_kinds.yaml — node schema, 4CH1
+ 10. c11-concepts    — T-C11 pilot (phase 3): graph/igcse-chemistry/concepts +
+                        graph/igcse-chemistry/spec_command_kinds — node schema, 4CH1
                         namespace, families/roles/states/confidence caps,
                         evidence anchors byte-verified (T-C10 norm),
                         attachment rule (SPEC quote inside the SP wording or
@@ -41,7 +41,7 @@ Validates, with zero core-repo dependencies:
                         HUMAN_VALIDATED), pilot scope + 4.15 negative
                         control, misconception source-quote gate, frozen
                         command-kind tags (guide §8)
- 11. c11-concept-edges — T-C11 pilot: graph/concept_edges.yaml — relation
+ 11. c11-concept-edges — T-C11 pilot: graph/igcse-chemistry/concept_edges — relation
                         vocabulary, endpoint resolution (concepts ∪ pilot
                         SPs ∪ practicals), no self/duplicate edges, relation
                         discipline incl. the frozen §8A.11 misconception
@@ -73,9 +73,11 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from c10_worksheets import parse_slug, SECTION_LETTERS  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 
 REPO = Path(__file__).resolve().parent.parent
-GRAPH_DEFAULT = REPO / "graph"
+GRAPH_DEFAULT = GP.qual_dir()  # C28 registry-resolved ratified store dir
 NOTES_ROOT_DEFAULT = REPO / "Chemistry IGCSE Revision Notes"
 
 FILES = ["specification_points.yaml", "topics.yaml", "relationships.yaml",
@@ -1330,9 +1332,9 @@ def _c11_anchor_check(chk, a, where, idx, sps):
         return
     if a["kind"] == "NOTE" and "Chemistry IGCSE Revision Notes" not in rel:
         chk.fail(f"c11.1 {where}: NOTE anchor outside the notes corpus: {rel}")
-    if a["kind"] == "SPEC" and rel != "graph/specification_points.yaml":
+    if a["kind"] == "SPEC" and rel != GP.store_rel("specification_points"):
         chk.fail(f"c11.1 {where}: SPEC anchor must be "
-                 f"graph/specification_points.yaml: {rel}")
+                 f"{GP.store_rel('specification_points')}: {rel}")
     if a["kind"] == "MARK_SCHEME" and not rel.startswith("scripts/c11_evidence/"):
         chk.fail(f"c11.1 {where}: MARK_SCHEME anchor outside the pinned "
                  f"extractions: {rel}")

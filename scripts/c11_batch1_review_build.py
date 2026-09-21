@@ -446,8 +446,8 @@ A("3. Only after the batch-1 gate settles does batch 2 (S1 remainder "
   "ruling comes before phase 2 (S3).")
 A("")
 A("---")
-A(f"Machine artifacts: `graph/concepts.yaml`, `graph/concept_edges.yaml`, "
-  f"`graph/spec_command_kinds.yaml` (generated, gated, merged store) · "
+A(f"Machine artifacts: `graph/igcse-chemistry/concepts`, `graph/igcse-chemistry/concept_edges`, "
+  f"`graph/igcse-chemistry/spec_command_kinds` (generated, gated, merged store) · "
   f"`C11_BATCH1_REVIEW.json` (this sheet's machine record) · "
   f"`scripts/c11_batch1_verdicts_template.yaml` (the verdict template) · "
   f"contract: `C11_ARCHITECTURE.md`")

@@ -65,7 +65,7 @@ def load_mirror(mirror: Path):
     registry_path = mirror / "specification_points.yaml"
     store_path = mirror / "graph" / "spec_chunk_mappings.yaml"
     if not notes_root.is_dir() or not registry_path.is_file() or not store_path.is_file():
-        raise SystemExit("mirror layout invalid: need notes/, specification_points.yaml, graph/spec_chunk_mappings.yaml")
+        raise SystemExit("mirror layout invalid: need notes/, specification_points.yaml, graph/igcse-chemistry/spec_chunk_mappings")
     return notes_root, registry_path, store_path
 
 

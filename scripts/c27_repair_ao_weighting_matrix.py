@@ -15,10 +15,13 @@ Internal-consistency proof: AO1/AO2 23.2-25.7 + 14.8-16.3 = 38.0-42.0 == weighti
 
 Surgical text edit only (anchor/alias structure preserved; no YAML re-serialisation).
 """
-import hashlib, json, re, subprocess, sys
+import hashlib, json, os, re, subprocess, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 
 REPO = "/home/z/my-project/gh_repos/syllabai-resources"
-STORE = f"{REPO}/graph/assessment_objectives.yaml"
+STORE = str(GP.store("assessment_objectives"))
 CANON = f"{REPO}/Official-Specifications/parsed/igcse-chemistry/assessment_objectives.json"
 PDF = f"{REPO}/Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf"
 
@@ -51,7 +54,7 @@ print("[verify] canonical unit_weightings == PDF p35 rows == field-map contract"
 
 # 3. pre-state capture (idempotent: skip write if repair already applied)
 #    honest pre-pin always = committed HEAD blob (pre-repair state)
-_blob = subprocess.run(["git", "-C", REPO, "show", "HEAD:graph/assessment_objectives.yaml"],
+_blob = subprocess.run(["git", "-C", REPO, "show", f"HEAD:{GP.store_rel('assessment_objectives')}"],
                        capture_output=True)
 if _blob.returncode == 0:
     pre_sha = hashlib.sha256(_blob.stdout).hexdigest()

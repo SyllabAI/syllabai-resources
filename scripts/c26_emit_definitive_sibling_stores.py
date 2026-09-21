@@ -24,10 +24,14 @@ from pathlib import Path
 
 import yaml
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "Official-Specifications/parsed/igcse-chemistry"
-G = ROOT / "graph"
-REPORTS = G / "reports"
+G = GP.qual_dir()  # C28 registry-resolved ratified store dir
+REPORTS = GP.reports_dir()  # shared audit trail stays at graph/reports
 PDF = ROOT / "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf"
 PDF_SHA1 = "3ad641b7c60b314fa3b10680feda30bf56280a53"
 GENERATOR = "scripts/c26_emit_definitive_sibling_stores.py"
@@ -329,9 +333,9 @@ def main():
     out = {}
     for name, fn in (("topics", emit_topics), ("practicals", emit_practicals),
                      ("assessment_objectives", emit_ao), ("command_words", emit_cw)):
-        doc = head_yaml(f"graph/{name}.yaml")  # baseline: ledger + output independent of working tree
+        doc = head_yaml(GP.store_rel(name))  # baseline: ledger + output independent of working tree
         out[name] = fn(doc, can[name])
-    rel = head_yaml("graph/relationships.yaml")
+    rel = head_yaml(GP.store_rel("relationships"))
     out["relationships"] = emit_relationships(rel)
     for name, doc in out.items():
         dump_yaml(G / f"{name}.yaml", doc)

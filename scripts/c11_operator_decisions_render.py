@@ -197,7 +197,7 @@ out = {
         "CORRECTED (session 43, 2026-09-12 — report/data drift): the session-41 "
         "record here misdescribed the store. CON-THEOR-YIELD.aliases has been "
         "'maximum yield' (byte-stable) in scripts/c11_pilot_decisions.yaml and "
-        "graph/concepts.yaml across ALL committed revisions; the corrupted "
+        "graph/igcse-chemistry/concepts across ALL committed revisions; the corrupted "
         "string 'aximum yield' never existed in any data file — it existed only "
         "in this report text (plus C11_OPERATOR_DECISIONS.md, "
         "C11_S16_GATE_REPORT.md and the renderer literal), all corrected "

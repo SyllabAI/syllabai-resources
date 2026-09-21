@@ -6,7 +6,7 @@ verification + mapping-row materialization + operator review sheet emission.
 Contract: CONCEPT_SPEC_POINT_MAPPING_VALIDATION_LANE.md (RATIFIED v1.1, §5-§6).
 
 What it does (read-only; never mutates the store):
-  * materializes the 117 PART_OF attachment rows from graph/concept_edges.yaml
+  * materializes the 117 PART_OF attachment rows from graph/igcse-chemistry/concept_edges
     (the edge store is canonical; the node/edge mirror is re-proved as M2);
   * runs mechanical checks M1-M5 over EVERY row (fail-closed ledger);
   * emits graph/reports/C19_SUBSTRATE_ROWS.yaml (deterministic; byte-identical
@@ -131,7 +131,7 @@ def build_rows(mirror: Path):
     for p in r2["specification_points"]:
         r2_wording.setdefault(p["official_wording"], []).append(p["official_code"])
 
-    # ratified registry wording index (SPEC quotes cite graph/specification_points.yaml;
+    # ratified registry wording index (SPEC quotes cite graph/igcse-chemistry/specification_points;
     # its rows carry specification_code like 4CH1-3.14C and wording fields)
     rat_wording_by_code = {}
     def _walk(o):
@@ -294,7 +294,7 @@ def emit_rows(rows, mirror: Path):
         "task": "T-C19",
         "tool": f"{TOOL}@{VERSION}",
         "generated": datetime.now(timezone.utc).date().isoformat(),
-        "source": "graph/concept_edges.yaml PART_OF rows (canonical edge store; node/edge mirror re-proved)",
+        "source": "graph/igcse-chemistry/concept_edges PART_OF rows (canonical edge store; node/edge mirror re-proved)",
         "r2_registry": R2_REGISTRY,
         "rows": len(rows),
         "anti_forgery": "no row is promoted by this tool; HUMAN_VALIDATED is operator-only (§6 sheet)",

@@ -10,9 +10,9 @@ expansion-batch record with its own extraction_pass id (session-47, batch 1:
 scripts/c11_batch1_decisions.yaml; architecture §8: expansion passes add
 nodes via new decision records). Emits, fail-closed, after ALL gates pass:
 
-  graph/concepts.yaml          — CONCEPT + MISCONCEPTION nodes (all records)
-  graph/concept_edges.yaml     — derived PART_OF + authored semantic edges
-  graph/spec_command_kinds.yaml — frozen-guide §8 command-kind tags (24 SPs)
+  graph/igcse-chemistry/concepts          — CONCEPT + MISCONCEPTION nodes (all records)
+  graph/igcse-chemistry/concept_edges     — derived PART_OF + authored semantic edges
+  graph/igcse-chemistry/spec_command_kinds — frozen-guide §8 command-kind tags (24 SPs)
 
 Gates (each hard-fails, naming the record and the violated rule):
 
@@ -68,6 +68,9 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 
 import json
 import yaml
@@ -295,7 +298,7 @@ def quote_ok(rel: str, quote: str) -> bool:
     # T-C23: quotes from the retired OCR lineage are admissible exactly where
     # the C23 swap record re-anchored them (auditable old->new mapping; the
     # definitive store no longer contains the pre-swap wording bytes)
-    if rel == "graph/specification_points.yaml":
+    if rel == GP.store_rel("specification_points"):
         for _sp, _old in _C23_REANCHORED:
             if _old == quote:
                 return True
@@ -976,7 +979,7 @@ def _c23_apply_quote_map(records, is_node):
         for sp, evs in pairs:
             for a in evs or []:
                 if (a.get("kind") == "SPEC"
-                        and a.get("file") == "graph/specification_points.yaml"):
+                        and a.get("file") == GP.store_rel("specification_points")):
                     key = (sp, a.get("quote"))
                     if key in _C23_NEW:
                         a["quote"] = _C23_NEW[key]
@@ -1004,5 +1007,5 @@ print(f"ALL GATES GREEN ({len(nodes)} nodes / {len(all_edges)} edges "
          " / 0 promoted (HUMAN_VALIDATED is operator-only)"))
 print(f"T-C10 crosscheck: 209/209 HUMAN_VALIDATED mappings indexed; "
       f"negative control {NEGATIVE_CONTROL}: 0 attachments"
-      + ("" if dry else f"\nwrote graph/concepts.yaml, graph/concept_edges.yaml, "
-                        f"graph/spec_command_kinds.yaml"))
+      + ("" if dry else f"\nwrote graph/igcse-chemistry/concepts, graph/igcse-chemistry/concept_edges, "
+                        f"graph/igcse-chemistry/spec_command_kinds"))

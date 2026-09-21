@@ -149,7 +149,7 @@ actionable and reproducible rather than historical.
 
 ## 4. The worklist (enumerable, not open-ended)
 
-Worklist rows carry per-row reasons and dispositions in `graph/spec_chunk_mappings.yaml` (`worklist_reason`
+Worklist rows carry per-row reasons and dispositions in `graph/igcse-chemistry/spec_chunk_mappings` (`worklist_reason`
 + `disposition`). Summary:
 
 - **{len(wl_quotes)} excerpt-region quotes** — author a fresh verbatim section quote per row (the notes

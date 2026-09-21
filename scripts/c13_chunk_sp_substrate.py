@@ -10,7 +10,7 @@ chunk-level rows, deterministically and fail-closed:
      h2..h4, chunk text = heading + body — the C10 heading-quote lesson).
   2. Anchor every spec_map evidence quote to exactly one chunk of ITS note
      (normalized substring; ambiguity resolved deterministically and flagged).
-  3. Emit graph/spec_chunk_mappings.yaml: one row per anchored mapping —
+  3. Emit graph/igcse-chemistry/spec_chunk_mappings: one row per anchored mapping —
      validation_status SUGGESTED, tier RULE_DERIVED, upstream provenance
      pointing at the T-C10 HUMAN_VALIDATED note-level mapping. NO row is ever
      emitted HUMAN_VALIDATED: promotion is the operator gate (anti-forgery,
@@ -42,6 +42,10 @@ import statistics
 import sys
 import unicodedata
 from pathlib import Path
+
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 
 import yaml
 
@@ -446,8 +450,8 @@ def main():
     else:
         repo = Path(__file__).resolve().parent.parent
         notes_root = Path(args.notes_root) if args.notes_root else repo / "Chemistry IGCSE Revision Notes"
-        graph_dir = Path(args.graph_dir) if args.graph_dir else repo / "graph"
-        out_dir = Path(args.out_dir) if args.out_dir else repo / "graph"
+        graph_dir = Path(args.graph_dir) if args.graph_dir else GP.qual_dir()  # C28 registry-resolved
+        out_dir = Path(args.out_dir) if args.out_dir else GP.qual_dir()
 
     doc, stats, emitted, rows, worklist, registry, uncovered = run(notes_root, graph_dir, out_dir)
 

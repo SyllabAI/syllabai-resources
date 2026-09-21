@@ -15,12 +15,24 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from c13_chunk_sp_substrate import load_registry, load_store, verify_store  # noqa: E402
 from c13_chunk_sp_substrate import chunk_note, front_matter_split  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 
 
 def build_env(base: Path, in_repo: bool):
-    registry = load_registry(base)
+    # C28: in-repo mode resolves the ratified store dir via the path registry.
+    # (Also repairs a pre-C28 in-repo regression: load_registry(repo_root) read
+    # <repo>/specification_points.yaml, which never existed.)
+    gdir = GP.qual_dir() if in_repo else base / "graph"
+    registry = load_registry(gdir if in_repo else base)
     notes_root = (base / "Chemistry IGCSE Revision Notes") if in_repo else (base / "notes")
-    graph_dir = base / "graph"
+    if in_repo and not notes_root.exists():
+        raise SystemExit(
+            "in-repo mode requires the untracked SME notes corpus at "
+            "<repo>/Chemistry IGCSE Revision Notes (absent from this workspace — "
+            "untracked, wiped by workspace resets); run sandbox mode with an "
+            "explicit base instead")
+    graph_dir = gdir
     notes, store, _ = load_store(notes_root)
     idx = {}
     for n in notes:

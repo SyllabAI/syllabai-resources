@@ -7,7 +7,7 @@ Promotion path (graph/reports/C11_ARCHITECTURE.md §18):
 
   operator command  ->  scripts/c11_promotions.yaml  (this tool, the only
   writer)  ->  gated generator re-run (c11_concept_pilot.py G13)  ->
-  graph/concept_edges.yaml carries HUMAN_VALIDATED + validated_by/date.
+  graph/igcse-chemistry/concept_edges carries HUMAN_VALIDATED + validated_by/date.
 
 The AI decision record (scripts/c11_pilot_decisions.yaml) is NEVER touched:
 it is the frozen pilot snapshot. Promotions live in their own operator-side
@@ -279,7 +279,7 @@ def main() -> int:
         return 0
 
     if args.no_apply:
-        print("next: graph/concept_edges.yaml carries the promotion after the "
+        print("next: graph/igcse-chemistry/concept_edges carries the promotion after the "
               "gated generator re-run (G13 validates every promotion entry)")
         return 0
     r = subprocess.run([sys.executable, str(HERE / "c11_concept_pilot.py")],

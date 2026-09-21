@@ -5,7 +5,7 @@ Course-aware and registry-per-course:
   - a course carrying spec_point_resolution.json + spec_point_index.json (a
     "sidecar course") is verified: every part with spec_point_ids must have
     spec_point_codes, and every code must belong to the course's OWN official
-    universe — igcse-chemistry-19 verifies against graph/specification_points.yaml
+    universe — igcse-chemistry-19 verifies against graph/igcse-chemistry/specification_points
     (4CH1, unchanged), sibling courses verify against
     Official-Specifications/parsed/<qual>/spec_points.json
   - parts whose ids are ALL unresolved stay uncoded by design (no-guess
@@ -36,7 +36,7 @@ PARSED = BASE / "Official-Specifications" / "parsed"
 # ---------- per-course registries ----------
 
 def linear_registry() -> dict[str, dict]:
-    reg_doc = yaml.safe_load((BASE / "graph" / "specification_points.yaml")
+    reg_doc = yaml.safe_load((BASE / "graph" / "igcse-chemistry" / "specification_points.yaml")
                              .read_text(encoding="utf-8"))
     return {p["code"]: p for p in reg_doc["specification_points"]}
 

@@ -284,7 +284,7 @@ def _topic_index(tp, point):
     return None
 
 def diff_chemistry():
-    """Emitted candidate vs operator-ratified graph/specification_points.yaml."""
+    """Emitted candidate vs operator-ratified graph/igcse-chemistry/specification_points."""
     out = f'{GRAPH_DIR}/igcse-chemistry/DIFF_VS_RATIFIED.json'
     rat = yaml.safe_load(open(f'{RATIFIED}/specification_points.yaml'))
     cand = yaml.safe_load(open(f'{GRAPH_DIR}/igcse-chemistry/specification_points.yaml'))
@@ -310,7 +310,7 @@ def diff_chemistry():
             })
     result = {
         'generated': TODAY,
-        'ratified_store': 'syllabai-resources/graph/specification_points.yaml (operator-ratified, OCR-md source)',
+        'ratified_store': 'syllabai-resources/graph/igcse-chemistry/specification_points (operator-ratified, OCR-md source)',
         'candidate': 'parsed/_derived/graph/igcse-chemistry/specification_points.yaml (PDF-direct parse)',
         'codes_ratified': len(codes_rat), 'codes_candidate': len(codes_cand),
         'codes_equal': codes_rat == codes_cand,

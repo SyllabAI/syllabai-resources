@@ -28,6 +28,9 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 import fitz
 import yaml
 
@@ -228,7 +231,7 @@ EXPLICIT = {
         "variables 5.1 The concept of a discrete random variable'); the "
         "code/text/topic pairing breaks at the walker level; repair = "
         "column-aware re-parse"),
-    ("graph/specification_points.yaml", "4.45:official_wording"): (
+    ("graph/igcse-chemistry/specification_points", "4.45:official_wording"): (
         "FALSE_POSITIVE_NOTATION — '(poly)tetrafluoroethene' polymer name, "
         "')t' is print-true (PDF p32 verbatim)"),
 }
@@ -260,9 +263,9 @@ def main() -> int:
                         adjudication="HISTORICAL_PROVENANCE (T-SPEC-8/9 repair stamp "
                                      "or walker provenance; not a defect)")
     # 2. graph store
-    store = yaml.safe_load((REPO / "graph/specification_points.yaml").read_text(encoding="utf-8"))
+    store = yaml.safe_load(GP.store("specification_points").read_text(encoding="utf-8"))
     recs = store["specification_points"]
-    scan_record_list("graph/specification_points.yaml", recs, ["official_wording"])
+    scan_record_list("graph/igcse-chemistry/specification_points", recs, ["official_wording"])
 
     # 3. _derived YAMLs — section self-consistency + text artifacts.
     # Section expectation replicates the emit's two-pass code assignment

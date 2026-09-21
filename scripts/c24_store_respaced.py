@@ -26,10 +26,12 @@ from pathlib import Path
 import yaml
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 CANON = REPO / "Official-Specifications/parsed/igcse-chemistry/spec_points.json"
-STORE = REPO / "graph/specification_points.yaml"
-EDGES = REPO / "graph/concept_edges.yaml"
-CONCEPTS = REPO / "graph/concepts.yaml"
+STORE = GP.store("specification_points")
+EDGES = GP.store("concept_edges")
+CONCEPTS = GP.store("concepts")
 REC_JSON = REPO / "graph/reports/C24_STORE_RESPACE_RECORD.json"
 REC_MD = REPO / "graph/reports/C24_STORE_RESPACE_RECORD.md"
 
@@ -126,7 +128,7 @@ def main() -> int:
 
     def fix_quotes(owner, tgt, evidence):
         for a in evidence or []:
-            if a.get("kind") != "SPEC" or a.get("file") != "graph/specification_points.yaml":
+            if a.get("kind") != "SPEC" or a.get("file") != GP.store_rel("specification_points"):
                 continue
             q = str(a.get("quote", ""))
             nw = text_of.get(tgt, "")

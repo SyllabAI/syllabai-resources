@@ -33,6 +33,9 @@ import sys
 import tempfile
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 import yaml
 
 HERE = Path(__file__).resolve().parent
@@ -97,7 +100,7 @@ def mut_v1_spec_wording_anchor(g: Path):
         "aliases": [],
         "spec_points": [{"code": "4CH1-4.15", "role": "CORE",
                          "evidence": [{"kind": "SPEC",
-                                       "file": "graph/specification_points.yaml",
+                                       "file": GP.store_rel("specification_points"),
                                        "quote": SPEC_415_QUOTE}]}],
         "provenance": dict(PROV), "confidence": "high",
         "validation_status": "SUGGESTED",

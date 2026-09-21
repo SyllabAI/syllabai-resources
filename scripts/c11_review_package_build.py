@@ -622,7 +622,7 @@ pkg_json = {
                 "produced' — the theoretical-yield concept phrased without the word "
                 "'yield'; instructional text (not a table label), but not the "
                 "verbatim alias phrase"),
-            "note": "the data was never corrupted: 'maximum yield' is byte-stable in scripts/c11_pilot_decisions.yaml and graph/concepts.yaml across all committed revisions; the reported 'aximum yield' corruption existed only in report text (corrected this session)",
+            "note": "the data was never corrupted: 'maximum yield' is byte-stable in scripts/c11_pilot_decisions.yaml and graph/igcse-chemistry/concepts across all committed revisions; the reported 'aximum yield' corruption existed only in report text (corrected this session)",
             "disposition_options": [
                 "DROP the alias (strict verbatim-phrase policy)",
                 "RE-EVIDENCE: keep an alias grounded on the Reacting-mass 'maximum possible mass' usage (requires an operator ruling that non-verbatim derived aliases are admissible)",
@@ -991,7 +991,7 @@ A("### 7.1 What the data actually says (counter-confirmation of the "
   "session-42 counter-audit)")
 A("")
 A("- `scripts/c11_pilot_decisions.yaml` → `aliases: " + chr(91) + "maximum yield" + chr(93) + "`")
-A("- `graph/concepts.yaml` → `- maximum yield`")
+A("- `graph/igcse-chemistry/concepts` → `- maximum yield`")
 A("- No committed data revision — `e218259`, `4eba8ea`, `4ac4a82`, "
   "`3b70dde` — contains the string `aximum yield`. **The data corruption "
   "reported in session-41's defect record never existed in the store.**")
@@ -1043,7 +1043,7 @@ A("**Policy question for the operator** (one ruling covers the table): "
   "`alias_policy` + the `maximum yield` row.")
 A("")
 A("**No alias was modified in this session** — the decision record and "
-  "`graph/concepts.yaml` are byte-identical to `3b70dde`.")
+  "`graph/igcse-chemistry/concepts` are byte-identical to `3b70dde`.")
 A("")
 A("---")
 A("")

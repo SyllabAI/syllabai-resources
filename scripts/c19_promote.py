@@ -7,7 +7,7 @@ Promotion path (CONCEPT_SPEC_POINT_MAPPING_VALIDATION_LANE.md §7, RATIFIED v1.1
 
   filled operator review sheet  ->  scripts/c19_promotions.yaml (this tool,
   the only writer)  ->  gated generator re-run (c11_concept_pilot.py G19)  ->
-  graph/concept_edges.yaml PART_OF rows carry HUMAN_VALIDATED + validated_by/date.
+  graph/igcse-chemistry/concept_edges PART_OF rows carry HUMAN_VALIDATED + validated_by/date.
 
 Hard properties (fail closed):
   * the filled sheet is the ONLY input verdict authority; the tool re-computes

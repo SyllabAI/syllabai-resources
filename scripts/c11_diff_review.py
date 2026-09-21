@@ -9,13 +9,13 @@ The pilot's remaining operator actions are per-row verdicts on 31 SUGGESTED
 authored edges + 29 nodes (C11_OPERATOR_DECISIONS.json). Reading the review
 sheet row-by-row and invoking c11_promote.py once per identity is slow. This
 tool presents every pending item as the EXACT diff approval would apply to
-graph/concept_edges.yaml, and turns an operator verdict into one batched
+graph/igcse-chemistry/concept_edges, and turns an operator verdict into one batched
 c11_promote.py invocation (a single gated generator re-run).
 
 Presentation fidelity (the core property)
 -----------------------------------------
 The preview is NOT an approximation. The simulator re-emits
-graph/concept_edges.yaml using the generator's own serialization contract
+graph/igcse-chemistry/concept_edges using the generator's own serialization contract
 (yaml.safe_dump, sort_keys=False, width=100, allow_unicode=True, same header)
 with the §18 promotion transformation applied:
 
@@ -311,7 +311,7 @@ def roundtrip_guard(st: dict) -> None:
     header, body = split_header(st["graph_text"])
     doc = yaml.safe_load(body)
     if yaml.safe_dump(doc, **DUMP_KW) != body:
-        die("graph/concept_edges.yaml is not byte-reproducible under the "
+        die("graph/igcse-chemistry/concept_edges is not byte-reproducible under the "
             "generator's serialization contract (hand-edit or foreign "
             "writer suspected). Refusing to preview diffs that could not "
             "be trusted. Restore the generated file via the gated "
@@ -345,7 +345,7 @@ def simulate_promotion(st: dict, batch: list, by: str, date: str):
             changed += 1
     if changed != len(batch_set):
         die(f"simulation mismatch: {changed} of {len(batch_set)} batch "
-            f"identities found in graph/concept_edges.yaml")
+            f"identities found in graph/igcse-chemistry/concept_edges")
     meta = doc["meta"]
     counts = meta["counts"]
     counts["promoted_edges"] = sum(1 for e in doc["edges"]
@@ -359,8 +359,8 @@ def simulate_promotion(st: dict, batch: list, by: str, date: str):
 def diff_lines(old: str, new: str, n: int = 3):
     return list(difflib.unified_diff(old.splitlines(keepends=True),
                                      new.splitlines(keepends=True),
-                                     fromfile="graph/concept_edges.yaml (before)",
-                                     tofile="graph/concept_edges.yaml (after)",
+                                     fromfile="graph/igcse-chemistry/concept_edges (before)",
+                                     tofile="graph/igcse-chemistry/concept_edges (after)",
                                      n=n))
 
 
@@ -415,7 +415,7 @@ def edge_hunk_manual(st: dict, identity: str, by: str, date: str,
     j = _find_edge_status_line(old_lines, identity)
     if j is None:
         die(f"{identity}: SUGGESTED block not found in "
-            f"graph/concept_edges.yaml — cannot render the preview")
+            f"graph/igcse-chemistry/concept_edges — cannot render the preview")
     before = old_lines[max(0, j - CTX):j]
     after = old_lines[j + 1:j + 1 + CTX]
     first = j - len(before)              # 0-based index of first hunk line
@@ -517,7 +517,7 @@ def batch_hunks(st: dict, batch: list, by: str, date: str) -> list:
         j = _find_edge_status_line(old_lines, ident)
         if j is None:
             die(f"{ident}: SUGGESTED block not found in "
-                f"graph/concept_edges.yaml — cannot render the preview")
+                f"graph/igcse-chemistry/concept_edges — cannot render the preview")
         located.append((j, ident))
     located.sort()
     out = list(meta_hunk_manual(st, len(set(batch))))
@@ -775,7 +775,7 @@ def cmd_export(st: dict, args) -> int:
              f"pending-flagged {sum(1 for i in pend if i['flag'])}); "
              f"not-actionable: {len(act) - len(pend)}; nodes awaiting a "
              f"pathway: {len(node_items(st))}")
-    L.append("- preview fidelity: simulator re-emits graph/concept_edges.yaml "
+    L.append("- preview fidelity: simulator re-emits graph/igcse-chemistry/concept_edges "
              "under the generator's own serialization contract with a "
              "byte-identity guard — what you read is what G13 will write.")
     L.append("")

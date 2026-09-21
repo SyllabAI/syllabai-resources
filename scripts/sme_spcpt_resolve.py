@@ -4,7 +4,7 @@ T-SME-EQ-1 — resolve SME spcpt_ ids to official 4CH1 spec codes.
 
 Inputs:
   SME-ExamQuestion/spec_point_index.json   (harvest output)
-  graph/specification_points.yaml          (182-point registry, ground truth)
+  graph/igcse-chemistry/specification_points          (182-point registry, ground truth)
   Chemistry IGCSE Revision Notes/**.md     (spec_map front matter = cross-check)
   SME-ExamQuestion/*/*/topic.json          (subtopic slug -> revision_note_id)
 
@@ -69,7 +69,7 @@ def score(sme_def: str, official: str) -> float:
 
 
 def load_registry() -> dict[str, dict]:
-    doc = yaml.safe_load((BASE / "graph" / "specification_points.yaml")
+    doc = yaml.safe_load((BASE / "graph" / "igcse-chemistry" / "specification_points.yaml")
                          .read_text(encoding="utf-8"))
     return {p["code"]: p for p in doc["specification_points"]}
 

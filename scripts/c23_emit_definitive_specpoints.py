@@ -8,7 +8,7 @@ for the graph store, per the operator directive (2026-09-19):
   new (definitive)  = Official-Specifications/parsed/igcse-chemistry/spec_points.json
                       (canonical-builder-2.0, PDF verbatim wording + sub_items,
                        gates ALL_PASS, provenance sha1-pinned to the 2017 PDF)
-  old (retired)     = graph/specification_points.yaml as emitted 2026-09-10 by
+  old (retired)     = graph/igcse-chemistry/specification_points as emitted 2026-09-10 by
                       scripts/c09_spec_graph_extract.py from the OCR'd markdown
                       international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md
 
@@ -44,10 +44,12 @@ from pathlib import Path
 import yaml
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 CANON = REPO / "Official-Specifications/parsed/igcse-chemistry/spec_points.json"
-OLD_SP = REPO / "graph/specification_points.yaml"
-EDGES = REPO / "graph/concept_edges.yaml"
-CONCEPTS = REPO / "graph/concepts.yaml"
+OLD_SP = GP.store("specification_points")
+EDGES = GP.store("concept_edges")
+CONCEPTS = GP.store("concepts")
 RECORD_OUT_JSON = REPO / "graph/reports/C23_DEFINITIVE_SWAP_RECORD.json"
 RECORD_OUT_MD = REPO / "graph/reports/C23_DEFINITIVE_SWAP_RECORD.md"
 
@@ -261,7 +263,7 @@ def main() -> int:
     def fix_evidence(owner_label, tgt, evidence):
         """Re-anchor stale SPEC quotes (checker norm) in one evidence list."""
         for a in evidence or []:
-            if a.get("kind") != "SPEC" or a.get("file") != "graph/specification_points.yaml":
+            if a.get("kind") != "SPEC" or a.get("file") != GP.store_rel("specification_points"):
                 continue
             q = str(a.get("quote", ""))
             nw = text_of.get(tgt, "")

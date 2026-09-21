@@ -5,7 +5,7 @@ definitive specification store.
 Defect (found by the C27 final all-store sweep): 211 chunk-map rows carry a
 `sp_title` display label copied from the spec store at c13 build time
 (2026-09-18, pre-C24). 84/211 labels drifted from the definitive
-`graph/specification_points.yaml` official_wording; 4 of them still carry
+`graph/igcse-chemistry/specification_points` official_wording; 4 of them still carry
 retired-lineage notation damage eliminated by C24 (inline-math $R_f$/$A_r$
 forms and a CJK ideograph in 1.10) — i.e. graph/ retained exactly one store
 deriving wording from the retired OCR lineage, contradicting the C26
@@ -15,12 +15,15 @@ display label is re-sourced from the definitive wording.
 
 Surgical per-row span edit; idempotent; deep-verified.
 """
-import hashlib, json, re, subprocess
+import hashlib, json, os, re, subprocess, sys
 import yaml
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 REPO = "/home/z/my-project/gh_repos/syllabai-resources"
-CM = f"{REPO}/graph/spec_chunk_mappings.yaml"
-SP = f"{REPO}/graph/specification_points.yaml"
+CM = str(GP.store("spec_chunk_mappings"))
+SP = str(GP.store("specification_points"))
 
 def sha256(p):
     h = hashlib.sha256()
@@ -98,7 +101,7 @@ assert len(edits) == len(drift)
 
 # 4. meta lineage note (insert before top-level rows: line)
 note = [
-    "  sp_title_wording_source: definitive graph/specification_points.yaml official_wording"
+    f"  sp_title_wording_source: definitive {GP.store_rel('specification_points')} official_wording"
     " (C23 PDF-direct lineage; C24 respacing)",
     "  sp_title_refresh: 'C27 - 84/211 labels re-sourced from the definitive store;"
     " 4 carried retired-lineage notation damage (inline-math + CJK classes, pre-C24 wording)'",
@@ -110,7 +113,7 @@ if "sp_title_refresh:" not in raw:
     out = "\n".join(lines) + ("\n" if raw.endswith("\n") else "")
     print("[meta] lineage note inserted")
 
-pre_sha = hashlib.sha256(subprocess.run(["git", "-C", REPO, "show", "HEAD:graph/spec_chunk_mappings.yaml"],
+pre_sha = hashlib.sha256(subprocess.run(["git", "-C", REPO, "show", f"HEAD:{GP.store_rel('spec_chunk_mappings')}"],
                                         capture_output=True).stdout).hexdigest()
 open(CM, "w", encoding="utf-8").write(out)
 

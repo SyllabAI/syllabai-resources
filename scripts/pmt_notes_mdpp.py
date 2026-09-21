@@ -15,7 +15,7 @@ Fidelity policy (mirrors syllabai-parser rules):
   - tesseract picture-text junk removed (counted)
   - vector structure figures that survive only as OCR garble inside table
     cells are replaced by an explicit omission marker (audited)
-  - spec markers validated against graph/specification_points.yaml namespace
+  - spec markers validated against graph/igcse-chemistry/specification_points namespace
 """
 import hashlib
 import json
@@ -24,6 +24,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 import pymupdf
 import pymupdf4llm
 import yaml
@@ -31,7 +34,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]      # repo root (in-repo copy)
 SRC_GLOB = "PMT Edexcel IGCSE Chemistry Resources/Unit */Notes/*.pdf"
 OUT_DIRNAME = "Notes (Markdown)"
-GRAPH = ROOT / "graph" / "specification_points.yaml"
+GRAPH = GP.store("specification_points")  # C28 registry-resolved
 
 ZERO_CHARS = dict.fromkeys(map(ord, "\u200b\u200c\u200d\ufeff\u00ad"), None)
 PMT_FOOTER = re.compile(r"^\s*_?(www\.pmt\.education|pmt\s*education|resources.*courses)_?\s*$", re.I)

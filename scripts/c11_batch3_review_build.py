@@ -481,8 +481,8 @@ A("3. This batch COMPLETES Section 1 coverage (pilot + batches 1–3 = all 60 "
   "phase 2 (S3).")
 A("")
 A("---")
-A(f"Machine artifacts: `graph/concepts.yaml`, `graph/concept_edges.yaml`, "
-  f"`graph/spec_command_kinds.yaml` (generated, gated, merged store) · "
+A(f"Machine artifacts: `graph/igcse-chemistry/concepts`, `graph/igcse-chemistry/concept_edges`, "
+  f"`graph/igcse-chemistry/spec_command_kinds` (generated, gated, merged store) · "
   f"`C11_BATCH3_REVIEW.json` (this sheet's machine record) · "
   f"`scripts/c11_batch3_verdicts_template.yaml` (the verdict template) · "
   f"contract: `C11_ARCHITECTURE.md`")

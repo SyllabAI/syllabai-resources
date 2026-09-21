@@ -8,8 +8,11 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 ROOT = Path(__file__).resolve().parents[1]
-G = ROOT / "graph"
+G = GP.qual_dir()  # C28 registry-resolved ratified store dir
 P = ROOT / "Official-Specifications/parsed/igcse-chemistry"
 FAIL = []
 
@@ -44,8 +47,8 @@ def flat_docs(doc, list_keys=None):
 # ---- load new + old
 names = ["topics", "practicals", "assessment_objectives", "command_words", "relationships"]
 new = {n: yaml.safe_load((G / f"{n}.yaml").read_text(encoding="utf-8")) for n in names}
-old = {n: yaml.safe_load(head(f"graph/{n}.yaml")) for n in names}
-ledger = json.loads((G / "reports/C26_WORDING_DIFF_LEDGER.json").read_text(encoding="utf-8"))
+old = {n: yaml.safe_load(head(GP.store_rel(n))) for n in names}
+ledger = json.loads((GP.reports_dir() / "C26_WORDING_DIFF_LEDGER.json").read_text(encoding="utf-8"))
 can = {n: json.loads((P / f"{n}.json").read_text(encoding="utf-8"))
        for n in ("topics", "practicals", "assessment_objectives", "command_words")}
 
@@ -145,8 +148,8 @@ pats = {"CJK": r"[\u4e00-\u9fff\u3400-\u4dbf]", "LaTeX": r"\$[^$\n]{1,60}\$",
         "fullwidth": r"[\u3000-\u303f\uff01-\uff5e\u3000]", "U+FFFD": r"\ufffd",
         "double-enc": r"[ÃÂ][\u0080-\u00ff]?", "esc": r"\\u[0-9a-fA-F]{4}"}
 hits = []
-texts = {f"graph/{n}.yaml": (G / f"{n}.yaml").read_text(encoding="utf-8") for n in names}
-texts["graph/specification_points.yaml"] = (G / "specification_points.yaml").read_text(encoding="utf-8")
+texts = {GP.store_rel(n): (G / f"{n}.yaml").read_text(encoding="utf-8") for n in names}
+texts[GP.store_rel("specification_points")] = (G / "specification_points.yaml").read_text(encoding="utf-8")
 for f, t in texts.items():
     for pn, pp in pats.items():
         for m in re.finditer(pp, t):

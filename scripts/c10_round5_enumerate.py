@@ -28,6 +28,9 @@ import sys
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 REPO = Path(__file__).resolve().parent.parent
 OUT = Path("/home/z/my-project/scripts/round5")
 DOSS = OUT / "dossiers"
@@ -85,7 +88,7 @@ def sections(body: str):
 
 def load_targets():
     import yaml
-    sp = yaml.safe_load((REPO / "graph/specification_points.yaml").read_text(encoding="utf-8"))
+    sp = yaml.safe_load(GP.store("specification_points").read_text(encoding="utf-8"))
     points = {p["code"]: p for p in sp["specification_points"]}
 
     store = {}  # (note, code) -> mapping dict, in subsection order

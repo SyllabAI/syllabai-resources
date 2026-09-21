@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Chemistry rediff: fresh PDF-direct parse (parsed/igcse-chemistry) vs the
-existing graph/specification_points.yaml (built from raw-OCR markdown).
+existing graph/igcse-chemistry/specification_points (built from raw-OCR markdown).
 Outputs: code-set equality + per-code text diff quantifying OCR damage."""
 import json, glob, re, difflib
 import yaml
 
 RES = '/home/z/my-project/download/syllabai-resources'
 
-g = yaml.safe_load(open(f'{RES}/graph/specification_points.yaml'))
+g = yaml.safe_load(open(f'{RES}/graph/igcse-chemistry/specification_points'))
 graph = {}
 for sp in g['specification_points']:
     graph[sp['official_code']] = {
@@ -66,7 +66,7 @@ with open(f'{RES}/Official-Specifications/parsed/chemistry-rediff.json', 'w') as
     json.dump(out, f, indent=1, ensure_ascii=False)
 
 md = ['# Chemistry parse rediff — PDF-direct vs OCR-markdown graph', '',
-      f'- Graph (`graph/specification_points.yaml`, from raw-OCR md): **{len(g_codes)} codes**',
+      f'- Graph (`graph/igcse-chemistry/specification_points`, from raw-OCR md): **{len(g_codes)} codes**',
       f'- Fresh parse (`parsed/igcse-chemistry`, PDF text layer): **{len(p_codes)} codes**',
       f'- Code-set equality: **{"PASS" if equal_codes else "FAIL"}**'
       + (f' (only in graph: {only_g}; only in parsed: {only_p})' if (only_g or only_p) else ''),

@@ -61,11 +61,15 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
+
 import yaml
 from pydantic import BaseModel, Field, ValidationError
 
 REPO = Path(__file__).resolve().parent.parent
-GRAPH = REPO / "graph"
+GRAPH = GP.qual_dir()  # C28 registry-resolved ratified store dir
 
 TOOL_NAME = "c12_spec_tagger"
 CURRICULUM = "4CH1-2017"
@@ -415,7 +419,7 @@ def _provenance(model: str, pass_id: str, notes: str, run_date: str) -> Provenan
         extraction_pass=pass_id,
         derivation_method="LLM_VERIFIED_CANDIDATES",
         derivation_notes=notes,
-        upstream="prefilter c12 (IDF token overlap) over graph/specification_points.yaml (c09 registry)",
+        upstream="prefilter c12 (IDF token overlap) over graph/igcse-chemistry/specification_points (c09 registry)",
         generated_date=run_date)
 
 

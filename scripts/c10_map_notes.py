@@ -8,7 +8,7 @@ before anything is written:
 
   G1  coverage   — every walked note has a decision record; 112 == 112
   G2  registry   — every mapped code exists in the 182-point registry
-                   (graph/specification_points.yaml); no foreign curriculum
+                   (graph/igcse-chemistry/specification_points); no foreign curriculum
                    codes can therefore exist, but codes are also regex-gated
                    to the 4CH1-* namespace
   G3  evidence   — every AI_SUGGESTED mapping's evidence quote appears
@@ -546,7 +546,7 @@ def write_reports(stats, flags, decisions, code2sub, sub_titles, notes,
         sl.append(f"- note: `{n['path']}`")
         sl.append(f"- confidence: **{m['confidence']}**")
         sl.append(f"- spec statement: {sub_titles.get(code2sub[m['code']], '')} "
-                  f"(see graph/specification_points.yaml {m['code']})")
+                  f"(see graph/igcse-chemistry/specification_points {m['code']})")
         sl.append(f"- evidence quote: “{m['evidence']}”")
         sl.append(f"- AI rationale: {m['rationale']}")
         sl.append(f"- verdict: ☐ CONFIRMED ☐ REJECT (edit front matter) ☐ UNSURE")

@@ -361,8 +361,8 @@ A("3. Expansion to the full 4CH1 graph requires the §16 criteria (all gates "
   "operator authorization — see `C11_S16_GATE_REPORT.md`.")
 A("")
 A("---")
-A(f"Machine artifacts: `graph/concepts.yaml`, `graph/concept_edges.yaml`, "
-  f"`graph/spec_command_kinds.yaml` (generated, gated) · "
+A(f"Machine artifacts: `graph/igcse-chemistry/concepts`, `graph/igcse-chemistry/concept_edges`, "
+  f"`graph/igcse-chemistry/spec_command_kinds` (generated, gated) · "
   f"`C11_PILOT_REVIEW.json` (this sheet's machine record) · contract: "
   f"`C11_ARCHITECTURE.md`")
 

@@ -20,12 +20,14 @@ from collections import Counter
 import yaml
 
 REPO = "/home/z/my-project/gh_repos/syllabai-resources"
+sys.path.insert(0, os.path.join(REPO, "scripts"))
+import graph_paths as GP  # C28 §3.2 path registry — single source of ratified store paths
 DL = "/home/z/my-project/download"
 FU = "/home/z/my-project/gh_repos/FileUpload"
 KG_DIR = os.path.join(FU, "syllabai-openhuman-edexcel-chemistry-kg")
 PARSE = os.path.join(REPO, "Official-Specifications/parsed")
 CANON = os.path.join(PARSE, "igcse-chemistry")
-GRAPH = os.path.join(REPO, "graph")
+GRAPH = str(GP.qual_dir())  # C28 registry-resolved ratified store dir
 PDF_SHA1 = "3ad641b7c60b314fa3b10680feda30bf56280a53"
 
 RESULTS = []  # (section, name, status, detail)
@@ -99,6 +101,12 @@ def s0():
     st = subprocess.run(["git", "status", "--porcelain"], cwd=REPO, capture_output=True, text=True).stdout.strip()
     gate("S0", "HEAD == origin/main", head == remote, f"head={head[:8]} remote={remote[:8]}")
     gate("S0", "working tree clean", st == "", st.splitlines()[:3] if st else "0 dirty paths")
+    import check_no_hardcode as cnh  # C28 §3.2 mechanical no-hardcode + registry gates
+    bad, _allowed = cnh.scan()
+    gate("S0", "no-hardcode: legacy store paths extinct from tooling (C28 §3.2)", not bad,
+         "0 hits outside registry allowlist" if not bad else str(bad[:4]))
+    reg_ok, reg_detail = cnh.registry_consistency()
+    gate("S0", "graph-path registry consistency (C28 §3.2)", reg_ok, reg_detail)
     return head, remote
 
 # ---------- S1 graph stores ----------
@@ -364,15 +372,15 @@ def s3(stores):
 
 # ---------- S4 pins ----------
 PINS = {
-    "graph/specification_points.yaml": "956d276f6e4354fa",
-    "graph/topics.yaml": "81a4745760bcce2c",
-    "graph/practicals.yaml": "8e0ab9c471937688",
-    "graph/assessment_objectives.yaml": "3dc670176f2f5529",  # C27 post (C26 post was 36f361ec…; matrix repair)
-    "graph/command_words.yaml": "824c50ee0625672c",
-    "graph/relationships.yaml": "6bd3f8236ac2120a",
-    "graph/concepts.yaml": "634a743b65d1612b",
-    "graph/concept_edges.yaml": "ccc674cf3a94b8e4",
-    "graph/spec_chunk_mappings.yaml": "f36910450bd50726",  # C27 post (pre was 3d4877dd…; sp_title refresh)
+    GP.legacy_rel("specification_points"): "956d276f6e4354fa",
+    GP.legacy_rel("topics"): "81a4745760bcce2c",
+    GP.legacy_rel("practicals"): "8e0ab9c471937688",
+    GP.legacy_rel("assessment_objectives"): "3dc670176f2f5529",  # C27 post (C26 post was 36f361ec…; matrix repair)
+    GP.legacy_rel("command_words"): "824c50ee0625672c",
+    GP.legacy_rel("relationships"): "6bd3f8236ac2120a",
+    GP.legacy_rel("concepts"): "634a743b65d1612b",
+    GP.legacy_rel("concept_edges"): "ccc674cf3a94b8e4",
+    GP.legacy_rel("spec_chunk_mappings"): "f36910450bd50726",  # C27 post (pre was 3d4877dd…; sp_title refresh)
     "graph/reports/C26_WORDING_DIFF_LEDGER.json": "b3334f6057ea649a",
     "scripts/c26_emit_definitive_sibling_stores.py": "c4ad56a19789cc4d",
     "scripts/c26_postcheck.py": "b309c07b087792ac",
@@ -383,7 +391,7 @@ PINS = {
 def s4():
     bad = []
     for rel, pin in PINS.items():
-        p = os.path.join(REPO, rel)
+        p = os.path.join(REPO, GP.resolve_rel(rel))  # C28: legacy pin labels -> canonical paths
         if not os.path.exists(p):
             bad.append((rel, "MISSING")); continue
         cur = sha256(p)[:16]

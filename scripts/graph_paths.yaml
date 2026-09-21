@@ -1,0 +1,40 @@
+schema: graph-path-registry/1.0
+note: >
+  C28 §3.2 — single source of ratified-plane store paths. Tooling MUST resolve
+  store paths through scripts/graph_paths.py (this file is its only input);
+  hardcoded store paths outside it are a check failure (check_no_hardcode.py,
+  wired as an S0 gate in the C27 sweep). {QUAL} templates resolve per stage.
+layout:
+  # C28 stage resolution for the migrating (default) qual:
+  #   ''                 = pre-migration root layout  (stores at graph/<store>.yaml)
+  #   'igcse-chemistry'  = post stage-2 git mv        (stores at graph/igcse-chemistry/<store>.yaml)
+  qual_prefix: ''
+default_qual: igcse-chemistry
+quals:
+  igcse-chemistry:
+    stores:
+      specification_points: graph/{QUAL}/specification_points.yaml
+      topics: graph/{QUAL}/topics.yaml
+      practicals: graph/{QUAL}/practicals.yaml
+      assessment_objectives: graph/{QUAL}/assessment_objectives.yaml
+      command_words: graph/{QUAL}/command_words.yaml
+      relationships: graph/{QUAL}/relationships.yaml
+      concepts: graph/{QUAL}/concepts.yaml
+      concept_edges: graph/{QUAL}/concept_edges.yaml
+      spec_chunk_mappings: graph/{QUAL}/spec_chunk_mappings.yaml
+      spec_command_kinds: graph/{QUAL}/spec_command_kinds.yaml
+    reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
+    core_sync_target: syllabai-core/src/main/resources/concept-graph/
+legacy_map: {}
+  # Filled at C28 stage-2 — historical root-form store paths -> canonical per-qual
+  # paths. P5 errata bridge: landed records and verdict ledgers are never edited;
+  # checkers re-verifying their pinned paths resolve through graph_paths.resolve_rel().
+legacy_allowlist:
+  # Immutable verdict/decision ledgers that legitimately carry historical
+  # root-form store refs (P5: byte-untouched; resolved via legacy_map at re-verify).
+  - scripts/c11_batch1_decisions.yaml
+  - scripts/c11_batch2_decisions.yaml
+  - scripts/c11_batch3_decisions.yaml
+  - scripts/c11_batch4_decisions.yaml
+  - scripts/c11_pilot_decisions.yaml
+  - scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
