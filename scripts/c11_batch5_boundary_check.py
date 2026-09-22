@@ -16,7 +16,8 @@ checkable, not prose (the c11_batch4_boundary_check.py pattern):
                               batch-5 authoring (checked post-authoring), the
                               non_mint_list is duplicate-free + covered, the
                               semantic HV count is the operator promotions
-                              (153; PART_OF HV rides the later T-C19 G19
+                              (171 after the session-56 §18 application;
+                              PART_OF HV rides the later T-C19 G19
                               record)
 
 Usage: python3 scripts/c11_batch5_boundary_check.py
@@ -140,7 +141,13 @@ check("C max_boundary_edges honoured (at most 3 sanctioned targets)",
 # scripts/c11_batch5_decisions.yaml, extraction_pass c11-s16-batch-5, the
 # record this ruling governs — 16 nodes + 13 PART_OF + 18 authored semantic
 # edges, ZERO promotions: 153 SEMANTIC HV unchanged. The ruling itself still
-# mints nothing and promotes nothing.)
+# mints nothing and promotes nothing.
+# session-56 re-anchor, dated, protective intent unchanged: the operator's
+# batch-5 verdicts (c11_batch5_verdicts, completed sheet §6) were APPLIED
+# through §18 — the 18 batch-5 authored semantic edges promoted to
+# HUMAN_VALIDATED (153 -> 171 semantic HV); the ruling's protected property
+# is unchanged: it still mints nothing, and every promoted identity is a
+# batch-5 authored row, not a ruling mint.)
 # ---------------------------------------------------------------------------
 expected_nodes = 113 + (16 if B5_RECORD.exists() else 0)
 expected_edges = 275 + (31 if B5_RECORD.exists() else 0)
@@ -155,9 +162,10 @@ check("D2 the ruling mints no edge beyond the sanctioned batch-5 authoring",
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")
-check("D3 semantic HV unchanged at the operator-promoted count (153 — "
-      "authoring promotes nothing; PART_OF HV rides the T-C19 G19 record)",
-      hv == 153)
+check("D3 semantic HV at the operator-promoted count (171 = 153 + the 18 "
+      "batch-5 §18 promotions applied at session 56; the ruling itself "
+      "still mints nothing; PART_OF HV rides the T-C19 G19 record)",
+      hv == 171)
 check("D4 non_goals recorded (no ontology redesign / no re-opening / no "
       "re-scope / no promotion authority / no direct writes)",
       len(rul.get("non_goals", [])) >= 5)

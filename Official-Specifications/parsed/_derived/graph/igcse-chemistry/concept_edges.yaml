@@ -1,9 +1,9 @@
 meta:
   schema: ratified-store-projection/1.0
   projection_of: graph/igcse-chemistry/concept_edges.yaml
-  source_sha256_16: 65392d953919c143
+  source_sha256_16: e402cb71a5435ea1
   emitter: scripts/c28_emit_explorer_blob.py@1.0.0
-  emitted_at: '2026-09-21T20:42:11Z'
+  emitted_at: '2026-09-22T05:35:56Z'
   note: 'Emitter-owned serving projection (C28 spec sections 3.3/5). Rows verbatim from the ratified store
     at the pinned sha; never hand-edit - the S8 drift gate (G1 source freshness + G2 re-emit idempotency)
     fails on drift. Authority: the ratified store.'
@@ -4683,7 +4683,9 @@ edges:
       record (4CH1-3.1); session-55 boundary ruling sanctioned target
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-COMPOUND
@@ -5496,7 +5498,9 @@ edges:
       by this record (4CH1-2.2)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G1-REACTIVITY-ECONFIG
@@ -5522,7 +5526,9 @@ edges:
       target
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G1-TREND
@@ -5550,7 +5556,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.1/2.2 @ Group 1 reactivity & trends (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G7-DISPLACEMENT
@@ -5577,7 +5585,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.5/2.7 @ Group 7 properties (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G7-DISPLACEMENT
@@ -5602,7 +5612,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.7 @ Group 7 properties + 4CH1-2.8C @ Group 7 reactivity (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G7-PREDICTION
@@ -5631,7 +5643,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.5/2.6 @ Group 7 properties (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G7-PREDICTION
@@ -5661,7 +5675,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.6 @ Group 7 properties + 4CH1-2.8C @ Group 7 reactivity (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-G7-REACTIVITY-ECONFIG
@@ -5686,7 +5702,9 @@ edges:
       the batch-2 record (4CH1-1.39/1.40); session-55 boundary ruling sanctioned target
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-GAS-VOL-CALC
@@ -7412,7 +7430,9 @@ edges:
       4CH1-PR-05 (spec_point 4CH1-2.14)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-PR-09
@@ -7572,7 +7592,9 @@ edges:
       (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-CRYSTALLISATION
@@ -7700,7 +7722,9 @@ edges:
       source node owned by this record (4CH1-2.2)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-GROUP-SIMILARITY
@@ -8170,7 +8194,9 @@ edges:
     upstream: pinned GASES_MS_P2 (sha1_12 c65669a9c763) Q1c Notes column; spec 4CH1-2.12 official wording
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-ENTHALPY-UNIT-J
@@ -8268,7 +8294,9 @@ edges:
     upstream: pinned GROUP1_MS_P2 (sha1_12 7c27bbfc09cd) Q1d/Q3d; spec 4CH1-2.4C official wording
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-GAS-PARTICLES-TOUCH
@@ -8337,7 +8365,9 @@ edges:
     upstream: pinned GROUP7_MS_P2 (sha1_12 10edeea32c73) Q1bii Reject column; spec 4CH1-2.7 official wording
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-IONIC-BOND-ATOMS
@@ -8564,7 +8594,9 @@ edges:
       Q1c expected answer
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-ENTHALPY-UNIT-J
@@ -8693,7 +8725,9 @@ edges:
       pinned GROUP1_MS_P2 Q1d accept surface
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-GAS-PARTICLES-TOUCH
@@ -8769,7 +8803,9 @@ edges:
       expected answers
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-IONIC-BOND-ATOMS

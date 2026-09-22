@@ -1,0 +1,319 @@
+# T-C11 §16 batch 5 — OPERATOR verdict record (session-55 package), FILLED by operator decision session 56 (2026-09-22). OPERATOR-OWNED.
+# Operator verdict (completed review sheet §6, C11_BATCH5_REVIEW_SHEET_COMPLETED.md): all 16 node verdicts and all 18
+# edge verdicts accepted with the pass-2 statuses retained (the five
+# CONFIRM_WITH_NOTE qualifications recorded in notes per the vocabulary rule); the six identity
+# decisions KEEP_AS_IS; the 14 held candidates acknowledged and quarantined; zero RR; zero REJECT.
+# Vocabulary and pathway: see the meta.instructions block. Verdicts are RECORDED; the application state lives in
+# scripts/c11_promotions.yaml (§18) — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-5-verdicts
+  batch: 5
+  session: 56
+  file: OPERATOR-OWNED verdict record for C11_BATCH5_REVIEW_SHEET (session-55 package) — verdicts recorded
+    by operator decision, session 56 (2026-09-22), from the completed review sheet §6 (C11_BATCH5_REVIEW_SHEET_COMPLETED.md).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-5 extraction_pass
+    is c11-s16-batch-5 (Section 2 Inorganic Chemistry FIRST slice, 14 SPs 4CH1-2.1-2.14); its 14 held
+    candidates are informational only (no reopening, no promotion of held candidates — B5-H-04/05/06 record
+    the classic wrong-answer patterns refused for missing documentation; revisit only with new MS evidence).
+    THREE edges are cross-section boundary edges into the ruled owners (CON-ELECTRONIC-CONFIGURATION x2
+    — batch 2; CON-EXO-ENDO — batch 4; sanctioned by the session-55 cross-slice ruling, no duplicate mint).
+    The next session applies verdicts via the §18 promotion pathway / §7 decision-record re-authoring;
+    nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: 'Final operator gate: Nodes 16/16 confirmed; Authored edges 18/18 confirmed; Identity decisions
+      6/6 KEEP_AS_IS; Held candidates 14/14 acknowledged and quarantined; REVIEW_REQUIRED edges 0; REJECTED
+      authored edges 0; Batch-5 promotions 0; Authority status SUGGESTED until the §18 promotion pathway
+      is executed. Operator verdict: PASS — proceed to encoding/reconciliation and the separately governed
+      promotion step. This verdict does not itself perform promotion. The next mechanical step remains
+      the existing pathway: encode the verdicts -> run the §18 promotion process -> regenerate -> rerun
+      the gate suite.'
+    session: 56
+    decided_by: operator
+    decided_date: '2026-09-22'
+    mapping: 'The operator reviewed the session-55 gate package (review sheet graph/reports/C11_BATCH5_REVIEW_SHEET.md
+      §1-5 byte-identical in the completed copy — verified before encoding) and returned the completed
+      sheet §6 ''Completed operator verdict'': all 16 pass-2 node verdicts accepted with the statuses
+      retained (13 CONCEPT rows CONFIRM — the 2.4C and 2.8C reactivity-econfig rows as CONFIRM_WITH_NOTE;
+      3 MISCONCEPTION rows CONFIRM — the halogen/halide and CuO-colour rows as CONFIRM_WITH_NOTE); all
+      18 authored semantic edges CONFIRM except the explicitly noted relation-class qualification B5-E-01
+      (AIR-COMPOSITION EXPLAINED_BY O2-PERCENT-DETERMINATION) — CONFIRM_WITH_NOTE: ''Retain the edge as
+      a grounding/teaching relation; do not reinterpret it as a claim that the composition concept is
+      independently caused by the percentage-determination method''; ''the three sanctioned cross-section
+      boundary edges remain CONFIRM and must continue to reference the existing owners. No duplicate concept
+      is to be minted''; the six identity decisions resolved KEEP_AS_IS each with a recorded rationale
+      (the 2.4C/2.8C opposite-direction siblings, the 2.9/2.10 know-vs-method pair, the 2.14 PR-05 practical
+      ownership, the 2.11 single family node, the two CO2 operands, the 2.1/2.2 similarities/differences
+      pair); the 14 held candidates ''ACKNOWLEDGED / KEEP QUARANTINED'' — none reopened, promoted, or
+      converted; zero RR rows (the batch authored none); zero REJECTED authored edges; final directive:
+      ''Operator verdict: PASS — proceed to encoding/reconciliation and the separately governed promotion
+      step.'' The operator verdict file itself is the authorization (the session-54 precedent). ENCODING
+      RULES: the verdict-record vocabulary (CONFIRM|REJECT|HOLD|MERGE|SPLIT) has no WITH_NOTE value, so
+      the operator''s five CONFIRM_WITH_NOTE statuses are recorded as CONFIRM with the qualification carried
+      verbatim in the row''s notes (the batch-1..4 precedent that qualifications ride in notes); node
+      verdicts are keyed by CODE and edge verdicts by TRIPLE — never by row id — because the sheet''s
+      §2/§6 node numbering (table order) differs from the template''s alphabetical-by-code numbering,
+      and each template row''s id<->code correspondence was asserted against the decision record before
+      encoding; node authority is NOT changed by these confirmations (nodes have no §18 pathway — node
+      promotion remains a separate identity decision, deferred); PART_OF is derived and outside §18; the
+      application state lives in scripts/c11_promotions.yaml (the §18 pathway is the only HUMAN_VALIDATED
+      source) — this file never carries promotion payload or promoted status. Changing a recorded verdict
+      requires an explicit operator decision.'
+edge_verdicts:
+- id: B5-E-01
+  triple: 4CH1-CON-AIR-COMPOSITION EXPLAINED_BY 4CH1-CON-O2-PERCENT-DETERMINATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 56): CONFIRM_WITH_NOTE retained — retain the edge as a grounding/teaching
+    relation; do not reinterpret it as a claim that the composition concept is independently caused by
+    the percentage-determination method. Pass-2 (FP-B5-4): the derivation chain (method -> calculation
+    -> 19.7% -> ''approximately 20%'') is fully in ONE source, which satisfies the EXPLAINED_BY contract;
+    the grounding direction is defensible and evidenced.'
+- id: B5-E-02
+  triple: 4CH1-CON-COMBUSTION-O2 REQUIRES_PREREQUISITE 4CH1-CON-EXO-ENDO
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — a sanctioned cross-section boundary edge (session-55 ruling; batch-4
+    owner CON-EXO-ENDO, no duplicate mint); the operator''s directive: the boundary edges ''remain CONFIRM
+    and must continue to reference the existing owners.'''
+- id: B5-E-03
+  triple: 4CH1-CON-G1-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G1-TREND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-E-04
+  triple: 4CH1-CON-G1-REACTIVITY-ECONFIG REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — a sanctioned cross-section boundary edge (session-55 ruling; batch-2
+    owner CON-ELECTRONIC-CONFIGURATION, no duplicate mint); the boundary edges ''remain CONFIRM and must
+    continue to reference the existing owners.'''
+- id: B5-E-05
+  triple: 4CH1-CON-G1-TREND EXPLAINED_BY 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-E-06
+  triple: 4CH1-CON-G1-TREND REQUIRES_PREREQUISITE 4CH1-CON-G1-FAMILY-EVIDENCE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-E-07
+  triple: 4CH1-CON-G7-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-G7-PROPERTIES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-E-08
+  triple: 4CH1-CON-G7-DISPLACEMENT REQUIRES_PREREQUISITE 4CH1-CON-G7-REACTIVITY-ECONFIG
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-E-09
+  triple: 4CH1-CON-G7-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G7-PROPERTIES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as re-authored (FP-B5-5) — scoped to the physical-trend surface (''The
+    melting and boiling points of the halogens increase as you go down the group''); the reactivity dependency
+    rides its own edge (B5-E-10).'
+- id: B5-E-10
+  triple: 4CH1-CON-G7-PREDICTION REQUIRES_PREREQUISITE 4CH1-CON-G7-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the FP-B5-5 companion row: the reactivity surface of the
+    prediction demand (''The halogens decrease in reactivity moving down the group, but they still form
+    halide salts'') depends on the 2.8C trend-explanation node.'
+- id: B5-E-11
+  triple: 4CH1-CON-G7-REACTIVITY-ECONFIG REQUIRES_PREREQUISITE 4CH1-CON-ELECTRONIC-CONFIGURATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM — a sanctioned cross-section boundary edge (session-55 ruling; batch-2
+    owner CON-ELECTRONIC-CONFIGURATION; the note''s verbatim dependency statement ''We can use electronic
+    configuration to explain the trends in chemical reactivity down Group 7''); the boundary edges ''remain
+    CONFIRM and must continue to reference the existing owners.'''
+- id: B5-E-12
+  triple: 4CH1-MIS-CUO-COLOUR REMEDIATED_BY 4CH1-CON-CO2-FROM-CARBONATES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — remediation target equals the WAP target (the B1-E-25 pattern,
+    operator-CONFIRMED in batches 1-4); the corrective text (''Copper(II) carbonate is a green powder
+    and slowly darkens as black copper(II) oxide is produced'') is note-verified.'
+- id: B5-E-13
+  triple: 4CH1-MIS-CUO-COLOUR WRONG_ANSWER_PATTERN 4CH1-CON-CO2-FROM-CARBONATES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the GASES Q1c Reject column (''REJECT all other colours''
+    + ''IGNORE brown'' against the expected ''black'') is clean documentation; narrow (one observation
+    answer) but the evidence is exact.'
+- id: B5-E-14
+  triple: 4CH1-MIS-G1-SHELL-EXPLANATION REMEDIATED_BY 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — remediation target equals the WAP target (the B1-E-25 pattern);
+    the corrective outer-electron distance/attraction text is note-verified.'
+- id: B5-E-15
+  triple: 4CH1-MIS-G1-SHELL-EXPLANATION WRONG_ANSWER_PATTERN 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the GROUP1 Q1d/Q3d IGNORE/award-restriction evidence class
+    (FP-B5-2 subtype confirmed by the operator''s acceptance): ''IGNORE references to more shells / larger
+    atomic radius'' is a documented wrong-answer pattern with an award restriction.'
+- id: B5-E-16
+  triple: 4CH1-MIS-HALOGEN-HALIDE REMEDIATED_BY 4CH1-CON-G7-DISPLACEMENT
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — remediation target equals the WAP target (the B1-E-25 pattern);
+    the displacement definition is note-verified.'
+- id: B5-E-17
+  triple: 4CH1-MIS-HALOGEN-HALIDE WRONG_ANSWER_PATTERN 4CH1-CON-G7-DISPLACEMENT
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — the GROUP7 Q1bii Reject column documents BOTH conflation
+    directions (same reactivity / different reactivity) — double-documented; the pdftotext column interleaving
+    is handled by the antonym-pairing attribution recorded in derivation_notes (the batch-4 RRE convention).'
+- id: B5-E-18
+  triple: 4CH1-PR-05 REQUIRES_PREREQUISITE 4CH1-CON-O2-PERCENT-DETERMINATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM as authored — PR-05 owns 2.14 (the 1.13/1.60C precedent; B5-ID-03 KEEP_AS_IS);
+    the practical->concept dependency (''To determine the percentage of oxygen in air using the oxidation
+    of iron'') is note-verified.'
+node_verdicts:
+- id: B5-N-01
+  code: 4CH1-CON-AIR-COMPOSITION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-02
+  code: 4CH1-CON-CO2-FROM-CARBONATES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-03
+  code: 4CH1-CON-CO2-GREENHOUSE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-04
+  code: 4CH1-CON-COMBUSTION-O2
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-05
+  code: 4CH1-CON-G1-FAMILY-EVIDENCE
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-06
+  code: 4CH1-CON-G1-PREDICTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-07
+  code: 4CH1-CON-G1-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2: SEPARATE from the 2.8C sibling node (B5-ID-01): electron LOSS vs electron
+    GAIN, opposite trend directions, distinct SPs — the split is defensible under the minting rule (distinct
+    taught substance); a MERGE would corrupt the opposite-direction structure the spec itself demands.
+    Attack result: keep.'
+- id: B5-N-08
+  code: 4CH1-CON-G1-TREND
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-09
+  code: 4CH1-CON-G7-DISPLACEMENT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-10
+  code: 4CH1-CON-G7-PREDICTION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-11
+  code: 4CH1-CON-G7-PROPERTIES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-N-12
+  code: 4CH1-CON-G7-REACTIVITY-ECONFIG
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2: same B5-ID-01 sibling question as the 2.4C node; the note states the
+    electronic-configuration dependency VERBATIM (''We can use electronic configuration to explain the
+    trends'') — the strongest boundary-edge anchor in the batch.'
+- id: B5-N-13
+  code: 4CH1-CON-O2-PERCENT-DETERMINATION
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B5-M-01
+  code: 4CH1-MIS-CUO-COLOUR
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2: the Q1c Reject column (''REJECT all other colours'' + ''IGNORE brown''
+    against the expected ''black'') is clean documentation; the pattern is narrow (one observation answer)
+    but the evidence is exact — the mint is defensible because the wrong colour is the CuCO3 decomposition''s
+    most assessable surface.'
+- id: B5-M-02
+  code: 4CH1-MIS-G1-SHELL-EXPLANATION
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: ''
+- id: B5-M-03
+  code: 4CH1-MIS-HALOGEN-HALIDE
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator §6: CONFIRM_WITH_NOTE retained (recorded CONFIRM; the qualification carries here per
+    the vocabulary rule). Pass-2: the Q1bii Reject column rejects BOTH conflation directions (same reactivity
+    / different reactivity) — double-documented; the pdftotext column interleaving is handled by antonym-pairing
+    attribution recorded in the node''s derivation_notes (the batch-4 RRE convention).'
+identity_decisions:
+- id: B5-ID-01
+  question: merge the 2.4C and 2.8C trend-explanation nodes into one electronic-configuration explanation
+    node (opposite directions, electron loss vs gain)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.4C and 2.8C as distinct sibling concepts because they encode
+    opposite Group-trend directions and therefore have distinct operands/meanings.'
+- id: B5-ID-02
+  question: split the air-composition know-facts from the oxygen-percentage determination (the spec's
+    2.9 know vs 2.10 understand-method pair)
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.9 air composition and 2.10 oxygen-percentage determination
+    separate: one is knowledge/composition; the other is a determination method.'
+- id: B5-ID-03
+  question: keep the 2.14 practical un-attached (PR-05 owns it) with the practical->concept edge — or
+    mint a determination-procedure node ON 2.14
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.14 under the existing PR-05 practical ownership rather than
+    minting a duplicate batch-5 concept.'
+- id: B5-ID-04
+  question: one combustion node for all three named elements (2.11) vs per-element nodes
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the 2.11 combustion concept as one family node; the source evidence
+    does not justify splitting the combustion-of-elements family into separate concept identities.'
+- id: B5-ID-05
+  question: split the CO2 family — carbonate decomposition (2.12) vs greenhouse role (2.13) — keep the
+    two-node split
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep the two CO2 concepts separate: thermal decomposition of carbonates
+    and greenhouse/climate-change significance represent different educational operands.'
+- id: B5-ID-06
+  question: split the G1 family-evidence (2.1) from the G1 trend (2.2) — the spec's similarities/differences
+    pair
+  verdict: KEEP_AS_IS
+  notes: 'Operator §6: KEEP_AS_IS — keep 2.1 family evidence and 2.2 trend/differences separate: similarities
+    establish family evidence, while differences support the reactivity trend.'
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator §6: all 14 held candidates (B5-H-01..14) are ACKNOWLEDGED / KEEP QUARANTINED — no held
+    candidate is reopened, promoted, or converted into an authored edge/node by this review; the abstention
+    reasons remain part of the evidence record. The three CLASSIC wrong-answer patterns refused for missing
+    documentation (B5-H-04/05/06) revisit only with new mark-scheme evidence (the session-53 Step-3 rule).
+    A held record is a valid outcome — the abstention is the system''s honest output.'

@@ -239,8 +239,8 @@ b2_confirms = {x["triple"] for x in b2_vd["edge_verdicts"]
                if x["verdict"] == "CONFIRM"}
 check("D6 batch-2 slice intact: 23 batch-2 CONFIRM still HUMAN_VALIDATED",
       b2_hv == b2_confirms and len(b2_hv) == 23)
-check("D7 store total 153 (28+28+23+39+35), all operator",
-      len(store_map) == 153
+check("D7 store total 171 (28+28+23+39+35+18), all operator",
+      len(store_map) == 171
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]
@@ -304,5 +304,7 @@ print(f"c11_batch3_verdict_check: ALL PASS — batch-3 operator verdict layer "
       f"(39 §18 promotions = the CONFIRM set; §7 header note only — no "
       f"operator_decision blocks; pilot + batch-1 + batch-2 slices intact; "
       f"118 store entries total; session-54 re-anchor: the batch-4 §18 "
-      f"application added 35 operator promotions — 153 total, the batch-3 "
+      f"application added 35 operator promotions — 153 total; the "
+      f"session-56 re-anchor: the batch-5 §18 application added 18 more — "
+      f"171 total, the batch-3 "
       f"slice preserved exactly).")

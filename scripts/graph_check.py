@@ -893,8 +893,9 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # pilot session-45 + 28 batch-1 session-48 + 23 batch-2 session-50 + 39
 # batch-3 session-52 + 35 batch-4 session-54 — all operator §18 promotions).
 # The 35 batch-4 SUGGESTED edges were promoted to HUMAN_VALIDATED at session
-# 54; the batch-5 authored edges are SUGGESTED pending the operator's batch-5
-# verdicts; batch nodes stay SUGGESTED (nodes have no §18 pathway).
+# 54; the batch-5 authored edges were SUGGESTED pending the operator's
+# batch-5 verdicts (recorded session 56 — see below); batch nodes stay
+# SUGGESTED (nodes have no §18 pathway).
 # 2 REVIEW_REQUIRED (the frozen pilot RR operator-HOLD edge + the settled
 # batch-1 RR quarantine HOLD_REVIEW_REQUIRED; batch 5 authored no new RR —
 # every doubt was held at authoring: 14 held candidates).
@@ -906,7 +907,13 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # 16 nodes + 13 PART_OF + 18 authored semantic edges — statuses only, zero
 # promotions; the PART_OF HV layer (117 -> 130) rides the T-C19 G19 record
 # pattern: new PART_OF rows inherit the C19-class attachment promotion
-# pathway at their own lane, not here.)
+# pathway at their own lane, not here. Session-56 note: the operator's
+# batch-5 verdicts (completed review sheet §6: 18 edge CONFIRM / 16 node
+# CONFIRM / 6 identity KEEP_AS_IS / 14 held acknowledged) were APPLIED
+# through §18 — the 18 batch-5 authored semantic edges promoted to
+# HUMAN_VALIDATED (171 semantic HV total = 28+28+23+39+35+18, all
+# operator); graph shape unchanged; the only live SUGGESTED semantic
+# edges are again the 3 frozen pilot operator HOLDs.)
 C11_COUNTS = {"nodes": 129, "concepts": 111, "misconceptions": 18,
               "edges": 306,
               "part_of": 130, "requires_prerequisite": 125,
@@ -1754,9 +1761,8 @@ def main():
           f"{c11_promoted} HUMAN_VALIDATED (operator promotions; 0 from "
           f"generation; batch-1 verdicts applied session 48; batch-2 "
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
-          f"batch-4 verdicts applied session 54; batch-5 AUTHORED to its "
-          f"operator gate session 55 — verdicts pending "
-          f"— nodes have no §18 pathway), "
+          f"batch-4 verdicts applied session 54; batch-5 verdicts applied "
+          f"session 56 — nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "
           f"uncovered.")

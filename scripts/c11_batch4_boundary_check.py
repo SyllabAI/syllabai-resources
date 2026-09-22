@@ -179,11 +179,16 @@ hv = sum(1 for e in edges_doc["edges"]
 # now 270 (117 PART_OF + 153 semantic). The ruling's protected property is the
 # SEMANTIC HV count (the ruling mints/promotes no semantic edge); counted
 # over non-PART_OF edges the 153 assertion holds unchanged.
-check("D3 store at the session-54 post-verdict shape (153 SEMANTIC HV — the "
-      "35 batch-4 edges promoted by the operator's verdicts; the ruling "
-      "itself still mints nothing; PART_OF HV 117 rides the later T-C19 "
-      "G19 record)",
-      hv == 153)
+# Session-56 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# batch-5 §18 application (18 operator promotions, c11_batch5_verdicts)
+# moved the semantic HV count 153 -> 171; the ruling's protected property is
+# unchanged (it still mints/promotes no semantic edge — the 18 promoted
+# identities are batch-5 authored rows, not ruling mints).
+check("D3 store at the session-56 post-verdict shape (171 SEMANTIC HV — the "
+      "35 batch-4 + 18 batch-5 edges promoted by the operator's verdicts; "
+      "the ruling itself still mints nothing; PART_OF HV 117 rides the "
+      "later T-C19 G19 record)",
+      hv == 171)
 check("D4 non_goals recorded (no ontology redesign / no re-scope / no "
       "promotion authority)",
       len(rul.get("non_goals", [])) >= 4)
@@ -197,6 +202,6 @@ print("c11_batch4_boundary_check: ALL PASS — the cross-slice boundary "
       "ruling (session 52) is schema-valid, its zero-conflict audit "
       "reproduces on the live store, every sanctioned boundary target "
       "exists with exact ownership, and the ruling mints nothing "
-      "(113/275/117 at the session-54 post-verdict state, 153 HV — the "
-      "35 batch-4 edges operator-promoted; the ruling itself authored "
-      "none of them).")
+      "(129/306/130 at the session-56 post-verdict state, 171 semantic HV "
+      "— the 35 batch-4 + 18 batch-5 edges operator-promoted; the ruling "
+      "itself authored none of them).")

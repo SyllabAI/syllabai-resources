@@ -1043,3 +1043,68 @@ C11_OPERATOR_DECISIONS.md).
 > paths at emission (records stay historical per C28 P5). NEXT: the
 > operator's batch-5 verdict session; the remaining S2 families (2.15-2.50)
 > are batches 6-8 per the §16 item-14 plan.)
+
+> **Session-56 amendment (2026-09-22): §16 batch 5 OPERATOR GATE SETTLED +
+> APPLIED.** The operator returned the completed review sheet §6 (delivered
+> as C11_BATCH5_REVIEW_SHEET_COMPLETED.md; the sheet's §1-5 verified
+> byte-identical to the session-55 gate package before encoding): 16/16
+> node verdicts accepted with the pass-2 statuses retained (13 CONCEPT +
+> 3 MISCONCEPTION; the four pass-2 CONFIRM_WITH_NOTE rows — the 2.4C and
+> 2.8C econfig explanations and the halogen/halide + CuO-colour
+> misconceptions), 18/18 edge verdicts CONFIRM with B5-E-01 explicitly
+> CONFIRM_WITH_NOTE ("Retain the edge as a grounding/teaching relation; do
+> not reinterpret it as a claim that the composition concept is
+> independently caused by the percentage-determination method"), the three
+> sanctioned cross-section boundary edges CONFIRM and still referencing
+> the existing owners ("No duplicate concept is to be minted"), the six
+> identity decisions KEEP_AS_IS, the 14 held candidates
+> ACKNOWLEDGED / KEEP QUARANTINED, zero RR, zero REJECT — and the
+> directive "PASS — proceed to encoding/reconciliation and the separately
+> governed promotion step" (the verdict file itself is the authorization,
+> the session-54 precedent). ENCODE: scripts/c11_verdict_encode_batch5.py
+> (fail-closed; verdicts keyed by TRIPLE/CODE — never by row id — because
+> the sheet's §2/§6 node numbering differs from the template's
+> alphabetical-by-code numbering; the verdict-record vocabulary
+> CONFIRM|REJECT|HOLD|MERGE|SPLIT has no WITH_NOTE value, so the five
+> §6 CONFIRM_WITH_NOTE qualifications are recorded as CONFIRM with the
+> qualification carried verbatim in notes) -> the OPERATOR-OWNED
+> scripts/c11_batch5_verdicts.yaml, template consumed. APPLICATION (§18):
+> the B5 diff-review bundle
+> (graph/reports/C11_DIFF_REVIEW_B5_2026-09-22.md, 18 pending /
+> 5 not-actionable) -> dry-run verified -> c11_diff_review.py approve
+> --all --by operator --date 2026-09-22 -> ONE c11_promote.py invocation
+> -> 18 promotions -> gated G13 re-run ALL GATES GREEN. STORE TOTAL 171
+> HUMAN_VALIDATED (28 + 28 + 23 + 39 + 35 + 18, all operator; the merged
+> store shape UNCHANGED at 129/306/130 [130 PART_OF + 176 semantic] —
+> promotion changes statuses, not shape); the only live SUGGESTED
+> semantic edges are again the 3 frozen pilot operator HOLDs; batch-5
+> nodes stay SUGGESTED (no §18 node pathway — the §6 confirmations do not
+> promote nodes; node promotion remains a separate identity decision,
+> deferred). NO §7 re-authoring sanctioned (all identity KEEP_AS_IS, zero
+> RR, zero ENRICHMENT/MERGE/SPLIT — the authored record is byte-untouched).
+> NEW STANDING GATE: scripts/c11_batch5_verdict_check.py ALL PASS (schema
+> + verdict shape + record reconciliation + three-way set equality + the
+> WITH_NOTE qualifications verified in notes + the 13 session-55 non-mint
+> owners respected + each sanctioned boundary target authored exactly
+> once). State-anchored expectations re-anchored with dated session-56
+> comments only (graph_check state note + summary phrase; batch-1/2/3
+> verdict-check store rows 171; batch-4 verdict-check D2/D8; batch-4 and
+> batch-5 boundary-check HV rows; negative-test mut_07; diff-review-test
+> R1 0/5/171; sweep S4 concept_edges pin e402cb71a5435ea1) — protective
+> intent unchanged, no test weakened. FORECAST: the batch-5 record SETTLED
+> (promotion_rate 1.0; confirm 18; session 56) with a dated correction of
+> the session-55 actual-authored_edges slip (17 -> the authoritative 18,
+> delta -53.2%, edges/SP 1.29); JSON regenerated deterministically.
+> SERVING PLANE re-emitted at the post-promotion state (projections +
+> explorer_blob.json; the 6 source pins == the S4 pins). FULL GATE SUITE
+> GREEN at the final state (all checkers + negative 14/14 + promote_test
+> 27/27 + task4_variants 3/3 + diff_review_test R1 0/5/171 + the C27/C28
+> battery 95/95 ALL_STORES_CLEAN); invariants held (frozen pilot +
+> batch-1..4 dispositions byte-intact; both RR edges REVIEW_REQUIRED; 91
+> held candidates quarantined across the six slices; 4.15 uncovered; AI
+> attribution forbidden; graph/*.yaml never hand-edited). BATCH 5 IS
+> CLOSED — do not reopen. Section 2 candidate coverage: 14 of 50 S2 SPs
+> (96 of 182 total at candidate level). NEXT: the remaining S2 families
+> (2.15-2.50: reactivity series / extraction / acids-alkalis / chemical
+> tests) are batches 6-8 per the §16 item-14 plan — each needs its own
+> operator commissioning; no self-start.)

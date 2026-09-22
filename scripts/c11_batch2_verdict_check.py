@@ -230,9 +230,13 @@ check("D5 the batch-1 RR settlement stays REVIEW_REQUIRED (HOLD_REVIEW_REQ)",
 # §18 application added 35 operator promotions (c11_batch4_verdicts) —
 # the store total moved 118 -> 153; the batch-2 slice stays preserved
 # exactly.
-check("D6 store total 153 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
-      "batch-3 + 35 batch-4), all operator",
-      len(store_map) == 153
+# session-56 re-anchor (dated, protective intent unchanged): the batch-5
+# §18 application added 18 operator promotions (c11_batch5_verdicts) —
+# the store total moved 153 -> 171; the batch-2 slice stays preserved
+# exactly.
+check("D6 store total 171 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
+      "batch-3 + 35 batch-4 + 18 batch-5), all operator",
+      len(store_map) == 171
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]
@@ -298,5 +302,5 @@ print(f"c11_batch2_verdict_check: ALL PASS — batch-2 operator verdict layer "
       f"(23+14+4 rows, ruling 'CONFIRM all' session 50; zero RR authored) "
       f"schema-valid, record-reconciled, application-reconciled (23 §18 "
       f"promotions = the CONFIRM set; B2-N-08 enrichment scoping recorded; "
-      f"pilot + batch-1 slices intact; 153 store entries total at session "
+      f"pilot + batch-1 slices intact; 171 store entries total at session "
       f"54 — the batch-2 slice preserved exactly).")

@@ -1,7 +1,7 @@
 {
   "task": "T-C11",
   "instrument": "batch-forecast",
-  "session": 54,
+  "session": 56,
   "generated": "2026-09-13",
   "baselines": {
     "resources": "9ce37bc",
@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 153,
-    "human_validated": 270,
+    "promoted": 171,
+    "human_validated": 288,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.5,
+      "value": 0.5588,
       "formula": "promoted / total_edges",
-      "inputs": "153 / 306",
+      "inputs": "171 / 306",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -366,18 +366,18 @@
       },
       "actual": {
         "nodes": 16,
-        "authored_edges": 17,
+        "authored_edges": 18,
         "held_candidates": 14
       },
       "delta_pct": {
         "nodes": -52.4,
-        "authored_edges": -55.8,
+        "authored_edges": -53.2,
         "held_candidates": 0.0
       },
       "rates": {
         "held_rate": 0.2917,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -387,13 +387,13 @@
         "FP-B5-4 (family shape: composition/determination minted as know-facts vs method with one EXPLAINED_BY grounding edge; the practical owns 2.14 with a practical->concept edge — B5-ID-02/03)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 18,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -52.4% / edges -55.8% vs the 2.4/2.75 model — the lightest yield band so far (nodes/SP 1.14, edges/SP 1.21): the descriptive-heavy S2 families mint fewer, self-contained nodes (the plan's own S2 anticipation), and the boundary discipline abstains where the notes re-teach inline (the B5-H-02/H-03 holds). No S1/S3 identity re-minted — the TWO ruled targets reached via exactly 3 sanctioned cross-section boundary edges (2.4C + 2.8C -> CON-ELECTRONIC-CONFIGURATION; 2.11 -> CON-EXO-ENDO); 2.14 attaches no concept node (PR-05 owns it — the 1.13/1.60C precedent) with the practical->concept edge authored. Zero RR authored; 14 held (the ≈1-per-SP band; every classic misconception without pinned documentation refused — the session-53 Step-3 rule); three misconceptions minted, all mark-scheme-documented (IGNORE/award-restriction, Reject columns). FULL batch-5 Paper-2 MS coverage (all three families pinned — as in batch 4). Section 2 candidate coverage: 14 of 50 S2 SPs (96 of 182 total at candidate level). AWAITING THE OPERATOR'S BATCH-5 VERDICT SESSION — fill scripts/c11_batch5_verdicts_template.yaml; a later session encodes + applies through §18."
+      "notes_text": "pred-vs-act: nodes -52.4% / edges -53.2% vs the 2.4/2.75 model — the lightest yield band so far (nodes/SP 1.14, edges/SP 1.29): the descriptive-heavy S2 families mint fewer, self-contained nodes (the plan's own S2 anticipation), and the boundary discipline abstains where the notes re-teach inline (the B5-H-02/H-03 holds). No S1/S3 identity re-minted — the TWO ruled targets reached via exactly 3 sanctioned cross-section boundary edges (2.4C + 2.8C -> CON-ELECTRONIC-CONFIGURATION; 2.11 -> CON-EXO-ENDO); 2.14 attaches no concept node (PR-05 owns it — the 1.13/1.60C precedent) with the practical->concept edge authored. Zero RR authored; 14 held (the ≈1-per-SP band; every classic misconception without pinned documentation refused — the session-53 Step-3 rule); three misconceptions minted, all mark-scheme-documented (IGNORE/award-restriction, Reject columns). FULL batch-5 Paper-2 MS coverage (all three families pinned — as in batch 4). Section 2 candidate coverage: 14 of 50 S2 SPs (96 of 182 total at candidate level). Session-56 (2026-09-22): operator gate SETTLED — the completed review sheet §6 verdict applied: 18 edge CONFIRM promoted via §18 (store total 171; zero RR authored; 6 identity decisions KEEP_AS_IS; 14 held preserved — quarantined; the B5-E-01 grounding-relation qualification and the four pass-2 WITH_NOTE node qualifications recorded in the verdict notes; verdict record scripts/c11_batch5_verdicts.yaml). session-56 CORRECTION (dated): the record's actual authored_edges was appended as 17 at the session-55 gate — the authoritative count is 18 (the decision record, the review JSON pass1, the sheet §1, and the store all carry 18; the record's own held_rate 14/48 already assumed 18); corrected here with the matching delta_pct and edges/SP rate.)"
     }
   ],
   "future_batch_record_schema": {

@@ -224,7 +224,12 @@ out = {
     # CONFIRM / 6 KEEP_AS_IS / 14 held acknowledged; FP-B4-1 + FP-B4-2
     # special attention, evidence inspected) and applied through §18 (35
     # promotions, operator; store total 153); baselines unchanged.
-    "session": 54,
+    # session-56 (2026-09-22): batch-5 operator gate SETTLED — the
+    # completed review sheet §6 verdict (18 edge CONFIRM / 16 node
+    # CONFIRM / 6 KEEP_AS_IS / 14 held acknowledged; zero RR) recorded in
+    # c11_batch5_verdicts.yaml and applied through §18 (18 promotions,
+    # operator; store total 171); baselines unchanged.
+    "session": 56,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -641,15 +646,18 @@ out = {
             "mark_schemes_pinned": 3,
             "predicted": {"nodes": 33.6, "authored_edges": 38.5,
                           "held_candidates": 14.0},
-            "actual": {"nodes": 16, "authored_edges": 17,
+            "actual": {"nodes": 16, "authored_edges": 18,
                        "held_candidates": 14},
-            "delta_pct": {"nodes": -52.4, "authored_edges": -55.8,
+            "delta_pct": {"nodes": -52.4, "authored_edges": -53.2,
                           "held_candidates": 0.0},
             "rates": {
                 "held_rate": 0.2917,
                 "rejection_rate": 0.0,
-                # authoring promotes nothing — the gate is pending
-                "promotion_rate": 0.0,
+                # session-56: gate SETTLED — the operator's batch-5 verdicts
+                # applied through §18 (18 promotions, operator); zero RR
+                # authored, so every authored edge was promotable
+                # post-verdict
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -670,11 +678,11 @@ out = {
                 "edge; the practical owns 2.14 with a practical->concept "
                 "edge — B5-ID-02/03)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 18, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
-            "notes_text": ("pred-vs-act: nodes -52.4% / edges -55.8% vs "
+            "notes_text": ("pred-vs-act: nodes -52.4% / edges -53.2% vs "
                            "the 2.4/2.75 model — the lightest yield band so "
-                           "far (nodes/SP 1.14, edges/SP 1.21): the "
+                           "far (nodes/SP 1.14, edges/SP 1.29): the "
                            "descriptive-heavy S2 families mint fewer, "
                            "self-contained nodes (the plan's own S2 "
                            "anticipation), and the boundary discipline "
@@ -696,10 +704,23 @@ out = {
                            "three families pinned — as in batch 4). "
                            "Section 2 candidate coverage: 14 of 50 S2 SPs "
                            "(96 of 182 total at candidate level). "
-                           "AWAITING THE OPERATOR'S BATCH-5 VERDICT "
-                           "SESSION — fill scripts/c11_batch5_verdicts_"
-                           "template.yaml; a later session encodes + "
-                           "applies through §18."),
+                           "Session-56 (2026-09-22): operator gate SETTLED — "
+                           "the completed review sheet §6 verdict applied: "
+                           "18 edge CONFIRM promoted via §18 (store total "
+                           "171; zero RR authored; 6 identity decisions "
+                           "KEEP_AS_IS; 14 held preserved — quarantined; the "
+                           "B5-E-01 grounding-relation qualification and the "
+                           "four pass-2 WITH_NOTE node qualifications "
+                           "recorded in the verdict notes; verdict record "
+                           "scripts/c11_batch5_verdicts.yaml). "
+                           "session-56 CORRECTION (dated): the record's "
+                           "actual authored_edges was appended as 17 at the "
+                           "session-55 gate — the authoritative count is 18 "
+                           "(the decision record, the review JSON pass1, the "
+                           "sheet §1, and the store all carry 18; the "
+                           "record's own held_rate 14/48 already assumed 18); "
+                           "corrected here with the matching delta_pct and "
+                           "edges/SP rate.)"),
         },
     ],
     "future_batch_record_schema": {
