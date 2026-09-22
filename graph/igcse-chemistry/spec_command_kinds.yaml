@@ -7,12 +7,13 @@
 #   scripts/c11_batch4_decisions.yaml (extraction_pass c11-s16-batch-4)
 #   scripts/c11_batch5_decisions.yaml (extraction_pass c11-s16-batch-5)
 #   scripts/c11_batch6_decisions.yaml (extraction_pass c11-s16-batch-6)
+#   scripts/c11_batch7_decisions.yaml (extraction_pass c11-s16-batch-7)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
-# Generation dates pinned per record; store date 2026-09-22 (deterministic contract; byte-identical re-runs).
+# Generation dates pinned per record; store date 2026-09-23 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -128,6 +129,22 @@ meta:
   - 4CH1-2.25C
   - 4CH1-2.26C
   - 4CH1-2.27C
+  - 4CH1-2.28
+  - 4CH1-2.29
+  - 4CH1-2.30
+  - 4CH1-2.31
+  - 4CH1-2.32
+  - 4CH1-2.33C
+  - 4CH1-2.34
+  - 4CH1-2.35
+  - 4CH1-2.36
+  - 4CH1-2.37
+  - 4CH1-2.38
+  - 4CH1-2.39
+  - 4CH1-2.40C
+  - 4CH1-2.41C
+  - 4CH1-2.42
+  - 4CH1-2.43C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -138,6 +155,8 @@ meta:
   - 4CH1-PR-11
   - 4CH1-PR-05
   - 4CH1-PR-06
+  - 4CH1-PR-07
+  - 4CH1-PR-08
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
@@ -148,6 +167,7 @@ meta:
   - scripts/c11_batch4_decisions.yaml
   - scripts/c11_batch5_decisions.yaml
   - scripts/c11_batch6_decisions.yaml
+  - scripts/c11_batch7_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -156,9 +176,10 @@ meta:
   - c11-s16-batch-4
   - c11-s16-batch-5
   - c11-s16-batch-6
+  - c11-s16-batch-7
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
-  generated: '2026-09-22'
+  generated: '2026-09-23'
   provenance_default: AI_SUGGESTED
   validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;
     batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED
@@ -166,7 +187,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 109
+    spec_points: 125
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -593,12 +614,109 @@ command_kinds:
   demanded_substance: 'why alloys are harder than pure metals — the different-sized atoms distort the
     regular layer arrangement of the metal lattice, so the layers can no longer slide over each other
     easily (the particle-diagram examination surface: uneven-sized particles, distorted rows)'
+- code: 4CH1-2.28
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the use of litmus, phenolphthalein and methyl orange to distinguish between acidic
+    and alkaline solutions — the two-colour indicator table (litmus red/blue; phenolphthalein colourless/pink;
+    methyl orange red/yellow) and litmus's unsuitability for titrations
+- code: 4CH1-2.29
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'the pH scale 0-14 as the classification instrument: strongly acidic (0-3), weakly
+    acidic (4-6), neutral (7), weakly alkaline (8-10), strongly alkaline (11-14); lower pH = more acidic,
+    higher pH = more alkaline'
 - code: 4CH1-2.3
   verb: use
   guide_class: UNDERSTAND_RELATION
   demanded_substance: 'using the Group 1 trends to predict properties of other alkali metals (rubidium,
     caesium, francium: more vigorous reactions with air and water; lithium least / francium most reactive;
     soft grey solid, shiny when freshly cut, denser and lower-melting than potassium)'
+- code: 4CH1-2.30
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'universal indicator as the approximate-pH measurement technique: a mixture of plant
+    indicators across a broad range, a few drops added and the colour matched against a chart — approximate
+    only, and never the titration indicator (the note''s own examiner tip)'
+- code: 4CH1-2.31
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: acids in aqueous solution as sources of hydrogen ions and alkalis in aqueous solution
+    as sources of hydroxide ions — the solution-ionisation picture that makes a solution acidic or alkaline
+- code: 4CH1-2.32
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: 'alkalis can neutralise acids: the H+ + OH- -> water frame (net ionic equation of
+    all acid-base neutralisations), with the scope limit that NOT every acid reaction is a neutralisation
+    (metal + acid produces no water)'
+- code: 4CH1-2.33C
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'how to carry out an acid-alkali titration: pipette the alkali (exactly 25 cm3),
+    fill/run the burette, rough titration then dropwise approach, endpoint via sharp indicator colour
+    change, white tile, meniscus reading to 0.05 cm3, repeat to two concordant results'
+- code: 4CH1-2.34
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: 'the general solubility rules for ionic compounds in water: sodium/potassium/ammonium
+    salts all soluble; nitrates all; chlorides except silver and lead(II); sulfates except barium, calcium
+    and lead(II); carbonates and hydroxides except Na/K/NH4 (calcium hydroxide sparingly soluble) — the
+    method-selection frame for salt preparation'
+- code: 4CH1-2.35
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'acids and bases in terms of proton transfer — the framework that EXTENDS the earlier
+    (ion-source) definitions: how each substance interacts with protons'
+- code: 4CH1-2.36
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: acid = proton donor (ionises producing H+), base = proton acceptor (produces OH-
+    which accepts protons) — the donor/ acceptor definitions with their ionisation equations (HCl, NaOH)
+- code: 4CH1-2.37
+  verb: describe
+  guide_class: KNOW_TERM
+  demanded_substance: the reactions of hydrochloric, sulfuric and nitric acids with metals (salt + hydrogen;
+    nitric acid + metals EXCLUDED by the spec's own wording), with bases (salt + water) and with metal
+    carbonates (salt + water + carbon dioxide, effervescence) — the acid determines the salt family (chloride/sulfate/nitrate);
+    the acid-metal row rides the reactivity-series placement (the sanctioned boundary edge)
+- code: 4CH1-2.38
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: metal oxides, metal hydroxides and ammonia can act as bases; alkalis are bases that
+    are soluble in water (all alkalis are bases, not all bases are alkalis; ammonia solution the unusual
+    base producing OH- in water)
+- code: 4CH1-2.39
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'an experiment to prepare a pure, dry soluble salt from an INSOLUBLE reactant: warm
+    the acid, add the insoluble base/ carbonate IN EXCESS (so no unreacted acid concentrates during evaporation),
+    filter the excess, evaporate until small crystals appear, leave to crystallise (slow evaporation ->
+    larger crystals)'
+- code: 4CH1-2.40C
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'an experiment to prepare a pure, dry soluble salt from an ACID and ALKALI: titrate
+    with indicator to find the neutralisation volume, then repeat the same volumes WITHOUT indicator,
+    partially evaporate to a saturated solution, leave to crystallise and dry'
+- code: 4CH1-2.41C
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'an experiment to prepare a pure, dry INSOLUBLE salt from two SOLUBLE reactants:
+    mix the two salt solutions (one slightly in excess), the precipitate IS the salt, filter it off, wash
+    with distilled water to remove contaminating reactants, dry — the silver/lead(II)-salt route from
+    nitrates (all nitrates soluble)'
+- code: 4CH1-2.42
+  verb: prepare
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'practical: prepare pure, dry hydrated copper(II) sulfate crystals from copper(II)
+    oxide — the PR-07 named practical (warm dilute sulfuric acid, add CuO in excess, filter, gently evaporate
+    to saturation, crystallise, dry; bright blue regularly shaped crystals)'
+- code: 4CH1-2.43C
+  verb: prepare
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'practical: prepare a pure, dry sample of lead(II) sulfate — the PR-08 named practical
+    (precipitation from lead(II) nitrate + potassium sulfate, both soluble; filter the precipitate, wash
+    with distilled water, dry)'
 - code: 4CH1-2.4C
   verb: explain
   guide_class: EXPLAIN_HOW

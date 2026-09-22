@@ -315,11 +315,22 @@ check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
 # the 16 batch-6 authored edges left the SUGGESTED surface, so the live
 # SUGGESTED semantic edges are again EXACTLY the 3 frozen pilot operator
 # HOLDs (the pre-session-55 state).
-check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
-      "are the ONLY live SUGGESTED semantic surface (batch-6 verdicts "
-      "applied through §18 at session 58)",
+# session-59 re-anchor (dated, protective intent unchanged): the batch-7
+# authoring (c11_batch7_decisions.yaml, authored to its operator gate at
+# session 59) adds 19 SUGGESTED authored semantic edges to the live
+# SUGGESTED surface (3 pilot HOLDs + 19 batch-7 authored); the batch-6
+# slice stays fully HUMAN_VALIDATED (16 operator promotions, session 58)
+# and preserved exactly.
+B7_DEC = HERE / "c11_batch7_decisions.yaml"
+B7_AUTHORED = {triple(e)
+               for e in (yaml.safe_load(B7_DEC.read_text(encoding="utf-8"))
+                         .get("edges") or [])}
+check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
+      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs + the 19 "
+      "batch-7 authored edges (batch-6 verdicts applied through §18 at "
+      "session 58; batch 7 authored to its gate at session 59)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds,
+      and live_sugg == pilot_holds | B7_AUTHORED,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -392,11 +403,11 @@ check("D13 no batch-6 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
       "the §6 confirmations do not promote nodes)",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D14 live store shape 142 nodes / 334 edges (142 PART_OF + 192 "
+check("D14 live store shape 157 nodes / 367 edges (156 PART_OF + 211 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 142 and len(edges_doc["edges"]) == 334
+      len(nodes_doc["nodes"]) == 157 and len(edges_doc["edges"]) == 367
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 142)
+              if e["relation"] == "PART_OF") == 156)
 # boundary mint discipline (the session-57 cross-slice ruling)
 non_mint = set(rul["boundary_edge_ruling"]["non_mint_list"])
 b6_codes = {c["code"] for c in dec["nodes"]}

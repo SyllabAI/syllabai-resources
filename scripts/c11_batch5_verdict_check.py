@@ -301,12 +301,21 @@ B6_DEC = HERE / "c11_batch6_decisions.yaml"
 B6_AUTHORED = {triple(e)
                for e in (yaml.safe_load(B6_DEC.read_text(encoding="utf-8"))
                          .get("edges") or [])}
+# session-59 re-anchor (dated, protective intent unchanged): the batch-7
+# authoring (c11_batch7_decisions.yaml, authored to its operator gate at
+# session 59) adds 19 SUGGESTED authored semantic edges to the live
+# SUGGESTED surface (3 pilot HOLDs + 19 batch-7 authored); the batch-4/5/6
+# slices stay fully HUMAN_VALIDATED and preserved exactly.
+B7_DEC = HERE / "c11_batch7_decisions.yaml"
+B7_AUTHORED = {triple(e)
+               for e in (yaml.safe_load(B7_DEC.read_text(encoding="utf-8"))
+                         .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
-      "the live SUGGESTED semantic surface is EXACTLY the pilot HOLDs — "
-      "the 16 batch-6 authored edges all HUMAN_VALIDATED (batch-5 and "
-      "batch-6 verdicts applied through §18 at sessions 56 and 58)",
+      "the live SUGGESTED semantic surface is EXACTLY the pilot HOLDs + "
+      "the 19 batch-7 authored edges (batch-4/5/6 verdicts applied through "
+      "§18 at sessions 54/56/58; batch 7 authored to its gate at session 59)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds
+      and live_sugg == pilot_holds | B7_AUTHORED
       and B6_AUTHORED <= hv and not (live_sugg & B6_AUTHORED),
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
@@ -381,11 +390,11 @@ check("D12 no batch-5 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
 # store grew to 142/334/142 by the SANCTIONED batch-6 authored-to-gate record
 # (13 nodes + 12 PART_OF + 16 authored semantic edges, ZERO promotions; the
 # batch-5 slice below is still preserved exactly).
-check("D13 live store shape 142 nodes / 334 edges (142 PART_OF + 192 "
+check("D13 live store shape 157 nodes / 367 edges (156 PART_OF + 211 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 142 and len(edges_doc["edges"]) == 334
+      len(nodes_doc["nodes"]) == 157 and len(edges_doc["edges"]) == 367
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 142)
+              if e["relation"] == "PART_OF") == 156)
 # boundary mint discipline (the session-55 cross-slice ruling)
 b5_codes = {c["code"] for c in dec["nodes"]}
 check("D14 zero ruled non-mint owner re-minted in the batch-5 node set "

@@ -84,12 +84,13 @@ REPO = HERE.parent
 # Session-53 (batch 4): the registry grows by c11_batch4_decisions.yaml
 # Session-55 (batch 5): the registry grows by c11_batch5_decisions.yaml
 # Session-57 (batch 6): the registry grows by c11_batch6_decisions.yaml
-# (Section 3 Physical Chemistry, operator-commissioned session 53; under
-# the session-52 cross-slice boundary ruling)
+# Session-59 (batch 7): the registry grows by c11_batch7_decisions.yaml
+# (Section 2 Inorganic third slice 2.28-2.43C, operator-commissioned
+# session 59; under the session-59 cross-slice boundary ruling)
 DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                   "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
                   "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml",
-                  "c11_batch6_decisions.yaml"]
+                  "c11_batch6_decisions.yaml", "c11_batch7_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 # Session-55 repair (2026-09-22, dated): store paths resolve through the
 # C28 registry (post-stage-2 layout graph/igcse-chemistry/); this tool has

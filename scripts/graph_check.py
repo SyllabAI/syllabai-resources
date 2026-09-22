@@ -889,10 +889,20 @@ C11_BATCH6_SPS = ["4CH1-2.15", "4CH1-2.16", "4CH1-2.17", "4CH1-2.18",
                   "4CH1-2.19", "4CH1-2.20", "4CH1-2.21", "4CH1-2.22C",
                   "4CH1-2.23C", "4CH1-2.24C", "4CH1-2.25C", "4CH1-2.26C",
                   "4CH1-2.27C"]
+# session-59: batch-7 slice (Section 2 — Inorganic Chemistry, THIRD slice:
+# f Acids, Alkalis & Titrations / g Acids, Bases & Salt Preparations, 16 SPs
+# + the two in-slice practicals PR-07 (2.42) / PR-08 (2.43C); commissioned
+# by the operator's "Proceed with batch 7" directive under the session-59
+# cross-slice boundary ruling)
+C11_BATCH7_SPS = ["4CH1-2.28", "4CH1-2.29", "4CH1-2.30", "4CH1-2.31",
+                  "4CH1-2.32", "4CH1-2.33C", "4CH1-2.34", "4CH1-2.35",
+                  "4CH1-2.36", "4CH1-2.37", "4CH1-2.38", "4CH1-2.39",
+                  "4CH1-2.40C", "4CH1-2.41C", "4CH1-2.42", "4CH1-2.43C"]
 C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS \
-    + C11_BATCH3_SPS + C11_BATCH4_SPS + C11_BATCH5_SPS + C11_BATCH6_SPS
+    + C11_BATCH3_SPS + C11_BATCH4_SPS + C11_BATCH5_SPS + C11_BATCH6_SPS \
+    + C11_BATCH7_SPS
 C11_STAGE = ("pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4"
-             "+s16-batch-5+s16-batch-6")
+             "+s16-batch-5+s16-batch-6+s16-batch-7")
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # State after the session-55 batch-5 AUTHORING (extraction_pass
 # c11-s16-batch-5, authored to its operator gate): 129
@@ -937,14 +947,23 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # to HUMAN_VALIDATED (187 semantic HV total = 28+28+23+39+35+18+16, all
 # operator); graph shape unchanged; the only live SUGGESTED semantic
 # edges are again the 3 frozen pilot operator HOLDs.)
-C11_COUNTS = {"nodes": 142, "concepts": 123, "misconceptions": 19,
-              "edges": 334,
-              "part_of": 142, "requires_prerequisite": 139,
+# (Session-59 note: batch 7 adds 15 nodes (13 CONCEPT + 2 MISCONCEPTION)
+# + 14 PART_OF (one per attached SP; CON-PROTON-TRANSFER attaches 2.35 AND
+# 2.36) + 19 authored semantic edges (15 RP incl. the 2 sanctioned
+# boundary edges + the 2 practical edges, 2 WAP, 2 RB) — statuses only,
+# zero promotions; the PART_OF HV layer rides the T-C19 G19 record
+# pattern (new PART_OF rows SUGGESTED pending their own
+# attachment-promotion lane); the live SUGGESTED semantic surface is now
+# the 3 frozen pilot operator HOLDs + the 19 batch-7 authored edges,
+# pending the operator's batch-7 verdicts; 187 semantic HV unchanged.)
+C11_COUNTS = {"nodes": 157, "concepts": 136, "misconceptions": 21,
+              "edges": 367,
+              "part_of": 156, "requires_prerequisite": 154,
               "explained_by": 12,
               "related_to": 1, "commonly_confused_with": 2,
-              "misconception_of": 2, "wrong_answer_pattern": 17,
-              "remediated_by": 19, "review_required": 2,
-              "command_kinds": 109}
+              "misconception_of": 2, "wrong_answer_pattern": 19,
+              "remediated_by": 21, "review_required": 2,
+              "command_kinds": 125}
 # Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
 # `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
 # the decision record (preserved as rejected candidate HELD-13; architecture
@@ -971,7 +990,8 @@ C11_DECISIONS_FILES = [REPO / "scripts" / "c11_pilot_decisions.yaml",
                        REPO / "scripts" / "c11_batch3_decisions.yaml",
                        REPO / "scripts" / "c11_batch4_decisions.yaml",
                        REPO / "scripts" / "c11_batch5_decisions.yaml",
-                       REPO / "scripts" / "c11_batch6_decisions.yaml"]
+                       REPO / "scripts" / "c11_batch6_decisions.yaml",
+                       REPO / "scripts" / "c11_batch7_decisions.yaml"]
 C11_DECISIONS_FILE = C11_DECISIONS_FILES[0]
 _C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                              r"|llm|agent|model|bot", re.I)
@@ -1779,8 +1799,13 @@ def main():
           # session-58: the summary names the batch-6 verdict application
           # (§18 applied — 16 operator promotions); state note, no test
           # weakened
-          f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches 5-6, "
-          f"batch-6 verdicts applied session 58): "
+          # session-59: the summary names the batch-7 authored-to-gate
+          # state (S2 batches 5-7; the batch-7 verdicts pending — the
+          # operator's gate session is next)
+          f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches "
+          f"5-6 + the batch-7 authored-to-gate slice 2.28-2.43C, "
+          f"batch-6 verdicts applied session 58, batch-7 verdicts pending "
+          f"at its operator gate): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1790,7 +1815,8 @@ def main():
           f"generation; batch-1 verdicts applied session 48; batch-2 "
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
           f"batch-4 verdicts applied session 54; batch-5 verdicts applied "
-          f"session 56; batch-6 verdicts applied session 58 — "
+          f"session 56; batch-6 verdicts applied session 58; batch-7 "
+          f"authored to its gate session 59 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

@@ -295,11 +295,11 @@ check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # store grew to 142/334/142 by the SANCTIONED batch-6 authored-to-gate
 # record (13 nodes + 12 PART_OF + 16 authored semantic edges, ZERO
 # promotions); the batch-2 slice below is still preserved exactly.
-check("D10 live store shape 142 nodes / 334 edges (142 PART_OF + 192 "
+check("D10 live store shape 157 nodes / 367 edges (156 PART_OF + 211 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 142 and len(edges_doc["edges"]) == 334
+      len(nodes_doc["nodes"]) == 157 and len(edges_doc["edges"]) == 367
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 142)
+              if e["relation"] == "PART_OF") == 156)
 
 # ---------------------------------------------------------------------------
 print()

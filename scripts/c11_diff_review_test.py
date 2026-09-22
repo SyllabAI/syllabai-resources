@@ -300,6 +300,21 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-59: the registry grows by the (empty) batch-7 member
+    (base / "scripts" / "c11_batch7_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-7",
+                                   "extraction_pass": "c11-s16-batch-7",
+                                   "generated_date": "2026-09-23",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
 
 
 # NOTE: the fixture decision-record edges carry an extra key
@@ -515,8 +530,12 @@ def main() -> int:
         # c11_batch6_verdicts); promo_count 171 -> 187 (28+28+23+39+35+18
         # +16); the actionable surface is empty again until the next
         # batch's gate (the not-actionable rows stay 5).
-        check("R1 reports 0 actionable / 5 not-actionable / 187 promotions",
-              "actionable: 0" in r.stdout
+        # session-59 re-anchor (dated, protective intent unchanged): the
+        # batch-7 authored-to-gate record (19 authored semantic edges) IS
+        # the pending actionable surface until its operator verdict session
+        # (the session-57 pattern); 5 not-actionable + 187 promotions stay.
+        check("R1 reports 19 actionable / 5 not-actionable / 187 promotions",
+              "actionable: 19" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=187" in r.stdout)
     finally:

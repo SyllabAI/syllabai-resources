@@ -1150,3 +1150,120 @@ before phase 2 (S3).)
 > batches 7-8 per the item-14 plan — each needs its own operator
 > commissioning; no self-start. Then STOP — Batch 6 verdicts encoded +
 > applied. Nothing more.)
+
+## Session-59 update (2026-09-23) — BATCH 7 AUTHORED TO ITS OPERATOR GATE
+
+> Commissioned by the operator's session-59 directive (verbatim: "Proceed
+> with batch 7") under the session-46 §16 authorization; the item-14 plan
+> assigns S2 to FOUR batches and the session-57/58 records name the slice
+> order — batch 7 = the THIRD S2 slice 4CH1-2.28-2.43C (16 SPs,
+> subsection-complete: f Acids, Alkalis & Titrations 2.28-2.33C + g Acids,
+> Bases & Salt Preparations 2.34-2.43C, one continuous teaching thread) +
+> the two in-slice practicals 4CH1-PR-07 (2.42) / 4CH1-PR-08 (2.43C) (the
+> practicals own their practical-type SPs per the 1.13/1.60C/2.14/2.21
+> precedent — NO concept node attached, the practical->concept edges
+> authored); batches keep 2.44-2.50 for batch 8. S8 DRIFT GATE at round
+> start: local == origin/main == ff98913, tree clean; battery 95/0/0
+> ALL_STORES_CLEAN; corpora re-verified materialized (SME notes 359 files,
+> PMT Unit-2 corpus). COMMISSIONING + PREP: CROSS-SLICE BOUNDARY RULING
+> scripts/c11_batch7_boundary_ruling.yaml + NEW STANDING CHECKER
+> c11_batch7_boundary_check.py ALL PASS: 147 S2-f/g candidate terms
+> audited against the merged pre-batch-7 store -> 59 matches ALL
+> dispositioned (the probe persisted as c11_batch7_term_audit_probe.py),
+> ZERO unhandled conflicts; TWO sanctioned boundary targets (CON-REACT-ORDER
+> — the batch-6 owner: the 2.37 acid-metal row applies the reactivity-series
+> placement as given; CON-ION-CHARGE-RULES — the batch-3 owner: the 2.34
+> rules table presupposes the named-ion vocabulary); non_mint_list 58
+> owners; FOUR future_boundary_notes (the limewater/CO2-test surface ->
+> batch 8; the titration-calculation surface -> the S3 quantitative lane;
+> the temperature-change neutralisation surface -> S3 3.8/PR-09; the
+> anhydrous-CuSO4 surface -> S3 reversible + batch 8). MS PINNING
+> scripts/c11_ms_pin_batch7.py: BOTH batch families pinned —
+> ACIDS_ALKALIS_TITRATIONS_MS_P2.txt (sha1_12 14b605bc2f87, 10pp) +
+> ACIDS_BASES_SALT_PREP_MS_P2.txt (sha1_12 4f34b1580a60, 13pp) — FULL
+> Paper-2 coverage, the best of any slice (meta.ms_coverage_note);
+> Paper-1 variants unpinned per the Paper-2-first convention. EXTRACTION:
+> all 12 T-C10 HV-mapped notes read in full (16/16 SPs note-covered);
+> quote probe 135/135 green pre-authoring (scripts/c11_batch7_quote_probe.py);
+> decision record c11_batch7_decisions.yaml (extraction_pass
+> c11-s16-batch-7): 15 nodes (13 CONCEPT — one per SP-family with 2.35+2.36
+> as ONE proton-transfer family node per B7-ID-01 — + 2 MS-documented
+> WRONG_ANSWER_PATTERN misconceptions: MIS-ENDPOINT-PH-ABOVE-7 from the
+> Titrations MS Q2a(iv) Reject column, MIS-PRECIPITATE-IN-FILTRATE from the
+> Salt-Prep MS Q2a(iii) class) / 19 authored edges (11 in-slice RP + the 2
+> sanctioned boundary RP + the 2 practical RP + 2 WAP + 2 REMEDIATED_BY) /
+> 9 held (B7-H-04 the insufficient-characterization refusal per the
+> session-53 Step-3 rule; B7-H-06 the note-anchored ERRONEOUS_BELIEF lane
+> held for operator ruling) / 16 command kinds / ZERO RR; preverify 107/107
+> fail-closed green. PASS-2 ADVERSARIAL REVIEW (c11_batch7_review_pass2.yaml):
+> ONE finding RE-AUTHORED BEFORE THE GATE (FP-B7-4: the lead-sulfate
+> source note's "Wash filtrate" line conflicts with the pinned Salt-Prep MS
+> Q7a(iii) — the PR-08 edge anchors swapped to the aim + filtration
+> sentences; the conflict recorded, not silently quoted or dropped), plus
+> FP-B7-1..3/5 + FN-B7-1..2 resolved with zero demotions (raw agreement —
+> explicitly NOT kappa — nodes 15/15, edges 19/19, 9 held all AGREE_HOLD).
+> REVIEW GATE rendered: graph/reports/C11_BATCH7_REVIEW_SHEET.md +
+> C11_BATCH7_REVIEW.json + the OPERATOR-OWNED
+> scripts/c11_batch7_verdicts_template.yaml (19 edge rows B7-E-01..19 /
+> 13 node rows B7-N-01..13 + B7-M-01..02 / 6 identity decisions
+> B7-ID-01..06 / held appendix acknowledgment; zero RR section; template
+> re-issue guard; session-54 hardening included). GENERATOR REGISTRY
+> extended to [pilot..batch7] in 6 sites (c11_concept_pilot.py
+> DECISION_RECORDS; c11_promote.py; c11_diff_review.py; graph_check
+> C11_DECISIONS_FILES; c11_promote_test stage()/restore();
+> c11_diff_review_test fixture member); graph_paths.yaml legacy_allowlist
+> += the batch-7 decision record. One generator iteration: G04 moved the
+> hydronium MS anchor out of the 2.36 CONCEPT attachment (MARK_SCHEME
+> anchors are misconception-class-only on concept attachments — the FP-B7-5
+> record). MERGED STORE: 157 nodes / 367 edges (156 PART_OF + 211
+> semantic) / 125 command kinds / 95 held / 187 HUMAN_VALIDATED UNCHANGED
+> (authoring promotes nothing) / 2 RR frozen / 4.15 uncovered;
+> concept-graph coverage 125/182 SPs at candidate level (S1 60 + S3 22 +
+> S2 43 of 50). FORECAST: batch-7 record appended (predicted 38.7/42.7/17.3
+> vs actual 15/19/9 — the S2 descriptive band, nodes/SP 0.94 edges/SP 1.19;
+> JSON regenerated deterministically). STATE-MOVED EXPECTATIONS re-anchored
+> with dated session-59 comments (no test weakened): graph_check
+> (C11_BATCH7_SPS + C11_SCOPE/C11_STAGE/C11_COUNTS 157/367/156, RP 154,
+> WAP 19, RB 21, cks 125 + the session-59 state-note block);
+> batch2/3/4/5/6 verdict-check shapes 142/334/142 -> 157/367/156;
+> batch4 verdict-check D2 (the live SUGGESTED surface = the 3 pilot HOLDs
+> + the 19 batch-7 authored edges) + D8; batch5 verdict-check D2 + D13;
+> batch6 verdict-check D2 + D14; batch4 boundary-check B2 (the
+> pre-batch-4 reconstruction excludes ALL FOUR sanctioned mints — 66
+> nodes, 147-edge delta) + D1/D2; batch5 boundary-check growth (+ the
+> 15/33 batch-7 sanctioned growth); batch6 boundary-check growth (+ the
+> 15/33 batch-7 sanctioned growth); diff_review_test R1 re-anchored
+> 0/5/187 -> 19/5/187 (the actionable surface is the batch-7 authored set
+> — the next batch's gate has arrived); sweep S4 pins re-issued (sha256_16:
+> concepts b3988e7e -> 5b70f216, concept_edges 1425090b -> e27185d7,
+> spec_command_kinds 194ed2d1 -> 11a1a3a1). SERVING PLANE re-emitted at
+> the new store state (c28_emit_explorer_blob.py: projections +
+> explorer_blob.json; the source pins == the S4 pins). GOVERNANCE REPORTS
+> amended with dated session-59 notes (historical text preserved):
+> C11_S16_GATE_REPORT.md (this block) + C11_ARCHITECTURE.md (the
+> session-59 amendment). FULL GATE SUITE AT THE FINAL AUTHORED-TO-GATE
+> STATE: graph_check ALL PASS (157/367/156, 187 semantic HV);
+> c11_review_verdict_check ALL PASS; c11_batch1..batch6_verdict_check ALL
+> PASS; c11_batch4/batch5/batch6/batch7_boundary_check ALL PASS;
+> c11_s16_authorization_check ALL PASS; c11_negative_test 14/14;
+> c11_promote_test 27/27 (live store untouched); c11_task4_variants 3/3;
+> c11_diff_review_test ALL PASS (R1 19/5/187); the C27 sweep battery green
+> at the commit (S4 pins re-issued; the S0 tree gate clears at landing).
+> INVARIANTS HELD: the frozen pilot + batch-1..6 dispositions byte-intact
+> (E-08/E-26/E-29 stay SUGGESTED; both RR edges REVIEW_REQUIRED under
+> their operator settlements; HELD-01..13 + B1-H-01..12 + B2-H-01..10 +
+> B3-H-01..14 + B4-H-01..14 + B5-H-01..14 + B6-H-01..09 untouched — 100
+> held, clean quarantine); 187 promotions all operator; batch-7 nodes stay
+> SUGGESTED (no §18 node pathway); PART_OF derived and outside §18 (the 14
+> batch-7 PART_OF rows SUGGESTED pending their own attachment-promotion
+> lane); 4CH1-4.15 uncovered; no DB writes; AI attribution forbidden;
+> graph/*.yaml never hand-edited (all changes via the sanctioned
+> generators). ZERO promotions, ZERO verdicts invented, ZERO
+> self-promotion: the batch ENDS at its operator gate. NEXT: the
+> operator's batch-7 verdict session (fill
+> scripts/c11_batch7_verdicts_template.yaml, rename to
+> c11_batch7_verdicts.yaml); a later session encodes + applies them via
+> the §18 pathway; the remaining S2 family (2.44-2.50: chemical tests) is
+> batch 8 per the item-14 plan — needs its own operator commissioning; no
+> self-start. Then STOP — Batch 7 authoring -> operator gate. Nothing
+> more.)

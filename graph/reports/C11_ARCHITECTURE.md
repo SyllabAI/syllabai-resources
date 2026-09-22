@@ -1263,3 +1263,71 @@ C11_OPERATOR_DECISIONS.md).
 > the remaining S2 families (2.28-2.50: acids & alkalis / salt
 > preparations / chemical tests) are batches 7-8 per the item-14 plan —
 > each needs its own operator commissioning; no self-start.)
+
+### §16 session-59 amendment (2026-09-23) — BATCH 7 AUTHORED TO ITS OPERATOR GATE ("Proceed with batch 7")
+
+> Commissioned by the operator's session-59 directive (verbatim: "Proceed
+> with batch 7") under the session-46 §16 authorization; the THIRD S2
+> slice 4CH1-2.28-2.43C (16 SPs, subsection-complete: f Acids, Alkalis &
+> Titrations + g Acids, Bases & Salt Preparations) + the two in-slice
+> practicals PR-07 (2.42) / PR-08 (2.43C) — the practicals own their
+> practical-type SPs per the 1.13/1.60C/2.14/2.21 precedent. COMMISSIONING
+> + PREP: the session-59 cross-slice boundary ruling
+> (scripts/c11_batch7_boundary_ruling.yaml + the NEW standing checker
+> c11_batch7_boundary_check.py ALL PASS) — 147 candidate terms audited, 59
+> matches ALL dispositioned, ZERO unhandled conflicts, TWO sanctioned
+> boundary targets (2.37 -> CON-REACT-ORDER, the batch-6 order owner; 2.34
+> -> CON-ION-CHARGE-RULES, the batch-3 named-ion owner), non_mint_list 58,
+> FOUR future_boundary_notes. MS PINNING: FULL Paper-2 coverage — BOTH
+> families pinned (ACIDS_ALKALIS_TITRATIONS_MS_P2 14b605bc2f87;
+> ACIDS_BASES_SALT_PREP_MS_P2 4f34b1580a60) — the best of any slice
+> (meta.ms_coverage_note). EXTRACTION: 12 notes read in full, 16/16 SPs
+> note-covered, quote probe 135/135 green, preverify 107/107 fail-closed
+> green; decision record c11_batch7_decisions.yaml: 15 nodes (13 CONCEPT
+> — 2.35+2.36 as ONE proton-transfer family node per B7-ID-01 — + 2
+> MS-documented WRONG_ANSWER_PATTERN misconceptions) / 19 authored edges
+> (11 in-slice RP + 2 sanctioned boundary RP + 2 practical RP + 2 WAP + 2
+> REMEDIATED_BY) / 9 held / 16 command kinds / ZERO RR. PASS-2 ADVERSARIAL
+> REVIEW: ONE finding RE-AUTHORED BEFORE THE GATE (FP-B7-4: the
+> lead-sulfate note's "Wash filtrate" line conflicts with the pinned
+> Salt-Prep MS Q7a(iii) — the PR-08 anchors swapped; the conflict recorded
+> as a finding, flagged to the corpus owner), zero demotions (raw
+> agreement — explicitly NOT kappa — 15/15 nodes, 19/19 edges, 9 held all
+> AGREE_HOLD). REVIEW GATE rendered (C11_BATCH7_REVIEW_SHEET.md + the
+> review JSON + the OPERATOR-OWNED c11_batch7_verdicts_template.yaml:
+> 19E/13N+2M/6-ID; template re-issue guard; session-54 hardening). One
+> generator iteration recorded (FP-B7-5): G04 keeps MARK_SCHEME anchors
+> misconception-class-only on CONCEPT attachments — the hydronium anchor
+> moved out of the 2.36 attachment, recorded as context in the derivation
+> notes. REGISTRY extended to [pilot..batch7] in 6 sites +
+> graph_paths.yaml legacy_allowlist += the batch-7 record. MERGED STORE:
+> 157 nodes / 367 edges (156 PART_OF + 211 semantic) / 125 command kinds /
+> 95 held / 187 semantic HV UNCHANGED; the live SUGGESTED semantic surface
+> = the 3 frozen pilot HOLDs + the 19 batch-7 authored edges; coverage
+> 125/182 SPs at candidate level (S1 60 + S3 22 + S2 43 of 50). FORECAST:
+> the batch-7 record appended (predicted 38.7/42.7/17.3 vs actual 15/19/9
+> — the S2 descriptive band; JSON regenerated deterministically).
+> STATE-MOVED EXPECTATIONS re-anchored with dated session-59 comments
+> (no test weakened): graph_check C11_BATCH7_SPS + counts (157/367/156, RP
+> 154, WAP 19, RB 21, cks 125) + the session-59 state-note block; the
+> batch2..6 verdict-check shapes + SUGGESTED-surface gates; the
+> batch4/5/6 boundary-check sanctioned-growth blocks; diff_review_test R1
+> 0/5/187 -> 19/5/187; sweep S4 pins re-issued (concepts 5b70f216,
+> concept_edges e27185d7, spec_command_kinds 11a1a3a1). SERVING PLANE
+> re-emitted at the new store state (projections + explorer_blob.json;
+> the source pins == the S4 pins). FULL GATE SUITE GREEN at the final
+> authored-to-gate state (graph_check 157/367/156 with 187 semantic HV;
+> all verdict + boundary checkers; s16 authz; negative 14/14;
+> promote_test 27/27; task4_variants 3/3; diff_review_test R1 19/5/187;
+> the C27/C28 battery green at the commit — the S0 tree gate clears at
+> landing). Invariants held: frozen pilot + batch-1..6 dispositions
+> byte-intact; 100 held candidates quarantined across the seven prior
+> slices + 9 new batch-7 held; 4.15 uncovered; AI attribution forbidden;
+> graph/*.yaml never hand-edited. ZERO promotions, ZERO verdicts
+> invented, ZERO self-promotion: the batch ENDS at its operator gate.
+> Section 2 candidate coverage: 43 of 50 S2 SPs (125 of 182 total at
+> candidate level). NEXT: the operator's batch-7 verdict session (fill
+> scripts/c11_batch7_verdicts_template.yaml -> rename to
+> c11_batch7_verdicts.yaml); a later session encodes + applies them via
+> the §18 pathway; the remaining S2-h family (2.44-2.50: chemical tests)
+> is batch 8 — needs its own operator commissioning; no self-start.)

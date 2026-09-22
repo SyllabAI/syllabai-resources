@@ -237,7 +237,10 @@ out = {
     # through §18 (16 promotions, operator; c11_batch6_verdicts.yaml; store
     # total 187); baselines unchanged; top-level session advances with the
     # settling session (the session-56 precedent).
-    "session": 58,
+    # session-59 (2026-09-23): batch-7 AUTHORED to its operator gate
+    # (future_batch_records[6]; S2 Inorganic third slice — the operator's
+    # "Proceed with batch 7" directive); baselines unchanged.
+    "session": 59,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -847,6 +850,92 @@ out = {
                            "drift lines against the in-repo gate sheet — "
                            "zero verdict-relevant change; verdict record "
                            "scripts/c11_batch6_verdicts.yaml)."),
+        },
+        {
+            # session-59 (2026-09-23): batch-7 AUTHORED to its operator
+            # gate — the S2-f/g slice (acids/alkalis/salt prep); FULL
+            # Paper-2 MS coverage (both families pinned — the best of any
+            # slice), TWO clean documented WAP mints.
+            "batch_id": "c11-s16-batch-7",
+            "session": 59,
+            "commissioned": ("operator ('Proceed with batch 7', 2026-09-23, "
+                             "session 59) under the session-46 §16 "
+                             "authorization"),
+            "scope": ("Section 2 — Inorganic Chemistry THIRD slice, 16 SPs "
+                      "(4CH1-2.28-2.43C: f Acids, Alkalis & Titrations / "
+                      "g Acids, Bases & Salt Preparations) + PR-07/PR-08"),
+            "spec_points": 16,
+            "notes": 12,
+            "mark_schemes_pinned": 2,
+            "predicted": {"nodes": 38.7, "authored_edges": 42.7,
+                          "held_candidates": 17.3},
+            "actual": {"nodes": 15, "authored_edges": 19,
+                       "held_candidates": 9},
+            "delta_pct": {"nodes": -61.2, "authored_edges": -55.5,
+                          "held_candidates": -48.0},
+            "rates": {
+                "held_rate": 0.2093,
+                "rejection_rate": 0.0,
+                # session-59: the batch ends at its operator gate — zero
+                # promotions exist at authoring; promotion rides the
+                # operator's §18 verdict session
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B7-1 (identity shape: the 2.35/2.36 proton-transfer "
+                "family as ONE node attaching both SPs — the note's own "
+                "extend-the-earlier-definition structure; B7-ID-01)",
+                "FP-B7-2 (edge-evidence asymmetry: the titration->indicators "
+                "pair carries method-step + suitability-teaching anchors "
+                "complementarily)",
+                "FP-B7-3 (WAP-target reading: the endpoint misconception "
+                "anchored at CON-NEUTRALISATION (the completion surface), "
+                "the temperature-experiment context recorded, not dropped "
+                "(the S3 3.8/PR-09 future_boundary_note))",
+                "FP-B7-4 (source-note conflict RE-AUTHORED BEFORE the "
+                "gate: the lead-sulfate note's 'Wash filtrate' line "
+                "conflicts with the pinned Salt-Prep MS Q7a(iii) — the "
+                "PR-08 anchors swapped to the aim + filtration sentences)",
+                "FP-B7-5 (G04 discipline: the hydronium MS anchor moved "
+                "out of the 2.36 CONCEPT attachment — MARK_SCHEME anchors "
+                "are misconception-class-only on concept attachments)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -61.2% / edges -55.5% vs "
+                           "the 2.4/2.75 model — the S2 descriptive band "
+                           "(nodes/SP 0.94, edges/SP 1.19): 13 concept-"
+                           "bearing SP-families (2.35+2.36 as ONE family "
+                           "node) + the PR-07/PR-08-owned practicals, and "
+                           "the boundary discipline abstains where the "
+                           "notes re-teach the separation steps inline "
+                           "(the S1 filtration/crystallisation/evaporation/"
+                           "saturation owners untouched). No existing "
+                           "identity re-minted — the TWO ruled targets "
+                           "reached via exactly 2 sanctioned cross-section "
+                           "boundary edges (2.37 -> CON-REACT-ORDER, the "
+                           "batch-6 owner; 2.34 -> CON-ION-CHARGE-RULES, "
+                           "the batch-3 owner); 2.42/2.43C attach no "
+                           "concept node (PR-07/PR-08 own them — the "
+                           "1.13/1.60C/2.14/2.21 precedent) with the "
+                           "practical->concept edges authored. Zero RR "
+                           "authored; 9 held (B7-H-04 the insufficient-"
+                           "characterization refusal; B7-H-06 the "
+                           "note-anchored ERRONEOUS_BELIEF lane held for "
+                           "operator ruling). TWO misconceptions minted, "
+                           "both mark-scheme-documented (the Titrations "
+                           "MS Q2a(iv) Reject column and the Salt-Prep MS "
+                           "Q2a(iii) class). FULL Paper-2 MS coverage — "
+                           "both families pinned (the best of any slice; "
+                           "meta.ms_coverage_note). One pass-2 finding "
+                           "re-authored before the gate (FP-B7-4). "
+                           "Section 2 candidate coverage: 43 of 50 S2 SPs "
+                           "(125 of 182 total at candidate level). "
+                           "NEXT: the batch-7 operator verdict session "
+                           "(fill scripts/c11_batch7_verdicts_template.yaml "
+                           "-> rename); the remaining S2-h family "
+                           "(2.44-2.50 chemical tests) is batch 8."),
         },
     ],
     "future_batch_record_schema": {

@@ -168,12 +168,19 @@ check("C max_boundary_edges honoured (at most 4 sanctioned targets)",
 # ruling's protected property is unchanged: it still mints nothing, and
 # every promoted identity is an operator-verdict row, not a ruling mint.)
 # ---------------------------------------------------------------------------
-expected_nodes = 129 + (13 if B6_RECORD.exists() else 0)
+# session-59 re-anchor (dated, protective intent unchanged): + the 15-node /
+# 33-edge (14 PART_OF + 19 semantic) SANCTIONED batch-7 authored-to-gate
+# record.
+B7_RECORD = HERE / "c11_batch7_decisions.yaml"
+expected_nodes = 129 + (13 if B6_RECORD.exists() else 0) \
+    + (15 if B7_RECORD.exists() else 0)
 # 16 authored semantic edges + the 12 derived PART_OF rows (one per attached
 # CONCEPT node; the MISCONCEPTION node carries no attachments — the batch-5
 # 16->13 PART_OF derivation shape, session-57 dated re-anchor)
-expected_edges = 306 + (28 if B6_RECORD.exists() else 0)
-expected_partof = 130 + (12 if B6_RECORD.exists() else 0)
+expected_edges = 306 + (28 if B6_RECORD.exists() else 0) \
+    + (33 if B7_RECORD.exists() else 0)
+expected_partof = 130 + (12 if B6_RECORD.exists() else 0) \
+    + (14 if B7_RECORD.exists() else 0)
 check("D1 the ruling mints no node beyond the sanctioned batch-6 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")
