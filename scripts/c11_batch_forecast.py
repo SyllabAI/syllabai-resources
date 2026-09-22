@@ -229,7 +229,10 @@ out = {
     # CONFIRM / 6 KEEP_AS_IS / 14 held acknowledged; zero RR) recorded in
     # c11_batch5_verdicts.yaml and applied through §18 (18 promotions,
     # operator; store total 171); baselines unchanged.
-    "session": 56,
+    # session-57 (2026-09-22): batch-6 AUTHORED to its operator gate
+    # (future_batch_records[5]; S2 Inorganic second slice — the operator's
+    # "commission batch 6" directive); baselines unchanged.
+    "session": 57,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -339,7 +342,24 @@ out = {
                    "cross-section boundary edges into exactly the ruled "
                    "owners — CON-ELECTRONIC-CONFIGURATION (batch 2, x2) "
                    "and CON-EXO-ENDO (batch 4); awaiting its operator "
-                   "gate; batches 6-14 not started)"),
+                   "gate), SETTLED 2026-09-22 (session 56: the completed "
+                   "sheet §6 verdict — 18 edge CONFIRM promoted via §18, "
+                   "store total 171; zero RR; 6 identity KEEP_AS_IS; 14 "
+                   "held preserved; verdict record "
+                   "scripts/c11_batch5_verdicts.yaml); batch 6 (S2 "
+                   "Inorganic, SECOND slice) COMMISSIONED + STARTED "
+                   "session 57 (2026-09-22, the operator's 'commission "
+                   "batch 6' directive; the S2-d/e cross-slice boundary "
+                   "ruling recorded + machine-checked — 45 term matches "
+                   "all dispositioned, FOUR sanctioned boundary targets "
+                   "incl. the TWO batch-5 deferral closures; the "
+                   "Reactivity Paper-2 MS pinned — the extraction family "
+                   "is UNPINNED, no PMT MS exists in any unit), AUTHORED "
+                   "to its operator gate 2026-09-22 (session 57: 13 SPs "
+                   "4CH1-2.15-2.27 / 13 nodes / 16 authored edges / 9 "
+                   "held / 0 RR, 4 sanctioned cross-section boundary "
+                   "edges; awaiting its operator gate; batches 7-14 not "
+                   "started)"),
         "scope_sp": 170,
         "batches": s16_batches,
         "totals": s16_totals,
@@ -721,6 +741,95 @@ out = {
                            "record's own held_rate 14/48 already assumed 18); "
                            "corrected here with the matching delta_pct and "
                            "edges/SP rate.)"),
+        },
+        {
+            # session-57 (2026-09-22): batch-6 AUTHORED to its operator
+            # gate — the S2-d/e slice runs in the descriptive band like
+            # batch 5; the unpinned extraction family caps the
+            # misconception mining at the one clean Reject column.
+            "batch_id": "c11-s16-batch-6",
+            "session": 57,
+            "commissioned": ("operator ('commission batch 6', 2026-09-22, "
+                             "session 57) under the session-46 §16 "
+                             "authorization"),
+            "scope": ("Section 2 — Inorganic Chemistry SECOND slice, 13 SPs "
+                      "(4CH1-2.15-2.27: d Reactivity Series / e Extraction "
+                      "& Uses of Metals) + PR-06"),
+            "spec_points": 13,
+            "notes": 10,
+            "mark_schemes_pinned": 1,
+            "predicted": {"nodes": 31.2, "authored_edges": 35.8,
+                          "held_candidates": 13.0},
+            "actual": {"nodes": 13, "authored_edges": 16,
+                       "held_candidates": 9},
+            "delta_pct": {"nodes": -58.3, "authored_edges": -55.3,
+                          "held_candidates": -30.8},
+            "rates": {
+                "held_rate": 0.2368,
+                "rejection_rate": 0.0,
+                # gate PENDING — the operator's batch-6 verdicts (template
+                # scripts/c11_batch6_verdicts_template.yaml) are applied
+                # through §18 at a later session
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B6-1 (identity overlap: the 2.20 term-family node vs "
+                "the batch-3 CON-REDOX-ELECTRONS owner — the broader "
+                "demand + the note's inline electron-framework teaching; "
+                "identity decision B6-ID-01, no boundary edge, no "
+                "re-mint)",
+                "FP-B6-2 (misconception evidence asymmetry: the ONE clean "
+                "Reject-column mint vs the unpinned extraction family — "
+                "no PMT MS exists in any unit; the Q1ai IGNORE class "
+                "held B6-H-03)",
+                "FP-B6-3 (boundary discipline: exactly 4 sanctioned "
+                "boundary edges into 4 ruled targets — 2 existing owners "
+                "+ the 2 deferral closures the batch-5 ruling explicitly "
+                "deferred to 'the batch that mints it')",
+                "FP-B6-4 (family shape: method-vs-evaluation split "
+                "B6-ID-02, the trio/conditions/definition splits "
+                "B6-ID-03..05, the single-Reject-column mint B6-ID-06; "
+                "the practical owns 2.21 with a practical->concept "
+                "edge)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -58.3% / edges -55.3% vs "
+                           "the 2.4/2.75 model — the S2 descriptive band "
+                           "(nodes/SP 1.0, edges/SP 1.23): the one-"
+                           "node-per-SP-family shape held exactly (12 "
+                           "concept-bearing SPs + the PR-06-owned "
+                           "practical), and the boundary discipline "
+                           "abstains where the notes re-teach inline "
+                           "(B6-H-01/02/06/08). No existing identity "
+                           "re-minted — the FOUR ruled targets reached "
+                           "via exactly 4 sanctioned cross-section "
+                           "boundary edges (2.23C -> CON-ELECTROLYSIS; "
+                           "2.25C -> CON-METAL-PROPERTIES; the batch-5 "
+                           "deferral closures 2.12 -> CON-REACT-ORDER "
+                           "and 2.10 -> CON-RUSTING, closing held "
+                           "B5-H-10 and the iron-route note verbatim); "
+                           "2.21 attaches no concept node (PR-06 owns "
+                           "it — the 1.13/1.60C/2.14 precedent) with "
+                           "the practical->concept edge authored. Zero "
+                           "RR authored; 9 held. ONE misconception "
+                           "minted, mark-scheme-documented (the "
+                           "REACTIVITY MS Q2a Reject column — the "
+                           "MIS-CUO-COLOUR-class narrow-but-exact "
+                           "pattern). PARTIAL Paper-2 MS coverage: the "
+                           "Reactivity family pinned; the extraction "
+                           "family UNPINNED (no PMT MS in any unit — "
+                           "the batch-1..3 convention, recorded in "
+                           "meta.ms_coverage_note). One pass-2 finding "
+                           "re-authored before the gate (FP-B6-5, a "
+                           "non-load-bearing 2-word evidence fragment "
+                           "replaced by order-relative facts). Section "
+                           "2 candidate coverage: 27 of 50 S2 SPs (109 "
+                           "of 182 total at candidate level). Operator "
+                           "gate PENDING (sheet: "
+                           "C11_BATCH6_REVIEW_SHEET.md; template: "
+                           "scripts/c11_batch6_verdicts_template.yaml)."),
         },
     ],
     "future_batch_record_schema": {

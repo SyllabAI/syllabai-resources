@@ -6,12 +6,13 @@
 #   scripts/c11_batch3_decisions.yaml (extraction_pass c11-s16-batch-3)
 #   scripts/c11_batch4_decisions.yaml (extraction_pass c11-s16-batch-4)
 #   scripts/c11_batch5_decisions.yaml (extraction_pass c11-s16-batch-5)
+#   scripts/c11_batch6_decisions.yaml (extraction_pass c11-s16-batch-6)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
 # Generation dates pinned per record; store date 2026-09-22 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -114,6 +115,19 @@ meta:
   - 4CH1-2.12
   - 4CH1-2.13
   - 4CH1-2.14
+  - 4CH1-2.15
+  - 4CH1-2.16
+  - 4CH1-2.17
+  - 4CH1-2.18
+  - 4CH1-2.19
+  - 4CH1-2.20
+  - 4CH1-2.21
+  - 4CH1-2.22C
+  - 4CH1-2.23C
+  - 4CH1-2.24C
+  - 4CH1-2.25C
+  - 4CH1-2.26C
+  - 4CH1-2.27C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -123,6 +137,7 @@ meta:
   - 4CH1-PR-10
   - 4CH1-PR-11
   - 4CH1-PR-05
+  - 4CH1-PR-06
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
@@ -132,6 +147,7 @@ meta:
   - scripts/c11_batch3_decisions.yaml
   - scripts/c11_batch4_decisions.yaml
   - scripts/c11_batch5_decisions.yaml
+  - scripts/c11_batch6_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -139,6 +155,7 @@ meta:
   - c11-s16-batch-3
   - c11-s16-batch-4
   - c11-s16-batch-5
+  - c11-s16-batch-6
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
   generated: '2026-09-22'
@@ -149,7 +166,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 96
+    spec_points: 109
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -479,6 +496,38 @@ command_kinds:
   demanded_substance: 'the practical determination of the approximate percentage of oxygen in air using
     a metal or a non-metal (the iron-wool burette method: 3-4 days, water level rise, initial/final air
     volumes, volume of oxygen, percentage = oxygen/initial x 100 ~ 20%)'
+- code: 4CH1-2.15
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'how metals are ARRANGED into a reactivity series from their reactions with water
+    and with dilute hydrochloric/sulfuric acids (the comparative observations: violent/quick/less-strong
+    water reactions descending K->Ca; only metals above hydrogen react with dilute acids; the more reactive
+    the metal the more vigorous the reaction; the salt + hydrogen products)'
+- code: 4CH1-2.16
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how metals are ARRANGED into a reactivity series from their displacement reactions,
+    both strands — metal + metal oxide on heating (Zn + CuO; the thermite Fe2O3 + 2Al; the no-reaction-when-less-reactive
+    rows) and metal + aqueous metal salt solution (Mg + CuSO4 with the fading blue colour; the no-reaction
+    rows)
+- code: 4CH1-2.17
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the order of reactivity of potassium, sodium, lithium, calcium, magnesium, aluminium,
+    zinc, iron, copper, silver, gold (K > Na > Li > Ca > Mg > Al > Zn > Fe > Cu > Ag > Au, most to least
+    reactive), with carbon and hydrogen as reference points in the extended series
+- code: 4CH1-2.18
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: 'the conditions under which iron rusts — BOTH oxygen (air) and water must be present
+    (the three control-tube investigation: air+water rusts; oil-barrier no rust; drying-agent no rust)'
+- code: 4CH1-2.19
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how rusting may be prevented — barrier methods (paint, oil, grease, electroplating;
+    excluded air/water), sacrificial protection (a MORE reactive metal such as zinc attached to the iron
+    oxidises first, protecting the iron; bars replaced as they corrode) and galvanising (zinc coating
+    = barrier PLUS sacrificial protection if scratched)
 - code: 4CH1-2.2
   verb: understand
   guide_class: UNDERSTAND_RELATION
@@ -486,6 +535,64 @@ command_kinds:
     air and water provide evidence for the reactivity trend in Group 1 (vigour increasing down the group:
     fizzing/movement for Li, rapid movement and dissolving for Na, lilac flame for K; tarnishing faster
     down the group)'
+- code: 4CH1-2.20
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: the terms oxidation, reduction, oxidising agent and reducing agent — oxidation as
+    oxygen GAIN (and electron loss), reduction as oxygen LOSS (and electron gain), the redox pairing (oxidation
+    cannot occur without simultaneous reduction), and the agent identification in worked examples (CuO
+    supplies oxygen = oxidising agent; Zn removes oxygen = reducing agent)
+- code: 4CH1-2.21
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the practical investigation of reactions between dilute hydrochloric and sulfuric
+    acids and the metals magnesium, iron and zinc (5 cm3 acid per tube, 1 cm magnesium ribbon / iron filings
+    / zinc turnings, lighted-splint gas test, observation tables, conclusion: reactivity order Mg > Zn
+    > Fe with hydrogen + a metal salt produced)'
+- code: 4CH1-2.22C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that most metals are extracted from ores found in the Earth's crust (an ore is a
+    rock containing enough metal to make extraction worthwhile; iron ore haematite, aluminium ore bauxite)
+    and that unreactive metals are often found as the uncombined element (gold and platinum mined directly,
+    due to their chemical stability)
+- code: 4CH1-2.23C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: 'how the extraction method is related to the metal''s position in the reactivity
+    series — metals above carbon (potassium to aluminium) extracted by electrolysis of their molten compounds
+    (expensive: large electricity demand; aluminium from molten aluminium oxide dissolved in molten cryolite
+    to lower the melting point), metals below carbon (zinc, iron, copper) by heating with carbon/carbon
+    monoxide in a blast furnace (cheap reducing agent), unreactive metals found native (the 2.23C wording''s
+    own illustrations: carbon extraction for iron and electrolysis for aluminium)'
+- code: 4CH1-2.24C
+  verb: be
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: commenting on a metal extraction process GIVEN appropriate information (evaluating
+    cost, energy demand, reactivity position and environmental factors from the provided description —
+    the blast-furnace iron extraction and the aluminium electrolysis cell are the worked information surfaces)
+    with detailed knowledge of a specific metal's process explicitly NOT required
+- code: 4CH1-2.25C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: 'the uses of aluminium, copper, iron and steel explained in terms of their properties
+    (aluminium: low density/strength for aircraft, heat/electrical conduction + unreactivity for saucepans,
+    cables, food cans; copper: electrical conduction + ductility for wiring, heat conduction/malleability
+    for saucepans and pipes; iron: strength + malleability + low cost for building; steel types limited
+    to low-carbon/mild (soft, malleable — car body panels), high-carbon (hard — tools) and stainless (corrosion-resistant
+    — cutlery))'
+- code: 4CH1-2.26C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that an alloy is a mixture of a metal and one or more elements, usually other metals
+    or carbon (steel = iron + carbon; brass = 70% copper + 30% zinc; alloys' enhanced properties — stronger,
+    harder, corrosion/temperature resistant)
+- code: 4CH1-2.27C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: 'why alloys are harder than pure metals — the different-sized atoms distort the
+    regular layer arrangement of the metal lattice, so the layers can no longer slide over each other
+    easily (the particle-diagram examination surface: uneven-sized particles, distorted rows)'
 - code: 4CH1-2.3
   verb: use
   guide_class: UNDERSTAND_RELATION

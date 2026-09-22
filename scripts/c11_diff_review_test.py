@@ -285,6 +285,21 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-57: the registry grows by the (empty) batch-6 member
+    (base / "scripts" / "c11_batch6_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-6",
+                                   "extraction_pass": "c11-s16-batch-6",
+                                   "generated_date": "2026-09-22",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
 
 
 # NOTE: the fixture decision-record edges carry an extra key
@@ -491,8 +506,13 @@ def main() -> int:
         # c11_batch5_verdicts); promo_count 153 -> 171 (28+28+23+39+35+18);
         # the actionable surface is empty again until the next batch's
         # gate (the not-actionable rows stay 5).
-        check("R1 reports 0 actionable / 5 not-actionable / 171 promotions",
-              "actionable: 0" in r.stdout
+        # session-57: batch 6 is AUTHORED to its operator gate ("commission
+        # batch 6") — the actionable surface is the 16 batch-6 SUGGESTED
+        # edges; the not-actionable rows stay 5 (3 pilot operator HOLDs +
+        # the pilot RR + the settled batch-1 RR); promo_count stays 171
+        # (authoring promotes nothing).
+        check("R1 reports 16 actionable / 5 not-actionable / 171 promotions",
+              "actionable: 16" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=171" in r.stdout)
     finally:

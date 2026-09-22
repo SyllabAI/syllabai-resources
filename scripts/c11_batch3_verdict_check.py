@@ -281,13 +281,16 @@ check("D10 no batch-3 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
               for x in nodes_doc["nodes"]))
 # Session-55 re-anchor (2026-09-22, dated; protective intent unchanged): the
 # store grew to 129/305/130 by the SANCTIONED batch-5 authored-to-gate
+# record; the batch-3 slice below is still preserved exactly.
+# Session-57 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# store grew to 142/334/142 by the SANCTIONED batch-6 authored-to-gate
 # record (16 nodes + 13 PART_OF + 18 authored semantic edges, ZERO
 # promotions); the batch-2 slice below is still preserved exactly.
-check("D11 live store shape 129 nodes / 306 edges (130 PART_OF + 176 "
+check("D11 live store shape 142 nodes / 334 edges (142 PART_OF + 192 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 129 and len(edges_doc["edges"]) == 306
+      len(nodes_doc["nodes"]) == 142 and len(edges_doc["edges"]) == 334
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 130)
+              if e["relation"] == "PART_OF") == 142)
 # session-53 re-anchor (dated, protective intent unchanged): batch 4
 # authored-to-gate growth (22 nodes + 20 PART_OF + 35 authored semantic
 # edges, all SUGGESTED); the batch-3 slice above — all 39 promotions intact

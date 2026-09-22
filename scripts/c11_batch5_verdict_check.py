@@ -286,11 +286,21 @@ check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
 # the 18 batch-5 authored edges left the SUGGESTED surface, so the live
 # SUGGESTED semantic edges are again EXACTLY the 3 frozen pilot operator
 # HOLDs (the batch-4-check D2 assertion's post-application state).
+# Session-57 re-anchor (2026-09-22, dated; protective intent unchanged):
+# the SANCTIONED batch-6 authored-to-gate record (16 SUGGESTED semantic
+# edges) joins the 3 frozen pilot HOLDs as the live SUGGESTED surface —
+# awaiting the operator's batch-6 verdicts; the protective core (the 3
+# HOLDs stay SUGGESTED and un-promoted; zero unbacked HV) is unchanged.
+B6_DEC = HERE / "c11_batch6_decisions.yaml"
+B6_AUTHORED = {triple(e)
+               for e in (yaml.safe_load(B6_DEC.read_text(encoding="utf-8"))
+                         .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
-      "are now the ONLY live SUGGESTED semantic edges (the batch-5 "
-      "verdicts applied through §18)",
+      "the live SUGGESTED semantic surface is EXACTLY the pilot HOLDs + "
+      "the batch-6 authored edges (batch-5 verdicts applied through §18; "
+      "batch-6 authored to its gate at session 57)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds,
+      and live_sugg == (pilot_holds | B6_AUTHORED),
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -356,11 +366,15 @@ check("D12 no batch-5 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
       "the §6 confirmations do not promote nodes)",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D13 live store shape 129 nodes / 306 edges (130 PART_OF + 176 "
+# Session-57 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# store grew to 142/334/142 by the SANCTIONED batch-6 authored-to-gate record
+# (13 nodes + 12 PART_OF + 16 authored semantic edges, ZERO promotions; the
+# batch-5 slice below is still preserved exactly).
+check("D13 live store shape 142 nodes / 334 edges (142 PART_OF + 192 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 129 and len(edges_doc["edges"]) == 306
+      len(nodes_doc["nodes"]) == 142 and len(edges_doc["edges"]) == 334
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 130)
+              if e["relation"] == "PART_OF") == 142)
 # boundary mint discipline (the session-55 cross-slice ruling)
 b5_codes = {c["code"] for c in dec["nodes"]}
 check("D14 zero ruled non-mint owner re-minted in the batch-5 node set "

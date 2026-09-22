@@ -107,9 +107,14 @@ PROMOTIONS = HERE / "c11_promotions.yaml"
 # Session-55 (§16 batch 5, 2026-09-22): the registry grows by the batch-5
 # record (S2 Inorganic first slice, 4CH1-2.1-2.14) — the operator's "run
 # batch 5" directive; same per-batch operator gate before any promotion.
+# Session-57 (§16 batch 6, 2026-09-22): the registry grows by the batch-6
+# record (S2 Inorganic second slice, 4CH1-2.15-2.27) — the operator's
+# "commission batch 6" directive; same fail-closed contract, same
+# disjoint-slice rule, same per-batch operator gate before any promotion.
 DECISION_RECORDS = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                     "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
-                    "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml"]
+                    "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml",
+                    "c11_batch6_decisions.yaml"]
 RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                         r"|llm|agent|model|bot", re.I)

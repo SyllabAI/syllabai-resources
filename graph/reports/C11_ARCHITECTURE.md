@@ -1108,3 +1108,67 @@ C11_OPERATOR_DECISIONS.md).
 > (2.15-2.50: reactivity series / extraction / acids-alkalis / chemical
 > tests) are batches 6-8 per the §16 item-14 plan — each needs its own
 > operator commissioning; no self-start.)
+
+> **Session-57 amendment (2026-09-22): §16 PHASE-2 BATCH 6 (S2 INORGANIC,
+> SECOND SLICE) AUTHORED TO ITS OPERATOR GATE.** Commissioned by the
+> operator's session-57 directive (verbatim: "commission batch 6") under
+> the session-46 §16 authorization; the per-batch boundary-ruling
+> precondition held. The slice: 4CH1-2.15-2.27 (13 SPs — d Reactivity
+> Series + e Extraction & Uses of Metals, subsection-complete,
+> thematically coherent via 2.23C's method-position demand) + the 2.21
+> practical PR-06 (owned by the practical per the 1.13/1.60C/2.14
+> precedent, the practical->concept edge authored). The session-57
+> cross-slice boundary ruling (scripts/c11_batch6_boundary_ruling.yaml +
+> the NEW standing checker c11_batch6_boundary_check.py, ALL PASS) audited
+> 94 candidate terms against the merged pre-batch-6 store: 45 matches ALL
+> dispositioned, ZERO unhandled conflicts; boundary EDGES sanctioned into
+> EXACTLY FOUR targets — CON-ELECTROLYSIS and CON-METAL-PROPERTIES (batch-3
+> owners) plus the TWO deferral closures the batch-5 ruling explicitly
+> deferred to "the batch that mints it" (CON-CO2-FROM-CARBONATES ->
+> CON-REACT-ORDER, closing held B5-H-10; CON-O2-PERCENT-DETERMINATION ->
+> CON-RUSTING) — a new deferral-closure class executed exactly as the
+> prior ruling recorded; boundary MINTING remains forbidden (non_mint_list
+> 31 owners; the 2.20-vs-1.59C electron-framework overlap is identity
+> decision B6-ID-01 with NO edge — the 2.20 note re-teaches that framework
+> inline, the B5-H-02 rule). The decision record (extraction_pass
+> c11-s16-batch-6): 13 nodes (12 CONCEPT one-per-SP-family + 1
+> MS-documented misconception from the pinned REACTIVITY MS Q2a Reject
+> column — the batch's ONLY clean Reject pattern, the extraction family
+> being UNPINNED: no PMT MS exists for it in any unit, recorded in
+> meta.ms_coverage_note per the batch-1..3 convention) / 16 authored edges
+> (all SUGGESTED, zero RR) / 9 held / 13 command kinds; every quote probed
+> pre-authoring (99/99) and re-verified fail-closed (91/91 preverify). The
+> pass-2 adversarial review found ONE genuine issue and re-authored it
+> BEFORE the gate (FP-B6-5: a non-load-bearing 2-word evidence fragment in
+> CON-REACT-ORDER replaced by order-relative facts); zero demotions; the
+> review gate is rendered (C11_BATCH6_REVIEW_SHEET.md + .json + the
+> OPERATOR-OWNED scripts/c11_batch6_verdicts_template.yaml — 16E/13N/6-ID).
+> The generator registry grew to [pilot..batch6] in 6 sites; the gated
+> re-run is ALL GATES GREEN; merged store 142 nodes / 334 edges (142
+> PART_OF + 192 semantic) / 109 command kinds / 86 held / 171 semantic HV
+> UNCHANGED (authoring promotes nothing). State-anchored expectations
+> re-anchored with dated session-57 comments only (graph_check
+> C11_BATCH6_SPS + scope/stage/counts + state note + summary phrase;
+> batch-2/3 verdict-check shapes; batch-4/5 verdict-check D2 SUGGESTED-
+> surface + shape rows; batch-4/5 boundary-check B2/D-gates; the new
+> batch-6 boundary checker's D-gates carry the sanctioned-growth
+> expectations; diff-review-test R1 16/5/171; sweep S4 pins b3988e7e /
+> 76f7ce13 / 194ed2d1; legacy_allowlist += the batch-6 decision record) —
+> protective intent unchanged, no test weakened. FORECAST: the batch-6
+> record appended (predicted 31.2/35.8/13.0 vs actual 13/16/9 — the S2
+> descriptive band; promotion_rate 0.0 pending the gate); JSON regenerated
+> deterministically. SERVING PLANE re-emitted at the authored state
+> (projections + explorer_blob.json; the 6 source pins == the S4 pins).
+> FULL GATE SUITE GREEN at the authored-to-gate state (all checkers +
+> negative 14/14 + promote_test 27/27 + task4_variants 3/3 +
+> diff_review_test R1 16/5/171; the C27/C28 battery green at the commit —
+> S0 tree gate clears at landing). Invariants held: frozen pilot +
+> batch-1..5 dispositions byte-intact; 100 held candidates quarantined
+> across the seven slices; 4.15 uncovered; AI attribution forbidden;
+> graph/*.yaml never hand-edited. NOTHING is promoted at this gate. NEXT:
+> the operator's batch-6 verdict session (fill
+> scripts/c11_batch6_verdicts_template.yaml → rename to
+> c11_batch6_verdicts.yaml); a later session encodes + applies them via
+> the §18 pathway; the remaining S2 families (2.28-2.50) are batches 7-8
+> per the item-14 plan — each needs its own operator commissioning; no
+> self-start.)

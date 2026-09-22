@@ -928,3 +928,98 @@ before phase 2 (S3).)
 > families (2.15-2.50: reactivity series / extraction / acids-alkalis /
 > chemical tests) are batches 6-8 per the §16 item-14 plan — each needs
 > its own commissioning; no self-start.)
+
+> **Session-57 update (2026-09-22): BATCH 6 (S2 INORGANIC, SECOND SLICE)
+> AUTHORED TO ITS OPERATOR GATE — "commission batch 6".** Commissioned by
+> the operator's session-57 directive (verbatim: "commission batch 6")
+> under the session-46 §16 authorization; the item-14 plan assigns S2 to
+> FOUR batches and the session-56 record names the slice order ("the
+> remaining S2 families (2.15-2.50: reactivity series / extraction /
+> acids-alkalis / chemical tests) are batches 6-8 per the §16 item-14
+> plan — each needs its own operator commissioning"). COMMISSIONING +
+> PREP: scope ruling recorded (batch 6 = the SECOND S2 slice 4CH1-2.15-2.27,
+> 13 SPs, subsection-complete: d Reactivity Series 2.15-2.21 + e Extraction
+> & Uses of Metals 2.22C-2.27C — thematically coherent via 2.23C's own
+> method-position demand) + the 2.21 practical PR-06. CROSS-SLICE BOUNDARY
+> RULING scripts/c11_batch6_boundary_ruling.yaml + NEW STANDING CHECKER
+> c11_batch6_boundary_check.py ALL PASS: 94 candidate terms audited against
+> the merged pre-batch-6 store -> 45 matches ALL dispositioned, ZERO
+> unhandled conflicts; boundary EDGES sanctioned into EXACTLY FOUR targets
+> — CON-ELECTROLYSIS (batch 3; the 2.23C route applies the framework as
+> given), CON-METAL-PROPERTIES (batch 3; the 2.25C "in terms of their
+> properties" demand verbatim) and the TWO deferral closures the batch-5
+> ruling explicitly deferred to "the batch that mints it" (CON-CO2-FROM-
+> CARBONATES -> CON-REACT-ORDER, closing held B5-H-10; CON-O2-PERCENT-
+> DETERMINATION -> CON-RUSTING, closing the iron-route note); non_mint_list
+> 31 owners (incl. CON-REDOX-ELECTRONS — the 2.20 electron-framework
+> overlap is identity decision B6-ID-01, the 2.20 note RE-TEACHING that
+> framework inline defeats a boundary edge). MS PINNING
+> scripts/c11_ms_pin_batch6.py: REACTIVITY_MS_P2.txt (8e883dd7d68d, 2pp,
+> 12 marks) — PARTIAL coverage: NO PMT MS exists for the Extraction & Uses
+> family in ANY unit (verified by directory listing; recorded in
+> meta.ms_coverage_note — the batch-1..3 unpinned-family convention, so
+> misconception mining is confined to the one clean Reject-column pattern).
+> EXTRACTION: all 10 T-C10 HUMAN_VALIDATED-mapped notes read in full (all
+> 13 SPs note-covered via the front-matter HV mappings); every planned
+> quote probed pre-authoring (scripts/c11_batch6_quote_probe.py: 99/99
+> green — 82 note/MS + 17 SPEC). DECISION RECORD
+> scripts/c11_batch6_decisions.yaml (extraction_pass c11-s16-batch-6):
+> 13 nodes (12 CONCEPT — one per SP-family with 2.21 attaching none,
+> PR-06 owning it — + 1 MS-documented WRONG_ANSWER_PATTERN misconception
+> MIS-ION-OXIDE-REASONING from the REACTIVITY_MS Q2a Reject column) / 16
+> authored edges (12 in-slice RP incl. the PR-06 practical->concept edge,
+> 2 misconception edges WAP+RB, 4 sanctioned boundary edges incl. the two
+> deferral closures) / 9 held / zero RR; preverify 91/91 anchors fail-closed
+> green. PASS-2 ADVERSARIAL REVIEW: ONE finding re-authored BEFORE the gate
+> (FP-B6-5: the CON-REACT-ORDER evidence carried a 2-word table fragment —
+> replaced by the above-hydrogen placement fact + the practical's ranking
+> conclusion), then zero demotions (13/13 nodes, 16/16 edges, 9 held all
+> AGREE_HOLD); review gate rendered (C11_BATCH6_REVIEW_SHEET.md + .json +
+> operator verdicts template 16E/13N/6-ID). Registry grown to
+> [pilot..batch6] in 6 sites (generator + promote + diff_review +
+> graph_check + promote_test staging + diff_review_test fixture); generator
+> ALL GATES GREEN; merged store 142 nodes / 334 edges (142 PART_OF + 192
+> semantic) / 109 command kinds / 86 held / 171 semantic HV UNCHANGED;
+> coverage 109/182 SPs at candidate level (S1 60 + S3 22 + S2 27 of 50).
+> State-moved expectations re-anchored with dated session-57 comments (no
+> test weakened): graph_check C11_BATCH6_SPS/C11_SCOPE/C11_STAGE/C11_COUNTS
+> (142/334/142, RP 139, WAP 17, RB 19, cks 109) + state note + summary
+> phrase; batch2/3 verdict-check shapes 142/334/142; batch4 verdict-check
+> D2 (SUGGESTED surface = 3 pilot HOLDs + the 16 batch-6 authored edges) +
+> D12; batch5 verdict-check D2 + D13; batch4 boundary-check B2/D1/D2
+> (the reconstruction excludes all THREE sanctioned mints, 51 nodes /
+> 114-edge delta); batch5 boundary-check D-gates (+the 13/28 batch-6
+> growth); diff_review_test R1 16/5/171 (the actionable surface is the
+> batch-6 authored set); sweep S4 pins re-issued (sha256_16: concepts
+> b3988e7e, edges 76f7ce13, cks 194ed2d1); legacy_allowlist += the batch-6
+> decision record (the P5 class); the new batch-6 boundary checker's
+> D-gates carry the sanctioned-growth expectations. SERVING PLANE
+> re-emitted (projections + explorer_blob.json at the new store state);
+> forecast batch-6 record appended (predicted 31.2/35.8/13.0 vs actual
+> 13/16/9 — the S2 descriptive band; nodes/SP 1.0, edges/SP 1.23);
+> governance amended with dated session-57 notes (this gate report +
+> architecture §16). FULL GATE SUITE AT THE AUTHORED-TO-GATE STATE:
+> graph_check ALL PASS (142/334/142, 171 semantic HV);
+> c11_review_verdict_check ALL PASS; c11_batch1..batch5_verdict_check ALL
+> PASS; c11_batch4/batch5/batch6_boundary_check ALL PASS;
+> c11_s16_authorization_check ALL PASS; c11_negative_test 14/14;
+> c11_promote_test 27/27 (live store untouched); c11_task4_variants 3/3;
+> c11_diff_review_test ALL PASS (R1 16/5/171). INVARIANTS HELD: the frozen
+> pilot + batch-1..5 dispositions byte-intact (E-08/E-26/E-29 stay
+> SUGGESTED; both RR edges REVIEW_REQUIRED under their operator
+> settlements; HELD-01..13 + B1-H-01..12 + B2-H-01..10 + B3-H-01..14 +
+> B4-H-01..14 + B5-H-01..14 + B6-H-01..09 untouched — 100 held, clean
+> quarantine); 171 promotions all operator; batch-6 nodes stay SUGGESTED
+> (no §18 node pathway); PART_OF derived and outside §18 (the 12 batch-6
+> PART_OF rows SUGGESTED pending their own attachment-promotion lane);
+> 4CH1-4.15 uncovered; no DB writes; AI attribution forbidden;
+> graph/*.yaml never hand-edited (all changes via the sanctioned
+> generators). ZERO promotions, ZERO verdicts invented, ZERO self-promotion:
+> the batch ENDS at its operator gate. Section 2 candidate coverage: 27 of
+> 50 S2 SPs (109 of 182 total at candidate level). NEXT: the operator's
+> batch-6 verdict session (fill scripts/c11_batch6_verdicts_template.yaml,
+> rename to c11_batch6_verdicts.yaml); a later session encodes + applies
+> them via the §18 pathway; the remaining S2 families (2.28-2.50: acids &
+> alkalis / salt preparations / chemical tests) are batches 7-8 per the
+> item-14 plan — each needs its own operator commissioning; no self-start.
+> Then STOP — Batch 6 authoring -> operator gate. Nothing more.)

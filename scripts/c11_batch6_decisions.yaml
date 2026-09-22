@@ -1,0 +1,1110 @@
+# T-C11 §16 expansion — BATCH 6 decision record — the AI candidate graph for
+# the 4CH1-2.15–2.27 slice (Section 2 — Inorganic Chemistry, second slice:
+# d Reactivity Series / e Extraction & Uses of Metals)
+# + the 2.21 practical PR-06 (investigate reactions between dilute
+# hydrochloric and sulfuric acids and metals, e.g. magnesium, zinc and iron).
+# Authored 2026-09-22 by GLM (Super Z agent, z.ai), extraction_pass
+# c11-s16-batch-6, commissioned by the operator's "commission batch 6"
+# directive (session 57) under the session-46 §16 authorization
+# (scripts/c11_s16_authorization.yaml). Batch-6 preparation (session 57) is
+# complete and machine-checked: the cross-slice boundary ruling
+# (scripts/c11_batch6_boundary_ruling.yaml — the S1+S3+S2(batch-5)->S2(batch-6)
+# conflict audit: 94 candidate terms, 45 store matches, every match
+# dispositioned, ZERO unhandled conflicts; boundary EDGES sanctioned into
+# EXACTLY the four ruled targets — 4CH1-CON-ELECTROLYSIS (batch 3; the 2.23C
+# electrolysis route applies the framework as given), 4CH1-CON-METAL-PROPERTIES
+# (batch 3; the 2.25C uses are explained "in terms of their properties"), and
+# the TWO deferrals the batch-5 ruling explicitly promised to the batch that
+# mints the owners: CON-CO2-FROM-CARBONATES -> the 2.17 reactivity-order node
+# (the B5-H-10 closure) and CON-O2-PERCENT-DETERMINATION -> the 2.18 rusting
+# node (the B5 future_boundary_note closure)) — and the pinned Paper-2
+# mark-scheme set (REACTIVITY — PMT Unit 2 publishes exactly one Paper-2 MS
+# touching the batch-6 families; recorded in meta.ms_coverage_note, not
+# silent).
+# This file is the batch-6 input to the SAME gated generation contract as the
+# pilot (graph/reports/C11_ARCHITECTURE.md §10):
+# scripts/c11_concept_pilot.py reads the decision-record registry (pilot,
+# batches 1, 2, 3, 4, 5, then this record) and emits graph/concepts.yaml,
+# graph/concept_edges.yaml and graph/spec_command_kinds.yaml deterministically
+# (fail-closed). NOTHING in this record is authoritative: every record is
+# AI_SUGGESTED with validation_status SUGGESTED. HUMAN_VALIDATED is
+# unreachable from generation (anti-forgery gate). Batch-6 content becomes
+# promotable ONLY through the §18 pathway AFTER the operator records per-row
+# verdicts on this batch's review sheet (per-batch operator gate) — this
+# record ends at that gate; it authorizes nothing.
+#
+# Scope ruling (recorded, not silent): the §16 authorization binds the ≈12-SP
+# batch shape and the item-14 plan assigns S2 (50 SPs) to FOUR batches. Batch
+# 5 took the FIRST S2 slice (2.1-2.14); batch 6 is the SECOND S2 slice,
+# 4CH1-2.15-2.27 (13 SPs) — chosen subsection-complete (d Reactivity Series
+# 2.15-2.21 + e Extraction & Uses of Metals 2.22C-2.27C) so no subsection
+# straddles a batch boundary, and thematically coherent (2.23C's own demand
+# ties extraction to the reactivity-series position the d-family teaches).
+# The remaining S2 families (f Acids & alkalis 2.28-2.33C, g Acids, bases &
+# salt preparations 2.34-2.43C, h Chemical tests 2.44-2.50) fall to batches
+# 7-8. The operator can re-scope at the gate with zero promotion cost
+# (nothing is promoted before verdicts).
+#
+# Evidence quotes are whitespace-normalized substrings of the cited file under
+# the T-C10 norm() convention (NFC; strip markdown emphasis/HTML tags/links;
+# collapse whitespace) — verified byte-verbatim by the generator (G03) and by
+# graph_check (c11.4); every planned quote was probed pre-authoring
+# (scripts/c11_batch6_quote_probe.py: 99/99 green — 82 note/MS + 17 SPEC
+# probes). Anchor kinds: NOTE (T-C10 HUMAN_VALIDATED-mapped revision note),
+# SPEC (specification_points.yaml official wording), MARK_SCHEME (pinned PMT
+# extraction — misconception-family evidence only, per G07/G11). All 13
+# batch-6 SPs are T-C10 HUMAN_VALIDATED note-covered via the notes'
+# front-matter spec_map (6 d-family notes + 4 e-family notes; the front-matter
+# entries carry operator validation 2026-09-11 — the generator's TC10 index
+# reads the front-matter, which is the same HUMAN_VALIDATED surface batches
+# 1-5 anchored on). Mark-scheme quotes from the pinned pdftotext artifact
+# preserve the artifact's layout (the batch-2/3/4/5 convention); the Q2a
+# Reject line wraps across a pdftotext line break ("Reject references to
+# ions / and oxides") and is quoted as the contiguous normalized phrase,
+# recorded in the MIS node's derivation_notes.
+#
+# Cross-section boundary discipline (the session-57 ruling, machine-verified):
+# this record mints an entirely new S2-d/e vocabulary for the slice (the
+# machine-verified zero-unhandled-conflict audit: 94 terms, 45 matches, all
+# dispositioned) and sanctions boundary EDGES into EXACTLY the four ruled
+# targets — 4CH1-CON-ELECTROLYSIS (batch 3; "extracted by electrolysis"
+# applies the cell framework as given, never re-defined in the extraction
+# note), 4CH1-CON-METAL-PROPERTIES (batch 3; the 2.25C demand is verbatim
+# "in terms of their properties" and the uses note applies conductivity/
+# malleability vocabulary without re-teaching it), and the two batch-5
+# deferral closures (CON-CO2-FROM-CARBONATES -> CON-REACT-ORDER; CON-O2-
+# PERCENT-DETERMINATION -> CON-RUSTING). Boundary MINTING is forbidden: no
+# S1/S3/batch-5 identity is re-created, re-scoped or re-owned (the ruling's
+# non_mint_list; CON-REDOX-ELECTRONS is explicitly non-mint — the 2.20
+# electron-framework overlap is the B6-ID-01 identity decision, and the 2.20
+# note RE-TEACHES that framework inline, defeating a boundary edge — the
+# B5-H-02 rule). The batch-4/5 honesty rule is kept: considered-but-refused
+# directions (the blast-furnace exothermic aside, the galvanising ZnCO3
+# line, the MS-only rate-factor surface) are recorded in the ruling's
+# match_dispositions and in held B6-H-01..09 rather than silently authored
+# beyond the audited set.
+#
+# Misconception discipline (the session-53 Step-3 rule, applied exactly): a
+# misconception node is minted ONLY where a pinned source documents the wrong
+# answer. The batch-6 pin documents exactly one such pattern — the
+# REACTIVITY MS Q2a Reject column ("Reject references to ions and oxides"
+# against the expected reactivity comparison) on the metal-oxide displacement
+# surface (2.16a, the aluminium/iron-oxide thermite-class reaction the MS
+# question assesses). The Q1ai IGNORE class ("Ignore references to water or
+# acid") is HELD (B6-H-03): the rate-factor surface belongs to the S3 owner
+# (CON-RATE-FACTORS), MS anchors are misconception-class only (G07) and the
+# ignore class does not characterize a conceptual wrong belief — the
+# B5-H-04/B5-H-05 conventions.
+#
+# The frozen pilot, batch-1, batch-2, batch-3, batch-4 and batch-5
+# dispositions are untouched by this record: E-08/E-26/E-29 (operator HOLD
+# edges), both RR edges (pilot operator HOLD + batch-1 operator-settled
+# HOLD_REVIEW_REQUIRED), HELD-01..13, B1-H-01..12, B2-H-01..10, B3-H-01..14,
+# B4-H-01..14, B5-H-01..14, the 171 operator promotions (28 + 28 + 23 + 39 +
+# 35 + 18), the T-C19 G19 attachment promotions (117 PART_OF rows), and the
+# 4CH1-4.15 negative control. No batch-6 node attaches to 4.15; no batch-6
+# edge re-uses an earlier-record identity; the two batch-5 deferral-closure
+# boundary edges are the edges the batch-5 ruling itself deferred to this
+# batch (its future_boundary_notes), not new identity decisions.
+
+meta:
+  task: T-C11
+  stage: s16-batch-6
+  extraction_pass: c11-s16-batch-6
+  generated_date: '2026-09-22'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  commissioned_by: 'operator directive (verbatim: "commission batch 6") under the
+    session-46 §16 authorization; the gate report and the session-56 record both
+    name the slice ("the remaining S2 families (2.15-2.50: reactivity series /
+    extraction / acids-alkalis / chemical tests) are batches 6-8 per the item-14
+    plan — each needs its own operator commissioning")'
+  scope:
+    spec_points:
+    - 4CH1-2.15
+    - 4CH1-2.16
+    - 4CH1-2.17
+    - 4CH1-2.18
+    - 4CH1-2.19
+    - 4CH1-2.20
+    - 4CH1-2.21
+    - 4CH1-2.22C
+    - 4CH1-2.23C
+    - 4CH1-2.24C
+    - 4CH1-2.25C
+    - 4CH1-2.26C
+    - 4CH1-2.27C
+    practicals:
+    - 4CH1-PR-06
+    negative_control: 4CH1-4.15
+    notes:
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals reacting with acids - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/The reactivity series - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Where does metal come from - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+    - "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+    mark_scheme_evidence:
+    - file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+      sha1_12: 8e883dd7d68d
+      source: "PMT Edexcel IGCSE Chemistry Resources/Unit 2/Mark Schemes/Paper 2/Reactivity Series MS.pdf"
+  ms_coverage_note: 'Partial batch-6 Paper-2 coverage: PMT Unit 2 publishes exactly one
+    Paper-2 MS touching the batch-6 families (Reactivity Series) and it is pinned
+    (REACTIVITY_MS_P2.txt, sha1_12 8e883dd7d68d, 2pp/12 marks). NO PMT mark scheme
+    exists for the Extraction & Uses of Metals family in ANY unit of this corpus
+    (Unit 1 principles / Unit 2 inorganic / Unit 3 physical / Unit 4 organic —
+    verified by directory listing 2026-09-22), so — as in batches 1-3, unlike
+    batches 4-5 — the batch carries an UNPINNED family: misconception-class
+    mining is confined to the reactivity-series surface the pinned MS documents
+    (exactly one clean Reject-column pattern), and the extraction/uses/alloys
+    surfaces are note-anchored only. Paper-1 variants (Reactivity Series MS
+    Paper 1) exist and remain unpinned per the Paper-2-first convention batches
+    2-5 established; a future evidence pass can extend them — recorded here,
+    not silently assumed.'
+  contract: graph/reports/C11_ARCHITECTURE.md
+  authorization: scripts/c11_s16_authorization.yaml
+  boundary_ruling: scripts/c11_batch6_boundary_ruling.yaml
+  session: 57
+
+# ---------------------------------------------------------------------------
+# Command-kind tags (frozen guide §8) — batch-6 slice only (registry of record:
+# graph/spec_command_kinds.yaml, merged with the earlier tags by the generator).
+command_kinds:
+- code: 4CH1-2.15
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: 'how metals are ARRANGED into a reactivity series from their reactions with water and with dilute hydrochloric/sulfuric acids (the comparative observations: violent/quick/less-strong water reactions descending K->Ca; only metals above hydrogen react with dilute acids; the more reactive the metal the more vigorous the reaction; the salt + hydrogen products)'
+- code: 4CH1-2.16
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how metals are ARRANGED into a reactivity series from their displacement reactions, both strands — metal + metal oxide on heating (Zn + CuO; the thermite Fe2O3 + 2Al; the no-reaction-when-less-reactive rows) and metal + aqueous metal salt solution (Mg + CuSO4 with the fading blue colour; the no-reaction rows)
+- code: 4CH1-2.17
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the order of reactivity of potassium, sodium, lithium, calcium, magnesium, aluminium, zinc, iron, copper, silver, gold (K > Na > Li > Ca > Mg > Al > Zn > Fe > Cu > Ag > Au, most to least reactive), with carbon and hydrogen as reference points in the extended series
+- code: 4CH1-2.18
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: 'the conditions under which iron rusts — BOTH oxygen (air) and water must be present (the three control-tube investigation: air+water rusts; oil-barrier no rust; drying-agent no rust)'
+- code: 4CH1-2.19
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: how rusting may be prevented — barrier methods (paint, oil, grease, electroplating; excluded air/water), sacrificial protection (a MORE reactive metal such as zinc attached to the iron oxidises first, protecting the iron; bars replaced as they corrode) and galvanising (zinc coating = barrier PLUS sacrificial protection if scratched)
+- code: 4CH1-2.20
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: the terms oxidation, reduction, oxidising agent and reducing agent — oxidation as oxygen GAIN (and electron loss), reduction as oxygen LOSS (and electron gain), the redox pairing (oxidation cannot occur without simultaneous reduction), and the agent identification in worked examples (CuO supplies oxygen = oxidising agent; Zn removes oxygen = reducing agent)
+- code: 4CH1-2.21
+  verb: investigate
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the practical investigation of reactions between dilute hydrochloric and sulfuric acids and the metals magnesium, iron and zinc (5 cm3 acid per tube, 1 cm magnesium ribbon / iron filings / zinc turnings, lighted-splint gas test, observation tables, conclusion: reactivity order Mg > Zn > Fe with hydrogen + a metal salt produced)'
+- code: 4CH1-2.22C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that most metals are extracted from ores found in the Earth's crust (an ore is a rock containing enough metal to make extraction worthwhile; iron ore haematite, aluminium ore bauxite) and that unreactive metals are often found as the uncombined element (gold and platinum mined directly, due to their chemical stability)
+- code: 4CH1-2.23C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: 'how the extraction method is related to the metal''s position in the reactivity series — metals above carbon (potassium to aluminium) extracted by electrolysis of their molten compounds (expensive: large electricity demand; aluminium from molten aluminium oxide dissolved in molten cryolite to lower the melting point), metals below carbon (zinc, iron, copper) by heating with carbon/carbon monoxide in a blast furnace (cheap reducing agent), unreactive metals found native (the 2.23C wording''s own illustrations: carbon extraction for iron and electrolysis for aluminium)'
+- code: 4CH1-2.24C
+  verb: be
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: commenting on a metal extraction process GIVEN appropriate information (evaluating cost, energy demand, reactivity position and environmental factors from the provided description — the blast-furnace iron extraction and the aluminium electrolysis cell are the worked information surfaces) with detailed knowledge of a specific metal's process explicitly NOT required
+- code: 4CH1-2.25C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: 'the uses of aluminium, copper, iron and steel explained in terms of their properties (aluminium: low density/strength for aircraft, heat/electrical conduction + unreactivity for saucepans, cables, food cans; copper: electrical conduction + ductility for wiring, heat conduction/malleability for saucepans and pipes; iron: strength + malleability + low cost for building; steel types limited to low-carbon/mild (soft, malleable — car body panels), high-carbon (hard — tools) and stainless (corrosion-resistant — cutlery))'
+- code: 4CH1-2.26C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: that an alloy is a mixture of a metal and one or more elements, usually other metals or carbon (steel = iron + carbon; brass = 70% copper + 30% zinc; alloys' enhanced properties — stronger, harder, corrosion/temperature resistant)
+- code: 4CH1-2.27C
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: 'why alloys are harder than pure metals — the different-sized atoms distort the regular layer arrangement of the metal lattice, so the layers can no longer slide over each other easily (the particle-diagram examination surface: uneven-sized particles, distorted rows)'
+
+# ---------------------------------------------------------------------------
+# Nodes — CONCEPT family (split-first identity policy, §8; OD-1 operand rule
+# applied; no earlier-record identity re-minted — the session-57 cross-slice
+# boundary ruling's dispositioned audit; 2.21 attaches NO concept node: the
+# practical owns it, the 1.13/1.60C/2.14/3.8/3.15/3.16 precedent).
+nodes:
+- code: 4CH1-CON-REACT-ARRANGE
+  family: CONCEPT
+  title: Arranging metals into a reactivity series from water and dilute-acid reactions
+  aliases: [reactivity series arrangement, arranging metals by reactions, metal reactions with water and acids, order from observations]
+  spec_points:
+  - code: 4CH1-2.15
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Based on these reactions a reactivity series of metals can be produced"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The series can be used to place a group of metals in order of reactivity based on the observations of their reactions with water and acids"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Only metals above hydrogen in the reactivity series will react with dilute acids"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "The more reactive the metal then the more vigorous the reaction will be"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "understand how metals can be arranged in a reactivity series based on their reactions with:"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.15 relation demand: the ARRANGEMENT method from the comparative water/acid observations (the water-reaction table K violent -> Cu none; the above-hydrogen acid rule; the vigour gradient; the metal + acid -> salt + hydrogen general equation taught in the same note). One SP-family node; the Ca+water and acid-metal equations are taught inline as part of the observations (the EQ-* disposition in the ruling).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.15 @ Metals Reacting with Water & Acids (2026-09-11); spec 4CH1-2.15 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-METAL-DISPLACEMENT
+  family: CONCEPT
+  title: Metal displacement reactions as reactivity-series evidence (metal + metal oxide; metal + salt solution)
+  aliases: [metal displacement, displacement reactions of metals, thermite reaction, metal displacement reactions, more reactive metal displaces less reactive]
+  spec_points:
+  - code: 4CH1-2.16
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+      quote: "The reactivity of metals decreases going down the reactivity series."
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+      quote: "This means that a more reactive metal will displace a less reactive metal from its compounds"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+      quote: "The reactivity between two metals can be compared using displacement reactions in salt solutions of one of the metals"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+      quote: "This is easily seen as the more reactive metal slowly disappears from the solution, displacing the less reactive metal"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "understand how metals can be arranged in a reactivity series based on their displacement reactions between:"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.16 relation demand: BOTH displacement strands (metal + metal oxide on heating — Zn + CuO, the Fe2O3 + 2Al thermite, the no-reaction rows; metal + aqueous salt solution — Mg + CuSO4 with the fading blue colour, the no-reaction rows) as the arrangement evidence. One SP-family node; SEPARATE from the batch-5 halogen-displacement owner CON-G7-DISPLACEMENT (halogen/halide displacement, 2.7 — different SP, different substance; the ruling''s distinct-demand disposition). The pinned REACTIVITY_MS Q2 (aluminium/iron oxide) mines this surface (MIS-ION-OXIDE-REASONING).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.16 @ Metal displacement (2026-09-11); spec 4CH1-2.16 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-REACT-ORDER
+  family: CONCEPT
+  title: The order of reactivity of the named metals (K to Au)
+  aliases: [order of reactivity, reactivity order, order of reactivity of metals, K Na Li Ca Mg Al Zn Fe Cu Ag Au]
+  spec_points:
+  - code: 4CH1-2.17
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/The reactivity series - IGCSE Chemistry Revision Notes.md"
+      quote: "Carbon is an important element and has its own place on the reactivity series"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+      quote: "Only metals above hydrogen in the reactivity series will react with dilute acids"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals reacting with acids - IGCSE Chemistry Revision Notes.md"
+      quote: "The metals can be ranked in reactivity order Mg > Zn > Fe"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium, aluminium, zinc, iron, copper, silver, gold"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.17 recall demand: the ordered list itself (K > Na > Li > Ca > Mg > Al > Zn > Fe > Cu > Ag > Au) with carbon and hydrogen as reference points (the mnemonic note''s table and its carbon-context line). Pass-2 re-authoring (FP-B6-5): the originally-cited 2-word table fragment was replaced by the order-relative placement fact (above hydrogen) and the practical''s own ranking conclusion — both load-bearing for the ORDER demand. One SP-family node; the mnemonic itself is exam furniture, not node substance. This node is the owner the batch-5 ruling deferred to (its future_boundary_note: "carbonates of metals from the lower half of the reactivity series" presupposes this placement) and the CON-CO2-FROM-CARBONATES boundary edge closes that deferral.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.17 @ The reactivity series + Metals Reacting with Water & Acids (2026-09-11); spec 4CH1-2.17 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-RUSTING
+  family: CONCEPT
+  title: Rusting of iron (both oxygen and water required; the control-tube investigation)
+  aliases: [rusting, rusting of iron, conditions for rusting, iron rusts, rust conditions]
+  spec_points:
+  - code: 4CH1-2.18
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "Oxygen and water must be present for rust to occur"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "The results show that both air and water must be present for rusting to occur"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "Boiled water removes any dissolved oxygen and calcium chloride is a drying agent"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know the conditions under which iron rusts"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.18 recall demand: the BOTH-conditions rule (oxygen AND water) with the control-tube investigation as the evidence surface (oil barrier excludes air; drying agent excludes water). One SP-family node; this node is the owner the batch-5 ruling deferred to (its future_boundary_note: the 2.10/2.14 iron-oxidation route presupposes iron rusting) and the CON-O2-PERCENT-DETERMINATION boundary edge closes that deferral. The flaking/structural-weakening paragraph is note context beyond the conditions demand (OD-2).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.18 @ Rusting of iron (2026-09-11); spec 4CH1-2.18 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-RUST-PREVENTION
+  family: CONCEPT
+  title: Preventing rusting (barrier methods, sacrificial protection, galvanising)
+  aliases: [rust prevention, sacrificial protection, galvanising, barrier methods, preventing rust]
+  spec_points:
+  - code: 4CH1-2.19
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "Rust can be prevented by coating iron with barriers that prevent the iron from coming into contact with water and oxygen"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "Common barrier methods include: paint, oil, grease, and electroplating"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "Iron can be prevented from rusting using the reactivity series"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+      quote: "Galvanising is a process where the iron to be protected is coated with a layer of zinc"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "understand how the rusting of iron may be prevented by:"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.19 relation demand: all three prevention families (barrier — paint/oil/grease/electroplating, defined over the 2.18 conditions; sacrificial protection — the more-reactive zinc oxidises first; galvanising — the zinc coating that is BOTH barrier and sacrifice-if-scratched). One SP-family node; the dependency edges on CON-RUSTING (barriers defined over the conditions), CON-REACT-ORDER (sacrificial protection "using the reactivity series") and CON-OX-RED-AGENTS (the sacrificial mechanism stated as "will oxidise ... is oxidised more easily") carry the taught dependencies.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.19 @ Rusting of iron (2026-09-11); spec 4CH1-2.19 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-OX-RED-AGENTS
+  family: CONCEPT
+  title: Oxidation, reduction, oxidising and reducing agents (oxygen and electron frameworks)
+  aliases: [oxidation and reduction terms, oxidising agent, reducing agent, redox reactions, oxygen gain oxygen loss]
+  spec_points:
+  - code: 4CH1-2.20
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+      quote: "Oxidation is any reaction in which a substance gains oxygen"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+      quote: "Reduction is a reaction in which a substance loses oxygen"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+      quote: "Oxidation cannot occur without reduction happening simultaneously, hence these are called redox reactions"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+      quote: "The copper(II)oxide supplies the oxygen, so it is the oxidising agent"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+      quote: "The zinc is the reducing agent because it removes the oxygen"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Oxidation and reduction - IGCSE Chemistry Revision Notes.md"
+      quote: "Oxidation is the loss of electrons"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "understand the terms:"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.20 relation demand: the TERM family in BOTH frameworks — oxygen transfer (gain/loss) AND electron transfer (loss/gain), the redox simultaneity, and the agent identification (CuO the oxidising agent; Zn the reducing agent; the Fe/Cu2+ worked example). SEPARATE mint from the batch-3 owner CON-REDOX-ELECTRONS (1.59C, the electron-transfer definition in the displacement context): the 2.20 demand is BROADER (the oxygen framework + the agent terms + the redox pairing) and the 2.20 note RE-TEACHES the electron framework inline (definitions, half equations, OIL RIG) — so no boundary edge into CON-REDOX-ELECTRONS and no re-mint of it (the ruling''s non_mint_list; the overlap is B6-ID-01 for the operator). The ionic-equation/spectator-ion scaffolding is taught inline by the note (the CON-ION disposition).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.20 @ Oxidation and reduction (2026-09-11); spec 4CH1-2.20 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-ORES
+  family: CONCEPT
+  title: Ores and native (uncombined) metals as sources of metals
+  aliases: [ores, metal ores, ore, uncombined element, native metals, sources of metals]
+  spec_points:
+  - code: 4CH1-2.22C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Where does metal come from - IGCSE Chemistry Revision Notes.md"
+      quote: "Useful metals are often chemically combined with other substances forming ores"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Where does metal come from - IGCSE Chemistry Revision Notes.md"
+      quote: "A metal ore is a rock that contains enough of the metal to make it worthwhile extracting"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Where does metal come from - IGCSE Chemistry Revision Notes.md"
+      quote: "Unreactive metals do not have to be extracted chemically as they are often found as the uncombined element"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Where does metal come from - IGCSE Chemistry Revision Notes.md"
+      quote: "Examples include gold and platinum which can both be mined directly from the Earth’s crust"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know that most metals are extracted from ores found in the Earth’s crust and that unreactive metals are often found as the uncombined element"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.22C recall demand (Paper 2): BOTH clauses — most metals from ores in the Earth''s crust (the ore-worthwhile-extracting definition, haematite/bauxite as the named oxide ores) and unreactive metals native/uncombined (gold, platinum, mined directly, chemical stability). One SP-family node; the note''s "extraction ... is a reduction process since oxygen is being removed" line is bridging context to the 2.23C method demand (the reduction dependency is carried by the CON-EXTRACTION-METHOD node''s own edge — the B6-H-08 hold for the direct ORES edge).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.22C @ Where does metal come from (2026-09-11); spec 4CH1-2.22C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-EXTRACTION-METHOD
+  family: CONCEPT
+  title: Extraction method related to reactivity-series position (electrolysis above carbon; carbon reduction below)
+  aliases: [extraction method, extracting metals, extraction and the reactivity series, carbon extraction, electrolysis extraction, blast furnace]
+  spec_points:
+  - code: 4CH1-2.23C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+      quote: "The position of the metal on the reactivity series determines the method of extraction"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+      quote: "Higher placed metals (above carbon) have to be extracted using electrolysis as they are too reactive and cannot be reduced by carbon"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+      quote: "Lower placed metals can be extracted by heating with carbon which reduces them"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+      quote: "Aluminium is higher in the reactivity series than carbon, so it cannot be extracted by reduction using carbon"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "explain how the method of extraction of a metal is related to its position in the reactivity series, illustrated by carbon extraction for iron and electrolysis for aluminium"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.23C explanation demand (Paper 2): the method-position relation with the wording''s own two illustrations (carbon extraction for iron — the blast-furnace zone chemistry; electrolysis for aluminium — the cryolite cell). Dependency edges carry the taught prerequisites: CON-REACT-ORDER ("the position ... determines the method" — verbatim), CON-OX-RED-AGENTS (reduction applied as given) and the SANCTIONED boundary edge into CON-ELECTROLYSIS (the batch-3 owner — "extracted by electrolysis" applies the cell framework as given; the note never re-defines electrolysis; the anode/cathode glosses and the electrode half-equations are inline/OD-2 surfaces per the ruling).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.23C @ Extraction of metals from ores (2026-09-11); spec 4CH1-2.23C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-EXTRACTION-EVALUATION
+  family: CONCEPT
+  title: Commenting on a metal extraction process from given information
+  aliases: [commenting on extraction processes, evaluating extraction, extraction process evaluation, given information]
+  spec_points:
+  - code: 4CH1-2.24C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+      quote: "Iron is extracted in a large container called a blast furnace from its ore, hematite"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+      quote: "A lot of electricity is required for this process of extraction, this is a major expense"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "be able to comment on a metal extraction process, given appropriate information"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.24C application demand (Paper 2): the comment-on-a-process skill operating on PROVIDED information (the blast-furnace description and the aluminium cell''s electricity-expense/electrode-wear facts are the worked information surfaces; the spec explicitly waives detailed process knowledge). SEPARATE from the 2.23C method node (the B6-ID-02 identity decision — the B5-ID-03 know-vs-method precedent): the evaluation skill presupposes the method-position framework (its REQUIRES_PREREQUISITE edge into CON-EXTRACTION-METHOD).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.24C @ Extraction of metals from ores (2026-09-11); spec 4CH1-2.24C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-METAL-USES
+  family: CONCEPT
+  title: Uses of aluminium, copper, iron and steel explained by their properties
+  aliases: [uses of metals, metals and their uses, uses of aluminium, uses of copper, uses of steel]
+  spec_points:
+  - code: 4CH1-2.25C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+      quote: "The uses of aluminium, copper and steel are summarised in these tables"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+      quote: "High strength-to-weight ratio (low density)"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+      quote: "Very good conductor of electricity and ductile"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+      quote: "Unreactive (does not react with water), non-toxic and malleable"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "explain the uses of aluminium, copper, iron and steel in terms of their properties"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.25C explanation demand (Paper 2): the use-property tables for aluminium, copper, iron and the three limited steel types (the spec''s own wording bounds "the types of steel" to low-carbon/mild, high-carbon and stainless — the uses note''s steel table gives exactly those with compositions). The SANCTIONED boundary edge into CON-METAL-PROPERTIES (batch 3) carries the property-vocabulary dependency ("in terms of their properties" is the spec''s own demand); the steel-types content is taught inline by the uses note (the B6-H-01 hold for a CON-ALLOYS dependency).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.25C @ Metals and their uses (2026-09-11); spec 4CH1-2.25C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-ALLOYS
+  family: CONCEPT
+  title: Alloys as mixtures of a metal with other elements
+  aliases: [alloy, alloys, alloy definition, brass, steel as an alloy, mixture of metals]
+  spec_points:
+  - code: 4CH1-2.26C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "An alloy is a mixture of two or more metals or metal with a non-metal such as carbon"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "Steel is made from iron and carbon"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "Brass is a common example of an alloy which contains 70% copper and 30% zinc"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "know that an alloy is a mixture of a metal and one or more elements, usually other metals or carbon"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.26C recall demand (Paper 2): the alloy definition (metal + one or more elements, usually other metals or carbon) with the named examples (steel = iron + carbon; brass = 70/30 copper/zinc) and the enhanced-properties context. One SP-family node; SEPARATE from the batch-1 CON-MIXTURE identity (the alloy mint owns the metallurgical mixture substance; the ruling''s distinct-demand disposition).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.26C @ Alloys (2026-09-11); spec 4CH1-2.26C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-ALLOY-HARDNESS
+  family: CONCEPT
+  title: Why alloys are harder than pure metals (distorted layers resist sliding)
+  aliases: [alloy hardness, why alloys are harder, distorted layers, alloys harder than pure metals]
+  spec_points:
+  - code: 4CH1-2.27C
+    role: CORE
+    evidence:
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "Alloys are harder than pure metals because:"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "Alloys contain atoms of different sizes"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "This distorts the regular arrangements of atoms"
+    - kind: NOTE
+      file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+      quote: "So it is more difficult for the layers of atoms to slide over each other"
+    - kind: SPEC
+      file: graph/specification_points.yaml
+      quote: "explain why alloys are harder than pure metals"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.27C explanation demand (Paper 2): the layered-lattice mechanism (different-sized atoms -> distorted regular arrangement -> layers cannot slide; the particle-diagram examination surface the note''s Examiner Tip names). SEPARATE from the 2.26C definition node (the B6-ID-05 identity decision — definition vs mechanism, distinct SPs); its REQUIRES_PREREQUISITE edge into CON-ALLOYS carries the mixture-structure dependency. The metallic-bonding/lattice background is never invoked by the note (no boundary edge into the batch-3 CON-METALLIC-BOND/CON-IONIC-LATTICE owners — the ruling''s disposition).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.27C @ Alloys (2026-09-11); spec 4CH1-2.27C official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-MIS-ION-OXIDE-REASONING
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Explaining a metal-oxide displacement outcome by references to ions and oxides instead of the reactivity comparison
+  aliases: [ions and oxides answer, oxide reasoning displacement, ion reasoning displacement, wrong displacement explanation]
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "(it/iron is) less reactive (than aluminium)"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "Accept aluminium is more reactive (than iron)"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "Reject references to ions and oxides"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned REACTIVITY Paper-2 MS Q2a documents the wrong-answer class: for the aluminium/iron-oxide displacement outcome the expected answer is the reactivity comparison ("(it/iron is) less reactive (than aluminium)", Accept the ORA "aluminium is more reactive (than iron)") with the explicit Reject "references to ions and oxides" — students explaining the displacement via ionic/oxide composition reasoning instead of the reactivity comparison score nothing (the pdftotext layout wraps the Reject line as "Reject references to ions / and oxides" across a line break; it is quoted as the contiguous normalized phrase and the attribution is recorded here, not silent). This is the batch''s ONLY clean Reject-column pattern — the unpinned extraction family yields no MS mining surface (meta.ms_coverage_note).'
+    upstream: 'pinned REACTIVITY_MS_P2 (sha1_12 8e883dd7d68d) Q2a Reject column; spec 4CH1-2.16 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-22'
+  damage_flags: []
+  remediation_evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+    quote: "This means that a more reactive metal will displace a less reactive metal from its compounds"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "aluminium replaces iron (from a compound)"
+
+# ---------------------------------------------------------------------------
+# Edges (authored semantic edges — all SUGGESTED, zero RR: every doubt held
+# or resolved on explicit evidence, the batch-2..5 authoring discipline).
+# Boundary edges: EXACTLY the four sanctioned targets (two existing-owner
+# edges + the two batch-5 deferral closures), one per ruled dependency.
+edges:
+- source: 4CH1-CON-REACT-ORDER
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REACT-ARRANGE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "Based on these reactions a reactivity series of metals can be produced"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals Reacting with Water & Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md"
+    quote: "The series can be used to place a group of metals in order of reactivity based on the observations of their reactions with water and acids"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The order is the PRODUCT of the arrangement methods: "Based on these reactions a reactivity series of metals can be produced" — the 2.17 order is the graded pattern the 2.15 water/acid comparisons produce (the spec''s own 2.15-then-2.17 order: arrangement method, then the resulting order).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.15/2.17 @ Metals Reacting with Water & Acids + The reactivity series (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-METAL-DISPLACEMENT
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REACT-ORDER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+    quote: "The reactivity of metals decreases going down the reactivity series."
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+    quote: "This means that a more reactive metal will displace a less reactive metal from its compounds"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Displacement is DEFINED over the reactivity order ("The reactivity of metals decreases going down the reactivity series. This means that a more reactive metal will displace a less reactive metal from its compounds") — the definitional operands are exactly the order the 2.17 node owns (the batch-5 CON-G7-DISPLACEMENT -> CON-G7-REACTIVITY-ECONFIG definitional shape). The reverse direction (the comparison line "can be compared using displacement reactions") is 2.16''s own arrangement demand living inside this node — the B6-H-06 hold blocks the reverse edge.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.16/2.17 @ Metal displacement + The reactivity series (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-RUST-PREVENTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-RUSTING
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    quote: "Rust can be prevented by coating iron with barriers that prevent the iron from coming into contact with water and oxygen"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    quote: "If the coating is damaged or scratched, the iron is still protected from rusting by sacrificial protection"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'Prevention is DEFINED over the rusting conditions: the barrier method is "barriers that prevent the iron from coming into contact with water and oxygen" — the exact 2.18 condition pair; every prevention family (barrier/sacrificial/galvanising) presupposes knowing WHAT must be excluded or substituted (the spec''s own 2.18-then-2.19 order).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.18/2.19 @ Rusting of iron (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-RUST-PREVENTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REACT-ORDER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    quote: "Iron can be prevented from rusting using the reactivity series"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    quote: "A more reactive metal can be attached to a less reactive metal"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Sacrificial protection operates ON the taught reactivity order AS GIVEN ("Iron can be prevented from rusting using the reactivity series. A more reactive metal can be attached to a less reactive metal") — selecting the sacrificial metal REQUIRES the order; the note never re-derives it.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.19 @ Rusting of iron (2026-09-11); target node owned by this record (4CH1-2.17)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-RUST-PREVENTION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-OX-RED-AGENTS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    quote: "The more reactive metal will oxidise and therefore corrode first, protecting the less reactive metal from corrosion"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Rusting of iron - IGCSE Chemistry Revision Notes.md"
+    quote: "Zinc is more reactive than iron therefore will lose its electrons more easily than iron and is oxidised more easily"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The sacrificial mechanism is STATED in terms of oxidation ("will oxidise and therefore corrode first", "is oxidised more easily") — explaining WHY sacrifice protects applies the oxidation concept AS GIVEN (the rusting note never re-teaches what oxidation is; the target node''s own note carries the definitions). Both frameworks appear (oxygen-framework "oxidise"; electron-framework "lose its electrons more easily") — the target node owns both (the B6-ID-01 scope).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.19 @ Rusting of iron (2026-09-11); target node owned by this record (4CH1-2.20)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-EXTRACTION-METHOD
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REACT-ORDER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    quote: "The position of the metal on the reactivity series determines the method of extraction"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The spec''s own 2.23C demand verbatim ("how the method of extraction of a metal is related to its position in the reactivity series") and the note''s own thesis line ("The position of the metal on the reactivity series determines the method of extraction") — the method-position relation is unintelligible without the order; the strongest in-batch dependency.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.23C @ Extraction of metals from ores (2026-09-11); target node owned by this record (4CH1-2.17)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-EXTRACTION-METHOD
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-OX-RED-AGENTS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    quote: "Lower placed metals can be extracted by heating with carbon which reduces them"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    quote: "Carbon monoxide reduces the iron(III) oxide in the iron ore to form iron"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The carbon-reduction route OPERATES on the reduction concept AS GIVEN ("heating with carbon which reduces them"; zone 3 "Carbon monoxide reduces the iron(III) oxide") — the extraction note never re-teaches what reduction is (the definitions live in the target node''s note; the Where-does note''s "reduction process since oxygen is being removed" bridges the same vocabulary at 2.22C context).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.23C @ Extraction of metals from ores (2026-09-11); target node owned by this record (4CH1-2.20)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-EXTRACTION-METHOD
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ELECTROLYSIS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    quote: "Instead, aluminium is extracted by electrolysis"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    quote: "Higher placed metals (above carbon) have to be extracted using electrolysis as they are too reactive and cannot be reduced by carbon"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-57 ruling — owner 4CH1-CON-ELECTROLYSIS, batch 3, 1.58C): the electrolysis route APPLIES the electrolysis framework AS GIVEN ("extracted by electrolysis", the cell, electrodes, ion discharge at electrodes) — the note never re-defines electrolysis or the electrolyte. The anode/cathode terms carry inline parenthetical glosses ("cathode (negative electrode)") and the electrode half-equations are OD-2 enrichment beyond the method-position demand — both dispositions in the ruling, no second boundary edge (one edge per dependency surface).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.23C @ Extraction of metals from ores (2026-09-11); target node owned by the batch-3 record (4CH1-1.58C); session-57 boundary ruling sanctioned target'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-EXTRACTION-EVALUATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-EXTRACTION-METHOD
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction of metals from ores - IGCSE Chemistry.md"
+    quote: "Make sure you can explain why aluminium is extracted by electrolysis while iron is extracted by reduction as it is a question that often comes up."
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'The comment-on-a-process skill operates ON the taught method-position framework (the note''s own Examiner Tip ties the evaluation question to the electrolysis-vs-reduction explanation); the worked information surfaces (blast-furnace zones, cryolite cell, electricity expense) are all descriptions OF the method node''s content — the evaluation presupposes it.'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.24C/2.23C @ Extraction of metals from ores (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-METAL-USES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-METAL-PROPERTIES
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+    quote: "Very good conductor of electricity and ductile"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Metals and their uses - IGCSE Chemistry Revision Notes.md"
+    quote: "Unreactive (does not react with water), non-toxic and malleable"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-57 ruling — owner 4CH1-CON-METAL-PROPERTIES, batch 3, 1.54C): the 2.25C demand is verbatim "in terms of their properties" and the uses tables apply the property vocabulary (conductivity, malleability, ductility) AS GIVEN — the uses note never re-teaches what conductivity or malleability are (the 1.54C owner''s own surface carries them).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.25C @ Metals and their uses (2026-09-11); target node owned by the batch-3 record (4CH1-1.54C); session-57 boundary ruling sanctioned target'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-ALLOY-HARDNESS
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-ALLOYS
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+    quote: "Alloys are harder than pure metals because:"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys - IGCSE Chemistry Revision Notes.md"
+    quote: "Alloys contain atoms of different sizes"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: DEFINITIONAL_DEPENDENCY
+    derivation_notes: 'The hardness explanation is DEFINED over the mixture structure ("Alloys are harder than pure metals because: Alloys contain atoms of DIFFERENT sizes") — the different-sized atoms are the alloy-defining content the 2.26C node owns; the spec''s own 2.26C-then-2.27C order (definition, then the mechanism it explains).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.26C/2.27C @ Alloys (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-PR-06
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REACT-ARRANGE
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals reacting with acids - IGCSE Chemistry Revision Notes.md"
+    quote: "To investigate the reactions between dilute hydrochloric and sulfuric acids with the metals magnesium, iron and zinc"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metals reacting with acids - IGCSE Chemistry Revision Notes.md"
+    quote: "The metals can be ranked in reactivity order Mg > Zn > Fe"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'Practical->conceptual (the pilot test #5 requirement, the PR-05->CON-O2-PERCENT-DETERMINATION shape): the 2.21 practical RUNS the acid-metal comparison its concept owns — the investigation''s conclusion ("The metals can be ranked in reactivity order Mg > Zn > Fe") is the arrangement method in action. 2.21 attaches NO concept node (the 1.13/1.60C/2.14/3.8/3.15/3.16 precedent; 4CH1-PR-06 owns it).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.21/2.15 @ Metals reacting with acids (2026-09-11); the practical record 4CH1-PR-06 (practicals.yaml, RULE_DERIVED)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-CO2-FROM-CARBONATES
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-REACT-ORDER
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Thermal decomposition - IGCSE Chemistry Revision Notes.md"
+    quote: "Carbonates of metals from the lower half of the reactivity series tend to decompose on heating to produce the metal oxide and carbon dioxide gas:"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-57 ruling — closes the batch-5 ruling''s recorded deferral): the decomposition family presupposes reactivity-series placement ("Carbonates of metals from the LOWER HALF of the reactivity series tend to decompose" — the batch-5 note states the dependency and the batch-5 record held the edge for want of an owner, B5-H-10); batch 6 mints the owner and this edge closes the deferral. The anchor resolves via the source''s own SP (the thermal-decomposition note T-C10-maps to 4CH1-2.12).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.12 @ Thermal decomposition (2026-09-11); source node owned by the batch-5 record (4CH1-2.12); target node owned by this record (4CH1-2.17); the batch-5 ruling''s future_boundary_note deferred exactly this edge'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-CON-O2-PERCENT-DETERMINATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4CH1-CON-RUSTING
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    quote: "To determine the percentage of oxygen in air using the oxidation of iron"
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage in air - IGCSE Chemistry Revision Notes.md"
+    quote: "After 3-4 days note the new position of the water level"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: 'CROSS-SECTION boundary edge (sanctioned target, session-57 ruling — closes the batch-5 ruling''s recorded deferral): the iron-wool route presupposes iron rusting ("using the oxidation of iron" — the slow iron/water/air reaction over 3-4 days IS the rusting phenomenon whose conditions the 2.18 node owns; the experiment design applies them: iron in contact with BOTH air and water); the batch-5 record held the edge for want of an owner (its future_boundary_note deferred it verbatim to "the batch that mints it"). The anchor resolves via the source''s own SP (the oxygen-percentage note T-C10-maps to 4CH1-2.10).'
+    upstream: 'T-C10 HUMAN_VALIDATED 4CH1-2.10 @ Oxygen percentage in air (2026-09-11); source node owned by the batch-5 record (4CH1-2.10); target node owned by this record (4CH1-2.18); the batch-5 ruling''s future_boundary_note deferred exactly this edge'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-ION-OXIDE-REASONING
+  relation: WRONG_ANSWER_PATTERN
+  target: 4CH1-CON-METAL-DISPLACEMENT
+  evidence:
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "Reject references to ions and oxides"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "(it/iron is) less reactive (than aluminium)"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The WAP target is the concept whose wrong explanations the MS caps — the aluminium/iron-oxide question is a metal-oxide displacement item (2.16a strand) and the Reject column caps the non-reactivity explanation class on exactly that surface (the B5 WAP-target pattern).'
+    upstream: 'pinned REACTIVITY_MS_P2 (sha1_12 8e883dd7d68d) Q2a; spec 4CH1-2.16 official wording'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+- source: 4CH1-MIS-ION-OXIDE-REASONING
+  relation: REMEDIATED_BY
+  target: 4CH1-CON-METAL-DISPLACEMENT
+  evidence:
+  - kind: NOTE
+    file: "Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/d. Reactivity Series/Metal displacement - IGCSE Chemistry Revision Notes.md"
+    quote: "This means that a more reactive metal will displace a less reactive metal from its compounds"
+  - kind: MARK_SCHEME
+    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt
+    quote: "aluminium replaces iron (from a compound)"
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-6
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'Remediation target = WAP target (the B1-E-25 pattern): the corrective content IS the displacement rule ("a more reactive metal will displace a less reactive metal from its compounds") and the MS''s own expected answer ("aluminium replaces iron (from a compound)") is the same statement in assessment form.'
+    upstream: 'pinned REACTIVITY_MS_P2 (sha1_12 8e883dd7d68d) Q2a/b + Metal displacement note (2026-09-11)'
+    generated_date: '2026-09-22'
+  confidence: high
+  validation_status: SUGGESTED
+  ambiguity_note: null
+  version: 1
+  created_at: '2026-09-22'
+
+# ---------------------------------------------------------------------------
+# Held — candidates considered and REFUSED at authoring (the honest-abstention
+# ledger; rendered into the review artifacts, never the graph). Ids continue
+# the per-batch B<N>-H-## convention; quarantined, not promoted, not minted.
+held:
+- id: B6-H-01
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-METAL-USES, CON-ALLOYS)
+  evidence: 'Uses note steel table: "High carbon | 0.5-1.4% C | Tools, e.g. chisels | Hard" with the mild/stainless rows giving alloying compositions inline'
+  reason: 'RE-TEACHED INLINE — the 2.25C demand includes "the types of steel" bounded by the spec''s own wording, and the uses note teaches the steel types WITH their alloying compositions in its own table; the alloy concept is applied and re-stated in place, defeating use-without-reteaching (the B5-H-02 rule); a CON-ALLOYS dependency edge would double-count the inline teaching.'
+- id: B6-H-02
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-OX-RED-AGENTS, CON-REDOX-ELECTRONS)
+  evidence: 'Oxidation-and-reduction note: "Oxidation is the loss of electrons" / "Reduction is the gain of electrons" with the Mg/Cu half equations and the OIL RIG mnemonic'
+  reason: 'RE-TEACHED INLINE + NON_MINT PROTECTION — the 2.20 note teaches the electron framework FULLY in its own second half (definitions, the ionic-equation scaffolding, the half equations, OIL RIG), defeating use-without-reteaching (the B5-H-02 rule); the batch-3 owner is on the ruling''s non_mint_list and the overlap is the B6-ID-01 identity decision for the operator, not an edge.'
+- id: B6-H-03
+  status: held
+  candidate: MISCONCEPTION "naming the acid or water as the factor that changes the metal-acid vigour" (the REACTIVITY_MS Q1ai IGNORE class)
+  evidence: 'Pinned REACTIVITY_MS Q1ai: "Accept temperature in place of either of above" with "Ignore references to water or acid"'
+  reason: 'INSUFFICIENT CHARACTERIZATION (the B5-H-04/B5-H-05 conventions, session-53 Step-3 rule) — the ignore class is a distractor rule on a rate-factor question whose substance belongs to the S3 owner (CON-RATE-FACTORS); MS anchors are misconception-class only (G07) and the class does not characterize a conceptual wrong belief about any reactivity-series concept (acid amount IS a genuine rate factor in the S3 sense — the ignore is context-specific, not a documented misconception); the mint would misrepresent the failure class.'
+- id: B6-H-04
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-EXTRACTION-METHOD, CON-EXO-ENDO)
+  evidence: 'Extraction note Zone 1: "The reaction is exothermic so it gives off heat, heating the furnace"'
+  reason: 'OD-2 INCIDENTAL — the zone-1 exothermic line is blast-furnace furniture (why the furnace stays hot), not the exo/endo classification applied as a demanded dependency; the 2.23C demand (method-position relation) requires nothing about heat-energy changes; the batch-4 owner is untouched (the batch-5 ruling''s oxidation disposition pattern).'
+- id: B6-H-05
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-RUST-PREVENTION, CON-CO2-FROM-CARBONATES) — the galvanising ZnCO3 line
+  evidence: 'Rusting note Galvanising: "ZnCO3 is formed when zinc reacts with oxygen and carbon dioxide in the air and protects the iron by the barrier method"'
+  reason: 'OD-2 SURFACE-CHEMISTRY DETAIL + NO DEPENDENCY — the protective-carbonate formation is a note aside (and is the REVERSE direction of the batch-5 decomposition family: carbonate FORMING, not decomposing); knowing galvanising requires nothing about carbonate decomposition and vice versa; true-and-thin (FC-3, the B5-H-07 class).'
+- id: B6-H-06
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-REACT-ORDER, CON-METAL-DISPLACEMENT) — the reverse direction
+  evidence: 'Metal displacement note: "The reactivity between two metals can be compared using displacement reactions in salt solutions of one of the metals"'
+  reason: 'DOUBLE-COUNTING THE ARRANGEMENT DEMAND — the comparison line IS 2.16''s own arrangement demand living inside CON-METAL-DISPLACEMENT (the node''s evidence carries it); the definitional direction (displacement -> order) is already authored from the note''s rule sentence; authoring the reverse edge from the same note surfaces would double-count one evidence surface across two directions (the B5-H-12/B5-H-13 conventions).'
+- id: B6-H-07
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-EXTRACTION-EVALUATION, CON-REACT-ORDER) — direct edge skipping the method node
+  evidence: 'Extraction note: the blast-furnace and electrolysis-cell descriptions both open from the position-determines-method thesis'
+  reason: 'FC-3 DENSITY — the evaluation operates ON the method-position framework, which is already carried by the authored edge into CON-EXTRACTION-METHOD; a direct evaluation->order edge would bypass the intermediate owner and double-count the same dependency chain (the batch-4 composition discipline).'
+- id: B6-H-08
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-ORES, CON-OX-RED-AGENTS)
+  evidence: 'Where-does-metal-come-from note: "In many cases the ore is an oxide of the metal, therefore the extraction of these metals is a reduction process since oxygen is being removed"'
+  reason: 'ENRICHMENT_BEYOND_SPEC + BRIDGE CONTEXT — the 2.22C demand is ores-exist + native-unreactive-metals; the reduction framing is the note''s bridge TO the 2.23C method demand, whose node carries the reduction dependency via its own authored edge; authoring the ORES edge would pre-empt the method node''s dependency and stretch the recall demand (OD-2; the line is recorded in CON-ORES''s derivation_notes).'
+- id: B6-H-09
+  status: held
+  candidate: REQUIRES_PREREQUISITE(CON-RUSTING, CON-OX-RED-AGENTS)
+  evidence: 'Oxidation-and-reduction note opening: "The reactions of metals with oxygen, such as in iron rusting can be classified as oxidation"'
+  reason: 'FC-3 DENSITY + WRONG SURFACE OWNER — the classification sentence lives in the 2.20 note (inside CON-OX-RED-AGENTS''s own evidence, as its worked context); the 2.18 demand (the conditions) requires nothing about the oxidation concept; the rusting note itself never invokes oxidation outside the sacrificial-protection section (whose dependency is authored from CON-RUST-PREVENTION).'

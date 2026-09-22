@@ -112,13 +112,18 @@ check("B1 zero canonical conflicts re-verified on the pre-batch-4 store "
 # mint in the live store; the pre-batch-4 reconstruction now excludes BOTH
 # sanctioned mints (38 nodes = 22 batch-4 + 16 batch-5; edge delta
 # 86 = 55 batch-4 + 31 batch-5).
+# Session-57 re-anchor (2026-09-22, dated; protective intent unchanged): the
+# batch-6 authored-to-gate record (13 nodes + 28 edges) joins the live
+# store; the pre-batch-4 reconstruction now excludes ALL THREE sanctioned
+# mints (51 nodes = 22 batch-4 + 16 batch-5 + 13 batch-6; edge delta
+# 114 = 55 batch-4 + 31 batch-5 + 28 batch-6).
 check("B2 the ruling's recorded result matches the re-run (and the batch-4 "
-      "mint is exactly the 22 new nodes / 55 new edges — the batch-5 "
-      "authored-to-gate growth is separate and sanctioned)",
+      "mint is exactly the 22 new nodes / 55 new edges — the batch-5 and "
+      "batch-6 authored-to-gate growth is separate and sanctioned)",
       rul["conflict_audit"].get("result", "").startswith("ZERO canonical")
       and not conflicts
-      and len(b4_codes) == 38  # 22 batch-4 + 16 batch-5 sanctioned mints
-      and len(edges_doc["edges"]) - len(pre_b4_edges) == 86)
+      and len(b4_codes) == 51  # 22 batch-4 + 16 batch-5 + 13 batch-6 mints
+      and len(edges_doc["edges"]) - len(pre_b4_edges) == 114)
 
 # ---------------------------------------------------------------------------
 # C. boundary targets exist + ownership exact
@@ -160,16 +165,23 @@ check("C every sanctioned target is also non-mint protected",
 # unchanged; the ruling still mints nothing.)
 # ---------------------------------------------------------------------------
 # Session-55 re-anchor (2026-09-22, dated): 91 + 22 batch-4 + 16 batch-5.
+# Session-57 re-anchor (2026-09-22, dated): + the 13 batch-6
+# authored-to-gate nodes — the SANCTIONED batch-6 record; the ruling still
+# mints nothing itself.
 check("D1 the ruling mints no node (store node set = 91 + the sanctioned "
-      "22 batch-4 nodes + the 16 batch-5 authored-to-gate nodes)",
-      len(live_codes) == 129)
+      "22 batch-4 nodes + the 16 batch-5 + the 13 batch-6 "
+      "authored-to-gate nodes)",
+      len(live_codes) == 142)
 # Session-55 re-anchor (2026-09-22, dated): 220 + 55 batch-4 + 31 batch-5
 # (20 PART_OF + 35 semantic; 13 PART_OF + 17 semantic).
+# Session-57 re-anchor (2026-09-22, dated): + the 28 batch-6 edges
+# (12 PART_OF + 16 semantic) — the SANCTIONED batch-6 record.
 check("D2 the ruling mints no edge (store edge set = 220 + the sanctioned "
-      "55 batch-4 edges + the 31 batch-5 authored-to-gate edges)",
-      len(edges_doc["edges"]) == 306
+      "55 batch-4 edges + the 31 batch-5 + the 28 batch-6 "
+      "authored-to-gate edges)",
+      len(edges_doc["edges"]) == 334
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 130)
+              if e["relation"] == "PART_OF") == 142)
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")
@@ -198,10 +210,5 @@ print()
 if fails:
     print(f"FAILED: {len(fails)} check(s): {fails}")
     raise SystemExit(1)
-print("c11_batch4_boundary_check: ALL PASS — the cross-slice boundary "
-      "ruling (session 52) is schema-valid, its zero-conflict audit "
-      "reproduces on the live store, every sanctioned boundary target "
-      "exists with exact ownership, and the ruling mints nothing "
-      "(129/306/130 at the session-56 post-verdict state, 171 semantic HV "
-      "— the 35 batch-4 + 18 batch-5 edges operator-promoted; the ruling "
-      "itself authored none of them).")
+print("c11_batch4_boundary_check: ALL PASS — the cross-slice boundary ruling "
+      "(session 52) is schema-valid, its zero-conflict audit reproduces on the live store, every sanctioned boundary target exists with exact ownership, and the ruling mints nothing (142/334/142 at the session-57 state — the sanctioned batch-5 and batch-6 authored-to-gate records joined the store, 171 semantic HV unchanged; the ruling itself authored none of them).")
