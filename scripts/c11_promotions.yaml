@@ -4,7 +4,7 @@ meta:
   task: T-C11
   stage: pilot-promotion
   contract: graph/reports/C11_ARCHITECTURE.md §18
-  decision_record: scripts/c11_batch5_decisions.yaml, scripts/c11_pilot_decisions.yaml
+  decision_record: scripts/c11_batch5_decisions.yaml, scripts/c11_batch6_decisions.yaml, scripts/c11_pilot_decisions.yaml
   tool: scripts/c11_promote.py
   generated_date: '2026-09-11'
   note: 'Zero promotions recorded — the T-C11 pilot review (session 40) ratified no edges: the two REVIEW_REQUIRED
@@ -17,6 +17,13 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-22'
   review_reference: graph/reports/C11_DIFF_REVIEW_B5_2026-09-22.md
+- edge:
+    source: 4CH1-CON-ALLOY-HARDNESS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ALLOYS
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
 - edge:
     source: 4CH1-CON-ANODE-CATHODE
     relation: REQUIRES_PREREQUISITE
@@ -101,6 +108,13 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-CO2-FROM-CARBONATES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACT-ORDER
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
 - edge:
     source: 4CH1-CON-COMBUSTION-O2
     relation: REQUIRES_PREREQUISITE
@@ -340,6 +354,34 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
 - edge:
+    source: 4CH1-CON-EXTRACTION-EVALUATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EXTRACTION-METHOD
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-CON-EXTRACTION-METHOD
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ELECTROLYSIS
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-CON-EXTRACTION-METHOD
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-OX-RED-AGENTS
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-CON-EXTRACTION-METHOD
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACT-ORDER
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
     source: 4CH1-CON-FILTRATION
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-SOLUTION
@@ -550,6 +592,13 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
+    source: 4CH1-CON-METAL-DISPLACEMENT
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACT-ORDER
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
     source: 4CH1-CON-METAL-NONMETAL
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-PERIODIC-TABLE
@@ -563,6 +612,13 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-METAL-USES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-METAL-PROPERTIES
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
 - edge:
     source: 4CH1-CON-METALLIC-BOND
     relation: REQUIRES_PREREQUISITE
@@ -669,6 +725,13 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
 - edge:
+    source: 4CH1-CON-O2-PERCENT-DETERMINATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-RUSTING
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
     source: 4CH1-CON-PERCENT-YIELD
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-THEOR-YIELD
@@ -725,6 +788,13 @@ promotions:
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
 - edge:
+    source: 4CH1-CON-REACT-ORDER
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACT-ARRANGE
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
     source: 4CH1-CON-REACTING-MASS
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-MOLAR-RATIO
@@ -780,6 +850,27 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
+- edge:
+    source: 4CH1-CON-RUST-PREVENTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-OX-RED-AGENTS
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-CON-RUST-PREVENTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACT-ORDER
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-CON-RUST-PREVENTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-RUSTING
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
 - edge:
     source: 4CH1-CON-SATURATED-SOLUTION
     relation: REQUIRES_PREREQUISITE
@@ -1061,6 +1152,20 @@ promotions:
   validated_date: '2026-09-22'
   review_reference: graph/reports/C11_DIFF_REVIEW_B5_2026-09-22.md
 - edge:
+    source: 4CH1-MIS-ION-OXIDE-REASONING
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-METAL-DISPLACEMENT
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-MIS-ION-OXIDE-REASONING
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-METAL-DISPLACEMENT
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
     source: 4CH1-MIS-IONIC-BOND-ATOMS
     relation: REMEDIATED_BY
     target: 4CH1-CON-IONIC-BOND
@@ -1172,6 +1277,13 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-22'
   review_reference: graph/reports/C11_DIFF_REVIEW_B5_2026-09-22.md
+- edge:
+    source: 4CH1-PR-06
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-REACT-ARRANGE
+  validated_by: operator
+  validated_date: '2026-09-22'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
 - edge:
     source: 4CH1-PR-09
     relation: REQUIRES_PREREQUISITE

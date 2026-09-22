@@ -154,6 +154,12 @@ check("C max_boundary_edges honoured (at most 3 sanctioned targets)",
 # PART_OF + 16 authored semantic edges, ZERO promotions) once that record
 # entered the registry — the batch-5 protected property (its sanctioned
 # authoring shape) is unchanged.
+# session-58 re-anchor (dated, protective intent unchanged): the operator's
+# batch-6 verdicts (c11_batch6_verdicts, completed sheet §6) were APPLIED
+# through §18 — the 16 batch-6 authored semantic edges promoted to
+# HUMAN_VALIDATED (171 -> 187 semantic HV); the batch-5 protected property
+# is unchanged: its 18 promotions stay exact, and every promoted identity
+# is an operator-verdict row, not a ruling mint.)
 B6_RECORD = HERE / "c11_batch6_decisions.yaml"
 expected_nodes = 113 + (16 if B5_RECORD.exists() else 0) \
     + (13 if B6_RECORD.exists() else 0)
@@ -171,10 +177,11 @@ check("D2 the ruling mints no edge beyond the sanctioned batch-5 authoring",
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")
-check("D3 semantic HV at the operator-promoted count (171 = 153 + the 18 "
-      "batch-5 §18 promotions applied at session 56; the ruling itself "
-      "still mints nothing; PART_OF HV rides the T-C19 G19 record)",
-      hv == 171)
+check("D3 semantic HV at the operator-promoted count (187 = 153 + the 18 "
+      "batch-5 §18 promotions applied at session 56 + the 16 batch-6 §18 "
+      "promotions applied at session 58; the ruling itself still mints "
+      "nothing; PART_OF HV rides the T-C19 G19 record)",
+      hv == 187)
 check("D4 non_goals recorded (no ontology redesign / no re-opening / no "
       "re-scope / no promotion authority / no direct writes)",
       len(rul.get("non_goals", [])) >= 5)

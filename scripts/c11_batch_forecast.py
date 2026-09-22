@@ -232,7 +232,12 @@ out = {
     # session-57 (2026-09-22): batch-6 AUTHORED to its operator gate
     # (future_batch_records[5]; S2 Inorganic second slice — the operator's
     # "commission batch 6" directive); baselines unchanged.
-    "session": 57,
+    # session-58 (2026-09-22): the batch-6 operator gate SETTLED — the
+    # operator's completed review sheet §6 verdict (PASS WITH NOTE) applied
+    # through §18 (16 promotions, operator; c11_batch6_verdicts.yaml; store
+    # total 187); baselines unchanged; top-level session advances with the
+    # settling session (the session-56 precedent).
+    "session": 58,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -767,10 +772,11 @@ out = {
             "rates": {
                 "held_rate": 0.2368,
                 "rejection_rate": 0.0,
-                # gate PENDING — the operator's batch-6 verdicts (template
-                # scripts/c11_batch6_verdicts_template.yaml) are applied
-                # through §18 at a later session
-                "promotion_rate": 0.0,
+                # session-58: gate SETTLED — the operator's batch-6 verdicts
+                # (completed review sheet §6, PASS WITH NOTE) applied through
+                # §18 (16 promotions, operator); zero RR authored, so every
+                # authored edge was promotable post-verdict
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -793,7 +799,7 @@ out = {
                 "the practical owns 2.21 with a practical->concept "
                 "edge)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 16, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -58.3% / edges -55.3% vs "
                            "the 2.4/2.75 model — the S2 descriptive band "
@@ -826,10 +832,21 @@ out = {
                            "non-load-bearing 2-word evidence fragment "
                            "replaced by order-relative facts). Section "
                            "2 candidate coverage: 27 of 50 S2 SPs (109 "
-                           "of 182 total at candidate level). Operator "
-                           "gate PENDING (sheet: "
-                           "C11_BATCH6_REVIEW_SHEET.md; template: "
-                           "scripts/c11_batch6_verdicts_template.yaml)."),
+                           "of 182 total at candidate level). "
+                           "Session-58 (2026-09-22): operator gate "
+                           "SETTLED — the completed review sheet §6 "
+                           "verdict applied (PASS WITH NOTE): 16 edge "
+                           "CONFIRM promoted via §18 (store total 187; "
+                           "zero RR authored; 6 identity decisions "
+                           "KEEP_AS_IS; 9 held preserved — quarantined; "
+                           "the B6-E-09 route-specific guardrail "
+                           "qualification and the three pass-2 WITH_NOTE "
+                           "node qualifications recorded in the verdict "
+                           "notes; the completed sheet's §1-5 carried "
+                           "exactly FOUR machine-checked typographic "
+                           "drift lines against the in-repo gate sheet — "
+                           "zero verdict-relevant change; verdict record "
+                           "scripts/c11_batch6_verdicts.yaml)."),
         },
     ],
     "future_batch_record_schema": {

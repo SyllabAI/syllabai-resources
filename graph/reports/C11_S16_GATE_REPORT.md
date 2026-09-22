@@ -1023,3 +1023,130 @@ before phase 2 (S3).)
 > alkalis / salt preparations / chemical tests) are batches 7-8 per the
 > item-14 plan — each needs its own operator commissioning; no self-start.
 > Then STOP — Batch 6 authoring -> operator gate. Nothing more.)
+
+> **Session-58 update (2026-09-22): BATCH 6 OPERATOR GATE SETTLED + APPLIED
+> — PASS WITH NOTE.** The operator delivered the completed review sheet §6
+> ("Completed operator verdict", C11_BATCH6_REVIEW_SHEET_COMPLETED.md,
+> 2026-09-22; the verdict file itself is the authorization — the
+> session-54/56 precedent) with the final directive verbatim: "Operator
+> verdict: PASS WITH NOTE — proceed to verdict encoding/reconciliation and
+> the separately governed §18 promotion step." OPERATOR VERDICT RECORDED:
+> 13/13 node verdicts accepted with the pass-2 statuses retained (12
+> CONCEPT CONFIRM — CON-OX-RED-AGENTS and CON-EXTRACTION-EVALUATION as
+> CONFIRM_WITH_NOTE; the MIS-ION-OXIDE-REASONING row CONFIRM_WITH_NOTE),
+> 16/16 edge verdicts CONFIRM with exactly ONE qualification — B6-E-09
+> (O2-PERCENT-DETERMINATION REQUIRES_PREREQUISITE CON-RUSTING)
+> CONFIRM_WITH_NOTE: "this dependency is route-specific. The iron-based
+> oxygen-percentage determination uses iron oxidation/rusting-related
+> knowledge; the edge must not be interpreted as saying that every
+> possible oxygen-percentage determination method universally requires
+> the rusting concept" (a semantic guardrail, not a rejection); "The four
+> sanctioned cross-section edges remain confirmed and must continue to
+> reference their governed owners/mints" (extraction method -> existing
+> CON-ELECTROLYSIS; metal uses -> existing CON-METAL-PROPERTIES; carbonate
+> decomposition -> batch-6 CON-REACT-ORDER; oxygen-percentage iron route
+> -> batch-6 CON-RUSTING; "No duplicate concept is to be minted"); the six
+> identity decisions resolved KEEP_AS_IS each with a recorded rationale
+> (the 2.20-vs-electron-framework operand split, the 2.23C/2.24C
+> method-vs-evaluation split, the 2.15/2.16/2.17 trio, the 2.18/2.19
+> conditions-vs-prevention split, the 2.26C/2.27C definition-vs-mechanism
+> split, the single misconception mint); the 9 held candidates
+> "ACKNOWLEDGED / KEEP QUARANTINED" (B6-H-03/06/07/08/09 explicitly
+> upheld); zero RR rows; zero REJECTED authored edges; batch-6 promotions
+> by the verdict itself: 0. COMPLETED-SHEET DRIFT RECORD (session 58,
+> machine-checked by the encoding script): the completed copy's §1-5 is
+> NOT byte-identical to the in-repo gate sheet — exactly FOUR lines
+> differ, all typographic/wording-level with zero verdict-relevant
+> semantic change (line 12: the §1 totals separator normalized 4-col ->
+> 5-col under the 5-column header; line 61: "no duplicate mint" ->
+> "no duplicate concept"; line 69: the gate sheet's mid-word truncation
+> "conventio |" completed to "convention) |"; line 87: the pathway line's
+> tooling-chain naming replaced by the generic §18 wording) — anything
+> beyond the four characterized lines would have failed the encode.
+> ENCODE: scripts/c11_verdict_encode_batch6.py (fail-closed, python -O
+> safe; the drift characterization machine-checked against exact string
+> pairs; template reconciled 1:1 against c11_batch6_decisions.yaml — 16
+> SUGGESTED / zero RR / 13 nodes / 9 held; verdicts keyed by TRIPLE/CODE —
+> never by row id, the sheet-vs-template numbering hazard: the sheet's
+> §2/§6 node numbering is table order (sheet B6-N-01 = CON-REACT-ARRANGE),
+> the template's is alphabetical-by-code (template B6-N-01 =
+> CON-ALLOY-HARDNESS), while the edge ids coincide in both orderings and
+> the explicitly named B6-E-09 triple is identical in both; the four
+> CONFIRM_WITH_NOTE statuses encoded as CONFIRM with the qualification
+> verbatim in notes — the vocabulary rule, batch-1..5 precedent;
+> meta.operator_ruling carries the operator's §6 directive + the encoding
+> rules + the drift record verbatim) -> scripts/c11_batch6_verdicts.yaml;
+> template consumed (fill + rename). §18 APPLICATION: bundle
+> graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md (16 pending /
+> 5 not-actionable) -> dry-run verified (16 exact identities, SUGGESTED ->
+> HUMAN_VALIDATED, operator attribution, single gated invocation) ->
+> approve --all --by operator --date 2026-09-22 --review-ref the B6
+> bundle -> ONE c11_promote.py invocation -> 16 promotions -> gated G13
+> re-run ALL GATES GREEN: STORE TOTAL 187 HUMAN_VALIDATED (28 pilot +
+> 28 batch-1 + 23 batch-2 + 39 batch-3 + 35 batch-4 + 18 batch-5 +
+> 16 batch-6 — ALL operator, 16 on 2026-09-22, review_reference = the B6
+> bundle); merged shape UNCHANGED 142/334/142 (promotion changes
+> statuses, not shape); the only live SUGGESTED semantic edges are again
+> the 3 frozen pilot operator HOLDs; batch-6 nodes stay SUGGESTED;
+> concepts.yaml + spec_command_kinds.yaml byte-unchanged (determinism
+> held through a promotion-only regen). NO §7 re-authoring sanctioned
+> (all identity KEEP_AS_IS, zero RR, zero ENRICHMENT/MERGE/SPLIT — the
+> authored record byte-untouched). NEW STANDING GATE:
+> scripts/c11_batch6_verdict_check.py ALL PASS (A schema incl. the
+> verbatim §6 PASS-WITH-NOTE directive + the session-58 drift record;
+> B shape 16/13/6 + record reconciliation + zero operator_decision blocks
+> + B10 the FOUR WITH_NOTE qualifications in notes + B11 the boundary
+> directive; C three-way set equality + bundle refs + boundary edges HV
+> + C7 exact boundary ownership — the 2 existing-owner edges target
+> batch-3 concepts absent from the batch-6 mint, the 2 deferral closures
+> target the batch-6 mints; D invariants — pilot + batch-1..5 slices
+> intact, store total 187, 4.15 uncovered, zero PART_OF through §18 with
+> the 12 batch-6 PART_OF rows SUGGESTED, no node promoted, shape
+> 142/334/142, the 31 non-mint owners respected, each sanctioned boundary
+> target authored exactly once, the 9 held quarantined). STATE-MOVED
+> EXPECTATIONS re-anchored with dated session-58 comments (no test
+> weakened): graph_check state note + summary phrase (batch-6 verdicts
+> applied session 58); batch1/2/3 verdict-check store totals 171 -> 187;
+> batch4 verdict-check D2 (the live SUGGESTED surface is again EXACTLY
+> the 3 pilot HOLDs; the 16 batch-6 authored edges all HUMAN_VALIDATED) +
+> D8 187; batch5 verdict-check D2 + D9 187; batch4 boundary-check D3 187;
+> batch5 boundary-check D3 187; batch6 boundary-check D3 187 (the
+> promotion is the operator's verdict application, not a ruling mint);
+> negative-test mut_07 dated note (same corruption class — unbacked HV on
+> the pilot-HOLD SUGGESTED surface); diff_review_test R1 re-anchored
+> 16/5/171 -> 0/5/187 (the actionable surface is empty until the next
+> batch's gate); sweep S4 concept_edges pin re-issued (sha256_16
+> 76f7ce13 -> 1425090b; concepts b3988e7e + spec_command_kinds 194ed2d1
+> byte-unchanged). FORECAST: the batch-6 record SETTLED (promotion_rate
+> 0.0 -> 1.0; operator_verdicts confirm 0 -> 16; the session-58
+> settlement sentence; top-level session 57 -> 58; JSON regenerated
+> deterministically — re-run sha256-identical). SERVING PLANE re-emitted
+> at the post-promotion state (c28_emit_explorer_blob.py: projections +
+> explorer_blob.json; the 6 source pins == the S4 pins incl.
+> concept_edges 1425090b). GOVERNANCE amended with dated session-58 notes
+> (historical text preserved): C11_S16_GATE_REPORT.md (this block) +
+> C11_ARCHITECTURE.md (the session-58 amendment; BATCH 6 IS CLOSED — do
+> not reopen). FULL GATE SUITE AT THE FINAL POST-PROMOTION STATE:
+> graph_check ALL PASS (142/334/142, 187 semantic HV);
+> c11_review_verdict_check ALL PASS; c11_batch1..batch6_verdict_check ALL
+> PASS; c11_batch4/batch5/batch6_boundary_check ALL PASS;
+> c11_s16_authorization_check ALL PASS; c11_negative_test 14/14;
+> c11_promote_test 27/27 (live store untouched); c11_task4_variants 3/3;
+> c11_diff_review_test ALL PASS (R1 0/5/187). INVARIANTS HELD: the frozen
+> pilot + batch-1..5 dispositions byte-intact (E-08/E-26/E-29 stay
+> SUGGESTED; both RR edges REVIEW_REQUIRED under their operator
+> settlements; HELD-01..13 + B1-H-01..12 + B2-H-01..10 + B3-H-01..14 +
+> B4-H-01..14 + B5-H-01..14 + B6-H-01..09 untouched — 100 held, clean
+> quarantine); 187 promotions all operator (every promoted identity
+> traces to an operator verdict row); batch-6 nodes stay SUGGESTED (no
+> §18 node pathway); PART_OF derived and outside §18 (the 12 batch-6
+> PART_OF rows SUGGESTED pending their own attachment-promotion lane);
+> 4CH1-4.15 uncovered; no DB writes; AI attribution forbidden;
+> graph/*.yaml never hand-edited (all changes via the sanctioned
+> generators). ZERO self-promotion: every promotion traces to the
+> operator's §6 CONFIRM. Section 2 candidate coverage: 27 of 50 S2 SPs
+> (109 of 182 total at candidate level). NEXT: the remaining S2 families
+> (2.28-2.50: acids & alkalis / salt preparations / chemical tests) are
+> batches 7-8 per the item-14 plan — each needs its own operator
+> commissioning; no self-start. Then STOP — Batch 6 verdicts encoded +
+> applied. Nothing more.)

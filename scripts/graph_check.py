@@ -930,6 +930,13 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # attachment-promotion lane); the live SUGGESTED semantic surface is now
 # the 3 frozen pilot operator HOLDs + the 16 batch-6 authored edges,
 # pending the operator's batch-6 verdicts; 171 semantic HV unchanged.)
+# (Session-58 note: the operator's batch-6 verdicts (completed review
+# sheet §6: 16 edge CONFIRM with the B6-E-09 route-specific guardrail /
+# 13 node CONFIRM / 6 identity KEEP_AS_IS / 9 held acknowledged) were
+# APPLIED through §18 — the 16 batch-6 authored semantic edges promoted
+# to HUMAN_VALIDATED (187 semantic HV total = 28+28+23+39+35+18+16, all
+# operator); graph shape unchanged; the only live SUGGESTED semantic
+# edges are again the 3 frozen pilot operator HOLDs.)
 C11_COUNTS = {"nodes": 142, "concepts": 123, "misconceptions": 19,
               "edges": 334,
               "part_of": 142, "requires_prerequisite": 139,
@@ -1769,10 +1776,11 @@ def main():
           f"{len(topic_codes)} topics, {len(sub_codes)} subtopics, "
           f"{COUNTS['edges']} edges, {COUNTS['command_words']} command words, "
           f"{COUNTS['practicals']} practicals, {COUNTS['papers']} papers; "
-          # session-57: the summary names the batch-6 slice (authored to its
-          # operator gate — verdicts pending); state note, no test weakened
+          # session-58: the summary names the batch-6 verdict application
+          # (§18 applied — 16 operator promotions); state note, no test
+          # weakened
           f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches 5-6, "
-          f"batch 6 authored to its operator gate): "
+          f"batch-6 verdicts applied session 58): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1782,7 +1790,7 @@ def main():
           f"generation; batch-1 verdicts applied session 48; batch-2 "
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
           f"batch-4 verdicts applied session 54; batch-5 verdicts applied "
-          f"session 56; batch-6 authored session 57, verdicts pending — "
+          f"session 56; batch-6 verdicts applied session 58 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

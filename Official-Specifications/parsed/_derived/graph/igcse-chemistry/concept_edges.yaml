@@ -1,9 +1,9 @@
 meta:
   schema: ratified-store-projection/1.0
   projection_of: graph/igcse-chemistry/concept_edges.yaml
-  source_sha256_16: 76f7ce1302cbd52e
+  source_sha256_16: 1425090bd7a7c6bb
   emitter: scripts/c28_emit_explorer_blob.py@1.0.0
-  emitted_at: '2026-09-22T07:41:56Z'
+  emitted_at: '2026-09-22T11:46:07Z'
   note: 'Emitter-owned serving projection (C28 spec sections 3.3/5). Rows verbatim from the ratified store
     at the pinned sha; never hand-edit - the S8 drift gate (G1 source freshness + G2 re-emit idempotency)
     fails on drift. Authority: the ratified store.'
@@ -4921,7 +4921,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.26C/2.27C @ Alloys (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-ANODE-CATHODE
@@ -5232,7 +5234,9 @@ edges:
       future_boundary_note deferred exactly this edge
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-COMBUSTION-O2
@@ -6023,7 +6027,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.24C/2.23C @ Extraction of metals from ores (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-EXTRACTION-METHOD
@@ -6054,7 +6060,9 @@ edges:
       owned by the batch-3 record (4CH1-1.58C); session-57 boundary ruling sanctioned target
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-EXTRACTION-METHOD
@@ -6082,7 +6090,9 @@ edges:
       owned by this record (4CH1-2.20)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-EXTRACTION-METHOD
@@ -6106,7 +6116,9 @@ edges:
       owned by this record (4CH1-2.17)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-FILTRATION
@@ -6863,7 +6875,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.16/2.17 @ Metal displacement + The reactivity series (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-METAL-NONMETAL
@@ -6915,7 +6929,9 @@ edges:
       by the batch-3 record (4CH1-1.54C); session-57 boundary ruling sanctioned target
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-METALLIC-BOND
@@ -7289,7 +7305,9 @@ edges:
       future_boundary_note deferred exactly this edge
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-PERCENT-YIELD
@@ -7496,7 +7514,9 @@ edges:
       series (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-REACTING-MASS
@@ -7760,7 +7780,9 @@ edges:
       record (4CH1-2.20)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-RUST-PREVENTION
@@ -7788,7 +7810,9 @@ edges:
       record (4CH1-2.17)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-RUST-PREVENTION
@@ -7817,7 +7841,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.18/2.19 @ Rusting of iron (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-CON-SATURATED-SOLUTION
@@ -8349,7 +8375,9 @@ edges:
       record 4CH1-PR-06 (practicals.yaml, RULE_DERIVED)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-PR-09
@@ -9308,7 +9336,9 @@ edges:
     upstream: pinned REACTIVITY_MS_P2 (sha1_12 8e883dd7d68d) Q2a; spec 4CH1-2.16 official wording
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-IONIC-BOND-ATOMS
@@ -9772,7 +9802,9 @@ edges:
     upstream: pinned REACTIVITY_MS_P2 (sha1_12 8e883dd7d68d) Q2a/b + Metal displacement note (2026-09-11)
     generated_date: '2026-09-22'
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-22'
   version: 1
   created_at: '2026-09-22'
 - source: 4CH1-MIS-IONIC-BOND-ATOMS

@@ -1,7 +1,7 @@
 {
   "task": "T-C11",
   "instrument": "batch-forecast",
-  "session": 57,
+  "session": 58,
   "generated": "2026-09-13",
   "baselines": {
     "resources": "9ce37bc",
@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 171,
-    "human_validated": 288,
+    "promoted": 187,
+    "human_validated": 304,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.512,
+      "value": 0.5599,
       "formula": "promoted / total_edges",
-      "inputs": "171 / 334",
+      "inputs": "187 / 334",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -421,7 +421,7 @@
       "rates": {
         "held_rate": 0.2368,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -431,13 +431,13 @@
         "FP-B6-4 (family shape: method-vs-evaluation split B6-ID-02, the trio/conditions/definition splits B6-ID-03..05, the single-Reject-column mint B6-ID-06; the practical owns 2.21 with a practical->concept edge)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 16,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -58.3% / edges -55.3% vs the 2.4/2.75 model — the S2 descriptive band (nodes/SP 1.0, edges/SP 1.23): the one-node-per-SP-family shape held exactly (12 concept-bearing SPs + the PR-06-owned practical), and the boundary discipline abstains where the notes re-teach inline (B6-H-01/02/06/08). No existing identity re-minted — the FOUR ruled targets reached via exactly 4 sanctioned cross-section boundary edges (2.23C -> CON-ELECTROLYSIS; 2.25C -> CON-METAL-PROPERTIES; the batch-5 deferral closures 2.12 -> CON-REACT-ORDER and 2.10 -> CON-RUSTING, closing held B5-H-10 and the iron-route note verbatim); 2.21 attaches no concept node (PR-06 owns it — the 1.13/1.60C/2.14 precedent) with the practical->concept edge authored. Zero RR authored; 9 held. ONE misconception minted, mark-scheme-documented (the REACTIVITY MS Q2a Reject column — the MIS-CUO-COLOUR-class narrow-but-exact pattern). PARTIAL Paper-2 MS coverage: the Reactivity family pinned; the extraction family UNPINNED (no PMT MS in any unit — the batch-1..3 convention, recorded in meta.ms_coverage_note). One pass-2 finding re-authored before the gate (FP-B6-5, a non-load-bearing 2-word evidence fragment replaced by order-relative facts). Section 2 candidate coverage: 27 of 50 S2 SPs (109 of 182 total at candidate level). Operator gate PENDING (sheet: C11_BATCH6_REVIEW_SHEET.md; template: scripts/c11_batch6_verdicts_template.yaml)."
+      "notes_text": "pred-vs-act: nodes -58.3% / edges -55.3% vs the 2.4/2.75 model — the S2 descriptive band (nodes/SP 1.0, edges/SP 1.23): the one-node-per-SP-family shape held exactly (12 concept-bearing SPs + the PR-06-owned practical), and the boundary discipline abstains where the notes re-teach inline (B6-H-01/02/06/08). No existing identity re-minted — the FOUR ruled targets reached via exactly 4 sanctioned cross-section boundary edges (2.23C -> CON-ELECTROLYSIS; 2.25C -> CON-METAL-PROPERTIES; the batch-5 deferral closures 2.12 -> CON-REACT-ORDER and 2.10 -> CON-RUSTING, closing held B5-H-10 and the iron-route note verbatim); 2.21 attaches no concept node (PR-06 owns it — the 1.13/1.60C/2.14 precedent) with the practical->concept edge authored. Zero RR authored; 9 held. ONE misconception minted, mark-scheme-documented (the REACTIVITY MS Q2a Reject column — the MIS-CUO-COLOUR-class narrow-but-exact pattern). PARTIAL Paper-2 MS coverage: the Reactivity family pinned; the extraction family UNPINNED (no PMT MS in any unit — the batch-1..3 convention, recorded in meta.ms_coverage_note). One pass-2 finding re-authored before the gate (FP-B6-5, a non-load-bearing 2-word evidence fragment replaced by order-relative facts). Section 2 candidate coverage: 27 of 50 S2 SPs (109 of 182 total at candidate level). Session-58 (2026-09-22): operator gate SETTLED — the completed review sheet §6 verdict applied (PASS WITH NOTE): 16 edge CONFIRM promoted via §18 (store total 187; zero RR authored; 6 identity decisions KEEP_AS_IS; 9 held preserved — quarantined; the B6-E-09 route-specific guardrail qualification and the three pass-2 WITH_NOTE node qualifications recorded in the verdict notes; the completed sheet's §1-5 carried exactly FOUR machine-checked typographic drift lines against the in-repo gate sheet — zero verdict-relevant change; verdict record scripts/c11_batch6_verdicts.yaml)."
     }
   ],
   "future_batch_record_schema": {

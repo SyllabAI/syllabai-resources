@@ -1172,3 +1172,94 @@ C11_OPERATOR_DECISIONS.md).
 > the §18 pathway; the remaining S2 families (2.28-2.50) are batches 7-8
 > per the item-14 plan — each needs its own operator commissioning; no
 > self-start.)
+
+> **Session-58 amendment (2026-09-22): §16 PHASE-2 BATCH 6 OPERATOR GATE
+> SETTLED + APPLIED — PASS WITH NOTE.** The operator delivered the
+> completed review sheet §6 (C11_BATCH6_REVIEW_SHEET_COMPLETED.md,
+> 2026-09-22 — the verdict file itself is the authorization, the
+> session-54/56 precedent) with the final directive verbatim: "Operator
+> verdict: PASS WITH NOTE — proceed to verdict encoding/reconciliation and
+> the separately governed §18 promotion step." RECORDED: 13/13 node
+> verdicts accepted with the pass-2 statuses retained (12 CONCEPT CONFIRM
+> — CON-OX-RED-AGENTS and CON-EXTRACTION-EVALUATION as CONFIRM_WITH_NOTE;
+> MIS-ION-OXIDE-REASONING CONFIRM_WITH_NOTE), 16/16 edge verdicts CONFIRM
+> with exactly ONE qualification — B6-E-09 (O2-PERCENT-DETERMINATION
+> REQUIRES_PREREQUISITE CON-RUSTING) CONFIRM_WITH_NOTE: the dependency is
+> ROUTE-SPECIFIC (the iron-based oxygen-percentage determination uses
+> iron oxidation/rusting-related knowledge; the edge must not be
+> interpreted as saying that every possible oxygen-percentage
+> determination method universally requires the rusting concept — a
+> semantic guardrail, not a rejection, preventing the graph from turning
+> a route-specific experimental dependency into a universal
+> prerequisite); "The four sanctioned cross-section edges remain confirmed
+> and must continue to reference their governed owners/mints" (extraction
+> method -> existing CON-ELECTROLYSIS; metal uses -> existing
+> CON-METAL-PROPERTIES; carbonate decomposition -> batch-6
+> CON-REACT-ORDER; oxygen-percentage iron route -> batch-6 CON-RUSTING;
+> "No duplicate concept is to be minted"); the six identity decisions
+> KEEP_AS_IS each with a recorded rationale; the 9 held candidates
+> "ACKNOWLEDGED / KEEP QUARANTINED" (B6-H-03/06/07/08/09 explicitly
+> upheld); zero RR; zero REJECT. COMPLETED-SHEET DRIFT (session-58 record,
+> machine-checked): the completed copy's §1-5 differs from the in-repo
+> gate sheet by EXACTLY FOUR typographic lines (the §1 separator
+> normalized; "no duplicate mint" -> "no duplicate concept"; the gate
+> sheet's mid-word truncation completed; the pathway line's generic §18
+> wording) — zero verdict-relevant semantic change, exact string pairs
+> asserted by the encoding script, anything beyond the four lines
+> fail-closed. ENCODE: scripts/c11_verdict_encode_batch6.py (fail-closed,
+> python -O safe, registry-resolved store paths; 1:1 template-vs-decision-
+> record reconciliation 16 SUGGESTED / zero RR / 13 nodes / 9 held;
+> verdicts keyed by TRIPLE/CODE — never by row id: the sheet's §2/§6 node
+> numbering is table order, the template's is alphabetical-by-code, while
+> the edge ids coincide in both orderings and the explicitly named B6-E-09
+> triple is identical in both; the four CONFIRM_WITH_NOTE statuses encoded
+> as CONFIRM with the qualification verbatim in notes — the vocabulary
+> rule, batch-1..5 precedent) -> scripts/c11_batch6_verdicts.yaml;
+> template consumed (fill + rename). §18 APPLICATION: bundle
+> graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md (16 pending / 5
+> not-actionable) -> dry-run verified -> approve --all --by operator
+> --date 2026-09-22 --review-ref the B6 bundle -> ONE c11_promote.py
+> invocation -> 16 promotions -> gated G13 re-run ALL GATES GREEN: STORE
+> TOTAL 187 HUMAN_VALIDATED (28+28+23+39+35+18+16, ALL operator);
+> merged shape UNCHANGED 142/334/142; the only live SUGGESTED semantic
+> edges are again the 3 frozen pilot operator HOLDs; batch-6 nodes stay
+> SUGGESTED; concepts.yaml + spec_command_kinds.yaml byte-unchanged
+> (determinism held through a promotion-only regen). NO §7 re-authoring
+> sanctioned (all identity KEEP_AS_IS, zero RR, zero
+> ENRICHMENT/MERGE/SPLIT — the authored record byte-untouched). NEW
+> STANDING GATE: scripts/c11_batch6_verdict_check.py ALL PASS (A schema
+> incl. the verbatim §6 PASS-WITH-NOTE directive + the session-58 drift
+> record; B shape 16/13/6 + zero operator_decision blocks + the FOUR
+> WITH_NOTE qualifications in notes + the boundary directive; C three-way
+> set equality + the B6 bundle refs + exact boundary ownership — the 2
+> existing-owner edges target batch-3 concepts absent from the batch-6
+> mint, the 2 deferral closures target the batch-6 mints; D invariants —
+> pilot + batch-1..5 slices intact, store total 187, 4.15 uncovered, zero
+> PART_OF through §18, no node promoted, shape 142/334/142, 31 non-mint
+> owners respected, each sanctioned boundary target authored exactly
+> once, the 9 held quarantined). STATE-MOVED EXPECTATIONS re-anchored with
+> dated session-58 comments only (graph_check state note + summary
+> phrase; batch-1/2/3 verdict-check store totals 171 -> 187; batch-4
+> verdict-check D2 SUGGESTED-surface + D8; batch-5 verdict-check D2 + D9;
+> batch-4/5 boundary-check D3; batch-6 boundary-check D3; negative-test
+> mut_07 dated note; diff-review-test R1 16/5/171 -> 0/5/187; sweep S4
+> concept_edges pin 76f7ce13 -> 1425090b) — protective intent unchanged,
+> no test weakened. FORECAST: the batch-6 record SETTLED (promotion_rate
+> 0.0 -> 1.0; operator_verdicts confirm 0 -> 16; top-level session 57 ->
+> 58; JSON regenerated deterministically — re-run sha256-identical).
+> SERVING PLANE re-emitted at the post-promotion state (projections +
+> explorer_blob.json; the 6 source pins == the S4 pins incl.
+> concept_edges 1425090b). FULL GATE SUITE GREEN at the final
+> post-promotion state (graph_check 142/334/142 with 187 semantic HV; all
+> verdict + boundary checkers; s16 authz; negative 14/14; promote_test
+> 27/27; task4_variants 3/3; diff_review_test R1 0/5/187; the C27/C28
+> battery green at the commit — the S0 tree gate clears at landing).
+> Invariants held: frozen pilot + batch-1..5 dispositions byte-intact;
+> 100 held candidates quarantined across the seven slices; 4.15
+> uncovered; AI attribution forbidden; graph/*.yaml never hand-edited.
+> ZERO self-promotion: every promotion traces to the operator's §6
+> CONFIRM. BATCH 6 IS CLOSED — do not reopen. Section 2 candidate
+> coverage: 27 of 50 S2 SPs (109 of 182 total at candidate level). NEXT:
+> the remaining S2 families (2.28-2.50: acids & alkalis / salt
+> preparations / chemical tests) are batches 7-8 per the item-14 plan —
+> each needs its own operator commissioning; no self-start.)
