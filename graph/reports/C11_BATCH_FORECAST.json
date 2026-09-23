@@ -1,7 +1,7 @@
 {
   "task": "T-C11",
   "instrument": "batch-forecast",
-  "session": 59,
+  "session": 60,
   "generated": "2026-09-13",
   "baselines": {
     "resources": "9ce37bc",
@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 187,
-    "human_validated": 304,
+    "promoted": 206,
+    "human_validated": 323,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.5095,
+      "value": 0.5613,
       "formula": "promoted / total_edges",
-      "inputs": "187 / 367",
+      "inputs": "206 / 367",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -465,7 +465,7 @@
       "rates": {
         "held_rate": 0.2093,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -476,13 +476,13 @@
         "FP-B7-5 (G04 discipline: the hydronium MS anchor moved out of the 2.36 CONCEPT attachment — MARK_SCHEME anchors are misconception-class-only on concept attachments)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 19,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -61.2% / edges -55.5% vs the 2.4/2.75 model — the S2 descriptive band (nodes/SP 0.94, edges/SP 1.19): 13 concept-bearing SP-families (2.35+2.36 as ONE family node) + the PR-07/PR-08-owned practicals, and the boundary discipline abstains where the notes re-teach the separation steps inline (the S1 filtration/crystallisation/evaporation/saturation owners untouched). No existing identity re-minted — the TWO ruled targets reached via exactly 2 sanctioned cross-section boundary edges (2.37 -> CON-REACT-ORDER, the batch-6 owner; 2.34 -> CON-ION-CHARGE-RULES, the batch-3 owner); 2.42/2.43C attach no concept node (PR-07/PR-08 own them — the 1.13/1.60C/2.14/2.21 precedent) with the practical->concept edges authored. Zero RR authored; 9 held (B7-H-04 the insufficient-characterization refusal; B7-H-06 the note-anchored ERRONEOUS_BELIEF lane held for operator ruling). TWO misconceptions minted, both mark-scheme-documented (the Titrations MS Q2a(iv) Reject column and the Salt-Prep MS Q2a(iii) class). FULL Paper-2 MS coverage — both families pinned (the best of any slice; meta.ms_coverage_note). One pass-2 finding re-authored before the gate (FP-B7-4). Section 2 candidate coverage: 43 of 50 S2 SPs (125 of 182 total at candidate level). NEXT: the batch-7 operator verdict session (fill scripts/c11_batch7_verdicts_template.yaml -> rename); the remaining S2-h family (2.44-2.50 chemical tests) is batch 8."
+      "notes_text": "pred-vs-act: nodes -61.2% / edges -55.5% vs the 2.4/2.75 model — the S2 descriptive band (nodes/SP 0.94, edges/SP 1.19): 13 concept-bearing SP-families (2.35+2.36 as ONE family node) + the PR-07/PR-08-owned practicals, and the boundary discipline abstains where the notes re-teach the separation steps inline (the S1 filtration/crystallisation/evaporation/saturation owners untouched). No existing identity re-minted — the TWO ruled targets reached via exactly 2 sanctioned cross-section boundary edges (2.37 -> CON-REACT-ORDER, the batch-6 owner; 2.34 -> CON-ION-CHARGE-RULES, the batch-3 owner); 2.42/2.43C attach no concept node (PR-07/PR-08 own them — the 1.13/1.60C/2.14/2.21 precedent) with the practical->concept edges authored. Zero RR authored; 9 held (B7-H-04 the insufficient-characterization refusal; B7-H-06 the note-anchored ERRONEOUS_BELIEF lane held for operator ruling). TWO misconceptions minted, both mark-scheme-documented (the Titrations MS Q2a(iv) Reject column and the Salt-Prep MS Q2a(iii) class). FULL Paper-2 MS coverage — both families pinned (the best of any slice; meta.ms_coverage_note). One pass-2 finding re-authored before the gate (FP-B7-4). Section 2 candidate coverage: 43 of 50 S2 SPs (125 of 182 total at candidate level). Session-60 (2026-09-23): operator gate SETTLED — the verdict addendum §6/§7 applied (PASS WITH NOTES): 19 edge CONFIRM promoted via §18 (store total 206; zero RR; 6 identity KEEP_AS_IS; 9 held quarantined; the B7-E-02 acid+metal-route and B7-E-10 boundary-ownership guardrails + the CON-NEUTRALISATION pass-2 WITH_NOTE recorded in the verdict notes; ADDENDUM intake — the web-lane upload gap recorded, the addendum reconciled 1:1 against the gate sheet §2/§3 and the decision record; verdict record scripts/c11_batch7_verdicts.yaml). NEXT: the remaining S2-h family (2.44-2.50 chemical tests) is batch 8."
     }
   ],
   "future_batch_record_schema": {

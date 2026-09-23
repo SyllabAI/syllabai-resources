@@ -281,17 +281,25 @@ live_b6_sugg = {k for k in B6_AUTHORED if k in live_sugg}
 # session 59) adds 19 SUGGESTED authored semantic edges to the live
 # SUGGESTED surface (3 pilot HOLDs + 19 batch-7 authored); the batch-4/5/6
 # slices stay fully HUMAN_VALIDATED and preserved exactly.
+# session-60 re-anchor (dated, protective intent unchanged): the batch-7
+# verdicts were APPLIED through §18 (19 operator promotions,
+# c11_batch7_verdicts, applied 2026-09-23 via the B7 diff-review bundle —
+# the operator's addendum §6/§7 verdict: PASS WITH NOTES), so the live
+# SUGGESTED semantic surface is again EXACTLY the 3 frozen pilot operator
+# HOLDs and the batch-7 authored edges are all HUMAN_VALIDATED.
 B7_DEC = HERE / "c11_batch7_decisions.yaml"
 B7_AUTHORED = {triple(e)
                for e in (yaml.safe_load(B7_DEC.read_text(encoding="utf-8"))
                          .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
-      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs + the 19 "
-      "batch-7 authored edges (batch-4/5/6 verdicts applied through §18 at "
-      "sessions 54/56/58; batch 7 authored to its gate at session 59)",
+      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
+      "batch-7 authored edges were promoted by the operator's verdicts "
+      "through §18 at session 60; batch-4/5/6 verdicts applied at "
+      "sessions 54/56/58)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds | B7_AUTHORED
-      and B6_AUTHORED <= hv and not live_b6_sugg and not live_b5_sugg,
+      and live_sugg == pilot_holds
+      and B6_AUTHORED <= hv and B7_AUTHORED <= hv
+      and not live_b6_sugg and not live_b5_sugg,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -326,8 +334,11 @@ check("D7 batch-3 slice intact: 39 batch-3 CONFIRM still HUMAN_VALIDATED",
 # §18 application added 16 operator promotions (c11_batch6_verdicts) —
 # the store total moved 171 -> 187; the batch-4 slice stays preserved
 # exactly.
-check("D8 store total 187 (28+28+23+39+35+18+16), all operator",
-      len(store_map) == 187
+# session-60 re-anchor (dated): the store grew 187 -> 206 by the SANCTIONED
+# batch-7 §18 application (19 operator promotions, c11_batch7_verdicts);
+# the batch-4 slice stays preserved exactly.
+check("D8 store total 206 (28+28+23+39+35+18+16+19), all operator",
+      len(store_map) == 206
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

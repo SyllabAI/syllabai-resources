@@ -1331,3 +1331,90 @@ C11_OPERATOR_DECISIONS.md).
 > c11_batch7_verdicts.yaml); a later session encodes + applies them via
 > the §18 pathway; the remaining S2-h family (2.44-2.50: chemical tests)
 > is batch 8 — needs its own operator commissioning; no self-start.)
+
+### §16 session-60 amendment (2026-09-23) — BATCH 7 VERDICTS APPLIED THROUGH §18 ("PASS WITH NOTES" — BATCH 7 CLOSED)
+
+> The operator delivered the batch-7 verdict ADDENDUM §6/§7 (2026-09-23;
+> "Operator verdict: PASS WITH NOTES") with the explicit directive to
+> proceed through the normal C11 pathway (template -> verdicts.yaml ->
+> encode/reconcile -> c11_promote.py -> regenerate -> rerun the complete
+> gate suite). DELIVERY RECORD (the session-60 precedent): the web-lane
+> upload of C11_BATCH7_REVIEW_SHEET_COMPLETED.md did not reach the
+> verdict workspace (upload/ held only the batch-5/6 completed sheets)
+> while the FileUpload-lane advance 8b03d1c carried the BLANK gate sheet
+> (byte-identical to the in-repo gate sheet — the batch-6 gate-sheet-
+> upload precedent); the operator therefore delivered the §6/§7 verdict
+> content in-chat, and the verdict session materialized it as
+> C11_BATCH7_REVIEW_SHEET_COMPLETED.md. INTAKE FORM: ADDENDUM (no §1-5)
+> — the batch-5/6 byte-drift check does not apply; the verdict content
+> was instead reconciled 1:1 against the gate sheet §2/§3 surfaces and
+> the batch-7 decision record (machine-checked by the encode: the
+> addendum's (id, code) node pairs match the sheet §2 table order
+> exactly; the named B7-E-02/B7-E-10/PR-07/PR-08 triples match the
+> template rows; the 19-edge/15-node/9-held/6-ID sets reconcile
+> exactly). The operator's REPORTED-STATE CAVEAT is recorded verbatim in
+> the verdict record (the machine-state claims were REPORTED to the
+> operator — the GitHub connector could not reach the YAMLs); the
+> verdict session closed that gap directly at d6eba2d before encoding.
+> ENCODE: scripts/c11_verdict_encode_batch7.py (fail-closed, python -O
+> safe, registry-resolved store paths, argv-takes the completed
+> addendum): pre-state frozen (187 semantic HV == promotion store; §16
+> AUTHORIZED; 157/367/156; 19 SUGGESTED / 0 RR / 15 nodes / 9 held; the
+> 2 frozen pilot RR settlements untouched), verdicts keyed by
+> TRIPLE/CODE — never by row id (the sheet's §2 node numbering is TABLE
+> ORDER == decision-record order — sheet B7-N-01 = CON-INDICATORS — vs
+> the template's alphabetical-by-code — template B7-N-01 =
+> CON-ACID-ALKALI-IONS; the edge ids COINCIDE in both orderings and the
+> explicitly named triples are identical in both; the identity hazard
+> the encode kills); the THREE §6 CONFIRM_WITH_NOTE statuses (node
+> CON-NEUTRALISATION retained pass-2 + edge guardrails B7-E-02 the
+> acid+metal route dependency and B7-E-10 the sanctioned boundary
+> ownership) encoded as CONFIRM with the qualifications verbatim in
+> notes (the vocabulary rule, batch-1..6 precedent); the six identity
+> decisions KEEP_AS_IS with the operator's rationale table verbatim; the
+> 9 held candidates ACKNOWLEDGED / KEEP QUARANTINED with per-candidate
+> reasons; meta.operator_ruling carries the operator's §6/§7 directive +
+> encoding rules + delivery record + reported-state caveat verbatim ->
+> scripts/c11_batch7_verdicts.yaml; template consumed (fill + rename).
+> §18 APPLICATION: bundle graph/reports/C11_DIFF_REVIEW_B7_2026-09-23.md
+> (19 pending / 5 not-actionable — matches the pre-session state) ->
+> export -> dry-run verified (19 exact identities, SUGGESTED ->
+> HUMAN_VALIDATED, operator attribution, single gated invocation) ->
+> approve --all --by operator --date 2026-09-23 --review-ref the B7
+> bundle -> ONE c11_promote.py invocation -> 19 promotions -> gated G13
+> re-run ALL GATES GREEN; STORE TOTAL 206 semantic HUMAN_VALIDATED
+> (28+28+23+39+35+18+16+19, all operator); shape unchanged 157/367/156;
+> concepts.yaml + spec_command_kinds.yaml byte-unchanged (determinism
+> held through a promotion-only regen); the only live SUGGESTED semantic
+> edges are again the 3 frozen pilot HOLDs; the 2 frozen RR settlements
+> untouched. NEW STANDING GATE: scripts/c11_batch7_verdict_check.py ALL
+> PASS (A schema + verbatim §6/§7 PASS WITH NOTES + the session-60
+> delivery record + the reported-state caveat; B shape 19/15/6 + zero
+> operator_decision + B10 the THREE WITH_NOTE qualifications in notes +
+> B11 the boundary directive + node authority stays SUGGESTED; C
+> three-way set equality + bundle refs + the 2 boundary edges HV + C7
+> exact boundary ownership — BOTH targets EXISTING owners (batch-6
+> CON-REACT-ORDER, batch-3 CON-ION-CHARGE-RULES) absent from the batch-7
+> mint; D slices intact + 206 + 4.15 + non-mint 58 + boundary-targets-
+> once + 9 held quarantined). STATE-MOVED EXPECTATIONS re-anchored with
+> dated session-60 comments (no test weakened): graph_check state note +
+> summary phrase (batch-7 verdicts applied session 60); batch1/2/3
+> verdict-check store totals 187->206; batch4/5/6 verdict-check D2
+> SUGGESTED-surface (again exactly the 3 pilot HOLDs; B7_AUTHORED all
+> HV) + store totals 206; batch4/5/6/7 boundary-check D3 206;
+> diff_review_test R1 19/5/187 -> 0/5/206; negative-test mut_07 dated
+> note; sweep S4 concept_edges pin e27185d7 -> 349b35a3604a28d6
+> (concepts 5b70f216 + spec_command_kinds 11a1a3a1 UNCHANGED —
+> byte-identical through the promotion-only regen). FORECAST: batch-7
+> record SETTLED (promotion_rate 0.0 -> 1.0, operator_verdicts confirm
+> 0 -> 19, the session-60 settlement sentence, top-level session 59 ->
+> 60); JSON regenerated deterministically (re-run sha256-identical).
+> SERVING PLANE re-emitted (projections + explorer_blob.json; 6 source
+> pins == S4 pins incl. concept_edges 349b35a3604a28d6). BATCH 7 IS
+> CLOSED — do not reopen. Zero self-promotion (all 19 promotions trace
+> to the operator's §6 CONFIRM rows); nodes stay SUGGESTED (no §18 node
+> pathway); 109 held quarantined across eight slices. Operator-facing
+> state: remaining S2 = batch 8 (2.44-2.50 chemical tests — needs its
+> own commissioning, no self-start); D4 subject-#2 K0(ii) corpus
+> securing, snap-002 re-freeze, v78 explorer build, PAT rotation still
+> operator-held.

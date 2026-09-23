@@ -1267,3 +1267,73 @@ before phase 2 (S3).)
 > batch 8 per the item-14 plan — needs its own operator commissioning; no
 > self-start. Then STOP — Batch 7 authoring -> operator gate. Nothing
 > more.)
+
+## Session 60 (2026-09-23) — BATCH 7 VERDICTS APPLIED THROUGH §18 — BATCH 7 CLOSED
+
+> The operator delivered the batch-7 verdict ADDENDUM §6/§7 (2026-09-23):
+> "Operator verdict: PASS WITH NOTES — proceed through the normal C11
+> pathway: c11_batch7_verdicts_template.yaml -> c11_batch7_verdicts.yaml
+> -> encode/reconcile -> c11_promote.py -> regenerate -> rerun the
+> complete gate suite." DELIVERY RECORD: the web-lane upload of
+> C11_BATCH7_REVIEW_SHEET_COMPLETED.md did not reach the verdict
+> workspace; the FileUpload-lane advance 8b03d1c carried the BLANK gate
+> sheet (byte-identical to the in-repo gate sheet); the operator
+> delivered the §6/§7 verdict content in-chat and the session
+> materialized it as the completed addendum. INTAKE FORM: ADDENDUM (no
+> §1-5) — verdict content reconciled 1:1 against the gate sheet §2/§3 +
+> c11_batch7_decisions.yaml (machine-checked; the (id, code) node pairs
+> match the sheet §2 table order exactly; the named edge triples match
+> the template rows). The operator's REPORTED-state caveat (machine
+> claims not independently verifiable through the GitHub connector) is
+> recorded verbatim; the session closed the gap by verifying the state
+> directly at d6eba2d. ENCODE: c11_verdict_encode_batch7.py — pre-state
+> frozen (187 semantic HV == promotions; §16 AUTHORIZED; 157/367/156;
+> 19 SUGGESTED / 0 RR / 15 nodes / 9 held); verdicts keyed by
+> TRIPLE/CODE, never row id (sheet §2 node numbering = table order ==
+> decision order vs the template's alphabetical order — the identity
+> hazard the encode kills); the THREE CONFIRM_WITH_NOTE qualifications
+> (node CON-NEUTRALISATION pass-2 retained; B7-E-02 the acid+metal route
+> guardrail; B7-E-10 the boundary-ownership guardrail) encoded as
+> CONFIRM with qualifications verbatim in notes; identity 6x KEEP_AS_IS
+> (rationales verbatim); 9 held ACKNOWLEDGED / KEEP QUARANTINED;
+> template consumed. §18 APPLICATION: the B7 diff-review bundle
+> (19 pending / 5 not-actionable) -> export -> dry-run verified ->
+> approve --all --by operator --date 2026-09-23 -> ONE c11_promote.py
+> invocation -> 19 promotions -> gated G13 re-run ALL GATES GREEN;
+> STORE TOTAL 206 semantic HUMAN_VALIDATED (28+28+23+39+35+18+16+19,
+> all operator); shape unchanged 157/367/156; concepts.yaml +
+> spec_command_kinds.yaml byte-unchanged (promotion-only regen
+> determinism); the only live SUGGESTED semantic edges are again the 3
+> frozen pilot HOLDs. NEW STANDING GATE: c11_batch7_verdict_check.py
+> ALL PASS (A schema + verbatim §6/§7 + the delivery record + the
+> reported-state caveat; B 19/15/6 + zero operator_decision + the three
+> WITH_NOTE qualifications in notes; C three-way set equality + bundle
+> refs + boundary edges HV + C7 both boundary targets EXISTING owners —
+> batch-6 CON-REACT-ORDER, batch-3 CON-ION-CHARGE-RULES — absent from
+> the batch-7 mint; D slices intact + 206 + 4.15 + non-mint 58 +
+> boundary-targets-once + 9 held quarantined). STATE-MOVED EXPECTATIONS
+> re-anchored with dated session-60 comments (no test weakened):
+> graph_check (state note + summary phrase — batch-7 verdicts applied
+> session 60); batch1/2/3 verdict-check totals 187->206; batch4/5/6
+> verdict-check D2 + totals 206; batch4/5/6/7 boundary-check D3 206;
+> diff_review_test R1 19/5/187 -> 0/5/206; negative-test mut_07 dated
+> note; sweep S4 concept_edges pin e27185d7 -> 349b35a3604a28d6
+> (concepts/spec_command_kinds UNCHANGED). FORECAST: batch-7 SETTLED
+> (promotion_rate 1.0, confirm 19, session 60; JSON regenerated
+> deterministically — re-run sha256-identical). SERVING PLANE re-emitted
+> (projections + explorer_blob.json; 6 source pins == S4 pins incl.
+> concept_edges 349b35a3604a28d6). GOVERNANCE REPORTS amended with dated
+> session-60 notes (historical text preserved): C11_S16_GATE_REPORT.md
+> (this block) + C11_ARCHITECTURE.md (the session-60 amendment). BATCH 7
+> IS CLOSED — do not reopen. INVARIANTS HELD: the frozen pilot +
+> batch-1..7 dispositions byte-intact (E-08/E-26/E-29 stay SUGGESTED;
+> both RR edges REVIEW_REQUIRED under their operator settlements; 109
+> held quarantined across the eight slices); 206 promotions all
+> operator; batch-7 nodes stay SUGGESTED (no §18 node pathway); PART_OF
+> derived and outside §18; 4CH1-4.15 uncovered; no DB writes; AI
+> attribution forbidden; graph/*.yaml never hand-edited (all changes via
+> the sanctioned generators). ZERO self-promotion: all 19 promotions
+> trace to the operator's §6 CONFIRM rows. NEXT: batch 8 (the remaining
+> S2-h family, 2.44-2.50 chemical tests) needs its own operator
+> commissioning — no self-start. Then STOP — Batch 7 verdict session ->
+> batch 7 CLOSED. Nothing more.)

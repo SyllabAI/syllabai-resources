@@ -191,12 +191,16 @@ check("D2 the ruling mints no edge beyond the sanctioned batch-6 authoring",
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")
-check("D3 semantic HV at the operator-promoted count (187; the batch-6 "
+# session-60 re-anchor (dated): the batch-7 §18 application (19 operator
+# promotions, c11_batch7_verdicts) moved the semantic HV count 187 -> 206;
+# the ruling's protected property is unchanged.
+check("D3 semantic HV at the operator-promoted count (206; the batch-6 "
       "authoring promoted nothing and the ruling itself still mints "
       "nothing — the 16 batch-6 authored edges were promoted later by the "
-      "operator's §6 verdicts via §18 at session 58; PART_OF HV rides the "
+      "operator's §6 verdicts via §18 at session 58, and the 19 batch-7 "
+      "authored edges likewise at session 60; PART_OF HV rides the "
       "T-C19 G19 record)",
-      hv == 187)
+      hv == 206)
 check("D4 non_goals recorded (no ontology redesign / no re-opening / no "
       "re-scope / no promotion authority / no direct writes)",
       len(rul.get("non_goals", [])) >= 5)

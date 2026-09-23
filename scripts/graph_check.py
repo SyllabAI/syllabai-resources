@@ -1802,10 +1802,12 @@ def main():
           # session-59: the summary names the batch-7 authored-to-gate
           # state (S2 batches 5-7; the batch-7 verdicts pending — the
           # operator's gate session is next)
+          # session-60: the summary names the batch-7 verdict application
+          # (§18 applied — 19 operator promotions, the addendum §6/§7
+          # verdict PASS WITH NOTES); state note, no test weakened
           f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches "
-          f"5-6 + the batch-7 authored-to-gate slice 2.28-2.43C, "
-          f"batch-6 verdicts applied session 58, batch-7 verdicts pending "
-          f"at its operator gate): "
+          f"5-7, batch-6 verdicts applied session 58, batch-7 verdicts "
+          f"applied session 60): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1816,7 +1818,7 @@ def main():
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
           f"batch-4 verdicts applied session 54; batch-5 verdicts applied "
           f"session 56; batch-6 verdicts applied session 58; batch-7 "
-          f"authored to its gate session 59 — "
+          f"verdicts applied session 60 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

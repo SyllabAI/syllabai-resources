@@ -197,8 +197,8 @@ meta:
     requires_prerequisite_edges: 154
     wrong_answer_pattern_edges: 19
     review_required_edges: 2
-    promoted_edges: 304
-    human_validated_edges: 304
+    promoted_edges: 323
+    human_validated_edges: 323
   promotion_record: scripts/c11_promotions.yaml
   attachment_promotion_record: scripts/c19_promotions.yaml
 edges:
@@ -5680,7 +5680,9 @@ edges:
       the metal/carbonate rows).
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.37/2.32 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-ACID-REACTIONS
@@ -5709,7 +5711,9 @@ edges:
       method).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.37 (2026-09-11); the batch-6 record (CON-REACT-ORDER, 2.17)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-ALLOY-HARDNESS
@@ -5862,7 +5866,9 @@ edges:
       neutralise an acid") — the concept presupposes the 2.32 frame it is defined by.
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.38/2.32 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-BOND-BREAKING-MAKING
@@ -8116,7 +8122,9 @@ edges:
       spec''s own 2.31-then-2.32 order).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.32/2.31 @ Acids, Alkalis & Neutralisation (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-NOBLE-GAS-INERTNESS
@@ -8299,7 +8307,9 @@ edges:
       presuppose the H+/OH- solution ions they donate/accept.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.35/2.36 @ What are acids and bases + 4CH1-2.31 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-PURE-SUBSTANCE
@@ -8762,7 +8772,9 @@ edges:
       is that family's chemistry) — the preparation presupposes the reaction it scales up.
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.39/2.37 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-SALT-INSOLUBLE-REACTANT
@@ -8789,7 +8801,9 @@ edges:
       when the PRODUCT is soluble and the reactant is not (the solubility note''s own framing sentence).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.34/2.39 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-SALT-PRECIPITATION
@@ -8817,7 +8831,9 @@ edges:
       rule selects the starting materials; the silver/lead(II) insolubility selects the products).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.41C/2.34 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-SALT-TITRATION-ROUTE
@@ -8844,7 +8860,9 @@ edges:
       that measures its neutralisation volume.
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.40C/2.33C (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-SATURATED-SOLUTION
@@ -9046,7 +9064,9 @@ edges:
       rule (the calcium hydroxide exception).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.34 (2026-09-11); the batch-3 record (CON-ION-CHARGE-RULES)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-STATE-CHANGES
@@ -9169,7 +9189,9 @@ edges:
       purple transition; phenolphthalein/methyl orange the titration indicators).
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.33C/2.28 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-TITRATION
@@ -9196,7 +9218,9 @@ edges:
       the procedure has no meaning.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.33C/2.32 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-UNIVERSAL-INDICATOR
@@ -9223,7 +9247,9 @@ edges:
       pH scale (the note''s own order: indicators -> pH scale -> universal indicator).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.30/2.29 @ What is an indicator (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-CON-WATER-CRYST
@@ -9517,7 +9543,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.42/2.39 @ Preparing copper sulfate (2026-09-11); the practical
       record 4CH1-PR-07 (practicals.yaml, RULE_DERIVED)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-PR-08
@@ -9546,7 +9574,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.43C/2.41C @ Preparing lead sulfate (2026-09-11); the practical
       record 4CH1-PR-08 (practicals.yaml, RULE_DERIVED)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-PR-09
@@ -10336,7 +10366,9 @@ edges:
     upstream: pinned ACIDS_ALKALIS_TITRATIONS_MS_P2 (sha1_12 14b605bc2f87) Q2a(iv); spec 4CH1-2.32 official
       wording
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-MIS-ENTHALPY-UNIT-J
@@ -10607,7 +10639,9 @@ edges:
     upstream: pinned ACIDS_BASES_SALT_PREP_MS_P2 (sha1_12 4f34b1580a60) Q2a(iii); spec 4CH1-2.41C official
       wording
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-MIS-RAM-MASS-NUMBER
@@ -10813,7 +10847,9 @@ edges:
     upstream: pinned ACIDS_ALKALIS_TITRATIONS_MS_P2 (sha1_12 14b605bc2f87) Q2a(iv); Acids, Alkalis & Neutralisation
       note (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-MIS-ENTHALPY-UNIT-J
@@ -11151,7 +11187,9 @@ edges:
     upstream: pinned ACIDS_BASES_SALT_PREP_MS_P2 (sha1_12 4f34b1580a60) Q2a(iii); Prepare an Insoluble
       Salt note (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-23'
   version: 1
   created_at: '2026-09-23'
 - source: 4CH1-MIS-RAM-MASS-NUMBER

@@ -243,8 +243,12 @@ check("D6 batch-2 slice intact: 23 batch-2 CONFIRM still HUMAN_VALIDATED",
 # §18 application added 16 operator promotions (c11_batch6_verdicts) —
 # the store total moved 171 -> 187; the batch-3 slice stays preserved
 # exactly.
-check("D7 store total 187 (28+28+23+39+35+18+16), all operator",
-      len(store_map) == 187
+# session-60 re-anchor (dated, protective intent unchanged): the batch-7
+# §18 application added 19 operator promotions (c11_batch7_verdicts,
+# applied 2026-09-23 via the B7 diff-review bundle) — the store total
+# moved 187 -> 206; the batch-3 slice stays preserved exactly.
+check("D7 store total 206 (28+28+23+39+35+18+16+19), all operator",
+      len(store_map) == 206
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

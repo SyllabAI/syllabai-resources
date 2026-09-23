@@ -534,10 +534,15 @@ def main() -> int:
         # batch-7 authored-to-gate record (19 authored semantic edges) IS
         # the pending actionable surface until its operator verdict session
         # (the session-57 pattern); 5 not-actionable + 187 promotions stay.
-        check("R1 reports 19 actionable / 5 not-actionable / 187 promotions",
-              "actionable: 19" in r.stdout
+        # session-60 re-anchor (dated, protective intent unchanged): the
+        # batch-7 verdicts were APPLIED (19 §18 promotions,
+        # c11_batch7_verdicts); promo_count 187 -> 206 (28+28+23+39+35+18
+        # +16+19); the actionable surface is empty again until batch 8's
+        # gate (the not-actionable rows stay 5).
+        check("R1 reports 0 actionable / 5 not-actionable / 206 promotions",
+              "actionable: 0" in r.stdout
               and "not-actionable: 5" in r.stdout
-              and "promo_count=187" in r.stdout)
+              and "promo_count=206" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

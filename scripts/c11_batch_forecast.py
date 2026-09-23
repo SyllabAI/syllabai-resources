@@ -240,7 +240,16 @@ out = {
     # session-59 (2026-09-23): batch-7 AUTHORED to its operator gate
     # (future_batch_records[6]; S2 Inorganic third slice — the operator's
     # "Proceed with batch 7" directive); baselines unchanged.
-    "session": 59,
+    # session-60 (2026-09-23): batch-7 operator gate SETTLED — the verdict
+    # addendum §6/§7 applied (PASS WITH NOTES): 19 edge CONFIRM promoted
+    # via §18 (store total 206; zero RR authored; 6 identity decisions
+    # KEEP_AS_IS; 9 held preserved — quarantined; the B7-E-02/B7-E-10
+    # guardrail qualifications + the CON-NEUTRALISATION pass-2 WITH_NOTE
+    # recorded in the verdict notes; ADDENDUM intake reconciled 1:1
+    # against the gate sheet + decision record; verdict record
+    # c11_batch7_verdicts.yaml); baselines unchanged; top-level session
+    # advances with the settling session (the session-56 precedent).
+    "session": 60,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -876,10 +885,12 @@ out = {
             "rates": {
                 "held_rate": 0.2093,
                 "rejection_rate": 0.0,
-                # session-59: the batch ends at its operator gate — zero
-                # promotions exist at authoring; promotion rides the
-                # operator's §18 verdict session
-                "promotion_rate": 0.0,
+                # session-59: the batch ended at its operator gate — zero
+                # promotions existed at authoring.
+                # session-60: SETTLED — the operator's verdict addendum
+                # applied through §18 (19 CONFIRM promotions, operator,
+                # 2026-09-23; store total 206).
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -901,7 +912,7 @@ out = {
                 "out of the 2.36 CONCEPT attachment — MARK_SCHEME anchors "
                 "are misconception-class-only on concept attachments)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 19, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -61.2% / edges -55.5% vs "
                            "the 2.4/2.75 model — the S2 descriptive band "
@@ -932,10 +943,20 @@ out = {
                            "re-authored before the gate (FP-B7-4). "
                            "Section 2 candidate coverage: 43 of 50 S2 SPs "
                            "(125 of 182 total at candidate level). "
-                           "NEXT: the batch-7 operator verdict session "
-                           "(fill scripts/c11_batch7_verdicts_template.yaml "
-                           "-> rename); the remaining S2-h family "
-                           "(2.44-2.50 chemical tests) is batch 8."),
+                           "Session-60 (2026-09-23): operator gate SETTLED "
+                           "— the verdict addendum §6/§7 applied (PASS WITH "
+                           "NOTES): 19 edge CONFIRM promoted via §18 (store "
+                           "total 206; zero RR; 6 identity KEEP_AS_IS; 9 "
+                           "held quarantined; the B7-E-02 acid+metal-route "
+                           "and B7-E-10 boundary-ownership guardrails + the "
+                           "CON-NEUTRALISATION pass-2 WITH_NOTE recorded in "
+                           "the verdict notes; ADDENDUM intake — the "
+                           "web-lane upload gap recorded, the addendum "
+                           "reconciled 1:1 against the gate sheet §2/§3 and "
+                           "the decision record; verdict record "
+                           "scripts/c11_batch7_verdicts.yaml). NEXT: the "
+                           "remaining S2-h family (2.44-2.50 chemical "
+                           "tests) is batch 8."),
         },
     ],
     "future_batch_record_schema": {
