@@ -1,0 +1,171 @@
+# T-C11 session 62 — batch-9 PASS-2 ADVERSARIAL REVIEW (c11-batch9-review-2).
+# Second reviewer pass over the batch-9 decision record: every evidence
+# anchor re-read in its source file, every derivation note challenged
+# against the cited quote, relation classes and directions re-ruled, the
+# sanctioned boundary set re-checked against the session-62 ruling, the
+# held quarantine re-swept for insufficient characterization (the
+# session-53 Step-3 rule). ZERO findings required re-authoring (raw
+# agreement, explicitly NOT kappa — architecture §12).
+meta:
+  pass: c11-batch9-review-2
+  session: 62
+  reviewed_date: "2026-09-24"
+  reviewer: GLM (Super Z agent, z.ai)
+  record_under_review: scripts/c11_batch9_decisions.yaml
+  boundary_ruling: scripts/c11_batch9_boundary_ruling.yaml
+  method: every evidence anchor re-read in its source file; every derivation
+    note challenged against the cited quote; relation classes and directions
+    re-ruled (not just existence); the FIVE sanctioned boundary targets
+    re-checked against the session-62 ruling; the negative-control carve-out
+    re-verified (no 4.15 anchor anywhere); the held quarantine re-swept
+nodes:
+  4CH1-CON-HYDROCARBON:
+    verdict: CONFIRM
+    note: the ONLY qualifier carried by three anchors (definition + the
+      inorganic-carbon exclusion + the examiner tip); the spec's own
+      wording is the node's demand
+  4CH1-CON-ORGANIC-FORMULAE:
+    verdict: CONFIRM
+    note: the five formula types taught as one toolkit in one section; the
+      definitional sentences for empirical/molecular ride the pilot owners
+      via the sanctioned boundary edges (recorded as context, not minted)
+  4CH1-CON-HOMOLOGOUS-SERIES:
+    verdict: CONFIRM
+    note: series + functional group as ONE definitional apparatus; the CH2
+      increment anchor carries the series arithmetic; isomerism correctly
+      deferred to the 4.5 node where the drawing demand lives
+  4CH1-CON-IUPAC-NAMING:
+    verdict: CONFIRM
+    note: stem/suffix system with the position-number and di- rules; the
+      suffix->functional-group dependency is the in-slice edge's substance
+  4CH1-CON-ISOMERS:
+    verdict: CONFIRM
+    note: the enumeration skill anchored on the note's definition + the MS
+      Q1a(i) marking points (same molecular formula / different displayed
+      formula) — assessment-documented from BOTH sides
+  4CH1-CON-ORGANIC-REACTION-CLASSES:
+    verdict: CONFIRM
+    note: three classes each carried by its own definition sentence; the
+      combustion definition doubles as the boundary-edge evidence for the
+      fuels family (consistent use, not double-counting)
+  4CH1-CON-CRUDE-OIL:
+    verdict: CONFIRM
+    note: the mixture definition anchored on the note's opening frame; the
+      mixture-concept dependency rides the sanctioned boundary edge
+  4CH1-CON-CRUDE-OIL-FRACTIONS:
+    verdict: CONFIRM
+    note: the one-family ruling (4.8 process + 4.9 uses + 4.10 trends) is
+      the B8-ID-01 shape — one note, one topic, three SPs; the trend
+      anchors carry the MS 4b(ii) mark-scheme surface
+  4CH1-CON-FUELS-COMBUSTION:
+    verdict: CONFIRM
+    note: fuel definition + complete/incomplete products as one thread
+      (B9-ID-02); the MS octane equation anchor is the pinned
+      assessment surface; the oxygen condition rides the batch-5 owner
+  4CH1-CON-CO-POISONING:
+    verdict: CONFIRM
+    note: the blood-oxygen mechanism anchored on the note's key marking
+      point (the examiner tip names it); haemoglobin recorded as the
+      accepted enrichment, matching the spec's 'not required' stance
+  4CH1-CON-ACID-RAIN-CAUSES:
+    verdict: CONFIRM
+    note: formation + acid-rain contribution as one family (B9-ID-03); the
+      4.15 carve-out verified — no anchor cites the impurities->SO2
+      formation sentence; the SO2 anchor is the combustion->acid
+      formation sentence the 4.16 mapping carries
+  4CH1-CON-CRACKING:
+    verdict: CONFIRM
+    note: process + conditions + necessity as one family (B9-ID-04); the
+      catalyst mention correctly HELD (B9-H-04) rather than edged; the MS
+      equation + conditions carry the assessment anchors
+  4CH1-CON-ALKANES:
+    verdict: CONFIRM
+    note: general formula + saturation + first-five table as one family
+      (B9-ID-05); the saturated-solutions near-miss dispositioned in the
+      ruling (different domain, no collision)
+  4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION:
+    verdict: CONFIRM
+    note: the UV condition carried by the note's own sentences AND the MS
+      'then scores 0/3' line; the G7 reagent vocabulary correctly not
+      edged (ruling disposition; the B9-H-07 hold keeps the adjacency
+      visible)
+  4CH1-MIS-KEROSENE-DOUBLE-BONDS:
+    verdict: CONFIRM
+    note: the pinned Crude Oil MS Q2b Reject column is the narrow-but-exact
+      documentation (the MIS-CUO-COLOUR/B8-M-02 precedent); the node
+      carries pattern_class WRONG_ANSWER_PATTERN + the named-source
+      evidence + the remediation evidence per the G11 schema; the WAP and
+      REMEDIATED_BY targets coincide (the B1-E-25 pattern) and the
+      corrective content is the fractions node's own sentence
+edges:
+  "ORGANIC-FORMULAE RP HYDROCARBON": AGREE_HOLD
+  "IUPAC-NAMING RP HOMOLOGOUS-SERIES": AGREE_HOLD
+  "ISOMERS RP ORGANIC-FORMULAE": AGREE_HOLD
+  "ORGANIC-REACTION-CLASSES RP HOMOLOGOUS-SERIES": AGREE_HOLD
+  "CRUDE-OIL RP HYDROCARBON": AGREE_HOLD
+  "CRUDE-OIL-FRACTIONS RP CRUDE-OIL": AGREE_HOLD
+  "FUELS-COMBUSTION RP CRUDE-OIL-FRACTIONS": AGREE_HOLD
+  "CO-POISONING RP FUELS-COMBUSTION": AGREE_HOLD
+  "ACID-RAIN-CAUSES RP FUELS-COMBUSTION": AGREE_HOLD
+  "CRACKING RP CRUDE-OIL-FRACTIONS": AGREE_HOLD
+  "ALKANES RP HOMOLOGOUS-SERIES": AGREE_HOLD
+  "ALKANE-HALOGEN-SUBSTITUTION RP ALKANES": AGREE_HOLD
+  "ALKANE-HALOGEN-SUBSTITUTION RP ORGANIC-REACTION-CLASSES": AGREE_HOLD
+  "CRUDE-OIL-FRACTIONS RP FRACTIONAL-DISTILLATION (boundary 1)": AGREE_HOLD
+  "ORGANIC-FORMULAE RP EMPIRICAL-FORMULA (boundary 2)": AGREE_HOLD
+  "ORGANIC-FORMULAE RP MOLECULAR-FORMULA (boundary 3)": AGREE_HOLD
+  "FUELS-COMBUSTION RP COMBUSTION-O2 (boundary 4)": AGREE_HOLD
+  "CRUDE-OIL RP MIXTURE (boundary 5)": AGREE_HOLD
+  "MIS-KEROSENE-DOUBLE-BONDS WAP CRUDE-OIL-FRACTIONS": AGREE_HOLD
+  "MIS-KEROSENE-DOUBLE-BONDS REMEDIATED_BY CRUDE-OIL-FRACTIONS": AGREE_HOLD
+held_review:
+  agreement: "all 9 held candidates AGREE_HOLD — the quarantine is correctly
+    characterized (each cites its failure class; none is an
+    insufficiently-characterized refusal under the session-53 Step-3 rule)"
+findings:
+  - id: FP-B9-1
+    kind: identity shape
+    text: the 4.8-4.9-4.10 fractions family as ONE node (the note teaches
+      process/uses/trends in one topic) — the B7-ID-01/B8-ID-01 one-family
+      precedent; recorded as identity question B9-ID-01 for the operator
+    resolution: no re-authoring; the family ruling stands
+  - id: FP-B9-2
+    kind: byte-honesty + G04 relocation
+    text: the MS incomplete-combustion equation anchor (C8H18 + 8½O2 →
+      8CO + 9H2O, U+00BD byte-honest) was first placed on the
+      FUELS-COMBUSTION concept attachment — the generator's G04 gate
+      correctly rejected it (MARK_SCHEME anchors are misconception-class-
+      only on concept attachments, the FP-B7-5 rule); the anchor was
+      RELOCATED to provenance prose context and the MS surfaces for all
+      concept nodes now ride derivation_notes (not anchors)
+    resolution: re-authored BEFORE the gate (the G04 relocations); zero
+      demotions after
+  - id: FP-B9-3
+    kind: edge-evidence asymmetry + G07 relocation
+    text: the ISOMERS -> ORGANIC-FORMULAE edge originally carried the
+      Alkanes MS Q1a(i) anchor — the generator's G07 gate correctly
+      rejected MARK_SCHEME on REQUIRES_PREREQUISITE (assessment evidence
+      is misconception-class-only); the anchor was RELOCATED to the node's
+      derivation_notes; the NOTE anchor (the isomer definition) carries
+      the load
+    resolution: re-authored BEFORE the gate (the G07 relocation); zero
+      demotions after
+  - id: FP-B9-4
+    kind: source typo observed (not anchored)
+    text: the Naming note's image asset filename carries 'Structrual'
+      (10.1.2-Representing-Condensed-Structrual-Formulae-...) and the
+      combustion note's examiner tip carries 'specfication' — source
+      artifacts, never quoted as anchors; flagged to the corpus owner
+    resolution: no re-authoring; no anchor touches either string
+  - id: FN-B9-1
+    kind: normalization convention
+    text: the notes carry <sub>/<b> markup inside chemical sentences (CnH2n+2,
+      NO2); the probe's norm() strips tags, so anchors quote the rendered
+      reading — the batch-7/8 convention applied unchanged
+    resolution: recorded; no change
+  - id: FN-B9-2
+    kind: scope shape
+    text: no batch-9 SP is practical-typed (the 4CH1-4.43C practical
+      belongs to batch 11) — the PR->concept edge lane is empty this
+      batch, the batch-8 shape
+    resolution: recorded; no change

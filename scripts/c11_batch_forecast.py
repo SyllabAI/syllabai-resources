@@ -270,6 +270,11 @@ out = {
     # record c11_batch8_verdicts.yaml); baselines unchanged; top-level
     # session advances 60 -> 62 with the settling session (the
     # session-56 precedent).
+    # session-62 (2026-09-24, second block): batch-9 (Section 4 Organic
+    # FIRST slice) AUTHORED to its operator gate — the operator's
+    # "commission a new section" directive; the batch-9 future_batch_records
+    # entry appended AT AUTHORING (promotion_rate 0.0 pending the verdict
+    # session); baselines unchanged; top-level session stays 62.
     "session": 62,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
@@ -1073,6 +1078,80 @@ out = {
                            "further §16 batch is commissioned — remaining "
                            "4CH1 sections (S4 organic etc.) need their own "
                            "operator commissioning; no self-start."),
+        },
+        {
+            # session-62 (2026-09-24): batch-9 AUTHORED to its operator
+            # gate — the S4-a/b/c slice (the FIRST slice of the Section 4
+            # Organic program the operator commissioned with "commission a
+            # new section"); the record is appended AT AUTHORING (the
+            # session-61 lesson: the landed artifact must carry what the
+            # landing claims); it settles at the batch-9 verdict session.
+            "batch_id": "c11-s16-batch-9",
+            "session": 62,
+            "commissioned": ("operator ('commission a new section', "
+                             "2026-09-24, session 62) under the session-46 "
+                             "§16 authorization; S4 slice plan "
+                             "(batches 9-11) recorded in the session-62 "
+                             "commissioning record"),
+            "scope": ("Section 4 — Organic Chemistry FIRST slice, 21 "
+                      "authorable SPs (4CH1-4.1-4.22 minus the 4CH1-4.15 "
+                      "negative-control carve-out: a Introduction + b "
+                      "Crude Oil & Fuels + c Alkanes); no practicals own "
+                      "any batch-9 SP"),
+            "spec_points": 21,
+            "notes": 9,
+            "mark_schemes_pinned": 2,
+            "predicted": {"nodes": 50.4, "authored_edges": 57.75,
+                          "held_candidates": 21.0},
+            "actual": {"nodes": 15, "authored_edges": 20,
+                       "held_candidates": 9},
+            "delta_pct": {"nodes": -70.2, "authored_edges": -65.4,
+                          "held_candidates": -57.1},
+            "rates": {
+                "held_rate": 0.2273,
+                "rejection_rate": 0.0,
+                # session-62: the batch ends at its operator gate — zero
+                # promotions exist at authoring; SETTLES at the batch-9
+                # verdict session (the batch-7/8 pattern).
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B9-1 (identity shape: the 4.8-4.10 fractions family as "
+                "ONE node — the B7-ID-01/B8-ID-01 one-family precedent; "
+                "B9-ID-01)",
+                "FP-B9-2 (byte-honesty + G04 relocation: the MS "
+                "incomplete-combustion equation anchor was relocated from "
+                "the concept attachment to provenance prose — the "
+                "misconception-class-only rule)",
+                "FP-B9-3 (G07 relocation: the Alkanes MS isomer-definition "
+                "anchor was relocated off the REQUIRES_PREREQUISITE edge "
+                "to the node's derivation_notes)",
+                "FP-B9-4 (source typos observed, not anchored: 'Structrual' "
+                "asset filename + 'specfication' examiner-tip line)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -70.2% / edges -65.4% vs "
+                           "the 2.4/2.75 model — the deepest descriptive "
+                           "band yet (nodes/SP 0.71, edges/SP 0.95): the "
+                           "five one-family consolidations (fractions "
+                           "4.8-4.10, fuels 4.11-4.12, acid-rain 4.14+4.16, "
+                           "cracking 4.17-4.18, alkanes 4.19-4.21) plus "
+                           "the 4.15 negative-control carve-out remove 6 "
+                           "SPs from the node count. FIVE sanctioned "
+                           "boundary edges into EXISTING owners (batch-1 "
+                           "FRACTIONAL-DISTILLATION + MIXTURE; pilot "
+                           "EMPIRICAL-FORMULA + MOLECULAR-FORMULA; batch-5 "
+                           "COMBUSTION-O2); ONE mark-scheme-documented "
+                           "misconception mint (the Crude Oil MS Q2b "
+                           "Reject column). FULL Paper-2 MS coverage (two "
+                           "families pinned). ZERO pass-2 demotions after "
+                           "the G04/G07 relocations. Section 4 candidate "
+                           "coverage: 21 of 50 S4 SPs (153 of 182 total at "
+                           "candidate level). NEXT: the operator's batch-9 "
+                           "verdict session; batches 10-11 complete the S4 "
+                           "section per the slice plan."),
         },
     ],
     "future_batch_record_schema": {

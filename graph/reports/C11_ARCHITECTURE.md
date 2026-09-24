@@ -1505,3 +1505,32 @@ C11_OPERATOR_DECISIONS.md).
 > verdicts are the authorization of record; any further §16 batch (S4
 > organic etc.) needs its own operator commissioning — no self-start. Then
 > STOP — Batch 8 verdict session -> batch 8 CLOSED. Nothing more.
+
+### §16 session-62 amendment (2026-09-24, second block) — BATCH 9 (S4 ORGANIC FIRST SLICE S4-a/b/c) AUTHORED TO ITS OPERATOR GATE ("commission a new section")
+
+> The operator's "commission a new section" directive commissioned the S4
+> Organic program: the session-62 commissioning record plans THREE
+> subsection-complete slices (batch 9 = a+b+c minus the 4CH1-4.15
+> negative-control carve-out, 21 authorable SPs; batch 10 = d+e+f, 15;
+> batch 11 = g+h incl. the 4CH1-4.43C practical, 13) — each batch ends at
+> its own operator gate. BATCH 9 AUTHORED: cross-slice boundary ruling
+> (162 terms -> 46 matches ALL dispositioned; FIVE sanctioned boundary
+> edges into EXISTING owners — batch-1 FRACTIONAL-DISTILLATION + MIXTURE,
+> pilot EMPIRICAL-FORMULA + MOLECULAR-FORMULA, batch-5 COMBUSTION-O2;
+> non-mint 44); MS pins CRUDE_OIL_MS_P2 + ALKANES_MS_P2 (FULL Paper-2
+> coverage); decision record 15 nodes (14 CONCEPT with five one-family
+> consolidations + 1 MS-documented misconception MIS-KEROSENE-DOUBLE-BONDS)
+> / 20 authored edges / 9 held / 21 command kinds; quote probe 109/109;
+> preverify 15/15; pass-2 zero demotions after the G04/G07 anchor
+> relocations (the fail-closed gates worked as intended). Registry grown
+> to [pilot..batch9]; MERGED STORE 180 nodes / 425 edges (184 PART_OF +
+> 241 semantic) / 153 command kinds / 113 held / 216 semantic
+> HUMAN_VALIDATED UNCHANGED; coverage 153/182 SPs (S4 21 of 50); the 4.15
+> negative control uncovered. Forecast record appended AT AUTHORING (the
+> session-61 lesson). State-moved expectations re-anchored with dated
+> session-62 comments (no test weakened); sweep S4 pins re-issued; serving
+> plane re-emitted; governance amended. BATCH 9 IS AUTHORED TO ITS GATE —
+> the operator's batch-9 verdict session is the one open T-C11 gate (fill
+> scripts/c11_batch9_verdicts_template.yaml -> rename to
+> c11_batch9_verdicts.yaml -> a later session encodes + applies via §18).
+> Then STOP — Batch 9 authoring -> operator gate. Nothing more.

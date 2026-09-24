@@ -1552,3 +1552,95 @@ before phase 2 (S3).)
 > D4 subject-#2 K0(ii) corpus securing, snap-002 re-freeze, v78 explorer
 > build, PAT rotation remain operator-held. Then STOP — Batch 8 verdict
 > session -> batch 8 CLOSED. Nothing more.
+
+## Session 62 (2026-09-24, second block) — BATCH 9 (S4 Organic FIRST SLICE: S4-a/b/c) AUTHORED TO ITS OPERATOR GATE
+
+> Commissioned by the operator's "commission a new section" directive
+> (2026-09-24, session 62) under the session-46 §16 authorization. With S2
+> complete (batches 5-8) and S1/S3 settled, the only remaining section is
+> **S4 Organic Chemistry** (50 SPs, 4.1-4.50C). The session-62 commissioning
+> record defines the SECTION PLAN: **batch 9** = S4-a Introduction (4.1-4.6)
+> + S4-b Crude Oil & Fuels (4.7-4.18) + S4-c Alkanes (4.19-4.22) = 22 SPs
+> **minus the 4CH1-4.15 negative-control carve-out** (the standing canary
+> gains no node/edge attachment and no citation — the graph_check D12
+> control continues) = **21 authorable SPs**; **batch 10** = S4-d Alkenes +
+> S4-e Alcohols + S4-f Carboxylic acids (15 SPs); **batch 11** = S4-g
+> Esters (incl. the 4CH1-4.43C practical — the PR->concept lane activates)
+> + S4-h Synthetic polymers (13 SPs). Each batch needs its own verdict
+> session; no batch starts without the operator gate ahead of it.
+> BATCH 9 COMMISSIONING + PREP: CROSS-SLICE BOUNDARY RULING
+> scripts/c11_batch9_boundary_ruling.yaml + NEW STANDING CHECKER
+> c11_batch9_boundary_check.py ALL PASS — 162 S4-a/b/c candidate terms
+> audited against the pre-batch-9 store (4e6bc2f) -> 46 matches ALL
+> dispositioned (probe persisted as c11_batch9_term_audit_probe.py; the
+> ruling rendered by c11_batch9_ruling_finalize.py from machine truth),
+> ZERO unhandled conflicts; FIVE sanctioned boundary targets ALL EXISTING
+> owners (CON-FRACTIONAL-DISTILLATION — batch 1, the 4.8 industrial row;
+> CON-EMPIRICAL-FORMULA and CON-MOLECULAR-FORMULA — the pilot, the 4.2
+> representation rows; CON-COMBUSTION-O2 — batch 5, the 4.11/4.12 oxygen
+> row; CON-MIXTURE — batch 1, the 4.7 definition row); non_mint_list 44;
+> FIVE future_boundary_notes (the 4.15 carve-out discipline among them).
+> MS PINNING scripts/c11_ms_pin_batch9.py: FULL Paper-2 coverage — Crude
+> Oil MS.pdf -> CRUDE_OIL_MS_P2.txt sha1_12 2a948c5036e7 7pp + Alkanes
+> MS.pdf -> ALKANES_MS_P2.txt 9a1ef3815d3d 6pp; Paper-1 variants unpinned
+> per the Paper-2-first convention. EXTRACTION: all 9 T-C10 HV-mapped
+> notes read in full (21/21 authorable SPs note-covered); quote probe
+> 109/109 green pre-authoring (the batch-8 normalization convention);
+> decision record c11_batch9_decisions.yaml (extraction_pass
+> c11-s16-batch-9): 15 nodes (14 CONCEPT with the FIVE one-family
+> consolidations — fractions 4.8-4.10, fuels 4.11-4.12, acid-rain
+> 4.14+4.16, cracking 4.17-4.18, alkanes 4.19-4.21 (B9-ID-01..05) — + 1
+> MS-documented WRONG_ANSWER_PATTERN misconception
+> MIS-KEROSENE-DOUBLE-BONDS from the pinned Crude Oil MS Q2b Reject
+> column, B9-ID-06) / 20 authored edges (13 in-slice RP + 5 sanctioned
+> boundary RP + 1 WAP + 1 REMEDIATED_BY; ALL SUGGESTED, ZERO RR) / 9 held
+> (B9-H-01..09) / 21 command kinds. GENERATOR ITERATIONS (the fail-closed
+> gates working as intended): G04 rejected the MARK_SCHEME anchors on
+> concept attachments and G07 on the RP edge — the MS surfaces were
+> RELOCATED to provenance prose context (the FP-B7-5 rule) BEFORE the
+> gate; G11 required the misconception node's pattern_class +
+> named-source evidence + remediation_evidence (the batch-8 schema).
+> Pass-2: FP-B9-1..4 + FN-B9-1..2 recorded (the relocations documented);
+> zero demotions (15/15 nodes, 20/20 edges, 9 held all AGREE_HOLD).
+> Review gate rendered (c11_batch9_review_build.py):
+> graph/reports/C11_BATCH9_REVIEW_SHEET.md + C11_BATCH9_REVIEW.json + the
+> OPERATOR-OWNED scripts/c11_batch9_verdicts_template.yaml
+> (20E/14N+1M/6-ID; zero RR section). Registry grown to [pilot..batch9]
+> in 6 sites + graph_paths.yaml legacy_allowlist += the batch-9 record.
+> MERGED STORE: 180 nodes / 425 edges (184 PART_OF + 241 semantic) / 153
+> command kinds / 113 held / 216 semantic HUMAN_VALIDATED UNCHANGED
+> (authoring promotes nothing) / 2 RR frozen / 4.15 uncovered; coverage
+> 153/182 SPs at candidate level (S4 21 of 50). FORECAST: the batch-9
+> record appended AT AUTHORING (the session-61 lesson — the landed
+> artifact carries what the landing claims; promotion_rate 0.0 pending
+> the verdict session; nodes/SP 0.71, edges/SP 0.95 — the deepest
+> descriptive band yet, the one-family consolidations + the carve-out
+> removing 6 SPs from the node count); JSON regenerated deterministically
+> (re-run sha256-identical). STATE-MOVED EXPECTATIONS re-anchored with
+> dated session-62 comments (no test weakened): graph_check (C11_BATCH9_SPS
+> + C11_STAGE + C11_COUNTS 180/425/184, RP 177, WAP 22, RB 24, cks 153 +
+> state-note block + summary phrase); batch2-8 verdict-check shape pins
+> 165/384/163 -> 180/425/184; batch4-8 verdict-check D2 (the SUGGESTED
+> surface = the 3 pilot HOLDs + the 20 batch-9 authored edges; B4-B8
+> AUTHORED all HV); batch4-8 boundary-check growth (+15/41; batch-4 B2
+> 89 mints / 205 delta); diff_review_test R1 0/5/216 -> 20/5/216 + the
+> batch-9 fixture member; negative-test mut_07 dated note; sweep S4 pins
+> re-issued (concepts fbdf484f -> 9f310f50, concept_edges 43ff4b96 ->
+> f4907752, spec_command_kinds 4f227792 -> d730e722). SERVING PLANE
+> re-emitted (c28_emit_explorer_blob.py: projections + explorer_blob.json;
+> 6 source pins == S4 pins). GOVERNANCE amended with dated session-62
+> notes (historical text preserved): C11_S16_GATE_REPORT.md (this block)
+> + C11_ARCHITECTURE.md (the session-62 authoring amendment). INVARIANTS
+> HELD: the frozen pilot + batch-1..8 dispositions byte-intact (118 held
+> + B9-H-01..09 = 127 held, clean quarantine); 216 promotions all
+> operator; batch-9 nodes stay SUGGESTED (no §18 node pathway); PART_OF
+> derived and outside §18 (the 21 batch-9 PART_OF rows SUGGESTED pending
+> their own lane); 4CH1-4.15 uncovered; no DB writes; AI attribution
+> forbidden; graph/*.yaml never hand-edited. ZERO promotions, ZERO
+> verdicts invented, ZERO self-promotion: the batch ENDS at its operator
+> gate. NEXT: the operator's batch-9 verdict session (fill
+> scripts/c11_batch9_verdicts_template.yaml, rename to
+> c11_batch9_verdicts.yaml); a later session encodes + applies them via
+> the §18 pathway; batches 10-11 complete S4 per the slice plan — each
+> needs its own commissioning turn. Then STOP — Batch 9 authoring ->
+> operator gate. Nothing more.

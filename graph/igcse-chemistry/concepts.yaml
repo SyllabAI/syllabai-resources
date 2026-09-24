@@ -9,12 +9,13 @@
 #   scripts/c11_batch6_decisions.yaml (extraction_pass c11-s16-batch-6)
 #   scripts/c11_batch7_decisions.yaml (extraction_pass c11-s16-batch-7)
 #   scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8)
+#   scripts/c11_batch9_decisions.yaml (extraction_pass c11-s16-batch-9)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
 # Generation dates pinned per record; store date 2026-09-24 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8+s16-batch-9
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -153,6 +154,27 @@ meta:
   - 4CH1-2.48
   - 4CH1-2.49
   - 4CH1-2.50
+  - 4CH1-4.1
+  - 4CH1-4.2
+  - 4CH1-4.3
+  - 4CH1-4.4
+  - 4CH1-4.5
+  - 4CH1-4.6
+  - 4CH1-4.7
+  - 4CH1-4.8
+  - 4CH1-4.9
+  - 4CH1-4.10
+  - 4CH1-4.11
+  - 4CH1-4.12
+  - 4CH1-4.13
+  - 4CH1-4.14
+  - 4CH1-4.16
+  - 4CH1-4.17
+  - 4CH1-4.18
+  - 4CH1-4.19
+  - 4CH1-4.20
+  - 4CH1-4.21
+  - 4CH1-4.22
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -177,6 +199,7 @@ meta:
   - scripts/c11_batch6_decisions.yaml
   - scripts/c11_batch7_decisions.yaml
   - scripts/c11_batch8_decisions.yaml
+  - scripts/c11_batch9_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -187,6 +210,7 @@ meta:
   - c11-s16-batch-6
   - c11-s16-batch-7
   - c11-s16-batch-8
+  - c11-s16-batch-9
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
   generated: '2026-09-24'
@@ -197,11 +221,11 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    nodes: 165
-    concepts: 142
-    misconceptions: 23
-    part_of_edges: 163
-    semantic_edges: 221
+    nodes: 180
+    concepts: 156
+    misconceptions: 24
+    part_of_edges: 184
+    semantic_edges: 241
 nodes:
 - code: 4CH1-CON-ACID-ALKALI-IONS
   family: CONCEPT
@@ -246,6 +270,59 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-23'
+  damage_flags: []
+- code: 4CH1-CON-ACID-RAIN-CAUSES
+  family: CONCEPT
+  title: Nitrogen oxides and sulfur dioxide as acid-rain causes
+  aliases:
+  - acid rain
+  - nitrogen oxides
+  - sulfur dioxide
+  - NOx
+  spec_points:
+  - code: 4CH1-4.14
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur
+        Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: These compounds (NO and NO<sub>2</sub>) are formed when nitrogen and oxygen react in the
+        **high pressure** and **temperature** conditions of **internal combustion engines** and blast
+        furnaces
+  - code: 4CH1-4.16
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur
+        Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater droplets
+        to form **sulfuric acid**
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur
+        Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: '**Nitrogen dioxide** produced from car engines reacts with rain water to form a mixture
+        of **nitrous** and **nitric acids**, which contribute to **acid rain**:'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur
+        Dioxide  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: When the droplets containing these acids are heavy enough, they will fall down as **acid
+        rain**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.14/4.16 @ Nitrogen Oxides & Sulfur Dioxide (2026-09-11); spec
+      4CH1-4.14/4.16 official wording
+    derivation_notes: the 4.14+4.16 ONE-family node (identity question B9-ID-03 — one note teaches formation
+      + acid-rain contribution as one thread). 4.15 CARVE-OUT HONoured — NO anchor cites the impurities->SO2-formation
+      sentence (that is 4.15's content); the SO2 anchor here is the combustion->acid-formation sentence
+      the 4.16 mapping carries
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-ACID-REACTIONS
   family: CONCEPT
@@ -390,6 +467,115 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
+  family: CONCEPT
+  title: Alkane substitution reactions with halogens under ultraviolet radiation
+  aliases:
+  - alkane halogenation
+  - photochemical substitution
+  - halogenoalkanes
+  spec_points:
+  - code: 4CH1-4.22
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Alkanes undergo a substitution reaction with halogens in the presence of ultraviolet radiation
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: '**methane + bromine → bromomethane + hydrogen bromide**'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Chlorine will also react with alkanes under the same conditions to form chloromethane
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The products belong to a family called halogenoalkanes or haloalkanes
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.22 @ Halogens & Alkanes (2026-09-11); spec 4CH1-4.22 official
+      wording
+    derivation_notes: the 4.22 node — the UV-conditioned substitution with the methane+bromine and methane+chlorine
+      equations; the Alkanes MS 'then scores 0/3' line (Q1a(iii)) documents the UV condition from the
+      mark-scheme side (the bromine-water surface itself is batch 10's 4.28) — recorded as PROSE CONTEXT
+      (the G04 misconception-class-only rule); the G7 halogen owners are reagents applied as given (ruling
+      disposition)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
+- code: 4CH1-CON-ALKANES
+  family: CONCEPT
+  title: Alkanes (general formula, saturated hydrocarbons, first five members)
+  aliases:
+  - alkane
+  - saturated hydrocarbons
+  - CnH2n+2
+  spec_points:
+  - code: 4CH1-4.19
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: of the alkanes is **C**<sub><b>n</b></sub>**H**<sub><b>2n+2</b></sub>
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: '**_The first five members of the alkane homologous series_**'
+  - code: 4CH1-4.20
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: Alkanes are a group of **saturated** hydrocarbons
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: The term saturated means that they only have single carbon-carbon bonds, there are no double
+        bonds
+  - code: 4CH1-4.21
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: '| methane | CH4 |'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: '| pentane | C5H12 |'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry
+        Revision Notes 2017.md
+      kind: NOTE
+      quote: For your exam, you need to be able to name, draw and give the appropriate formula for the
+        first **five** alkanes.
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.19/4.20/4.21 @ Alkanes (2026-09-11); spec 4CH1-4.19/4.20/4.21
+      official wording
+    derivation_notes: the 4.19+4.20+4.21 ONE-family node (identity question B9-ID-05 — the general formula,
+      the saturation meaning and the first-five table are taught as one topic in one note; the B8-ID-01
+      procedure+colours precedent); the saturated-SOLUTION near-miss is dispositioned in the ruling (different
+      domain)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-ALLOY-HARDNESS
   family: CONCEPT
@@ -1201,6 +1387,50 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+- code: 4CH1-CON-CO-POISONING
+  family: CONCEPT
+  title: Why carbon monoxide is poisonous (blood oxygen transport)
+  aliases:
+  - carbon monoxide poisoning
+  - CO binds haemoglobin
+  - carboxyhaemoglobin
+  spec_points:
+  - code: 4CH1-4.13
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Carbon monoxide (CO) is a highly poisonous gas produced during the incomplete combustion
+        of carbon-containing fuels
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: It **binds tightly** to the molecules that normally transport oxygen
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: This means the **blood's capacity to carry oxygen** around the body is **significantly reduced**
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: However, haemoglobin has a much higher affinity for carbon monoxide than for oxygen
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.13 @ Definition of combustion (2026-09-11); spec 4CH1-4.13
+      official wording
+    derivation_notes: the 4.13 node — the CO mechanism as its own assessment surface (the note's examiner
+      tip — 'the blood's capacity to transport oxygen' IS the key marking point; the haemoglobin detail
+      is the accepted enrichment); depends on the fuels family (CO is the incomplete-combustion product)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-CON-CO2-FROM-CARBONATES
   family: CONCEPT
   title: Carbon dioxide from thermal decomposition of metal carbonates
@@ -1615,6 +1845,193 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-CRACKING
+  family: CONCEPT
+  title: Catalytic cracking of long-chain fractions (process and why it is necessary)
+  aliases:
+  - cracking
+  - catalytic cracking
+  - thermal decomposition of hydrocarbons
+  spec_points:
+  - code: 4CH1-4.17
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Cracking is an industrial process used to break **low demand, long chain hydrocarbon molecules**
+        into more **useful, small chain hydrocarbon molecules**
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: '**Catalytic cracking** involves heating the hydrocarbon molecules to around 600 – 700 °C
+        to **vaporise** them'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The vapours then pass over a hot powdered **catalyst** of aluminium oxide
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The molecules are broken up in a random way which produces a mixture of shorter alkanes and
+        alkenes
+  - code: 4CH1-4.18
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The demand for certain fractions outstrips the supply so **cracking** is used to convert
+        excess unwanted fractions into more useful ones
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/What is cracking - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: You can see from the chart that fuel oil and bitumen are surplus fractions so they are cracked
+        and modified to produce petrol, kerosene and diesel
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.17/4.18 @ What is cracking (2026-09-11); spec 4CH1-4.17/4.18
+      official wording
+    derivation_notes: the 4.17+4.18 ONE-family node (identity question B9-ID-04 — the process and its
+      economic necessity are taught as one thread in one note); the catalyst mention is the batch-4 catalyst
+      owner applied as given (held, B9-H-04); the Crude Oil MS cracking equation (C18H38 -> C8H18 + C10H20,
+      with the alternate answers) + the conditions marking points (silica/ alumina/zeolite catalyst; temperature
+      600-700C) + the supply/ demand M1 are the pinned assessment surfaces — recorded as PROSE CONTEXT
+      (the G04 misconception-class-only rule)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
+- code: 4CH1-CON-CRUDE-OIL
+  family: CONCEPT
+  title: Crude oil as a mixture of hydrocarbons
+  aliases:
+  - crude oil
+  - petroleum
+  - unrefined crude oil
+  spec_points:
+  - code: 4CH1-4.7
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Crude oil as a mixture is not a very useful substance
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: However, the different hydrocarbons that make up the mixture, called fractions, are enormously
+        valuable
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.7 @ Fractional distillation (2026-09-11); spec 4CH1-4.7 official
+      wording
+    derivation_notes: the 4.7 definition node — crude oil as a MIXTURE of hydrocarbons (the batch-1 mixture
+      concept applied via the sanctioned boundary edge; the note's mixture-not-useful -> fractions-valuable
+      opening is the teaching frame)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
+- code: 4CH1-CON-CRUDE-OIL-FRACTIONS
+  family: CONCEPT
+  title: Fractional distillation of crude oil — the fractions, their uses and their trends
+  aliases:
+  - fractions
+  - refinery gases
+  - gasoline
+  - kerosene
+  - diesel
+  - fuel oil
+  - bitumen
+  - fractionating column
+  spec_points:
+  - code: 4CH1-4.8
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The fractions in petroleum are separated from each other in a process called **fractional
+        distillation**
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Fractional distillation is carried out in a **fractionating column** which has a temperature
+        gradient
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The vapours of hydrocarbons with high boiling points **condense** at the bottom of the column
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The vapours of hydrocarbons with lower boiling points rise up the column and condense at
+        the top
+  - code: 4CH1-4.9
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: '| Refinery gas | Domestic heating & cooking |'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: '| Gasoline / petrol | Fuel for cars (gasoline) |'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: '| Kerosene / paraffin | Jet fuel (paraffin) |'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: '| Bitumen | Surfacing roads and roofs |'
+  - code: 4CH1-4.10
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: As carbon chain length increases the colour of the liquid gets darker as it gets thicker
+        and more viscous
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: With increasing molecular size there is an increase in boiling point
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -
+        IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: High viscosity liquids are thick and flow less easily
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.8/4.9/4.10 @ Fractional distillation (2026-09-11); spec 4CH1-4.8/4.9/4.10
+      official wording
+    derivation_notes: the 4.8+4.9+4.10 ONE-family node (the B7-ID-01/ B8-ID-01 one-family precedent —
+      the note teaches the process, the fraction table and the trends as ONE topic; identity question
+      B9-ID-01); the process sentences RESTATE the batch-1 fractional-distillation technique (the sanctioned
+      boundary edge carries the dependency); the Crude Oil MS Q4b(ii) boiling-point trend marking point
+      ('(boiling point/it) increases as number of carbon atoms') is the assessment surface — recorded
+      as PROSE CONTEXT (the G04 misconception-class-only rule)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-CRYSTALLISATION
   family: CONCEPT
@@ -2711,6 +3128,65 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+- code: 4CH1-CON-FUELS-COMBUSTION
+  family: CONCEPT
+  title: Fuels and the products of complete and incomplete combustion
+  aliases:
+  - fuel
+  - fossil fuels
+  - complete combustion
+  - incomplete combustion
+  spec_points:
+  - code: 4CH1-4.11
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: A fuel is a substance that, when burned, releases heat energy (exothermic reaction)
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Petrol is used as a fuel in **cars**, kerosene is used to fuel **aircraft** and diesel oil
+        is used as a fuel in some cars, trucks and **heavy vehicles** such as tanks and trains
+  - code: 4CH1-4.12
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: When the fuel is a **hydrocarbon** then **water** and **carbon dioxide** are the products
+        formed
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Complete combustion occurs when there is **excess oxygen**
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Incomplete combustion occurs when there is **insufficient oxygen** to burn
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Definition of combustion
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The products of these reactions are unburnt fuel (soot), carbon monoxide and water
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.11/4.12 @ Definition of combustion (2026-09-11); spec 4CH1-4.11/4.12
+      official wording
+    derivation_notes: the 4.11+4.12 ONE-family node (identity question B9-ID-02 — the note teaches the
+      fuel definition and the combustion-products chemistry as one thread); the oxygen-supply condition
+      rides the batch-5 combustion owner via the sanctioned boundary edge; the Crude Oil MS incomplete-combustion
+      octane equation (C8H18 + 8½O2 -> 8CO + 9H2O, byte-honest with U+00BD, 'Allow multiples') is the
+      pinned assessment surface — recorded as PROSE CONTEXT (the G04 misconception-class-only rule)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-CON-G1-FAMILY-EVIDENCE
   family: CONCEPT
   title: Group 1 water-reaction similarities as family evidence (alkali metals)
@@ -3321,6 +3797,92 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+- code: 4CH1-CON-HOMOLOGOUS-SERIES
+  family: CONCEPT
+  title: Homologous series and functional groups
+  aliases:
+  - homologous series
+  - functional group
+  - family of organic compounds
+  spec_points:
+  - code: 4CH1-4.3
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: Three important terms to know in this topic are **homologous series**, **functional group**
+        and **isomerism**
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: This is a series or family of organic compounds that have similar features and chemical properties
+        due to them having the same functional group
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: '**Functional group:** A group of atoms bonded in a specific arrangement that influences
+        the properties of the homologous series'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: The difference in the molecular formula between one member and the next is CH<sub>2</sub>
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.3 @ Introduction to Organic Chemistry (2026-09-11); spec 4CH1-4.3
+      official wording
+    derivation_notes: the 4.3 terminology node — homologous series + functional group taught as ONE definitional
+      apparatus (the series is DEFINED by the shared functional group; isomerism gets its own node at
+      4.5 where the drawing demand lives)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
+- code: 4CH1-CON-HYDROCARBON
+  family: CONCEPT
+  title: Hydrocarbon (a compound of hydrogen and carbon only)
+  aliases:
+  - hydrocarbons
+  - organic compound containing only H and C
+  spec_points:
+  - code: 4CH1-4.1
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: A compound that contains **only** hydrogen and carbon atoms
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: For conventional reasons metal carbonates, carbon dioxide and carbon monoxide are **not**
+        included in organic compounds
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: For defining a hydrocarbon, you must specify that they are compounds which contain hydrogen
+        and carbon atoms **only**, no other element is present.
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.1 @ Introduction to Organic Chemistry (2026-09-11); spec 4CH1-4.1
+      official wording
+    derivation_notes: the 4.1 definition node — the note's dedicated 'What is a hydrocarbon?' section
+      carries the ONLY qualifier the spec wording demands, plus the inorganic-carbon exclusion and the
+      examiner-tip reinforcement
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-CON-INDICATORS
   family: CONCEPT
   title: Indicators for distinguishing acidic and alkaline solutions (litmus, phenolphthalein, methyl
@@ -3633,6 +4195,40 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+- code: 4CH1-CON-ISOMERS
+  family: CONCEPT
+  title: Isomers and drawing possible structures from a molecular formula
+  aliases:
+  - isomerism
+  - isomers
+  - possible structural formulae
+  spec_points:
+  - code: 4CH1-4.5
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: '**Isomers** are compounds that have the same **molecular** formula but different **displayed**
+        formulae'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.5 @ Introduction to Organic Chemistry (2026-09-11); spec 4CH1-4.5
+      official wording
+    derivation_notes: the 4.5 skill node — enumeration of possible structures given a molecular formula;
+      the Alkanes MS Q1a(i) marking points (same molecular formula / different displayed formula) document
+      the definition the skill applies — recorded as PROSE CONTEXT here because MARK_SCHEME anchors are
+      misconception-class-only on concept attachments (the FP-B7-5 G04 rule); the note's propene/cyclopropane
+      C3H6 example is the worked case
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-CON-ISOTOPES
   family: CONCEPT
   title: Isotopes and relative atomic mass from isotopic abundances
@@ -3685,6 +4281,46 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-CON-IUPAC-NAMING
+  family: CONCEPT
+  title: IUPAC naming of organic compounds (stems and suffixes)
+  aliases:
+  - naming organic compounds
+  - nomenclature
+  - IUPAC rules
+  spec_points:
+  - code: 4CH1-4.4
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Naming Organic Compounds  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: 'The names of organic compounds have two parts: the prefix or stem and the end part (or suffix)'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Naming Organic Compounds  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The prefix tells you how many carbon atoms are present in the longest continuous chain in
+        the compound
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Naming Organic Compounds  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The suffix tells you what **functional group** is on the compound
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.4 @ Naming Organic Compounds (2026-09-11); spec 4CH1-4.4 official
+      wording
+    derivation_notes: the 4.4 naming node — the stem/suffix system with the position-number and di- rules
+      (the note's Further rules section); the suffix->functional-group mapping is the homologous-series
+      dependency
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-MASS-NUMBER
   family: CONCEPT
@@ -4528,6 +5164,100 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-ORGANIC-FORMULAE
+  family: CONCEPT
+  title: Representing organic molecules (empirical, molecular, general, structural, displayed formulae)
+  aliases:
+  - organic formulae
+  - displayed formula
+  - structural formula
+  - general formula
+  - condensed structural formula
+  spec_points:
+  - code: 4CH1-4.2
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: 'Organic compounds can be represented in a number of ways:'
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: The **general formula** shows a ratio of atoms in a family of compounds in terms of 'n' where
+        n is a varying whole number
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: The **displayed formulae** shows the spatial arrangement of all the atoms and bonds in a
+        molecule
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Introduction to Organic
+        Chemistry - IGCSE Revision Notes.md
+      kind: NOTE
+      quote: In a **structural formulae** enough information is shown to make the structure clear, but
+        most of the actual covalent bonds are omitted
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.2 @ Introduction to Organic Chemistry (2026-09-11); spec 4CH1-4.2
+      official wording
+    derivation_notes: the 4.2 representation-skill node — ONE node for the five formula types (the note
+      teaches them as one representation toolkit in one section); the empirical/molecular DEFINITIONS
+      ride the pilot owners via the two sanctioned boundary edges (the note's own definitional sentences
+      are the boundary-edge evidence, also recorded here as context)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
+- code: 4CH1-CON-ORGANIC-REACTION-CLASSES
+  family: CONCEPT
+  title: Classifying organic reactions (substitution, addition, combustion)
+  aliases:
+  - substitution reaction
+  - addition reaction
+  - organic reaction classification
+  spec_points:
+  - code: 4CH1-4.6
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Classifying Organic Reactions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The reactions of organic compounds can be classified into
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Classifying Organic Reactions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: A **substitution** reaction takes place when one functional group is replaced by another
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Classifying Organic Reactions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: An **addition** reaction takes place when two or more molecules combine to form a larger
+        molecule with no other products
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/a. Introduction/Classifying Organic Reactions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: This is the scientific term for burning. In a **combustion** reaction, an organic substance
+        reacts with oxygen to form carbon dioxide (or carbon monoxide if incomplete combustion) and water.
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.6 @ Classifying Organic Reactions (2026-09-11); spec 4CH1-4.6
+      official wording
+    derivation_notes: the 4.6 classification node — the three classes with the note's own definitions
+      and worked equations (methane+bromine substitution; ethene+bromine addition; complete/incomplete
+      combustion of methane)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-OX-RED-AGENTS
   family: CONCEPT
@@ -7225,6 +7955,43 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-MIS-KEROSENE-DOUBLE-BONDS
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Claiming kerosene (a crude-oil fraction) contains double bonds
+  aliases:
+  - kerosene has double bonds
+  - fractions are unsaturated
+  evidence:
+  - file: scripts/c11_evidence/CRUDE_OIL_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reject references to double bonds in kerosene
+  - file: scripts/c11_evidence/CRUDE_OIL_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: larger molecules in crude oil
+  remediation_evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE
+      Chemistry Revision Notes.md
+    kind: NOTE
+    quote: Most fractions contain mainly **alkanes**, which are compounds of carbon and hydrogen with
+      only **single** bonds between them
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-9
+    generated_date: '2026-09-24'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.10 @ the pinned Crude Oil MS (2026-09-11); spec 4CH1-4.10 official
+      wording
+    derivation_notes: the pinned Crude Oil MS Q2b Reject class (the crude-oil-vs-kerosene comparison question)
+      — candidates treating crude-oil fractions as unsaturated; the corrective content is the fractions
+      node's own single-bonds sentence (the B8-M-02 Reject-column precedent; the B8-ID-03/04 identity
+      shape — ONE assessment-documented misconception surface, B9-ID-06)
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
   family: MISCONCEPTION

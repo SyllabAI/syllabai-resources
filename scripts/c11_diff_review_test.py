@@ -225,11 +225,41 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
     # session-49: the registry grows by the (empty) batch-2 member
     (base / "scripts" / "c11_batch2_decisions.yaml").write_text(
         yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-2",
                                    "extraction_pass": "c11-s16-batch-2",
                                    "generated_date": "2026-09-12",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
                                    "model_version": "GLM (Super Z agent, z.ai)",
                                    "curriculum_code": "4CH1-2017",
                                    "scope": {"spec_points": [],
@@ -255,11 +285,41 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
     # session-53: the registry grows by the (empty) batch-4 member
     (base / "scripts" / "c11_batch4_decisions.yaml").write_text(
         yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-4",
                                    "extraction_pass": "c11-s16-batch-4",
                                    "generated_date": "2026-09-13",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
                                    "model_version": "GLM (Super Z agent, z.ai)",
                                    "curriculum_code": "4CH1-2017",
                                    "scope": {"spec_points": [],
@@ -285,11 +345,41 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
     # session-57: the registry grows by the (empty) batch-6 member
     (base / "scripts" / "c11_batch6_decisions.yaml").write_text(
         yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-6",
                                    "extraction_pass": "c11-s16-batch-6",
                                    "generated_date": "2026-09-22",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
                                    "model_version": "GLM (Super Z agent, z.ai)",
                                    "curriculum_code": "4CH1-2017",
                                    "scope": {"spec_points": [],
@@ -315,10 +405,40 @@ def make_fixture(base: Path):
                         "held": []},
                        allow_unicode=True, sort_keys=False, width=100),
         encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
+                                   "generated_date": "2026-09-24",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
     # session-61: the registry grows by the (empty) batch-8 member
     (base / "scripts" / "c11_batch8_decisions.yaml").write_text(
         yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-8",
                                    "extraction_pass": "c11-s16-batch-8",
+                                   "generated_date": "2026-09-24",
+                                   "model_version": "GLM (Super Z agent, z.ai)",
+                                   "curriculum_code": "4CH1-2017",
+                                   "scope": {"spec_points": [],
+                                              "practicals": [],
+                                              "notes": []},
+                                   "contract": "fixture"},
+                        "command_kinds": [], "nodes": [], "edges": [],
+                        "held": []},
+                       allow_unicode=True, sort_keys=False, width=100),
+        encoding="utf-8")
+    # session-62: the registry grows by the (empty) batch-9 member
+    (base / "scripts" / "c11_batch9_decisions.yaml").write_text(
+        yaml.safe_dump({"meta": {"task": "T-C11", "stage": "s16-batch-9",
+                                   "extraction_pass": "c11-s16-batch-9",
                                    "generated_date": "2026-09-24",
                                    "model_version": "GLM (Super Z agent, z.ai)",
                                    "curriculum_code": "4CH1-2017",
@@ -563,8 +683,12 @@ def main() -> int:
         # c11_batch8_verdicts); promo_count 206 -> 216 (28+28+23+39+35+18
         # +16+19+10); the actionable surface is empty again (the
         # not-actionable rows stay 5).
-        check("R1 reports 0 actionable / 5 not-actionable / 216 promotions",
-              "actionable: 0" in r.stdout
+        # session-62 re-anchor (2026-09-24, dated): the batch-9 authored-to-
+        # gate record (20 authored semantic edges, zero promotions) joins the
+        # registry, so the actionable surface is 20 again (the batch-9
+        # authored set) / 5 not-actionable (the frozen pilot HOLDs) / 216.
+        check("R1 reports 20 actionable / 5 not-actionable / 216 promotions",
+              "actionable: 20" in r.stdout
               and "not-actionable: 5" in r.stdout
               and "promo_count=216" in r.stdout)
     finally:

@@ -71,11 +71,15 @@ REPO = HERE.parent
 # (Section 2 Inorganic fourth slice S2-h Chemical Tests 2.44-2.50,
 # operator-commissioned session 61; under the session-61 cross-slice
 # boundary ruling)
+# Session-62 (batch 9): the registry grows by c11_batch9_decisions.yaml
+# (Section 4 Organic FIRST slice S4-a/b/c 4.1-4.22 minus the 4.15
+# negative-control carve-out, operator-commissioned session 62; under the
+# session-62 cross-slice boundary ruling)
 DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                   "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
                   "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml",
                   "c11_batch6_decisions.yaml", "c11_batch7_decisions.yaml",
-                  "c11_batch8_decisions.yaml"]
+                  "c11_batch8_decisions.yaml", "c11_batch9_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 
 RELATIONS = {"PART_OF", "REQUIRES_PREREQUISITE", "RELATED_TO", "MISCONCEPTION_OF",

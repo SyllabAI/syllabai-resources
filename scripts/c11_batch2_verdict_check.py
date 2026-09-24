@@ -203,6 +203,9 @@ pilot_holds = {x["triple"] for x in pilot_vd["edge_verdicts"]
                if x["verdict"] == "HOLD"}
 live_sugg = {triple(e) for e in sem
              if e["validation_status"] == "SUGGESTED"}
+# session-62 re-anchor (2026-09-24, dated): +15 the SANCTIONED batch-9
+# authored-to-gate record (14 CONCEPT + 1 MISCONCEPTION; 20 authored
+# semantic + 21 PART_OF) — the operator gate decision; no test weakened.
 check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
       pilot_hv == pilot_confirms and len(pilot_hv) == 28)
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted)",
@@ -307,11 +310,11 @@ check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # session-61 re-anchor (2026-09-24, dated): + the SANCTIONED batch-8
 # authored-to-gate record (8 nodes / 17 edges = 7 PART_OF + 10
 # semantic) — the operator gate decision; no test weakened.
-check("D10 live store shape 165 nodes / 384 edges (163 PART_OF + 221 "
+check("D10 live store shape 180 nodes / 425 edges (184 PART_OF + 241 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 165 and len(edges_doc["edges"]) == 384
+      len(nodes_doc["nodes"]) == 180 and len(edges_doc["edges"]) == 425
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 163)
+              if e["relation"] == "PART_OF") == 184)
 
 # ---------------------------------------------------------------------------
 print()

@@ -1,0 +1,245 @@
+meta:
+  task: T-C11
+  stage: s16-batch-9-verdicts
+  batch: 9
+  session: 62
+  file: OPERATOR-OWNED verdict record for C11_BATCH9_REVIEW_SHEET (session 62) — verdicts recorded by
+    operator decision (pending).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-9 extraction_pass
+    is c11-s16-batch-9 (Section 4 Organic Chemistry FIRST slice, 21 authorable SPs 4CH1-4.1-4.22 minus
+    the 4CH1-4.15 negative-control carve-out: S4-a Introduction + S4-b Crude Oil & Fuels + S4-c Alkanes;
+    no practicals own any batch-9 SP). Its 9 held candidates are informational only (no reopening, no
+    promotion of held candidates). FIVE edges are cross-section boundary edges into the ruled targets
+    (CON-FRACTIONAL-DISTILLATION — batch 1; CON-EMPIRICAL-FORMULA and CON-MOLECULAR-FORMULA — the pilot;
+    CON-COMBUSTION-O2 — batch 5; CON-MIXTURE — batch 1; sanctioned by the session-62 cross-slice ruling,
+    no duplicate mint). The next session applies verdicts via the §18 promotion pathway; nothing here
+    is HUMAN_VALIDATED.'
+edge_verdicts:
+- id: B9-E-01
+  triple: 4CH1-CON-ORGANIC-FORMULAE REQUIRES_PREREQUISITE 4CH1-CON-HYDROCARBON
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-02
+  triple: 4CH1-CON-IUPAC-NAMING REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-03
+  triple: 4CH1-CON-ISOMERS REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-FORMULAE
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-04
+  triple: 4CH1-CON-ORGANIC-REACTION-CLASSES REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-05
+  triple: 4CH1-CON-CRUDE-OIL REQUIRES_PREREQUISITE 4CH1-CON-HYDROCARBON
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-06
+  triple: 4CH1-CON-CRUDE-OIL-FRACTIONS REQUIRES_PREREQUISITE 4CH1-CON-CRUDE-OIL
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-07
+  triple: 4CH1-CON-FUELS-COMBUSTION REQUIRES_PREREQUISITE 4CH1-CON-CRUDE-OIL-FRACTIONS
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-08
+  triple: 4CH1-CON-CO-POISONING REQUIRES_PREREQUISITE 4CH1-CON-FUELS-COMBUSTION
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-09
+  triple: 4CH1-CON-ACID-RAIN-CAUSES REQUIRES_PREREQUISITE 4CH1-CON-FUELS-COMBUSTION
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-10
+  triple: 4CH1-CON-CRACKING REQUIRES_PREREQUISITE 4CH1-CON-CRUDE-OIL-FRACTIONS
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-11
+  triple: 4CH1-CON-ALKANES REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-12
+  triple: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION REQUIRES_PREREQUISITE 4CH1-CON-ALKANES
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-13
+  triple: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-REACTION-CLASSES
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-E-14
+  triple: 4CH1-CON-CRUDE-OIL-FRACTIONS REQUIRES_PREREQUISITE 4CH1-CON-FRACTIONAL-DISTILLATION
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-62 ruling; the owner node — the 4.8 industrial fractional distillation
+    of crude oil runs the batch-1 separat...)
+- id: B9-E-15
+  triple: 4CH1-CON-ORGANIC-FORMULAE REQUIRES_PREREQUISITE 4CH1-CON-EMPIRICAL-FORMULA
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-62 ruling; the owner node — the 4.2 representation surface applies
+    the pilot's empirical-formula definition ...)
+- id: B9-E-16
+  triple: 4CH1-CON-ORGANIC-FORMULAE REQUIRES_PREREQUISITE 4CH1-CON-MOLECULAR-FORMULA
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-62 ruling; the owner node — as above for the molecular-formula
+    definition ('actual number of atoms')...)
+- id: B9-E-17
+  triple: 4CH1-CON-FUELS-COMBUSTION REQUIRES_PREREQUISITE 4CH1-CON-COMBUSTION-O2
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-62 ruling; the owner node — the fuels family's complete/incomplete
+    combustion presupposes the batch-5 combus...)
+- id: B9-E-18
+  triple: 4CH1-CON-CRUDE-OIL REQUIRES_PREREQUISITE 4CH1-CON-MIXTURE
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-62 ruling; the owner node — 4.7's definition ('crude oil is a
+    mixture of hydrocarbons') applies the batch-1 ...)
+- id: B9-E-19
+  triple: 4CH1-MIS-KEROSENE-DOUBLE-BONDS WRONG_ANSWER_PATTERN 4CH1-CON-CRUDE-OIL-FRACTIONS
+  pretriage: FLAGGED
+  verdict: null
+  notes: 'documented Reject class (the pinned Crude Oil MS Q2b: ''Reject references to double bonds in
+    kerosene'')'
+- id: B9-E-20
+  triple: 4CH1-MIS-KEROSENE-DOUBLE-BONDS REMEDIATED_BY 4CH1-CON-CRUDE-OIL-FRACTIONS
+  pretriage: FLAGGED
+  verdict: null
+  notes: remediation target = WAP target (the B1-E-25 pattern)
+node_verdicts:
+- id: B9-N-01
+  code: 4CH1-CON-ACID-RAIN-CAUSES
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-02
+  code: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-03
+  code: 4CH1-CON-ALKANES
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-04
+  code: 4CH1-CON-CO-POISONING
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-05
+  code: 4CH1-CON-CRACKING
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-06
+  code: 4CH1-CON-CRUDE-OIL
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-07
+  code: 4CH1-CON-CRUDE-OIL-FRACTIONS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-08
+  code: 4CH1-CON-FUELS-COMBUSTION
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-09
+  code: 4CH1-CON-HOMOLOGOUS-SERIES
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-10
+  code: 4CH1-CON-HYDROCARBON
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-11
+  code: 4CH1-CON-ISOMERS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-12
+  code: 4CH1-CON-IUPAC-NAMING
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-13
+  code: 4CH1-CON-ORGANIC-FORMULAE
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-N-14
+  code: 4CH1-CON-ORGANIC-REACTION-CLASSES
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B9-M-01
+  code: 4CH1-MIS-KEROSENE-DOUBLE-BONDS
+  family: MISCONCEPTION
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: null
+  notes: ''
+identity_decisions:
+- id: B9-ID-01
+  verdict: null
+  question: keep the 4.8/4.9/4.10 fractions family as ONE node (process + uses + trends taught as one
+    topic in one note) vs splitting the process node from the fractions/trends node
+- id: B9-ID-02
+  verdict: null
+  question: keep 4.11/4.12 as ONE fuels/combustion family node (the fuel definition and the combustion-products
+    chemistry taught as one thread) vs splitting the fuel-definition node from the products node
+- id: B9-ID-03
+  verdict: null
+  question: keep 4.14/4.16 as ONE acid-rain causes node (formation + contribution taught as one thread;
+    the 4.15 negative control sits BETWEEN them and stays uncovered) vs splitting the NOx-formation node
+    from the acid-rain node
+- id: B9-ID-04
+  verdict: null
+  question: keep 4.17/4.18 as ONE cracking node (process and economic necessity taught as one thread)
+    vs splitting the process node from the supply/demand node
+- id: B9-ID-05
+  verdict: null
+  question: keep 4.19/4.20/4.21 as ONE alkanes node (general formula + saturation + the first-five table
+    taught as one topic) vs splitting the definitional node from the drawing-skill node
+- id: B9-ID-06
+  verdict: null
+  question: mint the MIS-KEROSENE-DOUBLE-BONDS misconception from the pinned Crude Oil MS Q2b Reject class
+    (narrow-but-exact; the MIS-CUO-COLOUR/B8-M-02 precedent) — or rule it exam-trivia
+held_appendix_acknowledgment:
+  acknowledged: null
+  notes: ''
