@@ -1199,9 +1199,9 @@ out = {
                 "held_rate": 0.25,
                 "rejection_rate": 0.0,
                 # session-64: the batch ends at its operator gate — zero
-                # promotions exist at authoring; SETTLES at the batch-10
-                # verdict session (the batch-7/8/9 pattern).
-                "promotion_rate": 0.0,
+                # promotions exist at authoring; SETTLED at the batch-10
+                # verdict session (session 65, the batch-7/8/9 pattern).
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -1221,7 +1221,7 @@ out = {
                 "Reject row ruled exam-trivia-adjacent and stayed out of "
                 "the mint)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 19, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -77.8% / edges -53.9% vs "
                            "the 2.4/2.75 model — the deepest descriptive "
@@ -1240,9 +1240,28 @@ out = {
                            "coverage: 36 of 50 S4 SPs (168 of 182 total at "
                            "candidate level). The forecast record is "
                            "appended AT AUTHORING (the session-61 lesson). "
-                           "NEXT: the operator's batch-10 verdict session; "
-                           "batch 11 completes the S4 section per the slice "
-                           "plan."),
+                           "Session-65 (2026-09-25): operator gate SETTLED — "
+                           "the operator's completed-sheet verdict "
+                           "(PASS WITH NOTES; intake via the zai-web chat "
+                           "lane as an INLINE RESTATED sheet, "
+                           "detail-preserving variant — the per-row surface "
+                           "(8 node codes, 6 in-slice TRIPLEs, 11 owner "
+                           "codes, 9 held ids) preserved while the §1-§5 "
+                           "detail columns are condensed; the batch-9/10 "
+                           "CONFORMANCE gates applied, not the "
+                           "batch-5/6/8 byte-identity check) recorded in "
+                           "scripts/c11_batch10_verdicts.yaml (19 edge "
+                           "CONFIRM / 8 node CONFIRM / 5 identity ACCEPT "
+                           "-> KEEP_AS_IS / 9 held acknowledged-quarantined "
+                           "with per-candidate KEEP HELD dispositions / "
+                           "zero RR / zero REJECT) and applied through "
+                           "§18 (19 promotions, operator, review_ref = the "
+                           "B10 diff-review bundle; promotion_rate 1.0 — "
+                           "zero RR authored, so every authored edge was "
+                           "promotable post-verdict). Store: 236 -> 255 "
+                           "semantic HV, shape 188/459/199 unchanged "
+                           "(statuses only). NEXT: batch 11 completes the "
+                           "S4 section per the slice plan."),
         },
     ],
     "future_batch_record_schema": {

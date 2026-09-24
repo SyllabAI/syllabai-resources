@@ -251,10 +251,14 @@ check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
 # (c11_batch9_verdicts, applied 2026-09-25 via the B9 diff-review bundle)
 # — the store total moved 216 -> 236; the batch-1 slice stays preserved
 # exactly.
-check("D4 store total 236 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
+# session-65 re-anchor (2026-09-25, dated): the batch-10 verdicts were
+# APPLIED through §18 (19 promotions, operator, the B10 diff-review
+# bundle) — store total 236 -> 255 (28+28+23+39+35+18+16+19+10+20+19).
+# No test weakened.
+check("D4 store total 255 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
       "batch-3 + 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 + 10 "
-      "batch-8 + 20 batch-9), all operator",
-      len(store_map) == 236
+      "batch-8 + 20 batch-9 + 19 batch-10), all operator",
+      len(store_map) == 255
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

@@ -1,57 +1,67 @@
 #!/usr/bin/env python3
-"""T-C11 session 63 — c11_batch9_verdict_check.py: standing checker for the
-batch-9 operator verdict record (scripts/c11_batch9_verdicts.yaml) and its
+"""T-C11 session 65 — c11_batch10_verdict_check.py: standing checker for the
+batch-10 operator verdict record (scripts/c11_batch10_verdicts.yaml) and its
 application state.
 
 Checks (all fail-closed; every group must pass):
   A. schema          — sections, row ids in order, vocabulary, the verbatim
                        operator verdict (the completed sheet §6/§7, session
-                       63: PASS WITH NOTES) + decided_by/date; the session-63
-                       completed-sheet intake record (INLINE RESTATED sheet
-                       via the zai-web chat lane; the batch-5/6/8 byte-
-                       identity check does NOT apply — the batch-9
-                       CONFORMANCE gates apply and passed) + the operator's
-                       REPORTED-state caveat; NO rr_settlement section
-                       (batch 9 authored zero RR edges)
-  B. verdict shape   — 20 edge CONFIRM / 15 node CONFIRM (14 CONCEPT + 1
-                       MISCONCEPTION) / 6 KEEP_AS_IS / held appendix (9)
-                       acknowledged; reconciliation against the batch-9
-                       decision record (triples, node codes, NO
+                       65: PASS WITH NOTES) + decided_by/date; the session-65
+                       completed-sheet intake record (INLINE RESTATED sheet,
+                       detail-preserving variant, via the zai-web chat lane;
+                       the batch-5/6/8 byte-identity check does NOT apply —
+                       the batch-9/10 CONFORMANCE gates apply and passed) +
+                       the operator's REPORTED-state caveat; NO
+                       rr_settlement section (batch 10 authored zero RR
+                       edges)
+  B. verdict shape   — 19 edge CONFIRM / 8 node CONFIRM (7 CONCEPT + 1
+                       MISCONCEPTION) / 5 KEEP_AS_IS / held appendix (9)
+                       acknowledged with the operator's per-candidate KEEP
+                       HELD dispositions; reconciliation against the
+                       batch-10 decision record (triples, node codes, NO
                        operator_decision blocks — identity decisions are
                        all KEEP_AS_IS, so no §7 re-authoring was
                        sanctioned); NO CONFIRM_WITH_NOTE exists in this
                        batch (the operator ruled universally; the NOTES in
                        PASS WITH NOTES are the sheet-level REPORTED caveat
                        + the anti-duplication guardrail, carried in
-                       meta.operator_ruling); the FIVE sanctioned boundary
-                       rows carry the ownership/retention note
+                       meta.operator_ruling); the THIRTEEN sanctioned
+                       boundary rows carry the ownership/retention note
   C. application     — three-way set equality: verdict CONFIRM set ==
-                       live batch-9 HUMAN_VALIDATED set == batch-9 entries
-                       in the promotion store (20 each, operator
-                       attribution 2026-09-25, the B9 diff-review bundle as
-                       review_reference); nothing outside the CONFIRM set
-                       was promoted
-  D. invariants      — the pilot + batch-1..8 slices are intact
-                       (28+28+23+39+35+18+16+19+10 HUMAN_VALIDATED; the 3
-                       pilot operator-HOLD SUGGESTED — the ONLY live
-                       SUGGESTED semantic surface now that the batch-9
+                       live batch-10 HUMAN_VALIDATED set == batch-10
+                       entries in the promotion store (19 each, operator
+                       attribution 2026-09-25, the B10 diff-review bundle
+                       as review_reference); nothing outside the CONFIRM
+                       set was promoted
+  D. invariants      — the pilot + batch-1..9 slices are intact
+                       (28+28+23+39+35+18+16+19+10+20 HUMAN_VALIDATED; the
+                       3 pilot operator-HOLD SUGGESTED — the ONLY live
+                       SUGGESTED semantic surface now that the batch-10
                        verdicts are applied; both RR edges
                        REVIEW_REQUIRED); store total 255, all operator;
-                       the 9 batch-9 held candidates quarantined (never
-                       authored); the 44 ruled non-mint owner codes NOT
-                       re-minted in the batch-9 node set; 4.15 negative
-                       control uncovered; no PART_OF promoted through §18
-                       (the 21 batch-9 PART_OF rows stay SUGGESTED pending
-                       their own lane); no batch-9 node HUMAN_VALIDATED;
-                       live store shape 180/425/184; the FIVE sanctioned
-                       cross-section boundary edges applied with EXACT
-                       ownership (all into EXISTING owners — batch-1
-                       CON-FRACTIONAL-DISTILLATION, pilot
-                       CON-EMPIRICAL-FORMULA + CON-MOLECULAR-FORMULA,
-                       batch-5 CON-COMBUSTION-O2, batch-1 CON-MIXTURE; no
-                       batch-9 mint as target)
+                       the 9 batch-10 held candidates quarantined (never
+                       authored FROM the held record — the single triple
+                       coincidence B10-H-04 == the sanctioned boundary
+                       edge B10-E-18 is the session-64 ruling's TARGET-2
+                       x2 precedent, both surfaces explicitly ruled by
+                       the operator); the 48 ruled non-mint owner codes
+                       NOT re-minted in the batch-10 node set; 4.15
+                       negative control uncovered; no PART_OF promoted
+                       through §18 (the batch-9/10 PART_OF rows stay
+                       SUGGESTED pending their own lane); no batch-10
+                       node HUMAN_VALIDATED; live store shape 188/459/199;
+                       the THIRTEEN sanctioned cross-section boundary
+                       edges applied with EXACT ownership (all into
+                       EXISTING owners — the batch-9 owners
+                       CON-HOMOLOGOUS-SERIES x2, CON-ORGANIC-FORMULAE x2,
+                       CON-HYDROCARBON, CON-ALKANES,
+                       CON-ORGANIC-REACTION-CLASSES, CON-IUPAC-NAMING,
+                       CON-CRACKING; batch-5 CON-COMBUSTION-O2; batch-6
+                       CON-OX-RED-AGENTS; batch-1
+                       CON-FRACTIONAL-DISTILLATION; batch-7
+                       CON-ACID-REACTIONS; no batch-10 mint as target)
 
-Usage: python3 scripts/c11_batch9_verdict_check.py
+Usage: python3 scripts/c11_batch10_verdict_check.py
 """
 from __future__ import annotations
 
@@ -67,8 +77,8 @@ REPO = HERE.parent
 sys.path.insert(0, str(HERE))
 import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
 GRAPH = GP.qual_dir()          # the qual's ratified store dir
-VERDICTS = HERE / "c11_batch9_verdicts.yaml"
-DECISIONS = HERE / "c11_batch9_decisions.yaml"
+VERDICTS = HERE / "c11_batch10_verdicts.yaml"
+DECISIONS = HERE / "c11_batch10_decisions.yaml"
 B1_VERDICTS = HERE / "c11_batch1_verdicts.yaml"
 B1_DECISIONS = HERE / "c11_batch1_decisions.yaml"
 B2_VERDICTS = HERE / "c11_batch2_verdicts.yaml"
@@ -85,40 +95,56 @@ B7_VERDICTS = HERE / "c11_batch7_verdicts.yaml"
 B7_DECISIONS = HERE / "c11_batch7_decisions.yaml"
 B8_VERDICTS = HERE / "c11_batch8_verdicts.yaml"
 B8_DECISIONS = HERE / "c11_batch8_decisions.yaml"
+B9_VERDICTS = HERE / "c11_batch9_verdicts.yaml"
+B9_DECISIONS = HERE / "c11_batch9_decisions.yaml"
 PROMOTIONS = HERE / "c11_promotions.yaml"
 
-BUNDLE_REF = "graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md"
+BUNDLE_REF = "graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md"
 B1_RR_TRIPLE = ("4CH1-CON-CRYSTALLISATION REQUIRES_PREREQUISITE "
                 "4CH1-CON-SOLUTION")
 PILOT_RR_TRIPLE = ("4CH1-CON-GAS-VOL-CALC REQUIRES_PREREQUISITE "
                    "4CH1-CON-AVOGADRO-LAW")
-# the session-62 cross-slice boundary ruling's non-mint owner codes,
-# loaded from the ruling itself (44 recorded; asserted, not trusted)
-B9_RULING = HERE / "c11_batch9_boundary_ruling.yaml"
-# the FIVE sanctioned cross-section boundary edges (session-62 ruling):
-# all into EXISTING owners — batch-1 CON-FRACTIONAL-DISTILLATION; the
-# pilot CON-EMPIRICAL-FORMULA + CON-MOLECULAR-FORMULA; batch-5
-# CON-COMBUSTION-O2; batch-1 CON-MIXTURE
+# the session-64 cross-slice boundary ruling's non-mint owner codes,
+# loaded from the ruling itself (48 recorded; asserted, not trusted)
+B10_RULING = HERE / "c11_batch10_boundary_ruling.yaml"
+# the THIRTEEN sanctioned cross-section boundary edges (session-64
+# ruling): all into EXISTING owners — the batch-9 owners x7 distinct
+# (HOMOLOGOUS-SERIES x2, ORGANIC-FORMULAE x2, HYDROCARBON, ALKANES,
+# ORGANIC-REACTION-CLASSES, IUPAC-NAMING, CRACKING), batch-5
+# CON-COMBUSTION-O2, batch-6 CON-OX-RED-AGENTS, batch-1
+# CON-FRACTIONAL-DISTILLATION, batch-7 CON-ACID-REACTIONS
 BOUNDARY_EDGES_EXISTING = (
-    "4CH1-CON-CRUDE-OIL-FRACTIONS REQUIRES_PREREQUISITE "
-    "4CH1-CON-FRACTIONAL-DISTILLATION",
-    "4CH1-CON-ORGANIC-FORMULAE REQUIRES_PREREQUISITE "
-    "4CH1-CON-EMPIRICAL-FORMULA",
-    "4CH1-CON-ORGANIC-FORMULAE REQUIRES_PREREQUISITE "
-    "4CH1-CON-MOLECULAR-FORMULA",
-    "4CH1-CON-FUELS-COMBUSTION REQUIRES_PREREQUISITE "
+    "4CH1-CON-ALKENES REQUIRES_PREREQUISITE "
+    "4CH1-CON-HOMOLOGOUS-SERIES",
+    "4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-FORMULAE",
+    "4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-HYDROCARBON",
+    "4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ALKANES",
+    "4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE "
+    "4CH1-CON-ORGANIC-REACTION-CLASSES",
+    "4CH1-CON-ALCOHOLS REQUIRES_PREREQUISITE "
+    "4CH1-CON-HOMOLOGOUS-SERIES",
+    "4CH1-CON-ALCOHOLS REQUIRES_PREREQUISITE 4CH1-CON-IUPAC-NAMING",
+    "4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE "
     "4CH1-CON-COMBUSTION-O2",
-    "4CH1-CON-CRUDE-OIL REQUIRES_PREREQUISITE 4CH1-CON-MIXTURE",
+    "4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE "
+    "4CH1-CON-OX-RED-AGENTS",
+    "4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE "
+    "4CH1-CON-CRACKING",
+    "4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE "
+    "4CH1-CON-FRACTIONAL-DISTILLATION",
+    "4CH1-CON-CARBOXYLIC-ACIDS REQUIRES_PREREQUISITE "
+    "4CH1-CON-ORGANIC-FORMULAE",
+    "4CH1-CON-CARBOXYLIC-ACID-REACTIONS REQUIRES_PREREQUISITE "
+    "4CH1-CON-ACID-REACTIONS",
 )
-# the six §6.2 identity decisions (ACCEPT -> KEEP_AS_IS per the
+# the five §6.1 identity decisions (ACCEPT -> KEEP_AS_IS per the
 # vocabulary rule) and the nodes they rule
 IDENTITY_LINK = {
-    "4CH1-CON-CRUDE-OIL-FRACTIONS": "B9-ID-01",
-    "4CH1-CON-FUELS-COMBUSTION": "B9-ID-02",
-    "4CH1-CON-ACID-RAIN-CAUSES": "B9-ID-03",
-    "4CH1-CON-CRACKING": "B9-ID-04",
-    "4CH1-CON-ALKANES": "B9-ID-05",
-    "4CH1-MIS-KEROSENE-DOUBLE-BONDS": "B9-ID-06",
+    "4CH1-CON-ALKENES": "B10-ID-01",
+    "4CH1-CON-BROMINE-WATER-TEST": "B10-ID-02",
+    "4CH1-CON-ETHANOL-MANUFACTURE": "B10-ID-03",
+    "4CH1-CON-CARBOXYLIC-ACIDS": "B10-ID-04",
+    "4CH1-MIS-PROPANOL-POSITION": "B10-ID-05",
 }
 
 fails: list[str] = []
@@ -141,7 +167,7 @@ def triple(e) -> str:
 
 vd = yaml.safe_load(VERDICTS.read_text(encoding="utf-8"))
 dec = yaml.safe_load(DECISIONS.read_text(encoding="utf-8"))
-rul = yaml.safe_load(B9_RULING.read_text(encoding="utf-8"))
+rul = yaml.safe_load(B10_RULING.read_text(encoding="utf-8"))
 b1_vd = yaml.safe_load(B1_VERDICTS.read_text(encoding="utf-8"))
 b1_dec = yaml.safe_load(B1_DECISIONS.read_text(encoding="utf-8"))
 b2_vd = yaml.safe_load(B2_VERDICTS.read_text(encoding="utf-8"))
@@ -158,6 +184,8 @@ b7_vd = yaml.safe_load(B7_VERDICTS.read_text(encoding="utf-8"))
 b7_dec = yaml.safe_load(B7_DECISIONS.read_text(encoding="utf-8"))
 b8_vd = yaml.safe_load(B8_VERDICTS.read_text(encoding="utf-8"))
 b8_dec = yaml.safe_load(B8_DECISIONS.read_text(encoding="utf-8"))
+b9_vd = yaml.safe_load(B9_VERDICTS.read_text(encoding="utf-8"))
+b9_dec = yaml.safe_load(B9_DECISIONS.read_text(encoding="utf-8"))
 edges_doc = yaml.safe_load((GRAPH / "concept_edges.yaml")
                            .read_text(encoding="utf-8"))
 nodes_doc = yaml.safe_load((GRAPH / "concepts.yaml")
@@ -178,32 +206,35 @@ check("A1 file parses with required sections (no rr_settlement)",
       and "rr_settlement" not in vd)
 r = vd["meta"].get("operator_ruling") or {}
 check("A2 operator verdict recorded verbatim (completed sheet §6/§7, "
-      "session 63: PASS WITH NOTES) + decided_by/date",
+      "session 65: PASS WITH NOTES) + decided_by/date",
       "PASS WITH NOTES" in (r.get("statement") or "")
-      and "Encode the completed verdict surface" in (r.get("statement") or "")
+      and "Encode the completed Batch 10 verdict surface"
+      in (r.get("statement") or "")
       and "No node or edge is promoted by this review sheet itself"
       in (r.get("statement") or "")
-      and r.get("session") == 63
+      and r.get("session") == 65
       and r.get("decided_by") == "operator"
       and r.get("decided_date") == "2026-09-25")
-check("A3 the session-63 completed-sheet intake record present (INLINE "
-      "RESTATED sheet via the zai-web chat lane; byte-identity check does "
-      "NOT apply; the batch-9 CONFORMANCE gates) + the operator's "
-      "REPORTED-state caveat recorded verbatim",
+check("A3 the session-65 completed-sheet intake record present (INLINE "
+      "RESTATED sheet, detail-preserving variant, via the zai-web chat "
+      "lane; byte-identity check does NOT apply; the batch-9/10 "
+      "CONFORMANCE gates) + the operator's REPORTED-state caveat "
+      "recorded verbatim",
       "RESTATED" in (r.get("completed_sheet") or "")
       and "zai-web" in (r.get("completed_sheet") or "")
       and "CONFORMANCE" in (r.get("completed_sheet") or "")
       and "REPORTED / VERIFIED BY SUBMITTED ARTIFACT"
       in (r.get("reported_state_caveat") or "")
-      and "not been independently rerun" in (r.get("reported_state_caveat") or "")
-      and "1e2cf8e" in (r.get("reported_state_caveat") or ""))
-check("A4 edge rows B9-E-01..B9-E-20 sequential, complete",
-      [x["id"] for x in ev] == [f"B9-E-{i:02d}" for i in range(1, 21)])
-check("A5 node rows B9-N-01..14 + B9-M-01 sequential, complete",
-      [x["id"] for x in nv] == [f"B9-N-{i:02d}" for i in range(1, 15)]
-      + ["B9-M-01"])
-check("A6 identity rows B9-ID-01..06 sequential, complete",
-      [x["id"] for x in ids] == [f"B9-ID-{i:02d}" for i in range(1, 7)])
+      and "not been independently re-executed"
+      in (r.get("reported_state_caveat") or "")
+      and "5db5de1" in (r.get("reported_state_caveat") or ""))
+check("A4 edge rows B10-E-01..B10-E-19 sequential, complete",
+      [x["id"] for x in ev] == [f"B10-E-{i:02d}" for i in range(1, 20)])
+check("A5 node rows B10-N-01..07 + B10-M-01 sequential, complete",
+      [x["id"] for x in nv] == [f"B10-N-{i:02d}" for i in range(1, 8)]
+      + ["B10-M-01"])
+check("A6 identity rows B10-ID-01..05 sequential, complete",
+      [x["id"] for x in ids] == [f"B10-ID-{i:02d}" for i in range(1, 6)])
 V_EDGE = {"CONFIRM", "REJECT", "HOLD", "MERGE", "SPLIT"}
 V_ID = {"MERGE", "SPLIT", "KEEP_AS_IS"}
 check("A7 all verdicts in vocabulary, none empty",
@@ -211,7 +242,7 @@ check("A7 all verdicts in vocabulary, none empty",
       and all(x["verdict"] in V_EDGE for x in nv)
       and all(x["verdict"] in V_ID for x in ids))
 check("A8 template consumed (fill + rename per the gate pathway)",
-      not (HERE / "c11_batch9_verdicts_template.yaml").exists()
+      not (HERE / "c11_batch10_verdicts_template.yaml").exists()
       and VERDICTS.exists())
 check("A9 encoding mapping records the universal-ruling encoding + the "
       "ACCEPT->KEEP_AS_IS vocabulary mapping + the code-keying "
@@ -231,43 +262,45 @@ for x in ev:
 nc = {}
 for x in nv:
     nc[x["verdict"]] = nc.get(x["verdict"], 0) + 1
-check("B1 edge verdicts: 20 CONFIRM / 0 others",
-      ec == {"CONFIRM": 20}, f"{ec}")
-check("B2 node verdicts: 15 CONFIRM / 0 others",
-      nc == {"CONFIRM": 15}, f"{nc}")
-check("B3 identity decisions: 6 x KEEP_AS_IS (the §6.2 ACCEPT of each "
+check("B1 edge verdicts: 19 CONFIRM / 0 others",
+      ec == {"CONFIRM": 19}, f"{ec}")
+check("B2 node verdicts: 8 CONFIRM / 0 others",
+      nc == {"CONFIRM": 8}, f"{nc}")
+check("B3 identity decisions: 5 x KEEP_AS_IS (the §6.1 ACCEPT of each "
       "keep-as-ruled question)",
-      [x["verdict"] for x in ids] == ["KEEP_AS_IS"] * 6
+      [x["verdict"] for x in ids] == ["KEEP_AS_IS"] * 5
       and all("ACCEPT" in x["notes"] for x in ids))
-check("B4 batch 9 authored ZERO RR edges (no settlement row needed)",
+check("B4 batch 10 authored ZERO RR edges (no settlement row needed)",
       not any(e["validation_status"] == "REVIEW_REQUIRED"
               for e in dec["edges"]))
 check("B5 held appendix acknowledged (9 preserved, quarantined; the "
-      "operator's six conservative-treatment categories recorded; no "
-      "per-candidate dispositions invented)",
+      "operator's NINE per-candidate KEEP HELD dispositions recorded "
+      "verbatim; the §19 failure-class provenance rule recorded)",
       held_ack.get("acknowledged") is True
       and len(dec["held"]) == 9
       and all(h["status"] == "held" for h in dec["held"])
-      and "surface-minimal prerequisites" in (held_ack.get("notes") or "")
-      and "no per-candidate dispositions are recorded" in
-      (held_ack.get("notes") or ""))
+      and "catalyst mechanism not load-bearing"
+      in (held_ack.get("notes") or "")
+      and "exo/endo is enrichment, not load-bearing"
+      in (held_ack.get("notes") or "")
+      and "failure-class provenance" in (held_ack.get("notes") or ""))
 
 b_suggested = {triple(e) for e in dec["edges"]
                if e["validation_status"] == "SUGGESTED"}
-check("B6 verdict triples = the batch-9 record's 20 SUGGESTED edges",
-      {x["triple"] for x in ev} == b_suggested and len(b_suggested) == 20)
-check("B7 verdict node codes = the batch-9 record's 15 node codes "
-      "(14 CONCEPT + 1 MISCONCEPTION)",
+check("B6 verdict triples = the batch-10 record's 19 SUGGESTED edges",
+      {x["triple"] for x in ev} == b_suggested and len(b_suggested) == 19)
+check("B7 verdict node codes = the batch-10 record's 8 node codes "
+      "(7 CONCEPT + 1 MISCONCEPTION)",
       {x["code"] for x in nv} == {c["code"] for c in dec["nodes"]}
-      and len(dec["nodes"]) == 15
-      and sum(1 for c in dec["nodes"] if c["family"] == "CONCEPT") == 14
+      and len(dec["nodes"]) == 8
+      and sum(1 for c in dec["nodes"] if c["family"] == "CONCEPT") == 7
       and sum(1 for c in dec["nodes"]
               if c["family"] == "MISCONCEPTION") == 1)
-check("B8 NO operator_decision blocks in the batch-9 record (none "
+check("B8 NO operator_decision blocks in the batch-10 record (none "
       "sanctioned: no RR, no ENRICHMENT node, all identity KEEP_AS_IS)",
       sum(1 for x in dec["nodes"] + dec["edges"]
           if "operator_decision" in x) == 0)
-check("B9 no ENRICHMENT-scoped node in batch 9 (none to scope)",
+check("B9 no ENRICHMENT-scoped node in batch 10 (none to scope)",
       not any(sp.get("role") == "ENRICHMENT"
               for x in dec["nodes"] for sp in x.get("spec_points", [])))
 check("B10 NO CONFIRM_WITH_NOTE in this batch — the operator ruled "
@@ -279,29 +312,29 @@ check("B10 NO CONFIRM_WITH_NOTE in this batch — the operator ruled "
       and "anti-duplication guardrail" in (r.get("mapping") or "")
       and "REPORTED / VERIFIED BY SUBMITTED ARTIFACT"
       in (r.get("reported_state_caveat") or ""))
-# the FIVE boundary rows carry the ownership/retention note
+# the THIRTEEN boundary rows carry the ownership/retention note
 bnd_rows = [x for x in ev if x["triple"] in BOUNDARY_EDGES_EXISTING]
-check("B11 the FIVE sanctioned boundary rows carry the "
-      "ownership/retention note (session-62 ruling; 'retained exactly as "
+check("B11 the THIRTEEN sanctioned boundary rows carry the "
+      "ownership/retention note (session-64 ruling; 'retained exactly as "
       "ruled'; no duplicate mint)",
-      len(bnd_rows) == 5
+      len(bnd_rows) == 13
       and all("Sanctioned cross-section boundary edge" in x["notes"]
               and "retained exactly as ruled" in x["notes"]
               for x in bnd_rows))
-e19 = next(x for x in ev if x["id"] == "B9-E-19")
-check("B12 the E-19 note carries the pinned MS Q2b Reject record "
-      "(B9-ID-06 linkage)",
-      "Reject references to double bonds in kerosene" in e19["notes"]
-      and "B9-ID-06" in e19["notes"])
-check("B13 the six identity-linked nodes carry their B9-ID linkage in "
-      "notes (the five one-family consolidations + the misconception "
+e05 = next(x for x in ev if x["id"] == "B10-E-05")
+check("B12 the E-05 note carries the pinned Alkenes MS Q4(b)(ii) Reject "
+      "record (B10-ID-05 linkage)",
+      "Reject propan-1-ol / 1-propanol" in e05["notes"]
+      and "B10-ID-05" in e05["notes"])
+check("B13 the five identity-linked nodes carry their B10-ID linkage in "
+      "notes (the four one-family consolidations + the misconception "
       "mint); plain CONFIRM rows carry none",
       all(iid in next(x["notes"] for x in nv if x["code"] == code)
           for code, iid in IDENTITY_LINK.items())
-      and sum(1 for x in nv if x["notes"] == "") == 9)
+      and sum(1 for x in nv if x["notes"] == "") == 3)
 
 # ---------------------------------------------------------------------------
-# C. application (three-way set equality; session-63 §18 application)
+# C. application (three-way set equality; session-65 §18 application)
 # ---------------------------------------------------------------------------
 sem = [e for e in edges_doc["edges"] if e["relation"] != "PART_OF"]
 hv = {triple(e) for e in sem if e["validation_status"] == "HUMAN_VALIDATED"}
@@ -311,40 +344,44 @@ confirms = {x["triple"] for x in ev if x["verdict"] == "CONFIRM"}
 store_map = {" ".join((p["edge"]["source"], p["edge"]["relation"],
                        p["edge"]["target"])): p
              for p in promo["promotions"]}
-check("C1 live batch-9 HUMAN_VALIDATED set = the 20 CONFIRM verdicts",
-      b_hv == confirms and len(b_hv) == 20,
+check("C1 live batch-10 HUMAN_VALIDATED set = the 19 CONFIRM verdicts",
+      b_hv == confirms and len(b_hv) == 19,
       f"live = {len(b_hv)}, verdicts = {len(confirms)}")
-check("C2 promotion store = exactly the 20 batch-9 CONFIRM entries",
+check("C2 promotion store = exactly the 19 batch-10 CONFIRM entries",
       set(store_map) & b_triples == confirms)
 b_store = {k: p for k, p in store_map.items() if k in b_triples}
-check("C3 batch-9 store entries carry operator attribution + 2026-09-25",
+check("C3 batch-10 store entries carry operator attribution + 2026-09-25",
       all(p.get("validated_by") == "operator"
           and p.get("validated_date") == "2026-09-25"
           for p in b_store.values()), f"entries = {len(b_store)}")
-check("C4 batch-9 store entries reference the B9 diff-review bundle",
+check("C4 batch-10 store entries reference the B10 diff-review bundle",
       all(p.get("review_reference") == BUNDLE_REF
           for p in b_store.values()))
 check("C5 no REJECT/HOLD/MERGE/SPLIT verdicts left un-applied",
       all(x["verdict"] == "CONFIRM" for x in ev))
-check("C6 the FIVE sanctioned cross-section boundary edges are "
-      "HUMAN_VALIDATED (session-62 ruling applied, not re-minted)",
+check("C6 the THIRTEEN sanctioned cross-section boundary edges are "
+      "HUMAN_VALIDATED (session-64 ruling applied, not re-minted)",
       all(any(triple(e) == t and e["validation_status"] == "HUMAN_VALIDATED"
               for e in sem)
           for t in BOUNDARY_EDGES_EXISTING))
-check("C7 boundary ownership exact: ALL FIVE boundary edges target "
-      "EXISTING owners ABSENT from the batch-9 mint (batch-1 "
-      "CON-FRACTIONAL-DISTILLATION; pilot CON-EMPIRICAL-FORMULA + "
-      "CON-MOLECULAR-FORMULA; batch-5 CON-COMBUSTION-O2; batch-1 "
-      "CON-MIXTURE)",
+check("C7 boundary ownership exact: ALL THIRTEEN boundary edges target "
+      "EXISTING owners ABSENT from the batch-10 mint (the batch-9 owners "
+      "CON-HOMOLOGOUS-SERIES x2, CON-ORGANIC-FORMULAE x2, CON-HYDROCARBON, "
+      "CON-ALKANES, CON-ORGANIC-REACTION-CLASSES, CON-IUPAC-NAMING, "
+      "CON-CRACKING; batch-5 CON-COMBUSTION-O2; batch-6 CON-OX-RED-AGENTS; "
+      "batch-1 CON-FRACTIONAL-DISTILLATION; batch-7 CON-ACID-REACTIONS)",
       all(t.split()[2] not in {c["code"] for c in dec["nodes"]}
           for t in BOUNDARY_EDGES_EXISTING)
       and {t.split()[2] for t in BOUNDARY_EDGES_EXISTING}
-      == {"4CH1-CON-FRACTIONAL-DISTILLATION", "4CH1-CON-EMPIRICAL-FORMULA",
-          "4CH1-CON-MOLECULAR-FORMULA", "4CH1-CON-COMBUSTION-O2",
-          "4CH1-CON-MIXTURE"})
+      == {"4CH1-CON-HOMOLOGOUS-SERIES", "4CH1-CON-ORGANIC-FORMULAE",
+          "4CH1-CON-HYDROCARBON", "4CH1-CON-ALKANES",
+          "4CH1-CON-ORGANIC-REACTION-CLASSES", "4CH1-CON-IUPAC-NAMING",
+          "4CH1-CON-CRACKING", "4CH1-CON-COMBUSTION-O2",
+          "4CH1-CON-OX-RED-AGENTS", "4CH1-CON-FRACTIONAL-DISTILLATION",
+          "4CH1-CON-ACID-REACTIONS"})
 
 # ---------------------------------------------------------------------------
-# D. invariants (pilot + batch-1..8 slices, store total, negative control,
+# D. invariants (pilot + batch-1..9 slices, store total, negative control,
 #    boundary mint discipline)
 # ---------------------------------------------------------------------------
 # pilot slice
@@ -360,47 +397,30 @@ pilot_holds = {x["triple"] for x in pilot_vd["edge_verdicts"]
                if x["verdict"] == "HOLD"}
 live_sugg = {triple(e) for e in sem
              if e["validation_status"] == "SUGGESTED"}
-# session-63 re-anchor (2026-09-25, dated): the batch-9 verdicts were
-# APPLIED through §18 (20 promotions, operator) — the 20 batch-9 authored
-# edges left the SUGGESTED surface, so the live SUGGESTED semantic surface
-# is again EXACTLY the 3 frozen pilot operator HOLDs (the pre-session-62
-# authoring state). No test weakened.
 check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
       pilot_hv == pilot_confirms and len(pilot_hv) == 28)
-# session-64 re-anchor (2026-09-25, dated; protective intent unchanged):
-# the batch-10 authored-to-gate record (19 authored semantic edges) now
-# joins the live SUGGESTED surface AT ITS OPERATOR GATE (the operator's
-# 'commission batch 10' directive; the batch ends at the gate, zero
-# promotions) — the surface is the 3 frozen pilot HOLDs PLUS the 19
-# batch-10 authored edges; the batch-4..9 authored sets stay fully
-# HUMAN_VALIDATED.
-B9_DEC = HERE / "c11_batch9_decisions.yaml"
-B9_AUTHORED = {triple(e)
-               for e in (yaml.safe_load(B9_DEC.read_text(encoding="utf-8"))
-                         .get("edges") or [])}
-B10_DEC = HERE / "c11_batch10_decisions.yaml"
-B10_AUTHORED = {triple(e)
-                for e in (yaml.safe_load(B10_DEC.read_text(encoding="utf-8"))
-                          .get("edges") or [])}
-# session-65 re-anchor (2026-09-25, dated): the batch-10 verdicts were
-# APPLIED through §18 (19 promotions, operator, the B10 diff-review
-# bundle) — the 19 batch-10 authored edges left the SUGGESTED surface
-# (live SUGGESTED = the 3 pilot HOLDs again) and store total
-# 236 -> 255. No test weakened.
+# session-65 re-anchor (2026-09-25, dated; protective intent unchanged):
+# the batch-10 verdicts were APPLIED through §18 (19 promotions,
+# operator) — the 19 batch-10 authored edges left the SUGGESTED surface,
+# so the live SUGGESTED semantic surface is again EXACTLY the 3 frozen
+# pilot operator HOLDs (the pre-session-64 authoring state). The
+# batch-9 AND batch-10 authored sets are fully HUMAN_VALIDATED. No test
+# weakened.
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
       "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
-      "batch-9 authored edges were promoted by the operator's verdicts "
-      "through §18 at session 63; the batch-10 authored edges were "
-      "promoted by the operator's verdicts through §18 at session 65)",
+      "batch-9 authored edges were promoted at session 63 and the "
+      "batch-10 authored edges were promoted by the operator's verdicts "
+      "through §18 at session 65)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
       and live_sugg == pilot_holds
-      and B9_AUTHORED <= hv and B10_AUTHORED <= hv,
+      and {triple(e) for e in b9_dec["edges"]} <= hv
+      and b_triples <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
       len(pilot_rr) == 1
       and pilot_rr[0]["validation_status"] == "REVIEW_REQUIRED")
-# batch-1..8 slices
+# batch-1..9 slices
 b1_triples = {triple(e) for e in b1_dec["edges"]}
 b1_hv = {t for t in hv if t in b1_triples}
 b1_confirms = {x["triple"] for x in b1_vd["edge_verdicts"]
@@ -453,7 +473,14 @@ b8_confirms = {x["triple"] for x in b8_vd["edge_verdicts"]
                if x["verdict"] == "CONFIRM"}
 check("D12 batch-8 slice intact: 10 batch-8 CONFIRM still HUMAN_VALIDATED",
       b8_hv == b8_confirms and len(b8_hv) == 10)
-check("D13 store total 255 (28+28+23+39+35+18+16+19+10+20+19), all operator",
+b9_triples = {triple(e) for e in b9_dec["edges"]}
+b9_hv = {t for t in hv if t in b9_triples}
+b9_confirms = {x["triple"] for x in b9_vd["edge_verdicts"]
+               if x["verdict"] == "CONFIRM"}
+check("D13 batch-9 slice intact: 20 batch-9 CONFIRM still HUMAN_VALIDATED",
+      b9_hv == b9_confirms and len(b9_hv) == 20)
+check("D14 store total 255 (28+28+23+39+35+18+16+19+10+20+19), all "
+      "operator",
       len(store_map) == 255
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
@@ -462,12 +489,13 @@ n415 = [x for x in nodes_doc["nodes"]
                for sp in x.get("spec_points", []))]
 e415 = [e for e in edges_doc["edges"]
         if any("4.15" in a.get("file", "") for a in e.get("evidence", []))]
-check("D14 negative control 4CH1-4.15: zero node/edge attachments",
+check("D15 negative control 4CH1-4.15: zero node/edge attachments",
       len(n415) == 0 and len(e415) == 0,
       f"nodes = {len(n415)}, edges = {len(e415)}")
-check("D15 no PART_OF edge promoted through the §18 record "
+check("D16 no PART_OF edge promoted through the §18 record "
       "(PART_OF HV rows exist only via the later T-C19 G19 record; the "
-      "batch-6/7/8/9 PART_OF rows stay SUGGESTED pending their own lane)",
+      "batch-6/7/8/9/10 PART_OF rows stay SUGGESTED pending their own "
+      "lane)",
       not any(p.get("relation") == "PART_OF"
               for p in (promo.get("promotions") or []))
       and sum(1 for e in edges_doc["edges"]
@@ -477,31 +505,41 @@ check("D15 no PART_OF edge promoted through the §18 record "
               for e in edges_doc["edges"]
               if e["relation"] == "PART_OF"
               and e["validation_status"] != "HUMAN_VALIDATED"))
-check("D16 no batch-9 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
-      "the §6 confirmations do not promote nodes — 'Authority remains: "
-      "SUGGESTED')",
+check("D17 no batch-10 node is HUMAN_VALIDATED (nodes have no §18 "
+      "pathway; the §6 confirmations do not promote nodes — 'Authority "
+      "remains SUGGESTED')",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D17 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
+check("D18 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
       "semantic) — verdicts move statuses only, never shape",
       len(nodes_doc["nodes"]) == 188 and len(edges_doc["edges"]) == 459
       and sum(1 for e in edges_doc["edges"]
               if e["relation"] == "PART_OF") == 199)
-# boundary mint discipline (the session-62 cross-slice ruling)
+# boundary mint discipline (the session-64 cross-slice ruling)
 non_mint = set(rul["boundary_edge_ruling"]["non_mint_list"])
-b9_codes = {c["code"] for c in dec["nodes"]}
-check("D18 zero ruled non-mint owner re-minted in the batch-9 node set "
+b10_codes = {c["code"] for c in dec["nodes"]}
+check("D19 zero ruled non-mint owner re-minted in the batch-10 node set "
       "(the ruling's non_mint_list codes absent from the mint)",
-      len(non_mint) == 44 and not (b9_codes & non_mint),
+      len(non_mint) == 48 and not (b10_codes & non_mint),
       f"non_mint = {len(non_mint)}, collision = "
-      f"{sorted(b9_codes & non_mint)}")
+      f"{sorted(b10_codes & non_mint)}")
 # the sanctioned boundary targets exist exactly once in the live store
 # (no duplicate mint by the boundary edges' application)
 for t in BOUNDARY_EDGES_EXISTING:
     hits = [e for e in edges_doc["edges"] if triple(e) == t]
-    check(f"D19 boundary target authored exactly once: {t}",
+    check(f"D20 boundary target authored exactly once: {t}",
           len(hits) == 1 and hits[0]["validation_status"] == "HUMAN_VALIDATED")
-# the 9 held candidates were never authored -> absent from the live store
+# the 9 held candidates were never authored FROM the held record -> the
+# held surface contributes nothing to the store. ONE documented triple
+# coincidence exists: B10-H-04's candidate (CARBOXYLIC-ACIDS RP
+# ORGANIC-FORMULAE) equals the sanctioned boundary edge B10-E-18 (the
+# session-64 ruling's TARGET-2 second edge, the batch-5 x2 precedent;
+# TARGET-2's for_sps explicitly includes 4CH1-4.35C). The gate sheet
+# presents BOTH surfaces (§3 row 18 + §4 H-04) and the operator ruled on
+# both: E-18 CONFIRM (§6.2) and H-04 KEEP HELD — 'existing formula
+# boundary owner already available' (§6.3). The store contains the
+# AUTHORED edge (promoted via the E-18 CONFIRM verdict), never a
+# held-record promotion.
 import re as _re
 held_triples = set()
 for h in dec["held"]:
@@ -511,27 +549,49 @@ for h in dec["held"]:
         rel_full = {"REQUIRES_PREREQUISITE": "REQUIRES_PREREQUISITE",
                     "RELATED_TO": "RELATED_TO"}[rel]
         held_triples.add(f"4CH1-{a} {rel_full} 4CH1-{b}")
-check("D20 the 9 batch-9 held candidates stay quarantined (recorded, "
-      "never authored; zero held-candidate triples exist in the store)",
+store_triples = {triple(e) for e in edges_doc["edges"]}
+overlap = held_triples & store_triples
+h04_triple = "4CH1-CON-CARBOXYLIC-ACIDS REQUIRES_PREREQUISITE " \
+             "4CH1-CON-ORGANIC-FORMULAE"
+e18_row = next(x for x in ev if x["id"] == "B10-E-18")
+h04 = next(h for h in dec["held"] if h["id"] == "B10-H-04")
+check("D21 the 9 batch-10 held candidates stay quarantined (recorded, "
+      "never authored FROM the held record; the ONE triple coincidence "
+      "B10-H-04 == the sanctioned boundary edge B10-E-18 is the "
+      "session-64 ruling's TARGET-2 x2 precedent — both surfaces "
+      "explicitly ruled by the operator; every OTHER held triple absent "
+      "from the store)",
       len(held_triples) == 9
-      and not (held_triples & {triple(e) for e in edges_doc["edges"]}))
+      and overlap == {h04_triple}
+      and h04_triple == e18_row["triple"]
+      and e18_row["verdict"] == "CONFIRM"
+      and h04_triple in BOUNDARY_EDGES_EXISTING
+      and "4CH1-4.35C" in next(s["for_sps"] for s in
+                               rul["boundary_edge_ruling"]["sanctioned_targets"]
+                               if s["target"] ==
+                               "4CH1-CON-ORGANIC-FORMULAE")
+      and "KEEP HELD" in (held_ack.get("notes") or "")
+      and "existing formula boundary owner already available"
+      in (held_ack.get("notes") or ""),
+      f"overlap = {sorted(overlap)}")
 
 # ---------------------------------------------------------------------------
 print()
 if fails:
     print(f"FAILED: {len(fails)} check(s): {fails}")
     raise SystemExit(1)
-print(f"c11_batch9_verdict_check: ALL PASS — batch-9 operator verdict "
-      f"layer (20+15+6 rows, the completed-sheet §6/§7 verdict: PASS WITH "
+print(f"c11_batch10_verdict_check: ALL PASS — batch-10 operator verdict "
+      f"layer (19+8+5 rows, the completed-sheet §6/§7 verdict: PASS WITH "
       f"NOTES; zero RR authored; UNIVERSAL rulings — no WITH_NOTE this "
-      f"batch; the session-63 intake record — INLINE RESTATED sheet via "
-      f"the zai-web chat lane, the batch-9 CONFORMANCE gates — + the "
-      f"operator's REPORTED-state caveat) schema-valid, "
-      f"record-reconciled, application-reconciled (20 §18 promotions = "
-      f"the CONFIRM set; no operator_decision blocks; pilot + batch-1..8 "
-      f"slices intact; 255 store entries total; the THIRTEEN boundary targets "
-      f"applied with exact ownership — all existing owners (batch-1 "
-      f"CON-FRACTIONAL-DISTILLATION, pilot CON-EMPIRICAL-FORMULA + "
-      f"CON-MOLECULAR-FORMULA, batch-5 CON-COMBUSTION-O2, batch-1 "
-      f"CON-MIXTURE), zero re-mint; 44 non-mint owners respected; the 9 "
-      f"held candidates quarantined).")
+      f"batch; the session-65 intake record — INLINE RESTATED sheet, "
+      f"detail-preserving variant, via the zai-web chat lane, the "
+      f"batch-9/10 CONFORMANCE gates — + the operator's REPORTED-state "
+      f"caveat) schema-valid, record-reconciled, application-reconciled "
+      f"(19 §18 promotions = the CONFIRM set; no operator_decision "
+      f"blocks; pilot + batch-1..9 slices intact; 255 store entries "
+      f"total; the THIRTEEN boundary targets applied with exact "
+      f"ownership — all existing owners (the batch-9 owners x7 distinct "
+      f"targets, batch-5 CON-COMBUSTION-O2, batch-6 CON-OX-RED-AGENTS, "
+      f"batch-1 CON-FRACTIONAL-DISTILLATION, batch-7 CON-ACID-REACTIONS), "
+      f"zero re-mint; 48 non-mint owners respected; the 9 held "
+      f"candidates quarantined with per-candidate dispositions).")

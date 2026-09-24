@@ -1013,6 +1013,12 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # promotes nothing); the live SUGGESTED semantic surface is now the 3
 # frozen pilot operator HOLDs + the 19 batch-10 authored edges, pending the
 # operator's batch-10 verdicts.
+# session-65 state note (dated, no test weakened): the batch-10 verdicts
+# were APPLIED through §18 (19 operator promotions, c11_batch10_verdicts,
+# 2026-09-25, the B10 diff-review bundle) — semantic HV 236 -> 255; the
+# live SUGGESTED semantic surface is again EXACTLY the 3 frozen pilot
+# operator HOLDs; graph shape unchanged (statuses only; the batch-9/10
+# PART_OF rows stay SUGGESTED pending their own lane).
 # session-64 re-anchor (dated): the store grew 180/425/184 -> 188/459/199
 # by the SANCTIONED batch-10 authored-to-gate record (15 nodes-worth of
 # PART_OF rows ride the SP attachments; 19 authored semantic edges; 15 new
@@ -1883,8 +1889,8 @@ def main():
           f"authored-to-gate slice S4-d/e/f 4.23-4.37C, "
           f"batch-6 verdicts applied session 58, batch-7 verdicts "
           f"applied session 60, batch-8 verdicts applied session 62, "
-          f"batch-9 verdicts applied session 63, batch-10 authored to its "
-          f"operator gate session 64): "
+          f"batch-9 verdicts applied session 63, batch-10 verdicts "
+          f"applied session 65): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1897,7 +1903,7 @@ def main():
           f"session 56; batch-6 verdicts applied session 58; batch-7 "
           f"verdicts applied session 60; batch-8 verdicts applied "
           f"session 62; batch-9 verdicts applied session 63; batch-10 "
-          f"authored to its operator gate session 64 — "
+          f"verdicts applied session 65 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

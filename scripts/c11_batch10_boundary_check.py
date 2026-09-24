@@ -17,7 +17,7 @@ checkable, not prose (the c11_batch9_boundary_check.py pattern):
                               batch-10 authoring (checked post-authoring), the
                               non_mint_list is duplicate-free + covered, the
                               semantic HV count is the operator promotions
-                              (236; PART_OF HV rides the later T-C19 G19
+                              (255; PART_OF HV rides the later T-C19 G19
                               record)
 
 Usage: python3 scripts/c11_batch10_boundary_check.py
@@ -154,11 +154,15 @@ check("D2 the ruling mints no edge beyond the sanctioned batch-10 authoring",
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")
-check("D3 semantic HV at the operator-promoted count (236; the batch-10 "
+# session-65 re-anchor (2026-09-25, dated): the batch-10 §18 application
+# (19 operator promotions, c11_batch10_verdicts, the B10 diff-review
+# bundle) moved the semantic HV count 236 -> 255; the protected property
+# is unchanged.
+check("D3 semantic HV at the operator-promoted count (255; the batch-10 "
       "authoring promotes nothing and the ruling itself still mints "
-      "nothing — promotion happens only at the operator's verdict gate "
-      "via §18; PART_OF HV rides the T-C19 G19 record)",
-      hv == 236)
+      "nothing — promotion happened only at the operator's verdict gate "
+      "via §18 at session 65; PART_OF HV rides the T-C19 G19 record)",
+      hv == 255)
 check("D4 non_goals recorded (no ontology redesign / no re-opening / no "
       "re-scope / no promotion authority / no direct writes)",
       len(rul.get("non_goals", [])) >= 5)

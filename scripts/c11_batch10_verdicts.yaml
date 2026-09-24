@@ -1,0 +1,395 @@
+# T-C11 §16 batch 10 — OPERATOR verdict record (session-64 package), FILLED by operator decision session 65 (2026-09-25). OPERATOR-OWNED.
+# Operator verdict (completed sheet §6/§7, C11_BATCH10_REVIEW_SHEET_COMPLETED intake, INLINE RESTATED sheet via the zai-web chat lane): all 8 node
+# verdicts and all 19 edge verdicts CONFIRM (UNIVERSAL rulings — no per-row qualifications this batch; the NOTES in PASS WITH NOTES are
+# the sheet-level REPORTED caveat + the anti-duplication guardrail, carried in meta.operator_ruling); the five identity
+# decisions ACCEPT -> KEEP_AS_IS; the 9 held candidates acknowledged and quarantined WITH per-candidate KEEP HELD dispositions; zero RR;
+# zero REJECT. Intake form: INLINE RESTATED COMPLETED SHEET (detail-preserving variant) — the §1/§2/§3/§4/§5 detail columns are
+# condensed while the per-row surface (8 node codes, 6 in-slice TRIPLEs, 11 owner codes, 9 held ids) is preserved; the batch-5/6/8
+# byte-identity check does NOT apply; the batch-9/10 CONFORMANCE gates apply and PASS (see meta.operator_ruling.completed_sheet).
+# Vocabulary and pathway: see the meta.operator_ruling.mapping block. Verdicts are RECORDED; the application state lives in
+# scripts/c11_promotions.yaml (§18) — never here.
+meta:
+  task: T-C11
+  stage: s16-batch-10-verdicts
+  batch: 10
+  session: 65
+  file: OPERATOR-OWNED verdict record for C11_BATCH10_REVIEW_SHEET (session-64 package) — verdicts recorded
+    by operator decision, session 65 (2026-09-25), from the operator's completed review sheet §6/§7 (C11_BATCH10_REVIEW_SHEET_COMPLETED
+    intake, inline restated sheet via the zai-web chat lane).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-10 extraction_pass
+    is c11-s16-batch-10 (Section 4 Organic Chemistry SECOND slice: S4-d Alkenes 4.23-4.28 + S4-e Alcohols
+    4.29C-4.33C + S4-f Carboxylic acids 4.34C-4.37C = 15 authorable SPs; no practicals own any batch-10
+    SP). Its 9 held candidates are informational only (no reopening, no promotion of held candidates).
+    THIRTEEN edges are cross-section boundary edges into the ELEVEN ruled targets (batch-9 owners CON-HOMOLOGOUS-SERIES
+    x2, CON-ORGANIC-FORMULAE x2, CON-HYDROCARBON, CON-ALKANES, CON-ORGANIC-REACTION-CLASSES, CON-IUPAC-NAMING,
+    CON-CRACKING; batch-5 CON-COMBUSTION-O2; batch-6 CON-OX-RED-AGENTS; batch-1 CON-FRACTIONAL-DISTILLATION;
+    batch-7 CON-ACID-REACTIONS; sanctioned by the session-64 cross-slice ruling, no duplicate mint). The
+    next session applies verdicts via the §18 promotion pathway; nothing here is HUMAN_VALIDATED.'
+  operator_ruling:
+    statement: 'VERDICT: PASS WITH NOTES. The Batch 10 submission is accepted for operator review based
+      on the evidence and machine-state claims contained in the submitted review sheet. Operator verdict
+      surface: Nodes 8/8 CONFIRM; Authored edges 19/19 CONFIRM; Identity decisions 5/5 accepted (B10-ID-01..05);
+      Held candidates 9/9 acknowledge + quarantine; REVIEW_REQUIRED 0; Rejected authored edges 0; Node
+      promotions 0; Edge promotions 0; Duplicate concept mints 0; Boundary edges 13 - RETAIN; Authority
+      SUGGESTED. Final operator disposition: ''PASS WITH NOTES - Batch 10 may proceed to the normal C11
+      reconciliation / promotion pathway.'' Required next steps (§7, verbatim order): 1. Encode the completed
+      Batch 10 verdict surface. 2. Reconcile B10-ID-01 through B10-ID-05. 3. Preserve all 13 sanctioned
+      boundary edges. 4. Ensure no duplicate concept is minted for an existing boundary owner. 5. Preserve
+      B10-H-01 through B10-H-09 as quarantined abstentions. 6. Apply §18 promotion only to explicitly
+      authorized promotion records. 7. Regenerate the graph. 8. Rerun the complete C11 gate suite. 9.
+      Verify regenerated node/edge counts. 10. Verify held-candidate provenance. 11. Verify boundary-owner
+      integrity. 12. Verify the 4.15 negative-control carve-out remains uncovered. ''No node or edge is
+      promoted by this review sheet itself.'''
+    session: 65
+    decided_by: operator
+    decided_date: '2026-09-25'
+    completed_sheet: 'The completed review sheet C11_BATCH10_REVIEW_SHEET_COMPLETED.md, delivered 2026-09-25
+      INLINE in-chat (the zai-web channel; the session-63 intake precedent). INTAKE FORM: INLINE RESTATED
+      COMPLETED SHEET (detail-preserving variant) — the operator preserved the submitted sheet''s verdict
+      surface INCLUDING per-row detail (the §6.1 8-code node table, the §6.2 six in-slice edge TRIPLEs
+      restated verbatim in the sanctioned shorthand, the ELEVEN boundary owner codes with their owning-batch
+      attributions, and the §6.3 nine held ids with per-candidate dispositions) but condensed: the §1
+      totals/raw-agreement/forecast-calibration paragraphs, the §2 node detail columns (family/title/attaches/conf/evidence),
+      the §3 edge detail columns (conf/derivation/evidence; the 13 boundary TRIPLEs restated as the ELEVEN
+      owner targets + the 13-edge count), the §4 held candidate/failure-class columns and the §5 pathway
+      line. The batch-5/6/8 §1-5 byte-identity check therefore DOES NOT APPLY and is NOT claimed; the
+      batch-9/10 CONFORMANCE GATES apply instead (machine-checked at intake by scripts/c11_batch10_intake_drift_check.py
+      — ALL PASS — and re-asserted by this script at encode time): universal totals, the six §6.2 in-slice
+      TRIPLEs matching gate rows 1-6 exactly modulo the sanctioned 4CH1- prefix shorthand, the ELEVEN
+      §6.4 owner codes equal to the distinct targets of gate rows 7-19, the owner->batch attribution list
+      matching the session-64 ruling, the five identity sentences verbatim by id, the held range B10-H-01..09
+      with per-candidate KEEP HELD dispositions, the counts block, the REPORTED caveat x2, and ''No node
+      or edge is promoted by this review sheet itself.'''
+    reported_state_caveat: 'Recorded verbatim from the operator''s §6/§6.6: the submitted artifact''s
+      machine-state claims (8/8 node pass-2 agreement; 19/19 authored-edge pass-2 agreement; 9/9 held
+      candidates retained; 37 quote probes plus pre-verification checks; a green merged store at 188 nodes
+      / 459 edges; zero pass-2 findings requiring re-authoring; zero demotions; zero batch-10 promotions;
+      the 4.15 negative-control carve-out uncovered; 13 sanctioned cross-section boundary edges with no
+      duplicate concept minting) are classified as ''REPORTED / VERIFIED BY SUBMITTED ARTIFACT, rather
+      than independently re-executed in this review'' (§6; §6.6: ''They have not been independently re-executed
+      during this review. That distinction should remain explicit rather than silently upgrading the submitted
+      machine-state report into an independent verification.'') The verdict session closed that gap on
+      the operator''s behalf: the machine state was verified directly at 5db5de1 (the authoring head,
+      local == origin/main, tree clean) before encoding — 188 nodes / 459 edges / 199 PART_OF / 236 semantic
+      HV; the decision, pass-2 and boundary YAMLs reconciled 1:1; §16 AUTHORIZED.'
+    mapping: 'The operator reviewed the session-64 gate package and returned the completed sheet §6/§7:
+      all 8 node verdicts CONFIRM (''All eight proposed identities are accepted for this review surface'';
+      ''Authority remains SUGGESTED.''; ''No node is promoted by this review.''); all 19 authored edges
+      CONFIRM (''All 19 submitted semantic edges are accepted with their submitted relation class and
+      direction.'') with the THIRTEEN sanctioned cross-section boundary edges ''retained exactly as ruled
+      in the submitted session-64 boundary ruling'' (HOMOLOGOUS-SERIES x2, ORGANIC-FORMULAE x2, HYDROCARBON,
+      ALKANES, ORGANIC-REACTION-CLASSES, IUPAC-NAMING and CRACKING -> the batch-9 owners; COMBUSTION-O2
+      -> the batch-5 owner; OX-RED-AGENTS -> the batch-6 owner; FRACTIONAL-DISTILLATION -> the batch-1
+      owner; ACID-REACTIONS -> the batch-7 owner; ''these are boundary relationships to existing concept
+      owners, not new node identities.''; ''No duplicate concept should be minted for any of these targets.'');
+      the five identity decisions ACCEPT (B10-ID-01..05 — keep the 4.23-4.26 alkene family unified; keep
+      the 4.27-4.28 bromine-water reaction/test family unified; keep the 4.32C-4.33C ethanol-manufacture
+      family unified; keep the 4.34C + 4.35C + 4.37C carboxylic-acids family unified; keep the single
+      assessment-documented propan-2-ol naming misconception mint) — with the anti-duplication guardrail:
+      ''These are operator identity decisions only. They must not be interpreted as permission to mint
+      duplicate concepts during reconciliation.''; the 9 held candidates ''ACKNOWLEDGE / KEEP QUARANTINED''
+      with per-candidate KEEP HELD dispositions — ''No held candidate should be reopened or promoted as
+      a consequence of this review.''; ''The §19 failure-class provenance should remain intact.''; the
+      §6.4 duplication ruling: ''Batch 10 therefore adds relationships into existing concepts, rather
+      than creating parallel concepts with equivalent meaning'' — ''consistent with the C11 invariant
+      that the graph should preserve a single canonical identity for a concept while allowing section-local
+      prerequisite relationships''; zero RR rows; zero REJECTED authored edges; final disposition ''PASS
+      WITH NOTES — Batch 10 may proceed to the normal C11 reconciliation / promotion pathway'' with the
+      twelve §7 required-next-steps. The operator verdict file itself is the authorization (the session-54/56/58/60/62/63
+      precedent). ENCODING RULES: the operator''s rulings cover the entire coded surface, so each template
+      row records CONFIRM; the verdict-record vocabulary (CONFIRM|REJECT|HOLD|MERGE|SPLIT) has no WITH_NOTE
+      value and this batch carries NO per-row qualifications anyway — the NOTES in the operator''s PASS
+      WITH NOTES are the sheet-level REPORTED caveat and the anti-duplication guardrail, recorded verbatim
+      in meta.operator_ruling; node verdicts are keyed by CODE and edge verdicts by TRIPLE — never by
+      row id — because the gate sheet''s §2 node numbering (table order = decision-record order: sheet
+      row 1 = CON-ALKENES) differs from the template''s alphabetical-by-code numbering (template B10-N-01
+      = CON-ALCOHOLS), while the edge ids coincide between the sheet §3 rows and the template (both orders
+      agree row-for-row — asserted); the identity-decision vocabulary maps the operator''s ACCEPT of each
+      keep-as-ruled question to KEEP_AS_IS (the B8-ID-03/04, B9-ID-01..06 ACCEPT-of-mint precedent); node
+      authority is NOT changed by these confirmations (nodes have no §18 pathway — node promotion remains
+      a separate identity decision, deferred); PART_OF is derived and outside §18 (the 15 batch-10 PART_OF
+      rows stay SUGGESTED pending their own lane); the application state lives in scripts/c11_promotions.yaml
+      (the §18 pathway is the only HUMAN_VALIDATED source) — this file never carries promotion payload
+      or promoted status. Changing a recorded verdict requires an explicit operator decision.'
+edge_verdicts:
+- id: B10-E-01
+  triple: 4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ALKENES
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: EXPLICIT_TEACH_SEQUENCE (NOTE): ''This allows us
+    to tell alkenes apart from alkanes using a simple chemical test called the bromine water test'''
+- id: B10-E-02
+  triple: 4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE 4CH1-CON-ALCOHOLS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: EXPLICIT_TEACH_SEQUENCE (NOTE): ''Ethanol can undergo
+    oxidation in three different ways:'''
+- id: B10-E-03
+  triple: 4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE 4CH1-CON-ALCOHOLS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: EXPLICIT_TEACH_SEQUENCE (NOTE): ''Ethanol can also
+    be produced by fermentation where sugar or starch is dissolved in water and yeast is added'''
+- id: B10-E-04
+  triple: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-CARBOXYLIC-ACIDS
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: EXPLICIT_TEACH_SEQUENCE (NOTE): ''The carboxylic
+    acids behave like other acids'''
+- id: B10-E-05
+  triple: 4CH1-MIS-PROPANOL-POSITION WRONG_ANSWER_PATTERN 4CH1-CON-ALCOHOLS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: ASSESSMENT_DOCUMENTED (MARK_SCHEME): ''Reject propan-1-ol
+    / 1-propanol'' The pinned Alkenes MS Q4(b)(ii) Reject column (''Reject propan-1-ol / 1-propanol'')
+    documents the wrong-answer class; B10-ID-05 KEEP_AS_IS (single assessment-documented misconception
+    surface).'
+- id: B10-E-06
+  triple: 4CH1-MIS-PROPANOL-POSITION REMEDIATED_BY 4CH1-CON-ALCOHOLS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: ASSESSMENT_DOCUMENTED (NOTE): ''The 1 indicates
+    that the -OH group is located on the first carbon atom in the molecule as it is possible to have it
+    located on a different carbon atom, but you do not need to know this for your exam.'' Remediation
+    target = WAP target (the B1-E-25 pattern).'
+- id: B10-E-07
+  triple: 4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''The first four
+    members of the alkene homologous series'' Sanctioned cross-section boundary edge (session-64 ruling)
+    into the batch-9 owner — ''these are boundary relationships to existing concept owners, not new node
+    identities.''; §6.2: ''retained exactly as ruled in the submitted session-64 boundary ruling''; ''No
+    duplicate concept should be minted for any of these targets.'''
+- id: B10-E-08
+  triple: 4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-FORMULAE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''The general formula
+    of an alkene is **C**<sub><b>n</b></sub>**H**<sub><b>2n</b></sub>'' Sanctioned cross-section boundary
+    edge (session-64 ruling) into the batch-9 owner — ''these are boundary relationships to existing concept
+    owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64
+    boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-09
+  triple: 4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-HYDROCARBON
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''Alkenes are unsaturated
+    hydrocarbons'' Sanctioned cross-section boundary edge (session-64 ruling) into the batch-9 owner —
+    ''these are boundary relationships to existing concept owners, not new node identities.''; §6.2: ''retained
+    exactly as ruled in the submitted session-64 boundary ruling''; ''No duplicate concept should be minted
+    for any of these targets.'''
+- id: B10-E-10
+  triple: 4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ALKANES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''All [alkanes](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-3-alkanes/4-3-1-alkanes/)
+    are **saturated** and [alkenes](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-4-alkenes/4-4-1-alkenes/)
+    are **unsaturated**'' Sanctioned cross-section boundary edge (session-64 ruling) into the batch-9
+    owner — ''these are boundary relationships to existing concept owners, not new node identities.'';
+    §6.2: ''retained exactly as ruled in the submitted session-64 boundary ruling''; ''No duplicate concept
+    should be minted for any of these targets.'''
+- id: B10-E-11
+  triple: 4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-REACTION-CLASSES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''Alkenes undergo
+    [addition reactions](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-1-introduction/4-1-3-classifying-organic-reactions/)
+    in which atoms of a simple molecule **add** **across** the C=C double bond'' Sanctioned cross-section
+    boundary edge (session-64 ruling) into the batch-9 owner — ''these are boundary relationships to existing
+    concept owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64
+    boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-12
+  triple: 4CH1-CON-ALCOHOLS REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''The names and
+    structures of the first four alcohols in the homologous series are shown below'' Sanctioned cross-section
+    boundary edge (session-64 ruling) into the batch-9 owner — ''these are boundary relationships to existing
+    concept owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64
+    boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-13
+  triple: 4CH1-CON-ALCOHOLS REQUIRES_PREREQUISITE 4CH1-CON-IUPAC-NAMING
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''In terms of naming,
+    the same system is used as for alkanes and alkenes, with the final ‘**e**’ being replaced with ‘**ol**’''
+    Sanctioned cross-section boundary edge (session-64 ruling) into the batch-9 owner — ''these are boundary
+    relationships to existing concept owners, not new node identities.''; §6.2: ''retained exactly as
+    ruled in the submitted session-64 boundary ruling''; ''No duplicate concept should be minted for any
+    of these targets.'''
+- id: B10-E-14
+  triple: 4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE 4CH1-CON-COMBUSTION-O2
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''Alcohols undergo
+    **combustion** to form carbon dioxide and water'' Sanctioned cross-section boundary edge (session-64
+    ruling) into the batch-5 owner — ''these are boundary relationships to existing concept owners, not
+    new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64 boundary ruling'';
+    ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-15
+  triple: 4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE 4CH1-CON-OX-RED-AGENTS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''Alcohols undergo
+    oxidation to produce carboxylic acids when treated with **oxidising agents**'' Sanctioned cross-section
+    boundary edge (session-64 ruling) into the batch-6 owner — ''these are boundary relationships to existing
+    concept owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64
+    boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-16
+  triple: 4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE 4CH1-CON-CRACKING
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''Ethene is a by-product
+    of the **cracking** of hydrocarbons and is a valuable feedstock for making many chemicals'' Sanctioned
+    cross-section boundary edge (session-64 ruling) into the batch-9 owner — ''these are boundary relationships
+    to existing concept owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted
+    session-64 boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-17
+  triple: 4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE 4CH1-CON-FRACTIONAL-DISTILLATION
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''The ethanol and
+    water are separated afterwards by **fractional distillation**'' Sanctioned cross-section boundary
+    edge (session-64 ruling) into the batch-1 owner — ''these are boundary relationships to existing concept
+    owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64
+    boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+- id: B10-E-18
+  triple: 4CH1-CON-CARBOXYLIC-ACIDS REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-FORMULAE
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''The general formula
+    of a carboxylic acid is **C**<sub><b>n</b></sub>**H**<sub><b>2n+1</b></sub>**COOH** which can be shortened
+    to just **RCOOH**'' Sanctioned cross-section boundary edge (session-64 ruling) into the batch-9 owner
+    — ''these are boundary relationships to existing concept owners, not new node identities.''; §6.2:
+    ''retained exactly as ruled in the submitted session-64 boundary ruling''; ''No duplicate concept
+    should be minted for any of these targets.'''
+- id: B10-E-19
+  triple: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-ACID-REACTIONS
+  pretriage: FLAGGED
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — ''All 19 submitted semantic edges are accepted with their
+    submitted relation class and direction.'' Pass-1: USED_WITHOUT_RETEACHING (NOTE): ''In the reaction
+    with **carbonates** a metal salt, water and carbon dioxide gas are produced'' Sanctioned cross-section
+    boundary edge (session-64 ruling) into the batch-7 owner — ''these are boundary relationships to existing
+    concept owners, not new node identities.''; §6.2: ''retained exactly as ruled in the submitted session-64
+    boundary ruling''; ''No duplicate concept should be minted for any of these targets.'''
+node_verdicts:
+- id: B10-N-01
+  code: 4CH1-CON-ALCOHOLS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B10-N-02
+  code: 4CH1-CON-ALKENES
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — Keep the 4.23–4.26 alkene family unified. (B10-ID-01 ACCEPT,
+    recorded KEEP_AS_IS per the vocabulary rule); ''Authority remains SUGGESTED.'''
+- id: B10-N-03
+  code: 4CH1-CON-BROMINE-WATER-TEST
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — Keep the 4.27–4.28 bromine-water reaction/test family unified.
+    (B10-ID-02 ACCEPT, recorded KEEP_AS_IS per the vocabulary rule); ''Authority remains SUGGESTED.'''
+- id: B10-N-04
+  code: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B10-N-05
+  code: 4CH1-CON-CARBOXYLIC-ACIDS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — Keep the 4.34C + 4.35C + 4.37C carboxylic-acids family unified.
+    (B10-ID-04 ACCEPT, recorded KEEP_AS_IS per the vocabulary rule); ''Authority remains SUGGESTED.'''
+- id: B10-N-06
+  code: 4CH1-CON-ETHANOL-MANUFACTURE
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — Keep the 4.32C–4.33C ethanol-manufacture family unified.
+    (B10-ID-03 ACCEPT, recorded KEEP_AS_IS per the vocabulary rule); ''Authority remains SUGGESTED.'''
+- id: B10-N-07
+  code: 4CH1-CON-ETHANOL-OXIDATION
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: CONFIRM
+  notes: ''
+- id: B10-M-01
+  code: 4CH1-MIS-PROPANOL-POSITION
+  family: MISCONCEPTION
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: CONFIRM
+  notes: 'Operator §6 (session 65): CONFIRM — Keep the single assessment-documented propan-2-ol naming
+    misconception mint. (B10-ID-05 ACCEPT, recorded KEEP_AS_IS per the vocabulary rule); ''Authority remains
+    SUGGESTED.'''
+identity_decisions:
+- id: B10-ID-01
+  verdict: KEEP_AS_IS
+  question: keep the 4.23/4.24/4.25/4.26 alkenes family as ONE node (functional group + general formula
+    + unsaturated + the first-four table taught as one thread) vs splitting the definition node from the
+    drawing-skills node
+  notes: 'Operator §6.1 (session 65): ACCEPT — ''Keep the 4.23–4.26 alkene family unified.'''
+- id: B10-ID-02
+  verdict: KEEP_AS_IS
+  question: keep 4.27/4.28 as ONE bromine-water-test node (the addition reaction IS the chemistry the
+    test observes) vs splitting the dibromoalkane reaction node from the distinguishing-test node
+  notes: 'Operator §6.1 (session 65): ACCEPT — ''Keep the 4.27–4.28 bromine-water reaction/test family
+    unified.'''
+- id: B10-ID-03
+  verdict: KEEP_AS_IS
+  question: keep 4.32C/4.33C as ONE manufacture node (both routes and their conditions taught as one thread;
+    both routes share the fractional-distillation finish) vs splitting the hydration node from the fermentation
+    node
+  notes: 'Operator §6.1 (session 65): ACCEPT — ''Keep the 4.32C–4.33C ethanol-manufacture family unified.'''
+- id: B10-ID-04
+  verdict: KEEP_AS_IS
+  question: keep 4.34C/4.35C/4.37C as ONE carboxylic-acids node (functional group + formulae/naming +
+    vinegar taught in one note) vs splitting the vinegar node from the definition node
+  notes: 'Operator §6.1 (session 65): ACCEPT — ''Keep the 4.34C + 4.35C + 4.37C carboxylic-acids family
+    unified.'''
+- id: B10-ID-05
+  verdict: KEEP_AS_IS
+  question: mint the MIS-PROPANOL-POSITION misconception from the pinned Alkenes MS Q4(b)(ii) Reject class
+    ('Reject propan-1-ol / 1-propanol'; narrow-but-exact; the MIS-HALIDE-TEST-HCL/B8-M-02 and MIS-KEROSENE-DOUBLE-BONDS/B9-M-01
+    precedent) — or rule it exam-trivia
+  notes: 'Operator §6.1 (session 65): ACCEPT — ''Keep the single assessment-documented propan-2-ol naming
+    misconception mint.'''
+held_appendix_acknowledgment:
+  acknowledged: true
+  notes: 'Operator §6.3: all 9 held candidates (B10-H-01..09) are ACKNOWLEDGE / KEEP QUARANTINED with
+    per-candidate dispositions — B10-H-01 ''KEEP HELD — catalyst mechanism not load-bearing''; B10-H-02
+    ''KEEP HELD — reversible-reaction explanation exceeds demand''; B10-H-03 ''KEEP HELD — naming prerequisite
+    is surface-minimal''; B10-H-04 ''KEEP HELD — existing formula boundary owner already available'';
+    B10-H-05 ''KEEP HELD — isomer prerequisite is surface-minimal''; B10-H-06 ''KEEP HELD — same-family
+    adjacency''; B10-H-07 ''KEEP HELD — same-family/boundary overlap''; B10-H-08 ''KEEP HELD — CO poisoning
+    is enrichment, not load-bearing''; B10-H-09 ''KEEP HELD — exo/endo is enrichment, not load-bearing'';
+    ''No held candidate should be reopened or promoted as a consequence of this review.''; ''The §19 failure-class
+    provenance should remain intact.'' The dispositions are the completed sheet''s own words — nothing
+    beyond them is recorded here.'

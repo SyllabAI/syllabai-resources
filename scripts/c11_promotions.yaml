@@ -4,8 +4,9 @@ meta:
   task: T-C11
   stage: pilot-promotion
   contract: graph/reports/C11_ARCHITECTURE.md §18
-  decision_record: scripts/c11_batch5_decisions.yaml, scripts/c11_batch6_decisions.yaml, scripts/c11_batch7_decisions.yaml,
-    scripts/c11_batch8_decisions.yaml, scripts/c11_batch9_decisions.yaml, scripts/c11_pilot_decisions.yaml
+  decision_record: scripts/c11_batch10_decisions.yaml, scripts/c11_batch5_decisions.yaml, scripts/c11_batch6_decisions.yaml,
+    scripts/c11_batch7_decisions.yaml, scripts/c11_batch8_decisions.yaml, scripts/c11_batch9_decisions.yaml,
+    scripts/c11_pilot_decisions.yaml
   tool: scripts/c11_promote.py
   generated_date: '2026-09-11'
   note: 'Zero promotions recorded — the T-C11 pilot review (session 40) ratified no edges: the two REVIEW_REQUIRED
@@ -40,6 +41,20 @@ promotions:
   validated_date: '2026-09-22'
   review_reference: graph/reports/C11_DIFF_REVIEW_B5_2026-09-22.md
 - edge:
+    source: 4CH1-CON-ALCOHOLS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HOMOLOGOUS-SERIES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ALCOHOLS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-IUPAC-NAMING
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
     source: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-ALKANES
@@ -60,6 +75,27 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-25'
   review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ALKENES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HOMOLOGOUS-SERIES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ALKENES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HYDROCARBON
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ALKENES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ORGANIC-FORMULAE
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
 - edge:
     source: 4CH1-CON-ALLOY-HARDNESS
     relation: REQUIRES_PREREQUISITE
@@ -144,6 +180,48 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B4_2026-09-13.md
+- edge:
+    source: 4CH1-CON-BROMINE-WATER-TEST
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ALKANES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-BROMINE-WATER-TEST
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ALKENES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-BROMINE-WATER-TEST
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ORGANIC-REACTION-CLASSES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ACID-REACTIONS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CARBOXYLIC-ACIDS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CARBOXYLIC-ACIDS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ORGANIC-FORMULAE
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
 - edge:
     source: 4CH1-CON-CATALYST
     relation: REQUIRES_PREREQUISITE
@@ -459,6 +537,48 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_2026-09-12.md
+- edge:
+    source: 4CH1-CON-ETHANOL-MANUFACTURE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ALCOHOLS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ETHANOL-MANUFACTURE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CRACKING
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ETHANOL-MANUFACTURE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-FRACTIONAL-DISTILLATION
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ETHANOL-OXIDATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ALCOHOLS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ETHANOL-OXIDATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COMBUSTION-O2
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ETHANOL-OXIDATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-OX-RED-AGENTS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
 - edge:
     source: 4CH1-CON-EVAPORATION-BOILING
     relation: REQUIRES_PREREQUISITE
@@ -1537,6 +1657,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-23'
   review_reference: graph/reports/C11_DIFF_REVIEW_B7_2026-09-23.md
+- edge:
+    source: 4CH1-MIS-PROPANOL-POSITION
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-ALCOHOLS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
+- edge:
+    source: 4CH1-MIS-PROPANOL-POSITION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-ALCOHOLS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md
 - edge:
     source: 4CH1-MIS-RAM-MASS-NUMBER
     relation: REMEDIATED_BY

@@ -1795,3 +1795,73 @@ before phase 2 (S3).)
 > the §18 pathway; batch 11 completes S4 per the slice plan — it needs its
 > own commissioning turn. Then STOP — Batch 10 authoring -> operator gate.
 > Nothing more.
+
+## Session 65 (2026-09-25) — BATCH 10 VERDICT SESSION: OPERATOR GATE PASSED (PASS WITH NOTES), §18 APPLIED — 255 SEMANTIC HV
+
+> The operator returned the completed batch-10 review sheet §6/§7 (delivered
+> 2026-09-25 INLINE in-chat, the zai-web channel — the session-63 intake
+> precedent): **VERDICT: PASS WITH NOTES**. INTAKE FORM: INLINE RESTATED
+> COMPLETED SHEET (detail-preserving variant) — the per-row verdict surface
+> preserved (the §6.1 8-code node table, the §6.2 six in-slice edge TRIPLEs
+> restated verbatim in the sanctioned shorthand, the ELEVEN boundary owner
+> codes with their owning-batch attributions, and the §6.3 nine held ids
+> with per-candidate KEEP HELD dispositions) while the §1-§5 detail columns
+> are condensed; the batch-5/6/8 byte-identity check does NOT apply — the
+> batch-9/10 CONFORMANCE GATES apply and PASS (NEW intake gate
+> scripts/c11_batch10_intake_drift_check.py, ALL PASS: universal totals,
+> the six in-slice TRIPLEs vs gate rows 1-6, the ELEVEN owner codes vs the
+> distinct targets of gate rows 7-19, the owner->batch list vs the
+> session-64 ruling, the five identity sentences verbatim by id, the held
+> range + dispositions, the counts block, the REPORTED caveat x2). The
+> operator's machine-state claims (37 quote probes, green 188/459 store,
+> pass-1/pass-2 agreement, zero demotions, 4.15 uncovered) are classified
+> REPORTED / VERIFIED BY SUBMITTED ARTIFACT — the verdict session closed
+> that gap directly at 5db5de1 (local == origin/main, tree clean) before
+> encoding. ENCODING: scripts/c11_verdict_encode_batch10.py (fail-closed,
+> the batch-9 pattern, ~40 pre-state assertions) wrote
+> scripts/c11_batch10_verdicts.yaml from the session-64 template (fill +
+> rename): **19 edge CONFIRM / 8 node CONFIRM / 5 identity ACCEPT ->
+> KEEP_AS_IS (B10-ID-01..05) / 9 held acknowledged WITH per-candidate KEEP
+> HELD dispositions / 0 RR / 0 REJECT**; the operator's REPORTED caveat +
+> anti-duplication guardrail carried verbatim in meta.operator_ruling;
+> verdicts keyed by CODE/TRIPLE (the sheet-vs-template node-numbering
+> hazard); no WITH_NOTE this batch. §18 APPLICATION: the B10 diff-review
+> bundle exported (graph/reports/C11_DIFF_REVIEW_B10_2026-09-25.md — 19
+> pending / 5 not-actionable), dry-run verified, then ONE gated approve
+> (single c11_promote invocation, G13 re-run inside): **236 -> 255 semantic
+> HUMAN_VALIDATED, all operator (2026-09-25, the B10 bundle as
+> review_reference); shape 188/459/199 UNCHANGED (statuses only)**; the
+> live SUGGESTED semantic surface is again EXACTLY the 3 frozen pilot
+> HOLDs; 2 RR frozen; the batch-9/10 PART_OF rows stay SUGGESTED pending
+> their own lane; T-C10 209/209; 4.15 uncovered. NEW STANDING GATE
+> scripts/c11_batch10_verdict_check.py: 56 checks (A schema/intake/caveat;
+> B shape 19/8/5 + the 13 boundary ownership notes + the E-05 MS-pin note
+> + identity linkage 5 nodes/3 plain; C three-way equality + operator
+> attribution + bundle reference; D slices + 255 + non-mint 48 + the ONE
+> documented triple coincidence B10-H-04 == the sanctioned boundary edge
+> B10-E-18 — the TARGET-2 x2 precedent, both surfaces explicitly ruled by
+> the operator — + held-quarantine) — ALL PASS. RE-ANCHORS (dated
+> session-65 comments, no test weakened): batch1-3 verdict-check totals
+> 236 -> 255; batch4-8 verdict-check D2 (the authored-to-gate residue
+> resolves — the surface is the 3 pilot HOLDs again) + totals; batch9
+> verdict-check D2 + D13 + docstring; batch4-10 boundary-check D3 chains
+> (236 -> 255); diff_review_test R1 19/5/236 -> 0/5/255 (the actionable
+> surface is empty until batch 11's gate); sweep S4 concept_edges pin
+> c48dfdbb169dff5e -> 55df3f5fd4688f6a (concepts + cks byte-identical —
+> statuses only); graph_check session-65 state note + summary phrase.
+> SERVING PLANE re-emitted (projections + explorer_blob.json; the FileUpload
+> mirror ff-forwarded — the operator's origin commit eebb3b7 carries the
+> BLANK batch-10 gate sheet byte-identical to the in-repo sheet, the
+> batch-7 redundant-channel pattern; the operative verdict arrived inline).
+> FORECAST settled in place (promotion_rate 1.0, confirm 19, the session-65
+> narrative; JSON deterministic). GOVERNANCE amended with dated session-65
+> blocks (historical text preserved): C11_S16_GATE_REPORT.md (this block) +
+> C11_ARCHITECTURE.md. INVARIANTS HELD: the frozen pilot + batch-1..9
+> dispositions byte-intact (122 held, clean quarantine); 255 promotions all
+> operator-attributed; batch-10 nodes stay SUGGESTED (no §18 node pathway);
+> 4CH1-4.15 uncovered; no DB writes; AI attribution forbidden;
+> graph/*.yaml never hand-edited. NEXT: batch 11 (S4-g Esters incl. the
+> 4.43C practical + S4-h Polymers, 13 SPs) completes S4 — it needs its own
+> operator commissioning turn; D4 subject-#2 K0(ii) corpus securing,
+> snap-002 re-freeze, v78 explorer build and PAT rotation remain
+> operator-held.

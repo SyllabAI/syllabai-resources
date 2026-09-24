@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 236,
-    "human_validated": 353,
+    "promoted": 255,
+    "human_validated": 372,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.5142,
+      "value": 0.5556,
       "formula": "promoted / total_edges",
-      "inputs": "236 / 459",
+      "inputs": "255 / 459",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -598,7 +598,7 @@
       "rates": {
         "held_rate": 0.25,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -608,13 +608,13 @@
         "FP-B10-4 (MS pack breadth: the Alkenes MS covers alkenes+alcohols+cracking+combustion surfaces — the slice is a PARTIAL MS-coverage shape; the Q4(c) phosphoric(III) Reject row ruled exam-trivia-adjacent and stayed out of the mint)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 19,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -77.8% / edges -53.9% vs the 2.4/2.75 model — the deepest descriptive band yet (nodes/SP 0.53, edges/SP 1.27): the FOUR one-family consolidations remove 7 SPs from the node count while the boundary-disciplined edge surface runs denser (13 of the 19 authored edges are sanctioned cross-section rows into ELEVEN existing-owner targets — batch-9 owners x8, batch-5/batch-4/batch-1/batch-2 owners x1 each). ONE mark-scheme-documented misconception mint (the Alkenes MS Q4(b)(ii) Reject column, MIS-PROPANOL-POSITION). PARTIAL MS coverage (one pin — the only Paper-2 MS file for the slice). ZERO pass-2 demotions. Section 4 candidate coverage: 36 of 50 S4 SPs (168 of 182 total at candidate level). The forecast record is appended AT AUTHORING (the session-61 lesson). NEXT: the operator's batch-10 verdict session; batch 11 completes the S4 section per the slice plan."
+      "notes_text": "pred-vs-act: nodes -77.8% / edges -53.9% vs the 2.4/2.75 model — the deepest descriptive band yet (nodes/SP 0.53, edges/SP 1.27): the FOUR one-family consolidations remove 7 SPs from the node count while the boundary-disciplined edge surface runs denser (13 of the 19 authored edges are sanctioned cross-section rows into ELEVEN existing-owner targets — batch-9 owners x8, batch-5/batch-4/batch-1/batch-2 owners x1 each). ONE mark-scheme-documented misconception mint (the Alkenes MS Q4(b)(ii) Reject column, MIS-PROPANOL-POSITION). PARTIAL MS coverage (one pin — the only Paper-2 MS file for the slice). ZERO pass-2 demotions. Section 4 candidate coverage: 36 of 50 S4 SPs (168 of 182 total at candidate level). The forecast record is appended AT AUTHORING (the session-61 lesson). Session-65 (2026-09-25): operator gate SETTLED — the operator's completed-sheet verdict (PASS WITH NOTES; intake via the zai-web chat lane as an INLINE RESTATED sheet, detail-preserving variant — the per-row surface (8 node codes, 6 in-slice TRIPLEs, 11 owner codes, 9 held ids) preserved while the §1-§5 detail columns are condensed; the batch-9/10 CONFORMANCE gates applied, not the batch-5/6/8 byte-identity check) recorded in scripts/c11_batch10_verdicts.yaml (19 edge CONFIRM / 8 node CONFIRM / 5 identity ACCEPT -> KEEP_AS_IS / 9 held acknowledged-quarantined with per-candidate KEEP HELD dispositions / zero RR / zero REJECT) and applied through §18 (19 promotions, operator, review_ref = the B10 diff-review bundle; promotion_rate 1.0 — zero RR authored, so every authored edge was promotable post-verdict). Store: 236 -> 255 semantic HV, shape 188/459/199 unchanged (statuses only). NEXT: batch 11 completes the S4 section per the slice plan."
     }
   ],
   "future_batch_record_schema": {

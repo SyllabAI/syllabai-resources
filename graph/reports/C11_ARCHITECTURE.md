@@ -1596,3 +1596,32 @@ C11_OPERATOR_DECISIONS.md).
 > scripts/c11_batch10_verdicts_template.yaml -> rename to
 > c11_batch10_verdicts.yaml -> a later session encodes + applies via §18).
 > Then STOP — Batch 10 authoring -> operator gate. Nothing more.
+
+## Session 65 amendment (2026-09-25) — BATCH 10 VERDICTS APPLIED (PASS WITH NOTES), 255 SEMANTIC HV
+
+> The operator's batch-10 completed sheet (PASS WITH NOTES, inline restated
+> via the zai-web chat lane — the session-63 intake precedent, this time
+> detail-preserving: 8 node codes, 6 in-slice TRIPLEs, ELEVEN owner codes,
+> 9 held ids with per-candidate KEEP HELD dispositions) passed the NEW
+> conformance gate c11_batch10_intake_drift_check.py and was encoded by the
+> fail-closed c11_verdict_encode_batch10.py into
+> scripts/c11_batch10_verdicts.yaml (19 edge CONFIRM / 8 node CONFIRM / 5
+> identity ACCEPT -> KEEP_AS_IS / 9 held acknowledged / 0 RR / 0 REJECT;
+> the REPORTED-state caveat + the anti-duplication guardrail carried
+> verbatim in meta.operator_ruling). §18 applied through ONE gated approve
+> (the B10 diff-review bundle, 19 pending / 5 not-actionable): 236 -> 255
+> semantic HUMAN_VALIDATED, all operator, shape 188/459/199 unchanged
+> (statuses only); the SUGGESTED surface is again exactly the 3 frozen
+> pilot HOLDs. The standing gate c11_batch10_verdict_check.py (56 checks)
+> pins the application state — including the ONE documented triple
+> coincidence B10-H-04 == the sanctioned boundary edge B10-E-18 (the
+> session-64 ruling's TARGET-2 x2 precedent, both surfaces explicitly
+> ruled by the operator). Re-anchors issued with dated session-65 comments
+> (no test weakened); sweep pins re-issued (concept_edges
+> c48dfdbb169dff5e -> 55df3f5fd4688f6a); serving plane re-emitted; the
+> forecast record settled in place (promotion_rate 1.0). **BATCH 10 IS
+> CLOSED — do not reopen.** The next T-C11 gate is the batch-11
+> commissioning (S4-g Esters incl. the 4.43C practical + S4-h Polymers,
+> 13 SPs — completes S4; it needs its own operator turn); D4 subject-#2
+> K0(ii) corpus securing, snap-002 re-freeze, v78 explorer build and PAT
+> rotation remain operator-held.

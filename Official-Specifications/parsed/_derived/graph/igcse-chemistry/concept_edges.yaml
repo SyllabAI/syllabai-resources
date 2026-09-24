@@ -1,9 +1,9 @@
 meta:
   schema: ratified-store-projection/1.0
   projection_of: graph/igcse-chemistry/concept_edges.yaml
-  source_sha256_16: c48dfdbb169dff5e
+  source_sha256_16: 55df3f5fd4688f6a
   emitter: scripts/c28_emit_explorer_blob.py@1.0.0
-  emitted_at: '2026-09-24T18:12:57Z'
+  emitted_at: '2026-09-24T20:13:13Z'
   note: 'Emitter-owned serving projection (C28 spec sections 3.3/5). Rows verbatim from the ratified store
     at the pinned sha; never hand-edit - the S8 drift gate (G1 source freshness + G2 re-emit idempotency)
     fails on drift. Authority: the ratified store.'
@@ -7051,7 +7051,9 @@ edges:
       edge into this owner, the batch-5 x2 precedent)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.29C/4.30C @ Alcohols (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ALCOHOLS
@@ -7073,7 +7075,9 @@ edges:
       system applied as given (the -OH position convention rides here and anchors MIS-PROPANOL-POSITION)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
@@ -7177,7 +7181,9 @@ edges:
       vocabulary applied as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23-4.26 @ Alkenes (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ALKENES
@@ -7198,7 +7204,9 @@ edges:
       definition applied as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.25 @ Alkenes (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ALKENES
@@ -7219,7 +7227,9 @@ edges:
       formulae toolkit applied to the new family (4.24 + 4.26)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.24/4.26 @ Alkenes (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ALLOY-HARDNESS
@@ -7543,7 +7553,9 @@ edges:
       so the bromine remains in solution')
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.28 @ Bromine & Alkenes (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-BROMINE-WATER-TEST
@@ -7565,7 +7577,9 @@ edges:
       note — the test IS that surface applied
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.27/4.28 @ Bromine & Alkenes (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-BROMINE-WATER-TEST
@@ -7588,7 +7602,9 @@ edges:
       reactions page
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.27 @ Bromine & Alkenes (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
@@ -7610,7 +7626,9 @@ edges:
       reaction set as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.36C @ Reactions of Carboxylic Acids (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
@@ -7631,7 +7649,9 @@ edges:
       -anoate naming basis)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.36C @ Reactions of Carboxylic Acids (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-CARBOXYLIC-ACIDS
@@ -7654,7 +7674,9 @@ edges:
       apply the toolkit
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.34C/4.35C @ Carboxylic Acids (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-CATALYST
@@ -8760,7 +8782,9 @@ edges:
       prerequisite
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C/4.33C @ Manufacture of Ethanol (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ETHANOL-MANUFACTURE
@@ -8782,7 +8806,9 @@ edges:
       feedstock sentence (the session-62 future-note 1 routed this surface to batch 10)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C @ Manufacture of Ethanol (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ETHANOL-MANUFACTURE
@@ -8803,7 +8829,9 @@ edges:
       routes end in the batch-1 separation technique applied as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C/4.33C @ Manufacture of Ethanol (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ETHANOL-OXIDATION
@@ -8824,7 +8852,9 @@ edges:
       is its prerequisite
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ETHANOL-OXIDATION
@@ -8846,7 +8876,9 @@ edges:
       BOUNDARY-TARGETS-ONCE)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ETHANOL-OXIDATION
@@ -8867,7 +8899,9 @@ edges:
       route applies the owner ([O] notation, dichromate)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-EVAPORATION-BOILING
@@ -13088,7 +13122,9 @@ edges:
       the alcohol naming surface (the expected answer propan-2-ol is in the same row's accept list)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-MIS-RAM-MASS-NUMBER
@@ -13742,7 +13778,9 @@ edges:
       the alcohols family's own naming section and its position-convention Examiner Tip
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-MIS-RAM-MASS-NUMBER
