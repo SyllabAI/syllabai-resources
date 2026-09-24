@@ -1174,6 +1174,76 @@ out = {
                            "section per the slice plan — each needs its "
                            "own commissioning turn."),
         },
+        {
+            "batch_id": "c11-s16-batch-10",
+            "session": 64,
+            "commissioned": ("operator ('commission batch 10', "
+                             "2026-09-25, session 64) under the session-46 "
+                             "§16 authorization; the S4 slice plan "
+                             "(batches 9-11) is recorded in the "
+                             "session-62 commissioning record"),
+            "scope": ("Section 4 Organic Chemistry SECOND slice — S4-d "
+                      "Alkenes (4.23-4.28) + S4-e Alcohols (4.29C-4.33C) + "
+                      "S4-f Carboxylic acids (4.34C-4.37C) = 15 authorable "
+                      "SPs; no practicals own any batch-10 SP"),
+            "spec_points": 15,
+            "notes": 7,
+            "mark_schemes_pinned": 1,
+            "predicted": {"nodes": 36.0, "authored_edges": 41.25,
+                          "held_candidates": 15.0},
+            "actual": {"nodes": 8, "authored_edges": 19,
+                       "held_candidates": 9},
+            "delta_pct": {"nodes": -77.8, "authored_edges": -53.9,
+                          "held_candidates": -40.0},
+            "rates": {
+                "held_rate": 0.25,
+                "rejection_rate": 0.0,
+                # session-64: the batch ends at its operator gate — zero
+                # promotions exist at authoring; SETTLES at the batch-10
+                # verdict session (the batch-7/8/9 pattern).
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B10-1 (identity shape: the FOUR one-family rulings — "
+                "4.23-4.26 alkenes, 4.27-4.28 reaction+test, 4.32C-4.33C "
+                "manufacture, 4.34C+4.35C+4.37C acids — the "
+                "B7-ID-01/B8-ID-01/B9-ID-01..05 precedent; B10-ID-01..04)",
+                "FP-B10-2 (anchor byte-honesty: the Alcohols naming anchor "
+                "carries TYPOGRAPHIC quote marks (U+2018/2019) recorded "
+                "byte-honest — the FP-B8-2 convention)",
+                "FP-B10-3 (source typos observed, not anchored: 'A "
+                "carbon-carbon double can break' caption + the 'Structrual' "
+                "asset filename)",
+                "FP-B10-4 (MS pack breadth: the Alkenes MS covers "
+                "alkenes+alcohols+cracking+combustion surfaces — the slice "
+                "is a PARTIAL MS-coverage shape; the Q4(c) phosphoric(III) "
+                "Reject row ruled exam-trivia-adjacent and stayed out of "
+                "the mint)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -77.8% / edges -53.9% vs "
+                           "the 2.4/2.75 model — the deepest descriptive "
+                           "band yet (nodes/SP 0.53, edges/SP 1.27): the "
+                           "FOUR one-family consolidations remove 7 SPs "
+                           "from the node count while the boundary-disciplined "
+                           "edge surface runs denser (13 of the 19 authored "
+                           "edges are sanctioned cross-section rows into "
+                           "ELEVEN existing-owner targets — batch-9 owners "
+                           "x8, batch-5/batch-4/batch-1/batch-2 owners x1 "
+                           "each). ONE mark-scheme-documented misconception "
+                           "mint (the Alkenes MS Q4(b)(ii) Reject column, "
+                           "MIS-PROPANOL-POSITION). PARTIAL MS coverage (one "
+                           "pin — the only Paper-2 MS file for the slice). "
+                           "ZERO pass-2 demotions. Section 4 candidate "
+                           "coverage: 36 of 50 S4 SPs (168 of 182 total at "
+                           "candidate level). The forecast record is "
+                           "appended AT AUTHORING (the session-61 lesson). "
+                           "NEXT: the operator's batch-10 verdict session; "
+                           "batch 11 completes the S4 section per the slice "
+                           "plan."),
+        },
     ],
     "future_batch_record_schema": {
         "batch_id": "c11-s16-batch-N (extraction_pass id)",

@@ -367,12 +367,29 @@ live_sugg = {triple(e) for e in sem
 # authoring state). No test weakened.
 check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
       pilot_hv == pilot_confirms and len(pilot_hv) == 28)
+# session-64 re-anchor (2026-09-25, dated; protective intent unchanged):
+# the batch-10 authored-to-gate record (19 authored semantic edges) now
+# joins the live SUGGESTED surface AT ITS OPERATOR GATE (the operator's
+# 'commission batch 10' directive; the batch ends at the gate, zero
+# promotions) — the surface is the 3 frozen pilot HOLDs PLUS the 19
+# batch-10 authored edges; the batch-4..9 authored sets stay fully
+# HUMAN_VALIDATED.
+B9_DEC = HERE / "c11_batch9_decisions.yaml"
+B9_AUTHORED = {triple(e)
+               for e in (yaml.safe_load(B9_DEC.read_text(encoding="utf-8"))
+                         .get("edges") or [])}
+B10_DEC = HERE / "c11_batch10_decisions.yaml"
+B10_AUTHORED = {triple(e)
+                for e in (yaml.safe_load(B10_DEC.read_text(encoding="utf-8"))
+                          .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
-      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
-      "batch-9 authored edges were promoted by the operator's verdicts "
-      "through §18 at session 63; no authored-to-gate residue remains)",
+      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs plus the "
+      "batch-10 authored-to-gate edges (the batch-9 authored edges were "
+      "promoted by the operator's verdicts through §18 at session 63; the "
+      "batch-10 authored edges sit at their operator gate, session 64)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds,
+      and live_sugg == pilot_holds | B10_AUTHORED
+      and B9_AUTHORED <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -460,11 +477,11 @@ check("D16 no batch-9 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
       "SUGGESTED')",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D17 live store shape 180 nodes / 425 edges (184 PART_OF + 241 "
+check("D17 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 180 and len(edges_doc["edges"]) == 425
+      len(nodes_doc["nodes"]) == 188 and len(edges_doc["edges"]) == 459
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 184)
+              if e["relation"] == "PART_OF") == 199)
 # boundary mint discipline (the session-62 cross-slice ruling)
 non_mint = set(rul["boundary_edge_ruling"]["non_mint_list"])
 b9_codes = {c["code"] for c in dec["nodes"]}

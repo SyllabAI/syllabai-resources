@@ -382,9 +382,9 @@ PINS = {
     GP.legacy_rel("assessment_objectives"): "3dc670176f2f5529",  # C27 post (C26 post was 36f361ec…; matrix repair)
     GP.legacy_rel("command_words"): "824c50ee0625672c",
     GP.legacy_rel("relationships"): "6bd3f8236ac2120a",
-    GP.legacy_rel("concepts"): "9f310f506835fc9e",  # session-62 post (pre was fbdf484f6fd37962…; batch-9 authored-to-gate regen — 14 CONCEPT + 1 MISCONCEPTION mints)
-    GP.legacy_rel("concept_edges"): "211dbe9561f7274a",  # session-63 post (pre was f4907752eb73cc9b…; batch-9 §18 application — 20 authored SUGGESTED -> HUMAN_VALIDATED, statuses only, shape unchanged)
-    GP.legacy_rel("spec_command_kinds"): "d730e7227c5e8dbc",  # session-62 post (pre was 4f2277920e31690f…; batch-9 authored-to-gate regen, 132->153 tags)
+    GP.legacy_rel("concepts"): "cd48362cc7eb292b",  # session-64 post (pre was 9f310f506835fc9e…; batch-10 authored-to-gate regen — 7 CONCEPT + 1 MISCONCEPTION mints)
+    GP.legacy_rel("concept_edges"): "c48dfdbb169dff5e",  # session-64 post (pre was 211dbe9561f7274a…; batch-10 authored-to-gate regen — 19 authored semantic + 15 PART_OF mints, zero promotions)
+    GP.legacy_rel("spec_command_kinds"): "6aeefc17c02f98e1",  # session-64 post (pre was d730e7227c5e8dbc…; batch-10 authored-to-gate regen, 153->168 tags)
     GP.legacy_rel("spec_chunk_mappings"): "e8b58a7109104bb7",  # C28 post (pre was f36910450bd50726…; layout canonicalization)  # C27 post (pre was 3d4877dd…; sp_title refresh)
     "graph/reports/C26_WORDING_DIFF_LEDGER.json": "b3334f6057ea649a",
     "scripts/c26_emit_definitive_sibling_stores.py": "e9cbf844e9247c07",  # C28 stage-1 re-point (pre was c4ad56a1…; registry refactor)

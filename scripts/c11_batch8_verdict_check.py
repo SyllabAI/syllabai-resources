@@ -338,13 +338,18 @@ B9_DEC = HERE / "c11_batch9_decisions.yaml"
 B9_AUTHORED = {triple(e)
                for e in (yaml.safe_load(B9_DEC.read_text(encoding="utf-8"))
                          .get("edges") or [])}
+B10_DEC = HERE / "c11_batch10_decisions.yaml"
+B10_AUTHORED = {triple(e)
+                for e in (yaml.safe_load(B10_DEC.read_text(encoding="utf-8"))
+                          .get("edges") or [])}
+
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
       "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
       "batch-8 authored edges were promoted by the operator's verdicts "
       "through §18 at session 62; the batch-9 authored edges were promoted "
       "by the operator's verdicts through §18 at session 63)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds
+      and live_sugg == pilot_holds | B10_AUTHORED
       and B9_AUTHORED <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
@@ -436,11 +441,11 @@ check("D15 no batch-8 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
       "remains SUGGESTED')",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D16 live store shape 180 nodes / 425 edges (184 PART_OF + 241 "
+check("D16 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 180 and len(edges_doc["edges"]) == 425
+      len(nodes_doc["nodes"]) == 188 and len(edges_doc["edges"]) == 459
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 184)
+              if e["relation"] == "PART_OF") == 199)
 # boundary mint discipline (the session-61 cross-slice ruling)
 non_mint = set(rul["boundary_edge_ruling"]["non_mint_list"])
 b8_codes = {c["code"] for c in dec["nodes"]}

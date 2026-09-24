@@ -1,0 +1,80 @@
+{
+  "task": "T-C11",
+  "batch": 10,
+  "session": 64,
+  "generated": "2026-09-25",
+  "extraction_pass": "c11-s16-batch-10",
+  "scope": {
+    "spec_points": [
+      "4CH1-4.23",
+      "4CH1-4.24",
+      "4CH1-4.25",
+      "4CH1-4.26",
+      "4CH1-4.27",
+      "4CH1-4.28",
+      "4CH1-4.29C",
+      "4CH1-4.30C",
+      "4CH1-4.31C",
+      "4CH1-4.32C",
+      "4CH1-4.33C",
+      "4CH1-4.34C",
+      "4CH1-4.35C",
+      "4CH1-4.36C",
+      "4CH1-4.37C"
+    ],
+    "negative_control": "4CH1-4.15 (carved out, uncovered)",
+    "practicals": []
+  },
+  "totals": {
+    "nodes": 8,
+    "concepts": 7,
+    "misconceptions": 1,
+    "authored_edges": 19,
+    "part_of_edges": 15,
+    "held": 9,
+    "review_required": 0,
+    "rejected": 0
+  },
+  "counts_in_store": {
+    "nodes": 188,
+    "edges": 459,
+    "part_of": 199,
+    "semantic_hv": 236
+  },
+  "pass2": {
+    "agreement": "raw (NOT kappa)",
+    "demotions": 0,
+    "re_authorings": 0,
+    "findings": [
+      "FP-B10-1",
+      "FP-B10-2",
+      "FP-B10-3",
+      "FP-B10-4",
+      "FP-B10-5",
+      "FP-B10-6",
+      "FN-B10-1",
+      "FN-B10-2"
+    ]
+  },
+  "boundary_ruling": {
+    "file": "scripts/c11_batch10_boundary_ruling.yaml",
+    "session": 64,
+    "sanctioned_targets": [
+      "4CH1-CON-HOMOLOGOUS-SERIES",
+      "4CH1-CON-ORGANIC-FORMULAE",
+      "4CH1-CON-HYDROCARBON",
+      "4CH1-CON-ALKANES",
+      "4CH1-CON-ORGANIC-REACTION-CLASSES",
+      "4CH1-CON-IUPAC-NAMING",
+      "4CH1-CON-COMBUSTION-O2",
+      "4CH1-CON-OX-RED-AGENTS",
+      "4CH1-CON-CRACKING",
+      "4CH1-CON-FRACTIONAL-DISTILLATION",
+      "4CH1-CON-ACID-REACTIONS"
+    ],
+    "max_boundary_edges": 11,
+    "non_mint_count": 48
+  },
+  "ms_pins": "scripts/c11_evidence/ALKENES_MS_P2.txt (Alkenes MS.pdf sha1_12 eb83f71259f5, 10pp — the only Paper-2 MS file for the S4-d/e/f families; the Q4(b)(ii) Reject column anchors the ONE misconception mint and the Q2(a)(ii) accept/reject rows anchor the bromine-water-test language)",
+  "forecast": "the batch-10 record is appended to C11_BATCH_FORECAST.json future_batch_records by c11_batch_forecast.py at this gate"
+}

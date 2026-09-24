@@ -311,11 +311,11 @@ check("D9 no batch-2 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # session-61 re-anchor (2026-09-24, dated): + the SANCTIONED batch-8
 # authored-to-gate record (8 nodes / 17 edges = 7 PART_OF + 10
 # semantic) — the operator gate decision; no test weakened.
-check("D10 live store shape 180 nodes / 425 edges (184 PART_OF + 241 "
+check("D10 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 180 and len(edges_doc["edges"]) == 425
+      len(nodes_doc["nodes"]) == 188 and len(edges_doc["edges"]) == 459
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 184)
+              if e["relation"] == "PART_OF") == 199)
 
 # ---------------------------------------------------------------------------
 print()

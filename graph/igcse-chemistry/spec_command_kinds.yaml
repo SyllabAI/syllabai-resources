@@ -10,12 +10,13 @@
 #   scripts/c11_batch7_decisions.yaml (extraction_pass c11-s16-batch-7)
 #   scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8)
 #   scripts/c11_batch9_decisions.yaml (extraction_pass c11-s16-batch-9)
+#   scripts/c11_batch10_decisions.yaml (extraction_pass c11-s16-batch-10)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
-# Generation dates pinned per record; store date 2026-09-24 (deterministic contract; byte-identical re-runs).
+# Generation dates pinned per record; store date 2026-09-25 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8+s16-batch-9
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8+s16-batch-9+s16-batch-10
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -175,6 +176,21 @@ meta:
   - 4CH1-4.20
   - 4CH1-4.21
   - 4CH1-4.22
+  - 4CH1-4.23
+  - 4CH1-4.24
+  - 4CH1-4.25
+  - 4CH1-4.26
+  - 4CH1-4.27
+  - 4CH1-4.28
+  - 4CH1-4.29C
+  - 4CH1-4.30C
+  - 4CH1-4.31C
+  - 4CH1-4.32C
+  - 4CH1-4.33C
+  - 4CH1-4.34C
+  - 4CH1-4.35C
+  - 4CH1-4.36C
+  - 4CH1-4.37C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -200,6 +216,7 @@ meta:
   - scripts/c11_batch7_decisions.yaml
   - scripts/c11_batch8_decisions.yaml
   - scripts/c11_batch9_decisions.yaml
+  - scripts/c11_batch10_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -211,9 +228,10 @@ meta:
   - c11-s16-batch-7
   - c11-s16-batch-8
   - c11-s16-batch-9
+  - c11-s16-batch-10
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
-  generated: '2026-09-24'
+  generated: '2026-09-25'
   provenance_default: AI_SUGGESTED
   validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;
     batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED
@@ -221,7 +239,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 153
+    spec_points: 168
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -1022,11 +1040,88 @@ command_kinds:
   demanded_substance: the alkane+halogen substitution reaction — alkanes react with halogens in the presence
     of ultraviolet radiation (methane + bromine -> bromomethane + hydrogen bromide; chlorine gives chloromethane);
     products are halogenoalkanes
+- code: 4CH1-4.23
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the alkene functional group — a carbon-carbon double bond (C=C) shown as two lines
+    between the two carbon atoms
+- code: 4CH1-4.24
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the alkene general formula CnH2n
+- code: 4CH1-4.25
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: why alkenes are UNSATURATED — the C=C bond can open so each carbon forms additional
+    single bonds with incoming atoms (they make more bonds than the saturated alkane surface allows)
+- code: 4CH1-4.26
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing structural and displayed formulae for alkenes with up to four carbon atoms
+    (ethene, propene, but-1-ene — the note's first-four table)
+- code: 4CH1-4.27
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the alkene+bromine addition reaction — bromine atoms add across C=C to give a dibromoalkane
+    (ethene + bromine -> dibromoethane); the same process works for any halogen and any alkene
+- code: 4CH1-4.28
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the bromine-water test — orange bromine water decolourises with an alkene (bromine
+    adds across C=C) and stays orange with an alkane; bromine water is used as it is safer and easier
+    to handle than bromine
+- code: 4CH1-4.29C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the alcohol functional group — hydroxyl (-OH), the part of alcohol molecules responsible
+    for their characteristic reactions
 - code: 4CH1-4.3
   verb: know
   guide_class: KNOW_TERM
   demanded_substance: homologous series (same general formula + same functional group + similar chemical
     properties + gradation + CH2 increments), functional group, isomerism
+- code: 4CH1-4.30C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing structural and displayed formulae for methanol, ethanol, propan-1-ol and
+    butan-1-ol (the first four alcohols); naming via the alkane system with the final e replaced by ol
+- code: 4CH1-4.31C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the three oxidation routes of ethanol — combustion (burning in air, to carbon dioxide
+    and water), aerobic oxidation (microbial, to ethanoic acid), and treatment with an oxidising agent
+    (heated potassium dichromate(VI) in sulfuric acid, [O] notation, orange-to-green)
+- code: 4CH1-4.32C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the two ethanol manufacture routes — hydration of ethene (steam, ~300C, 60-70 atm,
+    concentrated phosphoric acid catalyst) and fermentation of glucose (yeast, 25-35C optimum 30C, absence
+    of oxygen)
+- code: 4CH1-4.33C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why fermentation runs in the absence of air (anaerobic respiration — oxygen would
+    give aerobic oxidation instead) and at an optimum temperature (~30C — too low slows the enzymes, too
+    high denatures them)
+- code: 4CH1-4.34C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the carboxylic-acid functional group — carboxyl (-COOH); the general formula CnH2n+1COOH
+    (RCOOH) with the n-counts-the-alkyl-chain caveat
+- code: 4CH1-4.35C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing structural and displayed formulae for unbranched- chain carboxylic acids
+    (methanoic, ethanoic, propanoic, butanoic — alkan + oic acid naming)
+- code: 4CH1-4.36C
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the reactions of aqueous carboxylic acids — with metals (salt + hydrogen, e.g. magnesium
+    ethanoate) and with carbonates (salt + water + carbon dioxide); the salts end in -anoate
+- code: 4CH1-4.37C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: vinegar is an aqueous solution of ethanoic acid (~5% acid by volume)
 - code: 4CH1-4.4
   verb: understand
   guide_class: REPRESENT_DIAGRAM

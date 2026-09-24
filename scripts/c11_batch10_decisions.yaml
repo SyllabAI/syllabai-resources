@@ -1,0 +1,966 @@
+meta:
+  task: T-C11
+  stage: s16-batch-10
+  extraction_pass: c11-s16-batch-10
+  generated_date: '2026-09-25'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  commissioned_by: operator directive 'commission batch 10' (2026-09-25, session
+    64) under the session-46 §16 authorization; the S4 slice plan (batches 9-11)
+    is recorded in the session-62 commissioning record
+  session: 64
+  scope:
+    spec_points:
+    - 4CH1-4.23
+    - 4CH1-4.24
+    - 4CH1-4.25
+    - 4CH1-4.26
+    - 4CH1-4.27
+    - 4CH1-4.28
+    - 4CH1-4.29C
+    - 4CH1-4.30C
+    - 4CH1-4.31C
+    - 4CH1-4.32C
+    - 4CH1-4.33C
+    - 4CH1-4.34C
+    - 4CH1-4.35C
+    - 4CH1-4.36C
+    - 4CH1-4.37C
+    negative_control: 4CH1-4.15 (S4-b — CARVED OUT of every batch scope; the
+      standing negative control gains no node/edge attachment and no citation;
+      the graph_check D12 zero-attachment control continues; no batch-10 SP is
+      4.15-adjacent)
+    practicals: []
+    practicals_note: no batch-10 SP is practical-typed (the 4CH1-4.43C practical
+      belongs to batch 11's slice)
+    subsections: S4-d Alkenes (4.23-4.28) + S4-e Alcohols (4.29C-4.33C) + S4-f
+      Carboxylic acids (4.34C-4.37C)
+    mark_scheme_evidence: scripts/c11_evidence/ALKENES_MS_P2.txt (Alkenes MS.pdf
+      sha1_12 eb83f71259f5, 10pp — the only Paper-2 MS file for the S4-d/e/f
+      families; the Q4(b)(ii) Reject column anchors the ONE misconception mint
+      and the Q2(a)(ii) accept/reject rows anchor the bromine-water-test
+      language)
+  boundary_ruling: scripts/c11_batch10_boundary_ruling.yaml (session 64 — 146
+    terms audited, 73 matches ALL dispositioned, ELEVEN sanctioned boundary
+    targets, non_mint 47)
+  contract: nodes one-per-SP-family (the B7-ID-01/B8-ID-01/B9-ID-01..05
+    one-family precedent — 4.23-4.26 ONE alkenes node, 4.27-4.28 ONE
+    bromine-water-test node, 4.29C-4.30C ONE alcohols node, 4.32C-4.33C ONE
+    manufacture node, 4.34C+4.35C+4.37C ONE carboxylic-acids node); misconceptions
+    ONLY where a mark-scheme Reject column documents the wrong-answer class (the
+    MIS-CUO-COLOUR/B8-M-02 and MIS-KEROSENE-DOUBLE-BONDS/B9-M-01 precedent — the
+    Alkenes MS Q4(b)(ii) propan-1-ol Reject row); every quote byte-verified
+    against its file (c11_batch10_quote_probe.py, run BEFORE the registry grows);
+    the 4.15 negative control untouched
+  authorization: "scripts/c11_s16_authorization.yaml (§16 AUTHORIZED 2026-09-12;
+    batch 10 = the second S4 slice, commissioned 2026-09-25)" 
+  ms_pins:
+  - scripts/c11_evidence/ALKENES_MS_P2.txt (Alkenes MS.pdf sha1_12 eb83f71259f5,
+    10pp; the only Paper-2 MS file for the S4-d/e/f families — a PARTIAL-coverage
+    shape, the batch-3/4 precedent)
+command_kinds:
+- code: 4CH1-4.23
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the alkene functional group — a carbon-carbon double bond
+    (C=C) shown as two lines between the two carbon atoms
+- code: 4CH1-4.24
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the alkene general formula CnH2n
+- code: 4CH1-4.25
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: why alkenes are UNSATURATED — the C=C bond can open so each
+    carbon forms additional single bonds with incoming atoms (they make more
+    bonds than the saturated alkane surface allows)
+- code: 4CH1-4.26
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing structural and displayed formulae for alkenes with
+    up to four carbon atoms (ethene, propene, but-1-ene — the note's first-four
+    table)
+- code: 4CH1-4.27
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the alkene+bromine addition reaction — bromine atoms add
+    across C=C to give a dibromoalkane (ethene + bromine -> dibromoethane); the
+    same process works for any halogen and any alkene
+- code: 4CH1-4.28
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the bromine-water test — orange bromine water decolourises
+    with an alkene (bromine adds across C=C) and stays orange with an alkane;
+    bromine water is used as it is safer and easier to handle than bromine
+- code: 4CH1-4.29C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the alcohol functional group — hydroxyl (-OH), the part of
+    alcohol molecules responsible for their characteristic reactions
+- code: 4CH1-4.30C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing structural and displayed formulae for methanol,
+    ethanol, propan-1-ol and butan-1-ol (the first four alcohols); naming via
+    the alkane system with the final e replaced by ol
+- code: 4CH1-4.31C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the three oxidation routes of ethanol — combustion
+    (burning in air, to carbon dioxide and water), aerobic oxidation (microbial,
+    to ethanoic acid), and treatment with an oxidising agent (heated potassium
+    dichromate(VI) in sulfuric acid, [O] notation, orange-to-green)
+- code: 4CH1-4.32C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the two ethanol manufacture routes — hydration of ethene
+    (steam, ~300C, 60-70 atm, concentrated phosphoric acid catalyst) and
+    fermentation of glucose (yeast, 25-35C optimum 30C, absence of oxygen)
+- code: 4CH1-4.33C
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: why fermentation runs in the absence of air (anaerobic
+    respiration — oxygen would give aerobic oxidation instead) and at an optimum
+    temperature (~30C — too low slows the enzymes, too high denatures them)
+- code: 4CH1-4.34C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the carboxylic-acid functional group — carboxyl (-COOH);
+    the general formula CnH2n+1COOH (RCOOH) with the n-counts-the-alkyl-chain
+    caveat
+- code: 4CH1-4.35C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing structural and displayed formulae for unbranched-
+    chain carboxylic acids (methanoic, ethanoic, propanoic, butanoic — alkan +
+    oic acid naming)
+- code: 4CH1-4.36C
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the reactions of aqueous carboxylic acids — with metals
+    (salt + hydrogen, e.g. magnesium ethanoate) and with carbonates (salt + water
+    + carbon dioxide); the salts end in -anoate
+- code: 4CH1-4.37C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: vinegar is an aqueous solution of ethanoic acid (~5% acid
+    by volume)
+nodes:
+- code: 4CH1-CON-ALKENES
+  family: CONCEPT
+  title: Alkenes (the C=C functional group, the general formula CnH2n, unsaturated
+    hydrocarbons, the first four members)
+  aliases:
+  - alkene
+  - alkenes
+  - unsaturated hydrocarbons
+  - carbon-carbon double bond
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.23
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: All alkenes contain a **double carbon bond**, which is the **functional group** and is what allows alkenes to react in ways that alkanes cannot
+  - code: 4CH1-4.24
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The general formula of an alkene is **C**<sub><b>n</b></sub>**H**<sub><b>2n</b></sub>
+  - code: 4CH1-4.25
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Alkenes are unsaturated hydrocarbons
+  - code: 4CH1-4.26
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: 'The names and structure of the first four alkenes are shown below:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note defines the family in one teaching thread —
+      unsaturated hydrocarbons, the CnH2n general formula, the C=C functional
+      group and the first-four table (B10-ID-01 the one-family ruling, the
+      B9-ID-05 alkanes precedent); the identity question is operator-owned
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23/4.24/4.25/4.26 @ Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-BROMINE-WATER-TEST
+  family: CONCEPT
+  title: The bromine-water test for alkenes (addition of halogens across C=C,
+    decolourisation vs the saturated alkane)
+  aliases:
+  - bromine water test
+  - testing for alkenes
+  - bromination of alkenes
+  - dibromoalkane addition
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.27
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: When bromine is reacted with an alkene a **dibromoalkane** is formed
+  - code: 4CH1-4.28
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Bromine water is used in the test for alkenes as it is safer and easier to handle than bromine
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note pairs the addition reaction (4.27) with the
+      distinguishing test (4.28) as one assessment-heavy thread — the reaction
+      IS the chemistry the test observes (B10-ID-02 the one-family ruling);
+      the pinned Alkenes MS Q2(a)(ii) accept/reject surface anchors the test
+      language ('decolourised / turns (from orange/brown to) colourless')
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.27/4.28 @ Bromine & Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-ALCOHOLS
+  family: CONCEPT
+  title: Alcohols (the hydroxyl -OH functional group, the first four members,
+    neutral solutions and fuels)
+  aliases:
+  - alcohol
+  - alcohols
+  - hydroxyl group
+  - ethanol family
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.29C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: All alcohols contain the hydroxyl (**\-OH**) functional group which is the part of alcohol molecules that is responsible for their **characteristic reactions**
+  - code: 4CH1-4.30C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The first four alcohols are commonly used as **fuels**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches the -OH functional group, the first-four
+      table, the neutral-solution property and the fuel use as one family thread
+      (the naming sentence applies the batch-9 IUPAC-NAMING owner — the
+      sanctioned TARGET-6 boundary edge)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.29C/4.30C @ Alcohols (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-ETHANOL-OXIDATION
+  family: CONCEPT
+  title: Oxidation of ethanol (combustion, aerobic oxidation, treatment with an
+    oxidising agent)
+  aliases:
+  - oxidation of ethanol
+  - aerobic oxidation
+  - microbial oxidation
+  - ethanol + [O]
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.31C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Oxidation of ethanol - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: 'Ethanol can undergo oxidation in three different ways:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches the three routes as one thread —
+      combustion (to CO2 + water), aerobic oxidation (acetobacter, ethanol +
+      oxygen -> ethanoic acid + water) and the dichromate oxidising-agent
+      treatment ([O] notation, orange-to-green, reflux)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-ETHANOL-MANUFACTURE
+  family: CONCEPT
+  title: Manufacture of ethanol (hydration of ethene and fermentation with their
+    conditions)
+  aliases:
+  - hydration of ethene
+  - fermentation of glucose
+  - ethanol manufacture
+  - anaerobic respiration
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.32C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: 'The hydration reaction is very important industrially for the production of alcohols and it occurs using the following conditions:'
+  - code: 4CH1-4.33C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Yeast contains enzymes that break down sugar to alcohol
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches both routes as one manufacture thread —
+      hydration (300C/60-70 atm/phosphoric acid catalyst, ethene from cracking,
+      bp separation + fractional distillation) and fermentation (yeast enzymes,
+      25-35C optimum 30C, absence of oxygen, denaturation, the batch-process
+      limit) with the conditions as the assessed surface (B10-ID-03 the
+      one-family ruling, the B9-ID-02 fuels/combustion precedent)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C/4.33C @ Manufacture of Ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-CARBOXYLIC-ACIDS
+  family: CONCEPT
+  title: Carboxylic acids (the carboxyl -COOH functional group, formulae and
+    naming, vinegar)
+  aliases:
+  - carboxylic acid
+  - carboxylic acids
+  - carboxyl group
+  - ethanoic acid
+  - vinegar
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.34C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: '**Carboxylic acids** is the name given to compounds containing the
+        functional group **carboxyl, -COOH**'
+  - code: 4CH1-4.35C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Use the general formula to find the molecular formula for propanoic acid.
+  - code: 4CH1-4.37C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Vinegar is an aqueous solution of ethanoic acid and contains about 5% of the acid by volume.
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches the -COOH functional group, the general
+      formula (with the n-counts-the-alkyl-chain caveat), the alkan+oic naming
+      pattern and the vinegar composition as one family thread (4.34C + 4.35C +
+      4.37C — B10-ID-04 the one-family ruling; the 4.36C reactions surface is
+      its own node); the formulae demands apply the batch-9 ORGANIC-FORMULAE
+      owner (the T2 boundary edge)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.34C/4.35C/4.37C @ Carboxylic Acids (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+  family: CONCEPT
+  title: Reactions of carboxylic acids (with metals and carbonates; the -anoate
+    salts)
+  aliases:
+  - carboxylic acid reactions
+  - ethanoate salts
+  - -anoate salts
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.36C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Reactions of Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: In the reaction with metals, a **metal salt and hydrogen gas** are produced
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches the acid reaction set applied to the new
+      family — metals (magnesium ethanoate + hydrogen) and carbonates (potassium
+      butanoate + water + carbon dioxide) with the -anoate salt naming; 'the
+      carboxylic acids behave like other acids' applies the batch-7 ACID-
+      REACTIONS owner (the T11 boundary edge)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.36C @ Reactions of Carboxylic Acids (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-MIS-PROPANOL-POSITION
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Naming propan-2-ol as propan-1-ol (ignoring the -OH position in the name)
+  aliases:
+  - propan-1-ol for propan-2-ol
+  - 1-propanol position error
+  - alcohol position naming error
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  evidence:
+  - file: scripts/c11_evidence/ALKENES_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: propanol/propan-2-ol/2-propanol
+  - file: scripts/c11_evidence/ALKENES_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reject propan-1-ol / 1-propanol
+  remediation_evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The 1 indicates that the -OH group is located on the first carbon atom in the molecule as it is possible to have it located on a different carbon atom, but you do not need to know this for your exam.
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: the pinned Alkenes MS Q4(b)(ii) Reject column documents the
+      exact wrong-answer class against the displayed-formula question (the -OH
+      on the middle carbon must be named propan-2-ol; 'Reject propan-1-ol /
+      1-propanol'); the Alcohols note's naming section and its position-convention
+      Examiner Tip are the corrective content (B10-ID-05 the mint-vs-exam-trivia
+      question — the MIS-HALIDE-TEST-HCL/B8-ID-04 and MIS-KEROSENE-DOUBLE-BONDS/
+      B9-ID-06 precedent)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+edges:
+- source: 4CH1-CON-BROMINE-WATER-TEST
+  target: 4CH1-CON-ALKENES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: This allows us to tell alkenes apart from alkanes using a simple chemical test called the bromine water test
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the test note presupposes the alkene surface (C=C,
+      unsaturated) taught in the alkenes note — the test IS that surface
+      applied
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.27/4.28 @ Bromine & Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ETHANOL-OXIDATION
+  target: 4CH1-CON-ALCOHOLS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Oxidation of ethanol - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: 'Ethanol can undergo oxidation in three different ways:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the oxidation surface is defined ON ethanol — the alcohol
+      family node (4.29C-4.30C) is its prerequisite
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ETHANOL-MANUFACTURE
+  target: 4CH1-CON-ALCOHOLS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: Ethanol can also be produced by fermentation where sugar or starch is dissolved in water and yeast is added
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: both manufacture routes PRODUCE ethanol — the alcohol
+      family node is the product-identity prerequisite
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C/4.33C @ Manufacture of Ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+  target: 4CH1-CON-CARBOXYLIC-ACIDS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Reactions of Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The carboxylic acids behave like other acids
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the reactions note presupposes the family node (which
+      acids, what -COOH means, the -anoate naming basis)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.36C @ Reactions of Carboxylic Acids (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-MIS-PROPANOL-POSITION
+  target: 4CH1-CON-ALCOHOLS
+  relation: WRONG_ANSWER_PATTERN
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: scripts/c11_evidence/ALKENES_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reject propan-1-ol / 1-propanol
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: the pinned Alkenes MS Q4(b)(ii) Reject column documents the
+      wrong-answer class against the alcohol naming surface (the expected answer
+      propan-2-ol is in the same row's accept list)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-MIS-PROPANOL-POSITION
+  target: 4CH1-CON-ALCOHOLS
+  relation: REMEDIATED_BY
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The 1 indicates that the -OH group is located on the first carbon atom in the molecule as it is possible to have it located on a different carbon atom, but you do not need to know this for your exam.
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: remediation target = WAP target (the B1-E-25 pattern) —
+      the corrective content is the alcohols family's own naming section and its
+      position-convention Examiner Tip
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ALKENES
+  target: 4CH1-CON-HOMOLOGOUS-SERIES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The first four members of the alkene homologous series
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-1, the
+      batch-9 owner) — the series-membership vocabulary applied as given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23-4.26 @ Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ALKENES
+  target: 4CH1-CON-ORGANIC-FORMULAE
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The general formula of an alkene is **C**<sub><b>n</b></sub>**H**<sub><b>2n</b></sub>
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-2, the
+      batch-9 owner) — the general/displayed formulae toolkit applied to the new
+      family (4.24 + 4.26)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.24/4.26 @ Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ALKENES
+  target: 4CH1-CON-HYDROCARBON
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: Alkenes are unsaturated hydrocarbons
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-3, the
+      batch-9 owner) — the H/C-only definition applied as given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.25 @ Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-BROMINE-WATER-TEST
+  target: 4CH1-CON-ALKANES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: 'All [alkanes](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-3-alkanes/4-3-1-alkanes/) are **saturated** and [alkenes](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-4-alkenes/4-4-1-alkenes/) are **unsaturated**'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-4, the
+      batch-9 owner) — the test is defined against the saturated alkane contrast
+      class ('alkanes do not have double carbon bonds so the bromine remains in
+      solution')
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.28 @ Bromine & Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-BROMINE-WATER-TEST
+  target: 4CH1-CON-ORGANIC-REACTION-CLASSES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Bromine & Alkenes  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: 'Alkenes undergo [addition reactions](https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/4-organic-chemistry/4-1-introduction/4-1-3-classifying-organic-reactions/) in which atoms of a simple molecule **add** **across** the C=C double bond'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-5, the
+      batch-9 owner) — the addition reaction class (taught at 4.6) applied to
+      the bromination surface; the note even links the classifying-organic-
+      reactions page
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.27 @ Bromine & Alkenes (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ALCOHOLS
+  target: 4CH1-CON-HOMOLOGOUS-SERIES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The names and structures of the first four alcohols in the homologous series are shown below
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-1, the
+      batch-9 owner — the second edge into this owner, the batch-5 x2 precedent)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.29C/4.30C @ Alcohols (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ALCOHOLS
+  target: 4CH1-CON-IUPAC-NAMING
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: In terms of naming, the same system is used as for alkanes and alkenes, with the final ‘**e**’ being replaced with ‘**ol**’
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-6, the
+      batch-9 owner) — the naming system applied as given (the -OH position
+      convention rides here and anchors MIS-PROPANOL-POSITION)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.30C @ Alcohols (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ETHANOL-OXIDATION
+  target: 4CH1-CON-COMBUSTION-O2
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Oxidation of ethanol - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: Alcohols undergo **combustion** to form carbon dioxide and water
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-7, the
+      batch-5 owner) — the combustion route presupposes the combustion-oxygen
+      chemistry; the FUELS-COMBUSTION link is HELD (B10-H-07,
+      BOUNDARY-TARGETS-ONCE)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ETHANOL-OXIDATION
+  target: 4CH1-CON-OX-RED-AGENTS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Oxidation of ethanol - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: Alcohols undergo oxidation to produce carboxylic acids when treated with **oxidising agents**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-8, the
+      batch-6 owner) — the oxidising-agent route applies the owner ([O]
+      notation, dichromate)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.31C @ Oxidation of ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ETHANOL-MANUFACTURE
+  target: 4CH1-CON-CRACKING
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: Ethene is a by-product of the **cracking** of hydrocarbons and is a valuable feedstock for making many chemicals
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-9, the
+      batch-9 owner) — the hydration feedstock sentence (the session-62
+      future-note 1 routed this surface to batch 10)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C @ Manufacture of Ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ETHANOL-MANUFACTURE
+  target: 4CH1-CON-FRACTIONAL-DISTILLATION
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Manufacture of Ethanol  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The ethanol and water are separated afterwards by **fractional distillation**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-10, the
+      batch-1 owner) — BOTH routes end in the batch-1 separation technique
+      applied as given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.32C/4.33C @ Manufacture of Ethanol (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-CARBOXYLIC-ACIDS
+  target: 4CH1-CON-ORGANIC-FORMULAE
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: The general formula of a carboxylic acid is **C**<sub><b>n</b></sub>**H**<sub><b>2n+1</b></sub>**COOH** which can be shortened to just **RCOOH**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-2, the
+      batch-9 owner — the second edge into this owner, the batch-5 x2
+      precedent) — the general-formula and drawing demands (4.34C/4.35C) apply
+      the toolkit
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.34C/4.35C @ Carboxylic Acids (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+  target: 4CH1-CON-ACID-REACTIONS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/f. Carboxylic Acids/Reactions of Carboxylic Acids  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: In the reaction with **carbonates** a metal salt, water and carbon dioxide gas are produced
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-10
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-64 ruling TARGET-11, the
+      batch-7 owner) — the note's own sentence ('the carboxylic acids behave
+      like other acids') applies the owner's metal/metal-carbonate reaction set
+      as given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.36C @ Reactions of Carboxylic Acids (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+held:
+- id: B10-H-01
+  candidate: REQUIRES_PREREQUISITE(CON-ETHANOL-MANUFACTURE, CON-CATALYST)
+  evidence: 'Manufacture note: ''Concentrated phosphoric **acid catalyst**'' (the
+    hydration conditions list)'
+  reason: MECHANISM-APPLIED-AS-GIVEN — the phosphoric-acid catalyst is a named
+    condition of the hydration route, not a studied prerequisite; the catalyst
+    owner teaches rate/equilibrium mechanism surface. The B9-H-04 rule
+    (cracking->catalyst). Held; revisit at the operator verdict.
+  status: held
+- id: B10-H-02
+  candidate: REQUIRES_PREREQUISITE(CON-ETHANOL-MANUFACTURE, CON-REVERSIBLE-EXAMPLES)
+  evidence: 'Manufacture note: ''When the reaction is complete, the reaction
+    chamber holds unreacted ethene, ethanol and water'''
+  reason: EXPLANATION-DEEPER-THAN-DEMAND — the unreacted-ethene surface gestures
+    at the equilibrium framing the batch-5 owner teaches, but the note presents
+    hydration as a manufacture route with a separation step, not as reversible
+    chemistry. Held; revisit at the operator verdict.
+  status: held
+- id: B10-H-03
+  candidate: REQUIRES_PREREQUISITE(CON-CARBOXYLIC-ACIDS, CON-IUPAC-NAMING)
+  evidence: 'Carboxylic Acids note: ''The naming of a **carboxylic acid** follows
+    the pattern **alkan + oic acid**'''
+  reason: AVAILABLE-BUT-SURFACE-MINIMAL — the alkan+oic pattern is taught
+    self-contained in the note; the batch-9 naming-system owner is not
+    load-bearing for the 4.35C drawing demand (unlike the alcohols row, whose
+    sentence explicitly invokes the shared system). Held; revisit at the
+    operator verdict.
+  status: held
+- id: B10-H-04
+  candidate: REQUIRES_PREREQUISITE(CON-CARBOXYLIC-ACIDS, CON-ORGANIC-FORMULAE)
+  evidence: 'Carboxylic Acids note: the 4.35C displayed-formulae demand (the
+    first-four table)'
+  reason: BOUNDARY-TARGETS-ONCE — the T2 formulae-toolkit dependency is already
+    carried by the sanctioned ALKENES RP ORGANIC-FORMULAE edge; a second edge
+    into the same owner would double-target (the B9-H-06 rule). Held; revisit at
+    the operator verdict.
+  status: held
+- id: B10-H-05
+  candidate: REQUIRES_PREREQUISITE(CON-ALKENES, CON-ISOMERS)
+  evidence: 'Alkenes note: the first-four table lists but-1-ene (C4H8) without
+    the but-2-ene position-isomer surface'
+  reason: AVAILABLE-BUT-SURFACE-MINIMAL — 4.26's 'up to four carbon atoms' touches
+    the but-1-ene/but-2-ene isomer surface, but the notes never teach isomerism
+    for alkenes. Held; revisit at the operator verdict.
+  status: held
+- id: B10-H-06
+  candidate: REQUIRES_PREREQUISITE(CON-CARBOXYLIC-ACIDS, CON-ETHANOL-OXIDATION)
+  evidence: 'Oxidation note: ''the microbial oxidation of ethanol will produce a
+    weak solution of the carboxylic acid, ethanoic acid, the same acid used in
+    vinegar'''
+  reason: SAME-FAMILY-ADJACENCY — the ethanoic-acid exemplar is met in the
+    oxidation surface, but the acids note re-derives it independently via the
+    alkan+oic naming; the dependency is not load-bearing. Held; revisit at the
+    operator verdict.
+  status: held
+- id: B10-H-07
+  candidate: REQUIRES_PREREQUISITE(CON-ETHANOL-OXIDATION, CON-FUELS-COMBUSTION)
+  evidence: 'Oxidation note: ''Ethanol burns readily with an almost invisible
+    blue flame'''
+  reason: SAME-FAMILY-ADJACENCY / BOUNDARY-TARGETS-ONCE — the combustion-family
+    dependency is routed via the sanctioned COMBUSTION-O2 edge (the batch-5
+    owner); the fuels-products owner stays single-targeted. Held; revisit at the
+    operator verdict.
+  status: held
+- id: B10-H-08
+  candidate: REQUIRES_PREREQUISITE(CON-ETHANOL-OXIDATION, CON-CO-POISONING)
+  evidence: 'Pinned Alkenes MS Q4(d)ii: ''reduces capacity of blood to carry
+    oxygen'' (the ethanol incomplete-combustion CO question)'
+  reason: ENRICHMENT-NOT-LOAD-BEARING — the MS documents the ethanol-CO surface,
+    but the note teaches only clean burning ('carbon dioxide and water'); an
+    assessment-documented surface the notes do not carry (the batch-9
+    CON-CO-POISONING owner stays untouched). Held; revisit at the operator
+    verdict.
+  status: held
+- id: B10-H-09
+  candidate: RELATED_TO(CON-ALCOHOLS, CON-EXO-ENDO)
+  evidence: 'Alcohols note: ''The first four alcohols are commonly used as
+    **fuels**'''
+  reason: ENRICHMENT-NOT-LOAD-BEARING — the fuel use is a property mention; the
+    notes never classify alcohol reactions as exo/endothermic or make the energy
+    classification load-bearing. Held; revisit at the operator verdict.
+  status: held

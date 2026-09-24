@@ -128,7 +128,8 @@ DECISION_RECORDS = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                     "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
                     "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml",
                     "c11_batch6_decisions.yaml", "c11_batch7_decisions.yaml",
-                    "c11_batch8_decisions.yaml", "c11_batch9_decisions.yaml"]
+                    "c11_batch8_decisions.yaml", "c11_batch9_decisions.yaml",
+                    "c11_batch10_decisions.yaml"]
 RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                         r"|llm|agent|model|bot", re.I)

@@ -1,0 +1,203 @@
+meta:
+  task: T-C11
+  stage: s16-batch-10-verdicts
+  batch: 10
+  session: 64
+  file: OPERATOR-OWNED verdict record for C11_BATCH10_REVIEW_SHEET (session 64) — verdicts recorded by
+    operator decision (pending).
+  instructions: 'Fill verdict per row. Edge/node vocabulary: CONFIRM | REJECT | HOLD | MERGE | SPLIT.
+    This batch authored NO REVIEW_REQUIRED edge (all doubts were held or resolved on explicit evidence).
+    Identity-decision vocabulary: MERGE (fold nodes) | SPLIT (mint finer) | KEEP_AS_IS. The batch-10 extraction_pass
+    is c11-s16-batch-10 (Section 4 Organic Chemistry SECOND slice: S4-d Alkenes 4.23-4.28 + S4-e Alcohols
+    4.29C-4.33C + S4-f Carboxylic acids 4.34C-4.37C = 15 authorable SPs; no practicals own any batch-10
+    SP). Its 9 held candidates are informational only (no reopening, no promotion of held candidates).
+    THIRTEEN edges are cross-section boundary edges into the ELEVEN ruled targets (batch-9 owners CON-HOMOLOGOUS-SERIES
+    x2, CON-ORGANIC-FORMULAE x2, CON-HYDROCARBON, CON-ALKANES, CON-ORGANIC-REACTION-CLASSES, CON-IUPAC-NAMING,
+    CON-CRACKING; batch-5 CON-COMBUSTION-O2; batch-6 CON-OX-RED-AGENTS; batch-1 CON-FRACTIONAL-DISTILLATION;
+    batch-7 CON-ACID-REACTIONS; sanctioned by the session-64 cross-slice ruling, no duplicate mint). The
+    next session applies verdicts via the §18 promotion pathway; nothing here is HUMAN_VALIDATED.'
+edge_verdicts:
+- id: B10-E-01
+  triple: 4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ALKENES
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-E-02
+  triple: 4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE 4CH1-CON-ALCOHOLS
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-E-03
+  triple: 4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE 4CH1-CON-ALCOHOLS
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-E-04
+  triple: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-CARBOXYLIC-ACIDS
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-E-05
+  triple: 4CH1-MIS-PROPANOL-POSITION WRONG_ANSWER_PATTERN 4CH1-CON-ALCOHOLS
+  pretriage: FLAGGED
+  verdict: null
+  notes: 'documented Reject class (the pinned Alkenes MS Q4(b)(ii): ''Reject propan-1-ol / 1-propanol'')'
+- id: B10-E-06
+  triple: 4CH1-MIS-PROPANOL-POSITION REMEDIATED_BY 4CH1-CON-ALCOHOLS
+  pretriage: FLAGGED
+  verdict: null
+  notes: remediation target = WAP target (the B1-E-25 pattern)
+- id: B10-E-07
+  triple: 4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — the S4-d/e/f notes name their families
+    as homologous-series members and apply th...)
+- id: B10-E-08
+  triple: 4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-FORMULAE
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — the general/structural/displayed formulae
+    demands of 4.24/4.26/4.30C/4.35C run t...)
+- id: B10-E-09
+  triple: 4CH1-CON-ALKENES REQUIRES_PREREQUISITE 4CH1-CON-HYDROCARBON
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — 4.25 classifies alkenes as unsaturated
+    HYDROCARBONS — the batch-9 H/C-only defin...)
+- id: B10-E-10
+  triple: 4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ALKANES
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — the 4.28 bromine-water test is defined
+    against the alkane contrast ('All alkanes...)
+- id: B10-E-11
+  triple: 4CH1-CON-BROMINE-WATER-TEST REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-REACTION-CLASSES
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — 4.27's 'alkenes undergo addition reactions'
+    runs the batch-9 class owner (which ...)
+- id: B10-E-12
+  triple: 4CH1-CON-ALCOHOLS REQUIRES_PREREQUISITE 4CH1-CON-HOMOLOGOUS-SERIES
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — the S4-d/e/f notes name their families
+    as homologous-series members and apply th...)
+- id: B10-E-13
+  triple: 4CH1-CON-ALCOHOLS REQUIRES_PREREQUISITE 4CH1-CON-IUPAC-NAMING
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — the alcohols note applies the naming
+    system ('the same system is used as for alk...)
+- id: B10-E-14
+  triple: 4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE 4CH1-CON-COMBUSTION-O2
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — 4.31C's combustion route ('Alcohols
+    undergo combustion to form carbon dioxide an...)
+- id: B10-E-15
+  triple: 4CH1-CON-ETHANOL-OXIDATION REQUIRES_PREREQUISITE 4CH1-CON-OX-RED-AGENTS
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — 4.31C's third oxidation route ('Treatment
+    with an oxidising agent'; '[O]') appli...)
+- id: B10-E-16
+  triple: 4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE 4CH1-CON-CRACKING
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — 'Ethene is a by-product of the cracking
+    of hydrocarbons' — the hydration feedsto...)
+- id: B10-E-17
+  triple: 4CH1-CON-ETHANOL-MANUFACTURE REQUIRES_PREREQUISITE 4CH1-CON-FRACTIONAL-DISTILLATION
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — BOTH ethanol routes end 'separated
+    by fractional distillation' — the batch-1 tec...)
+- id: B10-E-18
+  triple: 4CH1-CON-CARBOXYLIC-ACIDS REQUIRES_PREREQUISITE 4CH1-CON-ORGANIC-FORMULAE
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — the general/structural/displayed formulae
+    demands of 4.24/4.26/4.30C/4.35C run t...)
+- id: B10-E-19
+  triple: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS REQUIRES_PREREQUISITE 4CH1-CON-ACID-REACTIONS
+  pretriage: FLAGGED
+  verdict: null
+  notes: cross-boundary target (session-64 ruling; the owner node — 'The carboxylic acids behave like
+    other acids' — 4.36C's metal and metal-carbona...)
+node_verdicts:
+- id: B10-N-01
+  code: 4CH1-CON-ALCOHOLS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-N-02
+  code: 4CH1-CON-ALKENES
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-N-03
+  code: 4CH1-CON-BROMINE-WATER-TEST
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-N-04
+  code: 4CH1-CON-CARBOXYLIC-ACID-REACTIONS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-N-05
+  code: 4CH1-CON-CARBOXYLIC-ACIDS
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-N-06
+  code: 4CH1-CON-ETHANOL-MANUFACTURE
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-N-07
+  code: 4CH1-CON-ETHANOL-OXIDATION
+  family: CONCEPT
+  pretriage: LIKELY_SAFE
+  verdict: null
+  notes: ''
+- id: B10-M-01
+  code: 4CH1-MIS-PROPANOL-POSITION
+  family: MISCONCEPTION
+  pretriage: LIKELY_SAFE (mark-scheme-documented)
+  verdict: null
+  notes: ''
+identity_decisions:
+- id: B10-ID-01
+  verdict: null
+  question: keep the 4.23/4.24/4.25/4.26 alkenes family as ONE node (functional group + general formula
+    + unsaturated + the first-four table taught as one thread) vs splitting the definition node from the
+    drawing-skills node
+- id: B10-ID-02
+  verdict: null
+  question: keep 4.27/4.28 as ONE bromine-water-test node (the addition reaction IS the chemistry the
+    test observes) vs splitting the dibromoalkane reaction node from the distinguishing-test node
+- id: B10-ID-03
+  verdict: null
+  question: keep 4.32C/4.33C as ONE manufacture node (both routes and their conditions taught as one thread;
+    both routes share the fractional-distillation finish) vs splitting the hydration node from the fermentation
+    node
+- id: B10-ID-04
+  verdict: null
+  question: keep 4.34C/4.35C/4.37C as ONE carboxylic-acids node (functional group + formulae/naming +
+    vinegar taught in one note) vs splitting the vinegar node from the definition node
+- id: B10-ID-05
+  verdict: null
+  question: mint the MIS-PROPANOL-POSITION misconception from the pinned Alkenes MS Q4(b)(ii) Reject class
+    ('Reject propan-1-ol / 1-propanol'; narrow-but-exact; the MIS-HALIDE-TEST-HCL/B8-M-02 and MIS-KEROSENE-DOUBLE-BONDS/B9-M-01
+    precedent) — or rule it exam-trivia
+held_appendix_acknowledgment:
+  acknowledged: null
+  notes: ''

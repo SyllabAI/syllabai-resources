@@ -63,5 +63,9 @@ legacy_allowlist:
   # SPEC anchor literal (graph/specification_points.yaml) — same class as the
   # batch-5..8 records; the registry resolves it at generation/check time
   - scripts/c11_batch9_decisions.yaml
+  # session-64 (C28 P5): the batch-10 decision record carries the legacy-form
+  # SPEC anchor literal (graph/specification_points.yaml) — same class as the
+  # batch-5..9 records; the registry resolves it at generation/check time
+  - scripts/c11_batch10_decisions.yaml
   - scripts/c11_pilot_decisions.yaml
   - scripts/c12_decisions/smoke-demo.agent-pass-1.yaml

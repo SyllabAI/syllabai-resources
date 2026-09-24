@@ -79,7 +79,8 @@ DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                   "c11_batch2_decisions.yaml", "c11_batch3_decisions.yaml",
                   "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml",
                   "c11_batch6_decisions.yaml", "c11_batch7_decisions.yaml",
-                  "c11_batch8_decisions.yaml", "c11_batch9_decisions.yaml"]
+                  "c11_batch8_decisions.yaml", "c11_batch9_decisions.yaml",
+                    "c11_batch10_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 
 RELATIONS = {"PART_OF", "REQUIRES_PREREQUISITE", "RELATED_TO", "MISCONCEPTION_OF",

@@ -150,12 +150,16 @@ check("C max_boundary_edges honoured (exactly 3 sanctioned targets)",
 # nothing and promotes nothing.)
 # ---------------------------------------------------------------------------
 B9_RECORD = HERE / "c11_batch9_decisions.yaml"
+B10_RECORD = HERE / "c11_batch10_decisions.yaml"
 expected_nodes = 157 + (8 if B8_RECORD.exists() else 0) \
-    + (15 if B9_RECORD.exists() else 0)
+    + (15 if B9_RECORD.exists() else 0) \
+    + (8 if B10_RECORD.exists() else 0)
 expected_edges = 367 + (17 if B8_RECORD.exists() else 0) \
-    + (41 if B9_RECORD.exists() else 0)
+    + (41 if B9_RECORD.exists() else 0) \
+    + (34 if B10_RECORD.exists() else 0)
 expected_partof = 156 + (7 if B8_RECORD.exists() else 0) \
-    + (21 if B9_RECORD.exists() else 0)
+    + (21 if B9_RECORD.exists() else 0) \
+    + (15 if B10_RECORD.exists() else 0)
 check("D1 the ruling mints no node beyond the sanctioned batch-8 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")

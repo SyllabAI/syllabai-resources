@@ -1569,3 +1569,30 @@ C11_OPERATOR_DECISIONS.md).
 > gates are the batch-10 and batch-11 commissionings (each needs its own
 > operator turn); D4 subject-#2 K0(ii) corpus securing, snap-002
 > re-freeze, v78 explorer build and PAT rotation remain operator-held.
+
+## Session 64 amendment (2026-09-25) — BATCH 10 AUTHORED TO ITS GATE
+
+> The operator's "commission batch 10" directive commissioned the S4 Organic
+> SECOND slice (S4-d Alkenes + S4-e Alcohols + S4-f Carboxylic acids, 15
+> authorable SPs). The session-64 authoring chain: cross-slice boundary
+> ruling (146 terms -> 73 matches ALL dispositioned; THIRTEEN sanctioned
+> boundary edges into ELEVEN existing-owner targets — batch-9 owners x8
+> incl. two double-targeted, batch-5/6/1/7 owners x1 each; non-mint 48);
+> MS pin ALKENES_MS_P2 (PARTIAL coverage — the only Paper-2 MS for the
+> slice); decision record 8 nodes (7 CONCEPT with FOUR one-family
+> consolidations + 1 MS-documented misconception MIS-PROPANOL-POSITION
+> from the Alkenes MS Q4(b)(ii) Reject column) / 19 authored edges / 9
+> held / 15 command kinds; quote probe 37/37 (one byte-honest
+> typographic-quote anchor); preverify 15/15; pass-2 zero demotions
+> (FP-B10-1..6 / FN-B10-1..2 recorded); generator first-run ALL GATES
+> GREEN. Registry grown to [pilot..batch10]; MERGED STORE 188 nodes / 459
+> edges (199 PART_OF + 260 semantic) / 168 command kinds / 122 held / 236
+> semantic HUMAN_VALIDATED UNCHANGED; coverage 168/182 SPs (S4 36 of 50);
+> the 4.15 negative control uncovered. Forecast record appended AT
+> AUTHORING. State-moved expectations re-anchored with dated session-64
+> comments (no test weakened); sweep pins re-issued; serving plane
+> re-emitted; governance amended. BATCH 10 IS AUTHORED TO ITS GATE — the
+> operator's batch-10 verdict session is the one open T-C11 gate (fill
+> scripts/c11_batch10_verdicts_template.yaml -> rename to
+> c11_batch10_verdicts.yaml -> a later session encodes + applies via §18).
+> Then STOP — Batch 10 authoring -> operator gate. Nothing more.

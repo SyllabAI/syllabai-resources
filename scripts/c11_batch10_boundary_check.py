@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
-"""T-C11 session 59 — c11_batch7_boundary_check.py: standing checker for the
-cross-slice boundary ruling (scripts/c11_batch7_boundary_ruling.yaml).
+"""T-C11 session 64 — c11_batch10_boundary_check.py: standing checker for the
+cross-slice boundary ruling (scripts/c11_batch10_boundary_ruling.yaml).
 
 Machine-verifies the ruling's claims against the LIVE store so the ruling is
-checkable, not prose (the c11_batch6_boundary_check.py pattern):
+checkable, not prose (the c11_batch9_boundary_check.py pattern):
 
   A. ruling schema          — sections present, session/date/attribution
-  B. conflict audit         — re-running the S2-f/g candidate-term match
-                              against the PRE-batch-7 store (registry minus
-                              the batch-7 record when it exists, the live
+  B. conflict audit         — re-running the S4-d/e/f candidate-term match
+                              against the PRE-batch-10 store (registry minus
+                              the batch-10 record when it exists, the live
                               store otherwise) reproduces the recorded
-                              59-match set
+                              73-match set
   C. boundary targets exist — every sanctioned boundary target is a live
                               node owned by the record the ruling names
   D. discipline invariants  — the ruling mints nothing beyond the sanctioned
-                              batch-7 authoring (checked post-authoring), the
+                              batch-10 authoring (checked post-authoring), the
                               non_mint_list is duplicate-free + covered, the
                               semantic HV count is the operator promotions
-                              (187; PART_OF HV rides the later T-C19 G19
+                              (236; PART_OF HV rides the later T-C19 G19
                               record)
 
-Usage: python3 scripts/c11_batch7_boundary_check.py
+Usage: python3 scripts/c11_batch10_boundary_check.py
 """
 from __future__ import annotations
 
@@ -35,7 +35,7 @@ import graph_paths as GP  # noqa: E402  # C28 §3.2 path registry
 
 REPO = HERE.parent
 GRAPH = GP.qual_dir()
-RULING = HERE / "c11_batch7_boundary_ruling.yaml"
+RULING = HERE / "c11_batch10_boundary_ruling.yaml"
 OWNERS = {
     "pilot": HERE / "c11_pilot_decisions.yaml",
     "batch 1": HERE / "c11_batch1_decisions.yaml",
@@ -44,12 +44,11 @@ OWNERS = {
     "batch 4": HERE / "c11_batch4_decisions.yaml",
     "batch 5": HERE / "c11_batch5_decisions.yaml",
     "batch 6": HERE / "c11_batch6_decisions.yaml",
+    "batch 7": HERE / "c11_batch7_decisions.yaml",
+    "batch 8": HERE / "c11_batch8_decisions.yaml",
+    "batch 9": HERE / "c11_batch9_decisions.yaml",
 }
-B7_RECORD = HERE / "c11_batch7_decisions.yaml"
-# session-61 re-anchor (dated, protective intent unchanged): + the 8-node /
-# 17-edge (7 PART_OF + 10 semantic) SANCTIONED batch-8 authored-to-gate
-# record.
-B8_RECORD = HERE / "c11_batch8_decisions.yaml"
+B10_RECORD = HERE / "c11_batch10_decisions.yaml"
 
 fails: list[str] = []
 n = 0
@@ -76,17 +75,15 @@ check("A1 ruling parses with required sections",
                              "boundary_edge_ruling", "future_boundary_notes",
                              "non_goals")))
 m = rul["meta"]
-check("A2 ruling attribution (session 59, operator-commissioned, 2026-09-23)",
-      m.get("session") == 59 and m.get("recorded_date") == "2026-09-23"
-      and "Proceed with batch 7" in (m.get("commissioned_by") or ""))
+check("A2 ruling attribution (session 64, operator-commissioned, 2026-09-25)",
+      m.get("session") == 64 and m.get("recorded_date") == "2026-09-25"
+      and "commission batch 10" in (m.get("commissioned_by") or ""))
+check("A3 the 4.15 negative-control carve-out recorded in the ruling",
+      "4CH1-4.15" in (m.get("scope_sp_note") or "")
+      and "CARVED OUT" in (m.get("scope_sp_note") or ""))
 
 # ---------------------------------------------------------------------------
-# B. conflict audit re-run against the PRE-batch-7 store
-# (the ruling was recorded against the live 142-node post-batch-6 state; once
-# the batch-7 record enters the registry, the audit re-runs on the registry
-# minus batch 7 — the state the ruling was recorded against. The claim it
-# protects: no NON-batch-7 node or edge anywhere in the store carries an
-# UNDISPOSITIONED S2-f/g term; the 59 recorded matches reproduce.)
+# B. conflict audit re-run against the PRE-batch-10 store
 # ---------------------------------------------------------------------------
 pre_nodes = []
 for label, path in OWNERS.items():
@@ -100,18 +97,18 @@ for _label, x in pre_nodes:
     blob.extend(x.get("aliases", []))
 store_blob = " || ".join(blob).lower()
 pre_codes = {x["code"] for _l, x in pre_nodes}
-b7_codes = {x["code"] for x in nodes_doc["nodes"]} - pre_codes
+b10_codes = {x["code"] for x in nodes_doc["nodes"]} - pre_codes
 pre_edges = [e for e in edges_doc["edges"]
-             if e["source"] not in b7_codes and e["target"] not in b7_codes]
+             if e["source"] not in b10_codes and e["target"] not in b10_codes]
 endpoints = " ".join(f"{e['source']} {e['target']}"
                      for e in pre_edges).lower()
-terms = rul["conflict_audit"]["s2_candidate_terms"]
+terms = rul["conflict_audit"]["s4_def_candidate_terms"]
 matched = [t for t in terms if t in store_blob or t in endpoints]
-check("B1 the recorded 59-match audit reproduces on the pre-batch-7 store "
+check("B1 the recorded 73-match audit reproduces on the pre-batch-10 store "
       "(registry state the ruling was recorded against)",
-      len(matched) == 59, f"matched = {len(matched)}")
+      len(matched) == 73, f"matched = {len(matched)}")
 check("B2 the ruling records a disposition for every matched term",
-      len(rul["match_dispositions"]) >= 59
+      {d["term"] for d in rul["match_dispositions"]} == set(matched)
       and rul["conflict_audit"].get("result", "").startswith("NO UNHANDLED"))
 
 # ---------------------------------------------------------------------------
@@ -137,77 +134,53 @@ check("C non_mint_list duplicate-free and all live",
       and all(c in live_codes for c in non_mint))
 check("C every sanctioned EXISTING-OWNER target is non-mint protected",
       {t["target"] for t in targets} <= set(non_mint))
-check("C max_boundary_edges honoured (exactly 2 sanctioned targets)",
-      len(targets) == 2
-      and rul["boundary_edge_ruling"]["max_boundary_edges"] == 2)
+check("C max_boundary_edges honoured (exactly 11 sanctioned targets)",
+      len(targets) == 11
+      and rul["boundary_edge_ruling"]["max_boundary_edges"] == 11)
 
 # ---------------------------------------------------------------------------
 # D. discipline invariants
-# (session-59 authoring re-anchor, dated, protective intent unchanged: the
-# store grows by the SANCTIONED batch-7 authored-to-gate record —
-# scripts/c11_batch7_decisions.yaml, extraction_pass c11-s16-batch-7, the
-# record this ruling governs — 15 nodes (13 CONCEPT + 2 MISCONCEPTION) +
-# 19 authored semantic edges + the 14 derived PART_OF rows (one per attached
-# spec point; CON-PROTON-TRANSFER attaches 2.35 AND 2.36), ZERO promotions:
-# 187 SEMANTIC HV unchanged. The ruling itself still mints nothing and
-# promotes nothing.)
 # ---------------------------------------------------------------------------
-B9_RECORD = HERE / "c11_batch9_decisions.yaml"
-B10_RECORD = HERE / "c11_batch10_decisions.yaml"
-expected_nodes = 142 \
-    + (8 if B8_RECORD.exists() else 0) \
-    + (15 if B7_RECORD.exists() else 0) \
-    + (15 if B9_RECORD.exists() else 0) \
-    + (8 if B10_RECORD.exists() else 0)
-expected_edges = 334 \
-    + (17 if B8_RECORD.exists() else 0) \
-    + (33 if B7_RECORD.exists() else 0) \
-    + (41 if B9_RECORD.exists() else 0) \
-    + (34 if B10_RECORD.exists() else 0)
-expected_partof = 142 \
-    + (7 if B8_RECORD.exists() else 0) \
-    + (14 if B7_RECORD.exists() else 0) \
-    + (21 if B9_RECORD.exists() else 0) \
-    + (15 if B10_RECORD.exists() else 0)
-check("D1 the ruling mints no node beyond the sanctioned batch-7 authoring",
+expected_nodes = 180 + (8 if B10_RECORD.exists() else 0)
+expected_edges = 425 + (34 if B10_RECORD.exists() else 0)
+expected_partof = 184 + (15 if B10_RECORD.exists() else 0)
+check("D1 the ruling mints no node beyond the sanctioned batch-10 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")
-check("D2 the ruling mints no edge beyond the sanctioned batch-7 authoring",
+check("D2 the ruling mints no edge beyond the sanctioned batch-10 authoring",
       len(edges_doc["edges"]) == expected_edges
       and sum(1 for e in edges_doc["edges"]
               if e["relation"] == "PART_OF") == expected_partof)
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")
-# session-60 re-anchor (dated): the batch-7 verdicts were APPLIED through
-# §18 (19 operator promotions, c11_batch7_verdicts, 2026-09-23) — the
-# semantic HV count moved 187 -> 206; the ruling's protected property is
-# unchanged (it still mints/promotes nothing).
-# session-62 re-anchor (dated): the batch-8 §18 application (10 operator
-# promotions, c11_batch8_verdicts, 2026-09-24) moved the semantic HV count
-# 206 -> 216; the protected property is unchanged.
-# session-63 re-anchor (dated): the batch-9 §18 application (20 operator
-# promotions, c11_batch9_verdicts, 2026-09-25) moved the semantic HV count
-# 216 -> 236; the protected property is unchanged.
-check("D3 semantic HV at the operator-promoted count (236; the batch-7 "
-      "authoring promoted nothing and the ruling itself still mints "
-      "nothing — the 19 batch-7 authored edges were promoted by the "
-      "operator's §6/§7 verdicts via §18 at session 60, the 10 batch-8 "
-      "authored edges likewise at session 62, and the 20 batch-9 authored "
-      "edges likewise at session 63; PART_OF HV rides the T-C19 "
-      "G19 record)",
+check("D3 semantic HV at the operator-promoted count (236; the batch-10 "
+      "authoring promotes nothing and the ruling itself still mints "
+      "nothing — promotion happens only at the operator's verdict gate "
+      "via §18; PART_OF HV rides the T-C19 G19 record)",
       hv == 236)
 check("D4 non_goals recorded (no ontology redesign / no re-opening / no "
       "re-scope / no promotion authority / no direct writes)",
       len(rul.get("non_goals", [])) >= 5)
+# the negative control stays untouched by the ruling and the batch
+n415_nodes = [x for x in nodes_doc["nodes"]
+              if any(sp.get("code") == "4CH1-4.15"
+                     for sp in x.get("spec_points", []))]
+n415_edges = [e for e in edges_doc["edges"]
+              if any("4.15" in a.get("file", "")
+                     for a in e.get("evidence", []))]
+check("D5 the 4CH1-4.15 negative control stays uncovered (zero node/edge "
+      "attachments through the ruling and the batch)",
+      len(n415_nodes) == 0 and len(n415_edges) == 0)
 
 # ---------------------------------------------------------------------------
 print()
 if fails:
     print(f"FAILED: {len(fails)} check(s): {fails}")
     raise SystemExit(1)
-print("c11_batch7_boundary_check: ALL PASS — the cross-slice boundary ruling "
-      "(session 59) is schema-valid, its 59-match dispositioned audit "
-      "reproduces on the pre-batch-7 store, every sanctioned boundary target "
-      "exists with exact ownership, and the ruling mints and promotes nothing "
-      "beyond the sanctioned batch-7 authored-to-gate record.")
+print(f"c11_batch10_boundary_check: ALL PASS — the cross-slice boundary "
+      f"ruling (session 64) is schema-valid, its 73-match dispositioned "
+      f"audit reproduces on the pre-batch-10 store, every sanctioned "
+      f"boundary target exists with exact ownership, and the ruling mints "
+      f"and promotes nothing beyond the sanctioned batch-10 "
+      f"authored-to-gate record.")

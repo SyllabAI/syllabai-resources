@@ -328,6 +328,10 @@ B8_AUTHORED = {triple(e)
 # SUGGESTED surface, so the live SUGGESTED semantic surface is again
 # EXACTLY the 3 frozen pilot operator HOLDs (the pre-session-62-authoring
 # state). No test weakened.
+B10_DEC = HERE / "c11_batch10_decisions.yaml"
+B10_AUTHORED = {triple(e)
+                for e in (yaml.safe_load(B10_DEC.read_text(encoding="utf-8"))
+                          .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
       "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
       "batch-8 authored edges were promoted by the operator's verdicts "
@@ -335,7 +339,7 @@ check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
       "by the operator's verdicts through §18 at session 63; batch-4/5/6 "
       "verdicts applied at sessions 54/56/58)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds
+      and live_sugg == pilot_holds | B10_AUTHORED
       and B6_AUTHORED <= hv and B7_AUTHORED <= hv and B8_AUTHORED <= hv
       and not live_b6_sugg and not live_b5_sugg,
       f"live SUGGESTED = {len(live_sugg)}")
@@ -432,11 +436,11 @@ check("D11 no batch-4 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # session-61 re-anchor (2026-09-24, dated): + the SANCTIONED batch-8
 # authored-to-gate record (8 nodes / 17 edges = 7 PART_OF + 10
 # semantic) — the operator gate decision; no test weakened.
-check("D12 live store shape 180 nodes / 425 edges (184 PART_OF + 241 "
+check("D12 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 180 and len(edges_doc["edges"]) == 425
+      len(nodes_doc["nodes"]) == 188 and len(edges_doc["edges"]) == 459
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 184)
+              if e["relation"] == "PART_OF") == 199)
 # boundary mint discipline (the session-52 cross-slice ruling)
 b4_codes = {c["code"] for c in dec["nodes"]}
 check("D13 zero ruled S1 owner re-minted in the batch-4 node set "
