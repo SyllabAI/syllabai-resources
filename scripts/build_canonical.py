@@ -68,6 +68,68 @@ MODULAR_UNIT_MAPS = {
 }
 COVER_CODE = {}   # filled from spec.json per qual
 
+# T-KG-16: paper/unit applicability for the remaining quals, derived from the
+# printed assessment overviews / unit content summaries of the source PDFs
+# (page refs inside each rule string). Closes the documented gap: paper-level
+# applicability for the non-science quals + the IAL/SDA-mod unit_scope repairs.
+WHOLE_PAPERS = {
+    'igcse-business': (['4BS1/01', '4BS1/02'],
+        'both papers draw on topics taken from the whole of the subject content '
+        '(Paper 1 small-business, Paper 2 large-business scenarios; spec pp.6, 8)'),
+    'igcse-maths-b': (['4MB1/01', '4MB1/02'],
+        'single tier: both papers contain questions from any part of the '
+        'specification content (spec pp.5-6, 10)'),
+    'igcse-further-maths': (['4PM1/01', '4PM1/02'],
+        'single tier: each paper contains questions from any part of the '
+        'specification content (spec p.5)'),
+}
+MATHS_A_TIER_PAPERS = {'F': ['4MA1/1F', '4MA1/2F'], 'H': ['4MA1/1H', '4MA1/2H']}
+GEO_AO_IDS = {'IGCSE_GEOGRAPHY:S9.243', 'IGCSE_GEOGRAPHY:S9.244'}
+GEO_SKILL_IDS = {f'IGCSE_GEOGRAPHY:S9.{n}' for n in range(245, 254)}
+IAL_PHYSICS_TITLES = {
+    'Mechanics': 'U1', 'Materials': 'U1',
+    'Waves and Particle Nature of Light': 'U2', 'Electric Circuits': 'U2',
+    'Further Mechanics': 'U4', 'Electric and Magnetic Fields': 'U4',
+    'Nuclear and Particle Physics': 'U4',
+    'Thermodynamics': 'U5', 'Nuclear Decay': 'U5', 'Oscillations': 'U5',
+    'Astrophysics and Cosmology': 'U5',
+}
+IAL_PHYSICS_META = {'U1': ('WPH11/01', '7'), 'U2': ('WPH12/01', '7'),
+                    'U4': ('WPH14/01', '9'), 'U5': ('WPH15/01', '10')}
+IAL_BIO_META = {'U1': ({'1', '2'}, 'WBI11/01', '7'), 'U2': ({'3', '4'}, 'WBI12/01', '7'),
+                'U4': ({'5', '6'}, 'WBI14/01', '8'), 'U5': ({'7', '8'}, 'WBI15/01', '9')}
+IAL_CHEM_META = {
+    'U1': ({'1', '2', '3', '4', '5'}, 'WCH11/01', '8'),
+    'U2': ({'6', '7', '8', '9', '10'}, 'WCH12/01', '9'),
+    'U4': ({'11', '12', '13', '14', '15'}, 'WCH14/01', '11'),
+    'U5': ({'16', '17', '18', '19', '20'}, 'WCH15/01', '12'),
+}
+IAL_MATHS_CODES = {
+    'P1': ('WMA11/01', 'Pure Mathematics 1'), 'P2': ('WMA12/01', 'Pure Mathematics 2'),
+    'P3': ('WMA13/01', 'Pure Mathematics 3'), 'P4': ('WMA14/01', 'Pure Mathematics 4'),
+    'FP1': ('WFM01/01', 'Further Pure Mathematics 1'),
+    'FP2': ('WFM02/01', 'Further Pure Mathematics 2'),
+    'FP3': ('WFM03/01', 'Further Pure Mathematics 3'),
+    'M1': ('WME01/01', 'Mechanics 1'), 'M2': ('WME02/01', 'Mechanics 2'),
+    'M3': ('WME03/01', 'Mechanics 3'),
+    'S1': ('WST01/01', 'Statistics 1'), 'S2': ('WST02/01', 'Statistics 2'),
+    'S3': ('WST03/01', 'Statistics 3'), 'D1': ('WDM11/01', 'Decision Mathematics 1'),
+}
+SDA_MOD_META = {
+    ('Biology', '1'): ('U1', '4WSD1/1B', '10'), ('Biology', '2'): ('U1', '4WSD1/1B', '10'),
+    ('Biology', '3'): ('U2', '4WSD2/1B', '11'), ('Biology', '4'): ('U2', '4WSD2/1B', '11'),
+    ('Biology', '5'): ('U2', '4WSD2/1B', '11'), ('Biology', '6'): ('U2', '4WSD2/1B', '11'),
+    ('Chemistry', '1'): ('U3', '4WSD3/1C', '12'), ('Chemistry', '2'): ('U3', '4WSD3/1C', '12'),
+    ('Chemistry', '3'): ('U3', '4WSD3/1C', '12'), ('Chemistry', '4'): ('U3', '4WSD3/1C', '12'),
+    ('Chemistry', '5'): ('U4', '4WSD4/1C', '13'), ('Chemistry', '6'): ('U4', '4WSD4/1C', '13'),
+    ('Chemistry', '7'): ('U4', '4WSD4/1C', '13'), ('Chemistry', '8'): ('U4', '4WSD4/1C', '13'),
+    ('Physics', '1'): ('U5', '4WSD5/1P', '14'), ('Physics', '2'): ('U5', '4WSD5/1P', '14'),
+    ('Physics', '3'): ('U5', '4WSD5/1P', '14'), ('Physics', '4'): ('U5', '4WSD5/1P', '14'),
+    ('Physics', '5'): ('U6', '4WSD6/1P', '15'), ('Physics', '6'): ('U6', '4WSD6/1P', '15'),
+    ('Physics', '7'): ('U6', '4WSD6/1P', '15'), ('Physics', '8'): ('U6', '4WSD6/1P', '15'),
+    ('Physics', '9'): ('U6', '4WSD6/1P', '15'),
+}
+
 def load_spec_meta(slug):
     p = f'{BASE}/{slug}/spec.json'
     if os.path.exists(p):
@@ -666,15 +728,18 @@ def extract_command_words(doc, kill):
 
 # --------------------------------------------------------- applicability ----
 
-def applicability(slug, scope, official_code, topic_number=None):
+def applicability(slug, scope, official_code, topic_number=None, row=None):
     L = PAPER_LETTER.get(slug)
     if slug == 'igcse-maths-a':
         if scope == 'H':
-            return {'tier': 'Higher', 'rule': 'Higher Tier addition: printed only in the '
-                    'Higher Tier content walk; Foundation Tier statements are assumed '
-                    'knowledge for Higher Tier papers'}
-        return {'tier': 'Foundation', 'rule': 'printed in the Foundation Tier content walk; '
-                'assumed knowledge for Higher Tier papers'}
+            return {'tier': 'Higher', 'papers': MATHS_A_TIER_PAPERS['H'],
+                    'rule': 'Higher Tier addition: printed only in the Higher Tier content '
+                            'walk; assessed in both Higher Tier papers (codes 4MA1/1H '
+                            'and 4MA1/2H); Higher papers assume Foundation Tier content'}
+        return {'tier': 'Foundation', 'papers': MATHS_A_TIER_PAPERS['F'],
+                'rule': 'printed in the Foundation Tier content walk; assessed in both '
+                        'Foundation Tier papers (codes 4MA1/1F and 4MA1/2F); Foundation '
+                        'statements are assumed knowledge for Higher Tier papers'}
     if L and slug in ('igcse-chemistry', 'igcse-biology', 'igcse-physics'):
         suffix = official_code[-1] if official_code and official_code[-1].isalpha() else None
         if suffix:
@@ -699,6 +764,136 @@ def applicability(slug, scope, official_code, topic_number=None):
                                 f'spec pp.{m["pages"]}); assessed by the '
                                 f'{unit.replace("U", "Unit ")} examination '
                                 f'(unit code {m["code"]})'}
+        return None
+    # ---- T-KG-16: non-science papers + IAL/SDA-mod unit repairs ----
+    if slug in WHOLE_PAPERS:
+        pls, rule = WHOLE_PAPERS[slug]
+        return {'papers': list(pls), 'rule': rule}
+    if slug == 'igcse-ict' and row is not None:
+        t = str((row.get('topic') or {}).get('number', '')).split('.')[0]
+        if t in {'1', '2', '3', '4'}:
+            return {'papers': ['4IT1/01'], 'rule': 'Paper 1 content summary: students '
+                    'must study Topics 1-4 (spec p.7)'}
+        if t in {'5', '6'}:
+            return {'papers': ['4IT1/02'], 'rule': 'Paper 2 content summary: students '
+                    'must study Topics 5-6 (spec p.8)'}
+        return None
+    if slug == 'igcse-accounting' and row is not None:
+        t = (row.get('topic') or {}).get('number')
+        if t is None:
+            return None   # SX front-matter rows stay null (documented)
+        t = str(t)
+        if t in {'1', '2', '3'}:
+            return {'papers': ['4AC1/01'], 'rule': 'Paper 1 content summary: students '
+                    'must study Topics 1-3 (spec p.6)'}
+        if t in {'4', '5'}:
+            return {'papers': ['4AC1/02'], 'rule': 'Paper 2 content summary: students '
+                    'must study Topics 4-5 (spec p.7)'}
+        return None
+    if slug == 'igcse-geography' and row is not None:
+        rid = row.get('id') or ''
+        if rid in GEO_AO_IDS:
+            return {'papers': ['4GE1/01', '4GE1/02'],
+                    'rule': 'assessment objectives are assessed in both papers: the '
+                            'printed "Relationship of assessment objectives to papers" '
+                            'table gives AO1-AO4 weightings for Paper 1 and Paper 2 '
+                            '(spec p.34)'}
+        if rid in GEO_SKILL_IDS:
+            return {'papers': ['4GE1/01', '4GE1/02'],
+                    'rule': 'qualification-level transferable skills: evident or '
+                            'accessible in the teaching, learning and/or assessment of '
+                            'the qualification (Appendix 8, spec p.50)'}
+        t = (row.get('topic') or {}).get('number')
+        if t is None:
+            return None   # SX front-matter rows stay null (documented)
+        t = str(t)
+        if t in {'1', '2', '3'}:
+            return {'papers': ['4GE1/01'], 'rule': 'Paper 1 content summary: river, '
+                    'coastal and hazardous environments, including fieldwork from one '
+                    'of these topics (spec p.6)'}
+        if t in {'4', '5', '6', '7', '8', '9'}:
+            return {'papers': ['4GE1/02'], 'rule': 'Paper 2 content summary: economic '
+                    'activity and energy, rural, urban and global issues, including '
+                    'fieldwork (spec p.7)'}
+        return None
+    if slug == 'igcse-economics' and row is not None:
+        code = (row.get('subsection') or {}).get('code') or ''
+        if code.startswith('1.'):
+            return {'unit_scope': 'U1', 'rule': 'content sits in the printed Unit 1 '
+                    'content summary (the market system; business economics), '
+                    'assessed by the Unit 1 examination (unit code 4WEC1/01) (spec p.6)'}
+        if code.startswith('2.'):
+            return {'unit_scope': 'U2', 'rule': 'content sits in the printed Unit 2 '
+                    'content summary (government and the economy; the global economy), '
+                    'assessed by the Unit 2 examination (unit code 4WEC2/01) (spec p.7)'}
+        return None
+    if slug == 'igcse-english-language-a' and row is not None:
+        c = (row.get('id') or '').split(':C')[-1][:1]
+        if c == '1':
+            return {'papers': ['4EA1/01'], 'rule': 'Component 1: Non-fiction Texts and '
+                    'Transactional Writing, paper code 4EA1/01 (spec p.5)'}
+        if c == '2':
+            return {'papers': ['4EA1/02'], 'rule': 'Component 2: Poetry and Prose Texts '
+                    'and Imaginative Writing, paper code 4EA1/02 (spec p.6)'}
+        return {'papers': [], 'coursework': True,
+                'rule': 'Component 3 (4EA1/03) is internally assessed and externally '
+                        'moderated — a non-examined assessment, not a written paper '
+                        '(spec p.6)'}
+    if slug == 'igcse-english-literature' and row is not None:
+        c = (row.get('id') or '').split(':C')[-1][:1]
+        if c == '1':
+            return {'papers': ['4ET1/01'], 'rule': 'Component 1: Poetry and Modern '
+                    'Prose, paper code 4ET1/01 (spec p.6)'}
+        if c == '2':
+            return {'papers': ['4ET1/02'], 'rule': 'Component 2: Modern Drama and '
+                    'Literary Heritage Texts, paper code 4ET1/02 (spec p.7)'}
+        return {'papers': [], 'coursework': True,
+                'rule': "Component 3 (4ET1/03, printed 'Paper 3') is assessed through "
+                        'two coursework assignments, internally set and assessed and '
+                        'externally moderated by Pearson — not an externally examined '
+                        'paper (spec p.7)'}
+    if slug == 'ial-physics' and row is not None:
+        t = (row.get('topic') or {}).get('title')
+        u = IAL_PHYSICS_TITLES.get(t)
+        if u:
+            code, page = IAL_PHYSICS_META[u]
+            return {'unit_scope': u,
+                    'rule': f'content sits in the printed Unit {u[1]} content overview '
+                            f'({t}), assessed by the Unit {u[1]} examination '
+                            f'(unit code {code}) (spec p.{page})'}
+        return None
+    if slug == 'ial-biology' and row is not None:
+        t = str((row.get('topic') or {}).get('number'))
+        for u, (topics, code, page) in IAL_BIO_META.items():
+            if t in topics:
+                return {'unit_scope': u,
+                        'rule': f'content sits in the printed Unit {u[1]} content '
+                                f'overview, assessed by the Unit {u[1]} examination '
+                                f'(unit code {code}) (spec p.{page})'}
+        return None
+    if slug == 'ial-chemistry' and row is not None:
+        t = str((row.get('topic') or {}).get('number'))
+        for u, (topics, code, page) in IAL_CHEM_META.items():
+            if t in topics:
+                return {'unit_scope': u,
+                        'rule': f'content sits in the printed Unit {u[1]} content '
+                                f'overview, assessed by the Unit {u[1]} examination '
+                                f'(unit code {code}) (spec p.{page})'}
+        return None
+    if slug == 'ial-maths' and row is not None and scope in IAL_MATHS_CODES:
+        code, name = IAL_MATHS_CODES[scope]
+        return {'unit_scope': scope,
+                'rule': f'content sits in the printed {scope} ({name}) unit content '
+                        f'summary, assessed by the {scope} unit examination '
+                        f'(unit code {code}) (spec pp.7-9)'}
+    if slug == 'igcse-science-double-award-modular' and row is not None:
+        m = SDA_MOD_META.get((scope, str((row.get('topic') or {}).get('number'))))
+        if m:
+            u, code, page = m
+            return {'unit_scope': u,
+                    'rule': f'content sits in the printed {scope} Unit {u[1]} content '
+                            f'summary, assessed by the Unit {u[1]} examination '
+                            f'(unit code {code}) (spec p.{page})'}
         return None
     if scope:
         if re.match(r'^U\d[FH]$', str(scope)):
@@ -728,7 +923,7 @@ def emit_canonical(slug, parsed, aos, cws, eqs, eq_flags):
             'topic': sp.get('topic'), 'subsection': sp.get('subsection'),
             'sub_items': sp.get('sub_items', []), 'practical': sp.get('practical', False),
             'applicability': applicability(slug, sp.get('scope'), sp.get('official_code'),
-                                           (sp.get('topic') or {}).get('number')),
+                                           (sp.get('topic') or {}).get('number'), row=sp),
             'leading_verb': (sp['text'].split(' ', 1)[0].lower() if sp['text'] else None),
             'ordering': i,
             'provenance': {'pdf': parsed['source']['pdf'], 'pdf_sha1': pdf_sha1,

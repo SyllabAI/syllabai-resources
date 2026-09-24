@@ -238,3 +238,38 @@ survived, as the interleaved S6.081 rebuilt in T-KG-14).
   Qualitative cell prints "...evidence of changing RURAL environments..."
   in the source PDF (p.33) — a Pearson copy-paste artifact; not corrected.
 - Canonical total: 4,189 -> 4,191.
+
+## T-KG-16 (2026-09-25) — paper/unit applicability derived for all remaining quals
+
+Closes the documented applicability gap (T-KG-14 stage summary: paper-level
+applicability for the non-science quals) plus the IAL/SDA-modular unit_scope
+repairs found by the applicability scan. Every derivation is grounded in the
+printed assessment overview / unit content summaries of the source PDF (page
+ref inside each rule string); zero invention — only the `applicability`
+member changed on 2,375 of 4,191 canonical rows, verified field-frozen
+(ids/text/ordering/provenance byte-identical) and generator-reproducible
+(`applicability()` in `scripts/build_canonical.py` reproduces every landed
+bundle byte-identically; the 8 previously-derived quals regression-checked).
+
+- **Papers added (linear non-science)**: business `4BS1/01+02`, maths-b
+  `4MB1/01+02`, further-maths `4PM1/01+02` (both papers sample the whole
+  subject content); ICT T1-4 → `4IT1/01`, T5-6 → `4IT1/02`; accounting T1-3 →
+  `4AC1/01`, T4-5 → `4AC1/02`; geography T1-3 → `4GE1/01`, T4-9 → `4GE1/02`
+  (AO rows S9.243/244 + transferable-skills S9.245-253 → both papers, per the
+  printed AO-to-papers table p.34 / Appendix 8 p.50); maths-a now carries
+  `papers` next to `tier` (F → 4MA1/1F+2F, H → 4MA1/1H+2H).
+- **Coursework shape (new)**: English Language A C3 and English Literature C3
+  rows carry `{"papers": [], "coursework": true, rule}` — internally assessed
+  components (4EA1/03, 4ET1/03), not written papers.
+- **Modular unit_scope derived**: economics U1/U2 (4WEC1/01, 4WEC2/01) from
+  the printed unit content summaries; sda-modular pseudo-scope
+  (Biology/Chemistry/Physics) replaced with the six printed units U1-U6
+  (4WSD1/1B … 4WSD6/1P); ial-physics null → U1/U2/U4/U5 (WPH11-15/01) via the
+  printed unit content overview topic titles; ial-biology/ial-chemistry
+  pseudo-scope replaced with the printed units (WBI11-15/01, WCH11-15/01);
+  ial-maths rules enriched with printed unit codes (P1=WMA11/01 …
+  D1=WDM11/01, unit_scope values unchanged).
+- **Intentional nulls (58)**: igcse-geography SX.001-041 and igcse-accounting
+  SX.001-017 front-matter/admin rows (aims, paper-overview fragments) are not
+  paper-tied content and remain null.
+- Canonical row totals unchanged (4,191); `_summary.json` counts unaffected.
