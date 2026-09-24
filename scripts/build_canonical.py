@@ -22,6 +22,7 @@ import pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from spec_parser import (BASE, OUT_BASE, page_spans, strip_running_text,
                          sha1_of, FAMILY)
+from spec_assembly_guards import apply_guards, page_lines_from_doc
 
 PARSER_VERSION = 'canonical-builder-2.0'
 TODAY = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
@@ -46,6 +47,25 @@ EQ_SECTIONS = {
 }
 
 PAPER_LETTER = {'igcse-chemistry': 'C', 'igcse-biology': 'B', 'igcse-physics': 'P'}
+
+# T-KG-14: modular science twins — topic-number -> unit mapping, from the
+# printed 'Content and assessment overview' unit content summaries
+# (chem pp.15-17, bio pp.15-16, phys pp.15-17 of the modular specifications).
+# Closes the linear-vs-modular applicability asymmetry (audit §5.1).
+MODULAR_UNIT_MAPS = {
+    'igcse-chemistry-modular': {
+        'U1': {'topics': {'1', '2', '3', '4'}, 'code': '4WCH1/1C', 'pages': '15-16'},
+        'U2': {'topics': {'5', '6', '7', '8'}, 'code': '4WCH2/1C', 'pages': '17'},
+    },
+    'igcse-biology-modular': {
+        'U1': {'topics': {'1', '2'}, 'code': '4WBI1/1B', 'pages': '15'},
+        'U2': {'topics': {'3', '4', '5', '6'}, 'code': '4WBI2/1B', 'pages': '16'},
+    },
+    'igcse-physics-modular': {
+        'U1': {'topics': {'1', '2', '3', '4'}, 'code': '4WPH1/1P', 'pages': '15-16'},
+        'U2': {'topics': {'5', '6', '7', '8', '9'}, 'code': '4WPH2/1P', 'pages': '17'},
+    },
+}
 COVER_CODE = {}   # filled from spec.json per qual
 
 def load_spec_meta(slug):
@@ -646,7 +666,7 @@ def extract_command_words(doc, kill):
 
 # --------------------------------------------------------- applicability ----
 
-def applicability(slug, scope, official_code):
+def applicability(slug, scope, official_code, topic_number=None):
     L = PAPER_LETTER.get(slug)
     if slug == 'igcse-maths-a':
         if scope == 'H':
@@ -667,6 +687,19 @@ def applicability(slug, scope, official_code):
     if slug == 'igcse-science-double-award':
         return {'papers': ['1', '2'], 'double_award_shared': True,
                 'rule': 'all 4SD0 statements are double-award content assessed in both papers'}
+    if slug in MODULAR_UNIT_MAPS:
+        um = MODULAR_UNIT_MAPS[slug]
+        tnum = str(topic_number) if topic_number is not None else None
+        for unit, m in um.items():
+            if tnum in m['topics']:
+                others = ', '.join(sorted(m['topics'], key=int))
+                return {'unit_scope': unit,
+                        'rule': f'content sits in the printed {slug.split("-")[1].title()} '
+                                f'{unit} content summary (topics {others}, '
+                                f'spec pp.{m["pages"]}); assessed by the '
+                                f'{unit.replace("U", "Unit ")} examination '
+                                f'(unit code {m["code"]})'}
+        return None
     if scope:
         if re.match(r'^U\d[FH]$', str(scope)):
             tier_lab = 'Foundation' if scope.endswith('F') else 'Higher'
@@ -694,7 +727,8 @@ def emit_canonical(slug, parsed, aos, cws, eqs, eq_flags):
             'scope': sp.get('scope'), 'text': sp['text'],
             'topic': sp.get('topic'), 'subsection': sp.get('subsection'),
             'sub_items': sp.get('sub_items', []), 'practical': sp.get('practical', False),
-            'applicability': applicability(slug, sp.get('scope'), sp.get('official_code')),
+            'applicability': applicability(slug, sp.get('scope'), sp.get('official_code'),
+                                           (sp.get('topic') or {}).get('number')),
             'leading_verb': (sp['text'].split(' ', 1)[0].lower() if sp['text'] else None),
             'ordering': i,
             'provenance': {'pdf': parsed['source']['pdf'], 'pdf_sha1': pdf_sha1,
@@ -760,6 +794,15 @@ def process(slug):
     pdf_path = f'{BASE}/{slug}/{parsed["source"]["pdf"]}'
     doc = pymupdf.open(pdf_path)
     kill = strip_running_text(doc)
+    # T-KG-14: assembly guards — re-join wrapped bullets, split lettered-lead
+    # merges, flag two-column interleaves (PDF-verified repairs from T-KG-13
+    # 14, generalised; guard tests: scripts/test_spec_assembly_guards.py)
+    guard_stats = apply_guards(
+        parsed['spec_points'],
+        get_page_lines=lambda pg: page_lines_from_doc(doc, pg),
+        families=parsed.get('family'))
+    if guard_stats:
+        print(f'  assembly guards: {len(guard_stats)} event(s) on {slug}')
     report = json.load(open(f'{out_dir}/parse_report.json')) if os.path.exists(f'{out_dir}/parse_report.json') else {}
 
     aos, ao_flags = extract_aos(doc, kill, slug)
