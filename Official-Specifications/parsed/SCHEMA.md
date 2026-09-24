@@ -104,7 +104,7 @@ parsed/
 
 Cross-qual audit of all 23 canonical bundles guarantees:
 
-- **One point schema**: every one of the 4,189 spec points across all quals
+- **One point schema**: every one of the 4,191 spec points across all quals
   carries exactly the same 13 fields (id, official_code, scope, text, topic,
   subsection, sub_items, practical, applicability, leading_verb, ordering,
   provenance, flags). Schema string `syllabai.spec-points/1.0` everywhere.
@@ -218,3 +218,23 @@ summaries.
   summaries (chem U1 topics 1-4 / U2 5-8; bio U1 1-2 / U2 3-6; phys U1 1-4 /
   U2 5-9), closing the linear-vs-modular applicability asymmetry.
 - Canonical total: 4,233 -> 4,189.
+
+## T-KG-15 (2026-09-24) — Paper-2 fieldwork Rural/Urban rows captured
+
+Closes the finding documented in T-KG-14: the 'Contexts for fieldwork —
+Paper 2: Human geography' table's Rural-environments and Urban-environments
+rows (pp.32-33) were never captured by the parser (only the Economic tail
+survived, as the interleaved S6.081 rebuilt in T-KG-14).
+
+- `igcse-geography` 238 -> 240 rows: new `S6.082` (Rural) and `S6.083`
+  (Urban) — text = the printed 'Geographical enquiry' cell, sub_items = the
+  printed method cells in order. Ground truth via span-geometry (x/y word
+  positions per column band): the learn-column label order that made the raw
+  text stream ambiguous is table furniture (dropped per the documented
+  convention), so the cells transcribe unambiguously. Orderings 82-83
+  (document position, immediately after S6.081 at 81); every existing row at
+  ordering >= 82 shifted +2, relative order preserved.
+- Printed-artifact transcribed verbatim: the Urban row's familiar
+  Qualitative cell prints "...evidence of changing RURAL environments..."
+  in the source PDF (p.33) — a Pearson copy-paste artifact; not corrected.
+- Canonical total: 4,189 -> 4,191.
