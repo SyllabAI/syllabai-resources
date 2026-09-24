@@ -1,9 +1,9 @@
 meta:
   schema: ratified-store-projection/1.0
   projection_of: graph/igcse-chemistry/concept_edges.yaml
-  source_sha256_16: ff3c90c2eb13a9c8
+  source_sha256_16: 43ff4b9610cc0927
   emitter: scripts/c28_emit_explorer_blob.py@1.0.0
-  emitted_at: '2026-09-24T13:06:42Z'
+  emitted_at: '2026-09-24T13:46:01Z'
   note: 'Emitter-owned serving projection (C28 spec sections 3.3/5). Rows verbatim from the ratified store
     at the pinned sha; never hand-edit - the S8 drift gate (G1 source freshness + G2 re-emit idempotency)
     fails on drift. Authority: the ratified store.'
@@ -5934,7 +5934,9 @@ edges:
       limewater/CO2-test future note lands exactly here.)'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.48/2.44 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-CON-ANION-TESTS
@@ -5962,7 +5964,9 @@ edges:
       class at the anion boundary).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.48 (2026-09-11); the batch-3 record (CON-ION-CHARGE-RULES)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-CON-ANODE-CATHODE
@@ -6227,7 +6231,9 @@ edges:
       no identification step.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.47/2.44 (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-CON-CATION-TESTS
@@ -6255,7 +6261,9 @@ edges:
       given (the B7-E-10 class at the cation boundary).'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.47 (2026-09-11); the batch-3 record (CON-ION-CHARGE-RULES)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
@@ -9581,7 +9589,9 @@ edges:
       has no meaning.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.50 (2026-09-11); the batch-1 record (CON-PURE-SUBSTANCE)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-PR-01
@@ -10407,7 +10417,9 @@ edges:
       precedent).
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.45-2.47 (2026-09-11)
   confidence: medium
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   ambiguity_note: 'Both notes lead with the same identification claim (flame test: "used to identify the
     positive metal ion (cations)"; NaOH test: "Metal cations ... can be identified by the colour of the
     precipitate") — the association is genuinely residual: neither technique presupposes the other, and
@@ -10861,7 +10873,9 @@ edges:
       on exactly that surface (the B5/B6/B7 WAP-target pattern).'
     upstream: pinned CHEMICAL_TESTS_MS_P2 (sha1_12 68356f71b4bc) Q4a; spec 4CH1-2.44 official wording
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-MIS-GRAPHITE-LAYER-BONDS
@@ -10908,7 +10922,9 @@ edges:
       (the B5/B6/B7 WAP-target pattern).'
     upstream: pinned CHEMICAL_TESTS_MS_P2 (sha1_12 68356f71b4bc) Q4b(i); spec 4CH1-2.48 official wording
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-MIS-HALOGEN-HALIDE
@@ -11427,7 +11443,9 @@ edges:
       mnemonic that names the confusion the Reject guards.'
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.44 @ Gas tests (2026-09-11); pinned CHEMICAL_TESTS_MS_P2 Q4a
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-MIS-GRAPHITE-LAYER-BONDS
@@ -11479,7 +11497,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-2.48 @ Tests for Anions (2026-09-11); pinned CHEMICAL_TESTS_MS_P2
       Q4b(i)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-24'
   version: 1
   created_at: '2026-09-24'
 - source: 4CH1-MIS-HALOGEN-HALIDE

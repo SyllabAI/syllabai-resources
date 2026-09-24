@@ -224,11 +224,14 @@ hv = sum(1 for e in edges_doc["edges"]
 # session-60 re-anchor (dated): the batch-7 §18 application (19 operator
 # promotions, c11_batch7_verdicts) moved the semantic HV count 187 -> 206;
 # the protected property is unchanged.
-check("D3 store at the session-60 post-verdict shape (206 SEMANTIC HV — "
-      "the 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 edges "
-      "promoted by the operator's verdicts; the ruling itself still mints "
-      "nothing; PART_OF HV 117 rides the later T-C19 G19 record)",
-      hv == 206)
+# session-62 re-anchor (dated): the batch-8 §18 application (10 operator
+# promotions, c11_batch8_verdicts, 2026-09-24) moved the semantic HV count
+# 206 -> 216; the protected property is unchanged.
+check("D3 store at the session-62 post-verdict shape (216 SEMANTIC HV — "
+      "the 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 + 10 batch-8 "
+      "edges promoted by the operator's verdicts; the ruling itself still "
+      "mints nothing; PART_OF HV 117 rides the later T-C19 G19 record)",
+      hv == 216)
 check("D4 non_goals recorded (no ontology redesign / no re-scope / no "
       "promotion authority)",
       len(rul.get("non_goals", [])) >= 4)

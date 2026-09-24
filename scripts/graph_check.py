@@ -966,6 +966,11 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # 206 semantic HV unchanged (authoring promotes nothing); the live SUGGESTED
 # semantic surface is now the 3 frozen pilot operator HOLDs + the 10 batch-8
 # authored edges, pending the operator's batch-8 verdicts.
+# session-62 state note (dated, no test weakened): the batch-8 verdicts were
+# APPLIED through §18 (10 operator promotions, c11_batch8_verdicts, applied
+# 2026-09-24 via the B8 diff-review bundle — the operator's completed-sheet
+# §6/§7 verdict: PASS WITH NOTES); 216 semantic HV; the live SUGGESTED
+# semantic surface is again EXACTLY the 3 frozen pilot operator HOLDs.
 C11_COUNTS = {"nodes": 165, "concepts": 142, "misconceptions": 23,
               "edges": 384,
               "part_of": 163, "requires_prerequisite": 159,
@@ -1819,10 +1824,12 @@ def main():
           # session-61: the summary names the batch-8 authored-to-gate
           # state (S2 batches 5-8; the batch-8 verdicts pending — the
           # operator's gate session is next)
+          # session-62: the summary names the batch-8 verdict application
+          # (§18 applied — 10 operator promotions, the completed-sheet
+          # §6/§7 verdict PASS WITH NOTES); state note, no test weakened
           f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches "
           f"5-8, batch-6 verdicts applied session 58, batch-7 verdicts "
-          f"applied session 60, batch-8 authored to its operator gate "
-          f"session 61): "
+          f"applied session 60, batch-8 verdicts applied session 62): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1833,8 +1840,8 @@ def main():
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
           f"batch-4 verdicts applied session 54; batch-5 verdicts applied "
           f"session 56; batch-6 verdicts applied session 58; batch-7 "
-          f"verdicts applied session 60; batch-8 authored to its operator "
-          f"gate session 61 — "
+          f"verdicts applied session 60; batch-8 verdicts applied "
+          f"session 62 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

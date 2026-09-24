@@ -239,13 +239,17 @@ check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
 # SANCTIONED batch-7 §18 application (19 operator promotions,
 # c11_batch7_verdicts, applied 2026-09-23 via the B7 diff-review bundle;
 # the operator's addendum §6/§7 verdict: PASS WITH NOTES).
+# session-62: D4 re-anchored again — the store grew to 216 by the
+# SANCTIONED batch-8 §18 application (10 operator promotions,
+# c11_batch8_verdicts, applied 2026-09-24 via the B8 diff-review bundle;
+# the operator's completed-sheet §6/§7 verdict: PASS WITH NOTES).
 # The batch-1 verdict layer's protective intent is unchanged: its 28
 # promotions stay exact, operator-attributed, and nothing outside a
 # recorded CONFIRM set ever enters the store.
-check("D4 store total 206 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
-      "batch-3 + 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7), "
-      "all operator",
-      len(store_map) == 206
+check("D4 store total 216 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
+      "batch-3 + 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 + 10 "
+      "batch-8), all operator",
+      len(store_map) == 216
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

@@ -1468,3 +1468,40 @@ C11_OPERATOR_DECISIONS.md).
 > BATCHES 1-8 ARE AUTHORED-AND-SETTLED OR AUTHORED-AT-GATE; the §16 S2
 > program is complete at candidate level. Then STOP — Batch 8 authoring ->
 > operator gate. Nothing more.
+
+### §16 session-62 amendment (2026-09-24) — BATCH 8 (S2-h CHEMICAL TESTS) VERDICTS APPLIED THROUGH §18 — BATCH 8 CLOSED
+
+> The operator delivered the completed review sheet §6/§7 ("Status: PASS
+> WITH NOTES") via the FileUpload lane (origin d6203f4 -> ca536c8, the
+> batch-6 precedent channel); the completed sheet's §1-5 is byte-identical
+> to the in-repo gate sheet (ZERO drift — the batch-5/6 intake rule applies
+> and passes clean). ENCODE scripts/c11_verdict_encode_batch8.py
+> (fail-closed): verdicts keyed by TRIPLE/CODE — never row id (the sheet's
+> §2 numbering is TABLE order — sheet B8-N-02 = CON-FLAME-TEST — vs the
+> template's alphabetical-by-code — template B8-N-02 = CON-CATION-TESTS;
+> the identity hazard the encode kills); the THREE CONFIRM_WITH_NOTE
+> statuses (node CON-FLAME-TEST + edges B8-E-01 route-specificity /
+> B8-E-05 conservative-RELATED_TO) recorded CONFIRM with the
+> qualifications verbatim in notes; 4 identity KEEP_AS_IS; 9 held
+> ACKNOWLEDGED / KEEP QUARANTINED; zero RR; zero REJECT; the operator's
+> REPORTED-state caveat recorded verbatim and closed by direct
+> verification at c3baa45. §18 APPLICATION: the B8 diff-review bundle (10
+> pending / 5 not-actionable) -> dry-run -> ONE c11_promote.py invocation
+> -> 10 promotions, ALL operator (2026-09-24); STORE TOTAL 216 semantic
+> HUMAN_VALIDATED (28+28+23+39+35+18+16+19+10); shape unchanged
+> 165/384/163; concepts.yaml + spec_command_kinds.yaml byte-unchanged
+> (promotion-only regen determinism); the live SUGGESTED semantic surface
+> is again EXACTLY the 3 frozen pilot operator HOLDs; both RR settlements
+> untouched. NEW STANDING GATE c11_batch8_verdict_check.py ALL PASS (the
+> 20th standing checker); state-moved expectations re-anchored with dated
+> session-62 comments (no test weakened); sweep S4 concept_edges pin
+> ff3c90c2 -> 43ff4b9610cc0927; serving plane re-emitted (6 source pins ==
+> S4 pins); forecast batch-8 record SETTLED and landed complete at session
+> 62 (the session-61 landing had omitted the record its commit message
+> claimed to append — the artifact discrepancy is recorded in the forecast
+> instrument and here, corrected at settlement; top-level session 60 ->
+> 62). **BATCH 8 IS CLOSED — do not reopen.** The §16 S2 program (batches
+> 5-8: 2.1-2.50) is fully authored-and-settled; the operator's §6/§7
+> verdicts are the authorization of record; any further §16 batch (S4
+> organic etc.) needs its own operator commissioning — no self-start. Then
+> STOP — Batch 8 verdict session -> batch 8 CLOSED. Nothing more.

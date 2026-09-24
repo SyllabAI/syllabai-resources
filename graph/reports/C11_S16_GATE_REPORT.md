@@ -1442,3 +1442,113 @@ before phase 2 (S3).)
 > them via the §18 pathway. With batch 8 authored, EVERY 4CH1 S2 spec point
 > 2.1-2.50 is covered at candidate level. Then STOP — Batch 8 authoring ->
 > operator gate. Nothing more.
+
+## Session 62 (2026-09-24) — BATCH 8 (S2-h CHEMICAL TESTS) VERDICTS APPLIED THROUGH §18 — BATCH 8 CLOSED
+
+> The operator delivered the completed review sheet
+> C11_BATCH8_REVIEW_SHEET_COMPLETED.md via the FileUpload lane (the batch-6
+> precedent channel): origin advanced d6203f4 -> ca536c8 "Add files via
+> upload" carrying exactly that file (188 lines = the in-repo gate sheet
+> §1-5 + the operator's §6 "Completed operator verdict" + §7 "Final
+> operator gate"); the mirror clone ff-forwarded clean and the file was
+> intaken to upload/. INTAKE FORM: FULL COMPLETED SHEET — the batch-5/6
+> §1-5 byte-drift check applies and PASSES CLEAN (byte-identical, 77/77
+> lines, ZERO drift — no session-58-style repair needed; re-asserted by
+> the encoder at encode time). Operator verdict: "PASS WITH NOTES" — all
+> 8 node verdicts accepted (6 CONCEPT + 2 MISCONCEPTION; CON-FLAME-TEST
+> carries the operator's CONFIRM_WITH_NOTE), all 10 authored edges CONFIRM
+> with TWO semantic guardrails (B8-E-01 route-specificity — "Treat this as
+> the evidenced teaching sequence, not as a claim that every
+> anion-testing pathway universally requires the entire gas-testing
+> concept."; B8-E-05 conservative-RELATED_TO — "RELATED_TO is the correct
+> conservative relation. Do not strengthen it to REQUIRES_PREREQUISITE
+> merely because both concepts concern cations."), the THREE sanctioned
+> boundary edges "remain confirmed and retain existing ownership"
+> ("No duplicate boundary concept is to be minted."), the four identity
+> decisions KEEP_AS_IS with rationales, the 9 held candidates
+> ACKNOWLEDGED / KEEP QUARANTINED with per-candidate dispositions, zero
+> RR, zero REJECT, and the directive to proceed through the normal C11
+> pathway (template -> verdicts.yaml -> encode/reconcile -> c11_promote.py
+> -> regenerate -> rerun the complete gate suite). The operator's
+> REPORTED-state caveat ("accepted as REPORTED/VERIFIED by the submitted
+> artifact, rather than independently re-executed in this review") is
+> recorded verbatim in the verdict record; the session closed the gap by
+> verifying the machine state directly at c3baa45 (the authoring head,
+> local == origin/main, tree clean) before encoding. ENCODE:
+> scripts/c11_verdict_encode_batch8.py (fail-closed, python -O safe,
+> registry-resolved paths, argv-takes the completed sheet; _require
+> survives -O per MD-33): pre-state frozen (206 semantic HV == promotion
+> store; §16 AUTHORIZED; 165/384/163; 10 SUGGESTED / 0 RR / 8 nodes / 9
+> held; the SUGGESTED surface exactly the 10 batch-8 authored edges + the
+> 3 frozen pilot HOLDs; the 2 frozen RR settlements untouched), template
+> reconciled 1:1 against c11_batch8_decisions.yaml, verdicts keyed by
+> TRIPLE/CODE — never by row id (the sheet's §2 node numbering is TABLE
+> order — sheet B8-N-02 = CON-FLAME-TEST — vs the template's
+> alphabetical-by-code — template B8-N-02 = CON-CATION-TESTS; the guardrail
+> node row would have been mis-keyed by row id; the edge ids COINCIDE
+> between sheet §3 and the template and the explicitly named B8-E-01 /
+> B8-E-05 triples are identical in both); the THREE CONFIRM_WITH_NOTE
+> statuses encoded as CONFIRM with the qualifications verbatim in notes
+> (the vocabulary rule, batch-1..7 precedent); meta.operator_ruling
+> carries the §6/§7 statement + encoding rules + delivery record +
+> reported-state caveat verbatim -> scripts/c11_batch8_verdicts.yaml;
+> template consumed (fill + rename). §18 APPLICATION: bundle
+> graph/reports/C11_DIFF_REVIEW_B8_2026-09-24.md (10 pending / 5
+> not-actionable — matches the pre-session state) -> export -> dry-run
+> verified (10 exact identities, SUGGESTED -> HUMAN_VALIDATED, operator
+> attribution, single gated invocation) -> approve --all --by operator
+> --date 2026-09-24 --review-ref the B8 bundle -> ONE c11_promote.py
+> invocation -> 10 promotions -> gated G13 re-run ALL GATES GREEN; STORE
+> TOTAL 216 semantic HUMAN_VALIDATED (28+28+23+39+35+18+16+19+10, all
+> operator); shape unchanged 165/384/163; concepts.yaml +
+> spec_command_kinds.yaml byte-unchanged (sha256_16 pins fbdf484f /
+> 4f227792 — determinism held through a promotion-only regen); the only
+> live SUGGESTED semantic edges are again exactly the 3 frozen pilot
+> HOLDs; both RR settlements untouched. NEW STANDING GATE:
+> scripts/c11_batch8_verdict_check.py ALL PASS first run (A schema +
+> verbatim §6/§7 + the session-62 delivery record + the reported-state
+> caveat; B shape 10/8/4 + zero operator_decision + B10 the THREE
+> WITH_NOTE qualifications in notes + B11 the boundary directive; C
+> three-way set equality + bundle refs + the 3 boundary edges HV + C7
+> exact boundary ownership — all three targets EXISTING owners (batch-3
+> CON-ION-CHARGE-RULES x2, batch-1 CON-PURE-SUBSTANCE) absent from the
+> batch-8 mint; D slices intact + 216 + 4.15 + non-mint 68 +
+> boundary-targets-once + 9 held quarantined). STATE-MOVED EXPECTATIONS
+> re-anchored with dated session-62 comments (no test weakened):
+> graph_check state note + summary phrase (batch-8 verdicts applied
+> session 62); batch1/2/3 verdict-check store totals 206 -> 216; batch4/5/
+> 6/7 verdict-check D2 (the SUGGESTED surface again exactly the 3 pilot
+> HOLDs; B8_AUTHORED all HV) + store totals 216; batch4/5/6/7/8
+> boundary-check D3 216; diff_review_test R1 10/5/206 -> 0/5/216;
+> negative-test mut_07 dated note; sweep S4 concept_edges pin ff3c90c2 ->
+> 43ff4b9610cc0927 (concepts fbdf484f + spec_command_kinds 4f227792
+> UNCHANGED). FORECAST: batch-8 record SETTLED — landed complete at
+> session 62 (the session-61 landing had recorded "batch-8 record
+> appended" in its commit message while the landed JSON carried only a
+> store-shape ratio refresh; the artifact discrepancy is recorded in the
+> forecast instrument's session-62 top-level comment and corrected here —
+> the complete settled record now carries predicted 16.8/19.25/7.0 vs
+> actual 8/10/9, promotion_rate 1.0, the FP-B8-1..4 categories, and the
+> session-62 settlement sentence; top-level session 60 -> 62); JSON
+> regenerated deterministically (re-run sha256-identical). SERVING PLANE
+> re-emitted (c28_emit_explorer_blob.py: projections + explorer_blob.json;
+> 6 source pins == S4 pins incl. concept_edges 43ff4b9610cc0927). 
+> GOVERNANCE: C11_S16_GATE_REPORT.md session-62 update block (this block)
+> + C11_ARCHITECTURE.md §16 session-62 amendment ("BATCH 8 IS CLOSED — do
+> not reopen"). INVARIANTS HELD: the frozen pilot + batch-1..8
+> dispositions byte-intact (E-08/E-26/E-29 stay SUGGESTED; both RR edges
+> REVIEW_REQUIRED under their operator settlements; HELD-01..13 +
+> B1-H-01..12 + B2-H-01..10 + B3-H-01..14 + B4-H-01..14 + B5-H-01..14 +
+> B6-H-01..09 + B7-H-01..09 + B8-H-01..09 untouched — 118 held, clean
+> quarantine); 216 promotions all operator; batch-8 nodes stay SUGGESTED
+> (no §18 node pathway — "Node authority remains SUGGESTED."); PART_OF
+> derived and outside §18 (117 HV rides the T-C19 G19 record; the batch-8
+> PART_OF rows SUGGESTED pending their own lane); 4CH1-4.15 uncovered; no
+> DB writes; AI attribution forbidden; graph/*.yaml never hand-edited.
+> ZERO self-promotion: all 10 promotions trace to the operator's §6
+> CONFIRM rows. NEXT: no §16 batch is open or commissioned — the S2
+> program (batches 5-8) is fully authored-and-settled; any further batch
+> (S4 organic etc.) needs its own operator commissioning (no self-start);
+> D4 subject-#2 K0(ii) corpus securing, snap-002 re-freeze, v78 explorer
+> build, PAT rotation remain operator-held. Then STOP — Batch 8 verdict
+> session -> batch 8 CLOSED. Nothing more.

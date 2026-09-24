@@ -249,7 +249,28 @@ out = {
     # against the gate sheet + decision record; verdict record
     # c11_batch7_verdicts.yaml); baselines unchanged; top-level session
     # advances with the settling session (the session-56 precedent).
-    "session": 60,
+    # session-61 (2026-09-24): batch-8 AUTHORED to its operator gate
+    # (S2-h Chemical Tests 4CH1-2.44-2.50 — the operator's 'Proceed with
+    # batch 8' directive); baselines unchanged. ARTIFACT DISCREPANCY
+    # (recorded honestly, corrected at settlement): the session-61 commit
+    # message and worklog recorded 'batch-8 record appended', but the
+    # landed C11_BATCH_FORECAST.json carried only a store-shape ratio
+    # refresh — the batch-8 future_batch_records entry was omitted; the
+    # gate sheet §1's forecast-calibration sentence therefore pointed at
+    # a record that was not there. Session 62 lands the complete record
+    # below in its settled form.
+    # session-62 (2026-09-24): batch-8 operator gate SETTLED — the
+    # completed sheet §6/§7 applied (PASS WITH NOTES): 10 edge CONFIRM
+    # promoted via §18 (store total 216; zero RR authored; 4 identity
+    # decisions KEEP_AS_IS; 9 held preserved — quarantined; the B8-E-01
+    # route-specificity and B8-E-05 conservative-RELATED_TO guardrails +
+    # the CON-FLAME-TEST WITH_NOTE recorded in the verdict notes; FULL
+    # completed-sheet intake via the FileUpload lane ca536c8 — §1-5
+    # byte-identical to the in-repo gate sheet, ZERO drift; verdict
+    # record c11_batch8_verdicts.yaml); baselines unchanged; top-level
+    # session advances 60 -> 62 with the settling session (the
+    # session-56 precedent).
+    "session": 62,
     "generated": "2026-09-13",
     "baselines": {"resources": "9ce37bc", "syllabai": "26adfee"},
     "purpose": "predicted-vs-actual instrumentation for the §16 expansion "
@@ -957,6 +978,101 @@ out = {
                            "scripts/c11_batch7_verdicts.yaml). NEXT: the "
                            "remaining S2-h family (2.44-2.50 chemical "
                            "tests) is batch 8."),
+        },
+        {
+            # session-61 (2026-09-24): batch-8 AUTHORED to its operator
+            # gate — the S2-h slice (chemical tests); FULL Paper-2 MS
+            # coverage (the single family pinned), TWO clean documented
+            # WAP mints, the PR lane empty (no practical owns any
+            # batch-8 SP). Landed at SETTLEMENT in session 62 — the
+            # session-61 landing omitted this record (the artifact
+            # discrepancy recorded in the session-62 top-level comment).
+            "batch_id": "c11-s16-batch-8",
+            "session": 61,
+            "commissioned": ("operator ('Proceed with batch 8', 2026-09-24, "
+                             "session 61) under the session-46 §16 "
+                             "authorization"),
+            "scope": ("Section 2 — Inorganic Chemistry FOURTH slice, 7 SPs "
+                      "(4CH1-2.44-2.50: h Chemical Tests); no practicals "
+                      "own any batch-8 SP"),
+            "spec_points": 7,
+            "notes": 5,
+            "mark_schemes_pinned": 1,
+            "predicted": {"nodes": 16.8, "authored_edges": 19.25,
+                          "held_candidates": 7.0},
+            "actual": {"nodes": 8, "authored_edges": 10,
+                       "held_candidates": 9},
+            "delta_pct": {"nodes": -52.4, "authored_edges": -48.1,
+                          "held_candidates": 28.6},
+            "rates": {
+                "held_rate": 0.3333,
+                "rejection_rate": 0.0,
+                # session-61: the batch ended at its operator gate — zero
+                # promotions existed at authoring.
+                # session-62: SETTLED — the operator's completed sheet
+                # applied through §18 (10 CONFIRM promotions, operator,
+                # 2026-09-24; store total 216).
+                "promotion_rate": 1.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B8-1 (identity shape: the flame-test node attaches "
+                "TWO SPs (2.45 procedure + 2.46 colours) as ONE family "
+                "node — the B7-ID-01 one-family precedent; B8-ID-01)",
+                "FP-B8-2 (byte-honesty: the MS squeaky-pop line carries "
+                "curly quotes U+2018/U+2019 in the pdftotext pin — the "
+                "anchor is byte-honest)",
+                "FP-B8-3 (edge-evidence asymmetry: the cation-tests -> "
+                "gas-tests pair's first anchor is the cation note's "
+                "link-line — complemented by the ammonia-test teaching "
+                "anchor)",
+                "FP-B8-4 (source typo carried: the anions note's iodide "
+                "line reads 'The iodide ions forms a yellow precipitate' "
+                "— subject-verb disagreement in the SOURCE, quoted "
+                "byte-honest)",
+            ],
+            "operator_verdicts": {"confirm": 10, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -52.4% / edges -48.1% vs "
+                           "the 2.4/2.75 model — the S2 descriptive band "
+                           "(nodes/SP 1.14, edges/SP 1.43): the 2.44 gas "
+                           "tests and the 2.45+2.46 flame-test families "
+                           "consolidated as ONE node each, and the PR "
+                           "lane empty (no practical owns any batch-8 SP). "
+                           "held runs ABOVE the model (+28.6%): the "
+                           "boundary discipline abstains where the notes "
+                           "re-teach context inline (B8-H-01..09, incl. "
+                           "B8-H-07 the carrier-rod apparatus-choice class "
+                           "held for operator ruling). THREE sanctioned "
+                           "boundary edges into EXISTING owners (the "
+                           "batch-3 CON-ION-CHARGE-RULES owner x2 — the "
+                           "2.47/2.48 identity rows; the batch-1 "
+                           "CON-PURE-SUBSTANCE owner — the 2.50 purity "
+                           "row); the session-59 limewater/CO2-test future "
+                           "note LANDS and the batch-7 anhydrous-CuSO4 "
+                           "note CLOSES (the test-vs-reaction split, "
+                           "B8-H-03). Zero RR authored; TWO mark-scheme-"
+                           "documented misconceptions minted (the Chemical "
+                           "Tests MS Q4a and Q4b(i) Reject columns). FULL "
+                           "Paper-2 MS coverage (the single family "
+                           "pinned). ZERO pass-2 findings required "
+                           "re-authoring. Section 2 candidate coverage: 50 "
+                           "of 50 S2 SPs — S2 COMPLETE (132 of 182 total at "
+                           "candidate level). Session-62 (2026-09-24): "
+                           "operator gate SETTLED — the completed sheet "
+                           "§6/§7 applied (PASS WITH NOTES): 10 edge "
+                           "CONFIRM promoted via §18 (store total 216; "
+                           "zero RR; 4 identity KEEP_AS_IS; 9 held "
+                           "quarantined; the B8-E-01 route-specificity and "
+                           "B8-E-05 conservative-RELATED_TO guardrails + "
+                           "the CON-FLAME-TEST WITH_NOTE recorded in the "
+                           "verdict notes; FULL completed-sheet intake via "
+                           "the FileUpload lane ca536c8 — §1-5 byte-"
+                           "identical, ZERO drift; verdict record "
+                           "scripts/c11_batch8_verdicts.yaml). NEXT: no "
+                           "further §16 batch is commissioned — remaining "
+                           "4CH1 sections (S4 organic etc.) need their own "
+                           "operator commissioning; no self-start."),
         },
     ],
     "future_batch_record_schema": {
