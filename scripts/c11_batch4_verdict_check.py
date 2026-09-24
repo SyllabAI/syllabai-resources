@@ -322,13 +322,20 @@ B8_DEC = HERE / "c11_batch8_decisions.yaml"
 B8_AUTHORED = {triple(e)
                for e in (yaml.safe_load(B8_DEC.read_text(encoding="utf-8"))
                          .get("edges") or [])}
+# session-63 re-anchor (2026-09-25, dated; protective intent unchanged):
+# the batch-9 verdicts were APPLIED through §18 (20 promotions, operator,
+# the B9 diff-review bundle) — the 20 batch-9 authored edges left the
+# SUGGESTED surface, so the live SUGGESTED semantic surface is again
+# EXACTLY the 3 frozen pilot operator HOLDs (the pre-session-62-authoring
+# state). No test weakened.
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
       "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
       "batch-8 authored edges were promoted by the operator's verdicts "
-      "through §18 at session 62; batch-4/5/6 verdicts applied at "
-      "sessions 54/56/58)",
+      "through §18 at session 62; the batch-9 authored edges were promoted "
+      "by the operator's verdicts through §18 at session 63; batch-4/5/6 "
+      "verdicts applied at sessions 54/56/58)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds | B9_AUTHORED
+      and live_sugg == pilot_holds
       and B6_AUTHORED <= hv and B7_AUTHORED <= hv and B8_AUTHORED <= hv
       and not live_b6_sugg and not live_b5_sugg,
       f"live SUGGESTED = {len(live_sugg)}")
@@ -371,8 +378,11 @@ check("D7 batch-3 slice intact: 39 batch-3 CONFIRM still HUMAN_VALIDATED",
 # session-62 re-anchor (dated): the store grew 206 -> 216 by the SANCTIONED
 # batch-8 §18 application (10 operator promotions, c11_batch8_verdicts);
 # the batch-4 slice stays preserved exactly.
-check("D8 store total 216 (28+28+23+39+35+18+16+19+10), all operator",
-      len(store_map) == 216
+# session-63 re-anchor (dated, protective intent unchanged): the batch-9
+# §18 application added 20 operator promotions — the store total moved
+# 216 -> 236; the batch-4 slice stays preserved exactly.
+check("D8 store total 236 (28+28+23+39+35+18+16+19+10+20), all operator",
+      len(store_map) == 236
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

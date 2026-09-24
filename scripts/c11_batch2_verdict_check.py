@@ -245,14 +245,15 @@ check("D5 the batch-1 RR settlement stays REVIEW_REQUIRED (HOLD_REVIEW_REQ)",
 # §18 application added 19 operator promotions (c11_batch7_verdicts,
 # applied 2026-09-23 via the B7 diff-review bundle) — the store total
 # moved 187 -> 206; the batch-2 slice stays preserved exactly.
-# session-62 re-anchor (dated, protective intent unchanged): the batch-8
-# §18 application added 10 operator promotions (c11_batch8_verdicts,
-# applied 2026-09-24 via the B8 diff-review bundle) — the store total
-# moved 206 -> 216; the batch-2 slice stays preserved exactly.
-check("D6 store total 216 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
+# session-63 re-anchor (2026-09-25, dated, protective intent unchanged):
+# the batch-9 §18 application added 20 operator promotions
+# (c11_batch9_verdicts, applied 2026-09-25 via the B9 diff-review bundle)
+# — the store total moved 216 -> 236; the batch-2 slice stays preserved
+# exactly.
+check("D6 store total 236 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
       "batch-3 + 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 + 10 "
-      "batch-8), all operator",
-      len(store_map) == 216
+      "batch-8 + 20 batch-9), all operator",
+      len(store_map) == 236
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

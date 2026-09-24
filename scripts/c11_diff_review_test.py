@@ -687,10 +687,15 @@ def main() -> int:
         # gate record (20 authored semantic edges, zero promotions) joins the
         # registry, so the actionable surface is 20 again (the batch-9
         # authored set) / 5 not-actionable (the frozen pilot HOLDs) / 216.
-        check("R1 reports 20 actionable / 5 not-actionable / 216 promotions",
-              "actionable: 20" in r.stdout
+        # session-63 re-anchor (2026-09-25, dated, protective intent
+        # unchanged): the batch-9 verdicts were APPLIED (20 §18 promotions,
+        # c11_batch9_verdicts); promo_count 216 -> 236 (28+28+23+39+35+18
+        # +16+19+10+20); the actionable surface is empty again until batch
+        # 10's gate (the not-actionable rows stay 5).
+        check("R1 reports 0 actionable / 5 not-actionable / 236 promotions",
+              "actionable: 0" in r.stdout
               and "not-actionable: 5" in r.stdout
-              and "promo_count=216" in r.stdout)
+              and "promo_count=236" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

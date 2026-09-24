@@ -1644,3 +1644,71 @@ before phase 2 (S3).)
 > the §18 pathway; batches 10-11 complete S4 per the slice plan — each
 > needs its own commissioning turn. Then STOP — Batch 9 authoring ->
 > operator gate. Nothing more.
+
+## Session 63 (2026-09-25) — BATCH 9 VERDICTS RECORDED AND APPLIED (§16 → §18)
+
+> The operator delivered the completed batch-9 review sheet (§6/§7:
+> **VERDICT: PASS WITH NOTES**) inline in-chat (the zai-web channel; a
+> channel change from the batch-6/8 FileUpload lane, this session
+> preceded by a tmpfiles.org delivery of the gate sheet itself). INTAKE
+> FORM: INLINE RESTATED COMPLETED SHEET — the operator preserved the
+> submitted sheet's structure and every verdict-relevant claim but
+> restated the §2/§3/§4 detail tables as universal aggregate verdicts
+> (15/15 nodes, 20/20 edges, 6/6 identity, 9/9 held) and condensed the
+> §1 forecast-calibration paragraph, the raw-agreement kappa note and
+> the §5 pathway line. The batch-5/6/8 §1-5 byte-identity check therefore
+> DOES NOT APPLY and was NOT claimed; the batch-9 CONFORMANCE gates
+> apply instead (scripts/c11_batch9_intake_drift_check.py — ALL PASS,
+> re-asserted by the encoder): universal totals cover the coded surface,
+> the five §6.3 boundary TRIPLEs match gate rows 14-18 exactly modulo
+> the sanctioned 4CH1- shorthand, the six identity sentences are
+> verbatim by id, the held range B9-H-01..09, the counts block, and the
+> operator's REPORTED / VERIFIED BY SUBMITTED ARTIFACT caveat (recorded
+> verbatim; the verdict session closed the gap by verifying the machine
+> state directly at 1e2cf8e — 180/425/184, 216 semantic HV, §16
+> AUTHORIZED — before encoding). ENCODING: fail-closed
+> c11_verdict_encode_batch9.py wrote scripts/c11_batch9_verdicts.yaml
+> (keyed by TRIPLE/CODE, never row id; the universal rulings carry no
+> WITH_NOTE this batch — the NOTES in PASS WITH NOTES are the sheet-level
+> REPORTED caveat + the anti-duplication guardrail, carried in
+> meta.operator_ruling): 20 edge CONFIRM / 15 node CONFIRM / 6 identity
+> ACCEPT -> KEEP_AS_IS / held appendix acknowledged / zero RR / zero
+> REJECT; template consumed (fill + rename). APPLICATION: §18 via
+> c11_diff_review.py export (graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md,
+> 20 pending / 5 not-actionable) → dry-run → approve --all (ONE gated
+> c11_promote run = ONE G13 re-run): **216 -> 236 semantic HUMAN_VALIDATED**
+> (all operator, 2026-09-25, the B9 bundle as review_reference); store
+> shape UNCHANGED 180 nodes / 425 edges / 184 PART_OF (statuses only);
+> the live SUGGESTED semantic surface is again EXACTLY the 3 frozen
+> pilot operator HOLDs; the 2 RR settlements untouched; the 21 batch-9
+> PART_OF rows stay SUGGESTED pending their own lane; T-C10 crosscheck
+> 209/209; 4.15 negative control uncovered (0 attachments). VERDICT
+> CHECK: new standing gate scripts/c11_batch9_verdict_check.py (A schema
+> + verbatim ruling + intake record + caveat; B shape 20/15/6 + no
+> WITH_NOTE + boundary notes; C three-way set equality + boundary
+> ownership exact; D slices + 236 total + negative control + non-mint 44
+> + held quarantine) — ALL PASS 53/53 at first full run. RE-ANCHORS
+> (dated session-63 comments, no test weakened): batch1-3 verdict checks
+> (store totals 216 -> 236); batch4-8 verdict checks (D2 surface ->
+> EXACTLY the 3 pilot HOLDs + B9_AUTHORED <= hv; totals -> 236);
+> batch4-9 boundary checks (D3 semantic HV -> 236); diff_review_test R1
+> (0 actionable / 5 not-actionable / 236); sweep S4 concept_edges pin
+> (f4907752 -> 211dbe9561f7274a); graph_check state-note block + summary
+> phrase (batch-9 verdicts applied session 63). SERVING PLANE re-emitted
+> (projections + explorer_blob.json; concept_edges source pin ==
+> sweep pin 211dbe95). FORECAST: the batch-9 record settled in place
+> (promotion_rate 0.0 -> 1.0, operator_verdicts confirm 20, the
+> session-63 settlement narrative appended — the batch-7/8 pattern).
+> GOVERNANCE amended with dated session-63 notes (historical text
+> preserved): C11_S16_GATE_REPORT.md (this block) + C11_ARCHITECTURE.md.
+> INVARIANTS HELD: the frozen pilot + batch-1..8 dispositions byte-intact
+> (113 held, clean quarantine); 236 promotions all operator; batch-9
+> nodes stay SUGGESTED (no §18 node pathway — 'Authority remains:
+> SUGGESTED'); PART_OF derived and outside §18; 4CH1-4.15 uncovered; no
+> DB writes; AI attribution forbidden; graph/*.yaml never hand-edited.
+> ZERO verdicts invented, ZERO self-promotion: every application traces
+> to the operator's §6/§7 rulings. **BATCH 9 IS CLOSED — do not reopen.**
+> NEXT: batches 10-11 complete the S4 section per the slice plan — each
+> needs its own commissioning turn; D4 subject-#2 K0(ii) corpus
+> securing, snap-002 re-freeze, v78 explorer build and PAT rotation
+> remain operator-held.

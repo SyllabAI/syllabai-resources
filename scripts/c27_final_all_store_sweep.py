@@ -383,7 +383,7 @@ PINS = {
     GP.legacy_rel("command_words"): "824c50ee0625672c",
     GP.legacy_rel("relationships"): "6bd3f8236ac2120a",
     GP.legacy_rel("concepts"): "9f310f506835fc9e",  # session-62 post (pre was fbdf484f6fd37962…; batch-9 authored-to-gate regen — 14 CONCEPT + 1 MISCONCEPTION mints)
-    GP.legacy_rel("concept_edges"): "f4907752eb73cc9b",  # session-62 post (pre was 43ff4b9610cc0927…; batch-9 authored-to-gate regen — 20 authored semantic + 21 PART_OF mints, zero promotions)
+    GP.legacy_rel("concept_edges"): "211dbe9561f7274a",  # session-63 post (pre was f4907752eb73cc9b…; batch-9 §18 application — 20 authored SUGGESTED -> HUMAN_VALIDATED, statuses only, shape unchanged)
     GP.legacy_rel("spec_command_kinds"): "d730e7227c5e8dbc",  # session-62 post (pre was 4f2277920e31690f…; batch-9 authored-to-gate regen, 132->153 tags)
     GP.legacy_rel("spec_chunk_mappings"): "e8b58a7109104bb7",  # C28 post (pre was f36910450bd50726…; layout canonicalization)  # C27 post (pre was 3d4877dd…; sp_title refresh)
     "graph/reports/C26_WORDING_DIFF_LEDGER.json": "b3334f6057ea649a",

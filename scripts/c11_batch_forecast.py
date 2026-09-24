@@ -1110,10 +1110,14 @@ out = {
             "rates": {
                 "held_rate": 0.2273,
                 "rejection_rate": 0.0,
-                # session-62: the batch ends at its operator gate — zero
-                # promotions exist at authoring; SETTLES at the batch-9
-                # verdict session (the batch-7/8 pattern).
-                "promotion_rate": 0.0,
+                # session-63 (2026-09-25): gate SETTLED — the operator's
+                # completed-sheet §6/§7 verdict (PASS WITH NOTES) recorded
+                # in scripts/c11_batch9_verdicts.yaml and applied through
+                # §18 (20 promotions, operator, review_ref = the B9
+                # diff-review bundle; zero RR authored, so every authored
+                # edge was promotable post-verdict — the batch-2/7/8
+                # pattern).
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -1130,7 +1134,7 @@ out = {
                 "FP-B9-4 (source typos observed, not anchored: 'Structrual' "
                 "asset filename + 'specfication' examiner-tip line)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 20, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -70.2% / edges -65.4% vs "
                            "the 2.4/2.75 model — the deepest descriptive "
@@ -1149,9 +1153,26 @@ out = {
                            "families pinned). ZERO pass-2 demotions after "
                            "the G04/G07 relocations. Section 4 candidate "
                            "coverage: 21 of 50 S4 SPs (153 of 182 total at "
-                           "candidate level). NEXT: the operator's batch-9 "
-                           "verdict session; batches 10-11 complete the S4 "
-                           "section per the slice plan."),
+                           "candidate level). "
+                           "Session-63 (2026-09-25): operator gate SETTLED — "
+                           "the operator's completed-sheet verdict "
+                           "(PASS WITH NOTES; intake via the zai-web chat "
+                           "lane as an INLINE RESTATED sheet — the §2/§3/§4 "
+                           "detail tables restated as universal verdicts; "
+                           "the batch-9 CONFORMANCE gates applied, not the "
+                           "batch-5/6/8 byte-identity check) recorded in "
+                           "scripts/c11_batch9_verdicts.yaml (20 edge "
+                           "CONFIRM / 15 node CONFIRM / 6 identity ACCEPT "
+                           "-> KEEP_AS_IS / 9 held acknowledged-quarantined "
+                           "/ zero RR / zero REJECT) and applied through "
+                           "§18 (20 promotions, operator, review_ref = the "
+                           "B9 diff-review bundle; promotion_rate 1.0 — "
+                           "zero RR authored, so every authored edge was "
+                           "promotable post-verdict). Store: 216 -> 236 "
+                           "semantic HV, shape 180/425 unchanged (statuses "
+                           "only). NEXT: batches 10-11 complete the S4 "
+                           "section per the slice plan — each needs its "
+                           "own commissioning turn."),
         },
     ],
     "future_batch_record_schema": {

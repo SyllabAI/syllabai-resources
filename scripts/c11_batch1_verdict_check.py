@@ -246,10 +246,15 @@ check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
 # The batch-1 verdict layer's protective intent is unchanged: its 28
 # promotions stay exact, operator-attributed, and nothing outside a
 # recorded CONFIRM set ever enters the store.
-check("D4 store total 216 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
+# session-63 re-anchor (2026-09-25, dated, protective intent unchanged):
+# the batch-9 §18 application added 20 operator promotions
+# (c11_batch9_verdicts, applied 2026-09-25 via the B9 diff-review bundle)
+# — the store total moved 216 -> 236; the batch-1 slice stays preserved
+# exactly.
+check("D4 store total 236 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
       "batch-3 + 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 + 10 "
-      "batch-8), all operator",
-      len(store_map) == 216
+      "batch-8 + 20 batch-9), all operator",
+      len(store_map) == 236
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

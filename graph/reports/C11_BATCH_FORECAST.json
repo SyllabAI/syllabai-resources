@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 216,
-    "human_validated": 333,
+    "promoted": 236,
+    "human_validated": 353,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.5082,
+      "value": 0.5553,
       "formula": "promoted / total_edges",
-      "inputs": "216 / 425",
+      "inputs": "236 / 425",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -554,7 +554,7 @@
       "rates": {
         "held_rate": 0.2273,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -564,13 +564,13 @@
         "FP-B9-4 (source typos observed, not anchored: 'Structrual' asset filename + 'specfication' examiner-tip line)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 20,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -70.2% / edges -65.4% vs the 2.4/2.75 model — the deepest descriptive band yet (nodes/SP 0.71, edges/SP 0.95): the five one-family consolidations (fractions 4.8-4.10, fuels 4.11-4.12, acid-rain 4.14+4.16, cracking 4.17-4.18, alkanes 4.19-4.21) plus the 4.15 negative-control carve-out remove 6 SPs from the node count. FIVE sanctioned boundary edges into EXISTING owners (batch-1 FRACTIONAL-DISTILLATION + MIXTURE; pilot EMPIRICAL-FORMULA + MOLECULAR-FORMULA; batch-5 COMBUSTION-O2); ONE mark-scheme-documented misconception mint (the Crude Oil MS Q2b Reject column). FULL Paper-2 MS coverage (two families pinned). ZERO pass-2 demotions after the G04/G07 relocations. Section 4 candidate coverage: 21 of 50 S4 SPs (153 of 182 total at candidate level). NEXT: the operator's batch-9 verdict session; batches 10-11 complete the S4 section per the slice plan."
+      "notes_text": "pred-vs-act: nodes -70.2% / edges -65.4% vs the 2.4/2.75 model — the deepest descriptive band yet (nodes/SP 0.71, edges/SP 0.95): the five one-family consolidations (fractions 4.8-4.10, fuels 4.11-4.12, acid-rain 4.14+4.16, cracking 4.17-4.18, alkanes 4.19-4.21) plus the 4.15 negative-control carve-out remove 6 SPs from the node count. FIVE sanctioned boundary edges into EXISTING owners (batch-1 FRACTIONAL-DISTILLATION + MIXTURE; pilot EMPIRICAL-FORMULA + MOLECULAR-FORMULA; batch-5 COMBUSTION-O2); ONE mark-scheme-documented misconception mint (the Crude Oil MS Q2b Reject column). FULL Paper-2 MS coverage (two families pinned). ZERO pass-2 demotions after the G04/G07 relocations. Section 4 candidate coverage: 21 of 50 S4 SPs (153 of 182 total at candidate level). Session-63 (2026-09-25): operator gate SETTLED — the operator's completed-sheet verdict (PASS WITH NOTES; intake via the zai-web chat lane as an INLINE RESTATED sheet — the §2/§3/§4 detail tables restated as universal verdicts; the batch-9 CONFORMANCE gates applied, not the batch-5/6/8 byte-identity check) recorded in scripts/c11_batch9_verdicts.yaml (20 edge CONFIRM / 15 node CONFIRM / 6 identity ACCEPT -> KEEP_AS_IS / 9 held acknowledged-quarantined / zero RR / zero REJECT) and applied through §18 (20 promotions, operator, review_ref = the B9 diff-review bundle; promotion_rate 1.0 — zero RR authored, so every authored edge was promotable post-verdict). Store: 216 -> 236 semantic HV, shape 180/425 unchanged (statuses only). NEXT: batches 10-11 complete the S4 section per the slice plan — each needs its own commissioning turn."
     }
   ],
   "future_batch_record_schema": {

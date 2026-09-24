@@ -1534,3 +1534,38 @@ C11_OPERATOR_DECISIONS.md).
 > scripts/c11_batch9_verdicts_template.yaml -> rename to
 > c11_batch9_verdicts.yaml -> a later session encodes + applies via §18).
 > Then STOP — Batch 9 authoring -> operator gate. Nothing more.
+
+## Session 63 amendment (2026-09-25) — the §18 pathway applied batch 9; BATCH 9 IS CLOSED
+
+> The operator's completed-sheet verdict (§6/§7: PASS WITH NOTES,
+> delivered inline as an INLINE RESTATED sheet via the zai-web chat
+> lane; the batch-9 CONFORMANCE gates substitute for the batch-5/6/8
+> byte-identity check — every verdict-relevant element reconciled 1:1
+> against the coded gate surface, machine-checked at intake and
+> re-asserted by the encoder) was encoded fail-closed into
+> scripts/c11_batch9_verdicts.yaml (20 edge CONFIRM / 15 node CONFIRM /
+> 6 identity ACCEPT -> KEEP_AS_IS / 9 held acknowledged / zero RR /
+> zero REJECT; the universal rulings carry no WITH_NOTE — the NOTES are
+> the sheet-level REPORTED caveat + the anti-duplication guardrail) and
+> applied through the §18 pathway (diff-review export → dry-run → ONE
+> gated c11_promote run with the generator re-run inside the gate):
+> 216 -> 236 semantic HUMAN_VALIDATED, all operator-attributed, the B9
+> diff-review bundle as review_reference. Store shape unchanged
+> 180/425/184 (verdicts move statuses only); the live SUGGESTED
+> semantic surface is again EXACTLY the 3 frozen pilot operator HOLDs;
+> nodes stay SUGGESTED (no §18 node pathway); the 21 batch-9 PART_OF
+> rows stay SUGGESTED pending their own lane; 4.15 uncovered. The new
+> standing gate c11_batch9_verdict_check.py (53 checks) is ALL PASS;
+> batch1-8 verdict checks + batch4-9 boundary checks + diff_review_test
+> + promote_test 27/27 + negative 14/14 + s16 authz + task4 3/3 + the
+> sweep re-anchored (dated session-63 comments, no test weakened);
+> serving plane re-emitted; the forecast record settled in place
+> (promotion_rate 1.0). The six operator identity decisions are recorded
+> operator decisions: KEEP the five one-family consolidations and the
+> single assessment-documented kerosene/double-bonds misconception mint —
+> 'must not be interpreted as permission to mint duplicate concepts
+> during reconciliation' (held verbatim in the verdict record's
+> operator_ruling). **BATCH 9 IS CLOSED — do not reopen.** The next T-C11
+> gates are the batch-10 and batch-11 commissionings (each needs its own
+> operator turn); D4 subject-#2 K0(ii) corpus securing, snap-002
+> re-freeze, v78 explorer build and PAT rotation remain operator-held.

@@ -5,12 +5,19 @@ meta:
   stage: pilot-promotion
   contract: graph/reports/C11_ARCHITECTURE.md §18
   decision_record: scripts/c11_batch5_decisions.yaml, scripts/c11_batch6_decisions.yaml, scripts/c11_batch7_decisions.yaml,
-    scripts/c11_batch8_decisions.yaml, scripts/c11_pilot_decisions.yaml
+    scripts/c11_batch8_decisions.yaml, scripts/c11_batch9_decisions.yaml, scripts/c11_pilot_decisions.yaml
   tool: scripts/c11_promote.py
   generated_date: '2026-09-11'
   note: 'Zero promotions recorded — the T-C11 pilot review (session 40) ratified no edges: the two REVIEW_REQUIRED
     edges received REJECT / HOLD verdicts and the 31 SUGGESTED edges await operator confirmation.'
 promotions:
+- edge:
+    source: 4CH1-CON-ACID-RAIN-CAUSES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-FUELS-COMBUSTION
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
 - edge:
     source: 4CH1-CON-ACID-REACTIONS
     relation: REQUIRES_PREREQUISITE
@@ -32,6 +39,27 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-22'
   review_reference: graph/reports/C11_DIFF_REVIEW_B5_2026-09-22.md
+- edge:
+    source: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ALKANES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ORGANIC-REACTION-CLASSES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ALKANES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HOMOLOGOUS-SERIES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
 - edge:
     source: 4CH1-CON-ALLOY-HARDNESS
     relation: REQUIRES_PREREQUISITE
@@ -159,6 +187,13 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-CON-CO-POISONING
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-FUELS-COMBUSTION
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
     source: 4CH1-CON-CO2-FROM-CARBONATES
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-REACT-ORDER
@@ -214,6 +249,41 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
+- edge:
+    source: 4CH1-CON-CRACKING
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CRUDE-OIL-FRACTIONS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CRUDE-OIL
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HYDROCARBON
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CRUDE-OIL
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MIXTURE
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CRUDE-OIL-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CRUDE-OIL
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-CRUDE-OIL-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-FRACTIONAL-DISTILLATION
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
 - edge:
     source: 4CH1-CON-CRYSTALLISATION
     relation: EXPLAINED_BY
@@ -453,6 +523,20 @@ promotions:
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B1_2026-09-12.md
 - edge:
+    source: 4CH1-CON-FUELS-COMBUSTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-COMBUSTION-O2
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-FUELS-COMBUSTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-CRUDE-OIL-FRACTIONS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
     source: 4CH1-CON-G1-PREDICTION
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-G1-TREND
@@ -628,12 +712,26 @@ promotions:
   validated_date: '2026-09-13'
   review_reference: graph/reports/C11_DIFF_REVIEW_B3_2026-09-13.md
 - edge:
+    source: 4CH1-CON-ISOMERS
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-ORGANIC-FORMULAE
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
     source: 4CH1-CON-ISOTOPES
     relation: REQUIRES_PREREQUISITE
     target: 4CH1-CON-SUBATOMIC-PARTICLES
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-CON-IUPAC-NAMING
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HOMOLOGOUS-SERIES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
 - edge:
     source: 4CH1-CON-MASS-NUMBER
     relation: REQUIRES_PREREQUISITE
@@ -795,6 +893,34 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-22'
   review_reference: graph/reports/C11_DIFF_REVIEW_B6_2026-09-22.md
+- edge:
+    source: 4CH1-CON-ORGANIC-FORMULAE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-EMPIRICAL-FORMULA
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ORGANIC-FORMULAE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HYDROCARBON
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ORGANIC-FORMULAE
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-MOLECULAR-FORMULA
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-CON-ORGANIC-REACTION-CLASSES
+    relation: REQUIRES_PREREQUISITE
+    target: 4CH1-CON-HOMOLOGOUS-SERIES
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
 - edge:
     source: 4CH1-CON-PERCENT-YIELD
     relation: REQUIRES_PREREQUISITE
@@ -1383,6 +1509,20 @@ promotions:
   validated_by: operator
   validated_date: '2026-09-12'
   review_reference: graph/reports/C11_DIFF_REVIEW_B2_2026-09-12.md
+- edge:
+    source: 4CH1-MIS-KEROSENE-DOUBLE-BONDS
+    relation: REMEDIATED_BY
+    target: 4CH1-CON-CRUDE-OIL-FRACTIONS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
+- edge:
+    source: 4CH1-MIS-KEROSENE-DOUBLE-BONDS
+    relation: WRONG_ANSWER_PATTERN
+    target: 4CH1-CON-CRUDE-OIL-FRACTIONS
+  validated_by: operator
+  validated_date: '2026-09-25'
+  review_reference: graph/reports/C11_DIFF_REVIEW_B9_2026-09-25.md
 - edge:
     source: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
     relation: REMEDIATED_BY

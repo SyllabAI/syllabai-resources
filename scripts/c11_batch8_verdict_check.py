@@ -327,29 +327,25 @@ live_sugg = {triple(e) for e in sem
 # semantic + 21 PART_OF) — the operator gate decision; no test weakened.
 check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
       pilot_hv == pilot_confirms and len(pilot_hv) == 28)
-# Session-62 re-anchor (2026-09-24, dated; protective intent unchanged):
-# the batch-8 verdicts were APPLIED through §18 (10 promotions, operator) —
-# the 10 batch-8 authored edges left the SUGGESTED surface, so the live
-# SUGGESTED semantic edges are again EXACTLY the 3 frozen pilot operator
-# HOLDs (the pre-session-55 state).
-# session-62 re-anchor (2026-09-24, dated; protective intent unchanged):
-# the batch-9 authored-to-gate record (20 authored semantic edges) now
-# joins the live SUGGESTED surface AT ITS OPERATOR GATE (the session-62
-# commissioning of the S4 section; the batch ends at the gate, zero
-# promotions) — the surface is the 3 frozen pilot HOLDs PLUS the 20
-# batch-9 authored edges; the batch-4/5/6/7/8 authored sets stay fully
-# HUMAN_VALIDATED.
+# session-63 re-anchor (2026-09-25, dated; protective intent unchanged):
+# the batch-9 verdicts were APPLIED through §18 (20 promotions, operator,
+# the B9 diff-review bundle, session 63) — the 20 batch-9 authored edges
+# left the SUGGESTED surface, so the live SUGGESTED semantic surface is
+# again EXACTLY the 3 frozen pilot operator HOLDs (the pre-session-62-
+# authoring state); the batch-4/5/6/7/8/9 authored sets are all fully
+# HUMAN_VALIDATED. No test weakened.
 B9_DEC = HERE / "c11_batch9_decisions.yaml"
 B9_AUTHORED = {triple(e)
                for e in (yaml.safe_load(B9_DEC.read_text(encoding="utf-8"))
                          .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
-      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs plus "
-      "the batch-9 authored-to-gate edges (the batch-8 authored edges were "
-      "promoted by the operator's verdicts through §18 at session 62; "
-      "the batch-9 authored edges sit at their operator gate, session 62)",
+      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
+      "batch-8 authored edges were promoted by the operator's verdicts "
+      "through §18 at session 62; the batch-9 authored edges were promoted "
+      "by the operator's verdicts through §18 at session 63)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds | B9_AUTHORED,
+      and live_sugg == pilot_holds
+      and B9_AUTHORED <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -408,8 +404,11 @@ b7_confirms = {x["triple"] for x in b7_vd["edge_verdicts"]
                if x["verdict"] == "CONFIRM"}
 check("D11 batch-7 slice intact: 19 batch-7 CONFIRM still HUMAN_VALIDATED",
       b7_hv == b7_confirms and len(b7_hv) == 19)
-check("D12 store total 216 (28+28+23+39+35+18+16+19+10), all operator",
-      len(store_map) == 216
+# session-63 re-anchor (dated, protective intent unchanged): the batch-9
+# §18 application added 20 operator promotions — the store total moved
+# 216 -> 236; the batch-8 slice stays preserved exactly.
+check("D12 store total 236 (28+28+23+39+35+18+16+19+10+20), all operator",
+      len(store_map) == 236
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]
