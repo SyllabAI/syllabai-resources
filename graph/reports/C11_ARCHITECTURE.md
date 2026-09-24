@@ -1418,3 +1418,53 @@ C11_OPERATOR_DECISIONS.md).
 > own commissioning, no self-start); D4 subject-#2 K0(ii) corpus
 > securing, snap-002 re-freeze, v78 explorer build, PAT rotation still
 > operator-held.
+
+### §16 session-61 amendment (2026-09-24) — BATCH 8 (S2-h CHEMICAL TESTS) AUTHORED TO ITS OPERATOR GATE ("Proceed with batch 8")
+
+> Commissioned by the operator's session-61 directive under the session-46 §16
+> authorization; batch 8 = the FOURTH S2 slice (subsection h Chemical Tests,
+> 7 SPs 4CH1-2.44-2.50 — all practical:false, so NO practical owns any
+> batch-8 SP and the PR->concept lane is empty). The session-59/60 records
+> name the slice order and the no-self-start rule; the operator's "Proceed
+> with batch 8" IS the commissioning. CROSS-SLICE BOUNDARY RULING
+> scripts/c11_batch8_boundary_ruling.yaml + standing checker
+> c11_batch8_boundary_check.py ALL PASS: 161 candidate terms -> 53 matches
+> ALL dispositioned; THREE sanctioned boundary targets, ALL EXISTING owners
+> (batch-3 CON-ION-CHARGE-RULES x2 — the 2.47/2.48 ion-identity rows; batch-1
+> CON-PURE-SUBSTANCE — the 2.50 purity row); non_mint_list 68; FIVE
+> future_boundary_notes. The session-59 limewater/CO2 future note LANDS in
+> the gas-test family node (the two in-slice RP edges); the batch-7 fourth
+> future note (anhydrous-CuSO4) CLOSES as the test-vs-reaction-example split
+> (held RELATED_TO, B8-H-03). MS PINNING: FULL Paper-2 coverage — Chemical
+> Tests MS.pdf pinned (sha1_12 68356f71b4bc, 14pp). DECISION RECORD
+> scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8): 8
+> nodes (6 CONCEPT — 2.44 gas tests ONE family / 2.45+2.46 flame test ONE
+> family node (B8-ID-01 operator question, the B7-ID-01 precedent) / 2.47
+> cation tests / 2.48 anion tests / 2.49 CuSO4 water test / 2.50 boiling-
+> point purity test; 2 MS-documented WRONG_ANSWER_PATTERN misconceptions —
+> MIS-GLOWING-SPLINT-HYDROGEN (Q4a) and MIS-HALIDE-TEST-HCL (Q4b(i))) /
+> 10 authored edges (2 in-slice RP + 1 RELATED_RESIDUAL RELATED_TO + 3
+> sanctioned boundary RP + 2 WAP + 2 REMEDIATED_BY; ALL SUGGESTED, ZERO RR)
+> / 9 held (B8-H-01..09; B8-H-07 holds the documented-but-apparatus-choice
+> carrier-rod Reject class for operator ruling) / 7 command kinds; quote
+> probe 92/92 + preverify 87/87 fail-closed green BEFORE the registry grew.
+> PASS-2: ZERO findings required re-authoring (FP-B8-1..4/FN-B8-1..2;
+> zero demotions). REVIEW GATE rendered
+> (C11_BATCH8_REVIEW_SHEET.md + .json + the operator-owned verdicts template
+> 10E/6N+2M/4-ID). Generator registry [pilot..batch8] in 6 sites +
+> graph_paths.yaml legacy_allowlist += the batch-8 record; MERGED STORE 165
+> nodes / 384 edges (163 PART_OF + 221 semantic) / 132 command kinds / 104
+> held / 206 semantic HUMAN_VALIDATED UNCHANGED; coverage 132/182 SPs —
+> **EVERY 4CH1 S2 spec point (2.1-2.50) is now covered at candidate level**;
+> the frozen dispositions byte-intact (118 held across nine slices; both RR
+> edges under their operator settlements); 4CH1-4.15 uncovered; ZERO
+> promotions, ZERO verdicts invented — the batch ENDS at its operator gate.
+> State-moved expectations re-anchored with dated session-61 comments (no
+> test weakened); sweep S4 pins re-issued; serving plane re-emitted;
+> governance amended with dated session-61 notes. BATCH 8 IS AUTHORED TO ITS
+> GATE — the operator's batch-8 verdict session is the one open T-C11 gate
+> (fill scripts/c11_batch8_verdicts_template.yaml -> rename to
+> c11_batch8_verdicts.yaml -> a later session encodes + applies via §18).
+> BATCHES 1-8 ARE AUTHORED-AND-SETTLED OR AUTHORED-AT-GATE; the §16 S2
+> program is complete at candidate level. Then STOP — Batch 8 authoring ->
+> operator gate. Nothing more.

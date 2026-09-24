@@ -327,11 +327,23 @@ check("D1 pilot slice intact: 28 pilot CONFIRM still HUMAN_VALIDATED",
 # the 19 batch-7 authored edges left the SUGGESTED surface, so the live
 # SUGGESTED semantic edges are again EXACTLY the 3 frozen pilot operator
 # HOLDs (the pre-session-55 state).
-check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and are "
-      "the ONLY live SUGGESTED semantic surface (batch-7 verdicts applied "
-      "through §18 at session 60)",
+# session-61 re-anchor (2026-09-24, dated; protective intent unchanged): the
+# batch-8 authored-to-gate record (10 authored semantic edges) now joins the
+# live SUGGESTED surface AT ITS OPERATOR GATE (the session-61 commissioning;
+# the batch ends at the gate, zero promotions) — the surface is the 3 frozen
+# pilot HOLDs PLUS the 10 batch-8 authored edges; the batch-4/5/6/7 authored
+# sets stay fully HUMAN_VALIDATED.
+B8_DEC = HERE / "c11_batch8_decisions.yaml"
+B8_AUTHORED = {triple(e)
+               for e in (yaml.safe_load(B8_DEC.read_text(encoding="utf-8"))
+                         .get("edges") or [])}
+check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
+      "the live SUGGESTED semantic surface is EXACTLY the pilot HOLDs plus "
+      "the batch-8 authored-to-gate edges (batch-7 verdicts applied through "
+      "§18 at session 60; the batch-8 authored edges sit at their operator "
+      "gate, session 61)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds,
+      and live_sugg == pilot_holds | B8_AUTHORED,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -412,11 +424,14 @@ check("D14 no batch-7 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
       "remains SUGGESTED')",
       not any(x.get("validation_status") == "HUMAN_VALIDATED"
               for x in nodes_doc["nodes"]))
-check("D15 live store shape 157 nodes / 367 edges (156 PART_OF + 211 "
+# session-61 re-anchor (2026-09-24, dated): + the SANCTIONED batch-8
+# authored-to-gate record (8 nodes / 17 edges = 7 PART_OF + 10
+# semantic) — the operator gate decision; no test weakened.
+check("D15 live store shape 165 nodes / 384 edges (163 PART_OF + 221 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 157 and len(edges_doc["edges"]) == 367
+      len(nodes_doc["nodes"]) == 165 and len(edges_doc["edges"]) == 384
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 156)
+              if e["relation"] == "PART_OF") == 163)
 # boundary mint discipline (the session-59 cross-slice ruling)
 non_mint = set(rul["boundary_edge_ruling"]["non_mint_list"])
 b7_codes = {c["code"] for c in dec["nodes"]}

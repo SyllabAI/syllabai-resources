@@ -898,11 +898,14 @@ C11_BATCH7_SPS = ["4CH1-2.28", "4CH1-2.29", "4CH1-2.30", "4CH1-2.31",
                   "4CH1-2.32", "4CH1-2.33C", "4CH1-2.34", "4CH1-2.35",
                   "4CH1-2.36", "4CH1-2.37", "4CH1-2.38", "4CH1-2.39",
                   "4CH1-2.40C", "4CH1-2.41C", "4CH1-2.42", "4CH1-2.43C"]
+# session-61 (§16 batch 8): the S2-h Chemical Tests slice 4CH1-2.44-2.50.
+C11_BATCH8_SPS = ["4CH1-2.44", "4CH1-2.45", "4CH1-2.46", "4CH1-2.47",
+                  "4CH1-2.48", "4CH1-2.49", "4CH1-2.50"]
 C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS \
     + C11_BATCH3_SPS + C11_BATCH4_SPS + C11_BATCH5_SPS + C11_BATCH6_SPS \
-    + C11_BATCH7_SPS
+    + C11_BATCH7_SPS + C11_BATCH8_SPS
 C11_STAGE = ("pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4"
-             "+s16-batch-5+s16-batch-6+s16-batch-7")
+             "+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8")
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # State after the session-55 batch-5 AUTHORING (extraction_pass
 # c11-s16-batch-5, authored to its operator gate): 129
@@ -956,14 +959,21 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # attachment-promotion lane); the live SUGGESTED semantic surface is now
 # the 3 frozen pilot operator HOLDs + the 19 batch-7 authored edges,
 # pending the operator's batch-7 verdicts; 187 semantic HV unchanged.)
-C11_COUNTS = {"nodes": 157, "concepts": 136, "misconceptions": 21,
-              "edges": 367,
-              "part_of": 156, "requires_prerequisite": 154,
+# session-61 state note (dated, no test weakened): the batch-8 authored-to-
+# gate record (S2-h Chemical Tests 4CH1-2.44-2.50: 8 nodes = 6 CONCEPT + 2
+# MISCONCEPTION, 17 edges = 7 PART_OF + 10 authored semantic — 5 RP + 1
+# RELATED_TO + 2 WAP + 2 REMEDIATED_BY, ZERO promotions) joins the store;
+# 206 semantic HV unchanged (authoring promotes nothing); the live SUGGESTED
+# semantic surface is now the 3 frozen pilot operator HOLDs + the 10 batch-8
+# authored edges, pending the operator's batch-8 verdicts.
+C11_COUNTS = {"nodes": 165, "concepts": 142, "misconceptions": 23,
+              "edges": 384,
+              "part_of": 163, "requires_prerequisite": 159,
               "explained_by": 12,
-              "related_to": 1, "commonly_confused_with": 2,
-              "misconception_of": 2, "wrong_answer_pattern": 19,
-              "remediated_by": 21, "review_required": 2,
-              "command_kinds": 125}
+              "related_to": 2, "commonly_confused_with": 2,
+              "misconception_of": 2, "wrong_answer_pattern": 21,
+              "remediated_by": 23, "review_required": 2,
+              "command_kinds": 132}
 # Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
 # `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
 # the decision record (preserved as rejected candidate HELD-13; architecture
@@ -991,7 +1001,8 @@ C11_DECISIONS_FILES = [REPO / "scripts" / "c11_pilot_decisions.yaml",
                        REPO / "scripts" / "c11_batch4_decisions.yaml",
                        REPO / "scripts" / "c11_batch5_decisions.yaml",
                        REPO / "scripts" / "c11_batch6_decisions.yaml",
-                       REPO / "scripts" / "c11_batch7_decisions.yaml"]
+                       REPO / "scripts" / "c11_batch7_decisions.yaml",
+                       REPO / "scripts" / "c11_batch8_decisions.yaml"]
 C11_DECISIONS_FILE = C11_DECISIONS_FILES[0]
 _C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                              r"|llm|agent|model|bot", re.I)
@@ -1805,9 +1816,13 @@ def main():
           # session-60: the summary names the batch-7 verdict application
           # (§18 applied — 19 operator promotions, the addendum §6/§7
           # verdict PASS WITH NOTES); state note, no test weakened
+          # session-61: the summary names the batch-8 authored-to-gate
+          # state (S2 batches 5-8; the batch-8 verdicts pending — the
+          # operator's gate session is next)
           f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches "
-          f"5-7, batch-6 verdicts applied session 58, batch-7 verdicts "
-          f"applied session 60): "
+          f"5-8, batch-6 verdicts applied session 58, batch-7 verdicts "
+          f"applied session 60, batch-8 authored to its operator gate "
+          f"session 61): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1818,7 +1833,8 @@ def main():
           f"verdicts applied session 50; batch-3 verdicts applied session 52; "
           f"batch-4 verdicts applied session 54; batch-5 verdicts applied "
           f"session 56; batch-6 verdicts applied session 58; batch-7 "
-          f"verdicts applied session 60 — "
+          f"verdicts applied session 60; batch-8 authored to its operator "
+          f"gate session 61 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "

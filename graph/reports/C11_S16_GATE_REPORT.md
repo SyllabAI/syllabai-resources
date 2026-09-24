@@ -1337,3 +1337,108 @@ before phase 2 (S3).)
 > S2-h family, 2.44-2.50 chemical tests) needs its own operator
 > commissioning — no self-start. Then STOP — Batch 7 verdict session ->
 > batch 7 CLOSED. Nothing more.)
+
+## Session 61 (2026-09-24) — BATCH 8 (S2-h CHEMICAL TESTS) AUTHORED TO ITS OPERATOR GATE
+
+> Commissioned by the operator's "Proceed with batch 8" directive (2026-09-24,
+> session 61) under the session-46 §16 authorization — exactly the NEXT the
+> session-60 block named ("batch 8 (the remaining S2-h family, 2.44-2.50
+> chemical tests) needs its own operator commissioning — no self-start").
+> BATCH 8 = the FOURTH S2 slice: subsection h Chemical Tests, 7 SPs
+> 4CH1-2.44-2.50 (all store rows practical:false — NO practical owns any
+> batch-8 SP and the PR->concept edge lane is empty; the PR-07/PR-08 lane was
+> batch 7). COMMISSIONING + PREP: CROSS-SLICE BOUNDARY RULING
+> scripts/c11_batch8_boundary_ruling.yaml + NEW STANDING CHECKER
+> c11_batch8_boundary_check.py ALL PASS — 161 S2-h candidate terms audited
+> against the pre-batch-8 store -> 53 matches ALL dispositioned (probe
+> persisted as c11_batch8_term_audit_probe.py), ZERO unhandled conflicts;
+> THREE sanctioned boundary targets, ALL EXISTING owners (CON-ION-CHARGE-
+> RULES — the batch-3 owner, x2: the 2.48 anion-identity row + the 2.47
+> cation-identity row, the batch-5 x2-into-one-owner precedent;
+> CON-PURE-SUBSTANCE — the batch-1 owner: the 2.50 purity row, the note's
+> impurity-effect sentence IS the owner's fixed-mp/bp surface);
+> non_mint_list 68; FIVE future_boundary_notes (the pop-test combustion
+> enrichment; the BaSO4/AgCl insolubility adjacency; the ammonia-as-base
+> mechanism adjacency; the anhydrous-CuSO4 test-vs-reaction split CLOSING the
+> batch-7 ruling's fourth future note; the chlorine-safety note). The
+> session-59 first future note (limewater/CO2-test -> batch 8) LANDS: the
+> gas-test family node now owns the limewater cloudiness test with the two
+> in-slice RP edges (ANION/CATION-TESTS -> GAS-TESTS). MS PINNING
+> scripts/c11_ms_pin_batch8.py: FULL Paper-2 coverage — the single S2-h
+> family pinned (Chemical Tests MS.pdf -> CHEMICAL_TESTS_MS_P2.txt sha1_12
+> 68356f71b4bc, 14pp — the pin the batch-7 meta anticipated); Paper-1
+> variants unpinned per the Paper-2-first convention. EXTRACTION: all 5
+> T-C10 HV-mapped notes read in full (7/7 SPs note-covered); quote probe
+> 92/92 green pre-authoring (2 markup anchors fixed: the MS curly-quote
+> U+2018/2019 squeaky-pop line quoted byte-exactly; the ammonium-ion heading
+> re-anchored to the cations note); DECISION RECORD
+> scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8): 8
+> nodes (6 CONCEPT: 2.44 the five gas tests as ONE family node / 2.45+2.46
+> the flame-test family as ONE node (the B7-ID-01 precedent, operator
+> identity question B8-ID-01) / 2.47 cation tests / 2.48 anion tests /
+> 2.49 the anhydrous-CuSO4 water test / 2.50 the boiling-point purity test;
+> 2 MS-documented WRONG_ANSWER_PATTERN misconceptions: MIS-GLOWING-SPLINT-
+> HYDROGEN (Chemical Tests MS Q4a Reject: glowing splint / unflamed splint /
+> pop-only) and MIS-HALIDE-TEST-HCL (Q4b(i) Reject: hydrochloric acid / HCl
+> as the halide-test acidifier)) / 10 authored edges (3 in-slice: 2 RP +
+> 1 RELATED_TO RELATED_RESIDUAL medium-confidence; 3 sanctioned boundary RP;
+> 2 WAP + 2 REMEDIATED_BY, the B1-E-25 remediation-target pattern; ALL
+> SUGGESTED, ZERO RR) / 9 held (B8-H-01..09 incl. B8-H-07 the documented-
+> but-apparatus-choice carrier-rod class held for operator ruling) / 7
+> command kinds; preverify 87/87 fail-closed green. PASS-2 ADVERSARIAL
+> REVIEW scripts/c11_batch8_review_pass2.yaml: ZERO findings required
+> re-authoring (FP-B8-1..4 + FN-B8-1..2 recorded questions/resolutions;
+> zero demotions — nodes 8/8, edges 10/10, 9 held all AGREE_HOLD).
+> REVIEW GATE rendered (c11_batch8_review_build.py):
+> graph/reports/C11_BATCH8_REVIEW_SHEET.md + C11_BATCH8_REVIEW.json + the
+> OPERATOR-OWNED scripts/c11_batch8_verdicts_template.yaml (10E/6N+2M/4-ID;
+> zero RR section; template re-issue guard; session-54 hardening).
+> GENERATOR REGISTRY extended to [pilot..batch8] in 6 sites +
+> graph_paths.yaml legacy_allowlist += the batch-8 decision record; ONE
+> generator iteration (G08: RELATED_TO requires relation_class_rationale
+> INSIDE provenance — the batch-3 RELATED_RESIDUAL layout). MERGED STORE:
+> 165 nodes / 384 edges (163 PART_OF + 221 semantic) / 132 command kinds /
+> 104 held / 206 semantic HUMAN_VALIDATED UNCHANGED (authoring promotes
+> nothing) / 2 RR frozen / 4.15 uncovered; coverage 132/182 SPs at candidate
+> level (S2 50 of 50 — S2 IS NOW COMPLETE at candidate level). FORECAST:
+> batch-8 record appended (the S2 descriptive band; nodes/SP 1.14, edges/SP
+> 1.43). STATE-MOVED EXPECTATIONS re-anchored with dated session-61 comments
+> (no test weakened): graph_check (C11_BATCH8_SPS + C11_STAGE + C11_COUNTS
+> 165/384/163, RP 159, RT 2, WAP 21, RB 23, cks 132 + the state-note block +
+> the summary phrase); batch2-7 verdict-check shape pins 157/367/156 ->
+> 165/384/163; batch4/5/6/7 verdict-check D2 (the SUGGESTED surface = the 3
+> pilot HOLDs + the 10 batch-8 authored edges; B4-B7_AUTHORED all HV);
+> batch4/5/6/7 boundary-check growth (+8/17; batch-4 B2 74 mints / 164
+> delta); diff_review_test R1 0/5/206 -> 10/5/206 (the actionable surface is
+> the batch-8 authored set) + the batch-8 fixture member; sweep S4 pins
+> re-issued (sha256_16: concepts 5b70f216 -> fbdf484f, concept_edges
+> 349b35a3 -> ff3c90c2, spec_command_kinds 11a1a3a1 -> 4f227792). SERVING
+> PLANE re-emitted at the new store state (c28_emit_explorer_blob.py:
+> projections + explorer_blob.json; the source pins == the S4 pins). S7
+> note: the FileUpload origin advanced 8b03d1c -> d6203f4 (the operator's
+> own Test-Builder HTML uploads + the "Create a" commit — NOT this lane);
+> the mirror ff-forwarded clean, S7 green. GOVERNANCE amended with dated
+> session-61 notes (historical text preserved): C11_S16_GATE_REPORT.md (this
+> block) + C11_ARCHITECTURE.md (the session-61 amendment). FULL GATE SUITE
+> AT THE AUTHORED-TO-GATE STATE: graph_check ALL PASS (165/384/163, 206
+> semantic HV); c11_review_verdict_check + c11_batch1..7_verdict_check ALL
+> PASS; c11_batch4..8_boundary_check ALL PASS; c11_s16_authorization_check
+> ALL PASS; c11_negative_test 14/14; c11_promote_test 27/27 (live store
+> untouched); c11_task4_variants 3/3; c11_diff_review_test ALL PASS
+> (R1 10/5/206); the C27 sweep battery clears its S0 tree gate at landing.
+> INVARIANTS HELD: the frozen pilot + batch-1..7 dispositions byte-intact
+> (E-08/E-26/E-29 stay SUGGESTED; both RR edges REVIEW_REQUIRED under their
+> operator settlements; HELD-01..13 + B1-H-01..12 + B2-H-01..10 + B3-H-01..14
+> + B4-H-01..14 + B5-H-01..14 + B6-H-01..09 + B7-H-01..09 + B8-H-01..09
+> untouched — 118 held, clean quarantine); 206 promotions all operator;
+> batch-8 nodes stay SUGGESTED (no §18 node pathway); PART_OF derived and
+> outside §18 (the 7 batch-8 PART_OF rows SUGGESTED pending their own
+> attachment-promotion lane); 4CH1-4.15 uncovered; no DB writes; AI
+> attribution forbidden; graph/*.yaml never hand-edited (all changes via the
+> sanctioned generators). ZERO promotions, ZERO verdicts invented, ZERO
+> self-promotion: the batch ENDS at its operator gate. NEXT: the operator's
+> batch-8 verdict session (fill scripts/c11_batch8_verdicts_template.yaml,
+> rename to c11_batch8_verdicts.yaml); a later session encodes + applies
+> them via the §18 pathway. With batch 8 authored, EVERY 4CH1 S2 spec point
+> 2.1-2.50 is covered at candidate level. Then STOP — Batch 8 authoring ->
+> operator gate. Nothing more.

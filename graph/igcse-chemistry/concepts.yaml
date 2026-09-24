@@ -8,12 +8,13 @@
 #   scripts/c11_batch5_decisions.yaml (extraction_pass c11-s16-batch-5)
 #   scripts/c11_batch6_decisions.yaml (extraction_pass c11-s16-batch-6)
 #   scripts/c11_batch7_decisions.yaml (extraction_pass c11-s16-batch-7)
+#   scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
-# Generation dates pinned per record; store date 2026-09-23 (deterministic contract; byte-identical re-runs).
+# Generation dates pinned per record; store date 2026-09-24 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -145,6 +146,13 @@ meta:
   - 4CH1-2.41C
   - 4CH1-2.42
   - 4CH1-2.43C
+  - 4CH1-2.44
+  - 4CH1-2.45
+  - 4CH1-2.46
+  - 4CH1-2.47
+  - 4CH1-2.48
+  - 4CH1-2.49
+  - 4CH1-2.50
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -168,6 +176,7 @@ meta:
   - scripts/c11_batch5_decisions.yaml
   - scripts/c11_batch6_decisions.yaml
   - scripts/c11_batch7_decisions.yaml
+  - scripts/c11_batch8_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -177,9 +186,10 @@ meta:
   - c11-s16-batch-5
   - c11-s16-batch-6
   - c11-s16-batch-7
+  - c11-s16-batch-8
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
-  generated: '2026-09-23'
+  generated: '2026-09-24'
   provenance_default: AI_SUGGESTED
   validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;
     batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED
@@ -187,11 +197,11 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    nodes: 157
-    concepts: 136
-    misconceptions: 21
-    part_of_edges: 156
-    semantic_edges: 211
+    nodes: 165
+    concepts: 142
+    misconceptions: 23
+    part_of_edges: 163
+    semantic_edges: 221
 nodes:
 - code: 4CH1-CON-ACID-ALKALI-IONS
   family: CONCEPT
@@ -476,6 +486,89 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-ANION-TESTS
+  family: CONCEPT
+  title: Tests for aqueous anions (halides, sulfate, carbonate)
+  aliases:
+  - acidified silver nitrate halide test
+  - barium chloride sulfate test
+  - carbonate limewater test
+  - silver halide precipitate colours
+  - anion tests
+  spec_points:
+  - code: 4CH1-2.48
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Negatively charged non-metal ions are known as anions
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Add dilute acid
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Bubble the gas released through limewater
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Limewater turns cloudy if the carbonate ion is present
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Acidify the sample with nitric acid
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: A silver halide precipitate forms if a halide ion is present
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The chloride ion forms a white precipitate of silver chloride
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The bromide ion forms a cream precipitate of silver bromide
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The iodide ions forms a yellow precipitate of silver iodide
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Acidify the sample with dilute hydrochloric acid
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Add a few drops of barium chloride solution
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+        IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: A white precipitate of barium sulfate is formed, if the sulfate ion is present
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: 'describe tests for these anions:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.48 demand verbatim: the three anion test families in the spec bullet order (halides
+      via acidified silver nitrate with the white/cream/yellow precipitate colours; sulfate via acidified
+      barium chloride with the white precipitate; carbonate via dilute acid + the gas evolved identified
+      by limewater). ONE SP-family node (the note''s own three-section structure covers one test family).
+      The carbonate route REUSES the 2.44 gas-test surface (the in-slice edge); the acid choice for the
+      halide route is the documented misconception surface (the pinned MS Q4b(i) Reject class).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-2.48 @ Tests for Anions (2026-09-11); spec 4CH1-2.48 official
+      wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-ANODE-CATHODE
   family: CONCEPT
@@ -967,6 +1060,73 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-13'
+  damage_flags: []
+- code: 4CH1-CON-CATION-TESTS
+  family: CONCEPT
+  title: Tests for aqueous cations (sodium hydroxide precipitate colours; ammonium ion via ammonia gas)
+  aliases:
+  - sodium hydroxide precipitate test
+  - Fe2+ pale green precipitate
+  - Fe3+ brown precipitate
+  - Cu2+ blue precipitate
+  - ammonium ion test
+  - NH4+ test
+  spec_points:
+  - code: 4CH1-2.47
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Metal cations in aqueous solution can be identified by the colour of the precipitate formed
+        when sodium hydroxide (NaOH) is added
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: A few drops of NaOH is added at first and any colour changes or precipitates formed are noted
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: A metal hydroxide precipitate typically forms if the hydroxide is insoluble in water
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: You need to specifically state light blue for the precipitate colour to be sure of the mark
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Add NaOH and warm the mixture
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: 'Observation with NaOH: Ammonia gas is released'
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: NH4+ (aq) + OH- (aq) → NH3 (g) + H2O (l)
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations
+        - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: 'Test for ammonia gas: Ammonia turns damp red litmus paper blue'
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: 'describe tests for these cations:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.47 demand verbatim: the NaOH precipitate route for Cu2+/Fe2+/Fe3+ (spec bullet
+      2) and the NH4+ route — NaOH, warm, identify the gas evolved (spec bullet 1). ONE SP-family node
+      (both bullets are one test family on the note''s own structure). The ammonia identification rides
+      the gas-test family via the in-slice edge (the note''s own link sentence).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-2.47 @ Tests for cations (2026-09-11); spec 4CH1-2.47 official
+      wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-CHROMATOGRAM-INTERPRETATION
   family: CONCEPT
@@ -2445,6 +2605,79 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+- code: 4CH1-CON-FLAME-TEST
+  family: CONCEPT
+  title: Flame tests for metal cations (technique and flame colours)
+  aliases:
+  - flame test colours
+  - nichrome wire loop
+  - lithium red flame
+  - sodium yellow flame
+  - potassium lilac flame
+  - calcium orange-red flame
+  - copper blue-green flame
+  spec_points:
+  - code: 4CH1-2.45
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The flame test is used to identify the positive metal ion (cations) by the colour of the
+        flame they produce
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Dip the loop of an unreactive metal wire such as nichrome or platinum in dilute acid
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Hold it in the blue flame of a Bunsen burner until there is no colour change
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Dip the loop into the solid sample / solution and place it in the edge of the blue Bunsen
+        flame
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: It is important to place the wire into acid first to prevent contamination
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: describe how to carry out a flame test
+  - code: 4CH1-2.46
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Ions from different metals produce different colours
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The colour of the flame is observed and used to identify the metal ion present
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: 'know the colours formed in flame tests for these cations:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: 2.45 (the technique) + 2.46 (the colours) as ONE family node — the note teaches
+      the colours INSIDE the technique as one identification method ("The colour of the flame is observed
+      and used to identify the metal ion present"), the CON-PROTON-TRANSFER one-node-two-SPs precedent
+      (B7-ID-01); the unity is recorded as the operator identity question B8-ID-01. The contamination
+      rationale (acid-cleaned wire; mixed/masked colours) is taught in the same note and is the 2.45 demand's
+      substance.
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-2.45/2.46 @ Flame tests (2026-09-11); spec 4CH1-2.45/2.46 official
+      wordings
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-CON-FRACTIONAL-DISTILLATION
   family: CONCEPT
   title: Fractional distillation
@@ -2841,6 +3074,70 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-22'
+  damage_flags: []
+- code: 4CH1-CON-GAS-TESTS
+  family: CONCEPT
+  title: Chemical tests for gases (hydrogen, oxygen, carbon dioxide, ammonia, chlorine)
+  aliases:
+  - pop test
+  - squeaky pop test
+  - glowing splint relight test
+  - limewater test for carbon dioxide
+  - damp litmus gas tests
+  - chlorine bleaches litmus
+  spec_points:
+  - code: 4CH1-2.44
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Several tests for anions and cations produce gases which then need to be tested
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Ammonia is a gas with a characteristic sharp choking smell that turns damp red litmus paper
+        blue
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: If the gas is carbon dioxide, the limewater turns cloudy white
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The test for carbon dioxide involves bubbling the gas through an aqueous solution of limewater
+        (calcium hydroxide)
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: If chlorine gas is present, damp blue litmus paper will turn red and then be bleached white
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: The test for hydrogen consists of holding a burning splint at the open end of a test tube
+        of gas
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE
+        Chemistry Revision Notes.md
+      kind: NOTE
+      quote: If the gas is oxygen, the splint will relight
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: 'describe tests for these gases:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.44 demand verbatim: the five named gases each with reagent/condition AND positive
+      result. ONE SP-family node (the spec bullet list is the demand''s substance — the B7-ID-01 one-family
+      precedent); the note''s five test sections are the table of results. The limewater test lands here
+      per the session-59 ruling''s first future_boundary_note ("limewater/CO2-test -> batch 8").'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-2.44 @ Gas tests (2026-09-11); spec 4CH1-2.44 official wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-CON-GAS-VOL-CALC
   family: CONCEPT
@@ -5822,6 +6119,105 @@ nodes:
   version: 1
   created_at: '2026-09-11'
   damage_flags: []
+- code: 4CH1-CON-WATER-CUSO4-TEST
+  family: CONCEPT
+  title: Chemical test for water (anhydrous copper(II) sulfate turns white to blue)
+  aliases:
+  - anhydrous copper(II) sulfate water test
+  - white to blue colour change
+  - copper sulfate water test
+  spec_points:
+  - code: 4CH1-2.49
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Water can be identified using a chemical test and/or a physical test
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Anhydrous copper(II) sulfate turns from white to blue on the addition of water
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: CuSO4 (s) + 5H2O (l) → CuSO4.5H2O (s)
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Copper sulfate turns a light blue colour in the presence of water
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: describe a test for the presence of water using anhydrous copper(II) sulfate
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.49 demand verbatim: the NAMED chemical test with its reagent (anhydrous CuSO4)
+      and result (white -> blue) plus the equation the note gives. The reversible-reaction owner (batch
+      4) teaches the SAME white/blue chemistry as the 3.x hydration/dehydration example — the test is
+      a distinct assessment face (the session-61 ruling''s distinct-demand disposition); the RELATED_TO
+      adjacency is held (B8-H-03). The product formula is named-as-given (no water-of- crystallisation
+      edge — the B7-H-03 rule).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-2.49 @ Chemical test for water (2026-09-11); spec 4CH1-2.49 official
+      wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
+- code: 4CH1-CON-WATER-PURITY-TEST
+  family: CONCEPT
+  title: Physical test for water purity (boiling point exactly 100 C)
+  aliases:
+  - boiling point purity test
+  - pure water boiling point
+  - impurity raises the boiling point
+  spec_points:
+  - code: 4CH1-2.50
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: A physical test to see if a sample of water is pure is to check its boiling point
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: A sample of the liquid is placed in a suitable container such as a boiling tube and gently
+        heated
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Using a thermometer, you can check if the boiling point is exactly 100 oC
+    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Chemical test for
+        water - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Any impurities present will usually tend to raise the boiling point and depress the melting
+        point of pure substance
+    - file: graph/igcse-chemistry/specification_points.yaml
+      kind: SPEC
+      quote: describe a physical test to show whether a sample of water is pure
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: SPEC_VERBATIM
+    derivation_notes: '2.50 demand verbatim: the PHYSICAL purity test — distinct mechanism from the 2.49
+      chemical test (the note''s own two-section split; no family merge). The test''s principle IS the
+      fixed-boiling-point-of-pure-substances surface (the note teaches the impurity effect inline) — covered
+      by the ONE sanctioned boundary edge into the batch-1 CON-PURE-SUBSTANCE owner (the session-61 ruling''s
+      third target; the USED_WITHOUT_RETEACHING class).'
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-2.50 @ Chemical test for water (2026-09-11); spec 4CH1-2.50 official
+      wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-CON-YIELD
   family: CONCEPT
   title: Yield (actual yield)
@@ -6432,6 +6828,80 @@ nodes:
   version: 1
   created_at: '2026-09-12'
   damage_flags: []
+- code: 4CH1-MIS-GLOWING-SPLINT-HYDROGEN
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Testing for hydrogen with a glowing splint or an unflamed splint, or naming only the squeaky
+    pop (instead of a burning splint at the tube mouth)
+  aliases:
+  - glowing splint hydrogen error
+  - hydrogen oxygen splint confusion
+  - squeaky pop without the method
+  evidence:
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: hydrogen / H2
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: burns with a pop/squeak
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: use burning/lit splint/flame to see if pop/squeak
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reject reference to glowing splint
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: ‘Squeaky pop test’ on its own is not sufficient
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reference to splint/match with no indication of flame is not enough
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Ignore flame extinguished
+  remediation_evidence:
+  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE Chemistry
+      Revision Notes.md
+    kind: NOTE
+    quote: It is easy to confuse the tests for hydrogen and oxygen.
+  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE Chemistry
+      Revision Notes.md
+    kind: NOTE
+    quote: Try to remember that a ligHted splint has an H for Hydrogen, while a glOwing splint has an
+      O for Oxygen.
+  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE Chemistry
+      Revision Notes.md
+    kind: NOTE
+    quote: The test for hydrogen consists of holding a burning splint at the open end of a test tube of
+      gas
+  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE Chemistry
+      Revision Notes.md
+    kind: NOTE
+    quote: Be sure not to insert the splint right into the tube, just at the mouth, as the gas needs air
+      to burn
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned Chemical Tests Paper-2 MS documents the wrong-answer class on the hydrogen-test
+      surface (Q4a): the expected answer is "hydrogen / H2" with "burns with a pop/squeak" AND the method
+      ("use burning/lit splint/flame to see if pop/squeak"); the Notes column carries the EXPLICIT Reject
+      "reference to glowing splint" (the oxygen-test tool — the note''s own examiner tip names the ligHted/glOwing
+      confusion), plus "reference to splint/match with no indication of flame is not enough" and "squeaky
+      pop test on its own is not sufficient". The misconception anchors against the gas-test family (2.44)
+      whose hydrogen row the question probes; the remediation IS the correct-test description the note
+      teaches. pdftotext line-wrap attribution: the Reject/Notes lines wrap mid-phrase and are quoted
+      as contiguous normalized phrases (the batch-6/7 convention). Curly-quote attribution: the squeaky-pop
+      line carries U+2018/U+2019 in the pin and is quoted byte-exactly.'
+    upstream: pinned CHEMICAL_TESTS_MS_P2 (sha1_12 68356f71b4bc) Q4a Reject/Notes columns; spec 4CH1-2.44
+      official wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
+  damage_flags: []
 - code: 4CH1-MIS-GRAPHITE-LAYER-BONDS
   family: MISCONCEPTION
   pattern_class: WRONG_ANSWER_PATTERN
@@ -6473,6 +6943,59 @@ nodes:
   validation_status: SUGGESTED
   version: 1
   created_at: '2026-09-12'
+  damage_flags: []
+- code: 4CH1-MIS-HALIDE-TEST-HCL
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Acidifying the halide test with hydrochloric acid (instead of nitric acid)
+  aliases:
+  - hydrochloric acid halide test error
+  - wrong acid for the silver nitrate test
+  evidence:
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: (dilute) nitric acid / HNO3
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: AgCl
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reject hydrochloric acid / HCl
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Reject other named acids
+  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Ignore acid(ified) without a named acid
+  remediation_evidence:
+  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+      IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: Acidify the sample with nitric acid
+  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel
+      IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: 'The colour of the silver halide precipitate depends on the halide ion:'
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-8
+    generated_date: '2026-09-24'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: 'The pinned Chemical Tests Paper-2 MS documents the wrong-answer class on the halide-test
+      surface (Q4b(i)): the expected answers are the chloride product ("AgCl") and the acidifier ("(dilute)
+      nitric acid / HNO3"), with the EXPLICIT Reject "hydrochloric acid / HCl" (the chloride contaminant
+      would itself precipitate with silver nitrate — the reagent choice defeats the test) and "other named
+      acids"; "acid(ified) without a named acid" is ignored, not credited. The misconception anchors against
+      the anion-test family (2.48) whose halide row the question probes; the remediation IS the nitric-acid
+      rule the note teaches. pdftotext line-wrap attribution: the Notes column lines wrap mid-phrase and
+      are quoted as contiguous normalized phrases (the batch-6/7 convention).'
+    upstream: pinned CHEMICAL_TESTS_MS_P2 (sha1_12 68356f71b4bc) Q4b(i) Reject column; spec 4CH1-2.48
+      official wording
+  confidence: high
+  validation_status: SUGGESTED
+  version: 1
+  created_at: '2026-09-24'
   damage_flags: []
 - code: 4CH1-MIS-HALOGEN-HALIDE
   family: MISCONCEPTION

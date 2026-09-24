@@ -1,0 +1,640 @@
+# T-C11 §16 — CROSS-SLICE BOUNDARY RULING (S1+S3+S2-batches-5/6/7 complete ↔ S2 batch 8).
+# Recorded session 61 (2026-09-24), commissioned by the operator's
+# "Proceed with batch 8" directive under the session-46 §16 authorization — the
+# per-batch boundary-ruling precondition (the session-55/57/59 batch-5/6/7
+# precedents: every slice gets its own conflict audit before authoring).
+#
+# This ruling is exactly that and nothing more (the session-52 precedent, held
+# to: "Do not turn this into another large ontology exercise"). It does NOT
+# redesign the concept ontology, does NOT re-open any settled identity, and
+# does NOT mint any node or edge by itself. It records the conflict audit +
+# the boundary discipline batch 8 (S2 Inorganic 2.44-2.50 Chemical Tests)
+# authoring MUST follow, extending the ratified FN-B1-2/FN-B2-2 cross-batch
+# discipline and the session-52/55/57/59 rulings to the S2-h boundary.
+# Machine-verified by scripts/c11_batch8_boundary_check.py.
+meta:
+  task: T-C11
+  stage: s16-cross-slice-boundary-ruling
+  session: 61
+  recorded_date: '2026-09-24'
+  commissioned_by: 'operator directive "Proceed with batch 8" (2026-09-24, session 61)
+    under the session-46 §16 authorization; the session-59/60 records name the
+    slice ("the remaining S2-h family (2.44-2.50: chemical tests) is batch 8 per
+    the item-14 plan — needs its own operator commissioning; no self-start")'
+  scope: 'conflict-prevention ruling for the S1(complete)+S3(complete)+S2-batches-5/6/7(complete)
+    -> S2(batch 8) boundary only; supersedes nothing; extends the session-55/57/59
+    ruling pattern to the S2-h slice; the batch-4/5/6/7 sanctioned boundary edges,
+    the T-C19 G19 attachment-promotion record and the two batch-6 deferral closures
+    are untouched'
+  applies_to_batch: 8
+
+conflict_audit:
+  method: 'S2-h candidate term vocabulary (161 terms: gas-test vocabulary,
+    flame-test vocabulary, cation-test vocabulary, anion-test vocabulary,
+    water-test vocabulary, the named reagents and equipment, generic chemistry
+    vocabulary and equation scaffolding) matched against the whole merged
+    pre-batch-8 store (node codes + titles + aliases + every edge endpoint,
+    case-folded substring; the probe is persisted as
+    scripts/c11_batch8_term_audit_probe.py). 53 terms match; EVERY match is
+    dispositioned below — sanctioned boundary edge, inline re-teach (no edge),
+    naming/mechanism-applied (held candidate, no edge), sub-string noise (no
+    owner surface), or distinct-demand mint (no conflict).'
+  s2_candidate_terms: [gas test, gas tests, test for gases, tests for gases,
+    hydrogen, oxygen, carbon dioxide, ammonia, chlorine, squeaky pop, pop,
+    burning splint, lit splint, lighted splint, glowing splint, splint,
+    relight, limewater, cloudy, cloudy white, milky, bleach, bleached,
+    bleaches, damp red litmus, damp blue litmus, red litmus paper, blue litmus
+      paper, litmus paper, damp, fume cupboard, toxic, choking smell, test
+      tube, mouth of the test tube,
+    flame test, flame tests, wire loop, nichrome, platinum, dilute acid,
+    bunsen, blue flame, non-luminous, contamination, contaminating, cation,
+    cations, metal ion, metal ions, lithium, sodium, potassium, calcium,
+    copper, lilac, orange-red, blue-green, crimson, brick red,
+    sodium hydroxide, naoh, precipitate, precipitates, pale green, orange /
+      brown, orange/brown, brown precipitate, blue precipitate, ammonium ion,
+    ammonium ions, nh4, warm, ionic equation, ammonia gas, gas evolved, gas
+      released, cloudiness, faint,
+    anion, anions, halide, halides, halide ion, halide ions, carbonate ion,
+    carbonate ions, carbonate, carbonates, silver nitrate, acidify, acidified,
+    nitric acid, silver halide, chloride, bromide, iodide, white precipitate,
+    cream precipitate, yellow precipitate, barium chloride, sulfate ion,
+    sulfate ions, sulfate, sulfates, sulphate, barium sulfate, barium nitrate,
+    dilute hydrochloric acid, hydrochloric acid, effervescence, group 7,
+    state symbol, silver chloride, silver bromide, silver iodide, barium,
+    anhydrous, anhydrous copper(ii) sulfate, copper(ii) sulfate, copper
+      sulfate, white to blue, hydrated, water of crystallisation, boiling
+      point, pure, purity, impurities, impure, thermometer, '100', physical
+      test, chemical test, boiling tube, condensation, melting point,
+    equation, equations, aqueous, solution, displacement, reactivity series,
+    filtration, precipitation, state symbols, ionic, ion, ions, positive ion,
+    negative ion, negatively charged, positively charged, metal hydroxide,
+    insoluble, soluble, acid, acids, alkali, litmus, indicator, indicator
+      colours]
+  result: 'NO UNHANDLED canonical conflict — 53 terms match the pre-batch-8
+    store, all owned by existing nodes or matched only at sub-string level,
+    with an explicit disposition below; Section 2 mints its own families at the
+    ratified granularity and re-mints NO existing identity. The S2-h TEST
+    vocabulary has NO existing owner anywhere in the store (the 108 unmatched
+    terms include gas tests, squeaky pop, burning/lighted/glowing splint,
+    relight, limewater, cloudy/milky, bleaches, damp red/blue litmus, fume
+    cupboard, flame test, wire loop, nichrome, platinum, bunsen, blue flame,
+    lithium/sodium/potassium/calcium as flame colours, lilac/orange-red/
+    blue-green, sodium hydroxide, precipitate colours, ammonium ion, gas
+    evolved, halide ions, silver nitrate, acidify, nitric acid, silver halide,
+    bromide/iodide, precipitate colour classes, barium chloride/sulfate/
+    nitrate, hydrochloric acid, effervescence, anhydrous copper(ii) sulfate,
+    white to blue, boiling point, impurities, thermometer, physical test,
+    chemical test) — the batch mints these families fresh; the only surfaces
+    with existing owners are dispositioned below (the gas names, the
+    anion/cation classification words, the halide/Group-7 family surfaces, the
+    anhydrous-CuSO4 reversible-reaction surface, the pure-substance fixed
+    mp/bp surface, and the generic ion/acid/solution/equation vocabulary).'
+
+match_dispositions:
+  # --- the gas names (2.44): distinct-demand test mints ----------------------
+  - term: hydrogen
+    owner: 4CH1-CON-ACID-ALKALI-IONS / 4CH1-CON-AQUEOUS-DISCHARGE / 4CH1-CON-COMBUSTION-O2 / 4CH1-CON-G7-PREDICTION
+    owner_record: batch 7 / batch 3 / batch 5 / batch 5
+    disposition: distinct-demand mint (the 2.44 hydrogen POP TEST is unowned)
+    rationale: 'the store owns hydrogen as the H+ ion source (batch 7), the
+      cathode product (batch 3), the combustion element (batch 5) and a Group-7
+      prediction surface (batch 5) — none owns the TEST (burning splint ->
+      squeaky pop). The 2.44 gas-test family node mints fresh; no edge into
+      those owners (the pop-test combustion explanation is held, B8-H-08).'
+  - term: oxygen
+    owner: 4CH1-CON-COMBUSTION-O2 / 4CH1-CON-O2-PERCENT-DETERMINATION / 4CH1-CON-OX-RED-AGENTS / 4CH1-CON-RUSTING
+    owner_record: batch 5 / batch 5 / batch 6 / batch 6
+    disposition: distinct-demand mint (the 2.44 glowing-splint RELIGHT TEST is unowned)
+    rationale: same as "hydrogen" (the relight test is unowned; the owners
+      cover combustion/air-percentage/redox/rusting faces).
+  - term: carbon dioxide
+    owner: 4CH1-CON-CO2-FROM-CARBONATES / 4CH1-CON-CO2-GREENHOUSE
+    owner_record: batch 6 / batch 5
+    disposition: distinct-demand mint (the 2.44 LIMEWATER TEST is unowned; the
+      session-59 future note lands here)
+    rationale: 'the batch-6 owner covers thermal decomposition, the batch-5
+      owner the greenhouse link; the limewater cloudiness TEST is unowned —
+      batch 8 mints it inside the gas-test family (the batch-7 ruling''s
+      first future_boundary_note: "limewater/CO2-test -> batch 8").'
+  - term: ammonia
+    owner: 4CH1-CON-BASES-ALKALIS
+    owner_record: batch 7
+    disposition: distinct-demand mint (the 2.44 damp-red-litmus GAS TEST is
+      unowned; the base-surface adjacency is held, B8-H-05)
+    rationale: 'the batch-7 owner covers ammonia AS A BASE (the 2.38 demand);
+      the 2.44 gas test and the 2.47 NH4+ identification are distinct taught
+      substance. No edge (the NH4+ test mechanism surface is held for the
+      operator verdict).'
+  - term: chlorine
+    owner: 4CH1-CON-G7-DISPLACEMENT
+    owner_record: batch 5
+    disposition: distinct-demand mint (the 2.44 bleach-damp-blue-litmus GAS
+      TEST is unowned)
+    rationale: 'the batch-5 owner covers displacement evidence; the 2.44
+      litmus-bleaching test is unowned — mints fresh; no edge (the
+      bleaching-toxicity properties are the test''s own substance).'
+  # --- the anion/cation classification words ---------------------------------
+  - term: cation
+    owner: 4CH1-CON-ANODE-CATHODE / 4CH1-CON-ION
+    owner_record: batch 3 / batch 3
+    disposition: inline re-teach (no edge)
+    rationale: 'the classification words are owned as the electrolysis-migration
+      vocabulary (the batch-3 ANODE-CATHODE aliases "anions", "cations") and
+      the generic ion node; the 2.47 note APPLIES the words without re-teaching
+      migration — the tests are the demand. No edge (a classification-word edge
+      would double-count a naming surface, the B7-H-03 class).'
+  - term: cations
+    owner: 4CH1-CON-ANODE-CATHODE
+    owner_record: batch 3
+    disposition: inline re-teach (no edge; one mint covers both term forms —
+      the session-57 convention)
+    rationale: same as "cation".
+  - term: metal ion
+    owner: 4CH1-CON-METALLIC-BOND
+    owner_record: batch 3
+    disposition: sub-string noise (no owner surface)
+    rationale: 'the metallic-bond lattice context ("positive metal ions and
+      delocalised electrons") is unrelated to the 2.45/2.47 identification
+      demands; no conflict, no edge.'
+  - term: metal ions
+    owner: 4CH1-CON-METALLIC-BOND
+    owner_record: batch 3
+    disposition: sub-string noise (no owner surface)
+    rationale: same as "metal ion".
+  - term: copper
+    owner: 4CH1-CON-METAL-USES / 4CH1-CON-REVERSIBLE-EXAMPLES / 4CH1-CON-CO2-FROM-CARBONATES / 4CH1-MIS-CUO-COLOUR
+    owner_record: batch 6 / batch 4 / batch 6 / batch 4
+    disposition: sub-string noise (no owner surface)
+    rationale: 'the bare element name hits uses/decomposition/misconception
+      surfaces; the 2.45/2.47/2.49 TESTS for copper COMPOUNDS are distinct
+      demands minted fresh.'
+  - term: precipitate
+    owner: 4CH1-MIS-PRECIPITATE-IN-FILTRATE (+edge endpoints)
+    owner_record: batch 7
+    disposition: distinct-demand mint (the 2.47/2.48 precipitate-RESULT tests
+      are unowned)
+    rationale: 'the batch-7 node owns the precipitation-prep ERROR pattern;
+      the 2.47 NaOH precipitate colours and the 2.48 silver-halide/barium
+      sulfate precipitate RESULTS are distinct taught substance; the
+      solubility-rules adjacency is held (B8-H-02).'
+  - term: anion
+    owner: 4CH1-CON-ANODE-CATHODE / 4CH1-CON-ION
+    owner_record: batch 3 / batch 3
+    disposition: inline re-teach (no edge)
+    rationale: 'the 2.48 note DEFINES the word inline ("Negatively charged
+      non-metal ions are known as anions") — a one-line re-teach of the
+      classification, not a dependency on the migration owner; the TESTS are
+      the demand (no edge, the B7-H-03 double-count discipline).'
+  - term: anions
+    owner: 4CH1-CON-ANODE-CATHODE
+    owner_record: batch 3
+    disposition: inline re-teach (no edge; one mint covers both term forms)
+    rationale: same as "anion".
+  # --- halide / Group 7 surfaces ---------------------------------------------
+  - term: halide
+    owner: 4CH1-CON-AQUEOUS-DISCHARGE / 4CH1-CON-G7-PREDICTION / 4CH1-CON-G7-REACTIVITY-ECONFIG / 4CH1-MIS-HALOGEN-HALIDE
+    owner_record: batch 3 / batch 5 / batch 5 / batch 5
+    disposition: distinct-demand mint (the 2.48 silver-nitrate HALIDE TEST is
+      unowned; the Group-7 adjacency is held, B8-H-06)
+    rationale: 'the owners cover electrolysis preference, reactivity-trend
+      prediction/explanation and the displacement misconception; the
+      acidified-silver-nitrate test is unowned — mints fresh; the anions
+      note''s halide-origin sentence is an inline re-teach (no edge).'
+  - term: halides
+    owner: 4CH1-CON-G7-PREDICTION
+    owner_record: batch 5
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "halide".
+  - term: halide ion
+    owner: 4CH1-CON-G7-REACTIVITY-ECONFIG / 4CH1-MIS-HALOGEN-HALIDE
+    owner_record: batch 5 / batch 5
+    disposition: distinct-demand mint (the test family node owns the TEST;
+      the ion WORDS ride the sanctioned ion-charge boundary edge)
+    rationale: 'the anion tests presuppose the ion-charge vocabulary (which
+      ion carries which charge/symbol — the 2.48 bullets name Cl-, Br-, I-,
+      SO4 2-, CO3 2-) — covered by the ONE sanctioned boundary edge into the
+      batch-3 ion-charge owner, NOT by any Group-7 edge (the G7 reactivity
+      owner teaches trends, not ion identity).'
+  - term: carbonate
+    owner: 4CH1-CON-ACID-REACTIONS / 4CH1-CON-CO2-FROM-CARBONATES
+    owner_record: batch 7 / batch 6
+    disposition: distinct-demand mint (the 2.48 carbonate TEST is unowned; the
+      acid+carbonate mechanism surface is held, B8-H-04)
+    rationale: 'the acid-carbonate REACTION family (batch 7) and the thermal
+      decomposition (batch 6) are owned; the dilute-acid-+-limewater TEST is
+      unowned — mints fresh inside the anion-test family.'
+  - term: carbonates
+    owner: 4CH1-CON-ACID-REACTIONS / 4CH1-CON-CO2-FROM-CARBONATES
+    owner_record: batch 7 / batch 6
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "carbonate".
+  - term: chloride
+    owner: 4CH1-CON-ACID-REACTIONS / 4CH1-CON-REVERSIBLE-EXAMPLES
+    owner_record: batch 7 / batch 4
+    disposition: distinct-demand mint (the 2.48 chloride TEST is unowned)
+    rationale: 'the batch-7 owner covers the chloride SALT FAMILY (acid
+      identities); the batch-4 owner the ammonium-chloride reversible example;
+      the AgNO3 white-precipitate test is unowned — mints fresh.'
+  - term: sulfate
+    owner: 4CH1-CON-ACID-REACTIONS / 4CH1-CON-REVERSIBLE-EXAMPLES
+    owner_record: batch 7 / batch 4
+    disposition: distinct-demand mint (the 2.48 sulfate TEST is unowned)
+    rationale: 'the batch-7 owner covers the sulfate SALT FAMILY; the CuSO4
+      surfaces ride the reversible/hydration owners; the acidified-BaCl2
+      white-precipitate test is unowned — mints fresh.'
+  - term: group 7
+    owner: 4CH1-CON-G7-DISPLACEMENT / 4CH1-CON-G7-PREDICTION / 4CH1-CON-G7-PROPERTIES / 4CH1-CON-G7-REACTIVITY-ECONFIG
+    owner_record: batch 5
+    disposition: inline re-teach (no edge)
+    rationale: 'the 2.48 note''s one sentence ("Halide ions are the negative
+      ions / anions formed by the elements in Group 7") re-anchors the family
+      origin without teaching any Group-7 demand; the halide TESTS are the
+      demand. No edge (an inline re-teach is not a prerequisite — the
+      session-59 disposition class); the G7 adjacency is additionally held
+      (B8-H-06) for the operator verdict.'
+  # --- state symbols / equations (generic scaffolding) ------------------------
+  - term: state symbol
+    owner: 4CH1-CON-EQ-STATE-SYM
+    owner_record: pilot
+    disposition: inline re-teach (no edge)
+    rationale: 'the 2.48 note''s "The precipitate is indicated by the state
+      symbol (s)" applies the pilot-owned notation as given; no state-symbol
+      demand exists in the slice; no edge.'
+  - term: state symbols
+    owner: 4CH1-CON-EQ-STATE-SYM
+    owner_record: pilot
+    disposition: inline re-teach (no edge)
+    rationale: same as "state symbol".
+  # --- the anhydrous-CuSO4 surface (the session-59 future note lands) ---------
+  - term: anhydrous
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES
+    owner_record: batch 4
+    disposition: distinct-demand mint (the 2.49 TEST is unowned; the
+      reversible-reaction adjacency is held, B8-H-03)
+    rationale: 'the batch-4 owner teaches the DEHYDRATION/HYDRATION EQUILIBRIUM
+      (3.x); the 2.49 demand is the white->blue WATER TEST — a distinct
+      assessment face of the same chemistry. No edge (held RELATED_TO for the
+      operator verdict); the batch-7 ruling''s fourth future_boundary_note
+      lands here ("anhydrous-CuSO4 -> S3 reversible + batch 8").'
+  - term: anhydrous copper(ii) sulfate
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES (alias surface)
+    owner_record: batch 4
+    disposition: distinct-demand mint (same class)
+    rationale: same as "anhydrous" — the alias names the chemistry; the 2.49
+      test node owns the TEST demand.
+  - term: copper(ii) sulfate
+    owner: 4CH1-CON-REVERSIBLE-EXAMPLES
+    owner_record: batch 4
+    disposition: distinct-demand mint (same class)
+    rationale: same as "anhydrous copper(ii) sulfate".
+  - term: hydrated
+    owner: 4CH1-CON-EMP-MOL-CALC / 4CH1-CON-REVERSIBLE-EXAMPLES / 4CH1-CON-WATER-CRYST
+    owner_record: batch 3 / batch 4 / pilot
+    disposition: distinct-demand mint (the 2.49 equation names CuSO4.5H2O
+      as-given; no hydration-chemistry edge)
+    rationale: 'the 2.49 note writes the product formula but never teaches
+      water of crystallisation or the hydration arithmetic (the B7-H-03
+      naming-applied rule); the owners are untouched.'
+  - term: water of crystallisation
+    owner: 4CH1-CON-WATER-CRYST
+    owner_record: pilot
+    disposition: distinct-demand mint (no edge — the naming-applied rule)
+    rationale: same as "hydrated" — the pilot owner is untouched; the 2.49
+      demand is the test, not the crystallisation concept.
+  # --- the purity / boiling-point surface (2.50): the load-bearing owner ------
+  - term: boiling point
+    owner: 4CH1-CON-PURE-SUBSTANCE (the load-bearing surface) / 4CH1-CON-GIANT-COVALENT / 4CH1-CON-IONIC-LATTICE / 4CH1-CON-SIMPLE-MOLECULAR
+    owner_record: batch 1 / batch 3 / batch 3 / batch 3
+    disposition: sanctioned boundary edge (exactly ONE — into the pure-substance
+      owner); the batch-3 mp/bp-structure surfaces are sub-string noise
+    rationale: 'the 2.50 note TEACHES the impurity effect inline ("Any
+      impurities present will usually tend to raise the boiling point and
+      depress the melting point of pure substance") and the 2.50 demand
+      (a physical purity TEST) works BECAUSE pure substances have fixed
+      boiling points — the batch-1 owner''s exact surface ("Pure substance
+      (chemical sense) and fixed melting/boiling points"). The dependency is
+      load-bearing, not naming (the session-59 USED_WITHOUT_RETEACHING class
+      applied at the purity boundary); the batch-3 structure-property nodes
+      are unrelated mp/bp surfaces.'
+  - term: pure
+    owner: 4CH1-CON-PURE-SUBSTANCE / 4CH1-CON-ALLOY-HARDNESS / 4CH1-CON-SALT-INSOLUBLE-REACTANT / 4CH1-CON-SALT-PRECIPITATION / 4CH1-CON-SALT-TITRATION-ROUTE
+    owner_record: batch 1 / batch 6 / batch 7 / batch 7 / batch 7
+    disposition: sanctioned boundary edge (the same ONE target; the "pure, dry"
+      salt-prep titles are the batch-7 demand wording, no new conflict)
+    rationale: same as "boiling point" — the 2.50 purity-test dependency rides
+      the single sanctioned edge into the batch-1 owner.
+  - term: purity
+    owner: 4CH1-CON-PURE-SUBSTANCE (alias "purity")
+    owner_record: batch 1
+    disposition: sanctioned boundary edge (the same ONE target)
+    rationale: same as "boiling point".
+  - term: '100'
+    owner: 4CH1-CON-SOLUBILITY / 4CH1-CON-YIELD-FACTORS / 4CH1-MIS-CONC-UNIT
+    owner_record: batch 1 / batch 4 / batch 4
+    disposition: sub-string noise (no owner surface)
+    rationale: 'the bare number hits "g per 100 g" / percentage / cm3-dm3
+      surfaces; the 2.50 "exactly 100 C" demand is owned by the fresh
+      water-purity node; no conflict.'
+  - term: condensation
+    owner: 4CH1-CON-STATE-CHANGES
+    owner_record: batch 1
+    disposition: sub-string noise (no owner surface)
+    rationale: 'no condensation demand exists anywhere in the S2-h notes; the
+      term was listed defensively; no conflict, no edge.'
+  # --- generic equation / solution vocabulary ----------------------------------
+  - term: equation
+    owner: 4CH1-CON-EQ-SYMBOL / 4CH1-CON-EQ-WORD / 4CH1-CON-ELECTRODE-HALF-EQUATIONS / 4CH1-CON-MOLAR-RATIO / 4CH1-CON-REACTING-MASS / 4CH1-MIS-EQ-SUBSCRIPT
+    owner_record: pilot and batch 1-4 spread
+    disposition: inline re-teach (no edge)
+    rationale: 'the S2-h notes carry word/ionic/symbol equations as CONTENT
+      (the anion and water tests); the equation-notation owners (pilot/batch
+      1-3) are the teaching surface and no test note teaches equation writing;
+      no edge.'
+  - term: equations
+    owner: same set as "equation"
+    owner_record: pilot and batch 1-4 spread
+    disposition: inline re-teach (no edge)
+    rationale: same as "equation".
+  - term: aqueous
+    owner: 4CH1-CON-ACID-ALKALI-IONS / 4CH1-CON-AQUEOUS-DISCHARGE / 4CH1-CON-IONIC-CONDUCTION
+    owner_record: batch 7 / batch 3 / batch 3
+    disposition: sub-string noise (no owner surface)
+    rationale: 'generic state vocabulary in the test notes ("aqueous solution
+      of limewater", "(aq)"); no aqueous-state demand in the slice; no edge.'
+  - term: solution
+    owner: 4CH1-CON-SOLUTION / 4CH1-CON-CONCENTRATION / 4CH1-CON-SATURATED-SOLUTION (and the other matched surfaces)
+    owner_record: pilot and batch 1-4 spread
+    disposition: sub-string noise (no owner surface)
+    rationale: 'the test notes mention solutions as the sample medium; the
+      solution-chemistry owners (dissolving, concentration, saturation) are
+      not demanded by any 2.44-2.50 statement; no edge.'
+  - term: displacement
+    owner: 4CH1-CON-G7-DISPLACEMENT / 4CH1-CON-METAL-DISPLACEMENT / 4CH1-MIS-HALOGEN-HALIDE / 4CH1-MIS-ION-OXIDE-REASONING
+    owner_record: batch 5 / batch 6 / batch 5 / batch 6
+    disposition: sub-string noise (no owner surface)
+    rationale: 'no displacement demand exists in the S2-h notes; the term was
+      listed defensively (the halide family adjacency); no conflict, no edge.'
+  - term: reactivity series
+    owner: 4CH1-CON-EXTRACTION-METHOD / 4CH1-CON-REACT-ARRANGE
+    owner_record: batch 6
+    disposition: sub-string noise (no owner surface)
+    rationale: 'no reactivity-series demand exists in the S2-h notes (the pop
+      test''s combustion explanation is not a series surface); no conflict.'
+  - term: filtration
+    owner: 4CH1-CON-FILTRATION
+    owner_record: batch 1
+    disposition: sub-string noise (no owner surface)
+    rationale: 'no separation-technique demand exists in the S2-h notes; the
+      term was listed defensively; no conflict, no edge.'
+  - term: precipitation
+    owner: 4CH1-CON-SALT-PRECIPITATION / 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    owner_record: batch 7
+    disposition: distinct-demand mint (the 2.48 tests PRODUCE precipitates;
+      the salt-PREPARATION route stays batch-7 owned)
+    rationale: 'the batch-7 owner teaches the insoluble-salt PREPARATION
+      method; the 2.48 tests USE precipitate formation as the positive
+      result — distinct taught substance; the solubility-rules adjacency is
+      held (B8-H-02).'
+  - term: ionic
+    owner: 4CH1-CON-IONIC-BOND / 4CH1-CON-IONIC-FORMULA / 4CH1-CON-IONIC-LATTICE / 4CH1-CON-IONIC-CONDUCTION / 4CH1-CON-SOLUBILITY-RULES (and the other matched surfaces)
+    owner_record: batch 3 / batch 7
+    disposition: sub-string noise (no owner surface)
+    rationale: '"ionic equation" in the 2.47 note is content, not a bonding/
+      formula demand; no edge.'
+  - term: ion
+    owner: the store-wide generic vocabulary (120+ surfaces)
+    owner_record: pilot..batch 7 spread
+    disposition: sub-string noise at this granularity (the load-bearing ion
+      surface is covered by the sanctioned ion-charge edge)
+    rationale: 'the bare stem matches half the store; the REAL dependency (the
+      named-ion/charge vocabulary of the 2.47/2.48 bullets) rides the ONE
+      sanctioned boundary edge per test family into the batch-3
+      CON-ION-CHARGE-RULES owner.'
+  - term: ions
+    owner: the store-wide generic vocabulary
+    owner_record: pilot..batch 7 spread
+    disposition: sub-string noise at this granularity (same class)
+    rationale: same as "ion".
+  - term: positive ion
+    owner: 4CH1-CON-ANODE-CATHODE
+    owner_record: batch 3
+    disposition: naming-applied (held candidate surface, no edge)
+    rationale: 'the 2.45 note''s "identify the positive metal ion (cations)"
+      applies the classification phrase as given; the flame test is the
+      demand; no edge (the B7-H-03 double-count discipline).'
+  - term: insoluble
+    owner: 4CH1-CON-SALT-INSOLUBLE-REACTANT / 4CH1-CON-SALT-PRECIPITATION / 4CH1-CON-SOLUBILITY-RULES / 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    owner_record: batch 7
+    disposition: distinct-demand mint (the precipitate-insolubility adjacency
+      is held, B8-H-02 — no edge)
+    rationale: 'the 2.48 tests work because the silver halides / BaSO4 are
+      insoluble, but the notes never reference the solubility RULES; the
+      batch-7 owner is untouched; held for the operator verdict.'
+  - term: soluble
+    owner: 4CH1-CON-BASES-ALKALIS / 4CH1-CON-SALT-INSOLUBLE-REACTANT / 4CH1-CON-SALT-PRECIPITATION / 4CH1-CON-SALT-TITRATION-ROUTE / 4CH1-CON-SOLUBILITY-RULES / 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    owner_record: batch 7
+    disposition: distinct-demand mint (same class)
+    rationale: same as "insoluble".
+  - term: acid
+    owner: 4CH1-CON-ACID-REACTIONS / 4CH1-CON-ACID-ALKALI-IONS / 4CH1-CON-NEUTRALISATION / 4CH1-CON-PH-SCALE / 4CH1-CON-PROTON-TRANSFER / 4CH1-CON-REACT-ARRANGE / 4CH1-CON-SALT-INSOLUBLE-REACTANT / 4CH1-CON-SALT-TITRATION-ROUTE / 4CH1-CON-TITRATION / 4CH1-CON-INDICATORS
+    owner_record: batch 7
+    disposition: distinct-demand mint (the 2.48 carbonate test uses dilute
+      acid; the acid-reaction mechanism surface is held, B8-H-04 — no edge)
+    rationale: 'the batch-7 owner teaches the acid REACTION families; the 2.48
+      carbonate test APPLIES acid + carbonate -> CO2 without re-teaching it;
+      the mechanism edge is held for the operator verdict (the
+      mechanism-applied-as-given class).'
+  - term: acids
+    owner: same set as "acid"
+    owner_record: batch 7
+    disposition: distinct-demand mint (one mint covers both term forms)
+    rationale: same as "acid".
+  - term: alkali
+    owner: 4CH1-CON-ACID-ALKALI-IONS / 4CH1-CON-BASES-ALKALIS / 4CH1-CON-INDICATORS / 4CH1-CON-NEUTRALISATION / 4CH1-CON-PH-SCALE / 4CH1-CON-SALT-TITRATION-ROUTE / 4CH1-CON-TITRATION (and the G1 family-name surfaces)
+    owner_record: batch 7 / batch 5
+    disposition: sub-string noise (no owner surface)
+    rationale: 'the 2.47 NaOH reagent is an alkali but no alkali-theory demand
+      exists in the slice; the G1 "alkali metals" hits are family-name
+      collisions; no edge.'
+  - term: litmus
+    owner: 4CH1-CON-INDICATORS
+    owner_record: batch 7
+    disposition: naming-applied (held candidate B8-H-01 — no edge)
+    rationale: 'the 2.44 ammonia/chlorine tests USE litmus paper as the test
+      medium; the batch-7 owner teaches the two-colour indicator table; the
+      note never teaches indicators; the edge would double-count a naming
+      surface (the B7-H-03 rule); held for the operator verdict.'
+  - term: indicator
+    owner: 4CH1-CON-INDICATORS / 4CH1-CON-UNIVERSAL-INDICATOR
+    owner_record: batch 7
+    disposition: naming-applied (held candidate B8-H-01 — no edge)
+    rationale: same as "litmus".
+  - term: indicator colours
+    owner: 4CH1-CON-INDICATORS (alias surface)
+    owner_record: batch 7
+    disposition: naming-applied (held candidate B8-H-01 — no edge)
+    rationale: same as "litmus".
+
+mint_ruling: 'batch 8 mints its own S2-h test families at the ratified granularity
+  (SP-family nodes: 2.44 the five named gas tests as ONE family node / 2.45+2.46
+  the flame-test family as ONE node (procedure + cation colours — the B7-ID-01
+  one-family precedent; the note teaches the colours INSIDE the technique as one
+  identification method) / 2.47 the cation tests (NaOH precipitate colours +
+  the NH4+ ammonia-gas route) as ONE family node / 2.48 the anion tests
+  (halides, sulfate, carbonate) as ONE family node / 2.49 the anhydrous
+  copper(II) sulfate water test / 2.50 the boiling-point purity test — the
+  chemical and physical water tests stay TWO nodes (distinct mechanisms, the
+  note''s own two-section split)) and re-mints NO existing identity (the
+  non_mint_list is extended below). No S2-h statement is practical-typed
+  (the store''s practical:false flags), so NO practical owns any batch-8 SP
+  and no PR->concept edges are authored (the PR-07/PR-08 lane was batch 7).' 
+
+boundary_edge_ruling:
+  rule: 'the FN-B1-2/FN-B2-2 cross-batch discipline at the S2-h boundary:
+    boundary EDGES are sanctioned ONLY into the exact-owner nodes below, ONLY
+    for the stated dependency surfaces; boundary MINTING is forbidden; if any
+    batch-8 term ever matches an existing node outside this sanctioned set,
+    the boundary edge is MANDATORY and the mint FORBIDDEN (fail-closed at
+    preverify/G03/c11.4). All THREE sanctioned targets are EXISTING-OWNER
+    nodes (batch 3''s CON-ION-CHARGE-RULES x2 and batch 1''s
+    CON-PURE-SUBSTANCE) — batch 8 closes NO deferrals (batch 6 closed the
+    last two: B5-H-10 and the iron-route note) and creates none: the batch-8
+    audit surfaces either resolve in-batch, ride the three sanctioned edges,
+    or are held/future-noted (B8-H-01..09, the future_boundary_notes).'
+  sanctioned_targets:
+    - for_sps:
+        - 4CH1-2.48
+      owner: batch 3
+      surface: 'the 2.48 anion tests are organised by ION identity — the spec
+        bullets name the anions with their charges (Cl-, Br-, I- via acidified
+        silver nitrate; SO4 2- via acidified barium chloride; CO3 2- via
+        hydrochloric acid + the gas evolved) and the note''s equations
+        (CO3 2- + 2H+ -> CO2 + H2O; Ba 2+ + SO4 2- -> BaSO4) presuppose the
+        named-ion/charge vocabulary applied as given, never re-taught by the
+        2.48 note; the target is the "common ions / ion charges" owner (the
+        named-ion table with the deduction rule — batch 3; the B7-E-10 class)'
+      target: 4CH1-CON-ION-CHARGE-RULES
+    - for_sps:
+        - 4CH1-2.47
+      owner: batch 3
+      surface: 'the 2.47 cation tests are likewise organised by ION identity —
+        the spec bullets name NH4+, Cu2+, Fe2+ and Fe3+ (the NaOH precipitate
+        table equations Cu2+ + 2OH- -> Cu(OH)2 etc. and the NH4+ + OH- ->
+        NH3 + H2O ionic equation) — the same named-ion/charge vocabulary
+        applied as given (the second edge into the batch-3 owner; the batch-5
+        x2-into-one-owner precedent)'
+      target: 4CH1-CON-ION-CHARGE-RULES
+    - for_sps:
+        - 4CH1-2.50
+      owner: batch 1
+      surface: 'the 2.50 physical purity test works BECAUSE pure substances
+        have fixed boiling points — the note teaches the impurity effect
+        inline ("Any impurities present will usually tend to raise the
+        boiling point and depress the melting point of pure substance"),
+        which IS the batch-1 owner''s surface ("Pure substance (chemical
+        sense) and fixed melting/boiling points"; aliases "pure", "purity")
+        applied as the test''s principle — the USED_WITHOUT_RETEACHING class'
+      target: 4CH1-CON-PURE-SUBSTANCE
+  max_boundary_edges: 3
+  non_mint_list:
+    - 4CH1-CON-ION
+    - 4CH1-CON-ION-CHARGE-RULES
+    - 4CH1-CON-ANODE-CATHODE
+    - 4CH1-CON-IONIC-BOND
+    - 4CH1-CON-IONIC-FORMULA
+    - 4CH1-CON-IONIC-LATTICE
+    - 4CH1-CON-IONIC-CONDUCTION
+    - 4CH1-CON-PURE-SUBSTANCE
+    - 4CH1-CON-STATE-CHANGES
+    - 4CH1-CON-SOLUTION
+    - 4CH1-CON-CONCENTRATION
+    - 4CH1-CON-SATURATED-SOLUTION
+    - 4CH1-CON-FILTRATION
+    - 4CH1-CON-EQ-STATE-SYM
+    - 4CH1-CON-EQ-SYMBOL
+    - 4CH1-CON-EQ-WORD
+    - 4CH1-CON-ELECTRODE-HALF-EQUATIONS
+    - 4CH1-CON-MOLAR-RATIO
+    - 4CH1-CON-REACTING-MASS
+    - 4CH1-MIS-EQ-SUBSCRIPT
+    - 4CH1-CON-REVERSIBLE
+    - 4CH1-CON-REVERSIBLE-EXAMPLES
+    - 4CH1-CON-WATER-CRYST
+    - 4CH1-CON-EMP-MOL-CALC
+    - 4CH1-CON-SOLUBILITY
+    - 4CH1-CON-SOLUBILITY-RULES
+    - 4CH1-CON-SALT-INSOLUBLE-REACTANT
+    - 4CH1-CON-SALT-PRECIPITATION
+    - 4CH1-CON-SALT-TITRATION-ROUTE
+    - 4CH1-MIS-PRECIPITATE-IN-FILTRATE
+    - 4CH1-CON-ACID-REACTIONS
+    - 4CH1-CON-ACID-ALKALI-IONS
+    - 4CH1-CON-BASES-ALKALIS
+    - 4CH1-CON-NEUTRALISATION
+    - 4CH1-CON-PH-SCALE
+    - 4CH1-CON-PROTON-TRANSFER
+    - 4CH1-CON-TITRATION
+    - 4CH1-CON-INDICATORS
+    - 4CH1-CON-UNIVERSAL-INDICATOR
+    - 4CH1-CON-G7-DISPLACEMENT
+    - 4CH1-CON-G7-PREDICTION
+    - 4CH1-CON-G7-PROPERTIES
+    - 4CH1-CON-G7-REACTIVITY-ECONFIG
+    - 4CH1-MIS-HALOGEN-HALIDE
+    - 4CH1-CON-GIANT-COVALENT
+    - 4CH1-CON-SIMPLE-MOLECULAR
+    - 4CH1-CON-METALLIC-BOND
+    - 4CH1-CON-ALLOY-HARDNESS
+    - 4CH1-CON-CO2-FROM-CARBONATES
+    - 4CH1-CON-CO2-GREENHOUSE
+    - 4CH1-CON-COMBUSTION-O2
+    - 4CH1-CON-O2-PERCENT-DETERMINATION
+    - 4CH1-CON-OX-RED-AGENTS
+    - 4CH1-CON-RUSTING
+    - 4CH1-CON-AQUEOUS-DISCHARGE
+    - 4CH1-CON-METAL-USES
+    - 4CH1-MIS-CUO-COLOUR
+    - 4CH1-CON-EXTRACTION-METHOD
+    - 4CH1-CON-REACT-ARRANGE
+    - 4CH1-MIS-CONC-UNIT
+    - 4CH1-CON-YIELD-FACTORS
+    - 4CH1-MIS-ION-OXIDE-REASONING
+    - 4CH1-CON-METAL-DISPLACEMENT
+    - 4CH1-CON-RATE-EXPERIMENTS
+    - 4CH1-MIS-ENDPOINT-PH-ABOVE-7
+    - 4CH1-CON-HEATING-CONSTANT-MASS
+    - 4CH1-CON-HEAT-CALC
+    - 4CH1-CON-CALORIMETRY
+
+future_boundary_notes:
+  - 'the pop-test combustion surface (the gas-tests note explains the squeaky
+    pop as "the result of the rapid combustion of hydrogen with oxygen to
+    produce water") touches the batch-5 COMBUSTION-O2 owner — held (B8-H-08),
+    not an edge: the 2.44 demand is the test procedure and result, the
+    combustion chemistry is explanatory enrichment'
+  - 'the BaSO4/AgCl/CaCO3 insolubility surface of the 2.48 positive results
+    touches the batch-7 CON-SOLUBILITY-RULES owner — held (B8-H-02), not an
+    edge: the notes never reference the rules; if a later operator ruling
+    wants the edge it rides the sanctioned existing-owner pathway (no mint)'
+  - 'the ammonia-as-base mechanism surface of the 2.47 NH4+ test (NH4+ + OH-
+    -> NH3 + H2O) touches the batch-7 CON-BASES-ALKALIS owner — held
+    (B8-H-05), not an edge: the test demand is the reagent + warm +
+    identify-the-gas sequence, not base theory'
+  - 'the anhydrous-CuSO4 white/blue chemistry shared by the 2.49 test and the
+    batch-4 CON-REVERSIBLE-EXAMPLES owner stays TWO assessment faces — held
+    RELATED_TO (B8-H-03), not an edge; the batch-7 ruling''s fourth future
+    note is hereby closed (no further batch-8 landing exists)'
+  - 'the chlorine bleaching/toxicity properties (fume cupboard) are the 2.44
+    test''s own substance; if a later batch teaches chlorine safety as a
+    demand it mints fresh — no batch-8 landing'
+
+non_goals:
+  - no ontology redesign (the session-52 scope discipline verbatim)
+  - no re-opening of any settled identity (all 157 pre-batch-8 nodes stay
+    exactly as they are; the non_mint_list is enforced at preverify/G03/c11.4)
+  - no re-scoping of the batch (2.44-2.50 only; the batch-7 slice 2.28-2.43C
+    is settled and closed — do not reopen)
+  - no promotion authority (the ruling mints nothing, promotes nothing; the
+    batch ends at its operator gate)
+  - no direct writes to graph/*.yaml (the deterministic generation contract;
+    every change rides the sanctioned generators)

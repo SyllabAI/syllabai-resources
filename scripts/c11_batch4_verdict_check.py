@@ -291,13 +291,25 @@ B7_DEC = HERE / "c11_batch7_decisions.yaml"
 B7_AUTHORED = {triple(e)
                for e in (yaml.safe_load(B7_DEC.read_text(encoding="utf-8"))
                          .get("edges") or [])}
+# session-61 re-anchor (2026-09-24, dated; protective intent unchanged): the
+# batch-8 authored-to-gate record (10 authored semantic edges) now joins the
+# live SUGGESTED surface AT ITS OPERATOR GATE (the session-61 commissioning;
+# the batch ends at the gate, zero promotions) — the surface is the 3 frozen
+# pilot HOLDs PLUS the 10 batch-8 authored edges; the property protected is
+# unchanged (no UNAUTHORIZED edge is SUGGESTED; the batch-4/5/6/7 authored
+# sets stay fully HUMAN_VALIDATED).
+B8_DEC = HERE / "c11_batch8_decisions.yaml"
+B8_AUTHORED = {triple(e)
+               for e in (yaml.safe_load(B8_DEC.read_text(encoding="utf-8"))
+                         .get("edges") or [])}
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
-      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
-      "batch-7 authored edges were promoted by the operator's verdicts "
-      "through §18 at session 60; batch-4/5/6 verdicts applied at "
-      "sessions 54/56/58)",
+      "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs plus the "
+      "batch-8 authored-to-gate edges (the batch-7 authored edges were "
+      "promoted by the operator's verdicts through §18 at session 60; "
+      "batch-4/5/6 verdicts applied at sessions 54/56/58; the batch-8 "
+      "authored edges sit at their operator gate, session 61)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds
+      and live_sugg == pilot_holds | B8_AUTHORED
       and B6_AUTHORED <= hv and B7_AUTHORED <= hv
       and not live_b6_sugg and not live_b5_sugg,
       f"live SUGGESTED = {len(live_sugg)}")
@@ -385,11 +397,14 @@ check("D11 no batch-4 node is HUMAN_VALIDATED (nodes have no §18 pathway)",
 # store grew to 142/334/142 by the SANCTIONED batch-6 authored-to-gate record
 # (13 nodes + 12 PART_OF + 16 authored semantic edges, ZERO promotions); the
 # batch-4 slice below is still preserved exactly.
-check("D12 live store shape 157 nodes / 367 edges (156 PART_OF + 211 "
+# session-61 re-anchor (2026-09-24, dated): + the SANCTIONED batch-8
+# authored-to-gate record (8 nodes / 17 edges = 7 PART_OF + 10
+# semantic) — the operator gate decision; no test weakened.
+check("D12 live store shape 165 nodes / 384 edges (163 PART_OF + 221 "
       "semantic)",
-      len(nodes_doc["nodes"]) == 157 and len(edges_doc["edges"]) == 367
+      len(nodes_doc["nodes"]) == 165 and len(edges_doc["edges"]) == 384
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 156)
+              if e["relation"] == "PART_OF") == 163)
 # boundary mint discipline (the session-52 cross-slice ruling)
 b4_codes = {c["code"] for c in dec["nodes"]}
 check("D13 zero ruled S1 owner re-minted in the batch-4 node set "

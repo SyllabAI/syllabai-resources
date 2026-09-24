@@ -1,0 +1,228 @@
+{
+  "task": "T-C11",
+  "stage": "s16-batch-8-review",
+  "batch": 8,
+  "generated": "2026-09-24",
+  "authorization": "scripts/c11_s16_authorization.yaml (§16 authorized 2026-09-12; batch 8 commissioned by the operator's 'Proceed with batch 8' directive, session 61 — Section 2 Inorganic Chemistry FOURTH slice (S2-h Chemical Tests); under the session-61 cross-slice boundary ruling scripts/c11_batch8_boundary_ruling.yaml)",
+  "pass1": {
+    "extraction_pass": "c11-s16-batch-8",
+    "decision_record": "scripts/c11_batch8_decisions.yaml",
+    "nodes": 8,
+    "authored_edges": 10,
+    "held": 9,
+    "command_kinds": 7
+  },
+  "pass2": {
+    "reviewer": "GLM (Super Z agent, z.ai)",
+    "pass": "c11-batch8-review-2",
+    "verdicts_file": "scripts/c11_batch8_review_pass2.yaml",
+    "nodes_confirm": 8,
+    "edges_confirm": 10,
+    "edges_hold": 0,
+    "edges_reject": 0
+  },
+  "agreement": {
+    "metric": "RAW AGREEMENT (pass-2 vs pass-1 emission)",
+    "explicitly_not": "Cohen's kappa (single human rater; see architecture §12)",
+    "nodes": 1.0,
+    "edges_asserted": {
+      "confirmed": 10,
+      "total_asserted": 10,
+      "rate": 1.0
+    },
+    "edges_uncertain_concordant_nonassertion": 0,
+    "edges_open_operator_decision": [],
+    "note": "zero pass-2 findings required re-authoring (FP-B8-1..4 and FN-B8-1..2 are recorded questions/resolutions — the flame-test family-unity ruling rides B8-ID-01): the record carries 8 nodes / 10 authored edges at this gate with zero demotions and zero RR quarantines: the pass-1 authoring sent 9 candidates to held BEFORE emission and resolved every remaining doubt on explicit evidence"
+  },
+  "reviewed_nodes": [
+    {
+      "code": "4CH1-CON-GAS-TESTS",
+      "verdict": "CONFIRM",
+      "note": "all five gas tests evidenced with reagent + positive result; the ammonia-side-caution anchor additionally carries the NH4+ context that the in-slice edge rides; the fume-cupboard/toxicity line is the test's own handling substance (the G7-adjacency held, B8-H-06 covers the family-level question)"
+    },
+    {
+      "code": "4CH1-CON-FLAME-TEST",
+      "verdict": "CONFIRM_WITH_NOTE",
+      "note": "the technique (acid-cleaned unreactive wire, blue flame until no colour change, contamination rationale) + the colour identification are both carried; NOTE: the node attaches TWO SPs (2.45 procedure + 2.46 colours) — a family-unity ruling the operator should confirm or split (B8-ID-01, FP-B8-1); the colours are taught INSIDE the technique in the note's own structure"
+    },
+    {
+      "code": "4CH1-CON-CATION-TESTS",
+      "verdict": "CONFIRM",
+      "note": "both spec bullets evidenced (the NaOH precipitate route with the light-blue examiner tip; the NH4+ warm-and-identify route with the ionic equation); the hydroxide-insolubility sentence is the note's own mechanism line (no solubility-rules edge — B8-H-02 covers the held adjacency)"
+    },
+    {
+      "code": "4CH1-CON-ANION-TESTS",
+      "verdict": "CONFIRM",
+      "note": "all three families evidenced in spec bullet order (halide colours white/cream/yellow; sulfate via acidified BaCl2; carbonate via dilute acid + limewater); the source's own grammar typo in the iodide line is carried byte-honestly (FP-B8-4)"
+    },
+    {
+      "code": "4CH1-CON-WATER-CUSO4-TEST",
+      "verdict": "CONFIRM",
+      "note": "the named test + result + equation all evidenced; the reversible -reaction adjacency is correctly HELD (B8-H-03) not asserted — the test is a distinct assessment face of the batch-4 owner's chemistry"
+    },
+    {
+      "code": "4CH1-CON-WATER-PURITY-TEST",
+      "verdict": "CONFIRM",
+      "note": "the physical test + the impurity effect are evidenced; the impurity-effect anchor IS the load-bearing dependency surface and correctly rides the sanctioned CON-PURE-SUBSTANCE edge rather than a held candidate"
+    },
+    {
+      "code": "4CH1-MIS-GLOWING-SPLINT-HYDROGEN",
+      "verdict": "CONFIRM",
+      "note": "the strongest documented class of the batch: expected answer + method + the EXPLICIT glowing-splint Reject + the unflamed-splint and pop-only Insufficiency notes; the curly-quote anchor is byte-honest with attribution recorded (FP-B8-2)"
+    },
+    {
+      "code": "4CH1-MIS-HALIDE-TEST-HCL",
+      "verdict": "CONFIRM",
+      "note": "clean Reject-column class with the expected acidifier named ((dilute) nitric acid) and the product identity (AgCl); the acidifier-choice defect is well characterized from the pin alone"
+    }
+  ],
+  "reviewed_edges": [
+    {
+      "edge": "4CH1-CON-CATION-TESTS REQUIRES_PREREQUISITE 4CH1-CON-GAS-TESTS",
+      "verdict": "CONFIRM",
+      "note": "the spec bullet's own words (\"identifying the gas evolved\") make the gas test the identification step of the NH4+ route; direction correct (the cation route requires the gas test, not vice versa)"
+    },
+    {
+      "edge": "4CH1-CON-ANION-TESTS REQUIRES_PREREQUISITE 4CH1-CON-GAS-TESTS",
+      "verdict": "CONFIRM",
+      "note": "the carbonate route's identification step IS the limewater test the gas-test family owns; the session-59 limewater future note lands exactly here; direction correct"
+    },
+    {
+      "edge": "4CH1-CON-FLAME-TEST RELATED_TO 4CH1-CON-CATION-TESTS",
+      "verdict": "CONFIRM",
+      "note": "genuinely residual (the two parallel identification techniques); the medium confidence + ambiguity_note record the honest reading; the batch-3 RELATED_RESIDUAL precedent followed"
+    },
+    {
+      "edge": "4CH1-CON-ANION-TESTS REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES",
+      "verdict": "CONFIRM",
+      "note": "sanctioned boundary edge (session-61 ruling target 1); the ion -identity vocabulary is applied as given across the spec bullets and the note's equations; ownership verified batch 3"
+    },
+    {
+      "edge": "4CH1-CON-CATION-TESTS REQUIRES_PREREQUISITE 4CH1-CON-ION-CHARGE-RULES",
+      "verdict": "CONFIRM",
+      "note": "sanctioned boundary edge (session-61 ruling target 2 — the second edge into the batch-3 owner, the batch-5 x2 precedent); ownership verified"
+    },
+    {
+      "edge": "4CH1-CON-WATER-PURITY-TEST REQUIRES_PREREQUISITE 4CH1-CON-PURE-SUBSTANCE",
+      "verdict": "CONFIRM",
+      "note": "sanctioned boundary edge (session-61 ruling target 3); the note's impurity-effect sentence IS the batch-1 owner's surface — load-bearing (the test is meaningless without the fixed-boiling-point principle), not naming; ownership verified batch 1"
+    },
+    {
+      "edge": "4CH1-MIS-GLOWING-SPLINT-HYDROGEN WRONG_ANSWER_PATTERN 4CH1-CON-GAS-TESTS",
+      "verdict": "CONFIRM",
+      "note": "the WAP target is the concept whose test the question probes (the B5/B6/B7 pattern); the 2.44 hydrogen row is that surface"
+    },
+    {
+      "edge": "4CH1-MIS-GLOWING-SPLINT-HYDROGEN REMEDIATED_BY 4CH1-CON-GAS-TESTS",
+      "verdict": "CONFIRM",
+      "note": "remediation target = WAP target (the B1-E-25 pattern); the note's ligHted/glOwing mnemonic + the correct technique are the remediation"
+    },
+    {
+      "edge": "4CH1-MIS-HALIDE-TEST-HCL WRONG_ANSWER_PATTERN 4CH1-CON-ANION-TESTS",
+      "verdict": "CONFIRM",
+      "note": "the WAP target is the halide row of the anion-test family; the rejected acidifier would contaminate exactly that test"
+    },
+    {
+      "edge": "4CH1-MIS-HALIDE-TEST-HCL REMEDIATED_BY 4CH1-CON-ANION-TESTS",
+      "verdict": "CONFIRM",
+      "note": "remediation target = WAP target (the B1-E-25 pattern); the nitric-acid rule is the remediation the note teaches"
+    }
+  ],
+  "held_review": [
+    {
+      "id": "B8-H-01",
+      "verdict": "AGREE_HOLD",
+      "note": "naming-surface reading is right; the batch-7 indicator owner is protected by the non_mint_list"
+    },
+    {
+      "id": "B8-H-02",
+      "verdict": "AGREE_HOLD",
+      "note": "the precipitate RESULTS are the test's own substance; the rules are never referenced"
+    },
+    {
+      "id": "B8-H-03",
+      "verdict": "AGREE_HOLD",
+      "note": "the test-vs-reaction-example split is the honest reading; the batch-4 owner is untouched"
+    },
+    {
+      "id": "B8-H-04",
+      "verdict": "AGREE_HOLD",
+      "note": "mechanism-applied-as-given; an edge would blur the test with its chemistry"
+    },
+    {
+      "id": "B8-H-05",
+      "verdict": "AGREE_HOLD",
+      "note": "the base-theory surface is not the test's substance"
+    },
+    {
+      "id": "B8-H-06",
+      "verdict": "AGREE_HOLD",
+      "note": "one origin sentence is an inline re-teach, not a dependency"
+    },
+    {
+      "id": "B8-H-07",
+      "verdict": "AGREE_HOLD",
+      "note": "the session-53 Step-3 discipline applied honestly — documented but apparatus-choice, not a distinct conceptual class; mint on request"
+    },
+    {
+      "id": "B8-H-08",
+      "verdict": "AGREE_HOLD",
+      "note": "explanatory enrichment; the ruling's first future note records it"
+    },
+    {
+      "id": "B8-H-09",
+      "verdict": "AGREE_HOLD",
+      "note": "the purity criterion is the demand, not the boiling operation"
+    }
+  ],
+  "findings": [
+    {
+      "id": "FP-B8-1",
+      "finding": "identity question — the flame-test node attaches TWO SPs (2.45 procedure + 2.46 colours) where distinct-SP batches often kept one-node-per-SP",
+      "resolution": "the note's own structure teaches the colours INSIDE the technique (\"The colour of the flame is observed and used to identify the metal ion present\" + the colour table inside the technique section) — one identification method; the B7-ID-01 one-family precedent applies (B8-ID-01). The operator rules the split question on the sheet. No re-authoring.",
+      "reauthored": false
+    },
+    {
+      "id": "FP-B8-2",
+      "finding": "byte-honesty — the MS squeaky-pop line carries curly quotes (U+2018/U+2019) in the pdftotext pin",
+      "resolution": "the anchor is quoted byte-exactly and the attribution is recorded in the misconception's derivation_notes (the batch-7 &nbsp;-entity precedent for verbatim oddities in pins). No re-authoring.",
+      "reauthored": false
+    },
+    {
+      "id": "FP-B8-3",
+      "finding": "edge-evidence asymmetry — CON-CATION-TESTS REQUIRES_PREREQUISITE CON-GAS-TESTS's first anchor is the cation note's link-line (weaker alone)",
+      "resolution": "the second anchor (the gas note's ammonia section naming the \"ammonium ions and sodium hydroxide\" production context) is the load-bearing complement and IS carried; the spec bullet's own words (\"identifying the gas evolved\") carry the dependency in the derivation_notes. No re-authoring.",
+      "reauthored": false
+    },
+    {
+      "id": "FP-B8-4",
+      "finding": "source typo carried — the anions note's iodide line reads \"The iodide ions forms a yellow precipitate\" (subject-verb disagreement in the source)",
+      "resolution": "byte-honest anchoring (the record quotes the source as written; the batch-7 \"colours indicators\"/\"wil\" precedents). No re-authoring.",
+      "reauthored": false
+    },
+    {
+      "id": "FN-B8-1",
+      "finding": "normalization convention — the 2.50 thermometer quote renders \"100 <sup>o</sup>C\" as \"100 oC\" under the T-C10 tag-stripping norm",
+      "resolution": "the same convention batch 7 recorded for the H+ sup-tag anchors (FP-B7-5 class); the quote is unique and unambiguous in the normalized form. No re-authoring.",
+      "reauthored": false
+    },
+    {
+      "id": "FN-B8-2",
+      "finding": "no practical owns any batch-8 SP (all seven store rows are practical:false) — the PR->concept edge lane is empty this batch",
+      "resolution": "recorded in the meta.ms_coverage_note; the PR-07/PR-08 lane was batch 7. No re-authoring.",
+      "reauthored": false
+    }
+  ],
+  "operator_gate": {
+    "gate": "per-batch operator review (§16 authorization scope.unlocked; each batch = own operator gate)",
+    "surface": {
+      "suggested_edges": 10,
+      "review_required_edges": 0,
+      "nodes": 8,
+      "held": 9
+    },
+    "pathway": "record verdicts in scripts/c11_batch8_verdicts.yaml (fill the template); a later session encodes + applies them via §18 promotion / §7 re-authoring",
+    "promotion_now": 0,
+    "cross_boundary_edges": 3
+  }
+}

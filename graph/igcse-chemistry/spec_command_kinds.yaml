@@ -8,12 +8,13 @@
 #   scripts/c11_batch5_decisions.yaml (extraction_pass c11-s16-batch-5)
 #   scripts/c11_batch6_decisions.yaml (extraction_pass c11-s16-batch-6)
 #   scripts/c11_batch7_decisions.yaml (extraction_pass c11-s16-batch-7)
+#   scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
-# Generation dates pinned per record; store date 2026-09-23 (deterministic contract; byte-identical re-runs).
+# Generation dates pinned per record; store date 2026-09-24 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -145,6 +146,13 @@ meta:
   - 4CH1-2.41C
   - 4CH1-2.42
   - 4CH1-2.43C
+  - 4CH1-2.44
+  - 4CH1-2.45
+  - 4CH1-2.46
+  - 4CH1-2.47
+  - 4CH1-2.48
+  - 4CH1-2.49
+  - 4CH1-2.50
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -168,6 +176,7 @@ meta:
   - scripts/c11_batch5_decisions.yaml
   - scripts/c11_batch6_decisions.yaml
   - scripts/c11_batch7_decisions.yaml
+  - scripts/c11_batch8_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -177,9 +186,10 @@ meta:
   - c11-s16-batch-5
   - c11-s16-batch-6
   - c11-s16-batch-7
+  - c11-s16-batch-8
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
-  generated: '2026-09-23'
+  generated: '2026-09-24'
   provenance_default: AI_SUGGESTED
   validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;
     batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED
@@ -187,7 +197,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 125
+    spec_points: 132
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -717,6 +727,44 @@ command_kinds:
   demanded_substance: 'practical: prepare a pure, dry sample of lead(II) sulfate — the PR-08 named practical
     (precipitation from lead(II) nitrate + potassium sulfate, both soluble; filter the precipitate, wash
     with distilled water, dry)'
+- code: 4CH1-2.44
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the five named gas tests with reagent/condition AND positive result: hydrogen (lighted/burning
+    splint at the tube mouth -> squeaky pop), oxygen (glowing splint -> relights), carbon dioxide (bubble
+    through limewater -> cloudy white), ammonia (damp red litmus paper -> blue; avoid touching the tube
+    sides), chlorine (damp blue litmus -> red then bleached white)'
+- code: 4CH1-2.45
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the flame-test technique: clean the wire loop in dilute acid, heat in the blue
+    Bunsen flame until no colour change, dip into the solid sample/solution, place in the edge of the
+    blue flame, observe — with the contamination reason (mixed/masked colours) and the blue (non-luminous,
+    hottest) flame requirement'
+- code: 4CH1-2.46
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: 'the five cation flame colours as the identification table: Li+ red, Na+ yellow,
+    K+ lilac, Ca2+ orange-red, Cu2+ blue-green'
+- code: 4CH1-2.47
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the aqueous-cation tests: a few drops of sodium hydroxide solution added to the
+    solution (Cu2+ blue precipitate, Fe2+ pale green, Fe3+ brown — precipitate = insoluble hydroxide)
+    and the ammonium-ion route (add NaOH and warm; identify the ammonia gas evolved by the damp red litmus
+    test)'
+- code: 4CH1-2.48
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the aqueous-anion tests: halides (acidify with nitric acid, add silver nitrate
+    — AgCl white / AgBr cream / AgI yellow precipitates), sulfate (acidify with dilute hydrochloric acid,
+    add barium chloride — white BaSO4 precipitate), carbonate (add dilute acid, bubble the gas through
+    limewater — cloudy; effervescence seen)'
+- code: 4CH1-2.49
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the chemical test for water: add the sample to anhydrous copper(II) sulfate — white
+    turns blue on the addition of water (CuSO4 + 5H2O -> CuSO4.5H2O)'
 - code: 4CH1-2.4C
   verb: explain
   guide_class: EXPLAIN_HOW
@@ -730,6 +778,11 @@ command_kinds:
     of the halogens (fluorine yellow gas, chlorine pale yellow-green gas, bromine red-brown liquid, iodine
     grey solid; MP/BP increase and states go gas-liquid-solid and colours darken down the group; diatomic
     molecules)
+- code: 4CH1-2.50
+  verb: describe
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: 'the physical purity test: boil a sample and check with a thermometer whether the
+    boiling point is exactly 100 °C — impurities raise the boiling point (and depress the melting point)'
 - code: 4CH1-2.6
   verb: use
   guide_class: UNDERSTAND_RELATION

@@ -165,15 +165,22 @@ B6_RECORD = HERE / "c11_batch6_decisions.yaml"
 # 33-edge (14 PART_OF + 19 semantic) SANCTIONED batch-7 authored-to-gate
 # record.
 B7_RECORD = HERE / "c11_batch7_decisions.yaml"
+# session-61 re-anchor (dated, protective intent unchanged): + the 8-node /
+# 17-edge (7 PART_OF + 10 semantic) SANCTIONED batch-8 authored-to-gate
+# record.
+B8_RECORD = HERE / "c11_batch8_decisions.yaml"
 expected_nodes = 113 + (16 if B5_RECORD.exists() else 0) \
     + (13 if B6_RECORD.exists() else 0) \
-    + (15 if B7_RECORD.exists() else 0)
+    + (15 if B7_RECORD.exists() else 0) \
+    + (8 if B8_RECORD.exists() else 0)
 expected_edges = 275 + (31 if B5_RECORD.exists() else 0) \
     + (28 if B6_RECORD.exists() else 0) \
-    + (33 if B7_RECORD.exists() else 0)
+    + (33 if B7_RECORD.exists() else 0) \
+    + (17 if B8_RECORD.exists() else 0)
 expected_partof = 117 + (13 if B5_RECORD.exists() else 0) \
     + (12 if B6_RECORD.exists() else 0) \
-    + (14 if B7_RECORD.exists() else 0)
+    + (14 if B7_RECORD.exists() else 0) \
+    + (7 if B8_RECORD.exists() else 0)
 check("D1 the ruling mints no node beyond the sanctioned batch-5 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")
