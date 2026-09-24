@@ -104,7 +104,7 @@ parsed/
 
 Cross-qual audit of all 23 canonical bundles guarantees:
 
-- **One point schema**: every one of the 4,233 spec points across all quals
+- **One point schema**: every one of the 4,189 spec points across all quals
   carries exactly the same 13 fields (id, official_code, scope, text, topic,
   subsection, sub_items, practical, applicability, leading_verb, ordering,
   provenance, flags). Schema string `syllabai.spec-points/1.0` everywhere.
@@ -192,3 +192,29 @@ against `graph/specification_points.yaml`.
 - **Flags policy**: dense multi-column formulae sheets (IAL physics, further
   maths, maths A) and AO-descriptors-absent (IAL sciences) are flagged
   informationally; nothing is silently guessed.
+
+## T-KG-14 (2026-09-24) — documented follow-up repairs
+
+Accounting/geography appendix junk removed; geography AO / transferable-skills /
+fieldwork tables rebuilt (PDF-verified, zero invention); unit applicability
+derived for the three modular science twins from the printed unit content
+summaries.
+
+- `igcse-accounting` 141 -> 101 rows: S5.079-118 removed (admin sections
+  pp.33-42 + 'Appendix 3: Transferable skills' pp.43-44 over-captured into
+  topic 5; topic-5 syllabus content ends p.29).
+- `igcse-geography` 242 -> 238 rows: S9.084-096 removed (same admin class,
+  pp.40/43); AO table rebuilt to 4 rows (new S9.243/S9.244, pp.38);
+  transferable-skills completed to the 32 printed bullets (9 new rows
+  S9.245-253, 5 wrong-row sub_items freed, 3 usage callouts moved to their
+  matching skills, block renumbered to printed order); Paper-1 fieldwork
+  table rebuilt (S3.056-058; S3.059/060 folded) with the Coastal
+  familiar-Secondary cell recovered from the p.21 page-break continuation;
+  Paper-2 Economic-activity row (S6.081) rebuilt from its p.31 cells.
+  NEW FINDING (documented, not repaired here): the Paper-2 fieldwork table's
+  Rural/Urban rows (pp.31-32) were never captured — needs span-geometry work.
+- `igcse-chemistry-modular` / `igcse-biology-modular` / `igcse-physics-modular`:
+  applicability.unit_scope derived for every row from the printed unit content
+  summaries (chem U1 topics 1-4 / U2 5-8; bio U1 1-2 / U2 3-6; phys U1 1-4 /
+  U2 5-9), closing the linear-vs-modular applicability asymmetry.
+- Canonical total: 4,233 -> 4,189.
