@@ -104,7 +104,7 @@ parsed/
 
 Cross-qual audit of all 23 canonical bundles guarantees:
 
-- **One point schema**: every one of the 4,278 spec points across all quals
+- **One point schema**: every one of the 4,233 spec points across all quals
   carries exactly the same 13 fields (id, official_code, scope, text, topic,
   subsection, sub_items, practical, applicability, leading_verb, ordering,
   provenance, flags). Schema string `syllabai.spec-points/1.0` everywhere.
@@ -132,6 +132,18 @@ Cross-qual audit of all 23 canonical bundles guarantees:
 - **_summary.json**: one row per parsed PDF across the 23 quals (run log of
   spec_parser; regenerated from the committed parse set — the T-PARSE-FIX-2
   single-qual re-parse had truncated it to 1 row).
+- **T-KG-13 repairs (2026-09-24, PDF-verified)**: (a) igcse-accounting — the
+  44 flattened-duplicate rows (S1.035-050, S2.051-068, S4.069-072,
+  S5.073-078: promoted bullets + lettered-lead merges) were removed; every
+  statement/bullet in them exists verbatim in the clean capture (S1.119+)
+  or the source PDF — canonical total 4,277 -> 4,233; (b) igcse-accounting
+  subsection titles completed from the PDF left column ('Types of' ->
+  'Types of business organisation', 24 entries); (c) igcse-geography — 69
+  wrapped-bullet rows recovered their PDF continuation lines (skills lists,
+  topic overviews, SX aims) and 20 two-column-table interleaved rows were
+  rebuilt column-sequential (text + sub_items, flag
+  `two-column-line-interleave`); (d) 64 edge-whitespace text violations
+  trimmed (SCHEMA whitespace-normalised invariant).
 
 ## Regenerate
 
