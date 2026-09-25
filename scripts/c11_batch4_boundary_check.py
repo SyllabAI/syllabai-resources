@@ -133,13 +133,21 @@ check("B1 zero canonical conflicts re-verified on the pre-batch-4 store "
 # 15 b7 + 8 b8 + 15 b9; edge delta 205 = 55 + 31 + 28 + 33 + 17 + 41).
 # session-64 re-anchor (dated): + the 8 batch-10 authored-to-gate nodes /
 # 34 edges — the SANCTIONED batch-10 record; the ruling still mints nothing.
+# session-66 re-anchor (2026-09-25, dated): + the 5 batch-11 authored-to-gate
+# nodes / 29 edges (17 semantic + 12 PART_OF) — the SANCTIONED batch-11
+# record (S4-g/h, completing S4); the ruling still mints nothing.
 check("B2 the ruling's recorded result matches the re-run (and the batch-4 "
       "mint is exactly the 22 new nodes / 55 new edges — the "
       "batch-5/6/7/8/9/10 authored-to-gate growth is separate and sanctioned)",
       rul["conflict_audit"].get("result", "").startswith("ZERO canonical")
       and not conflicts
-      and len(b4_codes) == 97  # 22 b4 + 16 b5 + 13 b6 + 15 b7 + 8 b8 + 15 b9 + 8 b10
-      and len(edges_doc["edges"]) - len(pre_b4_edges) == 239)
+      and len(b4_codes) == 102  # 22 b4 + 16 b5 + 13 b6 + 15 b7 + 8 b8 + 15 b9 + 8 b10 + 5 b11
+      # session-66 (dated): delta 267 = 239 + 29 batch-11 edges - 1 — exactly
+      # ONE batch-11 edge (4CH1-PR-12 RP CON-SIMPLE-DISTILLATION) has BOTH
+      # endpoints outside b4_codes: the practical code is not a node code and
+      # CON-SIMPLE-DISTILLATION is a PILOT (pre-batch-4) owner — the edge
+      # therefore sits in the "pre-batch-4" endpoint set by construction.
+      and len(edges_doc["edges"]) - len(pre_b4_edges) == 267)
 
 # ---------------------------------------------------------------------------
 # C. boundary targets exist + ownership exact
@@ -193,8 +201,9 @@ check("C every sanctioned target is also non-mint protected",
 check("D1 the ruling mints no node (store node set = 91 + the sanctioned "
       "22 batch-4 nodes + the 16 batch-5 + the 13 batch-6 + the 15 batch-7 + "
       "the 8 batch-8 + the 15 batch-9 authored-to-gate nodes + the 8 "
-      "batch-10 authored-to-gate nodes)",
-      len(live_codes) == 188)
+      "batch-10 authored-to-gate nodes + the 5 batch-11 authored-to-gate "
+      "nodes)",
+      len(live_codes) == 193)
 # Session-55 re-anchor (2026-09-22, dated): 220 + 55 batch-4 + 31 batch-5
 # (20 PART_OF + 35 semantic; 13 PART_OF + 17 semantic).
 # Session-57 re-anchor (2026-09-22, dated): + the 28 batch-6 edges
@@ -206,10 +215,11 @@ check("D1 the ruling mints no node (store node set = 91 + the sanctioned "
 check("D2 the ruling mints no edge (store edge set = 220 + the sanctioned "
       "55 batch-4 edges + the 31 batch-5 + the 28 batch-6 + the 33 batch-7 + "
       "the 17 batch-8 + the 41 batch-9 authored-to-gate edges + the 34 "
-      "batch-10 authored-to-gate edges)",
-      len(edges_doc["edges"]) == 459
+      "batch-10 authored-to-gate edges + the 29 batch-11 authored-to-gate "
+      "edges)",
+      len(edges_doc["edges"]) == 488
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 199)
+              if e["relation"] == "PART_OF") == 211)
 hv = sum(1 for e in edges_doc["edges"]
          if e["validation_status"] == "HUMAN_VALIDATED"
          and e["relation"] != "PART_OF")

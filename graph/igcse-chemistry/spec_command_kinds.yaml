@@ -11,12 +11,13 @@
 #   scripts/c11_batch8_decisions.yaml (extraction_pass c11-s16-batch-8)
 #   scripts/c11_batch9_decisions.yaml (extraction_pass c11-s16-batch-9)
 #   scripts/c11_batch10_decisions.yaml (extraction_pass c11-s16-batch-10)
+#   scripts/c11_batch11_decisions.yaml (extraction_pass c11-s16-batch-11)
 # DO NOT hand-edit: re-run the script. Provenance tier AI_SUGGESTED; validation gate = operator review (see meta.validation_gate).
 # Generation dates pinned per record; store date 2026-09-25 (deterministic contract; byte-identical re-runs).
 
 meta:
   task: T-C11
-  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8+s16-batch-9+s16-batch-10
+  stage: pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8+s16-batch-9+s16-batch-10+s16-batch-11
   curriculum_code: 4CH1-2017
   phase: 3
   scope: PILOT_SLICE_1_25_1_36 (architecture §14) + S16_BATCH_1 SLICE_1_1_1_12 (architecture §16; authorized
@@ -191,6 +192,19 @@ meta:
   - 4CH1-4.35C
   - 4CH1-4.36C
   - 4CH1-4.37C
+  - 4CH1-4.38C
+  - 4CH1-4.39C
+  - 4CH1-4.40C
+  - 4CH1-4.41C
+  - 4CH1-4.42C
+  - 4CH1-4.43C
+  - 4CH1-4.44
+  - 4CH1-4.45
+  - 4CH1-4.46
+  - 4CH1-4.47
+  - 4CH1-4.48C
+  - 4CH1-4.49C
+  - 4CH1-4.50C
   practicals:
   - 4CH1-PR-03
   - 4CH1-PR-01
@@ -203,6 +217,7 @@ meta:
   - 4CH1-PR-06
   - 4CH1-PR-07
   - 4CH1-PR-08
+  - 4CH1-PR-12
   negative_control: 4CH1-4.15
   generator: scripts/c11_concept_pilot.py
   decision_record:
@@ -217,6 +232,7 @@ meta:
   - scripts/c11_batch8_decisions.yaml
   - scripts/c11_batch9_decisions.yaml
   - scripts/c11_batch10_decisions.yaml
+  - scripts/c11_batch11_decisions.yaml
   extraction_pass:
   - c11-pilot-pass-1
   - c11-s16-batch-1
@@ -229,6 +245,7 @@ meta:
   - c11-s16-batch-8
   - c11-s16-batch-9
   - c11-s16-batch-10
+  - c11-s16-batch-11
   model_version: GLM (Super Z agent, z.ai)
   contract: graph/reports/C11_ARCHITECTURE.md
   generated: '2026-09-25'
@@ -239,7 +256,7 @@ meta:
   edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11
     triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)
   counts:
-    spec_points: 168
+    spec_points: 181
 command_kinds:
 - code: 4CH1-1.1
   verb: understand
@@ -1122,17 +1139,93 @@ command_kinds:
   verb: know
   guide_class: KNOW_TERM
   demanded_substance: vinegar is an aqueous solution of ethanoic acid (~5% acid by volume)
+- code: 4CH1-4.38C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the ester functional group — R-COO-R (the -COO- ester link between the alkyl chain
+    and the carboxyl carbon)
+- code: 4CH1-4.39C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: ethyl ethanoate is the ester produced when ethanol and ethanoic acid react in the
+    presence of an acid catalyst (concentrated sulfuric acid), with a molecule of water also produced
 - code: 4CH1-4.4
   verb: understand
   guide_class: REPRESENT_DIAGRAM
   demanded_substance: IUPAC naming via stem (meth-/eth-/prop-/but-/pent-/hex- = 1-6 carbons) + suffix
     (-ane/-ene/-anol/-anoic acid/-amine/-yl -anoate); numbers locate the functional group; di- for two
     groups
+- code: 4CH1-4.40C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: writing the structural and displayed formulae of ethyl ethanoate (CH3COOC2H5) —
+    the formation equation CH3COOH + C2H5OH -> CH3COOC2H5 + H2O as the source surface
+- code: 4CH1-4.41C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: writing structural and displayed formulae of an ester given the name or formula
+    of the alcohol and carboxylic acid it is formed from and vice versa — the two-part naming (first part
+    from the alcohol ending -yl, second part from the acid ending -oate; the pentyl butanoate example)
+- code: 4CH1-4.42C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: esters are volatile compounds with distinctive smells (sweet-smelling oily liquids)
+    used as food flavourings and in perfumes
+- code: 4CH1-4.43C
+  verb: prepare
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the ethyl-ethanoate preparation practical — gentle heating (water bath or electric
+    heater; ethanol is flammable so no Bunsen) of the ethanoic acid + ethanol + concentrated sulfuric
+    acid mixture, the ester distilled off as soon as it forms and collected by condensation, then sodium
+    carbonate (to remove acidic impurities, fizzing until no more CO2) and calcium chloride (to remove
+    ethanol) purification
+- code: 4CH1-4.44
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: an addition polymer is formed by joining up many small molecules called monomers
+    — the process is addition polymerisation; each monomer is a repeat unit connected via covalent bonds
+- code: 4CH1-4.45
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing the repeat unit of an addition polymer (poly(ethene), poly(propene), poly(chloroethene)
+    i.e. PVC, (poly)tetrafluoroethene i.e. PTFE) — change the monomer double bond to a single bond, add
+    extension (continuation) bonds outside brackets, add the subscript n, keep the groups in the same
+    order
+- code: 4CH1-4.46
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: deducing the monomer structure from the repeat unit of an addition polymer and vice
+    versa — change the repeat-unit single bond back to the monomer double bond, remove the end bonds and
+    the subscript n
+- code: 4CH1-4.47
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: the disposal problems of addition polymers — landfill burden (non-biodegradable
+    — strong C-C bonds make them unreactive and chemically inert so decomposers cannot break them down;
+    sites fill up) and incineration (carbon dioxide as a greenhouse gas; toxic hydrogen chloride from
+    chlorine-containing polymers such as PVC; carbon monoxide from incomplete combustion)
+- code: 4CH1-4.48C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: condensation polymerisation — a dicarboxylic acid (-COOH at either end) reacts with
+    a diol (-OH at either end) producing a polyester and water (one water molecule per ester link; the
+    terylene example; two different monomers with two functional groups, alternating chains)
+- code: 4CH1-4.49C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: writing the structural and displayed formula of a polyester showing the repeat unit,
+    given the monomer formulae — including the ethanedioic acid + ethanediol reaction; deducing the monomers
+    back from the polyester (break the C-O ester-link bond, add water — hydrolysis)
 - code: 4CH1-4.5
   verb: understand
   guide_class: REPRESENT_DIAGRAM
   demanded_substance: writing the possible structural/displayed formulae of an organic molecule given
     its molecular formula (isomer enumeration, e.g. the C3H6 propene/cyclopropane pair)
+- code: 4CH1-4.50C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: some polyesters, known as biopolyesters, are biodegradable — synthesised from sugars
+    and plant oils using microorganisms, able to biodegrade naturally after their intended purpose
 - code: 4CH1-4.6
   verb: understand
   guide_class: UNDERSTAND_RELATION

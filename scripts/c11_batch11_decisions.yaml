@@ -1,0 +1,926 @@
+meta:
+  task: T-C11
+  stage: s16-batch-11
+  extraction_pass: c11-s16-batch-11
+  generated_date: '2026-09-25'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4CH1-2017
+  commissioned_by: operator directive 'commission batch 11' (2026-09-25, session
+    66) under the session-46 §16 authorization; the S4 slice plan (batches 9-11)
+    is recorded in the session-62 commissioning record
+  session: 66
+  scope:
+    spec_points:
+    - 4CH1-4.38C
+    - 4CH1-4.39C
+    - 4CH1-4.40C
+    - 4CH1-4.41C
+    - 4CH1-4.42C
+    - 4CH1-4.43C
+    - 4CH1-4.44
+    - 4CH1-4.45
+    - 4CH1-4.46
+    - 4CH1-4.47
+    - 4CH1-4.48C
+    - 4CH1-4.49C
+    - 4CH1-4.50C
+    negative_control: 4CH1-4.15 (S4-b — CARVED OUT of every batch scope; the
+      standing negative control gains no node/edge attachment and no citation;
+      the graph_check D12 zero-attachment control continues; no batch-11 SP is
+      4.15-adjacent)
+    practicals:
+    - 4CH1-PR-12
+    practicals_note: the 4.43C practical-typed SP is carried by the scoped T-C10
+      practical 4CH1-PR-12 (prepare a sample of an ester such as ethyl ethanoate)
+      — the batch-3 1.60C/PR-04 precedent, in which the practical SP keeps its
+      command-kind tag and its PR-anchored edges and no separate concept node is
+      minted for it
+    subsections: S4-g Esters (4.38C-4.43C) + S4-h Synthetic polymers (4.44-4.50C)
+      — the final S4 slice; batch 11 completes the section
+    mark_scheme_evidence: scripts/c11_evidence/SYNTHETIC_POLYMERS_MS_P2.txt
+      (Synthetic Polymers MS.pdf sha1_12 fe7c6d0ed994, 11pp — the only Paper-2
+      MS file for the S4-h family; the esters families have NO dedicated
+      Paper-2 MS file in this corpus, so the slice's mark-scheme surface is the
+      SYNTHETIC_POLYMERS pin plus the ALREADY-PINNED ALKENES_MS_P2.txt (the
+      Q2(c) polymer-drawing Reject row 'Any double-bonded product scores 0/2'
+      the session-64 ruling routed to batch 11 as its mint evidence — the same
+      row appears as Q4(c) in the Synthetic Polymers pin) and CRUDE_OIL_MS_P2.txt
+      (the condensation-polymerisation, biodegradation and inertness rows) — a
+      PARTIAL-coverage shape, the batch-3/4/10 precedent)
+  boundary_ruling: scripts/c11_batch11_boundary_ruling.yaml (session 66 — 171
+    terms audited, 72 matches ALL dispositioned, TWELVE sanctioned boundary
+    targets, non_mint 50)
+  contract: nodes one-per-SP-family (the B7-ID-01/B8-ID-01/B9-ID-01..05/
+    B10-ID-01..04 one-family precedent — 4.38C-4.42C ONE esters node, 4.44-4.46
+    ONE addition-polymers node, 4.48C-4.50C ONE condensation-polymers node,
+    4.47 its own disposal node); the 4.43C practical rides the scoped PR-12
+    (the batch-3 precedent — no practical concept node); misconceptions ONLY
+    where a mark-scheme Reject column documents the wrong-answer class (the
+    MIS-PROPANOL-POSITION/B10-M-01 and MIS-KEROSENE-DOUBLE-BONDS/B9-M-01
+    precedent — the Alkenes MS Q2(c) / Synthetic Polymers MS Q4(c) 'Any
+    double-bonded product scores 0/2' Reject row); every quote byte-verified
+    against its file (c11_batch11_quote_probe.py, run BEFORE the registry
+    grows); the 4.15 negative control untouched
+  authorization: "scripts/c11_s16_authorization.yaml (§16 AUTHORIZED 2026-09-12;
+    batch 11 = the third S4 slice, commissioned 2026-09-25)"
+  ms_pins:
+  - scripts/c11_evidence/SYNTHETIC_POLYMERS_MS_P2.txt (Synthetic Polymers MS.pdf
+    sha1_12 fe7c6d0ed994, 11pp; the only Paper-2 MS file for the S4-h family —
+    the esters surfaces are MS-documented only via the already-pinned Alkenes
+    and Crude Oil pins, a PARTIAL-coverage shape, the batch-3/4/10 precedent)
+command_kinds:
+- code: 4CH1-4.38C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: the ester functional group — R-COO-R (the -COO- ester
+    link between the alkyl chain and the carboxyl carbon)
+- code: 4CH1-4.39C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: ethyl ethanoate is the ester produced when ethanol and
+    ethanoic acid react in the presence of an acid catalyst (concentrated
+    sulfuric acid), with a molecule of water also produced
+- code: 4CH1-4.40C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: writing the structural and displayed formulae of ethyl
+    ethanoate (CH3COOC2H5) — the formation equation
+    CH3COOH + C2H5OH -> CH3COOC2H5 + H2O as the source surface
+- code: 4CH1-4.41C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: writing structural and displayed formulae of an ester
+    given the name or formula of the alcohol and carboxylic acid it is formed
+    from and vice versa — the two-part naming (first part from the alcohol
+    ending -yl, second part from the acid ending -oate; the pentyl butanoate
+    example)
+- code: 4CH1-4.42C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: esters are volatile compounds with distinctive smells
+    (sweet-smelling oily liquids) used as food flavourings and in perfumes
+- code: 4CH1-4.43C
+  verb: prepare
+  guide_class: DESCRIBE_EXPERIMENT
+  demanded_substance: the ethyl-ethanoate preparation practical — gentle heating
+    (water bath or electric heater; ethanol is flammable so no Bunsen) of the
+    ethanoic acid + ethanol + concentrated sulfuric acid mixture, the ester
+    distilled off as soon as it forms and collected by condensation, then
+    sodium carbonate (to remove acidic impurities, fizzing until no more CO2)
+    and calcium chloride (to remove ethanol) purification
+- code: 4CH1-4.44
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: an addition polymer is formed by joining up many small
+    molecules called monomers — the process is addition polymerisation; each
+    monomer is a repeat unit connected via covalent bonds
+- code: 4CH1-4.45
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: drawing the repeat unit of an addition polymer
+    (poly(ethene), poly(propene), poly(chloroethene) i.e. PVC,
+    (poly)tetrafluoroethene i.e. PTFE) — change the monomer double bond to a
+    single bond, add extension (continuation) bonds outside brackets, add the
+    subscript n, keep the groups in the same order
+- code: 4CH1-4.46
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: deducing the monomer structure from the repeat unit of an
+    addition polymer and vice versa — change the repeat-unit single bond back
+    to the monomer double bond, remove the end bonds and the subscript n
+- code: 4CH1-4.47
+  verb: explain
+  guide_class: EXPLAIN_HOW
+  demanded_substance: the disposal problems of addition polymers — landfill
+    burden (non-biodegradable — strong C-C bonds make them unreactive and
+    chemically inert so decomposers cannot break them down; sites fill up) and
+    incineration (carbon dioxide as a greenhouse gas; toxic hydrogen chloride
+    from chlorine-containing polymers such as PVC; carbon monoxide from
+    incomplete combustion)
+- code: 4CH1-4.48C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: condensation polymerisation — a dicarboxylic acid
+    (-COOH at either end) reacts with a diol (-OH at either end) producing a
+    polyester and water (one water molecule per ester link; the terylene
+    example; two different monomers with two functional groups, alternating
+    chains)
+- code: 4CH1-4.49C
+  verb: understand
+  guide_class: REPRESENT_DIAGRAM
+  demanded_substance: writing the structural and displayed formula of a
+    polyester showing the repeat unit, given the monomer formulae — including
+    the ethanedioic acid + ethanediol reaction; deducing the monomers back
+    from the polyester (break the C-O ester-link bond, add water — hydrolysis)
+- code: 4CH1-4.50C
+  verb: know
+  guide_class: KNOW_TERM
+  demanded_substance: some polyesters, known as biopolyesters, are
+    biodegradable — synthesised from sugars and plant oils using
+    microorganisms, able to biodegrade naturally after their intended purpose
+nodes:
+- code: 4CH1-CON-ESTERS
+  family: CONCEPT
+  title: Esters (the R-COO-R functional group, esterification of alcohols with
+    carboxylic acids, ethyl ethanoate, the -yl/-oate naming, volatile
+    sweet-smelling uses)
+  aliases:
+  - ester
+  - esters
+  - esterification
+  - ethyl ethanoate
+  - ester functional group
+  - food flavourings
+  - perfumes
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.38C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Esters are compounds with the functional group R-COO-R
+  - code: 4CH1-4.39C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Ethanoic acid will react with ethanol in the presence of concentrated sulfuric acid (catalyst) to form the ester
+  - code: 4CH1-4.40C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: CH3COOH + C2H5OH → CH3COOC2H5 + H2O
+  - code: 4CH1-4.41C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: An ester is made from an alcohol and carboxylic acid
+  - code: 4CH1-4.42C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Esters are sweet-smelling oily liquids used in **food flavourings** and **perfumes**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches the family in one thread — the R-COO-R
+      functional group, the esterification reaction (ethanol + ethanoic acid,
+      concentrated sulfuric acid catalyst, water by-product), the ethyl
+      ethanoate formulae, the two-part -yl/-oate naming with the pentyl
+      butanoate example and the flavouring/perfume uses (B11-ID-01 the
+      one-family ruling — the note's own title 'Making and naming esters' is
+      one teaching sequence; the B10-ID-01/B9-ID-05 precedent); the identity
+      question is operator-owned
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.38C/4.39C/4.40C/4.41C/4.42C @ Making and naming esters (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-ADDITION-POLYMERS
+  family: CONCEPT
+  title: Addition polymers (monomers joined by C=C opening, the repeat unit
+    with extension bonds and subscript n, deducing the monomer)
+  aliases:
+  - addition polymer
+  - addition polymers
+  - addition polymerisation
+  - repeat unit
+  - monomer
+  - polyethene
+  - polypropene
+  - poly(chloroethene)
+  - PVC
+  - poly(tetrafluoroethene)
+  - PTFE
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.44
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Polymers are large molecules of **high relative molecular mass** and are made by linking together large numbers of smaller molecules called **monomers**
+  - code: 4CH1-4.45
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: The polymer **polyethene** is formed by the addition polymerisation of **ethene monomers**
+  - code: 4CH1-4.46
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+      kind: NOTE
+      quote: Change the single bond in the repeat unit to a **double bond** in the monomer
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches one thread — monomers/linking (4.44),
+      the repeat-unit drawing rules (double-to-single conversion, extension
+      bonds, brackets, subscript n, same-order groups) and the deduce-both-
+      ways sections (4.45 + 4.46; B11-ID-02 the one-family ruling); the 4.45
+      PTFE demand rides the general rule (the note's own PR-review caveat
+      records that poly(tetrafluoroethene) is not among the worked examples);
+      the pinned MS repeat-unit marking rows ('correct formula of repeat unit
+      (with carbon to carbon single bond)'; 'brackets and continuation bonds
+      and n') anchor the drawing language
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44/4.45/4.46 @ Addition Polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-POLYMER-DISPOSAL
+  family: CONCEPT
+  title: Disposal of addition polymers (landfill non-biodegradability;
+    incineration products — carbon dioxide, toxic hydrogen chloride, carbon
+    monoxide)
+  aliases:
+  - polymer disposal
+  - disposal of polymers
+  - non-biodegradable polymers
+  - landfill
+  - incineration
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.47
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Disposal of polymers - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Waste polymers are disposed of in landfill sites but this takes up valuable land, as addition polymers are non-biodegradable so micro-organisms such as decomposers cannot break them down
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches the 4.47 demand as one explain-thread —
+      the strong-C-C-bond inertness premise, the landfill surface
+      (non-biodegradable, sites fill up) and the incineration surface (CO2
+      greenhouse gas, toxic HCl from PVC, CO from incomplete combustion); the
+      pinned MS inertness row ('inert(ness)', Accept unreactive) and the
+      biodegradation row ('breakdown / decomposition by
+      bacteria/microbes/micro-organisms') anchor the explain language
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.47 @ Disposal of polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-CON-CONDENSATION-POLYMERS
+  family: CONCEPT
+  title: Condensation polymerisation and polyesters (dicarboxylic acid + diol,
+    the ester link with one water per link, deducing the monomers,
+    biopolyesters)
+  aliases:
+  - condensation polymerisation
+  - condensation polymers
+  - polyester
+  - polyesters
+  - terylene
+  - ester link
+  - biopolyesters
+  - hydrolysis
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  spec_points:
+  - code: 4CH1-4.48C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: For every ester linkage formed in condensation polymerisation, one molecule of water is formed from the combination of a -H and an -OH group
+  - code: 4CH1-4.49C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: If you are given the structure of a polyester, you can deduce the diol and dicarboxylic acid used to form it
+  - code: 4CH1-4.50C
+    role: CORE
+    evidence:
+    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md
+      kind: NOTE
+      quote: Biopolyesters are a specific type of polymers that are synthesised from sugars and plant oils using microorganisms
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: the note teaches one thread — the two-different-monomers/
+      small-molecule-removed definition (4.48C), the terylene polyester
+      surface (dicarboxylic acid + diol, the ester link with one water per
+      link), the deduce-the-monomers section (break the C-O ester-link bond,
+      add water — hydrolysis; 4.49C incl. the ethanedioic acid + ethanediol
+      demand) and the biopolyesters section (4.50C; B11-ID-03 the one-family
+      ruling — the biopolyesters fold follows the vinegar B10-ID-04
+      precedent, the biodegradable subclass being taught inside the polyester
+      note's own final section); the pinned MS condensation row ('a small
+      molecule/H2O/HCl is (also) formed') and biodegradation row anchor the
+      language
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C/4.49C/4.50C @ Condensation polymerisation (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- code: 4CH1-MIS-POLYMER-DOUBLE-BOND
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Drawing a double-bonded product for the addition-polymer repeat unit
+    (the C=C not opened to a single bond)
+  aliases:
+  - double-bonded repeat unit
+  - polymer drawn with double bond
+  - repeat unit with C=C
+  - double bond not opened
+  confidence: high
+  created_at: '2026-09-25'
+  damage_flags: []
+  evidence:
+  - file: scripts/c11_evidence/ALKENES_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Any double-bonded product scores 0/2
+  - file: scripts/c11_evidence/SYNTHETIC_POLYMERS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Any double-bonded product scores 0/2
+  - file: scripts/c11_evidence/SYNTHETIC_POLYMERS_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: correct formula of repeat unit (with carbon to carbon single bond)
+  remediation_evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: To draw a repeat unit, change the double bond in the monomer to a **single bond** in the repeat unit
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: the pinned Alkenes MS Q2(c) Reject column ('Any
+      double-bonded product scores 0/2' — the same row is Q4(c) in the
+      Synthetic Polymers pin) documents the exact wrong-answer class against
+      the repeat-unit drawing question; the expected answer's M1 marking
+      ('correct formula of repeat unit (with carbon to carbon single bond)')
+      and M2 ('brackets and continuation bonds and n') name the correct
+      convention; the Addition Polymers note's repeat-unit rule ('change the
+      double bond in the monomer to a single bond') is the corrective content
+      (B11-ID-04 the mint-vs-exam-trivia question — the
+      MIS-PROPANOL-POSITION/B10-ID-05, MIS-HALIDE-TEST-HCL/B8-ID-04 and
+      MIS-KEROSENE-DOUBLE-BONDS/B9-ID-06 precedent); the session-64 ruling
+      pre-routed this exact evidence to batch 11
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.45 @ Addition Polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+edges:
+- source: 4CH1-CON-ESTERS
+  target: 4CH1-CON-ALCOHOLS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: Alcohols and carboxylic acids react to make esters in **esterification** reactions
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-1, the
+      batch-10 owner) — the esterification reactant surface ('Alcohols and
+      carboxylic acids react to make esters'; the ethanol reactant in the
+      formation equation; the -yl name part is the alcohol chain) applied as
+      given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.38C-4.42C @ Making and naming esters (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ESTERS
+  target: 4CH1-CON-CARBOXYLIC-ACIDS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: Ethanoic acid will react with ethanol in the presence of concentrated sulfuric acid (catalyst) to form the ester
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-2, the
+      batch-10 owner) — the ethanoic-acid reactant surface (the formation
+      equation's CH3COOH; the -oate name part is the acid chain) applied as
+      given; the session-64 future-note 1 routed these ester surfaces to
+      batch 11
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.38C-4.42C @ Making and naming esters (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ESTERS
+  target: 4CH1-CON-ORGANIC-FORMULAE
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: CH3COOH + C2H5OH → CH3COOC2H5 + H2O
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-3, the
+      batch-9 owner) — the 4.40C/4.41C structural/displayed-formulae demands
+      run the batch-9 representation toolkit on the new family; this is the
+      batch's ONE formulae-toolkit edge (the B10-H-04 BOUNDARY-TARGETS-ONCE
+      rule holds the polymer-formulae candidates)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.40C/4.41C @ Making and naming esters (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ESTERS
+  target: 4CH1-CON-IUPAC-NAMING
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Making and naming esters - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: E.g. The ester formed from **pent**anol and **butan**oic acid is called **pent**yl **butan**oate
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-4, the
+      batch-9 owner) — the 4.41C naming demand CONSTRUCTS ester names from the
+      reactant names (pent-yl + butan-oate), which presupposes the stem
+      vocabulary the batch-9 owner teaches (contrast the poly- prefix row,
+      held as B11-H-06 — name-concatenation is self-contained,
+      name-construction is not); stems never re-taught
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.41C @ Making and naming esters (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-PR-12
+  target: 4CH1-CON-ESTERS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Preparation of ethyl ethanoate - IGCSE Chemistry.md
+    kind: NOTE
+    quote: To prepare a small sample of ethyl ethanoate
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: IN-SLICE (the batch-3 PR-04 -> ELECTROLYSIS pattern) — the
+      practical's Aim instantiates the esterification the esters family
+      teaches (the 4.43C preparation IS the ethyl-ethanoate formation with
+      the acid catalyst)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.43C/4.39C @ Preparation of ethyl ethanoate (2026-09-11); practical node 4CH1-PR-12 (T-C09 RULE_DERIVED)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-PR-12
+  target: 4CH1-CON-SIMPLE-DISTILLATION
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Preparation of ethyl ethanoate - IGCSE Chemistry.md
+    kind: NOTE
+    quote: The ester is then distilled off as soon as it is formed and collected in a separate beaker by condensation
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-5, the
+      batch-1 owner) — the distil-off-early collection step IS the batch-1
+      simple-distillation technique applied (single volatile product,
+      condensation collection; no column — the FRACTIONAL-DISTILLATION owner
+      stays un-sanctioned)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.43C @ Preparation of ethyl ethanoate (2026-09-11); practical node 4CH1-PR-12 (T-C09 RULE_DERIVED)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-PR-12
+  target: 4CH1-CON-ACID-REACTIONS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/g. Esters/Preparation of ethyl ethanoate - IGCSE Chemistry.md
+    kind: NOTE
+    quote: To remove acidic impurities, sodium carbonate solution can be added, until the mixture stops fizzing (no more carbon dioxide is evolved)
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-6, the
+      batch-7 owner) — the purification step runs the batch-7 acid+carbonate
+      reaction set as given (sodium carbonate + the acid impurities -> salt +
+      water + carbon dioxide fizzing; the CO2-FROM-CARBONATES owner stays
+      un-sanctioned (BOUNDARY-TARGETS-ONCE))
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.43C @ Preparation of ethyl ethanoate (2026-09-11); practical node 4CH1-PR-12 (T-C09 RULE_DERIVED)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ADDITION-POLYMERS
+  target: 4CH1-CON-ALKENES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: Many polymers can be made by the addition of alkene monomers
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-7, the
+      batch-10 owner) — the C=C monomer requirement ('only occurs in monomers
+      that contain C=C bonds') and the ethene/propene examples apply the
+      batch-10 alkene owner as given (the session-64 future-note 2 routed the
+      polymer surfaces here)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44-4.46 @ Addition Polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-ADDITION-POLYMERS
+  target: 4CH1-CON-ORGANIC-REACTION-CLASSES
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: This process is called **addition polymerisation**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-8, the
+      batch-9 owner) — addition polymerisation IS the addition class taught at
+      4.6 (the batch-9 owner; the condensation note's contrast — 'Addition
+      polymerisation forms the polymer molecule only', the no-atoms-lost
+      signature — and the pinned MS Q5(d)(i) converse row document the class
+      application); a distinct surface from batch-10's TARGET-5 bromination
+      row (the batch-5 x2 precedent)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44 @ Addition Polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-MIS-POLYMER-DOUBLE-BOND
+  target: 4CH1-CON-ADDITION-POLYMERS
+  relation: WRONG_ANSWER_PATTERN
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: scripts/c11_evidence/ALKENES_MS_P2.txt
+    kind: MARK_SCHEME
+    quote: Any double-bonded product scores 0/2
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: the pinned Alkenes MS Q2(c) Reject column (dual-pinned as
+      Synthetic Polymers MS Q4(c)) documents the wrong-answer class against
+      the repeat-unit drawing surface (the expected answer's M1/M2 rows
+      require the C-C single bond, brackets, continuation bonds and n)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.45 @ Addition Polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-MIS-POLYMER-DOUBLE-BOND
+  target: 4CH1-CON-ADDITION-POLYMERS
+  relation: REMEDIATED_BY
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel IGCSE Chemistry Revision Notes 2017.md
+    kind: NOTE
+    quote: To draw a repeat unit, change the double bond in the monomer to a **single bond** in the repeat unit
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: remediation target = WAP target (the B1-E-25 pattern) —
+      the corrective content is the addition-polymers family's own
+      repeat-unit rule section (double-to-single conversion, extension bonds,
+      brackets, subscript n)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.45 @ Addition Polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-POLYMER-DISPOSAL
+  target: 4CH1-CON-ADDITION-POLYMERS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Disposal of polymers - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: This makes addition polymers unreactive and chemically **inert** so don’t easily biodegrade
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: IN-SLICE — the disposal note presupposes the
+      addition-polymer surface (its subject IS 'addition polymers' — the
+      strong-C-C-bond structure taught in the batch's own addition-polymers
+      node is the disposal explanation's premise)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44-4.47 @ Addition Polymers + Disposal of polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-POLYMER-DISPOSAL
+  target: 4CH1-CON-CO2-GREENHOUSE
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Disposal of polymers - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: Polymers release a lot of heat energy when they burn and produces carbon dioxide which is a greenhouse gas that contributes to climate change
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-9, the
+      batch-5 owner) — the incineration surface applies the batch-5
+      CO2-greenhouse/climate-change owner as given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.47 @ Disposal of polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-POLYMER-DISPOSAL
+  target: 4CH1-CON-CO-POISONING
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Disposal of polymers - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: If incinerated by incomplete combustion, carbon monoxide will be produced which is a toxic gas that reduces the capacity of the blood to carry oxygen
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-10, the
+      batch-9 owner) — the incomplete-combustion CO surface restates the
+      batch-9 owner's blood-oxygen surface as given; this is POLYMER-CO, not
+      the held ethanol-CO record B10-H-08 (whose re-open path requires a
+      batch teaching the ethanol-CO surface — no batch-11 note does, so
+      B10-H-08 stays held)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.47 @ Disposal of polymers (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-CONDENSATION-POLYMERS
+  target: 4CH1-CON-ESTERS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: An ester linkage is formed with the subsequent loss of **one** water molecule per link
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: EXPLICIT_TEACH_SEQUENCE
+    derivation_notes: IN-SLICE (S4-h presupposes S4-g) — the polyester's ester
+      link IS the R-COO-R functional group the batch's esters node teaches
+      ('Polyesters are formed from two different monomers and produce water';
+      the -COO- link is the ester surface applied)
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C @ Condensation polymerisation (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-CONDENSATION-POLYMERS
+  target: 4CH1-CON-CARBOXYLIC-ACIDS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: An example is terylene which is a **polyester** made from **dicarboxylic** acid monomers (a carboxylic with a -COOH group at **either** end) and **diols** (an alcohol with an -OH group at **either** end)
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-11, the
+      batch-10 owner — the second edge into this owner, the batch-5 x2
+      precedent; distinct surface from TARGET-2's esterification-reactant
+      row) — the dicarboxylic-acid monomer surface (-COOH at either end)
+      applies the batch-10 acids owner as given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C/4.49C @ Condensation polymerisation (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+- source: 4CH1-CON-CONDENSATION-POLYMERS
+  target: 4CH1-CON-ALCOHOLS
+  relation: REQUIRES_PREREQUISITE
+  confidence: high
+  created_at: '2026-09-25'
+  ambiguity_note: null
+  evidence:
+  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Condensation polymerisation - IGCSE Chemistry Revision Notes.md
+    kind: NOTE
+    quote: The monomers have two **functional** groups present, one on **each end**
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c11-s16-batch-11
+    generated_date: '2026-09-25'
+    derivation_method: USED_WITHOUT_RETEACHING
+    derivation_notes: SANCTIONED BOUNDARY EDGE (session-66 ruling TARGET-12, the
+      batch-10 owner — the second edge into this owner, the batch-5 x2
+      precedent; distinct surface from TARGET-1's esterification-reactant
+      row) — the diol monomer surface (an alcohol with an -OH group at either
+      end, per the terylene sentence) applies the batch-10 alcohols owner as
+      given
+    upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C/4.49C @ Condensation polymerisation (2026-09-11)
+  validation_status: SUGGESTED
+  version: 1
+held:
+- id: B11-H-01
+  candidate: REQUIRES_PREREQUISITE(CON-ESTERS, CON-CATALYST)
+  evidence: 'Making and naming esters note: ''in the presence of concentrated
+    sulfuric acid (catalyst)'''
+  reason: MECHANISM-APPLIED-AS-GIVEN — the sulfuric-acid catalyst is a named
+    condition of the esterification, not a studied prerequisite; the catalyst
+    owner teaches rate/equilibrium mechanism surface. The B10-H-01 rule
+    (the phosphoric-acid row). Held; revisit at the operator verdict.
+  status: held
+- id: B11-H-02
+  candidate: REQUIRES_PREREQUISITE(CON-ESTERS, CON-SIMPLE-MOLECULAR)
+  evidence: 'Preparation note: ''As esters have low boiling points (they are
+    volatile), they are the first to evaporate from the reaction mixture'''
+  reason: AVAILABLE-BUT-SURFACE-MINIMAL — the volatility surface gestures at
+    the weak-intermolecular-forces framing the batch-3 owner teaches, but the
+    notes assert volatility as a property (the 4.42C know-demand) without the
+    IMF explanation. Held; revisit at the operator verdict.
+  status: held
+- id: B11-H-03
+  candidate: REQUIRES_PREREQUISITE(CON-ADDITION-POLYMERS, CON-CATALYST)
+  evidence: 'Addition Polymers note: ''Polymerisation reactions usually require
+    high pressures and the use of a catalyst'''
+  reason: MECHANISM-APPLIED-AS-GIVEN — the high-pressure/catalyst conditions
+    are named, not studied; the B9-H-04/B11-H-01 rule. Held; revisit at the
+    operator verdict.
+  status: held
+- id: B11-H-04
+  candidate: REQUIRES_PREREQUISITE(CON-ADDITION-POLYMERS, CON-ORGANIC-FORMULAE)
+  evidence: 'Addition Polymers note: ''To draw a repeat unit, change the double
+    bond in the monomer to a single bond in the repeat unit'' (the
+    repeat-unit rule section)'
+  reason: BOUNDARY-TARGETS-ONCE — the formulae-toolkit dependency is already
+    carried by the batch's sanctioned ESTERS RP ORGANIC-FORMULAE edge; a
+    second edge into the same owner would double-target (the B10-H-04 rule);
+    the repeat-unit convention is additionally taught self-contained in the
+    note (extension bonds, brackets, subscript n). Held; revisit at the
+    operator verdict.
+  status: held
+- id: B11-H-05
+  candidate: REQUIRES_PREREQUISITE(CON-ADDITION-POLYMERS, CON-COVALENT-BOND)
+  evidence: 'Addition Polymers note: ''Each monomer is a repeat unit and is
+    connected to the adjacent units via covalent bonds'''
+  reason: VOCABULARY-APPLIED-AS-GIVEN — the note uses 'covalent bonds' as given
+    terminology; the bond-manipulation surface (the C=C opening) routes via
+    the sanctioned ALKENES edge; the shared-pair/electrostatics owner is
+    never invoked (the B10-H-01 conservative class). Held; revisit at the
+    operator verdict.
+  status: held
+- id: B11-H-06
+  candidate: REQUIRES_PREREQUISITE(CON-ADDITION-POLYMERS, CON-IUPAC-NAMING)
+  evidence: 'Addition Polymers note: ''The name of the polymer is deduced by
+    putting the name of the monomer in brackets and adding poly- as the
+    prefix'''
+  reason: AVAILABLE-BUT-SURFACE-MINIMAL — the poly- prefix rule is taught
+    self-contained (name-concatenation on a name the student already has);
+    contrast the ester naming row (TARGET-4), which CONSTRUCTS names from
+    reactant stems and is genuinely load-bearing on the batch-9 owner. Held;
+    revisit at the operator verdict.
+  status: held
+- id: B11-H-07
+  candidate: REQUIRES_PREREQUISITE(CON-CONDENSATION-POLYMERS, CON-ORGANIC-FORMULAE)
+  evidence: 'Condensation note: ''The structure of terylene can be represented
+    by drawing out the polymer using boxes to represent the carbon chains'''
+  reason: BOUNDARY-TARGETS-ONCE — the batch's formulae-toolkit edge is carried
+    by ESTERS (the B10-H-04 rule); the polyester representation surface is
+    additionally taught self-contained (the boxed-chain convention). Held;
+    revisit at the operator verdict.
+  status: held
+- id: B11-H-08
+  candidate: REQUIRES_PREREQUISITE(CON-CONDENSATION-POLYMERS, CON-REVERSIBLE)
+  evidence: 'Condensation note: ''water is added to the polyester which allows
+    it to break back down into its monomers - this process is known as
+    hydrolysis'''
+  reason: ENRICHMENT-NOT-LOAD-BEARING — the hydrolysis paragraph teaches the
+    breakdown self-contained as the monomer-deduction mechanism; the
+    batch-4 reversible-reactions owner (the ⇌ notation) is never invoked.
+    Held; revisit at the operator verdict.
+  status: held
+- id: B11-H-09
+  candidate: REQUIRES_PREREQUISITE(CON-POLYMER-DISPOSAL, CON-FUELS-COMBUSTION)
+  evidence: 'Disposal note: ''If incinerated by incomplete combustion, carbon
+    monoxide will be produced'''
+  reason: SAME-FAMILY-ADJACENCY / BOUNDARY-TARGETS-ONCE — the
+    incomplete-combustion dependency is routed via the sanctioned CO-POISONING
+    edge (the batch-9 owner); the fuels-products owner stays single-targeted
+    (the B10-H-07 rule). Held; revisit at the operator verdict.
+  status: held
+- id: B11-H-10
+  candidate: REQUIRES_PREREQUISITE(4CH1-PR-12, CON-REVERSIBLE)
+  evidence: 'Preparation note: ''Removing them from the mixture by distillation
+    prevents the reverse reaction from occurring'''
+  reason: EXPLANATION-DEEPER-THAN-DEMAND — the method-design justification
+    gestures at the reversible-chemistry framing the batch-4 owner teaches,
+    but the 4.43C demand is the preparation method, not the reversibility
+    principle (the B10-H-02 rule). Held; revisit at the operator verdict.
+  status: held

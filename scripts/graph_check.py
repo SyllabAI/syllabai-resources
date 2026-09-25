@@ -918,12 +918,22 @@ C11_BATCH10_SPS = ["4CH1-4.23", "4CH1-4.24", "4CH1-4.25", "4CH1-4.26",
                    "4CH1-4.27", "4CH1-4.28", "4CH1-4.29C", "4CH1-4.30C",
                    "4CH1-4.31C", "4CH1-4.32C", "4CH1-4.33C", "4CH1-4.34C",
                    "4CH1-4.35C", "4CH1-4.36C", "4CH1-4.37C"]
+# session-66 (§16 batch 11): the S4 Organic THIRD slice (S4-g Esters
+# 4.38C-4.43C incl. the 4.43C practical-typed SP + S4-h Synthetic polymers
+# 4.44-4.50C = 13 authorable SPs; the practical SP rides the scoped T-C10
+# practical 4CH1-PR-12 — the batch-3 1.60C/PR-04 precedent; the 4.15
+# negative control sits in S4-b and stays carved out). Batch 11 completes S4.
+C11_BATCH11_SPS = ["4CH1-4.38C", "4CH1-4.39C", "4CH1-4.40C", "4CH1-4.41C",
+                   "4CH1-4.42C", "4CH1-4.43C", "4CH1-4.44", "4CH1-4.45",
+                   "4CH1-4.46", "4CH1-4.47", "4CH1-4.48C", "4CH1-4.49C",
+                   "4CH1-4.50C"]
 C11_SCOPE_SPS = C11_PILOT_SPS + C11_BATCH1_SPS + C11_BATCH2_SPS \
     + C11_BATCH3_SPS + C11_BATCH4_SPS + C11_BATCH5_SPS + C11_BATCH6_SPS \
-    + C11_BATCH7_SPS + C11_BATCH8_SPS + C11_BATCH9_SPS + C11_BATCH10_SPS
+    + C11_BATCH7_SPS + C11_BATCH8_SPS + C11_BATCH9_SPS + C11_BATCH10_SPS \
+    + C11_BATCH11_SPS
 C11_STAGE = ("pilot+s16-batch-1+s16-batch-2+s16-batch-3+s16-batch-4"
              "+s16-batch-5+s16-batch-6+s16-batch-7+s16-batch-8"
-             "+s16-batch-9+s16-batch-10")
+             "+s16-batch-9+s16-batch-10+s16-batch-11")
 C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # State after the session-55 batch-5 AUTHORING (extraction_pass
 # c11-s16-batch-5, authored to its operator gate): 129
@@ -1019,18 +1029,28 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # live SUGGESTED semantic surface is again EXACTLY the 3 frozen pilot
 # operator HOLDs; graph shape unchanged (statuses only; the batch-9/10
 # PART_OF rows stay SUGGESTED pending their own lane).
-# session-64 re-anchor (dated): the store grew 180/425/184 -> 188/459/199
-# by the SANCTIONED batch-10 authored-to-gate record (15 nodes-worth of
-# PART_OF rows ride the SP attachments; 19 authored semantic edges; 15 new
+# session-66 state note (dated, no test weakened): the batch-11 authored-to-
+# gate record (Section 4 Organic THIRD slice S4-g/h 4.38C-4.50C: 5 nodes =
+# 4 CONCEPT + 1 MISCONCEPTION, 29 edges = 12 PART_OF + 17 authored semantic
+# — 15 RP incl. the 12 sanctioned boundary rows + 1 WAP + 1 REMEDIATED_BY,
+# ZERO promotions; the 4.43C practical SP rides the scoped 4CH1-PR-12) joins
+# the store; 255 semantic HV unchanged (authoring promotes nothing); the
+# live SUGGESTED semantic surface is now the 3 frozen pilot operator HOLDs
+# + the 17 batch-11 authored edges, pending the operator's batch-11
+# verdicts. Batch 11 completes S4 (49 of 50 S4 SPs covered; only the 4.15
+# negative control remains uncovered).
+# session-66 re-anchor (dated): the store grew 188/459/199 -> 193/488/211
+# by the SANCTIONED batch-11 authored-to-gate record (4 nodes-worth of
+# PART_OF rows ride the SP attachments; 17 authored semantic edges; 13 new
 # command kinds); no test weakened.
-C11_COUNTS = {"nodes": 188, "concepts": 163, "misconceptions": 25,
-              "edges": 459,
-              "part_of": 199, "requires_prerequisite": 194,
+C11_COUNTS = {"nodes": 193, "concepts": 167, "misconceptions": 26,
+              "edges": 488,
+              "part_of": 211, "requires_prerequisite": 209,
               "explained_by": 12,
               "related_to": 2, "commonly_confused_with": 2,
-              "misconception_of": 2, "wrong_answer_pattern": 23,
-              "remediated_by": 25, "review_required": 2,
-              "command_kinds": 168}
+              "misconception_of": 2, "wrong_answer_pattern": 24,
+              "remediated_by": 26, "review_required": 2,
+              "command_kinds": 181}
 # Post-operator-REJECT state (session 41, 2026-09-11): the operator rejected
 # `4CH1-PR-03 REQUIRES_PREREQUISITE 4CH1-CON-MOLE` — it was re-authored out of
 # the decision record (preserved as rejected candidate HELD-13; architecture
@@ -1061,7 +1081,8 @@ C11_DECISIONS_FILES = [REPO / "scripts" / "c11_pilot_decisions.yaml",
                        REPO / "scripts" / "c11_batch7_decisions.yaml",
                        REPO / "scripts" / "c11_batch8_decisions.yaml",
                        REPO / "scripts" / "c11_batch9_decisions.yaml",
-                       REPO / "scripts" / "c11_batch10_decisions.yaml"]
+                       REPO / "scripts" / "c11_batch10_decisions.yaml",
+                       REPO / "scripts" / "c11_batch11_decisions.yaml"]
 C11_DECISIONS_FILE = C11_DECISIONS_FILES[0]
 _C11_AI_NAME_RE = re.compile(r"glm|super\s*z|gpt|claude|openai|anthropic|\bai\b"
                              r"|llm|agent|model|bot", re.I)
@@ -1884,9 +1905,13 @@ def main():
           # session-63: the summary names the batch-9 verdict application
           # (§18 applied — 20 operator promotions, the completed-sheet
           # §6/§7 verdict PASS WITH NOTES); state note, no test weakened
+          # session-66: the summary names the batch-11 authored-to-gate
+          # slice (S4-g/h — the store's stage string grows; state note, no
+          # test weakened)
           f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches "
           f"5-8 + the batch-9 slice S4-a/b/c 4.1-4.22 + the batch-10 "
-          f"authored-to-gate slice S4-d/e/f 4.23-4.37C, "
+          f"authored-to-gate slice S4-d/e/f 4.23-4.37C + the batch-11 "
+          f"authored-to-gate slice S4-g/h 4.38C-4.50C, "
           f"batch-6 verdicts applied session 58, batch-7 verdicts "
           f"applied session 60, batch-8 verdicts applied session 62, "
           f"batch-9 verdicts applied session 63, batch-10 verdicts "

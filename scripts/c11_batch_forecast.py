@@ -1263,6 +1263,91 @@ out = {
                            "(statuses only). NEXT: batch 11 completes the "
                            "S4 section per the slice plan."),
         },
+        {
+            "batch_id": "c11-s16-batch-11",
+            "session": 66,
+            "commissioned": ("operator ('commission batch 11', "
+                             "2026-09-25, session 66) under the session-46 "
+                             "§16 authorization; the S4 slice plan "
+                             "(batches 9-11) is recorded in the "
+                             "session-62 commissioning record"),
+            "scope": ("Section 4 Organic Chemistry THIRD slice — S4-g "
+                      "Esters (4.38C-4.43C incl. the 4.43C practical-typed "
+                      "SP, carried by the scoped T-C10 practical "
+                      "4CH1-PR-12 — the batch-3 1.60C/PR-04 precedent) + "
+                      "S4-h Synthetic polymers (4.44-4.50C) = 13 authorable "
+                      "SPs; batch 11 COMPLETES S4"),
+            "spec_points": 13,
+            "notes": 4,
+            "mark_schemes_pinned": 1,
+            "predicted": {"nodes": 31.4, "authored_edges": 34.67,
+                          "held_candidates": 14.1},
+            "actual": {"nodes": 5, "authored_edges": 17,
+                       "held_candidates": 10},
+            "delta_pct": {"nodes": -84.1, "authored_edges": -51.0,
+                          "held_candidates": -29.0},
+            "rates": {
+                "held_rate": 0.37,
+                "rejection_rate": 0.0,
+                # session-66: the batch ends at its operator gate — zero
+                # promotions exist at authoring; SETTLED at the batch-11
+                # verdict session (the batch-7/8/9/10 pattern).
+                "promotion_rate": 0.0,
+                "operator_review_rate": 1.0,
+            },
+            "false_positive_categories_observed": [
+                "FP-B11-1 (identity shape: the THREE one-family rulings — "
+                "4.38C-4.42C esters, 4.44-4.46 addition polymers, "
+                "4.48C-4.50C condensation with the biopolyesters fold — "
+                "the B7-ID-01/B8-ID-01/B9-ID-01..05/B10-ID-01..04 "
+                "precedent; B11-ID-01..03)",
+                "FP-B11-2 (anchor byte-honesty: the disposal note's "
+                "'don’t easily biodegrade' and the naming sentences' "
+                "TYPOGRAPHIC quote marks (U+2018/2019 around '- yl' / "
+                "'- oate') recorded byte-honest — the FP-B8-2/FP-B10-2 "
+                "convention)",
+                "FP-B11-3 (MS pack breadth: the Synthetic Polymers MS "
+                "overlaps the ALREADY-PINNED Alkenes and Crude Oil MS "
+                "files — the same paper question appears as Alkenes Q2(c) "
+                "AND Synthetic Polymers Q4(c); the esters families have NO "
+                "dedicated Paper-2 MS file, a PARTIAL MS-coverage shape "
+                "with three-pin documentation)",
+                "FP-B11-4 (the practical shape: the 4.43C SP carried by "
+                "the scoped 4CH1-PR-12 with PR-anchored edges, no "
+                "practical concept node — the batch-3 1.60C/PR-04 "
+                "precedent)",
+            ],
+            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+                                  "merge": 0, "split": 0},
+            "notes_text": ("pred-vs-act: nodes -84.1% / edges -51.0% vs "
+                           "the 2.4/2.75 model — the deepest consolidation "
+                           "band yet (nodes/SP 0.38, edges/SP 1.31): the "
+                           "THREE one-family rulings fold 8 of the 12 "
+                           "non-practical SPs into 3 nodes while the "
+                           "boundary-disciplined edge surface runs dense "
+                           "(12 of the 17 authored edges are sanctioned "
+                           "cross-section rows into TEN existing-owner "
+                           "targets — batch-10 owners x5 rows (CON-ALCOHOLS "
+                           "x2, CON-CARBOXYLIC-ACIDS x2, CON-ALKENES), "
+                           "batch-9 owners x4 rows (CON-ORGANIC-FORMULAE, "
+                           "CON-IUPAC-NAMING, CON-ORGANIC-REACTION-CLASSES, "
+                           "CON-CO-POISONING), batch-5 CON-CO2-GREENHOUSE, "
+                           "batch-1 CON-SIMPLE-DISTILLATION, batch-7 "
+                           "CON-ACID-REACTIONS; the two double-targeted "
+                           "owners carry the batch-5 x2 precedent). ONE "
+                           "mark-scheme-documented misconception mint (the "
+                           "Alkenes MS Q2(c) / Synthetic Polymers MS Q4(c) "
+                           "'Any double-bonded product scores 0/2' Reject "
+                           "row — the session-64 ruling's pre-routed "
+                           "evidence; MIS-POLYMER-DOUBLE-BOND, B11-ID-04). "
+                           "The ethanol-CO held record B10-H-08 STAYS HELD "
+                           "(batch 11's CO surface is polymer incineration, "
+                           "not ethanol-CO). ZERO pass-2 demotions. "
+                           "Coverage after: 49 of 50 S4 SPs, 181 of 182 "
+                           "total — only the 4.15 negative control remains "
+                           "uncovered. The forecast record is appended AT "
+                           "AUTHORING (the session-61 lesson)."),
+        },
     ],
     "future_batch_record_schema": {
         "batch_id": "c11-s16-batch-N (extraction_pass id)",

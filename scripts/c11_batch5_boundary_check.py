@@ -171,27 +171,31 @@ B7_RECORD = HERE / "c11_batch7_decisions.yaml"
 B8_RECORD = HERE / "c11_batch8_decisions.yaml"
 B9_RECORD = HERE / "c11_batch9_decisions.yaml"
 B10_RECORD = HERE / "c11_batch10_decisions.yaml"
+B11_RECORD = HERE / "c11_batch11_decisions.yaml"
 expected_nodes = 113 \
     + (13 if B6_RECORD.exists() else 0) \
     + (15 if B7_RECORD.exists() else 0) \
     + (8 if B8_RECORD.exists() else 0) \
     + (16 if B5_RECORD.exists() else 0) \
     + (15 if B9_RECORD.exists() else 0) \
-    + (8 if B10_RECORD.exists() else 0)
+    + (8 if B10_RECORD.exists() else 0) \
+    + (5 if B11_RECORD.exists() else 0)
 expected_edges = 275 \
     + (28 if B6_RECORD.exists() else 0) \
     + (33 if B7_RECORD.exists() else 0) \
     + (17 if B8_RECORD.exists() else 0) \
     + (31 if B5_RECORD.exists() else 0) \
     + (41 if B9_RECORD.exists() else 0) \
-    + (34 if B10_RECORD.exists() else 0)
+    + (34 if B10_RECORD.exists() else 0) \
+    + (29 if B11_RECORD.exists() else 0)
 expected_partof = 117 \
     + (12 if B6_RECORD.exists() else 0) \
     + (14 if B7_RECORD.exists() else 0) \
     + (7 if B8_RECORD.exists() else 0) \
     + (13 if B5_RECORD.exists() else 0) \
     + (21 if B9_RECORD.exists() else 0) \
-    + (15 if B10_RECORD.exists() else 0)
+    + (15 if B10_RECORD.exists() else 0) \
+    + (12 if B11_RECORD.exists() else 0)
 check("D1 the ruling mints no node beyond the sanctioned batch-5 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")

@@ -1625,3 +1625,48 @@ C11_OPERATOR_DECISIONS.md).
 > 13 SPs — completes S4; it needs its own operator turn); D4 subject-#2
 > K0(ii) corpus securing, snap-002 re-freeze, v78 explorer build and PAT
 > rotation remain operator-held.
+
+## Session 66 amendment (2026-09-25) — BATCH 11 (S4-g/h) AUTHORED TO ITS OPERATOR GATE — S4 COMPLETE
+
+> Commissioned by the operator's "commission batch 11" directive (2026-09-25,
+> session 66). **Batch 11 = S4-g Esters (4.38C-4.43C incl. the 4.43C
+> practical, carried by the scoped T-C10 practical 4CH1-PR-12 with
+> PR-anchored edges — the batch-3 1.60C/PR-04 precedent) + S4-h Synthetic
+> polymers (4.44-4.50C) = 13 authorable SPs — the FINAL slice of the S4
+> section program; batch 11 COMPLETES S4.** MS pinning: SYNTHETIC_POLYMERS_
+> MS_P2.txt (fe7c6d0ed994, 11pp) + the ALREADY-PINNED Alkenes/Crude Oil rows
+> — a PARTIAL-coverage shape with three-pin documentation; the pre-routed
+> Alkenes MS Q2(c) Reject row ('Any double-bonded product scores 0/2',
+> dual-pinned as Synthetic Polymers Q4(c)) minted the ONE misconception
+> (MIS-POLYMER-DOUBLE-BOND, B11-ID-04). Cross-slice boundary ruling
+> (session 66, machine-checked by the NEW standing checker
+> c11_batch11_boundary_check.py): 171 terms audited, 72 matches ALL
+> dispositioned, TWELVE sanctioned boundary edges into TEN existing-owner
+> targets (CON-ALCOHOLS x2 and CON-CARBOXYLIC-ACIDS x2 — the batch-10
+> owners with the batch-5 x2 precedent; CON-ALKENES; CON-ORGANIC-FORMULAE,
+> CON-IUPAC-NAMING, CON-ORGANIC-REACTION-CLASSES, CON-CO-POISONING — the
+> batch-9 owners; CON-CO2-GREENHOUSE — batch-5; CON-SIMPLE-DISTILLATION —
+> batch-1; CON-ACID-REACTIONS — batch-7), non_mint 50. Decision record:
+> 5 nodes (4 CONCEPT with the THREE one-family consolidations, B11-ID-01..03)
+> + 1 MISCONCEPTION / 17 authored edges (3 in-slice RP + 12 boundary RP +
+> 1 WAP + 1 RB; all SUGGESTED, zero RR) / 10 held (B11-H-01..10) / 13
+> command kinds. Merged store 193/488/211 (277 semantic), 181 cks, 132
+> held, 255 semantic HUMAN_VALIDATED unchanged; coverage 181/182 — only
+> the 4.15 negative control remains uncovered. Registry [pilot..batch11]
+> in 6 sites + the legacy_allowlist; forecast record appended AT AUTHORING
+> (the deepest consolidation band: nodes/SP 0.38, edges/SP 1.31); pass-2
+> zero demotions (FP-B11-1..4 / FN-B11-1..3 recorded); review gate
+> rendered (sheet + JSON + the OPERATOR-OWNED verdicts template). Re-
+> anchors issued with dated session-66 comments (no test weakened): graph_
+> check (BATCH11_SPS + STAGE + COUNTS + state note + summary phrase);
+> batch2-10 verdict-check shape pins + D2 authored-to-gate residue; batch
+> 4-10 boundary-check growth chains (the batch-4 B2 delta 267 documents
+> the ONE PR-12 row into the pilot owner); diff_review_test R1 17/5/255;
+> sweep S4 pins re-issued (24fa91ac / f901f23e / 819129fc); serving plane
+> re-emitted. The batch ends at its operator gate — zero promotions, zero
+> verdicts invented. The next T-C11 gate is the batch-11 verdict session
+> (fill scripts/c11_batch11_verdicts_template.yaml, rename to
+> c11_batch11_verdicts.yaml; a later session encodes + applies via §18),
+> which CLOSES the §16 S1-S4 authoring program; D4 subject-#2 K0(ii)
+> corpus securing, snap-002 re-freeze, v78 explorer build and PAT rotation
+> remain operator-held.

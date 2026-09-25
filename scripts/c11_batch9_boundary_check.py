@@ -50,6 +50,7 @@ OWNERS = {
 }
 B9_RECORD = HERE / "c11_batch9_decisions.yaml"
 B10_RECORD = HERE / "c11_batch10_decisions.yaml"
+B11_RECORD = HERE / "c11_batch11_decisions.yaml"
 
 fails: list[str] = []
 n = 0
@@ -143,11 +144,14 @@ check("C max_boundary_edges honoured (exactly 5 sanctioned targets)",
 # D. discipline invariants
 # ---------------------------------------------------------------------------
 expected_nodes = 165 + (15 if B9_RECORD.exists() else 0) \
-+ (8 if B10_RECORD.exists() else 0)
++ (8 if B10_RECORD.exists() else 0) \
++ (5 if B11_RECORD.exists() else 0)
 expected_edges = 384 + (41 if B9_RECORD.exists() else 0) \
-+ (34 if B10_RECORD.exists() else 0)
++ (34 if B10_RECORD.exists() else 0) \
++ (29 if B11_RECORD.exists() else 0)
 expected_partof = 163 + (21 if B9_RECORD.exists() else 0) \
-+ (15 if B10_RECORD.exists() else 0)
++ (15 if B10_RECORD.exists() else 0) \
++ (12 if B11_RECORD.exists() else 0)
 check("D1 the ruling mints no node beyond the sanctioned batch-9 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")

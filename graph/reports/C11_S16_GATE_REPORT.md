@@ -1865,3 +1865,120 @@ before phase 2 (S3).)
 > operator commissioning turn; D4 subject-#2 K0(ii) corpus securing,
 > snap-002 re-freeze, v78 explorer build and PAT rotation remain
 > operator-held.
+
+## Session 66 (2026-09-25) — BATCH 11 (S4 Organic THIRD SLICE: S4-g/h) AUTHORED TO ITS OPERATOR GATE — S4 COMPLETE
+
+> Commissioned by the operator's "commission batch 11" directive (2026-09-25,
+> session 66) under the session-46 §16 authorization. **Batch 11 = S4-g
+> Esters (4.38C-4.43C incl. the 4.43C practical-typed SP) + S4-h Synthetic
+> polymers (4.44-4.50C) = 13 authorable SPs — the FINAL slice of the S4
+> section program per the session-62 slice plan (batches 9-11); batch 11
+> COMPLETES S4.** The 4.43C practical-typed SP is carried by the scoped
+> T-C10 practical 4CH1-PR-12 with PR-anchored edges and its own command-kind
+> tag (verb `prepare`) — no practical concept node (the batch-3 1.60C/PR-04
+> precedent). PRE-STATE: local == origin/main == 15e0ce9 (the session-65
+> head), tree clean; store 188/459/199, 255 semantic HV, 168 cks, 122 held.
+> MS PINNING scripts/c11_ms_pin_batch11.py: Synthetic Polymers MS.pdf ->
+> SYNTHETIC_POLYMERS_MS_P2.txt sha1_12 fe7c6d0ed994 11pp — the only Paper-2
+> MS file for the S4-h family; the esters families have NO dedicated
+> Paper-2 MS file, so the slice's documentation surface is the
+> SYNTHETIC_POLYMERS pin plus the ALREADY-PINNED ALKENES_MS_P2.txt (the
+> Q2(c) polymer-drawing Reject row 'Any double-bonded product scores 0/2'
+> the session-64 ruling pre-routed to batch 11 as its mint evidence — the
+> same row is Q4(c) in the Synthetic Polymers pin) and CRUDE_OIL_MS_P2.txt
+> (the condensation-polymerisation/biodegradation/inertness rows) — a
+> PARTIAL-coverage shape with three-pin documentation (the batch-3/4/10
+> precedent). BOUNDARY RULING scripts/c11_batch11_boundary_ruling.yaml
+> (rendered by c11_batch11_ruling_finalize.py from machine truth — the
+> finalizer reconstructs the PRE-batch-11 store by subtracting the
+> batch-11 record's nodes/edges so the ruling's 72-match audit reproduces
+> at any post-authoring state) + NEW STANDING CHECKER
+> c11_batch11_boundary_check.py ALL PASS — 171 S4-g/h candidate terms
+> audited against the pre-batch-11 store (15e0ce9) -> 72 matches ALL
+> dispositioned (probe persisted as c11_batch11_term_audit_probe.py), ZERO
+> unhandled conflicts; TWELVE sanctioned boundary edges into TEN
+> existing-owner targets (batch-10 owners CON-ALCOHOLS x2,
+> CON-CARBOXYLIC-ACIDS x2, CON-ALKENES; batch-9 owners CON-ORGANIC-FORMULAE,
+> CON-IUPAC-NAMING, CON-ORGANIC-REACTION-CLASSES, CON-CO-POISONING;
+> batch-5 CON-CO2-GREENHOUSE; batch-1 CON-SIMPLE-DISTILLATION; batch-7
+> CON-ACID-REACTIONS — the two double-targeted owners carry the batch-5 x2
+> precedent); non_mint_list 50; FIVE future_boundary_notes (S4 completion —
+> 49 of 50 S4 SPs covered, 181 of 182 total, only the 4.15 negative control
+> uncovered; the held polymer-formulae rows name the BOUNDARY-TARGETS-ONCE
+> re-open path; the ethanol-CO held record B10-H-08 STAYS HELD — batch 11's
+> CO surface is polymer incineration, not ethanol-CO; the pre-routed
+> mint evidence consumed; the PART_OF lane stays outside §18). EXTRACTION:
+> all 5 T-C10 HV-mapped notes read in full (13/13 authorable SPs
+> note-covered: 2 Esters + 3 Synthetic Polymers); quote probe 33/33 green
+> pre-authoring (the byte-honest anchors include the disposal note's
+> U+2019 apostrophe and the naming sentences' U+2018/2019 typographic
+> quotes — the FP-B8-2/FP-B10-2 convention); preverify 15/15; DECISION
+> RECORD scripts/c11_batch11_decisions.yaml (extraction_pass
+> c11-s16-batch-11): 5 nodes (4 CONCEPT with the THREE one-family
+> consolidations — esters 4.38C-4.42C, addition polymers 4.44-4.46,
+> condensation 4.48C-4.50C with the biopolyesters fold (identity questions
+> B11-ID-01..03) — + 1 MS-documented WRONG_ANSWER_PATTERN misconception
+> MIS-POLYMER-DOUBLE-BOND from the pinned Alkenes MS Q2(c)/Synthetic
+> Polymers MS Q4(c) Reject column (B11-ID-04, the MIS-PROPANOL-POSITION/
+> B10-M-01 and MIS-KEROSENE-DOUBLE-BONDS/B9-M-01 precedent)) / 17 authored
+> edges (3 in-slice RP incl. the PR-12 row + 12 sanctioned boundary RP +
+> 1 WAP + 1 REMEDIATED_BY; ALL SUGGESTED, ZERO RR) / 10 held (B11-H-01..10)
+> / 13 command kinds. GENERATOR: first run ALL GATES GREEN after the
+> registry grew to [pilot..batch11] in 6 sites (c11_concept_pilot
+> DECISION_RECORDS; graph_check C11_DECISIONS_FILES + C11_STAGE +
+> C11_BATCH11_SPS; c11_promote + c11_diff_review DECISION_FILES;
+> c11_promote_test staging; c11_diff_review_test fixtures) +
+> graph_paths.yaml legacy_allowlist += the batch-11 record. MERGED STORE:
+> 193 nodes / 488 edges (211 PART_OF + 277 semantic) / 181 command kinds /
+> 132 held / 255 semantic HUMAN_VALIDATED UNCHANGED (authoring promotes
+> nothing) / 2 RR frozen; coverage 181/182 SPs at candidate level (S4 49
+> of 50). FORECAST: the batch-11 record appended AT AUTHORING (the
+> session-61 lesson — predicted 31.4/34.67/14.1 vs actual 5/17/10 —
+> nodes/SP 0.38, edges/SP 1.31, the deepest consolidation band yet: the
+> THREE one-family rulings fold 8 of the 12 non-practical SPs into 3
+> nodes; promotion_rate 0.0 pending the verdict session). PASS-2
+> (c11_batch11_review_pass2.yaml): FP-B11-1..4 + FN-B11-1..3 recorded,
+> zero demotions (5/5 nodes, 17/17 edges, 10 held all AGREE_HOLD). REVIEW
+> GATE rendered (c11_batch11_review_build.py):
+> graph/reports/C11_BATCH11_REVIEW_SHEET.md + C11_BATCH11_REVIEW.json +
+> the OPERATOR-OWNED scripts/c11_batch11_verdicts_template.yaml
+> (17E/4N+1M/4-ID; zero RR section). STATE-MOVED EXPECTATIONS re-anchored
+> with dated session-66 comments (no test weakened): graph_check
+> (C11_BATCH11_SPS + C11_STAGE + C11_COUNTS 193/488/211, RP 209, WAP 24,
+> RB 26, cks 181 + the session-66 state-note block + summary phrase);
+> batch2-3 verdict-check shape pins 188/459/199 -> 193/488/211; batch4-10
+> verdict-check D2 (the SUGGESTED surface = the 3 pilot HOLDs + the 17
+> batch-11 authored edges; B4-B10 AUTHORED all HV) + shape pins;
+> batch4-10 boundary-check growth chains (+5/29/12; batch-4 B2 delta
+> 267 = 239 + 29 - 1, the ONE PR-12 row into the pilot SIMPLE-DISTILLATION
+> owner sitting outside the b4_codes endpoint set, documented);
+> diff_review_test R1 0/5/255 -> 17/5/255 (the authored-to-gate residue
+> returns); sweep S4 pins re-issued (concepts cd48362c -> 24fa91ac,
+> concept_edges 55df3f5f -> f901f23e, spec_command_kinds 6aeefc17 ->
+> 819129fc). SERVING PLANE re-emitted (c28_emit_explorer_blob.py:
+> projections + explorer_blob.json; source pins == S4 pins). GOVERNANCE
+> amended with dated session-66 blocks (historical text preserved):
+> C11_S16_GATE_REPORT.md (this block) + C11_ARCHITECTURE.md. FULL GATE
+> SUITE AT THE COMMIT: graph_check ALL PASS (193/488/211, 255 semantic HV
+> = 372 with the 117 T-C19 G19 PART_OF rows); c11_review_verdict_check +
+> c11_batch1..10_verdict_check ALL PASS; c11_batch4..11_boundary_check ALL
+> PASS; c11_s16_authorization_check ALL PASS; c11_task4_variants 3/3;
+> c11_negative_test 14/14; c11_promote_test 27/27 (live store untouched);
+> c11_diff_review_test ALL PASS (R1 17/5/255); check_no_hardcode GREEN;
+> the C27 sweep battery runs at the commit (94/95 pre-commit — S0
+> working-tree-clean resolves at landing). INVARIANTS HELD: the frozen
+> pilot + batch-1..10 dispositions byte-intact (122 held + B11-H-01..10 =
+> 132 held, clean quarantine); 255 promotions all operator-attributed;
+> batch-11 nodes stay SUGGESTED (no §18 node pathway); PART_OF derived
+> and outside §18 (the 12 batch-11 PART_OF rows SUGGESTED pending their
+> own lane); 4CH1-4.15 uncovered; no DB writes; AI attribution forbidden;
+> graph/*.yaml never hand-edited (all changes via the sanctioned
+> generators). ZERO promotions, ZERO verdicts invented, ZERO
+> self-promotion: the batch ENDS at its operator gate. NEXT: the
+> operator's batch-11 verdict session (fill
+> scripts/c11_batch11_verdicts_template.yaml, rename to
+> c11_batch11_verdicts.yaml); a later session encodes + applies them via
+> the §18 pathway — closing the §16 S1-S4 authoring program; D4 subject-#2
+> K0(ii) corpus securing, snap-002 re-freeze, v78 explorer build and PAT
+> rotation remain operator-held. Then STOP — Batch 11 authoring ->
+> operator gate. Nothing more.

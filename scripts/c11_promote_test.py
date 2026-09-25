@@ -131,6 +131,8 @@ def make_sandbox(root: Path) -> Path:
                  sb / "scripts" / "c11_batch9_decisions.yaml")
     shutil.copy2(LIVE_SCRIPTS / "c11_batch10_decisions.yaml",
                  sb / "scripts" / "c11_batch10_decisions.yaml")
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch11_decisions.yaml",
+                 sb / "scripts" / "c11_batch11_decisions.yaml")
     if (LIVE_SCRIPTS / "c11_evidence").exists():
         shutil.copytree(LIVE_SCRIPTS / "c11_evidence", sb / "scripts" / "c11_evidence")
     for f in LIVE_STORES.glob("*.yaml"):
@@ -186,6 +188,8 @@ def restore(sb: Path):
                  sb / "scripts" / "c11_batch9_decisions.yaml")
     shutil.copy2(LIVE_SCRIPTS / "c11_batch10_decisions.yaml",
                  sb / "scripts" / "c11_batch10_decisions.yaml")
+    shutil.copy2(LIVE_SCRIPTS / "c11_batch11_decisions.yaml",
+                 sb / "scripts" / "c11_batch11_decisions.yaml")
     prom = sb / "scripts" / "c11_promotions.yaml"
     if prom.exists():
         prom.unlink()

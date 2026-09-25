@@ -1,0 +1,130 @@
+meta:
+  pass: c11-batch11-review-2
+  session: 66
+  reviewed_date: '2026-09-25'
+  reviewer: GLM (Super Z agent, z.ai)
+  record_under_review: scripts/c11_batch11_decisions.yaml
+  boundary_ruling: scripts/c11_batch11_boundary_ruling.yaml
+  method: every evidence anchor re-read in its source file (the batch-10/9/8
+    pass-2 method); every derivation challenged against the spec text, the
+    teaching sequence and the three pinned mark schemes (Synthetic Polymers +
+    the already-pinned Alkenes/Crude Oil rows); the failure classes of the
+    held records re-checked against the session-53 Step-3 characterization
+    rule; the 4.15 carve-out re-verified absent; zero tolerance for
+    insufficiently-characterized refusals
+nodes:
+  4CH1-CON-ESTERS:
+    verdict: CONFIRM
+    note: the 4.38C-4.42C one-family ruling (B11-ID-01) is the note's own
+      shape — one 'Making and naming esters' teaching thread from the R-COO-R
+      group through the formation equation and the two-part naming to the
+      flavouring/perfume uses; splitting the naming surface from the making
+      surface would cut the note's own title in half
+  4CH1-CON-ADDITION-POLYMERS:
+    verdict: CONFIRM
+    note: monomers/linking, the repeat-unit drawing rules and the
+      deduce-both-ways sections are one thread with dedicated headings under
+      one note (B11-ID-02); the MS repeat-unit marking rows span the whole
+      surface; the PTFE gap is honestly recorded (the note's own PR-review
+      caveat) and rides the general rule
+  4CH1-CON-POLYMER-DISPOSAL:
+    verdict: CONFIRM
+    note: the 4.47 explain-demand is one thread — the strong-C-C-bond
+      inertness premise, the landfill surface and the incineration surface;
+      the pinned MS inertness and biodegradation rows anchor the language
+  4CH1-CON-CONDENSATION-POLYMERS:
+    verdict: CONFIRM
+    note: the condensation definition, the terylene/ester-link surface, the
+      monomer-deduction (hydrolysis) section and the biopolyesters section
+      are one note and one thread (B11-ID-03); the biopolyesters fold
+      follows the vinegar B10-ID-04 precedent (the biodegradable subclass is
+      the note's own final section)
+  4CH1-MIS-POLYMER-DOUBLE-BOND:
+    verdict: CONFIRM
+    note: the pinned Alkenes MS Q2(c) Reject column (dual-pinned as Synthetic
+      Polymers MS Q4(c)) is a clean documented class ('Any double-bonded
+      product scores 0/2' against the expected C-C-single-bond repeat unit);
+      the Addition Polymers note's repeat-unit rule is the corrective content
+      — the narrow-but-exact B8/B9/B10 mint precedent
+edges:
+  ESTERS RP ALCOHOLS: AGREE_HOLD
+  ESTERS RP CARBOXYLIC-ACIDS: AGREE_HOLD
+  ESTERS RP ORGANIC-FORMULAE: AGREE_HOLD
+  ESTERS RP IUPAC-NAMING: AGREE_HOLD
+  PR-12 RP ESTERS: AGREE_HOLD
+  PR-12 RP SIMPLE-DISTILLATION: AGREE_HOLD
+  PR-12 RP ACID-REACTIONS: AGREE_HOLD
+  ADDITION-POLYMERS RP ALKENES: AGREE_HOLD
+  ADDITION-POLYMERS RP ORGANIC-REACTION-CLASSES: AGREE_HOLD
+  MIS-POLYMER-DOUBLE-BOND WAP ADDITION-POLYMERS: AGREE_HOLD
+  MIS-POLYMER-DOUBLE-BOND REMEDIATED_BY ADDITION-POLYMERS: AGREE_HOLD
+  POLYMER-DISPOSAL RP ADDITION-POLYMERS: AGREE_HOLD
+  POLYMER-DISPOSAL RP CO2-GREENHOUSE: AGREE_HOLD
+  POLYMER-DISPOSAL RP CO-POISONING: AGREE_HOLD
+  CONDENSATION-POLYMERS RP ESTERS: AGREE_HOLD
+  CONDENSATION-POLYMERS RP CARBOXYLIC-ACIDS: AGREE_HOLD
+  CONDENSATION-POLYMERS RP ALCOHOLS: AGREE_HOLD
+held_review:
+  agreement: all 10 held candidates AGREE_HOLD — the quarantine is correctly
+    characterized (each cites its failure class; none is an
+    insufficiently-characterized refusal under the session-53 Step-3 rule;
+    B11-H-06 is the strongest question — the poly- prefix naming row — and
+    its held record names the concat-vs-construct contrast explicitly;
+    B11-H-04/B11-H-07/B11-H-09 name the BOUNDARY-TARGETS-ONCE routing)
+findings:
+- id: FP-B11-1
+  kind: identity shape
+  text: the THREE one-family rulings (4.38C-4.42C esters as ONE node;
+    4.44-4.46 addition polymers as ONE node; 4.48C-4.50C condensation with
+    the biopolyesters fold) — the B7-ID-01/B8-ID-01/B9-ID-01..05/B10-ID-01..04
+    one-family precedent; recorded as identity questions B11-ID-01..03 for
+    the operator
+  resolution: no re-authoring; the family rulings stand
+- id: FP-B11-2
+  kind: anchor byte-honesty
+  text: the disposal note's 'so don’t easily biodegrade' carries the source's
+    own apostrophe (U+2019) and the naming sentences carry TYPOGRAPHIC quote
+    marks (U+2018/2019 around '- yl' and '- oate') — the anchors are recorded
+    byte-honest with the source's own characters (the FP-B8-2/FP-B10-2
+    convention); the normalization table does not translate curly quotes
+  resolution: no re-authoring; the quote probe verifies the anchors verbatim
+- id: FP-B11-3
+  kind: source typos inside anchors, recorded byte-honest
+  text: the condensation note's terylene sentence reads 'a carboxylic with a
+    -COOH group' (missing 'acid') and the disposal note's inertness sentence
+    reads 'so don’t easily biodegrade' (missing subject) — the source's own
+    phrasing; the anchors cite the sentences for their surfaces (the
+    dicarboxylic-acid monomer surface; the inertness premise), not for the
+    broken grammar, and are recorded byte-honest (the no-anchor-of-broken-
+    source rule applies to CITING the typo as evidence, which no record does)
+  resolution: no re-authoring; recorded for the corpus-repair ledger
+- id: FP-B11-4
+  kind: MS pack breadth
+  text: the Synthetic Polymers MS overlaps the ALREADY-PINNED Alkenes and
+    Crude Oil MS files (the same paper question appears as Alkenes Q2(c) AND
+    Synthetic Polymers Q4(c); the condensation/biodegradation/inertness rows
+    appear in both the Synthetic Polymers and Crude Oil pins) — the slice is
+    a PARTIAL MS-coverage shape with three-pin documentation; the esters
+    families have NO dedicated Paper-2 MS file
+  resolution: no re-authoring; the ruling records the three-pin surface
+- id: FN-B11-1
+  kind: false-negative question
+  text: the poly- prefix polymer-naming row (into the batch-9 IUPAC-NAMING
+    owner) — authored boundary edge or held?
+  resolution: HELD as B11-H-06 (name-concatenation on a name the student
+    already has is self-contained; contrast the ester naming row TARGET-4,
+    which CONSTRUCTS names from reactant stems and is genuinely load-bearing)
+- id: FN-B11-2
+  kind: false-negative question
+  text: the repeat-units-via-covalent-bonds row (into the batch-3
+    CON-COVALENT-BOND owner) — authored boundary edge or held?
+  resolution: HELD as B11-H-05 (vocabulary-applied-as-given; the C=C
+    manipulation routes via the sanctioned ALKENES edge; the shared-pair/
+    electrostatics owner is never invoked)
+- id: FN-B11-3
+  kind: false-negative question
+  text: the practical's reverse-reaction justification (PR-12 into the
+    batch-4 CON-REVERSIBLE owner) — authored boundary edge or held?
+  resolution: HELD as B11-H-10 (EXPLANATION-DEEPER-THAN-DEMAND — the 4.43C
+    demand is the preparation method, not the reversibility principle; the
+    B10-H-02 rule)

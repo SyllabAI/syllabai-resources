@@ -154,21 +154,25 @@ check("C max_boundary_edges honoured (exactly 2 sanctioned targets)",
 # ---------------------------------------------------------------------------
 B9_RECORD = HERE / "c11_batch9_decisions.yaml"
 B10_RECORD = HERE / "c11_batch10_decisions.yaml"
+B11_RECORD = HERE / "c11_batch11_decisions.yaml"
 expected_nodes = 142 \
     + (8 if B8_RECORD.exists() else 0) \
     + (15 if B7_RECORD.exists() else 0) \
     + (15 if B9_RECORD.exists() else 0) \
-    + (8 if B10_RECORD.exists() else 0)
+    + (8 if B10_RECORD.exists() else 0) \
+    + (5 if B11_RECORD.exists() else 0)
 expected_edges = 334 \
     + (17 if B8_RECORD.exists() else 0) \
     + (33 if B7_RECORD.exists() else 0) \
     + (41 if B9_RECORD.exists() else 0) \
-    + (34 if B10_RECORD.exists() else 0)
+    + (34 if B10_RECORD.exists() else 0) \
+    + (29 if B11_RECORD.exists() else 0)
 expected_partof = 142 \
     + (7 if B8_RECORD.exists() else 0) \
     + (14 if B7_RECORD.exists() else 0) \
     + (21 if B9_RECORD.exists() else 0) \
-    + (15 if B10_RECORD.exists() else 0)
+    + (15 if B10_RECORD.exists() else 0) \
+    + (12 if B11_RECORD.exists() else 0)
 check("D1 the ruling mints no node beyond the sanctioned batch-7 authoring",
       len(live_codes) == expected_nodes,
       f"live = {len(live_codes)}, expected = {expected_nodes}")

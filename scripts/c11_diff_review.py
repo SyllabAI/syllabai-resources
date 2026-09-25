@@ -100,7 +100,7 @@ DECISION_FILES = ["c11_pilot_decisions.yaml", "c11_batch1_decisions.yaml",
                   "c11_batch4_decisions.yaml", "c11_batch5_decisions.yaml",
                   "c11_batch6_decisions.yaml", "c11_batch7_decisions.yaml",
                   "c11_batch8_decisions.yaml", "c11_batch9_decisions.yaml",
-                    "c11_batch10_decisions.yaml"]
+                    "c11_batch10_decisions.yaml", "c11_batch11_decisions.yaml"]
 PROMOTIONS = HERE / "c11_promotions.yaml"
 # Session-55 repair (2026-09-22, dated): store paths resolve through the
 # C28 registry (post-stage-2 layout graph/igcse-chemistry/); this tool has

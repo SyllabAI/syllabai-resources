@@ -372,6 +372,20 @@ B10_AUTHORED = {triple(e)
 # bundle) — the 19 batch-10 authored edges left the SUGGESTED surface
 # (live SUGGESTED = the 3 pilot HOLDs again) and store total
 # 236 -> 255. No test weakened.
+B11_DEC = HERE / "c11_batch11_decisions.yaml"
+B11_AUTHORED = {triple(e)
+                for e in (yaml.safe_load(
+                    B11_DEC.read_text(encoding="utf-8"))
+                    .get("edges") or [])}
+# session-66 re-anchor (2026-09-25, dated; protective intent
+# unchanged): the batch-11 authored-to-gate record (17 authored
+# semantic edges) now joins the live SUGGESTED surface AT ITS
+# OPERATOR GATE (the operator's "commission batch 11" directive;
+# the batch ends at the gate, zero promotions) — the surface is
+# the 3 frozen pilot HOLDs PLUS the 17 batch-11 authored edges;
+# the batch-4..10 authored sets stay fully HUMAN_VALIDATED. No
+# test weakened.
+
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
       "the live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
       "batch-8 authored edges were promoted by the operator's verdicts "
@@ -379,7 +393,7 @@ check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
       "by the operator's verdicts through §18 at session 63; batch-7 "
       "verdicts applied at session 60)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds
+      and live_sugg == pilot_holds | B11_AUTHORED
       and B10_AUTHORED <= hv
       and B8_AUTHORED <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
@@ -468,11 +482,11 @@ check("D14 no batch-7 node is HUMAN_VALIDATED (nodes have no §18 pathway; "
 # session-61 re-anchor (2026-09-24, dated): + the SANCTIONED batch-8
 # authored-to-gate record (8 nodes / 17 edges = 7 PART_OF + 10
 # semantic) — the operator gate decision; no test weakened.
-check("D15 live store shape 188 nodes / 459 edges (199 PART_OF + 260 "
+check("D15 live store shape 193 nodes / 488 edges (211 PART_OF + 277 "
       "semantic) — verdicts move statuses only, never shape",
-      len(nodes_doc["nodes"]) == 188 and len(edges_doc["edges"]) == 459
+      len(nodes_doc["nodes"]) == 193 and len(edges_doc["edges"]) == 488
       and sum(1 for e in edges_doc["edges"]
-              if e["relation"] == "PART_OF") == 199)
+              if e["relation"] == "PART_OF") == 211)
 # boundary mint discipline (the session-59 cross-slice ruling)
 non_mint = set(rul["boundary_edge_ruling"]["non_mint_list"])
 b7_codes = {c["code"] for c in dec["nodes"]}
