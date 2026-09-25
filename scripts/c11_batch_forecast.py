@@ -1290,9 +1290,11 @@ out = {
                 "held_rate": 0.37,
                 "rejection_rate": 0.0,
                 # session-66: the batch ends at its operator gate — zero
-                # promotions exist at authoring; SETTLED at the batch-11
-                # verdict session (the batch-7/8/9/10 pattern).
-                "promotion_rate": 0.0,
+                # promotions exist at authoring. session-67: SETTLED — the
+                # operator's verdict applied all 17 authored edges through
+                # §18 (zero RR authored, so every authored edge was
+                # promotable post-verdict; the batch-7/8/9/10 pattern).
+                "promotion_rate": 1.0,
                 "operator_review_rate": 1.0,
             },
             "false_positive_categories_observed": [
@@ -1317,7 +1319,7 @@ out = {
                 "practical concept node — the batch-3 1.60C/PR-04 "
                 "precedent)",
             ],
-            "operator_verdicts": {"confirm": 0, "reject": 0, "hold": 0,
+            "operator_verdicts": {"confirm": 17, "reject": 0, "hold": 0,
                                   "merge": 0, "split": 0},
             "notes_text": ("pred-vs-act: nodes -84.1% / edges -51.0% vs "
                            "the 2.4/2.75 model — the deepest consolidation "
@@ -1346,7 +1348,34 @@ out = {
                            "Coverage after: 49 of 50 S4 SPs, 181 of 182 "
                            "total — only the 4.15 negative control remains "
                            "uncovered. The forecast record is appended AT "
-                           "AUTHORING (the session-61 lesson)."),
+                           "AUTHORING (the session-61 lesson). "
+                           "Session-67 (2026-09-25): operator gate SETTLED — "
+                           "the operator's verdict (PASS WITH NOTES / Batch "
+                           "11: ACCEPTED; intake = GITHUB-DIRECT sheet "
+                           "review + INLINE operator verdict via the zai-web "
+                           "chat lane, intake artifact "
+                           "C11_BATCH11_OPERATOR_VERDICT.md — no restatement "
+                           "blocks claimed; the CONFORMANCE gate applied and "
+                           "passed) recorded in "
+                           "scripts/c11_batch11_verdicts.yaml (17 edge "
+                           "CONFIRM / 5 node CONFIRM / 4 identity "
+                           "KEEP_AS_IS / 10 held acknowledged-quarantined at "
+                           "RANGE level / zero RR / zero REJECT) WITH the "
+                           "operator's SCOPED-RP semantic guardrail "
+                           "(REQUIRES_PREREQUISITE is a scoped "
+                           "teaching/route dependency, not a universal "
+                           "ontological prerequisite — the four scoping "
+                           "groups carried per-row on the EIGHT "
+                           "route-dependent rows) and the boundary-" 
+                           "preservation ruling (12/12 RETAIN into the TEN "
+                           "existing owners, no duplicate mints) and applied "
+                           "through §18 (17 promotions, operator, review_ref "
+                           "= the B11 diff-review bundle; promotion_rate "
+                           "1.0 — zero RR authored, so every authored edge "
+                           "was promotable post-verdict). Store: 255 -> 272 "
+                           "semantic HV, shape 193/488/211 unchanged "
+                           "(statuses only). S4 COMPLETE — the §16 S1-S4 "
+                           "authoring program closes."),
         },
     ],
     "future_batch_record_schema": {

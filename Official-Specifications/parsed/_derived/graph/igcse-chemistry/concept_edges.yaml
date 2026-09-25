@@ -1,9 +1,9 @@
 meta:
   schema: ratified-store-projection/1.0
   projection_of: graph/igcse-chemistry/concept_edges.yaml
-  source_sha256_16: f901f23e7622d3c0
+  source_sha256_16: cbef02513ddbb012
   emitter: scripts/c28_emit_explorer_blob.py@1.0.0
-  emitted_at: '2026-09-25T08:06:37Z'
+  emitted_at: '2026-09-25T10:53:21Z'
   note: 'Emitter-owned serving projection (C28 spec sections 3.3/5). Rows verbatim from the ratified store
     at the pinned sha; never hand-edit - the S8 drift gate (G1 source freshness + G2 re-emit idempotency)
     fails on drift. Authority: the ratified store.'
@@ -7386,7 +7386,9 @@ edges:
       surfaces here)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44-4.46 @ Addition Polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ADDITION-POLYMERS
@@ -7410,7 +7412,9 @@ edges:
       TARGET-5 bromination row (the batch-5 x2 precedent)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44 @ Addition Polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ALCOHOLS
@@ -8397,7 +8401,9 @@ edges:
       applies the batch-10 alcohols owner as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C/4.49C @ Condensation polymerisation (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-CONDENSATION-POLYMERS
@@ -8422,7 +8428,9 @@ edges:
       as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C/4.49C @ Condensation polymerisation (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-CONDENSATION-POLYMERS
@@ -8444,7 +8452,9 @@ edges:
       water'; the -COO- link is the ester surface applied)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.48C @ Condensation polymerisation (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-COVALENT-BOND
@@ -9232,7 +9242,9 @@ edges:
       reactant in the formation equation; the -yl name part is the alcohol chain) applied as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.38C-4.42C @ Making and naming esters (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ESTERS
@@ -9255,7 +9267,9 @@ edges:
       chain) applied as given; the session-64 future-note 1 routed these ester surfaces to batch 11
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.38C-4.42C @ Making and naming esters (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ESTERS
@@ -9278,7 +9292,9 @@ edges:
       name-concatenation is self-contained, name-construction is not); stems never re-taught
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.41C @ Making and naming esters (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ESTERS
@@ -9301,7 +9317,9 @@ edges:
       polymer-formulae candidates)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.40C/4.41C @ Making and naming esters (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-ETHANOL-MANUFACTURE
@@ -11154,7 +11172,9 @@ edges:
       node is the disposal explanation's premise)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44-4.47 @ Addition Polymers + Disposal of polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-POLYMER-DISPOSAL
@@ -11178,7 +11198,9 @@ edges:
       the ethanol-CO surface — no batch-11 note does, so B10-H-08 stays held)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.47 @ Disposal of polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-POLYMER-DISPOSAL
@@ -11200,7 +11222,9 @@ edges:
       surface applies the batch-5 CO2-greenhouse/climate-change owner as given
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.47 @ Disposal of polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-PROTON-TRANSFER
@@ -12683,7 +12707,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.43C @ Preparation of ethyl ethanoate (2026-09-11); practical
       node 4CH1-PR-12 (T-C09 RULE_DERIVED)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-PR-12
@@ -12706,7 +12732,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.43C/4.39C @ Preparation of ethyl ethanoate (2026-09-11); practical
       node 4CH1-PR-12 (T-C09 RULE_DERIVED)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-PR-12
@@ -12730,7 +12758,9 @@ edges:
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.43C @ Preparation of ethyl ethanoate (2026-09-11); practical
       node 4CH1-PR-12 (T-C09 RULE_DERIVED)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-CON-AIR-COMPOSITION
@@ -13776,7 +13806,9 @@ edges:
       M1/M2 rows require the C-C single bond, brackets, continuation bonds and n)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.45 @ Addition Polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-MIS-PRECIPITATE-IN-FILTRATE
@@ -14450,7 +14482,9 @@ edges:
       bonds, brackets, subscript n)
     upstream: T-C10 HUMAN_VALIDATED 4CH1-4.45 @ Addition Polymers (2026-09-11)
   confidence: high
-  validation_status: SUGGESTED
+  validation_status: HUMAN_VALIDATED
+  validated_by: operator
+  validated_date: '2026-09-25'
   version: 1
   created_at: '2026-09-25'
 - source: 4CH1-MIS-PRECIPITATE-IN-FILTRATE

@@ -946,10 +946,16 @@ def main() -> int:
         # semantic edges) is the live actionable surface AT ITS OPERATOR
         # GATE — the batch-10 gate ran the same shape (19/5/236); the
         # §18 promo_count stays 255 (authoring promotes nothing).
-        check("R1 reports 17 actionable / 5 not-actionable / 255 promotions",
-              "actionable: 17" in r.stdout
+        # session-67 re-anchor (2026-09-25, dated; protective intent
+        # unchanged): the batch-11 verdicts were APPLIED through §18
+        # (17 operator promotions, c11_batch11_verdicts, the B11
+        # diff-review bundle) — the actionable surface empties 17 -> 0
+        # and promo_count moves 255 -> 272 (the batch-10 gate ran the
+        # same shape post-apply: 0/5/255 at its session-65 close).
+        check("R1 reports 0 actionable / 5 not-actionable / 272 promotions",
+              "actionable: 0" in r.stdout
               and "not-actionable: 5" in r.stdout
-              and "promo_count=255" in r.stdout)
+              and "promo_count=272" in r.stdout)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

@@ -384,7 +384,11 @@ PINS = {
     GP.legacy_rel("relationships"): "6bd3f8236ac2120a",
     # session-66 re-issued pins (2026-09-25, dated): the batch-11 authored-to-gate regen (4 CONCEPT + 1 MISCONCEPTION mints, 17 authored semantic + 12 PART_OF rows, zero promotions; concepts pre was cd48362c…, edges pre was 55df3f5f…, cks pre was 6aeefc17…)
     GP.legacy_rel("concepts"): "24fa91ac7149682b",  # session-66 post
-    GP.legacy_rel("concept_edges"): "f901f23e7622d3c0",  # session-66 post
+    # session-67 re-issue (2026-09-25, dated): the batch-11 §18 application (17 operator
+    # promotions, c11_batch11_verdicts, the B11 diff-review bundle) moved 17 concept edges
+    # SUGGESTED -> HUMAN_VALIDATED (semantic HV 255 -> 272; shape 193/488/211 unchanged);
+    # edges pre was f901f23e7622d3c0 (session-66 post).
+    GP.legacy_rel("concept_edges"): "cbef02513ddbb012",  # session-67 post
     GP.legacy_rel("spec_command_kinds"): "819129fc0fd716a7",  # session-66 post (168->181 tags)
     GP.legacy_rel("spec_chunk_mappings"): "e8b58a7109104bb7",  # C28 post (pre was f36910450bd50726…; layout canonicalization)  # C27 post (pre was 3d4877dd…; sp_title refresh)
     "graph/reports/C26_WORDING_DIFF_LEDGER.json": "b3334f6057ea649a",

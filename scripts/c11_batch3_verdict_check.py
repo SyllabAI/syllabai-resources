@@ -259,8 +259,13 @@ check("D6 batch-2 slice intact: 23 batch-2 CONFIRM still HUMAN_VALIDATED",
 # APPLIED through §18 (19 promotions, operator, the B10 diff-review
 # bundle) — store total 236 -> 255 (28+28+23+39+35+18+16+19+10+20+19).
 # No test weakened.
-check("D7 store total 255 (28+28+23+39+35+18+16+19+10+20+19), all operator",
-      len(store_map) == 255
+# session-67 re-anchor (2026-09-25, dated; protective intent unchanged): the batch-11
+# verdicts were APPLIED through §18 (17 operator promotions, c11_batch11_verdicts, the
+# B11 diff-review bundle graph/reports/C11_DIFF_REVIEW_B11_2026-09-25.md) — the 17 batch-11
+# authored edges left the SUGGESTED surface (live SUGGESTED = the 3 pilot HOLDs again)
+# and the semantic HV count moved 255 -> 272. No test weakened.
+check("D7 store total 272 (28+28+23+39+35+18+16+19+10+20+19+17), all operator",
+      len(store_map) == 272
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

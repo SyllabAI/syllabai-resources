@@ -38,7 +38,7 @@ Checks (all fail-closed; every group must pass):
                        3 pilot operator-HOLD SUGGESTED — the ONLY live
                        SUGGESTED semantic surface now that the batch-10
                        verdicts are applied; both RR edges
-                       REVIEW_REQUIRED); store total 255, all operator;
+                       REVIEW_REQUIRED); store total 272, all operator;
                        the 9 batch-10 held candidates quarantined (never
                        authored FROM the held record — the single triple
                        coincidence B10-H-04 == the sanctioned boundary
@@ -420,15 +420,20 @@ B11_AUTHORED = {triple(e)
 # the batch-4..10 authored sets stay fully HUMAN_VALIDATED. No
 # test weakened.
 
+# session-67 re-anchor (2026-09-25, dated; protective intent unchanged): the batch-11
+# verdicts were APPLIED through §18 (17 operator promotions, c11_batch11_verdicts, the
+# B11 diff-review bundle graph/reports/C11_DIFF_REVIEW_B11_2026-09-25.md) — the 17 batch-11
+# authored edges left the SUGGESTED surface (live SUGGESTED = the 3 pilot HOLDs again)
+# and the semantic HV count moved 255 -> 272. No test weakened.
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and the "
       "live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
       "batch-9 authored edges were promoted at session 63 and the "
       "batch-10 authored edges were promoted by the operator's verdicts "
       "through §18 at session 65)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds | B11_AUTHORED
+      and live_sugg == pilot_holds
       and {triple(e) for e in b9_dec["edges"]} <= hv
-      and b_triples <= hv,
+      and B11_AUTHORED <= hv and b_triples <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
 check("D3 the pilot RR edge stays REVIEW_REQUIRED (operator HOLD)",
@@ -493,9 +498,14 @@ b9_confirms = {x["triple"] for x in b9_vd["edge_verdicts"]
                if x["verdict"] == "CONFIRM"}
 check("D13 batch-9 slice intact: 20 batch-9 CONFIRM still HUMAN_VALIDATED",
       b9_hv == b9_confirms and len(b9_hv) == 20)
-check("D14 store total 255 (28+28+23+39+35+18+16+19+10+20+19), all "
+# session-67 re-anchor (2026-09-25, dated; protective intent unchanged): the batch-11
+# verdicts were APPLIED through §18 (17 operator promotions, c11_batch11_verdicts, the
+# B11 diff-review bundle graph/reports/C11_DIFF_REVIEW_B11_2026-09-25.md) — the 17 batch-11
+# authored edges left the SUGGESTED surface (live SUGGESTED = the 3 pilot HOLDs again)
+# and the semantic HV count moved 255 -> 272. No test weakened.
+check("D14 store total 272 (28+28+23+39+35+18+16+19+10+20+19+17), all "
       "operator",
-      len(store_map) == 255
+      len(store_map) == 272
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

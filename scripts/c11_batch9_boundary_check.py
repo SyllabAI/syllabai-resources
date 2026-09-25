@@ -171,13 +171,18 @@ hv = sum(1 for e in edges_doc["edges"]
 # (19 operator promotions, c11_batch10_verdicts, the B10 diff-review
 # bundle) moved the semantic HV count 236 -> 255; the protected property
 # is unchanged.
-check("D3 semantic HV at the operator-promoted count (255; the batch-9 "
+# session-67 re-anchor (2026-09-25, dated): the batch-11 §18 application (17 operator
+# promotions, c11_batch11_verdicts) moved the semantic HV count 255 -> 272; the protected
+# property is unchanged.
+check("D3 semantic HV at the operator-promoted count (272; the batch-9 "
       "authoring promoted nothing and the ruling itself still mints "
       "nothing — promotion happened only at the operator's verdict gate "
       "via §18 at session 63, and the batch-10 authored edges were "
-      "promoted likewise at session 65; PART_OF HV rides the T-C19 "
+      "promoted likewise at session 65, and the 17 batch-11 authored "
+      "edges were promoted likewise at session 67; PART_OF HV rides "
+      "the T-C19 "
       "G19 record)",
-      hv == 255)
+      hv == 272)
 check("D4 non_goals recorded (no ontology redesign / no re-opening / no "
       "re-scope / no promotion authority / no direct writes)",
       len(rul.get("non_goals", [])) >= 5)

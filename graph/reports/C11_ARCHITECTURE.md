@@ -1670,3 +1670,35 @@ C11_OPERATOR_DECISIONS.md).
 > which CLOSES the §16 S1-S4 authoring program; D4 subject-#2 K0(ii)
 > corpus securing, snap-002 re-freeze, v78 explorer build and PAT rotation
 > remain operator-held.
+
+## Session 67 amendment (2026-09-25) — BATCH 11 VERDICTS APPLIED VIA §18 — THE §16 S1-S4 AUTHORING PROGRAM CLOSES
+
+> The batch-11 operator verdict (PASS WITH NOTES / Batch 11: ACCEPTED,
+> session 67, the GitHub-direct sheet review + inline verdict lane) is
+> recorded in scripts/c11_batch11_verdicts.yaml (OPERATOR-OWNED) and
+> APPLIED through §18: 17 promotions (operator, 2026-09-25, review_ref =
+> the B11 diff-review bundle) — semantic HV 255 -> 272, shape 193/488/211
+> unchanged (statuses only). THE STANDING SEMANTIC CONTRACT FOR THE
+> REQUIRES_PREREQUISITE EDGES (the operator's SCOPED-RP guardrail, now a
+> recorded graph invariant): a REQUIRES_PREREQUISITE edge is a scoped
+> teaching/route dependency, NOT a universal ontological prerequisite —
+> consumers must interpret each edge within its taught scope (the four
+> batch-11 scoping groups are carried per-row in the verdict record's
+> notes; the batch-9..11 §6 rulings consistently retained boundary
+> relationships to existing owners "rather than creating parallel
+> concepts", and the same scoped reading applies to the whole §18
+> surface). The TWELVE sanctioned cross-section boundary edges are
+> HUMAN_VALIDATED into their TEN existing owners (12-vs-10 intentional:
+> ALCOHOLS x2 + CARBOXYLIC-ACIDS x2); the 50 non-mint owner codes are
+> respected; the 10 held candidates stay quarantined at RANGE level with
+> their abstention/failure-class provenance intact. Re-anchors issued
+> with dated session-67 comments (no test weakened): batch1-3 verdict
+> totals; batch4-10 D2 + totals; boundary4-11 D3; diff_review_test R1
+> 0/5/272; sweep S4 pin cbef0251; serving plane re-emitted; the FileUpload
+> mirror ff-forwarded (6880ce0). NEW standing checker
+> scripts/c11_batch11_verdict_check.py ALL PASS. Forecast settled
+> (promotion_rate 1.0, confirm 17). The §16 S1-S4 authoring program is
+> CLOSED — 181/182 SPs covered at candidate level, only the 4.15
+> negative control uncovered (by design). Remaining operator-held: D4
+> subject-#2 K0(ii) corpus securing, snap-002 re-freeze, v78 explorer
+> build, PAT rotation.

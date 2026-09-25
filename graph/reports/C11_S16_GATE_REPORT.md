@@ -1982,3 +1982,95 @@ before phase 2 (S3).)
 > K0(ii) corpus securing, snap-002 re-freeze, v78 explorer build and PAT
 > rotation remain operator-held. Then STOP — Batch 11 authoring ->
 > operator gate. Nothing more.
+
+## Session 67 (2026-09-25) — BATCH 11 VERDICT SESSION: PASS WITH NOTES / ACCEPTED — §18 APPLIED — THE §16 S1-S4 AUTHORING PROGRAM CLOSES
+
+> The operator reviewed the committed Batch 11 sheet DIRECTLY from GitHub
+> (the FileUpload origin commit 6880ce0 carries the sheet; the
+> GitHub-direct lane — a NEW intake form, honestly characterized: no
+> restatement blocks claimed, byte-identity meaningless against a sheet
+> reviewed at source) and returned the operator verdict INLINE in-chat
+> (zai-web, session 67; intake artifact C11_BATCH11_OPERATOR_VERDICT.md).
+> VERDICT: PASS WITH NOTES / Batch 11: ACCEPTED — Nodes 5/5 CONFIRM;
+> Authored semantic edges 17/17 CONFIRM; Identity decisions 4/4
+> KEEP_AS_IS (incl. the single MIS-POLYMER-DOUBLE-BOND misconception
+> mint); Held candidates 10/10 ACKNOWLEDGED/QUARANTINED (RANGE-level —
+> no per-candidate dispositions recorded, none invented);
+> REVIEW_REQUIRED 0; Rejected authored edges 0; Duplicate mints 0; Node
+> promotions 0; Edge promotions 0; Boundary edges 12/12 RETAIN into the
+> TEN existing owners (12-vs-10 intentional: ALCOHOLS x2 +
+> CARBOXYLIC-ACIDS x2); Authority SUGGESTED; "Nothing is promoted by
+> this review." THE OPERATOR'S SCOPED-RP SEMANTIC GUARDRAIL (the
+> reconciliation invariant, carried per-row on the EIGHT route-dependent
+> rows): REQUIRES_PREREQUISITE is a scoped teaching/route dependency,
+> NOT a universal ontological prerequisite — Ester -> alcohols/carboxylic
+> acids scoped to esterification; Addition polymers -> alkenes scoped to
+> the C=C addition-polymer route; Polymer disposal -> CO2/CO scoped to
+> the taught incineration/combustion surface; Condensation polymers ->
+> esters/carboxylic acids/alcohols scoped to the polyester route in this
+> slice. REPORTED-status discipline preserved: the sheet's machine-state
+> claims (193/488, 33 quote probes, pass-2, 4.15 negative control) stay
+> REPORTED / VERIFIED-BY-SUBMITTED-ARTIFACT — the verdict session closed
+> the gap on the operator's behalf by verifying the machine state
+> directly at ee0524d (the authoring head; 193/488/211, 255 semantic HV)
+> before encoding. INTAKE CONFORMANCE: scripts/c11_batch11_intake_drift_check.py
+> ALL PASS (the 11-row decision table == gate totals; the 5 node codes ==
+> gate §2; the four scoped-RP guardrail bullets present; the TEN owner
+> codes == the distinct targets of the TWELVE sanctioned boundary rows
+> with the 12-vs-10 explanation; held range B11-H-01..10; REPORTED
+> caveat x2; "Nothing is promoted by this review."). ENCODING:
+> scripts/c11_batch11_verdicts.yaml (OPERATOR-OWNED; universal rulings
+> with the scoped-RP guardrail notes; boundary rows carry the
+> ownership/retention ruling; the template consumed — fill + rename).
+> One editorial correction at encode check: a transcription typo
+> 'combattion' -> 'combustion' in the operator's scoping sentence (the
+> operator's word per the intake record is 'combustion'; 'combattion'
+> is not an English word — corrected in the YAML, the intake artifact,
+> and this record transparently). §18 APPLICATION (the operator verdict
+> file itself is the authorization — the session-54..65 precedent): 17
+> promotions (operator, 2026-09-25, review_ref =
+> graph/reports/C11_DIFF_REVIEW_B11_2026-09-25.md) via
+> c11_verdict_encode_batch11.py + c11_promote.py — semantic HV 255 ->
+> 272, shape 193/488/211 UNCHANGED (statuses only), no PART_OF rows
+> touched, no nodes promoted (nodes have no §18 pathway). RE-ANCHORS
+> (dated session-67 comments, no test weakened): batch1-3 verdict-check
+> totals 255 -> 272; batch4-10 verdict-check D2 (the authored-to-gate
+> residue resolves — the surface is the 3 pilot HOLDs again) + totals;
+> batch9/10 docstrings; batch4-11 boundary-check D3 chains (255 -> 272);
+> diff_review_test R1 17/5/255 -> 0/5/272 (the actionable surface is
+> empty — the §16 authoring program has no open gates); sweep S4
+> concept_edges pin f901f23e -> cbef0251 (concepts + cks byte-identical
+> — statuses only); serving plane re-emitted (projections +
+> explorer_blob.json; source pins == S4 pins); the FileUpload mirror
+> ff-forwarded to 6880ce0 (the operator's own sheet-upload commit). NEW
+> STANDING CHECKER: scripts/c11_batch11_verdict_check.py ALL PASS
+> (schema / verdict shape / scoped-RP guardrail rows / boundary rows /
+> three-way application equality / invariants incl. the 50 non-mint
+> owners, the ZERO held-triple store overlaps, 4.15 uncovered, 272 store
+> total, D19 193/488/211). FORECAST settled in place (promotion_rate
+> 1.0, confirm 17, the session-67 narrative; JSON deterministic).
+> GOVERNANCE amended with dated session-67 blocks (historical text
+> preserved): C11_S16_GATE_REPORT.md (this block) + C11_ARCHITECTURE.md.
+> FULL GATE SUITE AT THE SESSION: graph_check ALL PASS (193/488/211, 272
+> semantic HV = 389 with the 117 T-C19 G19 PART_OF rows);
+> c11_review_verdict_check + c11_batch1..11_verdict_check ALL PASS;
+> c11_batch4..11_boundary_check ALL PASS; c11_s16_authorization_check
+> ALL PASS; c11_task4_variants 3/3; c11_negative_test 14/14;
+> c11_promote_test 27/27 (live store untouched); c11_diff_review_test
+> ALL PASS (R1 0/5/272); check_no_hardcode GREEN; the C27 sweep battery
+> 94/95 pre-commit (S0 working-tree-clean resolves at landing).
+> INVARIANTS HELD: the frozen pilot + batch-1..10 dispositions
+> byte-intact (122 held + B11-H-01..10 = 132 held, clean quarantine);
+> 272 promotions all operator-attributed; batch-11 nodes stay SUGGESTED
+> (no §18 node pathway); PART_OF derived and outside §18 (the 12
+> batch-11 PART_OF rows SUGGESTED pending their own lane); 4CH1-4.15
+> uncovered; no DB writes; AI attribution forbidden; graph/*.yaml never
+> hand-edited (all changes via the sanctioned generators). ZERO
+> promotions beyond the operator's CONFIRM set, ZERO verdicts invented.
+> NEXT: the §16 S1-S4 authoring program is CLOSED (181/182 SPs at
+> candidate level — only the 4.15 negative control uncovered, by
+> design). Remaining operator-held: D4 subject-#2 K0(ii) corpus
+> securing, snap-002 re-freeze, v78 explorer build, PAT rotation. The
+> route-specific interpretation of the prerequisite edges is now a
+> recorded operator invariant for every downstream consumer of the
+> graph.

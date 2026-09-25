@@ -21,8 +21,8 @@
     "held_candidates": 13,
     "held": 11,
     "rejected": 2,
-    "promoted": 255,
-    "human_validated": 372,
+    "promoted": 272,
+    "human_validated": 389,
     "operator_review_surface": {
       "suggested_authored_edges": 31,
       "nodes": 29,
@@ -109,9 +109,9 @@
       "meaning": "fraction of candidates permanently refused (HELD-09 negative control; HELD-13 operator REJECT)"
     },
     "promotion_rate": {
-      "value": 0.5225,
+      "value": 0.5574,
       "formula": "promoted / total_edges",
-      "inputs": "255 / 488",
+      "inputs": "272 / 488",
       "meaning": "the fraction of live edges carrying HUMAN_VALIDATED — 0 by design at the session-43 pre-verdict state (nothing is ratified until the operator records verdicts); since session 45 it is the §18 promotion fraction (operator-ratified identities only, never batch/node/relation-wide)"
     },
     "operator_review_rate": {
@@ -642,7 +642,7 @@
       "rates": {
         "held_rate": 0.37,
         "rejection_rate": 0.0,
-        "promotion_rate": 0.0,
+        "promotion_rate": 1.0,
         "operator_review_rate": 1.0
       },
       "false_positive_categories_observed": [
@@ -652,13 +652,13 @@
         "FP-B11-4 (the practical shape: the 4.43C SP carried by the scoped 4CH1-PR-12 with PR-anchored edges, no practical concept node — the batch-3 1.60C/PR-04 precedent)"
       ],
       "operator_verdicts": {
-        "confirm": 0,
+        "confirm": 17,
         "reject": 0,
         "hold": 0,
         "merge": 0,
         "split": 0
       },
-      "notes_text": "pred-vs-act: nodes -84.1% / edges -51.0% vs the 2.4/2.75 model — the deepest consolidation band yet (nodes/SP 0.38, edges/SP 1.31): the THREE one-family rulings fold 8 of the 12 non-practical SPs into 3 nodes while the boundary-disciplined edge surface runs dense (12 of the 17 authored edges are sanctioned cross-section rows into TEN existing-owner targets — batch-10 owners x5 rows (CON-ALCOHOLS x2, CON-CARBOXYLIC-ACIDS x2, CON-ALKENES), batch-9 owners x4 rows (CON-ORGANIC-FORMULAE, CON-IUPAC-NAMING, CON-ORGANIC-REACTION-CLASSES, CON-CO-POISONING), batch-5 CON-CO2-GREENHOUSE, batch-1 CON-SIMPLE-DISTILLATION, batch-7 CON-ACID-REACTIONS; the two double-targeted owners carry the batch-5 x2 precedent). ONE mark-scheme-documented misconception mint (the Alkenes MS Q2(c) / Synthetic Polymers MS Q4(c) 'Any double-bonded product scores 0/2' Reject row — the session-64 ruling's pre-routed evidence; MIS-POLYMER-DOUBLE-BOND, B11-ID-04). The ethanol-CO held record B10-H-08 STAYS HELD (batch 11's CO surface is polymer incineration, not ethanol-CO). ZERO pass-2 demotions. Coverage after: 49 of 50 S4 SPs, 181 of 182 total — only the 4.15 negative control remains uncovered. The forecast record is appended AT AUTHORING (the session-61 lesson)."
+      "notes_text": "pred-vs-act: nodes -84.1% / edges -51.0% vs the 2.4/2.75 model — the deepest consolidation band yet (nodes/SP 0.38, edges/SP 1.31): the THREE one-family rulings fold 8 of the 12 non-practical SPs into 3 nodes while the boundary-disciplined edge surface runs dense (12 of the 17 authored edges are sanctioned cross-section rows into TEN existing-owner targets — batch-10 owners x5 rows (CON-ALCOHOLS x2, CON-CARBOXYLIC-ACIDS x2, CON-ALKENES), batch-9 owners x4 rows (CON-ORGANIC-FORMULAE, CON-IUPAC-NAMING, CON-ORGANIC-REACTION-CLASSES, CON-CO-POISONING), batch-5 CON-CO2-GREENHOUSE, batch-1 CON-SIMPLE-DISTILLATION, batch-7 CON-ACID-REACTIONS; the two double-targeted owners carry the batch-5 x2 precedent). ONE mark-scheme-documented misconception mint (the Alkenes MS Q2(c) / Synthetic Polymers MS Q4(c) 'Any double-bonded product scores 0/2' Reject row — the session-64 ruling's pre-routed evidence; MIS-POLYMER-DOUBLE-BOND, B11-ID-04). The ethanol-CO held record B10-H-08 STAYS HELD (batch 11's CO surface is polymer incineration, not ethanol-CO). ZERO pass-2 demotions. Coverage after: 49 of 50 S4 SPs, 181 of 182 total — only the 4.15 negative control remains uncovered. The forecast record is appended AT AUTHORING (the session-61 lesson). Session-67 (2026-09-25): operator gate SETTLED — the operator's verdict (PASS WITH NOTES / Batch 11: ACCEPTED; intake = GITHUB-DIRECT sheet review + INLINE operator verdict via the zai-web chat lane, intake artifact C11_BATCH11_OPERATOR_VERDICT.md — no restatement blocks claimed; the CONFORMANCE gate applied and passed) recorded in scripts/c11_batch11_verdicts.yaml (17 edge CONFIRM / 5 node CONFIRM / 4 identity KEEP_AS_IS / 10 held acknowledged-quarantined at RANGE level / zero RR / zero REJECT) WITH the operator's SCOPED-RP semantic guardrail (REQUIRES_PREREQUISITE is a scoped teaching/route dependency, not a universal ontological prerequisite — the four scoping groups carried per-row on the EIGHT route-dependent rows) and the boundary-preservation ruling (12/12 RETAIN into the TEN existing owners, no duplicate mints) and applied through §18 (17 promotions, operator, review_ref = the B11 diff-review bundle; promotion_rate 1.0 — zero RR authored, so every authored edge was promotable post-verdict). Store: 255 -> 272 semantic HV, shape 193/488/211 unchanged (statuses only). S4 COMPLETE — the §16 S1-S4 authoring program closes."
     }
   ],
   "future_batch_record_schema": {

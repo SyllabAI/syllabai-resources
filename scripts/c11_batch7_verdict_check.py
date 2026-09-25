@@ -386,6 +386,11 @@ B11_AUTHORED = {triple(e)
 # the batch-4..10 authored sets stay fully HUMAN_VALIDATED. No
 # test weakened.
 
+# session-67 re-anchor (2026-09-25, dated; protective intent unchanged): the batch-11
+# verdicts were APPLIED through §18 (17 operator promotions, c11_batch11_verdicts, the
+# B11 diff-review bundle graph/reports/C11_DIFF_REVIEW_B11_2026-09-25.md) — the 17 batch-11
+# authored edges left the SUGGESTED surface (live SUGGESTED = the 3 pilot HOLDs again)
+# and the semantic HV count moved 255 -> 272. No test weakened.
 check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
       "the live SUGGESTED semantic surface is EXACTLY the pilot HOLDs (the "
       "batch-8 authored edges were promoted by the operator's verdicts "
@@ -393,8 +398,8 @@ check("D2 the 3 pilot operator HOLDs stay SUGGESTED (un-promoted) and "
       "by the operator's verdicts through §18 at session 63; batch-7 "
       "verdicts applied at session 60)",
       pilot_holds <= live_sugg and not (pilot_holds & hv)
-      and live_sugg == pilot_holds | B11_AUTHORED
-      and B10_AUTHORED <= hv
+      and live_sugg == pilot_holds
+      and B10_AUTHORED <= hv and B11_AUTHORED <= hv
       and B8_AUTHORED <= hv,
       f"live SUGGESTED = {len(live_sugg)}")
 pilot_rr = [e for e in sem if triple(e) == PILOT_RR_TRIPLE]
@@ -450,8 +455,8 @@ check("D10 batch-6 slice intact: 16 batch-6 CONFIRM still HUMAN_VALIDATED",
 # session-63 re-anchor (dated, protective intent unchanged): the batch-9
 # §18 application added 20 operator promotions — the store total moved
 # 216 -> 236; the batch-7 slice stays preserved exactly.
-check("D11 store total 255 (28+28+23+39+35+18+16+19+10+20+19), all operator",
-      len(store_map) == 255
+check("D11 store total 272 (28+28+23+39+35+18+16+19+10+20+19+17), all operator",
+      len(store_map) == 272
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

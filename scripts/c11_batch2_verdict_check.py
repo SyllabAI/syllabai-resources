@@ -254,10 +254,15 @@ check("D5 the batch-1 RR settlement stays REVIEW_REQUIRED (HOLD_REVIEW_REQ)",
 # APPLIED through §18 (19 promotions, operator, the B10 diff-review
 # bundle) — store total 236 -> 255 (28+28+23+39+35+18+16+19+10+20+19).
 # No test weakened.
-check("D6 store total 255 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
+# session-67 re-anchor (2026-09-25, dated; protective intent unchanged): the batch-11
+# verdicts were APPLIED through §18 (17 operator promotions, c11_batch11_verdicts, the
+# B11 diff-review bundle graph/reports/C11_DIFF_REVIEW_B11_2026-09-25.md) — the 17 batch-11
+# authored edges left the SUGGESTED surface (live SUGGESTED = the 3 pilot HOLDs again)
+# and the semantic HV count moved 255 -> 272. No test weakened.
+check("D6 store total 272 (28 pilot + 28 batch-1 + 23 batch-2 + 39 "
       "batch-3 + 35 batch-4 + 18 batch-5 + 16 batch-6 + 19 batch-7 + 10 "
-      "batch-8 + 20 batch-9 + 19 batch-10), all operator",
-      len(store_map) == 255
+      "batch-8 + 20 batch-9 + 19 batch-10 + 17 batch-11), all operator",
+      len(store_map) == 272
       and all(p.get("validated_by") == "operator"
               for p in store_map.values()))
 n415 = [x for x in nodes_doc["nodes"]

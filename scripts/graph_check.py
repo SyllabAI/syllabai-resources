@@ -1043,6 +1043,18 @@ C11_NEGATIVE_CONTROL = "4CH1-4.15"
 # by the SANCTIONED batch-11 authored-to-gate record (4 nodes-worth of
 # PART_OF rows ride the SP attachments; 17 authored semantic edges; 13 new
 # command kinds); no test weakened.
+# session-67 state note (dated, no test weakened): the operator's batch-11
+# verdict (PASS WITH NOTES / Batch 11: ACCEPTED, session 67, the GitHub-
+# direct sheet review + inline verdict lane) was APPLIED through §18 — 17
+# operator promotions (the CONFIRM set, review_ref = the B11 diff-review
+# bundle) move the semantic HV count 255 -> 272 (389 with the 117 T-C19
+# G19 PART_OF rows); shape 193/488/211 unchanged (statuses only); the
+# live SUGGESTED semantic surface is the 3 frozen pilot operator HOLDs
+# again; the batch-11 PART_OF rows stay SUGGESTED pending their own lane;
+# the operator's SCOPED-RP semantic guardrail (REQUIRES_PREREQUISITE = a
+# scoped teaching/route dependency, not a universal ontological
+# prerequisite) is recorded per-row in the verdict record and is binding
+# for every downstream consumer.
 C11_COUNTS = {"nodes": 193, "concepts": 167, "misconceptions": 26,
               "edges": 488,
               "part_of": 211, "requires_prerequisite": 209,
@@ -1908,14 +1920,18 @@ def main():
           # session-66: the summary names the batch-11 authored-to-gate
           # slice (S4-g/h — the store's stage string grows; state note, no
           # test weakened)
+          # session-67: the summary names the batch-11 verdict application
+          # (§18 applied — 17 operator promotions, the session-67 operator
+          # verdict PASS WITH NOTES / Batch 11: ACCEPTED); state note, no
+          # test weakened
           f"T-C11 store (pilot + §16 batches 1-3 + S3 batch 4 + S2 batches "
           f"5-8 + the batch-9 slice S4-a/b/c 4.1-4.22 + the batch-10 "
           f"authored-to-gate slice S4-d/e/f 4.23-4.37C + the batch-11 "
-          f"authored-to-gate slice S4-g/h 4.38C-4.50C, "
+          f"slice S4-g/h 4.38C-4.50C, "
           f"batch-6 verdicts applied session 58, batch-7 verdicts "
           f"applied session 60, batch-8 verdicts applied session 62, "
           f"batch-9 verdicts applied session 63, batch-10 verdicts "
-          f"applied session 65): "
+          f"applied session 65, batch-11 verdicts applied session 67): "
           f"{C11_COUNTS['nodes']} concept "
           f"nodes, "
           f"{C11_COUNTS['edges']} concept edges "
@@ -1928,7 +1944,8 @@ def main():
           f"session 56; batch-6 verdicts applied session 58; batch-7 "
           f"verdicts applied session 60; batch-8 verdicts applied "
           f"session 62; batch-9 verdicts applied session 63; batch-10 "
-          f"verdicts applied session 65 — "
+          f"verdicts applied session 65; batch-11 verdicts applied "
+          f"session 67 — "
           f"nodes have no §18 pathway), "
           f"negative control "
           f"{C11_NEGATIVE_CONTROL} "
