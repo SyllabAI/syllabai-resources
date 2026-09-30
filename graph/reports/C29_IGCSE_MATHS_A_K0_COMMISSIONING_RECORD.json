@@ -1,0 +1,92 @@
+{
+ "schema": "syllabai.c29-k0-commissioning-record/1.0",
+ "task": "T-C29",
+ "phase": "K0",
+ "qual": "igcse-maths-a",
+ "course": "igcse-maths-a-18-higher",
+ "board": "Pearson Edexcel",
+ "level": "IGCSE",
+ "subject_code": "4MA1",
+ "tier": "Higher",
+ "date": "2026-09-30",
+ "operator_directive": "commission K0/T-C29 for igcse-maths-a",
+ "operator_directive_channel": "zai-web, inline, 2026-09-30",
+ "prior_operator_decision": "I want Maths A Higher. (subject-#2 D4 selection)",
+ "baseline": {
+  "resources_head": "4ad1673",
+  "hub_evidence_head": "132c15a",
+  "layer3_run_evidence": {"hub": "bdb7a3a", "resources": "1245df0", "date": "2026-09-28"}
+ },
+ "predecessors": [
+  "graph/reports/C28_MULTI_SUBJECT_EXPANSION_SPEC.md",
+  "graph/reports/C28_GRAPH_LAYOUT_MIGRATION_RECORD.md",
+  "graph/reports/C28_SERVING_PLANE_RECORD.md",
+  "commit 4ad1673 (layer-3 subject-#2 import tooling: s104/s105 + verifier)"
+ ],
+ "gates": {
+  "k0_i_parsed_bundle": {
+   "status": "PASS",
+   "parse_report_gates": {
+    "G1_schema_present": true, "G2_ids_unique": true,
+    "G3_provenance_complete": true, "G4_id_prefix_valid": true,
+    "ALL_PASS": true},
+   "counts": {"spec_points": 242, "topics": 18, "subsections": 78,
+               "practicals": 0, "flagged": 8},
+   "unique_official_codes": 188,
+   "flagged_codes": ["4.5D", "3.1A", "3.2B", "3.2D", "3.3A", "3.3B", "3.3E", "4.6C"],
+   "pdf_sha1": "b71a6432b8e34c155efb510d79a7b6e97611ba01"
+  },
+  "k0_ii_notes_corpus_secured": {
+   "status": "PASS",
+   "upstream_manifest": {
+    "schema": "syllabai.sme-revision-notes-course/1.0",
+    "pages_expected": 191, "pages_scraped": 191, "fetch_failures": 0,
+    "assets": 389, "asset_failures": 0, "spec_point_links": 203,
+    "guided_study_pages": 143, "markdown_chars": 864016},
+   "note_files": {"json": 191, "md": 191},
+   "note_schema": "syllabai.sme-revision-note/1.0",
+   "authorization": "LICENSE-DATA.md Amendment 2026-09-17 (operator attestation, Save My Exams permission, recorded verbatim in-session)",
+   "hub_mirror": {
+    "import_source": "SyllabAI/syllabai-resources@75755855f9e24391edb244f03993cc649bdf4e7a",
+    "counts": {"sections": 6, "topics": 39, "specPoints": 188, "notes": 191,
+                "questionSets": 58, "questions": 2703, "flashcards": 999}},
+   "k2_prerequisite_gap": "no chem-style notes->SP validated join exists for maths (SME index name-only, 203 unvalidated spec_point_links); mapping-stage name bridging per parse_report sme_crossref note — first K2-lane work item"
+  },
+  "k0_iii_operator_directive": {"status": "PASS",
+   "evidence": "this record + checker G3 (record names qual, task, directive verbatim)"},
+  "k0_iv_scope_estimate": {
+   "status": "PASS",
+   "model_inputs": {
+    "pilot_nodes_per_sp": 2.4, "pilot_authored_edges_per_sp": 2.75,
+    "pilot_held_per_sp": 1.0, "adjusted_nodes_per_sp": 1.0,
+    "adjusted_authored_edges_per_sp": 1.6, "sp_per_batch": 12,
+    "provenance": "C28 spec §6-K0(iv) (§16 sanctioned pilot ratios + chemistry observed discipline-adjusted actuals)"},
+   "sp_base": 188,
+   "pilot_model": {"nodes": 451, "authored_edges": 517, "held": 188},
+   "discipline_adjusted": {"nodes": 188, "authored_edges": 301},
+   "batches_at_12sp": 16,
+   "proportionality": "chemistry 182 SPs -> 12-SP pilot + 14 batches; maths 188 SPs -> ~15-16 batches; 0 practicals (chemistry 12)"
+  }
+ },
+ "errata": {
+  "corrects": "graph/reports/C28_SERVING_PLANE_RECORD.md D4 row (2026-09-21): 'gate RED (K0(ii)) — no equivalent notes corpus exists for any candidate'",
+  "correction": "sparse-workspace visibility artifact; the corpus landed in-repo 2026-09-17 09:40 UTC (9cb934a, 39 courses incl. igcse-maths-a-18-higher 191/191) with authorization attested the same day; extended 49/49 by 9e6b2cd 2026-09-19",
+  "mechanism": "P5 — older record byte-untouched, correction dated in this newer record; nothing weakened"
+ },
+ "verification": {
+  "checker": "scripts/c29_k0_check.py",
+  "checker_sha256_16": "3530ff80c3810b2e",
+  "report": "graph/reports/C29_K0_CHECK.json",
+  "report_sha256_16": "6286341eb5556561",
+  "gates": ["G1_k0_i_parsed_bundle", "G2_k0_ii_notes_corpus_secured",
+             "G3_k0_iii_operator_directive", "G4_hub_mirror_agreement",
+             "G5_k0_iv_scope_estimate", "G6_p3_folder_discipline"],
+  "result": "ALL PASS (G4 executed with hub checkout @ 132c15a)"
+ },
+ "footprint": "this record + JSON twin + checker + check report; zero bytes in graph stores, parsed/** canonical JSON, or SME corpora (G6 asserts P3 live)",
+ "next_gates": {
+  "k1": "c23-pattern emitter -> graph/igcse-maths-a/ 5 spec-text stores + registry entry + graph_check extension; canonical equality 1:1, counts == parse_report (188 SP, 0 practicals, 8 flagged rows survive flagged); tree-shape agreement with s105 draft (6/39/188, 4MA1-S<section>-<letter>[-<point>])",
+  "k2": "operator-gated per batch; first prerequisite = notes->SP name-bridging join for igcse-maths-a-18-higher",
+  "k3_k4": "C28 emitter/S8 machinery unchanged"
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "schema": "syllabai.c29-k0-check/1.0",
+ "task": "T-C29 K0 commissioning \u2014 igcse-maths-a (course igcse-maths-a-18-higher, 4MA1 Higher)",
+ "generated_utc": "2026-09-30T09:26:34Z",
+ "head": "4ad167376fdfd52949d70dd790a119d50917ef73",
+ "gates": {
+  "G1_k0_i_parsed_bundle": {
+   "status": "PASS",
+   "parse_report_gates": {
+    "G1_schema_present": true,
+    "G2_ids_unique": true,
+    "G3_provenance_complete": true,
+    "G4_id_prefix_valid": true,
+    "ALL_PASS": true
+   },
+   "missing_bundle_files": [],
+   "counts": {
+    "spec_points": 242,
+    "practicals": 0,
+    "topics": 18,
+    "subsections": 78,
+    "flagged": 8
+   },
+   "rows": 242,
+   "unique_official_codes": 188,
+   "flagged": [
+    "3.1A",
+    "3.2B",
+    "3.2D",
+    "3.3A",
+    "3.3B",
+    "3.3E",
+    "4.5D",
+    "4.6C"
+   ],
+   "pdf_sha1": "b71a6432b8e34c155efb510d79a7b6e97611ba01",
+   "pins": {
+    "parse_report_sha256_16": "489f8b9f85409462",
+    "spec_points_sha256_16": "8ee35fb9e8d3f338"
+   }
+  },
+  "G2_k0_ii_notes_corpus_secured": {
+   "status": "PASS",
+   "manifest_counts": {
+    "pages_expected": 191,
+    "pages_scraped": 191,
+    "fetch_failures": 0,
+    "assets": 389,
+    "asset_failures": 0,
+    "spec_point_links": 203,
+    "guided_study_pages": 143,
+    "markdown_chars": 864016
+   },
+   "manifest_schema": "syllabai.sme-revision-notes-course/1.0",
+   "note_json_files": 191,
+   "note_md_files": 191,
+   "readme_row": "| igcse-maths-a-18-higher | 191/191 | 389 | 203 |",
+   "sample_note_schema": "syllabai.sme-revision-note/1.0",
+   "sample_note_course": "igcse-maths-a-18-higher",
+   "license_amendment_present": true,
+   "pins": {
+    "manifest_sha256_16": "cc470d40873f51a4",
+    "license_sha256_16": "71895fe07a77aa7d"
+   }
+  },
+  "G3_k0_iii_operator_directive": {
+   "status": "PASS",
+   "record_present": true,
+   "names_qual": true,
+   "names_task": true,
+   "directive_quoted": true
+  },
+  "G4_hub_mirror_agreement": {
+   "status": "PASS",
+   "hub_counts": {
+    "sections": 6,
+    "topics": 39,
+    "specPoints": 188,
+    "notes": 191,
+    "questionSets": 58,
+    "questions": 2703,
+    "parts": 3550,
+    "marks": 9741,
+    "flashcards": 999
+   },
+   "hub_curriculum": {
+    "board": "Pearson Edexcel",
+    "level": "IGCSE",
+    "subject": "Maths",
+    "code": "4MA1",
+    "syllabusVersion": "2016"
+   },
+   "import_source": {
+    "repo": "SyllabAI/syllabai-resources",
+    "ref": "main@75755855f9e24391edb244f03993cc649bdf4e7a",
+    "upstreamSchemas": [
+     "syllabai.sme-revision-note/1.0",
+     "syllabai.sme-revision-notes-course/1.0",
+     "syllabai.sme-exam-questions/1.1",
+     "syllabai.sme-flashcard-deck/1.0"
+    ]
+   },
+   "upstream_schemas": [
+    "syllabai.sme-revision-note/1.0",
+    "syllabai.sme-revision-notes-course/1.0",
+    "syllabai.sme-exam-questions/1.1",
+    "syllabai.sme-flashcard-deck/1.0"
+   ],
+   "pins": {
+    "hub_manifest_sha256_16": "38a256f7e9557efe"
+   }
+  },
+  "G5_k0_iv_scope_estimate": {
+   "status": "PASS",
+   "estimate": {
+    "sp_base": 188,
+    "pilot_model": {
+     "nodes": 451,
+     "authored_edges": 517,
+     "held": 188
+    },
+    "discipline_adjusted": {
+     "nodes": 188,
+     "authored_edges": 301
+    },
+    "batches_at_12sp": 16
+   },
+   "model_inputs": [
+    {
+     "pilot_nodes_per_sp": 2.4,
+     "pilot_authored_edges_per_sp": 2.75,
+     "pilot_held_per_sp": 1.0,
+     "adjusted_nodes_per_sp": 1.0,
+     "adjusted_authored_edges_per_sp": 1.6,
+     "sp_per_batch": 12,
+     "provenance": "graph/reports/C28_MULTI_SUBJECT_EXPANSION_SPEC.md \u00a76-K0(iv) (the \u00a716 sanctioned pilot ratios and the chemistry program's observed discipline-adjusted actuals)"
+    }
+   ]
+  },
+  "G6_p3_folder_discipline": {
+   "status": "PASS",
+   "graph_dirs": [
+    "graph/igcse-chemistry",
+    "graph/reports"
+   ],
+   "registry_has_maths_a_qual": false,
+   "derived_has_maths_a_concepts": false
+  }
+ },
+ "read_methods": {
+  "Official-Specifications/parsed/igcse-maths-a/parse_report.json": "disk",
+  "Official-Specifications/parsed/igcse-maths-a/spec_points.json": "disk",
+  "SME-RevisionNotes/igcse-maths-a-18-higher/manifest.json": "git-show",
+  "SME-RevisionNotes/README.md": "git-show",
+  "LICENSE-DATA.md": "disk",
+  "scripts/graph_paths.yaml": "disk"
+ },
+ "all_pass": true
+}
