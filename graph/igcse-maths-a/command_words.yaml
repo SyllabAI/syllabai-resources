@@ -1,0 +1,53 @@
+meta:
+  curriculum_code: 4MA1-2016
+  qualification: Pearson Edexcel International GCSE (9-1) Mathematics A
+  syllabus_version: '2016'
+  tier_program: Higher
+  phase: 1
+  node_families:
+  - TOPIC
+  - SUBTOPIC
+  - SPEC_POINT
+  graph_format_version: 1
+  source_documents:
+  - file: international-gcse-in-mathematics-spec-a.pdf
+    role: official-pdf
+    sha1: b71a6432b8e34c155efb510d79a7b6e97611ba01
+  - file: Official-Specifications/parsed/igcse-maths-a/command_words.json
+    role: canonical-pdf-direct-parse
+    builder: canonical-builder-2.0
+  edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+    RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+  provenance_default: RULE_DERIVED
+  statement_text_policy: verbatim from the official PDF (canonical PDF-direct parse, whitespace-normalised
+    only); notation damage preserved and flagged, never fixed
+  tier_dedupe:
+    rule: higher-preferred — where an official_code appears in both tier walks the Higher-tier statement
+      is the operative wording for the commissioned Higher program; Foundation-only statements are carried
+      verbatim (assumed knowledge per the spec's own applicability rule)
+    ledger: graph/reports/C30_MATHS_A_TIER_DEDUPE_LEDGER.json
+    dup_codes: 54
+    reworded: 53
+    same_text: 1
+    higher_only: 26
+    foundation_only: 108
+  notes:
+  - content subsections are numbered without titles in this specification (canonical subsection.title
+    empty on all 242 rows) — subtopic titles are null, never invented
+  - no spec-issue string is asserted by the canonical parse; syllabus_version 2016 per the hub registry
+    and s105 usage
+  - draft_skill_tags are a chemistry c09-era authoring aid with no canonical source in this parse — not
+    derived for this qual
+  counts:
+    spec_points: 188
+    topics: 6
+    subtopics: 39
+    practicals: 0
+    command_words: 0
+    flagged_spec_points: 8
+    damage_flag_vocabulary:
+    - math-fragment-assembly
+  generator: scripts/c30_emit_maths_a_spec_stores.py
+  generated: '2026-10-01'
+command_words: []
+note: no command-word taxonomy table in source specification

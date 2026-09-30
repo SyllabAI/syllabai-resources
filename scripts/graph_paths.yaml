@@ -25,6 +25,19 @@ quals:
       spec_command_kinds: graph/{QUAL}/spec_command_kinds.yaml
     reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
     core_sync_target: syllabai-core/src/main/resources/concept-graph/
+  # T-C30 (K1, 2026-10-01): subject-#2 qual commissioned by T-C29 K0. P3:
+  # the qual's store set grows as its program earns stores — K1 emits the 5
+  # spec-text stores; concepts/edges/chunk-maps/kinds arrive with K2, the
+  # relationships store with the ratified-hierarchy lane. No root-form
+  # legacy paths ever existed for this qual — no legacy_map entries.
+  igcse-maths-a:
+    stores:
+      specification_points: graph/{QUAL}/specification_points.yaml
+      topics: graph/{QUAL}/topics.yaml
+      practicals: graph/{QUAL}/practicals.yaml
+      assessment_objectives: graph/{QUAL}/assessment_objectives.yaml
+      command_words: graph/{QUAL}/command_words.yaml
+    reports_dir: graph/reports/                                  # SHARED audit trail (never per-qual)
 legacy_map:
   graph/specification_points.yaml: graph/igcse-chemistry/specification_points.yaml
   graph/topics.yaml: graph/igcse-chemistry/topics.yaml

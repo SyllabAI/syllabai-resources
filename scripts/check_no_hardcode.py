@@ -48,26 +48,36 @@ def scan():
 
 
 def registry_consistency():
-    """(ok, detail): every registered store resolves on disk; if legacy_map is
-    filled it must equal the derived legacy->canonical mapping exactly."""
+    """(ok, detail): every registered store resolves on disk for EVERY qual
+    (T-C30 K1 extension: the registry is multi-qual since igcse-maths-a);
+    if legacy_map is filled it must equal the derived legacy->canonical
+    mapping of the migrating (default) qual exactly — only that qual ever
+    had root-form store paths."""
     sys.path.insert(0, str(_HERE))
     import graph_paths as GP
     reg_path = _HERE / "graph_paths.yaml"
     if not reg_path.exists():
         return False, "registry file missing"
-    names = GP.store_names()
-    missing = [n for n in names if not GP.store(n).exists()]
+    quals = sorted((GP._reg().get("quals") or {}))
+    missing = []
+    for q in quals:
+        for n in GP.store_names(q):
+            if not GP.store(n, q).exists():
+                missing.append(f"{q}:{n}")
     if missing:
         return False, f"store paths do not resolve on disk: {missing[:3]}"
     lm = GP._reg().get("legacy_map") or {}
+    names = GP.store_names()  # default (migrating) qual
     derived = {GP.legacy_rel(n): GP.store_rel(n) for n in names}
-    stage = (GP._reg().get("layout") or {}).get("qual_prefix", "")
     if lm and lm != derived:
         diff = {k for k in set(lm) | set(derived) if lm.get(k) != derived.get(k)}
         return False, f"legacy_map != derived mapping: {sorted(diff)[:3]}"
+    detail_stores = sum(len(GP.store_names(q)) for q in quals)
     if lm:
-        return True, f"{len(names)}/{len(names)} stores resolve (post-migration layout); legacy_map == derived ({len(lm)})"
-    return True, f"{len(names)}/{len(names)} stores resolve (pre-migration root layout, qual_prefix=''), legacy_map empty"
+        return True, (f"{detail_stores} stores resolve across {len(quals)} quals "
+                      f"(post-migration layout); legacy_map == derived ({len(lm)})")
+    return True, (f"{detail_stores} stores resolve across {len(quals)} quals "
+                  f"(pre-migration root layout, qual_prefix=''), legacy_map empty")
 
 
 def main() -> int:
