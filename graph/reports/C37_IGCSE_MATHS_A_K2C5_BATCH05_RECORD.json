@@ -1,0 +1,145 @@
+{
+  "schema": "syllabai.c37-batch05-record/1.0",
+  "task": "T-C37",
+  "gate": "K2-C-5",
+  "batch": "B05",
+  "generated_utc": "2026-10-02T00:00:00+00:00",
+  "status": "AUTHORED-TO-GATE — nothing promoted; verdicts reserved to the operator",
+  "directive": {
+    "verbatim": "K2-C-5",
+    "date": "2026-10-02",
+    "channel": "zai-web"
+  },
+  "baseline": "e4d45576252752c62212cc48533229865a363224",
+  "slice": {
+    "codes": [
+      "4MA1-1.9A",
+      "4MA1-1.10A",
+      "4MA1-1.10B",
+      "4MA1-1.10C",
+      "4MA1-1.11A",
+      "4MA1-2.1A",
+      "4MA1-2.1B",
+      "4MA1-2.1C",
+      "4MA1-2.1D",
+      "4MA1-2.2A",
+      "4MA1-2.2B",
+      "4MA1-2.2C"
+    ],
+    "global_order": "49-60",
+    "tier_mix": "5 Higher + 7 Foundation",
+    "section_boundary_crossing": true,
+    "damage_flags": 0
+  },
+  "authored": {
+    "concept_nodes": 12,
+    "misconception_nodes": 3,
+    "edges": 14,
+    "requires_prerequisite": 8,
+    "wap": 3,
+    "remediated_by": 3,
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": 3,
+    "evidence_anchors": 110,
+    "anchor_kinds": {
+      "NOTE": 38,
+      "SPEC": 33,
+      "MARK_SCHEME": 39
+    }
+  },
+  "mints": [
+    "4MA1-MIS-INDEX-POWER-MULTIPLICATION",
+    "4MA1-MIS-EXPANSION-SIGN-LOSS",
+    "4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION"
+  ],
+  "not_re_minted": [
+    "4MA1-MIS-SURD-FACTOR-SWAP",
+    "4MA1-MIS-CONJUGATE-EXPANSION-SIGN",
+    "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION",
+    "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION",
+    "4MA1-MIS-RATIO-ORDER-INVERSION"
+  ],
+  "landed_holds": {
+    "B05-H-05": "B04-H-07"
+  },
+  "inherited_quarantines": [
+    "B01-H-01..05",
+    "B02-H-01..08",
+    "B03-H-01..08",
+    "B04-H-01..08"
+  ],
+  "coverage": {
+    "notes_joined_sps": 8,
+    "spec_text_only_sps": 4,
+    "join_rows": 15,
+    "distinct_note_files": 14,
+    "uncited_join_census": "EMPTY",
+    "ms_evidenced_sps": 12
+  },
+  "slice_honesty": {
+    "substrate_alignment_discovery": "FP-B05-1 — the five higher-preferred rows' notes carry the Foundation-variant substances of their own codes (C30 tier-dedupe ledger); recorded, never repaired",
+    "pass2_findings": [
+      "FP-B05-1",
+      "FP-B05-2"
+    ],
+    "re_authoring_cases": 0
+  },
+  "verification": {
+    "preverify": "36/36 PASS",
+    "quote_probe": "110/110 byte-exact",
+    "term_audit": {
+      "terms": 81,
+      "match_terms": 12,
+      "future_boundary_map": [
+        "4MA1-1.4C",
+        "4MA1-2.3B",
+        "4MA1-3.4B"
+      ],
+      "inherited_2.1D": "IN-SLICE (the B03 audit prediction landing)"
+    },
+    "battery": "G1-G7 ALL PASS @ baseline e4d45576252752c62212cc48533229865a363224",
+    "standing_checkers": "graph_check + check_no_hardcode green"
+  },
+  "stores_grown": 0,
+  "identity_decisions": [
+    "B05-ID-01 the 1.8A/1.10B bounds mirror pair (the B04-H-07-recorded question)",
+    "B05-ID-02 the index-law mint home row 2.1D vs 2.1C",
+    "B05-ID-03 the two expansion mints mint-vs-trivia + home rows"
+  ],
+  "next_gates": [
+    "operator verdicts B01-B05",
+    "K2-C-6 (B06 = global_order 61-72; the B05-H-06 2.2E family hold lands there)",
+    "K2-B open in parallel"
+  ],
+  "artifacts": {
+    "authorization": {
+      "path": "scripts/c37_maths_a_batch05_authorization.yaml",
+      "sha256_16": "72c0dff1c89b6caf"
+    },
+    "decisions": {
+      "path": "scripts/c37_maths_a_batch05_decisions.yaml",
+      "sha256_16": "69fb4ac44d205d82"
+    },
+    "pass2": {
+      "path": "scripts/c37_maths_a_batch05_review_pass2.yaml",
+      "sha256_16": "8d79c1ccc18e020f"
+    },
+    "review_sheet": {
+      "path": "graph/reports/C37_BATCH05_REVIEW_SHEET.md",
+      "sha256_16": "75b2defdf2adfc93"
+    },
+    "review_json": {
+      "path": "graph/reports/C37_BATCH05_REVIEW.json",
+      "sha256_16": "219947c99bf152c9"
+    },
+    "check_report": {
+      "path": "graph/reports/C37_BATCH05_CHECK.json",
+      "sha256_16": "fba93ac1a5b48820"
+    },
+    "record_md": {
+      "path": "graph/reports/C37_IGCSE_MATHS_A_K2C5_BATCH05_RECORD.md",
+      "sha256_16": "d2e4a3d48a139830"
+    }
+  }
+}

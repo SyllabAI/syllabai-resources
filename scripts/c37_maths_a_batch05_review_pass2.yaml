@@ -1,0 +1,98 @@
+# T-C37 K2-C-5 — batch-B05 adversarial pass-2 review record (the c36_maths_a_batch04_
+# review_pass2.yaml shape, fifth-batch instance). Pass 2 is the authoring agent's second,
+# adversarial pass over its own pass-1 extraction: every row re-ruled, every doubt either
+# resolved on explicit evidence or routed to the held record / the operator's identity
+# decisions. NOTHING in this file promotes anything — SUGGESTED stays SUGGESTED until the
+# operator's verdict gate.
+meta:
+  task: T-C37
+  stage: k2-c-batch-05-pass2
+  extraction_pass: c37-k2c-batch-05
+  pass: 2
+  mode: adversarial-second-pass
+  generated_date: '2026-10-02'
+  model_version: GLM (Super Z agent, z.ai)
+  method: >-
+    every pass-1 row re-checked against its cited evidence (re-read under the batch-8
+    normalization convention), then re-ruled on the relation CLASS and direction, not just
+    existence; the three misconception mints re-tested against the MS documentation (and
+    re-tested for NOT re-minting any of the five prior maths-a classes); the cross-batch
+    holds re-tested for silent-drop avoidance (the B04-H-07 landing re-derived as B05-H-05
+    with the edge aimed at the authored B05 node); the uncited-join census re-derived as a
+    file-set check (empty — all 14 join-carried pages cited); the edge DAG re-walked for
+    cycles (8 REQUIRES_PREREQUISITE edges over 12 concept nodes — no cycles: 2.1B feeds
+    2.1C/2.2A; 2.1C feeds 2.1A/2.1D/2.2B; 2.2A feeds 2.2B/2.2C; 2.2B feeds 2.2C). TWO
+    pass-2 findings, both resolved BEFORE landing and re-verified by the machine gates:
+    FP-B05-1 — the pair-back probe caught the substitution note's rows initially considered
+    for the 2.2A node beyond the Foundation-variant framing: the page is joined to 2.2A
+    (correct per the tier-dedupe alignment this batch records), but its substance is the
+    Foundation variant's ("evaluate expressions by substituting numerical values for
+    letters"), so the node attachment cites it for the evaluation substrate both variants
+    share and the expansion substance is carried by the MS rows — the discovery is
+    RECORDED on the node's derivation notes (the batch's slice-honesty contribution), not
+    papered over. FP-B05-2 — the authoring-time YAML serialization caught eight plain-
+    scalar colon collisions (demanded_substance and derivation_notes strings containing
+    literal ': ' sequences, plus one quote ending in a colon) — resolved by quoting the
+    scalars and rewording the prose colons as dashes; zero substance changed, re-verified
+    by the preverify battery (36/36) and the quote probe (110/110 anchors byte-exact).
+node_verdicts:
+  4MA1-CON-STANDARD-FORM-PROBLEMS: CONFIRM
+  4MA1-CON-NUMBER-IN-EVERYDAY-CONTEXT: CONFIRM
+  4MA1-CON-STANDARD-UNIT-CALCULATIONS: CONFIRM
+  4MA1-CON-TIME-MONEY-AND-CURRENCIES: CONFIRM
+  4MA1-CON-SCIENTIFIC-CALCULATOR-USE: CONFIRM
+  4MA1-CON-EXTENDED-INDEX-NOTATION: CONFIRM
+  4MA1-CON-ALGEBRA-GENERALISED-ARITHMETIC: CONFIRM
+  4MA1-CON-INTEGER-INDEX-NOTATION: CONFIRM
+  4MA1-CON-INDEX-LAWS: CONFIRM
+  4MA1-CON-EXPANDING-LINEAR-PRODUCTS: CONFIRM
+  4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING: CONFIRM
+  4MA1-CON-ALGEBRAIC-FRACTIONS: CONFIRM
+  4MA1-MIS-INDEX-POWER-MULTIPLICATION: CONFIRM
+  4MA1-MIS-EXPANSION-SIGN-LOSS: CONFIRM
+  4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION: CONFIRM
+edge_verdicts:
+  "4MA1-CON-EXPANDING-LINEAR-PRODUCTS REQUIRES_PREREQUISITE 4MA1-CON-ALGEBRA-GENERALISED-ARITHMETIC": CONFIRM
+  "4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING REQUIRES_PREREQUISITE 4MA1-CON-EXPANDING-LINEAR-PRODUCTS": CONFIRM
+  "4MA1-CON-ALGEBRAIC-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING": CONFIRM
+  "4MA1-CON-ALGEBRAIC-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-EXPANDING-LINEAR-PRODUCTS": CONFIRM
+  "4MA1-CON-EXTENDED-INDEX-NOTATION REQUIRES_PREREQUISITE 4MA1-CON-INTEGER-INDEX-NOTATION": CONFIRM
+  "4MA1-CON-INDEX-LAWS REQUIRES_PREREQUISITE 4MA1-CON-INTEGER-INDEX-NOTATION": CONFIRM
+  "4MA1-CON-INTEGER-INDEX-NOTATION REQUIRES_PREREQUISITE 4MA1-CON-ALGEBRA-GENERALISED-ARITHMETIC": CONFIRM
+  "4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING REQUIRES_PREREQUISITE 4MA1-CON-INTEGER-INDEX-NOTATION": CONFIRM
+  "4MA1-MIS-INDEX-POWER-MULTIPLICATION WRONG_ANSWER_PATTERN 4MA1-CON-INDEX-LAWS": CONFIRM
+  "4MA1-MIS-INDEX-POWER-MULTIPLICATION REMEDIATED_BY 4MA1-CON-INDEX-LAWS": CONFIRM
+  "4MA1-MIS-EXPANSION-SIGN-LOSS WRONG_ANSWER_PATTERN 4MA1-CON-EXPANDING-LINEAR-PRODUCTS": CONFIRM
+  "4MA1-MIS-EXPANSION-SIGN-LOSS REMEDIATED_BY 4MA1-CON-EXPANDING-LINEAR-PRODUCTS": CONFIRM
+  "4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION WRONG_ANSWER_PATTERN 4MA1-CON-EXPANDING-LINEAR-PRODUCTS": CONFIRM
+  "4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION REMEDIATED_BY 4MA1-CON-EXPANDING-LINEAR-PRODUCTS": CONFIRM
+held_agreements:
+  B05-H-01: AGREE
+  B05-H-02: AGREE
+  B05-H-03: AGREE
+  B05-H-04: AGREE
+  B05-H-05: AGREE
+  B05-H-06: AGREE
+  B05-H-07: AGREE
+  B05-H-08: AGREE
+findings:
+  FP-B05-1: >-
+    substrate-alignment discovery — the five higher-preferred rows' joined notes carry the
+    Foundation-variant substances of their own codes (standard-form conversion for 1.9A;
+    algebraic vocabulary for 2.1A; substitution for 2.2A; collecting-like-terms for 2.2B;
+    single-bracket expansion for 2.2C), exactly as the C30 tier-dedupe ledger's Foundation
+    texts demand; resolved by recording the alignment on each affected node's derivation
+    notes and citing the pages for the shared substrate while COREing the ratified Higher
+    wordings — nothing repaired, nothing padded; re-verified by the preverify (36/36) and
+    the quote probe (110/110).
+  FP-B05-2: >-
+    authoring-time serialization finding — eight plain-scalar colon collisions (literal
+    ': ' sequences inside demanded_substance and derivation_notes strings, one quote ending
+    in a colon) surfaced as YAML scanner errors during the first preverify run; resolved by
+    single-quoting the affected scalars and rewording prose colons as dashes — zero
+    substance changed; re-verified by the preverify (36/36) and the quote probe (110/110
+    anchors byte-exact).
+  re_authoring_cases: 0
+  note: >-
+    both findings were recording/serialization corrections resolved before landing; no
+    node, edge, held or identity row changed substance in pass 2 — zero demotions.
