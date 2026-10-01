@@ -53,12 +53,16 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graph_paths as GP  # C28 §3.2 — store paths resolve through the registry
+
 HERE = Path(__file__).resolve().parent
 LIVE_REPO = HERE.parent
 
-SCRIPTS_TO_COPY = ["c12_promote.py", "c12_review_render.py", "c12_spec_tagger.py"]
-GRAPH_TO_COPY = ["specification_points.yaml", "command_words.yaml", "topics.yaml",
-                 "spec_command_kinds.yaml"]
+SCRIPTS_TO_COPY = ["c12_promote.py", "c12_review_render.py", "c12_spec_tagger.py",
+                   "graph_paths.py", "graph_paths.yaml"]
+GRAPH_TO_COPY = ["specification_points", "command_words", "topics",
+                 "spec_command_kinds"]  # registry store names; paths via GP
 
 PASS = 0
 DECISIONS = "scripts/c12_decisions/smoke-demo.agent-pass-1.yaml"
@@ -84,7 +88,13 @@ def make_sandbox() -> Path:
     shutil.copytree(HERE / "c12_fixtures", sb / "scripts" / "c12_fixtures")
     (sb / "graph").mkdir()
     for name in GRAPH_TO_COPY:
-        shutil.copy2(LIVE_REPO / "graph" / name, sb / "graph" / name)
+        # C28 post-stage-2: canonical source AND sandbox destination both come
+        # from the registry — the sandbox mirrors graph/<qual>/ so the
+        # sandboxed graph_paths resolver (REPO = sandbox root) behaves exactly
+        # like the live one. Hardcoded store paths are an S0 check failure.
+        dest = sb / GP.store_rel(name)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(GP.store(name), dest)
     return sb
 
 
