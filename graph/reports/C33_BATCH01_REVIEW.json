@@ -1,0 +1,80 @@
+{
+  "schema": "syllabai.c33-batch01-review/1.0",
+  "task": "T-C33",
+  "gate": "K2-C-1",
+  "generated_utc": "2026-10-01T05:20:13.882761+00:00",
+  "decision_record": {
+    "path": "scripts/c33_maths_a_batch01_decisions.yaml",
+    "sha256_16": "d82a983945c91cbb"
+  },
+  "pass2_record": {
+    "path": "scripts/c33_maths_a_batch01_review_pass2.yaml",
+    "sha256_16": "e876c58cd9042552"
+  },
+  "authorization": {
+    "path": "scripts/c33_maths_a_batch01_authorization.yaml",
+    "sha256_16": "da599532b55f51c8",
+    "directive_verbatim": "K2-C-1"
+  },
+  "totals": {
+    "nodes": 11,
+    "authored_edges": 12,
+    "held": 5,
+    "command_kinds": 12,
+    "identity_decisions": 2,
+    "node_attachments": 13,
+    "derived_partof_at_apply": 13,
+    "evidence_anchors": 47
+  },
+  "pass2_agreement": {
+    "nodes": "11/11 CONFIRM",
+    "edges": "12 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "5/5 AGREE",
+    "re_authoring_cases": 0
+  },
+  "coverage_profile": {
+    "notes_joined_sps": [
+      "4MA1-1.1F",
+      "4MA1-1.1G",
+      "4MA1-1.2A",
+      "4MA1-1.2B"
+    ],
+    "notes_joined_count": 4,
+    "spec_text_only_sps": [
+      "4MA1-1.1A",
+      "4MA1-1.1B",
+      "4MA1-1.1C",
+      "4MA1-1.1D",
+      "4MA1-1.1E",
+      "4MA1-1.1H",
+      "4MA1-1.2C",
+      "4MA1-1.2D"
+    ],
+    "spec_text_only_count": 8,
+    "source": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json (the T-C32 K2-A lane artifact, 202 joins / 111 codes) — the C31 §3 standing input to Lane C, restated per batch. 4 of the 12 slice SPs carry note-level anchors through the operator-worked AI_VALIDATED substrate; the other 8 author from the ratified spec-text store alone (SPEC-kind evidence), per the C31 scope record §3.",
+    "ms_evidence_sps": [
+      "4MA1-1.2C"
+    ],
+    "ms_note": "the SME-ExamQuestion corpus carries per-topic mark-scheme surfaces (mark-schemes.md); the fractions topic's MS supplies MARK_SCHEME-kind evidence for the common-denominators demand. This is a PARTIAL MS-documentation shape (the number-toolkit and prime-factors-hcf-and-lcm MS files document correct procedures only, no wrong-answer rows), the chemistry batch-3/4/10 PARTIAL-coverage precedent."
+  },
+  "held_ids": [
+    "B01-H-01",
+    "B01-H-02",
+    "B01-H-03",
+    "B01-H-04",
+    "B01-H-05"
+  ],
+  "identity_decisions": [
+    "B01-ID-01",
+    "B01-ID-02"
+  ],
+  "future_batch_boundary_map": [
+    "4MA1-1.2F",
+    "4MA1-1.2I",
+    "4MA1-1.3B",
+    "4MA1-1.4D",
+    "4MA1-1.4E",
+    "4MA1-1.7A"
+  ],
+  "stores_grown": 0
+}

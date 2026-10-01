@@ -1,0 +1,125 @@
+{
+  "schema": "syllabai.c33-k2c1-batch01-record/1.0",
+  "task": "T-C33",
+  "gate": "K2-C-1",
+  "batch": "B01",
+  "version": "1.0 — batch B01 authored to the verdict gate; nothing promoted; no maths-a K2 store created at this gate",
+  "date": "2026-10-01",
+  "operator_directive": "K2-C-1 (2026-10-01, zai-web, inline)",
+  "baseline": "feb0e1c9caceb527661d5683b997edb612349164",
+  "predecessors": [
+    "C31_IGCSE_MATHS_A_K2_SCOPE",
+    "C32_IGCSE_MATHS_A_K2A_LANE_A",
+    "C11 §16 chemistry batch machinery"
+  ],
+  "slice": {
+    "spec_points": [
+      "4MA1-1.1A",
+      "4MA1-1.1B",
+      "4MA1-1.1C",
+      "4MA1-1.1D",
+      "4MA1-1.1E",
+      "4MA1-1.1F",
+      "4MA1-1.1G",
+      "4MA1-1.1H",
+      "4MA1-1.2A",
+      "4MA1-1.2B",
+      "4MA1-1.2C",
+      "4MA1-1.2D"
+    ],
+    "global_order": "1-12",
+    "applicability": "all Foundation (assumed knowledge for Higher papers)"
+  },
+  "authored": {
+    "nodes": 11,
+    "authored_edges": 12,
+    "held": 5,
+    "command_kinds": 12,
+    "identity_decisions": [
+      "B01-ID-01",
+      "B01-ID-02"
+    ],
+    "evidence_anchors": 47,
+    "anchor_mix": {
+      "NOTE": 18,
+      "SPEC": 25,
+      "MARK_SCHEME": 4
+    },
+    "node_attachments": 13,
+    "derived_partof_at_apply": 13,
+    "misconceptions": 0
+  },
+  "coverage_profile": {
+    "notes_joined_sps": [
+      "4MA1-1.1F",
+      "4MA1-1.1G",
+      "4MA1-1.2A",
+      "4MA1-1.2B"
+    ],
+    "spec_text_only_sps": [
+      "4MA1-1.1A",
+      "4MA1-1.1B",
+      "4MA1-1.1C",
+      "4MA1-1.1D",
+      "4MA1-1.1E",
+      "4MA1-1.1H",
+      "4MA1-1.2C",
+      "4MA1-1.2D"
+    ],
+    "ms_evidence_sps": [
+      "4MA1-1.2C"
+    ],
+    "unjoined_corpus_negative_control": "every NOTE citation is one of the 4 join-carried notes, used for exactly the SP it is joined to"
+  },
+  "pass2_agreement": {
+    "nodes": "11/11 CONFIRM",
+    "edges": "12 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "5/5 AGREE",
+    "re_authoring_cases": 0
+  },
+  "future_batch_boundary_map": [
+    "4MA1-1.2F",
+    "4MA1-1.2I",
+    "4MA1-1.3B",
+    "4MA1-1.4D",
+    "4MA1-1.4E",
+    "4MA1-1.7A"
+  ],
+  "artifacts": {
+    "authorization": {
+      "path": "scripts/c33_maths_a_batch01_authorization.yaml",
+      "sha256_16": "da599532b55f51c8"
+    },
+    "decisions": {
+      "path": "scripts/c33_maths_a_batch01_decisions.yaml",
+      "sha256_16": "d82a983945c91cbb"
+    },
+    "pass2": {
+      "path": "scripts/c33_maths_a_batch01_review_pass2.yaml",
+      "sha256_16": "e876c58cd9042552"
+    },
+    "review_sheet": {
+      "path": "graph/reports/C33_BATCH01_REVIEW_SHEET.md",
+      "sha256_16": "dca6919d3f3437d8"
+    },
+    "review_json": {
+      "path": "graph/reports/C33_BATCH01_REVIEW.json",
+      "sha256_16": "45f703c72234b1be"
+    },
+    "check_report": {
+      "path": "graph/reports/C33_BATCH01_CHECK.json",
+      "sha256_16": "6c1fa6d71a0a809a"
+    },
+    "battery": {
+      "path": "scripts/c33_maths_a_batch01_check.py",
+      "sha256_16": "d32d4dda56e1622c"
+    },
+    "record_md": {
+      "path": "graph/reports/C33_IGCSE_MATHS_A_K2C1_BATCH01_RECORD.md",
+      "sha256_16": "fd59ff34f3f76620"
+    }
+  },
+  "verification": "scripts/c33_maths_a_batch01_check.py G1-G7 ALL PASS exit 0",
+  "stores_grown": 0,
+  "promotions": 0
+}
