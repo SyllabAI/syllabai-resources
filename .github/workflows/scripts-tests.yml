@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pyyaml pydantic
-      - name: kg golden-sample regression gate (T-KG-B — resources export vs vendored v75 golden)
+      - name: kg golden-sample regression gate (T-KG-B — resources export vs vendored v75 golden; 257/257 full-set after the point_edges ratification)
         run: python3 scripts/kg_export.py --verify-golden
       - name: graph integrity (c09/c11 graph-as-code validator)
         run: python3 scripts/graph_check.py

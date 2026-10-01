@@ -14,12 +14,15 @@ What is corpus-derived here (and therefore exported):
     (214), assess edges (4 sections x 2 papers, derived from the
     applicability census on every ratified point).
 
-What is NOT corpus-derived (and therefore NOT exported — the corpus
-discipline forbids inventing edges; see the task-B reconciliation report):
-    the 30 pre + 5 rel point-level edges are v75 hand-curated pedagogy
-    with no resources-side source yet. They stay golden-side until the
-    operator ratifies a point-edge store. The golden gate pins them as
-    EXPECTED_GOLDEN_ONLY so their absence is auditable, not silent.
+Point-level pre/rel edges (30 + 5): OPERATOR-RATIFIED via
+    graph/igcse-chemistry/point_edges.yaml (decision ① 2026-10-01: "ratify
+    the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry").
+    They are v75 hand-curated pedagogy with NO corpus upstream — the
+    corpus discipline (never invent edges) is honored by keeping the
+    ratified import in its own store, byte-pinned by the golden gate
+    (ledger v2 ratified_point_edges block), never derived or fabricated.
+    The provenance asymmetry vs every other graph/ store is documented
+    and deliberate.
 
 Papers display metadata (marks / duration / weight) is presentation
 metadata from the official Issue 3 assessment table; the parsed corpus
@@ -48,7 +51,18 @@ REPO = Path(__file__).resolve().parent.parent
 GRAPH_DIR = REPO / "graph" / "igcse-chemistry"
 OUT_DIR = GRAPH_DIR / "_derived"
 GOLDEN_FIXTURE = GRAPH_DIR / "_golden" / "canonicalKG.edexcel-chemistry-4ch1.json"
+POINT_EDGES = GRAPH_DIR / "point_edges.yaml"
 GATE_LEDGER = REPO / "graph" / "reports" / "KG_TASKB_GOLDEN_GATE.json"
+
+# canonicalKG contract mapping for the ratified point-edge store:
+# REQUIRES_PREREQUISITE rows are V2-native (from REQUIRES to, i.e. 'to' is
+# the prerequisite); the golden 'pre' triple reads [prerequisite, dependent]
+# (v75 incomingPrereqs: e[1] is the dependent), so the flip is to<->from.
+# RELATED_TO is symmetric; rows are stored in golden emit direction 1:1.
+POINT_EDGE_TO_KG = {
+    "REQUIRES_PREREQUISITE": lambda f, t: [t, f, "pre"],
+    "RELATED_TO": lambda f, t: [f, t, "rel"],
+}
 
 CONTRACT_VERSION = "1.0"
 NODE_TYPES = {"Subject", "Section", "SubTopic", "SpecificationPoint", "ExamPaper"}
@@ -217,8 +231,14 @@ def build_projection() -> dict:
         if n["type"] not in NODE_TYPES:
             raise ExportError(f"node type not in contract: {n['type']}")
 
+    # ratified point-edge store (decision ① 2026-10-01) — endpoints are
+    # validated against the exported SpecificationPoint ids only
+    load_point_edges({"p:" + p["official_code"] for p in points}, edges)
+
     hier = sum(1 for e in edges if e[2] == "hier")
     assess = sum(1 for e in edges if e[2] == "assess")
+    pre = sum(1 for e in edges if e[2] == "pre")
+    rel = sum(1 for e in edges if e[2] == "rel")
     meta = {
         "artifact": "canonicalKG",
         "qualification": {
@@ -232,12 +252,15 @@ def build_projection() -> dict:
         },
         "source": {
             "store": "graph/igcse-chemistry (operator-ratified store)",
-            "files": ["topics.yaml", "specification_points.yaml"],
+            "files": ["topics.yaml", "specification_points.yaml",
+                      "point_edges.yaml"],
             "note": "corpus-derived export. Papers display metadata pinned "
                     "verbatim from the official Issue 3 assessment table as "
                     "rendered by the v75 golden sample (not yet corpus-captured; "
                     "see the task-B reconciliation report). Point-level pre/rel "
-                    "edges are v75-curated and deliberately NOT exported.",
+                    "edges are the operator-ratified point_edges.yaml import "
+                    "(decision ① 2026-10-01; v75 hand-curated lineage, no "
+                    "corpus upstream — asymmetry accepted and pinned).",
         },
         "emittedBy": "scripts/kg_export.py",
         "generatedAtUtc": dt.datetime.now(dt.timezone.utc)
@@ -262,18 +285,50 @@ def build_projection() -> dict:
                                           if n["type"] == "SpecificationPoint"),
                 "ExamPaper": sum(1 for n in nodes if n["type"] == "ExamPaper"),
             },
-            "edgesByType": {"hier": hier, "assess": assess, "pre": 0, "rel": 0},
+            "edgesByType": {"hier": hier, "assess": assess, "pre": pre,
+                            "rel": rel},
         },
     }
     return {"meta": meta, "nodes": nodes, "edges": edges}
 
 
+def load_point_edges(ids: set[str], edges: list[list[str]]) -> None:
+    """Load the operator-ratified point-edge store (decision ① 2026-10-01)
+    and append its canonicalKG triples. Fail-closed: the file is part of
+    the ratified store — missing/malformed/drifted is an error, never a
+    silent skip."""
+    if not POINT_EDGES.exists():
+        raise ExportError(f"ratified point-edge store missing: {POINT_EDGES} "
+                          f"(decision ① 2026-10-01 made it mandatory)")
+    doc = yaml.safe_load(POINT_EDGES.read_text())
+    if not isinstance(doc, dict) or not isinstance(doc.get("edges"), list) \
+            or not doc["edges"]:
+        raise ExportError("malformed point-edge store: empty/missing 'edges'")
+    seen: set[tuple[str, str]] = set()
+    for r in doc["edges"]:
+        f, t = r.get("from"), r.get("to")
+        rel_name = r.get("relation")
+        if rel_name not in POINT_EDGE_TO_KG:
+            raise ExportError(f"point edge relation not in ratified "
+                              f"vocabulary: {rel_name!r}")
+        if f not in ids or t not in ids:
+            raise ExportError(f"point edge endpoint is not an exported "
+                              f"SpecificationPoint: {f!r} -> {t!r}")
+        if f == t:
+            raise ExportError(f"point edge self-loop: {f}")
+        if (f, t) in seen:
+            raise ExportError(f"duplicate directed point edge: {f} -> {t}")
+        seen.add((f, t))
+        edges.append(POINT_EDGE_TO_KG[rel_name](f, t))
+
+
 def export(out_dir: Path | None, check_only: bool) -> Path | None:
     doc = build_projection()
+    bt = doc["meta"]["counts"]["edgesByType"]
     print(f"export: {doc['meta']['counts']['nodes']} nodes / "
           f"{doc['meta']['counts']['edges']} edges "
-          f"(hier {doc['meta']['counts']['edgesByType']['hier']}, "
-          f"assess {doc['meta']['counts']['edgesByType']['assess']})")
+          f"(hier {bt['hier']}, assess {bt['assess']}, "
+          f"pre {bt['pre']}, rel {bt['rel']})")
     if check_only:
         print("check-only: validated, wrote nothing")
         return None
@@ -346,10 +401,33 @@ def verify_golden() -> int:
     if e_only_r:
         failures.append(f"resources-only edges (unexpected): {e_only_r}")
     exp_edges = ledger["expected"]["edges"]
-    if sorted(map(list, e_only_g)) != sorted(exp_edges["golden_only_exact"]):
-        failures.append("golden-only edges differ from the pinned curated set "
-                        f"(got {len(e_only_g)}, pinned "
-                        f"{len(exp_edges['golden_only_exact'])})")
+    if sorted(map(list, e_only_g)) != sorted(exp_edges.get("golden_only_exact", [])):
+        failures.append("golden-only edges differ from the pinned set "
+                        f"(got {len(e_only_g)}, expected empty after "
+                        f"ratification)")
+
+    ratified = ledger.get("ratified_point_edges")
+    if not ratified:
+        failures.append("ledger has no ratified_point_edges block (ledger v2 "
+                        "required after the decision-① ratification)")
+    else:
+        if not POINT_EDGES.exists():
+            failures.append(f"ratified point-edge store missing: {POINT_EDGES}")
+        else:
+            psha = sha256_file(POINT_EDGES)
+            if psha != ratified["store_sha256"]:
+                failures.append("point_edges.yaml sha256 drifted from the "
+                                "pinned ratification (edits require a "
+                                "conscious ledger re-pin)")
+            pinned = {tuple(t) for t in ratified["kg_triples"]}
+            loaded = {(e[0], e[1], e[2]) for e in doc["edges"]
+                      if e[2] in ("pre", "rel")}
+            if loaded != pinned:
+                failures.append(f"exported point edges != ratified set "
+                                f"(exported {len(loaded)}, ratified "
+                                f"{len(pinned)}, only-in-export "
+                                f"{sorted(loaded - pinned)}, "
+                                f"only-in-pin {sorted(pinned - loaded)})")
 
     exp_stmt = ledger["expected"]["statements"]
     r_points = {n["pointId"]: n for n in doc["nodes"]
@@ -367,12 +445,17 @@ def verify_golden() -> int:
         for f in failures:
             print(f"  - {f}")
         return 1
+    g_edge_total = len(golden["edges"])
+    full = " FULL-SET MATCH" if (not e_only_g and not e_only_r
+                                 and len(r_edges) == g_edge_total) else ""
     print("GOLDEN GATE GREEN — resources projection reproduces the golden "
           f"canonicalKG within the pinned ledger "
-          f"({len(r_nodes)} nodes / {len(r_edges)} edges; "
+          f"({len(r_nodes)} nodes / {len(r_edges)} edges vs golden "
+          f"{g_edge_total}{full}; "
           f"{exact}/{len(g_points)} statements exact, "
           f"{len(seen_variant_keys)} accepted text variants, "
-          f"{len(e_only_g)} golden-only curated edges pinned)")
+          f"35 point edges ratified via point_edges.yaml — asymmetry "
+          f"accepted, provenance pinned)")
     return 0
 
 

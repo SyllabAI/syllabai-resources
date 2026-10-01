@@ -173,6 +173,15 @@ Options for the operator:
 3. **Defer** to the T-C11 next-wave (119 HV edges pending the B2 data wave)
    — same substrate, one combined operator review.
 
+> **2026-10-01 addendum (§11):** option 1 was chosen and executed ("① ratify
+> the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry").
+> Correction: the prose lists above carry transcription slips in their tails
+> (19 of the 30 `pre` pairs, and the `rel` pairs 2.27↔2.28 / 2.8↔2.9 are not
+> in the golden set — the actual pairs are 4.27→4.28 and 4.8→4.9). The
+> machine-pinned sets (ledger, now `point_edges.yaml`) are authoritative —
+> see §11.3 for the corrected lists. The original text is left unedited per
+> the dated-correction convention.
+
 ## 8. The regression gate (new CI step)
 
 - Exporter: `scripts/kg_export.py` (`--check-only` validates;
@@ -214,3 +223,100 @@ Options for the operator:
    corpus (§6) — removes the last non-corpus input from the exporter.
 4. When the golden is re-extracted from a newer visualizer build: re-vendor
    the fixture + refresh the ledger in one change (gate enforces the pair).
+
+## 11. Addendum (2026-10-01): decision ① executed — the 35 edges ratified as `point_edges.yaml`
+
+Operator directive (2026-10-01, zai-web, trace `1a0f5ff176e55281`), verbatim:
+**"① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry"** —
+i.e. §7 option 1 chosen, with the asymmetry of option 2 explicitly accepted
+rather than fought.
+
+### 11.1 What landed
+
+- **`graph/igcse-chemistry/point_edges.yaml`** (NEW, schema
+  `syllabai.point-edges/1.0`, 35 rows: 30 `REQUIRES_PREREQUISITE` + 5
+  `RELATED_TO`, per-row `provenance.tier: OPERATOR_RATIFIED`). Machine-derived
+  from the vendored golden fixture (zero hand-typed triples) with a
+  round-trip assertion. sha256 `dfb1fcb01a3c1732…` — pinned in the ledger.
+- **Direction contract**: store rows are V2-native (`from REQUIRES to`, i.e.
+  `to` is the prerequisite — same reading as the T-C11 concept store). The
+  golden `pre` triple reads `[prerequisite, dependent]` (verified against the
+  v75 source: `incomingPrereqs()` treats `e[1]` as the dependent), so the
+  exporter flips `REQUIRES_PREREQUISITE` rows on export; `RELATED_TO` rows
+  are stored and exported verbatim (symmetric relation, directed triple
+  preserved).
+- **`scripts/kg_export.py`**: loads the ratified store (fail-closed —
+  missing/malformed/drifted is an error, never a silent skip), validates
+  endpoints against the exported SpecificationPoint ids, vocabulary,
+  self-loops and duplicate directed pairs; emits `pre`/`rel`; export meta
+  now lists `point_edges.yaml` among sources.
+- **Ledger v2** (`KG_TASKB_GOLDEN_GATE.json`): `expected.edges` now pins
+  golden 257 / export 257 / golden-only 0 + 0 (the v1 golden-only exception
+  is RETIRED); the 35 triples + the store sha256 move into the new
+  `ratified_point_edges` block (edit-repels-drift: any store change without
+  a conscious ledger re-pin turns CI RED).
+- **CI step**: same command (`kg_export.py --verify-golden`), renamed to
+  reflect the ratified full-set expectation.
+
+### 11.2 Result
+
+`GOLDEN GATE GREEN — 217 nodes / 257 edges vs golden 257 FULL-SET MATCH;
+173/182 statements exact, 19 accepted text variants, 35 point edges
+ratified via point_edges.yaml — asymmetry accepted, provenance pinned.`
+Negative tests re-verified RED-as-designed: (a) one flipped store direction
+→ RED with four independent catches (resources-only edge, golden-only
+residue, sha drift, ratified-set mismatch); (b) store removed → fail-closed
+ExportError; (c) statement tamper → RED (unaccepted diff + exact-count
+drop).
+
+### 11.3 Correction to §7 (dated; original text above left unedited)
+
+The §7 prose edge lists contain transcription slips in their tails. The
+machine-pinned set (ledger v1 `golden_only_exact` = golden fixture = v75
+build source — all three agree exactly, re-verified before ratification)
+is authoritative:
+
+- `pre` (30): the first 11 §7 pairs are correct (1.18→1.19 …
+  1.57C→1.58C); the remaining 19 are: 2.15→2.17; 2.15→2.20; 2.29→2.31;
+  2.31→2.32; 2.35→2.36; 3.1→3.5C; 3.13→3.14C; 3.19C→3.20C; 3.6C→3.7C;
+  3.9→3.11; 4.19→4.20; 4.23→4.25; 4.23→4.27; 4.29C→4.31C; 4.29C→4.32C;
+  4.34C→4.36C; 4.39C→4.40C; 4.44→4.46; 4.7→4.8. (The 19 section-1-heavy
+  pairs printed in §7 — 1.15→1.17 … 1.7→1.8 — are NOT in the golden set.)
+- `rel` (5): 1.59C→1.60C; 2.34→2.37; 3.22C→3.21C; **4.27→4.28**;
+  **4.8→4.9**. The §7 pairs 2.27↔2.28 and 2.8↔2.9 are not in the golden
+  set.
+
+No gate ever depended on the §7 prose (the ledger was machine-generated
+from the evidence JSON), so the slip was inert; it is corrected here
+because ratified prose should not carry a wrong list.
+
+### 11.4 The accepted asymmetry — two facets, both deliberate
+
+1. **Provenance asymmetry**: `point_edges.yaml` is now the only `graph/`
+   store with NO corpus upstream — its rows are v75 hand-curated pedagogy
+   ratified verbatim, not OCR- or corpus-derived. This is documented in the
+   store meta (`ratification.asymmetry_accepted: true` + per-row
+   `corpus_source: none`), and the drift risk is neutralized by the
+   sha256 pin. Honesty note preserved: v75 itself rendered these edges as
+   "INFERRED PROTOTYPE — not yet validated as authoritative educational
+   truth"; the operator ratification upgrades their governance status to
+   authoritative-by-decision. Edge content is byte-unchanged from the
+   golden lineage.
+2. **Serving asymmetry**: the resources-side export now carries the full
+   golden edge set (257), while the demo serving lane's exporter remains
+   its v1 hier+assess shape. Whether serving adopts the ratified pre/rel
+   edges is a demo-lane decision, out of scope here. The T-C11 next wave
+   (119 HV edges, concept-level + practical-origin substrate) is a
+   separate track and unaffected by this ratification.
+
+### 11.5 Claims (supersedes §9 where they overlap)
+
+- **VERIFIED**: gate GREEN at 257/257 full-set; round-trip store↔golden
+  exact; negative tests (a)–(c) RED as designed; §7 correction re-derived
+  from the fixture + v75 source before being written.
+- **REPORTED**: store sha256 `dfb1fcb01a3c1732…` is pinned in ledger v2;
+  CI behaviour on GitHub runners assumed identical to sandbox (same
+  command, no network).
+- **UNVERIFIED / OPEN (operator)**: merge of PR #14 still held on the
+  pre-existing c12 C3 red (main-lane repair, not this lane); optional
+  hygiene items (§10.2–10.3) unchanged.
