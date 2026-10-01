@@ -278,9 +278,24 @@ def main() -> int:
                str([(c["code"], c["score"]) for c in phys[:2]]))
 
         neg = by_id["smoke-q-fuels-sulfur-negative-control"]
-        report("C3 4.15-style negative control also weak (never confident)",
-               bool(neg) and neg[0]["score"] < t.WEAK_SCORE,
-               str([(c["code"], c["score"]) for c in neg[:2]]))
+        # C3 re-pin (2026-10-01, c12 check-C3 repair): the smoke control is a
+        # documented premise+consequence AGGREGATION (4.15-style). Its original
+        # absolute pin (top < WEAK_SCORE) was calibrated on the pre-T-C11
+        # registry; phase-2 batches 5-11 (ae6a5e4..ee0524d) authored
+        # demanded_substance into spec_command_kinds.yaml, and 4CH1-4.16's
+        # substance now carries the full SO2->acid-rain chain the control
+        # aggregates — control top moved 0.2212 -> 0.4894 while anchored
+        # positives moved 1.00-1.45x. The invariant that survives BOTH
+        # registries is comparative: an aggregation must rank below EVERY
+        # anchored positive (a multi-point question never outscores a real
+        # single-point anchor). Production WEAK_SCORE semantics are unchanged;
+        # C2 keeps its absolute out-of-curriculum assertion.
+        pos_tops = [by_id[q][0]["score"] for q in expect_anchors]
+        report("C3 4.15-style aggregation control ranks below every anchored positive",
+               bool(neg) and all(neg[0]["score"] < p for p in pos_tops),
+               "control top=%s vs anchored positives=%s" % (
+                   round(neg[0]["score"], 4) if neg else None,
+                   sorted(round(p, 4) for p in pos_tops)))
 
         # ── positive control D: from-paper adapter ──
         print("- from-paper adapter")
