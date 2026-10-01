@@ -1,0 +1,873 @@
+meta:
+  curriculum_code: 4CH1-2017
+  qualification: Pearson Edexcel International GCSE (9-1) Chemistry, Issue 3
+  phase: 1
+  store: point_edges
+  schema: syllabai.point-edges/1.0
+  graph_format_version: 1
+  edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): REQUIRES_PREREQUISITE,
+    RELATED_TO'
+  direction_contract: 'REQUIRES_PREREQUISITE rows are V2-native: from REQUIRES to (to is the prerequisite).
+    The kg exporter maps them to the canonicalKG ''pre'' contract by flipping: golden [to, from, ''pre''].
+    RELATED_TO rows are stored verbatim and exported 1:1 as [from, to, ''rel''].'
+  source_documents:
+  - file: graph/igcse-chemistry/_golden/canonicalKG.edexcel-chemistry-4ch1.json
+    role: golden-sample (v75 lineage, vendored byte-copy)
+    sha256: 11eb7aa571c34aaba600c2f6688c09d1631c67c9f0bad00be6f4bec421ba0aaf
+  - file: graph/reports/KG_TASKB_GOLDEN_GATE.json
+    role: T-KG-B pinned acceptance ledger (v2)
+  provenance_default: OPERATOR_RATIFIED
+  ratification:
+    decided_by: operator
+    date: '2026-10-01'
+    directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    asymmetry_accepted: true
+    asymmetry_note: 'deliberate, documented exception: this is the only graph/ store whose rows have no
+      corpus upstream — they are v75 hand-curated pedagogy ratified verbatim. The golden gate pins the
+      file sha256; any drift turns CI RED.'
+  counts:
+    edges: 35
+    by_relation:
+      REQUIRES_PREREQUISITE: 30
+      RELATED_TO: 5
+edges:
+- from: p:1.19
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.18
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.22
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.19
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.28
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.25
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.28
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.27
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.29
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.28
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.39
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.37
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.42
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.41
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.43
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.41
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.46
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.44
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.47
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.45
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.58C
+  relation: REQUIRES_PREREQUISITE
+  to: p:1.57C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:2.17
+  relation: REQUIRES_PREREQUISITE
+  to: p:2.15
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:2.20
+  relation: REQUIRES_PREREQUISITE
+  to: p:2.15
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:2.31
+  relation: REQUIRES_PREREQUISITE
+  to: p:2.29
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:2.36
+  relation: REQUIRES_PREREQUISITE
+  to: p:2.35
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:2.32
+  relation: REQUIRES_PREREQUISITE
+  to: p:2.31
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:3.5C
+  relation: REQUIRES_PREREQUISITE
+  to: p:3.1
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:3.7C
+  relation: REQUIRES_PREREQUISITE
+  to: p:3.6C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:3.11
+  relation: REQUIRES_PREREQUISITE
+  to: p:3.9
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:3.14C
+  relation: REQUIRES_PREREQUISITE
+  to: p:3.13
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:3.20C
+  relation: REQUIRES_PREREQUISITE
+  to: p:3.19C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.8
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.7
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.20
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.19
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.25
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.23
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.27
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.23
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.31C
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.29C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.32C
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.29C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.36C
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.34C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.40C
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.39C
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.46
+  relation: REQUIRES_PREREQUISITE
+  to: p:4.44
+  kg_direction: to_is_prerequisite
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:1.59C
+  relation: RELATED_TO
+  to: p:1.60C
+  kg_direction: verbatim
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:2.34
+  relation: RELATED_TO
+  to: p:2.37
+  kg_direction: verbatim
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:3.22C
+  relation: RELATED_TO
+  to: p:3.21C
+  kg_direction: verbatim
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.8
+  relation: RELATED_TO
+  to: p:4.9
+  kg_direction: verbatim
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
+- from: p:4.27
+  relation: RELATED_TO
+  to: p:4.28
+  kg_direction: verbatim
+  validation_status: OPERATOR_RATIFIED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: OPERATOR_RATIFIED
+    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);
+      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)
+    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json
+    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE
+      direction (golden pre A→B = 'A is a prerequisite for B' = 'B requires A'), rel rows verbatim (RELATED_TO
+      symmetric)
+    ratified_by: operator
+    ratified_date: '2026-10-01'
+    operator_directive: ① ratify the 35 edges as point_edges.yaml (golden → 257/257), accept asymmetry
+    epistemic_note: v75 rendered these as 'INFERRED PROTOTYPE — not yet validated as authoritative educational
+      truth'; the operator ratification upgrades their governance status to authoritative-by-decision.
+      Edge content is byte-unchanged from the golden lineage.
+    corpus_source: none — the parsed corpus carries no point-level pre/rel rows (T-KG-B exhaustively confirmed);
+      this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)
+  damage_flags: []
