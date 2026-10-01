@@ -1,0 +1,84 @@
+# T-C36 K2-C-4 — batch-B04 adversarial pass-2 review record (the c35_maths_a_batch03_
+# review_pass2.yaml shape, fourth-batch instance). Pass 2 is the authoring agent's second,
+# adversarial pass over its own pass-1 extraction: every row re-ruled, every doubt either
+# resolved on explicit evidence or routed to the held record / the operator's identity
+# decisions. NOTHING in this file promotes anything — SUGGESTED stays SUGGESTED until the
+# operator's verdict gate.
+meta:
+  task: T-C36
+  stage: k2-c-batch-04-pass2
+  extraction_pass: c36-k2c-batch-04
+  pass: 2
+  mode: adversarial-second-pass
+  generated_date: '2026-10-02'
+  model_version: GLM (Super Z agent, z.ai)
+  method: >-
+    every pass-1 row re-checked against its cited evidence (re-read under the batch-8
+    normalization convention), then re-ruled on the relation CLASS and direction, not just
+    existence; the single misconception mint re-tested against the MS documentation (and
+    re-tested for NOT re-minting the B03-documented percentage-quotient class); the
+    cross-batch holds re-tested for silent-drop avoidance (B03-H-06/B03-H-07 landings
+    re-derived); the uncited-join census re-derived as a file-set check (empty — all 14
+    join-carried pages cited); the edge DAG re-walked for cycles (8 REQUIRES_PREREQUISITE
+    edges over 12 concept nodes — no cycles). TWO pass-2 findings, both resolved BEFORE
+    landing and re-verified by the machine gates: FP-B04-1 — the pair-back probe caught
+    two rounding-and-estimation rows initially placed on the 1.8D node attachment (the
+    note is joined to 1.8B, not 1.8D); they were moved to the ESTIMATION -> ROUNDING-
+    ACCURACY edge (where 1.8B is an endpoint) and the 1.8B node, and the 1.8D node's
+    derivation notes rewritten — the negative control working as designed at fourth-batch
+    strength. FP-B04-2 — the batch-8 convention's known span limitation (a literal '<'
+    opens a normalized span the next '>' closes — the B03 1.5C precedent) voids the
+    bounds.md identify-half rows after the LB <= x < UB row and the rounding-MS
+    half-down row inside the error-interval sentence; the affected anchors were swapped
+    for span-safe rows (the worked-example bounds walk; the MS's own 'Use the general
+    rule "half down" for the lower bound.' row from outside the span) — nothing is
+    anchored that the machinery cannot check byte-exactly.
+node_verdicts:
+  4MA1-CON-PERCENTAGE-INCREASE-DECREASE: CONFIRM
+  4MA1-CON-REVERSE-PERCENTAGES: CONFIRM
+  4MA1-CON-COMPOUND-INTEREST-AND-DEPRECIATION: CONFIRM
+  4MA1-CON-RATIO-NOTATION: CONFIRM
+  4MA1-CON-RATIO-DIVISION: CONFIRM
+  4MA1-CON-PROPORTIONALITY-PROCESS: CONFIRM
+  4MA1-CON-DIRECT-PROPORTION: CONFIRM
+  4MA1-CON-RATIO-PROPORTION-PROBLEMS: CONFIRM
+  4MA1-CON-BOUNDS-PROBLEMS: CONFIRM
+  4MA1-CON-ROUNDING-ACCURACY: CONFIRM
+  4MA1-CON-BOUNDS-IDENTIFICATION: CONFIRM
+  4MA1-CON-ESTIMATION-OF-CALCULATIONS: CONFIRM
+  4MA1-MIS-RATIO-ORDER-INVERSION: CONFIRM
+edge_verdicts:
+  "4MA1-CON-REVERSE-PERCENTAGES REQUIRES_PREREQUISITE 4MA1-CON-PERCENTAGE-INCREASE-DECREASE": CONFIRM
+  "4MA1-CON-COMPOUND-INTEREST-AND-DEPRECIATION REQUIRES_PREREQUISITE 4MA1-CON-PERCENTAGE-INCREASE-DECREASE": CONFIRM
+  "4MA1-CON-RATIO-DIVISION REQUIRES_PREREQUISITE 4MA1-CON-RATIO-NOTATION": CONFIRM
+  "4MA1-CON-RATIO-PROPORTION-PROBLEMS REQUIRES_PREREQUISITE 4MA1-CON-RATIO-DIVISION": CONFIRM
+  "4MA1-CON-DIRECT-PROPORTION REQUIRES_PREREQUISITE 4MA1-CON-PROPORTIONALITY-PROCESS": CONFIRM
+  "4MA1-CON-BOUNDS-PROBLEMS REQUIRES_PREREQUISITE 4MA1-CON-BOUNDS-IDENTIFICATION": CONFIRM
+  "4MA1-CON-BOUNDS-IDENTIFICATION REQUIRES_PREREQUISITE 4MA1-CON-ROUNDING-ACCURACY": CONFIRM
+  "4MA1-CON-ESTIMATION-OF-CALCULATIONS REQUIRES_PREREQUISITE 4MA1-CON-ROUNDING-ACCURACY": CONFIRM
+  "4MA1-MIS-RATIO-ORDER-INVERSION WRONG_ANSWER_PATTERN 4MA1-CON-RATIO-NOTATION": CONFIRM
+  "4MA1-MIS-RATIO-ORDER-INVERSION REMEDIATED_BY 4MA1-CON-RATIO-NOTATION": CONFIRM
+held_agreements:
+  B04-H-01: AGREE
+  B04-H-02: AGREE
+  B04-H-03: AGREE
+  B04-H-04: AGREE
+  B04-H-05: AGREE
+  B04-H-06: AGREE
+  B04-H-07: AGREE
+  B04-H-08: AGREE
+findings:
+  FP-B04-1: >-
+    pair-back catch — two rounding-and-estimation NOTE rows on the 1.8D node attachment
+    violated the node pair-back (the note is joined to 1.8B); resolved by moving the rows
+    to the batch edge and the 1.8B node; re-verified by the quote probe (89/89) and the
+    preverify allow-list battery.
+  FP-B04-2: >-
+    anchor-span limitation — the batch-8 normalization convention cannot verify rows
+    inside a '<'-opened span (the B03 1.5C precedent); the bounds.md identify-half rows
+    after 'LB <= x < UB' and one rounding-MS row were swapped for span-safe rows;
+    re-verified by the quote probe (89/89 anchors byte-exact).
+  re_authoring_cases: 0
+  note: >-
+    both findings were anchor-placement corrections resolved before landing; no node,
+    edge, held or identity row changed substance in pass 2 — zero demotions.

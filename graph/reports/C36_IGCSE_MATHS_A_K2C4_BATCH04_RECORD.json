@@ -1,0 +1,96 @@
+{
+  "schema": "syllabai.c36-k2c4-batch04-record/1.0",
+  "task": "T-C36",
+  "gate": "K2-C-4",
+  "batch": "B04",
+  "version": "1.0 — batch B04 authored to the verdict gate; nothing promoted; no maths-a K2 store materializes at this gate",
+  "date": "2026-10-02",
+  "operator_directive": "K2-C-4 (2026-10-02, zai-web, inline)",
+  "baseline": "9240aa34804ae0a8c5430ef15ae40abd4b9d2580",
+  "predecessors": [
+    "C35_IGCSE_MATHS_A_K2C3_BATCH03 (the replayed pattern; the 4-code boundary map and the B03 held quarantine this packet inherits — B03-H-06/B03-H-07 both land in this slice)",
+    "C34_IGCSE_MATHS_A_K2C2_BATCH02 (the B02 held quarantine, inherited through the chain)",
+    "C33_IGCSE_MATHS_A_K2C1_BATCH01 (the B01 held quarantine, inherited through the chain)",
+    "C31_IGCSE_MATHS_A_K2_SCOPE (§5 batch plan, §8 gate row, §3 coverage-profile standing input)",
+    "C32_IGCSE_MATHS_A_K2A_LANE_A (the notes-join substrate every Lane C batch anchors on)"
+  ],
+  "slice": {
+    "spec_points": ["4MA1-1.6E", "4MA1-1.6F", "4MA1-1.6G", "4MA1-1.7A", "4MA1-1.7B", "4MA1-1.7C", "4MA1-1.7D", "4MA1-1.7E", "4MA1-1.8A", "4MA1-1.8B", "4MA1-1.8C", "4MA1-1.8D"],
+    "global_order": "37-48",
+    "applicability": "mixed-tier — 1 Higher row (1.8A; papers 4MA1/1H and 4MA1/2H) plus 11 Foundation rows (1.6E..1.7E complete, 1.8B, 1.8C, 1.8D) — the lightest Higher share of the series; all 12 rows zero damage flags"
+  },
+  "authored": {
+    "concept_nodes": 12,
+    "misconception_nodes": 1,
+    "authored_edges": 10,
+    "edge_mix": {
+      "REQUIRES_PREREQUISITE": 8,
+      "WRONG_ANSWER_PATTERN": 1,
+      "REMEDIATED_BY": 1
+    },
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": ["B04-ID-01 (the 1.6B/1.6G compound-interest mirror pair — the B03-H-07 landing)", "B04-ID-02 (the inherited percentage-quotient-inversion home-row question from B03-ID-02)", "B04-ID-03 (the new mint's mint-vs-trivia ruling and home row: 1.7A vs 1.7B)"],
+    "evidence_anchors": 89,
+    "evidence_mix": {
+      "NOTE": 51,
+      "SPEC": 25,
+      "MARK_SCHEME": 13
+    },
+    "node_attachments": 12,
+    "derived_partof_at_apply": 12
+  },
+  "coverage_profile": {
+    "notes_joined_sps": ["4MA1-1.6E", "4MA1-1.6F", "4MA1-1.6G", "4MA1-1.7B", "4MA1-1.7C", "4MA1-1.7D", "4MA1-1.7E", "4MA1-1.8B", "4MA1-1.8C", "4MA1-1.8D"],
+    "notes_joined_count": 10,
+    "spec_text_only_sps": ["4MA1-1.7A", "4MA1-1.8A"],
+    "spec_text_only_count": 2,
+    "join_rows": 14,
+    "distinct_note_files": 14,
+    "ms_evidence_sps": ["4MA1-1.6E", "4MA1-1.6F", "4MA1-1.6G", "4MA1-1.7B", "4MA1-1.7D", "4MA1-1.8C", "4MA1-1.8D"],
+    "uncited_join_census": 0
+  },
+  "pass2_agreement": {
+    "nodes": "13/13 CONFIRM",
+    "edges": "10 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "8/8 AGREE",
+    "re_authoring_cases": 0,
+    "anchor_corrections_resolved_pre_landing": ["FP-B04-1 (pair-back catch: two rounding-and-estimation rows moved off the 1.8D node attachment to the edge and the 1.8B node)", "FP-B04-2 (batch-8 span limitation: the bounds.md identify-half rows after 'LB <= x < UB' and one rounding-MS row swapped for span-safe rows — the B03 1.5C precedent)"]
+  },
+  "inherited_from_prior_batches": {
+    "boundary_map_b03": ["4MA1-1.1H", "4MA1-1.2A", "4MA1-1.6G", "4MA1-2.1D"],
+    "reclassified_in_slice": ["4MA1-1.6G (its node mints here, confirming held B03-H-07)"],
+    "still_future_after_b04": ["4MA1-1.1H", "4MA1-1.2A (B01's rows, nodes authored unapplied)", "4MA1-2.1D"],
+    "held_quarantines": ["B01-H-01..05", "B02-H-01..08", "B03-H-01..08"],
+    "landed_holds": {
+      "B04-H-02": "B03-H-06 (the 1.6E single-change fluency)",
+      "B04-H-03": "B03-H-07 (the 1.6B/1.6G compound-interest mirror pair)"
+    }
+  },
+  "future_batch_boundary_map": ["4MA1-1.6A", "4MA1-1.6B", "4MA1-4.4C", "4MA1-6.2A", "4MA1-6.2D", "4MA1-6.3G"],
+  "boundary_map_note": "the B04 term audit's non-slice matches, superseding the B03 audit as the B05.. starting point — 1.6A/1.6B are B03's rows (nodes authored, unapplied: the percentage-change and compound-interest vocabulary B04's percentage chain shares); 4.4C ('make sensible estimates of a range of measures'), 6.2A/6.2D (estimate-the-median/IQR) and 6.3G ('estimate probabilities') are this audit's NEW matches (the 'estimate' vocabulary against the measures and statistics rows — unbatched families); the B03-inherited 1.1H/1.2A/2.1D drop out (no B04 vocabulary match)",
+  "misconception_mints": [
+    {
+      "code": "4MA1-MIS-RATIO-ORDER-INVERSION",
+      "rides": "4MA1-1.7A",
+      "documentation": "ratio-toolkit topic MS — 'A common error is to write \"32 : 27\" as the final answer.' with the corrected order-sense clause in the same row ('So the radius must be the smaller part of the ratio.'); the FOURTH maths-a mint; home row operator-reserved (B04-ID-03, the 1.7B alternative); the B03-documented percentage-quotient class NOT re-minted (its home-row question inherited as B04-ID-02)"
+    }
+  ],
+  "artifacts": {
+    "authorization": "scripts/c36_maths_a_batch04_authorization.yaml",
+    "decisions": "scripts/c36_maths_a_batch04_decisions.yaml",
+    "pass2": "scripts/c36_maths_a_batch04_review_pass2.yaml",
+    "review_sheet": "graph/reports/C36_BATCH04_REVIEW_SHEET.md",
+    "review_json": "graph/reports/C36_BATCH04_REVIEW.json",
+    "preverify": "scripts/c36_maths_a_batch04_preverify.py",
+    "quote_probe": "scripts/c36_maths_a_batch04_quote_probe.py",
+    "term_audit_probe": "scripts/c36_maths_a_batch04_term_audit_probe.py",
+    "review_build": "scripts/c36_maths_a_batch04_review_build.py",
+    "check_report": "graph/reports/C36_BATCH04_CHECK.json",
+    "battery": "scripts/c36_maths_a_batch04_check.py",
+    "record_md": "graph/reports/C36_IGCSE_MATHS_A_K2C4_BATCH04_RECORD.md"
+  },
+  "verification": "scripts/c36_maths_a_batch04_check.py G1-G7 all PASS, exit 0 (preverify 35/35; quote probe 89/89 verbatim — 51 NOTE / 25 SPEC / 13 MARK_SCHEME; term audit 72 terms -> the 6-code B05.. map; review sheet byte-reproducible; freeze integrity at 9240aa3; standing checkers graph_check + check_no_hardcode green)",
+  "stores_grown": 0,
+  "promotions": 0
+}
