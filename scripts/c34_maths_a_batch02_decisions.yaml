@@ -1,0 +1,952 @@
+meta:
+  task: T-C34
+  stage: k2-c-batch-02
+  extraction_pass: c34-k2c-batch-02
+  generated_date: '2026-10-01'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4MA1-2016
+  commissioned_by: operator directive 'K2-C-2' (2026-10-01, zai-web) — gate K2-C-2 of the
+    C31 §8 sequence (commission → author → review → verdict), commissioning recorded in
+    scripts/c34_maths_a_batch02_authorization.yaml
+  session: operator-gate K2-C-2 (the C31/C32 series keys gates by directive, not session
+    number; the directive date is the commissioning date)
+  scope:
+    spec_points:
+    - 4MA1-1.2E
+    - 4MA1-1.2F
+    - 4MA1-1.2G
+    - 4MA1-1.2H
+    - 4MA1-1.2I
+    - 4MA1-1.3A
+    - 4MA1-1.3B
+    - 4MA1-1.3C
+    - 4MA1-1.3D
+    - 4MA1-1.3E
+    - 4MA1-1.4A
+    - 4MA1-1.4B
+    slice_note: >-
+      B02 = global_order 13–24 of the ratified K1 store (scripts/graph_paths.yaml
+      specification_points; 188 rows). Unlike the B01 assumed-knowledge slice, B02 is a
+      MIXED-TIER slice: 9 Foundation-applicability rows (papers 4MA1/1F and 4MA1/2F) plus
+      the first three Higher rows of the ratified program (4MA1-1.3A, 4MA1-1.4A, 4MA1-1.4B;
+      papers 4MA1/1H and 4MA1/2H). The slice spans THREE ratified subtopics — the 1.2 tail
+      (1.2E..1.2I = global_order 13–17 of 4MA1-S1-1.2's nine rows), 1.3 complete
+      (1.3A..1.3E = 18–22) and the 1.4 head (1.4A..1.4B = 23–24 of 4MA1-S1-1.4's five rows).
+      The C31 honesty rules are honored to the letter: subtopic titles for 1.2/1.3/1.4 are
+      NULL in the ratified topics store (the official specification numbers its content
+      subsections without titles) and are NOT invented here — the slice is described by code
+      and by the official wordings alone. Zero damage-flagged rows in the slice (the 8
+      math-fragment-assembly rows live elsewhere in the 188).
+    coverage_profile:
+      notes_joined_sps: [4MA1-1.2F, 4MA1-1.2G, 4MA1-1.2I, 4MA1-1.3A, 4MA1-1.3C, 4MA1-1.4A,
+        4MA1-1.4B]
+      notes_joined_count: 7
+      spec_text_only_sps: [4MA1-1.2E, 4MA1-1.2H, 4MA1-1.3B, 4MA1-1.3D, 4MA1-1.3E]
+      spec_text_only_count: 5
+      source: >-
+        Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json
+        (the T-C32 K2-A lane artifact, 202 joins / 111 codes) — the C31 §3 standing input to
+        Lane C, restated per batch. 7 of the 12 slice SPs carry note-level anchors through
+        the operator-worked AI_VALIDATED substrate (13 join rows over 11 distinct note
+        files; multiplying-and-dividing and simplifying-surds each carry two in-slice
+        anchors); the other 5 author from the ratified spec-text store alone (SPEC-kind
+        evidence), per the C31 scope record §3. Join-tier composition of the 13 rows: 6
+        P1_name_fragment_join, 2 P2_page_context_join, 1 P2_operator_content_join, 4
+        R1_parse_repair_statement_join — all operator-delegated T-SPEC-7/8/9 verdicts,
+        inherited 1:1, none re-derived here.
+      ms_evidence_sps: [4MA1-1.2F, 4MA1-1.3A, 4MA1-1.3C, 4MA1-1.4B]
+      ms_note: >-
+        the SME-ExamQuestion corpus carries per-topic mark-scheme surfaces
+        (mark-schemes.md); three of the slice's topics supply MARK_SCHEME-kind evidence —
+        the fractions topic MS for the common-denominator add/subtract demand (the same
+        surface B01 pinned for 1.2C), the fractions-decimals-and-percentages topic MS for
+        the recurring-decimal algebraic method and the decimal-place column comparison, and
+        the surds topic MS for the rationalising demand AND the batch's two documented
+        wrong-answer classes. This is a PARTIAL MS-documentation shape (the other B02-topic
+        MS rows document correct procedures only), the chemistry batch-3/4/10
+        PARTIAL-coverage precedent.
+    negative_control: >-
+      The B02 negative control is the UNJOINED-CORPUS guard, at second-batch strength: no
+      NOTE-kind evidence may cite any notes page outside the 11 join-carried notes of the
+      slice, every NOTE citation is machine-verified to be pair-backed (the note is joined
+      to the SP it attaches to, or for an edge, to one of the edge's endpoint SPs — a
+      strengthening over B01, whose pair-back ran on node attachments only), and the cited
+      NOTE set is recorded against the join-carried set with an explicit uncited-join census
+      (this batch: the negative-numbers page joined to 1.4A and the algebraic-notation page
+      joined to 1.3A are join-carried but UNCITED — their content sits behind the slice's
+      demands, and the honest disposition is recorded, not padded). The corpus teaches the
+      slice's neighborhood on pages that carry no slice anchor — mixed-numbers-and-improper-
+      fractions (joined to B01's 1.2B, not citable here), hcf-and-lcm, prime-factor-
+      decomposition, mathematical-operations, related-calculations, money-calculations,
+      laws-of-indices, standard-form, operations-with-standard-form, the percentages pages —
+      and NONE of them is cited anywhere in the record. Unlike chemistry's 4.15 carve-out
+      this control is structural (which files may be cited), not a single carved-out SP; no
+      slice SP is damage-flagged, so no wording carve-out is needed.
+    practicals: []
+    practicals_note: the K1 practicals store for maths-a carries 0 rows (a mathematics
+      specification has no practical-typed SPs) — the chemistry practical-carving precedent
+      has no instance in this slice.
+    subsections: 4MA1-S1-1.2 orders 13–17 (the 1.2E..1.2I tail of its nine rows) +
+      4MA1-S1-1.3 orders 18–22 (complete) + 4MA1-S1-1.4 orders 23–24 (the 1.4A..1.4B head of
+      its five rows) — subsection titles null by design (see slice_note)
+  contract: >-
+    nodes one-per-SP-family (the chemistry one-family precedent, B01-ID-01/02 shape): every
+    one of the 12 slice SPs carries exactly one CONCEPT node CORE at its row. Misconceptions
+    ONLY where a mark-scheme row documents the wrong-answer class (the chemistry contract):
+    the B02-topic MS files document exactly two wrong-answer classes (surds MS Q12 20(a) and
+    20(b)), so B02 mints exactly TWO MISCONCEPTION nodes — the first maths-a misconception
+    mints — each riding 4MA1-1.4B with the documenting rows as node evidence and the MS's own
+    corrective row as the REMEDIATED_BY evidence; the mint-vs-exam-trivia question is
+    operator-reserved (B02-ID-03). Every quote byte-verified against its cited file (the
+    G03/c11.4 normalization convention, c34_maths_a_batch02_quote_probe.py, run BEFORE
+    anything grows). The maths-a guide-class vocabulary founded at B01 (KNOW_TERM /
+    UNDERSTAND_RELATION / APPLY_PROCEDURE) is extended by this batch's command kinds; KNOW_TERM
+    has no instance in this slice (no vocabulary-demand row sits in B02), which is recorded,
+    not papered over.
+  boundary_note: >-
+    B02 is the SECOND batch and the registry is still empty (B01 is authored-to-gate, not
+    applied — graph/igcse-maths-a/ still carries exactly the 5 K1 stores), so there are no
+    cross-batch boundary targets to sanction and no boundary ruling is required (the
+    chemistry cross-slice ruling class is defined against an existing registry). The
+    B01 term-audit boundary map is inherited: of its six future-batch codes, three
+    (4MA1-1.2F, 4MA1-1.2I, 4MA1-1.3B) are IN this slice and mint their own nodes here, while
+    three (4MA1-1.4D, 4MA1-1.4E, 4MA1-1.7A) remain future. The cross-batch cost is real and
+    is recorded honestly: six of the batch's eight held candidates are boundary-class holds —
+    edges whose natural target is a B01 node (common denominators, mixed numbers, equivalent
+    fractions) or a future batch's SP family (algebra toolkit, powers and roots, bracket
+    expansion) — each quoted with its would-be evidence so the eventual post-promotion
+    boundary ruling can act on machine truth. The in-slice boundary discipline is enforced
+    by the preverify: every REQUIRES_PREREQUISITE edge endpoint is a batch node; every SP
+    reference is in-slice; the term audit probe re-runs the batch's candidate vocabulary
+    against the whole ratified 188-row wording + topics surface and prints the matches so
+    later batches inherit the shared-term map without re-derivation.
+  inherits:
+    boundary_map_from: 'scripts/c33_maths_a_batch01_term_audit_probe.py run
+      (recorded on C33_BATCH01_REVIEW.json future_batch_boundary_map) —
+      4MA1-1.2F, 4MA1-1.2I, 4MA1-1.3B (now in-slice for B02) + 4MA1-1.4D,
+      4MA1-1.4E, 4MA1-1.7A (still future)'
+    held_quarantine_from: scripts/c33_maths_a_batch01_decisions.yaml held B01-H-01..05 —
+      carried forward untouched; the B02 verdict session rules on both quarantines
+    first_math_mis_mint: none — B01 minted zero misconceptions (no MS-Reject rows in the
+      B01 topics); the surds topic MS is the first maths-a surface to document wrong-answer
+      classes
+  authorization: scripts/c34_maths_a_batch02_authorization.yaml (K2-C-2 commissioning,
+    2026-10-01; batch B02 = the second Lane C slice of the C31 §5 plan)
+  ms_pins:
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions/mark-schemes.md
+    (the fractions topic mark-scheme surface, also pinned by B01; the common-denominator
+    add/subtract rows supply MARK_SCHEME evidence for 1.2F)
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions-decimals-and-percentages/mark-schemes.md
+    (the FDP topic mark-scheme surface; the recurring-decimal method rows (Let x be the
+    recurring decimal / the 100x-x elimination rows) supply MARK_SCHEME evidence for 1.3A and
+    the decimal-place column-comparison row for 1.3C)
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    (the surds topic mark-scheme surface; the make-the-denominator-rational rows supply
+    MARK_SCHEME evidence for 1.4B, and Q12 20(a)/(b) document the batch's two wrong-answer
+    classes)
+command_kinds:
+- code: 4MA1-1.2E
+  verb: express
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: expressing a given number as a fraction of another number — writing
+    the comparison of two quantities as a single fraction
+- code: 4MA1-1.2F
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: common denominators to add and subtract fractions and mixed numbers —
+    equivalent-fraction rewriting over a shared denominator, combining numerators, and
+    converting mixed numbers before operating
+- code: 4MA1-1.2G
+  verb: convert
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: converting a fraction to a decimal or a percentage — the
+    over-powers-of-ten route and the decimal-then-multiply-by-100 route
+- code: 4MA1-1.2H
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: unit fractions as multiplicative inverses — multiplying by 1/n as the
+    inverse operation of dividing by n
+- code: 4MA1-1.2I
+  verb: multiply
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: multiplying and dividing fractions and mixed numbers — numerator x
+    numerator over denominator x denominator, cancelling common factors first, reciprocal
+    flip for division, mixed numbers converted to improper form first
+- code: 4MA1-1.3A
+  verb: convert
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: converting recurring decimals into fractions — the algebraic method
+    (write x equals the decimal, multiply by powers of 10 to align the recurring trail,
+    subtract, divide)
+- code: 4MA1-1.3B
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: place value in the decimals subtopic context — the positional value of
+    digits across the decimal point (the wording is byte-identical to 1.1B's; see B02-ID-01)
+- code: 4MA1-1.3C
+  verb: order
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: ordering decimals — comparing by place-value columns and equalizing
+    decimal places to determine order
+- code: 4MA1-1.3D
+  verb: convert
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: converting a decimal to a fraction or a percentage — the
+    digits-over-power-of-ten route and the multiply-by-100 route (the mirror of 1.2G; see
+    B02-ID-02)
+- code: 4MA1-1.3E
+  verb: recognise
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: recognising that a terminating decimal is a fraction — a terminating
+    decimal's digits over the matching power of ten is exactly a fraction
+- code: 4MA1-1.4A
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: the meaning of surds — square roots of non-square integers, left in
+    exact form, on the square-root domain (roots as the reverse of powers)
+- code: 4MA1-1.4B
+  verb: manipulate
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: manipulating surds — multiplying/dividing/factorising under the root,
+    collecting like surds, simplifying via square factors, and rationalising denominators
+nodes:
+- code: 4MA1-CON-EXPRESSING-NUMBERS-AS-FRACTIONS
+  family: CONCEPT
+  title: Expressing one number as a fraction of another
+  aliases:
+  - a as a fraction of b
+  - one number as a fraction of another
+  spec_points:
+  - code: 4MA1-1.2E
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: express a given number as a fraction of another number
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.2E in the operator-worked
+      join; the node's demand is the ratified wording alone (the C31 §3 uncovered-span
+      rule). The basic-fractions page's fraction-anatomy content would be the natural
+      underpinning but that page is joined to 1.2I only (pair discipline).
+- code: 4MA1-CON-ADDING-SUBTRACTING-FRACTIONS
+  family: CONCEPT
+  title: Adding and subtracting fractions (and mixed numbers) via common denominators
+  aliases:
+  - adding fractions
+  - subtracting fractions
+  - common denominator addition
+  spec_points:
+  - code: 4MA1-1.2F
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/adding-and-subtracting.md
+      kind: NOTE
+      quote: Find the lowest common denominator
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/adding-and-subtracting.md
+      kind: NOTE
+      quote: Add (or subtract) the numerators and write this over a single denominator
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/adding-and-subtracting.md
+      kind: NOTE
+      quote: Convert any mixed numbers into improper fractions
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use common denominators to add and subtract fractions and mixed numbers
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Rewrite both fractions with a common denominator, in this case 15, as both 5
+        and 3 are factors of 15
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Find a common denominator (common multiple of 6 and 3)
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Adding & Subtracting Fractions note is the 1.2F surface (join anchor
+      spcpt_GD9CRysqknb6VPhr → 1.2F, P1_name_fragment_join, operator-worked substrate): its
+      method list supplies the demanded procedure verbatim (lowest common denominator,
+      equivalent rewriting, combine numerators over a single denominator, mixed numbers to
+      improper form). The fractions MS rows document the demand in assessment language. The
+      note's "Do not add the denominators" warning is NOTE-side documentation of the
+      add-denominators wrong-answer class — the chemistry contract mints misconceptions ONLY
+      on MS-documented classes and the B02-topic MS files carry no such row, so the class is
+      HELD (B02-H-07, carried from B01-H-04 with the note-side detail recorded).
+- code: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+  family: CONCEPT
+  title: Converting a fraction to a decimal or a percentage
+  aliases:
+  - fraction to decimal
+  - fraction to percentage
+  spec_points:
+  - code: 4MA1-1.2G
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.md
+      kind: NOTE
+      quote: Fractions written over powers of 10 are quicker
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.md
+      kind: NOTE
+      quote: Change fractions into decimals then multiply by 100
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: convert a fraction to a decimal or a percentage
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Converting FDP note is the 1.2G surface (join anchor
+      spcpt_8MpvS5pnYkf9QswF → 1.2G, P2_page_context_join): its fraction→decimal
+      (over-powers-of-ten) and fraction→percentage (decimal then x100) sections supply the
+      demanded conversions verbatim. The note's decimal→fraction and percentage→fraction
+      rows serve 1.3D's mirror demand but the page is joined to 1.2G only, so 1.3D authors
+      SPEC-only (B02-ID-02 records the mirror-pair question); the note's "Learn simple
+      recurring decimals as fractions" row reaches the 1.3A node through the batch edge,
+      where 1.2G is an endpoint.
+- code: 4MA1-CON-UNIT-FRACTIONS-AS-INVERSES
+  family: CONCEPT
+  title: Unit fractions as multiplicative inverses
+  aliases:
+  - multiplicative inverses
+  - unit fractions
+  - reciprocal fractions
+  spec_points:
+  - code: 4MA1-1.2H
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: understand and use unit fractions as multiplicative inverses
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.2H. The basic-fractions
+      page's fraction-of-an-amount method ("Divide by the denominator and multiply by the
+      numerator") is the unit-fraction-as-division procedure the demand names, but that page
+      is joined to 1.2I only, so the richer node is HELD (B02-H-08,
+      COVERAGE-UNJOINED-SUBSTRATE) and the authored node carries the ratified wording alone.
+      The inverse concept's use-site inside this slice is the division procedure at 1.2I
+      (the reciprocal-flip row), which authors as the batch edge instead.
+- code: 4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS
+  family: CONCEPT
+  title: Multiplying and dividing fractions (and mixed numbers)
+  aliases:
+  - multiplying fractions
+  - dividing fractions
+  - reciprocal flip
+  spec_points:
+  - code: 4MA1-1.2I
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.md
+      kind: NOTE
+      quote: Always convert mixed numbers into improper fractions before multiplying
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.md
+      kind: NOTE
+      quote: The 'flipped' fraction is called a reciprocal fraction
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/basic-fractions.md
+      kind: NOTE
+      quote: To find an equivalent fraction, multiply the top and bottom of a fraction by
+        the same number
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: multiply and divide fractions and mixed numbers
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Multiplying & Dividing Fractions note is the 1.2I surface (join anchors
+      spcpt_3sptc2fDMgGnNYqg "Multiplying Fractions" and spcpt_Fbm5V3ByzktDQbh5 "Dividing
+      Fractions", both P1_name_fragment_join, both → 1.2I): the mixed-number conversion rule
+      and the reciprocal-flip vocabulary supply the demand verbatim; the division procedure
+      row ("When dividing fractions you are multiplying by the reciprocal.") reaches the
+      batch edge to 1.2H, where 1.2I is an endpoint. The basic-fractions page (join anchor
+      spcpt_339DNssRW9x2NPKk → 1.2I, P1_name_fragment_join) is cited for the
+      cancel-before-multiplying underpinning (its equivalents row is the operation the
+      cancel step performs); the pair is the substrate's own operator-worked mapping,
+      inherited 1:1, not re-derived here (the B01 FP-B01-2 disposition shape).
+- code: 4MA1-CON-RECURRING-DECIMALS-TO-FRACTIONS
+  family: CONCEPT
+  title: Converting recurring decimals into fractions (the algebraic method)
+  aliases:
+  - recurring decimals
+  - recurring to fraction
+  spec_points:
+  - code: 4MA1-1.3A
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.md
+      kind: NOTE
+      quote: Recurring decimals are rational numbers, they are not irrational
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.md
+      kind: NOTE
+      quote: They can be written as fractions
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.md
+      kind: NOTE
+      quote: Multiply both sides by 10 repeatedly until two lines have the same recurring
+        decimal part
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.md
+      kind: NOTE
+      quote: Subtract the two lines which have matching recurring decimal parts
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions-decimals-and-percentages/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Let $x$ be the recurring decimal
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions-decimals-and-percentages/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: These two equations both contain the trail of recurring 5s, so we can find
+        $100x-10x$ to eliminate the recurring part
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: convert recurring decimals into fractions
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Recurring Decimals note is the 1.3A surface (join anchor
+      spcpt_BVf2GTX8FCvzJjJN → 1.3A, R1_parse_repair_statement_join after T-SPEC-8 parse
+      repair): the rational-number framing and the multiply/subtract method steps supply the
+      demand verbatim; the FDP MS documents the same method in assessment language across
+      its recurring-decimal questions (the x-substitution and the 100x-x elimination rows).
+      The method's x-substitution presupposes letters-for-unknowns (the algebraic-notation
+      surface, join-carried to 1.3A as a P1 name-fragment join) — that prerequisite's target
+      node lives in a future batch, so the edge is HELD (B02-H-04) with the
+      algebraic-notation quote recorded there rather than padded onto this node.
+- code: 4MA1-CON-DECIMAL-PLACE-VALUE
+  family: CONCEPT
+  title: Decimal place value (positional value of digits across the decimal point)
+  aliases:
+  - tenths and hundredths
+  - decimal places
+  spec_points:
+  - code: 4MA1-1.3B
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: understand place value
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.3B. B02-ID-01: the 1.3B
+      wording is byte-identical to 1.1B's ("understand place value"); the decimal context
+      comes from the ratified store's own placement of the row in the 1.3 subtopic between
+      recurring-decimal conversion and ordering decimals — nothing beyond that placement is
+      asserted. The eventual co-identity or merge with the B01 place-value node (once
+      promoted) is reserved to the operator.
+- code: 4MA1-CON-ORDERING-DECIMALS
+  family: CONCEPT
+  title: Ordering decimals (comparison by place-value columns)
+  aliases:
+  - comparing decimals
+  - ordering by decimal places
+  spec_points:
+  - code: 4MA1-1.3C
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/ordering-fdp.md
+      kind: NOTE
+      quote: Write them all with 3 decimal places to determine the order
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/fractions-decimals-and-percentages/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: To compare the numbers, we could write them in a column and examine the value
+        of the second and third decimal places.
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: order decimals
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Ordering FDP note is the 1.3C surface (join anchor
+      spcpt_KNXbNby67zKvX8SX → 1.3C, P2_operator_content_join, T-SPEC-9 operator verdict):
+      its worked-example padding step (equal decimal places) supplies the demanded
+      comparison procedure; the FDP MS's column-comparison row documents the same procedure
+      in assessment language. The note's mixed-FDP ordering row ("change everything into
+      decimals") exceeds the 1.3C wording (which demands ordering decimals, not mixed FDP)
+      and is deliberately NOT cited as node evidence.
+- code: 4MA1-CON-DECIMAL-TO-FRACTION-OR-PERCENTAGE
+  family: CONCEPT
+  title: Converting a decimal to a fraction or a percentage
+  aliases:
+  - decimal to fraction
+  - decimal to percentage
+  spec_points:
+  - code: 4MA1-1.3D
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: convert a decimal to a fraction or a percentage
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      spec-text-only authoring — the converting-between-fdp page carries the exact
+      decimal→fraction and decimal→percentage procedures, but it is joined to 1.2G only (the
+      pair discipline forbids citing it here). B02-ID-02 records the mirror-pair question:
+      1.2G and 1.3D are authored as two nodes (one per row, separate subtopics); any single
+      FDP-conversion family merge is operator-only.
+- code: 4MA1-CON-TERMINATING-DECIMALS-ARE-FRACTIONS
+  family: CONCEPT
+  title: Terminating decimals are fractions (the recognition)
+  aliases:
+  - terminating decimal
+  - decimal as a fraction
+  spec_points:
+  - code: 4MA1-1.3E
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: recognise that a terminating decimal is a fraction
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      spec-text-only authoring — the recurring-decimals note carries the exact
+      terminating/recurring dichotomy ("A decimal that stops, called a "terminating"
+      decimal"), but it is joined to 1.3A only, so the 1.3E node authors from the ratified
+      wording alone. The recognition's mechanism (digits over the matching power of ten)
+      reaches the batch edge to 1.2G, where the converting-between-fdp page's
+      n-decimal-places rule is pair-backed at an endpoint.
+- code: 4MA1-CON-MEANING-OF-SURDS
+  family: CONCEPT
+  title: The meaning of surds (square roots of non-square integers, exact form)
+  aliases:
+  - surds
+  - exact form
+  - square root of a non-square integer
+  spec_points:
+  - code: 4MA1-1.4A
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/surds/simplifying-surds.md
+      kind: NOTE
+      quote: A surd is the square root of a non-square integer
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/surds/simplifying-surds.md
+      kind: NOTE
+      quote: Using surds lets you leave answers in exact form
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/powers-and-roots.md
+      kind: NOTE
+      quote: Roots are the reverse of powers
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/powers-and-roots.md
+      kind: NOTE
+      quote: Negative numbers do not have a real square root
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: understand the meaning of surds
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Simplifying Surds note is the 1.4A surface twice over (join anchors
+      spcpt_4QRwffMSmK66nXtp "Surds & Exact Values" and spcpt_stqdXPTn5YvgKtvm "Simplifying
+      Surds", both R1_parse_repair_statement_join, both → 1.4A): its definition section
+      supplies the meaning demand verbatim. The Powers & Roots page (join anchor
+      spcpt_cDnTk2242hfSCjVh → 1.4A, P2_page_context_join) supplies the square-root domain
+      the meaning presupposes (roots as the reverse of powers; the no-real-square-root
+      boundary of the domain). The negative-numbers page (join anchor
+      spcpt_3n2jHMX7vMBh95jq → 1.4A, P1_name_fragment_join) is join-carried but UNCITED —
+      its signed-arithmetic content does not state the surds demand; the honest disposition
+      is recorded here and in the uncited-join census rather than a padded citation. A
+      powers-and-roots prerequisite node belongs to a future batch, so the edge is HELD
+      (B02-H-05).
+- code: 4MA1-CON-MANIPULATING-SURDS
+  family: CONCEPT
+  title: Manipulating surds (simplify, collect, rationalise denominators)
+  aliases:
+  - simplifying surds
+  - rationalising the denominator
+  - like surds
+  spec_points:
+  - code: 4MA1-1.4B
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/surds/rationalising-denominators.md
+      kind: NOTE
+      quote: The fraction can be rewritten as an equivalent fraction, but with a rational
+        denominator
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/surds/rationalising-denominators.md
+      kind: NOTE
+      quote: Multiply the top and bottom of the fraction by the surd on the denominator
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Make the denominator rational (by multiplying top-and-bottom by √3)
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: manipulate surds, including rationalising a denominator
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_notes: >-
+      the joined Rationalising Denominators note is the 1.4B surface (join anchor
+      spcpt_wMN58K4jZ54z8bXC → 1.4B, R1_parse_repair_statement_join): the
+      equivalent-fraction-with-rational-denominator framing and the top-and-bottom
+      multiplication procedure supply the demand verbatim; the surds MS's
+      make-the-denominator-rational rows document the procedure in assessment language. The
+      simplifying-surds note's manipulation rows (multiply/divide/factorise under the root,
+      collect like surds) are pair-locked to 1.4A and reach this node through the batch
+      edge, where 1.4A is an endpoint. The two documented wrong-answer classes of this
+      surface mint as the batch's misconception nodes.
+- code: 4MA1-MIS-SURD-FACTOR-SWAP
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Simplifying √12 as 3√2 (swapping which square factor's root emerges)
+  aliases:
+  - surd factor swap
+  - root-of-product factor error
+  - wrong square factor extraction
+  spec_points:
+  - code: 4MA1-1.4B
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: manipulate surds, including rationalising a denominator
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: She used √12 = 3√2 in the numerator, but √12 = 2√3
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: √12 = 2√3, not 3√2
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: >-
+      the surds topic MS Q12 20(b) documents the exact wrong-answer class (a student's
+      √12 = 3√2 against the correct √12 = 2√3) with the corrected form in the same row — the
+      chemistry contract's mint condition is satisfied, and this is the FIRST maths-a
+      misconception mint (B01 minted zero on the abstention record). The mint-vs-exam-trivia
+      question is flagged as operator-reserved (B02-ID-03, the chemistry B10-ID-05
+      precedent). Remediation is authored as the batch REMEDIATED_BY edge (the MS's own
+      corrected form is the corrective content); the note-side corrective surface
+      (simplifying-surds.md's factorise-by-square-number method) is pair-locked to 1.4A and
+      is recorded in the edge's derivation notes.
+- code: 4MA1-MIS-CONJUGATE-EXPANSION-SIGN
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Dropping the negative on the final term when expanding the conjugate-pair
+    denominator
+  aliases:
+  - difference of two squares sign slip
+  - conjugate expansion error
+  - last term sign error
+  spec_points:
+  - code: 4MA1-1.4B
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: manipulate surds, including rationalising a denominator
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: He expanded the denominator incorrectly (the last term should be negative)
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: The last term when expanding the denominator should be -3, not +3
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c34-k2c-batch-02
+    generated_date: '2026-10-01'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: >-
+      the surds topic MS Q12 20(a) documents the exact wrong-answer class (the last term of
+      the (2+√3)(2−√3) denominator expansion taken as +3 instead of −3) with the corrected
+      sign in the same row. The class rides the rationalising surface (1.4B) even though the
+      expansion mechanics are algebra-flavored; the algebra-side prerequisite (bracket
+      expansion) belongs to a future batch, so that dependency is HELD (B02-H-06).
+      Mint-vs-exam-trivia reserved to the operator (B02-ID-03).
+edges:
+- source: 4MA1-CON-ORDERING-DECIMALS
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-DECIMAL-PLACE-VALUE
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/ordering-fdp.md
+    kind: NOTE
+    quote: Write them all with 3 decimal places to determine the order
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand place value
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: order decimals
+- source: 4MA1-CON-TERMINATING-DECIMALS-ARE-FRACTIONS
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.md
+    kind: NOTE
+    quote: If it has one decimal place, write the digits over 10
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: recognise that a terminating decimal is a fraction
+- source: 4MA1-CON-RECURRING-DECIMALS-TO-FRACTIONS
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.md
+    kind: NOTE
+    quote: Learn simple recurring decimals as fractions
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/recurring-decimals.md
+    kind: NOTE
+    quote: They can be written as fractions
+- source: 4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-UNIT-FRACTIONS-AS-INVERSES
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions/multiplying-and-dividing.md
+    kind: NOTE
+    quote: When dividing fractions you are multiplying by the reciprocal.
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand and use unit fractions as multiplicative inverses
+- source: 4MA1-CON-MANIPULATING-SURDS
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-MEANING-OF-SURDS
+  conf: high
+  derivation: EXPLICIT_TEACH_SEQUENCE
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/surds/simplifying-surds.md
+    kind: NOTE
+    quote: You can multiply numbers under square roots together
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand the meaning of surds
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: manipulate surds, including rationalising a denominator
+- source: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-DECIMAL-PLACE-VALUE
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/fractions-decimals-and-percentages/converting-between-fdp.md
+    kind: NOTE
+    quote: Divide by 100 (move digits two places to the right)
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand place value
+- source: 4MA1-MIS-SURD-FACTOR-SWAP
+  relation: WRONG_ANSWER_PATTERN
+  target: 4MA1-CON-MANIPULATING-SURDS
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: She used √12 = 3√2 in the numerator, but √12 = 2√3
+- source: 4MA1-MIS-CONJUGATE-EXPANSION-SIGN
+  relation: WRONG_ANSWER_PATTERN
+  target: 4MA1-CON-MANIPULATING-SURDS
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: He expanded the denominator incorrectly (the last term should be negative)
+- source: 4MA1-MIS-SURD-FACTOR-SWAP
+  relation: REMEDIATED_BY
+  target: 4MA1-CON-MANIPULATING-SURDS
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: √12 = 2√3, not 3√2
+- source: 4MA1-MIS-CONJUGATE-EXPANSION-SIGN
+  relation: REMEDIATED_BY
+  target: 4MA1-CON-MANIPULATING-SURDS
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/surds/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: The last term when expanding the denominator should be -3, not +3
+held:
+- id: B02-H-01
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-ADDING-SUBTRACTING-FRACTIONS,
+    4MA1-CON-COMMON-DENOMINATORS [B01 node, CORE at 4MA1-1.2C])'
+  evidence: 'the 1.2F official wording itself says "use common denominators to add and
+    subtract fractions and mixed numbers"; the joined note''s method list begins "Find the
+    lowest common denominator"; the fractions MS rows document the rewrite step'
+  reason: CROSS-BATCH-TARGET-UNPROMOTED — the natural target is B01's common-denominators
+    node, which is SUGGESTED and unapplied (no maths-a concepts store exists), so the edge
+    has no registry node to resolve to; authoring it would mint a cross-batch edge without
+    the boundary ruling the chemistry class requires. Held; revisit at the operator verdict
+    or at the post-promotion boundary ruling.
+  status: held
+- id: B02-H-02
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-ADDING-SUBTRACTING-FRACTIONS,
+    4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS [B01 node, CORE at 4MA1-1.2B]) (and the
+    same shape from 4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS)'
+  evidence: 'the 1.2F wording names mixed numbers; the joined note''s "Convert any mixed
+    numbers into improper fractions" and the multiplying note''s "Always convert mixed
+    numbers into improper fractions before multiplying" state the dependency'
+  reason: CROSS-BATCH-TARGET-UNPROMOTED — the target is B01's mixed-numbers node
+    (SUGGESTED, unapplied); no registry node exists. Held; revisit at the post-promotion
+    boundary ruling.
+  status: held
+- id: B02-H-03
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS,
+    4MA1-CON-EQUIVALENT-FRACTIONS [B01 node, CORE at 4MA1-1.2A])'
+  evidence: 'the joined note''s procedure opens "Cancel any factors that are common to both
+    the numerator and the denominator" — the cancellation IS equivalent-fraction formation;
+    the basic-fractions row cited on the node states the same operation constructively'
+  reason: CROSS-BATCH-TARGET-UNPROMOTED — the target is B01's equivalent-fractions node
+    (SUGGESTED, unapplied). Held; revisit at the post-promotion boundary ruling.
+  status: held
+- id: B02-H-04
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-RECURRING-DECIMALS-TO-FRACTIONS, <algebra
+    toolkit letters-for-unknowns node — future batch, S2>)'
+  evidence: 'the method is algebraic end to end: "Write the recurring decimal as $x=...$"
+    (recurring-decimals.md, joined to 1.3A) and the FDP MS rows ("Let $x$ be the recurring
+    decimal"; "These two equations both contain the trail of recurring 5s, so we can find
+    $100x-10x$ to eliminate the recurring part"); the algebraic-notation page (join-carried
+    to 1.3A, P1 name-fragment) defines the machinery ("Algebra is a topic in mathematics
+    that uses letters to represent general (or unknown) numbers")'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — the target SP family sits in the S2 algebra
+    toolkit, not yet batched; no node exists to resolve to. The algebraic-notation page's
+    contribution is recorded HERE rather than padded onto the 1.3A node. Held; revisit when
+    the S2 batch that owns the target is commissioned.
+  status: held
+- id: B02-H-05
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-MEANING-OF-SURDS, <powers-and-roots node —
+    future batch, 1.4C+>)'
+  evidence: 'the Powers & Roots page (join-carried to 1.4A) supplies the domain: "Roots are
+    the reverse of powers"; "Negative numbers do not have a real square root" — the meaning
+    of surds presupposes the square-root concept'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — the powers/roots SP family (1.4C..) is outside
+    this slice and unbatched; the page itself is correctly cited on the 1.4A node (pair-backed
+    at 1.4A), but the prerequisite EDGE has no node to resolve to. Held; revisit at the
+    future batch.
+  status: held
+- id: B02-H-06
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-MANIPULATING-SURDS, <algebraic expansion node —
+    future batch, S2>)'
+  evidence: 'the joined note''s harder-denominator procedure requires expanding brackets
+    ("You can use the difference of two squares to expand the denominator quickly"; "Expand
+    any brackets, and simplify")'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — the bracket-expansion SP family sits in S2,
+    unbatched; the rationalising procedure cites the expansion mechanics it presupposes but
+    no node exists to resolve to. Held; revisit when the S2 batch lands.
+  status: held
+- id: B02-H-07
+  candidate: 4MA1-MIS-ADDING-DENOMINATORS (the add-the-denominators wrong-answer class at
+    1.2F/1.2I, carried forward from B01-H-04)
+  evidence: 'NOTE-side documentation now exists — the joined note warns "Do not add the
+    denominators" — but the B02-topic mark-scheme files (fractions, FDP, surds) document no
+    such wrong-answer row'
+  reason: NO-MS-REJECT-DOCUMENTATION — the chemistry contract mints misconceptions ONLY on
+    mark-scheme-documented wrong-answer classes; the class is real (the note warns against
+    it) but unevidenced at MS level in this corpus. Held; revisit if a maths-a MS pin later
+    documents it.
+  status: held
+- id: B02-H-08
+  candidate: 4MA1-CON-UNIT-FRACTIONS-AS-INVERSES with NOTE evidence from basic-fractions.md
+    (the richer node shape)
+  evidence: 'the basic-fractions page''s fraction-of-an-amount method ("Divide by the
+    denominator and multiply by the numerator") is the unit-fraction-as-division procedure
+    the 1.2H demand names — but the page is joined to 4MA1-1.2I only'
+  reason: COVERAGE-UNJOINED-SUBSTRATE — authoring the node with that content as evidence
+    would assert a note↔SP relevance the operator-worked substrate does not carry (the
+    B01-H-01 class); the authored node carries the ratified wording alone. Held; revisit if
+    the operator ratifies a 1.2H anchor (corpus-side T-SPEC-style verdict or a K2-A
+    addendum) or at the operator verdict.
+  status: held
+identity_decisions:
+- id: B02-ID-01
+  decision: the 1.3B row authors as its OWN node (4MA1-CON-DECIMAL-PLACE-VALUE, CORE at
+    4MA1-1.3B) even though its wording is byte-identical to 1.1B's ("understand place
+    value") and B01 authored a place-value node CORE at 1.1B — the decimal-context reading
+    comes from the store's own 1.3 subtopic placement; the eventual co-identity or merge of
+    the two nodes (once B01 promotes) is the operator's call
+  precedent: the split-first identity policy (merges are operator-only); B01-ID-01 for the
+    merge shape
+  reserved_to: operator verdict
+- id: B02-ID-02
+  decision: the mirror-conversion rows 1.2G (fraction → decimal/percentage) and 1.3D
+    (decimal → fraction/percentage) are authored as TWO nodes, one per row — the directions
+    are distinct demands in distinct subtopics and the converting-between-fdp evidence is
+    pair-locked to 1.2G; any single FDP-conversion family merge is the operator's call
+  precedent: B01-ID-02 (split of bundled demands)
+  reserved_to: operator verdict
+- id: B02-ID-03
+  decision: the batch MINTS the first two maths-a misconception nodes (4MA1-MIS-SURD-
+    FACTOR-SWAP, 4MA1-MIS-CONJUGATE-EXPANSION-SIGN) on the surds MS Q12 20(a)/(b)
+    documentation — the operator rules on whether the documented classes are genuine
+    wrong-answer patterns worth graph nodes or assessment-local exam trivia (the chemistry
+    B10-ID-05 mint-vs-exam-trivia precedent)
+  precedent: B10-ID-05 (chemistry), with the B8/B9 misconception mints as the mint-side
+    precedent
+  reserved_to: operator verdict

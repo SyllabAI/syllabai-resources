@@ -1,0 +1,140 @@
+# T-C34 K2-C-2 — batch-B02 adversarial pass-2 review record (the c33_maths_a_batch01_
+# review_pass2.yaml shape, second-batch instance). Pass 2 is the authoring agent's second,
+# adversarial pass over its own pass-1 extraction: every row re-ruled, every doubt either
+# resolved on explicit evidence or routed to the held record / the operator's identity
+# decisions. NOTHING in this file promotes anything — SUGGESTED stays SUGGESTED until the
+# operator's verdict gate.
+meta:
+  task: T-C34
+  stage: k2-c-batch-02-pass2
+  extraction_pass: c34-k2c-batch-02
+  pass: 2
+  mode: adversarial-second-pass
+  generated_date: '2026-10-01'
+  model_version: GLM (Super Z agent, z.ai)
+  method: >-
+    every pass-1 row re-checked against its cited evidence (re-read under the batch-8
+    normalization convention), then re-ruled on the relation CLASS and direction, not just
+    existence; the two misconception mints re-tested against the MS documentation and the
+    mint-vs-exam-trivia question flagged; the cross-batch holds re-tested for silent-drop
+    avoidance; the uncited-join census re-derived as a file-set check; the edge DAG re-walked
+    for cycles.
+node_verdicts:
+  4MA1-CON-EXPRESSING-NUMBERS-AS-FRACTIONS: CONFIRM
+  4MA1-CON-ADDING-SUBTRACTING-FRACTIONS: CONFIRM
+  4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE: CONFIRM
+  4MA1-CON-UNIT-FRACTIONS-AS-INVERSES: CONFIRM
+  4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS: CONFIRM
+  4MA1-CON-RECURRING-DECIMALS-TO-FRACTIONS: CONFIRM
+  4MA1-CON-DECIMAL-PLACE-VALUE: CONFIRM
+  4MA1-CON-ORDERING-DECIMALS: CONFIRM
+  4MA1-CON-DECIMAL-TO-FRACTION-OR-PERCENTAGE: CONFIRM
+  4MA1-CON-TERMINATING-DECIMALS-ARE-FRACTIONS: CONFIRM
+  4MA1-CON-MEANING-OF-SURDS: CONFIRM
+  4MA1-CON-MANIPULATING-SURDS: CONFIRM
+  4MA1-MIS-SURD-FACTOR-SWAP: CONFIRM
+  4MA1-MIS-CONJUGATE-EXPANSION-SIGN: CONFIRM
+edge_verdicts:
+  "4MA1-CON-ORDERING-DECIMALS REQUIRES_PREREQUISITE 4MA1-CON-DECIMAL-PLACE-VALUE": CONFIRM
+  "4MA1-CON-TERMINATING-DECIMALS-ARE-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE": CONFIRM
+  "4MA1-CON-RECURRING-DECIMALS-TO-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE": CONFIRM
+  "4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS REQUIRES_PREREQUISITE 4MA1-CON-UNIT-FRACTIONS-AS-INVERSES": CONFIRM
+  "4MA1-CON-MANIPULATING-SURDS REQUIRES_PREREQUISITE 4MA1-CON-MEANING-OF-SURDS": CONFIRM
+  "4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE REQUIRES_PREREQUISITE 4MA1-CON-DECIMAL-PLACE-VALUE": CONFIRM
+  "4MA1-MIS-SURD-FACTOR-SWAP WRONG_ANSWER_PATTERN 4MA1-CON-MANIPULATING-SURDS": CONFIRM
+  "4MA1-MIS-CONJUGATE-EXPANSION-SIGN WRONG_ANSWER_PATTERN 4MA1-CON-MANIPULATING-SURDS": CONFIRM
+  "4MA1-MIS-SURD-FACTOR-SWAP REMEDIATED_BY 4MA1-CON-MANIPULATING-SURDS": CONFIRM
+  "4MA1-MIS-CONJUGATE-EXPANSION-SIGN REMEDIATED_BY 4MA1-CON-MANIPULATING-SURDS": CONFIRM
+held_agreements:
+  B02-H-01: AGREE
+  B02-H-02: AGREE
+  B02-H-03: AGREE
+  B02-H-04: AGREE
+  B02-H-05: AGREE
+  B02-H-06: AGREE
+  B02-H-07: AGREE
+  B02-H-08: AGREE
+identity_flags:
+  - B02-ID-01
+  - B02-ID-02
+  - B02-ID-03
+findings:
+- id: FP-B02-1
+  class: FALSE-POSITIVE-CHECK
+  question: >-
+    Is FRACTION-TO-DECIMAL-OR-PERCENTAGE REQUIRES_PREREQUISITE DECIMAL-PLACE-VALUE a
+    structure-first mint — the note's "move digits two places to the right" is calculator-
+    adjacent language, and the edge crosses subtopics (a 1.2 row depending on a 1.3 row)?
+  resolution: >-
+    No — the digit movement IS the place-value operation (x/÷100 shifts every digit two
+    positional slots), the note's own worked rows (0.35 to 35%, 6% to 0.06) are place-value
+    transformations, and a cross-subtopic direction is exactly what the ratified store's
+    ordering encodes (place value 1.1B/1.3B underpins every later conversion). CONFIRM
+    unchanged.
+- id: FP-B02-2
+  class: STRUCTURE-CHECK
+  question: >-
+    Both conversion consumers (terminating-recognition at 1.3E, recurring method at 1.3A)
+    target FRACTION-TO-DECIMAL-OR-PERCENTAGE, which itself targets DECIMAL-PLACE-VALUE — is
+    the authored edge set cycle-free?
+  resolution: >-
+    Yes — the DAG is terminating->ftd, recurring->ftd, ftd->decimal-place-value,
+    ordering->decimal-place-value, manipulating-surds->meaning-of-surds, multiplying-dividing->unit-fractions;
+    no node reaches itself by any path. CONFIRM unchanged.
+- id: FP-B02-3
+  class: PROVENANCE-CHECK
+  question: >-
+    The basic-fractions page is a general fraction-anatomy surface; its equivalents row is
+    cited on the 1.2I multiply/divide node — is a general-anatomy page honest evidence for
+    the operations node?
+  resolution: >-
+    Yes, with the provenance stated: the note-to-SP pair IS the operator-worked substrate's
+    own mapping (spcpt_339DNssRW9x2NPKk -> 1.2I, P1 name-fragment join, inherited 1:1 by the
+    C32 join — the FP-B01-2 disposition shape), and the cited row ("To find an equivalent
+    fraction, multiply the top and bottom...") names the operation the note's own
+    cancel-before-multiplying step performs. The record states this inheritance verbatim in
+    the node's derivation_notes; nothing re-derived. CONFIRM unchanged.
+- id: FN-B02-1
+  class: FALSE-NEGATIVE-CHECK
+  question: >-
+    B01 minted zero misconceptions (the abstention record); B02 mints two — what changed?
+  resolution: >-
+    The substrate changed: the surds topic MS Q12 20(a)/(b) rows are the FIRST maths-a
+    mark-scheme rows that document wrong-answer classes (a student's root-12-as-3-root-2 and
+    a conjugate-expansion sign slip, each with the corrected form in the same row). The
+    chemistry contract's mint condition (MS documentation of the class) is met for exactly
+    these two; everything else (including the note-side "Do not add the denominators"
+    warning) stays HELD (B02-H-07). The mint-vs-exam-trivia question is operator-reserved
+    (B02-ID-03, the B10-ID-05 precedent).
+- id: FN-B02-2
+  class: CITATION-ABSTENTION-CHECK
+  question: >-
+    Two join-carried pages go uncited (negative-numbers joined to 1.4A, algebraic-notation
+    joined to 1.3A) — is leaving substrate mappings unused a coverage failure?
+  resolution: >-
+    No — it is the census working: neither page states its SP's demand (the negative-numbers
+    page teaches signed arithmetic, not the meaning of surds; the algebraic-notation page
+    defines letters-for-unknowns, not the recurring-decimal conversion), and citing them
+    would be the padding the pair discipline exists to prevent. The algebraic-notation
+    content is recorded where it honestly belongs — quoted on the held B02-H-04 row (the
+    future-batch algebra prerequisite); the negative-numbers disposition is recorded on the
+    1.4A node's derivation notes and in the census. CONFIRM unchanged.
+- id: FN-B02-3
+  class: FORECAST-CHECK
+  question: >-
+    The batch authors 10 edges against the adjusted forecast of ~1.6 edges/SP (~19 for the
+    slice) — is the shortfall thin coverage?
+  resolution: >-
+    No — it is structural, and now with a named mechanism: the registry is still absent (B01
+    is authored-to-gate, not applied), so the cross-batch boundary-edge class has no targets
+    to reach; six of the batch's eight held rows are exactly those would-be edges (three to
+    B01 nodes, three to future-batch families), each quoted with its evidence. The node rate
+    is on forecast (12 concept nodes / 12 SPs = 1.00). Recorded in the sheet's calibration
+    section, not papered over.
+agreement_summary:
+  nodes: '14/14 CONFIRM (12 concept + 2 misconception)'
+  edges: '10 CONFIRM · 0 HOLD · 0 REJECT (6 REQUIRES_PREREQUISITE + 2 WRONG_ANSWER_PATTERN + 2 REMEDIATED_BY)'
+  held: '8/8 AGREE'
+  raw_agreement_note: >-
+    raw agreement, NOT kappa — single human-rater convention (architecture §12 analogue);
+    pass-2 found zero re-authoring cases, zero demotions.

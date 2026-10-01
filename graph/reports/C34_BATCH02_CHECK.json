@@ -1,0 +1,75 @@
+{
+  "schema": "syllabai.c34-batch02-check/1.0",
+  "task": "T-C34",
+  "gate": "K2-C-2",
+  "batch": "B02",
+  "generated_utc": "2026-10-01T06:21:56.862125+00:00",
+  "baseline": "f0f4c2d5929a2e06c92e9f740984e8d68325027a",
+  "result": "ALL PASS",
+  "gates": [
+    {
+      "gate": "G1",
+      "name": "commissioning_record",
+      "status": "PASS",
+      "detail": "decision=AUTHORIZED verbatim='K2-C-2' invariants=10"
+    },
+    {
+      "gate": "G2",
+      "name": "record_shape",
+      "status": "PASS",
+      "detail": "concept=12 misconception=2 edges=10 held=8"
+    },
+    {
+      "gate": "G3",
+      "name": "preverify_gates",
+      "status": "PASS",
+      "detail": "c34_maths_a_batch02_preverify: ALL PASS (32 checks) — record shape, SP coverage, second-batch store state (5 K1 stores, B01 unapplied), evidence allow-list with edge pair-back (the unjoined-corpus negative control), boun"
+    },
+    {
+      "gate": "G4",
+      "name": "quote_probe_gates",
+      "status": "PASS",
+      "detail": "quote probe: 61 evidence anchors checked (kinds: {'NOTE': 26, 'SPEC': 21, 'MARK_SCHEME': 14}; read channels: {'disk': 1, 'git-batch': 12})"
+    },
+    {
+      "gate": "G5",
+      "name": "review_reproducible",
+      "status": "PASS",
+      "detail": "byte-stable across rebuilds: True"
+    },
+    {
+      "gate": "G6",
+      "name": "freeze_integrity",
+      "status": "PASS",
+      "detail": "HEAD=f0f4c2d5929a baseline=f0f4c2d5929a out-of-footprint=[]"
+    },
+    {
+      "gate": "G7",
+      "name": "standing_checkers",
+      "status": "PASS",
+      "detail": "graph_check rc=0, check_no_hardcode rc=0"
+    }
+  ],
+  "artifacts": {
+    "authorization": {
+      "path": "scripts/c34_maths_a_batch02_authorization.yaml",
+      "sha256_16": "8bed477924bf458c"
+    },
+    "decisions": {
+      "path": "scripts/c34_maths_a_batch02_decisions.yaml",
+      "sha256_16": "5c548f576ba141f0"
+    },
+    "pass2": {
+      "path": "scripts/c34_maths_a_batch02_review_pass2.yaml",
+      "sha256_16": "e361a7e6ca523cfe"
+    },
+    "review_sheet": {
+      "path": "graph/reports/C34_BATCH02_REVIEW_SHEET.md",
+      "sha256_16": "de5f1a9de0a567aa"
+    },
+    "review_json": {
+      "path": "graph/reports/C34_BATCH02_REVIEW.json",
+      "sha256_16": "2b3039ee7c0b424f"
+    }
+  }
+}
