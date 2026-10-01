@@ -34,3 +34,5 @@ jobs:
         run: python3 scripts/c12_promote.py check
       - name: c12 demo decisions still pass the check gate (positive control)
         run: python3 scripts/c12_spec_tagger.py check scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
+      - name: kg golden-sample regression gate (T-KG-B — resources export vs vendored v75 golden)
+        run: python3 scripts/kg_export.py --verify-golden

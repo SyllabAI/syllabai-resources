@@ -1,0 +1,283 @@
+{
+ "version": 1,
+ "task": "T-KG-B",
+ "purpose": "Pinned acceptance ledger for the resources-side golden-sample regression gate (scripts/kg_export.py --verify-golden). Every difference between the resources projection and the vendored golden fixture must be explained here or the gate goes RED. Values pinned from the 2026-10-01 task-B reconciliation.",
+ "golden_fixture": {
+  "path": "graph/igcse-chemistry/_golden/canonicalKG.edexcel-chemistry-4ch1.json",
+  "sha256": "11eb7aa571c34aaba600c2f6688c09d1631c67c9f0bad00be6f4bec421ba0aaf",
+  "origin": "extracted from the v75 OpenHuman build's syncCanonicalKG() by syllabai-demo scripts/extract_canonical_kg.py (2026-09-21T07:33:38+00:00); source build sha256 65cc973e7ea827c1211cd2e76a7f1075a27a45660224c38f72a5efc8d0a1e960"
+ },
+ "expected": {
+  "nodes": {
+   "golden_total": 217,
+   "export_total": 217,
+   "golden_only_ids": [],
+   "resources_only_ids": []
+  },
+  "edges": {
+   "golden_total": 257,
+   "export_total": 222,
+   "golden_only_pre": 30,
+   "golden_only_rel": 5,
+   "golden_only_exact": [
+    [
+     "p:1.18",
+     "p:1.19",
+     "pre"
+    ],
+    [
+     "p:1.19",
+     "p:1.22",
+     "pre"
+    ],
+    [
+     "p:1.25",
+     "p:1.28",
+     "pre"
+    ],
+    [
+     "p:1.27",
+     "p:1.28",
+     "pre"
+    ],
+    [
+     "p:1.28",
+     "p:1.29",
+     "pre"
+    ],
+    [
+     "p:1.37",
+     "p:1.39",
+     "pre"
+    ],
+    [
+     "p:1.41",
+     "p:1.42",
+     "pre"
+    ],
+    [
+     "p:1.41",
+     "p:1.43",
+     "pre"
+    ],
+    [
+     "p:1.44",
+     "p:1.46",
+     "pre"
+    ],
+    [
+     "p:1.45",
+     "p:1.47",
+     "pre"
+    ],
+    [
+     "p:1.57C",
+     "p:1.58C",
+     "pre"
+    ],
+    [
+     "p:2.15",
+     "p:2.17",
+     "pre"
+    ],
+    [
+     "p:2.15",
+     "p:2.20",
+     "pre"
+    ],
+    [
+     "p:2.29",
+     "p:2.31",
+     "pre"
+    ],
+    [
+     "p:2.31",
+     "p:2.32",
+     "pre"
+    ],
+    [
+     "p:2.35",
+     "p:2.36",
+     "pre"
+    ],
+    [
+     "p:3.1",
+     "p:3.5C",
+     "pre"
+    ],
+    [
+     "p:3.13",
+     "p:3.14C",
+     "pre"
+    ],
+    [
+     "p:3.19C",
+     "p:3.20C",
+     "pre"
+    ],
+    [
+     "p:3.6C",
+     "p:3.7C",
+     "pre"
+    ],
+    [
+     "p:3.9",
+     "p:3.11",
+     "pre"
+    ],
+    [
+     "p:4.19",
+     "p:4.20",
+     "pre"
+    ],
+    [
+     "p:4.23",
+     "p:4.25",
+     "pre"
+    ],
+    [
+     "p:4.23",
+     "p:4.27",
+     "pre"
+    ],
+    [
+     "p:4.29C",
+     "p:4.31C",
+     "pre"
+    ],
+    [
+     "p:4.29C",
+     "p:4.32C",
+     "pre"
+    ],
+    [
+     "p:4.34C",
+     "p:4.36C",
+     "pre"
+    ],
+    [
+     "p:4.39C",
+     "p:4.40C",
+     "pre"
+    ],
+    [
+     "p:4.44",
+     "p:4.46",
+     "pre"
+    ],
+    [
+     "p:4.7",
+     "p:4.8",
+     "pre"
+    ],
+    [
+     "p:1.59C",
+     "p:1.60C",
+     "rel"
+    ],
+    [
+     "p:2.34",
+     "p:2.37",
+     "rel"
+    ],
+    [
+     "p:3.22C",
+     "p:3.21C",
+     "rel"
+    ],
+    [
+     "p:4.27",
+     "p:4.28",
+     "rel"
+    ],
+    [
+     "p:4.8",
+     "p:4.9",
+     "rel"
+    ]
+   ]
+  },
+  "statements": {
+   "total": 182,
+   "exact": 173
+  }
+ },
+ "accepted_text_variants": {
+  "2a:label": {
+   "golden": "Group 1 (alkali metals) - lithium, sodium and potassium",
+   "resources": "Group 1 (alkali metals) – lithium, sodium and potassium"
+  },
+  "2b:label": {
+   "golden": "Group 7 (halogens) - chlorine, bromine and iodine",
+   "resources": "Group 7 (halogens) – chlorine, bromine and iodine"
+  },
+  "p:1.12:statement": {
+   "golden": "understand how to use the calculation of Rf values to identify the components of a mixture",
+   "resources": "understand how to use the calculation of R f values to identify the components of a mixture"
+  },
+  "p:1.35C:statement": {
+   "golden": "understand how to carry out calculations involving gas volumes and the molar volume of a gas (24 dm3 and 24 000 cm3 at room temperature and pressure (rtp))",
+   "resources": "understand how to carry out calculations involving gas volumes and the molar volume of a gas (24 dm 3 and 24 000 cm 3 at room temperature and pressure (rtp))"
+  },
+  "p:1.38:statement": {
+   "golden": "know the charges of these ions: • metals in Groups 1, 2 and 3 • non-metals in Groups 5, 6 and 7 • Ag+, Cu2+, Fe2+, Fe3+, Pb2+, Zn2+ • hydrogen (H+), hydroxide (OH–), ammonium (NH4+), carbonate (CO32–), nitrate (NO3-), sulfate (SO42–).",
+   "resources": "know the charges of these ions: • metals in Groups 1, 2 and 3 • non-metals in Groups 5, 6 and 7 • Ag + , Cu 2+ , Fe 2+ , Fe 3+ , Pb 2+ , Zn 2+ • hydrogen (H + ), hydroxide (OH – ), ammonium (NH 4 + ), carbonate (CO 3 2– ), nitrate (NO 3 - ), sulfate (SO 4 2– )."
+  },
+  "p:1.50:statement": {
+   "golden": "explain how the structures of diamond, graphite and C60 fullerene influence their physical properties, including electrical conductivity and hardness",
+   "resources": "explain how the structures of diamond, graphite and C 60 fullerene influence their physical properties, including electrical conductivity and hardness"
+  },
+  "p:2.1:subtopic": {
+   "golden": "Group 1 (alkali metals) - lithium, sodium and potassium",
+   "resources": "Group 1 (alkali metals) – lithium, sodium and potassium"
+  },
+  "p:2.2:subtopic": {
+   "golden": "Group 1 (alkali metals) - lithium, sodium and potassium",
+   "resources": "Group 1 (alkali metals) – lithium, sodium and potassium"
+  },
+  "p:2.3:subtopic": {
+   "golden": "Group 1 (alkali metals) - lithium, sodium and potassium",
+   "resources": "Group 1 (alkali metals) – lithium, sodium and potassium"
+  },
+  "p:2.46:statement": {
+   "golden": "know the colours formed in flame tests for these cations: • Li+ is red • Na+ is yellow • K+ is lilac • Ca2+ is orange-red • Cu2+ is blue-green.",
+   "resources": "know the colours formed in flame tests for these cations: • Li + is red • Na + is yellow • K + is lilac • Ca 2+ is orange-red • Cu 2+ is blue-green."
+  },
+  "p:2.47:statement": {
+   "golden": "describe tests for these cations: • NH4+ using sodium hydroxide solution and identifying the gas evolved • Cu2+, Fe2+ and Fe3+ using sodium hydroxide solution.",
+   "resources": "describe tests for these cations: • NH 4 + using sodium hydroxide solution and identifying the gas evolved • Cu 2+ , Fe 2+ and Fe 3+ using sodium hydroxide solution."
+  },
+  "p:2.48:statement": {
+   "golden": "describe tests for these anions: • Cl–, Br– and I– using acidified silver nitrate solution • SO42– using acidified barium chloride solution • CO32– using hydrochloric acid and identifying the gas evolved.",
+   "resources": "describe tests for these anions: • Cl – , Br – and I – using acidified silver nitrate solution • SO 4 2– using acidified barium chloride solution • CO 3 2– using hydrochloric acid and identifying the gas evolved."
+  },
+  "p:2.4C:subtopic": {
+   "golden": "Group 1 (alkali metals) - lithium, sodium and potassium",
+   "resources": "Group 1 (alkali metals) – lithium, sodium and potassium"
+  },
+  "p:2.5:subtopic": {
+   "golden": "Group 7 (halogens) - chlorine, bromine and iodine",
+   "resources": "Group 7 (halogens) – chlorine, bromine and iodine"
+  },
+  "p:2.6:subtopic": {
+   "golden": "Group 7 (halogens) - chlorine, bromine and iodine",
+   "resources": "Group 7 (halogens) – chlorine, bromine and iodine"
+  },
+  "p:2.7:subtopic": {
+   "golden": "Group 7 (halogens) - chlorine, bromine and iodine",
+   "resources": "Group 7 (halogens) – chlorine, bromine and iodine"
+  },
+  "p:2.8C:subtopic": {
+   "golden": "Group 7 (halogens) - chlorine, bromine and iodine",
+   "resources": "Group 7 (halogens) – chlorine, bromine and iodine"
+  },
+  "p:3.14C:statement": {
+   "golden": "draw and explain reaction profile diagrams showing ΔH and activation energy",
+   "resources": "draw and explain reaction profile diagrams showing Δ H and activation energy"
+  },
+  "p:3.3:statement": {
+   "golden": "calculate the heat energy change from a measured temperature change using the expression Q = mcΔT",
+   "resources": "calculate the heat energy change from a measured temperature change using the expression Q = m c Δ T"
+  }
+ }
+}
