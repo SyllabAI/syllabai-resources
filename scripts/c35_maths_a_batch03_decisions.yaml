@@ -1,0 +1,1082 @@
+meta:
+  task: T-C35
+  stage: k2-c-batch-03
+  extraction_pass: c35-k2c-batch-03
+  generated_date: '2026-10-02'
+  model_version: GLM (Super Z agent, z.ai)
+  curriculum_code: 4MA1-2016
+  commissioned_by: operator directive 'K2-C-3' (2026-10-02, zai-web) — gate K2-C-3 of the
+    C31 §8 sequence (commission → author → review → verdict), commissioning recorded in
+    scripts/c35_maths_a_batch03_authorization.yaml
+  session: operator-gate K2-C-3 (the C31/C32 series keys gates by directive, not session
+    number; the directive date is the commissioning date)
+  scope:
+    spec_points:
+    - 4MA1-1.4C
+    - 4MA1-1.4D
+    - 4MA1-1.4E
+    - 4MA1-1.5A
+    - 4MA1-1.5B
+    - 4MA1-1.5C
+    - 4MA1-1.5D
+    - 4MA1-1.5E
+    - 4MA1-1.6A
+    - 4MA1-1.6B
+    - 4MA1-1.6C
+    - 4MA1-1.6D
+    slice_note: >-
+      B03 = global_order 25–36 of the ratified K1 store (scripts/graph_paths.yaml
+      specification_points; 188 rows). Like B02, B03 is a MIXED-TIER slice: 7
+      Higher-applicability rows (4MA1-1.4C, 1.5A, 1.5B, 1.5C, 1.5D, 1.6A, 1.6B; papers
+      4MA1/1H and 4MA1/2H) plus 5 Foundation rows (1.4D, 1.4E, 1.5E, 1.6C, 1.6D; papers
+      4MA1/1F and 4MA1/2F). The slice spans THREE ratified subtopics — the 1.4 tail
+      (1.4C..1.4E = global_order 25–27 of 4MA1-S1-1.4's five rows), 1.5 complete
+      (1.5A..1.5E = 28–32) and the 1.6 head (1.6A..1.6D = 33–36 of 4MA1-S1-1.6's seven
+      rows). The C31 honesty rules are honored to the letter: subtopic titles for
+      1.4/1.5/1.6 are NULL in the ratified topics store and are NOT invented here — the
+      slice is described by code and by the official wordings alone. One wording-honesty
+      note: the 1.5C store wording carries the canonical parse's spacing artifact verbatim
+      ("use the notationn(A)for the number of elements in the setA") — preserved per the K1
+      statement_text_policy, quoted in the store form in every SPEC anchor, never silently
+      repaired. Zero damage-flagged rows in the slice (the 8 math-fragment-assembly rows
+      live elsewhere in the 188).
+    coverage_profile:
+      notes_joined_sps: [4MA1-1.4C, 4MA1-1.4D, 4MA1-1.4E, 4MA1-1.5B, 4MA1-1.5C, 4MA1-1.5E]
+      notes_joined_count: 6
+      spec_text_only_sps: [4MA1-1.5A, 4MA1-1.5D, 4MA1-1.6A, 4MA1-1.6B, 4MA1-1.6C,
+        4MA1-1.6D]
+      spec_text_only_count: 6
+      source: >-
+        Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json
+        (the T-C32 K2-A lane artifact, 202 joins / 111 codes) — the C31 §3 standing input to
+        Lane C, restated per batch. 6 of the 12 slice SPs carry note-level anchors through
+        the operator-worked AI_VALIDATED substrate (11 join rows over 9 distinct note
+        files; hcf-and-lcm carries two in-slice anchors — the HCF and LCM statement joins;
+        set-notation-and-venn-diagrams carries two — its notation half joined to 1.5B and
+        its diagrams half joined to 1.5E); the other 6 author from the ratified spec-text
+        store alone (SPEC-kind evidence), per the C31 scope record §3. Join-tier
+        composition of the 11 rows: 4 operator-verdict name-fragment joins (T-SPEC-7; PMT
+        excluded as source), 2 operator-verdict page-context joins (T-SPEC-7) and 5
+        name_to_statement joins — all operator-delegated verdicts, inherited 1:1, none
+        re-derived here.
+      ms_evidence_sps: [4MA1-1.4C, 4MA1-1.4D, 4MA1-1.4E, 4MA1-1.6A, 4MA1-1.6B, 4MA1-1.6D]
+      ms_note: >-
+        the SME-ExamQuestion corpus carries per-topic mark-scheme surfaces
+        (mark-schemes.md); five B03-adjacent topic surfaces are pinned (see ms_pins) and
+        three supply node-level MARK_SCHEME evidence — the powers-roots-and-standard-form
+        topic MS for the index-law demands at 1.4C, the prime-factors-hcf-and-lcm topic MS
+        for the factor-tree and HCF/LCM demands at 1.4D/1.4E, and the compound-interest
+        topic MS plus the percentages topic MS multiplier rows for 1.6A/1.6B/1.6D. This is
+        a PARTIAL MS-documentation shape (the other B03-topic MS rows document correct
+        procedures only), the chemistry batch-3/4/10 PARTIAL-coverage precedent. The TWO
+        documented wrong-answer classes of the slice's topic surfaces — the set-notation
+        topic MS Q7 complement-of-union mistake row and the percentages topic MS Q10/Q11
+        inverted-quotient rows — mint as the batch's two misconception nodes (§2a of the
+        review sheet).
+    negative_control: >-
+      The B03 negative control is the UNJOINED-CORPUS guard, at third-batch strength (the
+      B02 pair-back strength carried forward): no NOTE-kind evidence may cite any notes
+      page outside the 9 join-carried notes of the slice, every NOTE citation is
+      machine-verified to be pair-backed (the note is joined to the SP it attaches to, or
+      for an edge, to one of the edge's endpoint SPs), and the cited NOTE set is recorded
+      against the join-carried set with an explicit uncited-join census (this batch: the
+      mathematical-operations page joined to 1.5C and the probability-and-venn-diagrams
+      page joined to 1.5E are join-carried but UNCITED — their content sits behind the
+      slice's demands, and the honest disposition is recorded, not padded). The corpus
+      teaches the slice's neighborhood on pages that carry no slice anchor —
+      basic-percentages, percentage-increases-and-decreases and reverse-percentages (the
+      percentages pages), converting-between-fdp (itself joined to B02's 1.2G, not citable
+      here), standard-form, operations-with-standard-form, types-of-number — and NONE of
+      them is cited anywhere in the record. The control is structural (which files may be
+      cited); no slice SP is damage-flagged, so no wording carve-out is needed.
+    practicals: []
+    practicals_note: the K1 practicals store for maths-a carries 0 rows (a mathematics
+      specification has no practical-typed SPs) — the chemistry practical-carving precedent
+      has no instance in this slice.
+    subsections: 4MA1-S1-1.4 orders 25–27 (the 1.4C..1.4E tail of its five rows) +
+      4MA1-S1-1.5 orders 28–32 (complete) + 4MA1-S1-1.6 orders 33–36 (the 1.6A..1.6D head
+      of its seven rows) — subsection titles null by design (see slice_note)
+  contract: >-
+    nodes one-per-SP-family (the chemistry one-family precedent, B01-ID-01/02 and
+    B02-ID-01/02 shapes): every one of the 12 slice SPs carries exactly one CONCEPT node
+    CORE at its row. Misconceptions ONLY where a mark-scheme row documents the wrong-answer
+    class (the chemistry contract): the B03-topic MS files document exactly two
+    wrong-answer classes (the set-notation MS Q7 row — a student writing (A∩B)' where
+    (A∪B)' or A'∩B' is meant — and the percentages MS Q10/Q11 rows — the inverted
+    80-of-320/10-of-40 quotient), so B03 mints exactly TWO MISCONCEPTION nodes — riding
+    4MA1-1.5B and 4MA1-1.6D respectively — each with the documenting rows as node evidence
+    and the MS's own corrective row as the REMEDIATED_BY evidence; the mint-vs-exam-trivia
+    question and the inversion-class home row are operator-reserved (B03-ID-02/03). Every
+    quote byte-verified against its cited file (the G03/c11.4 normalization convention,
+    c35_maths_a_batch03_quote_probe.py, run BEFORE anything grows). The maths-a
+    guide-class vocabulary founded at B01 (KNOW_TERM / UNDERSTAND_RELATION /
+    APPLY_PROCEDURE) is extended by this batch's command kinds; KNOW_TERM has no instance
+    in this slice either (the 1.5C notation row is a USE demand, not a term-recall demand),
+    which is recorded, not papered over.
+  boundary_note: >-
+    B03 is the THIRD batch and the registry is still empty (B01 and B02 are
+    authored-to-gate, not applied — graph/igcse-maths-a/ still carries exactly the 5 K1
+    stores), so there are no cross-batch boundary targets to sanction and no boundary
+    ruling is required (the chemistry cross-slice ruling class is defined against an
+    existing registry). The B02 term-audit boundary map is inherited: of its four future
+    codes, two (4MA1-1.4D, 4MA1-1.4E) are IN this slice and mint their own nodes here —
+    the would-be boundary targets of the earlier packets land as authored B03 nodes —
+    while two (4MA1-1.7A, 4MA1-1.8B) remain future. The cross-batch cost is real and is
+    recorded honestly: five of the batch's eight held candidates are boundary-class holds —
+    edges whose natural target is a B01 or B02 node (equivalent fractions, the
+    fraction-conversion fluency) or a future batch's SP family (powers and roots,
+    probability, the 1.6E/1.6G percentage tail) — each quoted with its would-be evidence
+    so the eventual post-promotion boundary ruling can act on machine truth. The in-slice
+    boundary discipline is enforced by the preverify: every REQUIRES_PREREQUISITE edge
+    endpoint is a batch node; every SP reference is in-slice; the term audit probe re-runs
+    the batch's candidate vocabulary against the whole ratified 188-row wording + topics
+    surface and prints the matches so later batches inherit the shared-term map without
+    re-derivation.
+  inherits:
+    boundary_map_from: 'scripts/c34_maths_a_batch02_term_audit_probe.py run
+      (recorded on C34_BATCH02_REVIEW.json future_batch_boundary_map) —
+      4MA1-1.4D, 4MA1-1.4E (now in-slice for B03) + 4MA1-1.7A,
+      4MA1-1.8B (still future)'
+    held_quarantine_from: scripts/c33_maths_a_batch01_decisions.yaml held B01-H-01..05 and
+      scripts/c34_maths_a_batch02_decisions.yaml held B02-H-01..08 — carried forward
+      untouched; the B03 verdict session rules on all three quarantines
+    mis_contract_from: the B02 mints (4MA1-MIS-SURD-FACTOR-SWAP,
+      4MA1-MIS-CONJUGATE-EXPANSION-SIGN on the surds MS Q12 documentation) — the maths-a
+      instance of the chemistry contract; B03's two mints are the second and third maths-a
+      misconception surfaces
+  authorization: scripts/c35_maths_a_batch03_authorization.yaml (K2-C-3 commissioning,
+    2026-10-02; batch B03 = the third Lane C slice of the C31 §5 plan)
+  ms_pins:
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/powers-roots-and-standard-form/mark-schemes.md
+    (the powers/roots topic mark-scheme surface; the index-law rows supply MARK_SCHEME
+    evidence for 1.4C)
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/mark-schemes.md
+    (the prime-factors topic mark-scheme surface; the factor-tree and HCF/LCM rows supply
+    MARK_SCHEME evidence for 1.4D and 1.4E, including the Venn-marking criterion row)
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/mark-schemes.md
+    (the set-notation topic mark-scheme surface; the practical cat-and-dog Venn row supplies
+    MARK_SCHEME evidence for 1.5D, and Q7 documents the batch's first wrong-answer class)
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    (the percentages topic mark-scheme surface; the multiplier rows supply MARK_SCHEME
+    evidence for 1.6D and Q10/Q11 document the batch's second wrong-answer class)
+  - SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+    (the compound-interest topic mark-scheme surface; the multiplier-power rows supply
+    MARK_SCHEME evidence for 1.6A and 1.6B)
+command_kinds:
+- code: 4MA1-1.4C
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: index laws to simplify and evaluate numerical expressions involving
+    integer, fractional and negative powers — the product/quotient/power laws over a
+    shared base, the zero and negative-power laws (reciprocal), and the fractional-power
+    root routes
+- code: 4MA1-1.4D
+  verb: express
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: expressing integers as a product of powers of prime factors — the
+    factor-tree/repeated-division walk to primes, written as a multiplication in ascending
+    order and condensed with indices
+- code: 4MA1-1.4E
+  verb: find
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: finding highest common factors and lowest common multiples — by
+    listing, by the prime-factor Venn overlap (centre product for HCF, all-numbers product
+    for LCM) and by highest/lowest common powers of primes
+- code: 4MA1-1.5A
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: sets defined in algebraic terms — sets given by a rule with the
+    such-that colon, elements versus sets, and subset membership (all elements of A also
+    present in B)
+- code: 4MA1-1.5B
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: Venn diagrams to represent sets and the number of elements in sets —
+    the rectangle/circle picture, region reading for union/intersection/complement, and
+    element counts on the diagram
+- code: 4MA1-1.5C
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: the notation n(A) for the number of elements in set A — cardinality
+    as a counting operator over a named set (the store wording carries the parse's spacing
+    artifact verbatim; the demand is read from the wording's substance)
+- code: 4MA1-1.5D
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: sets in practical situations — survey/catalogue problems sorted into
+    Venn regions, the outside-the-circles remainder, and counts recovered from the diagram
+- code: 4MA1-1.5E
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: Venn diagrams to represent sets (Foundation twin of 1.5B; see
+    B03-ID-01) — the rectangle for the universal set and a circle for each set, with
+    elements or counts placed in the regions
+- code: 4MA1-1.6A
+  verb: use
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: repeated percentage change — a percentage change applied successively
+    as the multiplier raised to the power of the number of applications
+- code: 4MA1-1.6B
+  verb: solve
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: compound interest problems — the per-period multiplier iterated over
+    the term (the canonical repeated-percentage application; the Foundation twin row 1.6G
+    sits in B04, recorded on held B03-H-07)
+- code: 4MA1-1.6C
+  verb: express
+  guide_class: APPLY_PROCEDURE
+  demanded_substance: expressing a percentage as a fraction and as a decimal — over-100 for
+    the fraction (then simplify) and divide-by-100 for the decimal
+- code: 4MA1-1.6D
+  verb: understand
+  guide_class: UNDERSTAND_RELATION
+  demanded_substance: the multiplicative nature of percentages as operators — a percentage
+    of an amount IS a multiplication (145% of an amount is 1.45 x the amount; an increase
+    of 20% is the operator x1.2)
+nodes:
+- code: 4MA1-CON-INDEX-LAWS
+  family: CONCEPT
+  title: Index laws over integer, fractional and negative powers
+  aliases:
+  - index laws
+  - laws of indices
+  - negative powers
+  - fractional powers
+  spec_points:
+  - code: 4MA1-1.4C
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.md
+      kind: NOTE
+      quote: To multiply indices with the same base, add their powers
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.md
+      kind: NOTE
+      quote: A negative power is the reciprocal
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/powers-roots-and-standard-form/laws-of-indices.md
+      kind: NOTE
+      quote: Index laws only work with terms that have the same base
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/2-equations-formulae-and-identities/algebraic-roots-and-indices/algebraic-roots-and-indices.md
+      kind: NOTE
+      quote: Work out the number and algebra parts separately
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use index laws to simplify and evaluate numerical expressions involving integer, fractional and negative powers
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/powers-roots-and-standard-form/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Any number raised to the power of zero is always 1.
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/powers-roots-and-standard-form/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Use the law of indices that $x^{a}\timesx^{b}=x^{a+b}$
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      TWO joined notes serve 1.4C (the slice's only two-anchor Higher row): the
+      Laws of Indices note (join anchor spcpt_W6x4XqqqZWnY5SZc → 1.4C,
+      T-SPEC-7 name-fragment join, operator-worked substrate) supplies the law table's
+      prose descriptions verbatim (add powers on multiplication, reciprocal on negative
+      powers) and the same-base restriction; the Algebraic Roots & Indices note (join
+      anchor spcpt_s2x4ZG4rWQhHJrTh → 1.4C, T-SPEC-7 page-context join) carries the same
+      law table over algebraic bases and the number-and-algebra-parts-separately
+      simplification step. The powers-roots MS rows document the demands in assessment
+      language (zero-power law, product law). The note's fractional-power rows (1/n as the
+      n-th root) are the negative/fractional arm of the demand; the ROOT concept they
+      presuppose has no in-slice SP, so the prerequisite edge is HELD (B03-H-01).
+- code: 4MA1-CON-PRIME-FACTOR-DECOMPOSITION
+  family: CONCEPT
+  title: Prime factor decomposition of integers
+  aliases:
+  - prime factors
+  - product of prime factors
+  - factor tree
+  spec_points:
+  - code: 4MA1-1.4D
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/prime-factor-decomposition.md
+      kind: NOTE
+      quote: Use a factor tree to find prime factors
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/prime-factor-decomposition.md
+      kind: NOTE
+      quote: A number can be uniquely written as a product of prime factors
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/prime-factor-decomposition.md
+      kind: NOTE
+      quote: Write the prime factors as a multiplication, in ascending order
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/uses-of-prime-factor-decomposition.md
+      kind: NOTE
+      quote: Write the number in its prime factor decomposition
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: express integers as a product of powers of prime factors
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Either a factor tree or repeated division could be used here.
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: Write the prime numbers out as a product, any repeated prime numbers can be written as a power.
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      TWO joined notes serve 1.4D: the Prime Factor Decomposition note (join anchor
+      spcpt_SgzMz9GCcsdMwJcx → 1.4D, T-SPEC-7 name-fragment join) supplies the
+      factor-tree procedure, the uniqueness claim and the ascending-order/index-condensed
+      writing form; the Uses of Prime Factor Decomposition note (join anchor
+      spcpt_8rpDpT2HVPgyCKS8 → 1.4D, T-SPEC-7 page-context join) supplies the
+      decomposition-as-working-form rows (square/cube detection by even/multiple-of-3
+      indices, exact square roots by halving indices) that make the decomposition USEFUL —
+      those application rows reach the batch's HCF/LCM node through the batch edge, where
+      1.4D is an endpoint. The prime-factors MS rows document the demands in assessment
+      language (factor tree or repeated division; repeated primes as powers).
+- code: 4MA1-CON-HCF-AND-LCM
+  family: CONCEPT
+  title: Highest common factors and lowest common multiples
+  aliases:
+  - highest common factor
+  - lowest common multiple
+  - common factor
+  - common multiple
+  spec_points:
+  - code: 4MA1-1.4E
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.md
+      kind: NOTE
+      quote: A common factor of two numbers is a value that both numbers can be divided by, leaving no remainder
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.md
+      kind: NOTE
+      quote: The highest common factor will be the largest factor that appears in both lists
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.md
+      kind: NOTE
+      quote: Find the prime factors that are common to both numbers and put these in the centre of the Venn diagram
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.md
+      kind: NOTE
+      quote: A common multiple of two numbers is a number that appears in both of their times tables
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.md
+      kind: NOTE
+      quote: The lowest common multiple is the product of all the numbers in the circles
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: find highest common factors (HCF) and lowest common multiples (LCM)
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: 6 is a factor of both numbers so the numbers must both be a multiple of 6. Choose one of the numbers as 6, to make sure the 6 is the highest common factor (choosing a multiple of 6 could mean that 6 is not the highest common factor).
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: If Venn diagram not used then 1 mark out of 2 for either finding r, or finding p and q
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      the joined HCF & LCM note is the 1.4E surface TWICE over (join anchors
+      spcpt_P88yS9wysymQ2brq 'Highest Common Factor (HCF)' and
+      spcpt_bmqbWbZM8HXPwsFF 'Lowest Common Multiple (LCM)', both
+      name_to_statement joins → 1.4E): its HCF half supplies the common-factor
+      definition, the listing method and the prime-factor Venn overlap rows; its LCM half
+      supplies the common-multiple definition and the all-numbers Venn product row. The
+      prime-factors MS rows document the demands in assessment language, including the
+      Q46 Venn-marking criterion (1 of 2 marks withheld without the diagram) and the
+      choose-the-shared-factor caution. The note's own cross-topic row ("This is useful
+      when finding a common denominator and when adding or subtracting fractions") feeds
+      the held B03-H-02 row (the would-be edge to B01's equivalent-fractions node).
+- code: 4MA1-CON-SETS-AND-SUBSETS
+  family: CONCEPT
+  title: Sets defined in algebraic terms and subsets
+  aliases:
+  - sets in algebraic terms
+  - subsets
+  spec_points:
+  - code: 4MA1-1.5A
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: understand sets defined in algebraic terms, and understand and use subsets
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.5A in the operator-worked
+      join; the node's demand is the ratified wording alone (the C31 §3 uncovered-span
+      rule). The set-notation page's set-concept and subset rows ("A set is a collection
+      of elements"; "Set A is a subset of set B if all the elements of A are also present
+      in B") would be the natural underpinning, but that page is joined to 1.5B and 1.5E
+      only (pair discipline), so the richer node is HELD (B03-H-04,
+      COVERAGE-UNJOINED-SUBSTRATE) and the authored node carries the ratified wording
+      alone. The subset content's use-sites inside this slice are the notation chain
+      (cardinal notation and the Venn nodes author as the batch edges, each requiring this
+      node).
+- code: 4MA1-CON-VENN-REPRESENTATION
+  family: CONCEPT
+  title: Venn diagrams for sets and element counts
+  aliases:
+  - Venn diagrams
+  - number of elements in sets
+  spec_points:
+  - code: 4MA1-1.5B
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+      kind: NOTE
+      quote: n(A) means the number of elements in A
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+      kind: NOTE
+      quote: A Venn diagram is a way to illustrate all the elements within sets and any intersections
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use Venn diagrams to represent sets and the number of elements in sets
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      the joined Set Notation & Venn Diagrams note is the 1.5B surface (join anchor
+      spcpt_CG8ZcZX8Ny5yGBch 'Set Notation' → 1.5B, name_to_statement join): its
+      notation half supplies the cardinality content (n(A) — the exact demand substance
+      1.5B's "number of elements in sets" names), cited from the worked-example
+      verification row ("n(A) means the number of elements in A"); the page's cardinality
+      DEFINITION row sits inside a span the batch-8 normalization convention cannot
+      verify (a literal '<' in the such-that example opens a span the next blockquote '>'
+      closes), so the cited anchor is the row the convention can check byte-exactly —
+      nothing is quoted that the machinery cannot verify. The page's
+      Venn-illustration row is the second anchor. The page's
+      diagram-mechanics rows (rectangle for the universal set, circle for each set) are
+      shared with the page's other anchor (1.5E) and appear here only through the batch
+      edges. The set-notation MS Q7 row documents the batch's first wrong-answer class at
+      this surface — the complement-of-union mistake — which mints as the misconception
+      node riding 1.5B (B03-ID-03). The Foundation twin row 1.5E authors as its own node
+      (B03-ID-01, the split-first mirror-pair policy).
+- code: 4MA1-CON-CARDINAL-NOTATION
+  family: CONCEPT
+  title: Cardinal notation n(A) for the number of elements
+  aliases:
+  - n(A)
+  - cardinality of a set
+  spec_points:
+  - code: 4MA1-1.5C
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use the notationn(A)for the number of elements in the setA
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring with a substrate honesty note: the ONLY page joined to
+      1.5C is the mathematical-operations page (join anchor spcpt_8Wtthy9gt8B5xsVW
+      'Mathematical Symbols' → 1.5C, T-SPEC-7 name-fragment join) — and that page teaches
+      the basic arithmetic/relation symbols, NOT the n(A) cardinality demand, so it is
+      UNCITED (the uncited-join census records the disposition: a symbol-fluency page
+      joined by name-fragment to a notation row whose substance it does not state; citing
+      it would be the padding the pair discipline exists to prevent). The set-notation
+      page's n(A) row is pair-locked to 1.5B and reaches this node through the batch edge
+      (VENN-REPRESENTATION REQUIRES_CARDINAL-NOTATION), where 1.5B is an endpoint — the
+      B02 converting-between-fdp disposition shape. The SPEC quote reproduces the store's
+      spacing artifact verbatim per the slice_note.
+- code: 4MA1-CON-SETS-IN-PRACTICE
+  family: CONCEPT
+  title: Sets in practical situations
+  aliases:
+  - practical set problems
+  spec_points:
+  - code: 4MA1-1.5D
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use sets in practical situations
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.5D. The practical-situations
+      demand is documented assessment-side: the set-notation MS's cat-and-dog survey rows
+      (the outside-the-circles remainder, the region arithmetic) are exactly the practical
+      shape the wording names, and they are cited on the batch edge
+      (SETS-IN-PRACTICE REQUIRES VENN-REPRESENTATION), where the MS rows ride with the
+      pair-backed Venn note row. The venn-three-sets survey worked example (statistics /
+      algebra / geometry) is joined to 1.5E and reaches this node through the second batch
+      edge, where 1.5E is an endpoint.
+- code: 4MA1-CON-VENN-FOUNDATION
+  family: CONCEPT
+  title: Representing sets with Venn diagrams
+  aliases:
+  - Venn diagram representation
+  - universal set rectangle
+  spec_points:
+  - code: 4MA1-1.5E
+    role: CORE
+    evidence:
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+      kind: NOTE
+      quote: a rectangle representing the universal set ($E$)
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+      kind: NOTE
+      quote: a circle for each set
+    - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.md
+      kind: NOTE
+      quote: The three circles intersect and split the rectangle into eight regions
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use Venn diagrams to represent sets
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      the Set Notation & Venn Diagrams note is the 1.5E surface too (join anchor
+      spcpt_XT9QGzbhpThbfcB6 'Sets & Venn Diagrams' → 1.5E, name_to_statement join — the
+      page's TWO anchors are the substrate's own operator-worked split of the page across
+      the mirror rows): its diagrams half supplies the rectangle/circle mechanics rows.
+      The Venn Diagrams with Three Sets note (join anchor spcpt_vfPNw2mzksvxf2JP → 1.5E,
+      name_to_statement join) supplies the region-splitting row. The
+      probability-and-venn-diagrams page is ALSO joined to 1.5E (join anchor
+      spcpt_Rv3DcsGBkxSkb8Ms, T-SPEC-7 name-fragment join) but its content is
+      probability-from-diagrams, not set representation — it stays UNCITED (census +
+      this note), the honest disposition over a padded citation. The Foundation twin
+      question is B03-ID-01 (operator-reserved merge ruling).
+- code: 4MA1-CON-REPEATED-PERCENTAGE-CHANGE
+  family: CONCEPT
+  title: Repeated percentage change
+  aliases:
+  - repeated percentage change
+  - successive percentage change
+  spec_points:
+  - code: 4MA1-1.6A
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use repeated percentage change
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: To do this efficiently for 3 increases in a row, we put the multiplier to the power of the number of years
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: A percentage increase of 4% is applied at the end of each year
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.6A. The compound-interest
+      topic MS documents the demand in assessment language (the per-period multiplier and
+      the power-of-the-number-of-years efficiency row): the assessment surface that
+      examines repeated change lives under the compound-interest topic, and its rows are
+      honest MARK_SCHEME evidence for the 1.6A demand. The single-change fluency the
+      iteration presupposes sits at 1.6E (future batch, B04) — held B03-H-06.
+- code: 4MA1-CON-COMPOUND-INTEREST
+  family: CONCEPT
+  title: Compound interest problems
+  aliases:
+  - compound interest
+  spec_points:
+  - code: 4MA1-1.6B
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: solve compound interest problems
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: To calculate an increase of 4% we use the multiplier 1.04
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.6B. The compound-interest
+      topic MS documents the demand (the multiplier construction row); the interest
+      content of the percentages pages (basic-percentages, percentage-increases-and-
+      decreases) is the natural note-side underpinning but those pages carry no slice
+      anchor — they are cited NOWHERE (the negative control), not padded. The Foundation
+      twin row 1.6G (use compound interest and depreciation) sits in B04 — the mirror
+      question is held (B03-H-07) for the B04 packet's term audit to match back.
+- code: 4MA1-CON-PERCENTAGE-FRACTION-DECIMAL
+  family: CONCEPT
+  title: Expressing percentages as fractions and decimals
+  aliases:
+  - percentage as a fraction
+  - percentage as a decimal
+  spec_points:
+  - code: 4MA1-1.6C
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: express a percentage as a fraction and as a decimal
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring — no notes page is joined to 1.6C. The converting-between-
+      fdp page is the natural underpinning (its percentage-to-fraction/decimal rows) but
+      it is pair-locked to B02's 1.2G, so the richer node is HELD-ADJACENT (the would-be
+      prerequisite edge to B02's conversion node is held B03-H-05) and the authored node
+      carries the ratified wording alone. The decimal form this node produces IS the
+      multiplier the operator row 1.6D names — the percentages MS's 145%-as-1.45 row
+      documents the bridge and rides the batch edge (PERCENTAGES-AS-OPERATORS REQUIRES
+      PERCENTAGE-FRACTION-DECIMAL).
+- code: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  family: CONCEPT
+  title: Percentages as multiplicative operators
+  aliases:
+  - percentage multiplier
+  - percentages as operators
+  spec_points:
+  - code: 4MA1-1.6D
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: understand the multiplicative nature of percentages as operators
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: 145% of an amount is equivalent to 1.45× the amount
+    - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+      kind: MARK_SCHEME
+      quote: For an increase of 20% we can multiply by 1.2
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_notes: >-
+      spec-text-only authoring with the percentages topic MS as the assessment surface:
+      the 145%-equivalence row IS the multiplicative-operator reading the wording demands
+      (a percentage of an amount as a multiplication), and the increase-as-multiplier row
+      is the operator construction. The percentages pages (basic-percentages et al.) carry
+      no slice anchor and are cited nowhere. The percentages MS Q10/Q11 rows document the
+      batch's second wrong-answer class at this surface — the inverted quotient — which
+      mints as the misconception node riding 1.6D (home-row question operator-reserved,
+      B03-ID-02).
+- code: 4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Writing the complement of the intersection where the complement of the union is meant
+  aliases:
+  - complement of union confusion
+  - De Morgan region error
+  - A-intersect-B-complement slip
+  spec_points:
+  - code: 4MA1-1.5B
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: use Venn diagrams to represent sets and the number of elements in sets
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: Writing $(A\capB)'$ is a common mistake here which will receive no marks
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: '$(A\cupB)''$ or $A''\capB''$'
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: >-
+      the set-notation topic MS Q7(b) documents the exact wrong-answer class (a student
+      writing (A∩B)' where the question demands (A∪B)' — equivalent to A'∩B' by the
+      complement reading) with the corrected forms in the same row — the chemistry
+      contract's mint condition is satisfied, and this is the SECOND maths-a misconception
+      surface (B02's surds mints were the first). The class rides the 1.5B Venn/set-
+      notation surface where compound complement notation is examined; the Foundation twin
+      1.5E is the alternative home and the choice is recorded for the operator
+      (B03-ID-03). Remediation is authored as the batch REMEDIATED_BY edge (the MS's own
+      corrected forms are the corrective content).
+- code: 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION
+  family: MISCONCEPTION
+  pattern_class: WRONG_ANSWER_PATTERN
+  title: Inverting the quotient when expressing one number as a percentage of another
+  aliases:
+  - percentage of inversion
+  - reciprocal percentage error
+  spec_points:
+  - code: 4MA1-1.6D
+    role: CORE
+    evidence:
+    - file: graph/igcse-maths-a/specification_points.yaml
+      kind: SPEC
+      quote: understand the multiplicative nature of percentages as operators
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: A common incorrect answer could be 25%, which would be 80 as a percentage of 320
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: A common incorrect answer could be 25%, which is 10 as a percentage of 40
+  confidence: high
+  validation_status: SUGGESTED
+  provenance:
+    tier: AI_SUGGESTED
+    model_version: GLM (Super Z agent, z.ai)
+    extraction_pass: c35-k2c-batch-03
+    generated_date: '2026-10-02'
+    derivation_method: ASSESSMENT_DOCUMENTED
+    derivation_notes: >-
+      the percentages topic MS documents the class TWICE (Q10 and Q11: the asked-for
+      400% answered as the reciprocal 25% — 80-of-320 for 320-of-80, 10-of-40 for 40-of-
+      10) with the correct quotient construction in the same rows — the mint condition is
+      satisfied. The class is an operator-direction error (which quantity the
+      percentage-of operator acts on), so the mint rides 1.6D, the multiplicative-operator
+      row; the percentages MS's own questions sit closest to 1.6E (solve simple percentage
+      problems — B04's first row), so the home-row choice is operator-reserved
+      (B03-ID-02) and the B04 packet's term audit inherits the question. Remediation is
+      authored as the batch REMEDIATED_BY edge (the MS's own correct quotient rows are the
+      corrective content).
+edges:
+- source: 4MA1-CON-HCF-AND-LCM
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-PRIME-FACTOR-DECOMPOSITION
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/prime-factors-hcf-and-lcm/hcf-and-lcm.md
+    kind: NOTE
+    quote: Write each number as a product of its prime factors
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: express integers as a product of powers of prime factors
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: find highest common factors (HCF) and lowest common multiples (LCM)
+- source: 4MA1-CON-VENN-REPRESENTATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-CARDINAL-NOTATION
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+    kind: NOTE
+    quote: n(A) means the number of elements in A
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use Venn diagrams to represent sets and the number of elements in sets
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use the notationn(A)for the number of elements in the setA
+- source: 4MA1-CON-CARDINAL-NOTATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-SETS-AND-SUBSETS
+  conf: high
+  derivation: EXPLICIT_TEACH_SEQUENCE
+  evidence:
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use the notationn(A)for the number of elements in the setA
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand sets defined in algebraic terms, and understand and use subsets
+- source: 4MA1-CON-VENN-FOUNDATION
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-SETS-AND-SUBSETS
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+    kind: NOTE
+    quote: A set is a collection of elements
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+    kind: NOTE
+    quote: a circle for each set
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use Venn diagrams to represent sets
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand sets defined in algebraic terms, and understand and use subsets
+- source: 4MA1-CON-SETS-IN-PRACTICE
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-VENN-REPRESENTATION
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/set-notation-and-venn-diagrams.md
+    kind: NOTE
+    quote: A Venn diagram is a way to illustrate all the elements within sets and any intersections
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: The number of people who don't own a cat or a dog can be written outside the circles but inside the box.
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use sets in practical situations
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use Venn diagrams to represent sets and the number of elements in sets
+- source: 4MA1-CON-SETS-IN-PRACTICE
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-VENN-FOUNDATION
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.md
+    kind: NOTE
+    quote: Add together the number of elements in the intersections
+  - file: SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/venn-diagrams-with-three-sets.md
+    kind: NOTE
+    quote: Find the number of students who like statistics and algebra only
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use sets in practical situations
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use Venn diagrams to represent sets
+- source: 4MA1-CON-COMPOUND-INTEREST
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-REPEATED-PERCENTAGE-CHANGE
+  conf: high
+  derivation: EXPLICIT_TEACH_SEQUENCE
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: To do this efficiently for 3 increases in a row, we put the multiplier to the power of the number of years
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: A percentage increase of 4% is applied at the end of each year
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: solve compound interest problems
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use repeated percentage change
+- source: 4MA1-CON-REPEATED-PERCENTAGE-CHANGE
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: For an increase of 20% we can multiply by 1.2
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/compound-interest-and-depreciation/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: To calculate an increase of 4% we use the multiplier 1.04
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: use repeated percentage change
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand the multiplicative nature of percentages as operators
+- source: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  relation: REQUIRES_PREREQUISITE
+  target: 4MA1-CON-PERCENTAGE-FRACTION-DECIMAL
+  conf: high
+  derivation: USED_WITHOUT_RETEACHING
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: 145% of an amount is equivalent to 1.45× the amount
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: understand the multiplicative nature of percentages as operators
+  - file: graph/igcse-maths-a/specification_points.yaml
+    kind: SPEC
+    quote: express a percentage as a fraction and as a decimal
+- source: 4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION
+  relation: WRONG_ANSWER_PATTERN
+  target: 4MA1-CON-VENN-REPRESENTATION
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: Writing $(A\capB)'$ is a common mistake here which will receive no marks
+- source: 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION
+  relation: WRONG_ANSWER_PATTERN
+  target: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: A common incorrect answer could be 25%, which would be 80 as a percentage of 320
+- source: 4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION
+  relation: REMEDIATED_BY
+  target: 4MA1-CON-VENN-REPRESENTATION
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/set-notation-and-venn-diagrams/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: '$(A\cupB)''$ or $A''\capB''$'
+- source: 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION
+  relation: REMEDIATED_BY
+  target: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  conf: high
+  derivation: ASSESSMENT_DOCUMENTED
+  evidence:
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: To find 320 as a percentage of 80
+  - file: SME-ExamQuestion/igcse-maths-a-18-higher/1-numbers-and-the-number-system/percentages/mark-schemes.md
+    kind: MARK_SCHEME
+    quote: 320 over 80 cross times 100 equals 400 percent sign
+held:
+- id: B03-H-01
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-INDEX-LAWS, <powers-and-roots node — future
+    batch/unmapped family>)'
+  evidence: 'the joined note''s fractional/negative rows presuppose the root concept
+    ("A negative power is the reciprocal"; the 1/n-th-root rows) — the powers/roots
+    SP family is unbatched and no node exists to resolve to'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — the mirror of B02-H-05 (which held the
+    reverse direction from the surds node); the index-law demand's root/power substrate
+    sits outside this slice. Held; revisit when the owning batch is commissioned.
+  status: held
+- id: B03-H-02
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-HCF-AND-LCM, 4MA1-CON-EQUIVALENT-FRACTIONS
+    [B01 node, CORE at 4MA1-1.2A])'
+  evidence: 'the joined note states the use-site explicitly — "This is useful when
+    finding a common denominator and when adding or subtracting fractions" (hcf-and-lcm.md,
+    joined to 1.4E); the HCF is the simplifier of the fraction B01''s node rewrites'
+  reason: CROSS-BATCH-TARGET-UNPROMOTED — the target is B01's equivalent-fractions node
+    (SUGGESTED, unapplied); no registry node exists. Held; revisit at the post-promotion
+    boundary ruling.
+  status: held
+- id: B03-H-03
+  candidate: 'REQUIRES_PREREQUISITE(<probability node — future batch, S6>,
+    4MA1-CON-VENN-FOUNDATION)'
+  evidence: 'the probability-and-venn-diagrams page (join-carried to 1.5E) teaches
+    probabilities FROM Venn diagrams ("Add together the frequencies in the regions you
+    want"; "Divide by the total frequency") — the direction runs probability-requires-
+    Venn-reading, and the probability SP family sits in S6, unbatched'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — the edge''s source family is unbatched; the
+    page itself is correctly UNCITED on the 1.5E node (its content is probability, not
+    representation) and is recorded HERE instead. Held; revisit when the S6 batch lands.
+  status: held
+- id: B03-H-04
+  candidate: 4MA1-CON-SETS-AND-SUBSETS with NOTE evidence from
+    set-notation-and-venn-diagrams.md (the richer node shape)
+  evidence: 'the page''s set-concept and subset rows ("A set is a collection of elements";
+    "Set A is a subset of set B if all the elements of A are also present in B") are the
+    natural underpinning of the 1.5A demand — but the page is joined to 4MA1-1.5B and
+    4MA1-1.5E only'
+  reason: COVERAGE-UNJOINED-SUBSTRATE — authoring the node with that content as evidence
+    would assert a note↔SP relevance the operator-worked substrate does not carry (the
+    B01-H-01/B02-H-08 class); the authored node carries the ratified wording alone. Held;
+    revisit if the operator ratifies a 1.5A anchor or at the operator verdict.
+  status: held
+- id: B03-H-05
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-PERCENTAGE-FRACTION-DECIMAL,
+    4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE [B02 node, CORE at 4MA1-1.2G])'
+  evidence: 'the 1.6C demand (percentage → fraction/decimal) is the percentage-direction
+    twin of the 1.2G conversion demand B02 authored; the converting-between-fdp page is
+    pair-locked to 1.2G (its percentage rows serve both directions, but the join carries
+    it to 1.2G only)'
+  reason: CROSS-BATCH-TARGET-UNPROMOTED — the target is B02's conversion node (SUGGESTED,
+    unapplied); no registry node exists. Held; revisit at the post-promotion boundary
+    ruling.
+  status: held
+- id: B03-H-06
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-REPEATED-PERCENTAGE-CHANGE, <1.6E
+    simple-percentage-problems family — future batch B04>)'
+  evidence: 'the repeated-change procedure iterates the single-change fluency; the
+    percentages MS Q1 rows document the single percentage-change computation
+    (change/original x 100) that 1.6A applies successively; 1.6E sits at global_order 37
+    — B04''s first row'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — the single-change SP family is outside this
+    slice (the 1.6 tail rows 1.6E/1.6F/1.6G are B04's). Held; revisit at B04.
+  status: held
+- id: B03-H-07
+  candidate: 'the 1.6B/1.6G compound-interest mirror pair spans the B03/B04 boundary —
+    REQUIRES_PREREQUISITE or co-identity between 4MA1-CON-COMPOUND-INTEREST [CORE at
+    1.6B] and the 1.6G "use compound interest and depreciation" family (future batch
+    B04)'
+  evidence: 'the Foundation row 1.6G repeats the compound-interest demand with the
+    depreciation arm; the K1 tier-dedupe rule (Foundation statements are assumed knowledge
+    for Higher papers) makes the dependency direction B04→B03-compatible, but 1.6G is
+    unbatched'
+  reason: CROSS-BATCH-TARGET-FUTURE-BATCH — recorded so the B04 packet's term audit
+    matches "compound interest" back into this slice and the mirror-pair identity rules
+    with machine truth (the B02-ID-01/B03-ID-01 shape across batches). Held; revisit at
+    B04.
+  status: held
+- id: B03-H-08
+  candidate: 'REQUIRES_PREREQUISITE(4MA1-CON-HCF-AND-LCM, 4MA1-CON-VENN-FOUNDATION) —
+    the HCF/LCM-via-prime-factor-Venn method as a would-be edge'
+  evidence: 'the joined note teaches the Venn-of-prime-factors method in full ("Find the
+    prime factors that are common to both numbers and put these in the centre of the Venn
+    diagram"; the LCM all-numbers product row) and the prime-factors MS Q46 criterion row
+    grades it — but the canonical walk teaches 1.4E (order 27) BEFORE 1.5E (order 32)'
+  reason: ORDER-INVERSION-NO-EDGE-VOCABULARY — the dependency would invert the ratified
+    teaching order (the note''s Venn usage is self-contained, not a Venn-representation
+    prerequisite), and the graph vocabulary has no application-of-tool relation to carry
+    it honestly. Held; revisit if the operator extends the edge vocabulary or at the
+    post-promotion boundary ruling.
+  status: held
+identity_decisions:
+- id: B03-ID-01
+  decision: the Venn mirror rows 1.5B (Higher — "use Venn diagrams to represent sets and
+    the number of elements in sets") and 1.5E (Foundation — "use Venn diagrams to
+    represent sets") are authored as TWO nodes, one per row — the substrate's own
+    operator-worked split of the set-notation page (notation half → 1.5B, diagrams half →
+    1.5E) supports the split, and the element-count arm distinguishes 1.5B; any single
+    Venn-representation family merge is the operator's call
+  precedent: B02-ID-02 (the 1.2G/1.3D mirror pair); the split-first identity policy
+    (merges are operator-only)
+  reserved_to: operator verdict
+- id: B03-ID-02
+  decision: the percentage-quotient-inversion mint (4MA1-MIS-PERCENTAGE-QUOTIENT-
+    INVERSION) rides 1.6D — the multiplicative-operator row whose direction-sense the
+    error violates — although the percentages MS's own questions sit closest to 1.6E
+    (solve simple percentage problems, B04's first row); the operator rules on the home
+    row, and the B04 packet inherits the question through its term audit
+  precedent: the chemistry batch home-row rulings; B02-ID-03's mint placement question
+  reserved_to: operator verdict
+- id: B03-ID-03
+  decision: the batch MINTS two misconception nodes (4MA1-MIS-COMPLEMENT-INTERSECTION-
+    CONFUSION riding 1.5B, 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION riding 1.6D) on the
+    set-notation MS Q7 and percentages MS Q10/Q11 documentation — the operator rules on
+    whether the documented classes are genuine wrong-answer patterns worth graph nodes or
+    assessment-local exam trivia (the chemistry B10-ID-05 precedent; B02-ID-03 was the
+    maths-a instance), AND on M1's home row (1.5B vs the Foundation twin 1.5E)
+  precedent: B02-ID-03 (the first maths-a mint-vs-exam-trivia reservation)
+  reserved_to: operator verdict

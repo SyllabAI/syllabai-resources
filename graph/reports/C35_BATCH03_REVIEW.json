@@ -1,0 +1,120 @@
+{
+  "schema": "syllabai.c35-batch03-review/1.0",
+  "task": "T-C35",
+  "gate": "K2-C-3",
+  "generated_utc": "2026-10-01T18:25:00.764552+00:00",
+  "decision_record": {
+    "path": "scripts/c35_maths_a_batch03_decisions.yaml",
+    "sha256_16": "9a23da85ec47a9c3"
+  },
+  "pass2_record": {
+    "path": "scripts/c35_maths_a_batch03_review_pass2.yaml",
+    "sha256_16": "c158c8f869360c84"
+  },
+  "authorization": {
+    "path": "scripts/c35_maths_a_batch03_authorization.yaml",
+    "sha256_16": "4f0738f5020d45bc",
+    "directive_verbatim": "K2-C-3"
+  },
+  "totals": {
+    "concept_nodes": 12,
+    "misconception_nodes": 2,
+    "authored_edges": 13,
+    "requires_prerequisite_edges": 9,
+    "wap_edges": 2,
+    "remediated_by_edges": 2,
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": 3,
+    "node_attachments": 14,
+    "derived_partof_at_apply": 14,
+    "evidence_anchors": 83
+  },
+  "pass2_agreement": {
+    "nodes": "14/14 CONFIRM",
+    "edges": "13 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "8/8 AGREE",
+    "re_authoring_cases": 0
+  },
+  "coverage_profile": {
+    "notes_joined_sps": [
+      "4MA1-1.4C",
+      "4MA1-1.4D",
+      "4MA1-1.4E",
+      "4MA1-1.5B",
+      "4MA1-1.5C",
+      "4MA1-1.5E"
+    ],
+    "notes_joined_count": 6,
+    "spec_text_only_sps": [
+      "4MA1-1.5A",
+      "4MA1-1.5D",
+      "4MA1-1.6A",
+      "4MA1-1.6B",
+      "4MA1-1.6C",
+      "4MA1-1.6D"
+    ],
+    "spec_text_only_count": 6,
+    "source": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json (the T-C32 K2-A lane artifact, 202 joins / 111 codes) — the C31 §3 standing input to Lane C, restated per batch. 6 of the 12 slice SPs carry note-level anchors through the operator-worked AI_VALIDATED substrate (11 join rows over 9 distinct note files; hcf-and-lcm carries two in-slice anchors — the HCF and LCM statement joins; set-notation-and-venn-diagrams carries two — its notation half joined to 1.5B and its diagrams half joined to 1.5E); the other 6 author from the ratified spec-text store alone (SPEC-kind evidence), per the C31 scope record §3. Join-tier composition of the 11 rows: 4 operator-verdict name-fragment joins (T-SPEC-7; PMT excluded as source), 2 operator-verdict page-context joins (T-SPEC-7) and 5 name_to_statement joins — all operator-delegated verdicts, inherited 1:1, none re-derived here.",
+    "ms_evidence_sps": [
+      "4MA1-1.4C",
+      "4MA1-1.4D",
+      "4MA1-1.4E",
+      "4MA1-1.6A",
+      "4MA1-1.6B",
+      "4MA1-1.6D"
+    ],
+    "ms_note": "the SME-ExamQuestion corpus carries per-topic mark-scheme surfaces (mark-schemes.md); five B03-adjacent topic surfaces are pinned (see ms_pins) and three supply node-level MARK_SCHEME evidence — the powers-roots-and-standard-form topic MS for the index-law demands at 1.4C, the prime-factors-hcf-and-lcm topic MS for the factor-tree and HCF/LCM demands at 1.4D/1.4E, and the compound-interest topic MS plus the percentages topic MS multiplier rows for 1.6A/1.6B/1.6D. This is a PARTIAL MS-documentation shape (the other B03-topic MS rows document correct procedures only), the chemistry batch-3/4/10 PARTIAL-coverage precedent. The TWO documented wrong-answer classes of the slice's topic surfaces — the set-notation topic MS Q7 complement-of-union mistake row and the percentages topic MS Q10/Q11 inverted-quotient rows — mint as the batch's two misconception nodes (§2a of the review sheet)."
+  },
+  "held_ids": [
+    "B03-H-01",
+    "B03-H-02",
+    "B03-H-03",
+    "B03-H-04",
+    "B03-H-05",
+    "B03-H-06",
+    "B03-H-07",
+    "B03-H-08"
+  ],
+  "inherited_held_quarantine": [
+    "B01-H-01",
+    "B01-H-02",
+    "B01-H-03",
+    "B01-H-04",
+    "B01-H-05",
+    "B02-H-01",
+    "B02-H-02",
+    "B02-H-03",
+    "B02-H-04",
+    "B02-H-05",
+    "B02-H-06",
+    "B02-H-07",
+    "B02-H-08"
+  ],
+  "identity_decisions": [
+    "B03-ID-01",
+    "B03-ID-02",
+    "B03-ID-03"
+  ],
+  "misconception_mints": [
+    "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION",
+    "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION"
+  ],
+  "uncited_join_census": [
+    "SME-RevisionNotes/igcse-maths-a-18-higher/notes/1-numbers-and-the-number-system/number-toolkit/mathematical-operations.md (joined to 4MA1-1.5C; basic-symbol fluency content does not state the n(A) cardinality demand — disposition on the CARDINAL-NOTATION node's derivation notes)",
+    "SME-RevisionNotes/igcse-maths-a-18-higher/notes/6-statistics-and-probability/probability-diagrams---venn-and-tree-diagrams/probability-and-venn-diagrams.md (joined to 4MA1-1.5E; probability-from-diagrams content recorded on the held B03-H-03 row instead)"
+  ],
+  "inherited_boundary_map": [
+    "4MA1-1.4D",
+    "4MA1-1.4E",
+    "4MA1-1.7A",
+    "4MA1-1.8B"
+  ],
+  "future_batch_boundary_map": [
+    "4MA1-1.1H",
+    "4MA1-1.2A",
+    "4MA1-1.6G",
+    "4MA1-2.1D"
+  ],
+  "stores_grown": 0
+}

@@ -1,0 +1,150 @@
+# T-C35 K2-C-3 — batch-B03 adversarial pass-2 review record (the c34_maths_a_batch02_
+# review_pass2.yaml shape, third-batch instance). Pass 2 is the authoring agent's second,
+# adversarial pass over its own pass-1 extraction: every row re-ruled, every doubt either
+# resolved on explicit evidence or routed to the held record / the operator's identity
+# decisions. NOTHING in this file promotes anything — SUGGESTED stays SUGGESTED until the
+# operator's verdict gate.
+meta:
+  task: T-C35
+  stage: k2-c-batch-03-pass2
+  extraction_pass: c35-k2c-batch-03
+  pass: 2
+  mode: adversarial-second-pass
+  generated_date: '2026-10-02'
+  model_version: GLM (Super Z agent, z.ai)
+  method: >-
+    every pass-1 row re-checked against its cited evidence (re-read under the batch-8
+    normalization convention), then re-ruled on the relation CLASS and direction, not just
+    existence; the two misconception mints re-tested against the MS documentation and the
+    mint-vs-exam-trivia and home-row questions flagged; the cross-batch holds re-tested for
+    silent-drop avoidance; the uncited-join census re-derived as a file-set check; the edge
+    DAG re-walked for cycles (9 REQUIRES_PREREQUISITE edges over 12 concept nodes).
+node_verdicts:
+  4MA1-CON-INDEX-LAWS: CONFIRM
+  4MA1-CON-PRIME-FACTOR-DECOMPOSITION: CONFIRM
+  4MA1-CON-HCF-AND-LCM: CONFIRM
+  4MA1-CON-SETS-AND-SUBSETS: CONFIRM
+  4MA1-CON-VENN-REPRESENTATION: CONFIRM
+  4MA1-CON-CARDINAL-NOTATION: CONFIRM
+  4MA1-CON-SETS-IN-PRACTICE: CONFIRM
+  4MA1-CON-VENN-FOUNDATION: CONFIRM
+  4MA1-CON-REPEATED-PERCENTAGE-CHANGE: CONFIRM
+  4MA1-CON-COMPOUND-INTEREST: CONFIRM
+  4MA1-CON-PERCENTAGE-FRACTION-DECIMAL: CONFIRM
+  4MA1-CON-PERCENTAGES-AS-OPERATORS: CONFIRM
+  4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION: CONFIRM
+  4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION: CONFIRM
+edge_verdicts:
+  "4MA1-CON-HCF-AND-LCM REQUIRES_PREREQUISITE 4MA1-CON-PRIME-FACTOR-DECOMPOSITION": CONFIRM
+  "4MA1-CON-VENN-REPRESENTATION REQUIRES_PREREQUISITE 4MA1-CON-CARDINAL-NOTATION": CONFIRM
+  "4MA1-CON-CARDINAL-NOTATION REQUIRES_PREREQUISITE 4MA1-CON-SETS-AND-SUBSETS": CONFIRM
+  "4MA1-CON-VENN-FOUNDATION REQUIRES_PREREQUISITE 4MA1-CON-SETS-AND-SUBSETS": CONFIRM
+  "4MA1-CON-SETS-IN-PRACTICE REQUIRES_PREREQUISITE 4MA1-CON-VENN-REPRESENTATION": CONFIRM
+  "4MA1-CON-SETS-IN-PRACTICE REQUIRES_PREREQUISITE 4MA1-CON-VENN-FOUNDATION": CONFIRM
+  "4MA1-CON-COMPOUND-INTEREST REQUIRES_PREREQUISITE 4MA1-CON-REPEATED-PERCENTAGE-CHANGE": CONFIRM
+  "4MA1-CON-REPEATED-PERCENTAGE-CHANGE REQUIRES_PREREQUISITE 4MA1-CON-PERCENTAGES-AS-OPERATORS": CONFIRM
+  "4MA1-CON-PERCENTAGES-AS-OPERATORS REQUIRES_PREREQUISITE 4MA1-CON-PERCENTAGE-FRACTION-DECIMAL": CONFIRM
+  "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION WRONG_ANSWER_PATTERN 4MA1-CON-VENN-REPRESENTATION": CONFIRM
+  "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION WRONG_ANSWER_PATTERN 4MA1-CON-PERCENTAGES-AS-OPERATORS": CONFIRM
+  "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION REMEDIATED_BY 4MA1-CON-VENN-REPRESENTATION": CONFIRM
+  "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION REMEDIATED_BY 4MA1-CON-PERCENTAGES-AS-OPERATORS": CONFIRM
+held_agreements:
+  B03-H-01: AGREE
+  B03-H-02: AGREE
+  B03-H-03: AGREE
+  B03-H-04: AGREE
+  B03-H-05: AGREE
+  B03-H-06: AGREE
+  B03-H-07: AGREE
+  B03-H-08: AGREE
+identity_flags:
+  - B03-ID-01
+  - B03-ID-02
+  - B03-ID-03
+findings:
+- id: FP-B03-1
+  class: STRUCTURE-CHECK
+  question: >-
+    SETS-IN-PRACTICE carries TWO prerequisite edges (to VENN-REPRESENTATION and to
+    VENN-FOUNDATION) whose targets are themselves siblings authored from the same notes
+    page — is the double edge redundant structure-minting?
+  resolution: >-
+    No — the two targets are the split-first mirror pair (B03-ID-01): the Higher counting
+    surface (region arithmetic with element counts, the cat-and-dog MS rows ride here) and
+    the Foundation representation surface (the three-set survey worked example rides here)
+    are distinct demands under the K1 tier rule (Foundation statements are assumed
+    knowledge for Higher papers), and the practical demand genuinely consumes both. The
+    DAG stays acyclic (both targets root out at SETS-AND-SUBSETS). CONFIRM unchanged.
+- id: FP-B03-2
+  class: FALSE-POSITIVE-CHECK
+  question: >-
+    Is VENN-REPRESENTATION REQUIRES_PREREQUISITE CARDINAL-NOTATION directionally sound,
+    given the n(A) row lives on the set-notation page whose notation half anchors 1.5B
+    itself?
+  resolution: >-
+    Yes — the 1.5B wording itself names "the number of elements in sets" as the second
+    demand arm, and n(A) is exactly the notation that arm uses; the consumer→notation
+    direction matches the page's own worked example (write down n(A) FROM the diagram).
+    The reverse direction would rest the notation on the diagram, which the substrate's
+    own split contradicts (the notation half — including the n(A) row — anchors 1.5B).
+    The pair-back holds at the 1.5B endpoint. CONFIRM unchanged.
+- id: FP-B03-3
+  class: PROVENANCE-CHECK
+  question: >-
+    M2 (percentage-quotient-inversion) rides 1.6D but the percentages MS Q10/Q11 rows
+    assess percentage-of-another-number demands whose closest ratified row is 1.6E (B04)
+    — is the home row honest?
+  resolution: >-
+    Yes, with the reservation explicit: the class IS an operator-direction error (which
+    quantity the percentage-of operator acts on), 1.6D is the row that carries the
+    operator understanding, and the alternative home (1.6E) sits outside the slice — so
+    the authored placement is stated with its reasoning and reserved to the operator
+    (B03-ID-02), with the B04 packet's term audit inheriting the question. The mint
+    carries the documenting rows verbatim; nothing re-derived. CONFIRM unchanged.
+- id: FN-B03-1
+  class: FALSE-NEGATIVE-CHECK
+  question: >-
+    The percentages MS also carries question-specific wrong-answer rows ("Liam claims...",
+    "Helen is incorrect", "Ibrar is wrong", an answer "incorrect as the question asks for
+    the percentage decrease") — why do only the Q10/Q11 rows mint?
+  resolution: >-
+    The contract mints on CLASS documentation, not per-question traps: the Q10/Q11 rows
+    name the wrong answer generically ("A common incorrect answer could be 25%...") and
+    the set-notation Q7 row names the mistake explicitly ("is a common mistake here which
+    will receive no marks"), each with the corrected form in the same row; the other rows
+    document one question's reasoning about a named character's claim. Exactly two
+    documented classes, exactly two mints. CONFIRM unchanged.
+- id: FN-B03-2
+  class: CITATION-ABSTENTION-CHECK
+  question: >-
+    Two join-carried pages go uncited (mathematical-operations joined to 1.5C,
+    probability-and-venn-diagrams joined to 1.5E) — is leaving substrate mappings unused
+    a coverage failure?
+  resolution: >-
+    No — it is the census working: neither page states its SP's demand (the
+    mathematical-operations page teaches the basic arithmetic/relation symbols, not the
+    n(A) cardinality demand; the probability page teaches probabilities FROM diagrams, not
+    set representation), and citing them would be the padding the pair discipline exists
+    to prevent. Both dispositions are recorded (derivation notes + the uncited-join
+    census), and the probability page's contribution is recorded where it honestly belongs
+    — quoted on the held B03-H-03 row (the future-batch probability prerequisite).
+    CONFIRM unchanged.
+- id: FN-B03-3
+  class: FORECAST-CHECK
+  question: >-
+    The batch authors 9 REQUIRES_PREREQUISITE edges against the adjusted forecast of ~1.6
+    edges/SP (~19 for the slice) — is the shortfall thin coverage?
+  resolution: >-
+    No — it is structural, with the same named mechanism as B02: the registry is still
+    absent (B01 and B02 are authored-to-gate, not applied), so the cross-batch
+    boundary-edge class has no targets to reach; five of the batch's eight held rows are
+    exactly those would-be edges (two to B01/B02 nodes, three to future-batch families),
+    each quoted with its evidence. The node rate is on forecast (12 concept nodes / 12 SPs
+    = 1.00). Recorded in the sheet's calibration section, not papered over.
+agreement_summary:
+  nodes: '14/14 CONFIRM (12 concept + 2 misconception)'
+  edges: '13 CONFIRM · 0 HOLD · 0 REJECT (9 REQUIRES_PREREQUISITE + 2 WRONG_ANSWER_PATTERN + 2 REMEDIATED_BY)'
+  held: '8/8 AGREE'
+  raw_agreement_note: >-
+    raw agreement, NOT kappa — single human-rater convention (architecture §12 analogue);
+    pass-2 found zero re-authoring cases, zero demotions.

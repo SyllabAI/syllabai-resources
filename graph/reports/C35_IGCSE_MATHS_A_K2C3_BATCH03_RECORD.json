@@ -1,0 +1,96 @@
+{
+  "schema": "syllabai.c35-k2c3-batch03-record/1.0",
+  "task": "T-C35",
+  "gate": "K2-C-3",
+  "batch": "B03",
+  "version": "1.0 — batch B03 authored to the verdict gate; nothing promoted; no maths-a K2 store created at this gate",
+  "date": "2026-10-02",
+  "operator_directive": "K2-C-3 (2026-10-02, zai-web, inline)",
+  "baseline": "10593fc594f57eb3030615a80a0f1e93dad0e75a",
+  "predecessors": [
+    "C34_IGCSE_MATHS_A_K2C2_BATCH02",
+    "C33_IGCSE_MATHS_A_K2C1_BATCH01",
+    "C31_IGCSE_MATHS_A_K2_SCOPE",
+    "C32_IGCSE_MATHS_A_K2A_LANE_A",
+    "C11 §16 chemistry batch machinery (incl. the batch-10/11 misconception shapes)"
+  ],
+  "slice": {
+    "spec_points": [
+      "4MA1-1.4C", "4MA1-1.4D", "4MA1-1.4E", "4MA1-1.5A", "4MA1-1.5B",
+      "4MA1-1.5C", "4MA1-1.5D", "4MA1-1.5E", "4MA1-1.6A", "4MA1-1.6B",
+      "4MA1-1.6C", "4MA1-1.6D"
+    ],
+    "global_order": "25-36",
+    "applicability": "mixed-tier — 7 Higher rows (1.4C, 1.5A, 1.5B, 1.5C, 1.5D, 1.6A, 1.6B) + 5 Foundation rows (1.4D, 1.4E, 1.5E, 1.6C, 1.6D); spans the 1.4 tail, 1.5 complete and the 1.6 head; the 1.5C store wording carries the canonical parse's spacing artifact verbatim, never silently repaired"
+  },
+  "authored": {
+    "concept_nodes": 12,
+    "misconception_nodes": 2,
+    "authored_edges": 13,
+    "edge_mix": {
+      "REQUIRES_PREREQUISITE": 9,
+      "WRONG_ANSWER_PATTERN": 2,
+      "REMEDIATED_BY": 2
+    },
+    "held": 8,
+    "command_kinds": 12,
+    "identity_decisions": ["B03-ID-01", "B03-ID-02", "B03-ID-03"],
+    "evidence_anchors": 83,
+    "evidence_mix": {"NOTE": 25, "SPEC": 32, "MARK_SCHEME": 26},
+    "node_attachments": 14,
+    "derived_partof_at_apply": 14
+  },
+  "coverage_profile": {
+    "notes_joined_sps": ["4MA1-1.4C", "4MA1-1.4D", "4MA1-1.4E", "4MA1-1.5B", "4MA1-1.5C", "4MA1-1.5E"],
+    "notes_joined_count": 6,
+    "spec_text_only_sps": ["4MA1-1.5A", "4MA1-1.5D", "4MA1-1.6A", "4MA1-1.6B", "4MA1-1.6C", "4MA1-1.6D"],
+    "spec_text_only_count": 6,
+    "join_rows": 11,
+    "distinct_note_files": 9,
+    "ms_evidence_sps": ["4MA1-1.4C", "4MA1-1.4D", "4MA1-1.4E", "4MA1-1.6A", "4MA1-1.6B", "4MA1-1.6D"],
+    "uncited_join_census": 2
+  },
+  "pass2_agreement": {
+    "nodes": "14/14 CONFIRM",
+    "edges": "13 CONFIRM / 0 HOLD / 0 REJECT",
+    "held": "8/8 AGREE",
+    "re_authoring_cases": 0
+  },
+  "inherited_from_prior_batches": {
+    "boundary_map_b02": ["4MA1-1.4D", "4MA1-1.4E", "4MA1-1.7A", "4MA1-1.8B"],
+    "reclassified_in_slice": ["4MA1-1.4D", "4MA1-1.4E"],
+    "still_future_after_b03": ["4MA1-1.7A", "4MA1-1.8B"],
+    "held_quarantines": ["B01-H-01..05", "B02-H-01..08"]
+  },
+  "future_batch_boundary_map": ["4MA1-1.1H", "4MA1-1.2A", "4MA1-1.6G", "4MA1-2.1D"],
+  "boundary_map_note": "the B03 term audit's non-slice matches, superseding the B02 audit as the B04.. starting point — 1.1H/1.2A are B01's rows (nodes authored, unapplied), 1.6G is the compound-interest Foundation twin (held B03-H-07), 2.1D is the audit's new match ('index laws' against the S2 row 'use index laws in simple cases'); 1.7A/1.8B drop out (no B03 vocabulary match)",
+  "misconception_mints": [
+    {
+      "code": "4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION",
+      "rides": "4MA1-1.5B",
+      "documentation": "set-notation topic MS Q7(b) — 'Writing $(A\\capB)'$ is a common mistake here which will receive no marks', corrected forms ($(A\\cupB)'$ or $A'\\capB'$) in the same row"
+    },
+    {
+      "code": "4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION",
+      "rides": "4MA1-1.6D",
+      "documentation": "percentages topic MS Q10/Q11 — 'A common incorrect answer could be 25%...' twice, correct quotient construction in the same rows; home row operator-reserved (B03-ID-02, the 1.6E alternative sits in B04)"
+    }
+  ],
+  "artifacts": {
+    "authorization": {"path": "scripts/c35_maths_a_batch03_authorization.yaml", "sha256_16": "4f0738f5020d45bc"},
+    "decisions": {"path": "scripts/c35_maths_a_batch03_decisions.yaml", "sha256_16": "9a23da85ec47a9c3"},
+    "pass2": {"path": "scripts/c35_maths_a_batch03_review_pass2.yaml", "sha256_16": "c158c8f869360c84"},
+    "review_sheet": {"path": "graph/reports/C35_BATCH03_REVIEW_SHEET.md", "sha256_16": "358de0ac39b89d6e"},
+    "review_json": {"path": "graph/reports/C35_BATCH03_REVIEW.json", "sha256_16": "d916498c25693ce0"},
+    "preverify": {"path": "scripts/c35_maths_a_batch03_preverify.py"},
+    "quote_probe": {"path": "scripts/c35_maths_a_batch03_quote_probe.py"},
+    "term_audit_probe": {"path": "scripts/c35_maths_a_batch03_term_audit_probe.py"},
+    "review_build": {"path": "scripts/c35_maths_a_batch03_review_build.py"},
+    "check_report": {"path": "graph/reports/C35_BATCH03_CHECK.json", "sha256_16": "38a5f454825a1f2f"},
+    "battery": {"path": "scripts/c35_maths_a_batch03_check.py", "sha256_16": "3f3a2e64084356e3"},
+    "record_md": {"path": "graph/reports/C35_IGCSE_MATHS_A_K2C3_BATCH03_RECORD.md"}
+  },
+  "verification": "scripts/c35_maths_a_batch03_check.py G1-G7 all PASS, exit 0 (preverify 33/33; quote probe 83/83 verbatim — 25 NOTE / 32 SPEC / 26 MARK_SCHEME; review sheet byte-reproducible; freeze integrity at 10593fc5; standing checkers graph_check + check_no_hardcode green)",
+  "stores_grown": 0,
+  "promotions": 0
+}
