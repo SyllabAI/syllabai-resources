@@ -1,0 +1,118 @@
+{
+  "schema": "syllabai.c32-k2a-lane-a-record/1.0",
+  "task_id": "T-C32",
+  "title": "Subject-#2 K2-A Lane A Record — igcse-maths-a (4MA1 Higher)",
+  "version": "1.0 — Lane A built; 202/203 anchors joined deterministically, 1 residual RECORDED for operator adjudication; no store bytes, no registry change, no corpus write",
+  "date": "2026-10-01",
+  "operator_directive": "K2-A (Lane A construction planning + connection artifacts). (2026-10-01, zai-web, inline)",
+  "baseline_head": "49d71ba18e28a6e7d843bb2676e635b2b5276f62",
+  "predecessors": [
+    "C31_IGCSE_MATHS_A_K2_SCOPE §4/§8",
+    "C29_IGCSE_MATHS_A_K0_COMMISSIONING_RECORD §3",
+    "C30_IGCSE_MATHS_A_K1_SPEC_STORE_BUILD_RECORD"
+  ],
+  "builder": {
+    "path": "scripts/c32_notes_maths_a_join.py",
+    "sha256_16": "4b164ba96b1dda39",
+    "properties": "zero-LLM, deterministic, fail-closed; sme_notes_chem_join.py mirror adapted to the existing substrate; joins by deterministic id lookup; copies resolved fields 1:1 (copied_1to1=true, fuzzy_matching_used=false on every row); foreign code = hard stop; writes exactly one artifact"
+  },
+  "artifact": {
+    "path": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "sha256_16": "7b428ea0b864abe4",
+    "schema": "syllabai.notes-spec-point-join/1.0",
+    "directory_decision": "inside the _derived/ lane (working precedent for non-canonical artifacts), outside SME-RevisionNotes/** (byte-freeze guard holds), namespaced per course",
+    "input_pins": {
+      "notes_manifest": "cc470d40873f51a4",
+      "resolution": "3a0b5dc48a65fb54",
+      "tier_dedupe_ledger": "7f9322a8a05d3767"
+    }
+  },
+  "census": {
+    "anchors_total": 203,
+    "anchors_distinct": 203,
+    "pages_with_anchors": 191,
+    "joined": 202,
+    "unresolved_recorded": 1,
+    "ids_absent_from_resolution": 0,
+    "foreign_codes": 0,
+    "distinct_official_codes": 111,
+    "coverage_of_188": "111/188",
+    "code_tier_split": { "Foundation": 57, "Higher": 54 },
+    "anchor_tier_split": { "Foundation": 86, "Higher": 116 },
+    "wording_crosscheck": { "EXACT": 202, "ledger_explainable": 0, "divergent": 0 }
+  },
+  "substrate_method_census": {
+    "83": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
+    "54": "name_to_statement_join",
+    "34": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
+    "25": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)",
+    "5": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)",
+    "1": "T-SPEC-10 operator reasoning round (no upstream; PMT excluded as source)"
+  },
+  "validation_tier_on_record": {
+    "tier": "INHERITED AI_VALIDATED (operator-delegated chain, T-SPEC-7/8/9/10 substrate) + deterministic 1:1 id-join, machine-gated by c32_k2a_check.py",
+    "human_validated_claim": false,
+    "retirement": "the K0-era '203 unvalidated anchors' phrase retires: 202 anchors joined through the operator-worked substrate, 1 explicitly unresolved; an operator spot-check round can upgrade the tier via a dated addendum"
+  },
+  "residual": {
+    "anchor_id": "spcpt_QWXhzVp2S3VYZdZc",
+    "sme_name": "Discrete & Continuous Data",
+    "note": "notes/6-statistics-and-probability/statistics-toolkit/discrete-and-continuous-data.json",
+    "status": "UNRESOLVED — RECORDED, NEVER FABRICATED (no resolved_code/official_id/wording on the row)",
+    "disposition_proposals": {
+      "method": "PROPOSAL-ONLY deterministic scorer: 0.5*difflib + 0.5*token_overlap, +0.10 section prior (chemistry subsection-boost pattern); binds nothing",
+      "top_candidate": { "official_code": "6.2C", "score": 0.6022, "margin": 0.1407 },
+      "decisive_fact": "no proposal reaches the chemistry 0.75 auto-join floor — the sme_name is a topic label, not a statement paraphrase; genuine mapping (if any) needs operator reasoning of the T-SPEC-9/10 kind",
+      "operator_path": "a T-SPEC-style operator verdict recorded corpus-side joins by id on the next deterministic re-run; this artifact stays untouched"
+    }
+  },
+  "verification": {
+    "checker": "scripts/c32_k2a_check.py",
+    "checker_sha256_16": "ae273a287ad814f8",
+    "report": "graph/reports/C32_K2A_CHECK.json",
+    "report_sha256_16": "4b120a1429516122",
+    "result": "G1-G7 all PASS, exit 0",
+    "gates": {
+      "G1_artifact_schema_counts": "artifact re-censused from its own rows: 203 == 202+1; 111 distinct codes; tier split == scoping census; declared == observed; validation-tier honesty block present",
+      "G2_provenance_verbatim": "202 rows x 10 copied fields byte-equal to the live substrate; sha pins match; fuzzy_matching_used=false, copied_1to1=true everywhere",
+      "G3_store_agreement": "every code in the canonical 188; store_row_code/global_order agree; wording_check classes recomputed and equal (202 EXACT)",
+      "G4_residual_not_fabricated": "exactly 1 unresolved, no resolved fields, PROPOSAL-ONLY, top proposal < 0.75 floor -> operator adjudication required",
+      "G5_freeze_integrity": "HEAD == T-C31 baseline; git status -uall: zero tracked modifications, zero untracked paths outside the T-C32 footprint",
+      "G6_no_store_or_registry_change": "registry sha e38965001ade4417 unchanged; nothing under graph/ beyond this record's report files (P3)",
+      "G7_standing_checkers_green": "graph_check.py exit 0; check_no_hardcode.py exit 0"
+    }
+  },
+  "operator_spot_check_sample": {
+    "selection": "every 20th join row by store order (deterministic)",
+    "rows": [
+      { "code": "1.1F", "sme_name": "Order of Operations (BIDMAS/BODMAS)", "tier": "T-SPEC-7 name-fragment" },
+      { "code": "1.4D", "sme_name": "Uses of Prime Factor Decomposition", "tier": "T-SPEC-7 page-context" },
+      { "code": "1.8C", "sme_name": "Bounds & Error Intervals -> 'Upper & Lower Bounds'", "tier": "T-SPEC-7 name-fragment" },
+      { "code": "2.2E", "sme_name": "Expanding Two Brackets -> 'Expanding Double Brackets'", "tier": "T-SPEC-7 name-fragment" },
+      { "code": "2.8A", "sme_name": "Solving Quadratic Inequalities", "tier": "T-SPEC-8 parse-repair" },
+      { "code": "3.3G", "sme_name": "Length of a Line", "tier": "T-SPEC-7 name-fragment" },
+      { "code": "4.2D", "sme_name": "Angles in Polygons", "tier": "S2 name-ambiguous" },
+      { "code": "4.6C", "sme_name": "Alternate Segment Theorem -> 'The Alternate Segment Theorem' (parse-flagged code; flagged != blocked)", "tier": "T-SPEC-7 name-fragment" },
+      { "code": "4.11B", "sme_name": "Maps -> 'Scale'", "tier": "S1 name-match" },
+      { "code": "6.1B", "sme_name": "Cumulative Frequency", "tier": "T-SPEC-8 parse-repair" },
+      { "code": "6.3G", "sme_name": "Relative Frequency -> 'Relative & Expected Frequency'", "tier": "T-SPEC-7 page-context" }
+    ]
+  },
+  "scope_guards_honored": [
+    "zero bytes in SME-RevisionNotes/**, SME-ExamQuestion/**, canonical parsed/igcse-maths-a/ bundle, graph/igcse-chemistry/**, graph/igcse-maths-a/** (G5 machine-verified)",
+    "registry untouched (G6); no core/hub serving behavior",
+    "no store bytes, no batch authoring — K2-B/K2-C stay behind their own gates",
+    "parallel chemistry C11 program untouched"
+  ],
+  "what_lane_a_arms": {
+    "K2-B": "chunk substrate — the join gives chunk anchors their SP codes",
+    "K2-C-1": "first §16 batch — coverage profile per slice now derivable: batches over the 77 uncovered codes author from the ratified spec-text store alone, stated in each batch packet"
+  },
+  "pins": {
+    "C31_IGCSE_MATHS_A_K2_SCOPE.md@baseline": "8817fe36a38d93cd (per download package SHA256SUMS; repo blob sha recorded at baseline)",
+    "spec_point_resolution.json": "3a0b5dc48a65fb54",
+    "notes_manifest.json": "cc470d40873f51a4",
+    "C30_MATHS_A_TIER_DEDUPE_LEDGER.json": "7f9322a8a05d3767",
+    "scripts/graph_paths.yaml": "e38965001ade4417 (unchanged)"
+  }
+}
