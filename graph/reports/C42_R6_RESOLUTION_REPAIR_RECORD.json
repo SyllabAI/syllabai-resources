@@ -1,0 +1,208 @@
+{
+ "schema": "syllabai.c42-r6-resolution-repair-record/1.0",
+ "task": "T-C42",
+ "stage": "R6 — R1-shaped verdict round over the R4 defect inventory",
+ "directive": "R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02, zai-web) — fired over the R4 re-gate's defect inventory (19 reject rows in scripts/c42_r4_fresh_verdicts.yaml; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
+ "date": "2026-10-02",
+ "baseline": {
+  "commit": "d141c59",
+  "resolution_blob_sha16": "05a57b056874e8dd"
+ },
+ "inventory": {
+  "source": "scripts/c42_r4_fresh_verdicts.yaml",
+  "reject_rows": 19,
+  "note_level_rows": 15,
+  "section_level_rows": 4
+ },
+ "surfaces": {
+  "id_level": {
+   "declared": 10,
+   "correct": 8,
+   "unresolved": 2
+  },
+  "residual": {
+   "declared": 1,
+   "kept_unresolved": 1
+  },
+  "section_level": {
+   "declared": 4,
+   "reattribute": 4,
+   "retain": 0,
+   "extension_rows": 3
+  },
+  "subsumed_r1_entries": 2
+ },
+ "id_level_verdicts": {
+  "spcpt_4ZdHtGPdDjYdR6rK": {
+   "note_title": "Compound Measures",
+   "prior_code": "4MA1-4.4C",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-4.4G",
+   "tier_wording_source": "store"
+  },
+  "spcpt_2nCMJhvvGsW7vMcV": {
+   "note_title": "Speed-Time Graphs",
+   "prior_code": "4MA1-2.8D",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-4.4F",
+   "tier_wording_source": "store"
+  },
+  "spcpt_SYHWnwMWKxDNg9s8": {
+   "note_title": "Solving Linear Equations",
+   "prior_code": "4MA1-2.4B",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-2.4A",
+   "tier_wording_source": "store"
+  },
+  "spcpt_hrv7F8zpDwRXmcNg": {
+   "note_title": "Types of Graphs",
+   "prior_code": "4MA1-3.3I",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-3.3A",
+   "tier_wording_source": "store"
+  },
+  "spcpt_zrrC3yxSp579jY7k": {
+   "note_title": "Finding Gradients of Tangents",
+   "prior_code": "4MA1-3.4C",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-3.4A",
+   "tier_wording_source": "store"
+  },
+  "spcpt_pSX9GyS8bW7N5CH7": {
+   "note_title": "Area",
+   "prior_code": "4MA1-4.8E",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-4.9C",
+   "tier_wording_source": "store"
+  },
+  "spcpt_mVXT4jbXQPrzhHvz": {
+   "note_title": "Problem Solving with Volumes",
+   "prior_code": "4MA1-4.11C",
+   "disposition": "UNRESOLVED",
+   "corrected_code": null
+  },
+  "spcpt_hK2H8q4Y8NYv833v": {
+   "note_title": "Geometrical Proof",
+   "prior_code": "4MA1-5.1G",
+   "disposition": "UNRESOLVED",
+   "corrected_code": null
+  },
+  "spcpt_X8CSxK2dhn5rX34f": {
+   "note_title": "Solving Linear Inequalities",
+   "prior_code": "4MA1-2.8D",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-2.8C",
+   "tier_wording_source": "store"
+  },
+  "spcpt_339DNssRW9x2NPKk": {
+   "note_title": "Basic Fractions",
+   "prior_code": "4MA1-1.2I",
+   "disposition": "CORRECT",
+   "corrected_code": "4MA1-1.2A",
+   "tier_wording_source": "store"
+  }
+ },
+ "residual": {
+  "anchor_id": "spcpt_QWXhzVp2S3VYZdZc",
+  "disposition": "KEEP_UNRESOLVED",
+  "evidence": "re-affirmed at R6 — the C32 §3 residual's PDF-verified reason stands (the 4MA1 print has no standalone discrete/continuous statement); unchanged from the R1 adjudication; the R4 Part B carried it DEFER and nothing in the R4 inventory touches it"
+ },
+ "section_overrides": {
+  "problem-solving-with-differentiation::3": {
+   "current_code": "4MA1-3.4E",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-3.4D",
+   "evidence": "the section classifies turning points as max/min (substitute back; 'using a sketch to see if its a max or min') — 3.4D 'distinguish between maxima and minima by considering the general shape of the graph only' is the surface; 3.4E is applying calculus to kinematics/practical problems; the note-level join stands via its practical-application sections (ords 1-2,4). R4 row f086a04bff035846"
+  },
+  "types-of-number::9": {
+   "current_code": "4MA1-1.1G",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-1.4B",
+   "evidence": "the section teaches square roots (definition, symbol, positive/negative roots) — the Foundation wording of 1.4B per the C30 ledger ('calculate squares, square roots, cubes and cube roots'; the store's operative 1.4B wording is the Higher surds text); 1.1G is the odd/even/prime/factors/multiples terminology and the note-level join stands via its terminology sections. R4 row 260c61bcfeb157da"
+  },
+  "drawing-straight-line-graphs::2": {
+   "current_code": "4MA1-3.3F",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-3.3H",
+   "evidence": "the section teaches drawing USING the equation y = mx + c (generate a table from the equation, plot) — 3.3H 'recognise that equations of the form y = mx + c are straight line graphs with gradient m and intercept on the y-axis' is the surface, the same artifact class as the operator's own R1 ord-3 ruling for this note; 3.3F is gradient from two coordinates; the note-level join stands per the R1 record (see the ord-0 observation). R4 row 5e6ed91f25d0fdb4"
+  },
+  "unit-conversions::1": {
+   "current_code": "4MA1-4.10F",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-4.9A",
+   "evidence": "the section teaches LENGTH conversion (cm/mm/m/km, powers of ten) — the Foundation wording of 4.9A per the C30 ledger ('convert measurements within the metric system to include linear and area units'); 4.10F is VOLUME conversion and the note-level join stands via its volume/capacity section (ord 3). R4 row a49f8beecaf05779"
+  }
+ },
+ "extension_section_overrides": {
+  "contract": "recorded alongside the verdicted rows so the R8 build does not knowingly re-create the same scope difference on sibling sections; rows OUTSIDE the 4 R4-section-level-root rows, each labeled with its sampling status; transparently recorded, zero silent repair",
+  "area::7": {
+   "current_code": "4MA1-4.9C",
+   "current_code_note": "post-R6 join-derived code (the note-level repair lands first)",
+   "sampled": "R4-SAMPLED — inventory row c67208f06b9072e9 (classified there as note-level-root evidence)",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-4.9D",
+   "evidence": "EXTENSION row, R4-SAMPLED (inventory row c67208f06b9072e9, root note-level) — the R4 root's own words record the section surface ('the parallelogram formula A = bh is the 4.9D surface'); the note-level repair to 4.9C fixes the JOIN but leaves this section on a surface its own R4 root contradicts, so the section-level disposition is recorded in the same round rather than knowingly re-created for the R9 re-gate to reject again"
+  },
+  "area::6": {
+   "current_code": "4MA1-4.9C",
+   "current_code_note": "post-R6 join-derived code (the note-level repair lands first)",
+   "sampled": "false — not an R4-sampled row",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-4.9D",
+   "evidence": "EXTENSION row (not R4-sampled) — the section teaches the trapezium area formula; 4.9D 'find the area of parallelograms and trapezia' names trapezia verbatim; recorded alongside the R4-verdicted ord-7 parallelogram row (c67208f06b9072e9, root note-level — 'the parallelogram formula A = bh is the 4.9D surface'); leaving it on 4.9C ('triangles and rectangles') would knowingly re-create the defect class the round repairs"
+  },
+  "basic-fractions::2": {
+   "current_code": "4MA1-1.2A",
+   "current_code_note": "post-R6 join-derived code (the note-level repair lands first)",
+   "sampled": "false — not an R4-sampled row",
+   "disposition": "REATTRIBUTE",
+   "override_code": "4MA1-1.2D",
+   "evidence": "EXTENSION row (not R4-sampled) — the section teaches finding a fraction of an amount; 1.2D 'order fractions and calculate a given fraction of a given quantity' names the skill verbatim; recorded under the R6 note-level repair so the section does not ride to 1.2A against its own content"
+  }
+ },
+ "subsumed_r1_entries": [
+  {
+   "note_slug": "solving-linear-inequalities",
+   "chunk_ordinal": 3,
+   "r1_override_code": "4MA1-2.8C",
+   "subsumed_by": "spcpt_X8CSxK2dhn5rX34f (R6 CORRECT 2.8D -> 2.8C)"
+  },
+  {
+   "note_slug": "basic-fractions",
+   "chunk_ordinal": 6,
+   "r1_override_code": "4MA1-1.2A",
+   "subsumed_by": "spcpt_339DNssRW9x2NPKk (R6 CORRECT 1.2I -> 1.2A)"
+  }
+ ],
+ "observations": [
+  {
+   "id": "drawing-straight-line-graphs-note-join",
+   "note": "carried from the R4 record verbatim — ord 0 CONFIRMs on the operator's R1 'stands for its gradient sections' record, but its 3.3F-joined sections (ords 4-5) read as equation rearrangement + ax+by=c plotting; the note-join itself may warrant operator review at a future round"
+  },
+  {
+   "id": "scorer-noise",
+   "note": "the R6 proposals packet's top-1 candidates are deliberately noisy and bound nothing — e.g. Compound Measures -> 4.8E, Solving Linear Inequalities -> 2.8A, Finding Gradients of Tangents -> 3.3E are scorer artifacts; the verdicts above adjudicate on the R4 root evidence + the ratified wordings, not on the scorer"
+  }
+ ],
+ "amendment": {
+  "file": "SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json",
+  "counts_before": {
+   "ids": 222,
+   "resolved": 216,
+   "unresolved": 6
+  },
+  "counts_after": {
+   "ids": 222,
+   "resolved": 214,
+   "unresolved": 8
+  },
+  "apply": "scripts/c42_r6_resolution_repair_apply.py",
+  "audit": "scripts/c42_r6_resolution_repair_check.py C1-C8 ALL PASS"
+ },
+ "proposals": {
+  "file": "graph/reports/C42_R6_REPAIR_PROPOSALS.json",
+  "binding": "PROPOSAL-ONLY"
+ },
+ "override_map": "scripts/c42_section_overrides_r6.yaml",
+ "next_lanes": "R7 join re-run; R8 substrate re-build; R9 re-gate (operator evidence, gate 2 re-run)"
+}

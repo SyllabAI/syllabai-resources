@@ -1,13 +1,13 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
  "generated_utc": "2026-09-19T15:30:24Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review; T-C42 R1 resolution-repair round (2026-10-02, operator-delegate under the fired R1 directive; human operator sign-off retained): 22 id-level codes corrected, 2 cleared UNRESOLVED, 21 affirmed with statements re-pointed to the Foundation wording per the C30 tier-dedupe ledger, the C32 residual kept UNRESOLVED, and 16 section-level dispositions recorded for the R3 override map",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review; T-C42 R1 resolution-repair round (2026-10-02, operator-delegate under the fired R1 directive; human operator sign-off retained): 22 id-level codes corrected, 2 cleared UNRESOLVED, 21 affirmed with statements re-pointed to the Foundation wording per the C30 tier-dedupe ledger, the C32 residual kept UNRESOLVED, and 16 section-level dispositions recorded for the R3 override map; T-C42 R6 R1-shaped verdict round over the R4 defect inventory (2026-10-02, operator-delegate under the fired R6 directive; human operator sign-off retained): 8 id-level codes corrected, 2 cleared UNRESOLVED (never forced), the C32 residual re-affirmed KEPT UNRESOLVED, 4 section-level REATTRIBUTE dispositions + 2 labeled extension rows recorded for the R8 override map, and 2 R1 override entries subsumed by the note-level repairs",
  "counts": {
   "ids": 222,
-  "resolved": 216,
-  "unresolved": 6
+  "resolved": 214,
+  "unresolved": 8
  },
- "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline) | T-C42 R1 (2026-10-02): cleared to UNRESOLVED — spcpt_3G4j7QwR7HkvrPSK, spcpt_3fMGfNtg3hXMg6gC, spcpt_8Wtthy9gt8B5xsVW, spcpt_FmVMxSY4pdr2ghgq, spcpt_QWXhzVp2S3VYZdZc, spcpt_phQCN2JJ4d856qsx (no canonical row; never forced)",
+ "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline) | T-C42 R1 (2026-10-02): cleared to UNRESOLVED — spcpt_3G4j7QwR7HkvrPSK, spcpt_3fMGfNtg3hXMg6gC, spcpt_8Wtthy9gt8B5xsVW, spcpt_FmVMxSY4pdr2ghgq, spcpt_QWXhzVp2S3VYZdZc, spcpt_phQCN2JJ4d856qsx (no canonical row; never forced) | T-C42 R6 (2026-10-02): cleared to UNRESOLVED — spcpt_3G4j7QwR7HkvrPSK, spcpt_3fMGfNtg3hXMg6gC, spcpt_8Wtthy9gt8B5xsVW, spcpt_FmVMxSY4pdr2ghgq, spcpt_QWXhzVp2S3VYZdZc, spcpt_hK2H8q4Y8NYv833v, spcpt_mVXT4jbXQPrzhHvz, spcpt_phQCN2JJ4d856qsx (no canonical row; never forced)",
  "resolved": [
   {
    "id": "spcpt_2D9sp6d4f6jCmRMx",
@@ -66,13 +66,27 @@
    "sme_name": "Speed-Time Graphs",
    "sme_definition": "",
    "referenced_by_parts": 32,
-   "resolved_code": "2.8D",
-   "official_id": "IGCSE_MATHS_A:2.8D",
-   "official_wording": "represent simple linear inequalities on rectangular Cartesian graphs",
+   "resolved_code": "4.4F",
+   "official_id": "IGCSE_MATHS_A:4.4F",
+   "official_wording": "understand and use the relationship between average speed, distance and time",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "2.8D",
+     "official_id": "IGCSE_MATHS_A:2.8D",
+     "official_wording": "represent simple linear inequalities on rectangular Cartesian graphs"
+    },
+    "verdict_ref": "spcpt_2nCMJhvvGsW7vMcV",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.4F 'understand and use the relationship between average speed, distance and time' is the note's taught surface (ord-1 dossier — speed read off the graph, gradient = acceleration as rise/run, distance from the area under the graph); 2.8D is 'represent simple linear inequalities on rectangular Cartesian graphs' — unrelated content, a T-SPEC resolution error the R4 re-gate caught on ords 0,1 (fe35e8b078cef149, 20c1cfc1d1aeb7ba). 3.4E ('apply calculus to linear kinematics') is recorded as the calculus-demanding sibling and NOT chosen — the note carries no differentiation content, its methods are graphical (gradient/area); same reasoning shape as the R1 Distance-Time Graphs verdict (3.3F -> 4.4F with the sibling recorded)"
+   }
   },
   {
    "id": "spcpt_2w6yB8pYShK9mGRb",
@@ -105,13 +119,27 @@
    "sme_name": "Basic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "1.2I",
-   "official_id": "IGCSE_MATHS_A:1.2I",
-   "official_wording": "multiply and divide fractions and mixed numbers",
+   "resolved_code": "1.2A",
+   "official_id": "IGCSE_MATHS_A:1.2A",
+   "official_wording": "understand and use equivalent fractions, simplifying a fraction by cancelling common factors",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.2I",
+     "official_id": "IGCSE_MATHS_A:1.2I",
+     "official_wording": "multiply and divide fractions and mixed numbers"
+    },
+    "verdict_ref": "spcpt_339DNssRW9x2NPKk",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.2A 'understand and use equivalent fractions, simplifying a fraction by cancelling common factors' is the note's dominant surface (ords 3-6 — equivalent fractions, finding one, simplified fractions, simplifying; ord 6 already carries the operator's R1 override to 1.2A); the note carries NO multiply/divide-fractions content anywhere (that surface lives in the corpus's Multiplying & Dividing Fractions note, correctly joined and CONFIRMed separately), so 1.2I is wrong at note level — the home question the R4 record left open is decided on this evidence; R4 rejected ords 3,5 on exactly this note-level-class root (e5f5f97fe65f64a2, f20e42613c249b72); the R1 ord-6 override is SUBSUMED by this repair; the fraction-of-an-amount section (ord 2) is recorded as an extension override to 1.2D in the same round; ords 0-1 are the generic intro/concept sections per the C40 convention"
+   }
   },
   {
    "id": "spcpt_38XcCSfT6hW33fDn",
@@ -237,13 +265,27 @@
    "sme_name": "Compound Measures",
    "sme_definition": "",
    "referenced_by_parts": 33,
-   "resolved_code": "4.4C",
-   "official_id": "IGCSE_MATHS_A:4.4C",
-   "official_wording": "make sensible estimates of a range of measures",
+   "resolved_code": "4.4G",
+   "official_id": "IGCSE_MATHS_A:4.4G",
+   "official_wording": "use compound measure such as speed, density and pressure",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.4C",
+     "official_id": "IGCSE_MATHS_A:4.4C",
+     "official_wording": "make sensible estimates of a range of measures"
+    },
+    "verdict_ref": "spcpt_4ZdHtGPdDjYdR6rK",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.4G 'use compound measure such as speed, density and pressure' is verbatim the note's teaching (ords 0-4 — compound-measure definition, units, formula construction, formula triangles; speed, flow rate, population density); 4.4C is 'make sensible estimates of a range of measures' — a 'measures' word-overlap T-SPEC resolution error; the R4 re-gate rejected ords 0,1 on exactly this root (fresh rows ffe958ec6aee28e1, 4d7bd96de4f0e4ac)"
+   }
   },
   {
    "id": "spcpt_5CHMgxBWhBwxh5Y6",
@@ -1225,12 +1267,12 @@
    "reason": "no-guess pending: the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C); GCSE-bridge content - the 'flagged for parse repair' clause was wrong",
    "repair": {
     "task": "T-C42",
-    "round": "R1",
+    "round": "R6",
     "date": "2026-10-02",
     "disposition": "KEEP_UNRESOLVED",
     "verdict_ref": "spcpt_QWXhzVp2S3VYZdZc",
-    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
-    "evidence": "the row's own recorded reason stands — 'the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C)'; the C32 scorer's proposals (6.2C IQR, 6.3G, 6.1B) teach unrelated content and are REJECTED; the two substrate worklist chunk rows stay recorded-not-forced"
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "re-affirmed at R6 — the C32 §3 residual's PDF-verified reason stands (the 4MA1 print has no standalone discrete/continuous statement); unchanged from the R1 adjudication; the R4 Part B carried it DEFER and nothing in the R4 inventory touches it"
    }
   },
   {
@@ -1395,13 +1437,27 @@
    "sme_name": "Solving Linear Equations",
    "sme_definition": "",
    "referenced_by_parts": 69,
-   "resolved_code": "2.4B",
-   "official_id": "IGCSE_MATHS_A:2.4B",
-   "official_wording": "set up simple linear equations from given data",
+   "resolved_code": "2.4A",
+   "official_id": "IGCSE_MATHS_A:2.4A",
+   "official_wording": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "2.4B",
+     "official_id": "IGCSE_MATHS_A:2.4B",
+     "official_wording": "set up simple linear equations from given data"
+    },
+    "verdict_ref": "spcpt_SYHWnwMWKxDNg9s8",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.4A 'solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation' is verbatim the note (ords 0-8 — solving, order of steps, negatives, brackets, fractions, unknown on the denominator, x-terms on both sides); 2.4B is 'set up simple linear equations from given data' — the corpus's Forming-Equations notes carry that surface and CONFIRMed separately; R4 rejected ord 0 on this root (5f0b8e8cfbec5c1c)"
+   }
   },
   {
    "id": "spcpt_SgzMz9GCcsdMwJcx",
@@ -1550,13 +1606,27 @@
    "sme_name": "Solving Linear Inequalities",
    "sme_definition": "",
    "referenced_by_parts": 61,
-   "resolved_code": "2.8D",
-   "official_id": "IGCSE_MATHS_A:2.8D",
-   "official_wording": "represent simple linear inequalities on rectangular Cartesian graphs",
+   "resolved_code": "2.8C",
+   "official_id": "IGCSE_MATHS_A:2.8C",
+   "official_wording": "solve simple linear inequalities in one variable and represent the solution set on a number line",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "2.8D",
+     "official_id": "IGCSE_MATHS_A:2.8D",
+     "official_wording": "represent simple linear inequalities on rectangular Cartesian graphs"
+    },
+    "verdict_ref": "spcpt_X8CSxK2dhn5rX34f",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.8C 'solve simple linear inequalities in one variable and represent the solution set on a number line' is the note's entire taught surface (ords 0-5 — concept, integers satisfying, number-line representation, solving, double inequalities) — no Cartesian-graph representation content anywhere, while 2.8D demands 'represent simple linear inequalities on rectangular Cartesian graphs'; this is the note-level defect of which the operator's R1 ord-3 override (number-line section -> 2.8C) was the section-level patch — that override is SUBSUMED by this repair (its target now equals the join-derived code); R4 rejected ord 4 (253eb0f3dcae4112)"
+   }
   },
   {
    "id": "spcpt_XC6PSG6CcXnNDb3Q",
@@ -2163,13 +2233,29 @@
    "sme_name": "Geometrical Proof",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "5.1G",
-   "official_id": "IGCSE_MATHS_A:H-5.1G",
-   "official_wording": "apply vector methods for simple geometrical proofs",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "status": "UNRESOLVED — RECORDED, NEVER FABRICATED (T-C42 R6: no canonical row teaches the note's content; the wrong code was cleared, never forced)",
+   "reason": "T-C42 R6 operator-delegate verdict: no canonical row teaches this note's content — the prior code was a T-SPEC resolution error (unsampled at C40, caught by the R4 re-gate); cleared, never forced (evidence in scripts/c42_r6_repair_verdicts.yaml)",
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "UNRESOLVED",
+    "prior": {
+     "code": "5.1G",
+     "official_id": "IGCSE_MATHS_A:H-5.1G",
+     "official_wording": "apply vector methods for simple geometrical proofs"
+    },
+    "verdict_ref": "spcpt_hK2H8q4Y8NYv833v",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the note teaches generic geometric-proof apparatus (ords 0-7 — what a geometrical proof is, writing one, notation, the exterior-angle theorem with two methods, a common-reasons list — angle-fact rules and reasons, no vector-methods content anywhere); 5.1G demands 'apply vector methods for simple geometrical proofs'; no canonical 188 row teaches angle-fact proof per se (2.2E is algebraic proof; the angle-fact SPs are 4.1B/4.2B-class); UNRESOLVED-class, cleared, never forced; R4 rejected ord 1 (f208762616304676)"
+   }
   },
   {
    "id": "spcpt_hMqjBRzQQfvsc9f8",
@@ -2230,13 +2316,27 @@
    "sme_name": "Types of Graphs",
    "sme_definition": "",
    "referenced_by_parts": 14,
-   "resolved_code": "3.3I",
-   "official_id": "IGCSE_MATHS_A:3.3I",
-   "official_wording": "recognise, generate points and plot graphs of linear and quadratic functions",
+   "resolved_code": "3.3A",
+   "official_id": "IGCSE_MATHS_A:H-3.3A",
+   "official_wording": "recognise, plot and draw graphs with equation: 3 2 y = Ax + Bx + Cx + D in which: (i) the constants are integers and some could be zero (ii) the lettersxandycan be replaced with any other two letters or: 3 2 E F y = Ax + Bx + Cx + D + + x x in which: (i) the constants are numerical and at least three of them are zero (ii) the lettersxandycan be replaced with any other two letters or: y = sin x, y = cos x, y = tan x for angles of any size (in degrees)",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.3I",
+     "official_id": "IGCSE_MATHS_A:3.3I",
+     "official_wording": "recognise, generate points and plot graphs of linear and quadratic functions"
+    },
+    "verdict_ref": "spcpt_hrv7F8zpDwRXmcNg",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3A 'recognise, plot and draw graphs with equation y = Ax^3 + Bx^2 + Cx + D ...' is the note's taught surface (ords 0-3 — which graph types to know, reciprocal asymptotes, cubic shapes — recognition of the polynomial/reciprocal family); 3.3I is 'recognise, generate points and plot graphs of linear and quadratic functions' and the note carries no generate-points/plotting content; R4 rejected ords 2,3 (28fba9c4ee6160ee, 81fe06133dd1fa57); the same 3.3A wording family the R1 verdict used to re-point Trigonometric Graphs (3.3F -> 3.3A)"
+   }
   },
   {
    "id": "spcpt_j2YgCQ3HvtrTXdG4",
@@ -2374,13 +2474,29 @@
    "sme_name": "Problem Solving with Volumes",
    "sme_definition": "",
    "referenced_by_parts": 25,
-   "resolved_code": "4.11C",
-   "official_id": "IGCSE_MATHS_A:H-4.11C",
-   "official_wording": "use areas and volumes of similar figures in solving problems",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "status": "UNRESOLVED — RECORDED, NEVER FABRICATED (T-C42 R6: no canonical row teaches the note's content; the wrong code was cleared, never forced)",
+   "reason": "T-C42 R6 operator-delegate verdict: no canonical row teaches this note's content — the prior code was a T-SPEC resolution error (unsampled at C40, caught by the R4 re-gate); cleared, never forced (evidence in scripts/c42_r6_repair_verdicts.yaml)",
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "UNRESOLVED",
+    "prior": {
+     "code": "4.11C",
+     "official_id": "IGCSE_MATHS_A:H-4.11C",
+     "official_wording": "use areas and volumes of similar figures in solving problems"
+    },
+    "verdict_ref": "spcpt_mVXT4jbXQPrzhHvz",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the note is generic real-world volume problem-solving (juice-carton and cost contexts, ords 0-3); 4.11C demands areas AND volumes of SIMILAR figures in problems and the note carries no similar-figures content — exactly the class of the R1-cleared Problem Solving with Areas (generic-problem-solving note, specific-method SP; no canonical 188 row teaches generic volume problem-solving); the wrong code is CLEARED, never forced; R4 rejected ord 2 (8d0087ded2d69f0f)"
+   }
   },
   {
    "id": "spcpt_myNYhxstM7xnZd9P",
@@ -2574,13 +2690,27 @@
    "sme_name": "Area Formulas",
    "sme_definition": "",
    "referenced_by_parts": 56,
-   "resolved_code": "4.8E",
-   "official_id": "IGCSE_MATHS_A:H-4.8E",
-   "official_wording": "understand and use the formula ab sin C for the area of a triangle",
+   "resolved_code": "4.9C",
+   "official_id": "IGCSE_MATHS_A:4.9C",
+   "official_wording": "find the area of simple shapes using the formulae for the areas of triangles and rectangles",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.8E",
+     "official_id": "IGCSE_MATHS_A:H-4.8E",
+     "official_wording": "understand and use the formula ab sin C for the area of a triangle"
+    },
+    "verdict_ref": "spcpt_pSX9GyS8bW7N5CH7",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.9C 'find the area of simple shapes using the formulae for the areas of triangles and rectangles' is the note's dominant surface (ords 1-5 — what area is, square-grid counting, the formulas summary, rectangle, triangle); 4.8E is 'understand and use the formula ab sin C for the area of a triangle' and the note carries NO ab-sin-C content anywhere; the parallelogram/trapezium sections are the 4.9D surface ('find the area of parallelograms and trapezia') and land as section-level overrides (ords 6,7) in the same round; R4 rejected ords 4,7 (4f808fa71e4e6a76, c67208f06b9072e9)"
+   }
   },
   {
    "id": "spcpt_pqWsmktWyMCRfTk6",
@@ -3239,13 +3369,27 @@
    "sme_name": "Finding Gradients of Tangents",
    "sme_definition": "",
    "referenced_by_parts": 42,
-   "resolved_code": "3.4C",
-   "official_id": "IGCSE_MATHS_A:H-3.4C",
-   "official_wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs",
+   "resolved_code": "3.4A",
+   "official_id": "IGCSE_MATHS_A:H-3.4A",
+   "official_wording": "understand the concept of a variable rate of change",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R6",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.4C",
+     "official_id": "IGCSE_MATHS_A:H-3.4C",
+     "official_wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs"
+    },
+    "verdict_ref": "spcpt_zrrC3yxSp579jY7k",
+    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.4A 'understand the concept of a variable rate of change' (Higher) is the note's pre-differentiation surface (ords 0-3 — how tangents relate to gradients, estimating the gradient of a curve by drawing a tangent, what the gradient represents as a rate); 3.4C demands gradients/stationary/turning points 'by differentiation' and the note teaches estimation by tangents with no calculus — the T-SPEC-era approximation the R4 re-gate caught (131a91060ab8d3d2)"
+   }
   },
   {
    "id": "spcpt_2y9nzgtjjWN7zVQD",
@@ -3448,29 +3592,61 @@
    "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
  ],
+ "repair_history": [
+  {
+   "task": "T-C42",
+   "round": "R1",
+   "date": "2026-10-02",
+   "directive": "fire R1 (2026-10-02, zai-web)",
+   "reviewer": "Super Z (GLM agent), operator-delegate under the fired R1 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the C40 substrate stays SUGGESTED; the C41-promoted 73 edges are untouched)",
+   "verdicts_record": "scripts/c42_repair_verdicts.yaml",
+   "section_overrides_record": "scripts/c42_section_overrides.yaml",
+   "record": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+   "counts_delta": {
+    "corrected": 22,
+    "affirmed_statement_repointed": 21,
+    "cleared_unresolved": 2,
+    "residual_kept": 1,
+    "section_overrides": {
+     "reattribute": 12,
+     "retain": 4
+    }
+   },
+   "notes": [
+    "R4's re-fill MUST consult both tier wordings (store operative + ledger foundation.text per code) or it will re-reject the affirmed joins",
+    "the C32 notes-join and the C40 substrate are now STALE relative to this file by design — they refresh at R2/R3; spec-links refresh is a separate follow-up",
+    "16 legacy rows carry bare ids for Higher-store codes (pre-existing convention drift, outside this round's surface, recorded not repaired)"
+   ]
+  }
+ ],
  "repair": {
   "task": "T-C42",
-  "round": "R1",
+  "round": "R6",
   "date": "2026-10-02",
-  "directive": "fire R1 (2026-10-02, zai-web)",
-  "reviewer": "Super Z (GLM agent), operator-delegate under the fired R1 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the C40 substrate stays SUGGESTED; the C41-promoted 73 edges are untouched)",
-  "verdicts_record": "scripts/c42_repair_verdicts.yaml",
-  "section_overrides_record": "scripts/c42_section_overrides.yaml",
-  "record": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+  "directive": "R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02, zai-web) — fired over the R4 re-gate's defect inventory (19 reject rows in scripts/c42_r4_fresh_verdicts.yaml; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
+  "reviewer": "Super Z (GLM agent), operator-delegate under the fired R6 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the substrate stays SUGGESTED and the C41-promoted 73 edges are untouched)",
+  "verdicts_record": "scripts/c42_r6_repair_verdicts.yaml",
+  "section_overrides_record": "scripts/c42_section_overrides_r6.yaml",
+  "proposals_record": "graph/reports/C42_R6_REPAIR_PROPOSALS.json (PROPOSAL-ONLY, binds nothing)",
+  "inventory_source": "the R4 re-gate defect inventory (scripts/c42_r4_fresh_verdicts.yaml, 19 reject rows; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
+  "record": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
   "counts_delta": {
-   "corrected": 22,
-   "affirmed_statement_repointed": 21,
+   "corrected": 8,
    "cleared_unresolved": 2,
    "residual_kept": 1,
    "section_overrides": {
-    "reattribute": 12,
-    "retain": 4
-   }
+    "reattribute": 4,
+    "retain": 0,
+    "extension_rows": 3
+   },
+   "subsumed_r1_entries": 2
   },
   "notes": [
-   "R4's re-fill MUST consult both tier wordings (store operative + ledger foundation.text per code) or it will re-reject the affirmed joins",
-   "the C32 notes-join and the C40 substrate are now STALE relative to this file by design — they refresh at R2/R3; spec-links refresh is a separate follow-up",
-   "16 legacy rows carry bare ids for Higher-store codes (pre-existing convention drift, outside this round's surface, recorded not repaired)"
+   "the R6 lane is the second R1-shaped verdict round of the scope §7 loop — fired by explicit operator instruction over the R4 defect inventory",
+   "the T-C32 join and the chunk substrate are now STALE relative to this file by design — they refresh at R7/R8; the R9 re-gate re-renders the review surface",
+   "2 R1 override entries (solving-linear-inequalities ord 3, basic-fractions ord 6) are SUBSUMED by the note-level repairs they anticipated — the R8 build verifies and records them, it does not re-apply them as no-ops",
+   "2 extension section rows (area ord 6, basic-fractions ord 2) are recorded with heading-verbatim evidence, transparently labeled as not-R4-sampled",
+   "2 observations recorded for the operator (drawing-straight-line-graphs note-join question; scorer noise) — nothing self-repairs beyond this round's surface"
   ]
  }
 }
