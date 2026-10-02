@@ -1,13 +1,13 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
  "generated_utc": "2026-09-19T15:30:24Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review; T-C42 R1 resolution-repair round (2026-10-02, operator-delegate under the fired R1 directive; human operator sign-off retained): 22 id-level codes corrected, 2 cleared UNRESOLVED, 21 affirmed with statements re-pointed to the Foundation wording per the C30 tier-dedupe ledger, the C32 residual kept UNRESOLVED, and 16 section-level dispositions recorded for the R3 override map",
  "counts": {
   "ids": 222,
-  "resolved": 218,
-  "unresolved": 4
+  "resolved": 216,
+  "unresolved": 6
  },
- "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline)",
+ "unresolved_allowlist_note": "parts whose ids are all unresolved stay uncoded by design (no-guess discipline) | T-C42 R1 (2026-10-02): cleared to UNRESOLVED — spcpt_3G4j7QwR7HkvrPSK, spcpt_3fMGfNtg3hXMg6gC, spcpt_8Wtthy9gt8B5xsVW, spcpt_FmVMxSY4pdr2ghgq, spcpt_QWXhzVp2S3VYZdZc, spcpt_phQCN2JJ4d856qsx (no canonical row; never forced)",
  "resolved": [
   {
    "id": "spcpt_2D9sp6d4f6jCmRMx",
@@ -144,26 +144,56 @@
    "sme_name": "Problem Solving with Areas",
    "sme_definition": "",
    "referenced_by_parts": 35,
-   "resolved_code": "4.11C",
-   "official_id": "IGCSE_MATHS_A:H-4.11C",
-   "official_wording": "use areas and volumes of similar figures in solving problems",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "status": "UNRESOLVED — RECORDED, NEVER FABRICATED (T-C42 R1: no canonical row teaches the note's content; the wrong code was cleared, never forced)",
+   "reason": "T-C42 R1 operator-delegate verdict: no canonical row teaches this note's content — the prior code was a T-SPEC resolution error; cleared, never forced (evidence in scripts/c42_repair_verdicts.yaml)",
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "UNRESOLVED",
+    "prior": {
+     "code": "4.11C",
+     "official_id": "IGCSE_MATHS_A:H-4.11C",
+     "official_wording": "use areas and volumes of similar figures in solving problems"
+    },
+    "verdict_ref": "spcpt_3fMGfNtg3hXMg6gC",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the note is a generic real-life area problem-solving page (carpet/painting style problems) spanning several area formulae (4.9C/4.9D/4.9E); no canonical row teaches a composite area problem-solving methodology; 4.11C (similar figures) is unrelated; cleared, never forced"
+   }
   },
   {
    "id": "spcpt_3n2jHMX7vMBh95jq",
    "sme_name": "Negative Numbers",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": "1.4A",
-   "official_id": "IGCSE_MATHS_A:H-1.4A",
-   "official_wording": "understand the meaning of surds",
+   "resolved_code": "1.1C",
+   "official_id": "IGCSE_MATHS_A:1.1C",
+   "official_wording": "use directed numbers in practical situations",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.4A",
+     "official_id": "IGCSE_MATHS_A:H-1.4A",
+     "official_wording": "understand the meaning of surds"
+    },
+    "verdict_ref": "spcpt_3n2jHMX7vMBh95jq",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.1C 'use directed numbers in practical situations' — the note teaches calculation rules with negatives and their real-life use (temperature, money/debt), exactly directed numbers in practical situations; 1.1A (integers) is the conceptual sibling recorded in the reasoning"
+   }
   },
   {
    "id": "spcpt_3nz4CDxVDMqZNQNR",
@@ -272,13 +302,27 @@
    "sme_name": "Drawing Trig Graphs",
    "sme_definition": "",
    "referenced_by_parts": 18,
-   "resolved_code": "3.3F",
-   "official_id": "IGCSE_MATHS_A:H-3.3F",
-   "official_wording": "calculate the gradient of a straight line given the coordinates of two points",
+   "resolved_code": "3.3A",
+   "official_id": "IGCSE_MATHS_A:H-3.3A",
+   "official_wording": "recognise, plot and draw graphs with equation: 3 2 y = Ax + Bx + Cx + D in which: (i) the constants are integers and some could be zero (ii) the lettersxandycan be replaced with any other two letters or: 3 2 E F y = Ax + Bx + Cx + D + + x x in which: (i) the constants are numerical and at least three of them are zero (ii) the lettersxandycan be replaced with any other two letters or: y = sin x, y = cos x, y = tan x for angles of any size (in degrees)",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.3F",
+     "official_id": "IGCSE_MATHS_A:H-3.3F",
+     "official_wording": "calculate the gradient of a straight line given the coordinates of two points"
+    },
+    "verdict_ref": "spcpt_6bYjJ8kxTNBbcSjX",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3A Higher wording explicitly includes 'y = sin x, y = cos x, y = tan x for angles of any size (in degrees)' — verbatim the note's teaching (shapes of the trig graphs); 3.3F is gradient-from-two-points, unrelated"
+   }
   },
   {
    "id": "spcpt_6tmCTQJYPsTdKKZ6",
@@ -286,12 +330,27 @@
    "sme_definition": "",
    "referenced_by_parts": 43,
    "resolved_code": "2.2A",
-   "official_id": "IGCSE_MATHS_A:H-2.2A",
-   "official_wording": "expand the product of two or more linear expressions",
+   "official_id": "IGCSE_MATHS_A:2.2A",
+   "official_wording": "evaluate expressions by substituting numerical values for letters",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "2.2A",
+     "official_id": "IGCSE_MATHS_A:H-2.2A",
+     "official_wording": "expand the product of two or more linear expressions"
+    },
+    "verdict_ref": "spcpt_6tmCTQJYPsTdKKZ6",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.2A Foundation wording is verbatim 'evaluate expressions by substituting numerical values for letters' — the join was correct all along; the C40 reject compared against the Higher wording (expand products)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_76gVqdMN62jnrZg6",
@@ -311,13 +370,27 @@
    "sme_name": "Quadratic Equation Methods",
    "sme_definition": "",
    "referenced_by_parts": 11,
-   "resolved_code": "2.7D",
-   "official_id": "IGCSE_MATHS_A:H-2.7D",
-   "official_wording": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
+   "resolved_code": "2.7B",
+   "official_id": "IGCSE_MATHS_A:H-2.7B",
+   "official_wording": "solve quadratic equations by using the quadratic formula or completing the square",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "2.7D",
+     "official_id": "IGCSE_MATHS_A:H-2.7D",
+     "official_wording": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic"
+    },
+    "verdict_ref": "spcpt_7YTSNFdbGCTSMHJX",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.7B 'solve quadratic equations by using the quadratic formula or completing the square' — the note's method-choice sections are dominated by formula and completing-the-square; factorisation is 2.7A's surface; 2.7D is simultaneous linear-quadratic, unrelated"
+   }
   },
   {
    "id": "spcpt_7gdmq8MbcShywrkB",
@@ -352,11 +425,26 @@
    "referenced_by_parts": 23,
    "resolved_code": "3.3E",
    "official_id": "IGCSE_MATHS_A:3.3E",
-   "official_wording": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1",
+   "official_wording": "determine the coordinates of the midpoint of a line segment, given the coordinates of the two end points",
    "tier": "S1_name_match",
    "score": 0.719,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "3.3E",
+     "official_id": "IGCSE_MATHS_A:3.3E",
+     "official_wording": "find the intersection points of two graphs, one linear ( y ) and one non-linear ( y ), and and recognise that the solutions correspond to the solutions of ( y − y ) = 0 2 1"
+    },
+    "verdict_ref": "spcpt_84hZy4pDd8nBGN3r",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3E Foundation wording 'determine the coordinates of the midpoint of a line segment, given the coordinates of the two endpoints' is verbatim the note's teaching; the C40 reject compared against the Higher wording (graph intersections)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_8GsFXwdQTJymxXw8",
@@ -389,13 +477,29 @@
    "sme_name": "Mathematical Symbols",
    "sme_definition": "",
    "referenced_by_parts": 1,
-   "resolved_code": "1.5C",
-   "official_id": "IGCSE_MATHS_A:H-1.5C",
-   "official_wording": "use the notationn(A)for the number of elements in the setA",
+   "resolved_code": null,
+   "official_id": null,
+   "official_wording": null,
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "status": "UNRESOLVED — RECORDED, NEVER FABRICATED (T-C42 R1: no canonical row teaches the note's content; the wrong code was cleared, never forced)",
+   "reason": "T-C42 R1 operator-delegate verdict: no canonical row teaches this note's content — the prior code was a T-SPEC resolution error; cleared, never forced (evidence in scripts/c42_repair_verdicts.yaml)",
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "UNRESOLVED",
+    "prior": {
+     "code": "1.5C",
+     "official_id": "IGCSE_MATHS_A:H-1.5C",
+     "official_wording": "use the notationn(A)for the number of elements in the setA"
+    },
+    "verdict_ref": "spcpt_8Wtthy9gt8B5xsVW",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the note is a general mathematical-symbols glossary ('What mathematical symbols do I need to know?'); no canonical row teaches a symbols glossary (1.5C n(A) is set notation; 2.1A/2.3A are symbols-as-variables specifics); cleared, never forced"
+   }
   },
   {
    "id": "spcpt_8rpDpT2HVPgyCKS8",
@@ -415,11 +519,25 @@
    "sme_name": "Interpreting Cumulative Frequency Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 61,
-   "resolved_code": "6.1B",
-   "official_id": "IGCSE_MATHS_A:H-6.1B",
-   "official_wording": "construct cumulative frequency diagrams from tabulated data",
+   "resolved_code": "6.1C",
+   "official_id": "IGCSE_MATHS_A:H-6.1C",
+   "official_wording": "use cumulative frequency diagrams",
    "tier": "R1_parse_repair_statement_join",
-   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)"
+   "method": "operator-verdict statement join after T-SPEC-8 parse repair (PMT excluded as source)",
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "6.1B",
+     "official_id": "IGCSE_MATHS_A:H-6.1B",
+     "official_wording": "construct cumulative frequency diagrams from tabulated data"
+    },
+    "verdict_ref": "spcpt_8sCVwmD5VVBv6xWg",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.1C 'use cumulative frequency diagrams' is the note's teaching (use and interpret; the median/quartile/percentile sections correspond to 6.2A/6.2D and are recorded for R4 visibility); 6.1B is the construction row"
+   }
   },
   {
    "id": "spcpt_93QKhBw6PtVSvVdB",
@@ -602,13 +720,27 @@
    "sme_name": "Conditional Probability",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "6.3B",
-   "official_id": "IGCSE_MATHS_A:H-6.3B",
-   "official_wording": "determine the probability that two or more independent events will occur",
+   "resolved_code": "6.3C",
+   "official_id": "IGCSE_MATHS_A:H-6.3C",
+   "official_wording": "use simple conditional probability when combining events",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "6.3B",
+     "official_id": "IGCSE_MATHS_A:H-6.3B",
+     "official_wording": "determine the probability that two or more independent events will occur"
+    },
+    "verdict_ref": "spcpt_DkBXXfmWk2hGVF6Y",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.3C 'use simple conditional probability when combining events' is verbatim the note's teaching; 6.3B is the independent-events row, a different surface"
+   }
   },
   {
    "id": "spcpt_F2BG7bHjbM3fZkrR",
@@ -733,12 +865,27 @@
    "sme_definition": "",
    "referenced_by_parts": 19,
    "resolved_code": "4.11A",
-   "official_id": "IGCSE_MATHS_A:H-4.11A",
-   "official_wording": "understand that areas of similar figures are in the ratio of the square of corresponding sides",
+   "official_id": "IGCSE_MATHS_A:4.11A",
+   "official_wording": "understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio but corresponding angles remain unchanged",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "4.11A",
+     "official_id": "IGCSE_MATHS_A:H-4.11A",
+     "official_wording": "understand that areas of similar figures are in the ratio of the square of corresponding sides"
+    },
+    "verdict_ref": "spcpt_HcBpSfpzpdZqCFXk",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.11A Foundation wording (corresponding lengths in the same ratio, angles unchanged) is the note's definitional teaching; the proof-of-similarity sections extend it — moderate fit, flagged for R4; the C40 reject was a wording-tier artifact",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_HnxHKwwfTxKcvCN7",
@@ -784,11 +931,26 @@
    "referenced_by_parts": 7,
    "resolved_code": "3.3B",
    "official_id": "IGCSE_MATHS_A:3.3B",
-   "official_wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions",
+   "official_wording": "understand and use conventions for rectangular Cartesian coordinates",
    "tier": "S2_name_ambiguous",
    "score": 0.7268,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "3.3B",
+     "official_id": "IGCSE_MATHS_A:3.3B",
+     "official_wording": "apply to the graph ofy = f(x)the transformations y = f(x) + a, y = f(ax), y = f(x + a), y = af(x) for linear, quadratic, sine and cosine functions"
+    },
+    "verdict_ref": "spcpt_Jw35TTKhvXxmGGfP",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3B Foundation wording 'understand and use conventions for rectangular Cartesian coordinates' is verbatim the note's teaching (Cartesian plane, coordinates); the C40 reject compared against the Higher wording (graph transformations)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_KNXbNby67zKvX8SX",
@@ -819,26 +981,54 @@
    "sme_name": "Calculations using Bounds",
    "sme_definition": "",
    "referenced_by_parts": 32,
-   "resolved_code": "1.10B",
-   "official_id": "IGCSE_MATHS_A:1.10B",
-   "official_wording": "carry out calculations using standard units of mass, length, area, volume and capacity",
+   "resolved_code": "1.8A",
+   "official_id": "IGCSE_MATHS_A:H-1.8A",
+   "official_wording": "solve problems using upper and lower bounds where values are given to a degree of accuracy",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.10B",
+     "official_id": "IGCSE_MATHS_A:1.10B",
+     "official_wording": "carry out calculations using standard units of mass, length, area, volume and capacity"
+    },
+    "verdict_ref": "spcpt_M5rhN2mwnR2yddc6",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.8A 'solve problems using upper and lower bounds where values are given to a degree of accuracy' — the note teaches finding bounds of rounded numbers AND using bounds in calculations/contexts; 1.8C (identify-only, Foundation) is the sibling"
+   }
   },
   {
    "id": "spcpt_MTZDMgNSvV3FdVVR",
    "sme_name": "Distance-Time Graphs",
    "sme_definition": "",
    "referenced_by_parts": 25,
-   "resolved_code": "3.3F",
-   "official_id": "IGCSE_MATHS_A:H-3.3F",
-   "official_wording": "calculate the gradient of a straight line given the coordinates of two points",
+   "resolved_code": "4.4F",
+   "official_id": "IGCSE_MATHS_A:4.4F",
+   "official_wording": "understand and use the relationship between average speed, distance and time",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.3F",
+     "official_id": "IGCSE_MATHS_A:H-3.3F",
+     "official_wording": "calculate the gradient of a straight line given the coordinates of two points"
+    },
+    "verdict_ref": "spcpt_MTZDMgNSvV3FdVVR",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.4F 'understand and use the relationship between average speed, distance and time' — the note's mathematical core is reading distance-time graphs and computing (overall average) speed; 3.3A-F (interpret linear graphs) was considered and recorded as the alternative"
+   }
   },
   {
    "id": "spcpt_Mq2w9qKSCyF5mvvs",
@@ -885,12 +1075,27 @@
    "sme_definition": "",
    "referenced_by_parts": 21,
    "resolved_code": "3.1A",
-   "official_id": "IGCSE_MATHS_A:H-3.1A",
-   "official_wording": "understand and use common difference (d)and first term(a)in an arithmetic sequence",
+   "official_id": "IGCSE_MATHS_A:3.1A",
+   "official_wording": "generate terms of a sequence using term-to-term and position-to-term definitions of the sequence",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "3.1A",
+     "official_id": "IGCSE_MATHS_A:H-3.1A",
+     "official_wording": "understand and use common difference (d)and first term(a)in an arithmetic sequence"
+    },
+    "verdict_ref": "spcpt_NNhjQfXtS7sNJyHD",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.1A Foundation wording 'generate terms of a sequence using term-to-term and position-to-term definitions of the sequence' is verbatim the note's teaching; the C40 reject compared against the Higher wording (common difference/first term)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_NWVcjYFQW38MHRpW",
@@ -911,12 +1116,27 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": "6.2C",
-   "official_id": "IGCSE_MATHS_A:H-6.2C",
-   "official_wording": "find the interquartile range from a discrete data set",
+   "official_id": "IGCSE_MATHS_A:6.2C",
+   "official_wording": "calculate an estimate for the mean for grouped data",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "6.2C",
+     "official_id": "IGCSE_MATHS_A:H-6.2C",
+     "official_wording": "find the interquartile range from a discrete data set"
+    },
+    "verdict_ref": "spcpt_Nd47QSGCxH96FDk3",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.2C Foundation wording is verbatim 'calculate an estimate for the mean for grouped data' (the modal-class section pairs with 6.2D Foundation 'identify the modal class for grouped data') — the join was correct all along; the C40 reject compared against the Higher wording (IQR from a discrete set)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_Nh8WWWGQxmJGVvvf",
@@ -925,11 +1145,26 @@
    "referenced_by_parts": 16,
    "resolved_code": "3.3F",
    "official_id": "IGCSE_MATHS_A:3.3F",
-   "official_wording": "calculate the gradient of a straight line given the coordinates of two points",
+   "official_wording": "draw and interpret straight line conversion graphs",
    "tier": "S1_name_match",
    "score": 0.803,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "3.3F",
+     "official_id": "IGCSE_MATHS_A:3.3F",
+     "official_wording": "calculate the gradient of a straight line given the coordinates of two points"
+    },
+    "verdict_ref": "spcpt_Nh8WWWGQxmJGVvvf",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3F Foundation wording is verbatim 'draw and interpret straight line conversion graphs' — the join was correct all along; the C40 reject compared against the Higher wording (gradient from two points)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_NyC8VYj2kktfwnZP",
@@ -987,7 +1222,16 @@
    "sme_definition": "",
    "referenced_by_parts": 0,
    "resolved_code": null,
-   "reason": "no-guess pending: the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C); GCSE-bridge content - the 'flagged for parse repair' clause was wrong"
+   "reason": "no-guess pending: the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C); GCSE-bridge content - the 'flagged for parse repair' clause was wrong",
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "KEEP_UNRESOLVED",
+    "verdict_ref": "spcpt_QWXhzVp2S3VYZdZc",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the row's own recorded reason stands — 'the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C)'; the C32 scorer's proposals (6.2C IQR, 6.3G, 6.1B) teach unrelated content and are REJECTED; the two substrate worklist chunk rows stay recorded-not-forced"
+   }
   },
   {
    "id": "spcpt_QkZ2S7CKb8GrYdYx",
@@ -1057,13 +1301,27 @@
    "sme_name": "Probability & Venn Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 41,
-   "resolved_code": "1.5E",
-   "official_id": "IGCSE_MATHS_A:1.5E",
-   "official_wording": "use Venn diagrams to represent sets",
+   "resolved_code": "6.3D",
+   "official_id": "IGCSE_MATHS_A:6.3D",
+   "official_wording": "find probabilities from a Venn diagram",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.5E",
+     "official_id": "IGCSE_MATHS_A:1.5E",
+     "official_wording": "use Venn diagrams to represent sets"
+    },
+    "verdict_ref": "spcpt_Rv3DcsGBkxSkb8Ms",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.3D Foundation wording is verbatim 'find probabilities from a Venn diagram' — the note's exact teaching; 1.5E is the represent-sets row"
+   }
   },
   {
    "id": "spcpt_S2dfVTzRhCh7pRzW",
@@ -1071,12 +1329,27 @@
    "sme_definition": "",
    "referenced_by_parts": 31,
    "resolved_code": "2.2E",
-   "official_id": "IGCSE_MATHS_A:H-2.2E",
-   "official_wording": "use algebra to support and construct proofs",
+   "official_id": "IGCSE_MATHS_A:2.2E",
+   "official_wording": "expand the product of two simple linear expressions",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "2.2E",
+     "official_id": "IGCSE_MATHS_A:H-2.2E",
+     "official_wording": "use algebra to support and construct proofs"
+    },
+    "verdict_ref": "spcpt_S2dfVTzRhCh7pRzW",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.2E Foundation wording is verbatim 'expand the product of two simple linear expressions' — the join was correct all along; the C40 reject compared against the Higher wording (proof)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_SQqKCGwRcv6gj5h3",
@@ -1185,13 +1458,27 @@
    "sme_name": "Inverse Functions",
    "sme_definition": "",
    "referenced_by_parts": 37,
-   "resolved_code": "3.3I",
-   "official_id": "IGCSE_MATHS_A:3.3I",
-   "official_wording": "recognise, generate points and plot graphs of linear and quadratic functions",
+   "resolved_code": "3.2D",
+   "official_id": "IGCSE_MATHS_A:H-3.2D",
+   "official_wording": "understand and find the composite -1 functionfgand the inverse functionf",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.3I",
+     "official_id": "IGCSE_MATHS_A:3.3I",
+     "official_wording": "recognise, generate points and plot graphs of linear and quadratic functions"
+    },
+    "verdict_ref": "spcpt_TZkZ5ZK4bRYdjnGY",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.2D 'understand and find the composite function fg and the inverse function f-1' — the note teaches inverse functions incl. notation, algebraic finding, composite relation and domain/range; 3.3I is plotting, unrelated"
+   }
   },
   {
    "id": "spcpt_VgH3YPmpp6Yqy9KC",
@@ -1276,13 +1563,27 @@
    "sme_name": "Exchange Rates",
    "sme_definition": "",
    "referenced_by_parts": 24,
-   "resolved_code": "3.4C",
-   "official_id": "IGCSE_MATHS_A:H-3.4C",
-   "official_wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs",
+   "resolved_code": "1.10C",
+   "official_id": "IGCSE_MATHS_A:1.10C",
+   "official_wording": "understand and carry out calculations using time, and carry out calculations using money, including converting between currencies",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.4C",
+     "official_id": "IGCSE_MATHS_A:H-3.4C",
+     "official_wording": "determine gradients, rates of change, stationary points, turning points (maxima and minima) by differentiation and relate these to graphs"
+    },
+    "verdict_ref": "spcpt_XC6PSG6CcXnNDb3Q",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.10C 'understand and carry out calculations using time, and carry out calculations using money, including converting between currencies' — the converting-between-currencies clause is verbatim the note's teaching ('How do I convert between currencies?')"
+   }
   },
   {
    "id": "spcpt_XT9QGzbhpThbfcB6",
@@ -1316,12 +1617,27 @@
    "sme_definition": "",
    "referenced_by_parts": 56,
    "resolved_code": "4.8A",
-   "official_id": "IGCSE_MATHS_A:H-4.8A",
-   "official_wording": "understand and use sine, cosine and tangent of obtuse angles",
+   "official_id": "IGCSE_MATHS_A:4.8A",
+   "official_wording": "know, understand and use Pythagoras’ theorem in two dimensions",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "4.8A",
+     "official_id": "IGCSE_MATHS_A:H-4.8A",
+     "official_wording": "understand and use sine, cosine and tangent of obtuse angles"
+    },
+    "verdict_ref": "spcpt_XWwgtKhQDRhyY5m4",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.8A Foundation wording is verbatim 'know, understand and use Pythagoras'' theorem in two dimensions' — the join was correct all along; the C40 reject compared against the Higher wording (trig of obtuse angles)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_XhXhg6sRyMQ88chp",
@@ -1330,11 +1646,26 @@
    "referenced_by_parts": 50,
    "resolved_code": "3.3G",
    "official_id": "IGCSE_MATHS_A:3.3G",
-   "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
+   "official_wording": "find the gradient of a straight line",
    "tier": "S1_name_match",
    "score": 0.8667,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "3.3G",
+     "official_id": "IGCSE_MATHS_A:3.3G",
+     "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line"
+    },
+    "verdict_ref": "spcpt_XhXhg6sRyMQ88chp",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3G Foundation wording is verbatim 'find the gradient of a straight line' — the join was correct all along; the C40 reject compared against the Higher wording (parallel/perpendicular equations)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_Xqkq2qz7NzMcVZHQ",
@@ -1342,12 +1673,27 @@
    "sme_definition": "",
    "referenced_by_parts": 1,
    "resolved_code": "4.10A",
-   "official_id": "IGCSE_MATHS_A:H-4.10A",
-   "official_wording": "find the surface area and volume of a sphere and a right circular cone using relevant formulae",
+   "official_id": "IGCSE_MATHS_A:4.10A",
+   "official_wording": "recognise and give the names of solids",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "4.10A",
+     "official_id": "IGCSE_MATHS_A:H-4.10A",
+     "official_wording": "find the surface area and volume of a sphere and a right circular cone using relevant formulae"
+    },
+    "verdict_ref": "spcpt_Xqkq2qz7NzMcVZHQ",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.10A Foundation wording 'recognise and give the names of solids' is the note's teaching (common 3D shapes and their properties); the C40 reject compared against the Higher wording (sphere/cone surface area and volume)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_YQX35KWR6v8thX5T",
@@ -1393,11 +1739,26 @@
    "referenced_by_parts": 4,
    "resolved_code": "6.1C",
    "official_id": "IGCSE_MATHS_A:6.1C",
-   "official_wording": "use cumulative frequency diagrams",
+   "official_wording": "interpret statistical diagrams",
    "tier": "S1_name_match",
    "score": 0.638,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "6.1C",
+     "official_id": "IGCSE_MATHS_A:6.1C",
+     "official_wording": "use cumulative frequency diagrams"
+    },
+    "verdict_ref": "spcpt_bGtx4SMcX6BRS6KP",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.1C Foundation wording is verbatim 'interpret statistical diagrams' — the join was correct all along; the C40 reject compared against the Higher wording",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_bMYrxtVc2SZgt8mX",
@@ -1469,13 +1830,27 @@
    "sme_name": "Powers & Roots",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "1.4A",
-   "official_id": "IGCSE_MATHS_A:H-1.4A",
-   "official_wording": "understand the meaning of surds",
+   "resolved_code": "1.4B",
+   "official_id": "IGCSE_MATHS_A:1.4B",
+   "official_wording": "calculate squares, square roots, cubes and cube roots",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.4A",
+     "official_id": "IGCSE_MATHS_A:H-1.4A",
+     "official_wording": "understand the meaning of surds"
+    },
+    "verdict_ref": "spcpt_cDnTk2242hfSCjVh",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.4B Foundation wording 'calculate squares, square roots, cubes and cube roots' is verbatim the note's teaching (powers/indices, square roots, cube roots, estimating a root); the store's operative 1.4B wording is the Higher surds text, so the ledger pair is carried as evidence"
+   }
   },
   {
    "id": "spcpt_crKbmb6wVjM4yPJh",
@@ -1606,13 +1981,27 @@
    "sme_name": "Circles & Segments",
    "sme_definition": "",
    "referenced_by_parts": 16,
-   "resolved_code": "4.6A",
-   "official_id": "IGCSE_MATHS_A:H-4.6A",
-   "official_wording": "understand and use the internal and external intersecting chord properties",
+   "resolved_code": "4.6C",
+   "official_id": "IGCSE_MATHS_A:H-4.6C",
+   "official_wording": "understand and use angle properties of the circle including: (i) angle subtended by an arc at the centre of a circle is twice the angle subtended at any point on the remaining part of the circumference (ii) angle subtended at the circumference by a diameter is a right angle (iii) angles in the same segment are equal (iv) the sum of the opposite angles of a cyclic quadrilateral is180° (v) the alternate segment theorem",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.6A",
+     "official_id": "IGCSE_MATHS_A:H-4.6A",
+     "official_wording": "understand and use the internal and external intersecting chord properties"
+    },
+    "verdict_ref": "spcpt_fMWRd3TnmcQ3c92k",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.6C clause (iii) 'angles in the same segment are equal' is verbatim the note's theorem; 4.6A is the intersecting-chord properties, a different surface"
+   }
   },
   {
    "id": "spcpt_fRhvV5mCwKfJWrXH",
@@ -1682,13 +2071,27 @@
    "sme_name": "Algebraic Notation",
    "sme_definition": "",
    "referenced_by_parts": 7,
-   "resolved_code": "1.3A",
-   "official_id": "IGCSE_MATHS_A:H-1.3A",
-   "official_wording": "convert recurring decimals into fractions",
+   "resolved_code": "2.1A",
+   "official_id": "IGCSE_MATHS_A:2.1A",
+   "official_wording": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.3A",
+     "official_id": "IGCSE_MATHS_A:H-1.3A",
+     "official_wording": "convert recurring decimals into fractions"
+    },
+    "verdict_ref": "spcpt_gzQvnKpxPvTqzzBp",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.1A Foundation wording 'understand that symbols may be used to represent numbers in equations or variables in expressions and formulae' is verbatim the note's teaching ('What is algebra? How do I write calculations in algebra?')"
+   }
   },
   {
    "id": "spcpt_gzykj64JBx2RtBJ7",
@@ -1773,26 +2176,54 @@
    "sme_name": "Length of a Line",
    "sme_definition": "",
    "referenced_by_parts": 6,
-   "resolved_code": "3.3G",
-   "official_id": "IGCSE_MATHS_A:H-3.3G",
-   "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
+   "resolved_code": "4.8A",
+   "official_id": "IGCSE_MATHS_A:4.8A",
+   "official_wording": "know, understand and use Pythagoras’ theorem in two dimensions",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "3.3G",
+     "official_id": "IGCSE_MATHS_A:H-3.3G",
+     "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line"
+    },
+    "verdict_ref": "spcpt_hMqjBRzQQfvsc9f8",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the note teaches the distance/length formula between two points, which is Pythagoras' theorem in two dimensions — 4.8A Foundation wording 'know, understand and use Pythagoras'' theorem in two dimensions'; no coordinate-geometry length row exists in the canonical 188; moderate fit, flagged for R4"
+   }
   },
   {
    "id": "spcpt_hTsm2dz7xmwM4jwW",
    "sme_name": "Tree Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 74,
-   "resolved_code": "6.1C",
-   "official_id": "IGCSE_MATHS_A:H-6.1C",
-   "official_wording": "use cumulative frequency diagrams",
+   "resolved_code": "6.3A",
+   "official_id": "IGCSE_MATHS_A:H-6.3A",
+   "official_wording": "draw and use tree diagrams",
    "tier": "P1_name_fragment_join",
    "score": null,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "6.1C",
+     "official_id": "IGCSE_MATHS_A:H-6.1C",
+     "official_wording": "use cumulative frequency diagrams"
+    },
+    "verdict_ref": "spcpt_hTsm2dz7xmwM4jwW",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.3A 'draw and use tree diagrams' is verbatim the note's teaching (draw, read probabilities, conditional use); 6.1C is cumulative frequency, unrelated"
+   }
   },
   {
    "id": "spcpt_hrv7F8zpDwRXmcNg",
@@ -1837,12 +2268,27 @@
    "sme_definition": "",
    "referenced_by_parts": 2,
    "resolved_code": "2.1A",
-   "official_id": "IGCSE_MATHS_A:H-2.1A",
-   "official_wording": "use index notation involving fractional, negative and zero powers",
+   "official_id": "IGCSE_MATHS_A:2.1A",
+   "official_wording": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "2.1A",
+     "official_id": "IGCSE_MATHS_A:H-2.1A",
+     "official_wording": "use index notation involving fractional, negative and zero powers"
+    },
+    "verdict_ref": "spcpt_jTrpYhtMdhpPhwxb",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "the note defines term/factor/expression/equation/formula; 2.1A Foundation wording ('symbols ... in equations or variables in expressions and formulae') is the definitional primer for exactly those objects — moderate fit, flagged for R4 re-review; the C40 reject was a wording-tier artifact (vs the Higher index-notation text)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_kHwc5r3247TGRwyS",
@@ -1851,11 +2297,26 @@
    "referenced_by_parts": 1,
    "resolved_code": "6.1A",
    "official_id": "IGCSE_MATHS_A:6.1A",
-   "official_wording": "construct and interpret histograms",
+   "official_wording": "use different methods of presenting data Pictograms, bar charts",
    "tier": "S1_name_match",
    "score": 0.7253,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "6.1A",
+     "official_id": "IGCSE_MATHS_A:6.1A",
+     "official_wording": "construct and interpret histograms"
+    },
+    "verdict_ref": "spcpt_kHwc5r3247TGRwyS",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.1A Foundation wording 'use different methods of presenting data Pictograms, bar charts' names the note's diagrams verbatim — the join was correct all along; the C40 reject compared against the Higher wording (histograms)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_kX4655D8M3Q3TRzW",
@@ -1886,13 +2347,27 @@
    "sme_name": "Subject Appears Twice",
    "sme_definition": "",
    "referenced_by_parts": 16,
-   "resolved_code": "2.3F",
-   "official_id": "IGCSE_MATHS_A:2.3F",
-   "official_wording": "change the subject of a formula where the subject appears once",
+   "resolved_code": "2.3A",
+   "official_id": "IGCSE_MATHS_A:H-2.3A",
+   "official_wording": "understand the process of manipulating formulae or equations to change the subject, to include cases where the subject may appear twice or a power of the subject occurs",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "2.3F",
+     "official_id": "IGCSE_MATHS_A:2.3F",
+     "official_wording": "change the subject of a formula where the subject appears once"
+    },
+    "verdict_ref": "spcpt_m8WdtZKSWCKNFKrY",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.3A Higher wording '...to include cases where the subject may appear twice or a power of the subject occurs' is verbatim the note's teaching; 2.3F is the subject-appears-once Foundation row"
+   }
   },
   {
    "id": "spcpt_mVXT4jbXQPrzhHvz",
@@ -1914,11 +2389,26 @@
    "referenced_by_parts": 23,
    "resolved_code": "6.2B",
    "official_id": "IGCSE_MATHS_A:6.2B",
-   "official_wording": "understand the concept of a measure of spread",
+   "official_wording": "calculate the mean, median, mode and range for a discrete data set",
    "tier": "S1_name_match",
    "score": 0.76,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "6.2B",
+     "official_id": "IGCSE_MATHS_A:6.2B",
+     "official_wording": "understand the concept of a measure of spread"
+    },
+    "verdict_ref": "spcpt_myNYhxstM7xnZd9P",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.2B Foundation wording is verbatim 'calculate the mean, median, mode and range for a discrete data set' — the join was correct all along; the C40 reject compared against the Higher wording (measure of spread)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_n9ZtYfjh8sFCp5Kz",
@@ -1951,11 +2441,26 @@
    "referenced_by_parts": 0,
    "resolved_code": "6.1C",
    "official_id": "IGCSE_MATHS_A:6.1C",
-   "official_wording": "use cumulative frequency diagrams",
+   "official_wording": "interpret statistical diagrams",
    "tier": "S1_name_match",
    "score": 0.7067,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "6.1C",
+     "official_id": "IGCSE_MATHS_A:6.1C",
+     "official_wording": "use cumulative frequency diagrams"
+    },
+    "verdict_ref": "spcpt_nXY9n4Vt3cVTmKcR",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.1C Foundation wording 'interpret statistical diagrams' covers comparing diagrams; moderate fit, flagged for R4; the C40 reject compared against the Higher wording (cumulative frequency use)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_p8zkdCF8QVvDZyVX",
@@ -2001,13 +2506,27 @@
    "sme_name": "Volume",
    "sme_definition": "",
    "referenced_by_parts": 65,
-   "resolved_code": "4.10F",
-   "official_id": "IGCSE_MATHS_A:4.10F",
-   "official_wording": "convert between units of volume within the metric system",
+   "resolved_code": "4.10E",
+   "official_id": "IGCSE_MATHS_A:4.10E",
+   "official_wording": "find the volume of prisms, including cuboids and cylinders, using an appropriate formula",
    "tier": "S2_name_ambiguous",
    "score": 0.6774,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.10F",
+     "official_id": "IGCSE_MATHS_A:4.10F",
+     "official_wording": "convert between units of volume within the metric system"
+    },
+    "verdict_ref": "spcpt_pKCFj25GzzqW6sr3",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.10E 'find the volume of prisms, including cuboids and cylinders, using an appropriate formula' — the note's dominant sections (cube/cuboid, prism, cylinder); the cone/sphere tail sections correspond to 4.10A and are recorded in the reasoning for R4 visibility; 4.10F (metric volume conversion) is unrelated"
+   }
   },
   {
    "id": "spcpt_pKJ7Y3jd7PDzZQpP",
@@ -2028,12 +2547,27 @@
    "sme_definition": "",
    "referenced_by_parts": 22,
    "resolved_code": "4.6B",
-   "official_id": "IGCSE_MATHS_A:H-4.6B",
-   "official_wording": "recognise the term ‘cyclic quadrilateral’",
+   "official_id": "IGCSE_MATHS_A:4.6B",
+   "official_wording": "understand chord and tangent properties of circles",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "4.6B",
+     "official_id": "IGCSE_MATHS_A:H-4.6B",
+     "official_wording": "recognise the term ‘cyclic quadrilateral’"
+    },
+    "verdict_ref": "spcpt_pNBVGz3x9h4NS45m",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.6B Foundation wording is verbatim 'understand chord and tangent properties of circles' — the note teaches exactly the chord-bisector, radius-tangent and equal-tangents theorems; the C40 reject compared against the Higher wording (cyclic quadrilateral recognition)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_pSX9GyS8bW7N5CH7",
@@ -2077,13 +2611,27 @@
    "sme_name": "Parallel Lines",
    "sme_definition": "",
    "referenced_by_parts": 8,
-   "resolved_code": "4.1B",
-   "official_id": "IGCSE_MATHS_A:4.1B",
-   "official_wording": "use angle properties of intersecting lines, parallel lines and angles on a straight line",
+   "resolved_code": "3.3G",
+   "official_id": "IGCSE_MATHS_A:H-3.3G",
+   "official_wording": "find the equation of a straight line parallel to a given line; find the equation of a straight line perpendicular to a given line",
    "tier": "S1_name_match",
    "score": 0.7109,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.1B",
+     "official_id": "IGCSE_MATHS_A:4.1B",
+     "official_wording": "use angle properties of intersecting lines, parallel lines and angles on a straight line"
+    },
+    "verdict_ref": "spcpt_qPRh2fycSMYwytcV",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "3.3G Higher wording 'find the equation of a straight line parallel to a given line' is verbatim the note's teaching ('How do I find the equation of a parallel line?'); the note lives in the geometry tree but teaches the 3.3G algebra surface; 4.1B angle properties is unrelated"
+   }
   },
   {
    "id": "spcpt_qRytkYVHXTQBJdSq",
@@ -2142,13 +2690,27 @@
    "sme_name": "Ratios",
    "sme_definition": "",
    "referenced_by_parts": 78,
-   "resolved_code": "1.7B",
-   "official_id": "IGCSE_MATHS_A:1.7B",
-   "official_wording": "divide a quantity in a given ratio or ratios",
+   "resolved_code": "1.7A",
+   "official_id": "IGCSE_MATHS_A:1.7A",
+   "official_wording": "use ratio notation, including reduction to its simplest form and its various links to fraction notation",
    "tier": "S1_name_match",
    "score": 0.696,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.7B",
+     "official_id": "IGCSE_MATHS_A:1.7B",
+     "official_wording": "divide a quantity in a given ratio or ratios"
+    },
+    "verdict_ref": "spcpt_qpSmD6yNY5t5GrW6",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.7A 'use ratio notation, including reduction to its simplest form and its various links to fraction notation' — the note teaches what ratios are, equivalent ratios and simplification; dividing a quantity (1.7B) is a different note"
+   }
   },
   {
    "id": "spcpt_rDHZfZ8PrdwXcT2y",
@@ -2181,13 +2743,27 @@
    "sme_name": "Cyclic Quadrilaterals",
    "sme_definition": "",
    "referenced_by_parts": 15,
-   "resolved_code": "4.2B",
-   "official_id": "IGCSE_MATHS_A:4.2B",
-   "official_wording": "understand and use the term ‘quadrilateral’ and the angle sum property of quadrilaterals",
+   "resolved_code": "4.6C",
+   "official_id": "IGCSE_MATHS_A:H-4.6C",
+   "official_wording": "understand and use angle properties of the circle including: (i) angle subtended by an arc at the centre of a circle is twice the angle subtended at any point on the remaining part of the circumference (ii) angle subtended at the circumference by a diameter is a right angle (iii) angles in the same segment are equal (iv) the sum of the opposite angles of a cyclic quadrilateral is180° (v) the alternate segment theorem",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.2B",
+     "official_id": "IGCSE_MATHS_A:4.2B",
+     "official_wording": "understand and use the term ‘quadrilateral’ and the angle sum property of quadrilaterals"
+    },
+    "verdict_ref": "spcpt_rq6jFXGjg6FVSnKc",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.6C clause (iv) 'the sum of the opposite angles of a cyclic quadrilateral is 180 degrees' is verbatim the note's theorem; 4.2B is the general quadrilateral angle sum, a different surface"
+   }
   },
   {
    "id": "spcpt_rsCdKqXKjhfmkyqT",
@@ -2196,11 +2772,26 @@
    "referenced_by_parts": 12,
    "resolved_code": "2.2B",
    "official_id": "IGCSE_MATHS_A:2.2B",
-   "official_wording": "understand the concept of a quadratic expression and be able to factorise such expressions",
+   "official_wording": "collect like terms",
    "tier": "S1_name_match",
    "score": 0.7692,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "2.2B",
+     "official_id": "IGCSE_MATHS_A:2.2B",
+     "official_wording": "understand the concept of a quadratic expression and be able to factorise such expressions"
+    },
+    "verdict_ref": "spcpt_rsCdKqXKjhfmkyqT",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.2B Foundation wording is verbatim 'collect like terms' — the join was correct all along; the C40 reject compared against the Higher wording (quadratic factorisation)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_rt6wRVmbK5ZVkF3d",
@@ -2219,12 +2810,27 @@
    "sme_definition": "",
    "referenced_by_parts": 3,
    "resolved_code": "6.1A",
-   "official_id": "IGCSE_MATHS_A:H-6.1A",
-   "official_wording": "construct and interpret histograms",
+   "official_id": "IGCSE_MATHS_A:6.1A",
+   "official_wording": "use different methods of presenting data Pictograms, bar charts",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "6.1A",
+     "official_id": "IGCSE_MATHS_A:H-6.1A",
+     "official_wording": "construct and interpret histograms"
+    },
+    "verdict_ref": "spcpt_rxmWrBrc2s2q45wF",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "6.1A Foundation wording 'use different methods of presenting data...' — the pie chart is one of those methods (the ledger's enumeration text is partial but the presenting-data statement is the canonical surface); moderate fit, flagged for R4; the C40 reject compared against the Higher wording (histograms)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_s2x4ZG4rWQhHJrTh",
@@ -2468,11 +3074,26 @@
    "referenced_by_parts": 1,
    "resolved_code": "4.11B",
    "official_id": "IGCSE_MATHS_A:4.11B",
-   "official_wording": "understand that volumes of similar figures are in the ratio of the cube of corresponding sides",
+   "official_wording": "use and interpret maps and scale drawings",
    "tier": "S1_name_match",
    "score": 0.6711,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "4.11B",
+     "official_id": "IGCSE_MATHS_A:4.11B",
+     "official_wording": "understand that volumes of similar figures are in the ratio of the cube of corresponding sides"
+    },
+    "verdict_ref": "spcpt_wnkGx4MqYbQSFdnb",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.11B Foundation wording is verbatim 'use and interpret maps and scale drawings' — the join was correct all along; the C40 reject compared against the Higher wording (volumes of similar figures)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_wt53CcTmwpZ3sjm3",
@@ -2490,13 +3111,27 @@
    "sme_name": "Vector Diagrams",
    "sme_definition": "",
    "referenced_by_parts": 0,
-   "resolved_code": "6.1C",
-   "official_id": "IGCSE_MATHS_A:H-6.1C",
-   "official_wording": "use cumulative frequency diagrams",
+   "resolved_code": "5.1A",
+   "official_id": "IGCSE_MATHS_A:H-5.1A",
+   "official_wording": "understand that a vector has both magnitude and direction",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "6.1C",
+     "official_id": "IGCSE_MATHS_A:H-6.1C",
+     "official_wording": "use cumulative frequency diagrams"
+    },
+    "verdict_ref": "spcpt_wt9snSTkmXqhMvXn",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "5.1A 'understand that a vector has both magnitude and direction' is the note's lead section (representing a vector visually); the scalar-multiple and add/subtract sections correspond to 5.1C/5.1D and are recorded for R4 visibility; 6.1C (cumulative frequency) is unrelated"
+   }
   },
   {
    "id": "spcpt_xDpKVBxDTCk2x6vS",
@@ -2505,24 +3140,53 @@
    "referenced_by_parts": 44,
    "resolved_code": "4.11A",
    "official_id": "IGCSE_MATHS_A:4.11A",
-   "official_wording": "understand that areas of similar figures are in the ratio of the square of corresponding sides",
+   "official_wording": "understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio but corresponding angles remain unchanged",
    "tier": "S1_name_match",
    "score": 0.6714,
    "method": "name_to_statement_join",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "AFFIRM",
+    "prior": {
+     "code": "4.11A",
+     "official_id": "IGCSE_MATHS_A:4.11A",
+     "official_wording": "understand that areas of similar figures are in the ratio of the square of corresponding sides"
+    },
+    "verdict_ref": "spcpt_xDpKVBxDTCk2x6vS",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "4.11A Foundation wording 'understand and use the geometrical properties that similar figures have corresponding lengths in the same ratio...' is verbatim the note's teaching (scale factors and missing lengths on similar shapes); the C40 reject compared against the Higher wording (areas ratio)",
+    "statement_repointed": true
+   }
   },
   {
    "id": "spcpt_xf7Y5cxcQG3T6g65",
    "sme_name": "Using a Calculator",
    "sme_definition": "",
    "referenced_by_parts": 39,
-   "resolved_code": "4.5C",
-   "official_id": "IGCSE_MATHS_A:4.5C",
-   "official_wording": "solve problems using scale drawings",
+   "resolved_code": "1.11A",
+   "official_id": "IGCSE_MATHS_A:1.11A",
+   "official_wording": "use a scientific electronic calculator to determine numerical results",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R1",
+    "date": "2026-10-02",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "4.5C",
+     "official_id": "IGCSE_MATHS_A:4.5C",
+     "official_wording": "solve problems using scale drawings"
+    },
+    "verdict_ref": "spcpt_xf7Y5cxcQG3T6g65",
+    "review_reference": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "1.11A 'use a scientific electronic calculator to determine numerical results' is verbatim the note's teaching (calculator settings, shortcut buttons, trig/std-form keys, Ans)"
+   }
   },
   {
    "id": "spcpt_xwx7PVk7fQ5QpdMk",
@@ -2783,5 +3447,30 @@
    "tier": "P2_operator_content_join",
    "method": "T-SPEC-9 operator verdict (no upstream; PMT excluded as source)"
   }
- ]
+ ],
+ "repair": {
+  "task": "T-C42",
+  "round": "R1",
+  "date": "2026-10-02",
+  "directive": "fire R1 (2026-10-02, zai-web)",
+  "reviewer": "Super Z (GLM agent), operator-delegate under the fired R1 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the C40 substrate stays SUGGESTED; the C41-promoted 73 edges are untouched)",
+  "verdicts_record": "scripts/c42_repair_verdicts.yaml",
+  "section_overrides_record": "scripts/c42_section_overrides.yaml",
+  "record": "graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.md",
+  "counts_delta": {
+   "corrected": 22,
+   "affirmed_statement_repointed": 21,
+   "cleared_unresolved": 2,
+   "residual_kept": 1,
+   "section_overrides": {
+    "reattribute": 12,
+    "retain": 4
+   }
+  },
+  "notes": [
+   "R4's re-fill MUST consult both tier wordings (store operative + ledger foundation.text per code) or it will re-reject the affirmed joins",
+   "the C32 notes-join and the C40 substrate are now STALE relative to this file by design — they refresh at R2/R3; spec-links refresh is a separate follow-up",
+   "16 legacy rows carry bare ids for Higher-store codes (pre-existing convention drift, outside this round's surface, recorded not repaired)"
+  ]
+ }
 }
