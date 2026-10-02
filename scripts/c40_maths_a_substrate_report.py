@@ -185,7 +185,7 @@ survive T-C06 ingestion — the converter/ChunkingService must reproduce
 - Chunk: {('ordinal ' + str(r['chunk']['ordinal']) + ' — heading `' + r['chunk']['heading'] + '`') if 'chunk' in r else '(corpus gap — no chunk exists)'}
 - Reason: {r['worklist_reason']}
 - Disposition: {r['disposition']}
-- Verdict: [ ] AUTHOR an anchor   [ ] REPAIR corpus/markdown   [x] DEFER (record why)
+- Verdict: [ ] AUTHOR an anchor   [ ] REPAIR corpus/markdown   [ ] DEFER (record why)
 
 """)
 
