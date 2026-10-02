@@ -1,0 +1,145 @@
+{
+  "schema": "syllabai.c42-k2b-rework-scope-check/1.0",
+  "task": "T-C42",
+  "generated_utc": "2026-10-02T08:20:33Z",
+  "head": "720b86bd229b63976d7f343867779d7f2e4dcdfe",
+  "gates": [
+    {
+      "gate": "G1",
+      "name": "baseline_state",
+      "result": "PASS",
+      "detail": {
+        "head": "720b86bd229b",
+        "maths_a_registry_stores": 9,
+        "pin_failures": []
+      }
+    },
+    {
+      "gate": "G2",
+      "name": "defect_inventory",
+      "result": "PASS",
+      "detail": {
+        "verdict_rows": 468,
+        "confirm": 351,
+        "reject": 117,
+        "note_level_reject_rows": 101,
+        "section_level_reject_rows": 16,
+        "distinct_note_level_joins": 45,
+        "distinct_note_level_notes": 45,
+        "distinct_wrong_codes": 36,
+        "section_level_notes": 10,
+        "fill_record_agrees": {
+          "rows": true,
+          "confirm": true,
+          "reject": true,
+          "note_level": true,
+          "section_level_rows": true,
+          "gate_outcome": true
+        }
+      }
+    },
+    {
+      "gate": "G3",
+      "name": "resolution_substrate",
+      "result": "PASS",
+      "detail": {
+        "counts_declared": {
+          "ids": 222,
+          "resolved": 218,
+          "unresolved": 4
+        },
+        "observed_rows": 222,
+        "null_code_rows": 4,
+        "validation_string_has": {
+          "AI_VALIDATED": true,
+          "operator-delegated": true,
+          "T-SPEC-10": true,
+          "PMT excluded": true
+        },
+        "defective_anchors_resolved": 45,
+        "foreign_codes_today": []
+      }
+    },
+    {
+      "gate": "G4",
+      "name": "blast_radius",
+      "result": "PASS",
+      "detail": {
+        "ids_with_parts": 40,
+        "sum_parts": 996,
+        "spec_links_consumer": true
+      }
+    },
+    {
+      "gate": "G5",
+      "name": "store_surface",
+      "result": "PASS",
+      "detail": {
+        "rows_total": 939,
+        "anchored": 860,
+        "worklist": 79,
+        "worklist_anchor_unresolved": 2,
+        "worklist_unmapped_sps": 77,
+        "rows_on_45_defective_notes": 189,
+        "rows_on_10_section_notes": 59,
+        "validation_statuses": {
+          "SUGGESTED": 939
+        },
+        "codes_covered": 111
+      }
+    },
+    {
+      "gate": "G6",
+      "name": "protected_surfaces",
+      "result": "PASS",
+      "detail": {
+        "concept_nodes": 82,
+        "edge_rows": 157,
+        "relations": {
+          "PART_OF": 84,
+          "REQUIRES_PREREQUISITE": 51,
+          "WRONG_ANSWER_PATTERN": 11,
+          "REMEDIATED_BY": 11
+        },
+        "human_validated_semantic": 73,
+        "command_kinds": 72,
+        "promotions": 73,
+        "chemistry_stores": 10
+      }
+    },
+    {
+      "gate": "G7",
+      "name": "scope_self_consistency",
+      "result": "PASS",
+      "detail": {
+        "stages": [
+          "R0_eq_blast_radius_census",
+          "R1_tspec_resolution_repair_round",
+          "R2_join_re_run",
+          "R3_substrate_rebuild",
+          "R4_re_gate",
+          "R5_s18_substrate_apply"
+        ],
+        "operator_gates": [
+          "R1",
+          "R4",
+          "R5"
+        ],
+        "inventory_matches_live": {
+          "part_a_rows": true,
+          "note_level_joins": true,
+          "wrong_codes": true,
+          "store_rows_riding": true,
+          "section_store_rows": true,
+          "blast_radius_sum": true
+        },
+        "state_snapshot": {
+          "head": "720b86bd229b",
+          "report": "graph/reports/C42_K2B_REWORK_SCOPE_CHECK.json"
+        }
+      }
+    }
+  ],
+  "all_pass": true,
+  "gates_run": 7
+}

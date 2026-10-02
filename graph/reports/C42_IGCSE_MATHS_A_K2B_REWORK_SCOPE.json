@@ -1,0 +1,111 @@
+{
+  "schema": "syllabai.c42-k2b-rework-scope/1.0",
+  "task": "T-C42",
+  "title": "K2-B rework scope record — igcse-maths-a (4MA1 Higher)",
+  "generated_utc": "2026-10-02T00:00:00+00:00",
+  "operator_directive": "scope that (2026-10-02, zai-web, inline) — scoping the rework path the C40 fill record named",
+  "baseline": {
+    "repo": "syllabai-resources",
+    "head": "720b86b",
+    "origin_main": "720b86b",
+    "tree_clean": true,
+    "predecessors": {
+      "C39_apply_record_md_sha256_16": "8ca58016bcf03bed",
+      "C40_lane_b_record_md_sha256_16": "9c36b38342930e93",
+      "C40_substrate_report_md_sha256_16": "ab7e15cb0ffa7f50",
+      "C40_review_sheet_md_sha256_16": "c625b4b06025dc7f",
+      "C40_fill_record_md_sha256_16": "c7545e154c4a10ed",
+      "C40_review_verdicts_yaml_sha256_16": "2d1aef1e95109da9",
+      "C40_land_check_json_sha256_16": "1a8190738980e1d0",
+      "C41_promotion_record_md_sha256_16": "402750d1c4908b10",
+      "C41_promotions_yaml_sha256_16": "9b40e07010cb10eb",
+      "C41_s18_check_json_sha256_16": "83e12eb6b40fa730",
+      "C31_scope_md_sha256_16": "8817fe36a38d93cd"
+    }
+  },
+  "defect_inventory": {
+    "source": "scripts/c40_maths_a_substrate_review_verdicts.yaml + graph/reports/C40_MATHS_A_K2B_REVIEW_FILL_RECORD.md",
+    "part_a_rows": 468,
+    "confirm": 351,
+    "reject": 117,
+    "hold": 0,
+    "reject_roots": { "note-level": 101, "section-level": 16 },
+    "note_level": {
+      "distinct_joins": 45,
+      "distinct_notes": 45,
+      "distinct_wrong_codes": 36,
+      "store_rows_riding": 189,
+      "tiers_of_defective_joins": {
+        "P1_name_fragment_join": 27,
+        "S1_name_match": 12,
+        "P2_page_context_join": 3,
+        "S2_name_ambiguous": 2,
+        "R1_parse_repair_statement_join": 1
+      }
+    },
+    "section_level": { "distinct_notes": 10, "rows": 16, "store_rows_on_those_notes": 59 },
+    "part_b": { "rows": 79, "defer": 79, "unresolved_span": 2, "uncovered_sps": 77 },
+    "gate": { "required": "part A precision >= 0.90 per class", "measured": { "exact": 0.5408, "partial": 0.7437, "none": 0.9167 }, "outcome": "FAIL", "store_state": "SUGGESTED (zero silent promotion held)" }
+  },
+  "scoping_discovery": {
+    "defect_home": "the EQ resolution file's id->code verdicts (T-SPEC-7-era operator-verdict rounds), not the notes corpus and not the C32/C40 tools",
+    "evidence": [
+      "each defective note anchors exactly one spcpt_ id whose sme_name matches the note title",
+      "the resolved_code teaches unrelated content (e.g. 'Exchange Rates'->3.4C gradients/rates of change; 'Negative Numbers'->1.4A surds; 'Vector Diagrams'->6.1C cumulative frequency)",
+      "the C31 wording crosscheck was registry-consistency for the already-chosen code — tautological w.r.t. code choice; the C40 fill is the first semantics gate"
+    ],
+    "blast_radius": {
+      "eq_part_references_on_45_ids": 996,
+      "ids_with_referenced_by_parts_gt0": 40,
+      "spec_links_surface": "build_learner_spec_links.py consumes the maths-a resolution file",
+      "notes_lane": "C32 join -> C40 substrate (the triggering surfaces)"
+    },
+    "resolution_file_census": { "ids": 222, "resolved_declared": 218, "unresolved_declared": 4, "null_code_rows": 4, "validation_string": "AI_VALIDATED (operator-delegated; T-SPEC-10; PMT excluded as source); HUMAN_VALIDATED via operator review", "sha256_16": "3a0b5dc48a65fb54" }
+  },
+  "rework_lane": {
+    "R0_eq_blast_radius_census": { "kind": "agent-read-only", "product": "part-level consumer table for the 45 ids + spec-links census; no repairs" },
+    "R1_tspec_resolution_repair_round": {
+      "kind": "OPERATOR VERDICT ROUND (gate 1)",
+      "surfaces": {
+        "id_level_repairs": { "rows": 45, "allowed_outcomes": ["corrected code in canonical 188", "UNRESOLVED (never forced)"] },
+        "residual_adjudication": { "rows": 1, "item": "spcpt_QWXhzVp2S3VYZdZc 'Discrete & Continuous Data', pending since C31 §3" },
+        "section_level_dispositions": { "rows": 16, "allowed_outcomes": ["REATTRIBUTE", "DEMOTE to worklist", "RETAIN"] }
+      },
+      "mechanics": [
+        "deterministic PROPOSAL-ONLY candidates (difflib ratio + token overlap + section-prior, the c32 residual scorer convention); PMT excluded as source; verdicts are the operator's",
+        "resolution file amended IN PLACE with dated per-row repaired_* provenance (original verdict fields preserved); validation string gains a dated repair clause",
+        "the T-SPEC series precedent (t_spec_7_index_repair.py / t_spec_8_apply.py, in-house, no upstream) + the C31 §4.4 dated-exception path",
+        "section-level verdicts land as an operator-owned override map keyed (note_path, chunk_ordinal); the c40 tool consumes it fail-closed at R3"
+      ],
+      "products": ["graph/reports/C42_MATHS_A_RESOLUTION_REPAIR_RECORD.{md,json}", "scripts/c42_resolution_repair_apply.py + check"]
+    },
+    "R2_join_re_run": { "kind": "agent-deterministic", "tool": "scripts/c32_notes_maths_a_join.py", "product": "notes-join refreshed 1:1 from the amended resolution; foreign-code hard-fail; wording crosscheck re-run" },
+    "R3_substrate_rebuild": { "kind": "agent-deterministic", "tool": "scripts/c40_maths_a_chunk_sp_substrate.py", "product": "spec_chunk_mappings.yaml regenerated; chunk identity invariant; 189 rows re-attribute; override map consumed fail-closed; coverage + worklist recomputed" },
+    "R4_re_gate": { "kind": "operator-delegate fill + OPERATOR EVIDENCE (gate 2)", "product": "fresh review sheet (re-stratified) + fill record; >= 90% per-class on the new surface; Part B re-decided" },
+    "R5_s18_substrate_apply": { "kind": "OPERATOR-GATED APPLY (gate 3)", "product": "SUGGESTED -> HUMAN_VALIDATED via the promotions-file convention (C41 mechanics: exact identities, structural-diff-zero, two-way audit)" }
+  },
+  "invariants": [
+    "chunk identity (c40-chunk-convention-1) survives R3 untouched — code attribution moves, chunk bytes never",
+    "Lane C surface byte-untouched: concepts 82 nodes / concept_edges 157 rows (84 PART_OF + 73 semantic, 73 HUMAN_VALIDATED via C41) / kinds 72",
+    "111/188 coverage and the 77-uncovered worklist recompute at R3 — never carried forward as assumptions",
+    "held quarantine preserved (45 Lane C held; substrate worklist lanes recorded-not-forced)",
+    "standing checkers re-green at R2/R3: graph_check.py, check_no_hardcode.py, sme_spcpt_verify.py (domain membership)"
+  ],
+  "scope_guards": "C31 §7 unchanged; C25–C41 records unedited; corrections land as dated records; chemistry + parsed canonical + corpora untouched by scoping itself; scoping writes only this record, its machine mirror and the battery report",
+  "operator_gates": [
+    { "gate": 1, "stage": "R1", "authorizes": "the repair verdict round (45 + 1 + 16 surfaces) and the in-place resolution amendment" },
+    { "gate": 2, "stage": "R4", "authorizes": "the rebuilt substrate's review outcome at >= 90% per-class" },
+    { "gate": 3, "stage": "R5", "authorizes": "the §18 substrate apply" }
+  ],
+  "out_of_scope": [
+    "EQ-side and spec-links-side repairs (R0 is census-only; their repair is a separate operator decision)",
+    "Lane D / the relationships store (deferred by the C31 playbook)",
+    "any Lane C store byte (the C41-promoted 73 semantic edges are a protected standing surface)",
+    "chemistry, the 49-course corpus surfaces, core/hub serving"
+  ],
+  "verification_battery": {
+    "script": "scripts/c42_k2b_rework_scope_check.py",
+    "report": "graph/reports/C42_K2B_REWORK_SCOPE_CHECK.json",
+    "gates": ["G1 baseline_state", "G2 defect_inventory", "G3 resolution_substrate", "G4 blast_radius", "G5 store_surface", "G6 protected_surfaces", "G7 scope_self_consistency"]
+  }
+}
