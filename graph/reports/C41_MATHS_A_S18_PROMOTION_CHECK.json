@@ -1,0 +1,45 @@
+{
+  "schema": "c41-s18-promotion-check/1.0",
+  "task": "T-C41",
+  "gate": "§18 promotion round two-way audit (the c11.13 analog)",
+  "generated_utc": "2026-10-02T08:20:02+00:00",
+  "baseline": "2e7b23e3e85cc7b77d8e42390ee50400e04dd443",
+  "result": "ALL PASS",
+  "gates": {
+    "G1_record_schema": {
+      "pass": true,
+      "detail": "73 entries; attribution + dates + review refs clean"
+    },
+    "G2_two_way": {
+      "pass": true,
+      "detail": "73 HUMAN_VALIDATED edges == 73 promotion entries; attribution exact both directions"
+    },
+    "G3_anti_forgery": {
+      "pass": true,
+      "detail": "0 HUMAN_VALIDATED outside the promoted surface (PART_OF 0, nodes 0, command kinds 0, decision records 0)"
+    },
+    "G4_non_validation_delta": {
+      "pass": true,
+      "detail": "all 157 rows byte-checked vs HEAD: 0 drifts; meta delta == promotion_record + promoted counts only"
+    },
+    "G5_round_contract": {
+      "pass": true,
+      "detail": "73/73 semantic edges promoted; split {'REQUIRES_PREREQUISITE': 51, 'WRONG_ANSWER_PATTERN': 11, 'REMEDIATED_BY': 11}"
+    },
+    "G6_determinism": {
+      "pass": true,
+      "detail": "independent HEAD+promotions merge (73 applications) reproduces the landed store byte-for-byte"
+    },
+    "G7_held_untouched": {
+      "pass": true,
+      "detail": "45 held candidates quarantined in the decision records (records clean vs HEAD: True)"
+    },
+    "G8_standing_checkers": {
+      "pass": true,
+      "detail": "check_no_hardcode rc=0; graph_check rc=0"
+    }
+  },
+  "pins": {
+    "concept_edges.yaml": "3cd7470a1c2307e8"
+  }
+}

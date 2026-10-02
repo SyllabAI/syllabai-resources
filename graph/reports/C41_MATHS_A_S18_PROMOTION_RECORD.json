@@ -1,0 +1,56 @@
+{
+  "schema": "c41-s18-promotion-record/1.0",
+  "task": "T-C41",
+  "gate": "K2 Lane C §18 HUMAN_VALIDATED promotion round (the separate operator gate named by the C39 verdict record)",
+  "generated_utc": "2026-10-02T08:10:58+00:00",
+  "baseline": "2e7b23e3e85cc7b77d8e42390ee50400e04dd443",
+  "operator_directive": "fire K2-B (chunk substrate), run the §18 HUMAN_VALIDATED promotion round over the 73 edges (2026-10-02, zai-web)",
+  "promotion_record": "scripts/c41_maths_a_promotions.yaml",
+  "tool": "scripts/c41_maths_a_promote.py + scripts/c41_maths_a_promotion_apply.py",
+  "review_reference": [
+    "graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md"
+  ],
+  "validated_by": [
+    "operator"
+  ],
+  "validated_date": [
+    "2026-10-02"
+  ],
+  "round": {
+    "surface": "the authored semantic surface of the C39 governed apply",
+    "promoted": 73,
+    "semantic_total": 73,
+    "relation_split": {
+      "REMEDIATED_BY": 11,
+      "REQUIRES_PREREQUISITE": 51,
+      "WRONG_ANSWER_PATTERN": 11
+    },
+    "part_of_rows_untouched": 84,
+    "held_candidates_untouched": 45
+  },
+  "anti_forgery": {
+    "decision_records_untouched": true,
+    "ai_attribution": "none (validated_by = operator, the c11 precedent; AI-name patterns fail closed in both tools)",
+    "non_validation_delta": "asserted zero (structural diff over all 157 rows)"
+  },
+  "store_pins": {
+    "assessment_objectives.yaml": "8579017a208035a7",
+    "command_words.yaml": "610a29ded0017922",
+    "concept_edges.yaml": "3cd7470a1c2307e8",
+    "concepts.yaml": "f4c02fd7d023090d",
+    "practicals.yaml": "57bc13d247e16966",
+    "spec_chunk_mappings.yaml": "bf11cf0e7bc98287",
+    "spec_command_kinds.yaml": "d3af40ffa36a7db5",
+    "specification_points.yaml": "33d3e5313d37464a",
+    "topics.yaml": "9febc0f296343329"
+  },
+  "post_check": "scripts/c41_maths_a_promotion_check.py",
+  "not_done": [
+    "no node promotion (nodes stay SUGGESTED — node promotion is a separate identity decision, expansion round)",
+    "no PART_OF promotion (derived rows follow node authority)",
+    "no held-candidate promotion (45 stay quarantined)",
+    "no decision-record mutation",
+    "no chemistry writes",
+    "no corpus writes"
+  ]
+}

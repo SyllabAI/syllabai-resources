@@ -1,0 +1,526 @@
+# T-C41 promotion record — operator ratifications of exact edge identities (igcse-maths-a).
+# Written ONLY by scripts/c41_maths_a_promote.py; see graph/reports/C11_ARCHITECTURE.md §18. Hand-editing is forbidden.
+meta:
+  task: T-C41
+  stage: s18-promotion
+  contract: graph/reports/C11_ARCHITECTURE.md §18; the C39 verdict record's promotion_authorization (the
+    exact-identity §18 promotion round as the separate operator gate)
+  operator_directive: fire K2-B (chunk substrate), run the §18 HUMAN_VALIDATED promotion round over the
+    73 edges — 2026-10-02, zai-web
+  decision_record: scripts/c33_maths_a_batch01_decisions.yaml, scripts/c34_maths_a_batch02_decisions.yaml,
+    scripts/c35_maths_a_batch03_decisions.yaml, scripts/c36_maths_a_batch04_decisions.yaml, scripts/c37_maths_a_batch05_decisions.yaml,
+    scripts/c38_maths_a_batch06_decisions.yaml
+  tool: scripts/c41_maths_a_promote.py
+  generated_date: '2026-10-02'
+promotions:
+- edge:
+    source: 4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-VENN-REPRESENTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-CONJUGATE-EXPANSION-SIGN
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-MANIPULATING-SURDS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-EXPANSION-SIGN-LOSS
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-INDEX-POWER-MULTIPLICATION
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-INDEX-LAWS-SIMPLE-CASES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-INVERSE-OPERATION-ORDER
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-REARRANGING-FORMULAE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-DIRECT-AND-INVERSE-PROPORTION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-RATIO-ORDER-INVERSION
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-RATIO-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-SUBJECT-POWER-MISHANDLING
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-SURD-FACTOR-SWAP
+    relation: REMEDIATED_BY
+    target: 4MA1-CON-MANIPULATING-SURDS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ALGEBRAIC-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ALGEBRAIC-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ALGEBRAIC-PROOF
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FACTORISING-SIMPLE-QUADRATICS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-BOUNDS-IDENTIFICATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-ROUNDING-ACCURACY
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-BOUNDS-PROBLEMS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-BOUNDS-IDENTIFICATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-CARDINAL-NOTATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-SETS-AND-SUBSETS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-COMMON-DENOMINATORS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-EQUIVALENT-FRACTIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-COMMON-DENOMINATORS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FACTORS-AND-MULTIPLES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-COMPLETING-THE-SQUARE
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FACTORISING-SIMPLE-QUADRATICS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-COMPOUND-INTEREST
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-REPEATED-PERCENTAGE-CHANGE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-COMPOUND-INTEREST-AND-DEPRECIATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-PERCENTAGE-INCREASE-DECREASE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-DIRECT-AND-INVERSE-PROPORTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-REARRANGING-FORMULAE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-DIRECT-PROPORTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-PROPORTIONALITY-PROCESS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-EQUIVALENT-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FACTORS-AND-MULTIPLES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ESTIMATION-OF-CALCULATIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-ROUNDING-ACCURACY
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-ALGEBRA-GENERALISED-ARITHMETIC
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-EXTENDED-INDEX-NOTATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-INTEGER-INDEX-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-FACTORS-AND-MULTIPLES
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-TYPES-OF-NUMBER
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-FORMING-AND-SOLVING-EQUATIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-DERIVING-FORMULAE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-FORMING-AND-SOLVING-EQUATIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-SOLVING-LINEAR-EQUATIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-FRACTION-OF-A-QUANTITY
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FOUR-OPERATIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-DECIMAL-PLACE-VALUE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-HCF-AND-LCM
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-PRIME-FACTOR-DECOMPOSITION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-INDEX-LAWS-SIMPLE-CASES
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-INTEGER-INDEX-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-INTEGER-INDEX-NOTATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-ALGEBRA-GENERALISED-ARITHMETIC
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-MANIPULATING-SURDS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-MEANING-OF-SURDS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-EQUIVALENT-FRACTIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FOUR-OPERATIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-MIXED-NUMBERS-AND-IMPROPER-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-INTEGERS-AND-DIRECTED-NUMBERS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-MULTIPLYING-DIVIDING-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-UNIT-FRACTIONS-AS-INVERSES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ORDER-OF-OPERATIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FOUR-OPERATIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ORDERING-DECIMALS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-DECIMAL-PLACE-VALUE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-ORDERING-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-COMMON-DENOMINATORS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-PERCENTAGE-FRACTION-DECIMAL
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-QUADRATIC-EXPRESSIONS-AND-FACTORISING
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-INTEGER-INDEX-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-RATIO-DIVISION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-RATIO-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-RATIO-PROPORTION-PROBLEMS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-RATIO-DIVISION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-REARRANGING-FORMULAE
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FORMULAE-FROM-CONTEXT
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-REARRANGING-FORMULAE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-RECURRING-DECIMALS-TO-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-REPEATED-PERCENTAGE-CHANGE
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-REVERSE-PERCENTAGES
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-PERCENTAGE-INCREASE-DECREASE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-SETS-IN-PRACTICE
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-VENN-FOUNDATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-SETS-IN-PRACTICE
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-VENN-REPRESENTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-SUBSTITUTION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-ALGEBRAIC-NOTATION-CONVENTIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-TERMINATING-DECIMALS-ARE-FRACTIONS
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FRACTION-TO-DECIMAL-OR-PERCENTAGE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-TYPES-OF-NUMBER
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-FOUR-OPERATIONS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-TYPES-OF-NUMBER
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-INTEGERS-AND-DIRECTED-NUMBERS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-VENN-FOUNDATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-SETS-AND-SUBSETS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-CON-VENN-REPRESENTATION
+    relation: REQUIRES_PREREQUISITE
+    target: 4MA1-CON-CARDINAL-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-COMPLEMENT-INTERSECTION-CONFUSION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-VENN-REPRESENTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-CONJUGATE-EXPANSION-SIGN
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-MANIPULATING-SURDS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-EXPANSION-PARTIAL-DISTRIBUTION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-EXPANSION-SIGN-LOSS
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-EXPANDING-LINEAR-PRODUCTS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-INDEX-POWER-MULTIPLICATION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-INDEX-LAWS-SIMPLE-CASES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-INVERSE-OPERATION-ORDER
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-REARRANGING-FORMULAE
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-INVERSE-VARIATION-DIVISION-CONFUSION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-DIRECT-AND-INVERSE-PROPORTION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-PERCENTAGE-QUOTIENT-INVERSION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-PERCENTAGES-AS-OPERATORS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-RATIO-ORDER-INVERSION
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-RATIO-NOTATION
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-SUBJECT-POWER-MISHANDLING
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-REARRANGING-FORMULAE-HARDER-CASES
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
+- edge:
+    source: 4MA1-MIS-SURD-FACTOR-SWAP
+    relation: WRONG_ANSWER_PATTERN
+    target: 4MA1-CON-MANIPULATING-SURDS
+  validated_by: operator
+  validated_date: '2026-10-02'
+  review_reference: graph/reports/C39_K2C_CONSOLIDATED_OPERATOR_REVIEW.md
