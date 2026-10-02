@@ -1,0 +1,48 @@
+{
+ "schema": "syllabai.c42-r7-r8-check/1.0",
+ "task": "T-C42 R7+R8 (join re-run + substrate re-build over the C42-R6-amended resolution)",
+ "generated_utc": "2026-10-02T15:01:24+00:00",
+ "all_pass": true,
+ "gates": {
+  "W1_join_refresh": {
+   "pass": true,
+   "detail": "198/5/203, 0 foreign; unresolved set == residual + 2 R1-cleared + 2 R6-cleared; resolution pin == amended disk file (466250eaa21fada2); 8/8 R6 CORRECT codes landed; 2 R6-cleared anchors absent from joins"
+  },
+  "W2_substrate_shape": {
+   "pass": true,
+   "detail": "925 rows = 842 anchored + 20 unresolved-worklist + 63 uncovered-SP; covered codes 125; all SUGGESTED/RULE_DERIVED; upstream tier verbatim"
+  },
+  "W3_chunk_identity_invariant": {
+   "pass": true,
+   "detail": "862 chunk rows: (note_path, ordinal, heading, sha256_16) multiset IDENTICAL to pre-R8 blob 4ebb095ec73c850b — only code attribution moved"
+  },
+  "W4_reattribution_audit": {
+   "pass": true,
+   "detail": "all 862 pre-R8 chunk rows replayed: 40 rows on the 8 R6 CORRECT anchors re-pointed, 17 REATTRIBUTE override rows (R1 10 + R6 7 incl. 2 labeled extensions) + 4 RETAIN rows recorded with provenance.override, 2 R1 entries ride the join via the R6 subsumption registry (provenance.override_subsumed), 18 rows of the 4 cleared spans demoted to worklist, 781 non-surface rows zero-drift"
+  },
+  "W5_coverage_worklist": {
+   "pass": true,
+   "detail": "covered 122 -> 125 of 188; gained 5 ['4MA1-1.2D', '4MA1-2.4A', '4MA1-3.4A', '4MA1-3.4D', '4MA1-4.9D']; lost 2 ['4MA1-2.8D', '4MA1-4.4C']; worklist complete; mapping_ids unique"
+  },
+  "W6_protected_surfaces": {
+   "pass": true,
+   "detail": "dirty set == the R7/R8 footprint exactly (6 paths); Lane C stores, chemistry substrate, the R6-amended resolution, the C42 scope/R0-R6 records byte-identical to HEAD e48a434"
+  },
+  "W7_determinism": {
+   "pass": true,
+   "detail": "substrate re-run byte-identical; join re-run content-identical modulo generated_utc"
+  }
+ },
+ "pins": {
+  "head": "e48a434",
+  "old_join_blob": "46bae3ec22096685c0d65b59ad69b1bb6ffdc7c0",
+  "old_store_blob": "4ebb095ec73c850bba9b35a3d1fef2881519734b",
+  "amended_resolution_sha256_16": "466250eaa21fada2",
+  "join_198_5": true,
+  "store_rows": 925,
+  "anchored": 842,
+  "unresolved_worklist": 20,
+  "unmapped_sps": 63,
+  "covered_codes": 125
+ }
+}

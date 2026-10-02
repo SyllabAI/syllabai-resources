@@ -1,0 +1,46 @@
+{
+ "schema": "syllabai.c42-r7-r8-record/1.0",
+ "task": "T-C42",
+ "stage": "R7 join re-run + R8 substrate re-build over the C42-R6-amended resolution",
+ "directive": "R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02, zai-web)",
+ "date": "2026-10-02",
+ "baseline_commit": "e48a434",
+ "r7_join": {
+  "census": "198 joined / 5 unresolved / 203 anchors / 0 foreign codes",
+  "distinct_codes": "120/188 (was 119)",
+  "unresolved_set": [
+   "spcpt_QWXhzVp2S3VYZdZc (C31 §3 residual)",
+   "spcpt_8Wtthy9gt8B5xsVW (R1)",
+   "spcpt_3fMGfNtg3hXMg6gC (R1)",
+   "spcpt_mVXT4jbXQPrzhHvz (R6)",
+   "spcpt_hK2H8q4Y8NYv833v (R6)"
+  ],
+  "r6_correct_landed": "8/8 verbatim, wording_check EXACT"
+ },
+ "r8_substrate": {
+  "rows": "925 = 842 anchored + 20 unresolved-span + 63 uncovered-SP",
+  "covered": "125/188 (was 122; gained 1.2D 2.4A 3.4A 3.4D 4.9D; lost 2.8D 4.4C)",
+  "chunk_identity": "862 chunk rows, multiset identical to pre-R8 blob 4ebb095ec73c850b",
+  "overrides": {
+   "r1_map": "10 REATTRIBUTE + 4 RETAIN + 2 subsumed (provenance.override_subsumed)",
+   "r6_map": "7 REATTRIBUTE (4 verdicted + 3 extension, provenance_class carried)"
+  }
+ },
+ "check": {
+  "script": "scripts/c42_r7_r8_join_substrate_check.py",
+  "result": "W1-W7 ALL PASS, exit 0",
+  "pins": {
+   "head": "e48a434",
+   "old_join_blob": "46bae3ec22096685c0d65b59ad69b1bb6ffdc7c0",
+   "old_store_blob": "4ebb095ec73c850bba9b35a3d1fef2881519734b",
+   "amended_resolution_sha256_16": "466250eaa21fada2",
+   "join_198_5": true,
+   "store_rows": 925,
+   "anchored": 842,
+   "unresolved_worklist": 20,
+   "unmapped_sps": 63,
+   "covered_codes": 125
+  }
+ },
+ "next": "R9 re-gate (operator evidence, gate 2 re-run): fresh re-stratified sheet, both-tier fill, >=90% per-class required; R5 stays the operator's choice"
+}
