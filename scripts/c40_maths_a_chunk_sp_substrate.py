@@ -2,6 +2,39 @@
 """c40 — the maths-a chunk→SpecificationPoint mapping substrate (T-C40 K2 Lane B;
 the c13-chunk-convention-1 construction instantiated for the SME JSON notes corpus).
 
+T-C42 R12 AMENDMENT (2026-10-03, dated per P5 — this generator re-pinned again,
+landed records never edited): substrate re-build over the C42-R10-amended
+resolution via the R11-refreshed T-C32 join. Four semantic changes, everything
+else untouched:
+  a. the pinned join census STAYS 198+5 (the R10 round corrected 2 codes and
+     cleared 0 anchors; the related-calculations NOTE-LEVEL join was adjudicated
+     STANDING at 1.8D and the guard below VERIFIES that pin fail-closed);
+  b. the operator section-override maps are consumed FAIL-CLOSED — the R1 map
+     scripts/c42_section_overrides.yaml (16 entries), the R6 map
+     scripts/c42_section_overrides_r6.yaml (7 entries incl. 2 subsumed-registry
+     keys) AND the R10 map scripts/c42_section_overrides_r10.yaml (8 verdicted
+     entries: 7 REATTRIBUTE + 1 DEMOTE_TO_WORKLIST — the loop's first DEMOTE,
+     related-calculations ord 2, whose chunk row moves to the unresolved-span
+     worklist class RECORDED never forced, keeping its chunk identity so the
+     W3 invariant holds). Every applied entry must hit exactly one emitted
+     chunk row, its current_code must equal the join-derived code, REATTRIBUTE
+     targets must sit in the ratified registry, and any override naming a code
+     outside the ratified 188 fails the build. Applied rows carry
+     provenance.override with the map sha — the R13 re-fill sees exactly what
+     the operator ruled;
+  c. coverage + the uncovered-SP worklist are RECOMPUTED from the refreshed
+     surface (the R9-era 125-code bound stays on its own record as a
+     measurement under the pre-R10 mapping);
+  d. the pinned substrate shape moves 842 anchored + 20 unresolved-span ->
+     841 anchored + 21 unresolved-span (the DEMOTE; 63 uncovered-SP
+     recomputed) — verified by scripts/c42_r11_r12_join_substrate_check.py.
+CHUNK IDENTITY INVARIANT: the chunker, the c40-chunk-convention-1 convention
+and the corpus are untouched — note_path/ordinal/heading/sha256_16 never move;
+only code attribution changes (and one row's move to the worklist class with
+its chunk block intact). Verified old-blob vs new-file by
+scripts/c42_r11_r12_join_substrate_check.py against the pinned pre-R12 blob
+(the a26f3aa/R10-era store).
+
 T-C42 R8 AMENDMENT (2026-10-02, dated per P5 — this generator re-pinned again,
 landed records never edited): substrate re-build over the C42-R6-amended
 resolution via the R7-refreshed T-C32 join. Four semantic changes, everything
@@ -130,7 +163,7 @@ import graph_paths as GP  # C28 §3.2 path registry — single source of ratifie
 import yaml
 
 TOOL = "scripts/c40_maths_a_chunk_sp_substrate.py"
-TOOL_VERSION = "2.1.0"
+TOOL_VERSION = "2.2.0"
 CONVENTION_ID = "c40-chunk-convention-1"
 QUAL = "igcse-maths-a"
 COURSE = "igcse-maths-a-18-higher"
@@ -139,6 +172,7 @@ JOIN = ("Official-Specifications/parsed/_derived/notes-join/"
         "igcse-maths-a-18-higher.json")
 OVERRIDES_R1 = "scripts/c42_section_overrides.yaml"
 OVERRIDES_R6 = "scripts/c42_section_overrides_r6.yaml"
+OVERRIDES_R10 = "scripts/c42_section_overrides_r10.yaml"
 # surface 1 of the C42 R1 verdict round: 2 anchors cleared UNRESOLVED (their
 # wrong T-SPEC-7-era codes removed, never forced) — distinct from the C31 §3
 # residual that was already unresolved
@@ -544,7 +578,7 @@ def construct() -> dict:
              for rw in rows if "chunk" in rw}
 
     def consume_overrides(path, operator_round, expect_entries, expect_reattr,
-                          expect_retain, subsume_keys=None):
+                          expect_retain, subsume_keys=None, expect_demote=0):
         ov_bytes = r.read_bytes(path)
         ov_doc = yaml.safe_load(ov_bytes.decode("utf-8"))
         ov_sha = sha16(ov_bytes)
@@ -552,7 +586,7 @@ def construct() -> dict:
         if len(entries) != expect_entries:
             fail(f"R8: map {path} carries {len(entries)} entries != {expect_entries}")
         seen = set()
-        n_reattr = n_retain = n_subsumed = 0
+        n_reattr = n_retain = n_subsumed = n_demote = 0
         for e in entries:
             k = (e.get("note_slug"), e.get("chunk_ordinal"))
             action = (e.get("action") or "").upper()
@@ -562,7 +596,7 @@ def construct() -> dict:
             rw = keyed.get(k)
             if rw is None:
                 fail(f"R8: override {k} hits no emitted chunk row")
-            if action not in ("REATTRIBUTE", "RETAIN"):
+            if action not in ("REATTRIBUTE", "RETAIN", "DEMOTE_TO_WORKLIST"):
                 fail(f"R8: override {k} unknown action {action!r}")
             cur = e.get("current_code")
             if k in (subsume_keys or set()):
@@ -608,17 +642,43 @@ def construct() -> dict:
                     "join is coarse for this section; the operator re-attributed " \
                     "the chunk."
                 n_reattr += 1
-            else:  # RETAIN — no code change; recorded so the R9 re-fill sees the ruling
+            elif action == "DEMOTE_TO_WORKLIST":
+                # T-C42 R12: the loop's first DEMOTE (scope §4 R1 menu's second
+                # action) — the chunk row LEAVES the anchored surface for the
+                # unresolved-span worklist class, RECORDED never forced, with
+                # its chunk identity intact (the W3 invariant holds).
+                if e.get("override_code") is not None:
+                    fail(f"R8: override {k} DEMOTE carries override_code")
+                rw["provenance"]["override"] = block
+                rw["spec_code"] = None
+                rw.pop("sp_title", None)
+                rw.pop("anchor", None)
+                rw["mapping_id"] = sha16(
+                    f"demoted|{rw['note_path']}|{rw['chunk']['ordinal']}")
+                rw["worklist_reason"] = (
+                    f"DEMOTE_TO_WORKLIST per the {operator_round} operator "
+                    "verdict round (provenance.override): no canonical 188 row "
+                    "teaches this section's content and a REATTRIBUTE has no "
+                    "target — recorded, never forced")
+                rw["disposition"] = (
+                    "WORKLIST — chunk-level mapping waits on fresh notes "
+                    "coverage or a new operator anchor; recorded, not "
+                    "forced (C42 R10 surface 2 demote)")
+                n_demote += 1
+            else:  # RETAIN — no code change; recorded so the re-fill sees the ruling
                 if e.get("override_code") is not None:
                     fail(f"R8: override {k} RETAIN carries override_code")
                 rw["provenance"]["override"] = block
                 n_retain += 1
-        if (n_reattr, n_retain, n_subsumed) != (expect_reattr, expect_retain,
-                                                expect_entries - expect_reattr - expect_retain):
-            fail(f"R8: map {path} applied census {n_reattr}/{n_retain}/{n_subsumed} "
-                 f"!= {expect_reattr}/{expect_retain}/{expect_entries - expect_reattr - expect_retain}")
+        if (n_reattr, n_retain, n_demote, n_subsumed) != (expect_reattr, expect_retain,
+                                                          expect_demote,
+                                                          expect_entries - expect_reattr - expect_retain - expect_demote):
+            fail(f"R8: map {path} applied census {n_reattr}/{n_retain}/{n_demote}/{n_subsumed} "
+                 f"!= {expect_reattr}/{expect_retain}/{expect_demote}/"
+                 f"{expect_entries - expect_reattr - expect_retain - expect_demote}")
         return {"path": path, "sha256_16": ov_sha, "entries": len(entries),
-                "reattribute": n_reattr, "retain": n_retain, "subsumed": n_subsumed}
+                "reattribute": n_reattr, "retain": n_retain, "demote": n_demote,
+                "subsumed": n_subsumed}
 
     # the R6 map's subsumption registry (keys the R1 entries whose correction
     # rides the R6 note-level repair)
@@ -635,6 +695,24 @@ def construct() -> dict:
     ov_r6 = consume_overrides(OVERRIDES_R6, "C42 R6 (surface 3: section-level verdicts "
                                              "+ labeled extensions)",
                               expect_entries=7, expect_reattr=7, expect_retain=0)
+    ov_r10 = consume_overrides(OVERRIDES_R10, "C42 R10 (surface 2: 7 REATTRIBUTE + the "
+                                              "loop's first DEMOTE_TO_WORKLIST)",
+                               expect_entries=8, expect_reattr=7, expect_retain=0,
+                               expect_demote=1)
+
+    # T-C42 R12: the R10 map's note-level adjudication pins the
+    # related-calculations anchor as STANDING — verify the refreshed join
+    # still carries 4MA1-1.8D for that note, fail-closed.
+    _r10_adj = (yaml.safe_load(r.read_bytes(OVERRIDES_R10).decode("utf-8"))
+                .get("note_level_adjudications") or {}).get("related-calculations") or {}
+    if _r10_adj.get("ruling") != "THE NOTE-LEVEL JOIN STANDS":
+        fail("R12: the R10 note-level adjudication for related-calculations is "
+             "missing or has drifted")
+    _rc_code = next((j["store_row_code"] for j in jrows
+                     if j["note_path"].endswith("related-calculations.json")), None)
+    if _rc_code != "4MA1-1.8D" or _r10_adj.get("anchor_id") != "spcpt_crKbmb6wVjM4yPJh":
+        fail(f"R12: the STANDING pin drifted — related-calculations joins "
+             f"{_rc_code!r} (want 4MA1-1.8D on spcpt_crKbmb6wVjM4yPJh)")
 
     # worklist: uncovered SPs (registry minus notes-covered codes)
     covered = sorted({x["spec_code"] for x in rows if x.get("spec_code")})
@@ -702,14 +780,16 @@ def construct() -> dict:
         "meta": {
             "store": "c40 maths-a chunk→SpecificationPoint mapping substrate "
                      "(span-marker construction over the SME JSON notes corpus)",
-            "stage": "T-C42 R8: substrate re-build over the C42-R6-amended "
-                     "resolution via the R7-refreshed T-C32 join — chunk identity "
-                     "invariant, only code attribution moves; BOTH operator "
-                     "section-override maps (R1 + R6, with the R6 subsumption "
-                     "registry) consumed fail-closed; coverage + the "
-                     "uncovered-SP worklist recomputed (the R3-era 122-code "
-                     "bound stays on its own record as a measurement under the "
-                     "pre-R6 mapping)",
+            "stage": "T-C42 R12: substrate re-build over the C42-R10-amended "
+                     "resolution via the R11-refreshed T-C32 join — chunk "
+                     "identity invariant, only code attribution moves (plus one "
+                     "row's DEMOTE to the worklist class, chunk block intact); "
+                     "the THREE operator section-override maps (R1 + R6 with "
+                     "the subsumption registry + R10 with the loop's first "
+                     "DEMOTE and the note-level STANDING pin) consumed "
+                     "fail-closed; coverage + the uncovered-SP worklist "
+                     "recomputed (the R9-era 125-code bound stays on its own "
+                     "record as a measurement under the pre-R10 mapping)",
             "convention": CONVENTION_ID,
             "convention_spec": (
                 "a note = SP spans split at the corpus's own `spec_point` blocks; "
@@ -730,8 +810,13 @@ def construct() -> dict:
             "chunks_section": census["section_chunks"],
             "joins_resolved": len(jrows),
             "joins_unresolved": len(urows),
-            "rows_anchored": n_anchored,
-            "rows_worklist_anchor_unresolved": n_unres_chunks,
+            # T-C42 R12: counted from the FINAL rows (post override consumption),
+            # not the emission counters — the DEMOTE moves a row out of the
+            # anchored class after emission
+            "rows_anchored": sum(1 for x in rows
+                                 if x.get("spec_code") and "chunk" in x),
+            "rows_worklist_anchor_unresolved": sum(1 for x in rows
+                                                   if x.get("worklist_reason") and "chunk" in x),
             "rows_worklist_unmapped_sps": n_unmapped,
             "sp_codes_covered": len(covered),
             "sp_codes_uncovered": unmapped_sps,

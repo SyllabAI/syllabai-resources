@@ -1,0 +1,47 @@
+{
+ "schema": "syllabai.c42-r11-r12-record/1.0",
+ "task": "T-C42 R11+R12",
+ "date": "2026-10-03",
+ "baseline": "a26f3aa",
+ "record_md": "graph/reports/C42_R11_R12_JOIN_SUBSTRATE_RECORD.md",
+ "check": {
+  "head": "a26f3aa",
+  "old_join_blob": "a999481621d3bb3a47d72b8294b3a03bfbe416a2",
+  "old_store_blob": "80c883dcde552485aa961d30585459dbc198c57f",
+  "amended_resolution_sha256_16": "247e02062f1d4ed9",
+  "join_198_5": true,
+  "store_rows": 923,
+  "anchored": 841,
+  "unresolved_span_worklist": 21,
+  "demoted_worklist": 1,
+  "unmapped_sps": 61,
+  "covered_codes": 127
+ },
+ "all_pass": true,
+ "coverage_movement": {
+  "from": 125,
+  "to": 127,
+  "gained": [
+   "4MA1-1.6A",
+   "4MA1-1.6C"
+  ],
+  "lost": []
+ },
+ "substrate_shape": {
+  "rows": 923,
+  "anchored": 841,
+  "unresolved_span": 21,
+  "demoted": 1,
+  "uncovered_sp": 61
+ },
+ "footprint": [
+  "scripts/c32_notes_maths_a_join.py (R11 amendment)",
+  "scripts/c40_maths_a_chunk_sp_substrate.py@2.2.0 (R12 amendment)",
+  "scripts/c42_r11_r12_join_substrate_check.py",
+  "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+  "graph/igcse-maths-a/spec_chunk_mappings.yaml",
+  "graph/reports/C42_R11_R12_CHECK.json",
+  "graph/reports/C42_R11_R12_JOIN_SUBSTRATE_RECORD.md",
+  "graph/reports/C42_R11_R12_JOIN_SUBSTRATE_RECORD.json"
+ ]
+}
