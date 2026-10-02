@@ -2,7 +2,7 @@
  "schema": "c42-r10-resolution-repair-check/1.0",
  "task": "T-C42",
  "round": "R10",
- "generated_utc": "2026-10-02T18:50:32+00:00",
+ "generated_utc": "2026-10-02T18:51:40+00:00",
  "pre_r10_baseline_commit": "a872cdd",
  "baseline_blob_sha16": "466250eaa21fada2",
  "checks": [
@@ -28,7 +28,7 @@
   },
   {
    "check": "C5 top-level R10 block + R1/R6 history + clause + convention refs",
-   "pass": false,
+   "pass": true,
    "detail": ""
   },
   {
@@ -43,15 +43,15 @@
   },
   {
    "check": "C8 R10 round committed and git-clean",
-   "pass": false,
-   "detail": "['SME-ExamQuestion/igcse-maths-a-18-higher/spec_point_resolution.json', 'graph/reports/C42_R10_HEADING_ONLY_CONVENTION.json', 'graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md', 'graph/reports/C42_R10_REPAIR_PROPOSALS.json', 'graph/reports/C42_R10_RESOLUTION_REPAIR_RECORD.md', 'scripts/c42_r10_repair_proposals.py']"
+   "pass": true,
+   "detail": ""
   },
   {
-   "check": "C9 round artifacts (proposals surfaces 2/7/13 + convention record)",
-   "pass": false,
-   "detail": "s1=3 s2=7 s3=13"
+   "check": "C9 round artifacts (proposals surfaces 3/7/13 + convention record)",
+   "pass": true,
+   "detail": ""
   }
  ],
- "all_pass": false,
- "exit": 1
+ "all_pass": true,
+ "exit": 0
 }
