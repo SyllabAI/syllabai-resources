@@ -33,8 +33,9 @@ Positive controls:
      clean high-confidence response -> SUGGESTED
   C. prefilter over the committed smoke fixture: anchored chemistry units hit
      their registry anchors (top-3, weak=false); the REAL June-2025 WPH11
-     physics question is weak=true (out-of-curriculum control); run is
-     byte-identical twice
+     physics question is weak=true (out-of-curriculum control; C2 absolute
+     production tripwire) and ranks below every anchored positive (C2b
+     comparative discrimination invariant); run is byte-identical twice
   D. from-paper adapter over the committed sample paper.json: one unit per
      part + stemless MCQ, tool-name guard enforced
 
@@ -273,9 +274,42 @@ def main() -> int:
                    str([(c["code"], c["score"]) for c in cand[:3]]))
 
         phys = by_id["smoke-q-physics-newtons-cradle"]
-        report("C2 REAL WPH11 physics question marks weak (out-of-curriculum control)",
+        # C2 headroom analysis (2026-10-02, T-C12-C2REPIN): the absolute pin
+        # below is the PRODUCTION tripwire — it asserts that the prefilter's
+        # real weak-marking still fires on the real WPH11 out-of-curriculum
+        # question. Its number is scale-bound to registry text richness: the
+        # T-C11 burn curve attributes +0.1083 of the +0.1131 total drift to
+        # batch 6 (766fdd7), whose demanded_substance for 4CH1-2.25C carries
+        # 'density' + 'steel' — two high-IDF single-token collisions with
+        # this fixture (top 0.1306 via 'mass' on 4CH1-1.16 -> 0.2437 on
+        # 4CH1-2.25C); batches 7-11 added +0.004; the chemistry registry has
+        # had no commit since ee0524d (2026-09-25) and the T-C35 maths
+        # program excludes chemistry writes. If a future chemistry registry
+        # program trips this assertion, that red is the DESIGNED data-side
+        # escalation signal (a T-C11-lane-style question): high-IDF
+        # vocabulary bleed from demanded_substance into out-of-curriculum
+        # fixtures. C2b below pins the growth-robust discrimination
+        # invariant alongside it.
+        report("C2 REAL WPH11 physics question marks weak (out-of-curriculum control; production tripwire)",
                bool(phys) and phys[0]["score"] < t.WEAK_SCORE,
                str([(c["code"], c["score"]) for c in phys[:2]]))
+
+        # C2b (2026-10-02, T-C12-C2REPIN): comparative discrimination
+        # invariant — an out-of-curriculum question must rank below EVERY
+        # anchored positive (the property that dies if the prefilter can no
+        # longer tell in-curriculum from out). Machine-derived from
+        # fixture+registry at run time — no new constants. Measured PASS on
+        # all ten registry states from the bb51b88 flat era through batches
+        # 5-11 to main (control 0.1306-0.2437 vs weakest anchored positive
+        # >=0.7439), so it survives registry growth; C2 above stays the
+        # absolute production tripwire (fires at x1.23 inflation, C2b at
+        # x3.58 — deep backstop, not a substitute).
+        pos_tops = [by_id[q][0]["score"] for q in expect_anchors]
+        report("C2b out-of-curriculum control ranks below every anchored positive",
+               bool(phys) and all(phys[0]["score"] < p for p in pos_tops),
+               "control top=%s vs anchored positives=%s" % (
+                   round(phys[0]["score"], 4) if phys else None,
+                   sorted(round(p, 4) for p in pos_tops)))
 
         neg = by_id["smoke-q-fuels-sulfur-negative-control"]
         # C3 re-pin (2026-10-01, c12 check-C3 repair): the smoke control is a
@@ -290,7 +324,6 @@ def main() -> int:
         # anchored positive (a multi-point question never outscores a real
         # single-point anchor). Production WEAK_SCORE semantics are unchanged;
         # C2 keeps its absolute out-of-curriculum assertion.
-        pos_tops = [by_id[q][0]["score"] for q in expect_anchors]
         report("C3 4.15-style aggregation control ranks below every anchored positive",
                bool(neg) and all(neg[0]["score"] < p for p in pos_tops),
                "control top=%s vs anchored positives=%s" % (
