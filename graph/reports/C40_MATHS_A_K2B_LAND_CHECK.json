@@ -1,0 +1,55 @@
+{
+  "schema": "c40-k2b-land-check/1.0",
+  "task": "T-C40",
+  "gate": "K2 Lane B (chunk substrate) landing battery",
+  "generated_utc": "2026-10-02T07:46:12+00:00",
+  "baseline": "d63262196586d77f3ff53242ecb98e9a40fd579f",
+  "result": "ALL PASS",
+  "gates": {
+    "P1_store_shape": {
+      "pass": true,
+      "detail": "939 rows = 860 anchored + 2 unresolved + 77 unmapped; meta reconciles"
+    },
+    "P2_determinism": {
+      "pass": true,
+      "detail": "independent construct() re-run byte-identical to the emitted store rows"
+    },
+    "P3_anchor_fidelity": {
+      "pass": true,
+      "detail": "862 chunk rows re-verified against a fresh re-chunking; 0 failures"
+    },
+    "P4_anti_forgery": {
+      "pass": true,
+      "detail": "0 HUMAN_VALIDATED rows; tier RULE_DERIVED on 939 rows; upstream tier verbatim 'AI_VALIDATED (operator-delegated chain)'"
+    },
+    "P5_codes_worklist": {
+      "pass": true,
+      "detail": "111 covered codes ⊆ registry(188); 77 uncovered enumerated; 2 unresolved-span chunks dispositioned"
+    },
+    "P6_registry_k2_exit": {
+      "pass": true,
+      "detail": "maths-a 9 stores (9 = K2 exit); chemistry 10 stores"
+    },
+    "P7_footprint": {
+      "pass": true,
+      "detail": "touched 10 paths, all in the T-C40 allowlist"
+    },
+    "P8_check_no_hardcode": {
+      "pass": true,
+      "detail": "CHECK GREEN"
+    },
+    "P9_review_sheet": {
+      "pass": true,
+      "detail": "sheet: 468 Part A verdict boxes, 79 Part B DEFER boxes; 0 note-path resolution failures"
+    },
+    "P10_pins": {
+      "pass": true,
+      "detail": "{'spec_chunk_mappings.yaml': 'bf11cf0e7bc98287', 'C40_MATHS_A_CHUNK_SP_SUBSTRATE_REPORT.md': 'ab7e15cb0ffa7f50', 'C40_MATHS_A_CHUNK_SP_SUBSTRATE_REVIEW_SHEET.md': 'e3a1b65508cc784f'}"
+    }
+  },
+  "store_pins": {
+    "spec_chunk_mappings.yaml": "bf11cf0e7bc98287",
+    "C40_MATHS_A_CHUNK_SP_SUBSTRATE_REPORT.md": "ab7e15cb0ffa7f50",
+    "C40_MATHS_A_CHUNK_SP_SUBSTRATE_REVIEW_SHEET.md": "e3a1b65508cc784f"
+  }
+}

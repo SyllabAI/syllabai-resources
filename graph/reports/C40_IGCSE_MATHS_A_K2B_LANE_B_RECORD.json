@@ -1,0 +1,56 @@
+{
+  "schema": "c40-k2b-lane-b-record/1.0",
+  "task": "T-C40",
+  "gate": "K2-B (C31 §8): Lane B build — chunk substrate",
+  "generated_utc": "2026-10-02T07:46:12+00:00",
+  "baseline": "d63262196586d77f3ff53242ecb98e9a40fd579f",
+  "operator_directive": "fire K2-B (chunk substrate), run the §18 HUMAN_VALIDATED promotion round over the 73 edges (2026-10-02, zai-web)",
+  "scope": {
+    "qual": "igcse-maths-a",
+    "lane": "B — chunk substrate (T-C13/C13 pattern replayed per C31 §6)",
+    "store": "graph/igcse-maths-a/spec_chunk_mappings.yaml",
+    "registry_delta": "maths-a 8 → 9 stores — the K2 exit shape (C31 §8)"
+  },
+  "inputs": {
+    "notes_corpus": "SME-RevisionNotes/igcse-maths-a-18-higher",
+    "notes_manifest_sha256_16": "cc470d40873f51a4",
+    "join_artifact": "Official-Specifications/parsed/_derived/notes-join/igcse-maths-a-18-higher.json",
+    "upstream_validation_tier": "AI_VALIDATED (operator-delegated chain)",
+    "tier_honesty": "chemistry's Lane B refined a HUMAN_VALIDATED T-C10 quote store; the maths-a upstream join is AI_VALIDATED (operator-delegated chain) and carries no quotes — the anchoring axis is the corpus's own spec_point span markers + the T-C32 id-join, recorded verbatim on every row (C31 §4.5)"
+  },
+  "construction": {
+    "convention": "c40-chunk-convention-1",
+    "tool": "scripts/c40_maths_a_chunk_sp_substrate.py@1.0.0",
+    "determinism": "two independent constructions byte-identical (G7); checker P2 re-derives the rows from inputs",
+    "census": {
+      "notes": 191,
+      "spans": 203,
+      "chunks_total": 862,
+      "chunks_intro": 0,
+      "chunks_section": 862,
+      "rows_anchored": 860,
+      "rows_worklist_anchor_unresolved": 2,
+      "rows_worklist_unmapped_sps": 77,
+      "sp_codes_covered": 111
+    }
+  },
+  "gates": "c40_maths_a_chunk_sp_substrate.py G1–G7 all green at construction; landing battery P1–P10 (see C40_MATHS_A_K2B_LAND_CHECK.json)",
+  "review_sheet": {
+    "path": "graph/reports/C40_MATHS_A_CHUNK_SP_SUBSTRATE_REVIEW_SHEET.md",
+    "part_a_rows": 468,
+    "part_b_rows": 79,
+    "sampling": "all ambiguous (none by construction) + seeded stratified: join score <1.0 or absent at 100%, score == 1.0 at ceil(20%) + every worklist row (the C13 convention)",
+    "gate_rule": "Part A precision >= 90% per class AND every Part B row decided -> promotion authorized"
+  },
+  "not_done": [
+    "no HUMAN_VALIDATED rows (promotion is the review-sheet gate + a recorded deterministic apply step — executed only after the fill and left to the operator's sign-off)",
+    "no chemistry bytes touched; no corpus writes; no other store touched",
+    "no K3/K4 work (playbook-deferred)"
+  ],
+  "store_pins": {
+    "spec_chunk_mappings.yaml": "bf11cf0e7bc98287",
+    "C40_MATHS_A_CHUNK_SP_SUBSTRATE_REPORT.md": "ab7e15cb0ffa7f50",
+    "C40_MATHS_A_CHUNK_SP_SUBSTRATE_REVIEW_SHEET.md": "e3a1b65508cc784f"
+  },
+  "verification": "graph/reports/C40_MATHS_A_K2B_LAND_CHECK.json"
+}
