@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.sme-spec-point-resolution/1.0",
  "generated_utc": "2026-09-19T15:30:24Z",
- "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review; T-C42 R1 resolution-repair round (2026-10-02, operator-delegate under the fired R1 directive; human operator sign-off retained): 22 id-level codes corrected, 2 cleared UNRESOLVED, 21 affirmed with statements re-pointed to the Foundation wording per the C30 tier-dedupe ledger, the C32 residual kept UNRESOLVED, and 16 section-level dispositions recorded for the R3 override map; T-C42 R6 R1-shaped verdict round over the R4 defect inventory (2026-10-02, operator-delegate under the fired R6 directive; human operator sign-off retained): 8 id-level codes corrected, 2 cleared UNRESOLVED (never forced), the C32 residual re-affirmed KEPT UNRESOLVED, 4 section-level REATTRIBUTE dispositions + 2 labeled extension rows recorded for the R8 override map, and 2 R1 override entries subsumed by the note-level repairs",
+ "validation": "AI_VALIDATED (operator-delegated chain; T-SPEC-10 operator reasoning round per operator instruction 2026-09-19 - mappings reasoned directly against the committed registries and the official Pearson PDFs, no scripted matching, no upstream tickets, PMT excluded as source); HUMAN_VALIDATED via operator review; T-C42 R1 resolution-repair round (2026-10-02, operator-delegate under the fired R1 directive; human operator sign-off retained): 22 id-level codes corrected, 2 cleared UNRESOLVED, 21 affirmed with statements re-pointed to the Foundation wording per the C30 tier-dedupe ledger, the C32 residual kept UNRESOLVED, and 16 section-level dispositions recorded for the R3 override map; T-C42 R6 R1-shaped verdict round over the R4 defect inventory (2026-10-02, operator-delegate under the fired R6 directive; human operator sign-off retained): 8 id-level codes corrected, 2 cleared UNRESOLVED (never forced), the C32 residual re-affirmed KEPT UNRESOLVED, 4 section-level REATTRIBUTE dispositions + 2 labeled extension rows recorded for the R8 override map, and 2 R1 override entries subsumed by the note-level repairs; T-C42 R10 R1-shaped verdict round over the R9 defect inventory (2026-10-03, operator-delegate under the fired R10 directive; human operator sign-off retained): 2 id-level codes corrected (expanding-triple-brackets 2.2E -> 2.2A; algebraic-fractions 1.2A -> 2.2C), 0 cleared (counts unchanged 222/214/8), the C32 residual re-affirmed KEPT UNRESOLVED, 7 section-level REATTRIBUTE dispositions + 1 DEMOTE-to-worklist (related-calculations ord 2 — the note-level join adjudicated and STANDING) recorded for the R12 override map, and the heading-only chunk class resolved by c42-heading-only-convention-1",
  "counts": {
   "ids": 222,
   "resolved": 214,
@@ -867,13 +867,27 @@
    "sme_name": "Expanding Three Brackets",
    "sme_definition": "",
    "referenced_by_parts": 14,
-   "resolved_code": "2.2E",
-   "official_id": "IGCSE_MATHS_A:H-2.2E",
-   "official_wording": "use algebra to support and construct proofs",
+   "resolved_code": "2.2A",
+   "official_id": "IGCSE_MATHS_A:H-2.2A",
+   "official_wording": "expand the product of two or more linear expressions",
    "tier": "P2_page_context_join",
    "score": 1.0,
    "method": "operator-verdict page-context join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R10",
+    "date": "2026-10-03",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "2.2E",
+     "official_id": "IGCSE_MATHS_A:H-2.2E",
+     "official_wording": "use algebra to support and construct proofs"
+    },
+    "verdict_ref": "spcpt_GVgyB5BVfNDYGf8M",
+    "review_reference": "graph/reports/C42_R10_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.2A 'expand the product of two or more linear expressions' (Higher) is verbatim the note's teaching (ord-1 dossier — expanding the product of THREE linear expressions by the grid method with worked examples; the note-title head ord 0 is the heading-only class resolved by the convention); 2.2E's operative Higher wording is 'use algebra to support and construct proofs' — unrelated content — and its C30 ledger Foundation wording ('expand the product of two simple linear expressions') covers TWO brackets, not three, so the both-tier check exonerates neither tier of 2.2E: the note-level join is a T-SPEC resolution error the C40/R4 samples never drew (R9 fresh row 998c7d61c8cfb1a8, root note-level-class). The store's 2.2A wording is the exact surface; the sibling expanding-double-brackets note keeps 2.2E coverage alongside Algebraic Proof, and substitution.json already joins 2.2A (the re-point adds a second note to a covered code)"
+   }
   },
   {
    "id": "spcpt_H8sZcbsSTbtsTTr5",
@@ -1267,12 +1281,12 @@
    "reason": "no-guess pending: the 4MA1 print has no standalone discrete/continuous statement (PDF-verified; the term appears only inside mean and interquartile-range fragments 6.2B/6.2C); GCSE-bridge content - the 'flagged for parse repair' clause was wrong",
    "repair": {
     "task": "T-C42",
-    "round": "R6",
-    "date": "2026-10-02",
+    "round": "R10",
+    "date": "2026-10-03",
     "disposition": "KEEP_UNRESOLVED",
     "verdict_ref": "spcpt_QWXhzVp2S3VYZdZc",
-    "review_reference": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
-    "evidence": "re-affirmed at R6 — the C32 §3 residual's PDF-verified reason stands (the 4MA1 print has no standalone discrete/continuous statement); unchanged from the R1 adjudication; the R4 Part B carried it DEFER and nothing in the R4 inventory touches it"
+    "review_reference": "graph/reports/C42_R10_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "re-affirmed at R10 — the C32 §3 residual's PDF-verified reason stands (the 4MA1 print has no standalone discrete/continuous statement); unchanged from the R1 adjudication (re-affirmed at R6); the R9 Part B carried it DEFER and nothing in the R9 inventory touches it"
    }
   },
   {
@@ -2717,13 +2731,27 @@
    "sme_name": "Simplifying Algebraic Fractions",
    "sme_definition": "",
    "referenced_by_parts": 26,
-   "resolved_code": "1.2A",
-   "official_id": "IGCSE_MATHS_A:1.2A",
-   "official_wording": "understand and use equivalent fractions, simplifying a fraction by cancelling common factors",
+   "resolved_code": "2.2C",
+   "official_id": "IGCSE_MATHS_A:H-2.2C",
+   "official_wording": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
    "tier": "P1_name_fragment_join",
    "score": 1.0,
    "method": "operator-verdict name-fragment join (T-SPEC-7; PMT excluded as source)",
-   "unit": null
+   "unit": null,
+   "repair": {
+    "task": "T-C42",
+    "round": "R10",
+    "date": "2026-10-03",
+    "disposition": "CORRECT",
+    "prior": {
+     "code": "1.2A",
+     "official_id": "IGCSE_MATHS_A:1.2A",
+     "official_wording": "understand and use equivalent fractions, simplifying a fraction by cancelling common factors"
+    },
+    "verdict_ref": "spcpt_pqWsmktWyMCRfTk6",
+    "review_reference": "graph/reports/C42_R10_RESOLUTION_REPAIR_RECORD.md",
+    "evidence": "2.2C 'manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic' (Higher) is verbatim the note's teaching (ord-2 dossier — simplifying ALGEBRAIC fractions by full factorisation and cancelling common factors incl. common brackets); 1.2A is numerical-fraction equivalence/simplifying and the R6 repair of Basic Fractions (numerical) does not extend to this note — the note-level join is a T-SPEC P1_name_fragment_join resolution error, new catch at R9 (fresh row 6ab17e03c20b4d95, root note-level-class). CORROBORATION: all three sibling notes in the same corpus tree (adding-and-subtracting-algebraic-fractions, multiplying-and-dividing-algebraic-fractions, solving-algebraic-fractions) join H-2.2C correctly — this note is the outlier; 1.2A keeps coverage via the R6-repaired Basic Fractions note"
+   }
   },
   {
    "id": "spcpt_qNDqnmZtzYttZDnz",
@@ -3595,6 +3623,36 @@
  "repair_history": [
   {
    "task": "T-C42",
+   "round": "R6",
+   "date": "2026-10-02",
+   "directive": "R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02, zai-web) — fired over the R4 re-gate's defect inventory (19 reject rows in scripts/c42_r4_fresh_verdicts.yaml; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
+   "reviewer": "Super Z (GLM agent), operator-delegate under the fired R6 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the substrate stays SUGGESTED and the C41-promoted 73 edges are untouched)",
+   "verdicts_record": "scripts/c42_r6_repair_verdicts.yaml",
+   "section_overrides_record": "scripts/c42_section_overrides_r6.yaml",
+   "proposals_record": "graph/reports/C42_R6_REPAIR_PROPOSALS.json (PROPOSAL-ONLY, binds nothing)",
+   "inventory_source": "the R4 re-gate defect inventory (scripts/c42_r4_fresh_verdicts.yaml, 19 reject rows; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
+   "record": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+   "counts_delta": {
+    "corrected": 8,
+    "cleared_unresolved": 2,
+    "residual_kept": 1,
+    "section_overrides": {
+     "reattribute": 4,
+     "retain": 0,
+     "extension_rows": 3
+    },
+    "subsumed_r1_entries": 2
+   },
+   "notes": [
+    "the R6 lane is the second R1-shaped verdict round of the scope §7 loop — fired by explicit operator instruction over the R4 defect inventory",
+    "the T-C32 join and the chunk substrate are now STALE relative to this file by design — they refresh at R7/R8; the R9 re-gate re-renders the review surface",
+    "2 R1 override entries (solving-linear-inequalities ord 3, basic-fractions ord 6) are SUBSUMED by the note-level repairs they anticipated — the R8 build verifies and records them, it does not re-apply them as no-ops",
+    "2 extension section rows (area ord 6, basic-fractions ord 2) are recorded with heading-verbatim evidence, transparently labeled as not-R4-sampled",
+    "2 observations recorded for the operator (drawing-straight-line-graphs note-join question; scorer noise) — nothing self-repairs beyond this round's surface"
+   ]
+  },
+  {
+   "task": "T-C42",
    "round": "R1",
    "date": "2026-10-02",
    "directive": "fire R1 (2026-10-02, zai-web)",
@@ -3621,32 +3679,35 @@
  ],
  "repair": {
   "task": "T-C42",
-  "round": "R6",
-  "date": "2026-10-02",
-  "directive": "R1-shaped verdict round over this inventory (then R2/R3/R4 re-run) (2026-10-02, zai-web) — fired over the R4 re-gate's defect inventory (19 reject rows in scripts/c42_r4_fresh_verdicts.yaml; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
-  "reviewer": "Super Z (GLM agent), operator-delegate under the fired R6 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the substrate stays SUGGESTED and the C41-promoted 73 edges are untouched)",
-  "verdicts_record": "scripts/c42_r6_repair_verdicts.yaml",
-  "section_overrides_record": "scripts/c42_section_overrides_r6.yaml",
-  "proposals_record": "graph/reports/C42_R6_REPAIR_PROPOSALS.json (PROPOSAL-ONLY, binds nothing)",
-  "inventory_source": "the R4 re-gate defect inventory (scripts/c42_r4_fresh_verdicts.yaml, 19 reject rows; the R4 gate FAILED at exact-stratum 80.4% < 90%)",
-  "record": "graph/reports/C42_R6_RESOLUTION_REPAIR_RECORD.md",
+  "round": "R10",
+  "date": "2026-10-03",
+  "directive": "an R1-shaped round over the R9 inventory (then R7/R8/R9 again), the heading-only-chunk convention decision (2026-10-03, zai-web) — fired over the R9 re-gate's defect inventory (10 reject rows in scripts/c42_r9_fresh_verdicts.yaml; the R9 gate FAILED at exact-stratum 76.8% < 90%); lane numbering follows the loop's iteration-2 precedent (the 'R2/R3/R4 re-run' directive executed as R6/R7/R8): this round is R10, the join re-run is R11, the substrate re-build is R12, the re-gate is R13; R5 stays reserved for the §18 apply (operator gate 3)",
+  "reviewer": "Super Z (GLM agent), operator-delegate under the fired R10 directive; the human operator retains final sign-off; per the anti-forgery rule nothing here promotes store rows (the substrate stays SUGGESTED and the C41-promoted 73 edges are untouched)",
+  "verdicts_record": "scripts/c42_r10_repair_verdicts.yaml",
+  "section_overrides_record": "scripts/c42_section_overrides_r10.yaml",
+  "proposals_record": "graph/reports/C42_R10_REPAIR_PROPOSALS.json (PROPOSAL-ONLY, binds nothing)",
+  "convention_record": "graph/reports/C42_R10_HEADING_ONLY_CONVENTION.md (c42-heading-only-convention-1 — the heading-only chunk class resolved by the round's convention decision, not by per-row re-points)",
+  "inventory_source": "the R9 re-gate defect inventory (scripts/c42_r9_fresh_verdicts.yaml, 10 reject rows; the R9 gate FAILED at exact-stratum 76.8% < 90%)",
+  "record": "graph/reports/C42_R10_RESOLUTION_REPAIR_RECORD.md",
   "counts_delta": {
-   "corrected": 8,
-   "cleared_unresolved": 2,
+   "corrected": 2,
+   "cleared_unresolved": 0,
    "residual_kept": 1,
    "section_overrides": {
-    "reattribute": 4,
+    "reattribute": 7,
+    "demote_to_worklist": 1,
     "retain": 0,
-    "extension_rows": 3
+    "extension_rows": 0
    },
-   "subsumed_r1_entries": 2
+   "note_level_adjudications": 1,
+   "heading_only_convention": "c42-heading-only-convention-1"
   },
   "notes": [
-   "the R6 lane is the second R1-shaped verdict round of the scope §7 loop — fired by explicit operator instruction over the R4 defect inventory",
-   "the T-C32 join and the chunk substrate are now STALE relative to this file by design — they refresh at R7/R8; the R9 re-gate re-renders the review surface",
-   "2 R1 override entries (solving-linear-inequalities ord 3, basic-fractions ord 6) are SUBSUMED by the note-level repairs they anticipated — the R8 build verifies and records them, it does not re-apply them as no-ops",
-   "2 extension section rows (area ord 6, basic-fractions ord 2) are recorded with heading-verbatim evidence, transparently labeled as not-R4-sampled",
-   "2 observations recorded for the operator (drawing-straight-line-graphs note-join question; scorer noise) — nothing self-repairs beyond this round's surface"
+   "the R10 lane is the third R1-shaped verdict round of the scope §7 loop — fired by explicit operator instruction over the R9 defect inventory; lane numbering follows the iteration-2 precedent (this round is R10; the join re-run is R11, the substrate re-build is R12, the re-gate is R13; R5 stays reserved)",
+   "the T-C32 join and the chunk substrate are now STALE relative to this file by design — they refresh at R11/R12; the R13 re-gate re-renders the review surface",
+   "the related-calculations NOTE-LEVEL join was adjudicated and STANDS on the note's ord-3 estimation-to-check surface — the R9 root's name-fragment suspicion is examined and rejected; only the ord-2 section DEMOTEs to the worklist (the scope §4 R1 menu's DEMOTE action, exercised for the first time)",
+   "the heading-only chunk class (~204 of 862 anchored rows) is resolved by c42-heading-only-convention-1 (H1 verdict standing / H2 content standing / H3 fail-closed HOLD) — a structural class treatment, not per-row re-points; the human operator retains final sign-off and may reverse before R5",
+   "0 anchors cleared this round — the counts stay 222/214/8"
   ]
  }
 }
